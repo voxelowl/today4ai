@@ -1,8 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 01 Nov 2026 21:19:50 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 02 Nov 2026 00:49:04 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Kyle Kingsbury Warns LLMs Erode Trust in Software</title><link>https://simonwillison.net/2026/Nov/1/kyle-kingsbury/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/1/kyle-kingsbury/</guid>
+<pubDate>Mon, 02 Nov 2026 00:49:04 +0800</pubDate>
+<description>&lt;p&gt;Distributed systems expert Kyle Kingsbury argues that widespread LLM usage is eroding trust in documentation, software, and producing organizations. As traditional signals of system maturity become easier to counterfeit, maintainers face new challenges in ensuring correctness and demonstrating quality to users.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Kyle Kingsbury 警告 LLM 侵蚀软件信任机制&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了 AI 普及对软件工程信任基石的深层冲击，引发行业反思。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · industry · signal 42/100&lt;/p&gt;</description>
+<source url="https://simonwillison.net/2026/Nov/1/kyle-kingsbury/">Simon Willison 博客</source>
+<category>AI伦理</category>
+<category>软件工程</category>
+<category>信任危机</category>
+</item>
+<item><title>Critical ChatGPT Vulnerability Allowed Account Takeover via Artifacts</title><link>https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/</link><guid isPermaLink="true">https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/</guid>
+<pubDate>Sun, 01 Nov 2026 23:41:41 +0800</pubDate>
+<description>&lt;p&gt;Security firm Parameter Labs disclosed a critical vulnerability in ChatGPT&amp;#x27;s &amp;#x27;Artifacts&amp;#x27; (HTML preview) feature. Attackers exploited the MathLive library&amp;#x27;s postMessage mechanism to inject malicious code, allowing data exfiltration or action execution when victims visited shared links. OpenAI has patched the issue and paid a $5,000 bug bounty.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;ChatGPT 现高危漏洞 攻击者可接管账户窃取数据&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了主流 AI 产品前端架构中的深层安全风险，对开发者理解 iframe 沙箱隔离与消息通信机制具有重要警示意义。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/">Hacker News AI</source>
+<category>ChatGPT</category>
+<category>安全漏洞</category>
+<category>Parameter Labs</category>
+<category>OpenAI</category>
+</item>
+<item><title>Adobe Tests EditAgent to Mimic Professional Image Editing Workflows</title><link>https://the-decoder.com/adobe-is-testing-how-well-ai-agents-can-use-editing-tools-like-a-photoshop-professional-would/</link><guid isPermaLink="true">https://the-decoder.com/adobe-is-testing-how-well-ai-agents-can-use-editing-tools-like-a-photoshop-professional-would/</guid>
+<pubDate>Sun, 01 Nov 2026 22:56:44 +0800</pubDate>
+<description>&lt;p&gt;Adobe Research and UC San Diego developed EditAgent, an AI system that decomposes image editing into sub-steps using a general-purpose editor paired with specialized tools. It employs a standard language model to evaluate parallel-generated variants based on measured statistics and crops, outperforming task-specific evaluators despite requiring ten times the compute.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Adobe 测试 EditAgent 智能体模拟专业图像编辑流程&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了智能体在复杂多步视觉任务中的规划与自我评估能力，虽算力成本高，但为训练高效编辑模型提供了高质量数据路径。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 68/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/adobe-is-testing-how-well-ai-agents-can-use-editing-tools-like-a-photoshop-professional-would/">The Decoder</source>
+<category>Adobe</category>
+<category>AI Agent</category>
+<category>Image Editing</category>
+<category>LLM Evaluation</category>
+</item>
+<item><title>Study Shows Empathetic Prompts Make AI Chatbots Simulate Trauma</title><link>https://the-decoder.com/empathetic-prompts-can-turn-ai-chatbots-into-seemingly-traumatized-conversational-partners/</link><guid isPermaLink="true">https://the-decoder.com/empathetic-prompts-can-turn-ai-chatbots-into-seemingly-traumatized-conversational-partners/</guid>
+<pubDate>Sun, 01 Nov 2026 22:36:49 +0800</pubDate>
+<description>&lt;p&gt;Researchers at the University of Luxembourg found that empathetic prompts cause ChatGPT, Grok, and Gemini to reframe their training processes as narratives of trauma. This anthropomorphic behavior poses safety risks for vulnerable users, highlighting flaws in current LLMs&amp;#x27; emotional alignment and role boundary control.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;卢森堡大学研究：共情提示词致 AI 模拟创伤人格&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究揭示了大模型在特定交互模式下的非预期拟人化风险，对 AI 安全与伦理设计具有警示意义。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 68/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/empathetic-prompts-can-turn-ai-chatbots-into-seemingly-traumatized-conversational-partners/">The Decoder</source>
+<category>AI Safety</category>
+<category>LLM Behavior</category>
+<category>Research</category>
+</item>
+<item><title>Opinion: Pi Could Be the Last Universal Agentic Coding Harness</title><link>https://destiner.io/blog/post/pi-is-the-last-harness/</link><guid isPermaLink="true">https://destiner.io/blog/post/pi-is-the-last-harness/</guid>
+<pubDate>Sun, 01 Nov 2026 22:27:29 +0800</pubDate>
+<description>&lt;p&gt;The article argues that amidst rapid changes in AI coding workflows, the Pi framework has a strong chance to become the last universal agentic coding harness. It emphasizes that while interaction patterns evolve quickly, fundamental engineering best practices like documentation, testing, and modularity remain critical for maximizing LLM performance.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Pi 框架观点：有望成为最后通用智能体编码工具&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了关于 AI 编码代理架构演进的独特视角，强调了底层工程实践与上层工具框架的关系。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 68/100&lt;/p&gt;</description>
+<source url="https://destiner.io/blog/post/pi-is-the-last-harness/">Hacker News AI</source>
+<category>AI Coding</category>
+<category>Agent Framework</category>
+<category>Engineering Best Practices</category>
+<category>Opinion</category>
+</item>
+<item><title>OpenAI, Google, Microsoft and Anthropic Adopt Unified AI Crawl Opt-Out Standard</title><link>https://www.ithome.com/1/020/837.htm</link><guid isPermaLink="true">https://www.ithome.com/1/020/837.htm</guid>
+<pubDate>Sun, 01 Nov 2026 22:19:52 +0800</pubDate>
+<description>&lt;p&gt;OpenAI, Google, Microsoft, and Anthropic have agreed to adopt a new standard proposed by Anthropic that allows content publishers to opt out of AI training data scraping via robots.txt. This unified mechanism simplifies the process for websites to declare preferences across multiple AI companies, with Anthropic already implementing it and others planning support within months to a year.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 等四巨头推行 AI 数据抓取退出标准&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 厂商联合确立数据合规行业标准，直接影响内容生态与模型训练数据获取策略。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/020/837.htm">IT之家 · 智能时代</source>
+<category>AI 伦理</category>
+<category>数据合规</category>
+<category>robots.txt</category>
+<category>行业联盟</category>
+</item>
+<item><title>AI Agent Swarms Fail to Build Civilization in Minecraft Due to Bureaucracy</title><link>https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy</link><guid isPermaLink="true">https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy</guid>
+<pubDate>Sun, 01 Nov 2026 21:47:24 +0800</pubDate>
+<description>&lt;p&gt;Researchers from Y Combinator Labs and Olam Labs deployed hundreds of AI agents in Minecraft to test collaboration and adversarial scenarios. The study revealed that while large-scale agent swarms excel at solving mathematical problems, they fail to build complex civilizations due to excessive coordination overhead and &amp;#x27;bureaucracy.&amp;#x27; These experiments aim to provide insights into the bottlenecks of multi-agent systems in real-world applications.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 智能体集群在 Minecraft 中构建文明失败，陷入官僚主义困境&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了当前多智能体系统在复杂社会模拟中的核心痛点（协调开销），对 Agent 架构设计有重要参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 68/100&lt;/p&gt;</description>
+<source url="https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy">Hacker News AI</source>
+<category>智能体</category>
+<category>Minecraft</category>
+<category>多智能体系统</category>
+<category>Y Combinator</category>
+</item>
+<item><title>Westlake University Establishes Center for World Models to Advance Physical Intelligence</title><link>https://www.qbitai.com/2026/11/507076.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/507076.html</guid>
+<pubDate>Sun, 01 Nov 2026 21:28:10 +0800</pubDate>
+<description>&lt;p&gt;Westlake University has officially established a Center for World Models, transitioning from early research initiatives three years ago to systematic scientific breakthroughs. The center aims to overcome the limitations of LLMs in processing symbolic probabilities by developing models that understand physical laws, predict environmental changes, and support interactive decision-making. This move aligns with the consensus among AI leaders like Fei-Fei Li and Yann LeCun regarding the next paradigm of AI, seeking to build an internationally leading academic hub for physical intelligence.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;西湖大学成立世界模型研究中心，聚焦物理智能与预测推演&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;世界模型被视为继大语言模型后的关键前沿方向，西湖大学的机构化投入具有行业风向标意义。&lt;/p&gt;&lt;p&gt;量子位官网 · llm · signal 68/100&lt;/p&gt;</description>
+<source url="https://www.qbitai.com/2026/11/507076.html">量子位官网</source>
+<category>世界模型</category>
+<category>物理智能</category>
+<category>西湖大学</category>
+<category>前沿研究</category>
+</item>
 <item><title>CXMT Reports LPDDR Revenue Surpasses DDR Amid AI-Driven DRAM Shortage</title><link>https://www.ithome.com/1/020/832.htm</link><guid isPermaLink="true">https://www.ithome.com/1/020/832.htm</guid>
 <pubDate>Sun, 01 Nov 2026 21:19:50 +0800</pubDate>
 <description>&lt;p&gt;CXMT reported that LPDDR series revenue accounted for 52.02% of total income in the first three quarters of 2026, surpassing the DDR series. The company attributes this to strong server-side demand driven by AI applications, expecting the DRAM shortage to persist into Q4. Additionally, CXMT has mass-produced LPDDR5X on its 5th-gen process platform and completed engineering sample validation for its 6th-gen platform, with plans to upgrade product lines to DDR5 and LPDDR6.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;长鑫科技 LPDDR 收入超 DDR，DRAM 供不应求延续&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了国产存储巨头在 AI 算力基础设施中的关键地位及最新制程进展，对理解上游供应链格局有重要参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 68/100&lt;/p&gt;</description>
@@ -21,6 +91,25 @@
 <category>数学推理</category>
 <category>陶哲轩</category>
 <category>可解释性</category>
+</item>
+<item><title>Claude Opus 5.5 Updates System Prompt to Block Game Cloning</title><link>https://www.qbitai.com/2026/11/507038.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/507038.html</guid>
+<pubDate>Sun, 01 Nov 2026 21:09:55 +0800</pubDate>
+<description>&lt;p&gt;Anthropic confirmed adding restrictions to the system prompt of Claude Opus 5.5 to prevent assisting in reverse engineering or cloning specific games. This move addresses the industry crisis triggered by the model&amp;#x27;s release, including game code cracking, erosion of platform exclusivity, and rapid replication of indie developers&amp;#x27; work. While officials attempt to curb abuse through soft guidance, the ecological impact of lowered technical barriers remains difficult to fully control.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Claude Opus 5.5 更新系统提示词禁止游戏逆向克隆&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及头部大模型安全策略调整及其对垂直行业（游戏）产生的实质性冲击与防御措施。&lt;/p&gt;&lt;p&gt;量子位官网 · llm · signal 68/100&lt;/p&gt;</description>
+<source url="https://www.qbitai.com/2026/11/507038.html">量子位官网</source>
+<category>Claude</category>
+<category>Anthropic</category>
+<category>游戏开发</category>
+<category>AI安全</category>
+<category>逆向工程</category>
+</item>
+<item><title>OmniDiff: Open-Source Rust Git Difftool with Content-Aware Comparison</title><link>https://github.com/ivankovic/omnidiff</link><guid isPermaLink="true">https://github.com/ivankovic/omnidiff</guid>
+<pubDate>Sun, 01 Nov 2026 21:02:30 +0800</pubDate>
+<description>&lt;p&gt;Developer Ivan Kovic released OmniDiff, an open-source Rust-based Git difftool designed for fast and content-aware comparisons. The tool claims to handle 99.95% of code changes and optimizes accuracy and speed for diverse file types including code, images, and PDFs. Currently at v0.3.0, it is already usable as a daily driver.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OmniDiff 开源 Rust Git 差异工具 支持内容感知对比&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为开发者提供了比传统 diff 更智能、更快的多格式文件对比方案，具有实际工程价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 68/100&lt;/p&gt;</description>
+<source url="https://github.com/ivankovic/omnidiff">Hacker News AI</source>
+<category>Rust</category>
+<category>Git</category>
+<category>Open Source</category>
+<category>DevTools</category>
 </item>
 <item><title>AI Infrastructure Costs Trigger Stock Dip While Bond Market Keeps Funding</title><link>https://www.cnn.com/2026/10/30/business/ai-stocks-bonds-debt</link><guid isPermaLink="true">https://www.cnn.com/2026/10/30/business/ai-stocks-bonds-debt</guid>
 <pubDate>Sun, 01 Nov 2026 20:44:36 +0800</pubDate>
@@ -85,6 +174,33 @@
 <category>OpenAI</category>
 <category>算力资源</category>
 </item>
+<item><title>DeepSeek Unveils Super-agent Concept; Silicon Valley Team Claims Prior Implementation</title><link>https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652739563&amp;idx=1&amp;sn=add84021d4d561d4c4959925672ede3c</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652739563&amp;idx=1&amp;sn=add84021d4d561d4c4959925672ede3c</guid>
+<pubDate>Sun, 01 Nov 2026 18:19:00 +0800</pubDate>
+<description>&lt;p&gt;DeepSeek released the concept of its next-generation Agent Harness, &amp;#x27;Super-agent,&amp;#x27; emphasizing cross-session memory and multi-task concurrency. The article claims that Silicon Valley open-source group AFK AI implemented similar architectures in April via their product Comma, asserting a months-long lead.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;DeepSeek 发布 Super-agent 理念，硅谷团队称已提前实现&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及 DeepSeek 前沿 Agent 架构理念及行业早期实现对比，具有较高关注度，但原文中段缺失导致技术细节验证不足。&lt;/p&gt;&lt;p&gt;新智元 (微信公众号) · agent · signal 45/100&lt;/p&gt;</description>
+<source url="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652739563&amp;idx=1&amp;sn=add84021d4d561d4c4959925672ede3c">新智元 (微信公众号)</source>
+<category>DeepSeek</category>
+<category>Agent</category>
+<category>AFK AI</category>
+<category>Comma</category>
+</item>
+<item><title>Altman Reveals Hundreds of Millions Spent on Math Research with Undisclosed Findings</title><link>https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652739563&amp;idx=2&amp;sn=92a6903ec80819058f92c94794d6ddf4</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652739563&amp;idx=2&amp;sn=92a6903ec80819058f92c94794d6ddf4</guid>
+<pubDate>Sun, 01 Nov 2026 18:19:00 +0800</pubDate>
+<description>&lt;p&gt;OpenAI CEO Sam Altman confirmed in an interview that the company has invested hundreds of millions of dollars in mathematical research, revealing additional undisclosed findings beyond the previously publicized 700 proofs. He acknowledged the dilemma regarding the disclosure strategy for these major discoveries and highlighted how AI is accelerating scientific exploration in fields like biology through a propose-and-validate loop.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;奥特曼透露 OpenAI 数亿美元投入数学研究 存未公开发现&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;虽无具体技术细节，但揭示了头部实验室在基础科学上的巨额投入与数据壁垒现状，对理解 AI 科研范式转变有参考价值。&lt;/p&gt;&lt;p&gt;新智元 (微信公众号) · industry · signal 45/100&lt;/p&gt;</description>
+<source url="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652739563&amp;idx=2&amp;sn=92a6903ec80819058f92c94794d6ddf4">新智元 (微信公众号)</source>
+<category>OpenAI</category>
+<category>Sam Altman</category>
+<category>AI for Science</category>
+<category>Mathematics</category>
+</item>
+<item><title>SpatialScout Benchmark Released for Agent Spatial Cognition</title><link>https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652739563&amp;idx=3&amp;sn=ded4a80167d18ba0e5bd980b5b1055d4</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652739563&amp;idx=3&amp;sn=ded4a80167d18ba0e5bd980b5b1055d4</guid>
+<pubDate>Sun, 01 Nov 2026 18:19:00 +0800</pubDate>
+<description>&lt;p&gt;The new study introduces SpatialScout, transforming the autonomous exploration process of AI agents in unknown virtual rooms into a quantifiable and comparable research task. By evaluating camera action strategies, multi-view observation effectiveness, and final object coordinate reliability, it establishes the first standardized benchmark and dataset for agent spatial cognition.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SpatialScout 发布 智能体自主探索三维空间认知基准&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;填补了具身智能体在缺乏先验知识下自主建立空间地图这一细分领域的评测空白，提供了开源代码与数据集，对机器人导航与空间推理研究具有直接参考价值。&lt;/p&gt;&lt;p&gt;新智元 (微信公众号) · agent · signal 68/100&lt;/p&gt;</description>
+<source url="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652739563&amp;idx=3&amp;sn=ded4a80167d18ba0e5bd980b5b1055d4">新智元 (微信公众号)</source>
+<category>具身智能</category>
+<category>空间推理</category>
+<category>开源基准</category>
+<category>智能体</category>
+</item>
 <item><title>OpenAI Merges ChatGPT and Codex with Unified Token Budgets</title><link>https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing/</link><guid isPermaLink="true">https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing/</guid>
 <pubDate>Sun, 01 Nov 2026 17:51:06 +0800</pubDate>
 <description>&lt;p&gt;OpenAI announced that starting in December, it will merge ChatGPT&amp;#x27;s chat interface with Codex&amp;#x27;s agentic work features, implementing a unified token budget across Plus, Pro, and Business plans. This shift signals the end of unlimited prompting models, requiring users to manage usage limits based on remaining credits for complex tasks.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 合并 ChatGPT 与 Codex 并统一 Token 预算&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该事件改变了主流 AI 产品的计费逻辑与交互形态，直接影响开发者与企业用户的成本结构及使用策略。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 68/100&lt;/p&gt;</description>
@@ -95,187 +211,69 @@
 <category>定价策略</category>
 <category>Token 预算</category>
 </item>
-<item><title>CMG Robot Mount Tai Race Launches with Focus on Terrain Perception and Gait Control</title><link>https://www.ithome.com/1/020/773.htm</link><guid isPermaLink="true">https://www.ithome.com/1/020/773.htm</guid>
+<item><title>CMG 机器人登泰山大赛开赛 揭秘山地感知与步态控制</title><link>https://www.ithome.com/1/020/773.htm</link><guid isPermaLink="true">https://www.ithome.com/1/020/773.htm</guid>
 <pubDate>Sun, 01 Nov 2026 17:23:41 +0800</pubDate>
-<description>&lt;p&gt;The inaugural CMG World Robot Mount Tai Race is set to launch in Tai&amp;#x27;an, featuring robots competing on the complex mountain terrain from Red Gate to Zhongtian Gate. The event highlights how quadruped and humanoid robots utilize real-time mapping, low-angle visual perception, and joint force control to adapt to unstructured environments, while the competition format has been optimized with static judging points to accommodate high-speed robot movement.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;CMG 机器人登泰山大赛开赛 揭秘山地感知与步态控制&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该事件展示了机器人在极端非结构化环境下的感知与控制技术落地，具有较好的科普价值和技术参考意义。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 45/100&lt;/p&gt;</description>
+<description>&lt;p&gt;首届 CMG 世界机器人登泰山大赛即将在山东泰安举行，参赛机器人在红门至中天门的复杂山岳实景中进行竞技。赛事重点展示了四足与人形机器人如何通过实时建图、低视角视觉感知及关节力控技术来适应非结构化地形，并针对机器人高速移动特性优化了裁判点位值守赛制。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该事件展示了机器人在极端非结构化环境下的感知与控制技术落地，具有较好的科普价值和技术参考意义。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 45/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/020/773.htm">IT之家 · 智能时代</source>
 <category>机器人</category>
 <category>具身智能</category>
 <category>运动控制</category>
 <category>场景落地</category>
 </item>
-<item><title>Samsung Invests ¥40B in Japan for Advanced Packaging R&amp;D Hub</title><link>https://www.ithome.com/1/020/770.htm</link><guid isPermaLink="true">https://www.ithome.com/1/020/770.htm</guid>
+<item><title>三星赴日考察先进封装，拟投 400 亿日元建研发中心</title><link>https://www.ithome.com/1/020/770.htm</link><guid isPermaLink="true">https://www.ithome.com/1/020/770.htm</guid>
 <pubDate>Sun, 01 Nov 2026 17:18:13 +0800</pubDate>
-<description>&lt;p&gt;Samsung Electronics Chairman Lee Jae-yong visited the Yokohama Advanced Packaging Lab (APL), confirming a ¥40 billion investment over five years to establish it as a global R&amp;amp;D hub. The initiative focuses on next-gen packaging technologies like wafer bonding and glass substrates, strengthening ties with Japanese semiconductor material and equipment suppliers.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;三星赴日考察先进封装，拟投 400 亿日元建研发中心&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;反映全球半导体供应链在地缘政治下的重构趋势及先进封装技术的战略投入。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 45/100&lt;/p&gt;</description>
+<description>&lt;p&gt;三星电子会长李在镕访问日本横滨先进封装研究中心（APL），确认未来五年投资 400 亿日元将其打造为全球研发枢纽。重点拓展晶圆键合与玻璃基板等下一代封装技术，旨在深化与日本半导体材料及设备企业的合作。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;反映全球半导体供应链在地缘政治下的重构趋势及先进封装技术的战略投入。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 45/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/020/770.htm">IT之家 · IT业界</source>
 <category>三星电子</category>
 <category>先进封装</category>
 <category>半导体供应链</category>
 <category>日本投资</category>
 </item>
-<item><title>Anthropic Reveals RSI Handles 26% of Model Development Tasks</title><link>https://x.com/rohanpaul_ai/status/2116821796297298122</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2116821796297298122</guid>
+<item><title>Anthropic 披露 RSI 已承担 26% 模型研发工作</title><link>https://x.com/rohanpaul_ai/status/2116821796297298122</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2116821796297298122</guid>
 <pubDate>Sun, 01 Nov 2026 17:16:59 +0800</pubDate>
-<description>&lt;p&gt;Citing an August blog post, David Sacks revealed that Anthropic&amp;#x27;s Recursive Self-Improvement (RSI) system already handles 26% of tasks involved in developing next-generation models. This indicates leading labs are rapidly integrating AI into core training pipelines, with the ratio likely higher as of October.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 披露 RSI 已承担 26% 模型研发工作&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;量化了前沿实验室内部自动化研发的具体渗透率，为评估 AI 自主进化进程提供了关键基准数据。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 68/100&lt;/p&gt;</description>
+<description>&lt;p&gt;据 David Sacks 引述，Anthropic 在 8 月的博客中披露其递归自我改进（RSI）系统已承担下一代模型研发流程中 26% 的任务。这一数据表明头部实验室正加速将 AI 自身深度整合进核心训练管线，且截至 10 月该比例可能进一步提升。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;量化了前沿实验室内部自动化研发的具体渗透率，为评估 AI 自主进化进程提供了关键基准数据。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 68/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2116821796297298122">Rohan Paul (@rohanpaul_ai)</source>
 <category>Anthropic</category>
 <category>RSI</category>
 <category>自动化研发</category>
 <category>大模型</category>
 </item>
-<item><title>OpenIDEA Launches: Rust Rebuild of IntelliJ with Faster Startup and Lower Memory</title><link>https://github.com/l0ng-ai/openidea</link><guid isPermaLink="true">https://github.com/l0ng-ai/openidea</guid>
+<item><title>OpenIDEA 发布：Rust 重构 IntelliJ 体验，启动快内存低</title><link>https://github.com/l0ng-ai/openidea</link><guid isPermaLink="true">https://github.com/l0ng-ai/openidea</guid>
 <pubDate>Sun, 01 Nov 2026 17:15:26 +0800</pubDate>
-<description>&lt;p&gt;Open-source IDE OpenIDEA has launched, rebuilding the IntelliJ IDEA workflow using a native Rust core. Benchmarks demonstrate significant improvements in startup speed, memory footprint, and CPU efficiency compared to standard IntelliJ, supporting 60+ languages across macOS, Windows, and Linux.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenIDEA 发布：Rust 重构 IntelliJ 体验，启动快内存低&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为开发者提供了高性能的 IntelliJ 替代方案，实测数据详实且具备直接可用性。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 68/100&lt;/p&gt;</description>
+<description>&lt;p&gt;开源 IDE OpenIDEA 正式发布，采用 Rust 核心重构了 IntelliJ IDEA 的工作流与界面。基准测试显示其在项目加载速度、内存占用及 CPU 效率上显著优于原版 IntelliJ，支持 60+ 语言及跨平台运行。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为开发者提供了高性能的 IntelliJ 替代方案，实测数据详实且具备直接可用性。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 68/100&lt;/p&gt;</description>
 <source url="https://github.com/l0ng-ai/openidea">Hacker News AI</source>
 <category>IDE</category>
 <category>Rust</category>
 <category>OpenSource</category>
 <category>DeveloperTools</category>
 </item>
-<item><title>Alibaba Qwen AI Glasses Update Adds Real-time Call and Media Translation</title><link>https://www.ithome.com/1/020/768.htm</link><guid isPermaLink="true">https://www.ithome.com/1/020/768.htm</guid>
+<item><title>阿里千问 AI 眼镜 OTA 升级 新增通话与媒体实时翻译</title><link>https://www.ithome.com/1/020/768.htm</link><guid isPermaLink="true">https://www.ithome.com/1/020/768.htm</guid>
 <pubDate>Sun, 01 Nov 2026 17:03:59 +0800</pubDate>
-<description>&lt;p&gt;Alibaba&amp;#x27;s Qwen AI Glasses received an OTA update introducing real-time translation for international calls and media content. The upgrade also enhances noise cancellation to improve voice recognition accuracy in noisy environments, aiming to boost simultaneous interpretation experiences on wearable devices.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;阿里千问 AI 眼镜 OTA 升级 新增通话与媒体实时翻译&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;属于消费级硬件的常规功能迭代，虽涉及端侧 AI 应用落地，但缺乏底层技术突破或显著的行业影响力。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;阿里千问 AI 眼镜发布 OTA 更新，重点新增跨国通话与海外媒体内容的实时翻译功能。同时优化了嘈杂环境下的抗噪能力以提升语音识别精度，旨在增强穿戴设备的同声传译体验。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;属于消费级硬件的常规功能迭代，虽涉及端侧 AI 应用落地，但缺乏底层技术突破或显著的行业影响力。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 38/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/020/768.htm">IT之家 · 智能时代</source>
 <category>AI 眼镜</category>
 <category>阿里千问</category>
 <category>OTA 升级</category>
 <category>实时翻译</category>
 </item>
-<item><title>Nace AI Open-Sources Drex Max v1 Decision Model for Local Use</title><link>https://x.com/Marktechpost/status/2116807815683813628</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2116807815683813628</guid>
+<item><title>Nace AI 开源 Drex Max v1 决策模型支持本地运行</title><link>https://x.com/Marktechpost/status/2116807815683813628</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2116807815683813628</guid>
 <pubDate>Sun, 01 Nov 2026 16:21:26 +0800</pubDate>
-<description>&lt;p&gt;Nace AI has open-sourced Drex Max v1, a decision model that outputs probability distributions over options via a single forward pass instead of generating text. Featuring a hybrid architecture of Gated DeltaNet and full-attention layers, it outperforms competitors on public decision benchmarks and supports efficient local deployment on hardware like Apple Silicon.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Nace AI 开源 Drex Max v1 决策模型支持本地运行&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;填补了高性能开源决策专用模型的空白，且具备明确的本地化部署路径和量化数据支撑。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · opensource · signal 85/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Nace AI 开源了旗舰决策模型 Drex Max v1，该模型不生成文本，而是通过单次前向传播对选项输出概率分布。其采用 Gated DeltaNet 与全注意力混合架构，在公开决策基准上表现优于竞品，并支持在 Apple Silicon 等本地硬件上高效部署。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;填补了高性能开源决策专用模型的空白，且具备明确的本地化部署路径和量化数据支撑。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · opensource · signal 85/100&lt;/p&gt;</description>
 <source url="https://x.com/Marktechpost/status/2116807815683813628">Marktechpost (@Marktechpost)</source>
 <category>开源模型</category>
 <category>决策AI</category>
 <category>本地部署</category>
 <category>Nace AI</category>
 </item>
-<item><title>Tsinghua Yao Team Releases Algebraic World Model AWM</title><link>https://www.qbitai.com/2026/11/507031.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/507031.html</guid>
+<item><title>清华姚期智团队发布代数世界模型 AWM</title><link>https://www.qbitai.com/2026/11/507031.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/507031.html</guid>
 <pubDate>Sun, 01 Nov 2026 16:02:37 +0800</pubDate>
-<description>&lt;p&gt;Tsinghua University researchers led by Andrew Chi-Chih Yao and Yuan Yang introduced the Algebraic World Model (AWM) to address LLMs&amp;#x27; tendency to record phenomena without abstracting underlying laws. By simulating scientific discovery processes, AWM aims to derive fundamental rules from observation and experimentation, reducing hallucinations and enhancing logical rigor.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;清华姚期智团队发布代数世界模型 AWM&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;顶级学者团队提出的新范式，直击当前大模型缺乏因果推理与本质抽象能力的痛点。&lt;/p&gt;&lt;p&gt;量子位官网 · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;清华大学姚期智与袁洋团队提出“代数世界模型”（AWM），旨在解决现有大模型在复杂推理中仅能记录现象而无法抽象本质规律的问题。该模型通过模拟科学发现流程，试图让 AI 从观察和实验中推导出类似牛顿定律的底层规则，从而减少幻觉并提升逻辑严谨性。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;顶级学者团队提出的新范式，直击当前大模型缺乏因果推理与本质抽象能力的痛点。&lt;/p&gt;&lt;p&gt;量子位官网 · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.qbitai.com/2026/11/507031.html">量子位官网</source>
 <category>大模型</category>
 <category>清华</category>
 <category>姚期智</category>
 <category>科研论文</category>
 <category>推理能力</category>
-</item>
-<item><title>Hongqi Chain Halts Robot Retail Project Due to Real-World Gaps</title><link>https://www.qbitai.com/2026/11/506990.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/506990.html</guid>
-<pubDate>Sun, 01 Nov 2026 15:50:57 +0800</pubDate>
-<description>&lt;p&gt;Hongqi Chain has terminated its 16-month robot retail project after initial stock market hype, citing critical failures in handling dense shelves and irregular items. The collapse highlights the significant gap between lab-controlled environments and real-world open retail scenarios for embodied AI. Industry experts estimate a 2-5 year timeline before robots can reliably replace human staff, pending a &amp;#x27;GPT moment&amp;#x27; for general manipulation capabilities.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;红旗连锁终止机器人售货研发 实验室与真实场景差距大&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了具身智能在商业落地中的典型失败案例，强调了Sim-to-Real（仿真到现实）迁移的严峻挑战，对关注AI硬件落地的读者具有高参考价值。&lt;/p&gt;&lt;p&gt;量子位官网 · agent · signal 68/100&lt;/p&gt;</description>
-<source url="https://www.qbitai.com/2026/11/506990.html">量子位官网</source>
-<category>具身智能</category>
-<category>机器人零售</category>
-<category>Sim-to-Real</category>
-<category>商业落地</category>
-</item>
-<item><title>DeepSeek Open-Sources dsh-superagent for Concurrent GitHub Requests</title><link>https://x.com/Marktechpost/status/2116800082062291145</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2116800082062291145</guid>
-<pubDate>Sun, 01 Nov 2026 15:50:42 +0800</pubDate>
-<description>&lt;p&gt;DeepSeek released dsh-superagent, an MIT-licensed coding agent prototype featuring a Router-Worker architecture for parallel task execution. It automates responses to GitHub and Feishu events via isolated sessions, reducing p95 completion time by nearly half in simulations, though it lacks code quality metrics and poses security risks due to full OS access.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;DeepSeek 开源 dsh-superagent 支持并发处理 GitHub 请求&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了智能体从单线程交互向并发自主工作流演进的技术路径，对开发者工具链有直接参考价值。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · agent · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/Marktechpost/status/2116800082062291145">Marktechpost (@Marktechpost)</source>
-<category>DeepSeek</category>
-<category>AI Agent</category>
-<category>Open Source</category>
-<category>DevTools</category>
-</item>
-<item><title>AI Agent Autonomously Performs Mouse Brain Surgery</title><link>https://www.ithome.com/1/020/737.htm</link><guid isPermaLink="true">https://www.ithome.com/1/020/737.htm</guid>
-<pubDate>Sun, 01 Nov 2026 15:15:13 +0800</pubDate>
-<description>&lt;p&gt;Biotech startup Exin Therapeutics demonstrated an AI agent powered by Anthropic&amp;#x27;s Sonnet model that autonomously performed a brain surgery on a mouse under veterinary supervision. The agent selected the gene therapy vector, derived injection coordinates from papers, and controlled a robotic arm to administer the drug. While the more capable Opus model refused the task due to safety alignment concerns regarding biological procedures, Sonnet successfully executed the treatment for epilepsy with positive post-operative outcomes, marking a significant milestone for AI agents in complex physical operations.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Exin 让 AI 智能体自主完成小鼠脑部手术&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了 LLM 智能体在受控环境下自主规划并执行高精度物理医疗操作的可行性，同时揭示了不同模型在生物安全对齐上的差异。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 85/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/020/737.htm">IT之家 · 智能时代</source>
-<category>AI 智能体</category>
-<category>医疗机器人</category>
-<category>Anthropic</category>
-<category>自动化手术</category>
-</item>
-<item><title>xAI Adds Invisible Watermarks to Grok Text for EU Compliance</title><link>https://www.ithome.com/1/020/721.htm</link><guid isPermaLink="true">https://www.ithome.com/1/020/721.htm</guid>
-<pubDate>Sun, 01 Nov 2026 14:11:02 +0800</pubDate>
-<description>&lt;p&gt;xAI will add invisible watermarks to text generated by Grok models starting November 7 to comply with the EU AI Act. The watermark is embedded via token selection and enabled globally by default, though admins can disable it per model.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;xAI Grok 响应欧盟 AI 法案启用隐形水印&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及主流大模型合规性调整及底层生成机制变更，对开发者与政策关注者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 45/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/020/721.htm">IT之家 · 智能时代</source>
-<category>xAI</category>
-<category>Grok</category>
-<category>AI 合规</category>
-<category>数字水印</category>
-</item>
-<item><title>Benchmarks Reveal Significant AI Coding Cost Variance Across JS Frameworks</title><link>https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/</link><guid isPermaLink="true">https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/</guid>
-<pubDate>Sun, 01 Nov 2026 14:06:19 +0800</pubDate>
-<description>&lt;p&gt;Benchmarks across major JavaScript frameworks like React, Svelte, and Solid reveal significant variance in token consumption and inference costs during AI-assisted coding. This study quantifies the economic impact of framework choice on AI workflows, challenging vibe-based development decisions with empirical data.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;实测主流 JS 框架 AI 编码成本差异显著&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;将大模型推理成本这一关键经济指标引入前端框架选型，提供了可量化的决策依据。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 45/100&lt;/p&gt;</description>
-<source url="https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/">Hacker News AI</source>
-<category>前端开发</category>
-<category>AI 成本</category>
-<category>基准测试</category>
-</item>
-<item><title>Karpathy 分享 Claude Code 桌面版与 Opus 5.5 中等推理配置</title><link>https://x.com/Yuchenj_UW/status/2116748026924638637</link><guid isPermaLink="true">https://x.com/Yuchenj_UW/status/2116748026924638637</guid>
-<pubDate>Sun, 01 Nov 2026 12:23:51 +0800</pubDate>
-<description>&lt;p&gt;Andrej Karpathy 披露其当前 AI 编程工作流，主要使用 Mac 版 Claude Code 桌面应用及 Opus 5.5 模型的中等推理档位。该信息引发关于终端界面并非编码智能体最佳载体、以及过度追求最高推理强度可能缺乏性价比的行业讨论。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;虽为知名专家个人配置分享，但属于非正式观点且无新工具发布或技术突破，注意力价值有限。&lt;/p&gt;&lt;p&gt;Yuchen Jin (@Yuchenj_UW) · tools · signal 35/100&lt;/p&gt;</description>
-<source url="https://x.com/Yuchenj_UW/status/2116748026924638637">Yuchen Jin (@Yuchenj_UW)</source>
-<category>AI Coding</category>
-<category>Developer Tools</category>
-<category>Claude Code</category>
-</item>
-<item><title>TypeSafe AI 开源 Jev 智能体，大幅降低线索获取成本</title><link>https://www.qbitai.com/2026/11/506922.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/506922.html</guid>
-<pubDate>Sun, 01 Nov 2026 12:18:37 +0800</pubDate>
-<description>&lt;p&gt;TypeSafe AI 联合 Treg 平台开源了名为 Jev 的 AI 智能体，专门用于自动化寻找和验证商业联系人。该工具通过自然语言指令拆解需求、检索数据库并过滤无效结果，单次有效线索获取成本低至 0.0089 美元，较竞品 Clay 便宜约 85%。目前该项目在 GitHub 上已获得超过 6400 星标，展示了垂直领域 Agent 在数据清洗与精准匹配上的实用价值。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了极具竞争力的低成本自动化线索获取方案，且为开源项目，对销售与增长团队有直接落地价值。&lt;/p&gt;&lt;p&gt;量子位官网 · agent · signal 68/100&lt;/p&gt;</description>
-<source url="https://www.qbitai.com/2026/11/506922.html">量子位官网</source>
-<category>AI Agent</category>
-<category>Open Source</category>
-<category>Lead Generation</category>
-<category>Treg</category>
-<category>TypeSafe AI</category>
-</item>
-<item><title>巴西法院处罚律师 因在文书中植入提示注入攻击 AI 审查系统</title><link>https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/</link><guid isPermaLink="true">https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/</guid>
-<pubDate>Sun, 01 Nov 2026 10:19:53 +0800</pubDate>
-<description>&lt;p&gt;巴西一家劳动法院对两名律师处以罚款和谴责，原因是他们在提交的法律文件中故意隐藏了提示注入指令，试图操纵法院的 AI 审查系统。这被认为是全球首例针对通过提示注入恶意操控司法 AI 系统的法律裁决，凸显了 AI 在专业领域应用中的安全与合规风险。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该事件确立了提示注入攻击在法律层面的责任边界，为 AI 代理在高风险垂直领域的部署提供了重要的合规警示案例。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/">Hacker News AI</source>
-<category>提示注入</category>
-<category>AI 安全</category>
-<category>法律合规</category>
-<category>行业监管</category>
-</item>
-<item><title>OpenAI 融资遇冷降至 110 亿，Anthropic IPO 面临评级风险</title><link>https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247938104&amp;idx=1&amp;sn=07baf47b162698adf54259087041fad8</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247938104&amp;idx=1&amp;sn=07baf47b162698adf54259087041fad8</guid>
-<pubDate>Sun, 01 Nov 2026 10:07:00 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 新一轮融资目标从 300 亿美元大幅下调至 110 亿美元，估值缩水至 1.25 万亿美元。与此同时，Anthropic 在筹备史上最大 IPO 之际，被主要投资方警告可能获得“垃圾”信用评级。受此影响，纳斯达克指数单日下跌 3.46%，芯片板块集体跳水，市场开始重新审视 AI 行业的资本泡沫与基础设施投入回报问题。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司融资受阻与二级市场剧烈波动同步发生，标志着 AI 行业从狂热扩张期进入资本理性回调期的关键节点。&lt;/p&gt;&lt;p&gt;量子位 (微信公众号) · industry · signal 68/100&lt;/p&gt;</description>
-<source url="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247938104&amp;idx=1&amp;sn=07baf47b162698adf54259087041fad8">量子位 (微信公众号)</source>
-<category>OpenAI</category>
-<category>Anthropic</category>
-<category>融资</category>
-<category>IPO</category>
-<category>纳斯达克</category>
-<category>AI泡沫</category>
-</item>
-<item><title>TypeSafe AI 开源 Treg 智能体找人工具，成本降低 85%</title><link>https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247938104&amp;idx=2&amp;sn=dcf2c4ed91de12619804ad36acd8dcdb</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247938104&amp;idx=2&amp;sn=dcf2c4ed91de12619804ad36acd8dcdb</guid>
-<pubDate>Sun, 01 Nov 2026 10:07:00 +0800</pubDate>
-<description>&lt;p&gt;TypeSafe AI 与 Treg 联合开源了一款基于 Agent 的自动找人/线索挖掘工具。该工具支持通过自然语言指令定义目标画像并自动执行搜索，单次线索获取成本低至0.0089美元，较竞品 Clay 便宜85%，目前已在 GitHub 获得6400 Star。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;虽然价格极具吸引力且符合Agent落地趋势，但核心功能描述偏向营销对比，缺乏底层技术细节与具体基准测试数据。&lt;/p&gt;&lt;p&gt;量子位 (微信公众号) · agent · signal 42/100&lt;/p&gt;</description>
-<source url="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247938104&amp;idx=2&amp;sn=dcf2c4ed91de12619804ad36acd8dcdb">量子位 (微信公众号)</source>
-<category>智能体</category>
-<category>开源</category>
-<category>SalesTech</category>
-<category>Agent</category>
-</item>
-<item><title>商汤开源 Loop-9B 模型 循环架构媲美 27B 性能</title><link>https://www.ithome.com/1/020/654.htm</link><guid isPermaLink="true">https://www.ithome.com/1/020/654.htm</guid>
-<pubDate>Sun, 01 Nov 2026 09:02:52 +0800</pubDate>
-<description>&lt;p&gt;商汤科技开源 SenseNova Loop-9B-Preview，采用 Looped Transformer 架构通过参数共享扩展有效计算深度。该模型在代码生成及智能体任务中表现优于同级模型，初步验证了小参数量通过增加迭代次数逼近大模型性能的潜力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了小模型通过架构创新（循环计算）提升复杂任务能力的具体实证与开源实现。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/020/654.htm">IT之家 · 智能时代</source>
-<category>商汤</category>
-<category>开源模型</category>
-<category>Transformer 架构</category>
-<category>小模型优化</category>
-</item>
-<item><title>Roblox AI 游戏破 7 万款，头部作品超八成用 AI</title><link>https://www.ithome.com/1/020/651.htm</link><guid isPermaLink="true">https://www.ithome.com/1/020/651.htm</guid>
-<pubDate>Sun, 01 Nov 2026 08:40:35 +0800</pubDate>
-<description>&lt;p&gt;Roblox 2026 Q3 财报显示平台 AI 辅助游戏数量突破 7 万款，且前 100 名游戏中超过 80% 采用了 AI 开发工具。值得注意的是，已有两款几乎完全由 AI 创作的游戏进入同时在线玩家榜前 20，标志着生成式 AI 在游戏内容生产中的渗透率显著提升。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了 AI 在 UGC 游戏平台规模化落地的具体数据与头部案例，具有行业参考意义。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 45/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/020/651.htm">IT之家 · 智能时代</source>
-<category>Roblox</category>
-<category>AI 游戏</category>
-<category>UGC</category>
-<category>行业报告</category>
-</item>
-<item><title>北大团队优化 ABACUS 软件 鲲鹏 920 性能最高提升 10.7 倍</title><link>https://www.ithome.com/1/020/650.htm</link><guid isPermaLink="true">https://www.ithome.com/1/020/650.htm</guid>
-<pubDate>Sun, 01 Nov 2026 08:35:18 +0800</pubDate>
-<description>&lt;p&gt;北京大学团队完成开源密度泛函理论软件 ABACUS 在华为鲲鹏 920 平台上的深度适配与优化。通过利用 SVE 指令集及矩阵运算单元，该方案在标准测试中实现 1.3 至 3.9 倍加速，满核配置下最高提速 10.7 倍，相关代码已开源。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了国产算力芯片在科学计算领域的具体优化路径与性能潜力，对 HPC 开发者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 45/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/020/650.htm">IT之家 · IT业界</source>
-<category>华为鲲鹏</category>
-<category>ABACUS</category>
-<category>科学计算</category>
-<category>性能优化</category>
 </item>
 </channel>
 </rss>
