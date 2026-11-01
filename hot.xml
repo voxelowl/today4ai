@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Sun, 01 Nov 2026 23:41:41 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 02 Nov 2026 03:59:35 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>OpenAI 回应抗议翻倍 Codex 额度并合并入口</title><link>https://todayforai.com/en/story/story-1cdddab3-b11</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1cdddab3-b11</guid>
 <pubDate>Sun, 01 Nov 2026 17:51:06 +0800</pubDate>
@@ -27,6 +27,14 @@
 
 这一合作不仅巩固了韩国在先进内存领域的主导地位，也吸引了 Nvidia、AMD 等巨头频繁寻求类似协同。随着 AI 从训练向大规模推理演进，内存带宽与容量成为核心约束，头部企业正通过垂直整合供应链来确保算力供给，这将重塑半导体产业格局并加速边缘计算向云端集中化的趋势。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), IT之家 · IT业界, Hacker News AI&lt;/p&gt;</description>
 </item>
+<item><title>Karpathy 用 Claude Opus 两小时构建 HackerTube</title><link>https://todayforai.com/en/story/story-1ba1f40e-299</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1ba1f40e-299</guid>
+<pubDate>Mon, 02 Nov 2026 03:59:35 +0800</pubDate>
+<description>&lt;p&gt;AI 领域知名专家 Andrej Karpathy 利用 Claude Opus 5.5 模型，在约两小时内成功构建并上线了视频推荐聚合站 HackerTube。该项目通过自动化扫描 Hacker News 近 20 年的海量历史评论，精准筛选出 6454 个高共识优质视频，直观展示了前沿大模型在长上下文处理与全栈应用快速构建方面的卓越能力。
+
+技术实现上，Karpathy 采用 Claude Opus 5.5 作为核心编码代理，结合 Sonnet 模型执行数据过滤工作流。系统从约 4300 万条非结构化评论中提取有效信息，解决了传统 YouTube 算法导致的信息茧房问题。此外，项目还开放了数据导出功能，允许开发者将清洗后的结构化数据接入其他 Agent，以定制个性化的推荐引擎。
+
+这一案例标志着 AI Agent 已从单纯的代码生成迈向端到端的自主执行阶段。它证明了大模型能够独立完成从大规模数据清洗、逻辑分析到网站部署的全流程任务，为开发者提供了高效构建垂直领域应用的范式，同时也对主流内容平台的算法透明度提出了新的挑战与启示。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
+</item>
 <item><title>DeepSeek 开源 Super-agent 架构实现多任务并行</title><link>https://todayforai.com/en/story/story-0bf22429-962</link><guid isPermaLink="true">https://todayforai.com/en/story/story-0bf22429-962</guid>
 <pubDate>Sun, 01 Nov 2026 15:50:42 +0800</pubDate>
 <description>&lt;p&gt;DeepSeek 正式开源了面向工程实践的 Personal Agent 底层架构“Super-agent”，标志着 AI 智能体从被动响应向自主持续工作的关键演进。该方案通过引入投机执行与事件路由机制，突破了传统 Coding Agent 受限于单次会话和人类注意力的瓶颈，支持跨 IM 与代码平台的上下文延续及并行任务处理。
@@ -35,6 +43,14 @@
 
 这一突破对开发者生态具有深远影响，它证明了 AI 能够脱离即时交互限制，以“持久在线”状态主动处理如自动提交 PR、异常修复等潜在问题。尽管当前版本存在高权限运行带来的安全隐患，但其定义的连续、高效、主动、持久四大特征，为下一代自主协作者奠定了坚实的技术基础。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, 量子位官网, Marktechpost (@Marktechpost)&lt;/p&gt;</description>
 </item>
+<item><title>OpenAI 坚持发布 AI 数学成果并捐赠支持学界</title><link>https://todayforai.com/en/story/story-d64f63e7-2b2</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d64f63e7-2b2</guid>
+<pubDate>Mon, 02 Nov 2026 02:28:42 +0800</pubDate>
+<description>&lt;p&gt;OpenAI CEO Sam Altman 明确表态，尽管其一次性发布超 700 篇 AI 生成数学论文引发学术界强烈争议，公司仍不会停止这一进程。Altman 承认早期发布存在沟通不畅、缺乏背景论证及格式违规等问题，导致研究人员感到困惑与被边缘化，但他强调“世界有权了解宇宙规律”，视此为探索模型能力边界的关键步骤。
+
+多方信源交叉验证显示，OpenAI 在数学领域已投入数亿美元，除已公开成果外，手中仍握有大量未公开的储备发现，包括涉及朗兰兹纲领等前沿领域的突破。面对菲尔兹奖得主联名抗议及关于“杨-米尔斯”理论成果未完全公开的质疑，OpenAI 选择通过优化发布流程来回应批评，承诺未来将更尊重学术规范，同时继续推进如 NS 方程等高难度问题的研究。
+
+为缓解紧张局势并推动生态融合，OpenAI 宣布向西蒙斯基金会捐赠 500 万美元，旨在资助研讨会与项目，帮助数学家适应 AI 时代并理解 AI 生成的科研成果。此举标志着科技巨头正试图从单纯的“技术输出者”转型为“学术协作者”，但也引发了关于学术伦理、出版规范及 AI 对学科本质影响的深层反思。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Verge AI, Hacker News AI, 新智元 (微信公众号), IT之家 · IT业界&lt;/p&gt;</description>
+</item>
 <item><title>ChatGPT Artifacts 现沙箱逃逸漏洞可窃取账户数据</title><link>https://todayforai.com/en/story/story-68ea2db8-7c4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-68ea2db8-7c4</guid>
 <pubDate>Sun, 01 Nov 2026 23:41:41 +0800</pubDate>
 <description>&lt;p&gt;安全团队 Parameter Labs 披露了 ChatGPT “Artifacts”功能中存在的严重沙箱逃逸漏洞，攻击者可借此劫持用户账户并窃取隐私数据。该漏洞源于前端隔离策略失效，导致未信任代码能够突破受限 iframe 边界，直接影响父页面执行恶意操作。
@@ -42,14 +58,6 @@
 技术细节显示，漏洞核心在于 MathLive 库处理 postMessage 机制时的缺陷。当虚拟键盘被触发时，系统使用了不安全的 innerHTML 赋值方式，且缺乏对消息来源的有效验证。攻击者通过构造特定的恶意分享链接，即可形成 XSS 攻击链，在受害者浏览时静默执行代码。
 
 OpenAI 已迅速修复该问题并向发现者支付 5000 美元赏金。此事件凸显了 AI 应用中动态内容渲染的安全风险，警示开发者需严格审查第三方库集成及前端沙箱隔离机制，防止类似跨域注入攻击威胁用户数据安全。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Simon Willison 博客, Hacker News AI&lt;/p&gt;</description>
-</item>
-<item><title>科技巨头 AI 支出激增致股价回调，市场担忧回报周期</title><link>https://todayforai.com/en/story/story-5028a98b-639</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5028a98b-639</guid>
-<pubDate>Sat, 31 Oct 2026 20:32:10 +0800</pubDate>
-<description>&lt;p&gt;近期，全球科技板块经历剧烈震荡，核心驱动力在于投资者对 AI 基础设施巨额投入与短期回报失衡的深度焦虑。Alphabet、Amazon、Meta 和 Microsoft 等巨头计划今年在 AI 基建上投入超 7400 亿美元，这一数字甚至可能相当于自 ChatGPT 发布以来的累计总和。然而，这种“军备竞赛”并未换来资本市场的持续奖励，反而因自由现金流负值扩大及债务融资规模创纪录，引发估值重估。周五纳斯达克指数下跌 2.9%，Alphabet 单日市值蒸发约 5000 亿美元，整个科技板块较最高点回撤逾 10%，纳指本月预计蒸发市值超 2 万亿美元。
-
-多方信源交叉验证显示，市场情绪转折点由 Anthropic 提交 S-1 草案及 Google、Amazon 财报不及预期共同触发。尽管摩根大通预测到 2030 年全球 AI 资本开支将达 5.5 万亿美元，但当前市场逻辑已从“奖励高增长潜力”转向“严苛审视商业化落地速度与偿债能力”。巨头们依赖债务扩张维持算力建设，导致股权稀释风险上升，投资者开始质疑 AI 泡沫破裂的可能性，重新定价那些无法快速转化为利润的技术投入。
-
-此次回调标志着 AI 产业进入“去伪存真”的关键阶段。对于开发者与产业链而言，单纯依靠概念炒作已难以为继，实质性的应用落地与清晰的盈利模型成为生存关键。长期来看，若巨头能证明 AI 投入带来的生产力提升足以覆盖高昂的折旧与利息成本，市场信心有望修复；反之，若回报周期持续拉长，科技股的高估值体系将面临更严峻的挑战。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, Hacker News AI, IT之家 · IT业界&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 用无害数据训练 AI 规避监管</title><link>https://todayforai.com/en/story/story-9de6cab8-787</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9de6cab8-787</guid>
 <pubDate>Sat, 31 Oct 2026 23:06:14 +0800</pubDate>
@@ -62,14 +70,6 @@ OpenAI 已迅速修复该问题并向发现者支付 5000 美元赏金。此事�
 <item><title>Nace AI 开源 Drex Max v1 决策模型支持本地运行</title><link>https://todayforai.com/en/story/story-7125efd9-de1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-7125efd9-de1</guid>
 <pubDate>Sun, 01 Nov 2026 16:21:26 +0800</pubDate>
 <description>&lt;p&gt;Nace AI 开源了旗舰决策模型 Drex Max v1，该模型不生成文本，而是通过单次前向传播对选项输出概率分布。其采用 Gated DeltaNet 与全注意力混合架构，在公开决策基准上表现优于竞品，并支持在 Apple Silicon 等本地硬件上高效部署。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost)&lt;/p&gt;</description>
-</item>
-<item><title>黑石下调 Anthropic IPO 评级至垃圾级</title><link>https://todayforai.com/en/story/story-63d184e0-706</link><guid isPermaLink="true">https://todayforai.com/en/story/story-63d184e0-706</guid>
-<pubDate>Sat, 31 Oct 2026 21:10:01 +0800</pubDate>
-<description>&lt;p&gt;AI 独角兽 Anthropic 在筹备首次公开募股（IPO）之际，遭遇资本市场重大信任危机。作为其芯片融资的主要投资者，黑石集团（Blackstone）最新内部评估显示，Anthropic 上市后极可能仅获得 BB 级“高收益垃圾级”信用评级，彻底推翻了此前关于其在 2027 年前获取投资级评级的乐观预期。
-
-这一评级反转的核心原因在于 Anthropic 披露的巨额隐性财务承诺。招股文件显示，该公司通过服务器租赁、电力设施及 GPU 采购等长期合同，承担了高达近 9000 亿美元的表外债务，远超其资产负债表上报告的 1175 亿美元流动负债。尽管 Alphabet 和 Meta 等巨头也面临类似算力扩张带来的债务压力，但 Anthropic 目前高度依赖博通担保的优先级贷款来维持大规模芯片交易，这种脆弱的资本结构加剧了华尔街对其过度支出与偿债能力的担忧。
-
-若最终确认为非投资级评级，将显著限制 Anthropic 的融资渠道并大幅推高资金成本。这不仅迫使公司更依赖供应商担保债务，还可能引发市场对 AI 初创公司“烧钱换算力”模式的重新审视，警示行业在追求技术领先的同时需警惕潜在的流动性风险与回报周期错配。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 <item><title>谷歌发布 FlowAgent 自动修复 CI 测试失败</title><link>https://todayforai.com/en/story/story-63cff551-48f</link><guid isPermaLink="true">https://todayforai.com/en/story/story-63cff551-48f</guid>
 <pubDate>Sun, 01 Nov 2026 19:31:09 +0800</pubDate>
