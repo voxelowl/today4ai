@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Mon, 02 Nov 2026 22:01:00 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 02 Nov 2026 23:02:09 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>OpenAI 回应抗议翻倍 Codex 额度并合并入口</title><link>https://todayforai.com/en/story/story-1cdddab3-b11</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1cdddab3-b11</guid>
 <pubDate>Mon, 02 Nov 2026 21:57:53 +0800</pubDate>
@@ -10,6 +10,14 @@
 在技术架构层面，OpenAI 正推进重大整合：自 12 月起，Plus、Pro 及 Business 计划将合并 ChatGPT 与 Codex 的用量限制，转为共享单一 Token 配额池。同时，ChatGPT 界面将合并“聊天”与“工作”功能，智能体能力并入主体验。值得注意的是，即时对话不消耗额度，但 Fast 模式消耗速度为标准模式的 2.5 倍，Ultrafast 则高达 8 倍，实际产出仍受模型复杂度影响。
 
 此次调整标志着 OpenAI 从按消息次数计费向更精细化的 Token 计量体系过渡，试图在缓解算力瓶颈与维持开发者高频编码需求之间寻找平衡。尽管官方称绝大多数用户体验不受影响，但重度依赖 Codex 的开发者需重新评估其工作流中的 Token 消耗效率，以应对新的统一配额机制。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;新智元 (微信公众号), IT之家 · 智能时代, Rohan Paul (@rohanpaul_ai), Hacker News AI, The Decoder, 机器之心 (微信公众号)&lt;/p&gt;</description>
+</item>
+<item><title>Anthropic 递交 IPO 招股书，估值两万亿拟募资千亿</title><link>https://todayforai.com/en/story/story-0ed5b747-86f</link><guid isPermaLink="true">https://todayforai.com/en/story/story-0ed5b747-86f</guid>
+<pubDate>Mon, 02 Nov 2026 23:02:09 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 正式向 SEC 提交 S-1 文件，计划以代码“ANT”在纳斯达克上市，目标估值约 2 万亿美元，拟募资最高 1000 亿美元，有望成为史上最大 IPO。其 2026 年上半年营收飙升至 163 亿美元，同比增长超 1300%，第二季度实现运营盈利，毛利率高达 85%。尽管账面净亏损因可转换票据公允价值变动扩大至 807 亿美元，但实际经营性亏损仅约 7 亿美元，且公司现金储备充足。
+
+多方信源交叉验证显示，算力成本效率显著提升是盈利关键，算力支出占收入比例从 2.5 倍骤降至 48%。Claude Code 成为核心增长引擎，头部企业客户支出激增，年付费超 10 万美元的客户数量一年内从 950 家增至 11900 家。然而，招股书披露约 5%-7% 的收入来自违规客户，涉及金额达 17-23 亿美元，引发合规争议。此外，公司锁定微软、谷歌等巨头超千亿美元的长期算力采购合同，未来十年云承诺高达数千亿美元。
+
+作为首家纯大模型上市公司，Anthropic 的财务数据为行业提供了关键基准。其罕见地在招股书中用 94 页篇幅警告 AI 生存性风险，凸显安全理念在商业叙事中的核心地位。这一举措不仅重塑了 AI 实验室的商业化路径，也加剧了与 OpenAI 等竞争对手在资本市场的直接较量，对全球 AI 产业格局产生深远影响。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, 量子位官网, IT之家 · IT业界, Rohan Paul (@rohanpaul_ai), The Verge AI, Hacker News AI&lt;/p&gt;</description>
 </item>
 <item><title>Karpathy 用 Claude Opus 两小时构建 HackerTube</title><link>https://todayforai.com/en/story/story-1ba1f40e-299</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1ba1f40e-299</guid>
 <pubDate>Mon, 02 Nov 2026 03:59:35 +0800</pubDate>
@@ -66,10 +74,6 @@ HUMAIN 计划到 2030 年建成 3GW 数据中心容量，并开发包括 ALLaM �
 <item><title>清华微软提出 HarnessMM：智能体预规划跳过冗余 LLM 调用，Token 省近九成</title><link>https://todayforai.com/en/story/story-6b6c1cb3-07c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-6b6c1cb3-07c</guid>
 <pubDate>Mon, 02 Nov 2026 16:51:40 +0800</pubDate>
 <description>&lt;p&gt;清华大学与微软联合研究提出 HarnessMM 框架，通过让模型预先编写带校验条件的后续命令序列，在工具结果满足条件时直接执行而无需再次调用 LLM。实验显示该方法在 HumanEval 任务上使 DeepSeek Harness 的 Token 消耗降低 87.93%，同时成功率从 71.43% 提升至 85.71%，显著优化了智能体的推理效率与成本。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
-</item>
-<item><title>Meta MIT 研究：循环复用 Transformer 层可提升模型性能</title><link>https://todayforai.com/en/story/story-53b15b2e-5b0</link><guid isPermaLink="true">https://todayforai.com/en/story/story-53b15b2e-5b0</guid>
-<pubDate>Mon, 02 Nov 2026 19:53:55 +0800</pubDate>
-<description>&lt;p&gt;Meta 与 MIT 最新论文证实，通过循环复用 Transformer 的特定层，可在不增加参数量的前提下显著提升模型深度与性能。该研究在 10 亿参数规模上验证了不同循环策略的效果，并引入轻量级适配器以优化并行解码效率。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
