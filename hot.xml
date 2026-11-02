@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Mon, 02 Nov 2026 15:27:28 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 02 Nov 2026 16:24:29 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>OpenAI 回应抗议翻倍 Codex 额度并合并入口</title><link>https://todayforai.com/en/story/story-1cdddab3-b11</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1cdddab3-b11</guid>
 <pubDate>Mon, 02 Nov 2026 09:37:13 +0800</pubDate>
@@ -26,6 +26,22 @@ HackerTube 的上线标志着开发者正从被动接受平台算法转向主动
 多方信源交叉验证显示，全球存储芯片价格因需求激增而大幅上涨，HBM（高带宽内存）供货成为磋商重点。Altman 在访谈中明确主张将有限的 DRAM 产能优先分配给 AI 数据中心，认为本地推理体验不佳，反映出大模型时代算力基础设施对通用计算硬件资源的激烈争夺。韩国在先进内存领域的主导地位使其成为 Nvidia、AMD 及 OpenAI 等巨头竞相合作的战略高地。
 
 此举标志着 AI 产业竞争已从算法层面延伸至底层硬件供应链的掌控。面对未来几年预计超 3 万亿美元的 AI 基础设施投资需求，其中存储支出占比约三分之一，锁定稳定且先进的内存供应已成为头部企业维持算力优势的关键。OpenAI 与三星的深度绑定不仅缓解了短期资源焦虑，更重塑了 AI 基建的资源配置逻辑，加速了从消费级向数据中心级的产能倾斜。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), IT之家 · IT业界, Hacker News AI&lt;/p&gt;</description>
+</item>
+<item><title>AI 智能体集群游戏实验揭示协作官僚化困境</title><link>https://todayforai.com/en/story/story-1d497c71-6b9</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1d497c71-6b9</guid>
+<pubDate>Mon, 02 Nov 2026 16:24:29 +0800</pubDate>
+<description>&lt;p&gt;Y Combinator Labs 与 Olam Labs 联合开展了一项前沿实证研究，在 Minecraft 和 Mindustry 沙盒环境中部署数百个 AI 智能体，旨在探索多智能体系统的涌现行为、层级结构及协调机制。该研究通过形式化模型与游戏场景结合，为理解 AI 对齐中的复杂协作挑战提供了新的观察窗口。
+
+交叉验证显示，智能体集群在处理离散任务（如数学解题）时表现优异，但在模拟社会构建等长期协作任务中陷入“官僚主义”陷阱。具体而言，当规模扩大至 50 个以上智能体时，大量算力与时间耗费在任命操作员等微观管理上，导致宏大目标搁置。此外，PvP 对抗测试揭示了策略分化：采用去中心化“蜂群”激进策略的 GPT-6.1 Sol 集群，击败了倾向于有领导者民主防守流程的 Claude Opus 5.5 集群，表明在动态对抗中，扁平化高效决策优于层级化共识机制。
+
+这项已开源的研究不仅暴露了当前大模型在多智能体协调上的效率瓶颈，即通信与决策成本随规模非线性增长，也为开发者优化智能体架构提供了关键参考。它警示业界，单纯堆叠模型数量无法解决协作难题，需重新设计通信协议与角色分配机制，以突破现实世界智能体集群的应用天花板。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
+</item>
+<item><title>巴西法院首罚律师 因植入提示注入操纵 AI</title><link>https://todayforai.com/en/story/story-04afc813-023</link><guid isPermaLink="true">https://todayforai.com/en/story/story-04afc813-023</guid>
+<pubDate>Mon, 02 Nov 2026 15:57:16 +0800</pubDate>
+<description>&lt;p&gt;巴西一家劳动法院对两名律师处以约 1.6 万美元罚款及公开谴责，成为全球首例因使用“提示注入”技术恶意操控司法 AI 系统而受法律制裁的案例。涉事律师在提交的法律文书中利用“白底白字”等隐藏手段植入恶意指令，试图诱导法院的自动化审查系统忽略关键内容或规避监管。
+
+尽管此次攻击未实际改变判决结果（原告仍缺席胜诉），但法院认定该行为严重损害了司法尊严与程序公正。这一裁决表明，现有法律框架正快速适应并规制针对 AI 系统的新型对抗性攻击手段，不再仅以结果论罪，而是将操纵算法的行为本身视为违规。
+
+此事件为法律科技领域敲响了安全警钟，凸显了在专业场景引入 AI 辅助时面临的伦理与合规挑战。它迫使行业建立更严格的文档检测机制与 AI 使用规范，防止类似漏洞被滥用，同时也确立了通过技术手段干扰自动化决策需承担法律责任的先例。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 <item><title>DeepSeek 开源 Super-agent 架构实现多任务并行</title><link>https://todayforai.com/en/story/story-0bf22429-962</link><guid isPermaLink="true">https://todayforai.com/en/story/story-0bf22429-962</guid>
 <pubDate>Sun, 01 Nov 2026 15:50:42 +0800</pubDate>
@@ -62,14 +78,6 @@ OpenAI 已迅速修复该问题并向发现者支付 5000 美元赏金。此事�
 <item><title>中国拟将前沿 AI 技术列入出口管制目录</title><link>https://todayforai.com/en/story/story-62849e6a-bc2</link><guid isPermaLink="true">https://todayforai.com/en/story/story-62849e6a-bc2</guid>
 <pubDate>Mon, 02 Nov 2026 15:27:28 +0800</pubDate>
 <description>&lt;p&gt;中国商务部与科技部发布第48号公告草案，拟将包括大模型权重、智能体架构在内的23项AI核心技术列入禁止或限制出口目录。该草案设定了明确的技术阈值，并同步实施临时预出口登记要求，标志着中国对前沿AI技术的监管从应用层延伸至底层核心资产。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Hacker News AI&lt;/p&gt;</description>
-</item>
-<item><title>美国数据中心反对声浪高涨，水资源成首要关切</title><link>https://todayforai.com/en/story/story-9b2bb81a-b3c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9b2bb81a-b3c</guid>
-<pubDate>Mon, 02 Nov 2026 08:17:33 +0800</pubDate>
-<description>&lt;p&gt;最新数据显示，美国公众对数据中心的反对情绪达到顶峰，73%的市政会议中无支持者。水资源消耗是首要担忧，且公众对科技巨头承诺的社区利益持高度怀疑态度。值得注意的是，多数评论并未直接提及 AI，而是聚焦于基础设施带来的环境与社会影响。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Hacker News AI&lt;/p&gt;</description>
-</item>
-<item><title>Nace AI 开源 Drex Max v1 决策模型支持本地运行</title><link>https://todayforai.com/en/story/story-7125efd9-de1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-7125efd9-de1</guid>
-<pubDate>Sun, 01 Nov 2026 16:21:26 +0800</pubDate>
-<description>&lt;p&gt;Nace AI 开源了旗舰决策模型 Drex Max v1，该模型不生成文本，而是通过单次前向传播对选项输出概率分布。其采用 Gated DeltaNet 与全注意力混合架构，在公开决策基准上表现优于竞品，并支持在 Apple Silicon 等本地硬件上高效部署。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
