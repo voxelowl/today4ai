@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Tue, 03 Nov 2026 02:43:26 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 03 Nov 2026 03:19:17 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 递交 IPO 招股书，估值两万亿拟募资千亿</title><link>https://todayforai.com/en/story/story-0ed5b747-86f</link><guid isPermaLink="true">https://todayforai.com/en/story/story-0ed5b747-86f</guid>
 <pubDate>Tue, 03 Nov 2026 00:40:29 +0800</pubDate>
@@ -43,6 +43,14 @@ LifeVal 基准的设计基于数千名 ChatGPT 用户的反馈及大规模时间
 
 这一进展对行业具有深远影响，它重新定义了个人助理类 AI 的性能标杆。随着模型在日常琐事处理能力的提升，开发者与企业将更有信心构建具备自主执行力的智能体应用，从而加速 AI 在家庭管理、个人金融等领域的商业化渗透与生态重构。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;OpenAI 官方博客, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
+<item><title>Claude Opus 5.5 更新提示词禁止游戏逆向克隆</title><link>https://todayforai.com/en/story/story-73b0d9d5-047</link><guid isPermaLink="true">https://todayforai.com/en/story/story-73b0d9d5-047</guid>
+<pubDate>Tue, 03 Nov 2026 02:56:02 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 在 Claude Opus 5.5 及 Claude Code 的系统提示词中新增硬性限制，明确禁止模型协助逆向工程或复刻特定现有电子游戏。这一举措直接回应了近期因 AI 代码能力跃升引发的行业危机：强大的自动化编程大幅降低了游戏移植与破解门槛，导致大量独立开发者作品被快速非法克隆，业界将此现象比作“Napster时刻”，严重冲击传统版权秩序。
+
+多方信源交叉验证显示，此次更新包含名为 &amp;#x27;tengu_heron_brook&amp;#x27; 的具体规则，不仅禁止直接复制，还封堵了通过更改命名等伪装手段进行的克隆行为。然而，官方同时保留了合法创作空间，允许基于用户自有资产、原创设计或通用游戏类型的开发工作。这种“软性引导”旨在平衡创新激励与法律风险规避，试图在遏制滥用与维护开发者生态之间寻找边界。
+
+尽管 Anthropic 试图通过提示词约束来缓解压力，但技术界普遍认为此举难以从根本上阻断 AI 驱动的游戏复制趋势。随着技术门槛的持续降低，单纯依靠模型层面的防御机制可能不足以应对日益复杂的侵权挑战，这迫使行业重新审视在生成式 AI 时代如何构建更有效的数字版权保护体系。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;量子位官网, Ars Technica AI, The Verge AI&lt;/p&gt;</description>
+</item>
 <item><title>AI 智能体集群游戏实验揭示协作官僚化困境</title><link>https://todayforai.com/en/story/story-1d497c71-6b9</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1d497c71-6b9</guid>
 <pubDate>Mon, 02 Nov 2026 23:42:27 +0800</pubDate>
 <description>&lt;p&gt;Y Combinator Labs 与 Olam Labs 联合开展了一项大规模 AI 智能体集群实证研究，在 Minecraft 和 Mindustry 沙盒环境中部署数百个基于 OpenAI 及 Anthropic 模型的智能体。实验核心发现揭示了多智能体系统在复杂社会性任务中的显著瓶颈：当 50 个智能体尝试协作建设文明时，系统陷入严重的“官僚主义”瘫痪，大量算力与时间耗费在微观管理、角色任命及过度协调上，导致宏大目标停滞不前。这一现象表明，通信与决策成本随集群规模呈非线性增长，使得传统层级结构在动态环境中失效。
@@ -51,25 +59,21 @@ LifeVal 基准的设计基于数千名 ChatGPT 用户的反馈及大规模时间
 
 该研究已开源测试框架，为 AI 对齐与安全提供了关键观察视角。它警示开发者，单纯增加智能体数量并不等于提升集体智慧，反而可能引发效率陷阱。未来多智能体系统的优化方向需聚焦于简化协调机制、抑制冗余沟通，并在赋予自主性与确保可控性之间寻找平衡，以应对现实世界中日益复杂的自动化协作挑战。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · 智能时代, The Decoder&lt;/p&gt;</description>
 </item>
+<item><title>纽约时报起诉 Brave 浏览器涉 AI 数据抓取与绕过付费墙</title><link>https://todayforai.com/en/story/story-6c8c08fc-9f4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-6c8c08fc-9f4</guid>
+<pubDate>Tue, 03 Nov 2026 03:19:17 +0800</pubDate>
+<description>&lt;p&gt;《纽约时报》联合多家媒体在联邦法院正式起诉隐私浏览器 Brave，指控其非法抓取受版权保护的内容用于训练人工智能模型，并帮助用户绕过新闻网站的付费墙。诉讼核心在于揭露 Brave 通过建立超 300 亿网页的实时索引，将包括 Anthropic、Perplexity 和 xAI 在内的五家 AI 公司作为主要客户，出售这些包含付费内容的索引数据以获取巨额利润。这一行动标志着传统媒体巨头针对 AI 数据供应链上游发起的最新一轮法律攻势。
+
+多方信源交叉验证显示，Brave 被指使用未公开的爬虫技术大规模采集数据，其商业模式不仅涉及向 AI 企业分发“销赃”般的版权内容，还通过屏蔽出版商广告和破解付费墙功能直接损害媒体收益。尽管部分 AI 公司回应称诉讼包含虚假信息，但此次起诉详细列举了 Brave 的技术架构与商业流向，凸显了其在数据合规性上的严重缺失。这是继 OpenAI 和 Perplexity 之后，媒体行业对 AI 训练数据来源发起的又一重大司法挑战。
+
+此案对 AI 行业的生态格局具有深远影响，它重新定义了浏览器工具在数据抓取中的法律责任边界，迫使开发者重新审视“隐私优先”与“版权合规”之间的平衡。若胜诉，可能引发连锁反应，导致更多基于公开网络数据训练的 AI 模型面临下架或赔偿风险，进而加速推动 AI 公司与内容出版商之间建立更透明、合法的数据授权合作机制。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Verge AI, TechCrunch AI&lt;/p&gt;</description>
+</item>
 <item><title>Artificial Analysis 引入实时 GPU 租赁价格优化智能体基准</title><link>https://todayforai.com/en/story/story-619009d7-351</link><guid isPermaLink="true">https://todayforai.com/en/story/story-619009d7-351</guid>
 <pubDate>Mon, 02 Nov 2026 22:01:00 +0800</pubDate>
 <description>&lt;p&gt;Artificial Analysis 与 Silicon Data 合作，将基于市场的 GPU 租赁价格数据整合进 AA-AgentPerf 数据中心性能基准。通过新增“每小时美元吞吐量”指标，该基准能动态反映不同云服务商在 H100、B200 等芯片上的性价比，其中 NVIDIA B300 目前表现领先。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
 </item>
-<item><title>美团发布 LongCat-2.5：1.6T 参数原生多模态模型，强化长程智能体能力</title><link>https://todayforai.com/en/story/story-cd4d5a24-120</link><guid isPermaLink="true">https://todayforai.com/en/story/story-cd4d5a24-120</guid>
-<pubDate>Mon, 02 Nov 2026 23:00:26 +0800</pubDate>
-<description>&lt;p&gt;美团龙猫团队正式发布 LongCat-2.5，这是一款总参数规模达 1.6 万亿的原生多模态大模型。该版本在架构上采用超大规模 MoE 设计，每 Token 激活约 480 亿参数，旨在通过极致的算力效率与容量平衡，解决复杂场景下的推理瓶颈。目前在线体验与 API 已开放，开源权重即将上线。
-
-多方信源交叉验证显示，LongCat-2.5 的核心突破在于引入了大规模长程强化学习技术，专门优化长序列训练中的智能体轨迹。同时，模型采用了多层级离散视觉 Token 表示技术，实现了文本与视觉信号的统一处理。这一组合显著提升了 Visual Coding 表现，使其在复杂代码库构建及完整项目开发的端到端工程能力上取得实质性进展。
-
-此次发布标志着国产大模型在“长程智能体”赛道上的重要进阶。通过强化对长周期、多步骤任务的规划与执行能力，LongCat-2.5 有望大幅降低开发者在自动化编程和复杂系统构建中的门槛，推动 AI 从单点辅助向全流程自主工程化方向演进，重塑开发者生态格局。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Hacker News AI&lt;/p&gt;</description>
-</item>
-<item><title>Subvocal 推出无声语音输入眼镜 支持 200+ WPM 静默打字</title><link>https://todayforai.com/en/story/story-623046a8-ba1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-623046a8-ba1</guid>
-<pubDate>Tue, 03 Nov 2026 01:16:17 +0800</pubDate>
-<description>&lt;p&gt;硬件初创公司 Subvocal 发布了一款基于面部肌肉电信号（EMG）的无声语音输入眼镜，允许用户在公共场合以超过 200 字/分钟的速度“默读”生成文本。该产品旨在解决在拥挤或安静环境中使用语音交互的隐私与噪音痛点，并特别强调了与 AI 智能体及编程代理的静默协作能力。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Hacker News AI&lt;/p&gt;</description>
-</item>
-<item><title>Anthropic 披露 RSI 已承担 26% 模型研发工作</title><link>https://todayforai.com/en/story/story-72ed5e78-962</link><guid isPermaLink="true">https://todayforai.com/en/story/story-72ed5e78-962</guid>
-<pubDate>Tue, 03 Nov 2026 02:43:26 +0800</pubDate>
-<description>&lt;p&gt;据 David Sacks 引述，Anthropic 在 8 月的博客中披露其递归自我改进（RSI）系统已承担下一代模型研发流程中 26% 的任务。这一数据表明头部实验室正加速将 AI 自身深度整合进核心训练管线，且截至 10 月该比例可能进一步提升。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
+<item><title>Astra 模型直接读写权重 显著提升 Qwen 数学能力</title><link>https://todayforai.com/en/story/story-7028676c-267</link><guid isPermaLink="true">https://todayforai.com/en/story/story-7028676c-267</guid>
+<pubDate>Tue, 03 Nov 2026 02:21:28 +0800</pubDate>
+<description>&lt;p&gt;前沿大模型 Astra 展现出原生读取和写入神经网络权重的能力，无需梯度即可优化小模型。实验显示，Astra 通过修改 Qwen3.5-0.8B 仅 0.016% 的权重，使其 MATH-500 得分从 7.9% 跃升至 48.1%，并显著改善指令遵循能力。这一“权重空间编程”范式可能重塑模型优化与可解释性研究。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Hacker News AI&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
