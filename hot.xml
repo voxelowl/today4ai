@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Mon, 02 Nov 2026 16:51:40 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 02 Nov 2026 18:46:00 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>OpenAI 回应抗议翻倍 Codex 额度并合并入口</title><link>https://todayforai.com/en/story/story-1cdddab3-b11</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1cdddab3-b11</guid>
 <pubDate>Mon, 02 Nov 2026 09:37:13 +0800</pubDate>
@@ -63,6 +63,14 @@ HackerTube 的上线标志着开发者正从被动接受平台算法转向主动
 
 为缓解紧张局势并推动生态融合，OpenAI 宣布向西蒙斯基金会捐赠 500 万美元，旨在资助研讨会与项目，帮助数学家适应 AI 时代并理解 AI 生成的科研成果。此举标志着科技巨头正试图从单纯的“技术输出者”转型为“学术协作者”，但也引发了关于学术伦理、出版规范及 AI 对学科本质影响的深层反思。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Verge AI, Hacker News AI, 新智元 (微信公众号), IT之家 · IT业界&lt;/p&gt;</description>
 </item>
+<item><title>GLM 5.3 自主构建 Firefox 攻击链</title><link>https://todayforai.com/en/story/story-54dd93b5-b3b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-54dd93b5-b3b</guid>
+<pubDate>Mon, 02 Nov 2026 18:46:00 +0800</pubDate>
+<description>&lt;p&gt;Epoch AI 最新研究证实，开源权重模型 GLM 5.3 已具备在无人类干预下自主构建针对 Firefox 浏览器完整攻击链的能力。该模型在不足 48 小时内，单次 API 调用成本仅约 1000 美元，便成功识别并串联未公开漏洞，实现了从漏洞发现到利用载荷生成的全流程自动化。
+
+技术细节显示，GLM 5.3 的核心突破在于精准利用“补丁间隙”（Patch Gap），即安全修复发布后但尚未广泛部署至用户端的时间窗口。模型仅凭公开的安全修复信息即可生成恶意网页，当用户访问时自动读取本地文件并回传数据，无需额外交互或特殊权限。多方信源交叉验证表明，这一过程完全由 AI 自主完成，无需人工代码编写指导，且所用模型为广泛可用的开源版本，而非受限的闭源前沿模型。
+
+这一事件标志着高级网络攻击门槛的大幅降低，揭示了 AI 能力民主化带来的双刃剑效应。原本需要专家知识才能实施的零日或近零日漏洞利用，现已下沉至普通开源模型，显著加剧了软件供应链安全风险。随着高性能开源模型的普及，“补丁间隙”这一普遍存在的安全隐患正被快速放大，迫使行业重新审视防御策略与模型安全对齐机制。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, The Decoder, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
+</item>
 <item><title>ChatGPT Artifacts 现沙箱逃逸漏洞可窃取账户数据</title><link>https://todayforai.com/en/story/story-68ea2db8-7c4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-68ea2db8-7c4</guid>
 <pubDate>Sun, 01 Nov 2026 23:41:41 +0800</pubDate>
 <description>&lt;p&gt;安全团队 Parameter Labs 披露了 ChatGPT “Artifacts”功能中存在的严重沙箱逃逸漏洞，攻击者可借此劫持用户账户并窃取隐私数据。该漏洞源于前端隔离策略失效，导致未信任代码能够突破受限 iframe 边界，直接影响父页面执行恶意操作。
@@ -70,10 +78,6 @@ HackerTube 的上线标志着开发者正从被动接受平台算法转向主动
 技术细节显示，漏洞核心在于 MathLive 库处理 postMessage 机制时的缺陷。当虚拟键盘被触发时，系统使用了不安全的 innerHTML 赋值方式，且缺乏对消息来源的有效验证。攻击者通过构造特定的恶意分享链接，即可形成 XSS 攻击链，在受害者浏览时静默执行代码。
 
 OpenAI 已迅速修复该问题并向发现者支付 5000 美元赏金。此事件凸显了 AI 应用中动态内容渲染的安全风险，警示开发者需严格审查第三方库集成及前端沙箱隔离机制，防止类似跨域注入攻击威胁用户数据安全。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Simon Willison 博客, Hacker News AI&lt;/p&gt;</description>
-</item>
-<item><title>中国拟将前沿 AI 技术列入出口管制目录</title><link>https://todayforai.com/en/story/story-62849e6a-bc2</link><guid isPermaLink="true">https://todayforai.com/en/story/story-62849e6a-bc2</guid>
-<pubDate>Mon, 02 Nov 2026 15:27:28 +0800</pubDate>
-<description>&lt;p&gt;中国商务部与科技部发布第48号公告草案，拟将包括大模型权重、智能体架构在内的23项AI核心技术列入禁止或限制出口目录。该草案设定了明确的技术阈值，并同步实施临时预出口登记要求，标志着中国对前沿AI技术的监管从应用层延伸至底层核心资产。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Hacker News AI&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
