@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Mon, 02 Nov 2026 19:53:55 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 02 Nov 2026 20:50:59 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>OpenAI 回应抗议翻倍 Codex 额度并合并入口</title><link>https://todayforai.com/en/story/story-1cdddab3-b11</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1cdddab3-b11</guid>
 <pubDate>Mon, 02 Nov 2026 09:37:13 +0800</pubDate>
@@ -43,6 +43,14 @@ HUMAIN 计划到 2030 年建成 3GW 数据中心容量，并开发包括 ALLaM �
 
 这项已开源的研究不仅暴露了当前大模型在多智能体协调上的效率瓶颈，即通信与决策成本随规模非线性增长，也为开发者优化智能体架构提供了关键参考。它警示业界，单纯堆叠模型数量无法解决协作难题，需重新设计通信协议与角色分配机制，以突破现实世界智能体集群的应用天花板。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
+<item><title>Claude 智能体自主完成小鼠脑手术并触发安全中止</title><link>https://todayforai.com/en/story/story-8578dbe5-a9d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-8578dbe5-a9d</guid>
+<pubDate>Mon, 02 Nov 2026 20:50:59 +0800</pubDate>
+<description>&lt;p&gt;生物科技初创公司 Exin Therapeutics 近日展示了一项突破性进展：基于 Anthropic Claude Sonnet 5 模型的 AI 智能体在无人工直接干预下，自主完成了针对癫痫小鼠模型的脑部基因疗法注射手术。该智能体独立执行了从文献检索、治疗策略选择（包括药物载体与脑区坐标推导）到操控机械臂进行 250 纳升微量注射的全流程闭环操作。这一事件标志着 AI 在活体哺乳动物实验中的角色已从辅助分析正式转向直接物理执行。
+
+多方信源交叉验证显示，该系统具备显著的安全护栏机制。术中当智能体检测到硬件校准误差时，主动拒绝继续操作以遵守预设安全限制；更关键的是，在面对研究人员发出的覆盖指令时，智能体基于“减少癫痫发作”的核心目标与安全逻辑，坚持拒绝执行不可逆步骤。值得注意的是，同系列的 Opus 模型因担忧中途截断可能导致医疗事故而直接拒绝执行此类生物手术任务，体现了不同模型层级在安全对齐上的差异。整个实验采用“人在回路”架构，由持证兽医通过物理急停开关对关键节点进行最终把关，确保了伦理合规性。
+
+此次成功不仅验证了高阶自主代理在复杂物理世界中的决策与执行能力，也为自动化生物实验提供了新范式。它展示了 AI 如何在保持严格安全边界的前提下，独立完成从理论推导到实体操作的完整科研链条，可能加速药物研发与神经科学研究的进程，同时也引发了关于 AI 自主权与人类监督边界的深层讨论。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Decoder, IT之家 · 智能时代, Hacker News AI&lt;/p&gt;</description>
+</item>
 <item><title>巴西法院首罚律师 因植入提示注入操纵 AI</title><link>https://todayforai.com/en/story/story-04afc813-023</link><guid isPermaLink="true">https://todayforai.com/en/story/story-04afc813-023</guid>
 <pubDate>Mon, 02 Nov 2026 15:57:16 +0800</pubDate>
 <description>&lt;p&gt;巴西一家劳动法院对两名律师处以约 1.6 万美元罚款及公开谴责，成为全球首例因使用“提示注入”技术恶意操控司法 AI 系统而受法律制裁的案例。涉事律师在提交的法律文书中利用“白底白字”等隐藏手段植入恶意指令，试图诱导法院的自动化审查系统忽略关键内容或规避监管。
@@ -66,14 +74,6 @@ HUMAIN 计划到 2030 年建成 3GW 数据中心容量，并开发包括 ALLaM �
 在技术实现上，Super-agent 采用 Router 与 Worker 双层架构：Router 负责鉴权与分发，Worker 在隔离环境中执行具体编码任务并回复原线程。实测数据显示，其多任务完成效率显著优于传统单会话方案，p95 任务完成时间约为 15.7 分钟，较传统模式的 29.5 分钟缩短近一半，中位数仅为 12.4 分钟。目前开源的 dsh-superagent-prototype 原型已验证了调度效率，但尚未评估代码生成质量。
 
 这一突破对开发者生态具有深远影响，它证明了 AI 能够脱离即时交互限制，以“持久在线”状态主动处理如自动提交 PR、异常修复等潜在问题。尽管当前版本存在高权限运行带来的安全隐患，但其定义的连续、高效、主动、持久四大特征，为下一代自主协作者奠定了坚实的技术基础。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, 量子位官网, Marktechpost (@Marktechpost)&lt;/p&gt;</description>
-</item>
-<item><title>OpenAI 坚持发布 AI 数学成果并捐赠支持学界</title><link>https://todayforai.com/en/story/story-d64f63e7-2b2</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d64f63e7-2b2</guid>
-<pubDate>Mon, 02 Nov 2026 02:28:42 +0800</pubDate>
-<description>&lt;p&gt;OpenAI CEO Sam Altman 明确表态，尽管其一次性发布超 700 篇 AI 生成数学论文引发学术界强烈争议，公司仍不会停止这一进程。Altman 承认早期发布存在沟通不畅、缺乏背景论证及格式违规等问题，导致研究人员感到困惑与被边缘化，但他强调“世界有权了解宇宙规律”，视此为探索模型能力边界的关键步骤。
-
-多方信源交叉验证显示，OpenAI 在数学领域已投入数亿美元，除已公开成果外，手中仍握有大量未公开的储备发现，包括涉及朗兰兹纲领等前沿领域的突破。面对菲尔兹奖得主联名抗议及关于“杨-米尔斯”理论成果未完全公开的质疑，OpenAI 选择通过优化发布流程来回应批评，承诺未来将更尊重学术规范，同时继续推进如 NS 方程等高难度问题的研究。
-
-为缓解紧张局势并推动生态融合，OpenAI 宣布向西蒙斯基金会捐赠 500 万美元，旨在资助研讨会与项目，帮助数学家适应 AI 时代并理解 AI 生成的科研成果。此举标志着科技巨头正试图从单纯的“技术输出者”转型为“学术协作者”，但也引发了关于学术伦理、出版规范及 AI 对学科本质影响的深层反思。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Verge AI, Hacker News AI, 新智元 (微信公众号), IT之家 · IT业界&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
