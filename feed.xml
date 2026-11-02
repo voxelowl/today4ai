@@ -1,8 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Tue, 03 Nov 2026 01:17:36 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 03 Nov 2026 02:15:39 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>SpaceX Cuts Grok Bot Quotas Due to Unsustainable Costs</title><link>https://the-decoder.com/spacexsi-apparently-cuts-grok-bot-quotas-weeks-after-musk-called-it-his-fastest-growing-product/</link><guid isPermaLink="true">https://the-decoder.com/spacexsi-apparently-cuts-grok-bot-quotas-weeks-after-musk-called-it-his-fastest-growing-product/</guid>
+<pubDate>Tue, 03 Nov 2026 02:15:39 +0800</pubDate>
+<description>&lt;p&gt;SpaceX has significantly reduced Grok Bot usage quotas after Elon Musk admitted the operational costs were unsustainable relative to revenue. This move highlights how high inference expenses for AI agents are forcing providers to shift from unlimited access models to stricter resource rationing and tiered pricing.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SpaceX 削减 Grok Bot 配额 因运行成本过高&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了 AI 智能体商业化落地中的核心痛点：高算力成本与用户免费/低价预期之间的结构性矛盾。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 68/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/spacexsi-apparently-cuts-grok-bot-quotas-weeks-after-musk-called-it-his-fastest-growing-product/">The Decoder</source>
+<category>AI Agent</category>
+<category>Cost Optimization</category>
+<category>SpaceX</category>
+<category>Grok</category>
+</item>
+<item><title>Anthropic Updates Claude Prompts to Restrict Game Cloning</title><link>https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/</link><guid isPermaLink="true">https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/</guid>
+<pubDate>Tue, 03 Nov 2026 02:05:31 +0800</pubDate>
+<description>&lt;p&gt;Anthropic introduced new system prompt rules in Claude Code explicitly prohibiting the recreation of specific existing video games. While intended to mitigate legal liability and curb the wave of AI-assisted game porting, industry observers doubt this measure will significantly slow down the current trend of AI-driven copying.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 更新 Claude 提示词限制游戏复刻&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;反映了大模型厂商在版权合规与生成能力边界上的最新策略调整，对开发者生态有直接约束力。&lt;/p&gt;&lt;p&gt;Ars Technica AI · llm · signal 45/100&lt;/p&gt;</description>
+<source url="https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/">Ars Technica AI</source>
+<category>Anthropic</category>
+<category>Claude</category>
+<category>AI Ethics</category>
+<category>Copyright</category>
+</item>
+<item><title>Meta Proposes Routed CL to Boost Agent Performance via Task-Specific Memory Isolation</title><link>https://x.com/rohanpaul_ai/status/2117317080618041761</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117317080618041761</guid>
+<pubDate>Tue, 03 Nov 2026 02:05:04 +0800</pubDate>
+<description>&lt;p&gt;Meta&amp;#x27;s new paper introduces Routed CL, an architecture that uses an LLM router to cluster agent memories by problem type instead of maintaining a single shared history. Experiments show this approach improves scores by 15-30% of the maximum possible gain and reduces estimated API costs by 65-72% compared to shared memory baselines.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 提出 Routed CL 架构，智能体按任务类型隔离记忆提升表现&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;针对智能体长期运行中的记忆污染与成本痛点提供了可验证的工程解法，数据详实且具备直接落地价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2117317080618041761">Rohan Paul (@rohanpaul_ai)</source>
+<category>智能体</category>
+<category>记忆管理</category>
+<category>Meta</category>
+<category>LLM Router</category>
+</item>
+<item><title>DeepSeek Promotes Creator Mode for Natural Language Plugin Generation</title><link>https://x.com/rohanpaul_ai/status/2117313521688121388</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117313521688121388</guid>
+<pubDate>Tue, 03 Nov 2026 01:50:56 +0800</pubDate>
+<description>&lt;p&gt;DeepSeek is promoting &amp;#x27;Creator Mode&amp;#x27; in its open-source agent app Harness, enabling users to generate working plugins from plain-language requests where the AI writes, installs, and tests them. Although the feature has existed since August, the release of a demo video and prompts aims to leverage Harness&amp;#x27;s 268K GitHub stars to grow the ecosystem, pending validation of plugin reliability beyond curated demos.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;DeepSeek Harness 推广 Creator Mode 支持自然语言生成插件&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了智能体从对话向自主构建工具演进的具体落地场景，对开发者生态有潜在影响。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 68/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2117313521688121388">Rohan Paul (@rohanpaul_ai)</source>
+<category>DeepSeek</category>
+<category>AI Agent</category>
+<category>Open Source</category>
+<category>Plugin Ecosystem</category>
+</item>
+<item><title>Google Recaps October AI Updates Including Gemini 4 and Genie 4</title><link>https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/</link><guid isPermaLink="true">https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/</guid>
+<pubDate>Tue, 03 Nov 2026 01:45:00 +0800</pubDate>
+<description>&lt;p&gt;Here’s a recap of some of our biggest AI updates from October, led by Gemini 4 Argon and Carbon, alongside our new world model Genie 4. --- --- Your browser does not support the audio element. Listen to article [[duration]] minutes In October, we released new AI tools to help you work, stay safe, and learn. We introduced Gemini 4 Argon for complex tasks, Genie 4 for building interactive simulations, and updated Android to block sophisticated scams. You can also use our new SynthID Detector to ve...&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌发布十月 AI 更新 含 Gemini 4 与 Genie 4&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;虽涉及前沿模型名称，但内容为月度新闻回顾而非独立深度技术解析，信息密度分散且多为营销导向。&lt;/p&gt;&lt;p&gt;Google AI Blog · industry · signal 45/100&lt;/p&gt;</description>
+<source url="https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/">Google AI Blog</source>
+<category>谷歌</category>
+<category>Gemini</category>
+<category>AI 产品更新</category>
+</item>
+<item><title>Manus Client Logic Easily Reverse-Engineered, Weakening Technical Moat</title><link>https://x.com/dotey/status/2117306470727336321</link><guid isPermaLink="true">https://x.com/dotey/status/2117306470727336321</guid>
+<pubDate>Tue, 03 Nov 2026 01:22:54 +0800</pubDate>
+<description>&lt;p&gt;Industry commentary suggests that Manus&amp;#x27;s Electron client and custom LLM API expose its prompts, skills, and harness logic to reverse engineering, significantly lowering technical barriers. While cloning is feasible, brand trust and deep product decision-making remain key differentiators, making simple replication unlikely to succeed.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Manus 客户端逻辑易被逆向分析，技术护城河减弱&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了 Agent 类产品在架构层面的可观测性风险及当前 AI 应用层“技术无护城河”的行业共识。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · agent · signal 45/100&lt;/p&gt;</description>
+<source url="https://x.com/dotey/status/2117306470727336321">宝玉 (@dotey)</source>
+<category>Agent</category>
+<category>Manus</category>
+<category>Reverse Engineering</category>
+<category>Product Strategy</category>
+</item>
 <item><title>Altman: Energy is the Biggest AI Challenge</title><link>https://x.com/rohanpaul_ai/status/2117305135953289693</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117305135953289693</guid>
 <pubDate>Tue, 03 Nov 2026 01:17:36 +0800</pubDate>
 <description>&lt;p&gt;OpenAI CEO Sam Altman stated at a conference in Abu Dhabi that while model efficiency and robotic automation can reduce compute costs, physical energy supply remains the dominant bottleneck for AI scale and cost. He emphasized that \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Sam Altman 称能源是 AI 最大瓶颈&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;行业领袖对 AI 算力瓶颈核心矛盾（能源 vs 算法）的定性判断，具有宏观参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 45/100&lt;/p&gt;</description>
@@ -21,6 +74,15 @@
 <category>语音识别</category>
 <category>AI 工具</category>
 </item>
+<item><title>Crawl4AI Integrates with Amazon Bedrock Knowledge Bases</title><link>https://aws.amazon.com/blogs/machine-learning/prepare-web-content-for-amazon-bedrock-knowledge-bases-with-crawl4ai/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/prepare-web-content-for-amazon-bedrock-knowledge-bases-with-crawl4ai/</guid>
+<pubDate>Tue, 03 Nov 2026 01:11:21 +0800</pubDate>
+<description>&lt;p&gt;Amazon Bedrock introduces an integration with Crawl4AI to optimize web content ingestion for RAG applications. This solution combines Bedrock&amp;#x27;s managed knowledge base capabilities with Crawl4AI&amp;#x27;s advanced crawling features to enhance the quality and retrieval efficiency of unstructured web data.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Crawl4AI 集成 Amazon Bedrock 知识库&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;针对 RAG 开发者提供的具体工具链集成指南，具有明确的工程落地价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 45/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/prepare-web-content-for-amazon-bedrock-knowledge-bases-with-crawl4ai/">AWS Machine Learning Blog</source>
+<category>RAG</category>
+<category>Amazon Bedrock</category>
+<category>Crawl4AI</category>
+<category>Web Scraping</category>
+</item>
 <item><title>Momentic Launches AI QA Agent for Automated App Testing and Bug Detection</title><link>https://momentic.ai/</link><guid isPermaLink="true">https://momentic.ai/</guid>
 <pubDate>Tue, 03 Nov 2026 01:05:25 +0800</pubDate>
 <description>&lt;p&gt;YC-backed startup Momentic has launched &amp;#x27;Mo&amp;#x27;, an AI QA engineer that performs end-to-end application testing via natural language prompts. The tool aims to replace brittle script maintenance by autonomously identifying bugs in critical flows and suggesting fixes.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Momentic 发布 AI QA 智能体 自动测试应用并捕获 Bug&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了 LLM Agent 在软件工程自动化测试领域的具体落地形态，对开发者工具链有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 45/100&lt;/p&gt;</description>
@@ -29,6 +91,33 @@
 <category>DevTools</category>
 <category>QA Automation</category>
 <category>Startup</category>
+</item>
+<item><title>SageMaker Introduces Knowledge Distillation for Efficient AI Agents</title><link>https://aws.amazon.com/blogs/machine-learning/build-efficient-agents-with-knowledge-distillation-on-amazon-sagemaker-ai/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/build-efficient-agents-with-knowledge-distillation-on-amazon-sagemaker-ai/</guid>
+<pubDate>Tue, 03 Nov 2026 01:01:31 +0800</pubDate>
+<description>&lt;p&gt;Amazon SageMaker AI offers a knowledge distillation solution to train smaller &amp;#x27;student&amp;#x27; models that mimic larger &amp;#x27;teacher&amp;#x27; models, reducing inference latency and costs for AI agents while maintaining task quality. This approach addresses ROI challenges in multi-turn agentic workflows by providing code repositories and documentation for implementation.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SageMaker 推出智能体知识蒸馏方案 降低推理成本&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为开发者提供了具体的工程化手段来解决智能体高昂的推理成本问题，具有明确的落地价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 48/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/build-efficient-agents-with-knowledge-distillation-on-amazon-sagemaker-ai/">AWS Machine Learning Blog</source>
+<category>SageMaker</category>
+<category>Knowledge Distillation</category>
+<category>AI Agents</category>
+<category>Cost Optimization</category>
+</item>
+<item><title>Amazon Demos Multi-Agent Engineering Assistant for Part Substitution</title><link>https://aws.amazon.com/blogs/machine-learning/agentic-engineering-intelligence-with-amazon-nova-multimodal-embeddings-and-amazon-bedrock-agentcore/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/agentic-engineering-intelligence-with-amazon-nova-multimodal-embeddings-and-amazon-bedrock-agentcore/</guid>
+<pubDate>Tue, 03 Nov 2026 01:01:16 +0800</pubDate>
+<description>&lt;p&gt;Amazon demonstrates a multi-agent system combining Nova Multimodal Embeddings and Bedrock AgentCore to automate part substitution decisions in aerospace. By retrieving data from technical diagrams and specifications, the system reduces days of manual cross-referencing into auto-generated assessment drafts, significantly improving engineering review efficiency.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊演示多智能体工程助手 加速部件替代决策&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了多模态检索在垂直行业复杂文档处理中的具体落地场景，但属于厂商绑定的教程案例，通用性受限。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 45/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/agentic-engineering-intelligence-with-amazon-nova-multimodal-embeddings-and-amazon-bedrock-agentcore/">AWS Machine Learning Blog</source>
+<category>Agent</category>
+<category>Multimodal</category>
+<category>Engineering</category>
+<category>AWS</category>
+</item>
+<item><title>Circle K Cuts DevOps Incident Triage to Under 15 Minutes Using Amazon Bedrock</title><link>https://aws.amazon.com/blogs/machine-learning/how-circle-k-accelerated-devops-incident-triage-to-under-15-minutes-with-amazon-bedrock/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/how-circle-k-accelerated-devops-incident-triage-to-under-15-minutes-with-amazon-bedrock/</guid>
+<pubDate>Tue, 03 Nov 2026 01:00:58 +0800</pubDate>
+<description>&lt;p&gt;Circle K built an automated incident triage system using Amazon Bedrock, reducing manual log analysis and correlation time from 45-60 minutes to under 15. The solution leverages foundation models via a single API to streamline operations for its global cloud-native infrastructure.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Circle K 利用 Amazon Bedrock 将 DevOps 事故分诊时间缩短至 15 分钟以内&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;典型的企业级 AI 落地案例，展示了 LLM 在 DevOps 场景中的实际提效价值，但技术细节较为常规。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 35/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/how-circle-k-accelerated-devops-incident-triage-to-under-15-minutes-with-amazon-bedrock/">AWS Machine Learning Blog</source>
+<category>DevOps</category>
+<category>Amazon Bedrock</category>
+<category>Circle K</category>
+<category>LLM应用</category>
 </item>
 <item><title>Hume Launches Audio Decision API for Direct Emotion Analysis</title><link>https://x.com/rohanpaul_ai/status/2117299858243735883</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117299858243735883</guid>
 <pubDate>Tue, 03 Nov 2026 00:56:38 +0800</pubDate>
@@ -65,6 +154,15 @@
 <category>IPO</category>
 <category>财报</category>
 <category>算力成本</category>
+</item>
+<item><title>Claude Opus 5.5 Breaks Technical Drawing Barrier with Permit-Level Architectural Drafting</title><link>https://stephenjgallagher.substack.com/p/ai-can-draw-blueprints-now</link><guid isPermaLink="true">https://stephenjgallagher.substack.com/p/ai-can-draw-blueprints-now</guid>
+<pubDate>Tue, 03 Nov 2026 00:25:33 +0800</pubDate>
+<description>&lt;p&gt;Anthropic&amp;#x27;s Claude Opus 5.5 achieves a major breakthrough in technical drafting, capable of generating permit-level architectural drawings. While generative AI previously struggled with precise engineering diagrams, testing reveals that frontier models can now handle complex construction document sets, potentially reshaping architectural design workflows.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Claude Opus 5.5 突破技术绘图瓶颈 可生成建筑许可级图纸&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;填补了生成式 AI 在垂直专业领域（如建筑制图）长期存在的精度短板，具有显著的行业应用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://stephenjgallagher.substack.com/p/ai-can-draw-blueprints-now">Hacker News AI</source>
+<category>大模型</category>
+<category>Anthropic</category>
+<category>多模态</category>
+<category>垂直行业应用</category>
 </item>
 <item><title>Grok Bot Tightens Usage Limits Due to Unsustainable Costs</title><link>https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/</guid>
 <pubDate>Tue, 03 Nov 2026 00:23:21 +0800</pubDate>
@@ -121,18 +219,18 @@
 <category>Meta</category>
 <category>推测解码</category>
 </item>
-<item><title>Anthropic Revenue Surges 11x in Q3, Eyes Record-Breaking IPO</title><link>https://www.ithome.com/1/021/277.htm</link><guid isPermaLink="true">https://www.ithome.com/1/021/277.htm</guid>
+<item><title>Anthropic Q3 营收暴涨 11 倍，冲刺史上最大 IPO</title><link>https://www.ithome.com/1/021/277.htm</link><guid isPermaLink="true">https://www.ithome.com/1/021/277.htm</guid>
 <pubDate>Mon, 02 Nov 2026 23:02:09 +0800</pubDate>
-<description>&lt;p&gt;Anthropic reported Q3 revenue of nearly $17 billion, an 11-fold year-over-year surge, despite widening net losses to $23.3 billion. The company has filed for an IPO targeting a valuation between $1.4 and $1.5 trillion, aiming to list before Thanksgiving as the first US public company focused on frontier LLM development.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic Q3 营收暴涨 11 倍，冲刺史上最大 IPO&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 实验室财务数据首次公开且增长惊人，IPO 进程直接反映资本市场对大模型商业化的最新定价与信心。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 85/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 披露第三季度营收近 170 亿美元，同比暴涨 11 倍，尽管净亏损扩大至 233 亿美元。公司已正式递交 IPO 申请，目标估值区间下调至 1.4-1.5 万亿美元，拟在感恩节前后完成上市，有望成为美国首家主打前沿大模型研发的上市公司。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 实验室财务数据首次公开且增长惊人，IPO 进程直接反映资本市场对大模型商业化的最新定价与信心。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 85/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/021/277.htm">IT之家 · IT业界</source>
 <category>Anthropic</category>
 <category>IPO</category>
 <category>AI 融资</category>
 <category>财报</category>
 </item>
-<item><title>LongCat-2.5 Launches: 1.6T MoE Model Boosts Long-Horizon Agentic Tasks</title><link>https://longcat.ai/blog/longcat-2.5/</link><guid isPermaLink="true">https://longcat.ai/blog/longcat-2.5/</guid>
+<item><title>LongCat-2.5 发布 1.6T MoE 模型 强化长程智能体任务</title><link>https://longcat.ai/blog/longcat-2.5/</link><guid isPermaLink="true">https://longcat.ai/blog/longcat-2.5/</guid>
 <pubDate>Mon, 02 Nov 2026 23:00:26 +0800</pubDate>
-<description>&lt;p&gt;Meituan&amp;#x27;s LongCat team released LongCat-2.5, a native multimodal model with 1.6 trillion total parameters and ~48 billion activated per token. The update focuses on enhancing visual understanding and agentic coding, leveraging large-scale long-horizon reinforcement learning to improve end-to-end engineering capabilities for complex codebase development and full-project builds.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;LongCat-2.5 发布 1.6T MoE 模型 强化长程智能体任务&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;超大参数规模结合长程强化学习技术，显著提升了 AI 在复杂软件工程场景下的自主执行能力。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 85/100&lt;/p&gt;</description>
+<description>&lt;p&gt;美团 LongCat 团队发布 LongCat-2.5，这是一款拥有 1.6 万亿总参数、480 亿激活参数的原生多模态大模型。该版本重点强化了视觉理解与智能体编码能力，通过大规模长程强化学习提升复杂代码库开发及全项目构建的端到端工程能力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;超大参数规模结合长程强化学习技术，显著提升了 AI 在复杂软件工程场景下的自主执行能力。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 85/100&lt;/p&gt;</description>
 <source url="https://longcat.ai/blog/longcat-2.5/">Hacker News AI</source>
 <category>大模型</category>
 <category>多模态</category>
@@ -140,129 +238,40 @@
 <category>强化学习</category>
 <category>美团</category>
 </item>
-<item><title>Omen AI Acquires Aquatic Labs to Enhance Data Center Liquid Cooling Monitoring</title><link>https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/</guid>
+<item><title>Omen AI 收购 Aquatic Labs 强化数据中心液冷监测</title><link>https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/</guid>
 <pubDate>Mon, 02 Nov 2026 23:00:00 +0800</pubDate>
-<description>&lt;p&gt;AI infrastructure startup Omen AI acquired competitor Aquatic Labs for $16 million to integrate real-time water quality sensing technologies. The move aims to address cooling inefficiencies caused by bacterial growth or valve failures in data center liquid systems, tackling the growing challenge of water consumption.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Omen AI 收购 Aquatic Labs 强化数据中心液冷监测&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该事件反映了 AI 算力扩张背景下，基础设施层对能效与水资源管理的精细化需求正在催生新的垂直赛道并购。&lt;/p&gt;&lt;p&gt;TechCrunch AI · compute · signal 48/100&lt;/p&gt;</description>
+<description>&lt;p&gt;AI 基础设施初创公司 Omen AI 以 1600 万美元收购竞争对手 Aquatic Labs，旨在整合实时水质传感技术。此举意在解决数据中心液冷系统中因细菌滋生或阀门故障导致的冷却效率低下问题，从而应对日益严峻的水资源消耗挑战。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该事件反映了 AI 算力扩张背景下，基础设施层对能效与水资源管理的精细化需求正在催生新的垂直赛道并购。&lt;/p&gt;&lt;p&gt;TechCrunch AI · compute · signal 48/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/">TechCrunch AI</source>
 <category>数据中心</category>
 <category>液冷技术</category>
 <category>并购</category>
 <category>基础设施</category>
 </item>
-<item><title>OpenAI Releases GPT-Rosalind-6 for Biology and Drug Discovery</title><link>https://deploymentsafety.openai.com/gpt-rosalind-6</link><guid isPermaLink="true">https://deploymentsafety.openai.com/gpt-rosalind-6</guid>
+<item><title>OpenAI 发布 GPT-Rosalind-6 聚焦生物与药物研发</title><link>https://deploymentsafety.openai.com/gpt-rosalind-6</link><guid isPermaLink="true">https://deploymentsafety.openai.com/gpt-rosalind-6</guid>
 <pubDate>Mon, 02 Nov 2026 22:44:02 +0800</pubDate>
-<description>&lt;p&gt;OpenAI has launched GPT-Rosalind-6, a specialized reasoning model built on GPT-6 Astra weights, available to vetted scientists. Rated &amp;#x27;High&amp;#x27; capability in biochemistry, it permits certain dual-use queries while blocking weaponization requests under strict access controls.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 发布 GPT-Rosalind-6 聚焦生物与药物研发&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;垂直领域前沿模型发布，涉及高风险生物安全治理与受限访问机制，具有显著的行业标杆意义。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 85/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 推出基于 GPT-6 Astra 权重的专用推理模型 GPT-Rosalind-6，面向合格科研人员提供受限访问。该模型在生物化学领域被评估为“高能力”，允许处理部分双用途查询但拒绝武器化请求，并实施严格的安全审查机制。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;垂直领域前沿模型发布，涉及高风险生物安全治理与受限访问机制，具有显著的行业标杆意义。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 85/100&lt;/p&gt;</description>
 <source url="https://deploymentsafety.openai.com/gpt-rosalind-6">Hacker News AI</source>
 <category>OpenAI</category>
 <category>GPT-6</category>
 <category>Bio-AI</category>
 <category>Safety Governance</category>
 </item>
-<item><title>Anthropic Amends IPO Prospectus with Q3 Financials Showing $33.2B Revenue</title><link>https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html</link><guid isPermaLink="true">https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html</guid>
+<item><title>Anthropic 更新 IPO 招股书 披露前三季度营收 332 亿美元</title><link>https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html</link><guid isPermaLink="true">https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html</guid>
 <pubDate>Mon, 02 Nov 2026 22:38:45 +0800</pubDate>
-<description>&lt;p&gt;Anthropic filed an amended Form S-1 with the SEC, adding financial data for the first three quarters of 2026. The company reported $33.24 billion in revenue for the nine months ended Sept. 30, a roughly 1,200% year-over-year increase, while highlighting risks such as political headwinds and complex infrastructure needs.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 更新 IPO 招股书 披露前三季度营收 332 亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 实验室上市进程的关键财务节点，营收增速与风险披露对行业估值具有风向标意义。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 向 SEC 提交修订版 S-1 表格，补充了截至 9 月 30 日的前三季度财务数据。公司披露该期间营收达 332.4 亿美元，同比增长约 1200%，并详细列出了包括政治逆风和基础设施需求在内的风险因素。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 实验室上市进程的关键财务节点，营收增速与风险披露对行业估值具有风向标意义。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html">Hacker News AI</source>
 <category>Anthropic</category>
 <category>IPO</category>
 <category>AI Industry</category>
 <category>Financials</category>
 </item>
-<item><title>Realtime-Bench Released to Evaluate LLM Performance on Low-Latency Tasks</title><link>https://importai.substack.com/p/import-ai-479-spacewar-low-latency</link><guid isPermaLink="true">https://importai.substack.com/p/import-ai-479-spacewar-low-latency</guid>
+<item><title>Realtime-Bench 发布 评估 LLM 低延迟任务表现</title><link>https://importai.substack.com/p/import-ai-479-spacewar-low-latency</link><guid isPermaLink="true">https://importai.substack.com/p/import-ai-479-spacewar-low-latency</guid>
 <pubDate>Mon, 02 Nov 2026 22:30:54 +0800</pubDate>
-<description>&lt;p&gt;The newly released Realtime-Bench indicates that current Large Language Models struggle with low-latency tasks requiring real-time decision-making, such as online gaming and auctions. Developed by a consortium including NVIDIA and several universities, the benchmark comprises 50 dynamic interactive tasks designed to quantify models&amp;#x27; temporal state awareness and adaptive capabilities.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Realtime-Bench 发布 评估 LLM 低延迟任务表现&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了 LLM 在实时交互场景下的显著短板，为智能体落地提供了新的评估维度。&lt;/p&gt;&lt;p&gt;Import AI (Jack Clark) · llm · signal 45/100&lt;/p&gt;</description>
+<description>&lt;p&gt;最新基准测试 Realtime-Bench 显示，当前大语言模型在需要实时决策的低延迟任务（如在线游戏、拍卖）中表现不佳。该基准由多所高校与 NVIDIA 联合推出，包含 50 个动态交互任务，旨在量化模型的时序感知与自适应能力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了 LLM 在实时交互场景下的显著短板，为智能体落地提供了新的评估维度。&lt;/p&gt;&lt;p&gt;Import AI (Jack Clark) · llm · signal 45/100&lt;/p&gt;</description>
 <source url="https://importai.substack.com/p/import-ai-479-spacewar-low-latency">Import AI (Jack Clark)</source>
 <category>基准测试</category>
 <category>LLM局限</category>
 <category>实时交互</category>
-</item>
-<item><title>Altman&#x27;s RAM Critique Sparks Backlash; Musk Mocks Him Amid Grok Cost Woes</title><link>https://www.ithome.com/1/021/274.htm</link><guid isPermaLink="true">https://www.ithome.com/1/021/274.htm</guid>
-<pubDate>Mon, 02 Nov 2026 22:21:52 +0800</pubDate>
-<description>&lt;p&gt;OpenAI CEO Sam Altman faced widespread backlash for arguing that personal PC RAM usage is a global resource misallocation, with Elon Musk publicly mocking the stance. Concurrently, Musk&amp;#x27;s Grok Bot implemented rate limits due to unsustainable compute costs, highlighting the severe infrastructure expense challenges facing generative AI business models.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;奥尔特曼称个人内存浪费遭声讨，马斯克补刀并曝 Grok 成本困境&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;事件虽为舆论争议，但折射出 AI 巨头对底层算力资源的焦虑及商业模式的可持续性危机，具有行业风向标意义。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 45/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/021/274.htm">IT之家 · IT业界</source>
-<category>OpenAI</category>
-<category>Elon Musk</category>
-<category>DRAM</category>
-<category>Grok</category>
-<category>Industry Controversy</category>
-</item>
-<item><title>AI Safety View: Order is More Dangerous than Chaos</title><link>https://geohot.github.io//blog/jekyll/update/2026/11/01/pray-for-chaos.html</link><guid isPermaLink="true">https://geohot.github.io//blog/jekyll/update/2026/11/01/pray-for-chaos.html</guid>
-<pubDate>Mon, 02 Nov 2026 22:02:53 +0800</pubDate>
-<description>&lt;p&gt;The article argues that &amp;#x27;order&amp;#x27; brought by AI (e.g., patching exploits, cementing status quo) is more dangerous than &amp;#x27;chaos&amp;#x27;. It warns against AI&amp;#x27;s ability to fabricate histories and the internet, refuting the idea that superintelligence solves the Prisoner&amp;#x27;s Dilemma.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 安全观点：秩序比混乱更危险&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供独特的 AI 风险视角，但缺乏技术细节或实证数据，属于纯观点类内容。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 45/100&lt;/p&gt;</description>
-<source url="https://geohot.github.io//blog/jekyll/update/2026/11/01/pray-for-chaos.html">Hacker News AI</source>
-<category>AI 安全</category>
-<category>观点评论</category>
-<category>社会影响</category>
-</item>
-<item><title>Artificial Analysis Integrates Real-Time GPU Pricing into Agent Benchmarks</title><link>https://x.com/ArtificialAnlys/status/2117255658613735918</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2117255658613735918</guid>
-<pubDate>Mon, 02 Nov 2026 22:01:00 +0800</pubDate>
-<description>&lt;p&gt;Artificial Analysis has partnered with Silicon Data to integrate market-based GPU rental pricing into its AA-AgentPerf benchmark. The new &amp;#x27;Throughput per $/hr&amp;#x27; metric dynamically reflects cost-efficiency across cloud providers for chips like H100 and B200, with NVIDIA&amp;#x27;s B300 currently leading in value.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Artificial Analysis 引入实时 GPU 租赁价格优化智能体基准&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为 AI 基础设施选型提供了结合实时市场价格的量化评估维度，提升了基准测试的实用性与决策参考价值。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · compute · signal 68/100&lt;/p&gt;</description>
-<source url="https://x.com/ArtificialAnlys/status/2117255658613735918">Artificial Analysis (@ArtificialAnlys)</source>
-<category>GPU 定价</category>
-<category>基准测试</category>
-<category>AI 基础设施</category>
-<category>NVIDIA</category>
-</item>
-<item><title>OpenAI Merges ChatGPT Chat and Work Tabs</title><link>https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/</guid>
-<pubDate>Mon, 02 Nov 2026 21:57:53 +0800</pubDate>
-<description>&lt;p&gt;OpenAI is merging the &amp;#x27;Chat&amp;#x27; and &amp;#x27;Work&amp;#x27; tabs in the ChatGPT desktop app to streamline the transition from ideation to execution. The update is currently in limited testing, with Codex remaining separate. Both features will now share a single token allowance pool, potentially affecting reset frequencies for heavy users.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 合并 ChatGPT 聊天与工作标签页&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;属于产品界面常规整合与配额调整，虽提升易用性但无底层技术突破或新能力发布。&lt;/p&gt;&lt;p&gt;TechCrunch AI · tools · signal 45/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/">TechCrunch AI</source>
-<category>OpenAI</category>
-<category>ChatGPT</category>
-<category>UI Update</category>
-<category>Productivity</category>
-</item>
-<item><title>US Census Bureau Data Impacted by Super Intelligence Executive Order</title><link>https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/</guid>
-<pubDate>Mon, 02 Nov 2026 21:55:45 +0800</pubDate>
-<description>&lt;p&gt;Simon Willison notes that Executive Order 14434 (&amp;#x27;Super Intelligence&amp;#x27;) has disrupted the release of US Census Bureau business trend data. This impedes updates to AI corporate adoption rate analyses based on this dataset, highlighting potential policy impacts on public statistical availability.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美国人口普查局数据受行政令影响 AI 采用率趋势分析受阻&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了特定行政命令对关键行业统计数据发布的实际阻碍，具有政策与数据透明度层面的警示意义。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 45/100&lt;/p&gt;</description>
-<source url="https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/">Hacker News AI</source>
-<category>AI 政策</category>
-<category>数据统计</category>
-<category>行业观察</category>
-</item>
-<item><title>NVIDIA Rubin 过渡致高端 GPU 交期延至 45 周</title><link>https://x.com/rohanpaul_ai/status/2117250376395329908</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117250376395329908</guid>
-<pubDate>Mon, 02 Nov 2026 21:40:00 +0800</pubDate>
-<description>&lt;p&gt;TrendForce 数据显示，随着 NVIDIA Rubin 架构过渡启动，顶级 GPU 交货周期延长 5 周至 45 周。超大规模云服务商将优先获得新卡，而企业买家仍受限于现有平台，且服务器组装受制于基板和电容等长尾组件的严重短缺。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了新一代 AI 芯片量产初期的供应链瓶颈与分配不均，对算力采购策略有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 68/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2117250376395329908">Rohan Paul (@rohanpaul_ai)</source>
-<category>GPU</category>
-<category>NVIDIA</category>
-<category>Supply Chain</category>
-<category>Rubin</category>
-</item>
-<item><title>马斯克回应 Grok Bot 额度消耗过快：服务成本高到难以为继</title><link>https://www.ithome.com/1/021/271.htm</link><guid isPermaLink="true">https://www.ithome.com/1/021/271.htm</guid>
-<pubDate>Mon, 02 Nov 2026 21:38:33 +0800</pubDate>
-<description>&lt;p&gt;埃隆·马斯克承认，Grok Bot 的服务成本相对于收入而言高到难以为继，因此必须限制每周使用额度。尽管该产品付费周活用户已达 80 万且增长迅速，但高昂的算力开销迫使 SpaceX 采取理性下调额度的策略，这也折射出当前 AI 智能体赛道普遍面临的盈利困境。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示头部 AI 智能体产品在高增长下的真实成本压力与商业化瓶颈，对行业从业者具有警示意义。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 68/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/021/271.htm">IT之家 · 智能时代</source>
-<category>AI Agent</category>
-<category>Business Model</category>
-<category>Compute Cost</category>
-<category>SpaceX</category>
-</item>
-<item><title>商汤发布 SenseNova 6.8 Flash 主打多模态智能体交付</title><link>https://www.qbitai.com/2026/11/507277.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/507277.html</guid>
-<pubDate>Mon, 02 Nov 2026 21:36:41 +0800</pubDate>
-<description>&lt;p&gt;商汤科技发布多模态智能体模型 SenseNova 6.8 Flash，主打“委派智能”与端到端交付能力。该模型在网页生成、3D PPT 及动态海报等场景表现优异，旨在降低设计与办公自动化门槛，用户仅需提供目标即可由 AI 完成全流程执行。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;虽为国产新模型发布，但正文多为营销软文风格，缺乏具体技术架构细节与严谨评测数据支撑，主要价值在于展示多模态生成能力的落地场景。&lt;/p&gt;&lt;p&gt;量子位官网 · llm · signal 45/100&lt;/p&gt;</description>
-<source url="https://www.qbitai.com/2026/11/507277.html">量子位官网</source>
-<category>商汤科技</category>
-<category>多模态大模型</category>
-<category>AI Agent</category>
-<category>内容生成</category>
-</item>
-<item><title>Sam Altman 称 Token 为伪单位，仅计数无法反映商业价值</title><link>https://x.com/rohanpaul_ai/status/2117245878612209932</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117245878612209932</guid>
-<pubDate>Mon, 02 Nov 2026 21:22:08 +0800</pubDate>
-<description>&lt;p&gt;OpenAI CEO Sam Altman 指出 Token 只是“伪单位”，单纯统计数量无法向业务方证明其实际价值。文章补充认为，只有当模型输出中的噪声被剔除、逼近香农信息论下限时，Token 计数才具备真正的意义。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了关于 LLM 计量单位局限性的行业高层观点，有助于理解当前 AI 成本评估的争议点。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 42/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2117245878612209932">Rohan Paul (@rohanpaul_ai)</source>
-<category>大模型</category>
-<category>OpenAI</category>
-<category>成本优化</category>
-</item>
-<item><title>Marvell 拟全股收购 Lumentum 构建光互联全栈能力</title><link>https://www.ithome.com/1/021/267.htm</link><guid isPermaLink="true">https://www.ithome.com/1/021/267.htm</guid>
-<pubDate>Mon, 02 Nov 2026 21:11:33 +0800</pubDate>
-<description>&lt;p&gt;Marvell 发布财报并宣布以全股票方式收购 Lumentum，交易隐含企业价值约 1150 亿美元。此次并购旨在打通从电气交换到光模块、激光的全栈 AI 基础设施能力，合并后总可寻址市场扩大至 5500 亿美元，预计交割于 2028 年上半年完成。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该事件标志着 AI 算力基础设施向光互联迁移的关键整合，对数据中心网络架构有深远影响。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/021/267.htm">IT之家 · IT业界</source>
-<category>Marvell</category>
-<category>Lumentum</category>
-<category>AI 基础设施</category>
-<category>光互联</category>
-<category>并购</category>
 </item>
 </channel>
 </rss>
