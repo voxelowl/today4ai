@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Tue, 03 Nov 2026 03:43:51 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 03 Nov 2026 04:00:03 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Goldman Sachs Restricts AI Coding Tools to Engineers Only</title><link>https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/</link><guid isPermaLink="true">https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/</guid>
+<pubDate>Tue, 03 Nov 2026 04:00:03 +0800</pubDate>
+<description>&lt;p&gt;Goldman Sachs has revoked access to advanced AI coding tools like Claude Code and GitHub Copilot for most non-technical staff, restricting them solely to engineers. This move ends the firm&amp;#x27;s &amp;#x27;vibe coding&amp;#x27; experimentation phase, prioritizing risk management and long-term productivity optimization.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;高盛收回交易员 AI 编码权限 仅保留给工程师&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;反映了大型金融机构在生成式 AI 落地过程中从激进实验向合规与效率平衡的策略回调。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 68/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/">The Decoder</source>
+<category>高盛</category>
+<category>AI 编码</category>
+<category>企业策略</category>
+<category>风险管理</category>
+</item>
 <item><title>Engineer Proposes &#x27;Cognitive Mercantilism&#x27; to Warn Against AI Intelligence Hoarding</title><link>https://the-decoder.com/ai-elites-might-hoard-intelligence-like-mercantilists-hoarded-gold/</link><guid isPermaLink="true">https://the-decoder.com/ai-elites-might-hoard-intelligence-like-mercantilists-hoarded-gold/</guid>
 <pubDate>Tue, 03 Nov 2026 03:43:51 +0800</pubDate>
 <description>&lt;p&gt;Engineer Venkatesh Rao introduces the concept of &amp;#x27;cognitive mercantilism,&amp;#x27; arguing that some AI elites treat intelligence as a scarce resource to be hoarded and controlled. The essay criticizes restricting open-source models under safety pretexts and exploiting fear for political influence, advocating for autonomous AI to create new demand rather than merely following orders.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;工程师提出“认知重商主义”概念，警告 AI 精英垄断智能资源&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了关于 AI 治理与开源生态冲突的独特社会学视角，虽无技术细节但具思想启发性。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 45/100&lt;/p&gt;</description>
@@ -11,6 +20,23 @@
 <category>开源生态</category>
 <category>行业观点</category>
 <category>Venkatesh Rao</category>
+</item>
+<item><title>Anthropic Discloses $900B AI Spending Commitments Ahead of IPO</title><link>https://www.ft.com/content/4d91dbab-6fe4-45ab-beee-d77e091cb37f</link><guid isPermaLink="true">https://www.ft.com/content/4d91dbab-6fe4-45ab-beee-d77e091cb37f</guid>
+<pubDate>Tue, 03 Nov 2026 03:36:37 +0800</pubDate>
+<description>&lt;p&gt;Anthropic disclosed $900 billion in AI spending commitments ahead of its IPO. This figure highlights the aggressive capital expenditure strategy of leading LLM providers and raises market concerns regarding long-term profitability.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic IPO 前披露 9000 亿美元 AI 支出承诺&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;巨额资本支出承诺是评估 AI 行业泡沫风险与基础设施投入强度的关键财务指标。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 35/100&lt;/p&gt;</description>
+<source url="https://www.ft.com/content/4d91dbab-6fe4-45ab-beee-d77e091cb37f">Hacker News AI</source>
+<category>Anthropic</category>
+<category>IPO</category>
+<category>资本支出</category>
+<category>AI 基础设施</category>
+</item>
+<item><title>Claude API Launches Message Threads Beta to Speed Up Long Conversations</title><link>https://x.com/dotey/status/2117339521683448221</link><guid isPermaLink="true">https://x.com/dotey/status/2117339521683448221</guid>
+<pubDate>Tue, 03 Nov 2026 03:34:14 +0800</pubDate>
+<description>&lt;p&gt;Anthropic has launched a beta for &amp;#x27;Message Threads&amp;#x27; in the Claude Messages API, allowing the server to cache conversation context so developers no longer need to resend full history each turn. This feature significantly reduces request payload size (from ~800KB to 1.8KB) and cuts time-to-first-token by ~35%, though token pricing remains unchanged. It is particularly beneficial for long-running agents and multimodal interactions.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Claude API 公测消息线程，长对话免重发历史提速 35%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;解决了 Agent 开发中重复传输上下文的痛点，实测数据明确，对提升长对话响应速度有直接工程价值。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · tools · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/dotey/status/2117339521683448221">宝玉 (@dotey)</source>
+<category>Claude API</category>
+<category>Agent Development</category>
+<category>Latency Optimization</category>
 </item>
 <item><title>Oracle Files to Sell $20B in Stock and Bonds for AI Infrastructure</title><link>https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html</link><guid isPermaLink="true">https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html</guid>
 <pubDate>Tue, 03 Nov 2026 03:27:37 +0800</pubDate>
@@ -72,6 +98,14 @@
 <category>开发工具</category>
 <category>SOML</category>
 <category>开源</category>
+</item>
+<item><title>Fable 5.5 Grayscale Test Shows Major Video Gen Boost</title><link>https://x.com/dotey/status/2117326303380611582</link><guid isPermaLink="true">https://x.com/dotey/status/2117326303380611582</guid>
+<pubDate>Tue, 03 Nov 2026 02:41:43 +0800</pubDate>
+<description>&lt;p&gt;Users achieved high-quality video generation via pure code prompts in the grayscale version of Fable 5.5, surpassing existing AI video models. The discovery was verified by testing specific knowledge about Karpathy&amp;#x27;s 2026 movements, confirming a new training cutoff. While technically impressive, the capability is not yet officially released and difficult for average users to replicate.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Fable 5.5 灰度测试视频生成能力显著提升&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了大模型在代码生成视频方面的潜在突破，但处于非正式灰度阶段且缺乏官方参数支持。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · llm · signal 42/100&lt;/p&gt;</description>
+<source url="https://x.com/dotey/status/2117326303380611582">宝玉 (@dotey)</source>
+<category>大模型</category>
+<category>视频生成</category>
+<category>灰度测试</category>
 </item>
 <item><title>Apple Plans $1,000 Home Robot for FaceTime and Lighting by 2027</title><link>https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/</link><guid isPermaLink="true">https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/</guid>
 <pubDate>Tue, 03 Nov 2026 02:32:21 +0800</pubDate>
@@ -190,85 +224,49 @@
 <category>Code Review</category>
 <category>Engineering Culture</category>
 </item>
-<item><title>Manus Client Logic Easily Reverse-Engineered, Weakening Technical Moat</title><link>https://x.com/dotey/status/2117306470727336321</link><guid isPermaLink="true">https://x.com/dotey/status/2117306470727336321</guid>
+<item><title>Manus 客户端逻辑易被逆向分析，技术护城河减弱</title><link>https://x.com/dotey/status/2117306470727336321</link><guid isPermaLink="true">https://x.com/dotey/status/2117306470727336321</guid>
 <pubDate>Tue, 03 Nov 2026 01:22:54 +0800</pubDate>
-<description>&lt;p&gt;Industry commentary suggests that Manus&amp;#x27;s Electron client and custom LLM API expose its prompts, skills, and harness logic to reverse engineering, significantly lowering technical barriers. While cloning is feasible, brand trust and deep product decision-making remain key differentiators, making simple replication unlikely to succeed.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Manus 客户端逻辑易被逆向分析，技术护城河减弱&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了 Agent 类产品在架构层面的可观测性风险及当前 AI 应用层“技术无护城河”的行业共识。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · agent · signal 45/100&lt;/p&gt;</description>
+<description>&lt;p&gt;行业观点指出，Manus 的 Electron 客户端及自定义 LLM API 接口使其提示词、技能与执行逻辑对专业人士半透明，技术壁垒显著降低。尽管克隆门槛低，但品牌信任与产品决策深度仍构成核心竞争差异，单纯复制难以获得市场认可。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了 Agent 类产品在架构层面的可观测性风险及当前 AI 应用层“技术无护城河”的行业共识。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · agent · signal 45/100&lt;/p&gt;</description>
 <source url="https://x.com/dotey/status/2117306470727336321">宝玉 (@dotey)</source>
 <category>Agent</category>
 <category>Manus</category>
 <category>Reverse Engineering</category>
 <category>Product Strategy</category>
 </item>
-<item><title>Altman: Energy is the Biggest AI Challenge</title><link>https://x.com/rohanpaul_ai/status/2117305135953289693</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117305135953289693</guid>
+<item><title>Sam Altman 称能源是 AI 最大瓶颈</title><link>https://x.com/rohanpaul_ai/status/2117305135953289693</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117305135953289693</guid>
 <pubDate>Tue, 03 Nov 2026 01:17:36 +0800</pubDate>
-<description>&lt;p&gt;OpenAI CEO Sam Altman stated at a conference in Abu Dhabi that while model efficiency and robotic automation can reduce compute costs, physical energy supply remains the dominant bottleneck for AI scale and cost. He emphasized that \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Sam Altman 称能源是 AI 最大瓶颈&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;行业领袖对 AI 算力瓶颈核心矛盾（能源 vs 算法）的定性判断，具有宏观参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 45/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI CEO Sam Altman 在阿布扎比会议上指出，尽管模型效率提升和机器人自动化能降低算力成本，但物理世界的能源供给仍是限制 AI 规模与成本的核心瓶颈。他强调“原子依然是原子”，暗示硬件与电力基础设施的刚性约束无法通过纯软件优化完全消除。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;行业领袖对 AI 算力瓶颈核心矛盾（能源 vs 算法）的定性判断，具有宏观参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 45/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2117305135953289693">Rohan Paul (@rohanpaul_ai)</source>
 <category>OpenAI</category>
 <category>Sam Altman</category>
 <category>算力能源</category>
 <category>行业观点</category>
 </item>
-<item><title>Subvocal Launches Silent Speech Input Glasses for 200+ WPM Typing</title><link>https://subvocal.company/</link><guid isPermaLink="true">https://subvocal.company/</guid>
+<item><title>Subvocal 发布智能眼镜 支持无声语音输入</title><link>https://news.ycombinator.com/item?id=50340088</link><guid isPermaLink="true">https://news.ycombinator.com/item?id=50340088</guid>
 <pubDate>Tue, 03 Nov 2026 01:16:17 +0800</pubDate>
-<description>&lt;p&gt;Hardware startup Subvocal has launched silent speech input glasses that use facial muscle electrical signals (EMG) to convert subvocalizations into text at over 200 words per minute. The device addresses privacy and noise concerns in public settings, enabling users to interact with AI agents and coding tools silently.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Subvocal 推出无声语音输入眼镜 支持 200+ WPM 静默打字&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了新型人机交互范式，将无声语音识别从概念推向消费级硬件，对 AI 辅助编程和移动办公场景有潜在影响。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 68/100&lt;/p&gt;</description>
+<description>&lt;p&gt;YC F26 初创公司 Subvocal 推出基于射频技术的智能眼镜，允许用户通过“默读”或闭口唇语向计算机发送指令并实时转文本。该系统无需麦克风捕捉声音，解决了在公共场合使用 AI 语音工具的隐私与噪音问题，目前处于早期原型验证阶段。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了非侵入式脑机接口/传感器技术在人机交互中的新应用，对关注多模态输入和隐私计算的开发者具有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 68/100&lt;/p&gt;</description>
+<source url="https://news.ycombinator.com/item?id=50340088">Hacker News AI</source>
+<category>智能眼镜</category>
+<category>无声语音</category>
+<category>人机交互</category>
+<category>YC</category>
+</item>
+<item><title>Subvocal 推出无声语音输入眼镜 支持 200+ WPM 静默打字</title><link>https://subvocal.company/</link><guid isPermaLink="true">https://subvocal.company/</guid>
+<pubDate>Tue, 03 Nov 2026 01:16:17 +0800</pubDate>
+<description>&lt;p&gt;硬件初创公司 Subvocal 发布了一款基于面部肌肉电信号（EMG）的无声语音输入眼镜，允许用户在公共场合以超过 200 字/分钟的速度“默读”生成文本。该产品旨在解决在拥挤或安静环境中使用语音交互的隐私与噪音痛点，并特别强调了与 AI 智能体及编程代理的静默协作能力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了新型人机交互范式，将无声语音识别从概念推向消费级硬件，对 AI 辅助编程和移动办公场景有潜在影响。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 68/100&lt;/p&gt;</description>
 <source url="https://subvocal.company/">Hacker News AI</source>
 <category>人机交互</category>
 <category>可穿戴设备</category>
 <category>语音识别</category>
 <category>AI 工具</category>
 </item>
-<item><title>LangChain Highlights New Context Engineering Challenges for 2026</title><link>https://www.langchain.com/blog/context-engineering-challenges-late-2026</link><guid isPermaLink="true">https://www.langchain.com/blog/context-engineering-challenges-late-2026</guid>
+<item><title>LangChain 指出 2026 年上下文工程面临新挑战</title><link>https://www.langchain.com/blog/context-engineering-challenges-late-2026</link><guid isPermaLink="true">https://www.langchain.com/blog/context-engineering-challenges-late-2026</guid>
 <pubDate>Tue, 03 Nov 2026 01:12:41 +0800</pubDate>
-<description>&lt;p&gt;While agent architectures have converged, LangChain argues that the notion of &amp;#x27;all hard problems solved&amp;#x27; is flawed. The rise of always-on, proactive agents is introducing a new set of complex challenges to context engineering beyond standard solutions.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;LangChain 指出 2026 年上下文工程面临新挑战&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;澄清了业界对 Agent 开发难度的误判，指出了下一代自主代理在上下文管理上的具体痛点。&lt;/p&gt;&lt;p&gt;LangChain Blog · agent · signal 68/100&lt;/p&gt;</description>
+<description>&lt;p&gt;尽管当前 Agent 架构趋于收敛，但 LangChain 认为“所有难题已解决”的观点并不成立。随着全天候、主动式 Agent 的兴起，上下文工程正面临全新的复杂性挑战，而非简单的标准方案堆砌。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;澄清了业界对 Agent 开发难度的误判，指出了下一代自主代理在上下文管理上的具体痛点。&lt;/p&gt;&lt;p&gt;LangChain Blog · agent · signal 68/100&lt;/p&gt;</description>
 <source url="https://www.langchain.com/blog/context-engineering-challenges-late-2026">LangChain Blog</source>
 <category>智能体</category>
 <category>上下文工程</category>
 <category>LangChain</category>
-</item>
-<item><title>Crawl4AI 集成 Amazon Bedrock 知识库</title><link>https://aws.amazon.com/blogs/machine-learning/prepare-web-content-for-amazon-bedrock-knowledge-bases-with-crawl4ai/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/prepare-web-content-for-amazon-bedrock-knowledge-bases-with-crawl4ai/</guid>
-<pubDate>Tue, 03 Nov 2026 01:11:21 +0800</pubDate>
-<description>&lt;p&gt;Amazon Bedrock 推出与 Crawl4AI 的集成方案，用于优化 RAG 应用中的网页内容摄取。该方案结合了 Bedrock 托管知识库的自动索引能力与 Crawl4AI 的高级爬取功能，旨在提升非结构化 Web 数据的质量与检索效率。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;针对 RAG 开发者提供的具体工具链集成指南，具有明确的工程落地价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 45/100&lt;/p&gt;</description>
-<source url="https://aws.amazon.com/blogs/machine-learning/prepare-web-content-for-amazon-bedrock-knowledge-bases-with-crawl4ai/">AWS Machine Learning Blog</source>
-<category>RAG</category>
-<category>Amazon Bedrock</category>
-<category>Crawl4AI</category>
-<category>Web Scraping</category>
-</item>
-<item><title>Momentic 发布 AI QA 智能体 自动测试应用并捕获 Bug</title><link>https://momentic.ai/</link><guid isPermaLink="true">https://momentic.ai/</guid>
-<pubDate>Tue, 03 Nov 2026 01:05:25 +0800</pubDate>
-<description>&lt;p&gt;YC W24 初创公司 Momentic 推出名为 Mo 的 AI QA 工程师，通过自然语言提示端到端测试应用程序。该产品旨在替代传统脚本维护，利用 LLM 自主发现关键流程中的 Bug 并提供修复建议。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了 LLM Agent 在软件工程自动化测试领域的具体落地形态，对开发者工具链有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 45/100&lt;/p&gt;</description>
-<source url="https://momentic.ai/">Hacker News AI</source>
-<category>AI Agent</category>
-<category>DevTools</category>
-<category>QA Automation</category>
-<category>Startup</category>
-</item>
-<item><title>SageMaker 推出智能体知识蒸馏方案 降低推理成本</title><link>https://aws.amazon.com/blogs/machine-learning/build-efficient-agents-with-knowledge-distillation-on-amazon-sagemaker-ai/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/build-efficient-agents-with-knowledge-distillation-on-amazon-sagemaker-ai/</guid>
-<pubDate>Tue, 03 Nov 2026 01:01:31 +0800</pubDate>
-<description>&lt;p&gt;亚马逊 SageMaker AI 提供基于知识蒸馏的解决方案，旨在通过训练小型“学生”模型模仿大型“教师”模型的行为，在保持智能体任务质量的同时显著降低推理延迟与成本。该方案针对多轮调用场景下的 ROI 问题，提供了从代码仓库到文档的完整实施路径。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为开发者提供了具体的工程化手段来解决智能体高昂的推理成本问题，具有明确的落地价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 48/100&lt;/p&gt;</description>
-<source url="https://aws.amazon.com/blogs/machine-learning/build-efficient-agents-with-knowledge-distillation-on-amazon-sagemaker-ai/">AWS Machine Learning Blog</source>
-<category>SageMaker</category>
-<category>Knowledge Distillation</category>
-<category>AI Agents</category>
-<category>Cost Optimization</category>
-</item>
-<item><title>亚马逊演示多智能体工程助手 加速部件替代决策</title><link>https://aws.amazon.com/blogs/machine-learning/agentic-engineering-intelligence-with-amazon-nova-multimodal-embeddings-and-amazon-bedrock-agentcore/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/agentic-engineering-intelligence-with-amazon-nova-multimodal-embeddings-and-amazon-bedrock-agentcore/</guid>
-<pubDate>Tue, 03 Nov 2026 01:01:16 +0800</pubDate>
-<description>&lt;p&gt;亚马逊展示了一种结合 Nova 多模态嵌入与 Bedrock AgentCore 的多智能体系统，旨在自动化航空航天领域的部件替代决策。该系统通过检索技术图纸和规格文档，将原本耗时数天的跨文档交叉引用工作缩短为自动生成的评估草案，显著提升了工程审查效率。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了多模态检索在垂直行业复杂文档处理中的具体落地场景，但属于厂商绑定的教程案例，通用性受限。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 45/100&lt;/p&gt;</description>
-<source url="https://aws.amazon.com/blogs/machine-learning/agentic-engineering-intelligence-with-amazon-nova-multimodal-embeddings-and-amazon-bedrock-agentcore/">AWS Machine Learning Blog</source>
-<category>Agent</category>
-<category>Multimodal</category>
-<category>Engineering</category>
-<category>AWS</category>
-</item>
-<item><title>Circle K 利用 Amazon Bedrock 将 DevOps 事故分诊时间缩短至 15 分钟以内</title><link>https://aws.amazon.com/blogs/machine-learning/how-circle-k-accelerated-devops-incident-triage-to-under-15-minutes-with-amazon-bedrock/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/how-circle-k-accelerated-devops-incident-triage-to-under-15-minutes-with-amazon-bedrock/</guid>
-<pubDate>Tue, 03 Nov 2026 01:00:58 +0800</pubDate>
-<description>&lt;p&gt;Circle K 基于 Amazon Bedrock 构建自动化事故分诊系统，将原本需 45-60 分钟的人工日志排查与关联分析压缩至 15 分钟内。该方案通过大模型 API 整合多源监控数据，显著提升了全球门店云原生基础设施的运维响应效率。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;典型的企业级 AI 落地案例，展示了 LLM 在 DevOps 场景中的实际提效价值，但技术细节较为常规。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 35/100&lt;/p&gt;</description>
-<source url="https://aws.amazon.com/blogs/machine-learning/how-circle-k-accelerated-devops-incident-triage-to-under-15-minutes-with-amazon-bedrock/">AWS Machine Learning Blog</source>
-<category>DevOps</category>
-<category>Amazon Bedrock</category>
-<category>Circle K</category>
-<category>LLM应用</category>
 </item>
 </channel>
 </rss>
