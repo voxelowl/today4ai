@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Mon, 02 Nov 2026 16:24:29 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 02 Nov 2026 16:51:40 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>OpenAI 回应抗议翻倍 Codex 额度并合并入口</title><link>https://todayforai.com/en/story/story-1cdddab3-b11</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1cdddab3-b11</guid>
 <pubDate>Mon, 02 Nov 2026 09:37:13 +0800</pubDate>
@@ -43,6 +43,10 @@ HackerTube 的上线标志着开发者正从被动接受平台算法转向主动
 
 此事件为法律科技领域敲响了安全警钟，凸显了在专业场景引入 AI 辅助时面临的伦理与合规挑战。它迫使行业建立更严格的文档检测机制与 AI 使用规范，防止类似漏洞被滥用，同时也确立了通过技术手段干扰自动化决策需承担法律责任的先例。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
+<item><title>清华微软提出 HarnessMM：智能体预规划跳过冗余 LLM 调用，Token 省近九成</title><link>https://todayforai.com/en/story/story-6b6c1cb3-07c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-6b6c1cb3-07c</guid>
+<pubDate>Mon, 02 Nov 2026 16:51:40 +0800</pubDate>
+<description>&lt;p&gt;清华大学与微软联合研究提出 HarnessMM 框架，通过让模型预先编写带校验条件的后续命令序列，在工具结果满足条件时直接执行而无需再次调用 LLM。实验显示该方法在 HumanEval 任务上使 DeepSeek Harness 的 Token 消耗降低 87.93%，同时成功率从 71.43% 提升至 85.71%，显著优化了智能体的推理效率与成本。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
+</item>
 <item><title>DeepSeek 开源 Super-agent 架构实现多任务并行</title><link>https://todayforai.com/en/story/story-0bf22429-962</link><guid isPermaLink="true">https://todayforai.com/en/story/story-0bf22429-962</guid>
 <pubDate>Sun, 01 Nov 2026 15:50:42 +0800</pubDate>
 <description>&lt;p&gt;DeepSeek 正式开源了面向工程实践的 Personal Agent 底层架构“Super-agent”，标志着 AI 智能体从被动响应向自主持续工作的关键演进。该方案通过引入投机执行与事件路由机制，突破了传统 Coding Agent 受限于单次会话和人类注意力的瓶颈，支持跨 IM 与代码平台的上下文延续及并行任务处理。
@@ -58,14 +62,6 @@ HackerTube 的上线标志着开发者正从被动接受平台算法转向主动
 多方信源交叉验证显示，OpenAI 在数学领域已投入数亿美元，除已公开成果外，手中仍握有大量未公开的储备发现，包括涉及朗兰兹纲领等前沿领域的突破。面对菲尔兹奖得主联名抗议及关于“杨-米尔斯”理论成果未完全公开的质疑，OpenAI 选择通过优化发布流程来回应批评，承诺未来将更尊重学术规范，同时继续推进如 NS 方程等高难度问题的研究。
 
 为缓解紧张局势并推动生态融合，OpenAI 宣布向西蒙斯基金会捐赠 500 万美元，旨在资助研讨会与项目，帮助数学家适应 AI 时代并理解 AI 生成的科研成果。此举标志着科技巨头正试图从单纯的“技术输出者”转型为“学术协作者”，但也引发了关于学术伦理、出版规范及 AI 对学科本质影响的深层反思。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Verge AI, Hacker News AI, 新智元 (微信公众号), IT之家 · IT业界&lt;/p&gt;</description>
-</item>
-<item><title>OpenAI 融资目标降至 200 亿美元 估值缩水至 1.25 万亿</title><link>https://todayforai.com/en/story/story-915adfc1-467</link><guid isPermaLink="true">https://todayforai.com/en/story/story-915adfc1-467</guid>
-<pubDate>Sun, 01 Nov 2026 10:07:00 +0800</pubDate>
-<description>&lt;p&gt;受科技股回调及市场对 AI 资本开支可持续性的担忧影响，OpenAI 将最新一轮融资目标从 300 亿美元大幅下调至约 200 亿美元，对应估值由 1.4 万亿美元降至 1.25 万亿美元。尽管融资规模缩减约 33%，但其估值仍较此前高点保持显著溢价，反映出私募市场情绪与公开科技股走势的紧密联动。
-
-多方信源交叉验证显示，本轮融资由阿联酋 MGX 基金牵头，旨在通过租赁新建算力缓解基础设施压力。部分报道指出实际筹集金额可能远低于目标，甚至低至 110 亿美元，迫使 OpenAI 转向家族办公室及高净值个人募资以补足缺口。这一调整发生在纳斯达克指数下跌背景下，凸显大型机构投资者因回报周期不确定而减少投入，转而寻求更灵活的零售发行渠道。
-
-此次融资遇冷标志着 AI 行业资本热潮出现裂痕，头部公司间的资金竞争加剧。竞争对手 Anthropic 营收增长强劲且 IPO 计划更为激进，对 OpenAI 形成直接分流压力。OpenAI 此举意在为明年初可能的 IPO 做准备，但也暴露出在巨额算力投入下，其现金流与估值支撑面临的市场审视日益严苛。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Rohan Paul (@rohanpaul_ai), The Decoder, TechCrunch AI, 量子位 (微信公众号)&lt;/p&gt;</description>
 </item>
 <item><title>ChatGPT Artifacts 现沙箱逃逸漏洞可窃取账户数据</title><link>https://todayforai.com/en/story/story-68ea2db8-7c4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-68ea2db8-7c4</guid>
 <pubDate>Sun, 01 Nov 2026 23:41:41 +0800</pubDate>
