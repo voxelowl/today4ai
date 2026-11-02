@@ -67,13 +67,13 @@ HUMAIN 计划到 2030 年建成 3GW 数据中心容量，并开发包括 ALLaM �
 <pubDate>Mon, 02 Nov 2026 19:53:55 +0800</pubDate>
 <description>&lt;p&gt;Meta 与 MIT 最新论文证实，通过循环复用 Transformer 的特定层，可在不增加参数量的前提下显著提升模型深度与性能。该研究在 10 亿参数规模上验证了不同循环策略的效果，并引入轻量级适配器以优化并行解码效率。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
-<item><title>DeepSeek 开源 Super-agent 架构实现多任务并行</title><link>https://todayforai.com/en/story/story-0bf22429-962</link><guid isPermaLink="true">https://todayforai.com/en/story/story-0bf22429-962</guid>
-<pubDate>Sun, 01 Nov 2026 15:50:42 +0800</pubDate>
-<description>&lt;p&gt;DeepSeek 正式开源了面向工程实践的 Personal Agent 底层架构“Super-agent”，标志着 AI 智能体从被动响应向自主持续工作的关键演进。该方案通过引入投机执行与事件路由机制，突破了传统 Coding Agent 受限于单次会话和人类注意力的瓶颈，支持跨 IM 与代码平台的上下文延续及并行任务处理。
+<item><title>OpenAI 坚持发布 AI 数学成果并捐赠支持学界</title><link>https://todayforai.com/en/story/story-d64f63e7-2b2</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d64f63e7-2b2</guid>
+<pubDate>Mon, 02 Nov 2026 02:28:42 +0800</pubDate>
+<description>&lt;p&gt;OpenAI CEO Sam Altman 明确表态，尽管其一次性发布超 700 篇 AI 生成数学论文引发学术界强烈争议，公司仍不会停止这一进程。Altman 承认早期发布存在沟通不畅、缺乏背景论证及格式违规等问题，导致研究人员感到困惑与被边缘化，但他强调“世界有权了解宇宙规律”，视此为探索模型能力边界的关键步骤。
 
-在技术实现上，Super-agent 采用 Router 与 Worker 双层架构：Router 负责鉴权与分发，Worker 在隔离环境中执行具体编码任务并回复原线程。实测数据显示，其多任务完成效率显著优于传统单会话方案，p95 任务完成时间约为 15.7 分钟，较传统模式的 29.5 分钟缩短近一半，中位数仅为 12.4 分钟。目前开源的 dsh-superagent-prototype 原型已验证了调度效率，但尚未评估代码生成质量。
+多方信源交叉验证显示，OpenAI 在数学领域已投入数亿美元，除已公开成果外，手中仍握有大量未公开的储备发现，包括涉及朗兰兹纲领等前沿领域的突破。面对菲尔兹奖得主联名抗议及关于“杨-米尔斯”理论成果未完全公开的质疑，OpenAI 选择通过优化发布流程来回应批评，承诺未来将更尊重学术规范，同时继续推进如 NS 方程等高难度问题的研究。
 
-这一突破对开发者生态具有深远影响，它证明了 AI 能够脱离即时交互限制，以“持久在线”状态主动处理如自动提交 PR、异常修复等潜在问题。尽管当前版本存在高权限运行带来的安全隐患，但其定义的连续、高效、主动、持久四大特征，为下一代自主协作者奠定了坚实的技术基础。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, 量子位官网, Marktechpost (@Marktechpost)&lt;/p&gt;</description>
+为缓解紧张局势并推动生态融合，OpenAI 宣布向西蒙斯基金会捐赠 500 万美元，旨在资助研讨会与项目，帮助数学家适应 AI 时代并理解 AI 生成的科研成果。此举标志着科技巨头正试图从单纯的“技术输出者”转型为“学术协作者”，但也引发了关于学术伦理、出版规范及 AI 对学科本质影响的深层反思。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Verge AI, Hacker News AI, 新智元 (微信公众号), IT之家 · IT业界&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
