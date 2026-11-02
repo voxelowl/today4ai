@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Tue, 03 Nov 2026 04:37:56 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 03 Nov 2026 05:28:26 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Anthropic IPO Filing Reveals $895B Compute Commitment</title><link>https://x.com/rohanpaul_ai/status/2117368258571784296</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117368258571784296</guid>
+<pubDate>Tue, 03 Nov 2026 05:28:26 +0800</pubDate>
+<description>&lt;p&gt;Anthropic&amp;#x27;s latest IPO filing reveals $895.4 billion in committed computing and infrastructure contracts, with $447.5 billion due before 2031. Despite holding $147 billion in liquidity, the company swung to an operating loss in Q3 driven by high short-term compute costs, highlighting the critical need for revenue growth to sustain frontier model development.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic IPO 文件披露近 9000 亿美元算力承诺&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;巨额算力锁定与财务转折揭示大模型商业化的真实资金压力，极具行业风向标意义。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 88/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2117368258571784296">Rohan Paul (@rohanpaul_ai)</source>
+<category>Anthropic</category>
+<category>IPO</category>
+<category>算力成本</category>
+<category>基础设施</category>
+</item>
+<item><title>Cohere Paper Validates Speculative Decoding for Low-Batch MoE Models</title><link>https://x.com/rohanpaul_ai/status/2117365776282001748</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117365776282001748</guid>
+<pubDate>Tue, 03 Nov 2026 05:18:34 +0800</pubDate>
+<description>&lt;p&gt;A new Cohere paper challenges the assumption that speculative decoding yields minimal gains for Mixture-of-Experts (MoE) models at low batch sizes. The study reveals that adjacent tokens share 20-45% of their experts—far exceeding theoretical predictions—making verification steps highly efficient. On models like Qwen3-235B, verification runs at 89% of normal decoding speed, offering a viable optimization path for agent workloads.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Cohere 论文证实投机解码在 MoE 模型低批次下显著提速&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究纠正了 MoE 架构下的推理优化盲区，对降低大模型服务成本具有直接工程价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2117365776282001748">Rohan Paul (@rohanpaul_ai)</source>
+<category>MoE</category>
+<category>Speculative Decoding</category>
+<category>Inference Optimization</category>
+<category>Cohere</category>
+</item>
 <item><title>OpenRouter Hits 10 Quadrillion Annual Tokens with Doubling Every 10.5 Weeks</title><link>https://x.com/rohanpaul_ai/status/2117355548719165734</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117355548719165734</guid>
 <pubDate>Tue, 03 Nov 2026 04:37:56 +0800</pubDate>
 <description>&lt;p&gt;OpenRouter announced that its annual token processing volume has crossed the 10 quadrillion mark, with growth curves accelerating vertically. Data indicates that token consumption doubles every 10.5 weeks, with the last 9 weeks alone processing more tokens than all prior history combined, highlighting an explosive surge in AI inference demand.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenRouter 年处理量破 10 千万亿 Token 增速翻倍周期缩短至 10.5 周&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该数据揭示了当前大模型推理需求指数级增长的宏观趋势，对评估算力基础设施压力及行业热度具有极高参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 68/100&lt;/p&gt;</description>
@@ -208,9 +226,9 @@
 <category>能源管理</category>
 <category>Stargate</category>
 </item>
-<item><title>NYT Sues Brave Browser for AI Data Scraping and Paywall Bypass</title><link>https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times</link><guid isPermaLink="true">https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times</guid>
+<item><title>纽约时报起诉 Brave 浏览器涉 AI 数据抓取与绕过付费墙</title><link>https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times</link><guid isPermaLink="true">https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times</guid>
 <pubDate>Tue, 03 Nov 2026 01:51:19 +0800</pubDate>
-<description>&lt;p&gt;The New York Times and other publishers have sued Brave Software, alleging unlawful scraping of copyrighted content to train AI models and facilitating paywall bypasses. The complaint claims Brave monetized its index by providing real-time data access to AI firms like Anthropic and Perplexity, intensifying the legal debate over data rights in AI development.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;纽约时报起诉 Brave 浏览器涉 AI 数据抓取与绕过付费墙&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部媒体对浏览器厂商的诉讼直接冲击 AI 数据供应链，涉及多家主流大模型公司，具有显著的行业警示意义。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 68/100&lt;/p&gt;</description>
+<description>&lt;p&gt;《纽约时报》联合多家媒体起诉 Brave 浏览器，指控其非法抓取内容用于训练 AI 并帮助用户绕过付费墙。诉讼指出 Brave 通过向 Anthropic、Perplexity 等 AI 公司出售实时索引数据获利，引发关于数据版权与 AI 训练合规性的新一轮法律博弈。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部媒体对浏览器厂商的诉讼直接冲击 AI 数据供应链，涉及多家主流大模型公司，具有显著的行业警示意义。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 68/100&lt;/p&gt;</description>
 <source url="https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times">The Verge AI</source>
 <category>AI 版权</category>
 <category>数据抓取</category>
@@ -218,9 +236,9 @@
 <category>Brave</category>
 <category>纽约时报</category>
 </item>
-<item><title>DeepSeek Promotes Creator Mode for Natural Language Plugin Generation</title><link>https://x.com/rohanpaul_ai/status/2117313521688121388</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117313521688121388</guid>
+<item><title>DeepSeek Harness 推广 Creator Mode 支持自然语言生成插件</title><link>https://x.com/rohanpaul_ai/status/2117313521688121388</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117313521688121388</guid>
 <pubDate>Tue, 03 Nov 2026 01:50:56 +0800</pubDate>
-<description>&lt;p&gt;DeepSeek is promoting &amp;#x27;Creator Mode&amp;#x27; in its open-source agent app Harness, enabling users to generate working plugins from plain-language requests where the AI writes, installs, and tests them. Although the feature has existed since August, the release of a demo video and prompts aims to leverage Harness&amp;#x27;s 268K GitHub stars to grow the ecosystem, pending validation of plugin reliability beyond curated demos.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;DeepSeek Harness 推广 Creator Mode 支持自然语言生成插件&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了智能体从对话向自主构建工具演进的具体落地场景，对开发者生态有潜在影响。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 68/100&lt;/p&gt;</description>
+<description>&lt;p&gt;DeepSeek 为其开源智能体应用 Harness 推广“Creator Mode”，允许用户通过自然语言描述需求，由 AI 自动编写、安装并测试插件。该功能自 8 月已存在，此次发布演示视频及提示词旨在激活拥有 26.8 万 GitHub Star 的社区生态，但实际可用性仍待验证。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了智能体从对话向自主构建工具演进的具体落地场景，对开发者生态有潜在影响。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 68/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2117313521688121388">Rohan Paul (@rohanpaul_ai)</source>
 <category>DeepSeek</category>
 <category>AI Agent</category>
@@ -251,24 +269,6 @@
 <category>Manus</category>
 <category>Reverse Engineering</category>
 <category>Product Strategy</category>
-</item>
-<item><title>Sam Altman 称能源是 AI 最大瓶颈</title><link>https://x.com/rohanpaul_ai/status/2117305135953289693</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117305135953289693</guid>
-<pubDate>Tue, 03 Nov 2026 01:17:36 +0800</pubDate>
-<description>&lt;p&gt;OpenAI CEO Sam Altman 在阿布扎比会议上指出，尽管模型效率提升和机器人自动化能降低算力成本，但物理世界的能源供给仍是限制 AI 规模与成本的核心瓶颈。他强调“原子依然是原子”，暗示硬件与电力基础设施的刚性约束无法通过纯软件优化完全消除。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;行业领袖对 AI 算力瓶颈核心矛盾（能源 vs 算法）的定性判断，具有宏观参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 45/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2117305135953289693">Rohan Paul (@rohanpaul_ai)</source>
-<category>OpenAI</category>
-<category>Sam Altman</category>
-<category>算力能源</category>
-<category>行业观点</category>
-</item>
-<item><title>Subvocal 发布智能眼镜 支持无声语音输入</title><link>https://news.ycombinator.com/item?id=50340088</link><guid isPermaLink="true">https://news.ycombinator.com/item?id=50340088</guid>
-<pubDate>Tue, 03 Nov 2026 01:16:17 +0800</pubDate>
-<description>&lt;p&gt;YC F26 初创公司 Subvocal 推出基于射频技术的智能眼镜，允许用户通过“默读”或闭口唇语向计算机发送指令并实时转文本。该系统无需麦克风捕捉声音，解决了在公共场合使用 AI 语音工具的隐私与噪音问题，目前处于早期原型验证阶段。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了非侵入式脑机接口/传感器技术在人机交互中的新应用，对关注多模态输入和隐私计算的开发者具有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 68/100&lt;/p&gt;</description>
-<source url="https://news.ycombinator.com/item?id=50340088">Hacker News AI</source>
-<category>智能眼镜</category>
-<category>无声语音</category>
-<category>人机交互</category>
-<category>YC</category>
 </item>
 </channel>
 </rss>
