@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Mon, 02 Nov 2026 20:50:59 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 02 Nov 2026 22:01:00 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>OpenAI 回应抗议翻倍 Codex 额度并合并入口</title><link>https://todayforai.com/en/story/story-1cdddab3-b11</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1cdddab3-b11</guid>
-<pubDate>Mon, 02 Nov 2026 09:37:13 +0800</pubDate>
+<pubDate>Mon, 02 Nov 2026 21:57:53 +0800</pubDate>
 <description>&lt;p&gt;面对用户对“价格不变、权益减半”的强烈抗议，OpenAI 迅速调整策略，宣布取消原定的 Pro 系列额度下调计划，并将 ChatGPT Pro 及 Business Premium 用户的 Work 与 Codex 用量额度直接翻倍。这一举措旨在平息社区不满，新额度对现有订阅用户立即生效，无需等待续订周期。
 
 在技术架构层面，OpenAI 正推进重大整合：自 12 月起，Plus、Pro 及 Business 计划将合并 ChatGPT 与 Codex 的用量限制，转为共享单一 Token 配额池。同时，ChatGPT 界面将合并“聊天”与“工作”功能，智能体能力并入主体验。值得注意的是，即时对话不消耗额度，但 Fast 模式消耗速度为标准模式的 2.5 倍，Ultrafast 则高达 8 倍，实际产出仍受模型复杂度影响。
 
-此次调整标志着 OpenAI 从按消息次数计费向更精细化的 Token 计量体系过渡，试图在缓解算力瓶颈与维持开发者高频编码需求之间寻找平衡。尽管官方称绝大多数用户体验不受影响，但重度依赖 Codex 的开发者需重新评估其工作流中的 Token 消耗效率，以应对新的统一配额机制。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;新智元 (微信公众号), IT之家 · 智能时代, Rohan Paul (@rohanpaul_ai), Hacker News AI, The Decoder, 机器之心 (微信公众号)&lt;/p&gt;</description>
+此次调整标志着 OpenAI 从按消息次数计费向更精细化的 Token 计量体系过渡，试图在缓解算力瓶颈与维持开发者高频编码需求之间寻找平衡。尽管官方称绝大多数用户体验不受影响，但重度依赖 Codex 的开发者需重新评估其工作流中的 Token 消耗效率，以应对新的统一配额机制。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;新智元 (微信公众号), IT之家 · 智能时代, Rohan Paul (@rohanpaul_ai), Hacker News AI, The Decoder, 机器之心 (微信公众号)&lt;/p&gt;</description>
 </item>
 <item><title>Karpathy 用 Claude Opus 两小时构建 HackerTube</title><link>https://todayforai.com/en/story/story-1ba1f40e-299</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1ba1f40e-299</guid>
 <pubDate>Mon, 02 Nov 2026 03:59:35 +0800</pubDate>
@@ -18,6 +18,10 @@
 技术实现上，Karpathy 采用“Vibe Coding”模式，以 Claude Opus 5.5 为核心编码代理处理长上下文数据清洗，并辅以 Sonnet 进行过滤工作流。这一过程不仅解决了传统 YouTube 算法导致的信息茧房问题，还通过自动化手段将非结构化评论转化为高质量内容集。项目支持数据导出功能，允许用户进一步定制个性化版本，体现了 AI Agent 从数据分析到应用部署的全流程能力。
 
 HackerTube 的上线标志着开发者正从被动接受平台算法转向主动利用 AI 工具重构信息获取体验。它证明了前沿大模型能以极低成本打破主流推荐系统的垄断，为构建去中心化、基于真实社区共识的高质量内容聚合平台提供了可行范式，对重塑数字内容分发格局具有深远意义。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, Rohan Paul (@rohanpaul_ai), Yuchen Jin (@Yuchenj_UW)&lt;/p&gt;</description>
+</item>
+<item><title>Artificial Analysis 引入实时 GPU 租赁价格优化智能体基准</title><link>https://todayforai.com/en/story/story-619009d7-351</link><guid isPermaLink="true">https://todayforai.com/en/story/story-619009d7-351</guid>
+<pubDate>Mon, 02 Nov 2026 22:01:00 +0800</pubDate>
+<description>&lt;p&gt;Artificial Analysis 与 Silicon Data 合作，将基于市场的 GPU 租赁价格数据整合进 AA-AgentPerf 数据中心性能基准。通过新增“每小时美元吞吐量”指标，该基准能动态反映不同云服务商在 H100、B200 等芯片上的性价比，其中 NVIDIA B300 目前表现领先。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 会晤三星高管深化合作应对 AI 内存短缺</title><link>https://todayforai.com/en/story/story-14bd1aae-9d8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-14bd1aae-9d8</guid>
 <pubDate>Mon, 02 Nov 2026 15:21:13 +0800</pubDate>
@@ -66,14 +70,6 @@ HUMAIN 计划到 2030 年建成 3GW 数据中心容量，并开发包括 ALLaM �
 <item><title>Meta MIT 研究：循环复用 Transformer 层可提升模型性能</title><link>https://todayforai.com/en/story/story-53b15b2e-5b0</link><guid isPermaLink="true">https://todayforai.com/en/story/story-53b15b2e-5b0</guid>
 <pubDate>Mon, 02 Nov 2026 19:53:55 +0800</pubDate>
 <description>&lt;p&gt;Meta 与 MIT 最新论文证实，通过循环复用 Transformer 的特定层，可在不增加参数量的前提下显著提升模型深度与性能。该研究在 10 亿参数规模上验证了不同循环策略的效果，并引入轻量级适配器以优化并行解码效率。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
-</item>
-<item><title>OpenAI 坚持发布 AI 数学成果并捐赠支持学界</title><link>https://todayforai.com/en/story/story-d64f63e7-2b2</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d64f63e7-2b2</guid>
-<pubDate>Mon, 02 Nov 2026 02:28:42 +0800</pubDate>
-<description>&lt;p&gt;OpenAI CEO Sam Altman 明确表态，尽管其一次性发布超 700 篇 AI 生成数学论文引发学术界强烈争议，公司仍不会停止这一进程。Altman 承认早期发布存在沟通不畅、缺乏背景论证及格式违规等问题，导致研究人员感到困惑与被边缘化，但他强调“世界有权了解宇宙规律”，视此为探索模型能力边界的关键步骤。
-
-多方信源交叉验证显示，OpenAI 在数学领域已投入数亿美元，除已公开成果外，手中仍握有大量未公开的储备发现，包括涉及朗兰兹纲领等前沿领域的突破。面对菲尔兹奖得主联名抗议及关于“杨-米尔斯”理论成果未完全公开的质疑，OpenAI 选择通过优化发布流程来回应批评，承诺未来将更尊重学术规范，同时继续推进如 NS 方程等高难度问题的研究。
-
-为缓解紧张局势并推动生态融合，OpenAI 宣布向西蒙斯基金会捐赠 500 万美元，旨在资助研讨会与项目，帮助数学家适应 AI 时代并理解 AI 生成的科研成果。此举标志着科技巨头正试图从单纯的“技术输出者”转型为“学术协作者”，但也引发了关于学术伦理、出版规范及 AI 对学科本质影响的深层反思。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Verge AI, Hacker News AI, 新智元 (微信公众号), IT之家 · IT业界&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
