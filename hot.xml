@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Tue, 03 Nov 2026 03:19:17 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 03 Nov 2026 04:17:28 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 递交 IPO 招股书，估值两万亿拟募资千亿</title><link>https://todayforai.com/en/story/story-0ed5b747-86f</link><guid isPermaLink="true">https://todayforai.com/en/story/story-0ed5b747-86f</guid>
 <pubDate>Tue, 03 Nov 2026 00:40:29 +0800</pubDate>
@@ -11,13 +11,21 @@
 
 作为首家纯大模型上市公司，Anthropic 的披露为行业提供了关键基准。其招股书罕见地用大量篇幅警告 AI 生存性风险，甚至披露因安全顾虑暂停旗舰模型训练逾一月，凸显安全理念在商业叙事中的核心地位。这一举措不仅验证了前沿 AI 实验室的独立造血能力，也标志着 AI 产业从私有融资阶段正式迈入公开市场资本化时代，对全球科技股格局产生深远影响。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, Rohan Paul (@rohanpaul_ai), 量子位官网, IT之家 · IT业界, The Verge AI, The Decoder&lt;/p&gt;</description>
 </item>
+<item><title>Astra 模型直接读写权重显著提升 Qwen 数学能力</title><link>https://todayforai.com/en/story/story-7028676c-267</link><guid isPermaLink="true">https://todayforai.com/en/story/story-7028676c-267</guid>
+<pubDate>Tue, 03 Nov 2026 04:17:28 +0800</pubDate>
+<description>&lt;p&gt;MIT 研究人员展示了前沿大模型 Astra（关联 GPT-6）具备原生读取和写入神经网络权重的能力，开创了“权重空间编程”新范式。实验表明，Astra 无需梯度下降或传统训练过程，仅通过修改 Qwen3.5-0.8B 模型中 0.016% 的权重参数，即可显著优化其性能。
+
+在具体的交叉验证数据中，这一微调操作成功识别并修复了导致模型推理陷入循环的特定权重缺陷。结果显示，Qwen3.5-0.8B 在 MATH-500 基准测试中的准确率从 7.9% 跃升至 48.1%，实现了近 6 倍的性能提升，同时指令遵循能力也得到显著改善。此外，Astra 还能从零编写出超越 PPO 训练结果的小型游戏网络，证明其具备深层理解网络训练目标的能力。
+
+这一突破预示着未来神经网络的优化方式可能发生根本性转变：由具备高级推理能力的 LLM 直接对模型参数进行原生编辑，取代传统的符号优化器。这不仅极大提升了小模型的迭代效率，也为模型可解释性研究提供了全新的技术路径，可能重塑 AI 开发与维护的产业格局。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
+</item>
 <item><title>OpenAI 回应抗议翻倍 Codex 额度并合并入口</title><link>https://todayforai.com/en/story/story-1cdddab3-b11</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1cdddab3-b11</guid>
 <pubDate>Mon, 02 Nov 2026 21:57:53 +0800</pubDate>
 <description>&lt;p&gt;面对用户对“价格不变、权益减半”的强烈抗议，OpenAI 迅速调整策略，宣布取消原定的 Pro 系列额度下调计划，并将 ChatGPT Pro 及 Business Premium 用户的 Work 与 Codex 用量额度直接翻倍。这一举措旨在平息社区不满，新额度对现有订阅用户立即生效，无需等待续订周期。
 
 在技术架构层面，OpenAI 正推进重大整合：自 12 月起，Plus、Pro 及 Business 计划将合并 ChatGPT 与 Codex 的用量限制，转为共享单一 Token 配额池。同时，ChatGPT 界面将合并“聊天”与“工作”功能，智能体能力并入主体验。值得注意的是，即时对话不消耗额度，但 Fast 模式消耗速度为标准模式的 2.5 倍，Ultrafast 则高达 8 倍，实际产出仍受模型复杂度影响。
 
-此次调整标志着 OpenAI 从按消息次数计费向更精细化的 Token 计量体系过渡，试图在缓解算力瓶颈与维持开发者高频编码需求之间寻找平衡。尽管官方称绝大多数用户体验不受影响，但重度依赖 Codex 的开发者需重新评估其工作流中的 Token 消耗效率，以应对新的统一配额机制。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;新智元 (微信公众号), IT之家 · 智能时代, Rohan Paul (@rohanpaul_ai), Hacker News AI, The Decoder, 机器之心 (微信公众号)&lt;/p&gt;</description>
+此次调整标志着 OpenAI 从按消息次数计费向更精细化的 Token 计量体系过渡，试图在缓解算力瓶颈与维持开发者高频编码需求之间寻找平衡。尽管官方称绝大多数用户体验不受影响，但重度依赖 Codex 的开发者需重新评估其工作流中的 Token 消耗效率，以应对新的统一配额机制。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;新智元 (微信公众号), IT之家 · 智能时代, Rohan Paul (@rohanpaul_ai), Hacker News AI, The Decoder, 机器之心 (微信公众号)&lt;/p&gt;</description>
 </item>
 <item><title>Karpathy 用 Claude Opus 两小时构建 HackerTube</title><link>https://todayforai.com/en/story/story-1ba1f40e-299</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1ba1f40e-299</guid>
 <pubDate>Mon, 02 Nov 2026 03:59:35 +0800</pubDate>
@@ -70,10 +78,6 @@ LifeVal 基准的设计基于数千名 ChatGPT 用户的反馈及大规模时间
 多方信源交叉验证显示，Brave 被指使用未公开的爬虫技术大规模采集数据，其商业模式不仅涉及向 AI 企业分发“销赃”般的版权内容，还通过屏蔽出版商广告和破解付费墙功能直接损害媒体收益。尽管部分 AI 公司回应称诉讼包含虚假信息，但此次起诉详细列举了 Brave 的技术架构与商业流向，凸显了其在数据合规性上的严重缺失。这是继 OpenAI 和 Perplexity 之后，媒体行业对 AI 训练数据来源发起的又一重大司法挑战。
 
 此案对 AI 行业的生态格局具有深远影响，它重新定义了浏览器工具在数据抓取中的法律责任边界，迫使开发者重新审视“隐私优先”与“版权合规”之间的平衡。若胜诉，可能引发连锁反应，导致更多基于公开网络数据训练的 AI 模型面临下架或赔偿风险，进而加速推动 AI 公司与内容出版商之间建立更透明、合法的数据授权合作机制。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Verge AI, TechCrunch AI&lt;/p&gt;</description>
-</item>
-<item><title>Artificial Analysis 引入实时 GPU 租赁价格优化智能体基准</title><link>https://todayforai.com/en/story/story-619009d7-351</link><guid isPermaLink="true">https://todayforai.com/en/story/story-619009d7-351</guid>
-<pubDate>Mon, 02 Nov 2026 22:01:00 +0800</pubDate>
-<description>&lt;p&gt;Artificial Analysis 与 Silicon Data 合作，将基于市场的 GPU 租赁价格数据整合进 AA-AgentPerf 数据中心性能基准。通过新增“每小时美元吞吐量”指标，该基准能动态反映不同云服务商在 H100、B200 等芯片上的性价比，其中 NVIDIA B300 目前表现领先。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
