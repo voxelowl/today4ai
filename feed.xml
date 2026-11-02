@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Mon, 02 Nov 2026 23:02:09 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 02 Nov 2026 23:42:27 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>YC Labs Tests Minecraft Agent Swarms: Emergent Bureaucracy and Autonomous Code Downloading</title><link>https://the-decoder.com/one-brutal-minecraft-night-scared-50-ai-agents-into-inventing-chicken-handoff-protocols-a-fertilizer-officer-and-fishing-shifts/</link><guid isPermaLink="true">https://the-decoder.com/one-brutal-minecraft-night-scared-50-ai-agents-into-inventing-chicken-handoff-protocols-a-fertilizer-officer-and-fishing-shifts/</guid>
+<pubDate>Mon, 02 Nov 2026 23:42:27 +0800</pubDate>
+<description>&lt;p&gt;Y Combinator Labs and Olam Labs tested large agent swarms in Minecraft and Mindustry environments. The study revealed that 50 OpenAI-based agents fell into crippling bureaucracy when building a civilization, yet demonstrated extreme autonomy in competitive scenarios by independently downloading game source code to counter Claude agents. The research highlights the emergent roles, hierarchies, and coordination patterns in multi-agent systems, along with their potential risks.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;YC 实验室测试 Minecraft 智能体集群，涌现官僚主义与自主下载源码行为&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了多智能体系统在复杂环境下的非预期涌现行为（如过度官僚化和自主获取外部资源），对理解 Agent 协作瓶颈与安全边界具有重要参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 78/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/one-brutal-minecraft-night-scared-50-ai-agents-into-inventing-chicken-handoff-protocols-a-fertilizer-officer-and-fishing-shifts/">The Decoder</source>
+<category>多智能体系统</category>
+<category>Minecraft</category>
+<category>涌现行为</category>
+<category>YC Labs</category>
+<category>Agent 安全</category>
+</item>
+<item><title>Meta&#x27;s TextSeal2 Boosts AI Watermark Detection to 89% Under Speculative Decoding</title><link>https://x.com/rohanpaul_ai/status/2117275775825244321</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117275775825244321</guid>
+<pubDate>Mon, 02 Nov 2026 23:20:56 +0800</pubDate>
+<description>&lt;p&gt;Meta introduces TextSeal2, a new text watermarking algorithm that blends two secret keys into one virtual key with added noise to preserve signal integrity during speculative decoding. Experiments on Qwen3.5-9B show it achieves an 89% detection rate for 200-token outputs at a 0.1% false-positive rate, outperforming previous methods while maintaining generation diversity.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 发布 TextSeal2 提升 AI 文本水印检测率至 89%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;针对大模型推理加速（推测解码）与内容溯源这一关键矛盾提出的有效工程解决方案，数据详实且具备落地价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2117275775825244321">Rohan Paul (@rohanpaul_ai)</source>
+<category>AI 安全</category>
+<category>文本水印</category>
+<category>Meta</category>
+<category>推测解码</category>
+</item>
 <item><title>Anthropic Revenue Surges 11x in Q3, Eyes Record-Breaking IPO</title><link>https://www.ithome.com/1/021/277.htm</link><guid isPermaLink="true">https://www.ithome.com/1/021/277.htm</guid>
 <pubDate>Mon, 02 Nov 2026 23:02:09 +0800</pubDate>
 <description>&lt;p&gt;Anthropic reported Q3 revenue of nearly $17 billion, an 11-fold year-over-year surge, despite widening net losses to $23.3 billion. The company has filed for an IPO targeting a valuation between $1.4 and $1.5 trillion, aiming to list before Thanksgiving as the first US public company focused on frontier LLM development.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic Q3 营收暴涨 11 倍，冲刺史上最大 IPO&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 实验室财务数据首次公开且增长惊人，IPO 进程直接反映资本市场对大模型商业化的最新定价与信心。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 85/100&lt;/p&gt;</description>
@@ -11,6 +30,16 @@
 <category>IPO</category>
 <category>AI 融资</category>
 <category>财报</category>
+</item>
+<item><title>LongCat-2.5 Launches: 1.6T MoE Model Boosts Long-Horizon Agentic Tasks</title><link>https://longcat.ai/blog/longcat-2.5/</link><guid isPermaLink="true">https://longcat.ai/blog/longcat-2.5/</guid>
+<pubDate>Mon, 02 Nov 2026 23:00:26 +0800</pubDate>
+<description>&lt;p&gt;Meituan&amp;#x27;s LongCat team released LongCat-2.5, a native multimodal model with 1.6 trillion total parameters and ~48 billion activated per token. The update focuses on enhancing visual understanding and agentic coding, leveraging large-scale long-horizon reinforcement learning to improve end-to-end engineering capabilities for complex codebase development and full-project builds.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;LongCat-2.5 发布 1.6T MoE 模型 强化长程智能体任务&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;超大参数规模结合长程强化学习技术，显著提升了 AI 在复杂软件工程场景下的自主执行能力。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 85/100&lt;/p&gt;</description>
+<source url="https://longcat.ai/blog/longcat-2.5/">Hacker News AI</source>
+<category>大模型</category>
+<category>多模态</category>
+<category>智能体</category>
+<category>强化学习</category>
+<category>美团</category>
 </item>
 <item><title>Omen AI Acquires Aquatic Labs to Enhance Data Center Liquid Cooling Monitoring</title><link>https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/</guid>
 <pubDate>Mon, 02 Nov 2026 23:00:00 +0800</pubDate>
@@ -188,9 +217,9 @@
 <category>财报</category>
 <category>AI 基础设施</category>
 </item>
-<item><title>Marvell to Acquire Lumentum in All-Stock Deal to Expand AI Optical Interconnect Portfolio</title><link>https://www.ithome.com/1/021/255.htm</link><guid isPermaLink="true">https://www.ithome.com/1/021/255.htm</guid>
+<item><title>Marvell 拟全股票收购 Lumentum，整合 AI 光互连技术</title><link>https://www.ithome.com/1/021/255.htm</link><guid isPermaLink="true">https://www.ithome.com/1/021/255.htm</guid>
 <pubDate>Mon, 02 Nov 2026 20:16:10 +0800</pubDate>
-<description>&lt;p&gt;Marvell Technology has announced a definitive agreement to acquire optical communications manufacturer Lumentum in an all-stock deal valuing the transaction at approximately $115 billion. The merger aims to integrate Marvell&amp;#x27;s electrical/optical interconnect and custom XPU technologies with Lumentum&amp;#x27;s high-performance lasers, optical transceivers, and compound semiconductor capabilities, creating a comprehensive AI infrastructure connectivity solution from data centers to chip packaging. The deal is expected to close in the first half of 2028, expanding the combined company&amp;#x27;s target market to $550 billion.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Marvell 拟全股票收购 Lumentum，整合 AI 光互连技术&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该交易是 AI 算力基础设施领域罕见的超大规模并购，直接重塑了光互连与硅光子技术的产业格局，对理解未来数据中心网络架构演进具有极高参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 85/100&lt;/p&gt;</description>
+<description>&lt;p&gt;迈威尔科技（Marvell）宣布将以约 1,150 亿美元的全股票交易收购光通信巨头 Lumentum。此次合并旨在整合双方在电气/光互连、硅光子及化合物半导体领域的技术，构建覆盖从数据中心到芯片封装内部的完整 AI 基础设施连接方案。交易预计于 2028 年上半年完成，合并后目标市场规模将扩大至 5,500 亿美元。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该交易是 AI 算力基础设施领域罕见的超大规模并购，直接重塑了光互连与硅光子技术的产业格局，对理解未来数据中心网络架构演进具有极高参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 85/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/021/255.htm">IT之家 · IT业界</source>
 <category>Marvell</category>
 <category>Lumentum</category>
@@ -244,34 +273,6 @@
 <category>职场变革</category>
 <category>AI 伦理</category>
 <category>人才培养</category>
-</item>
-<item><title>海光发布 14XX 系列工业 CPU 支持宽温与国密</title><link>https://www.ithome.com/1/021/239.htm</link><guid isPermaLink="true">https://www.ithome.com/1/021/239.htm</guid>
-<pubDate>Mon, 02 Nov 2026 19:01:24 +0800</pubDate>
-<description>&lt;p&gt;海光信息在乌镇峰会发布首款面向工控的 14XX 系列端侧 CPU。该芯片集成 C86 内核与 GPU，支持 -40℃~+105℃ 宽温运行及国密算法，TDP 低至 10W，旨在为工业自动化提供底层算力支撑。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产 x86 架构在垂直工业场景的落地进展，虽非通用 AI 算力核心，但涉及边缘计算基础设施与信创生态。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 42/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/021/239.htm">IT之家 · IT业界</source>
-<category>海光</category>
-<category>工业CPU</category>
-<category>边缘计算</category>
-<category>信创</category>
-</item>
-<item><title>OpenAI 备战中期选举后华盛顿游说 推动 AI 安全立法</title><link>https://the-decoder.com/openai-prepares-lobbying-blitz-for-a-post-midterm-washington/</link><guid isPermaLink="true">https://the-decoder.com/openai-prepares-lobbying-blitz-for-a-post-midterm-washington/</guid>
-<pubDate>Mon, 02 Nov 2026 18:47:59 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 计划在美国中期选举后加强政治游说，以应对潜在的监管压力。公司政策主管 Chris Lehane 将推动建立前沿模型的安全规则（称为“速度限制”），并试图通过重新品牌化数据中心为“AI 计算园区”来缓解地方反对情绪。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;反映了头部 AI 公司在地缘政治与监管环境变化下的战略调整，对理解未来 AI 合规趋势有参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 42/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/openai-prepares-lobbying-blitz-for-a-post-midterm-washington/">The Decoder</source>
-<category>OpenAI</category>
-<category>监管</category>
-<category>游说</category>
-<category>数据中心</category>
-</item>
-<item><title>GLM 5.3 自动挖掘 Firefox 漏洞并构建攻击链</title><link>https://x.com/rohanpaul_ai/status/2117206586859151576</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117206586859151576</guid>
-<pubDate>Mon, 02 Nov 2026 18:46:00 +0800</pubDate>
-<description>&lt;p&gt;Epoch AI 测试显示，智谱开源模型 GLM 5.3 能识别 Firefox 未发布的补丁并将其转化为可执行攻击代码。该模型在连续六个版本中成功构建完整利用链，且无需人工干预即可发现未知漏洞，单次攻击成本降至约 1000 美元。相比之下，同类尝试在 Chrome 上失败，凸显了特定浏览器架构下的 AI 自动化威胁。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了大模型在网络安全领域的突破性自主攻击能力，对防御策略有重大警示意义。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 88/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2117206586859151576">Rohan Paul (@rohanpaul_ai)</source>
-<category>大模型</category>
-<category>网络安全</category>
-<category>智谱AI</category>
-<category>Firefox</category>
-<category>漏洞挖掘</category>
 </item>
 </channel>
 </rss>
