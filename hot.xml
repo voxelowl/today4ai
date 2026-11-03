@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Tue, 03 Nov 2026 21:23:35 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 03 Nov 2026 21:26:43 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>MIT 推出权重空间编程 Astra 免训练使 Qwen 数学能力跃升六倍</title><link>https://todayforai.com/en/story/story-7028676c-267</link><guid isPermaLink="true">https://todayforai.com/en/story/story-7028676c-267</guid>
 <pubDate>Tue, 03 Nov 2026 13:35:00 +0800</pubDate>
@@ -11,6 +11,14 @@
 
 “权重空间编程”为 AI 自主进化提供了新路径，可能重塑模型迭代与可解释性研究格局。它有望绕过递归自我改进（RSI）中高成本的自动搜索环节，显著降低算力开销。尽管目前结果尚待独立复现且存在局限，但该范式预示未来神经网络将由具备推理能力的 LLM 进行原生优化，而非依赖传统符号优化器。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, Rohan Paul (@rohanpaul_ai), 量子位官网, IT之家 · 智能时代, Latent Space, 宝玉 (@dotey)&lt;/p&gt;</description>
 </item>
+<item><title>Anthropic 披露 AI 承担 26% 研发任务逼近自我改进</title><link>https://todayforai.com/en/story/story-72ed5e78-962</link><guid isPermaLink="true">https://todayforai.com/en/story/story-72ed5e78-962</guid>
+<pubDate>Tue, 03 Nov 2026 21:26:43 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 在最新提交的 S-1A 上市文件中正式披露，其内部评估显示下一代模型可能即将达到“递归自我改进”（RSI）的安全阈值。核心数据显示，截至 8 月，AI 已自动完成 Anthropic 下一代模型构建流程中 26% 的任务，且 Claude 的使用量在 8 个月内激增超 250 倍，月价值已超过人力成本。这一事实标志着头部实验室正实质性推进“用 AI 造 AI”的内部自动化闭环。
+
+多方信源交叉验证指出，Anthropic 将 RSI 定义为 AI 能力提升速度达到无辅助下最快进步速度的 2 倍。公司承认在利用 AI 加速研发时，曾出现团队未察觉的能力跃升现象，这导致安全对齐与验证的速度可能滞后于能力发展。尽管当前模型尚未跨越该红线，但招股书同时揭示了巨大的财务压力：Q3 营收同比暴增 1127% 至 170 亿美元，但算力采购账单高达 8954 亿美元，净亏损扩大，凸显了基础设施成本与安全治理的双重挑战。
+
+此次披露将 AI 安全边界问题直接引入资本市场定价视野，迫使投资者重新评估前沿模型开发的失控风险。Anthropic 承诺修订《负责任扩展政策》以强化人类监督，但这表明 RSI 已从理论概念转化为具体的工程风险。随着 AI 深度参与核心训练管线，行业需建立更严格的治理机制，以应对指数级能力加速带来的潜在失控隐患。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;量子位官网, TechCrunch AI, Rohan Paul (@rohanpaul_ai), IT之家 · 智能时代, Hacker News AI&lt;/p&gt;</description>
+</item>
 <item><title>OpenAI 自研 Pando 后端支撑 Codex 并发开发</title><link>https://todayforai.com/en/story/story-f3c8341e-044</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f3c8341e-044</guid>
 <pubDate>Tue, 03 Nov 2026 13:54:14 +0800</pubDate>
 <description>&lt;p&gt;OpenAI 正式推出名为 Pando 的自研 Git 后端系统，旨在解决其巨型单体仓库在支持 Codex AI 智能体高并发操作时遭遇的性能瓶颈。该核心突破在于实现了工程团队与 AI Agent 的无缝并行写入，将中位推送延迟降低近 5 倍（约 80%），并具备日均处理接近 1 PB 数据的高吞吐能力。
@@ -18,14 +26,6 @@
 技术层面，Pando 采用 Rust 编写，通过分支级因果一致性模型消除无关分支间的协调等待，实现真正的水平可扩展写入。同时，系统复用已存储的 packfile 而非为每个客户端重新构建，使缓存命中率超过 99%，大幅降低计算开销。值得注意的是，Pando 保持与标准 Git 协议完全兼容，用户无需迁移即可无感切换。相比之下，Anthropic 选择了重构流程的 Scion 路线，两者共同揭示了 AI 时代代码提交量指数级增长对传统基础设施的挑战。
 
 这一举措标志着 AI 辅助编程进入深水区，基础设施优化成为释放 Agent 潜力的关键。Pando 的成功验证了改良现有架构以适配 AI 高频操作的可行性，为行业提供了处理海量自动化代码提交的参考范式，同时也推动了开源社区对 Git 性能优化的关注。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), Hacker News AI, OpenAI 官方博客, Marktechpost (@Marktechpost)&lt;/p&gt;</description>
-</item>
-<item><title>Anthropic 披露 AI 承担 26% 研发任务逼近自我改进</title><link>https://todayforai.com/en/story/story-72ed5e78-962</link><guid isPermaLink="true">https://todayforai.com/en/story/story-72ed5e78-962</guid>
-<pubDate>Tue, 03 Nov 2026 16:03:19 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 在最新 S-1/A 招股文件中正式承认，其下一代模型正接近“递归自我改进”（RSI）的安全阈值。数据显示，截至 8 月，AI 已自动完成该公司 26% 的下一代模型构建任务，且内部 Claude 使用量在 8 个月内激增超 250 倍。这一事实增量标志着 AI 从辅助工具转变为研发核心驱动力，公司预判未来模型能力提升速度可能达到无 AI 辅助下的两倍。
-
-多方信源交叉验证显示，Anthropic 将 RSI 定义为能力跃升超过安全对齐速度的临界点，并指出过去曾出现团队未察觉的能力爆发现象。财务数据方面，Q3 营收同比暴增 1127% 至 170 亿美元，但算力采购账单高达 8954 亿美元，净亏损扩大。这种“高投入、高增长、高风险”的结构凸显了基础设施成本压力与商业可持续性挑战，同时也印证了其通过 AI 自动化研发来抵消部分人力成本的战略意图。
-
-此次披露对行业格局产生深远影响，意味着头部实验室正实质性推进“用 AI 造 AI”的内部闭环。尽管 Anthropic 承诺保留人类监督并修订《负责任扩缩策略》，但 RSI 从理论概念转向实际工程风险，迫使监管机构与开发者重新审视 AI 失控的潜在路径。这不仅加速了技术迭代周期，也引发了关于安全对齐滞后于能力发展的全球性治理讨论。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;量子位官网, TechCrunch AI, Rohan Paul (@rohanpaul_ai), IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 递交 IPO 招股书，估值两万亿拟募资千亿</title><link>https://todayforai.com/en/story/story-0ed5b747-86f</link><guid isPermaLink="true">https://todayforai.com/en/story/story-0ed5b747-86f</guid>
 <pubDate>Tue, 03 Nov 2026 08:03:15 +0800</pubDate>
@@ -43,14 +43,6 @@
 
 这一进展凸显了 AI 助手向全能型个人助理演进的行业趋势，反映了用户对自动化处理生活琐事的最迫切需求。尽管缺乏公开透明度限制了学术界的即时跟进，但 GPT-6 在日常任务执行上的突破，预示着 AI 将在提升人类生活效率方面发挥更实质性的作用，同时也引发了关于评估标准客观性与行业透明度的讨论。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;OpenAI 官方博客, Rohan Paul (@rohanpaul_ai), IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
-<item><title>Nvidia 要求云客户限制中资业务以堵出口漏洞</title><link>https://todayforai.com/en/story/story-4d86e6c6-6f6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4d86e6c6-6f6</guid>
-<pubDate>Tue, 03 Nov 2026 21:23:35 +0800</pubDate>
-<description>&lt;p&gt;Nvidia 近期向云服务商与数据中心客户发出新规，旨在封堵通过海外云端租赁绕过美国出口管制的路径。核心举措包括要求新合同中至少 51% 的服务须面向非中国公司，并强制披露芯片最终用户身份。尽管部分信源指出该建议为非强制性且不影响现有合同，但这一动作标志着 Nvidia 正主动配合监管，填补云端远程访问场景下的合规空白。
-
-多方报道交叉验证显示，此举直接回应了此前 Moonshot AI 等案例引发的监管关注。通过增强对硬件流向的监控能力，Nvidia 试图防止中国公司间接获取高端算力。然而，严格的合规要求加剧了全球高端算力的稀缺性，导致 B300 机架在中国市场出现显著溢价，价格高达约 254 万美元，远超国际市场的 60 万美元水平。
-
-这一策略调整不仅重塑了云厂商的客户结构，更深刻影响了全球 AI 基础设施供应链。它表明在出口管制日益收紧的背景下，算力分配正从纯粹的市场行为转向地缘政治合规驱动，进一步推高了全球 AI 开发的门槛与成本。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Decoder, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
-</item>
 <item><title>OpenRouter 年处理量破千万亿 Token 增速翻倍周期缩至 10.5 周</title><link>https://todayforai.com/en/story/story-1a8164b4-2da</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1a8164b4-2da</guid>
 <pubDate>Tue, 03 Nov 2026 04:37:56 +0800</pubDate>
 <description>&lt;p&gt;OpenRouter 宣布其年度 Token 处理量正式突破 10 千万亿（10 quadrillion）大关，标志着 AI 推理需求进入爆发式增长阶段。数据显示，平台 Token 消耗量的翻倍周期已缩短至 10.5 周，且最近 9 周的总处理量甚至超过了此前所有历史总和，这种垂直上升的增长曲线远超传统互联网服务的发展速率。
@@ -58,6 +50,14 @@
 从技术演进与基础设施负载来看，OpenRouter 的周处理量在短短 50 周内从 1 万亿激增至 10 万亿，并预测即将突破 1 千万亿级别。这一数据不仅印证了大语言模型（LLM）应用的快速普及，更反映出算力调度与网络带宽正面临前所未有的压力。多方信源交叉验证表明，AI 应用规模的急剧扩大正在推动底层基础设施进行断层式的扩容升级。
 
 此次数据跃升对 AI 开发者生态具有深远影响。它意味着推理成本结构正在发生根本性变化，高频、大规模的实时交互成为常态。对于行业而言，这既是机遇也是挑战：一方面证明了生成式 AI 的商业落地能力显著增强；另一方面，也迫使云服务商和芯片厂商加速高性能推理集群的建设，以应对指数级增长的算力缺口。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), OpenRouter (@OpenRouter)&lt;/p&gt;</description>
+</item>
+<item><title>Nvidia 要求云客户限制中资业务以堵出口漏洞</title><link>https://todayforai.com/en/story/story-4d86e6c6-6f6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4d86e6c6-6f6</guid>
+<pubDate>Tue, 03 Nov 2026 21:23:35 +0800</pubDate>
+<description>&lt;p&gt;Nvidia 近期向云服务商与数据中心客户发出新规，旨在封堵通过海外云端租赁绕过美国出口管制的路径。核心举措包括要求新合同中至少 51% 的服务须面向非中国公司，并强制披露芯片最终用户身份。尽管部分信源指出该建议为非强制性且不影响现有合同，但这一动作标志着 Nvidia 正主动配合监管，填补云端远程访问场景下的合规空白。
+
+多方报道交叉验证显示，此举直接回应了此前 Moonshot AI 等案例引发的监管关注。通过增强对硬件流向的监控能力，Nvidia 试图防止中国公司间接获取高端算力。然而，严格的合规要求加剧了全球高端算力的稀缺性，导致 B300 机架在中国市场出现显著溢价，价格高达约 254 万美元，远超国际市场的 60 万美元水平。
+
+这一策略调整不仅重塑了云厂商的客户结构，更深刻影响了全球 AI 基础设施供应链。它表明在出口管制日益收紧的背景下，算力分配正从纯粹的市场行为转向地缘政治合规驱动，进一步推高了全球 AI 开发的门槛与成本。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Decoder, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
 <item><title>黑石下调 Anthropic IPO 评级至垃圾级</title><link>https://todayforai.com/en/story/story-63d184e0-706</link><guid isPermaLink="true">https://todayforai.com/en/story/story-63d184e0-706</guid>
 <pubDate>Tue, 03 Nov 2026 19:16:07 +0800</pubDate>
