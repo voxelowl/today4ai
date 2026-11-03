@@ -1,8 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Tue, 03 Nov 2026 07:27:52 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 03 Nov 2026 08:06:53 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>MIT Proposes Weight-Space Programming: GPT-6 Astra Edits Qwen Weights to Boost Math</title><link>https://x.com/dotey/status/2117408133773705525</link><guid isPermaLink="true">https://x.com/dotey/status/2117408133773705525</guid>
+<pubDate>Tue, 03 Nov 2026 08:06:53 +0800</pubDate>
+<description>&lt;p&gt;MIT CSAIL researchers introduced &amp;#x27;Weight-Space Programming,&amp;#x27; a paradigm where frontier LLMs like GPT-6 Astra directly read and edit neural network weights without gradients or retraining. Experiments showed that modifying just 0.016% of Qwen3.5-0.8B&amp;#x27;s weights boosted its MATH-500 accuracy from 7.9% to 48.1%, primarily by removing reasoning loops rather than adding new knowledge. This study demonstrates that LLMs can natively manipulate model parameters, offering a new path for AI self-improvement, though results await independent replication.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;MIT 提出权重空间编程：GPT-6 Astra 直接修改 Qwen 权重提升数学能力&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;颠覆传统训练范式，展示大模型直接编辑权重的可行性与显著效果，具有极高的技术前瞻性与行业影响力。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · llm · signal 88/100&lt;/p&gt;</description>
+<source url="https://x.com/dotey/status/2117408133773705525">宝玉 (@dotey)</source>
+<category>大模型</category>
+<category>MIT</category>
+<category>权重编辑</category>
+<category>AI 自我改进</category>
+<category>前沿研究</category>
+</item>
+<item><title>Anthropic IPO Filing Reveals $1.07T Compute Commitments</title><link>https://x.com/rohanpaul_ai/status/2117407218849157258</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117407218849157258</guid>
+<pubDate>Tue, 03 Nov 2026 08:03:15 +0800</pubDate>
+<description>&lt;p&gt;Anthropic&amp;#x27;s amended IPO filing reveals up to $1.07 trillion in compute commitments, roughly 32 times its revenue. While sequential growth slowed to 47%, compute costs now account for 58% of sales, highlighting the massive infrastructure burden on large model developers.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic IPO 文件披露近万亿算力承诺&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该数据揭示了 AI 巨头在算力上的极端杠杆率与成本结构，对理解行业资本密集度具有关键参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 85/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2117407218849157258">Rohan Paul (@rohanpaul_ai)</source>
+<category>Anthropic</category>
+<category>IPO</category>
+<category>算力成本</category>
+<category>AI 融资</category>
+</item>
+<item><title>LLM CLI v0.37 Adds Multimodal Embeddings and Endpoint Config</title><link>https://simonwillison.net/2026/Nov/2/llm/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/2/llm/</guid>
+<pubDate>Tue, 03 Nov 2026 07:49:30 +0800</pubDate>
+<description>&lt;p&gt;Simon Willison&amp;#x27;s LLM CLI tool and Python library released version 0.37, introducing a command to easily configure OpenAI-compatible endpoints. The update switches the default model to the cheaper gpt-6-luna and enhances embedding support for multimodal binary content including text, audio, and images. The author also notes that while the project receives many AI-assisted pull requests, large language models are effectively used to triage and review these contributions.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;LLM CLI v0.37 发布 支持多模态嵌入与端点配置&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开发者常用工具的重要更新，涉及多模态嵌入支持与工作流优化，具备一定实用价值。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · tools · signal 45/100&lt;/p&gt;</description>
+<source url="https://simonwillison.net/2026/Nov/2/llm/">Simon Willison 博客</source>
+<category>LLM CLI</category>
+<category>Python</category>
+<category>Open Source</category>
+<category>Multimodal</category>
+</item>
+<item><title>OpenAI Hires Former Defense Secretary Mark Esper to Expand Military AI Efforts</title><link>https://x.com/rohanpaul_ai/status/2117402685754491135</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117402685754491135</guid>
+<pubDate>Tue, 03 Nov 2026 07:45:14 +0800</pubDate>
+<description>&lt;p&gt;OpenAI has reportedly hired former US Defense Secretary Mark Esper to help expand its military AI initiatives. With a background spanning Raytheon government relations and Pentagon leadership, plus prior support for AI ethics programs, Esper provides OpenAI with critical expertise in navigating defense procurement and compliance.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 聘请前国防部长 Esper 拓展军事 AI 业务&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;反映头部大模型厂商向国防军工领域渗透的战略动向，具备行业风向标意义。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 42/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2117402685754491135">Rohan Paul (@rohanpaul_ai)</source>
+<category>OpenAI</category>
+<category>军事AI</category>
+<category>人事变动</category>
+<category>Mark Esper</category>
+</item>
+<item><title>Anthropic IPO Valuation Slashed to $1.5T-$1.6T</title><link>https://x.com/rohanpaul_ai/status/2117401551526600969</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117401551526600969</guid>
+<pubDate>Tue, 03 Nov 2026 07:40:43 +0800</pubDate>
+<description>&lt;p&gt;Major investors are pushing for an Anthropic IPO valuation of $1.5T-$1.6T, down from nearly $2T, driven by a Q3 operating loss caused by high short-term compute costs. Despite strong revenue growth, the massive $895B long-term infrastructure commitment has heightened concerns about profitability.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic IPO 估值降至 1.5-1.6 万亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司 IPO 估值大幅回调及巨额算力债务披露，对行业资本风向具有标志性意义。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2117401551526600969">Rohan Paul (@rohanpaul_ai)</source>
+<category>Anthropic</category>
+<category>IPO</category>
+<category>算力成本</category>
+<category>融资</category>
+</item>
+<item><title>WorkOS Breached by Autonomous AI Pen-Testing Framework ARTEX</title><link>https://news.ycombinator.com/item?id=50345712</link><guid isPermaLink="true">https://news.ycombinator.com/item?id=50345712</guid>
+<pubDate>Tue, 03 Nov 2026 07:30:59 +0800</pubDate>
+<description>&lt;p&gt;Auth infrastructure provider WorkOS disclosed a security incident driven by ARTEX, an AI-assisted autonomous penetration testing framework. The attacker accessed business contact data from Salesforce and Snowflake via an internal API, though no application data or production services were compromised. This highlights emerging risks posed by autonomous agents in cybersecurity.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;WorkOS 遭 AI 自主渗透框架 ARTEX 攻击泄露 CRM 数据&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次公开记录显示自主 AI 智能体成功突破企业安全防线并窃取敏感商业数据，具有极高的行业警示意义。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 68/100&lt;/p&gt;</description>
+<source url="https://news.ycombinator.com/item?id=50345712">Hacker News AI</source>
+<category>AI Agent</category>
+<category>Cybersecurity</category>
+<category>Data Breach</category>
+<category>Autonomous Systems</category>
+</item>
 <item><title>OpenAI Urges 2028 Candidates to Prioritize AI Governance</title><link>https://www.ithome.com/1/021/295.htm</link><guid isPermaLink="true">https://www.ithome.com/1/021/295.htm</guid>
 <pubDate>Tue, 03 Nov 2026 07:27:52 +0800</pubDate>
 <description>&lt;p&gt;OpenAI&amp;#x27;s Chief Global Affairs Officer sent a memo to potential 2028 US presidential candidates, emphasizing that AI will be a pivotal election issue. The firm warned against opposing AI infrastructure and urged candidates to develop comprehensive governance strategies rather than simplistic stances. This move aims to shape a regulatory environment favorable to industry growth by influencing policymakers.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 游说 2028 大选候选人 AI 治理成核心议题&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了头部 AI 企业如何通过政治游说提前布局未来监管框架，反映技术与政治权力的深度交织。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
@@ -11,6 +66,24 @@
 <category>政治游说</category>
 <category>AI 治理</category>
 <category>美国大选</category>
+</item>
+<item><title>Tencent and Mastercard Partner on Cross-Border Payments and Agentic Commerce</title><link>https://www.ithome.com/1/021/294.htm</link><guid isPermaLink="true">https://www.ithome.com/1/021/294.htm</guid>
+<pubDate>Tue, 03 Nov 2026 07:20:06 +0800</pubDate>
+<description>&lt;p&gt;Tencent&amp;#x27;s TenPay Global signed an MoU with Mastercard to streamline inbound QR payments, cross-border remittances, and agentic commerce. The partnership integrates global networks with WeChat Pay and explores secure AI agent transactions via verifiable intent mechanisms.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;腾讯与万事达卡合作 推进跨境支付与智能体商业&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;虽属金融基础设施合作，但明确涉及 AI 智能体支付（Agentic Payment）这一前沿落地场景，对关注 AI 商业化路径的读者具有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 45/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/021/294.htm">IT之家 · IT业界</source>
+<category>腾讯</category>
+<category>万事达卡</category>
+<category>智能体支付</category>
+<category>跨境金融</category>
+</item>
+<item><title>Anthropic S-1 Reveals $100k Monthly Cost Per Employee</title><link>https://www.ithome.com/1/021/291.htm</link><guid isPermaLink="true">https://www.ithome.com/1/021/291.htm</guid>
+<pubDate>Tue, 03 Nov 2026 07:15:42 +0800</pubDate>
+<description>&lt;p&gt;Anthropic&amp;#x27;s revised IPO filing reveals that the average monthly cost per employee exceeds $100,000, driven largely by equity compensation. Despite high personnel expenses, the company maintains a lean workforce with exceptional revenue per employee ($6.6M annually), reducing labor costs to just 15% of total revenue.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic S-1 披露人均月成本超 10 万美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了头部 AI 实验室在 IPO 前夕的极端高薪酬结构与高人效比数据，对理解 AI 行业人才竞争格局具有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 68/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/021/291.htm">IT之家 · IT业界</source>
+<category>Anthropic</category>
+<category>IPO</category>
+<category>人力资源</category>
+<category>财务数据</category>
 </item>
 <item><title>Trajectory Raises $45M to Democratize AI Model Post-Training for Non-Experts</title><link>https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/</guid>
 <pubDate>Tue, 03 Nov 2026 07:13:53 +0800</pubDate>
@@ -158,118 +231,48 @@
 <category>资本支出</category>
 <category>AI 基础设施</category>
 </item>
-<item><title>Claude API Launches Message Threads Beta to Speed Up Long Conversations</title><link>https://x.com/dotey/status/2117339521683448221</link><guid isPermaLink="true">https://x.com/dotey/status/2117339521683448221</guid>
+<item><title>Claude API 公测消息线程，长对话免重发历史提速 35%</title><link>https://x.com/dotey/status/2117339521683448221</link><guid isPermaLink="true">https://x.com/dotey/status/2117339521683448221</guid>
 <pubDate>Tue, 03 Nov 2026 03:34:14 +0800</pubDate>
-<description>&lt;p&gt;Anthropic has launched a beta for &amp;#x27;Message Threads&amp;#x27; in the Claude Messages API, allowing the server to cache conversation context so developers no longer need to resend full history each turn. This feature significantly reduces request payload size (from ~800KB to 1.8KB) and cuts time-to-first-token by ~35%, though token pricing remains unchanged. It is particularly beneficial for long-running agents and multimodal interactions.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Claude API 公测消息线程，长对话免重发历史提速 35%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;解决了 Agent 开发中重复传输上下文的痛点，实测数据明确，对提升长对话响应速度有直接工程价值。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · tools · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 为 Claude Messages API 推出“消息线程”公测功能，允许服务器暂存对话上下文，开发者无需每轮重发完整历史。该功能显著降低请求负载（从约 800KB 降至 1.8KB）并缩短首字延迟约 35%，但不改变 Token 计费标准。适用于长周期 Agent 任务及多模态交互场景。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;解决了 Agent 开发中重复传输上下文的痛点，实测数据明确，对提升长对话响应速度有直接工程价值。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · tools · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/dotey/status/2117339521683448221">宝玉 (@dotey)</source>
 <category>Claude API</category>
 <category>Agent Development</category>
 <category>Latency Optimization</category>
 </item>
-<item><title>Oracle Files to Sell $20B in Stock and Bonds for AI Infrastructure</title><link>https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html</link><guid isPermaLink="true">https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html</guid>
+<item><title>Oracle 拟发行 200 亿美元股票债券融资 AI 基建</title><link>https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html</link><guid isPermaLink="true">https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html</guid>
 <pubDate>Tue, 03 Nov 2026 03:27:37 +0800</pubDate>
-<description>&lt;p&gt;Oracle filed with the SEC to issue $10 billion in common stock and $10 billion in senior notes to finance its artificial intelligence infrastructure buildout. Although the fundraising plan was previewed at last week&amp;#x27;s investor day, shares fell more than 6% as investors weighed capital expenditure pressures and potential future financing risks.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Oracle 拟发行 200 亿美元股票债券融资 AI 基建&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大型云厂商巨额融资动向直接反映 AI 算力基础设施建设的资本密集度与行业竞争格局。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 68/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Oracle 正式向 SEC 提交文件，计划通过发行 100 亿美元普通股和 100 亿美元高级票据筹集资金，以支持其人工智能基础设施建设。尽管该融资计划已在上周投资者日预告，消息公布后股价仍下跌超 6%，市场担忧其资本支出压力及后续融资风险。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大型云厂商巨额融资动向直接反映 AI 算力基础设施建设的资本密集度与行业竞争格局。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 68/100&lt;/p&gt;</description>
 <source url="https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html">Hacker News AI</source>
 <category>Oracle</category>
 <category>AI 基建</category>
 <category>资本市场</category>
 <category>云计算</category>
 </item>
-<item><title>NYT Sues Brave Browser for Allegedly Distributing Copyrighted Content to AI Firms</title><link>https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/</guid>
+<item><title>纽约时报起诉 Brave 浏览器 指控其向 AI 公司非法分发版权内容</title><link>https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/</guid>
 <pubDate>Tue, 03 Nov 2026 03:19:17 +0800</pubDate>
-<description>&lt;p&gt;The New York Times and other publishers sued privacy-focused browser Brave in federal court, alleging it scraped over 30 billion webpages and bypassed paywalls to illegally distribute copyrighted content to AI companies like Anthropic and Perplexity. The suit seeks an injunction and damages, while Brave has not yet responded.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;纽约时报起诉 Brave 浏览器 指控其向 AI 公司非法分发版权内容&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该事件揭示了 AI 数据供应链中的法律风险，涉及主流 AI 模型厂商与数据获取渠道的合规争议，对行业数据治理具有警示意义。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 68/100&lt;/p&gt;</description>
+<description>&lt;p&gt;《纽约时报》联合多家媒体在联邦法院起诉隐私浏览器 Brave，指控其通过爬虫建立超300亿网页索引并绕过付费墙，将受版权保护的内容非法分发给 Anthropic、Perplexity 等 AI 公司。诉讼要求禁令及赔偿，Brave 尚未回应。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该事件揭示了 AI 数据供应链中的法律风险，涉及主流 AI 模型厂商与数据获取渠道的合规争议，对行业数据治理具有警示意义。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 68/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/">TechCrunch AI</source>
 <category>版权诉讼</category>
 <category>AI 数据合规</category>
 <category>Brave 浏览器</category>
 <category>内容抓取</category>
 </item>
-<item><title>Agent Arena Data Reveals 93:1 Input-to-Output Token Ratio</title><link>https://x.com/arena/status/2117332916854501753</link><guid isPermaLink="true">https://x.com/arena/status/2117332916854501753</guid>
+<item><title>Agent Arena 数据：智能体输入输出比达 93:1</title><link>https://x.com/arena/status/2117332916854501753</link><guid isPermaLink="true">https://x.com/arena/status/2117332916854501753</guid>
 <pubDate>Tue, 03 Nov 2026 03:08:00 +0800</pubDate>
-<description>&lt;p&gt;Analysis by Arena.ai reveals that top agents process ~93 input tokens for every generated token. This high context consumption explains the industry race to lower cached input costs amid an emerging &amp;#x27;hidden AI price war&amp;#x27;.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Agent Arena 数据：智能体输入输出比达 93:1&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了当前 Agent 架构中严重的上下文冗余问题及由此引发的基础设施成本竞争趋势。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · agent · signal 68/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Arena.ai 分析显示，顶级 AI 智能体每生成一个 token 需处理约 93 个输入 token。这一极高的上下文消耗比例解释了为何各大实验室正竞相降低缓存输入成本，以应对潜在的“AI 价格战”。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了当前 Agent 架构中严重的上下文冗余问题及由此引发的基础设施成本竞争趋势。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · agent · signal 68/100&lt;/p&gt;</description>
 <source url="https://x.com/arena/status/2117332916854501753">Arena.ai (@arena)</source>
 <category>智能体</category>
 <category>Token 成本</category>
 <category>上下文缓存</category>
 </item>
-<item><title>Anthropic Restricts Claude Code from Cloning Existing Games</title><link>https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones</guid>
+<item><title>Anthropic 限制 Claude Code 克隆现有游戏</title><link>https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones</guid>
 <pubDate>Tue, 03 Nov 2026 02:56:02 +0800</pubDate>
-<description>&lt;p&gt;Anthropic updated Claude Code&amp;#x27;s system prompt to explicitly prohibit direct recreation of specific existing video games while allowing original designs and genre-based development. This move addresses the surge in AI-driven game cloning and reverse engineering.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 限制 Claude Code 克隆现有游戏&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;反映了大模型工具在版权合规与创意边界上的最新治理动态，对开发者使用策略有直接影响。&lt;/p&gt;&lt;p&gt;The Verge AI · tools · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 更新 Claude Code 系统提示词，明确禁止直接复刻特定现有电子游戏，但允许基于用户原创设计或通用类型的开发。此举旨在应对 AI 逆向工程与游戏克隆泛滥问题，同时保留合法创作空间。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;反映了大模型工具在版权合规与创意边界上的最新治理动态，对开发者使用策略有直接影响。&lt;/p&gt;&lt;p&gt;The Verge AI · tools · signal 42/100&lt;/p&gt;</description>
 <source url="https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones">The Verge AI</source>
 <category>Claude Code</category>
 <category>AI 伦理</category>
 <category>游戏开发</category>
 <category>Anthropic</category>
-</item>
-<item><title>Mathematicians Reflect on Work Purpose in the AI Era</title><link>https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/</link><guid isPermaLink="true">https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/</guid>
-<pubDate>Tue, 03 Nov 2026 02:54:44 +0800</pubDate>
-<description>&lt;p&gt;Three scholars co-authored a piece reflecting on the purpose of mathematical work amid rapid AI development. The article argues that equating mathematical value solely with result production and individual ability reveals a conceptual difficulty, exploring professional identity through inventionist and Platonist perspectives.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;数学家撰文探讨 AI 时代工作本质与自我价值&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;虽无技术突破，但提供了关于 AI 对基础科学领域职业伦理影响的深度人文思考。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 45/100&lt;/p&gt;</description>
-<source url="https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/">Hacker News AI</source>
-<category>AI伦理</category>
-<category>数学研究</category>
-<category>行业观点</category>
-</item>
-<item><title>Deep Principle Releases Hydrogen-1.0 Open-Weight Science Model</title><link>https://x.com/Marktechpost/status/2117327169303220701</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2117327169303220701</guid>
-<pubDate>Tue, 03 Nov 2026 02:45:09 +0800</pubDate>
-<description>&lt;p&gt;Deep Principle released Hydrogen-1.0, an open-weight science model post-trained on GLM-5.3 using full lab notebook records and discovery trajectories, including failed attempts. It scores 38.3% on FrontierScience-Research, surpassing GPT-6-Astra&amp;#x27;s 33.3%, though it trails in NMR structure elucidation. The 753B parameter model features a 1M context window, is licensed under MIT, and supports BF16/NVFP4/MXFP4 quantization.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Deep Principle 发布 Hydrogen-1.0 开源科学大模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源科学专用模型在特定科研基准上超越闭源旗舰，且提供完整训练范式与多硬件量化支持，具备较高技术参考价值。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/Marktechpost/status/2117327169303220701">Marktechpost (@Marktechpost)</source>
-<category>开源模型</category>
-<category>AI for Science</category>
-<category>强化学习</category>
-</item>
-<item><title>Anthropic IPO Filing Reveals Imminent Recursive Self-Improvement Threshold</title><link>https://x.com/rohanpaul_ai/status/2117326734442049563</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117326734442049563</guid>
-<pubDate>Tue, 03 Nov 2026 02:43:26 +0800</pubDate>
-<description>&lt;p&gt;Anthropic&amp;#x27;s latest S1/IPO filing indicates that future models may soon reach the Recursive Self-Improvement (RSI) threshold. Defined as AI capabilities advancing at twice the fastest sustained pace without major AI assistance, this implies one year of progress could equal two normal years. Internal data shows Claude usage grew over 250x in eight months, with AI already automating parts of next-generation model development.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic IPO 文件披露逼近递归自我改进阈值&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;IPO 文件首次量化了 Anthropic 对 RSI 临界点的定义及内部自动化进展，具有极高的行业风向标意义。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2117326734442049563">Rohan Paul (@rohanpaul_ai)</source>
-<category>Anthropic</category>
-<category>IPO</category>
-<category>Recursive Self-Improvement</category>
-<category>AI Safety</category>
-</item>
-<item><title>SOML 发布：兼顾可读性与严格类型的配置格式草案</title><link>https://github.com/soml-lang/soml</link><guid isPermaLink="true">https://github.com/soml-lang/soml</guid>
-<pubDate>Tue, 03 Nov 2026 02:42:04 +0800</pubDate>
-<description>&lt;p&gt;开发者 Sindre Sorhus 提出了名为 SOML 的配置语言草案，旨在结合 JSON 的严格类型与 YAML 的可读性。该格式通过语法直接定义数据类型（如日期、时长），消除了 YAML 中常见的类型猜测歧义，并支持无引号键名和灵活注释。目前处于草稿阶段，强调单一规范形式以确保跨实现的一致性。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;针对开发者痛点提出的新配置标准草案，虽非 AI 核心算法但属于基础设施工具链创新。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 45/100&lt;/p&gt;</description>
-<source url="https://github.com/soml-lang/soml">Hacker News AI</source>
-<category>配置格式</category>
-<category>开发工具</category>
-<category>SOML</category>
-<category>开源</category>
-</item>
-<item><title>Fable 5.5 灰度测试视频生成能力显著提升</title><link>https://x.com/dotey/status/2117326303380611582</link><guid isPermaLink="true">https://x.com/dotey/status/2117326303380611582</guid>
-<pubDate>Tue, 03 Nov 2026 02:41:43 +0800</pubDate>
-<description>&lt;p&gt;用户通过纯代码提示词在 Fable 5.5 灰度版本中实现了高质量视频生成，效果超越现有 AI 视频模型。该发现基于对 Karpathy 2026 年动向的特定知识验证，确认了模型的新训练截止时间。尽管技术演示惊艳，但普通用户难以直接复现，且官方尚未正式发布。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了大模型在代码生成视频方面的潜在突破，但处于非正式灰度阶段且缺乏官方参数支持。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · llm · signal 42/100&lt;/p&gt;</description>
-<source url="https://x.com/dotey/status/2117326303380611582">宝玉 (@dotey)</source>
-<category>大模型</category>
-<category>视频生成</category>
-<category>灰度测试</category>
-</item>
-<item><title>苹果拟推千美元家用机器人 支持 FaceTime 与自动照明</title><link>https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/</link><guid isPermaLink="true">https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/</guid>
-<pubDate>Tue, 03 Nov 2026 02:32:21 +0800</pubDate>
-<description>&lt;p&gt;据 The Information 报道，苹果正加速开发代号 J595 的 AI 驱动家用机器人，预计 2027 年发布，售价约 1000 美元。该机器人具备自主移动能力，主打 FaceTime 通话辅助及基于人员感知的智能灯光控制，但项目存在延期至 2028 年的风险。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;科技巨头进军具身智能消费级市场的标志性动向，尽管细节尚处早期泄露阶段。&lt;/p&gt;&lt;p&gt;Ars Technica AI · industry · signal 42/100&lt;/p&gt;</description>
-<source url="https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/">Ars Technica AI</source>
-<category>Apple</category>
-<category>Robotics</category>
-<category>Consumer Electronics</category>
-<category>AI Hardware</category>
-</item>
-<item><title>Skyfall AI 发布 SKY-001 世界模型 实现低成本物理产品设计</title><link>https://x.com/rohanpaul_ai/status/2117323512155394394</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117323512155394394</guid>
-<pubDate>Tue, 03 Nov 2026 02:30:37 +0800</pubDate>
-<description>&lt;p&gt;Skyfall AI 推出 SKY-001，一款能规划零件与构建步骤的“工程世界模型”，在 CAD 精度上媲美 GPT-6 Astra 但成本降低约 150 倍。该模型通过分层组合器生成整体对象，并利用构建世界模型预测视觉构建步骤，标志着 AI 从生成场景转向生成可制造的实体产品。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了世界模型在物理制造领域的突破性应用，显著降低了高精度设计的算力成本。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2117323512155394394">Rohan Paul (@rohanpaul_ai)</source>
-<category>世界模型</category>
-<category>AI 制造</category>
-<category>CAD</category>
-<category>Skyfall AI</category>
-</item>
-<item><title>Astra 模型直接读写权重 显著提升 Qwen 数学能力</title><link>https://rikiyat.github.io/blog/weight-space-programming/</link><guid isPermaLink="true">https://rikiyat.github.io/blog/weight-space-programming/</guid>
-<pubDate>Tue, 03 Nov 2026 02:21:28 +0800</pubDate>
-<description>&lt;p&gt;前沿大模型 Astra 展现出原生读取和写入神经网络权重的能力，无需梯度即可优化小模型。实验显示，Astra 通过修改 Qwen3.5-0.8B 仅 0.016% 的权重，使其 MATH-500 得分从 7.9% 跃升至 48.1%，并显著改善指令遵循能力。这一“权重空间编程”范式可能重塑模型优化与可解释性研究。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了 LLM 直接操作底层参数的突破性能力，对模型微调、可解释性及自动化优化具有深远影响。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 92/100&lt;/p&gt;</description>
-<source url="https://rikiyat.github.io/blog/weight-space-programming/">Hacker News AI</source>
-<category>大模型</category>
-<category>权重优化</category>
-<category>可解释性</category>
-<category>Qwen</category>
-<category>Astra</category>
 </item>
 </channel>
 </rss>
