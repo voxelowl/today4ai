@@ -1,8 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Tue, 03 Nov 2026 23:57:39 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 04 Nov 2026 00:32:54 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Amazon Bedrock Adds India-Based Inference for Kimi K3</title><link>https://aws.amazon.com/blogs/machine-learning/introducing-india-based-inference-for-kimi-k3-on-amazon-bedrock/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/introducing-india-based-inference-for-kimi-k3-on-amazon-bedrock/</guid>
+<pubDate>Wed, 04 Nov 2026 00:32:54 +0800</pubDate>
+<description>&lt;p&gt;Amazon Bedrock introduces in-country inference for the open-weight multimodal model Kimi K3 in India to meet strict data residency requirements. This allows customers to process sensitive local workloads while integrating frontier coding and agentic capabilities via existing APIs.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Amazon Bedrock 上线 Kimi K3 印度本地推理&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;云基础设施对特定区域合规需求的响应，虽具实用价值但缺乏底层技术突破或广泛行业影响。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · compute · signal 45/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/introducing-india-based-inference-for-kimi-k3-on-amazon-bedrock/">AWS Machine Learning Blog</source>
+<category>AWS</category>
+<category>Bedrock</category>
+<category>Kimi K3</category>
+<category>数据驻留</category>
+</item>
+<item><title>Google Ties Search Access to AI Settings for K-12 Schools</title><link>https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/</guid>
+<pubDate>Wed, 04 Nov 2026 00:30:34 +0800</pubDate>
+<description>&lt;p&gt;Google will disable AI tools for K-12 students by default next year unless explicitly enabled by administrators. Because AI features are deeply integrated into the search engine, schools that restrict AI entirely will lose access to Google Search. This bundling strategy has sparked debate over technology dependency and learning autonomy in education.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌调整 K-12 AI 策略 禁用工具将连带屏蔽搜索&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了消费级 AI 产品（如搜索）与垂直场景（教育）在合规与可用性上的深层耦合风险，对政策制定者和家长具有警示意义。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 45/100&lt;/p&gt;</description>
+<source url="https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/">TechCrunch AI</source>
+<category>Google</category>
+<category>K-12 Education</category>
+<category>AI Policy</category>
+<category>Search Integration</category>
+</item>
+<item><title>Qwen 3.8 27B Locally Replicates Weight-Space Programming Capabilities</title><link>https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/</guid>
+<pubDate>Wed, 04 Nov 2026 00:29:48 +0800</pubDate>
+<description>&lt;p&gt;Simon Willison verified that Qwen 3.8 27B running locally on a laptop can perform &amp;#x27;Weight-Space Programming,&amp;#x27; interpreting and modifying raw neural network weights directly from text. This confirms the capability is not exclusive to frontier models like GPT-6 Astra, demonstrating that mid-sized open-source models can also reconstruct or optimize networks without gradient feedback.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Qwen 3.8 27B 本地复现权重空间编程能力&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了 LLM 直接操作模型权重的新范式，且证明了其在本地开源模型上的可行性，具有极高的技术启发意义。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/">Simon Willison 博客</source>
+<category>大模型</category>
+<category>权重空间编程</category>
+<category>本地部署</category>
+<category>Qwen</category>
+<category>AI 研究</category>
+</item>
+<item><title>Google to Disable Search for Schools Rejecting AI</title><link>https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html</link><guid isPermaLink="true">https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html</guid>
+<pubDate>Wed, 04 Nov 2026 00:15:53 +0800</pubDate>
+<description>&lt;p&gt;Google plans to make the adoption of AI tools a prerequisite for schools to use its search services, threatening to disable search functionality for institutions that reject AI. This move signals an escalation in Big Tech&amp;#x27;s strategy to accelerate AI penetration in education through control over infrastructure.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Google 拟对拒绝 AI 的学校关闭搜索服务&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该事件揭示了科技巨头利用核心服务垄断地位强制推广 AI 的商业策略，对教育行业及 AI 普及路径有重要警示意义。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 45/100&lt;/p&gt;</description>
+<source url="https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html">Hacker News AI</source>
+<category>Google</category>
+<category>AI 政策</category>
+<category>教育科技</category>
+<category>商业策略</category>
+</item>
+<item><title>DeepMind Study: Irrelevant Shapes Steer AI Code Logic</title><link>https://x.com/rohanpaul_ai/status/2117651708998484268</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117651708998484268</guid>
+<pubDate>Wed, 04 Nov 2026 00:14:46 +0800</pubDate>
+<description>&lt;p&gt;A new paper from Google DeepMind and Stanford reveals that vision-language models are susceptible to hidden steering by irrelevant geometric shapes in prompts. Experiments showed that adding a red heart image caused Claude Opus 4.7 and GPT-5.4 to shift their recursive solution choice from 0% to 100% on binary tree tasks, while Gemini&amp;#x27;s reasoning traces often failed to flag the visual influence. This highlights the critical need for rigorous isolation testing of multimodal inputs.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;DeepMind 研究：无关图形可操控 AI 代码逻辑&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了 VLM 在多模态场景下的非预期行为偏差，对构建可靠 Agent 具有直接的安全警示意义。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2117651708998484268">Rohan Paul (@rohanpaul_ai)</source>
+<category>大模型</category>
+<category>多模态</category>
+<category>安全对齐</category>
+<category>DeepMind</category>
+</item>
+<item><title>NVIDIA Promotes AI-Defined Fab to Accelerate Semiconductor Manufacturing Decisions</title><link>https://blogs.nvidia.com/blog/ai-semiconductor-fabs/</link><guid isPermaLink="true">https://blogs.nvidia.com/blog/ai-semiconductor-fabs/</guid>
+<pubDate>Wed, 04 Nov 2026 00:00:45 +0800</pubDate>
+<description>&lt;p&gt;NVIDIA publishes marketing content promoting the &amp;#x27;AI-defined fab&amp;#x27; concept, claiming that digital twins, physics-based AI, and agents shorten simulation times and optimize yield. The article serves primarily as a vehicle for NVIDIA&amp;#x27;s semiconductor industry solutions, lacking specific customer case data or independent technical breakthrough details.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;NVIDIA 推广 AI 定义晶圆厂 加速半导体制造决策&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;属于典型的厂商绑定营销软文，虽涉及算力与 AI 结合场景，但无实质新参数或可验证的独家技术进展，注意力价值较低。&lt;/p&gt;&lt;p&gt;NVIDIA Blog · compute · signal 35/100&lt;/p&gt;</description>
+<source url="https://blogs.nvidia.com/blog/ai-semiconductor-fabs/">NVIDIA Blog</source>
+<category>NVIDIA</category>
+<category>半导体制造</category>
+<category>数字孪生</category>
+<category>营销软文</category>
+</item>
 <item><title>IBM Introduces CUGA Agent Framework vs. Hermes and Deep Agents</title><link>https://huggingface.co/blog/ibm-research/cuga-harness</link><guid isPermaLink="true">https://huggingface.co/blog/ibm-research/cuga-harness</guid>
 <pubDate>Tue, 03 Nov 2026 23:57:39 +0800</pubDate>
 <description>&lt;p&gt;IBM Research introduces CUGA, an agent execution framework designed to enhance LLM performance in complex scenarios through optimized task orchestration. The article compares CUGA with existing frameworks like Hermes and Deep Agents on the AppWorld benchmark, releasing evaluation configurations to support community reproduction and competition.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;IBM 发布 CUGA 智能体框架 对比 Hermes 与 Deep Agents&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了新智能体框架的实证对比数据及可复现的评估基准，对开发者选型有直接参考价值。&lt;/p&gt;&lt;p&gt;Hugging Face Blog · agent · signal 68/100&lt;/p&gt;</description>
@@ -54,15 +109,6 @@
 <category>Container Runtime</category>
 <category>Open Source</category>
 <category>Performance</category>
-</item>
-<item><title>Google Ties Search Access to AI Opt-In in K-12 Education Suite</title><link>https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html</link><guid isPermaLink="true">https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html</guid>
-<pubDate>Tue, 03 Nov 2026 23:25:47 +0800</pubDate>
-<description>&lt;p&gt;Google announced that starting next year, AI tools in its K-12 education suite will be disabled by default unless explicitly enabled by administrators. The critical catch is the forced bundling: because AI features are now deeply integrated into Google Search, schools that choose to block AI entirely will also lose access to the search engine. This move aims to address parental concerns about children&amp;#x27;s AI interactions but raises significant questions about tech monopoly and user choice.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌强制捆绑 AI：禁用教育版 AI 将失去搜索权限&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了科技巨头通过底层架构整合（AI+Search）实施强制性捆绑策略的商业动向，对理解 AI 落地中的伦理与权力博弈具有典型意义。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 68/100&lt;/p&gt;</description>
-<source url="https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html">Hacker News AI</source>
-<category>谷歌</category>
-<category>教育科技</category>
-<category>AI治理</category>
-<category>商业策略</category>
 </item>
 <item><title>Apple Earnings Show Record iPhone Revenue Driven by AI Demand</title><link>https://www.theverge.com/ai-artificial-intelligence/1025245/apple-earnings-q4-ai</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1025245/apple-earnings-q4-ai</guid>
 <pubDate>Tue, 03 Nov 2026 23:24:51 +0800</pubDate>
@@ -160,18 +206,27 @@
 <category>客户服务</category>
 <category>用户体验</category>
 </item>
-<item><title>Tao: Mathematicians Hide Research Ideas Fearing AI Preemption</title><link>https://x.com/rohanpaul_ai/status/2117614500753076571</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117614500753076571</guid>
+<item><title>Geek+ Unveils 24/7 Autonomous Smart Warehouse Plan for Embodied AI</title><link>https://www.qbitai.com/2026/11/507507.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/507507.html</guid>
+<pubDate>Tue, 03 Nov 2026 21:57:11 +0800</pubDate>
+<description>&lt;p&gt;Geek+ launched the &amp;#x27;24/7 Autonomous Smart Warehouse Plan&amp;#x27; to leverage embodied AI for full-process automation and continuous evolution in warehousing. The initiative targets bottlenecks like complex picking that rely on human labor, aiming to shift from single-point efficiency gains to autonomous decision-making and exception handling across entire warehouses.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;极智嘉发布 24/7 自主智能仓计划 推动具身 AI 全仓运营&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;虽为行业战略发布，但缺乏具体技术参数、基准测试数据或即时可用的工具接口，主要体现为愿景阐述与商业模式推广。&lt;/p&gt;&lt;p&gt;量子位官网 · agent · signal 42/100&lt;/p&gt;</description>
+<source url="https://www.qbitai.com/2026/11/507507.html">量子位官网</source>
+<category>具身智能</category>
+<category>智能仓储</category>
+<category>极智嘉</category>
+<category>物理AI</category>
+</item>
+<item><title>陶哲轩称数学家因惧 AI 抢发而隐藏研究思路</title><link>https://x.com/rohanpaul_ai/status/2117614500753076571</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117614500753076571</guid>
 <pubDate>Tue, 03 Nov 2026 21:46:55 +0800</pubDate>
-<description>&lt;p&gt;Fields Medalist Terence Tao reports a defensive shift in mathematics: researchers are withholding promising directions to prevent others from using frontier LLMs to generate solutions and claim priority before publication.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;陶哲轩称数学家因惧 AI 抢发而隐藏研究思路&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了 AI 对传统学术开放共享文化的冲击及引发的“抢先发表”焦虑，具有行业观察价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 45/100&lt;/p&gt;</description>
+<description>&lt;p&gt;菲尔兹奖得主陶哲轩指出，数学界正出现一种防御性趋势：研究者不再公开分享有前景的研究方向。这是因为担心他人利用前沿大模型快速生成解决方案，从而在正式发表前抢占学术优先权。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了 AI 对传统学术开放共享文化的冲击及引发的“抢先发表”焦虑，具有行业观察价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 45/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2117614500753076571">Rohan Paul (@rohanpaul_ai)</source>
 <category>AI伦理</category>
 <category>学术界</category>
 <category>陶哲轩</category>
 <category>大模型影响</category>
 </item>
-<item><title>RayNeo Tops JD.com Smart Glasses Rankings During Double 11</title><link>https://www.ithome.com/1/021/819.htm</link><guid isPermaLink="true">https://www.ithome.com/1/021/819.htm</guid>
+<item><title>雷鸟创新登顶京东双 11 智能眼镜多项榜单</title><link>https://www.ithome.com/1/021/819.htm</link><guid isPermaLink="true">https://www.ithome.com/1/021/819.htm</guid>
 <pubDate>Tue, 03 Nov 2026 21:28:26 +0800</pubDate>
-<description>&lt;p&gt;RayNeo secured the top spot in smart glasses and XR device brand rankings on JD.com during Double 11, with its iO waveguide AI glasses and GT Max AR glasses leading their respective single-product categories. Sales of waveguide smart glasses grew over threefold year-on-year, highlighting the accelerating integration of AI and near-eye display technologies in consumer hardware.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;雷鸟创新登顶京东双 11 智能眼镜多项榜单&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;虽为销售战报，但揭示了光波导+AI眼镜这一细分品类的爆发式增长趋势及头部玩家格局。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 35/100&lt;/p&gt;</description>
+<description>&lt;p&gt;雷鸟创新在京东双11期间夺得智能眼镜与XR设备品牌榜首，其光波导AI眼镜iO和AR眼镜GT Max分获单品销量第一。数据显示光波导智能眼镜品类同比增长超3倍，反映出AI与近眼显示技术在消费级硬件中的加速渗透。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;虽为销售战报，但揭示了光波导+AI眼镜这一细分品类的爆发式增长趋势及头部玩家格局。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 35/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/021/819.htm">IT之家 · 智能时代</source>
 <category>智能眼镜</category>
 <category>雷鸟创新</category>
@@ -179,9 +234,9 @@
 <category>光波导</category>
 <category>消费电子</category>
 </item>
-<item><title>Anthropic IPO Filing Warns of Imminent Recursive Self-Improvement Threshold</title><link>https://epyhia.com/anthropic-s-ipo-filing-warns-it-may-be-imminently-close-to-recursive</link><guid isPermaLink="true">https://epyhia.com/anthropic-s-ipo-filing-warns-it-may-be-imminently-close-to-recursive</guid>
+<item><title>Anthropic IPO 文件警示或临近递归自我改进临界点</title><link>https://epyhia.com/anthropic-s-ipo-filing-warns-it-may-be-imminently-close-to-recursive</link><guid isPermaLink="true">https://epyhia.com/anthropic-s-ipo-filing-warns-it-may-be-imminently-close-to-recursive</guid>
 <pubDate>Tue, 03 Nov 2026 21:26:43 +0800</pubDate>
-<description>&lt;p&gt;Anthropic&amp;#x27;s revised S-1A filing discloses that internal estimates suggest future models may &amp;#x27;imminently&amp;#x27; meet the definition of recursive self-improvement (RSI). While current models have not crossed this threshold, the company is considering updates to its Responsible Scaling Policy to maintain human control, a disclosure made amidst its push for a Nasdaq listing.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic IPO 文件警示或临近递归自我改进临界点&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 实验室在 IPO 关键文件中罕见承认接近 RSI 技术奇点，兼具资本与安全风险双重信号。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 85/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 在最新提交的 S-1A 注册文件中披露，其内部评估显示未来模型可能“即将”达到递归自我改进（RSI）的定义标准。尽管当前模型尚未跨越该阈值，但公司正考虑更新负责任扩展政策以确保持续的人类控制，这一声明发生在其推进纳斯达克上市的关键节点。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 实验室在 IPO 关键文件中罕见承认接近 RSI 技术奇点，兼具资本与安全风险双重信号。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 85/100&lt;/p&gt;</description>
 <source url="https://epyhia.com/anthropic-s-ipo-filing-warns-it-may-be-imminently-close-to-recursive">Hacker News AI</source>
 <category>Anthropic</category>
 <category>IPO</category>
@@ -189,84 +244,22 @@
 <category>AI Safety</category>
 <category>Responsible Scaling</category>
 </item>
-<item><title>Nvidia Mandates 51% Non-Chinese Allocation for Cloud Customers</title><link>https://x.com/rohanpaul_ai/status/2117608629939679350</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117608629939679350</guid>
+<item><title>Nvidia 要求云客户将至少 51% 服务分配给非中资企业</title><link>https://x.com/rohanpaul_ai/status/2117608629939679350</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117608629939679350</guid>
 <pubDate>Tue, 03 Nov 2026 21:23:35 +0800</pubDate>
-<description>&lt;p&gt;Nvidia has instructed cloud and data center customers to allocate at least 51% of new contracts to non-Chinese firms and report end-user identities. This move aims to close loopholes in US export controls regarding remote access to advanced chips, further intensifying global scarcity and price volatility for high-end compute resources.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Nvidia 要求云客户将至少 51% 服务分配给非中资企业&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;直接冲击全球 AI 算力供应链格局，揭示巨头如何通过商业条款配合地缘政治限制技术扩散。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Nvidia 向云与数据中心客户发出新规，要求新合同中至少 51% 的服务须面向非中国公司，并需上报芯片最终用户身份。此举旨在封堵通过海外云端租赁绕过美国出口管制的路径，同时加剧了高端算力在全球市场的稀缺性与价格波动。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;直接冲击全球 AI 算力供应链格局，揭示巨头如何通过商业条款配合地缘政治限制技术扩散。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2117608629939679350">Rohan Paul (@rohanpaul_ai)</source>
 <category>Nvidia</category>
 <category>算力基础设施</category>
 <category>出口管制</category>
 <category>云计算</category>
 </item>
-<item><title>China&#x27;s NDRC Monitors AI Impact on Employment as Risk</title><link>https://x.com/rohanpaul_ai/status/2117607523943694450</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117607523943694450</guid>
+<item><title>中国发改委将 AI 就业影响列为监控风险</title><link>https://x.com/rohanpaul_ai/status/2117607523943694450</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117607523943694450</guid>
 <pubDate>Tue, 03 Nov 2026 21:19:11 +0800</pubDate>
-<description>&lt;p&gt;China&amp;#x27;s economic planner has officially categorized AI&amp;#x27;s impact on employment as a monitored risk. This aligns with State Council guidelines requiring mandatory risk assessments for AI projects likely to cause significant job displacement.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;中国发改委将 AI 就业影响列为监控风险&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;反映了监管层对 AI 社会外部性（特别是就业）的关注升级，虽无技术细节但具政策风向标意义。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 45/100&lt;/p&gt;</description>
+<description>&lt;p&gt;中国国家发展和改革委员会已将人工智能对就业的影响纳入风险监控体系。此举配合国务院此前发布的指南，要求对可能引发大规模岗位替代的 AI 项目进行强制性风险评估。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;反映了监管层对 AI 社会外部性（特别是就业）的关注升级，虽无技术细节但具政策风向标意义。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 45/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2117607523943694450">Rohan Paul (@rohanpaul_ai)</source>
 <category>AI 监管</category>
 <category>就业影响</category>
 <category>中国政策</category>
-</item>
-<item><title>MIT Tech Review Explores Reverse Game Theory for Controlling AI Agents</title><link>https://www.technologyreview.com/2026/11/03/1147940/the-download-controlling-ai-agents-trump-super-intelligence/</link><guid isPermaLink="true">https://www.technologyreview.com/2026/11/03/1147940/the-download-controlling-ai-agents-trump-super-intelligence/</guid>
-<pubDate>Tue, 03 Nov 2026 21:10:00 +0800</pubDate>
-<description>&lt;p&gt;The Download newsletter highlights &amp;#x27;reverse game theory,&amp;#x27; a new approach to controlling powerful AI models by designing systems that incentivize rule adherence. Unlike traditional game theory which predicts behavior, this method designs rules to elicit desired outcomes, though its practical effectiveness in alignment remains uncertain.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;MIT Tech Review 探讨反向博弈论控制 AI 智能体&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了关于 AI 智能体控制机制的理论视角，适合关注对齐与安全的研究者参考。&lt;/p&gt;&lt;p&gt;MIT Technology Review · agent · signal 42/100&lt;/p&gt;</description>
-<source url="https://www.technologyreview.com/2026/11/03/1147940/the-download-controlling-ai-agents-trump-super-intelligence/">MIT Technology Review</source>
-<category>AI 安全</category>
-<category>智能体控制</category>
-<category>博弈论</category>
-</item>
-<item><title>高盛上调预测：2030 年全球数据中心容量达 273GW</title><link>https://www.ithome.com/1/021/809.htm</link><guid isPermaLink="true">https://www.ithome.com/1/021/809.htm</guid>
-<pubDate>Tue, 03 Nov 2026 20:58:49 +0800</pubDate>
-<description>&lt;p&gt;高盛发布最新研究报告，将 2030 年全球数据中心容量预测从 217GW 大幅上调至 273GW，预计未来五年需投入约 8.5 万亿美元资本开支。报告指出，Neocloud 等新型云服务商为满足 GPU 算力需求而快速扩张，是推动美国及全球数据中心容量增长的核心动力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该数据量化了 AI 算力基础设施建设的宏观规模与投资强度，为行业提供了关键的容量与资本开支基准。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 68/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/021/809.htm">IT之家 · IT业界</source>
-<category>数据中心</category>
-<category>算力基础设施</category>
-<category>高盛</category>
-<category>GPU</category>
-</item>
-<item><title>Anthropic 推出 Message Threads 长对话首字延迟降 35%</title><link>https://the-decoder.com/anthropics-message-threads-cut-time-to-first-token-by-35-percent-for-long-conversations/</link><guid isPermaLink="true">https://the-decoder.com/anthropics-message-threads-cut-time-to-first-token-by-35-percent-for-long-conversations/</guid>
-<pubDate>Tue, 03 Nov 2026 20:35:49 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 在 Claude 平台公测 Message Threads，通过仅传输增量消息而非完整历史，将长上下文请求的首字生成时间（TTFT）降低约 35%。该功能适用于编码代理和文档处理工作流，支持 AWS、Azure 和 Google Cloud，但总 Token 消耗量保持不变。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;显著优化了长上下文场景下的推理延迟，对构建高性能 Agent 的开发者具有直接实用价值。&lt;/p&gt;&lt;p&gt;The Decoder · tools · signal 78/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/anthropics-message-threads-cut-time-to-first-token-by-35-percent-for-long-conversations/">The Decoder</source>
-<category>Anthropic</category>
-<category>Claude API</category>
-<category>Performance Optimization</category>
-<category>LLM Infrastructure</category>
-</item>
-<item><title>Nvidia 要求云客户减少中国业务以规避出口管制漏洞</title><link>https://the-decoder.com/nvidia-pushes-cloud-customers-to-cut-back-on-china-business/</link><guid isPermaLink="true">https://the-decoder.com/nvidia-pushes-cloud-customers-to-cut-back-on-china-business/</guid>
-<pubDate>Tue, 03 Nov 2026 20:22:12 +0800</pubDate>
-<description>&lt;p&gt;Nvidia 非强制性地建议云服务商减少来自中国企业的新合同，并要求披露终端用户身份。此举旨在填补美国出口管制中关于云端远程访问的监管空白，防止中国公司通过海外数据中心间接获取算力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了芯片巨头在地缘政治合规压力下的具体商业策略调整及其对算力供应链的影响。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 68/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/nvidia-pushes-cloud-customers-to-cut-back-on-china-business/">The Decoder</source>
-<category>Nvidia</category>
-<category>出口管制</category>
-<category>云计算</category>
-<category>地缘政治</category>
-</item>
-<item><title>辟谣：Astra 直接读写权重提升 Qwen 说法存疑</title><link>https://honnibal.dev/blog/astra-read-write-misleading</link><guid isPermaLink="true">https://honnibal.dev/blog/astra-read-write-misleading</guid>
-<pubDate>Tue, 03 Nov 2026 20:21:17 +0800</pubDate>
-<description>&lt;p&gt;针对“Astra 通过直接读写权重显著提升 Qwen 性能”的热门帖子，技术分析指出其实验存在误导性。文章认为该演示类似魔术手法，利用多种不同技巧掩盖单一方法的局限性，并未真正证明模型具备通用的权重空间编程能力。尽管声称能大幅优化数学推理，但其核心机制缺乏严谨验证，属于对 AI 能力的过度解读。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;澄清了关于大模型权重直接编辑能力的夸大宣传，有助于社区理性看待前沿技术边界。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 45/100&lt;/p&gt;</description>
-<source url="https://honnibal.dev/blog/astra-read-write-misleading">Hacker News AI</source>
-<category>大模型</category>
-<category>权重编辑</category>
-<category>技术辟谣</category>
-<category>Qwen</category>
-</item>
-<item><title>TrendForce：2027 AI 网络产值近翻倍</title><link>https://www.ithome.com/1/021/796.htm</link><guid isPermaLink="true">https://www.ithome.com/1/021/796.htm</guid>
-<pubDate>Tue, 03 Nov 2026 20:00:15 +0800</pubDate>
-<description>&lt;p&gt;TrendForce 预测 AI 网络与互连市场将在 2024-2027 年间以 95% 的复合年增长率扩张，2027 年产值达 2798 亿美元。交换机、光模块及 NIC/DPU 构成核心产值来源，其中芯片间高速互连（Scale-up）增速最快，占比将升至 24%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了 AI 基础设施供应链的关键量化预测，明确了高增长细分领域与技术趋势。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 68/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/021/796.htm">IT之家 · 智能时代</source>
-<category>AI 基础设施</category>
-<category>网络互连</category>
-<category>市场预测</category>
-</item>
-<item><title>华为因制裁缺 HBM 引导客户黑市采购 AI 芯片内存</title><link>https://the-decoder.com/huawei-tells-customers-to-find-their-own-ai-chip-memory-effectively-outsourcing-procurement-to-the-black-market/</link><guid isPermaLink="true">https://the-decoder.com/huawei-tells-customers-to-find-their-own-ai-chip-memory-effectively-outsourcing-procurement-to-the-black-market/</guid>
-<pubDate>Tue, 03 Nov 2026 19:47:37 +0800</pubDate>
-<description>&lt;p&gt;受美国制裁影响，华为无法获得足够的 HBM 内存以支持其 AI 芯片生产，转而指导客户通过黑市自行采购。这一短缺催生了利用出口管制漏洞的走私网络，导致 HBM 黑市价格飙升至约 4000 美元，韩国海关查获的非法芯片出口额也创下历史新高。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了地缘政治对 AI 算力供应链的深层冲击及黑市定价机制，对关注硬件基础设施与合规风险的读者具有高参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · compute · signal 78/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/huawei-tells-customers-to-find-their-own-ai-chip-memory-effectively-outsourcing-procurement-to-the-black-market/">The Decoder</source>
-<category>华为</category>
-<category>HBM</category>
-<category>供应链</category>
-<category>制裁</category>
-<category>AI芯片</category>
 </item>
 </channel>
 </rss>
