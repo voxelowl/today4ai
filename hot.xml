@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Tue, 03 Nov 2026 19:16:07 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 03 Nov 2026 21:23:35 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>MIT 推出权重空间编程 Astra 免训练使 Qwen 数学能力跃升六倍</title><link>https://todayforai.com/en/story/story-7028676c-267</link><guid isPermaLink="true">https://todayforai.com/en/story/story-7028676c-267</guid>
 <pubDate>Tue, 03 Nov 2026 13:35:00 +0800</pubDate>
@@ -51,6 +51,14 @@
 
 此次数据跃升对 AI 开发者生态具有深远影响。它意味着推理成本结构正在发生根本性变化，高频、大规模的实时交互成为常态。对于行业而言，这既是机遇也是挑战：一方面证明了生成式 AI 的商业落地能力显著增强；另一方面，也迫使云服务商和芯片厂商加速高性能推理集群的建设，以应对指数级增长的算力缺口。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), OpenRouter (@OpenRouter)&lt;/p&gt;</description>
 </item>
+<item><title>Nvidia 要求云客户限制中资业务以堵出口漏洞</title><link>https://todayforai.com/en/story/story-4d86e6c6-6f6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4d86e6c6-6f6</guid>
+<pubDate>Tue, 03 Nov 2026 21:23:35 +0800</pubDate>
+<description>&lt;p&gt;Nvidia 近期向云服务商与数据中心客户发出新规，旨在封堵通过海外云端租赁绕过美国出口管制的路径。核心举措包括要求新合同中至少 51% 的服务须面向非中国公司，并强制披露芯片最终用户身份。尽管部分信源指出该建议为非强制性且不影响现有合同，但这一动作标志着 Nvidia 正主动配合监管，填补云端远程访问场景下的合规空白。
+
+多方报道交叉验证显示，此举直接回应了此前 Moonshot AI 等案例引发的监管关注。通过增强对硬件流向的监控能力，Nvidia 试图防止中国公司间接获取高端算力。然而，严格的合规要求加剧了全球高端算力的稀缺性，导致 B300 机架在中国市场出现显著溢价，价格高达约 254 万美元，远超国际市场的 60 万美元水平。
+
+这一策略调整不仅重塑了云厂商的客户结构，更深刻影响了全球 AI 基础设施供应链。它表明在出口管制日益收紧的背景下，算力分配正从纯粹的市场行为转向地缘政治合规驱动，进一步推高了全球 AI 开发的门槛与成本。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Decoder, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
+</item>
 <item><title>黑石下调 Anthropic IPO 评级至垃圾级</title><link>https://todayforai.com/en/story/story-63d184e0-706</link><guid isPermaLink="true">https://todayforai.com/en/story/story-63d184e0-706</guid>
 <pubDate>Tue, 03 Nov 2026 19:16:07 +0800</pubDate>
 <description>&lt;p&gt;AI 独角兽 Anthropic 在筹备首次公开募股（IPO）之际，遭遇资本市场重大信任危机。作为其芯片融资的主要投资者，黑石集团（Blackstone）最新内部评估显示，Anthropic 上市后极可能仅获得 BB 级“高收益垃圾级”信用评级，彻底推翻了此前关于其在 2027 年前获取投资级评级的乐观预期。
@@ -74,14 +82,6 @@
 多方信源交叉验证显示，Brave 被指利用实时索引数据向五家主要 AI 企业（包括 Mistral、xAI 和 Cohere）提供付费访问服务以训练模型。原告方强调，出版商无法阻拦这一大规模数据抓取行为，且 Brave 通过替换出版商广告投放自家广告获利。尽管部分 AI 公司回应称诉讼包含虚假信息，但 TechCrunch 指出这是继 OpenAI 和 Perplexity 之后，媒体巨头针对 AI 数据训练来源发起的又一重大法律行动，凸显了数据版权争议的激化态势。
 
 此案标志着 AI 数据合规性博弈进入新阶段，直接冲击依赖非授权数据训练的 AI 产业链上游。若法院下达禁令并判赔，将迫使 AI 公司重新评估数据来源合法性，可能推高高质量语料获取成本。对于浏览器行业而言，这也警示了在隐私保护名义下进行的商业变现需严格界定版权边界，或将重塑出版商与科技平台之间的利益分配格局。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;The Verge AI, TechCrunch AI, IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
-<item><title>Karpathy 用 Claude Opus 两小时构建 HackerTube</title><link>https://todayforai.com/en/story/story-1ba1f40e-299</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1ba1f40e-299</guid>
-<pubDate>Mon, 02 Nov 2026 03:59:35 +0800</pubDate>
-<description>&lt;p&gt;AI 领域知名专家 Andrej Karpathy 利用 Claude Opus 5.5 模型，在约两小时内成功构建并上线了名为 HackerTube 的视频推荐聚合网站。该项目通过自动化工作流扫描了 Hacker News 过去 20 年的海量历史数据，从 4300 万条评论中精准筛选出 6454 个高共识、高质量的技术视频链接，旨在解决主流平台算法推荐带来的信息茧房与低质内容泛滥问题。
-
-多方信源交叉验证显示，Karpathy 采用了“Vibe Coding”模式，以 Claude Opus 5.5 作为核心编码代理处理长上下文数据清洗，并结合 Sonnet 进行辅助过滤。这一端到端的自主执行过程不仅展示了前沿大模型在非结构化数据处理上的强大能力，还体现了 AI Agent 从数据分析到全栈应用部署的高效闭环。项目甚至提供了数据导出功能，允许开发者将结构化数据喂给其他 Agent 以定制个性化版本。
-
-HackerTube 的诞生标志着个人开发者正从被动接受平台算法转向主动利用 AI 工具重构信息获取体验。该案例显著降低了构建垂直领域个性化推荐系统的技术门槛与时间成本，证明了 LLM 能够以极低成本替代传统以成瘾性为目标的推荐逻辑，为去中心化的高质量内容分发提供了新的范式参考。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, Rohan Paul (@rohanpaul_ai), Yuchen Jin (@Yuchenj_UW), Andrej Karpathy (@karpathy)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
