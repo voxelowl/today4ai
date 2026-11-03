@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Wed, 04 Nov 2026 06:41:03 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 04 Nov 2026 06:47:23 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>MIT 推出权重空间编程 Astra 免训练使 Qwen 数学能力跃升六倍</title><link>https://todayforai.com/en/story/story-7028676c-267</link><guid isPermaLink="true">https://todayforai.com/en/story/story-7028676c-267</guid>
 <pubDate>Tue, 03 Nov 2026 13:35:00 +0800</pubDate>
@@ -11,6 +11,14 @@
 
 “权重空间编程”为 AI 自主进化提供了新路径，可能重塑模型迭代与可解释性研究格局。它有望绕过递归自我改进（RSI）中高成本的自动搜索环节，显著降低算力开销。尽管目前结果尚待独立复现且存在局限，但该范式预示未来神经网络将由具备推理能力的 LLM 进行原生优化，而非依赖传统符号优化器。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, Rohan Paul (@rohanpaul_ai), 量子位官网, IT之家 · 智能时代, Latent Space, 宝玉 (@dotey)&lt;/p&gt;</description>
 </item>
+<item><title>谷歌捆绑 AI 与搜索，禁用工具将失去权限</title><link>https://todayforai.com/en/story/story-a7283b3a-2a1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a7283b3a-2a1</guid>
+<pubDate>Wed, 04 Nov 2026 06:47:23 +0800</pubDate>
+<description>&lt;p&gt;谷歌宣布调整 K-12 教育产品策略，将 AI 功能与核心搜索服务深度绑定。明年起，Gemini 等 AI 工具默认关闭，需管理员显式开启；若学校选择完全禁用 AI，学生将无法使用 Google 搜索。这一“二选一”机制迫使教育机构在隐私合规与基础信息获取能力之间做出艰难权衡。
+
+多方信源交叉验证显示，此举源于 AI 技术已底层集成至搜索引擎架构，导致无法单独剥离。尽管谷歌声称该政策旨在回应家长对儿童 AI 交互的管控需求，并赋予教师审查对话记录的权限，但 TechCrunch 与 Ars Technica 指出，这实质上构成了基础设施层面的强制推广。学校面临要么全面启用 AI、要么放弃搜索服务的困境，凸显了平台权力对用户选择权的挤压。
+
+该事件标志着科技巨头在教育领域加速 AI 渗透的策略升级，引发了关于技术垄断与数字主权的行业讨论。通过控制关键基础设施，谷歌正从单纯提供工具转向塑造行业标准，这可能加剧其他平台效仿此类捆绑策略，进一步压缩开发者与用户在生态中的自主空间。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, TechCrunch AI, The Verge AI, Ars Technica AI, IT之家 · IT业界&lt;/p&gt;</description>
+</item>
 <item><title>Anthropic 披露 AI 承担 26% 研发任务逼近自我改进</title><link>https://todayforai.com/en/story/story-72ed5e78-962</link><guid isPermaLink="true">https://todayforai.com/en/story/story-72ed5e78-962</guid>
 <pubDate>Tue, 03 Nov 2026 21:26:43 +0800</pubDate>
 <description>&lt;p&gt;Anthropic 在最新提交的 S-1A 上市文件中正式披露，其内部评估显示下一代模型可能即将达到“递归自我改进”（RSI）的安全阈值。核心数据显示，截至 8 月，AI 已自动完成 Anthropic 下一代模型构建流程中 26% 的任务，且 Claude 的使用量在 8 个月内激增超 250 倍，月价值已超过人力成本。这一事实标志着头部实验室正实质性推进“用 AI 造 AI”的内部自动化闭环。
@@ -18,14 +26,6 @@
 多方信源交叉验证指出，Anthropic 将 RSI 定义为 AI 能力提升速度达到无辅助下最快进步速度的 2 倍。公司承认在利用 AI 加速研发时，曾出现团队未察觉的能力跃升现象，这导致安全对齐与验证的速度可能滞后于能力发展。尽管当前模型尚未跨越该红线，但招股书同时揭示了巨大的财务压力：Q3 营收同比暴增 1127% 至 170 亿美元，但算力采购账单高达 8954 亿美元，净亏损扩大，凸显了基础设施成本与安全治理的双重挑战。
 
 此次披露将 AI 安全边界问题直接引入资本市场定价视野，迫使投资者重新评估前沿模型开发的失控风险。Anthropic 承诺修订《负责任扩展政策》以强化人类监督，但这表明 RSI 已从理论概念转化为具体的工程风险。随着 AI 深度参与核心训练管线，行业需建立更严格的治理机制，以应对指数级能力加速带来的潜在失控隐患。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;量子位官网, TechCrunch AI, Rohan Paul (@rohanpaul_ai), IT之家 · 智能时代, Hacker News AI&lt;/p&gt;</description>
-</item>
-<item><title>谷歌捆绑 AI 与搜索，禁用工具将失去权限</title><link>https://todayforai.com/en/story/story-a7283b3a-2a1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a7283b3a-2a1</guid>
-<pubDate>Wed, 04 Nov 2026 01:54:43 +0800</pubDate>
-<description>&lt;p&gt;谷歌宣布调整 K-12 教育产品策略，将 AI 功能与核心搜索服务深度绑定。明年起，Gemini 等 AI 工具默认关闭，需管理员显式开启；若学校选择完全禁用 AI，学生将无法使用 Google 搜索。这一“二选一”机制迫使教育机构在隐私合规与基础信息获取能力之间做出艰难权衡。
-
-多方信源交叉验证显示，此举源于 AI 技术已底层集成至搜索引擎架构，导致无法单独剥离。尽管谷歌声称该政策旨在回应家长对儿童 AI 交互的管控需求，并赋予教师审查对话记录的权限，但 TechCrunch 与 Ars Technica 指出，这实质上构成了基础设施层面的强制推广。学校面临要么全面启用 AI、要么放弃搜索服务的困境，凸显了平台权力对用户选择权的挤压。
-
-该事件标志着科技巨头在教育领域加速 AI 渗透的策略升级，引发了关于技术垄断与数字主权的行业讨论。通过控制关键基础设施，谷歌正从单纯提供工具转向塑造行业标准，这可能加剧其他平台效仿此类捆绑策略，进一步压缩开发者与用户在生态中的自主空间。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, TechCrunch AI, The Verge AI, Ars Technica AI&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 自研 Pando 后端支撑 Codex 并发开发</title><link>https://todayforai.com/en/story/story-f3c8341e-044</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f3c8341e-044</guid>
 <pubDate>Tue, 03 Nov 2026 13:54:14 +0800</pubDate>
@@ -59,14 +59,6 @@
 
 这一进展对 AI 生态具有深远意义，它降低了高级神经架构搜索（NAS）和模型优化的硬件门槛。开发者可在本地低成本环境下探索新型网络结构，加速算法迭代，并推动开源社区在模型可解释性与自动化设计领域的深入研究。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Simon Willison 博客, Hacker News AI&lt;/p&gt;</description>
 </item>
-<item><title>Anthropic 开源 FlashProve 实现 AI 模型溯源验证</title><link>https://todayforai.com/en/story/story-be67363e-457</link><guid isPermaLink="true">https://todayforai.com/en/story/story-be67363e-457</guid>
-<pubDate>Wed, 04 Nov 2026 06:41:03 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 正式开源了名为 FlashProve 的密码学工具，旨在通过数学证明解决 AI 服务中的“模型偷换”信任危机。该工具允许服务器生成可验证的证明，确保用户收到的响应确实由指定的大语言模型生成，而非被中间商静默替换为廉价或降级版本。这一突破将 AI 推理的可信度从依赖厂商信誉提升至基于密码学的硬性保证。
-
-在技术性能与安全层面，FlashProve 展现了极高的实用价值。实测数据显示，在 Llama 4 Maverick 模型上，单张 H100 GPU 生成证明的速度可达 110 tokens/秒，而普通 CPU 仅需约 17 秒即可完成验证，大幅降低了部署门槛。此外，鉴于底层代码审计的难度，Anthropic 已使用 Lean 4 证明辅助语言对其核心安全保证完成了形式化验证，确保了逻辑上的严密性与抗攻击能力。
-
-尽管目前 FlashProve 仍处于中间研究阶段且尚未在生产环境大规模部署，但其发布标志着“可验证推理”成为行业新标准。它将迫使 AI 服务商在透明度上做出更多承诺，有效遏制虚报性能基准的行为，并为开发者构建更可信、透明的 AI 应用生态提供了关键基础设施。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), TechCrunch AI&lt;/p&gt;</description>
-</item>
 <item><title>OpenAI 发布 LifeVal 基准 GPT-6 日常任务得分超八成</title><link>https://todayforai.com/en/story/story-aa28c8fe-dff</link><guid isPermaLink="true">https://todayforai.com/en/story/story-aa28c8fe-dff</guid>
 <pubDate>Tue, 03 Nov 2026 09:54:54 +0800</pubDate>
 <description>&lt;p&gt;OpenAI 正式推出名为 LifeVal 的新评估基准，旨在衡量 AI 模型在育儿、财务、政务等真实生活场景中执行“可交付”任务的能力。测试数据显示，GPT-6 Astra 在该基准上的任务完成度达到 80.6%，较九个月前 GPT-5.2 的 49.3% 实现了显著跃升，标志着大模型从单纯的信息生成向实际事务处理能力的重大跨越。
@@ -74,6 +66,14 @@
 该基准的设计源于对近 4000 名 ChatGPT 用户反馈及大规模时间使用调查的深度分析，覆盖照护、健康、教育等七大高频场景。与以往侧重聊天回复质量的评测不同，LifeVal 强调结合个人处境整合多方信息，推动任务推进至“可执行”状态。然而，目前 LifeVal 仍为 OpenAI 内部评估工具，未公开完整数据集与复现代码，外部难以独立验证其榜单成绩，高分结果需谨慎解读。
 
 这一进展凸显了 AI 助手向全能型个人助理演进的行业趋势，反映了用户对自动化处理生活琐事的最迫切需求。尽管缺乏公开透明度限制了学术界的即时跟进，但 GPT-6 在日常任务执行上的突破，预示着 AI 将在提升人类生活效率方面发挥更实质性的作用，同时也引发了关于评估标准客观性与行业透明度的讨论。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;OpenAI 官方博客, Rohan Paul (@rohanpaul_ai), IT之家 · 智能时代&lt;/p&gt;</description>
+</item>
+<item><title>Anthropic 开源 FlashProve 实现 AI 模型溯源验证</title><link>https://todayforai.com/en/story/story-be67363e-457</link><guid isPermaLink="true">https://todayforai.com/en/story/story-be67363e-457</guid>
+<pubDate>Wed, 04 Nov 2026 06:41:03 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 正式开源了名为 FlashProve 的密码学工具，旨在通过数学证明解决 AI 服务中的“模型偷换”信任危机。该工具允许服务器生成可验证的证明，确保用户收到的响应确实由指定的大语言模型生成，而非被中间商静默替换为廉价或降级版本。这一突破将 AI 推理的可信度从依赖厂商信誉提升至基于密码学的硬性保证。
+
+在技术性能与安全层面，FlashProve 展现了极高的实用价值。实测数据显示，在 Llama 4 Maverick 模型上，单张 H100 GPU 生成证明的速度可达 110 tokens/秒，而普通 CPU 仅需约 17 秒即可完成验证，大幅降低了部署门槛。此外，鉴于底层代码审计的难度，Anthropic 已使用 Lean 4 证明辅助语言对其核心安全保证完成了形式化验证，确保了逻辑上的严密性与抗攻击能力。
+
+尽管目前 FlashProve 仍处于中间研究阶段且尚未在生产环境大规模部署，但其发布标志着“可验证推理”成为行业新标准。它将迫使 AI 服务商在透明度上做出更多承诺，有效遏制虚报性能基准的行为，并为开发者构建更可信、透明的 AI 应用生态提供了关键基础设施。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), TechCrunch AI&lt;/p&gt;</description>
 </item>
 <item><title>OpenRouter 年处理量破千万亿 Token 增速翻倍周期缩至 10.5 周</title><link>https://todayforai.com/en/story/story-1a8164b4-2da</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1a8164b4-2da</guid>
 <pubDate>Tue, 03 Nov 2026 04:37:56 +0800</pubDate>
