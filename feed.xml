@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Tue, 03 Nov 2026 08:36:40 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 03 Nov 2026 09:29:43 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Unitree Seeks Global Partnerships to Advance Robot Brain Tech</title><link>https://www.ithome.com/1/021/325.htm</link><guid isPermaLink="true">https://www.ithome.com/1/021/325.htm</guid>
+<pubDate>Tue, 03 Nov 2026 09:29:43 +0800</pubDate>
+<description>&lt;p&gt;Unitree founder Wang Xingxing announced a strategic focus on developing &amp;#x27;robot brain&amp;#x27; technology and seeking global partnerships for Physical AI breakthroughs. The company has previously outlined plans for mass production, proprietary small models, and large-scale computing clusters, reporting a 270% year-over-year increase in net profit.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;宇树科技拟全球合作攻克机器人大脑技术&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部具身智能厂商披露核心战略转向与财务表现，反映行业从硬件向算法/大脑演进的趋势。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/021/325.htm">IT之家 · 智能时代</source>
+<category>宇树科技</category>
+<category>具身智能</category>
+<category>机器人</category>
+<category>商业动态</category>
+</item>
 <item><title>OpenAI Launches &#x27;Grid Protectors&#x27; to Cut Data Center Power During Grid Overload</title><link>https://x.com/rohanpaul_ai/status/2117415628516769919</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117415628516769919</guid>
 <pubDate>Tue, 03 Nov 2026 08:36:40 +0800</pubDate>
 <description>&lt;p&gt;OpenAI has launched the &amp;#x27;Grid Protectors&amp;#x27; program, allowing utilities to remotely reduce data center power consumption during grid peaks. The first agreement with Georgia Power enables cutting up to 1,000MW from the Effingham County campus during demand surges, prioritizing residential supply. This initiative aims to mitigate growing community opposition to data centers while ensuring stable operation of large-scale compute infrastructure.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 推出 Grid Protectors 计划 承诺在电网过载时削减数据中心功耗&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该事件标志着 AI 算力扩张与公共电网稳定性之间博弈进入制度化协调阶段，对关注基础设施可持续性的读者具有较高参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 68/100&lt;/p&gt;</description>
@@ -222,9 +231,9 @@
 <category>算力成本</category>
 <category>基础设施</category>
 </item>
-<item><title>Cohere Paper Validates Speculative Decoding for Low-Batch MoE Models</title><link>https://x.com/rohanpaul_ai/status/2117365776282001748</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117365776282001748</guid>
+<item><title>Cohere 论文证实投机解码在 MoE 模型低批次下显著提速</title><link>https://x.com/rohanpaul_ai/status/2117365776282001748</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117365776282001748</guid>
 <pubDate>Tue, 03 Nov 2026 05:18:34 +0800</pubDate>
-<description>&lt;p&gt;A new Cohere paper challenges the assumption that speculative decoding yields minimal gains for Mixture-of-Experts (MoE) models at low batch sizes. The study reveals that adjacent tokens share 20-45% of their experts—far exceeding theoretical predictions—making verification steps highly efficient. On models like Qwen3-235B, verification runs at 89% of normal decoding speed, offering a viable optimization path for agent workloads.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Cohere 论文证实投机解码在 MoE 模型低批次下显著提速&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究纠正了 MoE 架构下的推理优化盲区，对降低大模型服务成本具有直接工程价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Cohere 最新研究推翻了“投机解码在混合专家（MoE）模型小批次场景收益有限”的传统观点。实验表明，相邻 Token 的专家路由重合度高达 20%-45%，远超理论预期，使得验证步骤开销极低。在 Qwen3-235B 等模型上，验证速度可达正常解码的 89%，为智能体工作负载提供了高效的推理优化方案。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究纠正了 MoE 架构下的推理优化盲区，对降低大模型服务成本具有直接工程价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2117365776282001748">Rohan Paul (@rohanpaul_ai)</source>
 <category>MoE</category>
 <category>Speculative Decoding</category>
@@ -265,16 +274,6 @@
 <category>权重编辑</category>
 <category>模型优化</category>
 <category>前沿研究</category>
-</item>
-<item><title>MIT 提出权重空间编程 GPT-6 Astra 免训练提升模型性能</title><link>https://x.com/rohanpaul_ai/status/2117350399271371113</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117350399271371113</guid>
-<pubDate>Tue, 03 Nov 2026 04:17:28 +0800</pubDate>
-<description>&lt;p&gt;MIT 研究人员展示了“权重空间编程”新范式，利用前沿大模型 GPT-6 Astra 直接编辑其他 AI 模型的权重参数。该方法无需梯度下降或传统训练，仅修改 0.016% 的权重即可修复 Qwen3.5-0.8B 的推理循环缺陷，使其在 MATH-500 基准上的准确率从 7.9% 飙升至 48.1%，实现了近 6 倍的性能跃升。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究突破了传统微调限制，证明了大模型具备直接读写神经网络权重的能力，为模型优化和自动化工程提供了极具潜力的新路径。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 92/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2117350399271371113">Rohan Paul (@rohanpaul_ai)</source>
-<category>MIT</category>
-<category>GPT-6</category>
-<category>Qwen</category>
-<category>权重编辑</category>
-<category>模型优化</category>
 </item>
 </channel>
 </rss>
