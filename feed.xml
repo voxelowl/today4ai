@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Wed, 04 Nov 2026 02:42:16 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 04 Nov 2026 03:02:36 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>LangSmith BYOC Now Available on AWS, Azure, and Google Cloud</title><link>https://www.langchain.com/blog/langsmith-byoc-aws-gc-azure</link><guid isPermaLink="true">https://www.langchain.com/blog/langsmith-byoc-aws-gc-azure</guid>
+<pubDate>Wed, 04 Nov 2026 03:02:36 +0800</pubDate>
+<description>&lt;p&gt;LangSmith launches its Bring Your Own Cloud (BYOC) mode, supporting deployment on AWS, Azure, and Google Cloud. This architecture separates the control plane from the data plane, allowing users to retain full ownership of traces, evals, and agent data while LangChain manages the underlying infrastructure operations.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;LangSmith BYOC 上线 AWS Azure GCP&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;对于关注数据隐私和企业级 AI 应用架构的开发者具有实用价值，但属于特定厂商产品的功能扩展。&lt;/p&gt;&lt;p&gt;LangChain Blog · tools · signal 45/100&lt;/p&gt;</description>
+<source url="https://www.langchain.com/blog/langsmith-byoc-aws-gc-azure">LangChain Blog</source>
+<category>LangSmith</category>
+<category>BYOC</category>
+<category>Cloud Infrastructure</category>
+<category>Data Privacy</category>
+</item>
 <item><title>Netflix Launches AI Discover Tab for Mood-Based Recommendations</title><link>https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/</guid>
 <pubDate>Wed, 04 Nov 2026 02:42:16 +0800</pubDate>
 <description>&lt;p&gt;Netflix has introduced the &amp;#x27;AI Discover&amp;#x27; tab, leveraging a new real-time intelligence layer to provide personalized content recommendations based on user mood, available time, and preferences. The feature aims to replace endless scrolling with thematic browsing (e.g., &amp;#x27;something light&amp;#x27; or &amp;#x27;scare me&amp;#x27;) and is currently in limited rollout for English-speaking users on supported TVs in the U.S.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Netflix 上线 AI Discover 标签页 支持基于心情的个性化推荐&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了大模型在消费级流媒体场景中从搜索向意图驱动推荐的落地应用，但属于常规产品迭代且技术细节披露有限。&lt;/p&gt;&lt;p&gt;TechCrunch AI · tools · signal 42/100&lt;/p&gt;</description>
@@ -37,6 +46,14 @@
 <category>大模型</category>
 <category>AI 安全</category>
 <category>陶哲轩</category>
+</item>
+<item><title>AI Power User Review: Claude Code Dominates Coding and Personal Policies Rise</title><link>https://ben.stolovitz.com/posts/how-use-ai-oct-2026/</link><guid isPermaLink="true">https://ben.stolovitz.com/posts/how-use-ai-oct-2026/</guid>
+<pubDate>Wed, 04 Nov 2026 02:11:11 +0800</pubDate>
+<description>&lt;p&gt;A Salesforce research engineer published a 2026 annual review of AI usage habits, noting a shift from OpenAI dependency to a workflow centered on Claude Code. The article highlights the emerging trend of &amp;#x27;personal AI policies&amp;#x27; and reveals a high monthly token cost of ~$3,000, reflecting deep reliance on specific toolchains among top developers.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 重度用户年度复盘：Claude Code 主导编码与个人 AI 政策兴起&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;虽为个人经验分享，但提供了关于头部开发者工具偏好转移（OpenAI 至 Anthropic）及高昂算力成本的真实数据参考。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 35/100&lt;/p&gt;</description>
+<source url="https://ben.stolovitz.com/posts/how-use-ai-oct-2026/">Hacker News AI</source>
+<category>AI 工作流</category>
+<category>Claude Code</category>
+<category>开发者体验</category>
 </item>
 <item><title>NVIDIA Promotes AI-Defined Fab with Up to 35x Simulation Speedup</title><link>https://www.ithome.com/1/021/857.htm</link><guid isPermaLink="true">https://www.ithome.com/1/021/857.htm</guid>
 <pubDate>Wed, 04 Nov 2026 02:11:03 +0800</pubDate>
@@ -90,6 +107,14 @@
 <category>Education</category>
 <category>Policy</category>
 <category>Bundling</category>
+</item>
+<item><title>Stagehand Team Shares Browser Agent Tool Optimization Practices</title><link>https://www.langchain.com/blog/how-we-optimized-browser-use-for-deep-agents</link><guid isPermaLink="true">https://www.langchain.com/blog/how-we-optimized-browser-use-for-deep-agents</guid>
+<pubDate>Wed, 04 Nov 2026 01:43:22 +0800</pubDate>
+<description>&lt;p&gt;The Stagehand team details their toolchain optimizations for browser usage in deep agents. The article emphasizes reducing execution costs by tracing agent behavior, iteratively updating the test harness, and validating with evals, rather than relying solely on model capabilities. This practice offers engineering references for building efficient autonomous web-operating agents.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Stagehand 团队分享浏览器智能体工具优化实践&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了智能体浏览器交互优化的具体工程方法论，对开发者有实际参考价值。&lt;/p&gt;&lt;p&gt;LangChain Blog · agent · signal 45/100&lt;/p&gt;</description>
+<source url="https://www.langchain.com/blog/how-we-optimized-browser-use-for-deep-agents">LangChain Blog</source>
+<category>智能体</category>
+<category>浏览器自动化</category>
+<category>工程实践</category>
 </item>
 <item><title>Atypica Launches AI Moderator for Hour-Long Live Video Interviews</title><link>https://x.com/rohanpaul_ai/status/2117673331994607687</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117673331994607687</guid>
 <pubDate>Wed, 04 Nov 2026 01:40:41 +0800</pubDate>
@@ -198,27 +223,27 @@
 <category>Data Integration</category>
 <category>AI Agent</category>
 </item>
-<item><title>Bedrock AgentCore Enables OBO Token Exchange for ServiceNow</title><link>https://aws.amazon.com/blogs/machine-learning/servicenow-on-behalf-of-token-exchange-with-bedrock-agentcore-gateway/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/servicenow-on-behalf-of-token-exchange-with-bedrock-agentcore-gateway/</guid>
+<item><title>Bedrock AgentCore 实现 ServiceNow OBO 令牌交换</title><link>https://aws.amazon.com/blogs/machine-learning/servicenow-on-behalf-of-token-exchange-with-bedrock-agentcore-gateway/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/servicenow-on-behalf-of-token-exchange-with-bedrock-agentcore-gateway/</guid>
 <pubDate>Wed, 04 Nov 2026 00:47:40 +0800</pubDate>
-<description>&lt;p&gt;Amazon Bedrock AgentCore Gateway supports On-Behalf-Of (OBO) token exchange via Microsoft Entra ID, allowing AI agents to preserve user identity when calling ServiceNow APIs. This solution addresses audit trail and access control issues in enterprise agents and applies to other OAuth-protected REST APIs.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Bedrock AgentCore 实现 ServiceNow OBO 令牌交换&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了企业级 AI 代理身份透传的具体工程实践，但属于特定厂商组合的配置教程，通用性受限。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 35/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Amazon Bedrock AgentCore Gateway 支持通过 Microsoft Entra ID 进行 On-Behalf-Of (OBO) 令牌交换，使 AI 代理在调用 ServiceNow API 时保留用户身份。该方案解决了企业级代理中的审计追踪与权限控制问题，并适用于其他 OAuth 保护的 REST API。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了企业级 AI 代理身份透传的具体工程实践，但属于特定厂商组合的配置教程，通用性受限。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 35/100&lt;/p&gt;</description>
 <source url="https://aws.amazon.com/blogs/machine-learning/servicenow-on-behalf-of-token-exchange-with-bedrock-agentcore-gateway/">AWS Machine Learning Blog</source>
 <category>AI Agent</category>
 <category>Identity Management</category>
 <category>AWS Bedrock</category>
 <category>OAuth</category>
 </item>
-<item><title>Stringman: $800 Open-Source Room-Scale Cable-Driven Gripper Robot</title><link>https://neufangled.com/</link><guid isPermaLink="true">https://neufangled.com/</guid>
+<item><title>Stringman 开源发布：$800 房间级线驱抓取机器人</title><link>https://neufangled.com/</link><guid isPermaLink="true">https://neufangled.com/</guid>
 <pubDate>Wed, 04 Nov 2026 00:47:29 +0800</pubDate>
-<description>&lt;p&gt;Developer releases Stringman, an $800 open-source room-scale cable-driven robot. Using four ceiling-mounted motors to drive a gripper in a 7x7x3m space, it achieves a 1.9kg average payload, outperforming traditional arms at similar cost. The project provides full CAD files, firmware, and control algorithms for customization.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Stringman 开源发布：$800 房间级线驱抓取机器人&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以极低硬件成本突破传统机械臂负载瓶颈，且具备完整的开源工程落地价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;开发者发布了名为 Stringman 的开源房间级线驱机器人，售价仅 800 美元。该方案利用天花板四角锚点与 4 个电机驱动末端执行器，在 7×7×3 米空间内实现平均 1.9kg 的有效载荷，显著优于同成本传统机械臂。项目提供完整 CAD 文件、固件及控制算法，支持用户自定义外观与参数。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以极低硬件成本突破传统机械臂负载瓶颈，且具备完整的开源工程落地价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 78/100&lt;/p&gt;</description>
 <source url="https://neufangled.com/">Hacker News AI</source>
 <category>开源硬件</category>
 <category>机器人</category>
 <category>线驱结构</category>
 <category>低成本自动化</category>
 </item>
-<item><title>GitBook Breached by AI Agent Attack Causing Outage</title><link>https://news.ycombinator.com/item?id=50354336</link><guid isPermaLink="true">https://news.ycombinator.com/item?id=50354336</guid>
+<item><title>GitBook 遭 AI 智能体攻击致服务中断</title><link>https://news.ycombinator.com/item?id=50354336</link><guid isPermaLink="true">https://news.ycombinator.com/item?id=50354336</guid>
 <pubDate>Wed, 04 Nov 2026 00:45:49 +0800</pubDate>
-<description>&lt;p&gt;Documentation platform GitBook disclosed a targeted cyberattack orchestrated by AI agents, resulting in infrastructure credential leaks and service outages. The attackers may have accessed Git sync secrets, API tokens, and user interactions with the assistant; all credentials have been reset and services restored.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;GitBook 遭 AI 智能体攻击致服务中断&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首例明确归因于“AI 智能体”的大规模 SaaS 安全事件，对开发者工具链安全具有警示意义。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 68/100&lt;/p&gt;</description>
+<description>&lt;p&gt;文档平台 GitBook 披露遭受由 AI 智能体发起的针对性网络攻击，导致基础设施凭证泄露及服务短暂离线。攻击者可能访问了 Git 同步密钥、API 令牌及用户与助手交互数据，官方已重置所有凭证并恢复服务。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首例明确归因于“AI 智能体”的大规模 SaaS 安全事件，对开发者工具链安全具有警示意义。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 68/100&lt;/p&gt;</description>
 <source url="https://news.ycombinator.com/item?id=50354336">Hacker News AI</source>
 <category>网络安全</category>
 <category>GitBook</category>
@@ -243,34 +268,6 @@
 <category>AWS</category>
 <category>Cartesia</category>
 <category>低延迟</category>
-</item>
-<item><title>IBM 开源 Palette 小模型 定制企业风格 PPT 生成</title><link>https://huggingface.co/blog/ibm-research/palette-deck-building</link><guid isPermaLink="true">https://huggingface.co/blog/ibm-research/palette-deck-building</guid>
-<pubDate>Wed, 04 Nov 2026 00:35:36 +0800</pubDate>
-<description>&lt;p&gt;IBM Research 推出 Palette，一种基于开源权重的小语言模型，专门用于在本地基础设施上生成符合特定企业设计语言的演示文稿。该方案旨在解决前沿大模型输出风格同质化及数据隐私泄露问题，通过“先构建检查器”和“安全修复机制”确保输出质量与指令遵循度。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了利用小模型解决大模型风格漂移和数据隐私问题的具体工程范式，对注重私有化部署的企业开发者具有较高参考价值。&lt;/p&gt;&lt;p&gt;Hugging Face Blog · tools · signal 68/100&lt;/p&gt;</description>
-<source url="https://huggingface.co/blog/ibm-research/palette-deck-building">Hugging Face Blog</source>
-<category>IBM</category>
-<category>Hugging Face</category>
-<category>Small Language Models</category>
-<category>Enterprise AI</category>
-<category>Presentation Generation</category>
-</item>
-<item><title>Amazon Bedrock 上线 Kimi K3 印度本地推理</title><link>https://aws.amazon.com/blogs/machine-learning/introducing-india-based-inference-for-kimi-k3-on-amazon-bedrock/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/introducing-india-based-inference-for-kimi-k3-on-amazon-bedrock/</guid>
-<pubDate>Wed, 04 Nov 2026 00:32:54 +0800</pubDate>
-<description>&lt;p&gt;Amazon Bedrock 为开源多模态模型 Kimi K3 新增印度境内推理选项，旨在满足严格的数据驻留合规要求。该功能允许客户在本地处理敏感数据，同时通过 API 无缝集成前沿编码与智能体能力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;云基础设施对特定区域合规需求的响应，虽具实用价值但缺乏底层技术突破或广泛行业影响。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · compute · signal 45/100&lt;/p&gt;</description>
-<source url="https://aws.amazon.com/blogs/machine-learning/introducing-india-based-inference-for-kimi-k3-on-amazon-bedrock/">AWS Machine Learning Blog</source>
-<category>AWS</category>
-<category>Bedrock</category>
-<category>Kimi K3</category>
-<category>数据驻留</category>
-</item>
-<item><title>谷歌调整 K-12 AI 策略 禁用工具将连带屏蔽搜索</title><link>https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/</guid>
-<pubDate>Wed, 04 Nov 2026 00:30:34 +0800</pubDate>
-<description>&lt;p&gt;谷歌宣布明年起默认关闭 K-12 学生的 AI 工具，需管理员显式开启。由于 AI 功能已深度集成至搜索引擎，学校若选择完全禁用 AI，学生将无法使用 Google 搜索。这一“捆绑”策略引发了教育界关于技术依赖与学习自主性的争议。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了消费级 AI 产品（如搜索）与垂直场景（教育）在合规与可用性上的深层耦合风险，对政策制定者和家长具有警示意义。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 45/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/">TechCrunch AI</source>
-<category>Google</category>
-<category>K-12 Education</category>
-<category>AI Policy</category>
-<category>Search Integration</category>
 </item>
 </channel>
 </rss>
