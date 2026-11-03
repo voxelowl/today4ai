@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Tue, 03 Nov 2026 12:37:29 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 03 Nov 2026 13:09:27 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>AI Code Volume Breaks Git: OpenAI and Anthropic Build Custom Backends</title><link>https://x.com/dotey/status/2117484277277286623</link><guid isPermaLink="true">https://x.com/dotey/status/2117484277277286623</guid>
+<pubDate>Tue, 03 Nov 2026 13:09:27 +0800</pubDate>
+<description>&lt;p&gt;To address Git server bottlenecks caused by massive code commits from AI agents, OpenAI developed Pando to optimize existing Git infrastructure, while Anthropic built a new system called Scion. Pando reduced push latency by ~80%, whereas Scion cut CI fetch times from minutes to seconds with significantly lower resource usage. Both solutions target giant monorepos and are currently internal or shared as design concepts.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 代码量激增致 Git 瓶颈，OpenAI 与 Anthropic 分别自研后端系统&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了 AI 规模化应用对底层开发基础设施带来的真实压力及头部厂商的差异化应对策略，具有极高的工程参考价值。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · tools · signal 85/100&lt;/p&gt;</description>
+<source url="https://x.com/dotey/status/2117484277277286623">宝玉 (@dotey)</source>
+<category>Git</category>
+<category>Infrastructure</category>
+<category>OpenAI</category>
+<category>Anthropic</category>
+<category>DevOps</category>
+</item>
 <item><title>Joe Tsai: Qwen Open-Sourced 470+ Models to Drive AI Adoption</title><link>https://www.ithome.com/1/021/495.htm</link><guid isPermaLink="true">https://www.ithome.com/1/021/495.htm</guid>
 <pubDate>Tue, 03 Nov 2026 12:37:29 +0800</pubDate>
 <description>&lt;p&gt;Alibaba Chairman Joe Tsai stated at the World Internet Conference that \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;蔡崇信乌镇演讲：千问开源超 470 款，主张开源普及 AI&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;包含千问开源生态的具体量化数据（470+模型/40亿下载），但核心观点多为既有战略的重复阐述，缺乏技术或产品层面的新实质增量。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · opensource · signal 42/100&lt;/p&gt;</description>
@@ -158,18 +168,18 @@
 <category>ChatGPT Work</category>
 <category>Product Update</category>
 </item>
-<item><title>Meta Says US Supply Chain Limits Fourier Robot Partnership; No Sales Plans for Prototype</title><link>https://www.ithome.com/1/021/339.htm</link><guid isPermaLink="true">https://www.ithome.com/1/021/339.htm</guid>
+<item><title>Meta 回应傅利叶合作：因美供应链受限，人形机器人原型暂不出售</title><link>https://www.ithome.com/1/021/339.htm</link><guid isPermaLink="true">https://www.ithome.com/1/021/339.htm</guid>
 <pubDate>Tue, 03 Nov 2026 10:04:03 +0800</pubDate>
-<description>&lt;p&gt;Meta confirmed its partnership with Chinese firm Fourier to develop the &amp;#x27;Max&amp;#x27; humanoid robot prototype as a physical embodiment of its Muse AI model. Citing difficulties in sourcing components within the US supply chain, Meta stated the project is strictly for internal research with no plans for commercial sales, while development on a second-generation prototype has already begun.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 回应傅利叶合作：因美供应链受限，人形机器人原型暂不出售&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了科技巨头在人形机器人领域受地缘政治与供应链制约的现实，以及其当前仍停留在内部实验阶段的战略定位。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 45/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Meta 证实与中国企业傅利叶合作开发名为 Max 的人形机器人原型，旨在作为 Muse AI 模型的物理化身。由于美国国内难以获取关键组件，双方目前仅聚焦内部研究，暂无出售计划，且已启动第二代原型研发。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了科技巨头在人形机器人领域受地缘政治与供应链制约的现实，以及其当前仍停留在内部实验阶段的战略定位。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 45/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/021/339.htm">IT之家 · 智能时代</source>
 <category>人形机器人</category>
 <category>供应链</category>
 <category>Meta</category>
 <category>傅利叶</category>
 </item>
-<item><title>MIT Proposes Weight-Space Programming: LLMs Directly Edit Model Weights to Boost Math Skills</title><link>https://www.ithome.com/1/021/337.htm</link><guid isPermaLink="true">https://www.ithome.com/1/021/337.htm</guid>
+<item><title>MIT 提出权重空间编程：LLM 直接修改模型权重提升数学能力</title><link>https://www.ithome.com/1/021/337.htm</link><guid isPermaLink="true">https://www.ithome.com/1/021/337.htm</guid>
 <pubDate>Tue, 03 Nov 2026 10:00:55 +0800</pubDate>
-<description>&lt;p&gt;MIT CSAIL researchers introduced &amp;#x27;Weight-Space Programming,&amp;#x27; a method where GPT-6 Astra directly reads and edits the neural network weights of Qwen3.5-0.8B. Without gradient descent or traditional training loops, adjusting just ~0.016% of parameters eliminated reasoning loops, boosting MATH-500 scores from 7.9% to 48.1%, offering a new paradigm for model optimization and interpretability.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;MIT 提出权重空间编程：LLM 直接修改模型权重提升数学能力&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了大模型作为“编译器”直接操作底层权重的突破性能力，显著改变了模型微调与优化的技术路径。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 88/100&lt;/p&gt;</description>
+<description>&lt;p&gt;MIT CSAIL 研究人员提出“权重空间编程”新方法，利用 GPT-6 Astra 直接读取并修改 Qwen3.5-0.8B 的神经网络权重。该方法无需梯度下降或传统训练循环，仅调整约 0.016% 的参数即可消除推理循环问题，使模型在 MATH-500 基准测试中的成绩从 7.9% 提升至 48.1%，为模型优化和可解释性研究提供了全新范式。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了大模型作为“编译器”直接操作底层权重的突破性能力，显著改变了模型微调与优化的技术路径。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 88/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/021/337.htm">IT之家 · 智能时代</source>
 <category>MIT</category>
 <category>权重空间编程</category>
@@ -259,15 +269,6 @@
 <category>融资</category>
 <category>AI 基础设施</category>
 <category>财报预期</category>
-</item>
-<item><title>Zyphra 发布 ZHA 分层注意力机制，长上下文推理效率显著提升</title><link>https://x.com/Marktechpost/status/2117424938424647961</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2117424938424647961</guid>
-<pubDate>Tue, 03 Nov 2026 09:13:39 +0800</pubDate>
-<description>&lt;p&gt;Zyphra 推出 ZHA（分层注意力）稀疏注意力方法，通过构建 KV 缓存树状结构实现高效检索。该方法在 Qwen3.6-35B 模型上仅需读取约 1.1% 的键值即可在 LongBench v2 上超越密集注意力基线，且训练成本极低（仅优化 8 万参数）。尽管在特定基准测试中存在性能权衡，但其为长上下文处理提供了新的架构思路。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出了一种新颖的分层稀疏注意力架构，在大幅降低计算量的同时保持了极具竞争力的长文本性能，对解决大模型长上下文瓶颈有重要参考价值。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/Marktechpost/status/2117424938424647961">Marktechpost (@Marktechpost)</source>
-<category>稀疏注意力</category>
-<category>KV Cache</category>
-<category>长上下文</category>
-<category>Zyphra</category>
 </item>
 </channel>
 </rss>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Tue, 03 Nov 2026 10:00:55 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 03 Nov 2026 13:09:27 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Astra 模型直接编辑权重使 Qwen 数学能力跃升六倍</title><link>https://todayforai.com/en/story/story-7028676c-267</link><guid isPermaLink="true">https://todayforai.com/en/story/story-7028676c-267</guid>
 <pubDate>Tue, 03 Nov 2026 10:00:55 +0800</pubDate>
@@ -18,6 +18,14 @@
 多方信源交叉验证指出，算力成本效率提升是扭亏关键，占比从 250% 骤降至 48%。公司手握超千亿美元现金储备，并签署了总额逾 5000 亿美元的长期算力采购协议，深度绑定微软、谷歌及 Broadcom 等巨头。然而，招股书罕见地用大量篇幅警告 AI 可能带来“存在性风险”，并明确提示当前三位数增长率不可持续，传统保险行业亦难以覆盖此类极端风险敞口。
 
 作为首家纯大模型上市公司，Anthropic 的财务数据与风险披露为行业提供了关键基准。其成功上市将重塑 AI 赛道估值逻辑，证明企业级 AI 具备强劲造血能力，但也迫使投资者直面技术失控与监管滞后的潜在隐患，标志着 AI 产业从私有化融资迈向公开市场透明化竞争的新阶段。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, Rohan Paul (@rohanpaul_ai), 量子位官网, IT之家 · IT业界, The Verge AI, The Decoder&lt;/p&gt;</description>
+</item>
+<item><title>OpenAI 自研 Pando 后端支撑 Codex 并发开发</title><link>https://todayforai.com/en/story/story-f3c8341e-044</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f3c8341e-044</guid>
+<pubDate>Tue, 03 Nov 2026 13:09:27 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 正式推出名为 Pando 的自研 Git 后端系统，旨在解决其巨型单体仓库在支持 Codex AI 智能体高并发操作时面临的性能瓶颈。随着 AI Agent 产生的代码提交量呈指数级增长，传统 Git 服务器已成为研发速度的关键制约因素。Pando 通过重构底层架构，实现了水平可扩展的写入能力与极高的读取吞吐量，日均处理数据量接近 1 PB。
+
+多方信源交叉验证显示，Pando 的核心优势在于保持与标准 Git 协议的完全兼容，这意味着工程师和 AI 代理无需迁移客户端即可无缝接入新后端。生产环境数据显示，该系统将中位推送延迟降低了近 5 倍（约 80%），显著提升了多分支并发写入的效率。相比之下，Anthropic 采取了更为激进的替换路线，开发了全新系统 Scion，而 OpenAI 则选择了改良现有生态的务实路径。
+
+这一技术突破不仅解决了 OpenAI 内部大规模协同开发的痛点，也为行业提供了应对 AI 时代代码爆炸式增长的参考方案。它证明了在不破坏开发者习惯的前提下，通过后端优化可以大幅提升基础设施承载力。未来，随着更多企业引入 AI 辅助编程，类似 Pando 的高吞吐、低延迟基础设施将成为标配，推动软件开发流程向更高自动化程度演进。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), Hacker News AI, OpenAI 官方博客&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 发布 LifeVal 基准 GPT-6 日常任务得分超八成</title><link>https://todayforai.com/en/story/story-aa28c8fe-dff</link><guid isPermaLink="true">https://todayforai.com/en/story/story-aa28c8fe-dff</guid>
 <pubDate>Tue, 03 Nov 2026 09:54:54 +0800</pubDate>
@@ -42,14 +50,6 @@
 多方信源交叉验证显示，Karpathy 采用了“Vibe Coding”模式，以 Claude Opus 5.5 作为核心编码代理处理长上下文数据清洗，并结合 Sonnet 进行辅助过滤。这一端到端的自主执行过程不仅展示了前沿大模型在非结构化数据处理上的强大能力，还体现了 AI Agent 从数据分析到全栈应用部署的高效闭环。项目甚至提供了数据导出功能，允许开发者将结构化数据喂给其他 Agent 以定制个性化版本。
 
 HackerTube 的诞生标志着个人开发者正从被动接受平台算法转向主动利用 AI 工具重构信息获取体验。该案例显著降低了构建垂直领域个性化推荐系统的技术门槛与时间成本，证明了 LLM 能够以极低成本替代传统以成瘾性为目标的推荐逻辑，为去中心化的高质量内容分发提供了新的范式参考。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, Rohan Paul (@rohanpaul_ai), Yuchen Jin (@Yuchenj_UW), Andrej Karpathy (@karpathy)&lt;/p&gt;</description>
-</item>
-<item><title>OpenAI 自研 Pando 后端支撑 Codex 并发开发</title><link>https://todayforai.com/en/story/story-f3c8341e-044</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f3c8341e-044</guid>
-<pubDate>Tue, 03 Nov 2026 07:47:56 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 正式推出名为 Pando 的自研 Git 后端系统，旨在解决其单体代码仓库在支持 Codex AI 智能体高并发工作时面临的性能瓶颈。这一基础设施升级标志着 OpenAI 在内部工程效能与 AI 代理协作架构上的重大突破，通过重构底层存储逻辑，显著提升了大规模代码库的处理能力。
-
-Pando 的核心优势在于保持了与标准 Git 协议的完全兼容，实现了零迁移成本，使工程师和 AI 代理能够无缝接入现有工作流。技术数据显示，该系统专为优化多分支并发写入及最大化读取吞吐量而设计，在生产环境中将中位推送延迟降低了近 5 倍，并具备每日处理约 1 PB Git 数据的高吞吐能力。多方信源交叉验证表明，这一架构不仅解决了传统 Git 在超大规模场景下的扩展性难题，还通过水平可扩展的写入机制保障了系统的稳定性。
-
-此次发布对 AI 编程生态具有深远影响。Pando 的成功部署证明了专用基础设施对于支撑高频、大规模 AI 代码生成的必要性，为行业提供了处理海量并发代码提交的参考范式。此外，OpenAI 计划向开源社区共享部分技术改进，有望推动整个开发者工具链在应对 AI 代理时代挑战时的演进速度。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;OpenAI 官方博客, Hacker News AI&lt;/p&gt;</description>
 </item>
 <item><title>黑石下调 Anthropic IPO 评级至垃圾级</title><link>https://todayforai.com/en/story/story-63d184e0-706</link><guid isPermaLink="true">https://todayforai.com/en/story/story-63d184e0-706</guid>
 <pubDate>Tue, 03 Nov 2026 05:28:26 +0800</pubDate>
