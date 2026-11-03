@@ -1,8 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Tue, 03 Nov 2026 09:49:52 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 03 Nov 2026 10:04:03 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Meta Says US Supply Chain Limits Fourier Robot Partnership; No Sales Plans for Prototype</title><link>https://www.ithome.com/1/021/339.htm</link><guid isPermaLink="true">https://www.ithome.com/1/021/339.htm</guid>
+<pubDate>Tue, 03 Nov 2026 10:04:03 +0800</pubDate>
+<description>&lt;p&gt;Meta confirmed its partnership with Chinese firm Fourier to develop the &amp;#x27;Max&amp;#x27; humanoid robot prototype as a physical embodiment of its Muse AI model. Citing difficulties in sourcing components within the US supply chain, Meta stated the project is strictly for internal research with no plans for commercial sales, while development on a second-generation prototype has already begun.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 回应傅利叶合作：因美供应链受限，人形机器人原型暂不出售&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了科技巨头在人形机器人领域受地缘政治与供应链制约的现实，以及其当前仍停留在内部实验阶段的战略定位。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 45/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/021/339.htm">IT之家 · 智能时代</source>
+<category>人形机器人</category>
+<category>供应链</category>
+<category>Meta</category>
+<category>傅利叶</category>
+</item>
+<item><title>MIT Proposes Weight-Space Programming: LLMs Directly Edit Model Weights to Boost Math Skills</title><link>https://www.ithome.com/1/021/337.htm</link><guid isPermaLink="true">https://www.ithome.com/1/021/337.htm</guid>
+<pubDate>Tue, 03 Nov 2026 10:00:55 +0800</pubDate>
+<description>&lt;p&gt;MIT CSAIL researchers introduced &amp;#x27;Weight-Space Programming,&amp;#x27; a method where GPT-6 Astra directly reads and edits the neural network weights of Qwen3.5-0.8B. Without gradient descent or traditional training loops, adjusting just ~0.016% of parameters eliminated reasoning loops, boosting MATH-500 scores from 7.9% to 48.1%, offering a new paradigm for model optimization and interpretability.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;MIT 提出权重空间编程：LLM 直接修改模型权重提升数学能力&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了大模型作为“编译器”直接操作底层权重的突破性能力，显著改变了模型微调与优化的技术路径。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 88/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/021/337.htm">IT之家 · 智能时代</source>
+<category>MIT</category>
+<category>权重空间编程</category>
+<category>模型优化</category>
+<category>可解释性</category>
+<category>Qwen</category>
+</item>
+<item><title>OpenAI Releases LifeVal Benchmark for Daily Task Execution</title><link>https://www.ithome.com/1/021/336.htm</link><guid isPermaLink="true">https://www.ithome.com/1/021/336.htm</guid>
+<pubDate>Tue, 03 Nov 2026 09:54:54 +0800</pubDate>
+<description>&lt;p&gt;OpenAI has introduced LifeVal, a new benchmark designed to evaluate AI models&amp;#x27; ability to complete actionable and deliverable tasks in real-life scenarios such as caregiving, finance, and education. Built on extensive user surveys, it emphasizes integrating multi-source information tailored to individual contexts rather than just generating lists or advice. Currently, LifeVal remains an internal evaluation tool without public datasets or reproducible code, requiring cautious interpretation of its high scores.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 发布 LifeVal 基准 聚焦日常事务执行能力&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;填补了通用 AI 在长尾、高复杂度日常生活任务评估上的空白，虽暂不开放但指明了产品化方向。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 68/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/021/336.htm">IT之家 · 智能时代</source>
+<category>大模型</category>
+<category>评测基准</category>
+<category>OpenAI</category>
+<category>Agent</category>
+</item>
+<item><title>MIT CSAIL Experiments Show GPT-6 Astra Modifying Neural Weights Directly</title><link>https://hackertimes.ca/</link><guid isPermaLink="true">https://hackertimes.ca/</guid>
+<pubDate>Tue, 03 Nov 2026 09:53:34 +0800</pubDate>
+<description>&lt;p&gt;An MIT CSAIL team reports preliminary experiments where GPT-6 Astra interpreted and modified neural network weights without writing training loops. In a Qwen test, minor weight adjustments sharply improved math and instruction-following scores, though findings remain early-stage.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;MIT CSAIL 实验 GPT-6 Astra 直接修改神经网络权重&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了大模型作为“元编程”工具直接干预底层模型参数的新范式，具有极高的技术前瞻性。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 68/100&lt;/p&gt;</description>
+<source url="https://hackertimes.ca/">Hacker News AI</source>
+<category>大模型</category>
+<category>MIT CSAIL</category>
+<category>权重编辑</category>
+<category>前沿研究</category>
+</item>
 <item><title>Apple Signals Potential Revenue Boost from Third-Party AI Apps</title><link>https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/</guid>
 <pubDate>Tue, 03 Nov 2026 09:49:52 +0800</pubDate>
 <description>&lt;p&gt;During its latest earnings call, Apple hinted that AI capabilities could drive services revenue through third-party apps and partnerships. While the CFO provided no specific details, this signals an attempt to find new growth avenues for the App Store amidst regulatory pressure and a gaming slump.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;苹果财报暗示将探索第三方 AI 应用变现路径&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;虽涉及 AI 商业化趋势，但内容主要为模糊的财务展望与高管言论，缺乏具体产品或技术落地信息，对重度读者注意力价值有限。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 35/100&lt;/p&gt;</description>
@@ -12,6 +49,25 @@
 <category>Services Revenue</category>
 <category>Earnings Call</category>
 </item>
+<item><title>OpenAI Announces Retirement of ChatGPT Classic by Jan 2027</title><link>https://www.ithome.com/1/021/330.htm</link><guid isPermaLink="true">https://www.ithome.com/1/021/330.htm</guid>
+<pubDate>Tue, 03 Nov 2026 09:46:14 +0800</pubDate>
+<description>&lt;p&gt;OpenAI has officially notified users that the legacy desktop app, ChatGPT Classic, will be discontinued on January 30, 2027. Chat histories will automatically migrate to the new unified desktop application integrating Codex and Work features. This move aims to simplify product structure and consolidate usage quotas, pushing users toward a next-generation interface with enhanced execution capabilities.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 宣布 ChatGPT Classic 将于 2027 年停服&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及主流 AI 工具的生命周期变更与产品架构调整，对重度用户的使用习惯有直接影响。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 45/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/021/330.htm">IT之家 · 智能时代</source>
+<category>OpenAI</category>
+<category>ChatGPT</category>
+<category>Product Update</category>
+<category>Desktop App</category>
+</item>
+<item><title>Aisin Unveils World&#x27;s First 16nm AI SoC with Integrated STT-MRAM, Boosting Efficiency 50x</title><link>https://www.ithome.com/1/021/326.htm</link><guid isPermaLink="true">https://www.ithome.com/1/021/326.htm</guid>
+<pubDate>Tue, 03 Nov 2026 09:30:09 +0800</pubDate>
+<description>&lt;p&gt;Aisin and Tohoku University have developed the world&amp;#x27;s first 16nm AI SoC integrating Spin-Transfer Torque MRAM (STT-MRAM). Utilizing a Near-Memory Computing architecture to store model weights directly on-chip, the solution reduces boot time significantly and achieves a 50x improvement in energy efficiency for object detection.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;爱信发布全球首款集成 STT-MRAM 的 16nm AI SoC，能效提升 50 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了新型非易失性存储器在边缘 AI 芯片中的实际落地能力，对低功耗推理场景具有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 68/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/021/326.htm">IT之家 · IT业界</source>
+<category>AI 芯片</category>
+<category>STT-MRAM</category>
+<category>边缘计算</category>
+<category>爱信</category>
+<category>硬件创新</category>
+</item>
 <item><title>Unitree Seeks Global Partnerships to Advance Robot Brain Tech</title><link>https://www.ithome.com/1/021/325.htm</link><guid isPermaLink="true">https://www.ithome.com/1/021/325.htm</guid>
 <pubDate>Tue, 03 Nov 2026 09:29:43 +0800</pubDate>
 <description>&lt;p&gt;Unitree founder Wang Xingxing announced a strategic focus on developing &amp;#x27;robot brain&amp;#x27; technology and seeking global partnerships for Physical AI breakthroughs. The company has previously outlined plans for mass production, proprietary small models, and large-scale computing clusters, reporting a 270% year-over-year increase in net profit.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;宇树科技拟全球合作攻克机器人大脑技术&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部具身智能厂商披露核心战略转向与财务表现，反映行业从硬件向算法/大脑演进的趋势。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
@@ -20,6 +76,15 @@
 <category>具身智能</category>
 <category>机器人</category>
 <category>商业动态</category>
+</item>
+<item><title>Oracle Raises $20B in Debt and Equity, Exhausting Four-Year Cap</title><link>https://www.ithome.com/1/021/320.htm</link><guid isPermaLink="true">https://www.ithome.com/1/021/320.htm</guid>
+<pubDate>Tue, 03 Nov 2026 09:16:20 +0800</pubDate>
+<description>&lt;p&gt;Oracle announced plans to raise $20 billion through a combination of debt sales and new equity issuance. This move exhausts the company&amp;#x27;s previously stated cap for additional capital market financing for fiscal years 2027-2030. Oracle projects a revenue CAGR exceeding 35%, with free cash flow turning positive by FY2028.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Oracle 宣布 200 亿美元融资 一次性用完四年额度&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;巨额融资直接关联 AI 基础设施扩张节奏，且“一次性用完额度”的信号对投资者判断 Oracle 资本支出强度至关重要。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 68/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/021/320.htm">IT之家 · IT业界</source>
+<category>Oracle</category>
+<category>融资</category>
+<category>AI 基础设施</category>
+<category>财报预期</category>
 </item>
 <item><title>OpenAI Launches &#x27;Grid Protectors&#x27; to Cut Data Center Power During Grid Overload</title><link>https://x.com/rohanpaul_ai/status/2117415628516769919</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117415628516769919</guid>
 <pubDate>Tue, 03 Nov 2026 08:36:40 +0800</pubDate>
@@ -166,9 +231,9 @@
 <category>Privacy Compliance</category>
 <category>Evaluation</category>
 </item>
-<item><title>Qualcomm Validates HBC Tech; AI250 Chip to Sample in 2027</title><link>https://www.ithome.com/1/021/286.htm</link><guid isPermaLink="true">https://www.ithome.com/1/021/286.htm</guid>
+<item><title>高通 HBC 完成硬件验证 AI250 明年出样</title><link>https://www.ithome.com/1/021/286.htm</link><guid isPermaLink="true">https://www.ithome.com/1/021/286.htm</guid>
 <pubDate>Tue, 03 Nov 2026 06:50:15 +0800</pubDate>
-<description>&lt;p&gt;Qualcomm has completed hardware validation of its first-generation High Bandwidth Compute (HBC) technology, which stacks LPDDR memory for near-memory computing. The AI250 accelerator featuring HBC is scheduled to sample in early 2027, aiming to replace traditional HBM with a low-power solution delivering up to 133 TB/s effective memory bandwidth.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;高通 HBC 完成硬件验证 AI250 明年出样&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;验证了非 HBM 路径在 AI 推理中的可行性，为数据中心芯片架构提供了新的低功耗高带宽选项。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;高通宣布其第一代高带宽计算（HBC）技术完成硬件验证，该技术通过堆叠 LPDDR 内存实现近存计算。搭载 HBC 的 AI250 加速器计划于 2027 年上半年出样，旨在以低功耗方案替代传统 HBM，提供高达 133 TB/s 的有效内存带宽。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;验证了非 HBM 路径在 AI 推理中的可行性，为数据中心芯片架构提供了新的低功耗高带宽选项。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/021/286.htm">IT之家 · IT业界</source>
 <category>高通</category>
 <category>AI芯片</category>
@@ -176,27 +241,27 @@
 <category>LPDDR</category>
 <category>近存计算</category>
 </item>
-<item><title>Anthropic Reports 900% Net Revenue Retention as High-Paying Clients Surge</title><link>https://www.ithome.com/1/021/285.htm</link><guid isPermaLink="true">https://www.ithome.com/1/021/285.htm</guid>
+<item><title>Anthropic NRR 达 900% 高付费客户破万</title><link>https://www.ithome.com/1/021/285.htm</link><guid isPermaLink="true">https://www.ithome.com/1/021/285.htm</guid>
 <pubDate>Tue, 03 Nov 2026 06:43:01 +0800</pubDate>
-<description>&lt;p&gt;Anthropic reports a staggering 900% Net Revenue Retention (NRR), indicating existing enterprise clients increased spending ninefold in one year. Over 11,900 customers now spend more than $100k annually, with half adopting first-party apps like Claude Code, validating the company&amp;#x27;s strategy of expanding value through internal tool penetration.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic NRR 达 900% 高付费客户破万&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;极高的 NRR 数据与具体的客户分层增长揭示了 AI 企业级市场的爆发式扩张逻辑及编程智能体的关键变现作用。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 披露其净收入留存率（NRR）高达 900%，显示现有企业客户支出在一年内增长约 9 倍。年消费超 10 万美元的客户数突破 1.19 万家，其中过半用户同时采用 Claude Code 等自有应用，验证了从 API 到内部工具渗透的“三层架构”策略有效性。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;极高的 NRR 数据与具体的客户分层增长揭示了 AI 企业级市场的爆发式扩张逻辑及编程智能体的关键变现作用。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/021/285.htm">IT之家 · IT业界</source>
 <category>Anthropic</category>
 <category>企业AI</category>
 <category>财务数据</category>
 <category>Claude Code</category>
 </item>
-<item><title>Anthropic Q3 Revenue Growth Flattens Signaling Potential AI Bubble Peak</title><link>https://www.regenerator1.com/p/anthropics-growth-just-flattened</link><guid isPermaLink="true">https://www.regenerator1.com/p/anthropics-growth-just-flattened</guid>
+<item><title>Anthropic Q3 营收增速显著放缓 暗示 AI 泡沫拐点临近</title><link>https://www.regenerator1.com/p/anthropics-growth-just-flattened</link><guid isPermaLink="true">https://www.regenerator1.com/p/anthropics-growth-just-flattened</guid>
 <pubDate>Tue, 03 Nov 2026 06:33:20 +0800</pubDate>
-<description>&lt;p&gt;According to NYT reports, Anthropic disclosed $16.8 billion in Q3 revenue to investors. While the absolute figure is staggering, implied monthly growth indicates a near-stagnation from July to September, with sequential dollar gains smaller than Q2. This trend suggests that infrastructure spending supporting the AI boom may begin to moderate, indicating the market could be approaching the bubble peak where supply catches up with demand.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic Q3 营收增速显著放缓 暗示 AI 泡沫拐点临近&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司财务数据首次出现实质性增长停滞，是判断行业周期拐点的关键信号。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 68/100&lt;/p&gt;</description>
+<description>&lt;p&gt;据《纽约时报》报道，Anthropic 向投资者披露的第三季度营收为 168 亿美元。尽管绝对数值惊人，但月度隐含增长率显示其从 7 月到 9 月的增长几乎停滞，且环比增量低于第二季度。这一趋势表明支撑当前 AI 热潮的基础设施支出可能即将降温，市场或正接近供给追赶需求的泡沫破裂临界点。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司财务数据首次出现实质性增长停滞，是判断行业周期拐点的关键信号。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 68/100&lt;/p&gt;</description>
 <source url="https://www.regenerator1.com/p/anthropics-growth-just-flattened">Hacker News AI</source>
 <category>Anthropic</category>
 <category>AI 融资</category>
 <category>行业趋势</category>
 <category>营收分析</category>
 </item>
-<item><title>Analyst Urges SEC to Block Anthropic IPO Citing AI Bubble Risks</title><link>https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/</link><guid isPermaLink="true">https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/</guid>
+<item><title>分析师呼吁 SEC 阻止 Anthropic IPO 以防范 AI 泡沫风险</title><link>https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/</link><guid isPermaLink="true">https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/</guid>
 <pubDate>Tue, 03 Nov 2026 06:30:47 +0800</pubDate>
-<description>&lt;p&gt;Matt Scherer, co-author of a report on the AI bubble, argues that the SEC should block Anthropic&amp;#x27;s IPO. He highlights opaque financial practices in the AI sector, including circular deals and off-balance-sheet debt, warning that listing now could exacerbate systemic risks and harm the public.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;分析师呼吁 SEC 阻止 Anthropic IPO 以防范 AI 泡沫风险&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该观点挑战了主流对头部 AI 公司上市的乐观预期，揭示了潜在的行业财务结构性风险，具有独特的监管视角。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 45/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Open Markets Institute 联合作者 Matt Scherer 撰文主张美国证券交易委员会（SEC）应阻止 Anthropic 的首次公开募股。文章指出，AI 行业存在循环交易、财务工程及表外债务等不透明现象，若此时上市可能加剧系统性金融风险并损害公众利益。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该观点挑战了主流对头部 AI 公司上市的乐观预期，揭示了潜在的行业财务结构性风险，具有独特的监管视角。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 45/100&lt;/p&gt;</description>
 <source url="https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/">Hacker News AI</source>
 <category>Anthropic</category>
 <category>IPO</category>
@@ -204,76 +269,14 @@
 <category>AI Bubble</category>
 <category>Regulation</category>
 </item>
-<item><title>LangSmith Launches Managed Deep Agents for Production Deployment</title><link>https://www.langchain.com/blog/introducing-managed-deep-agents</link><guid isPermaLink="true">https://www.langchain.com/blog/introducing-managed-deep-agents</guid>
-<pubDate>Tue, 03 Nov 2026 06:28:13 +0800</pubDate>
-<description>&lt;p&gt;LangSmith has launched the public beta of &amp;#x27;Managed Deep Agents,&amp;#x27; enabling developers to run the open-source Deep Agents framework directly on its cloud platform. Adopting a &amp;#x27;folder-as-project&amp;#x27; paradigm, it allows one-command deployment via `mda deploy` and includes built-in production capabilities like durable memory, sandboxes, and schedules, significantly lowering infrastructure barriers for building autonomous agents.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;LangSmith 推出托管深度智能体 简化生产部署&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为开发者提供了从本地原型到云端生产环境的无缝迁移路径，解决了智能体运维复杂的核心痛点。&lt;/p&gt;&lt;p&gt;LangChain Blog · agent · signal 68/100&lt;/p&gt;</description>
-<source url="https://www.langchain.com/blog/introducing-managed-deep-agents">LangChain Blog</source>
-<category>LangChain</category>
-<category>LangSmith</category>
-<category>AI Agent</category>
-<category>DevOps</category>
-</item>
-<item><title>Anthropic S-1 Filing Warns of Approaching Recursive Self-Improvement</title><link>https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/</guid>
-<pubDate>Tue, 03 Nov 2026 06:14:50 +0800</pubDate>
-<description>&lt;p&gt;Anthropic disclosed in its revised S-1A filing that its models are approaching recursive self-improvement (RSI) capabilities. The company notes AI&amp;#x27;s deep integration into R&amp;amp;D and highlights RSI as both a productivity opportunity and a control risk, urging the establishment of governance mechanisms.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic S-1 文件警示接近递归自我改进能力&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部实验室通过监管文件正式确认逼近 RSI 临界点，对行业安全与治理具有重大信号意义。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 85/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/">TechCrunch AI</source>
-<category>Anthropic</category>
-<category>RSI</category>
-<category>AI Safety</category>
-<category>S-1 Filing</category>
-</item>
-<item><title>OpenAI Claims Next GPT Model Proved Millennium Prize Problem</title><link>https://x.com/rohanpaul_ai/status/2117378163311562788</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117378163311562788</guid>
-<pubDate>Tue, 03 Nov 2026 06:07:47 +0800</pubDate>
-<description>&lt;p&gt;Sam Altman revealed at the ADIPEC opening ceremony that the upcoming next-generation GPT model has successfully proved a Millennium Prize Problem. The process involved approximately 10,000 parallel instances running for four days using a decentralized, hierarchy-free architecture where each instance autonomously chose directions and shared progress.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 称新 GPT 模型已证明千禧年难题&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;若属实，标志着大模型在解决极端复杂数学/逻辑问题上取得历史性突破，且展示了新型分布式推理范式。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 68/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2117378163311562788">Rohan Paul (@rohanpaul_ai)</source>
-<category>OpenAI</category>
-<category>GPT</category>
-<category>数学推理</category>
-<category>分布式计算</category>
-</item>
-<item><title>Anthropic IPO 文件披露近 9000 亿美元算力承诺</title><link>https://x.com/rohanpaul_ai/status/2117368258571784296</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117368258571784296</guid>
-<pubDate>Tue, 03 Nov 2026 05:28:26 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 最新 IPO 文件显示其已签署总额 8954 亿美元的算力与基础设施合同，其中 4475 亿美元需在 2031 年前支付。尽管拥有 1470 亿美元流动性，但第三季度因短期算力成本激增转为运营亏损，凸显其维持前沿模型研发对营收增速的极高依赖。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;巨额算力锁定与财务转折揭示大模型商业化的真实资金压力，极具行业风向标意义。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 88/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2117368258571784296">Rohan Paul (@rohanpaul_ai)</source>
-<category>Anthropic</category>
-<category>IPO</category>
-<category>算力成本</category>
-<category>基础设施</category>
-</item>
-<item><title>Cohere 论文证实投机解码在 MoE 模型低批次下显著提速</title><link>https://x.com/rohanpaul_ai/status/2117365776282001748</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117365776282001748</guid>
-<pubDate>Tue, 03 Nov 2026 05:18:34 +0800</pubDate>
-<description>&lt;p&gt;Cohere 最新研究推翻了“投机解码在混合专家（MoE）模型小批次场景收益有限”的传统观点。实验表明，相邻 Token 的专家路由重合度高达 20%-45%，远超理论预期，使得验证步骤开销极低。在 Qwen3-235B 等模型上，验证速度可达正常解码的 89%，为智能体工作负载提供了高效的推理优化方案。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究纠正了 MoE 架构下的推理优化盲区，对降低大模型服务成本具有直接工程价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2117365776282001748">Rohan Paul (@rohanpaul_ai)</source>
-<category>MoE</category>
-<category>Speculative Decoding</category>
-<category>Inference Optimization</category>
-<category>Cohere</category>
-</item>
-<item><title>Anthropic 启动驻留研究项目 面向非 ML 背景资深技术人才</title><link>https://x.com/dotey/status/2117361528504496318</link><guid isPermaLink="true">https://x.com/dotey/status/2117361528504496318</guid>
-<pubDate>Tue, 03 Nov 2026 05:01:41 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 开放付费驻留研究项目申请，旨在招募教授、创始人及 Staff 级工程师转行从事 AI 安全研究。该项目不要求机器学习背景，提供六周至六个月的全职指导与算力支持，年薪折合 35-50 万美元，11 月 22 日截止。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该招聘项目体现了 AI 安全领域对跨学科资深人才的迫切需求及高溢价激励，反映了行业人才流动的新趋势。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · industry · signal 42/100&lt;/p&gt;</description>
-<source url="https://x.com/dotey/status/2117361528504496318">宝玉 (@dotey)</source>
-<category>AI 安全</category>
-<category>人才招聘</category>
-<category>Anthropic</category>
-<category>跨学科转型</category>
-</item>
-<item><title>OpenRouter 年处理量破 10 千万亿 Token 增速翻倍周期缩短至 10.5 周</title><link>https://x.com/rohanpaul_ai/status/2117355548719165734</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117355548719165734</guid>
-<pubDate>Tue, 03 Nov 2026 04:37:56 +0800</pubDate>
-<description>&lt;p&gt;OpenRouter 宣布其年度 Token 处理量突破 10 千万亿（10 quadrillion），且增长曲线呈垂直上升态势。数据显示，Token 消耗量每 10.5 周翻一番，过去 9 周的总处理量甚至超过了此前所有历史总和，反映出 AI 推理需求的爆发式增长。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该数据揭示了当前大模型推理需求指数级增长的宏观趋势，对评估算力基础设施压力及行业热度具有极高参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 68/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2117355548719165734">Rohan Paul (@rohanpaul_ai)</source>
-<category>OpenRouter</category>
-<category>Token Usage</category>
-<category>AI Infrastructure</category>
-<category>Growth Metrics</category>
-</item>
-<item><title>Grok Bots 面向中小企业部署方案引发关注</title><link>https://x.com/gregisenberg/status/2117355427138543629</link><guid isPermaLink="true">https://x.com/gregisenberg/status/2117355427138543629</guid>
-<pubDate>Tue, 03 Nov 2026 04:37:27 +0800</pubDate>
-<description>&lt;p&gt;Greg Isenberg 提出利用 Grok Bots 为中小企业提供自动化服务的新商业模式，主张通过赋予智能体独立数字身份并按小时计费。该观点强调将 AI 代理转化为低成本劳动力替代方案，但具体技术栈与落地细节尚未公开验证。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;虽具商业启发意义，但缺乏实质技术参数与可验证案例，属早期概念探讨。&lt;/p&gt;&lt;p&gt;GREG ISENBERG (@gregisenberg) · agent · signal 35/100&lt;/p&gt;</description>
-<source url="https://x.com/gregisenberg/status/2117355427138543629">GREG ISENBERG (@gregisenberg)</source>
-<category>AI Agent</category>
-<category>SMB</category>
-<category>Business Model</category>
+<item><title>V100 SXM2 引脚与 NVLink 开源参考发布</title><link>https://github.com/pigeon-labs-stack/v100-sxm2-reference</link><guid isPermaLink="true">https://github.com/pigeon-labs-stack/v100-sxm2-reference</guid>
+<pubDate>Tue, 03 Nov 2026 06:30:13 +0800</pubDate>
+<description>&lt;p&gt;Pigeon Labs 发布了 NVIDIA V100 SXM2 模块的开源载板设计参考套件，包含引脚映射、连接方案及 KiCad 资源。该项目旨在为开发者提供基础数据以自行设计支持双卡或四卡 NVLink 配置的硬件，目前主要贡献在于对公开信息的整理与校验。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为老旧但仍有价值的 V100 芯片提供了稀缺的底层硬件设计参考，适合特定领域的嵌入式 AI 开发者。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 35/100&lt;/p&gt;</description>
+<source url="https://github.com/pigeon-labs-stack/v100-sxm2-reference">Hacker News AI</source>
+<category>开源硬件</category>
+<category>NVIDIA</category>
+<category>KiCad</category>
+<category>V100</category>
 </item>
 </channel>
 </rss>
