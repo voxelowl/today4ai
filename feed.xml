@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Thu, 05 Nov 2026 03:44:20 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 05 Nov 2026 04:32:33 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Bill Gates Reveals Top Labs Hold Unreleased Stronger Models</title><link>https://x.com/rohanpaul_ai/status/2118078969643929911</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118078969643929911</guid>
+<pubDate>Thu, 05 Nov 2026 04:32:33 +0800</pubDate>
+<description>&lt;p&gt;Bill Gates confirmed in an FT Live interview that top AI labs have developed stronger models than currently released versions but are holding them back. He predicted these new versions might launch before the end of the year, with two major releases expected next year. The statement reflects industry expectations on model iteration pace but lacks specific technical parameters or verifiable details.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;比尔·盖茨透露头部实验室有未发布更强模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;虽具名人效应和前瞻性，但属于观点性陈述而非技术突破，信息增量有限。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 42/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2118078969643929911">Rohan Paul (@rohanpaul_ai)</source>
+<category>比尔·盖茨</category>
+<category>AI 行业趋势</category>
+<category>模型发布</category>
+</item>
+<item><title>Qualcomm Launches Cloud AI 100 Ultra Inference Card for LLMs</title><link>https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra</link><guid isPermaLink="true">https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra</guid>
+<pubDate>Thu, 05 Nov 2026 03:55:14 +0800</pubDate>
+<description>&lt;p&gt;Qualcomm has introduced the Cloud AI 100 Ultra, a new data center AI inference accelerator card optimized for Generative AI and Large Language Models. Featuring 128GB of memory and up to 548GB/s bandwidth, it aims to support large-scale AI deployments by balancing high performance with power efficiency.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;高通发布 Cloud AI 100 Ultra 推理卡 面向大模型优化&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;作为主流芯片厂商针对当前最热门的 LLM 推理场景推出的专用硬件，其规格参数对评估边缘及云端算力布局具有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 68/100&lt;/p&gt;</description>
+<source url="https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra">Hacker News AI</source>
+<category>高通</category>
+<category>AI 芯片</category>
+<category>推理加速</category>
+<category>数据中心</category>
+</item>
 <item><title>OpenAI Images 2.6 Adds Animated GIF Generation to ChatGPT</title><link>https://the-decoder.com/chatgpt-can-now-turn-text-prompts-and-photos-into-animated-gifs-with-openais-images-2-6-model/</link><guid isPermaLink="true">https://the-decoder.com/chatgpt-can-now-turn-text-prompts-and-photos-into-animated-gifs-with-openais-images-2-6-model/</guid>
 <pubDate>Thu, 05 Nov 2026 03:44:20 +0800</pubDate>
 <description>&lt;p&gt;OpenAI has rolled out an update for ChatGPT and Codex users based on the new Images 2.6 model, enabling animated GIF generation from text prompts or photos. The feature allows frame editing and speed adjustment, with a key improvement in character consistency across frames that prevents the visual drift issues seen in earlier models.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI Images 2.6 上线 ChatGPT 支持生成动画 GIF&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;虽然属于常规功能迭代，但“跨帧一致性”是视频/动画生成的核心技术难点，对多模态应用开发者有参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 58/100&lt;/p&gt;</description>
@@ -115,6 +132,15 @@
 <category>AI Coding Tool</category>
 <category>Acquisition</category>
 </item>
+<item><title>AWS Bedrock AgentCore Integrates Decision Models for Agent Evaluation</title><link>https://aws.amazon.com/blogs/machine-learning/use-decision-models-with-amazon-bedrock-agentcore-evaluations/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/use-decision-models-with-amazon-bedrock-agentcore-evaluations/</guid>
+<pubDate>Thu, 05 Nov 2026 02:46:36 +0800</pubDate>
+<description>&lt;p&gt;Amazon Bedrock AgentCore Evaluations now supports &amp;#x27;decision models&amp;#x27; to provide structured, calibrated scoring throughout the agent lifecycle. This feature enables developers to combine custom evaluators (LLM-as-a-judge or code-based) with decision models to quantify narrow-domain questions like policy compliance and tool safety, replacing unstable confidence scores from free-form text generation.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS Bedrock AgentCore 引入决策模型优化智能体评估&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;针对智能体评估中置信度漂移痛点提出的具体工程解决方案，具备一定实操价值但属于平台功能迭代。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 42/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/use-decision-models-with-amazon-bedrock-agentcore-evaluations/">AWS Machine Learning Blog</source>
+<category>AWS</category>
+<category>Bedrock</category>
+<category>Agent Evaluation</category>
+<category>Decision Model</category>
+</item>
 <item><title>Cicada: Open-Source macOS Real-Time Voice Translation &amp; Meeting Assistant</title><link>https://x.com/dotey/status/2118052017755005210</link><guid isPermaLink="true">https://x.com/dotey/status/2118052017755005210</guid>
 <pubDate>Thu, 05 Nov 2026 02:45:27 +0800</pubDate>
 <description>&lt;p&gt;Cicada is a fully native, open-source macOS tool offering real-time bilingual subtitles, AI meeting minutes, and simultaneous interpretation. It integrates with major platforms like Zoom and Feishu via virtual microphones for cross-language communication, powered by Ling and Ming-3.0 models under the Apache-2.0 license.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Cicada 开源 macOS 实时语音翻译与 AI 会议助手&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;填补了 macOS 原生高质量开源会议辅助工具的空白，具备极高的实用性和开发者关注度。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · tools · signal 68/100&lt;/p&gt;</description>
@@ -169,6 +195,15 @@
 <category>AI Hardware</category>
 <category>Consumer Electronics</category>
 </item>
+<item><title>Meta Acquires AI Coding Agent Team Conductor</title><link>https://www.conductor.build/announcement</link><guid isPermaLink="true">https://www.conductor.build/announcement</guid>
+<pubDate>Thu, 05 Nov 2026 02:22:40 +0800</pubDate>
+<description>&lt;p&gt;AI coding agent startup Conductor announced its acquisition by Meta, with plans to shut down its cloud service and migrate users locally. While deal terms remain undisclosed, the teams hinted at collaboration on a &amp;#x27;next interface&amp;#x27; product expected early next year.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 收购 AI 编码代理团队 Conductor&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Meta 在 AI 开发者工具领域的最新并购动作，反映了大厂对自主编码智能体赛道的重视。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 45/100&lt;/p&gt;</description>
+<source url="https://www.conductor.build/announcement">Hacker News AI</source>
+<category>Meta</category>
+<category>收购</category>
+<category>AI 编码</category>
+<category>Conductor</category>
+</item>
 <item><title>NVIDIA Study: Frequent Context Compaction Cuts Agent Costs with Minimal Accuracy Loss</title><link>https://x.com/rohanpaul_ai/status/2118045798449742253</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118045798449742253</guid>
 <pubDate>Thu, 05 Nov 2026 02:20:44 +0800</pubDate>
 <description>&lt;p&gt;A new NVIDIA paper reveals that AI agents can significantly reduce inference costs by frequently compacting conversation history into short handoff notes and restarting sessions without sacrificing accuracy. Experiments show that combining file search tools with this strategy results in less than a 2-point accuracy drop on most benchmarks, whereas serving models with large context windows increases per-token generation costs by 3.6x to 7x.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;NVIDIA 研究证实智能体频繁压缩上下文可大幅降本且精度几乎无损&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究提供了量化证据，证明“短上下文+结构化交接”是平衡智能体性能与算力成本的可行工程范式，对开发者优化 Agent 架构具有直接指导意义。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
@@ -188,35 +223,35 @@
 <category>Performance</category>
 <category>Open Source</category>
 </item>
-<item><title>Google Proposes Agile Deliberation to Optimize Subjective Image Classification with LLMs</title><link>https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas/</link><guid isPermaLink="true">https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas/</guid>
+<item><title>Google 提出 Agile Deliberation 用 LLM 优化主观图像分类</title><link>https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas/</link><guid isPermaLink="true">https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas/</guid>
 <pubDate>Thu, 05 Nov 2026 02:07:05 +0800</pubDate>
-<description>&lt;p&gt;Google Research introduces the &amp;#x27;Agile Deliberation&amp;#x27; framework to address challenges in defining subjective categories for AI image classifiers. The system guides users through an interactive deliberation workflow to scope sub-categories and resolve edge cases, leveraging an LLM-driven optimization loop to automatically build accurate, human-aligned classifiers.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Google 提出 Agile Deliberation 用 LLM 优化主观图像分类&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了利用 LLM 辅助人类定义模糊概念的新范式，对提升垂直领域模型对齐度有参考价值。&lt;/p&gt;&lt;p&gt;Google Research · llm · signal 68/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Google Research 推出“Agile Deliberation”框架，旨在解决 AI 图像分类器在主观类别定义上的难题。该框架通过交互式审议工作流引导用户界定子类别并处理边缘案例，并利用 LLM 驱动的优化循环自动构建高准确率且符合人类意图的分类器。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了利用 LLM 辅助人类定义模糊概念的新范式，对提升垂直领域模型对齐度有参考价值。&lt;/p&gt;&lt;p&gt;Google Research · llm · signal 68/100&lt;/p&gt;</description>
 <source url="https://research.google/blog/agile-deliberation-how-ai-helps-humans-define-the-gray-areas/">Google Research</source>
 <category>Google Research</category>
 <category>LLM</category>
 <category>Computer Vision</category>
 <category>Human-AI Interaction</category>
 </item>
-<item><title>OpenAI Releases Images 2.6 Enabling Native GIF Generation in ChatGPT</title><link>https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6</guid>
+<item><title>OpenAI 发布 Images 2.6 支持 ChatGPT 原生生成 GIF</title><link>https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6</guid>
 <pubDate>Thu, 05 Nov 2026 02:00:00 +0800</pubDate>
-<description>&lt;p&gt;OpenAI has released the Images 2.6 model, enabling ChatGPT to generate animated GIFs directly from prompts or uploaded photos. The update also improves generation speed and allows users to adjust playback rates and edit frames individually, rolling out across all platforms.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 发布 Images 2.6 支持 ChatGPT 原生生成 GIF&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;填补了 ChatGPT 无法原生一步生成 GIF 的功能空白，显著增强了多模态创作工具的即时可用性。&lt;/p&gt;&lt;p&gt;The Verge AI · llm · signal 68/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 推出 Images 2.6 模型，使 ChatGPT 能够通过提示词或上传图片直接生成动画 GIF。该更新还提升了图像生成速度，并允许用户调整播放速率及逐帧编辑，目前正向所有平台用户推送。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;填补了 ChatGPT 无法原生一步生成 GIF 的功能空白，显著增强了多模态创作工具的即时可用性。&lt;/p&gt;&lt;p&gt;The Verge AI · llm · signal 68/100&lt;/p&gt;</description>
 <source url="https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6">The Verge AI</source>
 <category>OpenAI</category>
 <category>ChatGPT</category>
 <category>多模态</category>
 <category>图像生成</category>
 </item>
-<item><title>South African Author Earns $1M Publishing 371 AI Books in Year</title><link>https://x.com/dotey/status/2118040410706911267</link><guid isPermaLink="true">https://x.com/dotey/status/2118040410706911267</guid>
+<item><title>南非作家借 AI 年出 371 本书获利百万美元</title><link>https://x.com/dotey/status/2118040410706911267</link><guid isPermaLink="true">https://x.com/dotey/status/2118040410706911267</guid>
 <pubDate>Thu, 05 Nov 2026 01:59:19 +0800</pubDate>
-<description>&lt;p&gt;South African romance author Coral Hart leveraged AI tools to industrialize publishing, releasing 371 books and earning ~$1 million in 18 months. By combining specific LLM strengths (e.g., Claude for structure, Gork for tone) with human-curated outlines and style guides, she shifted her role from writer to &amp;#x27;publisher who writes,&amp;#x27; demonstrating a viable commercial loop for mass-produced AI content.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;南非作家借 AI 年出 371 本书获利百万美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该案例提供了 AI 生成内容在垂直领域规模化变现的具体数据与操作细节，具有行业参考意义。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · industry · signal 45/100&lt;/p&gt;</description>
+<description>&lt;p&gt;南非言情作家 Coral Hart 利用 AI 工具实现工业化出版，一年半内发布 371 本书并获利约 100 万美元。她通过混合使用不同大模型（如 Claude、Gork）并结合人工设定大纲与风格规范，将自身角色从写作者转变为“会写作的出版人”，展示了 AI 在内容量产领域的商业闭环。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该案例提供了 AI 生成内容在垂直领域规模化变现的具体数据与操作细节，具有行业参考意义。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · industry · signal 45/100&lt;/p&gt;</description>
 <source url="https://x.com/dotey/status/2118040410706911267">宝玉 (@dotey)</source>
 <category>AI写作</category>
 <category>商业化</category>
 <category>内容产业</category>
 </item>
-<item><title>Axiom Math Releases 16M-Line Formalization of Stacks Project Using Agent Swarms</title><link>https://x.com/rohanpaul_ai/status/2118039060354900210</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118039060354900210</guid>
+<item><title>Axiom Math 发布 Stacks Project 形式化库 1600 万行代码验证代数几何</title><link>https://x.com/rohanpaul_ai/status/2118039060354900210</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118039060354900210</guid>
 <pubDate>Thu, 05 Nov 2026 01:53:57 +0800</pubDate>
-<description>&lt;p&gt;Axiom Math utilized an agent swarm to formalize the entire &amp;#x27;Stacks Project&amp;#x27; into 16 million lines of Lean code, creating a computer-verifiable foundation for modern algebraic geometry. By orchestrating agents like an engineering team, they ensured rigorous logical validation and open-source accessibility, providing critical infrastructure for AI-assisted mathematical proofs.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Axiom Math 发布 Stacks Project 形式化库 1600 万行代码验证代数几何&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了多智能体系统在超大规模复杂知识工程中的实际落地能力，解决了“Vibe Coding”质量低下的痛点，具有极高的行业参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 88/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Axiom Math 利用智能体集群将现代数学核心参考书《Stacks Project》转化为 1600 万行 Lean 代码，实现了大规模代数几何知识的计算机可验证形式化。该项目通过模拟工程组织的多智能体协作模式，确保了逻辑的严格性与开源可用性，为 AI 辅助数学证明提供了坚实的基础设施。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了多智能体系统在超大规模复杂知识工程中的实际落地能力，解决了“Vibe Coding”质量低下的痛点，具有极高的行业参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 88/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2118039060354900210">Rohan Paul (@rohanpaul_ai)</source>
 <category>智能体</category>
 <category>形式化验证</category>
@@ -232,42 +267,6 @@
 <category>文档解析</category>
 <category>开源生态</category>
 <category>Dharma AI</category>
-</item>
-<item><title>苹果警告内存涨价致毛利率下滑至 45%</title><link>https://x.com/rohanpaul_ai/status/2118036276909908346</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118036276909908346</guid>
-<pubDate>Thu, 05 Nov 2026 01:42:54 +0800</pubDate>
-<description>&lt;p&gt;苹果 CEO John Ternus 在财报会议上指出，受数据中心 AI 需求挤压供应影响，内存芯片价格飙升导致假日季毛利率预计从 48% 降至 45%。尽管营收增长，但硬件成本上升及 Siri AI 云端推理费用共同侵蚀了利润空间，且库存缓冲效应正在减弱。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了 AI 算力基建对消费电子供应链成本的传导机制，以及大模型端侧部署对巨头利润结构的实际冲击。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 68/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2118036276909908346">Rohan Paul (@rohanpaul_ai)</source>
-<category>苹果</category>
-<category>供应链</category>
-<category>AI 成本</category>
-<category>财报</category>
-</item>
-<item><title>quiet.md 开源：Rust+GPUI 高性能本地文档编辑器</title><link>https://x.com/dotey/status/2118035176081015047</link><guid isPermaLink="true">https://x.com/dotey/status/2118035176081015047</guid>
-<pubDate>Thu, 05 Nov 2026 01:38:31 +0800</pubDate>
-<description>&lt;p&gt;开源项目 quiet.md 发布，这是一款基于 Rust 和 GPUI 构建的本地优先富文本编辑器。它摒弃了 WebView，通过 GPU 直接绘制界面以实现极致性能（百万字符文档输入延迟约 5ms），并兼容飞书文档格式。其核心特性包括无账号离线使用及将笔记存储为 XML 文件，便于 AI Agent 读取与编辑。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了 Rust/GPU 原生渲染在生产力工具中的性能突破，且其 XML 存储格式对 AI Agent 工作流具有明确的集成价值。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · tools · signal 68/100&lt;/p&gt;</description>
-<source url="https://x.com/dotey/status/2118035176081015047">宝玉 (@dotey)</source>
-<category>开源工具</category>
-<category>Rust</category>
-<category>本地优先</category>
-<category>AI Agent</category>
-</item>
-<item><title>Kino AI 发布 支持代码驱动视频编辑与多智能体协作</title><link>https://news.ycombinator.com/item?id=50368804</link><guid isPermaLink="true">https://news.ycombinator.com/item?id=50368804</guid>
-<pubDate>Thu, 05 Nov 2026 01:31:53 +0800</pubDate>
-<description>&lt;p&gt;Kino AI 推出了一款基于 Remotion 的代码优先视频编辑器，允许用户通过自然语言指令让 Claude/Codex 等智能体直接操作时间轴、生成动态图形及 3D 场景。该平台集成了素材存储、实时协作评论及可视化预览功能，旨在解决传统智能体在视频编辑中缺乏上下文和交互界面的痛点。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了“智能体+垂直工具”的新范式，将视频编辑转化为可被 LLM 理解的代码结构，对开发者具有较高参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 42/100&lt;/p&gt;</description>
-<source url="https://news.ycombinator.com/item?id=50368804">Hacker News AI</source>
-<category>AI视频编辑</category>
-<category>智能体协作</category>
-<category>Remotion</category>
-<category>开发工具</category>
-</item>
-<item><title>Perceptron AI 发布 Egocentric 1.0 API，机器人视频标注成本降低 8 倍</title><link>https://x.com/rohanpaul_ai/status/2118030315566580106</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118030315566580106</guid>
-<pubDate>Thu, 05 Nov 2026 01:19:12 +0800</pubDate>
-<description>&lt;p&gt;Perceptron AI 推出专用模型 Perceptron Egocentric 1.0，通过自服务 API 实现第一人称视频的高精度细粒度标注。该方案在保持与前沿大模型相当质量的前提下，将标注成本降低约 8 倍，显著提升了机器人训练数据利用效率。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;解决了机器人学习中昂贵且耗时的视频标注痛点，提供了极具性价比的垂直领域替代方案。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 72/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2118030315566580106">Rohan Paul (@rohanpaul_ai)</source>
-<category>机器人学习</category>
-<category>数据标注</category>
-<category>API</category>
-<category>计算机视觉</category>
 </item>
 </channel>
 </rss>
