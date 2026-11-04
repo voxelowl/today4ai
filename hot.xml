@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Thu, 05 Nov 2026 01:17:46 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 05 Nov 2026 02:50:55 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 开源 FlashProve 实现 AI 模型零知识溯源验证</title><link>https://todayforai.com/en/story/story-be67363e-457</link><guid isPermaLink="true">https://todayforai.com/en/story/story-be67363e-457</guid>
 <pubDate>Thu, 05 Nov 2026 01:17:46 +0800</pubDate>
@@ -11,6 +11,14 @@
 
 FlashProve 的发布标志着 AI 供应链透明度建设的重要进展。尽管目前仍处于研究阶段且尚未大规模部署，但它为构建可信 AI 生态提供了关键基础设施。未来，随着算力成本的优化和上下文限制的突破，此类零知识证明技术有望成为规范大模型 API 服务、保障开发者权益及增强用户信任的核心标准。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), TechCrunch AI, Marktechpost (@Marktechpost), IT之家 · 智能时代, Anthropic AI (@AnthropicAI), The Decoder&lt;/p&gt;</description>
 </item>
+<item><title>谷歌捆绑 AI 与搜索，禁用工具将失去权限</title><link>https://todayforai.com/en/story/story-a7283b3a-2a1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a7283b3a-2a1</guid>
+<pubDate>Thu, 05 Nov 2026 02:33:46 +0800</pubDate>
+<description>&lt;p&gt;谷歌宣布调整 K-12 教育产品策略，将 AI 功能与核心搜索服务深度绑定。明年起，Gemini 等 AI 工具默认关闭，需管理员显式开启；若学校选择完全禁用 AI，学生将无法使用 Google 搜索。这一“二选一”机制迫使教育机构在隐私合规与基础信息获取能力之间做出艰难权衡。
+
+多方信源交叉验证显示，此举源于 AI 技术已底层集成至搜索引擎架构，导致无法单独剥离。尽管谷歌声称该政策旨在回应家长对儿童 AI 交互的管控需求，并赋予教师审查对话记录的权限，但 TechCrunch 与 Ars Technica 指出，这实质上构成了基础设施层面的强制推广。学校面临要么全面启用 AI、要么放弃搜索服务的困境，凸显了平台权力对用户选择权的挤压。
+
+该事件标志着科技巨头在教育领域加速 AI 渗透的策略升级，引发了关于技术垄断与数字主权的行业讨论。通过控制关键基础设施，谷歌正从单纯提供工具转向塑造行业标准，这可能加剧其他平台效仿此类捆绑策略，进一步压缩开发者与用户在生态中的自主空间。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, TechCrunch AI, The Verge AI, Ars Technica AI, IT之家 · IT业界, IT之家 · 智能时代&lt;/p&gt;</description>
+</item>
 <item><title>MIT 推出权重空间编程 Astra 免训练使 Qwen 数学能力跃升六倍</title><link>https://todayforai.com/en/story/story-7028676c-267</link><guid isPermaLink="true">https://todayforai.com/en/story/story-7028676c-267</guid>
 <pubDate>Wed, 04 Nov 2026 23:44:44 +0800</pubDate>
 <description>&lt;p&gt;MIT CSAIL 团队提出“权重空间编程”新范式，利用前沿大模型 GPT-6 Astra 直接读取并修改其他神经网络的原始权重。实验显示，Astra 仅改动 Qwen3.5-0.8B 中约 0.016% 的参数（131,072 个权重），无需梯度下降或重新训练，便将其在 MATH-500 基准测试中的准确率从 7.9% 飙升至 48.1%，实现近 6 倍的数学能力跃升，同时指令遵循能力也提升约 3 倍。
@@ -19,21 +27,21 @@ FlashProve 的发布标志着 AI 供应链透明度建设的重要进展。尽�
 
 尽管目前结果尚待独立复现且缺乏系统性基准，但该研究已开源实验日志与修改后的模型。它标志着模型优化从符号计算向语义理解转变，为可解释性研究和高效微调开辟了新方向，预示未来神经网络可能由具备推理能力的 LLM 进行原生优化。&lt;/p&gt;&lt;p&gt;9 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, Rohan Paul (@rohanpaul_ai), 量子位官网, IT之家 · 智能时代, Latent Space, 宝玉 (@dotey)&lt;/p&gt;</description>
 </item>
-<item><title>谷歌捆绑 AI 与搜索，禁用工具将失去权限</title><link>https://todayforai.com/en/story/story-a7283b3a-2a1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a7283b3a-2a1</guid>
-<pubDate>Thu, 05 Nov 2026 00:17:22 +0800</pubDate>
-<description>&lt;p&gt;谷歌宣布调整 K-12 教育产品策略，将 AI 功能与核心搜索服务深度绑定。明年起，Gemini 等 AI 工具默认关闭，需管理员显式开启；若学校选择完全禁用 AI，学生将无法使用 Google 搜索。这一“二选一”机制迫使教育机构在隐私合规与基础信息获取能力之间做出艰难权衡。
-
-多方信源交叉验证显示，此举源于 AI 技术已底层集成至搜索引擎架构，导致无法单独剥离。尽管谷歌声称该政策旨在回应家长对儿童 AI 交互的管控需求，并赋予教师审查对话记录的权限，但 TechCrunch 与 Ars Technica 指出，这实质上构成了基础设施层面的强制推广。学校面临要么全面启用 AI、要么放弃搜索服务的困境，凸显了平台权力对用户选择权的挤压。
-
-该事件标志着科技巨头在教育领域加速 AI 渗透的策略升级，引发了关于技术垄断与数字主权的行业讨论。通过控制关键基础设施，谷歌正从单纯提供工具转向塑造行业标准，这可能加剧其他平台效仿此类捆绑策略，进一步压缩开发者与用户在生态中的自主空间。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, TechCrunch AI, The Verge AI, Ars Technica AI, IT之家 · IT业界, IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
 <item><title>OpenAI 收购 Pierre 优化 Codex 智能体协作工作流</title><link>https://todayforai.com/en/story/story-11323ad5-c1e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-11323ad5-c1e</guid>
-<pubDate>Wed, 04 Nov 2026 23:59:26 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 正式宣布收购开源开发者工具公司 Pierre，核心目的是将其 Trees 和 Diffs 库深度整合进 Codex 应用。这一举措旨在解决 AI 智能体大规模生成代码背景下，传统 Git 工作流面临的审查瓶颈与协作效率问题，标志着 OpenAI 正加速构建面向“人机并行”开发模式的现代软件基础设施。
+<pubDate>Thu, 05 Nov 2026 02:41:03 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 正式宣布收购开源开发者工具公司 Pierre，旨在将其核心组件 Trees 和 Diffs 深度整合进 Codex 应用。此次收购的核心目标是解决 AI 编码代理与人类开发者并行工作时面临的 Git 版本控制瓶颈，通过优化代码审查与文件浏览体验，构建适应“人机协作”新范式的软件开发标准。
 
-技术层面，Pierre 提供的文件浏览与差异对比能力将直接提升 Codex 的代码审查体验。此次收购并非孤立行动，而是与 OpenAI 内部 Pando 后端系统协同运作，共同重构从代码创建到上线的全流程管理。值得注意的是，尽管团队并入 OpenAI，Pierre 现有的开源组件仍将保持开源状态并继续贡献社区，确保生态兼容性。
+多方信源交叉验证显示，Pierre 的开源库此前已作为底层支撑服务于 OpenAI 的 Codex 系统。交易完成后，这些组件将保持开源状态并继续贡献社区，但现有服务将逐步迁移至 Codex 平台。此举不仅强化了代码差异对比能力，更配合内部 Pando 后端系统，完善了从代码生成到上线的全流程管理，有效缓解了 AI 大量生成代码后的人工审查压力。
 
-行业影响上，此举凸显了 AI 编程助手从“辅助编码”向“全流程工程化管理”的演进趋势。通过优化多智能体并行开发场景下的版本控制体验，OpenAI 试图确立智能体时代的软件开发标准，这将进一步降低企业采用 AI 原生开发工作流的门槛，推动开发者工具链向智能化、自动化方向快速迭代。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;OpenAI 官方博客, 宝玉 (@dotey)&lt;/p&gt;</description>
+这一动作标志着 AI 编程工具正从单纯的代码生成向全生命周期管理演进。通过重构版本控制逻辑以适应多智能体并发场景，OpenAI 意在确立面向智能体时代的现代开发基础设施标准，进一步巩固其在 AI 辅助编程领域的生态主导地位。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;OpenAI 官方博客, 宝玉 (@dotey), The Decoder&lt;/p&gt;</description>
+</item>
+<item><title>美国多地公投否决数据中心建设 AI 算力扩张遇阻</title><link>https://todayforai.com/en/story/story-2f8ef443-ba4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2f8ef443-ba4</guid>
+<pubDate>Thu, 05 Nov 2026 02:50:55 +0800</pubDate>
+<description>&lt;p&gt;2026 年美国中期选举后，AI 基础设施扩张遭遇显著政策逆风。九个州超过 30 个地区的选民通过公投普遍否决或严格限制数据中心建设，民调显示 76% 的受访者反对在社区内兴建此类设施。这一政治风向转变标志着依赖大规模算力的 AI 产业正面临由地方民意驱动的基础设施落地难题。
+
+多方信源交叉验证显示，反数据中心议题已成为两党候选人竞选的核心策略，极大增加了项目审批的不确定性。科技巨头试图通过将“数据中心”重命名为“计算园区”来缓解公众抵触情绪，但效果有限。值得注意的是，此前被视为最宽松建设环境的德州在民主党胜选后监管态度发生微妙转变，尽管新政府在实际执行反对立场时仍受限于工会支持与经济利益，理论上的“禁令”执行难度较大，但整体监管环境已趋于严苛。
+
+此次事件对 AI 赛道产生深远影响，迫使科技公司重新评估选址策略并调整扩张节奏。随着公众对能耗、噪音及社区影响的关注度上升，单纯依靠资本投入推动算力增长的模式难以为继。行业需探索更透明的社区沟通机制与绿色技术方案，以应对日益复杂的监管与社会阻力，确保 AI 发展的可持续性。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;The Verge AI, Hacker News AI, MIT Technology Review&lt;/p&gt;</description>
 </item>
 <item><title>AMD AI 算力爆发前三季度净利翻倍</title><link>https://todayforai.com/en/story/story-19fd27fc-1dc</link><guid isPermaLink="true">https://todayforai.com/en/story/story-19fd27fc-1dc</guid>
 <pubDate>Wed, 04 Nov 2026 23:38:34 +0800</pubDate>
@@ -42,14 +50,6 @@ FlashProve 的发布标志着 AI 供应链透明度建设的重要进展。尽�
 多方信源交叉验证显示，AMD 第三季度数据中心营收同比暴涨 97% 至 85.5 亿美元，主要由 Instinct GPU 和 EPYC 处理器的需求激增所推动。随着 MI455X 加速器和 Venice CPU 组成的 Helios 机架系统将于第四季度量产，且 Meta 已启动首批设备测试，公司进一步上调了 2027 年营收增长预期至 80% 以上。预计 Q4 总营收将达约 170 亿美元，历史上首次超越 Intel，毛利率也提升至 54%。
 
 此次业绩爆发不仅抵消了客户端市场的波动，更重塑了半导体行业的竞争格局。AMD 通过构建从芯片到机架系统的完整 AI 算力栈，正在打破 Nvidia 的垄断地位，确立其在高性能计算领域的第二极地位，为开发者与企业提供了更具性价比的替代方案。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), IT之家 · IT业界, Hacker News AI&lt;/p&gt;</description>
-</item>
-<item><title>美国多地公投否决数据中心建设 AI 算力扩张遇阻</title><link>https://todayforai.com/en/story/story-2f8ef443-ba4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2f8ef443-ba4</guid>
-<pubDate>Thu, 05 Nov 2026 00:05:39 +0800</pubDate>
-<description>&lt;p&gt;2026 年中期选举后，美国多地选民通过公投否决或严格限制数据中心建设，导致 AI 基础设施扩张面临实质性政策逆风。民调显示高达 76% 的受访者反对在社区内建设此类设施，公众抵触情绪显著上升，迫使依赖大规模算力的 AI 产业重新审视落地策略。
-
-具体来看，九个州超过 30 个地区的选民在投票中普遍支持暂停或限制法案。这一政治风向转变不仅增加了项目审批的不确定性，还促使两党候选人将反数据中心作为竞选议题。尽管科技巨头试图通过将“数据中心”重命名为“计算园区”来改善公众形象，但多方信源指出这种品牌重塑效果有限，未能有效缓解社区对噪音、能耗及土地占用的担忧。
-
-此事件标志着 AI 基建从单纯的技术竞赛转向复杂的社会治理博弈。地方政治与民意驱动的基础设施阻力，正成为制约 AI 算力增长的关键瓶颈。科技公司需投入更多资源进行社区沟通与环境评估，这可能延缓新模型的训练进度并推高长期运营成本，进而影响整个行业的扩张节奏。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Verge AI, Hacker News AI&lt;/p&gt;</description>
 </item>
 <item><title>vLLM 发布 Kimi K3.1 Pro Day-0 支持，稀疏注意力提升长文推理效率</title><link>https://todayforai.com/en/story/story-0478d679-b84</link><guid isPermaLink="true">https://todayforai.com/en/story/story-0478d679-b84</guid>
 <pubDate>Wed, 04 Nov 2026 23:30:30 +0800</pubDate>
