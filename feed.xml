@@ -13,6 +13,14 @@
 <category>晶圆厂</category>
 <category>汽车电子</category>
 </item>
+<item><title>AA-PersonalityBench: Open Weights Models Lag Proprietary in Truthfulness and Structure</title><link>https://x.com/ArtificialAnlys/status/2117787337836868058</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2117787337836868058</guid>
+<pubDate>Wed, 04 Nov 2026 09:13:42 +0800</pubDate>
+<description>&lt;p&gt;Artificial Analysis&amp;#x27;s AA-PersonalityBench compares top open-weights and proprietary LLMs across 30 personality traits. Results show open-weights models rank significantly lower than proprietary ones in truthfulness, pragmatism, and structure (with a 32-point gap in truthfulness), while scoring higher on &amp;#x27;slop&amp;#x27; and bottom-line summarization. This highlights current gaps in the open-source ecosystem regarding reasoning rigor and content conciseness.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AA-PersonalityBench 显示开源模型在真实性与结构上显著落后于闭源模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了量化数据以评估开源与闭源模型在非性能指标（人格/风格）上的具体差异，对模型选型有参考价值。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 68/100&lt;/p&gt;</description>
+<source url="https://x.com/ArtificialAnlys/status/2117787337836868058">Artificial Analysis (@ArtificialAnlys)</source>
+<category>大模型评测</category>
+<category>开源 vs 闭源</category>
+<category>Artificial Analysis</category>
+</item>
 <item><title>ByteDance Restricts Employee Use of External AI Tools</title><link>https://www.ithome.com/1/021/917.htm</link><guid isPermaLink="true">https://www.ithome.com/1/021/917.htm</guid>
 <pubDate>Wed, 04 Nov 2026 09:12:30 +0800</pubDate>
 <description>&lt;p&gt;ByteDance has banned the use of external AI tools like Claude and Codex via personal accounts for accessing L4-level code repositories and Feishu documents. This move aims to prevent core asset leakage and signals a stricter approach by major tech firms regarding internal data compliance and reliance on third-party AI.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;字节跳动限制员工使用 Claude 等外部 AI&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;反映头部科技公司对 AI 数据安全与内部工具闭环的战略转向，具有行业风向标意义。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 68/100&lt;/p&gt;</description>
@@ -22,6 +30,24 @@
 <category>AI 合规</category>
 <category>Claude</category>
 <category>Codex</category>
+</item>
+<item><title>Claude Opus 5.5 Struggles with Stopping Criteria in Robot Arm Control</title><link>https://x.com/ArtificialAnlys/status/2117786852375814228</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2117786852375814228</guid>
+<pubDate>Wed, 04 Nov 2026 09:11:46 +0800</pubDate>
+<description>&lt;p&gt;Recent tests reveal that Claude Opus 5.5 struggles with stopping criteria when controlling a robot arm. While the model correctly identified task completion, it entered an inefficient loop of pushing and pulling for 22 minutes after declaring success. This highlights a critical gap in current LLMs&amp;#x27; ability to autonomously terminate actions in embodied AI scenarios.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Claude Opus 5.5 控制机械臂暴露停止判断难题&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该案例具体展示了大模型在具身智能（Embodied AI）中从感知到行动闭环的失效模式，对开发自主代理具有警示意义。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · agent · signal 68/100&lt;/p&gt;</description>
+<source url="https://x.com/ArtificialAnlys/status/2117786852375814228">Artificial Analysis (@ArtificialAnlys)</source>
+<category>具身智能</category>
+<category>机器人控制</category>
+<category>Agent</category>
+<category>Claude</category>
+</item>
+<item><title>Artificial Analysis Releases Capability Indexes v2.0 with Focus on Hallucination and Agentic Tool Use</title><link>https://x.com/ArtificialAnlys/status/2117780641618207006</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2117780641618207006</guid>
+<pubDate>Wed, 04 Nov 2026 08:47:06 +0800</pubDate>
+<description>&lt;p&gt;Artificial Analysis updated its six industry-specific Capability Indexes to v2.0, aligning them with the Intelligence Index v5.0. The update places greater emphasis on Non-Hallucination and Agentic Tool Use capabilities while adjusting benchmark weights. Among open-weight models, Kimi K3.1 Pro (weights unreleased) leads all six indexes, followed by MiniMax-M3.1-Flash in Strategy &amp;amp; Ops and DeepSeek V4.1 Flash in Healthcare.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Artificial Analysis 发布能力指数 v2.0，强化幻觉抑制与智能体工具使用评估&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该更新反映了 AI 评测标准向实际业务落地能力（如减少幻觉、调用工具）的倾斜，对开发者选型具有参考价值。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 68/100&lt;/p&gt;</description>
+<source url="https://x.com/ArtificialAnlys/status/2117780641618207006">Artificial Analysis (@ArtificialAnlys)</source>
+<category>大模型评测</category>
+<category>Artificial Analysis</category>
+<category>开源模型</category>
+<category>智能体</category>
 </item>
 <item><title>Nexus Mods Mandates AI Disclosure, Rejects Total Ban</title><link>https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures</link><guid isPermaLink="true">https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures</guid>
 <pubDate>Wed, 04 Nov 2026 08:42:10 +0800</pubDate>
@@ -199,30 +225,38 @@
 <category>LangChain</category>
 <category>Best Practices</category>
 </item>
-<item><title>Founder Claims Interacting with AI Agents More Than Human Teammates</title><link>https://x.com/gregisenberg/status/2117734977312047537</link><guid isPermaLink="true">https://x.com/gregisenberg/status/2117734977312047537</guid>
+<item><title>创业者称 AI Agent 交互频率超人类团队</title><link>https://x.com/gregisenberg/status/2117734977312047537</link><guid isPermaLink="true">https://x.com/gregisenberg/status/2117734977312047537</guid>
 <pubDate>Wed, 04 Nov 2026 05:45:38 +0800</pubDate>
-<description>&lt;p&gt;Entrepreneur Greg Isenberg describes a workflow where interactions with multiple AI agents (Grokbot, Exa, Firecrawl) exceed communication with human teammates. He details a stack involving voice commands, MCP integrations, and automated competitor monitoring, highlighting the deep penetration of AI agents in enterprise collaboration.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;创业者称 AI Agent 交互频率超人类团队&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了具体的多 Agent 工作流案例，但缺乏量化数据与技术细节支撑，属于行业观察类内容。&lt;/p&gt;&lt;p&gt;GREG ISENBERG (@gregisenberg) · agent · signal 45/100&lt;/p&gt;</description>
+<description>&lt;p&gt;创业者 Greg Isenberg 描述其公司日常运营中，与多个 AI Agent（如 Grokbot、Exa、Firecrawl）的交互频率已超过与人类团队成员的沟通。他展示了通过语音指令、MCP 协议集成及自动化竞品监控构建的工作流，反映了 AI Agent 在企业协作中的深度渗透趋势。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了具体的多 Agent 工作流案例，但缺乏量化数据与技术细节支撑，属于行业观察类内容。&lt;/p&gt;&lt;p&gt;GREG ISENBERG (@gregisenberg) · agent · signal 45/100&lt;/p&gt;</description>
 <source url="https://x.com/gregisenberg/status/2117734977312047537">GREG ISENBERG (@gregisenberg)</source>
 <category>智能体</category>
 <category>工作流</category>
 <category>MCP</category>
 </item>
-<item><title>Ballistic Ventures Seeks $490M for New Funds Amid AI Cybersecurity Boom</title><link>https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/</guid>
+<item><title>Ballistic Ventures 拟募 4.9 亿美元 押注 AI 网络安全</title><link>https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/</guid>
 <pubDate>Wed, 04 Nov 2026 05:43:08 +0800</pubDate>
-<description>&lt;p&gt;Cybersecurity-focused VC firm Ballistic Ventures has filed with the SEC to raise a total of $490 million across two new funds. The move aims to capitalize on the surge in AI-driven cyberattacks and emerging security opportunities created by AI agents.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Ballistic Ventures 拟募 4.9 亿美元 押注 AI 网络安全&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;反映了 AI 技术演进对网络安全赛道资本流向的直接影响，属于典型的行业融资动态。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 45/100&lt;/p&gt;</description>
+<description>&lt;p&gt;专注网络安全的风险投资机构 Ballistic Ventures 向 SEC 提交文件，计划募集总计 4.9 亿美元的新基金。此举旨在应对人工智能驱动的复杂网络攻击激增及 AI 智能体带来的新安全机遇。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;反映了 AI 技术演进对网络安全赛道资本流向的直接影响，属于典型的行业融资动态。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 45/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/">TechCrunch AI</source>
 <category>风险投资</category>
 <category>网络安全</category>
 <category>AI 应用</category>
 </item>
-<item><title>Menlo Ventures Report: Enterprise AI Spend Surges 5.4x in 2026</title><link>https://x.com/rohanpaul_ai/status/2117732473992016049</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117732473992016049</guid>
+<item><title>Menlo Ventures 报告：2026 企业 AI 支出激增 5.4 倍</title><link>https://x.com/rohanpaul_ai/status/2117732473992016049</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117732473992016049</guid>
 <pubDate>Wed, 04 Nov 2026 05:35:42 +0800</pubDate>
-<description>&lt;p&gt;A new Menlo Ventures report reveals that enterprise AI deployment spend surged from $33B to $177B in 2026, a 5.4x increase. Agent traffic surpassed human traffic on OpenRouter, accounting for 80% of token consumption and driving the growth. Anthropic, OpenAI, and Google captured 69% of the market, with Anthropic&amp;#x27;s share of enterprise API spend rising significantly to 55%.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Menlo Ventures 报告：2026 企业 AI 支出激增 5.4 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了极具冲击力的量化数据，揭示了智能体如何重塑企业 AI 支出结构及市场格局。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 85/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Menlo Ventures 最新报告显示，2026 年企业 AI 部署支出从 330 亿美元飙升至 1770 亿美元，增长 5.4 倍。智能体（Agent）流量首次超越人类流量并占据 80% 的 Token 消耗，成为主要驱动力。Anthropic、OpenAI 和 Google 合计占据 69% 的市场份额，其中 Anthropic 在企业 API 支出中的占比显著提升至 55%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了极具冲击力的量化数据，揭示了智能体如何重塑企业 AI 支出结构及市场格局。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 85/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2117732473992016049">Rohan Paul (@rohanpaul_ai)</source>
 <category>企业AI</category>
 <category>智能体</category>
 <category>市场报告</category>
 <category>Menlo Ventures</category>
+</item>
+<item><title>Artificial Analysis 更新 CritPt v2 评分服务 模型排名基本不变</title><link>https://x.com/ArtificialAnlys/status/2117731452951384073</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2117731452951384073</guid>
+<pubDate>Wed, 04 Nov 2026 05:31:38 +0800</pubDate>
+<description>&lt;p&gt;Artificial Analysis 与 CritPt 作者合作完成了 CritPt v2 评分服务器的最终定稿，并将于次日通过 API 向社区开放。此次更新包含对评分逻辑的鲁棒性改进，重新评估后大多数模型得分略有上升，但前沿模型的 Intelligence Index 排名未发生变化。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;属于基准测试基础设施的例行维护与微调，虽涉及核心评测工具更新，但对行业格局无实质影响。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 35/100&lt;/p&gt;</description>
+<source url="https://x.com/ArtificialAnlys/status/2117731452951384073">Artificial Analysis (@ArtificialAnlys)</source>
+<category>基准测试</category>
+<category>Artificial Analysis</category>
+<category>CritPt</category>
 </item>
 <item><title>AMD 2026 财年前三季度净利翻倍，AI 算力驱动营收增长</title><link>https://www.ithome.com/1/021/871.htm</link><guid isPermaLink="true">https://www.ithome.com/1/021/871.htm</guid>
 <pubDate>Wed, 04 Nov 2026 05:27:22 +0800</pubDate>
@@ -232,41 +266,6 @@
 <category>财报</category>
 <category>AI 芯片</category>
 <category>数据中心</category>
-</item>
-<item><title>美科技巨头 AI 隐性债务半年激增 90% 至 3.2 万亿美元</title><link>https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months</link><guid isPermaLink="true">https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months</guid>
-<pubDate>Wed, 04 Nov 2026 05:26:44 +0800</pubDate>
-<description>&lt;p&gt;美国科技巨头的表外 AI 相关债务在六个月内几乎翻倍，达到约 3.2 万亿美元。这一数据揭示了 AI 基础设施投入带来的巨大财务杠杆风险，引发投资者对支出不可持续性的担忧。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示 AI 热潮背后的宏观金融风险与资本结构变化，对行业观察者极具警示意义。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months">Hacker News AI</source>
-<category>AI 基建</category>
-<category>财务风险</category>
-<category>科技巨头</category>
-</item>
-<item><title>Kairos 开源发布：支持 AI Agent 调优的实时风控决策平台</title><link>https://github.com/finic-ai/kairos</link><guid isPermaLink="true">https://github.com/finic-ai/kairos</guid>
-<pubDate>Wed, 04 Nov 2026 05:16:48 +0800</pubDate>
-<description>&lt;p&gt;Kairos 推出开源实时欺诈与风险决策平台，作为 Sardine 等商业产品的替代方案。其核心创新在于内置 MCP 服务器，允许开发者使用 Claude Code、Cursor 等编码智能体直接调整检测逻辑与工作流，并引入无标签场景下的决策模型以应对冷启动问题。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;将 AI Agent 深度集成到传统金融风控基础设施中，提供了“Agent-first”的工程范式参考，对开发者具有较高实用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
-<source url="https://github.com/finic-ai/kairos">Hacker News AI</source>
-<category>开源工具</category>
-<category>AI Agent</category>
-<category>金融科技</category>
-<category>MCP</category>
-</item>
-<item><title>路透曝 OpenAI 代码库权限失控 内部警告多年未改</title><link>https://x.com/rohanpaul_ai/status/2117725253728338101</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117725253728338101</guid>
-<pubDate>Wed, 04 Nov 2026 05:07:00 +0800</pubDate>
-<description>&lt;p&gt;路透社报道指出，OpenAI 长期将大部分代码存储于单一 monorepo 中，导致拥有访问权限的员工可浏览与其工作无关的敏感项目细节。尽管内部员工多年来向高管及董事会发出安全警告，但公司因优先追求与 Google 和 Anthropic 的竞争速度而未及时整改。OpenAI 回应称模型权重等核心机密数据并未包含在该代码库中。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示头部 AI 公司在高速扩张下的工程治理与安全合规隐患，对行业架构决策具有警示意义。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 68/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2117725253728338101">Rohan Paul (@rohanpaul_ai)</source>
-<category>OpenAI</category>
-<category>数据安全</category>
-<category>Monorepo</category>
-<category>工程治理</category>
-</item>
-<item><title>Palantir Q3 营收暴增但企业销售放缓信号显现</title><link>https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/</guid>
-<pubDate>Wed, 04 Nov 2026 05:05:55 +0800</pubDate>
-<description>&lt;p&gt;Palantir 第三季度营收同比增长 96% 至 23.1 亿美元，首次突破 20 亿大关并大幅超出预期。然而，尽管美国商业收入超越政府收入且全年指引上调，其核心增长引擎——企业级 AI 销售却显示出放缓迹象，导致股价反应平淡。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;虽为财务新闻，但揭示了 AI 基础设施巨头在商业化扩张中遇到的实际瓶颈，对评估 AI 行业落地现状有参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 45/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/">TechCrunch AI</source>
-<category>Palantir</category>
-<category>财报</category>
-<category>AI 商业化</category>
-<category>企业软件</category>
 </item>
 </channel>
 </rss>
