@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Thu, 05 Nov 2026 05:09:09 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 05 Nov 2026 06:51:59 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 开源 FlashProve 实现 AI 模型零知识溯源验证</title><link>https://todayforai.com/en/story/story-be67363e-457</link><guid isPermaLink="true">https://todayforai.com/en/story/story-be67363e-457</guid>
 <pubDate>Thu, 05 Nov 2026 01:17:46 +0800</pubDate>
@@ -63,9 +63,13 @@ FlashProve 的发布标志着 AI 供应链透明度建设的重要进展。尽�
 <pubDate>Thu, 05 Nov 2026 01:34:29 +0800</pubDate>
 <description>&lt;p&gt;Artificial Analysis 调整 API 性能基准测试方法，将“任务耗时”（Time per Task）确立为衡量模型表现的核心指标，以替代传统的流式输出速度。该变更旨在反映智能体工作负载下，端到端完成效率比单纯 Token 生成速率更具实际意义，并优化了包含预填充和推理等待在内的全链路延迟测量逻辑。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
 </item>
-<item><title>AA-PersonalityBench 显示开源模型在真实性与结构上显著落后于闭源模型</title><link>https://todayforai.com/en/story/story-2c873dbe-a2e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2c873dbe-a2e</guid>
-<pubDate>Thu, 05 Nov 2026 01:00:00 +0800</pubDate>
-<description>&lt;p&gt;Artificial Analysis 发布的 AA-PersonalityBench 基准测试对比了顶尖开源与闭源大模型的30项人格特质。数据显示，开源模型在真实性、务实性和结构化输出等关键维度平均排名显著低于闭源模型（如真实性差距达32分），但在“废话率”和“摘要能力”上表现更优。该结果揭示了当前开源生态在复杂推理严谨性与内容精炼度上的短板。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
+<item><title>OpenAI 用 GPT-5.5 发现千余 Linux 内核漏洞</title><link>https://todayforai.com/en/story/story-4fad257c-391</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4fad257c-391</guid>
+<pubDate>Thu, 05 Nov 2026 06:51:59 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 近日展示其新一代网络安全智能体系统，利用未公开的 GPT-5.5 Cyber 模型在受控环境中对 Linux 内核进行系统性扫描。该原型系统在短短 12 小时内完成了约 7% 的内核代码审计（涉及 280 万行代码），成功识别出 2308 个候选漏洞，并动态复现了其中的 1724 个。这一成果标志着 AI 在自动化漏洞挖掘与验证领域取得了突破性进展，显著提升了安全研究的效率。
+
+技术细节显示，该系统不仅具备极高的准确率，其候选漏洞复现率高达 74.7%，且仅 3.1% 为模型幻觉导致的误报。更令人瞩目的是，AI 进一步生成了 948 个可本地提权（LPE）的完整利用程序（Exploit），验证了从漏洞发现到实际利用的全链路自动化能力。此次任务 API 成本约为 31.65 万美元，证明了大规模自动化安全审计在经济和技术上的可行性。
+
+这一事件对开源软件生态及网络安全行业具有深远影响。OpenAI 采用“先发现后优先排序”策略，并配合 Patch the Planet 计划推动上游修复，展示了 AI 作为防御性工具的潜力。然而，自动生成高价值 Exploit 的能力也引发了关于双刃剑效应的讨论，迫使业界重新审视 AI 驱动的安全威胁与防御平衡，加速了传统人工审计向人机协同模式的转型。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;OpenAI 官方博客, IT之家 · IT业界&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
