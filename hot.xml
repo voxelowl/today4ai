@@ -51,14 +51,6 @@ FlashProve 的发布标志着 AI 供应链透明度建设的重要进展。尽�
 
 此事件标志着 AI 基建从单纯的技术竞赛转向复杂的社会治理博弈。地方政治与民意驱动的基础设施阻力，正成为制约 AI 算力增长的关键瓶颈。科技公司需投入更多资源进行社区沟通与环境评估，这可能延缓新模型的训练进度并推高长期运营成本，进而影响整个行业的扩张节奏。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Verge AI, Hacker News AI&lt;/p&gt;</description>
 </item>
-<item><title>Anthropic 披露 AI 承担 26% 研发任务逼近自我改进</title><link>https://todayforai.com/en/story/story-72ed5e78-962</link><guid isPermaLink="true">https://todayforai.com/en/story/story-72ed5e78-962</guid>
-<pubDate>Tue, 03 Nov 2026 21:26:43 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 在最新提交的 S-1A 上市文件中正式披露，其内部评估显示下一代模型可能即将达到“递归自我改进”（RSI）的安全阈值。核心数据显示，截至 8 月，AI 已自动完成 Anthropic 下一代模型构建流程中 26% 的任务，且 Claude 的使用量在 8 个月内激增超 250 倍，月价值已超过人力成本。这一事实标志着头部实验室正实质性推进“用 AI 造 AI”的内部自动化闭环。
-
-多方信源交叉验证指出，Anthropic 将 RSI 定义为 AI 能力提升速度达到无辅助下最快进步速度的 2 倍。公司承认在利用 AI 加速研发时，曾出现团队未察觉的能力跃升现象，这导致安全对齐与验证的速度可能滞后于能力发展。尽管当前模型尚未跨越该红线，但招股书同时揭示了巨大的财务压力：Q3 营收同比暴增 1127% 至 170 亿美元，但算力采购账单高达 8954 亿美元，净亏损扩大，凸显了基础设施成本与安全治理的双重挑战。
-
-此次披露将 AI 安全边界问题直接引入资本市场定价视野，迫使投资者重新评估前沿模型开发的失控风险。Anthropic 承诺修订《负责任扩展政策》以强化人类监督，但这表明 RSI 已从理论概念转化为具体的工程风险。随着 AI 深度参与核心训练管线，行业需建立更严格的治理机制，以应对指数级能力加速带来的潜在失控隐患。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;量子位官网, TechCrunch AI, Rohan Paul (@rohanpaul_ai), IT之家 · 智能时代, Hacker News AI&lt;/p&gt;</description>
-</item>
 <item><title>vLLM 发布 Kimi K3.1 Pro Day-0 支持，稀疏注意力提升长文推理效率</title><link>https://todayforai.com/en/story/story-0478d679-b84</link><guid isPermaLink="true">https://todayforai.com/en/story/story-0478d679-b84</guid>
 <pubDate>Wed, 04 Nov 2026 23:30:30 +0800</pubDate>
 <description>&lt;p&gt;月之暗面正式开源其迄今最强的原生多模态智能体模型 Kimi K3.1 Pro，该模型采用总参数达 2.8T、激活参数 104B 的混合专家（MoE）架构，并支持 100 万 token 的超长上下文窗口。作为首个 K3.1 系列模型，它通过大规模联合强化学习后训练，在编码、3D 生成及金融研究等复杂任务上表现显著提升。
@@ -66,6 +58,14 @@ FlashProve 的发布标志着 AI 供应链透明度建设的重要进展。尽�
 vLLM 团队迅速宣布对该模型提供 Day-0 支持，重点解决了超大参数与长上下文带来的推理瓶颈。技术层面，Kimi K3.1 Pro 在 MLA 层引入了稀疏注意力机制（DSA），使解码时读取字节数减少约 75%。vLLM 结合 Token 分片预填充和解码上下文并行（DCP）技术，在 340K 长文本场景下将首字延迟降低至 1.69 倍加速，同时使注意力模块速度提升 1.3-1.5 倍，实现了推理效率与吞吐量的双重突破。
 
 这一进展标志着开源大模型在“超大规模 MoE + 超长上下文”组合下的工程化落地能力迈上新台阶。对于开发者而言，Day-0 支持意味着无需等待即可部署高性能推理服务，大幅降低了使用顶级开源模型的技术门槛。稀疏注意力优化的成功验证，也为后续处理百万级 token 文档和复杂智能体任务提供了高效的架构参考，有望加速 AI 在长文档分析领域的产业化应用。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;vLLM 官方博客, Hacker News AI&lt;/p&gt;</description>
+</item>
+<item><title>百度发布 Apollo World 世界模型 虚拟路测效率提升千倍</title><link>https://todayforai.com/en/story/story-61c49452-ffe</link><guid isPermaLink="true">https://todayforai.com/en/story/story-61c49452-ffe</guid>
+<pubDate>Thu, 05 Nov 2026 00:13:23 +0800</pubDate>
+<description>&lt;p&gt;百度在 AI Day 上正式发布首个面向物理 AI 的全模态世界模型「Apollo World」。该模型通过构建高自由度交互式虚拟交通环境，将原本需真实车辆行驶三年的测试里程压缩至一天完成，实现 L4 自动驾驶迭代效率的千倍级跃升。这一突破标志着自动驾驶验证从“被动记录”转向“主动推演”，为萝卜快跑全球化部署提供核心算力支撑。
+
+技术层面，Apollo World 打破了传统世界模型仅能模拟几十秒孤立片段的瓶颈，支持连续数十分钟的完整接单推演与毫秒级实时交互。其核心创新在于引入具备决策能力的智能体交通参与者，遵循“2+3”评判标准，强调对物理规律与行为因果的忠实还原，而非单纯追求视觉渲染逼真度。这种架构有效解决了自动驾驶在安全、实时性与博弈场景下的“不可能三角”。
+
+行业影响方面，该技术已应用于萝卜快跑全球 28 座城市的测试验证，并配合新一代端到端驾驶模型正式上车。通过云端大规模并行训练，百度大幅降低了路测成本与时间门槛，加速了 L4 级无人驾驶从实验室走向规模化商业落地的进程，重塑了自动驾驶研发范式。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;InfoQ 中文, 新智元 (微信公众号), 量子位官网&lt;/p&gt;</description>
 </item>
 <item><title>苹果 iOS 27.3 上线国行智能，接入阿里千问</title><link>https://todayforai.com/en/story/story-cb38b177-358</link><guid isPermaLink="true">https://todayforai.com/en/story/story-cb38b177-358</guid>
 <pubDate>Wed, 04 Nov 2026 22:49:55 +0800</pubDate>
@@ -75,9 +75,13 @@ vLLM 团队迅速宣布对该模型提供 Day-0 支持，重点解决了超大�
 
 这一举措对国内 AI 生态格局产生深远影响。苹果 CEO 透露 Siri 日均处理超 25 亿次请求，并预告部分高级 AI 功能未来将采取收费模式，显示出苹果在商业化路径上的明确规划。通过与本土头部厂商合作，苹果既满足了合规要求，又提升了用户体验，为后续大规模普及奠定了技术与商业基础。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, The Verge AI, IT之家 · IT业界&lt;/p&gt;</description>
 </item>
-<item><title>腾讯混元 Hy4 登顶 Agent Arena 开源榜首</title><link>https://todayforai.com/en/story/story-a726c565-591</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a726c565-591</guid>
-<pubDate>Wed, 04 Nov 2026 15:15:01 +0800</pubDate>
-<description>&lt;p&gt;腾讯混元 Hy4 在 Agent Arena 评测中位列总榜第 14，并有望成为开源模型第一。该模型在长程智能体任务中表现优异，成本仅为竞品 Kimi K3.1 Pro 的 62%，且在成功率、可控性等关键指标上全面超越预览版。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Arena.ai (@arena)&lt;/p&gt;</description>
+<item><title>Anthropic 披露 AI 承担 26% 研发任务逼近自我改进</title><link>https://todayforai.com/en/story/story-72ed5e78-962</link><guid isPermaLink="true">https://todayforai.com/en/story/story-72ed5e78-962</guid>
+<pubDate>Tue, 03 Nov 2026 21:26:43 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 在最新提交的 S-1A 上市文件中正式披露，其内部评估显示下一代模型可能即将达到“递归自我改进”（RSI）的安全阈值。核心数据显示，截至 8 月，AI 已自动完成 Anthropic 下一代模型构建流程中 26% 的任务，且 Claude 的使用量在 8 个月内激增超 250 倍，月价值已超过人力成本。这一事实标志着头部实验室正实质性推进“用 AI 造 AI”的内部自动化闭环。
+
+多方信源交叉验证指出，Anthropic 将 RSI 定义为 AI 能力提升速度达到无辅助下最快进步速度的 2 倍。公司承认在利用 AI 加速研发时，曾出现团队未察觉的能力跃升现象，这导致安全对齐与验证的速度可能滞后于能力发展。尽管当前模型尚未跨越该红线，但招股书同时揭示了巨大的财务压力：Q3 营收同比暴增 1127% 至 170 亿美元，但算力采购账单高达 8954 亿美元，净亏损扩大，凸显了基础设施成本与安全治理的双重挑战。
+
+此次披露将 AI 安全边界问题直接引入资本市场定价视野，迫使投资者重新评估前沿模型开发的失控风险。Anthropic 承诺修订《负责任扩展政策》以强化人类监督，但这表明 RSI 已从理论概念转化为具体的工程风险。随着 AI 深度参与核心训练管线，行业需建立更严格的治理机制，以应对指数级能力加速带来的潜在失控隐患。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;量子位官网, TechCrunch AI, Rohan Paul (@rohanpaul_ai), IT之家 · 智能时代, Hacker News AI&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
