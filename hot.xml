@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Wed, 04 Nov 2026 22:49:55 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 04 Nov 2026 23:23:49 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
+<item><title>Anthropic 开源 FlashProve 实现 AI 模型零知识溯源验证</title><link>https://todayforai.com/en/story/story-be67363e-457</link><guid isPermaLink="true">https://todayforai.com/en/story/story-be67363e-457</guid>
+<pubDate>Wed, 04 Nov 2026 23:23:49 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 正式开源 FlashProve，这是一项基于 zkSNARK 技术的“可证明推理”系统，旨在解决 AI 服务中模型身份不透明的问题。该工具允许第三方在不泄露模型权重的前提下，通过数学证明验证特定回复是否由指定版本的模型生成，从而有效防止服务商暗中降级模型或伪造性能基准。
+
+在技术实现上，FlashProve 展现出显著的效率突破与权衡。测试数据显示，在 Llama 4 Maverick (400B MoE) 模型上，单张 H100 GPU 生成证明的速度达到约 110 tokens/秒，较前代 VerInf 方案提升数千倍；而普通 CPU 仅需约 17 秒即可完成独立验证。此外，其核心安全保证已通过 Lean 4 语言完成形式化证明，增强了代码的可审计性。然而，该方案目前存在明显局限：验证过程需消耗相当于普通 vLLM 推理 70-95 倍的 GPU 算力，且最大支持上下文长度仅为 1,024 tokens。
+
+FlashProve 的发布标志着 AI 供应链透明度建设的重要进展。尽管目前仍处于研究阶段且尚未大规模部署，但它为构建可信 AI 生态提供了关键基础设施。未来，随着算力成本的优化和上下文限制的突破，此类零知识证明技术有望成为规范大模型 API 服务、保障开发者权益及增强用户信任的核心标准。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), TechCrunch AI, Marktechpost (@Marktechpost), IT之家 · 智能时代, Anthropic AI (@AnthropicAI), The Decoder&lt;/p&gt;</description>
+</item>
 <item><title>谷歌捆绑 AI 与搜索，禁用工具将失去权限</title><link>https://todayforai.com/en/story/story-a7283b3a-2a1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a7283b3a-2a1</guid>
 <pubDate>Wed, 04 Nov 2026 18:06:23 +0800</pubDate>
 <description>&lt;p&gt;谷歌宣布调整 K-12 教育产品策略，将 AI 功能与核心搜索服务深度绑定。明年起，Gemini 等 AI 工具默认关闭，需管理员显式开启；若学校选择完全禁用 AI，学生将无法使用 Google 搜索。这一“二选一”机制迫使教育机构在隐私合规与基础信息获取能力之间做出艰难权衡。
@@ -10,14 +18,6 @@
 多方信源交叉验证显示，此举源于 AI 技术已底层集成至搜索引擎架构，导致无法单独剥离。尽管谷歌声称该政策旨在回应家长对儿童 AI 交互的管控需求，并赋予教师审查对话记录的权限，但 TechCrunch 与 Ars Technica 指出，这实质上构成了基础设施层面的强制推广。学校面临要么全面启用 AI、要么放弃搜索服务的困境，凸显了平台权力对用户选择权的挤压。
 
 该事件标志着科技巨头在教育领域加速 AI 渗透的策略升级，引发了关于技术垄断与数字主权的行业讨论。通过控制关键基础设施，谷歌正从单纯提供工具转向塑造行业标准，这可能加剧其他平台效仿此类捆绑策略，进一步压缩开发者与用户在生态中的自主空间。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, TechCrunch AI, The Verge AI, Ars Technica AI, IT之家 · IT业界, IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
-<item><title>Anthropic 开源 FlashProve 实现 AI 模型零知识溯源验证</title><link>https://todayforai.com/en/story/story-be67363e-457</link><guid isPermaLink="true">https://todayforai.com/en/story/story-be67363e-457</guid>
-<pubDate>Wed, 04 Nov 2026 16:04:16 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 正式开源 FlashProve，这是一项基于 zkSNARK 技术的“可证明推理”系统，旨在解决 AI 服务中模型身份不透明的问题。该工具允许第三方在不泄露模型权重的前提下，通过数学证明验证特定回复是否由指定版本的模型生成，从而有效防止服务商暗中降级模型或伪造性能基准。
-
-在技术实现上，FlashProve 展现出显著的效率突破与权衡。测试数据显示，在 Llama 4 Maverick (400B MoE) 模型上，单张 H100 GPU 生成证明的速度达到约 110 tokens/秒，较前代 VerInf 方案提升数千倍；而普通 CPU 仅需约 17 秒即可完成独立验证。此外，其核心安全保证已通过 Lean 4 语言完成形式化证明，增强了代码的可审计性。然而，该方案目前存在明显局限：验证过程需消耗相当于普通 vLLM 推理 70-95 倍的 GPU 算力，且最大支持上下文长度仅为 1,024 tokens。
-
-FlashProve 的发布标志着 AI 供应链透明度建设的重要进展。尽管目前仍处于研究阶段且尚未大规模部署，但它为构建可信 AI 生态提供了关键基础设施。未来，随着算力成本的优化和上下文限制的突破，此类零知识证明技术有望成为规范大模型 API 服务、保障开发者权益及增强用户信任的核心标准。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), TechCrunch AI, Marktechpost (@Marktechpost), IT之家 · 智能时代, Anthropic AI (@AnthropicAI)&lt;/p&gt;</description>
 </item>
 <item><title>MIT 推出权重空间编程 Astra 免训练使 Qwen 数学能力跃升六倍</title><link>https://todayforai.com/en/story/story-7028676c-267</link><guid isPermaLink="true">https://todayforai.com/en/story/story-7028676c-267</guid>
 <pubDate>Tue, 03 Nov 2026 13:35:00 +0800</pubDate>

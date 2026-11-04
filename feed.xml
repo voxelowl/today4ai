@@ -1,8 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Wed, 04 Nov 2026 23:14:03 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 04 Nov 2026 23:23:49 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Anthropic Open-Sources FlashProve to Verify Model Origin via zkSNARK</title><link>https://the-decoder.com/anthropics-new-prototype-proves-which-model-wrote-an-ai-response-without-exposing-its-weights/</link><guid isPermaLink="true">https://the-decoder.com/anthropics-new-prototype-proves-which-model-wrote-an-ai-response-without-exposing-its-weights/</guid>
+<pubDate>Wed, 04 Nov 2026 23:23:49 +0800</pubDate>
+<description>&lt;p&gt;Anthropic released FlashProve, an open-source research prototype using zkSNARK cryptography to verify that AI responses originate from the claimed model without exposing weights. It addresses trust issues like silent model swapping or data tampering but currently only supports greedy decoding (highest probability token), limiting its applicability to standard randomized chatbot outputs.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 开源 FlashProve 用 zkSNARK 验证模型来源&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了大模型推理溯源的密码学解决方案，虽处于早期阶段但具有显著的技术创新性和行业参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 68/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/anthropics-new-prototype-proves-which-model-wrote-an-ai-response-without-exposing-its-weights/">The Decoder</source>
+<category>Anthropic</category>
+<category>zkSNARK</category>
+<category>模型验证</category>
+<category>开源</category>
+</item>
+<item><title>LiberAI Releases Liber-0: Glove Data Replaces Robot Demos</title><link>https://x.com/rohanpaul_ai/status/2118001113542901773</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118001113542901773</guid>
+<pubDate>Wed, 04 Nov 2026 23:23:10 +0800</pubDate>
+<description>&lt;p&gt;Chinese startup LiberAI released Liber-0, a robot foundation model trained on data from lightweight sensor gloves. It achieved a 36% success rate on new tasks without any robot demonstrations. Experiments showed that 10K hours of glove motion data outperformed 2M hours of internet video, significantly lowering the barrier for embodied AI data acquisition.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;LiberAI 发布 Liber-0 模型 手套数据替代机器人演示&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该事件提出了“以人手动作数据替代机器人遥操作”的新范式，且提供了具体的量化对比证据（手套数据 vs 视频数据），对具身智能领域具有较高参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 88/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2118001113542901773">Rohan Paul (@rohanpaul_ai)</source>
+<category>具身智能</category>
+<category>机器人学习</category>
+<category>数据采集</category>
+<category>LiberAI</category>
+</item>
+<item><title>OpenAI Acquires Pierre Computer Team</title><link>https://twitter.com/pierrecomputer/status/2117999036175188183</link><guid isPermaLink="true">https://twitter.com/pierrecomputer/status/2117999036175188183</guid>
+<pubDate>Wed, 04 Nov 2026 23:21:21 +0800</pubDate>
+<description>&lt;p&gt;OpenAI has announced the acquisition of startup Pierre Computer. Public information confirms the deal but lacks details on financial terms, integration plans, or specific technology assets.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 收购 Pierre Computer 团队&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司的并购动态具有行业风向标意义，但当前缺乏实质技术或商业细节，信息增量有限。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 45/100&lt;/p&gt;</description>
+<source url="https://twitter.com/pierrecomputer/status/2117999036175188183">Hacker News AI</source>
+<category>OpenAI</category>
+<category>收购</category>
+<category>Pierre Computer</category>
+</item>
 <item><title>Leaked Anthropic Fable 5.5 Generates Animation via Pure Code in 2 Hours</title><link>https://www.ithome.com/1/022/468.htm</link><guid isPermaLink="true">https://www.ithome.com/1/022/468.htm</guid>
 <pubDate>Wed, 04 Nov 2026 23:14:03 +0800</pubDate>
 <description>&lt;p&gt;Developers leaked early tests of Anthropic&amp;#x27;s unreleased flagship model, Claude Fable 5.5, which generated a full animation by running code autonomously for over two hours without external assets. This demonstration highlights the shift from code completion to long-horizon autonomous execution, though official confirmation and standardized benchmarks are still pending.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic Fable 5.5 泄露：2 小时纯代码生成动画&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了大模型在长时程自主编码与多模态内容生成结合上的显著能力突破，尽管处于泄露阶段仍具高关注度。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 78/100&lt;/p&gt;</description>
@@ -164,27 +190,27 @@
 <category>Supply Chain</category>
 <category>Hardware Pricing</category>
 </item>
-<item><title>Synaptics Legal Threats Halt Open-Source DisplayLink Driver</title><link>https://www.phoronix.com/news/Synaptics-Blocks-Vino-Driver</link><guid isPermaLink="true">https://www.phoronix.com/news/Synaptics-Blocks-Vino-Driver</guid>
+<item><title>Synaptics 发律师函下架开源 DisplayLink 驱动</title><link>https://www.phoronix.com/news/Synaptics-Blocks-Vino-Driver</link><guid isPermaLink="true">https://www.phoronix.com/news/Synaptics-Blocks-Vino-Driver</guid>
 <pubDate>Wed, 04 Nov 2026 19:14:12 +0800</pubDate>
-<description>&lt;p&gt;Synaptics issued cease-and-desist notices to developers of the &amp;#x27;Vino&amp;#x27; open-source DisplayLink driver, forcing its removal. This action blocks community support for modern USB graphics hardware on Linux, highlighting tensions between patent enforcement and open-source development.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Synaptics 发律师函下架开源 DisplayLink 驱动&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;事件揭示了大厂利用法律手段压制社区逆向工程驱动的典型案例，对 Linux 硬件支持生态有警示意义。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 45/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Synaptics 向社区开发者发送停止侵权通知，导致基于 AI 辅助开发的 Rust 语言开源 DisplayLink 驱动“Vino”被迫下架。此举意味着最新 USB 图形硬件将缺乏官方支持的 Linux 开源驱动，引发对专利壁垒阻碍开源生态的担忧。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;事件揭示了大厂利用法律手段压制社区逆向工程驱动的典型案例，对 Linux 硬件支持生态有警示意义。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 45/100&lt;/p&gt;</description>
 <source url="https://www.phoronix.com/news/Synaptics-Blocks-Vino-Driver">Hacker News AI</source>
 <category>开源</category>
 <category>Linux</category>
 <category>驱动</category>
 <category>专利</category>
 </item>
-<item><title>CXMT Proposes Raising Share Buyback Cap to 5 Billion Yuan, Setting STAR Market Record</title><link>https://www.ithome.com/1/022/378.htm</link><guid isPermaLink="true">https://www.ithome.com/1/022/378.htm</guid>
+<item><title>长鑫科技提议将回购上限增至 50 亿元创科创板纪录</title><link>https://www.ithome.com/1/022/378.htm</link><guid isPermaLink="true">https://www.ithome.com/1/022/378.htm</guid>
 <pubDate>Wed, 04 Nov 2026 19:03:54 +0800</pubDate>
-<description>&lt;p&gt;CXMT&amp;#x27;s chairman proposed increasing the share buyback cap from 2 billion yuan to 5 billion yuan, setting a new record for single-instance buybacks on the STAR Market. This move comes amid stock price pressure and following a turnaround to profitability in the first three quarters, aiming to boost investor confidence and stabilize market value.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;长鑫科技提议将回购上限增至 50 亿元创科创板纪录&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;作为 AI 存储芯片龙头的资本运作动作，虽非技术突破，但对市场情绪和产业链稳定性有显著影响。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 45/100&lt;/p&gt;</description>
+<description>&lt;p&gt;长鑫科技董事长提议将股份回购金额上限从 20 亿元大幅上调至 50 亿元，此举将创下科创板单次回购金额最高纪录。该决策发生在公司股价承压及前三季度业绩扭亏为盈的背景下，旨在增强投资者信心并稳定市值。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;作为 AI 存储芯片龙头的资本运作动作，虽非技术突破，但对市场情绪和产业链稳定性有显著影响。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 45/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/022/378.htm">IT之家 · IT业界</source>
 <category>长鑫科技</category>
 <category>股票回购</category>
 <category>AI 基础设施</category>
 <category>资本市场</category>
 </item>
-<item><title>Oracle Cancels $7B Tencent AI Chip Lease After US Objections</title><link>https://x.com/rohanpaul_ai/status/2117935779343482918</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117935779343482918</guid>
+<item><title>Oracle 因美方反对取消腾讯 70 亿美元 AI 芯片租赁协议</title><link>https://x.com/rohanpaul_ai/status/2117935779343482918</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117935779343482918</guid>
 <pubDate>Wed, 04 Nov 2026 19:03:33 +0800</pubDate>
-<description>&lt;p&gt;Oracle has cancelled a $7 billion, five-year lease with Tencent after US objections, stripping access to up to 100K advanced AI chips via Southeast Asian data centers. This move, alongside Nvidia&amp;#x27;s new resale restrictions, cuts off a critical overseas compute channel for Chinese labs and leaves Tencent facing a training capacity gap just as its Hunyuan models compete with Alibaba&amp;#x27;s Qwen.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Oracle 因美方反对取消腾讯 70 亿美元 AI 芯片租赁协议&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;地缘政治对 AI 算力供应链的直接干预案例，揭示了中美双重挤压下云厂商与模型公司的现实困境。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 85/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Oracle 在美方施压下取消了与腾讯价值 70 亿美元的五年算力租赁合同，该合同原计划通过东南亚数据中心提供约 10 万颗先进 AI 芯片。此举切断了中国实验室获取海外高端训练算力的关键渠道，同时 Nvidia 也收紧了云服务转售限制，导致腾讯 Hunyuan 模型训练面临算力缺口。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;地缘政治对 AI 算力供应链的直接干预案例，揭示了中美双重挤压下云厂商与模型公司的现实困境。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 85/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2117935779343482918">Rohan Paul (@rohanpaul_ai)</source>
 <category>AI 芯片</category>
 <category>算力租赁</category>
@@ -245,34 +271,6 @@
 <category>数据采集</category>
 <category>京东</category>
 <category>机器人</category>
-</item>
-<item><title>英飞凌发布首款 RISC-V 汽车 MCU AURIX RC1</title><link>https://www.ithome.com/1/022/353.htm</link><guid isPermaLink="true">https://www.ithome.com/1/022/353.htm</guid>
-<pubDate>Wed, 04 Nov 2026 18:17:02 +0800</pubDate>
-<description>&lt;p&gt;英飞凌推出首款基于开放标准 RISC-V 架构的汽车微控制器平台 AURIX RC1，计划于 2027 年上半年提供样品。该平台集成边缘 AI 并行处理单元与后量子密码学支持，旨在通过统一可扩展的硬件基础简化软件定义汽车开发，并配套 DRIVECORE 软件生态以加速迁移。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;RISC-V 正式进入主流车规级 MCU 领域，标志着汽车芯片架构从专有转向开源的重要节点，对自动驾驶算力底座有长期影响。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 68/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/022/353.htm">IT之家 · IT业界</source>
-<category>英飞凌</category>
-<category>RISC-V</category>
-<category>汽车芯片</category>
-<category>边缘AI</category>
-</item>
-<item><title>Gemini 付费用户聊天数据仍用于训练且无法单独退出</title><link>https://news.ycombinator.com/item?id=50363461</link><guid isPermaLink="true">https://news.ycombinator.com/item?id=50363461</guid>
-<pubDate>Wed, 04 Nov 2026 18:10:27 +0800</pubDate>
-<description>&lt;p&gt;Google Gemini 个人版订阅用户的聊天历史默认用于模型训练，且无独立关闭选项。用户若不想被训练，必须完全关闭“保留活动”功能，但这会导致聊天记录在 72 小时后自动删除。此外，部分对话会被人工审核并保留长达三年，官方明确警告勿输入机密信息。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了主流 AI 产品隐私政策的重大漏洞，直接影响企业和个人用户对敏感数据的处理决策。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://news.ycombinator.com/item?id=50363461">Hacker News AI</source>
-<category>Gemini</category>
-<category>隐私政策</category>
-<category>数据合规</category>
-<category>Google</category>
-</item>
-<item><title>招商局发布 Lion-ER-35B-A3B 具身推理模型 主打能力牵引数据引擎</title><link>https://www.qbitai.com/2026/11/507586.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/507586.html</guid>
-<pubDate>Wed, 04 Nov 2026 18:08:38 +0800</pubDate>
-<description>&lt;p&gt;招商局狮子山实验室发布开源具身推理视觉语言模型「驭物™ Lion-ER-35B-A3B」。该模型采用 MoE 架构（总参 35B，激活 3B），摒弃单纯堆砌数据路线，转而构建“能力牵引”的数据引擎，通过拆解 8 大领域与 39 项细粒度能力进行正向设计与闭环迭代。在十项主流具身基准上实现全指标上涨，多项核心能力超越更大参数模型，旨在提升机器人对三维空间、物体状态及任务进度的理解能力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了具身智能领域区别于传统数据堆砌的新范式（能力牵引数据引擎），且模型已开源并具备实际评测结果，对机器人开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;量子位官网 · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.qbitai.com/2026/11/507586.html">量子位官网</source>
-<category>具身智能</category>
-<category>MoE</category>
-<category>开源模型</category>
-<category>视觉语言模型</category>
-<category>招商局</category>
 </item>
 </channel>
 </rss>
