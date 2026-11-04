@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Wed, 04 Nov 2026 07:16:23 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 04 Nov 2026 08:02:27 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>MIT 推出权重空间编程 Astra 免训练使 Qwen 数学能力跃升六倍</title><link>https://todayforai.com/en/story/story-7028676c-267</link><guid isPermaLink="true">https://todayforai.com/en/story/story-7028676c-267</guid>
 <pubDate>Tue, 03 Nov 2026 13:35:00 +0800</pubDate>
@@ -43,6 +43,22 @@
 
 作为首家纯大模型上市公司，Anthropic 的财务数据与风险披露将为 AI 行业提供关键估值基准。其客户结构显著升级，年付费超 10 万美元的企业客户激增至 1.19 万家，表明 B 端商业化路径已跑通。然而，公司也警示当前三位数的增长率不可持续，且高度依赖云巨头渠道，这对后续市场表现及监管环境提出了严峻挑战。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, Rohan Paul (@rohanpaul_ai), 量子位官网, IT之家 · IT业界, The Verge AI, The Decoder&lt;/p&gt;</description>
 </item>
+<item><title>Anthropic 开源 FlashProve 实现 AI 模型溯源验证</title><link>https://todayforai.com/en/story/story-be67363e-457</link><guid isPermaLink="true">https://todayforai.com/en/story/story-be67363e-457</guid>
+<pubDate>Wed, 04 Nov 2026 06:41:03 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 正式开源 FlashProve，这是一套基于零知识证明（zkSNARK）技术的 AI 模型溯源验证工具。该方案的核心突破在于允许第三方在不泄露模型权重的前提下，通过数学证明独立验证 AI 回复是否由特定版本的模型生成，从而有效解决中间商静默降级或偷换模型的信任危机。
+
+在技术性能与安全性方面，FlashProve 展现出显著优势。实测数据显示，在 Llama 4 Maverick (400B MoE) 模型上，单张 H100 GPU 生成证明的速度达到约 110 tokens/秒，较前代 VerInf 系统提升数千倍；普通 CPU 仅需约 17 秒即可完成验证。此外，鉴于代码审计难度，其核心安全保证已通过 Lean 4 形式化证明语言完成严格验证。然而，该方案目前存在明显权衡：验证过程需消耗普通推理 70-95 倍的 GPU 算力，且最大支持上下文长度限制为 1,024 tokens。
+
+FlashProve 的发布标志着“可验证推理”从理论走向工程实践的重要一步。尽管目前仍处于中间研究阶段且尚未大规模部署，但它为构建透明、可信的 AI 供应链提供了关键基础设施。未来随着算力成本优化及长上下文支持的完善，该技术有望重塑开发者对云端模型服务的信任机制，遏制行业内的性能虚报现象。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), TechCrunch AI, Marktechpost (@Marktechpost)&lt;/p&gt;</description>
+</item>
+<item><title>苹果 iOS 27.3 上线国行智能，接入阿里千问</title><link>https://todayforai.com/en/story/story-cb38b177-358</link><guid isPermaLink="true">https://todayforai.com/en/story/story-cb38b177-358</guid>
+<pubDate>Wed, 04 Nov 2026 08:02:27 +0800</pubDate>
+<description>&lt;p&gt;苹果在 iOS 27.3 开发者预览版中正式向国行 iPhone 15 Pro 及更新机型开放「Apple 智能与 Siri」功能，标志着其 AI 战略在中国市场的实质性落地。此次更新通过与阿里巴巴合作，将通义千问（Qwen）大模型深度集成至系统底层，支持实时翻译、写作辅助及视觉智能等核心场景，无需跳转独立应用即可调用。
+
+多方信源交叉验证显示，该版本不仅实现了文本与图像理解能力的本地化适配，还引入了 AirPods 跨语言实时翻译及百度识图搜索功能。同时，Siri 获得了跨应用操作权限，通过新增的“应用技能”机制，允许开发者封装任务，使用户能结合屏幕感知与个人上下文执行复杂自然语言指令，且无需显式提及应用名称。
+
+这一举措对国内 AI 生态格局产生深远影响。苹果 CEO 透露 Siri 日均处理超 25 亿次请求，并预告部分高级 AI 功能未来将采取收费模式，显示出苹果在商业化路径上的明确规划。通过与本土头部厂商合作，苹果既满足了合规要求，又提升了用户体验，为后续大规模普及奠定了技术与商业基础。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, The Verge AI, IT之家 · IT业界&lt;/p&gt;</description>
+</item>
 <item><title>OpenAI 证实 ChatGPT 搜索量达谷歌两成</title><link>https://todayforai.com/en/story/story-aa1ea981-d45</link><guid isPermaLink="true">https://todayforai.com/en/story/story-aa1ea981-d45</guid>
 <pubDate>Wed, 04 Nov 2026 07:16:23 +0800</pubDate>
 <description>&lt;p&gt;OpenAI 高管近日证实，ChatGPT 上的搜索类查询量已相当于谷歌搜索总量的 20%，这一数据标志着 AI 聊天机器人正式成为传统搜索引擎的重大分流者。与此同时，ChatGPT 周活跃用户突破 12 亿，过去两个月新增 2 亿，显示出极强的用户增长势头。
@@ -66,22 +82,6 @@
 深入分析显示，数据中心业务是绝对的增长引擎，第三季度营收同比暴涨 97% 至 85.5 亿美元，主要由 Instinct GPU 和 EPYC 处理器驱动。技术层面，结合 MI455X 加速器和 Venice CPU 的 Helios 机架系统将于第四季度量产，Meta 已启动首批设备测试。公司据此上调 2027 年整体营收增长预期至 80% 以上，高于市场此前预期的 77%，显示出对长期 AI 算力市场的强烈信心。
 
 此次财报不仅验证了 AMD 在 AI 基础设施赛道的竞争力，更预示着其数据中心业务占比将在明年达到 80%，彻底重塑公司收入结构。随着 Helios 系统的落地与大客户测试进展顺利，AMD 正从传统 CPU 厂商向全栈 AI 算力供应商转型，有望进一步挤压竞争对手市场份额，加速全球 AI 算力格局的重构。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), IT之家 · IT业界&lt;/p&gt;</description>
-</item>
-<item><title>Qwen 3.8 27B 本地复现权重空间编程</title><link>https://todayforai.com/en/story/story-5acc61f4-d41</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5acc61f4-d41</guid>
-<pubDate>Wed, 04 Nov 2026 01:40:00 +0800</pubDate>
-<description>&lt;p&gt;开源模型 Qwen 3.8 27B 成功在消费级笔记本上复现了“权重空间编程”能力，证实这一前沿技术不再依赖云端超大模型。该突破意味着中等规模的本地 AI 也能直接解读和修改神经网络原始权重，实现了从文本描述到网络权重的重构。
-
-多方信源交叉验证显示，该技术允许 LLM 仅通过阅读浮点数权重推断训练目标，无需环境反馈或梯度计算即可从零构建高性能网络。Simon Willison 的测试表明，模型能生成超越传统 PPO 训练结果的小型游戏网络，突破了基于梯度微调的传统限制，展现了极强的架构理解与生成能力。
-
-这一进展对 AI 生态具有深远意义，它降低了高级神经架构搜索（NAS）和模型优化的硬件门槛。开发者可在本地低成本环境下探索新型网络结构，加速算法迭代，并推动开源社区在模型可解释性与自动化设计领域的深入研究。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Simon Willison 博客, Hacker News AI&lt;/p&gt;</description>
-</item>
-<item><title>Anthropic 开源 FlashProve 实现 AI 模型溯源验证</title><link>https://todayforai.com/en/story/story-be67363e-457</link><guid isPermaLink="true">https://todayforai.com/en/story/story-be67363e-457</guid>
-<pubDate>Wed, 04 Nov 2026 06:41:03 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 正式开源了名为 FlashProve 的密码学工具，旨在通过数学证明解决 AI 服务中的“模型偷换”信任危机。该工具允许服务器生成可验证的证明，确保用户收到的响应确实由指定的大语言模型生成，而非被中间商静默替换为廉价或降级版本。这一突破将 AI 推理的可信度从依赖厂商信誉提升至基于密码学的硬性保证。
-
-在技术性能与安全层面，FlashProve 展现了极高的实用价值。实测数据显示，在 Llama 4 Maverick 模型上，单张 H100 GPU 生成证明的速度可达 110 tokens/秒，而普通 CPU 仅需约 17 秒即可完成验证，大幅降低了部署门槛。此外，鉴于底层代码审计的难度，Anthropic 已使用 Lean 4 证明辅助语言对其核心安全保证完成了形式化验证，确保了逻辑上的严密性与抗攻击能力。
-
-尽管目前 FlashProve 仍处于中间研究阶段且尚未在生产环境大规模部署，但其发布标志着“可验证推理”成为行业新标准。它将迫使 AI 服务商在透明度上做出更多承诺，有效遏制虚报性能基准的行为，并为开发者构建更可信、透明的 AI 应用生态提供了关键基础设施。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), TechCrunch AI&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
