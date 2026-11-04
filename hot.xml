@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Wed, 04 Nov 2026 13:18:42 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 04 Nov 2026 16:04:16 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>谷歌捆绑 AI 与搜索，禁用工具将失去权限</title><link>https://todayforai.com/en/story/story-a7283b3a-2a1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a7283b3a-2a1</guid>
 <pubDate>Wed, 04 Nov 2026 13:18:42 +0800</pubDate>
@@ -18,6 +18,14 @@
 该技术的核心突破在于无需梯度下降或传统训练循环，而是通过定位特定层（如第 15、19 层 MLP）的权重缺陷来消除推理中的重复循环障碍，从而释放模型潜在能力。此外，Astra 还展现出从零编写高性能游戏网络权重的能力，其效果超越传统 PPO 训练基线 20 倍。这一发现证实了大语言模型具备原生读写神经网络参数的能力，被视为比传统知识蒸馏更高效的优化手段。
 
 “权重空间编程”为 AI 自主进化提供了新路径，可能重塑模型迭代与可解释性研究格局。它有望绕过递归自我改进（RSI）中高成本的自动搜索环节，显著降低算力开销。尽管目前结果尚待独立复现且存在局限，但该范式预示未来神经网络将由具备推理能力的 LLM 进行原生优化，而非依赖传统符号优化器。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, Rohan Paul (@rohanpaul_ai), 量子位官网, IT之家 · 智能时代, Latent Space, 宝玉 (@dotey)&lt;/p&gt;</description>
+</item>
+<item><title>Anthropic 开源 FlashProve 实现 AI 模型零知识溯源验证</title><link>https://todayforai.com/en/story/story-be67363e-457</link><guid isPermaLink="true">https://todayforai.com/en/story/story-be67363e-457</guid>
+<pubDate>Wed, 04 Nov 2026 16:04:16 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 正式开源 FlashProve，这是一项基于 zkSNARK 技术的“可证明推理”系统，旨在解决 AI 服务中模型身份不透明的问题。该工具允许第三方在不泄露模型权重的前提下，通过数学证明验证特定回复是否由指定版本的模型生成，从而有效防止服务商暗中降级模型或伪造性能基准。
+
+在技术实现上，FlashProve 展现出显著的效率突破与权衡。测试数据显示，在 Llama 4 Maverick (400B MoE) 模型上，单张 H100 GPU 生成证明的速度达到约 110 tokens/秒，较前代 VerInf 方案提升数千倍；而普通 CPU 仅需约 17 秒即可完成独立验证。此外，其核心安全保证已通过 Lean 4 语言完成形式化证明，增强了代码的可审计性。然而，该方案目前存在明显局限：验证过程需消耗相当于普通 vLLM 推理 70-95 倍的 GPU 算力，且最大支持上下文长度仅为 1,024 tokens。
+
+FlashProve 的发布标志着 AI 供应链透明度建设的重要进展。尽管目前仍处于研究阶段且尚未大规模部署，但它为构建可信 AI 生态提供了关键基础设施。未来，随着算力成本的优化和上下文限制的突破，此类零知识证明技术有望成为规范大模型 API 服务、保障开发者权益及增强用户信任的核心标准。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), TechCrunch AI, Marktechpost (@Marktechpost), IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 披露 AI 承担 26% 研发任务逼近自我改进</title><link>https://todayforai.com/en/story/story-72ed5e78-962</link><guid isPermaLink="true">https://todayforai.com/en/story/story-72ed5e78-962</guid>
 <pubDate>Tue, 03 Nov 2026 21:26:43 +0800</pubDate>
@@ -42,14 +50,6 @@
 尽管账面净亏损高达 807 亿美元，但多方信源交叉验证指出，这主要源于亚马逊和谷歌可转债公允价值变动的非现金会计损失，实际经营性亏损仅约 7 亿美元。公司核心成本为算力基建，未来十年已签署总额逾 5000 亿美元的长期算力采购协议，涵盖 Broadcom、SpaceXAI 等供应商。值得注意的是，Anthropic 罕见地在文件中用 94 页篇幅警告“AI 存在性风险”，并披露曾为安全暂停旗舰模型训练，凸显其将安全理念置于商业叙事核心的独特定位。
 
 作为首家纯大模型上市公司，Anthropic 的财务数据与风险披露将为 AI 行业提供关键估值基准。其客户结构显著升级，年付费超 10 万美元的企业客户激增至 1.19 万家，表明 B 端商业化路径已跑通。然而，公司也警示当前三位数的增长率不可持续，且高度依赖云巨头渠道，这对后续市场表现及监管环境提出了严峻挑战。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, Rohan Paul (@rohanpaul_ai), 量子位官网, IT之家 · IT业界, The Verge AI, The Decoder&lt;/p&gt;</description>
-</item>
-<item><title>Anthropic 开源 FlashProve 实现 AI 模型溯源验证</title><link>https://todayforai.com/en/story/story-be67363e-457</link><guid isPermaLink="true">https://todayforai.com/en/story/story-be67363e-457</guid>
-<pubDate>Wed, 04 Nov 2026 06:41:03 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 正式开源 FlashProve，这是一套基于零知识证明（zkSNARK）技术的 AI 模型溯源验证工具。该方案的核心突破在于允许第三方在不泄露模型权重的前提下，通过数学证明独立验证 AI 回复是否由特定版本的模型生成，从而有效解决中间商静默降级或偷换模型的信任危机。
-
-在技术性能与安全性方面，FlashProve 展现出显著优势。实测数据显示，在 Llama 4 Maverick (400B MoE) 模型上，单张 H100 GPU 生成证明的速度达到约 110 tokens/秒，较前代 VerInf 系统提升数千倍；普通 CPU 仅需约 17 秒即可完成验证。此外，鉴于代码审计难度，其核心安全保证已通过 Lean 4 形式化证明语言完成严格验证。然而，该方案目前存在明显权衡：验证过程需消耗普通推理 70-95 倍的 GPU 算力，且最大支持上下文长度限制为 1,024 tokens。
-
-FlashProve 的发布标志着“可验证推理”从理论走向工程实践的重要一步。尽管目前仍处于中间研究阶段且尚未大规模部署，但它为构建透明、可信的 AI 供应链提供了关键基础设施。未来随着算力成本优化及长上下文支持的完善，该技术有望重塑开发者对云端模型服务的信任机制，遏制行业内的性能虚报现象。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), TechCrunch AI, Marktechpost (@Marktechpost)&lt;/p&gt;</description>
 </item>
 <item><title>苹果 iOS 27.3 上线国行智能，接入阿里千问</title><link>https://todayforai.com/en/story/story-cb38b177-358</link><guid isPermaLink="true">https://todayforai.com/en/story/story-cb38b177-358</guid>
 <pubDate>Wed, 04 Nov 2026 08:02:27 +0800</pubDate>
