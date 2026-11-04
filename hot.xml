@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Thu, 05 Nov 2026 00:17:22 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 05 Nov 2026 01:17:46 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 开源 FlashProve 实现 AI 模型零知识溯源验证</title><link>https://todayforai.com/en/story/story-be67363e-457</link><guid isPermaLink="true">https://todayforai.com/en/story/story-be67363e-457</guid>
-<pubDate>Wed, 04 Nov 2026 23:23:49 +0800</pubDate>
+<pubDate>Thu, 05 Nov 2026 01:17:46 +0800</pubDate>
 <description>&lt;p&gt;Anthropic 正式开源 FlashProve，这是一项基于 zkSNARK 技术的“可证明推理”系统，旨在解决 AI 服务中模型身份不透明的问题。该工具允许第三方在不泄露模型权重的前提下，通过数学证明验证特定回复是否由指定版本的模型生成，从而有效防止服务商暗中降级模型或伪造性能基准。
 
 在技术实现上，FlashProve 展现出显著的效率突破与权衡。测试数据显示，在 Llama 4 Maverick (400B MoE) 模型上，单张 H100 GPU 生成证明的速度达到约 110 tokens/秒，较前代 VerInf 方案提升数千倍；而普通 CPU 仅需约 17 秒即可完成独立验证。此外，其核心安全保证已通过 Lean 4 语言完成形式化证明，增强了代码的可审计性。然而，该方案目前存在明显局限：验证过程需消耗相当于普通 vLLM 推理 70-95 倍的 GPU 算力，且最大支持上下文长度仅为 1,024 tokens。
 
-FlashProve 的发布标志着 AI 供应链透明度建设的重要进展。尽管目前仍处于研究阶段且尚未大规模部署，但它为构建可信 AI 生态提供了关键基础设施。未来，随着算力成本的优化和上下文限制的突破，此类零知识证明技术有望成为规范大模型 API 服务、保障开发者权益及增强用户信任的核心标准。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), TechCrunch AI, Marktechpost (@Marktechpost), IT之家 · 智能时代, Anthropic AI (@AnthropicAI), The Decoder&lt;/p&gt;</description>
+FlashProve 的发布标志着 AI 供应链透明度建设的重要进展。尽管目前仍处于研究阶段且尚未大规模部署，但它为构建可信 AI 生态提供了关键基础设施。未来，随着算力成本的优化和上下文限制的突破，此类零知识证明技术有望成为规范大模型 API 服务、保障开发者权益及增强用户信任的核心标准。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), TechCrunch AI, Marktechpost (@Marktechpost), IT之家 · 智能时代, Anthropic AI (@AnthropicAI), The Decoder&lt;/p&gt;</description>
 </item>
 <item><title>MIT 推出权重空间编程 Astra 免训练使 Qwen 数学能力跃升六倍</title><link>https://todayforai.com/en/story/story-7028676c-267</link><guid isPermaLink="true">https://todayforai.com/en/story/story-7028676c-267</guid>
 <pubDate>Wed, 04 Nov 2026 23:44:44 +0800</pubDate>
@@ -27,13 +27,13 @@ FlashProve 的发布标志着 AI 供应链透明度建设的重要进展。尽�
 
 该事件标志着科技巨头在教育领域加速 AI 渗透的策略升级，引发了关于技术垄断与数字主权的行业讨论。通过控制关键基础设施，谷歌正从单纯提供工具转向塑造行业标准，这可能加剧其他平台效仿此类捆绑策略，进一步压缩开发者与用户在生态中的自主空间。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, TechCrunch AI, The Verge AI, Ars Technica AI, IT之家 · IT业界, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
-<item><title>AMD AI 算力爆发前三季度净利翻倍</title><link>https://todayforai.com/en/story/story-19fd27fc-1dc</link><guid isPermaLink="true">https://todayforai.com/en/story/story-19fd27fc-1dc</guid>
-<pubDate>Wed, 04 Nov 2026 23:38:34 +0800</pubDate>
-<description>&lt;p&gt;AMD 在人工智能算力需求的强劲驱动下交出了一份超预期的成绩单。2026 财年前三季度，公司归母净利润达到 61.08 亿美元，同比大幅增长 116.29%，全面超越华尔街预期。这一历史性突破标志着 AMD 已从传统的 CPU 厂商成功转型为 AI 基础设施的核心供应商，数据中心业务成为其增长的最强引擎。
+<item><title>OpenAI 收购 Pierre 优化 Codex 智能体协作工作流</title><link>https://todayforai.com/en/story/story-11323ad5-c1e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-11323ad5-c1e</guid>
+<pubDate>Wed, 04 Nov 2026 23:59:26 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 正式宣布收购开源开发者工具公司 Pierre，核心目的是将其 Trees 和 Diffs 库深度整合进 Codex 应用。这一举措旨在解决 AI 智能体大规模生成代码背景下，传统 Git 工作流面临的审查瓶颈与协作效率问题，标志着 OpenAI 正加速构建面向“人机并行”开发模式的现代软件基础设施。
 
-多方信源交叉验证显示，AMD 第三季度数据中心营收同比暴涨 97% 至 85.5 亿美元，主要由 Instinct GPU 和 EPYC 处理器的需求激增所推动。随着 MI455X 加速器和 Venice CPU 组成的 Helios 机架系统将于第四季度量产，且 Meta 已启动首批设备测试，公司进一步上调了 2027 年营收增长预期至 80% 以上。预计 Q4 总营收将达约 170 亿美元，历史上首次超越 Intel，毛利率也提升至 54%。
+技术层面，Pierre 提供的文件浏览与差异对比能力将直接提升 Codex 的代码审查体验。此次收购并非孤立行动，而是与 OpenAI 内部 Pando 后端系统协同运作，共同重构从代码创建到上线的全流程管理。值得注意的是，尽管团队并入 OpenAI，Pierre 现有的开源组件仍将保持开源状态并继续贡献社区，确保生态兼容性。
 
-此次业绩爆发不仅抵消了客户端市场的波动，更重塑了半导体行业的竞争格局。AMD 通过构建从芯片到机架系统的完整 AI 算力栈，正在打破 Nvidia 的垄断地位，确立其在高性能计算领域的第二极地位，为开发者与企业提供了更具性价比的替代方案。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), IT之家 · IT业界, Hacker News AI&lt;/p&gt;</description>
+行业影响上，此举凸显了 AI 编程助手从“辅助编码”向“全流程工程化管理”的演进趋势。通过优化多智能体并行开发场景下的版本控制体验，OpenAI 试图确立智能体时代的软件开发标准，这将进一步降低企业采用 AI 原生开发工作流的门槛，推动开发者工具链向智能化、自动化方向快速迭代。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;OpenAI 官方博客, 宝玉 (@dotey)&lt;/p&gt;</description>
 </item>
 <item><title>美国多地公投否决数据中心建设 AI 算力扩张遇阻</title><link>https://todayforai.com/en/story/story-2f8ef443-ba4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2f8ef443-ba4</guid>
 <pubDate>Thu, 05 Nov 2026 00:05:39 +0800</pubDate>
@@ -42,6 +42,14 @@ FlashProve 的发布标志着 AI 供应链透明度建设的重要进展。尽�
 具体来看，九个州超过 30 个地区的选民在投票中普遍支持暂停或限制法案。这一政治风向转变不仅增加了项目审批的不确定性，还促使两党候选人将反数据中心作为竞选议题。尽管科技巨头试图通过将“数据中心”重命名为“计算园区”来改善公众形象，但多方信源指出这种品牌重塑效果有限，未能有效缓解社区对噪音、能耗及土地占用的担忧。
 
 此事件标志着 AI 基建从单纯的技术竞赛转向复杂的社会治理博弈。地方政治与民意驱动的基础设施阻力，正成为制约 AI 算力增长的关键瓶颈。科技公司需投入更多资源进行社区沟通与环境评估，这可能延缓新模型的训练进度并推高长期运营成本，进而影响整个行业的扩张节奏。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Verge AI, Hacker News AI&lt;/p&gt;</description>
+</item>
+<item><title>AMD AI 算力爆发前三季度净利翻倍</title><link>https://todayforai.com/en/story/story-19fd27fc-1dc</link><guid isPermaLink="true">https://todayforai.com/en/story/story-19fd27fc-1dc</guid>
+<pubDate>Wed, 04 Nov 2026 23:38:34 +0800</pubDate>
+<description>&lt;p&gt;AMD 在人工智能算力需求的强劲驱动下交出了一份超预期的成绩单。2026 财年前三季度，公司归母净利润达到 61.08 亿美元，同比大幅增长 116.29%，全面超越华尔街预期。这一历史性突破标志着 AMD 已从传统的 CPU 厂商成功转型为 AI 基础设施的核心供应商，数据中心业务成为其增长的最强引擎。
+
+多方信源交叉验证显示，AMD 第三季度数据中心营收同比暴涨 97% 至 85.5 亿美元，主要由 Instinct GPU 和 EPYC 处理器的需求激增所推动。随着 MI455X 加速器和 Venice CPU 组成的 Helios 机架系统将于第四季度量产，且 Meta 已启动首批设备测试，公司进一步上调了 2027 年营收增长预期至 80% 以上。预计 Q4 总营收将达约 170 亿美元，历史上首次超越 Intel，毛利率也提升至 54%。
+
+此次业绩爆发不仅抵消了客户端市场的波动，更重塑了半导体行业的竞争格局。AMD 通过构建从芯片到机架系统的完整 AI 算力栈，正在打破 Nvidia 的垄断地位，确立其在高性能计算领域的第二极地位，为开发者与企业提供了更具性价比的替代方案。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), IT之家 · IT业界, Hacker News AI&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 披露 AI 承担 26% 研发任务逼近自我改进</title><link>https://todayforai.com/en/story/story-72ed5e78-962</link><guid isPermaLink="true">https://todayforai.com/en/story/story-72ed5e78-962</guid>
 <pubDate>Tue, 03 Nov 2026 21:26:43 +0800</pubDate>
@@ -74,10 +82,6 @@ vLLM 团队迅速宣布对该模型提供 Day-0 支持，重点解决了超大�
 多方信源交叉验证显示，该禁令通过内部规则（如 &amp;#x27;tengu_heron_brook&amp;#x27;）实施，即便用户将项目重命名或伪装为原创也无法绕过拦截。然而，官方同时确认仍支持基于用户自有资产、设计或通用游戏类型的开发工作，试图在遏制侵权与保留合法创作空间之间寻求平衡。此前，大量用户利用 Opus 5.5 和 GPT-6 Astra 批量生成了 Halo、GTA 等知名游戏的非官方浏览器版本，技术门槛的大幅降低引发了类似“Napster时刻”的生态冲击。
 
 尽管 Anthropic 旨在规避法律风险并保护版权秩序，但业界普遍认为这种软性引导难以从根本上阻止当前的 AI 复制趋势。随着 AI 编码能力的指数级提升，传统版权保护机制面临严峻挑战，未来相关规则的持续调整将成为行业常态，同时也可能误伤部分正常的开发项目。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;量子位官网, Ars Technica AI, The Verge AI, The Decoder, IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
-<item><title>腾讯混元 Hy4 登顶 Agent Arena 开源榜首</title><link>https://todayforai.com/en/story/story-a726c565-591</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a726c565-591</guid>
-<pubDate>Wed, 04 Nov 2026 15:15:01 +0800</pubDate>
-<description>&lt;p&gt;腾讯混元 Hy4 在 Agent Arena 评测中位列总榜第 14，并有望成为开源模型第一。该模型在长程智能体任务中表现优异，成本仅为竞品 Kimi K3.1 Pro 的 62%，且在成功率、可控性等关键指标上全面超越预览版。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Arena.ai (@arena)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

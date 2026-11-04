@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Thu, 05 Nov 2026 00:51:58 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 05 Nov 2026 01:17:46 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Anthropic Advances Provable Inference for LLMs</title><link>https://www.anthropic.com/research/provable-inference</link><guid isPermaLink="true">https://www.anthropic.com/research/provable-inference</guid>
+<pubDate>Thu, 05 Nov 2026 01:17:46 +0800</pubDate>
+<description>&lt;p&gt;Anthropic&amp;#x27;s Frontier Red Team, alongside academic and industry partners, released progress on &amp;#x27;provable inference&amp;#x27; for large language models. This approach utilizes cryptographic proofs to allow users to verify that responses originate from the claimed specific model, preventing unauthorized substitution by routing services or token stream tampering, thereby enhancing interaction trustworthiness.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 推进大模型可证明推理技术&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;解决了 LLM 供应链中“模型身份验证”这一关键信任痛点，具有显著的安全架构创新意义。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.anthropic.com/research/provable-inference">Hacker News AI</source>
+<category>Anthropic</category>
+<category>AI安全</category>
+<category>密码学</category>
+<category>模型验证</category>
+</item>
+<item><title>Replay Proposes Full-Stack Time Travel Debugging to Empower AI Coding Agents</title><link>https://replay.io/blog/an-end-to-buggy-web-apps</link><guid isPermaLink="true">https://replay.io/blog/an-end-to-buggy-web-apps</guid>
+<pubDate>Thu, 05 Nov 2026 01:01:44 +0800</pubDate>
+<description>&lt;p&gt;Replay introduces a time-travel debugging technology for Chromium and Node.js, aiming to provide high-fidelity observability context to AI coding agents. The solution addresses agent hallucinations caused by lack of runtime behavioral data, enabling automated detection and fixing of web app bugs. The capability is currently available via API for integration.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Replay 提出全栈时间旅行调试方案 赋能 AI 编码代理自动修复 Web Bug&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;将可观测性作为 AI Agent 的上下文层是 DevOps 与 AI 结合的重要趋势，但具体落地效果尚待验证。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 42/100&lt;/p&gt;</description>
+<source url="https://replay.io/blog/an-end-to-buggy-web-apps">Hacker News AI</source>
+<category>AI Agent</category>
+<category>DevOps</category>
+<category>Observability</category>
+<category>Debugging</category>
+</item>
 <item><title>Menlo Report: Enterprise AI Spend Hits 4.7x Budget</title><link>https://x.com/rohanpaul_ai/status/2118023461100741103</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118023461100741103</guid>
 <pubDate>Thu, 05 Nov 2026 00:51:58 +0800</pubDate>
 <description>&lt;p&gt;A Menlo Ventures report reveals that average enterprise AI spending reached 4.7x its 2025 level, significantly exceeding the planned 1.9x. The surge is primarily driven by a small cohort of heavy agent users, while median growth remains modest.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Menlo 报告：企业 AI 支出超预算 4.7 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示 AI 成本失控的真实分布与智能体对算力消耗的结构性影响。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
@@ -210,17 +228,17 @@
 <category>iOS 27.3</category>
 <category>生态合作</category>
 </item>
-<item><title>Sam Altman Clarifies RAM Comments: Supports User Memory Freedom</title><link>https://www.theverge.com/ai-artificial-intelligence/1026292/sam-altman-ram-shortage-pcs-comments</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1026292/sam-altman-ram-shortage-pcs-comments</guid>
+<item><title>Sam Altman 澄清 RAM 言论：支持用户自由配置内存</title><link>https://www.theverge.com/ai-artificial-intelligence/1026292/sam-altman-ram-shortage-pcs-comments</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1026292/sam-altman-ram-shortage-pcs-comments</guid>
 <pubDate>Wed, 04 Nov 2026 22:46:01 +0800</pubDate>
-<description>&lt;p&gt;OpenAI CEO Sam Altman addressed backlash over his previous comments on PC RAM usage, clarifying that he supports users having ample memory. He stated his remarks were taken out of context and emphasized his long-standing argument for ramping up global memory production to alleviate shortages.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Sam Altman 澄清 RAM 言论：支持用户自由配置内存&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;虽涉及 AI 基础设施关键资源（DRAM）的供需矛盾，但本质为高管对过往言论的公关式澄清，缺乏新的技术突破或政策实质变化。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 35/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI CEO Sam Altman 在社交媒体上回应此前关于 PC 内存使用的争议，强调他支持世界拥有更多内存并允许用户自由配置。他解释称之前的言论被断章取义，其核心观点是呼吁全球扩大内存产能以缓解短缺，而非限制个人使用。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;虽涉及 AI 基础设施关键资源（DRAM）的供需矛盾，但本质为高管对过往言论的公关式澄清，缺乏新的技术突破或政策实质变化。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 35/100&lt;/p&gt;</description>
 <source url="https://www.theverge.com/ai-artificial-intelligence/1026292/sam-altman-ram-shortage-pcs-comments">The Verge AI</source>
 <category>OpenAI</category>
 <category>DRAM</category>
 <category>供应链</category>
 </item>
-<item><title>HN Community Polls Current AI Agentic Workflows</title><link>https://news.ycombinator.com/item?id=50366117</link><guid isPermaLink="true">https://news.ycombinator.com/item?id=50366117</guid>
+<item><title>HN 社区发起 AI 智能体工作流现状调查</title><link>https://news.ycombinator.com/item?id=50366117</link><guid isPermaLink="true">https://news.ycombinator.com/item?id=50366117</guid>
 <pubDate>Wed, 04 Nov 2026 22:37:22 +0800</pubDate>
-<description>&lt;p&gt;A Hacker News user initiated a discussion on current AI agentic workflows, covering subscriptions, model sources, coding tools, and orchestration platforms. The post aims to gather developer feedback on workflow changes over the past year, representing a community opinion poll rather than a technical release or deep analysis.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;HN 社区发起 AI 智能体工作流现状调查&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;虽涉及热门话题，但仅为开放式提问与观点征集，缺乏具体数据、方法论或实质性结论，信息增量有限。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 35/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Hacker News 用户发起关于当前 AI 智能体（Agent）使用习惯的讨论，涵盖订阅服务、模型来源、编码工具及编排平台。该帖旨在收集开发者对过去一年工作流变化的直观反馈，属于社区意见征集而非技术发布或深度分析。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;虽涉及热门话题，但仅为开放式提问与观点征集，缺乏具体数据、方法论或实质性结论，信息增量有限。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 35/100&lt;/p&gt;</description>
 <source url="https://news.ycombinator.com/item?id=50366117">Hacker News AI</source>
 <category>AI Agent</category>
 <category>Community Discussion</category>
@@ -253,24 +271,6 @@
 <category>Math 2.0</category>
 <category>认知外包</category>
 <category>科研范式</category>
-</item>
-<item><title>Living Brain 将记忆解耦为独立层，支持跨模型共享与低成本检索</title><link>https://x.com/rohanpaul_ai/status/2117984454056788388</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2117984454056788388</guid>
-<pubDate>Wed, 04 Nov 2026 22:16:58 +0800</pubDate>
-<description>&lt;p&gt;Living Brain 提出将 AI 记忆从推理模型中解耦，构建独立的持久化存储层。该方案允许 ChatGPT、Claude 及自定义 Agent 通过 MCP 或 API 共享同一份记忆上下文，并通过精准检索相关片段而非全量历史，实现最高 95% 的任务成本降低和 22.6 倍的 Token 节省。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;解决了多模型间记忆孤岛问题，并提供了显著的成本优化数据，对构建长期运行 Agent 的开发者具有较高参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 68/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2117984454056788388">Rohan Paul (@rohanpaul_ai)</source>
-<category>AI 记忆</category>
-<category>Agent 架构</category>
-<category>MCP</category>
-<category>成本优化</category>
-</item>
-<item><title>Jaron Lanier 警示 AI 重蹈社交媒体覆辙</title><link>https://www.youtube.com/watch?v=WxaRn8kX2eI</link><guid isPermaLink="true">https://www.youtube.com/watch?v=WxaRn8kX2eI</guid>
-<pubDate>Wed, 04 Nov 2026 22:10:14 +0800</pubDate>
-<description>&lt;p&gt;科技思想家 Jaron Lanier 在播客中提出观点，认为当前人工智能的发展模式正在重复社交媒体的负面效应。他警告称，若缺乏对数据所有权和人类主体性的尊重，AI 可能加剧社会极化与信息操控问题。该讨论聚焦于技术伦理与社会影响，而非具体技术突破。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;知名学者对 AI 社会影响的批判性思考，适合关注科技伦理的读者。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 35/100&lt;/p&gt;</description>
-<source url="https://www.youtube.com/watch?v=WxaRn8kX2eI">Hacker News AI</source>
-<category>AI伦理</category>
-<category>Jaron Lanier</category>
-<category>社交媒体</category>
-<category>科技评论</category>
 </item>
 </channel>
 </rss>
