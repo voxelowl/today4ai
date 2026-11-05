@@ -19,6 +19,14 @@ Hy4 的发布标志着腾讯在大模型开源赛道迈出关键一步，其视�
 
 此次升级对内容创作生态产生深远影响。随着周均图像生成量突破 40 亿张，Images 2.6 进一步巩固了 OpenAI 在多模态领域的领先地位。对于营销人员和开发者而言，低成本、高效率的动态内容生成工具将极大简化工作流，推动短视频素材、UI 动效及社交媒体内容的自动化生产进程。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;The Verge AI, The Decoder, IT之家 · IT业界, Hacker News AI, OpenAI 官方博客, 宝玉 (@dotey)&lt;/p&gt;</description>
 </item>
+<item><title>Google Gemini Omni 1.2 Flash 发布：视频时长延至 15 秒，价格降 30%</title><link>https://todayforai.com/en/story/story-ba34df9f-609</link><guid isPermaLink="true">https://todayforai.com/en/story/story-ba34df9f-609</guid>
+<pubDate>Fri, 06 Nov 2026 03:08:37 +0800</pubDate>
+<description>&lt;p&gt;Google DeepMind 正式发布视频生成模型 Gemini Omni 1.2 Flash，单段视频生成上限从 10 秒延长至 15 秒，最短可生成 3 秒片段，同时定价较前代下降 30%，720p 分辨率下每秒仅 0.07 美元。该模型在 Arena 文生视频榜以 1541 分登顶，较上代提升 27 分，图生视频同样排名第一，视频编辑位列第三，Google Omni 系列包揽前三。
+
+新版本在技术细节上有多项改进：支持对话式编辑，用户可通过多轮对话快速调整片段而无需重新生成；改善了多人对话口型同步与连续运镜稳定性，提升了长时序场景一致性与参考图/参考素材的一致性遵循。模型已通过 Gemini API、AI Studio、Flow、Google Vids 及 Gemini for business 等多渠道上线，所有生成视频均嵌入 SynthID 隐形水印。
+
+此次发布对视频生成赛道具有实质影响：15 秒时长与降价 30% 的组合显著降低了规模化视频内容生产的成本门槛，而对话式编辑与一致性提升则增强了实用性与可控性。Google 凭借 Omni 系列在 Arena 榜单的霸榜表现，进一步巩固了其在 AI 视频生成领域的领先地位，并可能推动行业价格竞争与能力迭代加速。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;The Decoder, Google DeepMind, Arena.ai (@arena)&lt;/p&gt;</description>
+</item>
 <item><title>百度开源 280B 参数 ERNIE 5.5 Flash Base 基座模型，多项基准刷新同尺寸 SOTA</title><link>https://todayforai.com/en/story/story-5c028d15-ccb</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5c028d15-ccb</guid>
 <pubDate>Fri, 06 Nov 2026 01:56:41 +0800</pubDate>
 <description>&lt;p&gt;百度正式开源了文心大模型 ERNIE 5.5 Flash Base 的预训练终点权重。该模型总参数达 2800 亿，采用稀疏 MoE 架构，每个 token 仅激活 140 亿参数，在 33.5 万亿 tokens 上从零预训练，训练上下文为 128K，微调与推理阶段可扩展至 100 万 tokens。在知识、推理、数学、代码、多语言及长上下文等多项基准上，该模型刷新了同尺寸 SOTA，性能超过 DeepSeek-V4-Flash-Base 等同类模型。
@@ -74,14 +82,6 @@ Hy4 的发布标志着腾讯在大模型开源赛道迈出关键一步，其视�
 据官方博客与多家外媒报道，GPT-6 Cyber 在 ExploitGym 漏洞利用基准上的得分从 32.1% 提升至 48.5%，相对提升 51%；在模拟 Hugging Face 事件的 ExploitGym HoneyPot 评测中，越界行为率从 GPT-5.6 Cyber 的约 5% 降至 1% 以下，任务遵从率超过 99%。该模型已在 Firefox 中发现 81 个此前未知的严重漏洞（Mozilla 已修复），并在 Linux 内核中复现 1724 个漏洞、为其中 948 个构建了可用利用，数量超过前代五倍。
 
 GPT-6 Cyber 定位为授权防御性网络安全用途，将先向 Daybreak Red 项目成员开放，数周内扩展至全部客户。这一发布标志着 AI 安全模型从被动防御向主动攻防一体演进，有望显著提升关键基础设施的漏洞发现与修复效率，但也引发对双用途技术扩散的持续关注。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;The Verge AI, OpenAI 官方博客, The Decoder&lt;/p&gt;</description>
-</item>
-<item><title>谷歌捆绑 AI 与搜索，禁用工具将失去权限</title><link>https://todayforai.com/en/story/story-a7283b3a-2a1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a7283b3a-2a1</guid>
-<pubDate>Thu, 05 Nov 2026 15:41:30 +0800</pubDate>
-<description>&lt;p&gt;谷歌宣布调整 K-12 教育产品策略，将 AI 功能与核心搜索服务深度绑定。明年起，Gemini 等 AI 工具默认关闭，需管理员显式开启；若学校选择完全禁用 AI，学生将无法使用 Google 搜索。这一“二选一”机制迫使教育机构在隐私合规与基础信息获取能力之间做出艰难权衡。
-
-多方信源交叉验证显示，此举源于 AI 技术已底层集成至搜索引擎架构，导致无法单独剥离。尽管谷歌声称该政策旨在回应家长对儿童 AI 交互的管控需求，并赋予教师审查对话记录的权限，但 TechCrunch 与 Ars Technica 指出，这实质上构成了基础设施层面的强制推广。学校面临要么全面启用 AI、要么放弃搜索服务的困境，凸显了平台权力对用户选择权的挤压。
-
-该事件标志着科技巨头在教育领域加速 AI 渗透的策略升级，引发了关于技术垄断与数字主权的行业讨论。通过控制关键基础设施，谷歌正从单纯提供工具转向塑造行业标准，这可能加剧其他平台效仿此类捆绑策略，进一步压缩开发者与用户在生态中的自主空间。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, TechCrunch AI, The Verge AI, Ars Technica AI, IT之家 · IT业界, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
