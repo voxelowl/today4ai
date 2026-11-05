@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Fri, 06 Nov 2026 05:59:58 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 06 Nov 2026 06:26:50 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Perplexity Launches Always-On AI Teammates Under $200 Monthly Plan</title><link>https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work</guid>
+<pubDate>Fri, 06 Nov 2026 06:26:50 +0800</pubDate>
+<description>&lt;p&gt;Perplexity launched Teammates, always-on work-focused AI agents that take on multiple roles within a workspace while reusing existing projects, skills, and memory, built on top of Perplexity Computer. The feature requires the $200-per-month Max plan, positioning it against OpenAI&amp;#x27;s Dots and Claude Duet at a notably higher price point.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Perplexity 推出常驻 AI 智能体 Teammates 月费 200 美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流 AI 搜索厂商正式切入常驻多角色智能体赛道，且以高价订阅作为商业化验证，值得关注其产品形态与竞争格局。&lt;/p&gt;&lt;p&gt;The Verge AI · agent · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work">The Verge AI</source>
+<category>智能体</category>
+<category>Perplexity</category>
+<category>AI 商业化</category>
+</item>
+<item><title>Claude Code Reportedly Sends User Email Addresses to Visited Websites</title><link>https://github.com/anthropics/claude-code/issues/107757</link><guid isPermaLink="true">https://github.com/anthropics/claude-code/issues/107757</guid>
+<pubDate>Fri, 06 Nov 2026 06:17:15 +0800</pubDate>
+<description>&lt;p&gt;Reports indicate that Anthropic&amp;#x27;s terminal coding agent Claude Code leaks the user&amp;#x27;s email address to websites it visits, raising a privacy concern. While official documentation stresses restricted session-data access and commercial-terms protections, the disclosure suggests outbound requests may carry identifiable information, so developers using the tool should watch their privacy boundary.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Claude Code 被指将用户邮箱地址发送给访问的网站&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及主流编程智能体的隐私泄露风险，对日常使用该工具的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://github.com/anthropics/claude-code/issues/107757">Hacker News AI</source>
+<category>Claude Code</category>
+<category>隐私安全</category>
+<category>编程智能体</category>
+<category>Anthropic</category>
+</item>
 <item><title>Anthropic Launches Personal Finance Beta with Read-Only Plaid Bank Access</title><link>https://x.com/rohanpaul_ai/status/2118463359217799495</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118463359217799495</guid>
 <pubDate>Fri, 06 Nov 2026 05:59:58 +0800</pubDate>
 <description>&lt;p&gt;Anthropic launched a US beta of Personal Finance in Claude, connecting up to 16 banks via Plaid with read-only access to balances, credit limits and up to 24 months of transactions, while excluding holdings, trades, rates and terms. The feature is limited to spending analysis, and its training-data exclusion applies only to conversations inside the hub, not to financial details typed into regular chats.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 推出个人财务测试版 通过 Plaid 只读接入银行账户&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是大模型厂商首次将个人金融数据接入消费级助手，涉及隐私边界与产品形态的关键取舍，值得关注。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · tools · signal 62/100&lt;/p&gt;</description>
@@ -139,6 +156,14 @@
 <category>多模态</category>
 <category>智能体</category>
 </item>
+<item><title>LangChain Proposes Async Subagents to Let Agents Run Long Tasks in Background</title><link>https://www.langchain.com/blog/agents-are-going-async</link><guid isPermaLink="true">https://www.langchain.com/blog/agents-are-going-async</guid>
+<pubDate>Fri, 06 Nov 2026 04:03:27 +0800</pubDate>
+<description>&lt;p&gt;LangChain introduces an async subagent architecture that splits an agent into an always-responsive orchestrator and background subagents that execute long tasks and report back on completion. The post argues background execution is becoming the norm for agent infrastructure and ships an open-source Python/TypeScript reference implementation with researcher and coder subagents.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;LangChain 提出异步子智能体架构 让智能体后台并行处理长任务&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自 LangChain 的架构观点与可运行开源实现，对构建长任务智能体的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;LangChain Blog · agent · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.langchain.com/blog/agents-are-going-async">LangChain Blog</source>
+<category>智能体</category>
+<category>LangChain</category>
+<category>开源</category>
+</item>
 <item><title>TinyFish Launches Two Web Research Agents for Deep Q&amp;A and Bulk Spreadsheets</title><link>https://x.com/rohanpaul_ai/status/2118433586420552085</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118433586420552085</guid>
 <pubDate>Fri, 06 Nov 2026 04:01:40 +0800</pubDate>
 <description>&lt;p&gt;TinyFish released two web research agents: TinyResearch produces a cited report for a single hard question, while TinySet assembles a spreadsheet from facts scattered across hundreds of sites. The pitch is to split deep digging and wide scanning into two distinct agent shapes rather than one generalist. Public details so far are positioning-level, without verifiable metrics on accuracy or coverage.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;TinyFish 推出两款网页研究智能体 分攻深度问答与批量建表&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;代表了智能体产品化中“按任务形态拆分”的一种设计取向，值得关注但尚缺硬指标。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 42/100&lt;/p&gt;</description>
@@ -189,27 +214,27 @@
 <category>内容溯源</category>
 <category>图像生成</category>
 </item>
-<item><title>OpenRouter Fixes Crouton Alpha Bug That Halted Agents Mid-Task</title><link>https://x.com/OpenRouter/status/2118424572894818689</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2118424572894818689</guid>
+<item><title>OpenRouter 修复 Crouton Alpha 智能体中途停止的缺陷</title><link>https://x.com/OpenRouter/status/2118424572894818689</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2118424572894818689</guid>
 <pubDate>Fri, 06 Nov 2026 03:25:51 +0800</pubDate>
-<description>&lt;p&gt;OpenRouter fixed a bug in its stealth reasoning model Crouton Alpha that caused agents to stop early, typically right before a tool call; agents should now run tasks to completion. The model was previously announced as free to use with a 1M-token context, text/image/audio/video input, and no training on user data.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenRouter 修复 Crouton Alpha 智能体中途停止的缺陷&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是一次针对智能体执行中断的常规缺陷修复，对正在试用该隐身模型的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · llm · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenRouter 修复了隐身推理模型 Crouton Alpha 的一个缺陷：该缺陷会导致智能体在工具调用前提前终止，现在智能体可以完整跑完任务。该模型此前已公布免费使用、100 万 token 上下文、支持文本、图像、音频与视频输入，且不将用户数据用于训练。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是一次针对智能体执行中断的常规缺陷修复，对正在试用该隐身模型的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · llm · signal 38/100&lt;/p&gt;</description>
 <source url="https://x.com/OpenRouter/status/2118424572894818689">OpenRouter (@OpenRouter)</source>
 <category>OpenRouter</category>
 <category>推理模型</category>
 <category>智能体</category>
 <category>缺陷修复</category>
 </item>
-<item><title>webAI Open-Sources TwIL-8B, a Small Model Approaching Frontier Coding and Math</title><link>https://x.com/rohanpaul_ai/status/2118424398642532579</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118424398642532579</guid>
+<item><title>webAI 开源 TwIL-8B 小模型逼近前沿编程与数学能力</title><link>https://x.com/rohanpaul_ai/status/2118424398642532579</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118424398642532579</guid>
 <pubDate>Fri, 06 Nov 2026 03:25:09 +0800</pubDate>
-<description>&lt;p&gt;webAI has open-sourced TwIL-8B, an 8.8B-parameter model built on IBM&amp;#x27;s Granite 4.2 8B and tuned for math, coding and instruction following. It reportedly fits in a 4.98 GiB quantized file that runs on CPUs or modest GPUs, scoring 81.6% on LiveCodeBench and reaching roughly 92-93% of frontier-model performance on coding and instruction following.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;webAI 开源 TwIL-8B 小模型逼近前沿编程与数学能力&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;小参数模型在编程与数学基准上逼近前沿闭源模型，且可在消费级硬件本地运行，对关注端侧部署与开源模型的读者价值较高。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;webAI 基于 IBM Granite 4.2 8B 训练并开源了 8.8B 参数的 TwIL-8B，主打数学、编程与指令遵循。官方称其量化后仅 4.98 GiB，可在 CPU 或普通显卡上运行，LiveCodeBench 得分 81.6%，超过 Qwen3.5-9B 与 Gemma 4 31B，并在编程与指令遵循上达到前沿模型约 92%-93% 的水平。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;小参数模型在编程与数学基准上逼近前沿闭源模型，且可在消费级硬件本地运行，对关注端侧部署与开源模型的读者价值较高。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2118424398642532579">Rohan Paul (@rohanpaul_ai)</source>
 <category>开源模型</category>
 <category>webAI</category>
 <category>小模型</category>
 <category>编程能力</category>
 </item>
-<item><title>Meta Executive Warns Midterm Backlash Against Data Centers Could Slow AI Expansion</title><link>https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/</guid>
+<item><title>Meta 高管警告：中期选举后数据中心遭抵制将拖慢 AI 扩张</title><link>https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/</guid>
 <pubDate>Fri, 06 Nov 2026 03:12:39 +0800</pubDate>
-<description>&lt;p&gt;Meta President Dina Powell McCormick said at the WSJ Tech conference that Democratic midterm wins will make data center construction significantly harder, acknowledging the industry has failed to explain the benefits of these investments. She framed local opposition as a symptom of broader public unease about AI, and said Meta aims to reverse sentiment by demonstrating value, while noting strong daily demand to lease its compute provides a monetization path regardless.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 高管警告：中期选举后数据中心遭抵制将拖慢 AI 扩张&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是大厂高管对 AI 基础设施政治阻力与算力变现路径的公开表态，反映产业扩张面临的现实约束。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Meta 总裁 Dina Powell McCormick 在 WSJ Tech 大会上表示，民主党中期选举获胜后，地方对数据中心的抵制将显著增加企业建设难度，并承认行业未能向公众充分解释投资价值。她认为抵制背后是公众对 AI 的整体负面情绪，Meta 希望通过展示技术与社区收益来扭转舆论，同时强调即便自用不足，算力租赁需求旺盛也能保证投资回报。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是大厂高管对 AI 基础设施政治阻力与算力变现路径的公开表态，反映产业扩张面临的现实约束。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/">TechCrunch AI</source>
 <category>数据中心</category>
 <category>Meta</category>
@@ -242,33 +267,6 @@
 <category>Google</category>
 <category>视频生成</category>
 <category>多模态</category>
-</item>
-<item><title>Science&#x27;s Last Exam 基准发布 用隐藏专家检查评测 AI 科研能力</title><link>https://x.com/rohanpaul_ai/status/2118419224616128901</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118419224616128901</guid>
-<pubDate>Fri, 06 Nov 2026 03:04:36 +0800</pubDate>
-<description>&lt;p&gt;美国非营利机构 AItonomy Foundation 发布 Science&amp;#x27;s Last Exam（SLE）基准，覆盖 9 个学科共 113 项任务，向智能体提供真实研究目标、数据与实验室软件，再用智能体不可见的专家校验评分，并以模型训练截止之后发表的论文作为对照，避免记忆作弊。DeepSeek V4.1 Flash 以 21.28% 的假设命中后续研究领先，但端到端真实科研任务上所有模型均得 0 分。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;它把数学领域可复现的自动评分思路迁移到实证科学，用隐藏检查与训练截止后文献构建抗记忆的科研智能体评测，结果对模型能力判断有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2118419224616128901">Rohan Paul (@rohanpaul_ai)</source>
-<category>基准评测</category>
-<category>科研智能体</category>
-<category>AItonomy</category>
-<category>DeepSeek</category>
-</item>
-<item><title>Meta 为 Muse 智能体上线实时语音对话与动态头像</title><link>https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar</link><guid isPermaLink="true">https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar</guid>
-<pubDate>Fri, 06 Nov 2026 03:03:04 +0800</pubDate>
-<description>&lt;p&gt;Meta 为 Muse AI 智能体推出实时语音对话功能，头像会随语音同步动画，用户可通过自然语言或设置面板调整音色。该功能已在 iOS 应用上线，官方称将扩展至 AI 眼镜与年内发售的 Muse Charm 硬件。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Meta 在消费级 AI 智能体交互形态上的重要产品动作，语音与动态头像结合值得关注。&lt;/p&gt;&lt;p&gt;The Verge AI · product_launch · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar">The Verge AI</source>
-<category>Meta</category>
-<category>智能体</category>
-<category>语音交互</category>
-<category>AI 硬件</category>
-</item>
-<item><title>开发者称 Codex 的计算机使用能力优于 Claude Code</title><link>https://x.com/Yuchenj_UW/status/2118414764296790519</link><guid isPermaLink="true">https://x.com/Yuchenj_UW/status/2118414764296790519</guid>
-<pubDate>Fri, 06 Nov 2026 02:46:52 +0800</pubDate>
-<description>&lt;p&gt;开发者 Yuchen Jin 认为，Codex 相较 Claude Code 的最大优势在于计算机使用能力：API 与 MCP 调用缓慢，而传统企业软件界面复杂，人类难以操作。Codex 可直接操作图形界面，在数分钟内完成报销类任务，相当于把每个 UI 都变成了 API。该观点基于个人体验，未提供量化数据。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以具体案例说明计算机使用代理在传统企业软件场景中的实用价值，对关注 Agent 落地的读者有参考意义。&lt;/p&gt;&lt;p&gt;Yuchen Jin (@Yuchenj_UW) · agent · signal 38/100&lt;/p&gt;</description>
-<source url="https://x.com/Yuchenj_UW/status/2118414764296790519">Yuchen Jin (@Yuchenj_UW)</source>
-<category>智能体</category>
-<category>计算机使用</category>
-<category>Codex</category>
-<category>Claude Code</category>
 </item>
 </channel>
 </rss>
