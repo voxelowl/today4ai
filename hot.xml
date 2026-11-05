@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Fri, 06 Nov 2026 01:56:41 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 06 Nov 2026 03:52:48 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>腾讯混元 Hy4 发布 770B 参数并首次解锁视觉与电脑操作</title><link>https://todayforai.com/en/story/story-f4fb29ac-16b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f4fb29ac-16b</guid>
 <pubDate>Fri, 06 Nov 2026 00:06:31 +0800</pubDate>
@@ -27,13 +27,13 @@ Hy4 的发布标志着腾讯在大模型开源赛道迈入第一梯队，其视�
 
 此次发布的是未经中训练与后训练的 Base 权重，定位为领域适配、指令微调与强化学习研究的共同起点，经过后训练的正式版本将随后推出。该模型主打 Agent 长任务链下的效率与成本平衡，为开发者提供了可二次开发的通用基座，有望推动大模型开源生态的进一步发展。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, 量子位官网, Hacker News AI, 机器之心 (微信公众号), The Decoder&lt;/p&gt;</description>
 </item>
-<item><title>Anthropic 开源 FlashProve 实现 AI 模型零知识溯源验证</title><link>https://todayforai.com/en/story/story-be67363e-457</link><guid isPermaLink="true">https://todayforai.com/en/story/story-be67363e-457</guid>
-<pubDate>Thu, 05 Nov 2026 01:17:46 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 正式开源 FlashProve，这是一项基于 zkSNARK 技术的“可证明推理”系统，旨在解决 AI 服务中模型身份不透明的问题。该工具允许第三方在不泄露模型权重的前提下，通过数学证明验证特定回复是否由指定版本的模型生成，从而有效防止服务商暗中降级模型或伪造性能基准。
+<item><title>BOSS 直聘开源 33B 推理模型 Nanbeige4.3-33B，综合智能追平 Qwen3.8 27B</title><link>https://todayforai.com/en/story/story-9bb099f4-4b3</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9bb099f4-4b3</guid>
+<pubDate>Fri, 06 Nov 2026 03:52:48 +0800</pubDate>
+<description>&lt;p&gt;BOSS 直聘旗下基础模型团队 Nanbeige 以 Apache 2.0 协议开源了 33B 稠密推理模型 Nanbeige4.3-33B，在 Artificial Analysis 智能指数 v5 上取得 20 分，与 Qwen3.8 27B（xhigh）持平，远超同规模 Muse Glimmer（30B）的 6 分。该模型支持 524K token 超长上下文，体积小到可在笔记本本地运行，仅支持文本输入输出，目前暂无确认的公开 API。
 
-在技术实现上，FlashProve 展现出显著的效率突破与权衡。测试数据显示，在 Llama 4 Maverick (400B MoE) 模型上，单张 H100 GPU 生成证明的速度达到约 110 tokens/秒，较前代 VerInf 方案提升数千倍；而普通 CPU 仅需约 17 秒即可完成独立验证。此外，其核心安全保证已通过 Lean 4 语言完成形式化证明，增强了代码的可审计性。然而，该方案目前存在明显局限：验证过程需消耗相当于普通 vLLM 推理 70-95 倍的 GPU 算力，且最大支持上下文长度仅为 1,024 tokens。
+技术细节方面，Nanbeige4.3-33B 在终端操作与物理推理上表现突出：Terminal-Bench 4.0 得分 30%，CritPt v2 难子集得分 16%，显著高于 Qwen3.8 27B 的 6% 与 4%。但在知识类基准上明显落后，例如 AA-Briefcase v1.1 为 1162 对 1391 Elo，HLE-Diamond 为 7% 对 15%，FrontierCode 2.0 为 11% 对 15%。多源信息一致确认了其开源协议、参数规模、上下文长度及评测数据。
 
-FlashProve 的发布标志着 AI 供应链透明度建设的重要进展。尽管目前仍处于研究阶段且尚未大规模部署，但它为构建可信 AI 生态提供了关键基础设施。未来，随着算力成本的优化和上下文限制的突破，此类零知识证明技术有望成为规范大模型 API 服务、保障开发者权益及增强用户信任的核心标准。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), TechCrunch AI, Marktechpost (@Marktechpost), IT之家 · 智能时代, Anthropic AI (@AnthropicAI), The Decoder&lt;/p&gt;</description>
+行业影响上，该模型以宽松的 Apache 2.0 协议开源，降低了高性能推理模型的使用门槛，尤其适合本地部署和终端自动化场景。其“偏科”特性——强终端操作、弱知识问答——为开发者提供了差异化选择，也展示了非头部厂商在垂直能力上追赶头部模型的可能性，可能推动推理模型在边缘设备和特定任务中的普及。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys), Artificial Analysis&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 用 GPT-5.5 发现千余 Linux 内核漏洞</title><link>https://todayforai.com/en/story/story-4fad257c-391</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4fad257c-391</guid>
 <pubDate>Thu, 05 Nov 2026 07:33:14 +0800</pubDate>

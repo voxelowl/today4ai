@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Fri, 06 Nov 2026 03:35:16 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 06 Nov 2026 04:01:40 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>TinyFish Launches Two Web Research Agents for Deep Q&amp;A and Bulk Spreadsheets</title><link>https://x.com/rohanpaul_ai/status/2118433586420552085</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118433586420552085</guid>
+<pubDate>Fri, 06 Nov 2026 04:01:40 +0800</pubDate>
+<description>&lt;p&gt;TinyFish released two web research agents: TinyResearch produces a cited report for a single hard question, while TinySet assembles a spreadsheet from facts scattered across hundreds of sites. The pitch is to split deep digging and wide scanning into two distinct agent shapes rather than one generalist. Public details so far are positioning-level, without verifiable metrics on accuracy or coverage.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;TinyFish 推出两款网页研究智能体 分攻深度问答与批量建表&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;代表了智能体产品化中“按任务形态拆分”的一种设计取向，值得关注但尚缺硬指标。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 42/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2118433586420552085">Rohan Paul (@rohanpaul_ai)</source>
+<category>智能体</category>
+<category>网页研究</category>
+<category>产品发布</category>
+</item>
+<item><title>Meta Opens Muse AI Avatar Video Chat to All US Users</title><link>https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/</guid>
+<pubDate>Fri, 06 Nov 2026 03:48:28 +0800</pubDate>
+<description>&lt;p&gt;Meta has made Muse Voice generally available in the US, letting users hold real-time voice and video conversations with its consumer AI agent Muse via mobile, web, and Mac. The feature is powered by the new Muse Realtime Avatar and Muse Realtime Voice models, with planned expansion to AI Glasses and the upcoming Muse Charm device.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 向全美用户开放 Muse AI 虚拟形象视频通话&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是消费级 AI 智能体在实时多模态交互形态上的一次规模化落地，值得关注其产品化路径。&lt;/p&gt;&lt;p&gt;TechCrunch AI · agent · signal 58/100&lt;/p&gt;</description>
+<source url="https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/">TechCrunch AI</source>
+<category>智能体</category>
+<category>Meta</category>
+<category>多模态交互</category>
+</item>
 <item><title>NVIDIA Open-Sources Cosmos 3 World Models for Interactive Simulation</title><link>https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation</link><guid isPermaLink="true">https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation</guid>
 <pubDate>Fri, 06 Nov 2026 03:35:16 +0800</pubDate>
 <description>&lt;p&gt;NVIDIA released the Cosmos 3 family of open world models on Hugging Face, targeting interactive world simulation with public checkpoints and example collections. The release extends the Cosmos world-foundation-model line, opening physical-world modeling to developers for simulation data generation in robotics and autonomous driving.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;NVIDIA 开源 Cosmos 3 世界模型 支持交互式仿真&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部厂商开源世界模型并配套检查点，直接影响仿真数据与具身智能研发路径。&lt;/p&gt;&lt;p&gt;Hugging Face Blog · llm · signal 78/100&lt;/p&gt;</description>
@@ -11,6 +27,15 @@
 <category>NVIDIA</category>
 <category>开源</category>
 <category>仿真</category>
+</item>
+<item><title>OpenRouter Fixes Crouton Alpha Bug That Halted Agents Mid-Task</title><link>https://x.com/OpenRouter/status/2118424572894818689</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2118424572894818689</guid>
+<pubDate>Fri, 06 Nov 2026 03:25:51 +0800</pubDate>
+<description>&lt;p&gt;OpenRouter fixed a bug in its stealth reasoning model Crouton Alpha that caused agents to stop early, typically right before a tool call; agents should now run tasks to completion. The model was previously announced as free to use with a 1M-token context, text/image/audio/video input, and no training on user data.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenRouter 修复 Crouton Alpha 智能体中途停止的缺陷&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是一次针对智能体执行中断的常规缺陷修复，对正在试用该隐身模型的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · llm · signal 38/100&lt;/p&gt;</description>
+<source url="https://x.com/OpenRouter/status/2118424572894818689">OpenRouter (@OpenRouter)</source>
+<category>OpenRouter</category>
+<category>推理模型</category>
+<category>智能体</category>
+<category>缺陷修复</category>
 </item>
 <item><title>webAI Open-Sources TwIL-8B, a Small Model Approaching Frontier Coding and Math</title><link>https://x.com/rohanpaul_ai/status/2118424398642532579</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118424398642532579</guid>
 <pubDate>Fri, 06 Nov 2026 03:25:09 +0800</pubDate>
@@ -56,6 +81,15 @@
 <category>科研智能体</category>
 <category>AItonomy</category>
 <category>DeepSeek</category>
+</item>
+<item><title>Meta Adds Real-Time Voice Mode and Expressive Avatars to Muse Agent</title><link>https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar</link><guid isPermaLink="true">https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar</guid>
+<pubDate>Fri, 06 Nov 2026 03:03:04 +0800</pubDate>
+<description>&lt;p&gt;Meta has rolled out real-time voice conversations to its Muse AI agent, with avatars animating in sync with speech and voice tone adjustable via natural language or settings. The feature is live on iOS, with Meta promising expansion to its AI glasses and the forthcoming Muse Charm device later this year.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 为 Muse 智能体上线实时语音对话与动态头像&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Meta 在消费级 AI 智能体交互形态上的重要产品动作，语音与动态头像结合值得关注。&lt;/p&gt;&lt;p&gt;The Verge AI · product_launch · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar">The Verge AI</source>
+<category>Meta</category>
+<category>智能体</category>
+<category>语音交互</category>
+<category>AI 硬件</category>
 </item>
 <item><title>Verne Robotics Open-Sources V0.5 World Action Model with Stronger Robustness</title><link>https://x.com/rohanpaul_ai/status/2118414338402975868</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118414338402975868</guid>
 <pubDate>Fri, 06 Nov 2026 02:45:11 +0800</pubDate>
@@ -138,6 +172,15 @@
 <category>Plaid</category>
 <category>ChatGPT</category>
 </item>
+<item><title>OpenRouter Drops Ori Cookbook to Keep API Keys Off Developer Machines via MDM</title><link>https://x.com/OpenRouter/status/2118402735322378253</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2118402735322378253</guid>
+<pubDate>Fri, 06 Nov 2026 01:59:04 +0800</pubDate>
+<description>&lt;p&gt;OpenRouter released a new cookbook for deploying Ori with MDM so developers sign in from the terminal without long-lived API keys stored on laptops, reducing exposure to malicious packages. It is a vendor-bound how-to focused on key management and endpoint security, with no model capability or benchmark data.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenRouter 发布 Ori 配置手册 借助 MDM 让 API 密钥远离开发者设备&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;对使用 OpenRouter 与 MDM 的团队有直接可操作性，但属厂商绑定操作指南，注意力权重有限。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · tools · signal 38/100&lt;/p&gt;</description>
+<source url="https://x.com/OpenRouter/status/2118402735322378253">OpenRouter (@OpenRouter)</source>
+<category>OpenRouter</category>
+<category>API 密钥管理</category>
+<category>MDM</category>
+<category>开发者安全</category>
+</item>
 <item><title>Baidu Open-Sources 280B-Parameter ERNIE 5.5 Flash Base Foundation Model</title><link>https://the-decoder.com/baidu-releases-ernie-5-5-flash-base-with-280-billion-parameters-as-an-open-source-foundation-model/</link><guid isPermaLink="true">https://the-decoder.com/baidu-releases-ernie-5-5-flash-base-with-280-billion-parameters-as-an-open-source-foundation-model/</guid>
 <pubDate>Fri, 06 Nov 2026 01:56:41 +0800</pubDate>
 <description>&lt;p&gt;Baidu released ERNIE-5.5-Flash-Base on Hugging Face, a mixture-of-experts foundation model with 280B total parameters and 14B active per token, pre-trained on 33.5 trillion tokens with a 128K training context that can extend to one million tokens during fine-tuning and inference. It ships deliberately without fine-tuning or post-training, positioning the raw weights for developer customization, with a post-trained version to follow.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;百度开源 2800 亿参数 ERNIE 5.5 Flash Base 基础模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大厂开源超大参数基础模型权重，直接影响开源模型选型与二次训练路线。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
@@ -156,6 +199,15 @@
 <category>Nanbeige</category>
 <category>基准评测</category>
 </item>
+<item><title>OpenRouter Reports Agentic Cache Hit Rate Rising to 89% in 2026</title><link>https://x.com/OpenRouter/status/2118399637736600030</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2118399637736600030</guid>
+<pubDate>Fri, 06 Nov 2026 01:46:46 +0800</pubDate>
+<description>&lt;p&gt;OpenRouter notes that the inference layer improved markedly in 2026: the median agentic cache hit rate rose from the mid-60s at the start of the year to 89%, cutting cost on the same model. Beyond raw model capability, caching in the inference stack is becoming a key cost lever.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenRouter：2026 年智能体缓存命中率升至 89%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自主流模型路由平台的实测口径数据，量化了推理层缓存优化对智能体成本的实质影响。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · compute · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/OpenRouter/status/2118399637736600030">OpenRouter (@OpenRouter)</source>
+<category>推理优化</category>
+<category>缓存</category>
+<category>智能体</category>
+<category>OpenRouter</category>
+</item>
 <item><title>Eon Launches Yukon Serverless Data Engine for Agent Data Layer</title><link>https://x.com/rohanpaul_ai/status/2118398129045442685</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118398129045442685</guid>
 <pubDate>Fri, 06 Nov 2026 01:40:46 +0800</pubDate>
 <description>&lt;p&gt;Eon released Yukon, a serverless data engine that ingests, cleans and compacts events into open Iceberg tables in the customer&amp;#x27;s own bucket, with agents reading table context over MCP. Eon&amp;#x27;s public benchmark claims 4x less compute than Spark and 7x less than Flink, driven by letting agents understand table contents before querying to avoid wasted scans.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Eon 推出 Yukon 无服务器数据引擎 面向智能体数据层&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;智能体数据层是当前落地瓶颈之一，该产品给出可复现的公开基准与开放表格式方案，值得关注。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · tools · signal 58/100&lt;/p&gt;</description>
@@ -165,109 +217,57 @@
 <category>Iceberg</category>
 <category>MCP</category>
 </item>
-<item><title>Aina Debuts Ring Hardware for One-Tap Agent Approvals</title><link>https://x.com/rohanpaul_ai/status/2118392342524891619</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118392342524891619</guid>
+<item><title>Aina 推出指环硬件 为智能体提供一键审批</title><link>https://x.com/rohanpaul_ai/status/2118392342524891619</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118392342524891619</guid>
 <pubDate>Fri, 06 Nov 2026 01:17:46 +0800</pubDate>
-<description>&lt;p&gt;Aina Interface launched a smart ring with a small OLED screen that moves human-in-the-loop agent approvals onto the finger, predicting the next three actions and confirming each with a thumb flick. On Mac it reads the foreground app and offers matching actions, such as approving, rejecting or starting a new chat in Claude. Pre-orders are open, but no performance data or independent reviews are available yet.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Aina 推出指环硬件 为智能体提供一键审批&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;它把智能体高频审批痛点做成专用硬件，思路新颖但缺乏实测数据，值得关注而非立即采纳。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · tools · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Aina Interface 发布一款带 OLED 屏的智能指环，把智能体的人机审批流程搬到手指上：屏幕预判并展示接下来三个待办动作，拇指轻拨即可确认。在 Mac 上它可读取前台应用并给出对应操作，例如在 Claude 中直接批准、拒绝或新建对话。产品已开启预售，但尚无性能数据与独立评测。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;它把智能体高频审批痛点做成专用硬件，思路新颖但缺乏实测数据，值得关注而非立即采纳。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · tools · signal 42/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2118392342524891619">Rohan Paul (@rohanpaul_ai)</source>
 <category>智能体</category>
 <category>人机交互</category>
 <category>可穿戴硬件</category>
 <category>Aina</category>
 </item>
-<item><title>Rivet Open-Sources Actor Runtime to Orchestrate Agents on S3</title><link>https://github.com/rivet-dev/rivet</link><guid isPermaLink="true">https://github.com/rivet-dev/rivet</guid>
+<item><title>Rivet 开源 Actor 运行时 让智能体在 S3 上轻量编排</title><link>https://github.com/rivet-dev/rivet</link><guid isPermaLink="true">https://github.com/rivet-dev/rivet</guid>
 <pubDate>Fri, 06 Nov 2026 01:17:42 +0800</pubDate>
-<description>&lt;p&gt;Rivet launched an open-source orchestration runtime for agentic workloads that replaces heavyweight per-agent sandboxes with lightweight S3-backed Actors, claiming 4.99 ms p99 cold starts and 72 KB per Actor, with self-hosting supported. The pitch is that sandboxes are costly and low-density, while the actor model better suits large-scale concurrent agents.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Rivet 开源 Actor 运行时 让智能体在 S3 上轻量编排&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为智能体基础设施提供了一条区别于沙箱的轻量编排路线，且开源可自托管，值得关注其真实负载表现。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Rivet 推出面向智能体负载的开源编排运行时，用基于 S3 的轻量 Actor 替代每个智能体一个重型沙箱，宣称 p99 冷启动 4.99 ms、单 Actor 仅 72 KB，并支持自托管。其核心主张是沙箱模式成本高、密度低，Actor 模型更适合大规模并发智能体。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为智能体基础设施提供了一条区别于沙箱的轻量编排路线，且开源可自托管，值得关注其真实负载表现。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 62/100&lt;/p&gt;</description>
 <source url="https://github.com/rivet-dev/rivet">Hacker News AI</source>
 <category>智能体</category>
 <category>开源</category>
 <category>编排</category>
 <category>基础设施</category>
 </item>
-<item><title>Google Launches Gemini Omni 1.2 Flash with 30% Price Cut</title><link>https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/</link><guid isPermaLink="true">https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/</guid>
+<item><title>Google 发布 Gemini Omni 1.2 Flash 视频生成降价 30%</title><link>https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/</link><guid isPermaLink="true">https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/</guid>
 <pubDate>Fri, 06 Nov 2026 01:05:16 +0800</pubDate>
-<description>&lt;p&gt;Google released Gemini Omni 1.2 Flash, adding native 15-second video generation, improved reference adherence and multi-turn conversational editing while cutting price by 30%. The capabilities are available across the Gemini API, Google Vids and Gemini for business for scaled video production.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Google 发布 Gemini Omni 1.2 Flash 视频生成降价 30%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;视频生成模型的能力升级叠加 30% 降价，对关注多模态生成成本曲线的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Google DeepMind · llm · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Google 推出 Gemini Omni 1.2 Flash，支持原生 15 秒视频生成、更强的参考一致性与多轮对话式剪辑，并将价格下调 30%。该能力已同步上线 Gemini API、Google Vids 与 Gemini for business，主打规模化视频内容生产。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;视频生成模型的能力升级叠加 30% 降价，对关注多模态生成成本曲线的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Google DeepMind · llm · signal 58/100&lt;/p&gt;</description>
 <source url="https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/">Google DeepMind</source>
 <category>多模态生成</category>
 <category>Google</category>
 <category>视频生成</category>
 </item>
-<item><title>Google Launches Gemini Omni 1.2 Flash with 15-Second Video and 30% Price Cut</title><link>https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/</link><guid isPermaLink="true">https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/</guid>
+<item><title>谷歌发布 Gemini Omni 1.2 Flash 支持 15 秒视频生成并降价 30%</title><link>https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/</link><guid isPermaLink="true">https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/</guid>
 <pubDate>Fri, 06 Nov 2026 01:00:00 +0800</pubDate>
-<description>&lt;p&gt;Google rolls out Gemini Omni 1.2 Flash, adding native 15-second video generation, improved reference adherence and multi-turn conversational editing, while cutting price by 30%. The capabilities are available today across the Gemini API, Google Vids and Gemini for business for scaled video production.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌发布 Gemini Omni 1.2 Flash 支持 15 秒视频生成并降价 30%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;视频生成模型的能力与价格同步升级，直接影响多模态内容生产者的选型与成本。&lt;/p&gt;&lt;p&gt;Google AI Blog · llm · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;谷歌推出 Gemini Omni 1.2 Flash，原生支持 15 秒视频生成，提升参考图一致性与多轮对话式剪辑能力，并将价格下调 30%。该能力已同步上线 Gemini API、Google Vids 与 Gemini for business，面向规模化视频内容生产。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;视频生成模型的能力与价格同步升级，直接影响多模态内容生产者的选型与成本。&lt;/p&gt;&lt;p&gt;Google AI Blog · llm · signal 58/100&lt;/p&gt;</description>
 <source url="https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/">Google AI Blog</source>
 <category>多模态</category>
 <category>视频生成</category>
 <category>Google</category>
 <category>Gemini</category>
 </item>
-<item><title>Grimes to Star in AI-Generated Sci-Fi Film Hitting Theaters December 4</title><link>https://www.theverge.com/entertainment/1026282/grimes-ai-movie</link><guid isPermaLink="true">https://www.theverge.com/entertainment/1026282/grimes-ai-movie</guid>
+<item><title>Grimes 出演 AI 生成科幻电影 12 月 4 日登陆院线</title><link>https://www.theverge.com/entertainment/1026282/grimes-ai-movie</link><guid isPermaLink="true">https://www.theverge.com/entertainment/1026282/grimes-ai-movie</guid>
 <pubDate>Fri, 06 Nov 2026 01:00:00 +0800</pubDate>
-<description>&lt;p&gt;AI-generated sci-fi film *Gods Don&amp;#x27;t Give Gifts* has cast Grimes, who contributes both her likeness and vocal performance, and is set for a December 4 theatrical release billed as the first AI film to reach cinemas. Produced by AI studio Fable and directed by Jack London, it serves as a test case for the commercial viability of AI-made movies.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Grimes 出演 AI 生成科幻电影 12 月 4 日登陆院线&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 影视商业化的一次公开试水，但缺乏技术细节与可验证数据，注意力价值有限。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;AI 生成科幻电影《Gods Don&amp;#x27;t Give Gifts》宣布由 Grimes 提供形象与配音出演，定档 12 月 4 日院线，被宣传为首部进入影院的 AI 电影。该片由 AI 工作室 Fable 制作、Jack London 执导，被视为检验 AI 影片商业潜力的关键案例。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 影视商业化的一次公开试水，但缺乏技术细节与可验证数据，注意力价值有限。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 38/100&lt;/p&gt;</description>
 <source url="https://www.theverge.com/entertainment/1026282/grimes-ai-movie">The Verge AI</source>
 <category>AI 影视</category>
 <category>生成式内容</category>
 <category>娱乐产业</category>
 </item>
-<item><title>OpenAI Releases GPT-6 Cyber, Cutting Out-of-Bounds Behavior Below 1%</title><link>https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch</guid>
+<item><title>OpenAI 发布 GPT-6 Cyber 越界行为降至 1% 以下</title><link>https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch</guid>
 <pubDate>Fri, 06 Nov 2026 01:00:00 +0800</pubDate>
-<description>&lt;p&gt;OpenAI launched GPT-6 Cyber, a cybersecurity-focused model that reduces out-of-bounds behavior to under 1% on the ExploitGym HoneyPot evaluation, down from roughly 5% for GPT-5.6 Cyber, while complying with instructions over 99% of the time. It is rolling out first to Daybreak Red authorized defensive cybersecurity customers, with broader access in the coming weeks.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 发布 GPT-6 Cyber 越界行为降至 1% 以下&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是头部厂商在智能体安全边界上的可量化进展，对关注 AI 安全与自主代理风险的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;The Verge AI · llm · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 推出网络安全专用模型 GPT-6 Cyber，在 ExploitGym HoneyPot 评测中越界行为率从 GPT-5.6 Cyber 的约 5% 降至 1% 以下，任务遵从率超过 99%。该模型先向 Daybreak Red 授权防御性网络安全项目的成员开放，数周内扩展至全部客户。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是头部厂商在智能体安全边界上的可量化进展，对关注 AI 安全与自主代理风险的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;The Verge AI · llm · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch">The Verge AI</source>
 <category>AI 安全</category>
 <category>OpenAI</category>
 <category>网络安全</category>
 <category>智能体</category>
-</item>
-<item><title>SemiAnalysis 发布 GDPx 基准，最强 AI 智能体真实工作任务得分仅 12%</title><link>https://the-decoder.com/no-ai-agent-scores-above-12-percent-on-semianalysis-new-real-world-work-benchmark/</link><guid isPermaLink="true">https://the-decoder.com/no-ai-agent-scores-above-12-percent-on-semianalysis-new-real-world-work-benchmark/</guid>
-<pubDate>Fri, 06 Nov 2026 00:46:24 +0800</pubDate>
-<description>&lt;p&gt;SemiAnalysis 推出 GDPx 基准，让 AI 智能体在模拟真实办公环境与专业软件中连续数小时完成 206 项知识工作任务，结果最高分仅 12%。Claude Opus 5.5 以 12% 领先，Gemini 4 Carbon 与 GPT-6 Astra 分别为 10.9% 和 9.6%。批评者指出安全过滤、任务保密及各厂商自带的智能体工具差异会扭曲结果，子领域任务量偏少也导致分数波动。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是首个以数小时真实工作流衡量智能体能力的公开基准，低分结果直接揭示当前智能体在长程任务上的能力边界。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 78/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/no-ai-agent-scores-above-12-percent-on-semianalysis-new-real-world-work-benchmark/">The Decoder</source>
-<category>AI 智能体</category>
-<category>基准评测</category>
-<category>SemiAnalysis</category>
-</item>
-<item><title>AA-PersonalityBench 显示 MiMo-V2.6-Pro 以提问结尾的比例最高</title><link>https://x.com/ArtificialAnlys/status/2118380321070539239</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2118380321070539239</guid>
-<pubDate>Fri, 06 Nov 2026 00:30:00 +0800</pubDate>
-<description>&lt;p&gt;Artificial Analysis 的 AA-PersonalityBench 测试显示，MiMo-V2.6-Pro 有 34% 的回复以提问结尾，在所有被测模型中占比最高；GPT-6 Astra 与 GPT-6.1 Sol 紧随其后，分别为 32% 和 29%。另一端，GPT-5.4 mini、Nemotron 3 Ultra 等六个模型以提问结尾的比例不足 0.5%，反映出各模型在对话风格上的显著差异。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是一份关于模型对话风格差异的单一维度基准观察，数据直观但信息增量有限，适合关注模型人格与交互体验的读者快速了解。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 38/100&lt;/p&gt;</description>
-<source url="https://x.com/ArtificialAnlys/status/2118380321070539239">Artificial Analysis (@ArtificialAnlys)</source>
-<category>大模型</category>
-<category>基准测试</category>
-<category>对话风格</category>
-</item>
-<item><title>Axiom 将 7500 页 Stacks 项目完整形式化进 Lean</title><link>https://axiommath.ai/research/the-stacks-project-formalized/</link><guid isPermaLink="true">https://axiommath.ai/research/the-stacks-project-formalized/</guid>
-<pubDate>Fri, 06 Nov 2026 00:16:59 +0800</pubDate>
-<description>&lt;p&gt;Axiom 宣布完成 Stacks 项目全部数学内容在 Lean 中的形式化，产出约 1600 万行代码，成为迄今最大的可复用形式化数学库。该库以机器可验证方式覆盖代数几何基础，并通过永久 Stacks 标签把每条 Lean 声明回链到原始文本，研究者和 AI 智能体可直接导入其定义与定理。项目开源并计划持续扩展。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是形式化数学与 AI 数学推理基础设施层面的标志性节点，规模空前且开源可复用。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 78/100&lt;/p&gt;</description>
-<source url="https://axiommath.ai/research/the-stacks-project-formalized/">Hacker News AI</source>
-<category>形式化数学</category>
-<category>Lean</category>
-<category>代数几何</category>
-<category>开源</category>
-</item>
-<item><title>Axiom Math 完成 Stacks Project 形式化验证</title><link>https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/</guid>
-<pubDate>Fri, 06 Nov 2026 00:16:45 +0800</pubDate>
-<description>&lt;p&gt;估值 16 亿美元的 Axiom Math 宣布完成 Stacks Project 的形式化验证，这是人类规模最大的数学文本之一。该公司主张以可验证的数学基础支撑 AI 智能体编写软件与开展科研，而非追逐未经校验的解题数量，并公开向编程公司发起同规模形式化挑战。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;形式化验证与 AI 数学可信度是当前智能体落地科研的关键基础设施议题，且涉及高额融资公司的重要里程碑。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 72/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/">TechCrunch AI</source>
-<category>形式化验证</category>
-<category>数学</category>
-<category>AI 智能体</category>
-<category>融资</category>
-</item>
-<item><title>腾讯发布 Hy4 模型 首次支持视觉与电脑操作</title><link>https://the-decoder.com/tencent-releases-hy4-with-vision-and-computer-use-claims-second-place-among-chinese-ai-models/</link><guid isPermaLink="true">https://the-decoder.com/tencent-releases-hy4-with-vision-and-computer-use-claims-second-place-among-chinese-ai-models/</guid>
-<pubDate>Fri, 06 Nov 2026 00:06:31 +0800</pubDate>
-<description>&lt;p&gt;腾讯发布新一代模型 Hy4，首次具备图像理解与自主操作软件的能力，并针对编程、金融与办公场景做了专项优化。腾讯称其在中国模型中排名第二，但在高难度数学与编程任务上仍明显落后于 Claude Opus 5.5 等顶级模型，模型权重将延后开放。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;腾讯旗舰模型首次补齐视觉与电脑操作能力，且涉及权重开放节奏，是观察中国大模型竞争格局的重要节点。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 74/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/tencent-releases-hy4-with-vision-and-computer-use-claims-second-place-among-chinese-ai-models/">The Decoder</source>
-<category>大模型</category>
-<category>腾讯</category>
-<category>多模态</category>
-<category>电脑操作</category>
-</item>
-<item><title>Edera 提出对象能力模型 为 AI 智能体划定权限边界</title><link>https://edera.dev/stories/ocap-bounded-authority</link><guid isPermaLink="true">https://edera.dev/stories/ocap-bounded-authority</guid>
-<pubDate>Fri, 06 Nov 2026 00:01:26 +0800</pubDate>
-<description>&lt;p&gt;Edera 发文主张用对象能力（OCAP）安全模型替代传统防火墙与沙箱思路，从源头限制 AI 智能体与 MCP 服务器可获得的权限，而非事后约束已授予的权限。文章属架构理念阐述，未给出具体实现参数或可验证结果。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为智能体权限治理提供了一个值得关注的架构视角，但缺乏可验证细节，适合作为理念参考而非落地指南。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 42/100&lt;/p&gt;</description>
-<source url="https://edera.dev/stories/ocap-bounded-authority">Hacker News AI</source>
-<category>AI 安全</category>
-<category>智能体</category>
-<category>对象能力</category>
-<category>MCP</category>
 </item>
 </channel>
 </rss>
