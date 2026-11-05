@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Fri, 06 Nov 2026 02:45:11 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 06 Nov 2026 03:25:09 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>webAI Open-Sources TwIL-8B, a Small Model Approaching Frontier Coding and Math</title><link>https://x.com/rohanpaul_ai/status/2118424398642532579</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118424398642532579</guid>
+<pubDate>Fri, 06 Nov 2026 03:25:09 +0800</pubDate>
+<description>&lt;p&gt;webAI has open-sourced TwIL-8B, an 8.8B-parameter model built on IBM&amp;#x27;s Granite 4.2 8B and tuned for math, coding and instruction following. It reportedly fits in a 4.98 GiB quantized file that runs on CPUs or modest GPUs, scoring 81.6% on LiveCodeBench and reaching roughly 92-93% of frontier-model performance on coding and instruction following.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;webAI 开源 TwIL-8B 小模型逼近前沿编程与数学能力&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;小参数模型在编程与数学基准上逼近前沿闭源模型，且可在消费级硬件本地运行，对关注端侧部署与开源模型的读者价值较高。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2118424398642532579">Rohan Paul (@rohanpaul_ai)</source>
+<category>开源模型</category>
+<category>webAI</category>
+<category>小模型</category>
+<category>编程能力</category>
+</item>
+<item><title>Science&#x27;s Last Exam Benchmark Grades AI Research Agents With Hidden Expert Checks</title><link>https://x.com/rohanpaul_ai/status/2118419224616128901</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118419224616128901</guid>
+<pubDate>Fri, 06 Nov 2026 03:04:36 +0800</pubDate>
+<description>&lt;p&gt;The US nonprofit AItonomy Foundation released Science&amp;#x27;s Last Exam (SLE), a benchmark spanning 113 tasks across 9 disciplines that hands agents real research goals, data and lab software, then grades them with expert checks the agent never sees, comparing hypotheses against studies published after model training cutoffs. DeepSeek V4.1 Flash led with 21.28% of hypotheses anticipating later research, while all models scored zero on true end-to-end research.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Science&amp;#x27;s Last Exam 基准发布 用隐藏专家检查评测 AI 科研能力&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;它把数学领域可复现的自动评分思路迁移到实证科学，用隐藏检查与训练截止后文献构建抗记忆的科研智能体评测，结果对模型能力判断有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2118419224616128901">Rohan Paul (@rohanpaul_ai)</source>
+<category>基准评测</category>
+<category>科研智能体</category>
+<category>AItonomy</category>
+<category>DeepSeek</category>
+</item>
 <item><title>Verne Robotics Open-Sources V0.5 World Action Model with Stronger Robustness</title><link>https://x.com/rohanpaul_ai/status/2118414338402975868</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118414338402975868</guid>
 <pubDate>Fri, 06 Nov 2026 02:45:11 +0800</pubDate>
 <description>&lt;p&gt;Verne Robotics released V0.5, an open-weight world action model built on the Wan2.2 video generator and trained on over 1.7M demonstrations, predicting the next second of arm, gripper and mobile-base motion. It learns new industrial tasks from under two hours of demos and degrades far less than Physical Intelligence&amp;#x27;s π0.5 under clutter and lighting shifts.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Verne Robotics 开源 V0.5 世界动作模型 抗干扰能力显著领先&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源权重机器人基础模型在鲁棒性基准上明显领先闭源对手，且数据效率突出，值得关注。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
@@ -11,6 +29,15 @@
 <category>开源模型</category>
 <category>世界模型</category>
 <category>具身智能</category>
+</item>
+<item><title>Meta Adds NTS Authentication to Public Time Service, Open Sources Stack</title><link>https://engineering.fb.com/2026/10/06/production-engineering/nts-authenticated-time-at-meta/</link><guid isPermaLink="true">https://engineering.fb.com/2026/10/06/production-engineering/nts-authenticated-time-at-meta/</guid>
+<pubDate>Fri, 06 Nov 2026 02:24:28 +0800</pubDate>
+<description>&lt;p&gt;Meta&amp;#x27;s public time service at nts.meta.com now supports NTS (RFC 8915), letting clients verify that time packets came from Meta and were not modified in transit. The NTS servers are stateless, with cookie keys derived rather than stored or replicated, and the protocol, server and client code are open sourced on GitHub.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 时间服务上线 NTS 并开源协议与客户端&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为长期未认证的 NTP 补上来源验证，且整套实现开源，对基础设施与安全工程师有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
+<source url="https://engineering.fb.com/2026/10/06/production-engineering/nts-authenticated-time-at-meta/">Hacker News AI</source>
+<category>时间同步</category>
+<category>网络安全</category>
+<category>开源</category>
+<category>Meta</category>
 </item>
 <item><title>Google Paper Finds Query Echoing Is Key to RAG Poisoning</title><link>https://x.com/rohanpaul_ai/status/2118409056121659820</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118409056121659820</guid>
 <pubDate>Fri, 06 Nov 2026 02:24:11 +0800</pubDate>
@@ -46,6 +73,15 @@
 <category>纳斯达克</category>
 <category>市场波动</category>
 <category>产业变革</category>
+</item>
+<item><title>Anthropic Adds Personal Finance Feature Linking Claude to Bank Accounts</title><link>https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance</guid>
+<pubDate>Fri, 06 Nov 2026 02:00:00 +0800</pubDate>
+<description>&lt;p&gt;Anthropic launched a Personal Finance feature that connects Claude to bank and card accounts via Plaid in read-only mode, letting users get categorized spending breakdowns and answers on upcoming bills or affordability. Claude cannot move, manage, or invest money and is not designed for investment advice, but it can read account names, balances, credit limits, and up to two years of transactions.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Claude 接入银行账户 推出个人财务分析功能&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是大模型助手首次以受监管的只读方式接入真实金融账户，标志着 Agent 落地高敏感场景的重要一步。&lt;/p&gt;&lt;p&gt;The Verge AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.theverge.com/ai-artificial-intelligence/1027652/anthropic-claude-plaid-personal-finance">The Verge AI</source>
+<category>Anthropic</category>
+<category>Claude</category>
+<category>金融科技</category>
+<category>智能体</category>
 </item>
 <item><title>Anthropic Adds Personal Finance Tool to Claude With Bank Account Access</title><link>https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/</guid>
 <pubDate>Fri, 06 Nov 2026 02:00:00 +0800</pubDate>
@@ -188,36 +224,36 @@
 <category>可穿戴设备</category>
 <category>Google Research</category>
 </item>
-<item><title>Microsoft&#x27;s PDD Kit Formally Verifies Agent-Written Full-Stack Code</title><link>https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/</link><guid isPermaLink="true">https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/</guid>
+<item><title>微软 PDD Kit 用形式化验证约束智能体生成的全栈代码</title><link>https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/</link><guid isPermaLink="true">https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/</guid>
 <pubDate>Fri, 06 Nov 2026 00:00:00 +0800</pubDate>
-<description>&lt;p&gt;Microsoft Research introduces PDD Kit, which turns user intent into a Verus formal specification, proves agent-written code meets it for every input, and falls back to tests where proofs cannot reach. It targets the scaling limits of line-by-line human review and the gap between plans and agent output, demonstrated on a full-stack web app.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;微软 PDD Kit 用形式化验证约束智能体生成的全栈代码&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把形式化验证引入智能体编码闭环，是约束 AI 生成代码正确性的新范式，值得关注。&lt;/p&gt;&lt;p&gt;Microsoft Research · agent · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;微软研究院推出 PDD Kit，将用户意图转化为 Verus 形式化规范，对智能体生成的代码进行全输入证明，无法证明处回退到测试。该工具旨在解决智能体大规模生成代码时人工逐行审查难以扩展、计划与实现脱节的问题，并在一个全栈 Web 应用上完成验证。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把形式化验证引入智能体编码闭环，是约束 AI 生成代码正确性的新范式，值得关注。&lt;/p&gt;&lt;p&gt;Microsoft Research · agent · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/">Microsoft Research</source>
 <category>智能体</category>
 <category>形式化验证</category>
 <category>微软研究院</category>
 <category>代码生成</category>
 </item>
-<item><title>NVIDIA Pitches Full-Stack Codesign to Ease AI Inference Memory Pressure</title><link>https://blogs.nvidia.com/blog/memory-full-stack-codesign/</link><guid isPermaLink="true">https://blogs.nvidia.com/blog/memory-full-stack-codesign/</guid>
+<item><title>英伟达提出全栈协同设计 缓解 AI 推理显存压力</title><link>https://blogs.nvidia.com/blog/memory-full-stack-codesign/</link><guid isPermaLink="true">https://blogs.nvidia.com/blog/memory-full-stack-codesign/</guid>
 <pubDate>Fri, 06 Nov 2026 00:00:00 +0800</pubDate>
-<description>&lt;p&gt;NVIDIA outlined a full-stack codesign approach to GPU memory pressure: rather than simply adding more HBM, it co-designs GPUs, CPUs, networking, storage and software so each byte of memory does more useful work across the AI factory&amp;#x27;s memory hierarchy. The post is a vendor-framed directional argument without concrete parameters or verifiable quantitative results.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达提出全栈协同设计 缓解 AI 推理显存压力&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;属于厂商视角的方向性技术论述，涉及显存层级与推理内存优化，但缺乏可验证数据，适合关注算力基础设施的读者快速了解思路。&lt;/p&gt;&lt;p&gt;NVIDIA Blog · compute · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;英伟达发文阐述其“全栈协同设计”思路：在 HBM 供应趋紧、价格上涨的背景下，不单纯堆叠显存容量，而是把 GPU、CPU、网络、存储与软件统一设计，通过压缩存储内容、按层级放置数据、提前回传 GPU 等方式提升每字节内存的有效算力。文章以厂商视角给出方向性论述，未披露具体参数或可验证的量化结果。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;属于厂商视角的方向性技术论述，涉及显存层级与推理内存优化，但缺乏可验证数据，适合关注算力基础设施的读者快速了解思路。&lt;/p&gt;&lt;p&gt;NVIDIA Blog · compute · signal 38/100&lt;/p&gt;</description>
 <source url="https://blogs.nvidia.com/blog/memory-full-stack-codesign/">NVIDIA Blog</source>
 <category>英伟达</category>
 <category>显存</category>
 <category>推理优化</category>
 <category>算力基础设施</category>
 </item>
-<item><title>Stroq Locally Audits Coding Agent Sessions, Tracing Command Origins and Key Leaks</title><link>https://github.com/AGGIB/Stroq</link><guid isPermaLink="true">https://github.com/AGGIB/Stroq</guid>
+<item><title>Stroq 本地审计编码智能体会话 追踪命令来源与密钥外泄</title><link>https://github.com/AGGIB/Stroq</link><guid isPermaLink="true">https://github.com/AGGIB/Stroq</guid>
 <pubDate>Thu, 05 Nov 2026 23:54:41 +0800</pubDate>
-<description>&lt;p&gt;Stroq is a local CLI that reads the last 30 days of Claude Code and Codex sessions to count how many commands originated from text the agent read (a prompt-injection exposure surface) and which keys left the machine. It prints key names but never values, caches only under ~/.stroq, and requires no account or telemetry.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Stroq 本地审计编码智能体会话 追踪命令来源与密钥外泄&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把智能体提示注入与密钥外泄这两类隐性风险转化为可量化的本地审计指标，对日常使用编码智能体的开发者有直接实用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Stroq 是一款本地 CLI 工具，读取 Claude Code 与 Codex 最近 30 天的会话记录，统计有多少命令源自智能体读取的文本（即提示注入风险面），以及哪些密钥离开了本机。它只输出密钥名称不输出值，数据仅缓存于本地 ~/.stroq，无账号无遥测。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把智能体提示注入与密钥外泄这两类隐性风险转化为可量化的本地审计指标，对日常使用编码智能体的开发者有直接实用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
 <source url="https://github.com/AGGIB/Stroq">Hacker News AI</source>
 <category>智能体</category>
 <category>安全审计</category>
 <category>开发者工具</category>
 <category>提示注入</category>
 </item>
-<item><title>Multi-Agent Architecture Patterns and the Failure Modes That Emerge in Production</title><link>https://kadhar.dev/blog/multi-agent-systems-from-scratch</link><guid isPermaLink="true">https://kadhar.dev/blog/multi-agent-systems-from-scratch</guid>
+<item><title>多智能体系统架构：三种协作模式与生产环境失效陷阱</title><link>https://kadhar.dev/blog/multi-agent-systems-from-scratch</link><guid isPermaLink="true">https://kadhar.dev/blog/multi-agent-systems-from-scratch</guid>
 <pubDate>Thu, 05 Nov 2026 23:51:57 +0800</pubDate>
-<description>&lt;p&gt;The post argues that the real engineering burden in multi-agent systems is coordination, not reasoning. It distills three recurring architecture patterns for splitting work across agents and focuses on failure modes that only surface once a system runs unattended in production rather than in a one-off demo.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;多智能体系统架构：三种协作模式与生产环境失效陷阱&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向工程实践的多智能体架构经验总结，对正在落地 Agent 系统的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;文章指出，多智能体系统的真正难点在于协调问题，而非推理本身；工程投入几乎全部集中于此。作者总结了三种常用的多智能体拆分架构模式，并重点剖析了单智能体演示阶段不会暴露、只有长期无人值守运行才会出现的失效模式。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向工程实践的多智能体架构经验总结，对正在落地 Agent 系统的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 58/100&lt;/p&gt;</description>
 <source url="https://kadhar.dev/blog/multi-agent-systems-from-scratch">Hacker News AI</source>
 <category>智能体</category>
 <category>多智能体系统</category>
@@ -232,44 +268,6 @@
 <category>OpenAI</category>
 <category>对齐</category>
 <category>AI 安全</category>
-</item>
-<item><title>离线生存助手发布 本地 LLM 搭配 Kiwix 从 U 盘运行</title><link>https://github.com/sdalberto/ia-da-sobrevivencia/blob/main/README.en.md</link><guid isPermaLink="true">https://github.com/sdalberto/ia-da-sobrevivencia/blob/main/README.en.md</guid>
-<pubDate>Thu, 05 Nov 2026 23:25:36 +0800</pubDate>
-<description>&lt;p&gt;该项目提供一个完全离线的生存知识助手，在 Windows、Linux 和 macOS 上通过 llama.cpp 或 Ollama 运行本地模型，并检索 Kiwix 离线资料库（含医学维基百科、Where There Is No Doctor、iFixit 等）后带引用作答。它附带多语言实用指南与可局域网共享的网页界面，无模型时仍可用 Python 做纯检索。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是本地 LLM 加 RAG 在断网应急场景的完整落地范例，对关注离线推理与检索增强的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://github.com/sdalberto/ia-da-sobrevivencia/blob/main/README.en.md">Hacker News AI</source>
-<category>本地推理</category>
-<category>RAG</category>
-<category>离线应用</category>
-<category>开源项目</category>
-</item>
-<item><title>Dropbox 以 3.5 亿美元收购 Tigris Data 加码 AI 基础设施</title><link>https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/</guid>
-<pubDate>Thu, 05 Nov 2026 23:19:05 +0800</pubDate>
-<description>&lt;p&gt;Dropbox 宣布以 3.5 亿美元收购云存储技术公司 Tigris Data，为其史上最大规模收购，交易预计 2026 年第四季度完成。该收购将支撑其新推出的 DBX Agent Cloud 平台，面向构建 AI 模型与智能体的企业与开发者，初期以兼容 S3 的独立对象存储产品形态提供。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是存储厂商向 AI 基础设施转型的一笔标志性收购，但产品细节与参数披露有限，属于产业动向而非技术节点。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/">TechCrunch AI</source>
-<category>AI 基础设施</category>
-<category>Dropbox</category>
-<category>收购</category>
-<category>对象存储</category>
-</item>
-<item><title>Anthropic 首次签署新闻内容授权协议 与美联社合作</title><link>https://www.ithome.com/1/023/015.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/015.htm</guid>
-<pubDate>Thu, 05 Nov 2026 23:11:49 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 与美联社达成其首份新闻内容授权协议，Claude 将在美国中期选举之夜实时展示美联社选举结果数据并标注来源，财务条款与期限未披露。此前 Anthropic 坚持爬虫抓取属合理使用而拒绝付费授权，在出版商屏蔽爬虫与 OpenAI 已签十余家媒体的双重压力下转向。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 公司与新闻出版商的版权博弈出现新变量，Anthropic 从拒绝付费转向签约，直接影响 Claude 的时效性内容能力。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/023/015.htm">IT之家 · 智能时代</source>
-<category>Anthropic</category>
-<category>内容授权</category>
-<category>美联社</category>
-<category>版权</category>
-<category>Claude</category>
-</item>
-<item><title>Mizu 发布 基于共享内存实现 R 与 Python 零拷贝并行</title><link>https://github.com/shikokuchuo/pymizu</link><guid isPermaLink="true">https://github.com/shikokuchuo/pymizu</guid>
-<pubDate>Thu, 05 Nov 2026 23:09:04 +0800</pubDate>
-<description>&lt;p&gt;Mizu 通过 POSIX 共享内存与 Win32 文件映射构建无锁通道与工作窃取任务池，将 Python 与 R 之间的任务往返延迟从约 100 微秒降至 1 微秒以内，使进程级并行可达到线程级细粒度。列表、字典、NumPy 数组与 Arrow 表可在两种语言间以零拷贝视图共享，为跨语言数据科学流水线提供低开销的进程隔离并行方案。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以共享内存把跨语言进程通信压到微秒级，是数据科学工具链中少见的底层工程突破。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
-<source url="https://github.com/shikokuchuo/pymizu">Hacker News AI</source>
-<category>开源工具</category>
-<category>共享内存</category>
-<category>Python</category>
-<category>R</category>
-<category>并行计算</category>
 </item>
 </channel>
 </rss>
