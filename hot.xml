@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Fri, 06 Nov 2026 03:52:48 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 06 Nov 2026 04:25:10 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>腾讯混元 Hy4 发布 770B 参数并首次解锁视觉与电脑操作</title><link>https://todayforai.com/en/story/story-f4fb29ac-16b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f4fb29ac-16b</guid>
-<pubDate>Fri, 06 Nov 2026 00:06:31 +0800</pubDate>
-<description>&lt;p&gt;腾讯正式发布混元 Hy4 大模型，参数规模从上一代不足 300B 跃升至 770B，并首次引入视觉理解与电脑操作能力，官方称其首次跻身最强开源模型之列。模型在指令遵循、长文本理解与长程任务表现上大幅提升，计划近期开源权重并联合 vLLM/SGLang 生态提供支持。
+<pubDate>Fri, 06 Nov 2026 04:21:43 +0800</pubDate>
+<description>&lt;p&gt;腾讯正式发布新一代大模型混元 Hy4，参数规模从上一代不足 300B 跃升至 770B，并首次引入视觉理解与电脑操作能力，官方称其首次跻身最强开源模型之列。模型权重计划近期开放，定价维持输入每百万 Token 6 元、输出 18 元，已上线腾讯云及元宝、CodeBuddy 等自有产品。
 
-综合多方信源，Hy4 在智能体编程任务上表现突出，FrontierCode 2.0 得分 31% 领先国产模型，Agent Arena 总榜第 14 名，单任务成本仅 0.55 美元，比得分相近的 Kimi K3.1 Pro Max 低约 62%。定价维持输入每百万 Token 6 元、输出 18 元，已上线腾讯云及元宝、CodeBuddy 等产品。但独立评测显示其幻觉率高达 89%，在数学与长程开发等高难度任务上仍落后顶尖闭源模型。
+综合多方信源，Hy4 相比预览版大幅扩展了预训练与后训练规模，在指令遵循、长上下文理解、长程任务与深度研究等维度显著提升。视觉能力支持细粒度图像处理、复杂图表分析与数学视觉推理；电脑操作可结合命令行与图形界面执行跨应用长程任务，并针对 Blender、CAD 等专业软件做了专项训练。第三方评测显示，Hy4 在 Artificial Analysis 智能指数上得分 35，与 Grok 4.7 持平，位列中国实验室模型第二；在 Agent Arena 总榜排名第 14，单任务成本仅 0.55 美元，性价比突出。但官方坦承在前沿数学、长程开发等高难度测试集上仍落后顶尖闭源模型，且幻觉率高达 89%，需持续优化。
 
-Hy4 的发布标志着腾讯在大模型开源赛道迈入第一梯队，其视觉与电脑操作能力为智能体应用开辟了新场景。上线首日因调用激增，腾讯紧急扩容推理集群十倍，反映出市场对高性能开源模型的强烈需求。尽管权重尚未开放，Hy4 已对国产开源生态形成冲击，未来与 Kimi K3.1 Pro 的竞争将推动行业加速迭代。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · 智能时代, 腾讯技术工程 (微信公众号), InfoQ 中文, Artificial Analysis (@ArtificialAnlys), Arena.ai (@arena)&lt;/p&gt;</description>
+Hy4 的发布标志着腾讯在大模型开源赛道迈出关键一步，其视觉与电脑操作能力将加速 AI 智能体在办公、编程、金融等场景的落地。同时，极具竞争力的定价与即将开源的策略，有望降低开发者门槛，推动生态繁荣，但能否真正兑现“开源第一梯队”承诺，仍需观察权重开放后的社区反馈与实测表现。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · 智能时代, 腾讯技术工程 (微信公众号), InfoQ 中文, Artificial Analysis (@ArtificialAnlys), Arena.ai (@arena)&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 发布 Images 2.6 实现 ChatGPT 原生生成 GIF</title><link>https://todayforai.com/en/story/story-56a44e50-483</link><guid isPermaLink="true">https://todayforai.com/en/story/story-56a44e50-483</guid>
 <pubDate>Thu, 05 Nov 2026 09:59:37 +0800</pubDate>
@@ -26,6 +26,14 @@ Hy4 的发布标志着腾讯在大模型开源赛道迈入第一梯队，其视�
 技术细节上，模型采用 Latent-Gated Sparse Attention 组合 HCA、MLA、低秩门控注意力与虚拟头注意力，将门控投影参数减少 75%；Multi-Router Latent MoE 通过多路由器改善专家选择；ECHO 训练目标复用主干末层实现免 MTP 的多 Token 预测。训练侧使用分布式 Muon 优化器与 FP8 混合精度，注意力算子为基于 CuTe-DSL 的 FlashMask-4，支持 SM90/SM100。官方开放 FP8 与 BF16 权重，并联合 vLLM、SGLang 提供部署 cookbook。
 
 此次发布的是未经中训练与后训练的 Base 权重，定位为领域适配、指令微调与强化学习研究的共同起点，经过后训练的正式版本将随后推出。该模型主打 Agent 长任务链下的效率与成本平衡，为开发者提供了可二次开发的通用基座，有望推动大模型开源生态的进一步发展。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, 量子位官网, Hacker News AI, 机器之心 (微信公众号), The Decoder&lt;/p&gt;</description>
+</item>
+<item><title>美国多地公投否决数据中心建设，AI 算力扩张遭遇政策逆风</title><link>https://todayforai.com/en/story/story-2f8ef443-ba4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2f8ef443-ba4</guid>
+<pubDate>Fri, 06 Nov 2026 04:25:10 +0800</pubDate>
+<description>&lt;p&gt;2026 年美国中期选举后，多个州和地区的选民通过公投和选举结果，对 AI 数据中心建设施加了严格限制。全美 10 个州的 44 项相关提案中 38 项获得通过，约半数拟建的美国 AI 数据中心项目可能面临更严格的地方审查。得克萨斯、俄亥俄等传统上对数据中心友好的州，也可能因水资源和电价保障问题暂停施工。民调显示，76% 的受访者反对在社区内建设数据中心，公众抵触情绪显著上升。
+
+综合多家信源，此次政治风向转变对 AI 基础设施扩张构成实质性阻力。科技巨头试图将“数据中心”重命名为“计算园区”以改善公众形象，但效果有限。Meta 高管表示，超大规模厂商正考虑将建设转向海外；OpenAI 则迅速承诺避免保密协议并承担电力成本，以缓和社区关系。尽管已获批项目暂不受影响，但新当选官员承诺在关键州加强监管，主要影响 2028 年后的新建项目，要求增加独立审查和公开听证。
+
+这一趋势对 AI 算力扩张和产业格局带来深远影响。美国作为全球 AI 竞赛的核心战场，其基础设施落地难题可能迫使企业重新评估选址策略，加速向海外转移。同时，公众对 AI 基建的抵触情绪也反映出技术伦理和社会信任危机，科技行业亟需通过集体行动重塑形象，构建更具包容性的叙事。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), The Verge AI, MIT Technology Review, Hacker News AI, Ars Technica AI&lt;/p&gt;</description>
 </item>
 <item><title>BOSS 直聘开源 33B 推理模型 Nanbeige4.3-33B，综合智能追平 Qwen3.8 27B</title><link>https://todayforai.com/en/story/story-9bb099f4-4b3</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9bb099f4-4b3</guid>
 <pubDate>Fri, 06 Nov 2026 03:52:48 +0800</pubDate>
@@ -74,14 +82,6 @@ Hy4 的发布标志着腾讯在大模型开源赛道迈入第一梯队，其视�
 综合多方信源，Pierre 的 Trees 文件浏览、Diffs 变更对比、Highlights 实时高亮以及 Code Storage 分布式存储系统将逐步整合进 Codex，补齐从智能体建分支到部署上线的第一方代码编写、理解与审查链路。收购还将配合 OpenAI 内部的 Pando 后端系统，解决多智能体并行开发场景下的版本控制难题。Pierre 的开源项目承诺保持开源，现有 Code Storage 客户可继续使用服务，交易完成前双方保持独立，且尚需监管批准。
 
 此次收购对 AI 编程赛道具有实质影响：一方面，Codex 的代码审查与文件管理能力将显著增强，提升开发者体验；另一方面，OpenAI 通过整合 Pierre 的底层 Git 工具链，为智能体与人类协作的现代开发流程树立标准，可能推动整个行业向更高效的 AI 辅助开发范式演进。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;OpenAI 官方博客, 宝玉 (@dotey), The Decoder, IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
-<item><title>Axiom Math 用 1600 万行 Lean 代码形式化验证代数几何巨著</title><link>https://todayforai.com/en/story/story-ecf3f678-405</link><guid isPermaLink="true">https://todayforai.com/en/story/story-ecf3f678-405</guid>
-<pubDate>Fri, 06 Nov 2026 00:16:59 +0800</pubDate>
-<description>&lt;p&gt;Axiom Math 宣布完成对《Stacks Project》的形式化验证，将这部 7500 页的代数几何巨著转化为约 1600 万行 Lean 代码，成为迄今规模最大的可复用形式化数学库。这一突破意味着现代数学核心知识首次以机器可验证的方式系统呈现，为 AI 辅助数学证明奠定了可靠基础。
-
-该项目采用智能体集群（Agent Swarm）协作模式，由人类分配架构、定义和证明任务，Lean 编译器逐行验证逻辑正确性。库中每条 Lean 声明都通过永久 Stacks 标签回链到原始文本，便于人机交叉验证。该库已开源，数学家和 AI 智能体可直接导入已验证的定义与定理，大幅降低新证明的构建门槛。
-
-Axiom Math 估值 16 亿美元，其主张以可验证的数学基础支撑 AI 智能体编写软件与开展科研，而非追逐未经校验的解题数量。公司公开向编程公司发起同规模形式化挑战，此举可能推动整个 AI 行业从注重解题数量转向注重可验证性，对数学研究、软件工程和 AI 可信度产生深远影响。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), TechCrunch AI, Hacker News AI&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

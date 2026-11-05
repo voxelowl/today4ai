@@ -1,8 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Fri, 06 Nov 2026 04:01:40 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 06 Nov 2026 04:48:25 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Meta Opens Muse AI Agent Live Video Calls to All US Users</title><link>https://x.com/rohanpaul_ai/status/2118445350621171974</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118445350621171974</guid>
+<pubDate>Fri, 06 Nov 2026 04:48:25 +0800</pubDate>
+<description>&lt;p&gt;Meta has opened live video calls with its Muse AI agent to all US users, letting them talk to a customizable animated avatar with roughly 870ms response latency. A distilled student model reproduces in two passes what a teacher model needed 120 passes for, and with 4-bit quantization, caching and dynamic batching a single Nvidia GB200 serves 12 concurrent video streams—though serving cost at million-user scale remains the key constraint.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 向全美用户开放 Muse AI 智能体实时视频通话&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 智能体从文本走向实时多模态交互的重要产品化节点，且披露了延迟、并发与成本等可验证的工程细节。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2118445350621171974">Rohan Paul (@rohanpaul_ai)</source>
+<category>Meta</category>
+<category>智能体</category>
+<category>实时视频</category>
+<category>多模态</category>
+<category>推理成本</category>
+</item>
+<item><title>Stanford Paper Finds No Metric Is Fully Tokenizer-Agnostic</title><link>https://x.com/rohanpaul_ai/status/2118443442296832310</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118443442296832310</guid>
+<pubDate>Fri, 06 Nov 2026 04:40:50 +0800</pubDate>
+<description>&lt;p&gt;A new Stanford paper finds that no metric is tokenizer-agnostic in every sense, including bits-per-byte (BPB), which is widely treated as neutral. Untrained models showed different BPB across tokenizers, and BPB correlated with task accuracy only between +0.02 and −0.30. The authors advise checking task accuracy on the same text rather than trusting a single score when comparing tokenizers.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;斯坦福论文：不存在完全与分词器无关的评估指标&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;它直接挑战了跨分词器模型比较中被默认接受的 BPB 指标，对做模型评测与词表选择的读者有实际纠偏价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 72/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2118443442296832310">Rohan Paul (@rohanpaul_ai)</source>
+<category>大模型</category>
+<category>模型评估</category>
+<category>分词器</category>
+<category>斯坦福</category>
+</item>
+<item><title>Half of Proposed US AI Data Center Projects Face Local Scrutiny After Democratic Midterm Wins</title><link>https://x.com/rohanpaul_ai/status/2118439500481429886</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118439500481429886</guid>
+<pubDate>Fri, 06 Nov 2026 04:25:10 +0800</pubDate>
+<description>&lt;p&gt;After Democrats won the House, Senate and key governorships, roughly half of proposed US AI data center additions could face tougher local scrutiny. Traditional safe havens like Texas and Ohio may halt construction pending assurances on water and electricity prices; Meta&amp;#x27;s president said hyperscalers are now weighing building outside the US, while OpenAI quickly pledged to avoid NDAs and shield residents from power costs.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;民主党中期选举获胜 半数美国 AI 数据中心项目面临地方审查&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;政治格局变化直接冲击 AI 算力基建的落地节奏，是算力与产业交叉的重要信号。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2118439500481429886">Rohan Paul (@rohanpaul_ai)</source>
+<category>数据中心</category>
+<category>算力基建</category>
+<category>美国政策</category>
+<category>OpenAI</category>
+</item>
+<item><title>Tencent Unveils Hy4 Open-Source LLM with Vision and Computer-Use Capabilities</title><link>https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/</link><guid isPermaLink="true">https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/</guid>
+<pubDate>Fri, 06 Nov 2026 04:21:43 +0800</pubDate>
+<description>&lt;p&gt;Tencent announced Hy4, its latest open-source large language model, claiming performance that ranks among the world&amp;#x27;s leading open models. Hy4 adds visual understanding and computer-use capabilities for the first time, alongside gains in instruction following, long-context comprehension and long-horizon agentic tasks. Model weights and system cards are slated for release in the coming days, with Tencent emphasizing responsible open-source development around cybersecurity and biological safety.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;腾讯发布 Hy4 开源大模型 首次支持视觉理解与电脑操作&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部厂商开源旗舰模型并首次补齐视觉与电脑操作能力，是开源大模型竞争格局中的重要节点。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 72/100&lt;/p&gt;</description>
+<source url="https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/">Hacker News AI</source>
+<category>大模型</category>
+<category>腾讯</category>
+<category>开源</category>
+<category>多模态</category>
+<category>智能体</category>
+</item>
 <item><title>TinyFish Launches Two Web Research Agents for Deep Q&amp;A and Bulk Spreadsheets</title><link>https://x.com/rohanpaul_ai/status/2118433586420552085</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118433586420552085</guid>
 <pubDate>Fri, 06 Nov 2026 04:01:40 +0800</pubDate>
 <description>&lt;p&gt;TinyFish released two web research agents: TinyResearch produces a cited report for a single hard question, while TinySet assembles a spreadsheet from facts scattered across hundreds of sites. The pitch is to split deep digging and wide scanning into two distinct agent shapes rather than one generalist. Public details so far are positioning-level, without verifiable metrics on accuracy or coverage.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;TinyFish 推出两款网页研究智能体 分攻深度问答与批量建表&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;代表了智能体产品化中“按任务形态拆分”的一种设计取向，值得关注但尚缺硬指标。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 42/100&lt;/p&gt;</description>
@@ -91,6 +129,15 @@
 <category>语音交互</category>
 <category>AI 硬件</category>
 </item>
+<item><title>Developer Argues Codex&#x27;s Computer Use Beats Claude Code</title><link>https://x.com/Yuchenj_UW/status/2118414764296790519</link><guid isPermaLink="true">https://x.com/Yuchenj_UW/status/2118414764296790519</guid>
+<pubDate>Fri, 06 Nov 2026 02:46:52 +0800</pubDate>
+<description>&lt;p&gt;Developer Yuchen Jin argues that Codex&amp;#x27;s key edge over Claude Code is computer use: APIs and MCPs are slow, and legacy enterprise UIs are hard for humans to navigate. Codex operated a confusing expense-reimbursement app and finished the task in minutes, effectively turning any UI into an API. The claim rests on personal experience without quantitative evidence.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;开发者称 Codex 的计算机使用能力优于 Claude Code&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以具体案例说明计算机使用代理在传统企业软件场景中的实用价值，对关注 Agent 落地的读者有参考意义。&lt;/p&gt;&lt;p&gt;Yuchen Jin (@Yuchenj_UW) · agent · signal 38/100&lt;/p&gt;</description>
+<source url="https://x.com/Yuchenj_UW/status/2118414764296790519">Yuchen Jin (@Yuchenj_UW)</source>
+<category>智能体</category>
+<category>计算机使用</category>
+<category>Codex</category>
+<category>Claude Code</category>
+</item>
 <item><title>Verne Robotics Open-Sources V0.5 World Action Model with Stronger Robustness</title><link>https://x.com/rohanpaul_ai/status/2118414338402975868</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118414338402975868</guid>
 <pubDate>Fri, 06 Nov 2026 02:45:11 +0800</pubDate>
 <description>&lt;p&gt;Verne Robotics released V0.5, an open-weight world action model built on the Wan2.2 video generator and trained on over 1.7M demonstrations, predicting the next second of arm, gripper and mobile-base motion. It learns new industrial tasks from under two hours of demos and degrades far less than Physical Intelligence&amp;#x27;s π0.5 under clutter and lighting shifts.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Verne Robotics 开源 V0.5 世界动作模型 抗干扰能力显著领先&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源权重机器人基础模型在鲁棒性基准上明显领先闭源对手，且数据效率突出，值得关注。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
@@ -172,45 +219,45 @@
 <category>Plaid</category>
 <category>ChatGPT</category>
 </item>
-<item><title>OpenRouter Drops Ori Cookbook to Keep API Keys Off Developer Machines via MDM</title><link>https://x.com/OpenRouter/status/2118402735322378253</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2118402735322378253</guid>
+<item><title>OpenRouter 发布 Ori 配置手册 借助 MDM 让 API 密钥远离开发者设备</title><link>https://x.com/OpenRouter/status/2118402735322378253</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2118402735322378253</guid>
 <pubDate>Fri, 06 Nov 2026 01:59:04 +0800</pubDate>
-<description>&lt;p&gt;OpenRouter released a new cookbook for deploying Ori with MDM so developers sign in from the terminal without long-lived API keys stored on laptops, reducing exposure to malicious packages. It is a vendor-bound how-to focused on key management and endpoint security, with no model capability or benchmark data.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenRouter 发布 Ori 配置手册 借助 MDM 让 API 密钥远离开发者设备&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;对使用 OpenRouter 与 MDM 的团队有直接可操作性，但属厂商绑定操作指南，注意力权重有限。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · tools · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenRouter 发布了一份新配置手册，指导用户结合 MDM（移动设备管理）部署 Ori，使开发者只需在终端登录即可调用，无需在本地保存长期 API 密钥，从而降低恶意包窃取密钥的风险。该内容属于面向厂商绑定场景的操作指南，聚焦密钥管理与终端安全实践，未涉及模型能力或性能数据。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;对使用 OpenRouter 与 MDM 的团队有直接可操作性，但属厂商绑定操作指南，注意力权重有限。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · tools · signal 38/100&lt;/p&gt;</description>
 <source url="https://x.com/OpenRouter/status/2118402735322378253">OpenRouter (@OpenRouter)</source>
 <category>OpenRouter</category>
 <category>API 密钥管理</category>
 <category>MDM</category>
 <category>开发者安全</category>
 </item>
-<item><title>Baidu Open-Sources 280B-Parameter ERNIE 5.5 Flash Base Foundation Model</title><link>https://the-decoder.com/baidu-releases-ernie-5-5-flash-base-with-280-billion-parameters-as-an-open-source-foundation-model/</link><guid isPermaLink="true">https://the-decoder.com/baidu-releases-ernie-5-5-flash-base-with-280-billion-parameters-as-an-open-source-foundation-model/</guid>
+<item><title>百度开源 2800 亿参数 ERNIE 5.5 Flash Base 基础模型</title><link>https://the-decoder.com/baidu-releases-ernie-5-5-flash-base-with-280-billion-parameters-as-an-open-source-foundation-model/</link><guid isPermaLink="true">https://the-decoder.com/baidu-releases-ernie-5-5-flash-base-with-280-billion-parameters-as-an-open-source-foundation-model/</guid>
 <pubDate>Fri, 06 Nov 2026 01:56:41 +0800</pubDate>
-<description>&lt;p&gt;Baidu released ERNIE-5.5-Flash-Base on Hugging Face, a mixture-of-experts foundation model with 280B total parameters and 14B active per token, pre-trained on 33.5 trillion tokens with a 128K training context that can extend to one million tokens during fine-tuning and inference. It ships deliberately without fine-tuning or post-training, positioning the raw weights for developer customization, with a post-trained version to follow.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;百度开源 2800 亿参数 ERNIE 5.5 Flash Base 基础模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大厂开源超大参数基础模型权重，直接影响开源模型选型与二次训练路线。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;百度在 Hugging Face 发布 ERNIE-5.5-Flash-Base，采用混合专家架构，总参数 2800 亿、每 token 激活 140 亿，预训练语料 33.5 万亿 token，训练上下文 12.8 万 token，微调与推理阶段可扩展至百万级上下文。该模型刻意不做微调与后训练，定位为供开发者自行定制的基础权重，后续将推出后训练版本。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大厂开源超大参数基础模型权重，直接影响开源模型选型与二次训练路线。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/baidu-releases-ernie-5-5-flash-base-with-280-billion-parameters-as-an-open-source-foundation-model/">The Decoder</source>
 <category>大模型</category>
 <category>百度</category>
 <category>开源模型</category>
 <category>混合专家</category>
 </item>
-<item><title>BOSS Zhipin&#x27;s Nanbeige Team Releases Open-Weights Nanbeige4.3-33B, Matching Qwen3.8 27B on Intelligence Index</title><link>https://x.com/ArtificialAnlys/status/2118400279788101824</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2118400279788101824</guid>
+<item><title>BOSS 直聘团队开源 Nanbeige4.3-33B 推理模型，综合智能追平 Qwen3.8 27B</title><link>https://x.com/ArtificialAnlys/status/2118400279788101824</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2118400279788101824</guid>
 <pubDate>Fri, 06 Nov 2026 01:49:19 +0800</pubDate>
-<description>&lt;p&gt;Nanbeige, the foundation model team at Chinese recruitment platform BOSS Zhipin, has released Nanbeige4.3-33B under Apache 2.0 — a dense 33B reasoning model scoring 20 on the Artificial Analysis Intelligence Index v5, level with Qwen3.8 27B (xhigh). It offers a 524K-token context window, text-only I/O, and is small enough to run locally on a laptop, with terminal use and physics reasoning as relative strengths but weaker knowledge benchmarks.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;BOSS 直聘团队开源 Nanbeige4.3-33B 推理模型，综合智能追平 Qwen3.8 27B&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;30B 级开源稠密推理模型在综合智能上追平 Qwen3.8 27B，且可本地运行，对关注开源模型选型的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;BOSS 直聘旗下基础模型团队 Nanbeige 以 Apache 2.0 协议开源 33B 稠密推理模型 Nanbeige4.3-33B，在 Artificial Analysis 智能指数 v5 上得 20 分，与 Qwen3.8 27B（xhigh）持平。该模型支持 524K token 上下文、仅文本输入输出，体积小到可在笔记本本地运行，终端操作与物理推理为相对强项，但知识类基准明显落后。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;30B 级开源稠密推理模型在综合智能上追平 Qwen3.8 27B，且可本地运行，对关注开源模型选型的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 72/100&lt;/p&gt;</description>
 <source url="https://x.com/ArtificialAnlys/status/2118400279788101824">Artificial Analysis (@ArtificialAnlys)</source>
 <category>开源模型</category>
 <category>推理模型</category>
 <category>Nanbeige</category>
 <category>基准评测</category>
 </item>
-<item><title>OpenRouter Reports Agentic Cache Hit Rate Rising to 89% in 2026</title><link>https://x.com/OpenRouter/status/2118399637736600030</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2118399637736600030</guid>
+<item><title>OpenRouter：2026 年智能体缓存命中率升至 89%</title><link>https://x.com/OpenRouter/status/2118399637736600030</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2118399637736600030</guid>
 <pubDate>Fri, 06 Nov 2026 01:46:46 +0800</pubDate>
-<description>&lt;p&gt;OpenRouter notes that the inference layer improved markedly in 2026: the median agentic cache hit rate rose from the mid-60s at the start of the year to 89%, cutting cost on the same model. Beyond raw model capability, caching in the inference stack is becoming a key cost lever.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenRouter：2026 年智能体缓存命中率升至 89%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自主流模型路由平台的实测口径数据，量化了推理层缓存优化对智能体成本的实质影响。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · compute · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenRouter 指出，2026 年推理层的进步同样显著：智能体场景的中位缓存命中率从年初的 60% 多升至 89%，同等模型下成本明显下降。这意味着在模型能力之外，推理基础设施的缓存优化正成为降本的关键变量。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自主流模型路由平台的实测口径数据，量化了推理层缓存优化对智能体成本的实质影响。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · compute · signal 58/100&lt;/p&gt;</description>
 <source url="https://x.com/OpenRouter/status/2118399637736600030">OpenRouter (@OpenRouter)</source>
 <category>推理优化</category>
 <category>缓存</category>
 <category>智能体</category>
 <category>OpenRouter</category>
 </item>
-<item><title>Eon Launches Yukon Serverless Data Engine for Agent Data Layer</title><link>https://x.com/rohanpaul_ai/status/2118398129045442685</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118398129045442685</guid>
+<item><title>Eon 推出 Yukon 无服务器数据引擎 面向智能体数据层</title><link>https://x.com/rohanpaul_ai/status/2118398129045442685</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118398129045442685</guid>
 <pubDate>Fri, 06 Nov 2026 01:40:46 +0800</pubDate>
-<description>&lt;p&gt;Eon released Yukon, a serverless data engine that ingests, cleans and compacts events into open Iceberg tables in the customer&amp;#x27;s own bucket, with agents reading table context over MCP. Eon&amp;#x27;s public benchmark claims 4x less compute than Spark and 7x less than Flink, driven by letting agents understand table contents before querying to avoid wasted scans.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Eon 推出 Yukon 无服务器数据引擎 面向智能体数据层&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;智能体数据层是当前落地瓶颈之一，该产品给出可复现的公开基准与开放表格式方案，值得关注。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Eon 发布 Yukon 无服务器数据引擎，将事件数据摄取、清洗并压缩为自有存储桶中的开放 Iceberg 表，智能体通过 MCP 读取表上下文。官方公开基准显示其计算开销比 Spark 低 4 倍、比 Flink 低 7 倍，核心思路是让智能体在查询前先了解表结构以减少无效扫描。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;智能体数据层是当前落地瓶颈之一，该产品给出可复现的公开基准与开放表格式方案，值得关注。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2118398129045442685">Rohan Paul (@rohanpaul_ai)</source>
 <category>智能体</category>
 <category>数据基础设施</category>
@@ -225,49 +272,6 @@
 <category>人机交互</category>
 <category>可穿戴硬件</category>
 <category>Aina</category>
-</item>
-<item><title>Rivet 开源 Actor 运行时 让智能体在 S3 上轻量编排</title><link>https://github.com/rivet-dev/rivet</link><guid isPermaLink="true">https://github.com/rivet-dev/rivet</guid>
-<pubDate>Fri, 06 Nov 2026 01:17:42 +0800</pubDate>
-<description>&lt;p&gt;Rivet 推出面向智能体负载的开源编排运行时，用基于 S3 的轻量 Actor 替代每个智能体一个重型沙箱，宣称 p99 冷启动 4.99 ms、单 Actor 仅 72 KB，并支持自托管。其核心主张是沙箱模式成本高、密度低，Actor 模型更适合大规模并发智能体。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为智能体基础设施提供了一条区别于沙箱的轻量编排路线，且开源可自托管，值得关注其真实负载表现。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 62/100&lt;/p&gt;</description>
-<source url="https://github.com/rivet-dev/rivet">Hacker News AI</source>
-<category>智能体</category>
-<category>开源</category>
-<category>编排</category>
-<category>基础设施</category>
-</item>
-<item><title>Google 发布 Gemini Omni 1.2 Flash 视频生成降价 30%</title><link>https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/</link><guid isPermaLink="true">https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/</guid>
-<pubDate>Fri, 06 Nov 2026 01:05:16 +0800</pubDate>
-<description>&lt;p&gt;Google 推出 Gemini Omni 1.2 Flash，支持原生 15 秒视频生成、更强的参考一致性与多轮对话式剪辑，并将价格下调 30%。该能力已同步上线 Gemini API、Google Vids 与 Gemini for business，主打规模化视频内容生产。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;视频生成模型的能力升级叠加 30% 降价，对关注多模态生成成本曲线的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Google DeepMind · llm · signal 58/100&lt;/p&gt;</description>
-<source url="https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/">Google DeepMind</source>
-<category>多模态生成</category>
-<category>Google</category>
-<category>视频生成</category>
-</item>
-<item><title>谷歌发布 Gemini Omni 1.2 Flash 支持 15 秒视频生成并降价 30%</title><link>https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/</link><guid isPermaLink="true">https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/</guid>
-<pubDate>Fri, 06 Nov 2026 01:00:00 +0800</pubDate>
-<description>&lt;p&gt;谷歌推出 Gemini Omni 1.2 Flash，原生支持 15 秒视频生成，提升参考图一致性与多轮对话式剪辑能力，并将价格下调 30%。该能力已同步上线 Gemini API、Google Vids 与 Gemini for business，面向规模化视频内容生产。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;视频生成模型的能力与价格同步升级，直接影响多模态内容生产者的选型与成本。&lt;/p&gt;&lt;p&gt;Google AI Blog · llm · signal 58/100&lt;/p&gt;</description>
-<source url="https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/">Google AI Blog</source>
-<category>多模态</category>
-<category>视频生成</category>
-<category>Google</category>
-<category>Gemini</category>
-</item>
-<item><title>Grimes 出演 AI 生成科幻电影 12 月 4 日登陆院线</title><link>https://www.theverge.com/entertainment/1026282/grimes-ai-movie</link><guid isPermaLink="true">https://www.theverge.com/entertainment/1026282/grimes-ai-movie</guid>
-<pubDate>Fri, 06 Nov 2026 01:00:00 +0800</pubDate>
-<description>&lt;p&gt;AI 生成科幻电影《Gods Don&amp;#x27;t Give Gifts》宣布由 Grimes 提供形象与配音出演，定档 12 月 4 日院线，被宣传为首部进入影院的 AI 电影。该片由 AI 工作室 Fable 制作、Jack London 执导，被视为检验 AI 影片商业潜力的关键案例。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 影视商业化的一次公开试水，但缺乏技术细节与可验证数据，注意力价值有限。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 38/100&lt;/p&gt;</description>
-<source url="https://www.theverge.com/entertainment/1026282/grimes-ai-movie">The Verge AI</source>
-<category>AI 影视</category>
-<category>生成式内容</category>
-<category>娱乐产业</category>
-</item>
-<item><title>OpenAI 发布 GPT-6 Cyber 越界行为降至 1% 以下</title><link>https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch</guid>
-<pubDate>Fri, 06 Nov 2026 01:00:00 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 推出网络安全专用模型 GPT-6 Cyber，在 ExploitGym HoneyPot 评测中越界行为率从 GPT-5.6 Cyber 的约 5% 降至 1% 以下，任务遵从率超过 99%。该模型先向 Daybreak Red 授权防御性网络安全项目的成员开放，数周内扩展至全部客户。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是头部厂商在智能体安全边界上的可量化进展，对关注 AI 安全与自主代理风险的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;The Verge AI · llm · signal 72/100&lt;/p&gt;</description>
-<source url="https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch">The Verge AI</source>
-<category>AI 安全</category>
-<category>OpenAI</category>
-<category>网络安全</category>
-<category>智能体</category>
 </item>
 </channel>
 </rss>
