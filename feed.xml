@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Fri, 06 Nov 2026 04:48:25 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 06 Nov 2026 05:27:19 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Distributed Cognition&#x27;s 0.5M-Parameter VINCO Beats Frontier LLMs at Catan</title><link>https://x.com/rohanpaul_ai/status/2118455143696064635</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118455143696064635</guid>
+<pubDate>Fri, 06 Nov 2026 05:27:19 +0800</pubDate>
+<description>&lt;p&gt;Distributed Cognition unveiled VINCO, a 0.5M-parameter model trained to play 1v1 Catan, which reportedly beat Claude Opus 5.5, Claude Fable 5.1, Astra and Kimi K3 in 36 of 40 games. The team argues superintelligence will emerge from many such specialized models collaborating rather than one general model, noting VINCO is roughly 10 million times smaller than the frontier LLMs it defeated.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;50 万参数小模型 VINCO 在卡坦岛对局中击败多家前沿大模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;极小参数专用模型在需要不完全信息决策的桌游上击败前沿大模型，为“多模型协作”路线提供了具体案例。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 62/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2118455143696064635">Rohan Paul (@rohanpaul_ai)</source>
+<category>小模型</category>
+<category>游戏 AI</category>
+<category>模型评测</category>
+<category>Distributed Cognition</category>
+</item>
+<item><title>Amazon Bedrock AgentCore Launches Web Answer for Cited Answers in One Call</title><link>https://aws.amazon.com/blogs/machine-learning/getting-started-with-web-answer-on-amazon-bedrock-agentcore/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/getting-started-with-web-answer-on-amazon-bedrock-agentcore/</guid>
+<pubDate>Fri, 06 Nov 2026 05:04:24 +0800</pubDate>
+<description>&lt;p&gt;AWS announced general availability of Web Answer on Amazon Bedrock AgentCore, letting agent builders obtain a synthesized, source-cited answer to a natural-language question with a single tool call instead of maintaining a search-retrieve-synthesize-citation pipeline. It complements Web Search on AgentCore: use Web Search when your own model should reason over raw results, and Web Answer when the agent needs a finished, cited answer.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊 Bedrock AgentCore 上线 Web Answer 单次调用返回带引用答案&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是主流云厂商把 RAG 检索与引用链路封装为托管工具的一步，对构建联网问答智能体的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 58/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/getting-started-with-web-answer-on-amazon-bedrock-agentcore/">AWS Machine Learning Blog</source>
+<category>智能体</category>
+<category>亚马逊云科技</category>
+<category>RAG</category>
+<category>开发者工具</category>
+</item>
+<item><title>Khosla Says AI Plus Quantum Will Break Most Encryption Before 2030</title><link>https://x.com/rohanpaul_ai/status/2118449135137513842</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118449135137513842</guid>
+<pubDate>Fri, 06 Nov 2026 05:03:27 +0800</pubDate>
+<description>&lt;p&gt;Investor Vinod Khosla predicted at a WSJ event that quantum computers will run Shor&amp;#x27;s algorithm effectively before 2030, and that combined with AI they will crack most of today&amp;#x27;s encryption. He argued that currently deployed post-quantum algorithms only buy 6 to 12 months and that durable security must come from quantum encoding rather than harder math. The claims are personal predictions from a public talk, without technical detail or supporting data.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Khosla 称 AI 与量子计算将在 2030 年前破解主流加密&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及 AI 与量子计算对安全体系的冲击，属行业观点，但缺乏可验证细节，适合作为趋势信号而非技术结论。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 42/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2118449135137513842">Rohan Paul (@rohanpaul_ai)</source>
+<category>量子计算</category>
+<category>AI 安全</category>
+<category>加密</category>
+<category>行业观点</category>
+</item>
 <item><title>Meta Opens Muse AI Agent Live Video Calls to All US Users</title><link>https://x.com/rohanpaul_ai/status/2118445350621171974</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118445350621171974</guid>
 <pubDate>Fri, 06 Nov 2026 04:48:25 +0800</pubDate>
 <description>&lt;p&gt;Meta has opened live video calls with its Muse AI agent to all US users, letting them talk to a customizable animated avatar with roughly 870ms response latency. A distilled student model reproduces in two passes what a teacher model needed 120 passes for, and with 4-bit quantization, caching and dynamic batching a single Nvidia GB200 serves 12 concurrent video streams—though serving cost at million-user scale remains the key constraint.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 向全美用户开放 Muse AI 智能体实时视频通话&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 智能体从文本走向实时多模态交互的重要产品化节点，且披露了延迟、并发与成本等可验证的工程细节。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
@@ -57,6 +84,15 @@
 <category>智能体</category>
 <category>网页研究</category>
 <category>产品发布</category>
+</item>
+<item><title>NVIDIA Unveils Vera CPU Targeting Agent Throughput and Power Efficiency</title><link>https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/</link><guid isPermaLink="true">https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/</guid>
+<pubDate>Fri, 06 Nov 2026 04:00:41 +0800</pubDate>
+<description>&lt;p&gt;NVIDIA introduced Vera, a CPU aimed at AI agent workloads, claiming a single chip outperforms both the fastest and the most energy-efficient x86 CPUs in a 100-megawatt data center comparison. NVIDIA reports lower agent latency than x86, while Modal measured up to 2x sandbox throughput per core. The pitch is one CPU balancing speed and capacity under power constraints.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;NVIDIA 发布 Vera CPU 主打智能体高吞吐与低功耗&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 NVIDIA 首次以官方数据正面切入智能体 CPU 赛道，对算力选型有直接参考价值。&lt;/p&gt;&lt;p&gt;NVIDIA Blog · compute · signal 58/100&lt;/p&gt;</description>
+<source url="https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/">NVIDIA Blog</source>
+<category>NVIDIA</category>
+<category>CPU</category>
+<category>算力基础设施</category>
+<category>智能体</category>
 </item>
 <item><title>Meta Opens Muse AI Avatar Video Chat to All US Users</title><link>https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/</guid>
 <pubDate>Fri, 06 Nov 2026 03:48:28 +0800</pubDate>
@@ -182,27 +218,27 @@
 <category>邮箱接口</category>
 <category>权限控制</category>
 </item>
-<item><title>Amazon Uses SageMaker AI Multi-Model Fusion to Score A+ Content Quality</title><link>https://aws.amazon.com/blogs/machine-learning/how-amazon-marketplace-evaluates-content-quality-with-amazon-sagemaker-ai/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/how-amazon-marketplace-evaluates-content-quality-with-amazon-sagemaker-ai/</guid>
+<item><title>亚马逊用 SageMaker AI 多模型融合评估 A+ 内容质量</title><link>https://aws.amazon.com/blogs/machine-learning/how-amazon-marketplace-evaluates-content-quality-with-amazon-sagemaker-ai/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/how-amazon-marketplace-evaluates-content-quality-with-amazon-sagemaker-ai/</guid>
 <pubDate>Fri, 06 Nov 2026 02:06:43 +0800</pubDate>
-<description>&lt;p&gt;Amazon describes a multi-model fusion approach built on SageMaker AI to evaluate the holistic quality of A+ Content, where text, images, and video are judged together rather than asset by asset. It is a vendor-bound engineering practice write-up aimed at heterogeneous multi-module content, without disclosed model parameters or reproducible benchmark data.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊用 SageMaker AI 多模型融合评估 A+ 内容质量&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了大厂用多模型融合做内容质量评估的落地思路，但属厂商绑定实践分享，缺乏可复现细节。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;亚马逊介绍了一套基于 SageMaker AI 的多模型融合方案，用于评估 A+ 内容中图文视频组合的整体质量，而非逐项孤立打分。该方案面向多模块异构内容的整体质量信号需求，属于厂商绑定的工程实践分享，文中未披露具体模型参数或可复现的基准数据。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了大厂用多模型融合做内容质量评估的落地思路，但属厂商绑定实践分享，缺乏可复现细节。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 38/100&lt;/p&gt;</description>
 <source url="https://aws.amazon.com/blogs/machine-learning/how-amazon-marketplace-evaluates-content-quality-with-amazon-sagemaker-ai/">AWS Machine Learning Blog</source>
 <category>亚马逊</category>
 <category>SageMaker</category>
 <category>内容质量评估</category>
 <category>多模型融合</category>
 </item>
-<item><title>OpenAI President Says Company Could Be IPO-Ready by 2027</title><link>https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/</guid>
+<item><title>OpenAI 总裁称公司有望 2027 年具备 IPO 条件</title><link>https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/</guid>
 <pubDate>Fri, 06 Nov 2026 02:02:27 +0800</pubDate>
-<description>&lt;p&gt;OpenAI president Greg Brockman said at a WSJ tech conference that the company could be ready for an IPO in 2027, citing growing enterprise revenue. He acknowledged a rough first half of 2026 and lagging Anthropic&amp;#x27;s Claude Code in agentic coding, but said OpenAI&amp;#x27;s enterprise standing has shifted markedly since.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 总裁称公司有望 2027 年具备 IPO 条件&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 OpenAI 上市时间表与企业战略转向的关键信号，对判断其商业化节奏与竞争格局有参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 总裁 Greg Brockman 在 WSJ 科技会议上表示，公司有望在 2027 年具备 IPO 条件，并强调企业业务收入持续增长。他坦承 2026 年上半年表现“相当艰难”，在智能体编程赛道一度落后于 Anthropic 的 Claude Code，但下半年企业市场地位已明显改观。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 OpenAI 上市时间表与企业战略转向的关键信号，对判断其商业化节奏与竞争格局有参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/">TechCrunch AI</source>
 <category>OpenAI</category>
 <category>IPO</category>
 <category>企业市场</category>
 <category>Anthropic</category>
 </item>
-<item><title>Nasdaq Sinks 5% as Investors Retreat From AI Trade After Election</title><link>https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026</link><guid isPermaLink="true">https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026</guid>
+<item><title>大选后投资者撤离 AI 交易 纳指单日重挫 5%</title><link>https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026</link><guid isPermaLink="true">https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026</guid>
 <pubDate>Fri, 06 Nov 2026 02:00:01 +0800</pubDate>
-<description>&lt;p&gt;Investors pulled back from the crowded AI trade after the U.S. election, driving the Nasdaq down 5% in a single session while the VIX spiked more than 62% and Bitcoin fell about 5%. The move signals a shift from one-sided AI positioning toward risk repricing, making volatility and capital rotation key variables for AI asset valuations.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;大选后投资者撤离 AI 交易 纳指单日重挫 5%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 板块资金面与市场情绪的宏观信号，直接影响 AI 公司估值与融资环境。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;美国大选落定后，市场对 AI 板块的集中押注出现明显松动，纳斯达克指数单日下跌 5%，恐慌指数 VIX 飙升逾 62%，比特币同步回落约 5%。这标志着 AI 交易从单边拥挤转向风险重定价，短期波动率与资金轮动将成为观察 AI 资产定价的关键变量。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 板块资金面与市场情绪的宏观信号，直接影响 AI 公司估值与融资环境。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026">Hacker News AI</source>
 <category>AI 交易</category>
 <category>纳斯达克</category>
@@ -218,9 +254,9 @@
 <category>金融科技</category>
 <category>智能体</category>
 </item>
-<item><title>Anthropic Adds Personal Finance Tool to Claude With Bank Account Access</title><link>https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/</guid>
+<item><title>Claude 推出个人理财工具 可直连银行账户分析消费</title><link>https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/</guid>
 <pubDate>Fri, 06 Nov 2026 02:00:00 +0800</pubDate>
-<description>&lt;p&gt;Anthropic launched Personal Finance for Claude, letting users link bank and credit card accounts read-only via Plaid and ask questions about balances, transactions and spending in plain language. The tool cannot move or invest money, and marks another vertical push for Claude, though it trails ChatGPT&amp;#x27;s similar finance feature launched in May.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Claude 推出个人理财工具 可直连银行账户分析消费&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Claude 向个人理财垂直场景延伸的产品动作，涉及账户连接与只读权限设计，但缺乏模型能力层面的实质突破。&lt;/p&gt;&lt;p&gt;TechCrunch AI · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 为 Claude 上线 Personal Finance 工具，用户可通过 Plaid 以只读方式连接银行与信用卡账户，让 Claude 用日常语言解读余额、交易与消费模式。该功能不移动资金，属于 Claude 向垂直场景扩展的一环，但在个人理财连接能力上落后于今年 5 月已推出类似功能的 ChatGPT。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Claude 向个人理财垂直场景延伸的产品动作，涉及账户连接与只读权限设计，但缺乏模型能力层面的实质突破。&lt;/p&gt;&lt;p&gt;TechCrunch AI · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/">TechCrunch AI</source>
 <category>Anthropic</category>
 <category>Claude</category>
@@ -236,42 +272,6 @@
 <category>API 密钥管理</category>
 <category>MDM</category>
 <category>开发者安全</category>
-</item>
-<item><title>百度开源 2800 亿参数 ERNIE 5.5 Flash Base 基础模型</title><link>https://the-decoder.com/baidu-releases-ernie-5-5-flash-base-with-280-billion-parameters-as-an-open-source-foundation-model/</link><guid isPermaLink="true">https://the-decoder.com/baidu-releases-ernie-5-5-flash-base-with-280-billion-parameters-as-an-open-source-foundation-model/</guid>
-<pubDate>Fri, 06 Nov 2026 01:56:41 +0800</pubDate>
-<description>&lt;p&gt;百度在 Hugging Face 发布 ERNIE-5.5-Flash-Base，采用混合专家架构，总参数 2800 亿、每 token 激活 140 亿，预训练语料 33.5 万亿 token，训练上下文 12.8 万 token，微调与推理阶段可扩展至百万级上下文。该模型刻意不做微调与后训练，定位为供开发者自行定制的基础权重，后续将推出后训练版本。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大厂开源超大参数基础模型权重，直接影响开源模型选型与二次训练路线。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/baidu-releases-ernie-5-5-flash-base-with-280-billion-parameters-as-an-open-source-foundation-model/">The Decoder</source>
-<category>大模型</category>
-<category>百度</category>
-<category>开源模型</category>
-<category>混合专家</category>
-</item>
-<item><title>BOSS 直聘团队开源 Nanbeige4.3-33B 推理模型，综合智能追平 Qwen3.8 27B</title><link>https://x.com/ArtificialAnlys/status/2118400279788101824</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2118400279788101824</guid>
-<pubDate>Fri, 06 Nov 2026 01:49:19 +0800</pubDate>
-<description>&lt;p&gt;BOSS 直聘旗下基础模型团队 Nanbeige 以 Apache 2.0 协议开源 33B 稠密推理模型 Nanbeige4.3-33B，在 Artificial Analysis 智能指数 v5 上得 20 分，与 Qwen3.8 27B（xhigh）持平。该模型支持 524K token 上下文、仅文本输入输出，体积小到可在笔记本本地运行，终端操作与物理推理为相对强项，但知识类基准明显落后。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;30B 级开源稠密推理模型在综合智能上追平 Qwen3.8 27B，且可本地运行，对关注开源模型选型的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 72/100&lt;/p&gt;</description>
-<source url="https://x.com/ArtificialAnlys/status/2118400279788101824">Artificial Analysis (@ArtificialAnlys)</source>
-<category>开源模型</category>
-<category>推理模型</category>
-<category>Nanbeige</category>
-<category>基准评测</category>
-</item>
-<item><title>OpenRouter：2026 年智能体缓存命中率升至 89%</title><link>https://x.com/OpenRouter/status/2118399637736600030</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2118399637736600030</guid>
-<pubDate>Fri, 06 Nov 2026 01:46:46 +0800</pubDate>
-<description>&lt;p&gt;OpenRouter 指出，2026 年推理层的进步同样显著：智能体场景的中位缓存命中率从年初的 60% 多升至 89%，同等模型下成本明显下降。这意味着在模型能力之外，推理基础设施的缓存优化正成为降本的关键变量。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自主流模型路由平台的实测口径数据，量化了推理层缓存优化对智能体成本的实质影响。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · compute · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/OpenRouter/status/2118399637736600030">OpenRouter (@OpenRouter)</source>
-<category>推理优化</category>
-<category>缓存</category>
-<category>智能体</category>
-<category>OpenRouter</category>
-</item>
-<item><title>Eon 推出 Yukon 无服务器数据引擎 面向智能体数据层</title><link>https://x.com/rohanpaul_ai/status/2118398129045442685</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118398129045442685</guid>
-<pubDate>Fri, 06 Nov 2026 01:40:46 +0800</pubDate>
-<description>&lt;p&gt;Eon 发布 Yukon 无服务器数据引擎，将事件数据摄取、清洗并压缩为自有存储桶中的开放 Iceberg 表，智能体通过 MCP 读取表上下文。官方公开基准显示其计算开销比 Spark 低 4 倍、比 Flink 低 7 倍，核心思路是让智能体在查询前先了解表结构以减少无效扫描。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;智能体数据层是当前落地瓶颈之一，该产品给出可复现的公开基准与开放表格式方案，值得关注。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2118398129045442685">Rohan Paul (@rohanpaul_ai)</source>
-<category>智能体</category>
-<category>数据基础设施</category>
-<category>Iceberg</category>
-<category>MCP</category>
 </item>
 </channel>
 </rss>
