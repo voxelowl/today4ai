@@ -27,14 +27,6 @@ Hy4 的发布标志着腾讯在大模型开源赛道迈入第一梯队，其视�
 
 FlashProve 的发布标志着 AI 供应链透明度建设的重要进展。尽管目前仍处于研究阶段且尚未大规模部署，但它为构建可信 AI 生态提供了关键基础设施。未来，随着算力成本的优化和上下文限制的突破，此类零知识证明技术有望成为规范大模型 API 服务、保障开发者权益及增强用户信任的核心标准。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), TechCrunch AI, Marktechpost (@Marktechpost), IT之家 · 智能时代, Anthropic AI (@AnthropicAI), The Decoder&lt;/p&gt;</description>
 </item>
-<item><title>谷歌捆绑 AI 与搜索，禁用工具将失去权限</title><link>https://todayforai.com/en/story/story-a7283b3a-2a1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a7283b3a-2a1</guid>
-<pubDate>Thu, 05 Nov 2026 15:41:30 +0800</pubDate>
-<description>&lt;p&gt;谷歌宣布调整 K-12 教育产品策略，将 AI 功能与核心搜索服务深度绑定。明年起，Gemini 等 AI 工具默认关闭，需管理员显式开启；若学校选择完全禁用 AI，学生将无法使用 Google 搜索。这一“二选一”机制迫使教育机构在隐私合规与基础信息获取能力之间做出艰难权衡。
-
-多方信源交叉验证显示，此举源于 AI 技术已底层集成至搜索引擎架构，导致无法单独剥离。尽管谷歌声称该政策旨在回应家长对儿童 AI 交互的管控需求，并赋予教师审查对话记录的权限，但 TechCrunch 与 Ars Technica 指出，这实质上构成了基础设施层面的强制推广。学校面临要么全面启用 AI、要么放弃搜索服务的困境，凸显了平台权力对用户选择权的挤压。
-
-该事件标志着科技巨头在教育领域加速 AI 渗透的策略升级，引发了关于技术垄断与数字主权的行业讨论。通过控制关键基础设施，谷歌正从单纯提供工具转向塑造行业标准，这可能加剧其他平台效仿此类捆绑策略，进一步压缩开发者与用户在生态中的自主空间。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, TechCrunch AI, The Verge AI, Ars Technica AI, IT之家 · IT业界, IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
 <item><title>百度开源 280B 参数 ERNIE 5.5 Flash Base 基座模型，多项基准刷新同尺寸 SOTA</title><link>https://todayforai.com/en/story/story-5c028d15-ccb</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5c028d15-ccb</guid>
 <pubDate>Thu, 05 Nov 2026 17:29:12 +0800</pubDate>
 <description>&lt;p&gt;百度正式开源了文心大模型 ERNIE 5.5 Flash Base 的预训练终点权重。该模型总参数达 2800 亿，采用稀疏 MoE 架构，每个 token 仅激活 140 亿参数，在 33.5 万亿 tokens 上从零预训练，训练上下文为 128K，微调与推理阶段可扩展至 100 万 tokens。在知识、推理、数学、代码、多语言及长上下文等多项基准上，该模型刷新了同尺寸 SOTA，性能超过 DeepSeek-V4-Flash-Base 等同类模型。
@@ -50,6 +42,14 @@ FlashProve 的发布标志着 AI 供应链透明度建设的重要进展。尽�
 多方信源交叉验证显示，该系统的误报率极低，仅 3.1% 为模型幻觉所致，候选漏洞复现率高达 74.7%。更关键的是，GPT-5.5 Cyber 不仅停留在发现阶段，还自动生成了 948 个可让非特权用户获取 root 权限的本地提权利用程序（Exploit）。这一全链路自动化能力证明了 AI 能够规模化执行从漏洞发现、验证到利用构建的高难度安全任务，API 成本约为 31.65 万美元。
 
 此举对基础设施安全生态具有深远影响。OpenAI 采用“先发现后优先排序”策略，配合 Patch the Planet 计划推动上游修复，旨在通过 AI 加速补丁开发以增强全球 Linux 系统的安全性。这标志着 AI 已从辅助工具转变为具备独立作战能力的自动化安全研究员，或将重塑漏洞挖掘与防御的行业格局。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, Yuchen Jin (@Yuchenj_UW), Hacker News AI, OpenAI 官方博客&lt;/p&gt;</description>
+</item>
+<item><title>谷歌捆绑 AI 与搜索，禁用工具将失去权限</title><link>https://todayforai.com/en/story/story-a7283b3a-2a1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a7283b3a-2a1</guid>
+<pubDate>Thu, 05 Nov 2026 15:41:30 +0800</pubDate>
+<description>&lt;p&gt;谷歌宣布调整 K-12 教育产品策略，将 AI 功能与核心搜索服务深度绑定。明年起，Gemini 等 AI 工具默认关闭，需管理员显式开启；若学校选择完全禁用 AI，学生将无法使用 Google 搜索。这一“二选一”机制迫使教育机构在隐私合规与基础信息获取能力之间做出艰难权衡。
+
+多方信源交叉验证显示，此举源于 AI 技术已底层集成至搜索引擎架构，导致无法单独剥离。尽管谷歌声称该政策旨在回应家长对儿童 AI 交互的管控需求，并赋予教师审查对话记录的权限，但 TechCrunch 与 Ars Technica 指出，这实质上构成了基础设施层面的强制推广。学校面临要么全面启用 AI、要么放弃搜索服务的困境，凸显了平台权力对用户选择权的挤压。
+
+该事件标志着科技巨头在教育领域加速 AI 渗透的策略升级，引发了关于技术垄断与数字主权的行业讨论。通过控制关键基础设施，谷歌正从单纯提供工具转向塑造行业标准，这可能加剧其他平台效仿此类捆绑策略，进一步压缩开发者与用户在生态中的自主空间。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, TechCrunch AI, The Verge AI, Ars Technica AI, IT之家 · IT业界, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 用 Claude 首次解析细菌穹窿体结构，实验周期从数周缩至数天</title><link>https://todayforai.com/en/story/story-0c3c61a8-fff</link><guid isPermaLink="true">https://todayforai.com/en/story/story-0c3c61a8-fff</guid>
 <pubDate>Thu, 05 Nov 2026 15:24:41 +0800</pubDate>

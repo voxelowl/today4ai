@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Fri, 06 Nov 2026 00:16:45 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 06 Nov 2026 00:46:24 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>SemiAnalysis&#x27;s GDPx Benchmark Finds Top AI Agents Score Just 12% on Real Work Tasks</title><link>https://the-decoder.com/no-ai-agent-scores-above-12-percent-on-semianalysis-new-real-world-work-benchmark/</link><guid isPermaLink="true">https://the-decoder.com/no-ai-agent-scores-above-12-percent-on-semianalysis-new-real-world-work-benchmark/</guid>
+<pubDate>Fri, 06 Nov 2026 00:46:24 +0800</pubDate>
+<description>&lt;p&gt;SemiAnalysis has launched GDPx, a benchmark that places AI agents in simulated knowledge-work environments and professional software for multi-hour, 206-task runs, with the best model scoring only 12%. Claude Opus 5.5 leads at 12%, followed by Gemini 4 Carbon at 10.9% and GPT-6 Astra at 9.6%. Critics point to distortions from safety filters, undisclosed tasks, and each provider&amp;#x27;s own agent tooling, while small per-domain task counts make scores volatile.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SemiAnalysis 发布 GDPx 基准，最强 AI 智能体真实工作任务得分仅 12%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是首个以数小时真实工作流衡量智能体能力的公开基准，低分结果直接揭示当前智能体在长程任务上的能力边界。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 78/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/no-ai-agent-scores-above-12-percent-on-semianalysis-new-real-world-work-benchmark/">The Decoder</source>
+<category>AI 智能体</category>
+<category>基准评测</category>
+<category>SemiAnalysis</category>
+</item>
 <item><title>Axiom Math Formally Verifies the Stacks Project</title><link>https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/</guid>
 <pubDate>Fri, 06 Nov 2026 00:16:45 +0800</pubDate>
 <description>&lt;p&gt;Axiom Math, a $1.6B startup, announced it has formally verified the Stacks Project, one of the largest bodies of human-written mathematics. The company argues that a machine-checkable mathematical foundation should underpin AI agents writing software and eventually doing science, rather than chasing unverified solution counts, and it openly challenged coding companies to formalize at the same scale.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Axiom Math 完成 Stacks Project 形式化验证&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;形式化验证与 AI 数学可信度是当前智能体落地科研的关键基础设施议题，且涉及高额融资公司的重要里程碑。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 72/100&lt;/p&gt;</description>
@@ -20,6 +28,42 @@
 <category>腾讯</category>
 <category>多模态</category>
 <category>电脑操作</category>
+</item>
+<item><title>Stroq Locally Audits Coding Agent Sessions, Tracing Command Origins and Key Leaks</title><link>https://github.com/AGGIB/Stroq</link><guid isPermaLink="true">https://github.com/AGGIB/Stroq</guid>
+<pubDate>Thu, 05 Nov 2026 23:54:41 +0800</pubDate>
+<description>&lt;p&gt;Stroq is a local CLI that reads the last 30 days of Claude Code and Codex sessions to count how many commands originated from text the agent read (a prompt-injection exposure surface) and which keys left the machine. It prints key names but never values, caches only under ~/.stroq, and requires no account or telemetry.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Stroq 本地审计编码智能体会话 追踪命令来源与密钥外泄&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把智能体提示注入与密钥外泄这两类隐性风险转化为可量化的本地审计指标，对日常使用编码智能体的开发者有直接实用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
+<source url="https://github.com/AGGIB/Stroq">Hacker News AI</source>
+<category>智能体</category>
+<category>安全审计</category>
+<category>开发者工具</category>
+<category>提示注入</category>
+</item>
+<item><title>Multi-Agent Architecture Patterns and the Failure Modes That Emerge in Production</title><link>https://kadhar.dev/blog/multi-agent-systems-from-scratch</link><guid isPermaLink="true">https://kadhar.dev/blog/multi-agent-systems-from-scratch</guid>
+<pubDate>Thu, 05 Nov 2026 23:51:57 +0800</pubDate>
+<description>&lt;p&gt;The post argues that the real engineering burden in multi-agent systems is coordination, not reasoning. It distills three recurring architecture patterns for splitting work across agents and focuses on failure modes that only surface once a system runs unattended in production rather than in a one-off demo.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;多智能体系统架构：三种协作模式与生产环境失效陷阱&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向工程实践的多智能体架构经验总结，对正在落地 Agent 系统的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 58/100&lt;/p&gt;</description>
+<source url="https://kadhar.dev/blog/multi-agent-systems-from-scratch">Hacker News AI</source>
+<category>智能体</category>
+<category>多智能体系统</category>
+<category>架构模式</category>
+<category>工程实践</category>
+</item>
+<item><title>OpenAI Updates Model Spec Around Five Core Values for Model Behavior</title><link>https://openai.com/index/updated-model-spec/</link><guid isPermaLink="true">https://openai.com/index/updated-model-spec/</guid>
+<pubDate>Thu, 05 Nov 2026 23:31:43 +0800</pubDate>
+<description>&lt;p&gt;OpenAI released an updated Model Spec that reorganizes its behavioral guidance around five values: faithfulness to human intent, harm minimization, honesty and transparency, human agency, and care. The revision adds guidance on context, oversight, and agency, adjusts some behavioral defaults, and retires much of the detailed style guidance, aiming for models that apply human values in situations their instructions do not explicitly cover.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 更新 Model Spec 以五大价值观重构模型行为准则&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 OpenAI 对齐策略的公开纲领性文件更新，直接影响模型默认行为与安全边界，值得关注对齐方向的读者一读。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 62/100&lt;/p&gt;</description>
+<source url="https://openai.com/index/updated-model-spec/">Hacker News AI</source>
+<category>大模型</category>
+<category>OpenAI</category>
+<category>对齐</category>
+<category>AI 安全</category>
+</item>
+<item><title>Offline Survival Assistant Runs Local LLM and Kiwix from a USB Stick</title><link>https://github.com/sdalberto/ia-da-sobrevivencia/blob/main/README.en.md</link><guid isPermaLink="true">https://github.com/sdalberto/ia-da-sobrevivencia/blob/main/README.en.md</guid>
+<pubDate>Thu, 05 Nov 2026 23:25:36 +0800</pubDate>
+<description>&lt;p&gt;The project delivers a fully offline survival-knowledge assistant that runs local models via llama.cpp or Ollama on Windows, Linux and macOS, retrieving from Kiwix offline libraries (medical Wikipedia, Where There Is No Doctor, iFixit and more) and answering with citations. It bundles multilingual practical guides and a LAN-shareable web UI, with a Python-only retrieval mode when no model is installed.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;离线生存助手发布 本地 LLM 搭配 Kiwix 从 U 盘运行&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是本地 LLM 加 RAG 在断网应急场景的完整落地范例，对关注离线推理与检索增强的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://github.com/sdalberto/ia-da-sobrevivencia/blob/main/README.en.md">Hacker News AI</source>
+<category>本地推理</category>
+<category>RAG</category>
+<category>离线应用</category>
+<category>开源项目</category>
 </item>
 <item><title>Dropbox Acquires Tigris Data for $350M to Bolster AI Infrastructure</title><link>https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/</guid>
 <pubDate>Thu, 05 Nov 2026 23:19:05 +0800</pubDate>
@@ -39,6 +83,16 @@
 <category>美联社</category>
 <category>版权</category>
 <category>Claude</category>
+</item>
+<item><title>Mizu Enables Zero-Copy Parallel R and Python Over Shared Memory</title><link>https://github.com/shikokuchuo/pymizu</link><guid isPermaLink="true">https://github.com/shikokuchuo/pymizu</guid>
+<pubDate>Thu, 05 Nov 2026 23:09:04 +0800</pubDate>
+<description>&lt;p&gt;Mizu builds lock-free channels and work-stealing task pools over POSIX shared memory and Win32 file mappings, cutting task round-trip latency between Python and R from roughly 100 microseconds to under 1 microsecond. Lists, dicts, NumPy arrays and Arrow tables can be shared as zero-copy views across the two languages, giving cross-language data science pipelines low-overhead, process-isolated parallelism.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Mizu 发布 基于共享内存实现 R 与 Python 零拷贝并行&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以共享内存把跨语言进程通信压到微秒级，是数据科学工具链中少见的底层工程突破。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
+<source url="https://github.com/shikokuchuo/pymizu">Hacker News AI</source>
+<category>开源工具</category>
+<category>共享内存</category>
+<category>Python</category>
+<category>R</category>
+<category>并行计算</category>
 </item>
 <item><title>Meta Acquires AI Coding Startup Conductor as Big Tech Races to Lock In Developers</title><link>https://the-decoder.com/meta-buys-ai-coding-startup-conductor-as-big-tech-races-to-lock-in-developers/</link><guid isPermaLink="true">https://the-decoder.com/meta-buys-ai-coding-startup-conductor-as-big-tech-races-to-lock-in-developers/</guid>
 <pubDate>Thu, 05 Nov 2026 23:01:09 +0800</pubDate>
@@ -173,102 +227,48 @@
 <category>人脸识别</category>
 <category>隐私安全</category>
 </item>
-<item><title>AltoBeam Unveils China&#x27;s First Wi-Fi 7 Data Transmission Chip ATBM6175</title><link>https://www.ithome.com/1/022/992.htm</link><guid isPermaLink="true">https://www.ithome.com/1/022/992.htm</guid>
+<item><title>高拓讯达发布国内首款 Wi-Fi 7 数传芯片 ATBM6175</title><link>https://www.ithome.com/1/022/992.htm</link><guid isPermaLink="true">https://www.ithome.com/1/022/992.htm</guid>
 <pubDate>Thu, 05 Nov 2026 21:54:13 +0800</pubDate>
-<description>&lt;p&gt;AltoBeam launched the ATBM6175, billed as China&amp;#x27;s first Wi-Fi 7 (IEEE 802.11be) data transmission SoC, with all core Wi-Fi 7 technology developed in-house. It supports 80MHz channels, 4096-QAM and MLO, reaching a 720Mbps physical-layer peak while improving Wi-Fi/Bluetooth coexistence.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;高拓讯达发布国内首款 Wi-Fi 7 数传芯片 ATBM6175&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产 Wi-Fi 7 数传芯片首发，属细分连接芯片进展，与 AI 算力主线关联有限。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;高拓讯达推出国内首款支持 IEEE 802.11be 的 Wi-Fi 数传 SoC ATBM6175，核心 Wi-Fi 7 技术全部自研。该芯片支持 80MHz 带宽、4096-QAM 与 MLO，物理层极限峰值速率 720Mbps，并强化 Wi-Fi 与蓝牙共存架构。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产 Wi-Fi 7 数传芯片首发，属细分连接芯片进展，与 AI 算力主线关联有限。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 42/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/022/992.htm">IT之家 · IT业界</source>
 <category>芯片</category>
 <category>Wi-Fi 7</category>
 <category>高拓讯达</category>
 </item>
-<item><title>SenseTime Releases SenseNova 6.8 Flash with Office Intelligence and Dynamic Design</title><link>https://x.com/rohanpaul_ai/status/2118336753337819248</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118336753337819248</guid>
+<item><title>商汤发布 SenseNova 6.8 Flash 主打办公智能与动态设计</title><link>https://x.com/rohanpaul_ai/status/2118336753337819248</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118336753337819248</guid>
 <pubDate>Thu, 05 Nov 2026 21:36:53 +0800</pubDate>
-<description>&lt;p&gt;SenseTime released SenseNova 6.8 Flash, centered on two capability directions: Office Intelligence, which maintains user goals, preferences and constraints across tasks and proactively recommends next actions from new context, and Dynamic Design, which produces animated PPTX decks, motion posters, interactive websites and editable Blender projects. The positioning shifts from isolated content generation toward task continuity and ready-to-use artifacts.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;商汤发布 SenseNova 6.8 Flash 主打办公智能与动态设计&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是国产大模型在智能体化办公与多模态成品生成方向的一次产品级更新，但公开信息以营销口径为主，缺少参数、基准与可验证细节。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;商汤发布 SenseNova 6.8 Flash，聚焦两大能力方向：办公智能可跨任务保持用户目标、偏好与约束，并基于新上下文主动推荐下一步操作；动态设计可生成动画 PPTX、动态海报、交互式网站与可编辑 Blender 工程。其定位是从孤立的内容生成转向任务连续性与可直接使用的成品交付。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是国产大模型在智能体化办公与多模态成品生成方向的一次产品级更新，但公开信息以营销口径为主，缺少参数、基准与可验证细节。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 58/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2118336753337819248">Rohan Paul (@rohanpaul_ai)</source>
 <category>大模型</category>
 <category>商汤</category>
 <category>多模态生成</category>
 <category>智能体</category>
 </item>
-<item><title>iOS 27.3 Code Hints HomeView Will Support Third-Party AI Apps</title><link>https://www.ithome.com/1/022/984.htm</link><guid isPermaLink="true">https://www.ithome.com/1/022/984.htm</guid>
+<item><title>iOS 27.3 代码显示 HomeView 将支持第三方 AI 应用</title><link>https://www.ithome.com/1/022/984.htm</link><guid isPermaLink="true">https://www.ithome.com/1/022/984.htm</guid>
 <pubDate>Thu, 05 Nov 2026 21:11:11 +0800</pubDate>
-<description>&lt;p&gt;Leaker pdfu reports that iOS 27.3 beta code contains a Conversational Apps category, already granted to HomeView bridging tool PebblePlay, suggesting ChatGPT and Claude could reach Apple&amp;#x27;s smart-home hub HomeView. The mechanism mirrors CarPlay&amp;#x27;s category-based app authorization, but Apple has not officially confirmed it.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;iOS 27.3 代码显示 HomeView 将支持第三方 AI 应用&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是苹果生态向第三方 AI 应用开放入口的早期信号，值得关注平台分发格局变化的读者留意。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;爆料者 pdfu 称，iOS 27.3 测试版代码中出现了 Conversational Apps 类别，PebblePlay 已获得该标记，意味着 ChatGPT、Claude 等对话类应用有望接入苹果智能家居中枢 HomeView。该机制类似 CarPlay 的类别授权，目前仍属代码线索，苹果尚未官方确认。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是苹果生态向第三方 AI 应用开放入口的早期信号，值得关注平台分发格局变化的读者留意。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/022/984.htm">IT之家 · 智能时代</source>
 <category>苹果</category>
 <category>智能家居</category>
 <category>AI 应用生态</category>
 </item>
-<item><title>Texas Midterm Shakeup Puts AI Data Center Buildout at Risk</title><link>https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/</link><guid isPermaLink="true">https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/</guid>
+<item><title>得州中期选举变天 民主党胜选或冲击 AI 数据中心建设</title><link>https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/</link><guid isPermaLink="true">https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/</guid>
 <pubDate>Thu, 05 Nov 2026 21:10:00 +0800</pubDate>
-<description>&lt;p&gt;Texas Democrats swept the Senate seat, governorship, and state House after making data centers a central campaign issue. The shift could create policy headwinds for hyperscalers expanding in the state and deepen worries that the US AI buildout may stall.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;得州中期选举变天 民主党胜选或冲击 AI 数据中心建设&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;选举政治直接牵动 AI 数据中心与能源政策，是判断美国算力扩张节奏的重要变量。&lt;/p&gt;&lt;p&gt;MIT Technology Review · industry · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;得州民主党在中期选举中拿下参议院席位、州长与州众议院控制权，而数据中心正是其竞选核心议题。这可能给在该州大举扩张的超大规模云厂商带来政策阻力，并加剧外界对美国 AI 基建能否如期推进的担忧。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;选举政治直接牵动 AI 数据中心与能源政策，是判断美国算力扩张节奏的重要变量。&lt;/p&gt;&lt;p&gt;MIT Technology Review · industry · signal 42/100&lt;/p&gt;</description>
 <source url="https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/">MIT Technology Review</source>
 <category>AI 基建</category>
 <category>数据中心</category>
 <category>能源政策</category>
 <category>得州</category>
 </item>
-<item><title>YC-Backed Startup Offers $1M for AI to Solve Five Materials Science Problems</title><link>https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/</guid>
+<item><title>YC 系初创悬赏 100 万美元征集 AI 破解材料学五大难题</title><link>https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/</guid>
 <pubDate>Thu, 05 Nov 2026 21:00:00 +0800</pubDate>
-<description>&lt;p&gt;San Francisco startup Discovered Materials, a spring 2026 Y Combinator alum, has announced a $1 million challenge asking AI models to tackle five open problems in materials science, defined with help from academic advisors, aiming at industrially useful materials for advanced chips. The company says materials problems resist math-like formalization, so it first had experts frame the field&amp;#x27;s grand challenges as a yardstick for AI progress, and now expects to find useful materials faster than its earlier one-year target.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;YC 系初创悬赏 100 万美元征集 AI 破解材料学五大难题&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI for Science 领域一次带有明确赏金与问题定义的公开基准尝试，值得关注其能否为材料发现建立可衡量的评测标准。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;成立仅数月的旧金山初创 Discovered Materials 宣布设立 100 万美元奖金池，邀请 AI 模型攻克由全球高校学者梳理出的五个材料科学开放难题，目标是找到可用于先进芯片的工业级新材料。该公司认为材料科学问题难以像数学那样精确定义，因此先请学术顾问界定“重大挑战”作为可衡量的进展标尺，并称找到有用材料的时间表已比原先预期的一年更快。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI for Science 领域一次带有明确赏金与问题定义的公开基准尝试，值得关注其能否为材料发现建立可衡量的评测标准。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/">TechCrunch AI</source>
 <category>AI for Science</category>
 <category>材料科学</category>
 <category>YC</category>
 <category>基准评测</category>
-</item>
-<item><title>Agility Robotics to List on Nasdaq This Week as First US Humanoid Robot IPO</title><link>https://www.ithome.com/1/022/978.htm</link><guid isPermaLink="true">https://www.ithome.com/1/022/978.htm</guid>
-<pubDate>Thu, 05 Nov 2026 20:38:57 +0800</pubDate>
-<description>&lt;p&gt;Agility Robotics will debut on Nasdaq under ticker AGLT this Thursday via its merger with Churchill Capital Corp. XI, becoming the first US-listed pure-play humanoid robot company, with roughly $465M in proceeds including a $201M PIPE led by Foxconn and backed by Nvidia, Amazon and SoftBank Vision Fund II. The ~400-person Oregon firm is expanding warehouse deployments with GXO Logistics and a manufacturing pilot with AGCO, while its new Digit 5 can work safely alongside people.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Agility Robotics 本周登陆纳斯达克 成美国人形机器人第一股&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;人形机器人赛道首个美股 IPO 落地，资本结构与商业化进展同时给出可验证信号，值得关注产业拐点。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 72/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/022/978.htm">IT之家 · 智能时代</source>
-<category>人形机器人</category>
-<category>Agility Robotics</category>
-<category>IPO</category>
-<category>具身智能</category>
-</item>
-<item><title>高通 6G 终端原型机进博会首展 下行带宽达 400MHz</title><link>https://www.ithome.com/1/022/977.htm</link><guid isPermaLink="true">https://www.ithome.com/1/022/977.htm</guid>
-<pubDate>Thu, 05 Nov 2026 20:36:22 +0800</pubDate>
-<description>&lt;p&gt;高通在第九届进博会上首次公开展出符合 3GPP 最新定义的 6G 终端原型机，该原型机采用 400MHz 下行带宽，峰值速率约 14Gbps，并已与中国移动、中兴完成互操作性测试。原型机引入 Giga-MIMO、概率整形和子带全双工等技术，用于验证新频谱与关键无线技术的系统级性能，为 2029 年商用目标积累经验。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;6G 终端原型首次公开实物展出并披露带宽与速率实测数据，是通信基础设施演进的可验证节点。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/022/977.htm">IT之家 · IT业界</source>
-<category>6G</category>
-<category>高通</category>
-<category>通信基础设施</category>
-<category>进博会</category>
-</item>
-<item><title>Anthropic Claude Code 产品负责人 Catherine Wu 跳槽 OpenAI</title><link>https://the-decoder.com/anthropic-loses-product-lead-catherine-wu-behind-claude-code-to-openai/</link><guid isPermaLink="true">https://the-decoder.com/anthropic-loses-product-lead-catherine-wu-behind-claude-code-to-openai/</guid>
-<pubDate>Thu, 05 Nov 2026 20:20:35 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 旗下 Claude Code 的产品负责人 Catherine Wu 已确认加入 OpenAI，负责“核心产品”的产品管理工作。这是继多位 Claude Code 相关核心成员离职后，Anthropic 在人才层面的又一次流失，也反映出两家公司在产品、定价与人才上的正面竞争正在加剧。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 实验室之间围绕智能体产品线的核心人才争夺，是判断竞争格局走向的重要信号。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/anthropic-loses-product-lead-catherine-wu-behind-claude-code-to-openai/">The Decoder</source>
-<category>Anthropic</category>
-<category>OpenAI</category>
-<category>人才流动</category>
-<category>Claude Code</category>
-<category>智能体</category>
-</item>
-<item><title>华为云将于 11 月 15 日上线 openPangu-2.1-Pro 旗舰模型</title><link>https://www.ithome.com/1/022/974.htm</link><guid isPermaLink="true">https://www.ithome.com/1/022/974.htm</guid>
-<pubDate>Thu, 05 Nov 2026 20:10:01 +0800</pubDate>
-<description>&lt;p&gt;华为云 MaaS 平台计划于 11 月 15 日更新上线 openPangu-2.1-Pro 旗舰模型，重点提升 ArkTS 语言在鸿蒙原生应用开发中的代码生成质量，并同步接入 AgentArts、CodeArts、OfficeAce 等核心产品。该消息来自媒体转述与官方短信通知，具体参数与基准数据尚未公布，属于新版本上线前的预告性信息。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产旗舰模型版本迭代与鸿蒙开发生态绑定值得关注，但目前仅有上线时间与方向性描述，缺乏可验证的技术细节。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/022/974.htm">IT之家 · 智能时代</source>
-<category>大模型</category>
-<category>华为云</category>
-<category>鸿蒙</category>
-<category>模型发布</category>
-</item>
-<item><title>Agility Robotics 登陆纳斯达克 人形机器人商用仍待验证</title><link>https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/</link><guid isPermaLink="true">https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/</guid>
-<pubDate>Thu, 05 Nov 2026 20:00:41 +0800</pubDate>
-<description>&lt;p&gt;Agility Robotics 于 11 月 5 日在纳斯达克上市，成为美国首家上市的人形机器人开发商。公司在招股文件中坦承人形机器人尚未实现规模化验证与广泛商业化，其商业模式以机器人租赁或销售为主，按接近人力成本的费率向客户收费。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是人形机器人赛道首个美股 IPO，其披露文件与商业模式对判断该行业商业化进度具有参考价值。&lt;/p&gt;&lt;p&gt;Ars Technica AI · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/">Ars Technica AI</source>
-<category>人形机器人</category>
-<category>IPO</category>
-<category>商业化</category>
-</item>
-<item><title>Agility 借 SPAC 上市 成首家纯人形机器人上市公司</title><link>https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/</guid>
-<pubDate>Thu, 05 Nov 2026 20:00:00 +0800</pubDate>
-<description>&lt;p&gt;Agility 通过 SPAC 反向并购登陆资本市场，并新募资 4.65 亿美元，成为首家以纯人形机器人业务上市的的公司。与追求炫技演示的同行不同，Agility 将 Digit 机器人聚焦于重复性工业岗位，已在 9 家客户处落地。这标志着人形机器人赛道从技术演示阶段进入公开市场检验期。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首家人形机器人公司上市，是观察该赛道商业化与资本态度的关键节点。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/05/agility-is-the-first-pure-humanoid-robot-company-on-the-stock-market-are-you-buying/">TechCrunch AI</source>
-<category>人形机器人</category>
-<category>Agility</category>
-<category>SPAC 上市</category>
-<category>具身智能</category>
 </item>
 </channel>
 </rss>
