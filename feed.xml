@@ -1,8 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Fri, 06 Nov 2026 02:02:27 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 06 Nov 2026 02:45:11 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Verne Robotics Open-Sources V0.5 World Action Model with Stronger Robustness</title><link>https://x.com/rohanpaul_ai/status/2118414338402975868</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118414338402975868</guid>
+<pubDate>Fri, 06 Nov 2026 02:45:11 +0800</pubDate>
+<description>&lt;p&gt;Verne Robotics released V0.5, an open-weight world action model built on the Wan2.2 video generator and trained on over 1.7M demonstrations, predicting the next second of arm, gripper and mobile-base motion. It learns new industrial tasks from under two hours of demos and degrades far less than Physical Intelligence&amp;#x27;s π0.5 under clutter and lighting shifts.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Verne Robotics 开源 V0.5 世界动作模型 抗干扰能力显著领先&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源权重机器人基础模型在鲁棒性基准上明显领先闭源对手，且数据效率突出，值得关注。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2118414338402975868">Rohan Paul (@rohanpaul_ai)</source>
+<category>机器人</category>
+<category>开源模型</category>
+<category>世界模型</category>
+<category>具身智能</category>
+</item>
+<item><title>Google Paper Finds Query Echoing Is Key to RAG Poisoning</title><link>https://x.com/rohanpaul_ai/status/2118409056121659820</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118409056121659820</guid>
+<pubDate>Fri, 06 Nov 2026 02:24:11 +0800</pubDate>
+<description>&lt;p&gt;A new Google paper shows that RAG poisoning hinges less on the attack payload than on echoing the user&amp;#x27;s query so poisoned documents get retrieved. Across 623 queries, just 5 documents (about 0.1% of the corpus) degraded classic retriever ranking quality by 40.2% to 61.5%; filtering query-echoing documents blocked the attack but halved clean ranking quality on NFCorpus from 0.267 to 0.134.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌新论文揭示 RAG 投毒关键：复制用户查询即可污染检索&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次量化揭示 RAG 检索层投毒的低成本与防御代价，对构建检索增强系统的开发者有直接安全警示价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2118409056121659820">Rohan Paul (@rohanpaul_ai)</source>
+<category>RAG</category>
+<category>检索安全</category>
+<category>谷歌</category>
+<category>投毒攻击</category>
+</item>
+<item><title>Viktor AI Agent Adds Email Interface with Sender-Identity Access Control</title><link>https://x.com/rohanpaul_ai/status/2118405548999913825</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118405548999913825</guid>
+<pubDate>Fri, 06 Nov 2026 02:10:15 +0800</pubDate>
+<description>&lt;p&gt;AI agent Viktor has moved from requiring a Slack or Teams install to offering a public email address, letting anyone assign tasks or book meetings by emailing or CC-ing it. Since the address is shared, access is gated by authenticated sender identity, so the agent only acts on mail from the actual user. The case suggests email, with its built-in context and identity, may be a natural interface for agents.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Viktor 智能体新增邮箱入口 以发件人身份控制访问权限&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了以邮箱和发件人身份作为智能体接入与权限边界的一种新交互范式，对关注 Agent 落地形态的读者有参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2118405548999913825">Rohan Paul (@rohanpaul_ai)</source>
+<category>智能体</category>
+<category>邮箱接口</category>
+<category>权限控制</category>
+</item>
 <item><title>OpenAI President Says Company Could Be IPO-Ready by 2027</title><link>https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/</guid>
 <pubDate>Fri, 06 Nov 2026 02:02:27 +0800</pubDate>
 <description>&lt;p&gt;OpenAI president Greg Brockman said at a WSJ tech conference that the company could be ready for an IPO in 2027, citing growing enterprise revenue. He acknowledged a rough first half of 2026 and lagging Anthropic&amp;#x27;s Claude Code in agentic coding, but said OpenAI&amp;#x27;s enterprise standing has shifted markedly since.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 总裁称公司有望 2027 年具备 IPO 条件&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 OpenAI 上市时间表与企业战略转向的关键信号，对判断其商业化节奏与竞争格局有参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 58/100&lt;/p&gt;</description>
@@ -11,6 +37,15 @@
 <category>IPO</category>
 <category>企业市场</category>
 <category>Anthropic</category>
+</item>
+<item><title>Nasdaq Sinks 5% as Investors Retreat From AI Trade After Election</title><link>https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026</link><guid isPermaLink="true">https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026</guid>
+<pubDate>Fri, 06 Nov 2026 02:00:01 +0800</pubDate>
+<description>&lt;p&gt;Investors pulled back from the crowded AI trade after the U.S. election, driving the Nasdaq down 5% in a single session while the VIX spiked more than 62% and Bitcoin fell about 5%. The move signals a shift from one-sided AI positioning toward risk repricing, making volatility and capital rotation key variables for AI asset valuations.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;大选后投资者撤离 AI 交易 纳指单日重挫 5%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 板块资金面与市场情绪的宏观信号，直接影响 AI 公司估值与融资环境。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026">Hacker News AI</source>
+<category>AI 交易</category>
+<category>纳斯达克</category>
+<category>市场波动</category>
+<category>产业变革</category>
 </item>
 <item><title>Anthropic Adds Personal Finance Tool to Claude With Bank Account Access</title><link>https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/</guid>
 <pubDate>Fri, 06 Nov 2026 02:00:00 +0800</pubDate>
@@ -189,36 +224,36 @@
 <category>架构模式</category>
 <category>工程实践</category>
 </item>
-<item><title>OpenAI Updates Model Spec Around Five Core Values for Model Behavior</title><link>https://openai.com/index/updated-model-spec/</link><guid isPermaLink="true">https://openai.com/index/updated-model-spec/</guid>
+<item><title>OpenAI 更新 Model Spec 以五大价值观重构模型行为准则</title><link>https://openai.com/index/updated-model-spec/</link><guid isPermaLink="true">https://openai.com/index/updated-model-spec/</guid>
 <pubDate>Thu, 05 Nov 2026 23:31:43 +0800</pubDate>
-<description>&lt;p&gt;OpenAI released an updated Model Spec that reorganizes its behavioral guidance around five values: faithfulness to human intent, harm minimization, honesty and transparency, human agency, and care. The revision adds guidance on context, oversight, and agency, adjusts some behavioral defaults, and retires much of the detailed style guidance, aiming for models that apply human values in situations their instructions do not explicitly cover.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 更新 Model Spec 以五大价值观重构模型行为准则&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 OpenAI 对齐策略的公开纲领性文件更新，直接影响模型默认行为与安全边界，值得关注对齐方向的读者一读。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 发布新版 Model Spec，将模型行为准则围绕忠于人类意图、减少伤害、诚实透明、人类能动性与关怀五大价值观重新组织。此次修订新增关于上下文、监督与能动性的指导，调整部分默认行为，并大幅精简细化的风格规范，目标是让模型在指令未覆盖的情境下仍能按人类价值观做出判断。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 OpenAI 对齐策略的公开纲领性文件更新，直接影响模型默认行为与安全边界，值得关注对齐方向的读者一读。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 62/100&lt;/p&gt;</description>
 <source url="https://openai.com/index/updated-model-spec/">Hacker News AI</source>
 <category>大模型</category>
 <category>OpenAI</category>
 <category>对齐</category>
 <category>AI 安全</category>
 </item>
-<item><title>Offline Survival Assistant Runs Local LLM and Kiwix from a USB Stick</title><link>https://github.com/sdalberto/ia-da-sobrevivencia/blob/main/README.en.md</link><guid isPermaLink="true">https://github.com/sdalberto/ia-da-sobrevivencia/blob/main/README.en.md</guid>
+<item><title>离线生存助手发布 本地 LLM 搭配 Kiwix 从 U 盘运行</title><link>https://github.com/sdalberto/ia-da-sobrevivencia/blob/main/README.en.md</link><guid isPermaLink="true">https://github.com/sdalberto/ia-da-sobrevivencia/blob/main/README.en.md</guid>
 <pubDate>Thu, 05 Nov 2026 23:25:36 +0800</pubDate>
-<description>&lt;p&gt;The project delivers a fully offline survival-knowledge assistant that runs local models via llama.cpp or Ollama on Windows, Linux and macOS, retrieving from Kiwix offline libraries (medical Wikipedia, Where There Is No Doctor, iFixit and more) and answering with citations. It bundles multilingual practical guides and a LAN-shareable web UI, with a Python-only retrieval mode when no model is installed.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;离线生存助手发布 本地 LLM 搭配 Kiwix 从 U 盘运行&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是本地 LLM 加 RAG 在断网应急场景的完整落地范例，对关注离线推理与检索增强的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;该项目提供一个完全离线的生存知识助手，在 Windows、Linux 和 macOS 上通过 llama.cpp 或 Ollama 运行本地模型，并检索 Kiwix 离线资料库（含医学维基百科、Where There Is No Doctor、iFixit 等）后带引用作答。它附带多语言实用指南与可局域网共享的网页界面，无模型时仍可用 Python 做纯检索。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是本地 LLM 加 RAG 在断网应急场景的完整落地范例，对关注离线推理与检索增强的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://github.com/sdalberto/ia-da-sobrevivencia/blob/main/README.en.md">Hacker News AI</source>
 <category>本地推理</category>
 <category>RAG</category>
 <category>离线应用</category>
 <category>开源项目</category>
 </item>
-<item><title>Dropbox Acquires Tigris Data for $350M to Bolster AI Infrastructure</title><link>https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/</guid>
+<item><title>Dropbox 以 3.5 亿美元收购 Tigris Data 加码 AI 基础设施</title><link>https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/</guid>
 <pubDate>Thu, 05 Nov 2026 23:19:05 +0800</pubDate>
-<description>&lt;p&gt;Dropbox announced a $350 million acquisition of cloud storage company Tigris Data, its largest deal to date, expected to close in Q4 2026. The purchase is meant to underpin DBX Agent Cloud, a new platform for enterprises and developers building AI models and agents, initially offering standalone S3-compatible object storage.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Dropbox 以 3.5 亿美元收购 Tigris Data 加码 AI 基础设施&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是存储厂商向 AI 基础设施转型的一笔标志性收购，但产品细节与参数披露有限，属于产业动向而非技术节点。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Dropbox 宣布以 3.5 亿美元收购云存储技术公司 Tigris Data，为其史上最大规模收购，交易预计 2026 年第四季度完成。该收购将支撑其新推出的 DBX Agent Cloud 平台，面向构建 AI 模型与智能体的企业与开发者，初期以兼容 S3 的独立对象存储产品形态提供。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是存储厂商向 AI 基础设施转型的一笔标志性收购，但产品细节与参数披露有限，属于产业动向而非技术节点。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/">TechCrunch AI</source>
 <category>AI 基础设施</category>
 <category>Dropbox</category>
 <category>收购</category>
 <category>对象存储</category>
 </item>
-<item><title>Anthropic Signs First News Content Licensing Deal with AP</title><link>https://www.ithome.com/1/023/015.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/015.htm</guid>
+<item><title>Anthropic 首次签署新闻内容授权协议 与美联社合作</title><link>https://www.ithome.com/1/023/015.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/015.htm</guid>
 <pubDate>Thu, 05 Nov 2026 23:11:49 +0800</pubDate>
-<description>&lt;p&gt;Anthropic has struck its first news content licensing deal, partnering with the Associated Press to let Claude display real-time AP election results with attribution on U.S. midterm election night; financial terms and duration were not disclosed. The shift follows publisher crawler blocks and OpenAI&amp;#x27;s earlier deals with more than a dozen media outlets, after Anthropic had long argued web scraping falls under fair use.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 首次签署新闻内容授权协议 与美联社合作&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 公司与新闻出版商的版权博弈出现新变量，Anthropic 从拒绝付费转向签约，直接影响 Claude 的时效性内容能力。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 与美联社达成其首份新闻内容授权协议，Claude 将在美国中期选举之夜实时展示美联社选举结果数据并标注来源，财务条款与期限未披露。此前 Anthropic 坚持爬虫抓取属合理使用而拒绝付费授权，在出版商屏蔽爬虫与 OpenAI 已签十余家媒体的双重压力下转向。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 公司与新闻出版商的版权博弈出现新变量，Anthropic 从拒绝付费转向签约，直接影响 Claude 的时效性内容能力。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/023/015.htm">IT之家 · 智能时代</source>
 <category>Anthropic</category>
 <category>内容授权</category>
@@ -235,41 +270,6 @@
 <category>Python</category>
 <category>R</category>
 <category>并行计算</category>
-</item>
-<item><title>Meta 收购 AI 编程初创公司 Conductor，争夺开发者入口</title><link>https://the-decoder.com/meta-buys-ai-coding-startup-conductor-as-big-tech-races-to-lock-in-developers/</link><guid isPermaLink="true">https://the-decoder.com/meta-buys-ai-coding-startup-conductor-as-big-tech-races-to-lock-in-developers/</guid>
-<pubDate>Thu, 05 Nov 2026 23:01:09 +0800</pubDate>
-<description>&lt;p&gt;Meta 宣布收购 AI 编程初创公司 Conductor，后者主打让开发者同时调度多个 AI 编程智能体，交易金额未披露。此举延续大厂通过收购模型周边工具锁定开发者的趋势，同期 OpenAI 也宣布收购 Pierre Computer。Conductor Cloud 将于 11 月 20 日关停，桌面端在 2027 年初停止接入新模型。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大厂围绕 AI 编程工具展开的收购竞赛，直接反映开发者入口与智能体编排层的战略价值。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 68/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/meta-buys-ai-coding-startup-conductor-as-big-tech-races-to-lock-in-developers/">The Decoder</source>
-<category>AI 编程</category>
-<category>Meta</category>
-<category>收购</category>
-<category>开发者工具</category>
-</item>
-<item><title>哈佛学者拆解 AI 热潮背后的隐性供应链成本</title><link>https://www.theverge.com/podcast/1024438/willy-shih-supply-chain-ai-chips-ram-where-does-my-stuff-come-from-book</link><guid isPermaLink="true">https://www.theverge.com/podcast/1024438/willy-shih-supply-chain-ai-chips-ram-where-does-my-stuff-come-from-book</guid>
-<pubDate>Thu, 05 Nov 2026 23:00:00 +0800</pubDate>
-<description>&lt;p&gt;哈佛商学院教授 Willy Shih 在播客访谈中指出，AI 热潮的真正瓶颈不在模型本身，而在支撑算力扩张的全球供应链。他以富士康威斯康星建厂失败等案例说明，缺乏配套供应链的制造承诺难以落地，AI 基础设施投资同样面临这一约束。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;从供应链经济学视角审视 AI 算力扩张的隐性成本，为理解 AI 基础设施瓶颈提供非技术侧的分析框架。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 42/100&lt;/p&gt;</description>
-<source url="https://www.theverge.com/podcast/1024438/willy-shih-supply-chain-ai-chips-ram-where-does-my-stuff-come-from-book">The Verge AI</source>
-<category>AI 基础设施</category>
-<category>供应链</category>
-<category>算力</category>
-</item>
-<item><title>SoundCloud 接入 ElevenLabs 支持 AI 音乐一键发布</title><link>https://www.theverge.com/ai-artificial-intelligence/1027427/ai-music-soundcloud-elevenlabs</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1027427/ai-music-soundcloud-elevenlabs</guid>
-<pubDate>Thu, 05 Nov 2026 23:00:00 +0800</pubDate>
-<description>&lt;p&gt;SoundCloud 与 ElevenLabs 达成集成合作，用户可将 AI 生成的音乐直接发布到平台，无需先导出再上传。SoundCloud Artist Pro 订阅者还可免费获得三个月 ElevenMusic Pro，且来自 ElevenLabs 的曲目会被明确标注 AI 来源。相比此前与 Moises 的深度集成（支持分轨与重混），此次合作仅停留在发布环节。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流音频平台首次打通 AI 音乐生成到分发的直连通道，反映流媒体对 AI 内容的策略分化。&lt;/p&gt;&lt;p&gt;The Verge AI · tools · signal 42/100&lt;/p&gt;</description>
-<source url="https://www.theverge.com/ai-artificial-intelligence/1027427/ai-music-soundcloud-elevenlabs">The Verge AI</source>
-<category>AI 音乐</category>
-<category>SoundCloud</category>
-<category>ElevenLabs</category>
-<category>内容分发</category>
-</item>
-<item><title>DeepSeek Harness 日活 154 万，将建官方插件市场</title><link>https://www.ithome.com/1/023/011.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/011.htm</guid>
-<pubDate>Thu, 05 Nov 2026 22:48:49 +0800</pubDate>
-<description>&lt;p&gt;DeepSeek Harness 官方披露，其日活跃用户已达 154 万、日消耗 Token 约 92 万亿，第三方插件增至约 3.5 万个。官方下一步将提升插件 API 稳定性与安全机制，并建设官方插件市场、筹备面向插件作者的 Token 激励支持计划。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是智能体平台首次公开规模化运营数据，插件生态与官方市场的走向值得持续跟踪。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 68/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/023/011.htm">IT之家 · 智能时代</source>
-<category>智能体</category>
-<category>DeepSeek</category>
-<category>插件生态</category>
-<category>开发者平台</category>
 </item>
 </channel>
 </rss>
