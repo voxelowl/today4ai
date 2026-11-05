@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Thu, 05 Nov 2026 10:22:00 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 05 Nov 2026 11:15:17 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Kimi Launches Hosted Agents Service Offering Cloud-Managed Agent Runtime</title><link>https://www.ithome.com/1/022/572.htm</link><guid isPermaLink="true">https://www.ithome.com/1/022/572.htm</guid>
+<pubDate>Thu, 05 Nov 2026 11:15:17 +0800</pubDate>
+<description>&lt;p&gt;Kimi launched Hosted Agents, delivering the agent runtime Harness as a cloud service so enterprises can get a 24/7 managed environment for long-horizon tasks and multi-agent collaboration without building their own framework. It bundles isolated sandboxes, network access control, auditable logs and usage reports, plus 140+ Skills and 30+ plugins, priced at ¥0.072 per sandbox hour plus inference and plugin fees. The move signals agent infrastructure shifting from self-built frameworks to metered, vendor-managed cloud services.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Kimi 推出托管智能体服务 按小时计费提供云端运行框架&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Agent 基础设施托管化与按量计费的重要产品动作，含明确定价与安全机制，对开发者选型有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 61/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/022/572.htm">IT之家 · 智能时代</source>
+<category>智能体</category>
+<category>Agent 基础设施</category>
+<category>Kimi</category>
+<category>云服务</category>
+</item>
+<item><title>Anthropic&#x27;s First Growth Hire Austin Lau Leaves for OpenAI</title><link>https://x.com/dotey/status/2118175728164348187</link><guid isPermaLink="true">https://x.com/dotey/status/2118175728164348187</guid>
+<pubDate>Thu, 05 Nov 2026 10:57:02 +0800</pubDate>
+<description>&lt;p&gt;Austin Lau, Anthropic&amp;#x27;s first growth hire, has joined OpenAI — a personnel move rather than a product or technical development. The only substantive detail is that Lau, a non-coder, used Claude Code to build a Figma plugin for batch ad-image generation and a Google Search ad copy tool, cutting ad production from 30 minutes to 30 seconds. Information value is limited and mainly anecdotal for readers tracking model and tooling progress.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 首位增长岗员工跳槽至 OpenAI&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;两条头部 AI 实验室之间的人才流动，附带一则非程序员用 Claude Code 自建内部工具的效率案例，可作为旁证参考但缺乏技术增量。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · industry · signal 30/100&lt;/p&gt;</description>
+<source url="https://x.com/dotey/status/2118175728164348187">宝玉 (@dotey)</source>
+<category>人才流动</category>
+<category>Anthropic</category>
+<category>OpenAI</category>
+<category>增长营销</category>
+</item>
 <item><title>Stanford Paper Traces an In-Context Learning Circuit in Small LLMs</title><link>https://x.com/rohanpaul_ai/status/2118166912714584447</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118166912714584447</guid>
 <pubDate>Thu, 05 Nov 2026 10:22:00 +0800</pubDate>
 <description>&lt;p&gt;A new Stanford paper, \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;斯坦福论文揭示上下文学习回路 模型靠查表匹配标签&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究把少样本提示从经验技巧变成可追踪的电路机制，并给出可直接落地的提示设计结论，对关注 LLM 内在机理的读者信息增量明显。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 63/100&lt;/p&gt;</description>
@@ -10,6 +28,14 @@
 <category>大模型</category>
 <category>上下文学习</category>
 <category>机制可解释性</category>
+</item>
+<item><title>Anthropic Merges 30,000 Code Changes a Day by Reviewing AI Evidence</title><link>https://x.com/dotey/status/2118164405594595702</link><guid isPermaLink="true">https://x.com/dotey/status/2118164405594595702</guid>
+<pubDate>Thu, 05 Nov 2026 10:12:02 +0800</pubDate>
+<description>&lt;p&gt;Anthropic&amp;#x27;s Addy Osmani says the company went from roughly 2,500 merged code changes a day in May to over 30,000 by September. The workflow has Claude exercise features end-to-end like a real user, auto-fix what breaks, and hand humans runtime evidence such as browser recordings and screenshots instead of line-by-line diffs. He argues coding is no longer the bottleneck and that solid verification, giving AI a way to check its own work, can improve output quality two to three times over.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 每天合并 3 万次代码变更，人只看 AI 提交的证据&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自 Anthropic 的一手工程实践与量化数据，为“AI 写码后如何敢合并”提供了可复用的验证范式。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · tools · signal 66/100&lt;/p&gt;</description>
+<source url="https://x.com/dotey/status/2118164405594595702">宝玉 (@dotey)</source>
+<category>AI 编程</category>
+<category>代码审查</category>
+<category>Anthropic</category>
 </item>
 <item><title>OpenAI Hires Ex-Uber President Jill Hazelbaker as Chief Corporate Affairs Officer</title><link>https://www.ithome.com/1/022/536.htm</link><guid isPermaLink="true">https://www.ithome.com/1/022/536.htm</guid>
 <pubDate>Thu, 05 Nov 2026 10:06:26 +0800</pubDate>
@@ -157,9 +183,9 @@
 <category>风险披露</category>
 <category>行业研究</category>
 </item>
-<item><title>Nothing Teases First AI-Native Device for December Launch</title><link>https://www.ithome.com/1/022/507.htm</link><guid isPermaLink="true">https://www.ithome.com/1/022/507.htm</guid>
+<item><title>Nothing 预告 12 月发布首款 AI 原生设备</title><link>https://www.ithome.com/1/022/507.htm</link><guid isPermaLink="true">https://www.ithome.com/1/022/507.htm</guid>
 <pubDate>Thu, 05 Nov 2026 08:58:31 +0800</pubDate>
-<description>&lt;p&gt;Nothing&amp;#x27;s first AI-native device remains a teaser: it is slated for December 2026, has no screen, and is not a software app. Carl Pei frames the product around the “context gap,” arguing that everyday carried tools capture critical situational context better than text boxes; reports point to audio-only and camera-equipped smart glasses. With no specs, demo, or verifiable details yet, it is a low-priority signal for now.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Nothing 预告 12 月发布首款 AI 原生设备&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是一则消费级 AI 硬件预告，提出了上下文获取思路，但缺少参数与可验证细节，适合低优先级跟踪。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · product_launch · signal 30/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Nothing 首款 AI 原生设备目前仍只是预告：计划于 2026 年 12 月发布，没有屏幕，也不是软件应用。裴宇以“上下文缺口”解释其产品逻辑，认为日常携带的工具比文本框更能捕获关键情境；外界消息则指向音频版与带摄像头两款智能眼镜。由于缺少参数、演示与可验证细节，现阶段更适合作为低优先级信号跟踪。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是一则消费级 AI 硬件预告，提出了上下文获取思路，但缺少参数与可验证细节，适合低优先级跟踪。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · product_launch · signal 30/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/022/507.htm">IT之家 · 智能时代</source>
 <category>AI 硬件</category>
 <category>Nothing</category>
@@ -167,14 +193,14 @@
 </item>
 <item><title>华为宣布昇腾 0 Day 支持 Kimi K3.1 Pro 推理部署，2.8 万亿级 MoE 模型能力再进阶</title><link>https://www.ithome.com/1/022/502.htm</link><guid isPermaLink="true">https://www.ithome.com/1/022/502.htm</guid>
 <pubDate>Thu, 05 Nov 2026 08:45:14 +0800</pubDate>
-<description>&lt;p&gt;IT之家 11 月 5 日消息，据华为计算公众号，2026 年 11 月 4 日，月之暗面正式公布 Kimi K3.1 Pro 完整模型权重。昇腾基于 vLLM Ascend、SGLang 同步实现 0 Day 推理适配，支持昇腾 Atlas 800 A3、Atlas 900 A3 SuperPod 超节点以及昇腾 950 超节点系列产品进行 Kimi K3.1 Pro 的推理部署。 围绕模型新增的稀疏注意力、百万级上下文及推理服务需求，昇腾开展算子与框架协同优化，支持用户及开发者在模型发布首日开展部署与应用验证。 IT之家注意到，Kimi K3.1 Pro 是 K3.1 系列的首个模型，拥有 2.8 万亿参数，原生支持视觉理解，具备百万 token 上下文窗口。模型在 K3 基础上进一步扩大后训练规模，在代码开发、3D 创作、金融研究、事实准确性和长程智能体任务等方面实现能力提升。 借助百万级上下文，模型可综合利用长篇文档、代码和多轮交互中的任务信息，结合视觉理解与工具调用完成多步骤任务，支撑软件研发、企业知识处理等复杂场景。 在计算架构上，K3.1 Pro 采用混合线性注意力，结合...&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;华为宣布昇腾 0 Day 支持 Kimi K3.1 Pro 推理部署，2.8 万亿级 MoE 模型能力再进阶&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自一手信源 IT之家 · 智能时代 的前沿报道与技术动态&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 55/100&lt;/p&gt;</description>
+<description>&lt;p&gt;IT之家 11 月 5 日消息，据华为计算公众号，2026 年 11 月 4 日，月之暗面正式公布 Kimi K3.1 Pro 完整模型权重。昇腾基于 vLLM Ascend、SGLang 同步实现 0 Day 推理适配，支持昇腾 Atlas 800 A3、Atlas 900 A3 SuperPod 超节点以及昇腾 950 超节点系列产品进行 Kimi K3.1 Pro 的推理部署。 围绕模型新增的稀疏注意力、百万级上下文及推理服务需求，昇腾开展算子与框架协同优化，支持用户及开发者在模型发布首日开展部署与应用验证。 IT之家注意到，Kimi K3.1 Pro 是 K3.1 系列的首个模型，拥有 2.8 万亿参数，原生支持视觉理解，具备百万 token 上下文窗口。模型在 K3 基础上进一步扩大后训练规模，在代码开发、3D 创作、金融研究、事实准确性和长程智能体任务等方面实现能力提升。 借助百万级上下文，模型可综合利用长篇文档、代码和多轮交互中的任务信息，结合视觉理解与工具调用完成多步骤任务，支撑软件研发、企业知识处理等复杂场景。 在计算架构上，K3.1 Pro 采用混合线性注意力，结合...&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自一手信源 IT之家 · 智能时代 的前沿报道与技术动态&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 55/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/022/502.htm">IT之家 · 智能时代</source>
 <category>AI</category>
 <category>LLM</category>
 </item>
-<item><title>ByteDance Restricts Claude Use; Anthropic&#x27;s Fable 5.5 Tested in Daily Brief</title><link>https://www.ithome.com/1/022/498.htm</link><guid isPermaLink="true">https://www.ithome.com/1/022/498.htm</guid>
+<item><title>IT 早报：字节限制员工用 Claude，Anthropic Fable 5.5 实测曝光</title><link>https://www.ithome.com/1/022/498.htm</link><guid isPermaLink="true">https://www.ithome.com/1/022/498.htm</guid>
 <pubDate>Thu, 05 Nov 2026 08:28:01 +0800</pubDate>
-<description>&lt;p&gt;Today&amp;#x27;s tech brief highlights key AI industry moves: reports indicate ByteDance will ban external AI access to L4 code repositories, prohibiting employees from using Claude and Codex at their own expense. Meanwhile, developer communities have shared test cases for Anthropic&amp;#x27;s new flagship model, Fable 5.5, demonstrating its ability to generate a 66-second animation via pure coding over nearly three hours. Other items cover smartphone replacement surveys, Apple&amp;#x27;s weather data fix, and Huawei sub-brand leaks.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;IT 早报：字节限制员工用 Claude，Anthropic Fable 5.5 实测曝光&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;虽然为多事件打包早报导致注意力分受限，但包含字节内部 AI 合规政策收紧及 Anthropic 新模型能力实测这两个高价值行业信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 35/100&lt;/p&gt;</description>
+<description>&lt;p&gt;今日科技早报汇总多项动态，其中与 AI 行业强相关的包括：传字节跳动将全面封禁 L4 级代码仓库的外部 AI 访问，禁止员工自费使用 Claude 和 Codex；同时开发者社区流出 Anthropic 新旗舰模型 Fable 5.5 的测试案例，展示其连续近 3 小时纯代码生成动画的能力。其他条目涉及手机换机调查、苹果天气数据修复及华为子品牌爆料等常规资讯。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;虽然为多事件打包早报导致注意力分受限，但包含字节内部 AI 合规政策收紧及 Anthropic 新模型能力实测这两个高价值行业信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 35/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/022/498.htm">IT之家 · IT业界</source>
 <category>AI 早报</category>
 <category>字节跳动</category>
@@ -182,9 +208,9 @@
 <category>企业合规</category>
 <category>大模型评测</category>
 </item>
-<item><title>Analysis of Cursor Composer 2.5 Limitations and Output Issues</title><link>https://orchidfiles.com/youll-need-nerves-of-steel-to-work-with-ai-agents/</link><guid isPermaLink="true">https://orchidfiles.com/youll-need-nerves-of-steel-to-work-with-ai-agents/</guid>
+<item><title>Cursor Composer 2.5 痛点分析：上下文限制与输出格式问题</title><link>https://orchidfiles.com/youll-need-nerves-of-steel-to-work-with-ai-agents/</link><guid isPermaLink="true">https://orchidfiles.com/youll-need-nerves-of-steel-to-work-with-ai-agents/</guid>
 <pubDate>Thu, 05 Nov 2026 08:01:30 +0800</pubDate>
-<description>&lt;p&gt;The article highlights significant issues with Cursor&amp;#x27;s Composer 2.5, including rapid context consumption in large codebases and unstable output formatting (e.g., extra quotation marks). The author compares usage limits across models and recommends switching to newer frontier models to avoid these pitfalls.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Cursor Composer 2.5 痛点分析：上下文限制与输出格式问题&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;针对特定 AI 编程工具版本的负面体验反馈，对重度开发者有参考价值，但缺乏通用技术突破。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 35/100&lt;/p&gt;</description>
+<description>&lt;p&gt;文章指出 Cursor 中的 Composer 2.5 在处理大型代码库时存在严重的上下文消耗过快和输出格式不稳定（如多余引号）的问题。作者对比了不同模型的用量限制，并建议用户转向更新的 Frontier 模型以规避这些缺陷。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;针对特定 AI 编程工具版本的负面体验反馈，对重度开发者有参考价值，但缺乏通用技术突破。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 35/100&lt;/p&gt;</description>
 <source url="https://orchidfiles.com/youll-need-nerves-of-steel-to-work-with-ai-agents/">Hacker News AI</source>
 <category>Cursor</category>
 <category>AI Coding</category>
@@ -233,33 +259,6 @@
 <category>Linux Kernel</category>
 <category>Security Research</category>
 <category>Automated Auditing</category>
-</item>
-<item><title>苹果收紧员工 AI 预算 部分工程师日额度降 33%</title><link>https://www.ithome.com/1/022/479.htm</link><guid isPermaLink="true">https://www.ithome.com/1/022/479.htm</guid>
-<pubDate>Thu, 05 Nov 2026 07:07:26 +0800</pubDate>
-<description>&lt;p&gt;彭博社报道，为遏制快速上升的 AI 使用成本，苹果正大幅削减员工调用大模型的内部预算。部分工程师每日 Token 消耗上限已从 300 美元降至 200 美元，并计划进一步下探至 100 美元甚至更低。此举反映了科技行业从鼓励大规模试验转向精细核算投入产出的共同趋势，微软、特斯拉等巨头也在采取类似措施。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了头部科技公司 AI 落地过程中的真实成本痛点与策略调整，对理解企业级 AI 治理具有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 68/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/022/479.htm">IT之家 · 智能时代</source>
-<category>AI 成本</category>
-<category>企业管理</category>
-<category>苹果</category>
-<category>Token 计费</category>
-</item>
-<item><title>OpenAI 发布安全模型 自动发现 Linux 内核千余提权漏洞</title><link>https://www.ithome.com/1/022/476.htm</link><guid isPermaLink="true">https://www.ithome.com/1/022/476.htm</guid>
-<pubDate>Thu, 05 Nov 2026 06:51:59 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 利用未公开的新一代网络安全智能体系统，在 12 小时内扫描 Linux 内核约 7% 代码，识别出 2308 个候选漏洞并成功复现 1724 个。该系统进一步生成了 948 个可本地提权的完整利用程序（Exploit），展示了 AI 在自动化漏洞挖掘与验证领域的突破性能力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了 AI 智能体在复杂系统底层安全审计中的实际落地能力与高成功率，对开发者与安全行业具有重大警示意义。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · agent · signal 88/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/022/476.htm">IT之家 · IT业界</source>
-<category>OpenAI</category>
-<category>Linux Kernel</category>
-<category>Security</category>
-<category>AI Agents</category>
-</item>
-<item><title>Arm Q2 营收创纪录 AGI CPU 获订单</title><link>https://www.ithome.com/1/022/475.htm</link><guid isPermaLink="true">https://www.ithome.com/1/022/475.htm</guid>
-<pubDate>Thu, 05 Nov 2026 06:43:14 +0800</pubDate>
-<description>&lt;p&gt;Arm 公布 2027 财年第二财季业绩，营收达 14.43 亿美元创历史新高，同比增长 27%。尽管 GAAP 净利润因一次性因素同比下滑 45%，但非 GAAP 利润稳健增长。关键亮点在于其专为 AI 设计的 AGI CPU 已获得多家客户订单，预计 2027 财年第四季度启动首批商业交付，同时数据中心版税收入翻倍。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Arm 作为 AI 算力基础设施核心供应商，其专用 AI 芯片（AGI CPU）获得实质订单并明确交付时间表，标志着其在高端 AI 计算领域的商业化突破，对行业格局有重要影响。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 68/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/022/475.htm">IT之家 · IT业界</source>
-<category>Arm</category>
-<category>AI芯片</category>
-<category>财报</category>
-<category>数据中心</category>
 </item>
 </channel>
 </rss>
