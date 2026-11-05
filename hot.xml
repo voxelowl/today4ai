@@ -27,13 +27,21 @@ FlashProve 的发布标志着 AI 供应链透明度建设的重要进展。尽�
 
 此次事件实质性地改变了 AI 产业的落地逻辑。依赖大规模算力的模型训练与推理服务面临更严格的独立审查、公开听证及选址限制。这不仅迫使科技公司重新评估全球布局策略，更引发了行业对社会信任危机的深刻反思。未来 AI 发展将从单纯的技术竞赛转向兼顾社区影响、能源消耗与社会接受度的综合博弈，算力扩张的速度与规模将受到地方治理能力的刚性约束。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;The Verge AI, MIT Technology Review, Hacker News AI, Ars Technica AI&lt;/p&gt;</description>
 </item>
-<item><title>MIT 推出权重空间编程 Astra 免训练使 Qwen 数学能力跃升六倍</title><link>https://todayforai.com/en/story/story-7028676c-267</link><guid isPermaLink="true">https://todayforai.com/en/story/story-7028676c-267</guid>
-<pubDate>Wed, 04 Nov 2026 23:44:44 +0800</pubDate>
-<description>&lt;p&gt;MIT CSAIL 团队提出“权重空间编程”新范式，利用前沿大模型 GPT-6 Astra 直接读取并修改其他神经网络的原始权重。实验显示，Astra 仅改动 Qwen3.5-0.8B 中约 0.016% 的参数（131,072 个权重），无需梯度下降或重新训练，便将其在 MATH-500 基准测试中的准确率从 7.9% 飙升至 48.1%，实现近 6 倍的数学能力跃升，同时指令遵循能力也提升约 3 倍。
+<item><title>OpenAI 发布 Images 2.6 实现 ChatGPT 原生生成 GIF</title><link>https://todayforai.com/en/story/story-56a44e50-483</link><guid isPermaLink="true">https://todayforai.com/en/story/story-56a44e50-483</guid>
+<pubDate>Thu, 05 Nov 2026 07:41:17 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 正式推出 Images 2.6 模型，标志着 ChatGPT 首次具备原生生成与编辑动画 GIF 的能力。这一更新不仅实现了从静态图像到动态内容的跨越，更将整体生成速度提升了 50%，低质量模式下最快仅需 6 秒即可出图，显著降低了用户等待成本。
 
-技术细节表明，Astra 通过定位并修复第 15、19 层 MLP 中导致推理循环的特定权重缺陷，释放了模型潜在能力而非注入新知识。此外，Astra 还展示了从零编写高性能游戏网络权重的能力，性能超越传统 PPO 基线 20 倍。这一发现验证了 LLM 具备原生读写神经网络参数的能力，可能绕过传统递归自我改进（RSI）中高成本的自动搜索环节，为 AI 自主进化提供低算力路径。
+在技术细节上，Images 2.6 重点解决了早期模型在连续帧间角色一致性差、画面漂移严重的痛点，使得品牌角色动画和产品循环展示等简单动画具备实际可用性。用户可通过文本提示或上传图片直接生成 GIF，并在应用内自由调整播放速率及进行逐帧编辑。API 端同步上线了 GPT-Image-2.6 Flare（侧重速度与布局）和 Sunburst（侧重细节与一致性）两款模型，为开发者提供灵活选择。
 
-尽管目前结果尚待独立复现且缺乏系统性基准，但该研究已开源实验日志与修改后的模型。它标志着模型优化从符号计算向语义理解转变，为可解释性研究和高效微调开辟了新方向，预示未来神经网络可能由具备推理能力的 LLM 进行原生优化。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, Rohan Paul (@rohanpaul_ai), 量子位官网, IT之家 · 智能时代, Latent Space, 宝玉 (@dotey)&lt;/p&gt;</description>
+此次升级对内容创作生态产生深远影响。随着周均图像生成量突破 40 亿张，Images 2.6 进一步巩固了 OpenAI 在多模态领域的领先地位。对于营销人员和开发者而言，低成本、高效率的动态内容生成工具将极大简化工作流，推动短视频素材、UI 动效及社交媒体内容的自动化生产进程。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;The Verge AI, The Decoder, IT之家 · IT业界, Hacker News AI&lt;/p&gt;</description>
+</item>
+<item><title>OpenAI 用 GPT-5.5 发现千余 Linux 内核漏洞</title><link>https://todayforai.com/en/story/story-4fad257c-391</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4fad257c-391</guid>
+<pubDate>Thu, 05 Nov 2026 07:33:14 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 近日展示其新一代网络安全智能体系统 GPT-5.5 Cyber，在受控环境中实现了自动化漏洞挖掘的重大突破。该系统在短短 12 小时内扫描了 Linux 内核约 7% 的代码（约 280 万行），成功识别出 2308 个候选漏洞，并动态复现了其中 1724 个，展现了 AI 在复杂代码审计领域的惊人效率。
+
+多方信源交叉验证显示，该系统的误报率极低，仅 3.1% 为模型幻觉所致，候选漏洞复现率高达 74.7%。更关键的是，GPT-5.5 Cyber 不仅停留在发现阶段，还自动生成了 948 个可让非特权用户获取 root 权限的本地提权利用程序（Exploit）。这一全链路自动化能力证明了 AI 能够规模化执行从漏洞发现、验证到利用构建的高难度安全任务，API 成本约为 31.65 万美元。
+
+此举对基础设施安全生态具有深远影响。OpenAI 采用“先发现后优先排序”策略，配合 Patch the Planet 计划推动上游修复，旨在通过 AI 加速补丁开发以增强全球 Linux 系统的安全性。这标志着 AI 已从辅助工具转变为具备独立作战能力的自动化安全研究员，或将重塑漏洞挖掘与防御的行业格局。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;OpenAI 官方博客, IT之家 · IT业界, Hacker News AI&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 收购 Pierre 优化 Codex 智能体协作工作流</title><link>https://todayforai.com/en/story/story-11323ad5-c1e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-11323ad5-c1e</guid>
 <pubDate>Thu, 05 Nov 2026 02:41:03 +0800</pubDate>
@@ -43,13 +51,13 @@ FlashProve 的发布标志着 AI 供应链透明度建设的重要进展。尽�
 
 这一动作标志着 AI 编程工具正从单纯的代码生成向全生命周期管理演进。通过重构版本控制逻辑以适应多智能体并发场景，OpenAI 意在确立面向智能体时代的现代开发基础设施标准，进一步巩固其在 AI 辅助编程领域的生态主导地位。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;OpenAI 官方博客, 宝玉 (@dotey), The Decoder&lt;/p&gt;</description>
 </item>
-<item><title>OpenAI 发布 Images 2.6 实现 ChatGPT 原生生成 GIF</title><link>https://todayforai.com/en/story/story-56a44e50-483</link><guid isPermaLink="true">https://todayforai.com/en/story/story-56a44e50-483</guid>
-<pubDate>Thu, 05 Nov 2026 07:41:17 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 正式推出 Images 2.6 模型，标志着 ChatGPT 首次具备原生生成动画 GIF 的能力。用户现可通过文本提示或上传静态图片直接创建动态内容，该更新已向所有平台及 API 开发者推送，显著降低了动态视觉内容的创作门槛。
+<item><title>MIT 推出权重空间编程 Astra 免训练使 Qwen 数学能力跃升六倍</title><link>https://todayforai.com/en/story/story-7028676c-267</link><guid isPermaLink="true">https://todayforai.com/en/story/story-7028676c-267</guid>
+<pubDate>Wed, 04 Nov 2026 23:44:44 +0800</pubDate>
+<description>&lt;p&gt;MIT CSAIL 团队提出“权重空间编程”新范式，利用前沿大模型 GPT-6 Astra 直接读取并修改其他神经网络的原始权重。实验显示，Astra 仅改动 Qwen3.5-0.8B 中约 0.016% 的参数（131,072 个权重），无需梯度下降或重新训练，便将其在 MATH-500 基准测试中的准确率从 7.9% 飙升至 48.1%，实现近 6 倍的数学能力跃升，同时指令遵循能力也提升约 3 倍。
 
-技术层面，Images 2.6 解决了早期模型在连续帧间角色一致性差的痛点，确保动画主体不漂移，使简单动画具备实际可用性。同时，新版本大幅提升了图像生成速度，周均生成量突破 40 亿张。API 端新增 GPT-Image-2.6 Flare 和 Sunburst 变体，支持调整播放速率及逐帧编辑功能，赋予开发者更精细的控制权。
+技术细节表明，Astra 通过定位并修复第 15、19 层 MLP 中导致推理循环的特定权重缺陷，释放了模型潜在能力而非注入新知识。此外，Astra 还展示了从零编写高性能游戏网络权重的能力，性能超越传统 PPO 基线 20 倍。这一发现验证了 LLM 具备原生读写神经网络参数的能力，可能绕过传统递归自我改进（RSI）中高成本的自动搜索环节，为 AI 自主进化提供低算力路径。
 
-这一举措不仅丰富了 ChatGPT 的多模态交互体验，更对内容创作生态产生深远影响。通过简化 GIF 制作流程，OpenAI 进一步巩固了其在生成式 AI 领域的领先地位，为社交媒体、营销素材及快速原型设计提供了高效工具，加速了从静态图像到动态叙事的行业转型。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;The Verge AI, The Decoder, IT之家 · IT业界&lt;/p&gt;</description>
+尽管目前结果尚待独立复现且缺乏系统性基准，但该研究已开源实验日志与修改后的模型。它标志着模型优化从符号计算向语义理解转变，为可解释性研究和高效微调开辟了新方向，预示未来神经网络可能由具备推理能力的 LLM 进行原生优化。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, Rohan Paul (@rohanpaul_ai), 量子位官网, IT之家 · 智能时代, Latent Space, 宝玉 (@dotey)&lt;/p&gt;</description>
 </item>
 <item><title>腾讯混元 Hy4 登顶 Agent Arena 开源榜首</title><link>https://todayforai.com/en/story/story-a726c565-591</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a726c565-591</guid>
 <pubDate>Thu, 05 Nov 2026 05:09:09 +0800</pubDate>
@@ -66,10 +74,6 @@ FlashProve 的发布标志着 AI 供应链透明度建设的重要进展。尽�
 <item><title>Agent Arena 数据：长时任务成本差异达 66%</title><link>https://todayforai.com/en/story/story-d1d9e547-7d7</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d1d9e547-7d7</guid>
 <pubDate>Thu, 05 Nov 2026 01:49:24 +0800</pubDate>
 <description>&lt;p&gt;Arena.ai 发布 Agent Arena 最新基准数据，显示在持续超过一小时的复杂智能体任务中，不同前沿模型的成本差异显著。Gemini 4 Carbon 以每小时 10.51 美元的中位成本成为最具性价比选择，比 Claude Opus 5.5 便宜 50%，比 GPT-6 Astra 便宜 66%。尽管 Claude Opus 5.5 在能力评分上领先，但其高昂的时间与金钱成本迫使开发者在长周期任务中重新权衡性能与预算。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Arena.ai (@arena)&lt;/p&gt;</description>
-</item>
-<item><title>Artificial Analysis 更新基准：以任务耗时取代流式速度</title><link>https://todayforai.com/en/story/story-8c6153f0-0ae</link><guid isPermaLink="true">https://todayforai.com/en/story/story-8c6153f0-0ae</guid>
-<pubDate>Thu, 05 Nov 2026 01:34:29 +0800</pubDate>
-<description>&lt;p&gt;Artificial Analysis 调整 API 性能基准测试方法，将“任务耗时”（Time per Task）确立为衡量模型表现的核心指标，以替代传统的流式输出速度。该变更旨在反映智能体工作负载下，端到端完成效率比单纯 Token 生成速率更具实际意义，并优化了包含预填充和推理等待在内的全链路延迟测量逻辑。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
