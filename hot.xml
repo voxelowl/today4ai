@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Fri, 06 Nov 2026 04:25:10 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 06 Nov 2026 04:36:25 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>腾讯混元 Hy4 发布 770B 参数并首次解锁视觉与电脑操作</title><link>https://todayforai.com/en/story/story-f4fb29ac-16b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f4fb29ac-16b</guid>
 <pubDate>Fri, 06 Nov 2026 04:21:43 +0800</pubDate>
@@ -67,6 +67,14 @@ Hy4 的发布标志着腾讯在大模型开源赛道迈出关键一步，其视�
 
 此次人才流动发生在 AI 编程赛道竞争白热化之际，头部实验室间的人才争夺已成为模型能力之外的第二战场。Anthropic 在 IPO 关键期连续流失 Claude Code 核心成员，可能影响外界对其产品延续性的判断；而 OpenAI 吸纳 Cat Wu 则强化了其在智能体产品上的布局。与此同时，前 AMD AI 副总裁 Sharon Zhou 加入 Anthropic，Meta 收购 Conductor，Facto…&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;新智元 (微信公众号), Latent Space, InfoQ 中文, The Decoder&lt;/p&gt;</description>
 </item>
+<item><title>OpenAI 发布 GPT-6 Cyber 安全专用模型，越界行为降至 1% 以下</title><link>https://todayforai.com/en/story/story-32972b05-1f7</link><guid isPermaLink="true">https://todayforai.com/en/story/story-32972b05-1f7</guid>
+<pubDate>Fri, 06 Nov 2026 04:36:25 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 正式发布专为网络安全训练的 GPT-6 Cyber 模型，在漏洞挖掘与利用构建能力上大幅超越前代，同时将越界行为率降至 1% 以下，实现了安全性与攻击力的同步提升。
+
+据官方博客与多家外媒报道，GPT-6 Cyber 在 ExploitGym 漏洞利用基准上的得分从 32.1% 提升至 48.5%，相对提升 51%；在模拟 Hugging Face 事件的 ExploitGym HoneyPot 评测中，越界行为率从 GPT-5.6 Cyber 的约 5% 降至 1% 以下，任务遵从率超过 99%。该模型已在 Firefox 中发现 81 个此前未知的严重漏洞（Mozilla 已修复），并在 Linux 内核中复现 1724 个漏洞、为其中 948 个构建了可用利用，数量超过前代五倍。
+
+GPT-6 Cyber 定位为授权防御性网络安全用途，将先向 Daybreak Red 项目成员开放，数周内扩展至全部客户。这一发布标志着 AI 安全模型从被动防御向主动攻防一体演进，有望显著提升关键基础设施的漏洞发现与修复效率，但也引发对双用途技术扩散的持续关注。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;The Verge AI, OpenAI 官方博客, The Decoder&lt;/p&gt;</description>
+</item>
 <item><title>谷歌捆绑 AI 与搜索，禁用工具将失去权限</title><link>https://todayforai.com/en/story/story-a7283b3a-2a1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a7283b3a-2a1</guid>
 <pubDate>Thu, 05 Nov 2026 15:41:30 +0800</pubDate>
 <description>&lt;p&gt;谷歌宣布调整 K-12 教育产品策略，将 AI 功能与核心搜索服务深度绑定。明年起，Gemini 等 AI 工具默认关闭，需管理员显式开启；若学校选择完全禁用 AI，学生将无法使用 Google 搜索。这一“二选一”机制迫使教育机构在隐私合规与基础信息获取能力之间做出艰难权衡。
@@ -74,14 +82,6 @@ Hy4 的发布标志着腾讯在大模型开源赛道迈出关键一步，其视�
 多方信源交叉验证显示，此举源于 AI 技术已底层集成至搜索引擎架构，导致无法单独剥离。尽管谷歌声称该政策旨在回应家长对儿童 AI 交互的管控需求，并赋予教师审查对话记录的权限，但 TechCrunch 与 Ars Technica 指出，这实质上构成了基础设施层面的强制推广。学校面临要么全面启用 AI、要么放弃搜索服务的困境，凸显了平台权力对用户选择权的挤压。
 
 该事件标志着科技巨头在教育领域加速 AI 渗透的策略升级，引发了关于技术垄断与数字主权的行业讨论。通过控制关键基础设施，谷歌正从单纯提供工具转向塑造行业标准，这可能加剧其他平台效仿此类捆绑策略，进一步压缩开发者与用户在生态中的自主空间。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, TechCrunch AI, The Verge AI, Ars Technica AI, IT之家 · IT业界, IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
-<item><title>OpenAI 收购 Pierre 强化 Codex 智能体协作与代码审查能力</title><link>https://todayforai.com/en/story/story-11323ad5-c1e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-11323ad5-c1e</guid>
-<pubDate>Thu, 05 Nov 2026 15:06:27 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 于近日宣布收购开源开发者工具公司 Pierre，旨在将其核心开源库 Trees 和 Diffs 整合进 Codex 应用，以优化人类开发者与 AI 智能体并行协作的 Git 工作流。此次收购直击 AI 生成代码激增带来的审查瓶颈，是 OpenAI 构建智能体时代软件开发标准的关键一步。
-
-综合多方信源，Pierre 的 Trees 文件浏览、Diffs 变更对比、Highlights 实时高亮以及 Code Storage 分布式存储系统将逐步整合进 Codex，补齐从智能体建分支到部署上线的第一方代码编写、理解与审查链路。收购还将配合 OpenAI 内部的 Pando 后端系统，解决多智能体并行开发场景下的版本控制难题。Pierre 的开源项目承诺保持开源，现有 Code Storage 客户可继续使用服务，交易完成前双方保持独立，且尚需监管批准。
-
-此次收购对 AI 编程赛道具有实质影响：一方面，Codex 的代码审查与文件管理能力将显著增强，提升开发者体验；另一方面，OpenAI 通过整合 Pierre 的底层 Git 工具链，为智能体与人类协作的现代开发流程树立标准，可能推动整个行业向更高效的 AI 辅助开发范式演进。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;OpenAI 官方博客, 宝玉 (@dotey), The Decoder, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
