@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Thu, 05 Nov 2026 15:06:27 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 05 Nov 2026 15:41:30 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
+<item><title>腾讯混元 Hy4 发布 770B 参数并首次解锁视觉与电脑操作</title><link>https://todayforai.com/en/story/story-f4fb29ac-16b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f4fb29ac-16b</guid>
+<pubDate>Thu, 05 Nov 2026 09:49:37 +0800</pubDate>
+<description>&lt;p&gt;腾讯正式发布新一代大语言模型混元 Hy4，参数规模从上一代 Hy3 的不足 300B 跃升至 770B，并首次引入视觉理解与电脑操作（Computer Use）能力，官方称其首次跻身最强开源模型行列。模型权重计划于近期开源，定价维持输入每百万 Token 6 元、输出 18 元，已上线腾讯云及元宝、CodeBuddy 等自有产品，并接入 OpenRouter 等第三方平台。
+
+综合多源信息，Hy4 相比预览版大幅扩展了预训练与后训练规模，在指令遵循、长上下文理解、长程任务与深度研究等维度显著提升。视觉能力支持细粒度图像处理、复杂图表分析与数学视觉推理；电脑操作能力结合命令行与图形界面，并针对 Blender、CAD 等专业软件进行专项训练。在 Agent Arena 基于 8500+ 真实长程会话的评测中，Hy4 位列总榜第 14，较预览版提升 3.6 个百分点，单任务成本仅 0.55 美元，比得分相近的 Kimi K3.1 Pro Max 低约 62%。不过官方坦承，在前沿数学、长程开发、视觉问答等高难度测试集上，Hy4 仍与顶尖闭源模型存在较大差距。
+
+Hy4 的发布标志着腾讯在大模型开源赛道迈入第一梯队，其高参数规模与低成本定价的组合，有望降低开发者使用高性能模型的门槛，并加剧开源模型在智能体任务上的竞争。同时，视觉与电脑操作能力的加入，使模型从纯文本处理向多模态交互与自动化操作延伸，为生产力场景带来更多可能性。但权重尚未实际开放，开源第一的说法仍是预告，需待权重发布后进一步验证。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · 智能时代, Arena.ai (@arena), 腾讯技术工程 (微信公众号), InfoQ 中文&lt;/p&gt;</description>
+</item>
 <item><title>OpenAI 发布 Images 2.6 实现 ChatGPT 原生生成 GIF</title><link>https://todayforai.com/en/story/story-56a44e50-483</link><guid isPermaLink="true">https://todayforai.com/en/story/story-56a44e50-483</guid>
 <pubDate>Thu, 05 Nov 2026 09:59:37 +0800</pubDate>
 <description>&lt;p&gt;OpenAI 正式推出 Images 2.6 模型，标志着 ChatGPT 首次具备原生生成与编辑动画 GIF 的能力。这一更新不仅实现了从静态图像到动态内容的跨越，更将整体生成速度提升了 50%，低质量模式下最快仅需 6 秒即可出图，显著降低了用户等待成本。
@@ -10,14 +18,6 @@
 在技术细节上，Images 2.6 重点解决了早期模型在连续帧间角色一致性差、画面漂移严重的痛点，使得品牌角色动画和产品循环展示等简单动画具备实际可用性。用户可通过文本提示或上传图片直接生成 GIF，并在应用内自由调整播放速率及进行逐帧编辑。API 端同步上线了 GPT-Image-2.6 Flare（侧重速度与布局）和 Sunburst（侧重细节与一致性）两款模型，为开发者提供灵活选择。
 
 此次升级对内容创作生态产生深远影响。随着周均图像生成量突破 40 亿张，Images 2.6 进一步巩固了 OpenAI 在多模态领域的领先地位。对于营销人员和开发者而言，低成本、高效率的动态内容生成工具将极大简化工作流，推动短视频素材、UI 动效及社交媒体内容的自动化生产进程。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;The Verge AI, The Decoder, IT之家 · IT业界, Hacker News AI, OpenAI 官方博客, 宝玉 (@dotey)&lt;/p&gt;</description>
-</item>
-<item><title>腾讯混元 Hy4 发布 770B 参数并首次解锁视觉与电脑操作</title><link>https://todayforai.com/en/story/story-f4fb29ac-16b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f4fb29ac-16b</guid>
-<pubDate>Thu, 05 Nov 2026 09:49:37 +0800</pubDate>
-<description>&lt;p&gt;腾讯正式发布混元 Hy4 大模型，参数规模从上一代 Hy3 的不足 300B 跃升至 770B，并首次引入视觉理解与电脑操作（Computer Use）能力，官方称其首次跻身最强开源模型行列。模型权重计划近期开放，定价维持输入每百万 Token 6 元、输出 18 元，已上线腾讯云及元宝、CodeBuddy 等自有产品，并接入 OpenRouter 等第三方平台。
-
-综合多源信息，Hy4 相比预览版大幅扩展了预训练与后训练规模，在指令遵循、长上下文理解、长程任务与深度研究等维度显著提升。视觉能力支持细粒度图像处理、复杂图表分析与数学视觉推理；电脑操作可结合命令行与图形界面执行跨应用长程任务，并针对 Blender、CAD 等专业软件做了专项训练。在 Agent Arena 基于 8500+ 真实长程会话的评测中，Hy4 位列总榜第 14，较预览版提升 3.6 个百分点，单任务成本仅 0.55 美元，比得分相近的 Kimi K3.1 Pro Max 低约 62%。不过官方坦承，在前沿数学、长程开发、视觉问答等高难度测试集上，Hy4 仍与顶尖闭源模型存在较大差距。
-
-Hy4 的发布标志着腾讯在大模型开源赛道迈入第一梯队，770B 参数与视觉、电脑操作能力的结合，将显著提升开发者在智能体、自动化办公与专业软件交互等场景的可用性。其低成本优势与开源计划，有望加剧开源模型在 Agent 领域的竞争，推动生态向 vLLM/SGLang 等社区靠拢，并为腾讯云及自有产品带来协同效应。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · 智能时代, Arena.ai (@arena), 腾讯技术工程 (微信公众号), InfoQ 中文&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 开源 FlashProve 实现 AI 模型零知识溯源验证</title><link>https://todayforai.com/en/story/story-be67363e-457</link><guid isPermaLink="true">https://todayforai.com/en/story/story-be67363e-457</guid>
 <pubDate>Thu, 05 Nov 2026 01:17:46 +0800</pubDate>
@@ -27,6 +27,14 @@ Hy4 的发布标志着腾讯在大模型开源赛道迈入第一梯队，770B �
 
 FlashProve 的发布标志着 AI 供应链透明度建设的重要进展。尽管目前仍处于研究阶段且尚未大规模部署，但它为构建可信 AI 生态提供了关键基础设施。未来，随着算力成本的优化和上下文限制的突破，此类零知识证明技术有望成为规范大模型 API 服务、保障开发者权益及增强用户信任的核心标准。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), TechCrunch AI, Marktechpost (@Marktechpost), IT之家 · 智能时代, Anthropic AI (@AnthropicAI), The Decoder&lt;/p&gt;</description>
 </item>
+<item><title>谷歌捆绑 AI 与搜索，禁用工具将失去权限</title><link>https://todayforai.com/en/story/story-a7283b3a-2a1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a7283b3a-2a1</guid>
+<pubDate>Thu, 05 Nov 2026 15:41:30 +0800</pubDate>
+<description>&lt;p&gt;谷歌宣布调整 K-12 教育产品策略，将 AI 功能与核心搜索服务深度绑定。明年起，Gemini 等 AI 工具默认关闭，需管理员显式开启；若学校选择完全禁用 AI，学生将无法使用 Google 搜索。这一“二选一”机制迫使教育机构在隐私合规与基础信息获取能力之间做出艰难权衡。
+
+多方信源交叉验证显示，此举源于 AI 技术已底层集成至搜索引擎架构，导致无法单独剥离。尽管谷歌声称该政策旨在回应家长对儿童 AI 交互的管控需求，并赋予教师审查对话记录的权限，但 TechCrunch 与 Ars Technica 指出，这实质上构成了基础设施层面的强制推广。学校面临要么全面启用 AI、要么放弃搜索服务的困境，凸显了平台权力对用户选择权的挤压。
+
+该事件标志着科技巨头在教育领域加速 AI 渗透的策略升级，引发了关于技术垄断与数字主权的行业讨论。通过控制关键基础设施，谷歌正从单纯提供工具转向塑造行业标准，这可能加剧其他平台效仿此类捆绑策略，进一步压缩开发者与用户在生态中的自主空间。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, TechCrunch AI, The Verge AI, Ars Technica AI, IT之家 · IT业界, IT之家 · 智能时代&lt;/p&gt;</description>
+</item>
 <item><title>OpenAI 用 GPT-5.5 发现千余 Linux 内核漏洞</title><link>https://todayforai.com/en/story/story-4fad257c-391</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4fad257c-391</guid>
 <pubDate>Thu, 05 Nov 2026 07:33:14 +0800</pubDate>
 <description>&lt;p&gt;OpenAI 近日展示其新一代网络安全智能体系统 GPT-5.5 Cyber，在受控环境中实现了自动化漏洞挖掘的重大突破。该系统在短短 12 小时内扫描了 Linux 内核约 7% 的代码（约 280 万行），成功识别出 2308 个候选漏洞，并动态复现了其中 1724 个，展现了 AI 在复杂代码审计领域的惊人效率。
@@ -35,13 +43,13 @@ FlashProve 的发布标志着 AI 供应链透明度建设的重要进展。尽�
 
 此举对基础设施安全生态具有深远影响。OpenAI 采用“先发现后优先排序”策略，配合 Patch the Planet 计划推动上游修复，旨在通过 AI 加速补丁开发以增强全球 Linux 系统的安全性。这标志着 AI 已从辅助工具转变为具备独立作战能力的自动化安全研究员，或将重塑漏洞挖掘与防御的行业格局。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, Yuchen Jin (@Yuchenj_UW), Hacker News AI, OpenAI 官方博客&lt;/p&gt;</description>
 </item>
-<item><title>谷歌捆绑 AI 与搜索，禁用工具将失去权限</title><link>https://todayforai.com/en/story/story-a7283b3a-2a1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a7283b3a-2a1</guid>
-<pubDate>Thu, 05 Nov 2026 02:33:46 +0800</pubDate>
-<description>&lt;p&gt;谷歌宣布调整 K-12 教育产品策略，将 AI 功能与核心搜索服务深度绑定。明年起，Gemini 等 AI 工具默认关闭，需管理员显式开启；若学校选择完全禁用 AI，学生将无法使用 Google 搜索。这一“二选一”机制迫使教育机构在隐私合规与基础信息获取能力之间做出艰难权衡。
+<item><title>Anthropic 用 Claude 首次解析细菌穹窿体结构，实验周期从数周缩至数天</title><link>https://todayforai.com/en/story/story-0c3c61a8-fff</link><guid isPermaLink="true">https://todayforai.com/en/story/story-0c3c61a8-fff</guid>
+<pubDate>Thu, 05 Nov 2026 15:24:41 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 的生命科学团队借助 Claude 模型，首次解析出细菌来源穹窿体（Vault）颗粒的三维结构，将原本需要数周至数月的人工结构测定压缩到数天。同时，研究首次证明细菌及感染细菌的病毒（噬菌体）中也能自组装形成穹窿体，为研究该神秘蛋白在人体细胞中的功能提供了更易操作的简化模型。
 
-多方信源交叉验证显示，此举源于 AI 技术已底层集成至搜索引擎架构，导致无法单独剥离。尽管谷歌声称该政策旨在回应家长对儿童 AI 交互的管控需求，并赋予教师审查对话记录的权限，但 TechCrunch 与 Ars Technica 指出，这实质上构成了基础设施层面的强制推广。学校面临要么全面启用 AI、要么放弃搜索服务的困境，凸显了平台权力对用户选择权的挤压。
+在技术细节上，Claude 深度参与了序列搜索、DNA 设计、柱层析方案建议与结构建模等环节，将关键颗粒分离步骤从约 3 天缩短至 90 分钟，并在 34 小时内产出首个三维结构模型。整个项目不到 4 个月完成。团队采用研究员保留决策权、Claude 负责执行与建议的分工模式，并公开了 Claude 在过程中犯下的低级错误及修正方式，为 AI 辅助科研提供了可复用的工程范式。
 
-该事件标志着科技巨头在教育领域加速 AI 渗透的策略升级，引发了关于技术垄断与数字主权的行业讨论。通过控制关键基础设施，谷歌正从单纯提供工具转向塑造行业标准，这可能加剧其他平台效仿此类捆绑策略，进一步压缩开发者与用户在生态中的自主空间。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, TechCrunch AI, The Verge AI, Ars Technica AI, IT之家 · IT业界, IT之家 · 智能时代&lt;/p&gt;</description>
+这一成果对结构生物学和 AI for Science 领域具有实质影响。它不仅大幅降低了穹窿体研究的实验门槛和时间成本，还展示了 LLM 在湿实验流程中的直接生产力，有望推动更多实验室采用人机协作模式加速科学发现。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), 宝玉 (@dotey), Anthropic AI (@AnthropicAI)&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 收购 Pierre 强化 Codex 智能体协作与代码审查能力</title><link>https://todayforai.com/en/story/story-11323ad5-c1e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-11323ad5-c1e</guid>
 <pubDate>Thu, 05 Nov 2026 15:06:27 +0800</pubDate>
@@ -59,6 +67,14 @@ FlashProve 的发布标志着 AI 供应链透明度建设的重要进展。尽�
 
 此次事件实质性地改变了 AI 产业的落地逻辑。依赖大规模算力的模型训练与推理服务面临更严格的独立审查、公开听证及选址限制。这不仅迫使科技公司重新评估全球布局策略，更引发了行业对社会信任危机的深刻反思。未来 AI 发展将从单纯的技术竞赛转向兼顾社区影响、能源消耗与社会接受度的综合博弈，算力扩张的速度与规模将受到地方治理能力的刚性约束。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;The Verge AI, MIT Technology Review, Hacker News AI, Ars Technica AI&lt;/p&gt;</description>
 </item>
+<item><title>Google 推出 Agile Deliberation 框架，用 LLM 交互审议破解主观图像分类难题</title><link>https://todayforai.com/en/story/story-61b8617d-c26</link><guid isPermaLink="true">https://todayforai.com/en/story/story-61b8617d-c26</guid>
+<pubDate>Thu, 05 Nov 2026 13:44:01 +0800</pubDate>
+<description>&lt;p&gt;Google Research 近日发布 Agile Deliberation 框架，旨在解决 AI 图像分类器在主观类别定义上的难题。传统方法依赖清晰标签，难以处理模糊的“灰色地带”概念，而该框架通过交互式审议工作流，引导用户先界定子类别并标注边界样本，再利用 LLM 驱动的优化循环自动构建符合人类意图的分类器。
+
+该框架将模糊概念拆分为范围内与范围外子概念，展示边界样本供用户标注，并由 Gemini 重写定义作为视觉语言模型（VLM）的提示词。在 18 场实测中，其 F1 分数平均较零样本 Gemini 2.5 Flash 高 10.5 分，并优于 Modeling Collaborator 方法。代码以 Apache 2.0 开源，并提供了基于 Gemini 2.5 与 FAISS 的 Colab 演示。
+
+这一成果标志着人机协作定义模糊概念的新范式，降低了构建主观分类器的门槛，对内容审核、医疗影像分析等依赖主观判断的领域具有重要影响。开源的特性也将促进开发者生态的创新，推动更符合人类意图的 AI 系统发展。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Google Research, Marktechpost (@Marktechpost)&lt;/p&gt;</description>
+</item>
 <item><title>Claude Code 创始 PM Cat Wu 离职转投 OpenAI，团队 10 天内流失 4 名核心成员</title><link>https://todayforai.com/en/story/story-83817838-eef</link><guid isPermaLink="true">https://todayforai.com/en/story/story-83817838-eef</guid>
 <pubDate>Thu, 05 Nov 2026 14:24:09 +0800</pubDate>
 <description>&lt;p&gt;Anthropic 旗下 AI 编程工具 Claude Code 遭遇重大人事震荡：创始产品经理 Cat Wu 正式离职，并转投竞争对手 OpenAI 领导核心产品。更令人关注的是，这已是该团队在短短 10 天内流失的第 4 位核心成员，此前离开的还包括 CLI 核心开发者 Thariq Shihipar、桌面版主创 Anthony Morris 以及工程经理 Sunil Shah。此次密集离职恰逢 Anthropic 递交 IPO 招股书的关键窗口期，引发外界对该公司研发稳定性与组织管理的担忧。
@@ -66,18 +82,6 @@ FlashProve 的发布标志着 AI 供应链透明度建设的重要进展。尽�
 综合多方信源，Cat Wu 的离职并非孤立事件。Latent Space 报道指出，AI 行业正出现密集的人才流动与并购潮，除 Cat Wu 转投 OpenAI 外，前 AMD AI 副总裁 Sharon Zhou 也加入了 Anthropic，同时 Meta 收购了 Conductor、Factory 收购了 HumanLayer。这些变动反映出头部实验室与平台之间对顶尖人才的争夺日趋白热化，但均停留在人事与交易层面，尚未披露具体技术参数或产品路线调整细节。
 
 对 Anthropic 而言，Claude Code 作为其切入开发者生态的关键产品，核心团队在 IPO 前夕的连续失血可能影响投资者信心，并给产品迭代节奏带来不确定性。而对 OpenAI 来说，招揽 Cat Wu 这样的产品负责人，有望强化其编程工具与开发者产品的竞争力。此次人事地震也折射出 AI 编程赛道竞争已从模型能力延伸至组织与人才层面，行业格局或将因此生变。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;新智元 (微信公众号), Latent Space&lt;/p&gt;</description>
-</item>
-<item><title>Ripple-65B 发布 刷新美国开源智能体编程 SOTA</title><link>https://todayforai.com/en/story/story-7a3a471f-17c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-7a3a471f-17c</guid>
-<pubDate>Thu, 05 Nov 2026 05:05:01 +0800</pubDate>
-<description>&lt;p&gt;Ricursive Intelligence 发布 Ripple-65B Preview，这是一款基于 12 万亿 token 预训练的通用开源权重模型。该模型在 TerminalBench 2.1 上取得 80.52 分，超越 Reflection Beam 等更大规模模型，确立了美国开源权重模型在智能体编程领域的最新 SOTA。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, Marktechpost (@Marktechpost)&lt;/p&gt;</description>
-</item>
-<item><title>AMD AI 算力爆发前三季度净利翻倍</title><link>https://todayforai.com/en/story/story-19fd27fc-1dc</link><guid isPermaLink="true">https://todayforai.com/en/story/story-19fd27fc-1dc</guid>
-<pubDate>Wed, 04 Nov 2026 23:38:34 +0800</pubDate>
-<description>&lt;p&gt;AMD 在人工智能算力需求的强劲驱动下交出了一份超预期的成绩单。2026 财年前三季度，公司归母净利润达到 61.08 亿美元，同比大幅增长 116.29%，全面超越华尔街预期。这一历史性突破标志着 AMD 已从传统的 CPU 厂商成功转型为 AI 基础设施的核心供应商，数据中心业务成为其增长的最强引擎。
-
-多方信源交叉验证显示，AMD 第三季度数据中心营收同比暴涨 97% 至 85.5 亿美元，主要由 Instinct GPU 和 EPYC 处理器的需求激增所推动。随着 MI455X 加速器和 Venice CPU 组成的 Helios 机架系统将于第四季度量产，且 Meta 已启动首批设备测试，公司进一步上调了 2027 年营收增长预期至 80% 以上。预计 Q4 总营收将达约 170 亿美元，历史上首次超越 Intel，毛利率也提升至 54%。
-
-此次业绩爆发不仅抵消了客户端市场的波动，更重塑了半导体行业的竞争格局。AMD 通过构建从芯片到机架系统的完整 AI 算力栈，正在打破 Nvidia 的垄断地位，确立其在高性能计算领域的第二极地位，为开发者与企业提供了更具性价比的替代方案。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), IT之家 · IT业界, Hacker News AI&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
