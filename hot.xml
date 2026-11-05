@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Fri, 06 Nov 2026 00:16:59 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 06 Nov 2026 01:56:41 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>腾讯混元 Hy4 发布 770B 参数并首次解锁视觉与电脑操作</title><link>https://todayforai.com/en/story/story-f4fb29ac-16b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f4fb29ac-16b</guid>
 <pubDate>Fri, 06 Nov 2026 00:06:31 +0800</pubDate>
@@ -19,6 +19,14 @@ Hy4 的发布标志着腾讯在大模型开源赛道迈入第一梯队，其视�
 
 此次升级对内容创作生态产生深远影响。随着周均图像生成量突破 40 亿张，Images 2.6 进一步巩固了 OpenAI 在多模态领域的领先地位。对于营销人员和开发者而言，低成本、高效率的动态内容生成工具将极大简化工作流，推动短视频素材、UI 动效及社交媒体内容的自动化生产进程。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;The Verge AI, The Decoder, IT之家 · IT业界, Hacker News AI, OpenAI 官方博客, 宝玉 (@dotey)&lt;/p&gt;</description>
 </item>
+<item><title>百度开源 280B 参数 ERNIE 5.5 Flash Base 基座模型，多项基准刷新同尺寸 SOTA</title><link>https://todayforai.com/en/story/story-5c028d15-ccb</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5c028d15-ccb</guid>
+<pubDate>Fri, 06 Nov 2026 01:56:41 +0800</pubDate>
+<description>&lt;p&gt;百度正式开源了文心大模型 ERNIE 5.5 Flash Base 的预训练终点权重。该模型总参数达 2800 亿，采用稀疏 MoE 架构，每个 token 仅激活 140 亿参数，在 33.5 万亿 tokens 上从零预训练，训练上下文为 128K，微调与推理阶段可扩展至 100 万 tokens。在知识、推理、数学、代码、多语言及长上下文等多项基准上，该模型刷新了同尺寸 SOTA，性能超过 DeepSeek-V4-Flash-Base 等同类模型。
+
+技术细节上，模型采用 Latent-Gated Sparse Attention 组合 HCA、MLA、低秩门控注意力与虚拟头注意力，将门控投影参数减少 75%；Multi-Router Latent MoE 通过多路由器改善专家选择；ECHO 训练目标复用主干末层实现免 MTP 的多 Token 预测。训练侧使用分布式 Muon 优化器与 FP8 混合精度，注意力算子为基于 CuTe-DSL 的 FlashMask-4，支持 SM90/SM100。官方开放 FP8 与 BF16 权重，并联合 vLLM、SGLang 提供部署 cookbook。
+
+此次发布的是未经中训练与后训练的 Base 权重，定位为领域适配、指令微调与强化学习研究的共同起点，经过后训练的正式版本将随后推出。该模型主打 Agent 长任务链下的效率与成本平衡，为开发者提供了可二次开发的通用基座，有望推动大模型开源生态的进一步发展。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, 量子位官网, Hacker News AI, 机器之心 (微信公众号), The Decoder&lt;/p&gt;</description>
+</item>
 <item><title>Anthropic 开源 FlashProve 实现 AI 模型零知识溯源验证</title><link>https://todayforai.com/en/story/story-be67363e-457</link><guid isPermaLink="true">https://todayforai.com/en/story/story-be67363e-457</guid>
 <pubDate>Thu, 05 Nov 2026 01:17:46 +0800</pubDate>
 <description>&lt;p&gt;Anthropic 正式开源 FlashProve，这是一项基于 zkSNARK 技术的“可证明推理”系统，旨在解决 AI 服务中模型身份不透明的问题。该工具允许第三方在不泄露模型权重的前提下，通过数学证明验证特定回复是否由指定版本的模型生成，从而有效防止服务商暗中降级模型或伪造性能基准。
@@ -26,14 +34,6 @@ Hy4 的发布标志着腾讯在大模型开源赛道迈入第一梯队，其视�
 在技术实现上，FlashProve 展现出显著的效率突破与权衡。测试数据显示，在 Llama 4 Maverick (400B MoE) 模型上，单张 H100 GPU 生成证明的速度达到约 110 tokens/秒，较前代 VerInf 方案提升数千倍；而普通 CPU 仅需约 17 秒即可完成独立验证。此外，其核心安全保证已通过 Lean 4 语言完成形式化证明，增强了代码的可审计性。然而，该方案目前存在明显局限：验证过程需消耗相当于普通 vLLM 推理 70-95 倍的 GPU 算力，且最大支持上下文长度仅为 1,024 tokens。
 
 FlashProve 的发布标志着 AI 供应链透明度建设的重要进展。尽管目前仍处于研究阶段且尚未大规模部署，但它为构建可信 AI 生态提供了关键基础设施。未来，随着算力成本的优化和上下文限制的突破，此类零知识证明技术有望成为规范大模型 API 服务、保障开发者权益及增强用户信任的核心标准。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), TechCrunch AI, Marktechpost (@Marktechpost), IT之家 · 智能时代, Anthropic AI (@AnthropicAI), The Decoder&lt;/p&gt;</description>
-</item>
-<item><title>百度开源 280B 参数 ERNIE 5.5 Flash Base 基座模型，多项基准刷新同尺寸 SOTA</title><link>https://todayforai.com/en/story/story-5c028d15-ccb</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5c028d15-ccb</guid>
-<pubDate>Thu, 05 Nov 2026 17:29:12 +0800</pubDate>
-<description>&lt;p&gt;百度正式开源了文心大模型 ERNIE 5.5 Flash Base 的预训练终点权重。该模型总参数达 2800 亿，采用稀疏 MoE 架构，每个 token 仅激活 140 亿参数，在 33.5 万亿 tokens 上从零预训练，训练上下文为 128K，微调与推理阶段可扩展至 100 万 tokens。在知识、推理、数学、代码、多语言及长上下文等多项基准上，该模型刷新了同尺寸 SOTA，性能超过 DeepSeek-V4-Flash-Base 等同类模型。
-
-技术细节上，模型采用 Latent-Gated Sparse Attention 组合 HCA、MLA、低秩门控注意力与虚拟头注意力，将门控投影参数减少 75%；Multi-Router Latent MoE 通过多路由器改善专家选择；ECHO 训练目标复用主干末层实现免 MTP 的多 Token 预测。训练侧使用分布式 Muon 优化器与 FP8 混合精度，注意力算子为基于 CuTe-DSL 的 FlashMask-4，支持 SM90/SM100。官方开放 FP8 与 BF16 权重，并联合 vLLM、SGLang 提供部署 cookbook。
-
-此次发布的是未经中训练与后训练的 Base 权重，定位为领域适配、指令微调与强化学习研究的共同起点，经过后训练的正式版本将随后推出。该模型主打 Agent 长任务链下的效率与成本平衡，为开发者提供了可二次开发的通用基座，有望推动大模型开源生态的进一步发展。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, 量子位官网, Hacker News AI, 机器之心 (微信公众号)&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 用 GPT-5.5 发现千余 Linux 内核漏洞</title><link>https://todayforai.com/en/story/story-4fad257c-391</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4fad257c-391</guid>
 <pubDate>Thu, 05 Nov 2026 07:33:14 +0800</pubDate>
