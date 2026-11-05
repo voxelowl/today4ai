@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Thu, 05 Nov 2026 15:41:30 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 05 Nov 2026 17:22:47 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>腾讯混元 Hy4 发布 770B 参数并首次解锁视觉与电脑操作</title><link>https://todayforai.com/en/story/story-f4fb29ac-16b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f4fb29ac-16b</guid>
 <pubDate>Thu, 05 Nov 2026 09:49:37 +0800</pubDate>
@@ -67,6 +67,14 @@ FlashProve 的发布标志着 AI 供应链透明度建设的重要进展。尽�
 
 此次事件实质性地改变了 AI 产业的落地逻辑。依赖大规模算力的模型训练与推理服务面临更严格的独立审查、公开听证及选址限制。这不仅迫使科技公司重新评估全球布局策略，更引发了行业对社会信任危机的深刻反思。未来 AI 发展将从单纯的技术竞赛转向兼顾社区影响、能源消耗与社会接受度的综合博弈，算力扩张的速度与规模将受到地方治理能力的刚性约束。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;The Verge AI, MIT Technology Review, Hacker News AI, Ars Technica AI&lt;/p&gt;</description>
 </item>
+<item><title>Claude Code 创始产品经理 Cat Wu 离职转投 OpenAI，团队 10 天内流失 4 位核心成员</title><link>https://todayforai.com/en/story/story-83817838-eef</link><guid isPermaLink="true">https://todayforai.com/en/story/story-83817838-eef</guid>
+<pubDate>Thu, 05 Nov 2026 17:22:47 +0800</pubDate>
+<description>&lt;p&gt;Claude Code 创始产品经理 Cat Wu 已从 Anthropic 离职，并于本周官宣加入 OpenAI 负责核心产品管理。这是 10 天内 Claude Code 团队第 4 位核心成员出走，恰逢 Anthropic 递交 IPO 招股书前后的敏感窗口，引发外界对团队稳定性的关注。
+
+综合多源信息，Cat Wu 是 Claude Code 与 Cowork 的产品总负责人，曾与创始人 Boris Cherny 共同推动该产品从内部实验工具走向开发者市场，被视为二号人物。10 天内离职的还包括 CLI 核心 Thariq Shihipar、桌面版主创 Anthony Morris 与工程经理 Sunil Shah。Cat Wu 将加入 OpenAI 与 Tibo 协作打造智能体产品，这是她继 2025 年短暂跳槽 Cursor 后第二次离开 Anthropic。同期，前 AMD AI 副总裁 Sharon Zhou 加入 Anthropic，Meta 收购 Conductor，Factory 收购 HumanLayer，显示 AI 行业人才与并购活动密集。
+
+此次离职潮发生在 Anthropic IPO 关键期，可能影响外界对其产品延续性的判断。AI 编程赛道头部公司间的人才争夺加剧，核心产品负责人的流向往往预示着下一阶段战略重点的转移，OpenAI 在智能体产品上的布局或因此加速。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;新智元 (微信公众号), Latent Space, InfoQ 中文&lt;/p&gt;</description>
+</item>
 <item><title>Google 推出 Agile Deliberation 框架，用 LLM 交互审议破解主观图像分类难题</title><link>https://todayforai.com/en/story/story-61b8617d-c26</link><guid isPermaLink="true">https://todayforai.com/en/story/story-61b8617d-c26</guid>
 <pubDate>Thu, 05 Nov 2026 13:44:01 +0800</pubDate>
 <description>&lt;p&gt;Google Research 近日发布 Agile Deliberation 框架，旨在解决 AI 图像分类器在主观类别定义上的难题。传统方法依赖清晰标签，难以处理模糊的“灰色地带”概念，而该框架通过交互式审议工作流，引导用户先界定子类别并标注边界样本，再利用 LLM 驱动的优化循环自动构建符合人类意图的分类器。
@@ -74,14 +82,6 @@ FlashProve 的发布标志着 AI 供应链透明度建设的重要进展。尽�
 该框架将模糊概念拆分为范围内与范围外子概念，展示边界样本供用户标注，并由 Gemini 重写定义作为视觉语言模型（VLM）的提示词。在 18 场实测中，其 F1 分数平均较零样本 Gemini 2.5 Flash 高 10.5 分，并优于 Modeling Collaborator 方法。代码以 Apache 2.0 开源，并提供了基于 Gemini 2.5 与 FAISS 的 Colab 演示。
 
 这一成果标志着人机协作定义模糊概念的新范式，降低了构建主观分类器的门槛，对内容审核、医疗影像分析等依赖主观判断的领域具有重要影响。开源的特性也将促进开发者生态的创新，推动更符合人类意图的 AI 系统发展。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Google Research, Marktechpost (@Marktechpost)&lt;/p&gt;</description>
-</item>
-<item><title>Claude Code 创始 PM Cat Wu 离职转投 OpenAI，团队 10 天内流失 4 名核心成员</title><link>https://todayforai.com/en/story/story-83817838-eef</link><guid isPermaLink="true">https://todayforai.com/en/story/story-83817838-eef</guid>
-<pubDate>Thu, 05 Nov 2026 14:24:09 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 旗下 AI 编程工具 Claude Code 遭遇重大人事震荡：创始产品经理 Cat Wu 正式离职，并转投竞争对手 OpenAI 领导核心产品。更令人关注的是，这已是该团队在短短 10 天内流失的第 4 位核心成员，此前离开的还包括 CLI 核心开发者 Thariq Shihipar、桌面版主创 Anthony Morris 以及工程经理 Sunil Shah。此次密集离职恰逢 Anthropic 递交 IPO 招股书的关键窗口期，引发外界对该公司研发稳定性与组织管理的担忧。
-
-综合多方信源，Cat Wu 的离职并非孤立事件。Latent Space 报道指出，AI 行业正出现密集的人才流动与并购潮，除 Cat Wu 转投 OpenAI 外，前 AMD AI 副总裁 Sharon Zhou 也加入了 Anthropic，同时 Meta 收购了 Conductor、Factory 收购了 HumanLayer。这些变动反映出头部实验室与平台之间对顶尖人才的争夺日趋白热化，但均停留在人事与交易层面，尚未披露具体技术参数或产品路线调整细节。
-
-对 Anthropic 而言，Claude Code 作为其切入开发者生态的关键产品，核心团队在 IPO 前夕的连续失血可能影响投资者信心，并给产品迭代节奏带来不确定性。而对 OpenAI 来说，招揽 Cat Wu 这样的产品负责人，有望强化其编程工具与开发者产品的竞争力。此次人事地震也折射出 AI 编程赛道竞争已从模型能力延伸至组织与人才层面，行业格局或将因此生变。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;新智元 (微信公众号), Latent Space&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
