@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Thu, 05 Nov 2026 18:04:57 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 05 Nov 2026 18:45:00 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Big Tech to Spend at Least $720 Billion on AI Infrastructure This Year</title><link>https://www.theverge.com/ai-artificial-intelligence/1027344/amazon-microsoft-alphabet-google-meta-data-centers-earnings-q3</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1027344/amazon-microsoft-alphabet-google-meta-data-centers-earnings-q3</guid>
+<pubDate>Thu, 05 Nov 2026 18:45:00 +0800</pubDate>
+<description>&lt;p&gt;Amazon, Microsoft, Alphabet and Meta disclosed at least $720 billion in combined capex for this year, mostly aimed at AI infrastructure, on top of at least $1 trillion in multi-year spending commitments. Yet the buildout remains no closer to delivering promised returns, and the plans have already triggered a sharp tech selloff on Wall Street.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;四大科技巨头今年 AI 资本开支至少 7200 亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是观察 AI 基建投资周期与回报错配的关键产业信号，但属多事件打包的财报综述，缺乏单一焦点。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.theverge.com/ai-artificial-intelligence/1027344/amazon-microsoft-alphabet-google-meta-data-centers-earnings-q3">The Verge AI</source>
+<category>AI 基建</category>
+<category>资本开支</category>
+<category>科技巨头</category>
+<category>数据中心</category>
+</item>
+<item><title>Max Planck Paper Finds Reasoning Makes LLMs Converge, Even on Shared Errors</title><link>https://x.com/rohanpaul_ai/status/2118288607106764857</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118288607106764857</guid>
+<pubDate>Thu, 05 Nov 2026 18:25:34 +0800</pubDate>
+<description>&lt;p&gt;A new Max Planck paper tested nine Qwen and GPT models on three prediction tasks built from US census surveys, with reasoning on and off. Enabling reasoning raised cross-model agreement, but the share of people all nine models got wrong also rose by 2.0 to 2.4 points; for the longest reasoning traces, adjusted agreement fell to roughly 0.31-0.39. The authors warn that ensemble-style error correction assumes uncorrelated mistakes, and reasoning may make errors more correlated.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;马普所新论文：开启推理后不同大模型更趋同，连错误也一致&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究直接挑战“多模型投票可纠错”的常见工程假设，对做模型集成与评估的读者有实际决策价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2118288607106764857">Rohan Paul (@rohanpaul_ai)</source>
+<category>大模型</category>
+<category>推理</category>
+<category>模型评估</category>
+<category>马普所</category>
+</item>
 <item><title>Tencent Hunyuan Hy4 Demand Surges, Inference Cluster Scaled Tenfold</title><link>https://www.ithome.com/1/022/922.htm</link><guid isPermaLink="true">https://www.ithome.com/1/022/922.htm</guid>
 <pubDate>Thu, 05 Nov 2026 18:04:57 +0800</pubDate>
 <description>&lt;p&gt;Tencent Hunyuan&amp;#x27;s Hy4 hit quota limits on its first day of launch inside WorkBuddy, prompting a tenfold emergency expansion of its inference cluster and higher free-tier quotas, while Hy3&amp;#x27;s free access was extended to November 15. Compared with the preview, Hy4 substantially scales pre- and post-training, adds vision for the first time, and is billed as the company&amp;#x27;s first entry among top open-source models, with weights and a system card promised soon.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;腾讯混元 Hy4 调用激增 推理集群紧急扩容十倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;反映头部开源大模型首发即遭遇算力瓶颈的真实供需状况，并披露 Hy4 能力升级与开源计划。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 58/100&lt;/p&gt;</description>
@@ -185,9 +203,9 @@
 <category>人机协作</category>
 <category>开源</category>
 </item>
-<item><title>Discord Drops Electron for Rust Rewrite, Cutting Client Memory to 290MB</title><link>https://www.ithome.com/1/022/673.htm</link><guid isPermaLink="true">https://www.ithome.com/1/022/673.htm</guid>
+<item><title>Discord 弃用 Electron，改用 Rust 重写客户端，内存占用降至 290MB</title><link>https://www.ithome.com/1/022/673.htm</link><guid isPermaLink="true">https://www.ithome.com/1/022/673.htm</guid>
 <pubDate>Thu, 05 Nov 2026 13:40:09 +0800</pubDate>
-<description>&lt;p&gt;Discord has confirmed it is abandoning Electron and rewriting its desktop client in Rust, with the UI layer built on GPUI, the GPU-accelerated native UI framework from the Zed team, removing the bundled Chromium entirely. A screenshot with two accounts logged in shows roughly 290MB of memory use versus 1–2GB idle (up to 4GB) for the old Electron build. Mobile apps will also migrate from React Native to Rust while keeping native UI and sharing code with desktop; a user-facing beta is coming \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Discord 弃用 Electron，改用 Rust 重写客户端，内存占用降至 290MB&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是大型消费级应用告别 Electron、转向 Rust 原生渲染的标志性架构换血，对关心客户端性能与跨平台技术选型的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · tools · signal 52/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Discord 确认弃用 Electron，改用 Rust 重写桌面客户端，界面层采用 Zed 团队的 GPU 加速原生 UI 框架 GPUI，不再内置 Chromium；双账号登录状态下内存占用仅约 290MB，而旧版空闲时常占用 1–2GB、极端可达 4GB。移动端也将从 React Native 迁移到 Rust，保留原生 UI，并与桌面端共享应用代码；新客户端“很快”进入用户测试，尚无正式发布时间。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是大型消费级应用告别 Electron、转向 Rust 原生渲染的标志性架构换血，对关心客户端性能与跨平台技术选型的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · tools · signal 52/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/022/673.htm">IT之家 · IT业界</source>
 <category>Rust</category>
 <category>Electron</category>
@@ -197,7 +215,7 @@
 </item>
 <item><title>英伟达发布 CUDA Toolkit 13.5：正式支持 Vera Rubin，升级多 GPU 通信</title><link>https://www.ithome.com/1/022/670.htm</link><guid isPermaLink="true">https://www.ithome.com/1/022/670.htm</guid>
 <pubDate>Thu, 05 Nov 2026 13:27:22 +0800</pubDate>
-<description>&lt;p&gt;IT之家 11 月 5 日消息，英伟达于当地时间 11 月 4 日正式发布了最新的 CUDA Toolkit 13.5，为下一代 AI 计算平台 Vera Rubin 提供正式可用（GA）支持，标志着相关架构从早期开发者预览阶段进入面向企业生产环境的部署阶段。 英伟达发布 CUDA Toolkit 13.5：正式支持 Vera Rubin，升级多 GPU 通信 据英伟达官方介绍，此次更新不仅完善了 Vera Rubin 平台的底层软件支持，还针对 GPU 资源调度、多 GPU 通信、数学计算库及性能分析工具进行了多项升级，重点面向大规模 AI 训练和推理场景。 在计算性能方面，CUDA 13.5 更新了 cuBLAS 的矩阵乘法启发式策略和内核调优机制，针对 Vera Rubin 架构上的 NVFP4、MXFP8 低精度矩阵运算进行了优化，覆盖混合专家模型（MoE）等训练场景。英伟达表示，这些改进能够在无需针对每种计算形状单独进行自动调优的情况下，提高训练和推理吞吐量。 在 GPU 调度方面，CUDA 13.5 对 NVIDIA 多进程服务（MPS）v3 进行了升级，新增加权时间片机制...&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达发布 CUDA Toolkit 13.5：正式支持 Vera Rubin，升级多 GPU 通信&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自一手信源 IT之家 · IT业界 的前沿报道与技术动态&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 61/100&lt;/p&gt;</description>
+<description>&lt;p&gt;IT之家 11 月 5 日消息，英伟达于当地时间 11 月 4 日正式发布了最新的 CUDA Toolkit 13.5，为下一代 AI 计算平台 Vera Rubin 提供正式可用（GA）支持，标志着相关架构从早期开发者预览阶段进入面向企业生产环境的部署阶段。 英伟达发布 CUDA Toolkit 13.5：正式支持 Vera Rubin，升级多 GPU 通信 据英伟达官方介绍，此次更新不仅完善了 Vera Rubin 平台的底层软件支持，还针对 GPU 资源调度、多 GPU 通信、数学计算库及性能分析工具进行了多项升级，重点面向大规模 AI 训练和推理场景。 在计算性能方面，CUDA 13.5 更新了 cuBLAS 的矩阵乘法启发式策略和内核调优机制，针对 Vera Rubin 架构上的 NVFP4、MXFP8 低精度矩阵运算进行了优化，覆盖混合专家模型（MoE）等训练场景。英伟达表示，这些改进能够在无需针对每种计算形状单独进行自动调优的情况下，提高训练和推理吞吐量。 在 GPU 调度方面，CUDA 13.5 对 NVIDIA 多进程服务（MPS）v3 进行了升级，新增加权时间片机制...&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自一手信源 IT之家 · IT业界 的前沿报道与技术动态&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 61/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/022/670.htm">IT之家 · IT业界</source>
 <category>AI</category>
 <category>COMPUTE</category>
@@ -253,23 +271,6 @@
 <category>AI 编程</category>
 <category>代码审查</category>
 <category>Anthropic</category>
-</item>
-<item><title>OpenAI 任命原 Uber 总裁 Jill Hazelbaker 为首席企业事务官</title><link>https://www.ithome.com/1/022/536.htm</link><guid isPermaLink="true">https://www.ithome.com/1/022/536.htm</guid>
-<pubDate>Thu, 05 Nov 2026 10:06:26 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 于 11 月 3 日宣布，原 Uber 总裁兼首席企业事务官 Jill Hazelbaker 将加入公司，出任首席企业事务官，统管全球传播与企业定位。她此前在 Snap、谷歌负责传播与公共政策，职业生涯始于美国政界，曾任麦凯恩 2008 年总统竞选全国传播总监。总裁 Greg Brockman 称，随着 AI 融入日常生活，与公众沟通并赢得信任变得前所未有的重要，该任命服务于 OpenAI 的下一阶段扩张。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 OpenAI 首次设立并向政界与传播出身的资深高管交权的高层人事动作，反映其在监管与公众信任压力下的组织重心转移。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 48/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/022/536.htm">IT之家 · 智能时代</source>
-<category>OpenAI</category>
-<category>人事任命</category>
-<category>企业事务</category>
-<category>Uber</category>
-</item>
-<item><title>OpenAI 上线 GPT-Image-2.6 原生支持 GIF 与 SVG 导出</title><link>https://www.qbitai.com/2026/11/507707.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/507707.html</guid>
-<pubDate>Thu, 05 Nov 2026 09:59:37 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 全量上线图像模型 GPT-Image-2.6，在 ChatGPT、Codex 与 API 同步开放给所有免费和付费用户，最快 6 秒出图，整体生成时间缩短约 50%。该版本最实质的变化是把“场景规划算力”与“像素渲染画质”拆成 complexity 和 quality 两个独立参数，让局部改图不再重跑整套构图；同时原生支持 GIF 动图与 SVG 矢量导出，API 侧拆出主打速度排版的 Flare 与主打高细节一致性的 Sunburst 两个型号。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是图像生成模型在控制接口层面的一次实质改动，把“构思”与“渲染”解耦可直接改变开发者的调用成本结构。&lt;/p&gt;&lt;p&gt;量子位官网 · llm · signal 68/100&lt;/p&gt;</description>
-<source url="https://www.qbitai.com/2026/11/507707.html">量子位官网</source>
-<category>图像生成</category>
-<category>OpenAI</category>
-<category>API</category>
 </item>
 </channel>
 </rss>
