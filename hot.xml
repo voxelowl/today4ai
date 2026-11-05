@@ -11,14 +11,6 @@
 
 此次升级对内容创作生态产生深远影响。随着周均图像生成量突破 40 亿张，Images 2.6 进一步巩固了 OpenAI 在多模态领域的领先地位。对于营销人员和开发者而言，低成本、高效率的动态内容生成工具将极大简化工作流，推动短视频素材、UI 动效及社交媒体内容的自动化生产进程。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;The Verge AI, The Decoder, IT之家 · IT业界, Hacker News AI, OpenAI 官方博客, 宝玉 (@dotey)&lt;/p&gt;</description>
 </item>
-<item><title>Anthropic 开源 FlashProve 实现 AI 模型零知识溯源验证</title><link>https://todayforai.com/en/story/story-be67363e-457</link><guid isPermaLink="true">https://todayforai.com/en/story/story-be67363e-457</guid>
-<pubDate>Thu, 05 Nov 2026 01:17:46 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 正式开源 FlashProve，这是一项基于 zkSNARK 技术的“可证明推理”系统，旨在解决 AI 服务中模型身份不透明的问题。该工具允许第三方在不泄露模型权重的前提下，通过数学证明验证特定回复是否由指定版本的模型生成，从而有效防止服务商暗中降级模型或伪造性能基准。
-
-在技术实现上，FlashProve 展现出显著的效率突破与权衡。测试数据显示，在 Llama 4 Maverick (400B MoE) 模型上，单张 H100 GPU 生成证明的速度达到约 110 tokens/秒，较前代 VerInf 方案提升数千倍；而普通 CPU 仅需约 17 秒即可完成独立验证。此外，其核心安全保证已通过 Lean 4 语言完成形式化证明，增强了代码的可审计性。然而，该方案目前存在明显局限：验证过程需消耗相当于普通 vLLM 推理 70-95 倍的 GPU 算力，且最大支持上下文长度仅为 1,024 tokens。
-
-FlashProve 的发布标志着 AI 供应链透明度建设的重要进展。尽管目前仍处于研究阶段且尚未大规模部署，但它为构建可信 AI 生态提供了关键基础设施。未来，随着算力成本的优化和上下文限制的突破，此类零知识证明技术有望成为规范大模型 API 服务、保障开发者权益及增强用户信任的核心标准。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), TechCrunch AI, Marktechpost (@Marktechpost), IT之家 · 智能时代, Anthropic AI (@AnthropicAI), The Decoder&lt;/p&gt;</description>
-</item>
 <item><title>腾讯混元 Hy4 正式发布，770B 参数首次解锁视觉理解与电脑操作</title><link>https://todayforai.com/en/story/story-f4fb29ac-16b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f4fb29ac-16b</guid>
 <pubDate>Thu, 05 Nov 2026 09:49:37 +0800</pubDate>
 <description>&lt;p&gt;腾讯正式发布新一代大语言模型混元 Hy4，参数规模从 Hy3 的不足 300B 一跃提升至 770B，并首次引入视觉理解与电脑操作（Computer Use）两大能力，官方称其首次进入全球最强开源模型梯队。模型已上线腾讯云 TokenHub、元宝、CodeBuddy、企业微信等自有产品，并接入 OpenRouter 等第三方平台；API 定价与 Preview 版完全持平——输入每百万 Token 6 元、输出 18 元、缓存命中 0.3 元，权重将于近期开源。
@@ -26,6 +18,14 @@ FlashProve 的发布标志着 AI 供应链透明度建设的重要进展。尽�
 从技术细节看，Hy4 的核心增量来自预训练与后训练规模的大幅扩展：视觉侧支持细粒度图像处理、复杂图表分析与数学视觉推理；智能体侧可结合命令行与图形界面执行跨应用长程任务，并针对 Blender、CAD 等专业软件做了专项训练，在金融分析、3D 构建等场景表现明显提升。第三方评测提供了交叉印证：在 Agent Arena 中 Hy4 位列总榜第 14，权重开放后有望与开源的 Kimi K3.1 Pro 并列开源第一；其单次任务成本仅 0.55 美元，比 Kimi K3.1 Pro 的 1.46 美元低约 62%，而得分差距不到 1%，确认成功率、可控性与 Bash 命令可靠性等关键指标全面优于预览版。官方同时承诺开源权重、提供 vLLM/SGLang 生态支持，并配套发布 System Card。
 
 这意味着开源大模型的竞争焦点正从“参数与榜单分数”转向“单位成本下的智能体可用性”。Hy4 以接近头部的评测表现和显著更低的推理成本，加上命令行与图形界面双通道操作能力，直接降低了企业部署长程 Agent 的门槛；而权重开…&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Arena.ai (@arena), 腾讯技术工程 (微信公众号), InfoQ 中文&lt;/p&gt;</description>
+</item>
+<item><title>Anthropic 开源 FlashProve 实现 AI 模型零知识溯源验证</title><link>https://todayforai.com/en/story/story-be67363e-457</link><guid isPermaLink="true">https://todayforai.com/en/story/story-be67363e-457</guid>
+<pubDate>Thu, 05 Nov 2026 01:17:46 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 正式开源 FlashProve，这是一项基于 zkSNARK 技术的“可证明推理”系统，旨在解决 AI 服务中模型身份不透明的问题。该工具允许第三方在不泄露模型权重的前提下，通过数学证明验证特定回复是否由指定版本的模型生成，从而有效防止服务商暗中降级模型或伪造性能基准。
+
+在技术实现上，FlashProve 展现出显著的效率突破与权衡。测试数据显示，在 Llama 4 Maverick (400B MoE) 模型上，单张 H100 GPU 生成证明的速度达到约 110 tokens/秒，较前代 VerInf 方案提升数千倍；而普通 CPU 仅需约 17 秒即可完成独立验证。此外，其核心安全保证已通过 Lean 4 语言完成形式化证明，增强了代码的可审计性。然而，该方案目前存在明显局限：验证过程需消耗相当于普通 vLLM 推理 70-95 倍的 GPU 算力，且最大支持上下文长度仅为 1,024 tokens。
+
+FlashProve 的发布标志着 AI 供应链透明度建设的重要进展。尽管目前仍处于研究阶段且尚未大规模部署，但它为构建可信 AI 生态提供了关键基础设施。未来，随着算力成本的优化和上下文限制的突破，此类零知识证明技术有望成为规范大模型 API 服务、保障开发者权益及增强用户信任的核心标准。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), TechCrunch AI, Marktechpost (@Marktechpost), IT之家 · 智能时代, Anthropic AI (@AnthropicAI), The Decoder&lt;/p&gt;</description>
 </item>
 <item><title>谷歌捆绑 AI 与搜索，禁用工具将失去权限</title><link>https://todayforai.com/en/story/story-a7283b3a-2a1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a7283b3a-2a1</guid>
 <pubDate>Thu, 05 Nov 2026 02:33:46 +0800</pubDate>
