@@ -35,6 +35,14 @@ FlashProve 的发布标志着 AI 供应链透明度建设的重要进展。尽�
 
 该事件标志着科技巨头在教育领域加速 AI 渗透的策略升级，引发了关于技术垄断与数字主权的行业讨论。通过控制关键基础设施，谷歌正从单纯提供工具转向塑造行业标准，这可能加剧其他平台效仿此类捆绑策略，进一步压缩开发者与用户在生态中的自主空间。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, TechCrunch AI, The Verge AI, Ars Technica AI, IT之家 · IT业界, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
+<item><title>百度开源 280B 参数 ERNIE 5.5 Flash Base 基座模型，多项基准刷新同尺寸 SOTA</title><link>https://todayforai.com/en/story/story-5c028d15-ccb</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5c028d15-ccb</guid>
+<pubDate>Thu, 05 Nov 2026 17:29:12 +0800</pubDate>
+<description>&lt;p&gt;百度正式开源了文心大模型 ERNIE 5.5 Flash Base 的预训练终点权重。该模型总参数达 2800 亿，采用稀疏 MoE 架构，每个 token 仅激活 140 亿参数，在 33.5 万亿 tokens 上从零预训练，训练上下文为 128K，微调与推理阶段可扩展至 100 万 tokens。在知识、推理、数学、代码、多语言及长上下文等多项基准上，该模型刷新了同尺寸 SOTA，性能超过 DeepSeek-V4-Flash-Base 等同类模型。
+
+技术细节上，模型采用 Latent-Gated Sparse Attention 组合 HCA、MLA、低秩门控注意力与虚拟头注意力，将门控投影参数减少 75%；Multi-Router Latent MoE 通过多路由器改善专家选择；ECHO 训练目标复用主干末层实现免 MTP 的多 Token 预测。训练侧使用分布式 Muon 优化器与 FP8 混合精度，注意力算子为基于 CuTe-DSL 的 FlashMask-4，支持 SM90/SM100。官方开放 FP8 与 BF16 权重，并联合 vLLM、SGLang 提供部署 cookbook。
+
+此次发布的是未经中训练与后训练的 Base 权重，定位为领域适配、指令微调与强化学习研究的共同起点，经过后训练的正式版本将随后推出。该模型主打 Agent 长任务链下的效率与成本平衡，为开发者提供了可二次开发的通用基座，有望推动大模型开源生态的进一步发展。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, 量子位官网, Hacker News AI, 机器之心 (微信公众号)&lt;/p&gt;</description>
+</item>
 <item><title>OpenAI 用 GPT-5.5 发现千余 Linux 内核漏洞</title><link>https://todayforai.com/en/story/story-4fad257c-391</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4fad257c-391</guid>
 <pubDate>Thu, 05 Nov 2026 07:33:14 +0800</pubDate>
 <description>&lt;p&gt;OpenAI 近日展示其新一代网络安全智能体系统 GPT-5.5 Cyber，在受控环境中实现了自动化漏洞挖掘的重大突破。该系统在短短 12 小时内扫描了 Linux 内核约 7% 的代码（约 280 万行），成功识别出 2308 个候选漏洞，并动态复现了其中 1724 个，展现了 AI 在复杂代码审计领域的惊人效率。
@@ -66,14 +74,6 @@ FlashProve 的发布标志着 AI 供应链透明度建设的重要进展。尽�
 综合多方信源，Pierre 的 Trees 文件浏览、Diffs 变更对比、Highlights 实时高亮以及 Code Storage 分布式存储系统将逐步整合进 Codex，补齐从智能体建分支到部署上线的第一方代码编写、理解与审查链路。收购还将配合 OpenAI 内部的 Pando 后端系统，解决多智能体并行开发场景下的版本控制难题。Pierre 的开源项目承诺保持开源，现有 Code Storage 客户可继续使用服务，交易完成前双方保持独立，且尚需监管批准。
 
 此次收购对 AI 编程赛道具有实质影响：一方面，Codex 的代码审查与文件管理能力将显著增强，提升开发者体验；另一方面，OpenAI 通过整合 Pierre 的底层 Git 工具链，为智能体与人类协作的现代开发流程树立标准，可能推动整个行业向更高效的 AI 辅助开发范式演进。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;OpenAI 官方博客, 宝玉 (@dotey), The Decoder, IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
-<item><title>百度开源 280B 参数 ERNIE 5.5 Flash Base 基座模型，多项基准刷新同尺寸 SOTA</title><link>https://todayforai.com/en/story/story-5c028d15-ccb</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5c028d15-ccb</guid>
-<pubDate>Thu, 05 Nov 2026 17:29:12 +0800</pubDate>
-<description>&lt;p&gt;百度正式开源了文心大模型 ERNIE 5.5 Flash Base 的预训练终点权重，这是一个总参数 2800 亿、每 token 激活 140 亿的稀疏 MoE 语言模型，在 33.5 万亿 token 上从零预训练，微调与推理支持最长 100 万 token 上下文。该模型在知识、推理、数学、代码、多语言与长上下文等多项基准上刷新了同尺寸 SOTA，超过了 DeepSeek-V4-Flash-Base 等同类模型。
-
-技术细节上，该模型采用 Latent-Gated Sparse Attention 组合 HCA、MLA、低秩门控注意力与虚拟头注意力，门控投影参数减少 75%；Multi-Router Latent MoE 通过多路由器改善专家选择；ECHO 训练目标复用主干末层实现免 MTP 的多 Token 预测。训练侧使用分布式 Muon 优化器与 FP8 混合精度，注意力算子为基于 CuTe-DSL 的 FlashMask-4，支持 SM90/SM100。此次发布的是未经中训练与后训练的 Base 权重，官方定位为领域适配、指令微调与强化学习研究的共同起点，经过后训练的正式版本将随后推出。
-
-这一开源举措为 AI 社区提供了强大的基座模型，显著降低了领域适配和强化学习研究的门槛，有望推动大模型效率创新和生态繁荣，并对同尺寸模型竞争格局产生实质影响。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, 量子位官网, Hacker News AI&lt;/p&gt;</description>
 </item>
 <item><title>美国多地公投否决数据中心建设 AI 算力扩张遇阻</title><link>https://todayforai.com/en/story/story-2f8ef443-ba4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2f8ef443-ba4</guid>
 <pubDate>Thu, 05 Nov 2026 06:26:24 +0800</pubDate>
