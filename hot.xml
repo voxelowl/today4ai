@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Thu, 05 Nov 2026 07:46:41 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 05 Nov 2026 09:49:37 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>OpenAI 发布 Images 2.6 实现 ChatGPT 原生生成 GIF</title><link>https://todayforai.com/en/story/story-56a44e50-483</link><guid isPermaLink="true">https://todayforai.com/en/story/story-56a44e50-483</guid>
 <pubDate>Thu, 05 Nov 2026 07:46:41 +0800</pubDate>
@@ -57,7 +57,15 @@ FlashProve 的发布标志着 AI 供应链透明度建设的重要进展。尽�
 
 技术细节表明，Astra 通过定位并修复第 15、19 层 MLP 中导致推理循环的特定权重缺陷，释放了模型潜在能力而非注入新知识。此外，Astra 还展示了从零编写高性能游戏网络权重的能力，性能超越传统 PPO 基线 20 倍。这一发现验证了 LLM 具备原生读写神经网络参数的能力，可能绕过传统递归自我改进（RSI）中高成本的自动搜索环节，为 AI 自主进化提供低算力路径。
 
-尽管目前结果尚待独立复现且缺乏系统性基准，但该研究已开源实验日志与修改后的模型。它标志着模型优化从符号计算向语义理解转变，为可解释性研究和高效微调开辟了新方向，预示未来神经网络可能由具备推理能力的 LLM 进行原生优化。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, Rohan Paul (@rohanpaul_ai), 量子位官网, IT之家 · 智能时代, Latent Space, 宝玉 (@dotey)&lt;/p&gt;</description>
+尽管目前结果尚待独立复现且缺乏系统性基准，但该研究已开源实验日志与修改后的模型。它标志着模型优化从符号计算向语义理解转变，为可解释性研究和高效微调开辟了新方向，预示未来神经网络可能由具备推理能力的 LLM 进行原生优化。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, Rohan Paul (@rohanpaul_ai), 量子位官网, IT之家 · 智能时代, Latent Space, 宝玉 (@dotey)&lt;/p&gt;</description>
+</item>
+<item><title>腾讯混元 Hy4 正式发布，首次具备视觉理解与电脑操作能力</title><link>https://todayforai.com/en/story/story-f4fb29ac-16b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f4fb29ac-16b</guid>
+<pubDate>Thu, 05 Nov 2026 09:49:37 +0800</pubDate>
+<description>&lt;p&gt;腾讯正式发布新一代大语言模型混元 Hy4 正式版，参数规模从 Hy3 的不足 300B 跃升至 770B，并首次引入视觉理解与电脑操作（Computer Use）能力。官方明确表示，该模型由此首次跻身全球最强开源模型梯队，模型权重将于近期开放。目前 Hy4 已上线腾讯云 TokenHub、元宝、CodeBuddy、企业微信等自有产品，并接入 OpenRouter 等第三方平台，API 价格与 Preview 版持平：输入每百万 Token 6 元、输出 18 元、缓存命中 0.3 元。
+
+多家信源交叉印证，Hy4 的核心增量来自预训练与后训练规模的同步大幅扩展。相比 Preview 版本，其在指令遵循、长文本理解与长程 Agent 任务上提升显著。视觉侧支持细粒度图像处理、复杂图表分析与数学视觉推理；电脑操作侧则可结合命令行与图形界面执行跨应用长程任务，并针对 Blender、CAD 等专业软件做了专项训练，在金融分析、3D 构建等专业场景中表现增强。工程生态方面，官方计划联合 vLLM、SGLang 社区提供推理基础设施支持，并配套发布 System Card，强调负责任 AI 与安全评估。
+
+对行业而言，Hy4 把视觉理解与电脑操作这两项能力同时带入开源路线，意味着智能体（Agent）从“会聊天”走向“能看屏幕、能动手操作软件”的门槛被大幅拉低。叠加不涨价的定价策略与开源权重，国内开源大模型的参数与能力竞赛将进一步升温，开发者和企业可在更低成本下构建跨应用自动化与专业视觉分析应用，专业软件生态的 AI 化改造也有望加速。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, 腾讯技术工程 (微信公众号), InfoQ 中文&lt;/p&gt;</description>
 </item>
 <item><title>腾讯混元 Hy4 登顶 Agent Arena 开源榜首</title><link>https://todayforai.com/en/story/story-a726c565-591</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a726c565-591</guid>
 <pubDate>Thu, 05 Nov 2026 05:09:09 +0800</pubDate>
@@ -70,10 +78,6 @@ FlashProve 的发布标志着 AI 供应链透明度建设的重要进展。尽�
 多方信源交叉验证显示，AMD 第三季度数据中心营收同比暴涨 97% 至 85.5 亿美元，主要由 Instinct GPU 和 EPYC 处理器的需求激增所推动。随着 MI455X 加速器和 Venice CPU 组成的 Helios 机架系统将于第四季度量产，且 Meta 已启动首批设备测试，公司进一步上调了 2027 年营收增长预期至 80% 以上。预计 Q4 总营收将达约 170 亿美元，历史上首次超越 Intel，毛利率也提升至 54%。
 
 此次业绩爆发不仅抵消了客户端市场的波动，更重塑了半导体行业的竞争格局。AMD 通过构建从芯片到机架系统的完整 AI 算力栈，正在打破 Nvidia 的垄断地位，确立其在高性能计算领域的第二极地位，为开发者与企业提供了更具性价比的替代方案。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), IT之家 · IT业界, Hacker News AI&lt;/p&gt;</description>
-</item>
-<item><title>Agent Arena 数据：长时任务成本差异达 66%</title><link>https://todayforai.com/en/story/story-d1d9e547-7d7</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d1d9e547-7d7</guid>
-<pubDate>Thu, 05 Nov 2026 01:49:24 +0800</pubDate>
-<description>&lt;p&gt;Arena.ai 发布 Agent Arena 最新基准数据，显示在持续超过一小时的复杂智能体任务中，不同前沿模型的成本差异显著。Gemini 4 Carbon 以每小时 10.51 美元的中位成本成为最具性价比选择，比 Claude Opus 5.5 便宜 50%，比 GPT-6 Astra 便宜 66%。尽管 Claude Opus 5.5 在能力评分上领先，但其高昂的时间与金钱成本迫使开发者在长周期任务中重新权衡性能与预算。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Arena.ai (@arena)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
