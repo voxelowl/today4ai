@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Fri, 06 Nov 2026 08:37:56 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 06 Nov 2026 09:53:48 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>腾讯混元 Hy4 发布 770B 参数并首次解锁视觉与电脑操作</title><link>https://todayforai.com/en/story/story-f4fb29ac-16b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f4fb29ac-16b</guid>
 <pubDate>Fri, 06 Nov 2026 04:21:43 +0800</pubDate>
@@ -18,6 +18,14 @@ Hy4 的发布标志着腾讯在大模型开源赛道迈出关键一步，其视�
 在技术细节上，新版本支持 3 到 15 秒按 1 秒粒度自定义时长，并引入多轮对话式编辑功能，用户可在不重新生成整段视频的前提下替换产品、背景、光照与画幅。模型还改善了多人对话口型同步与连续运镜稳定性，并增强了参考图与参考素材的一致性遵循。在 Arena 文生视频榜单中，Gemini Omni 1.2 Flash 以 1541 分登顶，较上代提升 27 分，图生视频同样排名第一，视频编辑位列第三。
 
 此次发布对视频生成赛道具有显著影响。15 秒时长与对话式编辑的结合，使 AI 视频从短片段演示迈向可用的规模化内容生产工具，而 30% 的降价进一步降低了开发者和企业的使用门槛。同时，多入口上线与 SynthID 水印的标配，也体现了谷歌在推动 AI 视频商业化与内容安全方面的平衡策略。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;The Decoder, Google DeepMind, Arena.ai (@arena), IT之家 · 智能时代, IT之家 · IT业界, Marktechpost (@Marktechpost)&lt;/p&gt;</description>
+</item>
+<item><title>Thinking Machines 发布 Inkling 2 Small，智能指数 31 分比肩 Gemini 3.8 Flash</title><link>https://todayforai.com/en/story/story-bbea1fd9-9f8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-bbea1fd9-9f8</guid>
+<pubDate>Fri, 06 Nov 2026 09:53:48 +0800</pubDate>
+<description>&lt;p&gt;Thinking Machines 正式发布第二代模型 Inkling 2 Small，在 Artificial Analysis 智能指数 v5.0.1 上得分 31，较前代 Inkling Small 大幅提升 18 分，与 Gemini 3.8 Flash (high) 持平，并超过小米 MiMo-V2.6-Pro。该模型采用稀疏混合专家（MoE）架构，总参数 594B，激活参数仅 17B，支持图像输入与可变推理强度，在效率与性能间取得平衡。
+
+技术细节上，Inkling 2 Small 的智能体任务表现提升显著：AutomationBench-AA 从 5% 跃升至 46%，FrontierCode 2.0 从 5% 升至 25%，HLE-Diamond 从 12% 升至 29%。编码能力呈现分化：FrontierCode 2.0 得分 25% 高于 Claude Sonnet 5.5 的 11%，但 Terminal-Bench 4.0 仅 13%，低于后者的 30%。模型初期以闭源权重通过 Tinker 平台提供，定价为每百万输入/输出 token 0.30/1.00 美元，缓存输入 0.03 美元。官方计划在完成外部安全测试与红队评估后，于下周以 Apache 2.0 协议开放完整权重。
+
+若开放权重兑现，Inkling 2 Small 将成为中国以外得分最高的开源权重模型，显著提升开源模型的能力上限。其稀疏 MoE 设计以极低激活参数实现高性能，为高效推理部署提供新选择，同时智能体任务的跃升也反映出大规模统一强化学习训练的有效性。此举可能加剧开源与闭源模型竞争，…&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys), Hacker News AI, Artificial Analysis&lt;/p&gt;</description>
 </item>
 <item><title>百度开源 280B 参数 ERNIE 5.5 Flash Base 基座模型，多项基准刷新同尺寸 SOTA</title><link>https://todayforai.com/en/story/story-5c028d15-ccb</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5c028d15-ccb</guid>
 <pubDate>Fri, 06 Nov 2026 05:35:34 +0800</pubDate>
@@ -58,14 +66,6 @@ Hy4 的发布标志着腾讯在大模型开源赛道迈出关键一步，其视�
 在技术细节上，Images 2.6 重点解决了早期模型在连续帧间角色一致性差、画面漂移严重的痛点，使得品牌角色动画和产品循环展示等简单动画具备实际可用性。用户可通过文本提示或上传图片直接生成 GIF，并在应用内自由调整播放速率及进行逐帧编辑。API 端同步上线了 GPT-Image-2.6 Flare（侧重速度与布局）和 Sunburst（侧重细节与一致性）两款模型，为开发者提供灵活选择。
 
 此次升级对内容创作生态产生深远影响。随着周均图像生成量突破 40 亿张，Images 2.6 进一步巩固了 OpenAI 在多模态领域的领先地位。对于营销人员和开发者而言，低成本、高效率的动态内容生成工具将极大简化工作流，推动短视频素材、UI 动效及社交媒体内容的自动化生产进程。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;The Verge AI, The Decoder, IT之家 · IT业界, Hacker News AI, OpenAI 官方博客, 宝玉 (@dotey)&lt;/p&gt;</description>
-</item>
-<item><title>Thinking Machines 发布 Inkling 2 Small，智能指数 31 分比肩 Gemini 3.8 Flash</title><link>https://todayforai.com/en/story/story-bbea1fd9-9f8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-bbea1fd9-9f8</guid>
-<pubDate>Fri, 06 Nov 2026 08:00:24 +0800</pubDate>
-<description>&lt;p&gt;Thinking Machines 正式发布第二代模型 Inkling 2 Small，在 Artificial Analysis 智能指数 v5.0.1 上得分 31，较前代 Inkling Small 大幅提升 18 分，并与 Gemini 3.8 Flash (high) 持平。该模型采用稀疏混合专家（MoE）架构，总参数高达 594B，但每次推理仅激活 17B 参数，支持图像输入与可变推理强度，在保持高效计算的同时实现了显著的性能跃升。
-
-多方信源交叉验证显示，Inkling 2 Small 的进步主要源于预训练效率优化与大规模统一强化学习训练。其在智能体任务上提升尤为突出：AutomationBench-AA 从 5% 跃升至 46%，FrontierCode 2.0 从 5% 升至 25%，HLE-Diamond 从 12% 升至 29%。编码能力结构上，该模型与 Claude Sonnet 5.5 形成差异化竞争——FrontierCode 2.0 以 25% 对 11% 领先，但 Terminal-Bench 4.0 以 13% 对 30% 落后。定价方面，每百万输入/输出 token 分别为 0.30 美元和 1.00 美元，缓存输入仅 0.03 美元，极具竞争力。
-
-目前模型以闭源权重通过 Tinker 平台独家提供，官方计划在完成外部安全测试与红队评估后，于下周以 Apache 2.0 协议开放完整权重。若兑现，它将成为中国以外得分最高的开源权重模型，可能重塑开源 AI 竞争格局，并为开发者提供高性能、低成本的推理选择。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys), Hacker News AI&lt;/p&gt;</description>
 </item>
 <item><title>BOSS 直聘开源 33B 推理模型 Nanbeige4.3-33B，综合智能追平 Qwen3.8 27B</title><link>https://todayforai.com/en/story/story-9bb099f4-4b3</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9bb099f4-4b3</guid>
 <pubDate>Fri, 06 Nov 2026 03:52:48 +0800</pubDate>
