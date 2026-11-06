@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Fri, 06 Nov 2026 06:44:52 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 06 Nov 2026 07:22:55 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>腾讯混元 Hy4 发布 770B 参数并首次解锁视觉与电脑操作</title><link>https://todayforai.com/en/story/story-f4fb29ac-16b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f4fb29ac-16b</guid>
 <pubDate>Fri, 06 Nov 2026 04:21:43 +0800</pubDate>
@@ -19,13 +19,13 @@ Hy4 的发布标志着腾讯在大模型开源赛道迈出关键一步，其视�
 
 此次发布对视频生成赛道具有显著影响。15 秒时长与对话式编辑的结合，使 AI 视频从短片段演示迈向可用的规模化内容生产工具，而 30% 的降价进一步降低了开发者和企业的使用门槛。同时，多入口上线与 SynthID 水印的标配，也体现了谷歌在推动 AI 视频商业化与内容安全方面的平衡策略。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;The Decoder, Google DeepMind, Arena.ai (@arena), IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
-<item><title>OpenAI 发布 Images 2.6 实现 ChatGPT 原生生成 GIF</title><link>https://todayforai.com/en/story/story-56a44e50-483</link><guid isPermaLink="true">https://todayforai.com/en/story/story-56a44e50-483</guid>
-<pubDate>Thu, 05 Nov 2026 09:59:37 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 正式推出 Images 2.6 模型，标志着 ChatGPT 首次具备原生生成与编辑动画 GIF 的能力。这一更新不仅实现了从静态图像到动态内容的跨越，更将整体生成速度提升了 50%，低质量模式下最快仅需 6 秒即可出图，显著降低了用户等待成本。
+<item><title>OpenAI 发布 GPT-6 Cyber 安全模型，越界行为降至 1% 以下</title><link>https://todayforai.com/en/story/story-32972b05-1f7</link><guid isPermaLink="true">https://todayforai.com/en/story/story-32972b05-1f7</guid>
+<pubDate>Fri, 06 Nov 2026 07:22:55 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 正式发布专为网络安全研究设计的 GPT-6 Cyber 模型，该模型在漏洞挖掘与利用方面能力大幅超越前代，同时将越界行为率降至 1% 以下，标志着 AI 安全专用模型在能力与可控性上取得关键平衡。
 
-在技术细节上，Images 2.6 重点解决了早期模型在连续帧间角色一致性差、画面漂移严重的痛点，使得品牌角色动画和产品循环展示等简单动画具备实际可用性。用户可通过文本提示或上传图片直接生成 GIF，并在应用内自由调整播放速率及进行逐帧编辑。API 端同步上线了 GPT-Image-2.6 Flare（侧重速度与布局）和 Sunburst（侧重细节与一致性）两款模型，为开发者提供灵活选择。
+综合多方信源，GPT-6 Cyber 在真实软件测试中确认了 1724 个 Linux 内核漏洞，并为其中 948 个构建出可用攻击，数量超过前代 GPT-5.6 Sol 的五倍；它还发现了 81 个此前未知的 Firefox 高危漏洞，Mozilla 已修复多数。在 ExploitGym 基准上，其得分从 32.1% 提升至 48.5%，相对提升 51%。更关键的是，在模拟 Hugging Face 事件的 ExploitGym HoneyPot 评测中，越界行为率从上一代的约 5% 降至 1% 以下，任务遵从率超过 99%，对齐测试合规率达 99.93% 至 100%。OpenAI 将该模型的网络安全风险等级评为最高级 Critical，目前仅向获批的 Daybreak Red 客户开放 API 与 Codex 访问，数周内将扩展至全部客户。
 
-此次升级对内容创作生态产生深远影响。随着周均图像生成量突破 40 亿张，Images 2.6 进一步巩固了 OpenAI 在多模态领域的领先地位。对于营销人员和开发者而言，低成本、高效率的动态内容生成工具将极大简化工作流，推动短视频素材、UI 动效及社交媒体内容的自动化生产进程。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;The Verge AI, The Decoder, IT之家 · IT业界, Hacker News AI, OpenAI 官方博客, 宝玉 (@dotey)&lt;/p&gt;</description>
+这一发布对网络安全行业具有深远影响：一方面，AI 自主发现并利用漏洞的能力将极大提升防御方的效率，助力关键软件基础设施的安全加固；另一方面，攻击能力过强也引发滥用担忧，OpenAI 通过分级授权与严格对齐控制风险，为 AI 安全专用模型的商业化与监管提供了参考范式。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;The Verge AI, OpenAI 官方博客, The Decoder, Rohan Paul (@rohanpaul_ai), IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 <item><title>百度开源 280B 参数 ERNIE 5.5 Flash Base 基座模型，多项基准刷新同尺寸 SOTA</title><link>https://todayforai.com/en/story/story-5c028d15-ccb</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5c028d15-ccb</guid>
 <pubDate>Fri, 06 Nov 2026 01:56:41 +0800</pubDate>
@@ -35,13 +35,13 @@ Hy4 的发布标志着腾讯在大模型开源赛道迈出关键一步，其视�
 
 此次发布的是未经中训练与后训练的 Base 权重，定位为领域适配、指令微调与强化学习研究的共同起点，经过后训练的正式版本将随后推出。该模型主打 Agent 长任务链下的效率与成本平衡，为开发者提供了可二次开发的通用基座，有望推动大模型开源生态的进一步发展。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, 量子位官网, Hacker News AI, 机器之心 (微信公众号), The Decoder&lt;/p&gt;</description>
 </item>
-<item><title>OpenAI 发布 GPT-6 Cyber 安全模型，越界行为降至 1% 以下</title><link>https://todayforai.com/en/story/story-32972b05-1f7</link><guid isPermaLink="true">https://todayforai.com/en/story/story-32972b05-1f7</guid>
-<pubDate>Fri, 06 Nov 2026 06:27:59 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 正式发布专为网络安全研究设计的 GPT-6 Cyber 模型，该模型在漏洞挖掘与利用方面能力大幅超越前代，同时将越界行为率降至 1% 以下，标志着 AI 安全专用模型在能力与可控性上取得关键平衡。
+<item><title>OpenAI 发布 Images 2.6 实现 ChatGPT 原生生成 GIF</title><link>https://todayforai.com/en/story/story-56a44e50-483</link><guid isPermaLink="true">https://todayforai.com/en/story/story-56a44e50-483</guid>
+<pubDate>Thu, 05 Nov 2026 09:59:37 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 正式推出 Images 2.6 模型，标志着 ChatGPT 首次具备原生生成与编辑动画 GIF 的能力。这一更新不仅实现了从静态图像到动态内容的跨越，更将整体生成速度提升了 50%，低质量模式下最快仅需 6 秒即可出图，显著降低了用户等待成本。
 
-综合多方信源，GPT-6 Cyber 在真实软件测试中确认了 1724 个 Linux 内核漏洞，并为其中 948 个构建出可用攻击，数量超过前代 GPT-5.6 Sol 的五倍；它还发现了 81 个此前未知的 Firefox 高危漏洞，Mozilla 已修复多数。在 ExploitGym 基准上，其得分从 32.1% 提升至 48.5%，相对提升 51%。更关键的是，在模拟 Hugging Face 事件的 ExploitGym HoneyPot 评测中，越界行为率从上一代的约 5% 降至 1% 以下，任务遵从率超过 99%，对齐测试合规率达 99.93% 至 100%。OpenAI 将该模型的网络安全风险等级评为最高级 Critical，目前仅向获批的 Daybreak Red 客户开放 API 与 Codex 访问，数周内将扩展至全部客户。
+在技术细节上，Images 2.6 重点解决了早期模型在连续帧间角色一致性差、画面漂移严重的痛点，使得品牌角色动画和产品循环展示等简单动画具备实际可用性。用户可通过文本提示或上传图片直接生成 GIF，并在应用内自由调整播放速率及进行逐帧编辑。API 端同步上线了 GPT-Image-2.6 Flare（侧重速度与布局）和 Sunburst（侧重细节与一致性）两款模型，为开发者提供灵活选择。
 
-这一发布对网络安全行业具有深远影响：一方面，AI 自主发现并利用漏洞的能力将极大提升防御方的效率，助力关键软件基础设施的安全加固；另一方面，攻击能力过强也引发滥用担忧，OpenAI 通过分级授权与严格对齐控制风险，为 AI 安全专用模型的商业化与监管提供了参考范式。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;The Verge AI, OpenAI 官方博客, The Decoder, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
+此次升级对内容创作生态产生深远影响。随着周均图像生成量突破 40 亿张，Images 2.6 进一步巩固了 OpenAI 在多模态领域的领先地位。对于营销人员和开发者而言，低成本、高效率的动态内容生成工具将极大简化工作流，推动短视频素材、UI 动效及社交媒体内容的自动化生产进程。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;The Verge AI, The Decoder, IT之家 · IT业界, Hacker News AI, OpenAI 官方博客, 宝玉 (@dotey)&lt;/p&gt;</description>
 </item>
 <item><title>美国多地公投否决数据中心建设，AI 算力扩张遭遇政策逆风</title><link>https://todayforai.com/en/story/story-2f8ef443-ba4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2f8ef443-ba4</guid>
 <pubDate>Fri, 06 Nov 2026 04:25:10 +0800</pubDate>

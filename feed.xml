@@ -1,8 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Fri, 06 Nov 2026 06:47:30 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 06 Nov 2026 07:36:15 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>OpenAI Pledges Full Grid Costs and Public Data Disclosure for Owned Data Centers</title><link>https://x.com/rohanpaul_ai/status/2118487588571082829</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118487588571082829</guid>
+<pubDate>Fri, 06 Nov 2026 07:36:15 +0800</pubDate>
+<description>&lt;p&gt;OpenAI said every future data-center campus it owns will pay full electricity and grid costs, post financial guarantees if a project is cancelled, and publish water, power, noise and hiring figures while avoiding NDAs with officials. The move aims to defuse local backlash over bills, water use and secret deals that could slow permits and grid connections for its Stargate buildout, while pushing regulators to impose the same obligations on all developers.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 承诺自建数据中心全额承担电网成本并公开资源数据&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 算力扩张与地方资源矛盾的关键信号，直接影响数据中心选址、并网速度与行业成本规则。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 62/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2118487588571082829">Rohan Paul (@rohanpaul_ai)</source>
+<category>算力基础设施</category>
+<category>数据中心</category>
+<category>OpenAI</category>
+<category>能源监管</category>
+</item>
+<item><title>Nvidia Claims 30x Agent Throughput per Dollar with Only 3% More HBM</title><link>https://www.ithome.com/1/023/025.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/025.htm</guid>
+<pubDate>Fri, 06 Nov 2026 07:30:59 +0800</pubDate>
+<description>&lt;p&gt;Nvidia published a technical explainer arguing that a full-stack co-design approach can ease the HBM crunch and memory wall. Its stack combines NVFP4 low-precision compression, weight sharding across up to 72 GPUs in NVL72, LPDDR buffering on Vera CPUs, Dynamo context migration and CMX context storage to move inactive context off HBM. Citing the SemiAnalysis AgentX benchmark, Nvidia claims Vera Rubin NVL72 delivers up to 30x agent throughput per dollar versus GB300 NVL72 while HBM capacity per GPU grows only about 3%, signaling a shift from raw memory capacity to effective tokens per byte and per watt.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达全栈协同设计破解内存墙，HBM 仅增 3% 吞吐量提升 30 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是英伟达对 AI 内存瓶颈的系统性技术回应，涉及推理架构与基准数据，对关注算力成本与智能体部署的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/023/025.htm">IT之家 · 智能时代</source>
+<category>英伟达</category>
+<category>HBM</category>
+<category>推理优化</category>
+<category>智能体</category>
+<category>算力</category>
+</item>
+<item><title>OpenAI Unveils GPT-6 Cyber Security Model, Finds 81 New Firefox Vulnerabilities</title><link>https://www.ithome.com/1/023/038.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/038.htm</guid>
+<pubDate>Fri, 06 Nov 2026 07:22:55 +0800</pubDate>
+<description>&lt;p&gt;OpenAI launched GPT-6 Cyber, a security-focused model that scores 48.5% on the ExploitGym exploit benchmark, a roughly 51% relative gain over its predecessor. In practice it reproduced 1,724 Linux kernel vulnerabilities and uncovered 81 previously unknown high-severity flaws in Firefox, submitting evidence and candidate patches to Mozilla. OpenAI rates the model Critical under its Preparedness Framework and limits initial access to approved Daybreak Red customers.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 发布 GPT-6 Cyber 网安模型，在 Firefox 中发现 81 个新漏洞&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是前沿模型首次在真实开源项目中大规模发现并推动修复未知高危漏洞，标志着 AI 攻防能力进入新阶段。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 88/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/023/038.htm">IT之家 · 智能时代</source>
+<category>OpenAI</category>
+<category>网络安全</category>
+<category>大模型</category>
+<category>漏洞挖掘</category>
+</item>
+<item><title>Nvidia Benchmarks Vera CPU: 60% More Agents per Watt Than Fastest x86</title><link>https://www.ithome.com/1/023/029.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/029.htm</guid>
+<pubDate>Fri, 06 Nov 2026 07:09:42 +0800</pubDate>
+<description>&lt;p&gt;Nvidia published benchmark results for its Vera CPU on agentic workloads, claiming that in a 100 MW data center scenario it supports 1.6x more agents per watt than the fastest x86 CPU and delivers 2x agent speed versus the most efficient x86 part. Early partners including Perplexity, DeepInfra, ClickHouse, Daytona and Modal reported speedups in coding, orchestration and concurrent sandbox scenarios, reframing the CPU side as a scaling bottleneck for agent deployments.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达实测 Vera CPU：每瓦智能体吞吐较最快 x86 高 60%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是英伟达首次系统披露 Vera 在智能体负载上的能效与并发数据，直接关系数据中心电力预算与 CPU/GPU 配比决策。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/023/029.htm">IT之家 · 智能时代</source>
+<category>英伟达</category>
+<category>CPU</category>
+<category>智能体</category>
+<category>数据中心</category>
+<category>能效</category>
+</item>
 <item><title>Khosla Explains Skipping Anthropic to Stay Close to OpenAI</title><link>https://x.com/rohanpaul_ai/status/2118475321758580775</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118475321758580775</guid>
 <pubDate>Fri, 06 Nov 2026 06:47:30 +0800</pubDate>
 <description>&lt;p&gt;Investor Vinod Khosla said he deliberately avoided backing Anthropic and other OpenAI competitors to preserve close ties with OpenAI and gain deeper insight into where AI is heading. He argued that this inside view is worth more to him than the extra profits an Anthropic stake might have delivered.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Khosla 解释为何放弃投资 Anthropic：靠近 OpenAI 的信息价值更高&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是一条关于顶级投资人配置逻辑与 AI 竞争格局的口径表态，信息量有限但能反映资本站队现象。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 38/100&lt;/p&gt;</description>
@@ -181,18 +219,18 @@
 <category>网络安全</category>
 <category>漏洞挖掘</category>
 </item>
-<item><title>Half of Proposed US AI Data Center Projects Face Local Scrutiny After Democratic Midterm Wins</title><link>https://x.com/rohanpaul_ai/status/2118439500481429886</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118439500481429886</guid>
+<item><title>民主党中期选举获胜 半数美国 AI 数据中心项目面临地方审查</title><link>https://x.com/rohanpaul_ai/status/2118439500481429886</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118439500481429886</guid>
 <pubDate>Fri, 06 Nov 2026 04:25:10 +0800</pubDate>
-<description>&lt;p&gt;After Democrats won the House, Senate and key governorships, roughly half of proposed US AI data center additions could face tougher local scrutiny. Traditional safe havens like Texas and Ohio may halt construction pending assurances on water and electricity prices; Meta&amp;#x27;s president said hyperscalers are now weighing building outside the US, while OpenAI quickly pledged to avoid NDAs and shield residents from power costs.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;民主党中期选举获胜 半数美国 AI 数据中心项目面临地方审查&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;政治格局变化直接冲击 AI 算力基建的落地节奏，是算力与产业交叉的重要信号。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;民主党赢得众议院、参议院及多个关键州长席位后，约半数拟建的美国 AI 数据中心项目可能遭遇更严格的地方审查。得克萨斯与俄亥俄等传统友好州可能因水资源与电价保障问题暂停施工，Meta 高管称超大规模厂商正考虑将建设转向海外，OpenAI 则迅速承诺避免保密协议并承担电力成本。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;政治格局变化直接冲击 AI 算力基建的落地节奏，是算力与产业交叉的重要信号。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2118439500481429886">Rohan Paul (@rohanpaul_ai)</source>
 <category>数据中心</category>
 <category>算力基建</category>
 <category>美国政策</category>
 <category>OpenAI</category>
 </item>
-<item><title>Tencent Unveils Hy4 Open-Source LLM with Vision and Computer-Use Capabilities</title><link>https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/</link><guid isPermaLink="true">https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/</guid>
+<item><title>腾讯发布 Hy4 开源大模型 首次支持视觉理解与电脑操作</title><link>https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/</link><guid isPermaLink="true">https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/</guid>
 <pubDate>Fri, 06 Nov 2026 04:21:43 +0800</pubDate>
-<description>&lt;p&gt;Tencent announced Hy4, its latest open-source large language model, claiming performance that ranks among the world&amp;#x27;s leading open models. Hy4 adds visual understanding and computer-use capabilities for the first time, alongside gains in instruction following, long-context comprehension and long-horizon agentic tasks. Model weights and system cards are slated for release in the coming days, with Tencent emphasizing responsible open-source development around cybersecurity and biological safety.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;腾讯发布 Hy4 开源大模型 首次支持视觉理解与电脑操作&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部厂商开源旗舰模型并首次补齐视觉与电脑操作能力，是开源大模型竞争格局中的重要节点。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;腾讯发布新一代开源大模型 Hy4，官方称其性能已跻身全球领先开源模型行列，并首次引入视觉理解与电脑操作能力，在指令遵循、长上下文理解与长程智能体任务上均有明显提升。模型权重与系统卡将在数日内开放，腾讯同时强调网络安全与生物安全方向的责任开源承诺。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部厂商开源旗舰模型并首次补齐视觉与电脑操作能力，是开源大模型竞争格局中的重要节点。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/">Hacker News AI</source>
 <category>大模型</category>
 <category>腾讯</category>
@@ -200,25 +238,25 @@
 <category>多模态</category>
 <category>智能体</category>
 </item>
-<item><title>LangChain Proposes Async Subagents to Let Agents Run Long Tasks in Background</title><link>https://www.langchain.com/blog/agents-are-going-async</link><guid isPermaLink="true">https://www.langchain.com/blog/agents-are-going-async</guid>
+<item><title>LangChain 提出异步子智能体架构 让智能体后台并行处理长任务</title><link>https://www.langchain.com/blog/agents-are-going-async</link><guid isPermaLink="true">https://www.langchain.com/blog/agents-are-going-async</guid>
 <pubDate>Fri, 06 Nov 2026 04:03:27 +0800</pubDate>
-<description>&lt;p&gt;LangChain introduces an async subagent architecture that splits an agent into an always-responsive orchestrator and background subagents that execute long tasks and report back on completion. The post argues background execution is becoming the norm for agent infrastructure and ships an open-source Python/TypeScript reference implementation with researcher and coder subagents.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;LangChain 提出异步子智能体架构 让智能体后台并行处理长任务&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自 LangChain 的架构观点与可运行开源实现，对构建长任务智能体的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;LangChain Blog · agent · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;LangChain 提出“异步子智能体”架构：将智能体拆分为始终对用户保持响应的编排器，以及后台执行长任务并在完成后回报的子智能体。文章指出后台化正成为智能体基础设施的常态，并开源了含研究员与编码子智能体的 Python/TypeScript 参考实现。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自 LangChain 的架构观点与可运行开源实现，对构建长任务智能体的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;LangChain Blog · agent · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.langchain.com/blog/agents-are-going-async">LangChain Blog</source>
 <category>智能体</category>
 <category>LangChain</category>
 <category>开源</category>
 </item>
-<item><title>TinyFish Launches Two Web Research Agents for Deep Q&amp;A and Bulk Spreadsheets</title><link>https://x.com/rohanpaul_ai/status/2118433586420552085</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118433586420552085</guid>
+<item><title>TinyFish 推出两款网页研究智能体 分攻深度问答与批量建表</title><link>https://x.com/rohanpaul_ai/status/2118433586420552085</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118433586420552085</guid>
 <pubDate>Fri, 06 Nov 2026 04:01:40 +0800</pubDate>
-<description>&lt;p&gt;TinyFish released two web research agents: TinyResearch produces a cited report for a single hard question, while TinySet assembles a spreadsheet from facts scattered across hundreds of sites. The pitch is to split deep digging and wide scanning into two distinct agent shapes rather than one generalist. Public details so far are positioning-level, without verifiable metrics on accuracy or coverage.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;TinyFish 推出两款网页研究智能体 分攻深度问答与批量建表&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;代表了智能体产品化中“按任务形态拆分”的一种设计取向，值得关注但尚缺硬指标。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;TinyFish 发布 TinyResearch 与 TinySet 两款网页研究智能体：前者针对单一难题产出带引用的报告，后者从数百个站点汇总事实生成表格。其核心主张是把“深挖”与“广扫”拆成两种形态，而非让单一智能体兼顾两者。目前公开信息以产品定位为主，缺少任务成功率、覆盖规模等可验证指标。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;代表了智能体产品化中“按任务形态拆分”的一种设计取向，值得关注但尚缺硬指标。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 42/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2118433586420552085">Rohan Paul (@rohanpaul_ai)</source>
 <category>智能体</category>
 <category>网页研究</category>
 <category>产品发布</category>
 </item>
-<item><title>NVIDIA Unveils Vera CPU Targeting Agent Throughput and Power Efficiency</title><link>https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/</link><guid isPermaLink="true">https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/</guid>
+<item><title>NVIDIA 发布 Vera CPU 主打智能体高吞吐与低功耗</title><link>https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/</link><guid isPermaLink="true">https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/</guid>
 <pubDate>Fri, 06 Nov 2026 04:00:41 +0800</pubDate>
-<description>&lt;p&gt;NVIDIA introduced Vera, a CPU aimed at AI agent workloads, claiming a single chip outperforms both the fastest and the most energy-efficient x86 CPUs in a 100-megawatt data center comparison. NVIDIA reports lower agent latency than x86, while Modal measured up to 2x sandbox throughput per core. The pitch is one CPU balancing speed and capacity under power constraints.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;NVIDIA 发布 Vera CPU 主打智能体高吞吐与低功耗&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 NVIDIA 首次以官方数据正面切入智能体 CPU 赛道，对算力选型有直接参考价值。&lt;/p&gt;&lt;p&gt;NVIDIA Blog · compute · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;NVIDIA 推出面向 AI 智能体的 Vera CPU，宣称在 100 兆瓦数据中心对比中，单颗芯片同时优于最快的 x86 CPU 与最节能的 x86 方案。官方数据称其智能体执行延迟显著低于 x86，Modal 实测沙箱吞吐每核最高提升 2 倍。核心卖点是在功耗受限下用一颗 CPU 兼顾速度与并发容量。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 NVIDIA 首次以官方数据正面切入智能体 CPU 赛道，对算力选型有直接参考价值。&lt;/p&gt;&lt;p&gt;NVIDIA Blog · compute · signal 58/100&lt;/p&gt;</description>
 <source url="https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/">NVIDIA Blog</source>
 <category>NVIDIA</category>
 <category>CPU</category>
@@ -232,40 +270,6 @@
 <category>智能体</category>
 <category>逆向工程</category>
 <category>提示词工程</category>
-</item>
-<item><title>Meta 向全美用户开放 Muse AI 虚拟形象视频通话</title><link>https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/</guid>
-<pubDate>Fri, 06 Nov 2026 03:48:28 +0800</pubDate>
-<description>&lt;p&gt;Meta 宣布 Muse Voice 功能面向全美用户开放，用户可通过手机、网页和 Mac 与带卡通形象的 Muse 智能体进行实时语音与视频对话。该功能依托 Muse Realtime Avatar 与 Muse Realtime Voice 两套新模型，并计划后续扩展至 AI 眼镜与 Muse Charm 硬件。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是消费级 AI 智能体在实时多模态交互形态上的一次规模化落地，值得关注其产品化路径。&lt;/p&gt;&lt;p&gt;TechCrunch AI · agent · signal 58/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/">TechCrunch AI</source>
-<category>智能体</category>
-<category>Meta</category>
-<category>多模态交互</category>
-</item>
-<item><title>NVIDIA 开源 Cosmos 3 世界模型 支持交互式仿真</title><link>https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation</link><guid isPermaLink="true">https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation</guid>
-<pubDate>Fri, 06 Nov 2026 03:35:16 +0800</pubDate>
-<description>&lt;p&gt;NVIDIA 在 Hugging Face 发布 Cosmos 3 系列开源世界模型，面向交互式世界仿真场景，并同步开放模型检查点与示例集合。该系列延续 Cosmos 世界基础模型路线，将物理世界建模能力开放给开发者，可用于机器人与自动驾驶等仿真数据生成。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部厂商开源世界模型并配套检查点，直接影响仿真数据与具身智能研发路径。&lt;/p&gt;&lt;p&gt;Hugging Face Blog · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation">Hugging Face Blog</source>
-<category>世界模型</category>
-<category>NVIDIA</category>
-<category>开源</category>
-<category>仿真</category>
-</item>
-<item><title>Pangram 发布 Image 1.0 支持 AI 图像与视频检测</title><link>https://www.pangram.com/blog/introducing-pangram-image-1-0</link><guid isPermaLink="true">https://www.pangram.com/blog/introducing-pangram-image-1-0</guid>
-<pubDate>Fri, 06 Nov 2026 03:27:52 +0800</pubDate>
-<description>&lt;p&gt;Pangram 正式发布 Image 1.0，宣称在 AI 图像与 AI 视频检测上达到当前最优水平，并新增热力图定位图像中 AI 生成区域的能力，同时推出更小更快的 Flash 1.0 版本。该模型强调对编辑、压缩与低分辨率的鲁棒性，面向内容真实性与溯源场景。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 生成内容检测是内容真实性的关键环节，新版本加入热力图定位与视频检测，对关注 AI 内容溯源的读者有实用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.pangram.com/blog/introducing-pangram-image-1-0">Hacker News AI</source>
-<category>AI 检测</category>
-<category>内容溯源</category>
-<category>图像生成</category>
-</item>
-<item><title>OpenRouter 修复 Crouton Alpha 智能体中途停止的缺陷</title><link>https://x.com/OpenRouter/status/2118424572894818689</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2118424572894818689</guid>
-<pubDate>Fri, 06 Nov 2026 03:25:51 +0800</pubDate>
-<description>&lt;p&gt;OpenRouter 修复了隐身推理模型 Crouton Alpha 的一个缺陷：该缺陷会导致智能体在工具调用前提前终止，现在智能体可以完整跑完任务。该模型此前已公布免费使用、100 万 token 上下文、支持文本、图像、音频与视频输入，且不将用户数据用于训练。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是一次针对智能体执行中断的常规缺陷修复，对正在试用该隐身模型的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · llm · signal 38/100&lt;/p&gt;</description>
-<source url="https://x.com/OpenRouter/status/2118424572894818689">OpenRouter (@OpenRouter)</source>
-<category>OpenRouter</category>
-<category>推理模型</category>
-<category>智能体</category>
-<category>缺陷修复</category>
 </item>
 </channel>
 </rss>
