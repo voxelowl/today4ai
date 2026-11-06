@@ -1,8 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 07 Nov 2026 03:18:06 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 07 Nov 2026 04:02:22 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Data Center Expansion Backlash Intensifies After US Midterms</title><link>https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy</guid>
+<pubDate>Sat, 07 Nov 2026 04:02:22 +0800</pubDate>
+<description>&lt;p&gt;AI data center expansion has become a bipartisan political issue in the US, with voters largely opposing local projects in the 2026 midterms. After the election, Democratic leaders are pushing for further restrictions while OpenAI and Amazon pledge community engagement and energy cost coverage.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美国中期选举后数据中心扩张争议升温&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;数据中心扩张的政治阻力正在成为影响 AI 算力供给节奏的现实变量，值得算力与产业读者关注。&lt;/p&gt;&lt;p&gt;The Verge AI · compute · signal 38/100&lt;/p&gt;</description>
+<source url="https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy">The Verge AI</source>
+<category>数据中心</category>
+<category>算力基础设施</category>
+<category>AI 政策</category>
+</item>
+<item><title>Ricursive Releases Ripple-65B Preview, an Apache 2.0 Open Model with Strong Agentic Coding</title><link>https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/</link><guid isPermaLink="true">https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/</guid>
+<pubDate>Sat, 07 Nov 2026 03:47:04 +0800</pubDate>
+<description>&lt;p&gt;AI chip design firm Ricursive Intelligence has released Ripple-65B Preview, an Apache 2.0 open model pretrained on 12 trillion tokens using a dense 65B Transformer rather than a mixture-of-experts design. It scores 80.52 on TerminalBench 2.1, the best among open US models, though it trails the newly released Inkling 2 Small on other benchmarks; Ricursive puts total R&amp;amp;D and training cost at just $32 million.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Ricursive 发布 Ripple-65B Preview 开源模型 智能体编程表现亮眼&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;一款美国团队以 Apache 2.0 完全开源、成本仅 3200 万美元的 65B 稠密模型，在智能体编程基准上刷新美国开源纪录，对关注开源模型格局的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 74/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/">The Decoder</source>
+<category>大模型</category>
+<category>开源</category>
+<category>智能体编程</category>
+<category>Ricursive</category>
+</item>
+<item><title>Firecracker VM Escape Flaw Grants Host Root Access from Guest</title><link>https://pwn.ai/blog/firecracker-escape</link><guid isPermaLink="true">https://pwn.ai/blog/firecracker-escape</guid>
+<pubDate>Sat, 07 Nov 2026 03:33:38 +0800</pubDate>
+<description>&lt;p&gt;Researchers disclosed a Firecracker microVM escape exploit chain (CVE-2026-99999) that lets an attacker inside the guest locate the host-side Firecracker thread, tamper with saved registers and the KVM return address, and achieve root code execution on the host while the VM keeps running and stays reachable over SSH. It builds on the host memory primitive from Part 1 and ships a PoC tool with validation and dry-run modes.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Firecracker 曝出虚拟机逃逸漏洞 可从客户机获取宿主机 root 权限&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是云原生多租户隔离底座 Firecracker 的完整逃逸链，直接影响以 microVM 做安全边界的平台。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 58/100&lt;/p&gt;</description>
+<source url="https://pwn.ai/blog/firecracker-escape">Hacker News AI</source>
+<category>Firecracker</category>
+<category>虚拟机逃逸</category>
+<category>云安全</category>
+<category>KVM</category>
+</item>
 <item><title>OpenAI CFO Says Midterm Results Won&#x27;t Alter Data Center Expansion Plans</title><link>https://x.com/rohanpaul_ai/status/2118785013168943129</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118785013168943129</guid>
 <pubDate>Sat, 07 Nov 2026 03:18:06 +0800</pubDate>
 <description>&lt;p&gt;OpenAI CFO Sarah Friar said the midterm election results did not significantly change the company&amp;#x27;s plans, as investment must keep pace with customer demand and is funded through hyperscaler partnerships and fresh capital. In response to backlash, OpenAI pledged to seek community input, publish construction plans, avoid NDAs with public officials and pay full power costs, but only for data centers it owns and operates.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI CFO 回应中期选举结果 数据中心扩张计划不变&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 OpenAI 数据中心扩张与社区关系策略的表态，属产业动态但缺乏具体参数与新事实，注意力价值有限。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 38/100&lt;/p&gt;</description>
@@ -193,18 +219,18 @@
 <category>行业批评</category>
 <category>商业化</category>
 </item>
-<item><title>Artificial Analysis Launches VIALS-AA Visual Reasoning Leaderboard, Gemini 4 Leads</title><link>https://x.com/ArtificialAnlys/status/2118752670030700953</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2118752670030700953</guid>
+<item><title>Artificial Analysis 推出 VIALS-AA 视觉推理榜单，Gemini 4 领先</title><link>https://x.com/ArtificialAnlys/status/2118752670030700953</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2118752670030700953</guid>
 <pubDate>Sat, 07 Nov 2026 01:09:35 +0800</pubDate>
-<description>&lt;p&gt;Artificial Analysis launched VIALS-AA, a leaderboard built on Handshake AI&amp;#x27;s VIALS benchmark, evaluating frontier models on 161 life-science visual reasoning tasks. Gemini 4 Carbon leads narrowly at 64% pass^3, followed by GPT-6 Astra at 63% and Claude Opus 5.5 at 61%, a 3-point spread. Refusals on several tasks show scientific artifact interpretation remains a clear weakness for frontier models.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Artificial Analysis 推出 VIALS-AA 视觉推理榜单，Gemini 4 领先&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个针对生命科学视觉推理的第三方独立榜单，给出可复现的 pass^3 口径与头部模型排名，对关注模型能力边界的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Artificial Analysis 基于 Handshake AI 的 VIALS 基准推出 VIALS-AA 榜单，用 161 项生命科学与生物技术视觉推理任务评测前沿模型。Gemini 4 Carbon 以 64% 的 pass^3 成绩微弱领先，GPT-6 Astra 与 Claude Opus 5.5 分别以 63% 和 61% 紧随其后，前三名仅差 3 分。评测还发现模型在部分任务上出现拒答，说明科学图像解读仍是前沿模型的明显短板。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个针对生命科学视觉推理的第三方独立榜单，给出可复现的 pass^3 口径与头部模型排名，对关注模型能力边界的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 72/100&lt;/p&gt;</description>
 <source url="https://x.com/ArtificialAnlys/status/2118752670030700953">Artificial Analysis (@ArtificialAnlys)</source>
 <category>基准评测</category>
 <category>视觉推理</category>
 <category>Artificial Analysis</category>
 <category>生命科学</category>
 </item>
-<item><title>AWS and Okta Scale Cross-App Access Governance for AI Agents</title><link>https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-2/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-2/</guid>
+<item><title>AWS 与 Okta 扩展 AI 智能体跨应用访问治理方案</title><link>https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-2/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-2/</guid>
 <pubDate>Sat, 07 Nov 2026 01:09:23 +0800</pubDate>
-<description>&lt;p&gt;AWS published Part 2 of its series on governing AI agent access using Okta Cross App Access with Amazon Bedrock AgentCore. The post moves from Part 1&amp;#x27;s single-agent, two-MCP-server proof of concept to a topology that supports hundreds of agents and thousands of tools, shifting authorization checks out of individual MCP servers into a centralized gateway.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS 与 Okta 扩展 AI 智能体跨应用访问治理方案&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向企业智能体规模化落地的身份与授权治理实践，对构建多智能体系统的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;AWS 发布系列文章第二部分，介绍如何用 Okta Cross App Access 配合 Amazon Bedrock AgentCore 治理大规模 AI 智能体访问。方案将 Part 1 中单智能体、双 MCP 服务器的验证性拓扑，升级为可支撑数百智能体与数千工具的架构，核心是把授权检查从各 MCP 服务器内嵌逻辑上移到统一网关。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向企业智能体规模化落地的身份与授权治理实践，对构建多智能体系统的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 38/100&lt;/p&gt;</description>
 <source url="https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-2/">AWS Machine Learning Blog</source>
 <category>智能体</category>
 <category>AWS</category>
@@ -212,9 +238,9 @@
 <category>身份授权</category>
 <category>MCP</category>
 </item>
-<item><title>Okta and Amazon Bedrock Team Up to Govern AI Agent Cross-App Access</title><link>https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-1/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-1/</guid>
+<item><title>Okta 联合亚马逊 Bedrock 推出智能体跨应用访问管控</title><link>https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-1/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-1/</guid>
 <pubDate>Sat, 07 Nov 2026 01:09:18 +0800</pubDate>
-<description>&lt;p&gt;Okta and Amazon Bedrock AgentCore introduced a Cross App Access (XAA) approach that centralizes control of AI agents acting on behalf of users within the identity provider. Administrators register agents in Okta and approve reachable applications, with Okta evaluating policy on each request; in tests, revoked user assignments blocked new requests within about one second and issued tokens expired within five minutes.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Okta 联合亚马逊 Bedrock 推出智能体跨应用访问管控&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该方案针对智能体代表用户访问应用时的授权治理难题，给出了可验证的实时撤销机制，对企业身份安全团队有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Okta 与亚马逊 Bedrock AgentCore 联合推出跨应用访问（XAA）方案，在身份提供商侧集中管控 AI 智能体代表用户访问应用的行为。管理员在 Okta 注册智能体并审批其可访问的应用，Okta 在每次请求时实时评估策略；测试中撤销用户授权后约 1 秒内拒绝新请求，已签发令牌在 5 分钟内失效。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该方案针对智能体代表用户访问应用时的授权治理难题，给出了可验证的实时撤销机制，对企业身份安全团队有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 58/100&lt;/p&gt;</description>
 <source url="https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-1/">AWS Machine Learning Blog</source>
 <category>智能体</category>
 <category>身份安全</category>
@@ -238,33 +264,6 @@
 <category>Python</category>
 <category>面试练习</category>
 <category>开源</category>
-</item>
-<item><title>Greenlight 基于 Amazon Bedrock AgentCore 构建自主安全运营智能体</title><link>https://aws.amazon.com/blogs/machine-learning/how-greenlight-financial-built-an-autonomous-soc-solution-on-amazon-bedrock-agentcore/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/how-greenlight-financial-built-an-autonomous-soc-solution-on-amazon-bedrock-agentcore/</guid>
-<pubDate>Sat, 07 Nov 2026 00:55:05 +0800</pubDate>
-<description>&lt;p&gt;Greenlight Financial 在 Amazon Bedrock AgentCore 上构建了名为 Luna 的多层级智能体系统，每月自动处理最多 4000 起安全与风险事件中的 90% 以上，无需人工介入。系统采用监督者架构与 30 余个专用智能体，并借助 AgentCore 的运行时与情景记忆能力实现持续学习，从安全运营扩展至金融风险研判。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是厂商绑定的客户案例，缺少可复用的方法细节，但对多智能体安全运营架构仍有参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 38/100&lt;/p&gt;</description>
-<source url="https://aws.amazon.com/blogs/machine-learning/how-greenlight-financial-built-an-autonomous-soc-solution-on-amazon-bedrock-agentcore/">AWS Machine Learning Blog</source>
-<category>智能体</category>
-<category>安全运营</category>
-<category>Amazon Bedrock</category>
-<category>多智能体系统</category>
-</item>
-<item><title>英伟达要求台积电成为第四家先进内存供应商</title><link>https://x.com/rohanpaul_ai/status/2118748091792949625</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118748091792949625</guid>
-<pubDate>Sat, 07 Nov 2026 00:51:24 +0800</pubDate>
-<description>&lt;p&gt;英伟达据报已要求台积电成为其第四家先进内存供应商，台积电已开始起草 3D DRAM 制造计划。此举意在打破三星、SK 海力士、美光三家垄断，增加供给并压低议价能力，同时延续此前要求三家厂商采用台积电 3nm 工艺生产定制 HBM 基础裸片的策略。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 内存短缺正重塑算力供应链格局，英伟达主动扶持第四供应商是影响 HBM 与 DRAM 定价权的关键产业动向。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 72/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2118748091792949625">Rohan Paul (@rohanpaul_ai)</source>
-<category>英伟达</category>
-<category>台积电</category>
-<category>HBM</category>
-<category>算力供应链</category>
-</item>
-<item><title>Taxbit 在 Amazon Bedrock AgentCore 上构建角色感知合规 AI 助手</title><link>https://aws.amazon.com/blogs/machine-learning/taxbit-assist-a-grounded-role-aware-ai-agent-on-amazon-bedrock-agentcore/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/taxbit-assist-a-grounded-role-aware-ai-agent-on-amazon-bedrock-agentcore/</guid>
-<pubDate>Sat, 07 Nov 2026 00:49:42 +0800</pubDate>
-<description>&lt;p&gt;Taxbit 在 Amazon Bedrock AgentCore 上构建了嵌入式 AI 助手 Taxbit Assist，通过检索增强与权限感知机制，为合规团队提供带引用的产品内问答。官方数据显示，超过 55% 的提问用户会在 24 小时内再次使用。该案例展示了基于托管 Agent 平台、知识库与护栏构建企业级垂直助手的工程路径。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是一篇厂商绑定的客户案例，缺少可复用的具体参数与方法细节，但对构建企业级权限感知 Agent 有参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 38/100&lt;/p&gt;</description>
-<source url="https://aws.amazon.com/blogs/machine-learning/taxbit-assist-a-grounded-role-aware-ai-agent-on-amazon-bedrock-agentcore/">AWS Machine Learning Blog</source>
-<category>智能体</category>
-<category>Amazon Bedrock</category>
-<category>企业合规</category>
-<category>检索增强生成</category>
 </item>
 </channel>
 </rss>
