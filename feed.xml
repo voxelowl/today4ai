@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 07 Nov 2026 00:47:28 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 07 Nov 2026 01:13:12 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Nilay Patel Criticizes AI Industry: Products Not Good Enough to Justify Costs</title><link>https://simonwillison.net/2026/Nov/6/nilay-patel/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/6/nilay-patel/</guid>
+<pubDate>Sat, 07 Nov 2026 01:13:12 +0800</pubDate>
+<description>&lt;p&gt;The Verge editor Nilay Patel argues on The Vergecast that AI products do not yet deliver enough value to justify their infrastructure and social costs, that agents remain largely unreal, and that industry spending far exceeds revenue. He contends the AI industry cannot escape its credibility and business problems until products visibly improve users&amp;#x27; lives without needing persuasion.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Nilay Patel 批评 AI 行业：产品价值不足，成本与收益严重失衡&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是一条来自主流科技媒体主编的尖锐行业批评，直指 AI 商业化与产品价值的核心矛盾，适合关注 AI 产业走向的读者。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://simonwillison.net/2026/Nov/6/nilay-patel/">Simon Willison 博客</source>
+<category>AI 产业</category>
+<category>行业批评</category>
+<category>商业化</category>
+</item>
 <item><title>Perplexity Launches Always-On Teammates Agents for Ongoing Work</title><link>https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent/</link><guid isPermaLink="true">https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent/</guid>
 <pubDate>Sat, 07 Nov 2026 00:47:28 +0800</pubDate>
 <description>&lt;p&gt;Perplexity launched Teammates, always-on AI agents that each run on a dedicated virtual machine with a desktop and browser, independently advancing ongoing projects while users track progress via app threads or Slack. The move puts Perplexity alongside SpaceX, Meta, OpenAI and Anthropic in the always-on agent race, with its annualized revenue topping $750 million as of August.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Perplexity 推出常驻 AI 智能体 Teammates 独立推进长期项目&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;常驻智能体是当前头部厂商竞相布局的关键形态，该产品明确了虚拟机隔离与多入口交互的实现方式，值得关注。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 72/100&lt;/p&gt;</description>
@@ -18,6 +26,15 @@
 <category>AI 编程</category>
 <category>开源硬件</category>
 <category>音乐科技</category>
+</item>
+<item><title>Rune Open-Sources Native GPU-Rendered Rust UI Framework with Headless Agent Control</title><link>https://github.com/anomalyco/rune</link><guid isPermaLink="true">https://github.com/anomalyco/rune</guid>
+<pubDate>Sat, 07 Nov 2026 00:31:32 +0800</pubDate>
+<description>&lt;p&gt;Rune is a Rust UI framework with native GPU rendering across macOS, Windows, Linux and the web, shipping its own renderer, text stack, layout engine and spring animations. Its differentiator is that every app can run headless, letting an agent render PNGs, dump the element tree and drive scripted input for automated verification. The project is pre-release and requires pinning a commit on the dev branch.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Rune 开源原生 GPU 渲染 Rust UI 框架 支持无头运行供 Agent 驱动&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向 Agent 可验证性的原生 Rust UI 框架，为 AI 编码代理提供无头渲染与脚本化交互能力，值得工具链读者关注。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://github.com/anomalyco/rune">Hacker News AI</source>
+<category>Rust</category>
+<category>UI 框架</category>
+<category>Agent</category>
+<category>开源</category>
 </item>
 <item><title>NVIDIA Open Source 6G Tools Surpass 1 Million Downloads, Adoption Grows 10x</title><link>https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/</link><guid isPermaLink="true">https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/</guid>
 <pubDate>Sat, 07 Nov 2026 00:00:35 +0800</pubDate>
@@ -196,17 +213,17 @@
 <category>半导体</category>
 <category>AI 算力</category>
 </item>
-<item><title>Underdog Unveils 32MB Speech Model Woof That Runs in Browser</title><link>https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/</guid>
+<item><title>Underdog 推出 32MB 语音模型 Woof 可在浏览器运行</title><link>https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/</guid>
 <pubDate>Fri, 06 Nov 2026 21:02:16 +0800</pubDate>
-<description>&lt;p&gt;Underdog released Woof, a text-to-speech model just 31.7MB in size, demoed through a browser-playable game that runs entirely on-device as a jab at cloud-based models. The startup also teased a 27-billion-parameter model that runs on laptops and a waitlisted locally hosted app.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Underdog 推出 32MB 语音模型 Woof 可在浏览器运行&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;端侧超小语音模型是边缘 AI 的重要方向，但演示以游戏为主、缺乏基准与参数细节，值得关注而非重点跟进。&lt;/p&gt;&lt;p&gt;TechCrunch AI · llm · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Underdog 发布仅 31.7MB 的文本转语音模型 Woof，并以其为核心做了一款可在浏览器直接运行的小游戏作为演示，主打端侧本地推理、对标云端方案。该公司同时透露一款可在笔记本上运行的 270 亿参数模型及本地化应用。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;端侧超小语音模型是边缘 AI 的重要方向，但演示以游戏为主、缺乏基准与参数细节，值得关注而非重点跟进。&lt;/p&gt;&lt;p&gt;TechCrunch AI · llm · signal 58/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/">TechCrunch AI</source>
 <category>端侧模型</category>
 <category>语音合成</category>
 <category>Underdog</category>
 </item>
-<item><title>Physicl Raises $10M Seed to Build Realistic Simulation Data for Robots</title><link>https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/</guid>
+<item><title>Physicl 获 1000 万美元种子轮 用高保真仿真为机器人造训练数据</title><link>https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/</guid>
 <pubDate>Fri, 06 Nov 2026 21:00:00 +0800</pubDate>
-<description>&lt;p&gt;Alex de Vigan, former founder of 3D commerce startup nfinite, has launched Physicl with a $10M seed round from Inovia Capital, repurposing his team&amp;#x27;s 3D rendering stack to supply high-fidelity simulated environments for world-model and robotics developers. The pitch centers on generating synthetic training data on the fly based on the model&amp;#x27;s current training state, addressing data bottlenecks in physical AI tasks such as manipulating diverse small objects. The company remains early-stage with no published benchmarks or model details.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Physicl 获 1000 万美元种子轮 用高保真仿真为机器人造训练数据&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;机器人仿真训练数据是物理 AI 的关键瓶颈，该融资透露了合成数据按需生成这一方向，但尚无技术细节与量化结果。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;前 nfinite 创始人 Alex de Vigan 创立 Physicl，获 Inovia Capital 1000 万美元种子轮融资，将其 3D 渲染技术栈转向为世界模型与机器人开发者提供高保真仿真训练环境。其核心卖点是根据训练状态按需自动生成合成数据，缓解物理 AI 在操作多样小物体等任务上的数据瓶颈。目前公司仍处早期，尚无公开的模型参数或量化效果数据。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;机器人仿真训练数据是物理 AI 的关键瓶颈，该融资透露了合成数据按需生成这一方向，但尚无技术细节与量化结果。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 42/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/">TechCrunch AI</source>
 <category>机器人</category>
 <category>合成数据</category>
@@ -247,23 +264,6 @@
 <category>大模型</category>
 <category>Thinking Machines</category>
 <category>模型发布</category>
-</item>
-<item><title>Airbnb 计划 2027 年推出旅行规划 AI 智能体</title><link>https://www.ithome.com/1/023/498.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/498.htm</guid>
-<pubDate>Fri, 06 Nov 2026 18:21:42 +0800</pubDate>
-<description>&lt;p&gt;Airbnb 在 2026 财年第三季度财报中透露，正开发一款不采用传统聊天窗口的 AI 智能体，通过调用地图、照片、日历等数百种旅行专用界面元素实时组合行程，计划 2027 年推出并直接引导预订。目前尚无模型、参数或评测细节，仅披露第三季度约 40% 客服请求已由 AI 自动解决。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大厂智能体产品路线图的早期信号，但缺乏技术细节与可验证内容，仅值得轻度关注。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 42/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/023/498.htm">IT之家 · 智能时代</source>
-<category>智能体</category>
-<category>Airbnb</category>
-<category>旅行规划</category>
-</item>
-<item><title>智元发布灵犀 X2 焕新版机器人 主打导览零售场景</title><link>https://www.ithome.com/1/023/497.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/497.htm</guid>
-<pubDate>Fri, 06 Nov 2026 18:09:21 +0800</pubDate>
-<description>&lt;p&gt;智元发布灵犀 X2 焕新版人形机器人，本体 31 个自由度、选配灵巧手后达 47 个，膝关节峰值扭矩 120Nm，电池约 500Wh，支持 UWB、Wi-Fi、4G/5G、蓝牙与 GPS 多模连接。产品定位展馆文旅、导览导购、服务零售与文娱商演等商用场景，同时面向科研教育与数据采集。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是人形机器人商用化落地的硬件迭代，参数明确但缺少智能能力与自主性细节，对关注具身智能的读者有中等参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/023/497.htm">IT之家 · 智能时代</source>
-<category>机器人</category>
-<category>具身智能</category>
-<category>智元</category>
-<category>人形机器人</category>
 </item>
 </channel>
 </rss>
