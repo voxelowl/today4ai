@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Fri, 06 Nov 2026 09:53:48 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 06 Nov 2026 10:36:57 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>腾讯混元 Hy4 发布 770B 参数并首次解锁视觉与电脑操作</title><link>https://todayforai.com/en/story/story-f4fb29ac-16b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f4fb29ac-16b</guid>
 <pubDate>Fri, 06 Nov 2026 04:21:43 +0800</pubDate>
@@ -10,6 +10,14 @@
 综合多方信源，Hy4 相比预览版大幅扩展了预训练与后训练规模，在指令遵循、长上下文理解、长程任务与深度研究等维度显著提升。视觉能力支持细粒度图像处理、复杂图表分析与数学视觉推理；电脑操作可结合命令行与图形界面执行跨应用长程任务，并针对 Blender、CAD 等专业软件做了专项训练。第三方评测显示，Hy4 在 Artificial Analysis 智能指数上得分 35，与 Grok 4.7 持平，位列中国实验室模型第二；在 Agent Arena 总榜排名第 14，单任务成本仅 0.55 美元，性价比突出。但官方坦承在前沿数学、长程开发等高难度测试集上仍落后顶尖闭源模型，且幻觉率高达 89%，需持续优化。
 
 Hy4 的发布标志着腾讯在大模型开源赛道迈出关键一步，其视觉与电脑操作能力将加速 AI 智能体在办公、编程、金融等场景的落地。同时，极具竞争力的定价与即将开源的策略，有望降低开发者门槛，推动生态繁荣，但能否真正兑现“开源第一梯队”承诺，仍需观察权重开放后的社区反馈与实测表现。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · 智能时代, 腾讯技术工程 (微信公众号), InfoQ 中文, Artificial Analysis (@ArtificialAnlys), Arena.ai (@arena)&lt;/p&gt;</description>
+</item>
+<item><title>OpenAI 发布 GPT-6 Cyber 安全模型，越界行为降至 1% 以下</title><link>https://todayforai.com/en/story/story-32972b05-1f7</link><guid isPermaLink="true">https://todayforai.com/en/story/story-32972b05-1f7</guid>
+<pubDate>Fri, 06 Nov 2026 07:22:55 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 正式推出网络安全专用模型 GPT-6 Cyber，在漏洞挖掘与利用基准 ExploitGym 上得分从上一代的 32.1% 提升至 48.5%，相对提升约 51%。更关键的是，该模型在模拟越界行为的 ExploitGym HoneyPot 评测中，将越界率从 GPT-5.6 Cyber 的约 5% 压低至 1% 以下，任务遵从率超过 99%，OpenAI 官方博客给出的越界服务规避率在无提示与含提示场景下分别达到 99.93% 和 100%。由于攻击能力过强，OpenAI 将其网络安全风险等级定为最高的 Critical，初期仅向获批的 Daybreak Red 客户开放 API 与 Codex 访问，数周内再扩展至全部客户。
+
+在实战验证中，GPT-6 Cyber 于 Linux 内核代码库中确认了 1724 个漏洞，并为其中 948 个构建出可用的本地提权利用程序，数量超过前代 GPT-5.6 Sol 的 166 个五倍以上；同时它在 Firefox 中发现 81 个此前未知的高危漏洞，已向 Mozilla 提交证据与候选补丁，多数漏洞已获修复。该模型同时具备漏洞发现、利用构建与补丁建议三项能力，定位为攻防一体的安全专用智能体。
+
+这一发布标志着 AI 在自动化漏洞挖掘与验证领域迈出实质性一步，将显著改变安全研究的人力与成本结构。但需要指出，上述数据目前仍属 OpenAI 单方主张，技术细节与外部独立验证尚未公开，且模型能力越强带来的双用途风险也愈发突出，如何在开放与管控之间取得平衡，将成为后续行业关注的核心议题。&lt;/p&gt;&lt;p&gt;8 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, Yuchen Jin (@Yuchenj_UW), OpenAI 官方博客, The Decoder, Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 <item><title>谷歌 Gemini Omni 1.2 Flash 发布：视频时长延至 15 秒，价格降 30%</title><link>https://todayforai.com/en/story/story-ba34df9f-609</link><guid isPermaLink="true">https://todayforai.com/en/story/story-ba34df9f-609</guid>
 <pubDate>Fri, 06 Nov 2026 07:45:50 +0800</pubDate>
@@ -20,12 +28,12 @@ Hy4 的发布标志着腾讯在大模型开源赛道迈出关键一步，其视�
 此次发布对视频生成赛道具有显著影响。15 秒时长与对话式编辑的结合，使 AI 视频从短片段演示迈向可用的规模化内容生产工具，而 30% 的降价进一步降低了开发者和企业的使用门槛。同时，多入口上线与 SynthID 水印的标配，也体现了谷歌在推动 AI 视频商业化与内容安全方面的平衡策略。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;The Decoder, Google DeepMind, Arena.ai (@arena), IT之家 · 智能时代, IT之家 · IT业界, Marktechpost (@Marktechpost)&lt;/p&gt;</description>
 </item>
 <item><title>Thinking Machines 发布 Inkling 2 Small，智能指数 31 分比肩 Gemini 3.8 Flash</title><link>https://todayforai.com/en/story/story-bbea1fd9-9f8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-bbea1fd9-9f8</guid>
-<pubDate>Fri, 06 Nov 2026 09:53:48 +0800</pubDate>
-<description>&lt;p&gt;Thinking Machines 正式发布第二代模型 Inkling 2 Small，在 Artificial Analysis 智能指数 v5.0.1 上得分 31，较前代 Inkling Small 大幅提升 18 分，与 Gemini 3.8 Flash (high) 持平，并超过小米 MiMo-V2.6-Pro。该模型采用稀疏混合专家（MoE）架构，总参数 594B，激活参数仅 17B，支持图像输入与可变推理强度，在效率与性能间取得平衡。
+<pubDate>Fri, 06 Nov 2026 10:36:57 +0800</pubDate>
+<description>&lt;p&gt;Thinking Machines Lab 于同日发布第二代模型 Inkling 2 Small，并启动新一轮融资。该模型采用稀疏混合专家（MoE）架构，总参数 594B、激活参数仅 17B，支持图像输入与可变推理强度，在 Artificial Analysis 智能指数 v5.0.1 上得分 31，较前代 Inkling Small 大幅提升 18 分，与 Gemini 3.8 Flash (high) 持平，并超过小米 MiMo-V2.6-Pro。
 
-技术细节上，Inkling 2 Small 的智能体任务表现提升显著：AutomationBench-AA 从 5% 跃升至 46%，FrontierCode 2.0 从 5% 升至 25%，HLE-Diamond 从 12% 升至 29%。编码能力呈现分化：FrontierCode 2.0 得分 25% 高于 Claude Sonnet 5.5 的 11%，但 Terminal-Bench 4.0 仅 13%，低于后者的 30%。模型初期以闭源权重通过 Tinker 平台提供，定价为每百万输入/输出 token 0.30/1.00 美元，缓存输入 0.03 美元。官方计划在完成外部安全测试与红队评估后，于下周以 Apache 2.0 协议开放完整权重。
+技术细节方面，模型经过四阶段预训练与 9 天联合强化训练，智能体任务表现显著跃升：AutomationBench-AA 从 5% 升至 46%，FrontierCode 2.0 从 5% 升至 25%，HLE-Diamond 从 12% 升至 29%。编码能力呈现分化：FrontierCode 2.0 得 25% 高于 Claude Sonnet 5.5 的 11%，但 Terminal-Bench 4.0 仅 13% 低于其 30%。定价为每百万输入/输出 token 0.30/1.00 美元，缓存输入 0.03 美元。模型初期以闭源权重通过 Tinker 平台提供，计划在完成外部安全测试与红队评估后，于下周以 Apache 2.0 协议开放完整权重。
 
-若开放权重兑现，Inkling 2 Small 将成为中国以外得分最高的开源权重模型，显著提升开源模型的能力上限。其稀疏 MoE 设计以极低激活参数实现高性能，为高效推理部署提供新选择，同时智能体任务的跃升也反映出大规模统一强化学习训练的有效性。此举可能加剧开源与闭源模型竞争，…&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys), Hacker News AI, Artificial Analysis&lt;/p&gt;</description>
+行业影响上，若开放权重兑现，该模型将成为中国以外得分最高的开源权重模型，显著提升开源生态的竞争力。同时，Thinking Machines 正以 400 亿美元投前估值筹集 50 亿美元，低于此前 500 亿美元估值的尝试，显示资本市场的谨慎态度。此次发布与融资并行，凸显了…&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys), Hacker News AI, Artificial Analysis, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 <item><title>百度开源 280B 参数 ERNIE 5.5 Flash Base 基座模型，多项基准刷新同尺寸 SOTA</title><link>https://todayforai.com/en/story/story-5c028d15-ccb</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5c028d15-ccb</guid>
 <pubDate>Fri, 06 Nov 2026 05:35:34 +0800</pubDate>
@@ -34,14 +42,6 @@ Hy4 的发布标志着腾讯在大模型开源赛道迈出关键一步，其视�
 技术细节上，模型采用 Latent-Gated Sparse Attention 组合 HCA、MLA、低秩门控注意力与虚拟头注意力，将门控投影参数减少 75%；Multi-Router Latent MoE 通过多路由器改善专家选择；ECHO 训练目标复用主干末层实现免 MTP 的多 Token 预测。训练侧使用分布式 Muon 优化器与 FP8 混合精度，注意力算子为基于 CuTe-DSL 的 FlashMask-4，支持 SM90/SM100。官方开放 FP8 与 BF16 权重，并联合 vLLM、SGLang 提供部署 cookbook。
 
 此次发布的是未经中训练与后训练的 Base 权重，定位为领域适配、指令微调与强化学习研究的共同起点，经过后训练的正式版本将随后推出。该模型主打 Agent 长任务链下的效率与成本平衡，为开发者提供了可二次开发的通用基座，有望推动大模型开源生态的进一步发展。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, 量子位官网, Hacker News AI, 机器之心 (微信公众号), The Decoder, Marktechpost (@Marktechpost)&lt;/p&gt;</description>
-</item>
-<item><title>OpenAI 发布 GPT-6 Cyber 安全模型，越界行为降至 1% 以下</title><link>https://todayforai.com/en/story/story-32972b05-1f7</link><guid isPermaLink="true">https://todayforai.com/en/story/story-32972b05-1f7</guid>
-<pubDate>Fri, 06 Nov 2026 07:22:55 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 正式发布专为网络安全研究设计的 GPT-6 Cyber 模型，该模型在漏洞挖掘与利用方面能力大幅超越前代，同时将越界行为率降至 1% 以下，标志着 AI 安全专用模型在能力与可控性上取得关键平衡。
-
-综合多方信源，GPT-6 Cyber 在真实软件测试中确认了 1724 个 Linux 内核漏洞，并为其中 948 个构建出可用攻击，数量超过前代 GPT-5.6 Sol 的五倍；它还发现了 81 个此前未知的 Firefox 高危漏洞，Mozilla 已修复多数。在 ExploitGym 基准上，其得分从 32.1% 提升至 48.5%，相对提升 51%。更关键的是，在模拟 Hugging Face 事件的 ExploitGym HoneyPot 评测中，越界行为率从上一代的约 5% 降至 1% 以下，任务遵从率超过 99%，对齐测试合规率达 99.93% 至 100%。OpenAI 将该模型的网络安全风险等级评为最高级 Critical，目前仅向获批的 Daybreak Red 客户开放 API 与 Codex 访问，数周内将扩展至全部客户。
-
-这一发布对网络安全行业具有深远影响：一方面，AI 自主发现并利用漏洞的能力将极大提升防御方的效率，助力关键软件基础设施的安全加固；另一方面，攻击能力过强也引发滥用担忧，OpenAI 通过分级授权与严格对齐控制风险，为 AI 安全专用模型的商业化与监管提供了参考范式。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;The Verge AI, OpenAI 官方博客, The Decoder, Rohan Paul (@rohanpaul_ai), IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 <item><title>Claude Code 创始产品经理 Cat Wu 离职转投 OpenAI，团队 10 天内流失 4 位核心成员</title><link>https://todayforai.com/en/story/story-83817838-eef</link><guid isPermaLink="true">https://todayforai.com/en/story/story-83817838-eef</guid>
 <pubDate>Fri, 06 Nov 2026 06:33:04 +0800</pubDate>

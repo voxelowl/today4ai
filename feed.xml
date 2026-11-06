@@ -1,8 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Fri, 06 Nov 2026 10:17:26 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 06 Nov 2026 11:17:30 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>China Mobile to Invest Over 100 Billion Yuan in Compute, Doubling Smart Compute Capacity for Two Years</title><link>https://www.ithome.com/1/023/197.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/197.htm</guid>
+<pubDate>Fri, 06 Nov 2026 11:17:30 +0800</pubDate>
+<description>&lt;p&gt;China Mobile announced at the 2026 Mobile Network Conference that its 2027 procurement will exceed 500 billion yuan, including over 100 billion yuan in compute investment, which it calls its largest growth area. The carrier is building three gigawatt-scale compute parks this year and two more next year for a total of seven, with smart compute capacity set to double for two consecutive years.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;中国移动 2027 年算力投资超 1000 亿元，两年智算能力连续翻番&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;运营商千亿级算力资本开支与吉瓦级园区规划，是判断国内智算供给节奏的重要产业信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 68/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/023/197.htm">IT之家 · 智能时代</source>
+<category>算力</category>
+<category>中国移动</category>
+<category>智算中心</category>
+</item>
+<item><title>Nvidia Unveils NVKE Preview to Run Managed Kubernetes on Own GPUs</title><link>https://github.com/dsx-ai-factory/nvke</link><guid isPermaLink="true">https://github.com/dsx-ai-factory/nvke</guid>
+<pubDate>Fri, 06 Nov 2026 11:16:26 +0800</pubDate>
+<description>&lt;p&gt;Nvidia released a preview of its Kubernetes Engine (NVKE), a management plane that platform teams install on their own GPU infrastructure to create and operate Kubernetes clusters, each with its own control plane, etcd and node pools. It is explicitly a preview not recommended for production, with APIs and behavior subject to change.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达发布 NVKE 预览版 在自有 GPU 上托管 Kubernetes&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达把托管 Kubernetes 能力下沉到自有 GPU 集群，是算力基础设施栈的重要延伸，但预览阶段且细节有限。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 62/100&lt;/p&gt;</description>
+<source url="https://github.com/dsx-ai-factory/nvke">Hacker News AI</source>
+<category>英伟达</category>
+<category>Kubernetes</category>
+<category>算力基础设施</category>
+<category>GPU</category>
+</item>
+<item><title>Huawei HarmonyOS PC Shipments Top One Million as Sideloading Opens</title><link>https://www.ithome.com/1/023/169.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/169.htm</guid>
+<pubDate>Fri, 06 Nov 2026 11:01:00 +0800</pubDate>
+<description>&lt;p&gt;Huawei said cumulative HarmonyOS PC shipments have passed one million units, with 2026 volume potentially reaching a million in a single year. The company also opened sideloading to developers and launched its first HarmonyOS desktop, the Qingyun HM650, signaling a shift from a single product to a full lineup and a more open ecosystem.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;鸿蒙电脑累计发货破百万台 开放侧载并推首款台式机&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是国产桌面操作系统生态扩张的产业信号，但缺乏 AI 技术实质，对 AI 重度读者价值有限。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 38/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/023/169.htm">IT之家 · IT业界</source>
+<category>鸿蒙</category>
+<category>华为</category>
+<category>操作系统</category>
+<category>PC 生态</category>
+</item>
+<item><title>Five Small Local Models Team Up in Verify-Then-Vote Pipeline</title><link>https://blog.grainulation.org/verify-then-vote/</link><guid isPermaLink="true">https://blog.grainulation.org/verify-then-vote/</guid>
+<pubDate>Fri, 06 Nov 2026 10:59:39 +0800</pubDate>
+<description>&lt;p&gt;The authors ran five small models (Llama 3.2 3B, Mistral 7B, Gemma 2 2B, Phi-3 mini, Qwen 2.5 3B) locally on a single Apple M3 Pro, each retrieving passages and citing sources. Since plain majority voting cannot catch shared errors, they propose &amp;#x27;Verify, Then Vote&amp;#x27;: verify each model&amp;#x27;s cited sources first, then apply a fixed rule to select the answer, keeping answering, verification and selection as separate reusable steps. Paper, code and saved runs are open-sourced.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;五款小模型本地协同推理 提出先验证再投票新方法&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了在单机上用多小模型加来源核查替代简单投票的可行路径，对本地多智能体与检索增强实践有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 58/100&lt;/p&gt;</description>
+<source url="https://blog.grainulation.org/verify-then-vote/">Hacker News AI</source>
+<category>小模型</category>
+<category>多模型协同</category>
+<category>检索增强</category>
+<category>开源</category>
+</item>
+<item><title>Cloudflare Annualized Revenue Tops $3B as Q3 Growth Hits Four-Year High</title><link>https://www.ithome.com/1/023/167.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/167.htm</guid>
+<pubDate>Fri, 06 Nov 2026 10:56:07 +0800</pubDate>
+<description>&lt;p&gt;Cloudflare reported Q3 FY2026 revenue of $782.5 million, up 39% year over year, its fastest quarterly growth in nearly four years, pushing annualized revenue past $3 billion for the first time. Non-GAAP operating margin rose to a record 17.5%, large-customer and Workers developer counts hit new highs, and guidance for Q4 and the full year came in ahead of prior expectations.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Cloudflare 年化营收首破 30 亿美元，Q3 增速创四年新高&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 推理与边缘网络需求推动下云基础设施商业化的关键财务信号，值得关注算力与产业格局的读者留意。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/023/167.htm">IT之家 · IT业界</source>
+<category>Cloudflare</category>
+<category>云服务</category>
+<category>财报</category>
+<category>边缘计算</category>
+</item>
+<item><title>Ricursive Releases Ripple-65B Preview, an Open-Weight Agentic Coding Model</title><link>https://www.ithome.com/1/023/158.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/158.htm</guid>
+<pubDate>Fri, 06 Nov 2026 10:51:50 +0800</pubDate>
+<description>&lt;p&gt;Ricursive Intelligence, founded by former Google researchers, released Ripple-65B Preview, a dense open-weight model pretrained on 12T tokens with 1M context that it claims outperforms the much larger Meta Muse Spark Open 816B and NVIDIA Nemotron 3 Ultra 550B on TerminalBench 2.1. It is a general-purpose variant of the firm&amp;#x27;s chip-design model, with self-reported training cost of about $32 million.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Ricursive 发布 Ripple-65B Preview 开放权重智能体编程模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开放权重模型在智能体编程基准上挑战更大规模对手，且披露了训练规模与成本，值得关注其后续验证。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 72/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/023/158.htm">IT之家 · 智能时代</source>
+<category>大模型</category>
+<category>开放权重</category>
+<category>智能体编程</category>
+<category>Ricursive Intelligence</category>
+</item>
+<item><title>Closed Models Dominate Price-Performance Frontier as Open-Weight Share Falls to 3%</title><link>https://village.dev/blog/closed-ai-models-now-dominate-the-price-performance-frontier/</link><guid isPermaLink="true">https://village.dev/blog/closed-ai-models-now-dominate-the-price-performance-frontier/</guid>
+<pubDate>Fri, 06 Nov 2026 10:49:56 +0800</pubDate>
+<description>&lt;p&gt;Village&amp;#x27;s LLM Atlas, which maps the strongest model at every price point, shows that by October 31, 2026 only 5 of the 21 models on the price-performance frontier were open-weight, all confined to the cheap end. The share of budgets where an open model is the best buy collapsed from 41% in June to 3%, as closed vendors established both capability and cost advantages across nearly every budget tier.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;闭源模型几乎垄断性价比前沿 开源份额从 41% 跌至 3%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以可量化的性价比前沿数据揭示开源与闭源模型竞争格局的显著逆转，对模型选型与行业判断有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 72/100&lt;/p&gt;</description>
+<source url="https://village.dev/blog/closed-ai-models-now-dominate-the-price-performance-frontier/">Hacker News AI</source>
+<category>开源模型</category>
+<category>模型性价比</category>
+<category>行业格局</category>
+</item>
+<item><title>Thinking Machines Lab Seeks $5B at $40B Pre-Money Valuation</title><link>https://www.ithome.com/1/023/115.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/115.htm</guid>
+<pubDate>Fri, 06 Nov 2026 10:36:57 +0800</pubDate>
+<description>&lt;p&gt;Thinking Machines Lab, founded by former OpenAI CTO Mira Murati, is raising $5 billion at a $40 billion pre-money valuation after an earlier attempt at a $50 billion valuation fell through. The same day it released Inkling 2 Small, a 594B-A17B MoE model, with open weights under Apache 2.0 planned for next week.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Thinking Machines Lab 拟以 400 亿美元投前估值融资 50 亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;巨额融资传闻叠加同日的开源权重模型发布，是观察明星 AI 实验室资本与产品双线进展的关键信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 74/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/023/115.htm">IT之家 · 智能时代</source>
+<category>融资</category>
+<category>Thinking Machines Lab</category>
+<category>开源模型</category>
+<category>MoE</category>
+</item>
+<item><title>China Mobile Says AI-Generated Content Drives Fivefold Growth in Mobile Traffic</title><link>https://www.ithome.com/1/023/093.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/093.htm</guid>
+<pubDate>Fri, 06 Nov 2026 10:24:54 +0800</pubDate>
+<description>&lt;p&gt;At the 2026 Mobile Network Conference, China Mobile reported that mobile data traffic grew 18% this year, double last year&amp;#x27;s pace, with AI-generated content driving a fivefold traffic increase and becoming the main growth engine. AI is also reshaping traffic structure: AI applications show a 1:6 uplink-to-downlink ratio versus the 1:9 network average, with some future apps potentially approaching 1:1, straining download-centric network resources. China Mobile also flagged first-token latency bottlenecks, with mobile-network trials at 35 ms versus 665 ms on the cloud platform side, calling for deeper network-platform coordination.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;中国移动：AI 生成内容带动手机流量增长 5 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;运营商首次用实测数据量化 AI 生成内容对移动流量的拉动，并揭示上下行结构与首 Token 时延瓶颈，对算力与网络基础设施判断有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/023/093.htm">IT之家 · 智能时代</source>
+<category>中国移动</category>
+<category>AI 流量</category>
+<category>网络基础设施</category>
+<category>时延</category>
+</item>
 <item><title>Google to Build First Wyoming Data Center with $17 Billion Investment</title><link>https://www.ithome.com/1/023/089.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/089.htm</guid>
 <pubDate>Fri, 06 Nov 2026 10:17:26 +0800</pubDate>
 <description>&lt;p&gt;Google announced it will build its first data center in Wyoming&amp;#x27;s Laramie County with a total investment of $17 billion. AEP will supply 702MW of natural gas fuel cells with carbon capture and storage, and the facility will use air cooling, with Google pledging responsible execution and community investment.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌在怀俄明州建设首座数据中心，投资 170 亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是谷歌算力基础设施扩张的重要一步，涉及大规模能源配套与减碳方案，对关注 AI 算力供给的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 42/100&lt;/p&gt;</description>
@@ -100,177 +179,95 @@
 <category>AI 基础设施</category>
 <category>政策监管</category>
 </item>
-<item><title>Anthropic Adds Personal Finance Feature to Claude with Read-Only Bank Access</title><link>https://www.ithome.com/1/023/051.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/051.htm</guid>
+<item><title>Anthropic 为 Claude 上线个人理财功能 支持只读绑定银行账户</title><link>https://www.ithome.com/1/023/051.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/051.htm</guid>
 <pubDate>Fri, 06 Nov 2026 08:37:10 +0800</pubDate>
-<description>&lt;p&gt;Anthropic is rolling out a personal finance feature in Claude this week to US Pro, Max and Ultra subscribers. Users can link bank accounts read-only and ask natural-language questions about balances, transactions, spending categories and suspicious charges, plus generate spending charts and bill calendars. No money movement or investment advice is offered, and Anthropic warns outputs may be wrong and should be verified with banks.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 为 Claude 上线个人理财功能 支持只读绑定银行账户&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Claude 从通用助手向垂直场景延伸的产品动作，只读权限与无广告定位值得关注，但缺乏模型能力层面的实质突破。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 宣布为 Claude 加入个人理财功能，本周起面向美国 Pro、Max、Ultra 订阅用户灰度测试。用户可只读绑定银行账户，用自然语言查询余额、交易记录、消费分类与异常扣费，并可生成支出图表与账单日历。该功能不涉及资金划转与投资建议，官方提示结果可能出错需与银行核对。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Claude 从通用助手向垂直场景延伸的产品动作，只读权限与无广告定位值得关注，但缺乏模型能力层面的实质突破。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/023/051.htm">IT之家 · 智能时代</source>
 <category>Anthropic</category>
 <category>Claude</category>
 <category>个人理财</category>
 <category>AI 应用</category>
 </item>
-<item><title>Major Investors Question Whether Anthropic IPO Can Justify $1.5T Valuation</title><link>https://www.wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b’</link><guid isPermaLink="true">https://www.wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b’</guid>
+<item><title>大型投资者质疑 Anthropic IPO 能否撑起 1.5 万亿美元估值</title><link>https://www.wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b’</link><guid isPermaLink="true">https://www.wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b’</guid>
 <pubDate>Fri, 06 Nov 2026 08:31:11 +0800</pubDate>
-<description>&lt;p&gt;The Wall Street Journal reports that major investors are skeptical about whether Anthropic can reach a $1.5 trillion valuation upon going public. The article body is access-restricted and provides no valuation methodology, named investors, or timeline, leaving only the market&amp;#x27;s doubt over Anthropic&amp;#x27;s lofty valuation as the core signal.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;大型投资者质疑 Anthropic IPO 能否撑起 1.5 万亿美元估值&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司估值预期与投资者信心之间的落差，是观察 AI 资本周期的重要风向标。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;据《华尔街日报》报道，多家大型投资者对 Anthropic 上市后能否达到 1.5 万亿美元估值持怀疑态度。该报道正文内容受限，未披露具体估值依据、投资方名单或时间表，核心信息仅为市场对 Anthropic 高估值的质疑情绪。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司估值预期与投资者信心之间的落差，是观察 AI 资本周期的重要风向标。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b’">Hacker News AI</source>
 <category>Anthropic</category>
 <category>IPO</category>
 <category>估值</category>
 <category>融资</category>
 </item>
-<item><title>JD Logistics Upgrades Wolf Pack Robots with Dual-Arm Embodied Sorting</title><link>https://www.ithome.com/1/023/048.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/048.htm</guid>
+<item><title>京东物流“狼族”机器人升级 双臂具身机器人实现无人分拣</title><link>https://www.ithome.com/1/023/048.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/048.htm</guid>
 <pubDate>Fri, 06 Nov 2026 08:28:56 +0800</pubDate>
-<description>&lt;p&gt;JD Logistics unveiled upgraded Wolf Pack embodied robots at CeMAT ASIA 2026. The Zhiwolf picking system introduces a rotating retrieval platform reaching over 240 cycles per hour and wireless power for maintenance-free operation, while the Baomuwolf sorting line automates induction, sorting, bin swapping and packing end-to-end using dual-arm embodied robots, handling over 34,560 items per hour. The systems are already deployed across more than 100 warehouses worldwide, marking an engineering milestone in warehouse automation rather than a general AI capability breakthrough.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;京东物流“狼族”机器人升级 双臂具身机器人实现无人分拣&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;仓储物流具身机器人的规模化工程落地案例，对关注机器人商业化落地的读者有参考价值，但缺乏通用 AI 方法层面的新突破。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;京东物流在 CeMAT ASIA 2026 展会上发布“狼族”具身机器人军团升级方案：“智狼”首创旋转式取货平台，单台每小时作业突破 240 次，并采用无线供电实现零维护；“保姆狼”打通投递、分播、取换箱到打包的端到端无人化链路，搭载双臂具身机器人替代人工翻包，最高支持每小时 34560 件商品分播。该方案已在全球超 100 个仓库规模化落地，属于仓储物流场景的工程化落地进展，而非通用 AI 能力突破。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;仓储物流具身机器人的规模化工程落地案例，对关注机器人商业化落地的读者有参考价值，但缺乏通用 AI 方法层面的新突破。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/023/048.htm">IT之家 · 智能时代</source>
 <category>具身智能</category>
 <category>仓储机器人</category>
 <category>京东物流</category>
 <category>物流自动化</category>
 </item>
-<item><title>METR Report Finds Anthropic&#x27;s AI R&amp;D Loop Running at About 2x Pace</title><link>https://x.com/rohanpaul_ai/status/2118499733782384818</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118499733782384818</guid>
+<item><title>METR 报告称 Anthropic 模型研发提速约 2 倍，AI 自我加速初现</title><link>https://x.com/rohanpaul_ai/status/2118499733782384818</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118499733782384818</guid>
 <pubDate>Fri, 06 Nov 2026 08:24:31 +0800</pubDate>
-<description>&lt;p&gt;METR, drawing on Anthropic&amp;#x27;s internal R&amp;amp;D data and researcher interviews, estimates the company is now improving its models at roughly twice its 2024-2025 pace, with about 80% of the acceleration attributed to Anthropic&amp;#x27;s own AI use rather than faster growth in training compute. The report also says Anthropic&amp;#x27;s public August risk report understated the speed, and finds no algorithm, compute or data bottleneck likely to slow the loop within 12 months.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;METR 报告称 Anthropic 模型研发提速约 2 倍，AI 自我加速初现&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是首次以内部数据量化“AI 加速 AI 研发”的递归自我改进迹象，对判断前沿实验室节奏具参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;METR 基于 Anthropic 内部研发数据与研究员访谈，判断其模型改进速度已约为 2024 至 2025 年节奏的两倍，其中约 80% 的加速归因于 Anthropic 自身对 AI 的使用，而非训练算力增长。报告还指出，Anthropic 8 月公开风险报告低估了这一速度，且未来 12 个月内算法、算力与数据层面均未见明显瓶颈。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是首次以内部数据量化“AI 加速 AI 研发”的递归自我改进迹象，对判断前沿实验室节奏具参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2118499733782384818">Rohan Paul (@rohanpaul_ai)</source>
 <category>AI 研发</category>
 <category>递归自我改进</category>
 <category>Anthropic</category>
 <category>METR</category>
 </item>
-<item><title>US Tech Stocks Plunge as Philadelphia Semiconductor Index Falls About 12% in a Day</title><link>https://www.ithome.com/1/023/046.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/046.htm</guid>
+<item><title>美股科技股遭抛售 费城半导体指数单日跌约 12%</title><link>https://www.ithome.com/1/023/046.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/046.htm</guid>
 <pubDate>Fri, 06 Nov 2026 08:21:15 +0800</pubDate>
-<description>&lt;p&gt;After the US midterm elections, investors worried about slower AI data-center expansion and dumped tech and AI hardware stocks. The Philadelphia Semiconductor Index fell about 12% in a single day, its second-largest one-day drop on record, while the Nasdaq slid 5.5% into correction territory and five tech billionaires including Musk lost a combined $152.9 billion.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美股科技股遭抛售 费城半导体指数单日跌约 12%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 算力产业链估值受政策预期冲击的标志性单日行情，对判断 AI 基础设施投资节奏有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 71/100&lt;/p&gt;</description>
+<description>&lt;p&gt;美国中期选举后，投资者担忧 AI 数据中心扩张放缓，美股科技股与 AI 硬件产业链遭遇集中抛售。费城半导体指数单日跌约 12%，创历史第二大单日跌幅，纳指跌 5.5% 并进入技术性回调，马斯克等五大科技富豪单日财富合计缩水 1529 亿美元。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 算力产业链估值受政策预期冲击的标志性单日行情，对判断 AI 基础设施投资节奏有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 71/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/023/046.htm">IT之家 · IT业界</source>
 <category>半导体</category>
 <category>美股</category>
 <category>AI 算力</category>
 <category>产业动态</category>
 </item>
-<item><title>Airbnb Is Developing an AI Travel Agent</title><link>https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings</link><guid isPermaLink="true">https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings</guid>
+<item><title>Airbnb 正在研发 AI 旅行智能体</title><link>https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings</link><guid isPermaLink="true">https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings</guid>
 <pubDate>Fri, 06 Nov 2026 08:06:12 +0800</pubDate>
-<description>&lt;p&gt;Airbnb confirmed during its Q3 2026 earnings call that it is building an AI travel agent aimed at letting users plan trips and book stays through natural-language interaction. The project remains early-stage, with no disclosed model choices, task scope, or launch timeline.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Airbnb 正在研发 AI 旅行智能体&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是头部消费平台把智能体引入核心交易链路的信号，但披露内容停留在方向层面，缺乏可验证细节。&lt;/p&gt;&lt;p&gt;The Verge AI · agent · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Airbnb 在 2026 年第三季度财报电话会上确认，正在研发一款 AI 旅行智能体，目标是让用户用自然语言完成行程规划与房源预订。目前该项目仍处于早期阶段，官方未公布模型选型、任务边界或上线时间等实质细节。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是头部消费平台把智能体引入核心交易链路的信号，但披露内容停留在方向层面，缺乏可验证细节。&lt;/p&gt;&lt;p&gt;The Verge AI · agent · signal 38/100&lt;/p&gt;</description>
 <source url="https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings">The Verge AI</source>
 <category>智能体</category>
 <category>Airbnb</category>
 <category>旅行预订</category>
 <category>财报</category>
 </item>
-<item><title>Thinking Machines Releases Inkling 2 Small, a 594B-Parameter Sparse MoE with 17B Active</title><link>https://thinkingmachines.ai/news/inkling-2-small/</link><guid isPermaLink="true">https://thinkingmachines.ai/news/inkling-2-small/</guid>
+<item><title>Thinking Machines 发布 Inkling 2 Small 稀疏 MoE 模型，594B 总参数仅激活 17B</title><link>https://thinkingmachines.ai/news/inkling-2-small/</link><guid isPermaLink="true">https://thinkingmachines.ai/news/inkling-2-small/</guid>
 <pubDate>Fri, 06 Nov 2026 08:00:24 +0800</pubDate>
-<description>&lt;p&gt;Thinking Machines unveiled Inkling 2 Small, its second-generation model: a Mixture-of-Experts architecture with 594B total parameters and 17B active, supporting image inputs and variable effort. It scores 31 on the Artificial Analysis Intelligence Index, a marked gain over prior models driven by more efficient pre-training and a large unified RL run. The model launches with closed weights via Tinker, with full Apache 2.0 weights planned next week after external safety testing and red-teaming.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Thinking Machines 发布 Inkling 2 Small 稀疏 MoE 模型，594B 总参数仅激活 17B&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是一次带有明确参数、架构与基准分数的新模型发布，且承诺一周内开放权重，对关注开源大模型格局的读者具有实质参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Thinking Machines 推出第二代模型 Inkling 2 Small，采用混合专家架构，总参数 594B、激活参数 17B，支持图像输入与可变推理强度，在 Artificial Analysis 智能指数上得分 31，较前代显著提升。模型初期以闭源权重通过 Tinker 平台提供，计划在完成外部安全测试与红队评估后，于下周以 Apache 2.0 协议开放完整权重。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是一次带有明确参数、架构与基准分数的新模型发布，且承诺一周内开放权重，对关注开源大模型格局的读者具有实质参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://thinkingmachines.ai/news/inkling-2-small/">Hacker News AI</source>
 <category>大模型</category>
 <category>混合专家</category>
 <category>开源权重</category>
 <category>Thinking Machines</category>
 </item>
-<item><title>Ant Group Releases Ling 3.2 Flash Multimodal Model, Topping Claude Opus 5 on Three Benchmarks</title><link>https://www.ithome.com/1/023/043.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/043.htm</guid>
+<item><title>蚂蚁发布 Ling 3.2 Flash 原生多模态模型 三项基准超越 Claude Opus 5</title><link>https://www.ithome.com/1/023/043.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/043.htm</guid>
 <pubDate>Fri, 06 Nov 2026 08:00:05 +0800</pubDate>
-<description>&lt;p&gt;Ant Group&amp;#x27;s Ling team released Ling-3.2-flash, a natively multimodal model built on a 560B-total / ~25B-active MoE architecture with a 1M context window and image, text and video input. In vendor-run tests it beats Claude Opus 5 on OmniDocBench1.5, ZEROBench and Vision2Web, and enters the DesignArena image-to-frontend top ten at 1238 Elo. API pricing is $0.30 per million input tokens and $0.90 per million output tokens, compatible with OpenAI and Anthropic protocols, and free for the first two weeks.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;蚂蚁发布 Ling 3.2 Flash 原生多模态模型 三项基准超越 Claude Opus 5&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产原生多模态模型以稀疏 MoE 架构在多项基准对标 Claude Opus 5，且定价处于同级最低区间，值得关注其真实能力与生态兼容性。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;蚂蚁百灵团队发布原生多模态模型 Ling-3.2-flash，采用 560B 总参数、约 25B 激活参数的 MoE 架构，支持 1M 上下文与图像、文本、视频输入。官方自测在 OmniDocBench1.5、ZEROBench、Vision2Web 三项基准上超过 Claude Opus 5，DesignArena 图像转前端榜单以 1238 Elo 进入前十。API 输入每百万词元 0.30 美元、输出 0.90 美元，兼容 OpenAI 与 Anthropic 协议，上线前两周限时免费。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产原生多模态模型以稀疏 MoE 架构在多项基准对标 Claude Opus 5，且定价处于同级最低区间，值得关注其真实能力与生态兼容性。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/023/043.htm">IT之家 · 智能时代</source>
 <category>大模型</category>
 <category>多模态</category>
 <category>蚂蚁百灵</category>
 <category>MoE</category>
 </item>
-<item><title>Thinking Machines Releases Inkling 2 Small, Scoring 31 on Intelligence Index</title><link>https://x.com/ArtificialAnlys/status/2118493376186388530</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2118493376186388530</guid>
+<item><title>Thinking Machines 发布 Inkling 2 Small 智能指数达 31 分</title><link>https://x.com/ArtificialAnlys/status/2118493376186388530</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2118493376186388530</guid>
 <pubDate>Fri, 06 Nov 2026 07:59:15 +0800</pubDate>
-<description>&lt;p&gt;Thinking Machines has released Inkling 2 Small, which scores 31 on the Artificial Analysis Intelligence Index v5.0.1, an 18-point gain over its predecessor and on par with Gemini 3.8 Flash (high). It launches as a proprietary model via the Tinker platform, with weights promised for a later release that would make it the highest-scoring open-weights model developed outside China.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Thinking Machines 发布 Inkling 2 Small 智能指数达 31 分&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;新模型在智能指数上大幅跃升并承诺后续开源权重，对关注模型能力格局与开源生态的读者具有明确参考价值。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 74/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Thinking Machines 发布 Inkling 2 Small，在 Artificial Analysis 智能指数 v5.0.1 上得分 31，较前代提升 18 分，与 Gemini 3.8 Flash (high) 持平。该模型先以闭源形式通过 Tinker 平台提供，官方计划后续开放权重，若兑现将成为中国以外得分最高的开源权重模型。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;新模型在智能指数上大幅跃升并承诺后续开源权重，对关注模型能力格局与开源生态的读者具有明确参考价值。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 74/100&lt;/p&gt;</description>
 <source url="https://x.com/ArtificialAnlys/status/2118493376186388530">Artificial Analysis (@ArtificialAnlys)</source>
 <category>大模型</category>
 <category>开源权重</category>
 <category>Thinking Machines</category>
 <category>模型评测</category>
 </item>
-<item><title>OpenAI Pledges Full Grid Costs and Public Data Disclosure for Owned Data Centers</title><link>https://x.com/rohanpaul_ai/status/2118487588571082829</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118487588571082829</guid>
+<item><title>OpenAI 承诺自建数据中心全额承担电网成本并公开资源数据</title><link>https://x.com/rohanpaul_ai/status/2118487588571082829</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118487588571082829</guid>
 <pubDate>Fri, 06 Nov 2026 07:36:15 +0800</pubDate>
-<description>&lt;p&gt;OpenAI said every future data-center campus it owns will pay full electricity and grid costs, post financial guarantees if a project is cancelled, and publish water, power, noise and hiring figures while avoiding NDAs with officials. The move aims to defuse local backlash over bills, water use and secret deals that could slow permits and grid connections for its Stargate buildout, while pushing regulators to impose the same obligations on all developers.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 承诺自建数据中心全额承担电网成本并公开资源数据&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 算力扩张与地方资源矛盾的关键信号，直接影响数据中心选址、并网速度与行业成本规则。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 宣布未来自建数据中心园区将全额承担电力与电网成本、为项目中止提供财务担保，并公开水耗、用电、噪音与招聘数据，同时放弃与官员签署保密协议。其真实意图是缓解地方对电价、水资源与秘密交易的抵触，以加速 Stargate 建设所需的许可与并网，并推动监管将同等成本义务施加于所有开发商。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 算力扩张与地方资源矛盾的关键信号，直接影响数据中心选址、并网速度与行业成本规则。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 62/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2118487588571082829">Rohan Paul (@rohanpaul_ai)</source>
 <category>算力基础设施</category>
 <category>数据中心</category>
 <category>OpenAI</category>
 <category>能源监管</category>
-</item>
-<item><title>Nvidia Claims 30x Agent Throughput per Dollar with Only 3% More HBM</title><link>https://www.ithome.com/1/023/025.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/025.htm</guid>
-<pubDate>Fri, 06 Nov 2026 07:30:59 +0800</pubDate>
-<description>&lt;p&gt;Nvidia published a technical explainer arguing that a full-stack co-design approach can ease the HBM crunch and memory wall. Its stack combines NVFP4 low-precision compression, weight sharding across up to 72 GPUs in NVL72, LPDDR buffering on Vera CPUs, Dynamo context migration and CMX context storage to move inactive context off HBM. Citing the SemiAnalysis AgentX benchmark, Nvidia claims Vera Rubin NVL72 delivers up to 30x agent throughput per dollar versus GB300 NVL72 while HBM capacity per GPU grows only about 3%, signaling a shift from raw memory capacity to effective tokens per byte and per watt.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达全栈协同设计破解内存墙，HBM 仅增 3% 吞吐量提升 30 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是英伟达对 AI 内存瓶颈的系统性技术回应，涉及推理架构与基准数据，对关注算力成本与智能体部署的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/023/025.htm">IT之家 · 智能时代</source>
-<category>英伟达</category>
-<category>HBM</category>
-<category>推理优化</category>
-<category>智能体</category>
-<category>算力</category>
-</item>
-<item><title>OpenAI 发布 GPT-6 Cyber 网安模型，在 Firefox 中发现 81 个新漏洞</title><link>https://www.ithome.com/1/023/038.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/038.htm</guid>
-<pubDate>Fri, 06 Nov 2026 07:22:55 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 推出网络安全专用模型 GPT-6 Cyber，在 ExploitGym 漏洞利用基准上得分 48.5%，较上一代相对提升约 51%。实际应用中，该模型复现了 1724 个 Linux 内核漏洞，并在 Firefox 中发现 81 个此前未知的高危漏洞，已向 Mozilla 提交证据与候选补丁。OpenAI 将其网络安全风险等级定为 Critical，初期仅向获批的 Daybreak Red 客户开放。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是前沿模型首次在真实开源项目中大规模发现并推动修复未知高危漏洞，标志着 AI 攻防能力进入新阶段。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 88/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/023/038.htm">IT之家 · 智能时代</source>
-<category>OpenAI</category>
-<category>网络安全</category>
-<category>大模型</category>
-<category>漏洞挖掘</category>
-</item>
-<item><title>Black Forest Labs 开源 5.6B 图像模型 FLUX 3 Image Klein，文生图榜单位列第二</title><link>https://x.com/ArtificialAnlys/status/2118484199552561609</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2118484199552561609</guid>
-<pubDate>Fri, 06 Nov 2026 07:22:47 +0800</pubDate>
-<description>&lt;p&gt;Black Forest Labs 于 10 月 15 日发布 5.6B 参数开源图像模型 FLUX 3 Image Klein，在 Artificial Analysis 文生图榜单 AA-Image-T2I v2.1 上位列开源权重第二，与榜首 Qwen-Image-2.1 几乎持平，图像编辑榜单排名第三。该模型采用 FLUX Kommunity 许可，年收入低于 500 万美元的个人与企业可商用，API 定价为每张 1K 图像 0.009 美元，比同系列 9B 版本低 40%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源图像模型在权威竞技场逼近榜首，且定价大幅下探，对关注开源多模态与图像生成的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 62/100&lt;/p&gt;</description>
-<source url="https://x.com/ArtificialAnlys/status/2118484199552561609">Artificial Analysis (@ArtificialAnlys)</source>
-<category>开源模型</category>
-<category>图像生成</category>
-<category>Black Forest Labs</category>
-<category>模型榜单</category>
-</item>
-<item><title>Cuban 指控 Meta 明知故犯投放 AI 深度伪造诈骗广告</title><link>https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html</link><guid isPermaLink="true">https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html</guid>
-<pubDate>Fri, 06 Nov 2026 07:09:57 +0800</pubDate>
-<description>&lt;p&gt;投资人 Mark Cuban 公开指控 Meta 明知平台存在 AI 深度伪造诈骗广告仍放任投放，并援引内部文件称相关欺诈收入规模达 160 亿美元。Meta 回应称已下架逾 1.34 亿条诈骗广告、用户投诉下降 58%，但文件同时显示 SEC 正就金融欺诈相关广告对 Meta 展开调查。事件核心是 AI 生成内容被用于广告诈骗的治理责任归属。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部平台被指纵容 AI 深度伪造诈骗广告并牵出监管调查，是 AI 内容治理与平台责任的重要产业信号。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html">Hacker News AI</source>
-<category>AI 治理</category>
-<category>深度伪造</category>
-<category>广告诈骗</category>
-<category>Meta</category>
-</item>
-<item><title>英伟达实测 Vera CPU：每瓦智能体吞吐较最快 x86 高 60%</title><link>https://www.ithome.com/1/023/029.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/029.htm</guid>
-<pubDate>Fri, 06 Nov 2026 07:09:42 +0800</pubDate>
-<description>&lt;p&gt;英伟达公布 Vera CPU 在智能体工作负载下的实测数据，称在 100 兆瓦数据中心场景中，其每瓦可支撑的智能体数量为最快 x86 CPU 的 1.6 倍，智能体速度达能效最高 x86 CPU 的 2 倍。Perplexity、DeepInfra、ClickHouse、Daytona、Modal 等合作方给出编码、编排、并发沙箱等场景的加速数据，指向智能体规模化部署下 CPU 侧瓶颈的重新定价。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是英伟达首次系统披露 Vera 在智能体负载上的能效与并发数据，直接关系数据中心电力预算与 CPU/GPU 配比决策。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/023/029.htm">IT之家 · 智能时代</source>
-<category>英伟达</category>
-<category>CPU</category>
-<category>智能体</category>
-<category>数据中心</category>
-<category>能效</category>
-</item>
-<item><title>Google 发布 Gemini Omni 1.2 Flash，视频时长增加 50% 且成本降低 30%</title><link>https://x.com/Marktechpost/status/2118478884723397029</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2118478884723397029</guid>
-<pubDate>Fri, 06 Nov 2026 07:01:40 +0800</pubDate>
-<description>&lt;p&gt;Google 推出 Gemini Omni 1.2 Flash，原生视频片段上限从 10 秒提升至 15 秒，720p 定价为每秒 0.07 美元，并支持跨整段视频的多轮编辑。其核心是“草稿—编辑—放大”工作流：先用低分辨率生成，再通过提示词修改细节，最后放大到 1080p 或 4K。不过 Google 未公布任何基准分数，并承认快速运动与复杂物理场景仍有不足。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是主流视频生成模型在时长、成本与编辑范式上的实质更新，但缺少基准数据，需谨慎看待其能力宣称。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/Marktechpost/status/2118478884723397029">Marktechpost (@Marktechpost)</source>
-<category>视频生成</category>
-<category>Google</category>
-<category>Gemini</category>
-<category>多模态</category>
-</item>
-<item><title>Khosla 解释为何放弃投资 Anthropic：靠近 OpenAI 的信息价值更高</title><link>https://x.com/rohanpaul_ai/status/2118475321758580775</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118475321758580775</guid>
-<pubDate>Fri, 06 Nov 2026 06:47:30 +0800</pubDate>
-<description>&lt;p&gt;知名投资人 Vinod Khosla 公开表示，他选择不投资 Anthropic 等 OpenAI 的竞争对手，以换取与 OpenAI 更紧密的关系和对行业走向的深度洞察。他认为这种内部视角带来的信息价值，超过投资 Anthropic 可能获得的额外利润。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是一条关于顶级投资人配置逻辑与 AI 竞争格局的口径表态，信息量有限但能反映资本站队现象。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 38/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2118475321758580775">Rohan Paul (@rohanpaul_ai)</source>
-<category>投资</category>
-<category>OpenAI</category>
-<category>Anthropic</category>
-<category>产业格局</category>
-</item>
-<item><title>谷歌发布 Gemini Omni 1.2 Flash 视频模型，原生 15 秒生成并降价 30%</title><link>https://www.ithome.com/1/023/026.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/026.htm</guid>
-<pubDate>Fri, 06 Nov 2026 06:44:52 +0800</pubDate>
-<description>&lt;p&gt;谷歌正式推出 Gemini Omni 1.2 Flash 视频生成模型，在 Gemini API 与 Gemini for business 全面开放。新版将原生时长从 10 秒延长至最长 15 秒，支持多轮对话式编辑与角色、产品、风格参考一致性，720p 定价降至每秒 0.07 美元，较 1.1 版本下降 30%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流厂商视频模型在时长、编辑能力与价格上同步推进，是评估视频生成成本与可用性的关键节点。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/023/026.htm">IT之家 · 智能时代</source>
-<category>视频生成</category>
-<category>谷歌</category>
-<category>多模态</category>
-<category>模型发布</category>
-</item>
-<item><title>Airbnb 宣布 2027 上半年推出 AI 旅行智能体</title><link>https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/</guid>
-<pubDate>Fri, 06 Nov 2026 06:40:55 +0800</pubDate>
-<description>&lt;p&gt;Airbnb 在 Q3 股东信中确认，其自研 AI 旅行智能体将于 2027 年上半年上线，并首次披露该智能体的工作方式与差异化定位。CEO Chesky 强调它不会采用传统聊天机器人界面，而是保留用户在行程规划与浏览中的探索乐趣。目前该产品仍处于预告阶段，尚无具体参数或可验证能力细节。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部平台首次给出 AI 智能体落地时间表与产品思路，但缺乏可验证细节，值得关注而非深度解读。&lt;/p&gt;&lt;p&gt;TechCrunch AI · agent · signal 38/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/">TechCrunch AI</source>
-<category>智能体</category>
-<category>Airbnb</category>
-<category>旅行科技</category>
 </item>
 </channel>
 </rss>
