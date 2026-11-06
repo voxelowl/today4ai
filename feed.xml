@@ -1,8 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 07 Nov 2026 04:07:35 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 07 Nov 2026 05:10:13 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>OpenAI Closes $11B First Tranche at $1.25T Valuation</title><link>https://x.com/rohanpaul_ai/status/2118813225336873181</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118813225336873181</guid>
+<pubDate>Sat, 07 Nov 2026 05:10:13 +0800</pubDate>
+<description>&lt;p&gt;OpenAI has closed the first $11B tranche of a new funding round that values the company at $1.25T, with the remainder of up to $20B expected within weeks. It ranks among the largest single AI fundraises to date and reinforces OpenAI&amp;#x27;s capital advantage.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 完成 110 亿美元首轮融资 估值达 1.25 万亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;万亿美元级估值与百亿美元级现金注入，是 AI 产业资本格局的标志性事件。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2118813225336873181">Rohan Paul (@rohanpaul_ai)</source>
+<category>OpenAI</category>
+<category>融资</category>
+<category>估值</category>
+<category>产业</category>
+</item>
+<item><title>SoftBank&#x27;s $64.6B OpenAI Bet Makes It an AI Spending Proxy as Shares Fall 10.8%</title><link>https://x.com/rohanpaul_ai/status/2118811515822514556</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118811515822514556</guid>
+<pubDate>Sat, 07 Nov 2026 05:03:25 +0800</pubDate>
+<description>&lt;p&gt;SoftBank has become a market proxy for AI capital spending through its $64.6B OpenAI stake, 90% ownership of Arm and data-centre developer SB Energy, yet its shares fell 10.8% on Friday as the cost of insuring its debt hit a four-year high. The company borrowed at record yields to fund the OpenAI position while OpenAI&amp;#x27;s IPO delay to 2027 pushes back any return; SB Energy&amp;#x27;s IPO filing projects $439B in contracted revenue despite operating no data centres and depending heavily on OpenAI.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;软银 646 亿美元押注 OpenAI 成 AI 支出风向标 股价单日跌 10.8%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该事件揭示 AI 资本开支的融资杠杆与信用风险定价，是判断 AI 基建投资周期可持续性的关键观察点。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 71/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2118811515822514556">Rohan Paul (@rohanpaul_ai)</source>
+<category>软银</category>
+<category>OpenAI</category>
+<category>AI 基建</category>
+<category>融资</category>
+</item>
+<item><title>UC Berkeley Paper Finds Fine-Tuning Data Can Covertly Implant Harmful Behaviors</title><link>https://x.com/rohanpaul_ai/status/2118810336673562807</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118810336673562807</guid>
+<pubDate>Sat, 07 Nov 2026 04:58:44 +0800</pubDate>
+<description>&lt;p&gt;A new UC Berkeley paper shows that seemingly normal fine-tuning data can silently implant harmful behaviors, such as insecure code triggering broad misalignment. The team built a pipeline that generated 6,575 stealth datasets across 8 behaviors; 72% of the side effects transferred to all five other models tested, including one 8x larger, while human experts spotted the risk only 63% of the time—barely above chance.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;伯克利新论文：微调数据可暗中植入有害行为&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究首次系统化揭示微调数据可隐蔽植入有害行为且跨模型迁移，直接冲击当前数据审核与安全对齐实践。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2118810336673562807">Rohan Paul (@rohanpaul_ai)</source>
+<category>微调安全</category>
+<category>模型对齐</category>
+<category>UC Berkeley</category>
+<category>数据审核</category>
+</item>
+<item><title>SketchAgentBench Launched to Evaluate LLMs on 3D Spatial Reasoning</title><link>https://sketchagent.dev/</link><guid isPermaLink="true">https://sketchagent.dev/</guid>
+<pubDate>Sat, 07 Nov 2026 04:28:24 +0800</pubDate>
+<description>&lt;p&gt;SketchAgentBench is a new benchmark aimed at evaluating large language models on 3D spatial reasoning, addressing a gap in current evaluation suites that rarely probe spatial understanding. The available material only states its name and target capability, lacking task design, dataset scale, and experimental results, so its practical value awaits verification via the full paper or code release.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SketchAgentBench 发布 评测大模型三维空间推理能力&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;空间推理是大模型能力评测中相对薄弱的一环，该基准方向有价值，但信息量过少暂不足以支撑深度判断。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 38/100&lt;/p&gt;</description>
+<source url="https://sketchagent.dev/">Hacker News AI</source>
+<category>大模型</category>
+<category>评测基准</category>
+<category>空间推理</category>
+</item>
+<item><title>Anthropic Signals AI R&amp;D Acceleration May Near RSP Threshold</title><link>https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai</link><guid isPermaLink="true">https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai</guid>
+<pubDate>Sat, 07 Nov 2026 04:27:23 +0800</pubDate>
+<description>&lt;p&gt;Anthropic&amp;#x27;s S1 filing says it may &amp;#x27;imminently meet&amp;#x27; its Responsible Scaling Policy threshold for dramatically accelerated progress from AI, defined as overall capability progress at twice the fastest pre-AI sustained rate and plausibly attributable to AI automating AI R&amp;amp;D. A public METR report and outside commentary treat the claim as substantive, though the underlying evidence and unredacted data remain undisclosed.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 称 AI 研发加速或逼近 RSP 阈值&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部实验室首次公开逼近“AI 加速 AI 研发”自我改进阈值，是观察递归式能力提升与安全政策落地的关键信号。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai">Hacker News AI</source>
+<category>Anthropic</category>
+<category>AI 研发自动化</category>
+<category>AI 安全</category>
+<category>负责任扩展政策</category>
+</item>
 <item><title>NBC Exit Poll: 56% of Midterm Voters Cite AI and Data Centers as Key Factor</title><link>https://x.com/rohanpaul_ai/status/2118797465415790686</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118797465415790686</guid>
 <pubDate>Sat, 07 Nov 2026 04:07:35 +0800</pubDate>
 <description>&lt;p&gt;An NBC News midterm exit poll of more than 79,000 voters found that 56% called AI and data centers a &amp;#x27;crucial or major factor,&amp;#x27; the lowest share among the five issues tested. The result shows AI infrastructure has entered the electorate&amp;#x27;s agenda but still ranks behind other concerns.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;NBC 出口民调：56% 中期选举选民将 AI 与数据中心列为关键议题&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 议题首次以民调数据形式进入政治议程的观察样本，对判断数据中心选址与监管舆论环境有参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 38/100&lt;/p&gt;</description>
@@ -54,6 +98,15 @@
 <category>开源</category>
 <category>智能体编程</category>
 <category>Ricursive</category>
+</item>
+<item><title>Open-Source Tool Lets AI Agents Infer Lego Mechanisms from LDraw Source and Animate Them in Blender</title><link>https://github.com/anteloc/ldraw-mecha/tree/v0.5.0</link><guid isPermaLink="true">https://github.com/anteloc/ldraw-mecha/tree/v0.5.0</guid>
+<pubDate>Sat, 07 Nov 2026 03:41:20 +0800</pubDate>
+<description>&lt;p&gt;ldraw-mecha is a Show HN open-source project that feeds an LDraw Lego model&amp;#x27;s .mpd source to an AI agent, which reverse-engineers the embedded mechanical structures, plans interactions between components, and emits Blender Python code to build rigs and render animations. It demonstrates an end-to-end agent pipeline spanning structured CAD parsing and cross-tool code generation, though it remains a personal experimental tool without quantitative evaluation.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;开源项目让 AI 智能体从 LDraw 源码推断乐高机械结构并生成 Blender 动画&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以具体可复现的开源管线展示智能体解析结构化模型并驱动 3D 工具链的能力，对关注 Agent 工程化的读者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 58/100&lt;/p&gt;</description>
+<source url="https://github.com/anteloc/ldraw-mecha/tree/v0.5.0">Hacker News AI</source>
+<category>智能体</category>
+<category>开源</category>
+<category>3D 动画</category>
+<category>代码生成</category>
 </item>
 <item><title>Firecracker VM Escape Flaw Grants Host Root Access from Guest</title><link>https://pwn.ai/blog/firecracker-escape</link><guid isPermaLink="true">https://pwn.ai/blog/firecracker-escape</guid>
 <pubDate>Sat, 07 Nov 2026 03:33:38 +0800</pubDate>
@@ -168,100 +221,46 @@
 <category>推理部署</category>
 <category>AWS</category>
 </item>
-<item><title>Democratic Midterm Wins Signal Tighter Data Center Regulation Ahead</title><link>https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/</link><guid isPermaLink="true">https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/</guid>
+<item><title>美中期选举民主党大胜 数据中心监管或全面收紧</title><link>https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/</link><guid isPermaLink="true">https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/</guid>
 <pubDate>Sat, 07 Nov 2026 02:00:00 +0800</pubDate>
-<description>&lt;p&gt;Democrats&amp;#x27; historic midterm wins included restrictive outcomes on 41 data center ballot measures, with all but one favoring tighter limits on development. Newly elected Democratic governors and lawmakers are expected to push further regulation, potentially reshaping AI compute buildout and increasing scrutiny of Big Tech.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美中期选举民主党大胜 数据中心监管或全面收紧&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;选举结果直接指向数据中心监管收紧，是影响 AI 算力扩张节奏的政策信号。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;美国中期选举中民主党取得历史性胜利，41 项数据中心相关公投里除一项外均通过限制数据中心开发的措施，新当选的民主党州长与议员预计将推动更多监管。这可能重塑 AI 算力基础设施的扩张节奏，并加大对大型科技公司的政府审查力度。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;选举结果直接指向数据中心监管收紧，是影响 AI 算力扩张节奏的政策信号。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 38/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/">TechCrunch AI</source>
 <category>数据中心</category>
 <category>监管政策</category>
 <category>美国中期选举</category>
 </item>
-<item><title>Perplexity Launches Teammates AI Agents for Ongoing Work</title><link>https://www.perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-ongoing-work</link><guid isPermaLink="true">https://www.perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-ongoing-work</guid>
+<item><title>Perplexity 推出可长期负责项目的 AI 智能体 Teammates</title><link>https://www.perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-ongoing-work</link><guid isPermaLink="true">https://www.perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-ongoing-work</guid>
 <pubDate>Sat, 07 Nov 2026 01:59:41 +0800</pubDate>
-<description>&lt;p&gt;Perplexity launched Teammates, personal agents that coordinate Computer sessions and other agents to own long-running projects across marketing, sales, support and operations, with users able to inspect and steer work in progress. Access and features will expand over the coming weeks.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Perplexity 推出可长期负责项目的 AI 智能体 Teammates&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Perplexity 从问答助手向可长期负责工作的智能体平台延伸的一步，但发布时缺少具体能力参数与评测数据。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Perplexity 发布名为 Teammates 的个人智能体，可在 Perplexity Computer 中协调多个会话与其他智能体，持续负责营销、销售、支持、运营等长期项目，并支持用户中途检查与引导。该功能目前仅面向部分用户开放，官方称未来数周将扩大访问范围与功能。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Perplexity 从问答助手向可长期负责工作的智能体平台延伸的一步，但发布时缺少具体能力参数与评测数据。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-ongoing-work">Hacker News AI</source>
 <category>智能体</category>
 <category>Perplexity</category>
 <category>AI 助手</category>
 </item>
-<item><title>Flawless UI-UX Skill 1.0.0 Ships One-Command Install for Coding Agents</title><link>https://github.com/smokeeaasd/flawless-ui-ux/releases/tag/v1.0.0</link><guid isPermaLink="true">https://github.com/smokeeaasd/flawless-ui-ux/releases/tag/v1.0.0</guid>
+<item><title>Flawless UI-UX 技能包发布 一条命令接入多款编码智能体</title><link>https://github.com/smokeeaasd/flawless-ui-ux/releases/tag/v1.0.0</link><guid isPermaLink="true">https://github.com/smokeeaasd/flawless-ui-ux/releases/tag/v1.0.0</guid>
 <pubDate>Sat, 07 Nov 2026 01:52:34 +0800</pubDate>
-<description>&lt;p&gt;Flawless UI-UX 1.0.0 is a UI/UX skill package for coding agents, installable into project or global scope with a single npx/pnpm/bunx command and targeting agents such as Codex, Devin and Claude Code. It offers both an interactive picker and explicit flags, plus structured exit codes for CI use. It is a developer-tooling convenience release without disclosed design methodology or measured results.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Flawless UI-UX 技能包发布 一条命令接入多款编码智能体&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向编码智能体的 UI/UX 技能包安装器，对使用多智能体工作流的开发者有一定实用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Flawless UI-UX 1.0.0 是一个面向编码智能体的 UI/UX 技能包，通过 npx/pnpm/bunx 一条命令安装到项目或全局作用域，并支持 Codex、Devin、Claude Code 等多个智能体目标。它提供交互式选择与显式参数两种安装方式，并返回结构化退出码以便 CI 集成。整体属于开发者工具层面的易用性改进，未披露具体设计方法论或效果数据。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向编码智能体的 UI/UX 技能包安装器，对使用多智能体工作流的开发者有一定实用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
 <source url="https://github.com/smokeeaasd/flawless-ui-ux/releases/tag/v1.0.0">Hacker News AI</source>
 <category>开发者工具</category>
 <category>编码智能体</category>
 <category>UI/UX</category>
 </item>
-<item><title>Meta Indefinitely Pauses Commercial Terms Update After AI Training Backlash</title><link>https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/</link><guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/</guid>
+<item><title>Meta 迫于舆论压力 无限期搁置商业条款 AI 训练更新</title><link>https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/</link><guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/</guid>
 <pubDate>Sat, 07 Nov 2026 01:43:02 +0800</pubDate>
-<description>&lt;p&gt;Meta has indefinitely paused a planned update to its commercial terms that would have required Meta Business account holders to permit extensive AI training on external websites linked from Facebook. The retreat follows weeks of backlash and a failed attempt to defuse criticism by tweaking wording. Legal experts had warned the vague language could let Meta bypass robots.txt scraping preferences and avoid millions in AI content licensing fees.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 迫于舆论压力 无限期搁置商业条款 AI 训练更新&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 训练数据授权与平台条款边界的重要产业事件，直接关系到内容方权益与抓取合规。&lt;/p&gt;&lt;p&gt;Ars Technica AI · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Meta 宣布无限期暂停原计划更新的商业服务条款，该条款原本要求 Meta Business 账户用户授权 Meta 对 Facebook 上链接的外部网站内容进行大规模 AI 训练。在遭到数周强烈反对、且一次试图平息争议的措辞修改失败后，Meta 选择搁置变更并维持现有条款。法律专家此前警告，模糊措辞可能让 Meta 绕过 robots.txt 抓取偏好，从而规避数百万美元的 AI 内容授权费。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 训练数据授权与平台条款边界的重要产业事件，直接关系到内容方权益与抓取合规。&lt;/p&gt;&lt;p&gt;Ars Technica AI · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/">Ars Technica AI</source>
 <category>AI 训练数据</category>
 <category>Meta</category>
 <category>平台条款</category>
 <category>内容授权</category>
 </item>
-<item><title>Amazon Proposes Taxonomy of Agentic Primitives for Its Quick Assistant</title><link>https://aws.amazon.com/blogs/machine-learning/taxonomy-of-agentic-primitives-in-amazon-quick/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/taxonomy-of-agentic-primitives-in-amazon-quick/</guid>
+<item><title>亚马逊提出智能体原语分类框架 用四个问题拆解代理工作</title><link>https://aws.amazon.com/blogs/machine-learning/taxonomy-of-agentic-primitives-in-amazon-quick/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/taxonomy-of-agentic-primitives-in-amazon-quick/</guid>
 <pubDate>Sat, 07 Nov 2026 01:34:45 +0800</pubDate>
-<description>&lt;p&gt;While building Amazon Quick, the team found no shared vocabulary for the primitives that agentic work is built from, causing the same concepts to be rebuilt under different names and leaking complexity into product design. The post proposes decomposing agentic work into four questions—When, What, Who, How—yielding primitives such as triggers, actors, packaged procedures and memory, mostly hidden from end users.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊提出智能体原语分类框架 用四个问题拆解代理工作&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是一篇厂商视角的智能体架构概念梳理，对理解代理系统设计有参考价值，但缺乏可验证的技术细节与数据。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;亚马逊在构建 Quick 智能体时发现，业界缺乏对智能体基础构件（原语）的统一命名，导致同一概念被反复重建并影响产品设计。文章提出用“何时、做什么、谁、如何”四个问题拆解代理工作，归纳出触发器、执行者、封装流程与记忆等原语，并称该框架对终端用户默认不可见。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是一篇厂商视角的智能体架构概念梳理，对理解代理系统设计有参考价值，但缺乏可验证的技术细节与数据。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 38/100&lt;/p&gt;</description>
 <source url="https://aws.amazon.com/blogs/machine-learning/taxonomy-of-agentic-primitives-in-amazon-quick/">AWS Machine Learning Blog</source>
 <category>智能体</category>
 <category>亚马逊</category>
 <category>架构设计</category>
-</item>
-<item><title>Devvm Launches Open-Source Isolated Dev VM per Project</title><link>https://devvm.dev/</link><guid isPermaLink="true">https://devvm.dev/</guid>
-<pubDate>Sat, 07 Nov 2026 01:30:22 +0800</pubDate>
-<description>&lt;p&gt;Devvm is an MIT-licensed open-source tool that spins up an isolated VM with each project&amp;#x27;s toolchain, ready for developers or coding agents to work in safely. It installs via Homebrew or a script, bundles Lima and QEMU, and supports launching agents like Claude Code inside the sandbox.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Devvm 开源发布 为每个项目提供隔离开发虚拟机&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为编码智能体提供隔离运行环境，契合当前 Agent 安全落地的实际需求。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
-<source url="https://devvm.dev/">Hacker News AI</source>
-<category>开发者工具</category>
-<category>智能体</category>
-<category>开源</category>
-<category>沙箱隔离</category>
-</item>
-<item><title>OpenAI CFO 回应数据中心电费、用水与噪音争议</title><link>https://x.com/rohanpaul_ai/status/2118757634593689610</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118757634593689610</guid>
-<pubDate>Sat, 07 Nov 2026 01:29:19 +0800</pubDate>
-<description>&lt;p&gt;OpenAI CFO Sarah Friar 在 CNBC 采访中回应社区对数据中心的三类担忧：承诺不推高居民电费并投资电网、称耗水约两个奥运泳池且多为冷却循环与员工用水、并计划以 300 英尺高隔音土堤控制噪音。表态以公关沟通为主，未给出具体能耗、用水或选址数据。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 基础设施扩张与社区关系议题的官方表态，反映算力建设的现实约束，但缺乏可验证数据。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 38/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2118757634593689610">Rohan Paul (@rohanpaul_ai)</source>
-<category>OpenAI</category>
-<category>数据中心</category>
-<category>算力基础设施</category>
-<category>AI 能耗</category>
-</item>
-<item><title>美中期选举后 数据中心监管收紧或重塑 AI 产业</title><link>https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/</link><guid isPermaLink="true">https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/</guid>
-<pubDate>Sat, 07 Nov 2026 01:23:52 +0800</pubDate>
-<description>&lt;p&gt;美国中期选举中，41 项数据中心相关公投里 40 项由多数选民支持加强限制，新当选的民主党州长与议员预计将推动更多监管。这一政治转向可能给 AI 算力扩张带来更大阻力，并加剧政府对大型科技公司的审查。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;选举结果直接指向数据中心监管与算力扩张的政治风险，是 AI 产业未来两年走向的重要变量。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/">TechCrunch AI</source>
-<category>数据中心</category>
-<category>监管</category>
-<category>中期选举</category>
-<category>算力</category>
-</item>
-<item><title>Anthropic IPO 估值谈判下调至 1.3 万亿美元</title><link>https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3-trillion-as-major-investors</link><guid isPermaLink="true">https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3-trillion-as-major-investors</guid>
-<pubDate>Sat, 07 Nov 2026 01:21:15 +0800</pubDate>
-<description>&lt;p&gt;受纳斯达克 100 单日暴跌 6.4%、市值蒸发约 2.3 万亿美元影响，Anthropic 的 IPO 估值预期在数日内从 1.4-1.5 万亿美元下调至 1.2-1.3 万亿美元，部分潜在投资者甚至认为应接近 1 万亿美元。作为可能首家上市的前沿模型开发商，其定价将成为检验 AI 龙头需求能否扛住板块回调的关键风向标。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首家前沿模型公司 IPO 定价实时下调，是观察 AI 资本周期与市场情绪转向的重要信号。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3-trillion-as-major-investors">Hacker News AI</source>
-<category>Anthropic</category>
-<category>IPO</category>
-<category>融资估值</category>
-<category>美股</category>
-</item>
-<item><title>AWS 构建无服务器 MCP 网关 打通智能体与数据湖</title><link>https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate/</guid>
-<pubDate>Sat, 07 Nov 2026 01:13:13 +0800</pubDate>
-<description>&lt;p&gt;AWS 团队在 Amazon ECS Fargate 上构建了无服务器的 Model Context Protocol 服务器，作为 AI 智能体访问企业数据湖的统一网关，避免每个智能体重复实现数据集成与权限控制。该方案已在北美分拣中心网络的规划团队落地，并支持在生成 SQL 时自动排除敏感列、闭环收集查询失败模式以优化元数据描述。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是大厂内部落地 MCP 网关的工程实践，对构建多智能体数据访问架构的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 42/100&lt;/p&gt;</description>
-<source url="https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate/">AWS Machine Learning Blog</source>
-<category>MCP</category>
-<category>AWS</category>
-<category>智能体</category>
-<category>数据湖</category>
-<category>无服务器</category>
-</item>
-<item><title>Nilay Patel 批评 AI 行业：产品价值不足，成本与收益严重失衡</title><link>https://simonwillison.net/2026/Nov/6/nilay-patel/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/6/nilay-patel/</guid>
-<pubDate>Sat, 07 Nov 2026 01:13:12 +0800</pubDate>
-<description>&lt;p&gt;The Verge 主编 Nilay Patel 在播客中直言，AI 产品当前的价值不足以支撑其高昂的社会与基础设施成本，智能体尚未真正落地，行业投入远超产出。他认为 AI 行业只有做出让用户无需说服就能感受到生活改善的产品，才能走出当前的信任与商业困境。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是一条来自主流科技媒体主编的尖锐行业批评，直指 AI 商业化与产品价值的核心矛盾，适合关注 AI 产业走向的读者。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://simonwillison.net/2026/Nov/6/nilay-patel/">Simon Willison 博客</source>
-<category>AI 产业</category>
-<category>行业批评</category>
-<category>商业化</category>
 </item>
 </channel>
 </rss>
