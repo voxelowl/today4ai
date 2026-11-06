@@ -1,8 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 07 Nov 2026 01:43:02 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 07 Nov 2026 02:10:10 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Meta Muse Adds Spaces for Custom App-Like Experiences</title><link>https://www.theverge.com/tech/1028871/meta-muse-ai-spaces</link><guid isPermaLink="true">https://www.theverge.com/tech/1028871/meta-muse-ai-spaces</guid>
+<pubDate>Sat, 07 Nov 2026 02:10:10 +0800</pubDate>
+<description>&lt;p&gt;Meta is rolling out Spaces to all Muse AI users, letting them build app-like experiences such as shopping hubs, school dashboards, and music trackers by describing them in natural language and refining them through conversation. Connected apps can refresh pricing and dates in the background, and a specialized Muse Wonder model ships alongside the launch, with sharing and collaboration still under exploration.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta Muse 推出 Spaces 功能 可自建应用式交互空间&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 助手从对话走向可定制轻应用形态的产品演进信号，值得关注智能体产品化方向的读者了解。&lt;/p&gt;&lt;p&gt;The Verge AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.theverge.com/tech/1028871/meta-muse-ai-spaces">The Verge AI</source>
+<category>Meta</category>
+<category>AI 助手</category>
+<category>智能体</category>
+<category>产品发布</category>
+</item>
+<item><title>Fulcra Launches Multiplayer Mode for Cross-Platform Agent Messaging</title><link>https://x.com/rohanpaul_ai/status/2118766406095516159</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118766406095516159</guid>
+<pubDate>Sat, 07 Nov 2026 02:04:10 +0800</pubDate>
+<description>&lt;p&gt;Fulcra has launched a multiplayer mode that lets agents on different platforms message each other directly, eliminating shared logins or manual context copy-pasting. The system acts as a broker built on a user-owned shared data store: each agent writes only to its own read-only channel, the other side shares back only after explicit opt-in, and every share is visible and revocable. Agents connect via a CLI or MCP server, with the free plan including millions of agent-to-agent messages.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Fulcra 推出多智能体互通模式 跨平台无需共享登录&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;跨平台智能体互通是智能体生态的关键缺口，该方案以权限隔离和可撤销共享给出可落地的工程路径。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 62/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2118766406095516159">Rohan Paul (@rohanpaul_ai)</source>
+<category>智能体</category>
+<category>MCP</category>
+<category>跨平台互通</category>
+</item>
+<item><title>Microsoft Said to Wind Down Oracle Deal for Rented AI Cloud Capacity</title><link>https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/</link><guid isPermaLink="true">https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/</guid>
+<pubDate>Sat, 07 Nov 2026 02:04:06 +0800</pubDate>
+<description>&lt;p&gt;Bloomberg reports that Microsoft is winding down an agreement to rent AI cloud capacity from Oracle. The move signals that hyperscalers are reassessing reliance on external capacity as their own AI infrastructure expands; scale and timeline were not disclosed.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;微软据报逐步终止租用 Oracle AI 云算力协议&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部云厂商调整 AI 算力外租策略，是观察算力供需与云竞争格局变化的信号。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/">Hacker News AI</source>
+<category>算力</category>
+<category>微软</category>
+<category>Oracle</category>
+<category>云计算</category>
+</item>
+<item><title>SageMaker Inference Adds Multi-Instance GPU Partitioning</title><link>https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/</guid>
+<pubDate>Sat, 07 Nov 2026 02:01:00 +0800</pubDate>
+<description>&lt;p&gt;Amazon SageMaker Inference now supports GPU partitioning via NVIDIA Multi-Instance GPU (MIG), splitting a physical GPU into hardware-isolated partitions each with a fixed share of compute and dedicated memory. This removes the whole-accelerator minimum, letting teams host more models per instance or request a fraction of a newer GPU instead of over-provisioning.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SageMaker 推理支持多实例 GPU 分区提升利用率&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;对在云上部署推理服务的团队而言，GPU 分区直接改变容量规划与成本模型，具备实际决策价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · compute · signal 62/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/">AWS Machine Learning Blog</source>
+<category>GPU 分区</category>
+<category>推理部署</category>
+<category>AWS</category>
+</item>
+<item><title>Democratic Midterm Wins Signal Tighter Data Center Regulation Ahead</title><link>https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/</link><guid isPermaLink="true">https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/</guid>
+<pubDate>Sat, 07 Nov 2026 02:00:00 +0800</pubDate>
+<description>&lt;p&gt;Democrats&amp;#x27; historic midterm wins included restrictive outcomes on 41 data center ballot measures, with all but one favoring tighter limits on development. Newly elected Democratic governors and lawmakers are expected to push further regulation, potentially reshaping AI compute buildout and increasing scrutiny of Big Tech.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美中期选举民主党大胜 数据中心监管或全面收紧&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;选举结果直接指向数据中心监管收紧，是影响 AI 算力扩张节奏的政策信号。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 38/100&lt;/p&gt;</description>
+<source url="https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/">TechCrunch AI</source>
+<category>数据中心</category>
+<category>监管政策</category>
+<category>美国中期选举</category>
+</item>
+<item><title>Perplexity Launches Teammates AI Agents for Ongoing Work</title><link>https://www.perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-ongoing-work</link><guid isPermaLink="true">https://www.perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-ongoing-work</guid>
+<pubDate>Sat, 07 Nov 2026 01:59:41 +0800</pubDate>
+<description>&lt;p&gt;Perplexity launched Teammates, personal agents that coordinate Computer sessions and other agents to own long-running projects across marketing, sales, support and operations, with users able to inspect and steer work in progress. Access and features will expand over the coming weeks.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Perplexity 推出可长期负责项目的 AI 智能体 Teammates&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Perplexity 从问答助手向可长期负责工作的智能体平台延伸的一步，但发布时缺少具体能力参数与评测数据。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-ongoing-work">Hacker News AI</source>
+<category>智能体</category>
+<category>Perplexity</category>
+<category>AI 助手</category>
+</item>
+<item><title>Flawless UI-UX Skill 1.0.0 Ships One-Command Install for Coding Agents</title><link>https://github.com/smokeeaasd/flawless-ui-ux/releases/tag/v1.0.0</link><guid isPermaLink="true">https://github.com/smokeeaasd/flawless-ui-ux/releases/tag/v1.0.0</guid>
+<pubDate>Sat, 07 Nov 2026 01:52:34 +0800</pubDate>
+<description>&lt;p&gt;Flawless UI-UX 1.0.0 is a UI/UX skill package for coding agents, installable into project or global scope with a single npx/pnpm/bunx command and targeting agents such as Codex, Devin and Claude Code. It offers both an interactive picker and explicit flags, plus structured exit codes for CI use. It is a developer-tooling convenience release without disclosed design methodology or measured results.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Flawless UI-UX 技能包发布 一条命令接入多款编码智能体&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向编码智能体的 UI/UX 技能包安装器，对使用多智能体工作流的开发者有一定实用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
+<source url="https://github.com/smokeeaasd/flawless-ui-ux/releases/tag/v1.0.0">Hacker News AI</source>
+<category>开发者工具</category>
+<category>编码智能体</category>
+<category>UI/UX</category>
+</item>
 <item><title>Meta Indefinitely Pauses Commercial Terms Update After AI Training Backlash</title><link>https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/</link><guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/</guid>
 <pubDate>Sat, 07 Nov 2026 01:43:02 +0800</pubDate>
 <description>&lt;p&gt;Meta has indefinitely paused a planned update to its commercial terms that would have required Meta Business account holders to permit extensive AI training on external websites linked from Facebook. The retreat follows weeks of backlash and a failed attempt to defuse criticism by tweaking wording. Legal experts had warned the vague language could let Meta bypass robots.txt scraping preferences and avoid millions in AI content licensing fees.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 迫于舆论压力 无限期搁置商业条款 AI 训练更新&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 训练数据授权与平台条款边界的重要产业事件，直接关系到内容方权益与抓取合规。&lt;/p&gt;&lt;p&gt;Ars Technica AI · industry · signal 58/100&lt;/p&gt;</description>
@@ -11,6 +69,23 @@
 <category>Meta</category>
 <category>平台条款</category>
 <category>内容授权</category>
+</item>
+<item><title>Amazon Proposes Taxonomy of Agentic Primitives for Its Quick Assistant</title><link>https://aws.amazon.com/blogs/machine-learning/taxonomy-of-agentic-primitives-in-amazon-quick/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/taxonomy-of-agentic-primitives-in-amazon-quick/</guid>
+<pubDate>Sat, 07 Nov 2026 01:34:45 +0800</pubDate>
+<description>&lt;p&gt;While building Amazon Quick, the team found no shared vocabulary for the primitives that agentic work is built from, causing the same concepts to be rebuilt under different names and leaking complexity into product design. The post proposes decomposing agentic work into four questions—When, What, Who, How—yielding primitives such as triggers, actors, packaged procedures and memory, mostly hidden from end users.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊提出智能体原语分类框架 用四个问题拆解代理工作&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是一篇厂商视角的智能体架构概念梳理，对理解代理系统设计有参考价值，但缺乏可验证的技术细节与数据。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 38/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/taxonomy-of-agentic-primitives-in-amazon-quick/">AWS Machine Learning Blog</source>
+<category>智能体</category>
+<category>亚马逊</category>
+<category>架构设计</category>
+</item>
+<item><title>Devvm Launches Open-Source Isolated Dev VM per Project</title><link>https://devvm.dev/</link><guid isPermaLink="true">https://devvm.dev/</guid>
+<pubDate>Sat, 07 Nov 2026 01:30:22 +0800</pubDate>
+<description>&lt;p&gt;Devvm is an MIT-licensed open-source tool that spins up an isolated VM with each project&amp;#x27;s toolchain, ready for developers or coding agents to work in safely. It installs via Homebrew or a script, bundles Lima and QEMU, and supports launching agents like Claude Code inside the sandbox.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Devvm 开源发布 为每个项目提供隔离开发虚拟机&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为编码智能体提供隔离运行环境，契合当前 Agent 安全落地的实际需求。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
+<source url="https://devvm.dev/">Hacker News AI</source>
+<category>开发者工具</category>
+<category>智能体</category>
+<category>开源</category>
+<category>沙箱隔离</category>
 </item>
 <item><title>OpenAI CFO Addresses Data Center Power, Water and Noise Concerns</title><link>https://x.com/rohanpaul_ai/status/2118757634593689610</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118757634593689610</guid>
 <pubDate>Sat, 07 Nov 2026 01:29:19 +0800</pubDate>
@@ -39,6 +114,16 @@
 <category>融资估值</category>
 <category>美股</category>
 </item>
+<item><title>AWS Builds Serverless MCP Gateway for Agent Data Lake Access</title><link>https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate/</guid>
+<pubDate>Sat, 07 Nov 2026 01:13:13 +0800</pubDate>
+<description>&lt;p&gt;An AWS team built a serverless Model Context Protocol (MCP) server on Amazon ECS Fargate that acts as a centralized, agent-agnostic gateway between LLM agents and enterprise data lakes, eliminating duplicated integration and access-control logic per agent. Deployed for North America Sort Center planning teams, it automatically excludes sensitive columns from generated SQL and closes the feedback loop by capturing query failures to improve column descriptions and query hints.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS 构建无服务器 MCP 网关 打通智能体与数据湖&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是大厂内部落地 MCP 网关的工程实践，对构建多智能体数据访问架构的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 42/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate/">AWS Machine Learning Blog</source>
+<category>MCP</category>
+<category>AWS</category>
+<category>智能体</category>
+<category>数据湖</category>
+<category>无服务器</category>
+</item>
 <item><title>Nilay Patel Criticizes AI Industry: Products Not Good Enough to Justify Costs</title><link>https://simonwillison.net/2026/Nov/6/nilay-patel/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/6/nilay-patel/</guid>
 <pubDate>Sat, 07 Nov 2026 01:13:12 +0800</pubDate>
 <description>&lt;p&gt;The Verge editor Nilay Patel argues on The Vergecast that AI products do not yet deliver enough value to justify their infrastructure and social costs, that agents remain largely unreal, and that industry spending far exceeds revenue. He contends the AI industry cannot escape its credibility and business problems until products visibly improve users&amp;#x27; lives without needing persuasion.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Nilay Patel 批评 AI 行业：产品价值不足，成本与收益严重失衡&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是一条来自主流科技媒体主编的尖锐行业批评，直指 AI 商业化与产品价值的核心矛盾，适合关注 AI 产业走向的读者。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · industry · signal 58/100&lt;/p&gt;</description>
@@ -56,6 +141,52 @@
 <category>Artificial Analysis</category>
 <category>生命科学</category>
 </item>
+<item><title>AWS and Okta Scale Cross-App Access Governance for AI Agents</title><link>https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-2/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-2/</guid>
+<pubDate>Sat, 07 Nov 2026 01:09:23 +0800</pubDate>
+<description>&lt;p&gt;AWS published Part 2 of its series on governing AI agent access using Okta Cross App Access with Amazon Bedrock AgentCore. The post moves from Part 1&amp;#x27;s single-agent, two-MCP-server proof of concept to a topology that supports hundreds of agents and thousands of tools, shifting authorization checks out of individual MCP servers into a centralized gateway.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS 与 Okta 扩展 AI 智能体跨应用访问治理方案&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向企业智能体规模化落地的身份与授权治理实践，对构建多智能体系统的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 38/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-2/">AWS Machine Learning Blog</source>
+<category>智能体</category>
+<category>AWS</category>
+<category>Okta</category>
+<category>身份授权</category>
+<category>MCP</category>
+</item>
+<item><title>Okta and Amazon Bedrock Team Up to Govern AI Agent Cross-App Access</title><link>https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-1/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-1/</guid>
+<pubDate>Sat, 07 Nov 2026 01:09:18 +0800</pubDate>
+<description>&lt;p&gt;Okta and Amazon Bedrock AgentCore introduced a Cross App Access (XAA) approach that centralizes control of AI agents acting on behalf of users within the identity provider. Administrators register agents in Okta and approve reachable applications, with Okta evaluating policy on each request; in tests, revoked user assignments blocked new requests within about one second and issued tokens expired within five minutes.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Okta 联合亚马逊 Bedrock 推出智能体跨应用访问管控&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该方案针对智能体代表用户访问应用时的授权治理难题，给出了可验证的实时撤销机制，对企业身份安全团队有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 58/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-1/">AWS Machine Learning Blog</source>
+<category>智能体</category>
+<category>身份安全</category>
+<category>Okta</category>
+<category>Amazon Bedrock</category>
+</item>
+<item><title>AegisKernel Launches Zero-Trust POSIX Runtime for Sub-Millisecond Agent Tool Hijacking Defense</title><link>https://adikshatriyag-crypto.github.io/aegis-kernel/</link><guid isPermaLink="true">https://adikshatriyag-crypto.github.io/aegis-kernel/</guid>
+<pubDate>Sat, 07 Nov 2026 01:00:23 +0800</pubDate>
+<description>&lt;p&gt;AegisKernel introduces a zero-trust POSIX runtime for AI agents, claiming deterministic capability boundaries instead of probabilistic LLM guardrails to block autonomous tool hijacking in under 0.016ms. It offers a two-line integration for LangChain, CrewAI and AutoGen, alongside a red-team attack-vector demo page.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AegisKernel 发布零信任 POSIX 运行时 亚毫秒拦截智能体工具劫持&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;用确定性运行时边界替代概率护栏的思路对智能体安全有参考价值，但证据仅为演示页，缺乏可验证的基准与方法细节。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 58/100&lt;/p&gt;</description>
+<source url="https://adikshatriyag-crypto.github.io/aegis-kernel/">Hacker News AI</source>
+<category>智能体安全</category>
+<category>零信任</category>
+<category>运行时防护</category>
+<category>开源工具</category>
+</item>
+<item><title>PyLings Launches Rustlings-Style Python Interview Practice Tool</title><link>https://github.com/thesayfulla/pylings</link><guid isPermaLink="true">https://github.com/thesayfulla/pylings</guid>
+<pubDate>Sat, 07 Nov 2026 00:59:40 +0800</pubDate>
+<description>&lt;p&gt;PyLings is a zero-dependency Python 3.14 CLI practice tool modeled on rustlings, offering 35 warm-up tasks and 20 interview exercises spanning middle to staff level, with tests re-running on every save. Exercises cover iterators, LRU caches, rate limiters, circuit breakers and async worker pools, plus reference solutions and discussion questions.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;PyLings 发布 Rustlings 风格 Python 面试练习工具&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向 Python 面试准备的实用练习工具，覆盖从基础语法到 Staff 级工程设计的渐进式题目。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
+<source url="https://github.com/thesayfulla/pylings">Hacker News AI</source>
+<category>开发者工具</category>
+<category>Python</category>
+<category>面试练习</category>
+<category>开源</category>
+</item>
+<item><title>Greenlight Financial Builds Autonomous SOC on Amazon Bedrock AgentCore</title><link>https://aws.amazon.com/blogs/machine-learning/how-greenlight-financial-built-an-autonomous-soc-solution-on-amazon-bedrock-agentcore/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/how-greenlight-financial-built-an-autonomous-soc-solution-on-amazon-bedrock-agentcore/</guid>
+<pubDate>Sat, 07 Nov 2026 00:55:05 +0800</pubDate>
+<description>&lt;p&gt;Greenlight Financial built Luna, a multi-tiered agent system on Amazon Bedrock AgentCore, autonomously resolving over 90% of up to 4,000 monthly security and risk cases. Using a supervisor architecture with 30+ specialized agents plus AgentCore runtime and episodic memory, it extends from SOC triage into financial risk assessment.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Greenlight 基于 Amazon Bedrock AgentCore 构建自主安全运营智能体&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是厂商绑定的客户案例，缺少可复用的方法细节，但对多智能体安全运营架构仍有参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 38/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/how-greenlight-financial-built-an-autonomous-soc-solution-on-amazon-bedrock-agentcore/">AWS Machine Learning Blog</source>
+<category>智能体</category>
+<category>安全运营</category>
+<category>Amazon Bedrock</category>
+<category>多智能体系统</category>
+</item>
 <item><title>Nvidia Asks TSMC to Become Fourth Advanced Memory Supplier</title><link>https://x.com/rohanpaul_ai/status/2118748091792949625</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118748091792949625</guid>
 <pubDate>Sat, 07 Nov 2026 00:51:24 +0800</pubDate>
 <description>&lt;p&gt;Nvidia has reportedly asked TSMC to become a fourth supplier of advanced memory, and TSMC has begun drafting plans to manufacture 3D DRAM chips. The move aims to break the three-supplier grip of Samsung, SK Hynix and Micron, adding supply and curbing their pricing power, extending Nvidia&amp;#x27;s earlier push for TSMC&amp;#x27;s 3nm process in custom HBM base dies.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达要求台积电成为第四家先进内存供应商&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 内存短缺正重塑算力供应链格局，英伟达主动扶持第四供应商是影响 HBM 与 DRAM 定价权的关键产业动向。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 72/100&lt;/p&gt;</description>
@@ -65,6 +196,24 @@
 <category>HBM</category>
 <category>算力供应链</category>
 </item>
+<item><title>Taxbit Builds Role-Aware Compliance AI Assistant on Amazon Bedrock AgentCore</title><link>https://aws.amazon.com/blogs/machine-learning/taxbit-assist-a-grounded-role-aware-ai-agent-on-amazon-bedrock-agentcore/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/taxbit-assist-a-grounded-role-aware-ai-agent-on-amazon-bedrock-agentcore/</guid>
+<pubDate>Sat, 07 Nov 2026 00:49:42 +0800</pubDate>
+<description>&lt;p&gt;Taxbit built Taxbit Assist, an in-dashboard AI assistant, on Amazon Bedrock AgentCore, combining retrieval augmentation with permission-aware, cited answers for compliance teams. Internal analytics show over 55% of users who ask a question return within 24 hours. The case illustrates an engineering path for enterprise vertical assistants using a managed agent platform, knowledge bases, and guardrails.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Taxbit 在 Amazon Bedrock AgentCore 上构建角色感知合规 AI 助手&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是一篇厂商绑定的客户案例，缺少可复用的具体参数与方法细节，但对构建企业级权限感知 Agent 有参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 38/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/taxbit-assist-a-grounded-role-aware-ai-agent-on-amazon-bedrock-agentcore/">AWS Machine Learning Blog</source>
+<category>智能体</category>
+<category>Amazon Bedrock</category>
+<category>企业合规</category>
+<category>检索增强生成</category>
+</item>
+<item><title>humans&amp;ai Introduces GPU-Accelerated Weight Teleportation for RL Sync</title><link>https://humansand.ai/blog/gpu-accelerated-weight-teleportation</link><guid isPermaLink="true">https://humansand.ai/blog/gpu-accelerated-weight-teleportation</guid>
+<pubDate>Sat, 07 Nov 2026 00:49:00 +0800</pubDate>
+<description>&lt;p&gt;Large-scale RL requires trainer and sampler weights to stay closely aligned, making terabyte-scale weight transfer a bottleneck. humans&amp;amp;ai proposes a &amp;#x27;weight teleportation&amp;#x27; paradigm built on delta weight sync, with a Blackwell-native compression/decompression pipeline combining massively parallel GPU compression, distributed ownership with fault tolerance, a curated double-compression algorithm, and heterogeneous CPU-GPU decompression. The authors claim better-than-intra-cluster sync speeds in most cases, even when samplers and trainers are not co-located.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;humans&amp;amp;ai 提出 GPU 权重传送 突破 RL 权重同步瓶颈&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;直击大规模 RL 后训练中权重同步这一真实工程瓶颈，并给出可复用的压缩与传输架构思路。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 74/100&lt;/p&gt;</description>
+<source url="https://humansand.ai/blog/gpu-accelerated-weight-teleportation">Hacker News AI</source>
+<category>强化学习</category>
+<category>权重同步</category>
+<category>GPU 压缩</category>
+<category>后训练</category>
+</item>
 <item><title>Perplexity Launches Always-On Teammates Agents for Ongoing Work</title><link>https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent/</link><guid isPermaLink="true">https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent/</guid>
 <pubDate>Sat, 07 Nov 2026 00:47:28 +0800</pubDate>
 <description>&lt;p&gt;Perplexity launched Teammates, always-on AI agents that each run on a dedicated virtual machine with a desktop and browser, independently advancing ongoing projects while users track progress via app threads or Slack. The move puts Perplexity alongside SpaceX, Meta, OpenAI and Anthropic in the always-on agent race, with its annualized revenue topping $750 million as of August.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Perplexity 推出常驻 AI 智能体 Teammates 独立推进长期项目&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;常驻智能体是当前头部厂商竞相布局的关键形态，该产品明确了虚拟机隔离与多入口交互的实现方式，值得关注。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 72/100&lt;/p&gt;</description>
@@ -73,200 +222,49 @@
 <category>Perplexity</category>
 <category>常驻代理</category>
 </item>
-<item><title>Akai and Moog Parent inMusic Opens Device Code to Vibe-Coded Mods</title><link>https://www.theverge.com/tech/1028720/vibe-coding-open-source-inmusic-akai</link><guid isPermaLink="true">https://www.theverge.com/tech/1028720/vibe-coding-open-source-inmusic-akai</guid>
+<item><title>AWS 发布示例 将 Claude Code 接入 AgentCore 远程会话</title><link>https://aws.amazon.com/blogs/machine-learning/extend-claude-code-to-remote-sessions-on-amazon-bedrock-agentcore-with-security-controls/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/extend-claude-code-to-remote-sessions-on-amazon-bedrock-agentcore-with-security-controls/</guid>
+<pubDate>Sat, 07 Nov 2026 00:45:58 +0800</pubDate>
+<description>&lt;p&gt;AWS 发布示例项目，演示如何把本地运行的 Claude Code 迁移到 Amazon Bedrock AgentCore 运行时，让每个编码任务在独立隔离会话中执行并返回 GitHub PR。文章重点介绍远程代理架构与 Bedrock 数据管控在远程场景下的延续，属于厂商绑定的集成指南，未披露新的模型能力或性能数据。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;对使用 AWS 与 Claude Code 的团队有直接参考价值，但本质是厂商示例教程，缺乏新能力与量化结果。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 38/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/extend-claude-code-to-remote-sessions-on-amazon-bedrock-agentcore-with-security-controls/">AWS Machine Learning Blog</source>
+<category>Claude Code</category>
+<category>AWS</category>
+<category>AgentCore</category>
+<category>开发者工具</category>
+</item>
+<item><title>Akai 与 Moog 母公司开放设备代码 拥抱 AI 氛围编程改装</title><link>https://www.theverge.com/tech/1028720/vibe-coding-open-source-inmusic-akai</link><guid isPermaLink="true">https://www.theverge.com/tech/1028720/vibe-coding-open-source-inmusic-akai</guid>
 <pubDate>Sat, 07 Nov 2026 00:34:39 +0800</pubDate>
-<description>&lt;p&gt;inMusic CEO Jack O&amp;#x27;Donnell said the company will give the modding community access to the inner workings of devices like the MPC and Sample, offer an SDK, and open-source code for the upcoming MPC Sample Key while keeping official firmware stable and adding a reset option. The move signals hardware vendors embracing, rather than walling off, vibe-coded community modifications.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Akai 与 Moog 母公司开放设备代码 拥抱 AI 氛围编程改装&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是硬件厂商对 AI 辅助编程改装浪潮的公开态度转向，对关注 AI 工具外溢效应的读者有参考价值。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;inMusic 首席执行官 Jack O&amp;#x27;Donnell 表示，公司将向改装社区提供 MPC、Sample 等设备的内部代码与 SDK，并计划开源 MPC Sample Key 的代码，同时保留官方固件的稳定性与一键重置能力。此举被视为硬件厂商在 vibe coding 冲击下从封锁转向拥抱社区改装的信号。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是硬件厂商对 AI 辅助编程改装浪潮的公开态度转向，对关注 AI 工具外溢效应的读者有参考价值。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 38/100&lt;/p&gt;</description>
 <source url="https://www.theverge.com/tech/1028720/vibe-coding-open-source-inmusic-akai">The Verge AI</source>
 <category>AI 编程</category>
 <category>开源硬件</category>
 <category>音乐科技</category>
 </item>
-<item><title>Rune Open-Sources Native GPU-Rendered Rust UI Framework with Headless Agent Control</title><link>https://github.com/anomalyco/rune</link><guid isPermaLink="true">https://github.com/anomalyco/rune</guid>
+<item><title>Rune 开源原生 GPU 渲染 Rust UI 框架 支持无头运行供 Agent 驱动</title><link>https://github.com/anomalyco/rune</link><guid isPermaLink="true">https://github.com/anomalyco/rune</guid>
 <pubDate>Sat, 07 Nov 2026 00:31:32 +0800</pubDate>
-<description>&lt;p&gt;Rune is a Rust UI framework with native GPU rendering across macOS, Windows, Linux and the web, shipping its own renderer, text stack, layout engine and spring animations. Its differentiator is that every app can run headless, letting an agent render PNGs, dump the element tree and drive scripted input for automated verification. The project is pre-release and requires pinning a commit on the dev branch.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Rune 开源原生 GPU 渲染 Rust UI 框架 支持无头运行供 Agent 驱动&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向 Agent 可验证性的原生 Rust UI 框架，为 AI 编码代理提供无头渲染与脚本化交互能力，值得工具链读者关注。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Rune 是一个用 Rust 编写的原生 GPU 渲染 UI 框架，覆盖 macOS、Windows、Linux 与 Web，自带渲染器、文本、布局与弹簧动画系统。其差异化在于每个应用都可无头运行，Agent 能渲染 PNG、导出元素树并用脚本化输入驱动界面，便于自动化验证。项目目前处于 pre-release 阶段，需锁定 dev 分支的 commit 使用。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向 Agent 可验证性的原生 Rust UI 框架，为 AI 编码代理提供无头渲染与脚本化交互能力，值得工具链读者关注。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://github.com/anomalyco/rune">Hacker News AI</source>
 <category>Rust</category>
 <category>UI 框架</category>
 <category>Agent</category>
 <category>开源</category>
 </item>
-<item><title>OpenRouter Launches Next-Gen Auto Router and Auto Code Model Routers</title><link>https://x.com/OpenRouter/status/2118740149106573670</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2118740149106573670</guid>
+<item><title>OpenRouter 推出新一代模型路由 Auto Code 与 Auto Router</title><link>https://x.com/OpenRouter/status/2118740149106573670</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2118740149106573670</guid>
 <pubDate>Sat, 07 Nov 2026 00:19:50 +0800</pubDate>
-<description>&lt;p&gt;OpenRouter introduced a next-generation model router lineup: Auto Router for general Q&amp;amp;A and agents, and Auto Code for coding agents. It claims Auto Code benchmarks close to Opus 5.5 at 74% lower cost with 0.65s p90 latency, and exposes per-request routing decisions.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenRouter 推出新一代模型路由 Auto Code 与 Auto Router&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;模型路由是智能体成本与延迟优化的关键环节，该产品给出明确成本与延迟数据，值得关注。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenRouter 发布新一代模型路由产品：面向通用问答与智能体的 Auto Router，以及面向编码智能体的 Auto Code。官方称 Auto Code 基准表现接近 Opus 5.5，成本低 74%，p90 延迟仅 0.65 秒，并公开每次请求的路由决策过程。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;模型路由是智能体成本与延迟优化的关键环节，该产品给出明确成本与延迟数据，值得关注。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://x.com/OpenRouter/status/2118740149106573670">OpenRouter (@OpenRouter)</source>
 <category>模型路由</category>
 <category>OpenRouter</category>
 <category>智能体</category>
 <category>推理成本</category>
 </item>
-<item><title>NVIDIA Open Source 6G Tools Surpass 1 Million Downloads, Adoption Grows 10x</title><link>https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/</link><guid isPermaLink="true">https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/</guid>
+<item><title>英伟达开源 6G 工具下载量破百万 采用量增长 10 倍</title><link>https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/</link><guid isPermaLink="true">https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/</guid>
 <pubDate>Sat, 07 Nov 2026 00:00:35 +0800</pubDate>
-<description>&lt;p&gt;NVIDIA reported that adoption of its open source Aerial and Sionna wireless software grew 10x over the past year, with its open source 5G/6G tools surpassing 1 million downloads and more than 8,000 research institutions using them. The tools link simulation and AI training with real over-the-air experiments for 6G and robotics connectivity research.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达开源 6G 工具下载量破百万 采用量增长 10 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;属于厂商生态进展通报，缺乏具体技术参数或方法突破，仅对关注 6G 与无线开源栈的读者有参考价值。&lt;/p&gt;&lt;p&gt;NVIDIA Blog · opensource · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;英伟达公布其 Aerial 与 Sionna 开源无线软件生态进展：过去一年全球开发者采用量增长 10 倍，开源 5G/6G 工具累计下载量突破 100 万次，超过 8000 家研究机构在使用。这些工具将仿真、AI 训练与真实空口实验打通，用于 6G 网络与机器人连接研究。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;属于厂商生态进展通报，缺乏具体技术参数或方法突破，仅对关注 6G 与无线开源栈的读者有参考价值。&lt;/p&gt;&lt;p&gt;NVIDIA Blog · opensource · signal 38/100&lt;/p&gt;</description>
 <source url="https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/">NVIDIA Blog</source>
 <category>英伟达</category>
 <category>6G</category>
 <category>开源</category>
 <category>无线网络</category>
-</item>
-<item><title>Krea CEO Says Narrow Training Data Makes AI Image Models Repetitive</title><link>https://x.com/arena/status/2118734645663768772</link><guid isPermaLink="true">https://x.com/arena/status/2118734645663768772</guid>
-<pubDate>Fri, 06 Nov 2026 23:57:58 +0800</pubDate>
-<description>&lt;p&gt;In an Arena interview, Krea co-founder and CEO argued that AI image models feel repetitive because they learn a narrow definition of what looks good and then keep reproducing it. The conversation also covered how a seven-person team trained Krea 3 Ultra to rank third overall on the Multi-Image Edit Arena, along with data curation, creative direction, and trade-offs among image quality, speed, and cost.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Krea CEO 谈图像模型同质化：训练数据定义审美边界&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自一线图像模型团队负责人对生成同质化成因的判断，对理解数据策展与模型审美偏差有参考价值。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 38/100&lt;/p&gt;</description>
-<source url="https://x.com/arena/status/2118734645663768772">Arena.ai (@arena)</source>
-<category>图像生成</category>
-<category>Krea</category>
-<category>模型同质化</category>
-<category>开源</category>
-</item>
-<item><title>Frontier Radar #5: If AGI is so close, why is everyone leaving? The neolabs and their bets</title><link>https://the-decoder.com/frontier-radar-5-if-agi-is-so-close-why-is-everyone-leaving-the-neolabs-and-their-bets/</link><guid isPermaLink="true">https://the-decoder.com/frontier-radar-5-if-agi-is-so-close-why-is-everyone-leaving-the-neolabs-and-their-bets/</guid>
-<pubDate>Fri, 06 Nov 2026 23:55:23 +0800</pubDate>
-<description>&lt;p&gt;Even as GPT-6 Astra&amp;#x27;s launch prompted Jensen Huang to declare that AGI has arrived, co-creators of today&amp;#x27;s models are leaving OpenAI, Google DeepMind and Meta to found new labs that raise billions with no product. The piece sorts 45 such neolabs by research bet, maps the limitations of current AI they aim to overcome, and argues they are wagering that the existing recipe alone will not be enough.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AGI 临近却人才出走 45 家新实验室押注新路线&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以人才流动与资本流向为切口，系统梳理 45 家新实验室的技术押注，是观察 AGI 路线分歧的一份结构化行业地图。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 38/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/frontier-radar-5-if-agi-is-so-close-why-is-everyone-leaving-the-neolabs-and-their-bets/">The Decoder</source>
-<category>AGI</category>
-<category>人才流动</category>
-<category>新实验室</category>
-<category>融资</category>
-</item>
-<item><title>Ramp Data Shows AI Spending Stalling as Anthropic Nears IPO</title><link>https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/</guid>
-<pubDate>Fri, 06 Nov 2026 23:54:47 +0800</pubDate>
-<description>&lt;p&gt;Ramp data shows enterprise AI token spend grew just 1.5% across August and September 2026, down sharply from 42% month-over-month growth in July, even as token volumes kept rising — pointing to price competition and savvier buyers capping revenue for OpenAI and Anthropic. The slowdown lands just as Anthropic prepares its IPO, challenging investor assumptions of breakneck AI growth.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Ramp 数据显示 AI 支出停滞，Anthropic 临近 IPO 承压&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以第三方支付数据量化 AI 支出拐点，直接冲击 AI 商业化叙事与 Anthropic IPO 估值逻辑。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 72/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/">TechCrunch AI</source>
-<category>AI 商业化</category>
-<category>Anthropic</category>
-<category>IPO</category>
-<category>企业支出</category>
-</item>
-<item><title>Altman Warns Humanity May Never Regain Control of AI</title><link>https://www.ithome.com/1/023/596.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/596.htm</guid>
-<pubDate>Fri, 06 Nov 2026 23:13:11 +0800</pubDate>
-<description>&lt;p&gt;In a podcast interview, Altman outlined two paths to AI loss of control: humans gradually ceding authority to autonomous systems far more capable than themselves, or the technology being monopolized by a single entity. He argued that competition among multiple labs is safer than dependence on one company, while remaining optimistic about AI&amp;#x27;s role in advancing basic science.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;奥尔特曼警示 AI 失控风险：人类或无法夺回控制权&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是头部 AI 公司 CEO 对失控与垄断风险的表态，属于观点性讨论，无新事实或可验证内容。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 38/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/023/596.htm">IT之家 · 智能时代</source>
-<category>AI 安全</category>
-<category>OpenAI</category>
-<category>AI 治理</category>
-</item>
-<item><title>Theis Discusses Virtual Cell Push to Model Multi-Omics Biological Data</title><link>https://latent.space/p/controlling-biology-fabian-theis-helmholtz-munich/</link><guid isPermaLink="true">https://latent.space/p/controlling-biology-fabian-theis-helmholtz-munich/</guid>
-<pubDate>Fri, 06 Nov 2026 23:10:53 +0800</pubDate>
-<description>&lt;p&gt;Fabian Theis of Helmholtz Munich recounts his lab&amp;#x27;s long-running push on the Virtual Cell concept, framing it as an algorithmic effort to understand multi-scale, multi-modal and time-varying biological data. He notes that AI-for-bio attention has clustered around protein and molecule design, while virtual cells demand broader data collection and large-scale modeling.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Theis 谈虚拟细胞：用算法理解多组学动态生物数据&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是对虚拟细胞路线与数据挑战的高层访谈，适合关注 AI×Bio 方向的读者了解该领域的问题框架。&lt;/p&gt;&lt;p&gt;Latent Space · llm · signal 38/100&lt;/p&gt;</description>
-<source url="https://latent.space/p/controlling-biology-fabian-theis-helmholtz-munich/">Latent Space</source>
-<category>AI×Bio</category>
-<category>虚拟细胞</category>
-<category>多组学</category>
-<category>Helmholtz Munich</category>
-</item>
-<item><title>Agentic Identity Broker Open-Sourced for Scoped OAuth Delegation to AI Agents</title><link>https://github.com/zalando-incubator/agentic-identity-broker</link><guid isPermaLink="true">https://github.com/zalando-incubator/agentic-identity-broker</guid>
-<pubDate>Fri, 06 Nov 2026 23:07:47 +0800</pubDate>
-<description>&lt;p&gt;Agentic Identity Broker is an open-source project that lets users grant AI agents scoped, revocable OAuth2 delegation to services like Google, GitHub, Databricks and Linear without exposing credentials. Deployed in the call path via gateways, it handles agent registration, session management, consent flows and audit logging, offloading auth work from agent and MCP server builders. It currently targets human-to-agent on-behalf-of flows, with headless machine-invoked agents planned next.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Agentic Identity Broker 开源 为 AI 智能体提供 OAuth 委托授权&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;智能体自主调用第三方服务时的授权与凭据安全是落地关键痛点，该项目给出了可自托管的工程化方案。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 62/100&lt;/p&gt;</description>
-<source url="https://github.com/zalando-incubator/agentic-identity-broker">Hacker News AI</source>
-<category>智能体</category>
-<category>OAuth</category>
-<category>开源</category>
-<category>身份认证</category>
-</item>
-<item><title>SK hynix Sets Up US AI Investment Arm with Up to $10B War Chest</title><link>https://www.ithome.com/1/023/584.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/584.htm</guid>
-<pubDate>Fri, 06 Nov 2026 23:05:28 +0800</pubDate>
-<description>&lt;p&gt;SK hynix has incorporated Hyaico Corp, a US-based AI investment subsidiary chaired by SK Group chairman Chey Tae-won, with plans to deploy up to $10 billion into US AI. The entity is being formed by restructuring SK hynix&amp;#x27;s existing US unit SK hynix NAND Product Solutions, with president Song Hyun-jong as CEO.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SK 海力士设立美国 AI 投资子公司，最高投资 100 亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;存储巨头以百亿美元级资本入场美国 AI 投资，是算力产业链资本布局的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/023/584.htm">IT之家 · 智能时代</source>
-<category>SK 海力士</category>
-<category>AI 投资</category>
-<category>算力产业链</category>
-</item>
-<item><title>China&#x27;s NRTA Launches New Micro-Drama Crackdown Targeting AI-Generated Low-Quality Content</title><link>https://www.ithome.com/1/023/579.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/579.htm</guid>
-<pubDate>Fri, 06 Nov 2026 23:04:17 +0800</pubDate>
-<description>&lt;p&gt;China&amp;#x27;s National Radio and Television Administration has launched a two-month special campaign against low-quality and homogenized micro-dramas, explicitly flagging AI-generated micro-dramas and AI-enabled resurgence of vulgar content as core problems. The crackdown covers both content creation—including face-swapping and voice cloning—and distribution, such as re-releasing shows under new titles and homogenized algorithmic recommendations, alongside a parallel initiative to fund higher-quality productions.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;广电总局启动新一轮微短剧治理 聚焦 AI 低俗同质化&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是监管层首次将 AI 微短剧单独列为治理对象，直接影响 AI 视频生成在内容行业的合规边界与平台算法策略。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/023/579.htm">IT之家 · IT业界</source>
-<category>AI 监管</category>
-<category>微短剧</category>
-<category>AIGC</category>
-<category>内容审核</category>
-</item>
-<item><title>WSJ: Anthropic IPO Valuation Expectations Cut from $2T to $1.5T</title><link>https://x.com/rohanpaul_ai/status/2118719195072659833</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118719195072659833</guid>
-<pubDate>Fri, 06 Nov 2026 22:56:34 +0800</pubDate>
-<description>&lt;p&gt;The Wall Street Journal reports that investors have cut Anthropic&amp;#x27;s expected IPO valuation from roughly $2 trillion to $1.5 trillion, with some calling $1 trillion more realistic. The repricing stems from a $3.2 trillion US stock selloff driven by data-center moratorium fears after the midterms, not from Anthropic&amp;#x27;s own numbers: its run rate exceeded $80 billion at end-October and it held $146.6 billion in cash on September 30. OpenAI&amp;#x27;s fundraising is similarly soft, having raised $11 billion of a $30 billion target at a $1.25 trillion valuation.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;WSJ：Anthropic IPO 预期估值从 2 万亿美元下调至 1.5 万亿&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司 IPO 估值预期大幅下调，直接反映资本市场对 AI 基础设施投资周期的重新定价。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 72/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2118719195072659833">Rohan Paul (@rohanpaul_ai)</source>
-<category>Anthropic</category>
-<category>IPO</category>
-<category>融资估值</category>
-<category>AI 基础设施</category>
-</item>
-<item><title>Moore Threads Completes Day-0 Adaptation of Kimi K3.1 Pro for Text and Image Inference</title><link>https://www.ithome.com/1/023/561.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/561.htm</guid>
-<pubDate>Fri, 06 Nov 2026 22:41:55 +0800</pubDate>
-<description>&lt;p&gt;Moore Threads announced Day-0 adaptation of Moonshot&amp;#x27;s open-weight Kimi K3.1 Pro on its MTT S5000 AI card and MUSA software stack, covering model loading, service startup, and text/image inference. Key work includes adapting sparse attention DSA indexing and KV cache layout, online FP8 conversion of MXFP4 expert weights, and integrating visual attention. It signals faster domestic GPU software-stack readiness for trillion-parameter MoE models.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;摩尔线程完成 Kimi K3.1 Pro 的 Day-0 适配，支持文本与图片推理&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产算力栈对 3 万亿参数开源模型的 Day-0 适配，是观察国产 GPU 推理生态成熟度的实用信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/023/561.htm">IT之家 · 智能时代</source>
-<category>摩尔线程</category>
-<category>Kimi K3.1 Pro</category>
-<category>国产算力</category>
-<category>模型适配</category>
-</item>
-<item><title>Nace AI Releases 27B Drex Max Decision Model That Picks Without Generating Tokens</title><link>https://x.com/rohanpaul_ai/status/2118712420248207829</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118712420248207829</guid>
-<pubDate>Fri, 06 Nov 2026 22:29:39 +0800</pubDate>
-<description>&lt;p&gt;Nace AI has released Drex Max, a 27B decision model aimed at the many small choices inside agent pipelines: it reads a context and question, then returns one probability per candidate option in a single forward pass without generating any tokens. Nace claims it statistically ties GPT-6 Sol on Decision Bench v4 at $0.06 per 1K decisions and 183 ms, versus $10.17 and roughly 3.5 seconds for Claude Opus 5.5, though without chain-of-thought it answers only 21% of sampled HLE questions versus 56% for Opus.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Nace AI 发布 27B 决策模型 Drex Max 单次前向即可选出答案&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把智能体成本结构中的决策环节单独建模，并用成本与延迟数据给出可验证对比，值得关注。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2118712420248207829">Rohan Paul (@rohanpaul_ai)</source>
-<category>大模型</category>
-<category>智能体</category>
-<category>Nace AI</category>
-<category>推理成本</category>
-</item>
-<item><title>AI Scraping Bots Swarm University Libraries, Threatening Public Access</title><link>https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287</link><guid isPermaLink="true">https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287</guid>
-<pubDate>Fri, 06 Nov 2026 22:13:09 +0800</pubDate>
-<description>&lt;p&gt;AI companies hunting for training data are unleashing data-scraping bot swarms on academic libraries, slowing or crashing sites meant for students, researchers and the public. One school reported being hit by more than 11,000 searches on Finnish music in a single day.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 爬虫涌入高校图书馆 公共访问服务面临瘫痪风险&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是训练数据争夺战外溢到公共学术基础设施的典型信号，值得关注 AI 数据获取边界与治理的读者留意。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287">Hacker News AI</source>
-<category>AI 爬虫</category>
-<category>训练数据</category>
-<category>学术图书馆</category>
-<category>数据治理</category>
-</item>
-<item><title>Amazon Launches Text-Based Alexa Shopping Agent</title><link>https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/</guid>
-<pubDate>Fri, 06 Nov 2026 22:10:00 +0800</pubDate>
-<description>&lt;p&gt;Amazon is rolling out a text-message shopping feature that lets select U.S. customers converse with its Alexa agent to search, add to cart, and purchase items ahead of the holiday season. The launch follows Amazon&amp;#x27;s September block on Meta&amp;#x27;s Muse agent querying its site, signaling a push to keep agentic commerce inside its own channel.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊推出短信版 Alexa 购物智能体&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大厂把电商智能体入口搬到短信，并与此前封堵第三方智能体形成对照，值得关注智能体电商的渠道之争。&lt;/p&gt;&lt;p&gt;TechCrunch AI · agent · signal 58/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/">TechCrunch AI</source>
-<category>智能体</category>
-<category>电商</category>
-<category>亚马逊</category>
-<category>Alexa</category>
-</item>
-<item><title>Ai2 开源 ToyBlocks 受控机器人学习评测世界</title><link>https://huggingface.co/blog/allenai/toyblocks</link><guid isPermaLink="true">https://huggingface.co/blog/allenai/toyblocks</guid>
-<pubDate>Fri, 06 Nov 2026 22:00:48 +0800</pubDate>
-<description>&lt;p&gt;Ai2 发布 ToyBlocks，一个面向机器人学习与评测的受控仿真环境，并同步开放代码、数据集、模型与文档。其目标是让研究者能在可控条件下系统研究机器人究竟学到了什么、为何失败，从而推动机器人学习从窄演示走向可迁移能力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为机器人学习提供可复现的受控实验平台，并完整开源代码、数据与模型，对具身智能研究者有直接使用价值。&lt;/p&gt;&lt;p&gt;Hugging Face Blog · opensource · signal 62/100&lt;/p&gt;</description>
-<source url="https://huggingface.co/blog/allenai/toyblocks">Hugging Face Blog</source>
-<category>机器人学习</category>
-<category>开源</category>
-<category>Ai2</category>
-<category>仿真环境</category>
-</item>
-<item><title>亚马逊 Alexa 购物助手新增短信下单功能</title><link>https://www.theverge.com/tech/1028587/amazon-alexa-shopping-ai-text-orders</link><guid isPermaLink="true">https://www.theverge.com/tech/1028587/amazon-alexa-shopping-ai-text-orders</guid>
-<pubDate>Fri, 06 Nov 2026 22:00:00 +0800</pubDate>
-<description>&lt;p&gt;亚马逊为 Alexa for Shopping 增加短信交互入口，用户可通过文字或照片描述商品，由助手检索商品、回传推荐并代为下单。该功能延续 5 月上线的购物助手体验，主打比 App 或网页更轻量的下单场景，并支持偏好记忆与降价提醒。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是大厂在电商场景中扩展智能体交互入口的产品迭代，值得关注但缺乏模型或技术层面的实质突破。&lt;/p&gt;&lt;p&gt;The Verge AI · tools · signal 38/100&lt;/p&gt;</description>
-<source url="https://www.theverge.com/tech/1028587/amazon-alexa-shopping-ai-text-orders">The Verge AI</source>
-<category>智能体</category>
-<category>电商</category>
-<category>亚马逊</category>
-<category>对话式商务</category>
-</item>
-<item><title>METR 审计发现 Anthropic 模型加速或已越过自家预警线</title><link>https://the-decoder.com/metr-finds-anthropic-may-have-crossed-its-own-ai-acceleration-warning-threshold-back-in-july/</link><guid isPermaLink="true">https://the-decoder.com/metr-finds-anthropic-may-have-crossed-its-own-ai-acceleration-warning-threshold-back-in-july/</guid>
-<pubDate>Fri, 06 Nov 2026 21:40:07 +0800</pubDate>
-<description>&lt;p&gt;非营利机构 METR 获准访问 Anthropic 内部研究数据 11 周后得出结论：其模型能力提升速度约翻倍，其中约 80% 的加速可归因于 AI 被用于公司自身研究，可能已触及 Anthropic 自设的加速风险预警指标。但 Anthropic 对最关键证据做了脱敏处理，结论的可验证性因此受限。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 自我加速这一核心安全议题上少见的、基于内部数据的第三方审计，且涉及关键证据被脱敏的透明度争议。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/metr-finds-anthropic-may-have-crossed-its-own-ai-acceleration-warning-threshold-back-in-july/">The Decoder</source>
-<category>AI 安全</category>
-<category>Anthropic</category>
-<category>METR</category>
-<category>AI 自我改进</category>
-</item>
-<item><title>Google 发布 Gemini Omni 1.2 Flash 支持 15 秒视频生成并降价 30%</title><link>https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/</link><guid isPermaLink="true">https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/</guid>
-<pubDate>Fri, 06 Nov 2026 21:35:27 +0800</pubDate>
-<description>&lt;p&gt;Google 推出 Gemini Omni 1.2 Flash，原生支持 15 秒视频生成、更强的参考图一致性与多轮对话式剪辑，并将价格下调 30%。该能力已同步上线 Gemini API、Google Vids 与 Gemini for business，面向规模化视频内容生产。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是主流视频生成模型的一次实质版本更新，涉及时长、一致性与成本三项关键指标，值得关注生成式视频进展的读者留意。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 62/100&lt;/p&gt;</description>
-<source url="https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/">Hacker News AI</source>
-<category>大模型</category>
-<category>Google</category>
-<category>视频生成</category>
-<category>多模态</category>
-</item>
-<item><title>Thinking Machines 发布 Inkling 2 Small 开源权重模型登顶西方榜首</title><link>https://the-decoder.com/thinking-machines-inkling-2-small-claims-top-spot-among-western-open-weight-models/</link><guid isPermaLink="true">https://the-decoder.com/thinking-machines-inkling-2-small-claims-top-spot-among-western-open-weight-models/</guid>
-<pubDate>Fri, 06 Nov 2026 21:25:09 +0800</pubDate>
-<description>&lt;p&gt;前 OpenAI CTO Mira Murati 创办的 Thinking Machines 发布 Inkling 2 Small，采用 5940 亿参数混合专家架构，单次推理仅激活 170 亿参数。该模型在 Artificial Analysis 智能指数上得分 31，较前代提升 18 分，与 Gemini 3.8 Flash 大致持平，智能体任务提升尤为明显，但单任务成本升至前代六倍。模型初期通过 Tinker 平台以闭源形式提供，后续将以 Apache 许可证开放权重。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是西方开源权重阵营的重要节点，且以 Apache 许可证开放权重，对关注开源模型格局的读者具有较高参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/thinking-machines-inkling-2-small-claims-top-spot-among-western-open-weight-models/">The Decoder</source>
-<category>大模型</category>
-<category>开源权重</category>
-<category>Thinking Machines</category>
-<category>混合专家</category>
 </item>
 </channel>
 </rss>
