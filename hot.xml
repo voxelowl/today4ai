@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Fri, 06 Nov 2026 18:35:21 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 06 Nov 2026 21:40:07 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Thinking Machines 发布 Inkling 2 Small，智能指数 31 分比肩 Gemini 3.8 Flash</title><link>https://todayforai.com/en/story/story-bbea1fd9-9f8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-bbea1fd9-9f8</guid>
-<pubDate>Fri, 06 Nov 2026 18:35:21 +0800</pubDate>
+<pubDate>Fri, 06 Nov 2026 21:25:09 +0800</pubDate>
 <description>&lt;p&gt;Thinking Machines Lab 于同日发布第二代模型 Inkling 2 Small，并启动新一轮融资。该模型采用稀疏混合专家（MoE）架构，总参数 594B、激活参数仅 17B，支持图像输入与可变推理强度，在 Artificial Analysis 智能指数 v5.0.1 上得分 31，较前代 Inkling Small 大幅提升 18 分，与 Gemini 3.8 Flash (high) 持平，并超过小米 MiMo-V2.6-Pro。
 
 技术细节方面，模型经过四阶段预训练与 9 天联合强化训练，智能体任务表现显著跃升：AutomationBench-AA 从 5% 升至 46%，FrontierCode 2.0 从 5% 升至 25%，HLE-Diamond 从 12% 升至 29%。编码能力呈现分化：FrontierCode 2.0 得 25% 高于 Claude Sonnet 5.5 的 11%，但 Terminal-Bench 4.0 仅 13% 低于其 30%。定价为每百万输入/输出 token 0.30/1.00 美元，缓存输入 0.03 美元。模型初期以闭源权重通过 Tinker 平台提供，计划在完成外部安全测试与红队评估后，于下周以 Apache 2.0 协议开放完整权重。
 
-行业影响上，若开放权重兑现，该模型将成为中国以外得分最高的开源权重模型，显著提升开源生态的竞争力。同时，Thinking Machines 正以 400 亿美元投前估值筹集 50 亿美元，低于此前 500 亿美元估值的尝试，显示资本市场的谨慎态度。此次发布与融资并行，凸显了…&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys), Hacker News AI, Artificial Analysis, IT之家 · 智能时代, Arena.ai (@arena), Marktechpost (@Marktechpost)&lt;/p&gt;</description>
+行业影响上，若开放权重兑现，该模型将成为中国以外得分最高的开源权重模型，显著提升开源生态的竞争力。同时，Thinking Machines 正以 400 亿美元投前估值筹集 50 亿美元，低于此前 500 亿美元估值的尝试，显示资本市场的谨慎态度。此次发布与融资并行，凸显了…&lt;/p&gt;&lt;p&gt;8 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys), Hacker News AI, Artificial Analysis, IT之家 · 智能时代, Arena.ai (@arena), Marktechpost (@Marktechpost)&lt;/p&gt;</description>
 </item>
 <item><title>腾讯混元 Hy4 发布 770B 参数并首次解锁视觉与电脑操作</title><link>https://todayforai.com/en/story/story-f4fb29ac-16b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f4fb29ac-16b</guid>
 <pubDate>Fri, 06 Nov 2026 10:00:11 +0800</pubDate>
@@ -67,6 +67,14 @@ Hy4 上线首日即因调用量激增导致推理集群紧急扩容十倍，反�
 
 此次升级对内容创作生态产生深远影响。随着周均图像生成量突破 40 亿张，Images 2.6 进一步巩固了 OpenAI 在多模态领域的领先地位。对于营销人员和开发者而言，低成本、高效率的动态内容生成工具将极大简化工作流，推动短视频素材、UI 动效及社交媒体内容的自动化生产进程。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;The Verge AI, The Decoder, IT之家 · IT业界, Hacker News AI, OpenAI 官方博客, 宝玉 (@dotey)&lt;/p&gt;</description>
 </item>
+<item><title>METR 审计称 Anthropic 模型研发提速约 2 倍，AI 自我加速初现</title><link>https://todayforai.com/en/story/story-7a5330b9-58b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-7a5330b9-58b</guid>
+<pubDate>Fri, 06 Nov 2026 21:40:07 +0800</pubDate>
+<description>&lt;p&gt;非营利机构 METR 在获得 Anthropic 内部研究数据 11 周访问权后发布评估报告，结论是 Anthropic 的模型能力提升速度约为 2024 至 2025 年节奏的 2 倍，其中约 80% 的加速可归因于 AI 被用于公司自身研发流程，而非训练算力增长。这一发现可能已触及 Anthropic 自设的加速风险预警指标，意味着 AI 自我加速的早期迹象正在显现。
+
+交叉验证显示，METR 的核心量化证据是 AECI 指数增速达到此前的 1.9 倍（95% 置信区间 1.5 至 2.8 倍），换用不同统计假设后区间为 1.1 至 2.9 倍；若纳入其他公司模型，加速幅度则降至约 1.4 倍。报告还指出，Anthropic 8 月公开的风险报告低估了这一速度，且未来 12 个月内算法、算力与数据层面均未见明显瓶颈。员工自报 Model 4 带来约 12 倍生产力提升，并出现 AI 独立承担关键训练工作的迹象。不过，Anthropic 对最关键证据做了脱敏处理，外部难以独立复核结论，且内部对加速归因尚未达成共识。
+
+这一评估对 AI 安全与产业格局具有实质影响。若 AI 自我加速趋势成立，现有风险评估框架和预警指标可能面临失效风险，监管机构与开发者需重新审视模型研发的透明度和可验证性。同时，最新内部模型在所有已测基准上得分均超 50%，现有测试集正接近饱和，评估方法本身也亟待更新。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), 宝玉 (@dotey), The Decoder&lt;/p&gt;</description>
+</item>
 <item><title>BOSS 直聘开源 33B 推理模型 Nanbeige4.3-33B，综合智能追平 Qwen3.8 27B</title><link>https://todayforai.com/en/story/story-9bb099f4-4b3</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9bb099f4-4b3</guid>
 <pubDate>Fri, 06 Nov 2026 03:52:48 +0800</pubDate>
 <description>&lt;p&gt;BOSS 直聘旗下基础模型团队 Nanbeige 以 Apache 2.0 协议开源了 33B 稠密推理模型 Nanbeige4.3-33B，在 Artificial Analysis 智能指数 v5 上取得 20 分，与 Qwen3.8 27B（xhigh）持平，远超同规模 Muse Glimmer（30B）的 6 分。该模型支持 524K token 超长上下文，体积小到可在笔记本本地运行，仅支持文本输入输出，目前暂无确认的公开 API。
@@ -74,14 +82,6 @@ Hy4 上线首日即因调用量激增导致推理集群紧急扩容十倍，反�
 技术细节方面，Nanbeige4.3-33B 在终端操作与物理推理上表现突出：Terminal-Bench 4.0 得分 30%，CritPt v2 难子集得分 16%，显著高于 Qwen3.8 27B 的 6% 与 4%。但在知识类基准上明显落后，例如 AA-Briefcase v1.1 为 1162 对 1391 Elo，HLE-Diamond 为 7% 对 15%，FrontierCode 2.0 为 11% 对 15%。多源信息一致确认了其开源协议、参数规模、上下文长度及评测数据。
 
 行业影响上，该模型以宽松的 Apache 2.0 协议开源，降低了高性能推理模型的使用门槛，尤其适合本地部署和终端自动化场景。其“偏科”特性——强终端操作、弱知识问答——为开发者提供了差异化选择，也展示了非头部厂商在垂直能力上追赶头部模型的可能性，可能推动推理模型在边缘设备和特定任务中的普及。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys), Artificial Analysis&lt;/p&gt;</description>
-</item>
-<item><title>Anthropic 用 Claude 首次解析细菌穹窿体结构，实验周期从数周缩至数天</title><link>https://todayforai.com/en/story/story-0c3c61a8-fff</link><guid isPermaLink="true">https://todayforai.com/en/story/story-0c3c61a8-fff</guid>
-<pubDate>Thu, 05 Nov 2026 15:24:41 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 的生命科学团队借助 Claude 模型，首次解析出细菌来源穹窿体（Vault）颗粒的三维结构，将原本需要数周至数月的人工结构测定压缩到数天。同时，研究首次证明细菌及感染细菌的病毒（噬菌体）中也能自组装形成穹窿体，为研究该神秘蛋白在人体细胞中的功能提供了更易操作的简化模型。
-
-在技术细节上，Claude 深度参与了序列搜索、DNA 设计、柱层析方案建议与结构建模等环节，将关键颗粒分离步骤从约 3 天缩短至 90 分钟，并在 34 小时内产出首个三维结构模型。整个项目不到 4 个月完成。团队采用研究员保留决策权、Claude 负责执行与建议的分工模式，并公开了 Claude 在过程中犯下的低级错误及修正方式，为 AI 辅助科研提供了可复用的工程范式。
-
-这一成果对结构生物学和 AI for Science 领域具有实质影响。它不仅大幅降低了穹窿体研究的实验门槛和时间成本，还展示了 LLM 在湿实验流程中的直接生产力，有望推动更多实验室采用人机协作模式加速科学发现。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), 宝玉 (@dotey), Anthropic AI (@AnthropicAI)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
