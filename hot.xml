@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Fri, 06 Nov 2026 10:36:57 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 06 Nov 2026 12:29:09 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
+<item><title>Thinking Machines 发布 Inkling 2 Small，智能指数 31 分比肩 Gemini 3.8 Flash</title><link>https://todayforai.com/en/story/story-bbea1fd9-9f8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-bbea1fd9-9f8</guid>
+<pubDate>Fri, 06 Nov 2026 12:29:09 +0800</pubDate>
+<description>&lt;p&gt;Thinking Machines Lab 于同日发布第二代模型 Inkling 2 Small，并启动新一轮融资。该模型采用稀疏混合专家（MoE）架构，总参数 594B、激活参数仅 17B，支持图像输入与可变推理强度，在 Artificial Analysis 智能指数 v5.0.1 上得分 31，较前代 Inkling Small 大幅提升 18 分，与 Gemini 3.8 Flash (high) 持平，并超过小米 MiMo-V2.6-Pro。
+
+技术细节方面，模型经过四阶段预训练与 9 天联合强化训练，智能体任务表现显著跃升：AutomationBench-AA 从 5% 升至 46%，FrontierCode 2.0 从 5% 升至 25%，HLE-Diamond 从 12% 升至 29%。编码能力呈现分化：FrontierCode 2.0 得 25% 高于 Claude Sonnet 5.5 的 11%，但 Terminal-Bench 4.0 仅 13% 低于其 30%。定价为每百万输入/输出 token 0.30/1.00 美元，缓存输入 0.03 美元。模型初期以闭源权重通过 Tinker 平台提供，计划在完成外部安全测试与红队评估后，于下周以 Apache 2.0 协议开放完整权重。
+
+行业影响上，若开放权重兑现，该模型将成为中国以外得分最高的开源权重模型，显著提升开源生态的竞争力。同时，Thinking Machines 正以 400 亿美元投前估值筹集 50 亿美元，低于此前 500 亿美元估值的尝试，显示资本市场的谨慎态度。此次发布与融资并行，凸显了…&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys), Hacker News AI, Artificial Analysis, IT之家 · 智能时代, Arena.ai (@arena), Marktechpost (@Marktechpost)&lt;/p&gt;</description>
+</item>
 <item><title>腾讯混元 Hy4 发布 770B 参数并首次解锁视觉与电脑操作</title><link>https://todayforai.com/en/story/story-f4fb29ac-16b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f4fb29ac-16b</guid>
 <pubDate>Fri, 06 Nov 2026 04:21:43 +0800</pubDate>
 <description>&lt;p&gt;腾讯正式发布新一代大模型混元 Hy4，参数规模从上一代不足 300B 跃升至 770B，并首次引入视觉理解与电脑操作能力，官方称其首次跻身最强开源模型之列。模型权重计划近期开放，定价维持输入每百万 Token 6 元、输出 18 元，已上线腾讯云及元宝、CodeBuddy 等自有产品。
@@ -10,14 +18,6 @@
 综合多方信源，Hy4 相比预览版大幅扩展了预训练与后训练规模，在指令遵循、长上下文理解、长程任务与深度研究等维度显著提升。视觉能力支持细粒度图像处理、复杂图表分析与数学视觉推理；电脑操作可结合命令行与图形界面执行跨应用长程任务，并针对 Blender、CAD 等专业软件做了专项训练。第三方评测显示，Hy4 在 Artificial Analysis 智能指数上得分 35，与 Grok 4.7 持平，位列中国实验室模型第二；在 Agent Arena 总榜排名第 14，单任务成本仅 0.55 美元，性价比突出。但官方坦承在前沿数学、长程开发等高难度测试集上仍落后顶尖闭源模型，且幻觉率高达 89%，需持续优化。
 
 Hy4 的发布标志着腾讯在大模型开源赛道迈出关键一步，其视觉与电脑操作能力将加速 AI 智能体在办公、编程、金融等场景的落地。同时，极具竞争力的定价与即将开源的策略，有望降低开发者门槛，推动生态繁荣，但能否真正兑现“开源第一梯队”承诺，仍需观察权重开放后的社区反馈与实测表现。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · 智能时代, 腾讯技术工程 (微信公众号), InfoQ 中文, Artificial Analysis (@ArtificialAnlys), Arena.ai (@arena)&lt;/p&gt;</description>
-</item>
-<item><title>Thinking Machines 发布 Inkling 2 Small，智能指数 31 分比肩 Gemini 3.8 Flash</title><link>https://todayforai.com/en/story/story-bbea1fd9-9f8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-bbea1fd9-9f8</guid>
-<pubDate>Fri, 06 Nov 2026 10:36:57 +0800</pubDate>
-<description>&lt;p&gt;Thinking Machines Lab 于同日发布第二代模型 Inkling 2 Small，并启动新一轮融资。该模型采用稀疏混合专家（MoE）架构，总参数 594B、激活参数仅 17B，支持图像输入与可变推理强度，在 Artificial Analysis 智能指数 v5.0.1 上得分 31，较前代 Inkling Small 大幅提升 18 分，与 Gemini 3.8 Flash (high) 持平，并超过小米 MiMo-V2.6-Pro。
-
-技术细节方面，模型经过四阶段预训练与 9 天联合强化训练，智能体任务表现显著跃升：AutomationBench-AA 从 5% 升至 46%，FrontierCode 2.0 从 5% 升至 25%，HLE-Diamond 从 12% 升至 29%。编码能力呈现分化：FrontierCode 2.0 得 25% 高于 Claude Sonnet 5.5 的 11%，但 Terminal-Bench 4.0 仅 13% 低于其 30%。定价为每百万输入/输出 token 0.30/1.00 美元，缓存输入 0.03 美元。模型初期以闭源权重通过 Tinker 平台提供，计划在完成外部安全测试与红队评估后，于下周以 Apache 2.0 协议开放完整权重。
-
-行业影响上，若开放权重兑现，该模型将成为中国以外得分最高的开源权重模型，显著提升开源生态的竞争力。同时，Thinking Machines 正以 400 亿美元投前估值筹集 50 亿美元，低于此前 500 亿美元估值的尝试，显示资本市场的谨慎态度。此次发布与融资并行，凸显了…&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys), Hacker News AI, Artificial Analysis, IT之家 · 智能时代, Arena.ai (@arena)&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 发布 GPT-6 Cyber 安全模型，越界行为降至 1% 以下</title><link>https://todayforai.com/en/story/story-32972b05-1f7</link><guid isPermaLink="true">https://todayforai.com/en/story/story-32972b05-1f7</guid>
 <pubDate>Fri, 06 Nov 2026 07:22:55 +0800</pubDate>
@@ -35,6 +35,14 @@ Hy4 的发布标志着腾讯在大模型开源赛道迈出关键一步，其视�
 
 此次发布对视频生成赛道具有显著影响。15 秒时长与对话式编辑的结合，使 AI 视频从短片段演示迈向可用的规模化内容生产工具，而 30% 的降价进一步降低了开发者和企业的使用门槛。同时，多入口上线与 SynthID 水印的标配，也体现了谷歌在推动 AI 视频商业化与内容安全方面的平衡策略。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;The Decoder, Google DeepMind, Arena.ai (@arena), IT之家 · 智能时代, IT之家 · IT业界, Marktechpost (@Marktechpost)&lt;/p&gt;</description>
 </item>
+<item><title>美国中期选举后多地公投否决数据中心，AI 算力扩张遭遇政策与市场双重逆风</title><link>https://todayforai.com/en/story/story-2f8ef443-ba4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2f8ef443-ba4</guid>
+<pubDate>Fri, 06 Nov 2026 09:11:40 +0800</pubDate>
+<description>&lt;p&gt;2026 年美国中期选举后，AI 基础设施扩张遭遇重大政治阻力。全美 10 个州 44 项数据中心限制提案中 38 项获通过，九个州超 30 个地区公投否决或严格限制数据中心建设，76% 受访者反对在社区内建设。民主党掌控两院及多个关键州长席位，得克萨斯、俄亥俄等传统友好州可能因水资源与电价问题暂停施工。
+
+市场反应剧烈：纳斯达克单日跌 5.52%，费城半导体指数重挫 12.3%，英伟达跌 9.3%，AMD 跌 17.3%，五大科技富豪单日财富缩水 1529 亿美元。高盛估算约 45% 的规划数据中心容量可能受短期禁令影响。科技巨头试图将“数据中心”重命名为“计算园区”以缓解抵触，OpenAI 承诺不再与公职人员签署保密协议并承担电力成本，亚马逊此前已作类似表态。
+
+这一变局对 AI 算力扩张构成实质性阻力。新建项目将面临更严格的地方审查与公开听证，超大规模厂商开始考虑海外选址。AI 资本开支链条的估值逻辑正被政治风险重新定价，行业需在社区沟通、透明度与选址策略上做出系统性调整。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), The Verge AI, MIT Technology Review, Hacker News AI, IT之家 · IT业界, Ars Technica AI&lt;/p&gt;</description>
+</item>
 <item><title>百度开源 280B 参数 ERNIE 5.5 Flash Base 基座模型，多项基准刷新同尺寸 SOTA</title><link>https://todayforai.com/en/story/story-5c028d15-ccb</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5c028d15-ccb</guid>
 <pubDate>Fri, 06 Nov 2026 05:35:34 +0800</pubDate>
 <description>&lt;p&gt;百度正式开源了文心大模型 ERNIE 5.5 Flash Base 的预训练终点权重。该模型总参数达 2800 亿，采用稀疏 MoE 架构，每个 token 仅激活 140 亿参数，在 33.5 万亿 tokens 上从零预训练，训练上下文为 128K，微调与推理阶段可扩展至 100 万 tokens。在知识、推理、数学、代码、多语言及长上下文等多项基准上，该模型刷新了同尺寸 SOTA，性能超过 DeepSeek-V4-Flash-Base 等同类模型。
@@ -51,14 +59,6 @@ Hy4 的发布标志着腾讯在大模型开源赛道迈出关键一步，其视�
 
 此次人才流动发生在 AI 编程赛道竞争白热化之际，头部实验室间的人才争夺已成为模型能力之外的第二战场。Anthropic 在 IPO 关键期连续流失 Claude Code 核心成员，可能影响外界对其产品延续性的判断；而 OpenAI 吸纳 Cat Wu 则强化了其在智能体产品上的布局。与此同时，前 AMD AI 副总裁 Sharon Zhou 加入 Anthropic，Meta 收购 Conductor，Facto…&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;新智元 (微信公众号), Latent Space, InfoQ 中文, The Decoder, 宝玉 (@dotey)&lt;/p&gt;</description>
 </item>
-<item><title>美国多地公投否决数据中心建设，AI 算力扩张遭遇政策逆风</title><link>https://todayforai.com/en/story/story-2f8ef443-ba4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2f8ef443-ba4</guid>
-<pubDate>Fri, 06 Nov 2026 08:37:56 +0800</pubDate>
-<description>&lt;p&gt;美国 2026 年中期选举后，多个州和地方的选民通过公投或选举支持限制、暂停甚至禁止 AI 数据中心建设，给依赖大规模算力的 AI 产业带来实质性政策阻力。全美 10 个州 44 项相关提案中 38 项获得通过，约半数拟建项目可能面临更严格审查，得克萨斯、俄亥俄等传统友好州也可能因水资源和电价问题暂停施工。
-
-综合多家信源，公众抵触情绪显著上升，民调显示 76% 的受访者反对在社区内建设数据中心。科技巨头试图将此次选举结果解读为针对特定政治人物的反弹，并尝试通过将“数据中心”重命名为“计算园区”来改善形象，但效果有限。OpenAI 迅速承诺不再与公职人员签署保密协议并承担电力成本，亚马逊此前已作出类似表态，行业透明度标准正在形成。
-
-这一政治风向转变对 AI 产业构成重大阻力，迫使超大规模厂商重新评估选址策略，甚至考虑将建设转向海外。新当选官员承诺加强监管，主要影响 2028 年后的新建项目，要求增加独立审查和公开听证。AI 基础设施扩张正面临由地方政治和民意驱动的基础设施落地难题，行业亟需通过集体行动重塑公众形象。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), The Verge AI, MIT Technology Review, Hacker News AI, Ars Technica AI&lt;/p&gt;</description>
-</item>
 <item><title>OpenAI 发布 Images 2.6 实现 ChatGPT 原生生成 GIF</title><link>https://todayforai.com/en/story/story-56a44e50-483</link><guid isPermaLink="true">https://todayforai.com/en/story/story-56a44e50-483</guid>
 <pubDate>Thu, 05 Nov 2026 09:59:37 +0800</pubDate>
 <description>&lt;p&gt;OpenAI 正式推出 Images 2.6 模型，标志着 ChatGPT 首次具备原生生成与编辑动画 GIF 的能力。这一更新不仅实现了从静态图像到动态内容的跨越，更将整体生成速度提升了 50%，低质量模式下最快仅需 6 秒即可出图，显著降低了用户等待成本。
@@ -67,14 +67,6 @@ Hy4 的发布标志着腾讯在大模型开源赛道迈出关键一步，其视�
 
 此次升级对内容创作生态产生深远影响。随着周均图像生成量突破 40 亿张，Images 2.6 进一步巩固了 OpenAI 在多模态领域的领先地位。对于营销人员和开发者而言，低成本、高效率的动态内容生成工具将极大简化工作流，推动短视频素材、UI 动效及社交媒体内容的自动化生产进程。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;The Verge AI, The Decoder, IT之家 · IT业界, Hacker News AI, OpenAI 官方博客, 宝玉 (@dotey)&lt;/p&gt;</description>
 </item>
-<item><title>中期选举引发 AI 基建恐慌，美股单日蒸发 3.2 万亿美元</title><link>https://todayforai.com/en/story/story-f06a8901-447</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f06a8901-447</guid>
-<pubDate>Fri, 06 Nov 2026 09:11:40 +0800</pubDate>
-<description>&lt;p&gt;美国中期选举结果出炉后，市场担忧 AI 数据中心扩张政策受阻，引发科技股历史性抛售。纳斯达克单日暴跌 5.52%，创 2025 年 4 月以来最差表现；费城半导体指数重挫 12.3%，为历史第二大单日跌幅。英伟达跌 9.3%，AMD 跌 17.3%，存储芯片厂商 SanDisk 跌 22%，美光、西数各跌 17%。马斯克等五大科技富豪单日财富合计缩水 1529 亿美元，纳指较高点回落 11.9% 进入技术性回调。
-
-高盛估算，短期禁令可能影响约 45% 的美国规划数据中心容量，债务融资型 GPU 租赁商与存储芯片厂商跌幅最深。市场普遍认为，民主党掌控国会后，AI 数据中心建设面临更严格的环保与土地审批，政策预期正成为算力基建投资的核心定价变量。
-
-此次抛售反映 AI 资本开支链条的估值逻辑正被政治风险重新定价。若政策不确定性持续，AI 硬件产业链的融资环境与扩张节奏将受实质冲击，投资者需重新评估算力基建的长期回报与风险溢价。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), IT之家 · IT业界, Hacker News AI&lt;/p&gt;</description>
-</item>
 <item><title>BOSS 直聘开源 33B 推理模型 Nanbeige4.3-33B，综合智能追平 Qwen3.8 27B</title><link>https://todayforai.com/en/story/story-9bb099f4-4b3</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9bb099f4-4b3</guid>
 <pubDate>Fri, 06 Nov 2026 03:52:48 +0800</pubDate>
 <description>&lt;p&gt;BOSS 直聘旗下基础模型团队 Nanbeige 以 Apache 2.0 协议开源了 33B 稠密推理模型 Nanbeige4.3-33B，在 Artificial Analysis 智能指数 v5 上取得 20 分，与 Qwen3.8 27B（xhigh）持平，远超同规模 Muse Glimmer（30B）的 6 分。该模型支持 524K token 超长上下文，体积小到可在笔记本本地运行，仅支持文本输入输出，目前暂无确认的公开 API。
@@ -82,6 +74,14 @@ Hy4 的发布标志着腾讯在大模型开源赛道迈出关键一步，其视�
 技术细节方面，Nanbeige4.3-33B 在终端操作与物理推理上表现突出：Terminal-Bench 4.0 得分 30%，CritPt v2 难子集得分 16%，显著高于 Qwen3.8 27B 的 6% 与 4%。但在知识类基准上明显落后，例如 AA-Briefcase v1.1 为 1162 对 1391 Elo，HLE-Diamond 为 7% 对 15%，FrontierCode 2.0 为 11% 对 15%。多源信息一致确认了其开源协议、参数规模、上下文长度及评测数据。
 
 行业影响上，该模型以宽松的 Apache 2.0 协议开源，降低了高性能推理模型的使用门槛，尤其适合本地部署和终端自动化场景。其“偏科”特性——强终端操作、弱知识问答——为开发者提供了差异化选择，也展示了非头部厂商在垂直能力上追赶头部模型的可能性，可能推动推理模型在边缘设备和特定任务中的普及。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys), Artificial Analysis&lt;/p&gt;</description>
+</item>
+<item><title>Anthropic 用 Claude 首次解析细菌穹窿体结构，实验周期从数周缩至数天</title><link>https://todayforai.com/en/story/story-0c3c61a8-fff</link><guid isPermaLink="true">https://todayforai.com/en/story/story-0c3c61a8-fff</guid>
+<pubDate>Thu, 05 Nov 2026 15:24:41 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 的生命科学团队借助 Claude 模型，首次解析出细菌来源穹窿体（Vault）颗粒的三维结构，将原本需要数周至数月的人工结构测定压缩到数天。同时，研究首次证明细菌及感染细菌的病毒（噬菌体）中也能自组装形成穹窿体，为研究该神秘蛋白在人体细胞中的功能提供了更易操作的简化模型。
+
+在技术细节上，Claude 深度参与了序列搜索、DNA 设计、柱层析方案建议与结构建模等环节，将关键颗粒分离步骤从约 3 天缩短至 90 分钟，并在 34 小时内产出首个三维结构模型。整个项目不到 4 个月完成。团队采用研究员保留决策权、Claude 负责执行与建议的分工模式，并公开了 Claude 在过程中犯下的低级错误及修正方式，为 AI 辅助科研提供了可复用的工程范式。
+
+这一成果对结构生物学和 AI for Science 领域具有实质影响。它不仅大幅降低了穹窿体研究的实验门槛和时间成本，还展示了 LLM 在湿实验流程中的直接生产力，有望推动更多实验室采用人机协作模式加速科学发现。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), 宝玉 (@dotey), Anthropic AI (@AnthropicAI)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
