@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 07 Nov 2026 02:10:10 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 07 Nov 2026 02:44:38 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Hundreds of Artex AI Hacking Tool Instances Found Exposed Online</title><link>https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/</guid>
+<pubDate>Sat, 07 Nov 2026 02:44:38 +0800</pubDate>
+<description>&lt;p&gt;Security researchers found hundreds of instances of Artex, an open-source autonomous penetration-testing tool, publicly exposed on the internet and accessible to anyone, potentially enabling cyberattacks. Built on AI agents that automate the attack chain from reconnaissance to data exfiltration, Artex has been linked to multiple attacks since its July release. It has since gone closed-source, but many usable code copies remain on code-sharing sites.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;数百个 Artex AI 黑客工具实例暴露公网&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该事件揭示自主 AI 智能体被武器化后的真实安全风险，对关注 Agent 落地与 AI 安全的读者具有警示价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · agent · signal 62/100&lt;/p&gt;</description>
+<source url="https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/">TechCrunch AI</source>
+<category>AI 安全</category>
+<category>智能体</category>
+<category>渗透测试</category>
+<category>开源</category>
+</item>
+<item><title>Meta Launches Spaces for Collaborating With Its Muse Agent</title><link>https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/</guid>
+<pubDate>Sat, 07 Nov 2026 02:44:20 +0800</pubDate>
+<description>&lt;p&gt;Meta has added Spaces to its Muse agent interface, letting users create separate sidebar conversations around specific projects such as vacation planning, gift tracking or wedding prep, with Muse working toward a goal inside each space. Meta frames these as \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 为 Muse 智能体推出 Spaces 协作空间&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是智能体产品交互层面的常规功能更新，缺乏模型能力或技术方法上的实质增量，仅对关注 Meta 智能体产品形态的读者有参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · agent · signal 38/100&lt;/p&gt;</description>
+<source url="https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/">TechCrunch AI</source>
+<category>智能体</category>
+<category>Meta</category>
+<category>产品发布</category>
+</item>
 <item><title>Meta Muse Adds Spaces for Custom App-Like Experiences</title><link>https://www.theverge.com/tech/1028871/meta-muse-ai-spaces</link><guid isPermaLink="true">https://www.theverge.com/tech/1028871/meta-muse-ai-spaces</guid>
 <pubDate>Sat, 07 Nov 2026 02:10:10 +0800</pubDate>
 <description>&lt;p&gt;Meta is rolling out Spaces to all Muse AI users, letting them build app-like experiences such as shopping hubs, school dashboards, and music trackers by describing them in natural language and refining them through conversation. Connected apps can refresh pricing and dates in the background, and a specialized Muse Wonder model ships alongside the launch, with sharing and collaboration still under exploration.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta Muse 推出 Spaces 功能 可自建应用式交互空间&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 助手从对话走向可定制轻应用形态的产品演进信号，值得关注智能体产品化方向的读者了解。&lt;/p&gt;&lt;p&gt;The Verge AI · tools · signal 58/100&lt;/p&gt;</description>
@@ -205,18 +222,18 @@
 <category>企业合规</category>
 <category>检索增强生成</category>
 </item>
-<item><title>humans&amp;ai Introduces GPU-Accelerated Weight Teleportation for RL Sync</title><link>https://humansand.ai/blog/gpu-accelerated-weight-teleportation</link><guid isPermaLink="true">https://humansand.ai/blog/gpu-accelerated-weight-teleportation</guid>
+<item><title>humans&amp;ai 提出 GPU 权重传送 突破 RL 权重同步瓶颈</title><link>https://humansand.ai/blog/gpu-accelerated-weight-teleportation</link><guid isPermaLink="true">https://humansand.ai/blog/gpu-accelerated-weight-teleportation</guid>
 <pubDate>Sat, 07 Nov 2026 00:49:00 +0800</pubDate>
-<description>&lt;p&gt;Large-scale RL requires trainer and sampler weights to stay closely aligned, making terabyte-scale weight transfer a bottleneck. humans&amp;amp;ai proposes a &amp;#x27;weight teleportation&amp;#x27; paradigm built on delta weight sync, with a Blackwell-native compression/decompression pipeline combining massively parallel GPU compression, distributed ownership with fault tolerance, a curated double-compression algorithm, and heterogeneous CPU-GPU decompression. The authors claim better-than-intra-cluster sync speeds in most cases, even when samplers and trainers are not co-located.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;humans&amp;amp;ai 提出 GPU 权重传送 突破 RL 权重同步瓶颈&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;直击大规模 RL 后训练中权重同步这一真实工程瓶颈，并给出可复用的压缩与传输架构思路。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 74/100&lt;/p&gt;</description>
+<description>&lt;p&gt;针对大规模强化学习中训练端与采样端权重需高频对齐、TB 级权重传输成为瓶颈的问题，humans&amp;amp;ai 提出“权重传送”范式：基于增量权重同步，构建 Blackwell 原生压缩/解压流水线，融合大规模并行 GPU 压缩、分布式归属与容错、双重压缩算法及异构 CPU-GPU 解压。作者称多数场景下同步速度可超过集群内网络传输，且不要求采样器与训练器同集群部署。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;直击大规模 RL 后训练中权重同步这一真实工程瓶颈，并给出可复用的压缩与传输架构思路。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 74/100&lt;/p&gt;</description>
 <source url="https://humansand.ai/blog/gpu-accelerated-weight-teleportation">Hacker News AI</source>
 <category>强化学习</category>
 <category>权重同步</category>
 <category>GPU 压缩</category>
 <category>后训练</category>
 </item>
-<item><title>Perplexity Launches Always-On Teammates Agents for Ongoing Work</title><link>https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent/</link><guid isPermaLink="true">https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent/</guid>
+<item><title>Perplexity 推出常驻 AI 智能体 Teammates 独立推进长期项目</title><link>https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent/</link><guid isPermaLink="true">https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent/</guid>
 <pubDate>Sat, 07 Nov 2026 00:47:28 +0800</pubDate>
-<description>&lt;p&gt;Perplexity launched Teammates, always-on AI agents that each run on a dedicated virtual machine with a desktop and browser, independently advancing ongoing projects while users track progress via app threads or Slack. The move puts Perplexity alongside SpaceX, Meta, OpenAI and Anthropic in the always-on agent race, with its annualized revenue topping $750 million as of August.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Perplexity 推出常驻 AI 智能体 Teammates 独立推进长期项目&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;常驻智能体是当前头部厂商竞相布局的关键形态，该产品明确了虚拟机隔离与多入口交互的实现方式，值得关注。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Perplexity 发布 Teammates，一种常驻运行的 AI 智能体，每个实例拥有独立虚拟机（含桌面与浏览器），可自主推进长期项目，用户通过应用内专属线程或 Slack 跟踪与交互。这使 Perplexity 加入 SpaceX、Meta、OpenAI、Anthropic 的常驻智能体竞争，其年化收入在 8 月已突破 7.5 亿美元。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;常驻智能体是当前头部厂商竞相布局的关键形态，该产品明确了虚拟机隔离与多入口交互的实现方式，值得关注。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 72/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent/">The Decoder</source>
 <category>智能体</category>
 <category>Perplexity</category>
@@ -247,24 +264,6 @@
 <category>UI 框架</category>
 <category>Agent</category>
 <category>开源</category>
-</item>
-<item><title>OpenRouter 推出新一代模型路由 Auto Code 与 Auto Router</title><link>https://x.com/OpenRouter/status/2118740149106573670</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2118740149106573670</guid>
-<pubDate>Sat, 07 Nov 2026 00:19:50 +0800</pubDate>
-<description>&lt;p&gt;OpenRouter 发布新一代模型路由产品：面向通用问答与智能体的 Auto Router，以及面向编码智能体的 Auto Code。官方称 Auto Code 基准表现接近 Opus 5.5，成本低 74%，p90 延迟仅 0.65 秒，并公开每次请求的路由决策过程。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;模型路由是智能体成本与延迟优化的关键环节，该产品给出明确成本与延迟数据，值得关注。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/OpenRouter/status/2118740149106573670">OpenRouter (@OpenRouter)</source>
-<category>模型路由</category>
-<category>OpenRouter</category>
-<category>智能体</category>
-<category>推理成本</category>
-</item>
-<item><title>英伟达开源 6G 工具下载量破百万 采用量增长 10 倍</title><link>https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/</link><guid isPermaLink="true">https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/</guid>
-<pubDate>Sat, 07 Nov 2026 00:00:35 +0800</pubDate>
-<description>&lt;p&gt;英伟达公布其 Aerial 与 Sionna 开源无线软件生态进展：过去一年全球开发者采用量增长 10 倍，开源 5G/6G 工具累计下载量突破 100 万次，超过 8000 家研究机构在使用。这些工具将仿真、AI 训练与真实空口实验打通，用于 6G 网络与机器人连接研究。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;属于厂商生态进展通报，缺乏具体技术参数或方法突破，仅对关注 6G 与无线开源栈的读者有参考价值。&lt;/p&gt;&lt;p&gt;NVIDIA Blog · opensource · signal 38/100&lt;/p&gt;</description>
-<source url="https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/">NVIDIA Blog</source>
-<category>英伟达</category>
-<category>6G</category>
-<category>开源</category>
-<category>无线网络</category>
 </item>
 </channel>
 </rss>
