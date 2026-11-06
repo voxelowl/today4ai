@@ -11,6 +11,24 @@
 <category>算力基础设施</category>
 <category>AI 政策</category>
 </item>
+<item><title>CloneGuard Scans Repos for Credential-Stealing Traps Before You Run Them</title><link>https://github.com/tharun208/cloneguard</link><guid isPermaLink="true">https://github.com/tharun208/cloneguard</guid>
+<pubDate>Sat, 07 Nov 2026 03:49:27 +0800</pubDate>
+<description>&lt;p&gt;CloneGuard is a dependency-free Go CLI that statically scans a repository for malicious tricks—such as install hooks and editor tasks that silently exfiltrate SSH keys, cloud credentials, and browser passwords—before you run or install anything. It only reads files and never executes the scanned project, serving as a quick first-pass check on unfamiliar repos.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;CloneGuard 开源工具 运行前扫描仓库窃密陷阱&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;针对假招聘“演示项目”窃取凭证的真实攻击场景，提供可立即上手的开源静态扫描工具。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://github.com/tharun208/cloneguard">Hacker News AI</source>
+<category>开源工具</category>
+<category>供应链安全</category>
+<category>凭证窃取</category>
+<category>Go</category>
+</item>
+<item><title>Hybrid Jev-Opus Routing Matches Frontier Accuracy at 4x Lower Cost</title><link>https://hightouch.com/blog/llm-judges-identity-resolution</link><guid isPermaLink="true">https://hightouch.com/blog/llm-judges-identity-resolution</guid>
+<pubDate>Sat, 07 Nov 2026 03:48:51 +0800</pubDate>
+<description>&lt;p&gt;Hightouch benchmarked its decision models Jev and Luna against frontier model Opus on identity-resolution grading. A hybrid harness that routes Jev&amp;#x27;s low-confidence cases to Opus reaches frontier-level accuracy at over 4x lower cost. The study also finds Jev&amp;#x27;s confidence is better calibrated than Luna&amp;#x27;s, while decision models remain up to 90x cheaper and 10x faster but less accurate on their own.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Jev 混合调用 Opus 实现前沿精度且成本降低 4 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;给出了置信度路由这一实用降本范式的具体数据，对做模型选型与成本优化的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 58/100&lt;/p&gt;</description>
+<source url="https://hightouch.com/blog/llm-judges-identity-resolution">Hacker News AI</source>
+<category>模型路由</category>
+<category>成本优化</category>
+<category>决策模型</category>
+<category>Hightouch</category>
+</item>
 <item><title>Ricursive Releases Ripple-65B Preview, an Apache 2.0 Open Model with Strong Agentic Coding</title><link>https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/</link><guid isPermaLink="true">https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/</guid>
 <pubDate>Sat, 07 Nov 2026 03:47:04 +0800</pubDate>
 <description>&lt;p&gt;AI chip design firm Ricursive Intelligence has released Ripple-65B Preview, an Apache 2.0 open model pretrained on 12 trillion tokens using a dense 65B Transformer rather than a mixture-of-experts design. It scores 80.52 on TerminalBench 2.1, the best among open US models, though it trails the newly released Inkling 2 Small on other benchmarks; Ricursive puts total R&amp;amp;D and training cost at just $32 million.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Ricursive 发布 Ripple-65B Preview 开源模型 智能体编程表现亮眼&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;一款美国团队以 Apache 2.0 完全开源、成本仅 3200 万美元的 65B 稠密模型，在智能体编程基准上刷新美国开源纪录，对关注开源模型格局的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 74/100&lt;/p&gt;</description>
@@ -46,6 +64,15 @@
 <category>Oracle</category>
 <category>Nvidia</category>
 <category>GPU 租赁</category>
+</item>
+<item><title>Replit Rewrites Sandbox Engine with microVMs, Migrating Hundreds of Millions of Projects</title><link>https://frontier.replit.com/sandbox-engine-microvms-part-1/</link><guid isPermaLink="true">https://frontier.replit.com/sandbox-engine-microvms-part-1/</guid>
+<pubDate>Sat, 07 Nov 2026 03:06:10 +0800</pubDate>
+<description>&lt;p&gt;Replit has completed a full rewrite of its sandbox engine, moving the isolation boundary to microVMs to improve security, capabilities and cross-cloud portability, including its Bring Your Own Cloud offering on customers&amp;#x27; AWS, Google Cloud or Azure environments. The company says it migrated hundreds of millions of projects without user-visible disruption or data loss, with a follow-up post to cover orchestrating tens of thousands of microVMs on Kubernetes.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Replit 用 microVM 重写沙箱引擎 平滑迁移数亿项目&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是主流在线开发平台对 Agent 沙箱隔离架构的一次大规模工程实践披露，对关注智能体运行环境与云基础设施的读者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 58/100&lt;/p&gt;</description>
+<source url="https://frontier.replit.com/sandbox-engine-microvms-part-1/">Hacker News AI</source>
+<category>智能体</category>
+<category>沙箱</category>
+<category>云基础设施</category>
+<category>Replit</category>
 </item>
 <item><title>Maxinsights Uses Custom Capture Hardware to Turn Human Hand Data into Robot Training Clips</title><link>https://x.com/rohanpaul_ai/status/2118781572048634197</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118781572048634197</guid>
 <pubDate>Sat, 07 Nov 2026 03:04:26 +0800</pubDate>
@@ -192,18 +219,18 @@
 <category>中期选举</category>
 <category>算力</category>
 </item>
-<item><title>Anthropic IPO Valuation Talks Slip to $1.3 Trillion</title><link>https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3-trillion-as-major-investors</link><guid isPermaLink="true">https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3-trillion-as-major-investors</guid>
+<item><title>Anthropic IPO 估值谈判下调至 1.3 万亿美元</title><link>https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3-trillion-as-major-investors</link><guid isPermaLink="true">https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3-trillion-as-major-investors</guid>
 <pubDate>Sat, 07 Nov 2026 01:21:15 +0800</pubDate>
-<description>&lt;p&gt;Anthropic&amp;#x27;s planned IPO is being repriced in real time, with prospective investors now discussing a $1.2-1.3 trillion valuation, down from $1.4-1.5 trillion days earlier and far below the $2 trillion floated in early October. The reassessment follows a 6.4% single-day plunge in the Nasdaq 100 that erased roughly $2.3 trillion in market value, making the offering a key test of whether demand for leading AI businesses survives a sector correction.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic IPO 估值谈判下调至 1.3 万亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首家前沿模型公司 IPO 定价实时下调，是观察 AI 资本周期与市场情绪转向的重要信号。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;受纳斯达克 100 单日暴跌 6.4%、市值蒸发约 2.3 万亿美元影响，Anthropic 的 IPO 估值预期在数日内从 1.4-1.5 万亿美元下调至 1.2-1.3 万亿美元，部分潜在投资者甚至认为应接近 1 万亿美元。作为可能首家上市的前沿模型开发商，其定价将成为检验 AI 龙头需求能否扛住板块回调的关键风向标。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首家前沿模型公司 IPO 定价实时下调，是观察 AI 资本周期与市场情绪转向的重要信号。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3-trillion-as-major-investors">Hacker News AI</source>
 <category>Anthropic</category>
 <category>IPO</category>
 <category>融资估值</category>
 <category>美股</category>
 </item>
-<item><title>AWS Builds Serverless MCP Gateway for Agent Data Lake Access</title><link>https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate/</guid>
+<item><title>AWS 构建无服务器 MCP 网关 打通智能体与数据湖</title><link>https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate/</guid>
 <pubDate>Sat, 07 Nov 2026 01:13:13 +0800</pubDate>
-<description>&lt;p&gt;An AWS team built a serverless Model Context Protocol (MCP) server on Amazon ECS Fargate that acts as a centralized, agent-agnostic gateway between LLM agents and enterprise data lakes, eliminating duplicated integration and access-control logic per agent. Deployed for North America Sort Center planning teams, it automatically excludes sensitive columns from generated SQL and closes the feedback loop by capturing query failures to improve column descriptions and query hints.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS 构建无服务器 MCP 网关 打通智能体与数据湖&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是大厂内部落地 MCP 网关的工程实践，对构建多智能体数据访问架构的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;AWS 团队在 Amazon ECS Fargate 上构建了无服务器的 Model Context Protocol 服务器，作为 AI 智能体访问企业数据湖的统一网关，避免每个智能体重复实现数据集成与权限控制。该方案已在北美分拣中心网络的规划团队落地，并支持在生成 SQL 时自动排除敏感列、闭环收集查询失败模式以优化元数据描述。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是大厂内部落地 MCP 网关的工程实践，对构建多智能体数据访问架构的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 42/100&lt;/p&gt;</description>
 <source url="https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate/">AWS Machine Learning Blog</source>
 <category>MCP</category>
 <category>AWS</category>
@@ -211,9 +238,9 @@
 <category>数据湖</category>
 <category>无服务器</category>
 </item>
-<item><title>Nilay Patel Criticizes AI Industry: Products Not Good Enough to Justify Costs</title><link>https://simonwillison.net/2026/Nov/6/nilay-patel/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/6/nilay-patel/</guid>
+<item><title>Nilay Patel 批评 AI 行业：产品价值不足，成本与收益严重失衡</title><link>https://simonwillison.net/2026/Nov/6/nilay-patel/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/6/nilay-patel/</guid>
 <pubDate>Sat, 07 Nov 2026 01:13:12 +0800</pubDate>
-<description>&lt;p&gt;The Verge editor Nilay Patel argues on The Vergecast that AI products do not yet deliver enough value to justify their infrastructure and social costs, that agents remain largely unreal, and that industry spending far exceeds revenue. He contends the AI industry cannot escape its credibility and business problems until products visibly improve users&amp;#x27; lives without needing persuasion.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Nilay Patel 批评 AI 行业：产品价值不足，成本与收益严重失衡&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是一条来自主流科技媒体主编的尖锐行业批评，直指 AI 商业化与产品价值的核心矛盾，适合关注 AI 产业走向的读者。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;The Verge 主编 Nilay Patel 在播客中直言，AI 产品当前的价值不足以支撑其高昂的社会与基础设施成本，智能体尚未真正落地，行业投入远超产出。他认为 AI 行业只有做出让用户无需说服就能感受到生活改善的产品，才能走出当前的信任与商业困境。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是一条来自主流科技媒体主编的尖锐行业批评，直指 AI 商业化与产品价值的核心矛盾，适合关注 AI 产业走向的读者。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://simonwillison.net/2026/Nov/6/nilay-patel/">Simon Willison 博客</source>
 <category>AI 产业</category>
 <category>行业批评</category>
@@ -237,33 +264,6 @@
 <category>Okta</category>
 <category>身份授权</category>
 <category>MCP</category>
-</item>
-<item><title>Okta 联合亚马逊 Bedrock 推出智能体跨应用访问管控</title><link>https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-1/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-1/</guid>
-<pubDate>Sat, 07 Nov 2026 01:09:18 +0800</pubDate>
-<description>&lt;p&gt;Okta 与亚马逊 Bedrock AgentCore 联合推出跨应用访问（XAA）方案，在身份提供商侧集中管控 AI 智能体代表用户访问应用的行为。管理员在 Okta 注册智能体并审批其可访问的应用，Okta 在每次请求时实时评估策略；测试中撤销用户授权后约 1 秒内拒绝新请求，已签发令牌在 5 分钟内失效。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该方案针对智能体代表用户访问应用时的授权治理难题，给出了可验证的实时撤销机制，对企业身份安全团队有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 58/100&lt;/p&gt;</description>
-<source url="https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-1/">AWS Machine Learning Blog</source>
-<category>智能体</category>
-<category>身份安全</category>
-<category>Okta</category>
-<category>Amazon Bedrock</category>
-</item>
-<item><title>AegisKernel 发布零信任 POSIX 运行时 亚毫秒拦截智能体工具劫持</title><link>https://adikshatriyag-crypto.github.io/aegis-kernel/</link><guid isPermaLink="true">https://adikshatriyag-crypto.github.io/aegis-kernel/</guid>
-<pubDate>Sat, 07 Nov 2026 01:00:23 +0800</pubDate>
-<description>&lt;p&gt;AegisKernel 推出面向 AI 智能体的零信任 POSIX 运行时，主张以确定性能力边界替代概率性 LLM 护栏，在 0.016 毫秒内拦截自主工具劫持。项目提供两行代码接入 LangChain、CrewAI、AutoGen，并附带红队攻击向量演示页。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;用确定性运行时边界替代概率护栏的思路对智能体安全有参考价值，但证据仅为演示页，缺乏可验证的基准与方法细节。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 58/100&lt;/p&gt;</description>
-<source url="https://adikshatriyag-crypto.github.io/aegis-kernel/">Hacker News AI</source>
-<category>智能体安全</category>
-<category>零信任</category>
-<category>运行时防护</category>
-<category>开源工具</category>
-</item>
-<item><title>PyLings 发布 Rustlings 风格 Python 面试练习工具</title><link>https://github.com/thesayfulla/pylings</link><guid isPermaLink="true">https://github.com/thesayfulla/pylings</guid>
-<pubDate>Sat, 07 Nov 2026 00:59:40 +0800</pubDate>
-<description>&lt;p&gt;PyLings 是一个零依赖的 Python 3.14 命令行练习工具，仿照 rustlings 的交互模式，提供 35 个热身题与 20 道从中级到 Staff 级的面试编程题，保存即自动重跑测试。题目覆盖迭代器、LRU 缓存、限流器、断路器、异步任务池等工程场景，并附带参考答案与讨论题。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向 Python 面试准备的实用练习工具，覆盖从基础语法到 Staff 级工程设计的渐进式题目。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
-<source url="https://github.com/thesayfulla/pylings">Hacker News AI</source>
-<category>开发者工具</category>
-<category>Python</category>
-<category>面试练习</category>
-<category>开源</category>
 </item>
 </channel>
 </rss>
