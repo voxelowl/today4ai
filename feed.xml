@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Fri, 06 Nov 2026 11:17:30 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 06 Nov 2026 11:50:20 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Taobao MNN Team Open-Sources 0.3B On-Device Model, Hits 350 Tokens/s Offline on iPhone 18 Pro</title><link>https://www.ithome.com/1/023/212.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/212.htm</guid>
+<pubDate>Fri, 06 Nov 2026 11:50:20 +0800</pubDate>
+<description>&lt;p&gt;Taobao&amp;#x27;s MNN team trained from scratch and open-sourced MNN-Pocket-0.3B, a ~300M-parameter on-device language model co-optimized across architecture, tokenizer, training data, post-training and quantized inference, shipping as a 173MB INT4 package. Running fully offline via the MNN engine, it reaches roughly 350 tokens/s decode on iPhone 18 Pro and adds about 228MB peak Metal residency on iPad Pro M5, with a speculative-decoding draft model delivering up to 2.06x speedup.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;淘宝 MNN 团队开源 0.3B 手机模型，iPhone 18 Pro 离线解码达 350 token/s&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;端侧小模型把速度、内存、功耗与能力四个约束同时量化并给出可复现真机数据，对关注本地推理的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/023/212.htm">IT之家 · 智能时代</source>
+<category>端侧模型</category>
+<category>开源</category>
+<category>MNN</category>
+<category>推理优化</category>
+</item>
 <item><title>China Mobile to Invest Over 100 Billion Yuan in Compute, Doubling Smart Compute Capacity for Two Years</title><link>https://www.ithome.com/1/023/197.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/197.htm</guid>
 <pubDate>Fri, 06 Nov 2026 11:17:30 +0800</pubDate>
 <description>&lt;p&gt;China Mobile announced at the 2026 Mobile Network Conference that its 2027 procurement will exceed 500 billion yuan, including over 100 billion yuan in compute investment, which it calls its largest growth area. The carrier is building three gigawatt-scale compute parks this year and two more next year for a total of seven, with smart compute capacity set to double for two consecutive years.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;中国移动 2027 年算力投资超 1000 亿元，两年智算能力连续翻番&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;运营商千亿级算力资本开支与吉瓦级园区规划，是判断国内智算供给节奏的重要产业信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 68/100&lt;/p&gt;</description>
@@ -259,15 +268,6 @@
 <category>开源权重</category>
 <category>Thinking Machines</category>
 <category>模型评测</category>
-</item>
-<item><title>OpenAI 承诺自建数据中心全额承担电网成本并公开资源数据</title><link>https://x.com/rohanpaul_ai/status/2118487588571082829</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118487588571082829</guid>
-<pubDate>Fri, 06 Nov 2026 07:36:15 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 宣布未来自建数据中心园区将全额承担电力与电网成本、为项目中止提供财务担保，并公开水耗、用电、噪音与招聘数据，同时放弃与官员签署保密协议。其真实意图是缓解地方对电价、水资源与秘密交易的抵触，以加速 Stargate 建设所需的许可与并网，并推动监管将同等成本义务施加于所有开发商。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 算力扩张与地方资源矛盾的关键信号，直接影响数据中心选址、并网速度与行业成本规则。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 62/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2118487588571082829">Rohan Paul (@rohanpaul_ai)</source>
-<category>算力基础设施</category>
-<category>数据中心</category>
-<category>OpenAI</category>
-<category>能源监管</category>
 </item>
 </channel>
 </rss>
