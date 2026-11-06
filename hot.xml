@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Sat, 07 Nov 2026 04:02:22 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 07 Nov 2026 05:38:56 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
+<item><title>谷歌 Gemini Omni 1.2 Flash 发布：视频时长延至 15 秒，价格降 30%</title><link>https://todayforai.com/en/story/story-ba34df9f-609</link><guid isPermaLink="true">https://todayforai.com/en/story/story-ba34df9f-609</guid>
+<pubDate>Sat, 07 Nov 2026 05:38:56 +0800</pubDate>
+<description>&lt;p&gt;谷歌正式发布视频生成模型 Gemini Omni 1.2 Flash，将单段视频原生时长从 10 秒延长至最长 15 秒，同时价格下调 30%，720p 定价降至每秒 0.07 美元。该模型已在 Gemini API、AI Studio、Flow、Google Vids 及 Gemini for business 等渠道全面开放，所有生成视频均嵌入 SynthID 隐形水印。
+
+在技术细节上，新版本支持 3 到 15 秒按 1 秒粒度自定义时长，并引入多轮对话式编辑功能，用户可在不重新生成整段视频的前提下替换产品、背景、光照与画幅。模型还改善了多人对话口型同步与连续运镜稳定性，并增强了参考图与参考素材的一致性遵循。在 Arena 文生视频榜单中，Gemini Omni 1.2 Flash 以 1541 分登顶，较上代提升 27 分，图生视频同样排名第一，视频编辑位列第三。
+
+此次发布对视频生成赛道具有显著影响。15 秒时长与对话式编辑的结合，使 AI 视频从短片段演示迈向可用的规模化内容生产工具，而 30% 的降价进一步降低了开发者和企业的使用门槛。同时，多入口上线与 SynthID 水印的标配，也体现了谷歌在推动 AI 视频商业化与内容安全方面的平衡策略。&lt;/p&gt;&lt;p&gt;9 sources&lt;/p&gt;&lt;p&gt;The Decoder, Google DeepMind, Arena.ai (@arena), IT之家 · 智能时代, IT之家 · IT业界, Marktechpost (@Marktechpost)&lt;/p&gt;</description>
+</item>
 <item><title>Thinking Machines 发布 Inkling 2 Small，智能指数 31 分比肩 Gemini 3.8 Flash</title><link>https://todayforai.com/en/story/story-bbea1fd9-9f8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-bbea1fd9-9f8</guid>
 <pubDate>Fri, 06 Nov 2026 21:25:09 +0800</pubDate>
 <description>&lt;p&gt;Thinking Machines Lab 于同日发布第二代模型 Inkling 2 Small，并启动新一轮融资。该模型采用稀疏混合专家（MoE）架构，总参数 594B、激活参数仅 17B，支持图像输入与可变推理强度，在 Artificial Analysis 智能指数 v5.0.1 上得分 31，较前代 Inkling Small 大幅提升 18 分，与 Gemini 3.8 Flash (high) 持平，并超过小米 MiMo-V2.6-Pro。
@@ -10,14 +18,6 @@
 技术细节方面，模型经过四阶段预训练与 9 天联合强化训练，智能体任务表现显著跃升：AutomationBench-AA 从 5% 升至 46%，FrontierCode 2.0 从 5% 升至 25%，HLE-Diamond 从 12% 升至 29%。编码能力呈现分化：FrontierCode 2.0 得 25% 高于 Claude Sonnet 5.5 的 11%，但 Terminal-Bench 4.0 仅 13% 低于其 30%。定价为每百万输入/输出 token 0.30/1.00 美元，缓存输入 0.03 美元。模型初期以闭源权重通过 Tinker 平台提供，计划在完成外部安全测试与红队评估后，于下周以 Apache 2.0 协议开放完整权重。
 
 行业影响上，若开放权重兑现，该模型将成为中国以外得分最高的开源权重模型，显著提升开源生态的竞争力。同时，Thinking Machines 正以 400 亿美元投前估值筹集 50 亿美元，低于此前 500 亿美元估值的尝试，显示资本市场的谨慎态度。此次发布与融资并行，凸显了…&lt;/p&gt;&lt;p&gt;8 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys), Hacker News AI, Artificial Analysis, IT之家 · 智能时代, Arena.ai (@arena), Marktechpost (@Marktechpost)&lt;/p&gt;</description>
-</item>
-<item><title>谷歌 Gemini Omni 1.2 Flash 发布：视频时长延至 15 秒，价格降 30%</title><link>https://todayforai.com/en/story/story-ba34df9f-609</link><guid isPermaLink="true">https://todayforai.com/en/story/story-ba34df9f-609</guid>
-<pubDate>Fri, 06 Nov 2026 21:35:27 +0800</pubDate>
-<description>&lt;p&gt;谷歌正式发布视频生成模型 Gemini Omni 1.2 Flash，将单段视频原生时长从 10 秒延长至最长 15 秒，同时价格下调 30%，720p 定价降至每秒 0.07 美元。该模型已在 Gemini API、AI Studio、Flow、Google Vids 及 Gemini for business 等渠道全面开放，所有生成视频均嵌入 SynthID 隐形水印。
-
-在技术细节上，新版本支持 3 到 15 秒按 1 秒粒度自定义时长，并引入多轮对话式编辑功能，用户可在不重新生成整段视频的前提下替换产品、背景、光照与画幅。模型还改善了多人对话口型同步与连续运镜稳定性，并增强了参考图与参考素材的一致性遵循。在 Arena 文生视频榜单中，Gemini Omni 1.2 Flash 以 1541 分登顶，较上代提升 27 分，图生视频同样排名第一，视频编辑位列第三。
-
-此次发布对视频生成赛道具有显著影响。15 秒时长与对话式编辑的结合，使 AI 视频从短片段演示迈向可用的规模化内容生产工具，而 30% 的降价进一步降低了开发者和企业的使用门槛。同时，多入口上线与 SynthID 水印的标配，也体现了谷歌在推动 AI 视频商业化与内容安全方面的平衡策略。&lt;/p&gt;&lt;p&gt;8 sources&lt;/p&gt;&lt;p&gt;The Decoder, Google DeepMind, Arena.ai (@arena), IT之家 · 智能时代, IT之家 · IT业界, Marktechpost (@Marktechpost)&lt;/p&gt;</description>
 </item>
 <item><title>腾讯混元 Hy4 发布 770B 参数并首次解锁视觉与电脑操作</title><link>https://todayforai.com/en/story/story-f4fb29ac-16b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f4fb29ac-16b</guid>
 <pubDate>Fri, 06 Nov 2026 10:00:11 +0800</pubDate>

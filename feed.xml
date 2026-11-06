@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 07 Nov 2026 05:10:13 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 07 Nov 2026 05:38:56 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Google Releases Gemini Omni 1.2 Flash Video Model for General Availability</title><link>https://x.com/dotey/status/2118820452038557790</link><guid isPermaLink="true">https://x.com/dotey/status/2118820452038557790</guid>
+<pubDate>Sat, 07 Nov 2026 05:38:56 +0800</pubDate>
+<description>&lt;p&gt;Google released Gemini Omni 1.2 Flash on November 5, its first generally available (GA) video generation model, producing up to 15-second clips with audio at $0.07 per second for 720p—roughly 30% cheaper than v1.1, or about $1.04 per 15-second clip. The update adds multi-turn conversational editing of the same video and consistency control from up to six reference images plus a 3-second motion clip, and replaces Veo on the Gemini API.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Google 发布 Gemini Omni 1.2 Flash 视频模型并正式商用&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;视频生成模型首次正式商用并大幅降价，直接影响开发者的模型选型与生产成本。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/dotey/status/2118820452038557790">宝玉 (@dotey)</source>
+<category>大模型</category>
+<category>Google</category>
+<category>视频生成</category>
+<category>API 定价</category>
+</item>
 <item><title>OpenAI Closes $11B First Tranche at $1.25T Valuation</title><link>https://x.com/rohanpaul_ai/status/2118813225336873181</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118813225336873181</guid>
 <pubDate>Sat, 07 Nov 2026 05:10:13 +0800</pubDate>
 <description>&lt;p&gt;OpenAI has closed the first $11B tranche of a new funding round that values the company at $1.25T, with the remainder of up to $20B expected within weeks. It ranks among the largest single AI fundraises to date and reinforces OpenAI&amp;#x27;s capital advantage.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 完成 110 亿美元首轮融资 估值达 1.25 万亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;万亿美元级估值与百亿美元级现金注入，是 AI 产业资本格局的标志性事件。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 78/100&lt;/p&gt;</description>
@@ -213,9 +222,9 @@
 <category>Oracle</category>
 <category>云计算</category>
 </item>
-<item><title>SageMaker Inference Adds Multi-Instance GPU Partitioning</title><link>https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/</guid>
+<item><title>SageMaker 推理支持多实例 GPU 分区提升利用率</title><link>https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/</guid>
 <pubDate>Sat, 07 Nov 2026 02:01:00 +0800</pubDate>
-<description>&lt;p&gt;Amazon SageMaker Inference now supports GPU partitioning via NVIDIA Multi-Instance GPU (MIG), splitting a physical GPU into hardware-isolated partitions each with a fixed share of compute and dedicated memory. This removes the whole-accelerator minimum, letting teams host more models per instance or request a fraction of a newer GPU instead of over-provisioning.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SageMaker 推理支持多实例 GPU 分区提升利用率&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;对在云上部署推理服务的团队而言，GPU 分区直接改变容量规划与成本模型，具备实际决策价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · compute · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;亚马逊 SageMaker 推理端点现已支持基于 NVIDIA MIG 的 GPU 分区，可将单块物理 GPU 切分为多个硬件隔离的独立分区，每个分区拥有固定的算力份额与专属显存。这打破了此前“最小申请单位为整卡”的限制，允许在同一实例上部署更多模型，或按需选择新代 GPU 的部分算力，减少资源浪费与过度采购。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;对在云上部署推理服务的团队而言，GPU 分区直接改变容量规划与成本模型，具备实际决策价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · compute · signal 62/100&lt;/p&gt;</description>
 <source url="https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/">AWS Machine Learning Blog</source>
 <category>GPU 分区</category>
 <category>推理部署</category>
@@ -253,14 +262,6 @@
 <category>Meta</category>
 <category>平台条款</category>
 <category>内容授权</category>
-</item>
-<item><title>亚马逊提出智能体原语分类框架 用四个问题拆解代理工作</title><link>https://aws.amazon.com/blogs/machine-learning/taxonomy-of-agentic-primitives-in-amazon-quick/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/taxonomy-of-agentic-primitives-in-amazon-quick/</guid>
-<pubDate>Sat, 07 Nov 2026 01:34:45 +0800</pubDate>
-<description>&lt;p&gt;亚马逊在构建 Quick 智能体时发现，业界缺乏对智能体基础构件（原语）的统一命名，导致同一概念被反复重建并影响产品设计。文章提出用“何时、做什么、谁、如何”四个问题拆解代理工作，归纳出触发器、执行者、封装流程与记忆等原语，并称该框架对终端用户默认不可见。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是一篇厂商视角的智能体架构概念梳理，对理解代理系统设计有参考价值，但缺乏可验证的技术细节与数据。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 38/100&lt;/p&gt;</description>
-<source url="https://aws.amazon.com/blogs/machine-learning/taxonomy-of-agentic-primitives-in-amazon-quick/">AWS Machine Learning Blog</source>
-<category>智能体</category>
-<category>亚马逊</category>
-<category>架构设计</category>
 </item>
 </channel>
 </rss>
