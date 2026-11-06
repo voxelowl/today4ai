@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Fri, 06 Nov 2026 07:45:50 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 06 Nov 2026 08:00:24 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>腾讯混元 Hy4 发布 770B 参数并首次解锁视觉与电脑操作</title><link>https://todayforai.com/en/story/story-f4fb29ac-16b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f4fb29ac-16b</guid>
 <pubDate>Fri, 06 Nov 2026 04:21:43 +0800</pubDate>
@@ -17,7 +17,15 @@ Hy4 的发布标志着腾讯在大模型开源赛道迈出关键一步，其视�
 
 在技术细节上，新版本支持 3 到 15 秒按 1 秒粒度自定义时长，并引入多轮对话式编辑功能，用户可在不重新生成整段视频的前提下替换产品、背景、光照与画幅。模型还改善了多人对话口型同步与连续运镜稳定性，并增强了参考图与参考素材的一致性遵循。在 Arena 文生视频榜单中，Gemini Omni 1.2 Flash 以 1541 分登顶，较上代提升 27 分，图生视频同样排名第一，视频编辑位列第三。
 
-此次发布对视频生成赛道具有显著影响。15 秒时长与对话式编辑的结合，使 AI 视频从短片段演示迈向可用的规模化内容生产工具，而 30% 的降价进一步降低了开发者和企业的使用门槛。同时，多入口上线与 SynthID 水印的标配，也体现了谷歌在推动 AI 视频商业化与内容安全方面的平衡策略。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;The Decoder, Google DeepMind, Arena.ai (@arena), IT之家 · 智能时代, IT之家 · IT业界&lt;/p&gt;</description>
+此次发布对视频生成赛道具有显著影响。15 秒时长与对话式编辑的结合，使 AI 视频从短片段演示迈向可用的规模化内容生产工具，而 30% 的降价进一步降低了开发者和企业的使用门槛。同时，多入口上线与 SynthID 水印的标配，也体现了谷歌在推动 AI 视频商业化与内容安全方面的平衡策略。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;The Decoder, Google DeepMind, Arena.ai (@arena), IT之家 · 智能时代, IT之家 · IT业界, Marktechpost (@Marktechpost)&lt;/p&gt;</description>
+</item>
+<item><title>百度开源 280B 参数 ERNIE 5.5 Flash Base 基座模型，多项基准刷新同尺寸 SOTA</title><link>https://todayforai.com/en/story/story-5c028d15-ccb</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5c028d15-ccb</guid>
+<pubDate>Fri, 06 Nov 2026 05:35:34 +0800</pubDate>
+<description>&lt;p&gt;百度正式开源了文心大模型 ERNIE 5.5 Flash Base 的预训练终点权重。该模型总参数达 2800 亿，采用稀疏 MoE 架构，每个 token 仅激活 140 亿参数，在 33.5 万亿 tokens 上从零预训练，训练上下文为 128K，微调与推理阶段可扩展至 100 万 tokens。在知识、推理、数学、代码、多语言及长上下文等多项基准上，该模型刷新了同尺寸 SOTA，性能超过 DeepSeek-V4-Flash-Base 等同类模型。
+
+技术细节上，模型采用 Latent-Gated Sparse Attention 组合 HCA、MLA、低秩门控注意力与虚拟头注意力，将门控投影参数减少 75%；Multi-Router Latent MoE 通过多路由器改善专家选择；ECHO 训练目标复用主干末层实现免 MTP 的多 Token 预测。训练侧使用分布式 Muon 优化器与 FP8 混合精度，注意力算子为基于 CuTe-DSL 的 FlashMask-4，支持 SM90/SM100。官方开放 FP8 与 BF16 权重，并联合 vLLM、SGLang 提供部署 cookbook。
+
+此次发布的是未经中训练与后训练的 Base 权重，定位为领域适配、指令微调与强化学习研究的共同起点，经过后训练的正式版本将随后推出。该模型主打 Agent 长任务链下的效率与成本平衡，为开发者提供了可二次开发的通用基座，有望推动大模型开源生态的进一步发展。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, 量子位官网, Hacker News AI, 机器之心 (微信公众号), The Decoder, Marktechpost (@Marktechpost)&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 发布 GPT-6 Cyber 安全模型，越界行为降至 1% 以下</title><link>https://todayforai.com/en/story/story-32972b05-1f7</link><guid isPermaLink="true">https://todayforai.com/en/story/story-32972b05-1f7</guid>
 <pubDate>Fri, 06 Nov 2026 07:22:55 +0800</pubDate>
@@ -27,13 +35,13 @@ Hy4 的发布标志着腾讯在大模型开源赛道迈出关键一步，其视�
 
 这一发布对网络安全行业具有深远影响：一方面，AI 自主发现并利用漏洞的能力将极大提升防御方的效率，助力关键软件基础设施的安全加固；另一方面，攻击能力过强也引发滥用担忧，OpenAI 通过分级授权与严格对齐控制风险，为 AI 安全专用模型的商业化与监管提供了参考范式。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;The Verge AI, OpenAI 官方博客, The Decoder, Rohan Paul (@rohanpaul_ai), IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
-<item><title>百度开源 280B 参数 ERNIE 5.5 Flash Base 基座模型，多项基准刷新同尺寸 SOTA</title><link>https://todayforai.com/en/story/story-5c028d15-ccb</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5c028d15-ccb</guid>
-<pubDate>Fri, 06 Nov 2026 01:56:41 +0800</pubDate>
-<description>&lt;p&gt;百度正式开源了文心大模型 ERNIE 5.5 Flash Base 的预训练终点权重。该模型总参数达 2800 亿，采用稀疏 MoE 架构，每个 token 仅激活 140 亿参数，在 33.5 万亿 tokens 上从零预训练，训练上下文为 128K，微调与推理阶段可扩展至 100 万 tokens。在知识、推理、数学、代码、多语言及长上下文等多项基准上，该模型刷新了同尺寸 SOTA，性能超过 DeepSeek-V4-Flash-Base 等同类模型。
+<item><title>Claude Code 创始产品经理 Cat Wu 离职转投 OpenAI，团队 10 天内流失 4 位核心成员</title><link>https://todayforai.com/en/story/story-83817838-eef</link><guid isPermaLink="true">https://todayforai.com/en/story/story-83817838-eef</guid>
+<pubDate>Fri, 06 Nov 2026 06:33:04 +0800</pubDate>
+<description>&lt;p&gt;Claude Code 创始产品经理 Cat Wu 已确认从 Anthropic 离职并加入 OpenAI，负责核心产品的产品管理。这是 10 天内 Claude Code 团队第 4 位核心成员出走，此前 CLI 核心 Thariq Shihipar、桌面版主创 Anthony Morris 与工程经理 Sunil Shah 已相继离开。离职潮恰逢 Anthropic 递交 IPO 招股书前后的敏感窗口，引发外界对团队稳定性和产品延续性的关注。
 
-技术细节上，模型采用 Latent-Gated Sparse Attention 组合 HCA、MLA、低秩门控注意力与虚拟头注意力，将门控投影参数减少 75%；Multi-Router Latent MoE 通过多路由器改善专家选择；ECHO 训练目标复用主干末层实现免 MTP 的多 Token 预测。训练侧使用分布式 Muon 优化器与 FP8 混合精度，注意力算子为基于 CuTe-DSL 的 FlashMask-4，支持 SM90/SM100。官方开放 FP8 与 BF16 权重，并联合 vLLM、SGLang 提供部署 cookbook。
+综合多方信源，Cat Wu 是 Claude Code 早期核心成员，曾与创始人 Boris Cherny 共同推动其从内部实验工具走向开发者产品，并担任 Claude Code 与 Cowork 的产品总负责人，被视为该产品的二号人物。她将加入 OpenAI 负责核心产品管理，并与 Tibo 协作打造智能体产品。OpenAI 的 Codex 与 ChatGPT 负责人以“CatGPT”调侃式欢迎，凸显编码智能体赛道的直接对抗。值得注意的是，这是她第二次离开 Anthropic，此前曾短暂跳槽 Cursor 后回归。
 
-此次发布的是未经中训练与后训练的 Base 权重，定位为领域适配、指令微调与强化学习研究的共同起点，经过后训练的正式版本将随后推出。该模型主打 Agent 长任务链下的效率与成本平衡，为开发者提供了可二次开发的通用基座，有望推动大模型开源生态的进一步发展。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, 量子位官网, Hacker News AI, 机器之心 (微信公众号), The Decoder&lt;/p&gt;</description>
+此次人才流动发生在 AI 编程赛道竞争白热化之际，头部实验室间的人才争夺已成为模型能力之外的第二战场。Anthropic 在 IPO 关键期连续流失 Claude Code 核心成员，可能影响外界对其产品延续性的判断；而 OpenAI 吸纳 Cat Wu 则强化了其在智能体产品上的布局。与此同时，前 AMD AI 副总裁 Sharon Zhou 加入 Anthropic，Meta 收购 Conductor，Facto…&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;新智元 (微信公众号), Latent Space, InfoQ 中文, The Decoder, 宝玉 (@dotey)&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 发布 Images 2.6 实现 ChatGPT 原生生成 GIF</title><link>https://todayforai.com/en/story/story-56a44e50-483</link><guid isPermaLink="true">https://todayforai.com/en/story/story-56a44e50-483</guid>
 <pubDate>Thu, 05 Nov 2026 09:59:37 +0800</pubDate>
@@ -42,6 +50,14 @@ Hy4 的发布标志着腾讯在大模型开源赛道迈出关键一步，其视�
 在技术细节上，Images 2.6 重点解决了早期模型在连续帧间角色一致性差、画面漂移严重的痛点，使得品牌角色动画和产品循环展示等简单动画具备实际可用性。用户可通过文本提示或上传图片直接生成 GIF，并在应用内自由调整播放速率及进行逐帧编辑。API 端同步上线了 GPT-Image-2.6 Flare（侧重速度与布局）和 Sunburst（侧重细节与一致性）两款模型，为开发者提供灵活选择。
 
 此次升级对内容创作生态产生深远影响。随着周均图像生成量突破 40 亿张，Images 2.6 进一步巩固了 OpenAI 在多模态领域的领先地位。对于营销人员和开发者而言，低成本、高效率的动态内容生成工具将极大简化工作流，推动短视频素材、UI 动效及社交媒体内容的自动化生产进程。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;The Verge AI, The Decoder, IT之家 · IT业界, Hacker News AI, OpenAI 官方博客, 宝玉 (@dotey)&lt;/p&gt;</description>
+</item>
+<item><title>Thinking Machines 发布 Inkling 2 Small，智能指数 31 分比肩 Gemini 3.8 Flash</title><link>https://todayforai.com/en/story/story-bbea1fd9-9f8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-bbea1fd9-9f8</guid>
+<pubDate>Fri, 06 Nov 2026 08:00:24 +0800</pubDate>
+<description>&lt;p&gt;Thinking Machines 正式发布第二代模型 Inkling 2 Small，在 Artificial Analysis 智能指数 v5.0.1 上得分 31，较前代 Inkling Small 大幅提升 18 分，并与 Gemini 3.8 Flash (high) 持平。该模型采用稀疏混合专家（MoE）架构，总参数高达 594B，但每次推理仅激活 17B 参数，支持图像输入与可变推理强度，在保持高效计算的同时实现了显著的性能跃升。
+
+多方信源交叉验证显示，Inkling 2 Small 的进步主要源于预训练效率优化与大规模统一强化学习训练。其在智能体任务上提升尤为突出：AutomationBench-AA 从 5% 跃升至 46%，FrontierCode 2.0 从 5% 升至 25%，HLE-Diamond 从 12% 升至 29%。编码能力结构上，该模型与 Claude Sonnet 5.5 形成差异化竞争——FrontierCode 2.0 以 25% 对 11% 领先，但 Terminal-Bench 4.0 以 13% 对 30% 落后。定价方面，每百万输入/输出 token 分别为 0.30 美元和 1.00 美元，缓存输入仅 0.03 美元，极具竞争力。
+
+目前模型以闭源权重通过 Tinker 平台独家提供，官方计划在完成外部安全测试与红队评估后，于下周以 Apache 2.0 协议开放完整权重。若兑现，它将成为中国以外得分最高的开源权重模型，可能重塑开源 AI 竞争格局，并为开发者提供高性能、低成本的推理选择。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys), Hacker News AI&lt;/p&gt;</description>
 </item>
 <item><title>美国多地公投否决数据中心建设，AI 算力扩张遭遇政策逆风</title><link>https://todayforai.com/en/story/story-2f8ef443-ba4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2f8ef443-ba4</guid>
 <pubDate>Fri, 06 Nov 2026 04:25:10 +0800</pubDate>
@@ -66,22 +82,6 @@ Hy4 的发布标志着腾讯在大模型开源赛道迈出关键一步，其视�
 多方信源交叉验证显示，该系统的误报率极低，仅 3.1% 为模型幻觉所致，候选漏洞复现率高达 74.7%。更关键的是，GPT-5.5 Cyber 不仅停留在发现阶段，还自动生成了 948 个可让非特权用户获取 root 权限的本地提权利用程序（Exploit）。这一全链路自动化能力证明了 AI 能够规模化执行从漏洞发现、验证到利用构建的高难度安全任务，API 成本约为 31.65 万美元。
 
 此举对基础设施安全生态具有深远影响。OpenAI 采用“先发现后优先排序”策略，配合 Patch the Planet 计划推动上游修复，旨在通过 AI 加速补丁开发以增强全球 Linux 系统的安全性。这标志着 AI 已从辅助工具转变为具备独立作战能力的自动化安全研究员，或将重塑漏洞挖掘与防御的行业格局。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, Yuchen Jin (@Yuchenj_UW), Hacker News AI, OpenAI 官方博客&lt;/p&gt;</description>
-</item>
-<item><title>Anthropic 用 Claude 首次解析细菌穹窿体结构，实验周期从数周缩至数天</title><link>https://todayforai.com/en/story/story-0c3c61a8-fff</link><guid isPermaLink="true">https://todayforai.com/en/story/story-0c3c61a8-fff</guid>
-<pubDate>Thu, 05 Nov 2026 15:24:41 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 的生命科学团队借助 Claude 模型，首次解析出细菌来源穹窿体（Vault）颗粒的三维结构，将原本需要数周至数月的人工结构测定压缩到数天。同时，研究首次证明细菌及感染细菌的病毒（噬菌体）中也能自组装形成穹窿体，为研究该神秘蛋白在人体细胞中的功能提供了更易操作的简化模型。
-
-在技术细节上，Claude 深度参与了序列搜索、DNA 设计、柱层析方案建议与结构建模等环节，将关键颗粒分离步骤从约 3 天缩短至 90 分钟，并在 34 小时内产出首个三维结构模型。整个项目不到 4 个月完成。团队采用研究员保留决策权、Claude 负责执行与建议的分工模式，并公开了 Claude 在过程中犯下的低级错误及修正方式，为 AI 辅助科研提供了可复用的工程范式。
-
-这一成果对结构生物学和 AI for Science 领域具有实质影响。它不仅大幅降低了穹窿体研究的实验门槛和时间成本，还展示了 LLM 在湿实验流程中的直接生产力，有望推动更多实验室采用人机协作模式加速科学发现。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), 宝玉 (@dotey), Anthropic AI (@AnthropicAI)&lt;/p&gt;</description>
-</item>
-<item><title>Claude Code 创始产品经理 Cat Wu 离职转投 OpenAI，团队 10 天内流失 4 位核心成员</title><link>https://todayforai.com/en/story/story-83817838-eef</link><guid isPermaLink="true">https://todayforai.com/en/story/story-83817838-eef</guid>
-<pubDate>Thu, 05 Nov 2026 20:20:35 +0800</pubDate>
-<description>&lt;p&gt;Claude Code 创始产品经理 Cat Wu 已确认从 Anthropic 离职并加入 OpenAI，负责核心产品的产品管理。这是 10 天内 Claude Code 团队第 4 位核心成员出走，此前 CLI 核心 Thariq Shihipar、桌面版主创 Anthony Morris 与工程经理 Sunil Shah 已相继离开。离职潮恰逢 Anthropic 递交 IPO 招股书前后的敏感窗口，引发外界对团队稳定性和产品延续性的关注。
-
-综合多方信源，Cat Wu 是 Claude Code 早期核心成员，曾与创始人 Boris Cherny 共同推动其从内部实验工具走向开发者产品，并担任 Claude Code 与 Cowork 的产品总负责人，被视为该产品的二号人物。她将加入 OpenAI 负责核心产品管理，并与 Tibo 协作打造智能体产品。OpenAI 的 Codex 与 ChatGPT 负责人以“CatGPT”调侃式欢迎，凸显编码智能体赛道的直接对抗。值得注意的是，这是她第二次离开 Anthropic，此前曾短暂跳槽 Cursor 后回归。
-
-此次人才流动发生在 AI 编程赛道竞争白热化之际，头部实验室间的人才争夺已成为模型能力之外的第二战场。Anthropic 在 IPO 关键期连续流失 Claude Code 核心成员，可能影响外界对其产品延续性的判断；而 OpenAI 吸纳 Cat Wu 则强化了其在智能体产品上的布局。与此同时，前 AMD AI 副总裁 Sharon Zhou 加入 Anthropic，Meta 收购 Conductor，Facto…&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;新智元 (微信公众号), Latent Space, InfoQ 中文, The Decoder&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
