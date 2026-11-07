@@ -21,6 +21,15 @@
 <category>自然语言检索</category>
 <category>Planet</category>
 </item>
+<item><title>libghostty-vt 1.0 Ships with Stable C ABI and Library API</title><link>https://mitchellh.com/writing/libghostty-1-0</link><guid isPermaLink="true">https://mitchellh.com/writing/libghostty-1-0</guid>
+<pubDate>Sat, 07 Nov 2026 07:30:52 +0800</pubDate>
+<description>&lt;p&gt;libghostty-vt, a portable C library extracted from Ghostty&amp;#x27;s terminal core, reaches 1.0 with both the library and its C ABI declared stable. The author says the C API is now a complete terminal emulator, runs in production across hundreds of free and commercial products serving millions of users, and is backed by an enforced ABI stability policy.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;libghostty-vt 1.0 发布 C ABI 与库接口正式稳定&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;终端模拟核心以稳定 C ABI 形式对外复用，对构建终端类与开发者工具的工程师有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
+<source url="https://mitchellh.com/writing/libghostty-1-0">Hacker News AI</source>
+<category>开源</category>
+<category>终端模拟</category>
+<category>Ghostty</category>
+<category>C 库</category>
+</item>
 <item><title>Anthropic Proposes Four-Layer Agent Memory Framework with Dreaming Mechanism</title><link>https://www.ithome.com/1/023/613.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/613.htm</guid>
 <pubDate>Sat, 07 Nov 2026 07:25:14 +0800</pubDate>
 <description>&lt;p&gt;Anthropic published research titled &amp;#x27;The components of agent memory,&amp;#x27; splitting Claude agent memory into four layers: session logs, memory notes, knowledge representations and context injection, plus a &amp;#x27;dreaming&amp;#x27; mechanism that lets the model review logs, correct errors and distill rules during idle time. On the CL-Bench database QA task, memory-enabled Claude Opus 5.5 and Sonnet 5.5 scored 0.838 and 0.833 on average, well above their no-memory baselines.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 提出智能体记忆四层框架与“做梦”机制&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是智能体长期记忆工程化的系统性拆解，附有基准数据与游戏实测，对构建持续学习型 Agent 有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 78/100&lt;/p&gt;</description>
@@ -92,6 +101,16 @@
 <category>甲骨文</category>
 <category>云计算</category>
 </item>
+<item><title>Kimi K3.1 Pro Open Weights Top Agent Arena Open-Model Ranking</title><link>https://x.com/arena/status/2118836687925354862</link><guid isPermaLink="true">https://x.com/arena/status/2118836687925354862</guid>
+<pubDate>Sat, 07 Nov 2026 06:43:27 +0800</pubDate>
+<description>&lt;p&gt;Arena.ai&amp;#x27;s weekly update reports that Moonshot released open weights for Kimi K3.1 Pro, which tops the Agent Arena open-model leaderboard with a 5.3% net gain. Tencent Hunyuan&amp;#x27;s Hy4 became the #1 Chinese model in Agent Arena at a $0.57 median cost per task and reshaped the Pareto frontier, with open weights promised soon. Google&amp;#x27;s Gemini Omni 1.2 Flash debuted at #1 in both text-to-video and image-to-video, while OpenAI&amp;#x27;s GPT Image 2.6 variants arrived at roughly twice the speed of their predecessor.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Kimi K3.1 Pro 开源权重登顶 Agent Arena 开源榜&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源权重模型在智能体竞技场登顶并改写成本前沿，是观察开源与闭源差距收窄的关键信号。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/arena/status/2118836687925354862">Arena.ai (@arena)</source>
+<category>大模型</category>
+<category>开源权重</category>
+<category>智能体</category>
+<category>多模态生成</category>
+<category>基准评测</category>
+</item>
 <item><title>GitHub Publishes Agentic Engineering Guide Spanning Plan to Observe</title><link>https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/</link><guid isPermaLink="true">https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering/</guid>
 <pubDate>Sat, 07 Nov 2026 06:15:59 +0800</pubDate>
 <description>&lt;p&gt;GitHub published a developer guide outlining an &amp;#x27;agentic engineering&amp;#x27; workflow that embeds agents across planning, building, verifying and observing. It cites a 400%+ year-over-year jump in weekly commits alongside a 441% longer PR review time for high-AI-adoption teams, arguing the bottleneck has shifted from writing code to review and verification.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;GitHub 发布智能体工程指南 覆盖规划到观测全流程&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自 GitHub 官方博客的方法论指南，给出智能体协作流程框架与生产力瓶颈数据，适合关注 AI 编程落地的读者参考。&lt;/p&gt;&lt;p&gt;GitHub Blog · AI &amp;amp; ML · agent · signal 38/100&lt;/p&gt;</description>
@@ -100,6 +119,15 @@
 <category>GitHub</category>
 <category>AI 编程</category>
 <category>开发者工具</category>
+</item>
+<item><title>Inkling 2 Small Climbs to No. 5 in Code Arena WebDev</title><link>https://x.com/arena/status/2118821131268542656</link><guid isPermaLink="true">https://x.com/arena/status/2118821131268542656</guid>
+<pubDate>Sat, 07 Nov 2026 05:41:38 +0800</pubDate>
+<description>&lt;p&gt;ThinkyMachines&amp;#x27; Inkling 2 Small rose to No. 5 in the Data &amp;amp; Analytics category of Code Arena WebDev, a 220-point category gain over its predecessor Inkling-Small at No. 92, and a 240-point overall improvement. The team says full weights are still pending, but once released it would rank as the top US open model.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Inkling 2 Small 在 WebDev 代码竞技场升至第 5&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;榜单排名跃升值得关注，但权重未开放、缺乏方法细节，信息增量有限。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 38/100&lt;/p&gt;</description>
+<source url="https://x.com/arena/status/2118821131268542656">Arena.ai (@arena)</source>
+<category>大模型</category>
+<category>代码生成</category>
+<category>开源模型</category>
+<category>基准评测</category>
 </item>
 <item><title>Google Releases Gemini Omni 1.2 Flash Video Model for General Availability</title><link>https://x.com/dotey/status/2118820452038557790</link><guid isPermaLink="true">https://x.com/dotey/status/2118820452038557790</guid>
 <pubDate>Sat, 07 Nov 2026 05:38:56 +0800</pubDate>
@@ -163,6 +191,15 @@
 <category>AI 安全</category>
 <category>负责任扩展政策</category>
 </item>
+<item><title>Inkling 2 Small Tops US Open Models on Code Arena WebDev</title><link>https://x.com/arena/status/2118799582092288255</link><guid isPermaLink="true">https://x.com/arena/status/2118799582092288255</guid>
+<pubDate>Sat, 07 Nov 2026 04:16:00 +0800</pubDate>
+<description>&lt;p&gt;Thinky Machines&amp;#x27; Inkling 2 Small scored 1654 on Code Arena: WebDev, 128 points ahead of Meta&amp;#x27;s Muse Spark Open, which would make it the top US open model and fourth among open models globally once weights ship. It is currently available for fine-tuning and inference on Tinker, with full weights promised soon, priced at $0.30/1M input and $1.00/1M output tokens.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Inkling 2 Small 登顶 Code Arena 美国开源模型第一&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;榜单成绩亮眼但权重尚未发布，属于可验证的阶段性进展，值得关注后续开源落地。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/arena/status/2118799582092288255">Arena.ai (@arena)</source>
+<category>大模型</category>
+<category>开源模型</category>
+<category>代码生成</category>
+<category>基准评测</category>
+</item>
 <item><title>Google Acquires Crusoe&#x27;s Wyoming Data Center Campus Site</title><link>https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update</link><guid isPermaLink="true">https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update</guid>
 <pubDate>Sat, 07 Nov 2026 04:09:14 +0800</pubDate>
 <description>&lt;p&gt;Crusoe said Google has acquired its southeast Wyoming data center site, completing Crusoe&amp;#x27;s pre-development work on site selection, government approvals and a hybrid power strategy developed with Tallgrass Energy. Crusoe says it has more than 6 GW contracted and over 40 GW in its pipeline as an &amp;#x27;AI factory&amp;#x27; developer.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Google 收购 Crusoe 怀俄明州数据中心园区地块&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大厂直接收购 AI 数据中心地块，是算力基建扩张与电力资源争夺的又一信号。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 58/100&lt;/p&gt;</description>
@@ -188,36 +225,36 @@
 <category>算力基础设施</category>
 <category>AI 政策</category>
 </item>
-<item><title>OpenAI Releases BioBasicsBench to Test AI Agents on Raw Wet-Lab Data</title><link>https://x.com/rohanpaul_ai/status/2118794080885051683</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118794080885051683</guid>
+<item><title>OpenAI 发布 BioBasicsBench 评测智能体解读真实湿实验数据</title><link>https://x.com/rohanpaul_ai/status/2118794080885051683</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118794080885051683</guid>
 <pubDate>Sat, 07 Nov 2026 03:54:08 +0800</pubDate>
-<description>&lt;p&gt;OpenAI, working with enzyme-design firm Ligo, introduced BioBasicsBench, a 100-task benchmark built from real gels, colony plates, microscopy videos and sequencing reads that tests whether AI agents can interpret raw lab data, spot errors and recognize when evidence is insufficient. GPT-6 Astra scored 66.7% of available credit versus 43.8% for GPT-5.6 Sol, while using roughly half the output tokens at the xhigh setting, indicating the gain is not driven by longer reasoning.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 发布 BioBasicsBench 评测智能体解读真实湿实验数据&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是少见的以真实湿实验原始数据评测智能体的基准，并给出可比的模型分数与 token 效率证据，对关注 AI for Science 的读者有参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 与酶设计公司 Ligo 合作推出 BioBasicsBench，用 100 个来自真实实验的凝胶图、菌落平板、显微视频和测序数据任务，考察 AI 智能体能否正确解读原始实验数据、发现错误并识别证据不足。GPT-6 Astra 在该基准上获得 66.7% 的可用分数，高于 GPT-5.6 Sol 的 43.8%，且在高算力设置下输出 token 仅为旧模型约一半，说明提升并非来自更长推理。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是少见的以真实湿实验原始数据评测智能体的基准，并给出可比的模型分数与 token 效率证据，对关注 AI for Science 的读者有参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 72/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2118794080885051683">Rohan Paul (@rohanpaul_ai)</source>
 <category>大模型</category>
 <category>OpenAI</category>
 <category>AI for Science</category>
 <category>基准评测</category>
 </item>
-<item><title>CloneGuard Scans Repos for Credential-Stealing Traps Before You Run Them</title><link>https://github.com/tharun208/cloneguard</link><guid isPermaLink="true">https://github.com/tharun208/cloneguard</guid>
+<item><title>CloneGuard 开源工具 运行前扫描仓库窃密陷阱</title><link>https://github.com/tharun208/cloneguard</link><guid isPermaLink="true">https://github.com/tharun208/cloneguard</guid>
 <pubDate>Sat, 07 Nov 2026 03:49:27 +0800</pubDate>
-<description>&lt;p&gt;CloneGuard is a dependency-free Go CLI that statically scans a repository for malicious tricks—such as install hooks and editor tasks that silently exfiltrate SSH keys, cloud credentials, and browser passwords—before you run or install anything. It only reads files and never executes the scanned project, serving as a quick first-pass check on unfamiliar repos.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;CloneGuard 开源工具 运行前扫描仓库窃密陷阱&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;针对假招聘“演示项目”窃取凭证的真实攻击场景，提供可立即上手的开源静态扫描工具。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;CloneGuard 是一款零依赖的 Go 命令行工具，在运行或安装项目之前静态扫描仓库中的恶意手法，例如安装钩子、编辑器任务等会悄悄上传 SSH 密钥、云凭证和浏览器密码的陷阱。它只读取文件，从不执行被扫描项目中的任何内容，适合作为接触陌生仓库时的第一道快速检查。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;针对假招聘“演示项目”窃取凭证的真实攻击场景，提供可立即上手的开源静态扫描工具。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://github.com/tharun208/cloneguard">Hacker News AI</source>
 <category>开源工具</category>
 <category>供应链安全</category>
 <category>凭证窃取</category>
 <category>Go</category>
 </item>
-<item><title>Hybrid Jev-Opus Routing Matches Frontier Accuracy at 4x Lower Cost</title><link>https://hightouch.com/blog/llm-judges-identity-resolution</link><guid isPermaLink="true">https://hightouch.com/blog/llm-judges-identity-resolution</guid>
+<item><title>Jev 混合调用 Opus 实现前沿精度且成本降低 4 倍</title><link>https://hightouch.com/blog/llm-judges-identity-resolution</link><guid isPermaLink="true">https://hightouch.com/blog/llm-judges-identity-resolution</guid>
 <pubDate>Sat, 07 Nov 2026 03:48:51 +0800</pubDate>
-<description>&lt;p&gt;Hightouch benchmarked its decision models Jev and Luna against frontier model Opus on identity-resolution grading. A hybrid harness that routes Jev&amp;#x27;s low-confidence cases to Opus reaches frontier-level accuracy at over 4x lower cost. The study also finds Jev&amp;#x27;s confidence is better calibrated than Luna&amp;#x27;s, while decision models remain up to 90x cheaper and 10x faster but less accurate on their own.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Jev 混合调用 Opus 实现前沿精度且成本降低 4 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;给出了置信度路由这一实用降本范式的具体数据，对做模型选型与成本优化的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Hightouch 在身份解析结果评分任务上测试了决策模型 Jev、Luna 与前沿模型 Opus 的组合效果。结论是 Jev 单独使用精度尚可，但通过置信度校准把低置信样本转交 Opus 处理，可在成本降低 4 倍以上的同时达到前沿精度。研究还发现 Jev 的置信度校准优于 Luna，而决策模型虽便宜 90 倍、快 10 倍，单独使用仍落后 Opus。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;给出了置信度路由这一实用降本范式的具体数据，对做模型选型与成本优化的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 58/100&lt;/p&gt;</description>
 <source url="https://hightouch.com/blog/llm-judges-identity-resolution">Hacker News AI</source>
 <category>模型路由</category>
 <category>成本优化</category>
 <category>决策模型</category>
 <category>Hightouch</category>
 </item>
-<item><title>Ricursive Releases Ripple-65B Preview, an Apache 2.0 Open Model with Strong Agentic Coding</title><link>https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/</link><guid isPermaLink="true">https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/</guid>
+<item><title>Ricursive 发布 Ripple-65B Preview 开源模型 智能体编程表现亮眼</title><link>https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/</link><guid isPermaLink="true">https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/</guid>
 <pubDate>Sat, 07 Nov 2026 03:47:04 +0800</pubDate>
-<description>&lt;p&gt;AI chip design firm Ricursive Intelligence has released Ripple-65B Preview, an Apache 2.0 open model pretrained on 12 trillion tokens using a dense 65B Transformer rather than a mixture-of-experts design. It scores 80.52 on TerminalBench 2.1, the best among open US models, though it trails the newly released Inkling 2 Small on other benchmarks; Ricursive puts total R&amp;amp;D and training cost at just $32 million.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Ricursive 发布 Ripple-65B Preview 开源模型 智能体编程表现亮眼&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;一款美国团队以 Apache 2.0 完全开源、成本仅 3200 万美元的 65B 稠密模型，在智能体编程基准上刷新美国开源纪录，对关注开源模型格局的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 74/100&lt;/p&gt;</description>
+<description>&lt;p&gt;AI 芯片设计公司 Ricursive Intelligence 训练并开源了 Ripple-65B Preview，该模型基于 12 万亿 token 预训练，采用 65B 稠密 Transformer 架构而非混合专家，在 TerminalBench 2.1 编程基准上取得 80.52 分，为美国开源模型最佳成绩。模型以 Apache 2.0 许可发布在 Hugging Face，官方称全部研发训练成本仅 3200 万美元，但综合基准仍不及同期发布的 Inkling 2 Small。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;一款美国团队以 Apache 2.0 完全开源、成本仅 3200 万美元的 65B 稠密模型，在智能体编程基准上刷新美国开源纪录，对关注开源模型格局的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 74/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/">The Decoder</source>
 <category>大模型</category>
 <category>开源</category>
@@ -232,41 +269,6 @@
 <category>开源</category>
 <category>3D 动画</category>
 <category>代码生成</category>
-</item>
-<item><title>Firecracker 曝出虚拟机逃逸漏洞 可从客户机获取宿主机 root 权限</title><link>https://pwn.ai/blog/firecracker-escape</link><guid isPermaLink="true">https://pwn.ai/blog/firecracker-escape</guid>
-<pubDate>Sat, 07 Nov 2026 03:33:38 +0800</pubDate>
-<description>&lt;p&gt;安全团队披露 Firecracker microVM 的逃逸利用链（CVE-2026-99999），攻击者可从客户机内部定位宿主机进程中的 Firecracker 线程，篡改 KVM 返回时的寄存器与恢复地址，最终在宿主机上以 root 身份执行任意代码，且虚拟机仍保持运行与 SSH 可达。该研究延续 Part 1 的宿主机内存原语，并给出带校验与 dry-run 模式的 PoC 工具。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是云原生多租户隔离底座 Firecracker 的完整逃逸链，直接影响以 microVM 做安全边界的平台。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 58/100&lt;/p&gt;</description>
-<source url="https://pwn.ai/blog/firecracker-escape">Hacker News AI</source>
-<category>Firecracker</category>
-<category>虚拟机逃逸</category>
-<category>云安全</category>
-<category>KVM</category>
-</item>
-<item><title>GitHub 重构 Git 存储架构 支撑每秒 7200 次推送</title><link>https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/</link><guid isPermaLink="true">https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/</guid>
-<pubDate>Sat, 07 Nov 2026 03:24:21 +0800</pubDate>
-<description>&lt;p&gt;GitHub 公布新一代 Git 存储架构，内部测试已实现单仓库 5000 个并发智能体、每秒 7200 次推送，并在读流量下保持稳定低延迟。该架构遵循“最小化协调”与“存储计算解耦”两大原则，是 GitHub 面向智能体规模化开发的基础设施底座。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部代码托管平台为智能体工作负载重构底层存储，其并发写入指标对关注 AI 基础设施的读者具有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 72/100&lt;/p&gt;</description>
-<source url="https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/">Hacker News AI</source>
-<category>GitHub</category>
-<category>基础设施</category>
-<category>智能体</category>
-<category>存储架构</category>
-</item>
-<item><title>AA-PersonalityBench 显示 Qwen3.8 27B 平均回复长度约为 GPT-6 Sol 的 6 倍</title><link>https://x.com/ArtificialAnlys/status/2118785624144560373</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2118785624144560373</guid>
-<pubDate>Sat, 07 Nov 2026 03:20:32 +0800</pubDate>
-<description>&lt;p&gt;Artificial Analysis 的 AA-PersonalityBench 测量显示，同一批问题下各模型平均回复长度差异巨大：Qwen3.8 27B 以约 1030 词居首，约为 GPT-6 Sol（174 词）的 6 倍；K2 Horizon 375B A23B、Qwen3.8 Max 等也偏长，而 GPT-6 系列整体偏短。该结果反映的是模型输出风格与冗长度差异，而非能力高低。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是少见的跨模型输出冗长度量化对比，对关注模型行为风格与评测维度的读者有参考价值，但仅覆盖单一指标。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/ArtificialAnlys/status/2118785624144560373">Artificial Analysis (@ArtificialAnlys)</source>
-<category>大模型</category>
-<category>模型评测</category>
-<category>Artificial Analysis</category>
-<category>Qwen</category>
-</item>
-<item><title>OpenAI CFO 回应中期选举结果 数据中心扩张计划不变</title><link>https://x.com/rohanpaul_ai/status/2118785013168943129</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118785013168943129</guid>
-<pubDate>Sat, 07 Nov 2026 03:18:06 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 首席财务官 Sarah Friar 表示，中期选举结果并未显著改变公司计划，其投资节奏仍需匹配客户需求，资金来自超大规模厂商合作与新融资。针对外界反弹，OpenAI 承诺就自建自营数据中心征求社区意见、公开建设方案、不与公职人员签署保密协议并承担全额电力成本。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 OpenAI 数据中心扩张与社区关系策略的表态，属产业动态但缺乏具体参数与新事实，注意力价值有限。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 38/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2118785013168943129">Rohan Paul (@rohanpaul_ai)</source>
-<category>OpenAI</category>
-<category>数据中心</category>
-<category>产业政策</category>
 </item>
 </channel>
 </rss>
