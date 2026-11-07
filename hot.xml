@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Sat, 07 Nov 2026 17:45:23 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 07 Nov 2026 18:26:47 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Thinking Machines 发布 Inkling 2 Small，智能指数 31 分比肩 Gemini 3.8 Flash</title><link>https://todayforai.com/en/story/story-bbea1fd9-9f8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-bbea1fd9-9f8</guid>
 <pubDate>Sat, 07 Nov 2026 05:41:38 +0800</pubDate>
@@ -59,6 +59,14 @@ Hy4 上线首日即因调用量激增导致推理集群紧急扩容十倍，反�
 
 这一发布标志着 AI 在自动化漏洞挖掘与验证领域迈出实质性一步，将显著改变安全研究的人力与成本结构。但需要指出，上述数据目前仍属 OpenAI 单方主张，技术细节与外部独立验证尚未公开，且模型能力越强带来的双用途风险也愈发突出，如何在开放与管控之间取得平衡，将成为后续行业关注的核心议题。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, Yuchen Jin (@Yuchenj_UW), OpenAI 官方博客, The Decoder, Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
+<item><title>Google 用智能手表传感器被动检测高血压，成果登上 Nature</title><link>https://todayforai.com/en/story/story-c73f2230-c64</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c73f2230-c64</guid>
+<pubDate>Sat, 07 Nov 2026 18:26:47 +0800</pubDate>
+<description>&lt;p&gt;Google Research 在 Nature 发表研究，提出一种无需血压袖带校准的 AI 系统，仅凭消费级智能手表内置的脉搏（PPG）与运动（加速度计）传感器即可被动识别高血压迹象。该研究针对全球超十亿高血压患者中过半不知情的筛查缺口，把可穿戴设备的日常信号转化为血压风险提示。
+
+技术方案上，模型通过近 50 万小时传感器数据自监督学习脉搏与心跳模式，无需诊断标签。在 196 人、五个美国研究点的试验中，检测效果接近传统袖带。该系统已并入 Google Health 应用的血压趋势功能，但仍属研究项目，不替代医学诊断。
+
+行业影响方面，该成果将可穿戴设备从日常健康监测推向疾病筛查与早期预警，为高血压的早期发现提供了低成本、无感化的新路径，有望提升年轻群体等知晓率较低人群的筛查覆盖率。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Google Research, The Decoder, IT之家 · 智能时代&lt;/p&gt;</description>
+</item>
 <item><title>OpenAI 发布 Images 2.6 实现 ChatGPT 原生生成 GIF</title><link>https://todayforai.com/en/story/story-56a44e50-483</link><guid isPermaLink="true">https://todayforai.com/en/story/story-56a44e50-483</guid>
 <pubDate>Sat, 07 Nov 2026 07:40:40 +0800</pubDate>
 <description>&lt;p&gt;OpenAI 正式推出 Images 2.6 模型，标志着 ChatGPT 首次具备原生生成与编辑动画 GIF 的能力。这一更新不仅实现了从静态图像到动态内容的跨越，更将整体生成速度提升了 50%，低质量模式下最快仅需 6 秒即可出图，显著降低了用户等待成本。
@@ -70,10 +78,6 @@ Hy4 上线首日即因调用量激增导致推理集群紧急扩容十倍，反�
 <item><title>DeepSeek V4.1 Flash 在 GB300 NVL72 上单智能体推理提速 1.5 倍</title><link>https://todayforai.com/en/story/story-8e508537-594</link><guid isPermaLink="true">https://todayforai.com/en/story/story-8e508537-594</guid>
 <pubDate>Sat, 07 Nov 2026 04:33:47 +0800</pubDate>
 <description>&lt;p&gt;Artificial Analysis 的 AA-AgentPerf 基准显示，DeepSeek V4.1 Flash 在 GB300 NVL72 上单智能体吞吐从 596 tok/s 提升至 848 tok/s（1.42 倍），每 GPU 吞吐约提升 1.6 倍。提速主要来自新版 vLLM 及其针对 GB300 的新内核、FlashInfer 自动调优、更完整的 CUDA Graph 覆盖、调优后的投机解码，以及 NVIDIA Dynamo + vLLM 方案中预填充与解码同卡运行。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
-</item>
-<item><title>AA-PersonalityBench 显示开源模型在真实性与结构上显著落后于闭源模型</title><link>https://todayforai.com/en/story/story-2c873dbe-a2e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2c873dbe-a2e</guid>
-<pubDate>Sat, 07 Nov 2026 03:20:32 +0800</pubDate>
-<description>&lt;p&gt;Artificial Analysis 发布的 AA-PersonalityBench 基准测试对比了顶尖开源与闭源大模型的30项人格特质。数据显示，开源模型在真实性、务实性和结构化输出等关键维度平均排名显著低于闭源模型（如真实性差距达32分），但在“废话率”和“摘要能力”上表现更优。该结果揭示了当前开源生态在复杂推理严谨性与内容精炼度上的短板。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
