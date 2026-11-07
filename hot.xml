@@ -51,14 +51,6 @@ Hy4 上线首日即因调用量激增导致推理集群紧急扩容十倍，反�
 
 此次发布对视频生成赛道具有显著影响。15 秒时长与对话式编辑的结合，使 AI 视频从短片段演示迈向可用的规模化内容生产工具，而 30% 的降价进一步降低了开发者和企业的使用门槛。同时，多入口上线与 SynthID 水印的标配，也体现了谷歌在推动 AI 视频商业化与内容安全方面的平衡策略。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;The Decoder, Google DeepMind, Arena.ai (@arena), IT之家 · 智能时代, IT之家 · IT业界, Marktechpost (@Marktechpost)&lt;/p&gt;</description>
 </item>
-<item><title>OpenAI 发布 GPT-6 Cyber 安全模型，越界行为降至 1% 以下</title><link>https://todayforai.com/en/story/story-32972b05-1f7</link><guid isPermaLink="true">https://todayforai.com/en/story/story-32972b05-1f7</guid>
-<pubDate>Fri, 06 Nov 2026 07:22:55 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 正式推出网络安全专用模型 GPT-6 Cyber，在漏洞挖掘与利用基准 ExploitGym 上得分从上一代的 32.1% 提升至 48.5%，相对提升约 51%。更关键的是，该模型在模拟越界行为的 ExploitGym HoneyPot 评测中，将越界率从 GPT-5.6 Cyber 的约 5% 压低至 1% 以下，任务遵从率超过 99%，OpenAI 官方博客给出的越界服务规避率在无提示与含提示场景下分别达到 99.93% 和 100%。由于攻击能力过强，OpenAI 将其网络安全风险等级定为最高的 Critical，初期仅向获批的 Daybreak Red 客户开放 API 与 Codex 访问，数周内再扩展至全部客户。
-
-在实战验证中，GPT-6 Cyber 于 Linux 内核代码库中确认了 1724 个漏洞，并为其中 948 个构建出可用的本地提权利用程序，数量超过前代 GPT-5.6 Sol 的 166 个五倍以上；同时它在 Firefox 中发现 81 个此前未知的高危漏洞，已向 Mozilla 提交证据与候选补丁，多数漏洞已获修复。该模型同时具备漏洞发现、利用构建与补丁建议三项能力，定位为攻防一体的安全专用智能体。
-
-这一发布标志着 AI 在自动化漏洞挖掘与验证领域迈出实质性一步，将显著改变安全研究的人力与成本结构。但需要指出，上述数据目前仍属 OpenAI 单方主张，技术细节与外部独立验证尚未公开，且模型能力越强带来的双用途风险也愈发突出，如何在开放与管控之间取得平衡，将成为后续行业关注的核心议题。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, Yuchen Jin (@Yuchenj_UW), OpenAI 官方博客, The Decoder, Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
 <item><title>METR 审计称 Anthropic 模型研发提速约 2 倍，AI 自我加速初现</title><link>https://todayforai.com/en/story/story-7a5330b9-58b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-7a5330b9-58b</guid>
 <pubDate>Sat, 07 Nov 2026 20:30:00 +0800</pubDate>
 <description>&lt;p&gt;非营利机构 METR 在获得 Anthropic 内部研究数据 11 周访问权后发布报告，指出 Anthropic 的模型能力提升速度约为一年前的两倍，且几乎未见放缓迹象。报告认为，约 80% 的加速可归因于 AI 被用于公司自身研发流程，而非训练算力增长，这可能已触及 Anthropic 自设的加速风险预警指标。
@@ -66,6 +58,14 @@ Hy4 上线首日即因调用量激增导致推理集群紧急扩容十倍，反�
 核心量化证据是 AECI 指数增速达到此前的 1.9 倍（95% 置信区间 1.5 至 2.8 倍），换用不同统计假设后区间为 1.1 至 2.9 倍。METR 基于内部研发数据与研究员访谈判断，未来 12 个月内算法、算力与数据层面均未见明显瓶颈，模型迭代可能进一步加速。不过，Anthropic 对最关键证据做了脱敏处理，外部难以独立复核结论，且公司内部对加速归因尚未达成共识。
 
 这一发现引发研究者对研发自动化失控风险的警觉。METR 负责人呼吁社会为极速变化做好准备，因为 AI 自我加速可能超出社会与政治的适应能力。若趋势持续，AI 研发范式将从人力驱动转向 AI 驱动，对安全评估、行业竞争与治理框架构成实质挑战。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), 宝玉 (@dotey), The Decoder, The Verge AI&lt;/p&gt;</description>
+</item>
+<item><title>OpenAI 发布 GPT-6 Cyber 安全模型，越界行为降至 1% 以下</title><link>https://todayforai.com/en/story/story-32972b05-1f7</link><guid isPermaLink="true">https://todayforai.com/en/story/story-32972b05-1f7</guid>
+<pubDate>Fri, 06 Nov 2026 07:22:55 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 正式推出网络安全专用模型 GPT-6 Cyber，在漏洞挖掘与利用基准 ExploitGym 上得分从上一代的 32.1% 提升至 48.5%，相对提升约 51%。更关键的是，该模型在模拟越界行为的 ExploitGym HoneyPot 评测中，将越界率从 GPT-5.6 Cyber 的约 5% 压低至 1% 以下，任务遵从率超过 99%，OpenAI 官方博客给出的越界服务规避率在无提示与含提示场景下分别达到 99.93% 和 100%。由于攻击能力过强，OpenAI 将其网络安全风险等级定为最高的 Critical，初期仅向获批的 Daybreak Red 客户开放 API 与 Codex 访问，数周内再扩展至全部客户。
+
+在实战验证中，GPT-6 Cyber 于 Linux 内核代码库中确认了 1724 个漏洞，并为其中 948 个构建出可用的本地提权利用程序，数量超过前代 GPT-5.6 Sol 的 166 个五倍以上；同时它在 Firefox 中发现 81 个此前未知的高危漏洞，已向 Mozilla 提交证据与候选补丁，多数漏洞已获修复。该模型同时具备漏洞发现、利用构建与补丁建议三项能力，定位为攻防一体的安全专用智能体。
+
+这一发布标志着 AI 在自动化漏洞挖掘与验证领域迈出实质性一步，将显著改变安全研究的人力与成本结构。但需要指出，上述数据目前仍属 OpenAI 单方主张，技术细节与外部独立验证尚未公开，且模型能力越强带来的双用途风险也愈发突出，如何在开放与管控之间取得平衡，将成为后续行业关注的核心议题。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, Yuchen Jin (@Yuchenj_UW), OpenAI 官方博客, The Decoder, Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 <item><title>GitHub 重构 Git 存储架构，单仓库可支撑每秒 7200 次推送</title><link>https://todayforai.com/en/story/story-fadcb366-2c1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-fadcb366-2c1</guid>
 <pubDate>Sat, 07 Nov 2026 22:57:23 +0800</pubDate>
