@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Sat, 07 Nov 2026 18:26:47 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 07 Nov 2026 20:30:00 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Thinking Machines 发布 Inkling 2 Small，智能指数 31 分比肩 Gemini 3.8 Flash</title><link>https://todayforai.com/en/story/story-bbea1fd9-9f8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-bbea1fd9-9f8</guid>
 <pubDate>Sat, 07 Nov 2026 05:41:38 +0800</pubDate>
@@ -59,6 +59,14 @@ Hy4 上线首日即因调用量激增导致推理集群紧急扩容十倍，反�
 
 这一发布标志着 AI 在自动化漏洞挖掘与验证领域迈出实质性一步，将显著改变安全研究的人力与成本结构。但需要指出，上述数据目前仍属 OpenAI 单方主张，技术细节与外部独立验证尚未公开，且模型能力越强带来的双用途风险也愈发突出，如何在开放与管控之间取得平衡，将成为后续行业关注的核心议题。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, Yuchen Jin (@Yuchenj_UW), OpenAI 官方博客, The Decoder, Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
+<item><title>METR 审计称 Anthropic 模型研发提速约 2 倍，AI 自我加速初现</title><link>https://todayforai.com/en/story/story-7a5330b9-58b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-7a5330b9-58b</guid>
+<pubDate>Sat, 07 Nov 2026 20:30:00 +0800</pubDate>
+<description>&lt;p&gt;非营利机构 METR 在获得 Anthropic 内部研究数据 11 周访问权后发布报告，指出 Anthropic 的模型能力提升速度约为一年前的两倍，且几乎未见放缓迹象。报告认为，约 80% 的加速可归因于 AI 被用于公司自身研发流程，而非训练算力增长，这可能已触及 Anthropic 自设的加速风险预警指标。
+
+核心量化证据是 AECI 指数增速达到此前的 1.9 倍（95% 置信区间 1.5 至 2.8 倍），换用不同统计假设后区间为 1.1 至 2.9 倍。METR 基于内部研发数据与研究员访谈判断，未来 12 个月内算法、算力与数据层面均未见明显瓶颈，模型迭代可能进一步加速。不过，Anthropic 对最关键证据做了脱敏处理，外部难以独立复核结论，且公司内部对加速归因尚未达成共识。
+
+这一发现引发研究者对研发自动化失控风险的警觉。METR 负责人呼吁社会为极速变化做好准备，因为 AI 自我加速可能超出社会与政治的适应能力。若趋势持续，AI 研发范式将从人力驱动转向 AI 驱动，对安全评估、行业竞争与治理框架构成实质挑战。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), 宝玉 (@dotey), The Decoder, The Verge AI&lt;/p&gt;</description>
+</item>
 <item><title>Google 用智能手表传感器被动检测高血压，成果登上 Nature</title><link>https://todayforai.com/en/story/story-c73f2230-c64</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c73f2230-c64</guid>
 <pubDate>Sat, 07 Nov 2026 18:26:47 +0800</pubDate>
 <description>&lt;p&gt;Google Research 在 Nature 发表研究，提出一种无需血压袖带校准的 AI 系统，仅凭消费级智能手表内置的脉搏（PPG）与运动（加速度计）传感器即可被动识别高血压迹象。该研究针对全球超十亿高血压患者中过半不知情的筛查缺口，把可穿戴设备的日常信号转化为血压风险提示。
@@ -74,10 +82,6 @@ Hy4 上线首日即因调用量激增导致推理集群紧急扩容十倍，反�
 在技术细节上，Images 2.6 重点解决了早期模型在连续帧间角色一致性差、画面漂移严重的痛点，使得品牌角色动画和产品循环展示等简单动画具备实际可用性。用户可通过文本提示或上传图片直接生成 GIF，并在应用内自由调整播放速率及进行逐帧编辑。API 端同步上线了 GPT-Image-2.6 Flare（侧重速度与布局）和 Sunburst（侧重细节与一致性）两款模型，为开发者提供灵活选择。
 
 此次升级对内容创作生态产生深远影响。随着周均图像生成量突破 40 亿张，Images 2.6 进一步巩固了 OpenAI 在多模态领域的领先地位。对于营销人员和开发者而言，低成本、高效率的动态内容生成工具将极大简化工作流，推动短视频素材、UI 动效及社交媒体内容的自动化生产进程。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;The Verge AI, The Decoder, IT之家 · IT业界, Hacker News AI, OpenAI 官方博客, 宝玉 (@dotey)&lt;/p&gt;</description>
-</item>
-<item><title>DeepSeek V4.1 Flash 在 GB300 NVL72 上单智能体推理提速 1.5 倍</title><link>https://todayforai.com/en/story/story-8e508537-594</link><guid isPermaLink="true">https://todayforai.com/en/story/story-8e508537-594</guid>
-<pubDate>Sat, 07 Nov 2026 04:33:47 +0800</pubDate>
-<description>&lt;p&gt;Artificial Analysis 的 AA-AgentPerf 基准显示，DeepSeek V4.1 Flash 在 GB300 NVL72 上单智能体吞吐从 596 tok/s 提升至 848 tok/s（1.42 倍），每 GPU 吞吐约提升 1.6 倍。提速主要来自新版 vLLM 及其针对 GB300 的新内核、FlashInfer 自动调优、更完整的 CUDA Graph 覆盖、调优后的投机解码，以及 NVIDIA Dynamo + vLLM 方案中预填充与解码同卡运行。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
