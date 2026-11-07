@@ -12,6 +12,15 @@
 <category>融资</category>
 <category>IPO</category>
 </item>
+<item><title>Planet Launches AI App for Natural-Language Search of Decade of Satellite Imagery</title><link>https://www.ithome.com/1/023/614.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/614.htm</guid>
+<pubDate>Sat, 07 Nov 2026 07:40:22 +0800</pubDate>
+<description>&lt;p&gt;Planet has launched Planet AI, an app that pairs large language models with more than a decade of global satellite imagery, letting users search locations, track surface changes and generate comparison or timelapse views in natural language. Built around a map-plus-chat interface, it grounds every AI conclusion in viewable source imagery, with early testing focused on conservation, land management and environmental compliance.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Planet 推出 AI 应用 用自然语言检索十年卫星影像&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是地球观测从专业遥感工具转向自然语言公共决策工具的代表性产品落地，值得关注其可解释性设计。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/023/614.htm">IT之家 · 智能时代</source>
+<category>地球观测</category>
+<category>卫星影像</category>
+<category>自然语言检索</category>
+<category>Planet</category>
+</item>
 <item><title>Anthropic Proposes Four-Layer Agent Memory Framework with Dreaming Mechanism</title><link>https://www.ithome.com/1/023/613.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/613.htm</guid>
 <pubDate>Sat, 07 Nov 2026 07:25:14 +0800</pubDate>
 <description>&lt;p&gt;Anthropic published research titled &amp;#x27;The components of agent memory,&amp;#x27; splitting Claude agent memory into four layers: session logs, memory notes, knowledge representations and context injection, plus a &amp;#x27;dreaming&amp;#x27; mechanism that lets the model review logs, correct errors and distill rules during idle time. On the CL-Bench database QA task, memory-enabled Claude Opus 5.5 and Sonnet 5.5 scored 0.838 and 0.833 on average, well above their no-memory baselines.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 提出智能体记忆四层框架与“做梦”机制&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是智能体长期记忆工程化的系统性拆解，附有基准数据与游戏实测，对构建持续学习型 Agent 有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 78/100&lt;/p&gt;</description>
@@ -215,9 +224,9 @@
 <category>智能体编程</category>
 <category>Ricursive</category>
 </item>
-<item><title>Open-Source Tool Lets AI Agents Infer Lego Mechanisms from LDraw Source and Animate Them in Blender</title><link>https://github.com/anteloc/ldraw-mecha/tree/v0.5.0</link><guid isPermaLink="true">https://github.com/anteloc/ldraw-mecha/tree/v0.5.0</guid>
+<item><title>开源项目让 AI 智能体从 LDraw 源码推断乐高机械结构并生成 Blender 动画</title><link>https://github.com/anteloc/ldraw-mecha/tree/v0.5.0</link><guid isPermaLink="true">https://github.com/anteloc/ldraw-mecha/tree/v0.5.0</guid>
 <pubDate>Sat, 07 Nov 2026 03:41:20 +0800</pubDate>
-<description>&lt;p&gt;ldraw-mecha is a Show HN open-source project that feeds an LDraw Lego model&amp;#x27;s .mpd source to an AI agent, which reverse-engineers the embedded mechanical structures, plans interactions between components, and emits Blender Python code to build rigs and render animations. It demonstrates an end-to-end agent pipeline spanning structured CAD parsing and cross-tool code generation, though it remains a personal experimental tool without quantitative evaluation.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;开源项目让 AI 智能体从 LDraw 源码推断乐高机械结构并生成 Blender 动画&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以具体可复现的开源管线展示智能体解析结构化模型并驱动 3D 工具链的能力，对关注 Agent 工程化的读者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;ldraw-mecha 是一个 Show HN 开源项目，将 LDraw 乐高模型的 .mpd 源码交给 AI 智能体，由智能体逆向推断其中的机械结构、规划各部件间的运动交互，再生成 Blender Python 代码自动创建骨骼绑定并完成动画。项目展示了智能体在结构化 CAD 数据解析与跨工具代码生成上的端到端能力，但属于个人实验性工具，尚无量化评测。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以具体可复现的开源管线展示智能体解析结构化模型并驱动 3D 工具链的能力，对关注 Agent 工程化的读者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 58/100&lt;/p&gt;</description>
 <source url="https://github.com/anteloc/ldraw-mecha/tree/v0.5.0">Hacker News AI</source>
 <category>智能体</category>
 <category>开源</category>
@@ -232,6 +241,15 @@
 <category>虚拟机逃逸</category>
 <category>云安全</category>
 <category>KVM</category>
+</item>
+<item><title>GitHub 重构 Git 存储架构 支撑每秒 7200 次推送</title><link>https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/</link><guid isPermaLink="true">https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/</guid>
+<pubDate>Sat, 07 Nov 2026 03:24:21 +0800</pubDate>
+<description>&lt;p&gt;GitHub 公布新一代 Git 存储架构，内部测试已实现单仓库 5000 个并发智能体、每秒 7200 次推送，并在读流量下保持稳定低延迟。该架构遵循“最小化协调”与“存储计算解耦”两大原则，是 GitHub 面向智能体规模化开发的基础设施底座。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部代码托管平台为智能体工作负载重构底层存储，其并发写入指标对关注 AI 基础设施的读者具有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 72/100&lt;/p&gt;</description>
+<source url="https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/">Hacker News AI</source>
+<category>GitHub</category>
+<category>基础设施</category>
+<category>智能体</category>
+<category>存储架构</category>
 </item>
 <item><title>AA-PersonalityBench 显示 Qwen3.8 27B 平均回复长度约为 GPT-6 Sol 的 6 倍</title><link>https://x.com/ArtificialAnlys/status/2118785624144560373</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2118785624144560373</guid>
 <pubDate>Sat, 07 Nov 2026 03:20:32 +0800</pubDate>
@@ -249,25 +267,6 @@
 <category>OpenAI</category>
 <category>数据中心</category>
 <category>产业政策</category>
-</item>
-<item><title>微软停用从 Oracle 租用的旧款 AI 服务器，算力代际更替加速</title><link>https://x.com/rohanpaul_ai/status/2118783864177148059</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2118783864177148059</guid>
-<pubDate>Sat, 07 Nov 2026 03:13:32 +0800</pubDate>
-<description>&lt;p&gt;微软拒绝续签 2023 年围绕 Bing 构建的 Oracle 合同，转而停用其租用的 AI 服务器，核心原因是 Oracle 硬件搭载的老一代 Nvidia 芯片已不匹配微软规格。按 GPU 小时计费下，Blackwell 单卡推理产出数倍于 H100，Hopper/Ampere 每小时的实际算力性价比大幅下降。这一事件显示前沿 MoE 模型对显存容量与 GPU 互联带宽的要求，正推动算力采购从单卡性能转向整机架规模。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是算力代际更替与租赁模式承压的清晰信号，对关注 AI 基础设施成本结构的人有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 72/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2118783864177148059">Rohan Paul (@rohanpaul_ai)</source>
-<category>算力</category>
-<category>微软</category>
-<category>Oracle</category>
-<category>Nvidia</category>
-<category>GPU 租赁</category>
-</item>
-<item><title>Replit 用 microVM 重写沙箱引擎 平滑迁移数亿项目</title><link>https://frontier.replit.com/sandbox-engine-microvms-part-1/</link><guid isPermaLink="true">https://frontier.replit.com/sandbox-engine-microvms-part-1/</guid>
-<pubDate>Sat, 07 Nov 2026 03:06:10 +0800</pubDate>
-<description>&lt;p&gt;Replit 完成沙箱引擎的彻底重写，将隔离边界切换为 microVM，以提升安全性、能力与跨云可移植性，并支撑其 Bring Your Own Cloud 部署到客户自有 AWS、Google Cloud 或 Azure 环境。官方称在不被用户察觉的情况下平滑迁移了数亿个项目且无数据丢失，后续将介绍如何在 Kubernetes 上编排数万个 microVM。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是主流在线开发平台对 Agent 沙箱隔离架构的一次大规模工程实践披露，对关注智能体运行环境与云基础设施的读者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 58/100&lt;/p&gt;</description>
-<source url="https://frontier.replit.com/sandbox-engine-microvms-part-1/">Hacker News AI</source>
-<category>智能体</category>
-<category>沙箱</category>
-<category>云基础设施</category>
-<category>Replit</category>
 </item>
 </channel>
 </rss>
