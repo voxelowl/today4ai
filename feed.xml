@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 07 Nov 2026 23:35:50 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 08 Nov 2026 00:01:40 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Author Rebuilds Google&#x27;s Agent Sandbox on Firecracker and Benchmarks It</title><link>https://antonau.tech/posts/2026/11/agents-microvm-firecracker/</link><guid isPermaLink="true">https://antonau.tech/posts/2026/11/agents-microvm-firecracker/</guid>
+<pubDate>Sun, 08 Nov 2026 00:01:40 +0800</pubDate>
+<description>&lt;p&gt;Google described its Agent Compute Engine on October 22 without latency or density figures, so the author rebuilt the same pattern on Firecracker in roughly 2,200 lines of Go: one microVM per agent session, checkpointed while the model thinks, cloned copy-on-write from warm snapshots, and no network card. Measurements show 64 idle forks of a 512 MiB VM cost about 3 MiB of host memory each; on bare metal a snapshot restore answers in 25 ms, 26x faster than a cold boot, and 64 concurrent forks are ready in about 150 ms, while twelve concurrent forks under nested virtualization on a Mac mini never became ready.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;作者用 Firecracker 复刻 Google 智能体沙箱并实测性能&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;用可复现的开源实现与实测数据补上了厂商文档缺失的延迟与密度指标，对构建智能体沙箱的工程师有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 72/100&lt;/p&gt;</description>
+<source url="https://antonau.tech/posts/2026/11/agents-microvm-firecracker/">Hacker News AI</source>
+<category>智能体</category>
+<category>Firecracker</category>
+<category>microVM</category>
+<category>沙箱隔离</category>
+<category>性能基准</category>
+</item>
+<item><title>Let&#x27;s Encrypt AI Campaign Aims for Confidential Computing on Most AI GPUs by End of 2027</title><link>https://letsencrypt.ai/</link><guid isPermaLink="true">https://letsencrypt.ai/</guid>
+<pubDate>Sat, 07 Nov 2026 23:43:43 +0800</pubDate>
+<description>&lt;p&gt;Let&amp;#x27;s Encrypt AI has published a manifesto arguing that users own their AI conversations and that training on private data should require separate informed consent. It sets a goal of enabling confidential-computing-protected AI chats on most AI GPUs by the end of 2027, but so far offers a position statement and call to action rather than concrete technical methods or benchmarks.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Let&amp;#x27;s Encrypt AI 倡议 2027 年底前在多数 AI GPU 上实现机密计算&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是关于 AI 推理隐私与 GPU 机密计算的重要行业倡议，方向值得关注，但目前仍停留在宣言层面，缺乏可验证的技术细节。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 58/100&lt;/p&gt;</description>
+<source url="https://letsencrypt.ai/">Hacker News AI</source>
+<category>AI 隐私</category>
+<category>机密计算</category>
+<category>GPU</category>
+<category>行业倡议</category>
+</item>
 <item><title>Open and Closed AI Models Converge in Cyber Offense Capabilities</title><link>https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking/</link><guid isPermaLink="true">https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking/</guid>
 <pubDate>Sat, 07 Nov 2026 23:35:50 +0800</pubDate>
 <description>&lt;p&gt;Vals AI&amp;#x27;s CyberOffense benchmark shows AI agents can autonomously penetrate simulated corporate networks from a single public URL to admin privileges with zero human help. Meanwhile, open-weight models are approaching closed frontier models at building exploits, narrowing the cyber-capability gap between them.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;开源与闭源模型网络攻击能力差距持续收窄&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该报道用可复现的基准量化了 AI 智能体的自主攻击能力，并揭示开源模型正快速追平闭源模型，对 AI 安全与模型治理具有直接参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
@@ -19,6 +38,15 @@
 <category>网络安全</category>
 <category>AI 安全</category>
 <category>产业变革</category>
+</item>
+<item><title>Anthropic Must Face Lawsuit Over Claude Max Usage Limits, Judge Rules</title><link>https://www.ithome.com/1/023/824.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/824.htm</guid>
+<pubDate>Sat, 07 Nov 2026 22:57:42 +0800</pubDate>
+<description>&lt;p&gt;A U.S. federal magistrate judge ruled that Anthropic must continue defending core claims that its Claude Max subscription usage limits mislead consumers. Plaintiffs calculated that Max tiers deliver only 3.5x and 6x the weekly quota of Pro, far below the advertised 5x and 20x; the judge held that a help-page note about per-session limits, buried two clicks from the main sales page, does not adequately disclose the terms.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 因 Claude Max 额度宣传被起诉，法官驳回其抗辩&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 订阅商业模式中“额度宣传”首次进入司法实质审查，对定价与营销合规有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/023/824.htm">IT之家 · 智能时代</source>
+<category>Anthropic</category>
+<category>订阅定价</category>
+<category>消费者诉讼</category>
+<category>AI 商业化</category>
 </item>
 <item><title>GitHub Unveils Rubicon Storage Architecture for 5,000 Concurrent Agents</title><link>https://www.ithome.com/1/023/823.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/823.htm</guid>
 <pubDate>Sat, 07 Nov 2026 22:57:23 +0800</pubDate>
@@ -194,26 +222,26 @@
 <category>吉利</category>
 <category>气象</category>
 </item>
-<item><title>Humans Write Worse to Evade AI Detectors as Models Shed AI Tells</title><link>https://www.qbitai.com/2026/11/508330.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/508330.html</guid>
+<item><title>人类为躲 AI 检测主动写烂文，AI 反而开始去 AI 味</title><link>https://www.qbitai.com/2026/11/508330.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/508330.html</guid>
 <pubDate>Sat, 07 Nov 2026 15:59:28 +0800</pubDate>
-<description>&lt;p&gt;As AI detectors spread, human writers are deliberately introducing typos, broken syntax and profanity to prove authorship, while newer models actively strip out em-dashes and other telltale AI patterns. The piece documents this two-way mimicry in a satirical tone, drawing mainly on anecdotal observation and secondary reporting rather than systematic data.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;人类为躲 AI 检测主动写烂文，AI 反而开始去 AI 味&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以轻松视角呈现 AI 检测压力下人类写作风格与模型输出风格相互靠拢的有趣现象，适合关注 AI 内容生态的读者一读。&lt;/p&gt;&lt;p&gt;量子位官网 · industry · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;AI 检测工具普及后，人类写作者开始刻意制造错别字、语病与口语脏话，以证明内容出自真人；与此同时，最新模型反而主动减少破折号等被视作 AI 痕迹的表达。文章以调侃笔调记录这种双向“窜味”现象，但主要基于观察与二手报道，缺乏系统数据支撑。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以轻松视角呈现 AI 检测压力下人类写作风格与模型输出风格相互靠拢的有趣现象，适合关注 AI 内容生态的读者一读。&lt;/p&gt;&lt;p&gt;量子位官网 · industry · signal 42/100&lt;/p&gt;</description>
 <source url="https://www.qbitai.com/2026/11/508330.html">量子位官网</source>
 <category>AI 检测</category>
 <category>写作风格</category>
 <category>内容生态</category>
 </item>
-<item><title>Meta Rolls Out Active Memory and Active Focus to Existing Muse Models</title><link>https://www.ithome.com/1/023/744.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/744.htm</guid>
+<item><title>Meta 将主动记忆与主动专注能力下放至 Muse 现有模型</title><link>https://www.ithome.com/1/023/744.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/744.htm</guid>
 <pubDate>Sat, 07 Nov 2026 15:40:53 +0800</pubDate>
-<description>&lt;p&gt;Meta has ported the Active Memory and Active Focus capabilities first introduced with Muse Wonder into its existing dedicated models across Muse and Meta AI, rolling them out broadly. Meta reports a 2.4x reduction in forgetting key information and a 67% higher task completion rate under unexpected conditions in Muse. This is an engineering rollout of Muse Wonder features to existing products rather than a new model release.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 将主动记忆与主动专注能力下放至 Muse 现有模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部厂商将长程记忆与目标坚持能力下放到存量助手产品，是观察智能体实用化进展的可参考信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Meta 宣布把 Muse Wonder 首发的主动记忆与主动专注两项能力下放到 Muse 与 Meta AI 的现有专用模型，并全面推送。官方数据显示，Muse 中关键信息遗忘问题降低 2.4 倍，日常任务突发状况下的完成率提升 67%。这是 Muse Wonder 能力向存量产品线的工程化落地，而非新模型发布。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部厂商将长程记忆与目标坚持能力下放到存量助手产品，是观察智能体实用化进展的可参考信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/023/744.htm">IT之家 · 智能时代</source>
 <category>大模型</category>
 <category>Meta</category>
 <category>智能体</category>
 <category>记忆机制</category>
 </item>
-<item><title>DeepSeek Web and API Services Hit Partial Outage</title><link>https://www.ithome.com/1/023/697.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/697.htm</guid>
+<item><title>DeepSeek 网页与 API 服务突发部分中断</title><link>https://www.ithome.com/1/023/697.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/697.htm</guid>
 <pubDate>Sat, 07 Nov 2026 15:18:03 +0800</pubDate>
-<description>&lt;p&gt;DeepSeek&amp;#x27;s web and API services suffered a partial outage on Friday, with the chat interface returning a \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;DeepSeek 网页与 API 服务突发部分中断&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部大模型厂商服务中断直接影响开发者与用户调用，值得关注但信息量有限。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;DeepSeek 网页与 API 服务今日突发部分中断，对话界面提示“服务器暂时不可用”，官方状态页确认正在排查，中断已持续超过 3 分钟。事件属短时可用性故障，尚无根因与恢复时间说明。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部大模型厂商服务中断直接影响开发者与用户调用，值得关注但信息量有限。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/023/697.htm">IT之家 · 智能时代</source>
 <category>DeepSeek</category>
 <category>服务中断</category>
@@ -244,33 +272,6 @@
 <category>AI 合规</category>
 <category>劳动关系</category>
 <category>企业治理</category>
-</item>
-<item><title>OpenAI CFO 称中期选举不影响 IPO 计划</title><link>https://www.ithome.com/1/023/690.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/690.htm</guid>
-<pubDate>Sat, 07 Nov 2026 15:04:47 +0800</pubDate>
-<description>&lt;p&gt;OpenAI CFO 弗莱尔表示，尽管 2026 年美国中期选举改变国会格局、多州新州长以限制数据中心为竞选承诺，公司明年上市计划与大型数据中心投资均不受影响。她同时披露第三季度营收增长 70%、企业业务销售额翻番，并称上市契合“让所有人共享 AI 经济价值”的使命。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 OpenAI 上市时间表与算力投资策略的官方口径更新，并附带最新营收增速数据，对判断其商业化与资本路径有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/023/690.htm">IT之家 · 智能时代</source>
-<category>OpenAI</category>
-<category>IPO</category>
-<category>算力基础设施</category>
-<category>商业化</category>
-</item>
-<item><title>Anthropic 工程团队拆解 Agent 记忆的组成结构</title><link>https://www.anthropic.com/research/components-of-agent-memory</link><guid isPermaLink="true">https://www.anthropic.com/research/components-of-agent-memory</guid>
-<pubDate>Sat, 07 Nov 2026 14:39:04 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 工程博客以人类记忆机制为类比，系统拆解 AI Agent 记忆的组成要素，并将其归入智能体与上下文工程议题。文章属于概念性工程经验分享，正文中段被省略，未给出可验证的具体方法或参数。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自头部厂商工程团队的一手 Agent 记忆框架梳理，对智能体设计有参考价值，但缺少可验证细节。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.anthropic.com/research/components-of-agent-memory">Hacker News AI</source>
-<category>智能体</category>
-<category>上下文工程</category>
-<category>Agent 记忆</category>
-<category>Anthropic</category>
-</item>
-<item><title>马斯克称 Optimus 机器人或只租不卖 初期造价约 3 万美元</title><link>https://www.ithome.com/1/023/675.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/675.htm</guid>
-<pubDate>Sat, 07 Nov 2026 13:32:39 +0800</pubDate>
-<description>&lt;p&gt;马斯克在巴伦投资大会上表示，特斯拉 Optimus 人形机器人可能采用只租不售的模式，初期单台成本约 3 万美元，后续有望降至 2 万美元左右。他称其生产效率可达普通人的 5 倍，并计划先在自有工厂使用，2027 年底前后向外部企业交付。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是人形机器人商业化路径与成本结构的重要信号，但关键参数多为口头预期，缺乏可验证细节。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/023/675.htm">IT之家 · 智能时代</source>
-<category>人形机器人</category>
-<category>特斯拉</category>
-<category>马斯克</category>
-<category>商业化</category>
 </item>
 </channel>
 </rss>
