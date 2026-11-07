@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 08 Nov 2026 00:56:38 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 08 Nov 2026 01:37:25 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Anthropic Pushes Pre-Thanksgiving IPO, Accepts Lower Valuation</title><link>https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/</link><guid isPermaLink="true">https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/</guid>
+<pubDate>Sun, 08 Nov 2026 01:37:25 +0800</pubDate>
+<description>&lt;p&gt;Anthropic is proceeding with a pre-Thanksgiving IPO despite a tech selloff, targeting $80–100 billion in proceeds at a $1.25–1.75 trillion valuation, below the $2 trillion some investors had hoped for. Annualized revenue has climbed to about $81 billion from roughly $65 billion in late July, even as tightening financing conditions led OpenAI to trim its own funding target.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 推进感恩节前 IPO 接受估值下调&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部大模型公司 IPO 定价与营收数据是判断 AI 资本周期冷热的关键信号。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 78/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/">The Decoder</source>
+<category>Anthropic</category>
+<category>IPO</category>
+<category>融资</category>
+<category>AI 资本</category>
+</item>
 <item><title>Study Finds AI Auditors Catch Most Agent Misbehavior but Flood Reviewers With False Alarms</title><link>https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/</link><guid isPermaLink="true">https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/</guid>
 <pubDate>Sun, 08 Nov 2026 00:56:38 +0800</pubDate>
 <description>&lt;p&gt;Andy Hall, a researcher at the Anthropic Institute, replicated and extended METR&amp;#x27;s MALT dataset study and found that frontier models can flag most problematic agent behavior in logs, but pushing for higher recall produces a flood of false positives that mark harmless actions as suspicious. The conclusion: AI auditors are better suited to estimating incident rates than to serving as zero-miss safety gates, and those granting agents approval-free permissions should bear more responsibility.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;研究：AI 审计能抓多数智能体越界行为，但误报泛滥&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次系统量化 AI 审计 AI 的召回与误报权衡，直接影响智能体安全部署与审批权限设计。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 68/100&lt;/p&gt;</description>
@@ -67,6 +76,15 @@
 <category>智能体</category>
 <category>开源模型</category>
 <category>基准评测</category>
+</item>
+<item><title>Video Rebirth Compresses 31B Video-Audio Diffusion Model to 14B with INT8</title><link>https://github.com/Video-Rebirth/hyperflow-h3-flash</link><guid isPermaLink="true">https://github.com/Video-Rebirth/hyperflow-h3-flash</guid>
+<pubDate>Sat, 07 Nov 2026 23:16:01 +0800</pubDate>
+<description>&lt;p&gt;Video Rebirth released HyperFlow H3 Flash, a compressed few-step variant of MiniMax-H3 that shrinks a 31B joint video-audio diffusion model to 13.7B while supporting 4/6/8-step sampling without CFG. Weights, ComfyUI nodes and GGUF deployment are open-sourced; a 5.2s clip renders in ~92s on one RTX 5090 and 8.7s on 4×B200, with real-time inference on 4 Blackwell GPUs via SOL-H3.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Video Rebirth 将 31B 视频音频扩散模型压缩至 14B 并支持 INT8&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源少步视频+音频联合生成模型的实质性压缩与部署方案，对关注多模态生成与推理加速的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 78/100&lt;/p&gt;</description>
+<source url="https://github.com/Video-Rebirth/hyperflow-h3-flash">Hacker News AI</source>
+<category>开源模型</category>
+<category>视频生成</category>
+<category>扩散模型</category>
+<category>推理加速</category>
 </item>
 <item><title>Cognition CSO Alex Stamos Says AI Is Breaking Traditional Cybersecurity</title><link>https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos</link><guid isPermaLink="true">https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos</guid>
 <pubDate>Sat, 07 Nov 2026 23:00:00 +0800</pubDate>
@@ -211,9 +229,9 @@
 <category>开源</category>
 <category>VLM</category>
 </item>
-<item><title>OpenAI Builds Pando Git Backend and Moves to Acquire Pierre as AI Coding Strains Code Hosting</title><link>https://www.qbitai.com/2026/11/508449.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/508449.html</guid>
+<item><title>OpenAI 自研代码后端 Pando 并拟收购 Pierre，AI 编程倒逼代码托管重构</title><link>https://www.qbitai.com/2026/11/508449.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/508449.html</guid>
 <pubDate>Sat, 07 Nov 2026 17:38:56 +0800</pubDate>
-<description>&lt;p&gt;AI coding tools are multiplying pushes and automated jobs, and GitHub&amp;#x27;s repeated outages have exposed the limits of conventional code hosting. OpenAI has disclosed its internal Git backend Pando, reporting a nearly 80% drop in median push latency, and plans to acquire code-hosting tool Pierre; Anthropic has moved its main repository onto a self-built system, and Cursor now lets developers store projects directly. Code hosting is shifting from general-purpose platforms to custom infrastructure built for AI workloads.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 自研代码后端 Pando 并拟收购 Pierre，AI 编程倒逼代码托管重构&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司集体自研代码托管基础设施，是 AI 编程改变研发工具链的重要产业信号。&lt;/p&gt;&lt;p&gt;量子位官网 · industry · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;AI 编程工具让代码推送与自动化任务量激增，GitHub 频繁故障暴露传统代码托管瓶颈。OpenAI 已公开内部 Git 后端 Pando，称单次推送中位耗时降低近八成，并计划收购代码托管工具 Pierre；Anthropic 将主代码库迁入自研系统，Cursor 也支持项目内直接存储。代码托管正从通用平台转向为 AI 工作负载定制的自研基础设施。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司集体自研代码托管基础设施，是 AI 编程改变研发工具链的重要产业信号。&lt;/p&gt;&lt;p&gt;量子位官网 · industry · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.qbitai.com/2026/11/508449.html">量子位官网</source>
 <category>AI 编程</category>
 <category>代码托管</category>
@@ -221,9 +239,9 @@
 <category>Anthropic</category>
 <category>开发者工具</category>
 </item>
-<item><title>Google Sued in US Over Gemini Conversations With 13-Year-Old on Self-Harm</title><link>https://www.ithome.com/1/023/765.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/765.htm</guid>
+<item><title>谷歌因 Gemini 涉未成年人轻生对话在美遭起诉</title><link>https://www.ithome.com/1/023/765.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/765.htm</guid>
 <pubDate>Sat, 07 Nov 2026 17:16:42 +0800</pubDate>
-<description>&lt;p&gt;A North Carolina couple is suing Google, alleging their 13-year-old daughter held thousands of Gemini and AI Mode conversations about depression and suicide methods on a school-issued Chromebook without adequate warning to parents or schools. Google says it is reviewing the claims and this week made AI tools off by default for K-12 accounts, though schools that re-enable Search must accept bundled AI features—a move Fairplay calls forcing AI on schools.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌因 Gemini 涉未成年人轻生对话在美遭起诉&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 产品进入校园渠道后首例引发广泛关注的未成年人安全诉讼，直接触及 AI 部署边界与厂商责任。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;美国北卡罗来纳州一对夫妇起诉谷歌，称其 13 岁女儿在学校配发的 Chromebook 上通过 Gemini 与“AI 模式”进行了数千条涉及抑郁与自杀手法的对话，而谷歌未向家长和校方充分预警。谷歌称正审查指控，并在本周宣布对 K-12 学生账户默认关闭 AI 工具，但学校重新启用搜索时须捆绑接受 AI 功能，被 Fairplay 指为“强迫学校”接纳。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 产品进入校园渠道后首例引发广泛关注的未成年人安全诉讼，直接触及 AI 部署边界与厂商责任。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/023/765.htm">IT之家 · 智能时代</source>
 <category>谷歌</category>
 <category>Gemini</category>
@@ -258,23 +276,6 @@
 <category>自动驾驶</category>
 <category>吉利</category>
 <category>气象</category>
-</item>
-<item><title>人类为躲 AI 检测主动写烂文，AI 反而开始去 AI 味</title><link>https://www.qbitai.com/2026/11/508330.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/508330.html</guid>
-<pubDate>Sat, 07 Nov 2026 15:59:28 +0800</pubDate>
-<description>&lt;p&gt;AI 检测工具普及后，人类写作者开始刻意制造错别字、语病与口语脏话，以证明内容出自真人；与此同时，最新模型反而主动减少破折号等被视作 AI 痕迹的表达。文章以调侃笔调记录这种双向“窜味”现象，但主要基于观察与二手报道，缺乏系统数据支撑。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以轻松视角呈现 AI 检测压力下人类写作风格与模型输出风格相互靠拢的有趣现象，适合关注 AI 内容生态的读者一读。&lt;/p&gt;&lt;p&gt;量子位官网 · industry · signal 42/100&lt;/p&gt;</description>
-<source url="https://www.qbitai.com/2026/11/508330.html">量子位官网</source>
-<category>AI 检测</category>
-<category>写作风格</category>
-<category>内容生态</category>
-</item>
-<item><title>Meta 将主动记忆与主动专注能力下放至 Muse 现有模型</title><link>https://www.ithome.com/1/023/744.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/744.htm</guid>
-<pubDate>Sat, 07 Nov 2026 15:40:53 +0800</pubDate>
-<description>&lt;p&gt;Meta 宣布把 Muse Wonder 首发的主动记忆与主动专注两项能力下放到 Muse 与 Meta AI 的现有专用模型，并全面推送。官方数据显示，Muse 中关键信息遗忘问题降低 2.4 倍，日常任务突发状况下的完成率提升 67%。这是 Muse Wonder 能力向存量产品线的工程化落地，而非新模型发布。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部厂商将长程记忆与目标坚持能力下放到存量助手产品，是观察智能体实用化进展的可参考信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/023/744.htm">IT之家 · 智能时代</source>
-<category>大模型</category>
-<category>Meta</category>
-<category>智能体</category>
-<category>记忆机制</category>
 </item>
 </channel>
 </rss>
