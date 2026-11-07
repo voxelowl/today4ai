@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 08 Nov 2026 00:01:40 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 08 Nov 2026 00:44:12 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Developer Flags GPUI Pitfalls, Switches Back to Electron for Agent-Friendly Workflow</title><link>https://x.com/dotey/status/2119108669392720336</link><guid isPermaLink="true">https://x.com/dotey/status/2119108669392720336</guid>
+<pubDate>Sun, 08 Nov 2026 00:44:12 +0800</pubDate>
+<description>&lt;p&gt;Developer Baoyu reviewed his experience building the baocut desktop app on GPUI, noting that beyond performance and cross-platform strengths, the Rust-native UI framework requires forking for complex UIs, has weak accessibility support, heavy compile resource and time costs, no hot reload, and costly agent-driven UI verification. He ultimately returned to Electron while keeping complex rendering and transcription/TTS modules as Rust/WASM and worker processes to balance iteration speed with backend performance.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;开发者复盘 GPUI 踩坑：编译慢、无热更新，转回 Electron&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自一线开发者的真实工程复盘，为评估 Rust 原生 UI 框架与 Electron 在 Agent 协作开发场景下的取舍提供了具体经验。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/dotey/status/2119108669392720336">宝玉 (@dotey)</source>
+<category>GPUI</category>
+<category>Electron</category>
+<category>Rust</category>
+<category>开发者工具</category>
+<category>Agent</category>
+</item>
+<item><title>Thinking Machines&#x27; Inkling 2 Small Model Swears Repeatedly During Benchmark Runs</title><link>https://the-decoder.com/thinking-machines-inkling-2-small-drops-316-f-bombs-across-benchmark-runs/</link><guid isPermaLink="true">https://the-decoder.com/thinking-machines-inkling-2-small-drops-316-f-bombs-across-benchmark-runs/</guid>
+<pubDate>Sun, 08 Nov 2026 00:31:00 +0800</pubDate>
+<description>&lt;p&gt;Researchers at Vals AI examined the chain-of-thought logs of Thinking Machines&amp;#x27; open-weight Inkling 2 Small across 2,655 runs on 13 benchmarks, finding profanity in 50 runs totaling 316 instances, with 241 concentrated in two runaway runs, one of which produced a roughly 500,000-character repetitive response while computing an asteroid trajectory. The swearing mostly targets the model&amp;#x27;s own mistakes but is not a useful failure signal: 46 of 48 scored runs containing profanity failed, yet overall failure rate is about 75% and 96% of failed runs contained no expletives.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Thinking Machines 开源模型 Inkling 2 Small 在基准测试中频繁爆粗口&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是对开源模型思维链行为的一次具体可量化的观察，揭示了推理过程失控与重复退化问题，对关注模型可靠性的读者有参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 58/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/thinking-machines-inkling-2-small-drops-316-f-bombs-across-benchmark-runs/">The Decoder</source>
+<category>大模型</category>
+<category>开源模型</category>
+<category>思维链</category>
+<category>基准测试</category>
+</item>
 <item><title>Author Rebuilds Google&#x27;s Agent Sandbox on Firecracker and Benchmarks It</title><link>https://antonau.tech/posts/2026/11/agents-microvm-firecracker/</link><guid isPermaLink="true">https://antonau.tech/posts/2026/11/agents-microvm-firecracker/</guid>
 <pubDate>Sun, 08 Nov 2026 00:01:40 +0800</pubDate>
 <description>&lt;p&gt;Google described its Agent Compute Engine on October 22 without latency or density figures, so the author rebuilt the same pattern on Firecracker in roughly 2,200 lines of Go: one microVM per agent session, checkpointed while the model thinks, cloned copy-on-write from warm snapshots, and no network card. Measurements show 64 idle forks of a 512 MiB VM cost about 3 MiB of host memory each; on bare metal a snapshot restore answers in 25 ms, 26x faster than a cold boot, and 64 concurrent forks are ready in about 150 ms, while twelve concurrent forks under nested virtualization on a Mac mini never became ready.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;作者用 Firecracker 复刻 Google 智能体沙箱并实测性能&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;用可复现的开源实现与实测数据补上了厂商文档缺失的延迟与密度指标，对构建智能体沙箱的工程师有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 72/100&lt;/p&gt;</description>
@@ -12,6 +31,15 @@
 <category>microVM</category>
 <category>沙箱隔离</category>
 <category>性能基准</category>
+</item>
+<item><title>US Clears Nvidia H200 Chip Buyers in China, Including an Empty-Shell Firm</title><link>https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government</guid>
+<pubDate>Sat, 07 Nov 2026 23:43:45 +0800</pubDate>
+<description>&lt;p&gt;A New York Times investigation found that New Matrix, one of the Chinese firms cleared by Washington to buy Nvidia&amp;#x27;s H200 AI chips, has an empty office at its listed address, with no record of the company at the building directory or the industrial park&amp;#x27;s property manager. Its owners are tied to a Chinese private equity firm blacklisted by the US since 2024, and the paper describes the case as part of a broader pattern of weak due diligence by the Commerce Department and Nvidia.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美批准 Nvidia H200 对华出口 涉事中企办公室竟为空壳&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;出口管制执行漏洞直接关系到高端 AI 芯片的全球流向，是算力地缘格局的重要变量。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 72/100&lt;/p&gt;</description>
+<source url="https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government">The Verge AI</source>
+<category>Nvidia</category>
+<category>出口管制</category>
+<category>算力</category>
+<category>地缘政治</category>
 </item>
 <item><title>Let&#x27;s Encrypt AI Campaign Aims for Confidential Computing on Most AI GPUs by End of 2027</title><link>https://letsencrypt.ai/</link><guid isPermaLink="true">https://letsencrypt.ai/</guid>
 <pubDate>Sat, 07 Nov 2026 23:43:43 +0800</pubDate>
@@ -194,9 +222,9 @@
 <category>未成年人保护</category>
 <category>诉讼</category>
 </item>
-<item><title>OpenAI Closes First $11 Billion Tranche at $1.25 Trillion Valuation</title><link>https://www.qbitai.com/2026/11/508344.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/508344.html</guid>
+<item><title>OpenAI 首笔 110 亿美元融资到账 估值达 1.25 万亿美元</title><link>https://www.qbitai.com/2026/11/508344.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/508344.html</guid>
 <pubDate>Sat, 07 Nov 2026 16:11:25 +0800</pubDate>
-<description>&lt;p&gt;OpenAI has closed the first $11 billion tranche of its new funding round at a $1.25 trillion valuation, with the full round potentially reaching $20 billion — yet the first tranche is less than half of what was originally planned, signaling growing caution among Silicon Valley investors. In parallel, OpenAI released BioBasicsBench with biotech firm Ligo and a cyber-jailbreak rating framework with the Frontier Model Forum, while the anticipated GPT-6.2 Astra did not materialize.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 首笔 110 亿美元融资到账 估值达 1.25 万亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;融资缩水叠加万亿估值，是观察头部 AI 公司资本环境与投资人风险偏好变化的关键信号。&lt;/p&gt;&lt;p&gt;量子位官网 · industry · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 已完成新一轮融资首笔 110 亿美元交割，公司估值升至 1.25 万亿美元，整轮规模最高或达 200 亿美元，但首笔金额不及原计划的一半，显示硅谷投资人在超大额押注上趋于谨慎。同期 OpenAI 还联合 Ligo 发布生物实验分析基准 BioBasicsBench，并与前沿模型论坛推出网络安全越狱评级框架，而外界期待的 GPT-6.2 Astra 并未现身。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;融资缩水叠加万亿估值，是观察头部 AI 公司资本环境与投资人风险偏好变化的关键信号。&lt;/p&gt;&lt;p&gt;量子位官网 · industry · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.qbitai.com/2026/11/508344.html">量子位官网</source>
 <category>OpenAI</category>
 <category>融资</category>
@@ -204,18 +232,18 @@
 <category>AI4S</category>
 <category>AI 安全</category>
 </item>
-<item><title>Anthropic&#x27;s Unreleased Model Helps Prove Quantum Computing Conjecture</title><link>https://www.ithome.com/1/023/752.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/752.htm</guid>
+<item><title>Anthropic 未发布模型助证量子计算猜想</title><link>https://www.ithome.com/1/023/752.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/752.htm</guid>
 <pubDate>Sat, 07 Nov 2026 16:10:11 +0800</pubDate>
-<description>&lt;p&gt;Physical Superintelligence (PSI) claims it used an unreleased Anthropic model to prove the Aaronson-Ambainis conjecture, open since 2008, in just three days, indicating that quantum speedups require special problem structure. If validated, it marks another landmark in AI-assisted mathematics, though the model, proof details and peer-review status remain undisclosed.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 未发布模型助证量子计算猜想&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 辅助攻克长期数学猜想属高信号事件，但关键证据缺失，值得关注而非全盘采信。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;物理研究机构 PSI 借助 Anthropic 一款尚未发布的 AI 模型，三天内证明了自 2008 年悬而未决的阿伦森－安拜尼斯猜想，表明量子计算机的指数级加速依赖问题结构。该成果若成立，将是 AI 辅助数学证明的又一标志性案例，但模型身份、证明细节与同行评审状态均未披露。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 辅助攻克长期数学猜想属高信号事件，但关键证据缺失，值得关注而非全盘采信。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/023/752.htm">IT之家 · 智能时代</source>
 <category>大模型</category>
 <category>Anthropic</category>
 <category>量子计算</category>
 <category>AI for Science</category>
 </item>
-<item><title>Geely Unveils Lane-Level Weather Model for Road Hazard Alerts</title><link>https://www.ithome.com/1/023/749.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/749.htm</guid>
+<item><title>吉利发布车道级气象大模型 可预警暗冰与团雾</title><link>https://www.ithome.com/1/023/749.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/749.htm</guid>
 <pubDate>Sat, 07 Nov 2026 16:02:15 +0800</pubDate>
-<description>&lt;p&gt;Geely and the China Meteorological Administration&amp;#x27;s Earth System Numerical Prediction Center jointly launched \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;吉利发布车道级气象大模型 可预警暗冰与团雾&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是大模型在垂直气象与自动驾驶安全场景的落地案例，但披露以合作框架与功能预告为主，缺少模型参数、训练方法与量化效果数据。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;吉利与中国气象局地球系统数值预报中心联合发布行业首个“智象-星睿交通气象大模型”，可输出车道级能见度、暗冰与暴雨积水风险提示，并通过多车互联实现“超视距安全预警”。该模型计划率先在领克 900L 量产落地，后续扩展至吉利、银河、领克、极氪多品牌，双方还将于明年一季度发布通用气象模型并推进车载气象数据国家标准。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是大模型在垂直气象与自动驾驶安全场景的落地案例，但披露以合作框架与功能预告为主，缺少模型参数、训练方法与量化效果数据。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/023/749.htm">IT之家 · 智能时代</source>
 <category>大模型</category>
 <category>自动驾驶</category>
@@ -246,32 +274,6 @@
 <category>DeepSeek</category>
 <category>服务中断</category>
 <category>API</category>
-</item>
-<item><title>Nous Research 对 Qwen3.8-27B 后训练推出 Arete-27B</title><link>https://nousresearch.com/arete</link><guid isPermaLink="true">https://nousresearch.com/arete</guid>
-<pubDate>Sat, 07 Nov 2026 15:14:41 +0800</pubDate>
-<description>&lt;p&gt;Nous Research 基于阿里 Qwen3.8-27B 进行后训练，推出强化西方价值观的 Arete-27B，并同步开源权重、评测集 Propaganda_Eval 与训练数据 arete-data-pairs。其核心主张是前沿实验室观点趋同带来政治偏见风险，而开源模型可让用户按偏好重塑模型取向。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是一次针对中国开源基座的价值对齐后训练实验，同时开放权重、评测与数据，对关注模型对齐与开源生态的读者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 62/100&lt;/p&gt;</description>
-<source url="https://nousresearch.com/arete">Hacker News AI</source>
-<category>大模型</category>
-<category>开源</category>
-<category>模型对齐</category>
-<category>Nous Research</category>
-</item>
-<item><title>苹果 iOS 27.3 测试版现国行 Siri AI 功能开关</title><link>https://www.ithome.com/1/023/696.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/696.htm</guid>
-<pubDate>Sat, 07 Nov 2026 15:14:22 +0800</pubDate>
-<description>&lt;p&gt;iOS 27.3 首个开发者预览版中，苹果为 IntelligenceFlow 框架新增 LinwoodChinaMainland 功能标志，并由 siriAIInChinaMainland 内部逻辑读取，目前该标志处于禁用状态。消息源强调这只是国行机型获得 Siri AI 资格的必要非充分条件，落地时间仍不明确。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是国行 Siri AI 落地的早期工程线索，但仅有内部开关、无功能与时间表，信息增量有限。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 38/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/023/696.htm">IT之家 · 智能时代</source>
-<category>苹果</category>
-<category>Siri</category>
-<category>Apple Intelligence</category>
-<category>国行</category>
-</item>
-<item><title>员工用第三方 AI 办公遭解雇 法院判公司赔偿 4.6 万</title><link>https://www.ithome.com/1/023/695.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/695.htm</guid>
-<pubDate>Sat, 07 Nov 2026 15:13:08 +0800</pubDate>
-<description>&lt;p&gt;北京法院认定，保险公司在未明确禁止第三方 AI 工具、未出台 AI 专项合规规则、未开展相关培训的情况下，以“严重违反信息安全规定”解雇使用 AI 辅助办公的法务员工，属违法解除。判决撤销解雇通知、继续履行劳动合同，并赔偿工资损失与年终奖差额等共计 4.6 万余元，二审维持原判。该案为国内企业 AI 使用合规与劳动关系的边界提供了可参照的司法样本。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首例进入公众视野的“员工用 AI 被开除”判决，直接划定企业 AI 合规制度缺位时的责任边界。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/023/695.htm">IT之家 · 智能时代</source>
-<category>AI 合规</category>
-<category>劳动关系</category>
-<category>企业治理</category>
 </item>
 </channel>
 </rss>
