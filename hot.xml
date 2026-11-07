@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Sat, 07 Nov 2026 20:30:00 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 07 Nov 2026 22:57:23 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Thinking Machines 发布 Inkling 2 Small，智能指数 31 分比肩 Gemini 3.8 Flash</title><link>https://todayforai.com/en/story/story-bbea1fd9-9f8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-bbea1fd9-9f8</guid>
 <pubDate>Sat, 07 Nov 2026 05:41:38 +0800</pubDate>
@@ -75,13 +75,13 @@ Hy4 上线首日即因调用量激增导致推理集群紧急扩容十倍，反�
 
 行业影响方面，该成果将可穿戴设备从日常健康监测推向疾病筛查与早期预警，为高血压的早期发现提供了低成本、无感化的新路径，有望提升年轻群体等知晓率较低人群的筛查覆盖率。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Google Research, The Decoder, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
-<item><title>OpenAI 发布 Images 2.6 实现 ChatGPT 原生生成 GIF</title><link>https://todayforai.com/en/story/story-56a44e50-483</link><guid isPermaLink="true">https://todayforai.com/en/story/story-56a44e50-483</guid>
-<pubDate>Sat, 07 Nov 2026 07:40:40 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 正式推出 Images 2.6 模型，标志着 ChatGPT 首次具备原生生成与编辑动画 GIF 的能力。这一更新不仅实现了从静态图像到动态内容的跨越，更将整体生成速度提升了 50%，低质量模式下最快仅需 6 秒即可出图，显著降低了用户等待成本。
+<item><title>GitHub 重构 Git 存储架构，单仓库可支撑每秒 7200 次推送</title><link>https://todayforai.com/en/story/story-fadcb366-2c1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-fadcb366-2c1</guid>
+<pubDate>Sat, 07 Nov 2026 22:57:23 +0800</pubDate>
+<description>&lt;p&gt;GitHub 正式公布代号 Rubicon 的全新 Git 存储架构，内部压测显示单仓库可支撑 5000 个智能体并发协作、每秒 7200 次推送，并支持读取按需水平扩展。这一架构旨在应对 AI 智能体全天候高并发写入带来的常态化负载，目前仅小范围定向内测，计划明年初逐步扩大开放。
 
-在技术细节上，Images 2.6 重点解决了早期模型在连续帧间角色一致性差、画面漂移严重的痛点，使得品牌角色动画和产品循环展示等简单动画具备实际可用性。用户可通过文本提示或上传图片直接生成 GIF，并在应用内自由调整播放速率及进行逐帧编辑。API 端同步上线了 GPT-Image-2.6 Flare（侧重速度与布局）和 Sunburst（侧重细节与一致性）两款模型，为开发者提供灵活选择。
+该架构遵循“最小化协调”与“存储计算解耦”两大原则，核心矛盾是写入级联触发的读操作扇出扩散，头部仓库流量两个月增长约 4 倍。改造在 GitHub 持续运行的同时于底层完成，读流量下保持稳定低延迟，为智能体规模化开发提供基础设施底座。
 
-此次升级对内容创作生态产生深远影响。随着周均图像生成量突破 40 亿张，Images 2.6 进一步巩固了 OpenAI 在多模态领域的领先地位。对于营销人员和开发者而言，低成本、高效率的动态内容生成工具将极大简化工作流，推动短视频素材、UI 动效及社交媒体内容的自动化生产进程。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;The Verge AI, The Decoder, IT之家 · IT业界, Hacker News AI, OpenAI 官方博客, 宝玉 (@dotey)&lt;/p&gt;</description>
+Rubicon 的推出意味着 GitHub 正从面向人类开发者的代码托管平台，转向支撑 AI 智能体高并发协作的基础设施。若明年初逐步开放，将直接影响依赖 GitHub 的 AI 编程工具与自动化工作流，推动智能体生态的规模化落地。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · IT业界&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
