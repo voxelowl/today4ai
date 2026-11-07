@@ -65,7 +65,7 @@ Hy4 上线首日即因调用量激增导致推理集群紧急扩容十倍，反�
 
 技术细节上，模型采用 Latent-Gated Sparse Attention 组合 HCA、MLA、低秩门控注意力与虚拟头注意力，将门控投影参数减少 75%；Multi-Router Latent MoE 通过多路由器改善专家选择；ECHO 训练目标复用主干末层实现免 MTP 的多 Token 预测。训练侧使用分布式 Muon 优化器与 FP8 混合精度，注意力算子为基于 CuTe-DSL 的 FlashMask-4，支持 SM90/SM100。官方开放 FP8 与 BF16 权重，并联合 vLLM、SGLang 提供部署 cookbook。
 
-此次发布的是未经中训练与后训练的 Base 权重，定位为领域适配、指令微调与强化学习研究的共同起点，经过后训练的正式版本将随后推出。该模型主打 Agent 长任务链下的效率与成本平衡，为开发者提供了可二次开发的通用基座，有望推动大模型开源生态的进一步发展。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, 量子位官网, Hacker News AI, 机器之心 (微信公众号), The Decoder, Marktechpost (@Marktechpost)&lt;/p&gt;</description>
+此次发布的是未经中训练与后训练的 Base 权重，定位为领域适配、指令微调与强化学习研究的共同起点，经过后训练的正式版本将随后推出。该模型主打 Agent 长任务链下的效率与成本平衡，为开发者提供了可二次开发的通用基座，有望推动大模型开源生态的进一步发展。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, 量子位官网, Hacker News AI, 机器之心 (微信公众号), The Decoder, Marktechpost (@Marktechpost)&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 发布 Images 2.6 实现 ChatGPT 原生生成 GIF</title><link>https://todayforai.com/en/story/story-56a44e50-483</link><guid isPermaLink="true">https://todayforai.com/en/story/story-56a44e50-483</guid>
 <pubDate>Sat, 07 Nov 2026 07:40:40 +0800</pubDate>
