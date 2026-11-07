@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 08 Nov 2026 00:44:12 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 08 Nov 2026 00:56:38 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Study Finds AI Auditors Catch Most Agent Misbehavior but Flood Reviewers With False Alarms</title><link>https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/</link><guid isPermaLink="true">https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/</guid>
+<pubDate>Sun, 08 Nov 2026 00:56:38 +0800</pubDate>
+<description>&lt;p&gt;Andy Hall, a researcher at the Anthropic Institute, replicated and extended METR&amp;#x27;s MALT dataset study and found that frontier models can flag most problematic agent behavior in logs, but pushing for higher recall produces a flood of false positives that mark harmless actions as suspicious. The conclusion: AI auditors are better suited to estimating incident rates than to serving as zero-miss safety gates, and those granting agents approval-free permissions should bear more responsibility.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;研究：AI 审计能抓多数智能体越界行为，但误报泛滥&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次系统量化 AI 审计 AI 的召回与误报权衡，直接影响智能体安全部署与审批权限设计。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 68/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/">The Decoder</source>
+<category>智能体安全</category>
+<category>AI 审计</category>
+<category>METR</category>
+<category>Anthropic</category>
+</item>
 <item><title>Developer Flags GPUI Pitfalls, Switches Back to Electron for Agent-Friendly Workflow</title><link>https://x.com/dotey/status/2119108669392720336</link><guid isPermaLink="true">https://x.com/dotey/status/2119108669392720336</guid>
 <pubDate>Sun, 08 Nov 2026 00:44:12 +0800</pubDate>
 <description>&lt;p&gt;Developer Baoyu reviewed his experience building the baocut desktop app on GPUI, noting that beyond performance and cross-platform strengths, the Rust-native UI framework requires forking for complex UIs, has weak accessibility support, heavy compile resource and time costs, no hot reload, and costly agent-driven UI verification. He ultimately returned to Electron while keeping complex rendering and transcription/TTS modules as Rust/WASM and worker processes to balance iteration speed with backend performance.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;开发者复盘 GPUI 踩坑：编译慢、无热更新，转回 Electron&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自一线开发者的真实工程复盘，为评估 Rust 原生 UI 框架与 Electron 在 Agent 协作开发场景下的取舍提供了具体经验。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · tools · signal 58/100&lt;/p&gt;</description>
@@ -266,14 +275,6 @@
 <category>Meta</category>
 <category>智能体</category>
 <category>记忆机制</category>
-</item>
-<item><title>DeepSeek 网页与 API 服务突发部分中断</title><link>https://www.ithome.com/1/023/697.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/697.htm</guid>
-<pubDate>Sat, 07 Nov 2026 15:18:03 +0800</pubDate>
-<description>&lt;p&gt;DeepSeek 网页与 API 服务今日突发部分中断，对话界面提示“服务器暂时不可用”，官方状态页确认正在排查，中断已持续超过 3 分钟。事件属短时可用性故障，尚无根因与恢复时间说明。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部大模型厂商服务中断直接影响开发者与用户调用，值得关注但信息量有限。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/023/697.htm">IT之家 · 智能时代</source>
-<category>DeepSeek</category>
-<category>服务中断</category>
-<category>API</category>
 </item>
 </channel>
 </rss>
