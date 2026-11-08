@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 08 Nov 2026 09:10:20 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 08 Nov 2026 10:48:50 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>TSMC Denies Developing 3D DRAM at Nvidia&#x27;s Request</title><link>https://www.ithome.com/1/023/870.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/870.htm</guid>
+<pubDate>Sun, 08 Nov 2026 10:48:50 +0800</pubDate>
+<description>&lt;p&gt;TSMC denied a The Information report that it is developing 3D DRAM at Nvidia&amp;#x27;s request, reiterating its focus on logic chip foundry. 3D DRAM stacks memory cells vertically to boost density, but major memory makers remain years from mass production; TSMC is more likely to capture memory growth via HBM logic base dies and SoIC hybrid bonding.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;台积电否认应英伟达要求研发 3D DRAM&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 内存供应紧张背景下，代工龙头与最大客户的 3D DRAM 传闻及官方否认，牵动 AI 供应链格局判断。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/023/870.htm">IT之家 · IT业界</source>
+<category>台积电</category>
+<category>3D DRAM</category>
+<category>英伟达</category>
+<category>AI 供应链</category>
+</item>
 <item><title>UChicago Mathematician Says AI Era Hiring Will Prize Research Vision and Communication</title><link>https://www.ithome.com/1/023/859.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/859.htm</guid>
 <pubDate>Sun, 08 Nov 2026 09:10:20 +0800</pubDate>
 <description>&lt;p&gt;University of Chicago mathematician Frank Calegari argues that as AI makes it easier to mass-produce proofs, hiring committees can no longer rely on a single paper or result. He says recruitment should lean more on face-to-face conversation that probes a candidate&amp;#x27;s research vision and ability to explain it, and that departments must train graduate students in mathematical communication.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;芝加哥大学教授称 AI 时代数学招聘更看重研究愿景与表达&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是一线数学家的观点性讨论，折射 AI 对学术评价与人才选拔机制的冲击，但缺乏具体数据与可验证方法。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 38/100&lt;/p&gt;</description>
@@ -207,9 +216,9 @@
 <category>开发者工具</category>
 <category>Agent</category>
 </item>
-<item><title>Thinking Machines&#x27; Inkling 2 Small Model Swears Repeatedly During Benchmark Runs</title><link>https://the-decoder.com/thinking-machines-inkling-2-small-drops-316-f-bombs-across-benchmark-runs/</link><guid isPermaLink="true">https://the-decoder.com/thinking-machines-inkling-2-small-drops-316-f-bombs-across-benchmark-runs/</guid>
+<item><title>Thinking Machines 开源模型 Inkling 2 Small 在基准测试中频繁爆粗口</title><link>https://the-decoder.com/thinking-machines-inkling-2-small-drops-316-f-bombs-across-benchmark-runs/</link><guid isPermaLink="true">https://the-decoder.com/thinking-machines-inkling-2-small-drops-316-f-bombs-across-benchmark-runs/</guid>
 <pubDate>Sun, 08 Nov 2026 00:31:00 +0800</pubDate>
-<description>&lt;p&gt;Researchers at Vals AI examined the chain-of-thought logs of Thinking Machines&amp;#x27; open-weight Inkling 2 Small across 2,655 runs on 13 benchmarks, finding profanity in 50 runs totaling 316 instances, with 241 concentrated in two runaway runs, one of which produced a roughly 500,000-character repetitive response while computing an asteroid trajectory. The swearing mostly targets the model&amp;#x27;s own mistakes but is not a useful failure signal: 46 of 48 scored runs containing profanity failed, yet overall failure rate is about 75% and 96% of failed runs contained no expletives.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Thinking Machines 开源模型 Inkling 2 Small 在基准测试中频繁爆粗口&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是对开源模型思维链行为的一次具体可量化的观察，揭示了推理过程失控与重复退化问题，对关注模型可靠性的读者有参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Vals AI 研究人员检查了 Thinking Machines 开源模型 Inkling 2 Small 在 13 个基准、2655 次运行中的思维链日志，发现 50 次运行出现脏话，共 316 处，其中 241 处集中在两次失控运行里，一次计算小行星轨迹时输出了约 50 万字符的重复长文。脏话多针对自身错误，但并不能作为失败预警信号：含脏话的 48 次计分运行中 46 次失败，而整体失败率约 75%，96% 的失败运行并不含脏话。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是对开源模型思维链行为的一次具体可量化的观察，揭示了推理过程失控与重复退化问题，对关注模型可靠性的读者有参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 58/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/thinking-machines-inkling-2-small-drops-316-f-bombs-across-benchmark-runs/">The Decoder</source>
 <category>大模型</category>
 <category>开源模型</category>
@@ -261,14 +270,6 @@
 <category>视频生成</category>
 <category>扩散模型</category>
 <category>推理加速</category>
-</item>
-<item><title>Cognition 安全负责人：AI 正击穿传统网络安全防线</title><link>https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos</link><guid isPermaLink="true">https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos</guid>
-<pubDate>Sat, 07 Nov 2026 23:00:00 +0800</pubDate>
-<description>&lt;p&gt;Cognition 首席安全官 Alex Stamos 在播客访谈中判断，AI 加持下的攻击浪潮正让价值数十亿美元的既有网络安全产业难以为继，且这只是 AI 改变安全格局的开端。他同时指出，国家行为体与私人攻击者都在借助 AI 发现并利用漏洞。访谈以观点与趋势判断为主，未披露具体技术参数或可验证数据。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;资深安全专家对 AI 冲击网络安全产业给出直白判断，适合关注 AI 安全与产业变革的读者了解风向。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 42/100&lt;/p&gt;</description>
-<source url="https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos">The Verge AI</source>
-<category>网络安全</category>
-<category>AI 安全</category>
-<category>产业变革</category>
 </item>
 </channel>
 </rss>
