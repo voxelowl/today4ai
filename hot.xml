@@ -27,14 +27,6 @@
 
 Hy4 上线首日即因调用量激增导致推理集群紧急扩容十倍，反映出真实需求与供给压力。其定价维持输入每百万 Token 6 元、输出 18 元，并计划推出更低成本的 Hy4 Flash。权重开放后，Hy4 有望与 Kimi K3.1 Pro 并列开源模型第一，进一步加剧开源大模型市场的竞争格局。&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · 智能时代, 腾讯技术工程 (微信公众号), InfoQ 中文, Artificial Analysis (@ArtificialAnlys), Arena.ai (@arena)&lt;/p&gt;</description>
 </item>
-<item><title>Thinking Machines 发布 Inkling 2 Small，智能指数 31 分比肩 Gemini 3.8 Flash</title><link>https://todayforai.com/en/story/story-bbea1fd9-9f8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-bbea1fd9-9f8</guid>
-<pubDate>Sat, 07 Nov 2026 05:41:38 +0800</pubDate>
-<description>&lt;p&gt;Thinking Machines Lab 于同日发布第二代模型 Inkling 2 Small，并启动新一轮融资。该模型采用稀疏混合专家（MoE）架构，总参数 594B、激活参数仅 17B，支持图像输入与可变推理强度，在 Artificial Analysis 智能指数 v5.0.1 上得分 31，较前代 Inkling Small 大幅提升 18 分，与 Gemini 3.8 Flash (high) 持平，并超过小米 MiMo-V2.6-Pro。
-
-技术细节方面，模型经过四阶段预训练与 9 天联合强化训练，智能体任务表现显著跃升：AutomationBench-AA 从 5% 升至 46%，FrontierCode 2.0 从 5% 升至 25%，HLE-Diamond 从 12% 升至 29%。编码能力呈现分化：FrontierCode 2.0 得 25% 高于 Claude Sonnet 5.5 的 11%，但 Terminal-Bench 4.0 仅 13% 低于其 30%。定价为每百万输入/输出 token 0.30/1.00 美元，缓存输入 0.03 美元。模型初期以闭源权重通过 Tinker 平台提供，计划在完成外部安全测试与红队评估后，于下周以 Apache 2.0 协议开放完整权重。
-
-行业影响上，若开放权重兑现，该模型将成为中国以外得分最高的开源权重模型，显著提升开源生态的竞争力。同时，Thinking Machines 正以 400 亿美元投前估值筹集 50 亿美元，低于此前 500 亿美元估值的尝试，显示资本市场的谨慎态度。此次发布与融资并行，凸显了…&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys), Hacker News AI, Artificial Analysis, IT之家 · 智能时代, Arena.ai (@arena), Marktechpost (@Marktechpost)&lt;/p&gt;</description>
-</item>
 <item><title>Nous Research 微调 Qwen 模型，将政治宣传率从 22% 降至 1% 以下</title><link>https://todayforai.com/en/story/story-2077c0d0-a5a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2077c0d0-a5a</guid>
 <pubDate>Sun, 08 Nov 2026 12:53:12 +0800</pubDate>
 <description>&lt;p&gt;Nous Research 基于阿里 Qwen3.8-27B 开源模型，通过监督微调推出 Arete-27B，将其自建评测中的宣传式回答占比从 22% 降至 0.9%，降幅显著。团队称仅用 5280 万 token 训练数据、以 Inkling 为教师模型，未做强化学习或架构改动，且通用能力（Hermes Bench）基本持平。
@@ -54,6 +46,14 @@ Hy4 上线首日即因调用量激增导致推理集群紧急扩容十倍，反�
 <item><title>Anthropic 分析 20 万次科研会话：数据分析用得最多，提想法反而最少</title><link>https://todayforai.com/en/story/story-a6d7a453-7b2</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a6d7a453-7b2</guid>
 <pubDate>Sun, 08 Nov 2026 12:18:59 +0800</pubDate>
 <description>&lt;p&gt;Anthropic 统计约 20.7 万次科研相关 Claude 会话，发现数据分析占三分之一、写作占三成，而科学家自评最重要的提出假设仅占 4.2%。报告用“AI 能力分”与“使用倍数”量化任务匹配度，并估算若 AI 承担全部非动手工作，计算机与统计领域科研产出可提速约 15 倍，化学与生物受实验限制仅 3 到 4 倍。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey)&lt;/p&gt;</description>
+</item>
+<item><title>Thinking Machines 发布 Inkling 2 Small，智能指数 31 分比肩 Gemini 3.8 Flash</title><link>https://todayforai.com/en/story/story-bbea1fd9-9f8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-bbea1fd9-9f8</guid>
+<pubDate>Sat, 07 Nov 2026 05:41:38 +0800</pubDate>
+<description>&lt;p&gt;Thinking Machines Lab 于同日发布第二代模型 Inkling 2 Small，并启动新一轮融资。该模型采用稀疏混合专家（MoE）架构，总参数 594B、激活参数仅 17B，支持图像输入与可变推理强度，在 Artificial Analysis 智能指数 v5.0.1 上得分 31，较前代 Inkling Small 大幅提升 18 分，与 Gemini 3.8 Flash (high) 持平，并超过小米 MiMo-V2.6-Pro。
+
+技术细节方面，模型经过四阶段预训练与 9 天联合强化训练，智能体任务表现显著跃升：AutomationBench-AA 从 5% 升至 46%，FrontierCode 2.0 从 5% 升至 25%，HLE-Diamond 从 12% 升至 29%。编码能力呈现分化：FrontierCode 2.0 得 25% 高于 Claude Sonnet 5.5 的 11%，但 Terminal-Bench 4.0 仅 13% 低于其 30%。定价为每百万输入/输出 token 0.30/1.00 美元，缓存输入 0.03 美元。模型初期以闭源权重通过 Tinker 平台提供，计划在完成外部安全测试与红队评估后，于下周以 Apache 2.0 协议开放完整权重。
+
+行业影响上，若开放权重兑现，该模型将成为中国以外得分最高的开源权重模型，显著提升开源生态的竞争力。同时，Thinking Machines 正以 400 亿美元投前估值筹集 50 亿美元，低于此前 500 亿美元估值的尝试，显示资本市场的谨慎态度。此次发布与融资并行，凸显了…&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys), Hacker News AI, Artificial Analysis, IT之家 · 智能时代, Arena.ai (@arena), Marktechpost (@Marktechpost)&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 拆解智能体记忆：Claude 边干边记，靠“做梦”纠错整理</title><link>https://todayforai.com/en/story/story-9e0af652-d42</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9e0af652-d42</guid>
 <pubDate>Sun, 08 Nov 2026 11:21:33 +0800</pubDate>
