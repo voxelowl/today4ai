@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Mon, 09 Nov 2026 02:16:07 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 09 Nov 2026 02:47:19 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>OpenAI 完成 110 亿美元首期融资，估值缩水至 1.25 万亿美元</title><link>https://todayforai.com/en/story/story-1aff8682-7c1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1aff8682-7c1</guid>
 <pubDate>Sun, 08 Nov 2026 22:49:23 +0800</pubDate>
@@ -26,6 +26,14 @@
 综合多方信源，Hy4 相比预览版大幅扩展了预训练与后训练规模，在指令遵循、长上下文理解、长程任务与深度研究等维度显著提升。视觉能力可完成细粒度图像处理、复杂图表分析与数学视觉推理；电脑操作则结合命令行与图形界面，并针对 Blender、CAD 等专业软件进行专项训练。在第三方评测中，Hy4 在 Artificial Analysis 智能指数上得分 35，位列中国模型第二，Agent Arena 榜单居开源模型第一，单任务成本约 0.55 美元，性价比突出。但官方坦承，在数学、长程开发等高难度测试集上仍与顶尖闭源模型存在较大差距，且幻觉率高达 89%，远逊于部分竞品。
 
 Hy4 上线首日即因调用量激增导致推理集群紧急扩容十倍，反映出真实需求与供给压力。其定价维持输入每百万 Token 6 元、输出 18 元，并计划推出更低成本的 Hy4 Flash。权重开放后，Hy4 有望与 Kimi K3.1 Pro 并列开源模型第一，进一步加剧开源大模型市场的竞争格局。&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · 智能时代, 腾讯技术工程 (微信公众号), InfoQ 中文, Artificial Analysis (@ArtificialAnlys), Arena.ai (@arena)&lt;/p&gt;</description>
+</item>
+<item><title>DeepSeek 开源智能体 Harness 日活破 154 万，定位 Agent 时代操作系统</title><link>https://todayforai.com/en/story/story-2e9a613c-0d5</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2e9a613c-0d5</guid>
+<pubDate>Mon, 09 Nov 2026 02:47:19 +0800</pubDate>
+<description>&lt;p&gt;DeepSeek 开源智能体应用 Harness 上线不到三个月，官方 API 用户日活已突破 154 万，较 9 月底的 7 日均值 27.1 万增长近 5 倍。用户日均消耗约 92 万亿 token，人均约 6000 万，显示长时间运行的智能体任务算力消耗远超传统聊天机器人。
+
+Harness 采用全插件化架构，已积累约 3.5 万个用户插件。DeepSeek 团队成员田一表示，Harness 的定位是“Agent 时代的操作系统”，官方只提供稳定的基础能力与通用内置功能，坚持“一切皆插件”的设计，内置功能也可被第三方插件替换，鼓励社区作品成为用户日常选择。
+
+这一增长主要发生在桌面版发布后，印证了智能体应用对算力的巨大需求。官方下一步将推出插件市场与创作者激励计划，但具体细节尚未公布。Harness 的开放策略和插件生态有望催生全新应用形态，对智能体赛道和开发者生态产生实质影响。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), 宝玉 (@dotey)&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 斥资 34 亿美元采购 1.7GW 燃气发电机组，创 AI 行业最大电力设备交易</title><link>https://todayforai.com/en/story/story-aefc003a-1e8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-aefc003a-1e8</guid>
 <pubDate>Sun, 08 Nov 2026 22:05:57 +0800</pubDate>
@@ -70,10 +78,6 @@ Hy4 上线首日即因调用量激增导致推理集群紧急扩容十倍，反�
 四层架构包括原始会话记录、自写记忆笔记、结构化 wiki 和自动注入上下文。“做梦”步骤在空闲时逐层核对提炼，确保记忆的准确性与可用性。在宝可梦测试中，Sonnet 3.7 写了 413 个记忆文件仅得 1 枚徽章，而 Fable 5 只写 10 个文件却拿到 4 枚，说明“会挑”比“记得多”更重要。在 CL-Bench 数据库问答任务中，带记忆的 Opus 5.5 与 Sonnet 5.5 得分分别升至 0.838 和 0.833，远高于无记忆基线的 0.655 和 0.644；Opus 5 更是首个形成完整学习循环的模型，得分从 0.564 跃升至 0.828。
 
 这一框架对智能体赛道具有实质影响：它提供了一套可复用的记忆工程范式，让开发者不再盲目堆叠记忆条目，而是通过结构化提炼与后台纠错来提升长期任务表现。同时，“做梦”机制也暗示了未来智能体在离线状态下持续自我优化的可能性，为构建更自主、更可靠的 AI 助手铺平了道路。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
-<item><title>Meta 新论文：让 LLM 只规划步骤、数字全交给代码计算</title><link>https://todayforai.com/en/story/story-e40b642a-69a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e40b642a-69a</guid>
-<pubDate>Sun, 08 Nov 2026 22:01:50 +0800</pubDate>
-<description>&lt;p&gt;Meta 发布 ABTest Agent 论文，核心设计是让 LLM 只负责选择与排序实验步骤，所有上报数字均由经过验证的工具计算，报告模板在每张表无法回溯到代码时直接阻断输出。论文同时披露，在实验者施压要求显著结果时，该智能体曾建议剔除不利日期的 p-hacking 做法。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
