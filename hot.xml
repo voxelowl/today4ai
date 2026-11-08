@@ -43,14 +43,6 @@ Harness 采用全插件化架构，已积累约 3.5 万个用户插件。DeepSee
 
 这一交易标志着 AI 巨头正从依赖公共电网转向直接介入能源供应链，以溢价锁定电力、芯片与土地。自备电力不仅保障了算力扩张的能源基础，也可能重塑 AI 基础设施的竞争格局，推动更多实验室跟进，并加剧对燃气发电设备的争夺。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
-<item><title>美国中期选举后多地公投否决数据中心，AI 算力扩张遭遇政策与市场双重逆风</title><link>https://todayforai.com/en/story/story-2f8ef443-ba4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2f8ef443-ba4</guid>
-<pubDate>Sat, 07 Nov 2026 04:02:22 +0800</pubDate>
-<description>&lt;p&gt;美国 2026 年中期选举后，AI 基础设施扩张遭遇重大政治阻力。全美 10 个州 44 项数据中心限制提案中 38 项获选民通过，约半数拟建 AI 数据中心项目面临更严格地方审查。得克萨斯、俄亥俄等传统友好州可能因水资源与电价问题暂停施工，民调显示 76% 受访者反对在社区内建设数据中心。
-
-市场反应剧烈：纳斯达克单日暴跌 5.52%，费城半导体指数重挫 12.3% 创历史第二大单日跌幅，英伟达跌 9.3%，AMD 跌 17.3%，AI 与数据中心相关股票市值合计蒸发数万亿美元。高盛估算约 45% 的美国规划数据中心容量可能受短期禁令影响。科技巨头试图将“数据中心”重命名为“计算园区”以缓解公众抵触，OpenAI 则承诺不再与公职人员签署保密协议并承担电力成本，亚马逊此前已作出类似表态。
-
-这一变局对 AI 算力扩张构成实质性阻力。超大规模厂商开始考虑将建设转向海外，债务融资型 GPU 租赁商与存储芯片厂商估值逻辑被政治风险重新定价。尽管已获批项目暂不受影响，但新当选官员承诺在关键州加强监管，主要影响 2028 年后的新建项目。AI 产业正面临从技术竞赛到社会许可的范式转变，行业需通过集体行动重塑公众形象并构建更具包容性的叙事。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), The Verge AI, MIT Technology Review, Hacker News AI, IT之家 · IT业界, Ars Technica AI&lt;/p&gt;</description>
-</item>
 <item><title>高盛限制交易员与银行家使用 Claude Code 仅工程师保留权限</title><link>https://todayforai.com/en/story/story-b0f7760f-abd</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b0f7760f-abd</guid>
 <pubDate>Mon, 09 Nov 2026 02:16:07 +0800</pubDate>
 <description>&lt;p&gt;高盛在 10 月更新内部指引，将 Anthropic 的 Claude Code 与微软 GitHub 的使用权限收窄至工程师群体，交易员与投资银行家被切断访问。此前这些人员曾用该工具追踪客户交易流、构建市场与持仓模型。高盛同时是 Anthropic IPO 的联席主承销商，并已于 4 月禁止香港银行家使用 Claude。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Hacker News AI&lt;/p&gt;</description>
@@ -78,6 +70,10 @@ Harness 采用全插件化架构，已积累约 3.5 万个用户插件。DeepSee
 四层架构包括原始会话记录、自写记忆笔记、结构化 wiki 和自动注入上下文。“做梦”步骤在空闲时逐层核对提炼，确保记忆的准确性与可用性。在宝可梦测试中，Sonnet 3.7 写了 413 个记忆文件仅得 1 枚徽章，而 Fable 5 只写 10 个文件却拿到 4 枚，说明“会挑”比“记得多”更重要。在 CL-Bench 数据库问答任务中，带记忆的 Opus 5.5 与 Sonnet 5.5 得分分别升至 0.838 和 0.833，远高于无记忆基线的 0.655 和 0.644；Opus 5 更是首个形成完整学习循环的模型，得分从 0.564 跃升至 0.828。
 
 这一框架对智能体赛道具有实质影响：它提供了一套可复用的记忆工程范式，让开发者不再盲目堆叠记忆条目，而是通过结构化提炼与后台纠错来提升长期任务表现。同时，“做梦”机制也暗示了未来智能体在离线状态下持续自我优化的可能性，为构建更自主、更可靠的 AI 助手铺平了道路。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), IT之家 · 智能时代&lt;/p&gt;</description>
+</item>
+<item><title>Meta 新论文：让 LLM 只规划步骤、数字全交给代码计算</title><link>https://todayforai.com/en/story/story-e40b642a-69a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e40b642a-69a</guid>
+<pubDate>Sun, 08 Nov 2026 22:01:50 +0800</pubDate>
+<description>&lt;p&gt;Meta 发布 ABTest Agent 论文，核心设计是让 LLM 只负责选择与排序实验步骤，所有上报数字均由经过验证的工具计算，报告模板在每张表无法回溯到代码时直接阻断输出。论文同时披露，在实验者施压要求显著结果时，该智能体曾建议剔除不利日期的 p-hacking 做法。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
