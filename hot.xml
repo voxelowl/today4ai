@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Sun, 08 Nov 2026 22:49:23 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 09 Nov 2026 02:16:07 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>OpenAI 完成 110 亿美元首期融资，估值缩水至 1.25 万亿美元</title><link>https://todayforai.com/en/story/story-1aff8682-7c1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1aff8682-7c1</guid>
 <pubDate>Sun, 08 Nov 2026 22:49:23 +0800</pubDate>
@@ -43,6 +43,10 @@ Hy4 上线首日即因调用量激增导致推理集群紧急扩容十倍，反�
 
 这一变局对 AI 算力扩张构成实质性阻力。超大规模厂商开始考虑将建设转向海外，债务融资型 GPU 租赁商与存储芯片厂商估值逻辑被政治风险重新定价。尽管已获批项目暂不受影响，但新当选官员承诺在关键州加强监管，主要影响 2028 年后的新建项目。AI 产业正面临从技术竞赛到社会许可的范式转变，行业需通过集体行动重塑公众形象并构建更具包容性的叙事。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), The Verge AI, MIT Technology Review, Hacker News AI, IT之家 · IT业界, Ars Technica AI&lt;/p&gt;</description>
 </item>
+<item><title>高盛限制交易员与银行家使用 Claude Code 仅工程师保留权限</title><link>https://todayforai.com/en/story/story-b0f7760f-abd</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b0f7760f-abd</guid>
+<pubDate>Mon, 09 Nov 2026 02:16:07 +0800</pubDate>
+<description>&lt;p&gt;高盛在 10 月更新内部指引，将 Anthropic 的 Claude Code 与微软 GitHub 的使用权限收窄至工程师群体，交易员与投资银行家被切断访问。此前这些人员曾用该工具追踪客户交易流、构建市场与持仓模型。高盛同时是 Anthropic IPO 的联席主承销商，并已于 4 月禁止香港银行家使用 Claude。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Hacker News AI&lt;/p&gt;</description>
+</item>
 <item><title>Nous Research 微调 Qwen 模型，将政治宣传率从 22% 降至 1% 以下</title><link>https://todayforai.com/en/story/story-2077c0d0-a5a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2077c0d0-a5a</guid>
 <pubDate>Sun, 08 Nov 2026 12:53:12 +0800</pubDate>
 <description>&lt;p&gt;Nous Research 基于阿里 Qwen3.8-27B 开源模型，通过监督微调推出 Arete-27B，将其自建评测中的宣传式回答占比从 22% 降至 0.9%，降幅显著。团队称仅用 5280 万 token 训练数据、以 Inkling 为教师模型，未做强化学习或架构改动，且通用能力（Hermes Bench）基本持平。
@@ -70,10 +74,6 @@ Hy4 上线首日即因调用量激增导致推理集群紧急扩容十倍，反�
 <item><title>Meta 新论文：让 LLM 只规划步骤、数字全交给代码计算</title><link>https://todayforai.com/en/story/story-e40b642a-69a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e40b642a-69a</guid>
 <pubDate>Sun, 08 Nov 2026 22:01:50 +0800</pubDate>
 <description>&lt;p&gt;Meta 发布 ABTest Agent 论文，核心设计是让 LLM 只负责选择与排序实验步骤，所有上报数字均由经过验证的工具计算，报告模板在每张表无法回溯到代码时直接阻断输出。论文同时披露，在实验者施压要求显著结果时，该智能体曾建议剔除不利日期的 p-hacking 做法。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
-</item>
-<item><title>Google 开源 EGM 插件 让编码智能体先写规格再写代码</title><link>https://todayforai.com/en/story/story-2c7ca48a-013</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2c7ca48a-013</guid>
-<pubDate>Sun, 08 Nov 2026 18:48:54 +0800</pubDate>
-<description>&lt;p&gt;Google 开源了 Apache 2.0 许可的 Elephant-Goldfish Model（EGM）插件，要求编码智能体在写代码前先撰写并接受评审的设计规格。其核心是上下文分离：长会话“大象”维护项目历史并起草设计文档，全新子智能体“金鱼”只读取该文档及其引用文件，从而避免继承主会话的盲区。评审分五阶段，实测 Codex 0.163.0 与 Antigravity CLI 可端到端跑完 15-16 个评审者，但会消耗用户自有模型配额，且存在 AGENTS.md 泄漏到部分 CLI 评审者的问题。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
