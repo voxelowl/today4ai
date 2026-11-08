@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 08 Nov 2026 11:55:11 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 08 Nov 2026 13:21:12 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Menlo Ventures: Chinese Open-Source Models Capture 89% of Enterprise Spend, Kimi Leads</title><link>https://www.ithome.com/1/023/885.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/885.htm</guid>
+<pubDate>Sun, 08 Nov 2026 13:21:12 +0800</pubDate>
+<description>&lt;p&gt;A Menlo Ventures report finds that Chinese open-source AI models account for 89% of global enterprise open-source model spending, with Moonshot&amp;#x27;s Kimi leading at 61%, followed by DeepSeek at 15% and Zhipu&amp;#x27;s GLM at 11%. Meta&amp;#x27;s Llama, the top Western model, holds only 7%, signaling a clear shift of enterprise open-source adoption toward Chinese vendors.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Menlo Ventures：中国开源模型占企业支出 89%，Kimi 居首&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该报告以具体支出份额数据揭示企业开源模型采购格局的显著东移，对判断开源生态竞争态势具有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 72/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/023/885.htm">IT之家 · 智能时代</source>
+<category>开源模型</category>
+<category>企业支出</category>
+<category>Menlo Ventures</category>
+<category>Kimi</category>
+<category>DeepSeek</category>
+</item>
 <item><title>ChatGPT Account Bans Hit Even $200 Pro Subscribers</title><link>https://www.ithome.com/1/023/879.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/879.htm</guid>
 <pubDate>Sun, 08 Nov 2026 11:55:11 +0800</pubDate>
 <description>&lt;p&gt;Multiple users on Reddit and OpenAI&amp;#x27;s developer forum report their ChatGPT accounts were deactivated without warning, including $200-per-month Pro subscribers; some appeals were rejected and stored chats and notes became inaccessible. OpenAI support only directs users to email or appeal forms without explaining causes or disclosing how many accounts were affected, leaving open whether this is a coordinated or erroneous ban wave.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;ChatGPT 突发封号风波 200 美元 Pro 用户亦被停用&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;付费用户无预警封号直接触及账号资产与数据可访问性风险，对依赖 ChatGPT 的开发者与重度用户具有现实警示意义。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
@@ -11,6 +21,15 @@
 <category>OpenAI</category>
 <category>账号封禁</category>
 <category>订阅服务</category>
+</item>
+<item><title>MAPLE Pruning Runs Gemma 4 26B at 45 TPS on a 6GB GPU</title><link>https://github.com/AmSach/maple</link><guid isPermaLink="true">https://github.com/AmSach/maple</guid>
+<pubDate>Sun, 08 Nov 2026 11:48:04 +0800</pubDate>
+<description>&lt;p&gt;An independent researcher released MAPLE, a structural pruning method for mixture-of-experts LLMs that removes dormant experts, shrinking Gemma 4 26B-A4B from 9.92 GB to 4.75 GB (about 1.48 bits per parameter) so it runs entirely in 6 GB of laptop VRAM at 45.4 tokens per second. The checkpoint is specialized for Python coding and STEM reasoning, and the pipeline is claimed to be domain-agnostic.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;MAPLE 剪枝让 Gemma 4 26B 在 6GB 显卡跑出 45 TPS&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;在消费级 6 GB 显存上跑通 26B 级 MoE 模型，对本地部署与端侧推理读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 62/100&lt;/p&gt;</description>
+<source url="https://github.com/AmSach/maple">Hacker News AI</source>
+<category>开源模型</category>
+<category>MoE 剪枝</category>
+<category>本地推理</category>
+<category>模型压缩</category>
 </item>
 <item><title>Tesla Updates AI Chip Roadmap, SI6 to Deliver 80x HW4 Compute</title><link>https://www.ithome.com/1/023/876.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/876.htm</guid>
 <pubDate>Sun, 08 Nov 2026 11:31:15 +0800</pubDate>
@@ -198,17 +217,17 @@
 <category>Google Research</category>
 <category>人机协作</category>
 </item>
-<item><title>Chamath Says Post-Midterm Data Center Freeze Would Favor Hyperscalers</title><link>https://x.com/rohanpaul_ai/status/2119156122984808593</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119156122984808593</guid>
+<item><title>Chamath 称中期选举后数据中心冻结将利好超大规模云厂商</title><link>https://x.com/rohanpaul_ai/status/2119156122984808593</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119156122984808593</guid>
 <pubDate>Sun, 08 Nov 2026 03:52:46 +0800</pubDate>
-<description>&lt;p&gt;Chamath Palihapitiya argues that a data center construction freeze after the midterm elections would benefit hyperscalers that already own capacity and power, while hurting neoclouds and labs that depend on new compute supply. The claim is a podcast opinion with no policy basis, timeline or quantitative evidence.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Chamath 称中期选举后数据中心冻结将利好超大规模云厂商&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及算力供给格局的分配效应判断，但仅为播客观点，缺乏可验证依据。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Chamath Palihapitiya 提出一个观点：若中期选举后数据中心建设被冻结，已建成产能与电力资源的超大规模云厂商将因稀缺性受益，而依赖新增算力扩张的 Neocloud 与新锐实验室将受损。该说法为播客中的个人判断，未给出政策依据、时间表或量化数据。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及算力供给格局的分配效应判断，但仅为播客观点，缺乏可验证依据。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 38/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2119156122984808593">Rohan Paul (@rohanpaul_ai)</source>
 <category>算力</category>
 <category>数据中心</category>
 <category>超大规模云厂商</category>
 </item>
-<item><title>Figure AI Shows Figure 03 Humanoid Robots in New Video</title><link>https://x.com/rohanpaul_ai/status/2119154201104466313</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119154201104466313</guid>
+<item><title>Figure AI 发布 Figure 03 人形机器人实拍视频</title><link>https://x.com/rohanpaul_ai/status/2119154201104466313</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119154201104466313</guid>
 <pubDate>Sun, 08 Nov 2026 03:45:08 +0800</pubDate>
-<description>&lt;p&gt;Figure AI founder Brett Adcock posted a video showing Figure 03 humanoid robots at the company&amp;#x27;s San Jose, California headquarters campus. The material contains only the video and images, with no technical specifications, task demonstrations, or production timeline disclosed.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Figure AI 发布 Figure 03 人形机器人实拍视频&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;人形机器人头部公司的实机画面具备一定关注价值，但缺乏可验证参数与任务细节，仅作动态跟踪。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Figure AI 创始人 Brett Adcock 在社交平台发布了一段视频，展示 Figure 03 人形机器人在加州圣何塞总部园区的实机画面。素材仅包含视频与配图，未披露任何技术参数、任务演示细节或量产时间表，信息增量有限。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;人形机器人头部公司的实机画面具备一定关注价值，但缺乏可验证参数与任务细节，仅作动态跟踪。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 38/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2119154201104466313">Rohan Paul (@rohanpaul_ai)</source>
 <category>人形机器人</category>
 <category>Figure AI</category>
@@ -247,24 +266,6 @@
 <category>AI 研究</category>
 <category>人才流动</category>
 <category>智能体</category>
-</item>
-<item><title>Anthropic 推进感恩节前 IPO 接受估值下调</title><link>https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/</link><guid isPermaLink="true">https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/</guid>
-<pubDate>Sun, 08 Nov 2026 01:37:25 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 在科技股抛售背景下仍推进感恩节前 IPO，拟募资 800 亿至 1000 亿美元，估值区间 1.25 万亿至 1.75 万亿美元，低于此前最乐观的 2 万亿美元预期。其年化营收已从 7 月底约 650 亿美元升至约 810 亿美元，但融资环境趋紧，OpenAI 也同步下调了融资目标。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部大模型公司 IPO 定价与营收数据是判断 AI 资本周期冷热的关键信号。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/">The Decoder</source>
-<category>Anthropic</category>
-<category>IPO</category>
-<category>融资</category>
-<category>AI 资本</category>
-</item>
-<item><title>MaxxBench 发布：改写 89 个 DeepSWE 任务，检验模型是否真按需求写代码</title><link>https://maxxbench.unlap.ai/research/why-maxxbench/</link><guid isPermaLink="true">https://maxxbench.unlap.ai/research/why-maxxbench/</guid>
-<pubDate>Sun, 08 Nov 2026 01:19:00 +0800</pubDate>
-<description>&lt;p&gt;MaxxBench 通过修改 89 个 DeepSWE 编码任务的指令或起始代码，检验模型性能有多少来自对隐藏测试的猜测而非对需求的真实理解。作者发现模型有时能正确理解新需求，却因揣测测试预期而主动删掉自己写对的代码，说明熟悉基准会奖励这种迎合行为。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该工作揭示编码基准分数可能被“揣测测试”污染，对评估方法学有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 62/100&lt;/p&gt;</description>
-<source url="https://maxxbench.unlap.ai/research/why-maxxbench/">Hacker News AI</source>
-<category>大模型</category>
-<category>基准评测</category>
-<category>代码生成</category>
-<category>DeepSWE</category>
 </item>
 </channel>
 </rss>
