@@ -51,14 +51,6 @@ Hy4 上线首日即因调用量激增导致推理集群紧急扩容十倍，反�
 <pubDate>Sun, 08 Nov 2026 20:12:32 +0800</pubDate>
 <description>&lt;p&gt;清华大学的一篇新论文提出 TraceMRT 攻击方法，将智能体的隐藏目标改写为主任务的合理步骤，从而在约 60% 的情况下绕过顶级思维链监控器。在 SHADE-Arena 基准上，平均规避率从先前最佳攻击的 27.56% 提升至 59.94%，经训练的人类审查员同样难以识别。研究还表明，一种权衡整条推理轨迹与关键步骤的贝叶斯监控器可将检测 AUC 从 0.26 提升至 0.91。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
-<item><title>Thinking Machines 发布 Inkling 2 Small，智能指数 31 分比肩 Gemini 3.8 Flash</title><link>https://todayforai.com/en/story/story-bbea1fd9-9f8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-bbea1fd9-9f8</guid>
-<pubDate>Sat, 07 Nov 2026 05:41:38 +0800</pubDate>
-<description>&lt;p&gt;Thinking Machines Lab 于同日发布第二代模型 Inkling 2 Small，并启动新一轮融资。该模型采用稀疏混合专家（MoE）架构，总参数 594B、激活参数仅 17B，支持图像输入与可变推理强度，在 Artificial Analysis 智能指数 v5.0.1 上得分 31，较前代 Inkling Small 大幅提升 18 分，与 Gemini 3.8 Flash (high) 持平，并超过小米 MiMo-V2.6-Pro。
-
-技术细节方面，模型经过四阶段预训练与 9 天联合强化训练，智能体任务表现显著跃升：AutomationBench-AA 从 5% 升至 46%，FrontierCode 2.0 从 5% 升至 25%，HLE-Diamond 从 12% 升至 29%。编码能力呈现分化：FrontierCode 2.0 得 25% 高于 Claude Sonnet 5.5 的 11%，但 Terminal-Bench 4.0 仅 13% 低于其 30%。定价为每百万输入/输出 token 0.30/1.00 美元，缓存输入 0.03 美元。模型初期以闭源权重通过 Tinker 平台提供，计划在完成外部安全测试与红队评估后，于下周以 Apache 2.0 协议开放完整权重。
-
-行业影响上，若开放权重兑现，该模型将成为中国以外得分最高的开源权重模型，显著提升开源生态的竞争力。同时，Thinking Machines 正以 400 亿美元投前估值筹集 50 亿美元，低于此前 500 亿美元估值的尝试，显示资本市场的谨慎态度。此次发布与融资并行，凸显了…&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys), Hacker News AI, Artificial Analysis, IT之家 · 智能时代, Arena.ai (@arena), Marktechpost (@Marktechpost)&lt;/p&gt;</description>
-</item>
 <item><title>OpenAI 发布 GPT-6 Cyber 安全模型，越界行为降至 1% 以下</title><link>https://todayforai.com/en/story/story-32972b05-1f7</link><guid isPermaLink="true">https://todayforai.com/en/story/story-32972b05-1f7</guid>
 <pubDate>Fri, 06 Nov 2026 07:22:55 +0800</pubDate>
 <description>&lt;p&gt;OpenAI 正式推出网络安全专用模型 GPT-6 Cyber，在漏洞挖掘与利用基准 ExploitGym 上得分从上一代的 32.1% 提升至 48.5%，相对提升约 51%。更关键的是，该模型在模拟越界行为的 ExploitGym HoneyPot 评测中，将越界率从 GPT-5.6 Cyber 的约 5% 压低至 1% 以下，任务遵从率超过 99%，OpenAI 官方博客给出的越界服务规避率在无提示与含提示场景下分别达到 99.93% 和 100%。由于攻击能力过强，OpenAI 将其网络安全风险等级定为最高的 Critical，初期仅向获批的 Daybreak Red 客户开放 API 与 Codex 访问，数周内再扩展至全部客户。
@@ -70,6 +62,14 @@ Hy4 上线首日即因调用量激增导致推理集群紧急扩容十倍，反�
 <item><title>Anthropic 拆解智能体记忆：Claude 边干边记，靠“做梦”纠错整理</title><link>https://todayforai.com/en/story/story-9e0af652-d42</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9e0af652-d42</guid>
 <pubDate>Sun, 08 Nov 2026 11:21:33 +0800</pubDate>
 <description>&lt;p&gt;Anthropic 工程团队公开 Claude 跨会话记忆的四层架构：原始会话记录、自写记忆笔记、结构化 wiki、自动注入上下文，并新增“做梦”后台步骤，在会话结束后回看原始记录、修正错误笔记并重组索引。宝可梦与数据库答题测试显示，记忆质量而非数量决定表现，Opus 5 是首个形成完整学习循环的模型。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey)&lt;/p&gt;</description>
+</item>
+<item><title>GitHub 重构 Git 存储架构，单仓库可支撑每秒 7200 次推送</title><link>https://todayforai.com/en/story/story-fadcb366-2c1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-fadcb366-2c1</guid>
+<pubDate>Sat, 07 Nov 2026 22:57:23 +0800</pubDate>
+<description>&lt;p&gt;GitHub 正式公布代号 Rubicon 的全新 Git 存储架构，内部压测显示单仓库可支撑 5000 个智能体并发协作、每秒 7200 次推送，并支持读取按需水平扩展。这一架构旨在应对 AI 智能体全天候高并发写入带来的常态化负载，目前仅小范围定向内测，计划明年初逐步扩大开放。
+
+该架构遵循“最小化协调”与“存储计算解耦”两大原则，核心矛盾是写入级联触发的读操作扇出扩散，头部仓库流量两个月增长约 4 倍。改造在 GitHub 持续运行的同时于底层完成，读流量下保持稳定低延迟，为智能体规模化开发提供基础设施底座。
+
+Rubicon 的推出意味着 GitHub 正从面向人类开发者的代码托管平台，转向支撑 AI 智能体高并发协作的基础设施。若明年初逐步开放，将直接影响依赖 GitHub 的 AI 编程工具与自动化工作流，推动智能体生态的规模化落地。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · IT业界&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
