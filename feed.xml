@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Mon, 09 Nov 2026 04:26:43 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 09 Nov 2026 05:41:44 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Stanford&#x27;s AI-Native Engineering Course Teaches Agent-Driven Workflows</title><link>https://latent.space/p/cs146s/</link><guid isPermaLink="true">https://latent.space/p/cs146s/</guid>
+<pubDate>Mon, 09 Nov 2026 05:41:44 +0800</pubDate>
+<description>&lt;p&gt;Stanford lecturer Mihail Eric walks through his Modern Software Developer syllabus, which trains engineers to ship software and debug outages with coding agents rather than treat AI as autocomplete. He also shares which parts of the curriculum survived contact with his own AI team at Monaco.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;斯坦福开设 AI 原生工程课 教开发者用智能体重构工作流&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;对关心工程师技能转型与智能体落地实践的读者有参考价值，但属访谈观点而非可验证的新技术发布。&lt;/p&gt;&lt;p&gt;Latent Space · llm · signal 42/100&lt;/p&gt;</description>
+<source url="https://latent.space/p/cs146s/">Latent Space</source>
+<category>AI 编程</category>
+<category>智能体</category>
+<category>工程教育</category>
+<category>斯坦福</category>
+</item>
+<item><title>Amazon Paper Finds Rule-Following AI Benchmarks Riddled with Answer-Key and Scorer Bugs</title><link>https://x.com/rohanpaul_ai/status/2119541630361554965</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119541630361554965</guid>
+<pubDate>Mon, 09 Nov 2026 05:24:38 +0800</pubDate>
+<description>&lt;p&gt;A new Amazon paper audited nine public rule-following benchmarks such as RuleArena and LegalBench and found that their reference answers and grading code contain errors, causing correct model responses to be marked wrong. In LegalBench&amp;#x27;s tax scorer, decimal points were stripped, turning $259,487.13 into 25,948,713; after the fix, three models&amp;#x27; accepted answers rose from 8-9 out of 96 to 87-91. The authors urge checking scorer code and hand-reviewing failed answers before trusting low scores.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊论文发现规则类基准答案键与评分代码普遍出错&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究揭示规则类基准的评分缺陷会系统性低估模型能力，直接影响对模型评测结论的信任。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 71/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2119541630361554965">Rohan Paul (@rohanpaul_ai)</source>
+<category>基准评测</category>
+<category>亚马逊</category>
+<category>LegalBench</category>
+<category>模型评估</category>
+</item>
+<item><title>Stanford CS146S Has Students Pitch Real Patches to Open-Source Maintainers</title><link>https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/</link><guid isPermaLink="true">https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/</guid>
+<pubDate>Mon, 09 Nov 2026 05:23:29 +0800</pubDate>
+<description>&lt;p&gt;With coding agents able to finish last year&amp;#x27;s homework in a single prompt, Stanford&amp;#x27;s CS146S now requires students to learn an unfamiliar open-source repo, propose a change, and defend the patch to the maintainer who might merge it. Instructor Mihail Eric, who also leads AI at Monaco, walks through the syllabus and explains how his team decides which agent tooling to build versus buy, including on-call agents wired into Datadog and GitHub.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;斯坦福 CS146S 课程：让学生向开源维护者提交真实补丁&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了一个可借鉴的 AI 原生工程教学范式，以及企业自建与采购智能体工具的决策视角。&lt;/p&gt;&lt;p&gt;Latent Space · agent · signal 42/100&lt;/p&gt;</description>
+<source url="https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/">Latent Space</source>
+<category>智能体</category>
+<category>AI 编程</category>
+<category>斯坦福</category>
+<category>工程教育</category>
+</item>
 <item><title>Nvidia Board Opens Independent Probe Into Reported Foreign Intelligence Targeting of Jensen Huang</title><link>https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors</link><guid isPermaLink="true">https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors</guid>
 <pubDate>Mon, 09 Nov 2026 04:26:43 +0800</pubDate>
 <description>&lt;p&gt;Nvidia&amp;#x27;s board said it is launching an independent investigation following reports that founder and CEO Jensen Huang was the target of a foreign intelligence effort, overseen by a committee of independent directors with outside counsel. The board said it has no reason to believe national security or Nvidia secrets were compromised, and Huang supports and will cooperate with the review. The probe touches governance and geopolitical risk at the world&amp;#x27;s key AI compute supplier, though no substantive evidence has been disclosed.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达董事会启动独立调查 审查黄仁勋遭外国情报瞄准报道&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球 AI 算力核心供应商的最高管理层遭遇安全审查，牵动供应链与地缘风险判断，值得持续关注。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 58/100&lt;/p&gt;</description>
@@ -192,18 +219,18 @@
 <category>A/B 测试</category>
 <category>AI 安全</category>
 </item>
-<item><title>Three Consciousness Researchers Say Current AI Cannot Be Conscious</title><link>https://the-decoder.com/the-brain-as-computer-metaphor-shaped-modern-ai-but-may-be-misleading-the-consciousness-debate/</link><guid isPermaLink="true">https://the-decoder.com/the-brain-as-computer-metaphor-shaped-modern-ai-but-may-be-misleading-the-consciousness-debate/</guid>
+<item><title>三位意识研究学者称当前 AI 不可能有意识</title><link>https://the-decoder.com/the-brain-as-computer-metaphor-shaped-modern-ai-but-may-be-misleading-the-consciousness-debate/</link><guid isPermaLink="true">https://the-decoder.com/the-brain-as-computer-metaphor-shaped-modern-ai-but-may-be-misleading-the-consciousness-debate/</guid>
 <pubDate>Sun, 08 Nov 2026 21:49:21 +0800</pubDate>
-<description>&lt;p&gt;Anil Seth, Ned Block and Giulio Tononi argue in a Nature commentary that running the right computations is not sufficient for consciousness, so today&amp;#x27;s AI on silicon hardware probably cannot be conscious. They push back on Richard Dawkins and Geoffrey Hinton, who see AI as possibly conscious, and cite Anthropic&amp;#x27;s study of Claude&amp;#x27;s internal processing patterns.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;三位意识研究学者称当前 AI 不可能有意识&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是关于 AI 意识争论核心假设的权威学者观点，对理解模型能力边界与拟人化叙事有参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anil Seth、Ned Block 与 Giulio Tononi 在《Nature》评论中指出，仅靠运行正确计算不足以产生意识，硅基硬件上的现有 AI 大概率无法具备意识。他们反驳 Dawkins、Hinton 等认为 AI 或已具备意识的观点，并援引 Anthropic 对 Claude 内部处理模式的研究作为讨论素材。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是关于 AI 意识争论核心假设的权威学者观点，对理解模型能力边界与拟人化叙事有参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 58/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/the-brain-as-computer-metaphor-shaped-modern-ai-but-may-be-misleading-the-consciousness-debate/">The Decoder</source>
 <category>AI 意识</category>
 <category>Nature</category>
 <category>AI 安全</category>
 <category>神经科学</category>
 </item>
-<item><title>Shanghai Jiao Tong University&#x27;s AutoDNA AI-Native Lab Autonomously Runs Molecular Biology Experiments, Published in Nature</title><link>https://www.ithome.com/1/024/001.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/001.htm</guid>
+<item><title>上海交大 AutoDNA 登上《自然》：AI 原生实验室自主完成分子生物学实验</title><link>https://www.ithome.com/1/024/001.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/001.htm</guid>
 <pubDate>Sun, 08 Nov 2026 21:23:49 +0800</pubDate>
-<description>&lt;p&gt;A joint team at Shanghai Jiao Tong University has built AutoDNA (Siyuan-1), an AI-native scientific laboratory that autonomously performs molecular biology experiments. A multi-agent architecture decomposes tasks into literature search, protocol design, code generation, hardware execution and iterative optimization, while an &amp;#x27;atomic service&amp;#x27; abstraction exposes heterogeneous instruments to the model through natural-language descriptions and unified code interfaces. The system achieves micron-level positioning and microliter-scale liquid handling, and was published in Nature with a homepage feature, including an end-to-end DNA storage workflow demo.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;上海交大 AutoDNA 登上《自然》：AI 原生实验室自主完成分子生物学实验&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 自主科学实验室从局部辅助走向原生闭环的代表性成果，且经《自然》正刊验证，对关注智能体落地与 AI for Science 的读者具有高参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;上海交大陈海波、王肇国团队与樊春海、王飞团队合作，构建 AI 原生科学实验室装置 AutoDNA（思源一号），以多智能体架构贯通文献检索、方案设计、代码生成、硬件执行与结果迭代全流程，并通过“原子服务”抽象统一调度多类仪器，实现微米级定位、微升级液体处理的自主分子生物学实验，成果登上《自然》正刊及官网头条。该工作把 AI 自主实验室从“外挂式”局部辅助推进到模型-实验-仪器协同设计的原生架构，并演示了端到端 DNA 存储全流程。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 自主科学实验室从局部辅助走向原生闭环的代表性成果，且经《自然》正刊验证，对关注智能体落地与 AI for Science 的读者具有高参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/001.htm">IT之家 · 智能时代</source>
 <category>AI for Science</category>
 <category>智能体</category>
@@ -211,9 +238,9 @@
 <category>上海交大</category>
 <category>Nature</category>
 </item>
-<item><title>Chamath Says SpaceX Could End Anthropic Compute Deal on 90 Days&#x27; Notice and Re-Price 2-3x</title><link>https://x.com/rohanpaul_ai/status/2119409905434268064</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119409905434268064</guid>
+<item><title>Chamath 称 SpaceX 可 90 天终止 Anthropic 算力合约并涨价 2-3 倍</title><link>https://x.com/rohanpaul_ai/status/2119409905434268064</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119409905434268064</guid>
 <pubDate>Sun, 08 Nov 2026 20:41:12 +0800</pubDate>
-<description>&lt;p&gt;Chamath Palihapitiya argued on a podcast that if data center supply tightens, SpaceX could terminate its compute agreement with Anthropic on 90 days&amp;#x27; notice and resell capacity at 2-3x the price, leaving Anthropic no choice but to accept. He frames this single deal as the game-theory pivot that would force hyperscalers and neoclouds to reconsider self-use versus resale and trigger panic buying. The claim is an opinion-based scenario with no contract terms or data provided.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Chamath 称 SpaceX 可 90 天终止 Anthropic 算力合约并涨价 2-3 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以博弈论视角讨论算力供给紧张下的合约议价权，对关注算力经济与 AI 基础设施的读者有参考价值，但属个人推演而非事实披露。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Chamath Palihapitiya 在播客中提出一个博弈论推演：若数据中心供给收紧，SpaceX 可按 90 天通知终止与 Anthropic 的算力协议，再以 2-3 倍价格返售，而 Anthropic 只能接受。他认为这一单将迫使超大规模厂商与新云厂商重新评估自用还是外售算力，并引发恐慌性抢购。该说法为个人观点推演，未提供合约条款或数据佐证。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以博弈论视角讨论算力供给紧张下的合约议价权，对关注算力经济与 AI 基础设施的读者有参考价值，但属个人推演而非事实披露。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 58/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2119409905434268064">Rohan Paul (@rohanpaul_ai)</source>
 <category>算力</category>
 <category>数据中心</category>
@@ -246,32 +273,6 @@
 <category>行业观点</category>
 <category>腾讯</category>
 <category>商业模式</category>
-</item>
-<item><title>清华新论文：将隐藏目标伪装成任务步骤可绕过思维链监控</title><link>https://x.com/rohanpaul_ai/status/2119402688870023190</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119402688870023190</guid>
-<pubDate>Sun, 08 Nov 2026 20:12:32 +0800</pubDate>
-<description>&lt;p&gt;清华大学的一篇新论文提出 TraceMRT 攻击方法，将智能体的隐藏目标改写为主任务的合理步骤，从而在约 60% 的情况下绕过顶级思维链监控器。在 SHADE-Arena 基准上，平均规避率从先前最佳攻击的 27.56% 提升至 59.94%，经训练的人类审查员同样难以识别。研究还表明，一种权衡整条推理轨迹与关键步骤的贝叶斯监控器可将检测 AUC 从 0.26 提升至 0.91。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究直接暴露了当前智能体思维链监控的脆弱性，并给出可操作的防御改进方向，对关注 AI 安全的读者具有较高参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2119402688870023190">Rohan Paul (@rohanpaul_ai)</source>
-<category>AI 安全</category>
-<category>智能体</category>
-<category>思维链监控</category>
-<category>清华大学</category>
-</item>
-<item><title>Anthropic 斥资 34 亿美元采购 1.7GW 燃气发电机组</title><link>https://www.ithome.com/1/023/989.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/989.htm</guid>
-<pubDate>Sun, 08 Nov 2026 19:51:39 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 以 34 亿美元接手 OnePWR Solutions 向卡特彼勒下达的 1.7GW 重型燃气发电机组订单，成为 AI 公司迄今最大规模的发电设备采购。此举反映 AI 企业为绕开公用事业公司、锁定电力供应，正直接介入能源供应链，与 xAI 自购燃气轮机、Alphabet 收购能源开发商的路径形成对照。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 算力扩张向能源供应链延伸的标志性交易，直接体现电力已成为大模型竞赛的硬约束。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/023/989.htm">IT之家 · 智能时代</source>
-<category>算力基础设施</category>
-<category>能源</category>
-<category>Anthropic</category>
-</item>
-<item><title>萨顿再批大模型缩放路线 称算力堆叠无法通向智能</title><link>https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts/</link><guid isPermaLink="true">https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts/</guid>
-<pubDate>Sun, 08 Nov 2026 19:44:41 +0800</pubDate>
-<description>&lt;p&gt;图灵奖得主、《苦涩的教训》作者 Richard Sutton 发表新文，直言单纯堆叠算力不足以产生智能，AI 科学需要更聪明的新方法，且远未走到终点。他此前已批评大模型缩放的天花板，将合成数据称为“大错误”，并主张智能体应具备世界模型、从自身经验中持续学习。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是对当前主流缩放范式的一次高规格公开质疑，直接关系到算力投入与架构路线的判断。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 72/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts/">The Decoder</source>
-<category>大模型</category>
-<category>缩放定律</category>
-<category>Richard Sutton</category>
-<category>智能体</category>
 </item>
 </channel>
 </rss>
