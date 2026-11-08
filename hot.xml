@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Sun, 08 Nov 2026 11:21:33 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 08 Nov 2026 12:18:59 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic IPO 估值预期下调至 1.2 万亿美元，市场质疑 AI 龙头高估值</title><link>https://todayforai.com/en/story/story-1049bdee-c36</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1049bdee-c36</guid>
 <pubDate>Sun, 08 Nov 2026 10:10:56 +0800</pubDate>
@@ -43,6 +43,10 @@ Hy4 上线首日即因调用量激增导致推理集群紧急扩容十倍，反�
 
 这一变局对 AI 算力扩张构成实质性阻力。超大规模厂商开始考虑将建设转向海外，债务融资型 GPU 租赁商与存储芯片厂商估值逻辑被政治风险重新定价。尽管已获批项目暂不受影响，但新当选官员承诺在关键州加强监管，主要影响 2028 年后的新建项目。AI 产业正面临从技术竞赛到社会许可的范式转变，行业需通过集体行动重塑公众形象并构建更具包容性的叙事。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), The Verge AI, MIT Technology Review, Hacker News AI, IT之家 · IT业界, Ars Technica AI&lt;/p&gt;</description>
 </item>
+<item><title>Anthropic 分析 20 万次科研会话：数据分析用得最多，提想法反而最少</title><link>https://todayforai.com/en/story/story-a6d7a453-7b2</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a6d7a453-7b2</guid>
+<pubDate>Sun, 08 Nov 2026 12:18:59 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 统计约 20.7 万次科研相关 Claude 会话，发现数据分析占三分之一、写作占三成，而科学家自评最重要的提出假设仅占 4.2%。报告用“AI 能力分”与“使用倍数”量化任务匹配度，并估算若 AI 承担全部非动手工作，计算机与统计领域科研产出可提速约 15 倍，化学与生物受实验限制仅 3 到 4 倍。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey)&lt;/p&gt;</description>
+</item>
 <item><title>Anthropic 拆解智能体记忆：Claude 边干边记，靠“做梦”纠错整理</title><link>https://todayforai.com/en/story/story-9e0af652-d42</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9e0af652-d42</guid>
 <pubDate>Sun, 08 Nov 2026 11:21:33 +0800</pubDate>
 <description>&lt;p&gt;Anthropic 工程团队公开 Claude 跨会话记忆的四层架构：原始会话记录、自写记忆笔记、结构化 wiki、自动注入上下文，并新增“做梦”后台步骤，在会话结束后回看原始记录、修正错误笔记并重组索引。宝可梦与数据库答题测试显示，记忆质量而非数量决定表现，Opus 5 是首个形成完整学习循环的模型。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey)&lt;/p&gt;</description>
@@ -70,14 +74,6 @@ Rubicon 的推出意味着 GitHub 正从面向人类开发者的代码托管平�
 在实战验证中，GPT-6 Cyber 于 Linux 内核代码库中确认了 1724 个漏洞，并为其中 948 个构建出可用的本地提权利用程序，数量超过前代 GPT-5.6 Sol 的 166 个五倍以上；同时它在 Firefox 中发现 81 个此前未知的高危漏洞，已向 Mozilla 提交证据与候选补丁，多数漏洞已获修复。该模型同时具备漏洞发现、利用构建与补丁建议三项能力，定位为攻防一体的安全专用智能体。
 
 这一发布标志着 AI 在自动化漏洞挖掘与验证领域迈出实质性一步，将显著改变安全研究的人力与成本结构。但需要指出，上述数据目前仍属 OpenAI 单方主张，技术细节与外部独立验证尚未公开，且模型能力越强带来的双用途风险也愈发突出，如何在开放与管控之间取得平衡，将成为后续行业关注的核心议题。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, Yuchen Jin (@Yuchenj_UW), OpenAI 官方博客, The Decoder, Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
-<item><title>OpenAI 发布 Images 2.6 实现 ChatGPT 原生生成 GIF</title><link>https://todayforai.com/en/story/story-56a44e50-483</link><guid isPermaLink="true">https://todayforai.com/en/story/story-56a44e50-483</guid>
-<pubDate>Sat, 07 Nov 2026 07:40:40 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 正式推出 Images 2.6 模型，标志着 ChatGPT 首次具备原生生成与编辑动画 GIF 的能力。这一更新不仅实现了从静态图像到动态内容的跨越，更将整体生成速度提升了 50%，低质量模式下最快仅需 6 秒即可出图，显著降低了用户等待成本。
-
-在技术细节上，Images 2.6 重点解决了早期模型在连续帧间角色一致性差、画面漂移严重的痛点，使得品牌角色动画和产品循环展示等简单动画具备实际可用性。用户可通过文本提示或上传图片直接生成 GIF，并在应用内自由调整播放速率及进行逐帧编辑。API 端同步上线了 GPT-Image-2.6 Flare（侧重速度与布局）和 Sunburst（侧重细节与一致性）两款模型，为开发者提供灵活选择。
-
-此次升级对内容创作生态产生深远影响。随着周均图像生成量突破 40 亿张，Images 2.6 进一步巩固了 OpenAI 在多模态领域的领先地位。对于营销人员和开发者而言，低成本、高效率的动态内容生成工具将极大简化工作流，推动短视频素材、UI 动效及社交媒体内容的自动化生产进程。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;The Verge AI, The Decoder, IT之家 · IT业界, Hacker News AI, OpenAI 官方博客, 宝玉 (@dotey)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
