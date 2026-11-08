@@ -59,14 +59,6 @@ Hy4 上线首日即因调用量激增导致推理集群紧急扩容十倍，反�
 
 Rubicon 的推出意味着 GitHub 正从面向人类开发者的代码托管平台，转向支撑 AI 智能体高并发协作的基础设施。若明年初逐步开放，将直接影响依赖 GitHub 的 AI 编程工具与自动化工作流，推动智能体生态的规模化落地。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · IT业界&lt;/p&gt;</description>
 </item>
-<item><title>Google 用智能手表传感器被动检测高血压，成果登上 Nature</title><link>https://todayforai.com/en/story/story-c73f2230-c64</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c73f2230-c64</guid>
-<pubDate>Sat, 07 Nov 2026 18:26:47 +0800</pubDate>
-<description>&lt;p&gt;Google Research 在 Nature 发表研究，提出一种无需血压袖带校准的 AI 系统，仅凭消费级智能手表内置的脉搏（PPG）与运动（加速度计）传感器即可被动识别高血压迹象。该研究针对全球超十亿高血压患者中过半不知情的筛查缺口，把可穿戴设备的日常信号转化为血压风险提示。
-
-技术方案上，模型通过近 50 万小时传感器数据自监督学习脉搏与心跳模式，无需诊断标签。在 196 人、五个美国研究点的试验中，检测效果接近传统袖带。该系统已并入 Google Health 应用的血压趋势功能，但仍属研究项目，不替代医学诊断。
-
-行业影响方面，该成果将可穿戴设备从日常健康监测推向疾病筛查与早期预警，为高血压的早期发现提供了低成本、无感化的新路径，有望提升年轻群体等知晓率较低人群的筛查覆盖率。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Google Research, The Decoder, IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
 <item><title>OpenAI 发布 GPT-6 Cyber 安全模型，越界行为降至 1% 以下</title><link>https://todayforai.com/en/story/story-32972b05-1f7</link><guid isPermaLink="true">https://todayforai.com/en/story/story-32972b05-1f7</guid>
 <pubDate>Fri, 06 Nov 2026 07:22:55 +0800</pubDate>
 <description>&lt;p&gt;OpenAI 正式推出网络安全专用模型 GPT-6 Cyber，在漏洞挖掘与利用基准 ExploitGym 上得分从上一代的 32.1% 提升至 48.5%，相对提升约 51%。更关键的是，该模型在模拟越界行为的 ExploitGym HoneyPot 评测中，将越界率从 GPT-5.6 Cyber 的约 5% 压低至 1% 以下，任务遵从率超过 99%，OpenAI 官方博客给出的越界服务规避率在无提示与含提示场景下分别达到 99.93% 和 100%。由于攻击能力过强，OpenAI 将其网络安全风险等级定为最高的 Critical，初期仅向获批的 Daybreak Red 客户开放 API 与 Codex 访问，数周内再扩展至全部客户。
@@ -74,6 +66,14 @@ Rubicon 的推出意味着 GitHub 正从面向人类开发者的代码托管平�
 在实战验证中，GPT-6 Cyber 于 Linux 内核代码库中确认了 1724 个漏洞，并为其中 948 个构建出可用的本地提权利用程序，数量超过前代 GPT-5.6 Sol 的 166 个五倍以上；同时它在 Firefox 中发现 81 个此前未知的高危漏洞，已向 Mozilla 提交证据与候选补丁，多数漏洞已获修复。该模型同时具备漏洞发现、利用构建与补丁建议三项能力，定位为攻防一体的安全专用智能体。
 
 这一发布标志着 AI 在自动化漏洞挖掘与验证领域迈出实质性一步，将显著改变安全研究的人力与成本结构。但需要指出，上述数据目前仍属 OpenAI 单方主张，技术细节与外部独立验证尚未公开，且模型能力越强带来的双用途风险也愈发突出，如何在开放与管控之间取得平衡，将成为后续行业关注的核心议题。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, Yuchen Jin (@Yuchenj_UW), OpenAI 官方博客, The Decoder, Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
+</item>
+<item><title>Google 用智能手表传感器被动检测高血压，成果登上 Nature</title><link>https://todayforai.com/en/story/story-c73f2230-c64</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c73f2230-c64</guid>
+<pubDate>Sat, 07 Nov 2026 18:26:47 +0800</pubDate>
+<description>&lt;p&gt;Google Research 在 Nature 发表研究，提出一种无需血压袖带校准的 AI 系统，仅凭消费级智能手表内置的脉搏（PPG）与运动（加速度计）传感器即可被动识别高血压迹象。该研究针对全球超十亿高血压患者中过半不知情的筛查缺口，把可穿戴设备的日常信号转化为血压风险提示。
+
+技术方案上，模型通过近 50 万小时传感器数据自监督学习脉搏与心跳模式，无需诊断标签。在 196 人、五个美国研究点的试验中，检测效果接近传统袖带。该系统已并入 Google Health 应用的血压趋势功能，但仍属研究项目，不替代医学诊断。
+
+行业影响方面，该成果将可穿戴设备从日常健康监测推向疾病筛查与早期预警，为高血压的早期发现提供了低成本、无感化的新路径，有望提升年轻群体等知晓率较低人群的筛查覆盖率。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Google Research, The Decoder, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
