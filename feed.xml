@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 08 Nov 2026 07:51:36 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 08 Nov 2026 08:44:04 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Anthropic Pushes Thanksgiving-Eve IPO With Up to $100 Billion Raise</title><link>https://www.ithome.com/1/023/854.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/854.htm</guid>
+<pubDate>Sun, 08 Nov 2026 08:44:04 +0800</pubDate>
+<description>&lt;p&gt;Anthropic is still moving toward a pre-Thanksgiving IPO, targeting an $80-100 billion raise at a $1.25-1.75 trillion valuation, while bracing for pricing below earlier optimistic expectations. A tech selloff, rising borrowing costs and worries over AI capex have pulled valuation expectations well below the doubling investors anticipated a month ago, forcing CEO Dario Amodei to accept a haircut.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 推进感恩节前 IPO 拟募资至多 1000 亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司 IPO 定价与估值预期下调，是观察 AI 资本周期与市场情绪转向的关键信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/023/854.htm">IT之家 · 智能时代</source>
+<category>Anthropic</category>
+<category>IPO</category>
+<category>融资</category>
+<category>AI 资本市场</category>
+</item>
+<item><title>Salesforce Study Finds External Teacher Distillation Costs More Compute Than RL</title><link>https://x.com/rohanpaul_ai/status/2119222842332271059</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119222842332271059</guid>
+<pubDate>Sun, 08 Nov 2026 08:17:53 +0800</pubDate>
+<description>&lt;p&gt;A new Salesforce paper compares on-policy distillation against GRPO using held-out accuracy per training FLOP. It finds that distilling from a large external post-trained teacher generally costs more compute than plain RL and tends to inflate response length, whereas training per-domain RL experts and distilling them into a single student matches joint GRPO on math and code with 42% fewer total FLOPs.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Salesforce 研究：从外部大模型蒸馏不如强化学习划算&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究给出了反直觉的算力账本，并提供了可复用的“先 RL 专家、后蒸馏合并”低成本配方。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 74/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2119222842332271059">Rohan Paul (@rohanpaul_ai)</source>
+<category>模型蒸馏</category>
+<category>强化学习</category>
+<category>Salesforce</category>
+<category>训练算力</category>
+</item>
 <item><title>Accenture Report Found With 15 Fake Citations, Firm Denies AI Hallucination</title><link>https://www.ithome.com/1/023/845.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/845.htm</guid>
 <pubDate>Sun, 08 Nov 2026 07:51:36 +0800</pubDate>
 <description>&lt;p&gt;GPTZero&amp;#x27;s analysis found that Accenture&amp;#x27;s &amp;#x27;Leapfrogging Development&amp;#x27; report, co-published with Madrid&amp;#x27;s IE University, contains 15 fabricated citations and entirely fictitious case studies, prompting scrutiny. Accenture disputes the AI-hallucination explanation, attributing the errors to human mistakes and saying it is correcting the report. The incident underscores growing risks of AI-generated falsehoods contaminating information sources across consulting and legal sectors.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;埃森哲报告被指含 15 条虚假引用，否认系 AI 幻觉所致&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部咨询公司报告被指含虚假引用，折射 AI 幻觉污染专业内容与信息源的行业性风险。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
@@ -21,6 +39,15 @@
 <category>AI 政策</category>
 <category>产业趋势</category>
 </item>
+<item><title>China Telecom Completes 1,000-km Hollow-Core Fiber Bidirectional Real-Time Transmission</title><link>https://www.ithome.com/1/023/837.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/837.htm</guid>
+<pubDate>Sun, 08 Nov 2026 07:14:24 +0800</pubDate>
+<description>&lt;p&gt;China Telecom Research Institute, Yangtze Optical Fibre and ZTE have jointly completed the world&amp;#x27;s first 1,000-km bidirectional real-time transmission over hollow-core fiber, achieving 64 Tb/s per direction across 1,007.48 km with a one-way latency of just 3.43 ms. The trial shows hollow-core fiber can reuse existing transmission equipment and cuts latency by roughly 30% versus solid-core fiber, laying groundwork for low-latency long-haul compute-network interconnects.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;中国电信完成千公里空芯光纤双向实时传输验证&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;空芯光纤千公里级实时传输首次跑通，直接关系算力网跨域互联的时延与容量上限。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/023/837.htm">IT之家 · IT业界</source>
+<category>空芯光纤</category>
+<category>算力网</category>
+<category>中国电信</category>
+<category>光通信</category>
+</item>
 <item><title>Calls Grow for Congress to Ban Recursive Self-Improvement in AI</title><link>https://x.com/rohanpaul_ai/status/2119204135115665829</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119204135115665829</guid>
 <pubDate>Sun, 08 Nov 2026 07:03:33 +0800</pubDate>
 <description>&lt;p&gt;Calls to ban Recursive Self-Improvement (RSI) are intensifying. New York Assemblymember Alex Bores, citing an METR report, says OpenAI targets March 2028 and Anthropic staff cite 2027 for AIs that can build the next AI, and urges Congress to outlaw RSI this year. The push draws support across the political spectrum, including Bernie Sanders, Yoshua Bengio and Arvind Narayanan, though the exact mechanism and whether a ban should be permanent remain debated.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美国国会拟立法禁止 AI 递归自我改进&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 治理领域少见的跨阵营立法动向，直接指向头部实验室的自动化研究路线图，值得持续跟踪。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 62/100&lt;/p&gt;</description>
@@ -28,6 +55,16 @@
 <category>AI 治理</category>
 <category>递归自我改进</category>
 <category>政策监管</category>
+</item>
+<item><title>Protests Erupt Across Europe Demanding Halt to AI Data Center Buildout</title><link>https://www.ithome.com/1/023/831.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/831.htm</guid>
+<pubDate>Sun, 08 Nov 2026 06:46:04 +0800</pubDate>
+<description>&lt;p&gt;Coordinated protests against data center expansion broke out across Europe, with roughly 2,000 marching in Dublin and 1,300 in Helsinki demanding a pause until the public decides through democratic processes how AI infrastructure should be governed. Grievances center on land and power consumption, rising energy costs and limited local economic benefit; data centers already accounted for 23% of Ireland&amp;#x27;s metered electricity in 2025, while Finnish projects in the pipeline total about €80 billion. The backlash mirrors the US, where data centers became a midterm election issue, and is emerging as a real constraint on AI compute buildout.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;欧洲多国爆发抗议 要求暂停 AI 数据中心建设&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 算力扩张遭遇社会与政治阻力的标志性事件，直接影响数据中心选址、能源供给与监管走向。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 72/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/023/831.htm">IT之家 · IT业界</source>
+<category>数据中心</category>
+<category>AI 算力</category>
+<category>欧洲</category>
+<category>能源</category>
+<category>监管</category>
 </item>
 <item><title>TSMC Denies 3D DRAM Push, Reaffirms Pure Logic Foundry Role</title><link>https://x.com/rohanpaul_ai/status/2119192725782479047</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119192725782479047</guid>
 <pubDate>Sun, 08 Nov 2026 06:18:13 +0800</pubDate>
@@ -190,36 +227,36 @@
 <category>算力</category>
 <category>地缘政治</category>
 </item>
-<item><title>Let&#x27;s Encrypt AI Campaign Aims for Confidential Computing on Most AI GPUs by End of 2027</title><link>https://letsencrypt.ai/</link><guid isPermaLink="true">https://letsencrypt.ai/</guid>
+<item><title>Let&#x27;s Encrypt AI 倡议 2027 年底前在多数 AI GPU 上实现机密计算</title><link>https://letsencrypt.ai/</link><guid isPermaLink="true">https://letsencrypt.ai/</guid>
 <pubDate>Sat, 07 Nov 2026 23:43:43 +0800</pubDate>
-<description>&lt;p&gt;Let&amp;#x27;s Encrypt AI has published a manifesto arguing that users own their AI conversations and that training on private data should require separate informed consent. It sets a goal of enabling confidential-computing-protected AI chats on most AI GPUs by the end of 2027, but so far offers a position statement and call to action rather than concrete technical methods or benchmarks.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Let&amp;#x27;s Encrypt AI 倡议 2027 年底前在多数 AI GPU 上实现机密计算&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是关于 AI 推理隐私与 GPU 机密计算的重要行业倡议，方向值得关注，但目前仍停留在宣言层面，缺乏可验证的技术细节。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Let&amp;#x27;s Encrypt AI 发布宣言，主张用户与 AI 的对话内容应归用户所有，训练使用需另行知情同意，并提出在 2027 年底前让多数 AI GPU 支持基于机密计算的隐私保护推理。该倡议目前以立场声明和号召为主，尚未给出具体技术方案、性能数据或落地时间表细节。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是关于 AI 推理隐私与 GPU 机密计算的重要行业倡议，方向值得关注，但目前仍停留在宣言层面，缺乏可验证的技术细节。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 58/100&lt;/p&gt;</description>
 <source url="https://letsencrypt.ai/">Hacker News AI</source>
 <category>AI 隐私</category>
 <category>机密计算</category>
 <category>GPU</category>
 <category>行业倡议</category>
 </item>
-<item><title>Open and Closed AI Models Converge in Cyber Offense Capabilities</title><link>https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking/</link><guid isPermaLink="true">https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking/</guid>
+<item><title>开源与闭源模型网络攻击能力差距持续收窄</title><link>https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking/</link><guid isPermaLink="true">https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking/</guid>
 <pubDate>Sat, 07 Nov 2026 23:35:50 +0800</pubDate>
-<description>&lt;p&gt;Vals AI&amp;#x27;s CyberOffense benchmark shows AI agents can autonomously penetrate simulated corporate networks from a single public URL to admin privileges with zero human help. Meanwhile, open-weight models are approaching closed frontier models at building exploits, narrowing the cyber-capability gap between them.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;开源与闭源模型网络攻击能力差距持续收窄&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该报道用可复现的基准量化了 AI 智能体的自主攻击能力，并揭示开源模型正快速追平闭源模型，对 AI 安全与模型治理具有直接参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Vals AI 的 CyberOffense 基准显示，AI 智能体仅凭一个公开网址即可自主渗透模拟企业网络，从 Web 应用一路提权至管理员权限，全程无需人工干预。与此同时，开源模型在漏洞利用构建上的表现已逼近闭源顶级模型，开源与闭源之间的网络攻击能力差距正在快速缩小。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该报道用可复现的基准量化了 AI 智能体的自主攻击能力，并揭示开源模型正快速追平闭源模型，对 AI 安全与模型治理具有直接参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking/">The Decoder</source>
 <category>AI 安全</category>
 <category>智能体</category>
 <category>开源模型</category>
 <category>基准评测</category>
 </item>
-<item><title>Video Rebirth Compresses 31B Video-Audio Diffusion Model to 14B with INT8</title><link>https://github.com/Video-Rebirth/hyperflow-h3-flash</link><guid isPermaLink="true">https://github.com/Video-Rebirth/hyperflow-h3-flash</guid>
+<item><title>Video Rebirth 将 31B 视频音频扩散模型压缩至 14B 并支持 INT8</title><link>https://github.com/Video-Rebirth/hyperflow-h3-flash</link><guid isPermaLink="true">https://github.com/Video-Rebirth/hyperflow-h3-flash</guid>
 <pubDate>Sat, 07 Nov 2026 23:16:01 +0800</pubDate>
-<description>&lt;p&gt;Video Rebirth released HyperFlow H3 Flash, a compressed few-step variant of MiniMax-H3 that shrinks a 31B joint video-audio diffusion model to 13.7B while supporting 4/6/8-step sampling without CFG. Weights, ComfyUI nodes and GGUF deployment are open-sourced; a 5.2s clip renders in ~92s on one RTX 5090 and 8.7s on 4×B200, with real-time inference on 4 Blackwell GPUs via SOL-H3.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Video Rebirth 将 31B 视频音频扩散模型压缩至 14B 并支持 INT8&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源少步视频+音频联合生成模型的实质性压缩与部署方案，对关注多模态生成与推理加速的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Video Rebirth 发布 HyperFlow H3 Flash，将 MiniMax-H3 的 31B 视频+音频联合扩散模型压缩至 13.7B，支持 4/6/8 步少步采样且无需 CFG，并开源权重、ComfyUI 节点与 GGUF 部署方案。5.2 秒片段在单张 RTX 5090 上约 92 秒生成，4×B200 上仅 8.7 秒，配合 SOL-H3 可在 4 卡 Blackwell 上实现实时推理。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源少步视频+音频联合生成模型的实质性压缩与部署方案，对关注多模态生成与推理加速的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 78/100&lt;/p&gt;</description>
 <source url="https://github.com/Video-Rebirth/hyperflow-h3-flash">Hacker News AI</source>
 <category>开源模型</category>
 <category>视频生成</category>
 <category>扩散模型</category>
 <category>推理加速</category>
 </item>
-<item><title>Cognition CSO Alex Stamos Says AI Is Breaking Traditional Cybersecurity</title><link>https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos</link><guid isPermaLink="true">https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos</guid>
+<item><title>Cognition 安全负责人：AI 正击穿传统网络安全防线</title><link>https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos</link><guid isPermaLink="true">https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos</guid>
 <pubDate>Sat, 07 Nov 2026 23:00:00 +0800</pubDate>
-<description>&lt;p&gt;In a podcast interview, Cognition chief security officer Alex Stamos argued that AI-boosted waves of hacks and breaches are rendering the multibillion-dollar cybersecurity industry as we know it obsolete, and that this is only the beginning. He noted that both private and state actors are using AI to detect and exploit vulnerabilities. The discussion is largely opinion and trend analysis, without concrete technical parameters or verifiable data.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Cognition 安全负责人：AI 正击穿传统网络安全防线&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;资深安全专家对 AI 冲击网络安全产业给出直白判断，适合关注 AI 安全与产业变革的读者了解风向。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Cognition 首席安全官 Alex Stamos 在播客访谈中判断，AI 加持下的攻击浪潮正让价值数十亿美元的既有网络安全产业难以为继，且这只是 AI 改变安全格局的开端。他同时指出，国家行为体与私人攻击者都在借助 AI 发现并利用漏洞。访谈以观点与趋势判断为主，未披露具体技术参数或可验证数据。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;资深安全专家对 AI 冲击网络安全产业给出直白判断，适合关注 AI 安全与产业变革的读者了解风向。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 42/100&lt;/p&gt;</description>
 <source url="https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos">The Verge AI</source>
 <category>网络安全</category>
 <category>AI 安全</category>
@@ -233,42 +270,6 @@
 <category>订阅定价</category>
 <category>消费者诉讼</category>
 <category>AI 商业化</category>
-</item>
-<item><title>GitHub 发布 Rubicon 存储架构，单仓库支持 5000 智能体并发</title><link>https://www.ithome.com/1/023/823.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/823.htm</guid>
-<pubDate>Sat, 07 Nov 2026 22:57:23 +0800</pubDate>
-<description>&lt;p&gt;GitHub 公布代号 Rubicon 的全新 Git 存储架构，内部压测显示单仓库可支撑 5000 个智能体并发协作、每秒 7200 次推送，并支持读取按需水平扩展。该架构已开启小范围定向内测，计划明年初逐步扩大开放，目标是应对 AI 智能体全天候高并发写入带来的常态化负载。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是代码托管基础设施为智能体时代重构底层存储的关键信号，压测数据具体且指向明确的负载范式转变。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/023/823.htm">IT之家 · IT业界</source>
-<category>GitHub</category>
-<category>智能体</category>
-<category>代码托管</category>
-<category>基础设施</category>
-</item>
-<item><title>英伟达出资数十亿美元 助日月光扩产 CoWoS 封装</title><link>https://www.ithome.com/1/023/814.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/814.htm</guid>
-<pubDate>Sat, 07 Nov 2026 21:50:41 +0800</pubDate>
-<description>&lt;p&gt;台积电 CoWoS 先进封装产能吃紧，英伟达正以数十亿美元资金支持日月光旗下矽品精密扩建新无尘厂房并采购设备，以缓解 AI 芯片封装瓶颈。先进封装市场规模预计 2026 年首超传统封装，相关资本支出逼近 280 亿美元。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;封装从边缘环节变成 AI 算力扩张的关键瓶颈，英伟达直接出资锁定产能，是理解算力供应链的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 72/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/023/814.htm">IT之家 · IT业界</source>
-<category>算力芯片</category>
-<category>先进封装</category>
-<category>英伟达</category>
-<category>台积电</category>
-</item>
-<item><title>印度 IT 协会警告 AI 冲击应届生就业</title><link>https://www.ithome.com/1/023/813.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/813.htm</guid>
-<pubDate>Sat, 07 Nov 2026 21:48:23 +0800</pubDate>
-<description>&lt;p&gt;印度全国软件与服务公司协会会长南比亚尔警告，AI 接手基础编程与测试工作，将让应届毕业生进入科技行业更加困难。他认为行业正经历从按人头计费到按成果收费的“再平衡”，高校课程若不尽快改革，大量工科毕业生将面临技能过时。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是来自印度最大 IT 行业协会负责人的一手判断，直接指向 AI 对初级技术岗位与工程教育体系的冲击。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/023/813.htm">IT之家 · 智能时代</source>
-<category>AI 就业</category>
-<category>印度 IT</category>
-<category>产业转型</category>
-</item>
-<item><title>Nous Research 微调 Qwen 模型 将政治宣传率从 22% 降至 1% 以下</title><link>https://the-decoder.com/state-propaganda-in-some-chinese-ai-models-is-only-a-thin-layer-that-fine-tuning-can-strip-away/</link><guid isPermaLink="true">https://the-decoder.com/state-propaganda-in-some-chinese-ai-models-is-only-a-thin-layer-that-fine-tuning-can-strip-away/</guid>
-<pubDate>Sat, 07 Nov 2026 20:32:45 +0800</pubDate>
-<description>&lt;p&gt;Nous Research 对阿里 Qwen3.8-27B 进行监督微调，使用 5300 万 token 训练出 Arete-27B，将模型回答中的国家宣传内容比例从 22% 降至 1% 以下，且未损害通用能力。团队据此认为，中国开源权重模型中的政治倾向只是可被剥离的“薄层”，并已公开模型权重、测试集与训练数据（Apache 2.0）。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以可复现的微调实验量化“对齐层”可剥离性，对开源模型治理与安全研究具有直接参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 71/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/state-propaganda-in-some-chinese-ai-models-is-only-a-thin-layer-that-fine-tuning-can-strip-away/">The Decoder</source>
-<category>开源模型</category>
-<category>模型对齐</category>
-<category>Nous Research</category>
-<category>Qwen</category>
-<category>监督微调</category>
 </item>
 </channel>
 </rss>

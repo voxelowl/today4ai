@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Sun, 08 Nov 2026 01:37:25 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 08 Nov 2026 08:44:04 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic IPO 估值预期下调至 1.2 万亿美元，市场质疑 AI 龙头高估值</title><link>https://todayforai.com/en/story/story-1049bdee-c36</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1049bdee-c36</guid>
-<pubDate>Sun, 08 Nov 2026 01:37:25 +0800</pubDate>
+<pubDate>Sun, 08 Nov 2026 08:44:04 +0800</pubDate>
 <description>&lt;p&gt;受科技股大幅回调与 AI 板块抛售影响，Anthropic 的 IPO 估值预期在数日内从 2 万亿美元下调至 1.2 万亿美元，部分投资者甚至认为 1 万亿美元更合理。纳斯达克 100 单日暴跌 6.4%、市值蒸发约 2.3 万亿美元，成为估值下调的直接导火索。
 
 综合多家信源，估值下调主因市场环境而非公司业绩：Anthropic 10 月底年化收入已超 800 亿美元，9 月底现金储备达 1466 亿美元，但季度亏损与巨额算力支出承诺仍令认购方要求折价。同时，Ramp 数据显示企业 token 用量增长 65% 而支出仅增 1.5%，AI 单价一个月内下降 27%，买方市场格局进一步压制高估值叙事。
@@ -75,9 +75,9 @@ Rubicon 的推出意味着 GitHub 正从面向人类开发者的代码托管平�
 
 此次发布对视频生成赛道具有显著影响。15 秒时长与对话式编辑的结合，使 AI 视频从短片段演示迈向可用的规模化内容生产工具，而 30% 的降价进一步降低了开发者和企业的使用门槛。同时，多入口上线与 SynthID 水印的标配，也体现了谷歌在推动 AI 视频商业化与内容安全方面的平衡策略。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Decoder, Google DeepMind, Arena.ai (@arena), IT之家 · 智能时代, IT之家 · IT业界, Marktechpost (@Marktechpost)&lt;/p&gt;</description>
 </item>
-<item><title>DeepSeek V4.1 Flash 在 GB300 NVL72 上单智能体推理提速 1.5 倍</title><link>https://todayforai.com/en/story/story-8e508537-594</link><guid isPermaLink="true">https://todayforai.com/en/story/story-8e508537-594</guid>
-<pubDate>Sat, 07 Nov 2026 04:33:47 +0800</pubDate>
-<description>&lt;p&gt;Artificial Analysis 的 AA-AgentPerf 基准显示，DeepSeek V4.1 Flash 在 GB300 NVL72 上单智能体吞吐从 596 tok/s 提升至 848 tok/s（1.42 倍），每 GPU 吞吐约提升 1.6 倍。提速主要来自新版 vLLM 及其针对 GB300 的新内核、FlashInfer 自动调优、更完整的 CUDA Graph 覆盖、调优后的投机解码，以及 NVIDIA Dynamo + vLLM 方案中预填充与解码同卡运行。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
+<item><title>Salesforce 研究：从外部大模型蒸馏不如强化学习划算</title><link>https://todayforai.com/en/story/story-ac388209-df1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-ac388209-df1</guid>
+<pubDate>Sun, 08 Nov 2026 08:17:53 +0800</pubDate>
+<description>&lt;p&gt;Salesforce 新论文以“每单位训练算力对应的留出准确率”为口径，对比在线策略蒸馏与 GRPO。结论是：从外部已后训练的大模型蒸馏通常比直接做 RL 更耗算力，且容易拉长回答长度；而先用 RL 训练各领域专家、再蒸馏合并为单一学生模型，可在数学与代码任务上以少 42% 的总 FLOPs 追平联合 GRPO。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
