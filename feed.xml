@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Mon, 09 Nov 2026 06:26:00 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 09 Nov 2026 06:35:35 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>KetchUp Launches Open-Source SketchUp Alternative Built on Rust and WebGPU</title><link>https://ketchup3d.github.io/app/</link><guid isPermaLink="true">https://ketchup3d.github.io/app/</guid>
+<pubDate>Mon, 09 Nov 2026 06:35:35 +0800</pubDate>
+<description>&lt;p&gt;KetchUp is a free, open-source 3D modeling app for woodworking and furniture design, written in Rust and rendered with WebGPU, running on Windows, macOS, Linux and desktop browsers with no account required. It targets precise dimensioned planning of shelves, tables and cabinets as a lightweight SketchUp alternative, though textures, scenes and some model features are unsupported and OBJ export omits materials.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;KetchUp 发布 Rust 与 WebGPU 打造的开源 SketchUp 替代品&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 WebGPU 与 Rust 在桌面级 3D 建模工具中的一次实用落地，对关注开源图形工具链的开发者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://ketchup3d.github.io/app/">Hacker News AI</source>
+<category>开源工具</category>
+<category>WebGPU</category>
+<category>Rust</category>
+<category>3D 建模</category>
+</item>
 <item><title>Building a SQLite parse_number Extension in C vs Rust</title><link>https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/</guid>
 <pubDate>Mon, 09 Nov 2026 06:26:00 +0800</pubDate>
 <description>&lt;p&gt;Simon Willison used Claude to compare implementing a SQLite parse_number() custom function in C versus Rust: the C extension was only 14 KB while the Rust builds were around 300 KB, yet Rust ran faster because its float parsing is roughly twice as fast as C&amp;#x27;s strtod. He then explored writing a faster hand-rolled C parser and packaged the investigation as a reproducible research report.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;用 C 与 Rust 编写 SQLite parse_number 扩展对比&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以具体体积与性能数据展示 C 与 Rust 编写 SQLite 扩展的取舍，对扩展开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · tools · signal 42/100&lt;/p&gt;</description>
@@ -209,9 +218,9 @@
 <category>LobeHub</category>
 <category>软件工程</category>
 </item>
-<item><title>Karpathy Builds Hacker News Video Curation Site with Claude in a Weekend</title><link>https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/</link><guid isPermaLink="true">https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/</guid>
+<item><title>Karpathy 用 Claude 周末打造 Hacker News 精选视频站</title><link>https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/</link><guid isPermaLink="true">https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/</guid>
 <pubDate>Sun, 08 Nov 2026 22:23:00 +0800</pubDate>
-<description>&lt;p&gt;Karpathy used Claude Opus 5.5 to mine 43 million Hacker News comments spanning 20 years, distilling 6,454 repeatedly recommended videos into the login-free HackerTube over a weekend. He then one-shotted TristanTube with Claude Code in three minutes, showing how coding agents can compress weeks of engineering into hours.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Karpathy 用 Claude 周末打造 Hacker News 精选视频站&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;知名研究者用 AI 代理独立完成从数据分析到部署的完整产品，是观察智能体实际生产力的高价值样本。&lt;/p&gt;&lt;p&gt;The Decoder · tools · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Karpathy 借助 Claude Opus 5.5 分析 Hacker News 二十年间的 4300 万条评论，提炼出 6454 个被反复推荐的视频，周末即上线无需登录的 HackerTube。随后他又用 Claude Code 在三分钟内完成 TristanTube，显示 AI 编程代理已能把数周工程压缩到数小时。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;知名研究者用 AI 代理独立完成从数据分析到部署的完整产品，是观察智能体实际生产力的高价值样本。&lt;/p&gt;&lt;p&gt;The Decoder · tools · signal 72/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/">The Decoder</source>
 <category>智能体</category>
 <category>Claude</category>
@@ -264,15 +273,6 @@
 <category>Anthropic</category>
 <category>SpaceX</category>
 <category>AI 基础设施</category>
-</item>
-<item><title>字节跳动拟扩大巴西数据中心项目 二期规模超 300MW</title><link>https://www.ithome.com/1/023/993.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/993.htm</guid>
-<pubDate>Sun, 08 Nov 2026 20:29:53 +0800</pubDate>
-<description>&lt;p&gt;字节跳动正物色开发商推进巴西塞阿拉州佩森港数据中心二期，规模将超过当地在建的 100 亿美元、300MW 项目，并考虑在港区外另建一座服务本地客户的同类设施。此举意在巩固其在拉美算力基建的领先地位，而巴西数据中心容量自 2022 年以来已翻倍突破 1GW，政策与可再生能源条件构成主要吸引力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部大模型厂商的海外算力扩张动向，反映 AI 基建投资的地理转移与拉美市场升温。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/023/993.htm">IT之家 · IT业界</source>
-<category>数据中心</category>
-<category>字节跳动</category>
-<category>算力基建</category>
-<category>巴西</category>
 </item>
 </channel>
 </rss>
