@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Mon, 09 Nov 2026 05:41:44 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 09 Nov 2026 06:26:00 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Building a SQLite parse_number Extension in C vs Rust</title><link>https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/</guid>
+<pubDate>Mon, 09 Nov 2026 06:26:00 +0800</pubDate>
+<description>&lt;p&gt;Simon Willison used Claude to compare implementing a SQLite parse_number() custom function in C versus Rust: the C extension was only 14 KB while the Rust builds were around 300 KB, yet Rust ran faster because its float parsing is roughly twice as fast as C&amp;#x27;s strtod. He then explored writing a faster hand-rolled C parser and packaged the investigation as a reproducible research report.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;用 C 与 Rust 编写 SQLite parse_number 扩展对比&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以具体体积与性能数据展示 C 与 Rust 编写 SQLite 扩展的取舍，对扩展开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · tools · signal 42/100&lt;/p&gt;</description>
+<source url="https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/">Simon Willison 博客</source>
+<category>SQLite</category>
+<category>Rust</category>
+<category>C</category>
+<category>开发者工具</category>
+</item>
 <item><title>Stanford&#x27;s AI-Native Engineering Course Teaches Agent-Driven Workflows</title><link>https://latent.space/p/cs146s/</link><guid isPermaLink="true">https://latent.space/p/cs146s/</guid>
 <pubDate>Mon, 09 Nov 2026 05:41:44 +0800</pubDate>
 <description>&lt;p&gt;Stanford lecturer Mihail Eric walks through his Modern Software Developer syllabus, which trains engineers to ship software and debug outages with coding agents rather than treat AI as autocomplete. He also shares which parts of the curriculum survived contact with his own AI team at Monaco.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;斯坦福开设 AI 原生工程课 教开发者用智能体重构工作流&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;对关心工程师技能转型与智能体落地实践的读者有参考价值，但属访谈观点而非可验证的新技术发布。&lt;/p&gt;&lt;p&gt;Latent Space · llm · signal 42/100&lt;/p&gt;</description>
@@ -209,9 +218,9 @@
 <category>开发者工具</category>
 <category>Andrej Karpathy</category>
 </item>
-<item><title>Anthropic Buys 1.7GW of Gas Generators for $3.4B in Record AI Power Deal</title><link>https://x.com/rohanpaul_ai/status/2119431232165683269</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119431232165683269</guid>
+<item><title>Anthropic 斥资 34 亿美元购入 1.7GW 燃气发电设备</title><link>https://x.com/rohanpaul_ai/status/2119431232165683269</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119431232165683269</guid>
 <pubDate>Sun, 08 Nov 2026 22:05:57 +0800</pubDate>
-<description>&lt;p&gt;Anthropic paid $3.4B for 1.7GW of Caterpillar gas generators, the largest known power-equipment purchase by an AI lab. It took over orders that supplier OnePWR Solutions placed two years ago but could not finance, so the engines arrive within two years instead of joining multi-year manufacturing queues. The deal, alongside xAI&amp;#x27;s $2B mobile gas turbines and Alphabet&amp;#x27;s Intersect acquisition, shows the compute race shifting toward direct control of power and infrastructure.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 斥资 34 亿美元购入 1.7GW 燃气发电设备&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 实验室首次以数十亿美元规模直接买断发电设备，标志算力竞争正式延伸到电力供给端。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 以 34 亿美元买下 1.7GW 卡特彼勒燃气发电机组，成为已知规模最大的 AI 实验室电力设备采购。它接手了 OnePWR Solutions 两年前下单却无力融资的订单，因此设备可在未来两年内交付，避开当前长达数年的制造排期。此举与 xAI 采购移动燃气轮机、Alphabet 收购 Intersect 一道，显示算力竞赛正转向对电力与基础设施的直接争夺。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 实验室首次以数十亿美元规模直接买断发电设备，标志算力竞争正式延伸到电力供给端。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2119431232165683269">Rohan Paul (@rohanpaul_ai)</source>
 <category>算力基础设施</category>
 <category>Anthropic</category>
@@ -264,15 +273,6 @@
 <category>字节跳动</category>
 <category>算力基建</category>
 <category>巴西</category>
-</item>
-<item><title>富士电视台 2027 年起全剧集引入 AI 特效</title><link>https://www.ithome.com/1/023/992.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/992.htm</guid>
-<pubDate>Sun, 08 Nov 2026 20:20:20 +0800</pubDate>
-<description>&lt;p&gt;富士电视台宣布自 2027 年 10 月起，将生成式 AI 应用于全部真人电视剧制作，成为日本首家全面引入 AI 的大型商业电视台。其内部实验室 AI Sandbox 基于谷歌 Nano Banana 与本地素材训练，在手术、爆炸等特效镜头上省去 70% 至 80% 工序，并替代部分航拍。此举背后是地面电视广告收入下滑、节目预算缩减的行业压力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是主流电视台首次将生成式 AI 全面嵌入剧集生产流程的明确落地案例，对观察 AI 在内容产业的规模化采用具有风向标意义。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/023/992.htm">IT之家 · 智能时代</source>
-<category>生成式 AI</category>
-<category>影视制作</category>
-<category>富士电视台</category>
-<category>视觉特效</category>
 </item>
 </channel>
 </rss>
