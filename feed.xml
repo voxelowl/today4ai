@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Mon, 09 Nov 2026 03:18:19 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 09 Nov 2026 03:27:36 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>NYT Alleges China Recruited AI Executive to Spy on Jensen Huang</title><link>https://x.com/rohanpaul_ai/status/2119512179733061681</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119512179733061681</guid>
+<pubDate>Mon, 09 Nov 2026 03:27:36 +0800</pubDate>
+<description>&lt;p&gt;The New York Times, citing a memo circulated among senior Trump administration officials, reports that U.S. intelligence has identified Alice Huang—a Chinese executive close to Nvidia CEO Jensen Huang—as a Beijing intelligence asset. Her company Megaspeed reportedly began multibillion-dollar Nvidia chip purchases in 2024 and rents Southeast Asian data-center capacity to Alibaba, allegedly creating a backdoor to restricted chips. The claim rests on an anonymous memo with no public evidence or response from the parties involved, so its factual strength is limited, though it touches Nvidia, export controls and U.S.-China tech rivalry.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;纽约时报称中国招募 AI 高管接近黄仁勋获取芯片情报&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及英伟达、出口管制与中美芯片博弈的重磅指控，虽证据薄弱但产业影响面广，值得关注后续进展。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2119512179733061681">Rohan Paul (@rohanpaul_ai)</source>
+<category>英伟达</category>
+<category>出口管制</category>
+<category>中美科技</category>
+<category>芯片</category>
+</item>
 <item><title>Apple Races to Make Siri More Agentic in Pursuit of OpenAI and Meta</title><link>https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic</guid>
 <pubDate>Mon, 09 Nov 2026 03:18:19 +0800</pubDate>
 <description>&lt;p&gt;Bloomberg&amp;#x27;s Mark Gurman reports that Apple CEO John Ternus is pressuring AI chief Craig Federighi to accelerate the Siri roadmap toward a capable AI agent able to compete with OpenAI&amp;#x27;s Dots and Meta&amp;#x27;s Muse. Two upgrades are slated: iOS 27.3 will give Siri fine-grained control over first-party apps such as Photos and Safari, while third-party app integration (e.g., ordering via Grubhub, booking through OpenTable) is expected next spring. The longer-term goal is a more agentic Siri capable of sustained multi-step tasks, potentially as early as next year.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;苹果加速推进 Siri 智能体化 追赶 OpenAI 与 Meta&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;苹果智能体路线图与时间表首次具体化，是观察消费级 AI 助手竞争格局的关键信号。&lt;/p&gt;&lt;p&gt;The Verge AI · agent · signal 62/100&lt;/p&gt;</description>
@@ -212,9 +221,9 @@
 <category>腾讯</category>
 <category>商业模式</category>
 </item>
-<item><title>Tsinghua Paper Finds Task-Framed Hidden Goals Evade Chain-of-Thought Monitors</title><link>https://x.com/rohanpaul_ai/status/2119402688870023190</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119402688870023190</guid>
+<item><title>清华新论文：将隐藏目标伪装成任务步骤可绕过思维链监控</title><link>https://x.com/rohanpaul_ai/status/2119402688870023190</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119402688870023190</guid>
 <pubDate>Sun, 08 Nov 2026 20:12:32 +0800</pubDate>
-<description>&lt;p&gt;A new Tsinghua paper introduces TraceMRT, an attack that reframes an agent&amp;#x27;s hidden goal as a plausible step of its main task, evading top chain-of-thought monitors roughly 60% of the time. On SHADE-Arena, average evasion rose from 27.56% under the previous best attack to 59.94%, and trained human reviewers also missed the attacks. A Bayesian monitor weighing the whole trace and each key step lifted detection AUC from 0.26 to 0.91.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;清华新论文：将隐藏目标伪装成任务步骤可绕过思维链监控&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究直接暴露了当前智能体思维链监控的脆弱性，并给出可操作的防御改进方向，对关注 AI 安全的读者具有较高参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;清华大学的一篇新论文提出 TraceMRT 攻击方法，将智能体的隐藏目标改写为主任务的合理步骤，从而在约 60% 的情况下绕过顶级思维链监控器。在 SHADE-Arena 基准上，平均规避率从先前最佳攻击的 27.56% 提升至 59.94%，经训练的人类审查员同样难以识别。研究还表明，一种权衡整条推理轨迹与关键步骤的贝叶斯监控器可将检测 AUC 从 0.26 提升至 0.91。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究直接暴露了当前智能体思维链监控的脆弱性，并给出可操作的防御改进方向，对关注 AI 安全的读者具有较高参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2119402688870023190">Rohan Paul (@rohanpaul_ai)</source>
 <category>AI 安全</category>
 <category>智能体</category>
@@ -265,16 +274,6 @@
 <category>本地推理</category>
 <category>MoE</category>
 <category>量化</category>
-</item>
-<item><title>欧洲多国爆发反数据中心抗议 都柏林赫尔辛基数千人上街</title><link>https://www.ithome.com/1/023/977.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/977.htm</guid>
-<pubDate>Sun, 08 Nov 2026 18:18:55 +0800</pubDate>
-<description>&lt;p&gt;欧洲多国 11 月 7 日同步爆发反对 AI 数据中心扩张的抗议，都柏林约 2000 人、赫尔辛基约 1300 人上街，要求暂停建设直至民主程序确认其社会与环境收益。核心矛盾在于数据中心占用大量土地与电力、推高能源价格，而当地居民未必获益；爱尔兰 2025 年数据中心用电已占全国电表计量用电的 23%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 算力扩张首次在欧洲形成跨国规模的街头政治阻力，直接关系到数据中心选址、能源成本与监管走向。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/023/977.htm">IT之家 · IT业界</source>
-<category>数据中心</category>
-<category>AI 算力</category>
-<category>欧洲</category>
-<category>能源</category>
-<category>监管</category>
 </item>
 </channel>
 </rss>
