@@ -59,10 +59,6 @@ Hy4 上线首日即因调用量激增导致推理集群紧急扩容十倍，反�
 
 行业影响上，若开放权重兑现，该模型将成为中国以外得分最高的开源权重模型，显著提升开源生态的竞争力。同时，Thinking Machines 正以 400 亿美元投前估值筹集 50 亿美元，低于此前 500 亿美元估值的尝试，显示资本市场的谨慎态度。此次发布与融资并行，凸显了…&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys), Hacker News AI, Artificial Analysis, IT之家 · 智能时代, Arena.ai (@arena), Marktechpost (@Marktechpost)&lt;/p&gt;</description>
 </item>
-<item><title>Anthropic 拆解智能体记忆：Claude 边干边记，靠“做梦”纠错整理</title><link>https://todayforai.com/en/story/story-9e0af652-d42</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9e0af652-d42</guid>
-<pubDate>Sun, 08 Nov 2026 11:21:33 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 工程团队公开 Claude 跨会话记忆的四层架构：原始会话记录、自写记忆笔记、结构化 wiki、自动注入上下文，并新增“做梦”后台步骤，在会话结束后回看原始记录、修正错误笔记并重组索引。宝可梦与数据库答题测试显示，记忆质量而非数量决定表现，Opus 5 是首个形成完整学习循环的模型。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey)&lt;/p&gt;</description>
-</item>
 <item><title>OpenAI 发布 GPT-6 Cyber 安全模型，越界行为降至 1% 以下</title><link>https://todayforai.com/en/story/story-32972b05-1f7</link><guid isPermaLink="true">https://todayforai.com/en/story/story-32972b05-1f7</guid>
 <pubDate>Fri, 06 Nov 2026 07:22:55 +0800</pubDate>
 <description>&lt;p&gt;OpenAI 正式推出网络安全专用模型 GPT-6 Cyber，在漏洞挖掘与利用基准 ExploitGym 上得分从上一代的 32.1% 提升至 48.5%，相对提升约 51%。更关键的是，该模型在模拟越界行为的 ExploitGym HoneyPot 评测中，将越界率从 GPT-5.6 Cyber 的约 5% 压低至 1% 以下，任务遵从率超过 99%，OpenAI 官方博客给出的越界服务规避率在无提示与含提示场景下分别达到 99.93% 和 100%。由于攻击能力过强，OpenAI 将其网络安全风险等级定为最高的 Critical，初期仅向获批的 Daybreak Red 客户开放 API 与 Codex 访问，数周内再扩展至全部客户。
@@ -70,6 +66,10 @@ Hy4 上线首日即因调用量激增导致推理集群紧急扩容十倍，反�
 在实战验证中，GPT-6 Cyber 于 Linux 内核代码库中确认了 1724 个漏洞，并为其中 948 个构建出可用的本地提权利用程序，数量超过前代 GPT-5.6 Sol 的 166 个五倍以上；同时它在 Firefox 中发现 81 个此前未知的高危漏洞，已向 Mozilla 提交证据与候选补丁，多数漏洞已获修复。该模型同时具备漏洞发现、利用构建与补丁建议三项能力，定位为攻防一体的安全专用智能体。
 
 这一发布标志着 AI 在自动化漏洞挖掘与验证领域迈出实质性一步，将显著改变安全研究的人力与成本结构。但需要指出，上述数据目前仍属 OpenAI 单方主张，技术细节与外部独立验证尚未公开，且模型能力越强带来的双用途风险也愈发突出，如何在开放与管控之间取得平衡，将成为后续行业关注的核心议题。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, Yuchen Jin (@Yuchenj_UW), OpenAI 官方博客, The Decoder, Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
+</item>
+<item><title>Anthropic 拆解智能体记忆：Claude 边干边记，靠“做梦”纠错整理</title><link>https://todayforai.com/en/story/story-9e0af652-d42</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9e0af652-d42</guid>
+<pubDate>Sun, 08 Nov 2026 11:21:33 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 工程团队公开 Claude 跨会话记忆的四层架构：原始会话记录、自写记忆笔记、结构化 wiki、自动注入上下文，并新增“做梦”后台步骤，在会话结束后回看原始记录、修正错误笔记并重组索引。宝可梦与数据库答题测试显示，记忆质量而非数量决定表现，Opus 5 是首个形成完整学习循环的模型。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
