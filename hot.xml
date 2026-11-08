@@ -19,14 +19,6 @@
 
 尽管估值回调，1.25 万亿美元的估值仍使 OpenAI 跻身全球市值最高公司之列。此次融资反映出市场对头部 AI 实验室的定价正趋于理性，但资本仍高度集中于领先者。对开发者而言，OpenAI 的资金优势意味着其模型研发和生态建设将持续投入；对产业格局而言，AI 资产定价的整体回调可能促使更多公司调整上市节奏和融资策略。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), TechCrunch AI, IT之家 · IT业界, The Verge AI, The Decoder, 量子位官网&lt;/p&gt;</description>
 </item>
-<item><title>Thinking Machines 发布 Inkling 2 Small，智能指数 31 分比肩 Gemini 3.8 Flash</title><link>https://todayforai.com/en/story/story-bbea1fd9-9f8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-bbea1fd9-9f8</guid>
-<pubDate>Sat, 07 Nov 2026 05:41:38 +0800</pubDate>
-<description>&lt;p&gt;Thinking Machines Lab 于同日发布第二代模型 Inkling 2 Small，并启动新一轮融资。该模型采用稀疏混合专家（MoE）架构，总参数 594B、激活参数仅 17B，支持图像输入与可变推理强度，在 Artificial Analysis 智能指数 v5.0.1 上得分 31，较前代 Inkling Small 大幅提升 18 分，与 Gemini 3.8 Flash (high) 持平，并超过小米 MiMo-V2.6-Pro。
-
-技术细节方面，模型经过四阶段预训练与 9 天联合强化训练，智能体任务表现显著跃升：AutomationBench-AA 从 5% 升至 46%，FrontierCode 2.0 从 5% 升至 25%，HLE-Diamond 从 12% 升至 29%。编码能力呈现分化：FrontierCode 2.0 得 25% 高于 Claude Sonnet 5.5 的 11%，但 Terminal-Bench 4.0 仅 13% 低于其 30%。定价为每百万输入/输出 token 0.30/1.00 美元，缓存输入 0.03 美元。模型初期以闭源权重通过 Tinker 平台提供，计划在完成外部安全测试与红队评估后，于下周以 Apache 2.0 协议开放完整权重。
-
-行业影响上，若开放权重兑现，该模型将成为中国以外得分最高的开源权重模型，显著提升开源生态的竞争力。同时，Thinking Machines 正以 400 亿美元投前估值筹集 50 亿美元，低于此前 500 亿美元估值的尝试，显示资本市场的谨慎态度。此次发布与融资并行，凸显了…&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys), Hacker News AI, Artificial Analysis, IT之家 · 智能时代, Arena.ai (@arena), Marktechpost (@Marktechpost)&lt;/p&gt;</description>
-</item>
 <item><title>腾讯混元 Hy4 发布 770B 参数并首次解锁视觉与电脑操作</title><link>https://todayforai.com/en/story/story-f4fb29ac-16b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f4fb29ac-16b</guid>
 <pubDate>Fri, 06 Nov 2026 10:00:11 +0800</pubDate>
 <description>&lt;p&gt;腾讯正式发布新一代大语言模型混元 Hy4，参数规模从上一代 Hy3 的不足 300B 跃升至 770B，并首次引入视觉理解与电脑操作能力，标志着腾讯在大模型多模态与智能体赛道迈出关键一步。官方称其首次跻身最强开源模型之列，计划近期开放模型权重并联合 vLLM/SGLang 生态提供支持。
@@ -34,6 +26,14 @@
 综合多方信源，Hy4 相比预览版大幅扩展了预训练与后训练规模，在指令遵循、长上下文理解、长程任务与深度研究等维度显著提升。视觉能力可完成细粒度图像处理、复杂图表分析与数学视觉推理；电脑操作则结合命令行与图形界面，并针对 Blender、CAD 等专业软件进行专项训练。在第三方评测中，Hy4 在 Artificial Analysis 智能指数上得分 35，位列中国模型第二，Agent Arena 榜单居开源模型第一，单任务成本约 0.55 美元，性价比突出。但官方坦承，在数学、长程开发等高难度测试集上仍与顶尖闭源模型存在较大差距，且幻觉率高达 89%，远逊于部分竞品。
 
 Hy4 上线首日即因调用量激增导致推理集群紧急扩容十倍，反映出真实需求与供给压力。其定价维持输入每百万 Token 6 元、输出 18 元，并计划推出更低成本的 Hy4 Flash。权重开放后，Hy4 有望与 Kimi K3.1 Pro 并列开源模型第一，进一步加剧开源大模型市场的竞争格局。&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · 智能时代, 腾讯技术工程 (微信公众号), InfoQ 中文, Artificial Analysis (@ArtificialAnlys), Arena.ai (@arena)&lt;/p&gt;</description>
+</item>
+<item><title>Thinking Machines 发布 Inkling 2 Small，智能指数 31 分比肩 Gemini 3.8 Flash</title><link>https://todayforai.com/en/story/story-bbea1fd9-9f8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-bbea1fd9-9f8</guid>
+<pubDate>Sat, 07 Nov 2026 05:41:38 +0800</pubDate>
+<description>&lt;p&gt;Thinking Machines Lab 于同日发布第二代模型 Inkling 2 Small，并启动新一轮融资。该模型采用稀疏混合专家（MoE）架构，总参数 594B、激活参数仅 17B，支持图像输入与可变推理强度，在 Artificial Analysis 智能指数 v5.0.1 上得分 31，较前代 Inkling Small 大幅提升 18 分，与 Gemini 3.8 Flash (high) 持平，并超过小米 MiMo-V2.6-Pro。
+
+技术细节方面，模型经过四阶段预训练与 9 天联合强化训练，智能体任务表现显著跃升：AutomationBench-AA 从 5% 升至 46%，FrontierCode 2.0 从 5% 升至 25%，HLE-Diamond 从 12% 升至 29%。编码能力呈现分化：FrontierCode 2.0 得 25% 高于 Claude Sonnet 5.5 的 11%，但 Terminal-Bench 4.0 仅 13% 低于其 30%。定价为每百万输入/输出 token 0.30/1.00 美元，缓存输入 0.03 美元。模型初期以闭源权重通过 Tinker 平台提供，计划在完成外部安全测试与红队评估后，于下周以 Apache 2.0 协议开放完整权重。
+
+行业影响上，若开放权重兑现，该模型将成为中国以外得分最高的开源权重模型，显著提升开源生态的竞争力。同时，Thinking Machines 正以 400 亿美元投前估值筹集 50 亿美元，低于此前 500 亿美元估值的尝试，显示资本市场的谨慎态度。此次发布与融资并行，凸显了…&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys), Hacker News AI, Artificial Analysis, IT之家 · 智能时代, Arena.ai (@arena), Marktechpost (@Marktechpost)&lt;/p&gt;</description>
 </item>
 <item><title>美国中期选举后多地公投否决数据中心，AI 算力扩张遭遇政策与市场双重逆风</title><link>https://todayforai.com/en/story/story-2f8ef443-ba4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2f8ef443-ba4</guid>
 <pubDate>Sat, 07 Nov 2026 04:02:22 +0800</pubDate>
