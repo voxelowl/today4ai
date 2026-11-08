@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 08 Nov 2026 18:18:55 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 08 Nov 2026 18:22:04 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>llama-modchip Runs 284B DeepSeek on 64GB RAM With No GPU</title><link>https://github.com/synchopate/llama-modchip</link><guid isPermaLink="true">https://github.com/synchopate/llama-modchip</guid>
+<pubDate>Sun, 08 Nov 2026 18:22:04 +0800</pubDate>
+<description>&lt;p&gt;The open-source llama-modchip v2.4.0 claims it can run a 284B-parameter DeepSeek-V4-Flash MoE model entirely in RAM on a 64GB CPU-only workstation, peaking at 57.61 GiB with roughly 9-15 tok/s decode at 256K context. It relies on quantization and memory optimizations such as SwiGLU-H2, plus Fractal-64/MXFP4 transcoding and status tooling.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;llama-modchip 让 284B DeepSeek 在 64GB 内存纯 CPU 运行&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;若属实，这将显著降低超大 MoE 模型的本地部署门槛，对无 GPU 的开发者极具吸引力。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 74/100&lt;/p&gt;</description>
+<source url="https://github.com/synchopate/llama-modchip">Hacker News AI</source>
+<category>开源</category>
+<category>本地推理</category>
+<category>MoE</category>
+<category>量化</category>
+</item>
 <item><title>Protests Against Data Centers Spread Across Europe as Thousands March in Dublin and Helsinki</title><link>https://www.ithome.com/1/023/977.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/977.htm</guid>
 <pubDate>Sun, 08 Nov 2026 18:18:55 +0800</pubDate>
 <description>&lt;p&gt;Protests against AI data center expansion erupted across multiple European countries on November 7, with roughly 2,000 marching in Dublin and 1,300 in Helsinki demanding a pause on construction until democratic processes confirm social and environmental benefits. The core tension: data centers consume large amounts of land and power and push up energy prices, while local residents may not share the economic gains; data centers already accounted for 23% of Ireland&amp;#x27;s metered electricity consumption in 2025.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;欧洲多国爆发反数据中心抗议 都柏林赫尔辛基数千人上街&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 算力扩张首次在欧洲形成跨国规模的街头政治阻力，直接关系到数据中心选址、能源成本与监管走向。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 62/100&lt;/p&gt;</description>
@@ -191,9 +200,9 @@
 <category>账号封禁</category>
 <category>订阅服务</category>
 </item>
-<item><title>MAPLE Pruning Runs Gemma 4 26B at 45 TPS on a 6GB GPU</title><link>https://github.com/AmSach/maple</link><guid isPermaLink="true">https://github.com/AmSach/maple</guid>
+<item><title>MAPLE 剪枝让 Gemma 4 26B 在 6GB 显卡跑出 45 TPS</title><link>https://github.com/AmSach/maple</link><guid isPermaLink="true">https://github.com/AmSach/maple</guid>
 <pubDate>Sun, 08 Nov 2026 11:48:04 +0800</pubDate>
-<description>&lt;p&gt;An independent researcher released MAPLE, a structural pruning method for mixture-of-experts LLMs that removes dormant experts, shrinking Gemma 4 26B-A4B from 9.92 GB to 4.75 GB (about 1.48 bits per parameter) so it runs entirely in 6 GB of laptop VRAM at 45.4 tokens per second. The checkpoint is specialized for Python coding and STEM reasoning, and the pipeline is claimed to be domain-agnostic.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;MAPLE 剪枝让 Gemma 4 26B 在 6GB 显卡跑出 45 TPS&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;在消费级 6 GB 显存上跑通 26B 级 MoE 模型，对本地部署与端侧推理读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;独立研究者发布 MAPLE，一种面向混合专家大模型的结构化剪枝方法，通过剔除休眠专家把 Gemma 4 26B-A4B 从 9.92 GB 压到 4.75 GB（约 1.48 比特/参数），使模型可完全驻留 6 GB 笔记本显存并以 45.4 tokens/s 推理。该方案针对 Python 编程与 STEM 推理做领域特化，作者称流程可迁移到其他垂直领域。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;在消费级 6 GB 显存上跑通 26B 级 MoE 模型，对本地部署与端侧推理读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 62/100&lt;/p&gt;</description>
 <source url="https://github.com/AmSach/maple">Hacker News AI</source>
 <category>开源模型</category>
 <category>MoE 剪枝</category>
@@ -259,14 +268,6 @@
 <category>融资估值</category>
 <category>AI 基建</category>
 <category>美股</category>
-</item>
-<item><title>芝加哥大学教授称 AI 时代数学招聘更看重研究愿景与表达</title><link>https://www.ithome.com/1/023/859.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/859.htm</guid>
-<pubDate>Sun, 08 Nov 2026 09:10:20 +0800</pubDate>
-<description>&lt;p&gt;芝加哥大学数学家 Frank Calegari 认为，AI 生成证明降低了论文产出的门槛，仅凭书面成果已难以判断候选人真实水平，招聘应更多依赖面对面交流，考察研究愿景与表达能力。他还呼吁院系认真培养研究生的数学表达能力，以应对初级岗位可能被滥用 AI 者占据的风险。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是一线数学家的观点性讨论，折射 AI 对学术评价与人才选拔机制的冲击，但缺乏具体数据与可验证方法。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 38/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/023/859.htm">IT之家 · 智能时代</source>
-<category>AI 与学术</category>
-<category>数学研究</category>
-<category>人才招聘</category>
 </item>
 </channel>
 </rss>
