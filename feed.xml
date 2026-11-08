@@ -57,6 +57,15 @@
 <category>智能体</category>
 <category>工程文化</category>
 </item>
+<item><title>Nous Research Open-Sources Arete-27B Fine-Tune to Strip Chinese State Framing</title><link>https://x.com/Marktechpost/status/2119292127448576418</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2119292127448576418</guid>
+<pubDate>Sun, 08 Nov 2026 12:53:12 +0800</pubDate>
+<description>&lt;p&gt;Nous Research has open-sourced Arete-27B, a Qwen3.8-27B fine-tune trained with plain supervised fine-tuning on 52.8M tokens using Inkling as teacher, with no RL or architecture changes. On its self-built 803-prompt eval, propaganda-style answers dropped from 22% to 0.9%, while factuality mean rose only from 2.32 to 2.98 out of 5 and still trails Muse Glimmer 30B; 216 of 803 answers still score 0, and both eval and training data are self-constructed and self-judged.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Nous Research 开源 Arete-27B 微调模型 去除中文官方叙事倾向&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以极低成本验证“对齐层较浅”的假设，并完整公开权重、数据与评测，对关注开源微调与模型行为干预的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · opensource · signal 72/100&lt;/p&gt;</description>
+<source url="https://x.com/Marktechpost/status/2119292127448576418">Marktechpost (@Marktechpost)</source>
+<category>开源模型</category>
+<category>监督微调</category>
+<category>模型对齐</category>
+<category>Nous Research</category>
+</item>
 <item><title>Anthropic Study of 200K Research Sessions Finds Data Analysis Dominates AI Use</title><link>https://x.com/dotey/status/2119283516143776186</link><guid isPermaLink="true">https://x.com/dotey/status/2119283516143776186</guid>
 <pubDate>Sun, 08 Nov 2026 12:18:59 +0800</pubDate>
 <description>&lt;p&gt;Anthropic analyzed roughly 207,000 research-related Claude sessions and found data analysis accounts for about a third of usage and writing another 30%, while hypothesis generation—ranked most important by scientists—makes up only 4.2%. The report pairs an AI capability score with a usage-multiplier metric, estimating that full automation of non-manual work could speed computer science and statistics research by about 15x, versus 3-4x in chemistry and biology where lab work remains a bottleneck.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 分析 20 万次科研会话：数据分析用得最多，提想法反而最少&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是少见的基于大规模真实会话的 AI 科研使用画像，量化了“AI 擅长什么、科学家看重什么”之间的错位。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · industry · signal 72/100&lt;/p&gt;</description>
@@ -188,9 +197,9 @@
 <category>咨询行业</category>
 <category>信息污染</category>
 </item>
-<item><title>David Sacks Warns Regulatory Uncertainty Could Stall Data-Center Pipeline by 2028</title><link>https://x.com/rohanpaul_ai/status/2119210718428057754</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119210718428057754</guid>
+<item><title>David Sacks 警告：数据中心监管不确定或致 2028 年算力供给断档</title><link>https://x.com/rohanpaul_ai/status/2119210718428057754</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119210718428057754</guid>
 <pubDate>Sun, 08 Nov 2026 07:29:42 +0800</pubDate>
-<description>&lt;p&gt;David Sacks argues that fully permitted gigawatt-scale data-center projects will still complete in 2027, but new builds will stall because no one will commit roughly $50B under unclear permitting rules. He expects the pipeline to be closed or sharply cut by 2028, with a significant economic hit. Chamath adds that a post-midterm data-center freeze would favor hyperscalers with existing capacity while cutting off new compute supply that OpenAI, Anthropic and neoclouds depend on.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;David Sacks 警告：数据中心监管不确定或致 2028 年算力供给断档&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是来自政策与投资视角的算力供给预警，直接关系未来两年 AI 训练与推理算力的可得性与成本。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;David Sacks 认为，已获全部许可的吉瓦级数据中心项目仍会在 2027 年完工，但新项目将因监管规则不明而停滞——单座约 500 亿美元的投资无法在不确定环境下启动。他预计到 2028 年新增供给管道将关闭或大幅收缩，对经济造成明显冲击。Chamath 补充称，中期选举后的数据中心冻结利好已自建算力的超大规模厂商，却会切断 OpenAI、Anthropic 及 Neocloud 依赖的新增算力供给。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是来自政策与投资视角的算力供给预警，直接关系未来两年 AI 训练与推理算力的可得性与成本。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 58/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2119210718428057754">Rohan Paul (@rohanpaul_ai)</source>
 <category>算力基础设施</category>
 <category>数据中心</category>
@@ -260,15 +269,6 @@
 <category>多智能体系统</category>
 <category>斯坦福</category>
 <category>机制设计</category>
-</item>
-<item><title>Google 研究：会反驳的 AI 队友让学生商业计划写得更好</title><link>https://x.com/rohanpaul_ai/status/2119173230871359977</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119173230871359977</guid>
-<pubDate>Sun, 08 Nov 2026 05:00:45 +0800</pubDate>
-<description>&lt;p&gt;Google 研究团队扩展 Vantage 平台，让 Gemini 3.1 Pro 驱动的 AI 队友在商业任务中主动提出有缺陷的想法、表达分歧并陈述错误主张，但不替学生完成任务。52 人试验中，实验组商业计划平均得分 67.6%，高于使用普通 AI 工具的对照组 60.5%；完成 5 至 6 次练习的学生平均达 79.7%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究提供了“AI 作为挑战型队友而非代劳助手”的实证数据，对教育类智能体设计有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 62/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2119173230871359977">Rohan Paul (@rohanpaul_ai)</source>
-<category>AI 教育</category>
-<category>智能体</category>
-<category>Google Research</category>
-<category>人机协作</category>
 </item>
 </channel>
 </rss>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Sun, 08 Nov 2026 12:18:59 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 08 Nov 2026 12:53:12 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic IPO 估值预期下调至 1.2 万亿美元，市场质疑 AI 龙头高估值</title><link>https://todayforai.com/en/story/story-1049bdee-c36</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1049bdee-c36</guid>
 <pubDate>Sun, 08 Nov 2026 10:10:56 +0800</pubDate>
@@ -35,6 +35,14 @@ Hy4 上线首日即因调用量激增导致推理集群紧急扩容十倍，反�
 
 行业影响上，若开放权重兑现，该模型将成为中国以外得分最高的开源权重模型，显著提升开源生态的竞争力。同时，Thinking Machines 正以 400 亿美元投前估值筹集 50 亿美元，低于此前 500 亿美元估值的尝试，显示资本市场的谨慎态度。此次发布与融资并行，凸显了…&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys), Hacker News AI, Artificial Analysis, IT之家 · 智能时代, Arena.ai (@arena), Marktechpost (@Marktechpost)&lt;/p&gt;</description>
 </item>
+<item><title>Nous Research 微调 Qwen 模型，将政治宣传率从 22% 降至 1% 以下</title><link>https://todayforai.com/en/story/story-2077c0d0-a5a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2077c0d0-a5a</guid>
+<pubDate>Sun, 08 Nov 2026 12:53:12 +0800</pubDate>
+<description>&lt;p&gt;Nous Research 基于阿里 Qwen3.8-27B 开源模型，通过监督微调推出 Arete-27B，将其自建评测中的宣传式回答占比从 22% 降至 0.9%，降幅显著。团队称仅用 5280 万 token 训练数据、以 Inkling 为教师模型，未做强化学习或架构改动，且通用能力（Hermes Bench）基本持平。
+
+技术细节上，微调数据与评测集均为自建，803 条评测中仍有 216 条得分为 0，事实性均分仅从 2.32 升至 2.98（满分 5），仍落后于 Muse Glimmer 30B。团队已以 Apache 2.0 协议公开模型权重、测试集与训练数据，便于第三方复现验证。
+
+该实验表明，中国开源权重模型中的政治倾向可能只是可被剥离的“薄层”对齐，而非深度嵌入模型能力。若结论经外部复现，将影响开发者对开源模型选型的评估，并引发对模型对齐层可编辑性的更广泛讨论。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Decoder, Marktechpost (@Marktechpost)&lt;/p&gt;</description>
+</item>
 <item><title>美国中期选举后多地公投否决数据中心，AI 算力扩张遭遇政策与市场双重逆风</title><link>https://todayforai.com/en/story/story-2f8ef443-ba4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2f8ef443-ba4</guid>
 <pubDate>Sat, 07 Nov 2026 04:02:22 +0800</pubDate>
 <description>&lt;p&gt;美国 2026 年中期选举后，AI 基础设施扩张遭遇重大政治阻力。全美 10 个州 44 项数据中心限制提案中 38 项获选民通过，约半数拟建 AI 数据中心项目面临更严格地方审查。得克萨斯、俄亥俄等传统友好州可能因水资源与电价问题暂停施工，民调显示 76% 受访者反对在社区内建设数据中心。
@@ -66,14 +74,6 @@ Rubicon 的推出意味着 GitHub 正从面向人类开发者的代码托管平�
 在实战验证中，GPT-6 Cyber 于 Linux 内核代码库中确认了 1724 个漏洞，并为其中 948 个构建出可用的本地提权利用程序，数量超过前代 GPT-5.6 Sol 的 166 个五倍以上；同时它在 Firefox 中发现 81 个此前未知的高危漏洞，已向 Mozilla 提交证据与候选补丁，多数漏洞已获修复。该模型同时具备漏洞发现、利用构建与补丁建议三项能力，定位为攻防一体的安全专用智能体。
 
 这一发布标志着 AI 在自动化漏洞挖掘与验证领域迈出实质性一步，将显著改变安全研究的人力与成本结构。但需要指出，上述数据目前仍属 OpenAI 单方主张，技术细节与外部独立验证尚未公开，且模型能力越强带来的双用途风险也愈发突出，如何在开放与管控之间取得平衡，将成为后续行业关注的核心议题。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, Yuchen Jin (@Yuchenj_UW), OpenAI 官方博客, The Decoder, Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
-<item><title>Google 用智能手表传感器被动检测高血压，成果登上 Nature</title><link>https://todayforai.com/en/story/story-c73f2230-c64</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c73f2230-c64</guid>
-<pubDate>Sat, 07 Nov 2026 18:26:47 +0800</pubDate>
-<description>&lt;p&gt;Google Research 在 Nature 发表研究，提出一种无需血压袖带校准的 AI 系统，仅凭消费级智能手表内置的脉搏（PPG）与运动（加速度计）传感器即可被动识别高血压迹象。该研究针对全球超十亿高血压患者中过半不知情的筛查缺口，把可穿戴设备的日常信号转化为血压风险提示。
-
-技术方案上，模型通过近 50 万小时传感器数据自监督学习脉搏与心跳模式，无需诊断标签。在 196 人、五个美国研究点的试验中，检测效果接近传统袖带。该系统已并入 Google Health 应用的血压趋势功能，但仍属研究项目，不替代医学诊断。
-
-行业影响方面，该成果将可穿戴设备从日常健康监测推向疾病筛查与早期预警，为高血压的早期发现提供了低成本、无感化的新路径，有望提升年轻群体等知晓率较低人群的筛查覆盖率。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Google Research, The Decoder, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
