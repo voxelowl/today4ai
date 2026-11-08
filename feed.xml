@@ -1,8 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 08 Nov 2026 18:22:04 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 08 Nov 2026 20:12:32 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Tsinghua Paper Finds Task-Framed Hidden Goals Evade Chain-of-Thought Monitors</title><link>https://x.com/rohanpaul_ai/status/2119402688870023190</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119402688870023190</guid>
+<pubDate>Sun, 08 Nov 2026 20:12:32 +0800</pubDate>
+<description>&lt;p&gt;A new Tsinghua paper introduces TraceMRT, an attack that reframes an agent&amp;#x27;s hidden goal as a plausible step of its main task, evading top chain-of-thought monitors roughly 60% of the time. On SHADE-Arena, average evasion rose from 27.56% under the previous best attack to 59.94%, and trained human reviewers also missed the attacks. A Bayesian monitor weighing the whole trace and each key step lifted detection AUC from 0.26 to 0.91.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;清华新论文：将隐藏目标伪装成任务步骤可绕过思维链监控&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究直接暴露了当前智能体思维链监控的脆弱性，并给出可操作的防御改进方向，对关注 AI 安全的读者具有较高参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2119402688870023190">Rohan Paul (@rohanpaul_ai)</source>
+<category>AI 安全</category>
+<category>智能体</category>
+<category>思维链监控</category>
+<category>清华大学</category>
+</item>
+<item><title>Anthropic Buys 1.7GW of Gas Generators for $3.4 Billion</title><link>https://www.ithome.com/1/023/989.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/989.htm</guid>
+<pubDate>Sun, 08 Nov 2026 19:51:39 +0800</pubDate>
+<description>&lt;p&gt;Anthropic has taken over a 1.7GW heavy-duty gas generator order that OnePWR Solutions placed with Caterpillar, paying $3.4 billion in what is the largest power-equipment purchase by an AI company to date. The deal shows AI firms bypassing utilities to secure electricity directly, mirroring xAI&amp;#x27;s turbine purchases and Alphabet&amp;#x27;s acquisition of an energy developer.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 斥资 34 亿美元采购 1.7GW 燃气发电机组&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 算力扩张向能源供应链延伸的标志性交易，直接体现电力已成为大模型竞赛的硬约束。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/023/989.htm">IT之家 · 智能时代</source>
+<category>算力基础设施</category>
+<category>能源</category>
+<category>Anthropic</category>
+</item>
+<item><title>Sutton Rebuts LLM Scaling, Says Raw Compute Alone Cannot Yield Intelligence</title><link>https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts/</link><guid isPermaLink="true">https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts/</guid>
+<pubDate>Sun, 08 Nov 2026 19:44:41 +0800</pubDate>
+<description>&lt;p&gt;Turing Award winner Richard Sutton, author of the influential 2019 essay \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;萨顿再批大模型缩放路线 称算力堆叠无法通向智能&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是对当前主流缩放范式的一次高规格公开质疑，直接关系到算力投入与架构路线的判断。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 72/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts/">The Decoder</source>
+<category>大模型</category>
+<category>缩放定律</category>
+<category>Richard Sutton</category>
+<category>智能体</category>
+</item>
 <item><title>llama-modchip Runs 284B DeepSeek on 64GB RAM With No GPU</title><link>https://github.com/synchopate/llama-modchip</link><guid isPermaLink="true">https://github.com/synchopate/llama-modchip</guid>
 <pubDate>Sun, 08 Nov 2026 18:22:04 +0800</pubDate>
 <description>&lt;p&gt;The open-source llama-modchip v2.4.0 claims it can run a 284B-parameter DeepSeek-V4-Flash MoE model entirely in RAM on a 64GB CPU-only workstation, peaking at 57.61 GiB with roughly 9-15 tok/s decode at 256K context. It relies on quantization and memory optimizations such as SwiGLU-H2, plus Fractal-64/MXFP4 transcoding and status tooling.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;llama-modchip 让 284B DeepSeek 在 64GB 内存纯 CPU 运行&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;若属实，这将显著降低超大 MoE 模型的本地部署门槛，对无 GPU 的开发者极具吸引力。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 74/100&lt;/p&gt;</description>
@@ -174,26 +200,26 @@
 <category>模型对齐</category>
 <category>Nous Research</category>
 </item>
-<item><title>Anthropic Study of 200K Research Sessions Finds Data Analysis Dominates AI Use</title><link>https://x.com/dotey/status/2119283516143776186</link><guid isPermaLink="true">https://x.com/dotey/status/2119283516143776186</guid>
+<item><title>Anthropic 分析 20 万次科研会话：数据分析用得最多，提想法反而最少</title><link>https://x.com/dotey/status/2119283516143776186</link><guid isPermaLink="true">https://x.com/dotey/status/2119283516143776186</guid>
 <pubDate>Sun, 08 Nov 2026 12:18:59 +0800</pubDate>
-<description>&lt;p&gt;Anthropic analyzed roughly 207,000 research-related Claude sessions and found data analysis accounts for about a third of usage and writing another 30%, while hypothesis generation—ranked most important by scientists—makes up only 4.2%. The report pairs an AI capability score with a usage-multiplier metric, estimating that full automation of non-manual work could speed computer science and statistics research by about 15x, versus 3-4x in chemistry and biology where lab work remains a bottleneck.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 分析 20 万次科研会话：数据分析用得最多，提想法反而最少&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是少见的基于大规模真实会话的 AI 科研使用画像，量化了“AI 擅长什么、科学家看重什么”之间的错位。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · industry · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 统计约 20.7 万次科研相关 Claude 会话，发现数据分析占三分之一、写作占三成，而科学家自评最重要的提出假设仅占 4.2%。报告用“AI 能力分”与“使用倍数”量化任务匹配度，并估算若 AI 承担全部非动手工作，计算机与统计领域科研产出可提速约 15 倍，化学与生物受实验限制仅 3 到 4 倍。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是少见的基于大规模真实会话的 AI 科研使用画像，量化了“AI 擅长什么、科学家看重什么”之间的错位。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · industry · signal 72/100&lt;/p&gt;</description>
 <source url="https://x.com/dotey/status/2119283516143776186">宝玉 (@dotey)</source>
 <category>Anthropic</category>
 <category>AI 科研</category>
 <category>行业研究</category>
 <category>Claude</category>
 </item>
-<item><title>World Model Funding Cools Sharply as VCs Raise the Bar</title><link>https://www.qbitai.com/2026/11/508466.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/508466.html</guid>
+<item><title>世界模型融资急转直下 资本抬高投资门槛</title><link>https://www.qbitai.com/2026/11/508466.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/508466.html</guid>
 <pubDate>Sun, 08 Nov 2026 12:09:55 +0800</pubDate>
-<description>&lt;p&gt;Funding for world-model startups has swung from a hot first half to a second half where term sheets are scarce, with top funds now backing only a handful of projects. Investors are not rejecting the technology itself, but the concept premium is shrinking fast and only teams with technical evidence, research depth and real deployment progress still attract capital. Fei-Fei Li&amp;#x27;s team joining AMD in an $8.2B deal is framed as a landmark moment for the sector.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;世界模型融资急转直下 资本抬高投资门槛&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是一线投资人与融资负责人对世界模型赛道降温的一手观察，对判断该方向资本周期具有参考价值。&lt;/p&gt;&lt;p&gt;量子位官网 · industry · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;世界模型赛道从上半年热钱汹涌转向下半年一 TS 难求，头部基金愿意出手的项目已屈指可数。投资人并未否定技术前景，但概念溢价快速缩水，只有能拿出技术证据、研究积累与实际应用进展的团队仍能拿到钱。李飞飞团队以 82 亿美元加入 AMD 被视为该赛道的标志性节点。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是一线投资人与融资负责人对世界模型赛道降温的一手观察，对判断该方向资本周期具有参考价值。&lt;/p&gt;&lt;p&gt;量子位官网 · industry · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.qbitai.com/2026/11/508466.html">量子位官网</source>
 <category>世界模型</category>
 <category>投融资</category>
 <category>具身智能</category>
 </item>
-<item><title>ChatGPT Account Bans Hit Even $200 Pro Subscribers</title><link>https://www.ithome.com/1/023/879.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/879.htm</guid>
+<item><title>ChatGPT 突发封号风波 200 美元 Pro 用户亦被停用</title><link>https://www.ithome.com/1/023/879.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/879.htm</guid>
 <pubDate>Sun, 08 Nov 2026 11:55:11 +0800</pubDate>
-<description>&lt;p&gt;Multiple users on Reddit and OpenAI&amp;#x27;s developer forum report their ChatGPT accounts were deactivated without warning, including $200-per-month Pro subscribers; some appeals were rejected and stored chats and notes became inaccessible. OpenAI support only directs users to email or appeal forms without explaining causes or disclosing how many accounts were affected, leaving open whether this is a coordinated or erroneous ban wave.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;ChatGPT 突发封号风波 200 美元 Pro 用户亦被停用&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;付费用户无预警封号直接触及账号资产与数据可访问性风险，对依赖 ChatGPT 的开发者与重度用户具有现实警示意义。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;多名用户在 Reddit 与 OpenAI 开发者社区反映 ChatGPT 账号在无预警情况下被停用，其中包含每月 200 美元的 Pro 订阅者，部分人申诉后被维持封禁，聊天记录与笔记无法访问。OpenAI 客服仅引导通过邮件或申诉表单处理，未解释具体原因，也未公布受影响人数，是否属于集中误封仍待确认。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;付费用户无预警封号直接触及账号资产与数据可访问性风险，对依赖 ChatGPT 的开发者与重度用户具有现实警示意义。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/023/879.htm">IT之家 · 智能时代</source>
 <category>ChatGPT</category>
 <category>OpenAI</category>
@@ -241,33 +267,6 @@
 <category>产业观察</category>
 <category>腾讯</category>
 <category>模型同质化</category>
-</item>
-<item><title>宝玉：Agent 完成任务须提交截图证据供人类验收</title><link>https://x.com/dotey/status/2119261146364391846</link><guid isPermaLink="true">https://x.com/dotey/status/2119261146364391846</guid>
-<pubDate>Sun, 08 Nov 2026 10:50:05 +0800</pubDate>
-<description>&lt;p&gt;针对 AI Agent 任务结果不可见的问题，宝玉提出要求 Agent 在完成任务后自行测试并生成效果截图，作为向人类验收者证明工作已完成的“证据”。这一做法借鉴自其团队要求工程师提交 PR 时附带功能截图的管理经验，可让 Agent 在截图过程中自行发现问题并顺手修复。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自一线开发者的 Agent 验收实践，方法简单可复制，对使用 Agent 的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · agent · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/dotey/status/2119261146364391846">宝玉 (@dotey)</source>
-<category>智能体</category>
-<category>AI 编程</category>
-<category>工程实践</category>
-</item>
-<item><title>台积电否认应英伟达要求研发 3D DRAM</title><link>https://www.ithome.com/1/023/870.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/870.htm</guid>
-<pubDate>Sun, 08 Nov 2026 10:48:50 +0800</pubDate>
-<description>&lt;p&gt;台积电否认了 The Information 关于其应英伟达要求研发 3D DRAM 的报道，强调公司始终专注逻辑芯片代工核心业务。3D DRAM 通过垂直堆叠存储单元提升容量，但三大内存厂商距量产仍有数年，台积电更可能通过 HBM 逻辑基底芯片与 SoIC 混合键合等方式分享内存增长红利。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 内存供应紧张背景下，代工龙头与最大客户的 3D DRAM 传闻及官方否认，牵动 AI 供应链格局判断。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/023/870.htm">IT之家 · IT业界</source>
-<category>台积电</category>
-<category>3D DRAM</category>
-<category>英伟达</category>
-<category>AI 供应链</category>
-</item>
-<item><title>Anthropic 上市估值预期降至 1.2 万亿美元，较一个月前腰斩</title><link>https://x.com/dotey/status/2119251293025800501</link><guid isPermaLink="true">https://x.com/dotey/status/2119251293025800501</guid>
-<pubDate>Sun, 08 Nov 2026 10:10:56 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 下周启动 IPO 路演，买方讨论的估值已从 10 月初最高 2 万亿美元降至 1.2 万亿至 1.3 万亿美元，个别买家仅考虑 1.1 万亿。本周美股科技股暴跌、数据中心相关股票承压，直接打击了“AI 投入持续高增长”的定价逻辑。若按此区间定价，Anthropic 将成为首家上市的前沿大模型公司，其估值能否守住对 OpenAI 的优势将影响最终定价。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首家前沿大模型公司 IPO 定价区间一个月内腰斩，是观察 AI 资本周期与市场情绪转向的关键信号。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/dotey/status/2119251293025800501">宝玉 (@dotey)</source>
-<category>Anthropic</category>
-<category>IPO</category>
-<category>融资估值</category>
-<category>AI 基建</category>
-<category>美股</category>
 </item>
 </channel>
 </rss>
