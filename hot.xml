@@ -59,14 +59,6 @@ Hy4 上线首日即因调用量激增导致推理集群紧急扩容十倍，反�
 <pubDate>Sun, 08 Nov 2026 11:21:33 +0800</pubDate>
 <description>&lt;p&gt;Anthropic 工程团队公开 Claude 跨会话记忆的四层架构：原始会话记录、自写记忆笔记、结构化 wiki、自动注入上下文，并新增“做梦”后台步骤，在会话结束后回看原始记录、修正错误笔记并重组索引。宝可梦与数据库答题测试显示，记忆质量而非数量决定表现，Opus 5 是首个形成完整学习循环的模型。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey)&lt;/p&gt;</description>
 </item>
-<item><title>GitHub 重构 Git 存储架构，单仓库可支撑每秒 7200 次推送</title><link>https://todayforai.com/en/story/story-fadcb366-2c1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-fadcb366-2c1</guid>
-<pubDate>Sat, 07 Nov 2026 22:57:23 +0800</pubDate>
-<description>&lt;p&gt;GitHub 正式公布代号 Rubicon 的全新 Git 存储架构，内部压测显示单仓库可支撑 5000 个智能体并发协作、每秒 7200 次推送，并支持读取按需水平扩展。这一架构旨在应对 AI 智能体全天候高并发写入带来的常态化负载，目前仅小范围定向内测，计划明年初逐步扩大开放。
-
-该架构遵循“最小化协调”与“存储计算解耦”两大原则，核心矛盾是写入级联触发的读操作扇出扩散，头部仓库流量两个月增长约 4 倍。改造在 GitHub 持续运行的同时于底层完成，读流量下保持稳定低延迟，为智能体规模化开发提供基础设施底座。
-
-Rubicon 的推出意味着 GitHub 正从面向人类开发者的代码托管平台，转向支撑 AI 智能体高并发协作的基础设施。若明年初逐步开放，将直接影响依赖 GitHub 的 AI 编程工具与自动化工作流，推动智能体生态的规模化落地。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · IT业界&lt;/p&gt;</description>
-</item>
 <item><title>OpenAI 发布 GPT-6 Cyber 安全模型，越界行为降至 1% 以下</title><link>https://todayforai.com/en/story/story-32972b05-1f7</link><guid isPermaLink="true">https://todayforai.com/en/story/story-32972b05-1f7</guid>
 <pubDate>Fri, 06 Nov 2026 07:22:55 +0800</pubDate>
 <description>&lt;p&gt;OpenAI 正式推出网络安全专用模型 GPT-6 Cyber，在漏洞挖掘与利用基准 ExploitGym 上得分从上一代的 32.1% 提升至 48.5%，相对提升约 51%。更关键的是，该模型在模拟越界行为的 ExploitGym HoneyPot 评测中，将越界率从 GPT-5.6 Cyber 的约 5% 压低至 1% 以下，任务遵从率超过 99%，OpenAI 官方博客给出的越界服务规避率在无提示与含提示场景下分别达到 99.93% 和 100%。由于攻击能力过强，OpenAI 将其网络安全风险等级定为最高的 Critical，初期仅向获批的 Daybreak Red 客户开放 API 与 Codex 访问，数周内再扩展至全部客户。
@@ -74,6 +66,14 @@ Rubicon 的推出意味着 GitHub 正从面向人类开发者的代码托管平�
 在实战验证中，GPT-6 Cyber 于 Linux 内核代码库中确认了 1724 个漏洞，并为其中 948 个构建出可用的本地提权利用程序，数量超过前代 GPT-5.6 Sol 的 166 个五倍以上；同时它在 Firefox 中发现 81 个此前未知的高危漏洞，已向 Mozilla 提交证据与候选补丁，多数漏洞已获修复。该模型同时具备漏洞发现、利用构建与补丁建议三项能力，定位为攻防一体的安全专用智能体。
 
 这一发布标志着 AI 在自动化漏洞挖掘与验证领域迈出实质性一步，将显著改变安全研究的人力与成本结构。但需要指出，上述数据目前仍属 OpenAI 单方主张，技术细节与外部独立验证尚未公开，且模型能力越强带来的双用途风险也愈发突出，如何在开放与管控之间取得平衡，将成为后续行业关注的核心议题。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, Yuchen Jin (@Yuchenj_UW), OpenAI 官方博客, The Decoder, Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
+</item>
+<item><title>GitHub 重构 Git 存储架构，单仓库可支撑每秒 7200 次推送</title><link>https://todayforai.com/en/story/story-fadcb366-2c1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-fadcb366-2c1</guid>
+<pubDate>Sat, 07 Nov 2026 22:57:23 +0800</pubDate>
+<description>&lt;p&gt;GitHub 正式公布代号 Rubicon 的全新 Git 存储架构，内部压测显示单仓库可支撑 5000 个智能体并发协作、每秒 7200 次推送，并支持读取按需水平扩展。这一架构旨在应对 AI 智能体全天候高并发写入带来的常态化负载，目前仅小范围定向内测，计划明年初逐步扩大开放。
+
+该架构遵循“最小化协调”与“存储计算解耦”两大原则，核心矛盾是写入级联触发的读操作扇出扩散，头部仓库流量两个月增长约 4 倍。改造在 GitHub 持续运行的同时于底层完成，读流量下保持稳定低延迟，为智能体规模化开发提供基础设施底座。
+
+Rubicon 的推出意味着 GitHub 正从面向人类开发者的代码托管平台，转向支撑 AI 智能体高并发协作的基础设施。若明年初逐步开放，将直接影响依赖 GitHub 的 AI 编程工具与自动化工作流，推动智能体生态的规模化落地。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · IT业界&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
