@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 08 Nov 2026 08:44:04 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 08 Nov 2026 09:10:20 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>UChicago Mathematician Says AI Era Hiring Will Prize Research Vision and Communication</title><link>https://www.ithome.com/1/023/859.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/859.htm</guid>
+<pubDate>Sun, 08 Nov 2026 09:10:20 +0800</pubDate>
+<description>&lt;p&gt;University of Chicago mathematician Frank Calegari argues that as AI makes it easier to mass-produce proofs, hiring committees can no longer rely on a single paper or result. He says recruitment should lean more on face-to-face conversation that probes a candidate&amp;#x27;s research vision and ability to explain it, and that departments must train graduate students in mathematical communication.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;芝加哥大学教授称 AI 时代数学招聘更看重研究愿景与表达&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是一线数学家的观点性讨论，折射 AI 对学术评价与人才选拔机制的冲击，但缺乏具体数据与可验证方法。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 38/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/023/859.htm">IT之家 · 智能时代</source>
+<category>AI 与学术</category>
+<category>数学研究</category>
+<category>人才招聘</category>
+</item>
 <item><title>Anthropic Pushes Thanksgiving-Eve IPO With Up to $100 Billion Raise</title><link>https://www.ithome.com/1/023/854.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/854.htm</guid>
 <pubDate>Sun, 08 Nov 2026 08:44:04 +0800</pubDate>
 <description>&lt;p&gt;Anthropic is still moving toward a pre-Thanksgiving IPO, targeting an $80-100 billion raise at a $1.25-1.75 trillion valuation, while bracing for pricing below earlier optimistic expectations. A tech selloff, rising borrowing costs and worries over AI capex have pulled valuation expectations well below the doubling investors anticipated a month ago, forcing CEO Dario Amodei to accept a haircut.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 推进感恩节前 IPO 拟募资至多 1000 亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司 IPO 定价与估值预期下调，是观察 AI 资本周期与市场情绪转向的关键信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 78/100&lt;/p&gt;</description>
@@ -208,9 +216,9 @@
 <category>思维链</category>
 <category>基准测试</category>
 </item>
-<item><title>Author Rebuilds Google&#x27;s Agent Sandbox on Firecracker and Benchmarks It</title><link>https://antonau.tech/posts/2026/11/agents-microvm-firecracker/</link><guid isPermaLink="true">https://antonau.tech/posts/2026/11/agents-microvm-firecracker/</guid>
+<item><title>作者用 Firecracker 复刻 Google 智能体沙箱并实测性能</title><link>https://antonau.tech/posts/2026/11/agents-microvm-firecracker/</link><guid isPermaLink="true">https://antonau.tech/posts/2026/11/agents-microvm-firecracker/</guid>
 <pubDate>Sun, 08 Nov 2026 00:01:40 +0800</pubDate>
-<description>&lt;p&gt;Google described its Agent Compute Engine on October 22 without latency or density figures, so the author rebuilt the same pattern on Firecracker in roughly 2,200 lines of Go: one microVM per agent session, checkpointed while the model thinks, cloned copy-on-write from warm snapshots, and no network card. Measurements show 64 idle forks of a 512 MiB VM cost about 3 MiB of host memory each; on bare metal a snapshot restore answers in 25 ms, 26x faster than a cold boot, and 64 concurrent forks are ready in about 150 ms, while twelve concurrent forks under nested virtualization on a Mac mini never became ready.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;作者用 Firecracker 复刻 Google 智能体沙箱并实测性能&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;用可复现的开源实现与实测数据补上了厂商文档缺失的延迟与密度指标，对构建智能体沙箱的工程师有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;针对 Google 10 月 22 日披露但未给出延迟与密度数据的 Agent Compute Engine，作者用约 2200 行 Go 在 Firecracker 上复刻了同一套模式：每个智能体会话独占 microVM、思考时做检查点、从热快照写时复制克隆、不配网卡。实测 512 MiB 虚拟机 64 个空闲 fork 每个约占 3 MiB 宿主内存，裸机上快照恢复 25 ms、比冷启动快 26 倍，64 个 fork 并发约 150 ms 全部就绪；而在 Mac mini 嵌套虚拟化下 12 个并发 fork 始终无法就绪。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;用可复现的开源实现与实测数据补上了厂商文档缺失的延迟与密度指标，对构建智能体沙箱的工程师有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 72/100&lt;/p&gt;</description>
 <source url="https://antonau.tech/posts/2026/11/agents-microvm-firecracker/">Hacker News AI</source>
 <category>智能体</category>
 <category>Firecracker</category>
@@ -218,9 +226,9 @@
 <category>沙箱隔离</category>
 <category>性能基准</category>
 </item>
-<item><title>US Clears Nvidia H200 Chip Buyers in China, Including an Empty-Shell Firm</title><link>https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government</guid>
+<item><title>美批准 Nvidia H200 对华出口 涉事中企办公室竟为空壳</title><link>https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government</guid>
 <pubDate>Sat, 07 Nov 2026 23:43:45 +0800</pubDate>
-<description>&lt;p&gt;A New York Times investigation found that New Matrix, one of the Chinese firms cleared by Washington to buy Nvidia&amp;#x27;s H200 AI chips, has an empty office at its listed address, with no record of the company at the building directory or the industrial park&amp;#x27;s property manager. Its owners are tied to a Chinese private equity firm blacklisted by the US since 2024, and the paper describes the case as part of a broader pattern of weak due diligence by the Commerce Department and Nvidia.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美批准 Nvidia H200 对华出口 涉事中企办公室竟为空壳&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;出口管制执行漏洞直接关系到高端 AI 芯片的全球流向，是算力地缘格局的重要变量。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;《纽约时报》调查发现，获美方批准采购 Nvidia H200 AI 芯片的中国企业中，New Matrix 的注册地址实为空置办公室，物业与楼宇名录均无该公司记录，其股东还与 2024 年起被美国列入黑名单的私募机构存在关联。报道称这并非孤例，而是出口管制审批环节存在系统性尽职调查缺位的迹象，美国商务部与 Nvidia 均被指审查不力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;出口管制执行漏洞直接关系到高端 AI 芯片的全球流向，是算力地缘格局的重要变量。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government">The Verge AI</source>
 <category>Nvidia</category>
 <category>出口管制</category>
@@ -261,15 +269,6 @@
 <category>网络安全</category>
 <category>AI 安全</category>
 <category>产业变革</category>
-</item>
-<item><title>Anthropic 因 Claude Max 额度宣传被起诉，法官驳回其抗辩</title><link>https://www.ithome.com/1/023/824.htm</link><guid isPermaLink="true">https://www.ithome.com/1/023/824.htm</guid>
-<pubDate>Sat, 07 Nov 2026 22:57:42 +0800</pubDate>
-<description>&lt;p&gt;美国联邦治安法官裁定，Anthropic 必须继续应对 Claude Max 套餐使用额度涉嫌误导消费者的主要指控。原告测算发现，Max 套餐按周计算的额度仅为 Pro 套餐的 3.5 倍和 6 倍，远低于宣传的 5 倍和 20 倍；法官认为，单次使用周期的说明藏在需点击两次才能看到的帮助页面中，不足以构成有效披露。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 订阅商业模式中“额度宣传”首次进入司法实质审查，对定价与营销合规有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/023/824.htm">IT之家 · 智能时代</source>
-<category>Anthropic</category>
-<category>订阅定价</category>
-<category>消费者诉讼</category>
-<category>AI 商业化</category>
 </item>
 </channel>
 </rss>
