@@ -17,7 +17,7 @@
 
 技术细节方面，模型经过四阶段预训练与 9 天联合强化训练，智能体任务表现显著跃升：AutomationBench-AA 从 5% 升至 46%，FrontierCode 2.0 从 5% 升至 25%，HLE-Diamond 从 12% 升至 29%。编码能力呈现分化：FrontierCode 2.0 得 25% 高于 Claude Sonnet 5.5 的 11%，但 Terminal-Bench 4.0 仅 13% 低于其 30%。定价为每百万输入/输出 token 0.30/1.00 美元，缓存输入 0.03 美元。模型初期以闭源权重通过 Tinker 平台提供，计划在完成外部安全测试与红队评估后，于下周以 Apache 2.0 协议开放完整权重。
 
-行业影响上，若开放权重兑现，该模型将成为中国以外得分最高的开源权重模型，显著提升开源生态的竞争力。同时，Thinking Machines 正以 400 亿美元投前估值筹集 50 亿美元，低于此前 500 亿美元估值的尝试，显示资本市场的谨慎态度。此次发布与融资并行，凸显了…&lt;/p&gt;&lt;p&gt;8 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys), Hacker News AI, Artificial Analysis, IT之家 · 智能时代, Arena.ai (@arena), Marktechpost (@Marktechpost)&lt;/p&gt;</description>
+行业影响上，若开放权重兑现，该模型将成为中国以外得分最高的开源权重模型，显著提升开源生态的竞争力。同时，Thinking Machines 正以 400 亿美元投前估值筹集 50 亿美元，低于此前 500 亿美元估值的尝试，显示资本市场的谨慎态度。此次发布与融资并行，凸显了…&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys), Hacker News AI, Artificial Analysis, IT之家 · 智能时代, Arena.ai (@arena), Marktechpost (@Marktechpost)&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 完成 110 亿美元首期融资，估值 1.25 万亿美元</title><link>https://todayforai.com/en/story/story-1aff8682-7c1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1aff8682-7c1</guid>
 <pubDate>Sat, 07 Nov 2026 17:45:23 +0800</pubDate>
@@ -42,14 +42,6 @@ Hy4 上线首日即因调用量激增导致推理集群紧急扩容十倍，反�
 市场反应剧烈：纳斯达克单日暴跌 5.52%，费城半导体指数重挫 12.3% 创历史第二大单日跌幅，英伟达跌 9.3%，AMD 跌 17.3%，AI 与数据中心相关股票市值合计蒸发数万亿美元。高盛估算约 45% 的美国规划数据中心容量可能受短期禁令影响。科技巨头试图将“数据中心”重命名为“计算园区”以缓解公众抵触，OpenAI 则承诺不再与公职人员签署保密协议并承担电力成本，亚马逊此前已作出类似表态。
 
 这一变局对 AI 算力扩张构成实质性阻力。超大规模厂商开始考虑将建设转向海外，债务融资型 GPU 租赁商与存储芯片厂商估值逻辑被政治风险重新定价。尽管已获批项目暂不受影响，但新当选官员承诺在关键州加强监管，主要影响 2028 年后的新建项目。AI 产业正面临从技术竞赛到社会许可的范式转变，行业需通过集体行动重塑公众形象并构建更具包容性的叙事。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), The Verge AI, MIT Technology Review, Hacker News AI, IT之家 · IT业界, Ars Technica AI&lt;/p&gt;</description>
-</item>
-<item><title>谷歌 Gemini Omni 1.2 Flash 发布：视频时长延至 15 秒，价格降 30%</title><link>https://todayforai.com/en/story/story-ba34df9f-609</link><guid isPermaLink="true">https://todayforai.com/en/story/story-ba34df9f-609</guid>
-<pubDate>Sat, 07 Nov 2026 05:38:56 +0800</pubDate>
-<description>&lt;p&gt;谷歌正式发布视频生成模型 Gemini Omni 1.2 Flash，将单段视频原生时长从 10 秒延长至最长 15 秒，同时价格下调 30%，720p 定价降至每秒 0.07 美元。该模型已在 Gemini API、AI Studio、Flow、Google Vids 及 Gemini for business 等渠道全面开放，所有生成视频均嵌入 SynthID 隐形水印。
-
-在技术细节上，新版本支持 3 到 15 秒按 1 秒粒度自定义时长，并引入多轮对话式编辑功能，用户可在不重新生成整段视频的前提下替换产品、背景、光照与画幅。模型还改善了多人对话口型同步与连续运镜稳定性，并增强了参考图与参考素材的一致性遵循。在 Arena 文生视频榜单中，Gemini Omni 1.2 Flash 以 1541 分登顶，较上代提升 27 分，图生视频同样排名第一，视频编辑位列第三。
-
-此次发布对视频生成赛道具有显著影响。15 秒时长与对话式编辑的结合，使 AI 视频从短片段演示迈向可用的规模化内容生产工具，而 30% 的降价进一步降低了开发者和企业的使用门槛。同时，多入口上线与 SynthID 水印的标配，也体现了谷歌在推动 AI 视频商业化与内容安全方面的平衡策略。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;The Decoder, Google DeepMind, Arena.ai (@arena), IT之家 · 智能时代, IT之家 · IT业界, Marktechpost (@Marktechpost)&lt;/p&gt;</description>
 </item>
 <item><title>METR 审计称 Anthropic 模型研发提速约 2 倍，AI 自我加速初现</title><link>https://todayforai.com/en/story/story-7a5330b9-58b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-7a5330b9-58b</guid>
 <pubDate>Sat, 07 Nov 2026 20:30:00 +0800</pubDate>
@@ -82,6 +74,14 @@ Rubicon 的推出意味着 GitHub 正从面向人类开发者的代码托管平�
 在技术细节上，Images 2.6 重点解决了早期模型在连续帧间角色一致性差、画面漂移严重的痛点，使得品牌角色动画和产品循环展示等简单动画具备实际可用性。用户可通过文本提示或上传图片直接生成 GIF，并在应用内自由调整播放速率及进行逐帧编辑。API 端同步上线了 GPT-Image-2.6 Flare（侧重速度与布局）和 Sunburst（侧重细节与一致性）两款模型，为开发者提供灵活选择。
 
 此次升级对内容创作生态产生深远影响。随着周均图像生成量突破 40 亿张，Images 2.6 进一步巩固了 OpenAI 在多模态领域的领先地位。对于营销人员和开发者而言，低成本、高效率的动态内容生成工具将极大简化工作流，推动短视频素材、UI 动效及社交媒体内容的自动化生产进程。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;The Verge AI, The Decoder, IT之家 · IT业界, Hacker News AI, OpenAI 官方博客, 宝玉 (@dotey)&lt;/p&gt;</description>
+</item>
+<item><title>谷歌 Gemini Omni 1.2 Flash 发布：视频时长延至 15 秒，价格降 30%</title><link>https://todayforai.com/en/story/story-ba34df9f-609</link><guid isPermaLink="true">https://todayforai.com/en/story/story-ba34df9f-609</guid>
+<pubDate>Sat, 07 Nov 2026 05:38:56 +0800</pubDate>
+<description>&lt;p&gt;谷歌正式发布视频生成模型 Gemini Omni 1.2 Flash，将单段视频原生时长从 10 秒延长至最长 15 秒，同时价格下调 30%，720p 定价降至每秒 0.07 美元。该模型已在 Gemini API、AI Studio、Flow、Google Vids 及 Gemini for business 等渠道全面开放，所有生成视频均嵌入 SynthID 隐形水印。
+
+在技术细节上，新版本支持 3 到 15 秒按 1 秒粒度自定义时长，并引入多轮对话式编辑功能，用户可在不重新生成整段视频的前提下替换产品、背景、光照与画幅。模型还改善了多人对话口型同步与连续运镜稳定性，并增强了参考图与参考素材的一致性遵循。在 Arena 文生视频榜单中，Gemini Omni 1.2 Flash 以 1541 分登顶，较上代提升 27 分，图生视频同样排名第一，视频编辑位列第三。
+
+此次发布对视频生成赛道具有显著影响。15 秒时长与对话式编辑的结合，使 AI 视频从短片段演示迈向可用的规模化内容生产工具，而 30% 的降价进一步降低了开发者和企业的使用门槛。同时，多入口上线与 SynthID 水印的标配，也体现了谷歌在推动 AI 视频商业化与内容安全方面的平衡策略。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Decoder, Google DeepMind, Arena.ai (@arena), IT之家 · 智能时代, IT之家 · IT业界, Marktechpost (@Marktechpost)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
