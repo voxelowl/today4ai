@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Mon, 09 Nov 2026 01:23:19 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 09 Nov 2026 01:24:59 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>DeepSeek Positions Harness as the Operating System for the Agent Era</title><link>https://x.com/dotey/status/2119481319935692908</link><guid isPermaLink="true">https://x.com/dotey/status/2119481319935692908</guid>
+<pubDate>Mon, 09 Nov 2026 01:24:59 +0800</pubDate>
+<description>&lt;p&gt;DeepSeek team member Tianyi Cui, responding to plugin developers&amp;#x27; questions, said DeepSeek Harness is intended to be \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;DeepSeek 称 Harness 要做 Agent 时代的操作系统&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 DeepSeek 官方首次系统阐述 Harness 的插件生态定位，对关注 Agent 平台与插件开发的读者有参考价值，但目前仅为理念表态，缺少可验证的技术细节。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · agent · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/dotey/status/2119481319935692908">宝玉 (@dotey)</source>
+<category>DeepSeek</category>
+<category>Agent</category>
+<category>插件生态</category>
+<category>操作系统</category>
+</item>
 <item><title>Elvis and Eminem Rights Holders Sue Suno Over Voice Cloning</title><link>https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit</guid>
 <pubDate>Mon, 09 Nov 2026 01:23:19 +0800</pubDate>
 <description>&lt;p&gt;Rights holders for Elvis Presley&amp;#x27;s catalog and the publisher of several Eminem records have filed new lawsuits against AI music company Suno, alleging it illegally generates music and lyrics mimicking the artists. The Presley suit invokes Tennessee&amp;#x27;s ELVIS Act, which bars AI cloning of a singer&amp;#x27;s voice, and closely mirrors a September suit by Jason Isbell and others that did not directly claim copyright infringement. Suno now faces litigation from Sony, UMG, Reservoir Media and more.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;猫王与 Eminem 版权方起诉 Suno 非法克隆声音&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 音乐生成与艺人声音权、版权边界的标志性诉讼，直接影响生成式音频产品的合规路径。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 58/100&lt;/p&gt;</description>
@@ -211,9 +220,9 @@
 <category>编码工具</category>
 <category>规格驱动开发</category>
 </item>
-<item><title>llama-modchip Runs 284B DeepSeek on 64GB RAM With No GPU</title><link>https://github.com/synchopate/llama-modchip</link><guid isPermaLink="true">https://github.com/synchopate/llama-modchip</guid>
+<item><title>llama-modchip 让 284B DeepSeek 在 64GB 内存纯 CPU 运行</title><link>https://github.com/synchopate/llama-modchip</link><guid isPermaLink="true">https://github.com/synchopate/llama-modchip</guid>
 <pubDate>Sun, 08 Nov 2026 18:22:04 +0800</pubDate>
-<description>&lt;p&gt;The open-source llama-modchip v2.4.0 claims it can run a 284B-parameter DeepSeek-V4-Flash MoE model entirely in RAM on a 64GB CPU-only workstation, peaking at 57.61 GiB with roughly 9-15 tok/s decode at 256K context. It relies on quantization and memory optimizations such as SwiGLU-H2, plus Fractal-64/MXFP4 transcoding and status tooling.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;llama-modchip 让 284B DeepSeek 在 64GB 内存纯 CPU 运行&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;若属实，这将显著降低超大 MoE 模型的本地部署门槛，对无 GPU 的开发者极具吸引力。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 74/100&lt;/p&gt;</description>
+<description>&lt;p&gt;开源项目 llama-modchip v2.4.0 宣称可在 64GB 内存的纯 CPU 工作站上运行 284B 参数的 DeepSeek-V4-Flash 混合专家模型，峰值内存占用 57.61 GiB，256K 上下文下解码约 9–15 tok/s。项目通过 SwiGLU-H2 等量化与内存优化压缩权重，并提供 Fractal-64/MXFP4 转码与状态检查工具链。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;若属实，这将显著降低超大 MoE 模型的本地部署门槛，对无 GPU 的开发者极具吸引力。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 74/100&lt;/p&gt;</description>
 <source url="https://github.com/synchopate/llama-modchip">Hacker News AI</source>
 <category>开源</category>
 <category>本地推理</category>
@@ -264,15 +273,6 @@
 <category>智能体</category>
 <category>AI 安全</category>
 <category>Claude</category>
-</item>
-<item><title>NeurIPS 2026 论文提出 Agent MechSuits 仅干预 10 个维度守护命令行智能体</title><link>https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652741306&amp;idx=3&amp;sn=125c32144759fd0df0a00000fe3d01d6</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652741306&amp;idx=3&amp;sn=125c32144759fd0df0a00000fe3d01d6</guid>
-<pubDate>Sun, 08 Nov 2026 17:47:00 +0800</pubDate>
-<description>&lt;p&gt;佐治亚大学、罗格斯大学、南加州大学等团队提出 Agent MechSuits，在命令行智能体每一步动作生成前读取模型内部安全信号，仅通过单层 10 个隐藏表征维度进行稀疏干预，主模型权重保持冻结。三种受测模型的当前步骤风险检测平均准确率达 97.32%，论文已被 NeurIPS 2026 接收。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向长程多轮命令行智能体的内部状态级安全干预，思路新颖且给出可验证的准确率数据，对智能体安全方向读者有参考价值。&lt;/p&gt;&lt;p&gt;新智元 (微信公众号) · agent · signal 72/100&lt;/p&gt;</description>
-<source url="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652741306&amp;idx=3&amp;sn=125c32144759fd0df0a00000fe3d01d6">新智元 (微信公众号)</source>
-<category>智能体安全</category>
-<category>NeurIPS</category>
-<category>命令行智能体</category>
-<category>表征干预</category>
 </item>
 </channel>
 </rss>
