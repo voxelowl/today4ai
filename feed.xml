@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Mon, 09 Nov 2026 11:57:35 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 09 Nov 2026 12:32:33 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Claude Opus 5.5 Ports Three.js 3D Scene to Vanilla WebGL</title><link>https://simonwillison.net/2026/Nov/9/hn-50421091/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/9/hn-50421091/</guid>
+<pubDate>Mon, 09 Nov 2026 12:32:33 +0800</pubDate>
+<description>&lt;p&gt;Developer Simon Willison used Claude Opus 5.5 in a standard chat session to port a Three.js 3D scene into dependency-free vanilla JavaScript and WebGL, with both versions rendering successfully. It is an anecdotal hands-on demo showing the model can rewrite 3D graphics code across libraries, but offers no quantitative benchmark or reproducible methodology.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Claude Opus 5.5 将 Three.js 3D 场景改写为原生 WebGL&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;一则直观的模型能力实测，展示 Claude 在 3D 图形代码改写上的实用性，适合关注 LLM 编码能力的读者快速参考。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · llm · signal 42/100&lt;/p&gt;</description>
+<source url="https://simonwillison.net/2026/Nov/9/hn-50421091/">Simon Willison 博客</source>
+<category>大模型</category>
+<category>Claude</category>
+<category>WebGL</category>
+<category>代码生成</category>
+</item>
+<item><title>Tuck Verbose AI-Written PR Descriptions Behind a details Tag</title><link>https://simonwillison.net/2026/Nov/9/details-summary/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/9/details-summary/</guid>
+<pubDate>Mon, 09 Nov 2026 12:25:05 +0800</pubDate>
+<description>&lt;p&gt;The author argues that PR descriptions written by Claude Code and Codex, while accurate and comprehensive, read like slop due to information overload and trigger an instinctive refusal to read. He advocates keeping human editorial judgment with a short human-approved intro, and hiding the verbose AI description behind a \u003cdetails\u003e tag to reduce reading burden.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;用 details 标签折叠 AI 生成的冗长 PR 描述&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是一条关于 AI 编码代理工作流中信息过载问题的实用经验，对日常使用 Claude Code 与 Codex 的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · tools · signal 42/100&lt;/p&gt;</description>
+<source url="https://simonwillison.net/2026/Nov/9/details-summary/">Simon Willison 博客</source>
+<category>AI 编程</category>
+<category>编码代理</category>
+<category>开发者工作流</category>
+</item>
 <item><title>Drought and Data Center Water Use Trigger Tap Water Crisis in Batam, Indonesia</title><link>https://www.ithome.com/1/024/121.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/121.htm</guid>
 <pubDate>Mon, 09 Nov 2026 11:57:35 +0800</pubDate>
 <description>&lt;p&gt;Batam, Indonesia, a key Southeast Asian hub for AI data centers, is facing a tap water crisis as prolonged drought and El Niño deplete reservoirs while water-intensive cooling systems at some facilities add pressure, sparking protests. Authorities have ordered operators to build their own desalination plants, and some firms have pledged closed-loop water cooling.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;干旱叠加数据中心耗水，印尼峇淡暴发自来水危机&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示 AI 算力扩张与地方水资源之间的现实冲突，是数据中心可持续性议题的典型案例。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
@@ -11,6 +28,16 @@
 <category>算力基础设施</category>
 <category>水资源</category>
 <category>东南亚</category>
+</item>
+<item><title>Critique Argues GPUI and egui State Models Won&#x27;t Scale to Complex Desktop Apps</title><link>https://blog.zortax.de/posts/a-critique-of-gpui</link><guid isPermaLink="true">https://blog.zortax.de/posts/a-critique-of-gpui</guid>
+<pubDate>Mon, 09 Nov 2026 11:51:10 +0800</pubDate>
+<description>&lt;p&gt;The author argues that the state models of GPUI and egui are dead ends for complex desktop applications: the frameworks cannot determine what changed and who depends on it, forcing the application layer to declare it by hand and sacrificing the API semantics that made them attractive. The post acknowledges both excel in contexts like Zed and bevy debug UIs, but opposes treating them as the default choice for native desktop apps.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;长文批评 GPUI 与 egui 状态模型难撑复杂桌面应用&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;对 Rust 原生 GUI 框架架构取舍的深度技术批评，涉及 Discord 重写等真实案例，对关注桌面端 AI 应用技术选型的开发者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://blog.zortax.de/posts/a-critique-of-gpui">Hacker News AI</source>
+<category>Rust</category>
+<category>GUI 框架</category>
+<category>GPUI</category>
+<category>egui</category>
+<category>架构设计</category>
 </item>
 <item><title>Anthropic Study Finds Scientists Mainly Use Claude for Data Analysis and Writing</title><link>https://www.ithome.com/1/024/111.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/111.htm</guid>
 <pubDate>Mon, 09 Nov 2026 11:41:26 +0800</pubDate>
@@ -158,27 +185,27 @@
 <category>腾讯</category>
 <category>平台停服</category>
 </item>
-<item><title>KetchUp Launches Open-Source SketchUp Alternative Built on Rust and WebGPU</title><link>https://ketchup3d.github.io/app/</link><guid isPermaLink="true">https://ketchup3d.github.io/app/</guid>
+<item><title>KetchUp 发布 Rust 与 WebGPU 打造的开源 SketchUp 替代品</title><link>https://ketchup3d.github.io/app/</link><guid isPermaLink="true">https://ketchup3d.github.io/app/</guid>
 <pubDate>Mon, 09 Nov 2026 06:35:35 +0800</pubDate>
-<description>&lt;p&gt;KetchUp is a free, open-source 3D modeling app for woodworking and furniture design, written in Rust and rendered with WebGPU, running on Windows, macOS, Linux and desktop browsers with no account required. It targets precise dimensioned planning of shelves, tables and cabinets as a lightweight SketchUp alternative, though textures, scenes and some model features are unsupported and OBJ export omits materials.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;KetchUp 发布 Rust 与 WebGPU 打造的开源 SketchUp 替代品&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 WebGPU 与 Rust 在桌面级 3D 建模工具中的一次实用落地，对关注开源图形工具链的开发者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;KetchUp 是一款面向木工与家具设计的免费开源 3D 建模应用，采用 Rust 编写并基于 WebGPU 渲染，支持 Windows、macOS、Linux 及桌面浏览器，无需账号即可使用。它主打精确尺寸的板材、桌柜与工作台规划，定位为 SketchUp 的轻量替代方案，但纹理、场景及部分模型功能尚不支持，OBJ 导出不含材质。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 WebGPU 与 Rust 在桌面级 3D 建模工具中的一次实用落地，对关注开源图形工具链的开发者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://ketchup3d.github.io/app/">Hacker News AI</source>
 <category>开源工具</category>
 <category>WebGPU</category>
 <category>Rust</category>
 <category>3D 建模</category>
 </item>
-<item><title>Building a SQLite parse_number Extension in C vs Rust</title><link>https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/</guid>
+<item><title>用 C 与 Rust 编写 SQLite parse_number 扩展对比</title><link>https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/</guid>
 <pubDate>Mon, 09 Nov 2026 06:26:00 +0800</pubDate>
-<description>&lt;p&gt;Simon Willison used Claude to compare implementing a SQLite parse_number() custom function in C versus Rust: the C extension was only 14 KB while the Rust builds were around 300 KB, yet Rust ran faster because its float parsing is roughly twice as fast as C&amp;#x27;s strtod. He then explored writing a faster hand-rolled C parser and packaged the investigation as a reproducible research report.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;用 C 与 Rust 编写 SQLite parse_number 扩展对比&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以具体体积与性能数据展示 C 与 Rust 编写 SQLite 扩展的取舍，对扩展开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · tools · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Simon Willison 借助 Claude 对比了用 C 与 Rust 实现 SQLite parse_number() 自定义函数的差异：C 版扩展仅 14 KB，Rust 版约 300 KB 但运行更快，原因是 Rust 的浮点解析实现比 C 的 strtod 快约一倍。作者随后尝试手写更快的 C 解析函数，并将整个过程整理为可复现的研究报告。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以具体体积与性能数据展示 C 与 Rust 编写 SQLite 扩展的取舍，对扩展开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · tools · signal 42/100&lt;/p&gt;</description>
 <source url="https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/">Simon Willison 博客</source>
 <category>SQLite</category>
 <category>Rust</category>
 <category>C</category>
 <category>开发者工具</category>
 </item>
-<item><title>Stanford&#x27;s AI-Native Engineering Course Teaches Agent-Driven Workflows</title><link>https://latent.space/p/cs146s/</link><guid isPermaLink="true">https://latent.space/p/cs146s/</guid>
+<item><title>斯坦福开设 AI 原生工程课 教开发者用智能体重构工作流</title><link>https://latent.space/p/cs146s/</link><guid isPermaLink="true">https://latent.space/p/cs146s/</guid>
 <pubDate>Mon, 09 Nov 2026 05:41:44 +0800</pubDate>
-<description>&lt;p&gt;Stanford lecturer Mihail Eric walks through his Modern Software Developer syllabus, which trains engineers to ship software and debug outages with coding agents rather than treat AI as autocomplete. He also shares which parts of the curriculum survived contact with his own AI team at Monaco.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;斯坦福开设 AI 原生工程课 教开发者用智能体重构工作流&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;对关心工程师技能转型与智能体落地实践的读者有参考价值，但属访谈观点而非可验证的新技术发布。&lt;/p&gt;&lt;p&gt;Latent Space · llm · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;斯坦福讲师 Mihail Eric 在访谈中介绍了其《现代软件开发者》课程的教学框架，核心是让软件工程师学会用编码智能体交付软件、排查线上故障，而非仅把 AI 当作补全工具。他还结合在 Monaco 带领 AI 团队的一线实践，说明了课程中哪些内容真正经受住了生产环境检验。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;对关心工程师技能转型与智能体落地实践的读者有参考价值，但属访谈观点而非可验证的新技术发布。&lt;/p&gt;&lt;p&gt;Latent Space · llm · signal 42/100&lt;/p&gt;</description>
 <source url="https://latent.space/p/cs146s/">Latent Space</source>
 <category>AI 编程</category>
 <category>智能体</category>
@@ -237,33 +264,6 @@
 <category>Claude Code</category>
 <category>Codex</category>
 <category>工作流</category>
-</item>
-<item><title>纽约时报称中国招募 AI 高管接近黄仁勋获取芯片情报</title><link>https://x.com/rohanpaul_ai/status/2119512179733061681</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119512179733061681</guid>
-<pubDate>Mon, 09 Nov 2026 03:27:36 +0800</pubDate>
-<description>&lt;p&gt;《纽约时报》援引一份在特朗普政府高级官员间传阅的备忘录称，美国情报部门认定与黄仁勋关系密切的华裔高管 Alice Huang 为北京情报资产，其公司 Megaspeed 自 2024 年起大举采购英伟达芯片，并通过向阿里巴巴出租东南亚数据中心算力形成受限芯片的迂回通道。该指控目前仅基于匿名备忘录，尚无公开证据或当事方回应，事实强度有限，但涉及英伟达、出口管制与中美科技博弈，产业关注度高。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及英伟达、出口管制与中美芯片博弈的重磅指控，虽证据薄弱但产业影响面广，值得关注后续进展。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2119512179733061681">Rohan Paul (@rohanpaul_ai)</source>
-<category>英伟达</category>
-<category>出口管制</category>
-<category>中美科技</category>
-<category>芯片</category>
-</item>
-<item><title>苹果加速推进 Siri 智能体化 追赶 OpenAI 与 Meta</title><link>https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic</guid>
-<pubDate>Mon, 09 Nov 2026 03:18:19 +0800</pubDate>
-<description>&lt;p&gt;彭博社 Mark Gurman 报道，苹果 CEO John Ternus 正施压 AI 负责人 Craig Federighi 加快 Siri 路线图，目标是打造能与 OpenAI Dots、Meta Muse 竞争的 AI 智能体。近期两项升级已明确：iOS 27.3 将赋予 Siri 对苹果第一方应用的细粒度控制（如裁剪旋转照片、整理 Safari 标签页），第三方应用集成预计明年春季落地，支持通过 Grubhub 下单、OpenTable 订餐。更长远的目标是让 Siri 具备持续执行多步任务的能力，最早明年实现。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;苹果智能体路线图与时间表首次具体化，是观察消费级 AI 助手竞争格局的关键信号。&lt;/p&gt;&lt;p&gt;The Verge AI · agent · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic">The Verge AI</source>
-<category>智能体</category>
-<category>苹果</category>
-<category>Siri</category>
-<category>AI 助手</category>
-</item>
-<item><title>DeepSeek 开源智能体 Harness 日活破 154 万</title><link>https://x.com/rohanpaul_ai/status/2119502039147565171</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119502039147565171</guid>
-<pubDate>Mon, 09 Nov 2026 02:47:19 +0800</pubDate>
-<description>&lt;p&gt;DeepSeek 开源智能体应用 Harness 上线不到三个月，官方 API 用户日活已达 154 万，较 9 月底的 7 日均值 27.1 万大幅增长。这些用户每天消耗约 92 万亿 token，人均约 6000 万，显示长时间运行的智能体任务算力消耗远超聊天机器人。Harness 采用全插件化架构，已积累约 3.5 万个用户插件，官方下一步将推出插件市场与创作者激励计划。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是智能体应用规模化与算力消耗模式的早期公开数据，对判断 Agent 生态竞争格局有参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2119502039147565171">Rohan Paul (@rohanpaul_ai)</source>
-<category>智能体</category>
-<category>DeepSeek</category>
-<category>开源</category>
-<category>算力消耗</category>
 </item>
 </channel>
 </rss>
