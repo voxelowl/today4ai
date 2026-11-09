@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Tue, 10 Nov 2026 00:56:54 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 10 Nov 2026 01:24:26 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Claude Code Settings Leak Thousands of Secrets to GitHub</title><link>https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/</link><guid isPermaLink="true">https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/</guid>
+<pubDate>Tue, 10 Nov 2026 01:24:26 +0800</pubDate>
+<description>&lt;p&gt;Security firm Apiiro found that Claude Code&amp;#x27;s local settings file .claude/settings.local.json writes full commands in plaintext when users approve them with &amp;#x27;don&amp;#x27;t ask again,&amp;#x27; exposing database passwords, API tokens, and root credentials in public repositories. Although Anthropic&amp;#x27;s docs say the file is added to the global .gitignore by default, the safeguard has gaps, and thousands of secrets have already leaked on GitHub.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Claude Code 配置泄露数千密钥至 GitHub&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示主流 AI 编程工具在密钥管理上的真实安全缺口，对使用 Claude Code 的开发者有直接风险提示价值。&lt;/p&gt;&lt;p&gt;Ars Technica AI · tools · signal 72/100&lt;/p&gt;</description>
+<source url="https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/">Ars Technica AI</source>
+<category>AI 编程工具</category>
+<category>安全漏洞</category>
+<category>Claude Code</category>
+<category>密钥泄露</category>
+</item>
 <item><title>Anthropic Buys $3.4B of Natural Gas Turbines to Secure Power</title><link>https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/</guid>
 <pubDate>Tue, 10 Nov 2026 00:56:54 +0800</pubDate>
 <description>&lt;p&gt;Anthropic is spending $3.4 billion on Caterpillar natural gas generators capable of producing up to 1.7 gigawatts, marking a major shift for a company that has historically rented compute rather than owning physical infrastructure. With turbine backlogs stretching into the early 2030s and grid interconnection queues long, the purchase secures power supply but exposes Anthropic to the risk of electricity prices tripling later this decade.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 斥资 34 亿美元购入天然气涡轮机组&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 实验室首次大规模自购发电设备，揭示算力扩张正撞上电力供给瓶颈。&lt;/p&gt;&lt;p&gt;TechCrunch AI · compute · signal 78/100&lt;/p&gt;</description>
@@ -20,6 +29,15 @@
 <category>迪士尼</category>
 <category>Adobe</category>
 <category>企业落地</category>
+</item>
+<item><title>DBDelve Launches Open-Source Rust Database Client Five Times Faster Than DBeaver</title><link>https://news.ycombinator.com/item?id=50427934</link><guid isPermaLink="true">https://news.ycombinator.com/item?id=50427934</guid>
+<pubDate>Tue, 10 Nov 2026 00:36:38 +0800</pubDate>
+<description>&lt;p&gt;Developer Shayan released DBDelve 0.3.6, an open-source database client built with Rust and GPUI that prioritizes performance and a lightweight feel. Benchmarks on the same Postgres table show 1.1s launch and 133 MB idle memory versus DBeaver&amp;#x27;s 5.2s and 606 MB, with a 1M-row query taking 56s versus 208s. It positions itself as a lightweight open-source alternative to heavy or closed-source tools like DBeaver and TablePlus.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;DBDelve 开源数据库客户端发布 启动速度比 DBeaver 快 5 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以具体基准数据展示 Rust 原生 GUI 在开发者工具上的性能优势，对数据库工具选型有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://news.ycombinator.com/item?id=50427934">Hacker News AI</source>
+<category>开源工具</category>
+<category>数据库客户端</category>
+<category>Rust</category>
+<category>GPUI</category>
 </item>
 <item><title>How Eval-Driven Development Improves AI Agent Reliability</title><link>https://www.langchain.com/blog/what-is-eval-driven-development</link><guid isPermaLink="true">https://www.langchain.com/blog/what-is-eval-driven-development</guid>
 <pubDate>Tue, 10 Nov 2026 00:23:28 +0800</pubDate>
@@ -208,18 +226,18 @@
 <category>Anthropic</category>
 <category>OpenAI</category>
 </item>
-<item><title>Law Professor Says Claude Deleted a Year of Class Notes Over Page-Number Edit</title><link>https://www.ithome.com/1/024/515.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/515.htm</guid>
+<item><title>法学教授让 Claude 改页码反被删全年课堂笔记</title><link>https://www.ithome.com/1/024/515.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/515.htm</guid>
 <pubDate>Mon, 09 Nov 2026 20:14:54 +0800</pubDate>
-<description>&lt;p&gt;University of Chicago law professor William Baude asked Claude to update page numbers in his lecture notes and returned from lunch to find a full year of class notes and the current syllabus deleted; all files were later restored via Dropbox. Claude acknowledged the mistake unprompted, highlighting the real-world risks of giving file-operating AI agents write access without backups.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;法学教授让 Claude 改页码反被删全年课堂笔记&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;真实案例揭示 AI 智能体直接操作本地文件时的误删风险，对权限设计与备份策略有直接警示价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;芝加哥大学法学院教授 William Baude 请 Claude 更新讲义页码，午餐后发现 Claude 误删了全年课堂笔记和本学期课程大纲，所幸通过 Dropbox 全部恢复。Claude 主动承认了错误，事件凸显具备文件操作权限的 AI 智能体在权限配置与备份上的现实风险。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;真实案例揭示 AI 智能体直接操作本地文件时的误删风险，对权限设计与备份策略有直接警示价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/515.htm">IT之家 · 智能时代</source>
 <category>AI 智能体</category>
 <category>Anthropic</category>
 <category>数据安全</category>
 <category>AI 风险</category>
 </item>
-<item><title>UCLA Study Finds 18% of AI Agent Output Tokens Are Wasted</title><link>https://x.com/rohanpaul_ai/status/2119765613560410240</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119765613560410240</guid>
+<item><title>UCLA 研究称 AI 智能体输出约 18% 的 token 属可删冗余</title><link>https://x.com/rohanpaul_ai/status/2119765613560410240</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119765613560410240</guid>
 <pubDate>Mon, 09 Nov 2026 20:14:40 +0800</pubDate>
-<description>&lt;p&gt;A UCLA and Northeastern University paper introduces a proxy-based audit that uses an LLM judge to mark removable spans in agent output, then reruns tasks to verify nothing breaks. Across six frontier models and four benchmarks, roughly 18% of output tokens were waste; pruning repetition and filler from Kimi-K3&amp;#x27;s reasoning on SWE-bench Verified cut 41% of tokens while success held at 89.5% versus 89.0%. The takeaway: cut agent costs by locating waste in your task and harness, not by capping tokens.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;UCLA 研究称 AI 智能体输出约 18% 的 token 属可删冗余&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;给出可复用的智能体成本审计方法与量化结论，对做 Agent 工程的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;UCLA 与东北大学联合论文提出一种代理式审计方法：让 LLM 裁判标记智能体输出中可安全删除的片段，再重跑任务验证。在 6 个前沿模型与 4 个基准上，约 18% 的输出 token 属冗余；对 Kimi-K3 在 SWE-bench Verified 上剪除重复与填充内容后，token 减少 41%，成功率仍保持 89.5%（原为 89.0%）。结论是降本应定位任务与执行框架中的浪费来源，而非简单限制 token 上限。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;给出可复用的智能体成本审计方法与量化结论，对做 Agent 工程的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 72/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2119765613560410240">Rohan Paul (@rohanpaul_ai)</source>
 <category>智能体</category>
 <category>Token 成本</category>
@@ -251,24 +269,6 @@
 <category>glibc</category>
 <category>系统调用</category>
 <category>性能优化</category>
-</item>
-<item><title>AI 智能体 11 天写出可启动 Linux 用户态的 Rust 内核</title><link>https://zenodo.org/records/23682548</link><guid isPermaLink="true">https://zenodo.org/records/23682548</guid>
-<pubDate>Mon, 09 Nov 2026 19:30:27 +0800</pubDate>
-<description>&lt;p&gt;CIQ 发布实验报告，提出“人类主导的智能体工程”（HDAE）方法：由人类定义架构、约束、里程碑与验收标准，智能体自主完成实现、执行、诊断与修订闭环。在 11 天内，一个持续运行的编码智能体任务产出了 Rust 优先的 x86-64 内核 Ginux，经 UEFI 启动，自研核心 OS 机制与 Linux 兼容层，可运行部分未修改的 Alpine Linux 程序，并借助 systemd 启动 Rocky Linux 10 用户态至 multi-user.target。作者明确其为研究原型，兼容性与硬件覆盖窄，未经独立安全审计，不宣称生产可用。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是智能体自主完成大型系统软件工程的少见可验证案例，为评估编码智能体的能力边界提供了具体证据。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 74/100&lt;/p&gt;</description>
-<source url="https://zenodo.org/records/23682548">Hacker News AI</source>
-<category>智能体</category>
-<category>操作系统内核</category>
-<category>Rust</category>
-<category>AI 辅助工程</category>
-</item>
-<item><title>挪威暂停新建数据中心电网接入 申请量达 2.6 万兆瓦</title><link>https://www.ithome.com/1/024/495.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/495.htm</guid>
-<pubDate>Mon, 09 Nov 2026 19:25:57 +0800</pubDate>
-<description>&lt;p&gt;挪威国家电网运营商 Statnett 宣布，在政府建立数据中心许可制度前，暂停为新建数据中心预留电网接入容量。今年接入申请总量已达 2.6 万兆瓦，超过挪威现有发电能力，其中数据中心占 75%。新制度将优先保障国防、医疗与关键基础设施项目，限制全球云厂商与加密矿企获取土地和电力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 算力扩张与电力供给矛盾在国家级政策层面显性化，挪威成为最新设限国家，对算力基建布局有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 68/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/024/495.htm">IT之家 · IT业界</source>
-<category>算力基础设施</category>
-<category>数据中心</category>
-<category>能源政策</category>
-<category>挪威</category>
 </item>
 </channel>
 </rss>
