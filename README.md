@@ -8,24 +8,26 @@ layout, no third-party services.
 | --- | --- |
 | `feed.xml` | Latest curated AI intelligence, rolling 24h window (up to 30 items) |
 | `hot.xml` | Trending story radar, top 10 by cross-source heat, links to site story pages |
+| `doubleai.xml` | doubleAI research posts (papers, results, talks), from doubleAI's own `/llms.txt` via `dai_rss.py` |
 
 After the first workflow run your URLs are:
 
 ```
 https://raw.githubusercontent.com/<you>/<repo>/main/feed.xml
 https://raw.githubusercontent.com/<you>/<repo>/main/hot.xml
+https://raw.githubusercontent.com/<you>/<repo>/main/doubleai.xml
 ```
 
 (or `https://<you>.github.io/<repo>/feed.xml` if you switch to Pages — see below)
 
 ## Setup
 
-1. Create a repo and push this folder (keep the paths: `tfa_rss.py` and
+1. Create a repo and push this folder (keep the paths: `tfa_rss.py`, `dai_rss.py` and
    `.github/workflows/feed.yml`).
 2. Repo → **Settings → Actions → General → Workflow permissions** →
    **Read and write**. The job commits the refreshed XML back to `main`.
 3. **Actions** tab → `feed` → **Run workflow**. It commits `feed.xml`,
-   `hot.xml`, `index.html` and then keeps refreshing every 30 minutes. Runs that
+   `hot.xml`, `doubleai.xml`, `index.html` and then keeps refreshing every 30 minutes. Runs that
 find nothing new write nothing and commit nothing, so the history stays quiet.
 4. Subscribe to the raw URL above in your reader.
 

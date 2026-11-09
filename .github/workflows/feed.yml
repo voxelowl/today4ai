@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [tfa_rss.py, .github/workflows/feed.yml]
+    paths: [tfa_rss.py, dai_rss.py, .github/workflows/feed.yml]
 
 permissions:
   contents: write
@@ -22,6 +22,12 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: Build doubleAI feed
+        continue-on-error: true
+        env:
+          TINYFISH_API_KEY: ${{ secrets.TINYFISH_API_KEY }}
+          FEED_BASE_URL: ${{ vars.FEED_BASE_URL || format('https://raw.githubusercontent.com/{0}/{1}', github.repository, github.ref_name) }}
+        run: python3 dai_rss.py
       - name: Build feeds
         # ponytail: Use ubuntu-latest preinstalled python3 instead of actions/setup-python; add setup-python only if a specific Python version or pip cache is needed.
         env:
@@ -30,7 +36,7 @@ jobs:
         run: python3 tfa_rss.py
       - name: Commit changed feeds
         run: |
-          git add feed.xml hot.xml index.html
+          git add feed.xml hot.xml doubleai.xml index.html
           git diff --cached --quiet && exit 0
           git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "chore: refresh feeds"
           git push || { git pull --rebase --autostash && git push; }

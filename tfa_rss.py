@@ -165,7 +165,9 @@ def main() -> int:
         raise SystemExit("error: upstream returned no items; refusing to write an empty feed")
     ET.fromstring(news)
     ET.fromstring(radar)
-    idx = f'<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Today for AI — RSS</title><style>body{{font:16px/1.6 system-ui,sans-serif;max-width:40rem;margin:3rem auto;padding:0 1rem}}a{{color:#0b62d0}}.muted{{color:#666;font-size:.9rem}}</style><h1>Today for AI — RSS</h1><p>Unofficial feeds for <a href="{SITE}">todayforai.com</a>, built from its public agent API.</p><ul><li><a href="feed.xml">feed.xml</a> — latest intelligence, 24h window ({news.count("<item>")} items)</li><li><a href="hot.xml">hot.xml</a> — trending story radar ({radar.count("<item>")} stories)</li></ul><p class="muted">Rebuilt by GitHub Actions; links point at the original sources.</p>\n'
+    dai_path = out / "doubleai.xml"
+    dai_count = dai_path.read_text(encoding="utf-8").count("<item>") if dai_path.exists() else 0
+    idx = f'<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Today for AI — RSS</title><style>body{{font:16px/1.6 system-ui,sans-serif;max-width:40rem;margin:3rem auto;padding:0 1rem}}a{{color:#0b62d0}}.muted{{color:#666;font-size:.9rem}}</style><h1>Today for AI — RSS</h1><p>Unofficial feeds for <a href="{SITE}">todayforai.com</a>, built from its public agent API.</p><ul><li><a href="feed.xml">feed.xml</a> — latest intelligence, 24h window ({news.count("<item>")} items)</li><li><a href="hot.xml">hot.xml</a> — trending story radar ({radar.count("<item>")} stories)</li><li><a href="doubleai.xml">doubleai.xml</a> — doubleAI research posts ({dai_count} items, via dai_rss.py)</li></ul><p class="muted">Rebuilt by GitHub Actions; links point at the original sources.</p>\n'
     out.mkdir(parents=True, exist_ok=True)
     for name, body in {"feed.xml": news, "hot.xml": radar, "index.html": idx}.items():
         body = redact(body)
