@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Mon, 09 Nov 2026 10:43:07 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 09 Nov 2026 10:43:18 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>OpenAI 发布 GPT-6 Cyber 安全模型，越界行为降至 1% 以下</title><link>https://todayforai.com/en/story/story-32972b05-1f7</link><guid isPermaLink="true">https://todayforai.com/en/story/story-32972b05-1f7</guid>
 <pubDate>Mon, 09 Nov 2026 10:43:07 +0800</pubDate>
@@ -10,6 +10,22 @@
 在实战测试中，GPT-6 Cyber 于 12 小时内扫描 Linux 内核约 7% 代码，识别出 2308 个候选漏洞并成功复现 1724 个，还为其中 948 个生成了可本地提权的完整利用程序，复现率达 74.7%，仅 3.1% 为模型幻觉误报。同时，它在 Firefox 中发现 81 个此前未知的高危漏洞，已向 Mozilla 提交证据与候选补丁，多数漏洞已获修复。相比前代 GPT-5.6 Sol 仅能构建 166 个利用，GPT-6 Cyber 的能力提升超过五倍，且至少 10 种利用技术此前从未公开。
 
 这一发布标志着 AI 已具备端到端的漏洞发现、利用构建与补丁建议能力，攻防成本结构被彻底改写。对防守方而言，AI 可大幅加速漏洞挖掘与修复；但对攻击方，同样能力可能被滥用。OpenAI 采取分级开放策略，并配套沙箱与人工监督，试图在能力释放与安全风险之间取得平衡。行业需尽快建立相应的补丁响应机制与伦理规范，以应对 AI 驱动的安全新范式。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, Yuchen Jin (@Yuchenj_UW), OpenAI 官方博客, The Decoder, TechCrunch AI, InfoQ 中文&lt;/p&gt;</description>
+</item>
+<item><title>Artificial Analysis 发布决策指数 v2 引入校准置信度新指标</title><link>https://todayforai.com/en/story/story-3e28de6f-d12</link><guid isPermaLink="true">https://todayforai.com/en/story/story-3e28de6f-d12</guid>
+<pubDate>Mon, 09 Nov 2026 08:49:36 +0800</pubDate>
+<description>&lt;p&gt;Artificial Analysis 发布决策指数 v2，将私有数据集占比从 25% 提升至 45%，并新增奖励“正确性 + 校准置信度”的 Decision Score 主指标。榜单上 Drex Max v1.1 以 73 分微弱领先 GLiDE v1.2 与 Mammoth 27B，而 GPT-6 Luna (Max) 虽得分更高，但单任务成本达 1530 美元、耗时 11.34 秒，性价比差距悬殊。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys), Artificial Analysis&lt;/p&gt;</description>
+</item>
+<item><title>纽约时报称中国招募 AI 高管接近黄仁勋获取芯片情报</title><link>https://todayforai.com/en/story/story-55770774-90b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-55770774-90b</guid>
+<pubDate>Mon, 09 Nov 2026 04:26:43 +0800</pubDate>
+<description>&lt;p&gt;《纽约时报》援引一份在特朗普政府高级官员间传阅的备忘录称，美国情报部门认定与黄仁勋关系密切的华裔高管 Alice Huang 为北京情报资产，其公司 Megaspeed 自 2024 年起大举采购英伟达芯片，并通过向阿里巴巴出租东南亚数据中心算力形成受限芯片的迂回通道。该指控目前仅基于匿名备忘录，尚无公开证据或当事方回应，事实强度有限，但涉及英伟达、出口管制与中美科技博弈，产业关注度高。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), Hacker News AI&lt;/p&gt;</description>
+</item>
+<item><title>美国中期选举后多地公投否决数据中心，AI 算力扩张遭遇政策与市场双重逆风</title><link>https://todayforai.com/en/story/story-2f8ef443-ba4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2f8ef443-ba4</guid>
+<pubDate>Sun, 08 Nov 2026 06:07:22 +0800</pubDate>
+<description>&lt;p&gt;美国 2026 年中期选举后，AI 基础设施扩张遭遇重大政治阻力。全美 10 个州 44 项数据中心限制提案中 38 项获选民通过，约半数拟建 AI 数据中心项目面临更严格地方审查。得克萨斯、俄亥俄等传统友好州可能因水资源与电价问题暂停施工，民调显示 76% 受访者反对在社区内建设数据中心。
+
+市场反应剧烈：纳斯达克单日暴跌 5.52%，费城半导体指数重挫 12.3% 创历史第二大单日跌幅，英伟达跌 9.3%，AMD 跌 17.3%，AI 与数据中心相关股票市值合计蒸发数万亿美元。高盛估算约 45% 的美国规划数据中心容量可能受短期禁令影响。科技巨头试图将“数据中心”重命名为“计算园区”以缓解公众抵触，OpenAI 则承诺不再与公职人员签署保密协议并承担电力成本，亚马逊此前已作出类似表态。
+
+这一变局对 AI 算力扩张构成实质性阻力。超大规模厂商开始考虑将建设转向海外，债务融资型 GPU 租赁商与存储芯片厂商估值逻辑被政治风险重新定价。尽管已获批项目暂不受影响，但新当选官员承诺在关键州加强监管，主要影响 2028 年后的新建项目。AI 产业正面临从技术竞赛到社会许可的范式转变，行业需通过集体行动重塑公众形象并构建更具包容性的叙事。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), The Verge AI, MIT Technology Review, Hacker News AI, IT之家 · IT业界, Ars Technica AI&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic IPO 估值预期下调至 1.2 万亿美元，市场质疑 AI 龙头高估值</title><link>https://todayforai.com/en/story/story-1049bdee-c36</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1049bdee-c36</guid>
 <pubDate>Sun, 08 Nov 2026 10:10:56 +0800</pubDate>
@@ -27,6 +43,14 @@ Harness 采用全插件化架构，已积累约 3.5 万个用户插件。DeepSee
 
 这一增长主要发生在桌面版发布后，印证了智能体应用对算力的巨大需求。官方下一步将推出插件市场与创作者激励计划，但具体细节尚未公布。Harness 的开放策略和插件生态有望催生全新应用形态，对智能体赛道和开发者生态产生实质影响。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), 宝玉 (@dotey)&lt;/p&gt;</description>
 </item>
+<item><title>特朗普称 AI 风险可控 对设置监管护栏持开放态度</title><link>https://todayforai.com/en/story/story-e48bcad0-9e1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e48bcad0-9e1</guid>
+<pubDate>Mon, 09 Nov 2026 10:43:18 +0800</pubDate>
+<description>&lt;p&gt;特朗普表示 AI 风险可控，并称不介意设置监管护栏，愿与民主党在监管上合作。这与其此前支持科技公司自我监管、并将 AI 安全担忧称为“骗局”的立场相比出现松动，但具体开放程度仍不明确。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
+</item>
+<item><title>Karpathy 用 Claude 周末打造 Hacker News 精选视频站</title><link>https://todayforai.com/en/story/story-e33776a2-eb8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e33776a2-eb8</guid>
+<pubDate>Sun, 08 Nov 2026 22:23:00 +0800</pubDate>
+<description>&lt;p&gt;Karpathy 借助 Claude Opus 5.5 分析 Hacker News 二十年间的 4300 万条评论，提炼出 6454 个被反复推荐的视频，周末即上线无需登录的 HackerTube。随后他又用 Claude Code 在三分钟内完成 TristanTube，显示 AI 编程代理已能把数周工程压缩到数小时。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Decoder, Andrej Karpathy (@karpathy)&lt;/p&gt;</description>
+</item>
 <item><title>OpenAI 完成 110 亿美元首期融资，估值缩水至 1.25 万亿美元</title><link>https://todayforai.com/en/story/story-1aff8682-7c1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1aff8682-7c1</guid>
 <pubDate>Sun, 08 Nov 2026 22:49:23 +0800</pubDate>
 <description>&lt;p&gt;OpenAI 已完成新一轮融资的首期交割，约 110 亿美元资金到账，对应投前估值 1.25 万亿美元。整轮融资预计在数周内完成，总额最高或达 200 亿美元。这一结果较公司最初计划的 1.4 万亿美元估值、至少 300 亿美元的募资规模明显缩水，反映出公开市场对 AI 资产的谨慎情绪以及投资者对超高估值的抵触。
@@ -42,34 +66,6 @@ Harness 采用全插件化架构，已积累约 3.5 万个用户插件。DeepSee
 综合多方信源，Anthropic 通过接手涨价前签订的既有订单，部分机组近期即可交付，其余两年内到位，有效规避了设备涨价和多年排队。xAI 今年已购入 20 亿美元移动燃气轮机，Alphabet 则收购了能源开发商 Intersect，自备电力正成为头部实验室标配。Anthropic 的采购规模远超同行，且其至 2045 年的算力承诺高达近 9000 亿美元，凸显其对电力锁定的迫切需求。
 
 这一交易标志着 AI 巨头正从依赖公共电网转向直接介入能源供应链，以溢价锁定电力、芯片与土地。自备电力不仅保障了算力扩张的能源基础，也可能重塑 AI 基础设施的竞争格局，推动更多实验室跟进，并加剧对燃气发电设备的争夺。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
-</item>
-<item><title>高盛限制交易员与银行家使用 Claude Code 仅工程师保留权限</title><link>https://todayforai.com/en/story/story-b0f7760f-abd</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b0f7760f-abd</guid>
-<pubDate>Mon, 09 Nov 2026 02:16:07 +0800</pubDate>
-<description>&lt;p&gt;高盛在 10 月更新内部指引，将 Anthropic 的 Claude Code 与微软 GitHub 的使用权限收窄至工程师群体，交易员与投资银行家被切断访问。此前这些人员曾用该工具追踪客户交易流、构建市场与持仓模型。高盛同时是 Anthropic IPO 的联席主承销商，并已于 4 月禁止香港银行家使用 Claude。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Hacker News AI&lt;/p&gt;</description>
-</item>
-<item><title>亚马逊论文发现规则类基准答案键与评分代码普遍出错</title><link>https://todayforai.com/en/story/story-aa6459f5-0ea</link><guid isPermaLink="true">https://todayforai.com/en/story/story-aa6459f5-0ea</guid>
-<pubDate>Mon, 09 Nov 2026 05:24:38 +0800</pubDate>
-<description>&lt;p&gt;亚马逊一篇新论文审计了 9 个公开的规则遵循类基准（如 RuleArena、LegalBench），发现其参考答案与评分代码本身存在错误，导致模型正确答案被误判。以 LegalBench 税务评分为例，评分器删除小数点，把 259,487.13 美元读成 25,948,713，修复后 3 个模型的通过数从 8-9/96 升至 87-91/96。作者建议在看到低分时先读评分代码并人工抽查失败样本。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
-</item>
-<item><title>美国中期选举后多地公投否决数据中心，AI 算力扩张遭遇政策与市场双重逆风</title><link>https://todayforai.com/en/story/story-2f8ef443-ba4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2f8ef443-ba4</guid>
-<pubDate>Sat, 07 Nov 2026 04:02:22 +0800</pubDate>
-<description>&lt;p&gt;美国 2026 年中期选举后，AI 基础设施扩张遭遇重大政治阻力。全美 10 个州 44 项数据中心限制提案中 38 项获选民通过，约半数拟建 AI 数据中心项目面临更严格地方审查。得克萨斯、俄亥俄等传统友好州可能因水资源与电价问题暂停施工，民调显示 76% 受访者反对在社区内建设数据中心。
-
-市场反应剧烈：纳斯达克单日暴跌 5.52%，费城半导体指数重挫 12.3% 创历史第二大单日跌幅，英伟达跌 9.3%，AMD 跌 17.3%，AI 与数据中心相关股票市值合计蒸发数万亿美元。高盛估算约 45% 的美国规划数据中心容量可能受短期禁令影响。科技巨头试图将“数据中心”重命名为“计算园区”以缓解公众抵触，OpenAI 则承诺不再与公职人员签署保密协议并承担电力成本，亚马逊此前已作出类似表态。
-
-这一变局对 AI 算力扩张构成实质性阻力。超大规模厂商开始考虑将建设转向海外，债务融资型 GPU 租赁商与存储芯片厂商估值逻辑被政治风险重新定价。尽管已获批项目暂不受影响，但新当选官员承诺在关键州加强监管，主要影响 2028 年后的新建项目。AI 产业正面临从技术竞赛到社会许可的范式转变，行业需通过集体行动重塑公众形象并构建更具包容性的叙事。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), The Verge AI, MIT Technology Review, Hacker News AI, IT之家 · IT业界, Ars Technica AI&lt;/p&gt;</description>
-</item>
-<item><title>斯坦福与 DeepMind 提出 TURTLE 自动进化工具调用基准</title><link>https://todayforai.com/en/story/story-fb856c9b-82f</link><guid isPermaLink="true">https://todayforai.com/en/story/story-fb856c9b-82f</guid>
-<pubDate>Mon, 09 Nov 2026 07:36:48 +0800</pubDate>
-<description>&lt;p&gt;斯坦福与 Google DeepMind 的新论文提出 TURTLE 方法：利用 AlphaEvolve 对 AppWorld 等已饱和的工具调用任务进行变异，加入过滤条件、额外步骤与隐藏查询，并以求解模型约 50% 成功率作为难度目标。实验显示，Gemma 4 31B-it 原本能稳定解出 69% 的原始任务，而进化后的 735 个任务几乎都落在 40%-60% 完成率区间，LLM 评审认为 52.5% 的新任务属于困难级别，远高于原任务的 19.8%。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
-</item>
-<item><title>Nous Research 微调 Qwen 模型，将政治宣传率从 22% 降至 1% 以下</title><link>https://todayforai.com/en/story/story-2077c0d0-a5a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2077c0d0-a5a</guid>
-<pubDate>Sun, 08 Nov 2026 12:53:12 +0800</pubDate>
-<description>&lt;p&gt;Nous Research 基于阿里 Qwen3.8-27B 开源模型，通过监督微调推出 Arete-27B，将其自建评测中的宣传式回答占比从 22% 降至 0.9%，降幅显著。团队称仅用 5280 万 token 训练数据、以 Inkling 为教师模型，未做强化学习或架构改动，且通用能力（Hermes Bench）基本持平。
-
-技术细节上，微调数据与评测集均为自建，803 条评测中仍有 216 条得分为 0，事实性均分仅从 2.32 升至 2.98（满分 5），仍落后于 Muse Glimmer 30B。团队已以 Apache 2.0 协议公开模型权重、测试集与训练数据，便于第三方复现验证。
-
-该实验表明，中国开源权重模型中的政治倾向可能只是可被剥离的“薄层”对齐，而非深度嵌入模型能力。若结论经外部复现，将影响开发者对开源模型选型的评估，并引发对模型对齐层可编辑性的更广泛讨论。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Decoder, Marktechpost (@Marktechpost)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
