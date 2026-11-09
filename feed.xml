@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Mon, 09 Nov 2026 18:56:54 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 09 Nov 2026 20:14:40 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>UCLA Study Finds 18% of AI Agent Output Tokens Are Wasted</title><link>https://x.com/rohanpaul_ai/status/2119765613560410240</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119765613560410240</guid>
+<pubDate>Mon, 09 Nov 2026 20:14:40 +0800</pubDate>
+<description>&lt;p&gt;A UCLA and Northeastern University paper introduces a proxy-based audit that uses an LLM judge to mark removable spans in agent output, then reruns tasks to verify nothing breaks. Across six frontier models and four benchmarks, roughly 18% of output tokens were waste; pruning repetition and filler from Kimi-K3&amp;#x27;s reasoning on SWE-bench Verified cut 41% of tokens while success held at 89.5% versus 89.0%. The takeaway: cut agent costs by locating waste in your task and harness, not by capping tokens.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;UCLA 研究称 AI 智能体输出约 18% 的 token 属可删冗余&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;给出可复用的智能体成本审计方法与量化结论，对做 Agent 工程的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 72/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2119765613560410240">Rohan Paul (@rohanpaul_ai)</source>
+<category>智能体</category>
+<category>Token 成本</category>
+<category>学术论文</category>
+<category>SWE-bench</category>
+</item>
+<item><title>South Korea Bans AI Glasses From College Entrance Exam</title><link>https://www.ithome.com/1/024/502.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/502.htm</guid>
+<pubDate>Mon, 09 Nov 2026 19:43:43 +0800</pubDate>
+<description>&lt;p&gt;South Korea&amp;#x27;s education ministry issued exam guidelines banning all electronic devices, including AI glasses, phones and smartwatches, from the national college entrance exam. Each test site will assign a staffer to specifically screen for AI glasses, with violators losing this year&amp;#x27;s results and next year&amp;#x27;s eligibility.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;韩国高考全面禁带 AI 眼镜并设专人检查&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 硬件进入考场后引发的首个国家级监管落地案例，对可穿戴 AI 设备的合规边界具有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 38/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/024/502.htm">IT之家 · 智能时代</source>
+<category>AI 眼镜</category>
+<category>教育监管</category>
+<category>韩国</category>
+</item>
 <item><title>Berkeley-Led Study Finds Self-Evolving Agent Harnesses Lose Solved Tasks</title><link>https://x.com/rohanpaul_ai/status/2119746041834877109</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119746041834877109</guid>
 <pubDate>Mon, 09 Nov 2026 18:56:54 +0800</pubDate>
 <description>&lt;p&gt;A new paper from UC Berkeley and other top labs finds that letting agents rewrite their own prompts, skills, tools, or code to raise benchmark scores hides tasks they lose along the way. Testing 4 evolution methods including GEPA and HyperAgents with GPT-5.4 across 2 harnesses and 2 benchmarks, all 16 evolved agents gained some tasks and lost others; one raised reliability by 5.2 points while dropping 10 previously covered tasks, and 8 of 11 more-reliable agents cost more per run. The authors urge tracking lost tasks, cost per run, and unseen-task results rather than average score alone.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;伯克利等机构发现智能体自改脚手架会丢失已解任务&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究揭示智能体脚手架自进化中平均分掩盖任务丢失与成本上升的系统性偏差，对智能体评测与工程实践有直接指导价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
@@ -167,18 +184,18 @@
 <category>三星 SDI</category>
 <category>供应链</category>
 </item>
-<item><title>China&#x27;s CAC Launches Unified Filing System for Generative AI and Algorithms</title><link>https://www.ithome.com/1/024/332.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/332.htm</guid>
+<item><title>网信办上线新备案系统 生成式 AI 与算法备案一体化</title><link>https://www.ithome.com/1/024/332.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/332.htm</guid>
 <pubDate>Mon, 09 Nov 2026 15:40:28 +0800</pubDate>
-<description>&lt;p&gt;China&amp;#x27;s Cyberspace Administration launched a unified filing system on November 9, 2026, consolidating registration for generative AI, algorithms, deep synthesis and blockchain into a single portal, replacing the previous separate algorithm and blockchain filing systems. The platform supports lookups by entity name, filing name and filing number, marking a shift toward a one-stop compliance channel for AI services in China.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;网信办上线新备案系统 生成式 AI 与算法备案一体化&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国内生成式 AI 合规申报入口统一，直接影响所有在华提供 AI 服务企业的备案流程。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;国家互联网信息办公室于 2026 年 11 月 9 日正式上线“互联网新技术新应用信息服务备案系统”，将生成式人工智能、算法、深度合成、区块链四类备案整合至同一平台，原算法备案系统与区块链备案系统同步停用。该系统支持按主体名称、备案名称、备案编号查询备案信息，意味着国内 AI 合规申报流程从多入口走向统一入口。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国内生成式 AI 合规申报入口统一，直接影响所有在华提供 AI 服务企业的备案流程。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/332.htm">IT之家 · 智能时代</source>
 <category>生成式人工智能</category>
 <category>监管合规</category>
 <category>网信办</category>
 <category>算法备案</category>
 </item>
-<item><title>AI Data Center Power Crunch: Gas Turbine Lead Times Stretch Into 2030s, Secondhand Market Booms</title><link>https://www.ithome.com/1/024/313.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/313.htm</guid>
+<item><title>AI 数据中心抢电：燃气轮机新机排到 2030 年代，二手市场火爆</title><link>https://www.ithome.com/1/024/313.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/313.htm</guid>
 <pubDate>Mon, 09 Nov 2026 15:33:09 +0800</pubDate>
-<description>&lt;p&gt;Surging AI data center power demand has made gas turbines a critical bottleneck for compute expansion: global order backlog exceeds 100GW against 60-70GW of manufacturing capacity, pushing new-unit lead times to 2030-2031. Utilities, developers and data center power providers are scrambling for secondhand and refurbished units, even aeroderivative turbines, though analysts say limited spare supply will barely ease delays.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 数据中心抢电：燃气轮机新机排到 2030 年代，二手市场火爆&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示 AI 算力扩张正被电力设备供给卡住，是理解数据中心建设节奏与能源约束的关键产业信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;AI 数据中心耗电激增，使燃气轮机成为算力扩张的关键瓶颈：全球订单总容量超 100GW，而产能仅 60-70GW，新设备交货普遍排到 2030-2031 年。电力企业、项目开发商与数据中心供电商转而抢购二手与翻新机组，甚至采购航改型燃气轮机，但业内认为二手供给有限，难以显著缓解延误。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示 AI 算力扩张正被电力设备供给卡住，是理解数据中心建设节奏与能源约束的关键产业信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/313.htm">IT之家 · 智能时代</source>
 <category>算力基础设施</category>
 <category>数据中心</category>
@@ -256,24 +273,6 @@
 <category>量化交易</category>
 <category>Rust</category>
 <category>Python</category>
-</item>
-<item><title>英伟达在首尔办 AI Day，韩国政府与三星 LG 现代集体合作</title><link>https://www.ithome.com/1/024/217.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/217.htm</guid>
-<pubDate>Mon, 09 Nov 2026 13:59:59 +0800</pubDate>
-<description>&lt;p&gt;英伟达在首尔举办 NVIDIA AI Day，与韩国科学信息通信技术部及三星、LG 电子、现代汽车、Kakao Mobility、SK 电信等达成多项合作，覆盖主权 AI 基础设施、半导体加速计算、机器人、自动驾驶与基础模型推理优化。合作以生态绑定为主，多数项目处于探索或演示阶段，尚无具体参数与量化结果披露。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;一次活动打包多项合作，反映英伟达以 NVLink Fusion 与软件栈绑定韩国主权 AI 生态的战略动向。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/024/217.htm">IT之家 · 智能时代</source>
-<category>英伟达</category>
-<category>主权AI</category>
-<category>机器人</category>
-<category>自动驾驶</category>
-</item>
-<item><title>Sakana AI 宣布开发首款移动 App 并招募 Beta 测试</title><link>https://www.ithome.com/1/024/216.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/216.htm</guid>
-<pubDate>Mon, 09 Nov 2026 13:58:20 +0800</pubDate>
-<description>&lt;p&gt;日本 AI 独角兽 Sakana AI 宣布正在开发旗下首款移动应用「Sakana AI App」（暂定名），并开始招募 Beta 测试用户，CEO David Ha 称这将成为公司新的发展方向。目前官方未披露应用的具体功能、技术方案或发布时间，信息仍停留在预告阶段。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Sakana AI 首次从模型研究转向消费级产品，方向值得关注，但目前仅有预告、缺乏实质细节。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 38/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/024/216.htm">IT之家 · 智能时代</source>
-<category>Sakana AI</category>
-<category>移动应用</category>
-<category>AI 独角兽</category>
-<category>日本</category>
 </item>
 </channel>
 </rss>
