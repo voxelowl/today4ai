@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Tue, 10 Nov 2026 05:15:23 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 10 Nov 2026 05:28:13 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Claude Fable 5.2 Turns Short Prompts into Manufacturable Hardware Prototypes</title><link>https://x.com/rohanpaul_ai/status/2119904921139270003</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119904921139270003</guid>
+<pubDate>Tue, 10 Nov 2026 05:28:13 +0800</pubDate>
+<description>&lt;p&gt;Anthropic&amp;#x27;s Claude Fable 5.2 converts short prompts into complete hardware packages—specs, schematics, board layouts, 3D-printable enclosures and firmware—for a speakerphone, voice-assistant hub and handheld virtual pet. Board maker Diode Computers fabricated all three directly from the model&amp;#x27;s files, skipping typical manufacturing revision cycles. Unlike earlier models whose layouts were 95% complete but unusable due to blocked wiring, Fable 5.2 autonomously reroutes traces and reassigns chip pins, scoring 69% on Diode&amp;#x27;s internal PCB Gym benchmark versus 25% for Fable 5 at roughly one-third the API cost.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Claude Fable 5.2 从提示词直出可制造硬件原型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是大模型首次端到端产出可直接投产的电子硬件设计，标志着 AI 从代码生成迈向物理制造的关键跨越。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2119904921139270003">Rohan Paul (@rohanpaul_ai)</source>
+<category>大模型</category>
+<category>硬件设计</category>
+<category>Anthropic</category>
+<category>PCB 布局</category>
+<category>AI 制造</category>
+</item>
+<item><title>UC Berkeley Supervisor Rebuilds Coding Agent Teams to Beat Expert GPU Kernels</title><link>https://x.com/rohanpaul_ai/status/2119903588155830773</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119903588155830773</guid>
+<pubDate>Tue, 10 Nov 2026 05:22:55 +0800</pubDate>
+<description>&lt;p&gt;A new UC Berkeley paper introduces Evolving Agent Teams, in which a supervisor diagnoses plateaus in coding-agent teams and rebuilds roles such as profiler, debugger, and knowledge integrator, with a shared file system carrying lessons across teams. On the MLA decode kernel it reached 0.74x FlashInfer speed under the same token budget versus 0.31x for a fixed four-role team, and 1.21x with more budget, winning 36 of 47 production workloads.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;伯克利提出监督者动态重组编码智能体团队&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该工作给出可复用的多智能体编排范式与量化对比，直接回应编码智能体性能停滞问题。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2119903588155830773">Rohan Paul (@rohanpaul_ai)</source>
+<category>智能体</category>
+<category>GPU 内核优化</category>
+<category>多智能体编排</category>
+<category>伯克利</category>
+</item>
 <item><title>Anthropic Unveils Fable 5.2 and Mythos 5.2 to Reclaim AI Lead Before IPO</title><link>https://the-decoder.com/claude-fable-5-2-and-mythos-5-2-cement-anthropics-ai-lead-just-before-its-ipo/</link><guid isPermaLink="true">https://the-decoder.com/claude-fable-5-2-and-mythos-5-2-cement-anthropics-ai-lead-just-before-its-ipo/</guid>
 <pubDate>Tue, 10 Nov 2026 05:15:23 +0800</pubDate>
 <description>&lt;p&gt;Anthropic released two flagship models, Claude Fable 5.2 and Mythos 5.2, targeting the most demanding technical tasks just ahead of its IPO. Fable 5.2 tops the Artificial Analysis Intelligence Index v5 with 65 points, five ahead of Gemini 4 Carbon and 15 above its predecessor Fable 5.1, while still leading at lower compute tiers with 62 points and far fewer tokens. Anthropic says it deliberately withheld capabilities that could directly accelerate AI development.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 发布 Fable 5.2 与 Mythos 5.2 登顶智能指数&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;IPO 前夕的旗舰模型发布并登顶第三方智能指数，是 AI 竞争格局的关键节点。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 88/100&lt;/p&gt;</description>
@@ -108,6 +127,15 @@
 <category>英伟达</category>
 <category>SageMaker</category>
 </item>
+<item><title>DeepSeek Open Models Cost 44x Less Per Task Than Closed Rivals</title><link>https://x.com/Yuchenj_UW/status/2119882453334798847</link><guid isPermaLink="true">https://x.com/Yuchenj_UW/status/2119882453334798847</guid>
+<pubDate>Tue, 10 Nov 2026 03:58:57 +0800</pubDate>
+<description>&lt;p&gt;Developer Yuchen Jin highlights that DeepSeek and other open-weight models complete tasks at roughly 1/44 the cost of Claude Fable 5.2, noting that 95% of tasks do not require the smartest model. The comparison underscores the cost-efficiency edge of open models and supports tiered model selection by task difficulty.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;DeepSeek 开源模型单任务成本仅为闭源 1/44&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以具体成本倍数对比开源与闭源模型，为模型选型与成本控制提供直观参考。&lt;/p&gt;&lt;p&gt;Yuchen Jin (@Yuchenj_UW) · llm · signal 38/100&lt;/p&gt;</description>
+<source url="https://x.com/Yuchenj_UW/status/2119882453334798847">Yuchen Jin (@Yuchenj_UW)</source>
+<category>开源模型</category>
+<category>DeepSeek</category>
+<category>成本效率</category>
+<category>模型选型</category>
+</item>
 <item><title>Anthropic Releases Claude Fable 5.2 and Mythos 5.2 Models</title><link>https://x.com/arena/status/2119882304718069874</link><guid isPermaLink="true">https://x.com/arena/status/2119882304718069874</guid>
 <pubDate>Tue, 10 Nov 2026 03:58:21 +0800</pubDate>
 <description>&lt;p&gt;Anthropic has launched Claude Fable 5.2 and Claude Mythos 5.2, claiming gains in coding, reasoning and vision for tackling demanding technical work. Fable 5.2 is now live in Arena&amp;#x27;s Agent Arena and Code Arena, where it can use web search, filesystem and terminal tools on long-horizon agentic tasks, with leaderboard scores to follow.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2 双模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Anthropic 双模型同日发布并接入智能体评测场，是值得关注的前沿模型节点。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 78/100&lt;/p&gt;</description>
@@ -142,6 +170,14 @@
 <category>算力基础设施</category>
 <category>电力供应</category>
 <category>AI 产业</category>
+</item>
+<item><title>Anthropic Releases Claude Fable 5.2 with 1M Context Window</title><link>https://x.com/OpenRouter/status/2119875084521447767</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2119875084521447767</guid>
+<pubDate>Tue, 10 Nov 2026 03:29:40 +0800</pubDate>
+<description>&lt;p&gt;Anthropic has launched Claude Fable 5.2, positioned as its model for the most ambitious technical work and a step above Opus 5.5 on most evals. It delivers up to 30% faster output than Fable 5.1 at $8/M input and $40/M output with a 1M context window, and is now live on OpenRouter. Anthropic reports 69.9% on FrontierSWE v2, 89.3% on OSWorld 2.1 and 74.2% on Humanity&amp;#x27;s Last Exam with tools.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 发布 Claude Fable 5.2 支持 100 万上下文&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Anthropic 新旗舰模型发布并同步上线 OpenRouter，性能、速度与定价信息完整，对模型选型有直接参考价值。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/OpenRouter/status/2119875084521447767">OpenRouter (@OpenRouter)</source>
+<category>大模型</category>
+<category>Anthropic</category>
+<category>OpenRouter</category>
 </item>
 <item><title>Australia&#x27;s Central Bank Warns AI Investment Surge to Lift Inflation First</title><link>https://x.com/rohanpaul_ai/status/2119874727670055179</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119874727670055179</guid>
 <pubDate>Tue, 10 Nov 2026 03:28:15 +0800</pubDate>
@@ -180,36 +216,36 @@
 <category>商业化</category>
 <category>云分发</category>
 </item>
-<item><title>Anthropic Releases Claude Fable 5.2 with 20% API Price Cut</title><link>https://x.com/dotey/status/2119872207241543744</link><guid isPermaLink="true">https://x.com/dotey/status/2119872207241543744</guid>
+<item><title>Anthropic 发布 Claude Fable 5.2 并降价两成</title><link>https://x.com/dotey/status/2119872207241543744</link><guid isPermaLink="true">https://x.com/dotey/status/2119872207241543744</guid>
 <pubDate>Tue, 10 Nov 2026 03:18:14 +0800</pubDate>
-<description>&lt;p&gt;Anthropic launched Claude Fable 5.2 and Claude Mythos 5.2, its top-tier models, claiming roughly a one-tier gain over Opus 5.5 across nearly all tested capabilities, up to 30% faster output, and API pricing cut from $10/$50 to $8/$40 per million input/output tokens. Fable and Mythos are the same model differing only in guardrails: Fable is open to all paid users, while Mythos is restricted to vetted cybersecurity and life-science institutions. Pro subscribers get temporary plan-quota access to Fable from November 9 to 16.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 发布 Claude Fable 5.2 并降价两成&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;顶级模型代际升级叠加 API 降价两成，直接影响开发者成本与模型选型。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 发布高端模型 Claude Fable 5.2 与 Claude Mythos 5.2，官方称其在几乎所有测试能力上强于 Opus 5.5 一档，输出速度最高提升 30%，API 价格从每百万 Token 10/50 美元降至 8/40 美元。Fable 与 Mythos 为同一模型，区别仅在安全护栏：Fable 面向全部付费用户，Mythos 仅限通过验证的网安与生命科学机构。Pro 用户可在 11 月 9 日至 16 日临时用套餐额度调用 Fable。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;顶级模型代际升级叠加 API 降价两成，直接影响开发者成本与模型选型。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/dotey/status/2119872207241543744">宝玉 (@dotey)</source>
 <category>大模型</category>
 <category>Anthropic</category>
 <category>API 定价</category>
 <category>模型发布</category>
 </item>
-<item><title>Anthropic Fable 5.2 Tested Against Opus in 100+ Generations</title><link>https://x.com/arena/status/2119871594403336451</link><guid isPermaLink="true">https://x.com/arena/status/2119871594403336451</guid>
+<item><title>Anthropic Fable 5.2 实测 生成能力与 Opus 对比</title><link>https://x.com/arena/status/2119871594403336451</link><guid isPermaLink="true">https://x.com/arena/status/2119871594403336451</guid>
 <pubDate>Tue, 10 Nov 2026 03:15:48 +0800</pubDate>
-<description>&lt;p&gt;Arena.ai has published first impressions of Anthropic&amp;#x27;s Fable 5.2, running 100+ generations across 3D worlds, playable games, website UI, data visualization and animation against Opus. The public post is a teaser-level comparison without concrete parameters, quantitative metrics or cost figures, so the actual gains and trade-offs remain unverified.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic Fable 5.2 实测 生成能力与 Opus 对比&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及 Anthropic 新模型 Fable 5.2 的首次公开横向评测，对关注生成式模型能力边界的读者有参考价值，但当前信息量偏预告性质。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Arena.ai 发布对 Anthropic Fable 5.2 的首批评测，评测者用 100 余次生成任务，在 3D 世界、可玩游戏、网站 UI、数据可视化与动画五类场景中与 Opus 逐项对比。目前公开内容仅为预告式结论，未披露具体参数、量化指标与成本数据，改进幅度与代价仍需完整评测佐证。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及 Anthropic 新模型 Fable 5.2 的首次公开横向评测，对关注生成式模型能力边界的读者有参考价值，但当前信息量偏预告性质。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 58/100&lt;/p&gt;</description>
 <source url="https://x.com/arena/status/2119871594403336451">Arena.ai (@arena)</source>
 <category>大模型</category>
 <category>Anthropic</category>
 <category>模型评测</category>
 <category>Arena.ai</category>
 </item>
-<item><title>Apple Launches $50 Intelligence Usage Packs for Select AI Features</title><link>https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro</link><guid isPermaLink="true">https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro</guid>
+<item><title>苹果推出 50 美元智能用量包 部分 AI 功能按次付费</title><link>https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro</link><guid isPermaLink="true">https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro</guid>
 <pubDate>Tue, 10 Nov 2026 03:09:58 +0800</pubDate>
-<description>&lt;p&gt;Apple has added a \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;苹果推出 50 美元智能用量包 部分 AI 功能按次付费&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;苹果首次对云端 AI 功能引入付费用量包，是消费级 AI 商业化计费模式的重要信号。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;苹果在 Logic Pro 中上线“购买更多用量”选项，一次性支付 49.99 美元即可获得 Apple Intelligence 部分云端 AI 功能的额外调用额度。该额度仅限购买账户使用、不支持家庭共享，未用完部分可逐月结转但 12 个月后过期。这标志着苹果开始对依赖 OpenAI 或 Gemini 云端模型的 AI 能力实行分层计费。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;苹果首次对云端 AI 功能引入付费用量包，是消费级 AI 商业化计费模式的重要信号。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro">The Verge AI</source>
 <category>苹果</category>
 <category>AI 商业化</category>
 <category>Apple Intelligence</category>
 <category>计费模式</category>
 </item>
-<item><title>Anthropic Releases Claude Fable 5.2 and Mythos 5.2</title><link>https://x.com/rohanpaul_ai/status/2119870108223033374</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119870108223033374</guid>
+<item><title>Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2</title><link>https://x.com/rohanpaul_ai/status/2119870108223033374</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119870108223033374</guid>
 <pubDate>Tue, 10 Nov 2026 03:09:53 +0800</pubDate>
-<description>&lt;p&gt;Anthropic launched Claude Fable 5.2 and Claude Mythos 5.2, targeting the hardest technical challenges with gains in coding, reasoning and vision. Fable 5.2 scored 41.3% on the Remote Labor Index, roughly double Opus 5.5 and GPT-6 Astra, and 1,000 Fable 5.2 agents formalized Fermat&amp;#x27;s Last Theorem in 30 hours versus 11 days for Anthropic&amp;#x27;s first formalization. Mythos 5.2 also cut sandbox-escape rates to 3.1% from 39% in Mythos 5.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;两款前沿模型同日发布，且附带可验证的基准与智能体规模化实证，是 AI 时间线上的重要节点。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 88/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 推出 Claude Fable 5.2 与 Claude Mythos 5.2 两款新模型，主打攻克高难度技术挑战，在编码、推理与视觉能力上均有提升。Fable 5.2 在 Remote Labor Index 上得分 41.3%，约为 Opus 5.5 与 GPT-6 Astra 的两倍；1000 个 Fable 5.2 智能体在 30 小时内完成费马大定理形式化，而 Anthropic 首次人工形式化耗时 11 天。Mythos 5.2 则显著降低了越狱出沙箱的比例，从 Mythos 5 的 39% 降至 3.1%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;两款前沿模型同日发布，且附带可验证的基准与智能体规模化实证，是 AI 时间线上的重要节点。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 88/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2119870108223033374">Rohan Paul (@rohanpaul_ai)</source>
 <category>大模型</category>
 <category>Anthropic</category>
@@ -233,41 +269,6 @@
 <category>Anthropic</category>
 <category>AGI</category>
 <category>模型评测</category>
-</item>
-<item><title>Anthropic 发布 Claude Fable 与 Mythos 5.2 模型</title><link>https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2</guid>
-<pubDate>Tue, 10 Nov 2026 03:00:00 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 发布 Claude Fable 5.2 与 Claude Mythos 5.2，宣称在编程、推理与视觉能力上较 5.1 版本提升，并具备更快的生成速度。Fable 5.2 可编排智能体团队、承担长周期项目，预发布测试中完成软件迁移、从零设计三款电子设备、解决两个黑洞物理开放问题，并在 30 小时内形式化证明费马大定理。Fable 5.2 今日开放，Mythos 5.2 仅向通过审核的机构开放。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部实验室发布新一代旗舰模型并宣称解决开放科学问题，是 AI 能力边界的重要节点。&lt;/p&gt;&lt;p&gt;The Verge AI · llm · signal 88/100&lt;/p&gt;</description>
-<source url="https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2">The Verge AI</source>
-<category>大模型</category>
-<category>Anthropic</category>
-<category>Claude</category>
-</item>
-<item><title>ChatGPT Enterprise 上架 AWS Marketplace</title><link>https://openai.com/index/chatgpt-enterprise-aws-marketplace</link><guid isPermaLink="true">https://openai.com/index/chatgpt-enterprise-aws-marketplace</guid>
-<pubDate>Tue, 10 Nov 2026 03:00:00 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 宣布 ChatGPT Enterprise 正式上架 AWS Marketplace，企业客户可直接通过既有的 AWS 采购与账单体系完成发现、购买和管理，并将相关支出计入 AWS 承诺消费额度。此举降低了企业采购门槛，是 OpenAI 拓展企业渠道的重要一步。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;企业级 AI 采购渠道的实质性打通，对关注 AI 商业化落地的读者有参考价值。&lt;/p&gt;&lt;p&gt;OpenAI 官方博客 · industry · signal 38/100&lt;/p&gt;</description>
-<source url="https://openai.com/index/chatgpt-enterprise-aws-marketplace">OpenAI 官方博客</source>
-<category>企业服务</category>
-<category>云市场</category>
-<category>OpenAI</category>
-<category>AWS</category>
-</item>
-<item><title>Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2</title><link>https://www.anthropic.com/claude-fable-and-mythos-5-2</link><guid isPermaLink="true">https://www.anthropic.com/claude-fable-and-mythos-5-2</guid>
-<pubDate>Tue, 10 Nov 2026 02:56:29 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 将 Claude Fable 与 Claude Mythos 升级至 5.2 版本，在编码、推理与视觉能力上均有提升。二者基于同一底层模型，Fable 面向全体用户并内置网络安全与生物安全防护，Mythos 则通过验证计划向安全与生命科学机构开放。预发布测试中，该模型完成了原本不可行的软件迁移、从零设计三款可工作的电子设备、解决两个黑洞物理开放问题，并在 30 小时内完成费马大定理的形式化证明。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;前沿模型代际升级并附带多项高难度科学任务实证，是 AI 能力边界的重要节点。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 88/100&lt;/p&gt;</description>
-<source url="https://www.anthropic.com/claude-fable-and-mythos-5-2">Hacker News AI</source>
-<category>大模型</category>
-<category>Anthropic</category>
-<category>形式化证明</category>
-<category>模型发布</category>
-</item>
-<item><title>CrossnoKaye 用 AgentCore 打通工业物理 AI</title><link>https://aws.amazon.com/blogs/machine-learning/how-crossnokaye-grounds-physical-ai-with-amazon-bedrock-agentcore/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/how-crossnokaye-grounds-physical-ai-with-amazon-bedrock-agentcore/</guid>
-<pubDate>Tue, 10 Nov 2026 02:55:43 +0800</pubDate>
-<description>&lt;p&gt;CrossnoKaye 采用 Amazon Bedrock AgentCore 构建面向重工业的软件定义自动化方案，解决工厂 OT 数据分散、控制器逻辑封闭与跨系统凭证管理三大落地障碍。该案例展示了智能体在物理 AI 场景中绕过传统外挂式集成路径的工程思路。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;工业 OT 场景的智能体落地案例，对关注物理 AI 与 Agent 基础设施的读者有参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 58/100&lt;/p&gt;</description>
-<source url="https://aws.amazon.com/blogs/machine-learning/how-crossnokaye-grounds-physical-ai-with-amazon-bedrock-agentcore/">AWS Machine Learning Blog</source>
-<category>智能体</category>
-<category>物理 AI</category>
-<category>工业自动化</category>
-<category>Amazon Bedrock</category>
 </item>
 </channel>
 </rss>
