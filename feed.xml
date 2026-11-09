@@ -1,8 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Tue, 10 Nov 2026 04:09:24 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 10 Nov 2026 05:03:44 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Fable 5.2 Outspends GPT-6.1 Sol Eightfold on Voxel Scene Build</title><link>https://x.com/rohanpaul_ai/status/2119898759215882261</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119898759215882261</guid>
+<pubDate>Tue, 10 Nov 2026 05:03:44 +0800</pubDate>
+<description>&lt;p&gt;AI/ML API pitted Claude Fable 5.2 against GPT-6.1 Sol to rebuild the Cars Piston Cup finale in 3D voxels, with Fable 5.2 spending $108.87 versus $13.02 for Sol. The cost gap reflects Fable&amp;#x27;s strict voxel adherence, modeling even smoke as geometry, while Sol rendered the crash car as a dark silhouette. The side-by-side highlights trade-offs in style compliance and visual detail between the two models.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Fable 5.2 与 GPT-6.1 体素建模成本差 8 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以真实成本与画面细节对比两个前沿模型的风格遵循能力，对关注模型能力边界的读者有参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 42/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2119898759215882261">Rohan Paul (@rohanpaul_ai)</source>
+<category>大模型</category>
+<category>多模态生成</category>
+<category>成本对比</category>
+</item>
+<item><title>OpenAI dot Adds Multi-Computer Connections with Per-Task Machine Selection</title><link>https://x.com/dotey/status/2119898580131725439</link><guid isPermaLink="true">https://x.com/dotey/status/2119898580131725439</guid>
+<pubDate>Tue, 10 Nov 2026 05:03:01 +0800</pubDate>
+<description>&lt;p&gt;OpenAI has added multi-computer support to dot, its cloud-resident AI assistant, letting a single dot connect to several local machines and route each task to a chosen one. dot spawns local Codex or ChatGPT Work tasks on the target machine, reusing its files and tools without occupying the user&amp;#x27;s primary environment. The capability is rolling out to ChatGPT Pro and Business Premium tiers, with enterprise accounts defaulting on from November 18.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI dot 支持连接多台电脑并指定任务执行机&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是常驻型 AI 助理在跨设备任务编排上的实质能力扩展，直接关系到 agent 产品的使用形态。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · agent · signal 68/100&lt;/p&gt;</description>
+<source url="https://x.com/dotey/status/2119898580131725439">宝玉 (@dotey)</source>
+<category>智能体</category>
+<category>OpenAI</category>
+<category>AI 助理</category>
+<category>开发者工具</category>
+</item>
+<item><title>A Practical Tip for Pruning Prompts After Each New Model Release</title><link>https://x.com/dotey/status/2119894229581508868</link><guid isPermaLink="true">https://x.com/dotey/status/2119894229581508868</guid>
+<pubDate>Tue, 10 Nov 2026 04:45:44 +0800</pubDate>
+<description>&lt;p&gt;Baoyu cites Alex Albert&amp;#x27;s practice that each new model release is a good moment to prune and simplify prompts. The core method is a single generic prompt asking the model to read the entire project, find broken, inconsistent, inefficient, or redundant parts, fix what it is confident about, and list the rest for human review.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;新模型发布后清理精简提示词的实用技巧&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了一条可直接复用的提示词工程实践，适合开发者在新模型发布后快速清理项目。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · tools · signal 38/100&lt;/p&gt;</description>
+<source url="https://x.com/dotey/status/2119894229581508868">宝玉 (@dotey)</source>
+<category>提示词工程</category>
+<category>开发者实践</category>
+<category>模型迭代</category>
+</item>
+<item><title>Meta Releases Muse Ember, Its Smallest Model Built for Agent Workloads</title><link>https://x.com/rohanpaul_ai/status/2119893550456619398</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119893550456619398</guid>
+<pubDate>Tue, 10 Nov 2026 04:43:02 +0800</pubDate>
+<description>&lt;p&gt;Meta released Muse Ember, its smallest model to date, claiming intelligence on par with Claude Haiku 5.5 at roughly one-third the cost. It targets token-heavy agent workloads such as tool calls, coding subtasks, routing, extraction and long-document parsing, and is available now on the Meta Model API and in Muse Code. Pricing is $0.10 input and $0.50 output per 1M tokens up to 200K tokens, rising to $0.30 and $1.50 beyond that.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 发布最小模型 Muse Ember 主打智能体高频调用&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Meta 以极小模型切入智能体高频调用场景，直接对标 Claude Haiku 并给出明确价格，是轻量模型价格竞争的重要信号。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2119893550456619398">Rohan Paul (@rohanpaul_ai)</source>
+<category>大模型</category>
+<category>Meta</category>
+<category>智能体</category>
+<category>模型定价</category>
+</item>
 <item><title>YC Startup Archgen Uses AI to Predict Chip Heat 5,000x Faster</title><link>https://x.com/rohanpaul_ai/status/2119885084610470314</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119885084610470314</guid>
 <pubDate>Tue, 10 Nov 2026 04:09:24 +0800</pubDate>
 <description>&lt;p&gt;YC F26 startup Archgen is building design tools for vertically stacked 3D transistor chips to sidestep the physical limits of transistor shrinking. Its thermal-simulation foundation model predicts chip temperature roughly 5,000x faster than conventional EDA tools, claims up to 40% lower power for the same workload, and targets a first tape-out in April 2027 with major fabs.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;YC 初创 Archgen 用 AI 预测芯片温度提速 5000 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;三维堆叠芯片设计叠加 AI 热仿真加速，直指后摩尔时代算力基础设施的核心瓶颈。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 62/100&lt;/p&gt;</description>
@@ -66,6 +100,15 @@
 <category>就业</category>
 <category>资产定价</category>
 </item>
+<item><title>OpenAI Sells $200 Codex Edition Retro Handheld for Game Boy Games</title><link>https://x.com/dotey/status/2119873970920997274</link><guid isPermaLink="true">https://x.com/dotey/status/2119873970920997274</guid>
+<pubDate>Tue, 10 Nov 2026 03:25:14 +0800</pubDate>
+<description>&lt;p&gt;OpenAI listed a $200 Codex edition of ModRetro&amp;#x27;s Chromatic retro handheld on its Supply Co. store, compatible with original Game Boy cartridges. With a Codex desktop plugin, users describe a game in one sentence and Codex builds it, playable via browser emulator, streamed to the handheld, or written to a cartridge. The plugin works without buying the device, even on free ChatGPT accounts.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 上架 200 美元 Codex 联名掌机&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;OpenAI 借联名掌机把 Codex 推向消费级硬件场景，展示 AI 生成复古游戏工作流。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/dotey/status/2119873970920997274">宝玉 (@dotey)</source>
+<category>OpenAI</category>
+<category>Codex</category>
+<category>游戏开发</category>
+<category>复古掌机</category>
+</item>
 <item><title>Anthropic Releases Mythos 5.2 and Fable 5.2 Models</title><link>https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/</guid>
 <pubDate>Tue, 10 Nov 2026 03:24:51 +0800</pubDate>
 <description>&lt;p&gt;Anthropic released Mythos 5.2 and Fable 5.2, claiming gains in coding, reasoning and vision, while cutting Fable input pricing from $10 to $8 per million tokens and speeding responses by 30%. It is the lab&amp;#x27;s first model launch since a METR report suggested it may be approaching recursive self-improvement, and Fable 5.2 now supports zero data retention for enterprise clients.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 发布 Mythos 5.2 与 Fable 5.2 模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部实验室新模型发布叠加降价与 RSI 争议，是当日大模型赛道的重要节点。&lt;/p&gt;&lt;p&gt;TechCrunch AI · llm · signal 78/100&lt;/p&gt;</description>
@@ -83,6 +126,15 @@
 <category>估值</category>
 <category>商业化</category>
 <category>云分发</category>
+</item>
+<item><title>Anthropic Releases Claude Fable 5.2 with 20% API Price Cut</title><link>https://x.com/dotey/status/2119872207241543744</link><guid isPermaLink="true">https://x.com/dotey/status/2119872207241543744</guid>
+<pubDate>Tue, 10 Nov 2026 03:18:14 +0800</pubDate>
+<description>&lt;p&gt;Anthropic launched Claude Fable 5.2 and Claude Mythos 5.2, its top-tier models, claiming roughly a one-tier gain over Opus 5.5 across nearly all tested capabilities, up to 30% faster output, and API pricing cut from $10/$50 to $8/$40 per million input/output tokens. Fable and Mythos are the same model differing only in guardrails: Fable is open to all paid users, while Mythos is restricted to vetted cybersecurity and life-science institutions. Pro subscribers get temporary plan-quota access to Fable from November 9 to 16.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 发布 Claude Fable 5.2 并降价两成&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;顶级模型代际升级叠加 API 降价两成，直接影响开发者成本与模型选型。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/dotey/status/2119872207241543744">宝玉 (@dotey)</source>
+<category>大模型</category>
+<category>Anthropic</category>
+<category>API 定价</category>
+<category>模型发布</category>
 </item>
 <item><title>Anthropic Fable 5.2 Tested Against Opus in 100+ Generations</title><link>https://x.com/arena/status/2119871594403336451</link><guid isPermaLink="true">https://x.com/arena/status/2119871594403336451</guid>
 <pubDate>Tue, 10 Nov 2026 03:15:48 +0800</pubDate>
@@ -164,115 +216,59 @@
 <category>工业自动化</category>
 <category>Amazon Bedrock</category>
 </item>
-<item><title>Mac App Someone Was Here Uses On-Device Face Recognition to Log Visitors</title><link>https://someonewashere.app/</link><guid isPermaLink="true">https://someonewashere.app/</guid>
+<item><title>Mac 应用 Someone Was Here 用本地人脸识别记录访客</title><link>https://someonewashere.app/</link><guid isPermaLink="true">https://someonewashere.app/</guid>
 <pubDate>Tue, 10 Nov 2026 02:50:56 +0800</pubDate>
-<description>&lt;p&gt;Someone Was Here is a Mac menu bar app that automatically photographs anyone who uses the machine after it has been idle, attempts the lock screen, or unlocks it, logging the time, entry method, and duration of the visit. It runs Apple Vision and Core ML face recognition entirely on-device to distinguish the owner from strangers, with no tracking or ads; real-time remote alerts require a one-time $4.99 purchase via the companion iPhone app.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Mac 应用 Someone Was Here 用本地人脸识别记录访客&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了一个完全本地运行的端侧人脸识别隐私监控工具，对关注端侧 AI 与 Apple 生态开发的读者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Someone Was Here 是一款 Mac 菜单栏应用，当 Mac 处于闲置状态、有人尝试解锁或成功解锁时，它会自动拍摄使用者照片，并记录时间、进入方式与停留时长。该应用基于 Apple Vision 与 Core ML 在本地完成人脸识别，能区分本人与陌生人，数据不上传、无追踪；实时远程推送需通过配套 iPhone 应用一次性付费 4.99 美元解锁。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了一个完全本地运行的端侧人脸识别隐私监控工具，对关注端侧 AI 与 Apple 生态开发的读者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
 <source url="https://someonewashere.app/">Hacker News AI</source>
 <category>端侧 AI</category>
 <category>人脸识别</category>
 <category>Mac 应用</category>
 <category>隐私</category>
 </item>
-<item><title>ByteDance Seedream 5.5 Enables 100-Round Pixel-Stable Image Editing</title><link>https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift/</link><guid isPermaLink="true">https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift/</guid>
+<item><title>字节 Seedream 5.5 支持 100 轮像素级稳定编辑</title><link>https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift/</link><guid isPermaLink="true">https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift/</guid>
 <pubDate>Tue, 10 Nov 2026 02:50:01 +0800</pubDate>
-<description>&lt;p&gt;ByteDance Seed has unveiled Seedream 5.5, an image generation model aimed at professional production workflows. It supports up to 100 rounds of multi-turn editing with pixel-level preservation of untouched regions and no color drift, and natively outputs RGBA images with transparent backgrounds that can serve directly as design assets. ByteDance claims it outperforms GPT Image 2.5 Sunburst on dense small-text rendering and material realism, with rollout underway via Jimeng, Doubao, Doubao Work and Volcengine Ark, and a Pro version planned.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;字节 Seedream 5.5 支持 100 轮像素级稳定编辑&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;多轮编辑的像素级稳定性与原生透明通道直击设计生产痛点，是图像模型向专业工作流落地的重要一步。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 74/100&lt;/p&gt;</description>
+<description>&lt;p&gt;字节跳动 Seed 团队发布图像生成模型 Seedream 5.5，主打专业生产工作流：支持最多 100 轮多轮编辑，未改动区域保持像素级一致且无色彩漂移，并原生输出带透明背景的 RGBA 图像，可直接作为设计素材使用。官方称其在密集小文字还原与光影材质真实感上优于 GPT Image 2.5 Sunburst，模型正通过即梦、豆包、豆包工作及火山引擎方舟逐步开放，Pro 版本在规划中。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;多轮编辑的像素级稳定性与原生透明通道直击设计生产痛点，是图像模型向专业工作流落地的重要一步。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 74/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift/">The Decoder</source>
 <category>图像生成</category>
 <category>字节跳动</category>
 <category>Seedream</category>
 <category>多轮编辑</category>
 </item>
-<item><title>E-means Delivers Up to 45x Faster k-means at Lower Loss</title><link>https://e-means.github.io/</link><guid isPermaLink="true">https://e-means.github.io/</guid>
+<item><title>e-means 让 k-means 提速 45 倍且损失更低</title><link>https://e-means.github.io/</link><guid isPermaLink="true">https://e-means.github.io/</guid>
 <pubDate>Tue, 10 Nov 2026 02:45:43 +0800</pubDate>
-<description>&lt;p&gt;Researchers from Meta and École Polytechnique propose e-means, which reaches Lloyd&amp;#x27;s 25-epoch test loss in just 1.2 to 3 epochs. End-to-end measurements show 10-45x wall-clock speedups on GPU versus Flash-KMeans and 8-15x on CPU versus Faiss, while also achieving lower loss, breaking the usual speed-quality tradeoff in k-means.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;e-means 让 k-means 提速 45 倍且损失更低&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;经典聚类算法获得数量级加速且质量不降，对向量检索与大规模数据管线有直接工程价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Meta 与 École Polytechnique 等机构研究者提出 e-means，在同等或更低测试损失下仅需 1.2 至 3 个 epoch 即可达到 Lloyd 算法 25 个 epoch 的效果。端到端实测在 GPU 上相对 Flash-KMeans 实现 10 至 45 倍加速，CPU 上相对 Faiss 提速 8 至 15 倍，同时打破 k-means 中速度与质量此消彼长的传统权衡。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;经典聚类算法获得数量级加速且质量不降，对向量检索与大规模数据管线有直接工程价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://e-means.github.io/">Hacker News AI</source>
 <category>k-means</category>
 <category>聚类算法</category>
 <category>向量检索</category>
 <category>GPU 加速</category>
 </item>
-<item><title>MeowDisplay Open Source Turns iPhone into a Mac Display</title><link>https://meowdisplay.app/</link><guid isPermaLink="true">https://meowdisplay.app/</guid>
+<item><title>MeowDisplay 开源发布 把 iPhone 变成 Mac 扩展屏</title><link>https://meowdisplay.app/</link><guid isPermaLink="true">https://meowdisplay.app/</guid>
 <pubDate>Tue, 10 Nov 2026 02:39:22 +0800</pubDate>
-<description>&lt;p&gt;MeowDisplay is a free, open-source tool that turns an iPhone, iPad, Android device, or another Mac into a mirrored or extended display for a Mac, with touch control. Mac 2.0 is stable for macOS 14+, iOS 2.0 is on the App Store, and Android 10+ is in closed testing.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;MeowDisplay 开源发布 把 iPhone 变成 Mac 扩展屏&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源跨设备投屏工具，实用性强但技术增量有限，适合关注开发者工具生态的读者。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;MeowDisplay 是一款免费开源工具，可将 iPhone、iPad、Android 设备或另一台 Mac 变成 Mac 的镜像或扩展显示屏，并支持触控操作。它已发布 macOS 14+ 的 Mac 2.0 稳定版，iOS 2.0 上架 App Store，Android 10+ 处于封闭测试阶段。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源跨设备投屏工具，实用性强但技术增量有限，适合关注开发者工具生态的读者。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
 <source url="https://meowdisplay.app/">Hacker News AI</source>
 <category>开源工具</category>
 <category>投屏</category>
 <category>Mac</category>
 <category>跨设备</category>
 </item>
-<item><title>DeepX Tapes Out Second-Gen Edge AI Chip Running 100B Models Under 5 W</title><link>https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/</link><guid isPermaLink="true">https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/</guid>
+<item><title>DeepX 流片二代边缘 AI 芯片 5 W 内跑 100B 模型</title><link>https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/</link><guid isPermaLink="true">https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/</guid>
 <pubDate>Tue, 10 Nov 2026 02:33:58 +0800</pubDate>
-<description>&lt;p&gt;South Korean edge AI chip startup DeepX has taped out its second-generation accelerator, the DX-M2, using Samsung&amp;#x27;s custom processor-in-memory technology to run models of up to 100 billion parameters on-device at under 5 W, delivering 10 to 30 tokens per second. The key leap over the mass-produced, vision-focused DX-M1 is a tripling of memory bandwidth, targeting robots, drones and other generative AI edge devices.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;DeepX 流片二代边缘 AI 芯片 5 W 内跑 100B 模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;端侧大模型推理的功耗与带宽瓶颈出现具体硬件解法，对关注边缘算力与具身智能的读者有实质参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;韩国边缘 AI 芯片初创公司 DeepX 已流片第二代 AI 加速器 DX-M2，借助三星定制的存内计算（PIM）技术，在低于 5 W 的功耗预算内实现最高 1000 亿参数模型的端侧推理，输出速度 10-30 tokens/s。相比已量产的视觉向一代芯片 DX-M1，DX-M2 的核心跃升在于内存带宽提升至三倍，目标市场为机器人、无人机等生成式 AI 边缘设备。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;端侧大模型推理的功耗与带宽瓶颈出现具体硬件解法，对关注边缘算力与具身智能的读者有实质参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/">Hacker News AI</source>
 <category>边缘计算</category>
 <category>AI 芯片</category>
 <category>存内计算</category>
 <category>DeepX</category>
 </item>
-<item><title>Dosu Scales Evaluation Driven Development with LangSmith</title><link>https://www.langchain.com/blog/iterating-towards-llm-reliability-with-evaluation-driven-development</link><guid isPermaLink="true">https://www.langchain.com/blog/iterating-towards-llm-reliability-with-evaluation-driven-development</guid>
+<item><title>Dosu 用评估驱动开发提升 LLM 可靠性</title><link>https://www.langchain.com/blog/iterating-towards-llm-reliability-with-evaluation-driven-development</link><guid isPermaLink="true">https://www.langchain.com/blog/iterating-towards-llm-reliability-with-evaluation-driven-development</guid>
 <pubDate>Tue, 10 Nov 2026 02:31:27 +0800</pubDate>
-<description>&lt;p&gt;Dosu describes how it applies evaluation driven development (EDD) to make its LLM-powered engineering agent more reliable, using LangSmith to monitor and search agent activity at scale. The post frames reliability gains as directly reducing maintenance and support burden for the LangChain team.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Dosu 用评估驱动开发提升 LLM 可靠性&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自一线 LLM 产品团队的工程实践分享，展示了评估驱动开发与可观测性工具在真实生产环境中的落地方式。&lt;/p&gt;&lt;p&gt;LangChain Blog · tools · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Dosu 团队分享了如何通过评估驱动开发（EDD）提升 LLM 产品可靠性，并借助 LangSmith 对智能体活动进行监控与检索，从而在每次迭代中量化改动对终端用户的影响。文章以 LangChain 仓库的自动化维护场景为例，说明可靠性的提升如何直接降低维护与支持负担。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自一线 LLM 产品团队的工程实践分享，展示了评估驱动开发与可观测性工具在真实生产环境中的落地方式。&lt;/p&gt;&lt;p&gt;LangChain Blog · tools · signal 42/100&lt;/p&gt;</description>
 <source url="https://www.langchain.com/blog/iterating-towards-llm-reliability-with-evaluation-driven-development">LangChain Blog</source>
 <category>评估驱动开发</category>
 <category>LLM 可靠性</category>
 <category>LangSmith</category>
 <category>智能体</category>
-</item>
-<item><title>LangChain 推出 Promptim 实验性提示词优化库</title><link>https://www.langchain.com/blog/promptim</link><guid isPermaLink="true">https://www.langchain.com/blog/promptim</guid>
-<pubDate>Tue, 10 Nov 2026 02:30:44 +0800</pubDate>
-<description>&lt;p&gt;LangChain 发布实验性开源库 Promptim，将提示词工程从手工调优转向自动化优化循环。用户只需提供初始提示词、数据集与自定义评估器，Promptim 即可迭代产出优于原始版本的提示词，延续其评估驱动开发的方法论。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为提示词工程提供可复用的自动化优化范式，对构建评估驱动 AI 系统的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;LangChain Blog · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.langchain.com/blog/promptim">LangChain Blog</source>
-<category>提示词优化</category>
-<category>LangChain</category>
-<category>开源工具</category>
-<category>评估驱动开发</category>
-</item>
-<item><title>LangSmith BYOC 正式上线 AWS</title><link>https://www.langchain.com/blog/langsmith-byoc-is-now-generally-available-on-aws</link><guid isPermaLink="true">https://www.langchain.com/blog/langsmith-byoc-is-now-generally-available-on-aws</guid>
-<pubDate>Tue, 10 Nov 2026 02:30:23 +0800</pubDate>
-<description>&lt;p&gt;LangChain 宣布 LangSmith 的 BYOC（自带云）部署在 AWS 正式可用，企业可在自有 AWS 账户与 VPC 内运行托管的 LangSmith，追踪、数据集、实验、提示词与智能体部署数据均不出客户云边界。LangChain 负责监控、升级、扩缩容与集群生命周期管理，主要面向需要可观测性与评测能力、但受 PII/PHI 合规约束的智能体生产团队。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向智能体生产化的数据合规部署方案落地，对受监管行业的企业 AI 团队有直接参考价值。&lt;/p&gt;&lt;p&gt;LangChain Blog · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.langchain.com/blog/langsmith-byoc-is-now-generally-available-on-aws">LangChain Blog</source>
-<category>LangSmith</category>
-<category>LangChain</category>
-<category>BYOC</category>
-<category>AWS</category>
-<category>智能体可观测性</category>
-</item>
-<item><title>英飞凌首发 300 毫米碳化硅功率晶圆</title><link>https://www.infineon.com/press-release/2026/infpr202611-028</link><guid isPermaLink="true">https://www.infineon.com/press-release/2026/infpr202611-028</guid>
-<pubDate>Tue, 10 Nov 2026 02:25:01 +0800</pubDate>
-<description>&lt;p&gt;英飞凌在奥地利菲拉赫工厂利用现有硅产线设备，首次在 300 毫米碳化硅晶圆上制成可工作的功率器件，成为首家在全尺寸晶圆厂实现该突破的企业。该进展为车规、可再生能源、工业及 AI 数据中心等场景的碳化硅大规模稳定供应奠定工艺基础，首批成品晶圆将于 11 月 10 日起在慕尼黑 electronica 展公开展出。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;碳化硅从 200mm 迈向 300mm 是功率半导体降本扩产的关键节点，直接关系 AI 数据中心与电动车供电能力。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.infineon.com/press-release/2026/infpr202611-028">Hacker News AI</source>
-<category>碳化硅</category>
-<category>功率半导体</category>
-<category>英飞凌</category>
-<category>AI 数据中心</category>
-</item>
-<item><title>Google 悄然将 Gemini 个人文件与邮件转交人工审核</title><link>https://github.com/thisisme6598/gemini_files/</link><guid isPermaLink="true">https://github.com/thisisme6598/gemini_files/</guid>
-<pubDate>Tue, 10 Nov 2026 02:24:38 +0800</pubDate>
-<description>&lt;p&gt;Google 已推翻 2023 年“个人内容不会被人工审核”的承诺，更新后的帮助文档与博客明确承认，接入的 Drive 文件与 Gmail 邮件会进入人工审核流程。测试显示，即使用户未显式 @Drive 或 @Gmail，后台对话也会以概率方式自动摄取完整文件内容，Google 并警告勿将机密信息接入 Gemini Apps。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是对 Google 此前隐私承诺的实质性反转，直接影响所有使用 Gemini Workspace 扩展的用户与企业数据边界。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://github.com/thisisme6598/gemini_files/">Hacker News AI</source>
-<category>Google Gemini</category>
-<category>数据隐私</category>
-<category>人工审核</category>
-<category>Workspace</category>
-<category>企业合规</category>
-</item>
-<item><title>Meta 发布 Muse Ember 小模型 单任务成本仅 0.03 美元</title><link>https://x.com/arena/status/2119858226867122459</link><guid isPermaLink="true">https://x.com/arena/status/2119858226867122459</guid>
-<pubDate>Tue, 10 Nov 2026 02:22:41 +0800</pubDate>
-<description>&lt;p&gt;Meta 的 Muse Ember (Max) 以 1608 分登顶 Code Arena WebDev 小模型榜，超过 Claude Haiku 5.5 与 GPT-6 Luna。在相同 API 定价下，其单任务中位成本仅 0.03 美元，约为 Luna 的一半、Haiku 的四分之一，处于成本与性能的帕累托前沿。测试中单任务平均耗时约 2 分钟，可一次性生成 20 多个网站与动画。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;小模型在真实编码任务上同时刷新性能与成本边界，对模型选型有直接参考价值。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 72/100&lt;/p&gt;</description>
-<source url="https://x.com/arena/status/2119858226867122459">Arena.ai (@arena)</source>
-<category>小模型</category>
-<category>Meta</category>
-<category>代码生成</category>
-<category>成本优化</category>
-</item>
-<item><title>Meta 发布 Muse Ember 小模型 每任务成本仅 0.03 美元</title><link>https://x.com/arena/status/2119857775446757697</link><guid isPermaLink="true">https://x.com/arena/status/2119857775446757697</guid>
-<pubDate>Tue, 10 Nov 2026 02:20:53 +0800</pubDate>
-<description>&lt;p&gt;Meta 推出迄今最小最高效的模型 Muse Ember，主打复杂推理执行与日常智能体工作流，支持跨应用操作、顺序调用工具、运行测试并做定向代码修复，具备 100 万 token 上下文与原生多模态理解。在 Code Arena WebDev 榜单上以 1608 分成为最强小模型，超过 Claude Haiku 5.5 与 GPT-6 Luna，且中位单任务成本仅 0.03 美元，处于帕累托前沿。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;小模型在真实编码任务上同时拿下性能与成本双优，直接改变智能体选型的经济账。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/arena/status/2119857775446757697">Arena.ai (@arena)</source>
-<category>小模型</category>
-<category>Meta</category>
-<category>代码智能体</category>
-<category>模型评测</category>
 </item>
 </channel>
 </rss>
