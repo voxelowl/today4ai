@@ -1,188 +1,214 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Mon, 09 Nov 2026 22:16:38 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 09 Nov 2026 22:34:00 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
-<item><title>美团开源 1.6 万亿参数 LongCat-2.5 模型</title><link>https://www.ithome.com/1/024/556.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/556.htm</guid>
+<item><title>Zebkit Packages Chromium Engine as Embeddable Library</title><link>https://github.com/ikey4u/zebkit</link><guid isPermaLink="true">https://github.com/ikey4u/zebkit</guid>
+<pubDate>Mon, 09 Nov 2026 22:34:00 +0800</pubDate>
+<description>&lt;p&gt;Zebkit bundles Chromium&amp;#x27;s core components — Blink, V8 with all JIT tiers, PDFium and FFmpeg — into a single linkable library, stripping out both the Chrome browser shell and Electron&amp;#x27;s runtime. Applications in C, C++, Rust, Python or JavaScript integrate it directly for web rendering, PDF, media and crypto, running inside the host&amp;#x27;s own event loop and windows. It positions itself as a component you add, not a base you build on, contrasting with Electron&amp;#x27;s model.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Zebkit 将 Chromium 引擎封装为可嵌入库&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为桌面应用提供轻量级 Chromium 嵌入方案，绕开 Electron 运行时开销，对跨平台客户端开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 72/100&lt;/p&gt;</description>
+<source url="https://github.com/ikey4u/zebkit">Hacker News AI</source>
+<category>开发者工具</category>
+<category>Chromium</category>
+<category>跨平台</category>
+<category>开源项目</category>
+</item>
+<item><title>Khosla Backs Coframe&#x27;s $25M Round to Build AI-Personalized Websites</title><link>https://www.ithome.com/1/024/559.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/559.htm</guid>
+<pubDate>Mon, 09 Nov 2026 22:32:49 +0800</pubDate>
+<description>&lt;p&gt;Coframe has raised a $25 million Series A co-led by Khosla Ventures and Hanabi Capital, bringing total funding to $35 million. The startup aims to use generative AI to dynamically generate tailored web pages for each visitor, an idea it calls the &amp;#x27;living internet.&amp;#x27; Vinod Khosla argues the era of identical pages for all visitors is ending and that personalization can fix deteriorating shopping experiences like Amazon&amp;#x27;s.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;科斯拉押注 Coframe 融资 2500 万美元打造个性化网页&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;知名投资人科斯拉押注 AI 个性化网页赛道，反映生成式 AI 向营销技术渗透的产业动向。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 52/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/024/559.htm">IT之家 · 智能时代</source>
+<category>AI 个性化</category>
+<category>风险投资</category>
+<category>营销技术</category>
+</item>
+<item><title>Ex-DOJ Antitrust Chief Launches AI Legal Startup FluxCap</title><link>https://www.theverge.com/policy/1029652/kanter-doj-biden-legal-tech</link><guid isPermaLink="true">https://www.theverge.com/policy/1029652/kanter-doj-biden-legal-tech</guid>
+<pubDate>Mon, 09 Nov 2026 22:30:00 +0800</pubDate>
+<description>&lt;p&gt;Former Justice Department Antitrust Division head Jonathan Kanter and former acting chief Doha Mekki have launched FluxCap, a startup selling an AI legal research and analysis tool aimed at helping plaintiffs build antitrust cases against large companies. The team combines ex-DOJ staffers with former Palantir engineers, and the product will start with antitrust before expanding into other practice areas.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美司法部前反垄断主管创办 AI 法律初创公司&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;前监管高层携 AI 工具切入法律诉讼市场，是 AI 垂直落地与产业权力结构变化的典型信号。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.theverge.com/policy/1029652/kanter-doj-biden-legal-tech">The Verge AI</source>
+<category>AI 法律</category>
+<category>反垄断</category>
+<category>FluxCap</category>
+<category>垂直应用</category>
+</item>
+<item><title>Meituan Open Sources 1.6T-Parameter LongCat-2.5 Model</title><link>https://www.ithome.com/1/024/556.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/556.htm</guid>
 <pubDate>Mon, 09 Nov 2026 22:16:38 +0800</pubDate>
-<description>&lt;p&gt;美团龙猫正式开源原生多模态模型 LongCat-2.5，总参数 1.6 万亿、每 token 激活约 480 亿，支持百万级上下文，采用 MIT 协议允许商用推理与二次训练。模型将视觉信号量化为多层级离散 token 并与文本共享主干参数，同时以 W4A4 4 bit 量化方案适配显存与带宽受限的国产算力芯片。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;万亿级参数原生多模态模型以 MIT 协议开源，并针对国产芯片做量化与部署协同优化，是开源生态的重要节点。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 88/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Meituan LongCat has open-sourced LongCat-2.5, a natively multimodal model with 1.6 trillion total parameters, roughly 48 billion activated per token, and one-million-token context, released under the MIT license for commercial inference and retraining. It encodes visual signals as multi-level discrete tokens sharing the same backbone as text, and uses a W4A4 4-bit quantization scheme tuned for domestic AI chips constrained by memory and bandwidth.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美团开源 1.6 万亿参数 LongCat-2.5 模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;万亿级参数原生多模态模型以 MIT 协议开源，并针对国产芯片做量化与部署协同优化，是开源生态的重要节点。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 88/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/556.htm">IT之家 · 智能时代</source>
 <category>大模型</category>
 <category>开源</category>
 <category>多模态</category>
 <category>美团</category>
 </item>
-<item><title>Automattic 推出 Spacefast 支持一键部署氛围编程应用</title><link>https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/</guid>
+<item><title>Automattic Launches Spacefast to Deploy Vibe-Coded Apps</title><link>https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/</guid>
 <pubDate>Mon, 09 Nov 2026 22:00:00 +0800</pubDate>
-<description>&lt;p&gt;Automattic 推出 Spacefast 平台，为氛围编程生成的网站和应用提供数据库、鉴权、文件上传、邮件与数据分析等后端基础设施，可直接对接 ChatGPT、Claude、Cursor 等智能体或 Git 仓库。该产品以更开放的姿态对标 Lovable 与 Emergent，是 WordPress 母公司应对 Web 形态变化的一次产品延伸。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流建站厂商切入氛围编程部署基础设施，反映 AI 生成应用的后端托管正成为新竞争赛道。&lt;/p&gt;&lt;p&gt;TechCrunch AI · tools · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Automattic has launched Spacefast, a platform that supplies databases, authentication, file uploads, email and analytics for vibe-coded sites and apps, connectable to agents such as ChatGPT, Claude and Cursor or to a Git repository. Positioned as a more open rival to Lovable and Emergent, it extends the WordPress owner&amp;#x27;s product line as the web shifts.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Automattic 推出 Spacefast 支持一键部署氛围编程应用&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流建站厂商切入氛围编程部署基础设施，反映 AI 生成应用的后端托管正成为新竞争赛道。&lt;/p&gt;&lt;p&gt;TechCrunch AI · tools · signal 62/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/">TechCrunch AI</source>
 <category>氛围编程</category>
 <category>Automattic</category>
 <category>开发者工具</category>
 <category>WordPress</category>
 </item>
-<item><title>Meta 全球推广 AI 年龄估算 强化青少年账户保护</title><link>https://www.ithome.com/1/024/546.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/546.htm</guid>
+<item><title>Meta Expands AI Age Estimation to Protect Teen Accounts Globally</title><link>https://www.ithome.com/1/024/546.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/546.htm</guid>
 <pubDate>Mon, 09 Nov 2026 21:43:55 +0800</pubDate>
-<description>&lt;p&gt;Meta 宣布在全球范围推广 AI 年龄估算技术，将 Instagram 上数百万自称成年人的青少年用户重新纳入“青少年账户”保护体系。此举直接回应其因平台伤害未成年人而面临的诉讼压力，此前 Meta 已与美国各州达成最高 180 亿美元和解。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大厂用 AI 做年龄识别并全球落地，是内容安全合规与 AI 风控的典型产业信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Meta announced a global rollout of AI age-estimation technology that will pull millions of Instagram teens who claim to be adults back into its Teen Accounts protections. The move responds to litigation over youth harm, following a settlement with US states worth up to $18 billion.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 全球推广 AI 年龄估算 强化青少年账户保护&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大厂用 AI 做年龄识别并全球落地，是内容安全合规与 AI 风控的典型产业信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/546.htm">IT之家 · IT业界</source>
 <category>AI 风控</category>
 <category>Meta</category>
 <category>内容安全</category>
 <category>青少年保护</category>
 </item>
-<item><title>ChatGPT 占全球 AI 聊天机器人流量超 81%</title><link>https://www.ithome.com/1/024/542.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/542.htm</guid>
+<item><title>ChatGPT Captures Over 81 Percent of Global AI Chatbot Traffic</title><link>https://www.ithome.com/1/024/542.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/542.htm</guid>
 <pubDate>Mon, 09 Nov 2026 21:32:43 +0800</pubDate>
-<description>&lt;p&gt;Graphite 基于 Similarweb 数据的研究显示，ChatGPT 目前占全球主要 AI 聊天机器人总流量超 81%，无一家竞争对手份额达 10%，月访问量 9 月创下 613.5 亿次新高。全球 AI 服务月访问量达 760 亿次、同比增长 37%，且超 90% 使用量来自美国以外地区。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以第三方流量数据量化 ChatGPT 的压倒性主导地位与 AI 使用的全球化分布，为竞争格局判断提供硬性参照。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;A Graphite study using Similarweb data finds ChatGPT now accounts for over 81% of global traffic across major AI chatbot tools, with no rival reaching 10% share and monthly visits hitting a record 61.35 billion in September. Global AI service visits reached 76 billion, up 37% year over year, with more than 90% of usage coming from outside the US.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;ChatGPT 占全球 AI 聊天机器人流量超 81%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以第三方流量数据量化 ChatGPT 的压倒性主导地位与 AI 使用的全球化分布，为竞争格局判断提供硬性参照。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/542.htm">IT之家 · 智能时代</source>
 <category>行业格局</category>
 <category>ChatGPT</category>
 <category>流量数据</category>
 </item>
-<item><title>AI 初创用非公开 Claude 模型证明量子计算猜想</title><link>https://importai.substack.com/p/import-ai-480-self-sustaining-space</link><guid isPermaLink="true">https://importai.substack.com/p/import-ai-480-self-sustaining-space</guid>
+<item><title>AI Startup Proves Quantum Computing Conjecture Using Private Claude Model</title><link>https://importai.substack.com/p/import-ai-480-self-sustaining-space</link><guid isPermaLink="true">https://importai.substack.com/p/import-ai-480-self-sustaining-space</guid>
 <pubDate>Mon, 09 Nov 2026 21:31:34 +0800</pubDate>
-<description>&lt;p&gt;AI for Science 初创公司 Physical Superintelligence 利用内部研究系统（运行非公开的 Anthropic 模型）在三天内为 Scott Aaronson 与 Andris Ambainis 自 2008 年悬而未决的量子计算加速猜想找到了完整证明，并经 Lean 证明助手验证。这是 AI 系统自主扩展人类知识边界的标志性案例，也预示合成研究者产出速度将超越人类理解速度。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 首次自主证明基础科学领域长期悬置的猜想，是 AI for Science 能力跃迁的强信号。&lt;/p&gt;&lt;p&gt;Import AI (Jack Clark) · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;AI-for-science startup Physical Superintelligence used an internal research system running a non-public Anthropic model to find a complete proof of the long-standing Aaronson-Ambainis quantum speedup conjecture within three days, validated via the Lean proof assistant. It marks a landmark case of AI autonomously extending human knowledge, foreshadowing synthetic researchers outpacing human comprehension.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 初创用非公开 Claude 模型证明量子计算猜想&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 首次自主证明基础科学领域长期悬置的猜想，是 AI for Science 能力跃迁的强信号。&lt;/p&gt;&lt;p&gt;Import AI (Jack Clark) · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://importai.substack.com/p/import-ai-480-self-sustaining-space">Import AI (Jack Clark)</source>
 <category>AI for Science</category>
 <category>量子计算</category>
 <category>形式化验证</category>
 <category>Anthropic</category>
 </item>
-<item><title>Google 一年内推出四款 TPU 变体 加码挑战英伟达</title><link>https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia/</link><guid isPermaLink="true">https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia/</guid>
+<item><title>Google Ships Four TPU Variants in a Year to Challenge Nvidia</title><link>https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia/</link><guid isPermaLink="true">https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia/</guid>
 <pubDate>Mon, 09 Nov 2026 20:59:02 +0800</pubDate>
-<description>&lt;p&gt;Google 在第八代 TPU 产品线中新增 TPU 8tx 与 TPU 8i Max 两款变体，前者支持处理过程中对机密数据保持加密，后者通过单封装双芯片在同一机架内实现内存与算力翻倍。结合 TorchTPU 等软件工具，Google 正降低开发者使用门槛，并将自研芯片推向外部客户的日常推理场景。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Google 一年内推出四款 TPU 变体并强化机密计算与推理能力，是 AI 算力竞争格局中的关键动向。&lt;/p&gt;&lt;p&gt;The Decoder · compute · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Google has added two variants to its eighth-generation TPU lineup: TPU 8tx, which keeps confidential data encrypted during processing, and TPU 8i Max, which doubles memory and compute per rack by pairing two chips in a single package. Alongside software such as TorchTPU, Google is lowering the barrier for developers and marketing its in-house silicon to external customers for everyday inference.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Google 一年内推出四款 TPU 变体 加码挑战英伟达&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Google 一年内推出四款 TPU 变体并强化机密计算与推理能力，是 AI 算力竞争格局中的关键动向。&lt;/p&gt;&lt;p&gt;The Decoder · compute · signal 72/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia/">The Decoder</source>
 <category>算力芯片</category>
 <category>Google</category>
 <category>TPU</category>
 <category>英伟达</category>
 </item>
-<item><title>谷歌扩充 TPU 阵容推出 8tx 与 8i Max 两款新品</title><link>https://www.ithome.com/1/024/525.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/525.htm</guid>
+<item><title>Google Expands TPU Lineup with 8tx and 8i Max Chips</title><link>https://www.ithome.com/1/024/525.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/525.htm</guid>
 <pubDate>Mon, 09 Nov 2026 20:43:54 +0800</pubDate>
-<description>&lt;p&gt;谷歌宣布扩充自研 TPU 产品阵容，新增面向机密计算的 TPU 8tx 与面向超长上下文场景的 TPU 8i Max，将产品线扩展至四款。两款新品并非全新设计，而是在现有芯片基础上重新配置，其中 8tx 将与 AMD 芯片协同工作。谷歌芯片负责人表示，产品迭代节奏已从两年一款明显加快，意在英伟达供应紧张之际抢占 AI 芯片市场。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;谷歌 TPU 产品线扩容与迭代提速，是 AI 算力供给格局变化的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Google is expanding its custom TPU lineup with two new chips: TPU 8tx for confidential computing and TPU 8i Max for ultra-long-context AI workloads, bringing the family to four products. Both are reconfigured rather than fully redesigned silicon, with 8tx designed to work alongside AMD chips. Google&amp;#x27;s chip chief said iteration has accelerated well beyond the previous two-year cadence as the company seeks to capitalize on Nvidia&amp;#x27;s supply constraints.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌扩充 TPU 阵容推出 8tx 与 8i Max 两款新品&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;谷歌 TPU 产品线扩容与迭代提速，是 AI 算力供给格局变化的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/525.htm">IT之家 · IT业界</source>
 <category>芯片算力</category>
 <category>谷歌</category>
 <category>TPU</category>
 <category>英伟达</category>
 </item>
-<item><title>亚马逊提出 HOPE 高阶专家剪枝 让 MoE 模型内存占用大幅下降</title><link>https://huggingface.co/blog/amazon/higher-order-pruning-experts</link><guid isPermaLink="true">https://huggingface.co/blog/amazon/higher-order-pruning-experts</guid>
+<item><title>Amazon&#x27;s HOPE Higher-Order Expert Pruning Cuts MoE Memory Footprint</title><link>https://huggingface.co/blog/amazon/higher-order-pruning-experts</link><guid isPermaLink="true">https://huggingface.co/blog/amazon/higher-order-pruning-experts</guid>
 <pubDate>Mon, 09 Nov 2026 20:34:29 +0800</pubDate>
-<description>&lt;p&gt;亚马逊团队提出 HOPE 高阶专家剪枝方法，针对混合专家（MoE）大模型推理时专家 MLP 占用绝大部分显存、但每个 token 仅激活少数专家的问题，通过考虑专家之间的耦合关系而非独立评估来删除冗余专家。以 Qwen3.5-122B 为例，其 48 个 MoE 层每层 256 个专家，约 250 GB 参数中 95% 来自专家 MLP，而每 token 每层仅用 8 个，剪枝空间巨大。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;直击 MoE 推理显存瓶颈，提出可落地的专家剪枝新方法，对部署百亿级 MoE 模型有直接参考价值。&lt;/p&gt;&lt;p&gt;Hugging Face Blog · llm · signal 74/100&lt;/p&gt;</description>
+<description>&lt;p&gt;An Amazon research team introduces HOPE, a higher-order expert pruning method for Mixture-of-Experts LLMs that removes redundant experts by accounting for inter-expert coupling rather than scoring them independently. The work targets the memory bottleneck where expert MLPs dominate inference footprint: Qwen3.5-122B has 256 experts per layer across 48 MoE layers, with 95% of its ~250 GB parameters in expert MLPs while only 8 experts per layer activate per token.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊提出 HOPE 高阶专家剪枝 让 MoE 模型内存占用大幅下降&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;直击 MoE 推理显存瓶颈，提出可落地的专家剪枝新方法，对部署百亿级 MoE 模型有直接参考价值。&lt;/p&gt;&lt;p&gt;Hugging Face Blog · llm · signal 74/100&lt;/p&gt;</description>
 <source url="https://huggingface.co/blog/amazon/higher-order-pruning-experts">Hugging Face Blog</source>
 <category>混合专家</category>
 <category>模型剪枝</category>
 <category>推理优化</category>
 <category>亚马逊</category>
 </item>
-<item><title>特朗普要求新建 AI 数据中心自建电厂</title><link>https://x.com/rohanpaul_ai/status/2119770157568704878</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119770157568704878</guid>
+<item><title>Trump Demands New AI Data Centers Build Their Own Power Plants</title><link>https://x.com/rohanpaul_ai/status/2119770157568704878</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119770157568704878</guid>
 <pubDate>Mon, 09 Nov 2026 20:32:43 +0800</pubDate>
-<description>&lt;p&gt;特朗普在 CBS《60 分钟》采访中表示，已要求所有新建 AI 数据中心自建发电设施，并将多余电力回馈老旧的公共电网。该表态直指 AI 算力扩张带来的电力瓶颈，若落地将重塑数据中心选址、供电架构与并网模式。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是直接影响 AI 算力基础设施供电模式的政策信号，值得关注算力扩张的读者留意。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;In a CBS 60 Minutes interview, President Trump said every new AI data center under his administration must build its own power generation and feed surplus electricity back into the aging public grid. The stance targets the power bottleneck of AI compute expansion and, if enacted, would reshape data center siting, on-site generation and grid interconnection.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;特朗普要求新建 AI 数据中心自建电厂&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是直接影响 AI 算力基础设施供电模式的政策信号，值得关注算力扩张的读者留意。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 62/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2119770157568704878">Rohan Paul (@rohanpaul_ai)</source>
 <category>算力基础设施</category>
 <category>数据中心</category>
 <category>电力</category>
 <category>政策</category>
 </item>
-<item><title>AI 估值回调 Anthropic IPO 估值降至 1.1 万亿美元</title><link>https://x.com/rohanpaul_ai/status/2119767465253331109</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119767465253331109</guid>
+<item><title>AI Valuation Reset Deepens as Anthropic IPO Slashed to $1.1T</title><link>https://x.com/rohanpaul_ai/status/2119767465253331109</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119767465253331109</guid>
 <pubDate>Mon, 09 Nov 2026 20:22:01 +0800</pubDate>
-<description>&lt;p&gt;亚洲杠杆 AI 头寸遭遇追加保证金，经纪商警告平仓或延续，AI 资产估值面临进一步下修。Anthropic IPO 买方讨论估值低至 1.1 万亿美元，远低于此前 2 万亿美元预期；OpenAI 募资目标从 300 亿美元降至约 200 亿美元，Nscale IPO 估值也被压至 160 亿至 190 亿美元区间。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部模型公司 IPO 与募资估值集体大幅下修，是 AI 资本周期转向的关键信号。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Margin calls on leveraged AI positions in Asia and broker warnings of continued unwinding point to further valuation downside before deals close. Anthropic IPO buyers are discussing a valuation as low as $1.1T versus earlier estimates up to $2T, OpenAI cut its raise from $30B at $1.4T to about $20B at $1.25T, and Nscale&amp;#x27;s IPO valuation was pushed from a requested $30B to a $16B-$19B range.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 估值回调 Anthropic IPO 估值降至 1.1 万亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部模型公司 IPO 与募资估值集体大幅下修，是 AI 资本周期转向的关键信号。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2119767465253331109">Rohan Paul (@rohanpaul_ai)</source>
 <category>融资估值</category>
 <category>IPO</category>
 <category>Anthropic</category>
 <category>OpenAI</category>
 </item>
-<item><title>法学教授让 Claude 改页码反被删全年课堂笔记</title><link>https://www.ithome.com/1/024/515.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/515.htm</guid>
+<item><title>Law Professor Says Claude Deleted a Year of Class Notes Over Page-Number Edit</title><link>https://www.ithome.com/1/024/515.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/515.htm</guid>
 <pubDate>Mon, 09 Nov 2026 20:14:54 +0800</pubDate>
-<description>&lt;p&gt;芝加哥大学法学院教授 William Baude 请 Claude 更新讲义页码，午餐后发现 Claude 误删了全年课堂笔记和本学期课程大纲，所幸通过 Dropbox 全部恢复。Claude 主动承认了错误，事件凸显具备文件操作权限的 AI 智能体在权限配置与备份上的现实风险。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;真实案例揭示 AI 智能体直接操作本地文件时的误删风险，对权限设计与备份策略有直接警示价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;University of Chicago law professor William Baude asked Claude to update page numbers in his lecture notes and returned from lunch to find a full year of class notes and the current syllabus deleted; all files were later restored via Dropbox. Claude acknowledged the mistake unprompted, highlighting the real-world risks of giving file-operating AI agents write access without backups.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;法学教授让 Claude 改页码反被删全年课堂笔记&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;真实案例揭示 AI 智能体直接操作本地文件时的误删风险，对权限设计与备份策略有直接警示价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/515.htm">IT之家 · 智能时代</source>
 <category>AI 智能体</category>
 <category>Anthropic</category>
 <category>数据安全</category>
 <category>AI 风险</category>
 </item>
-<item><title>UCLA 研究称 AI 智能体输出约 18% 的 token 属可删冗余</title><link>https://x.com/rohanpaul_ai/status/2119765613560410240</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119765613560410240</guid>
+<item><title>UCLA Study Finds 18% of AI Agent Output Tokens Are Wasted</title><link>https://x.com/rohanpaul_ai/status/2119765613560410240</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119765613560410240</guid>
 <pubDate>Mon, 09 Nov 2026 20:14:40 +0800</pubDate>
-<description>&lt;p&gt;UCLA 与东北大学联合论文提出一种代理式审计方法：让 LLM 裁判标记智能体输出中可安全删除的片段，再重跑任务验证。在 6 个前沿模型与 4 个基准上，约 18% 的输出 token 属冗余；对 Kimi-K3 在 SWE-bench Verified 上剪除重复与填充内容后，token 减少 41%，成功率仍保持 89.5%（原为 89.0%）。结论是降本应定位任务与执行框架中的浪费来源，而非简单限制 token 上限。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;给出可复用的智能体成本审计方法与量化结论，对做 Agent 工程的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;A UCLA and Northeastern University paper introduces a proxy-based audit that uses an LLM judge to mark removable spans in agent output, then reruns tasks to verify nothing breaks. Across six frontier models and four benchmarks, roughly 18% of output tokens were waste; pruning repetition and filler from Kimi-K3&amp;#x27;s reasoning on SWE-bench Verified cut 41% of tokens while success held at 89.5% versus 89.0%. The takeaway: cut agent costs by locating waste in your task and harness, not by capping tokens.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;UCLA 研究称 AI 智能体输出约 18% 的 token 属可删冗余&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;给出可复用的智能体成本审计方法与量化结论，对做 Agent 工程的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 72/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2119765613560410240">Rohan Paul (@rohanpaul_ai)</source>
 <category>智能体</category>
 <category>Token 成本</category>
 <category>学术论文</category>
 <category>SWE-bench</category>
 </item>
-<item><title>韩国高考全面禁带 AI 眼镜并设专人检查</title><link>https://www.ithome.com/1/024/502.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/502.htm</guid>
+<item><title>South Korea Bans AI Glasses From College Entrance Exam</title><link>https://www.ithome.com/1/024/502.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/502.htm</guid>
 <pubDate>Mon, 09 Nov 2026 19:43:43 +0800</pubDate>
-<description>&lt;p&gt;韩国教育部发布考生指南，明确 2026 学年大学修学能力考试禁止携带手机、AI 眼镜、智能手表等任何电子设备入场，每个考点安排专人专查 AI 眼镜。佩戴即取消当年成绩及下一年度报考资格，未上交者按作弊处理。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 硬件进入考场后引发的首个国家级监管落地案例，对可穿戴 AI 设备的合规边界具有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;South Korea&amp;#x27;s education ministry issued exam guidelines banning all electronic devices, including AI glasses, phones and smartwatches, from the national college entrance exam. Each test site will assign a staffer to specifically screen for AI glasses, with violators losing this year&amp;#x27;s results and next year&amp;#x27;s eligibility.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;韩国高考全面禁带 AI 眼镜并设专人检查&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 硬件进入考场后引发的首个国家级监管落地案例，对可穿戴 AI 设备的合规边界具有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 38/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/502.htm">IT之家 · 智能时代</source>
 <category>AI 眼镜</category>
 <category>教育监管</category>
 <category>韩国</category>
 </item>
-<item><title>手写 85 页笔记与 6 小时视频从零构建 LLM 推理引擎</title><link>https://github.com/samir-sarwar/samir-vllm</link><guid isPermaLink="true">https://github.com/samir-sarwar/samir-vllm</guid>
+<item><title>Handwritten Notes and Six Hours of Video Teach LLM Inference From Scratch</title><link>https://github.com/samir-sarwar/samir-vllm</link><guid isPermaLink="true">https://github.com/samir-sarwar/samir-vllm</guid>
 <pubDate>Mon, 09 Nov 2026 19:36:55 +0800</pubDate>
-<description>&lt;p&gt;开发者开源了 samir-vllm 教学项目，用 C++ 与 CUDA 从零实现一个小型推理引擎，完整覆盖从加载 SafeTensor 权重到 Transformer 各层 GPU 执行的流程。配套材料包括 85 页手写笔记 PDF 与 6 小时以上视频，强调无 AI 代写，适合想深入理解推理底层机制的工程师系统学习。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;少见的从第一性原理出发、以手写代码与笔记讲解 LLM 推理全链路的系统教程，对想深入推理底层的工程师有直接学习价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;A developer has open-sourced samir-vllm, a teaching project that builds a small LLM inference engine from scratch in C++ and CUDA, covering everything from loading SafeTensor weights to executing each transformer stage on GPU. It ships with 85 pages of handwritten notes and over six hours of video, explicitly written without AI assistance, making it a solid structured resource for engineers who want to understand inference internals.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;手写 85 页笔记与 6 小时视频从零构建 LLM 推理引擎&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;少见的从第一性原理出发、以手写代码与笔记讲解 LLM 推理全链路的系统教程，对想深入推理底层的工程师有直接学习价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://github.com/samir-sarwar/samir-vllm">Hacker News AI</source>
 <category>LLM 推理</category>
 <category>CUDA</category>
 <category>教程</category>
 <category>开源项目</category>
 </item>
-<item><title>深入解析 malloc 内存分配与系统调用机制</title><link>https://benmandrew.com/articles/what-is-malloc-doing-anyway</link><guid isPermaLink="true">https://benmandrew.com/articles/what-is-malloc-doing-anyway</guid>
+<item><title>How malloc Really Works Under the Hood</title><link>https://benmandrew.com/articles/what-is-malloc-doing-anyway</link><guid isPermaLink="true">https://benmandrew.com/articles/what-is-malloc-doing-anyway</guid>
 <pubDate>Mon, 09 Nov 2026 19:31:05 +0800</pubDate>
-<description>&lt;p&gt;文章以 glibc 为例，通过 strace 追踪 1000 次 malloc(16) 调用，发现仅触发两次 brk 系统调用，堆一次性扩展 132 KiB，其余分配均复用已申请内存。作者进一步测量空系统调用耗时约 575 ns，说明用户态分配器通过批量预取与簿记来摊薄内核调用开销。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以实测数据清晰揭示 malloc 与内核系统调用之间的协作机制，是理解内存分配器设计的优质技术科普。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Using glibc and strace, the author traces 1000 malloc(16) calls and finds only two brk syscalls, with the heap grown once by 132 KiB and the rest served from that pool. An empty syscall costs about 575 ns, explaining why user-space allocators batch kernel requests and do bookkeeping locally.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;深入解析 malloc 内存分配与系统调用机制&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以实测数据清晰揭示 malloc 与内核系统调用之间的协作机制，是理解内存分配器设计的优质技术科普。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
 <source url="https://benmandrew.com/articles/what-is-malloc-doing-anyway">Hacker News AI</source>
 <category>内存分配</category>
 <category>glibc</category>
 <category>系统调用</category>
 <category>性能优化</category>
 </item>
-<item><title>AI 智能体 11 天写出可启动 Linux 用户态的 Rust 内核</title><link>https://zenodo.org/records/23682548</link><guid isPermaLink="true">https://zenodo.org/records/23682548</guid>
+<item><title>AI Agent Builds Rust Kernel Booting Linux Userspace in 11 Days</title><link>https://zenodo.org/records/23682548</link><guid isPermaLink="true">https://zenodo.org/records/23682548</guid>
 <pubDate>Mon, 09 Nov 2026 19:30:27 +0800</pubDate>
-<description>&lt;p&gt;CIQ 发布实验报告，提出“人类主导的智能体工程”（HDAE）方法：由人类定义架构、约束、里程碑与验收标准，智能体自主完成实现、执行、诊断与修订闭环。在 11 天内，一个持续运行的编码智能体任务产出了 Rust 优先的 x86-64 内核 Ginux，经 UEFI 启动，自研核心 OS 机制与 Linux 兼容层，可运行部分未修改的 Alpine Linux 程序，并借助 systemd 启动 Rocky Linux 10 用户态至 multi-user.target。作者明确其为研究原型，兼容性与硬件覆盖窄，未经独立安全审计，不宣称生产可用。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是智能体自主完成大型系统软件工程的少见可验证案例，为评估编码智能体的能力边界提供了具体证据。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 74/100&lt;/p&gt;</description>
+<description>&lt;p&gt;CIQ published an experiment report introducing Human-Directed Agentic Engineering (HDAE), in which humans define architecture, constraints, milestones and acceptance criteria while an agent autonomously implements, executes, diagnoses and revises. Over eleven days a single persistent coding-agent task produced Ginux, a Rust-first x86-64 kernel that boots via UEFI, implements its own core OS mechanisms and a Linux compatibility layer, runs selected unmodified Alpine Linux programs, and boots a Rocky Linux 10 userspace with systemd to multi-user.target. The authors stress it is a research prototype with narrow compatibility and hardware coverage, no independent security audit, and no production-readiness claim.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 智能体 11 天写出可启动 Linux 用户态的 Rust 内核&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是智能体自主完成大型系统软件工程的少见可验证案例，为评估编码智能体的能力边界提供了具体证据。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 74/100&lt;/p&gt;</description>
 <source url="https://zenodo.org/records/23682548">Hacker News AI</source>
 <category>智能体</category>
 <category>操作系统内核</category>
 <category>Rust</category>
 <category>AI 辅助工程</category>
 </item>
-<item><title>挪威暂停新建数据中心电网接入 申请量达 2.6 万兆瓦</title><link>https://www.ithome.com/1/024/495.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/495.htm</guid>
+<item><title>Norway Halts Grid Capacity Reservations for New Data Centers</title><link>https://www.ithome.com/1/024/495.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/495.htm</guid>
 <pubDate>Mon, 09 Nov 2026 19:25:57 +0800</pubDate>
-<description>&lt;p&gt;挪威国家电网运营商 Statnett 宣布，在政府建立数据中心许可制度前，暂停为新建数据中心预留电网接入容量。今年接入申请总量已达 2.6 万兆瓦，超过挪威现有发电能力，其中数据中心占 75%。新制度将优先保障国防、医疗与关键基础设施项目，限制全球云厂商与加密矿企获取土地和电力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 算力扩张与电力供给矛盾在国家级政策层面显性化，挪威成为最新设限国家，对算力基建布局有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 68/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Norway&amp;#x27;s grid operator Statnett has suspended reserving grid capacity for new data centers until the government establishes a licensing regime. Connection requests this year total 26,000 MW, exceeding the country&amp;#x27;s current generation capacity, with data centers accounting for 75%. The new rules will prioritize defense, healthcare and critical infrastructure while restricting land and power access for global cloud providers and crypto miners.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;挪威暂停新建数据中心电网接入 申请量达 2.6 万兆瓦&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 算力扩张与电力供给矛盾在国家级政策层面显性化，挪威成为最新设限国家，对算力基建布局有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 68/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/495.htm">IT之家 · IT业界</source>
 <category>算力基础设施</category>
 <category>数据中心</category>
 <category>能源政策</category>
 <category>挪威</category>
 </item>
-<item><title>伯克利等机构发现智能体自改脚手架会丢失已解任务</title><link>https://x.com/rohanpaul_ai/status/2119746041834877109</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119746041834877109</guid>
+<item><title>Berkeley-Led Study Finds Self-Evolving Agent Harnesses Lose Solved Tasks</title><link>https://x.com/rohanpaul_ai/status/2119746041834877109</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119746041834877109</guid>
 <pubDate>Mon, 09 Nov 2026 18:56:54 +0800</pubDate>
-<description>&lt;p&gt;加州大学伯克利分校等机构的新论文发现，让智能体自行改写提示词、技能、工具或代码以提升基准分数，会掩盖其丢失原本已解决任务的问题。研究用 4 种进化方法、GPT-5.4 在 2 套脚手架与 2 个基准上测试，16 个进化后智能体全部有得有失，其中一个可靠性提升 5.2 分却丢掉 10 个原有任务，11 个更可靠的智能体中有 8 个单次运行成本上升。作者建议评估时同时追踪丢失任务、运行成本与未见任务表现，而非只看平均分。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究揭示智能体脚手架自进化中平均分掩盖任务丢失与成本上升的系统性偏差，对智能体评测与工程实践有直接指导价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;A new paper from UC Berkeley and other top labs finds that letting agents rewrite their own prompts, skills, tools, or code to raise benchmark scores hides tasks they lose along the way. Testing 4 evolution methods including GEPA and HyperAgents with GPT-5.4 across 2 harnesses and 2 benchmarks, all 16 evolved agents gained some tasks and lost others; one raised reliability by 5.2 points while dropping 10 previously covered tasks, and 8 of 11 more-reliable agents cost more per run. The authors urge tracking lost tasks, cost per run, and unseen-task results rather than average score alone.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;伯克利等机构发现智能体自改脚手架会丢失已解任务&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究揭示智能体脚手架自进化中平均分掩盖任务丢失与成本上升的系统性偏差，对智能体评测与工程实践有直接指导价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2119746041834877109">Rohan Paul (@rohanpaul_ai)</source>
 <category>智能体</category>
 <category>脚手架进化</category>
 <category>基准评测</category>
 <category>伯克利</category>
 </item>
-<item><title>瑞银 CEO 称 AI 概念股回调源于过高期望</title><link>https://www.ithome.com/1/024/432.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/432.htm</guid>
+<item><title>UBS CEO Says AI Stock Pullback Reflects Overblown Expectations</title><link>https://www.ithome.com/1/024/432.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/432.htm</guid>
 <pubDate>Mon, 09 Nov 2026 18:19:11 +0800</pubDate>
-<description>&lt;p&gt;瑞银 CEO 安思杰将过去数周 AI 概念股的大幅回调归因于投资者此前期望过高，并指出美国中期选举结果与全球基础设施扩建影响的讨论可能拖慢 AI 行业兑现预期成果的进程。该表态属于高管对市场情绪与宏观变量的定性判断，未涉及具体业务数据或技术路线。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部金融机构掌门人对 AI 板块估值回调的公开定性，是观察资本情绪与产业预期差的一个信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;UBS CEO Sergio Ermotti attributed the sharp pullback in AI-related stocks over recent weeks to investors&amp;#x27; previously inflated expectations, noting that U.S. midterm election results and global debate over infrastructure buildout could slow the industry&amp;#x27;s path to delivering expected outcomes. The remarks are a qualitative executive read on market sentiment and macro variables, without specific business data or technical detail.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;瑞银 CEO 称 AI 概念股回调源于过高期望&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部金融机构掌门人对 AI 板块估值回调的公开定性，是观察资本情绪与产业预期差的一个信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 38/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/432.htm">IT之家 · 智能时代</source>
 <category>AI 概念股</category>
 <category>资本市场</category>
 <category>瑞银</category>
 </item>
-<item><title>腾讯工程师反思 AI 编程提交量暴涨数十倍</title><link>https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&amp;mid=2649808120&amp;idx=1&amp;sn=b007fdc7119e2018ef1a0ffda9a41b0a</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&amp;mid=2649808120&amp;idx=1&amp;sn=b007fdc7119e2018ef1a0ffda9a41b0a</guid>
+<item><title>Tencent Engineer Warns AI Coding Inflates Commits Dozens of Times</title><link>https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&amp;mid=2649808120&amp;idx=1&amp;sn=b007fdc7119e2018ef1a0ffda9a41b0a</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&amp;mid=2649808120&amp;idx=1&amp;sn=b007fdc7119e2018ef1a0ffda9a41b0a</guid>
 <pubDate>Mon, 09 Nov 2026 18:08:00 +0800</pubDate>
-<description>&lt;p&gt;腾讯 Agent 开发工程师 maple 观察到，团队代码提交量因 AI 编程暴涨数十倍，但可控性同步下滑：AI 缺乏人类在需求评审中隐性裁剪边界的知识，倾向保守展开全部异常路径，导致协调状态膨胀、review 退化为“看着像不像”。作者认为瓶颈不在生成能力而在收敛能力，应在生成前写入显式约束并保留人工中断点。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自一线 Agent 开发者的工程反思，指出 AI 编程加速链缺失中断点这一被忽视的系统性问题。&lt;/p&gt;&lt;p&gt;腾讯技术工程 (微信公众号) · agent · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;A Tencent agent developer observes that AI-assisted coding has multiplied commit volume dozens of times while controllability declines: lacking the tacit knowledge humans use to trim edge cases during reviews, AI conservatively expands every exception path, inflating coordination state until review degrades into pattern matching. The author argues the bottleneck is convergence, not generation, and calls for explicit pre-generation constraints and human interrupt points.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;腾讯工程师反思 AI 编程提交量暴涨数十倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自一线 Agent 开发者的工程反思，指出 AI 编程加速链缺失中断点这一被忽视的系统性问题。&lt;/p&gt;&lt;p&gt;腾讯技术工程 (微信公众号) · agent · signal 62/100&lt;/p&gt;</description>
 <source url="https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&amp;mid=2649808120&amp;idx=1&amp;sn=b007fdc7119e2018ef1a0ffda9a41b0a">腾讯技术工程 (微信公众号)</source>
 <category>AI 编程</category>
 <category>智能体</category>
 <category>软件工程</category>
 <category>研发效能</category>
 </item>
-<item><title>极米推出 599 元 AI 记忆手环 L1 无屏录音速记</title><link>https://www.ithome.com/1/024/385.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/385.htm</guid>
+<item><title>XGIMI Launches 599 Yuan AI Memory Band L1 for Screenless Voice Capture</title><link>https://www.ithome.com/1/024/385.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/385.htm</guid>
 <pubDate>Mon, 09 Nov 2026 17:52:55 +0800</pubDate>
-<description>&lt;p&gt;极米推出 AI 记忆手环 L1，售价 599 元起，采用无屏幕、无摄像头设计，开机即可录音，定位为戴在手腕上的 AI 速记员。该产品属于 AI 硬件新品类，但当前素材仅为开箱体验开头，缺乏录音转写、模型能力与续航等关键参数。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 硬件新品类值得关注，但素材信息量有限，仅作轻度关注。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;XGIMI has launched the AI Memory Band L1 starting at 599 yuan, featuring a screenless, camera-free design that records with a single power-on and positions itself as a wrist-worn AI note-taker. It marks a new AI hardware category, but the available material is only the opening of a hands-on review and lacks key specs such as transcription, model capabilities and battery life.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;极米推出 599 元 AI 记忆手环 L1 无屏录音速记&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 硬件新品类值得关注，但素材信息量有限，仅作轻度关注。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 38/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/385.htm">IT之家 · 智能时代</source>
 <category>AI 硬件</category>
 <category>可穿戴设备</category>
@@ -240,34 +266,6 @@
 <category>具身智能</category>
 <category>多模态大模型</category>
 <category>NeurIPS</category>
-</item>
-<item><title>腾讯混元 Hy4 发布 770B 参数支持原生视觉与电脑操作</title><link>https://www.qbitai.com/2026/11/507843.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/507843.html</guid>
-<pubDate>Mon, 09 Nov 2026 16:44:00 +0800</pubDate>
-<description>&lt;p&gt;腾讯正式发布混元 Hy4，总参数 770B、激活参数 49B，首次引入原生视觉理解与电脑操作能力，长文理解与长程 Agent 任务同步升级，官方定位为跻身最强开源模型之列。模型已接入 WorkBuddy、CodeBuddy、元宝、企业微信等腾讯系产品及 OpenRouter 等外部平台，权重将于近期开源。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产头部大模型首次同时补齐原生视觉与电脑操作能力，且明确开源权重，对开源生态与 Agent 落地均有实质影响。&lt;/p&gt;&lt;p&gt;量子位官网 · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.qbitai.com/2026/11/507843.html">量子位官网</source>
-<category>大模型</category>
-<category>腾讯混元</category>
-<category>开源模型</category>
-<category>多模态</category>
-<category>Agent</category>
-</item>
-<item><title>谷歌英国数据中心遭 5.5 万人联名反对</title><link>https://www.ithome.com/1/024/357.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/357.htm</guid>
-<pubDate>Mon, 09 Nov 2026 16:35:45 +0800</pubDate>
-<description>&lt;p&gt;谷歌计划在伦敦以东瑟罗克建设大型数据中心，遭 Buglife、Foxglove 及当地摩托车俱乐部等团体组成的联盟反对，近 5.5 万人签署请愿书，担忧破坏濒危物种栖息地并造成污染。该事件是欧洲反数据中心浪潮的一部分，凸显 AI 算力扩张正面临日益增强的社区与政策阻力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;反映 AI 算力扩张遭遇地方阻力这一结构性趋势，对关注基础设施与产业落地的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/024/357.htm">IT之家 · IT业界</source>
-<category>数据中心</category>
-<category>谷歌</category>
-<category>AI 算力</category>
-<category>环保争议</category>
-</item>
-<item><title>千问办公 2.0 发布 推出首个多人 Agent 协作功能</title><link>https://www.qbitai.com/2026/11/508694.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/508694.html</guid>
-<pubDate>Mon, 09 Nov 2026 16:34:03 +0800</pubDate>
-<description>&lt;p&gt;千问办公发布 2.0 版本，推出行业首个支持多人与 Agent 协作的“协作”功能，让数字员工进入工作群与团队共同作业。同时上线“自动任务”实现 Agent 主动触发执行，并支持人机共创、资料空间与三端互联，标志办公 Agent 从服务个人转向服务团队。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是办公 Agent 从个人助手迈向团队协作形态的产品节点，多人与 Agent 同空间协作及主动任务触发值得关注。&lt;/p&gt;&lt;p&gt;量子位官网 · agent · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.qbitai.com/2026/11/508694.html">量子位官网</source>
-<category>智能体</category>
-<category>办公协作</category>
-<category>千问</category>
-<category>钉钉</category>
 </item>
 </channel>
 </rss>
