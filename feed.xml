@@ -1,8 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Mon, 09 Nov 2026 20:14:40 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 09 Nov 2026 20:34:29 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Amazon&#x27;s HOPE Higher-Order Expert Pruning Cuts MoE Memory Footprint</title><link>https://huggingface.co/blog/amazon/higher-order-pruning-experts</link><guid isPermaLink="true">https://huggingface.co/blog/amazon/higher-order-pruning-experts</guid>
+<pubDate>Mon, 09 Nov 2026 20:34:29 +0800</pubDate>
+<description>&lt;p&gt;An Amazon research team introduces HOPE, a higher-order expert pruning method for Mixture-of-Experts LLMs that removes redundant experts by accounting for inter-expert coupling rather than scoring them independently. The work targets the memory bottleneck where expert MLPs dominate inference footprint: Qwen3.5-122B has 256 experts per layer across 48 MoE layers, with 95% of its ~250 GB parameters in expert MLPs while only 8 experts per layer activate per token.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊提出 HOPE 高阶专家剪枝 让 MoE 模型内存占用大幅下降&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;直击 MoE 推理显存瓶颈，提出可落地的专家剪枝新方法，对部署百亿级 MoE 模型有直接参考价值。&lt;/p&gt;&lt;p&gt;Hugging Face Blog · llm · signal 74/100&lt;/p&gt;</description>
+<source url="https://huggingface.co/blog/amazon/higher-order-pruning-experts">Hugging Face Blog</source>
+<category>混合专家</category>
+<category>模型剪枝</category>
+<category>推理优化</category>
+<category>亚马逊</category>
+</item>
+<item><title>Trump Demands New AI Data Centers Build Their Own Power Plants</title><link>https://x.com/rohanpaul_ai/status/2119770157568704878</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119770157568704878</guid>
+<pubDate>Mon, 09 Nov 2026 20:32:43 +0800</pubDate>
+<description>&lt;p&gt;In a CBS 60 Minutes interview, President Trump said every new AI data center under his administration must build its own power generation and feed surplus electricity back into the aging public grid. The stance targets the power bottleneck of AI compute expansion and, if enacted, would reshape data center siting, on-site generation and grid interconnection.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;特朗普要求新建 AI 数据中心自建电厂&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是直接影响 AI 算力基础设施供电模式的政策信号，值得关注算力扩张的读者留意。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 62/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2119770157568704878">Rohan Paul (@rohanpaul_ai)</source>
+<category>算力基础设施</category>
+<category>数据中心</category>
+<category>电力</category>
+<category>政策</category>
+</item>
+<item><title>AI Valuation Reset Deepens as Anthropic IPO Slashed to $1.1T</title><link>https://x.com/rohanpaul_ai/status/2119767465253331109</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119767465253331109</guid>
+<pubDate>Mon, 09 Nov 2026 20:22:01 +0800</pubDate>
+<description>&lt;p&gt;Margin calls on leveraged AI positions in Asia and broker warnings of continued unwinding point to further valuation downside before deals close. Anthropic IPO buyers are discussing a valuation as low as $1.1T versus earlier estimates up to $2T, OpenAI cut its raise from $30B at $1.4T to about $20B at $1.25T, and Nscale&amp;#x27;s IPO valuation was pushed from a requested $30B to a $16B-$19B range.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 估值回调 Anthropic IPO 估值降至 1.1 万亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部模型公司 IPO 与募资估值集体大幅下修，是 AI 资本周期转向的关键信号。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2119767465253331109">Rohan Paul (@rohanpaul_ai)</source>
+<category>融资估值</category>
+<category>IPO</category>
+<category>Anthropic</category>
+<category>OpenAI</category>
+</item>
+<item><title>Law Professor Says Claude Deleted a Year of Class Notes Over Page-Number Edit</title><link>https://www.ithome.com/1/024/515.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/515.htm</guid>
+<pubDate>Mon, 09 Nov 2026 20:14:54 +0800</pubDate>
+<description>&lt;p&gt;University of Chicago law professor William Baude asked Claude to update page numbers in his lecture notes and returned from lunch to find a full year of class notes and the current syllabus deleted; all files were later restored via Dropbox. Claude acknowledged the mistake unprompted, highlighting the real-world risks of giving file-operating AI agents write access without backups.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;法学教授让 Claude 改页码反被删全年课堂笔记&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;真实案例揭示 AI 智能体直接操作本地文件时的误删风险，对权限设计与备份策略有直接警示价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/024/515.htm">IT之家 · 智能时代</source>
+<category>AI 智能体</category>
+<category>Anthropic</category>
+<category>数据安全</category>
+<category>AI 风险</category>
+</item>
 <item><title>UCLA Study Finds 18% of AI Agent Output Tokens Are Wasted</title><link>https://x.com/rohanpaul_ai/status/2119765613560410240</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119765613560410240</guid>
 <pubDate>Mon, 09 Nov 2026 20:14:40 +0800</pubDate>
 <description>&lt;p&gt;A UCLA and Northeastern University paper introduces a proxy-based audit that uses an LLM judge to mark removable spans in agent output, then reruns tasks to verify nothing breaks. Across six frontier models and four benchmarks, roughly 18% of output tokens were waste; pruning repetition and filler from Kimi-K3&amp;#x27;s reasoning on SWE-bench Verified cut 41% of tokens while success held at 89.5% versus 89.0%. The takeaway: cut agent costs by locating waste in your task and harness, not by capping tokens.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;UCLA 研究称 AI 智能体输出约 18% 的 token 属可删冗余&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;给出可复用的智能体成本审计方法与量化结论，对做 Agent 工程的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 72/100&lt;/p&gt;</description>
@@ -19,6 +55,42 @@
 <category>AI 眼镜</category>
 <category>教育监管</category>
 <category>韩国</category>
+</item>
+<item><title>Handwritten Notes and Six Hours of Video Teach LLM Inference From Scratch</title><link>https://github.com/samir-sarwar/samir-vllm</link><guid isPermaLink="true">https://github.com/samir-sarwar/samir-vllm</guid>
+<pubDate>Mon, 09 Nov 2026 19:36:55 +0800</pubDate>
+<description>&lt;p&gt;A developer has open-sourced samir-vllm, a teaching project that builds a small LLM inference engine from scratch in C++ and CUDA, covering everything from loading SafeTensor weights to executing each transformer stage on GPU. It ships with 85 pages of handwritten notes and over six hours of video, explicitly written without AI assistance, making it a solid structured resource for engineers who want to understand inference internals.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;手写 85 页笔记与 6 小时视频从零构建 LLM 推理引擎&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;少见的从第一性原理出发、以手写代码与笔记讲解 LLM 推理全链路的系统教程，对想深入推理底层的工程师有直接学习价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://github.com/samir-sarwar/samir-vllm">Hacker News AI</source>
+<category>LLM 推理</category>
+<category>CUDA</category>
+<category>教程</category>
+<category>开源项目</category>
+</item>
+<item><title>How malloc Really Works Under the Hood</title><link>https://benmandrew.com/articles/what-is-malloc-doing-anyway</link><guid isPermaLink="true">https://benmandrew.com/articles/what-is-malloc-doing-anyway</guid>
+<pubDate>Mon, 09 Nov 2026 19:31:05 +0800</pubDate>
+<description>&lt;p&gt;Using glibc and strace, the author traces 1000 malloc(16) calls and finds only two brk syscalls, with the heap grown once by 132 KiB and the rest served from that pool. An empty syscall costs about 575 ns, explaining why user-space allocators batch kernel requests and do bookkeeping locally.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;深入解析 malloc 内存分配与系统调用机制&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以实测数据清晰揭示 malloc 与内核系统调用之间的协作机制，是理解内存分配器设计的优质技术科普。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
+<source url="https://benmandrew.com/articles/what-is-malloc-doing-anyway">Hacker News AI</source>
+<category>内存分配</category>
+<category>glibc</category>
+<category>系统调用</category>
+<category>性能优化</category>
+</item>
+<item><title>AI Agent Builds Rust Kernel Booting Linux Userspace in 11 Days</title><link>https://zenodo.org/records/23682548</link><guid isPermaLink="true">https://zenodo.org/records/23682548</guid>
+<pubDate>Mon, 09 Nov 2026 19:30:27 +0800</pubDate>
+<description>&lt;p&gt;CIQ published an experiment report introducing Human-Directed Agentic Engineering (HDAE), in which humans define architecture, constraints, milestones and acceptance criteria while an agent autonomously implements, executes, diagnoses and revises. Over eleven days a single persistent coding-agent task produced Ginux, a Rust-first x86-64 kernel that boots via UEFI, implements its own core OS mechanisms and a Linux compatibility layer, runs selected unmodified Alpine Linux programs, and boots a Rocky Linux 10 userspace with systemd to multi-user.target. The authors stress it is a research prototype with narrow compatibility and hardware coverage, no independent security audit, and no production-readiness claim.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 智能体 11 天写出可启动 Linux 用户态的 Rust 内核&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是智能体自主完成大型系统软件工程的少见可验证案例，为评估编码智能体的能力边界提供了具体证据。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 74/100&lt;/p&gt;</description>
+<source url="https://zenodo.org/records/23682548">Hacker News AI</source>
+<category>智能体</category>
+<category>操作系统内核</category>
+<category>Rust</category>
+<category>AI 辅助工程</category>
+</item>
+<item><title>Norway Halts Grid Capacity Reservations for New Data Centers</title><link>https://www.ithome.com/1/024/495.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/495.htm</guid>
+<pubDate>Mon, 09 Nov 2026 19:25:57 +0800</pubDate>
+<description>&lt;p&gt;Norway&amp;#x27;s grid operator Statnett has suspended reserving grid capacity for new data centers until the government establishes a licensing regime. Connection requests this year total 26,000 MW, exceeding the country&amp;#x27;s current generation capacity, with data centers accounting for 75%. The new rules will prioritize defense, healthcare and critical infrastructure while restricting land and power access for global cloud providers and crypto miners.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;挪威暂停新建数据中心电网接入 申请量达 2.6 万兆瓦&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 算力扩张与电力供给矛盾在国家级政策层面显性化，挪威成为最新设限国家，对算力基建布局有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 68/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/024/495.htm">IT之家 · IT业界</source>
+<category>算力基础设施</category>
+<category>数据中心</category>
+<category>能源政策</category>
+<category>挪威</category>
 </item>
 <item><title>Berkeley-Led Study Finds Self-Evolving Agent Harnesses Lose Solved Tasks</title><link>https://x.com/rohanpaul_ai/status/2119746041834877109</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119746041834877109</guid>
 <pubDate>Mon, 09 Nov 2026 18:56:54 +0800</pubDate>
@@ -117,18 +189,18 @@
 <category>OpenAI Codex</category>
 <category>安全边界</category>
 </item>
-<item><title>Alibaba Launches Qwen Office 2.0 with Multi-User Agent Collaboration</title><link>https://www.ithome.com/1/024/350.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/350.htm</guid>
+<item><title>阿里千问办公 2.0 发布 支持多人与 Agent 协作</title><link>https://www.ithome.com/1/024/350.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/350.htm</guid>
 <pubDate>Mon, 09 Nov 2026 16:15:13 +0800</pubDate>
-<description>&lt;p&gt;Alibaba released Qwen Office 2.0, positioned as a Team Agent for individual and organizational collaboration, marking the first support for multiple humans and agents working in a shared space. The update adds five core capabilities: collaboration, automated tasks, human-AI co-creation, a resource space, and three-device connectivity, with digital employees able to link DingTalk group chats, documents, AI spreadsheets and meeting notes in real time and trigger proactive tasks via event subscriptions. All features are now fully available in the Qwen Office client.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;阿里千问办公 2.0 发布 支持多人与 Agent 协作&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Agent 从个人助手走向团队协作场景的代表性产品落地，多人与 Agent 同空间协作及事件触发式自动任务值得关注。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;阿里千问办公 2.0 正式发布，定位为面向个人与组织协作的 Team Agent，首次支持多人与 Agent 在同一协作空间内共同工作。新版本上线协作、自动任务、人机共创、资料空间与三端互联五项核心能力，数字员工可实时关联钉钉群聊、文档、AI 表格与听记等信息源，并支持事件订阅触发主动执行任务。所有功能已在千问办公客户端全量上线。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Agent 从个人助手走向团队协作场景的代表性产品落地，多人与 Agent 同空间协作及事件触发式自动任务值得关注。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/350.htm">IT之家 · 智能时代</source>
 <category>智能体</category>
 <category>阿里</category>
 <category>钉钉</category>
 <category>办公协作</category>
 </item>
-<item><title>Winbond Plans EUV for 14nm DRAM, Targets 2030 Rollout</title><link>https://www.ithome.com/1/024/349.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/349.htm</guid>
+<item><title>华邦电子拟在 14nm DRAM 导入 EUV 光刻 目标 2030 年量产</title><link>https://www.ithome.com/1/024/349.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/349.htm</guid>
 <pubDate>Mon, 09 Nov 2026 16:07:20 +0800</pubDate>
-<description>&lt;p&gt;Winbond general manager Chen Pei-ming said the company plans to adopt EUV lithography in its second-generation 14nm-class DRAM process, targeting 2030 if development goes smoothly, with the first ASML EUV tool due in about two years. Winbond also approved a NT$71.363 billion budget for its Kaohsiung Module B build and expects limited impact on AI data center construction in 2027-2028, while CSP funding in 2029 will determine whether the market enters a downturn.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;华邦电子拟在 14nm DRAM 导入 EUV 光刻 目标 2030 年量产&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;利基型存储厂商首次明确 EUV 导入时间表，是观察成熟制程 DRAM 与 AI 存储供给的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;华邦电子总经理陈沛铭表示，公司计划在第二代 14nm 级 DRAM 工艺中引入 EUV 光刻，若开发顺利预计 2030 年导入，首台 ASML EUV 设备约 2 年后交付。华邦同时通过 713.63 亿新台币的高雄 Module B 新建预算，并判断 2027~2028 年 AI 数据中心建设受外部政治环境影响有限，2029 年 CSP 资金状况将决定市场是否进入下行周期。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;利基型存储厂商首次明确 EUV 导入时间表，是观察成熟制程 DRAM 与 AI 存储供给的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 42/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/349.htm">IT之家 · IT业界</source>
 <category>华邦电子</category>
 <category>EUV 光刻</category>
@@ -136,18 +208,18 @@
 <category>半导体制造</category>
 <category>AI 数据中心</category>
 </item>
-<item><title>Google to Shut Down Firebase Studio in March 2027, Pushing Users to Antigravity or AI Studio</title><link>https://www.ithome.com/1/024/345.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/345.htm</guid>
+<item><title>谷歌 Firebase Studio 将于 2027 年 3 月关闭，用户需迁移至 Antigravity 或 AI Studio</title><link>https://www.ithome.com/1/024/345.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/345.htm</guid>
 <pubDate>Mon, 09 Nov 2026 16:02:09 +0800</pubDate>
-<description>&lt;p&gt;Google&amp;#x27;s browser-based IDE Firebase Studio is winding down: new workspace creation and sign-ups were disabled in June, and the product will formally close on March 22, 2027, with all remaining data permanently deleted. Users are being directed to migrate to alternatives such as Google Antigravity or Google AI Studio. Launched in preview on April 10, 2025, the tool centered on AI chat-assisted app prototyping and tweaking, though code editing remained its core function.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌 Firebase Studio 将于 2027 年 3 月关闭，用户需迁移至 Antigravity 或 AI Studio&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及谷歌 AI 开发工具线的产品退场与迁移路径，对使用 Firebase Studio 的开发者有直接行动价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;谷歌在线 IDE Firebase Studio 已进入退场流程：新工作区创建与用户注册自今年 6 月起停用，产品将于 2027 年 3 月 22 日正式关闭并永久删除剩余数据。现有用户被引导迁移至 Google Antigravity 或 Google AI Studio 等替代方案。该产品 2025 年 4 月以预览形式推出，主打 AI 聊天辅助的应用原型设计与调整，但核心仍是代码编辑。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及谷歌 AI 开发工具线的产品退场与迁移路径，对使用 Firebase Studio 的开发者有直接行动价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/345.htm">IT之家 · 智能时代</source>
 <category>谷歌</category>
 <category>开发工具</category>
 <category>Firebase Studio</category>
 <category>AI Studio</category>
 </item>
-<item><title>NVIDIA Plans Investments in Korean AI Startups Including Point2, Motif, RLWRLD and Upstage</title><link>https://blogs.nvidia.com/blog/korean-startup-investments-msit/</link><guid isPermaLink="true">https://blogs.nvidia.com/blog/korean-startup-investments-msit/</guid>
+<item><title>英伟达宣布投资韩国 AI 初创企业 Point2 等四家公司</title><link>https://blogs.nvidia.com/blog/korean-startup-investments-msit/</link><guid isPermaLink="true">https://blogs.nvidia.com/blog/korean-startup-investments-msit/</guid>
 <pubDate>Mon, 09 Nov 2026 16:00:53 +0800</pubDate>
-<description>&lt;p&gt;NVIDIA and South Korea&amp;#x27;s Ministry of Science and ICT hosted an AI startup partnership forum at COEX in Seoul, where NVIDIA announced an investment in AI interconnect firm Point2 and plans for additional investments in Motif Technologies, RLWRLD and Upstage. The four targets span AI interconnect, agent foundation models, robotics foundation models and enterprise LLMs, signaling NVIDIA&amp;#x27;s capital and compute ties across Korea&amp;#x27;s AI ecosystem.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达宣布投资韩国 AI 初创企业 Point2 等四家公司&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达以资本方式绑定韩国 AI 生态，标的覆盖互联芯片、智能体模型与机器人基础模型，是观察其区域布局的重要信号。&lt;/p&gt;&lt;p&gt;NVIDIA Blog · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;英伟达与韩国科技信息通信部在首尔 COEX 举办 AI 初创企业合作论坛，宣布投资 AI 互联芯片公司 Point2，并计划追加投资 Motif Technologies、RLWRLD 与 Upstage。四家标的分别覆盖 AI 互联、智能体基座模型、机器人基础模型与企业级大模型，指向英伟达在韩国 AI 生态的资本与算力绑定。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达以资本方式绑定韩国 AI 生态，标的覆盖互联芯片、智能体模型与机器人基础模型，是观察其区域布局的重要信号。&lt;/p&gt;&lt;p&gt;NVIDIA Blog · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://blogs.nvidia.com/blog/korean-startup-investments-msit/">NVIDIA Blog</source>
 <category>英伟达</category>
 <category>韩国</category>
@@ -155,18 +227,18 @@
 <category>AI 基础设施</category>
 <category>机器人</category>
 </item>
-<item><title>Musk Defends SpaceX-Anthropic Compute Deal as Two-Way Contract</title><link>https://www.ithome.com/1/024/344.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/344.htm</guid>
+<item><title>马斯克回应 SpaceX 与 Anthropic 算力协议：合同双向，谁也别抱怨</title><link>https://www.ithome.com/1/024/344.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/344.htm</guid>
 <pubDate>Mon, 09 Nov 2026 15:59:19 +0800</pubDate>
-<description>&lt;p&gt;Elon Musk pushed back on criticism of SpaceX&amp;#x27;s compute deal with Anthropic, stressing the contract cuts both ways: SpaceX could exit with 90 days&amp;#x27; notice and reprice if supply tightens, but would also lose revenue if compute becomes cheap. The deal runs to May 2029 at roughly $1.25B per month, totaling nearly $45B for dedicated Colossus cluster capacity.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;马斯克回应 SpaceX 与 Anthropic 算力协议：合同双向，谁也别抱怨&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司与算力供应方之间巨额长约的定价与退出机制，是判断算力市场供需与议价权走向的关键信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;马斯克回应外界对 SpaceX 与 Anthropic 算力协议的质疑，强调合同条款双向对等：若算力供给趋紧，SpaceX 可提前 90 天解约并涨价重签；但若算力过剩降价，SpaceX 收入同样受损。该协议总额近 450 亿美元、期限至 2029 年 5 月，Anthropic 每月支付 12.5 亿美元租用 Colossus 集群专属算力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司与算力供应方之间巨额长约的定价与退出机制，是判断算力市场供需与议价权走向的关键信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/344.htm">IT之家 · IT业界</source>
 <category>算力</category>
 <category>SpaceX</category>
 <category>Anthropic</category>
 <category>数据中心</category>
 </item>
-<item><title>China Telecom&#x27;s Tianyi Terminal and UBTECH Sign Strategic Pact to Scale Humanoid Robots</title><link>https://www.ithome.com/1/024/340.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/340.htm</guid>
+<item><title>中国电信天翼终端与优必选达成战略合作 共推人形机器人规模化落地</title><link>https://www.ithome.com/1/024/340.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/340.htm</guid>
 <pubDate>Mon, 09 Nov 2026 15:53:42 +0800</pubDate>
-<description>&lt;p&gt;Tianyi Telecom Terminal, a wholly owned China Telecom subsidiary, signed a comprehensive strategic cooperation agreement with UBTECH and unveiled a joint innovation lab. The partners aim to push family companion robots past one million units and humanoid robots past 100,000 units industry-wide within three years, combining robot procurement, leasing pilots and bidirectional capability packaging with Telecom&amp;#x27;s cloud, AI models and eSIM. No product specs, investment figures or delivery timelines were disclosed.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;中国电信天翼终端与优必选达成战略合作 共推人形机器人规模化落地&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是运营商渠道与人形机器人厂商的规模化落地合作，方向值得关注，但目前仅为框架协议，缺乏可验证的产品与商业细节。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;天翼电信终端与优必选签署全面战略合作协议，并成立联合创新实验室，目标三年内推动家庭陪伴机器人行业规模突破百万台、人形机器人突破十万台。合作聚焦机器人集采营销、租赁与“AI 权益 + 终端”试点，以及机器人与电信云网、大模型、eSIM 等能力的双向封装。协议目前处于框架阶段，未披露具体产品参数、投资金额或交付时间表。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是运营商渠道与人形机器人厂商的规模化落地合作，方向值得关注，但目前仅为框架协议，缺乏可验证的产品与商业细节。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/340.htm">IT之家 · 智能时代</source>
 <category>人形机器人</category>
 <category>中国电信</category>
@@ -174,9 +246,9 @@
 <category>战略合作</category>
 <category>具身智能</category>
 </item>
-<item><title>Samsung SDI to Supply Batteries for Boston Dynamics&#x27; Atlas Robot</title><link>https://www.ithome.com/1/024/339.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/339.htm</guid>
+<item><title>三星 SDI 将为波士顿动力 Atlas 供应电池</title><link>https://www.ithome.com/1/024/339.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/339.htm</guid>
 <pubDate>Mon, 09 Nov 2026 15:50:07 +0800</pubDate>
-<description>&lt;p&gt;Samsung SDI has been selected to supply batteries for Boston Dynamics&amp;#x27; Atlas humanoid robot, handling nearly all initial shipments while LG Energy Solution&amp;#x27;s limited capacity keeps it a secondary source. Atlas is slated for mass production in 2028 or later, with a pack of 70 2170 cylindrical cells totaling about 1.3 kWh.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;三星 SDI 将为波士顿动力 Atlas 供应电池&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;人形机器人量产供应链落地的具体信号，电池规格与量产时间表首次明确。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;三星 SDI 被选为波士顿动力 Atlas 人形机器人的电池供应商，初期几乎独家供货；LG 新能源虽入选但产能有限。Atlas 计划 2028 年后量产，电池包由 70 节 2170 圆柱电芯组成，总容量约 1.3kWh。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;人形机器人量产供应链落地的具体信号，电池规格与量产时间表首次明确。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/339.htm">IT之家 · 智能时代</source>
 <category>人形机器人</category>
 <category>电池</category>
@@ -201,78 +273,6 @@
 <category>数据中心</category>
 <category>能源</category>
 <category>燃气轮机</category>
-</item>
-<item><title>微软申请新专利：AI 实时改写直播语音并同步唇形</title><link>https://www.ithome.com/1/024/305.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/305.htm</guid>
-<pubDate>Mon, 09 Nov 2026 15:23:22 +0800</pubDate>
-<description>&lt;p&gt;微软提交编号 US 2026/0341309 A1 的专利申请，描述一套可在直播中近乎实时替换说话内容的系统：AI 智能体监听音频，按预设规则或观众画像（年龄、语言、居住地）识别需删改的词语，再由生成式 AI 替换语音、平滑衔接，并重绘嘴部动作以匹配新语音，画面延迟约 1 至 10 秒。方案还涵盖实时翻译与 AR 眼镜、手机等多端运行，但相关权利要求已于 2026 年 7 月 29 日被审查员驳回，微软尚未确认是否落地开发。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;专利细节具体，涉及实时语音替换、唇形重绘与观众画像过滤，是观察 AI 内容篡改与合规边界的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/024/305.htm">IT之家 · 智能时代</source>
-<category>微软</category>
-<category>专利</category>
-<category>生成式 AI</category>
-<category>实时视频</category>
-<category>内容审核</category>
-</item>
-<item><title>三星蚀刻工艺配方泄露 泛林韩国子公司被曝违规传输</title><link>https://www.ithome.com/1/024/298.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/298.htm</guid>
-<pubDate>Mon, 09 Nov 2026 15:12:26 +0800</pubDate>
-<description>&lt;p&gt;三星电子确认其半导体蚀刻工艺配方以独立文件形式被违规提供给泛林半导体韩国分公司，后者通过不合规申请多次发生未授权数据传输。三星已于今年下半年察觉此事，总部层面将其定性为重大技术泄露事件，事件或与泛林韩国子公司 CEO 更迭相关。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;半导体核心工艺配方泄露牵动设备厂商与晶圆厂的数据边界问题，是理解 AI 芯片供应链信任结构的重要产业事件。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/024/298.htm">IT之家 · IT业界</source>
-<category>半导体</category>
-<category>三星电子</category>
-<category>泛林半导体</category>
-<category>技术泄露</category>
-</item>
-<item><title>用户称 Opus 5.5 于 11 月 3 日推理模式突变，疑似被削弱</title><link>https://twitter.com/shanemelaugh/status/2119192075505893695</link><guid isPermaLink="true">https://twitter.com/shanemelaugh/status/2119192075505893695</guid>
-<pubDate>Mon, 09 Nov 2026 15:04:25 +0800</pubDate>
-<description>&lt;p&gt;有用户称，用 Gemini 4 Argon 分析 1,400 条 Claude Code 会话后发现，Opus 5.5 在 11 月 3 日推理方式出现明显变化，但模型名称未变，疑似被“削弱”。该说法目前仅为个人观察，未提供可验证的评测数据或官方说明。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及头部模型是否被静默降级的争议，但证据仅为个人观察，缺乏可验证数据。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 42/100&lt;/p&gt;</description>
-<source url="https://twitter.com/shanemelaugh/status/2119192075505893695">Hacker News AI</source>
-<category>大模型</category>
-<category>Anthropic</category>
-<category>模型降级</category>
-</item>
-<item><title>奔驰改款 S 级取消 L3 自动驾驶，转向押注 L2 与 L4</title><link>https://www.qbitai.com/2026/11/508629.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/508629.html</guid>
-<pubDate>Mon, 09 Nov 2026 15:02:36 +0800</pubDate>
-<description>&lt;p&gt;奔驰 CTO 约尔格·布尔策公开承认 L3 自动驾驶推出过早，系统可用性不足，实际体验甚至不如部分 L2 功能。改款 S 级已取消 Drive Pilot L3 系统，奔驰计划跳过 L3 后续迭代，把资源集中到 L2 辅助驾驶与 L4 研发上。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球 L3 量产先行者主动撤退，是自动驾驶商业化路线的重要信号，值得关注产业走向的读者留意。&lt;/p&gt;&lt;p&gt;量子位官网 · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.qbitai.com/2026/11/508629.html">量子位官网</source>
-<category>自动驾驶</category>
-<category>奔驰</category>
-<category>L3</category>
-<category>智能汽车</category>
-</item>
-<item><title>开发者沦为 AI 的“肉身代理”应被追责甚至解雇</title><link>https://swiftrocks.com/being-a-meat-proxy-for-ai-should-be-grounds-for-getting-people-fired</link><guid isPermaLink="true">https://swiftrocks.com/being-a-meat-proxy-for-ai-should-be-grounds-for-getting-people-fired</guid>
-<pubDate>Mon, 09 Nov 2026 14:55:38 +0800</pubDate>
-<description>&lt;p&gt;一篇开发者观点文章主张，若工程师对任务只向智能体下达“做 X”指令、原样回贴结果且不作任何校验或披露，就应被视为“肉身代理”，并应受到惩戒乃至解雇。作者强调这与人类主导、审校并清理产出的常规 AI 辅助流程有本质区别。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;触及 AI 辅助开发中的责任归属与职业伦理争议，对关注智能体落地影响的读者有讨论价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 38/100&lt;/p&gt;</description>
-<source url="https://swiftrocks.com/being-a-meat-proxy-for-ai-should-be-grounds-for-getting-people-fired">Hacker News AI</source>
-<category>AI 编程</category>
-<category>开发者伦理</category>
-<category>智能体</category>
-<category>行业观点</category>
-</item>
-<item><title>阿里云 Token Plan 额度上调超 70% 月费不变</title><link>https://www.ithome.com/1/024/250.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/250.htm</guid>
-<pubDate>Mon, 09 Nov 2026 14:31:04 +0800</pubDate>
-<description>&lt;p&gt;阿里云宣布上调 Token Plan 个人版订阅额度，Lite、Essential、Standard 三档月费不变，额度提升约 74% 至 78%，单位额度成本下降超四成。Pro 档额度升至 20 万 Credits 且月费降至 312 元，降幅约 37.5%，存量用户同步享受新额度。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部云厂商大幅下调单位 Token 成本，是观察大模型推理价格战与开发者用云成本的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/024/250.htm">IT之家 · 智能时代</source>
-<category>阿里云</category>
-<category>Token Plan</category>
-<category>推理成本</category>
-<category>云服务</category>
-</item>
-<item><title>纳德拉设想微软未来 2000 万智能体与 20 万员工协同</title><link>https://www.ithome.com/1/024/243.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/243.htm</guid>
-<pubDate>Mon, 09 Nov 2026 14:22:30 +0800</pubDate>
-<description>&lt;p&gt;微软 CEO 纳德拉在播客中提出假设：未来微软可能拥有 20 万名员工与 200 万乃至 2000 万个 AI 智能体协同工作，并将智能体演进类比为 80 年代打字员的普及。他透露自己已同时运行 100 个 CLI 智能体会话，微软为此开发了“智能体开发环境”以缓解管理认知负担。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是大厂 CEO 对智能体规模化协作的公开设想，方向性信号明确，但内容为假设性畅想，缺乏可验证的产品与数据。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/024/243.htm">IT之家 · 智能时代</source>
-<category>智能体</category>
-<category>微软</category>
-<category>纳德拉</category>
-<category>人机协作</category>
-</item>
-<item><title>NautilusTrader 开源交易框架获 3.1 万星</title><link>https://github.com/nautechsystems/nautilus_trader</link><guid isPermaLink="true">https://github.com/nautechsystems/nautilus_trader</guid>
-<pubDate>Mon, 09 Nov 2026 14:13:02 +0800</pubDate>
-<description>&lt;p&gt;NautilusTrader 是一个基于 Python 与 Rust 的高性能开源算法交易框架，采用模块化架构，支持回测与实盘交易使用同一套代码。该项目在 GitHub 上已积累超过 3.1 万星，是量化交易领域较受关注的开源基础设施之一。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;虽非 AI 核心事件，但作为高星开源量化交易框架，对关注 AI 金融应用与智能体落地的读者有参考价值。&lt;/p&gt;&lt;p&gt;GitHub Trending AI · opensource · signal 58/100&lt;/p&gt;</description>
-<source url="https://github.com/nautechsystems/nautilus_trader">GitHub Trending AI</source>
-<category>开源</category>
-<category>量化交易</category>
-<category>Rust</category>
-<category>Python</category>
 </item>
 </channel>
 </rss>
