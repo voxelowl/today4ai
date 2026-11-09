@@ -17,7 +17,7 @@
 
 综合多家信源，估值下调主因市场环境而非公司业绩：Anthropic 10 月底年化收入已超 800 亿美元，9 月底现金储备达 1466 亿美元，但季度亏损与巨额算力支出承诺仍令认购方要求折价。同时，Ramp 数据显示企业 token 用量增长 65% 而支出仅增 1.5%，AI 单价一个月内下降 27%，买方市场格局进一步压制高估值叙事。
 
-作为可能首家上市的前沿模型开发商，Anthropic 的定价将成为检验 AI 龙头需求能否扛住板块回调的关键风向标。若 IPO 遇阻或推迟，可能动摇市场对整个人工智能行业的信心，并影响后续 AI 公司的上市节奏与融资环境。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), The Decoder, Hacker News AI, 宝玉 (@dotey), IT之家 · 智能时代, Latent Space&lt;/p&gt;</description>
+作为可能首家上市的前沿模型开发商，Anthropic 的定价将成为检验 AI 龙头需求能否扛住板块回调的关键风向标。若 IPO 遇阻或推迟，可能动摇市场对整个人工智能行业的信心，并影响后续 AI 公司的上市节奏与融资环境。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), The Decoder, Hacker News AI, 宝玉 (@dotey), IT之家 · 智能时代, Latent Space&lt;/p&gt;</description>
 </item>
 <item><title>DeepSeek 开源智能体 Harness 日活破 154 万，定位 Agent 时代操作系统</title><link>https://todayforai.com/en/story/story-2e9a613c-0d5</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2e9a613c-0d5</guid>
 <pubDate>Mon, 09 Nov 2026 02:47:19 +0800</pubDate>
@@ -51,10 +51,6 @@ Harness 采用全插件化架构，已积累约 3.5 万个用户插件。DeepSee
 <pubDate>Mon, 09 Nov 2026 05:24:38 +0800</pubDate>
 <description>&lt;p&gt;亚马逊一篇新论文审计了 9 个公开的规则遵循类基准（如 RuleArena、LegalBench），发现其参考答案与评分代码本身存在错误，导致模型正确答案被误判。以 LegalBench 税务评分为例，评分器删除小数点，把 259,487.13 美元读成 25,948,713，修复后 3 个模型的通过数从 8-9/96 升至 87-91/96。作者建议在看到低分时先读评分代码并人工抽查失败样本。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
-<item><title>斯坦福与 DeepMind 提出 TURTLE 自动进化工具调用基准</title><link>https://todayforai.com/en/story/story-fb856c9b-82f</link><guid isPermaLink="true">https://todayforai.com/en/story/story-fb856c9b-82f</guid>
-<pubDate>Mon, 09 Nov 2026 07:36:48 +0800</pubDate>
-<description>&lt;p&gt;斯坦福与 Google DeepMind 的新论文提出 TURTLE 方法：利用 AlphaEvolve 对 AppWorld 等已饱和的工具调用任务进行变异，加入过滤条件、额外步骤与隐藏查询，并以求解模型约 50% 成功率作为难度目标。实验显示，Gemma 4 31B-it 原本能稳定解出 69% 的原始任务，而进化后的 735 个任务几乎都落在 40%-60% 完成率区间，LLM 评审认为 52.5% 的新任务属于困难级别，远高于原任务的 19.8%。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
-</item>
 <item><title>美国中期选举后多地公投否决数据中心，AI 算力扩张遭遇政策与市场双重逆风</title><link>https://todayforai.com/en/story/story-2f8ef443-ba4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2f8ef443-ba4</guid>
 <pubDate>Sat, 07 Nov 2026 04:02:22 +0800</pubDate>
 <description>&lt;p&gt;美国 2026 年中期选举后，AI 基础设施扩张遭遇重大政治阻力。全美 10 个州 44 项数据中心限制提案中 38 项获选民通过，约半数拟建 AI 数据中心项目面临更严格地方审查。得克萨斯、俄亥俄等传统友好州可能因水资源与电价问题暂停施工，民调显示 76% 受访者反对在社区内建设数据中心。
@@ -62,6 +58,10 @@ Harness 采用全插件化架构，已积累约 3.5 万个用户插件。DeepSee
 市场反应剧烈：纳斯达克单日暴跌 5.52%，费城半导体指数重挫 12.3% 创历史第二大单日跌幅，英伟达跌 9.3%，AMD 跌 17.3%，AI 与数据中心相关股票市值合计蒸发数万亿美元。高盛估算约 45% 的美国规划数据中心容量可能受短期禁令影响。科技巨头试图将“数据中心”重命名为“计算园区”以缓解公众抵触，OpenAI 则承诺不再与公职人员签署保密协议并承担电力成本，亚马逊此前已作出类似表态。
 
 这一变局对 AI 算力扩张构成实质性阻力。超大规模厂商开始考虑将建设转向海外，债务融资型 GPU 租赁商与存储芯片厂商估值逻辑被政治风险重新定价。尽管已获批项目暂不受影响，但新当选官员承诺在关键州加强监管，主要影响 2028 年后的新建项目。AI 产业正面临从技术竞赛到社会许可的范式转变，行业需通过集体行动重塑公众形象并构建更具包容性的叙事。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), The Verge AI, MIT Technology Review, Hacker News AI, IT之家 · IT业界, Ars Technica AI&lt;/p&gt;</description>
+</item>
+<item><title>斯坦福与 DeepMind 提出 TURTLE 自动进化工具调用基准</title><link>https://todayforai.com/en/story/story-fb856c9b-82f</link><guid isPermaLink="true">https://todayforai.com/en/story/story-fb856c9b-82f</guid>
+<pubDate>Mon, 09 Nov 2026 07:36:48 +0800</pubDate>
+<description>&lt;p&gt;斯坦福与 Google DeepMind 的新论文提出 TURTLE 方法：利用 AlphaEvolve 对 AppWorld 等已饱和的工具调用任务进行变异，加入过滤条件、额外步骤与隐藏查询，并以求解模型约 50% 成功率作为难度目标。实验显示，Gemma 4 31B-it 原本能稳定解出 69% 的原始任务，而进化后的 735 个任务几乎都落在 40%-60% 完成率区间，LLM 评审认为 52.5% 的新任务属于困难级别，远高于原任务的 19.8%。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
 <item><title>Nous Research 微调 Qwen 模型，将政治宣传率从 22% 降至 1% 以下</title><link>https://todayforai.com/en/story/story-2077c0d0-a5a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2077c0d0-a5a</guid>
 <pubDate>Sun, 08 Nov 2026 12:53:12 +0800</pubDate>
