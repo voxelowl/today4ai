@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Mon, 09 Nov 2026 11:28:59 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 09 Nov 2026 11:57:35 +0800</lastBuildDate><ttl>10</ttl>
+<atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Drought and Data Center Water Use Trigger Tap Water Crisis in Batam, Indonesia</title><link>https://www.ithome.com/1/024/121.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/121.htm</guid>
+<pubDate>Mon, 09 Nov 2026 11:57:35 +0800</pubDate>
+<description>&lt;p&gt;Batam, Indonesia, a key Southeast Asian hub for AI data centers, is facing a tap water crisis as prolonged drought and El Niño deplete reservoirs while water-intensive cooling systems at some facilities add pressure, sparking protests. Authorities have ordered operators to build their own desalination plants, and some firms have pledged closed-loop water cooling.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;干旱叠加数据中心耗水，印尼峇淡暴发自来水危机&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示 AI 算力扩张与地方水资源之间的现实冲突，是数据中心可持续性议题的典型案例。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/024/121.htm">IT之家 · IT业界</source>
+<category>数据中心</category>
+<category>算力基础设施</category>
+<category>水资源</category>
+<category>东南亚</category>
+</item>
+<item><title>Anthropic Study Finds Scientists Mainly Use Claude for Data Analysis and Writing</title><link>https://www.ithome.com/1/024/111.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/111.htm</guid>
+<pubDate>Mon, 09 Nov 2026 11:41:26 +0800</pubDate>
+<description>&lt;p&gt;Anthropic published a report based on 207,000 research sessions and a survey of 528 scientists, finding that data analysis (33.7% of research sessions) and writing (32%) dominate scientific use of Claude, while data collection and hypothesis generation lag well behind. Computer science, math and statistics show the highest usage density, and AI/ML researchers—just 1.2% of the global total—account for 15.2% of Claude Code research sessions.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 研究：科学家主要用 Claude 做数据分析与写作&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首份基于大规模真实会话数据的 AI 科研使用画像，揭示 AI 在科研流程中的实际渗透边界。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/024/111.htm">IT之家 · 智能时代</source>
+<category>Anthropic</category>
+<category>Claude</category>
+<category>科研应用</category>
+<category>AI 采用率</category>
+</item>
 <item><title>Shenzhen 3D Printer Exports Jump 127.5%, Taking 86% of China&#x27;s Total</title><link>https://www.ithome.com/1/024/102.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/102.htm</guid>
 <pubDate>Mon, 09 Nov 2026 11:28:59 +0800</pubDate>
 <description>&lt;p&gt;Shenzhen&amp;#x27;s 3D printer output rose 58.1% year on year in the first half of 2026, with exports up 127.5% and accounting for 86% of China&amp;#x27;s total shipments of the category, earning it the unofficial title of the world&amp;#x27;s top consumer 3D printing hub. Four local firms — Bambu Lab, Creality, Anycubic and Elegoo — together hold roughly 90% of global consumer-grade shipments, and Bambu Lab has begun building a Guangming district base targeting annual capacity above 3 million units.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;深圳上半年 3D 打印出口增 127.5% 占全国八成六&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是中国消费级 3D 打印产业链集中度与出口数据的权威披露，对关注硬件制造与开源硬件生态的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 52/100&lt;/p&gt;</description>
@@ -166,18 +185,18 @@
 <category>工程教育</category>
 <category>斯坦福</category>
 </item>
-<item><title>SafeScript Launches as Safe JavaScript Subset for Untrusted Code Execution</title><link>https://github.com/SafeScript/safescript</link><guid isPermaLink="true">https://github.com/SafeScript/safescript</guid>
+<item><title>SafeScript 发布：可安全执行不可信代码的 JavaScript 子集</title><link>https://github.com/SafeScript/safescript</link><guid isPermaLink="true">https://github.com/SafeScript/safescript</guid>
 <pubDate>Mon, 09 Nov 2026 05:26:33 +0800</pubDate>
-<description>&lt;p&gt;SafeScript is a strict, safe subset of JavaScript that strips eval, new, globals and prototype access, compiling to plain JS and PHP with a ~48 KB minified (~12 KB gzipped) compiler. It targets webserver handlers, event callbacks, plugin scripts, formulas and AI agent tools, letting user-submitted logic run safely inside a sandbox.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SafeScript 发布：可安全执行不可信代码的 JavaScript 子集&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为不可信代码提供可本地验证的轻量安全执行层，对智能体工具与插件生态有直接实用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;SafeScript 是 JavaScript 的严格安全子集，移除 eval、new、全局对象与原型访问，可编译为原生 JS 与 PHP，编译器仅约 48 KB（gzip 后约 12 KB）。它面向网页处理器、事件回调、插件脚本、公式表达式以及 AI 智能体可调用工具等场景，让用户提交的逻辑在沙箱内安全运行。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为不可信代码提供可本地验证的轻量安全执行层，对智能体工具与插件生态有直接实用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
 <source url="https://github.com/SafeScript/safescript">Hacker News AI</source>
 <category>开发者工具</category>
 <category>JavaScript</category>
 <category>沙箱安全</category>
 <category>智能体工具</category>
 </item>
-<item><title>Amazon Paper Finds Rule-Following AI Benchmarks Riddled with Answer-Key and Scorer Bugs</title><link>https://x.com/rohanpaul_ai/status/2119541630361554965</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119541630361554965</guid>
+<item><title>亚马逊论文发现规则类基准答案键与评分代码普遍出错</title><link>https://x.com/rohanpaul_ai/status/2119541630361554965</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119541630361554965</guid>
 <pubDate>Mon, 09 Nov 2026 05:24:38 +0800</pubDate>
-<description>&lt;p&gt;A new Amazon paper audited nine public rule-following benchmarks such as RuleArena and LegalBench and found that their reference answers and grading code contain errors, causing correct model responses to be marked wrong. In LegalBench&amp;#x27;s tax scorer, decimal points were stripped, turning $259,487.13 into 25,948,713; after the fix, three models&amp;#x27; accepted answers rose from 8-9 out of 96 to 87-91. The authors urge checking scorer code and hand-reviewing failed answers before trusting low scores.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊论文发现规则类基准答案键与评分代码普遍出错&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究揭示规则类基准的评分缺陷会系统性低估模型能力，直接影响对模型评测结论的信任。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 71/100&lt;/p&gt;</description>
+<description>&lt;p&gt;亚马逊一篇新论文审计了 9 个公开的规则遵循类基准（如 RuleArena、LegalBench），发现其参考答案与评分代码本身存在错误，导致模型正确答案被误判。以 LegalBench 税务评分为例，评分器删除小数点，把 259,487.13 美元读成 25,948,713，修复后 3 个模型的通过数从 8-9/96 升至 87-91/96。作者建议在看到低分时先读评分代码并人工抽查失败样本。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究揭示规则类基准的评分缺陷会系统性低估模型能力，直接影响对模型评测结论的信任。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 71/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2119541630361554965">Rohan Paul (@rohanpaul_ai)</source>
 <category>基准评测</category>
 <category>亚马逊</category>
@@ -245,24 +264,6 @@
 <category>DeepSeek</category>
 <category>开源</category>
 <category>算力消耗</category>
-</item>
-<item><title>清华与月之暗面发布 TCSExam：GPT-6 Astra 证明 70% 定理却解不出开放猜想</title><link>https://x.com/rohanpaul_ai/status/2119501674465439786</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119501674465439786</guid>
-<pubDate>Mon, 09 Nov 2026 02:45:52 +0800</pubDate>
-<description>&lt;p&gt;清华大学与月之暗面联合发布 TCSExam 基准，包含 100 项专家评审任务，覆盖 Lean 定理证明、求解器工程、破纪录构造与 30 个开放猜想四大方向，所有提交均由 Lean 内核或任务检查器验证。结果显示，GPT-6 Astra 在无提示引理条件下完整证明率达 70.0%，Kimi K3.1 Pro 为 38.3%，其余 6 个智能体最高仅 11.7%；但在 30 个理论计算机科学开放猜想上，同一模型全部失败，少数被接受的提交也只是改编了 OpenAI 已公开的反例与证明。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该基准首次把机器可验证的定理证明与真正未解的开放猜想放在同一评测框架下，清晰划出当前模型在“复现已知证明”与“创造新数学”之间的能力鸿沟。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2119501674465439786">Rohan Paul (@rohanpaul_ai)</source>
-<category>基准评测</category>
-<category>定理证明</category>
-<category>月之暗面</category>
-<category>清华大学</category>
-<category>Lean</category>
-</item>
-<item><title>Gemini 4 Carbon 宣称 SOTA 却全渠道不可用</title><link>https://x.com/Yuchenj_UW/status/2119498548870009133</link><guid isPermaLink="true">https://x.com/Yuchenj_UW/status/2119498548870009133</guid>
-<pubDate>Mon, 09 Nov 2026 02:33:27 +0800</pubDate>
-<description>&lt;p&gt;开发者 Yuchen Jin 指出，谷歌上月发布的 Gemini 4 Carbon 虽在 Artificial Analysis 榜单排名第一，但免费、Pro、Ultra 及 API 渠道均无法使用。该帖仅陈述可用性缺失，未提供模型参数、发布时间表或官方回应等实质信息。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;反映旗舰模型“发布即榜单第一、却无法调用”的落差，对关注模型落地节奏的读者有参考价值。&lt;/p&gt;&lt;p&gt;Yuchen Jin (@Yuchenj_UW) · llm · signal 34/100&lt;/p&gt;</description>
-<source url="https://x.com/Yuchenj_UW/status/2119498548870009133">Yuchen Jin (@Yuchenj_UW)</source>
-<category>大模型</category>
-<category>Google</category>
-<category>Gemini</category>
 </item>
 </channel>
 </rss>
