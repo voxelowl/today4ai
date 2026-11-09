@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Tue, 10 Nov 2026 01:24:26 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 10 Nov 2026 02:00:00 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>英伟达董事会启动独立调查 审查黄仁勋被外国情报瞄准报道</title><link>https://todayforai.com/en/story/story-55770774-90b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-55770774-90b</guid>
 <pubDate>Mon, 09 Nov 2026 13:26:29 +0800</pubDate>
@@ -22,6 +22,14 @@
 在技术方案上，数字员工可实时关联钉钉群聊、文档、AI 表格与听记等信息源，支持并行会话与任务指派；自动任务支持订阅事件与配置规则，首批覆盖指定人消息、群内 @ 自己、审批任务等触发场景，使 Agent 从被动响应升级为主动执行；人机共创打通对话、预览与编辑，支持多人多 Agent 在线同时修改文档、表格与宜搭应用；三端互联实现手机、电脑、网页同步，任务云端常驻运行，关机后仍可继续。
 
 这一发布对办公协作赛道具有实质影响：多人与 Agent 同空间协作打破了传统人机交互的边界，将 Agent 从个人助手升级为团队数字员工，有望提升组织协同效率，并推动办公软件向智能化、自动化方向演进。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, InfoQ 中文, 量子位官网&lt;/p&gt;</description>
+</item>
+<item><title>Meta 发布轻量模型 Muse Ember 输入价格低至每百万 token 10 美分</title><link>https://todayforai.com/en/story/story-166bb164-19f</link><guid isPermaLink="true">https://todayforai.com/en/story/story-166bb164-19f</guid>
+<pubDate>Tue, 10 Nov 2026 02:00:00 +0800</pubDate>
+<description>&lt;p&gt;Meta 超级智能实验室正式发布其迄今最轻量、最具成本效率的模型 Muse Ember，专为智能体高频重复任务设计，输入价格低至每百万 token 10 美分，以极致性价比切入轻量模型市场。
+
+综合多家信源，Muse Ember 覆盖工具调用、编码子任务、路由、信息抽取与长文档解析等场景，定位为智能体执行层，与更大模型 Muse Wonder 组成分层推理架构，重模型负责规划、轻模型负责高频执行。官方以 Artificial Analysis 综合基准展示其单位任务成本优势，称以约三分之一成本追平 Anthropic Claude Haiku 5.5 最佳成绩，并优于 OpenAI GPT-6 Luna 各推理档位，同时与 DeepSeek V4.1 Flash、GLM 5.3 Flash 等开源竞品形成价格竞争。
+
+此举标志着 AI 模型竞争从单一跑分转向单位任务成本与效率的较量，Meta 通过分层架构与激进定价，为开发者提供低成本智能体执行方案，有望加速智能体应用规模化落地，并推动轻量模型赛道进入效率优先的新阶段。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, TechCrunch AI&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic IPO 估值预期下调至 1.2 万亿美元，市场质疑 AI 龙头高估值</title><link>https://todayforai.com/en/story/story-1049bdee-c36</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1049bdee-c36</guid>
 <pubDate>Mon, 09 Nov 2026 20:22:01 +0800</pubDate>
@@ -70,14 +78,6 @@ TPU 8tx 主打处理过程中对机密数据保持加密，面向政府与强监
 Apiiro 的交叉验证显示，泄露范围覆盖多种高权限凭据，攻击者可利用这些密钥直接访问数据库、云资源或服务器。Anthropic 文档声称该文件默认加入全局 .gitignore，但实际执行中大量文件仍进入公开仓库，表明防护机制未有效落地。Claude Code 负责人 Boris Cherny 已回应称团队正在研究防护方案，计划加入自动模式拦截与基础密钥扫描，但尚未给出修复时间表。
 
 此次事件暴露了 AI 编程助手在便利性与安全性之间的深层矛盾。随着 Claude Code 等工具在开发者中快速普及，自动批准命令的交互设计可能无意中成为凭据泄露的新渠道。行业需要更严格的默认安全策略，例如强制密钥扫描、敏感信息脱敏以及更可靠的 .gitignore 执行机制，否则类似风险将随 AI 编程工具的广泛部署而持续放大。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Ars Technica AI, Hacker News AI&lt;/p&gt;</description>
-</item>
-<item><title>DeepSeek 开源智能体 Harness 日活破 154 万，定位 Agent 时代操作系统</title><link>https://todayforai.com/en/story/story-2e9a613c-0d5</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2e9a613c-0d5</guid>
-<pubDate>Mon, 09 Nov 2026 02:47:19 +0800</pubDate>
-<description>&lt;p&gt;DeepSeek 开源智能体应用 Harness 上线不到三个月，官方 API 用户日活已突破 154 万，较 9 月底的 7 日均值 27.1 万增长近 5 倍。用户日均消耗约 92 万亿 token，人均约 6000 万，显示长时间运行的智能体任务算力消耗远超传统聊天机器人。
-
-Harness 采用全插件化架构，已积累约 3.5 万个用户插件。DeepSeek 团队成员田一表示，Harness 的定位是“Agent 时代的操作系统”，官方只提供稳定的基础能力与通用内置功能，坚持“一切皆插件”的设计，内置功能也可被第三方插件替换，鼓励社区作品成为用户日常选择。
-
-这一增长主要发生在桌面版发布后，印证了智能体应用对算力的巨大需求。官方下一步将推出插件市场与创作者激励计划，但具体细节尚未公布。Harness 的开放策略和插件生态有望催生全新应用形态，对智能体赛道和开发者生态产生实质影响。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), 宝玉 (@dotey)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
