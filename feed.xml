@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Tue, 10 Nov 2026 00:06:37 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 10 Nov 2026 00:23:28 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>How Eval-Driven Development Improves AI Agent Reliability</title><link>https://www.langchain.com/blog/what-is-eval-driven-development</link><guid isPermaLink="true">https://www.langchain.com/blog/what-is-eval-driven-development</guid>
+<pubDate>Tue, 10 Nov 2026 00:23:28 +0800</pubDate>
+<description>&lt;p&gt;LangChain&amp;#x27;s LangSmith team outlines eval-driven development (EDD), an approach that builds agents while continuously measuring performance against a consistent metric set and hill-climbing toward an eval. The workflow starts with a short spec defining desired and forbidden behavior, judges each change through comparative experiments to catch regressions, and keeps evals running in CI and production so failures become new dataset examples.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;评测驱动开发如何提升 AI 智能体可靠性&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;系统梳理了智能体评测驱动开发的落地方法论，对构建生产级 Agent 的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;LangChain Blog · agent · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.langchain.com/blog/what-is-eval-driven-development">LangChain Blog</source>
+<category>智能体</category>
+<category>评测</category>
+<category>LangSmith</category>
+<category>LangChain</category>
+</item>
+<item><title>Medium Launches TK Writing App with Built-in AI Assistant</title><link>https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/</guid>
+<pubDate>Tue, 10 Nov 2026 00:12:28 +0800</pubDate>
+<description>&lt;p&gt;Medium has launched TK, a standalone writing app that embeds an AI assistant directly in the editor, invoked by typing @TK to answer questions, look things up, or pull in previously saved material. Positioned as a private notebook rather than a Markdown tool, TK leaves content unencrypted but offers access controls and is free to Medium account holders.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Medium 推出 TK 写作应用 内置 AI 助手&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流内容平台将 AI 深度嵌入写作工作流，是观察 AI 原生创作工具演进的典型样本。&lt;/p&gt;&lt;p&gt;TechCrunch AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/">TechCrunch AI</source>
+<category>AI 写作</category>
+<category>Medium</category>
+<category>开发者工具</category>
+</item>
 <item><title>ByteDance Releases Seedream 5.5 Image Model with Pixel-Level Edit Consistency</title><link>https://x.com/dotey/status/2119823986603299193</link><guid isPermaLink="true">https://x.com/dotey/status/2119823986603299193</guid>
 <pubDate>Tue, 10 Nov 2026 00:06:37 +0800</pubDate>
 <description>&lt;p&gt;ByteDance&amp;#x27;s Seed team released Seedream 5.5, an image editing model that keeps unedited regions pixel-identical, with an official demo showing a character edited 100 rounds without drift, plus native transparent-background output. Severe text error rate dropped from 2.8% to 0.4%, and 2K square-image editing costs about RMB 0.28 per image, less than half of Seedream 5.0 Pro. The model is rolling out on Jimeng, Doubao and Doubao Work, and is available to developers via Volcano Ark as Doubao-Seedream-5.5.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;字节发布 Seedream 5.5 图像模型 单张编辑成本降超 50%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;图像编辑的一致性与透明底输出是设计与电商工作流的真实痛点，叠加成本腰斩，具备明确的实用增量。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · llm · signal 78/100&lt;/p&gt;</description>
@@ -21,6 +38,16 @@
 <category>开源模型</category>
 <category>腾讯</category>
 <category>生物安全</category>
+</item>
+<item><title>Disney and Adobe Partner to Build Custom Generative AI Models</title><link>https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership</link><guid isPermaLink="true">https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership</guid>
+<pubDate>Mon, 09 Nov 2026 23:38:56 +0800</pubDate>
+<description>&lt;p&gt;Disney and Adobe announced a multiyear strategic alliance to co-develop proprietary, artist-led generative AI models via Adobe Firefly Foundry, trained on Disney-specific character, environment, and style data for its film, parks, cruise, and ESPN pipelines. The goal is commercially safe, production-ready output that speeds up workflows.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;迪士尼与 Adobe 联手打造定制生成式 AI 模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;好莱坞顶级内容方与创意软件巨头联合定制生产级生成式 AI 模型，是 AI 进入主流影视工业管线的重要信号。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership">The Verge AI</source>
+<category>生成式 AI</category>
+<category>迪士尼</category>
+<category>Adobe</category>
+<category>影视制作</category>
+<category>产业合作</category>
 </item>
 <item><title>Nvidia Releases Synthetic Japan Finance Persona Dataset</title><link>https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan</link><guid isPermaLink="true">https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan</guid>
 <pubDate>Mon, 09 Nov 2026 23:05:57 +0800</pubDate>
@@ -47,6 +74,14 @@
 <category>AI 个性化</category>
 <category>风险投资</category>
 <category>营销技术</category>
+</item>
+<item><title>Magenta Semi-Transparent Solar Panels Let Broccoli and Power Share Farmland</title><link>https://www.anthropocenemagazine.org/2026/10/magenta-solar-panels-may-be-agrivoltaics-cleverest-trick-yet/</link><guid isPermaLink="true">https://www.anthropocenemagazine.org/2026/10/magenta-solar-panels-may-be-agrivoltaics-cleverest-trick-yet/</guid>
+<pubDate>Mon, 09 Nov 2026 22:31:39 +0800</pubDate>
+<description>&lt;p&gt;A study in Cell Reports Physical Science shows that semi-transparent magenta CdTe thin-film photovoltaic panels can selectively transmit photosynthesis-critical wavelengths, allowing broccoli to grow beneath them without harvest loss. The approach offers a quantifiable spectral-sharing pathway for agrivoltaics, easing land competition between agriculture and solar power.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;半透明品红太阳能板让西兰花与发电共享土地&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以具体光谱透过方案与作物实测数据，为农光互补提供可复用的技术路径。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.anthropocenemagazine.org/2026/10/magenta-solar-panels-may-be-agrivoltaics-cleverest-trick-yet/">Hacker News AI</source>
+<category>农光互补</category>
+<category>光伏材料</category>
+<category>AI for Science</category>
 </item>
 <item><title>Ex-DOJ Antitrust Chief Launches AI Legal Startup FluxCap</title><link>https://www.theverge.com/policy/1029652/kanter-doj-biden-legal-tech</link><guid isPermaLink="true">https://www.theverge.com/policy/1029652/kanter-doj-biden-legal-tech</guid>
 <pubDate>Mon, 09 Nov 2026 22:30:00 +0800</pubDate>
@@ -190,36 +225,36 @@
 <category>教程</category>
 <category>开源项目</category>
 </item>
-<item><title>How malloc Really Works Under the Hood</title><link>https://benmandrew.com/articles/what-is-malloc-doing-anyway</link><guid isPermaLink="true">https://benmandrew.com/articles/what-is-malloc-doing-anyway</guid>
+<item><title>深入解析 malloc 内存分配与系统调用机制</title><link>https://benmandrew.com/articles/what-is-malloc-doing-anyway</link><guid isPermaLink="true">https://benmandrew.com/articles/what-is-malloc-doing-anyway</guid>
 <pubDate>Mon, 09 Nov 2026 19:31:05 +0800</pubDate>
-<description>&lt;p&gt;Using glibc and strace, the author traces 1000 malloc(16) calls and finds only two brk syscalls, with the heap grown once by 132 KiB and the rest served from that pool. An empty syscall costs about 575 ns, explaining why user-space allocators batch kernel requests and do bookkeeping locally.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;深入解析 malloc 内存分配与系统调用机制&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以实测数据清晰揭示 malloc 与内核系统调用之间的协作机制，是理解内存分配器设计的优质技术科普。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;文章以 glibc 为例，通过 strace 追踪 1000 次 malloc(16) 调用，发现仅触发两次 brk 系统调用，堆一次性扩展 132 KiB，其余分配均复用已申请内存。作者进一步测量空系统调用耗时约 575 ns，说明用户态分配器通过批量预取与簿记来摊薄内核调用开销。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以实测数据清晰揭示 malloc 与内核系统调用之间的协作机制，是理解内存分配器设计的优质技术科普。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
 <source url="https://benmandrew.com/articles/what-is-malloc-doing-anyway">Hacker News AI</source>
 <category>内存分配</category>
 <category>glibc</category>
 <category>系统调用</category>
 <category>性能优化</category>
 </item>
-<item><title>AI Agent Builds Rust Kernel Booting Linux Userspace in 11 Days</title><link>https://zenodo.org/records/23682548</link><guid isPermaLink="true">https://zenodo.org/records/23682548</guid>
+<item><title>AI 智能体 11 天写出可启动 Linux 用户态的 Rust 内核</title><link>https://zenodo.org/records/23682548</link><guid isPermaLink="true">https://zenodo.org/records/23682548</guid>
 <pubDate>Mon, 09 Nov 2026 19:30:27 +0800</pubDate>
-<description>&lt;p&gt;CIQ published an experiment report introducing Human-Directed Agentic Engineering (HDAE), in which humans define architecture, constraints, milestones and acceptance criteria while an agent autonomously implements, executes, diagnoses and revises. Over eleven days a single persistent coding-agent task produced Ginux, a Rust-first x86-64 kernel that boots via UEFI, implements its own core OS mechanisms and a Linux compatibility layer, runs selected unmodified Alpine Linux programs, and boots a Rocky Linux 10 userspace with systemd to multi-user.target. The authors stress it is a research prototype with narrow compatibility and hardware coverage, no independent security audit, and no production-readiness claim.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 智能体 11 天写出可启动 Linux 用户态的 Rust 内核&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是智能体自主完成大型系统软件工程的少见可验证案例，为评估编码智能体的能力边界提供了具体证据。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 74/100&lt;/p&gt;</description>
+<description>&lt;p&gt;CIQ 发布实验报告，提出“人类主导的智能体工程”（HDAE）方法：由人类定义架构、约束、里程碑与验收标准，智能体自主完成实现、执行、诊断与修订闭环。在 11 天内，一个持续运行的编码智能体任务产出了 Rust 优先的 x86-64 内核 Ginux，经 UEFI 启动，自研核心 OS 机制与 Linux 兼容层，可运行部分未修改的 Alpine Linux 程序，并借助 systemd 启动 Rocky Linux 10 用户态至 multi-user.target。作者明确其为研究原型，兼容性与硬件覆盖窄，未经独立安全审计，不宣称生产可用。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是智能体自主完成大型系统软件工程的少见可验证案例，为评估编码智能体的能力边界提供了具体证据。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 74/100&lt;/p&gt;</description>
 <source url="https://zenodo.org/records/23682548">Hacker News AI</source>
 <category>智能体</category>
 <category>操作系统内核</category>
 <category>Rust</category>
 <category>AI 辅助工程</category>
 </item>
-<item><title>Norway Halts Grid Capacity Reservations for New Data Centers</title><link>https://www.ithome.com/1/024/495.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/495.htm</guid>
+<item><title>挪威暂停新建数据中心电网接入 申请量达 2.6 万兆瓦</title><link>https://www.ithome.com/1/024/495.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/495.htm</guid>
 <pubDate>Mon, 09 Nov 2026 19:25:57 +0800</pubDate>
-<description>&lt;p&gt;Norway&amp;#x27;s grid operator Statnett has suspended reserving grid capacity for new data centers until the government establishes a licensing regime. Connection requests this year total 26,000 MW, exceeding the country&amp;#x27;s current generation capacity, with data centers accounting for 75%. The new rules will prioritize defense, healthcare and critical infrastructure while restricting land and power access for global cloud providers and crypto miners.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;挪威暂停新建数据中心电网接入 申请量达 2.6 万兆瓦&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 算力扩张与电力供给矛盾在国家级政策层面显性化，挪威成为最新设限国家，对算力基建布局有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 68/100&lt;/p&gt;</description>
+<description>&lt;p&gt;挪威国家电网运营商 Statnett 宣布，在政府建立数据中心许可制度前，暂停为新建数据中心预留电网接入容量。今年接入申请总量已达 2.6 万兆瓦，超过挪威现有发电能力，其中数据中心占 75%。新制度将优先保障国防、医疗与关键基础设施项目，限制全球云厂商与加密矿企获取土地和电力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 算力扩张与电力供给矛盾在国家级政策层面显性化，挪威成为最新设限国家，对算力基建布局有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 68/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/495.htm">IT之家 · IT业界</source>
 <category>算力基础设施</category>
 <category>数据中心</category>
 <category>能源政策</category>
 <category>挪威</category>
 </item>
-<item><title>Berkeley-Led Study Finds Self-Evolving Agent Harnesses Lose Solved Tasks</title><link>https://x.com/rohanpaul_ai/status/2119746041834877109</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119746041834877109</guid>
+<item><title>伯克利等机构发现智能体自改脚手架会丢失已解任务</title><link>https://x.com/rohanpaul_ai/status/2119746041834877109</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119746041834877109</guid>
 <pubDate>Mon, 09 Nov 2026 18:56:54 +0800</pubDate>
-<description>&lt;p&gt;A new paper from UC Berkeley and other top labs finds that letting agents rewrite their own prompts, skills, tools, or code to raise benchmark scores hides tasks they lose along the way. Testing 4 evolution methods including GEPA and HyperAgents with GPT-5.4 across 2 harnesses and 2 benchmarks, all 16 evolved agents gained some tasks and lost others; one raised reliability by 5.2 points while dropping 10 previously covered tasks, and 8 of 11 more-reliable agents cost more per run. The authors urge tracking lost tasks, cost per run, and unseen-task results rather than average score alone.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;伯克利等机构发现智能体自改脚手架会丢失已解任务&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究揭示智能体脚手架自进化中平均分掩盖任务丢失与成本上升的系统性偏差，对智能体评测与工程实践有直接指导价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;加州大学伯克利分校等机构的新论文发现，让智能体自行改写提示词、技能、工具或代码以提升基准分数，会掩盖其丢失原本已解决任务的问题。研究用 4 种进化方法、GPT-5.4 在 2 套脚手架与 2 个基准上测试，16 个进化后智能体全部有得有失，其中一个可靠性提升 5.2 分却丢掉 10 个原有任务，11 个更可靠的智能体中有 8 个单次运行成本上升。作者建议评估时同时追踪丢失任务、运行成本与未见任务表现，而非只看平均分。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究揭示智能体脚手架自进化中平均分掩盖任务丢失与成本上升的系统性偏差，对智能体评测与工程实践有直接指导价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2119746041834877109">Rohan Paul (@rohanpaul_ai)</source>
 <category>智能体</category>
 <category>脚手架进化</category>
@@ -233,41 +268,6 @@
 <category>AI 概念股</category>
 <category>资本市场</category>
 <category>瑞银</category>
-</item>
-<item><title>腾讯工程师反思 AI 编程提交量暴涨数十倍</title><link>https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&amp;mid=2649808120&amp;idx=1&amp;sn=b007fdc7119e2018ef1a0ffda9a41b0a</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&amp;mid=2649808120&amp;idx=1&amp;sn=b007fdc7119e2018ef1a0ffda9a41b0a</guid>
-<pubDate>Mon, 09 Nov 2026 18:08:00 +0800</pubDate>
-<description>&lt;p&gt;腾讯 Agent 开发工程师 maple 观察到，团队代码提交量因 AI 编程暴涨数十倍，但可控性同步下滑：AI 缺乏人类在需求评审中隐性裁剪边界的知识，倾向保守展开全部异常路径，导致协调状态膨胀、review 退化为“看着像不像”。作者认为瓶颈不在生成能力而在收敛能力，应在生成前写入显式约束并保留人工中断点。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自一线 Agent 开发者的工程反思，指出 AI 编程加速链缺失中断点这一被忽视的系统性问题。&lt;/p&gt;&lt;p&gt;腾讯技术工程 (微信公众号) · agent · signal 62/100&lt;/p&gt;</description>
-<source url="https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&amp;mid=2649808120&amp;idx=1&amp;sn=b007fdc7119e2018ef1a0ffda9a41b0a">腾讯技术工程 (微信公众号)</source>
-<category>AI 编程</category>
-<category>智能体</category>
-<category>软件工程</category>
-<category>研发效能</category>
-</item>
-<item><title>极米推出 599 元 AI 记忆手环 L1 无屏录音速记</title><link>https://www.ithome.com/1/024/385.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/385.htm</guid>
-<pubDate>Mon, 09 Nov 2026 17:52:55 +0800</pubDate>
-<description>&lt;p&gt;极米推出 AI 记忆手环 L1，售价 599 元起，采用无屏幕、无摄像头设计，开机即可录音，定位为戴在手腕上的 AI 速记员。该产品属于 AI 硬件新品类，但当前素材仅为开箱体验开头，缺乏录音转写、模型能力与续航等关键参数。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 硬件新品类值得关注，但素材信息量有限，仅作轻度关注。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 38/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/024/385.htm">IT之家 · 智能时代</source>
-<category>AI 硬件</category>
-<category>可穿戴设备</category>
-<category>极米</category>
-</item>
-<item><title>Sakana AI 拟 2027 年秋季 IPO 或成日本 AI 实验室首例</title><link>https://www.ithome.com/1/024/383.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/383.htm</guid>
-<pubDate>Mon, 09 Nov 2026 17:46:03 +0800</pubDate>
-<description>&lt;p&gt;Sakana AI 据称计划最早于 2027 年秋季启动 IPO，若成行将成为日本首家上市的人工智能实验室。该公司同时在开发 Sawara 系列自研模型，计划 2027 年春季先发布较小规模版本，后续推出更大参数型号。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;日本 AI 实验室冲击 IPO 的罕见案例，叠加自研 Sawara 模型路线，值得关注其商业化与融资进展。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/024/383.htm">IT之家 · 智能时代</source>
-<category>Sakana AI</category>
-<category>IPO</category>
-<category>日本AI</category>
-<category>Sawara</category>
-</item>
-<item><title>字节跳动发布 Seedream 5.5 支持直出透明背景</title><link>https://www.ithome.com/1/024/379.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/379.htm</guid>
-<pubDate>Mon, 09 Nov 2026 17:35:33 +0800</pubDate>
-<description>&lt;p&gt;字节跳动发布新一代图像创作模型 Seedream 5.5，核心能力是直接输出带 Alpha 通道的透明或半透明图像，并对轮廓边缘与透明区域做精细处理，省去后期抠图修边。该能力让生成元素可作为独立素材直接进入后续设计流程，同时支持对单张图进行上百次迭代修改。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;图像模型原生支持透明通道输出，直接改变设计素材生产链路，对设计与生成式图像从业者价值明确。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/024/379.htm">IT之家 · 智能时代</source>
-<category>图像生成</category>
-<category>字节跳动</category>
-<category>Seedream</category>
-<category>透明背景</category>
 </item>
 </channel>
 </rss>
