@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Mon, 09 Nov 2026 21:31:34 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 09 Nov 2026 22:00:01 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>英伟达董事会启动独立调查 审查黄仁勋被外国情报瞄准报道</title><link>https://todayforai.com/en/story/story-55770774-90b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-55770774-90b</guid>
 <pubDate>Mon, 09 Nov 2026 13:26:29 +0800</pubDate>
@@ -55,6 +55,10 @@ Harness 采用全插件化架构，已积累约 3.5 万个用户插件。DeepSee
 
 这一事件凸显了算力供需紧张正在重塑长约合同的信用与议价格局。数据中心建设放缓与税收优惠政策变化，迫使超大规模厂商与新云厂商重新评估自用还是外售算力，可能引发恐慌性抢购。合同的双向风险设计意味着，在算力现货价格剧烈波动时，任何一方都可能行使退出权，长期算力协议的稳定性面临考验。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), IT之家 · IT业界&lt;/p&gt;</description>
 </item>
+<item><title>NVIDIA 在 CoRL 发布世界动作模型与智能体机器人工作流</title><link>https://todayforai.com/en/story/story-e8357d25-84d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e8357d25-84d</guid>
+<pubDate>Mon, 09 Nov 2026 22:00:01 +0800</pubDate>
+<description>&lt;p&gt;NVIDIA 在 CoRL 大会上发布面向精细操作的开源机器人技术栈，涵盖世界动作模型、仿真工具、基准测试与智能体工作流，推动机器人学习从运动控制转向齿轮对齐、线缆连接等精密装配任务。其 GRAIL 与 RoboTTT 两篇论文从数千篇投稿中入围最佳论文奖决选，Ambi Robotics、博世研究院与西门子已开始探索其智能体机器人工作流在工业场景中的落地。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;NVIDIA Blog&lt;/p&gt;</description>
+</item>
 <item><title>AI 初创用非公开 Claude 模型证明量子计算猜想</title><link>https://todayforai.com/en/story/story-371d5a9a-112</link><guid isPermaLink="true">https://todayforai.com/en/story/story-371d5a9a-112</guid>
 <pubDate>Mon, 09 Nov 2026 21:31:34 +0800</pubDate>
 <description>&lt;p&gt;AI for Science 初创公司 Physical Superintelligence 利用内部研究系统（运行非公开的 Anthropic 模型）在三天内为 Scott Aaronson 与 Andris Ambainis 自 2008 年悬而未决的量子计算加速猜想找到了完整证明，并经 Lean 证明助手验证。这是 AI 系统自主扩展人类知识边界的标志性案例，也预示合成研究者产出速度将超越人类理解速度。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Import AI (Jack Clark)&lt;/p&gt;</description>
@@ -62,14 +66,6 @@ Harness 采用全插件化架构，已积累约 3.5 万个用户插件。DeepSee
 <item><title>亚马逊提出 HOPE 高阶专家剪枝 让 MoE 模型内存占用大幅下降</title><link>https://todayforai.com/en/story/story-080a564e-817</link><guid isPermaLink="true">https://todayforai.com/en/story/story-080a564e-817</guid>
 <pubDate>Mon, 09 Nov 2026 20:34:29 +0800</pubDate>
 <description>&lt;p&gt;亚马逊团队提出 HOPE 高阶专家剪枝方法，针对混合专家（MoE）大模型推理时专家 MLP 占用绝大部分显存、但每个 token 仅激活少数专家的问题，通过考虑专家之间的耦合关系而非独立评估来删除冗余专家。以 Qwen3.5-122B 为例，其 48 个 MoE 层每层 256 个专家，约 250 GB 参数中 95% 来自专家 MLP，而每 token 每层仅用 8 个，剪枝空间巨大。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Hugging Face Blog&lt;/p&gt;</description>
-</item>
-<item><title>Anthropic 分析 20 万次科研会话：数据分析用得最多，提想法反而最少</title><link>https://todayforai.com/en/story/story-a6d7a453-7b2</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a6d7a453-7b2</guid>
-<pubDate>Mon, 09 Nov 2026 11:41:26 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 基于约 20.7 万次科研相关 Claude 会话及 528 名科学家问卷发布报告，揭示 AI 在科研中的实际使用与科学家预期存在显著错位。数据分析是科研场景第一大用途，占 Claude 科研会话的 33.7%，在 Claude Code 会话中更高达 48.1%；写作占 32%。然而，被科学家评为最重要的提出假设环节仅占会话的 4.2%，呈现能力与意愿双重制约。
-
-报告用“AI 能力分”与“使用倍数”量化任务匹配度：能力分前 20% 的任务使用倍数达 2 至 4 倍，后 20% 几乎无人使用。计算机科学、数学与统计学使用密度最高，AI/ML 领域研究人员仅占全球 1.2%，却贡献 Claude Code 科研会话的 15.2%，反映任务可 AI 化程度决定采用率。
-
-Anthropic 估算，若 AI 承担全部非动手工作，计算机与统计领域科研产出可提速约 15 倍，化学与生物受实验限制仅 3 到 4 倍。这一差距凸显 AI 对科研的赋能高度依赖学科特性，实验科学瓶颈仍在物理操作，而定量领域有望率先实现效率跃升。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
