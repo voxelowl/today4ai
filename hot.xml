@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Tue, 10 Nov 2026 02:00:00 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 10 Nov 2026 02:50:01 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
+<item><title>Meta 发布轻量模型 Muse Ember 输入价格低至每百万 token 10 美分</title><link>https://todayforai.com/en/story/story-166bb164-19f</link><guid isPermaLink="true">https://todayforai.com/en/story/story-166bb164-19f</guid>
+<pubDate>Tue, 10 Nov 2026 02:07:16 +0800</pubDate>
+<description>&lt;p&gt;Meta 超级智能实验室正式发布其迄今最轻量、最具成本效率的模型 Muse Ember，专为智能体高频重复任务设计，输入价格低至每百万 token 10 美分，以极致性价比切入轻量模型市场。
+
+综合多家信源，Muse Ember 覆盖工具调用、编码子任务、路由、信息抽取与长文档解析等场景，定位为智能体执行层，与更大模型 Muse Wonder 组成分层推理架构，重模型负责规划、轻模型负责高频执行。官方以 Artificial Analysis 综合基准展示其单位任务成本优势，称以约三分之一成本追平 Anthropic Claude Haiku 5.5 最佳成绩，并优于 OpenAI GPT-6 Luna 各推理档位，同时与 DeepSeek V4.1 Flash、GLM 5.3 Flash 等开源竞品形成价格竞争。
+
+此举标志着 AI 模型竞争从单一跑分转向单位任务成本与效率的较量，Meta 通过分层架构与激进定价，为开发者提供低成本智能体执行方案，有望加速智能体应用规模化落地，并推动轻量模型赛道进入效率优先的新阶段。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, Artificial Analysis (@ArtificialAnlys), Hacker News AI&lt;/p&gt;</description>
+</item>
 <item><title>英伟达董事会启动独立调查 审查黄仁勋被外国情报瞄准报道</title><link>https://todayforai.com/en/story/story-55770774-90b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-55770774-90b</guid>
 <pubDate>Mon, 09 Nov 2026 13:26:29 +0800</pubDate>
 <description>&lt;p&gt;英伟达董事会宣布启动独立调查，审查创始人兼 CEO 黄仁勋成为外国情报活动目标的报道。调查由独立董事委员会主导，并聘请外部律师协助。董事会表示，目前没有理由认为国家安全或公司机密遭到泄露，黄仁勋本人已承诺全力配合。
@@ -10,6 +18,14 @@
 事件核心指向黄仁勋与 Megaspeed 高管 Alice Huang 的关系。据《纽约时报》援引一份在特朗普政府高级官员间传阅的备忘录，美国情报部门认定 Alice Huang 为北京情报资产，其公司 Megaspeed 自 2024 年起大举采购英伟达芯片，并通过向阿里巴巴出租东南亚数据中心算力形成受限芯片的迂回通道。不过，该指控目前仅基于匿名备忘录，尚无公开证据或当事方回应，事实强度有限。
 
 此事件已超出个人丑闻范畴，直接关系到全球最重要 AI 算力供应商的治理与地缘风险。调查结果将影响员工、客户、合作伙伴及散户投资者对 AI 经济的信心，也可能波及美国出口管制政策与中美科技博弈的走向。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, Rohan Paul (@rohanpaul_ai), TechCrunch AI, The Verge AI&lt;/p&gt;</description>
+</item>
+<item><title>字节发布 Seedream 5.5 支持直出透明背景</title><link>https://todayforai.com/en/story/story-3fb949dd-9e2</link><guid isPermaLink="true">https://todayforai.com/en/story/story-3fb949dd-9e2</guid>
+<pubDate>Tue, 10 Nov 2026 02:50:01 +0800</pubDate>
+<description>&lt;p&gt;字节跳动 Seed 团队正式发布图像编辑模型 Seedream 5.5，核心突破在于原生支持输出带 Alpha 通道的透明背景图像，并实现非编辑区域像素级不变，官方演示同一人物连续修改 100 轮后细节仍可精准对齐，显著缓解多轮编辑中的图像漂移问题。
+
+技术细节上，该模型对轮廓边缘与透明区域进行精细处理，羽毛等难抠边缘也能保留，生成元素可直接作为独立素材进入设计流程，省去后期抠图修边环节。同时，严重文字错误率从上一代的 2.8% 降至 0.4%，2K 方图编辑单张成本约 0.28 元，不到 Seedream 5.0 Pro 的一半。官方称其在密集小文字还原与光影材质真实感上优于 GPT Image 2.5 Sunburst。模型已在即梦、豆包、豆包工作陆续上线，开发者可通过火山方舟以 Doubao-Seedream-5.5 调用，Pro 版本在规划中。
+
+行业影响方面，Seedream 5.5 将透明背景直出与百轮稳定编辑结合，大幅提升设计工作流的自动化程度，降低专业图像编辑的门槛与成本，有望推动 AI 图像生成从创意辅助工具向生产级设计基础设施演进，对广告、电商、UI 设计等领域产生实质影响。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), IT之家 · 智能时代, The Decoder&lt;/p&gt;</description>
 </item>
 <item><title>Artificial Analysis 发布决策指数 v2 引入校准置信度新指标</title><link>https://todayforai.com/en/story/story-3e28de6f-d12</link><guid isPermaLink="true">https://todayforai.com/en/story/story-3e28de6f-d12</guid>
 <pubDate>Mon, 09 Nov 2026 08:49:36 +0800</pubDate>
@@ -23,13 +39,9 @@
 
 这一发布对办公协作赛道具有实质影响：多人与 Agent 同空间协作打破了传统人机交互的边界，将 Agent 从个人助手升级为团队数字员工，有望提升组织协同效率，并推动办公软件向智能化、自动化方向演进。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, InfoQ 中文, 量子位官网&lt;/p&gt;</description>
 </item>
-<item><title>Meta 发布轻量模型 Muse Ember 输入价格低至每百万 token 10 美分</title><link>https://todayforai.com/en/story/story-166bb164-19f</link><guid isPermaLink="true">https://todayforai.com/en/story/story-166bb164-19f</guid>
-<pubDate>Tue, 10 Nov 2026 02:00:00 +0800</pubDate>
-<description>&lt;p&gt;Meta 超级智能实验室正式发布其迄今最轻量、最具成本效率的模型 Muse Ember，专为智能体高频重复任务设计，输入价格低至每百万 token 10 美分，以极致性价比切入轻量模型市场。
-
-综合多家信源，Muse Ember 覆盖工具调用、编码子任务、路由、信息抽取与长文档解析等场景，定位为智能体执行层，与更大模型 Muse Wonder 组成分层推理架构，重模型负责规划、轻模型负责高频执行。官方以 Artificial Analysis 综合基准展示其单位任务成本优势，称以约三分之一成本追平 Anthropic Claude Haiku 5.5 最佳成绩，并优于 OpenAI GPT-6 Luna 各推理档位，同时与 DeepSeek V4.1 Flash、GLM 5.3 Flash 等开源竞品形成价格竞争。
-
-此举标志着 AI 模型竞争从单一跑分转向单位任务成本与效率的较量，Meta 通过分层架构与激进定价，为开发者提供低成本智能体执行方案，有望加速智能体应用规模化落地，并推动轻量模型赛道进入效率优先的新阶段。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, TechCrunch AI&lt;/p&gt;</description>
+<item><title>AA-PersonalityBench 显示开源模型在真实性与结构上显著落后于闭源模型</title><link>https://todayforai.com/en/story/story-2c873dbe-a2e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2c873dbe-a2e</guid>
+<pubDate>Mon, 09 Nov 2026 23:26:52 +0800</pubDate>
+<description>&lt;p&gt;Artificial Analysis 发布的 AA-PersonalityBench 基准测试对比了顶尖开源与闭源大模型的30项人格特质。数据显示，开源模型在真实性、务实性和结构化输出等关键维度平均排名显著低于闭源模型（如真实性差距达32分），但在“废话率”和“摘要能力”上表现更优。该结果揭示了当前开源生态在复杂推理严谨性与内容精炼度上的短板。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic IPO 估值预期下调至 1.2 万亿美元，市场质疑 AI 龙头高估值</title><link>https://todayforai.com/en/story/story-1049bdee-c36</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1049bdee-c36</guid>
 <pubDate>Mon, 09 Nov 2026 20:22:01 +0800</pubDate>
@@ -47,14 +59,6 @@
 
 此举虽为 Anthropic 锁定了宝贵的电力供应，但也带来财务风险：有分析师预计部分市场电价到本十年末可能上涨三倍以上，采购时机与成本控制将考验其运营能力。总体而言，AI 实验室正从轻资产模式转向重资产投入，电力正取代芯片成为算力扩张的核心瓶颈。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, TechCrunch AI, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
-<item><title>字节发布 Seedream 5.5 支持直出透明背景</title><link>https://todayforai.com/en/story/story-3fb949dd-9e2</link><guid isPermaLink="true">https://todayforai.com/en/story/story-3fb949dd-9e2</guid>
-<pubDate>Tue, 10 Nov 2026 00:06:37 +0800</pubDate>
-<description>&lt;p&gt;字节跳动 Seed 团队正式发布图像编辑模型 Seedream 5.5，核心突破在于原生支持输出带 Alpha 通道的透明或半透明图像，并对轮廓边缘与透明区域做精细处理，省去后期抠图修边环节。同时，模型实现了非编辑区域像素级不变，官方演示同一人物连改 100 轮细节仍可对齐，显著缓解多轮编辑漂移问题。
-
-在技术指标上，Seedream 5.5 将严重文字错误率从上一代的 2.8% 降至 0.4%，2K 方图编辑单张成本约 0.28 元，不到 Seedream 5.0 Pro 的一半。模型已在即梦、豆包、豆包工作陆续上线，开发者可通过火山方舟以 Doubao-Seedream-5.5 调用。
-
-此次发布意味着 AI 图像生成正从“生成图片”转向“生成可直接复用的设计素材”，透明背景输出让生成元素无缝进入后续设计流程，大幅提升创作效率。成本的大幅下降与编辑稳定性的提升，也将进一步推动 AI 图像编辑在商业设计、电商、广告等场景的规模化落地。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
 <item><title>迪士尼联手 Adobe 打造品牌安全定制 AI 模型</title><link>https://todayforai.com/en/story/story-c756d33b-d8c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c756d33b-d8c</guid>
 <pubDate>Tue, 10 Nov 2026 00:54:16 +0800</pubDate>
 <description>&lt;p&gt;迪士尼与 Adobe 宣布达成多年战略合作，迪士尼将获得 Adobe 新技术的早期访问权，并借助 Firefly Foundry 基于自有角色、场景与视觉风格训练定制生成式 AI 模型，产出可商用、可直接投产的内容。
@@ -70,14 +74,6 @@
 TPU 8tx 主打处理过程中对机密数据保持加密，面向政府与强监管行业；TPU 8i Max 通过单封装双芯片在同一机架内实现内存与算力翻倍，服务药物研发、数学与编程类超长上下文应用。结合 TorchTPU 等软件工具，谷歌正降低开发者使用门槛，并将自研芯片推向外部客户的日常推理场景。
 
 谷歌此次扩充 TPU 阵容，不仅丰富了自研芯片的适用场景，更通过加快迭代节奏和拓展供应链伙伴（如与 AMD 协同），直接挑战英伟达在 AI 芯片市场的主导地位。随着推理需求增长，谷歌有望凭借性价比和定制化优势吸引更多云客户，推动 AI 硬件竞争格局生变。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, The Decoder&lt;/p&gt;</description>
-</item>
-<item><title>Claude Code 配置泄露 2539 条密钥 波及 63 家组织</title><link>https://todayforai.com/en/story/story-3cf49618-180</link><guid isPermaLink="true">https://todayforai.com/en/story/story-3cf49618-180</guid>
-<pubDate>Tue, 10 Nov 2026 01:24:26 +0800</pubDate>
-<description>&lt;p&gt;安全研究机构 Apiiro 发现，Anthropic 旗下 AI 编程工具 Claude Code 的“不再询问”选项存在严重设计缺陷，导致大量敏感凭据被写入公开 GitHub 仓库。当用户选择“Yes, and don&amp;#x27;t ask again”批准命令时，Claude Code 会将包含数据库密码、云厂商管理级密钥、API Token 乃至 SSH root 登录信息的完整命令明文持久化保存到本地配置文件 .claude/settings.local.json 中。由于该文件本应被全局 .gitignore 忽略，但实际防护存在缺口，最终造成 1,994 个公开仓库中泄露 2,539 条真实密钥，涉及 63 家组织。
-
-Apiiro 的交叉验证显示，泄露范围覆盖多种高权限凭据，攻击者可利用这些密钥直接访问数据库、云资源或服务器。Anthropic 文档声称该文件默认加入全局 .gitignore，但实际执行中大量文件仍进入公开仓库，表明防护机制未有效落地。Claude Code 负责人 Boris Cherny 已回应称团队正在研究防护方案，计划加入自动模式拦截与基础密钥扫描，但尚未给出修复时间表。
-
-此次事件暴露了 AI 编程助手在便利性与安全性之间的深层矛盾。随着 Claude Code 等工具在开发者中快速普及，自动批准命令的交互设计可能无意中成为凭据泄露的新渠道。行业需要更严格的默认安全策略，例如强制密钥扫描、敏感信息脱敏以及更可靠的 .gitignore 执行机制，否则类似风险将随 AI 编程工具的广泛部署而持续放大。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Ars Technica AI, Hacker News AI&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
