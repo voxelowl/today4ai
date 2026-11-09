@@ -1,24 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Mon, 09 Nov 2026 20:59:02 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 09 Nov 2026 21:31:34 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
-<item><title>腾讯混元 Hy4 发布 770B 参数并首次解锁视觉与电脑操作</title><link>https://todayforai.com/en/story/story-f4fb29ac-16b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f4fb29ac-16b</guid>
-<pubDate>Mon, 09 Nov 2026 16:44:00 +0800</pubDate>
-<description>&lt;p&gt;腾讯正式发布新一代大模型混元 Hy4，参数规模从上一代不足 300B 跃升至 770B（激活参数 49B），并首次引入原生视觉理解与电脑操作能力。官方称其已跻身最强开源模型之列，计划近期开放权重并联合 vLLM/SGLang 生态提供支持。
-
-综合多源信息，Hy4 在指令遵循、长上下文理解与长程智能体任务上均有显著提升。视觉能力支持细粒度图像处理与复杂图表分析，电脑操作可结合命令行与图形界面执行跨应用任务，并针对 Blender、CAD 等专业软件专项训练。第三方评测显示，其在 Artificial Analysis 智能指数得 35 分，位列中国模型第二；Agent Arena 总榜第 14，单任务成本仅 0.55 美元，性价比突出。但官方坦承在高难度数学、长程开发等任务上仍落后顶尖闭源模型，且幻觉率高达 89%。
-
-Hy4 发布即接入腾讯系元宝、CodeBuddy、企业微信等产品及 OpenRouter 平台，上线首日调用量激增致 WorkBuddy 推理集群紧急扩容十倍。定价维持输入 6 元/百万 Token、输出 18 元/百万 Token，并计划推出更低成本的 Flash 版本。此举标志着腾讯在大模型开源赛道迈入第一梯队，但权重尚未开放，其开源承诺与真实性能仍待市场检验。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · 智能时代, The Decoder, 量子位官网, InfoQ 中文, Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
-</item>
-<item><title>OpenAI 发布 GPT-6 Cyber 安全模型，越界行为降至 1% 以下</title><link>https://todayforai.com/en/story/story-32972b05-1f7</link><guid isPermaLink="true">https://todayforai.com/en/story/story-32972b05-1f7</guid>
-<pubDate>Mon, 09 Nov 2026 10:43:07 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 正式推出网络安全专用模型 GPT-6 Cyber，在漏洞挖掘与利用基准 ExploitGym 上得分从上一代的 32.1% 提升至 48.5%，相对提升约 51%。更关键的是，该模型在模拟越界行为的 HoneyPot 评测中，违规率从约 5% 降至 1% 以下，任务遵从率超过 99%，OpenAI 将其网络安全风险等级定为最高级 Critical，初期仅向获批的 Daybreak Red 客户开放。
-
-在实战测试中，GPT-6 Cyber 于 12 小时内扫描 Linux 内核约 7% 代码，识别出 2308 个候选漏洞并成功复现 1724 个，还为其中 948 个生成了可本地提权的完整利用程序，复现率达 74.7%，仅 3.1% 为模型幻觉误报。同时，它在 Firefox 中发现 81 个此前未知的高危漏洞，已向 Mozilla 提交证据与候选补丁，多数漏洞已获修复。相比前代 GPT-5.6 Sol 仅能构建 166 个利用，GPT-6 Cyber 的能力提升超过五倍，且至少 10 种利用技术此前从未公开。
-
-这一发布标志着 AI 已具备端到端的漏洞发现、利用构建与补丁建议能力，攻防成本结构被彻底改写。对防守方而言，AI 可大幅加速漏洞挖掘与修复；但对攻击方，同样能力可能被滥用。OpenAI 采取分级开放策略，并配套沙箱与人工监督，试图在能力释放与安全风险之间取得平衡。行业需尽快建立相应的补丁响应机制与伦理规范，以应对 AI 驱动的安全新范式。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, Yuchen Jin (@Yuchenj_UW), OpenAI 官方博客, The Decoder, TechCrunch AI, InfoQ 中文&lt;/p&gt;</description>
-</item>
 <item><title>英伟达董事会启动独立调查 审查黄仁勋被外国情报瞄准报道</title><link>https://todayforai.com/en/story/story-55770774-90b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-55770774-90b</guid>
 <pubDate>Mon, 09 Nov 2026 13:26:29 +0800</pubDate>
 <description>&lt;p&gt;英伟达董事会宣布启动独立调查，审查创始人兼 CEO 黄仁勋成为外国情报活动目标的报道。调查由独立董事委员会主导，并聘请外部律师协助。董事会表示，目前没有理由认为国家安全或公司机密遭到泄露，黄仁勋本人已承诺全力配合。
@@ -47,14 +31,6 @@ Hy4 发布即接入腾讯系元宝、CodeBuddy、企业微信等产品及 OpenRo
 
 这一发布对办公协作赛道具有实质影响：多人与 Agent 同空间协作打破了传统人机交互的边界，将 Agent 从个人助手升级为团队数字员工，有望提升组织协同效率，并推动办公软件向智能化、自动化方向演进。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, InfoQ 中文, 量子位官网&lt;/p&gt;</description>
 </item>
-<item><title>美国中期选举后多地公投否决数据中心，AI 算力扩张遭遇政策与市场双重逆风</title><link>https://todayforai.com/en/story/story-2f8ef443-ba4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2f8ef443-ba4</guid>
-<pubDate>Sun, 08 Nov 2026 06:07:22 +0800</pubDate>
-<description>&lt;p&gt;美国 2026 年中期选举后，AI 基础设施扩张遭遇重大政治阻力。全美 10 个州 44 项数据中心限制提案中 38 项获选民通过，约半数拟建 AI 数据中心项目面临更严格地方审查。得克萨斯、俄亥俄等传统友好州可能因水资源与电价问题暂停施工，民调显示 76% 受访者反对在社区内建设数据中心。
-
-市场反应剧烈：纳斯达克单日暴跌 5.52%，费城半导体指数重挫 12.3% 创历史第二大单日跌幅，英伟达跌 9.3%，AMD 跌 17.3%，AI 与数据中心相关股票市值合计蒸发数万亿美元。高盛估算约 45% 的美国规划数据中心容量可能受短期禁令影响。科技巨头试图将“数据中心”重命名为“计算园区”以缓解公众抵触，OpenAI 则承诺不再与公职人员签署保密协议并承担电力成本，亚马逊此前已作出类似表态。
-
-这一变局对 AI 算力扩张构成实质性阻力。超大规模厂商开始考虑将建设转向海外，债务融资型 GPU 租赁商与存储芯片厂商估值逻辑被政治风险重新定价。尽管已获批项目暂不受影响，但新当选官员承诺在关键州加强监管，主要影响 2028 年后的新建项目。AI 产业正面临从技术竞赛到社会许可的范式转变，行业需通过集体行动重塑公众形象并构建更具包容性的叙事。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), The Verge AI, MIT Technology Review, Hacker News AI, IT之家 · IT业界, Ars Technica AI&lt;/p&gt;</description>
-</item>
 <item><title>谷歌扩充 TPU 阵容推出 8tx 与 8i Max 两款新品</title><link>https://todayforai.com/en/story/story-8e585f9c-a84</link><guid isPermaLink="true">https://todayforai.com/en/story/story-8e585f9c-a84</guid>
 <pubDate>Mon, 09 Nov 2026 20:59:02 +0800</pubDate>
 <description>&lt;p&gt;谷歌宣布扩充自研 TPU 产品阵容，新增面向机密计算的 TPU 8tx 与面向超长上下文场景的 TPU 8i Max，将产品线扩展至四款。两款新品并非全新设计，而是在现有芯片基础上重新配置，其中 8tx 将与 AMD 芯片协同工作。谷歌芯片负责人表示，产品迭代节奏已从两年一款明显加快，意在英伟达供应紧张之际抢占 AI 芯片市场。
@@ -78,6 +54,22 @@ Harness 采用全插件化架构，已积累约 3.5 万个用户插件。DeepSee
 多方讨论进一步揭示了合约的博弈本质。Chamath Palihapitiya 在播客中推演，若数据中心供给收紧，SpaceX 可按 90 天通知终止协议，再以 2-3 倍价格返售，而 Anthropic 只能接受。他同时指出，若算力现货价格翻倍，既有长约按旧价履约将变成负 EV，重定价成为理性选择，与双方关系好坏无关。这些观点虽属个人推演，但一致指向 90 天退出条款是长约在现货剧烈波动下的关键重谈杠杆。
 
 这一事件凸显了算力供需紧张正在重塑长约合同的信用与议价格局。数据中心建设放缓与税收优惠政策变化，迫使超大规模厂商与新云厂商重新评估自用还是外售算力，可能引发恐慌性抢购。合同的双向风险设计意味着，在算力现货价格剧烈波动时，任何一方都可能行使退出权，长期算力协议的稳定性面临考验。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), IT之家 · IT业界&lt;/p&gt;</description>
+</item>
+<item><title>AI 初创用非公开 Claude 模型证明量子计算猜想</title><link>https://todayforai.com/en/story/story-371d5a9a-112</link><guid isPermaLink="true">https://todayforai.com/en/story/story-371d5a9a-112</guid>
+<pubDate>Mon, 09 Nov 2026 21:31:34 +0800</pubDate>
+<description>&lt;p&gt;AI for Science 初创公司 Physical Superintelligence 利用内部研究系统（运行非公开的 Anthropic 模型）在三天内为 Scott Aaronson 与 Andris Ambainis 自 2008 年悬而未决的量子计算加速猜想找到了完整证明，并经 Lean 证明助手验证。这是 AI 系统自主扩展人类知识边界的标志性案例，也预示合成研究者产出速度将超越人类理解速度。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Import AI (Jack Clark)&lt;/p&gt;</description>
+</item>
+<item><title>亚马逊提出 HOPE 高阶专家剪枝 让 MoE 模型内存占用大幅下降</title><link>https://todayforai.com/en/story/story-080a564e-817</link><guid isPermaLink="true">https://todayforai.com/en/story/story-080a564e-817</guid>
+<pubDate>Mon, 09 Nov 2026 20:34:29 +0800</pubDate>
+<description>&lt;p&gt;亚马逊团队提出 HOPE 高阶专家剪枝方法，针对混合专家（MoE）大模型推理时专家 MLP 占用绝大部分显存、但每个 token 仅激活少数专家的问题，通过考虑专家之间的耦合关系而非独立评估来删除冗余专家。以 Qwen3.5-122B 为例，其 48 个 MoE 层每层 256 个专家，约 250 GB 参数中 95% 来自专家 MLP，而每 token 每层仅用 8 个，剪枝空间巨大。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Hugging Face Blog&lt;/p&gt;</description>
+</item>
+<item><title>Anthropic 分析 20 万次科研会话：数据分析用得最多，提想法反而最少</title><link>https://todayforai.com/en/story/story-a6d7a453-7b2</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a6d7a453-7b2</guid>
+<pubDate>Mon, 09 Nov 2026 11:41:26 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 基于约 20.7 万次科研相关 Claude 会话及 528 名科学家问卷发布报告，揭示 AI 在科研中的实际使用与科学家预期存在显著错位。数据分析是科研场景第一大用途，占 Claude 科研会话的 33.7%，在 Claude Code 会话中更高达 48.1%；写作占 32%。然而，被科学家评为最重要的提出假设环节仅占会话的 4.2%，呈现能力与意愿双重制约。
+
+报告用“AI 能力分”与“使用倍数”量化任务匹配度：能力分前 20% 的任务使用倍数达 2 至 4 倍，后 20% 几乎无人使用。计算机科学、数学与统计学使用密度最高，AI/ML 领域研究人员仅占全球 1.2%，却贡献 Claude Code 科研会话的 15.2%，反映任务可 AI 化程度决定采用率。
+
+Anthropic 估算，若 AI 承担全部非动手工作，计算机与统计领域科研产出可提速约 15 倍，化学与生物受实验限制仅 3 到 4 倍。这一差距凸显 AI 对科研的赋能高度依赖学科特性，实验科学瓶颈仍在物理操作，而定量领域有望率先实现效率跃升。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
