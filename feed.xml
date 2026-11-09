@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Mon, 09 Nov 2026 14:31:04 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 09 Nov 2026 15:23:22 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Microsoft Patent Filing Targets Real-Time AI Speech Rewriting with Lip Sync</title><link>https://www.ithome.com/1/024/305.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/305.htm</guid>
+<pubDate>Mon, 09 Nov 2026 15:23:22 +0800</pubDate>
+<description>&lt;p&gt;Microsoft has filed patent application US 2026/0341309 A1 describing a system that rewrites live speech almost in real time: an AI agent monitors audio and flags words to alter or remove based on preset rules or viewer profiles (age, language, residence), then generative AI replaces the audio, smooths transitions and regenerates mouth movements to match, with playback delayed roughly 1 to 10 seconds. The filing also covers live translation and deployment on AR glasses, phones and cameras, but examiners rejected the relevant claims on July 29, 2026, and Microsoft has not confirmed any product plans.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;微软申请新专利：AI 实时改写直播语音并同步唇形&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;专利细节具体，涉及实时语音替换、唇形重绘与观众画像过滤，是观察 AI 内容篡改与合规边界的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/024/305.htm">IT之家 · 智能时代</source>
+<category>微软</category>
+<category>专利</category>
+<category>生成式 AI</category>
+<category>实时视频</category>
+<category>内容审核</category>
+</item>
+<item><title>Letting AI Do All the Work Should Be Grounds for Dismissal, Argues Developer</title><link>https://swiftrocks.com/being-a-meat-proxy-for-ai-should-be-grounds-for-getting-people-fired</link><guid isPermaLink="true">https://swiftrocks.com/being-a-meat-proxy-for-ai-should-be-grounds-for-getting-people-fired</guid>
+<pubDate>Mon, 09 Nov 2026 14:55:38 +0800</pubDate>
+<description>&lt;p&gt;A developer opinion piece argues that engineers who merely prompt an agent to \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;开发者沦为 AI 的“肉身代理”应被追责甚至解雇&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;触及 AI 辅助开发中的责任归属与职业伦理争议，对关注智能体落地影响的读者有讨论价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 38/100&lt;/p&gt;</description>
+<source url="https://swiftrocks.com/being-a-meat-proxy-for-ai-should-be-grounds-for-getting-people-fired">Hacker News AI</source>
+<category>AI 编程</category>
+<category>开发者伦理</category>
+<category>智能体</category>
+<category>行业观点</category>
+</item>
 <item><title>Alibaba Cloud Raises Token Plan Quotas by Over 70% at Unchanged Monthly Fees</title><link>https://www.ithome.com/1/024/250.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/250.htm</guid>
 <pubDate>Mon, 09 Nov 2026 14:31:04 +0800</pubDate>
 <description>&lt;p&gt;Alibaba Cloud has raised the quotas of its Token Plan personal subscriptions, boosting Lite, Essential and Standard tiers by roughly 74% to 78% with monthly fees unchanged, cutting per-credit cost by over 40%. The Pro tier now offers 200,000 credits at a reduced monthly fee of RMB 312, down about 37.5%, with existing subscribers receiving the new quotas as well.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;阿里云 Token Plan 额度上调超 70% 月费不变&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部云厂商大幅下调单位 Token 成本，是观察大模型推理价格战与开发者用云成本的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
@@ -146,9 +165,9 @@
 <category>水资源</category>
 <category>东南亚</category>
 </item>
-<item><title>Critique Argues GPUI and egui State Models Won&#x27;t Scale to Complex Desktop Apps</title><link>https://blog.zortax.de/posts/a-critique-of-gpui</link><guid isPermaLink="true">https://blog.zortax.de/posts/a-critique-of-gpui</guid>
+<item><title>长文批评 GPUI 与 egui 状态模型难撑复杂桌面应用</title><link>https://blog.zortax.de/posts/a-critique-of-gpui</link><guid isPermaLink="true">https://blog.zortax.de/posts/a-critique-of-gpui</guid>
 <pubDate>Mon, 09 Nov 2026 11:51:10 +0800</pubDate>
-<description>&lt;p&gt;The author argues that the state models of GPUI and egui are dead ends for complex desktop applications: the frameworks cannot determine what changed and who depends on it, forcing the application layer to declare it by hand and sacrificing the API semantics that made them attractive. The post acknowledges both excel in contexts like Zed and bevy debug UIs, but opposes treating them as the default choice for native desktop apps.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;长文批评 GPUI 与 egui 状态模型难撑复杂桌面应用&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;对 Rust 原生 GUI 框架架构取舍的深度技术批评，涉及 Discord 重写等真实案例，对关注桌面端 AI 应用技术选型的开发者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;作者认为 GPUI 与 egui 的即时模式状态模型是复杂桌面应用的死胡同：框架无法自行判断“什么变了、谁依赖它”，只能让应用层手工声明，从而牺牲了 API 原本的简洁语义。文章同时承认两者在 Zed、bevy 调试界面等场景表现出色，但反对将其作为原生桌面应用默认选型。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;对 Rust 原生 GUI 框架架构取舍的深度技术批评，涉及 Discord 重写等真实案例，对关注桌面端 AI 应用技术选型的开发者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://blog.zortax.de/posts/a-critique-of-gpui">Hacker News AI</source>
 <category>Rust</category>
 <category>GUI 框架</category>
@@ -156,9 +175,9 @@
 <category>egui</category>
 <category>架构设计</category>
 </item>
-<item><title>Anthropic Study Finds Scientists Mainly Use Claude for Data Analysis and Writing</title><link>https://www.ithome.com/1/024/111.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/111.htm</guid>
+<item><title>Anthropic 研究：科学家主要用 Claude 做数据分析与写作</title><link>https://www.ithome.com/1/024/111.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/111.htm</guid>
 <pubDate>Mon, 09 Nov 2026 11:41:26 +0800</pubDate>
-<description>&lt;p&gt;Anthropic published a report based on 207,000 research sessions and a survey of 528 scientists, finding that data analysis (33.7% of research sessions) and writing (32%) dominate scientific use of Claude, while data collection and hypothesis generation lag well behind. Computer science, math and statistics show the highest usage density, and AI/ML researchers—just 1.2% of the global total—account for 15.2% of Claude Code research sessions.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 研究：科学家主要用 Claude 做数据分析与写作&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首份基于大规模真实会话数据的 AI 科研使用画像，揭示 AI 在科研流程中的实际渗透边界。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 基于 20.7 万次科研会话与 528 名科学家问卷发布报告，指出科学家最常用 Claude 做数据分析（占科研会话 33.7%）和写作（32%），而数据收集与假设生成占比明显偏低。计算机科学、数学与统计学使用密度最高，AI/ML 领域研究人员仅占全球 1.2%，却贡献 Claude Code 科研会话的 15.2%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首份基于大规模真实会话数据的 AI 科研使用画像，揭示 AI 在科研流程中的实际渗透边界。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/111.htm">IT之家 · 智能时代</source>
 <category>Anthropic</category>
 <category>Claude</category>
@@ -250,24 +269,6 @@
 <category>就业影响</category>
 <category>Cathie Wood</category>
 <category>Anthropic</category>
-</item>
-<item><title>三星、SK 海力士、美光与 SEMI 磋商晶圆厂机器人充电标准化</title><link>https://www.ithome.com/1/024/046.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/046.htm</guid>
-<pubDate>Mon, 09 Nov 2026 09:18:13 +0800</pubDate>
-<description>&lt;p&gt;三星电子、SK 海力士、美光三大存储器原厂正与 SEMI 磋商晶圆厂机器人充电系统标准化，组建 RX（机器人转型）联盟。该联盟将先统一充电设备的结构兼容性，再把机器人电量信息接入制造执行系统，以统筹调度作业与充电时间，解决老旧晶圆厂空间受限、异构充电规格难以部署足够坞站的问题。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是半导体制造自动化与机器人基础设施标准化的早期动向，虽处磋商阶段，但对晶圆厂智能化与机器人部署有长期影响。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 42/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/024/046.htm">IT之家 · IT业界</source>
-<category>半导体</category>
-<category>机器人</category>
-<category>晶圆厂自动化</category>
-<category>SEMI</category>
-</item>
-<item><title>古尔曼：苹果最早明年推出代理式 Siri，可主动代用户完成任务</title><link>https://www.ithome.com/1/024/029.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/029.htm</guid>
-<pubDate>Mon, 09 Nov 2026 07:51:12 +0800</pubDate>
-<description>&lt;p&gt;彭博社记者马克·古尔曼在《Power On》通讯中爆料，苹果计划最早于明年推出自主代理式 Siri，从被动响应命令转向主动管理任务并代表用户完成事务，以对标 ChatGPT Dots、Meta Muse 与 Grok。报道同时提到新任 CEO 约翰·特努斯已敦促软件工程主管克雷格·费德里吉加快 AI 业务推进。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是关于苹果智能体路线图的重要爆料，但缺乏具体参数、时间表细节与可验证材料，属于预告性质信息。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 42/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/024/029.htm">IT之家 · 智能时代</source>
-<category>智能体</category>
-<category>苹果</category>
-<category>Siri</category>
-<category>古尔曼</category>
 </item>
 </channel>
 </rss>
