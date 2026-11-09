@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Mon, 09 Nov 2026 22:00:01 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 10 Nov 2026 00:06:37 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>英伟达董事会启动独立调查 审查黄仁勋被外国情报瞄准报道</title><link>https://todayforai.com/en/story/story-55770774-90b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-55770774-90b</guid>
 <pubDate>Mon, 09 Nov 2026 13:26:29 +0800</pubDate>
@@ -30,6 +30,14 @@
 在技术方案上，数字员工可实时关联钉钉群聊、文档、AI 表格与听记等信息源，支持并行会话与任务指派；自动任务支持订阅事件与配置规则，首批覆盖指定人消息、群内 @ 自己、审批任务等触发场景，使 Agent 从被动响应升级为主动执行；人机共创打通对话、预览与编辑，支持多人多 Agent 在线同时修改文档、表格与宜搭应用；三端互联实现手机、电脑、网页同步，任务云端常驻运行，关机后仍可继续。
 
 这一发布对办公协作赛道具有实质影响：多人与 Agent 同空间协作打破了传统人机交互的边界，将 Agent 从个人助手升级为团队数字员工，有望提升组织协同效率，并推动办公软件向智能化、自动化方向演进。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, InfoQ 中文, 量子位官网&lt;/p&gt;</description>
+</item>
+<item><title>字节发布 Seedream 5.5 支持直出透明背景</title><link>https://todayforai.com/en/story/story-3fb949dd-9e2</link><guid isPermaLink="true">https://todayforai.com/en/story/story-3fb949dd-9e2</guid>
+<pubDate>Tue, 10 Nov 2026 00:06:37 +0800</pubDate>
+<description>&lt;p&gt;字节跳动 Seed 团队正式发布图像编辑模型 Seedream 5.5，核心突破在于原生支持输出带 Alpha 通道的透明或半透明图像，并对轮廓边缘与透明区域做精细处理，省去后期抠图修边环节。同时，模型实现了非编辑区域像素级不变，官方演示同一人物连改 100 轮细节仍可对齐，显著缓解多轮编辑漂移问题。
+
+在技术指标上，Seedream 5.5 将严重文字错误率从上一代的 2.8% 降至 0.4%，2K 方图编辑单张成本约 0.28 元，不到 Seedream 5.0 Pro 的一半。模型已在即梦、豆包、豆包工作陆续上线，开发者可通过火山方舟以 Doubao-Seedream-5.5 调用。
+
+此次发布意味着 AI 图像生成正从“生成图片”转向“生成可直接复用的设计素材”，透明背景输出让生成元素无缝进入后续设计流程，大幅提升创作效率。成本的大幅下降与编辑稳定性的提升，也将进一步推动 AI 图像编辑在商业设计、电商、广告等场景的规模化落地。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 <item><title>谷歌扩充 TPU 阵容推出 8tx 与 8i Max 两款新品</title><link>https://todayforai.com/en/story/story-8e585f9c-a84</link><guid isPermaLink="true">https://todayforai.com/en/story/story-8e585f9c-a84</guid>
 <pubDate>Mon, 09 Nov 2026 20:59:02 +0800</pubDate>
@@ -62,10 +70,6 @@ Harness 采用全插件化架构，已积累约 3.5 万个用户插件。DeepSee
 <item><title>AI 初创用非公开 Claude 模型证明量子计算猜想</title><link>https://todayforai.com/en/story/story-371d5a9a-112</link><guid isPermaLink="true">https://todayforai.com/en/story/story-371d5a9a-112</guid>
 <pubDate>Mon, 09 Nov 2026 21:31:34 +0800</pubDate>
 <description>&lt;p&gt;AI for Science 初创公司 Physical Superintelligence 利用内部研究系统（运行非公开的 Anthropic 模型）在三天内为 Scott Aaronson 与 Andris Ambainis 自 2008 年悬而未决的量子计算加速猜想找到了完整证明，并经 Lean 证明助手验证。这是 AI 系统自主扩展人类知识边界的标志性案例，也预示合成研究者产出速度将超越人类理解速度。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Import AI (Jack Clark)&lt;/p&gt;</description>
-</item>
-<item><title>亚马逊提出 HOPE 高阶专家剪枝 让 MoE 模型内存占用大幅下降</title><link>https://todayforai.com/en/story/story-080a564e-817</link><guid isPermaLink="true">https://todayforai.com/en/story/story-080a564e-817</guid>
-<pubDate>Mon, 09 Nov 2026 20:34:29 +0800</pubDate>
-<description>&lt;p&gt;亚马逊团队提出 HOPE 高阶专家剪枝方法，针对混合专家（MoE）大模型推理时专家 MLP 占用绝大部分显存、但每个 token 仅激活少数专家的问题，通过考虑专家之间的耦合关系而非独立评估来删除冗余专家。以 Qwen3.5-122B 为例，其 48 个 MoE 层每层 256 个专家，约 250 GB 参数中 95% 来自专家 MLP，而每 token 每层仅用 8 个，剪枝空间巨大。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Hugging Face Blog&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
