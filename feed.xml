@@ -30,6 +30,15 @@
 <category>工程教育</category>
 <category>斯坦福</category>
 </item>
+<item><title>SafeScript Launches as Safe JavaScript Subset for Untrusted Code Execution</title><link>https://github.com/SafeScript/safescript</link><guid isPermaLink="true">https://github.com/SafeScript/safescript</guid>
+<pubDate>Mon, 09 Nov 2026 05:26:33 +0800</pubDate>
+<description>&lt;p&gt;SafeScript is a strict, safe subset of JavaScript that strips eval, new, globals and prototype access, compiling to plain JS and PHP with a ~48 KB minified (~12 KB gzipped) compiler. It targets webserver handlers, event callbacks, plugin scripts, formulas and AI agent tools, letting user-submitted logic run safely inside a sandbox.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SafeScript 发布：可安全执行不可信代码的 JavaScript 子集&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为不可信代码提供可本地验证的轻量安全执行层，对智能体工具与插件生态有直接实用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
+<source url="https://github.com/SafeScript/safescript">Hacker News AI</source>
+<category>开发者工具</category>
+<category>JavaScript</category>
+<category>沙箱安全</category>
+<category>智能体工具</category>
+</item>
 <item><title>Amazon Paper Finds Rule-Following AI Benchmarks Riddled with Answer-Key and Scorer Bugs</title><link>https://x.com/rohanpaul_ai/status/2119541630361554965</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119541630361554965</guid>
 <pubDate>Mon, 09 Nov 2026 05:24:38 +0800</pubDate>
 <description>&lt;p&gt;A new Amazon paper audited nine public rule-following benchmarks such as RuleArena and LegalBench and found that their reference answers and grading code contain errors, causing correct model responses to be marked wrong. In LegalBench&amp;#x27;s tax scorer, decimal points were stripped, turning $259,487.13 into 25,948,713; after the fix, three models&amp;#x27; accepted answers rose from 8-9 out of 96 to 87-91. The authors urge checking scorer code and hand-reviewing failed answers before trusting low scores.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊论文发现规则类基准答案键与评分代码普遍出错&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究揭示规则类基准的评分缺陷会系统性低估模型能力，直接影响对模型评测结论的信任。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 71/100&lt;/p&gt;</description>
@@ -209,9 +218,9 @@
 <category>AI 助手</category>
 <category>权限安全</category>
 </item>
-<item><title>LobeHub Deploys Agents Across Its R&amp;D Workflow, Hitting 70% Pass Rate on 30 Tasks</title><link>https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247940486&amp;idx=1&amp;sn=8678d2fd2fb6c737c7acfdcfd4733b86</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247940486&amp;idx=1&amp;sn=8678d2fd2fb6c737c7acfdcfd4733b86</guid>
+<item><title>LobeHub 用 Agent 接管研发流程 30 项任务通过率达 70%</title><link>https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247940486&amp;idx=1&amp;sn=8678d2fd2fb6c737c7acfdcfd4733b86</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247940486&amp;idx=1&amp;sn=8678d2fd2fb6c737c7acfdcfd4733b86</guid>
 <pubDate>Sun, 08 Nov 2026 22:32:00 +0800</pubDate>
-<description>&lt;p&gt;LobeHub has embedded its own AI collaboration platform deep into its R&amp;amp;D workflow, with agents handling task decomposition, assignment, coding and bug triage as standing team members. On FrontierHarness&amp;#x27;s 30 software-engineering tasks, its optimized Agent Harness paired with Kimi K3 completed 21 for a 70% pass rate at a median cost of $1.68 per successful task, which the team says beats Codex and Claude Code. The project has roughly 84.4k GitHub stars and is open-sourced.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;LobeHub 用 Agent 接管研发流程 30 项任务通过率达 70%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是少见的把多智能体协作真正跑进日常研发并给出可量化通过率与成本的案例，对关注 Agent 工程化的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;量子位 (微信公众号) · agent · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;LobeHub 团队将自家 AI 协作平台深度嵌入研发流程，让 Agent 承担拆解任务、派活、写代码与排查 Bug 等环节，AI 已成为团队常驻成员。在 FrontierHarness 的 30 道软件工程任务中，其优化后的 Agent Harness 搭配 Kimi K3 完成 21 道，通过率 70%，单任务成功成本中位数 1.68 美元，官方称超过 Codex 与 Claude Code。该项目在 GitHub 已获约 8.44 万 Star，并已开源。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是少见的把多智能体协作真正跑进日常研发并给出可量化通过率与成本的案例，对关注 Agent 工程化的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;量子位 (微信公众号) · agent · signal 72/100&lt;/p&gt;</description>
 <source url="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247940486&amp;idx=1&amp;sn=8678d2fd2fb6c737c7acfdcfd4733b86">量子位 (微信公众号)</source>
 <category>智能体</category>
 <category>开源</category>
@@ -263,16 +272,6 @@
 <category>自主实验室</category>
 <category>上海交大</category>
 <category>Nature</category>
-</item>
-<item><title>Chamath 称 SpaceX 可 90 天终止 Anthropic 算力合约并涨价 2-3 倍</title><link>https://x.com/rohanpaul_ai/status/2119409905434268064</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119409905434268064</guid>
-<pubDate>Sun, 08 Nov 2026 20:41:12 +0800</pubDate>
-<description>&lt;p&gt;Chamath Palihapitiya 在播客中提出一个博弈论推演：若数据中心供给收紧，SpaceX 可按 90 天通知终止与 Anthropic 的算力协议，再以 2-3 倍价格返售，而 Anthropic 只能接受。他认为这一单将迫使超大规模厂商与新云厂商重新评估自用还是外售算力，并引发恐慌性抢购。该说法为个人观点推演，未提供合约条款或数据佐证。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以博弈论视角讨论算力供给紧张下的合约议价权，对关注算力经济与 AI 基础设施的读者有参考价值，但属个人推演而非事实披露。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2119409905434268064">Rohan Paul (@rohanpaul_ai)</source>
-<category>算力</category>
-<category>数据中心</category>
-<category>Anthropic</category>
-<category>SpaceX</category>
-<category>AI 基础设施</category>
 </item>
 </channel>
 </rss>
