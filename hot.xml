@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Mon, 09 Nov 2026 16:34:15 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 09 Nov 2026 16:44:00 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>OpenAI 发布 GPT-6 Cyber 安全模型，越界行为降至 1% 以下</title><link>https://todayforai.com/en/story/story-32972b05-1f7</link><guid isPermaLink="true">https://todayforai.com/en/story/story-32972b05-1f7</guid>
 <pubDate>Mon, 09 Nov 2026 10:43:07 +0800</pubDate>
@@ -10,6 +10,14 @@
 在实战测试中，GPT-6 Cyber 于 12 小时内扫描 Linux 内核约 7% 代码，识别出 2308 个候选漏洞并成功复现 1724 个，还为其中 948 个生成了可本地提权的完整利用程序，复现率达 74.7%，仅 3.1% 为模型幻觉误报。同时，它在 Firefox 中发现 81 个此前未知的高危漏洞，已向 Mozilla 提交证据与候选补丁，多数漏洞已获修复。相比前代 GPT-5.6 Sol 仅能构建 166 个利用，GPT-6 Cyber 的能力提升超过五倍，且至少 10 种利用技术此前从未公开。
 
 这一发布标志着 AI 已具备端到端的漏洞发现、利用构建与补丁建议能力，攻防成本结构被彻底改写。对防守方而言，AI 可大幅加速漏洞挖掘与修复；但对攻击方，同样能力可能被滥用。OpenAI 采取分级开放策略，并配套沙箱与人工监督，试图在能力释放与安全风险之间取得平衡。行业需尽快建立相应的补丁响应机制与伦理规范，以应对 AI 驱动的安全新范式。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, Yuchen Jin (@Yuchenj_UW), OpenAI 官方博客, The Decoder, TechCrunch AI, InfoQ 中文&lt;/p&gt;</description>
+</item>
+<item><title>腾讯混元 Hy4 发布 770B 参数支持原生视觉与电脑操作</title><link>https://todayforai.com/en/story/story-ceb034bb-682</link><guid isPermaLink="true">https://todayforai.com/en/story/story-ceb034bb-682</guid>
+<pubDate>Mon, 09 Nov 2026 16:44:00 +0800</pubDate>
+<description>&lt;p&gt;腾讯正式发布新一代大语言模型混元 Hy4，参数规模从 Hy3 的不足 300B 跃升至 770B（激活参数 49B），首次引入原生视觉理解与电脑操作能力，并大幅提升指令遵循、长文理解与长程任务表现。官方称其首次跻身最强开源模型之列，计划近期开源权重并联合 vLLM/SGLang 生态提供支持。
+
+综合多源信息，Hy4 在 Artificial Analysis 智能指数上得分 35，位列中国模型第二，与 Grok 4.7 持平；在 Agent Arena 基于 8500+ 真实长程会话的评测中排名第 14，较预览版提升 3.6 个百分点，单任务成本仅 0.55 美元，性价比突出。其视觉能力可定位 28 亿像素航拍图中约 2 米构件，电脑操作覆盖命令行与图形界面，并针对 Blender、CAD 等专业软件专项训练。模型已接入 WorkBuddy、CodeBuddy、元宝、企业微信及 OpenRouter 等平台，上线首日调用激增致 WorkBuddy 推理集群十倍扩容。定价维持输入 6 元/百万 Token、输出 18 元/百万 Token，并计划推出更低成本的 Hy4 Flash。
+
+Hy4 的发布标志着腾讯在开源大模型赛道首次进入第一梯队，其原生视觉与电脑操作能力将加速 AI 智能体在办公、编程与专业软件场景的落地。然而，官方坦承在数学、长程开发等高难度任务上仍与顶尖闭源模型存在差距，且 AA-Omniscience 幻觉率高达 89%，远逊于 Kimi K3.1 Pro 的 37%，提示可靠性仍是待解难题。随着权重开源临近，Hy4 有望与 Kimi K3.1 Pro 并列开…&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · 智能时代, The Decoder, 量子位官网, InfoQ 中文, Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
 </item>
 <item><title>英伟达董事会启动独立调查 审查黄仁勋被外国情报瞄准报道</title><link>https://todayforai.com/en/story/story-55770774-90b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-55770774-90b</guid>
 <pubDate>Mon, 09 Nov 2026 13:26:29 +0800</pubDate>
@@ -66,14 +74,6 @@ Anthropic 估算，若 AI 承担全部非动手工作，计算机与统计领域
 <item><title>特朗普称 AI 风险可控 对设置监管护栏持开放态度</title><link>https://todayforai.com/en/story/story-e48bcad0-9e1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e48bcad0-9e1</guid>
 <pubDate>Mon, 09 Nov 2026 10:43:18 +0800</pubDate>
 <description>&lt;p&gt;特朗普表示 AI 风险可控，并称不介意设置监管护栏，愿与民主党在监管上合作。这与其此前支持科技公司自我监管、并将 AI 安全担忧称为“骗局”的立场相比出现松动，但具体开放程度仍不明确。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
-</item>
-<item><title>Anthropic IPO 估值预期下调至 1.2 万亿美元，市场质疑 AI 龙头高估值</title><link>https://todayforai.com/en/story/story-1049bdee-c36</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1049bdee-c36</guid>
-<pubDate>Sun, 08 Nov 2026 10:10:56 +0800</pubDate>
-<description>&lt;p&gt;受科技股大幅回调与 AI 板块抛售影响，Anthropic 的 IPO 估值预期在数日内从 2 万亿美元下调至 1.2 万亿美元，部分投资者甚至认为 1 万亿美元更合理。纳斯达克 100 单日暴跌 6.4%、市值蒸发约 2.3 万亿美元，成为估值下调的直接导火索。
-
-综合多家信源，估值下调主因市场环境而非公司业绩：Anthropic 10 月底年化收入已超 800 亿美元，9 月底现金储备达 1466 亿美元，但季度亏损与巨额算力支出承诺仍令认购方要求折价。同时，Ramp 数据显示企业 token 用量增长 65% 而支出仅增 1.5%，AI 单价一个月内下降 27%，买方市场格局进一步压制高估值叙事。
-
-作为可能首家上市的前沿模型开发商，Anthropic 的定价将成为检验 AI 龙头需求能否扛住板块回调的关键风向标。若 IPO 遇阻或推迟，可能动摇市场对整个人工智能行业的信心，并影响后续 AI 公司的上市节奏与融资环境。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), The Decoder, Hacker News AI, 宝玉 (@dotey), IT之家 · 智能时代, Latent Space&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
