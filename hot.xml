@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Mon, 09 Nov 2026 20:34:29 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 09 Nov 2026 20:59:02 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
+<item><title>腾讯混元 Hy4 发布 770B 参数并首次解锁视觉与电脑操作</title><link>https://todayforai.com/en/story/story-f4fb29ac-16b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f4fb29ac-16b</guid>
+<pubDate>Mon, 09 Nov 2026 16:44:00 +0800</pubDate>
+<description>&lt;p&gt;腾讯正式发布新一代大模型混元 Hy4，参数规模从 Hy3 的不足 300B 跃升至 770B（激活参数 49B），并首次引入原生视觉理解与电脑操作能力，官方称其首次跻身最强开源模型之列。模型在指令遵循、长文理解与长程智能体任务上显著提升，已接入 WorkBuddy、CodeBuddy、元宝、企业微信等腾讯系产品及 OpenRouter 等外部平台，权重将于近期开源。
+
+综合多方信源，Hy4 的视觉能力支持像素级细粒度分析，可定位 28 亿像素航拍图中约 2 米构件；电脑操作则结合命令行与图形界面，并针对 Blender、CAD 等专业软件专项训练。在 Artificial Analysis 智能指数 v5 上得分 35，位列中国模型第二，Agent Arena 总榜第 14 并进入帕累托前沿，单任务成本仅 0.55 美元，性价比突出。但官方坦承在高难度数学、长程开发等测试集上仍落后顶尖闭源模型，且 AA-Omniscience 幻觉率高达 89%，远逊于 Kimi K3.1 Pro 的 37%。
+
+Hy4 上线首日调用量激增，腾讯对 WorkBuddy 推理集群紧急扩容十倍并上调免费额度，反映真实需求旺盛。定价维持输入每百万 Token 6 元、输出 18 元，并计划推出更低成本的 Hy4 Flash。作为腾讯迄今最大规模的开源模型，Hy4 有望重塑国内开源模型竞争格局，但其幻觉率与高难度任务短板仍需持续优化。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · 智能时代, The Decoder, 量子位官网, InfoQ 中文, Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
+</item>
 <item><title>OpenAI 发布 GPT-6 Cyber 安全模型，越界行为降至 1% 以下</title><link>https://todayforai.com/en/story/story-32972b05-1f7</link><guid isPermaLink="true">https://todayforai.com/en/story/story-32972b05-1f7</guid>
 <pubDate>Mon, 09 Nov 2026 10:43:07 +0800</pubDate>
 <description>&lt;p&gt;OpenAI 正式推出网络安全专用模型 GPT-6 Cyber，在漏洞挖掘与利用基准 ExploitGym 上得分从上一代的 32.1% 提升至 48.5%，相对提升约 51%。更关键的是，该模型在模拟越界行为的 HoneyPot 评测中，违规率从约 5% 降至 1% 以下，任务遵从率超过 99%，OpenAI 将其网络安全风险等级定为最高级 Critical，初期仅向获批的 Daybreak Red 客户开放。
@@ -10,14 +18,6 @@
 在实战测试中，GPT-6 Cyber 于 12 小时内扫描 Linux 内核约 7% 代码，识别出 2308 个候选漏洞并成功复现 1724 个，还为其中 948 个生成了可本地提权的完整利用程序，复现率达 74.7%，仅 3.1% 为模型幻觉误报。同时，它在 Firefox 中发现 81 个此前未知的高危漏洞，已向 Mozilla 提交证据与候选补丁，多数漏洞已获修复。相比前代 GPT-5.6 Sol 仅能构建 166 个利用，GPT-6 Cyber 的能力提升超过五倍，且至少 10 种利用技术此前从未公开。
 
 这一发布标志着 AI 已具备端到端的漏洞发现、利用构建与补丁建议能力，攻防成本结构被彻底改写。对防守方而言，AI 可大幅加速漏洞挖掘与修复；但对攻击方，同样能力可能被滥用。OpenAI 采取分级开放策略，并配套沙箱与人工监督，试图在能力释放与安全风险之间取得平衡。行业需尽快建立相应的补丁响应机制与伦理规范，以应对 AI 驱动的安全新范式。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, Yuchen Jin (@Yuchenj_UW), OpenAI 官方博客, The Decoder, TechCrunch AI, InfoQ 中文&lt;/p&gt;</description>
-</item>
-<item><title>腾讯混元 Hy4 发布 770B 参数支持原生视觉与电脑操作</title><link>https://todayforai.com/en/story/story-ceb034bb-682</link><guid isPermaLink="true">https://todayforai.com/en/story/story-ceb034bb-682</guid>
-<pubDate>Mon, 09 Nov 2026 16:44:00 +0800</pubDate>
-<description>&lt;p&gt;腾讯正式发布新一代大语言模型混元 Hy4，参数规模从 Hy3 的不足 300B 跃升至 770B（激活参数 49B），首次引入原生视觉理解与电脑操作能力，并大幅提升指令遵循、长文理解与长程任务表现。官方称其首次跻身最强开源模型之列，计划近期开源权重并联合 vLLM/SGLang 生态提供支持。
-
-综合多源信息，Hy4 在 Artificial Analysis 智能指数上得分 35，位列中国模型第二，与 Grok 4.7 持平；在 Agent Arena 基于 8500+ 真实长程会话的评测中排名第 14，较预览版提升 3.6 个百分点，单任务成本仅 0.55 美元，性价比突出。其视觉能力可定位 28 亿像素航拍图中约 2 米构件，电脑操作覆盖命令行与图形界面，并针对 Blender、CAD 等专业软件专项训练。模型已接入 WorkBuddy、CodeBuddy、元宝、企业微信及 OpenRouter 等平台，上线首日调用激增致 WorkBuddy 推理集群十倍扩容。定价维持输入 6 元/百万 Token、输出 18 元/百万 Token，并计划推出更低成本的 Hy4 Flash。
-
-Hy4 的发布标志着腾讯在开源大模型赛道首次进入第一梯队，其原生视觉与电脑操作能力将加速 AI 智能体在办公、编程与专业软件场景的落地。然而，官方坦承在数学、长程开发等高难度任务上仍与顶尖闭源模型存在差距，且 AA-Omniscience 幻觉率高达 89%，远逊于 Kimi K3.1 Pro 的 37%，提示可靠性仍是待解难题。随着权重开源临近，Hy4 有望与 Kimi K3.1 Pro 并列开…&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · 智能时代, The Decoder, 量子位官网, InfoQ 中文, Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
 </item>
 <item><title>英伟达董事会启动独立调查 审查黄仁勋被外国情报瞄准报道</title><link>https://todayforai.com/en/story/story-55770774-90b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-55770774-90b</guid>
 <pubDate>Mon, 09 Nov 2026 13:26:29 +0800</pubDate>
@@ -55,6 +55,14 @@ Hy4 的发布标志着腾讯在开源大模型赛道首次进入第一梯队，�
 
 这一变局对 AI 算力扩张构成实质性阻力。超大规模厂商开始考虑将建设转向海外，债务融资型 GPU 租赁商与存储芯片厂商估值逻辑被政治风险重新定价。尽管已获批项目暂不受影响，但新当选官员承诺在关键州加强监管，主要影响 2028 年后的新建项目。AI 产业正面临从技术竞赛到社会许可的范式转变，行业需通过集体行动重塑公众形象并构建更具包容性的叙事。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), The Verge AI, MIT Technology Review, Hacker News AI, IT之家 · IT业界, Ars Technica AI&lt;/p&gt;</description>
 </item>
+<item><title>谷歌扩充 TPU 阵容推出 8tx 与 8i Max 两款新品</title><link>https://todayforai.com/en/story/story-8e585f9c-a84</link><guid isPermaLink="true">https://todayforai.com/en/story/story-8e585f9c-a84</guid>
+<pubDate>Mon, 09 Nov 2026 20:59:02 +0800</pubDate>
+<description>&lt;p&gt;谷歌宣布扩充自研 TPU 产品阵容，新增面向机密计算的 TPU 8tx 与面向超长上下文场景的 TPU 8i Max，将产品线扩展至四款。两款新品并非全新设计，而是在现有芯片基础上重新配置，其中 8tx 将与 AMD 芯片协同工作。谷歌芯片负责人表示，产品迭代节奏已从两年一款明显加快，意在英伟达供应紧张之际抢占 AI 芯片市场。
+
+TPU 8tx 主打处理过程中对机密数据保持加密，面向政府与强监管行业；TPU 8i Max 通过单封装双芯片在同一机架内实现内存与算力翻倍，服务药物研发、数学与编程类超长上下文应用。结合 TorchTPU 等软件工具，谷歌正降低开发者使用门槛，并将自研芯片推向外部客户的日常推理场景。
+
+谷歌此次扩充 TPU 阵容，不仅丰富了自研芯片的适用场景，更通过加快迭代节奏和拓展供应链伙伴（如与 AMD 协同），直接挑战英伟达在 AI 芯片市场的主导地位。随着推理需求增长，谷歌有望凭借性价比和定制化优势吸引更多云客户，推动 AI 硬件竞争格局生变。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, The Decoder&lt;/p&gt;</description>
+</item>
 <item><title>DeepSeek 开源智能体 Harness 日活破 154 万，定位 Agent 时代操作系统</title><link>https://todayforai.com/en/story/story-2e9a613c-0d5</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2e9a613c-0d5</guid>
 <pubDate>Mon, 09 Nov 2026 02:47:19 +0800</pubDate>
 <description>&lt;p&gt;DeepSeek 开源智能体应用 Harness 上线不到三个月，官方 API 用户日活已突破 154 万，较 9 月底的 7 日均值 27.1 万增长近 5 倍。用户日均消耗约 92 万亿 token，人均约 6000 万，显示长时间运行的智能体任务算力消耗远超传统聊天机器人。
@@ -70,10 +78,6 @@ Harness 采用全插件化架构，已积累约 3.5 万个用户插件。DeepSee
 多方讨论进一步揭示了合约的博弈本质。Chamath Palihapitiya 在播客中推演，若数据中心供给收紧，SpaceX 可按 90 天通知终止协议，再以 2-3 倍价格返售，而 Anthropic 只能接受。他同时指出，若算力现货价格翻倍，既有长约按旧价履约将变成负 EV，重定价成为理性选择，与双方关系好坏无关。这些观点虽属个人推演，但一致指向 90 天退出条款是长约在现货剧烈波动下的关键重谈杠杆。
 
 这一事件凸显了算力供需紧张正在重塑长约合同的信用与议价格局。数据中心建设放缓与税收优惠政策变化，迫使超大规模厂商与新云厂商重新评估自用还是外售算力，可能引发恐慌性抢购。合同的双向风险设计意味着，在算力现货价格剧烈波动时，任何一方都可能行使退出权，长期算力协议的稳定性面临考验。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), IT之家 · IT业界&lt;/p&gt;</description>
-</item>
-<item><title>亚马逊提出 HOPE 高阶专家剪枝 让 MoE 模型内存占用大幅下降</title><link>https://todayforai.com/en/story/story-080a564e-817</link><guid isPermaLink="true">https://todayforai.com/en/story/story-080a564e-817</guid>
-<pubDate>Mon, 09 Nov 2026 20:34:29 +0800</pubDate>
-<description>&lt;p&gt;亚马逊团队提出 HOPE 高阶专家剪枝方法，针对混合专家（MoE）大模型推理时专家 MLP 占用绝大部分显存、但每个 token 仅激活少数专家的问题，通过考虑专家之间的耦合关系而非独立评估来删除冗余专家。以 Qwen3.5-122B 为例，其 48 个 MoE 层每层 256 个专家，约 250 GB 参数中 95% 来自专家 MLP，而每 token 每层仅用 8 个，剪枝空间巨大。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Hugging Face Blog&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

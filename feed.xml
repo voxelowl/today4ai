@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Mon, 09 Nov 2026 20:59:02 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 09 Nov 2026 21:31:34 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>AI Startup Proves Quantum Computing Conjecture Using Private Claude Model</title><link>https://importai.substack.com/p/import-ai-480-self-sustaining-space</link><guid isPermaLink="true">https://importai.substack.com/p/import-ai-480-self-sustaining-space</guid>
+<pubDate>Mon, 09 Nov 2026 21:31:34 +0800</pubDate>
+<description>&lt;p&gt;AI-for-science startup Physical Superintelligence used an internal research system running a non-public Anthropic model to find a complete proof of the long-standing Aaronson-Ambainis quantum speedup conjecture within three days, validated via the Lean proof assistant. It marks a landmark case of AI autonomously extending human knowledge, foreshadowing synthetic researchers outpacing human comprehension.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 初创用非公开 Claude 模型证明量子计算猜想&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 首次自主证明基础科学领域长期悬置的猜想，是 AI for Science 能力跃迁的强信号。&lt;/p&gt;&lt;p&gt;Import AI (Jack Clark) · industry · signal 78/100&lt;/p&gt;</description>
+<source url="https://importai.substack.com/p/import-ai-480-self-sustaining-space">Import AI (Jack Clark)</source>
+<category>AI for Science</category>
+<category>量子计算</category>
+<category>形式化验证</category>
+<category>Anthropic</category>
+</item>
 <item><title>Google Ships Four TPU Variants in a Year to Challenge Nvidia</title><link>https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia/</link><guid isPermaLink="true">https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia/</guid>
 <pubDate>Mon, 09 Nov 2026 20:59:02 +0800</pubDate>
 <description>&lt;p&gt;Google has added two variants to its eighth-generation TPU lineup: TPU 8tx, which keeps confidential data encrypted during processing, and TPU 8i Max, which doubles memory and compute per rack by pairing two chips in a single package. Alongside software such as TorchTPU, Google is lowering the barrier for developers and marketing its in-house silicon to external customers for everyday inference.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Google 一年内推出四款 TPU 变体 加码挑战英伟达&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Google 一年内推出四款 TPU 变体并强化机密计算与推理能力，是 AI 算力竞争格局中的关键动向。&lt;/p&gt;&lt;p&gt;The Decoder · compute · signal 72/100&lt;/p&gt;</description>
@@ -127,6 +136,15 @@
 <category>资本市场</category>
 <category>瑞银</category>
 </item>
+<item><title>Tencent Engineer Warns AI Coding Inflates Commits Dozens of Times</title><link>https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&amp;mid=2649808120&amp;idx=1&amp;sn=b007fdc7119e2018ef1a0ffda9a41b0a</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&amp;mid=2649808120&amp;idx=1&amp;sn=b007fdc7119e2018ef1a0ffda9a41b0a</guid>
+<pubDate>Mon, 09 Nov 2026 18:08:00 +0800</pubDate>
+<description>&lt;p&gt;A Tencent agent developer observes that AI-assisted coding has multiplied commit volume dozens of times while controllability declines: lacking the tacit knowledge humans use to trim edge cases during reviews, AI conservatively expands every exception path, inflating coordination state until review degrades into pattern matching. The author argues the bottleneck is convergence, not generation, and calls for explicit pre-generation constraints and human interrupt points.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;腾讯工程师反思 AI 编程提交量暴涨数十倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自一线 Agent 开发者的工程反思，指出 AI 编程加速链缺失中断点这一被忽视的系统性问题。&lt;/p&gt;&lt;p&gt;腾讯技术工程 (微信公众号) · agent · signal 62/100&lt;/p&gt;</description>
+<source url="https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&amp;mid=2649808120&amp;idx=1&amp;sn=b007fdc7119e2018ef1a0ffda9a41b0a">腾讯技术工程 (微信公众号)</source>
+<category>AI 编程</category>
+<category>智能体</category>
+<category>软件工程</category>
+<category>研发效能</category>
+</item>
 <item><title>XGIMI Launches 599 Yuan AI Memory Band L1 for Screenless Voice Capture</title><link>https://www.ithome.com/1/024/385.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/385.htm</guid>
 <pubDate>Mon, 09 Nov 2026 17:52:55 +0800</pubDate>
 <description>&lt;p&gt;XGIMI has launched the AI Memory Band L1 starting at 599 yuan, featuring a screenless, camera-free design that records with a single power-on and positions itself as a wrist-worn AI note-taker. It marks a new AI hardware category, but the available material is only the opening of a hands-on review and lacks key specs such as transcription, model capabilities and battery life.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;极米推出 599 元 AI 记忆手环 L1 无屏录音速记&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 硬件新品类值得关注，但素材信息量有限，仅作轻度关注。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 38/100&lt;/p&gt;</description>
@@ -161,9 +179,36 @@
 <category>AI 伴侣</category>
 <category>Shizuku AI</category>
 </item>
-<item><title>Tencent Hunyuan Hy4 Debuts with Native Vision and Computer Control</title><link>https://www.qbitai.com/2026/11/507843.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/507843.html</guid>
+<item><title>First Wet-Lab Closed-Loop Benchmark AISLE Debuts for AI Scientists</title><link>https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651073140&amp;idx=1&amp;sn=4ea07aeb526d7f8730cdf320ba182d9d</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651073140&amp;idx=1&amp;sn=4ea07aeb526d7f8730cdf320ba182d9d</guid>
+<pubDate>Mon, 09 Nov 2026 16:45:00 +0800</pubDate>
+<description>&lt;p&gt;MasterAI-EAM, together with several top research institutions, launched AI Scientists&amp;#x27; Last Exam (AISLE), billed as the first public benchmark for closed-loop dry-and-wet-lab scientific discovery, letting different models be tested under unified standards in real physical experiments. It aims to fill the long-missing reproducible, comparable physical verification layer in AI for Science, using nature itself as the verifier.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;全球首个湿实验闭环基准 AISLE 发布&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个真实湿实验闭环公开基准，为 AI 科学发现能力提供可复现的物理验证标尺，具有方法论层面的行业价值。&lt;/p&gt;&lt;p&gt;机器之心 (微信公众号) · industry · signal 72/100&lt;/p&gt;</description>
+<source url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651073140&amp;idx=1&amp;sn=4ea07aeb526d7f8730cdf320ba182d9d">机器之心 (微信公众号)</source>
+<category>AI for Science</category>
+<category>基准评测</category>
+<category>湿实验</category>
+<category>开源</category>
+</item>
+<item><title>China Telecom&#x27;s TeleAgent V3.0 Runs Agents on Windows Cloud PCs</title><link>https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651073140&amp;idx=2&amp;sn=1c23febbcadcab87c36b64b28d76ae18</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651073140&amp;idx=2&amp;sn=1c23febbcadcab87c36b64b28d76ae18</guid>
+<pubDate>Mon, 09 Nov 2026 16:45:00 +0800</pubDate>
+<description>&lt;p&gt;China Telecom&amp;#x27;s Tianyi AI has upgraded its Xingchen super agent TeleAgent to V3.0, adding a cloud-PC execution environment on top of its existing local desktop capabilities. It is positioned as the first domestic agent product to pair an agent with a full Windows cloud PC, which better fits China&amp;#x27;s office software ecosystem than the Linux cloud environments used by some overseas agents, and it also refreshed its desktop, web and mobile entry points.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;中国电信 TeleAgent V3.0 升级 智能体接入 Windows 云电脑&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国内运营商系智能体首次将完整 Windows 云电脑作为执行沙箱，为 Agent 落地本土办公场景提供了可参考的工程路径。&lt;/p&gt;&lt;p&gt;机器之心 (微信公众号) · agent · signal 58/100&lt;/p&gt;</description>
+<source url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651073140&amp;idx=2&amp;sn=1c23febbcadcab87c36b64b28d76ae18">机器之心 (微信公众号)</source>
+<category>智能体</category>
+<category>云电脑</category>
+<category>中国电信</category>
+<category>办公自动化</category>
+</item>
+<item><title>首个触觉推理模型 Touch-R1 入选 NeurIPS 2026</title><link>https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651073140&amp;idx=3&amp;sn=788754bcaa053557f9c8ccd807058410</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651073140&amp;idx=3&amp;sn=788754bcaa053557f9c8ccd807058410</guid>
+<pubDate>Mon, 09 Nov 2026 16:45:00 +0800</pubDate>
+<description>&lt;p&gt;戴盟机器人联合厦门大学、南京大学、大湾区大学、复旦大学提出 Touch-R1，首次将强化学习引入跨传感器触觉推理，使多模态大模型在视觉与触觉冲突时依据触感证据修正判断。团队同步开源 TouchReason-1M 数据集与 TouchReason-Bench 基准，论文已被 NeurIPS 2026 接收。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;触觉推理是具身智能补齐物理世界认知的关键缺口，该工作同时给出模型、数据集与基准并获顶会接收，具备实质技术增量。&lt;/p&gt;&lt;p&gt;机器之心 (微信公众号) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651073140&amp;idx=3&amp;sn=788754bcaa053557f9c8ccd807058410">机器之心 (微信公众号)</source>
+<category>触觉推理</category>
+<category>具身智能</category>
+<category>多模态大模型</category>
+<category>NeurIPS</category>
+</item>
+<item><title>腾讯混元 Hy4 发布 770B 参数支持原生视觉与电脑操作</title><link>https://www.qbitai.com/2026/11/507843.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/507843.html</guid>
 <pubDate>Mon, 09 Nov 2026 16:44:00 +0800</pubDate>
-<description>&lt;p&gt;Tencent has officially released Hunyuan Hy4, a 770B-parameter model with 49B activated parameters that introduces native vision understanding and computer-operation capabilities for the first time, alongside upgraded long-context comprehension and long-horizon agent performance. It is already live across WorkBuddy, CodeBuddy, Yuanbao and WeCom, with API access via OpenRouter, and model weights slated for open release soon.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;腾讯混元 Hy4 发布 770B 参数支持原生视觉与电脑操作&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产头部大模型首次同时补齐原生视觉与电脑操作能力，且明确开源权重，对开源生态与 Agent 落地均有实质影响。&lt;/p&gt;&lt;p&gt;量子位官网 · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;腾讯正式发布混元 Hy4，总参数 770B、激活参数 49B，首次引入原生视觉理解与电脑操作能力，长文理解与长程 Agent 任务同步升级，官方定位为跻身最强开源模型之列。模型已接入 WorkBuddy、CodeBuddy、元宝、企业微信等腾讯系产品及 OpenRouter 等外部平台，权重将于近期开源。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产头部大模型首次同时补齐原生视觉与电脑操作能力，且明确开源权重，对开源生态与 Agent 落地均有实质影响。&lt;/p&gt;&lt;p&gt;量子位官网 · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.qbitai.com/2026/11/507843.html">量子位官网</source>
 <category>大模型</category>
 <category>腾讯混元</category>
@@ -171,18 +216,18 @@
 <category>多模态</category>
 <category>Agent</category>
 </item>
-<item><title>Google UK Data Center Faces 55,000-Signature Petition</title><link>https://www.ithome.com/1/024/357.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/357.htm</guid>
+<item><title>谷歌英国数据中心遭 5.5 万人联名反对</title><link>https://www.ithome.com/1/024/357.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/357.htm</guid>
 <pubDate>Mon, 09 Nov 2026 16:35:45 +0800</pubDate>
-<description>&lt;p&gt;Google&amp;#x27;s planned large data center in Thurrock, east of London, faces a petition signed by nearly 55,000 people, backed by an unusual coalition of wildlife groups, an anti-pollution nonprofit and a local motorcycle club concerned about habitat loss and pollution. The case is part of a broader European backlash against data centers, highlighting growing community and policy resistance to AI compute expansion.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌英国数据中心遭 5.5 万人联名反对&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;反映 AI 算力扩张遭遇地方阻力这一结构性趋势，对关注基础设施与产业落地的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;谷歌计划在伦敦以东瑟罗克建设大型数据中心，遭 Buglife、Foxglove 及当地摩托车俱乐部等团体组成的联盟反对，近 5.5 万人签署请愿书，担忧破坏濒危物种栖息地并造成污染。该事件是欧洲反数据中心浪潮的一部分，凸显 AI 算力扩张正面临日益增强的社区与政策阻力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;反映 AI 算力扩张遭遇地方阻力这一结构性趋势，对关注基础设施与产业落地的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/357.htm">IT之家 · IT业界</source>
 <category>数据中心</category>
 <category>谷歌</category>
 <category>AI 算力</category>
 <category>环保争议</category>
 </item>
-<item><title>Qwen Office 2.0 Launches Team Agent for Multi-User Collaboration</title><link>https://www.qbitai.com/2026/11/508694.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/508694.html</guid>
+<item><title>千问办公 2.0 发布 推出首个多人 Agent 协作功能</title><link>https://www.qbitai.com/2026/11/508694.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/508694.html</guid>
 <pubDate>Mon, 09 Nov 2026 16:34:03 +0800</pubDate>
-<description>&lt;p&gt;Qwen Office released version 2.0, debuting a &amp;#x27;Collaboration&amp;#x27; feature that lets digital employees join team workspaces alongside human members. It also adds proactive &amp;#x27;Auto Tasks&amp;#x27; triggered by events, plus human-AI co-creation, a resource space and three-device sync, shifting office agents from personal assistants to team-level agents.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;千问办公 2.0 发布 推出首个多人 Agent 协作功能&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是办公 Agent 从个人助手迈向团队协作形态的产品节点，多人与 Agent 同空间协作及主动任务触发值得关注。&lt;/p&gt;&lt;p&gt;量子位官网 · agent · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;千问办公发布 2.0 版本，推出行业首个支持多人与 Agent 协作的“协作”功能，让数字员工进入工作群与团队共同作业。同时上线“自动任务”实现 Agent 主动触发执行，并支持人机共创、资料空间与三端互联，标志办公 Agent 从服务个人转向服务团队。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是办公 Agent 从个人助手迈向团队协作形态的产品节点，多人与 Agent 同空间协作及主动任务触发值得关注。&lt;/p&gt;&lt;p&gt;量子位官网 · agent · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.qbitai.com/2026/11/508694.html">量子位官网</source>
 <category>智能体</category>
 <category>办公协作</category>
@@ -225,54 +270,6 @@
 <category>DRAM</category>
 <category>半导体制造</category>
 <category>AI 数据中心</category>
-</item>
-<item><title>谷歌 Firebase Studio 将于 2027 年 3 月关闭，用户需迁移至 Antigravity 或 AI Studio</title><link>https://www.ithome.com/1/024/345.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/345.htm</guid>
-<pubDate>Mon, 09 Nov 2026 16:02:09 +0800</pubDate>
-<description>&lt;p&gt;谷歌在线 IDE Firebase Studio 已进入退场流程：新工作区创建与用户注册自今年 6 月起停用，产品将于 2027 年 3 月 22 日正式关闭并永久删除剩余数据。现有用户被引导迁移至 Google Antigravity 或 Google AI Studio 等替代方案。该产品 2025 年 4 月以预览形式推出，主打 AI 聊天辅助的应用原型设计与调整，但核心仍是代码编辑。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及谷歌 AI 开发工具线的产品退场与迁移路径，对使用 Firebase Studio 的开发者有直接行动价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/024/345.htm">IT之家 · 智能时代</source>
-<category>谷歌</category>
-<category>开发工具</category>
-<category>Firebase Studio</category>
-<category>AI Studio</category>
-</item>
-<item><title>英伟达宣布投资韩国 AI 初创企业 Point2 等四家公司</title><link>https://blogs.nvidia.com/blog/korean-startup-investments-msit/</link><guid isPermaLink="true">https://blogs.nvidia.com/blog/korean-startup-investments-msit/</guid>
-<pubDate>Mon, 09 Nov 2026 16:00:53 +0800</pubDate>
-<description>&lt;p&gt;英伟达与韩国科技信息通信部在首尔 COEX 举办 AI 初创企业合作论坛，宣布投资 AI 互联芯片公司 Point2，并计划追加投资 Motif Technologies、RLWRLD 与 Upstage。四家标的分别覆盖 AI 互联、智能体基座模型、机器人基础模型与企业级大模型，指向英伟达在韩国 AI 生态的资本与算力绑定。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达以资本方式绑定韩国 AI 生态，标的覆盖互联芯片、智能体模型与机器人基础模型，是观察其区域布局的重要信号。&lt;/p&gt;&lt;p&gt;NVIDIA Blog · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://blogs.nvidia.com/blog/korean-startup-investments-msit/">NVIDIA Blog</source>
-<category>英伟达</category>
-<category>韩国</category>
-<category>投资</category>
-<category>AI 基础设施</category>
-<category>机器人</category>
-</item>
-<item><title>马斯克回应 SpaceX 与 Anthropic 算力协议：合同双向，谁也别抱怨</title><link>https://www.ithome.com/1/024/344.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/344.htm</guid>
-<pubDate>Mon, 09 Nov 2026 15:59:19 +0800</pubDate>
-<description>&lt;p&gt;马斯克回应外界对 SpaceX 与 Anthropic 算力协议的质疑，强调合同条款双向对等：若算力供给趋紧，SpaceX 可提前 90 天解约并涨价重签；但若算力过剩降价，SpaceX 收入同样受损。该协议总额近 450 亿美元、期限至 2029 年 5 月，Anthropic 每月支付 12.5 亿美元租用 Colossus 集群专属算力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司与算力供应方之间巨额长约的定价与退出机制，是判断算力市场供需与议价权走向的关键信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/024/344.htm">IT之家 · IT业界</source>
-<category>算力</category>
-<category>SpaceX</category>
-<category>Anthropic</category>
-<category>数据中心</category>
-</item>
-<item><title>中国电信天翼终端与优必选达成战略合作 共推人形机器人规模化落地</title><link>https://www.ithome.com/1/024/340.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/340.htm</guid>
-<pubDate>Mon, 09 Nov 2026 15:53:42 +0800</pubDate>
-<description>&lt;p&gt;天翼电信终端与优必选签署全面战略合作协议，并成立联合创新实验室，目标三年内推动家庭陪伴机器人行业规模突破百万台、人形机器人突破十万台。合作聚焦机器人集采营销、租赁与“AI 权益 + 终端”试点，以及机器人与电信云网、大模型、eSIM 等能力的双向封装。协议目前处于框架阶段，未披露具体产品参数、投资金额或交付时间表。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是运营商渠道与人形机器人厂商的规模化落地合作，方向值得关注，但目前仅为框架协议，缺乏可验证的产品与商业细节。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/024/340.htm">IT之家 · 智能时代</source>
-<category>人形机器人</category>
-<category>中国电信</category>
-<category>优必选</category>
-<category>战略合作</category>
-<category>具身智能</category>
-</item>
-<item><title>三星 SDI 将为波士顿动力 Atlas 供应电池</title><link>https://www.ithome.com/1/024/339.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/339.htm</guid>
-<pubDate>Mon, 09 Nov 2026 15:50:07 +0800</pubDate>
-<description>&lt;p&gt;三星 SDI 被选为波士顿动力 Atlas 人形机器人的电池供应商，初期几乎独家供货；LG 新能源虽入选但产能有限。Atlas 计划 2028 年后量产，电池包由 70 节 2170 圆柱电芯组成，总容量约 1.3kWh。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;人形机器人量产供应链落地的具体信号，电池规格与量产时间表首次明确。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/024/339.htm">IT之家 · 智能时代</source>
-<category>人形机器人</category>
-<category>电池</category>
-<category>波士顿动力</category>
-<category>三星 SDI</category>
-<category>供应链</category>
 </item>
 </channel>
 </rss>
