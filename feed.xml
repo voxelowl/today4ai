@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Mon, 09 Nov 2026 06:35:35 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 09 Nov 2026 07:36:48 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Stanford and DeepMind&#x27;s TURTLE Evolves Tool-Use Benchmarks to Stay Hard</title><link>https://x.com/rohanpaul_ai/status/2119574891016135029</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119574891016135029</guid>
+<pubDate>Mon, 09 Nov 2026 07:36:48 +0800</pubDate>
+<description>&lt;p&gt;A new Stanford and Google DeepMind paper introduces TURTLE, which uses AlphaEvolve to mutate saturated tool-use tasks from AppWorld by adding filters, extra steps and hidden lookups, targeting roughly 50% solver success. Gemma 4 31B-it always solved 69% of original tasks, while nearly all 735 evolved tasks landed at 40%-60% completion, and an LLM judge rated 52.5% of evolved tasks hard versus 19.8% of originals.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;斯坦福与 DeepMind 提出 TURTLE 自动进化工具调用基准&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出一种可复用的基准自动进化范式，直接回应工具调用评测饱和问题，对关注模型评测与智能体的读者有实操价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2119574891016135029">Rohan Paul (@rohanpaul_ai)</source>
+<category>基准评测</category>
+<category>工具调用</category>
+<category>AlphaEvolve</category>
+<category>智能体</category>
+</item>
 <item><title>KetchUp Launches Open-Source SketchUp Alternative Built on Rust and WebGPU</title><link>https://ketchup3d.github.io/app/</link><guid isPermaLink="true">https://ketchup3d.github.io/app/</guid>
 <pubDate>Mon, 09 Nov 2026 06:35:35 +0800</pubDate>
 <description>&lt;p&gt;KetchUp is a free, open-source 3D modeling app for woodworking and furniture design, written in Rust and rendered with WebGPU, running on Windows, macOS, Linux and desktop browsers with no account required. It targets precise dimensioned planning of shelves, tables and cabinets as a lightweight SketchUp alternative, though textures, scenes and some model features are unsupported and OBJ export omits materials.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;KetchUp 发布 Rust 与 WebGPU 打造的开源 SketchUp 替代品&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 WebGPU 与 Rust 在桌面级 3D 建模工具中的一次实用落地，对关注开源图形工具链的开发者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
@@ -209,9 +218,9 @@
 <category>估值</category>
 <category>AI 产业</category>
 </item>
-<item><title>Ant Group&#x27;s Lingguang AI Assistant Tops 20 Million Users with Proactive Agent 2.0</title><link>https://www.ithome.com/1/024/010.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/010.htm</guid>
+<item><title>蚂蚁灵光用户破 2000 万 2.0 主打主动式智能体</title><link>https://www.ithome.com/1/024/010.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/010.htm</guid>
 <pubDate>Sun, 08 Nov 2026 22:47:23 +0800</pubDate>
-<description>&lt;p&gt;Ant Group said its Lingguang AI assistant has surpassed 20 million users, with version 2.0 managing over 1.16 million tasks and executing more than 3.6 million actions within its first week. The key shift is from passive instruction-following to proactive, user-authorized task identification and follow-up, backed by the APASS identity and security infrastructure that separates authorization keys from agents to bound their permissions.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;蚂蚁灵光用户破 2000 万 2.0 主打主动式智能体&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是国内大厂智能体产品从被动响应走向主动执行的一次规模化落地，其权限托管机制对关注 Agent 安全与产品形态的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;蚂蚁集团宣布旗下 AI 助手灵光用户突破 2000 万，2.0 版本上线一周即管理超 116 万项事务、执行超 360 万次任务。该版本的核心变化是 AI 从被动执行指令转向在用户授权下主动识别需求并发起分析、监测与跟进，同时接入 APASS 统一账号与安全管理基础设施，以授权密钥与智能体分离托管的方式约束 Agent 权限边界。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是国内大厂智能体产品从被动响应走向主动执行的一次规模化落地，其权限托管机制对关注 Agent 安全与产品形态的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/010.htm">IT之家 · 智能时代</source>
 <category>智能体</category>
 <category>蚂蚁集团</category>
@@ -262,16 +271,6 @@
 <category>Nature</category>
 <category>AI 安全</category>
 <category>神经科学</category>
-</item>
-<item><title>上海交大 AutoDNA 登上《自然》：AI 原生实验室自主完成分子生物学实验</title><link>https://www.ithome.com/1/024/001.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/001.htm</guid>
-<pubDate>Sun, 08 Nov 2026 21:23:49 +0800</pubDate>
-<description>&lt;p&gt;上海交大陈海波、王肇国团队与樊春海、王飞团队合作，构建 AI 原生科学实验室装置 AutoDNA（思源一号），以多智能体架构贯通文献检索、方案设计、代码生成、硬件执行与结果迭代全流程，并通过“原子服务”抽象统一调度多类仪器，实现微米级定位、微升级液体处理的自主分子生物学实验，成果登上《自然》正刊及官网头条。该工作把 AI 自主实验室从“外挂式”局部辅助推进到模型-实验-仪器协同设计的原生架构，并演示了端到端 DNA 存储全流程。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 自主科学实验室从局部辅助走向原生闭环的代表性成果，且经《自然》正刊验证，对关注智能体落地与 AI for Science 的读者具有高参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/024/001.htm">IT之家 · 智能时代</source>
-<category>AI for Science</category>
-<category>智能体</category>
-<category>自主实验室</category>
-<category>上海交大</category>
-<category>Nature</category>
 </item>
 </channel>
 </rss>
