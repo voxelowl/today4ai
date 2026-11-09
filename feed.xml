@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Mon, 09 Nov 2026 20:34:29 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 09 Nov 2026 20:59:02 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Google Ships Four TPU Variants in a Year to Challenge Nvidia</title><link>https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia/</link><guid isPermaLink="true">https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia/</guid>
+<pubDate>Mon, 09 Nov 2026 20:59:02 +0800</pubDate>
+<description>&lt;p&gt;Google has added two variants to its eighth-generation TPU lineup: TPU 8tx, which keeps confidential data encrypted during processing, and TPU 8i Max, which doubles memory and compute per rack by pairing two chips in a single package. Alongside software such as TorchTPU, Google is lowering the barrier for developers and marketing its in-house silicon to external customers for everyday inference.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Google 一年内推出四款 TPU 变体 加码挑战英伟达&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Google 一年内推出四款 TPU 变体并强化机密计算与推理能力，是 AI 算力竞争格局中的关键动向。&lt;/p&gt;&lt;p&gt;The Decoder · compute · signal 72/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia/">The Decoder</source>
+<category>算力芯片</category>
+<category>Google</category>
+<category>TPU</category>
+<category>英伟达</category>
+</item>
+<item><title>Google Expands TPU Lineup with 8tx and 8i Max Chips</title><link>https://www.ithome.com/1/024/525.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/525.htm</guid>
+<pubDate>Mon, 09 Nov 2026 20:43:54 +0800</pubDate>
+<description>&lt;p&gt;Google is expanding its custom TPU lineup with two new chips: TPU 8tx for confidential computing and TPU 8i Max for ultra-long-context AI workloads, bringing the family to four products. Both are reconfigured rather than fully redesigned silicon, with 8tx designed to work alongside AMD chips. Google&amp;#x27;s chip chief said iteration has accelerated well beyond the previous two-year cadence as the company seeks to capitalize on Nvidia&amp;#x27;s supply constraints.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌扩充 TPU 阵容推出 8tx 与 8i Max 两款新品&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;谷歌 TPU 产品线扩容与迭代提速，是 AI 算力供给格局变化的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 72/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/024/525.htm">IT之家 · IT业界</source>
+<category>芯片算力</category>
+<category>谷歌</category>
+<category>TPU</category>
+<category>英伟达</category>
+</item>
 <item><title>Amazon&#x27;s HOPE Higher-Order Expert Pruning Cuts MoE Memory Footprint</title><link>https://huggingface.co/blog/amazon/higher-order-pruning-experts</link><guid isPermaLink="true">https://huggingface.co/blog/amazon/higher-order-pruning-experts</guid>
 <pubDate>Mon, 09 Nov 2026 20:34:29 +0800</pubDate>
 <description>&lt;p&gt;An Amazon research team introduces HOPE, a higher-order expert pruning method for Mixture-of-Experts LLMs that removes redundant experts by accounting for inter-expert coupling rather than scoring them independently. The work targets the memory bottleneck where expert MLPs dominate inference footprint: Qwen3.5-122B has 256 experts per layer across 48 MoE layers, with 95% of its ~250 GB parameters in expert MLPs while only 8 experts per layer activate per token.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊提出 HOPE 高阶专家剪枝 让 MoE 模型内存占用大幅下降&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;直击 MoE 推理显存瓶颈，提出可落地的专家剪枝新方法，对部署百亿级 MoE 模型有直接参考价值。&lt;/p&gt;&lt;p&gt;Hugging Face Blog · llm · signal 74/100&lt;/p&gt;</description>
@@ -171,18 +189,18 @@
 <category>千问</category>
 <category>钉钉</category>
 </item>
-<item><title>Reason Machines Open-Sources Aspen Git Server for AI Agent Swarms</title><link>https://x.com/Marktechpost/status/2119708159921291280</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2119708159921291280</guid>
+<item><title>Reason Machines 开源 Aspen 支持每秒 567 次推送</title><link>https://x.com/Marktechpost/status/2119708159921291280</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2119708159921291280</guid>
 <pubDate>Mon, 09 Nov 2026 16:26:22 +0800</pubDate>
-<description>&lt;p&gt;Reason Machines has open-sourced Aspen, a Git server designed for repositories receiving concurrent pushes from hundreds of AI agents. Instead of serializing every push through one repository queue, each branch is a single Postgres row updated via compare-and-swap, so pushes to different branches never block each other. In the team&amp;#x27;s own test, one 8-core server with S3 Standard sustained 567 pushes per second for five minutes at 208 ms median and 314 ms p99 latency, though landing on main still runs at roughly 4 per second and a 24-hour chaos run stopped at 11.59 clean hours.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Reason Machines 开源 Aspen 支持每秒 567 次推送&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;针对多智能体并发写入这一真实工程瓶颈给出可验证的架构方案与实测数据，对构建 Agent 基础设施的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · opensource · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Reason Machines 开源了面向多智能体并发推送场景的 Git 服务器 Aspen，核心思路是放弃单一仓库队列，把每个分支建模为一行 Postgres 记录并用单次 compare-and-swap 更新，使不同分支的推送互不阻塞。团队自测在单台 8 核服务器配 S3 Standard 时持续 5 分钟达到每秒 567 次推送，中位延迟 208 ms、p99 314 ms，但主分支合并仍只有约每秒 4 次，24 小时混沌测试在 11.59 小时中断。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;针对多智能体并发写入这一真实工程瓶颈给出可验证的架构方案与实测数据，对构建 Agent 基础设施的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · opensource · signal 72/100&lt;/p&gt;</description>
 <source url="https://x.com/Marktechpost/status/2119708159921291280">Marktechpost (@Marktechpost)</source>
 <category>开源</category>
 <category>Git 服务器</category>
 <category>多智能体</category>
 <category>基础设施</category>
 </item>
-<item><title>ChatGPT Desktop Forwards Local SSH Agent to Remote Machines</title><link>https://news.ycombinator.com/item?id=50422628</link><guid isPermaLink="true">https://news.ycombinator.com/item?id=50422628</guid>
+<item><title>ChatGPT 桌面端将本地 SSH 凭据转发至远程机器</title><link>https://news.ycombinator.com/item?id=50422628</link><guid isPermaLink="true">https://news.ycombinator.com/item?id=50422628</guid>
 <pubDate>Mon, 09 Nov 2026 16:17:49 +0800</pubDate>
-<description>&lt;p&gt;The ChatGPT desktop app for OpenAI Codex was found to forward the user&amp;#x27;s local SSH agent to remote machines, letting an agent running remotely authenticate with local credentials and push to private GitHub repos. The behavior was surfaced via a Codex repository PR discussion, raising fresh questions about agent permission boundaries and credential handling.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;ChatGPT 桌面端将本地 SSH 凭据转发至远程机器&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及智能体凭据转发这一安全边界问题，对使用 Codex 远程执行的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI Codex 的 ChatGPT 桌面端被发现在远程机器上运行的智能体可复用用户本地 SSH 凭据完成认证，从而直接向 GitHub 私有仓库推送代码。该行为由社区通过 Codex 仓库 PR 讨论中的证据披露，属于智能体权限边界与凭据安全的新事实。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及智能体凭据转发这一安全边界问题，对使用 Codex 远程执行的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 58/100&lt;/p&gt;</description>
 <source url="https://news.ycombinator.com/item?id=50422628">Hacker News AI</source>
 <category>智能体</category>
 <category>SSH 凭据</category>
@@ -255,24 +273,6 @@
 <category>波士顿动力</category>
 <category>三星 SDI</category>
 <category>供应链</category>
-</item>
-<item><title>网信办上线新备案系统 生成式 AI 与算法备案一体化</title><link>https://www.ithome.com/1/024/332.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/332.htm</guid>
-<pubDate>Mon, 09 Nov 2026 15:40:28 +0800</pubDate>
-<description>&lt;p&gt;国家互联网信息办公室于 2026 年 11 月 9 日正式上线“互联网新技术新应用信息服务备案系统”，将生成式人工智能、算法、深度合成、区块链四类备案整合至同一平台，原算法备案系统与区块链备案系统同步停用。该系统支持按主体名称、备案名称、备案编号查询备案信息，意味着国内 AI 合规申报流程从多入口走向统一入口。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国内生成式 AI 合规申报入口统一，直接影响所有在华提供 AI 服务企业的备案流程。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/024/332.htm">IT之家 · 智能时代</source>
-<category>生成式人工智能</category>
-<category>监管合规</category>
-<category>网信办</category>
-<category>算法备案</category>
-</item>
-<item><title>AI 数据中心抢电：燃气轮机新机排到 2030 年代，二手市场火爆</title><link>https://www.ithome.com/1/024/313.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/313.htm</guid>
-<pubDate>Mon, 09 Nov 2026 15:33:09 +0800</pubDate>
-<description>&lt;p&gt;AI 数据中心耗电激增，使燃气轮机成为算力扩张的关键瓶颈：全球订单总容量超 100GW，而产能仅 60-70GW，新设备交货普遍排到 2030-2031 年。电力企业、项目开发商与数据中心供电商转而抢购二手与翻新机组，甚至采购航改型燃气轮机，但业内认为二手供给有限，难以显著缓解延误。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示 AI 算力扩张正被电力设备供给卡住，是理解数据中心建设节奏与能源约束的关键产业信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 72/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/024/313.htm">IT之家 · 智能时代</source>
-<category>算力基础设施</category>
-<category>数据中心</category>
-<category>能源</category>
-<category>燃气轮机</category>
 </item>
 </channel>
 </rss>
