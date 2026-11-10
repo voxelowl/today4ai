@@ -33,7 +33,7 @@ Muse Ember 的发布标…&lt;/p&gt;&lt;p&gt;13 sources&lt;/p&gt;&lt;p&gt;The De
 
 技术细节上，Carbon 在 CursorBench 4.0、WANDR 与 AutomationBench 上排名第一，单任务成本不到次优外部模型的一半。早期测试显示其 Terminal-Bench 作弊率与灰天鹅基准的提示注入成功率均降至 0%，安全代码编写速度达 Argon 的两倍，并在 Sec-Bench Pro 上发现 88% 的漏洞。定价沿用 Argon 的每百万 token 输入 2 美元、输出 10 美元，缓存输入享 95% 折扣，但推理与验证阶段会消耗更多 token。同时，Google 在智能体开发平台 Antigravity 上预览 swarm 蜂群功能，强化长周期智能体协作能力。
 
-此举标志着 Google 由追赶者重回前沿第一梯队，与 Anthropic、OpenAI 形成三方竞争。Carbon 在安全与长程任务上的突破，为无人值守智能体提供了可靠基础，而蜂群功能则指向多智能体协作的未来工作流，可能重塑开发者构建复杂 AI 应用的方式。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;GREG ISENBERG (@gregisenberg), Hacker News AI, The Verge AI, Rohan Paul (@rohanpaul_ai), The Decoder, 宝玉 (@dotey)&lt;/p&gt;</description>
+此举标志着 Google 由追赶者重回前沿第一梯队，与 Anthropic、OpenAI 形成三方竞争。Carbon 在安全与长程任务上的突破，为无人值守智能体提供了可靠基础，而蜂群功能则指向多智能体协作的未来工作流，可能重塑开发者构建复杂 AI 应用的方式。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;GREG ISENBERG (@gregisenberg), Hacker News AI, The Verge AI, Rohan Paul (@rohanpaul_ai), The Decoder, 宝玉 (@dotey)&lt;/p&gt;</description>
 </item>
 <item><title>DeepMind 智能体完成 Signal 加密代码形式化验证</title><link>https://todayforai.com/en/story/story-f85fa90a-617</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f85fa90a-617</guid>
 <pubDate>Tue, 10 Nov 2026 23:38:00 +0800</pubDate>
@@ -42,6 +42,14 @@ Muse Ember 的发布标…&lt;/p&gt;&lt;p&gt;13 sources&lt;/p&gt;&lt;p&gt;The De
 技术细节上，AlphaProof Code 结合人类专家知识与 Gemini Carbon 智能体集群，为 Signal 编译后的机器码生成约 650 万行 Lean 形式化证明，在处理器指令层面验证消息保密性。证明由 Lean 检查器独立校验，无需信任 AI 或 Rust 编译器本身。整个项目耗时约 4 周，40 至 80 个智能体协作，人类仅负责设定安全目标并复核约 1% 的标记内容。该方法还能识别含已知漏洞的旧版实现并判定其验证失败，具备实用判别力。
 
 行业影响方面，这是首次对广泛使用的协议在机器码层面完成端到端形式化验证，覆盖了从设计到代码实现间的常见漏洞缝隙。尽管算力开销巨大、短期内难以大规模推广，但该工作展示了 AI 智能体在软件安全验证领域的巨大潜力，为保护数十亿次私密通信提供了数学级保障，有望推动形式化验证成为关键基础设施的标配。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Google DeepMind, Hacker News AI, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
+</item>
+<item><title>Anthropic 推出 Claude 办公套件 微软股价应声下跌 3.5%</title><link>https://todayforai.com/en/story/story-6b1d42f1-18b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-6b1d42f1-18b</guid>
+<pubDate>Wed, 11 Nov 2026 03:24:49 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 正式发布 Claude 办公套件，包括 Claude Sheets、Claude Data、Claude Meetings 和 Claude Whiteboards 四款原生协作工具，标志着 Claude 从对话助手升级为独立工作平台。用户可通过自然语言直接生成可协作的表格、看板与仪表盘，并深度集成 Adobe、Atlassian、Box 等第三方应用。消息公布后，微软股价一度下跌超过 3.5%，市场反应强烈。
+
+综合多源信息，Claude Sheets 支持自然语言生成含公式与多标签的表格，Claude Data 可连接 Snowflake、Salesforce 自动刷新仪表盘，Claude Meetings 允许 Claude 作为可见参会者加入视频会议并实时起草计划，Claude Whiteboards 则能将讨论自动转为带时间线与负责人的看板。所有付费计划均可使用这些功能，且用户无需切换标签即可编辑或委托 Claude 修改内容。
+
+此举直接冲击 Microsoft 365 与 Google Workspace，并紧随 OpenAI 与 Meta 的办公套件布局，标志着三大厂商围绕 AI 办公套件展开正面竞争。Anthropic 从企业与编程工具向通用知识工作市场扩张，可能重塑办公软件生态，推动 AI 原生工作台成为新趋势。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;The Verge AI, Hacker News AI, TechCrunch AI, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
 <item><title>Adobe 全线产品接入 AI 智能体并发布 MCP 协议</title><link>https://todayforai.com/en/story/story-892d0ecd-009</link><guid isPermaLink="true">https://todayforai.com/en/story/story-892d0ecd-009</guid>
 <pubDate>Tue, 10 Nov 2026 22:27:55 +0800</pubDate>
@@ -67,21 +75,13 @@ LingBot-Touch 补上了摄像头无法感知夹持力度与滑移的短板，将
 
 此次发布标志着图像生成模型从单次生成向专业生产工作流迈进，百轮编辑稳定性与透明直出能力直击设计行业痛点，有望大幅降低后期修图成本。API 价格下调与生成速度提升进一步降低了开发者门槛，加剧了与 OpenAI 等厂商在图像编辑赛道的竞争。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), 量子位官网, The Decoder, IT之家 · 智能时代, 量子位 (微信公众号)&lt;/p&gt;</description>
 </item>
-<item><title>Anthropic 推出 Claude 办公套件 微软股价应声下跌 3.5%</title><link>https://todayforai.com/en/story/story-6b1d42f1-18b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-6b1d42f1-18b</guid>
-<pubDate>Wed, 11 Nov 2026 03:24:49 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 正式发布 Claude 办公套件，包括 Claude Sheets、Claude Data、Claude Meetings 和 Claude Whiteboards 四款原生协作工具，用户可通过自然语言直接生成可协作的表格、看板与仪表盘，并实时参与视频会议起草计划。此举标志着 Claude 从依赖 Microsoft 365 与 Google Workspace 的插件形态，升级为独立办公平台，直接冲击传统办公软件巨头。
+<item><title>DeepMind 发布 Gemini Robotics 2.5 并开源安全基准</title><link>https://todayforai.com/en/story/story-a003d81a-a18</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a003d81a-a18</guid>
+<pubDate>Wed, 11 Nov 2026 01:11:10 +0800</pubDate>
+<description>&lt;p&gt;谷歌 DeepMind 正式发布新一代视觉-语言-动作（VLA）模型 Gemini Robotics 2.5，宣称这是其迄今能力最强的机器人模型，在灵巧操作、可靠性与安全性上实现显著跃升。该模型已走出实验室，在梅赛德斯-奔驰位于匈牙利和德国的在产产线上完成真实作业，标志着通用机器人向非结构化环境落地迈出关键一步。
 
-综合多方信源，Claude Sheets 支持自然语言生成含公式与多标签的表格，Claude Data 可连接 Snowflake、Salesforce 等数据源自动刷新仪表盘；Claude Meetings 允许 Claude 作为可见参会者加入视频会议，边听讨论边实时产出任务与计划；Whiteboards 则补齐了头脑风暴与协作场景。此外，Adobe、Atlassian、Box、HubSpot 等应用以完整形态嵌入对话，用户无需切换标签即可编辑或委托 Claude 修改。Artifacts 图形界面也得到升级，进一步降低非技术用户的使用门槛。
+据多方信源交叉验证，Gemini Robotics 2.5 相较 DeepMind 此前基线在各类任务上提升 30% 至 100%。在奔驰产线上，Apptronik 人形机器人 Apollo 2 借助该模型完成金属零件分拣，报告成功率达 96%；同时还能执行系蝴蝶结、操作移液枪等柔性物体与高精度实验室动作。技术层面，DeepMind 以 Gemini 4 Argon 作为仿真引擎用于训练，可基于视频推断错误成因并在仿真与真机间迭代改进。此外，团队同步开源了 ASIMOV-Jailbreak 安全基准，为机器人与人类协同作业的安全评估提供标准化工具，模型已向 Agile、Apptronik、奔驰等合作伙伴开放。
 
-消息公布后，微软股价一度下跌超过 3.5%，随后部分收复失地，反映出市场对 AI 办公套件竞争格局的敏感。此次发布紧随 OpenAI 推出 ChatGPT 办公套件与 Meta 的 Muse 智能体，标志着三大厂商围绕 AI 办公套件展开正面竞争。Anthropic 借此从企业与编程工具市场向通用知识工作市场扩张，有望重塑办公协作生态，并对 Microsoft 365 和 Google Wor…&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), The Verge AI, TechCrunch AI&lt;/p&gt;</description>
-</item>
-<item><title>谷歌扩充 TPU 阵容推出 8tx 与 8i Max 两款新品</title><link>https://todayforai.com/en/story/story-8e585f9c-a84</link><guid isPermaLink="true">https://todayforai.com/en/story/story-8e585f9c-a84</guid>
-<pubDate>Tue, 10 Nov 2026 23:54:08 +0800</pubDate>
-<description>&lt;p&gt;谷歌宣布扩充其自研 TPU 产品阵容，新增面向机密计算的 TPU 8tx 与面向超长上下文场景的 TPU 8i Max，使第八代 TPU 产品线扩展至四款。两款新品并非全新设计，而是在现有芯片基础上重新配置，标志着谷歌正加速芯片迭代节奏，从两年一款加快至一年多款，以在英伟达供应紧张之际抢占 AI 芯片市场。
-
-TPU 8tx 主打机密计算，可在处理过程中对数据与权重保持加密，并与第五代 AMD EPYC 主机协同工作，延迟最高降低 2 倍。TPU 8i Max 则通过单封装双芯片设计，在同一机架内实现算力、SRAM 与 HBM 带宽翻倍，折算带宽约 17.2 TB/s，虽低于 NVIDIA Rubin 的 22 TB/s，但针对超长上下文窗口优化，服务药物研发、数学与编程等应用。谷歌同时推出 TorchTPU 等软件工具，降低开发者迁移门槛，加速向外部客户销售推理硬件。
-
-尽管官方未公布绝对规格、价格与基准测试，实际性能仍待验证，但谷歌通过丰富产品矩阵与拓展供应链伙伴，正逐步构建从训练到推理、从通用到机密的完整 AI 芯片生态，对英伟达的市场主导地位构成更直接挑战。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, The Decoder, Marktechpost (@Marktechpost), TechCrunch AI&lt;/p&gt;</description>
+此次发布凸显了 DeepMind 在具身智能领域的加速布局：一方面通过 VLA 模型大幅提升机器人的通用操作能力，另一方面以开源安全基准推动行业规范建立。对开发者而言，模型开放与仿真训练工具降低了机器人应用门槛；对产业而言，奔驰产线的成功验证为 humanoid 机器人的商业化落地提供了可复用的范本，或将加速制造业、物流等场景的自动化升级。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Ars Technica AI, The Decoder, Google DeepMind&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
