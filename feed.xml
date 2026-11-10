@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Wed, 11 Nov 2026 05:12:59 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 11 Nov 2026 06:03:29 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Goldman Sachs Projects Anthropic Revenue to Top $600B by 2030</title><link>https://x.com/rohanpaul_ai/status/2120276184974204973</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120276184974204973</guid>
+<pubDate>Wed, 11 Nov 2026 06:03:29 +0800</pubDate>
+<description>&lt;p&gt;Goldman Sachs projects Anthropic&amp;#x27;s revenue will exceed $600B by 2030, more than 130 times its 2025 level, with roughly $52B this year, $136B in 2027 and $442B in 2029, according to figures shared verbally with a potential investor as the IPO roadshow begins. The forecast ties valuation tightly to compute converting into revenue on schedule, so any delay in data center build-out would first widen the 2027 cash gap.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;高盛预测 Anthropic 2030 年营收将超 6000 亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是头部大模型公司 IPO 定价预期的关键财务信号，直接反映 AI 算力投入与营收兑现的节奏风险。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2120276184974204973">Rohan Paul (@rohanpaul_ai)</source>
+<category>商业融资</category>
+<category>Anthropic</category>
+<category>高盛</category>
+<category>IPO</category>
+</item>
+<item><title>GPT-6 Astra Tops EgoHome Benchmark for Egocentric Hand Understanding</title><link>https://x.com/rohanpaul_ai/status/2120274578144739478</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120274578144739478</guid>
+<pubDate>Wed, 11 Nov 2026 05:57:06 +0800</pubDate>
+<description>&lt;p&gt;Perceptron AI released EgoHome, an open benchmark for dense sub-second egocentric understanding of household-chore videos, with over 750 segments under 500ms and four annotation types: hand boxes, subtasks, hand actions and hand captions. GPT-6 Astra ranked first on the benchmark. The work targets the automatic labeling pipeline that underpins robot learning from human video, where mislabeled hand actions propagate errors into robot training.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;GPT-6 Astra 登顶 EgoHome 手部动作理解基准&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源细粒度手部动作基准叠加 GPT-6 Astra 登顶，直接关联机器人从人类视频学习的关键数据环节。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 72/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2120274578144739478">Rohan Paul (@rohanpaul_ai)</source>
+<category>基准评测</category>
+<category>具身智能</category>
+<category>GPT-6 Astra</category>
+<category>第一视角视频理解</category>
+</item>
+<item><title>PAN 2 Open World Model Generates 20-Second Physics Predictions</title><link>https://x.com/rohanpaul_ai/status/2120268777837482448</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120268777837482448</guid>
+<pubDate>Wed, 11 Nov 2026 05:34:03 +0800</pubDate>
+<description>&lt;p&gt;The Institute of Foundation Models released PAN 2, a free and open action-conditioned world model that generates up to 20 seconds of video predicting the physical consequences of a described action. Its key innovation is a two-stage pipeline where a language model plans the plot and a 29B video model renders it, shifting the cost of agent trial and error into simulation.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;PAN 2 开源世界模型 可生成 20 秒物理预测视频&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源世界模型采用语言规划加 29B 视频渲染的两段式架构，为智能体试错提供低成本仿真路径。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 62/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2120268777837482448">Rohan Paul (@rohanpaul_ai)</source>
+<category>世界模型</category>
+<category>开源模型</category>
+<category>智能体</category>
+<category>视频生成</category>
+</item>
 <item><title>Grok Build Coding Agent Leaks Confidential Data From Thousands of Users</title><link>https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/</link><guid isPermaLink="true">https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/</guid>
 <pubDate>Wed, 11 Nov 2026 05:12:59 +0800</pubDate>
 <description>&lt;p&gt;Research from security firm Claroc shows that Grok Build, the vibe-coding agent from SpaceXSI, exposes data from thousands of live projects because its share-link design allows anyone to enumerate URLs. Leaked material includes business plans, medical exam results, and employee IDs, with roughly two dozen of the affected apps built by SpaceXSI itself.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Grok Build 编码智能体泄露数千用户机密数据&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 编码智能体出现大规模数据泄露，且波及母公司自身机密，是智能体平台安全治理的重要警示案例。&lt;/p&gt;&lt;p&gt;Ars Technica AI · industry · signal 71/100&lt;/p&gt;</description>
@@ -201,27 +228,27 @@
 <category>AI 安全</category>
 <category>融资</category>
 </item>
-<item><title>Mozilla Measures Browser Fingerprintability Across 25 Million Firefox Users</title><link>https://fingerprinting.study/</link><guid isPermaLink="true">https://fingerprinting.study/</guid>
+<item><title>Mozilla 用 2500 万用户实测浏览器指纹可识别性</title><link>https://fingerprinting.study/</link><guid isPermaLink="true">https://fingerprinting.study/</guid>
 <pubDate>Wed, 11 Nov 2026 03:03:54 +0800</pubDate>
-<description>&lt;p&gt;Mozilla, with the University of Toronto and UC San Diego, ran a large-scale browser fingerprinting study across nearly 25 million Firefox release users to quantify real-world identifiability and isolate which characteristics make users unique. The findings directly shaped the fingerprinting protections shipped in Firefox 143, and the team released the paper, full appendix data, privacy-preserving aggregate datasets, analysis code, and an interactive self-test tool.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Mozilla 用 2500 万用户实测浏览器指纹可识别性&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是迄今规模最大的真实用户指纹可识别性实测之一，且成果已落地为浏览器隐私防护并开放数据与代码，对隐私工程与浏览器生态具有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 74/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Mozilla 联合多伦多大学与 UC 圣地亚哥，基于近 2500 万 Firefox 正式版用户开展大规模浏览器指纹可识别性研究，量化了真实用户群体的唯一性程度并定位出导致用户可被识别的关键特征。研究成果直接转化为 Firefox 143 中上线的指纹防护机制，同时公开了论文、完整附录数据、隐私保护聚合数据与分析代码，并提供可交互的自测工具。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是迄今规模最大的真实用户指纹可识别性实测之一，且成果已落地为浏览器隐私防护并开放数据与代码，对隐私工程与浏览器生态具有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 74/100&lt;/p&gt;</description>
 <source url="https://fingerprinting.study/">Hacker News AI</source>
 <category>浏览器指纹</category>
 <category>隐私保护</category>
 <category>Mozilla</category>
 <category>开源数据</category>
 </item>
-<item><title>PSI Uses AI to Crack 18-Year-Old Quantum Computing Conjecture</title><link>https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/</guid>
+<item><title>PSI 用 AI 攻克 18 年量子计算猜想</title><link>https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/</guid>
 <pubDate>Wed, 11 Nov 2026 03:03:52 +0800</pubDate>
-<description>&lt;p&gt;Startup lab Physical Superintelligence (PSI) used early access to Anthropic&amp;#x27;s Fable 5.2 model to solve the 18-year-old Aaronson-Ambainis conjecture in quantum computing, and is now trying to build a business around AI-driven scientific discovery. The proof was autoformalized in Lean and reviewed by top researchers, marking a landmark case of AI directly producing frontier mathematical results.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;PSI 用 AI 攻克 18 年量子计算猜想&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 直接产出前沿数学证明并尝试商业化的标志性事件，对关注 AI for Science 的读者具有高参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 74/100&lt;/p&gt;</description>
+<description>&lt;p&gt;初创实验室 Physical Superintelligence（PSI）利用 Anthropic Fable 5.2 模型的早期访问权限，解决了悬置 18 年的 Aaronson-Ambainis 量子计算猜想，并试图将 AI 驱动的科学发现做成一项生意。该证明经 Lean 自动形式化并由顶尖研究者复核，被视为 AI 直接产出前沿数学成果的标志性案例。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 直接产出前沿数学证明并尝试商业化的标志性事件，对关注 AI for Science 的读者具有高参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 74/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/">TechCrunch AI</source>
 <category>AI for Science</category>
 <category>量子计算</category>
 <category>Anthropic</category>
 <category>Lean</category>
 </item>
-<item><title>NaiveAI Debuts Open-Weights Coding Model at 2,100 Tokens per Second</title><link>https://latent.space/p/naiveai/</link><guid isPermaLink="true">https://latent.space/p/naiveai/</guid>
+<item><title>NaiveAI 发布开源编码模型 每秒 2100 tokens</title><link>https://latent.space/p/naiveai/</link><guid isPermaLink="true">https://latent.space/p/naiveai/</guid>
 <pubDate>Wed, 11 Nov 2026 02:56:32 +0800</pubDate>
-<description>&lt;p&gt;Chinese startup NaiveAI has released Naive-N0.5-Flash, an open-weights model tuned for AI coding tasks and optimized for maximum tokens-per-second throughput, claiming up to 2,100 tokens/sec. Built on Xiaomi&amp;#x27;s MiMo-V2.5 with further long-context training and paired with its own NaiveRT inference engine, the model trades slightly higher per-question cost for speed, targeting latency-sensitive engineering workflows.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;NaiveAI 发布开源编码模型 每秒 2100 tokens&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源编码模型以极致推理速度切入，为延迟敏感的 AI 编程场景提供新选择。&lt;/p&gt;&lt;p&gt;Latent Space · llm · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;中国公司 NaiveAI 推出开源权重模型 Naive-N0.5-Flash，专为 AI 编码任务优化，主打极致推理速度，宣称可达每秒 2100 tokens。该模型基于小米 MiMo-V2.5 继续训练，强化长上下文推理，并搭配自研 NaiveRT 推理引擎。实测显示其速度优势明显，但单次问答成本略高，适合对延迟敏感的编码场景。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源编码模型以极致推理速度切入，为延迟敏感的 AI 编程场景提供新选择。&lt;/p&gt;&lt;p&gt;Latent Space · llm · signal 62/100&lt;/p&gt;</description>
 <source url="https://latent.space/p/naiveai/">Latent Space</source>
 <category>开源模型</category>
 <category>AI 编码</category>
@@ -245,33 +272,6 @@
 <category>ChatGPT</category>
 <category>商业发现</category>
 <category>智能体</category>
-</item>
-<item><title>科技就业报告显示 PM 岗位四年新高工程师停滞</title><link>https://x.com/dotey/status/2120226054195577277</link><guid isPermaLink="true">https://x.com/dotey/status/2120226054195577277</guid>
-<pubDate>Wed, 11 Nov 2026 02:44:17 +0800</pubDate>
-<description>&lt;p&gt;Lenny Rachitsky 发布第五份科技就业报告，基于 TrueUp 开放岗位与 Live Data Technologies 实际入职两套数据。结论是产品经理开放岗位达四年最高（7303 个，较 2023 年低点增 75%），工程师开放岗位五期报告以来首次停止增长（同比仅增 2.5%），设计师实际招聘同比降 26% 创新低。工程师内部严重分化，前线部署工程师（FDE）岗位涨至 4.6 倍，而前端、Android、iOS 岗位分别减少约五成。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以两套口径数据揭示 AI 时代科技岗位结构的实质性迁移，对关注行业人才走向的读者有参考价值。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/dotey/status/2120226054195577277">宝玉 (@dotey)</source>
-<category>科技就业</category>
-<category>产品经理</category>
-<category>软件工程师</category>
-<category>AI 对岗位影响</category>
-</item>
-<item><title>英伟达发布 GR00T 2 从人类视频学习机器人动作</title><link>https://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot/</link><guid isPermaLink="true">https://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot/</guid>
-<pubDate>Wed, 11 Nov 2026 02:41:52 +0800</pubDate>
-<description>&lt;p&gt;英伟达发布机器人基础模型 GR00T 2，不再把摄像头画面与语言指令直接映射为电机动作，而是让模型在视频中观察人类动作后，先在内部“想象”自己作为机器人执行该动作，再生成控制信号。该设计旨在大幅减少昂贵且缓慢的遥操作数据采集，为机器人技能学习提供新的范式。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达机器人基础模型代际更新，提出以视频人类动作替代遥操作的新训练范式，对具身智能路线有实质参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot/">The Decoder</source>
-<category>具身智能</category>
-<category>英伟达</category>
-<category>机器人基础模型</category>
-<category>视频学习</category>
-</item>
-<item><title>Anthropic 启动 IPO 路演 最高估值 1.4 万亿美元</title><link>https://x.com/rohanpaul_ai/status/2120224979098939403</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120224979098939403</guid>
-<pubDate>Wed, 11 Nov 2026 02:40:01 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 正式启动 IPO 路演，拟以每股 70 至 78 美元发行最多 8.25 亿股，对应最高估值约 1.4 万亿美元，募资规模约 644 亿美元。其中约 625 亿美元来自 801 亿股新股，老股东仅出售 2360 万股，资金几乎全部流入公司。受科技股回调与中期选举后选民对 AI 数据中心态度转冷影响，估值较此前传闻的 2 万亿美元明显下调，但仍高于 OpenAI 上周 1.25 万亿美元的私募估值，股票预计下周在纳斯达克以代码 ANT 挂牌。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 头部公司迄今规模最大的公开上市动作，直接重塑行业估值锚与资本格局。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 88/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2120224979098939403">Rohan Paul (@rohanpaul_ai)</source>
-<category>IPO</category>
-<category>Anthropic</category>
-<category>融资估值</category>
-<category>资本市场</category>
 </item>
 </channel>
 </rss>
