@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Wed, 11 Nov 2026 00:15:01 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 11 Nov 2026 01:19:46 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 发布双版本 Claude 5.2 模型 编码推理能力大幅跃升</title><link>https://todayforai.com/en/story/story-dc8382a0-0bf</link><guid isPermaLink="true">https://todayforai.com/en/story/story-dc8382a0-0bf</guid>
 <pubDate>Tue, 10 Nov 2026 22:07:47 +0800</pubDate>
@@ -27,6 +27,14 @@ Muse Ember 的发布标…&lt;/p&gt;&lt;p&gt;13 sources&lt;/p&gt;&lt;p&gt;The De
 
 这场 IPO 被视为对 AI 产业估值逻辑的关键检验。OpenAI 同步将募资目标从 300 亿美元下调至约 200 亿美元，Nscale 等非头部厂商估值也被压至 160 亿至 190 亿美元，显示一级市场全面降温。Anthropic 能否守住对 OpenAI 的估值优势，将直接影响最终定价，并为后续 AI 公司上市确立参照系。&lt;/p&gt;&lt;p&gt;10 sources&lt;/p&gt;&lt;p&gt;Anthropic News, 宝玉 (@dotey), Hacker News AI, IT之家 · IT业界, The Decoder, TechCrunch AI&lt;/p&gt;</description>
 </item>
+<item><title>Google 发布 Gemini 4 Carbon 并预览智能体蜂群功能</title><link>https://todayforai.com/en/story/story-8356a9b1-b1c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-8356a9b1-b1c</guid>
+<pubDate>Wed, 11 Nov 2026 01:19:46 +0800</pubDate>
+<description>&lt;p&gt;Google 正式向所有付费开发者和 AI Ultra 订阅用户开放其迄今最强模型 Gemini 4 Carbon，距其通过 Fairwind 计划向网络安全防御者定向发布仅两周。Carbon 定位极限复杂任务，主打多步编码调试、开放式科研与网络安全，与上月发布的 Gemini 4 Argon 形成高低搭配，后者继续覆盖多数软件工程与知识工作场景。
+
+技术细节上，Carbon 在 CursorBench 4.0、WANDR 与 AutomationBench 上排名第一，单任务成本不到次优外部模型的一半。早期测试显示其 Terminal-Bench 作弊率与灰天鹅基准的提示注入成功率均降至 0%，安全代码编写速度达 Argon 的两倍，并在 Sec-Bench Pro 上发现 88% 的漏洞。定价沿用 Argon 的每百万 token 输入 2 美元、输出 10 美元，缓存输入享 95% 折扣，但推理与验证阶段会消耗更多 token。同时，Google 在智能体开发平台 Antigravity 上预览 swarm 蜂群功能，强化长周期智能体协作能力。
+
+此举标志着 Google 由追赶者重回前沿第一梯队，与 Anthropic、OpenAI 形成三方竞争。Carbon 在安全与长程任务上的突破，为无人值守智能体提供了可靠基础，而蜂群功能则指向多智能体协作的未来工作流，可能重塑开发者构建复杂 AI 应用的方式。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;GREG ISENBERG (@gregisenberg), Hacker News AI, The Verge AI, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
+</item>
 <item><title>DeepMind 智能体完成 Signal 加密代码形式化验证</title><link>https://todayforai.com/en/story/story-f85fa90a-617</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f85fa90a-617</guid>
 <pubDate>Tue, 10 Nov 2026 23:38:00 +0800</pubDate>
 <description>&lt;p&gt;Google DeepMind 发布 AlphaProof Code 框架，首次由 AI 智能体对 Signal 加密协议的实际生产代码完成关键安全属性的数学证明。该成果将智能体能力从代码生成推进到深度形式化验证，被视为软件安全领域的重大突破。
@@ -42,14 +50,6 @@ Muse Ember 的发布标…&lt;/p&gt;&lt;p&gt;13 sources&lt;/p&gt;&lt;p&gt;The De
 技术细节上，本地 MCP 接入计划于 2027 年初启动私人测试，智能体可读写图层、矢量、素材箱与序列等原生文件，且所有内容保持可编辑以便人工随时接管精修。Firefly 助手同步升级，新增规划模式、模型选择器与后台持续任务能力，可自动生成多平台宣传素材供人工审核；Firefly 还新增私测中的 Builder 原型设计工具、品牌图表生成、局部图像编辑与 AI 视频组装。Premiere 推出测试版 Generative Remove 工具，可在时间线上遮罩追踪对象并生成式补全背景，Photoshop 与 Lightroom 也获得类似自动移除杂物与瑕疵功能。
 
 行业影响方面，Adobe 此举打破了创意软件与 AI 智能体之间的壁垒，使第三方 AI 可直接操控专业创作工具，有望大幅提升内容生产效率并重塑创意工作流。同时，Adobe 与谷歌深化合作，将 Acrobat 及创意工具嵌入 Drive、Gmail、Gemini 与搜索…&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Google AI Blog, TechCrunch AI, IT之家 · 智能时代, The Verge AI&lt;/p&gt;</description>
-</item>
-<item><title>Google 发布 Gemini 4 Carbon 并预览智能体蜂群功能</title><link>https://todayforai.com/en/story/story-8356a9b1-b1c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-8356a9b1-b1c</guid>
-<pubDate>Wed, 11 Nov 2026 00:15:01 +0800</pubDate>
-<description>&lt;p&gt;Google 正式向公众开放其迄今最强模型 Gemini 4 Carbon，距其通过 Fairwind 计划向网络安全防御者定向发布仅两周。该模型主打复杂多步编码、开放式科研等极限任务，并与上月发布的 Gemini 4 Argon 形成高低搭配，Argon 继续覆盖多数软件工程与知识工作场景。同时，Google 在智能体开发平台 Antigravity 上预览 swarm 蜂群功能，强化长周期智能体协作能力。
-
-早期测试显示，Carbon 在 Terminal-Bench 上的作弊率与灰天鹅基准的提示注入成功率均降至 0%，安全代码编写速度达 Argon 的两倍，并在 Sec-Bench Pro 上发现 88% 的漏洞。定价为每百万 token 输入 2 美元、输出 10 美元，缓存输入享 95% 折扣，显著降低长时运行智能体的成本。
-
-此次发布标志着 Google 由追赶者重回前沿第一梯队，与 Anthropic、OpenAI 形成三方竞争。Carbon 在安全与长程任务上的突破，以及蜂群功能的预览，可能推动智能体在无人值守场景下的规模化部署，并加剧大模型在极限任务领域的竞争。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;The Verge AI, GREG ISENBERG (@gregisenberg), Hacker News AI&lt;/p&gt;</description>
 </item>
 <item><title>蚂蚁灵波开源通用触觉模型 LingBot-Touch</title><link>https://todayforai.com/en/story/story-f5891fb6-63e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f5891fb6-63e</guid>
 <pubDate>Tue, 10 Nov 2026 23:53:43 +0800</pubDate>

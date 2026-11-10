@@ -1,8 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Wed, 11 Nov 2026 01:05:48 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 11 Nov 2026 01:50:07 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Otto One Launches a Dedicated Home Computer for AI Agents</title><link>https://x.com/rohanpaul_ai/status/2120212419511455979</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120212419511455979</guid>
+<pubDate>Wed, 11 Nov 2026 01:50:07 +0800</pubDate>
+<description>&lt;p&gt;Otto One is a small home computer built to host AI agents that run continuously on-device, handling email triage, account chasing and admin tasks on a schedule without data leaving the box. Its key innovation is routing: simple jobs go to a local model, with paid cloud models like Claude or GPT-4o invoked only when needed, cutting per-request costs. Agents ship pre-configured, 2,000+ apps connect with one tap, and users approve actions remotely from a phone.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Otto One 发布 为智能体打造本地专属主机&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出智能体本地常驻硬件加本地/云端混合路由的落地形态，切中隐私与调用成本两大痛点。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2120212419511455979">Rohan Paul (@rohanpaul_ai)</source>
+<category>智能体</category>
+<category>边缘计算</category>
+<category>隐私计算</category>
+<category>硬件</category>
+</item>
+<item><title>Berkeley Study Finds Model Routing Cuts Costs Up to 25x</title><link>https://x.com/rohanpaul_ai/status/2120209275515736120</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120209275515736120</guid>
+<pubDate>Wed, 11 Nov 2026 01:37:37 +0800</pubDate>
+<description>&lt;p&gt;UC Berkeley and partner labs released a large-scale model routing study spanning 452 candidate models and policies across 25 benchmarks, totaling 374,401 scored runs. Routers deliver their value mainly by shifting work to cheaper models, averaging 8.82x more quality per unit cost with under 0.5 points lost; on coding tasks routing reached 25.5x the cost efficiency of always calling Opus 4.6 at a 0.44-point loss. Yet learned routers gained only 0.3 points over the best single model, far below the 5.4-point theoretical ceiling.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;伯克利研究揭示模型路由降本 25 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个跨文本问答到机器人控制的统一路由评测，给出可复用的成本效率量化结论。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2120209275515736120">Rohan Paul (@rohanpaul_ai)</source>
+<category>模型路由</category>
+<category>成本优化</category>
+<category>基准评测</category>
+<category>伯克利</category>
+</item>
+<item><title>67 Companies Now Compete to Embed AI Inside Enterprises</title><link>https://x.com/rohanpaul_ai/status/2120208287065088345</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120208287065088345</guid>
+<pubDate>Wed, 11 Nov 2026 01:33:41 +0800</pubDate>
+<description>&lt;p&gt;Codos co-founder Dima Khanarin published a landscape of 67 companies competing for the same job: making AI run inside other firms&amp;#x27; real operations, spanning OpenAI, Anthropic, Microsoft, AWS, McKinsey, BCG and numerous startups. The thread frames Palantir&amp;#x27;s embedded-engineer model as the benchmark, arguing corporate AI competition is shifting from model capability to on-site delivery.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;67 家公司竞逐企业 AI 落地改造&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;一张覆盖 67 家厂商的企业 AI 落地竞争地图，为判断该赛道格局提供了可参考的行业切片。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 42/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2120208287065088345">Rohan Paul (@rohanpaul_ai)</source>
+<category>企业AI</category>
+<category>AI转型</category>
+<category>Palantir</category>
+<category>行业格局</category>
+</item>
+<item><title>Anthropic Launches Claude Office Suite Targeting Non-Technical Knowledge Workers</title><link>https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now</guid>
+<pubDate>Wed, 11 Nov 2026 01:30:00 +0800</pubDate>
+<description>&lt;p&gt;Anthropic unveiled Claude Meetings, Claude Sheets, and Claude Whiteboards in San Francisco, targeting non-technical workflows like meeting notes, brainstorming, and spreadsheet analysis, alongside an upgraded Artifacts interface. The move marks Anthropic&amp;#x27;s expansion from enterprise and coding tools into the broader knowledge-worker market.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 推出 Claude 办公套件 进军非技术知识工作者市场&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Anthropic 首次将产品线延伸至通用办公场景，是其从编程工具向全知识工作者市场扩张的重要信号。&lt;/p&gt;&lt;p&gt;The Verge AI · tools · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now">The Verge AI</source>
+<category>Anthropic</category>
+<category>办公工具</category>
+<category>Claude</category>
+<category>产品发布</category>
+</item>
+<item><title>Anthropic Launches Claude Meetings to Turn Calls into Action Plans</title><link>https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/</guid>
+<pubDate>Wed, 11 Nov 2026 01:30:00 +0800</pubDate>
+<description>&lt;p&gt;Anthropic launched Claude Meetings, Claude Whiteboards and Claude Sheets, with Claude joining video calls as a visible participant that drafts plans and tasks in real time while discussion is ongoing. The move follows OpenAI&amp;#x27;s ChatGPT office suite and Meta&amp;#x27;s Muse agent, signaling intensifying competition among the three firms over AI-powered workplace suites.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 推出 Claude Meetings 实时生成会议计划&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Anthropic 正式进军 AI 办公套件赛道，会议实时任务生成是智能体落地办公场景的关键一步。&lt;/p&gt;&lt;p&gt;TechCrunch AI · tools · signal 72/100&lt;/p&gt;</description>
+<source url="https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/">TechCrunch AI</source>
+<category>Anthropic</category>
+<category>AI 办公套件</category>
+<category>智能体</category>
+<category>视频会议</category>
+</item>
+<item><title>Google Opens Gemini 4 Carbon to All Paying Developers</title><link>https://x.com/rohanpaul_ai/status/2120204781491040287</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120204781491040287</guid>
+<pubDate>Wed, 11 Nov 2026 01:19:46 +0800</pubDate>
+<description>&lt;p&gt;Google has opened Gemini 4 Carbon, its strongest model, to all paying developers and Google AI Ultra subscribers, ending a two-week restriction to cybersecurity defenders in its Fairwind Program. Carbon keeps Gemini 4 Argon&amp;#x27;s introductory pricing of $2/$10 per 1M input/output tokens but spends more tokens on reasoning and verification, ranking first on CursorBench 4.0, WANDR and AutomationBench at less than half the per-task cost of the next-best outside model.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Google 向全体付费开发者开放 Gemini 4 Carbon&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Google 最强模型从受限内测转为全面开放，且以半价成本在多个基准登顶，直接影响开发者的模型选型。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2120204781491040287">Rohan Paul (@rohanpaul_ai)</source>
+<category>大模型</category>
+<category>Google</category>
+<category>Gemini</category>
+<category>模型定价</category>
+</item>
+<item><title>Gemini Robotics 2.5 Hits 96 Percent Success on Mercedes Assembly Line</title><link>https://the-decoder.com/google-deepminds-gemini-robotics-2-5-scores-96-percent-sorting-metal-parts-in-a-mercedes-benz-assembly-pilot/</link><guid isPermaLink="true">https://the-decoder.com/google-deepminds-gemini-robotics-2-5-scores-96-percent-sorting-metal-parts-in-a-mercedes-benz-assembly-pilot/</guid>
+<pubDate>Wed, 11 Nov 2026 01:11:10 +0800</pubDate>
+<description>&lt;p&gt;Google DeepMind unveiled Gemini Robotics 2.5, a vision-language-action model it says outperforms its own prior baselines by 30 to 100 percent depending on task type. On active Mercedes-Benz production lines in Hungary and Germany, Apptronik&amp;#x27;s humanoid Apollo 2 sorted metal parts with a reported 96 percent success rate. DeepMind also uses Gemini 4 Argon as a simulation engine for training and open-sourced the ASIMOV-Jailbreak benchmark to test robotics model safety.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Gemini Robotics 2.5 在奔驰产线分拣成功率达 96%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 VLA 模型首次在真实在产汽车产线上交出可量化成功率，并伴随开源安全基准，是具身智能落地的关键节点。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 88/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/google-deepminds-gemini-robotics-2-5-scores-96-percent-sorting-metal-parts-in-a-mercedes-benz-assembly-pilot/">The Decoder</source>
+<category>具身智能</category>
+<category>Google DeepMind</category>
+<category>VLA 模型</category>
+<category>人形机器人</category>
+<category>智能制造</category>
+</item>
 <item><title>AMD Unveils EPYC Embedded 9006 Series with Up to 256 Cores</title><link>https://www.ithome.com/1/025/195.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/195.htm</guid>
 <pubDate>Wed, 11 Nov 2026 01:05:48 +0800</pubDate>
 <description>&lt;p&gt;AMD launched the EPYC Embedded 9006 series on the new SP7 platform, built on Zen 6 with up to 256 cores and 512 threads, debuting PCIe Gen6 and CXL 3.1 in embedded markets. It delivers up to 2.7x memory bandwidth and 1.8x multi-core throughput over the prior generation, targeting ATE testers, enterprise storage and high-end firewalls, with the 128-core SKU shipping November 15.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AMD 发布霄龙嵌入式 9006 系列 最高 256 核&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;嵌入式平台首次落地 PCIe Gen6 与 CXL 3.1，为边缘算力与工业长周期部署提供新底座。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 62/100&lt;/p&gt;</description>
@@ -11,6 +75,33 @@
 <category>AMD</category>
 <category>嵌入式</category>
 <category>CXL</category>
+</item>
+<item><title>AMD Zen 6 Microarchitecture Reworks Integer Scheduler and Widens Out-of-Order Structures</title><link>https://chipsandcheese.com/p/amds-zen-6-family-feeding-the-beast</link><guid isPermaLink="true">https://chipsandcheese.com/p/amds-zen-6-family-feeding-the-beast</guid>
+<pubDate>Wed, 11 Nov 2026 01:02:32 +0800</pubDate>
+<description>&lt;p&gt;AMD&amp;#x27;s Zen 6 core family extends Zen 5 with wider out-of-order structures and a reworked integer scheduler layout that echoes Zen 3 and Zen 4. The direction predictor, already the strongest measured in Zen 5, is carried forward and refined. Zen 6 and Zen 6c are no longer the same core at two densities but two distinct cores tuned for different operating points, signaling deeper microarchitectural specialization.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AMD Zen 6 架构深度解析 整数调度重做&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;对关注芯片算力底座的读者，这是 Zen 6 微架构细节的首批系统性拆解，直接关系下一代服务器与桌面 CPU 的性能走向。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 58/100&lt;/p&gt;</description>
+<source url="https://chipsandcheese.com/p/amds-zen-6-family-feeding-the-beast">Hacker News AI</source>
+<category>AMD</category>
+<category>Zen 6</category>
+<category>CPU 微架构</category>
+<category>芯片算力</category>
+</item>
+<item><title>TCS Builds Agentic Test Orchestrator on Amazon Bedrock AgentCore</title><link>https://aws.amazon.com/blogs/machine-learning/how-tcs-built-an-agentic-test-orchestrator-with-amazon-bedrock-agentcore/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/how-tcs-built-an-agentic-test-orchestrator-with-amazon-bedrock-agentcore/</guid>
+<pubDate>Wed, 11 Nov 2026 00:59:43 +0800</pubDate>
+<description>&lt;p&gt;TCS built an agentic test orchestrator on Amazon Bedrock AgentCore to automate the chain of BFSI testing work, from requirement interpretation and scenario design to automation authoring, environment setup, and failure triage. The design emphasizes project-specific grounding, combined API and browser UI coverage, and tenant-level data isolation, aiming to raise testing throughput while preserving financial-services controls.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;TCS 基于 Amazon Bedrock AgentCore 构建智能体测试编排器&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是厂商绑定的客户落地案例，展示了智能体在金融测试场景的工程化编排思路，但缺少具体参数与方法细节。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 38/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/how-tcs-built-an-agentic-test-orchestrator-with-amazon-bedrock-agentcore/">AWS Machine Learning Blog</source>
+<category>智能体</category>
+<category>测试自动化</category>
+<category>Amazon Bedrock</category>
+<category>金融科技</category>
+</item>
+<item><title>AWS Open Sources Bedrock Invocation-Level Observability Data Lake</title><link>https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-tokenomics-data-lake/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-tokenomics-data-lake/</guid>
+<pubDate>Wed, 11 Nov 2026 00:56:36 +0800</pubDate>
+<description>&lt;p&gt;AWS released a centralized observability data lake for Amazon Bedrock that captures per-invocation prompts, responses, token usage, and model identity, enabling per-call cost derivation. The solution ships with CloudFormation templates, Lambda code, and SQL queries on GitHub, helping platform and ML engineers debug spikes, spot wasteful prompts, and attribute usage across teams.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS 开源 Bedrock 调用级可观测数据湖方案&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向 Bedrock 多账号规模化调用的可观测与成本归因开源方案，对平台工程师有直接落地价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 52/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-tokenomics-data-lake/">AWS Machine Learning Blog</source>
+<category>Amazon Bedrock</category>
+<category>可观测性</category>
+<category>成本归因</category>
+<category>AWS</category>
 </item>
 <item><title>Memories Upload Launches First-Person Video Data Pipeline for Robot Training</title><link>https://x.com/rohanpaul_ai/status/2120189952378183704</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120189952378183704</guid>
 <pubDate>Wed, 11 Nov 2026 00:20:50 +0800</pubDate>
@@ -66,6 +157,15 @@
 <category>.NET</category>
 <category>微软</category>
 <category>AI 编程</category>
+</item>
+<item><title>NVIDIA Donates OpenShell to CNCF and Expands AI Infrastructure</title><link>https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/</link><guid isPermaLink="true">https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/</guid>
+<pubDate>Wed, 11 Nov 2026 00:00:03 +0800</pubDate>
+<description>&lt;p&gt;At KubeCon, NVIDIA donated OpenShell, an open-source runtime for securing and governing autonomous agents, to the CNCF as a Sandbox project, and joined Google&amp;#x27;s Agent Substrate framework for running long-lived agent workloads on Kubernetes. The move pushes agent governance and scale-out scheduling into open governance, alongside benchmarks showing Snapshot cut vLLM cold-start from minutes to tens of seconds.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达将 OpenShell 捐赠给 CNCF 并扩展 AI 基础设施&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部厂商将智能体安全运行时交给中立基金会治理，是云原生与 Agent 基础设施融合的关键信号。&lt;/p&gt;&lt;p&gt;NVIDIA Blog · opensource · signal 72/100&lt;/p&gt;</description>
+<source url="https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/">NVIDIA Blog</source>
+<category>开源生态</category>
+<category>云原生</category>
+<category>智能体</category>
+<category>英伟达</category>
 </item>
 <item><title>Workday Builds Enterprise-Scale AI Agent Platform on LangGraph</title><link>https://www.langchain.com/blog/how-workday-built-an-enterprise-scale-ai-agent-platform-with-langgraph-and-langsmith</link><guid isPermaLink="true">https://www.langchain.com/blog/how-workday-built-an-enterprise-scale-ai-agent-platform-with-langgraph-and-langsmith</guid>
 <pubDate>Wed, 11 Nov 2026 00:00:01 +0800</pubDate>
@@ -130,17 +230,17 @@
 <category>组织变革</category>
 <category>招聘</category>
 </item>
-<item><title>MiniMax Open-Sources H3-Image Model for 10-Second 4K Generation</title><link>https://www.ithome.com/1/025/191.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/191.htm</guid>
+<item><title>MiniMax 开源 H3-Image 生图模型 10 秒生成 4K 图像</title><link>https://www.ithome.com/1/025/191.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/191.htm</guid>
 <pubDate>Tue, 10 Nov 2026 23:25:52 +0800</pubDate>
-<description>&lt;p&gt;MiniMax has released H3-Image with open weights, an image generation model derived from its H3 base that supports text-to-image, image reference and image editing. It can produce a 4096x4096 (about 16MP) 4K image in 10 seconds, which MiniMax claims is roughly 5x faster than mainstream alternatives, and accepts up to 16 reference images with what it calls the strongest instruction following among open models.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;MiniMax 开源 H3-Image 生图模型 10 秒生成 4K 图像&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源权重的高分辨率生图模型，10 秒出 4K 且支持 16 张参考图，对开源图像生成生态有直接增量。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · opensource · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;MiniMax 正式发布并开放 H3-Image 图像生成模型权重，衍生自 H3 基座，支持文生图、图像参考与图像编辑。该模型可在 10 秒内生成 4096×4096 约 16MP 的 4K 图像，官方称速度约为主流水平的 5 倍，并支持最多 16 张参考图，指令遵循能力号称开源模型中最强。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源权重的高分辨率生图模型，10 秒出 4K 且支持 16 张参考图，对开源图像生成生态有直接增量。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · opensource · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/025/191.htm">IT之家 · 智能时代</source>
 <category>开源模型</category>
 <category>图像生成</category>
 <category>MiniMax</category>
 </item>
-<item><title>Goldman Sachs Projects Anthropic Revenue to Top $600 Billion by 2030</title><link>https://www.ithome.com/1/025/190.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/190.htm</guid>
+<item><title>高盛预计 Anthropic 2030 年营收突破 6000 亿美元</title><link>https://www.ithome.com/1/025/190.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/190.htm</guid>
 <pubDate>Tue, 10 Nov 2026 23:17:21 +0800</pubDate>
-<description>&lt;p&gt;Goldman Sachs, lead underwriter for Anthropic&amp;#x27;s IPO, projects the company&amp;#x27;s revenue will surge from $4.6 billion in 2025 to over $60 billion by 2030, placing it among the world&amp;#x27;s highest-revenue enterprises. The bank also forecasts an operating loss peak of $40.4 billion in 2027 and positive free cash flow only by 2030. At the top of the proposed price range, Anthropic&amp;#x27;s valuation would reach $1.4 trillion, with the listing expected before Thanksgiving.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;高盛预计 Anthropic 2030 年营收突破 6000 亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;高盛对 Anthropic 的上市估值与十年营收路径给出罕见量化预测，是观察头部 AI 公司商业化天花板与资本泡沫争议的关键参照。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;高盛作为 Anthropic 上市牵头投行，向潜在投资者披露预测：Anthropic 营收将从 2025 年的 46 亿美元跃升至 2030 年的 6000 亿美元以上，届时跻身全球营收最高企业之列。但高盛同时预计其 2027 年营业亏损峰值达 404 亿美元，直到 2030 年才实现自由现金流转正。按发行价区间上限计算，Anthropic 估值将达 1.4 万亿美元，预计感恩节前完成上市。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;高盛对 Anthropic 的上市估值与十年营收路径给出罕见量化预测，是观察头部 AI 公司商业化天花板与资本泡沫争议的关键参照。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/025/190.htm">IT之家 · IT业界</source>
 <category>Anthropic</category>
 <category>IPO</category>
@@ -148,128 +248,32 @@
 <category>营收预测</category>
 <category>估值</category>
 </item>
-<item><title>One Tar Command Builds an Archive With Eight Different Extraction Outcomes</title><link>https://stoppels.ch/2026/11/07/the-hardest-tarball.html</link><guid isPermaLink="true">https://stoppels.ch/2026/11/07/the-hardest-tarball.html</guid>
+<item><title>单个 tar 命令构造出 8 种解包结果的归档文件</title><link>https://stoppels.ch/2026/11/07/the-hardest-tarball.html</link><guid isPermaLink="true">https://stoppels.ch/2026/11/07/the-hardest-tarball.html</guid>
 <pubDate>Tue, 10 Nov 2026 23:00:39 +0800</pubDate>
-<description>&lt;p&gt;A developer crafted a single GNU tar invocation that produces an archive extracting in eight distinct ways depending on the tool used, by exploiting pax extended headers, hard-link semantics and path transformation. The experiment exposes spec ambiguities around hard-link sizes, pax header overrides and UTF-8 filename handling, and has been added as a cross-implementation compatibility test case.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;单个 tar 命令构造出 8 种解包结果的归档文件&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以精巧构造揭示 tar 格式的规范歧义，对归档工具与兼容性测试有实际参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;开发者利用 GNU tar 的 pax 扩展头、硬链接与路径变换特性，构造出一个在 POSIX 规范边缘游走的归档文件，不同解包工具会给出 8 种截然不同的结果。该实验揭示了 tar 格式在硬链接尺寸、pax 头覆盖与 UTF-8 文件名处理上的规范歧义，并已被纳入跨实现兼容性测试用例。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以精巧构造揭示 tar 格式的规范歧义，对归档工具与兼容性测试有实际参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://stoppels.ch/2026/11/07/the-hardest-tarball.html">Hacker News AI</source>
 <category>tar</category>
 <category>归档格式</category>
 <category>兼容性测试</category>
 <category>GNU tar</category>
 </item>
-<item><title>DeepMind Unveils Gemini Robotics 2.5 and Open Safety Benchmark</title><link>https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/</link><guid isPermaLink="true">https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/</guid>
+<item><title>DeepMind 发布 Gemini Robotics 2.5 并开源安全基准</title><link>https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/</link><guid isPermaLink="true">https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/</guid>
 <pubDate>Tue, 10 Nov 2026 23:00:39 +0800</pubDate>
-<description>&lt;p&gt;Google DeepMind has released Gemini Robotics 2.5, a vision-language-action model with substantially improved dexterous manipulation that has already performed real work in Mercedes-Benz factories and enables Apptronik&amp;#x27;s Apollo 2 humanoid to tie a bow with five-fingered hands. The team also introduced ASIMOV-jailbreak, an open safety benchmark aimed at evaluating robots operating alongside humans.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;DeepMind 发布 Gemini Robotics 2.5 并开源安全基准&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;具身智能核心平台代际升级并落地真实产线，叠加开源安全基准，对关注物理智能的读者具有明确技术增量。&lt;/p&gt;&lt;p&gt;Ars Technica AI · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Google DeepMind 发布 Gemini Robotics 2.5，其视觉-语言-动作模型在灵巧操作上大幅提升，已能在梅赛德斯-奔驰工厂完成实际作业，并支持 Apptronik Apollo 2 人形机器人完成系蝴蝶结等柔性物体操作。团队同步推出开源安全基准 ASIMOV-jailbreak，为机器人与人类协同作业的安全评估提供标准化工具。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;具身智能核心平台代际升级并落地真实产线，叠加开源安全基准，对关注物理智能的读者具有明确技术增量。&lt;/p&gt;&lt;p&gt;Ars Technica AI · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/">Ars Technica AI</source>
 <category>具身智能</category>
 <category>Google DeepMind</category>
 <category>人形机器人</category>
 <category>安全基准</category>
 </item>
-<item><title>Report Says $7.5B of Nvidia Chips Reached China via Third Party</title><link>https://x.com/rohanpaul_ai/status/2120162909422780789</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120162909422780789</guid>
+<item><title>报道称英伟达 75 亿美元芯片经第三方流入中国</title><link>https://x.com/rohanpaul_ai/status/2120162909422780789</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120162909422780789</guid>
 <pubDate>Tue, 10 Nov 2026 22:33:22 +0800</pubDate>
-<description>&lt;p&gt;The Information reports that Alice Huang, unrelated to Jensen Huang, built a China-Singapore procurement network with her husband and sister that moved roughly 240,000 H100, H200 and some A100 chips into China after export restrictions tightened, with Shanghai Century Litong and Singapore-based Megaspeed as hubs. Buyers reportedly included Alibaba, Tencent and smaller AI labs, while Megaspeed is now under US investigation.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;报道称英伟达 75 亿美元芯片经第三方流入中国&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及约 24 万颗高端 GPU 的跨境流向与美方调查，直接关系算力供给与出口管制执行，是产业与合规层面的重要信号。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 74/100&lt;/p&gt;</description>
+<description>&lt;p&gt;据 The Information 报道，与黄仁勋无亲属关系的 Alice Huang 通过其丈夫和姐妹在中国与新加坡搭建采购网络，以世纪利通和 Megaspeed 为枢纽，在出口管制收紧后仍将约 24 万颗 H100、H200 及部分 A100 芯片转运至中国，客户包括阿里巴巴、腾讯及多家小型 AI 实验室。该网络如何获得优先供货资格、以及新加坡公司正被美方调查，是事件的核心疑点。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及约 24 万颗高端 GPU 的跨境流向与美方调查，直接关系算力供给与出口管制执行，是产业与合规层面的重要信号。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 74/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2120162909422780789">Rohan Paul (@rohanpaul_ai)</source>
 <category>英伟达</category>
 <category>出口管制</category>
 <category>算力供应链</category>
 <category>芯片走私</category>
-</item>
-<item><title>Adobe Opens Creative Cloud to Third-Party Agents via Local MCP</title><link>https://www.ithome.com/1/025/177.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/177.htm</guid>
-<pubDate>Tue, 10 Nov 2026 22:27:55 +0800</pubDate>
-<description>&lt;p&gt;At Adobe MAX, Adobe announced that Creative Cloud will support a local Model Context Protocol (MCP) integration, letting third-party agents from OpenAI, Google and Anthropic directly operate Photoshop, Premiere and other desktop apps on native local project files. The feature is slated for private beta in early 2027, alongside Firefly assistant upgrades including a planning mode and persistent background agents.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Adobe 开放 Creative Cloud 本地 MCP 接入第三方智能体&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;创意软件巨头首次向第三方智能体开放本地原生文件操作，是智能体落地桌面工作流的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/025/177.htm">IT之家 · 智能时代</source>
-<category>智能体</category>
-<category>MCP</category>
-<category>Adobe</category>
-<category>创意工具</category>
-</item>
-<item><title>Siemens CEO Says AI Transformation May Take Only Seven Years</title><link>https://www.ithome.com/1/025/170.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/170.htm</guid>
-<pubDate>Tue, 10 Nov 2026 22:09:16 +0800</pubDate>
-<description>&lt;p&gt;Siemens CEO Roland Busch said in a Nikkei Asia interview that AI will not replace humans directly, but people who use AI will increasingly displace those who do not, arguing current large models are pattern-matching tools without genuine creativity. He said AI&amp;#x27;s social transformation may take only seven to eight years versus decades for steam and electricity, and that massive AI investment will pay off only when it reaches real-world manufacturing and autonomous robotics.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;西门子 CEO 称 AI 变革只需 7 到 8 年&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;产业领袖对 AI 就业影响与落地节奏的判断，属观点类内容，缺乏技术增量但具行业参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 38/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/025/170.htm">IT之家 · 智能时代</source>
-<category>西门子</category>
-<category>AI 就业</category>
-<category>制造业</category>
-<category>自主机器人</category>
-</item>
-<item><title>Anthropic&#x27;s Fable 5.2 Completes 41 Percent of Real Freelance Jobs</title><link>https://the-decoder.com/anthropics-fable-5-2-completes-41-percent-of-real-freelance-jobs-up-from-2-5-percent-a-year-ago/</link><guid isPermaLink="true">https://the-decoder.com/anthropics-fable-5-2-completes-41-percent-of-real-freelance-jobs-up-from-2-5-percent-a-year-ago/</guid>
-<pubDate>Tue, 10 Nov 2026 22:07:47 +0800</pubDate>
-<description>&lt;p&gt;Anthropic&amp;#x27;s new Fable 5.2 tops the Remote Labor Index from Scale Labs and CAIS with 41.3 percent, a benchmark measuring whether AI agents complete real paid freelance tasks at professional quality. A year ago the leader, Manus, managed just 2.5 percent, underscoring rapid gains in practical agent capability.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic Fable 5.2 真实自由职业任务完成率达 41%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;真实付费任务完成率从 2.5% 跃升至 41%，是智能体落地能力的关键量化节点。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 78/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/anthropics-fable-5-2-completes-41-percent-of-real-freelance-jobs-up-from-2-5-percent-a-year-ago/">The Decoder</source>
-<category>智能体</category>
-<category>基准评测</category>
-<category>Anthropic</category>
-</item>
-<item><title>Anthropic Launches IPO at $1.4 Trillion Valuation</title><link>https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion</guid>
-<pubDate>Tue, 10 Nov 2026 22:06:54 +0800</pubDate>
-<description>&lt;p&gt;Anthropic confirmed its IPO with a price range of $70 to $78 per share, targeting a valuation of roughly $1.4 trillion, below earlier expectations of up to $2 trillion. The stock is set to list on Nasdaq under the symbol ANT, with trading expected to begin as early as next week, making it one of the largest AI listings to date.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 启动 IPO 估值 1.4 万亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部大模型公司启动史上最大规模 IPO 之一，直接重塑 AI 行业资本格局与竞争估值锚点。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion">The Verge AI</source>
-<category>融资上市</category>
-<category>Anthropic</category>
-<category>估值</category>
-</item>
-<item><title>Adobe Adds AI Agents Across Creative Suite and Releases MCP</title><link>https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/</guid>
-<pubDate>Tue, 10 Nov 2026 22:05:10 +0800</pubDate>
-<description>&lt;p&gt;At its MAX event, Adobe announced it is embedding AI agents and generative features across Photoshop, Premiere, Illustrator, InDesign and Firefly, and released a Model Context Protocol (MCP) that lets external chatbots such as ChatGPT, Claude and Gemini invoke Adobe capabilities. Firefly also gains a private-beta prototyping tool called Builder, on-brand graph generation, localized image editing and AI video assembly, while its agent becomes proactive and always-on.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Adobe 全线产品接入 AI 智能体并发布 MCP&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Adobe 将智能体与 MCP 开放接口同时铺进核心创意套件，是创意软件生态向 AI 代理化转型的标志性动作。&lt;/p&gt;&lt;p&gt;TechCrunch AI · tools · signal 62/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/">TechCrunch AI</source>
-<category>AI 智能体</category>
-<category>Adobe</category>
-<category>MCP</category>
-<category>创意工具</category>
-</item>
-<item><title>Anthropic Sets IPO Range Valuing Company at Up to $1.4 Trillion</title><link>https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/</guid>
-<pubDate>Tue, 10 Nov 2026 22:01:39 +0800</pubDate>
-<description>&lt;p&gt;Anthropic set an IPO price range of $70 to $78 per share for 825 million Class A shares, targeting up to $64.35 billion in proceeds and an implied fully diluted valuation of roughly $1.404 trillion. It also struck a deal to privately sell $26 billion of non-voting Class N stock at the IPO price to AMD, Broadcom, Google, Micron, Microsoft, Nvidia and TSMC, with Google and Nvidia investing $10 billion each, bringing estimated net proceeds to $84.6-93.7 billion.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 启动 IPO 估值最高达 1.4 万亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 行业迄今规模最大的 IPO 之一，且芯片与云厂商集体入股，直接重塑前沿模型公司的资本与算力格局。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 88/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/">TechCrunch AI</source>
-<category>融资上市</category>
-<category>Anthropic</category>
-<category>算力基础设施</category>
-<category>AI 投资</category>
-</item>
-<item><title>谷歌与 Adobe 深化合作 将创意工具接入 Gemini</title><link>https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/</link><guid isPermaLink="true">https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/</guid>
-<pubDate>Tue, 10 Nov 2026 22:00:00 +0800</pubDate>
-<description>&lt;p&gt;谷歌在 Adobe MAX 上宣布扩大与 Adobe 的合作，把 Acrobat 及创意工具直接嵌入 Drive、Gmail、Gemini 与搜索 AI Mode，同时将谷歌前沿模型引入 Adobe 应用。双方还将把 Adobe 的 CX Enterprise Coworker 智能体接入 Gemini Enterprise，并与 DeepMind 探索面向 Photoshop 的近实时图像编辑模型。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;两大软件巨头的生态级整合，涉及智能体接入与图像模型探索，对关注 AI 应用落地与分发渠道的读者有实质参考价值。&lt;/p&gt;&lt;p&gt;Google AI Blog · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/">Google AI Blog</source>
-<category>产业合作</category>
-<category>Gemini</category>
-<category>Adobe</category>
-<category>智能体</category>
-</item>
-<item><title>Adobe 全面押注智能体 AI 开放第三方接入</title><link>https://www.theverge.com/tech/1030593/adobe-max-ai-agents-mcp-firefly-assistant-updates</link><guid isPermaLink="true">https://www.theverge.com/tech/1030593/adobe-max-ai-agents-mcp-firefly-assistant-updates</guid>
-<pubDate>Tue, 10 Nov 2026 22:00:00 +0800</pubDate>
-<description>&lt;p&gt;Adobe 在 Max 大会上宣布全面转向智能体 AI，核心是预览本地 MCP 集成，允许 OpenAI、Google、Anthropic 等第三方智能体直接操作 Photoshop、Illustrator、Premiere 等 Creative Cloud 原生项目文件。同时升级 Firefly AI Assistant，并支持智能体在后台持续执行重复性创作任务，所有图层与序列保持可编辑以便人工接管。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Adobe 开放 MCP 让第三方智能体直接改写创意软件原生工程文件，是创意工具链向智能体化转型的标志性动作。&lt;/p&gt;&lt;p&gt;The Verge AI · agent · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.theverge.com/tech/1030593/adobe-max-ai-agents-mcp-firefly-assistant-updates">The Verge AI</source>
-<category>智能体</category>
-<category>Adobe</category>
-<category>MCP</category>
-<category>创意工具</category>
-</item>
-<item><title>Adobe 为 Photoshop 等应用加入 AI 对象移除功能</title><link>https://www.theverge.com/tech/1030653/adobe-max-2026-photoshop-premiere-removal-updates</link><guid isPermaLink="true">https://www.theverge.com/tech/1030653/adobe-max-2026-photoshop-premiere-removal-updates</guid>
-<pubDate>Tue, 10 Nov 2026 22:00:00 +0800</pubDate>
-<description>&lt;p&gt;Adobe 在 Max 大会上为 Creative Cloud 与 Firefly 平台扩展生成式 AI 能力，其中 Premiere 推出测试版 Generative Remove 工具，可在时间线上遮罩并追踪目标对象后一键擦除，由生成式 AI 补全背景细节。Photoshop 与 Lightroom 也获得类似的自动移除杂物与瑕疵功能，并配套新的生成式工具与协作体验。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Adobe 将生成式擦除能力系统性地铺进视频与图像主力工具，是创作者工作流的重要更新。&lt;/p&gt;&lt;p&gt;The Verge AI · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.theverge.com/tech/1030653/adobe-max-2026-photoshop-premiere-removal-updates">The Verge AI</source>
-<category>生成式 AI</category>
-<category>Adobe</category>
-<category>创意工具</category>
-</item>
-<item><title>Spotify AI DJ 支持自定义音色与减少解说</title><link>https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/</guid>
-<pubDate>Tue, 10 Nov 2026 22:00:00 +0800</pubDate>
-<description>&lt;p&gt;Spotify 为其 AI DJ 功能新增音色与个性自定义选项，并允许用户选择减少曲目之间的解说，让体验更接近可配置的 AI 助手。该更新面向已支持 DJ 的 95 多个全球市场、六种语言的 Premium 用户推送。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是消费级 AI 产品在个性化交互上的常规功能迭代，技术增量有限，但对关注 AI 助手形态演进的读者有一定参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · tools · signal 38/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/">TechCrunch AI</source>
-<category>AI 助手</category>
-<category>Spotify</category>
-<category>个性化推荐</category>
-<category>消费级 AI</category>
-</item>
-<item><title>Cyanogen 联合创始人推 AI 原生操作系统挑战 Windows</title><link>https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/</guid>
-<pubDate>Tue, 10 Nov 2026 22:00:00 +0800</pubDate>
-<description>&lt;p&gt;Cyanogen 联合创始人 Kirt McMaster 创立 Kora Systems，发布一款基于 Linux 的桌面操作系统，将 AI 模型与自主智能体直接集成进系统层，可跨应用操作、访问文件并在任务间保留上下文。该免费系统计划 2027 年推出，支持 Intel、AMD 与高通骁龙 PC，团队约 50 人并借助 Codex、Claude 等 AI 编程工具加速开发。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 原生操作系统这一新兴品类的重要入局者，且由曾挑战 Android 的知名创业者操盘，值得关注其路线与生态策略。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/">TechCrunch AI</source>
-<category>AI 原生操作系统</category>
-<category>Kora Systems</category>
-<category>智能体</category>
-<category>桌面 OS</category>
 </item>
 </channel>
 </rss>
