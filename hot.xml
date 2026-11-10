@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Tue, 10 Nov 2026 22:27:55 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 10 Nov 2026 22:33:22 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 发布双版本 Claude 5.2 模型 编码推理能力大幅跃升</title><link>https://todayforai.com/en/story/story-dc8382a0-0bf</link><guid isPermaLink="true">https://todayforai.com/en/story/story-dc8382a0-0bf</guid>
 <pubDate>Tue, 10 Nov 2026 22:07:47 +0800</pubDate>
@@ -51,6 +51,14 @@ Muse Ember 的发布标…&lt;/p&gt;&lt;p&gt;13 sources&lt;/p&gt;&lt;p&gt;The De
 
 行业影响方面，Adobe 此举打破了创意软件长期封闭的生态，将自身定位为智能体时代的内容生产基础设施。通过 MCP 协议，Adobe 不仅拥抱了外部 AI 智能体，还将其能力输出给更广泛的开发者与用户，可能重塑创意工作流…&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, The Verge AI, TechCrunch AI&lt;/p&gt;</description>
 </item>
+<item><title>英伟达董事会启动独立调查 审查黄仁勋被外国情报瞄准报道</title><link>https://todayforai.com/en/story/story-55770774-90b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-55770774-90b</guid>
+<pubDate>Tue, 10 Nov 2026 22:33:22 +0800</pubDate>
+<description>&lt;p&gt;英伟达董事会已启动独立调查，审查创始人兼 CEO 黄仁勋成为外国情报活动目标的报道。调查由独立董事委员会主导，并聘请外部律师协助。董事会表示，目前没有证据表明国家安全或公司机密遭到泄露，黄仁勋本人支持并承诺配合审查。此事源于《纽约时报》等媒体披露的一份美国政府备忘录，该备忘录指控与黄仁勋关系密切的华裔高管 Alice Huang 为北京情报资产，并利用其公司 Megaspeed 构建受限芯片的迂回采购通道。
+
+综合多方报道，Alice Huang 通过其丈夫和姐妹在中国与新加坡搭建采购网络，以世纪利通和 Megaspeed 为枢纽，在出口管制收紧后仍将约 24 万颗 H100、H200 及部分 A100 芯片转运至中国，客户包括阿里巴巴、腾讯及多家小型 AI 实验室，涉及金额约 75 亿美元。报道称 Megaspeed 自 2024 年起大举采购英伟达芯片，并向阿里巴巴出租东南亚数据中心算力。目前这些指控主要基于匿名政府备忘录，尚无公开证据或当事方回应，事实强度有限。
+
+此次调查凸显了全球最重要 AI 算力供应商所面临的治理与地缘政治风险。事件已超出个人丑闻范畴，调查结果将影响员工、客户、合作伙伴及投资者对 AI 经济前景的信心。同时，美国出口管制政策的有效性以及芯片灰色通道的规模引发广泛关注，可能促使监管进一步收紧，对英伟达的业务和声誉构成潜在挑战。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, The Verge AI, Hacker News AI, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
+</item>
 <item><title>蚂蚁灵波开源通用触觉模型 LingBot-Touch</title><link>https://todayforai.com/en/story/story-f5891fb6-63e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f5891fb6-63e</guid>
 <pubDate>Tue, 10 Nov 2026 15:57:45 +0800</pubDate>
 <description>&lt;p&gt;蚂蚁灵波科技正式开源通用触觉基础模型 LingBot-Touch，基于近 5000 小时真实触觉数据预训练，首次将磁触觉、视触觉和压阻式三类异构传感信号统一为同一套触觉表征。该模型在 26 项真机测试中，接入后使 LingBot-VLA、π0.5、Diffusion Policy 和 T-Rex 四种动作模型的平均任务成功率提升 14 至 26 个百分点，其中拧瓶盖任务成功率从 56.25% 跃升至 90%。
@@ -74,14 +82,6 @@ Muse Ember 的发布标…&lt;/p&gt;&lt;p&gt;13 sources&lt;/p&gt;&lt;p&gt;The De
 TPU 8tx 主打机密计算，可在处理过程中对数据与权重保持加密，并与第五代 AMD EPYC 主机协同工作，延迟最高降低 2 倍。TPU 8i Max 则通过单封装双芯片设计，在同一机架内实现算力、SRAM 与 HBM 带宽翻倍，折算带宽约 17.2 TB/s，虽低于 NVIDIA Rubin 的 22 TB/s，但针对超长上下文窗口优化，服务药物研发、数学与编程等应用。谷歌同时推出 TorchTPU 等软件工具，降低开发者迁移门槛，加速向外部客户销售推理硬件。
 
 尽管官方未公布绝对规格、价格与基准测试，实际性能仍待验证，但谷歌通过丰富产品矩阵与拓展供应链伙伴，正逐步构建从训练到推理、从通用到机密的完整 AI 芯片生态，对英伟达的市场主导地位构成更直接挑战。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;The Decoder, Marktechpost (@Marktechpost), IT之家 · IT业界&lt;/p&gt;</description>
-</item>
-<item><title>英伟达董事会启动独立调查 审查黄仁勋被外国情报瞄准报道</title><link>https://todayforai.com/en/story/story-55770774-90b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-55770774-90b</guid>
-<pubDate>Mon, 09 Nov 2026 13:26:29 +0800</pubDate>
-<description>&lt;p&gt;英伟达董事会宣布启动独立调查，审查创始人兼 CEO 黄仁勋成为外国情报活动目标的报道。调查由独立董事委员会主导，并聘请外部律师协助。董事会表示，目前没有理由认为国家安全或公司机密遭到泄露，黄仁勋本人已承诺全力配合。
-
-事件核心指向黄仁勋与 Megaspeed 高管 Alice Huang 的关系。据《纽约时报》援引一份在特朗普政府高级官员间传阅的备忘录，美国情报部门认定 Alice Huang 为北京情报资产，其公司 Megaspeed 自 2024 年起大举采购英伟达芯片，并通过向阿里巴巴出租东南亚数据中心算力形成受限芯片的迂回通道。不过，该指控目前仅基于匿名备忘录，尚无公开证据或当事方回应，事实强度有限。
-
-此事件已超出个人丑闻范畴，直接关系到全球最重要 AI 算力供应商的治理与地缘风险。调查结果将影响员工、客户、合作伙伴及散户投资者对 AI 经济的信心，也可能波及美国出口管制政策与中美科技博弈的走向。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, Rohan Paul (@rohanpaul_ai), TechCrunch AI, The Verge AI&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
