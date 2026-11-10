@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Wed, 11 Nov 2026 04:02:09 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 11 Nov 2026 04:30:01 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>What Happens to Mathematics When AI Becomes an Oracle</title><link>https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/</link><guid isPermaLink="true">https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/</guid>
+<pubDate>Wed, 11 Nov 2026 04:30:01 +0800</pubDate>
+<description>&lt;p&gt;Applied mathematicians Steven Strogatz and Alex Townsend have co-authored a new book, Big Math: The Hidden Codes That Run Our World, examining how LLMs and quantum computing are pushing \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;当 AI 成为神谕，数学将走向何方&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以新书为切入点讨论 AI 时代数学的角色变迁，属观点分析类内容，对关注 AI 与数学交叉的读者有启发价值。&lt;/p&gt;&lt;p&gt;Ars Technica AI · llm · signal 42/100&lt;/p&gt;</description>
+<source url="https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/">Ars Technica AI</source>
+<category>数学</category>
+<category>大模型</category>
+<category>观点分析</category>
+</item>
+<item><title>OpenAI Launches Business Directory and Merchant Agents in ChatGPT</title><link>https://the-decoder.com/openai-turns-chatgpt-into-a-business-directory-with-ai-agents-that-handle-customer-questions/</link><guid isPermaLink="true">https://the-decoder.com/openai-turns-chatgpt-into-a-business-directory-with-ai-agents-that-handle-customer-questions/</guid>
+<pubDate>Wed, 11 Nov 2026 04:17:00 +0800</pubDate>
+<description>&lt;p&gt;OpenAI is launching a beta feature called \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 推出 ChatGPT 企业目录与商家智能体&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;OpenAI 将 ChatGPT 从对话工具扩展为商业流量入口，直接挑战 Google 本地商家生态，是 AI 商业化路径的重要信号。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 74/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/openai-turns-chatgpt-into-a-business-directory-with-ai-agents-that-handle-customer-questions/">The Decoder</source>
+<category>OpenAI</category>
+<category>ChatGPT</category>
+<category>AI 商业化</category>
+<category>智能体</category>
+<category>电商</category>
+</item>
 <item><title>Duke and Princeton Study Finds Small Parallel Agent Teams Outperform Large Ones</title><link>https://x.com/rohanpaul_ai/status/2120245649790885952</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120245649790885952</guid>
 <pubDate>Wed, 11 Nov 2026 04:02:09 +0800</pubDate>
 <description>&lt;p&gt;A new Duke and Princeton paper finds that, at equal compute, splitting agents into multiple small parallel teams and keeping the best team&amp;#x27;s result beats both solo-agent best-of-N and one giant team. With a budget of 100 agents, 10 teams of 10 agents running in parallel and selecting the best team outperformed 100 solo agents and a single 100-agent team. The authors recommend splitting budgets into small note-sharing teams and keeping the best answer when a verifier can score results.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;杜克与普林斯顿发现小团队并行智能体更优&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究为多智能体系统的组织架构与算力分配提供了可操作的实证结论，对智能体工程实践有直接指导价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
@@ -210,17 +228,17 @@
 <category>劳动力市场</category>
 <category>OpenAI</category>
 </item>
-<item><title>Chrome and Browser Giants Launch Modern Web Skills for Coding Agents</title><link>https://github.com/GoogleChrome/modern-web-guidance</link><guid isPermaLink="true">https://github.com/GoogleChrome/modern-web-guidance</guid>
+<item><title>Chrome 联合四大浏览器推出编码智能体现代化技能包</title><link>https://github.com/GoogleChrome/modern-web-guidance</link><guid isPermaLink="true">https://github.com/GoogleChrome/modern-web-guidance</guid>
 <pubDate>Wed, 11 Nov 2026 02:01:15 +0800</pubDate>
-<description>&lt;p&gt;Google Chrome, Microsoft Edge, Mozilla Firefox and MDN have jointly released Modern Web Guidance, a skill set that embeds web platform best practices and browser compatibility data directly into coding agents to steer them away from legacy JavaScript patterns. It ships with an npx install wizard and a legacy-scan detector trained on 30k GitHub repos to flag outdated patterns for modernization.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Chrome 联合四大浏览器推出编码智能体现代化技能包&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流浏览器厂商罕见联手为编码智能体提供标准化 Web 技能，直接影响日常前端生成质量。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Google Chrome、微软 Edge、Mozilla Firefox 与 MDN 团队联合推出 Modern Web Guidance，一套可直接嵌入编码智能体的技能集，将 Web 平台最佳实践与浏览器兼容性数据注入智能体，引导其摆脱 2019 年前后的过时 JavaScript 写法。项目提供 npx 一键安装向导，并附带基于 3 万个 GitHub 仓库训练的 legacy-scan 检测器，用于识别待现代化的旧模式。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流浏览器厂商罕见联手为编码智能体提供标准化 Web 技能，直接影响日常前端生成质量。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
 <source url="https://github.com/GoogleChrome/modern-web-guidance">Hacker News AI</source>
 <category>编码智能体</category>
 <category>Web 开发</category>
 <category>开发者工具</category>
 </item>
-<item><title>OpenAI Launches Verified Business Agents Inside ChatGPT</title><link>https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub</guid>
+<item><title>OpenAI 在 ChatGPT 内测认证商家智能体</title><link>https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub</guid>
 <pubDate>Wed, 11 Nov 2026 02:00:00 +0800</pubDate>
-<description>&lt;p&gt;OpenAI is rolling out a beta of verified &amp;#x27;Business Agents&amp;#x27; inside ChatGPT, letting eligible US e-commerce and online service businesses deploy brand-representing agents that users can chat with for comparison shopping and product questions. The labeled, separate chats and merchant-defined instructions mark ChatGPT&amp;#x27;s push from general assistant toward a commercial transaction gateway.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 在 ChatGPT 内测认证商家智能体&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 ChatGPT 首次系统性引入第三方商家智能体，直接触及电商流量与智能体商业化路径，值得关注。&lt;/p&gt;&lt;p&gt;The Verge AI · agent · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 宣布在 ChatGPT 中推出“Business Agents”测试版，允许经过认证的美国电商与服务类商家创建代表品牌的智能体，用户可在对话中直接与商家智能体沟通比价、咨询产品差异。该功能与主对话隔离并明确标注，商家可自定义智能体指令与业务上下文，是 ChatGPT 从通用助手向商业交易入口延伸的关键一步。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 ChatGPT 首次系统性引入第三方商家智能体，直接触及电商流量与智能体商业化路径，值得关注。&lt;/p&gt;&lt;p&gt;The Verge AI · agent · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.theverge.com/ai-artificial-intelligence/1030552/openai-chatgpt-business-agents-hub">The Verge AI</source>
 <category>智能体</category>
 <category>OpenAI</category>
@@ -252,24 +270,6 @@
 <category>Anthropic</category>
 <category>AI 协作</category>
 <category>办公工具</category>
-</item>
-<item><title>Otto One 发布 为智能体打造本地专属主机</title><link>https://x.com/rohanpaul_ai/status/2120212419511455979</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120212419511455979</guid>
-<pubDate>Wed, 11 Nov 2026 01:50:07 +0800</pubDate>
-<description>&lt;p&gt;Otto One 是一款面向 AI 智能体的家用小型主机，让智能体在本地常驻运行，按计划处理邮件、追账与行政事务，数据不出设备。其核心创新在于路由机制：简单任务由本地模型执行，仅在必要时调用 Claude、GPT-4o 等付费云模型，从而降低调用成本。产品预装智能体、支持 2000+ 应用一键接入，并可通过手机远程审批。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出智能体本地常驻硬件加本地/云端混合路由的落地形态，切中隐私与调用成本两大痛点。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2120212419511455979">Rohan Paul (@rohanpaul_ai)</source>
-<category>智能体</category>
-<category>边缘计算</category>
-<category>隐私计算</category>
-<category>硬件</category>
-</item>
-<item><title>伯克利研究揭示模型路由降本 25 倍</title><link>https://x.com/rohanpaul_ai/status/2120209275515736120</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120209275515736120</guid>
-<pubDate>Wed, 11 Nov 2026 01:37:37 +0800</pubDate>
-<description>&lt;p&gt;加州大学伯克利分校等机构发布大规模模型路由研究，在 25 个基准、452 个候选模型与策略上跑了 374,401 次评分实验。结论是路由器的核心价值在于把任务导向更便宜的模型，平均每单位成本的质量提升达 8.82 倍，质量损失不到 0.5 分；编程任务中路由达到始终调用 Opus 4.6 的 25.5 倍成本效率，仅损失 0.44 分。但学习型路由器相对最佳单模型的真实增益仅 0.3 分，远低于理论上限 5.4 分。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个跨文本问答到机器人控制的统一路由评测，给出可复用的成本效率量化结论。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2120209275515736120">Rohan Paul (@rohanpaul_ai)</source>
-<category>模型路由</category>
-<category>成本优化</category>
-<category>基准评测</category>
-<category>伯克利</category>
 </item>
 </channel>
 </rss>
