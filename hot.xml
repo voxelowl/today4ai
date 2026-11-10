@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Wed, 11 Nov 2026 04:09:44 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 11 Nov 2026 06:43:58 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 发布双版本 Claude 5.2 模型 编码推理能力大幅跃升</title><link>https://todayforai.com/en/story/story-dc8382a0-0bf</link><guid isPermaLink="true">https://todayforai.com/en/story/story-dc8382a0-0bf</guid>
 <pubDate>Tue, 10 Nov 2026 23:03:07 +0800</pubDate>
@@ -51,6 +51,14 @@ Muse Ember 的发布标…&lt;/p&gt;&lt;p&gt;13 sources&lt;/p&gt;&lt;p&gt;The De
 
 行业影响方面，这是首次对广泛使用的协议在机器码层面完成端到端形式化验证，覆盖了从设计到代码实现间的常见漏洞缝隙。尽管算力开销巨大、短期内难以大规模推广，但该工作展示了 AI 智能体在软件安全验证领域的巨大潜力，为保护数十亿次私密通信提供了数学级保障，有望推动形式化验证成为关键基础设施的标配。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Google DeepMind, Hacker News AI, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
+<item><title>DeepMind 发布 MKA 基准 评估智能体专业视觉任务能力</title><link>https://todayforai.com/en/story/story-38ddce7d-b35</link><guid isPermaLink="true">https://todayforai.com/en/story/story-38ddce7d-b35</guid>
+<pubDate>Wed, 11 Nov 2026 06:43:58 +0800</pubDate>
+<description>&lt;p&gt;Google DeepMind 联合 Artificial Analysis 正式发布多模态知识智能体基准 MKA，旨在评估 AI 智能体在真实专业视觉文件上的知识工作能力。该基准包含 200 个来自 10 个行业的私有真实任务，要求智能体阅读建筑图纸、工程示意图、临床扫描等复杂视觉输入，并产出幻灯片、表格、报告等交付物，填补了现有评测对蓝图交叉比对、科学图表阅读等专业场景的空白。
+
+MKA 采用 Climb 与 Regression 双轨专家评分标准，每题平均约 70 条加权准则，强调输入的真实视觉复杂度与领域特异性，而非简化合成数据。评测结果显示，Claude Sonnet 5.5 在医疗等领域领先，但在法律与政府领域优势微弱；Gemini 4 Carbon 排名第二，单任务平均成本仅为榜首模型的六分之一，展现出显著的性价比优势。
+
+该基准的推出标志着多模态智能体评测从通用能力向垂直专业场景的深化，为开发者提供了更贴近实际工作流的衡量工具。随着 AI 智能体在知识工作领域的渗透，MKA 有望成为行业标准，推动模型在视觉理解、跨领域推理和交付物生成等方面的持续优化，并影响企业选型与成本效益的权衡。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys), Artificial Analysis&lt;/p&gt;</description>
+</item>
 <item><title>Adobe 全线产品接入 AI 智能体并发布 MCP 协议</title><link>https://todayforai.com/en/story/story-892d0ecd-009</link><guid isPermaLink="true">https://todayforai.com/en/story/story-892d0ecd-009</guid>
 <pubDate>Tue, 10 Nov 2026 22:27:55 +0800</pubDate>
 <description>&lt;p&gt;Adobe 在 MAX 大会上宣布，将 AI 智能体与生成能力全面嵌入 Photoshop、Premiere、Illustrator、InDesign 与 Firefly，并发布模型上下文协议（MCP），允许 OpenAI、谷歌、Anthropic 等第三方智能体直接操作 Creative Cloud 原生项目文件。这标志着 Adobe 从封闭的创意软件套件转向开放的智能体平台，用户可通过 ChatGPT、Claude、Gemini 等外部聊天机器人调用 Adobe 功能，智能体还能串联 Google Docs、Slack 等外部工具完成跨软件工作流。
@@ -74,14 +82,6 @@ LingBot-Touch 补上了摄像头无法感知夹持力度与滑移的短板，将
 综合多源信息，Seedream 5.5 在技术细节上表现突出：官方演示同一人物连改 100 轮细节仍可对齐，而竞品 GPT-Image 2.6 约第 10 轮即出现明显畸变；严重文字错误率从 2.8% 降至 0.4%，复杂字形与密集小字渲染准确度显著提升；透明背景生成对羽毛等难抠边缘保留精细，生成元素可直接作为独立素材进入设计流程。此外，模型在光照、材质与皮肤纹理真实感上更贴近实拍，官方称其表现优于 GPT Image 2.5 Sunburst。
 
 此次发布标志着图像生成模型从单次生成向专业生产工作流迈进，百轮编辑稳定性与透明直出能力直击设计行业痛点，有望大幅降低后期修图成本。API 价格下调与生成速度提升进一步降低了开发者门槛，加剧了与 OpenAI 等厂商在图像编辑赛道的竞争。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), 量子位官网, The Decoder, IT之家 · 智能时代, 量子位 (微信公众号)&lt;/p&gt;</description>
-</item>
-<item><title>MiniMax 开源 H3-Image 生图模型 10 秒生成 4K 图像</title><link>https://todayforai.com/en/story/story-77b75cf4-9c6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-77b75cf4-9c6</guid>
-<pubDate>Wed, 11 Nov 2026 02:52:43 +0800</pubDate>
-<description>&lt;p&gt;MiniMax 正式开源 H3-Image 图像生成模型，以开放权重形式发布，支持文生图、图像参考与图像编辑三类任务。该模型可在约 10 秒内生成 4096×4096 分辨率（约 1600 万像素）的 4K 图像，官方称其速度约为主流水平的 5 倍，并支持最多 16 张参考图输入，指令遵循能力号称开源模型中最强。
-
-综合多方信源，H3-Image 衍生自 H3 基座，在生成速度与分辨率上实现显著突破，同时强调精准提示词跟随与图像编辑能力。模型已同步上线 MiniMax API、MiniMax Code 与海螺 AI，并接入 Arena 对战模式接受用户盲测投票，形成从开发接口到终端产品的完整覆盖。
-
-此次开源有望降低高质量图像生成的门槛，为开发者提供兼具速度与分辨率的开源选项，并可能加剧图像生成赛道的竞争，推动开源模型在指令遵循与多参考图能力上的迭代。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Arena.ai (@arena), IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
