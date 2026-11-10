@@ -9,7 +9,7 @@
 
 预发布测试中，Fable 5.2 展示了强大的长周期任务能力：协调逾 1000 个子智能体在 30 小时内完成费马大定理形式化证明（人工需 11 天），8 天从零构建可启动操作系统原型，并解决两个黑洞物理开放问题。Mythos 5.2 则专注安全敏感领域，将沙箱逃逸率从 39% 降至 3.1%，仅向通过审核的网络安全与生命科学机构开放。两者差异主要在安全护栏与访问权限，Fable 面向全体付费用户并内置防护，Mythos 需通过验证计划申请。
 
-此次发布正值 Anthropic IPO 前夕，且为 METR 报告暗示该实验室接近递归自我改进后的首次模型发布。Fable 5.2 在 FrontierSWE v2 取得 69.9%、OSWorld 2.1 取得 89.3%、Humanity&amp;#x27;s Last Exam（带工具）取得 74.2%，多项基准刷新纪录。分析认为，Anthropic 通过双版本策略在性能…&lt;/p&gt;&lt;p&gt;15 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), Arena.ai (@arena), Yuchen Jin (@Yuchenj_UW), Simon Willison 博客, Hacker News AI, OpenRouter (@OpenRouter)&lt;/p&gt;</description>
+此次发布正值 Anthropic IPO 前夕，且为 METR 报告暗示该实验室接近递归自我改进后的首次模型发布。Fable 5.2 在 FrontierSWE v2 取得 69.9%、OSWorld 2.1 取得 89.3%、Humanity&amp;#x27;s Last Exam（带工具）取得 74.2%，多项基准刷新纪录。分析认为，Anthropic 通过双版本策略在性能…&lt;/p&gt;&lt;p&gt;16 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), Arena.ai (@arena), Yuchen Jin (@Yuchenj_UW), Simon Willison 博客, Hacker News AI, OpenRouter (@OpenRouter)&lt;/p&gt;</description>
 </item>
 <item><title>Meta 发布轻量模型 Muse Ember 输入价低至每百万 token 10 美分</title><link>https://todayforai.com/en/story/story-166bb164-19f</link><guid isPermaLink="true">https://todayforai.com/en/story/story-166bb164-19f</guid>
 <pubDate>Tue, 10 Nov 2026 08:59:26 +0800</pubDate>
@@ -26,6 +26,14 @@ Muse Ember 的发布标…&lt;/p&gt;&lt;p&gt;9 sources&lt;/p&gt;&lt;p&gt;The Dec
 多家信源交叉验证，估值下调直接诱因是美股科技板块剧烈回调：纳斯达克 100 单日暴跌 6.4%、市值蒸发约 2.3 万亿美元，费城半导体指数跌 12%，VIX 升至 2025 年 4 月以来最高。与此同时，AI 单位成本快速下降——Ramp 数据显示 8 月至 10 月中企业 token 用量增长 65% 但支出仅增 1.5%，模型单价一月内下降 27%，动摇了高估值叙事。Anthropic 年化营收已从 7 月底约 650 亿美元升至约 810 亿美元，基本面仍强劲，但融资环境趋紧，OpenAI 同步将募资目标从 300 亿美元下调至约 200 亿美元。
 
 这场 IPO 被视为对 AI 产业估值逻辑的关键检验。作为首家上市的前沿模型开发商，Anthropic 的定价将直接影响一级市场对 AI 龙头的信心，并波及 Nscale 等非头部厂商的上市计划。若估值持续下探，可能引发 AI 资产重定价连锁反应，促使行业从“算力军备竞赛”转向更注重单位经济回报的理性发展阶段。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), Hacker News AI, IT之家 · 智能时代, IT之家 · IT业界, Latent Space, 宝玉 (@dotey)&lt;/p&gt;</description>
+</item>
+<item><title>字节发布 Seedream 5.5 支持直出透明背景</title><link>https://todayforai.com/en/story/story-3fb949dd-9e2</link><guid isPermaLink="true">https://todayforai.com/en/story/story-3fb949dd-9e2</guid>
+<pubDate>Tue, 10 Nov 2026 10:48:22 +0800</pubDate>
+<description>&lt;p&gt;字节跳动 Seed 团队正式发布图像编辑模型 Seedream 5.5，核心突破在于原生支持输出带 Alpha 通道的透明背景图像，并实现非编辑区域像素级不变，官方演示同一人物连续修改 100 轮后细节仍可精准对齐，显著缓解多轮编辑中的图像漂移问题。
+
+技术细节上，该模型对轮廓边缘与透明区域进行精细处理，羽毛等难抠边缘也能保留，生成元素可直接作为独立素材进入设计流程，省去后期抠图修边环节。同时，严重文字错误率从上一代的 2.8% 降至 0.4%，2K 方图编辑单张成本约 0.28 元，不到 Seedream 5.0 Pro 的一半。官方称其在密集小文字还原与光影材质真实感上优于 GPT Image 2.5 Sunburst。模型已在即梦、豆包、豆包工作陆续上线，开发者可通过火山方舟以 Doubao-Seedream-5.5 调用，Pro 版本在规划中。
+
+行业影响方面，Seedream 5.5 将透明背景直出与百轮稳定编辑结合，大幅提升设计工作流的自动化程度，降低专业图像编辑的门槛与成本，有望推动 AI 图像生成从创意辅助工具向生产级设计基础设施演进，对广告、电商、UI 设计等领域产生实质影响。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), IT之家 · 智能时代, The Decoder, 量子位官网&lt;/p&gt;</description>
 </item>
 <item><title>迪士尼联手 Adobe 打造品牌安全定制 AI 模型</title><link>https://todayforai.com/en/story/story-c756d33b-d8c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c756d33b-d8c</guid>
 <pubDate>Tue, 10 Nov 2026 11:26:36 +0800</pubDate>
@@ -51,13 +59,13 @@ TPU 8tx 主打机密计算，可在处理过程中对数据与权重保持加密
 
 此事件已超出个人丑闻范畴，直接关系到全球最重要 AI 算力供应商的治理与地缘风险。调查结果将影响员工、客户、合作伙伴及散户投资者对 AI 经济的信心，也可能波及美国出口管制政策与中美科技博弈的走向。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, Rohan Paul (@rohanpaul_ai), TechCrunch AI, The Verge AI&lt;/p&gt;</description>
 </item>
-<item><title>字节发布 Seedream 5.5 支持直出透明背景</title><link>https://todayforai.com/en/story/story-3fb949dd-9e2</link><guid isPermaLink="true">https://todayforai.com/en/story/story-3fb949dd-9e2</guid>
-<pubDate>Tue, 10 Nov 2026 02:50:01 +0800</pubDate>
-<description>&lt;p&gt;字节跳动 Seed 团队正式发布图像编辑模型 Seedream 5.5，核心突破在于原生支持输出带 Alpha 通道的透明背景图像，并实现非编辑区域像素级不变，官方演示同一人物连续修改 100 轮后细节仍可精准对齐，显著缓解多轮编辑中的图像漂移问题。
+<item><title>阿里千问办公 2.0 发布，首次实现多人与 Agent 同空间协作</title><link>https://todayforai.com/en/story/story-c73669b9-f36</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c73669b9-f36</guid>
+<pubDate>Tue, 10 Nov 2026 09:27:09 +0800</pubDate>
+<description>&lt;p&gt;阿里千问办公 2.0 正式发布，首次实现多人与 Agent 在同一协作空间内共同工作，标志着办公 Agent 从服务个人转向服务团队。新版本定位为 Team Agent，上线协作、自动任务、人机共创、资料空间与三端互联五项核心能力，所有功能已在客户端全量上线。
 
-技术细节上，该模型对轮廓边缘与透明区域进行精细处理，羽毛等难抠边缘也能保留，生成元素可直接作为独立素材进入设计流程，省去后期抠图修边环节。同时，严重文字错误率从上一代的 2.8% 降至 0.4%，2K 方图编辑单张成本约 0.28 元，不到 Seedream 5.0 Pro 的一半。官方称其在密集小文字还原与光影材质真实感上优于 GPT Image 2.5 Sunburst。模型已在即梦、豆包、豆包工作陆续上线，开发者可通过火山方舟以 Doubao-Seedream-5.5 调用，Pro 版本在规划中。
+在技术方案上，数字员工可实时关联钉钉群聊、文档、AI 表格与听记等信息源，支持并行会话与任务指派；自动任务支持订阅事件与配置规则，首批覆盖指定人消息、群内 @ 自己、审批任务等触发场景，使 Agent 从被动响应升级为主动执行；人机共创打通对话、预览与编辑，支持多人多 Agent 在线同时修改文档、表格与宜搭应用；三端互联实现手机、电脑、网页同步，任务云端常驻运行，关机后仍可继续。
 
-行业影响方面，Seedream 5.5 将透明背景直出与百轮稳定编辑结合，大幅提升设计工作流的自动化程度，降低专业图像编辑的门槛与成本，有望推动 AI 图像生成从创意辅助工具向生产级设计基础设施演进，对广告、电商、UI 设计等领域产生实质影响。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), IT之家 · 智能时代, The Decoder&lt;/p&gt;</description>
+这一发布对办公协作赛道具有实质影响：多人与 Agent 同空间协作打破了传统人机交互的边界，将 Agent 从个人助手升级为团队数字员工，有望提升组织协同效率，并推动办公软件向智能化、自动化方向演进。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, InfoQ 中文, 量子位官网&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 发布 Images 2.6 实现 ChatGPT 原生生成 GIF</title><link>https://todayforai.com/en/story/story-56a44e50-483</link><guid isPermaLink="true">https://todayforai.com/en/story/story-56a44e50-483</guid>
 <pubDate>Tue, 10 Nov 2026 06:02:15 +0800</pubDate>
@@ -74,14 +82,6 @@ TPU 8tx 主打机密计算，可在处理过程中对数据与权重保持加密
 Beep Locator 的工作流程设计得相当轻巧：用户通过扫描二维码即可将多台设备快速接入系统，随后进行校准和测试蜂鸣，确保各麦克风位置与时间同步。系统还具备跨会话记忆功能，能记住已确认的 3345 Hz 频率，避免重复识别。整个开发过程由 Claude Code 独立完成从设计到实现的环节，体现了编码智能体在真实生活小工具开发中的实用价值。
 
 尽管这只是一个解决日常烦恼的小工具，但其意义在于验证了 AI 编程助手处理多设备协同、实时信号处理等复杂任务的能力。对于开发者生态而言，这预示着未来更多创意可以借助 AI 快速转化为可用的开源项目，进一步降低工具开发的门槛。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, Simon Willison 博客&lt;/p&gt;</description>
-</item>
-<item><title>OpenAI 部署控制室系统 35 秒内熔断失控模型</title><link>https://todayforai.com/en/story/story-8e9bd7bb-215</link><guid isPermaLink="true">https://todayforai.com/en/story/story-8e9bd7bb-215</guid>
-<pubDate>Tue, 10 Nov 2026 10:05:45 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 近日宣布，已在内部研究设施全面部署名为“控制室”的中央管控系统，可在收到停止指令后最长 35 秒内阻断模型推理输出，从而有效叫停失控智能体。这标志着 AI 安全治理从被动监控转向主动拦截。
-
-据 OpenAI 官方博客及 IT 之家报道，控制室系统覆盖训练、评估与数据处理等全部研究推理负载，通过任务 ID 与推理引擎的授权校验实现主动拦截，而非事后告警。系统与失准监控体系联动，并为所有前沿强化学习任务配备独立模型监控器，自动检查行为异常。35 秒延迟源于授权请求缓存层，目标降至 0。系统按故障安全设计，即使自身宕机也会触发停止，确保模型输出被阻断。
-
-这一部署对 AI 安全领域具有标杆意义。随着智能体自主性增强，传统监控手段难以应对突发风险，控制室系统提供了一种可复用的主动熔断机制，有望推动行业建立更严格的安全标准，并影响未来 AI 治理框架的构建。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, OpenAI 官方博客&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

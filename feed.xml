@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Tue, 10 Nov 2026 12:38:34 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 10 Nov 2026 13:34:14 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Anthropic Prompt Tweak Quintuples Claude Code Refactoring Success</title><link>https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/</guid>
+<pubDate>Tue, 10 Nov 2026 13:34:14 +0800</pubDate>
+<description>&lt;p&gt;Anthropic documentation reveals that simply telling Claude Fable 5.2 the codebase is its own raised its rate of merging duplicated code from under 10% to roughly 50% in small coding-task tests. The finding shows that ownership framing strongly steers whether the model conservatively extends existing structure or actively refactors it.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 提示词技巧让模型重构代码成功率翻五倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;官方文档给出可量化的提示词效果对比，对日常使用编码智能体的开发者有直接可操作性。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · tools · signal 62/100&lt;/p&gt;</description>
+<source url="https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/">Simon Willison 博客</source>
+<category>提示词工程</category>
+<category>Anthropic</category>
+<category>编码智能体</category>
+</item>
+<item><title>Apple Siri Routes About 2% of English Requests to On-Device AI</title><link>https://www.ithome.com/1/024/754.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/754.htm</guid>
+<pubDate>Tue, 10 Nov 2026 13:19:12 +0800</pubDate>
+<description>&lt;p&gt;Apple has introduced a front-end module called Skimmer in the first developer beta of iOS/macOS 27.3, routing roughly 2% of English Siri AI requests to an on-device model for the first time, mainly covering high-frequency fixed commands such as timers, music playback and calls. The module matches preset tool flows via regular expressions and executes directly, bypassing full AI inference to cut latency and protect privacy.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;苹果 Siri 约 2% 英文请求改由本地模型处理&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次披露苹果 Siri 端侧 AI 调度的具体规则与实现机制，对理解端云协同架构有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/024/754.htm">IT之家 · 智能时代</source>
+<category>苹果</category>
+<category>Siri</category>
+<category>端侧 AI</category>
+<category>智能助手</category>
+</item>
 <item><title>Nvidia Paper Finds Irrelevant Text Weakens Models via Intrusion Heads</title><link>https://x.com/rohanpaul_ai/status/2120013219066753159</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120013219066753159</guid>
 <pubDate>Tue, 10 Nov 2026 12:38:34 +0800</pubDate>
 <description>&lt;p&gt;A new Nvidia-led paper finds that irrelevant text in RAG, tool-use and long-context prompts hurts models mainly by weakening their use of the question rather than directly suppressing the right answer. The authors identify a small set of &amp;#x27;intrusion heads&amp;#x27; inside open models that read unrelated text and dilute the answer; masking about 10 such heads on 7B-scale models recovered 57% of the accuracy lost to distractors on average, versus a 97.6% oracle ceiling.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达论文揭示无关文本通过干扰注意力头削弱模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;给出了无关上下文损害模型的可解释机制与免训练修复手段，对 RAG 与长上下文工程有直接指导价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
@@ -110,6 +127,15 @@
 <category>出口数据</category>
 <category>半导体供应链</category>
 </item>
+<item><title>ByteDance Releases Seedream 5.5 with Stable 100-Round Image Editing</title><link>https://www.qbitai.com/2026/11/508828.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/508828.html</guid>
+<pubDate>Tue, 10 Nov 2026 10:48:22 +0800</pubDate>
+<description>&lt;p&gt;ByteDance unveiled Seedream 5.5, a new image generation model that holds up far better than GPT-Image 2.6 in a 100-round iterative editing stress test, where the latter visibly degrades around round 10. The release also improves photorealism, small-text and multilingual rendering, and transparent-image generation/editing, while cutting API pricing and boosting speed; it is now live on Jimeng, Doubao and Doubao Work.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;字节 Seedream 5.5 发布 百轮图像编辑不崩&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产图像模型在多轮编辑稳定性上首次公开对标并超越国际头部模型，且伴随降价，对内容生产团队有直接参考价值。&lt;/p&gt;&lt;p&gt;量子位官网 · llm · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.qbitai.com/2026/11/508828.html">量子位官网</source>
+<category>图像生成</category>
+<category>字节跳动</category>
+<category>Seedream</category>
+<category>多轮编辑</category>
+</item>
 <item><title>Ant Group&#x27;s Lingbo Open-Sources LingBot-Touch Tactile Foundation Model</title><link>https://www.ithome.com/1/024/701.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/701.htm</guid>
 <pubDate>Tue, 10 Nov 2026 10:46:47 +0800</pubDate>
 <description>&lt;p&gt;Ant Group&amp;#x27;s Lingbo Technology has open-sourced LingBot-Touch, a tactile foundation model pretrained on nearly 5,000 hours of real-world tactile data. It unifies signals from magnetic, vision-based and piezoresistive sensors into a single tactile representation reusable across sensors, dexterous hands, models and tasks. Across 26 real-robot tests, plugging in the representation lifted average task success for four action models by roughly 14 to 26 percentage points, with bottle-cap twisting rising from 56.25% to 90%.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;蚂蚁灵波开源触觉基础模型 LingBot-Touch&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为具身智能补齐触觉感知这一关键模态，且以开源模型与真机量化结果给出可复用方案。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 78/100&lt;/p&gt;</description>
@@ -154,18 +180,18 @@
 <category>宇树科技</category>
 <category>资本市场</category>
 </item>
-<item><title>Meizu Flyme AIOS Launches Super Aicy Agent Across Core Phone Scenarios</title><link>https://www.ithome.com/1/024/641.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/641.htm</guid>
+<item><title>魅族 Flyme AIOS 上线超级 Aicy 智能体</title><link>https://www.ithome.com/1/024/641.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/641.htm</guid>
 <pubDate>Tue, 10 Nov 2026 10:13:23 +0800</pubDate>
-<description>&lt;p&gt;Meizu&amp;#x27;s Flyme AIOS has officially launched Super Aicy, a unified agent entry point spanning call answering, travel booking, office documents, finance queries, media creation and device control. Its capability store proactively recommends skills and connectors based on conversation context, and it integrates over 130 phone-level atomic capabilities, including proactive in-car preconditioning.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;魅族 Flyme AIOS 上线超级 Aicy 智能体&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;手机厂商将智能体深度嵌入操作系统与跨端设备控制，是端侧 Agent 落地的重要样本。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;魅族 Flyme AIOS 正式上线「超级 Aicy」，将通话代接、出行预订、办公文档、金融查询、多媒体创作与设备操控整合为统一智能体入口。其能力商店可依据对话上下文主动推荐技能与连接器，并深度集成 130+ 项手机原子能力，支持主动备车等跨端操作。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;手机厂商将智能体深度嵌入操作系统与跨端设备控制，是端侧 Agent 落地的重要样本。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/641.htm">IT之家 · 智能时代</source>
 <category>智能体</category>
 <category>魅族</category>
 <category>Flyme AIOS</category>
 <category>端侧 AI</category>
 </item>
-<item><title>Lenovo Opens Hybrid Token Factory in Zhangjiakou Targeting 15000P Cluster by 2027</title><link>https://www.ithome.com/1/024/640.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/640.htm</guid>
+<item><title>联想万全混合词元工厂落地张家口 2027 年建成 15000P 算力集群</title><link>https://www.ithome.com/1/024/640.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/640.htm</guid>
 <pubDate>Tue, 10 Nov 2026 10:10:04 +0800</pubDate>
-<description>&lt;p&gt;Lenovo unveiled its Wanquan hybrid token factory in Zhangjiakou, claiming annual token output above 2 quadrillion, a 70% cut in per-million-token cost and PUE under 1.1, with plans for a 15000P heterogeneous compute cluster and roughly 100MW intelligent computing center by 2027. The facility sits in the middle layer of Lenovo&amp;#x27;s three-tier enterprise AI stack, between its Wentian infrastructure and its Qingtian and Baiying agent services.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;联想万全混合词元工厂落地张家口 2027 年建成 15000P 算力集群&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;联想以词元工厂概念切入算力与智能体服务，给出产能、成本与 PUE 等具体指标及 2027 年集群规划，是观察国内智算基建与算电协同路线的实质信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;联想在张家口发布国内首个万全混合词元工厂，宣称词元年产能超 2000 万亿、百万词元综合成本优化 70%、PUE 低于 1.1，并计划 2027 年建成 15000P 异构算力集群与约 100MW 智算中心。该工厂被定位为其企业智能三层体系的中层，上承问天 AI 基础设施、下接擎天与百应智能体服务。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;联想以词元工厂概念切入算力与智能体服务，给出产能、成本与 PUE 等具体指标及 2027 年集群规划，是观察国内智算基建与算电协同路线的实质信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/640.htm">IT之家 · 智能时代</source>
 <category>算力基础设施</category>
 <category>联想</category>
@@ -173,18 +199,18 @@
 <category>词元工厂</category>
 <category>东数西算</category>
 </item>
-<item><title>OpenAI Deploys Control Room System to Halt Rogue Agents in 35 Seconds</title><link>https://www.ithome.com/1/024/631.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/631.htm</guid>
+<item><title>OpenAI 部署控制室系统 35 秒叫停失控智能体</title><link>https://www.ithome.com/1/024/631.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/631.htm</guid>
 <pubDate>Tue, 10 Nov 2026 10:05:45 +0800</pubDate>
-<description>&lt;p&gt;OpenAI has deployed an internal Control Room system that routes agent training, evaluation and data-processing workloads through a central authorization service, capable of blocking further model output within 35 seconds of a stop order. Unlike passive monitoring, it actively intercepts risky tasks via per-task IDs validated against the inference engine, with dedicated model monitors attached to all frontier reinforcement learning runs.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 部署控制室系统 35 秒叫停失控智能体&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是前沿实验室首次公开智能体运行时熔断与授权架构的具体实现，对关注 AI 安全工程化的读者具有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 宣布在内部研究设施部署“控制室”系统，将智能体训练、评估与数据处理任务接入中央授权服务，可在收到停止指令后最长 35 秒内阻断推理输出。该系统区别于传统被动监控，通过任务 ID 与推理引擎的授权校验实现主动拦截，并为所有前沿强化学习任务配备独立模型监控器。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是前沿实验室首次公开智能体运行时熔断与授权架构的具体实现，对关注 AI 安全工程化的读者具有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/631.htm">IT之家 · 智能时代</source>
 <category>AI 安全</category>
 <category>智能体</category>
 <category>OpenAI</category>
 <category>强化学习</category>
 </item>
-<item><title>SpaceX Plans $24 Billion Power Plant and Supercomputer at Starbase</title><link>https://www.ithome.com/1/024/625.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/625.htm</guid>
+<item><title>SpaceX 拟斥资 240 亿美元在 Starbase 建电厂与超算</title><link>https://www.ithome.com/1/024/625.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/625.htm</guid>
 <pubDate>Tue, 10 Nov 2026 10:02:54 +0800</pubDate>
-<description>&lt;p&gt;SpaceX plans to invest $24 billion in a gas-fired power plant and supercomputing facility in Starbase, Texas, with $22 billion as initial capital outlay across a roughly 444-acre site that may be built in phases. The Starbase City Council will hold a December 9 hearing on property tax abatements and a state economic development agreement, signaling an expansion from rocketry into self-built energy and compute infrastructure.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SpaceX 拟斥资 240 亿美元在 Starbase 建电厂与超算&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;240 亿美元级自建电厂与超算项目，是算力基础设施与能源供给绑定的重要产业信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;SpaceX 计划在得州 Starbase 基地所在城市投资 240 亿美元，建设燃气发电厂与超算设施，其中 220 亿美元为初期资本投入，项目占地约 444 英亩并可能分期扩建。Starbase 市政委员会将于 12 月 9 日就财产税减免与州级经济发展协议举行听证，标志其算力基础设施从火箭业务向自建能源与超算延伸。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;240 亿美元级自建电厂与超算项目，是算力基础设施与能源供给绑定的重要产业信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/625.htm">IT之家 · IT业界</source>
 <category>算力基础设施</category>
 <category>SpaceX</category>
@@ -229,6 +255,15 @@
 <category>估值</category>
 <category>AI 泡沫</category>
 </item>
+<item><title>千问办公 2.0 发布 首创多人 Agent 协作空间</title><link>https://www.qbitai.com/2026/11/508798.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/508798.html</guid>
+<pubDate>Tue, 10 Nov 2026 09:27:09 +0800</pubDate>
+<description>&lt;p&gt;千问办公 2.0 发布，定位为 Team Agent，推出行业首个支持多人与 Agent 协作的「协作」功能，可将钉钉群聊、云文档、AI 听记等关联进协作空间，让 Agent 结合团队上下文持续跟进任务。同步上线人机共创、自动任务、资料空间与三端互联，产品方向从单点任务执行转向连接更多办公工具与企业 OA 系统。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;办公 Agent 从单人助手走向团队协作空间，是 Agent 落地形态的重要产品信号。&lt;/p&gt;&lt;p&gt;量子位官网 · agent · signal 72/100&lt;/p&gt;</description>
+<source url="https://www.qbitai.com/2026/11/508798.html">量子位官网</source>
+<category>智能体</category>
+<category>千问办公</category>
+<category>钉钉</category>
+<category>办公协作</category>
+</item>
 <item><title>星云星座计划发布 把数据中心搬上太空</title><link>https://www.ithome.com/1/024/605.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/605.htm</guid>
 <pubDate>Tue, 10 Nov 2026 08:59:58 +0800</pubDate>
 <description>&lt;p&gt;在 2026 太空云产业生态大会上，中国科学院空天信息创新研究院与国内科创企业联合发布全栈国产化太空算力网“星云星座计划”，目标是将遥感、通信与算力卫星整合为智能天基信息服务系统。该计划推动太空云从技术验证走向产业化布局，利用太阳能供电与在轨数据处理降低带宽占用并提升响应速度。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;太空算力成为全球算力竞争新方向，该计划标志中国太空云生态进入产业化布局阶段。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 62/100&lt;/p&gt;</description>
@@ -237,43 +272,6 @@
 <category>星云星座计划</category>
 <category>中科院</category>
 <category>卫星互联网</category>
-</item>
-<item><title>Meta 发布轻量模型 Muse Ember 单任务成本仅 1/3</title><link>https://www.ithome.com/1/024/604.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/604.htm</guid>
-<pubDate>Tue, 10 Nov 2026 08:59:26 +0800</pubDate>
-<description>&lt;p&gt;Meta 推出迄今最小、效率最高的 AI 模型 Muse Ember，专为复杂推理与智能体高频任务设计。在 Artificial Analysis 综合指数上与 Claude Haiku 5.5 持平（36 分），但单任务成本仅为其 1/3，并在 AutomationBench-AA、OSWorld 2.1 等多项智能体与多模态评测中领先。模型即日起通过 Meta Model API、Google Cloud 与 Oracle Cloud 提供，输入/输出定价为每百万 Token 0.10/0.50 美元。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;轻量模型以 1/3 成本追平 Claude Haiku 5.5，且智能体基准显著领先，直接影响模型选型与推理成本决策。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/024/604.htm">IT之家 · 智能时代</source>
-<category>大模型</category>
-<category>Meta</category>
-<category>轻量模型</category>
-<category>智能体</category>
-<category>推理成本</category>
-</item>
-<item><title>Claude Fable 5.2 登顶 AA-3D 3D 交互榜</title><link>https://x.com/ArtificialAnlys/status/2119953570430881946</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2119953570430881946</guid>
-<pubDate>Tue, 10 Nov 2026 08:41:32 +0800</pubDate>
-<description>&lt;p&gt;Artificial Analysis 的 AA-3D 基准显示，Claude Fable 5.2 (Max) 以 1271 Elo 登顶，领先 Claude Sonnet 5.5 与 Opus 5.5 达 67 分，且置信区间与所有其他模型不重叠，领先幅度超出误差范围。它比前代 Fable 5.1 高出 132 分，并超过 OpenAI GPT-6 Astra（1168）与 Google Gemini 4 Argon（1147）。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;单一第三方基准的榜首易主，虽属跑分事件，但涉及前沿模型代际跃升与跨厂商对比，对关注模型能力边界的读者有参考价值。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/ArtificialAnlys/status/2119953570430881946">Artificial Analysis (@ArtificialAnlys)</source>
-<category>基准评测</category>
-<category>Claude</category>
-<category>3D 生成</category>
-<category>Artificial Analysis</category>
-</item>
-<item><title>派拉蒙 CEO 称 AI 是影视业最大创意解锁</title><link>https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai</link><guid isPermaLink="true">https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai</guid>
-<pubDate>Tue, 10 Nov 2026 08:28:49 +0800</pubDate>
-<description>&lt;p&gt;派拉蒙 Skydance CEO 大卫·埃里森在财报电话会上表示，AI 对电影工业的影响可能超过 CGI，是“现代史上最大的创意解锁”。他以《终结者》为例指出，同等镜头量级的制作成本已从 400 万美元升至 6000 万至 7000 万美元，AI 有望压低预算门槛、释放原创叙事空间，同时强调 AI 是艺术家工具而非替代者。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;好莱坞主要制片厂掌门人首次在财报场合系统表态 AI 对制作成本与创意流程的影响，是观察影视行业 AI 落地的关键信号。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 38/100&lt;/p&gt;</description>
-<source url="https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai">The Verge AI</source>
-<category>影视 AI</category>
-<category>派拉蒙</category>
-<category>生成式 AI</category>
-<category>产业观点</category>
-</item>
-<item><title>Fireworks 遭黑客入侵 客户数据与模型权重泄露</title><link>https://x.com/rohanpaul_ai/status/2119949891938218446</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119949891938218446</guid>
-<pubDate>Tue, 10 Nov 2026 08:26:55 +0800</pubDate>
-<description>&lt;p&gt;据 The Information 报道，高估值推理服务商 Fireworks 于 10 月 24 日经第三方云供应商的开发机被入侵，攻击波及客户账单记录，部分账户的数据集与不完整模型权重亦遭泄露。已有客户（如 Harvey）考虑迁出平台，事件直接威胁其十亿美元级业务。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部推理服务商发生供应链侧数据泄露，直接牵动客户信任与平台迁移决策。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 72/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2119949891938218446">Rohan Paul (@rohanpaul_ai)</source>
-<category>安全事件</category>
-<category>推理服务</category>
-<category>Fireworks</category>
-<category>数据泄露</category>
 </item>
 </channel>
 </rss>
