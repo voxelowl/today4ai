@@ -1,8 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Tue, 10 Nov 2026 13:34:14 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 10 Nov 2026 14:01:08 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Amazon Replaces Sonnet 4.6 with Strands Decider to Cut Token Costs 98%</title><link>https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/</link><guid isPermaLink="true">https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/</guid>
+<pubDate>Tue, 10 Nov 2026 14:01:08 +0800</pubDate>
+<description>&lt;p&gt;Amazon&amp;#x27;s internal ticketing system swapped Claude Sonnet 4.6 for Strands Decider, a decision model launched a month ago, achieving comparable labeling quality at 98% lower token cost and saving millions of dollars annually. The key insight is reframing open-ended text generation as a constrained decision problem over fixed labels, letting a specialized decision model replace a general-purpose LLM.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊用决策模型替代 Sonnet 4.6 省下数百万美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以真实生产系统的大规模替换案例，量化了专用决策模型对通用大模型的成本替代效应，对做分类类 Agent 的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 78/100&lt;/p&gt;</description>
+<source url="https://strandsagents.com/blog/amazon-saves-millions-replacing-sonnet-with-strands-decider/">Hacker News AI</source>
+<category>智能体</category>
+<category>决策模型</category>
+<category>成本优化</category>
+<category>亚马逊</category>
+<category>Strands</category>
+</item>
+<item><title>Anthropic Unveils Claude Fable 5.2 Topping Coding Benchmarks Over GPT-6 Astra</title><link>https://www.ithome.com/1/024/796.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/796.htm</guid>
+<pubDate>Tue, 10 Nov 2026 13:52:12 +0800</pubDate>
+<description>&lt;p&gt;Anthropic released Claude Fable 5.2 and Claude Mythos 5.2, claiming notable gains across coding, reasoning, scientific research, cybersecurity and robotics, with up to 30% faster output and 20% lower cost. Fable 5.2 scored 49.1% on the agentic coding benchmark FrontierCode 2.0, beating GPT-6 Astra at 42.8% and Gemini 4 Carbon at 41.1%, and also led on multidisciplinary reasoning tests. Anthropic demonstrated it coordinating over 1,000 agents over eight days to build a bootable operating system from scratch.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 发布 Claude Fable 5.2 编程基准超越 GPT-6 Astra&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部厂商新一代旗舰模型发布并登顶多项基准，是 AI 时间线上的关键节点。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 88/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/024/796.htm">IT之家 · 智能时代</source>
+<category>大模型</category>
+<category>Anthropic</category>
+<category>基准测试</category>
+<category>智能体</category>
+</item>
+<item><title>Mistral CEO Warns Centralized AI Labs Will Encroach on Customer Business</title><link>https://x.com/rohanpaul_ai/status/2120028692839903465</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120028692839903465</guid>
+<pubDate>Tue, 10 Nov 2026 13:40:03 +0800</pubDate>
+<description>&lt;p&gt;Mistral CEO Arthur Mensch argues on the 20VC podcast that if enterprises depend on just two or three centralized AI providers, those vendors will use customer-generated data to build better systems and then compete directly with those customers&amp;#x27; businesses, a scenario he says is already priced into today&amp;#x27;s market. The argument serves as a strategic case for open and self-hosted AI deployment.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Mistral CEO 警告集中式 AI 实验室将反噬客户业务&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自欧洲头部开源模型厂商 CEO 对集中式 AI 商业模式的直接批评，涉及数据主权与供应商锁定，对判断行业格局有参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2120028692839903465">Rohan Paul (@rohanpaul_ai)</source>
+<category>Mistral AI</category>
+<category>开源模型</category>
+<category>商业模式</category>
+<category>数据主权</category>
+</item>
 <item><title>Anthropic Prompt Tweak Quintuples Claude Code Refactoring Success</title><link>https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/</guid>
 <pubDate>Tue, 10 Nov 2026 13:34:14 +0800</pubDate>
 <description>&lt;p&gt;Anthropic documentation reveals that simply telling Claude Fable 5.2 the codebase is its own raised its rate of merging duplicated code from under 10% to roughly 50% in small coding-task tests. The finding shows that ownership framing strongly steers whether the model conservatively extends existing structure or actively refactors it.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 提示词技巧让模型重构代码成功率翻五倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;官方文档给出可量化的提示词效果对比，对日常使用编码智能体的开发者有直接可操作性。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · tools · signal 62/100&lt;/p&gt;</description>
@@ -10,6 +38,23 @@
 <category>提示词工程</category>
 <category>Anthropic</category>
 <category>编码智能体</category>
+</item>
+<item><title>TSMC October Revenue Jumps 59.7% on Sustained AI Chip Demand</title><link>https://www.ithome.com/1/024/758.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/758.htm</guid>
+<pubDate>Tue, 10 Nov 2026 13:34:11 +0800</pubDate>
+<description>&lt;p&gt;TSMC reported October 2026 consolidated revenue of NT$586.89 billion, up 59.7% year over year and 14.7% sequentially, sustaining near-60% growth on a high base. Cumulative January-October revenue reached NT$4.49 trillion, up 43.3% year over year, lending early credibility to its Q4 guidance of $52.3-54.3 billion as AI and HPC demand continues to outstrip supply.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;台积电 10 月营收 5869 亿新台币 同比增 59.7%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球最大晶圆代工厂的月度营收是 AI 算力供需与先进制程景气的关键先行指标，直接影响芯片产业链预期。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 72/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/024/758.htm">IT之家 · IT业界</source>
+<category>台积电</category>
+<category>算力</category>
+<category>先进制程</category>
+<category>财报</category>
+</item>
+<item><title>Sensing Human Movement Through Walls Using TV Signals</title><link>https://maurycyz.com/projects/fading/</link><guid isPermaLink="true">https://maurycyz.com/projects/fading/</guid>
+<pubDate>Tue, 10 Nov 2026 13:24:45 +0800</pubDate>
+<description>&lt;p&gt;Using a software-defined radio to capture a local ATSC digital TV signal, the author found that selective fading makes the signal extremely sensitive to nearby human movement, enabling through-wall motion sensing from an adjacent room via spectrogram changes. The approach needs no special hardware, and wideband signals such as WiFi or LTE can yield the same channel state information.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;利用电视信号穿墙感知室内人体移动&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以低成本软件无线电把日常电视信号变成穿墙人体感知手段，展示了射频感知的实用路径。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://maurycyz.com/projects/fading/">Hacker News AI</source>
+<category>射频感知</category>
+<category>软件无线电</category>
+<category>穿墙感知</category>
 </item>
 <item><title>Apple Siri Routes About 2% of English Requests to On-Device AI</title><link>https://www.ithome.com/1/024/754.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/754.htm</guid>
 <pubDate>Tue, 10 Nov 2026 13:19:12 +0800</pubDate>
@@ -136,45 +181,45 @@
 <category>Seedream</category>
 <category>多轮编辑</category>
 </item>
-<item><title>Ant Group&#x27;s Lingbo Open-Sources LingBot-Touch Tactile Foundation Model</title><link>https://www.ithome.com/1/024/701.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/701.htm</guid>
+<item><title>蚂蚁灵波开源触觉基础模型 LingBot-Touch</title><link>https://www.ithome.com/1/024/701.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/701.htm</guid>
 <pubDate>Tue, 10 Nov 2026 10:46:47 +0800</pubDate>
-<description>&lt;p&gt;Ant Group&amp;#x27;s Lingbo Technology has open-sourced LingBot-Touch, a tactile foundation model pretrained on nearly 5,000 hours of real-world tactile data. It unifies signals from magnetic, vision-based and piezoresistive sensors into a single tactile representation reusable across sensors, dexterous hands, models and tasks. Across 26 real-robot tests, plugging in the representation lifted average task success for four action models by roughly 14 to 26 percentage points, with bottle-cap twisting rising from 56.25% to 90%.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;蚂蚁灵波开源触觉基础模型 LingBot-Touch&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为具身智能补齐触觉感知这一关键模态，且以开源模型与真机量化结果给出可复用方案。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;蚂蚁灵波科技开源触觉基础模型 LingBot-Touch，基于近 5000 小时真实触觉数据预训练，覆盖磁触觉、视触觉与压阻式三类传感原理，将异构信号统一为同一套触觉表征，可跨传感器、跨灵巧手、跨模型与跨任务复用。在 26 项真机测试中，接入该表征后四种动作模型平均任务成功率提升约 14 至 26 个百分点，拧瓶盖任务成功率由 56.25% 升至 90%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为具身智能补齐触觉感知这一关键模态，且以开源模型与真机量化结果给出可复用方案。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/701.htm">IT之家 · 智能时代</source>
 <category>具身智能</category>
 <category>触觉感知</category>
 <category>开源模型</category>
 <category>蚂蚁灵波</category>
 </item>
-<item><title>Boston Dynamics Fits Atlas Humanoid with Wheels for High-Speed Mobility</title><link>https://www.ithome.com/1/024/697.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/697.htm</guid>
+<item><title>波士顿动力为 Atlas 装上轮子实现高速移动</title><link>https://www.ithome.com/1/024/697.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/697.htm</guid>
 <pubDate>Tue, 10 Nov 2026 10:32:02 +0800</pubDate>
-<description>&lt;p&gt;Boston Dynamics released a video showing a modified Atlas humanoid with electric scooter wheels bolted to its ankle actuators via custom adapters, requiring no major hardware or software rebuild beyond swapping feet for wheels in simulation. The wheeled Atlas can jump and spin, sprint laterally, and completed a jump-and-spin on its first try using a trajectory-tracking controller, serving as a testbed for sustained actuator load and heavy-payload performance. It is a research platform, not a commercial product.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;波士顿动力为 Atlas 装上轮子实现高速移动&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是人形机器人运动能力与执行器负载测试的实质工程进展，对具身智能读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;波士顿动力发布视频，展示通过定制转接器将电动滑板车轮子装到 Atlas 踝关节执行器上的改装版本，未做大改硬件与软件，仅在仿真中替换足部模型。装轮后的 Atlas 可跳跃转圈、横向冲刺，并借助轨迹跟踪控制器首次尝试即完成动作，用于测试执行器持续负载与重载表现。该版本并非商业化产品，仅作研究平台。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是人形机器人运动能力与执行器负载测试的实质工程进展，对具身智能读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/697.htm">IT之家 · 智能时代</source>
 <category>人形机器人</category>
 <category>波士顿动力</category>
 <category>具身智能</category>
 <category>运动控制</category>
 </item>
-<item><title>Anthropic Seeks Up to $69.3 Billion in Blockbuster IPO</title><link>https://www.ithome.com/1/024/694.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/694.htm</guid>
+<item><title>Anthropic 拟 IPO 募资 693 亿美元</title><link>https://www.ithome.com/1/024/694.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/694.htm</guid>
 <pubDate>Tue, 10 Nov 2026 10:28:54 +0800</pubDate>
-<description>&lt;p&gt;Anthropic plans to raise up to $69.3 billion in its Nasdaq IPO, second only to SpaceX in history, with trading expected to begin November 19 or 20 under the ticker ANT. Recent market swings have pushed its valuation well below peak levels.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 拟 IPO 募资 693 亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;近 700 亿美元级 IPO 将重塑 AI 一级市场定价与资本格局，是行业标志性事件。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 88/100&lt;/p&gt;</description>
+<description>&lt;p&gt;路透社报道称，Anthropic 计划通过纳斯达克 IPO 募集至多 693 亿美元，规模仅次于 SpaceX，位列历史第二。股票预计 11 月 19 或 20 日以代码 ANT 开始交易，但近期市场波动已使其估值较峰值明显回落。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;近 700 亿美元级 IPO 将重塑 AI 一级市场定价与资本格局，是行业标志性事件。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 88/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/694.htm">IT之家 · IT业界</source>
 <category>Anthropic</category>
 <category>IPO</category>
 <category>融资</category>
 <category>纳斯达克</category>
 </item>
-<item><title>Nvidia Lobbied Against Rules on Remote Chip Access</title><link>https://x.com/rohanpaul_ai/status/2119980259747725537</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119980259747725537</guid>
+<item><title>英伟达游说反对限制远程访问芯片</title><link>https://x.com/rohanpaul_ai/status/2119980259747725537</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2119980259747725537</guid>
 <pubDate>Tue, 10 Nov 2026 10:27:35 +0800</pubDate>
-<description>&lt;p&gt;Two current US Commerce officials told The Information that Nvidia lobbied especially hard against any rules on remote access, the route Chinese AI labs use to reach restricted chips in Singapore and Malaysia data centers. That lobbying, plus opposition from officials, previously stopped Commerce and Congress from writing new rules. In late October, the White House asked Congress to add a provision to the Overwatch Act requiring Commerce to write a rule against remote access to certain chips, and to narrow the Match Act so it covers only advanced chip production, sparing legacy lines.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达游说反对限制远程访问芯片&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这条消息披露了美国芯片出口管制中远程访问这一关键漏洞，以及英伟达的游说如何影响政策走向，对关注算力地缘格局的读者有实质信息价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 74/100&lt;/p&gt;</description>
+<description>&lt;p&gt;据 The Information 报道，两名美国商务部现任官员称，英伟达曾大力游说反对针对远程访问芯片制定任何规则，而中国 AI 实验室正是通过这一途径，使用新加坡和马来西亚数据中心里的受限芯片。这一游说，加上部分官员的反对，曾使美国商务部和国会未能制定新规。10 月下旬，白宫要求国会在《Overwatch Act》中加入条款，强制商务部就特定芯片的远程访问制定规则，并要求收窄《Match Act》的适用范围，使其仅覆盖先进芯片生产，从而放过成熟制程产线。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这条消息披露了美国芯片出口管制中远程访问这一关键漏洞，以及英伟达的游说如何影响政策走向，对关注算力地缘格局的读者有实质信息价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 74/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2119980259747725537">Rohan Paul (@rohanpaul_ai)</source>
 <category>芯片出口管制</category>
 <category>英伟达</category>
 <category>算力地缘</category>
 <category>美国商务部</category>
 </item>
-<item><title>Unitree Robotics Shares Jump Over 10 Percent to 320 Billion Yuan Valuation</title><link>https://www.ithome.com/1/024/660.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/660.htm</guid>
+<item><title>宇树科技股价涨超 10% 市值达 3200 亿元</title><link>https://www.ithome.com/1/024/660.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/660.htm</guid>
 <pubDate>Tue, 10 Nov 2026 10:20:01 +0800</pubDate>
-<description>&lt;p&gt;Unitree Robotics shares rose as much as 12% intraday and were up over 10% at press time, giving the company a market value of roughly 320 billion yuan after two consecutive sessions of gains. Founder Wang Xingxing recently said next year will likely be a tipping point for the robotics industry or robot models, with the company focusing on robot brain technology and seeking global partnerships.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;宇树科技股价涨超 10% 市值达 3200 亿元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;具身智能头部公司的资本市场异动，叠加创始人对物理 AI 临界点的判断，对关注机器人赛道的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;宇树科技股价盘中最高涨超 12%，截至发稿涨超 10%，市值约 3200 亿元，此前已连续 2 个交易日收涨。创始人王兴兴近期表示，明年大概率是机器人行业或机器人模型的临界点，公司未来重点攻克机器人大脑技术并在全球寻求合作。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;具身智能头部公司的资本市场异动，叠加创始人对物理 AI 临界点的判断，对关注机器人赛道的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/660.htm">IT之家 · 智能时代</source>
 <category>具身智能</category>
 <category>宇树科技</category>
@@ -226,52 +271,6 @@
 <category>CPython</category>
 <category>智能体</category>
 <category>AI for Science</category>
-</item>
-<item><title>腾讯首款 AI 游戏陪伴 Agent 鹅次元开启内测</title><link>https://www.ithome.com/1/024/620.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/620.htm</guid>
-<pubDate>Tue, 10 Nov 2026 09:43:25 +0800</pubDate>
-<description>&lt;p&gt;腾讯推出首款专属 AI 游戏陪伴 Agent“鹅次元”并开启内测，面向 PC 玩家提供拟人化实时语音陪伴。该产品可识别游戏画面并据此互动答疑，同时支持 PC 与手机 QQ 聊天，并规划桌宠、变声等功能。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大厂首次将多模态游戏画面理解与陪伴型 Agent 结合落地，是观察 AI 消费级 Agent 形态的重要样本。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/024/620.htm">IT之家 · 智能时代</source>
-<category>智能体</category>
-<category>腾讯</category>
-<category>游戏 AI</category>
-<category>多模态</category>
-</item>
-<item><title>三星与 SK 海力士各投超 10 万亿韩元采购 EUV</title><link>https://www.ithome.com/1/024/619.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/619.htm</guid>
-<pubDate>Tue, 10 Nov 2026 09:42:05 +0800</pubDate>
-<description>&lt;p&gt;三星电子与 SK 海力士正竞相采购 ASML 的 EUV 光刻机，单家投资规模均达 10~20 万亿韩元，以支撑 AI 半导体浪潮下的晶圆产能扩张。SK 海力士已确认 2026~2027 年采购 11.95 万亿韩元设备，三星则计划 2028 年将 High NA EUV 用于 DRAM 量产。设备交付周期普遍延长，提前下单成为锁定产能上线的关键手段。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;存储双雄的巨额 EUV 采购直接决定 AI 芯片与 HBM 产能上限，是算力供给端的重要前瞻信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/024/619.htm">IT之家 · IT业界</source>
-<category>EUV 光刻</category>
-<category>存储芯片</category>
-<category>算力基础设施</category>
-<category>三星电子</category>
-<category>SK 海力士</category>
-</item>
-<item><title>Anthropic 拟推进 IPO 估值或低于 1.5 万亿美元</title><link>https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/</guid>
-<pubDate>Tue, 10 Nov 2026 09:27:12 +0800</pubDate>
-<description>&lt;p&gt;据《华尔街日报》报道，Anthropic 计划本周确定估值区间，并于下周四周五挂牌交易，在纳斯达克大幅抛售后仍推进上市。部分机构投资者正施压要求估值低于上周讨论的 1.5 万亿美元目标，而该数字已较数月前 2 万亿美元预期大幅回落。作为 OpenAI 的主要竞争对手，Anthropic 的定价将成为衡量当前 AI 热潮强度的重要风向标。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司 IPO 定价直接反映资本市场对 AI 热潮的信心，是产业周期的重要观察点。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/">TechCrunch AI</source>
-<category>IPO</category>
-<category>Anthropic</category>
-<category>估值</category>
-<category>AI 泡沫</category>
-</item>
-<item><title>千问办公 2.0 发布 首创多人 Agent 协作空间</title><link>https://www.qbitai.com/2026/11/508798.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/508798.html</guid>
-<pubDate>Tue, 10 Nov 2026 09:27:09 +0800</pubDate>
-<description>&lt;p&gt;千问办公 2.0 发布，定位为 Team Agent，推出行业首个支持多人与 Agent 协作的「协作」功能，可将钉钉群聊、云文档、AI 听记等关联进协作空间，让 Agent 结合团队上下文持续跟进任务。同步上线人机共创、自动任务、资料空间与三端互联，产品方向从单点任务执行转向连接更多办公工具与企业 OA 系统。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;办公 Agent 从单人助手走向团队协作空间，是 Agent 落地形态的重要产品信号。&lt;/p&gt;&lt;p&gt;量子位官网 · agent · signal 72/100&lt;/p&gt;</description>
-<source url="https://www.qbitai.com/2026/11/508798.html">量子位官网</source>
-<category>智能体</category>
-<category>千问办公</category>
-<category>钉钉</category>
-<category>办公协作</category>
-</item>
-<item><title>星云星座计划发布 把数据中心搬上太空</title><link>https://www.ithome.com/1/024/605.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/605.htm</guid>
-<pubDate>Tue, 10 Nov 2026 08:59:58 +0800</pubDate>
-<description>&lt;p&gt;在 2026 太空云产业生态大会上，中国科学院空天信息创新研究院与国内科创企业联合发布全栈国产化太空算力网“星云星座计划”，目标是将遥感、通信与算力卫星整合为智能天基信息服务系统。该计划推动太空云从技术验证走向产业化布局，利用太阳能供电与在轨数据处理降低带宽占用并提升响应速度。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;太空算力成为全球算力竞争新方向，该计划标志中国太空云生态进入产业化布局阶段。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/024/605.htm">IT之家 · IT业界</source>
-<category>太空算力</category>
-<category>星云星座计划</category>
-<category>中科院</category>
-<category>卫星互联网</category>
 </item>
 </channel>
 </rss>
