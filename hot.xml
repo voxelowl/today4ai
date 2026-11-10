@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Tue, 10 Nov 2026 23:38:00 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 11 Nov 2026 00:15:01 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 发布双版本 Claude 5.2 模型 编码推理能力大幅跃升</title><link>https://todayforai.com/en/story/story-dc8382a0-0bf</link><guid isPermaLink="true">https://todayforai.com/en/story/story-dc8382a0-0bf</guid>
 <pubDate>Tue, 10 Nov 2026 22:07:47 +0800</pubDate>
@@ -43,6 +43,14 @@ Muse Ember 的发布标…&lt;/p&gt;&lt;p&gt;13 sources&lt;/p&gt;&lt;p&gt;The De
 
 行业影响方面，Adobe 此举打破了创意软件与 AI 智能体之间的壁垒，使第三方 AI 可直接操控专业创作工具，有望大幅提升内容生产效率并重塑创意工作流。同时，Adobe 与谷歌深化合作，将 Acrobat 及创意工具嵌入 Drive、Gmail、Gemini 与搜索…&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Google AI Blog, TechCrunch AI, IT之家 · 智能时代, The Verge AI&lt;/p&gt;</description>
 </item>
+<item><title>蚂蚁灵波开源通用触觉模型 LingBot-Touch</title><link>https://todayforai.com/en/story/story-f5891fb6-63e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f5891fb6-63e</guid>
+<pubDate>Tue, 10 Nov 2026 23:53:43 +0800</pubDate>
+<description>&lt;p&gt;蚂蚁灵波科技正式开源通用触觉基础模型 LingBot-Touch，基于近 5000 小时真实触觉数据预训练，首次将磁触觉、视触觉和压阻式三类异构传感信号统一为同一套触觉表征。该模型在 26 项真机测试中，接入后使 LingBot-VLA、π0.5、Diffusion Policy 和 T-Rex 四种动作模型的平均任务成功率提升 14 至 26 个百分点，其中拧瓶盖任务成功率从 56.25% 跃升至 90%。
+
+技术方案上，LingBot-Touch 通过大规模预训练学习跨传感器、跨灵巧手、跨模型与跨任务的通用触觉表征，且数据规模扩展仍持续带来性能增益。模型、代码和技术报告已在 Hugging Face、GitHub 和魔搭社区同步开源，为具身智能研究提供了可复用的触觉感知基座。
+
+此次开源将具身智能的感知能力从视觉延伸至触觉，填补了通用触觉基础模型的空白，有望降低触觉感知的研发门槛，推动灵巧操作、人形机器人等场景的快速迭代，对具身智能生态的开放协同具有标志性意义。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;量子位官网, InfoQ 中文, IT之家 · 智能时代, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
+</item>
 <item><title>字节发布 Seedream 5.5 支持百轮编辑与透明直出</title><link>https://todayforai.com/en/story/story-3fb949dd-9e2</link><guid isPermaLink="true">https://todayforai.com/en/story/story-3fb949dd-9e2</guid>
 <pubDate>Tue, 10 Nov 2026 17:02:52 +0800</pubDate>
 <description>&lt;p&gt;字节跳动 Seed 团队正式发布新一代图像创作模型 Seedream 5.5，核心突破在于支持最多 100 轮连续编辑且非编辑区域像素级不变，同时原生输出带 Alpha 通道的透明背景图像，省去后期抠图环节。该模型已通过即梦、豆包、豆包工作及火山方舟逐步开放，2K 方图编辑单张成本约 0.28 元，不到上一代 Pro 版本的一半。
@@ -50,6 +58,14 @@ Muse Ember 的发布标…&lt;/p&gt;&lt;p&gt;13 sources&lt;/p&gt;&lt;p&gt;The De
 综合多源信息，Seedream 5.5 在技术细节上表现突出：官方演示同一人物连改 100 轮细节仍可对齐，而竞品 GPT-Image 2.6 约第 10 轮即出现明显畸变；严重文字错误率从 2.8% 降至 0.4%，复杂字形与密集小字渲染准确度显著提升；透明背景生成对羽毛等难抠边缘保留精细，生成元素可直接作为独立素材进入设计流程。此外，模型在光照、材质与皮肤纹理真实感上更贴近实拍，官方称其表现优于 GPT Image 2.5 Sunburst。
 
 此次发布标志着图像生成模型从单次生成向专业生产工作流迈进，百轮编辑稳定性与透明直出能力直击设计行业痛点，有望大幅降低后期修图成本。API 价格下调与生成速度提升进一步降低了开发者门槛，加剧了与 OpenAI 等厂商在图像编辑赛道的竞争。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), 量子位官网, The Decoder, IT之家 · 智能时代, 量子位 (微信公众号)&lt;/p&gt;</description>
+</item>
+<item><title>谷歌扩充 TPU 阵容推出 8tx 与 8i Max 两款新品</title><link>https://todayforai.com/en/story/story-8e585f9c-a84</link><guid isPermaLink="true">https://todayforai.com/en/story/story-8e585f9c-a84</guid>
+<pubDate>Tue, 10 Nov 2026 23:54:08 +0800</pubDate>
+<description>&lt;p&gt;谷歌宣布扩充其自研 TPU 产品阵容，新增面向机密计算的 TPU 8tx 与面向超长上下文场景的 TPU 8i Max，使第八代 TPU 产品线扩展至四款。两款新品并非全新设计，而是在现有芯片基础上重新配置，标志着谷歌正加速芯片迭代节奏，从两年一款加快至一年多款，以在英伟达供应紧张之际抢占 AI 芯片市场。
+
+TPU 8tx 主打机密计算，可在处理过程中对数据与权重保持加密，并与第五代 AMD EPYC 主机协同工作，延迟最高降低 2 倍。TPU 8i Max 则通过单封装双芯片设计，在同一机架内实现算力、SRAM 与 HBM 带宽翻倍，折算带宽约 17.2 TB/s，虽低于 NVIDIA Rubin 的 22 TB/s，但针对超长上下文窗口优化，服务药物研发、数学与编程等应用。谷歌同时推出 TorchTPU 等软件工具，降低开发者迁移门槛，加速向外部客户销售推理硬件。
+
+尽管官方未公布绝对规格、价格与基准测试，实际性能仍待验证，但谷歌通过丰富产品矩阵与拓展供应链伙伴，正逐步构建从训练到推理、从通用到机密的完整 AI 芯片生态，对英伟达的市场主导地位构成更直接挑战。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, The Decoder, Marktechpost (@Marktechpost), TechCrunch AI&lt;/p&gt;</description>
 </item>
 <item><title>英伟达董事会启动独立调查 审查黄仁勋被外国情报瞄准报道</title><link>https://todayforai.com/en/story/story-55770774-90b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-55770774-90b</guid>
 <pubDate>Tue, 10 Nov 2026 22:33:22 +0800</pubDate>
@@ -59,29 +75,13 @@ Muse Ember 的发布标…&lt;/p&gt;&lt;p&gt;13 sources&lt;/p&gt;&lt;p&gt;The De
 
 此次调查凸显了全球最重要 AI 算力供应商所面临的治理与地缘政治风险。事件已超出个人丑闻范畴，调查结果将影响员工、客户、合作伙伴及投资者对 AI 经济前景的信心。同时，美国出口管制政策的有效性以及芯片灰色通道的规模引发广泛关注，可能促使监管进一步收紧，对英伟达的业务和声誉构成潜在挑战。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, The Verge AI, Hacker News AI, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
-<item><title>蚂蚁灵波开源通用触觉模型 LingBot-Touch</title><link>https://todayforai.com/en/story/story-f5891fb6-63e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f5891fb6-63e</guid>
-<pubDate>Tue, 10 Nov 2026 15:57:45 +0800</pubDate>
-<description>&lt;p&gt;蚂蚁灵波科技正式开源通用触觉基础模型 LingBot-Touch，基于近 5000 小时真实触觉数据预训练，首次将磁触觉、视触觉和压阻式三类异构传感信号统一为同一套触觉表征。该模型在 26 项真机测试中，接入后使 LingBot-VLA、π0.5、Diffusion Policy 和 T-Rex 四种动作模型的平均任务成功率提升 14 至 26 个百分点，其中拧瓶盖任务成功率从 56.25% 跃升至 90%。
+<item><title>Google 发布 Gemini 4 Carbon 并预览智能体蜂群功能</title><link>https://todayforai.com/en/story/story-8356a9b1-b1c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-8356a9b1-b1c</guid>
+<pubDate>Wed, 11 Nov 2026 00:15:01 +0800</pubDate>
+<description>&lt;p&gt;Google 正式向公众开放其迄今最强模型 Gemini 4 Carbon，距该模型向安全防御者定向发布仅两周。Carbon 主打复杂多步编码与开放式科研等极限任务，与上月发布的 Argon 形成高低搭配，标志着 Google 在经历一段追赶期后重回前沿第一梯队，与 Anthropic、OpenAI 形成三足鼎立之势。
 
-技术方案上，LingBot-Touch 通过大规模预训练学习跨传感器、跨灵巧手、跨模型与跨任务的通用触觉表征，且数据规模扩展仍持续带来性能增益。模型、代码和技术报告已在 Hugging Face、GitHub 和魔搭社区同步开源，为具身智能研究提供了可复用的触觉感知基座。
+早期测试数据显示，Carbon 在 Terminal-Bench 上的作弊率与灰天鹅基准的提示注入成功率均降至 0%，安全代码编写速度达 Argon 的两倍，并在 Sec-Bench Pro 上发现 88% 的漏洞。定价为每百万 token 输入 2 美元、输出 10 美元，缓存输入享 95% 折扣，显著降低长时运行智能体的成本。同时，Google 在智能体开发平台 Antigravity 上预览 swarm 蜂群功能，强化长周期智能体协作能力。
 
-此次开源将具身智能的感知能力从视觉延伸至触觉，填补了通用触觉基础模型的空白，有望降低触觉感知的研发门槛，推动灵巧操作、人形机器人等场景的快速迭代，对具身智能生态的开放协同具有标志性意义。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;量子位官网, InfoQ 中文, IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
-<item><title>迪士尼联手 Adobe 打造品牌安全定制 AI 模型</title><link>https://todayforai.com/en/story/story-c756d33b-d8c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c756d33b-d8c</guid>
-<pubDate>Tue, 10 Nov 2026 11:26:36 +0800</pubDate>
-<description>&lt;p&gt;迪士尼与 Adobe 宣布达成多年战略合作，Adobe 正式成为迪士尼的官方 AI 创新合作伙伴。迪士尼将获得 Adobe Firefly、Firefly Foundry、Premiere 和 Photoshop 等技术的早期访问权，并基于自身角色、场景与视觉风格数据训练定制生成式 AI 模型，产出可商用、可直接投产的内容。
-
-合作覆盖影视制作、主题乐园、邮轮及 ESPN 内容管线。Firefly Foundry 将帮助艺术家主导开发，迪士尼幻想工程部门已使用该技术将手绘草图转为 2D 概念图，StudioLAB 与 ESPN Edge 也在探索创意工作流与体育内容创新。Adobe 还将派驻工程与研究团队，确保模型符合品牌安全与商用标准。
-
-此次联盟正值迪士尼推进裁员与 20% 年度降本目标之际，凸显其借助 AI 提升生产效率的迫切需求。对 Adobe 而言，与迪士尼的深度绑定为其 Firefly 生态提供了顶级娱乐巨头背书，有望加速生成式 AI 在影视工业化流程中的落地，并推动行业建立品牌安全与版权合规的新标准。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;The Decoder, The Verge AI, IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
-<item><title>谷歌扩充 TPU 阵容推出 8tx 与 8i Max 两款新品</title><link>https://todayforai.com/en/story/story-8e585f9c-a84</link><guid isPermaLink="true">https://todayforai.com/en/story/story-8e585f9c-a84</guid>
-<pubDate>Tue, 10 Nov 2026 01:13:17 +0800</pubDate>
-<description>&lt;p&gt;谷歌宣布扩充其自研 TPU 产品阵容，新增面向机密计算的 TPU 8tx 与面向超长上下文场景的 TPU 8i Max，使第八代 TPU 产品线扩展至四款。两款新品并非全新设计，而是在现有芯片基础上重新配置，标志着谷歌正加速芯片迭代节奏，从两年一款加快至一年多款，以在英伟达供应紧张之际抢占 AI 芯片市场。
-
-TPU 8tx 主打机密计算，可在处理过程中对数据与权重保持加密，并与第五代 AMD EPYC 主机协同工作，延迟最高降低 2 倍。TPU 8i Max 则通过单封装双芯片设计，在同一机架内实现算力、SRAM 与 HBM 带宽翻倍，折算带宽约 17.2 TB/s，虽低于 NVIDIA Rubin 的 22 TB/s，但针对超长上下文窗口优化，服务药物研发、数学与编程等应用。谷歌同时推出 TorchTPU 等软件工具，降低开发者迁移门槛，加速向外部客户销售推理硬件。
-
-尽管官方未公布绝对规格、价格与基准测试，实际性能仍待验证，但谷歌通过丰富产品矩阵与拓展供应链伙伴，正逐步构建从训练到推理、从通用到机密的完整 AI 芯片生态，对英伟达的市场主导地位构成更直接挑战。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;The Decoder, Marktechpost (@Marktechpost), IT之家 · IT业界&lt;/p&gt;</description>
+Carbon 的零作弊率与零提示注入成功率，为无人值守智能体提供了关键的安全基础，而蜂群功能则指向多智能体协同完成长周期任务的未来。Google 通过 Carbon 与 Argon 的组合，既覆盖极限智能任务，又兼顾多数软件工程与知识工作场景，有望加速智能体从实验走向生产部署，并进一步激化与 Anthropic、OpenAI 的竞争。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Verge AI, GREG ISENBERG (@gregisenberg)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
