@@ -40,6 +40,14 @@
 <category>IBM</category>
 <category>企业软件</category>
 </item>
+<item><title>Ultorg Launches Spreadsheet-Style UI for Relational Databases</title><link>https://www.ultorg.com/</link><guid isPermaLink="true">https://www.ultorg.com/</guid>
+<pubDate>Tue, 10 Nov 2026 11:59:39 +0800</pubDate>
+<description>&lt;p&gt;Ultorg released a spreadsheet-like UI for relational databases that lets users query and edit data across tables and relationships without SQL or custom CRUD apps. It supports PostgreSQL, Microsoft SQL Server and BigQuery, with macOS, Windows and Linux clients plus a 14-day free trial.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Ultorg 推出关系型数据库电子表格式界面&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为关系型数据库提供免 SQL 的电子表格交互层，降低数据查询与编辑门槛，对开发者与数据团队有实际工具价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ultorg.com/">Hacker News AI</source>
+<category>开发者工具</category>
+<category>数据库</category>
+<category>SQL</category>
+</item>
 <item><title>Zhengyuan Quantum Raises Angel Round to Build Thousand-Qubit Superconducting Quantum Computer</title><link>https://www.ithome.com/1/024/740.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/740.htm</guid>
 <pubDate>Tue, 10 Nov 2026 11:51:01 +0800</pubDate>
 <description>&lt;p&gt;Zhengyuan Quantum has closed an angel funding round from investors including Shenzhen Capital Group and Pudong Venture Capital to develop a thousand-qubit superconducting quantum computer. Founded in February 2026, the startup focuses on chip connectivity and control, pursuing TSV 3D packaging, cryogenic interconnects, and integrated measurement and control, and has already received orders for parametric amplifiers and other components.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;正元量子完成天使轮融资 推进千比特超导量子计算机研发&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国内超导量子计算初创公司获天使轮融资，聚焦千比特整机与三维封装等工程化难题，对关注量子计算产业化的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 62/100&lt;/p&gt;</description>
@@ -183,9 +191,9 @@
 <category>超算</category>
 <category>能源</category>
 </item>
-<item><title>AI Agents Formalize CPython in Lean and Surface 418 Bug Reports</title><link>https://broyojo.com/python-formalization/</link><guid isPermaLink="true">https://broyojo.com/python-formalization/</guid>
+<item><title>AI 智能体用 Lean 形式化 CPython 并发现 418 个缺陷</title><link>https://broyojo.com/python-formalization/</link><guid isPermaLink="true">https://broyojo.com/python-formalization/</guid>
 <pubDate>Tue, 10 Nov 2026 09:56:48 +0800</pubDate>
-<description>&lt;p&gt;A research team used Opus 5.5 agents to translate CPython 3.15.2 internals line by line into 613,318 lines of Lean, tested each piece against real Python, machine-checked every proof, and surfaced 418 bug reports in CPython along the way. The result is a machine-verifiable formal model of CPython that offers a new engineering paradigm for interpreter semantic correctness.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 智能体用 Lean 形式化 CPython 并发现 418 个缺陷&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次以智能体规模化形式化真实解释器并反哺上游缺陷，兼具方法创新与工程实证价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;研究团队用 Opus 5.5 智能体将 CPython 3.15.2 的内部实现逐行翻译为 61.3 万行 Lean 代码，并对照真实 Python 逐项测试、由机器校验全部证明，过程中向 CPython 提交了 418 条缺陷报告。该工作首次给出可机器验证的 CPython 形式化模型，为解释器语义正确性提供了新的工程范式。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次以智能体规模化形式化真实解释器并反哺上游缺陷，兼具方法创新与工程实证价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://broyojo.com/python-formalization/">Hacker News AI</source>
 <category>形式化验证</category>
 <category>Lean</category>
@@ -266,15 +274,6 @@
 <category>推理服务</category>
 <category>Fireworks</category>
 <category>数据泄露</category>
-</item>
-<item><title>AWS Quick 用技能与智能体封装重复任务</title><link>https://aws.amazon.com/blogs/machine-learning/how-skills-and-agents-work-in-aws-quick/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/how-skills-and-agents-work-in-aws-quick/</guid>
-<pubDate>Tue, 10 Nov 2026 08:21:34 +0800</pubDate>
-<description>&lt;p&gt;AWS 官方博客详解 Quick 中智能体、技能与数据源的协作方式：智能体负责理解自然语言请求并调度连接器，技能则把周报、发布说明、建单等重复任务固化为可复用、可团队共享的指令单元。文章同时介绍官方技能目录与自定义智能体的组合用法，属于厂商绑定的概念与操作说明，未披露新模型或量化指标。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;有助于理解 AWS 智能体产品的技能抽象与复用机制，但为厂商绑定的概念说明，技术增量有限。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 38/100&lt;/p&gt;</description>
-<source url="https://aws.amazon.com/blogs/machine-learning/how-skills-and-agents-work-in-aws-quick/">AWS Machine Learning Blog</source>
-<category>AWS Quick</category>
-<category>智能体</category>
-<category>技能复用</category>
-<category>开发者工具</category>
 </item>
 </channel>
 </rss>
