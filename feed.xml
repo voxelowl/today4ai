@@ -1,8 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Wed, 11 Nov 2026 03:24:49 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 11 Nov 2026 04:02:09 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Duke and Princeton Study Finds Small Parallel Agent Teams Outperform Large Ones</title><link>https://x.com/rohanpaul_ai/status/2120245649790885952</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120245649790885952</guid>
+<pubDate>Wed, 11 Nov 2026 04:02:09 +0800</pubDate>
+<description>&lt;p&gt;A new Duke and Princeton paper finds that, at equal compute, splitting agents into multiple small parallel teams and keeping the best team&amp;#x27;s result beats both solo-agent best-of-N and one giant team. With a budget of 100 agents, 10 teams of 10 agents running in parallel and selecting the best team outperformed 100 solo agents and a single 100-agent team. The authors recommend splitting budgets into small note-sharing teams and keeping the best answer when a verifier can score results.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;杜克与普林斯顿发现小团队并行智能体更优&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究为多智能体系统的组织架构与算力分配提供了可操作的实证结论，对智能体工程实践有直接指导价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2120245649790885952">Rohan Paul (@rohanpaul_ai)</source>
+<category>多智能体</category>
+<category>智能体协作</category>
+<category>学术研究</category>
+<category>算力分配</category>
+</item>
+<item><title>All Seven Anthropic Co-Founders to Cash Out About $250M Each in IPO</title><link>https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/</guid>
+<pubDate>Wed, 11 Nov 2026 03:57:52 +0800</pubDate>
+<description>&lt;p&gt;Anthropic&amp;#x27;s S-1 filing reveals that each of its seven co-founders will sell 3,378,378 shares, netting roughly $250 million apiece at the midpoint of the $70-$78 IPO range. The offering implies a valuation of up to $1.4 trillion, with board member Reed Hastings signaling intent to buy $300 million in shares.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 七位联创 IPO 各套现约 2.5 亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;1.4 万亿美元估值与创始人集体套现的细节，是观察头部 AI 公司资本化路径的关键样本。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 78/100&lt;/p&gt;</description>
+<source url="https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/">TechCrunch AI</source>
+<category>Anthropic</category>
+<category>IPO</category>
+<category>融资估值</category>
+<category>AI 公司</category>
+</item>
+<item><title>ByteAsk Open-Sources C/C++ Coding Agent Cutting Fix Costs by 68%</title><link>https://x.com/rohanpaul_ai/status/2120242771714039841</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120242771714039841</guid>
+<pubDate>Wed, 11 Nov 2026 03:50:43 +0800</pubDate>
+<description>&lt;p&gt;ByteAsk launched an open-source C/C++ coding agent whose upfront context engine locates the fix site before the model reads code, cutting tokens per run from 1,795K to 395K (about 78%) and cost by 68.1% while fixing the same number of bugs. It also flags sibling sites needing the same edit and validates patches only against covering tests, saving roughly 80% on obscure projects and hard issues.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;ByteAsk 开源 C/C++ 智能体 降低 68% 修复成本&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以真实 token 与成本数据展示智能体上下文工程对编码成本的实质压缩，且开源可复现。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · tools · signal 62/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2120242771714039841">Rohan Paul (@rohanpaul_ai)</source>
+<category>编码智能体</category>
+<category>C/C++</category>
+<category>开源</category>
+<category>上下文工程</category>
+</item>
+<item><title>Anthropic Adds Sheets, Whiteboards and Plugin Ecosystem to Claude</title><link>https://the-decoder.com/anthropic-turns-claude-into-a-full-workspace-with-plugins-spreadsheets-whiteboards-and-soon-meeting-notes/</link><guid isPermaLink="true">https://the-decoder.com/anthropic-turns-claude-into-a-full-workspace-with-plugins-spreadsheets-whiteboards-and-soon-meeting-notes/</guid>
+<pubDate>Wed, 11 Nov 2026 03:48:40 +0800</pubDate>
+<description>&lt;p&gt;Anthropic is expanding Claude from a chat assistant into a collaborative workspace, adding Claude Sheets for AI-assisted spreadsheets, Claude Whiteboards for brainstorming, and Claude Data for dashboards connected to Snowflake and Salesforce. It also launched Interactive Connectors that let partners like Adobe, Atlassian and Salesforce embed apps inside Claude, with Claude Meetings coming soon and enterprise-grade audit logs, isolated VMs and a compliance API.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 为 Claude 加入表格白板与插件生态&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Claude 从对话工具转向平台化工作空间，插件生态与第三方应用嵌入是产品形态的关键跃迁。&lt;/p&gt;&lt;p&gt;The Decoder · tools · signal 78/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/anthropic-turns-claude-into-a-full-workspace-with-plugins-spreadsheets-whiteboards-and-soon-meeting-notes/">The Decoder</source>
+<category>Anthropic</category>
+<category>Claude</category>
+<category>协作工具</category>
+<category>插件生态</category>
+</item>
+<item><title>Hedra Launches Model Factory to Open RSI Loops to Industry</title><link>https://x.com/rohanpaul_ai/status/2120240446798750204</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120240446798750204</guid>
+<pubDate>Wed, 11 Nov 2026 03:41:29 +0800</pubDate>
+<description>&lt;p&gt;Hedra Labs unveiled Model Factory, an autonomous inference and training platform for real-world models. Customers supply machine sensor data and a simulator, while Hedra provides GPUs, AI agents that run training experiments, and researchers to steer them, delivering a model tuned to their own hardware with a post-deployment loop of data collection and online evals. The offering opens the recursive self-improvement loop previously confined to frontier labs to robotics, manufacturing, biology and defense teams.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Hedra 推出模型工厂 把 RSI 循环开放给实体产业&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把前沿实验室的递归自我改进训练循环产品化并开放给实体产业，是 AI 落地模式的一次结构性尝试。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 62/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2120240446798750204">Rohan Paul (@rohanpaul_ai)</source>
+<category>模型工厂</category>
+<category>递归自我改进</category>
+<category>机器人</category>
+<category>产业落地</category>
+</item>
+<item><title>Reasoning as Pathfinding Through Token Space</title><link>https://alexwang.ai/posts/reasoning-as-pathfinding/</link><guid isPermaLink="true">https://alexwang.ai/posts/reasoning-as-pathfinding/</guid>
+<pubDate>Wed, 11 Nov 2026 03:25:14 +0800</pubDate>
+<description>&lt;p&gt;Alex Wang frames reasoning as pathfinding in token space, where each sample is an attempt to find a path from the starting context to a correct answer. This lens explains a puzzle: RL-trained models write longer chains and get more accurate, yet forcing a single chain to run longer at inference helps only briefly before plateauing or degrading. The framework separates the contributions of chain length versus search breadth.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;推理的本质是在词元空间中寻找路径&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;对推理机制给出可操作的概念框架，直接回应“更长思维链为何不总是更好”这一核心疑问。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 62/100&lt;/p&gt;</description>
+<source url="https://alexwang.ai/posts/reasoning-as-pathfinding/">Hacker News AI</source>
+<category>推理机制</category>
+<category>思维链</category>
+<category>强化学习</category>
+<category>研究论文</category>
+</item>
 <item><title>Anthropic Launches Workplace Suite, Sending Microsoft Shares Down 3.5%</title><link>https://x.com/rohanpaul_ai/status/2120236253014790542</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120236253014790542</guid>
 <pubDate>Wed, 11 Nov 2026 03:24:49 +0800</pubDate>
 <description>&lt;p&gt;Anthropic unveiled native workplace software including Claude Sheets and Claude Data, letting users generate collaborative spreadsheets and self-updating dashboards from plain-language prompts, with Adobe, Atlassian and Box embedded directly in chat. The move shifts Claude from an add-in to a standalone productivity platform competing with Microsoft 365 and Google Workspace, and Microsoft shares fell more than 3.5% after the announcement.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 推出办公套件 微软股价应声下跌 3.5%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 厂商首次以原生办公套件正面挑战 Office 生态，并引发资本市场即时反应，是产业格局变化的重要信号。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 78/100&lt;/p&gt;</description>
@@ -47,6 +101,15 @@
 <category>Anthropic</category>
 <category>AI 安全</category>
 <category>融资</category>
+</item>
+<item><title>Mozilla Measures Browser Fingerprintability Across 25 Million Firefox Users</title><link>https://fingerprinting.study/</link><guid isPermaLink="true">https://fingerprinting.study/</guid>
+<pubDate>Wed, 11 Nov 2026 03:03:54 +0800</pubDate>
+<description>&lt;p&gt;Mozilla, with the University of Toronto and UC San Diego, ran a large-scale browser fingerprinting study across nearly 25 million Firefox release users to quantify real-world identifiability and isolate which characteristics make users unique. The findings directly shaped the fingerprinting protections shipped in Firefox 143, and the team released the paper, full appendix data, privacy-preserving aggregate datasets, analysis code, and an interactive self-test tool.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Mozilla 用 2500 万用户实测浏览器指纹可识别性&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是迄今规模最大的真实用户指纹可识别性实测之一，且成果已落地为浏览器隐私防护并开放数据与代码，对隐私工程与浏览器生态具有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 74/100&lt;/p&gt;</description>
+<source url="https://fingerprinting.study/">Hacker News AI</source>
+<category>浏览器指纹</category>
+<category>隐私保护</category>
+<category>Mozilla</category>
+<category>开源数据</category>
 </item>
 <item><title>PSI Uses AI to Crack 18-Year-Old Quantum Computing Conjecture</title><link>https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/</guid>
 <pubDate>Wed, 11 Nov 2026 03:03:52 +0800</pubDate>
@@ -164,111 +227,49 @@
 <category>电商</category>
 <category>ChatGPT</category>
 </item>
-<item><title>Anthropic Launches Claude Whiteboards and Sheets for Team Collaboration</title><link>https://claude.com/resources/articles/sheets-whiteboards-data</link><guid isPermaLink="true">https://claude.com/resources/articles/sheets-whiteboards-data</guid>
+<item><title>Anthropic 推出 Claude 白板与表格协作工具</title><link>https://claude.com/resources/articles/sheets-whiteboards-data</link><guid isPermaLink="true">https://claude.com/resources/articles/sheets-whiteboards-data</guid>
 <pubDate>Wed, 11 Nov 2026 01:55:07 +0800</pubDate>
-<description>&lt;p&gt;Anthropic is expanding Claude from a chat assistant into a team collaboration workspace with beta launches of Claude Whiteboards and Claude Sheets, plus the general availability of Claude Dashboards as Claude Data. The new features keep documents, boards, sheets, and dashboards inside Claude for live co-editing, with export to partner tools, available on all paid plans.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 推出 Claude 白板与表格协作工具&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Claude 从对话工具向协作工作台延伸的重要产品线扩张，直接影响团队工作流选择。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 68/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 将 Claude 从对话助手扩展为团队协作工作台，推出测试版 Claude Whiteboards 与 Claude Sheets，并将 Claude Dashboards 正式升级为 Claude Data。新功能让文档、看板、表格与仪表盘留在 Claude 内实时协作编辑，并支持导出至合作方工具，所有付费计划均可使用。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Claude 从对话工具向协作工作台延伸的重要产品线扩张，直接影响团队工作流选择。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 68/100&lt;/p&gt;</description>
 <source url="https://claude.com/resources/articles/sheets-whiteboards-data">Hacker News AI</source>
 <category>Claude</category>
 <category>Anthropic</category>
 <category>协作工具</category>
 <category>产品发布</category>
 </item>
-<item><title>An Open Field Guide to Inference Engineering for Platform Engineers</title><link>https://docs.modelplane.ai/guides/inference-guide</link><guid isPermaLink="true">https://docs.modelplane.ai/guides/inference-guide</guid>
+<item><title>面向平台工程师的推理工程实战指南</title><link>https://docs.modelplane.ai/guides/inference-guide</link><guid isPermaLink="true">https://docs.modelplane.ai/guides/inference-guide</guid>
 <pubDate>Wed, 11 Nov 2026 01:55:07 +0800</pubDate>
-<description>&lt;p&gt;This is an introductory field guide to inference engineering aimed at platform engineers, covering how models and GPUs work together, how to run inference in production, and which tools to use. Positioned as a community knowledge roundup and learning-path guide, it consolidates prior work from practitioners and serves as a starting point for moving into an inference engineering role.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;面向平台工程师的推理工程实战指南&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为转型推理工程的平台工程师提供系统化的概念梳理与工具选型入口，具备实用学习价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;这是一份面向平台工程师的推理工程入门指南，系统梳理了模型与 GPU 协同工作原理、生产环境推理部署方法以及相关工具选型。文章定位为社区知识汇总与学习路径指引，整合了多位从业者的既有成果，适合作为转型推理工程角色的起点材料。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为转型推理工程的平台工程师提供系统化的概念梳理与工具选型入口，具备实用学习价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 42/100&lt;/p&gt;</description>
 <source url="https://docs.modelplane.ai/guides/inference-guide">Hacker News AI</source>
 <category>推理工程</category>
 <category>平台工程</category>
 <category>开发者指南</category>
 </item>
-<item><title>Anthropic Adds Whiteboards and Sheets to Claude for All Paid Plans</title><link>https://x.com/dotey/status/2120213189464105192</link><guid isPermaLink="true">https://x.com/dotey/status/2120213189464105192</guid>
+<item><title>Claude 新增白板与表格协作功能，全付费套餐可用</title><link>https://x.com/dotey/status/2120213189464105192</link><guid isPermaLink="true">https://x.com/dotey/status/2120213189464105192</guid>
 <pubDate>Wed, 11 Nov 2026 01:53:10 +0800</pubDate>
-<description>&lt;p&gt;Anthropic added two collaborative content formats to Claude on November 10: Claude Whiteboards and Claude Sheets, both available to all paid plans including the cheapest Pro tier in beta. The Dashboards feature launched in October also exited beta and was renamed Claude Data, requiring users to connect a data source such as a warehouse or Salesforce first.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Claude 新增白板与表格协作功能，全付费套餐可用&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Claude 将协作白板与表格纳入 Artifacts 体系并下放至全部付费套餐，是 AI 办公协作产品形态的一次实质扩展。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · tools · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 于 11 月 10 日为 Claude 新增白板 Claude Whiteboards 与表格 Claude Sheets 两种可多人实时协作的内容格式，所有付费套餐（含最便宜的 Pro）均可使用，目前为测试版。同时 10 月上线的仪表盘结束测试并改名 Claude Data 正式上线，需先连接数据仓库或 Salesforce 等数据源。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Claude 将协作白板与表格纳入 Artifacts 体系并下放至全部付费套餐，是 AI 办公协作产品形态的一次实质扩展。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · tools · signal 62/100&lt;/p&gt;</description>
 <source url="https://x.com/dotey/status/2120213189464105192">宝玉 (@dotey)</source>
 <category>Claude</category>
 <category>Anthropic</category>
 <category>AI 协作</category>
 <category>办公工具</category>
 </item>
-<item><title>Otto One Launches a Dedicated Home Computer for AI Agents</title><link>https://x.com/rohanpaul_ai/status/2120212419511455979</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120212419511455979</guid>
+<item><title>Otto One 发布 为智能体打造本地专属主机</title><link>https://x.com/rohanpaul_ai/status/2120212419511455979</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120212419511455979</guid>
 <pubDate>Wed, 11 Nov 2026 01:50:07 +0800</pubDate>
-<description>&lt;p&gt;Otto One is a small home computer built to host AI agents that run continuously on-device, handling email triage, account chasing and admin tasks on a schedule without data leaving the box. Its key innovation is routing: simple jobs go to a local model, with paid cloud models like Claude or GPT-4o invoked only when needed, cutting per-request costs. Agents ship pre-configured, 2,000+ apps connect with one tap, and users approve actions remotely from a phone.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Otto One 发布 为智能体打造本地专属主机&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出智能体本地常驻硬件加本地/云端混合路由的落地形态，切中隐私与调用成本两大痛点。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Otto One 是一款面向 AI 智能体的家用小型主机，让智能体在本地常驻运行，按计划处理邮件、追账与行政事务，数据不出设备。其核心创新在于路由机制：简单任务由本地模型执行，仅在必要时调用 Claude、GPT-4o 等付费云模型，从而降低调用成本。产品预装智能体、支持 2000+ 应用一键接入，并可通过手机远程审批。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出智能体本地常驻硬件加本地/云端混合路由的落地形态，切中隐私与调用成本两大痛点。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 58/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2120212419511455979">Rohan Paul (@rohanpaul_ai)</source>
 <category>智能体</category>
 <category>边缘计算</category>
 <category>隐私计算</category>
 <category>硬件</category>
 </item>
-<item><title>Berkeley Study Finds Model Routing Cuts Costs Up to 25x</title><link>https://x.com/rohanpaul_ai/status/2120209275515736120</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120209275515736120</guid>
+<item><title>伯克利研究揭示模型路由降本 25 倍</title><link>https://x.com/rohanpaul_ai/status/2120209275515736120</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120209275515736120</guid>
 <pubDate>Wed, 11 Nov 2026 01:37:37 +0800</pubDate>
-<description>&lt;p&gt;UC Berkeley and partner labs released a large-scale model routing study spanning 452 candidate models and policies across 25 benchmarks, totaling 374,401 scored runs. Routers deliver their value mainly by shifting work to cheaper models, averaging 8.82x more quality per unit cost with under 0.5 points lost; on coding tasks routing reached 25.5x the cost efficiency of always calling Opus 4.6 at a 0.44-point loss. Yet learned routers gained only 0.3 points over the best single model, far below the 5.4-point theoretical ceiling.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;伯克利研究揭示模型路由降本 25 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个跨文本问答到机器人控制的统一路由评测，给出可复用的成本效率量化结论。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;加州大学伯克利分校等机构发布大规模模型路由研究，在 25 个基准、452 个候选模型与策略上跑了 374,401 次评分实验。结论是路由器的核心价值在于把任务导向更便宜的模型，平均每单位成本的质量提升达 8.82 倍，质量损失不到 0.5 分；编程任务中路由达到始终调用 Opus 4.6 的 25.5 倍成本效率，仅损失 0.44 分。但学习型路由器相对最佳单模型的真实增益仅 0.3 分，远低于理论上限 5.4 分。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个跨文本问答到机器人控制的统一路由评测，给出可复用的成本效率量化结论。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2120209275515736120">Rohan Paul (@rohanpaul_ai)</source>
 <category>模型路由</category>
 <category>成本优化</category>
 <category>基准评测</category>
 <category>伯克利</category>
-</item>
-<item><title>BaoCut Unveils Layered Puppet-Style Virtual Anchor Pipeline</title><link>https://x.com/dotey/status/2120208679005810803</link><guid isPermaLink="true">https://x.com/dotey/status/2120208679005810803</guid>
-<pubDate>Wed, 11 Nov 2026 01:35:15 +0800</pubDate>
-<description>&lt;p&gt;BaoCut released a virtual anchor pipeline that generates a front-facing portrait with AI, splits it into 27 layers via pixel-level comparison, and drives head turns with mesh deformation plus 17 spring-like hair parameters. Lip sync is matched per-character pronunciation rather than volume, firing 0.03 seconds ahead of audio. The skeleton and deformation logic are ported from the Apache-2.0 LivLiv Player, avatars come from Seedream 5.5, and a skill install lets agents like Claude Code and Codex handle scripting, dubbing and review end to end.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;BaoCut 开源虚拟主播方案 拆解 27 层皮影动画&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;给出了一套可复用的分层驱动虚拟主播工程路径，并展示了 Agent skill 化落地的具体形态。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/dotey/status/2120208679005810803">宝玉 (@dotey)</source>
-<category>虚拟主播</category>
-<category>Agent 工具</category>
-<category>开源</category>
-<category>Seedream</category>
-</item>
-<item><title>67 Companies Now Compete to Embed AI Inside Enterprises</title><link>https://x.com/rohanpaul_ai/status/2120208287065088345</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120208287065088345</guid>
-<pubDate>Wed, 11 Nov 2026 01:33:41 +0800</pubDate>
-<description>&lt;p&gt;Codos co-founder Dima Khanarin published a landscape of 67 companies competing for the same job: making AI run inside other firms&amp;#x27; real operations, spanning OpenAI, Anthropic, Microsoft, AWS, McKinsey, BCG and numerous startups. The thread frames Palantir&amp;#x27;s embedded-engineer model as the benchmark, arguing corporate AI competition is shifting from model capability to on-site delivery.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;67 家公司竞逐企业 AI 落地改造&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;一张覆盖 67 家厂商的企业 AI 落地竞争地图，为判断该赛道格局提供了可参考的行业切片。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 42/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2120208287065088345">Rohan Paul (@rohanpaul_ai)</source>
-<category>企业AI</category>
-<category>AI转型</category>
-<category>Palantir</category>
-<category>行业格局</category>
-</item>
-<item><title>云开发平台 Val Town 宣布关停并将开源</title><link>https://blog.val.town/winding-down</link><guid isPermaLink="true">https://blog.val.town/winding-down</guid>
-<pubDate>Wed, 11 Nov 2026 01:31:14 +0800</pubDate>
-<description>&lt;p&gt;云开发与托管平台 Val Town 宣布因无法在云计算市场立足而停止运营，即日起暂停计费并免费服务存量订阅用户，年付用户将获部分退款。服务将于 2027 年 1 月 10 日全面终止，代码计划于 2027 年 2 月 1 日开源，官方同时提供迁移至 Cloudflare、Vercel、Netlify 与 Render 的指南。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;一家开发者平台因算力竞争失利而关停并承诺开源，是观察云基础设施与 AI 辅助迁移趋势的行业信号。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://blog.val.town/winding-down">Hacker News AI</source>
-<category>云开发</category>
-<category>平台关停</category>
-<category>开源</category>
-<category>基础设施</category>
-</item>
-<item><title>Anthropic 推出 Claude 办公套件 进军非技术知识工作者市场</title><link>https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now</guid>
-<pubDate>Wed, 11 Nov 2026 01:30:00 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 在旧金山发布 Claude Meetings、Claude Sheets 和 Claude Whiteboards 三款办公工具，面向会议记录、头脑风暴和数据分析等非技术场景，并升级 Artifacts 图形界面。此举标志 Anthropic 从企业与编程工具向通用知识工作市场扩张。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Anthropic 首次将产品线延伸至通用办公场景，是其从编程工具向全知识工作者市场扩张的重要信号。&lt;/p&gt;&lt;p&gt;The Verge AI · tools · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.theverge.com/ai-artificial-intelligence/1030709/anthropic-has-its-own-ai-powered-office-suite-now">The Verge AI</source>
-<category>Anthropic</category>
-<category>办公工具</category>
-<category>Claude</category>
-<category>产品发布</category>
-</item>
-<item><title>Anthropic 推出 Claude Meetings 实时生成会议计划</title><link>https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/</guid>
-<pubDate>Wed, 11 Nov 2026 01:30:00 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 发布 Claude Meetings、Claude Whiteboards 和 Claude Sheets 三款办公协作功能，其中 Claude 可作为可见参会者加入视频会议，在讨论进行中实时起草计划与任务。此举紧随 OpenAI 推出 ChatGPT 办公套件与 Meta 的 Muse 智能体，标志着三大厂商围绕 AI 办公套件展开正面竞争。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Anthropic 正式进军 AI 办公套件赛道，会议实时任务生成是智能体落地办公场景的关键一步。&lt;/p&gt;&lt;p&gt;TechCrunch AI · tools · signal 72/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/">TechCrunch AI</source>
-<category>Anthropic</category>
-<category>AI 办公套件</category>
-<category>智能体</category>
-<category>视频会议</category>
-</item>
-<item><title>Gemini Carbon 双 Agent 协作生成可玩 3D 游戏</title><link>https://x.com/dotey/status/2120205106608210251</link><guid isPermaLink="true">https://x.com/dotey/status/2120205106608210251</guid>
-<pubDate>Wed, 11 Nov 2026 01:21:03 +0800</pubDate>
-<description>&lt;p&gt;Gemini Carbon 展示了一个双 Agent 协作演示：构建 Agent 在 Blender 与 Three.js 中生成建模，审查 Agent 检查渲染结果并迭代，最终产出一款可玩的 3D 游戏，鹈鹕骑自行车穿行 Google 山景城园区。该案例直观呈现了多 Agent 自审闭环在 3D 内容生成中的可行性。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以可玩 3D 游戏为例展示构建与审查双 Agent 闭环，对关注 Agent 工程化的读者有参考价值。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · agent · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/dotey/status/2120205106608210251">宝玉 (@dotey)</source>
-<category>智能体</category>
-<category>Gemini</category>
-<category>3D 生成</category>
-</item>
-<item><title>Google 向全体付费开发者开放 Gemini 4 Carbon</title><link>https://x.com/rohanpaul_ai/status/2120204781491040287</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120204781491040287</guid>
-<pubDate>Wed, 11 Nov 2026 01:19:46 +0800</pubDate>
-<description>&lt;p&gt;Google 将其最强模型 Gemini 4 Carbon 从仅限 Fairwind 计划网络安全防御者的两周内测，扩展至所有付费开发者和 Google AI Ultra 订阅用户。Carbon 沿用 Gemini 4 Argon 的 $2/$10 每百万 token 输入输出定价，但会消耗更多 token 用于推理与验证，并在 CursorBench 4.0、WANDR 与 AutomationBench 上排名第一，单任务成本不到次优外部模型的一半。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Google 最强模型从受限内测转为全面开放，且以半价成本在多个基准登顶，直接影响开发者的模型选型。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2120204781491040287">Rohan Paul (@rohanpaul_ai)</source>
-<category>大模型</category>
-<category>Google</category>
-<category>Gemini</category>
-<category>模型定价</category>
 </item>
 </channel>
 </rss>
