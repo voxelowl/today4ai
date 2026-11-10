@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Tue, 10 Nov 2026 15:37:05 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 10 Nov 2026 17:02:52 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 发布双版本 Claude 5.2 模型 编码推理能力大幅跃升</title><link>https://todayforai.com/en/story/story-dc8382a0-0bf</link><guid isPermaLink="true">https://todayforai.com/en/story/story-dc8382a0-0bf</guid>
 <pubDate>Tue, 10 Nov 2026 14:34:44 +0800</pubDate>
@@ -27,13 +27,13 @@ Muse Ember 的发布标…&lt;/p&gt;&lt;p&gt;11 sources&lt;/p&gt;&lt;p&gt;The De
 
 这场 IPO 被视为对 AI 产业估值逻辑的关键检验。OpenAI 同步将募资目标从 300 亿美元下调至约 200 亿美元，Nscale 等非头部厂商估值也被压至 160 亿至 190 亿美元，显示一级市场全面降温。Anthropic 能否守住对 OpenAI 的估值优势，将直接影响最终定价，并为后续 AI 公司上市确立参照系。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, Hacker News AI, IT之家 · IT业界, Latent Space, 宝玉 (@dotey), Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
-<item><title>字节发布 Seedream 5.5 支持直出透明背景</title><link>https://todayforai.com/en/story/story-3fb949dd-9e2</link><guid isPermaLink="true">https://todayforai.com/en/story/story-3fb949dd-9e2</guid>
-<pubDate>Tue, 10 Nov 2026 10:48:22 +0800</pubDate>
-<description>&lt;p&gt;字节跳动 Seed 团队正式发布图像编辑模型 Seedream 5.5，核心突破在于原生支持输出带 Alpha 通道的透明背景图像，并实现非编辑区域像素级不变，官方演示同一人物连续修改 100 轮后细节仍可精准对齐，显著缓解多轮编辑中的图像漂移问题。
+<item><title>字节发布 Seedream 5.5 支持百轮编辑与透明直出</title><link>https://todayforai.com/en/story/story-3fb949dd-9e2</link><guid isPermaLink="true">https://todayforai.com/en/story/story-3fb949dd-9e2</guid>
+<pubDate>Tue, 10 Nov 2026 17:02:52 +0800</pubDate>
+<description>&lt;p&gt;字节跳动 Seed 团队正式发布新一代图像创作模型 Seedream 5.5，核心突破在于支持最多 100 轮连续编辑且非编辑区域像素级不变，同时原生输出带 Alpha 通道的透明背景图像，省去后期抠图环节。该模型已通过即梦、豆包、豆包工作及火山方舟逐步开放，2K 方图编辑单张成本约 0.28 元，不到上一代 Pro 版本的一半。
 
-技术细节上，该模型对轮廓边缘与透明区域进行精细处理，羽毛等难抠边缘也能保留，生成元素可直接作为独立素材进入设计流程，省去后期抠图修边环节。同时，严重文字错误率从上一代的 2.8% 降至 0.4%，2K 方图编辑单张成本约 0.28 元，不到 Seedream 5.0 Pro 的一半。官方称其在密集小文字还原与光影材质真实感上优于 GPT Image 2.5 Sunburst。模型已在即梦、豆包、豆包工作陆续上线，开发者可通过火山方舟以 Doubao-Seedream-5.5 调用，Pro 版本在规划中。
+综合多源信息，Seedream 5.5 在技术细节上表现突出：官方演示同一人物连改 100 轮细节仍可对齐，而竞品 GPT-Image 2.6 约第 10 轮即出现明显畸变；严重文字错误率从 2.8% 降至 0.4%，复杂字形与密集小字渲染准确度显著提升；透明背景生成对羽毛等难抠边缘保留精细，生成元素可直接作为独立素材进入设计流程。此外，模型在光照、材质与皮肤纹理真实感上更贴近实拍，官方称其表现优于 GPT Image 2.5 Sunburst。
 
-行业影响方面，Seedream 5.5 将透明背景直出与百轮稳定编辑结合，大幅提升设计工作流的自动化程度，降低专业图像编辑的门槛与成本，有望推动 AI 图像生成从创意辅助工具向生产级设计基础设施演进，对广告、电商、UI 设计等领域产生实质影响。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), IT之家 · 智能时代, The Decoder, 量子位官网&lt;/p&gt;</description>
+此次发布标志着图像生成模型从单次生成向专业生产工作流迈进，百轮编辑稳定性与透明直出能力直击设计行业痛点，有望大幅降低后期修图成本。API 价格下调与生成速度提升进一步降低了开发者门槛，加剧了与 OpenAI 等厂商在图像编辑赛道的竞争。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), 量子位官网, The Decoder, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 <item><title>迪士尼联手 Adobe 打造品牌安全定制 AI 模型</title><link>https://todayforai.com/en/story/story-c756d33b-d8c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c756d33b-d8c</guid>
 <pubDate>Tue, 10 Nov 2026 11:26:36 +0800</pubDate>
