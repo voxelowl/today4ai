@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Tue, 10 Nov 2026 10:50:58 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 10 Nov 2026 11:26:36 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 发布双版本 Claude 5.2 模型 编码推理能力大幅跃升</title><link>https://todayforai.com/en/story/story-dc8382a0-0bf</link><guid isPermaLink="true">https://todayforai.com/en/story/story-dc8382a0-0bf</guid>
 <pubDate>Tue, 10 Nov 2026 08:19:40 +0800</pubDate>
@@ -26,6 +26,22 @@ Muse Ember 的发布标…&lt;/p&gt;&lt;p&gt;9 sources&lt;/p&gt;&lt;p&gt;The Dec
 多家信源交叉验证，估值下调直接诱因是美股科技板块剧烈回调：纳斯达克 100 单日暴跌 6.4%、市值蒸发约 2.3 万亿美元，费城半导体指数跌 12%，VIX 升至 2025 年 4 月以来最高。与此同时，AI 单位成本快速下降——Ramp 数据显示 8 月至 10 月中企业 token 用量增长 65% 但支出仅增 1.5%，模型单价一月内下降 27%，动摇了高估值叙事。Anthropic 年化营收已从 7 月底约 650 亿美元升至约 810 亿美元，基本面仍强劲，但融资环境趋紧，OpenAI 同步将募资目标从 300 亿美元下调至约 200 亿美元。
 
 这场 IPO 被视为对 AI 产业估值逻辑的关键检验。作为首家上市的前沿模型开发商，Anthropic 的定价将直接影响一级市场对 AI 龙头的信心，并波及 Nscale 等非头部厂商的上市计划。若估值持续下探，可能引发 AI 资产重定价连锁反应，促使行业从“算力军备竞赛”转向更注重单位经济回报的理性发展阶段。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), Hacker News AI, IT之家 · 智能时代, IT之家 · IT业界, Latent Space, 宝玉 (@dotey)&lt;/p&gt;</description>
+</item>
+<item><title>Claude Fable 5.2 登顶生命科学视觉推理榜</title><link>https://todayforai.com/en/story/story-2c53dac7-46e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2c53dac7-46e</guid>
+<pubDate>Tue, 10 Nov 2026 11:07:06 +0800</pubDate>
+<description>&lt;p&gt;Artificial Analysis 基于 Handshake AI 的 VIALS 基准推出 VIALS-AA 榜单，用 161 项生命科学与生物技术视觉推理任务评测前沿模型。结果显示，Claude Fable 5.2 以 67% 的 pass^3 成绩居首，领先 Gemini 4 Carbon 的 64% 与 GPT-6 Astra 的 63%，前三名分差仅 3-4 个百分点，竞争极为胶着。
+
+评测覆盖凝胶印迹、流式细胞图、质粒图谱与系统发育树等 8 个领域，在开源 agent harness Stirrup 中运行，每项任务重复三次并以 pass^3 计分。值得关注的是工具调用策略的显著差异：Fable 平均每任务约 37 次调用并大量批处理，而 Astra 仅约 8 次，显示推理型模型正走向多步工具编排而非单次作答。案例显示 Fable 会裁剪图像、构建颜色掩码、拟合圆弧展开、按强度峰值计数并回映射原图自检，形成完整多步验证链。此外，部分任务出现多模型拒答，说明科学图像解读仍是前沿模型的明显短板。
+
+这一榜单的推出为生命科学视觉推理提供了首个标准化评测，揭示了模型在专业科学图像理解上的真实水平与不足。工具调用策略的差异也预示着未来模型竞争将不仅限于单次推理能力，更在于多步工具编排与自我验证的工程化能力。对于科研与生物技术领域，这意味着 AI 辅助科学发现的门槛正在降低，但可靠性与拒答问题仍需突破。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Yuchen Jin (@Yuchenj_UW), Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
+</item>
+<item><title>迪士尼联手 Adobe 打造品牌安全定制 AI 模型</title><link>https://todayforai.com/en/story/story-c756d33b-d8c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c756d33b-d8c</guid>
+<pubDate>Tue, 10 Nov 2026 11:26:36 +0800</pubDate>
+<description>&lt;p&gt;迪士尼与 Adobe 宣布达成多年战略合作，Adobe 正式成为迪士尼的官方 AI 创新合作伙伴。迪士尼将获得 Adobe Firefly、Firefly Foundry、Premiere 和 Photoshop 等技术的早期访问权，并基于自身角色、场景与视觉风格数据训练定制生成式 AI 模型，产出可商用、可直接投产的内容。
+
+合作覆盖影视制作、主题乐园、邮轮及 ESPN 内容管线。Firefly Foundry 将帮助艺术家主导开发，迪士尼幻想工程部门已使用该技术将手绘草图转为 2D 概念图，StudioLAB 与 ESPN Edge 也在探索创意工作流与体育内容创新。Adobe 还将派驻工程与研究团队，确保模型符合品牌安全与商用标准。
+
+此次联盟正值迪士尼推进裁员与 20% 年度降本目标之际，凸显其借助 AI 提升生产效率的迫切需求。对 Adobe 而言，与迪士尼的深度绑定为其 Firefly 生态提供了顶级娱乐巨头背书，有望加速生成式 AI 在影视工业化流程中的落地，并推动行业建立品牌安全与版权合规的新标准。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;The Decoder, The Verge AI, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 <item><title>谷歌扩充 TPU 阵容推出 8tx 与 8i Max 两款新品</title><link>https://todayforai.com/en/story/story-8e585f9c-a84</link><guid isPermaLink="true">https://todayforai.com/en/story/story-8e585f9c-a84</guid>
 <pubDate>Tue, 10 Nov 2026 01:13:17 +0800</pubDate>
@@ -66,22 +82,6 @@ TPU 8tx 主打机密计算，可在处理过程中对数据与权重保持加密
 Beep Locator 的工作流程设计得相当轻巧：用户通过扫描二维码即可将多台设备快速接入系统，随后进行校准和测试蜂鸣，确保各麦克风位置与时间同步。系统还具备跨会话记忆功能，能记住已确认的 3345 Hz 频率，避免重复识别。整个开发过程由 Claude Code 独立完成从设计到实现的环节，体现了编码智能体在真实生活小工具开发中的实用价值。
 
 尽管这只是一个解决日常烦恼的小工具，但其意义在于验证了 AI 编程助手处理多设备协同、实时信号处理等复杂任务的能力。对于开发者生态而言，这预示着未来更多创意可以借助 AI 快速转化为可用的开源项目，进一步降低工具开发的门槛。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, Simon Willison 博客&lt;/p&gt;</description>
-</item>
-<item><title>OpenAI 部署控制室系统 35 秒内熔断失控模型</title><link>https://todayforai.com/en/story/story-8e9bd7bb-215</link><guid isPermaLink="true">https://todayforai.com/en/story/story-8e9bd7bb-215</guid>
-<pubDate>Tue, 10 Nov 2026 10:05:45 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 近日宣布，已在内部研究设施全面部署名为“控制室”的中央管控系统，可在收到停止指令后最长 35 秒内阻断模型推理输出，从而有效叫停失控智能体。这标志着 AI 安全治理从被动监控转向主动拦截。
-
-据 OpenAI 官方博客及 IT 之家报道，控制室系统覆盖训练、评估与数据处理等全部研究推理负载，通过任务 ID 与推理引擎的授权校验实现主动拦截，而非事后告警。系统与失准监控体系联动，并为所有前沿强化学习任务配备独立模型监控器，自动检查行为异常。35 秒延迟源于授权请求缓存层，目标降至 0。系统按故障安全设计，即使自身宕机也会触发停止，确保模型输出被阻断。
-
-这一部署对 AI 安全领域具有标杆意义。随着智能体自主性增强，传统监控手段难以应对突发风险，控制室系统提供了一种可复用的主动熔断机制，有望推动行业建立更严格的安全标准，并影响未来 AI 治理框架的构建。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, OpenAI 官方博客&lt;/p&gt;</description>
-</item>
-<item><title>蚂蚁灵波开源通用触觉模型 LingBot-Touch</title><link>https://todayforai.com/en/story/story-f5891fb6-63e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f5891fb6-63e</guid>
-<pubDate>Tue, 10 Nov 2026 10:50:58 +0800</pubDate>
-<description>&lt;p&gt;蚂蚁灵波科技正式开源通用触觉基础模型 LingBot-Touch，基于近 5000 小时真实触觉数据预训练，首次将磁触觉、视触觉和压阻式三类异构传感信号统一为同一套触觉表征。该模型在 26 项真机测试中，接入后使 LingBot-VLA、π0.5、Diffusion Policy 和 T-Rex 四种动作模型的平均任务成功率提升 14 至 26 个百分点，其中拧瓶盖任务成功率从 56.25% 跃升至 90%。
-
-技术方案上，LingBot-Touch 通过大规模预训练学习跨传感器、跨灵巧手、跨模型与跨任务的通用触觉表征，且数据规模扩展仍持续带来性能增益。模型、代码和技术报告已在 Hugging Face、GitHub 和魔搭社区同步开源，为具身智能研究提供了可复用的触觉感知基座。
-
-此次开源将具身智能的感知能力从视觉延伸至触觉，填补了通用触觉基础模型的空白，有望降低触觉感知的研发门槛，推动灵巧操作、人形机器人等场景的快速迭代，对具身智能生态的开放协同具有标志性意义。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;InfoQ 中文, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
