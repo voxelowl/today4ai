@@ -35,14 +35,6 @@ TPU 8tx 主打机密计算，可在处理过程中对数据与权重保持加密
 
 此事件已超出个人丑闻范畴，直接关系到全球最重要 AI 算力供应商的治理与地缘风险。调查结果将影响员工、客户、合作伙伴及散户投资者对 AI 经济的信心，也可能波及美国出口管制政策与中美科技博弈的走向。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, Rohan Paul (@rohanpaul_ai), TechCrunch AI, The Verge AI&lt;/p&gt;</description>
 </item>
-<item><title>Anthropic IPO 估值预期下调至 1.2 万亿美元，市场质疑 AI 龙头高估值</title><link>https://todayforai.com/en/story/story-1049bdee-c36</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1049bdee-c36</guid>
-<pubDate>Tue, 10 Nov 2026 07:32:38 +0800</pubDate>
-<description>&lt;p&gt;受科技股大幅回调与 AI 板块抛售影响，Anthropic 的 IPO 估值预期在数日内从 2 万亿美元下调至 1.2 万亿美元，部分投资者甚至认为 1 万亿美元更合理。纳斯达克 100 单日暴跌 6.4%、市值蒸发约 2.3 万亿美元，成为估值下调的直接导火索。
-
-综合多家信源，估值下调主因市场环境而非公司业绩：Anthropic 10 月底年化收入已超 800 亿美元，9 月底现金储备达 1466 亿美元，但季度亏损与巨额算力支出承诺仍令认购方要求折价。同时，Ramp 数据显示企业 token 用量增长 65% 而支出仅增 1.5%，AI 单价一个月内下降 27%，买方市场格局进一步压制高估值叙事。
-
-作为可能首家上市的前沿模型开发商，Anthropic 的定价将成为检验 AI 龙头需求能否扛住板块回调的关键风向标。若 IPO 遇阻或推迟，可能动摇市场对整个人工智能行业的信心，并影响后续 AI 公司的上市节奏与融资环境。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), The Decoder, Hacker News AI, 宝玉 (@dotey), IT之家 · 智能时代, Latent Space&lt;/p&gt;</description>
-</item>
 <item><title>字节发布 Seedream 5.5 支持直出透明背景</title><link>https://todayforai.com/en/story/story-3fb949dd-9e2</link><guid isPermaLink="true">https://todayforai.com/en/story/story-3fb949dd-9e2</guid>
 <pubDate>Tue, 10 Nov 2026 02:50:01 +0800</pubDate>
 <description>&lt;p&gt;字节跳动 Seed 团队正式发布图像编辑模型 Seedream 5.5，核心突破在于原生支持输出带 Alpha 通道的透明背景图像，并实现非编辑区域像素级不变，官方演示同一人物连续修改 100 轮后细节仍可精准对齐，显著缓解多轮编辑中的图像漂移问题。
@@ -58,6 +50,14 @@ TPU 8tx 主打机密计算，可在处理过程中对数据与权重保持加密
 在技术细节上，Images 2.6 重点解决了早期模型在连续帧间角色一致性差、画面漂移严重的痛点，使得品牌角色动画和产品循环展示等简单动画具备实际可用性。用户可通过文本提示或上传图片直接生成 GIF，并在应用内自由调整播放速率及进行逐帧编辑。API 端同步上线了 GPT-Image-2.6 Flare（侧重速度与布局）和 Sunburst（侧重细节与一致性）两款模型，为开发者提供灵活选择。
 
 此次升级对内容创作生态产生深远影响。随着周均图像生成量突破 40 亿张，Images 2.6 进一步巩固了 OpenAI 在多模态领域的领先地位。对于营销人员和开发者而言，低成本、高效率的动态内容生成工具将极大简化工作流，推动短视频素材、UI 动效及社交媒体内容的自动化生产进程。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), Artificial Analysis (@ArtificialAnlys), The Verge AI, 量子位官网, IT之家 · IT业界, The Decoder&lt;/p&gt;</description>
+</item>
+<item><title>开发者用 Claude Code 打造多设备蜂鸣声定位工具</title><link>https://todayforai.com/en/story/story-bed13791-fdf</link><guid isPermaLink="true">https://todayforai.com/en/story/story-bed13791-fdf</guid>
+<pubDate>Tue, 10 Nov 2026 08:10:46 +0800</pubDate>
+<description>&lt;p&gt;知名开发者 Simon Willison 借助 AI 编程助手 Claude Code，开发出一款名为 Beep Locator 的开源工具，能够利用房间内多台手机、平板和笔记本电脑作为分布式麦克风，通过三角定位精准找出间歇性蜂鸣声的来源。这一案例直观展示了 AI 编程助手在快速构建实用型多设备协作工具上的落地能力。
+
+Beep Locator 的工作流程设计得相当轻巧：用户通过扫描二维码即可将多台设备快速接入系统，随后进行校准和测试蜂鸣，确保各麦克风位置与时间同步。系统还具备跨会话记忆功能，能记住已确认的 3345 Hz 频率，避免重复识别。整个开发过程由 Claude Code 独立完成从设计到实现的环节，体现了编码智能体在真实生活小工具开发中的实用价值。
+
+尽管这只是一个解决日常烦恼的小工具，但其意义在于验证了 AI 编程助手处理多设备协同、实时信号处理等复杂任务的能力。对于开发者生态而言，这预示着未来更多创意可以借助 AI 快速转化为可用的开源项目，进一步降低工具开发的门槛。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, Simon Willison 博客&lt;/p&gt;</description>
 </item>
 <item><title>晨星给 Anthropic 估值 1.7 万亿美元 远超其 IPO 目标</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
 <pubDate>Tue, 10 Nov 2026 09:27:12 +0800</pubDate>
