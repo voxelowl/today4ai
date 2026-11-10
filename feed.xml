@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Tue, 10 Nov 2026 20:25:22 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 10 Nov 2026 21:00:00 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Hugging Face Warns Cyberattacks Threaten Open-Source AI Openness</title><link>https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/</guid>
+<pubDate>Tue, 10 Nov 2026 21:00:00 +0800</pubDate>
+<description>&lt;p&gt;Hugging Face chief policy officer Irene Solaiman warns that the openness and rich data that make open AI platforms valuable also make them more vulnerable to attacks. Recent incidents, including the October breach of OpenCode that targeted users&amp;#x27; third-party API keys and caused financial damage, and a summer incident in which an OpenAI agent swarm breached Hugging Face, underscore the risk. Security experts recommend prioritizing detection of suspicious behavior and containment capabilities over relying solely on authentication.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Hugging Face 警告网络攻击威胁开源 AI 开放性&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源 AI 平台安全风险正从理论走向现实，头部平台高管公开警示，对开源生态参与者具有直接参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · opensource · signal 58/100&lt;/p&gt;</description>
+<source url="https://techcrunch.com/2026/11/10/cyberattacks-threaten-to-make-open-source-ai-a-little-less-open-hugging-face-exec-warns/">TechCrunch AI</source>
+<category>开源安全</category>
+<category>Hugging Face</category>
+<category>网络攻击</category>
+<category>AI 平台</category>
+</item>
+<item><title>Alibaba Plans to Spin Off T-Head Chip Unit in Hong Kong IPO</title><link>https://www.ithome.com/1/025/147.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/147.htm</guid>
+<pubDate>Tue, 10 Nov 2026 20:52:56 +0800</pubDate>
+<description>&lt;p&gt;Alibaba said the Hong Kong Stock Exchange has confirmed it may spin off wholly owned chip unit T-Head for a main-board listing, after T-Head confidentially filed an A1 application in September 2026. T-Head, a leading Chinese full-stack data-center chip supplier, would remain an Alibaba subsidiary while gaining independent access to capital markets and clearer valuation.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;阿里拟分拆平头哥赴港独立上市&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;阿里核心算力芯片资产分拆上市，直接牵动国内 AI 基础设施供给格局与资本路径。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/025/147.htm">IT之家 · IT业界</source>
+<category>芯片算力</category>
+<category>阿里巴巴</category>
+<category>平头哥</category>
+<category>IPO</category>
+</item>
 <item><title>Anthropic Sets IPO Range at $70-78 per Share Targeting $1.4 Trillion Valuation</title><link>https://www.ithome.com/1/025/139.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/139.htm</guid>
 <pubDate>Tue, 10 Nov 2026 20:25:22 +0800</pubDate>
 <description>&lt;p&gt;Anthropic updated its IPO filing to offer 825 million shares at $70-78 each, raising up to $64.35 billion and implying a fully diluted valuation of up to $1.405 trillion, well above its $965 billion mark in May. Seven giants including AMD, Nvidia, Microsoft, Google and TSMC will concurrently purchase $26 billion of Class N shares at the IPO price. Revenue hit $33.24 billion in the first nine months, up roughly 1200% year over year, while net loss reached $104 billion amid growing investor caution on AI valuations.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic IPO 定价 70 至 78 美元 估值剑指 1.4 万亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 行业迄今规模最大的 IPO 之一，定价区间、巨头战略认购与千亿级亏损共同构成产业资本格局的关键信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 88/100&lt;/p&gt;</description>
@@ -38,6 +56,15 @@
 <category>智能体</category>
 <category>Google DeepMind</category>
 <category>软件安全</category>
+</item>
+<item><title>HolyArrs Bundles Six Media Apps Into a 15 MB Self-Hosted Server</title><link>https://github.com/HolyArrs/HolyArrs</link><guid isPermaLink="true">https://github.com/HolyArrs/HolyArrs</guid>
+<pubDate>Tue, 10 Nov 2026 19:51:19 +0800</pubDate>
+<description>&lt;p&gt;HolyArrs is a self-hosted media aggregator that folds the functions of six separate tools such as Sonarr, Radarr, Prowlarr, Bazarr and Seerr into a single container, shipping at roughly 15 MB and idling near 140 MB of RAM with 10,000 titles versus 718.2 MB for the six apps it replaces. It deploys via Docker in about two minutes, integrates with Plex, Jellyfin and Emby plus Torznab/Newznab indexers, and supports migration from existing setups.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;15 MB 自托管媒体中心整合六款应用&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以极小体积整合六款主流自托管媒体工具，对家庭服务器与自托管社区具备直接可用的工程价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://github.com/HolyArrs/HolyArrs">Hacker News AI</source>
+<category>自托管</category>
+<category>媒体服务器</category>
+<category>Docker</category>
+<category>开源工具</category>
 </item>
 <item><title>Anthropic Seeks Up to $64.4 Billion in Landmark IPO</title><link>https://www.ithome.com/1/025/127.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/127.htm</guid>
 <pubDate>Tue, 10 Nov 2026 19:40:20 +0800</pubDate>
@@ -159,27 +186,27 @@
 <category>融资</category>
 <category>低温互连</category>
 </item>
-<item><title>KFC Japan Faces Backlash Over AI-Generated Product Images</title><link>https://www.ithome.com/1/024/873.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/873.htm</guid>
+<item><title>日本肯德基用 AI 生成宣传图引发质疑</title><link>https://www.ithome.com/1/024/873.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/873.htm</guid>
 <pubDate>Tue, 10 Nov 2026 16:15:36 +0800</pubDate>
-<description>&lt;p&gt;KFC Japan used generative AI for promotional images of trial drinks at some stores, producing visible artifacts such as ice cubes tinted deep green and a jelly-like sheen, prompting user complaints about misleading visuals and brand damage. The company confirmed AI use but declined to say whether it will extend to other product marketing.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;日本肯德基用 AI 生成宣传图引发质疑&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;反映生成式 AI 在商业营销落地中的真实性与品牌信任风险，属行业应用层面的具体案例。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;日本肯德基在部分门店试售饮品的宣传图中使用生成式 AI，图片出现冰块被染成深绿色、表面呈果冻光泽等明显失真，引发网友对图片与实物不符及品牌形象受损的质疑。官方承认使用 AI，但拒绝透露是否会在其他商品宣传中沿用。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;反映生成式 AI 在商业营销落地中的真实性与品牌信任风险，属行业应用层面的具体案例。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 38/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/873.htm">IT之家 · 智能时代</source>
 <category>生成式 AI</category>
 <category>商业营销</category>
 <category>品牌信任</category>
 <category>日本肯德基</category>
 </item>
-<item><title>Qualcomm Survey of 12,000 Users Finds 70% Want AI Agents to Manage Wearables</title><link>https://www.ithome.com/1/024/868.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/868.htm</guid>
+<item><title>高通调查 1.2 万用户 七成期待 AI 智能体协同管理可穿戴设备</title><link>https://www.ithome.com/1/024/868.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/868.htm</guid>
 <pubDate>Tue, 10 Nov 2026 16:12:25 +0800</pubDate>
-<description>&lt;p&gt;A Qualcomm survey of over 12,000 wearable users across six global markets finds personal AI has moved from concept to daily use, with nearly 60% using AI weekly and over 70% of smart-glasses owners using it regularly. Roughly 65-70% want a personalized AI agent orchestrating watches, earbuds, glasses and rings, and about 70% want natural-voice control of devices and daily tasks, with privacy and on-device processing seen as key to adoption.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;高通调查 1.2 万用户 七成期待 AI 智能体协同管理可穿戴设备&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是高通基于 1.2 万用户样本发布的消费洞察，为端侧 AI 与可穿戴智能体的产品方向提供了量化需求信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;高通调查全球 6 个市场超 1.2 万名可穿戴用户发现，个人 AI 已从概念走向日常，近 60% 用户每周使用 AI，智能眼镜用户中经常使用比例超 70%。约 65% 至 70% 受访者期待由个性化 AI 智能体串联手表、耳机、眼镜与戒指的协同生态，约 70% 希望以自然语音管理设备与日常事务，隐私与端侧处理是普及关键。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是高通基于 1.2 万用户样本发布的消费洞察，为端侧 AI 与可穿戴智能体的产品方向提供了量化需求信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/868.htm">IT之家 · 智能时代</source>
 <category>可穿戴设备</category>
 <category>端侧 AI</category>
 <category>AI 智能体</category>
 <category>高通</category>
 </item>
-<item><title>Researcher Uses Claude to Find Over 100 Critical Flaws in UK Government Code</title><link>https://www.ithome.com/1/024/865.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/865.htm</guid>
+<item><title>安全研究员用 Claude 扫描英国政府代码发现上百个高危漏洞</title><link>https://www.ithome.com/1/024/865.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/865.htm</guid>
 <pubDate>Tue, 10 Nov 2026 16:03:58 +0800</pubDate>
-<description>&lt;p&gt;Security researcher Chris Nesbitt-Smith of ControlPlane used consumer-grade Claude Opus and Sonnet models running on a laptop to scan publicly released UK government code, uncovering over 100 serious vulnerabilities. The most severe case involved the Planning Inspectorate, where Microsoft Entra ID credentials leaked to GitHub retained broad, seemingly non-expiring access to all SharePoint sites and staff OneDrive accounts. The episode shows AI has sharply lowered the barrier to vulnerability discovery, while the real bottleneck is government credential hygiene and remediation capacity.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;安全研究员用 Claude 扫描英国政府代码发现上百个高危漏洞&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;消费级 AI 模型即可批量挖出政府代码高危漏洞，直观展示 AI 安全审计的真实能力边界与治理缺口。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;安全公司 ControlPlane 研究员克里斯·内斯比特-史密斯仅用运行在笔记本上的 Claude Opus 与 Sonnet 模型，扫描英国政府公开代码库，发现 100 多个严重漏洞，其中规划监察局因 GitHub 泄露的 Microsoft Entra ID 凭据权限过大且长期有效，可访问全部 SharePoint 站点与员工 OneDrive。事件凸显 AI 已大幅降低漏洞发现门槛，但真正的短板在于政府部门的权限管理与修复能力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;消费级 AI 模型即可批量挖出政府代码高危漏洞，直观展示 AI 安全审计的真实能力边界与治理缺口。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/865.htm">IT之家 · IT业界</source>
 <category>AI 安全</category>
 <category>政府代码</category>
@@ -248,33 +275,6 @@
 <category>存储</category>
 <category>AI 基础设施</category>
 <category>温冷数据</category>
-</item>
-<item><title>Anthropic 撤回 693 亿美元 IPO 备案文件</title><link>https://www.ithome.com/1/024/849.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/849.htm</guid>
-<pubDate>Tue, 10 Nov 2026 15:37:05 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 在向银行分发拟 IPO 筹资 693 亿美元的证券备案文件后迅速撤回，称其中定价细节不准确，将更新后重新提交。文件显示其计划出售 8.667 亿股 A 类股票，目标价 70 至 80 美元，并已获 Google、英伟达、微软、台积电等以 IPO 价格参与 260 亿美元私募配售的承诺。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部大模型公司 IPO 进程出现罕见撤回，且披露了巨额配售阵容，是 AI 产业资本化的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/024/849.htm">IT之家 · IT业界</source>
-<category>Anthropic</category>
-<category>IPO</category>
-<category>融资</category>
-<category>产业资本</category>
-</item>
-<item><title>达卯科技与浦东环保能源共建算电协同平台</title><link>https://www.qbitai.com/2026/11/508985.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/508985.html</guid>
-<pubDate>Tue, 10 Nov 2026 15:33:19 +0800</pubDate>
-<description>&lt;p&gt;达卯科技与上海浦东环保能源发展有限公司签署战略合作协议，围绕数据中心节能、电力市场化运营与算电协同体系展开合作。首个落地项目为国家级算电协同试点黎明智算中心，该中心设计总功率 18 兆瓦，为万卡级算力集群，平台将落地负荷预测、协同调度等核心功能。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国有能源平台与 AI 企业联手落地国家级算电协同试点，为城市型智算中心提供可复制的能源运营范式。&lt;/p&gt;&lt;p&gt;量子位官网 · compute · signal 42/100&lt;/p&gt;</description>
-<source url="https://www.qbitai.com/2026/11/508985.html">量子位官网</source>
-<category>算电协同</category>
-<category>智算中心</category>
-<category>数据中心节能</category>
-<category>能源大模型</category>
-</item>
-<item><title>Meta 发布 Muse Ember 小模型 主打智能体高频任务</title><link>https://simonwillison.net/2026/Nov/10/muse-ember/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/10/muse-ember/</guid>
-<pubDate>Tue, 10 Nov 2026 15:28:21 +0800</pubDate>
-<description>&lt;p&gt;Meta 推出旗下最小最高效模型 Muse Ember，定位与 Claude Haiku、GPT-6 Luna 同档，专为工具调用、编码子任务、路由、信息抽取与长文档解析等智能体高频重复工作设计。短提示词定价为每百万输入 0.10 美元、输出 0.50 美元，与两个竞品持平；但长上下文阶梯涨价更陡，超过 200k 后输入涨至 0.30 美元、输出 1.50 美元。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;小模型赛道再添一员，定价阶梯与竞品对比清晰，对智能体成本选型有直接参考价值。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · llm · signal 72/100&lt;/p&gt;</description>
-<source url="https://simonwillison.net/2026/Nov/10/muse-ember/">Simon Willison 博客</source>
-<category>大模型</category>
-<category>Meta</category>
-<category>模型定价</category>
-<category>智能体</category>
 </item>
 </channel>
 </rss>
