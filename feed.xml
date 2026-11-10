@@ -1,8 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Tue, 10 Nov 2026 11:27:37 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 10 Nov 2026 12:38:34 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Nvidia Paper Finds Irrelevant Text Weakens Models via Intrusion Heads</title><link>https://x.com/rohanpaul_ai/status/2120013219066753159</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120013219066753159</guid>
+<pubDate>Tue, 10 Nov 2026 12:38:34 +0800</pubDate>
+<description>&lt;p&gt;A new Nvidia-led paper finds that irrelevant text in RAG, tool-use and long-context prompts hurts models mainly by weakening their use of the question rather than directly suppressing the right answer. The authors identify a small set of &amp;#x27;intrusion heads&amp;#x27; inside open models that read unrelated text and dilute the answer; masking about 10 such heads on 7B-scale models recovered 57% of the accuracy lost to distractors on average, versus a 97.6% oracle ceiling.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达论文揭示无关文本通过干扰注意力头削弱模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;给出了无关上下文损害模型的可解释机制与免训练修复手段，对 RAG 与长上下文工程有直接指导价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2120013219066753159">Rohan Paul (@rohanpaul_ai)</source>
+<category>大模型</category>
+<category>RAG</category>
+<category>可解释性</category>
+<category>英伟达</category>
+</item>
+<item><title>Ex-Toutiao CEO Chen Lin Confirms Departure to Launch AI Education Startup</title><link>https://www.ithome.com/1/024/748.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/748.htm</guid>
+<pubDate>Tue, 10 Nov 2026 12:21:39 +0800</pubDate>
+<description>&lt;p&gt;Chen Lin, former CEO of Toutiao and Dali Education, publicly confirmed for the first time that he has left ByteDance and is preparing an AI education startup called Xiaolu Aixue (Galaxy Zhixue). He said the AI shift sparked by ChatGPT, which is gradually replacing professional skills with machines, drove him to rethink how the next generation can achieve lasting growth.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;原今日头条 CEO 陈林离职创业做 AI 教育&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;字节系核心高管离职投身 AI 教育创业，属产业人事动向，但尚无产品、技术与融资细节。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/024/748.htm">IT之家 · 智能时代</source>
+<category>AI 教育</category>
+<category>创业</category>
+<category>字节跳动</category>
+<category>人事变动</category>
+</item>
+<item><title>Seele03 Generates Editable Unity and Godot Game Projects</title><link>https://x.com/rohanpaul_ai/status/2120008028250685736</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120008028250685736</guid>
+<pubDate>Tue, 10 Nov 2026 12:17:56 +0800</pubDate>
+<description>&lt;p&gt;Seele AI has released Seele03, a model that works with built-in asset generators to output editable Unity, Godot or web game projects rather than a one-shot game. Its value lies in unifying mesh generation, rigging, sound and code in one place, enabling a build-play-fix iteration loop and cutting integration overhead for small teams.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Seele03 直接生成可编辑的 Unity 与 Godot 游戏工程&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;它把生成式模型接入真实游戏引擎工程流，代表 AI 辅助开发从单次生成转向可迭代的资产与代码管线。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2120008028250685736">Rohan Paul (@rohanpaul_ai)</source>
+<category>游戏开发</category>
+<category>生成式AI</category>
+<category>Unity</category>
+<category>Godot</category>
+</item>
+<item><title>IBM to Embed Anthropic&#x27;s Claude Mythos in Concert Protect Scanner</title><link>https://x.com/rohanpaul_ai/status/2120004635515846690</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120004635515846690</guid>
+<pubDate>Tue, 10 Nov 2026 12:04:27 +0800</pubDate>
+<description>&lt;p&gt;IBM plans to embed Anthropic&amp;#x27;s Claude Mythos into IBM Concert Protect so enterprises can hunt unknown logic flaws and potential zero-days that lack signatures or CVE records. Findings are routed to a Proof of Exploitability step that checks code, configuration and infrastructure for real attacker reachability; in one IBM case this reduced over 5,700 scanner findings to 12 proven exploitable vulnerabilities. Mythos had previously been used only for internal security research via Anthropic&amp;#x27;s gated Project Glasswing program.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;IBM 将 Claude Mythos 引入代码漏洞扫描&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大模型进入企业代码安全扫描主流程，且给出告警收敛的真实量化案例，对安全与 AI 工程读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · tools · signal 72/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2120004635515846690">Rohan Paul (@rohanpaul_ai)</source>
+<category>AI 安全</category>
+<category>代码漏洞扫描</category>
+<category>Anthropic</category>
+<category>IBM</category>
+<category>企业软件</category>
+</item>
+<item><title>Zhengyuan Quantum Raises Angel Round to Build Thousand-Qubit Superconducting Quantum Computer</title><link>https://www.ithome.com/1/024/740.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/740.htm</guid>
+<pubDate>Tue, 10 Nov 2026 11:51:01 +0800</pubDate>
+<description>&lt;p&gt;Zhengyuan Quantum has closed an angel funding round from investors including Shenzhen Capital Group and Pudong Venture Capital to develop a thousand-qubit superconducting quantum computer. Founded in February 2026, the startup focuses on chip connectivity and control, pursuing TSV 3D packaging, cryogenic interconnects, and integrated measurement and control, and has already received orders for parametric amplifiers and other components.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;正元量子完成天使轮融资 推进千比特超导量子计算机研发&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国内超导量子计算初创公司获天使轮融资，聚焦千比特整机与三维封装等工程化难题，对关注量子计算产业化的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/024/740.htm">IT之家 · IT业界</source>
+<category>量子计算</category>
+<category>融资</category>
+<category>超导量子</category>
+<category>正元量子</category>
+</item>
 <item><title>Infineon Fabricates World&#x27;s First 300mm SiC Power Device Wafer</title><link>https://www.ithome.com/1/024/733.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/733.htm</guid>
 <pubDate>Tue, 10 Nov 2026 11:27:37 +0800</pubDate>
 <description>&lt;p&gt;Infineon has become the first to process 300mm silicon carbide wafers into power semiconductor devices at full-scale production, using existing silicon equipment at its Villach fab in Austria. The company is advancing its 200mm SiC roadmap and has validated cold-split technology on 12-inch SiC at its Dresden site to cut ingot-to-wafer losses.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英飞凌造出全球首个 300mm 碳化硅功率器件晶圆&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;300mm SiC 器件首次在量产级晶圆厂落地，直接关系功率半导体成本曲线与 AI 数据中心供电基础设施。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 78/100&lt;/p&gt;</description>
@@ -137,18 +183,28 @@
 <category>超算</category>
 <category>能源</category>
 </item>
-<item><title>Tencent Opens Beta for Eciyuan AI Gaming Companion Agent</title><link>https://www.ithome.com/1/024/620.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/620.htm</guid>
+<item><title>AI Agents Formalize CPython in Lean and Surface 418 Bug Reports</title><link>https://broyojo.com/python-formalization/</link><guid isPermaLink="true">https://broyojo.com/python-formalization/</guid>
+<pubDate>Tue, 10 Nov 2026 09:56:48 +0800</pubDate>
+<description>&lt;p&gt;A research team used Opus 5.5 agents to translate CPython 3.15.2 internals line by line into 613,318 lines of Lean, tested each piece against real Python, machine-checked every proof, and surfaced 418 bug reports in CPython along the way. The result is a machine-verifiable formal model of CPython that offers a new engineering paradigm for interpreter semantic correctness.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 智能体用 Lean 形式化 CPython 并发现 418 个缺陷&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次以智能体规模化形式化真实解释器并反哺上游缺陷，兼具方法创新与工程实证价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://broyojo.com/python-formalization/">Hacker News AI</source>
+<category>形式化验证</category>
+<category>Lean</category>
+<category>CPython</category>
+<category>智能体</category>
+<category>AI for Science</category>
+</item>
+<item><title>腾讯首款 AI 游戏陪伴 Agent 鹅次元开启内测</title><link>https://www.ithome.com/1/024/620.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/620.htm</guid>
 <pubDate>Tue, 10 Nov 2026 09:43:25 +0800</pubDate>
-<description>&lt;p&gt;Tencent has launched the beta of Eciyuan, its first dedicated AI gaming companion agent, targeting PC players with anthropomorphic real-time voice interaction. The agent can perceive gameplay footage to answer questions and interact, supports PC and mobile QQ chat, and plans features such as a desktop pet and voice changing.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;腾讯首款 AI 游戏陪伴 Agent 鹅次元开启内测&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大厂首次将多模态游戏画面理解与陪伴型 Agent 结合落地，是观察 AI 消费级 Agent 形态的重要样本。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;腾讯推出首款专属 AI 游戏陪伴 Agent“鹅次元”并开启内测，面向 PC 玩家提供拟人化实时语音陪伴。该产品可识别游戏画面并据此互动答疑，同时支持 PC 与手机 QQ 聊天，并规划桌宠、变声等功能。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大厂首次将多模态游戏画面理解与陪伴型 Agent 结合落地，是观察 AI 消费级 Agent 形态的重要样本。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/620.htm">IT之家 · 智能时代</source>
 <category>智能体</category>
 <category>腾讯</category>
 <category>游戏 AI</category>
 <category>多模态</category>
 </item>
-<item><title>Samsung and SK Hynix to Each Spend Over 10 Trillion Won on ASML EUV Tools</title><link>https://www.ithome.com/1/024/619.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/619.htm</guid>
+<item><title>三星与 SK 海力士各投超 10 万亿韩元采购 EUV</title><link>https://www.ithome.com/1/024/619.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/619.htm</guid>
 <pubDate>Tue, 10 Nov 2026 09:42:05 +0800</pubDate>
-<description>&lt;p&gt;Samsung Electronics and SK Hynix are racing to buy ASML EUV lithography machines, with each committing 10-20 trillion won to expand wafer capacity amid the AI semiconductor boom. SK Hynix has confirmed 11.95 trillion won in EUV purchases for 2026-2027, while Samsung plans to deploy High NA EUV in DRAM mass production by 2028. With equipment lead times lengthening, early orders are key to securing capacity timelines.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;三星与 SK 海力士各投超 10 万亿韩元采购 EUV&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;存储双雄的巨额 EUV 采购直接决定 AI 芯片与 HBM 产能上限，是算力供给端的重要前瞻信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;三星电子与 SK 海力士正竞相采购 ASML 的 EUV 光刻机，单家投资规模均达 10~20 万亿韩元，以支撑 AI 半导体浪潮下的晶圆产能扩张。SK 海力士已确认 2026~2027 年采购 11.95 万亿韩元设备，三星则计划 2028 年将 High NA EUV 用于 DRAM 量产。设备交付周期普遍延长，提前下单成为锁定产能上线的关键手段。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;存储双雄的巨额 EUV 采购直接决定 AI 芯片与 HBM 产能上限，是算力供给端的重要前瞻信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/619.htm">IT之家 · IT业界</source>
 <category>EUV 光刻</category>
 <category>存储芯片</category>
@@ -156,27 +212,27 @@
 <category>三星电子</category>
 <category>SK 海力士</category>
 </item>
-<item><title>Anthropic Moves Ahead With IPO at Valuation Below $1.5 Trillion</title><link>https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/</guid>
+<item><title>Anthropic 拟推进 IPO 估值或低于 1.5 万亿美元</title><link>https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/</guid>
 <pubDate>Tue, 10 Nov 2026 09:27:12 +0800</pubDate>
-<description>&lt;p&gt;Anthropic plans to set a valuation range this week and begin trading late next week, pushing ahead with its IPO despite a major Nasdaq sell-off, according to The Wall Street Journal. Some institutional investors are pressing for a valuation below the $1.5 trillion target discussed as recently as last week, itself well down from the $2 trillion floated months earlier. As OpenAI&amp;#x27;s main rival, Anthropic&amp;#x27;s pricing will serve as a key gauge of the current AI boom&amp;#x27;s strength.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 拟推进 IPO 估值或低于 1.5 万亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司 IPO 定价直接反映资本市场对 AI 热潮的信心，是产业周期的重要观察点。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;据《华尔街日报》报道，Anthropic 计划本周确定估值区间，并于下周四周五挂牌交易，在纳斯达克大幅抛售后仍推进上市。部分机构投资者正施压要求估值低于上周讨论的 1.5 万亿美元目标，而该数字已较数月前 2 万亿美元预期大幅回落。作为 OpenAI 的主要竞争对手，Anthropic 的定价将成为衡量当前 AI 热潮强度的重要风向标。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司 IPO 定价直接反映资本市场对 AI 热潮的信心，是产业周期的重要观察点。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/">TechCrunch AI</source>
 <category>IPO</category>
 <category>Anthropic</category>
 <category>估值</category>
 <category>AI 泡沫</category>
 </item>
-<item><title>China Unveils Nebula Constellation Plan to Put Data Centers in Space</title><link>https://www.ithome.com/1/024/605.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/605.htm</guid>
+<item><title>星云星座计划发布 把数据中心搬上太空</title><link>https://www.ithome.com/1/024/605.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/605.htm</guid>
 <pubDate>Tue, 10 Nov 2026 08:59:58 +0800</pubDate>
-<description>&lt;p&gt;At the 2026 Space Cloud Industry Ecosystem Conference, the Aerospace Information Research Institute of the Chinese Academy of Sciences and domestic tech firms unveiled the Nebula Constellation Plan, a fully domestic space computing network. The initiative aims to merge remote sensing, communications and compute satellites into an intelligent space-based service system, moving space cloud from technical validation toward industrialization by using solar power and in-orbit processing to cut bandwidth use and latency.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;星云星座计划发布 把数据中心搬上太空&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;太空算力成为全球算力竞争新方向，该计划标志中国太空云生态进入产业化布局阶段。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;在 2026 太空云产业生态大会上，中国科学院空天信息创新研究院与国内科创企业联合发布全栈国产化太空算力网“星云星座计划”，目标是将遥感、通信与算力卫星整合为智能天基信息服务系统。该计划推动太空云从技术验证走向产业化布局，利用太阳能供电与在轨数据处理降低带宽占用并提升响应速度。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;太空算力成为全球算力竞争新方向，该计划标志中国太空云生态进入产业化布局阶段。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/605.htm">IT之家 · IT业界</source>
 <category>太空算力</category>
 <category>星云星座计划</category>
 <category>中科院</category>
 <category>卫星互联网</category>
 </item>
-<item><title>Meta Releases Lightweight Muse Ember Model at One-Third Task Cost</title><link>https://www.ithome.com/1/024/604.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/604.htm</guid>
+<item><title>Meta 发布轻量模型 Muse Ember 单任务成本仅 1/3</title><link>https://www.ithome.com/1/024/604.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/604.htm</guid>
 <pubDate>Tue, 10 Nov 2026 08:59:26 +0800</pubDate>
-<description>&lt;p&gt;Meta has launched Muse Ember, its smallest and most efficient model to date, purpose-built for complex reasoning and high-frequency agentic workloads. It matches Claude Haiku 5.5 on the Artificial Analysis Index (36) at one-third the per-task cost, while leading on agentic and multimodal benchmarks such as AutomationBench-AA and OSWorld 2.1. The model is available immediately via Meta Model API, Google Cloud and Oracle Cloud, priced at $0.10/$0.50 per million input/output tokens.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 发布轻量模型 Muse Ember 单任务成本仅 1/3&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;轻量模型以 1/3 成本追平 Claude Haiku 5.5，且智能体基准显著领先，直接影响模型选型与推理成本决策。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Meta 推出迄今最小、效率最高的 AI 模型 Muse Ember，专为复杂推理与智能体高频任务设计。在 Artificial Analysis 综合指数上与 Claude Haiku 5.5 持平（36 分），但单任务成本仅为其 1/3，并在 AutomationBench-AA、OSWorld 2.1 等多项智能体与多模态评测中领先。模型即日起通过 Meta Model API、Google Cloud 与 Oracle Cloud 提供，输入/输出定价为每百万 Token 0.10/0.50 美元。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;轻量模型以 1/3 成本追平 Claude Haiku 5.5，且智能体基准显著领先，直接影响模型选型与推理成本决策。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/024/604.htm">IT之家 · 智能时代</source>
 <category>大模型</category>
 <category>Meta</category>
@@ -219,50 +275,6 @@
 <category>智能体</category>
 <category>技能复用</category>
 <category>开发者工具</category>
-</item>
-<item><title>Claude Fable 5.2 登顶 WebDev 竞技场 提速 30%</title><link>https://x.com/arena/status/2119948067449536733</link><guid isPermaLink="true">https://x.com/arena/status/2119948067449536733</guid>
-<pubDate>Tue, 10 Nov 2026 08:19:40 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 发布 Claude Fable 5.2（xHigh），在 Arena Code Arena 的 WebDev 榜单以 1832 分登顶，超过 Claude Opus 5.5、Gemini 4 Carbon 与 GPT-6 Astra。该版本较 Fable 5.1 提速最高 30%，定价降至每百万 token 输入 8 美元、输出 40 美元。Arena 同时展示了其在 3D 世界、可玩游戏、网站 UI、数据可视化与交互式代码动画等 17 组生成任务中的表现。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部模型在权威代码竞技场登顶并同步降价提速，是开发者选型与成本评估的直接信号。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/arena/status/2119948067449536733">Arena.ai (@arena)</source>
-<category>大模型</category>
-<category>Anthropic</category>
-<category>代码生成</category>
-<category>模型评测</category>
-</item>
-<item><title>开发者用 Claude Code 构建多设备蜂鸣声定位系统</title><link>https://simonwillison.net/2026/Nov/9/mysterious-beeps/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/9/mysterious-beeps/</guid>
-<pubDate>Tue, 10 Nov 2026 08:10:46 +0800</pubDate>
-<description>&lt;p&gt;Simon Willison 利用 Claude Code 开发了开源工具 Beep Locator，通过多台手机、平板和笔记本作为分布式麦克风，对房间内间歇性蜂鸣声进行三角定位。系统支持二维码快速接入设备、校准与蜂鸣确认，并跨会话记忆已确认的 3345 Hz 频率。该案例展示了 AI 编程助手在快速构建实用型多设备协作工具上的落地能力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示 Claude Code 快速构建多设备音频三角定位工具的完整实践，对开发者有直接借鉴价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://simonwillison.net/2026/Nov/9/mysterious-beeps/">Hacker News AI</source>
-<category>Claude Code</category>
-<category>开源工具</category>
-<category>多设备协作</category>
-<category>声源定位</category>
-</item>
-<item><title>安克 eufy 发布自动追踪灯安防摄像头 TrackLight Cam S1</title><link>https://www.ithome.com/1/024/581.htm</link><guid isPermaLink="true">https://www.ithome.com/1/024/581.htm</guid>
-<pubDate>Tue, 10 Nov 2026 08:01:58 +0800</pubDate>
-<description>&lt;p&gt;安克旗下 eufy 推出户外安防摄像头 TrackLight Cam S1，官方称其为全球首款配备自动追踪灯的同类产品，可在最远约 12 米处用光束锁定并跟随可疑人员。设备支持 4K 录制、355 度水平旋转与双雷达探测，单机售价 300 美元。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是消费级安防硬件的产品发布，具备明确的追踪光束与探测参数，但 AI 含量有限，属于智能家居外设更新。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 38/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/024/581.htm">IT之家 · 智能时代</source>
-<category>智能家居</category>
-<category>安防摄像头</category>
-<category>安克</category>
-</item>
-<item><title>Anthropic 发布 Fable 5.2 与 Mythos 5.2 双模型</title><link>https://simonwillison.net/2026/Nov/9/llm-anthropic/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/9/llm-anthropic/</guid>
-<pubDate>Tue, 10 Nov 2026 07:58:46 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 今日发布 Fable 5.2 与 Mythos 5.2 两款新模型，社区工具 llm-anthropic 已同步支持。实测显示模型提供 low 至 max 五档推理强度，xhigh 档生成的 SVG 质量最佳，而 max 档在消耗 12.8 万 token 思考后未能输出图像，暴露出与旧版相同的 token 耗尽缺陷。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;新模型发布叠加真实推理档位实测数据，对关注模型能力边界的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://simonwillison.net/2026/Nov/9/llm-anthropic/">Simon Willison 博客</source>
-<category>大模型</category>
-<category>Anthropic</category>
-<category>推理强度</category>
-<category>开发者工具</category>
-</item>
-<item><title>Claude Fable 5.2 登顶 WebDev 榜单 提速 30% 降价 20%</title><link>https://x.com/arena/status/2119941204003770690</link><guid isPermaLink="true">https://x.com/arena/status/2119941204003770690</guid>
-<pubDate>Tue, 10 Nov 2026 07:52:24 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 发布 Claude Fable 5.2 与 Claude Mythos 5.2，前者在 Code Arena WebDev 榜单以 1832 分登顶，超过 Claude Opus 5.5、Gemini 4 Carbon 与 GPT-6 Astra。官方称新版本较 Fable 5.1 提速最高 30%，定价降至每百万 token 输入 8 美元、输出 40 美元。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部模型代际更新叠加榜单登顶与降价，是值得关注的模型竞争节点。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/arena/status/2119941204003770690">Arena.ai (@arena)</source>
-<category>大模型</category>
-<category>Anthropic</category>
-<category>模型评测</category>
-<category>定价</category>
 </item>
 </channel>
 </rss>
