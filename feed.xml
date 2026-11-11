@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Wed, 11 Nov 2026 09:39:00 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 11 Nov 2026 09:56:23 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Moore Threads Adapts MTT S5000 for MiniMax H3-Image on Day Zero</title><link>https://www.ithome.com/1/025/296.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/296.htm</guid>
+<pubDate>Wed, 11 Nov 2026 09:56:23 +0800</pubDate>
+<description>&lt;p&gt;Moore Threads announced that its MTT S5000 AI card and MUSA software stack were adapted for MiniMax H3-Image on the same day the model was open-sourced, enabling single-card generation of 4096×4096 high-resolution images. The adaptation reuses SGLang, MATE and MCCL components and targets the heavy attention overhead of diffusion models under multi-reference inputs, laying groundwork for Day-0 support of future image and video generation models.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;摩尔线程 MTT S5000 完成 MiniMax H3-Image 首日适配&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产 GPU 对开源生图模型实现首日适配，是观察国产算力生态成熟度的具体信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/025/296.htm">IT之家 · 智能时代</source>
+<category>算力</category>
+<category>摩尔线程</category>
+<category>MiniMax</category>
+<category>图像生成</category>
+<category>国产GPU</category>
+</item>
+<item><title>Chengdu Unveils Fifth-Generation Gongga Humanoid Robot Brain</title><link>https://www.ithome.com/1/025/295.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/295.htm</guid>
+<pubDate>Wed, 11 Nov 2026 09:54:14 +0800</pubDate>
+<description>&lt;p&gt;Chengdu Humanoid Robot Innovation Center has unveiled the fifth-generation Gongga humanoid robot, featuring a self-developed embodied intelligence system that claims to close the loop from structured perception to execution feedback. Its highlights include a physical spatiotemporal memory engine and a latent-space action-conditioned world model, though the &amp;#x27;world-leading&amp;#x27; claim lacks third-party validation and quantitative benchmarks.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;成都发布第五代贡嘎人形机器人具身大脑&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产人形机器人具身大脑的系统性迭代值得关注，但宣传口径大于可验证事实，需谨慎看待。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/025/295.htm">IT之家 · 智能时代</source>
+<category>人形机器人</category>
+<category>具身智能</category>
+<category>成都</category>
+</item>
+<item><title>Anthropic Expands Claude MCP Apps to Embed Third-Party App Interfaces</title><link>https://www.ithome.com/1/025/292.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/292.htm</guid>
+<pubDate>Wed, 11 Nov 2026 09:51:02 +0800</pubDate>
+<description>&lt;p&gt;Anthropic expanded Claude&amp;#x27;s MCP Apps from in-conversation views to full embedded application interfaces, adding App Tools and Embedded Sites so users can operate apps like Adobe, Atlassian, Box, HubSpot and Notion directly inside Claude. It also granted Pro, Max, Ultra and Team users a one-time full usage reset after token over-consumption issues. Built on the open Model Context Protocol, the apps can run in other MCP-compatible AI clients.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Claude 扩展 MCP Apps 支持第三方应用内嵌&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;MCP Apps 从对话视图升级为完整应用嵌入，是智能体与工具生态交互形态的实质演进。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/025/292.htm">IT之家 · 智能时代</source>
+<category>MCP</category>
+<category>Anthropic</category>
+<category>Claude</category>
+<category>智能体工具生态</category>
+</item>
 <item><title>Simple Few-Shot Prompting Lets Small Open Models Match Complex Methods</title><link>https://x.com/rohanpaul_ai/status/2120330418570539503</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120330418570539503</guid>
 <pubDate>Wed, 11 Nov 2026 09:39:00 +0800</pubDate>
 <description>&lt;p&gt;A paper finds that on natural language inference (NLI), a single short direct prompt with a few in-context examples lets small open models such as Gemma 2 9B, Mistral 7B and Llama 3.1 8B match or beat prior methods that relied on complex prompting and sampling tricks. Mistral 7B surpassed the 63.4% MNLI accuracy reported by a published in-context sampling method, and performance with 1 example was roughly equal to 15 examples.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;简单少样本提示即可让小模型追平复杂方法&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;结论反直觉且可直接复用：少样本直给提示即可替代复杂提示工程，对使用小模型做分类任务的开发者有实际参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 58/100&lt;/p&gt;</description>
@@ -76,6 +103,15 @@
 <category>华为</category>
 <category>鸿蒙智行</category>
 <category>汽车</category>
+</item>
+<item><title>Sixteen LLMs Play TIS-100 and Set 133 New Frontier Points</title><link>https://tis-100.wincon.dev/</link><guid isPermaLink="true">https://tis-100.wincon.dev/</guid>
+<pubDate>Wed, 11 Nov 2026 08:37:05 +0800</pubDate>
+<description>&lt;p&gt;Wincon Research had 16 frontier and open-weight LLMs attempt all 47 TIS-100 assembly puzzles with the community leaderboard withheld; the models produced 133 new frontier points, new records on 18 puzzles, and 3 outright cycle records. Human players then picked up and improved most of the generated programs within days, showing the outputs were genuinely usable engineering artifacts.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;16 款大模型挑战 TIS-100 编程游戏刷新 133 项纪录&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以经典汇编解谜游戏为基准，量化大模型在受限指令集与多目标权衡下的程序合成能力，并有人类接力验证。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 72/100&lt;/p&gt;</description>
+<source url="https://tis-100.wincon.dev/">Hacker News AI</source>
+<category>大模型评测</category>
+<category>程序合成</category>
+<category>TIS-100</category>
+<category>基准测试</category>
 </item>
 <item><title>Anthropic Adds Whiteboards and Sheets to Claude Artifacts</title><link>https://x.com/dotey/status/2120312745543315897</link><guid isPermaLink="true">https://x.com/dotey/status/2120312745543315897</guid>
 <pubDate>Wed, 11 Nov 2026 08:28:46 +0800</pubDate>
@@ -174,36 +210,36 @@
 <category>网页搜索</category>
 <category>LangGraph</category>
 </item>
-<item><title>Meta FAIR Open-Sources e-means Clustering with Up to 45x Speedup</title><link>https://x.com/Marktechpost/status/2120296028800954831</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2120296028800954831</guid>
+<item><title>Meta FAIR 开源 e-means 聚类提速 45 倍</title><link>https://x.com/Marktechpost/status/2120296028800954831</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2120296028800954831</guid>
 <pubDate>Wed, 11 Nov 2026 07:22:21 +0800</pubDate>
-<description>&lt;p&gt;Meta FAIR has open-sourced e-means, a drop-in replacement for k-means that reads small mini-batches and maintains exponential moving averages of cluster sums and counts, with two fitted scaling laws auto-selecting batch and step size. It reaches Lloyd&amp;#x27;s 25-epoch loss in just 1.4 to 2.6 epochs, delivering 10-45x GPU speedup over Flash-KMeans and 8-15x CPU speedup over Faiss, and clustered 10 billion DINO embeddings into 16.7M clusters in 2.5 epochs. The trade-off is stochastic runs and 64 GiB of float32 accumulators requiring sharding at that scale.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta FAIR 开源 e-means 聚类提速 45 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;经典聚类算法获得数量级加速且已开源，对大规模嵌入聚类与数据管线有直接实用价值。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · opensource · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Meta FAIR 开源了 k-means 的即插即用替代方案 e-means，通过小批量读取与指数移动平均维护簇统计量，并用两条拟合缩放律自动确定批大小与步长，无需额外调参。官方数据显示其仅需 1.4 至 2.6 个 epoch 即可达到 Lloyd 算法 25 个 epoch 的损失水平，GPU 上相对 Flash-KMeans 提速 10 至 45 倍，并成功将 100 亿条 DINO 嵌入聚为 1670 万个簇。代价是结果具有随机性，且大规模质心需分片存储。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;经典聚类算法获得数量级加速且已开源，对大规模嵌入聚类与数据管线有直接实用价值。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · opensource · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/Marktechpost/status/2120296028800954831">Marktechpost (@Marktechpost)</source>
 <category>开源</category>
 <category>聚类算法</category>
 <category>Meta FAIR</category>
 <category>无监督学习</category>
 </item>
-<item><title>Anthropic Launches IPO Roadshow With Up to $64.35 Billion Raise</title><link>https://www.ithome.com/1/025/209.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/209.htm</guid>
+<item><title>Anthropic 启动 IPO 最高募资 643.5 亿美元</title><link>https://www.ithome.com/1/025/209.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/209.htm</guid>
 <pubDate>Wed, 11 Nov 2026 07:08:45 +0800</pubDate>
-<description>&lt;p&gt;Anthropic has formally kicked off its IPO roadshow, offering 825 million Class A shares at $70 to $78 apiece for a base raise of up to $64.35 billion, with a Nasdaq listing under the ticker ANT. Combined with a separate $26 billion Class N private placement to investors including Google, Nvidia, Microsoft and TSMC, total proceeds could reach $90.4 billion at a fully diluted valuation of roughly $1.4 trillion.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 启动 IPO 最高募资 643.5 亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 头部实验室冲击万亿美元级 IPO，并绑定芯片与云厂商战略配售，是产业资本格局的标志性事件。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 92/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 正式启动 IPO 路演，拟发行 8.25 亿股 A 类普通股，发行价区间 70 至 78 美元，基础发行规模最高约 643.5 亿美元，将以代码 ANT 登陆纳斯达克。若计入向谷歌、英伟达、微软、台积电等投资方定向发行的 260 亿美元 N 类普通股，合计融资规模最高可达 904 亿美元，完全稀释估值约 1.4 万亿美元。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 头部实验室冲击万亿美元级 IPO，并绑定芯片与云厂商战略配售，是产业资本格局的标志性事件。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 92/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/025/209.htm">IT之家 · IT业界</source>
 <category>Anthropic</category>
 <category>IPO</category>
 <category>融资</category>
 <category>AI 产业</category>
 </item>
-<item><title>CoreWeave Revenue Surges 134% as Nine-Month Loss Widens 179%</title><link>https://www.ithome.com/1/025/200.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/200.htm</guid>
+<item><title>CoreWeave 前三季营收 83 亿美元亏损扩大 179%</title><link>https://www.ithome.com/1/025/200.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/200.htm</guid>
 <pubDate>Wed, 11 Nov 2026 06:57:27 +0800</pubDate>
-<description>&lt;p&gt;AI cloud provider CoreWeave posted $8.314 billion in revenue for the first nine months of fiscal 2026, up 133.6% year over year, while its net loss attributable to shareholders widened 178.9% to $2.075 billion and its debt-to-asset ratio climbed to 95.6%. The results highlight the capital-structure strain of the GPU cloud rental model as it scales heavy assets.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;CoreWeave 前三季营收 83 亿美元亏损扩大 179%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 算力租赁商的财务数据是观察算力经济性与资本开支周期的重要风向标。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;AI 云服务商 CoreWeave 2026 财年前三季度营收 83.14 亿美元、同比增长 133.6%，但归母净亏损扩大至 20.75 亿美元，同比增亏 178.9%，资产负债率升至 95.6%。营收高速扩张与亏损、杠杆同步恶化并存，折射出 GPU 算力租赁模式在重资产扩张期面临的资本结构压力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 算力租赁商的财务数据是观察算力经济性与资本开支周期的重要风向标。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/025/200.htm">IT之家 · IT业界</source>
 <category>算力基础设施</category>
 <category>CoreWeave</category>
 <category>财报</category>
 <category>AI 云服务</category>
 </item>
-<item><title>OpenAI Launches ChatGPT Businesses With Claimable Profiles and Ad-Backed Agents</title><link>https://www.ithome.com/1/025/206.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/206.htm</guid>
+<item><title>OpenAI 推出 ChatGPT Businesses 企业可建智能体并投放广告</title><link>https://www.ithome.com/1/025/206.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/206.htm</guid>
 <pubDate>Wed, 11 Nov 2026 06:55:36 +0800</pubDate>
-<description>&lt;p&gt;OpenAI launched a beta of ChatGPT Businesses, letting companies claim their merchant profiles, connect product data feeds, view aggregated interaction analytics, and build Business Agents. Firms can also buy sponsored placements for their agents and use them as landing targets for ChatGPT ads, initially for US e-commerce and online service businesses.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 推出 ChatGPT Businesses 企业可建智能体并投放广告&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 ChatGPT 从对话产品转向商业分发平台的关键一步，广告与智能体结合将重塑企业获客路径。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 74/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 发布 ChatGPT Businesses 测试版，企业可通过 Business Hub 认领商家资料、接入产品数据源、查看互动汇总数据，并创建 Business Agent。企业还能为智能体购买赞助展示位，并将其作为 ChatGPT 广告的落地目标，目前仅面向美国电商与在线服务企业开放。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 ChatGPT 从对话产品转向商业分发平台的关键一步，广告与智能体结合将重塑企业获客路径。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 74/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/025/206.htm">IT之家 · 智能时代</source>
 <category>OpenAI</category>
 <category>ChatGPT</category>
@@ -238,41 +274,6 @@
 <category>Claude</category>
 <category>办公协作</category>
 <category>数据看板</category>
-</item>
-<item><title>谷歌发布 Gemini 4 Carbon 推理模型，主打复杂编程与科研</title><link>https://www.ithome.com/1/025/203.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/203.htm</guid>
-<pubDate>Wed, 11 Nov 2026 06:43:37 +0800</pubDate>
-<description>&lt;p&gt;谷歌正式开放迄今最强的推理模型 Gemini 4 Carbon，重点面向复杂软件工程、多步骤智能体任务、科学研究和网络安全场景。该模型拥有约 105 万 Token 的统一上下文窗口，支持文本、图像、视频、音频和 PDF 输入，并提供三档推理强度；通过 Gemini API 和 AI Studio 向付费开发者开放，首发价为每百万输入 Token 2 美元、每百万输出 Token 10 美元。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;谷歌最强推理模型正式开放，参数、定价与上下文规格明确，是 AI 时间线上的重要节点。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 88/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/025/203.htm">IT之家 · 智能时代</source>
-<category>大模型</category>
-<category>谷歌</category>
-<category>推理模型</category>
-<category>Gemini</category>
-</item>
-<item><title>OpenAI 收购 AI 旅行智能体公司 Odessia</title><link>https://www.ithome.com/1/025/202.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/202.htm</guid>
-<pubDate>Wed, 11 Nov 2026 06:43:22 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 已收购成立仅一年的 AI 旅行智能体初创公司 Odessia，其创始人 Francis Davidson 同步加入 OpenAI，协助探索旅游业务方向。Odessia 曾获红杉资本领投的 600 万美元种子前融资，五个月前上线 AI 行程规划服务。OpenAI 未公布具体旅游产品或计划，仅称旅游是 ChatGPT 高频咨询话题之一。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;OpenAI 通过收购切入垂直智能体场景，反映大厂对旅行代理类 Agent 的布局意图。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/025/202.htm">IT之家 · 智能时代</source>
-<category>OpenAI</category>
-<category>智能体</category>
-<category>收购</category>
-<category>旅游</category>
-</item>
-<item><title>亚马逊 Bedrock 推出智能体评估工具集</title><link>https://aws.amazon.com/blogs/machine-learning/the-agent-evaluation-playbook-built-in-deepeval-and-autoeval-on-agentcore/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/the-agent-evaluation-playbook-built-in-deepeval-and-autoeval-on-agentcore/</guid>
-<pubDate>Wed, 11 Nov 2026 06:35:03 +0800</pubDate>
-<description>&lt;p&gt;亚马逊云科技在 Bedrock AgentCore 中推出智能体评估能力，统一提供内置评估器、DeepEval 与 AutoEval 三类方案，可通过 ListEvaluators API 一次性获取。文章指出，延迟与用户反馈等表层信号无法反映任务完成度、长会话话题漂移、PII 泄露与步骤遗漏等深层行为，团队应先明确成功标准与可观测的轨迹证据再选择评估器。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向生产环境智能体可观测与评估的实操方法论，对构建 Agent 的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 62/100&lt;/p&gt;</description>
-<source url="https://aws.amazon.com/blogs/machine-learning/the-agent-evaluation-playbook-built-in-deepeval-and-autoeval-on-agentcore/">AWS Machine Learning Blog</source>
-<category>智能体评估</category>
-<category>Amazon Bedrock</category>
-<category>可观测性</category>
-</item>
-<item><title>亚马逊推出 AI 安防无人机与巡逻机器人</title><link>https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/</link><guid isPermaLink="true">https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/</guid>
-<pubDate>Wed, 11 Nov 2026 06:35:01 +0800</pubDate>
-<description>&lt;p&gt;亚马逊发布 Ring Drone Cam 与 Ring Rover Cam 两款 AI 安防硬件，依托 AI Pilot 系统融合视觉模型、端侧传感器与云端处理，实现自主巡逻与避障。两款产品预计 2026 年底至 2027 年初上市，但室内飞行摄像头的隐私争议将随之升级。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大厂将具身智能与视觉模型落地到消费级安防硬件，是 AI 硬件化的重要信号。&lt;/p&gt;&lt;p&gt;Ars Technica AI · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/">Ars Technica AI</source>
-<category>AI 硬件</category>
-<category>具身智能</category>
-<category>亚马逊</category>
-<category>智能家居</category>
 </item>
 </channel>
 </rss>
