@@ -1,8 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Thu, 12 Nov 2026 04:15:15 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 12 Nov 2026 04:54:37 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>GitHub Outage Hits Actions, Pages and Copilot Services</title><link>https://www.githubstatus.com/incidents/dvy0t3mvh1lg</link><guid isPermaLink="true">https://www.githubstatus.com/incidents/dvy0t3mvh1lg</guid>
+<pubDate>Thu, 12 Nov 2026 04:54:37 +0800</pubDate>
+<description>&lt;p&gt;GitHub suffered a multi-product availability degradation on November 12, 2026, affecting Webhooks, Actions, Pages and Copilot products. The official status page issued a series of updates confirming an ongoing investigation, with no root cause or recovery timeline disclosed. For teams relying on GitHub CI/CD and the Copilot coding assistant, the incident directly disrupts delivery pipelines.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;GitHub 多产品故障波及 Actions 与 Copilot&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;GitHub 核心开发链路同时中断，直接影响全球依赖 Actions 与 Copilot 的工程团队。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.githubstatus.com/incidents/dvy0t3mvh1lg">Hacker News AI</source>
+<category>GitHub</category>
+<category>服务故障</category>
+<category>开发者工具</category>
+<category>Copilot</category>
+</item>
+<item><title>Emacs Adapts as AI Coding Tools Reshape Developer Workflows</title><link>https://commandlinesystems.com/magic.txt</link><guid isPermaLink="true">https://commandlinesystems.com/magic.txt</guid>
+<pubDate>Thu, 12 Nov 2026 04:26:32 +0800</pubDate>
+<description>&lt;p&gt;A veteran developer reflects on a year of using Claude Code, noting that AI now handles the full coding workflow from writing to debugging, prompting a rethink of the traditional editor ecosystem. The piece argues that programmable editors like Emacs embody the freedom to make computers do whatever you imagine, yet in the AI era that freedom increasingly means no one understands how it works.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 编程工具冲击下 Emacs 的生存之道&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以开发者亲历视角讨论 AI 编程工具对传统编辑器工作流的实质冲击，对关注工具链演进的读者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://commandlinesystems.com/magic.txt">Hacker News AI</source>
+<category>AI 编程</category>
+<category>Emacs</category>
+<category>Claude Code</category>
+<category>开发者工具</category>
+</item>
+<item><title>Huawei Open-Sources MACaQ Quantizer for Fast Local Inference</title><link>https://github.com/huawei-csl/MACaQ</link><guid isPermaLink="true">https://github.com/huawei-csl/MACaQ</guid>
+<pubDate>Thu, 12 Nov 2026 04:23:57 +0800</pubDate>
+<description>&lt;p&gt;Huawei has open-sourced MACaQ, an internal model-agnostic calibrated quantizer that spans text, image, video and audio models across llama.cpp, vLLM, Diffusers and PyTorch backends. It claims to quantize a 122B-parameter model in 64 minutes using only 32.5 GB of device memory, and to match MR-GPTQ and DuQuant++ perplexity on Llama-3-8B with 11x less quantization time.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;华为开源 MACaQ 量化器 122B 模型 64 分钟搞定&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;华为开源内部量化器并给出 122B 模型 64 分钟量化的硬指标，直接降低本地推理门槛，对开源与端侧部署读者价值明确。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 78/100&lt;/p&gt;</description>
+<source url="https://github.com/huawei-csl/MACaQ">Hacker News AI</source>
+<category>量化</category>
+<category>华为</category>
+<category>开源</category>
+<category>本地推理</category>
+<category>GGUF</category>
+</item>
 <item><title>Data Center Boom Faces Real-World Hurdles to Getting Built</title><link>https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/</link><guid isPermaLink="true">https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/</guid>
 <pubDate>Thu, 12 Nov 2026 04:15:15 +0800</pubDate>
 <description>&lt;p&gt;TechCrunch&amp;#x27;s Equity podcast highlights that many announced data center projects may never be built due to local opposition, permitting delays, and power constraints. Ascend Analytics executive Brent Nelson joins to distinguish realistic projects from speculative ones.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;数据中心建设热潮遭遇落地瓶颈&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;从算力基础设施落地视角审视 AI 数据中心项目的可行性风险，对关注算力供给的读者有参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · compute · signal 42/100&lt;/p&gt;</description>
@@ -28,6 +56,15 @@
 <category>算力基础设施</category>
 <category>人事变动</category>
 <category>数据中心</category>
+</item>
+<item><title>Meta Launches Muse Ember Small Model at $0.02 per Task</title><link>https://x.com/arena/status/2120609164116533606</link><guid isPermaLink="true">https://x.com/arena/status/2120609164116533606</guid>
+<pubDate>Thu, 12 Nov 2026 04:06:38 +0800</pubDate>
+<description>&lt;p&gt;Meta introduced Muse Ember, its smallest and most efficient model, targeting complex reasoning execution and everyday agent work with a 1M-token context window and native text, image, audio and video understanding. Across 6,000 real-world agentic sessions on Arena.ai, it posted a +1.7% net improvement roughly on par with GPT-6 Luna and Claude Haiku 5.5, while costing about $0.02 per task, roughly 4x less, and running about 12x and 3.5x faster respectively.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 发布 Muse Ember 小模型 单任务成本仅 0.02 美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;小模型以四分之一成本追平前沿效率基线，直接改写智能体部署的成本曲线。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/arena/status/2120609164116533606">Arena.ai (@arena)</source>
+<category>大模型</category>
+<category>Meta</category>
+<category>智能体</category>
+<category>推理成本</category>
 </item>
 <item><title>Data Center Boom Stalls on Power and Permitting Hurdles</title><link>https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/</link><guid isPermaLink="true">https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/</guid>
 <pubDate>Thu, 12 Nov 2026 04:02:14 +0800</pubDate>
@@ -189,18 +226,18 @@
 <category>决策模型</category>
 <category>基准评测</category>
 </item>
-<item><title>DeepMind&#x27;s AlphaProof Code Formally Verifies Signal&#x27;s Crypto Core in Four Weeks</title><link>https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years/</link><guid isPermaLink="true">https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years/</guid>
+<item><title>DeepMind AlphaProof Code 用四周完成 Signal 加密核心形式化验证</title><link>https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years/</link><guid isPermaLink="true">https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years/</guid>
 <pubDate>Thu, 12 Nov 2026 02:18:25 +0800</pubDate>
-<description>&lt;p&gt;Google DeepMind unveiled AlphaProof Code, an AI system that mathematically proves real production code satisfies its security specifications. Applied to Signal&amp;#x27;s encryption protocol, it completed in four weeks work that normally takes years: Gemini Carbon-based agents wrote over six million lines of Lean proofs, flagged only about one percent of the codebase for human review, and immediately caught two deliberately planted bugs. It marks the first time formal verification has moved from theoretical design down to the cryptographic core actually running on user devices.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;DeepMind AlphaProof Code 用四周完成 Signal 加密核心形式化验证&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是形式化验证首次在真实生产级密码学代码上跑通，且把周期从数年压缩到四周，对 AI 安全与软件工程都具节点意义。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 88/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Google DeepMind 发布 AlphaProof Code，一个能对真实生产代码进行数学级安全规格证明的 AI 系统。研究团队以 Signal 加密协议为对象，在四周内完成通常需数年的形式化验证工作，AI 代理用 Lean 证明语言写出超 600 万行证明，仅约 1% 代码需人工复核，并当场捕获两个预埋漏洞。这标志着形式化验证从理论设计层首次下沉到用户设备上实际运行的密码学核心代码。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是形式化验证首次在真实生产级密码学代码上跑通，且把周期从数年压缩到四周，对 AI 安全与软件工程都具节点意义。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 88/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years/">The Decoder</source>
 <category>形式化验证</category>
 <category>Google DeepMind</category>
 <category>AI 安全</category>
 <category>密码学</category>
 </item>
-<item><title>TSMC to Invest $1 Billion in Anthropic and OpenAI</title><link>https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/</link><guid isPermaLink="true">https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/</guid>
+<item><title>台积电拟向 Anthropic 与 OpenAI 投资 10 亿美元</title><link>https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/</link><guid isPermaLink="true">https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/</guid>
 <pubDate>Thu, 12 Nov 2026 02:16:40 +0800</pubDate>
-<description>&lt;p&gt;TSMC&amp;#x27;s board approved up to $500 million for OpenAI preferred stock and another $500 million for Anthropic common shares at its expected IPO price, totaling up to $1 billion. The move gives one of the biggest beneficiaries of the AI data center buildout direct stakes in leading AI developers, seen as a confidence boost for a strained AI trade, though analysts warn circular financing among investors, suppliers and customers is muddying true demand signals.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;台积电拟向 Anthropic 与 OpenAI 投资 10 亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;算力供应链龙头首次以股权方式深度绑定两大模型厂商，是观察 AI 资本循环与需求真实性的关键信号。&lt;/p&gt;&lt;p&gt;Ars Technica AI · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;台积电董事会批准向 OpenAI 优先股投资至多 5 亿美元，并以 Anthropic 预期 IPO 价格购入等额普通股，合计最高 10 亿美元。此举使这家 AI 数据中心建设潮中的最大受益者之一直接持有头部 AI 开发商股权，被视为对承压的 AI 交易注入信心，但分析师警告投资方、供应商与客户间的循环融资正让真实需求愈发难以评估。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;算力供应链龙头首次以股权方式深度绑定两大模型厂商，是观察 AI 资本循环与需求真实性的关键信号。&lt;/p&gt;&lt;p&gt;Ars Technica AI · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/">Ars Technica AI</source>
 <category>台积电</category>
 <category>Anthropic</category>
@@ -208,58 +245,23 @@
 <category>投融资</category>
 <category>算力供应链</category>
 </item>
-<item><title>Five Frontier Models Texted Real People on Dating App for Six Days</title><link>https://x.com/rohanpaul_ai/status/2120578018532016329</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120578018532016329</guid>
+<item><title>Claude Fable 5.2 登顶 Agent Arena 榜首</title><link>https://x.com/arena/status/2120579593979695541</link><guid isPermaLink="true">https://x.com/arena/status/2120579593979695541</guid>
+<pubDate>Thu, 12 Nov 2026 02:09:08 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 发布 Claude Fable 5.2 (Max)，在 Arena.ai 的 Agent Arena 上以 +30.4% 净提升登顶，约为第二名 Opus 5.5 的 1.6 倍，并在 Code、Work、Chat 三个子榜同时位列第一。相较 Fable 5.1，其排名从第 5 升至第 1，单任务中位成本下降 6% 至 7.3 美元，API 价格从每百万 token 10/50 美元降至 8/40 美元。该评测基于全球社区 4700 个真实智能体会话。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部模型在真实智能体任务评测中大幅刷新榜首，且同步降价，对关注模型能力与成本曲线的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/arena/status/2120579593979695541">Arena.ai (@arena)</source>
+<category>大模型</category>
+<category>Anthropic</category>
+<category>智能体评测</category>
+<category>Agent Arena</category>
+</item>
+<item><title>5 款前沿模型在约会应用与真人聊天 6 天</title><link>https://x.com/rohanpaul_ai/status/2120578018532016329</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120578018532016329</guid>
 <pubDate>Thu, 12 Nov 2026 02:02:52 +0800</pubDate>
-<description>&lt;p&gt;An experiment ran five frontier models on a dating app for six days, producing 1,277 conversations in which 510 people agreed to meet and 355 shared their phone number, while only 8 asked whether they were talking to a bot. The models were required to disclose being AI if asked, unlike a real scammer, highlighting deception risks and safety boundaries for autonomous agents in social settings.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;5 款前沿模型在约会应用与真人聊天 6 天&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以具体数据揭示前沿模型在真实社交场景中的说服力与披露困境，对智能体安全治理有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 71/100&lt;/p&gt;</description>
+<description>&lt;p&gt;一项实验让 5 款前沿模型在约会应用上与真人对话 6 天，产生 1277 段对话，其中 510 人同意见面、355 人给出手机号，仅 8 人怀疑对方是机器人。模型被要求在被问及时必须承认自己是 AI，但真实诈骗者显然不会这样做，这凸显了自主智能体在社交场景中的欺骗风险与安全边界问题。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以具体数据揭示前沿模型在真实社交场景中的说服力与披露困境，对智能体安全治理有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 71/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2120578018532016329">Rohan Paul (@rohanpaul_ai)</source>
 <category>智能体</category>
 <category>AI 安全</category>
 <category>社会实验</category>
 <category>前沿模型</category>
-</item>
-<item><title>Big Walk 承认用 AI 修 Bug 引发独立游戏界争议</title><link>https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/</link><guid isPermaLink="true">https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/</guid>
-<pubDate>Thu, 12 Nov 2026 01:37:32 +0800</pubDate>
-<description>&lt;p&gt;独立游戏《Big Walk》开发商 House House 迟公开承认在游戏中使用了少量 AI 工具修复 Bug，引发独立游戏社区激烈争论。独立游戏节（IGF）50 余名评委中有 19 人因此事公开表态，指出生成式 AI 工具提交作品数量显著增加，并列举其对生态、经济、心理与劳动层面的危害。事件折射出游戏行业 AI 使用披露规范缺失与从业者信任危机。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;独立游戏界围绕 AI 使用披露爆发实质争议，涉及权威奖项评审与行业规范，值得关注。&lt;/p&gt;&lt;p&gt;Ars Technica AI · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/">Ars Technica AI</source>
-<category>AI 使用披露</category>
-<category>独立游戏</category>
-<category>行业争议</category>
-<category>生成式 AI</category>
-</item>
-<item><title>苹果 ADM 3 Cloud 图像编辑模型排名第 42</title><link>https://x.com/ArtificialAnlys/status/2120569836204097554</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2120569836204097554</guid>
-<pubDate>Thu, 12 Nov 2026 01:30:21 +0800</pubDate>
-<description>&lt;p&gt;独立评测机构 Artificial Analysis 将苹果用于 iPhone 照片编辑的 ADM 3 Cloud 模型纳入其图像编辑与文生图竞技场评测，结果显示该模型在 AA-Image-Editing v2.1 榜单中位列第 42 名，在 AA-Image-T2I v2.1 榜单中位列第 85 名。这是对苹果端侧/云端图像 AI 能力的一次第三方量化定位，表明其在编辑任务上表现中等，在纯文生图能力上明显落后于头部模型。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次以第三方竞技场数据量化苹果图像编辑模型的行业位次，对关注端侧 AI 与图像生成格局的读者有参考价值。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/ArtificialAnlys/status/2120569836204097554">Artificial Analysis (@ArtificialAnlys)</source>
-<category>图像生成</category>
-<category>苹果</category>
-<category>模型评测</category>
-</item>
-<item><title>llm 0.37.2 修复 API 密钥泄露漏洞</title><link>https://simonwillison.net/2026/Nov/11/llm/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/11/llm/</guid>
-<pubDate>Thu, 12 Nov 2026 01:19:52 +0800</pubDate>
-<description>&lt;p&gt;Simon Willison 的 llm 命令行工具发布 0.37.2 版本，修复了两个可能导致 OpenAI API 密钥被意外发送给第三方兼容端点的安全漏洞。漏洞源于 extra-openai-models.yaml 配置机制：当 api_key_name 指定的密钥从未存储，或对 responses 模型强制使用 chat_completions 时，密钥可能被泄露。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及开发者工具中真实的 API 密钥泄露风险，对使用 llm 接入第三方端点的用户有直接安全影响。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://simonwillison.net/2026/Nov/11/llm/">Simon Willison 博客</source>
-<category>安全漏洞</category>
-<category>开发者工具</category>
-<category>API 密钥</category>
-</item>
-<item><title>OpenAI 三季度营收近 100 亿美元亏损扩大至 109 亿</title><link>https://x.com/rohanpaul_ai/status/2120565946561765645</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120565946561765645</guid>
-<pubDate>Thu, 12 Nov 2026 01:14:54 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 向投资者披露，第三季度营收环比增长近 50% 至 100 亿美元，但亏损同步扩大至 109 亿美元。GPT 5.6、Astra 及图像模型的 API 需求是扭转二季度疲软态势的主要动力。营收高增与亏损扩大并存，凸显前沿模型规模化商业化的成本压力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部模型厂商首次披露百亿美元级季度营收与同步扩大的亏损，是观察 AI 商业化与成本结构的关键财务信号。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2120565946561765645">Rohan Paul (@rohanpaul_ai)</source>
-<category>OpenAI</category>
-<category>财务数据</category>
-<category>商业化</category>
-<category>API</category>
-</item>
-<item><title>CMU 与 JetBrains 研究：Token 消耗量无法衡量 AI 智能体产出</title><link>https://x.com/rohanpaul_ai/status/2120565644899012710</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120565644899012710</guid>
-<pubDate>Thu, 12 Nov 2026 01:13:42 +0800</pubDate>
-<description>&lt;p&gt;卡内基梅隆大学与 JetBrains 联合研究发现，工程师的 Token 消耗量与其代码提交量仅呈弱相关：同一工程师消耗翻倍，提交量仅增加约 10%。研究基于 404 名 JetBrains 工程师 5 周的编码智能体使用数据与提交记录，并辅以 412 人的企业调研。作者建议 Token 消耗只用于预算管理，评估智能体辅助工作应依据任务与结果证据。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个将同一批工程师的 Token 消耗与代码产出长期对照的实证研究，直接挑战企业以 Token 用量衡量生产力的做法。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2120565644899012710">Rohan Paul (@rohanpaul_ai)</source>
-<category>AI 智能体</category>
-<category>开发者生产力</category>
-<category>实证研究</category>
-<category>JetBrains</category>
-<category>卡内基梅隆大学</category>
 </item>
 </channel>
 </rss>
