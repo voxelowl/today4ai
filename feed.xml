@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Thu, 12 Nov 2026 01:14:54 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 12 Nov 2026 01:37:32 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Big Walk AI Disclosure Sparks Indie Game Industry Reckoning</title><link>https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/</link><guid isPermaLink="true">https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/</guid>
+<pubDate>Thu, 12 Nov 2026 01:37:32 +0800</pubDate>
+<description>&lt;p&gt;House House, developer of indie hit Big Walk, belatedly disclosed minimal AI use to fix a bug, triggering a fierce controversy across the indie game community. Nineteen of the 50-plus Independent Games Festival jurors went public, citing a significant rise in generative-AI-assisted submissions and warning of ecological, economic, psychological and labor harms. The episode exposes the absence of disclosure norms and a deepening trust crisis over AI in game development.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Big Walk 承认用 AI 修 Bug 引发独立游戏界争议&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;独立游戏界围绕 AI 使用披露爆发实质争议，涉及权威奖项评审与行业规范，值得关注。&lt;/p&gt;&lt;p&gt;Ars Technica AI · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/">Ars Technica AI</source>
+<category>AI 使用披露</category>
+<category>独立游戏</category>
+<category>行业争议</category>
+<category>生成式 AI</category>
+</item>
 <item><title>OpenAI Q3 Revenue Nears $10B as Losses Widen to $10.9B</title><link>https://x.com/rohanpaul_ai/status/2120565946561765645</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120565946561765645</guid>
 <pubDate>Thu, 12 Nov 2026 01:14:54 +0800</pubDate>
 <description>&lt;p&gt;OpenAI told investors its third-quarter revenue rose nearly 50% to $10 billion, while its loss widened to $10.9 billion. API demand for GPT 5.6, Astra and image models drove the rebound from a soft second quarter, underscoring the cost pressure of scaling frontier-model commercialization.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 三季度营收近 100 亿美元亏损扩大至 109 亿&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部模型厂商首次披露百亿美元级季度营收与同步扩大的亏损，是观察 AI 商业化与成本结构的关键财务信号。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 78/100&lt;/p&gt;</description>
@@ -74,6 +83,16 @@
 <category>AWS</category>
 <category>算力基础设施</category>
 </item>
+<item><title>AWS Launches AI-PDLC Multi-Agent Product Development Pipeline</title><link>https://aws.amazon.com/blogs/machine-learning/accelerating-product-development-with-ai-driven-lifecycle-management-ai-pdlc-in-aws-quick/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/accelerating-product-development-with-ai-driven-lifecycle-management-ai-pdlc-in-aws-quick/</guid>
+<pubDate>Thu, 12 Nov 2026 00:05:33 +0800</pubDate>
+<description>&lt;p&gt;AWS released AI-PDLC, a solution built on Amazon Quick that orchestrates five specialist agents plus an orchestrator across the product development lifecycle, with human approval embedded at key steps. It reconnects scattered signals from Slack, Salesforce, Jira and other tools to the decisions they inform, with code available on GitHub.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS 推出 AI-PDLC 多智能体产品研发流水线&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了多智能体编排在企业产品研发流程中的具体落地形态，并附带可复现的开源实现。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 58/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/accelerating-product-development-with-ai-driven-lifecycle-management-ai-pdlc-in-aws-quick/">AWS Machine Learning Blog</source>
+<category>智能体</category>
+<category>AWS</category>
+<category>产品研发</category>
+<category>多智能体编排</category>
+<category>开源</category>
+</item>
 <item><title>Klad Launches Source-Available Paint App That Coding Agents Can Drive</title><link>https://github.com/klad-app/klad</link><guid isPermaLink="true">https://github.com/klad-app/klad</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:50 +0800</pubDate>
 <description>&lt;p&gt;Klad is a source-available 2D painting and animation app where a human paints with a pen while a coding agent paints through the klad command line, using the same brushes on the same canvas with instant visibility of each other&amp;#x27;s strokes. It contains no image model: every stroke retains its path, pressure, brush and color, so individual elements can be edited precisely instead of rerolled.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Klad 开源绘画应用让编码智能体直接执笔作画&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;它把编码智能体的能力从写代码延伸到可精确编辑的矢量绘画与动画，为智能体工具链提供了一个新范式。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
@@ -82,6 +101,14 @@
 <category>开源项目</category>
 <category>绘画动画</category>
 <category>命令行</category>
+</item>
+<item><title>Google Labs Launches Tabletop for Real-Time Group Collaboration</title><link>https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/</link><guid isPermaLink="true">https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/</guid>
+<pubDate>Thu, 12 Nov 2026 00:00:00 +0800</pubDate>
+<description>&lt;p&gt;Google Labs has introduced Tabletop, an experimental real-time collaboration space for group scenarios such as family trips, rec leagues and potlucks. Members can add links, files and ideas, then prompt @tabletop or pick a template to generate itineraries, polls, expense splitters and tournament brackets. It works like a Google Doc with simultaneous editing and is rolling out in the U.S. (18+) via waitlist.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Google Labs 推出 Tabletop 多人实时协作空间&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Google Labs 在 AI 辅助群体协作方向的新实验，展示了生成式能力嵌入多人实时文档的落地形态。&lt;/p&gt;&lt;p&gt;Google AI Blog · tools · signal 38/100&lt;/p&gt;</description>
+<source url="https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/">Google AI Blog</source>
+<category>Google Labs</category>
+<category>协作工具</category>
+<category>生成式 AI</category>
 </item>
 <item><title>Google Launches Tabletop Experimental AI Collaboration Tool</title><link>https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability</link><guid isPermaLink="true">https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0800</pubDate>
@@ -99,6 +126,15 @@
 <category>CoreWeave</category>
 <category>资本开支</category>
 <category>数据中心</category>
+</item>
+<item><title>AWS Open-Sources UAEF for Framework-Agnostic Agent Evaluation</title><link>https://aws.amazon.com/blogs/machine-learning/uaef-a-framework-agnostic-system-for-closed-loop-evaluation-of-ai-agents/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/uaef-a-framework-agnostic-system-for-closed-loop-evaluation-of-ai-agents/</guid>
+<pubDate>Wed, 11 Nov 2026 23:50:55 +0800</pubDate>
+<description>&lt;p&gt;AWS has open-sourced the Universal Agent Evaluation Framework (UAEF), a unified evaluation engine that decouples agent frameworks from evaluation logic and normalizes trace formats across LangGraph, LangChain, Strands Agents, and Amazon Bedrock AgentCore. It spans tool calling, response quality, responsible AI, performance, multi-turn conversation, multi-agent coordination, and reasoning, and has been used by 12 organizations in telecom, healthcare, and financial services.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS 开源 UAEF 实现跨框架智能体闭环评测&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;跨框架统一评测是智能体工程化的真实痛点，AWS 开源实现并给出多行业落地数据，具备直接复用价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 62/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/uaef-a-framework-agnostic-system-for-closed-loop-evaluation-of-ai-agents/">AWS Machine Learning Blog</source>
+<category>智能体评测</category>
+<category>AWS</category>
+<category>开源工具</category>
+<category>Agent 框架</category>
 </item>
 <item><title>Yogurt Launches Open-Source On-Device AI Meeting Notes App</title><link>https://github.com/FrigadeHQ/yogurt</link><guid isPermaLink="true">https://github.com/FrigadeHQ/yogurt</guid>
 <pubDate>Wed, 11 Nov 2026 23:33:06 +0800</pubDate>
@@ -181,9 +217,9 @@
 <category>开源权重</category>
 <category>ERNIE</category>
 </item>
-<item><title>DeepMind Unveils AlphaGenome 2 to Predict Cell-Type-Specific Variant Effects</title><link>https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model</guid>
+<item><title>DeepMind 发布 AlphaGenome 2 精准预测细胞类型变异效应</title><link>https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model</guid>
 <pubDate>Wed, 11 Nov 2026 23:00:00 +0800</pubDate>
-<description>&lt;p&gt;Google DeepMind has released AlphaGenome 2, a successor to its genome-predicting model that forecasts how genetic variants affect individual cell types and states. The model targets the challenge that the same variant can have divergent effects across cells, offering finer resolution for disease mechanism research and therapeutic discovery.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;DeepMind 发布 AlphaGenome 2 精准预测细胞类型变异效应&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;DeepMind 在 AI for Science 方向的旗舰模型迭代，直接指向疾病机理与药物发现，具备实质技术增量。&lt;/p&gt;&lt;p&gt;The Verge AI · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Google DeepMind 发布 AlphaGenome 2，这是其基因组预测模型 AlphaGenome 的升级版，核心能力是预测遗传变异在特定细胞类型与细胞状态下的差异化影响。该模型针对同一变异在不同细胞中效应迥异这一难题，为疾病机理研究与新疗法发现提供更精细的解析工具。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;DeepMind 在 AI for Science 方向的旗舰模型迭代，直接指向疾病机理与药物发现，具备实质技术增量。&lt;/p&gt;&lt;p&gt;The Verge AI · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model">The Verge AI</source>
 <category>AI for Science</category>
 <category>基因组学</category>
@@ -199,27 +235,27 @@
 <category>企业级 AI</category>
 <category>成本治理</category>
 </item>
-<item><title>Anthropic Seeks $90.4B in Record-Breaking IPO</title><link>https://x.com/rohanpaul_ai/status/2120526677247939001</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120526677247939001</guid>
+<item><title>Anthropic 启动 IPO 拟募资 904 亿美元</title><link>https://x.com/rohanpaul_ai/status/2120526677247939001</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120526677247939001</guid>
 <pubDate>Wed, 11 Nov 2026 22:38:51 +0800</pubDate>
-<description>&lt;p&gt;Anthropic has launched an IPO and private placement seeking up to $90.4B, which would surpass SpaceX&amp;#x27;s $85.7B record as the largest listing ever. The roughly $1.4T fully diluted valuation target sits below some investors&amp;#x27; expectations, leaving room for strong demand to lift the final price. Anchor-size institutional orders already exceed available shares several times over, with Goldman Sachs and Morgan Stanley leading a 22-bank syndicate and the stock expected to trade on Nasdaq as ANT.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 启动 IPO 拟募资 904 亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 头部公司冲击史上最大 IPO，估值与认购热度直接反映资本市场对前沿模型厂商的定价共识。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 88/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 启动 IPO 与私募配售，拟募资至多 904 亿美元，将超越 SpaceX 的 857 亿美元纪录成为史上最大规模上市。其完全稀释估值目标约 1.4 万亿美元，低于部分投资者预期，为强劲需求留出上调空间。机构锚定订单已达可售份额的数倍，高盛与摩根士丹利领衔 22 家承销行，股票预计以 ANT 代码在纳斯达克全球精选市场交易。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 头部公司冲击史上最大 IPO，估值与认购热度直接反映资本市场对前沿模型厂商的定价共识。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 88/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2120526677247939001">Rohan Paul (@rohanpaul_ai)</source>
 <category>融资上市</category>
 <category>Anthropic</category>
 <category>估值</category>
 <category>资本市场</category>
 </item>
-<item><title>Adobe Unveils Four Experimental AI Projects Turning Photos into 3D Scenes</title><link>https://www.ithome.com/1/025/815.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/815.htm</guid>
+<item><title>Adobe 公布四项 AI 实验项目 照片可转 3D 场景</title><link>https://www.ithome.com/1/025/815.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/815.htm</guid>
 <pubDate>Wed, 11 Nov 2026 22:32:05 +0800</pubDate>
-<description>&lt;p&gt;At Adobe MAX, Adobe unveiled four experimental AI projects, including Project Screen Test for directing AI characters through conversation, Project Sight Span for converting ordinary photos into explorable 3D spaces, and the audio tool Sound Bender. All remain research-stage with no confirmed product integration, but they signal Adobe&amp;#x27;s push to embed generative AI into creative workflows while preserving precise creator control.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Adobe 公布四项 AI 实验项目 照片可转 3D 场景&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Adobe 展示生成式 AI 与创意工具融合的实验方向，对关注 AI 视频与 3D 内容生成的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Adobe 在 MAX 大会上公布四项实验性 AI 项目，包括通过对话指导 AI 角色试镜的 Project Screen Test、将普通照片转为可探索 3D 空间的 Project Sight Span，以及声音编辑工具 Sound Bender 等。这些功能均处于研究阶段，尚未确定是否整合进正式产品，但体现了 Adobe 将生成式 AI 融入创意工作流、强化创作者精细控制的方向。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Adobe 展示生成式 AI 与创意工具融合的实验方向，对关注 AI 视频与 3D 内容生成的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/025/815.htm">IT之家 · 智能时代</source>
 <category>Adobe</category>
 <category>生成式 AI</category>
 <category>3D 生成</category>
 <category>AI 视频</category>
 </item>
-<item><title>Anthropic Says AI Cuts AMD Chip Migration From Months to Three Days</title><link>https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/</link><guid isPermaLink="true">https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/</guid>
+<item><title>Anthropic 称 AI 将 AMD 芯片迁移周期从数月压缩至 3 天</title><link>https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/</link><guid isPermaLink="true">https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/</guid>
 <pubDate>Wed, 11 Nov 2026 22:25:20 +0800</pubDate>
-<description>&lt;p&gt;Anthropic co-founder Tom Brown says the company has escaped single-vendor dependence on Nvidia via a multi-chip strategy, training and serving Claude across all four major chip families as one interchangeable compute pool. Its frontier model Mythos reportedly wrote or ported nearly 100 percent of the kernels for an AMD GPU migration itself in just three days, versus the usual six to twelve months. The claim directly challenges Nvidia&amp;#x27;s CUDA moat, and Anthropic plans to deploy up to two gigawatts of AMD Instinct MI455X GPUs.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 称 AI 将 AMD 芯片迁移周期从数月压缩至 3 天&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 自主完成芯片算子迁移，直接动摇 CUDA 生态壁垒，是算力格局的关键信号。&lt;/p&gt;&lt;p&gt;The Decoder · compute · signal 88/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 联合创始人 Tom Brown 称，公司已通过多芯片战略摆脱对英伟达的单一依赖，将 Claude 的训练与推理分散在四大芯片家族上，并视为统一可互换的算力池。其前沿模型 Mythos 在迁移至 AMD GPU 时几乎自主完成近 100% 的算子内核编写与移植，耗时仅 3 天，而传统流程需 6 至 12 个月。此举直接冲击英伟达 CUDA 生态的核心护城河，Anthropic 还计划部署最高 2 吉瓦的 AMD Instinct MI455X 算力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 自主完成芯片算子迁移，直接动摇 CUDA 生态壁垒，是算力格局的关键信号。&lt;/p&gt;&lt;p&gt;The Decoder · compute · signal 88/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/">The Decoder</source>
 <category>算力</category>
 <category>Anthropic</category>
@@ -235,43 +271,6 @@
 <category>Pharo</category>
 <category>Smalltalk</category>
 <category>开发者工具</category>
-</item>
-<item><title>Atuin Threads 发布 跨机器同步智能体会话</title><link>https://blog.atuin.sh/threads-agent-sessions/</link><guid isPermaLink="true">https://blog.atuin.sh/threads-agent-sessions/</guid>
-<pubDate>Wed, 11 Nov 2026 22:10:46 +0800</pubDate>
-<description>&lt;p&gt;Atuin 在 18.24+ 版本中推出 Threads 功能，为所有编码智能体会话提供可搜索、跨机器同步的历史记录。用户可在 Claude Code 中启动任务，随后在另一台机器的 Codex 中恢复，并保留完整上下文。该功能通过 `atuin resume` 与内置 MCP 安装接入现有工作流。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向多机多智能体工作流的实用工具更新，解决会话碎片化与不可检索的真实痛点。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
-<source url="https://blog.atuin.sh/threads-agent-sessions/">Hacker News AI</source>
-<category>开发者工具</category>
-<category>智能体</category>
-<category>MCP</category>
-<category>Atuin</category>
-</item>
-<item><title>DeepMind 用 AI 形式化验证 Signal 加密协议</title><link>https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/</link><guid isPermaLink="true">https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/</guid>
-<pubDate>Wed, 11 Nov 2026 22:08:57 +0800</pubDate>
-<description>&lt;p&gt;Google DeepMind 研究团队借助智能体 AI 框架 AlphaProof Code，在四周内对 Signal 协议的多项核心密码学保证完成数学形式化验证。这既为保护 Signal、Google Messages 和 WhatsApp 海量通信的加密方案提供了独立验证，也展示了 AI 辅助形式化验证在真实密码学工程中的可行性。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 辅助形式化验证首次落地到主流加密协议的关键案例，兼具安全与 AI 能力双重意义。&lt;/p&gt;&lt;p&gt;Ars Technica AI · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/">Ars Technica AI</source>
-<category>形式化验证</category>
-<category>密码学</category>
-<category>Google DeepMind</category>
-<category>AI 安全</category>
-</item>
-<item><title>DeepL 发布语音翻译模型 Aure 实时复现语气情绪</title><link>https://www.ithome.com/1/025/810.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/810.htm</guid>
-<pubDate>Wed, 11 Nov 2026 22:06:51 +0800</pubDate>
-<description>&lt;p&gt;DeepL 推出语音 AI 翻译模型 Aure，作为 DeepL Voice 的底层驱动核心，可在实时翻译中复现说话者的语气起伏、情绪流转、重音与语速变化。该模型建立在 DeepL 声音保留技术之上，首发支持英德西法意日葡韩八种语言，暂不支持中文，已接入网页会议版、面对面交谈版与语音 API。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;语音翻译在情感与韵律保真上的实质升级，且已落地到具体产品与 API，对关注多模态与实时语音的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/025/810.htm">IT之家 · 智能时代</source>
-<category>语音翻译</category>
-<category>DeepL</category>
-<category>多模态</category>
-<category>语音AI</category>
-</item>
-<item><title>亚马逊论文发现企业流程中单智能体通常优于多智能体</title><link>https://x.com/rohanpaul_ai/status/2120517708890706071</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120517708890706071</guid>
-<pubDate>Wed, 11 Nov 2026 22:03:13 +0800</pubDate>
-<description>&lt;p&gt;亚马逊一项受控实验在 13 个企业流程上对比了 4 种智能体架构（共 8 个变体），发现多智能体或技能化配置的 token 消耗是单智能体的 1.4 至 4.7 倍，而任务成功率提升有限。首个多智能体版本甚至以 58.2% 对 67.4% 的任务成功率落后于单智能体，修复后的版本虽胜出但 token 成本最高。作者建议默认从单智能体起步，按工作流衡量成功率，先修实现缺陷再考虑复杂架构。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为企业智能体架构选型提供了罕见的受控实验证据，直接挑战多智能体默认更优的流行假设。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 72/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2120517708890706071">Rohan Paul (@rohanpaul_ai)</source>
-<category>智能体</category>
-<category>多智能体</category>
-<category>企业流程</category>
-<category>亚马逊</category>
-<category>架构选型</category>
 </item>
 </channel>
 </rss>
