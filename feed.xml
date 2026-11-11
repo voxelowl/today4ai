@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Wed, 11 Nov 2026 09:56:23 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 11 Nov 2026 10:30:59 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>AMD Unveils Instinct Coder 355 with Eight MI355X Accelerators</title><link>https://www.ithome.com/1/025/305.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/305.htm</guid>
+<pubDate>Wed, 11 Nov 2026 10:30:59 +0800</pubDate>
+<description>&lt;p&gt;AMD and Spectro Cloud launched Instinct Coder 355, an enterprise AI coding platform built on eight Instinct MI355X accelerators plus dual 64-core EPYC 9575F CPUs, running GLM-5.3 locally at 98% of frontier-model performance. Each node serves up to 85 developers (50 concurrent) and defaults to on-prem compute instead of cloud APIs, targeting private enterprise coding workloads.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AMD 推出本地 AI 编程平台 搭载 8 张 MI355X&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AMD 以整机方案切入企业私有化 AI 编程市场的标志性动作，硬件规格与本地推理性能数据具体可查。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 68/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/025/305.htm">IT之家 · 智能时代</source>
+<category>AMD</category>
+<category>AI 编程</category>
+<category>本地推理</category>
+<category>企业级 AI</category>
+</item>
+<item><title>Alibaba Teases Qwen4 Launch with Preview Model Now Live</title><link>https://www.ithome.com/1/025/301.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/301.htm</guid>
+<pubDate>Wed, 11 Nov 2026 10:10:29 +0800</pubDate>
+<description>&lt;p&gt;Alibaba has announced that its next-generation Qwen4 model is coming, emphasizing deeper knowledge understanding, richer world perception, and improved coding and agentic capabilities. A Qwen4-Max preview is already live on Alibaba&amp;#x27;s Token Plan, with products such as Qwen Office, Qoder, Qwen App and QwenStudio integrating it. No parameter counts, benchmark results or official release date were disclosed, and the announcement leans on discounted trial pricing.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;阿里 Qwen4 官宣即将发布 预览版已上线&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产头部基座模型代际更新，但当前仅有预告与预览入口，缺乏可验证参数与评测数据。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/025/301.htm">IT之家 · 智能时代</source>
+<category>大模型</category>
+<category>阿里</category>
+<category>Qwen4</category>
+</item>
 <item><title>Moore Threads Adapts MTT S5000 for MiniMax H3-Image on Day Zero</title><link>https://www.ithome.com/1/025/296.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/296.htm</guid>
 <pubDate>Wed, 11 Nov 2026 09:56:23 +0800</pubDate>
 <description>&lt;p&gt;Moore Threads announced that its MTT S5000 AI card and MUSA software stack were adapted for MiniMax H3-Image on the same day the model was open-sourced, enabling single-card generation of 4096×4096 high-resolution images. The adaptation reuses SGLang, MATE and MCCL components and targets the heavy attention overhead of diffusion models under multi-reference inputs, laying groundwork for Day-0 support of future image and video generation models.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;摩尔线程 MTT S5000 完成 MiniMax H3-Image 首日适配&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产 GPU 对开源生图模型实现首日适配，是观察国产算力生态成熟度的具体信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 58/100&lt;/p&gt;</description>
@@ -193,17 +210,17 @@
 <category>智能体</category>
 <category>FishAudio</category>
 </item>
-<item><title>LiteDRAM Offers Configurable Open Source DRAM Core for FPGAs</title><link>https://github.com/enjoy-digital/litedram/blob/master/doc/manual/03_dram_interface.md</link><guid isPermaLink="true">https://github.com/enjoy-digital/litedram/blob/master/doc/manual/03_dram_interface.md</guid>
+<item><title>LiteDRAM 开源可配置 DRAM 核心解析</title><link>https://github.com/enjoy-digital/litedram/blob/master/doc/manual/03_dram_interface.md</link><guid isPermaLink="true">https://github.com/enjoy-digital/litedram/blob/master/doc/manual/03_dram_interface.md</guid>
 <pubDate>Wed, 11 Nov 2026 07:41:41 +0800</pubDate>
-<description>&lt;p&gt;LiteDRAM is a small-footprint, configurable DRAM core within the LiteX ecosystem, described in Migen and offering a vendor-agnostic generic SDR PHY with 1:1 or 1:2 frequency ratios validated on Xilinx, Altera and Lattice devices. It can be used as a LiteX library or exported as Verilog RTL, and highlights that DDR3+ interfaces require boot-time PHY tuning.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;LiteDRAM 开源可配置 DRAM 核心解析&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向 FPGA 开发者的开源 DRAM 控制器项目文档，具备明确的技术参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;LiteDRAM 是 LiteX 生态中基于 Migen 实现的小体积可配置 DRAM 控制器核心，提供厂商无关的通用 SDR PHY，支持 1:1 或 1:2 频率比，并已在 Xilinx、Altera、Lattice 平台验证。项目强调 DDR3 及以上接口需在启动阶段完成 PHY 时序调校，可作为 LiteX 库使用或生成 Verilog RTL 集成到标准设计流程。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向 FPGA 开发者的开源 DRAM 控制器项目文档，具备明确的技术参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 38/100&lt;/p&gt;</description>
 <source url="https://github.com/enjoy-digital/litedram/blob/master/doc/manual/03_dram_interface.md">Hacker News AI</source>
 <category>开源硬件</category>
 <category>FPGA</category>
 <category>DRAM 控制器</category>
 </item>
-<item><title>AWS Launches AgentCore Web Search API with Domain Filtering</title><link>https://aws.amazon.com/blogs/machine-learning/build-a-daily-dependency-watcher-with-langgraph-and-amazon-bedrock-agentcore-web-search/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/build-a-daily-dependency-watcher-with-langgraph-and-amazon-bedrock-agentcore-web-search/</guid>
+<item><title>AWS 推出 AgentCore 网页搜索 API 支持域过滤</title><link>https://aws.amazon.com/blogs/machine-learning/build-a-daily-dependency-watcher-with-langgraph-and-amazon-bedrock-agentcore-web-search/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/build-a-daily-dependency-watcher-with-langgraph-and-amazon-bedrock-agentcore-web-search/</guid>
 <pubDate>Wed, 11 Nov 2026 07:34:05 +0800</pubDate>
-<description>&lt;p&gt;Amazon Bedrock AgentCore has launched a Web Search API that lets agents fetch current web results with title, URL, publication date and query-relevant extracts in a single call, served entirely from an Amazon-operated index rather than a third-party search engine. It supports domain include/exclude filters and publication-date ranges, and can be paired with LangGraph to build production workflows such as daily dependency watchers.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS 推出 AgentCore 网页搜索 API 支持域过滤&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;云厂商把可引用的实时搜索能力内建进智能体运行时，对构建生产级检索工作流的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Amazon Bedrock AgentCore 正式上线 Web Search API，智能体可通过单次调用获取带标题、URL、发布日期与摘要的实时网页结果，查询全程在 AWS 自有索引内完成，不经过第三方搜索引擎。该 API 支持按域名包含或排除、按发布日期区间过滤，并可与 LangGraph 组合构建每日依赖变更监控等生产级工作流。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;云厂商把可引用的实时搜索能力内建进智能体运行时，对构建生产级检索工作流的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://aws.amazon.com/blogs/machine-learning/build-a-daily-dependency-watcher-with-langgraph-and-amazon-bedrock-agentcore-web-search/">AWS Machine Learning Blog</source>
 <category>AWS</category>
 <category>智能体</category>
@@ -255,25 +272,6 @@
 <category>VLA</category>
 <category>谷歌</category>
 <category>人形机器人</category>
-</item>
-<item><title>谷歌联合 Artificial Analysis 发布 MKA 多模态智能体基准</title><link>https://www.ithome.com/1/025/205.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/205.htm</guid>
-<pubDate>Wed, 11 Nov 2026 06:48:50 +0800</pubDate>
-<description>&lt;p&gt;谷歌联合评测机构 Artificial Analysis 推出 MKA 基准，用 200 项跨 10 个行业的多模态知识工作任务评估 AI 智能体，任务耗时对标人类专家 3 至 8 小时。Gemini 4 Carbon 取得第二名，平均任务成本约为第一名的六分之一，基准已通过 Artificial Analysis 对外开放。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个面向视觉复杂文件与多步骤知识工作的智能体基准，且公开了成本效率对比，对评估智能体落地价值有直接参考意义。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/025/205.htm">IT之家 · 智能时代</source>
-<category>基准测试</category>
-<category>智能体</category>
-<category>多模态</category>
-<category>谷歌</category>
-<category>Artificial Analysis</category>
-</item>
-<item><title>Anthropic 推出白板表格与数据看板三件套</title><link>https://www.ithome.com/1/025/204.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/204.htm</guid>
-<pubDate>Wed, 11 Nov 2026 06:43:46 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 面向所有付费用户推出 Claude Whiteboards、Claude Sheets 与 Claude Data 三项协作工具，将 Claude 从对话问答延伸至团队工作台。白板与表格处于测试阶段，数据看板已正式上线，支持连接 Redshift、BigQuery、Snowflake 等数据源并生成仪表盘与解说视频。三项工具共享上下文，可从白板流转到表格再到看板，无需重复交代背景。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Claude 从对话助手向办公协作套件扩张的关键产品动作，涉及数据连接与跨工具上下文共享，值得关注。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 68/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/025/204.htm">IT之家 · 智能时代</source>
-<category>Anthropic</category>
-<category>Claude</category>
-<category>办公协作</category>
-<category>数据看板</category>
 </item>
 </channel>
 </rss>
