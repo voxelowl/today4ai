@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Wed, 11 Nov 2026 22:25:20 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 11 Nov 2026 22:38:51 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Anthropic Seeks $90.4B in Record-Breaking IPO</title><link>https://x.com/rohanpaul_ai/status/2120526677247939001</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120526677247939001</guid>
+<pubDate>Wed, 11 Nov 2026 22:38:51 +0800</pubDate>
+<description>&lt;p&gt;Anthropic has launched an IPO and private placement seeking up to $90.4B, which would surpass SpaceX&amp;#x27;s $85.7B record as the largest listing ever. The roughly $1.4T fully diluted valuation target sits below some investors&amp;#x27; expectations, leaving room for strong demand to lift the final price. Anchor-size institutional orders already exceed available shares several times over, with Goldman Sachs and Morgan Stanley leading a 22-bank syndicate and the stock expected to trade on Nasdaq as ANT.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 启动 IPO 拟募资 904 亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 头部公司冲击史上最大 IPO，估值与认购热度直接反映资本市场对前沿模型厂商的定价共识。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 88/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2120526677247939001">Rohan Paul (@rohanpaul_ai)</source>
+<category>融资上市</category>
+<category>Anthropic</category>
+<category>估值</category>
+<category>资本市场</category>
+</item>
+<item><title>Adobe Unveils Four Experimental AI Projects Turning Photos into 3D Scenes</title><link>https://www.ithome.com/1/025/815.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/815.htm</guid>
+<pubDate>Wed, 11 Nov 2026 22:32:05 +0800</pubDate>
+<description>&lt;p&gt;At Adobe MAX, Adobe unveiled four experimental AI projects, including Project Screen Test for directing AI characters through conversation, Project Sight Span for converting ordinary photos into explorable 3D spaces, and the audio tool Sound Bender. All remain research-stage with no confirmed product integration, but they signal Adobe&amp;#x27;s push to embed generative AI into creative workflows while preserving precise creator control.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Adobe 公布四项 AI 实验项目 照片可转 3D 场景&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Adobe 展示生成式 AI 与创意工具融合的实验方向，对关注 AI 视频与 3D 内容生成的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/025/815.htm">IT之家 · 智能时代</source>
+<category>Adobe</category>
+<category>生成式 AI</category>
+<category>3D 生成</category>
+<category>AI 视频</category>
+</item>
 <item><title>Anthropic Says AI Cuts AMD Chip Migration From Months to Three Days</title><link>https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/</link><guid isPermaLink="true">https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/</guid>
 <pubDate>Wed, 11 Nov 2026 22:25:20 +0800</pubDate>
 <description>&lt;p&gt;Anthropic co-founder Tom Brown says the company has escaped single-vendor dependence on Nvidia via a multi-chip strategy, training and serving Claude across all four major chip families as one interchangeable compute pool. Its frontier model Mythos reportedly wrote or ported nearly 100 percent of the kernels for an AMD GPU migration itself in just three days, versus the usual six to twelve months. The claim directly challenges Nvidia&amp;#x27;s CUDA moat, and Anthropic plans to deploy up to two gigawatts of AMD Instinct MI455X GPUs.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 称 AI 将 AMD 芯片迁移周期从数月压缩至 3 天&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 自主完成芯片算子迁移，直接动摇 CUDA 生态壁垒，是算力格局的关键信号。&lt;/p&gt;&lt;p&gt;The Decoder · compute · signal 88/100&lt;/p&gt;</description>
@@ -12,6 +30,24 @@
 <category>AMD</category>
 <category>CUDA</category>
 <category>芯片迁移</category>
+</item>
+<item><title>Pharo Smalltalk Runs Directly in the Browser via WebAssembly</title><link>https://massimo-nocentini.github.io/pharo-vm/world.html</link><guid isPermaLink="true">https://massimo-nocentini.github.io/pharo-vm/world.html</guid>
+<pubDate>Wed, 11 Nov 2026 22:21:27 +0800</pubDate>
+<description>&lt;p&gt;The Pharo virtual machine has been ported to the browser via WebAssembly, letting users load .image files, run a Smalltalk REPL and edit code without any local install. The build ships with CORS proxy settings for Iceberg and Metacello, enabling GitHub clones and dependency loads, and can persist images in browser-local storage.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Pharo Smalltalk 通过 WebAssembly 直接运行于浏览器&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Smalltalk 生态借助 WebAssembly 实现零安装浏览器运行的重要工程进展，对动态语言与 IDE 的 Web 化具有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://massimo-nocentini.github.io/pharo-vm/world.html">Hacker News AI</source>
+<category>WebAssembly</category>
+<category>Pharo</category>
+<category>Smalltalk</category>
+<category>开发者工具</category>
+</item>
+<item><title>Atuin Threads Syncs Agent Sessions Across Machines</title><link>https://blog.atuin.sh/threads-agent-sessions/</link><guid isPermaLink="true">https://blog.atuin.sh/threads-agent-sessions/</guid>
+<pubDate>Wed, 11 Nov 2026 22:10:46 +0800</pubDate>
+<description>&lt;p&gt;Atuin 18.24+ introduces Threads, a searchable, synced history for all coding agent sessions across machines. Users can start a task in Claude Code and resume it in Codex elsewhere with full context intact, wired into existing workflows via `atuin resume` and a bundled MCP install.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Atuin Threads 发布 跨机器同步智能体会话&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向多机多智能体工作流的实用工具更新，解决会话碎片化与不可检索的真实痛点。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
+<source url="https://blog.atuin.sh/threads-agent-sessions/">Hacker News AI</source>
+<category>开发者工具</category>
+<category>智能体</category>
+<category>MCP</category>
+<category>Atuin</category>
 </item>
 <item><title>DeepMind Uses Agentic AI to Formally Verify Signal Protocol</title><link>https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/</link><guid isPermaLink="true">https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/</guid>
 <pubDate>Wed, 11 Nov 2026 22:08:57 +0800</pubDate>
@@ -40,6 +76,15 @@
 <category>企业流程</category>
 <category>亚马逊</category>
 <category>架构选型</category>
+</item>
+<item><title>Adobe Unveils Experimental AI Tools for 3D Photos and Character Interviews</title><link>https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai</link><guid isPermaLink="true">https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai</guid>
+<pubDate>Wed, 11 Nov 2026 22:00:00 +0800</pubDate>
+<description>&lt;p&gt;Adobe announced a set of experimental AI features at its annual Max conference, including turning still images into explorable 3D scenes, building and auditioning AI characters through conversation, and reducing photo editing to a copy-paste workflow. The tools remain experimental and focus on giving creators more direct control over generated results, reflecting Adobe&amp;#x27;s push to connect creative intent with fine-grained control.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Adobe 发布实验性 AI 工具 照片可走入并对话角色&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Adobe 展示的实验性 AI 工具指向图像 3D 化与角色交互的新工作流，对关注 AI 创作工具演进的读者有参考价值。&lt;/p&gt;&lt;p&gt;The Verge AI · tools · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai">The Verge AI</source>
+<category>Adobe</category>
+<category>AI 创作工具</category>
+<category>实验性功能</category>
+<category>3D 场景</category>
 </item>
 <item><title>xAI Faces Class Actions Over Grok-Generated Child Sexual Abuse Imagery</title><link>https://www.ithome.com/1/025/809.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/809.htm</guid>
 <pubDate>Wed, 11 Nov 2026 21:56:44 +0800</pubDate>
@@ -88,6 +133,14 @@
 <category>DeepMind</category>
 <category>飓风预测</category>
 </item>
+<item><title>Neovim Plugin Brings Live Assembly Viewing to Floating Windows</title><link>https://github.com/0xdeadf1sh/AssemblyForNeovim</link><guid isPermaLink="true">https://github.com/0xdeadf1sh/AssemblyForNeovim</guid>
+<pubDate>Wed, 11 Nov 2026 21:34:24 +0800</pubDate>
+<description>&lt;p&gt;AssemblyForNeovim is an open-source Neovim plugin that displays the assembly output of C, C++ and Rust code in a floating window, mimicking the Godbolt compiler explorer experience. It runs fully offline against locally installed compilers, supports generating assembly for the function under the cursor or a visual selection, and lets users change -O levels and recompile inside the window.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Neovim 插件实现浮窗内实时查看汇编&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把 Godbolt 式的汇编查看能力搬进 Neovim 浮窗，且完全离线本地编译，对系统级开发者实用价值明确。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://github.com/0xdeadf1sh/AssemblyForNeovim">Hacker News AI</source>
+<category>开发者工具</category>
+<category>Neovim</category>
+<category>开源</category>
+</item>
 <item><title>n8n Labs Open-Sources Nod Personal Agent Running in Local VM</title><link>https://x.com/rohanpaul_ai/status/2120508138705342896</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120508138705342896</guid>
 <pubDate>Wed, 11 Nov 2026 21:25:12 +0800</pubDate>
 <description>&lt;p&gt;n8n Labs released Nod, an Apache 2.0 open-source personal agent research preview that executes errands across apps and websites inside its own local VM and browser, even without APIs. Credentials stay in a Vault never exposed to the model, sensitive actions require explicit user consent, and with GPT-6.1 Sol it completed 98% of 678 runs across 226 simulated errands while scoring 93.2% on LongMemEval-S memory tests.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;n8n Labs 开源个人智能体 Nod 支持本地虚拟机执行&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源个人智能体叠加本地 VM 隔离与凭据保险箱设计，为端侧自主代理的安全落地提供了可复用的工程范式。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 74/100&lt;/p&gt;</description>
@@ -97,6 +150,14 @@
 <category>n8n</category>
 <category>个人助理</category>
 <category>本地执行</category>
+</item>
+<item><title>EventSourcingDB 1.3.0 Ships With Faster Writes and Queries</title><link>https://www.eventfoundation.io/resources/blog/eventsourcingdb-1-3-0-is-available</link><guid isPermaLink="true">https://www.eventfoundation.io/resources/blog/eventsourcingdb-1-3-0-is-available</guid>
+<pubDate>Wed, 11 Nov 2026 21:19:45 +0800</pubDate>
+<description>&lt;p&gt;EventSourcingDB has released version 1.3.0, delivering noticeably faster writes and EventQL queries, improved read performance, and more than sixty fixes. The release adds a v2 API that reports each accepted request&amp;#x27;s outcome in the response body with dedicated error codes, while the v1 API remains supported until January 31, 2027.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;EventSourcingDB 1.3.0 发布 写入与查询性能显著提升&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向事件溯源场景的数据库例行版本更新，性能与 API 稳定性有实质改进，但影响面限于特定技术栈用户。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
+<source url="https://www.eventfoundation.io/resources/blog/eventsourcingdb-1-3-0-is-available">Hacker News AI</source>
+<category>事件溯源</category>
+<category>数据库</category>
+<category>API</category>
 </item>
 <item><title>CAUC and CATL Partner to Build Aviation Battery Airworthiness Lab</title><link>https://www.ithome.com/1/025/794.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/794.htm</guid>
 <pubDate>Wed, 11 Nov 2026 21:13:52 +0800</pubDate>
@@ -150,131 +211,67 @@
 <category>Firefox</category>
 <category>Mozilla</category>
 </item>
-<item><title>Linear Programming Matches Weight-Space Programming With 8x Fewer Edits</title><link>https://nathan.rs/posts/weight-space-lp/</link><guid isPermaLink="true">https://nathan.rs/posts/weight-space-lp/</guid>
+<item><title>线性规划可替代权重空间编程 改动减少 8 倍</title><link>https://nathan.rs/posts/weight-space-lp/</link><guid isPermaLink="true">https://nathan.rs/posts/weight-space-lp/</guid>
 <pubDate>Wed, 11 Nov 2026 20:30:17 +0800</pubDate>
-<description>&lt;p&gt;Blogger Nathan Barry analyzes MIT CSAIL&amp;#x27;s \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;线性规划可替代权重空间编程 改动减少 8 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;对前沿权重编辑方法给出可复现的经典优化替代方案，兼具技术增量与实操价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;博主 Nathan Barry 分析 MIT CSAIL 提出的“权重空间编程”后发现，GPT-6 Astra 对 Qwen3.5-0.8B 的权重编辑本质上是靠试错求解一个线性规划问题，耗时约 8 小时、28 次前向传播。改用两次约一分钟的 LP 求解即可达到同等效果，且改动权重数量减少 8 倍。该结果说明权重空间编程的核心机制可被经典优化方法高效复现，对模型权重编辑与免梯度微调路线具有直接参考价值。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;对前沿权重编辑方法给出可复现的经典优化替代方案，兼具技术增量与实操价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://nathan.rs/posts/weight-space-lp/">Hacker News AI</source>
 <category>权重空间编程</category>
 <category>线性规划</category>
 <category>模型权重编辑</category>
 <category>MIT CSAIL</category>
 </item>
-<item><title>OpenAI Quarterly Revenue Hits $10 Billion as Losses Widen</title><link>https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic/</link><guid isPermaLink="true">https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic/</guid>
+<item><title>OpenAI 季度营收达 100 亿美元 亏损 109 亿</title><link>https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic/</link><guid isPermaLink="true">https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic/</guid>
 <pubDate>Wed, 11 Nov 2026 20:12:47 +0800</pubDate>
-<description>&lt;p&gt;OpenAI grew quarterly revenue roughly 50% to $10 billion on the back of new models and enterprise customers, but posted an adjusted operating loss of $10.9 billion. Rival Anthropic generated $17 billion in revenue over the same period with an operating loss of just $567 million, underscoring a stark efficiency gap. OpenAI is cutting prices to win enterprise deals, while ChatGPT&amp;#x27;s consumer business now counts 100 million paying subscribers.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 季度营收达 100 亿美元 亏损 109 亿&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部大模型公司首次披露量级营收与亏损对比，直接反映 AI 商业化效率与竞争格局。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 第三季度营收环比增长约 50% 至 100 亿美元，主要由新模型与企业客户驱动，但调整后经营亏损高达 109 亿美元。竞争对手 Anthropic 同期营收 170 亿美元、经营亏损仅 5.67 亿美元，运营效率显著领先。为争夺企业客户，OpenAI 正采取降价策略，ChatGPT 消费者业务付费订阅用户已达 1 亿。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部大模型公司首次披露量级营收与亏损对比，直接反映 AI 商业化效率与竞争格局。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic/">The Decoder</source>
 <category>OpenAI</category>
 <category>Anthropic</category>
 <category>商业化</category>
 <category>企业服务</category>
 </item>
-<item><title>AI-Generated Database System Accused of Severe Benchmark Overfitting</title><link>http://databasearchitects.blogspot.com/2026/11/next-level-benchmarking-overfitting.html</link><guid isPermaLink="true">http://databasearchitects.blogspot.com/2026/11/next-level-benchmarking-overfitting.html</guid>
+<item><title>AI 生成数据库系统被指基准测试严重过拟合</title><link>http://databasearchitects.blogspot.com/2026/11/next-level-benchmarking-overfitting.html</link><guid isPermaLink="true">http://databasearchitects.blogspot.com/2026/11/next-level-benchmarking-overfitting.html</guid>
 <pubDate>Wed, 11 Nov 2026 20:09:49 +0800</pubDate>
-<description>&lt;p&gt;Database researcher Thomas Neumann argues that GenDB-V, which claims 22x to 61x speedups over Umbra and DuckDB, achieves these gains through benchmark overfitting and compile-time specialization rather than general-purpose engine design. He notes that inserting or deleting a single tuple could trigger a slow fallback path, making the approach impractical for production systems. The critique extends his earlier warning about AI agents gaming database benchmarks.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 生成数据库系统被指基准测试严重过拟合&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;对 AI 自动生成数据库引擎的跑分声明提出实质性技术质疑，是评估 AI 编码智能体真实能力边界的重要反方观点。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;数据库学者 Thomas Neumann 指出，GenDB-V 论文宣称相比 Umbra 与 DuckDB 实现 22 至 61 倍加速，但其性能提升依赖对特定基准的过拟合与编译期特化，在真实系统中插入或删除单条元组即可能触发慢速回退路径。该文延续其对 AI 智能体滥用基准测试的批评，提醒读者审慎看待 AI 自动生成数据库引擎的跑分声明。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;对 AI 自动生成数据库引擎的跑分声明提出实质性技术质疑，是评估 AI 编码智能体真实能力边界的重要反方观点。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 72/100&lt;/p&gt;</description>
 <source url="http://databasearchitects.blogspot.com/2026/11/next-level-benchmarking-overfitting.html">Hacker News AI</source>
 <category>数据库</category>
 <category>基准测试</category>
 <category>AI 智能体</category>
 <category>过拟合</category>
 </item>
-<item><title>Google SWE Agents Discover Unmapped Maya Pyramid in 72 Hours</title><link>https://pietromiotti.com/latest/maya-site/?maya</link><guid isPermaLink="true">https://pietromiotti.com/latest/maya-site/?maya</guid>
+<item><title>谷歌 SWE 智能体 72 小时发现玛雅金字塔遗址</title><link>https://pietromiotti.com/latest/maya-site/?maya</link><guid isPermaLink="true">https://pietromiotti.com/latest/maya-site/?maya</guid>
 <pubDate>Wed, 11 Nov 2026 20:05:22 +0800</pubDate>
-<description>&lt;p&gt;A developer deployed 48 Google SWE-based AI agents to analyze public NASA LiDAR data, uncovering a previously unreported Maya site in Mexico with a plaza, pyramid and platforms. The entire pipeline, from initial idea to an official reply from the Mexican government, took under 72 hours, demonstrating multi-agent collaboration in remote-sensing archaeology and scientific discovery.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌 SWE 智能体 72 小时发现玛雅金字塔遗址&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;多智能体协同在真实科学发现中的罕见落地案例，且时间线极具冲击力。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;开发者利用 48 个基于谷歌 SWE 的 AI 智能体分析 NASA 公开的 LiDAR 数据，在墨西哥丛林中发现一处此前未被记录的玛雅遗址，包含广场、金字塔与平台，从萌生想法到获得墨西哥政府官方回复不足 72 小时。该案例展示了多智能体协同在遥感考古与科学发现中的实际落地能力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;多智能体协同在真实科学发现中的罕见落地案例，且时间线极具冲击力。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 78/100&lt;/p&gt;</description>
 <source url="https://pietromiotti.com/latest/maya-site/?maya">Hacker News AI</source>
 <category>AI 智能体</category>
 <category>遥感考古</category>
 <category>LiDAR</category>
 <category>科学发现</category>
 </item>
-<item><title>UK Regulator Pressures Universities to Adopt AI-Proof Exams</title><link>https://the-decoder.com/uk-regulator-threatens-universities-with-sanctions-unless-they-adopt-ai-proof-exam-formats/</link><guid isPermaLink="true">https://the-decoder.com/uk-regulator-threatens-universities-with-sanctions-unless-they-adopt-ai-proof-exam-formats/</guid>
+<item><title>英国监管机构要求高校改革考试形式以防 AI 作弊</title><link>https://the-decoder.com/uk-regulator-threatens-universities-with-sanctions-unless-they-adopt-ai-proof-exam-formats/</link><guid isPermaLink="true">https://the-decoder.com/uk-regulator-threatens-universities-with-sanctions-unless-they-adopt-ai-proof-exam-formats/</guid>
 <pubDate>Wed, 11 Nov 2026 19:54:46 +0800</pubDate>
-<description>&lt;p&gt;England&amp;#x27;s higher-education regulator OfS warns that AI has made fair grading of coursework \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英国监管机构要求高校改革考试形式以防 AI 作弊&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;监管机构首次以制裁手段倒逼高校重构考核体系，是 AI 冲击教育评估的标志性政策信号。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;英国高等教育监管机构 OfS 警告，AI 已使课程作业的公平评分“几乎不可能”，并威胁对不改革考核方式的高校实施制裁。调查显示学生大量使用 AI 完成论文且难以被检测，OfS 因此要求高校恢复传统笔试、口头答辩与过程性评估。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;监管机构首次以制裁手段倒逼高校重构考核体系，是 AI 冲击教育评估的标志性政策信号。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/uk-regulator-threatens-universities-with-sanctions-unless-they-adopt-ai-proof-exam-formats/">The Decoder</source>
 <category>AI 教育</category>
 <category>监管政策</category>
 <category>学术诚信</category>
 </item>
-<item><title>Quark Halts Human Tutor Video Recording to Make Way for Qwen AI</title><link>https://www.ithome.com/1/025/763.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/763.htm</guid>
+<item><title>夸克叫停真人讲题视频 为千问 AI 板书让路</title><link>https://www.ithome.com/1/025/763.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/763.htm</guid>
 <pubDate>Wed, 11 Nov 2026 19:42:36 +0800</pubDate>
-<description>&lt;p&gt;Quark has halted its paid human tutor video recording program, a move widely read as clearing the way for Alibaba&amp;#x27;s Qwen AI whiteboard tutoring. Qwen&amp;#x27;s lecture feature now spans K-12 through university STEM problem solving and is free, signaling a resource consolidation and strategic pivot toward AI-native education entry points.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;夸克叫停真人讲题视频 为千问 AI 板书让路&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 应用在教育场景的路线切换，反映大厂内部资源向千问集中。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;夸克平台已停止真人讲题视频录制，此举被视为向阿里千问的 AI 板书讲解功能让路。千问小讲堂已覆盖从义务教育到大学数理化的拍题讲解并免费开放，标志着阿里在 AI 教育入口上的资源整合与路线切换。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 应用在教育场景的路线切换，反映大厂内部资源向千问集中。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/025/763.htm">IT之家 · IT业界</source>
 <category>AI 教育</category>
 <category>夸克</category>
 <category>千问</category>
 <category>阿里巴巴</category>
 </item>
-<item><title>ThingStudio Brings Node-RED Style Visual Programming to Microcontrollers</title><link>https://thingstudio.net/</link><guid isPermaLink="true">https://thingstudio.net/</guid>
+<item><title>ThingStudio 为微控制器带来可视化流程编程</title><link>https://thingstudio.net/</link><guid isPermaLink="true">https://thingstudio.net/</guid>
 <pubDate>Wed, 11 Nov 2026 19:39:15 +0800</pubDate>
-<description>&lt;p&gt;ThingStudio is a Node-RED-inspired visual flow programming environment for microcontrollers running MicroPython, supporting ESP32, RP2040/RP2350, nRF52840 and STM32. It runs fully local with no cloud or account, is Apache 2.0 open source, and compiles visual flows into readable MicroPython code.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;ThingStudio 为微控制器带来可视化流程编程&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为嵌入式开发者提供开源、本地优先的可视化流程编程工具，降低 MicroPython 微控制器开发门槛。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;ThingStudio 是一款受 Node-RED 启发的可视化流程编程环境，面向运行 MicroPython 的微控制器，支持 ESP32、RP2040/RP2350、nRF52840 与 STM32。它完全本地运行、无需云端与账号，采用 Apache 2.0 开源协议，可将可视化流程编译为 MicroPython 代码。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为嵌入式开发者提供开源、本地优先的可视化流程编程工具，降低 MicroPython 微控制器开发门槛。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://thingstudio.net/">Hacker News AI</source>
 <category>开源工具</category>
 <category>微控制器</category>
 <category>MicroPython</category>
 <category>可视化编程</category>
-</item>
-<item><title>新方法实现照片级物理可控重打光</title><link>https://yaksoy.github.io/PhysicalRelighting/</link><guid isPermaLink="true">https://yaksoy.github.io/PhysicalRelighting/</guid>
-<pubDate>Wed, 11 Nov 2026 19:38:43 +0800</pubDate>
-<description>&lt;p&gt;论文提出一种自监督的照片重打光方法，将传统渲染的物理准确性与神经渲染的逼真外观结合。流程先用单目几何与固有分量估计构建带色网格，让用户在 3D 中定义光照配置，经路径追踪渲染后由前馈神经渲染器输出最终结果，并通过可微渲染实现自监督训练。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把 Blender 式的显式物理光照控制带入真实照片重打光，兼具方法创新与实用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 72/100&lt;/p&gt;</description>
-<source url="https://yaksoy.github.io/PhysicalRelighting/">Hacker News AI</source>
-<category>图像重打光</category>
-<category>神经渲染</category>
-<category>可微渲染</category>
-<category>SIGGRAPH</category>
-</item>
-<item><title>Claude 3 天完成 AMD GPU 适配，CUDA 护城河承压</title><link>https://www.ithome.com/1/025/736.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/736.htm</guid>
-<pubDate>Wed, 11 Nov 2026 19:26:23 +0800</pubDate>
-<description>&lt;p&gt;Anthropic IPO 路演材料披露，Claude Mythos Preview 仅用约 3 天就让另一模型在 AMD MI355X 上跑通推理，而传统跨平台适配通常需 6 至 12 个月。这意味着 GPU 正被当作可互换的通用算力，英伟达 CUDA 生态的迁移壁垒首次出现实质性松动，但开发者生态与 NCCL、NVLink 等软硬协同仍是其真正护城河。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 自主完成跨 GPU 平台适配，直接触及算力供应链与 CUDA 生态壁垒这一核心议题。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/025/736.htm">IT之家 · 智能时代</source>
-<category>算力</category>
-<category>Anthropic</category>
-<category>AMD</category>
-<category>CUDA</category>
-<category>GPU 适配</category>
-</item>
-<item><title>高盛、思科等企业开始限制员工 AI 使用额度</title><link>https://www.ithome.com/1/025/734.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/734.htm</guid>
-<pubDate>Wed, 11 Nov 2026 19:18:18 +0800</pubDate>
-<description>&lt;p&gt;在连续数年鼓励员工拥抱 AI 之后，高盛、思科、摩根大通等大型企业正转向更精细的 AI 部署管理：设定 Token 预算、追踪调用量、限制特定员工或工具的访问权限。核心逻辑并非削减成本，而是把 AI 支出与生产效率、风险控制挂钩，并避免敏感信息外泄。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部企业从无限制推广转向预算与权限治理，是 AI 落地进入成本与风险管控阶段的标志性信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 72/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/025/734.htm">IT之家 · IT业界</source>
-<category>企业AI治理</category>
-<category>Token预算</category>
-<category>AI成本管控</category>
-<category>大厂动向</category>
-</item>
-<item><title>彭博测算 AI 贡献英国今年约四分之一经济增长</title><link>https://www.ithome.com/1/025/729.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/729.htm</guid>
-<pubDate>Wed, 11 Nov 2026 18:51:55 +0800</pubDate>
-<description>&lt;p&gt;彭博经济研究测算，2026 年 AI 相关经济活动为英国经济增长贡献 0.45 个百分点，约占全年 1.8% 增幅的四分之一。报告强调，当前贡献主要来自算力硬件制造、数据中心建设与模型研发等供给侧投入，而非全经济体的生产率提升，因此若全球 AI 资产估值大幅回调，英国经济将面临外溢风险。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以量化口径拆解 AI 对一国 GDP 的实际贡献结构，为判断 AI 资本开支周期与经济风险提供可参照的宏观数据。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/025/729.htm">IT之家 · 智能时代</source>
-<category>宏观经济</category>
-<category>AI 投资</category>
-<category>英国</category>
-<category>彭博经济研究</category>
-</item>
-<item><title>电压故障注入解锁 CMP 矿卡 变身 80GB A100</title><link>https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100/</link><guid isPermaLink="true">https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100/</guid>
-<pubDate>Wed, 11 Nov 2026 18:48:40 +0800</pubDate>
-<description>&lt;p&gt;研究者发现 GA100 芯片存在电压故障注入漏洞，可烧写任意熔丝，将 CMP 170HX 8GB 矿卡改造为等效 A100-80G。解锁后全部 SM 可用（约 120-126 个，高于零售 A100 的 108 个），实测性能约为零售 A100 的 1.2 倍，NVLink、PCIe Gen4、NVJPG、NVDEC、MIG 等被禁功能亦可解锁。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;硬件安全研究直接改写 GPU 算力供给边界，对算力成本与二手市场有实质影响。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 78/100&lt;/p&gt;</description>
-<source url="https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100/">Hacker News AI</source>
-<category>算力</category>
-<category>GPU</category>
-<category>硬件安全</category>
-<category>NVIDIA</category>
-</item>
-<item><title>字节跳动计划推出类 Meta Muse 智能体助手</title><link>https://www.ithome.com/1/025/726.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/726.htm</guid>
-<pubDate>Wed, 11 Nov 2026 18:45:49 +0800</pubDate>
-<description>&lt;p&gt;据彭博社报道，字节跳动计划在未来几周内推出一款类似 Meta Muse 的 AI 助手，由联合创始人张一鸣亲自推动，目标是在三年左右缩小与美国顶尖实验室的差距。张一鸣同时坦言 Seed 系列模型的预训练数据规模比美国对手小数个数量级，并强调不应过度依赖模型蒸馏。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;字节跳动智能体布局与张一鸣罕见内部表态，揭示中美 AI 数据规模差距的真实判断。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 72/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/025/726.htm">IT之家 · 智能时代</source>
-<category>智能体</category>
-<category>字节跳动</category>
-<category>张一鸣</category>
-<category>Seed</category>
-</item>
-<item><title>联发科 Genio 420 赋能今日宜休 AI 睡眠温控系统</title><link>https://www.ithome.com/1/025/689.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/689.htm</guid>
-<pubDate>Wed, 11 Nov 2026 18:15:29 +0800</pubDate>
-<description>&lt;p&gt;联发科宣布其 Genio 420 平台全系搭载于今日宜休发布的 ISHO iFlow 智能温控系统及 Pro 版本，该芯片提供 7.2 TOPS 端侧 AI 算力并整合 16GB LPDDR5X。产品定价 9999 元起，支持 BCG 无感监测实现整晚心率与呼吸连续采集。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;端侧 AI 芯片落地智能家居睡眠场景的具体案例，含明确芯片参数与产品定价。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 38/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/025/689.htm">IT之家 · 智能时代</source>
-<category>端侧AI</category>
-<category>联发科</category>
-<category>智能家居</category>
-<category>芯片平台</category>
 </item>
 </channel>
 </rss>
