@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Thu, 12 Nov 2026 03:16:15 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 12 Nov 2026 03:19:21 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>AWS Launches 23 Reusable Generative AI Assets for Builders</title><link>https://aws.amazon.com/blogs/machine-learning/accelerating-generative-ai-delivery-with-reusable-assets/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/accelerating-generative-ai-delivery-with-reusable-assets/</guid>
+<pubDate>Thu, 12 Nov 2026 03:19:21 +0800</pubDate>
+<description>&lt;p&gt;The AWS Generative AI Innovation Center, now part of AWS Frontier AI Engineering &amp;amp; Services, has released a catalog of 23 production-ready reusable assets spanning RAG pipelines, document processors and agent scaffolding. AWS claims these assets can cut development time from months to weeks, citing deployments at DoorDash, Lyft and Ricoh.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS 推出 23 个可复用生成式 AI 资产&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AWS 官方发布的生成式 AI 工程资产目录，对使用 Bedrock 生态的开发者有直接参考价值，但本质为厂商绑定的推广内容。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 38/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/accelerating-generative-ai-delivery-with-reusable-assets/">AWS Machine Learning Blog</source>
+<category>AWS</category>
+<category>生成式 AI</category>
+<category>RAG</category>
+<category>开发者工具</category>
+</item>
 <item><title>AWS CEO Says Space Data Centers Are 10 to 20 Years Away</title><link>https://x.com/rohanpaul_ai/status/2120596484618096859</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120596484618096859</guid>
 <pubDate>Thu, 12 Nov 2026 03:16:15 +0800</pubDate>
 <description>&lt;p&gt;AWS CEO Matt Garman said orbital data centers are highly unlikely to be economically or practically feasible within the next decade or two. He cited launch cadence and cost, rack weight, gigawatt-scale solar supply, heat dissipation in vacuum, radiation and serviceability as unresolved engineering bottlenecks, calling the idea technically possible but far off.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS CEO 称太空数据中心至少还需 10 到 20 年&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部云厂商 CEO 直接回应太空算力热潮，给出基于工程与成本现实的量化判断。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 58/100&lt;/p&gt;</description>
@@ -65,6 +74,15 @@
 <category>合规监管</category>
 <category>美联航</category>
 </item>
+<item><title>LangChain GTM Agent Generates 1,540 Sales Artifacts in 12 Weeks</title><link>https://www.langchain.com/blog/gtm-agent-high-quality-sales-artifacts</link><guid isPermaLink="true">https://www.langchain.com/blog/gtm-agent-high-quality-sales-artifacts</guid>
+<pubDate>Thu, 12 Nov 2026 02:27:26 +0800</pubDate>
+<description>&lt;p&gt;LangChain detailed its internal GTM Agent, which produced 1,540 sales artifacts in 12 weeks and saved thousands of rep hours. The team attributes most of the quality to context engineering rather than prompt tuning, and reports that deals with a sent artifact advanced 47% of the time versus 16% for matched controls. The approach is reproducible on the Deep Agents harness.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;LangChain 销售智能体 12 周生成 1540 份文档&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自一线厂商的智能体落地复盘，给出了上下文工程优先于提示词调优的实践结论与可复现路径。&lt;/p&gt;&lt;p&gt;LangChain Blog · agent · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.langchain.com/blog/gtm-agent-high-quality-sales-artifacts">LangChain Blog</source>
+<category>智能体</category>
+<category>LangChain</category>
+<category>销售自动化</category>
+<category>上下文工程</category>
+</item>
 <item><title>AWS Launches Local Emulator for Offline Cloud API Testing</title><link>https://github.com/aws/aws-emulator</link><guid isPermaLink="true">https://github.com/aws/aws-emulator</guid>
 <pubDate>Thu, 12 Nov 2026 02:21:38 +0800</pubDate>
 <description>&lt;p&gt;AWS has released AWS Emulator, a local program that emulates AWS APIs so developers can test software on their own machines or in CI without an AWS account. It works by pointing the AWS CLI or SDKs at a local endpoint via environment variables, also offering an embedded mode, and AWS explicitly scopes it to building and testing rather than production or security validation.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS 推出本地模拟器 无需账号即可离线测试云 API&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AWS 官方下场做本地云 API 模拟器，直接冲击 LocalStack 等第三方生态，对日常依赖云服务的开发者有实际工作流价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 68/100&lt;/p&gt;</description>
@@ -110,6 +128,15 @@
 <category>AI 安全</category>
 <category>社会实验</category>
 <category>前沿模型</category>
+</item>
+<item><title>Google Launches Gemini Decisions API for Multimodal Closed-Set Judgments</title><link>https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/</link><guid isPermaLink="true">https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/</guid>
+<pubDate>Thu, 12 Nov 2026 02:00:00 +0800</pubDate>
+<description>&lt;p&gt;Google introduced the Gemini Decisions API, powered by the new gemini-decision-1 model, which evaluates up to 1,000 yes/no, multiple-choice, and rubric-scoring questions in a single pass across text, images, audio, video, and PDFs while returning confidence scores. Positioned for query routing, content grading, and policy checks with a cost-effective, low-latency profile, it is available now in Google AI Studio, with Google Cloud support coming soon.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌发布 Gemini Decisions API 单次调用完成千项多模态判定&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;谷歌把大模型能力封装成专用的批量判定接口，为路由、审核与合规场景提供了新的工程范式。&lt;/p&gt;&lt;p&gt;Google AI Blog · llm · signal 72/100&lt;/p&gt;</description>
+<source url="https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/">Google AI Blog</source>
+<category>Gemini</category>
+<category>API</category>
+<category>多模态</category>
+<category>谷歌</category>
 </item>
 <item><title>Big Walk AI Disclosure Sparks Indie Game Industry Reckoning</title><link>https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/</link><guid isPermaLink="true">https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/</guid>
 <pubDate>Thu, 12 Nov 2026 01:37:32 +0800</pubDate>
@@ -199,27 +226,27 @@
 <category>软件工程</category>
 <category>生产力研究</category>
 </item>
-<item><title>Databricks Launches Genie, an Always-On Autonomous AI Coworker</title><link>https://x.com/Yuchenj_UW/status/2120553020211818864</link><guid isPermaLink="true">https://x.com/Yuchenj_UW/status/2120553020211818864</guid>
+<item><title>Databricks 发布 Genie 自主 AI 同事，企业任务准确率 91%</title><link>https://x.com/Yuchenj_UW/status/2120553020211818864</link><guid isPermaLink="true">https://x.com/Yuchenj_UW/status/2120553020211818864</guid>
 <pubDate>Thu, 12 Nov 2026 00:23:32 +0800</pubDate>
-<description>&lt;p&gt;Databricks has launched a new generation of Genie, an always-on autonomous AI coworker that scores 91% on enterprise tasks, delivering 1.6x the accuracy of the stronger of two frontier agents while using under 50% of the tokens. Its differentiator is Genie Ontology, a context layer that automatically learns how a business actually operates from its data, queries, dashboards and notebooks.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Databricks 发布 Genie 自主 AI 同事，企业任务准确率 91%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;企业级自主智能体进入常驻后台协作形态，且以上下文层而非模型能力作为核心卖点，值得关注。&lt;/p&gt;&lt;p&gt;Yuchen Jin (@Yuchenj_UW) · agent · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Databricks 推出新一代 Genie，定位为常驻后台的自主 AI 同事，在企业任务上取得 91% 的准确率，以不到 50% 的 token 消耗达到两个前沿智能体中更强者的 1.6 倍精度。其核心差异在于 Genie Ontology 上下文层，可从企业数据、查询、仪表盘与 notebook 中自动学习业务实际运作方式。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;企业级自主智能体进入常驻后台协作形态，且以上下文层而非模型能力作为核心卖点，值得关注。&lt;/p&gt;&lt;p&gt;Yuchen Jin (@Yuchenj_UW) · agent · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/Yuchenj_UW/status/2120553020211818864">Yuchen Jin (@Yuchenj_UW)</source>
 <category>智能体</category>
 <category>Databricks</category>
 <category>企业 AI</category>
 <category>上下文工程</category>
 </item>
-<item><title>OpenAI Quarterly Revenue Tops $10B for the First Time</title><link>https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/</guid>
+<item><title>OpenAI 季度营收首次突破 100 亿美元</title><link>https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/</guid>
 <pubDate>Thu, 12 Nov 2026 00:14:44 +0800</pubDate>
-<description>&lt;p&gt;OpenAI&amp;#x27;s quarterly revenue reportedly crossed $10 billion for the first time, a nearly 50% jump from the $6.7 billion recorded in Q2, according to Bloomberg. Its adjusted operating margin narrowed from -150% to -109%, signaling improving unit economics despite intensifying competition from Anthropic and open-source rivals.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 季度营收首次突破 100 亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;OpenAI 单季营收首破百亿美元是 AI 商业化进程的关键节点，增速回升与亏损收窄对判断行业盈利拐点具有实质参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;据彭博社援引匿名消息源报道，OpenAI 第三季度营收首次突破 100 亿美元，较第二季度的 67 亿美元增长近 50%，营收增速较此前约 18% 的水平明显回升。同期调整后营业利润率从 -150% 收窄至 -109%，亏损状况有所改善。这一数据表明 OpenAI 在 Anthropic 等竞争对手压力下仍保持强劲商业化势头。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;OpenAI 单季营收首破百亿美元是 AI 商业化进程的关键节点，增速回升与亏损收窄对判断行业盈利拐点具有实质参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/">TechCrunch AI</source>
 <category>OpenAI</category>
 <category>营收</category>
 <category>商业化</category>
 <category>AI 产业</category>
 </item>
-<item><title>AWS CEO Says AI Inference Has Not Reached Even 1% of Potential</title><link>https://x.com/rohanpaul_ai/status/2120548591781732862</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120548591781732862</guid>
+<item><title>AWS CEO 称 AI 推理规模尚不足最终 1%</title><link>https://x.com/rohanpaul_ai/status/2120548591781732862</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120548591781732862</guid>
 <pubDate>Thu, 12 Nov 2026 00:05:56 +0800</pubDate>
-<description>&lt;p&gt;AWS CEO Matt Garman said in an interview that today&amp;#x27;s AI inference market is not even 1% of what it will eventually become, arguing there is a massive runway ahead. Coming from the head of the world&amp;#x27;s largest cloud provider, the remark points to sustained expansion of inference-side compute demand.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS CEO 称 AI 推理规模尚不足最终 1%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球最大云厂商掌门人对推理算力天花板的定性判断，对理解算力需求周期有参考价值，但缺乏具体数据支撑。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;AWS CEO Matt Garman 在访谈中表示，当前 AI 推理市场的规模甚至不到其最终形态的 1%，远未触及天花板，仍有巨大的增长空间。该判断来自全球最大云厂商的一线算力与客户需求视角，指向推理侧算力投入将持续扩张。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球最大云厂商掌门人对推理算力天花板的定性判断，对理解算力需求周期有参考价值，但缺乏具体数据支撑。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 38/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2120548591781732862">Rohan Paul (@rohanpaul_ai)</source>
 <category>AI 推理</category>
 <category>AWS</category>
@@ -243,31 +270,6 @@
 <category>开源项目</category>
 <category>绘画动画</category>
 <category>命令行</category>
-</item>
-<item><title>Google Labs 推出 Tabletop 多人实时协作空间</title><link>https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/</link><guid isPermaLink="true">https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0800</pubDate>
-<description>&lt;p&gt;Google Labs 发布实验性产品 Tabletop，面向家庭出游、业余联赛、聚餐等群体场景，支持成员在同一空间内添加链接、文件与想法，并通过 @tabletop 或模板生成行程表、投票、分账工具与赛事对阵图。该产品以类似 Google Docs 的实时协作方式运行，目前仅限美国 18 岁以上用户通过候补名单申请。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Google Labs 在 AI 辅助群体协作方向的新实验，展示了生成式能力嵌入多人实时文档的落地形态。&lt;/p&gt;&lt;p&gt;Google AI Blog · tools · signal 38/100&lt;/p&gt;</description>
-<source url="https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/">Google AI Blog</source>
-<category>Google Labs</category>
-<category>协作工具</category>
-<category>生成式 AI</category>
-</item>
-<item><title>Google 推出 Tabletop 实验性 AI 协作工具</title><link>https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability</link><guid isPermaLink="true">https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability</guid>
-<pubDate>Thu, 12 Nov 2026 00:00:00 +0800</pubDate>
-<description>&lt;p&gt;Google Labs 发布实验性 AI 工具 Tabletop，用户可通过自然语言提示生成定制化的协作空间，涵盖旅行行程、聚餐投票、费用分摊等场景，并支持多人实时协作。该工具目前以等待名单形式开放美国 18 岁以上用户测试。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Google Labs 将生成式 AI 引入个人协作场景，是消费级 AI 工具形态的一次新探索。&lt;/p&gt;&lt;p&gt;The Verge AI · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability">The Verge AI</source>
-<category>Google Labs</category>
-<category>AI 协作工具</category>
-<category>生成式 AI</category>
-</item>
-<item><title>CoreWeave 称得州算力不受选举影响 积压订单达 1325 亿美元</title><link>https://x.com/rohanpaul_ai/status/2120546419186798777</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120546419186798777</guid>
-<pubDate>Wed, 11 Nov 2026 23:57:18 +0800</pubDate>
-<description>&lt;p&gt;CoreWeave CEO 在 CNBC 表示，尽管民主党中期选举大胜，其得州大部分算力已上线或已获许可，不会冲击 1325 亿美元积压订单。公司三季度营收 36.6 亿美元同比增长 168%，并上调 2026 年营收指引至 130 亿至 133 亿美元。但利息支出升至 8.46 亿美元，2026 年资本开支高达 370 亿至 390 亿美元，现金成为更紧的约束。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 算力供应商的订单、资本开支与融资结构数据，是判断算力周期与债务风险的一手信号。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2120546419186798777">Rohan Paul (@rohanpaul_ai)</source>
-<category>算力基础设施</category>
-<category>CoreWeave</category>
-<category>资本开支</category>
-<category>数据中心</category>
 </item>
 </channel>
 </rss>
