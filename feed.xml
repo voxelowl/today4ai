@@ -1,8 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Wed, 11 Nov 2026 08:58:06 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 11 Nov 2026 09:39:00 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Simple Few-Shot Prompting Lets Small Open Models Match Complex Methods</title><link>https://x.com/rohanpaul_ai/status/2120330418570539503</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120330418570539503</guid>
+<pubDate>Wed, 11 Nov 2026 09:39:00 +0800</pubDate>
+<description>&lt;p&gt;A paper finds that on natural language inference (NLI), a single short direct prompt with a few in-context examples lets small open models such as Gemma 2 9B, Mistral 7B and Llama 3.1 8B match or beat prior methods that relied on complex prompting and sampling tricks. Mistral 7B surpassed the 63.4% MNLI accuracy reported by a published in-context sampling method, and performance with 1 example was roughly equal to 15 examples.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;简单少样本提示即可让小模型追平复杂方法&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;结论反直觉且可直接复用：少样本直给提示即可替代复杂提示工程，对使用小模型做分类任务的开发者有实际参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2120330418570539503">Rohan Paul (@rohanpaul_ai)</source>
+<category>上下文学习</category>
+<category>自然语言推理</category>
+<category>小模型</category>
+<category>提示工程</category>
+</item>
+<item><title>Khosla Ventures Co-Leads $25M Round in Coframe for AI-Generated Per-Visitor Web Pages</title><link>https://x.com/rohanpaul_ai/status/2120326880113140104</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120326880113140104</guid>
+<pubDate>Wed, 11 Nov 2026 09:24:56 +0800</pubDate>
+<description>&lt;p&gt;Khosla Ventures co-led a $25M round in Coframe, betting that AI can drive the cost of building web pages low enough to generate a personalized page for every visitor, replacing the static website model. The deal is a direct capital bet on the per-visitor dynamic web paradigm.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Khosla 领投 Coframe 2500 万美元 用 AI 为每位访客生成独立网页&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;知名风投对 AI 个性化网页生成赛道的实质下注，反映网站形态可能的技术路线变化。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2120326880113140104">Rohan Paul (@rohanpaul_ai)</source>
+<category>融资</category>
+<category>AI 个性化</category>
+<category>网站生成</category>
+<category>Khosla Ventures</category>
+</item>
+<item><title>Microsoft Ships .NET 11 with Built-in MCP Templates and Agent Framework</title><link>https://www.ithome.com/1/025/246.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/246.htm</guid>
+<pubDate>Wed, 11 Nov 2026 09:23:02 +0800</pubDate>
+<description>&lt;p&gt;Microsoft released .NET 11 at .NET Conf 2026 as a Standard Term Support version with two years of support. The release adds hundreds of runtime and base-library performance optimizations and deepens AI tooling: the SDK ships MCP server templates, companion AI libraries and an agent framework cover model access, tool calling and workflow orchestration, and Blazor gains experimental AI UI components. C# 15 introduces union types, and .NET MAUI now defaults to the CoreCLR runtime.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;微软发布 .NET 11 内置 MCP 模板与智能体框架&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流开发平台正式将 MCP 与智能体能力纳入官方工具链，对 .NET 生态开发者具有直接可用性。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/025/246.htm">IT之家 · 智能时代</source>
+<category>.NET 11</category>
+<category>微软</category>
+<category>MCP</category>
+<category>智能体</category>
+<category>C# 15</category>
+</item>
+<item><title>Moonshot AI Brings Kimi K3.1 Pro Highspeed to Amazon Bedrock</title><link>https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-1-pro-on-amazon-bedrock/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-1-pro-on-amazon-bedrock/</guid>
+<pubDate>Wed, 11 Nov 2026 09:07:19 +0800</pubDate>
+<description>&lt;p&gt;Moonshot AI has released the Kimi K3.1 series, with Kimi K3.1 Pro Highspeed now available on Amazon Bedrock. Built on the same 3T-class open-weight architecture and 1-million-token context window as Kimi K3, it was post-trained with substantially more compute to target long-horizon agentic work, reduce factual errors, and improve professional tasks such as financial modeling, office documents, and coding for game engines, 3D scenes, and CAD scripts. The Highspeed variant delivers 2-3x the output speed of K3.1 Pro and reuses the same endpoints and APIs, so developers can switch by changing the model ID.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;月之暗面 Kimi K3.1 Pro 高速版上架 Amazon Bedrock&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;3T 级开源权重模型叠加百万上下文与 2-3 倍推理提速，并通过 Bedrock 一键切换，对关注开源大模型落地与智能体长程任务的读者具备直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · llm · signal 62/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-1-pro-on-amazon-bedrock/">AWS Machine Learning Blog</source>
+<category>大模型</category>
+<category>月之暗面</category>
+<category>Amazon Bedrock</category>
+<category>开源模型</category>
+</item>
 <item><title>Anthropic Lifts IPO Target Valuation to $1.5 Trillion on Strong Demand</title><link>https://x.com/rohanpaul_ai/status/2120320127484969162</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120320127484969162</guid>
 <pubDate>Wed, 11 Nov 2026 08:58:06 +0800</pubDate>
 <description>&lt;p&gt;Anthropic&amp;#x27;s bankers plan to raise the IPO price range after heavy investor demand, lifting the target valuation back above $1.5 trillion. The Tuesday filing set a $70-$78 share range implying $1.26T-$1.41T including options and restricted shares; pricing above that range would push proceeds past $100B, with Google, Nvidia and Microsoft investing $26B at the IPO price. Three backers say Anthropic now prioritizes raising cash over maximizing valuation, given roughly $900B of planned compute and infrastructure spending.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 上调 IPO 目标估值至 1.5 万亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;万亿美元级 IPO 定价与 9000 亿美元算力支出计划，是 AI 产业资本格局的标志性事件。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 88/100&lt;/p&gt;</description>
@@ -11,6 +48,16 @@
 <category>Anthropic</category>
 <category>算力基础设施</category>
 <category>产业资本</category>
+</item>
+<item><title>Google Adds Kimi and DeepSeek Models to Android Bench Leaderboard</title><link>https://www.ithome.com/1/025/232.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/232.htm</guid>
+<pubDate>Wed, 11 Nov 2026 08:56:56 +0800</pubDate>
+<description>&lt;p&gt;Google has published the first Android Bench results for Kimi K3.1 Pro and DeepSeek V4.1 Flash, with Kimi reaching a 24.0% pass rate above Claude and Gemini entries while DeepSeek delivers strong cost efficiency at $9.9 per run. The benchmark targets real Android engineering tasks, giving developers a quantified reference for long-horizon agent capability.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌 Android Bench 新增 Kimi 与 DeepSeek 评测&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;第三方权威基准首次纳入国产模型并公开成本与耗时数据，对开发者模型选型有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/025/232.htm">IT之家 · 智能时代</source>
+<category>基准评测</category>
+<category>Android Bench</category>
+<category>Kimi</category>
+<category>DeepSeek</category>
+<category>智能体</category>
 </item>
 <item><title>CoreWeave Q3 Revenue Jumps 168% as Net Loss Widens to $709M</title><link>https://x.com/rohanpaul_ai/status/2120319053764190550</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120319053764190550</guid>
 <pubDate>Wed, 11 Nov 2026 08:53:50 +0800</pubDate>
@@ -66,6 +113,15 @@
 <category>IPO</category>
 <category>谷歌</category>
 </item>
+<item><title>Generative AI Emerges as Major News Intermediary, Study Finds</title><link>https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/</link><guid isPermaLink="true">https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/</guid>
+<pubDate>Wed, 11 Nov 2026 08:15:33 +0800</pubDate>
+<description>&lt;p&gt;A Reuters Institute survey across nine countries finds generative AI systems are evolving from standalone tools into significant information intermediaries, both through intentional use and incidental exposure. Yet audiences remain reluctant about AI producing their news, a gap that directly constrains media-AI platform strategy.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;研究显示生成式 AI 正成为新闻信息中介&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;基于九国受众调查的实证研究，量化了 AI 作为信息入口的渗透程度与公众接受度落差。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/">Hacker News AI</source>
+<category>生成式 AI</category>
+<category>新闻媒体</category>
+<category>受众研究</category>
+<category>信息中介</category>
+</item>
 <item><title>Paper Argues Recursive Self-Improvement Safety Lacks Any Evaluation Framework</title><link>https://x.com/rohanpaul_ai/status/2120304401630089671</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120304401630089671</guid>
 <pubDate>Wed, 11 Nov 2026 07:55:37 +0800</pubDate>
 <description>&lt;p&gt;A paper argues that recursive self-improvement (RSI) is being pursued by AI companies without any shared view of when it would be safe, and without even a clear framework for reasoning about where it leads. The author also demonstrates that a single high-level prompt can get an AI to train a small LLM from scratch, underscoring how fast the capability barrier is falling.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;论文指出递归自我改进安全评估仍无框架&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;聚焦递归自我改进的安全评估缺口，并给出低门槛复现实验，对关注 AI 安全与能力演进的读者有参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 58/100&lt;/p&gt;</description>
@@ -118,6 +174,15 @@
 <category>网页搜索</category>
 <category>LangGraph</category>
 </item>
+<item><title>Meta FAIR Open-Sources e-means Clustering with Up to 45x Speedup</title><link>https://x.com/Marktechpost/status/2120296028800954831</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2120296028800954831</guid>
+<pubDate>Wed, 11 Nov 2026 07:22:21 +0800</pubDate>
+<description>&lt;p&gt;Meta FAIR has open-sourced e-means, a drop-in replacement for k-means that reads small mini-batches and maintains exponential moving averages of cluster sums and counts, with two fitted scaling laws auto-selecting batch and step size. It reaches Lloyd&amp;#x27;s 25-epoch loss in just 1.4 to 2.6 epochs, delivering 10-45x GPU speedup over Flash-KMeans and 8-15x CPU speedup over Faiss, and clustered 10 billion DINO embeddings into 16.7M clusters in 2.5 epochs. The trade-off is stochastic runs and 64 GiB of float32 accumulators requiring sharding at that scale.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta FAIR 开源 e-means 聚类提速 45 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;经典聚类算法获得数量级加速且已开源，对大规模嵌入聚类与数据管线有直接实用价值。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · opensource · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/Marktechpost/status/2120296028800954831">Marktechpost (@Marktechpost)</source>
+<category>开源</category>
+<category>聚类算法</category>
+<category>Meta FAIR</category>
+<category>无监督学习</category>
+</item>
 <item><title>Anthropic Launches IPO Roadshow With Up to $64.35 Billion Raise</title><link>https://www.ithome.com/1/025/209.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/209.htm</guid>
 <pubDate>Wed, 11 Nov 2026 07:08:45 +0800</pubDate>
 <description>&lt;p&gt;Anthropic has formally kicked off its IPO roadshow, offering 825 million Class A shares at $70 to $78 apiece for a base raise of up to $64.35 billion, with a Nasdaq listing under the ticker ANT. Combined with a separate $26 billion Class N private placement to investors including Google, Nvidia, Microsoft and TSMC, total proceeds could reach $90.4 billion at a fully diluted valuation of roughly $1.4 trillion.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 启动 IPO 最高募资 643.5 亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 头部实验室冲击万亿美元级 IPO，并绑定芯片与云厂商战略配售，是产业资本格局的标志性事件。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 92/100&lt;/p&gt;</description>
@@ -146,18 +211,18 @@
 <category>商业化</category>
 <category>广告</category>
 </item>
-<item><title>Google Unveils Gemini Robotics 2.5 VLA Model for Real-World Robots</title><link>https://www.ithome.com/1/025/188.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/188.htm</guid>
+<item><title>谷歌发布 Gemini Robotics 2.5 机器人模型</title><link>https://www.ithome.com/1/025/188.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/188.htm</guid>
 <pubDate>Wed, 11 Nov 2026 06:54:24 +0800</pubDate>
-<description>&lt;p&gt;Google has launched Gemini Robotics 2.5, its most capable vision-language-action model to date, delivering gains in dexterity, reliability and safety across more than 200 tested tasks. In a real-world proof of concept on a Mercedes-Benz production line, it drove Apptronik&amp;#x27;s Apollo 2 humanoid to pick and pack auto parts with a 96% success rate, improving success by 30-100% and speed by 20-30% over prior baselines. The model is now opening to Google&amp;#x27;s robotics partners.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌发布 Gemini Robotics 2.5 机器人模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;谷歌最强 VLA 模型落地奔驰产线，96% 成功率标志具身智能从实验室走向真实生产。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 88/100&lt;/p&gt;</description>
+<description>&lt;p&gt;谷歌推出迄今最强的视觉-语言-动作模型 Gemini Robotics 2.5，在灵巧度、可靠性与安全性三方面实现跃升，并在超过 200 项任务中完成测试。该模型已在奔驰生产线的真实概念验证中驱动 Apptronik Apollo 2 人形机器人拣选打包汽车零部件，成功率达 96%，相较前代基线成功率提升 30% 至 100%、任务完成速度快 20% 至 30%。目前该模型正向谷歌机器人合作伙伴开放。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;谷歌最强 VLA 模型落地奔驰产线，96% 成功率标志具身智能从实验室走向真实生产。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 88/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/025/188.htm">IT之家 · 智能时代</source>
 <category>具身智能</category>
 <category>VLA</category>
 <category>谷歌</category>
 <category>人形机器人</category>
 </item>
-<item><title>Google and Artificial Analysis Launch MKA Benchmark for Multimodal Agents</title><link>https://www.ithome.com/1/025/205.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/205.htm</guid>
+<item><title>谷歌联合 Artificial Analysis 发布 MKA 多模态智能体基准</title><link>https://www.ithome.com/1/025/205.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/205.htm</guid>
 <pubDate>Wed, 11 Nov 2026 06:48:50 +0800</pubDate>
-<description>&lt;p&gt;Google and evaluation firm Artificial Analysis released MKA, a benchmark of 200 multimodal knowledge-work tasks spanning 10 industries that mirror 3-8 hours of expert human effort. Gemini 4 Carbon placed second while costing roughly one-sixth of the top model per task, and the benchmark is now open to developers via Artificial Analysis.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌联合 Artificial Analysis 发布 MKA 多模态智能体基准&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个面向视觉复杂文件与多步骤知识工作的智能体基准，且公开了成本效率对比，对评估智能体落地价值有直接参考意义。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;谷歌联合评测机构 Artificial Analysis 推出 MKA 基准，用 200 项跨 10 个行业的多模态知识工作任务评估 AI 智能体，任务耗时对标人类专家 3 至 8 小时。Gemini 4 Carbon 取得第二名，平均任务成本约为第一名的六分之一，基准已通过 Artificial Analysis 对外开放。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个面向视觉复杂文件与多步骤知识工作的智能体基准，且公开了成本效率对比，对评估智能体落地价值有直接参考意义。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/025/205.htm">IT之家 · 智能时代</source>
 <category>基准测试</category>
 <category>智能体</category>
@@ -165,112 +230,49 @@
 <category>谷歌</category>
 <category>Artificial Analysis</category>
 </item>
-<item><title>Anthropic Launches Whiteboards, Sheets and Data Apps for Claude</title><link>https://www.ithome.com/1/025/204.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/204.htm</guid>
+<item><title>Anthropic 推出白板表格与数据看板三件套</title><link>https://www.ithome.com/1/025/204.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/204.htm</guid>
 <pubDate>Wed, 11 Nov 2026 06:43:46 +0800</pubDate>
-<description>&lt;p&gt;Anthropic rolled out Claude Whiteboards, Claude Sheets and Claude Data to all paid plans, pushing Claude from chat Q&amp;amp;A into a team collaboration workspace. Whiteboards and Sheets are in beta while Data is generally available, connecting to Redshift, BigQuery, Snowflake and other sources to produce dashboards and narrated data stories. The three tools share context so a plan can flow from whiteboard to spreadsheet to dashboard without restating background.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 推出白板表格与数据看板三件套&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Claude 从对话助手向办公协作套件扩张的关键产品动作，涉及数据连接与跨工具上下文共享，值得关注。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 68/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 面向所有付费用户推出 Claude Whiteboards、Claude Sheets 与 Claude Data 三项协作工具，将 Claude 从对话问答延伸至团队工作台。白板与表格处于测试阶段，数据看板已正式上线，支持连接 Redshift、BigQuery、Snowflake 等数据源并生成仪表盘与解说视频。三项工具共享上下文，可从白板流转到表格再到看板，无需重复交代背景。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Claude 从对话助手向办公协作套件扩张的关键产品动作，涉及数据连接与跨工具上下文共享，值得关注。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 68/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/025/204.htm">IT之家 · 智能时代</source>
 <category>Anthropic</category>
 <category>Claude</category>
 <category>办公协作</category>
 <category>数据看板</category>
 </item>
-<item><title>Google Releases Gemini 4 Carbon Reasoning Model for Coding and Science</title><link>https://www.ithome.com/1/025/203.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/203.htm</guid>
+<item><title>谷歌发布 Gemini 4 Carbon 推理模型，主打复杂编程与科研</title><link>https://www.ithome.com/1/025/203.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/203.htm</guid>
 <pubDate>Wed, 11 Nov 2026 06:43:37 +0800</pubDate>
-<description>&lt;p&gt;Google has opened access to Gemini 4 Carbon, its most capable reasoning model to date, targeting complex software engineering, multi-step agentic tasks, scientific research and cybersecurity. It offers a unified context window of roughly 1.05 million tokens, accepts text, image, video, audio and PDF inputs, and provides three reasoning-effort tiers; it is available to paid developers via the Gemini API and AI Studio at an introductory price of $2 per million input tokens and $10 per million output tokens.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌发布 Gemini 4 Carbon 推理模型，主打复杂编程与科研&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;谷歌最强推理模型正式开放，参数、定价与上下文规格明确，是 AI 时间线上的重要节点。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 88/100&lt;/p&gt;</description>
+<description>&lt;p&gt;谷歌正式开放迄今最强的推理模型 Gemini 4 Carbon，重点面向复杂软件工程、多步骤智能体任务、科学研究和网络安全场景。该模型拥有约 105 万 Token 的统一上下文窗口，支持文本、图像、视频、音频和 PDF 输入，并提供三档推理强度；通过 Gemini API 和 AI Studio 向付费开发者开放，首发价为每百万输入 Token 2 美元、每百万输出 Token 10 美元。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;谷歌最强推理模型正式开放，参数、定价与上下文规格明确，是 AI 时间线上的重要节点。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 88/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/025/203.htm">IT之家 · 智能时代</source>
 <category>大模型</category>
 <category>谷歌</category>
 <category>推理模型</category>
 <category>Gemini</category>
 </item>
-<item><title>OpenAI Acquires AI Travel Agent Startup Odessia</title><link>https://www.ithome.com/1/025/202.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/202.htm</guid>
+<item><title>OpenAI 收购 AI 旅行智能体公司 Odessia</title><link>https://www.ithome.com/1/025/202.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/202.htm</guid>
 <pubDate>Wed, 11 Nov 2026 06:43:22 +0800</pubDate>
-<description>&lt;p&gt;OpenAI has acquired Odessia, a one-year-old AI travel agent startup, with founder Francis Davidson joining OpenAI to help explore the travel business. Odessia had raised a $6M pre-seed led by Sequoia and launched an AI itinerary-planning service five months ago. OpenAI disclosed no concrete travel product or roadmap, saying only that travel is a frequent ChatGPT query topic.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 收购 AI 旅行智能体公司 Odessia&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;OpenAI 通过收购切入垂直智能体场景，反映大厂对旅行代理类 Agent 的布局意图。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 已收购成立仅一年的 AI 旅行智能体初创公司 Odessia，其创始人 Francis Davidson 同步加入 OpenAI，协助探索旅游业务方向。Odessia 曾获红杉资本领投的 600 万美元种子前融资，五个月前上线 AI 行程规划服务。OpenAI 未公布具体旅游产品或计划，仅称旅游是 ChatGPT 高频咨询话题之一。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;OpenAI 通过收购切入垂直智能体场景，反映大厂对旅行代理类 Agent 的布局意图。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/025/202.htm">IT之家 · 智能时代</source>
 <category>OpenAI</category>
 <category>智能体</category>
 <category>收购</category>
 <category>旅游</category>
 </item>
-<item><title>Amazon Bedrock Adds Built-in, DeepEval and AutoEval Agent Evaluators</title><link>https://aws.amazon.com/blogs/machine-learning/the-agent-evaluation-playbook-built-in-deepeval-and-autoeval-on-agentcore/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/the-agent-evaluation-playbook-built-in-deepeval-and-autoeval-on-agentcore/</guid>
+<item><title>亚马逊 Bedrock 推出智能体评估工具集</title><link>https://aws.amazon.com/blogs/machine-learning/the-agent-evaluation-playbook-built-in-deepeval-and-autoeval-on-agentcore/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/the-agent-evaluation-playbook-built-in-deepeval-and-autoeval-on-agentcore/</guid>
 <pubDate>Wed, 11 Nov 2026 06:35:03 +0800</pubDate>
-<description>&lt;p&gt;AWS introduced agent evaluation capabilities in Bedrock AgentCore, offering built-in, DeepEval and AutoEval evaluators retrievable through a single ListEvaluators API call. The post argues that surface signals like latency and user feedback cannot reveal task completion, long-session topic drift, PII leakage or skipped steps, so teams should define success criteria and trace-level evidence before choosing evaluators.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊 Bedrock 推出智能体评估工具集&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向生产环境智能体可观测与评估的实操方法论，对构建 Agent 的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;亚马逊云科技在 Bedrock AgentCore 中推出智能体评估能力，统一提供内置评估器、DeepEval 与 AutoEval 三类方案，可通过 ListEvaluators API 一次性获取。文章指出，延迟与用户反馈等表层信号无法反映任务完成度、长会话话题漂移、PII 泄露与步骤遗漏等深层行为，团队应先明确成功标准与可观测的轨迹证据再选择评估器。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向生产环境智能体可观测与评估的实操方法论，对构建 Agent 的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 62/100&lt;/p&gt;</description>
 <source url="https://aws.amazon.com/blogs/machine-learning/the-agent-evaluation-playbook-built-in-deepeval-and-autoeval-on-agentcore/">AWS Machine Learning Blog</source>
 <category>智能体评估</category>
 <category>Amazon Bedrock</category>
 <category>可观测性</category>
 </item>
-<item><title>Amazon Debuts AI Security Drone and Patrol Robot for Ring</title><link>https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/</link><guid isPermaLink="true">https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/</guid>
+<item><title>亚马逊推出 AI 安防无人机与巡逻机器人</title><link>https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/</link><guid isPermaLink="true">https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/</guid>
 <pubDate>Wed, 11 Nov 2026 06:35:01 +0800</pubDate>
-<description>&lt;p&gt;Amazon unveiled the Ring Drone Cam and Ring Rover Cam, AI-powered security devices built on an AI Pilot system that combines vision models, on-device sensors and cloud processing for autonomous patrolling and obstacle avoidance. The products are slated to ship from late 2026 to early 2027, and are likely to reignite privacy concerns over indoor flying cameras.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊推出 AI 安防无人机与巡逻机器人&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大厂将具身智能与视觉模型落地到消费级安防硬件，是 AI 硬件化的重要信号。&lt;/p&gt;&lt;p&gt;Ars Technica AI · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;亚马逊发布 Ring Drone Cam 与 Ring Rover Cam 两款 AI 安防硬件，依托 AI Pilot 系统融合视觉模型、端侧传感器与云端处理，实现自主巡逻与避障。两款产品预计 2026 年底至 2027 年初上市，但室内飞行摄像头的隐私争议将随之升级。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大厂将具身智能与视觉模型落地到消费级安防硬件，是 AI 硬件化的重要信号。&lt;/p&gt;&lt;p&gt;Ars Technica AI · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/">Ars Technica AI</source>
 <category>AI 硬件</category>
 <category>具身智能</category>
 <category>亚马逊</category>
 <category>智能家居</category>
-</item>
-<item><title>Gemini Omni Flash 1.2 视频编辑升至第二且降价 31%</title><link>https://x.com/ArtificialAnlys/status/2120283459805749688</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2120283459805749688</guid>
-<pubDate>Wed, 11 Nov 2026 06:32:24 +0800</pubDate>
-<description>&lt;p&gt;Google 于 11 月 5 日发布视频模型 Gemini Omni Flash 1.2，在 Artificial Analysis 的 AA-Video-Editing v1.1 榜单中位列第二，文生视频排名从第 12 升至第 6，图生视频从第 17 升至第 14。该模型支持文生视频、图生视频与视频编辑，具备原生音频，单段最长 15 秒，1080p 每分钟调用成本 6.26 美元，较上一代降低 31%，并将于 12 月 3 日在 Gemini API 上替换 1.1 版本。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Google 新一代视频模型在第三方榜单的名次与 31% 降价幅度，是评估视频生成模型选型与成本的重要参考。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 62/100&lt;/p&gt;</description>
-<source url="https://x.com/ArtificialAnlys/status/2120283459805749688">Artificial Analysis (@ArtificialAnlys)</source>
-<category>视频生成</category>
-<category>Google DeepMind</category>
-<category>模型评测</category>
-<category>API 定价</category>
-</item>
-<item><title>英伟达发布 GR00T 2 世界动作模型 预训练 40 万小时人类视频</title><link>https://x.com/rohanpaul_ai/status/2120281923725795357</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120281923725795357</guid>
-<pubDate>Wed, 11 Nov 2026 06:26:18 +0800</pubDate>
-<description>&lt;p&gt;英伟达发布开源世界动作模型 GR00T 2，可同时驱动机器臂、灵巧手与人形机器人。其核心突破在于用 402,730 小时人类头戴相机视频与 10,184 小时手持夹爪演示做预训练，仅需 23,500 小时遥操作真机数据，大幅降低对昂贵真机示教的依赖。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源具身基础模型首次把人类视频预训练规模推到 40 万小时量级，直接改变机器人数据成本结构。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2120281923725795357">Rohan Paul (@rohanpaul_ai)</source>
-<category>具身智能</category>
-<category>英伟达</category>
-<category>世界模型</category>
-<category>开源</category>
-</item>
-<item><title>Fable 5.2 单次提示生成可玩 3D 射击游戏</title><link>https://x.com/dotey/status/2120280051170386081</link><guid isPermaLink="true">https://x.com/dotey/status/2120280051170386081</guid>
-<pubDate>Wed, 11 Nov 2026 06:18:51 +0800</pubDate>
-<description>&lt;p&gt;开发者 Felix Rieseberg 用单次提示让 Fable 5.2 从零生成一款可在浏览器直接游玩的 3D 射击游戏，模型、音效与贴图全部原创。该实验耗时 8 小时，消耗约 2.7M 输出与 445M 输入 token，API 成本约 550 美元，展示了前沿模型在无人工反馈下完成复杂多模态工程的能力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以真实 token 与成本数据量化了单次提示生成完整可玩游戏的能力边界，对评估前沿模型工程上限有参考价值。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · llm · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/dotey/status/2120280051170386081">宝玉 (@dotey)</source>
-<category>Fable 5.2</category>
-<category>单次提示</category>
-<category>游戏生成</category>
-<category>多模态</category>
-</item>
-<item><title>Glasswing 运行 7 个月发现 3.8 万个漏洞仅修复 217 个</title><link>https://www.vulncheck.com/blog/anthropic-glasswing-november-update</link><guid isPermaLink="true">https://www.vulncheck.com/blog/anthropic-glasswing-november-update</guid>
-<pubDate>Wed, 11 Nov 2026 06:17:56 +0800</pubDate>
-<description>&lt;p&gt;VulnCheck 统计显示，Anthropic 的 Glasswing 项目运行七个月共报告 37,966 个漏洞发现，但仅 19.4% 公开、217 个标记修复，其中 442 个获得 CVE 编号、仅 2 个已被实际利用。发现速度远超修复速度，9 月以来新增近 1.2 万条发现却只多修 15 个，暴露出 AI 驱动漏洞挖掘与维护者修复能力之间的严重失衡。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以具体数据揭示 AI 漏洞挖掘规模化后给开源维护者带来的修复压力，是评估 AI 安全工具实际价值的重要一手观察。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.vulncheck.com/blog/anthropic-glasswing-november-update">Hacker News AI</source>
-<category>AI 安全</category>
-<category>漏洞挖掘</category>
-<category>开源维护</category>
-<category>Anthropic</category>
-</item>
-<item><title>Tendrils 融资 3000 万美元重构通用 CPU</title><link>https://tendrils.co/blog/2026-11-10/30m-raised</link><guid isPermaLink="true">https://tendrils.co/blog/2026-11-10/30m-raised</guid>
-<pubDate>Wed, 11 Nov 2026 06:14:03 +0800</pubDate>
-<description>&lt;p&gt;Tendrils 宣布完成由 Benchmark 领投的 3000 万美元融资，目标是摆脱 1970 年代以来的顺序执行与向后兼容包袱，从零设计面向数千核心并行的通用处理器。公司同时推进开源语言 Vine，以并行优先架构替代共享可变内存与线性指令序列的旧范式。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是少见的从零重构通用 CPU 架构的早期重注，硬件与语言协同设计的路线值得持续关注。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 58/100&lt;/p&gt;</description>
-<source url="https://tendrils.co/blog/2026-11-10/30m-raised">Hacker News AI</source>
-<category>芯片架构</category>
-<category>融资</category>
-<category>并行计算</category>
-<category>开源语言</category>
-</item>
-<item><title>高盛预测 Anthropic 2030 年营收将超 6000 亿美元</title><link>https://x.com/rohanpaul_ai/status/2120276184974204973</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120276184974204973</guid>
-<pubDate>Wed, 11 Nov 2026 06:03:29 +0800</pubDate>
-<description>&lt;p&gt;高盛在 Anthropic IPO 路演启动之际向潜在投资者口头披露的预测显示，Anthropic 营收将在 2030 年突破 6000 亿美元，约为 2025 年的 130 倍以上，其中今年约 520 亿美元、2027 年 1360 亿美元、2029 年 4420 亿美元。该预测意味着估值高度绑定算力按期转化为收入，数据中心建设若延迟将首先放大 2027 年的现金流缺口。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是头部大模型公司 IPO 定价预期的关键财务信号，直接反映 AI 算力投入与营收兑现的节奏风险。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2120276184974204973">Rohan Paul (@rohanpaul_ai)</source>
-<category>商业融资</category>
-<category>Anthropic</category>
-<category>高盛</category>
-<category>IPO</category>
-</item>
-<item><title>GPT-6 Astra 登顶 EgoHome 手部动作理解基准</title><link>https://x.com/rohanpaul_ai/status/2120274578144739478</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120274578144739478</guid>
-<pubDate>Wed, 11 Nov 2026 05:57:06 +0800</pubDate>
-<description>&lt;p&gt;Perceptron AI 发布开源基准 EgoHome，专门评测模型对家务视频中手部动作的细粒度理解，包含 750 余个时长不足 500 毫秒的片段，并标注手部框、子任务、手部动作与手部描述四类信息。GPT-6 Astra 在该基准上排名第一。该基准直接服务于机器人从人类视频中学习操作技能的数据标注环节，标注质量决定机器人训练的正确性。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源细粒度手部动作基准叠加 GPT-6 Astra 登顶，直接关联机器人从人类视频学习的关键数据环节。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 72/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2120274578144739478">Rohan Paul (@rohanpaul_ai)</source>
-<category>基准评测</category>
-<category>具身智能</category>
-<category>GPT-6 Astra</category>
-<category>第一视角视频理解</category>
 </item>
 </channel>
 </rss>
