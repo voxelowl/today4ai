@@ -1,8 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Thu, 12 Nov 2026 01:37:32 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 12 Nov 2026 02:21:38 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>AWS Launches Local Emulator for Offline Cloud API Testing</title><link>https://github.com/aws/aws-emulator</link><guid isPermaLink="true">https://github.com/aws/aws-emulator</guid>
+<pubDate>Thu, 12 Nov 2026 02:21:38 +0800</pubDate>
+<description>&lt;p&gt;AWS has released AWS Emulator, a local program that emulates AWS APIs so developers can test software on their own machines or in CI without an AWS account. It works by pointing the AWS CLI or SDKs at a local endpoint via environment variables, also offering an embedded mode, and AWS explicitly scopes it to building and testing rather than production or security validation.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS 推出本地模拟器 无需账号即可离线测试云 API&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AWS 官方下场做本地云 API 模拟器，直接冲击 LocalStack 等第三方生态，对日常依赖云服务的开发者有实际工作流价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 68/100&lt;/p&gt;</description>
+<source url="https://github.com/aws/aws-emulator">Hacker News AI</source>
+<category>AWS</category>
+<category>云原生</category>
+<category>开发者工具</category>
+<category>本地模拟</category>
+</item>
+<item><title>Google Releases First Decision Model Gemini Decision 1 Scoring 66</title><link>https://x.com/ArtificialAnlys/status/2120582049522127205</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2120582049522127205</guid>
+<pubDate>Thu, 12 Nov 2026 02:18:53 +0800</pubDate>
+<description>&lt;p&gt;Google DeepMind has released Gemini Decision 1, its first decision model, scoring 66 on the Artificial Analysis Decision Index v2.1, level with Elephant 9B and Jev 1.14 but 7 points behind leaders Drex Max v1.1 and GLiDE v1.2. It leads knowledge and reasoning benchmarks yet costs about $345 per 1M tasks, over three times Drex Max v1.1, and trails on the new AA-Paperclip classification and extraction benchmark.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌发布首个决策模型 Gemini Decision 1 决策指数得分 66&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;谷歌首次切入决策模型赛道，但未达前沿水平且成本高企，是观察大厂新模型方向的重要信号。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 72/100&lt;/p&gt;</description>
+<source url="https://x.com/ArtificialAnlys/status/2120582049522127205">Artificial Analysis (@ArtificialAnlys)</source>
+<category>大模型</category>
+<category>谷歌</category>
+<category>决策模型</category>
+<category>基准评测</category>
+</item>
+<item><title>TSMC to Invest $1 Billion in Anthropic and OpenAI</title><link>https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/</link><guid isPermaLink="true">https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/</guid>
+<pubDate>Thu, 12 Nov 2026 02:16:40 +0800</pubDate>
+<description>&lt;p&gt;TSMC&amp;#x27;s board approved up to $500 million for OpenAI preferred stock and another $500 million for Anthropic common shares at its expected IPO price, totaling up to $1 billion. The move gives one of the biggest beneficiaries of the AI data center buildout direct stakes in leading AI developers, seen as a confidence boost for a strained AI trade, though analysts warn circular financing among investors, suppliers and customers is muddying true demand signals.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;台积电拟向 Anthropic 与 OpenAI 投资 10 亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;算力供应链龙头首次以股权方式深度绑定两大模型厂商，是观察 AI 资本循环与需求真实性的关键信号。&lt;/p&gt;&lt;p&gt;Ars Technica AI · industry · signal 78/100&lt;/p&gt;</description>
+<source url="https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/">Ars Technica AI</source>
+<category>台积电</category>
+<category>Anthropic</category>
+<category>OpenAI</category>
+<category>投融资</category>
+<category>算力供应链</category>
+</item>
+<item><title>Five Frontier Models Texted Real People on Dating App for Six Days</title><link>https://x.com/rohanpaul_ai/status/2120578018532016329</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120578018532016329</guid>
+<pubDate>Thu, 12 Nov 2026 02:02:52 +0800</pubDate>
+<description>&lt;p&gt;An experiment ran five frontier models on a dating app for six days, producing 1,277 conversations in which 510 people agreed to meet and 355 shared their phone number, while only 8 asked whether they were talking to a bot. The models were required to disclose being AI if asked, unlike a real scammer, highlighting deception risks and safety boundaries for autonomous agents in social settings.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;5 款前沿模型在约会应用与真人聊天 6 天&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以具体数据揭示前沿模型在真实社交场景中的说服力与披露困境，对智能体安全治理有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 71/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2120578018532016329">Rohan Paul (@rohanpaul_ai)</source>
+<category>智能体</category>
+<category>AI 安全</category>
+<category>社会实验</category>
+<category>前沿模型</category>
+</item>
 <item><title>Big Walk AI Disclosure Sparks Indie Game Industry Reckoning</title><link>https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/</link><guid isPermaLink="true">https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/</guid>
 <pubDate>Thu, 12 Nov 2026 01:37:32 +0800</pubDate>
 <description>&lt;p&gt;House House, developer of indie hit Big Walk, belatedly disclosed minimal AI use to fix a bug, triggering a fierce controversy across the indie game community. Nineteen of the 50-plus Independent Games Festival jurors went public, citing a significant rise in generative-AI-assisted submissions and warning of ecological, economic, psychological and labor harms. The episode exposes the absence of disclosure norms and a deepening trust crisis over AI in game development.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Big Walk 承认用 AI 修 Bug 引发独立游戏界争议&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;独立游戏界围绕 AI 使用披露爆发实质争议，涉及权威奖项评审与行业规范，值得关注。&lt;/p&gt;&lt;p&gt;Ars Technica AI · industry · signal 58/100&lt;/p&gt;</description>
@@ -11,6 +48,14 @@
 <category>独立游戏</category>
 <category>行业争议</category>
 <category>生成式 AI</category>
+</item>
+<item><title>Apple&#x27;s ADM 3 Cloud Image Editor Ranks 42nd in Arena</title><link>https://x.com/ArtificialAnlys/status/2120569836204097554</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2120569836204097554</guid>
+<pubDate>Thu, 12 Nov 2026 01:30:21 +0800</pubDate>
+<description>&lt;p&gt;Independent evaluator Artificial Analysis benchmarked Apple&amp;#x27;s ADM 3 Cloud, the model behind iPhone photo editing, in its image arena. It placed 42nd on AA-Image-Editing v2.1 and 85th on AA-Image-T2I v2.1, giving a third-party quantitative read on Apple&amp;#x27;s image AI: middling for editing and clearly behind leaders on pure text-to-image generation.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;苹果 ADM 3 Cloud 图像编辑模型排名第 42&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次以第三方竞技场数据量化苹果图像编辑模型的行业位次，对关注端侧 AI 与图像生成格局的读者有参考价值。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/ArtificialAnlys/status/2120569836204097554">Artificial Analysis (@ArtificialAnlys)</source>
+<category>图像生成</category>
+<category>苹果</category>
+<category>模型评测</category>
 </item>
 <item><title>OpenAI Q3 Revenue Nears $10B as Losses Widen to $10.9B</title><link>https://x.com/rohanpaul_ai/status/2120565946561765645</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120565946561765645</guid>
 <pubDate>Thu, 12 Nov 2026 01:14:54 +0800</pubDate>
@@ -30,6 +75,15 @@
 <category>实证研究</category>
 <category>JetBrains</category>
 <category>卡内基梅隆大学</category>
+</item>
+<item><title>Pomerado Turns Any Website into an MCP Interface for Agents</title><link>https://pomerado.ai/</link><guid isPermaLink="true">https://pomerado.ai/</guid>
+<pubDate>Thu, 12 Nov 2026 01:11:56 +0800</pubDate>
+<description>&lt;p&gt;YC F26 startup Pomerado launched an open-source tool that converts any website into an API and MCP service within minutes, letting agents make structured calls instead of driving browsers. The team claims this is faster and more reliable than browser agents, and offers a keyless MCP endpoint for clients such as Claude Code and Codex to try directly.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Pomerado 将任意网站转为智能体可调用的 MCP 接口&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;将网站即时转为 MCP 工具的思路切中智能体落地痛点，且开源可试用，值得关注。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 62/100&lt;/p&gt;</description>
+<source url="https://pomerado.ai/">Hacker News AI</source>
+<category>MCP</category>
+<category>智能体</category>
+<category>开源</category>
+<category>YC</category>
 </item>
 <item><title>Pomerado Turns Any Website into an MCP Interface for Agents</title><link>https://news.ycombinator.com/item?id=50455811</link><guid isPermaLink="true">https://news.ycombinator.com/item?id=50455811</guid>
 <pubDate>Thu, 12 Nov 2026 01:11:56 +0800</pubDate>
@@ -171,9 +225,9 @@
 <category>开发者文化</category>
 <category>观点</category>
 </item>
-<item><title>Helsing Unveils Clarity Agent Platform to Generate Strike Target Recommendations</title><link>https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name/</link><guid isPermaLink="true">https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name/</guid>
+<item><title>Helsing 推出 Clarity 智能体平台 自动生成打击目标建议</title><link>https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name/</link><guid isPermaLink="true">https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name/</guid>
 <pubDate>Wed, 11 Nov 2026 23:12:53 +0800</pubDate>
-<description>&lt;p&gt;German defense tech firm Helsing has launched Clarity, an agent-based platform that fuses sensor feeds and intelligence reports to identify military targets and recommend matching weapon systems. Helsing stresses European sovereignty and mandatory human authorization for every strike, positioning itself against US vendor Palantir. The article warns that real-world experience with similar systems shows human review windows shrinking to seconds, with AI errors sometimes caught only moments before an operation.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Helsing 推出 Clarity 智能体平台 自动生成打击目标建议&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 智能体首次被系统性嵌入武器目标决策链，涉及技术架构、人机权责与战争伦理，值得持续关注 AI 的读者重点研判。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;德国国防科技公司 Helsing 发布名为 Clarity 的智能体软件平台，可汇聚多源传感器数据与情报报告，自动识别军事目标并推荐匹配的武器系统。Helsing 强调欧洲主权与“每一次打击必须由人类授权”，直接对标美国 Palantir。但文章同时指出，同类系统的实战经验显示人工复核时间常被压缩至数秒，AI 误判可能在行动前一刻才被发现，存在显著误伤风险。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 智能体首次被系统性嵌入武器目标决策链，涉及技术架构、人机权责与战争伦理，值得持续关注 AI 的读者重点研判。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 78/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name/">The Decoder</source>
 <category>智能体</category>
 <category>国防科技</category>
@@ -181,96 +235,41 @@
 <category>人机协同</category>
 <category>AI 伦理</category>
 </item>
-<item><title>Anthropic IPO Roadshow Reveals Four-Chip Training Strategy</title><link>https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/</guid>
+<item><title>Anthropic IPO 路演披露四芯片训练战略</title><link>https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/</guid>
 <pubDate>Wed, 11 Nov 2026 23:11:59 +0800</pubDate>
-<description>&lt;p&gt;Anthropic&amp;#x27;s IPO roadshow video disclosed for the first time that Claude is trained and served across all four major chip families: AWS Trainium, Google TPUs, NVIDIA GPUs and AMD GPUs. Co-founder Tom Brown said the unconventional multi-chip bet now lets the company onboard a new platform in far less time, with its internal Mythos model doing work that previously took dozens of engineers months.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic IPO 路演披露四芯片训练战略&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Anthropic 首次公开其多芯片算力架构与工程效率细节，对理解前沿模型公司的算力成本结构具有实质参考价值。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · compute · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 在 IPO 路演视频中首次系统披露其算力战略：Claude 的训练与推理同时运行在 AWS Trainium、Google TPU、NVIDIA GPU 与 AMD GPU 四大芯片家族之上。联合创始人 Tom Brown 称，这一多芯片押注源于早期非常规决策，如今接入新芯片平台的周期已从数十名工程师数月缩短至由内部模型 Mythos 主导完成。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Anthropic 首次公开其多芯片算力架构与工程效率细节，对理解前沿模型公司的算力成本结构具有实质参考价值。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · compute · signal 78/100&lt;/p&gt;</description>
 <source url="https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/">Simon Willison 博客</source>
 <category>算力基础设施</category>
 <category>Anthropic</category>
 <category>IPO</category>
 <category>多芯片战略</category>
 </item>
-<item><title>AWS Adds Usage-Based Metering for SageMaker Bidirectional Streaming</title><link>https://aws.amazon.com/blogs/machine-learning/introducing-usage-based-pricing-for-amazon-sagemaker-ai-bidirectional-streaming/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/introducing-usage-based-pricing-for-amazon-sagemaker-ai-bidirectional-streaming/</guid>
+<item><title>AWS 为 SageMaker 双向流式推理推出按用量计费</title><link>https://aws.amazon.com/blogs/machine-learning/introducing-usage-based-pricing-for-amazon-sagemaker-ai-bidirectional-streaming/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/introducing-usage-based-pricing-for-amazon-sagemaker-ai-bidirectional-streaming/</guid>
 <pubDate>Wed, 11 Nov 2026 23:10:23 +0800</pubDate>
-<description>&lt;p&gt;AWS introduced usage-based metering for Amazon SageMaker AI bidirectional streaming inference, letting model providers bill AWS Marketplace customers for actual consumption during live streams while endpoint infrastructure charges remain separate. Deepgram is the launch partner, bringing usage-based speech-to-text and text-to-speech billing to AWS Marketplace.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS 为 SageMaker 双向流式推理推出按用量计费&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是云平台计费机制的一次具体补齐，解决了流式 AI 服务在 Marketplace 上按量收费的工程问题，对部署实时语音模型的厂商有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · compute · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;AWS 宣布为 Amazon SageMaker AI 双向流式推理引入按用量计量能力，使模型提供商可在 AWS Marketplace 上按实时流中的实际消耗收费，端点基础设施费用仍单独计收。Deepgram 作为首个合作伙伴，将按用量计费的语音转文字与文字转语音服务带上 Marketplace。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是云平台计费机制的一次具体补齐，解决了流式 AI 服务在 Marketplace 上按量收费的工程问题，对部署实时语音模型的厂商有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · compute · signal 42/100&lt;/p&gt;</description>
 <source url="https://aws.amazon.com/blogs/machine-learning/introducing-usage-based-pricing-for-amazon-sagemaker-ai-bidirectional-streaming/">AWS Machine Learning Blog</source>
 <category>AWS</category>
 <category>SageMaker</category>
 <category>计费</category>
 <category>实时语音</category>
 </item>
-<item><title>Voice Arena Launches First Open Benchmark for AI Dictation Apps</title><link>https://x.com/rohanpaul_ai/status/2120534491194364310</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120534491194364310</guid>
+<item><title>Voice Arena 发布首个 AI 听写应用开放基准</title><link>https://x.com/rohanpaul_ai/status/2120534491194364310</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120534491194364310</guid>
 <pubDate>Wed, 11 Nov 2026 23:09:54 +0800</pubDate>
-<description>&lt;p&gt;Voice Arena has released Dictation Bench, the first open benchmark for AI dictation apps. It fed 761 recordings from 87 speakers into 10 real Mac apps (not their APIs), with 5 LLM judges assessing whether each draft could be sent as-is; Wispr Flow scored 79% versus Apple&amp;#x27;s 35%. The benchmark publishes reference policies, app configurations, and judge instructions, giving vendors a reproducible standard for comparison.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Voice Arena 发布首个 AI 听写应用开放基准&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个面向真实听写应用的开放基准，公开完整评测方法，为厂商宣称提供了可核查的对比依据。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · tools · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Voice Arena 推出 Dictation Bench，这是首个针对 AI 听写应用的开放基准。测试将 87 位说话人的 761 段录音输入 10 款 Mac 真实应用（非 API），由 5 个 LLM 评审判断草稿能否直接发送，Wispr Flow 得分 79%，Apple 仅 35%。该基准公开了参考策略、应用配置与评审指令，为厂商提供了可复现的对比标准。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个面向真实听写应用的开放基准，公开完整评测方法，为厂商宣称提供了可核查的对比依据。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · tools · signal 62/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2120534491194364310">Rohan Paul (@rohanpaul_ai)</source>
 <category>AI 听写</category>
 <category>基准评测</category>
 <category>语音识别</category>
 <category>开发者工具</category>
 </item>
-<item><title>Baidu Unveils ERNIE 5.5 Flash Preview with 280B Parameters and 1M Context</title><link>https://x.com/arena/status/2120532036435980543</link><guid isPermaLink="true">https://x.com/arena/status/2120532036435980543</guid>
+<item><title>百度发布 ERNIE 5.5 Flash 预览版 280B 总参数 1M 上下文</title><link>https://x.com/arena/status/2120532036435980543</link><guid isPermaLink="true">https://x.com/arena/status/2120532036435980543</guid>
 <pubDate>Wed, 11 Nov 2026 23:00:09 +0800</pubDate>
-<description>&lt;p&gt;Baidu released ERNIE 5.5 Flash Preview, built on a new architecture optimized for efficient inference, with 280B total parameters and 14B active per token, a 1M-token context window, and generation speed above 200 tokens/sec. The model is now live on Arena for testing, with Baidu claiming competitive results on Terminal-Bench and AutomationBench; open weights are slated for release by November 25.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;百度发布 ERNIE 5.5 Flash 预览版 280B 总参数 1M 上下文&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;百度开源权重旗舰模型的新一代预览版，稀疏参数与 1M 上下文规格明确，且承诺近期开放权重，值得关注。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;百度发布 ERNIE 5.5 Flash Preview，采用面向高效推理的新架构，总参数 280B、每 token 激活 14B，支持 1M token 上下文，生成速度超过 200 tokens/秒。该模型已在 Arena 上线测试，官方称在 Terminal-Bench、AutomationBench 等基准上表现有竞争力，模型权重将于 11 月 25 日前开放。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;百度开源权重旗舰模型的新一代预览版，稀疏参数与 1M 上下文规格明确，且承诺近期开放权重，值得关注。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/arena/status/2120532036435980543">Arena.ai (@arena)</source>
 <category>大模型</category>
 <category>百度</category>
 <category>开源权重</category>
 <category>ERNIE</category>
-</item>
-<item><title>DeepMind 发布 AlphaGenome 2 精准预测细胞类型变异效应</title><link>https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model</guid>
-<pubDate>Wed, 11 Nov 2026 23:00:00 +0800</pubDate>
-<description>&lt;p&gt;Google DeepMind 发布 AlphaGenome 2，这是其基因组预测模型 AlphaGenome 的升级版，核心能力是预测遗传变异在特定细胞类型与细胞状态下的差异化影响。该模型针对同一变异在不同细胞中效应迥异这一难题，为疾病机理研究与新疗法发现提供更精细的解析工具。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;DeepMind 在 AI for Science 方向的旗舰模型迭代，直接指向疾病机理与药物发现，具备实质技术增量。&lt;/p&gt;&lt;p&gt;The Verge AI · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model">The Verge AI</source>
-<category>AI for Science</category>
-<category>基因组学</category>
-<category>Google DeepMind</category>
-<category>大模型</category>
-</item>
-<item><title>Databricks Upgrades Genie Agent for Unsupervised Multi-Step Tasks</title><link>https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/</guid>
-<pubDate>Wed, 11 Nov 2026 23:00:00 +0800</pubDate>
-<description>&lt;p&gt;Databricks unveiled an upgraded version of its Genie AI agent, which uses a purpose-built ontology to supply context from customer data stored on the platform, enabling unsupervised completion of multi-step, long-running tasks. CEO Ali Ghodsi demonstrated real internal usage spanning employee-satisfaction analysis, sales-pitch postmortems and interview prep, and said agent costs can be capped via Unity Gateway usage limits and cheaper open-weight model swaps.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Databricks 升级 Genie 智能体 可无人监督完成多步任务&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;企业级智能体从演示走向无人监督多步执行，且给出成本治理路径，对关注 Agent 落地者具参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · agent · signal 62/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/">TechCrunch AI</source>
-<category>智能体</category>
-<category>Databricks</category>
-<category>企业级 AI</category>
-<category>成本治理</category>
-</item>
-<item><title>Anthropic 启动 IPO 拟募资 904 亿美元</title><link>https://x.com/rohanpaul_ai/status/2120526677247939001</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120526677247939001</guid>
-<pubDate>Wed, 11 Nov 2026 22:38:51 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 启动 IPO 与私募配售，拟募资至多 904 亿美元，将超越 SpaceX 的 857 亿美元纪录成为史上最大规模上市。其完全稀释估值目标约 1.4 万亿美元，低于部分投资者预期，为强劲需求留出上调空间。机构锚定订单已达可售份额的数倍，高盛与摩根士丹利领衔 22 家承销行，股票预计以 ANT 代码在纳斯达克全球精选市场交易。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 头部公司冲击史上最大 IPO，估值与认购热度直接反映资本市场对前沿模型厂商的定价共识。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 88/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2120526677247939001">Rohan Paul (@rohanpaul_ai)</source>
-<category>融资上市</category>
-<category>Anthropic</category>
-<category>估值</category>
-<category>资本市场</category>
-</item>
-<item><title>Adobe 公布四项 AI 实验项目 照片可转 3D 场景</title><link>https://www.ithome.com/1/025/815.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/815.htm</guid>
-<pubDate>Wed, 11 Nov 2026 22:32:05 +0800</pubDate>
-<description>&lt;p&gt;Adobe 在 MAX 大会上公布四项实验性 AI 项目，包括通过对话指导 AI 角色试镜的 Project Screen Test、将普通照片转为可探索 3D 空间的 Project Sight Span，以及声音编辑工具 Sound Bender 等。这些功能均处于研究阶段，尚未确定是否整合进正式产品，但体现了 Adobe 将生成式 AI 融入创意工作流、强化创作者精细控制的方向。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Adobe 展示生成式 AI 与创意工具融合的实验方向，对关注 AI 视频与 3D 内容生成的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/025/815.htm">IT之家 · 智能时代</source>
-<category>Adobe</category>
-<category>生成式 AI</category>
-<category>3D 生成</category>
-<category>AI 视频</category>
-</item>
-<item><title>Anthropic 称 AI 将 AMD 芯片迁移周期从数月压缩至 3 天</title><link>https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/</link><guid isPermaLink="true">https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/</guid>
-<pubDate>Wed, 11 Nov 2026 22:25:20 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 联合创始人 Tom Brown 称，公司已通过多芯片战略摆脱对英伟达的单一依赖，将 Claude 的训练与推理分散在四大芯片家族上，并视为统一可互换的算力池。其前沿模型 Mythos 在迁移至 AMD GPU 时几乎自主完成近 100% 的算子内核编写与移植，耗时仅 3 天，而传统流程需 6 至 12 个月。此举直接冲击英伟达 CUDA 生态的核心护城河，Anthropic 还计划部署最高 2 吉瓦的 AMD Instinct MI455X 算力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 自主完成芯片算子迁移，直接动摇 CUDA 生态壁垒，是算力格局的关键信号。&lt;/p&gt;&lt;p&gt;The Decoder · compute · signal 88/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/">The Decoder</source>
-<category>算力</category>
-<category>Anthropic</category>
-<category>AMD</category>
-<category>CUDA</category>
-<category>芯片迁移</category>
-</item>
-<item><title>Pharo Smalltalk 通过 WebAssembly 直接运行于浏览器</title><link>https://massimo-nocentini.github.io/pharo-vm/world.html</link><guid isPermaLink="true">https://massimo-nocentini.github.io/pharo-vm/world.html</guid>
-<pubDate>Wed, 11 Nov 2026 22:21:27 +0800</pubDate>
-<description>&lt;p&gt;Pharo 虚拟机已通过 WebAssembly 移植到浏览器，用户无需本地安装即可加载 .image 镜像、运行 Smalltalk REPL 并直接编辑代码。该版本内置 Iceberg 与 Metacello 的 CORS 代理配置，支持从 GitHub 克隆与加载依赖，并可将镜像持久化保存在浏览器本地存储中。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Smalltalk 生态借助 WebAssembly 实现零安装浏览器运行的重要工程进展，对动态语言与 IDE 的 Web 化具有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://massimo-nocentini.github.io/pharo-vm/world.html">Hacker News AI</source>
-<category>WebAssembly</category>
-<category>Pharo</category>
-<category>Smalltalk</category>
-<category>开发者工具</category>
 </item>
 </channel>
 </rss>
