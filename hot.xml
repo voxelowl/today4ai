@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Thu, 12 Nov 2026 02:18:25 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 12 Nov 2026 04:12:46 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 启动 IPO 路演 最高募资 904 亿美元</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
 <pubDate>Wed, 11 Nov 2026 23:11:59 +0800</pubDate>
@@ -11,14 +11,6 @@
 
 这场 IPO 被视为对 AI 产业估值逻辑的关键检验。若成功上市，Anthropic 将成为首家进入公开资本市场的头部大模型公司，为后续 AI 实验室的资本化路径提供定价锚点。其规划的约 9000 亿美元算力与基础设施支出，也预示着 AI 军备竞赛将进一步升级。然而，高估值与巨额亏损并存，叠加科技股回调与中期选举后市场对 AI 基建的谨慎情绪，公开市场投资者是否买单，将深刻影响整个 AI 行业的融资环境与竞争格局。&lt;/p&gt;&lt;p&gt;14 sources&lt;/p&gt;&lt;p&gt;量子位官网, 量子位 (微信公众号), IT之家 · IT业界, The Verge AI, Rohan Paul (@rohanpaul_ai), Simon Willison 博客&lt;/p&gt;</description>
 </item>
-<item><title>Anthropic 发布双版本 Claude 5.2 模型 编码推理能力大幅跃升</title><link>https://todayforai.com/en/story/story-dc8382a0-0bf</link><guid isPermaLink="true">https://todayforai.com/en/story/story-dc8382a0-0bf</guid>
-<pubDate>Wed, 11 Nov 2026 08:24:30 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 于 IPO 路演启动当天发布 Claude Fable 5.2 与 Claude Mythos 5.2 两款模型，基于同一底座，分别面向公众和经审核的安全与生命科学机构。Fable 5.2 以 65 分登顶 Artificial Analysis 智能指数 v5，领先 Gemini 4 Carbon 五分，并在智能体编码基准 FrontierCode 2.0 上以 49.1% 超越 GPT-6 Astra 的 42.8%。API 价格下调 20% 至每百万 Token 输入 8 美元、输出 40 美元，生成速度最高提升 30%，可选 2.5 倍速 Fast 模式。
-
-预发布测试中，Fable 5.2 协调逾 1000 个子智能体，8 天从零构建可在笔记本启动的操作系统原型，30 小时内完成费马大定理的形式化证明，而人工首次形式化耗时 11 天。Mythos 5.2 将沙箱逃逸率从 39% 降至 3.1%，安全对齐显著改善。Anthropic 承认，尽管反蒸馏保护可减少 90% 至 99% 的被蒸馏数据，但现有评估难以完全预测真实风险。值得注意的是，由于 token 消耗增加，SemiAnalysis 的 GDPx 基准显示单任务成本从 67.16 美元升至 88.15 美元，实际使用成本不降反升。
-
-此次发布强化了 Anthropic 在高端 AI 市场的竞争地位，并为其 IPO 叙事提供支撑。双版本策略在开放创新与安全管控之间寻求平衡，千级智能体协作和长周期任务能力预示着 AI 在软件工程、科学发现等领域的应用潜力，但成本上升和安全隐患仍是规模化部署的关键…&lt;/p&gt;&lt;p&gt;15 sources&lt;/p&gt;&lt;p&gt;Yuchen Jin (@Yuchenj_UW), 宝玉 (@dotey), Rohan Paul (@rohanpaul_ai), 新智元 (微信公众号), One Useful Thing (Ethan Mollick), Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
-</item>
 <item><title>Google 发布 Gemini 4 Carbon 并预览智能体蜂群功能</title><link>https://todayforai.com/en/story/story-8356a9b1-b1c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-8356a9b1-b1c</guid>
 <pubDate>Wed, 11 Nov 2026 21:24:57 +0800</pubDate>
 <description>&lt;p&gt;Google 正式向所有付费开发者和 AI Ultra 订阅用户开放其迄今最强模型 Gemini 4 Carbon，距其通过 Fairwind 计划向网络安全防御者定向发布仅两周。Carbon 定位极限复杂任务，主打多步编码调试、开放式科研与网络安全，与上月发布的 Gemini 4 Argon 形成高低搭配，后者继续覆盖多数软件工程与知识工作场景。
@@ -26,6 +18,22 @@
 技术细节上，Carbon 在 CursorBench 4.0、WANDR 与 AutomationBench 上排名第一，单任务成本不到次优外部模型的一半。早期测试显示其 Terminal-Bench 作弊率与灰天鹅基准的提示注入成功率均降至 0%，安全代码编写速度达 Argon 的两倍，并在 Sec-Bench Pro 上发现 88% 的漏洞。定价沿用 Argon 的每百万 token 输入 2 美元、输出 10 美元，缓存输入享 95% 折扣，但推理与验证阶段会消耗更多 token。同时，Google 在智能体开发平台 Antigravity 上预览 swarm 蜂群功能，强化长周期智能体协作能力。
 
 此举标志着 Google 由追赶者重回前沿第一梯队，与 Anthropic、OpenAI 形成三方竞争。Carbon 在安全与长程任务上的突破，为无人值守智能体提供了可靠基础，而蜂群功能则指向多智能体协作的未来工作流，可能重塑开发者构建复杂 AI 应用的方式。&lt;/p&gt;&lt;p&gt;11 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, 宝玉 (@dotey), The Decoder, The Verge AI, Google DeepMind, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
+</item>
+<item><title>Anthropic 发布双版本 Claude 5.2 模型 编码推理能力大幅跃升</title><link>https://todayforai.com/en/story/story-dc8382a0-0bf</link><guid isPermaLink="true">https://todayforai.com/en/story/story-dc8382a0-0bf</guid>
+<pubDate>Wed, 11 Nov 2026 08:24:30 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 于 IPO 路演启动当天发布 Claude Fable 5.2 与 Claude Mythos 5.2 两款模型，基于同一底座，分别面向公众和经审核的安全与生命科学机构。Fable 5.2 以 65 分登顶 Artificial Analysis 智能指数 v5，领先 Gemini 4 Carbon 五分，并在智能体编码基准 FrontierCode 2.0 上以 49.1% 超越 GPT-6 Astra 的 42.8%。API 价格下调 20% 至每百万 Token 输入 8 美元、输出 40 美元，生成速度最高提升 30%，可选 2.5 倍速 Fast 模式。
+
+预发布测试中，Fable 5.2 协调逾 1000 个子智能体，8 天从零构建可在笔记本启动的操作系统原型，30 小时内完成费马大定理的形式化证明，而人工首次形式化耗时 11 天。Mythos 5.2 将沙箱逃逸率从 39% 降至 3.1%，安全对齐显著改善。Anthropic 承认，尽管反蒸馏保护可减少 90% 至 99% 的被蒸馏数据，但现有评估难以完全预测真实风险。值得注意的是，由于 token 消耗增加，SemiAnalysis 的 GDPx 基准显示单任务成本从 67.16 美元升至 88.15 美元，实际使用成本不降反升。
+
+此次发布强化了 Anthropic 在高端 AI 市场的竞争地位，并为其 IPO 叙事提供支撑。双版本策略在开放创新与安全管控之间寻求平衡，千级智能体协作和长周期任务能力预示着 AI 在软件工程、科学发现等领域的应用潜力，但成本上升和安全隐患仍是规模化部署的关键…&lt;/p&gt;&lt;p&gt;12 sources&lt;/p&gt;&lt;p&gt;Yuchen Jin (@Yuchenj_UW), 宝玉 (@dotey), Rohan Paul (@rohanpaul_ai), 新智元 (微信公众号), One Useful Thing (Ethan Mollick), Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
+</item>
+<item><title>谷歌发布 Gemini Decision 1 单次调用并行千项判定</title><link>https://todayforai.com/en/story/story-0d6c164e-b26</link><guid isPermaLink="true">https://todayforai.com/en/story/story-0d6c164e-b26</guid>
+<pubDate>Thu, 12 Nov 2026 04:12:46 +0800</pubDate>
+<description>&lt;p&gt;谷歌 DeepMind 正式发布 Gemini Decision 1 决策模型及配套 Gemini Decisions API，专为是/否、多选、量表评分等封闭式决策设计，单次调用可并行处理最多 1000 个独立问题，覆盖文本、图像、音频、视频与 PDF 五种模态，并在 150-250 毫秒内返回带置信度的概率分数。该模型已在 Google AI Studio 开放 Python、JavaScript 与 REST 接入，Google Cloud 支持后续上线。
+
+据 Artificial Analysis 评测，Gemini Decision 1 在决策指数 v2.1 上得分 66，与 Elephant 9B、Jev 1.14 持平，但落后领先者 Drex Max v1.1 与 GLiDE v1.2 达 7 分；其在知识与推理基准上领先，但每百万任务成本约 345 美元，是 Drex Max v1.1 的三倍多，且在分类与抽取基准 AA-Paperclip 上明显落后。谷歌内部已将其用于 Gemini Notebook 的动态模型路由、Stitch 的设计原型与搜索安全审核，验证了高并发实时决策场景的可行性。
+
+作为首个由主流厂商推出的决策模型品类，Gemini Decision 1 将封闭式批量判定从传统规则引擎和单任务模型推向多模态、低成本、低延迟的新范式，有望重塑查询路由、内容分级与策略合规校验等场景的开发流程，但成本与精度短板也意味着该赛道竞争刚刚开始。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, The Decoder, Artificial Analysis (@ArtificialAnlys), Google AI Blog&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 推出 Claude 办公套件 微软股价应声下跌 3.5%</title><link>https://todayforai.com/en/story/story-6b1d42f1-18b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-6b1d42f1-18b</guid>
 <pubDate>Wed, 11 Nov 2026 21:24:57 +0800</pubDate>
@@ -59,6 +67,14 @@ OpenAI 此举意在将 ChatGPT 每周 12 亿用户转化为商业流量入口，
 
 AlphaGenome 2 的发布标志着 AI 在基因组调控解析领域迈出关键一步，有望加速从基因变异到疾病机制的转化研究，推动精准医学和新疗法发现。其单细胞分辨率的预测能力也为理解复杂疾病的细胞异质性提供了新视角，对遗传学、细胞生物学和临床研究产生深远影响。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;The Verge AI, IT之家 · 智能时代, Google DeepMind&lt;/p&gt;</description>
 </item>
+<item><title>CoreWeave 转向客户预付款与短约融资</title><link>https://todayforai.com/en/story/story-a149607f-f4f</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a149607f-f4f</guid>
+<pubDate>Thu, 12 Nov 2026 03:54:00 +0800</pubDate>
+<description>&lt;p&gt;AI 云服务商 CoreWeave 在第三季度营收同比大增 168% 至 36.6 亿美元、合同积压订单达 1325 亿美元的背景下，宣布放弃无担保债务市场，转向要求客户预付款、以特定合同为抵押借款，并接受更短期限合约以换取更高定价。这一融资模式转变旨在缓解日益严峻的现金约束。
+
+财报显示，公司净亏损扩大逾 6 倍至 7.09 亿美元，净利息支出从 3.1 亿美元翻倍至 8.46 亿美元，已超过当季 3.79 亿美元的调整后营业利润。前三季度营收 83.14 亿美元、同比增长 133.6%，但归母净亏损扩大至 20.75 亿美元，资产负债率高达 95.6%。资本开支后现金消耗达 75 亿美元，期末现金约 41.2 亿美元对应近 470 亿美元债务。债券收益率突破 16%，英伟达、博通、甲骨文等 AI 相关企业的信用违约保护成本同步走高，融资成本正成为检验 AI 资本开支热潮可持续性的关键指标。
+
+CoreWeave 的新模式提升了资金效率，但高度依赖 AI 算力需求与定价能力持续。得州大部分算力已上线或已获许可，1325 亿美元积压订单不受选举结果冲击，2026 年营收指引上调至 130 亿至 133 亿美元。然而，在利息支出高企、杠杆率逼近极限的情况下，公司后续扩张仍高度依赖新增借款或股权融资，其转型成效将影响整个 AI 基础设施赛道的融资环境与估值逻辑。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, Rohan Paul (@rohanpaul_ai), TechCrunch AI, IT之家 · IT业界&lt;/p&gt;</description>
+</item>
 <item><title>DeepMind 发布 MKA 基准 评估智能体专业视觉任务能力</title><link>https://todayforai.com/en/story/story-38ddce7d-b35</link><guid isPermaLink="true">https://todayforai.com/en/story/story-38ddce7d-b35</guid>
 <pubDate>Wed, 11 Nov 2026 06:48:50 +0800</pubDate>
 <description>&lt;p&gt;Google DeepMind 联合 Artificial Analysis 正式发布多模态知识智能体基准 MKA，旨在评估 AI 智能体在真实专业视觉文件上的知识工作能力。该基准包含 200 个来自 10 个行业的私有真实任务，要求智能体阅读建筑图纸、工程示意图、临床扫描等复杂视觉输入，并产出幻灯片、表格、报告等交付物，填补了现有评测对蓝图交叉比对、科学图表阅读等专业场景的空白。
@@ -66,22 +82,6 @@ AlphaGenome 2 的发布标志着 AI 在基因组调控解析领域迈出关键�
 MKA 采用 Climb 与 Regression 双轨专家评分标准，每题平均约 70 条加权准则，强调输入的真实视觉复杂度与领域特异性，而非简化合成数据。评测结果显示，Claude Sonnet 5.5 在医疗等领域领先，但在法律与政府领域优势微弱；Gemini 4 Carbon 排名第二，单任务平均成本仅为榜首模型的六分之一，展现出显著的性价比优势。
 
 该基准的推出标志着多模态智能体评测从通用能力向垂直专业场景的深化，为开发者提供了更贴近实际工作流的衡量工具。随着 AI 智能体在知识工作领域的渗透，MKA 有望成为行业标准，推动模型在视觉理解、跨领域推理和交付物生成等方面的持续优化，并影响企业选型与成本效益的权衡。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys), Artificial Analysis, IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
-<item><title>OpenAI 季度营收破 100 亿美元 亏损仍达 109 亿</title><link>https://todayforai.com/en/story/story-b13c4473-cd5</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b13c4473-cd5</guid>
-<pubDate>Thu, 12 Nov 2026 01:14:54 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 第三季度营收首次突破 100 亿美元，环比增长近 50%，较此前约 18% 的增速明显回升。增长主要来自 GPT 5.6、Astra 及图像模型的 API 需求，以及企业客户和 ChatGPT 付费订阅用户（已达 1 亿）的贡献。然而，调整后经营亏损高达 109 亿美元，亏损幅度虽从上一季度的 -150% 收窄至 -109%，但收入增长并未改善盈利结构。
-
-与竞争对手相比，OpenAI 的运营效率差距显著。Anthropic 同期营收 170 亿美元，经营亏损仅 5.67 亿美元，盈利能力大幅领先。为争夺企业客户，OpenAI 正采取降价策略，但这也可能进一步压缩利润空间。
-
-这一数据凸显了前沿模型规模化商业化的巨大成本压力。尽管营收增速回升，但亏损同步扩大，表明 OpenAI 在模型研发、算力投入与市场扩张之间仍面临严峻的平衡挑战。行业竞争加剧，尤其是 Anthropic 和中国开源模型的崛起，将持续考验 OpenAI 的盈利路径。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;The Decoder, TechCrunch AI, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
-</item>
-<item><title>百度发布 ERNIE 5.5 Flash 预览版 280B 模型并承诺开源</title><link>https://todayforai.com/en/story/story-bfcc16a2-cac</link><guid isPermaLink="true">https://todayforai.com/en/story/story-bfcc16a2-cac</guid>
-<pubDate>Wed, 11 Nov 2026 23:00:09 +0800</pubDate>
-<description>&lt;p&gt;百度正式发布 ERNIE 5.5 Flash Preview 模型，总参数 280B、激活参数仅 14B，支持 1M token 上下文，主打编程、3D 建模与内容创作场景。该模型 API 已在百度千帆平台上线，官方承诺权重将于 11 月 25 日前开源。
-
-综合多方信源，该模型采用面向高效推理的新架构，生成速度超过 200 tokens/秒，在 Terminal-Bench、AutomationBench 等基准上表现有竞争力。官方将其定位为后训练中间版本，承认存在训练不充分导致的能力缺陷，正式版仍在快速迭代。目前模型已在 Arena 上线测试，供开发者提前体验。
-
-此次发布标志着百度在开源大模型领域的进一步布局，280B 总参数与 14B 激活参数的组合在性能与效率间取得平衡，1M 上下文能力也跻身行业前列。开源权重将吸引更多开发者基于文心生态进行应用开发，加剧与国内外开源模型的竞争。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Arena.ai (@arena)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
