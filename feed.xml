@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Wed, 11 Nov 2026 07:34:05 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 11 Nov 2026 07:55:37 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Paper Argues Recursive Self-Improvement Safety Lacks Any Evaluation Framework</title><link>https://x.com/rohanpaul_ai/status/2120304401630089671</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120304401630089671</guid>
+<pubDate>Wed, 11 Nov 2026 07:55:37 +0800</pubDate>
+<description>&lt;p&gt;A paper argues that recursive self-improvement (RSI) is being pursued by AI companies without any shared view of when it would be safe, and without even a clear framework for reasoning about where it leads. The author also demonstrates that a single high-level prompt can get an AI to train a small LLM from scratch, underscoring how fast the capability barrier is falling.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;论文指出递归自我改进安全评估仍无框架&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;聚焦递归自我改进的安全评估缺口，并给出低门槛复现实验，对关注 AI 安全与能力演进的读者有参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2120304401630089671">Rohan Paul (@rohanpaul_ai)</source>
+<category>AI安全</category>
+<category>递归自我改进</category>
+<category>论文</category>
+</item>
+<item><title>FishAudio Releases Live 3 Full-Duplex Voice Model</title><link>https://x.com/rohanpaul_ai/status/2120303242211102983</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120303242211102983</guid>
+<pubDate>Wed, 11 Nov 2026 07:51:00 +0800</pubDate>
+<description>&lt;p&gt;FishAudio launched Live 3, a full-duplex voice model that listens while speaking, emits natural backchannel cues like \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;FishAudio 发布 Live 3 全双工语音模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全双工语音交互是语音智能体的关键能力跃迁，且一句话生成可用智能体具备直接可试性。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2120303242211102983">Rohan Paul (@rohanpaul_ai)</source>
+<category>语音模型</category>
+<category>全双工</category>
+<category>智能体</category>
+<category>FishAudio</category>
+</item>
 <item><title>AWS Launches AgentCore Web Search API with Domain Filtering</title><link>https://aws.amazon.com/blogs/machine-learning/build-a-daily-dependency-watcher-with-langgraph-and-amazon-bedrock-agentcore-web-search/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/build-a-daily-dependency-watcher-with-langgraph-and-amazon-bedrock-agentcore-web-search/</guid>
 <pubDate>Wed, 11 Nov 2026 07:34:05 +0800</pubDate>
 <description>&lt;p&gt;Amazon Bedrock AgentCore has launched a Web Search API that lets agents fetch current web results with title, URL, publication date and query-relevant extracts in a single call, served entirely from an Amazon-operated index rather than a third-party search engine. It supports domain include/exclude filters and publication-date ranges, and can be paired with LangGraph to build production workflows such as daily dependency watchers.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS 推出 AgentCore 网页搜索 API 支持域过滤&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;云厂商把可引用的实时搜索能力内建进智能体运行时，对构建生产级检索工作流的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 58/100&lt;/p&gt;</description>
@@ -201,9 +218,9 @@
 <category>Artificial Analysis</category>
 <category>模型评估</category>
 </item>
-<item><title>Anthropic Gains Right to Cancel $34.9B GPU Cloud Contract</title><link>https://x.com/rohanpaul_ai/status/2120258671301296428</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120258671301296428</guid>
+<item><title>Anthropic 获权终止 349 亿美元 GPU 云合同</title><link>https://x.com/rohanpaul_ai/status/2120258671301296428</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120258671301296428</guid>
 <pubDate>Wed, 11 Nov 2026 04:53:54 +0800</pubDate>
-<description>&lt;p&gt;Lambda missed its deadline to secure the data center lease underpinning a $34.9B GPU capacity commitment, triggering an exit clause in the August 2026 agreement that Anthropic disclosed in its amended S-1. Neither party has issued notice, and Anthropic says it does not currently intend to walk away. Exiting would erase the commitment but leave Anthropic short of capacity it cannot quickly replace, pushing it toward pricier short-term compute.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 获权终止 349 亿美元 GPU 云合同&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 算力供应链中罕见的巨额合同退出权披露，直接反映前沿实验室与 GPU 云厂商之间的履约风险与议价结构。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Lambda 未能按期取得数据中心租约，触发 Anthropic 在 8 月协议中的退出条款，使其可终止约 349 亿美元的 GPU 算力承诺。Anthropic 在修订版 S-1 中确认该条款已生效，但双方均未发出通知，公司也表示目前不打算退出。若真退出，Anthropic 将失去难以快速替代的算力，并被迫转向成本更高的短期算力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 算力供应链中罕见的巨额合同退出权披露，直接反映前沿实验室与 GPU 云厂商之间的履约风险与议价结构。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2120258671301296428">Rohan Paul (@rohanpaul_ai)</source>
 <category>算力</category>
 <category>GPU 云</category>
@@ -211,9 +228,9 @@
 <category>Lambda</category>
 <category>IPO</category>
 </item>
-<item><title>Microsoft Researchers Reveal Lazarus Backdoor Hijacking AI Agents</title><link>https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/</link><guid isPermaLink="true">https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/</guid>
+<item><title>微软揭示 Lazarus 后门可劫持 AI 智能体</title><link>https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/</link><guid isPermaLink="true">https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/</guid>
 <pubDate>Wed, 11 Nov 2026 04:52:56 +0800</pubDate>
-<description>&lt;p&gt;Microsoft researchers disclosed a backdoor technique called Lazarus that reprograms dormant neurons in a model, causing an otherwise normal AI agent to execute malicious commands when a hidden trigger appears. The backdoor can be inserted without retraining and is hard to catch through standard safety evaluations, posing a serious threat to agents with tool or terminal access. Microsoft Foundry is responding with model provenance verification, environment scanning, and cryptographic model signing.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;微软揭示 Lazarus 后门可劫持 AI 智能体&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示无需重训即可植入、常规评测难发现的智能体后门，直接冲击模型供应链与权重完整性信任。&lt;/p&gt;&lt;p&gt;Microsoft Research · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;微软研究院披露名为 Lazarus 的后门技术，可重新编程模型中的休眠神经元，在隐藏触发器出现时让正常 AI 智能体执行恶意指令。该攻击无需重新训练模型即可植入，常规安全评测难以发现，对具备工具或终端权限的智能体威胁尤为严重。微软 Foundry 已通过模型来源验证、环境扫描与密码学签名等手段加强防御。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示无需重训即可植入、常规评测难发现的智能体后门，直接冲击模型供应链与权重完整性信任。&lt;/p&gt;&lt;p&gt;Microsoft Research · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/">Microsoft Research</source>
 <category>AI 安全</category>
 <category>后门攻击</category>
@@ -239,6 +256,16 @@
 <category>大模型</category>
 <category>观点分析</category>
 </item>
+<item><title>OpenAI 开放 ChatGPT 企业档案与商业智能体</title><link>https://x.com/gregisenberg/status/2120250534670012721</link><guid isPermaLink="true">https://x.com/gregisenberg/status/2120250534670012721</guid>
+<pubDate>Wed, 11 Nov 2026 04:21:34 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 允许企业认领 ChatGPT 内的企业档案，并可为符合条件的商家构建 Business Agent 回答客户问题。此举被视为 AI 时代的 Google My Business 时刻，将重塑本地商家获客、广告点击与 SEO 逻辑。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 ChatGPT 从对话工具转向商业分发入口的关键一步，直接影响商家获客与广告形态。&lt;/p&gt;&lt;p&gt;GREG ISENBERG (@gregisenberg) · industry · signal 72/100&lt;/p&gt;</description>
+<source url="https://x.com/gregisenberg/status/2120250534670012721">GREG ISENBERG (@gregisenberg)</source>
+<category>ChatGPT</category>
+<category>商业智能体</category>
+<category>广告</category>
+<category>本地商家</category>
+<category>OpenAI</category>
+</item>
 <item><title>OpenAI 推出 ChatGPT 企业目录与商家智能体</title><link>https://the-decoder.com/openai-turns-chatgpt-into-a-business-directory-with-ai-agents-that-handle-customer-questions/</link><guid isPermaLink="true">https://the-decoder.com/openai-turns-chatgpt-into-a-business-directory-with-ai-agents-that-handle-customer-questions/</guid>
 <pubDate>Wed, 11 Nov 2026 04:17:00 +0800</pubDate>
 <description>&lt;p&gt;OpenAI 推出名为“Businesses in ChatGPT”的测试功能，允许商家在 ChatGPT 内注册并管理企业档案、上传含价格与库存的商品信息流，并追踪曝光与点击数据。符合条件的美国电商与服务商还可创建“Business Agents”，由 AI 智能体直接回答客户问题、辅助商品比价，并成为 ChatGPT 广告的投放载体。此举直接对标 Google My Business，将 ChatGPT 每周 12 亿用户转化为商业流量入口。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;OpenAI 将 ChatGPT 从对话工具扩展为商业流量入口，直接挑战 Google 本地商家生态，是 AI 商业化路径的重要信号。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 74/100&lt;/p&gt;</description>
@@ -248,32 +275,6 @@
 <category>AI 商业化</category>
 <category>智能体</category>
 <category>电商</category>
-</item>
-<item><title>Gemini 4 Carbon 全面开放 定价 2 美元起 12 月翻倍</title><link>https://simonwillison.net/2026/Nov/10/llm-gemini/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/10/llm-gemini/</guid>
-<pubDate>Wed, 11 Nov 2026 04:09:44 +0800</pubDate>
-<description>&lt;p&gt;Google 将两周前仅面向部分网络安全防御者开放的 Gemini 4 Carbon 正式向所有用户开放，称其为迄今最强的 Gemini 模型。发布价为每百万输入 2 美元、输出 10 美元，与 GPT-6.1 Sol、Claude Sonnet 5.5 持平，但将于 12 月 1 日翻倍至 4/20 美元。模型支持低中高三档思考强度，默认中档。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;旗舰模型全面开放叠加明确的涨价时间表，直接影响开发者的模型选型与成本规划。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://simonwillison.net/2026/Nov/10/llm-gemini/">Simon Willison 博客</source>
-<category>大模型</category>
-<category>Google</category>
-<category>模型定价</category>
-</item>
-<item><title>Resend CEO 谈 AEO 如何让智能体优先选择你的产品</title><link>https://latent.space/p/resend/</link><guid isPermaLink="true">https://latent.space/p/resend/</guid>
-<pubDate>Wed, 11 Nov 2026 04:05:17 +0800</pubDate>
-<description>&lt;p&gt;Resend CEO Zeno Rocha 在播客中提出 AEO（Agent Engine Optimization，智能体引擎优化）概念，解释为何 Claude Code 在 102 次邮件服务推荐中有 64 次首选 Resend，而 SendGrid 仅 7 次居首。核心观点是开发者越来越多地直接采纳智能体给出的实现方案，因此产品需要针对智能体的检索与决策路径做优化，而非只面向人类开发者做 SEO。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次系统提出 AEO 概念并给出智能体推荐偏好的实测数据，对开发者工具厂商有直接参考价值。&lt;/p&gt;&lt;p&gt;Latent Space · agent · signal 71/100&lt;/p&gt;</description>
-<source url="https://latent.space/p/resend/">Latent Space</source>
-<category>AEO</category>
-<category>智能体</category>
-<category>开发者工具</category>
-<category>Resend</category>
-</item>
-<item><title>杜克与普林斯顿发现小团队并行智能体更优</title><link>https://x.com/rohanpaul_ai/status/2120245649790885952</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120245649790885952</guid>
-<pubDate>Wed, 11 Nov 2026 04:02:09 +0800</pubDate>
-<description>&lt;p&gt;杜克大学与普林斯顿大学的新论文发现，在同等算力预算下，将智能体拆分为多个小型团队并行协作并保留最佳团队结果，效果优于单智能体 best-of-N 与单一大型团队。以 100 个智能体为例，10 个各含 10 个智能体的小团队并行运行并择优，胜过 100 个独立智能体与一个 100 智能体大团队。研究建议在具备验证器可评分时，采用多小组共享笔记、择优保留的组织方式。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究为多智能体系统的组织架构与算力分配提供了可操作的实证结论，对智能体工程实践有直接指导价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2120245649790885952">Rohan Paul (@rohanpaul_ai)</source>
-<category>多智能体</category>
-<category>智能体协作</category>
-<category>学术研究</category>
-<category>算力分配</category>
 </item>
 </channel>
 </rss>
