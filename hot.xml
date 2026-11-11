@@ -67,6 +67,14 @@ MKA 采用 Climb 与 Regression 双轨专家评分标准，每题平均约 70 �
 
 该基准的推出标志着多模态智能体评测从通用能力向垂直专业场景的深化，为开发者提供了更贴近实际工作流的衡量工具。随着 AI 智能体在知识工作领域的渗透，MKA 有望成为行业标准，推动模型在视觉理解、跨领域推理和交付物生成等方面的持续优化，并影响企业选型与成本效益的权衡。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys), Artificial Analysis, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
+<item><title>百度发布 ERNIE 5.5 Flash 预览版 280B 模型并承诺开源</title><link>https://todayforai.com/en/story/story-bfcc16a2-cac</link><guid isPermaLink="true">https://todayforai.com/en/story/story-bfcc16a2-cac</guid>
+<pubDate>Wed, 11 Nov 2026 23:00:09 +0800</pubDate>
+<description>&lt;p&gt;百度正式发布 ERNIE 5.5 Flash Preview 模型，总参数 280B、激活参数仅 14B，支持 1M token 上下文，主打编程、3D 建模与内容创作场景。该模型 API 已在百度千帆平台上线，官方承诺权重将于 11 月 25 日前开源。
+
+综合多方信源，该模型采用面向高效推理的新架构，生成速度超过 200 tokens/秒，在 Terminal-Bench、AutomationBench 等基准上表现有竞争力。官方将其定位为后训练中间版本，承认存在训练不充分导致的能力缺陷，正式版仍在快速迭代。目前模型已在 Arena 上线测试，供开发者提前体验。
+
+此次发布标志着百度在开源大模型领域的进一步布局，280B 总参数与 14B 激活参数的组合在性能与效率间取得平衡，1M 上下文能力也跻身行业前列。开源权重将吸引更多开发者基于文心生态进行应用开发，加剧与国内外开源模型的竞争。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Arena.ai (@arena)&lt;/p&gt;</description>
+</item>
 <item><title>Adobe 全线产品接入 AI 智能体并发布 MCP 协议</title><link>https://todayforai.com/en/story/story-892d0ecd-009</link><guid isPermaLink="true">https://todayforai.com/en/story/story-892d0ecd-009</guid>
 <pubDate>Wed, 11 Nov 2026 13:34:37 +0800</pubDate>
 <description>&lt;p&gt;Adobe 在 MAX 大会上宣布，将 AI 智能体与生成能力全面嵌入 Photoshop、Premiere、Illustrator、InDesign 与 Firefly，并发布模型上下文协议（MCP），允许 OpenAI、谷歌、Anthropic 等第三方智能体直接操作 Creative Cloud 原生项目文件。这标志着 Adobe 从封闭的创意软件套件转向开放的智能体平台，用户可通过 ChatGPT、Claude、Gemini 等外部聊天机器人调用 Adobe 功能，智能体还能串联 Google Docs、Slack 等外部工具完成跨软件工作流。
@@ -74,14 +82,6 @@ MKA 采用 Climb 与 Regression 双轨专家评分标准，每题平均约 70 �
 技术细节上，本地 MCP 接入计划于 2027 年初启动私人测试，智能体可读写图层、矢量、素材箱与序列等原生文件，且所有内容保持可编辑以便人工随时接管精修。Firefly 助手同步升级，新增规划模式、模型选择器与后台持续任务能力，可自动生成多平台宣传素材供人工审核；Firefly 还新增私测中的 Builder 原型设计工具、品牌图表生成、局部图像编辑与 AI 视频组装。Premiere 推出测试版 Generative Remove 工具，可在时间线上遮罩追踪对象并生成式补全背景，Photoshop 与 Lightroom 也获得类似自动移除杂物与瑕疵功能。
 
 行业影响方面，Adobe 此举打破了创意软件与 AI 智能体之间的壁垒，使第三方 AI 可直接操控专业创作工具，有望大幅提升内容生产效率并重塑创意工作流。同时，Adobe 与谷歌深化合作，将 Acrobat 及创意工具嵌入 Drive、Gmail、Gemini 与搜索…&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Google AI Blog, TechCrunch AI, IT之家 · 智能时代, The Verge AI&lt;/p&gt;</description>
-</item>
-<item><title>Ring 成立机器人部门 推出家用无人机与企业巡逻机器人</title><link>https://todayforai.com/en/story/story-45852e33-f64</link><guid isPermaLink="true">https://todayforai.com/en/story/story-45852e33-f64</guid>
-<pubDate>Wed, 11 Nov 2026 14:41:37 +0800</pubDate>
-<description>&lt;p&gt;亚马逊旗下 Ring 正式成立机器人部门 Ring Robotics，并推出两款移动安防硬件：面向家庭的飞行摄像头 Drone Cam 和面向企业的轮式巡逻机器人 Rover Cam。这标志着 Ring 从固定摄像头向自主移动安防硬件的关键延伸，两款产品均搭载 AI Pilot 系统，预计于 2026 年底至 2027 年初上市。
-
-Drone Cam 售价 249.99 美元，将于 2027 年 1 月 27 日发货，距其 2021 年以 Always Home Cam 之名首次亮相已近六年。它由 Ring 传感器事件触发（如移动、开门、漏水或警报），沿预设路线自主飞行并直播录像。Rover Cam 售价 999.99 美元，将于 12 月 16 日开售，支持定时巡逻与 2K 视频回传。两者均依靠 AI Pilot 系统融合视觉模型、端侧传感器与云端处理，实现自主建图、避障与巡逻，但部分功能需订阅 Ring Protect 服务。
-
-尽管 Ring 未披露底层 AI 算法或自主导航的新技术细节，但此举清晰展现了其从被动记录到主动巡逻的战略转型。家庭室内飞行摄像头在隐私与实用性上仍面临考验，而企业级巡逻机器人则可能开辟新的商业安防市场。随着产品落地，关于自主移动设备在私人空间中的隐私争议预计将再度升温。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, Ars Technica AI, The Verge AI, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
