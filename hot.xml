@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Thu, 12 Nov 2026 01:14:54 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 12 Nov 2026 02:18:25 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 发布双版本 Claude 5.2 模型 编码推理能力大幅跃升</title><link>https://todayforai.com/en/story/story-dc8382a0-0bf</link><guid isPermaLink="true">https://todayforai.com/en/story/story-dc8382a0-0bf</guid>
 <pubDate>Wed, 11 Nov 2026 08:24:30 +0800</pubDate>
@@ -9,7 +9,7 @@
 
 预发布测试中，Fable 5.2 协调逾 1000 个子智能体，8 天从零构建可在笔记本启动的操作系统原型，30 小时内完成费马大定理的形式化证明，而人工首次形式化耗时 11 天。Mythos 5.2 将沙箱逃逸率从 39% 降至 3.1%，安全对齐显著改善。Anthropic 承认，尽管反蒸馏保护可减少 90% 至 99% 的被蒸馏数据，但现有评估难以完全预测真实风险。值得注意的是，由于 token 消耗增加，SemiAnalysis 的 GDPx 基准显示单任务成本从 67.16 美元升至 88.15 美元，实际使用成本不降反升。
 
-此次发布强化了 Anthropic 在高端 AI 市场的竞争地位，并为其 IPO 叙事提供支撑。双版本策略在开放创新与安全管控之间寻求平衡，千级智能体协作和长周期任务能力预示着 AI 在软件工程、科学发现等领域的应用潜力，但成本上升和安全隐患仍是规模化部署的关键…&lt;/p&gt;&lt;p&gt;21 sources&lt;/p&gt;&lt;p&gt;Yuchen Jin (@Yuchenj_UW), 宝玉 (@dotey), Rohan Paul (@rohanpaul_ai), 新智元 (微信公众号), One Useful Thing (Ethan Mollick), Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
+此次发布强化了 Anthropic 在高端 AI 市场的竞争地位，并为其 IPO 叙事提供支撑。双版本策略在开放创新与安全管控之间寻求平衡，千级智能体协作和长周期任务能力预示着 AI 在软件工程、科学发现等领域的应用潜力，但成本上升和安全隐患仍是规模化部署的关键…&lt;/p&gt;&lt;p&gt;20 sources&lt;/p&gt;&lt;p&gt;Yuchen Jin (@Yuchenj_UW), 宝玉 (@dotey), Rohan Paul (@rohanpaul_ai), 新智元 (微信公众号), One Useful Thing (Ethan Mollick), Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 启动 IPO 路演 最高募资 904 亿美元</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
 <pubDate>Wed, 11 Nov 2026 23:11:59 +0800</pubDate>
@@ -35,21 +35,21 @@
 
 此举直接冲击 Microsoft 365 与 Google Workspace，并紧随 OpenAI 与 Meta 的办公套件布局，标志着三大厂商围绕 AI 办公套件展开正面竞争。Anthropic 从企业与编程工具向通用知识工作市场扩张，可能重塑办公软件生态，推动 AI 原生工作台成为新趋势。&lt;/p&gt;&lt;p&gt;8 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, 宝玉 (@dotey), The Decoder, Rohan Paul (@rohanpaul_ai), The Verge AI, Hacker News AI&lt;/p&gt;</description>
 </item>
+<item><title>DeepMind 智能体完成 Signal 加密代码形式化验证</title><link>https://todayforai.com/en/story/story-f85fa90a-617</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f85fa90a-617</guid>
+<pubDate>Thu, 12 Nov 2026 02:18:25 +0800</pubDate>
+<description>&lt;p&gt;Google DeepMind 发布 AlphaProof Code 框架，首次由 AI 智能体对 Signal 加密协议的实际生产代码完成关键安全属性的数学证明。该成果将智能体能力从代码生成推进到深度形式化验证，被视为软件安全领域的重大突破。
+
+技术细节上，AlphaProof Code 结合人类专家知识与 Gemini Carbon 智能体集群，为 Signal 编译后的机器码生成约 650 万行 Lean 形式化证明，在处理器指令层面验证消息保密性。证明由 Lean 检查器独立校验，无需信任 AI 或 Rust 编译器本身。整个项目耗时约 4 周，40 至 80 个智能体协作，人类仅负责设定安全目标并复核约 1% 的标记内容。该方法还能识别含已知漏洞的旧版实现并判定其验证失败，具备实用判别力。
+
+行业影响方面，这是首次对广泛使用的协议在机器码层面完成端到端形式化验证，覆盖了从设计到代码实现间的常见漏洞缝隙。尽管算力开销巨大、短期内难以大规模推广，但该工作展示了 AI 智能体在软件安全验证领域的巨大潜力，为保护数十亿次私密通信提供了数学级保障，有望推动形式化验证成为关键基础设施的标配。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Google DeepMind, Hacker News AI, Rohan Paul (@rohanpaul_ai), Ars Technica AI, The Decoder&lt;/p&gt;</description>
+</item>
 <item><title>Meta 发布轻量模型 Muse Ember 输入价低至每百万 token 10 美分</title><link>https://todayforai.com/en/story/story-166bb164-19f</link><guid isPermaLink="true">https://todayforai.com/en/story/story-166bb164-19f</guid>
 <pubDate>Tue, 10 Nov 2026 15:28:21 +0800</pubDate>
 <description>&lt;p&gt;Meta 超级智能实验室发布迄今最轻量、最具成本效率的模型 Muse Ember，专为智能体高频重复任务设计，覆盖工具调用、编码子任务、路由、信息抽取与长文档解析。其输入价格低至每百万 token 10 美分，输出价格每百万 token 50 美分，并支持 100 万 token 上下文与原生多模态理解。官方以 Artificial Analysis 综合基准展示其在成本与智能上优于 Anthropic Haiku 与 OpenAI Luna，并与 DeepSeek V4.1 Flash、GLM 5.3 Flash 等开源竞品形成价格竞争。Ember 定位为与更大模型 Muse Wonder 搭配的智能体执行层，重模型负责规划、轻模型负责高频执行。
 
 多方信源交叉验证显示，Muse Ember 在 Artificial Analysis 智能指数上得分 36，与 Claude Haiku 5.5（max）持平，但单任务成本仅 0.14 美元，约为后者的三分之一。在 Code Arena WebDev 榜单上以 1608 分成为最强小模型，超过 Claude Haiku 5.5 与 GPT-6 Luna，且中位单任务成本仅 0.03 美元，处于帕累托前沿。在 AutomationBench-AA 上得分 68.1%，与自家旗舰 Muse Wonder 持平，但整体智能水平落后旗舰 8 分，成本却仅为旗舰的约五十分之一。不过，在真实编码基准 FrontierCode 2.0-AA 上以 27.2% 落后于 Haiku 的 34.9%，能力边界清晰。
 
-Muse Ember 的发布标…&lt;/p&gt;&lt;p&gt;10 sources&lt;/p&gt;&lt;p&gt;The Decoder, Artificial Analysis, Arena.ai (@arena), Artificial Analysis (@ArtificialAnlys), Rohan Paul (@rohanpaul_ai), Hacker News AI&lt;/p&gt;</description>
-</item>
-<item><title>DeepMind 智能体完成 Signal 加密代码形式化验证</title><link>https://todayforai.com/en/story/story-f85fa90a-617</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f85fa90a-617</guid>
-<pubDate>Wed, 11 Nov 2026 22:08:57 +0800</pubDate>
-<description>&lt;p&gt;Google DeepMind 发布 AlphaProof Code 框架，首次由 AI 智能体对 Signal 加密协议的实际生产代码完成关键安全属性的数学证明。该成果将智能体能力从代码生成推进到深度形式化验证，被视为软件安全领域的重大突破。
-
-技术细节上，AlphaProof Code 结合人类专家知识与 Gemini Carbon 智能体集群，为 Signal 编译后的机器码生成约 650 万行 Lean 形式化证明，在处理器指令层面验证消息保密性。证明由 Lean 检查器独立校验，无需信任 AI 或 Rust 编译器本身。整个项目耗时约 4 周，40 至 80 个智能体协作，人类仅负责设定安全目标并复核约 1% 的标记内容。该方法还能识别含已知漏洞的旧版实现并判定其验证失败，具备实用判别力。
-
-行业影响方面，这是首次对广泛使用的协议在机器码层面完成端到端形式化验证，覆盖了从设计到代码实现间的常见漏洞缝隙。尽管算力开销巨大、短期内难以大规模推广，但该工作展示了 AI 智能体在软件安全验证领域的巨大潜力，为保护数十亿次私密通信提供了数学级保障，有望推动形式化验证成为关键基础设施的标配。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Google DeepMind, Hacker News AI, Rohan Paul (@rohanpaul_ai), Ars Technica AI&lt;/p&gt;</description>
+Muse Ember 的发布标…&lt;/p&gt;&lt;p&gt;8 sources&lt;/p&gt;&lt;p&gt;The Decoder, Artificial Analysis, Arena.ai (@arena), Artificial Analysis (@ArtificialAnlys), Rohan Paul (@rohanpaul_ai), Hacker News AI&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 内测认证商家智能体 打通商业交易入口</title><link>https://todayforai.com/en/story/story-f2335452-01f</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f2335452-01f</guid>
 <pubDate>Wed, 11 Nov 2026 06:55:36 +0800</pubDate>

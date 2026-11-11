@@ -1,8 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Thu, 12 Nov 2026 02:21:38 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 12 Nov 2026 02:42:50 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Simon Willison Adds tree-sitter Tag Index to 244 Vibe-Coded Tools</title><link>https://simonwillison.net/2026/Nov/11/tools-tags/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/11/tools-tags/</guid>
+<pubDate>Thu, 12 Nov 2026 02:42:50 +0800</pubDate>
+<description>&lt;p&gt;Simon Willison added tag-based browsing to his collection of over 244 vibe-coded tools, using tree-sitter to statically analyze each tool&amp;#x27;s JavaScript libraries, CDN dependencies and browser Web APIs, then surfacing them as homepage tag clouds. The approach shows a lightweight way to auto-generate catalog metadata via code parsing.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Simon Willison 用 tree-sitter 为 244 个工具建标签索引&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示用 tree-sitter 静态分析自动为大量小工具生成可检索标签体系的实用工程做法。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · tools · signal 38/100&lt;/p&gt;</description>
+<source url="https://simonwillison.net/2026/Nov/11/tools-tags/">Simon Willison 博客</source>
+<category>tree-sitter</category>
+<category>开发者工具</category>
+<category>静态分析</category>
+<category>标签索引</category>
+</item>
+<item><title>Jensen Huang Skips Succession Planning as Nvidia Investors Price the Risk</title><link>https://x.com/rohanpaul_ai/status/2120585621400113586</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120585621400113586</guid>
+<pubDate>Thu, 12 Nov 2026 02:33:05 +0800</pubDate>
+<description>&lt;p&gt;Jensen Huang has declined to name a successor, instead running a flat organization with roughly 60 direct reports and relying on constant knowledge-sharing to create multiple potential heirs. Nvidia&amp;#x27;s own SEC proxy statement warns that poor succession planning could damage strategy and long-term execution. Investors are now pricing this governance risk, and Huang&amp;#x27;s direct lobbying line to President Trump and foreign officials on chip exports is especially hard to replace.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;黄仁勋不设接班计划 英伟达投资者已计入该风险&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示英伟达治理结构中的关键人风险，是理解这家算力巨头长期估值的重要非技术变量。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2120585621400113586">Rohan Paul (@rohanpaul_ai)</source>
+<category>英伟达</category>
+<category>公司治理</category>
+<category>芯片出口</category>
+<category>黄仁勋</category>
+</item>
+<item><title>AWS Open Sources Local Emulator Built Largely by Coding Agents</title><link>https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html</link><guid isPermaLink="true">https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html</guid>
+<pubDate>Thu, 12 Nov 2026 02:28:31 +0800</pubDate>
+<description>&lt;p&gt;AWS has open-sourced aws-emulator, a local emulator for AWS services that frees developers from depending on live cloud environments. Much of the code was written with heavy agent involvement, and the full commit history plus every agent-filed issue are public, including a &amp;#x27;things-that-do-not-work&amp;#x27; folder tracking behaviors that still diverge from real AWS. It offers a concrete, observable case study of what engineers do once agents write the code.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS 开源本地模拟器 智能体可自主提交修复&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AWS 官方开源本地云模拟器，且智能体深度参与开发并公开全部提交与缺陷记录，对理解智能体工程协作有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 72/100&lt;/p&gt;</description>
+<source url="https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html">Hacker News AI</source>
+<category>开源</category>
+<category>智能体</category>
+<category>AWS</category>
+<category>开发者工具</category>
+</item>
+<item><title>United Airlines Blocks Personal AI Agents from Booking Tickets</title><link>https://x.com/rohanpaul_ai/status/2120584444247760983</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120584444247760983</guid>
+<pubDate>Thu, 12 Nov 2026 02:28:24 +0800</pubDate>
+<description>&lt;p&gt;United Airlines will block personal AI agents from completing ticket purchases on its systems, citing sensitive data leakage, unintended purchases and federal rules requiring passengers to personally attest to baggage safety. Agents may still read flight options and prices, but cannot close the transaction; United&amp;#x27;s back-end already tags bookings by source to distinguish individuals, travel agencies and AI agents.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美联航禁止个人 AI 智能体代订机票&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是主流航空公司首次公开对 AI 智能体设限，揭示了自主代理在合规与支付环节的现实落地边界。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 62/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2120584444247760983">Rohan Paul (@rohanpaul_ai)</source>
+<category>AI 智能体</category>
+<category>航空出行</category>
+<category>合规监管</category>
+<category>美联航</category>
+</item>
 <item><title>AWS Launches Local Emulator for Offline Cloud API Testing</title><link>https://github.com/aws/aws-emulator</link><guid isPermaLink="true">https://github.com/aws/aws-emulator</guid>
 <pubDate>Thu, 12 Nov 2026 02:21:38 +0800</pubDate>
 <description>&lt;p&gt;AWS has released AWS Emulator, a local program that emulates AWS APIs so developers can test software on their own machines or in CI without an AWS account. It works by pointing the AWS CLI or SDKs at a local endpoint via environment variables, also offering an embedded mode, and AWS explicitly scopes it to building and testing rather than production or security validation.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS 推出本地模拟器 无需账号即可离线测试云 API&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AWS 官方下场做本地云 API 模拟器，直接冲击 LocalStack 等第三方生态，对日常依赖云服务的开发者有实际工作流价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 68/100&lt;/p&gt;</description>
@@ -20,6 +56,15 @@
 <category>谷歌</category>
 <category>决策模型</category>
 <category>基准评测</category>
+</item>
+<item><title>DeepMind&#x27;s AlphaProof Code Formally Verifies Signal&#x27;s Crypto Core in Four Weeks</title><link>https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years/</link><guid isPermaLink="true">https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years/</guid>
+<pubDate>Thu, 12 Nov 2026 02:18:25 +0800</pubDate>
+<description>&lt;p&gt;Google DeepMind unveiled AlphaProof Code, an AI system that mathematically proves real production code satisfies its security specifications. Applied to Signal&amp;#x27;s encryption protocol, it completed in four weeks work that normally takes years: Gemini Carbon-based agents wrote over six million lines of Lean proofs, flagged only about one percent of the codebase for human review, and immediately caught two deliberately planted bugs. It marks the first time formal verification has moved from theoretical design down to the cryptographic core actually running on user devices.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;DeepMind AlphaProof Code 用四周完成 Signal 加密核心形式化验证&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是形式化验证首次在真实生产级密码学代码上跑通，且把周期从数年压缩到四周，对 AI 安全与软件工程都具节点意义。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 88/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years/">The Decoder</source>
+<category>形式化验证</category>
+<category>Google DeepMind</category>
+<category>AI 安全</category>
+<category>密码学</category>
 </item>
 <item><title>TSMC to Invest $1 Billion in Anthropic and OpenAI</title><link>https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/</link><guid isPermaLink="true">https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/</guid>
 <pubDate>Thu, 12 Nov 2026 02:16:40 +0800</pubDate>
@@ -56,6 +101,14 @@
 <category>图像生成</category>
 <category>苹果</category>
 <category>模型评测</category>
+</item>
+<item><title>LLM 0.37.2 Patches API Key Leak to Third-Party Endpoints</title><link>https://simonwillison.net/2026/Nov/11/llm/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/11/llm/</guid>
+<pubDate>Thu, 12 Nov 2026 01:19:52 +0800</pubDate>
+<description>&lt;p&gt;Simon Willison&amp;#x27;s llm CLI tool released version 0.37.2, patching two security flaws that could leak the configured OpenAI API key to third-party OpenAI-compatible endpoints. The issues stem from the extra-openai-models.yaml mechanism, triggered when a named api_key_name was never stored or when a responses model was forced to use chat_completions.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;llm 0.37.2 修复 API 密钥泄露漏洞&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及开发者工具中真实的 API 密钥泄露风险，对使用 llm 接入第三方端点的用户有直接安全影响。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://simonwillison.net/2026/Nov/11/llm/">Simon Willison 博客</source>
+<category>安全漏洞</category>
+<category>开发者工具</category>
+<category>API 密钥</category>
 </item>
 <item><title>OpenAI Q3 Revenue Nears $10B as Losses Widen to $10.9B</title><link>https://x.com/rohanpaul_ai/status/2120565946561765645</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120565946561765645</guid>
 <pubDate>Thu, 12 Nov 2026 01:14:54 +0800</pubDate>
@@ -120,6 +173,15 @@
 <category>软件工程</category>
 <category>生产力研究</category>
 </item>
+<item><title>Databricks Launches Genie, an Always-On Autonomous AI Coworker</title><link>https://x.com/Yuchenj_UW/status/2120553020211818864</link><guid isPermaLink="true">https://x.com/Yuchenj_UW/status/2120553020211818864</guid>
+<pubDate>Thu, 12 Nov 2026 00:23:32 +0800</pubDate>
+<description>&lt;p&gt;Databricks has launched a new generation of Genie, an always-on autonomous AI coworker that scores 91% on enterprise tasks, delivering 1.6x the accuracy of the stronger of two frontier agents while using under 50% of the tokens. Its differentiator is Genie Ontology, a context layer that automatically learns how a business actually operates from its data, queries, dashboards and notebooks.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Databricks 发布 Genie 自主 AI 同事，企业任务准确率 91%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;企业级自主智能体进入常驻后台协作形态，且以上下文层而非模型能力作为核心卖点，值得关注。&lt;/p&gt;&lt;p&gt;Yuchen Jin (@Yuchenj_UW) · agent · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/Yuchenj_UW/status/2120553020211818864">Yuchen Jin (@Yuchenj_UW)</source>
+<category>智能体</category>
+<category>Databricks</category>
+<category>企业 AI</category>
+<category>上下文工程</category>
+</item>
 <item><title>OpenAI Quarterly Revenue Tops $10B for the First Time</title><link>https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/</guid>
 <pubDate>Thu, 12 Nov 2026 00:14:44 +0800</pubDate>
 <description>&lt;p&gt;OpenAI&amp;#x27;s quarterly revenue reportedly crossed $10 billion for the first time, a nearly 50% jump from the $6.7 billion recorded in Q2, according to Bloomberg. Its adjusted operating margin narrowed from -150% to -109%, signaling improving unit economics despite intensifying competition from Anthropic and open-source rivals.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 季度营收首次突破 100 亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;OpenAI 单季营收首破百亿美元是 AI 商业化进程的关键节点，增速回升与亏损收窄对判断行业盈利拐点具有实质参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 78/100&lt;/p&gt;</description>
@@ -156,9 +218,9 @@
 <category>绘画动画</category>
 <category>命令行</category>
 </item>
-<item><title>Google Labs Launches Tabletop for Real-Time Group Collaboration</title><link>https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/</link><guid isPermaLink="true">https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/</guid>
+<item><title>Google Labs 推出 Tabletop 多人实时协作空间</title><link>https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/</link><guid isPermaLink="true">https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 +0800</pubDate>
-<description>&lt;p&gt;Google Labs has introduced Tabletop, an experimental real-time collaboration space for group scenarios such as family trips, rec leagues and potlucks. Members can add links, files and ideas, then prompt @tabletop or pick a template to generate itineraries, polls, expense splitters and tournament brackets. It works like a Google Doc with simultaneous editing and is rolling out in the U.S. (18+) via waitlist.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Google Labs 推出 Tabletop 多人实时协作空间&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Google Labs 在 AI 辅助群体协作方向的新实验，展示了生成式能力嵌入多人实时文档的落地形态。&lt;/p&gt;&lt;p&gt;Google AI Blog · tools · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Google Labs 发布实验性产品 Tabletop，面向家庭出游、业余联赛、聚餐等群体场景，支持成员在同一空间内添加链接、文件与想法，并通过 @tabletop 或模板生成行程表、投票、分账工具与赛事对阵图。该产品以类似 Google Docs 的实时协作方式运行，目前仅限美国 18 岁以上用户通过候补名单申请。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Google Labs 在 AI 辅助群体协作方向的新实验，展示了生成式能力嵌入多人实时文档的落地形态。&lt;/p&gt;&lt;p&gt;Google AI Blog · tools · signal 38/100&lt;/p&gt;</description>
 <source url="https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/">Google AI Blog</source>
 <category>Google Labs</category>
 <category>协作工具</category>
@@ -172,104 +234,41 @@
 <category>AI 协作工具</category>
 <category>生成式 AI</category>
 </item>
-<item><title>CoreWeave Says Texas Capacity Unaffected by Election as Backlog Hits $132.5B</title><link>https://x.com/rohanpaul_ai/status/2120546419186798777</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120546419186798777</guid>
+<item><title>CoreWeave 称得州算力不受选举影响 积压订单达 1325 亿美元</title><link>https://x.com/rohanpaul_ai/status/2120546419186798777</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120546419186798777</guid>
 <pubDate>Wed, 11 Nov 2026 23:57:18 +0800</pubDate>
-<description>&lt;p&gt;CoreWeave&amp;#x27;s CEO told CNBC that most of its Texas capacity is already online or permitted, so the Democratic midterm sweep will not dent its $132.5B backlog. Q3 revenue reached $3.66B, up 168%, with 2026 guidance raised to $13.0B-$13.3B. Yet interest expense climbed to $846M against 2026 capex of $37B-$39B, making cash the tighter constraint.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;CoreWeave 称得州算力不受选举影响 积压订单达 1325 亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 算力供应商的订单、资本开支与融资结构数据，是判断算力周期与债务风险的一手信号。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;CoreWeave CEO 在 CNBC 表示，尽管民主党中期选举大胜，其得州大部分算力已上线或已获许可，不会冲击 1325 亿美元积压订单。公司三季度营收 36.6 亿美元同比增长 168%，并上调 2026 年营收指引至 130 亿至 133 亿美元。但利息支出升至 8.46 亿美元，2026 年资本开支高达 370 亿至 390 亿美元，现金成为更紧的约束。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 算力供应商的订单、资本开支与融资结构数据，是判断算力周期与债务风险的一手信号。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2120546419186798777">Rohan Paul (@rohanpaul_ai)</source>
 <category>算力基础设施</category>
 <category>CoreWeave</category>
 <category>资本开支</category>
 <category>数据中心</category>
 </item>
-<item><title>AWS Open-Sources UAEF for Framework-Agnostic Agent Evaluation</title><link>https://aws.amazon.com/blogs/machine-learning/uaef-a-framework-agnostic-system-for-closed-loop-evaluation-of-ai-agents/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/uaef-a-framework-agnostic-system-for-closed-loop-evaluation-of-ai-agents/</guid>
+<item><title>AWS 开源 UAEF 实现跨框架智能体闭环评测</title><link>https://aws.amazon.com/blogs/machine-learning/uaef-a-framework-agnostic-system-for-closed-loop-evaluation-of-ai-agents/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/uaef-a-framework-agnostic-system-for-closed-loop-evaluation-of-ai-agents/</guid>
 <pubDate>Wed, 11 Nov 2026 23:50:55 +0800</pubDate>
-<description>&lt;p&gt;AWS has open-sourced the Universal Agent Evaluation Framework (UAEF), a unified evaluation engine that decouples agent frameworks from evaluation logic and normalizes trace formats across LangGraph, LangChain, Strands Agents, and Amazon Bedrock AgentCore. It spans tool calling, response quality, responsible AI, performance, multi-turn conversation, multi-agent coordination, and reasoning, and has been used by 12 organizations in telecom, healthcare, and financial services.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS 开源 UAEF 实现跨框架智能体闭环评测&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;跨框架统一评测是智能体工程化的真实痛点，AWS 开源实现并给出多行业落地数据，具备直接复用价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;AWS 开源 Universal Agent Evaluation Framework（UAEF），用统一评测引擎解耦智能体框架与评测逻辑，支持 LangGraph、LangChain、Strands Agents 与 Bedrock AgentCore 等框架的追踪格式。它覆盖工具调用、响应质量、负责任 AI、性能、多轮对话、多智能体协同与推理等维度，并已在电信、医疗、金融 12 家机构落地使用。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;跨框架统一评测是智能体工程化的真实痛点，AWS 开源实现并给出多行业落地数据，具备直接复用价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 62/100&lt;/p&gt;</description>
 <source url="https://aws.amazon.com/blogs/machine-learning/uaef-a-framework-agnostic-system-for-closed-loop-evaluation-of-ai-agents/">AWS Machine Learning Blog</source>
 <category>智能体评测</category>
 <category>AWS</category>
 <category>开源工具</category>
 <category>Agent 框架</category>
 </item>
-<item><title>Yogurt Launches Open-Source On-Device AI Meeting Notes App</title><link>https://github.com/FrigadeHQ/yogurt</link><guid isPermaLink="true">https://github.com/FrigadeHQ/yogurt</guid>
+<item><title>Yogurt 开源本地 AI 会议记录工具发布</title><link>https://github.com/FrigadeHQ/yogurt</link><guid isPermaLink="true">https://github.com/FrigadeHQ/yogurt</guid>
 <pubDate>Wed, 11 Nov 2026 23:33:06 +0800</pubDate>
-<description>&lt;p&gt;Yogurt is an MIT-licensed desktop app that uses on-device small models to transcribe, summarize and chat with meetings without joining calls or uploading recordings. Built with Electron and whisper.cpp, it targets privacy- and cost-conscious users as a free open-source alternative to Granola.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Yogurt 开源本地 AI 会议记录工具发布&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了本地小模型在会议记录场景的完整工程落地，对隐私敏感与成本敏感用户具备直接可用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Yogurt 是一款 MIT 许可的桌面应用，使用本地小模型完成会议转录、摘要与问答，全程不上传录音与文本，且不向会议添加机器人。它基于 Electron 跨平台，转录采用 whisper.cpp，面向注重隐私与成本的用户，作为 Granola 的免费开源替代。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了本地小模型在会议记录场景的完整工程落地，对隐私敏感与成本敏感用户具备直接可用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://github.com/FrigadeHQ/yogurt">Hacker News AI</source>
 <category>开源</category>
 <category>本地推理</category>
 <category>会议记录</category>
 <category>Electron</category>
 </item>
-<item><title>Plurai Launches Free Simulation Sandbox for AI Agents</title><link>https://x.com/rohanpaul_ai/status/2120540091773022481</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120540091773022481</guid>
+<item><title>Plurai 推出智能体仿真沙盒 免费开放</title><link>https://x.com/rohanpaul_ai/status/2120540091773022481</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120540091773022481</guid>
 <pubDate>Wed, 11 Nov 2026 23:32:10 +0800</pubDate>
-<description>&lt;p&gt;Plurai released Plurai Simulation, which reads an agent&amp;#x27;s code to rebuild a digital twin of its tools and environment, then stress-tests it with simulated users and tasks. Its key differentiator is verifying what the agent actually did rather than what it said, for example checking a simulated billing system to confirm a refund exists, and it can turn production failures into replayable test cases. The product is free for AI engineers and runs inside Claude Code, OpenAI Codex CLI and GitHub Copilot.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Plurai 推出智能体仿真沙盒 免费开放&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;针对智能体难以复现的生产故障，提出数字孪生加动作级校验的仿真测试路径，对构建可靠智能体有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Plurai 发布 Plurai Simulation，通过读取智能体代码重建其工具与环境数字孪生，再用模拟用户与任务压测边界场景。其核心差异在于校验智能体的实际动作而非仅检查输出文本，例如核对模拟计费系统中退款是否真实发生，并支持将生产故障转为可回放用例。该产品对 AI 工程师免费开放，可直接在 Claude Code、OpenAI Codex CLI 与 GitHub Copilot 中调用。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;针对智能体难以复现的生产故障，提出数字孪生加动作级校验的仿真测试路径，对构建可靠智能体有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 62/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2120540091773022481">Rohan Paul (@rohanpaul_ai)</source>
 <category>智能体</category>
 <category>仿真测试</category>
 <category>开发者工具</category>
 <category>Plurai</category>
-</item>
-<item><title>DeepMind Releases AlphaGenome 2 Doubling Disease Variant Detection</title><link>https://www.ithome.com/1/025/822.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/822.htm</guid>
-<pubDate>Wed, 11 Nov 2026 23:28:08 +0800</pubDate>
-<description>&lt;p&gt;Google DeepMind has released AlphaGenome 2, shifting DNA variant effect prediction from tissue-level averages to individual cell types and states, identifying nearly twice as many expression-altering variants as the previous best model. Built on a conditional architecture trained on over 107 million single-cell profiles with cross-modal imputation support, it is now available via API for non-commercial research.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;DeepMind 发布 AlphaGenome 2 致病变异识别能力翻倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI for Science 领域的重要模型迭代，细胞级变异预测能力阶跃提升，对遗传学与疾病机制研究具有直接价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 88/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/025/822.htm">IT之家 · 智能时代</source>
-<category>AI for Science</category>
-<category>基因组学</category>
-<category>Google DeepMind</category>
-<category>单细胞</category>
-</item>
-<item><title>The 100x Developer Myth Is Overblown, Argues Engineer</title><link>https://jcarreras.es/posts/100x-developers/</link><guid isPermaLink="true">https://jcarreras.es/posts/100x-developers/</guid>
-<pubDate>Wed, 11 Nov 2026 23:12:55 +0800</pubDate>
-<description>&lt;p&gt;An engineer&amp;#x27;s essay pushes back on the &amp;#x27;100x developer&amp;#x27; narrative, arguing that a 100x productivity multiplier is mathematically implausible since it would mean three days of work equaling a full 260-day year. The author concedes that newcomers can gain large multiples from AI assistance but insists 100x is mere rhetoric, that a 2x team gain is already strong, and that developers should not feel anxious about AI-driven productivity pressure.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;100 倍开发者神话被指不切实际&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;对 AI 生产力叙事的冷静反思，有助于缓解开发者焦虑，但属观点随笔而非事实增量。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 38/100&lt;/p&gt;</description>
-<source url="https://jcarreras.es/posts/100x-developers/">Hacker News AI</source>
-<category>AI 生产力</category>
-<category>开发者文化</category>
-<category>观点</category>
-</item>
-<item><title>Helsing 推出 Clarity 智能体平台 自动生成打击目标建议</title><link>https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name/</link><guid isPermaLink="true">https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name/</guid>
-<pubDate>Wed, 11 Nov 2026 23:12:53 +0800</pubDate>
-<description>&lt;p&gt;德国国防科技公司 Helsing 发布名为 Clarity 的智能体软件平台，可汇聚多源传感器数据与情报报告，自动识别军事目标并推荐匹配的武器系统。Helsing 强调欧洲主权与“每一次打击必须由人类授权”，直接对标美国 Palantir。但文章同时指出，同类系统的实战经验显示人工复核时间常被压缩至数秒，AI 误判可能在行动前一刻才被发现，存在显著误伤风险。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 智能体首次被系统性嵌入武器目标决策链，涉及技术架构、人机权责与战争伦理，值得持续关注 AI 的读者重点研判。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 78/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name/">The Decoder</source>
-<category>智能体</category>
-<category>国防科技</category>
-<category>Helsing</category>
-<category>人机协同</category>
-<category>AI 伦理</category>
-</item>
-<item><title>Anthropic IPO 路演披露四芯片训练战略</title><link>https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/</guid>
-<pubDate>Wed, 11 Nov 2026 23:11:59 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 在 IPO 路演视频中首次系统披露其算力战略：Claude 的训练与推理同时运行在 AWS Trainium、Google TPU、NVIDIA GPU 与 AMD GPU 四大芯片家族之上。联合创始人 Tom Brown 称，这一多芯片押注源于早期非常规决策，如今接入新芯片平台的周期已从数十名工程师数月缩短至由内部模型 Mythos 主导完成。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Anthropic 首次公开其多芯片算力架构与工程效率细节，对理解前沿模型公司的算力成本结构具有实质参考价值。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · compute · signal 78/100&lt;/p&gt;</description>
-<source url="https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/">Simon Willison 博客</source>
-<category>算力基础设施</category>
-<category>Anthropic</category>
-<category>IPO</category>
-<category>多芯片战略</category>
-</item>
-<item><title>AWS 为 SageMaker 双向流式推理推出按用量计费</title><link>https://aws.amazon.com/blogs/machine-learning/introducing-usage-based-pricing-for-amazon-sagemaker-ai-bidirectional-streaming/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/introducing-usage-based-pricing-for-amazon-sagemaker-ai-bidirectional-streaming/</guid>
-<pubDate>Wed, 11 Nov 2026 23:10:23 +0800</pubDate>
-<description>&lt;p&gt;AWS 宣布为 Amazon SageMaker AI 双向流式推理引入按用量计量能力，使模型提供商可在 AWS Marketplace 上按实时流中的实际消耗收费，端点基础设施费用仍单独计收。Deepgram 作为首个合作伙伴，将按用量计费的语音转文字与文字转语音服务带上 Marketplace。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是云平台计费机制的一次具体补齐，解决了流式 AI 服务在 Marketplace 上按量收费的工程问题，对部署实时语音模型的厂商有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · compute · signal 42/100&lt;/p&gt;</description>
-<source url="https://aws.amazon.com/blogs/machine-learning/introducing-usage-based-pricing-for-amazon-sagemaker-ai-bidirectional-streaming/">AWS Machine Learning Blog</source>
-<category>AWS</category>
-<category>SageMaker</category>
-<category>计费</category>
-<category>实时语音</category>
-</item>
-<item><title>Voice Arena 发布首个 AI 听写应用开放基准</title><link>https://x.com/rohanpaul_ai/status/2120534491194364310</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120534491194364310</guid>
-<pubDate>Wed, 11 Nov 2026 23:09:54 +0800</pubDate>
-<description>&lt;p&gt;Voice Arena 推出 Dictation Bench，这是首个针对 AI 听写应用的开放基准。测试将 87 位说话人的 761 段录音输入 10 款 Mac 真实应用（非 API），由 5 个 LLM 评审判断草稿能否直接发送，Wispr Flow 得分 79%，Apple 仅 35%。该基准公开了参考策略、应用配置与评审指令，为厂商提供了可复现的对比标准。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个面向真实听写应用的开放基准，公开完整评测方法，为厂商宣称提供了可核查的对比依据。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · tools · signal 62/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2120534491194364310">Rohan Paul (@rohanpaul_ai)</source>
-<category>AI 听写</category>
-<category>基准评测</category>
-<category>语音识别</category>
-<category>开发者工具</category>
-</item>
-<item><title>百度发布 ERNIE 5.5 Flash 预览版 280B 总参数 1M 上下文</title><link>https://x.com/arena/status/2120532036435980543</link><guid isPermaLink="true">https://x.com/arena/status/2120532036435980543</guid>
-<pubDate>Wed, 11 Nov 2026 23:00:09 +0800</pubDate>
-<description>&lt;p&gt;百度发布 ERNIE 5.5 Flash Preview，采用面向高效推理的新架构，总参数 280B、每 token 激活 14B，支持 1M token 上下文，生成速度超过 200 tokens/秒。该模型已在 Arena 上线测试，官方称在 Terminal-Bench、AutomationBench 等基准上表现有竞争力，模型权重将于 11 月 25 日前开放。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;百度开源权重旗舰模型的新一代预览版，稀疏参数与 1M 上下文规格明确，且承诺近期开放权重，值得关注。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/arena/status/2120532036435980543">Arena.ai (@arena)</source>
-<category>大模型</category>
-<category>百度</category>
-<category>开源权重</category>
-<category>ERNIE</category>
 </item>
 </channel>
 </rss>
