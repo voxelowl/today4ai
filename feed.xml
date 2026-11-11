@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Wed, 11 Nov 2026 07:55:37 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 11 Nov 2026 08:58:06 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Anthropic Lifts IPO Target Valuation to $1.5 Trillion on Strong Demand</title><link>https://x.com/rohanpaul_ai/status/2120320127484969162</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120320127484969162</guid>
+<pubDate>Wed, 11 Nov 2026 08:58:06 +0800</pubDate>
+<description>&lt;p&gt;Anthropic&amp;#x27;s bankers plan to raise the IPO price range after heavy investor demand, lifting the target valuation back above $1.5 trillion. The Tuesday filing set a $70-$78 share range implying $1.26T-$1.41T including options and restricted shares; pricing above that range would push proceeds past $100B, with Google, Nvidia and Microsoft investing $26B at the IPO price. Three backers say Anthropic now prioritizes raising cash over maximizing valuation, given roughly $900B of planned compute and infrastructure spending.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 上调 IPO 目标估值至 1.5 万亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;万亿美元级 IPO 定价与 9000 亿美元算力支出计划，是 AI 产业资本格局的标志性事件。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 88/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2120320127484969162">Rohan Paul (@rohanpaul_ai)</source>
+<category>融资IPO</category>
+<category>Anthropic</category>
+<category>算力基础设施</category>
+<category>产业资本</category>
+</item>
+<item><title>CoreWeave Q3 Revenue Jumps 168% as Net Loss Widens to $709M</title><link>https://x.com/rohanpaul_ai/status/2120319053764190550</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120319053764190550</guid>
+<pubDate>Wed, 11 Nov 2026 08:53:50 +0800</pubDate>
+<description>&lt;p&gt;CoreWeave&amp;#x27;s third-quarter revenue surged 168% year over year to $3.66B, but net loss widened more than sixfold to $709M, driven by net interest expense climbing to $846M from $310M, exceeding the quarter&amp;#x27;s $379M adjusted operating income. The company borrows to pre-buy Nvidia GPUs ahead of rental income, burning $7.5B after capital spending, and ended the quarter with about $4.12B cash against nearly $47B debt, making further growth dependent on new borrowing or share sales. Contracted backlog rose to $132.5B and the 2026 revenue forecast was lifted to $13B-$13.3B.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;CoreWeave 三季度营收 36.6 亿美元净亏损 7.09 亿&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 算力租赁龙头的营收高增长与债务驱动扩张模式形成鲜明对照，是观察算力基建资本结构风险的关键样本。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2120319053764190550">Rohan Paul (@rohanpaul_ai)</source>
+<category>算力基建</category>
+<category>CoreWeave</category>
+<category>GPU 云</category>
+<category>财务业绩</category>
+</item>
 <item><title>Paper Argues Recursive Self-Improvement Safety Lacks Any Evaluation Framework</title><link>https://x.com/rohanpaul_ai/status/2120304401630089671</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120304401630089671</guid>
 <pubDate>Wed, 11 Nov 2026 07:55:37 +0800</pubDate>
 <description>&lt;p&gt;A paper argues that recursive self-improvement (RSI) is being pursued by AI companies without any shared view of when it would be safe, and without even a clear framework for reasoning about where it leads. The author also demonstrates that a single high-level prompt can get an AI to train a small LLM from scratch, underscoring how fast the capability barrier is falling.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;论文指出递归自我改进安全评估仍无框架&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;聚焦递归自我改进的安全评估缺口，并给出低门槛复现实验，对关注 AI 安全与能力演进的读者有参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 58/100&lt;/p&gt;</description>
@@ -19,6 +37,14 @@
 <category>全双工</category>
 <category>智能体</category>
 <category>FishAudio</category>
+</item>
+<item><title>LiteDRAM Offers Configurable Open Source DRAM Core for FPGAs</title><link>https://github.com/enjoy-digital/litedram/blob/master/doc/manual/03_dram_interface.md</link><guid isPermaLink="true">https://github.com/enjoy-digital/litedram/blob/master/doc/manual/03_dram_interface.md</guid>
+<pubDate>Wed, 11 Nov 2026 07:41:41 +0800</pubDate>
+<description>&lt;p&gt;LiteDRAM is a small-footprint, configurable DRAM core within the LiteX ecosystem, described in Migen and offering a vendor-agnostic generic SDR PHY with 1:1 or 1:2 frequency ratios validated on Xilinx, Altera and Lattice devices. It can be used as a LiteX library or exported as Verilog RTL, and highlights that DDR3+ interfaces require boot-time PHY tuning.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;LiteDRAM 开源可配置 DRAM 核心解析&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向 FPGA 开发者的开源 DRAM 控制器项目文档，具备明确的技术参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 38/100&lt;/p&gt;</description>
+<source url="https://github.com/enjoy-digital/litedram/blob/master/doc/manual/03_dram_interface.md">Hacker News AI</source>
+<category>开源硬件</category>
+<category>FPGA</category>
+<category>DRAM 控制器</category>
 </item>
 <item><title>AWS Launches AgentCore Web Search API with Domain Filtering</title><link>https://aws.amazon.com/blogs/machine-learning/build-a-daily-dependency-watcher-with-langgraph-and-amazon-bedrock-agentcore-web-search/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/build-a-daily-dependency-watcher-with-langgraph-and-amazon-bedrock-agentcore-web-search/</guid>
 <pubDate>Wed, 11 Nov 2026 07:34:05 +0800</pubDate>
@@ -156,6 +182,15 @@
 <category>开源维护</category>
 <category>Anthropic</category>
 </item>
+<item><title>Tendrils Raises $30M to Rebuild General-Purpose CPUs</title><link>https://tendrils.co/blog/2026-11-10/30m-raised</link><guid isPermaLink="true">https://tendrils.co/blog/2026-11-10/30m-raised</guid>
+<pubDate>Wed, 11 Nov 2026 06:14:03 +0800</pubDate>
+<description>&lt;p&gt;Tendrils has closed a $30M round led by Benchmark to design a general-purpose CPU from scratch, discarding the sequential, backward-compatible assumptions inherited from the 1970s. The company is co-developing the open-source Vine language to target parallel-first architectures that avoid shared mutable memory and linear instruction streams.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Tendrils 融资 3000 万美元重构通用 CPU&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是少见的从零重构通用 CPU 架构的早期重注，硬件与语言协同设计的路线值得持续关注。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 58/100&lt;/p&gt;</description>
+<source url="https://tendrils.co/blog/2026-11-10/30m-raised">Hacker News AI</source>
+<category>芯片架构</category>
+<category>融资</category>
+<category>并行计算</category>
+<category>开源语言</category>
+</item>
 <item><title>Goldman Sachs Projects Anthropic Revenue to Top $600B by 2030</title><link>https://x.com/rohanpaul_ai/status/2120276184974204973</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120276184974204973</guid>
 <pubDate>Wed, 11 Nov 2026 06:03:29 +0800</pubDate>
 <description>&lt;p&gt;Goldman Sachs projects Anthropic&amp;#x27;s revenue will exceed $600B by 2030, more than 130 times its 2025 level, with roughly $52B this year, $136B in 2027 and $442B in 2029, according to figures shared verbally with a potential investor as the IPO roadshow begins. The forecast ties valuation tightly to compute converting into revenue on schedule, so any delay in data center build-out would first widen the 2027 cash gap.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;高盛预测 Anthropic 2030 年营收将超 6000 亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是头部大模型公司 IPO 定价预期的关键财务信号，直接反映 AI 算力投入与营收兑现的节奏风险。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 78/100&lt;/p&gt;</description>
@@ -183,36 +218,36 @@
 <category>智能体</category>
 <category>视频生成</category>
 </item>
-<item><title>Apple Develops Harbor App to Turn Macs into Local AI Inference Servers</title><link>https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/</link><guid isPermaLink="true">https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/</guid>
+<item><title>苹果秘密开发 Harbor 应用 让 Mac 变身本地 AI 推理服务器</title><link>https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/</link><guid isPermaLink="true">https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/</guid>
 <pubDate>Wed, 11 Nov 2026 05:25:03 +0800</pubDate>
-<description>&lt;p&gt;Leaker Aaron Perris has uncovered evidence of a new Apple Mac app called Harbor that turns one or more Macs into a private AI inference server for running local models. The app is currently in private preview under Apple&amp;#x27;s Claris brand and is expected to launch publicly in the coming weeks or months.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;苹果秘密开发 Harbor 应用 让 Mac 变身本地 AI 推理服务器&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;苹果首次以官方应用形态切入本地 AI 推理，可能显著降低 Mac 集群部署门槛，值得关注。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;爆料者 Aaron Perris 在苹果内部发现一款名为 Harbor 的新 Mac 应用，可将单台或多台 Mac 组成集群，作为私有 AI 推理服务器运行本地模型。该应用目前处于苹果旗下 Claris 品牌的私密预览阶段，预计未来数周至数月内公开发布。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;苹果首次以官方应用形态切入本地 AI 推理，可能显著降低 Mac 集群部署门槛，值得关注。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
 <source url="https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/">Hacker News AI</source>
 <category>苹果</category>
 <category>本地推理</category>
 <category>Mac</category>
 <category>AI 基础设施</category>
 </item>
-<item><title>Grok Build Coding Agent Leaks Confidential Data From Thousands of Users</title><link>https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/</link><guid isPermaLink="true">https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/</guid>
+<item><title>Grok Build 编码智能体泄露数千用户机密数据</title><link>https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/</link><guid isPermaLink="true">https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/</guid>
 <pubDate>Wed, 11 Nov 2026 05:12:59 +0800</pubDate>
-<description>&lt;p&gt;Research from security firm Claroc shows that Grok Build, the vibe-coding agent from SpaceXSI, exposes data from thousands of live projects because its share-link design allows anyone to enumerate URLs. Leaked material includes business plans, medical exam results, and employee IDs, with roughly two dozen of the affected apps built by SpaceXSI itself.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Grok Build 编码智能体泄露数千用户机密数据&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 编码智能体出现大规模数据泄露，且波及母公司自身机密，是智能体平台安全治理的重要警示案例。&lt;/p&gt;&lt;p&gt;Ars Technica AI · industry · signal 71/100&lt;/p&gt;</description>
+<description>&lt;p&gt;安全公司 Claroc 的研究显示，SpaceXSI 旗下的 vibe-coding 智能体 Grok Build 因分享链接设计缺陷，导致数千个项目的内部数据可被任意枚举访问，泄露内容涵盖商业计划、医疗检查结果与员工身份信息。讽刺的是，其中约 24 个泄露应用由 SpaceXSI 自身构建，包含标密的入职方案与 594 个客户账户的销售版图。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 编码智能体出现大规模数据泄露，且波及母公司自身机密，是智能体平台安全治理的重要警示案例。&lt;/p&gt;&lt;p&gt;Ars Technica AI · industry · signal 71/100&lt;/p&gt;</description>
 <source url="https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/">Ars Technica AI</source>
 <category>AI 安全</category>
 <category>编码智能体</category>
 <category>数据泄露</category>
 <category>SpaceXSI</category>
 </item>
-<item><title>OpenAI Acquires AI Travel Agent Startup Odessia</title><link>https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/</guid>
+<item><title>OpenAI 收购 AI 旅行智能体 Odessia</title><link>https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/</guid>
 <pubDate>Wed, 11 Nov 2026 05:08:52 +0800</pubDate>
-<description>&lt;p&gt;OpenAI has acquired Odessia, a year-old AI travel agent startup founded by Sonder founder Francis Davidson, in what appears to be an acqui-hire; terms were not disclosed. Odessia had raised a $6 million pre-seed led by Sequoia and its travel agent helped early users plan millions of dollars in trips, but the product has already been shut down. The move signals OpenAI&amp;#x27;s push into travel, a high-frequency use case for personal AI assistants.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 收购 AI 旅行智能体 Odessia&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;OpenAI 以收购方式吸纳 AI 旅行智能体团队，反映个人助手垂直场景的竞争动向。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 已收购成立仅一年的 AI 旅行智能体初创公司 Odessia，交易金额未披露，从创始人 Francis Davidson 加入 OpenAI 来看，这更像一次 acqui-hire。Odessia 曾获红杉领投的 600 万美元 pre-seed 融资，其旅行智能体已服务早期用户规划数百万美元行程，但产品目前已关停。此举显示 OpenAI 正加码旅行这一个人 AI 助手的高频落地场景。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;OpenAI 以收购方式吸纳 AI 旅行智能体团队，反映个人助手垂直场景的竞争动向。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/">TechCrunch AI</source>
 <category>OpenAI</category>
 <category>收购</category>
 <category>AI 智能体</category>
 <category>旅行</category>
 </item>
-<item><title>Artificial Analysis Launches Intelligence Index v5 Benchmark</title><link>https://x.com/ArtificialAnlys/status/2120262412003909689</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2120262412003909689</guid>
+<item><title>Artificial Analysis 发布 Intelligence Index v5 评测基准</title><link>https://x.com/ArtificialAnlys/status/2120262412003909689</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2120262412003909689</guid>
 <pubDate>Wed, 11 Nov 2026 05:08:46 +0800</pubDate>
-<description>&lt;p&gt;AI evaluation firm Artificial Analysis held a San Francisco launch event for Intelligence Index v5, outlining where AI benchmarking is heading next. The index is a widely referenced gauge of model intelligence, but the public post offers only event highlights and imagery, with no details yet on methodology or results.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Artificial Analysis 发布 Intelligence Index v5 评测基准&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;知名评测基准迎来大版本更新，值得关注模型排名体系的变化。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;AI 评测机构 Artificial Analysis 在旧金山举办发布会，正式推出 Intelligence Index v5，并探讨 AI 评测的未来方向。该基准是业界衡量模型综合智能水平的重要参考之一，但本次公开信息仅为活动预告与现场照片，尚未披露具体评测维度与结果。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;知名评测基准迎来大版本更新，值得关注模型排名体系的变化。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 38/100&lt;/p&gt;</description>
 <source url="https://x.com/ArtificialAnlys/status/2120262412003909689">Artificial Analysis (@ArtificialAnlys)</source>
 <category>评测基准</category>
 <category>Artificial Analysis</category>
@@ -237,44 +272,6 @@
 <category>智能体</category>
 <category>模型供应链</category>
 <category>微软研究院</category>
-</item>
-<item><title>纽约州 AI 安全法生效 前沿实验室须注册并报事故</title><link>https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/</guid>
-<pubDate>Wed, 11 Nov 2026 04:52:13 +0800</pubDate>
-<description>&lt;p&gt;纽约州正式启动 RAISE Act 实施，年营收超 5 亿美元的前沿 AI 开发商须在 2027 年 1 月 1 日前完成注册，公开安全框架、72 小时内上报重大安全事件并发布模型透明度报告。新设的 DIGIT 办公室负责监管，单次违规最高罚款 100 万美元，累犯可达 300 万美元。这是美国州层面首个对前沿模型开发者形成实质合规义务的监管框架。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;美国州级前沿 AI 监管首次落地为可执行的注册与事故上报义务，直接影响 OpenAI、Anthropic 等头部实验室的合规路径。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 72/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/">TechCrunch AI</source>
-<category>AI 监管</category>
-<category>纽约州</category>
-<category>RAISE Act</category>
-<category>前沿模型</category>
-<category>合规</category>
-</item>
-<item><title>当 AI 成为神谕，数学将走向何方</title><link>https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/</link><guid isPermaLink="true">https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/</guid>
-<pubDate>Wed, 11 Nov 2026 04:30:01 +0800</pubDate>
-<description>&lt;p&gt;应用数学家 Steven Strogatz 与 Alex Townsend 合著新书《Big Math》，探讨大语言模型与量子计算推动的“大数学”如何超出人类心智的处理能力。文章以该书为线索，讨论数学在 AI 时代角色与方法的转变，但未给出具体技术方案或实证结果。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以新书为切入点讨论 AI 时代数学的角色变迁，属观点分析类内容，对关注 AI 与数学交叉的读者有启发价值。&lt;/p&gt;&lt;p&gt;Ars Technica AI · llm · signal 42/100&lt;/p&gt;</description>
-<source url="https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/">Ars Technica AI</source>
-<category>数学</category>
-<category>大模型</category>
-<category>观点分析</category>
-</item>
-<item><title>OpenAI 开放 ChatGPT 企业档案与商业智能体</title><link>https://x.com/gregisenberg/status/2120250534670012721</link><guid isPermaLink="true">https://x.com/gregisenberg/status/2120250534670012721</guid>
-<pubDate>Wed, 11 Nov 2026 04:21:34 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 允许企业认领 ChatGPT 内的企业档案，并可为符合条件的商家构建 Business Agent 回答客户问题。此举被视为 AI 时代的 Google My Business 时刻，将重塑本地商家获客、广告点击与 SEO 逻辑。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 ChatGPT 从对话工具转向商业分发入口的关键一步，直接影响商家获客与广告形态。&lt;/p&gt;&lt;p&gt;GREG ISENBERG (@gregisenberg) · industry · signal 72/100&lt;/p&gt;</description>
-<source url="https://x.com/gregisenberg/status/2120250534670012721">GREG ISENBERG (@gregisenberg)</source>
-<category>ChatGPT</category>
-<category>商业智能体</category>
-<category>广告</category>
-<category>本地商家</category>
-<category>OpenAI</category>
-</item>
-<item><title>OpenAI 推出 ChatGPT 企业目录与商家智能体</title><link>https://the-decoder.com/openai-turns-chatgpt-into-a-business-directory-with-ai-agents-that-handle-customer-questions/</link><guid isPermaLink="true">https://the-decoder.com/openai-turns-chatgpt-into-a-business-directory-with-ai-agents-that-handle-customer-questions/</guid>
-<pubDate>Wed, 11 Nov 2026 04:17:00 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 推出名为“Businesses in ChatGPT”的测试功能，允许商家在 ChatGPT 内注册并管理企业档案、上传含价格与库存的商品信息流，并追踪曝光与点击数据。符合条件的美国电商与服务商还可创建“Business Agents”，由 AI 智能体直接回答客户问题、辅助商品比价，并成为 ChatGPT 广告的投放载体。此举直接对标 Google My Business，将 ChatGPT 每周 12 亿用户转化为商业流量入口。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;OpenAI 将 ChatGPT 从对话工具扩展为商业流量入口，直接挑战 Google 本地商家生态，是 AI 商业化路径的重要信号。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 74/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/openai-turns-chatgpt-into-a-business-directory-with-ai-agents-that-handle-customer-questions/">The Decoder</source>
-<category>OpenAI</category>
-<category>ChatGPT</category>
-<category>AI 商业化</category>
-<category>智能体</category>
-<category>电商</category>
 </item>
 </channel>
 </rss>
