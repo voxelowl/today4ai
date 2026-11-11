@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Wed, 11 Nov 2026 12:53:19 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 11 Nov 2026 13:31:44 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Stanford Releases Full CS329Z Agent Engineering Course Materials</title><link>https://x.com/dotey/status/2120388990616433083</link><guid isPermaLink="true">https://x.com/dotey/status/2120388990616433083</guid>
+<pubDate>Wed, 11 Nov 2026 13:31:44 +0800</pubDate>
+<description>&lt;p&gt;Stanford&amp;#x27;s new CS329Z Engineering AI Agents course has published its lectures daily on YouTube and open-sourced both assignment repositories under the MIT license. The first assignment asks students to build a Claude Code-style agent harness from scratch without any agent framework, covering tool-call format design, BM25 retrieval, context compaction and a sandboxed terminal, with reference solutions running the full online test suite for about $0.05.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;斯坦福 CS329Z 开源全部课程与作业&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;顶级高校把 agent 工程课完整开源，作业即一套可跑测试的 harness 实战，对自学者价值极高。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · agent · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/dotey/status/2120388990616433083">宝玉 (@dotey)</source>
+<category>智能体</category>
+<category>开源课程</category>
+<category>斯坦福</category>
+<category>Agent Harness</category>
+</item>
+<item><title>Greg Kurtzer&#x27;s Ginux Pivots to Userspace Kernel for Agent Sandboxes</title><link>https://github.com/gmkurtzer/ginux</link><guid isPermaLink="true">https://github.com/gmkurtzer/ginux</guid>
+<pubDate>Wed, 11 Nov 2026 13:25:54 +0800</pubDate>
+<description>&lt;p&gt;The Ginux project has abandoned its standalone bootable-kernel approach in favor of a configurable userspace kernel that runs as an ordinary Linux process, placing an explicit versioned contract between managed workloads and the host kernel. The team says its earlier experiment, in which an AI coding agent built a kernel capable of running a Rocky Linux 10 userspace under human architectural direction, proved feasibility but exposed Linux ecosystem limits, prompting a pivot toward a production-grade agent sandbox.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Ginux 转型用户态内核 打造智能体沙箱&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;知名开源开发者 Greg Kurtzer 主导的项目从 AI 生成内核转向用户态沙箱，为智能体隔离提供新思路。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 62/100&lt;/p&gt;</description>
+<source url="https://github.com/gmkurtzer/ginux">Hacker News AI</source>
+<category>开源项目</category>
+<category>智能体沙箱</category>
+<category>内核</category>
+<category>Rust</category>
+</item>
+<item><title>Microsoft and Tsinghua Study Finds GPU Kernel Failures Mostly Stem from Build and Environment Issues</title><link>https://x.com/rohanpaul_ai/status/2120387495699587415</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120387495699587415</guid>
+<pubDate>Wed, 11 Nov 2026 13:25:48 +0800</pubDate>
+<description>&lt;p&gt;A Microsoft and Tsinghua team analyzed 300 closed GitHub issues across seven mainstream GPU kernel libraries and found that 60.33% of failures trace to compilers, build systems, or runtime environments rather than kernel code itself. Software incompatibility among drivers, CUDA, frameworks, and packages was the single largest cause at 25.33%, suggesting LLM training and serving reliability work should prioritize environment consistency and build pipelines.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;微软清华研究称 GPU 内核故障多源于编译与环境&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次以实证数据量化 GPU 内核库故障根因分布，对 LLM 基础设施运维有直接指导价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 68/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2120387495699587415">Rohan Paul (@rohanpaul_ai)</source>
+<category>GPU 内核</category>
+<category>LLM 基础设施</category>
+<category>软件兼容性</category>
+<category>实证研究</category>
+</item>
 <item><title>World Computing Conference 2026 Opens in Changsha with First Space Computing Forum</title><link>https://www.ithome.com/1/025/399.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/399.htm</guid>
 <pubDate>Wed, 11 Nov 2026 12:53:19 +0800</pubDate>
 <description>&lt;p&gt;The World Computing Conference 2026 will run November 19-21 in Changsha under a 21-event \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;2026 世界计算大会 11 月 19 日长沙举行 首设太空计算论坛&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是产业会议预告，含太空计算新论坛与博览会升级等结构性信息，但无技术参数与可验证成果，属常规行业活动。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 38/100&lt;/p&gt;</description>
@@ -181,27 +208,27 @@
 <category>Claude</category>
 <category>智能体工具生态</category>
 </item>
-<item><title>Simple Few-Shot Prompting Lets Small Open Models Match Complex Methods</title><link>https://x.com/rohanpaul_ai/status/2120330418570539503</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120330418570539503</guid>
+<item><title>简单少样本提示即可让小模型追平复杂方法</title><link>https://x.com/rohanpaul_ai/status/2120330418570539503</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120330418570539503</guid>
 <pubDate>Wed, 11 Nov 2026 09:39:00 +0800</pubDate>
-<description>&lt;p&gt;A paper finds that on natural language inference (NLI), a single short direct prompt with a few in-context examples lets small open models such as Gemma 2 9B, Mistral 7B and Llama 3.1 8B match or beat prior methods that relied on complex prompting and sampling tricks. Mistral 7B surpassed the 63.4% MNLI accuracy reported by a published in-context sampling method, and performance with 1 example was roughly equal to 15 examples.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;简单少样本提示即可让小模型追平复杂方法&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;结论反直觉且可直接复用：少样本直给提示即可替代复杂提示工程，对使用小模型做分类任务的开发者有实际参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;一篇论文发现，在自然语言推理（NLI）任务上，仅用一条简短直接的提示加少量示例（上下文学习），就能让 Gemma 2 9B、Mistral 7B、Llama 3.1 8B 等小型开源模型达到甚至超过以往依赖复杂提示与采样技巧的方法。Mistral 7B 在 MNLI 上超过已发表的上下文采样方法所取得的 63.4% 准确率，且 1 个示例与 15 个示例效果基本相当。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;结论反直觉且可直接复用：少样本直给提示即可替代复杂提示工程，对使用小模型做分类任务的开发者有实际参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 58/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2120330418570539503">Rohan Paul (@rohanpaul_ai)</source>
 <category>上下文学习</category>
 <category>自然语言推理</category>
 <category>小模型</category>
 <category>提示工程</category>
 </item>
-<item><title>Khosla Ventures Co-Leads $25M Round in Coframe for AI-Generated Per-Visitor Web Pages</title><link>https://x.com/rohanpaul_ai/status/2120326880113140104</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120326880113140104</guid>
+<item><title>Khosla 领投 Coframe 2500 万美元 用 AI 为每位访客生成独立网页</title><link>https://x.com/rohanpaul_ai/status/2120326880113140104</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120326880113140104</guid>
 <pubDate>Wed, 11 Nov 2026 09:24:56 +0800</pubDate>
-<description>&lt;p&gt;Khosla Ventures co-led a $25M round in Coframe, betting that AI can drive the cost of building web pages low enough to generate a personalized page for every visitor, replacing the static website model. The deal is a direct capital bet on the per-visitor dynamic web paradigm.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Khosla 领投 Coframe 2500 万美元 用 AI 为每位访客生成独立网页&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;知名风投对 AI 个性化网页生成赛道的实质下注，反映网站形态可能的技术路线变化。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Khosla Ventures 联合领投 Coframe 2500 万美元融资，押注 AI 将网页构建成本压到足够低，从而为每位访客生成个性化页面，取代长期静态的网站形态。这是对“一人一页”式动态网站范式的直接资本下注。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;知名风投对 AI 个性化网页生成赛道的实质下注，反映网站形态可能的技术路线变化。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2120326880113140104">Rohan Paul (@rohanpaul_ai)</source>
 <category>融资</category>
 <category>AI 个性化</category>
 <category>网站生成</category>
 <category>Khosla Ventures</category>
 </item>
-<item><title>Microsoft Ships .NET 11 with Built-in MCP Templates and Agent Framework</title><link>https://www.ithome.com/1/025/246.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/246.htm</guid>
+<item><title>微软发布 .NET 11 内置 MCP 模板与智能体框架</title><link>https://www.ithome.com/1/025/246.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/246.htm</guid>
 <pubDate>Wed, 11 Nov 2026 09:23:02 +0800</pubDate>
-<description>&lt;p&gt;Microsoft released .NET 11 at .NET Conf 2026 as a Standard Term Support version with two years of support. The release adds hundreds of runtime and base-library performance optimizations and deepens AI tooling: the SDK ships MCP server templates, companion AI libraries and an agent framework cover model access, tool calling and workflow orchestration, and Blazor gains experimental AI UI components. C# 15 introduces union types, and .NET MAUI now defaults to the CoreCLR runtime.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;微软发布 .NET 11 内置 MCP 模板与智能体框架&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流开发平台正式将 MCP 与智能体能力纳入官方工具链，对 .NET 生态开发者具有直接可用性。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;.NET 11 在 .NET Conf 2026 上正式发布，属于标准支持版本，提供两年支持。本次升级在运行时与基础库层面带来数百项性能优化，并显著强化 AI 开发能力：开发工具包内置 MCP 服务器模板，配套 AI 库与智能体框架支持模型接入、工具调用与工作流编排，Blazor 还推出实验性 AI 界面组件。C# 15 新增联合类型，.NET MAUI 默认切换到 CoreCLR 运行时。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流开发平台正式将 MCP 与智能体能力纳入官方工具链，对 .NET 生态开发者具有直接可用性。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/025/246.htm">IT之家 · 智能时代</source>
 <category>.NET 11</category>
 <category>微软</category>
@@ -245,33 +272,6 @@
 <category>CoreWeave</category>
 <category>GPU 云</category>
 <category>财务业绩</category>
-</item>
-<item><title>华为享界 V8 定档 11 月 20 日 全系标配乾崑智驾</title><link>https://www.ithome.com/1/025/230.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/230.htm</guid>
-<pubDate>Wed, 11 Nov 2026 08:43:30 +0800</pubDate>
-<description>&lt;p&gt;华为宣布鸿蒙智行享界 V8 及星芒品牌发布会定档 2026 年 11 月 20 日，享界 V8 为享界品牌首款 MPV，预售价 32.98 万元起。该车全系标配 800V 高压平台、±12° 后轮转向与华为乾崑智驾系统，Ultra 及以上版本采用四激光雷达并具备 L3 级自动驾驶架构设计。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;华为智驾方案落地新车型，L3 架构与四激光雷达配置对关注自动驾驶落地的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 38/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/025/230.htm">IT之家 · IT业界</source>
-<category>智能驾驶</category>
-<category>华为</category>
-<category>鸿蒙智行</category>
-<category>汽车</category>
-</item>
-<item><title>16 款大模型挑战 TIS-100 编程游戏刷新 133 项纪录</title><link>https://tis-100.wincon.dev/</link><guid isPermaLink="true">https://tis-100.wincon.dev/</guid>
-<pubDate>Wed, 11 Nov 2026 08:37:05 +0800</pubDate>
-<description>&lt;p&gt;Wincon Research 让 16 款前沿与开源大模型在隐藏社区排行榜的条件下挑战 Zachtronics 汇编解谜游戏 TIS-100 的全部 47 道题，模型共刷新 133 项前沿点、在 18 道题上取得新纪录并创下 3 项周期绝对纪录。人类玩家随后数天内接手并改进了其中大部分程序，说明模型产出具备真实工程可用性。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以经典汇编解谜游戏为基准，量化大模型在受限指令集与多目标权衡下的程序合成能力，并有人类接力验证。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 72/100&lt;/p&gt;</description>
-<source url="https://tis-100.wincon.dev/">Hacker News AI</source>
-<category>大模型评测</category>
-<category>程序合成</category>
-<category>TIS-100</category>
-<category>基准测试</category>
-</item>
-<item><title>Claude 新增白板与表格并上线 Claude Data</title><link>https://x.com/dotey/status/2120312745543315897</link><guid isPermaLink="true">https://x.com/dotey/status/2120312745543315897</guid>
-<pubDate>Wed, 11 Nov 2026 08:28:46 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 为 Claude 的 Artifacts 新增白板与表格两种可协作内容格式，所有付费套餐（含 Pro）均可使用，测试版已开始分批推送；10 月上线的仪表盘同期结束测试并更名为 Claude Data。作者借此提出一个判断：软件的使用主体正从人转向 Agent，人只负责审查与微调，Artifacts 是这一形态转变的代表。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Claude Artifacts 扩展协作格式并覆盖全部付费套餐，同时提供了一个关于软件形态演进的观察视角。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · tools · signal 62/100&lt;/p&gt;</description>
-<source url="https://x.com/dotey/status/2120312745543315897">宝玉 (@dotey)</source>
-<category>Claude</category>
-<category>Anthropic</category>
-<category>协作工具</category>
-<category>Agent</category>
 </item>
 </channel>
 </rss>
