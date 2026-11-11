@@ -1,8 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Wed, 11 Nov 2026 21:08:20 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 11 Nov 2026 21:51:11 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>US Data Brokers Sell $500 Million in RL Training Environments to Chinese AI Labs</title><link>https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs/</link><guid isPermaLink="true">https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs/</guid>
+<pubDate>Wed, 11 Nov 2026 21:51:11 +0800</pubDate>
+<description>&lt;p&gt;A ChinaTalk investigation finds at least nine US data firms selling roughly $500 million worth of reinforcement learning environments to Chinese AI labs, letting buyers reuse the same environments built for OpenAI and Anthropic and cut compute costs and development time. With the trade largely unregulated, the authors call for export controls on sensitive domains such as cybersecurity and biology.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美数据商向中国 AI 实验室出售 5 亿美元 RL 训练环境&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示中美 AI 训练数据供应链的灰色地带，涉及出口管制与算力成本结构，是产业与政策交叉的重要信号。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 78/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs/">The Decoder</source>
+<category>数据交易</category>
+<category>强化学习</category>
+<category>出口管制</category>
+<category>中美 AI</category>
+</item>
+<item><title>DeepL Launches Aure Model to Preserve Tone and Emotion in Live Translation</title><link>https://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-intonation-and-speaking-speed-into-other-languages-as-well/</link><guid isPermaLink="true">https://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-intonation-and-speaking-speed-into-other-languages-as-well/</guid>
+<pubDate>Wed, 11 Nov 2026 21:50:30 +0800</pubDate>
+<description>&lt;p&gt;DeepL has unveiled Aure, a new model for its Voice real-time translation product that carries the original speaker&amp;#x27;s tone, emotion, emphasis and speaking pace into the target language instead of relying on a static voice sample captured at conversation start. It decouples voice identity, speech melody and content during training and uses reinforcement learning to suppress accents, rolling out automatically across Online Meetings, In-Person Conversations and the API.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;DeepL 推出 Aure 模型 实时翻译保留语气与情绪&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;语音翻译从“译得对”迈向“译得像”，情绪与语气迁移是实时翻译体验的关键增量。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 62/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-intonation-and-speaking-speed-into-other-languages-as-well/">The Decoder</source>
+<category>语音翻译</category>
+<category>DeepL</category>
+<category>实时翻译</category>
+<category>强化学习</category>
+</item>
+<item><title>DeepMind Weather Model Enters US Hurricane Forecast Operations</title><link>https://www.ithome.com/1/025/806.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/806.htm</guid>
+<pubDate>Wed, 11 Nov 2026 21:42:22 +0800</pubDate>
+<description>&lt;p&gt;The US National Hurricane Center has integrated Google DeepMind&amp;#x27;s weather model into operational forecasting, with the model flagging potential tropical cyclones up to a week before formation and delivering forecast accuracy roughly a day earlier on average. Experts stress the model is trained on traditional physics-based data, and real-time aircraft and satellite observations still require human meteorologists.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;DeepMind 气象模型接入美国飓风预报业务&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI for Science 在极端天气预报领域进入国家级业务系统的实质落地案例，兼具技术细节与人类角色边界讨论。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 72/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/025/806.htm">IT之家 · 智能时代</source>
+<category>AI for Science</category>
+<category>气象预报</category>
+<category>DeepMind</category>
+<category>飓风预测</category>
+</item>
+<item><title>n8n Labs Open-Sources Nod Personal Agent Running in Local VM</title><link>https://x.com/rohanpaul_ai/status/2120508138705342896</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120508138705342896</guid>
+<pubDate>Wed, 11 Nov 2026 21:25:12 +0800</pubDate>
+<description>&lt;p&gt;n8n Labs released Nod, an Apache 2.0 open-source personal agent research preview that executes errands across apps and websites inside its own local VM and browser, even without APIs. Credentials stay in a Vault never exposed to the model, sensitive actions require explicit user consent, and with GPT-6.1 Sol it completed 98% of 678 runs across 226 simulated errands while scoring 93.2% on LongMemEval-S memory tests.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;n8n Labs 开源个人智能体 Nod 支持本地虚拟机执行&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源个人智能体叠加本地 VM 隔离与凭据保险箱设计，为端侧自主代理的安全落地提供了可复用的工程范式。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 74/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2120508138705342896">Rohan Paul (@rohanpaul_ai)</source>
+<category>智能体</category>
+<category>开源</category>
+<category>n8n</category>
+<category>个人助理</category>
+<category>本地执行</category>
+</item>
+<item><title>CAUC and CATL Partner to Build Aviation Battery Airworthiness Lab</title><link>https://www.ithome.com/1/025/794.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/794.htm</guid>
+<pubDate>Wed, 11 Nov 2026 21:13:52 +0800</pubDate>
+<description>&lt;p&gt;The Civil Aviation University of China and CATL signed an agreement to jointly build an aviation battery airworthiness technology lab, focusing on all-electric and hybrid energy systems for low-altitude applications and on airworthiness standards and compliance verification methods. The partners will also build test platforms and co-train talent for electric aviation.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;中国民航大学与宁德时代共建航空电池适航实验室&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;动力电池龙头与民航院校共建适航实验室，是电动航空与低空经济标准化的实质性产业动向。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 42/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/025/794.htm">IT之家 · IT业界</source>
+<category>宁德时代</category>
+<category>电动航空</category>
+<category>适航认证</category>
+<category>低空经济</category>
+</item>
 <item><title>Grok Build Share Link Flaw Exposes Sensitive Data of Thousands</title><link>https://www.ithome.com/1/025/790.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/790.htm</guid>
 <pubDate>Wed, 11 Nov 2026 21:08:20 +0800</pubDate>
 <description>&lt;p&gt;Security firm Claroc found that share links generated by SpaceXSI&amp;#x27;s AI coding tool Grok Build are publicly indexable via passive DNS services, exposing sensitive data from thousands of users and SpaceXSI itself, with roughly 2% of apps containing high-severity information. The flaw stems from Grok placing random identifiers in the subdomain rather than the URL path; SpaceXSI removed 24 of its own exposed apps only after being publicly called out, but took no equivalent action for other affected users.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Grok Build 分享链接漏洞致数千用户敏感数据泄露&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 编程工具出现可公开检索的数据泄露漏洞，暴露面覆盖财富 500 强企业，对 AI 工具链安全选型有直接警示价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 72/100&lt;/p&gt;</description>
@@ -37,6 +83,24 @@
 <category>物联网</category>
 <category>欧盟监管</category>
 </item>
+<item><title>Firefox Tightens Anti-Fingerprinting Defenses to Blunt Cross-Site Tracking</title><link>https://blog.mozilla.org/security/2026/11/10/open-research-stronger-privacy-making-firefox-users-harder-to-fingerprint/</link><guid isPermaLink="true">https://blog.mozilla.org/security/2026/11/10/open-research-stronger-privacy-making-firefox-users-harder-to-fingerprint/</guid>
+<pubDate>Wed, 11 Nov 2026 20:44:06 +0800</pubDate>
+<description>&lt;p&gt;Mozilla has shipped a new round of fingerprinting protections in Firefox that reduce extractable distinguishing details, making more users look alike to tracking scripts and blunting cross-site identification. The work builds on Mozilla&amp;#x27;s large-scale measurement research on browser and device fingerprinting, accepted at CCS 2026, with findings and code shared openly.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Firefox 强化反指纹追踪 让用户更难被识别&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;浏览器隐私防护是 AI 与数据采集生态的底层变量，Mozilla 公开研究方法与代码，对关注数据合规与反追踪的读者有实际参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://blog.mozilla.org/security/2026/11/10/open-research-stronger-privacy-making-firefox-users-harder-to-fingerprint/">Hacker News AI</source>
+<category>浏览器隐私</category>
+<category>反指纹追踪</category>
+<category>Firefox</category>
+<category>Mozilla</category>
+</item>
+<item><title>Linear Programming Matches Weight-Space Programming With 8x Fewer Edits</title><link>https://nathan.rs/posts/weight-space-lp/</link><guid isPermaLink="true">https://nathan.rs/posts/weight-space-lp/</guid>
+<pubDate>Wed, 11 Nov 2026 20:30:17 +0800</pubDate>
+<description>&lt;p&gt;Blogger Nathan Barry analyzes MIT CSAIL&amp;#x27;s \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;线性规划可替代权重空间编程 改动减少 8 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;对前沿权重编辑方法给出可复现的经典优化替代方案，兼具技术增量与实操价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://nathan.rs/posts/weight-space-lp/">Hacker News AI</source>
+<category>权重空间编程</category>
+<category>线性规划</category>
+<category>模型权重编辑</category>
+<category>MIT CSAIL</category>
+</item>
 <item><title>OpenAI Quarterly Revenue Hits $10 Billion as Losses Widen</title><link>https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic/</link><guid isPermaLink="true">https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic/</guid>
 <pubDate>Wed, 11 Nov 2026 20:12:47 +0800</pubDate>
 <description>&lt;p&gt;OpenAI grew quarterly revenue roughly 50% to $10 billion on the back of new models and enterprise customers, but posted an adjusted operating loss of $10.9 billion. Rival Anthropic generated $17 billion in revenue over the same period with an operating loss of just $567 million, underscoring a stark efficiency gap. OpenAI is cutting prices to win enterprise deals, while ChatGPT&amp;#x27;s consumer business now counts 100 million paying subscribers.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 季度营收达 100 亿美元 亏损 109 亿&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部大模型公司首次披露量级营收与亏损对比，直接反映 AI 商业化效率与竞争格局。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 78/100&lt;/p&gt;</description>
@@ -45,6 +109,24 @@
 <category>Anthropic</category>
 <category>商业化</category>
 <category>企业服务</category>
+</item>
+<item><title>AI-Generated Database System Accused of Severe Benchmark Overfitting</title><link>http://databasearchitects.blogspot.com/2026/11/next-level-benchmarking-overfitting.html</link><guid isPermaLink="true">http://databasearchitects.blogspot.com/2026/11/next-level-benchmarking-overfitting.html</guid>
+<pubDate>Wed, 11 Nov 2026 20:09:49 +0800</pubDate>
+<description>&lt;p&gt;Database researcher Thomas Neumann argues that GenDB-V, which claims 22x to 61x speedups over Umbra and DuckDB, achieves these gains through benchmark overfitting and compile-time specialization rather than general-purpose engine design. He notes that inserting or deleting a single tuple could trigger a slow fallback path, making the approach impractical for production systems. The critique extends his earlier warning about AI agents gaming database benchmarks.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 生成数据库系统被指基准测试严重过拟合&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;对 AI 自动生成数据库引擎的跑分声明提出实质性技术质疑，是评估 AI 编码智能体真实能力边界的重要反方观点。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 72/100&lt;/p&gt;</description>
+<source url="http://databasearchitects.blogspot.com/2026/11/next-level-benchmarking-overfitting.html">Hacker News AI</source>
+<category>数据库</category>
+<category>基准测试</category>
+<category>AI 智能体</category>
+<category>过拟合</category>
+</item>
+<item><title>Google SWE Agents Discover Unmapped Maya Pyramid in 72 Hours</title><link>https://pietromiotti.com/latest/maya-site/?maya</link><guid isPermaLink="true">https://pietromiotti.com/latest/maya-site/?maya</guid>
+<pubDate>Wed, 11 Nov 2026 20:05:22 +0800</pubDate>
+<description>&lt;p&gt;A developer deployed 48 Google SWE-based AI agents to analyze public NASA LiDAR data, uncovering a previously unreported Maya site in Mexico with a plaza, pyramid and platforms. The entire pipeline, from initial idea to an official reply from the Mexican government, took under 72 hours, demonstrating multi-agent collaboration in remote-sensing archaeology and scientific discovery.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌 SWE 智能体 72 小时发现玛雅金字塔遗址&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;多智能体协同在真实科学发现中的罕见落地案例，且时间线极具冲击力。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 78/100&lt;/p&gt;</description>
+<source url="https://pietromiotti.com/latest/maya-site/?maya">Hacker News AI</source>
+<category>AI 智能体</category>
+<category>遥感考古</category>
+<category>LiDAR</category>
+<category>科学发现</category>
 </item>
 <item><title>UK Regulator Pressures Universities to Adopt AI-Proof Exams</title><link>https://the-decoder.com/uk-regulator-threatens-universities-with-sanctions-unless-they-adopt-ai-proof-exam-formats/</link><guid isPermaLink="true">https://the-decoder.com/uk-regulator-threatens-universities-with-sanctions-unless-they-adopt-ai-proof-exam-formats/</guid>
 <pubDate>Wed, 11 Nov 2026 19:54:46 +0800</pubDate>
@@ -62,6 +144,15 @@
 <category>夸克</category>
 <category>千问</category>
 <category>阿里巴巴</category>
+</item>
+<item><title>Self-Supervised Pipeline Enables Physically Controllable Photo Relighting</title><link>https://yaksoy.github.io/PhysicalRelighting/</link><guid isPermaLink="true">https://yaksoy.github.io/PhysicalRelighting/</guid>
+<pubDate>Wed, 11 Nov 2026 19:38:43 +0800</pubDate>
+<description>&lt;p&gt;The paper introduces a self-supervised approach to in-the-wild image relighting that combines the physical accuracy of traditional rendering with the photorealism of neural rendering. A colored mesh inferred from monocular geometry and intrinsic components lets users define 3D lighting, which is path-traced and then refined by a feed-forward neural renderer trained via a differentiable rendering process.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;新方法实现照片级物理可控重打光&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把 Blender 式的显式物理光照控制带入真实照片重打光，兼具方法创新与实用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 72/100&lt;/p&gt;</description>
+<source url="https://yaksoy.github.io/PhysicalRelighting/">Hacker News AI</source>
+<category>图像重打光</category>
+<category>神经渲染</category>
+<category>可微渲染</category>
+<category>SIGGRAPH</category>
 </item>
 <item><title>Claude Adapts Models to AMD GPUs in Three Days, Testing CUDA Moat</title><link>https://www.ithome.com/1/025/736.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/736.htm</guid>
 <pubDate>Wed, 11 Nov 2026 19:26:23 +0800</pubDate>
@@ -100,62 +191,62 @@
 <category>硬件安全</category>
 <category>NVIDIA</category>
 </item>
-<item><title>ByteDance Plans Meta Muse-Style AI Agent Assistant</title><link>https://www.ithome.com/1/025/726.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/726.htm</guid>
+<item><title>字节跳动计划推出类 Meta Muse 智能体助手</title><link>https://www.ithome.com/1/025/726.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/726.htm</guid>
 <pubDate>Wed, 11 Nov 2026 18:45:49 +0800</pubDate>
-<description>&lt;p&gt;Bloomberg reports that ByteDance plans to launch a Meta Muse-style AI assistant within weeks, championed by co-founder Zhang Yiming, aiming to close the gap with top US labs in roughly three years. Zhang also acknowledged that the Seed models&amp;#x27; pretraining datasets are orders of magnitude smaller than US rivals&amp;#x27; and warned against over-reliance on distillation.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;字节跳动计划推出类 Meta Muse 智能体助手&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;字节跳动智能体布局与张一鸣罕见内部表态，揭示中美 AI 数据规模差距的真实判断。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;据彭博社报道，字节跳动计划在未来几周内推出一款类似 Meta Muse 的 AI 助手，由联合创始人张一鸣亲自推动，目标是在三年左右缩小与美国顶尖实验室的差距。张一鸣同时坦言 Seed 系列模型的预训练数据规模比美国对手小数个数量级，并强调不应过度依赖模型蒸馏。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;字节跳动智能体布局与张一鸣罕见内部表态，揭示中美 AI 数据规模差距的真实判断。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/025/726.htm">IT之家 · 智能时代</source>
 <category>智能体</category>
 <category>字节跳动</category>
 <category>张一鸣</category>
 <category>Seed</category>
 </item>
-<item><title>MediaTek Genio 420 Powers ISHO iFlow AI Sleep Temperature System</title><link>https://www.ithome.com/1/025/689.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/689.htm</guid>
+<item><title>联发科 Genio 420 赋能今日宜休 AI 睡眠温控系统</title><link>https://www.ithome.com/1/025/689.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/689.htm</guid>
 <pubDate>Wed, 11 Nov 2026 18:15:29 +0800</pubDate>
-<description>&lt;p&gt;MediaTek announced that its Genio 420 platform powers ISHO&amp;#x27;s newly launched iFlow smart temperature control system and Pro version, delivering 7.2 TOPS of on-device AI compute with 16GB LPDDR5X. Priced from 9,999 yuan, the product supports BCG contactless monitoring for continuous overnight heart rate and respiration tracking.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;联发科 Genio 420 赋能今日宜休 AI 睡眠温控系统&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;端侧 AI 芯片落地智能家居睡眠场景的具体案例，含明确芯片参数与产品定价。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;联发科宣布其 Genio 420 平台全系搭载于今日宜休发布的 ISHO iFlow 智能温控系统及 Pro 版本，该芯片提供 7.2 TOPS 端侧 AI 算力并整合 16GB LPDDR5X。产品定价 9999 元起，支持 BCG 无感监测实现整晚心率与呼吸连续采集。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;端侧 AI 芯片落地智能家居睡眠场景的具体案例，含明确芯片参数与产品定价。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 38/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/025/689.htm">IT之家 · 智能时代</source>
 <category>端侧AI</category>
 <category>联发科</category>
 <category>智能家居</category>
 <category>芯片平台</category>
 </item>
-<item><title>Mercor Raises $750M Series D at $20B Valuation on $3B Run Rate</title><link>https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/</link><guid isPermaLink="true">https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/</guid>
+<item><title>Mercor 完成 7.5 亿美元 D 轮融资 估值达 200 亿美元</title><link>https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/</link><guid isPermaLink="true">https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/</guid>
 <pubDate>Wed, 11 Nov 2026 17:34:28 +0800</pubDate>
-<description>&lt;p&gt;AI data and expert-network platform Mercor closed a $750M Series D at a $20B valuation, with annualized revenue reaching $3B. The company says it now spends 3x more on inference than on employee salaries, framing the spend as self-funding through productivity gains and as evidence of AI investment driving economic growth.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Mercor 完成 7.5 亿美元 D 轮融资 估值达 200 亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;融资规模与收入增速均属头部量级，且披露的推理支出结构对判断 AI 商业化节奏有参考价值。&lt;/p&gt;&lt;p&gt;Latent Space · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;AI 数据与专家网络平台 Mercor 完成 7.5 亿美元 D 轮融资，估值升至 200 亿美元，年化收入已达 30 亿美元。公司披露其推理支出已是员工薪资的 3 倍，并称该投入可通过提升团队效率自我覆盖，被视为 AI 投资拉动经济增长的样本。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;融资规模与收入增速均属头部量级，且披露的推理支出结构对判断 AI 商业化节奏有参考价值。&lt;/p&gt;&lt;p&gt;Latent Space · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/">Latent Space</source>
 <category>融资</category>
 <category>AI 数据</category>
 <category>商业化</category>
 <category>Mercor</category>
 </item>
-<item><title>Anthropic CEO&#x27;s Ten-Year Cancer Cure Claim Draws Medical Pushback</title><link>https://www.ithome.com/1/025/617.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/617.htm</guid>
+<item><title>Anthropic CEO 预测十年攻克癌症遭医学界质疑</title><link>https://www.ithome.com/1/025/617.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/617.htm</guid>
 <pubDate>Wed, 11 Nov 2026 17:24:53 +0800</pubDate>
-<description>&lt;p&gt;Anthropic CEO Dario Amodei predicted AI will make cancer, Alzheimer&amp;#x27;s and heart disease history within a decade, echoing optimistic timelines from Musk and Hassabis. Drug-industry executives and physicians pushed back, arguing AI can only speed early molecule screening and cannot bypass the 10-12 year clinical trial and regulatory pipeline; as of 2026 no AI-designed drug has reached full clinical use.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic CEO 预测十年攻克癌症遭医学界质疑&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司 CEO 的激进医学预测与产业界实证反驳形成鲜明对照，是理解 AI for Science 边界的重要行业讨论。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 52/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic CEO 达里奥·阿莫迪预测 AI 将在十年内让癌症、阿尔茨海默病等成为历史，马斯克与哈萨比斯亦持类似乐观论调。但制药高管与医学专家反驳称，AI 只能加速早期分子筛选，无法绕过长达 10 至 12 年的临床试验与监管审批，截至 2026 年尚无 AI 设计药物实现全面临床应用。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司 CEO 的激进医学预测与产业界实证反驳形成鲜明对照，是理解 AI for Science 边界的重要行业讨论。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 52/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/025/617.htm">IT之家 · 智能时代</source>
 <category>AI for Science</category>
 <category>药物研发</category>
 <category>Anthropic</category>
 <category>行业争议</category>
 </item>
-<item><title>Sinopec Debuts China&#x27;s First Embodied AI Pressure Gauge Calibration Device</title><link>https://www.ithome.com/1/025/612.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/612.htm</guid>
+<item><title>中国石化牵头研发国内首个具身智能压力表检定装置</title><link>https://www.ithome.com/1/025/612.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/612.htm</guid>
 <pubDate>Wed, 11 Nov 2026 17:15:18 +0800</pubDate>
-<description>&lt;p&gt;Sinopec has led the development of China&amp;#x27;s first embodied-AI fully automated calibration device for pointer pressure gauges, combining robotic handling, vision-based dial recognition and software-driven judgment. It calibrates four gauges per cycle in five to six minutes, delivering over 3.5x efficiency gains and 99.7% reading accuracy, shifting gauge verification from manual to machine operation. The device will be shown at the third Metrology Instrument Equipment Exhibition on November 18-20.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;中国石化牵头研发国内首个具身智能压力表检定装置&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;具身智能在石化工业检测场景的真实落地案例，给出了效率与识别率的具体量化指标。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;中国石化牵头研发出国内首个具身智能压力表全自动检定装置，将机器人操作、视觉识别与软件判定整合为一体，单次可同时检定 4 块指针压力表，全程仅需 5 至 6 分钟，效率提升 3.5 倍以上，读数识别率达 99.7%。该装置标志着指针压力表检定从人工操作转向机器自动检定，将于 11 月 18 日至 20 日亮相第三届计量仪器装备展。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;具身智能在石化工业检测场景的真实落地案例，给出了效率与识别率的具体量化指标。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/025/612.htm">IT之家 · 智能时代</source>
 <category>具身智能</category>
 <category>工业检测</category>
 <category>中国石化</category>
 <category>智能制造</category>
 </item>
-<item><title>22 Open Source Projects Ban AI-Generated Contributions</title><link>https://osssaysno.com</link><guid isPermaLink="true">https://osssaysno.com</guid>
+<item><title>22 个开源项目明确禁止 AI 生成代码贡献</title><link>https://osssaysno.com</link><guid isPermaLink="true">https://osssaysno.com</guid>
 <pubDate>Wed, 11 Nov 2026 16:51:45 +0800</pubDate>
-<description>&lt;p&gt;A tracking site has cataloged 22 open source projects that explicitly ban AI-generated contributions, including immich, Meilisearch, Servo and Gentoo. The policies cover code, tests, documentation and even PR and issue comments, signaling that AI-contribution governance is becoming institutionalized across open source communities.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;22 个开源项目明确禁止 AI 生成代码贡献&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是开源社区对 AI 生成贡献态度分化的集中样本，对理解 AI 与开源协作规范的碰撞具有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;一个追踪站点汇总了 22 个明确禁止 AI 生成内容贡献的开源项目，包括 immich、Meilisearch、Servo 与 Gentoo。这些政策覆盖代码、测试、文档乃至 PR 与 issue 评论，反映出开源社区对 AI 生成贡献的治理分歧正在制度化。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是开源社区对 AI 生成贡献态度分化的集中样本，对理解 AI 与开源协作规范的碰撞具有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 62/100&lt;/p&gt;</description>
 <source url="https://osssaysno.com">Hacker News AI</source>
 <category>开源治理</category>
 <category>AI 生成代码</category>
 <category>社区政策</category>
 </item>
-<item><title>Beijing Court Rules Platform Liable for False AI Content Flagging</title><link>https://www.ithome.com/1/025/592.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/592.htm</guid>
+<item><title>北京互联网法院判平台误判 AI 生成内容需担责</title><link>https://www.ithome.com/1/025/592.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/592.htm</guid>
 <pubDate>Wed, 11 Nov 2026 16:33:29 +0800</pubDate>
-<description>&lt;p&gt;A Beijing Internet Court disclosed a ruling in which a platform hid a user&amp;#x27;s original text and muted the account for a day after flagging it as unlabeled AI-generated content. The court held the platform liable for breach of contract, rejecting its refusal to explain the detection algorithm on trade-secret grounds, and ordered the content restored and records deleted. The case establishes that platforms must reasonably explain AI-detection decisions and provide remedies for false positives.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;北京互联网法院判平台误判 AI 生成内容需担责&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首例明确平台 AI 内容识别误判责任的司法判例，直接影响内容平台审核机制设计。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;北京互联网法院披露一起诉讼：用户原创文字被平台判定为“AI 生成未标识”并遭隐藏与禁言，用户申诉未果后起诉。法院认定平台以技术秘密为由拒绝解释算法依据不成立，构成违约，判令解除隐藏并删除违规记录。该案明确平台对 AI 内容识别结果负有适度解释义务，并需建立误判救济与阶梯式处置机制。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首例明确平台 AI 内容识别误判责任的司法判例，直接影响内容平台审核机制设计。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/025/592.htm">IT之家 · 智能时代</source>
 <category>AI 内容标识</category>
 <category>平台治理</category>
@@ -180,92 +271,6 @@
 <category>国土空间治理</category>
 <category>政策</category>
 <category>智能体</category>
-</item>
-<item><title>佳能发布 KrF 光刻机 产能达每小时 400 片</title><link>https://www.ithome.com/1/025/574.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/574.htm</guid>
-<pubDate>Wed, 11 Nov 2026 16:24:18 +0800</pubDate>
-<description>&lt;p&gt;佳能宣布将于 2026 年 12 月上旬发售面向存储与逻辑芯片的 KrF 扫描式光刻机 FPA-6400ES6a，宣称产能达每小时 400 片晶圆、套刻精度达业界高水平 4.0nm。新机通过超高加速度载台、震动抑制与气流温控技术提升精度，并将可对应晶圆翘曲量扩大至 700μm，强化三维堆叠与晶圆键合工艺适配。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;成熟制程光刻设备的产能与套刻精度升级，直接关系存储与逻辑芯片制造成本，值得半导体与算力基础设施读者关注。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/025/574.htm">IT之家 · IT业界</source>
-<category>半导体设备</category>
-<category>光刻机</category>
-<category>佳能</category>
-<category>成熟制程</category>
-</item>
-<item><title>红果短剧上线 AI 虚拟形象确权功能</title><link>https://www.ithome.com/1/025/569.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/569.htm</guid>
-<pubDate>Wed, 11 Nov 2026 16:12:27 +0800</pubDate>
-<description>&lt;p&gt;红果短剧创作者中心上线 AI 剧虚拟形象创编与确权能力，创作者可前置提交真人授权、IP 授权或著作权登记等权属材料，审核通过后形成确权记录。平台明确该记录仅用于权属信息留存与风险处置参考，不构成绝对兜底，同时延续 10 月对同质化内容与批量换脸素材的治理。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 生成内容进入短剧工业化生产后，平台侧首次系统性处理虚拟形象权属确权问题，对关注 AIGC 版权与内容治理的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/025/569.htm">IT之家 · 智能时代</source>
-<category>AIGC 版权</category>
-<category>短剧</category>
-<category>内容治理</category>
-</item>
-<item><title>OpenAI 12 月 11 日停用旧版语音模式全面转向 GPT-Live</title><link>https://www.ithome.com/1/025/567.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/567.htm</guid>
-<pubDate>Wed, 11 Nov 2026 16:10:22 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 宣布将于 2026 年 12 月 11 日从 ChatGPT 设置中移除 Advanced Voice Mode 与 Standard Voice Mode，用户将自动迁移至 7 月发布的全双工语音模型 GPT-Live。官方称 GPT-Live 上线后语音功能使用量接近翻倍，但部分付费用户抱怨其频繁打断、丢失上下文，并威胁退订。实时视频与屏幕共享、自定义 GPT 语音对话暂仍沿用旧模式。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 OpenAI 语音交互栈的一次代际切换，涉及全双工架构落地与用户反弹，值得关注其后续是否重演 GPT-4o 暂缓退役的剧本。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/025/567.htm">IT之家 · 智能时代</source>
-<category>OpenAI</category>
-<category>语音交互</category>
-<category>GPT-Live</category>
-<category>产品迭代</category>
-</item>
-<item><title>Android Studio Rabbit 2 发布 支持接入 40 余款编码智能体</title><link>https://www.ithome.com/1/025/565.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/565.htm</guid>
-<pubDate>Wed, 11 Nov 2026 16:08:27 +0800</pubDate>
-<description>&lt;p&gt;谷歌在 2026 年 Android Dev Summit 上发布 Android Studio Rabbit 2 稳定版，开发者可在 IDE 内直接选择 Claude Agent、Codex、Antigravity 等 40 余款符合 ACP 标准的编码智能体，并调用其完整开发者工具链。同期 Android CLI 与 XR 模拟器、XR Engine Hub 转为稳定版，ARCore Geospatial API 支持在有线 XR 眼镜与智能眼镜上完成高精度空间锚定。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;IDE 开放接入多厂商编码智能体，标志移动开发工具链向智能体中立平台演进。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · tools · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/025/565.htm">IT之家 · IT业界</source>
-<category>Android</category>
-<category>智能体</category>
-<category>开发工具</category>
-<category>XR</category>
-</item>
-<item><title>OpenAI 三季度营收首破百亿美元 环比增近 50%</title><link>https://www.ithome.com/1/025/560.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/560.htm</guid>
-<pubDate>Wed, 11 Nov 2026 15:57:27 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 第三季度营收首次突破 100 亿美元，环比增长近 50%，达到去年同期近三倍，年化营收约 500 亿美元。调整后营业利润率从 -150% 收窄至 -109%，公司正以 1.25 万亿美元估值推进新一轮融资，上市计划推迟至明年。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部大模型公司首次单季营收破百亿美元，是 AI 商业化进程的关键节点。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/025/560.htm">IT之家 · 智能时代</source>
-<category>OpenAI</category>
-<category>营收</category>
-<category>融资</category>
-<category>Anthropic</category>
-</item>
-<item><title>开发者用 Claude Code 打造声源定位系统 精度达 40 厘米</title><link>https://www.ithome.com/1/025/559.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/559.htm</guid>
-<pubDate>Wed, 11 Nov 2026 15:56:43 +0800</pubDate>
-<description>&lt;p&gt;软件开发者 Simon Willison 借助 Claude Code 开发出 Beep Locator 声音定位系统，通过五台设备的麦克风阵列与到达时间差算法，将室内异响源锁定至约 40 厘米范围，并成功找到藏在纸箱中的旧一氧化碳探测器。项目代码已在 GitHub 开源，展示了 AI 编程工具在快速构建跨设备实用工具上的能力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;一个由 AI 编程工具驱动的跨设备声源定位实用项目，技术路径清晰且代码开源，对开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/025/559.htm">IT之家 · 智能时代</source>
-<category>Claude Code</category>
-<category>声音定位</category>
-<category>开源项目</category>
-<category>AI 编程工具</category>
-</item>
-<item><title>澳大利亚 STEM 游戏挑战赛因生成式 AI 停办</title><link>https://www.ithome.com/1/025/556.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/556.htm</guid>
-<pubDate>Wed, 11 Nov 2026 15:49:57 +0800</pubDate>
-<description>&lt;p&gt;澳大利亚 STEM 电子游戏挑战赛在举办 12 届后宣布 2026 年停办，主办方 ACER 称生成式 AI 的普及使评委难以分辨作品是否由学生独立完成，竞赛目标因此偏离。该赛事并未全面禁用 AI，而是允许学生用 AI 编写少量代码或排错，但须记录使用情况并提交游戏录像与源代码。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;生成式 AI 冲击教育评价体系的标志性案例，反映 AI 对青少年创作与评审机制的实质影响。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/025/556.htm">IT之家 · 智能时代</source>
-<category>生成式 AI</category>
-<category>教育科技</category>
-<category>AI 治理</category>
-</item>
-<item><title>腾讯元宝搜索上线 广告与答案明确区分</title><link>https://www.ithome.com/1/025/555.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/555.htm</guid>
-<pubDate>Wed, 11 Nov 2026 15:49:25 +0800</pubDate>
-<description>&lt;p&gt;腾讯正式上线「元宝搜索」，基于元宝大模型重构理解、检索、排序到答案组织的全链路，覆盖全网网页、公众号、视频号及学术文献。产品负责人李锐章表示不排斥广告，但强调广告须与答案明确区分并支持整块折叠，商业模式上追求克制与用户自主判断。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大模型重构搜索链路的产品落地，且明确回应 AI 搜索广告与答案边界这一行业共性难题。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/025/555.htm">IT之家 · IT业界</source>
-<category>AI 搜索</category>
-<category>腾讯元宝</category>
-<category>大模型应用</category>
-</item>
-<item><title>元太 Spectra 6 彩色电子纸升级至九色</title><link>https://www.ithome.com/1/025/551.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/551.htm</guid>
-<pubDate>Wed, 11 Nov 2026 15:40:57 +0800</pubDate>
-<description>&lt;p&gt;元太科技将 Spectra 6 彩色电子纸平台的基础色彩从六色扩展至九色，新增橘、青、浅绿，以提升色彩过渡平顺度并减少像素化。九色系统需搭配 SoC 与元太电子纸 TCON 协同运行，首批量产规格为 10 英寸模组，首发产品为 Aura 品牌智能相框。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;彩色电子纸的色彩规格升级，属显示硬件迭代，与 AI 主线关联较弱。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 38/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/025/551.htm">IT之家 · IT业界</source>
-<category>电子纸</category>
-<category>元太科技</category>
-<category>显示硬件</category>
-</item>
-<item><title>优步 DoorDash 智能体下单仅数百笔</title><link>https://www.ithome.com/1/025/550.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/550.htm</guid>
-<pubDate>Wed, 11 Nov 2026 15:39:03 +0800</pubDate>
-<description>&lt;p&gt;优步与 DoorDash 高管在财报电话会上披露，通过 AI 智能体下达的订单量极小：优步一周内 Uber Eats 约 500 笔、网约车仅 4 笔，DoorDash 累计仅数百笔，相比两家每天数百万乃至每年数十亿的订单规模几乎可以忽略。两家公司仍继续投入自研 AI 下单功能，说明智能体在真实交易场景的落地仍处极早期。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以头部平台的真实订单数据量化智能体在交易场景的落地现状，为判断 Agent 商业化进度提供稀缺的一手参照。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/025/550.htm">IT之家 · 智能时代</source>
-<category>智能体</category>
-<category>AI 电商</category>
-<category>优步</category>
-<category>DoorDash</category>
 </item>
 </channel>
 </rss>
