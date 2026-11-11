@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Wed, 11 Nov 2026 12:14:38 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 11 Nov 2026 12:20:07 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Alibaba Releases Qwen Code 1.0 Merging Qoder Harness Into Open Source</title><link>https://www.ithome.com/1/025/393.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/393.htm</guid>
+<pubDate>Wed, 11 Nov 2026 12:20:07 +0800</pubDate>
+<description>&lt;p&gt;Alibaba released Qwen Code 1.0 Preview, merging the Harness capabilities refined in Qoder into a single open-source kernel that gives developers an embeddable Agent runtime. The architecture evolves from single-process multi-session to multi-node multi-session, using a unified event model to separate reasoning orchestration from tool execution while centralizing model access, sandbox resources and MCP configuration. The existing stable branch remains available as 1.0 opens on a separate branch.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;阿里 Qwen Code 1.0 发布 融合 Qoder Harness 开源内核&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;阿里将 Qoder 的 Harness 能力并入开源内核，是 Agent 运行时架构层面的实质演进，对构建 AI 编程工具的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 72/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/025/393.htm">IT之家 · 智能时代</source>
+<category>Qwen Code</category>
+<category>Agent 运行时</category>
+<category>开源</category>
+<category>阿里</category>
+</item>
 <item><title>Anthropic Adds Over $10B in Microsoft and Google Compute Deals</title><link>https://x.com/rohanpaul_ai/status/2120369586096976098</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120369586096976098</guid>
 <pubDate>Wed, 11 Nov 2026 12:14:38 +0800</pubDate>
 <description>&lt;p&gt;Anthropic disclosed in its amended S1 filing over $10 billion in new compute commitments with Microsoft and Google: the Microsoft deal rises to $47.2B-$49.2B and Google&amp;#x27;s minimum to about $121.3B, both running through 2033 and payable regardless of usage. Alongside this, its IPO roadshow plans to sell up to 825M shares at $70-$78, valuing the company at up to $1.4T and raising roughly $64.4B.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 与微软谷歌签超 100 亿美元算力协议&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;巨额长期算力锁定与 IPO 定价同时落地，是观察头部模型公司资本结构与算力成本的关键信号。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 88/100&lt;/p&gt;</description>
@@ -191,9 +200,9 @@
 <category>智能体</category>
 <category>C# 15</category>
 </item>
-<item><title>Moonshot AI Brings Kimi K3.1 Pro Highspeed to Amazon Bedrock</title><link>https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-1-pro-on-amazon-bedrock/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-1-pro-on-amazon-bedrock/</guid>
+<item><title>月之暗面 Kimi K3.1 Pro 高速版上架 Amazon Bedrock</title><link>https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-1-pro-on-amazon-bedrock/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-1-pro-on-amazon-bedrock/</guid>
 <pubDate>Wed, 11 Nov 2026 09:07:19 +0800</pubDate>
-<description>&lt;p&gt;Moonshot AI has released the Kimi K3.1 series, with Kimi K3.1 Pro Highspeed now available on Amazon Bedrock. Built on the same 3T-class open-weight architecture and 1-million-token context window as Kimi K3, it was post-trained with substantially more compute to target long-horizon agentic work, reduce factual errors, and improve professional tasks such as financial modeling, office documents, and coding for game engines, 3D scenes, and CAD scripts. The Highspeed variant delivers 2-3x the output speed of K3.1 Pro and reuses the same endpoints and APIs, so developers can switch by changing the model ID.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;月之暗面 Kimi K3.1 Pro 高速版上架 Amazon Bedrock&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;3T 级开源权重模型叠加百万上下文与 2-3 倍推理提速，并通过 Bedrock 一键切换，对关注开源大模型落地与智能体长程任务的读者具备直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · llm · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;月之暗面发布 Kimi K3.1 系列，其中 K3.1 Pro 高速版已上线 Amazon Bedrock。该模型基于 3T 级开源权重架构与 100 万 token 上下文窗口，通过大幅增加后训练算力，重点强化长程智能体任务、减少事实性错误，并提升金融建模、办公文档及游戏引擎、3D 场景与 CAD 脚本等专业编码能力。高速版输出速度达 K3.1 Pro 的 2 至 3 倍，且复用 K3 的端点与 API，开发者仅需修改模型 ID 即可切换。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;3T 级开源权重模型叠加百万上下文与 2-3 倍推理提速，并通过 Bedrock 一键切换，对关注开源大模型落地与智能体长程任务的读者具备直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · llm · signal 62/100&lt;/p&gt;</description>
 <source url="https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-1-pro-on-amazon-bedrock/">AWS Machine Learning Blog</source>
 <category>大模型</category>
 <category>月之暗面</category>
@@ -263,15 +272,6 @@
 <category>操作系统</category>
 <category>高通骁龙</category>
 <category>本地推理</category>
-</item>
-<item><title>苹果子公司 Claris 测试 Harbor 让 Mac 变身本地 AI 服务器</title><link>https://www.ithome.com/1/025/225.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/225.htm</guid>
-<pubDate>Wed, 11 Nov 2026 08:25:48 +0800</pubDate>
-<description>&lt;p&gt;苹果全资子公司 Claris 正在内测 Harbor 应用，可将搭载苹果芯片的 Mac 变为本地 AI 推理服务器，并支持通过雷雳 5 接口连接多台 Mac 组成集群运行更大模型。该应用主打零配置上手，可自动发现雷雳 5 设备并浏览下载开放权重模型，配套的雷雳 5 RDMA 支持已随 macOS Tahoe 26.2 落地。目前 Harbor 仍处早期体验阶段，尚未向公众开放。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;苹果生态首次出现官方背景的本地 AI 集群方案，对端侧推理与私有部署走向有信号意义。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/025/225.htm">IT之家 · 智能时代</source>
-<category>本地推理</category>
-<category>苹果</category>
-<category>雷雳 5</category>
-<category>端侧 AI</category>
 </item>
 </channel>
 </rss>
