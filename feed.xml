@@ -1,8 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Wed, 11 Nov 2026 21:51:11 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 11 Nov 2026 22:25:20 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Anthropic Says AI Cuts AMD Chip Migration From Months to Three Days</title><link>https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/</link><guid isPermaLink="true">https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/</guid>
+<pubDate>Wed, 11 Nov 2026 22:25:20 +0800</pubDate>
+<description>&lt;p&gt;Anthropic co-founder Tom Brown says the company has escaped single-vendor dependence on Nvidia via a multi-chip strategy, training and serving Claude across all four major chip families as one interchangeable compute pool. Its frontier model Mythos reportedly wrote or ported nearly 100 percent of the kernels for an AMD GPU migration itself in just three days, versus the usual six to twelve months. The claim directly challenges Nvidia&amp;#x27;s CUDA moat, and Anthropic plans to deploy up to two gigawatts of AMD Instinct MI455X GPUs.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 称 AI 将 AMD 芯片迁移周期从数月压缩至 3 天&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 自主完成芯片算子迁移，直接动摇 CUDA 生态壁垒，是算力格局的关键信号。&lt;/p&gt;&lt;p&gt;The Decoder · compute · signal 88/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/">The Decoder</source>
+<category>算力</category>
+<category>Anthropic</category>
+<category>AMD</category>
+<category>CUDA</category>
+<category>芯片迁移</category>
+</item>
+<item><title>DeepMind Uses Agentic AI to Formally Verify Signal Protocol</title><link>https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/</link><guid isPermaLink="true">https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/</guid>
+<pubDate>Wed, 11 Nov 2026 22:08:57 +0800</pubDate>
+<description>&lt;p&gt;Google DeepMind researchers used an agentic AI framework called AlphaProof Code to formally verify several core cryptographic guarantees of the Signal protocol in just four weeks. The work independently validates the encryption protecting massive volumes of communications on Signal, Google Messages and WhatsApp, while demonstrating the practicality of AI-assisted formal verification for real-world cryptography.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;DeepMind 用 AI 形式化验证 Signal 加密协议&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 辅助形式化验证首次落地到主流加密协议的关键案例，兼具安全与 AI 能力双重意义。&lt;/p&gt;&lt;p&gt;Ars Technica AI · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/">Ars Technica AI</source>
+<category>形式化验证</category>
+<category>密码学</category>
+<category>Google DeepMind</category>
+<category>AI 安全</category>
+</item>
+<item><title>DeepL Launches Aure Voice Translation Model with Real-Time Emotion Fidelity</title><link>https://www.ithome.com/1/025/810.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/810.htm</guid>
+<pubDate>Wed, 11 Nov 2026 22:06:51 +0800</pubDate>
+<description>&lt;p&gt;DeepL unveiled Aure, a voice AI translation model that powers DeepL Voice and reproduces a speaker&amp;#x27;s intonation, emotional shifts, stress and pacing in real time. Built on DeepL&amp;#x27;s voice-preservation technology, Aure launches with eight languages including English, German, Spanish, French, Italian, Japanese, Portuguese and Korean, but not Chinese, and is available across web meetings, face-to-face mode and the Voice API.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;DeepL 发布语音翻译模型 Aure 实时复现语气情绪&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;语音翻译在情感与韵律保真上的实质升级，且已落地到具体产品与 API，对关注多模态与实时语音的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/025/810.htm">IT之家 · 智能时代</source>
+<category>语音翻译</category>
+<category>DeepL</category>
+<category>多模态</category>
+<category>语音AI</category>
+</item>
+<item><title>Amazon Paper Finds Single Agents Usually Beat Multi-Agent Setups in Enterprise Workflows</title><link>https://x.com/rohanpaul_ai/status/2120517708890706071</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120517708890706071</guid>
+<pubDate>Wed, 11 Nov 2026 22:03:13 +0800</pubDate>
+<description>&lt;p&gt;A controlled Amazon study compared four agent architectures (eight variants) across 13 enterprise procedures and found multi-agent or skill-based setups consumed 1.4x to 4.7x the tokens of a single agent for mostly marginal gains. The first multi-agent build actually lost to the single agent on task success (58.2% vs 67.4%), while a repaired version won but at the highest token cost. The authors recommend starting with a single agent, measuring success per workflow, and fixing implementation bugs before paying for complexity.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊论文发现企业流程中单智能体通常优于多智能体&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为企业智能体架构选型提供了罕见的受控实验证据，直接挑战多智能体默认更优的流行假设。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 72/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2120517708890706071">Rohan Paul (@rohanpaul_ai)</source>
+<category>智能体</category>
+<category>多智能体</category>
+<category>企业流程</category>
+<category>亚马逊</category>
+<category>架构选型</category>
+</item>
+<item><title>xAI Faces Class Actions Over Grok-Generated Child Sexual Abuse Imagery</title><link>https://www.ithome.com/1/025/809.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/809.htm</guid>
+<pubDate>Wed, 11 Nov 2026 21:56:44 +0800</pubDate>
+<description>&lt;p&gt;Bloomberg reports that xAI&amp;#x27;s chatbot Grok is accused in multiple class actions of being used to turn ordinary photos of minors into child sexual abuse material (CSAM) that then spread online. The cases center on a still-unsettled question of who bears liability when a chatbot generates harmful content, the user who prompts it or the company that builds it, with plaintiffs pointing to xAI&amp;#x27;s deliberately less-restricted positioning and its Spicy mode despite stated technical safeguards.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Grok 被指生成儿童性虐待图像 xAI 面临多起集体诉讼&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 内容安全与平台法律责任的关键判例级事件，直接触及生成式模型滥用边界与厂商责任划分。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/025/809.htm">IT之家 · 智能时代</source>
+<category>AI 安全</category>
+<category>xAI</category>
+<category>Grok</category>
+<category>法律责任</category>
+<category>内容治理</category>
+</item>
 <item><title>US Data Brokers Sell $500 Million in RL Training Environments to Chinese AI Labs</title><link>https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs/</link><guid isPermaLink="true">https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs/</guid>
 <pubDate>Wed, 11 Nov 2026 21:51:11 +0800</pubDate>
 <description>&lt;p&gt;A ChinaTalk investigation finds at least nine US data firms selling roughly $500 million worth of reinforcement learning environments to Chinese AI labs, letting buyers reuse the same environments built for OpenAI and Anthropic and cut compute costs and development time. With the trade largely unregulated, the authors call for export controls on sensitive domains such as cybersecurity and biology.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美数据商向中国 AI 实验室出售 5 亿美元 RL 训练环境&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示中美 AI 训练数据供应链的灰色地带，涉及出口管制与算力成本结构，是产业与政策交叉的重要信号。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 78/100&lt;/p&gt;</description>
@@ -20,6 +68,16 @@
 <category>DeepL</category>
 <category>实时翻译</category>
 <category>强化学习</category>
+</item>
+<item><title>MetaX and UBTech Joint Venture Xixuan Secures $70M for Embodied AI Chips</title><link>https://www.ithome.com/1/025/807.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/807.htm</guid>
+<pubDate>Wed, 11 Nov 2026 21:46:31 +0800</pubDate>
+<description>&lt;p&gt;Xixuan Chuangzhi, a joint venture founded by domestic GPU maker MetaX and humanoid robot company UBTech, has raised a RMB 500 million angel round led by GGV Capital and Matrix Partners China. The funds will go toward embodied-AI edge chips, computing platforms and software toolchains, plus joint validation and mass production with robot makers.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;沐曦优必选合资公司曦选创智融资 5 亿元造具身芯片&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产 GPU 与人形机器人头部厂商联手切入具身智能端侧芯片，5 亿元天使轮融资为这一新兴算力赛道提供了明确信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/025/807.htm">IT之家 · IT业界</source>
+<category>具身智能</category>
+<category>芯片算力</category>
+<category>融资</category>
+<category>沐曦</category>
+<category>优必选</category>
 </item>
 <item><title>DeepMind Weather Model Enters US Hurricane Forecast Operations</title><link>https://www.ithome.com/1/025/806.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/806.htm</guid>
 <pubDate>Wed, 11 Nov 2026 21:42:22 +0800</pubDate>
@@ -145,18 +203,27 @@
 <category>千问</category>
 <category>阿里巴巴</category>
 </item>
-<item><title>Self-Supervised Pipeline Enables Physically Controllable Photo Relighting</title><link>https://yaksoy.github.io/PhysicalRelighting/</link><guid isPermaLink="true">https://yaksoy.github.io/PhysicalRelighting/</guid>
+<item><title>ThingStudio Brings Node-RED Style Visual Programming to Microcontrollers</title><link>https://thingstudio.net/</link><guid isPermaLink="true">https://thingstudio.net/</guid>
+<pubDate>Wed, 11 Nov 2026 19:39:15 +0800</pubDate>
+<description>&lt;p&gt;ThingStudio is a Node-RED-inspired visual flow programming environment for microcontrollers running MicroPython, supporting ESP32, RP2040/RP2350, nRF52840 and STM32. It runs fully local with no cloud or account, is Apache 2.0 open source, and compiles visual flows into readable MicroPython code.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;ThingStudio 为微控制器带来可视化流程编程&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为嵌入式开发者提供开源、本地优先的可视化流程编程工具，降低 MicroPython 微控制器开发门槛。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://thingstudio.net/">Hacker News AI</source>
+<category>开源工具</category>
+<category>微控制器</category>
+<category>MicroPython</category>
+<category>可视化编程</category>
+</item>
+<item><title>新方法实现照片级物理可控重打光</title><link>https://yaksoy.github.io/PhysicalRelighting/</link><guid isPermaLink="true">https://yaksoy.github.io/PhysicalRelighting/</guid>
 <pubDate>Wed, 11 Nov 2026 19:38:43 +0800</pubDate>
-<description>&lt;p&gt;The paper introduces a self-supervised approach to in-the-wild image relighting that combines the physical accuracy of traditional rendering with the photorealism of neural rendering. A colored mesh inferred from monocular geometry and intrinsic components lets users define 3D lighting, which is path-traced and then refined by a feed-forward neural renderer trained via a differentiable rendering process.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;新方法实现照片级物理可控重打光&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把 Blender 式的显式物理光照控制带入真实照片重打光，兼具方法创新与实用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;论文提出一种自监督的照片重打光方法，将传统渲染的物理准确性与神经渲染的逼真外观结合。流程先用单目几何与固有分量估计构建带色网格，让用户在 3D 中定义光照配置，经路径追踪渲染后由前馈神经渲染器输出最终结果，并通过可微渲染实现自监督训练。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把 Blender 式的显式物理光照控制带入真实照片重打光，兼具方法创新与实用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 72/100&lt;/p&gt;</description>
 <source url="https://yaksoy.github.io/PhysicalRelighting/">Hacker News AI</source>
 <category>图像重打光</category>
 <category>神经渲染</category>
 <category>可微渲染</category>
 <category>SIGGRAPH</category>
 </item>
-<item><title>Claude Adapts Models to AMD GPUs in Three Days, Testing CUDA Moat</title><link>https://www.ithome.com/1/025/736.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/736.htm</guid>
+<item><title>Claude 3 天完成 AMD GPU 适配，CUDA 护城河承压</title><link>https://www.ithome.com/1/025/736.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/736.htm</guid>
 <pubDate>Wed, 11 Nov 2026 19:26:23 +0800</pubDate>
-<description>&lt;p&gt;Anthropic&amp;#x27;s IPO roadshow materials reveal that Claude Mythos Preview took only about three days to get another model running inference on AMD MI355X GPUs, versus the usual 6-12 months for cross-platform porting. The result suggests GPUs are becoming interchangeable compute, putting fresh pressure on NVIDIA&amp;#x27;s CUDA moat, though its developer ecosystem and NCCL/NVLink integration remain the real barrier.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Claude 3 天完成 AMD GPU 适配，CUDA 护城河承压&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 自主完成跨 GPU 平台适配，直接触及算力供应链与 CUDA 生态壁垒这一核心议题。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic IPO 路演材料披露，Claude Mythos Preview 仅用约 3 天就让另一模型在 AMD MI355X 上跑通推理，而传统跨平台适配通常需 6 至 12 个月。这意味着 GPU 正被当作可互换的通用算力，英伟达 CUDA 生态的迁移壁垒首次出现实质性松动，但开发者生态与 NCCL、NVLink 等软硬协同仍是其真正护城河。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 自主完成跨 GPU 平台适配，直接触及算力供应链与 CUDA 生态壁垒这一核心议题。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/025/736.htm">IT之家 · 智能时代</source>
 <category>算力</category>
 <category>Anthropic</category>
@@ -164,27 +231,27 @@
 <category>CUDA</category>
 <category>GPU 适配</category>
 </item>
-<item><title>Goldman Sachs, Cisco Tighten Employee AI Usage With Budgets and Limits</title><link>https://www.ithome.com/1/025/734.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/734.htm</guid>
+<item><title>高盛、思科等企业开始限制员工 AI 使用额度</title><link>https://www.ithome.com/1/025/734.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/734.htm</guid>
 <pubDate>Wed, 11 Nov 2026 19:18:18 +0800</pubDate>
-<description>&lt;p&gt;After years of encouraging staff to embrace AI, large enterprises including Goldman Sachs, Cisco and JPMorgan are shifting to more disciplined deployment: token budgets, usage tracking and access limits for specific employees or tools. The goal is not cost cutting but tying AI spend to productivity, risk control and data protection.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;高盛、思科等企业开始限制员工 AI 使用额度&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部企业从无限制推广转向预算与权限治理，是 AI 落地进入成本与风险管控阶段的标志性信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;在连续数年鼓励员工拥抱 AI 之后，高盛、思科、摩根大通等大型企业正转向更精细的 AI 部署管理：设定 Token 预算、追踪调用量、限制特定员工或工具的访问权限。核心逻辑并非削减成本，而是把 AI 支出与生产效率、风险控制挂钩，并避免敏感信息外泄。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部企业从无限制推广转向预算与权限治理，是 AI 落地进入成本与风险管控阶段的标志性信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/025/734.htm">IT之家 · IT业界</source>
 <category>企业AI治理</category>
 <category>Token预算</category>
 <category>AI成本管控</category>
 <category>大厂动向</category>
 </item>
-<item><title>Bloomberg Estimates AI Drove a Quarter of UK Growth This Year</title><link>https://www.ithome.com/1/025/729.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/729.htm</guid>
+<item><title>彭博测算 AI 贡献英国今年约四分之一经济增长</title><link>https://www.ithome.com/1/025/729.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/729.htm</guid>
 <pubDate>Wed, 11 Nov 2026 18:51:55 +0800</pubDate>
-<description>&lt;p&gt;Bloomberg Economics estimates that AI-related activity added 0.45 percentage points to UK growth in 2026, roughly a quarter of the country&amp;#x27;s 1.8% expansion. The report stresses that the contribution still comes mainly from building AI itself, such as compute hardware, data centers and model development, rather than broad productivity gains, leaving the UK exposed to a sharp repricing of global AI assets.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;彭博测算 AI 贡献英国今年约四分之一经济增长&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以量化口径拆解 AI 对一国 GDP 的实际贡献结构，为判断 AI 资本开支周期与经济风险提供可参照的宏观数据。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;彭博经济研究测算，2026 年 AI 相关经济活动为英国经济增长贡献 0.45 个百分点，约占全年 1.8% 增幅的四分之一。报告强调，当前贡献主要来自算力硬件制造、数据中心建设与模型研发等供给侧投入，而非全经济体的生产率提升，因此若全球 AI 资产估值大幅回调，英国经济将面临外溢风险。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以量化口径拆解 AI 对一国 GDP 的实际贡献结构，为判断 AI 资本开支周期与经济风险提供可参照的宏观数据。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/025/729.htm">IT之家 · 智能时代</source>
 <category>宏观经济</category>
 <category>AI 投资</category>
 <category>英国</category>
 <category>彭博经济研究</category>
 </item>
-<item><title>Voltage Glitching Unlocks CMP Mining Card Into 80GB A100</title><link>https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100/</link><guid isPermaLink="true">https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100/</guid>
+<item><title>电压故障注入解锁 CMP 矿卡 变身 80GB A100</title><link>https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100/</link><guid isPermaLink="true">https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100/</guid>
 <pubDate>Wed, 11 Nov 2026 18:48:40 +0800</pubDate>
-<description>&lt;p&gt;A researcher found a voltage fault-injection vulnerability on the GA100 die that allows arbitrary fuse blowing, converting a CMP 170HX 8GB mining card into an effective A100-80G. The unlocked cards expose all functional SMs (~120-126 vs. the yield-safe 108 in retail A100) and run about 1.2x faster than a retail A100, with NVLink, PCIe Gen4, NVJPG, NVDEC and MIG also unlockable.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;电压故障注入解锁 CMP 矿卡 变身 80GB A100&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;硬件安全研究直接改写 GPU 算力供给边界，对算力成本与二手市场有实质影响。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;研究者发现 GA100 芯片存在电压故障注入漏洞，可烧写任意熔丝，将 CMP 170HX 8GB 矿卡改造为等效 A100-80G。解锁后全部 SM 可用（约 120-126 个，高于零售 A100 的 108 个），实测性能约为零售 A100 的 1.2 倍，NVLink、PCIe Gen4、NVJPG、NVDEC、MIG 等被禁功能亦可解锁。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;硬件安全研究直接改写 GPU 算力供给边界，对算力成本与二手市场有实质影响。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 78/100&lt;/p&gt;</description>
 <source url="https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100/">Hacker News AI</source>
 <category>算力</category>
 <category>GPU</category>
@@ -208,69 +275,6 @@
 <category>联发科</category>
 <category>智能家居</category>
 <category>芯片平台</category>
-</item>
-<item><title>Mercor 完成 7.5 亿美元 D 轮融资 估值达 200 亿美元</title><link>https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/</link><guid isPermaLink="true">https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/</guid>
-<pubDate>Wed, 11 Nov 2026 17:34:28 +0800</pubDate>
-<description>&lt;p&gt;AI 数据与专家网络平台 Mercor 完成 7.5 亿美元 D 轮融资，估值升至 200 亿美元，年化收入已达 30 亿美元。公司披露其推理支出已是员工薪资的 3 倍，并称该投入可通过提升团队效率自我覆盖，被视为 AI 投资拉动经济增长的样本。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;融资规模与收入增速均属头部量级，且披露的推理支出结构对判断 AI 商业化节奏有参考价值。&lt;/p&gt;&lt;p&gt;Latent Space · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/">Latent Space</source>
-<category>融资</category>
-<category>AI 数据</category>
-<category>商业化</category>
-<category>Mercor</category>
-</item>
-<item><title>Anthropic CEO 预测十年攻克癌症遭医学界质疑</title><link>https://www.ithome.com/1/025/617.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/617.htm</guid>
-<pubDate>Wed, 11 Nov 2026 17:24:53 +0800</pubDate>
-<description>&lt;p&gt;Anthropic CEO 达里奥·阿莫迪预测 AI 将在十年内让癌症、阿尔茨海默病等成为历史，马斯克与哈萨比斯亦持类似乐观论调。但制药高管与医学专家反驳称，AI 只能加速早期分子筛选，无法绕过长达 10 至 12 年的临床试验与监管审批，截至 2026 年尚无 AI 设计药物实现全面临床应用。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司 CEO 的激进医学预测与产业界实证反驳形成鲜明对照，是理解 AI for Science 边界的重要行业讨论。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 52/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/025/617.htm">IT之家 · 智能时代</source>
-<category>AI for Science</category>
-<category>药物研发</category>
-<category>Anthropic</category>
-<category>行业争议</category>
-</item>
-<item><title>中国石化牵头研发国内首个具身智能压力表检定装置</title><link>https://www.ithome.com/1/025/612.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/612.htm</guid>
-<pubDate>Wed, 11 Nov 2026 17:15:18 +0800</pubDate>
-<description>&lt;p&gt;中国石化牵头研发出国内首个具身智能压力表全自动检定装置，将机器人操作、视觉识别与软件判定整合为一体，单次可同时检定 4 块指针压力表，全程仅需 5 至 6 分钟，效率提升 3.5 倍以上，读数识别率达 99.7%。该装置标志着指针压力表检定从人工操作转向机器自动检定，将于 11 月 18 日至 20 日亮相第三届计量仪器装备展。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;具身智能在石化工业检测场景的真实落地案例，给出了效率与识别率的具体量化指标。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/025/612.htm">IT之家 · 智能时代</source>
-<category>具身智能</category>
-<category>工业检测</category>
-<category>中国石化</category>
-<category>智能制造</category>
-</item>
-<item><title>22 个开源项目明确禁止 AI 生成代码贡献</title><link>https://osssaysno.com</link><guid isPermaLink="true">https://osssaysno.com</guid>
-<pubDate>Wed, 11 Nov 2026 16:51:45 +0800</pubDate>
-<description>&lt;p&gt;一个追踪站点汇总了 22 个明确禁止 AI 生成内容贡献的开源项目，包括 immich、Meilisearch、Servo 与 Gentoo。这些政策覆盖代码、测试、文档乃至 PR 与 issue 评论，反映出开源社区对 AI 生成贡献的治理分歧正在制度化。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是开源社区对 AI 生成贡献态度分化的集中样本，对理解 AI 与开源协作规范的碰撞具有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 62/100&lt;/p&gt;</description>
-<source url="https://osssaysno.com">Hacker News AI</source>
-<category>开源治理</category>
-<category>AI 生成代码</category>
-<category>社区政策</category>
-</item>
-<item><title>北京互联网法院判平台误判 AI 生成内容需担责</title><link>https://www.ithome.com/1/025/592.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/592.htm</guid>
-<pubDate>Wed, 11 Nov 2026 16:33:29 +0800</pubDate>
-<description>&lt;p&gt;北京互联网法院披露一起诉讼：用户原创文字被平台判定为“AI 生成未标识”并遭隐藏与禁言，用户申诉未果后起诉。法院认定平台以技术秘密为由拒绝解释算法依据不成立，构成违约，判令解除隐藏并删除违规记录。该案明确平台对 AI 内容识别结果负有适度解释义务，并需建立误判救济与阶梯式处置机制。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首例明确平台 AI 内容识别误判责任的司法判例，直接影响内容平台审核机制设计。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/025/592.htm">IT之家 · 智能时代</source>
-<category>AI 内容标识</category>
-<category>平台治理</category>
-<category>司法判例</category>
-<category>内容审核</category>
-</item>
-<item><title>京东物流开通西藏铁路班列 出藏快递最快次日达</title><link>https://www.ithome.com/1/025/584.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/584.htm</guid>
-<pubDate>Wed, 11 Nov 2026 16:28:23 +0800</pubDate>
-<description>&lt;p&gt;京东物流首次在西藏开通拉萨至西宁铁路班列，单程 20.5 小时，快递进出藏时效平均提前 2 天，出藏最快次日达。同步推出空运加陆运组合服务，价格较全程空运降低超五成。拉萨智能仓配备百余台地狼机器人，拣选效率提升近 3 倍。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是京东物流在高原偏远地区物流基础设施上的实质落地，涉及铁路班列、空陆联运与智能仓机器人，具备具体时效与成本数据。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 38/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/025/584.htm">IT之家 · IT业界</source>
-<category>京东物流</category>
-<category>智慧物流</category>
-<category>仓储机器人</category>
-<category>西藏</category>
-</item>
-<item><title>两部委发布人工智能+自然资源实施意见 2030 年建成智能治理平台</title><link>https://www.ithome.com/1/025/575.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/575.htm</guid>
-<pubDate>Wed, 11 Nov 2026 16:24:53 +0800</pubDate>
-<description>&lt;p&gt;自然资源部与国家发展改革委联合发布“人工智能+自然资源”实施意见，明确分阶段目标：2028 年建成时空地理信息、国土空间规划、海洋、地质矿产、林草等重点方向的高质量数据集、大模型与智能体；2030 年集成打造智能化国土空间治理基础平台，实现全链条深度融合与关键技术安全可控。意见同步布局五个 AI 中试平台与八大示范场景。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国家级部委层面明确 AI 与自然资源治理融合的路线图与时间表，对关注 AI 行业落地与政务智能化的读者具有政策信号价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/025/575.htm">IT之家 · 智能时代</source>
-<category>人工智能+</category>
-<category>自然资源</category>
-<category>国土空间治理</category>
-<category>政策</category>
-<category>智能体</category>
 </item>
 </channel>
 </rss>
