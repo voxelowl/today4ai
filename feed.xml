@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Thu, 12 Nov 2026 05:54:21 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 12 Nov 2026 06:49:11 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Google Gemini Rolls Out on Apple CarPlay with Hands-Free Voice Chat</title><link>https://www.ithome.com/1/025/831.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/831.htm</guid>
+<pubDate>Thu, 12 Nov 2026 06:49:11 +0800</pubDate>
+<description>&lt;p&gt;Google announced that its Gemini app is rolling out on Apple CarPlay worldwide for iOS users, covering all languages supported by Gemini Live. Drivers can hold hands-free voice conversations on the car screen, interrupt or switch topics at will, with chat history synced back to the iPhone app. Gemini can also tap Gmail and Google Calendar for daily briefings, email summaries and nearby destination queries.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌 Gemini 接入苹果 CarPlay 支持免提语音对话&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Gemini 首次进入 CarPlay 车机场景，是 AI 助手向车载入口扩张的实质性一步。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/025/831.htm">IT之家 · 智能时代</source>
+<category>谷歌</category>
+<category>Gemini</category>
+<category>CarPlay</category>
+<category>车载 AI</category>
+</item>
+<item><title>GitHub Actions Adds Workflow Lockfiles to Block Supply Chain Attacks</title><link>https://hugovk.dev/blog/2026/lock-github-actions/</link><guid isPermaLink="true">https://hugovk.dev/blog/2026/lock-github-actions/</guid>
+<pubDate>Thu, 12 Nov 2026 06:16:41 +0800</pubDate>
+<description>&lt;p&gt;GitHub Actions has made workflow lockfiles generally available, offering a managed alternative to manually pinning actions to full commit SHAs to defend against mutable-tag supply chain attacks. The author walks through installing the gh-actions-lock CLI extension and generating lockfiles. The feature lowers the maintenance burden of securing CI/CD pipelines and is immediately actionable for developers relying on GitHub Actions.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;GitHub Actions 推出工作流锁文件防供应链攻击&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;GitHub Actions 官方安全机制更新，附可复现的实操流程，对 CI/CD 安全实践有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://hugovk.dev/blog/2026/lock-github-actions/">Hacker News AI</source>
+<category>GitHub Actions</category>
+<category>供应链安全</category>
+<category>CI/CD</category>
+<category>开发者工具</category>
+</item>
+<item><title>Google Launches Gemini Decision 1 Multimodal Decision Model</title><link>https://simonwillison.net/2026/Nov/11/gemini-decisions-api/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/11/gemini-decisions-api/</guid>
+<pubDate>Thu, 12 Nov 2026 06:03:25 +0800</pubDate>
+<description>&lt;p&gt;Google has entered the decision-model category with Gemini Decision 1, joining Jev and OpenAI. The API supports yes/no, choice, and rubric-scoring questions, and is the only one of the three to handle text, images, audio, video, and PDFs. Pricing matches GPT-6 Luna at 10 cents per million input tokens with free output, still above Jev&amp;#x27;s 4.2 cents.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌发布 Gemini Decision 1 决策模型支持多模态&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;决策模型成为大厂新战场，谷歌以全模态能力切入，值得关注其与 Jev、OpenAI 的差异化竞争。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · llm · signal 62/100&lt;/p&gt;</description>
+<source url="https://simonwillison.net/2026/Nov/11/gemini-decisions-api/">Simon Willison 博客</source>
+<category>大模型</category>
+<category>谷歌</category>
+<category>决策模型</category>
+<category>多模态</category>
+</item>
 <item><title>United Airlines Blocks Third-Party AI Agents from Booking Flights</title><link>https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents</guid>
 <pubDate>Thu, 12 Nov 2026 05:54:21 +0800</pubDate>
 <description>&lt;p&gt;United Airlines has barred personal AI assistants from booking tickets on its platform, citing privacy risks, unintended purchases, and the inability of agents to satisfy federal safety attestations such as baggage declarations. Although actual agent usage remains minimal, the move signals enterprises are erecting defensive guardrails around autonomous agent permissions, echoing similar restrictions from banks and e-commerce platforms.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美联航禁止第三方 AI 代理代订机票&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;企业首次以合规与安全为由系统性封堵自主代理，是 agent 落地边界的重要信号。&lt;/p&gt;&lt;p&gt;The Verge AI · agent · signal 62/100&lt;/p&gt;</description>
@@ -201,27 +228,27 @@
 <category>RAG</category>
 <category>开发者工具</category>
 </item>
-<item><title>AWS CEO Says Space Data Centers Are 10 to 20 Years Away</title><link>https://x.com/rohanpaul_ai/status/2120596484618096859</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120596484618096859</guid>
+<item><title>AWS CEO 称太空数据中心至少还需 10 到 20 年</title><link>https://x.com/rohanpaul_ai/status/2120596484618096859</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120596484618096859</guid>
 <pubDate>Thu, 12 Nov 2026 03:16:15 +0800</pubDate>
-<description>&lt;p&gt;AWS CEO Matt Garman said orbital data centers are highly unlikely to be economically or practically feasible within the next decade or two. He cited launch cadence and cost, rack weight, gigawatt-scale solar supply, heat dissipation in vacuum, radiation and serviceability as unresolved engineering bottlenecks, calling the idea technically possible but far off.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS CEO 称太空数据中心至少还需 10 到 20 年&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部云厂商 CEO 直接回应太空算力热潮，给出基于工程与成本现实的量化判断。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;AWS CEO Matt Garman 公开表示，太空数据中心在未来 10 到 20 年内极难具备经济可行性。他指出，发射频率与成本、单机架重量、吉瓦级太阳能供给、真空环境散热以及辐射与可维护性等工程瓶颈都尚未解决，因此这一构想虽然技术上并非不可能，但距离落地仍然很远。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部云厂商 CEO 直接回应太空算力热潮，给出基于工程与成本现实的量化判断。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 58/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2120596484618096859">Rohan Paul (@rohanpaul_ai)</source>
 <category>太空数据中心</category>
 <category>AWS</category>
 <category>算力基础设施</category>
 <category>散热</category>
 </item>
-<item><title>Just 1% of Firms Drive 80% of OpenAI and Anthropic Revenue</title><link>https://x.com/rohanpaul_ai/status/2120594108670734495</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120594108670734495</guid>
+<item><title>仅 1% 企业贡献 OpenAI 与 Anthropic 八成营收</title><link>https://x.com/rohanpaul_ai/status/2120594108670734495</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120594108670734495</guid>
 <pubDate>Thu, 12 Nov 2026 03:06:48 +0800</pubDate>
-<description>&lt;p&gt;Ramp lead economist Ara Kharazian says enterprise revenue at OpenAI and Anthropic is extremely concentrated, with just 1% of business customers generating about 80% of revenue. AI spending is sharply stratified: the median firm spends only $12-15 per employee per month, while the top 1% spend up to $10,000 per employee per month.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;仅 1% 企业贡献 OpenAI 与 Anthropic 八成营收&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以具体支出数据揭示前沿模型厂商营收高度依赖少数头部客户的结构性风险。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Ramp 首席经济学家 Ara Kharazian 披露，OpenAI 与 Anthropic 的企业营收高度集中，仅 1% 的企业客户贡献了约 80% 的收入。企业 AI 支出呈极端分层：中位数企业每员工每月仅花 12 至 15 美元，而头部 1% 企业高达每员工每月 1 万美元。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以具体支出数据揭示前沿模型厂商营收高度依赖少数头部客户的结构性风险。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2120594108670734495">Rohan Paul (@rohanpaul_ai)</source>
 <category>企业AI支出</category>
 <category>营收集中度</category>
 <category>OpenAI</category>
 <category>Anthropic</category>
 </item>
-<item><title>US Retirement Savings Are Quietly Fueling the AI Bubble</title><link>https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/</link><guid isPermaLink="true">https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/</guid>
+<item><title>美国退休金正为 AI 泡沫持续输血</title><link>https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/</link><guid isPermaLink="true">https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/</guid>
 <pubDate>Thu, 12 Nov 2026 03:06:43 +0800</pubDate>
-<description>&lt;p&gt;Lenore Palladino, associate professor of economics and public policy at UMass Amherst, argues that ordinary Americans&amp;#x27; retirement savings are flowing through pension and asset-management channels into AI-related assets, becoming a key funding source for the current AI capital bubble. She warns that even the combined spending and lending of the world&amp;#x27;s richest companies will not prevent the bubble from eventually bursting, and that this time the warning signs are in plain sight.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美国退休金正为 AI 泡沫持续输血&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;从政治经济学视角揭示 AI 资本泡沫的资金来源结构，为理解 AI 投资周期提供非技术侧的关键风险视角。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;马萨诸塞大学阿默斯特分校经济学与公共政策副教授 Lenore Palladino 撰文指出，美国普通民众的退休储蓄正通过养老金与资管渠道大规模流入 AI 相关资产，成为支撑当前 AI 资本泡沫的重要资金来源。文章警告，即便全球最富有公司的资本投入与借贷规模叠加，也不足以阻止泡沫最终破裂，并强调这一次危机的征兆已清晰可见。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;从政治经济学视角揭示 AI 资本泡沫的资金来源结构，为理解 AI 投资周期提供非技术侧的关键风险视角。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/">Hacker News AI</source>
 <category>AI 泡沫</category>
 <category>退休金</category>
@@ -244,33 +271,6 @@
 <category>开发者工具</category>
 <category>静态分析</category>
 <category>标签索引</category>
-</item>
-<item><title>黄仁勋不设接班计划 英伟达投资者已计入该风险</title><link>https://x.com/rohanpaul_ai/status/2120585621400113586</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120585621400113586</guid>
-<pubDate>Thu, 12 Nov 2026 02:33:05 +0800</pubDate>
-<description>&lt;p&gt;黄仁勋拒绝指定接班人，以约 60 名直接汇报者的扁平架构和持续知识共享来培养潜在继任者。英伟达向 SEC 提交的委托书本身即警示，接班规划不当可能损害公司战略与长期执行。投资者正将这一治理风险计入估值，而黄仁勋对特朗普政府及外国官员的芯片出口游说角色更难被替代。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示英伟达治理结构中的关键人风险，是理解这家算力巨头长期估值的重要非技术变量。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2120585621400113586">Rohan Paul (@rohanpaul_ai)</source>
-<category>英伟达</category>
-<category>公司治理</category>
-<category>芯片出口</category>
-<category>黄仁勋</category>
-</item>
-<item><title>谷歌发布 Gemini Decisions API 单次可评估千条判断</title><link>https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/</link><guid isPermaLink="true">https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/</guid>
-<pubDate>Thu, 12 Nov 2026 02:32:42 +0800</pubDate>
-<description>&lt;p&gt;谷歌推出 Gemini Decisions API，由新模型 Gemini Decision 1 驱动，可在单次推理中并行评估最多 1000 个是/否、多选与评分标准类问题，覆盖文本、图像、音频、视频与 PDF。该接口面向查询路由、内容分级与策略合规校验等场景，主打低成本与低延迟，现已在 Google AI Studio 开放 API Key 申请。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;谷歌将批量封闭集判断独立为专用端点，是模型能力向低成本决策层下沉的明确信号。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 62/100&lt;/p&gt;</description>
-<source url="https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/">Hacker News AI</source>
-<category>Gemini</category>
-<category>API</category>
-<category>多模态</category>
-<category>谷歌</category>
-</item>
-<item><title>AWS 开源本地模拟器 智能体可自主提交修复</title><link>https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html</link><guid isPermaLink="true">https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html</guid>
-<pubDate>Thu, 12 Nov 2026 02:28:31 +0800</pubDate>
-<description>&lt;p&gt;AWS 发布开源项目 aws-emulator，让开发者在本地模拟 AWS 服务，摆脱对真实云环境的依赖。该项目由智能体大量参与编写，完整提交历史与智能体提交的 issue 均公开，其中“things-that-do-not-work”目录记录了与真实 AWS 行为不符的待修复项。这为“智能体写代码后工程师做什么”提供了可观察的真实样本。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AWS 官方开源本地云模拟器，且智能体深度参与开发并公开全部提交与缺陷记录，对理解智能体工程协作有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 72/100&lt;/p&gt;</description>
-<source url="https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html">Hacker News AI</source>
-<category>开源</category>
-<category>智能体</category>
-<category>AWS</category>
-<category>开发者工具</category>
 </item>
 </channel>
 </rss>
