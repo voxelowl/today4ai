@@ -1,8 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Thu, 12 Nov 2026 09:58:27 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 12 Nov 2026 10:42:16 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Alibaba&#x27;s XuanTie Unveils XL-300 Interconnect IP with Double the Bandwidth</title><link>https://www.ithome.com/1/025/902.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/902.htm</guid>
+<pubDate>Thu, 12 Nov 2026 10:42:16 +0800</pubDate>
+<description>&lt;p&gt;Alibaba DAMO Academy&amp;#x27;s RISC-V brand XuanTie released XL-300, a high-throughput cache-coherent interconnect IP supporting up to 8 asynchronously connected cores, a 256-bit data width and up to 32MB of configurable L3 cache. It claims over 90% linear scaling across 8 cores and roughly double the bandwidth ceiling of the previous XL-200, adding Direct Memory Transfer to bypass conventional paths and relieve throughput bottlenecks caused by large L3 and high bus latency.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;玄铁发布 XL-300 互联 IP 带宽提升约 1 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;RISC-V 服务器级互联 IP 的关键迭代，直接关系多核扩展效率与内存带宽上限。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/025/902.htm">IT之家 · IT业界</source>
+<category>RISC-V</category>
+<category>玄铁</category>
+<category>互联 IP</category>
+<category>芯片架构</category>
+</item>
+<item><title>STMicroelectronics Weighs Another Price Hike for January 2027</title><link>https://www.ithome.com/1/025/901.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/901.htm</guid>
+<pubDate>Thu, 12 Nov 2026 10:39:57 +0800</pubDate>
+<description>&lt;p&gt;STMicroelectronics plans to raise prices on some products effective January 1, 2027, its fourth round since 2026, citing rising materials, logistics and labor costs. Its CEO also warned that foundry and packaging capacity is shifting toward higher-margin AI products, creating supply bottlenecks for automotive and industrial chips.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;意法半导体酝酿 2027 年 1 月再度提价&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;反映 AI 需求挤占半导体产能、进而推高汽车与工业芯片成本的关键产业信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/025/901.htm">IT之家 · IT业界</source>
+<category>半导体</category>
+<category>意法半导体</category>
+<category>芯片涨价</category>
+<category>AI 算力</category>
+<category>供应链</category>
+</item>
+<item><title>Kioxia and Dell Build 157PB Object Storage in a Single Rack</title><link>https://www.ithome.com/1/025/899.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/899.htm</guid>
+<pubDate>Thu, 12 Nov 2026 10:38:23 +0800</pubDate>
+<description>&lt;p&gt;Kioxia and Dell have jointly delivered the industry&amp;#x27;s first 157PB object storage solution within a single standard 42U rack, combining 16 PowerEdge R7725xd servers with 640 Kioxia LC9 245.76TB QLC SSDs running Dell ObjectScale software-defined storage. Targeting AI training and other unstructured data workloads, the design sharply raises per-rack storage density without adding floor space, power or cooling demands.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;铠侠戴尔打造 157PB 单机柜存储方案&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;单机柜存储密度提升一个量级，直接关系到 AI 训练数据湖的机柜、电力与散热成本结构。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/025/899.htm">IT之家 · IT业界</source>
+<category>存储</category>
+<category>SSD</category>
+<category>AI 基础设施</category>
+<category>铠侠</category>
+<category>戴尔</category>
+</item>
+<item><title>Apache HTTP Server Hit by Critical HTTP/2 RCE Vulnerability</title><link>https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability</link><guid isPermaLink="true">https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability</guid>
+<pubDate>Thu, 12 Nov 2026 10:11:11 +0800</pubDate>
+<description>&lt;p&gt;A critical race condition, CVE-2026-119618, has been disclosed in Apache HTTP Server&amp;#x27;s mod_http2 assign_headers() function, enabling heap corruption and unauthenticated remote code execution. No public exploit or in-the-wild activity is reported yet, and mitigation includes disabling h2/h2c or restricting to HTTP/1.1.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Apache HTTP Server 曝 HTTP/2 严重 RCE 漏洞&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;影响面极广的基础 Web 服务器组件出现可 RCE 的高危漏洞，运维与安全团队需立即排查。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.wiz.io/blog/cve-2026-119618-rce-apache-http-server-vulnerability">Hacker News AI</source>
+<category>安全漏洞</category>
+<category>Apache</category>
+<category>HTTP/2</category>
+<category>RCE</category>
+</item>
 <item><title>Nvidia Board Hires Search Firm to Weigh Replacing Jensen Huang</title><link>https://x.com/rohanpaul_ai/status/2120697700488470872</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120697700488470872</guid>
 <pubDate>Thu, 12 Nov 2026 09:58:27 +0800</pubDate>
 <description>&lt;p&gt;Bloomberg reports that Nvidia&amp;#x27;s board is working with an outside search firm on possible successors to Jensen Huang and is weighing an interim CEO. The move follows reports of a second relationship with an Nvidia employee, alongside an admitted relationship with a suspected Chinese intelligence asset; the board has opened an independent probe and shares fell about 8% after hours. Huang, the largest shareholder at roughly 3.6%, has rejected formal succession planning, and no named successor exists.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达董事会启动外部寻聘 考虑撤换黄仁勋&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球市值最高芯片公司的 CEO 继任危机，直接牵动 AI 算力供应链与行业格局。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 88/100&lt;/p&gt;</description>
@@ -147,9 +185,9 @@
 <category>Amazon SageMaker</category>
 <category>算力基础设施</category>
 </item>
-<item><title>Google DeepMind Unveils AlphaGenome 2 with Near-Doubled Single-Cell Variant Detection</title><link>https://www.ithome.com/1/025/840.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/840.htm</guid>
+<item><title>谷歌 DeepMind 发布 AlphaGenome 2 单细胞预测能力近乎翻倍</title><link>https://www.ithome.com/1/025/840.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/840.htm</guid>
 <pubDate>Thu, 12 Nov 2026 07:28:24 +0800</pubDate>
-<description>&lt;p&gt;Google DeepMind has released AlphaGenome 2, a next-generation genomic AI model built on a conditional architecture that takes tissue, cell type and cell state as inputs, pushing prediction from tissue-level to single-cell resolution. Trained on over 107 million single-cell profiles, it nearly doubles the ability to detect gene-expression-related variants, identifying 30% of causal disease variants in an immune-cell benchmark versus 16% for its predecessor. It adds DNA methylation prediction and zero-shot generalization to unseen cell types, and is available via API for non-commercial research.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌 DeepMind 发布 AlphaGenome 2 单细胞预测能力近乎翻倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI for Science 领域的重要节点，单细胞级变异识别能力近乎翻倍，并新增甲基化预测与零样本泛化，对基因组研究与药物发现具有实质价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 88/100&lt;/p&gt;</description>
+<description>&lt;p&gt;谷歌 DeepMind 发布新一代基因组 AI 模型 AlphaGenome 2，采用条件模型架构，将组织、细胞类型与细胞状态作为输入，把预测粒度从组织级推进到单细胞级。模型基于超 1.07 亿个单细胞图谱训练，识别基因表达相关变异的能力接近上一代的两倍，在免疫细胞测试中致病因果变异识别率达 30%（上一代为 16%）。模型新增 DNA 甲基化预测并支持零样本泛化到未见细胞类型，已通过 API 向非商业研究开放。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI for Science 领域的重要节点，单细胞级变异识别能力近乎翻倍，并新增甲基化预测与零样本泛化，对基因组研究与药物发现具有实质价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 88/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/025/840.htm">IT之家 · 智能时代</source>
 <category>AI for Science</category>
 <category>基因组学</category>
@@ -157,27 +195,27 @@
 <category>单细胞分析</category>
 <category>基础模型</category>
 </item>
-<item><title>Chrome Ships Modern Web Guidance 1.0 to Teach Coding Agents Web Expertise</title><link>https://developer.chrome.com/blog/modern-web-guidance-v1</link><guid isPermaLink="true">https://developer.chrome.com/blog/modern-web-guidance-v1</guid>
+<item><title>Chrome 推出 Modern Web Guidance 1.0 为编程智能体补齐 Web 专业知识</title><link>https://developer.chrome.com/blog/modern-web-guidance-v1</link><guid isPermaLink="true">https://developer.chrome.com/blog/modern-web-guidance-v1</guid>
 <pubDate>Thu, 12 Nov 2026 07:22:29 +0800</pubDate>
-<description>&lt;p&gt;Chrome has released Modern Web Guidance 1.0, a stable skill set that injects expert-reviewed web platform best practices and cross-browser compatibility data directly into coding agents. Version 1.0 adds a modernization workflow that scans existing codebases, an expanded guidance database, a public evaluation dashboard, and expands into a cross-browser initiative with Firefox and Edge.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Chrome 推出 Modern Web Guidance 1.0 为编程智能体补齐 Web 专业知识&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是主流浏览器厂商首次以标准化技能形式向编码智能体注入 Web 平台知识，对使用 AI 写前端代码的开发者有直接实用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Chrome 正式发布 Modern Web Guidance 1.0 稳定版，将经过专家审核的 Web 平台最佳实践与跨浏览器兼容数据直接注入编码智能体，弥补前沿模型生成代码在性能、无障碍与安全上的短板。1.0 新增可扫描现有代码库的现代化工作流、扩展的指南数据库与公开评估面板，并升级为 Chrome、Firefox、Edge 共同参与的跨浏览器计划。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是主流浏览器厂商首次以标准化技能形式向编码智能体注入 Web 平台知识，对使用 AI 写前端代码的开发者有直接实用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
 <source url="https://developer.chrome.com/blog/modern-web-guidance-v1">Hacker News AI</source>
 <category>开发者工具</category>
 <category>编码智能体</category>
 <category>Chrome</category>
 <category>Web 开发</category>
 </item>
-<item><title>Amazon Bedrock AgentCore Adds a Direct Web Search API</title><link>https://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore/</guid>
+<item><title>亚马逊 Bedrock AgentCore 推出 Web Search API</title><link>https://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore/</guid>
 <pubDate>Thu, 12 Nov 2026 07:13:16 +0800</pubDate>
-<description>&lt;p&gt;Amazon introduced a Web Search API for Bedrock AgentCore, letting developers retrieve ranked web results with text extracts, titles, URLs and publication times in a single API call instead of provisioning an AgentCore Gateway and MCP client. The lighter path targets code that only needs search results and is available in Oregon, Ireland, Tokyo and Sydney regions.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊 Bedrock AgentCore 推出 Web Search API&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AgentCore 检索能力的轻量化入口，降低了智能体接入实时网页信息的工程成本。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;亚马逊为 Bedrock AgentCore 新增 Web Search API，开发者无需再搭建 Gateway 与 MCP 客户端，单次 API 调用即可获取带正文摘要、标题、URL 与发布时间的排序搜索结果。该能力面向只需检索结果的代码场景，已在美西、爱尔兰、东京与悉尼等区域上线。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AgentCore 检索能力的轻量化入口，降低了智能体接入实时网页信息的工程成本。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore/">AWS Machine Learning Blog</source>
 <category>亚马逊</category>
 <category>AgentCore</category>
 <category>智能体检索</category>
 <category>开发者工具</category>
 </item>
-<item><title>Open Source Stela Layer Runs Apple Silicon Code on x86-64 PCs</title><link>https://github.com/tylertms/Stela</link><guid isPermaLink="true">https://github.com/tylertms/Stela</guid>
+<item><title>开源项目 Stela 让 x86 PC 运行 Apple Silicon 程序</title><link>https://github.com/tylertms/Stela</link><guid isPermaLink="true">https://github.com/tylertms/Stela</guid>
 <pubDate>Thu, 12 Nov 2026 07:02:38 +0800</pubDate>
-<description>&lt;p&gt;Stela is a GPL-2.0 open source UEFI boot program that combines an arm64e-to-x86-64 AOT/JIT translator, a Metal driver for NVIDIA GPUs and a model of Apple Silicon hardware to boot macOS and most apps on ordinary x86-64 PCs. At v0.1.0 it is slow and limited in compatibility, with the project itself warning that boot success rates remain low and much hardware work is pending.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;开源项目 Stela 让 x86 PC 运行 Apple Silicon 程序&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以开源方式在 x86 硬件上重建 Apple Silicon 运行环境，技术路径罕见且具讨论价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Stela 是一个 GPL-2.0 开源 UEFI 启动程序，通过 arm64e 到 x86-64 的 AOT/JIT 翻译器、面向 NVIDIA 显卡的 Metal 驱动以及 Apple Silicon 硬件模型，让普通 x86-64 PC 尝试启动 macOS 与多数应用。项目当前处于 v0.1.0，速度缓慢且兼容性有限，官方坦言启动成功率低，仍需大量硬件适配与测试。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以开源方式在 x86 硬件上重建 Apple Silicon 运行环境，技术路径罕见且具讨论价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
 <source url="https://github.com/tylertms/Stela">Hacker News AI</source>
 <category>开源项目</category>
 <category>Apple Silicon</category>
@@ -185,9 +223,9 @@
 <category>macOS</category>
 <category>Metal 驱动</category>
 </item>
-<item><title>Stripe Closes $7.5B Acquisition of OpenRouter</title><link>https://www.ithome.com/1/025/833.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/833.htm</guid>
+<item><title>Stripe 以 75 亿美元完成收购 OpenRouter</title><link>https://www.ithome.com/1/025/833.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/833.htm</guid>
 <pubDate>Thu, 12 Nov 2026 07:01:40 +0800</pubDate>
-<description>&lt;p&gt;Stripe completed its acquisition of AI model aggregation platform OpenRouter on November 10, with the deal valued at roughly $7.5-8 billion. OpenRouter connects over 400 models from 80+ providers and serves more than 10 million developers, processing about 790 trillion tokens in October 2026, 76% of which came from agent-related API calls. The two will focus on token routing and usage optimization, folding model selection and billing into payment infrastructure.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Stripe 以 75 亿美元完成收购 OpenRouter&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 模型分发入口与支付基础设施的合并，直接改变开发者调用与计费模型的方式。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Stripe 于 11 月 10 日完成对 AI 模型聚合平台 OpenRouter 的收购，交易金额约 75 亿至 80 亿美元。OpenRouter 已接入 80 多家供应商的 400 多款模型，服务超 1000 万开发者，2026 年 10 月单月处理约 790 万亿 Token，其中 76% 来自智能体调用。双方将围绕词元路由与用量优化，把模型选择与计费纳入支付基础设施。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 模型分发入口与支付基础设施的合并，直接改变开发者调用与计费模型的方式。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/025/833.htm">IT之家 · 智能时代</source>
 <category>OpenRouter</category>
 <category>Stripe</category>
@@ -195,9 +233,9 @@
 <category>词元路由</category>
 <category>智能体</category>
 </item>
-<item><title>Nothing Teases First Screenless AI Device With Physical Button</title><link>https://www.ithome.com/1/025/832.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/832.htm</guid>
+<item><title>Nothing 展示首款无屏 AI 设备</title><link>https://www.ithome.com/1/025/832.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/832.htm</guid>
 <pubDate>Thu, 12 Nov 2026 06:59:15 +0800</pubDate>
-<description>&lt;p&gt;Nothing CEO Carl Pei unveiled the first look at the company&amp;#x27;s debut AI device on X, showing a screenless design with red and green LED indicators and a central physical button that likely serves as a push-to-talk interaction entry point. The product is expected to launch in December 2026, marking Nothing&amp;#x27;s first AI-native hardware after its $200 million Series C raised in 2025 to fund AI and OS development.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Nothing 展示首款无屏 AI 设备&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Nothing 从消费电子转向 AI 原生硬件的首个产品形态披露，虽无技术参数，但对关注 AI 硬件形态演进的读者具有信号价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Nothing CEO 裴宇在 X 平台首次展示公司首款 AI 设备外观，采用无屏幕设计，配备红绿 LED 指示灯与中央实体按键，暗示以按键语音作为主要交互入口。该产品预计于 2026 年 12 月正式发布，是 Nothing 在 2025 年完成 2 亿美元 C 轮融资后转向 AI 战略的首个原生硬件。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Nothing 从消费电子转向 AI 原生硬件的首个产品形态披露，虽无技术参数，但对关注 AI 硬件形态演进的读者具有信号价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/025/832.htm">IT之家 · 智能时代</source>
 <category>AI 硬件</category>
 <category>Nothing</category>
@@ -240,42 +278,6 @@
 <category>供应链安全</category>
 <category>CI/CD</category>
 <category>开发者工具</category>
-</item>
-<item><title>谷歌发布 Gemini Decision 1 决策模型支持多模态</title><link>https://simonwillison.net/2026/Nov/11/gemini-decisions-api/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/11/gemini-decisions-api/</guid>
-<pubDate>Thu, 12 Nov 2026 06:03:25 +0800</pubDate>
-<description>&lt;p&gt;谷歌推出 Gemini Decision 1，正式进入决策模型赛道，与 Jev、OpenAI 形成三足鼎立。该模型 API 支持是/否、多选与评分三类问题，且是三者中唯一覆盖文本、图像、音频、视频与 PDF 的全模态方案。定价为每百万输入 token 10 美分、输出免费，与 GPT-6 Luna 持平，但仍高于 Jev 的 4.2 美分。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;决策模型成为大厂新战场，谷歌以全模态能力切入，值得关注其与 Jev、OpenAI 的差异化竞争。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · llm · signal 62/100&lt;/p&gt;</description>
-<source url="https://simonwillison.net/2026/Nov/11/gemini-decisions-api/">Simon Willison 博客</source>
-<category>大模型</category>
-<category>谷歌</category>
-<category>决策模型</category>
-<category>多模态</category>
-</item>
-<item><title>美联航禁止第三方 AI 代理代订机票</title><link>https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents</guid>
-<pubDate>Thu, 12 Nov 2026 05:54:21 +0800</pubDate>
-<description>&lt;p&gt;美联航明确禁止个人 AI 助手在其平台代订机票，理由是隐私泄露、非授权购买以及无法满足联邦航空安全告知义务（如行李无爆炸物声明）。尽管目前实际使用量极低，此举标志着企业开始为自主代理的权限边界设立防御性护栏，与银行、电商平台近期的类似限制形成共振。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;企业首次以合规与安全为由系统性封堵自主代理，是 agent 落地边界的重要信号。&lt;/p&gt;&lt;p&gt;The Verge AI · agent · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents">The Verge AI</source>
-<category>AI Agent</category>
-<category>美联航</category>
-<category>合规</category>
-<category>自主代理</category>
-</item>
-<item><title>微软 1170 亿美元算力扩建采用表后自备电厂供电</title><link>https://x.com/rohanpaul_ai/status/2120632075007266907</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120632075007266907</guid>
-<pubDate>Thu, 12 Nov 2026 05:37:40 +0800</pubDate>
-<description>&lt;p&gt;微软将每年 1170 亿美元的算力产能扩建与一项承诺绑定：新增电力成本不由纳税人或其他公用事业用户承担。其解决方案是表后自备发电，由雪佛龙建设 2.67GW 燃气电厂，向微软数据中心直供电力，合同期 20 年。该模式仍需政治审批，得州州长 Abbott 的数据中心许可冻结令及继任者的更强硬立场构成关键变量。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示超大规模 AI 算力扩张正转向自备电厂直供模式，并暴露电力与许可审批成为新的瓶颈。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 72/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2120632075007266907">Rohan Paul (@rohanpaul_ai)</source>
-<category>算力基础设施</category>
-<category>数据中心供电</category>
-<category>微软</category>
-<category>雪佛龙</category>
-<category>得州</category>
-</item>
-<item><title>YouArt 推出桌面视频智能体 智能路由按最低价渲染</title><link>https://x.com/rohanpaul_ai/status/2120630771639820629</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120630771639820629</guid>
-<pubDate>Thu, 12 Nov 2026 05:32:30 +0800</pubDate>
-<description>&lt;p&gt;YouArt 发布桌面版 AI 创作智能体，可操作 CapCut、DaVinci Resolve、Premiere 等本地剪辑软件，并将客户反馈汇聚到原生画布由智能体批量处理。其核心卖点是智能路由：自动比对各已接入服务商与自有按次付费方案的单条渲染成本，选择最便宜的一方执行，并支持全部第三方 API Key。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把多供应商成本比价与本地剪辑软件操作结合进桌面智能体，是视频生成落地中较实用的工程思路。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 42/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2120630771639820629">Rohan Paul (@rohanpaul_ai)</source>
-<category>智能体</category>
-<category>视频生成</category>
-<category>AI 创作工具</category>
 </item>
 </channel>
 </rss>
