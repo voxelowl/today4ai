@@ -67,14 +67,6 @@ AlphaGenome 2 打通了单细胞生物学与人类遗传学，为科学家定位
 
 这一事件凸显了 AI 智能体在受监管行业落地时面临的合规与信任边界。身份验证、责任归属以及法定告知义务的履行，成为 AI 代理从“提供建议”走向“代办交易”必须跨越的门槛。随着更多企业效仿，AI 代理在电商、金融等领域的商业化进程可能放缓，行业需协同建立代理身份认证与授权框架，以平衡创新与风险。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), The Verge AI, Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
-<item><title>Google 发布 Gemini 4 Carbon 并预览智能体蜂群功能</title><link>https://todayforai.com/en/story/story-8356a9b1-b1c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-8356a9b1-b1c</guid>
-<pubDate>Wed, 11 Nov 2026 21:24:57 +0800</pubDate>
-<description>&lt;p&gt;Google 正式向所有付费开发者和 AI Ultra 订阅用户开放其迄今最强模型 Gemini 4 Carbon，距其通过 Fairwind 计划向网络安全防御者定向发布仅两周。Carbon 定位极限复杂任务，主打多步编码调试、开放式科研与网络安全，与上月发布的 Gemini 4 Argon 形成高低搭配，后者继续覆盖多数软件工程与知识工作场景。
-
-技术细节上，Carbon 在 CursorBench 4.0、WANDR 与 AutomationBench 上排名第一，单任务成本不到次优外部模型的一半。早期测试显示其 Terminal-Bench 作弊率与灰天鹅基准的提示注入成功率均降至 0%，安全代码编写速度达 Argon 的两倍，并在 Sec-Bench Pro 上发现 88% 的漏洞。定价沿用 Argon 的每百万 token 输入 2 美元、输出 10 美元，缓存输入享 95% 折扣，但推理与验证阶段会消耗更多 token。同时，Google 在智能体开发平台 Antigravity 上预览 swarm 蜂群功能，强化长周期智能体协作能力。
-
-此举标志着 Google 由追赶者重回前沿第一梯队，与 Anthropic、OpenAI 形成三方竞争。Carbon 在安全与长程任务上的突破，为无人值守智能体提供了可靠基础，而蜂群功能则指向多智能体协作的未来工作流，可能重塑开发者构建复杂 AI 应用的方式。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, 宝玉 (@dotey), The Decoder, The Verge AI, Google DeepMind, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
-</item>
 <item><title>Anthropic 推出 Claude 办公套件 微软股价应声下跌 3.5%</title><link>https://todayforai.com/en/story/story-6b1d42f1-18b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-6b1d42f1-18b</guid>
 <pubDate>Wed, 11 Nov 2026 21:24:57 +0800</pubDate>
 <description>&lt;p&gt;Anthropic 正式发布 Claude 办公套件，包括 Claude Sheets、Claude Data、Claude Meetings 和 Claude Whiteboards 四款原生协作工具，标志着 Claude 从对话助手升级为独立工作平台。用户可通过自然语言直接生成可协作的表格、看板与仪表盘，并深度集成 Adobe、Atlassian、Box 等第三方应用。消息公布后，微软股价一度下跌超过 3.5%，市场反应强烈。
@@ -82,6 +74,14 @@ AlphaGenome 2 打通了单细胞生物学与人类遗传学，为科学家定位
 综合多源信息，Claude Sheets 支持自然语言生成含公式与多标签的表格，Claude Data 可连接 Snowflake、Salesforce 自动刷新仪表盘，Claude Meetings 允许 Claude 作为可见参会者加入视频会议并实时起草计划，Claude Whiteboards 则能将讨论自动转为带时间线与负责人的看板。所有付费计划均可使用这些功能，且用户无需切换标签即可编辑或委托 Claude 修改内容。
 
 此举直接冲击 Microsoft 365 与 Google Workspace，并紧随 OpenAI 与 Meta 的办公套件布局，标志着三大厂商围绕 AI 办公套件展开正面竞争。Anthropic 从企业与编程工具向通用知识工作市场扩张，可能重塑办公软件生态，推动 AI 原生工作台成为新趋势。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, 宝玉 (@dotey), The Decoder, Rohan Paul (@rohanpaul_ai), The Verge AI, Hacker News AI&lt;/p&gt;</description>
+</item>
+<item><title>Grok 构建应用泄露 3.5 万个未授权访问入口</title><link>https://todayforai.com/en/story/story-91d8f7dd-676</link><guid isPermaLink="true">https://todayforai.com/en/story/story-91d8f7dd-676</guid>
+<pubDate>Thu, 12 Nov 2026 18:08:24 +0800</pubDate>
+<description>&lt;p&gt;安全公司 Claroc 最新研究显示，由 xAI 旗下 Grok 构建的 Web 应用中，超过 3.5 万个无需登录即可公开访问，近 95% 的在线应用存在未授权入口。泄露内容涵盖 SpaceX、X 及特斯拉的内部销售资料、员工绩效与奖金表、ICU 患者化验与呼吸机记录，甚至明文密码。Claroc 测试了 43551 个 Grok Build 应用地址，发现 94.7% 的在线应用可直接打开，其中约 650 至 800 个应用包含私密数据，波及 6 家财富 500 强与 26 家千人以上企业。
+
+问题根源在于 Grok 的分享链接设计：随机标识被置于域名前而非网址路径中，导致链接可被被动 DNS 服务收录并公开检索，开发者仅靠难猜的网址充当访问控制，而非真正的鉴权机制。此外，Grok 生成代码中的访问控制缺陷与默认公开的发布设置进一步放大了风险。SpaceX 与 X 员工创建的应用已全部下线，但大量第三方应用仍在线，平台是否主动通知受影响客户尚无明确答复。
+
+此次事件继 Meta Muse 与 Anthropic 共享对话泄露后，再度暴露 AI 生成应用在默认安全配置上的系统性风险。随着 vibe-coding 工具快速普及，企业敏感数据在无鉴权状态下暴露，为开发者与平台敲响警钟，也凸显 AI 编程工具在安全设计上的紧迫性。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;The Decoder, 量子位官网, IT之家 · 智能时代, Ars Technica AI&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
