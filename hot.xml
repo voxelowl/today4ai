@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Thu, 12 Nov 2026 08:55:39 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 12 Nov 2026 09:39:34 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>谷歌发布 Gemini Decision 1 单次调用并行千项判定</title><link>https://todayforai.com/en/story/story-0d6c164e-b26</link><guid isPermaLink="true">https://todayforai.com/en/story/story-0d6c164e-b26</guid>
 <pubDate>Thu, 12 Nov 2026 08:55:39 +0800</pubDate>
@@ -9,7 +9,7 @@
 
 据 Artificial Analysis 评测，Gemini Decision 1 在决策指数 v2.1 上得分 66，与 Elephant 9B、Jev 1.14 持平，但落后领先者 Drex Max v1.1 与 GLiDE v1.2 达 7 分；其在知识与推理基准上领先，但每百万任务成本约 345 美元，是 Drex Max v1.1 的三倍多，且在分类与抽取基准 AA-Paperclip 上明显落后。谷歌内部已将其用于 Gemini Notebook 的动态模型路由、Stitch 的设计原型与搜索安全审核，验证了高并发实时决策场景的可行性。
 
-作为首个由主流厂商推出的决策模型品类，Gemini Decision 1 将封闭式批量判定从传统规则引擎和单任务模型推向多模态、低成本、低延迟的新范式，有望重塑查询路由、内容分级与策略合规校验等场景的开发流程，但成本与精度短板也意味着该赛道竞争刚刚开始。&lt;/p&gt;&lt;p&gt;8 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, The Decoder, Artificial Analysis (@ArtificialAnlys), Google AI Blog, Simon Willison 博客, OpenRouter (@OpenRouter)&lt;/p&gt;</description>
+作为首个由主流厂商推出的决策模型品类，Gemini Decision 1 将封闭式批量判定从传统规则引擎和单任务模型推向多模态、低成本、低延迟的新范式，有望重塑查询路由、内容分级与策略合规校验等场景的开发流程，但成本与精度短板也意味着该赛道竞争刚刚开始。&lt;/p&gt;&lt;p&gt;9 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, The Decoder, Artificial Analysis (@ArtificialAnlys), Google AI Blog, Simon Willison 博客, OpenRouter (@OpenRouter)&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 启动 IPO 路演 最高募资 904 亿美元</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
 <pubDate>Wed, 11 Nov 2026 23:11:59 +0800</pubDate>
@@ -43,6 +43,18 @@
 
 此举直接冲击 Microsoft 365 与 Google Workspace，并紧随 OpenAI 与 Meta 的办公套件布局，标志着三大厂商围绕 AI 办公套件展开正面竞争。Anthropic 从企业与编程工具向通用知识工作市场扩张，可能重塑办公软件生态，推动 AI 原生工作台成为新趋势。&lt;/p&gt;&lt;p&gt;8 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, 宝玉 (@dotey), The Decoder, Rohan Paul (@rohanpaul_ai), The Verge AI, Hacker News AI&lt;/p&gt;</description>
 </item>
+<item><title>美联航禁止第三方 AI 代理代订机票</title><link>https://todayforai.com/en/story/story-d0fe1a17-1c3</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d0fe1a17-1c3</guid>
+<pubDate>Thu, 12 Nov 2026 09:39:34 +0800</pubDate>
+<description>&lt;p&gt;美联航明确禁止个人 AI 助手在其平台代订机票，理由是隐私泄露、非授权购买以及无法满足联邦航空安全告知义务（如行李无爆炸物声明）。尽管目前实际使用量极低，此举标志着企业开始为自主代理的权限边界设立防御性护栏，与银行、电商平台近期的类似限制形成共振。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;The Verge AI, Hacker News AI, IT之家 · 智能时代, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
+</item>
+<item><title>DeepMind 发布 AlphaGenome 2 致病变异识别能力翻倍</title><link>https://todayforai.com/en/story/story-36dc56a8-7fc</link><guid isPermaLink="true">https://todayforai.com/en/story/story-36dc56a8-7fc</guid>
+<pubDate>Thu, 12 Nov 2026 07:28:24 +0800</pubDate>
+<description>&lt;p&gt;谷歌 DeepMind 正式发布新一代基因组 AI 模型 AlphaGenome 2，将 DNA 变异效应预测的粒度从组织平均水平推进到单细胞类型与状态，可识别的基因表达调控变异数量接近此前最优模型的两倍。在免疫细胞测试中，致病因果变异识别率达到 30%，而上一代微调后仅为 16%。
+
+该模型采用条件式架构，以组织、细胞类型和细胞状态为输入，基于超过 1.07 亿个单细胞图谱训练，并新增 DNA 甲基化预测能力。它支持零样本泛化到未见细胞类型，无需重新训练即可推断跨模态数据，已通过 API 面向非商业研究开放，并计划接入 Google Antigravity 智能体平台。
+
+AlphaGenome 2 打通了单细胞生物学与人类遗传学，为科学家定位疾病细胞层面的驱动因素提供了新工具，有望加速从基因变异到疾病机制的解析，推动精准医疗与药物靶点发现。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;The Verge AI, IT之家 · 智能时代, Google DeepMind, Marktechpost (@Marktechpost)&lt;/p&gt;</description>
+</item>
 <item><title>DeepMind 智能体完成 Signal 加密代码形式化验证</title><link>https://todayforai.com/en/story/story-f85fa90a-617</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f85fa90a-617</guid>
 <pubDate>Thu, 12 Nov 2026 02:18:25 +0800</pubDate>
 <description>&lt;p&gt;Google DeepMind 发布 AlphaProof Code 框架，首次由 AI 智能体对 Signal 加密协议的实际生产代码完成关键安全属性的数学证明。该成果将智能体能力从代码生成推进到深度形式化验证，被视为软件安全领域的重大突破。
@@ -59,29 +71,13 @@
 
 Muse Ember 定位为智能体执行层，与负责复杂规划的旗舰模型 Muse Wonder 形成分层推理架构，重模型规划、轻模型高频执行。其极低成本与高效能直接冲击轻量模型市场，与 DeepSeek V4.1 Flash、GLM 5.3 Flash 等开源竞品展开价格竞争，有望推动智能体应用的大规模落地。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost), InfoQ 中文, The Decoder, Arena.ai (@arena), TechCrunch AI, Artificial Analysis&lt;/p&gt;</description>
 </item>
-<item><title>DeepMind 发布 AlphaGenome 2 致病变异识别能力翻倍</title><link>https://todayforai.com/en/story/story-36dc56a8-7fc</link><guid isPermaLink="true">https://todayforai.com/en/story/story-36dc56a8-7fc</guid>
-<pubDate>Thu, 12 Nov 2026 07:28:24 +0800</pubDate>
-<description>&lt;p&gt;谷歌 DeepMind 正式发布新一代基因组 AI 模型 AlphaGenome 2，将 DNA 变异效应预测的粒度从组织平均水平推进到单细胞类型与状态，可识别的基因表达调控变异数量接近此前最优模型的两倍。在免疫细胞测试中，致病因果变异识别率达到 30%，而上一代微调后仅为 16%。
+<item><title>百度发布 ERNIE 5.5 Flash 预览版 280B 模型并承诺开源</title><link>https://todayforai.com/en/story/story-bfcc16a2-cac</link><guid isPermaLink="true">https://todayforai.com/en/story/story-bfcc16a2-cac</guid>
+<pubDate>Thu, 12 Nov 2026 09:08:21 +0800</pubDate>
+<description>&lt;p&gt;百度正式发布 ERNIE 5.5 Flash Preview，这是其 Base 模型的首个后训练版本，总参数 280B、激活参数仅 14B，支持 1M token 上下文，生成速度超过 200 tokens/秒。模型 API 已在百度千帆平台上线，官方承诺权重将于 11 月 25 日前以 Apache 2.0 协议开源。
 
-该模型采用条件式架构，以组织、细胞类型和细胞状态为输入，基于超过 1.07 亿个单细胞图谱训练，并新增 DNA 甲基化预测能力。它支持零样本泛化到未见细胞类型，无需重新训练即可推断跨模态数据，已通过 API 面向非商业研究开放，并计划接入 Google Antigravity 智能体平台。
+综合多方信源，该模型采用面向高效推理的新架构，在 Code Arena WebDev 榜单以 1668 分逼近第二名，略高于 DeepSeek-V4.1-Flash 与 Kimi K3，与 Qwen3.8-Max 基本持平。官方定位其为后训练中间版本，承认存在训练不充分导致的能力缺陷，正式版仍在快速迭代中。
 
-AlphaGenome 2 打通了单细胞生物学与人类遗传学，为科学家定位疾病细胞层面的驱动因素提供了新工具，有望加速从基因变异到疾病机制的解析，推动精准医疗与药物靶点发现。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;The Verge AI, IT之家 · 智能时代, Google DeepMind&lt;/p&gt;</description>
-</item>
-<item><title>OpenAI 内测认证商家智能体 打通商业交易入口</title><link>https://todayforai.com/en/story/story-f2335452-01f</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f2335452-01f</guid>
-<pubDate>Wed, 11 Nov 2026 06:55:36 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 正在内测一项名为“Businesses in ChatGPT”的新功能，允许美国电商与服务商家在 ChatGPT 内创建认证档案、上传含价格与库存的商品信息流，并配置专属的 Business Agent 智能体。这些智能体可代表品牌直接回答用户的产品咨询、辅助比价，并成为 ChatGPT 广告的投放载体。此举标志着 ChatGPT 从通用助手向商业交易与发现入口迈出关键一步，直接对标 Google My Business 与搜索广告模式。
-
-综合多家信源，商家可通过 Business Hub 认领并验证企业资料，接入产品数据源以提升回答准确性，同时查看对话曝光与网站点击等汇总数据。Business Agent 支持商家自定义指令与业务上下文，其对话与主对话隔离并明确标注，用户可在 ChatGPT 回复中直接发起比价、产品差异等追问。商家还可为智能体购买赞助展示位，赞助内容会清晰标注，分析数据经隐私保护处理，不暴露用户对话内容。目前该功能仅面向美国符合条件的电商与在线服务企业开放，Shopify 商家可直接接入。
-
-OpenAI 此举意在将 ChatGPT 每周 12 亿用户转化为商业流量入口，延续其此前电商化探索。通过认证商家智能体与广告载体的结合，OpenAI 正在构建一个从产品发现到交易转化的闭环，对 Google 的商家档案与搜索广告业务构成直接挑战。若测试顺利，该模式可能重塑对话式商务的生态格局，为商家提供新的流量阵地，同时也为 OpenAI 开辟广告营收新路径。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;The Decoder, The Verge AI, TechCrunch AI, IT之家 · 智能时代, GREG ISENBERG (@gregisenberg)&lt;/p&gt;</description>
-</item>
-<item><title>CoreWeave 转向客户预付款与短约融资</title><link>https://todayforai.com/en/story/story-a149607f-f4f</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a149607f-f4f</guid>
-<pubDate>Thu, 12 Nov 2026 03:54:00 +0800</pubDate>
-<description>&lt;p&gt;AI 云服务商 CoreWeave 在第三季度营收同比大增 168% 至 36.6 亿美元、合同积压订单达 1325 亿美元的背景下，宣布放弃无担保债务市场，转向要求客户预付款、以特定合同为抵押借款，并接受更短期限合约以换取更高定价。这一融资模式转变旨在缓解日益严峻的现金约束。
-
-财报显示，公司净亏损扩大逾 6 倍至 7.09 亿美元，净利息支出从 3.1 亿美元翻倍至 8.46 亿美元，已超过当季 3.79 亿美元的调整后营业利润。前三季度营收 83.14 亿美元、同比增长 133.6%，但归母净亏损扩大至 20.75 亿美元，资产负债率高达 95.6%。资本开支后现金消耗达 75 亿美元，期末现金约 41.2 亿美元对应近 470 亿美元债务。债券收益率突破 16%，英伟达、博通、甲骨文等 AI 相关企业的信用违约保护成本同步走高，融资成本正成为检验 AI 资本开支热潮可持续性的关键指标。
-
-CoreWeave 的新模式提升了资金效率，但高度依赖 AI 算力需求与定价能力持续。得州大部分算力已上线或已获许可，1325 亿美元积压订单不受选举结果冲击，2026 年营收指引上调至 130 亿至 133 亿美元。然而，在利息支出高企、杠杆率逼近极限的情况下，公司后续扩张仍高度依赖新增借款或股权融资，其转型成效将影响整个 AI 基础设施赛道的融资环境与估值逻辑。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, Rohan Paul (@rohanpaul_ai), TechCrunch AI, IT之家 · IT业界&lt;/p&gt;</description>
+此次发布标志着百度在开源大模型赛道迈出关键一步，280B 总参数与 14B 激活的稀疏设计兼顾性能与效率，1M 上下文和高速生成能力将直接冲击编程、3D 建模与内容创作场景。Apache 2.0 协议的开源承诺有望吸引开发者生态，加剧与 DeepSeek、Kimi、Qwen 等国产模型的竞争。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Arena.ai (@arena)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
