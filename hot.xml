@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Thu, 12 Nov 2026 07:28:24 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 12 Nov 2026 08:55:39 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>谷歌发布 Gemini Decision 1 单次调用并行千项判定</title><link>https://todayforai.com/en/story/story-0d6c164e-b26</link><guid isPermaLink="true">https://todayforai.com/en/story/story-0d6c164e-b26</guid>
-<pubDate>Thu, 12 Nov 2026 06:39:36 +0800</pubDate>
+<pubDate>Thu, 12 Nov 2026 08:55:39 +0800</pubDate>
 <description>&lt;p&gt;谷歌 DeepMind 正式发布 Gemini Decision 1 决策模型及配套 Gemini Decisions API，专为是/否、多选、量表评分等封闭式决策设计，单次调用可并行处理最多 1000 个独立问题，覆盖文本、图像、音频、视频与 PDF 五种模态，并在 150-250 毫秒内返回带置信度的概率分数。该模型已在 Google AI Studio 开放 Python、JavaScript 与 REST 接入，Google Cloud 支持后续上线。
 
 据 Artificial Analysis 评测，Gemini Decision 1 在决策指数 v2.1 上得分 66，与 Elephant 9B、Jev 1.14 持平，但落后领先者 Drex Max v1.1 与 GLiDE v1.2 达 7 分；其在知识与推理基准上领先，但每百万任务成本约 345 美元，是 Drex Max v1.1 的三倍多，且在分类与抽取基准 AA-Paperclip 上明显落后。谷歌内部已将其用于 Gemini Notebook 的动态模型路由、Stitch 的设计原型与搜索安全审核，验证了高并发实时决策场景的可行性。
 
-作为首个由主流厂商推出的决策模型品类，Gemini Decision 1 将封闭式批量判定从传统规则引擎和单任务模型推向多模态、低成本、低延迟的新范式，有望重塑查询路由、内容分级与策略合规校验等场景的开发流程，但成本与精度短板也意味着该赛道竞争刚刚开始。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, The Decoder, Artificial Analysis (@ArtificialAnlys), Google AI Blog, Simon Willison 博客, OpenRouter (@OpenRouter)&lt;/p&gt;</description>
+作为首个由主流厂商推出的决策模型品类，Gemini Decision 1 将封闭式批量判定从传统规则引擎和单任务模型推向多模态、低成本、低延迟的新范式，有望重塑查询路由、内容分级与策略合规校验等场景的开发流程，但成本与精度短板也意味着该赛道竞争刚刚开始。&lt;/p&gt;&lt;p&gt;8 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, The Decoder, Artificial Analysis (@ArtificialAnlys), Google AI Blog, Simon Willison 博客, OpenRouter (@OpenRouter)&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 启动 IPO 路演 最高募资 904 亿美元</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
 <pubDate>Wed, 11 Nov 2026 23:11:59 +0800</pubDate>
@@ -57,7 +57,7 @@
 
 综合多源信息，Muse Ember 支持 100 万 token 上下文与原生多模态理解（文本、图像、音频、视频），可跨应用串联工具、运行测试并执行定向代码修复。在 Code Arena WebDev 榜单上以 1608 分登顶小模型榜首，超过 Claude Haiku 5.5 与 GPT-6 Luna；在 AutomationBench-AA 上得分 68.1%，与旗舰 Muse Wonder 持平。定价为每百万 token 输入 0.10 美元、输出 0.50 美元，已上线 Meta Model API、Muse Code 及 Google Cloud、Oracle Cloud。不过，部分评测显示其在真实仓库改动可合并性上落后于 Haiku 5.5，且部分成绩为 Meta 内部测试。
 
-Muse Ember 定位为智能体执行层，与负责复杂规划的旗舰模型 Muse Wonder 形成分层推理架构，重模型规划、轻模型高频执行。其极低成本与高效能直接冲击轻量模型市场，与 DeepSeek V4.1 Flash、GLM 5.3 Flash 等开源竞品展开价格竞争，有望推动智能体应用的大规模落地。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost), InfoQ 中文, The Decoder, Arena.ai (@arena), TechCrunch AI, Artificial Analysis&lt;/p&gt;</description>
+Muse Ember 定位为智能体执行层，与负责复杂规划的旗舰模型 Muse Wonder 形成分层推理架构，重模型规划、轻模型高频执行。其极低成本与高效能直接冲击轻量模型市场，与 DeepSeek V4.1 Flash、GLM 5.3 Flash 等开源竞品展开价格竞争，有望推动智能体应用的大规模落地。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost), InfoQ 中文, The Decoder, Arena.ai (@arena), TechCrunch AI, Artificial Analysis&lt;/p&gt;</description>
 </item>
 <item><title>DeepMind 发布 AlphaGenome 2 致病变异识别能力翻倍</title><link>https://todayforai.com/en/story/story-36dc56a8-7fc</link><guid isPermaLink="true">https://todayforai.com/en/story/story-36dc56a8-7fc</guid>
 <pubDate>Thu, 12 Nov 2026 07:28:24 +0800</pubDate>
