@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Fri, 13 Nov 2026 03:23:03 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 13 Nov 2026 03:27:45 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
+<item><title>谷歌发布 Gemini 4 Hydrogen 百万上下文定价 1.5 美元</title><link>https://todayforai.com/en/story/story-23e7bc49-744</link><guid isPermaLink="true">https://todayforai.com/en/story/story-23e7bc49-744</guid>
+<pubDate>Fri, 13 Nov 2026 03:27:45 +0800</pubDate>
+<description>&lt;p&gt;谷歌正式发布 Gemini 4 系列新成员 Hydrogen，定位为面向日常编程与智能体工作流的高速高效模型，接替 Gemini 3.8 Flash，并与侧重长程深度推理的 Carbon、Argon 形成三档产品矩阵。该模型发布即向所有用户开放，同步登陆 Google AI Studio、Gemini API、企业版、Gemini 应用、Google 搜索及 Antigravity 平台，付费 AI Pro 与 Ultra 订阅用户可直接使用，标志着 Gemini 4 能力全面下放。
+
+Hydrogen 支持完整 100 万 Token 上下文且无阶梯计价，API 定价为每百万 Token 输入 1.5 美元、输出 7.5 美元，缓存输入享 95% 折扣。其默认高思考档任务完成速度较 Gemini 3.8 Flash 提升 2.5 倍，Terminal-Bench 4.1 得分从 18.2% 跃升至 57%，在 Artificial Analysis 智能指数上以 54 分反超旗舰 Argon 的 50 分，仅落后 Claude Sonnet 5.5 与 GPT-6.1 Sol 各 1 分。模型首次引入 xhigh 推理档位，在视觉推理与抗幻觉方面表现突出。同步推出的 Orchestrator 调度功能可在 Carbon 与 Hydrogen 间动态切换，平均配额消耗减少 24%。
+
+Hydrogen 的发布进一步加剧了高效模型赛道的竞争，其按任务成本约 3 美元，远低于 Sonnet 5.5 同分约 10 美元的水平，为开发者提供了高性价比选择。搜索端的全面接入意味着谷歌正将…&lt;/p&gt;&lt;p&gt;8 sources&lt;/p&gt;&lt;p&gt;Ars Technica AI, Google AI Blog, IT之家 · 智能时代, Artificial Analysis (@ArtificialAnlys), 宝玉 (@dotey), Hacker News AI&lt;/p&gt;</description>
+</item>
 <item><title>谷歌发布 Gemini Decision 1 单次调用并行千项判定</title><link>https://todayforai.com/en/story/story-0d6c164e-b26</link><guid isPermaLink="true">https://todayforai.com/en/story/story-0d6c164e-b26</guid>
 <pubDate>Thu, 12 Nov 2026 13:26:54 +0800</pubDate>
 <description>&lt;p&gt;谷歌 DeepMind 正式发布 Gemini Decision 1 决策模型及配套 Gemini Decisions API，专为是/否、多选、量表评分等封闭式决策设计，单次调用可并行处理最多 1000 个独立问题，覆盖文本、图像、音频、视频与 PDF 五种模态，并在 150-250 毫秒内返回带置信度的概率分数。该模型已在 Google AI Studio 开放 Python、JavaScript 与 REST 接入，Google Cloud 支持后续上线。
@@ -59,22 +67,6 @@ AlphaGenome 2 打通了单细胞生物学与人类遗传学，为科学家定位
 
 此次发布标志着百度在高效推理架构与开源策略上迈出关键一步。280B 总参数仅激活 14B 的设计大幅降低推理成本，而 1M 上下文与 200+ tokens/秒的生成速度则瞄准了智能体与长链路工具调用场景。承诺开源权重有望吸引开发者生态，并在开源模型竞争中与 DeepSeek、Kimi、Qwen 等形成直接对标，进一步加剧国内大模型第一梯队的角逐。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Arena.ai (@arena), 量子位官网, 新智元 (微信公众号)&lt;/p&gt;</description>
 </item>
-<item><title>谷歌发布 Gemini 4 Hydrogen 百万上下文定价 1.5 美元</title><link>https://todayforai.com/en/story/story-23e7bc49-744</link><guid isPermaLink="true">https://todayforai.com/en/story/story-23e7bc49-744</guid>
-<pubDate>Fri, 13 Nov 2026 02:52:01 +0800</pubDate>
-<description>&lt;p&gt;谷歌正式推出 Gemini 4 系列新成员 Hydrogen，定位为面向日常编码与智能体工作流的高速高效模型，与侧重长程深度推理的 Carbon、Argon 形成速度与深度的分层产品矩阵。该模型同步向所有层级的 Google AI Studio、Gemini API、企业版 Gemini、Gemini 应用、Google Search 以及付费 AI Pro/Ultra 订阅用户开放，标志着 Gemini 4 能力首次全面下放至大众用户。
-
-在技术指标上，Hydrogen 提供完整的 100 万 Token 上下文窗口，且无阶梯计价，输入定价为每百万 Token 1.5 美元、输出 7.5 美元。相比 Gemini 3.8 Flash，其默认高思考档任务完成速度提升 2.5 倍，Terminal-Bench 4.1 得分从 18.2% 跃升至 57%。谷歌同步推出 Orchestrator 调度功能，可在 Carbon 与 Hydrogen 之间动态切换，平均配额消耗减少 24%。模型卡披露了训练数据、分发方式、评测结果与预期用途限制，并针对 CBRN 与网络安全滥用设置了防护措施，但完整安全报告尚未发布。
-
-Hydrogen 的发布意味着谷歌将前沿智能体能力以极具竞争力的价格推向全量用户，直接冲击高速编码与自动化工作流市场。其分层产品策略既满足了深度推理需求，又以高性价比覆盖日常任务，有望加速智能体应用的规模化落地，并迫使竞争对手在定价与性能上做出回应。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
-<item><title>Google 发布 Gemini 4 Hydrogen 主打快省</title><link>https://todayforai.com/en/story/story-0d7a1060-0b0</link><guid isPermaLink="true">https://todayforai.com/en/story/story-0d7a1060-0b0</guid>
-<pubDate>Fri, 13 Nov 2026 03:23:03 +0800</pubDate>
-<description>&lt;p&gt;Google 正式发布 Gemini 4 系列中的主力模型 Hydrogen，接替 Gemini 3.8 Flash，主打速度与成本效益，直接对标 Claude Sonnet 5.5 与 GPT-6.1 Terra。该模型已向 Gemini App 付费用户、AI Studio、Gemini API 及 Antigravity 全量开放，开发者免费层即可使用，无需高价订阅。
-
-Hydrogen 支持低、中、高及新增的 xhigh 四档思考等级，在 Google 公布的 10 项评测中拿下 7 项第一，其中 SWE-sweep 以 13.5% 大幅领先，Terminal-Bench 得分超过 3.8 Flash 三倍，Artificial Analysis 智能指数以 54 分反超旗舰 Argon 的 50 分。不过，在 Terminal-Bench 与 OSWorld 上仍落后于 Sonnet 5.5。API 定价为每百万 Token 输入 1.5 美元、输出 7.5 美元，低于 Sonnet 5.5 但高于 GPT-6.1 Terra；按任务成本看，Hydrogen 最高档约 3 美元/任务，Sonnet 5.5 同分约 10 美元，Terra 更便宜但分数略低。
-
-Hydrogen 与 Carbon、Argon 组成 Gemini 4 三档分工，主打日常编码与 agent 任务。其高性价比和全面开放策略有望降低开发者使用门槛，加剧中端模型市场的竞争，推动 AI 应用普及。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), Ars Technica AI&lt;/p&gt;</description>
-</item>
 <item><title>MiniMax 开源 H3-Image 生图模型 10 秒生成 4K 图像</title><link>https://todayforai.com/en/story/story-77b75cf4-9c6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-77b75cf4-9c6</guid>
 <pubDate>Thu, 12 Nov 2026 19:36:20 +0800</pubDate>
 <description>&lt;p&gt;MiniMax 正式开源 H3-Image 图像生成模型，支持文生图、图像参考与图像编辑，可在约 10 秒内生成 4096×4096 的 4K 图像，官方称速度约为主流水平的 5 倍。模型以开放权重形式发布，并同步上线 MiniMax API、MiniMax Code 与海螺 AI，同时接入 Arena 对战模式接受用户盲测。
@@ -82,6 +74,14 @@ Hydrogen 与 Carbon、Argon 组成 Gemini 4 三档分工，主打日常编码与
 技术细节上，H3-Image 衍生自 H3 基座，单一 checkpoint 在六步采样内同时覆盖文生图与图像编辑，无需超分即可输出原生高分辨率，并支持最多 16 张参考图，指令遵循能力号称开源模型中最强。在 NVIDIA Vera Rubin 平台四卡配置下，原生 4K 生成中位延迟仅 0.87 秒，吞吐配置可达每小时 6115 张。摩尔线程 MTT S5000 也在开源首日完成适配，单卡即可生成 4K 图像，复用 SGLang、MATE、MCCL 等组件优化多参考图场景下的注意力开销。
 
 行业影响方面，H3-Image 以开源权重和高吞吐、低延迟特性，显著降低了高质量 4K 图像生成的门槛，有望推动内容创作、电商、设计等领域的效率提升。同时，其跨平台快速适配（NVIDIA 与摩尔线程）显示出生态协同的成熟，为后续生图、生视频模型的 Day-0 支持建立基础，进一步加剧开源图像生成赛道的竞争。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;vLLM 官方博客, Arena.ai (@arena), IT之家 · 智能时代, 量子位官网&lt;/p&gt;</description>
+</item>
+<item><title>Grok 构建应用泄露 3.5 万个未授权访问入口</title><link>https://todayforai.com/en/story/story-91d8f7dd-676</link><guid isPermaLink="true">https://todayforai.com/en/story/story-91d8f7dd-676</guid>
+<pubDate>Thu, 12 Nov 2026 18:08:24 +0800</pubDate>
+<description>&lt;p&gt;安全公司 Claroc 最新研究显示，由 xAI 旗下 Grok 构建的 Web 应用中，超过 3.5 万个无需登录即可公开访问，近 95% 的在线应用存在未授权入口。泄露内容涵盖 SpaceX、X 及特斯拉的内部销售资料、员工绩效与奖金表、ICU 患者化验与呼吸机记录，甚至明文密码。Claroc 测试了 43551 个 Grok Build 应用地址，发现 94.7% 的在线应用可直接打开，其中约 650 至 800 个应用包含私密数据，波及 6 家财富 500 强与 26 家千人以上企业。
+
+问题根源在于 Grok 的分享链接设计：随机标识被置于域名前而非网址路径中，导致链接可被被动 DNS 服务收录并公开检索，开发者仅靠难猜的网址充当访问控制，而非真正的鉴权机制。此外，Grok 生成代码中的访问控制缺陷与默认公开的发布设置进一步放大了风险。SpaceX 与 X 员工创建的应用已全部下线，但大量第三方应用仍在线，平台是否主动通知受影响客户尚无明确答复。
+
+此次事件继 Meta Muse 与 Anthropic 共享对话泄露后，再度暴露 AI 生成应用在默认安全配置上的系统性风险。随着 vibe-coding 工具快速普及，企业敏感数据在无鉴权状态下暴露，为开发者与平台敲响警钟，也凸显 AI 编程工具在安全设计上的紧迫性。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;The Decoder, 量子位官网, IT之家 · 智能时代, Ars Technica AI&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

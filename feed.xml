@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Fri, 13 Nov 2026 03:23:03 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 13 Nov 2026 03:29:55 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>AWS Adds Native Per-Identity Bedrock Cost Tracking and Spend Caps</title><link>https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets/</guid>
+<pubDate>Fri, 13 Nov 2026 03:29:55 +0800</pubDate>
+<description>&lt;p&gt;AWS published a native approach using CUR 2.0 and AWS Budgets to attribute Amazon Bedrock generative AI spend per IAM principal and enforce spend limits, with no application code needed for common cases. It targets CFO/CTO needs for per-person and per-team cost attribution and caps, complementing the earlier Jamf custom real-time enforcement loop.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS 原生方案实现 Bedrock 按身份成本追踪与限额&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为企业规模化使用生成式 AI 提供了低成本、可落地的成本归因与限额治理路径。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · compute · signal 58/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets/">AWS Machine Learning Blog</source>
+<category>AWS</category>
+<category>成本治理</category>
+<category>生成式 AI</category>
+<category>云基础设施</category>
+</item>
+<item><title>Google Debuts Gemini 4 Hydrogen to Power Faster Search Answers</title><link>https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/</guid>
+<pubDate>Fri, 13 Nov 2026 03:27:45 +0800</pubDate>
+<description>&lt;p&gt;Google released Gemini 4 Hydrogen, calling it its biggest model improvement to Search yet, designed for fast execution across multi-step agentic workflows rather than deep reasoning. It completes tasks 2.5x faster than the prior fast model Gemini 3.8 Flash and even beats the stronger Gemini 4 Argon on one broad intelligence benchmark. The update is rolling out to all Search users globally and also lands in AI Studio, the Gemini API, the Gemini App and the Antigravity developer platform.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌发布 Gemini 4 Hydrogen 提速搜索问答&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;谷歌将新一代快速模型直接嵌入全球搜索入口，是模型分层与智能体工作流落地的重要信号。&lt;/p&gt;&lt;p&gt;TechCrunch AI · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/">TechCrunch AI</source>
+<category>大模型</category>
+<category>谷歌</category>
+<category>搜索</category>
+<category>智能体</category>
+</item>
 <item><title>Google Rolls Out Gemini 4 Hydrogen to Replace 3.8 Flash</title><link>https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/</link><guid isPermaLink="true">https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash/</guid>
 <pubDate>Fri, 13 Nov 2026 03:23:03 +0800</pubDate>
 <description>&lt;p&gt;Google has launched Gemini 4 Hydrogen as the immediate successor to 3.8 Flash, opening access to all users and replacing the older model across its product lineup. It offers four thinking levels (low, medium, high, and the new xhigh), more than triples 3.8 Flash&amp;#x27;s Terminal-Bench score, and edges out the flagship Argon on the Artificial Analysis Intelligence Index with 54 versus 50.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Google 发布 Gemini 4 Hydrogen 全面替换 3.8 Flash&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Google 主力性价比模型换代并全线铺开，性能反超自家旗舰，直接影响大量开发者的模型选型。&lt;/p&gt;&lt;p&gt;Ars Technica AI · llm · signal 78/100&lt;/p&gt;</description>
@@ -64,6 +82,15 @@
 <category>智能体</category>
 <category>模型定价</category>
 </item>
+<item><title>Amazon Bedrock Introduces Framework for Agent Cost per Task and ROI</title><link>https://aws.amazon.com/blogs/machine-learning/optimizing-cost-per-task-and-proving-agent-roi-on-amazon-bedrock/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/optimizing-cost-per-task-and-proving-agent-roi-on-amazon-bedrock/</guid>
+<pubDate>Fri, 13 Nov 2026 02:43:19 +0800</pubDate>
+<description>&lt;p&gt;AWS published the second part of its Bedrock cost series, arguing that agent economics should be measured by cost per task rather than cost per token, with caching, model routing and output constraints as the main levers. It also outlines a discipline for proving agent ROI through human baselines, holdout experiments and a five-dimension scorecard, aligned with the Well-Architected Agentic AI Lens.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊 Bedrock 发布智能体单任务成本与 ROI 度量框架&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为智能体成本治理提供了可落地的度量口径与实验方法，对平台与 FinOps 团队有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 58/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/optimizing-cost-per-task-and-proving-agent-roi-on-amazon-bedrock/">AWS Machine Learning Blog</source>
+<category>智能体</category>
+<category>成本优化</category>
+<category>Amazon Bedrock</category>
+<category>FinOps</category>
+</item>
 <item><title>Millionways Launches Thorsten-4 Large Psychology Model</title><link>https://x.com/rohanpaul_ai/status/2120950522811498670</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120950522811498670</guid>
 <pubDate>Fri, 13 Nov 2026 02:43:04 +0800</pubDate>
 <description>&lt;p&gt;Millionways AI released Thorsten-4, billed as a Large Psychology Model trained on 15+ years of psychology research, repeated interviews with 7,000+ people by 50+ psychologists over four years, and 35M+ hand-tagged words. It claims 90% validated accuracy in predicting motives, decision styles and likely reactions, targeting agent use cases such as sales calls, interviews and customer service where LLMs misread human hesitation.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Millionways 发布 Thorsten-4 大心理学模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出“大心理学模型”这一差异化路线并给出具体数据构建方法，对智能体拟人交互方向有参考价值，但核心指标缺乏第三方验证。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 58/100&lt;/p&gt;</description>
@@ -72,6 +99,15 @@
 <category>心理学模型</category>
 <category>智能体</category>
 <category>Millionways AI</category>
+</item>
+<item><title>Building a Self-Service LLM Gateway with Amazon Bedrock and LiteLLM</title><link>https://aws.amazon.com/blogs/machine-learning/building-a-self-service-llm-gateway-with-amazon-bedrock-and-litellm/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/building-a-self-service-llm-gateway-with-amazon-bedrock-and-litellm/</guid>
+<pubDate>Fri, 13 Nov 2026 02:41:12 +0800</pubDate>
+<description>&lt;p&gt;An AWS blog post shows how to build a self-service LLM gateway using Amazon Bedrock Application Inference Profiles with LiteLLM on AWS Fargate, abstracting Bedrock behind an OpenAI-compatible API. Developers get a single key to access foundation models, while platform teams gain per-user cost attribution, latency and error observability, and consistent access controls.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;基于 Bedrock 与 LiteLLM 构建自助式 LLM 网关&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了一套可复用的企业级 LLM 网关参考架构，兼顾成本归因与可观测性，对平台工程团队有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 52/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/building-a-self-service-llm-gateway-with-amazon-bedrock-and-litellm/">AWS Machine Learning Blog</source>
+<category>LLM 网关</category>
+<category>Amazon Bedrock</category>
+<category>LiteLLM</category>
+<category>成本治理</category>
 </item>
 <item><title>Jensen Huang Resigns as Nvidia CEO, Casting Doubt on Open Source Support</title><link>https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/</guid>
 <pubDate>Fri, 13 Nov 2026 02:39:23 +0800</pubDate>
@@ -125,6 +161,15 @@
 <category>持久化执行</category>
 <category>开发者工具</category>
 </item>
+<item><title>Google Releases Gemini 4 Hydrogen with New xhigh Reasoning Tier</title><link>https://x.com/ArtificialAnlys/status/2120941511223185722</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2120941511223185722</guid>
+<pubDate>Fri, 13 Nov 2026 02:07:16 +0800</pubDate>
+<description>&lt;p&gt;Google DeepMind has shipped Gemini 4 Hydrogen, its third new model in six weeks, introducing an xhigh reasoning tier above high. It scores 54 on the Artificial Analysis Intelligence Index, just one point behind Claude Sonnet 5.5 and GPT-6.1 Sol, at roughly 32% of Sonnet&amp;#x27;s cost but about 2.5x that of GPT-6.1 Sol, with standout visual reasoning and non-hallucination performance.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌发布 Gemini 4 Hydrogen 新增 xhigh 推理档位&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;谷歌六周内连发三款模型并首次引入 xhigh 推理档位，前沿模型竞争格局与性价比对比值得关注。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/ArtificialAnlys/status/2120941511223185722">Artificial Analysis (@ArtificialAnlys)</source>
+<category>大模型</category>
+<category>谷歌 DeepMind</category>
+<category>推理档位</category>
+<category>模型定价</category>
+</item>
 <item><title>Google Launches Gemini 4 Hydrogen for Fast Agentic Workflows</title><link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/</link><guid isPermaLink="true">https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/</guid>
 <pubDate>Fri, 13 Nov 2026 02:01:48 +0800</pubDate>
 <description>&lt;p&gt;Google introduces Gemini 4 Hydrogen, a fast and efficient model built for everyday coding and agentic workflows, complementing the deeper long-horizon reasoning of Gemini 4 Carbon and Argon. Hydrogen simultaneously rolls out across all tiers of Google AI Studio, the Gemini API, Gemini for business, the Gemini app, Google Search, and paid AI Pro/Ultra subscribers, marking the broad democratization of Gemini 4 capabilities.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌发布 Gemini 4 Hydrogen 主打高速智能体工作流&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Gemini 4 系列新增高速成员并全面下放至搜索与订阅产品，是前沿模型产品线分层与规模化落地的重要节点。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 88/100&lt;/p&gt;</description>
@@ -152,120 +197,75 @@
 <category>Simular</category>
 <category>Computer Use</category>
 </item>
-<item><title>Prime Intellect Token Usage on OpenRouter Grows 90x in a Year</title><link>https://x.com/OpenRouter/status/2120937745220780376</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2120937745220780376</guid>
+<item><title>Google Launches Gemini 4 Hydrogen for Fast Agentic Workflows</title><link>https://deepmind.google/blog/introducing-gemini-4-hydrogen/</link><guid isPermaLink="true">https://deepmind.google/blog/introducing-gemini-4-hydrogen/</guid>
+<pubDate>Fri, 13 Nov 2026 02:00:50 +0800</pubDate>
+<description>&lt;p&gt;Google introduced Gemini 4 Hydrogen, the speed- and efficiency-focused member of the Gemini 4 family built for everyday coding and agentic workflows, complementing the deeper long-horizon reasoning of Gemini 4 Carbon and Argon. It rolls out across Google AI Studio, the Gemini API, Gemini for business, the Gemini app, Google Search and Antigravity, bringing Gemini 4 to all tiers including paid AI Pro and Ultra subscribers.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌发布 Gemini 4 Hydrogen 主打高速智能体工作流&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Gemini 4 家族新增高速型号并全面下放至搜索与订阅层级，是影响开发者选型与产品体验的重要模型发布。&lt;/p&gt;&lt;p&gt;Google DeepMind · llm · signal 88/100&lt;/p&gt;</description>
+<source url="https://deepmind.google/blog/introducing-gemini-4-hydrogen/">Google DeepMind</source>
+<category>大模型</category>
+<category>谷歌</category>
+<category>Gemini</category>
+<category>智能体</category>
+</item>
+<item><title>Google Search Rolls Out Gemini 4 Hydrogen Globally</title><link>https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/</link><guid isPermaLink="true">https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/</guid>
+<pubDate>Fri, 13 Nov 2026 02:00:00 +0800</pubDate>
+<description>&lt;p&gt;Google is globally integrating its Gemini 4 Hydrogen model into Google Search, enabling understanding of complex multi-part questions, simultaneous queries, and structured visual answers such as tables and images. The update emphasizes stronger intent understanding and reasoning, available across all languages supported by its AI models.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌搜索全面接入 Gemini 4 Hydrogen&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;谷歌将新一代 Gemini 模型全面接入搜索入口，是影响数十亿用户的大模型产品化关键节点。&lt;/p&gt;&lt;p&gt;Google AI Blog · llm · signal 72/100&lt;/p&gt;</description>
+<source url="https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/">Google AI Blog</source>
+<category>大模型</category>
+<category>谷歌搜索</category>
+<category>Gemini</category>
+</item>
+<item><title>AWS Launches Next-Gen AgentCore Runtime for Secure Agent Isolation</title><link>https://aws.amazon.com/blogs/machine-learning/run-agents-securely-and-efficiently-with-the-next-generation-agentcore-runtime/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/run-agents-securely-and-efficiently-with-the-next-generation-agentcore-runtime/</guid>
+<pubDate>Fri, 13 Nov 2026 01:59:59 +0800</pubDate>
+<description>&lt;p&gt;AWS released the next generation of its Amazon Bedrock AgentCore runtime, offering secure, isolated execution environments for long-running autonomous AI agents while balancing performance, cost, and efficiency. The runtime is now available in AWS regions across North America, South America, Europe, and Asia Pacific, accessible via the Bedrock console.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS 推出新一代 AgentCore 运行时，实现安全隔离与降本&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是主流云厂商面向智能体规模化落地的关键基础设施更新，直接关系到生产部署的安全与成本。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 62/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/run-agents-securely-and-efficiently-with-the-next-generation-agentcore-runtime/">AWS Machine Learning Blog</source>
+<category>智能体</category>
+<category>AWS</category>
+<category>云基础设施</category>
+<category>安全隔离</category>
+</item>
+<item><title>Prime Intellect 月调用量一年增长 90 倍</title><link>https://x.com/OpenRouter/status/2120937745220780376</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2120937745220780376</guid>
 <pubDate>Fri, 13 Nov 2026 01:52:18 +0800</pubDate>
-<description>&lt;p&gt;OpenRouter disclosed that Prime Intellect&amp;#x27;s monthly token usage on its platform grew from 11B to over 1T in under a year, while cost per token fell roughly 60%. Prime Intellect is betting on a multi-model future where no single model dominates, and OpenRouter is using the growth as a case study.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Prime Intellect 月调用量一年增长 90 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;反映多模型路由聚合平台的真实用量增长与推理成本下降趋势，但属厂商案例宣传，缺乏技术细节。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · industry · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenRouter 披露，Prime Intellect 在其平台上的月 token 用量不到一年从 110 亿增长至 1 万亿以上，单 token 成本同期下降约 60%。Prime Intellect 押注“没有单一模型通吃”的多模型未来，OpenRouter 借此作为增长案例背书。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;反映多模型路由聚合平台的真实用量增长与推理成本下降趋势，但属厂商案例宣传，缺乏技术细节。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · industry · signal 38/100&lt;/p&gt;</description>
 <source url="https://x.com/OpenRouter/status/2120937745220780376">OpenRouter (@OpenRouter)</source>
 <category>OpenRouter</category>
 <category>Prime Intellect</category>
 <category>推理成本</category>
 <category>多模型路由</category>
 </item>
-<item><title>Leeroo Open-Sources Kapso Engine for Iterative Enterprise Data Learning</title><link>https://news.ycombinator.com/item?id=50471281</link><guid isPermaLink="true">https://news.ycombinator.com/item?id=50471281</guid>
+<item><title>Leeroo 开源 Kapso 引擎 从企业数据迭代学习</title><link>https://news.ycombinator.com/item?id=50471281</link><guid isPermaLink="true">https://news.ycombinator.com/item?id=50471281</guid>
 <pubDate>Fri, 13 Nov 2026 01:51:23 +0800</pubDate>
-<description>&lt;p&gt;Leeroo has open-sourced Kapso, an engine that runs experiments, deploys the best solution, and learns from every run for enterprise data work. The core thesis is that data work is inherently iterative—investigate, hypothesize, experiment, improve—so an AI-native system should automate that loop and compound learning rather than relying on upfront business ontology modeling. The team, with prior large-scale AI systems experience at LinkedIn and Meta, grounds the approach in a lakehouse migration spanning 30+ source-system families and thousands of tables.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Leeroo 开源 Kapso 引擎 从企业数据迭代学习&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源企业数据迭代学习引擎，提出可复用的数据工程自动化范式，对数据平台与 Agent 工程读者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Leeroo 团队开源了 Kapso，一个面向企业数据场景的实验、部署与持续学习引擎。其核心理念是把数据工作视为“调查—假设—实验—改进”的迭代闭环，让 AI 系统在每次运行中累积学习，而非依赖前置业务本体建模。团队此前曾在 LinkedIn 与 Meta 构建大规模 AI 系统，并以一个涉及 30 多个源系统族、数千张表的数据湖仓迁移项目作为实践背景。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源企业数据迭代学习引擎，提出可复用的数据工程自动化范式，对数据平台与 Agent 工程读者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
 <source url="https://news.ycombinator.com/item?id=50471281">Hacker News AI</source>
 <category>开源项目</category>
 <category>企业数据</category>
 <category>数据工程</category>
 <category>智能体</category>
 </item>
-<item><title>Hugging Face CEO Vows to Fight for Open-Source AI After Huang Exit</title><link>https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/</guid>
+<item><title>黄仁勋离开 Hugging Face 后开源 AI 走向生变</title><link>https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/</guid>
 <pubDate>Fri, 13 Nov 2026 01:36:40 +0800</pubDate>
-<description>&lt;p&gt;After Nvidia&amp;#x27;s $12.9 billion acquisition of Hugging Face, CEO Jensen Huang departed on Thursday, prompting Hugging Face CEO Clément Delangue to call it a \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;黄仁勋离开 Hugging Face 后开源 AI 走向生变&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部开源 AI 平台被巨头收购后核心人物离职，直接牵动开源生态走向与治理格局。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;英伟达以 129 亿美元收购 Hugging Face 后，CEO 黄仁勋于周四离职，Hugging Face 现任 CEO Clément Delangue 公开称这是“非常悲伤的一天”，但强调将继续为开源 AI 而战。该事件发生在英伟达史上第二大收购案之后，凸显开源 AI 平台在巨头整合中的治理与路线不确定性。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部开源 AI 平台被巨头收购后核心人物离职，直接牵动开源生态走向与治理格局。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/">TechCrunch AI</source>
 <category>开源生态</category>
 <category>英伟达</category>
 <category>Hugging Face</category>
 <category>收购</category>
 </item>
-<item><title>United Airlines Blocks AI Agents From Booking Flights</title><link>https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/</guid>
+<item><title>企业需自建智能体系统而非依赖通用 AI</title><link>https://www.langchain.com/blog/own-your-intelligence</link><guid isPermaLink="true">https://www.langchain.com/blog/own-your-intelligence</guid>
+<pubDate>Fri, 13 Nov 2026 01:19:15 +0800</pubDate>
+<description>&lt;p&gt;文章认为通用 AI 无法为企业带来持久竞争优势，真正的壁垒在于企业能否掌控模型、智能体系统、上下文与记忆，并管理其成本、质量与风险。作者主张通用基础设施可以外购，但决定智能行为与持续迭代的智能体层与反馈闭环必须自建，才能让智能随使用不断复利。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向企业 AI 战略的架构观点，明确区分可外购的通用基础设施与必须自建的智能体控制层，对规划 AI 落地的团队有参考价值。&lt;/p&gt;&lt;p&gt;LangChain Blog · agent · signal 42/100&lt;/p&gt;</description>
+<source url="https://www.langchain.com/blog/own-your-intelligence">LangChain Blog</source>
+<category>企业AI</category>
+<category>智能体系统</category>
+<category>AI战略</category>
+</item>
+<item><title>美联航封禁 AI 智能体代订机票</title><link>https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/</guid>
 <pubDate>Fri, 13 Nov 2026 01:17:58 +0800</pubDate>
-<description>&lt;p&gt;United Airlines is restricting AI agents from booking flights and managing reservations on users&amp;#x27; behalf, citing cybersecurity and regulatory risks. The carrier warns that sharing account credentials with third-party AI assistants can expose sensitive data and trigger unintended purchases or account changes, and that autonomous check-ins may violate federal aviation rules. The move follows similar warnings from banks such as Bank of America.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美联航封禁 AI 智能体代订机票&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部航司首次系统性封堵 AI 智能体接入，标志自主代理落地遭遇真实身份与合规壁垒。&lt;/p&gt;&lt;p&gt;TechCrunch AI · agent · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;美联航以网络安全与合规风险为由，限制 AI 智能体代用户订票和管理账户，成为又一家封堵自主代理访问系统的美国大型企业。此举凸显航空与银行业在身份核验上的困境：难以区分真实用户与代表其操作的 AI 系统，共享登录凭证还可能引发数据泄露与违规购票。此前美国银行等机构已警告客户勿向 AI 助手透露密码。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部航司首次系统性封堵 AI 智能体接入，标志自主代理落地遭遇真实身份与合规壁垒。&lt;/p&gt;&lt;p&gt;TechCrunch AI · agent · signal 62/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/">TechCrunch AI</source>
 <category>AI 智能体</category>
 <category>航空业</category>
 <category>网络安全</category>
 <category>合规</category>
-</item>
-<item><title>Zeromatter Exits Stealth with Physically Accurate Simulation Platform</title><link>https://x.com/rohanpaul_ai/status/2120926252446159063</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120926252446159063</guid>
-<pubDate>Fri, 13 Nov 2026 01:06:38 +0800</pubDate>
-<description>&lt;p&gt;Zeromatter has emerged from four years of stealth with a self-built renderer, physics engine and simulation platform that creates a physically accurate virtual world for cars, drones, aircraft and robots to train before deployment. Designed around how cameras, lidar and radar perceive, the platform emphasizes deterministic, repeatable tests validated against real data from its own labs.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Zeromatter 结束隐身 推出物理精确仿真平台&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;具身智能与自动驾驶训练正从真实路测转向可复现的仿真，Zeromatter 自研全栈仿真栈值得关注。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2120926252446159063">Rohan Paul (@rohanpaul_ai)</source>
-<category>具身智能</category>
-<category>自动驾驶</category>
-<category>仿真平台</category>
-<category>Zeromatter</category>
-</item>
-<item><title>Developer Builds Rust Embroidery Editor with Built-In MCP Support</title><link>https://github.com/simpsoka/zigzag</link><guid isPermaLink="true">https://github.com/simpsoka/zigzag</guid>
-<pubDate>Fri, 13 Nov 2026 01:02:42 +0800</pubDate>
-<description>&lt;p&gt;Frustrated by a subscription lock on a $300 embroidery machine, a developer built ZigZag, a Rust-based visual embroidery editor that converts SVG artwork into stitches and exports PES, DST, EXP, JEF and VP3 formats. Its standout feature is built-in MCP support, letting AI agents create and edit designs alongside users, plus a CLI and Bluetooth export to Brother Skitch machines.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;开发者用 Rust 自建刺绣编辑器 支持 MCP 与 AI 代理&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是硬件订阅制反抗与 AI 代理接入传统桌面工具的典型案例，MCP 落地到垂直创意软件具有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://github.com/simpsoka/zigzag">Hacker News AI</source>
-<category>MCP</category>
-<category>Rust</category>
-<category>开发者工具</category>
-<category>AI 代理</category>
-</item>
-<item><title>SoftBank&#x27;s Gas Turbine Overorder Backfires as AI Power Demand Surges</title><link>https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/</guid>
-<pubDate>Fri, 13 Nov 2026 01:00:52 +0800</pubDate>
-<description>&lt;p&gt;SoftBank&amp;#x27;s SB Energy overbooked more than 13 gigawatts of gas turbines to meet surging AI data center power demand, only to absorb billion-dollar losses as project timelines slipped. The case exposes how AI compute expansion is now constrained by power infrastructure, with natural gas still the near-term workhorse but supply chains and construction cycles forming a real ceiling.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;软银燃气轮机豪赌失利 超订 13 吉瓦暴露 AI 供电瓶颈&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以软银超订燃气轮机的具体财务损失为切口，揭示 AI 算力扩张背后的电力供应硬约束，对关注算力基础设施的读者有实质参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · compute · signal 62/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/">TechCrunch AI</source>
-<category>算力基础设施</category>
-<category>能源</category>
-<category>软银</category>
-<category>数据中心</category>
-</item>
-<item><title>40% 游戏开发者已在工作中使用生成式 AI</title><link>https://www.theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs</link><guid isPermaLink="true">https://www.theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs</guid>
-<pubDate>Fri, 13 Nov 2026 01:00:00 +0800</pubDate>
-<description>&lt;p&gt;GDC 2026 年度行业调查显示，40% 的游戏开发者已在工作中使用生成式 AI，较 2025 年的 36% 进一步上升；免费游戏与移动端团队的采用率分别高达 58% 和 70%。概念美术与视觉构思是主要用途（22%），用于生产级美术或最终游戏资产的比例仅 8%，同时 34% 的受访者表示过去两年经历过裁员。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;GDC 年度调查给出游戏行业生成式 AI 采用率与裁员数据，是观察 AI 落地渗透的可靠行业信号。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs">The Verge AI</source>
-<category>生成式 AI</category>
-<category>游戏行业</category>
-<category>行业调查</category>
-</item>
-<item><title>研究称 AI 聊天机器人推荐假冒零售网站</title><link>https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations</guid>
-<pubDate>Fri, 13 Nov 2026 01:00:00 +0800</pubDate>
-<description>&lt;p&gt;IP 保护公司 Podqi 对 ChatGPT、Gemini 和 Perplexity 发起 6795 次购物类提问测试，发现三家引擎均会引用并展示冒充品牌的假冒网站，其中 Perplexity 表现最差，15% 的回答包含风险站点。该研究揭示了 AI 搜索在品牌真实性与电商导流安全上的系统性缺陷，Perplexity 回应称其从未宣称 100% 准确。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次以量化数据揭示主流 AI 搜索在购物场景中推荐假冒网站的风险，对关注 AI 搜索可信度与电商安全的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations">The Verge AI</source>
-<category>AI 搜索</category>
-<category>电商安全</category>
-<category>Perplexity</category>
-<category>品牌保护</category>
-</item>
-<item><title>Phota Labs Launches AI Photo Assistant for Pro-Level Shots</title><link>https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/</guid>
-<pubDate>Fri, 13 Nov 2026 01:00:00 +0800</pubDate>
-<description>&lt;p&gt;Phota Labs, founded by former Adobe computational photography engineers, has launched an iOS app that uses AI to fix the shot itself rather than just apply post-processing filters, aiming to produce professional-looking photos while preserving subjects&amp;#x27; natural appearance. The a16z-backed startup raised a $5.6 million seed round and is launching free to build users before exploring freemium and an Android release.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Phota Labs 推出 AI 照片助手 一键生成专业级人像&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;消费级 AI 影像工具的新入局者，创始团队来自 Adobe 计算摄影一线，具备一定技术与资本背书。&lt;/p&gt;&lt;p&gt;TechCrunch AI · tools · signal 38/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/">TechCrunch AI</source>
-<category>AI 影像</category>
-<category>消费应用</category>
-<category>a16z</category>
-</item>
-<item><title>AWS Lambda Web Functions 请求结束后仍计费内存约 7 分钟</title><link>https://www.easel.sh/blog/lambda-web-functions-idle-memory</link><guid isPermaLink="true">https://www.easel.sh/blog/lambda-web-functions-idle-memory</guid>
-<pubDate>Fri, 13 Nov 2026 00:59:26 +0800</pubDate>
-<description>&lt;p&gt;Easel.sh 创始人实测发现，AWS Lambda Web Functions 在最后一次请求结束后仍持续计费内存 5 至 7 分钟，团队因此自建计算层。在同一个 Next.js 应用上，自建方案的热请求响应快 1.5 至 3 倍，冷启动快约 3.5 倍。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了 Serverless 计费模型中被忽视的尾部成本，并给出同应用对比数据，对选型有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.easel.sh/blog/lambda-web-functions-idle-memory">Hacker News AI</source>
-<category>Serverless</category>
-<category>AWS Lambda</category>
-<category>计费</category>
-<category>Next.js</category>
-</item>
-<item><title>OpenAI 研究揭示前沿模型思维链透明度流失机制</title><link>https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/</link><guid isPermaLink="true">https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/</guid>
-<pubDate>Fri, 13 Nov 2026 00:58:11 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 新研究定位了导致前沿模型思维链（CoT）透明度下降的具体训练环节，指出这一现象并非不可抗的技术宿命，而是开发者围绕能力与算力成本做优化取舍的结果。研究警告，随着模型规模与预训练推进，仅靠阅读思维链进行安全监控将越来越不可靠，亟需发展新的监控手段。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次系统定位思维链透明度流失的训练成因，对 AI 安全监控范式具有直接影响。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/">The Decoder</source>
-<category>AI 安全</category>
-<category>思维链</category>
-<category>OpenAI</category>
-<category>可解释性</category>
-</item>
-<item><title>OpenRouter 上线 7 种语言 AI 翻译流水线</title><link>https://x.com/OpenRouter/status/2120913801507897575</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2120913801507897575</guid>
-<pubDate>Fri, 13 Nov 2026 00:17:09 +0800</pubDate>
-<description>&lt;p&gt;OpenRouter 宣布站点新增日语、韩语、简体中文、西班牙语、葡萄牙语、德语和法语支持。其核心做法是构建每日运行的 AI 翻译流水线，自动翻译变更文本，并将译文与英文原文比对，未通过校验的内容回炉重译。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了 AI 驱动的持续本地化工程实践，对多语言产品团队有参考价值。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · tools · signal 38/100&lt;/p&gt;</description>
-<source url="https://x.com/OpenRouter/status/2120913801507897575">OpenRouter (@OpenRouter)</source>
-<category>OpenRouter</category>
-<category>本地化</category>
-<category>AI 翻译</category>
-<category>开发者工具</category>
 </item>
 </channel>
 </rss>
