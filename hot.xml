@@ -33,7 +33,7 @@
 
 技术细节方面，Fable 5.2 在 FrontierCode 2.0 智能体编码基准取得 49.1%，领先 GPT-6 Astra 的 42.8% 与 Gemini 4 Carbon 的 41.1%；在 Remote Labor Index 上得分 41.3%，约为竞争对手的两倍。预发布测试中，模型完成了原本不可行的软件迁移、从零设计三款可工作的电子设备、解决两个黑洞物理开放问题，并在 30 小时内完成费马大定理的形式化证明，而人工形式化耗时 11 天。官方还演示了 1000 余个 Agent 连续 8 天从零构建可启动操作系统原型。API 价格下调 20% 至每百万 token 输入 8 美元、输出 40 美元，生成速度最高提升 30%，并可选 2.5 倍速 Fast 模式。
 
-行业影响上，Fable 5.2 从 Gemini 4 Carbon 手中夺回全球第一模型位置，强化了 Anthropic 在 IPO 前夕的资本市场叙事。然而，由于 tok…&lt;/p&gt;&lt;p&gt;8 sources&lt;/p&gt;&lt;p&gt;GREG ISENBERG (@gregisenberg), Artificial Analysis (@ArtificialAnlys), IT之家 · 智能时代, OpenRouter (@OpenRouter), 机器之心 (微信公众号), The Verge AI&lt;/p&gt;</description>
+行业影响上，Fable 5.2 从 Gemini 4 Carbon 手中夺回全球第一模型位置，强化了 Anthropic 在 IPO 前夕的资本市场叙事。然而，由于 tok…&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;GREG ISENBERG (@gregisenberg), Artificial Analysis (@ArtificialAnlys), IT之家 · 智能时代, OpenRouter (@OpenRouter), 机器之心 (微信公众号), The Verge AI&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 推出 Claude 办公套件 微软股价应声下跌 3.5%</title><link>https://todayforai.com/en/story/story-6b1d42f1-18b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-6b1d42f1-18b</guid>
 <pubDate>Wed, 11 Nov 2026 21:24:57 +0800</pubDate>
@@ -67,6 +67,14 @@ AlphaGenome 2 打通了单细胞生物学与人类遗传学，为科学家定位
 
 行业影响方面，这是首次对广泛使用的协议在机器码层面完成端到端形式化验证，覆盖了从设计到代码实现间的常见漏洞缝隙。尽管算力开销巨大、短期内难以大规模推广，但该工作展示了 AI 智能体在软件安全验证领域的巨大潜力，为保护数十亿次私密通信提供了数学级保障，有望推动形式化验证成为关键基础设施的标配。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Google DeepMind, Hacker News AI, Rohan Paul (@rohanpaul_ai), Ars Technica AI, The Decoder&lt;/p&gt;</description>
 </item>
+<item><title>百度发布 ERNIE 5.5 Flash 预览版 280B 模型并承诺开源</title><link>https://todayforai.com/en/story/story-bfcc16a2-cac</link><guid isPermaLink="true">https://todayforai.com/en/story/story-bfcc16a2-cac</guid>
+<pubDate>Thu, 12 Nov 2026 09:08:21 +0800</pubDate>
+<description>&lt;p&gt;百度正式发布 ERNIE 5.5 Flash Preview，这是文心大模型 Base 系列的首个后训练版本，总参数 280B、激活参数仅 14B，支持 1M Token 超长上下文，生成速度超过 200 tokens/秒。模型 API 已在百度千帆平台上线，官方承诺权重将于 11 月 25 日前以 Apache 2.0 协议开源。
+
+综合多方信源，该模型采用面向高效推理的稀疏架构，主打编程、3D 建模与内容创作等需连续调用工具的复杂任务。在 Arena 的 Code Arena WebDev 榜单中，其以 1668 分逼近第二名，略高于 DeepSeek-V4.1-Flash 与 Kimi K3，与 Qwen3.8-Max 基本持平；官方称在 Terminal-Bench、AutomationBench 等基准上可与 Claude Opus 5.5、GPT-6.1 Sol 等旗舰模型同台竞争。不过百度也坦承，作为后训练中间版本，模型存在训练不充分导致的能力缺陷，正式版仍在快速迭代中。
+
+此次发布标志着百度在高效推理架构与开源策略上迈出关键一步。280B 总参数仅激活 14B 的设计大幅降低推理成本，而 1M 上下文与 200+ tokens/秒的生成速度则瞄准了智能体与长链路工具调用场景。承诺开源权重有望吸引开发者生态，并在开源模型竞争中与 DeepSeek、Kimi、Qwen 等形成直接对标，进一步加剧国内大模型第一梯队的角逐。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Arena.ai (@arena), 量子位官网&lt;/p&gt;</description>
+</item>
 <item><title>Meta 发布轻量模型 Muse Ember 单任务成本仅 0.02 美元</title><link>https://todayforai.com/en/story/story-166bb164-19f</link><guid isPermaLink="true">https://todayforai.com/en/story/story-166bb164-19f</guid>
 <pubDate>Thu, 12 Nov 2026 04:06:38 +0800</pubDate>
 <description>&lt;p&gt;Meta 超级智能实验室正式发布迄今最小、最高效的模型 Muse Ember，专为智能体高频重复任务设计。该模型在 Artificial Analysis 智能指数上得分 36，与 Claude Haiku 5.5 持平，但单任务成本仅约 0.02 至 0.14 美元，约为后者的三分之一至四分之一，在效率前沿上占据明显优势。
@@ -74,14 +82,6 @@ AlphaGenome 2 打通了单细胞生物学与人类遗传学，为科学家定位
 综合多源信息，Muse Ember 支持 100 万 token 上下文与原生多模态理解（文本、图像、音频、视频），可跨应用串联工具、运行测试并执行定向代码修复。在 Code Arena WebDev 榜单上以 1608 分登顶小模型榜首，超过 Claude Haiku 5.5 与 GPT-6 Luna；在 AutomationBench-AA 上得分 68.1%，与旗舰 Muse Wonder 持平。定价为每百万 token 输入 0.10 美元、输出 0.50 美元，已上线 Meta Model API、Muse Code 及 Google Cloud、Oracle Cloud。不过，部分评测显示其在真实仓库改动可合并性上落后于 Haiku 5.5，且部分成绩为 Meta 内部测试。
 
 Muse Ember 定位为智能体执行层，与负责复杂规划的旗舰模型 Muse Wonder 形成分层推理架构，重模型规划、轻模型高频执行。其极低成本与高效能直接冲击轻量模型市场，与 DeepSeek V4.1 Flash、GLM 5.3 Flash 等开源竞品展开价格竞争，有望推动智能体应用的大规模落地。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost), InfoQ 中文, The Decoder, Arena.ai (@arena), TechCrunch AI, Artificial Analysis&lt;/p&gt;</description>
-</item>
-<item><title>百度发布 ERNIE 5.5 Flash 预览版 280B 模型并承诺开源</title><link>https://todayforai.com/en/story/story-bfcc16a2-cac</link><guid isPermaLink="true">https://todayforai.com/en/story/story-bfcc16a2-cac</guid>
-<pubDate>Thu, 12 Nov 2026 09:08:21 +0800</pubDate>
-<description>&lt;p&gt;百度正式发布 ERNIE 5.5 Flash Preview，这是其 Base 模型的首个后训练版本，总参数 280B、激活参数仅 14B，支持 1M token 上下文，生成速度超过 200 tokens/秒。模型 API 已在百度千帆平台上线，官方承诺权重将于 11 月 25 日前以 Apache 2.0 协议开源。
-
-综合多方信源，该模型采用面向高效推理的新架构，在 Code Arena WebDev 榜单以 1668 分逼近第二名，略高于 DeepSeek-V4.1-Flash 与 Kimi K3，与 Qwen3.8-Max 基本持平。官方定位其为后训练中间版本，承认存在训练不充分导致的能力缺陷，正式版仍在快速迭代中。
-
-此次发布标志着百度在开源大模型赛道迈出关键一步，280B 总参数与 14B 激活的稀疏设计兼顾性能与效率，1M 上下文和高速生成能力将直接冲击编程、3D 建模与内容创作场景。Apache 2.0 协议的开源承诺有望吸引开发者生态，加剧与 DeepSeek、Kimi、Qwen 等国产模型的竞争。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Arena.ai (@arena)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
