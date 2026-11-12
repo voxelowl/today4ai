@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Thu, 12 Nov 2026 09:39:34 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 12 Nov 2026 09:58:27 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Nvidia Board Hires Search Firm to Weigh Replacing Jensen Huang</title><link>https://x.com/rohanpaul_ai/status/2120697700488470872</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120697700488470872</guid>
+<pubDate>Thu, 12 Nov 2026 09:58:27 +0800</pubDate>
+<description>&lt;p&gt;Bloomberg reports that Nvidia&amp;#x27;s board is working with an outside search firm on possible successors to Jensen Huang and is weighing an interim CEO. The move follows reports of a second relationship with an Nvidia employee, alongside an admitted relationship with a suspected Chinese intelligence asset; the board has opened an independent probe and shares fell about 8% after hours. Huang, the largest shareholder at roughly 3.6%, has rejected formal succession planning, and no named successor exists.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达董事会启动外部寻聘 考虑撤换黄仁勋&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球市值最高芯片公司的 CEO 继任危机，直接牵动 AI 算力供应链与行业格局。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 88/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2120697700488470872">Rohan Paul (@rohanpaul_ai)</source>
+<category>英伟达</category>
+<category>黄仁勋</category>
+<category>公司治理</category>
+<category>算力</category>
+</item>
 <item><title>United Airlines Blocks AI Agents from Booking Tickets</title><link>https://www.ithome.com/1/025/879.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/879.htm</guid>
 <pubDate>Thu, 12 Nov 2026 09:39:34 +0800</pubDate>
 <description>&lt;p&gt;United Airlines has barred personal AI agents from completing ticket purchases on behalf of travelers, citing privacy, regulatory compliance and reluctance to add another transaction intermediary; agents may still search and display flights. eBay and several major banks have imposed similar limits, signaling enterprise-side friction for agents moving from advice to transaction execution.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美联航禁止 AI 助手代订机票&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部航司首次明确划定 AI 智能体可查询不可交易的边界，是代理式 AI 落地受阻的标志性案例。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 58/100&lt;/p&gt;</description>
@@ -213,9 +222,9 @@
 <category>CarPlay</category>
 <category>车载 AI</category>
 </item>
-<item><title>Google Launches Gemini Decisions API for Batched Judgment Calls</title><link>https://x.com/dotey/status/2120647659388031454</link><guid isPermaLink="true">https://x.com/dotey/status/2120647659388031454</guid>
+<item><title>Google 发布 Decisions API 单次可问 1000 个判断问题</title><link>https://x.com/dotey/status/2120647659388031454</link><guid isPermaLink="true">https://x.com/dotey/status/2120647659388031454</guid>
 <pubDate>Thu, 12 Nov 2026 06:39:36 +0800</pubDate>
-<description>&lt;p&gt;Google launched the Decisions API in Gemini API alongside the Gemini Decision 1 model, which skips text generation and returns structured yes/no, multiple-choice and scoring judgments with calibrated confidence for up to 1,000 questions per request. Pricing is $0.10 per million input tokens with no output charge, latency is 150-250 ms for inputs under 16K tokens, and Google claims it is nearly 5x cheaper than generating answers with Gemini 3.5 Flash-Lite. The API turns routing, moderation and grading calls from generate-then-parse into direct calibrated probabilities usable as automation thresholds.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Google 发布 Decisions API 单次可问 1000 个判断问题&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把高频判断类调用从生成式解析改为结构化概率输出，定价与延迟数据明确，对 AI 应用架构有直接改造价值。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Google 在 Gemini API 中上线 Decisions API 与配套模型 Gemini Decision 1，不做文本生成，只对输入返回是非、单选、打分三类结构化判断及校准置信度，单次请求最多挂 1000 个问题。输入每百万 Token 0.1 美元、输出不计费，1.6 万 Token 以内端到端延迟 150 到 250 毫秒，官方称比 Gemini 3.5 Flash-Lite 生成答案便宜近 5 倍。它把路由、审核、分级等高频判断从“生成再解析”改为直接出概率，置信度可作自动执行门槛。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把高频判断类调用从生成式解析改为结构化概率输出，定价与延迟数据明确，对 AI 应用架构有直接改造价值。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/dotey/status/2120647659388031454">宝玉 (@dotey)</source>
 <category>Gemini</category>
 <category>API</category>
@@ -267,15 +276,6 @@
 <category>智能体</category>
 <category>视频生成</category>
 <category>AI 创作工具</category>
-</item>
-<item><title>美联航禁止 AI 智能体代客订票</title><link>https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/</link><guid isPermaLink="true">https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/</guid>
-<pubDate>Thu, 12 Nov 2026 05:24:35 +0800</pubDate>
-<description>&lt;p&gt;美联航宣布禁止 AI 智能体代旅客预订机票，理由是共享支付凭证等敏感信息存在安全风险，且智能体代办值机等操作可能违反联邦法规。这是主流航空公司首次对 AI 代理下单场景设限，凸显智能体在受监管行业落地时的合规与信任边界。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流航司首次明确封禁 AI 智能体代订，直接触及智能体商业化的合规与信任红线。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/">Hacker News AI</source>
-<category>智能体</category>
-<category>AI 合规</category>
-<category>航空业</category>
-<category>美联航</category>
 </item>
 </channel>
 </rss>
