@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Thu, 12 Nov 2026 23:48:12 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 13 Nov 2026 01:17:58 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>谷歌发布 Gemini Decision 1 单次调用并行千项判定</title><link>https://todayforai.com/en/story/story-0d6c164e-b26</link><guid isPermaLink="true">https://todayforai.com/en/story/story-0d6c164e-b26</guid>
 <pubDate>Thu, 12 Nov 2026 13:26:54 +0800</pubDate>
@@ -27,6 +27,14 @@
 
 这场 IPO 被视为对 AI 产业估值逻辑的关键检验。受科技股回调与中期选举后市场对 AI 基建投资情绪转冷影响，估值预期从传闻的 1.5 万亿美元下修至 1.1 万亿至 1.3 万亿美元区间，但仍高于 OpenAI 上周 1.25 万亿美元的私募估值。若发行成功，Anthropic 将成为首家登陆公开资本市场的前沿大模型公司，为后续 AI 企业上市定价提供锚点，同时也将考验公开市场对高增长、高亏损 AI 商业模式的接受程度。&lt;/p&gt;&lt;p&gt;9 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, Anthropic News, Anthropic AI (@AnthropicAI), The Decoder, 宝玉 (@dotey), 新智元 (微信公众号)&lt;/p&gt;</description>
 </item>
+<item><title>美联航封禁 AI 智能体代订机票</title><link>https://todayforai.com/en/story/story-d0fe1a17-1c3</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d0fe1a17-1c3</guid>
+<pubDate>Fri, 13 Nov 2026 01:17:58 +0800</pubDate>
+<description>&lt;p&gt;美联航近日宣布，禁止个人 AI 智能体在其数字平台上代用户完成机票预订和账户管理，成为首家对 AI 代理下单场景设限的美国大型航空公司。该限制覆盖美联航自有平台及外部渠道，AI 智能体仅能读取航班选项与价格信息，无法完成支付闭环。美联航后端已按来源区分个人、旅行社与 AI 智能体，以技术手段落实封禁。
+
+综合多家信源，美联航给出的理由包括：共享登录凭证可能导致敏感数据泄露和非授权购买；联邦航空法规要求乘客本人确认托运行李无爆炸物，AI 智能体无法合法代劳；此外，美联航也不愿增加交易中间环节。尽管目前实际使用 AI 代理订票的量极低，但企业已提前设立防御性护栏。此举与近期美国银行、eBay 等机构对 AI 代理的限制形成共振，凸显航空与金融业在身份核验与合规责任上的共同困境。
+
+该事件标志着主流企业对自主代理的权限边界开始系统性收紧。在受监管行业，AI 代理落地需先解决身份验证、责任归属与法规遵从问题。美联航的封禁不影响 Kayak、Hopper、Google Flights 等聚合平台继续售票，但个人 AI 助手从“提供建议”走向“代办交易”的路径正面临企业侧阻力，代理式购物与支付场景短期内恐难突破合规壁垒。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, Rohan Paul (@rohanpaul_ai), The Verge AI, Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
+</item>
 <item><title>Anthropic 发布 Fable 5.2 千级智能体自主构建操作系统</title><link>https://todayforai.com/en/story/story-dc8382a0-0bf</link><guid isPermaLink="true">https://todayforai.com/en/story/story-dc8382a0-0bf</guid>
 <pubDate>Thu, 12 Nov 2026 23:30:01 +0800</pubDate>
 <description>&lt;p&gt;Anthropic 于 IPO 路演启动当天发布 Claude Fable 5.2 与 Mythos 5.2，从 Gemini 4 Carbon 手中夺回全球第一模型位置。Fable 5.2 以 65 分登顶 Artificial Analysis 智能指数 v5，领先 Gemini 4 Carbon 五分，较前代提升 15 分；在 Agent Arena 上以 +30.4% 净提升登顶，约为第二名 Opus-5.5 的 1.6 倍，Code、Chat、Work 三大类别全部第一。API 价格下调 20% 至每百万 token 输入 8 美元、输出 40 美元，生成速度最高提升 30%，并可选 2.5 倍速 Fast 模式。
@@ -43,14 +51,6 @@
 
 AlphaGenome 2 打通了单细胞生物学与人类遗传学，为科学家定位疾病细胞层面的驱动因素提供了新工具，有望加速从基因变异到疾病机制的解析，推动精准医疗与药物靶点发现。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;The Verge AI, IT之家 · 智能时代, Google DeepMind, Marktechpost (@Marktechpost), The Decoder&lt;/p&gt;</description>
 </item>
-<item><title>MiniMax 开源 H3-Image 生图模型 10 秒生成 4K 图像</title><link>https://todayforai.com/en/story/story-77b75cf4-9c6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-77b75cf4-9c6</guid>
-<pubDate>Thu, 12 Nov 2026 19:36:20 +0800</pubDate>
-<description>&lt;p&gt;MiniMax 正式开源 H3-Image 图像生成模型，支持文生图、图像参考与图像编辑，可在约 10 秒内生成 4096×4096 的 4K 图像，官方称速度约为主流水平的 5 倍。模型以开放权重形式发布，并同步上线 MiniMax API、MiniMax Code 与海螺 AI，同时接入 Arena 对战模式接受用户盲测。
-
-技术细节上，H3-Image 衍生自 H3 基座，单一 checkpoint 在六步采样内同时覆盖文生图与图像编辑，无需超分即可输出原生高分辨率，并支持最多 16 张参考图，指令遵循能力号称开源模型中最强。在 NVIDIA Vera Rubin 平台四卡配置下，原生 4K 生成中位延迟仅 0.87 秒，吞吐配置可达每小时 6115 张。摩尔线程 MTT S5000 也在开源首日完成适配，单卡即可生成 4K 图像，复用 SGLang、MATE、MCCL 等组件优化多参考图场景下的注意力开销。
-
-行业影响方面，H3-Image 以开源权重和高吞吐、低延迟特性，显著降低了高质量 4K 图像生成的门槛，有望推动内容创作、电商、设计等领域的效率提升。同时，其跨平台快速适配（NVIDIA 与摩尔线程）显示出生态协同的成熟，为后续生图、生视频模型的 Day-0 支持建立基础，进一步加剧开源图像生成赛道的竞争。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;vLLM 官方博客, Arena.ai (@arena), IT之家 · 智能时代, 量子位官网&lt;/p&gt;</description>
-</item>
 <item><title>百度发布 ERNIE 5.5 Flash 预览版 280B 模型并承诺开源</title><link>https://todayforai.com/en/story/story-bfcc16a2-cac</link><guid isPermaLink="true">https://todayforai.com/en/story/story-bfcc16a2-cac</guid>
 <pubDate>Thu, 12 Nov 2026 09:08:21 +0800</pubDate>
 <description>&lt;p&gt;百度正式发布 ERNIE 5.5 Flash Preview，这是文心大模型 Base 系列的首个后训练版本，总参数 280B、激活参数仅 14B，支持 1M Token 超长上下文，生成速度超过 200 tokens/秒。模型 API 已在百度千帆平台上线，官方承诺权重将于 11 月 25 日前以 Apache 2.0 协议开源。
@@ -59,13 +59,13 @@ AlphaGenome 2 打通了单细胞生物学与人类遗传学，为科学家定位
 
 此次发布标志着百度在高效推理架构与开源策略上迈出关键一步。280B 总参数仅激活 14B 的设计大幅降低推理成本，而 1M 上下文与 200+ tokens/秒的生成速度则瞄准了智能体与长链路工具调用场景。承诺开源权重有望吸引开发者生态，并在开源模型竞争中与 DeepSeek、Kimi、Qwen 等形成直接对标，进一步加剧国内大模型第一梯队的角逐。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Arena.ai (@arena), 量子位官网, 新智元 (微信公众号)&lt;/p&gt;</description>
 </item>
-<item><title>美联航禁止 AI 代理代订机票</title><link>https://todayforai.com/en/story/story-d0fe1a17-1c3</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d0fe1a17-1c3</guid>
-<pubDate>Thu, 12 Nov 2026 09:39:34 +0800</pubDate>
-<description>&lt;p&gt;美联航近日宣布，将阻止个人 AI 智能体在其系统上完成机票购买，成为首家对 AI 代理下单场景设限的主流航空公司。该公司表示，AI 代理仍可读取航班选项与价格信息，但无法完成支付闭环。核心障碍在于联邦法规要求乘客本人确认托运行李安全声明（如无爆炸物），而 AI 智能体无法合法代劳。此外，敏感支付凭证泄露风险以及 AI 可能误解用户意图导致非预期消费，也是重要考量。
+<item><title>MiniMax 开源 H3-Image 生图模型 10 秒生成 4K 图像</title><link>https://todayforai.com/en/story/story-77b75cf4-9c6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-77b75cf4-9c6</guid>
+<pubDate>Thu, 12 Nov 2026 19:36:20 +0800</pubDate>
+<description>&lt;p&gt;MiniMax 正式开源 H3-Image 图像生成模型，支持文生图、图像参考与图像编辑，可在约 10 秒内生成 4096×4096 的 4K 图像，官方称速度约为主流水平的 5 倍。模型以开放权重形式发布，并同步上线 MiniMax API、MiniMax Code 与海螺 AI，同时接入 Arena 对战模式接受用户盲测。
 
-美联航后端系统已按来源区分个人、旅行社与 AI 智能体，可标记每笔订单。尽管当前实际代理订票量极低，但此举标志着企业开始为自主代理的权限边界设立防御性护栏。值得注意的是，该限制不影响 Kayak、Hopper、Google Flights 等聚合平台继续售票。eBay 与多家大型银行也采取了类似限制，反映出代理式购物与支付场景正面临企业侧的普遍阻力。
+技术细节上，H3-Image 衍生自 H3 基座，单一 checkpoint 在六步采样内同时覆盖文生图与图像编辑，无需超分即可输出原生高分辨率，并支持最多 16 张参考图，指令遵循能力号称开源模型中最强。在 NVIDIA Vera Rubin 平台四卡配置下，原生 4K 生成中位延迟仅 0.87 秒，吞吐配置可达每小时 6115 张。摩尔线程 MTT S5000 也在开源首日完成适配，单卡即可生成 4K 图像，复用 SGLang、MATE、MCCL 等组件优化多参考图场景下的注意力开销。
 
-这一事件凸显了 AI 智能体在受监管行业落地时面临的合规与信任边界。身份验证、责任归属以及法定告知义务的履行，成为 AI 代理从“提供建议”走向“代办交易”必须跨越的门槛。随着更多企业效仿，AI 代理在电商、金融等领域的商业化进程可能放缓，行业需协同建立代理身份认证与授权框架，以平衡创新与风险。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), The Verge AI, Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
+行业影响方面，H3-Image 以开源权重和高吞吐、低延迟特性，显著降低了高质量 4K 图像生成的门槛，有望推动内容创作、电商、设计等领域的效率提升。同时，其跨平台快速适配（NVIDIA 与摩尔线程）显示出生态协同的成熟，为后续生图、生视频模型的 Day-0 支持建立基础，进一步加剧开源图像生成赛道的竞争。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;vLLM 官方博客, Arena.ai (@arena), IT之家 · 智能时代, 量子位官网&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 推出 Claude 办公套件 微软股价应声下跌 3.5%</title><link>https://todayforai.com/en/story/story-6b1d42f1-18b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-6b1d42f1-18b</guid>
 <pubDate>Wed, 11 Nov 2026 21:24:57 +0800</pubDate>
