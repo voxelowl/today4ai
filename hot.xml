@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Thu, 12 Nov 2026 18:11:29 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 12 Nov 2026 19:46:41 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>谷歌发布 Gemini Decision 1 单次调用并行千项判定</title><link>https://todayforai.com/en/story/story-0d6c164e-b26</link><guid isPermaLink="true">https://todayforai.com/en/story/story-0d6c164e-b26</guid>
 <pubDate>Thu, 12 Nov 2026 13:26:54 +0800</pubDate>
@@ -11,6 +11,14 @@
 
 作为首个由主流厂商推出的决策模型品类，Gemini Decision 1 将封闭式批量判定从传统规则引擎和单任务模型推向多模态、低成本、低延迟的新范式，有望重塑查询路由、内容分级与策略合规校验等场景的开发流程，但成本与精度短板也意味着该赛道竞争刚刚开始。&lt;/p&gt;&lt;p&gt;11 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, The Decoder, Artificial Analysis (@ArtificialAnlys), Google AI Blog, Simon Willison 博客, OpenRouter (@OpenRouter)&lt;/p&gt;</description>
 </item>
+<item><title>Anthropic 启动 IPO 路演 最高募资 904 亿美元</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
+<pubDate>Thu, 12 Nov 2026 19:46:41 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 正式启动首次公开募股路演，计划以每股 70 至 78 美元发行 8.25 亿股 A 类普通股，基础募资规模最高约 643.5 亿美元，并以代码 ANT 登陆纳斯达克。若计入向谷歌、英伟达、微软、台积电等七家巨头定向私募配售的 260 亿美元 N 类普通股，合计融资规模最高可达 904 亿美元，完全稀释估值约 1.4 万亿美元，成为 AI 行业迄今规模最大的资本事件。
+
+多方信源交叉验证显示，此次 IPO 历经波折：原定最高募资 693 亿美元的定价文件因细节不准确被临时撤回，估值预期也从传闻的 2 万亿美元下修至最低约 1.1 万亿美元，反映出市场对 AI 高估值的谨慎情绪。招股书披露，公司前九月营收 332.4 亿美元，同比增长约 1200%，但净亏损达 1040 亿美元，主要来自可转换票据公允价值变动。豪华基石投资者阵容与同价私募配售安排，为发行提供了关键锚定。
+
+作为头部大模型公司首次进入公开资本市场，Anthropic 的上市将成为 AI 产业估值逻辑与商业化能力的关键定价锚点。其以公共利益公司（PBC）身份运营，创始人通过特殊股权结构锁定 50.1% 投票权，确保控制权稳定。此次 IPO 不仅检验投资者对 AI 长期回报的信心，也为后续 AI 公司上市树立参照系，对全球科技资本格局产生深远影响。&lt;/p&gt;&lt;p&gt;9 sources&lt;/p&gt;&lt;p&gt;The Decoder, Hacker News AI, IT之家 · IT业界, Rohan Paul (@rohanpaul_ai), Anthropic News, 量子位官网&lt;/p&gt;</description>
+</item>
 <item><title>Google 发布 Gemini 4 Carbon 并预览智能体蜂群功能</title><link>https://todayforai.com/en/story/story-8356a9b1-b1c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-8356a9b1-b1c</guid>
 <pubDate>Wed, 11 Nov 2026 21:24:57 +0800</pubDate>
 <description>&lt;p&gt;Google 正式向所有付费开发者和 AI Ultra 订阅用户开放其迄今最强模型 Gemini 4 Carbon，距其通过 Fairwind 计划向网络安全防御者定向发布仅两周。Carbon 定位极限复杂任务，主打多步编码调试、开放式科研与网络安全，与上月发布的 Gemini 4 Argon 形成高低搭配，后者继续覆盖多数软件工程与知识工作场景。
@@ -18,14 +26,6 @@
 技术细节上，Carbon 在 CursorBench 4.0、WANDR 与 AutomationBench 上排名第一，单任务成本不到次优外部模型的一半。早期测试显示其 Terminal-Bench 作弊率与灰天鹅基准的提示注入成功率均降至 0%，安全代码编写速度达 Argon 的两倍，并在 Sec-Bench Pro 上发现 88% 的漏洞。定价沿用 Argon 的每百万 token 输入 2 美元、输出 10 美元，缓存输入享 95% 折扣，但推理与验证阶段会消耗更多 token。同时，Google 在智能体开发平台 Antigravity 上预览 swarm 蜂群功能，强化长周期智能体协作能力。
 
 此举标志着 Google 由追赶者重回前沿第一梯队，与 Anthropic、OpenAI 形成三方竞争。Carbon 在安全与长程任务上的突破，为无人值守智能体提供了可靠基础，而蜂群功能则指向多智能体协作的未来工作流，可能重塑开发者构建复杂 AI 应用的方式。&lt;/p&gt;&lt;p&gt;11 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, 宝玉 (@dotey), The Decoder, The Verge AI, Google DeepMind, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
-</item>
-<item><title>Anthropic 启动 IPO 路演 最高募资 904 亿美元</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
-<pubDate>Thu, 12 Nov 2026 18:11:29 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 正式启动首次公开募股（IPO）路演，计划以每股 70 至 78 美元发行 8.25 亿股 A 类普通股，基础发行规模最高约 643.5 亿美元，股票代码为 ANT，将登陆纳斯达克。若计入向谷歌、英伟达、微软、台积电等七家巨头定向发行的 260 亿美元 N 类普通股，合计融资规模最高可达 904 亿美元，完全稀释估值约 1.4 万亿美元，成为仅次于 SpaceX 的历史第二大 IPO。
-
-多方信源交叉验证显示，此次 IPO 细节经历多次调整。原定价文件因“细节不准确”在路演前数小时被撤回，发行价区间从 70 至 80 美元微调至 70 至 78 美元，最高募资额从 693 亿美元降至 643.5 亿美元。市场对 Anthropic 的估值预期也从传闻的 2 万亿美元下修至 1.1 万亿至 1.4 万亿美元区间，反映出科技股回调与 AI 基建投资情绪转冷的影响。财务数据显示，公司前九月营收 332.4 亿美元，同比增长约 1200%，但净亏损达 1040 亿美元，主要来自可转换票据公允价值变动。七位创始人通过 Class F 股锁定 50.1% 投票权，公开市场投资者对公司控制权影响有限。
-
-这场 IPO 被视为对 AI 产业估值逻辑的关键检验。Anthropic 作为头部大模型公司首次进入公开资本市场，其定价将成为 AI 行业估值与商业化能力的重要锚点。尽管面临高估值质疑与市场波动，公司仍规划约 9000 亿美元的算力与基础设施支出，凸显其对 AI 长期竞赛的押注。若成功上市，将重塑前沿 AI 实验室的资本竞争格局，并为后续 AI 公司上市提供参照。&lt;/p&gt;&lt;p&gt;9 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, The Verge AI, IT之家 · 智能时代, Anthropic News, 量子位官网, The Decoder&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 推出 Claude 办公套件 微软股价应声下跌 3.5%</title><link>https://todayforai.com/en/story/story-6b1d42f1-18b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-6b1d42f1-18b</guid>
 <pubDate>Wed, 11 Nov 2026 21:24:57 +0800</pubDate>
@@ -59,14 +59,6 @@ AlphaGenome 2 打通了单细胞生物学与人类遗传学，为科学家定位
 
 行业影响上，Fable 5.2 从 Gemini 4 Carbon 手中夺回全球第一模型位置，强化了 Anthropic 在 IPO 前夕的资本市场叙事。然而，由于 tok…&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;GREG ISENBERG (@gregisenberg), Artificial Analysis (@ArtificialAnlys), IT之家 · 智能时代, OpenRouter (@OpenRouter), 机器之心 (微信公众号), The Verge AI&lt;/p&gt;</description>
 </item>
-<item><title>DeepMind 智能体完成 Signal 加密代码形式化验证</title><link>https://todayforai.com/en/story/story-f85fa90a-617</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f85fa90a-617</guid>
-<pubDate>Thu, 12 Nov 2026 02:18:25 +0800</pubDate>
-<description>&lt;p&gt;Google DeepMind 发布 AlphaProof Code 框架，首次由 AI 智能体对 Signal 加密协议的实际生产代码完成关键安全属性的数学证明。该成果将智能体能力从代码生成推进到深度形式化验证，被视为软件安全领域的重大突破。
-
-技术细节上，AlphaProof Code 结合人类专家知识与 Gemini Carbon 智能体集群，为 Signal 编译后的机器码生成约 650 万行 Lean 形式化证明，在处理器指令层面验证消息保密性。证明由 Lean 检查器独立校验，无需信任 AI 或 Rust 编译器本身。整个项目耗时约 4 周，40 至 80 个智能体协作，人类仅负责设定安全目标并复核约 1% 的标记内容。该方法还能识别含已知漏洞的旧版实现并判定其验证失败，具备实用判别力。
-
-行业影响方面，这是首次对广泛使用的协议在机器码层面完成端到端形式化验证，覆盖了从设计到代码实现间的常见漏洞缝隙。尽管算力开销巨大、短期内难以大规模推广，但该工作展示了 AI 智能体在软件安全验证领域的巨大潜力，为保护数十亿次私密通信提供了数学级保障，有望推动形式化验证成为关键基础设施的标配。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Google DeepMind, Hacker News AI, Rohan Paul (@rohanpaul_ai), Ars Technica AI, The Decoder&lt;/p&gt;</description>
-</item>
 <item><title>百度发布 ERNIE 5.5 Flash 预览版 280B 模型并承诺开源</title><link>https://todayforai.com/en/story/story-bfcc16a2-cac</link><guid isPermaLink="true">https://todayforai.com/en/story/story-bfcc16a2-cac</guid>
 <pubDate>Thu, 12 Nov 2026 09:08:21 +0800</pubDate>
 <description>&lt;p&gt;百度正式发布 ERNIE 5.5 Flash Preview，这是文心大模型 Base 系列的首个后训练版本，总参数 280B、激活参数仅 14B，支持 1M Token 超长上下文，生成速度超过 200 tokens/秒。模型 API 已在百度千帆平台上线，官方承诺权重将于 11 月 25 日前以 Apache 2.0 协议开源。
@@ -82,6 +74,14 @@ AlphaGenome 2 打通了单细胞生物学与人类遗传学，为科学家定位
 技术细节上，H3-Image 衍生自 H3 基座，单一 checkpoint 在六步采样内同时覆盖文生图与图像编辑，无需超分即可输出原生高分辨率，并支持最多 16 张参考图，指令遵循能力号称开源模型中最强。在 NVIDIA Vera Rubin 平台四卡配置下，原生 4K 生成中位延迟仅 0.87 秒，吞吐配置可达每小时 6115 张。摩尔线程 MTT S5000 也在开源首日完成适配，单卡即可生成 4K 图像，复用 SGLang、MATE、MCCL 等组件优化多参考图场景下的注意力开销。
 
 行业影响方面，H3-Image 以开源权重和高吞吐、低延迟特性，显著降低了高质量 4K 图像生成的门槛，有望推动内容创作、电商、设计等领域的效率提升。同时，其跨平台快速适配（NVIDIA 与摩尔线程）显示出生态协同的成熟，为后续生图、生视频模型的 Day-0 支持建立基础，进一步加剧开源图像生成赛道的竞争。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;vLLM 官方博客, Arena.ai (@arena), IT之家 · 智能时代&lt;/p&gt;</description>
+</item>
+<item><title>OpenAI 内测认证商家智能体 打通商业交易入口</title><link>https://todayforai.com/en/story/story-f2335452-01f</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f2335452-01f</guid>
+<pubDate>Wed, 11 Nov 2026 06:55:36 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 正在内测一项名为“Businesses in ChatGPT”的新功能，允许美国电商与服务商家在 ChatGPT 内创建认证档案、上传含价格与库存的商品信息流，并配置专属的 Business Agent 智能体。这些智能体可代表品牌直接回答用户的产品咨询、辅助比价，并成为 ChatGPT 广告的投放载体。此举标志着 ChatGPT 从通用助手向商业交易与发现入口迈出关键一步，直接对标 Google My Business 与搜索广告模式。
+
+综合多家信源，商家可通过 Business Hub 认领并验证企业资料，接入产品数据源以提升回答准确性，同时查看对话曝光与网站点击等汇总数据。Business Agent 支持商家自定义指令与业务上下文，其对话与主对话隔离并明确标注，用户可在 ChatGPT 回复中直接发起比价、产品差异等追问。商家还可为智能体购买赞助展示位，赞助内容会清晰标注，分析数据经隐私保护处理，不暴露用户对话内容。目前该功能仅面向美国符合条件的电商与在线服务企业开放，Shopify 商家可直接接入。
+
+OpenAI 此举意在将 ChatGPT 每周 12 亿用户转化为商业流量入口，延续其此前电商化探索。通过认证商家智能体与广告载体的结合，OpenAI 正在构建一个从产品发现到交易转化的闭环，对 Google 的商家档案与搜索广告业务构成直接挑战。若测试顺利，该模式可能重塑对话式商务的生态格局，为商家提供新的流量阵地，同时也为 OpenAI 开辟广告营收新路径。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;The Decoder, The Verge AI, TechCrunch AI, IT之家 · 智能时代, GREG ISENBERG (@gregisenberg)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
