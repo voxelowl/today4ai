@@ -39,6 +39,15 @@
 <category>单细胞分析</category>
 <category>基础模型</category>
 </item>
+<item><title>Chrome Ships Modern Web Guidance 1.0 to Teach Coding Agents Web Expertise</title><link>https://developer.chrome.com/blog/modern-web-guidance-v1</link><guid isPermaLink="true">https://developer.chrome.com/blog/modern-web-guidance-v1</guid>
+<pubDate>Thu, 12 Nov 2026 07:22:29 +0800</pubDate>
+<description>&lt;p&gt;Chrome has released Modern Web Guidance 1.0, a stable skill set that injects expert-reviewed web platform best practices and cross-browser compatibility data directly into coding agents. Version 1.0 adds a modernization workflow that scans existing codebases, an expanded guidance database, a public evaluation dashboard, and expands into a cross-browser initiative with Firefox and Edge.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Chrome 推出 Modern Web Guidance 1.0 为编程智能体补齐 Web 专业知识&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是主流浏览器厂商首次以标准化技能形式向编码智能体注入 Web 平台知识，对使用 AI 写前端代码的开发者有直接实用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
+<source url="https://developer.chrome.com/blog/modern-web-guidance-v1">Hacker News AI</source>
+<category>开发者工具</category>
+<category>编码智能体</category>
+<category>Chrome</category>
+<category>Web 开发</category>
+</item>
 <item><title>Amazon Bedrock AgentCore Adds a Direct Web Search API</title><link>https://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore/</guid>
 <pubDate>Thu, 12 Nov 2026 07:13:16 +0800</pubDate>
 <description>&lt;p&gt;Amazon introduced a Web Search API for Bedrock AgentCore, letting developers retrieve ranked web results with text extracts, titles, URLs and publication times in a single API call instead of provisioning an AgentCore Gateway and MCP client. The lighter path targets code that only needs search results and is available in Oregon, Ireland, Tokyo and Sydney regions.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊 Bedrock AgentCore 推出 Web Search API&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AgentCore 检索能力的轻量化入口，降低了智能体接入实时网页信息的工程成本。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 58/100&lt;/p&gt;</description>
@@ -223,9 +232,9 @@
 <category>本地推理</category>
 <category>GGUF</category>
 </item>
-<item><title>Data Center Boom Faces Real-World Hurdles to Getting Built</title><link>https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/</link><guid isPermaLink="true">https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/</guid>
+<item><title>数据中心建设热潮遭遇落地瓶颈</title><link>https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/</link><guid isPermaLink="true">https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/</guid>
 <pubDate>Thu, 12 Nov 2026 04:15:15 +0800</pubDate>
-<description>&lt;p&gt;TechCrunch&amp;#x27;s Equity podcast highlights that many announced data center projects may never be built due to local opposition, permitting delays, and power constraints. Ascend Analytics executive Brent Nelson joins to distinguish realistic projects from speculative ones.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;数据中心建设热潮遭遇落地瓶颈&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;从算力基础设施落地视角审视 AI 数据中心项目的可行性风险，对关注算力供给的读者有参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · compute · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;TechCrunch 的 Equity 播客指出，当前大量宣布的数据中心项目可能根本无法落地，原因包括当地反对、审批延迟与电力供应紧张。Ascend Analytics 高管 Brent Nelson 参与讨论，帮助区分哪些项目现实可行、哪些只是投机性规划。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;从算力基础设施落地视角审视 AI 数据中心项目的可行性风险，对关注算力供给的读者有参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · compute · signal 42/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/">TechCrunch AI</source>
 <category>数据中心</category>
 <category>算力基础设施</category>
@@ -265,16 +274,6 @@
 <category>数据中心</category>
 <category>算力基础设施</category>
 <category>电力供应</category>
-</item>
-<item><title>谷歌推可穿戴健康年龄框架 模拟 12 周习惯轨迹</title><link>https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/</link><guid isPermaLink="true">https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/</guid>
-<pubDate>Thu, 12 Nov 2026 03:54:00 +0800</pubDate>
-<description>&lt;p&gt;谷歌研究团队提出 SensorWM 机器学习框架，将智能手表被动采集的生理信号转化为可干预的“可教练健康年龄”，并用动作条件世界模型模拟个性化 12 周习惯“假设”轨迹。该框架进一步扩展至常规血液生物标志物，用于追踪心血管-肾脏-代谢（CKM）早期风险，为个性化健康教练提供可验证的临床预后依据。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;将可穿戴信号与世界模型结合用于个性化健康干预，是 AI for Science 与消费级硬件交叉的代表性研究。&lt;/p&gt;&lt;p&gt;Google Research · llm · signal 72/100&lt;/p&gt;</description>
-<source url="https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/">Google Research</source>
-<category>AI for Science</category>
-<category>可穿戴设备</category>
-<category>世界模型</category>
-<category>健康管理</category>
-<category>Google Research</category>
 </item>
 </channel>
 </rss>
