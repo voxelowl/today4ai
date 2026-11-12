@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Thu, 12 Nov 2026 18:09:56 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 12 Nov 2026 18:45:33 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Ex-ByteDance Executive Chen Lin Returns with AI Education Startup Galaxy Zhixue</title><link>https://www.qbitai.com/2026/11/509404.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/509404.html</guid>
+<pubDate>Thu, 12 Nov 2026 18:45:33 +0800</pubDate>
+<description>&lt;p&gt;Chen Lin, former senior vice president of ByteDance, founded Galaxy Zhixue in December 2024 and used an education technology conference to detail the architecture of its product Xiaolu Aixue. The system pairs the Doubao foundation model with a self-developed learning engine built on deep knowledge tracing, item response theory and cognitive diagnosis, aiming to diagnose how students learn rather than merely generate solutions. The disclosure remains architectural and conceptual, with no verified large-scale classroom outcome data yet.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;陈林再创业银河智学 用双核架构切入课堂&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;明星创业者入局教育 AI 并披露具体技术栈，对关注垂直行业落地路径的读者有参考价值，但缺乏可验证效果数据。&lt;/p&gt;&lt;p&gt;量子位官网 · industry · signal 42/100&lt;/p&gt;</description>
+<source url="https://www.qbitai.com/2026/11/509404.html">量子位官网</source>
+<category>教育AI</category>
+<category>字节跳动</category>
+<category>智能学习引擎</category>
+<category>产业落地</category>
+</item>
+<item><title>Anthropic Kicks Off IPO Roadshow at $1.4 Trillion Valuation</title><link>https://www.qbitai.com/2026/11/509381.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/509381.html</guid>
+<pubDate>Thu, 12 Nov 2026 18:11:29 +0800</pubDate>
+<description>&lt;p&gt;Anthropic has officially launched its IPO roadshow, planning to offer 825 million shares at $70-78 each for a deal size of up to roughly $64.35 billion, with trading on Nasdaq under ticker ANT expected November 19. Amid a broad AI sector selloff, its potential valuation has fallen from about $2 trillion to roughly $1.4 trillion, a drop of around 30%, while early shareholders could cash out $22.1-24.6 billion on day one.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 启动 IPO 路演 估值缩水至 1.4 万亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 行业史上最大规模 IPO 之一的关键节点，估值缩水与市场恐慌情绪对判断 AI 资本周期具有重要参考价值。&lt;/p&gt;&lt;p&gt;量子位官网 · industry · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.qbitai.com/2026/11/509381.html">量子位官网</source>
+<category>Anthropic</category>
+<category>IPO</category>
+<category>估值</category>
+<category>纳斯达克</category>
+<category>AI 资本</category>
+</item>
 <item><title>Australia Drafts Law Mandating Independent Safety Audits for Frontier AI Models</title><link>https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing/</link><guid isPermaLink="true">https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing/</guid>
 <pubDate>Thu, 12 Nov 2026 18:09:56 +0800</pubDate>
 <description>&lt;p&gt;Australia&amp;#x27;s Albanese government unveiled its first mandatory safety law for frontier AI models, requiring developers to submit to independent audits, run continuous safety checks, publish safety frameworks, and report incidents immediately. A new oversight body will enforce compliance alongside the Australian AI Safety Institute with steep penalties, with details to follow public consultation.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;澳大利亚拟立法强制前沿模型接受独立安全审计&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是主要经济体首次以立法形式强制前沿模型开放独立审计，对全球 AI 监管走向与厂商合规成本有直接参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 72/100&lt;/p&gt;</description>
@@ -11,6 +30,15 @@
 <category>前沿模型</category>
 <category>澳大利亚</category>
 <category>AI 安全</category>
+</item>
+<item><title>Grok Build Apps Expose 35,000 Unauthenticated Endpoints</title><link>https://www.qbitai.com/2026/11/509355.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/509355.html</guid>
+<pubDate>Thu, 12 Nov 2026 18:08:24 +0800</pubDate>
+<description>&lt;p&gt;Security firm Claroc found that over 35,000 apps built with Grok are accessible without authentication, with roughly 650 to 800 containing private data, including internal sales tools and employee performance records from SpaceXSI, X and Tesla, plus ICU patient records and plaintext credentials. The root cause is that Grok assigns each app a hard-to-guess random subdomain but relies on obscurity rather than real access control. Apps created by SpaceXSI and X employees have been taken offline, while many third-party apps remain exposed.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Grok 构建应用泄露 3.5 万个未授权访问入口&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 编程平台出现大规模鉴权缺失导致真实机密外泄，是 AI 应用安全范式的标志性事件。&lt;/p&gt;&lt;p&gt;量子位官网 · industry · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.qbitai.com/2026/11/509355.html">量子位官网</source>
+<category>AI 安全</category>
+<category>Grok</category>
+<category>数据泄露</category>
+<category>Vibe Coding</category>
 </item>
 <item><title>Hong Kong Launches First HarmonyOS Government App iAM Smart</title><link>https://www.ithome.com/1/026/299.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/299.htm</guid>
 <pubDate>Thu, 12 Nov 2026 18:05:30 +0800</pubDate>
@@ -56,6 +84,16 @@
 <category>AI 估值</category>
 <category>数据中心</category>
 </item>
+<item><title>ZTE Xuanji Builds Ontology-Driven Semantic Layer for Enterprise AI</title><link>https://www.qbitai.com/2026/11/509349.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/509349.html</guid>
+<pubDate>Thu, 12 Nov 2026 17:34:06 +0800</pubDate>
+<description>&lt;p&gt;ZTE has introduced Xuanji, an ontology-driven semantic software platform aimed at filling the enterprise semantic gap left by LLMs and RAG. It organizes business knowledge as concepts, attributes, relations and rules, maps them to database tables, fields and APIs, and turns natural-language questions into structured queries and rule-based reasoning. The platform connects multi-source data below and exposes REST API, GUI, LUI, SDK, Webhook and Skills/Tool/MCP interfaces to agents and business applications across procurement, supply chain and finance.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;中兴璇玑以本体语义构建企业 AI 基础设施&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出以本体语义层补足企业 AI 语义缺口的架构思路，但属厂商授权转载，缺少参数与可验证落地数据。&lt;/p&gt;&lt;p&gt;量子位官网 · tools · signal 38/100&lt;/p&gt;</description>
+<source url="https://www.qbitai.com/2026/11/509349.html">量子位官网</source>
+<category>企业AI</category>
+<category>本体语义</category>
+<category>中兴通讯</category>
+<category>RAG</category>
+<category>智能体</category>
+</item>
 <item><title>South Korea Unveils 40 Million Dollar Edge AI Chip Roadmap for 2030</title><link>https://www.ithome.com/1/026/284.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/284.htm</guid>
 <pubDate>Thu, 12 Nov 2026 17:30:31 +0800</pubDate>
 <description>&lt;p&gt;South Korea&amp;#x27;s Ministry of Trade, Industry and Energy unveiled a roadmap for edge AI semiconductor development, committing 800.2 billion won (about 400 million yuan) to complete development and validation of 10 AI chips by 2030. The chips target smart appliances, autonomous driving, collaborative and humanoid robots, agricultural robots, drones, plus advanced-node and extreme-environment projects, with Samsung and other foundries prioritizing MPW tape-out slots and IP vendors cutting design costs.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;韩国投 40 亿元推进端侧 AI 芯片 2030 年验证 10 款&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国家级端侧 AI 芯片路线图落地，涉及代工产能与 IP 成本机制，是观察 AI 算力供应链区域化的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 62/100&lt;/p&gt;</description>
@@ -64,6 +102,15 @@
 <category>AI 芯片</category>
 <category>韩国</category>
 <category>半导体</category>
+</item>
+<item><title>Holiday Extras Rebuilds Core App with Codex in Two Weeks</title><link>https://openai.com/business/customer-stories/holidays-extras-codex</link><guid isPermaLink="true">https://openai.com/business/customer-stories/holidays-extras-codex</guid>
+<pubDate>Thu, 12 Nov 2026 17:30:00 +0800</pubDate>
+<description>&lt;p&gt;Travel technology company Holiday Extras extended its company-wide ChatGPT Enterprise rollout into software building with Codex, producing a fully working rebuild of its main app within two weeks and shifting from an annual release cycle to continuous iteration. CEO Matthew Pack uses Codex himself to reset the organization&amp;#x27;s expectations of what it can build.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Holiday Extras 用 Codex 两周重建主应用&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是一则厂商客户案例，展示了 Codex 在企业内部从辅助工具走向核心软件生产的具体路径，对关注 AI 编程落地节奏的读者有参考价值。&lt;/p&gt;&lt;p&gt;OpenAI 官方博客 · tools · signal 38/100&lt;/p&gt;</description>
+<source url="https://openai.com/business/customer-stories/holidays-extras-codex">OpenAI 官方博客</source>
+<category>Codex</category>
+<category>OpenAI</category>
+<category>AI 编程</category>
+<category>企业落地</category>
 </item>
 <item><title>Foxconn Warns Chip and Memory Shortages to Persist Through 2027</title><link>https://www.ithome.com/1/026/277.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/277.htm</guid>
 <pubDate>Thu, 12 Nov 2026 17:17:10 +0800</pubDate>
@@ -130,6 +177,15 @@
 <category>日本</category>
 <category>AI 安全</category>
 </item>
+<item><title>Anthropic Glasswing Finds 38,000 Flaws but Fixes Only 217</title><link>https://www.qbitai.com/2026/11/509291.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/509291.html</guid>
+<pubDate>Thu, 12 Nov 2026 15:55:11 +0800</pubDate>
+<description>&lt;p&gt;VulnCheck&amp;#x27;s tracking shows that seven months into Anthropic&amp;#x27;s Project Glasswing, Claude has produced 37,966 candidate vulnerabilities while only 217 have been recorded as fixed publicly, with roughly 12,000 new candidates but just 15 new fixes in the past two months. With 419 retractions and 1,654 duplicates, the data exposes a severe mismatch between AI-driven vulnerability discovery and the open-source community&amp;#x27;s capacity to remediate.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 玻璃翼计划挖出 3.8 万漏洞仅修复 217 条&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以具体追踪数据揭示 AI 安全挖洞与修复闭环断裂，对关注 AI 安全落地的读者有实质参考价值。&lt;/p&gt;&lt;p&gt;量子位官网 · industry · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.qbitai.com/2026/11/509291.html">量子位官网</source>
+<category>AI 安全</category>
+<category>Anthropic</category>
+<category>开源安全</category>
+<category>漏洞修复</category>
+</item>
 <item><title>SK Hynix HBM4 Yield Tops 70 Percent as Mass Production Race Heats Up</title><link>https://www.ithome.com/1/026/105.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/105.htm</guid>
 <pubDate>Thu, 12 Nov 2026 15:26:57 +0800</pubDate>
 <description>&lt;p&gt;SK Hynix&amp;#x27;s HBM4 yield has reportedly surpassed 70%, a level that could lift output by roughly 16.7% at equal production input versus 60%, seen as the key variable for mass-production competitiveness in next-gen high-bandwidth memory. Samsung is said to be near 80% and Micron is pushing hard, with early HBM4 yield and stable supply expected to shape future market share.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SK 海力士 HBM4 良率突破 70% 加速量产竞赛&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;HBM4 良率是决定 AI 算力供给与成本的硬指标，头部三家厂商的良率竞赛直接影响下一代加速卡的产能节奏。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 68/100&lt;/p&gt;</description>
@@ -157,9 +213,9 @@
 <category>国产 CPU</category>
 <category>AI 基础设施</category>
 </item>
-<item><title>SoftBank Leads $500M Round in Agile Robots at $8.5B Valuation</title><link>https://www.ithome.com/1/026/072.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/072.htm</guid>
+<item><title>软银领投 Agile Robots 5 亿美元融资 估值达 85 亿美元</title><link>https://www.ithome.com/1/026/072.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/072.htm</guid>
 <pubDate>Thu, 12 Nov 2026 14:40:38 +0800</pubDate>
-<description>&lt;p&gt;Munich-based humanoid robot maker Agile Robots raised $500M led by SoftBank Group, with Nvidia, Hitachi and T.Capital participating, lifting its valuation to $8.5B and cumulative funding to roughly $2B. The capital will scale manufacturing and US expansion, with the company targeting about 2,000 humanoid units in 2026 and already testing systems at customers including Audi.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;软银领投 Agile Robots 5 亿美元融资 估值达 85 亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;软银领投的 5 亿美元大额融资叠加明确的人形机器人量产爬坡计划，是具身智能产业化的重要资本信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;德国慕尼黑人形机器人制造商 Agile Robots 完成 5 亿美元新一轮融资，由软银集团领投，英伟达、日立与 T.Capital 参投，公司估值升至 85 亿美元，累计融资约 20 亿美元。资金将用于扩大美国等市场业务与制造产能，公司预计 2026 年生产约 2000 台人形机器人，并已在奥迪等制造业客户现场测试最新系统。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;软银领投的 5 亿美元大额融资叠加明确的人形机器人量产爬坡计划，是具身智能产业化的重要资本信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/026/072.htm">IT之家 · 智能时代</source>
 <category>具身智能</category>
 <category>人形机器人</category>
@@ -167,45 +223,45 @@
 <category>软银</category>
 <category>Agile Robots</category>
 </item>
-<item><title>Foxconn Net Profit Jumps 30% on Surging AI Server Demand</title><link>https://www.ithome.com/1/026/063.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/063.htm</guid>
+<item><title>鸿海前三季净利 1874 亿新台币 同比增长 30%</title><link>https://www.ithome.com/1/026/063.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/063.htm</guid>
 <pubDate>Thu, 12 Nov 2026 14:33:59 +0800</pubDate>
-<description>&lt;p&gt;Foxconn posted record first-nine-month results for 2026, with revenue of NT$7.66 trillion and net profit of NT$187.417 billion, up 30% year on year, driven by booming AI server demand. The company said Vera Rubin server shipments are ramping and 800G switches plus CPO all-optical switches are on schedule for mass production, keeping its strong growth outlook intact.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;鸿海前三季净利 1874 亿新台币 同比增长 30%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球最大 EMS 厂商的 AI 服务器业务放量节奏，是观察算力供应链景气度的关键指标。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;鸿海 2026 年前三季度营收 7.66 万亿新台币、归母净利润 1874.17 亿新台币，均创同期新高，AI 服务器需求爆发是核心拉动。公司称 Vera Rubin 服务器出货爬升、800G 交换机与 CPO 全光交换机按计划量产，对第四季度及全年维持强劲成长展望。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球最大 EMS 厂商的 AI 服务器业务放量节奏，是观察算力供应链景气度的关键指标。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/026/063.htm">IT之家 · IT业界</source>
 <category>AI 服务器</category>
 <category>鸿海</category>
 <category>算力供应链</category>
 <category>财报</category>
 </item>
-<item><title>ByteDance Volcengine Launches Seedance 2.5 Flash Video Model</title><link>https://www.ithome.com/1/026/069.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/069.htm</guid>
+<item><title>字节发布 Seedance 2.5 flash 视频模型 生成速度翻倍</title><link>https://www.ithome.com/1/026/069.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/069.htm</guid>
 <pubDate>Thu, 12 Nov 2026 14:33:05 +0800</pubDate>
-<description>&lt;p&gt;ByteDance&amp;#x27;s Volcengine has launched Seedance 2.5 Flash, a video generation model it says comes closest to the flagship Seedance 2.5 while doubling generation speed and cutting cost. At 720P, text-to-video and image-to-video generation costs about 0.99 yuan per second, roughly 34% less than the flagship. The model supports clips up to 30 seconds and accepts up to 10 images, 5 videos and 5 audio tracks per request at 480P or 720P, with the API arriving on Volcano Ark on November 15.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;字节发布 Seedance 2.5 flash 视频模型 生成速度翻倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;视频生成模型以速度翻倍、降价 34% 切入批量生产场景，是 AI 视频商业化落地的实质进展。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 68/100&lt;/p&gt;</description>
+<description>&lt;p&gt;字节火山引擎正式发布视频生成模型 Seedance 2.5 flash，官方称其效果最接近旗舰 Seedance 2.5，生成速度提升一倍，720P 文生视频与图生视频价格约 0.99 元/秒，较旗舰降低约 34%。该模型单段最长支持 30 秒生成，单次最多输入 10 张图片、5 段视频与 5 段音频，提供 480P 与 720P 两档分辨率，API 将于 11 月 15 日上线火山方舟。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;视频生成模型以速度翻倍、降价 34% 切入批量生产场景，是 AI 视频商业化落地的实质进展。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 68/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/026/069.htm">IT之家 · 智能时代</source>
 <category>视频生成</category>
 <category>字节跳动</category>
 <category>火山引擎</category>
 <category>Seedance</category>
 </item>
-<item><title>Chongqing Targets Over 100,000 Petaflops of Dispatchable AI Compute by 2028</title><link>https://www.ithome.com/1/026/066.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/066.htm</guid>
+<item><title>重庆规划 2028 年可调度智算规模超 10 万 P</title><link>https://www.ithome.com/1/026/066.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/066.htm</guid>
 <pubDate>Thu, 12 Nov 2026 14:28:54 +0800</pubDate>
-<description>&lt;p&gt;Chongqing has set a target of more than 100,000 petaflops of dispatchable intelligent computing capacity by 2028, alongside buildout of scheduling platforms and network infrastructure. It is one of the few explicit municipal-level AI compute targets in China, signaling a shift from isolated data centers toward cross-region schedulable capacity.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;重庆规划 2028 年可调度智算规模超 10 万 P&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;地方政府给出明确的智算规模量化目标，对关注国内算力供给与调度体系建设的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;重庆发布算力基础设施规划，提出到 2028 年全市可调度智算规模超过 10 万 P，并同步推进算力调度平台与网络建设。这是地方政府层面少见的明确智算量级目标，反映国内算力供给正从单点建设转向跨区域可调度体系。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;地方政府给出明确的智算规模量化目标，对关注国内算力供给与调度体系建设的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/026/066.htm">IT之家 · 智能时代</source>
 <category>算力基础设施</category>
 <category>智算中心</category>
 <category>重庆</category>
 <category>产业政策</category>
 </item>
-<item><title>Vitaura Named to The Information&#x27;s 50 Most Promising Startups</title><link>https://www.qbitai.com/2026/11/509285.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/509285.html</guid>
+<item><title>百曜科技入选 The Information 全球潜力 50 强</title><link>https://www.qbitai.com/2026/11/509285.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/509285.html</guid>
 <pubDate>Thu, 12 Nov 2026 14:13:22 +0800</pubDate>
-<description>&lt;p&gt;Vitaura was named to The Information&amp;#x27;s 2026 list of the 50 Most Promising Startups, one of only six Asian companies selected. Its AURA CellOS models human cell behavior with a world model and is among the earlier human-cell AI models built on a joint embedding predictive architecture; the team placed second globally in the all-around track of the Arc Institute Virtual Cell Challenge and has a research collaboration with 10x Genomics.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;百曜科技入选 The Information 全球潜力 50 强&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是企业入选榜单的公关稿，但披露了 AIVC 方向的具体技术路线与竞赛、合作事实，对关注 AI for Science 的读者有参考价值。&lt;/p&gt;&lt;p&gt;量子位官网 · industry · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;百曜科技（Vitaura）入选 The Information 2026 年全球最具潜力 50 家初创公司榜单，亚洲仅 6 家上榜。其 AURA CellOS 以世界模型模拟人类细胞行为，是较早采用联合嵌入预测架构（JEPA）的人类细胞 AI 模型之一，团队曾在 Arc Institute 虚拟细胞挑战赛获全能组全球第二，并与 10x Genomics 建立研究合作。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是企业入选榜单的公关稿，但披露了 AIVC 方向的具体技术路线与竞赛、合作事实，对关注 AI for Science 的读者有参考价值。&lt;/p&gt;&lt;p&gt;量子位官网 · industry · signal 38/100&lt;/p&gt;</description>
 <source url="https://www.qbitai.com/2026/11/509285.html">量子位官网</source>
 <category>AI for Science</category>
 <category>虚拟细胞</category>
 <category>初创公司</category>
 <category>The Information</category>
 </item>
-<item><title>Tongxin Intelligence Raises Hundreds of Millions for AGI Chip Prototype</title><link>https://www.ithome.com/1/026/050.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/050.htm</guid>
+<item><title>通芯智能完成数亿元融资 首款 AGI 芯片 12 月原型验证</title><link>https://www.ithome.com/1/026/050.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/050.htm</guid>
 <pubDate>Thu, 12 Nov 2026 13:52:14 +0800</pubDate>
-<description>&lt;p&gt;Tongxin Intelligence reportedly closed a funding round in the hundreds of millions of yuan to develop its first chip targeting AGI workloads. The chip is slated for prototype validation in December, still an early pre-tapeout stage with no disclosed architecture or performance figures.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;通芯智能完成数亿元融资 首款 AGI 芯片 12 月原型验证&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国内 AGI 专用芯片新玩家获大额融资，为算力自主路线提供新的观察样本。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;通芯智能据称已完成数亿元融资，资金将用于其首款面向 AGI 负载的芯片研发。该芯片计划于今年 12 月开展原型验证，目前仍处于流片前的早期工程阶段，尚无公开的架构参数与性能数据。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国内 AGI 专用芯片新玩家获大额融资，为算力自主路线提供新的观察样本。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/026/050.htm">IT之家 · 智能时代</source>
 <category>芯片算力</category>
 <category>融资</category>
@@ -219,60 +275,6 @@
 <category>端侧 AI</category>
 <category>隐私计算</category>
 <category>智能家居</category>
-</item>
-<item><title>三星投 46 万亿韩元建 HBM 先进封装产线</title><link>https://www.ithome.com/1/026/045.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/045.htm</guid>
-<pubDate>Thu, 12 Nov 2026 13:45:21 +0800</pubDate>
-<description>&lt;p&gt;三星电子在韩国温阳产区动工建设 HBM 后端先进封装新产线，包含 5 条生产线，总投资 46 万亿韩元（约 2295 亿元人民币），其中设备投资 40 万亿韩元。项目计划 2028 年投产，洁净室面积 3.1 万平方米，将显著扩大其 HBM 封装产能。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;三星以 46 万亿韩元重注 HBM 先进封装产能，是 AI 算力供应链扩产的关键节点。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 72/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/026/045.htm">IT之家 · IT业界</source>
-<category>HBM</category>
-<category>三星电子</category>
-<category>先进封装</category>
-<category>算力基础设施</category>
-</item>
-<item><title>美商务部拟新规 封堵中企经第三国租用 Blackwell</title><link>https://x.com/rohanpaul_ai/status/2120750427914514731</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120750427914514731</guid>
-<pubDate>Thu, 12 Nov 2026 13:27:58 +0800</pubDate>
-<description>&lt;p&gt;美国商务部拟出台新规，要求新加坡、马来西亚、泰国、印尼、巴西、挪威、南非等国出口英伟达 Blackwell 及更新代芯片须申请许可证，并披露最终收货方与用途、接受持续监控。该规则同时针对远程算力租用与芯片走私两条路径，实质是将算力出口管制从货物贸易延伸至云租赁环节。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;算力出口管制首次明确覆盖第三国数据中心租赁，直接影响中企海外训练算力供给路径。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2120750427914514731">Rohan Paul (@rohanpaul_ai)</source>
-<category>算力出口管制</category>
-<category>英伟达</category>
-<category>数据中心</category>
-<category>地缘政策</category>
-</item>
-<item><title>李彦宏称具身智能相当于 2016 年无人驾驶水平</title><link>https://www.ithome.com/1/026/042.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/042.htm</guid>
-<pubDate>Thu, 12 Nov 2026 13:27:15 +0800</pubDate>
-<description>&lt;p&gt;在百度世界 2026 大会上，李彦宏将当前具身智能的发展阶段类比为 2016 年前后的无人驾驶，认为其仍需长期技术积累。他同时强调无人驾驶是 AI 竞争不可或缺的一环，并披露萝卜快跑与神州租车合作推出全球唯一的无人车租车模式，已在海南运营超过一年。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;行业领袖对具身智能发展阶段的公开判断，附带无人车商业化落地进展，具备一定行业参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/026/042.htm">IT之家 · 智能时代</source>
-<category>具身智能</category>
-<category>无人驾驶</category>
-<category>百度</category>
-<category>萝卜快跑</category>
-</item>
-<item><title>谷歌抢先发布 Gemini Decision 1 决策模型</title><link>https://latent.space/p/ainews-d-day-decision-models-day/</link><guid isPermaLink="true">https://latent.space/p/ainews-d-day-decision-models-day/</guid>
-<pubDate>Thu, 12 Nov 2026 13:26:54 +0800</pubDate>
-<description>&lt;p&gt;谷歌在 AIE CODE 活动上抢先 Anthropic 发布 Gemini Decision 1，这是一款校准过的多模态决策模型，支持最多 1000 个问题输入，每百万输入 token 定价 0.10 美元，端到端延迟约 200ms。此举标志着“决策模型”作为独立产品品类正式进入生产可用阶段，谷歌在与 Anthropic 的发布竞赛中取得先手。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;谷歌抢先发布生产级决策模型，定价与延迟参数明确，是模型品类扩展的重要节点。&lt;/p&gt;&lt;p&gt;Latent Space · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://latent.space/p/ainews-d-day-decision-models-day/">Latent Space</source>
-<category>大模型</category>
-<category>谷歌</category>
-<category>决策模型</category>
-<category>Gemini</category>
-</item>
-<item><title>Claude 10 月访问量 12.53 亿次创历史新高</title><link>https://www.ithome.com/1/026/041.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/041.htm</guid>
-<pubDate>Thu, 12 Nov 2026 13:26:26 +0800</pubDate>
-<description>&lt;p&gt;Similarweb 数据显示，Claude 今年 10 月网站访问量约 12.53 亿次，环比增长 23.8%，同比增长 536.3%，成为全球第三大 AI 聊天机器人网站。该增长恰逢 Anthropic 筹备 IPO，但需注意该指标为网站访问次数而非独立用户数，且不含原生应用流量。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Claude 流量激增与 Anthropic IPO 进程叠加，是观察 AI 助手竞争格局与商业化的关键窗口。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/026/041.htm">IT之家 · IT业界</source>
-<category>Anthropic</category>
-<category>Claude</category>
-<category>IPO</category>
-<category>AI 聊天机器人</category>
-</item>
-<item><title>佐治亚居民起诉 OpenAI 与县政府 涉 200 亿美元数据中心</title><link>https://x.com/rohanpaul_ai/status/2120748380699935086</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120748380699935086</guid>
-<pubDate>Thu, 12 Nov 2026 13:19:50 +0800</pubDate>
-<description>&lt;p&gt;佐治亚州居民依据该州反敲诈勒索法起诉 OpenAI 及县官员，指控双方在未公开的情况下秘密推进一座 200 亿美元数据中心项目，并寻求三倍损害赔偿。诉状称县开发机构负责人早在 2025 年 10 月即与 OpenAI 签署保密协议，比公开宣布提前约 9 个月，且以“Project Gateway”名义过会、跳过两次必要听证。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 算力基建扩张首次遭遇反敲诈勒索法诉讼，凸显数据中心落地中的程序合规与社区冲突风险。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2120748380699935086">Rohan Paul (@rohanpaul_ai)</source>
-<category>数据中心</category>
-<category>OpenAI</category>
-<category>诉讼</category>
-<category>算力基建</category>
 </item>
 </channel>
 </rss>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Thu, 12 Nov 2026 13:26:54 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 12 Nov 2026 18:11:29 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>谷歌发布 Gemini Decision 1 单次调用并行千项判定</title><link>https://todayforai.com/en/story/story-0d6c164e-b26</link><guid isPermaLink="true">https://todayforai.com/en/story/story-0d6c164e-b26</guid>
 <pubDate>Thu, 12 Nov 2026 13:26:54 +0800</pubDate>
@@ -11,14 +11,6 @@
 
 作为首个由主流厂商推出的决策模型品类，Gemini Decision 1 将封闭式批量判定从传统规则引擎和单任务模型推向多模态、低成本、低延迟的新范式，有望重塑查询路由、内容分级与策略合规校验等场景的开发流程，但成本与精度短板也意味着该赛道竞争刚刚开始。&lt;/p&gt;&lt;p&gt;11 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, The Decoder, Artificial Analysis (@ArtificialAnlys), Google AI Blog, Simon Willison 博客, OpenRouter (@OpenRouter)&lt;/p&gt;</description>
 </item>
-<item><title>Anthropic 启动 IPO 路演 最高募资 904 亿美元</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
-<pubDate>Wed, 11 Nov 2026 23:11:59 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 于本周正式启动 IPO 路演，计划以每股 70 至 78 美元发行 8.25 亿股 A 类普通股，基础募资规模最高约 643.5 亿美元，并以代码 ANT 登陆纳斯达克。若计入向谷歌、英伟达、微软、台积电等七家巨头定向发行的 260 亿美元 N 类普通股，合计融资规模最高可达 904 亿美元，完全稀释估值约 1.4 万亿美元，成为仅次于 SpaceX 的历史第二大 IPO。
-
-综合多源信息，此次发行约 8.01 亿股为新股，老股东仅出售约 2360 万股，资金几乎全部流入公司。七家战略投资者将以发行价认购且不受禁售期约束，凸显产业资本对 Anthropic 的深度绑定。财务数据显示，公司前九月营收 332.4 亿美元，同比增长约 1200%，但净亏损达 1040 亿美元，主要来自可转换票据公允价值变动。值得注意的是，此前公司曾撤回原定价文件，且市场估值预期一度从 2 万亿美元下修至最低 1.1 万亿美元，近期因需求旺盛又上调至 1.5 万亿美元以上，最终定价区间仍存变数。
-
-这场 IPO 被视为对 AI 产业估值逻辑的关键检验。若成功上市，Anthropic 将成为首家进入公开资本市场的头部大模型公司，为后续 AI 实验室的资本化路径提供定价锚点。其规划的约 9000 亿美元算力与基础设施支出，也预示着 AI 军备竞赛将进一步升级。然而，高估值与巨额亏损并存，叠加科技股回调与中期选举后市场对 AI 基建的谨慎情绪，公开市场投资者是否买单，将深刻影响整个 AI 行业的融资环境与竞争格局。&lt;/p&gt;&lt;p&gt;12 sources&lt;/p&gt;&lt;p&gt;量子位官网, 量子位 (微信公众号), IT之家 · IT业界, The Verge AI, Rohan Paul (@rohanpaul_ai), Simon Willison 博客&lt;/p&gt;</description>
-</item>
 <item><title>Google 发布 Gemini 4 Carbon 并预览智能体蜂群功能</title><link>https://todayforai.com/en/story/story-8356a9b1-b1c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-8356a9b1-b1c</guid>
 <pubDate>Wed, 11 Nov 2026 21:24:57 +0800</pubDate>
 <description>&lt;p&gt;Google 正式向所有付费开发者和 AI Ultra 订阅用户开放其迄今最强模型 Gemini 4 Carbon，距其通过 Fairwind 计划向网络安全防御者定向发布仅两周。Carbon 定位极限复杂任务，主打多步编码调试、开放式科研与网络安全，与上月发布的 Gemini 4 Argon 形成高低搭配，后者继续覆盖多数软件工程与知识工作场景。
@@ -26,6 +18,14 @@
 技术细节上，Carbon 在 CursorBench 4.0、WANDR 与 AutomationBench 上排名第一，单任务成本不到次优外部模型的一半。早期测试显示其 Terminal-Bench 作弊率与灰天鹅基准的提示注入成功率均降至 0%，安全代码编写速度达 Argon 的两倍，并在 Sec-Bench Pro 上发现 88% 的漏洞。定价沿用 Argon 的每百万 token 输入 2 美元、输出 10 美元，缓存输入享 95% 折扣，但推理与验证阶段会消耗更多 token。同时，Google 在智能体开发平台 Antigravity 上预览 swarm 蜂群功能，强化长周期智能体协作能力。
 
 此举标志着 Google 由追赶者重回前沿第一梯队，与 Anthropic、OpenAI 形成三方竞争。Carbon 在安全与长程任务上的突破，为无人值守智能体提供了可靠基础，而蜂群功能则指向多智能体协作的未来工作流，可能重塑开发者构建复杂 AI 应用的方式。&lt;/p&gt;&lt;p&gt;11 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, 宝玉 (@dotey), The Decoder, The Verge AI, Google DeepMind, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
+</item>
+<item><title>Anthropic 启动 IPO 路演 最高募资 904 亿美元</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
+<pubDate>Thu, 12 Nov 2026 18:11:29 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 正式启动首次公开募股（IPO）路演，计划以每股 70 至 78 美元发行 8.25 亿股 A 类普通股，基础发行规模最高约 643.5 亿美元，股票代码为 ANT，将登陆纳斯达克。若计入向谷歌、英伟达、微软、台积电等七家巨头定向发行的 260 亿美元 N 类普通股，合计融资规模最高可达 904 亿美元，完全稀释估值约 1.4 万亿美元，成为仅次于 SpaceX 的历史第二大 IPO。
+
+多方信源交叉验证显示，此次 IPO 细节经历多次调整。原定价文件因“细节不准确”在路演前数小时被撤回，发行价区间从 70 至 80 美元微调至 70 至 78 美元，最高募资额从 693 亿美元降至 643.5 亿美元。市场对 Anthropic 的估值预期也从传闻的 2 万亿美元下修至 1.1 万亿至 1.4 万亿美元区间，反映出科技股回调与 AI 基建投资情绪转冷的影响。财务数据显示，公司前九月营收 332.4 亿美元，同比增长约 1200%，但净亏损达 1040 亿美元，主要来自可转换票据公允价值变动。七位创始人通过 Class F 股锁定 50.1% 投票权，公开市场投资者对公司控制权影响有限。
+
+这场 IPO 被视为对 AI 产业估值逻辑的关键检验。Anthropic 作为头部大模型公司首次进入公开资本市场，其定价将成为 AI 行业估值与商业化能力的重要锚点。尽管面临高估值质疑与市场波动，公司仍规划约 9000 亿美元的算力与基础设施支出，凸显其对 AI 长期竞赛的押注。若成功上市，将重塑前沿 AI 实验室的资本竞争格局，并为后续 AI 公司上市提供参照。&lt;/p&gt;&lt;p&gt;9 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, The Verge AI, IT之家 · 智能时代, Anthropic News, 量子位官网, The Decoder&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 推出 Claude 办公套件 微软股价应声下跌 3.5%</title><link>https://todayforai.com/en/story/story-6b1d42f1-18b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-6b1d42f1-18b</guid>
 <pubDate>Wed, 11 Nov 2026 21:24:57 +0800</pubDate>
