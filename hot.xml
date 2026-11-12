@@ -9,7 +9,7 @@
 
 据 Artificial Analysis 评测，Gemini Decision 1 在决策指数 v2.1 上得分 66，与 Elephant 9B、Jev 1.14 持平，但落后领先者 Drex Max v1.1 与 GLiDE v1.2 达 7 分；其在知识与推理基准上领先，但每百万任务成本约 345 美元，是 Drex Max v1.1 的三倍多，且在分类与抽取基准 AA-Paperclip 上明显落后。谷歌内部已将其用于 Gemini Notebook 的动态模型路由、Stitch 的设计原型与搜索安全审核，验证了高并发实时决策场景的可行性。
 
-作为首个由主流厂商推出的决策模型品类，Gemini Decision 1 将封闭式批量判定从传统规则引擎和单任务模型推向多模态、低成本、低延迟的新范式，有望重塑查询路由、内容分级与策略合规校验等场景的开发流程，但成本与精度短板也意味着该赛道竞争刚刚开始。&lt;/p&gt;&lt;p&gt;11 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, The Decoder, Artificial Analysis (@ArtificialAnlys), Google AI Blog, Simon Willison 博客, OpenRouter (@OpenRouter)&lt;/p&gt;</description>
+作为首个由主流厂商推出的决策模型品类，Gemini Decision 1 将封闭式批量判定从传统规则引擎和单任务模型推向多模态、低成本、低延迟的新范式，有望重塑查询路由、内容分级与策略合规校验等场景的开发流程，但成本与精度短板也意味着该赛道竞争刚刚开始。&lt;/p&gt;&lt;p&gt;12 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, The Decoder, Artificial Analysis (@ArtificialAnlys), Google AI Blog, Simon Willison 博客, OpenRouter (@OpenRouter)&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 启动 IPO 路演 最高募资 904 亿美元</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
 <pubDate>Thu, 12 Nov 2026 19:46:41 +0800</pubDate>
@@ -43,6 +43,22 @@ AlphaGenome 2 打通了单细胞生物学与人类遗传学，为科学家定位
 
 此举直接冲击 Microsoft 365 与 Google Workspace，并紧随 OpenAI 与 Meta 的办公套件布局，标志着三大厂商围绕 AI 办公套件展开正面竞争。Anthropic 从企业与编程工具向通用知识工作市场扩张，可能重塑办公软件生态，推动 AI 原生工作台成为新趋势。&lt;/p&gt;&lt;p&gt;8 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, 宝玉 (@dotey), The Decoder, Rohan Paul (@rohanpaul_ai), The Verge AI, Hacker News AI&lt;/p&gt;</description>
 </item>
+<item><title>MiniMax 开源 H3-Image 生图模型 10 秒生成 4K 图像</title><link>https://todayforai.com/en/story/story-77b75cf4-9c6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-77b75cf4-9c6</guid>
+<pubDate>Thu, 12 Nov 2026 19:36:20 +0800</pubDate>
+<description>&lt;p&gt;MiniMax 正式开源 H3-Image 图像生成模型，支持文生图、图像参考与图像编辑，可在约 10 秒内生成 4096×4096 的 4K 图像，官方称速度约为主流水平的 5 倍。模型以开放权重形式发布，并同步上线 MiniMax API、MiniMax Code 与海螺 AI，同时接入 Arena 对战模式接受用户盲测。
+
+技术细节上，H3-Image 衍生自 H3 基座，单一 checkpoint 在六步采样内同时覆盖文生图与图像编辑，无需超分即可输出原生高分辨率，并支持最多 16 张参考图，指令遵循能力号称开源模型中最强。在 NVIDIA Vera Rubin 平台四卡配置下，原生 4K 生成中位延迟仅 0.87 秒，吞吐配置可达每小时 6115 张。摩尔线程 MTT S5000 也在开源首日完成适配，单卡即可生成 4K 图像，复用 SGLang、MATE、MCCL 等组件优化多参考图场景下的注意力开销。
+
+行业影响方面，H3-Image 以开源权重和高吞吐、低延迟特性，显著降低了高质量 4K 图像生成的门槛，有望推动内容创作、电商、设计等领域的效率提升。同时，其跨平台快速适配（NVIDIA 与摩尔线程）显示出生态协同的成熟，为后续生图、生视频模型的 Day-0 支持建立基础，进一步加剧开源图像生成赛道的竞争。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;vLLM 官方博客, Arena.ai (@arena), IT之家 · 智能时代, 量子位官网&lt;/p&gt;</description>
+</item>
+<item><title>百度发布 ERNIE 5.5 Flash 预览版 280B 模型并承诺开源</title><link>https://todayforai.com/en/story/story-bfcc16a2-cac</link><guid isPermaLink="true">https://todayforai.com/en/story/story-bfcc16a2-cac</guid>
+<pubDate>Thu, 12 Nov 2026 09:08:21 +0800</pubDate>
+<description>&lt;p&gt;百度正式发布 ERNIE 5.5 Flash Preview，这是文心大模型 Base 系列的首个后训练版本，总参数 280B、激活参数仅 14B，支持 1M Token 超长上下文，生成速度超过 200 tokens/秒。模型 API 已在百度千帆平台上线，官方承诺权重将于 11 月 25 日前以 Apache 2.0 协议开源。
+
+综合多方信源，该模型采用面向高效推理的稀疏架构，主打编程、3D 建模与内容创作等需连续调用工具的复杂任务。在 Arena 的 Code Arena WebDev 榜单中，其以 1668 分逼近第二名，略高于 DeepSeek-V4.1-Flash 与 Kimi K3，与 Qwen3.8-Max 基本持平；官方称在 Terminal-Bench、AutomationBench 等基准上可与 Claude Opus 5.5、GPT-6.1 Sol 等旗舰模型同台竞争。不过百度也坦承，作为后训练中间版本，模型存在训练不充分导致的能力缺陷，正式版仍在快速迭代中。
+
+此次发布标志着百度在高效推理架构与开源策略上迈出关键一步。280B 总参数仅激活 14B 的设计大幅降低推理成本，而 1M 上下文与 200+ tokens/秒的生成速度则瞄准了智能体与长链路工具调用场景。承诺开源权重有望吸引开发者生态，并在开源模型竞争中与 DeepSeek、Kimi、Qwen 等形成直接对标，进一步加剧国内大模型第一梯队的角逐。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Arena.ai (@arena), 量子位官网, 新智元 (微信公众号)&lt;/p&gt;</description>
+</item>
 <item><title>美联航禁止 AI 代理代订机票</title><link>https://todayforai.com/en/story/story-d0fe1a17-1c3</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d0fe1a17-1c3</guid>
 <pubDate>Thu, 12 Nov 2026 09:39:34 +0800</pubDate>
 <description>&lt;p&gt;美联航近日宣布，将阻止个人 AI 智能体在其系统上完成机票购买，成为首家对 AI 代理下单场景设限的主流航空公司。该公司表示，AI 代理仍可读取航班选项与价格信息，但无法完成支付闭环。核心障碍在于联邦法规要求乘客本人确认托运行李安全声明（如无爆炸物），而 AI 智能体无法合法代劳。此外，敏感支付凭证泄露风险以及 AI 可能误解用户意图导致非预期消费，也是重要考量。
@@ -58,22 +74,6 @@ AlphaGenome 2 打通了单细胞生物学与人类遗传学，为科学家定位
 技术细节方面，Fable 5.2 在 FrontierCode 2.0 智能体编码基准取得 49.1%，领先 GPT-6 Astra 的 42.8% 与 Gemini 4 Carbon 的 41.1%；在 Remote Labor Index 上得分 41.3%，约为竞争对手的两倍。预发布测试中，模型完成了原本不可行的软件迁移、从零设计三款可工作的电子设备、解决两个黑洞物理开放问题，并在 30 小时内完成费马大定理的形式化证明，而人工形式化耗时 11 天。官方还演示了 1000 余个 Agent 连续 8 天从零构建可启动操作系统原型。API 价格下调 20% 至每百万 token 输入 8 美元、输出 40 美元，生成速度最高提升 30%，并可选 2.5 倍速 Fast 模式。
 
 行业影响上，Fable 5.2 从 Gemini 4 Carbon 手中夺回全球第一模型位置，强化了 Anthropic 在 IPO 前夕的资本市场叙事。然而，由于 tok…&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;GREG ISENBERG (@gregisenberg), Artificial Analysis (@ArtificialAnlys), IT之家 · 智能时代, OpenRouter (@OpenRouter), 机器之心 (微信公众号), The Verge AI&lt;/p&gt;</description>
-</item>
-<item><title>百度发布 ERNIE 5.5 Flash 预览版 280B 模型并承诺开源</title><link>https://todayforai.com/en/story/story-bfcc16a2-cac</link><guid isPermaLink="true">https://todayforai.com/en/story/story-bfcc16a2-cac</guid>
-<pubDate>Thu, 12 Nov 2026 09:08:21 +0800</pubDate>
-<description>&lt;p&gt;百度正式发布 ERNIE 5.5 Flash Preview，这是文心大模型 Base 系列的首个后训练版本，总参数 280B、激活参数仅 14B，支持 1M Token 超长上下文，生成速度超过 200 tokens/秒。模型 API 已在百度千帆平台上线，官方承诺权重将于 11 月 25 日前以 Apache 2.0 协议开源。
-
-综合多方信源，该模型采用面向高效推理的稀疏架构，主打编程、3D 建模与内容创作等需连续调用工具的复杂任务。在 Arena 的 Code Arena WebDev 榜单中，其以 1668 分逼近第二名，略高于 DeepSeek-V4.1-Flash 与 Kimi K3，与 Qwen3.8-Max 基本持平；官方称在 Terminal-Bench、AutomationBench 等基准上可与 Claude Opus 5.5、GPT-6.1 Sol 等旗舰模型同台竞争。不过百度也坦承，作为后训练中间版本，模型存在训练不充分导致的能力缺陷，正式版仍在快速迭代中。
-
-此次发布标志着百度在高效推理架构与开源策略上迈出关键一步。280B 总参数仅激活 14B 的设计大幅降低推理成本，而 1M 上下文与 200+ tokens/秒的生成速度则瞄准了智能体与长链路工具调用场景。承诺开源权重有望吸引开发者生态，并在开源模型竞争中与 DeepSeek、Kimi、Qwen 等形成直接对标，进一步加剧国内大模型第一梯队的角逐。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Arena.ai (@arena), 量子位官网&lt;/p&gt;</description>
-</item>
-<item><title>MiniMax 开源 H3-Image 生图模型 10 秒生成 4K 图像</title><link>https://todayforai.com/en/story/story-77b75cf4-9c6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-77b75cf4-9c6</guid>
-<pubDate>Thu, 12 Nov 2026 08:00:00 +0800</pubDate>
-<description>&lt;p&gt;MiniMax 正式开源 H3-Image 图像生成模型，支持文生图、图像参考与图像编辑，可在约 10 秒内生成 4096×4096 的 4K 图像，官方称速度约为主流水平的 5 倍。模型以开放权重形式发布，并同步上线 MiniMax API、MiniMax Code 与海螺 AI，同时接入 Arena 对战模式接受用户盲测。
-
-技术细节上，H3-Image 衍生自 H3 基座，单一 checkpoint 在六步采样内同时覆盖文生图与图像编辑，无需超分即可输出原生高分辨率，并支持最多 16 张参考图，指令遵循能力号称开源模型中最强。在 NVIDIA Vera Rubin 平台四卡配置下，原生 4K 生成中位延迟仅 0.87 秒，吞吐配置可达每小时 6115 张。摩尔线程 MTT S5000 也在开源首日完成适配，单卡即可生成 4K 图像，复用 SGLang、MATE、MCCL 等组件优化多参考图场景下的注意力开销。
-
-行业影响方面，H3-Image 以开源权重和高吞吐、低延迟特性，显著降低了高质量 4K 图像生成的门槛，有望推动内容创作、电商、设计等领域的效率提升。同时，其跨平台快速适配（NVIDIA 与摩尔线程）显示出生态协同的成熟，为后续生图、生视频模型的 Day-0 支持建立基础，进一步加剧开源图像生成赛道的竞争。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;vLLM 官方博客, Arena.ai (@arena), IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 <item><title>Grok 构建应用泄露 3.5 万个未授权访问入口</title><link>https://todayforai.com/en/story/story-91d8f7dd-676</link><guid isPermaLink="true">https://todayforai.com/en/story/story-91d8f7dd-676</guid>
 <pubDate>Thu, 12 Nov 2026 18:08:24 +0800</pubDate>
