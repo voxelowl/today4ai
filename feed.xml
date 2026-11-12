@@ -1,8 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Thu, 12 Nov 2026 23:18:14 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 12 Nov 2026 23:42:21 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>AWS Publishes A2A Reference Architecture for Cross-Org Multi-Agent Systems</title><link>https://aws.amazon.com/blogs/machine-learning/build-composable-interoperable-multi-agent-systems-with-a2a-on-aws/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/build-composable-interoperable-multi-agent-systems-with-a2a-on-aws/</guid>
+<pubDate>Thu, 12 Nov 2026 23:42:21 +0800</pubDate>
+<description>&lt;p&gt;AWS published a reference architecture built on the Agent-to-Agent (A2A) protocol that lets multi-agent systems spanning organizational boundaries discover each other, communicate, and exchange tasks via Agent Card registration, without shared frameworks or exposed internals. The design pairs a LangChain-based orchestrator with Strands Agents-built agents, targeting ISVs and enterprises exposing agents across boundaries.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS 发布 A2A 多智能体跨组织互操作参考架构&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为跨组织多智能体互操作提供了可落地的协议与部署范式，对构建开放智能体生态的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 58/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/build-composable-interoperable-multi-agent-systems-with-a2a-on-aws/">AWS Machine Learning Blog</source>
+<category>A2A</category>
+<category>多智能体</category>
+<category>AWS</category>
+<category>互操作协议</category>
+</item>
+<item><title>Amazon Bedrock Adds Fine-Grained Access Control to Knowledge Base Tools</title><link>https://aws.amazon.com/blogs/machine-learning/fine-grained-access-control-for-amazon-bedrock-managed-knowledge-base-tools/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/fine-grained-access-control-for-amazon-bedrock-managed-knowledge-base-tools/</guid>
+<pubDate>Thu, 12 Nov 2026 23:40:24 +0800</pubDate>
+<description>&lt;p&gt;Amazon introduced fine-grained access control for Bedrock Managed Knowledge Base tools, ensuring agents searching internal documents on a user&amp;#x27;s behalf only return content that user is permitted to see. The capability targets cross-user data leakage in shared departmental assistants and multi-tenant SaaS architectures by scoping retrieval per user.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊 Bedrock 知识库新增细粒度访问控制&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向企业智能体落地的权限隔离能力，解决多租户检索越权这一真实工程痛点。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 38/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/fine-grained-access-control-for-amazon-bedrock-managed-knowledge-base-tools/">AWS Machine Learning Blog</source>
+<category>Amazon Bedrock</category>
+<category>访问控制</category>
+<category>企业智能体</category>
+<category>RAG</category>
+</item>
+<item><title>Amazon Introduces Agent DLC Framework for Production Agents</title><link>https://aws.amazon.com/blogs/machine-learning/from-prototype-to-production-engineering-agents-with-agent-dlc/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/from-prototype-to-production-engineering-agents-with-agent-dlc/</guid>
+<pubDate>Thu, 12 Nov 2026 23:38:47 +0800</pubDate>
+<description>&lt;p&gt;Amazon introduces the Agent Development Lifecycle (Agent DLC), arguing that moving agents from prototype to production requires one lifecycle, two loops, and a single explicit standard for judging every change, since traditional unit tests and CI/CD are necessary but insufficient for agents. A measured case shows how an aggregate metric can mask a coverage problem, motivating repeatable, affordable evaluation, with Amazon Bedrock AgentCore providing observability, runtime, tool integration, and memory management.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊提出 Agent DLC 框架 推动智能体生产化&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为智能体工程化落地提供了可复用的评估与生命周期方法论，并给出聚合指标掩盖覆盖缺陷的实证案例。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 58/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/from-prototype-to-production-engineering-agents-with-agent-dlc/">AWS Machine Learning Blog</source>
+<category>智能体</category>
+<category>Agent DLC</category>
+<category>Amazon Bedrock</category>
+<category>可观测性</category>
+<category>工程化</category>
+</item>
+<item><title>Jensen Huang Resigns as Nvidia CEO, CFO Colette Kress Takes Interim Role</title><link>https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/</guid>
+<pubDate>Thu, 12 Nov 2026 23:37:29 +0800</pubDate>
+<description>&lt;p&gt;Nvidia co-founder and 33-year CEO Jensen Huang resigned immediately on Thursday morning as President, CEO, and board member, following reports of affairs with an alleged Chinese spy and a direct report. With no succession plan in place, CFO and EVP Colette Kress has stepped in as interim CEO and is expected to outline near-term plans at Tuesday&amp;#x27;s quarterly earnings call.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;黄仁勋辞任英伟达 CEO 首席财务官临时接任&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球最重要 AI 算力公司的最高层突发更替，直接牵动整个 AI 产业链与资本市场预期。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 88/100&lt;/p&gt;</description>
+<source url="https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/">TechCrunch AI</source>
+<category>英伟达</category>
+<category>高管变动</category>
+<category>AI 算力</category>
+<category>公司治理</category>
+</item>
 <item><title>Norwest Raises $4B Fund to Deepen AI Investing</title><link>https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/</guid>
 <pubDate>Thu, 12 Nov 2026 23:18:14 +0800</pubDate>
 <description>&lt;p&gt;Norwest, backed solely by Wells Fargo, closed its 18th fund at $4 billion, the largest in its 65-year history. The capital will span the US, India and Israel across multiple sectors, with emphasis on physical AI, voice AI, agentic cybersecurity and aerospace.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Norwest 募集 40 亿美元新基金加码 AI 投资&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部多阶段基金以创纪录规模明确转向 AI，反映一级市场资金结构变化。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 58/100&lt;/p&gt;</description>
@@ -10,6 +47,15 @@
 <category>投融资</category>
 <category>AI 投资</category>
 <category>Norwest</category>
+</item>
+<item><title>Jensen Huang Resigns as Nvidia CEO, CFO Colette Kress Named Interim Chief</title><link>https://www.ithome.com/1/026/431.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/431.htm</guid>
+<pubDate>Thu, 12 Nov 2026 23:03:43 +0800</pubDate>
+<description>&lt;p&gt;Jensen Huang has resigned as Nvidia&amp;#x27;s president, CEO and board member. The board appointed 13-year CFO Colette Kress as interim CEO and launched an internal and external search for a permanent successor. Former Synopsys CEO Harvey Jones becomes the company&amp;#x27;s first-ever board chair, stressing continuity of the business and partner ecosystem.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;黄仁勋辞任英伟达 CEO CFO 克雷斯接任临时掌门&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球 AI 算力核心供应商的最高管理层突发更替，直接影响整个 AI 产业链的预期与走向。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 88/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/026/431.htm">IT之家 · IT业界</source>
+<category>英伟达</category>
+<category>人事变动</category>
+<category>公司治理</category>
+<category>AI 算力</category>
 </item>
 <item><title>Fireworks AI Breach Exposes Notion Customer Chat Data</title><link>https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/</guid>
 <pubDate>Thu, 12 Nov 2026 23:02:28 +0800</pubDate>
@@ -179,94 +225,50 @@
 <category>API 开放</category>
 <category>多语言语音</category>
 </item>
-<item><title>UnionPay and Ant Group Launch All-in-One Payment Terminal</title><link>https://www.ithome.com/1/026/375.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/375.htm</guid>
+<item><title>银联与蚂蚁推出全功能融合支付终端</title><link>https://www.ithome.com/1/026/375.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/375.htm</guid>
 <pubDate>Thu, 12 Nov 2026 20:10:25 +0800</pubDate>
-<description>&lt;p&gt;UnionPay and Ant Group unveiled an all-in-one payment terminal in Xi&amp;#x27;an that accepts Alipay Tap, domestic and international bank cards, QR codes, mobile Pay and digital yuan on a single device. The terminal aims to cut merchants&amp;#x27; multi-device overhead and improve payment accessibility for inbound tourists and elderly users. Alipay Tap has reached 2,200 scenarios, 30 million offline touchpoints and 400 million users since launching in July 2024.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;银联与蚂蚁推出全功能融合支付终端&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;支付基础设施的硬件级整合，涉及数字人民币与跨境支付受理，具备实际落地价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;中国银联与蚂蚁集团联合研发的全功能融合终端在西安首发，单台设备即可受理支付宝碰一下、境内外银行卡、二维码、手机 Pay 与数字人民币等主流支付方式。该终端面向商户降低多设备管理成本，同时提升入境游客与老年人等群体的支付可达性。支付宝碰一下自 2024 年 7 月推出以来已覆盖 2200 个细分场景、3000 万个线下点位与 4 亿用户。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;支付基础设施的硬件级整合，涉及数字人民币与跨境支付受理，具备实际落地价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 38/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/026/375.htm">IT之家 · IT业界</source>
 <category>支付终端</category>
 <category>数字人民币</category>
 <category>蚂蚁集团</category>
 <category>银联</category>
 </item>
-<item><title>DeepMind Releases AlphaGenome 2 with Doubled Variant Discovery</title><link>https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2/</link><guid isPermaLink="true">https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2/</guid>
+<item><title>DeepMind 发布 AlphaGenome 2 基因组预测精度翻倍</title><link>https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2/</link><guid isPermaLink="true">https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2/</guid>
 <pubDate>Thu, 12 Nov 2026 20:09:43 +0800</pubDate>
-<description>&lt;p&gt;Google DeepMind has released AlphaGenome 2, advancing genomics AI from bulk-tissue predictions to single-cell-type resolution for forecasting genetic variant effects in specific human cell types. In testing it surfaced nearly twice as many relevant gene variants as its predecessor and is now available for noncommercial research.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;DeepMind 发布 AlphaGenome 2 基因组预测精度翻倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI for Science 领域的重要节点，单细胞分辨率预测显著提升变异解读能力，对基因组研究与药物靶点发现具有实质价值。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Google DeepMind 发布 AlphaGenome 2，将基因组 AI 从组织层面的粗粒度预测推进到单细胞类型分辨率，可针对特定人类细胞类型预测基因变异效应。测试中该模型找到的相关基因变异数量接近前代的两倍，现已开放非商业研究使用。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI for Science 领域的重要节点，单细胞分辨率预测显著提升变异解读能力，对基因组研究与药物靶点发现具有实质价值。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2/">The Decoder</source>
 <category>AI for Science</category>
 <category>基因组学</category>
 <category>Google DeepMind</category>
 <category>单细胞</category>
 </item>
-<item><title>Anthropic Launches IPO Roadshow in Landmark AI Listing</title><link>https://ipo.anthropic.com/us/</link><guid isPermaLink="true">https://ipo.anthropic.com/us/</guid>
+<item><title>Anthropic 启动 IPO 路演 拟公开上市</title><link>https://ipo.anthropic.com/us/</link><guid isPermaLink="true">https://ipo.anthropic.com/us/</guid>
 <pubDate>Thu, 12 Nov 2026 19:46:41 +0800</pubDate>
-<description>&lt;p&gt;Anthropic has formally kicked off its initial public offering, launching an IPO site with a founders&amp;#x27; letter, roadshow video and prospectus disclosure. The listing of a frontier AI lab operating as a public benefit corporation marks a landmark moment for AI industry capitalization.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 启动 IPO 路演 拟公开上市&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;前沿 AI 实验室首次启动 IPO，是 AI 商业化与资本市场交汇的标志性事件。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 88/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 正式启动首次公开募股，上线 IPO 官网并发布创始人信与路演视频，同步披露招股说明书。作为以公共利益公司（PBC）身份运营的前沿 AI 实验室，其上市将成为 AI 行业资本化进程的标志性节点。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;前沿 AI 实验室首次启动 IPO，是 AI 商业化与资本市场交汇的标志性事件。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 88/100&lt;/p&gt;</description>
 <source url="https://ipo.anthropic.com/us/">Hacker News AI</source>
 <category>IPO</category>
 <category>Anthropic</category>
 <category>融资上市</category>
 <category>AI 产业</category>
 </item>
-<item><title>MiniMax Open-Sources H3-Image Model with Native 4K Output</title><link>https://www.qbitai.com/2026/11/509440.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/509440.html</guid>
+<item><title>MiniMax 开源 H3-Image 生图模型 支持原生 4K 单张两毛</title><link>https://www.qbitai.com/2026/11/509440.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/509440.html</guid>
 <pubDate>Thu, 12 Nov 2026 19:36:20 +0800</pubDate>
-<description>&lt;p&gt;Following its open-source video model H3, MiniMax released H3-Image, an open-source image generation model supporting native 4K output at roughly RMB 0.2 per image. It shows strong performance on structural decomposition, game assets, e-commerce visuals and fine-grained portrait details, marking a notable open-source push into multimodal generation.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;MiniMax 开源 H3-Image 生图模型 支持原生 4K 单张两毛&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产开源多模态模型在图像生成质量与成本上同时给出明确量级，值得关注。&lt;/p&gt;&lt;p&gt;量子位官网 · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;MiniMax 在开源视频模型 H3 之后，推出开源图像生成模型 H3-Image，支持原生 4K 分辨率，单张生成成本约 0.2 元。该模型在复杂结构拆解、游戏素材、电商资产与人像细节（毛孔、雀斑、绒毛）上表现突出，被视为国产开源在多模态方向的重要突破。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产开源多模态模型在图像生成质量与成本上同时给出明确量级，值得关注。&lt;/p&gt;&lt;p&gt;量子位官网 · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.qbitai.com/2026/11/509440.html">量子位官网</source>
 <category>多模态</category>
 <category>开源模型</category>
 <category>图像生成</category>
 <category>MiniMax</category>
 </item>
-<item><title>AWS AI Chief Says Great Engineers Should Love Problems Not Solutions</title><link>https://www.ithome.com/1/026/359.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/359.htm</guid>
+<item><title>AWS 高管称优秀工程师应爱上问题而非解法</title><link>https://www.ithome.com/1/026/359.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/359.htm</guid>
 <pubDate>Thu, 12 Nov 2026 19:31:53 +0800</pubDate>
-<description>&lt;p&gt;AWS Chief AI and Technology Officer Matt Wood argues that great engineers should focus on the problem rather than fixating on a single solution, using AI to analyze issues deeply and explore multiple approaches in parallel. Amazon has revised its engineering job guidelines around a \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS 高管称优秀工程师应爱上问题而非解法&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自 AWS 核心技术高管对 AI 时代工程师能力标准的公开判断，反映大厂岗位评价体系的转向。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;AWS 首席 AI 与技术官马特·伍德提出，优秀工程师不应迷恋自己提出的具体方案，而应把热情放在问题本身，并借助 AI 深入分析问题、并行尝试多种解法。亚马逊上月已调整工程师岗位指引，提出“文艺复兴式开发者时代”，更看重长期业务价值而非 AI 使用量。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自 AWS 核心技术高管对 AI 时代工程师能力标准的公开判断，反映大厂岗位评价体系的转向。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 38/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/026/359.htm">IT之家 · 智能时代</source>
 <category>AWS</category>
 <category>工程师文化</category>
 <category>AI 编程</category>
 <category>岗位变革</category>
-</item>
-<item><title>华硕前三季净利 504.76 亿新台币，AI 服务器收入翻倍</title><link>https://www.ithome.com/1/026/346.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/346.htm</guid>
-<pubDate>Thu, 12 Nov 2026 19:09:32 +0800</pubDate>
-<description>&lt;p&gt;华硕 2026 财年前三季度归母净利润达 504.76 亿新台币，同比增长 52.25%，营收 7,424.31 亿新台币。第三季度服务器收入同比增长超 100%，AI PC 收入同比增长超 100%，品牌业务营业利润同比大增 161%。但部分客户数据中心建设延迟导致服务器订单收入递延至第四季度，存货环比增长 36%，银行借款环比激增 150%，需关注后续交付与库存周转。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;华硕财报显示 AI 服务器与 AI PC 收入翻倍，是观察 AI 硬件需求向终端与基础设施扩散的产业样本。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/026/346.htm">IT之家 · IT业界</source>
-<category>华硕</category>
-<category>AI 服务器</category>
-<category>AI PC</category>
-<category>财报</category>
-</item>
-<item><title>月之暗面高管称 AI 迭代速度将继续加快</title><link>https://www.ithome.com/1/026/353.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/353.htm</guid>
-<pubDate>Thu, 12 Nov 2026 19:07:44 +0800</pubDate>
-<description>&lt;p&gt;月之暗面金融行业与生态负责人徐天天在财新峰会上表示，当前 AI 智能远未触及上限，预训练算力、后训练与推理、智能体设计三条增长曲线叠加，将推动 AI 迭代持续加速。她还指出，智能体能独立完成的任务时长不断延长，AI 正从打杂型工作切入更深层业务流程。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自头部大模型公司高管对 AI 迭代节奏的判断，三条增长曲线与智能体任务时长延长的观点具备行业参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 38/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/026/353.htm">IT之家 · 智能时代</source>
-<category>月之暗面</category>
-<category>智能体</category>
-<category>行业观点</category>
-</item>
-<item><title>Anthropic 为 Claude 增设宝可梦 IP 生成限制</title><link>https://www.ithome.com/1/026/348.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/348.htm</guid>
-<pubDate>Thu, 12 Nov 2026 18:45:49 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 已在 Claude 中加入针对宝可梦知识产权的明确限制，禁止生成角色外观、名称、音乐及关卡等素材，这是 Claude 首次针对单一游戏系列设置专项版权护栏。此举延续了此前阻止 AI 复制现有电子游戏的宽泛策略，反映 AI 厂商在版权压力下主动划定生成边界。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次有模型厂商针对单一游戏 IP 设置明确生成限制，是观察 AI 版权治理走向的具体样本。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/026/348.htm">IT之家 · 智能时代</source>
-<category>版权治理</category>
-<category>Anthropic</category>
-<category>游戏 IP</category>
-<category>Claude</category>
-</item>
-<item><title>陈林再创业银河智学 用双核架构切入课堂</title><link>https://www.qbitai.com/2026/11/509404.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/509404.html</guid>
-<pubDate>Thu, 12 Nov 2026 18:45:33 +0800</pubDate>
-<description>&lt;p&gt;字节跳动原高级副总裁陈林于2024年12月创办银河智学，并在教育技术大会上首次系统披露产品“小鹿爱学”的技术架构。该产品采用豆包大模型与自研智能学习引擎的双核方案，结合深度知识追踪、IRT、认知诊断等学习科学方法，试图从“生成解题步骤”转向“诊断学习过程”。目前仍处于产品理念与架构阐述阶段，尚未公布可验证的规模化课堂效果数据。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;明星创业者入局教育 AI 并披露具体技术栈，对关注垂直行业落地路径的读者有参考价值，但缺乏可验证效果数据。&lt;/p&gt;&lt;p&gt;量子位官网 · industry · signal 42/100&lt;/p&gt;</description>
-<source url="https://www.qbitai.com/2026/11/509404.html">量子位官网</source>
-<category>教育AI</category>
-<category>字节跳动</category>
-<category>智能学习引擎</category>
-<category>产业落地</category>
-</item>
-<item><title>摩根大通预测 2030 年美国人形机器人产量达 40 万台</title><link>https://www.ithome.com/1/026/334.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/334.htm</guid>
-<pubDate>Thu, 12 Nov 2026 18:21:04 +0800</pubDate>
-<description>&lt;p&gt;摩根大通最新预测显示，美国人形机器人产量到 2030 年将达 30 万至 40 万台，2035 年增至约 150 万台，劳动力短缺与成本下降是主要驱动力。报告同时指出灵巧手、执行器、机器人大脑与产能仍是核心瓶颈，多数美国厂商年产量目标仅 1 万至 3 万台，短期内零部件供应商比整机厂商更具投资机会。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;投行首次给出人形机器人量化的中长期产能预测与零部件市场规模，是判断具身智能产业化节奏的重要参考。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 72/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/026/334.htm">IT之家 · 智能时代</source>
-<category>人形机器人</category>
-<category>具身智能</category>
-<category>摩根大通</category>
-<category>产业预测</category>
 </item>
 </channel>
 </rss>
