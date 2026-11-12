@@ -1,8 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Thu, 12 Nov 2026 07:01:40 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 12 Nov 2026 07:35:47 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>OpenAI Codex Now Runs Inference Through Amazon Bedrock</title><link>https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock/</guid>
+<pubDate>Thu, 12 Nov 2026 07:35:47 +0800</pubDate>
+<description>&lt;p&gt;AWS published guidance on running OpenAI Codex inference through Amazon Bedrock using supported models such as GPT-5.6 Sol, while reusing existing IAM identity, regional deployment and observability practices instead of building a second model-access stack. It recommends starting with a small least-privilege pilot and expanding in stages based on evidence.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI Codex 接入 Amazon Bedrock 推理&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是把前沿编码智能体接入企业既有云治理体系的可操作路径，对平台团队落地 Codex 有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock/">AWS Machine Learning Blog</source>
+<category>Amazon Bedrock</category>
+<category>OpenAI Codex</category>
+<category>AWS IAM</category>
+<category>企业部署</category>
+</item>
+<item><title>Open Source Engine Uses Anti-Unification for Semantic Policy Diffing</title><link>https://aws.amazon.com/blogs/machine-learning/semantic-diffing-of-formal-policies-with-anti-unification/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/semantic-diffing-of-formal-policies-with-anti-unification/</guid>
+<pubDate>Thu, 12 Nov 2026 07:33:03 +0800</pubDate>
+<description>&lt;p&gt;Textual diffs of formal policies are noisy because semantically equivalent rewrites appear as changes. An open source engine, semi-persistent, computes semantic diffs via anti-unification over an e-graph, deriving the most specific common pattern of two policies and isolating genuine behavioral differences. The approach applies to Cedar, OpenShell and CEL policies, helping reviewers catch critical changes such as an and replaced by an or.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;开源引擎用反合一实现形式化策略语义差分&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为策略即代码场景提供可落地的语义差分方法，并附带开源实现，对安全与合规工程有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/semantic-diffing-of-formal-policies-with-anti-unification/">AWS Machine Learning Blog</source>
+<category>语义差分</category>
+<category>形式化策略</category>
+<category>开源工具</category>
+</item>
+<item><title>Amazon HyperPod Adds Silent Data Corruption Detection and Recovery</title><link>https://aws.amazon.com/blogs/machine-learning/detecting-and-recovering-from-silent-data-corruption-on-amazon-sagemaker-hyperpod/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/detecting-and-recovering-from-silent-data-corruption-on-amazon-sagemaker-hyperpod/</guid>
+<pubDate>Thu, 12 Nov 2026 07:30:03 +0800</pubDate>
+<description>&lt;p&gt;Amazon added three silent data corruption (SDC) checks to the PyTorch DDP training loop on SageMaker HyperPod, detecting anomalies from the job side when hardware reports nothing, then mapping the suspect rank to its node, containing the corruption and recovering. The approach targets large-scale distributed training where wrong-but-plausible numbers silently poison gradients and weights; Meta attributed 6 of 419 unexpected interruptions during Llama 3 405B pre-training to SDC.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊 HyperPod 新增静默数据损坏检测与恢复机制&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;针对大规模训练中隐蔽且代价高昂的静默数据损坏，给出了可落地的检测与恢复工程方案。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · compute · signal 72/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/detecting-and-recovering-from-silent-data-corruption-on-amazon-sagemaker-hyperpod/">AWS Machine Learning Blog</source>
+<category>静默数据损坏</category>
+<category>分布式训练</category>
+<category>Amazon SageMaker</category>
+<category>算力基础设施</category>
+</item>
+<item><title>Google DeepMind Unveils AlphaGenome 2 with Near-Doubled Single-Cell Variant Detection</title><link>https://www.ithome.com/1/025/840.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/840.htm</guid>
+<pubDate>Thu, 12 Nov 2026 07:28:24 +0800</pubDate>
+<description>&lt;p&gt;Google DeepMind has released AlphaGenome 2, a next-generation genomic AI model built on a conditional architecture that takes tissue, cell type and cell state as inputs, pushing prediction from tissue-level to single-cell resolution. Trained on over 107 million single-cell profiles, it nearly doubles the ability to detect gene-expression-related variants, identifying 30% of causal disease variants in an immune-cell benchmark versus 16% for its predecessor. It adds DNA methylation prediction and zero-shot generalization to unseen cell types, and is available via API for non-commercial research.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌 DeepMind 发布 AlphaGenome 2 单细胞预测能力近乎翻倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI for Science 领域的重要节点，单细胞级变异识别能力近乎翻倍，并新增甲基化预测与零样本泛化，对基因组研究与药物发现具有实质价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 88/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/025/840.htm">IT之家 · 智能时代</source>
+<category>AI for Science</category>
+<category>基因组学</category>
+<category>谷歌 DeepMind</category>
+<category>单细胞分析</category>
+<category>基础模型</category>
+</item>
+<item><title>Amazon Bedrock AgentCore Adds a Direct Web Search API</title><link>https://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore/</guid>
+<pubDate>Thu, 12 Nov 2026 07:13:16 +0800</pubDate>
+<description>&lt;p&gt;Amazon introduced a Web Search API for Bedrock AgentCore, letting developers retrieve ranked web results with text extracts, titles, URLs and publication times in a single API call instead of provisioning an AgentCore Gateway and MCP client. The lighter path targets code that only needs search results and is available in Oregon, Ireland, Tokyo and Sydney regions.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊 Bedrock AgentCore 推出 Web Search API&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AgentCore 检索能力的轻量化入口，降低了智能体接入实时网页信息的工程成本。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore/">AWS Machine Learning Blog</source>
+<category>亚马逊</category>
+<category>AgentCore</category>
+<category>智能体检索</category>
+<category>开发者工具</category>
+</item>
+<item><title>Open Source Stela Layer Runs Apple Silicon Code on x86-64 PCs</title><link>https://github.com/tylertms/Stela</link><guid isPermaLink="true">https://github.com/tylertms/Stela</guid>
+<pubDate>Thu, 12 Nov 2026 07:02:38 +0800</pubDate>
+<description>&lt;p&gt;Stela is a GPL-2.0 open source UEFI boot program that combines an arm64e-to-x86-64 AOT/JIT translator, a Metal driver for NVIDIA GPUs and a model of Apple Silicon hardware to boot macOS and most apps on ordinary x86-64 PCs. At v0.1.0 it is slow and limited in compatibility, with the project itself warning that boot success rates remain low and much hardware work is pending.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;开源项目 Stela 让 x86 PC 运行 Apple Silicon 程序&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以开源方式在 x86 硬件上重建 Apple Silicon 运行环境，技术路径罕见且具讨论价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
+<source url="https://github.com/tylertms/Stela">Hacker News AI</source>
+<category>开源项目</category>
+<category>Apple Silicon</category>
+<category>指令翻译</category>
+<category>macOS</category>
+<category>Metal 驱动</category>
+</item>
 <item><title>Stripe Closes $7.5B Acquisition of OpenRouter</title><link>https://www.ithome.com/1/025/833.htm</link><guid isPermaLink="true">https://www.ithome.com/1/025/833.htm</guid>
 <pubDate>Thu, 12 Nov 2026 07:01:40 +0800</pubDate>
 <description>&lt;p&gt;Stripe completed its acquisition of AI model aggregation platform OpenRouter on November 10, with the deal valued at roughly $7.5-8 billion. OpenRouter connects over 400 models from 80+ providers and serves more than 10 million developers, processing about 790 trillion tokens in October 2026, 76% of which came from agent-related API calls. The two will focus on token routing and usage optimization, folding model selection and billing into payment infrastructure.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Stripe 以 75 亿美元完成收购 OpenRouter&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 模型分发入口与支付基础设施的合并，直接改变开发者调用与计费模型的方式。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 78/100&lt;/p&gt;</description>
@@ -176,104 +231,50 @@
 <category>算力基础设施</category>
 <category>AI 投资</category>
 </item>
-<item><title>Google Debuts Gemini Decision 1 for High-Throughput Closed-Ended Decisions</title><link>https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/</link><guid isPermaLink="true">https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/</guid>
+<item><title>谷歌发布 Gemini Decision 1 单次可判 1000 个问题</title><link>https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/</link><guid isPermaLink="true">https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/</guid>
 <pubDate>Thu, 12 Nov 2026 04:12:46 +0800</pubDate>
-<description>&lt;p&gt;Google DeepMind has launched the Gemini Decisions API and its underlying Gemini Decision 1 model, purpose-built for closed-ended decisions such as yes/no, multiple choice, and scale ratings. It handles up to 1,000 independent questions in a single pass across text, images, audio, video, and PDFs, returning probabilities with confidence values in 150-250 ms. Google says it already uses the API internally for dynamic model routing in Gemini Notebook, design prototyping in Stitch, and safety checks in Search, signaling that decision models are becoming a mainstream product category.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌发布 Gemini Decision 1 单次可判 1000 个问题&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;谷歌正式入局决策模型赛道，单次千问与毫秒级延迟的量化指标具备明确工程价值。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Google DeepMind 推出 Gemini Decisions API 及底层模型 Gemini Decision 1，专为是/否、多选、量表评分等封闭式决策设计，单次可并行处理最多 1000 个跨文本、图像、音频、视频与 PDF 的独立问题，并在 150-250 毫秒内返回带置信度的概率。谷歌称该 API 已内部用于 Gemini Notebook 的动态模型路由、Stitch 的设计原型与搜索安全审核，标志着决策模型这一新品类正被主流厂商正式纳入产品线。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;谷歌正式入局决策模型赛道，单次千问与毫秒级延迟的量化指标具备明确工程价值。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/">The Decoder</source>
 <category>大模型</category>
 <category>Google DeepMind</category>
 <category>决策模型</category>
 <category>API</category>
 </item>
-<item><title>Meta Infrastructure Chief Janardhan to Step Down</title><link>https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/</guid>
+<item><title>Meta 基础设施负责人 Janardhan 将离职</title><link>https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/</guid>
 <pubDate>Thu, 12 Nov 2026 04:12:01 +0800</pubDate>
-<description>&lt;p&gt;Meta&amp;#x27;s longtime head of infrastructure and co-head of engineering, Santosh Janardhan, is stepping down and will move into an advisory role on Meta Compute before leaving next year. He is replaced by Dave Brown, who joined this year after 19 years at Amazon focused on compute, cloud, and AI. The transition comes as Meta scales data center investment and builds a cloud business to sell excess AI compute.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 基础设施负责人 Janardhan 将离职&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Meta 算力基础设施一号位更替，直接关系其数据中心扩张与 AI 算力外售战略走向。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Meta 长期负责基础设施与工程联席主管的 Santosh Janardhan 将卸任，转任 Meta Compute 顾问角色，预计明年离开公司。接任者为今年加入、曾在亚马逊任职 19 年并专注计算、云与 AI 的 Dave Brown。此次交接发生在 Meta 大举扩张数据中心、推进对外出售富余 AI 算力的关键阶段。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Meta 算力基础设施一号位更替，直接关系其数据中心扩张与 AI 算力外售战略走向。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/">TechCrunch AI</source>
 <category>Meta</category>
 <category>算力基础设施</category>
 <category>人事变动</category>
 <category>数据中心</category>
 </item>
-<item><title>Meta Launches Muse Ember Small Model at $0.02 per Task</title><link>https://x.com/arena/status/2120609164116533606</link><guid isPermaLink="true">https://x.com/arena/status/2120609164116533606</guid>
+<item><title>Meta 发布 Muse Ember 小模型 单任务成本仅 0.02 美元</title><link>https://x.com/arena/status/2120609164116533606</link><guid isPermaLink="true">https://x.com/arena/status/2120609164116533606</guid>
 <pubDate>Thu, 12 Nov 2026 04:06:38 +0800</pubDate>
-<description>&lt;p&gt;Meta introduced Muse Ember, its smallest and most efficient model, targeting complex reasoning execution and everyday agent work with a 1M-token context window and native text, image, audio and video understanding. Across 6,000 real-world agentic sessions on Arena.ai, it posted a +1.7% net improvement roughly on par with GPT-6 Luna and Claude Haiku 5.5, while costing about $0.02 per task, roughly 4x less, and running about 12x and 3.5x faster respectively.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 发布 Muse Ember 小模型 单任务成本仅 0.02 美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;小模型以四分之一成本追平前沿效率基线，直接改写智能体部署的成本曲线。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Meta 推出迄今最小最高效的模型 Muse Ember，主打复杂推理执行与日常智能体工作，支持 100 万 token 上下文与文本、图像、音频、视频原生理解。在 Arena.ai 的 6000 个真实智能体会话评测中，其净提升 +1.7% 与 GPT-6 Luna、Claude Haiku 5.5 基本持平，但单任务成本约 0.02 美元，仅为对手的四分之一，速度分别快约 12 倍与 3.5 倍。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;小模型以四分之一成本追平前沿效率基线，直接改写智能体部署的成本曲线。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/arena/status/2120609164116533606">Arena.ai (@arena)</source>
 <category>大模型</category>
 <category>Meta</category>
 <category>智能体</category>
 <category>推理成本</category>
 </item>
-<item><title>Data Center Boom Stalls on Power and Permitting Hurdles</title><link>https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/</link><guid isPermaLink="true">https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/</guid>
+<item><title>数据中心建设受阻 电力与审批成最大瓶颈</title><link>https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/</link><guid isPermaLink="true">https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/</guid>
 <pubDate>Thu, 12 Nov 2026 04:02:14 +0800</pubDate>
-<description>&lt;p&gt;The AI data center boom is colliding with local opposition, permitting delays and power scarcity, and many announced projects may never be built, TechCrunch&amp;#x27;s Equity podcast notes. Guests also discuss why natural gas is an unreliable fallback in extreme weather and how battery storage paired with curtailable grid connections could serve as an alternative.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;数据中心建设受阻 电力与审批成最大瓶颈&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;从电力与审批视角揭示 AI 算力扩张的真实落地阻力，对判断基础设施投资可行性有参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · compute · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;TechCrunch 播客指出，AI 数据中心热潮正遭遇地方反对、审批延迟与电力短缺三重现实阻力，且大量已宣布项目可能根本不会落地。嘉宾还讨论了天然气作为备用电源在极端天气下的不可靠性，以及电池储能配合可临时限电的电网接入这一替代方案。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;从电力与审批视角揭示 AI 算力扩张的真实落地阻力，对判断基础设施投资可行性有参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · compute · signal 58/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/">TechCrunch AI</source>
 <category>数据中心</category>
 <category>算力基础设施</category>
 <category>电力供应</category>
 </item>
-<item><title>Google Unveils Wearable Health Age Framework to Simulate Habit Trajectories</title><link>https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/</link><guid isPermaLink="true">https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/</guid>
+<item><title>谷歌推可穿戴健康年龄框架 模拟 12 周习惯轨迹</title><link>https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/</link><guid isPermaLink="true">https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/</guid>
 <pubDate>Thu, 12 Nov 2026 03:54:00 +0800</pubDate>
-<description>&lt;p&gt;Google researchers introduce SensorWM, a machine learning framework that converts passive smartwatch biometrics into a modifiable coachable health age and uses an action-conditioned world model to simulate personalized 12-week what-if habit trajectories. The framework extends to routine blood biomarkers for early cardiovascular-kidney-metabolic (CKM) risk tracking, grounding personalized coaching in validated clinical prognostics.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌推可穿戴健康年龄框架 模拟 12 周习惯轨迹&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;将可穿戴信号与世界模型结合用于个性化健康干预，是 AI for Science 与消费级硬件交叉的代表性研究。&lt;/p&gt;&lt;p&gt;Google Research · llm · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;谷歌研究团队提出 SensorWM 机器学习框架，将智能手表被动采集的生理信号转化为可干预的“可教练健康年龄”，并用动作条件世界模型模拟个性化 12 周习惯“假设”轨迹。该框架进一步扩展至常规血液生物标志物，用于追踪心血管-肾脏-代谢（CKM）早期风险，为个性化健康教练提供可验证的临床预后依据。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;将可穿戴信号与世界模型结合用于个性化健康干预，是 AI for Science 与消费级硬件交叉的代表性研究。&lt;/p&gt;&lt;p&gt;Google Research · llm · signal 72/100&lt;/p&gt;</description>
 <source url="https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/">Google Research</source>
 <category>AI for Science</category>
 <category>可穿戴设备</category>
 <category>世界模型</category>
 <category>健康管理</category>
 <category>Google Research</category>
-</item>
-<item><title>CoreWeave Shifts to Customer Prepayments and Shorter Contracts</title><link>https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/</guid>
-<pubDate>Thu, 12 Nov 2026 03:54:00 +0800</pubDate>
-<description>&lt;p&gt;CoreWeave reported Q3 revenue of $3.66 billion, up 168% year over year, alongside a $709 million net loss and $846 million in quarterly interest expense. The company said it will stop relying on unsecured debt, instead asking customers to prepay, borrowing against specific contracts, and pursuing shorter-term deals at potentially higher prices. The strategy improves capital efficiency but hinges on sustained AI compute demand and pricing power.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;CoreWeave 转向客户预付款与短约融资&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 算力租赁龙头的融资结构转向，是观察算力泡沫与需求真实性的关键信号。&lt;/p&gt;&lt;p&gt;TechCrunch AI · compute · signal 72/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/">TechCrunch AI</source>
-<category>算力基础设施</category>
-<category>CoreWeave</category>
-<category>融资</category>
-<category>AI 算力</category>
-</item>
-<item><title>IBM 发布 Nighthawk r3 量子处理器 520 量子比特执行万次操作</title><link>https://newsroom.ibm.com/2026-11-11-ibm-quantum-nighthawk-demonstrates-new-levels-of-speed-and-quality,-with-plans-to-scale-beyond-1,000-qubits-in-2027</link><guid isPermaLink="true">https://newsroom.ibm.com/2026-11-11-ibm-quantum-nighthawk-demonstrates-new-levels-of-speed-and-quality,-with-plans-to-scale-beyond-1,000-qubits-in-2027</guid>
-<pubDate>Thu, 12 Nov 2026 03:47:59 +0800</pubDate>
-<description>&lt;p&gt;IBM 宣布下一代量子处理器 Quantum Nighthawk r3，目标在 520 量子比特上准确执行 10,000 次量子操作，并计划 2027 年将两颗处理器互联为超 1,000 量子比特系统。现有 Nighthawk r2 已被 E.ON、Algorithmiq、Q-CTRL 等客户运行超 340 亿个电路，报告最高 19 倍加速；同时升级的 IBM Quantum Platform 将量子与经典计算统一到同一环境。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;IBM 给出明确的量子比特规模与操作数路线图，并附客户实测加速数据，是量子计算工程化进展的重要节点。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 58/100&lt;/p&gt;</description>
-<source url="https://newsroom.ibm.com/2026-11-11-ibm-quantum-nighthawk-demonstrates-new-levels-of-speed-and-quality,-with-plans-to-scale-beyond-1,000-qubits-in-2027">Hacker News AI</source>
-<category>量子计算</category>
-<category>IBM</category>
-<category>算力基础设施</category>
-</item>
-<item><title>美国企业 AI 支出 10 月创新高 环比增速放缓至 1.65%</title><link>https://the-decoder.com/us-corporate-ai-spending-hits-a-new-high-in-october-but-growth-slows-to-1-65-percent/</link><guid isPermaLink="true">https://the-decoder.com/us-corporate-ai-spending-hits-a-new-high-in-october-but-growth-slows-to-1-65-percent/</guid>
-<pubDate>Thu, 12 Nov 2026 03:35:11 +0800</pubDate>
-<description>&lt;p&gt;Ramp AI Index 显示，2026 年 10 月美国企业 AI 支出环比仅增 1.65%，创历史新高但增速明显放缓。支出高度集中：1% 的企业贡献了 OpenAI 与 Anthropic 约 80% 的收入，头部企业人均月支出中位数达 1.02 万美元，而典型企业仅 16.32 美元。软件开发团队占全部追踪 AI 支出的 72%，最贵旗舰模型仍占总支出的 69.5%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以真实支付数据揭示企业 AI 支出的集中度与增速拐点，对判断大模型商业化可持续性有直接参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/us-corporate-ai-spending-hits-a-new-high-in-october-but-growth-slows-to-1-65-percent/">The Decoder</source>
-<category>企业AI支出</category>
-<category>商业化</category>
-<category>Ramp</category>
-<category>OpenAI</category>
-<category>Anthropic</category>
-</item>
-<item><title>英国 Fractile 融资 7.2 亿美元 加速 AI 芯片量产</title><link>https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/</guid>
-<pubDate>Thu, 12 Nov 2026 03:34:55 +0800</pubDate>
-<description>&lt;p&gt;英国 AI 芯片初创公司 Fractile 完成 7.2 亿美元 C 轮融资，由英国主权 AI 基金领投，资金将用于明年交付首批芯片与系统。该公司与 Axelera、Etched、OLIX 等同处专用 AI 推理芯片赛道，目标是通过硬件创新降低大模型推理成本。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;欧洲主权资本重注专用推理芯片，7.2 亿美元 C 轮是 AI 硬件竞争格局的重要信号。&lt;/p&gt;&lt;p&gt;TechCrunch AI · compute · signal 74/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/">TechCrunch AI</source>
-<category>AI 芯片</category>
-<category>融资</category>
-<category>推理算力</category>
-<category>英国</category>
-</item>
-<item><title>AWS 推出 23 个可复用生成式 AI 资产</title><link>https://aws.amazon.com/blogs/machine-learning/accelerating-generative-ai-delivery-with-reusable-assets/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/accelerating-generative-ai-delivery-with-reusable-assets/</guid>
-<pubDate>Thu, 12 Nov 2026 03:19:21 +0800</pubDate>
-<description>&lt;p&gt;AWS 生成式 AI 创新中心（现并入 AWS Frontier AI Engineering &amp;amp; Services）发布了 23 个生产级可复用资产，涵盖 RAG 流水线、文档处理器与智能体脚手架，旨在减少重复造轮子。官方称这些资产可将开发周期从数月缩短至数周，并援引 DoorDash、Lyft、Ricoh 的落地案例作为佐证。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AWS 官方发布的生成式 AI 工程资产目录，对使用 Bedrock 生态的开发者有直接参考价值，但本质为厂商绑定的推广内容。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 38/100&lt;/p&gt;</description>
-<source url="https://aws.amazon.com/blogs/machine-learning/accelerating-generative-ai-delivery-with-reusable-assets/">AWS Machine Learning Blog</source>
-<category>AWS</category>
-<category>生成式 AI</category>
-<category>RAG</category>
-<category>开发者工具</category>
-</item>
-<item><title>AWS CEO 称太空数据中心至少还需 10 到 20 年</title><link>https://x.com/rohanpaul_ai/status/2120596484618096859</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2120596484618096859</guid>
-<pubDate>Thu, 12 Nov 2026 03:16:15 +0800</pubDate>
-<description>&lt;p&gt;AWS CEO Matt Garman 公开表示，太空数据中心在未来 10 到 20 年内极难具备经济可行性。他指出，发射频率与成本、单机架重量、吉瓦级太阳能供给、真空环境散热以及辐射与可维护性等工程瓶颈都尚未解决，因此这一构想虽然技术上并非不可能，但距离落地仍然很远。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部云厂商 CEO 直接回应太空算力热潮，给出基于工程与成本现实的量化判断。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2120596484618096859">Rohan Paul (@rohanpaul_ai)</source>
-<category>太空数据中心</category>
-<category>AWS</category>
-<category>算力基础设施</category>
-<category>散热</category>
 </item>
 </channel>
 </rss>
