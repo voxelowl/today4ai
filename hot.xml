@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Fri, 13 Nov 2026 08:43:01 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 13 Nov 2026 12:49:58 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>谷歌发布 Gemini 4 Hydrogen 百万上下文定价 1.5 美元</title><link>https://todayforai.com/en/story/story-23e7bc49-744</link><guid isPermaLink="true">https://todayforai.com/en/story/story-23e7bc49-744</guid>
 <pubDate>Fri, 13 Nov 2026 06:55:19 +0800</pubDate>
@@ -28,7 +28,7 @@ Hydrogen 的发布进一步加剧了高效模型赛道的竞争，其按任务�
 此次人事地震直接冲击全球 AI 算力格局。英伟达作为 GPU 核心供应商，其战略连续性面临考验，多家券商已下调评级。事件恰逢英伟达拟以 129 亿美元收购 Hugging Face 的敏感节点，美国司法部已就竞争影响问询，Hugging Face CEO 德朗格公开承诺更坚定捍卫开源 AI，开源生态走向增添变数。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), The Verge AI, IT之家 · IT业界, Hacker News AI, IT之家 · 智能时代, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 启动 IPO 路演 最高募资 904 亿美元</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
-<pubDate>Thu, 12 Nov 2026 21:20:17 +0800</pubDate>
+<pubDate>Fri, 13 Nov 2026 12:49:58 +0800</pubDate>
 <description>&lt;p&gt;Anthropic 正式启动首次公开募股路演，计划以每股 70 至 78 美元发行 8.25 亿股 A 类普通股，基础募资规模最高约 643.5 亿美元，并以代码 ANT 登陆纳斯达克。若计入向谷歌、英伟达、微软、台积电等七家巨头定向私募配售的 260 亿美元 N 类普通股，合计融资规模最高可达 904 亿美元，完全稀释估值约 1.4 万亿美元，成为 AI 行业迄今规模最大的资本事件。
 
 多方信源交叉验证显示，此次 IPO 呈现显著的结构性特征。一方面，老股东仅出售约 2360 万股，绝大部分资金流入公司而非早期投资人套现；另一方面，七位创始人通过持有 Class F 股锁定 50.1% 投票权，公开市场投资者几乎无法影响公司控制权。财务数据方面，公司前九月营收 332.4 亿美元，同比增长约 1200%，但净亏损达 1040 亿美元，主要来自可转换票据公允价值变动。此外，Anthropic 同步披露与微软、谷歌新增逾 100 亿美元算力采购承诺，合同总额分别升至 472 亿至 492 亿美元和约 1213 亿美元，均延续至 2033 年且为照付不议。
@@ -67,6 +67,14 @@ AlphaGenome 2 打通了单细胞生物学与人类遗传学，为科学家定位
 
 行业影响上，Inkling 2 Small 以开源协议和低成本（单任务中位成本 0.26 美元，约为榜首 Kimi K3.1 Pro 的 1/4.7）显著降低了高性能多模态智能体的使用门槛，其视觉反馈闭环能力尤其适用于网站、游戏与 3D 设计等生成任务。该模型在 OpenRouter 和 OpenCode 上限时免费开放，有望加速智能体应用…&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter), Arena.ai (@arena), vLLM 官方博客, OpenCode (@opencode)&lt;/p&gt;</description>
 </item>
+<item><title>Rust 1.100 发布 稳定 Never 类型与 Allocator API</title><link>https://todayforai.com/en/story/story-01e8be9e-c06</link><guid isPermaLink="true">https://todayforai.com/en/story/story-01e8be9e-c06</guid>
+<pubDate>Fri, 13 Nov 2026 12:30:10 +0800</pubDate>
+<description>&lt;p&gt;Rust 1.100.0 正式发布，版本号首次迈入三位数。最受关注的是历经约 10 年、5 次尝试的 never type（!）终于稳定，同时 Allocator API 核心部分也进入稳定通道，为系统级开发者带来类型系统表达力与内存分配控制能力的双重提升。
+
+never type（!）用于表示永不返回的计算，稳定后 Infallible 类型改为其别名，完善了不可达分支的表达。Allocator API 核心部分稳定，Vec 与 Box 已支持自定义内存分配器，为高性能场景提供官方接口。此外，新增 DropGuard 支持在任意退出路径执行清理闭包，以及 conjure_zst 等标准库接口。Cargo 强化了未使用依赖提示与供应链安全机制，Clippy 也同步更新。
+
+此次发布对 Rust 生态意义重大：never type 的稳定将简化错误处理与泛型代码，Allocator API 为嵌入式与高性能计算铺平道路，供应链安全增强则回应了日益增长的软件安全需求。尽管部分信源认为此为常规迭代，但核心特性的稳定无疑将吸引更多系统级项目采用 Rust。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, Hacker News AI&lt;/p&gt;</description>
+</item>
 <item><title>百度发布 ERNIE 5.5 Flash 预览版 280B 模型并承诺开源</title><link>https://todayforai.com/en/story/story-bfcc16a2-cac</link><guid isPermaLink="true">https://todayforai.com/en/story/story-bfcc16a2-cac</guid>
 <pubDate>Thu, 12 Nov 2026 09:08:21 +0800</pubDate>
 <description>&lt;p&gt;百度正式发布 ERNIE 5.5 Flash Preview，这是文心大模型 Base 系列的首个后训练版本，总参数 280B、激活参数仅 14B，支持 1M Token 超长上下文，生成速度超过 200 tokens/秒。模型 API 已在百度千帆平台上线，官方承诺权重将于 11 月 25 日前以 Apache 2.0 协议开源。
@@ -74,14 +82,6 @@ AlphaGenome 2 打通了单细胞生物学与人类遗传学，为科学家定位
 综合多方信源，该模型采用面向高效推理的稀疏架构，主打编程、3D 建模与内容创作等需连续调用工具的复杂任务。在 Arena 的 Code Arena WebDev 榜单中，其以 1668 分逼近第二名，略高于 DeepSeek-V4.1-Flash 与 Kimi K3，与 Qwen3.8-Max 基本持平；官方称在 Terminal-Bench、AutomationBench 等基准上可与 Claude Opus 5.5、GPT-6.1 Sol 等旗舰模型同台竞争。不过百度也坦承，作为后训练中间版本，模型存在训练不充分导致的能力缺陷，正式版仍在快速迭代中。
 
 此次发布标志着百度在高效推理架构与开源策略上迈出关键一步。280B 总参数仅激活 14B 的设计大幅降低推理成本，而 1M 上下文与 200+ tokens/秒的生成速度则瞄准了智能体与长链路工具调用场景。承诺开源权重有望吸引开发者生态，并在开源模型竞争中与 DeepSeek、Kimi、Qwen 等形成直接对标，进一步加剧国内大模型第一梯队的角逐。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Arena.ai (@arena), 量子位官网, 新智元 (微信公众号)&lt;/p&gt;</description>
-</item>
-<item><title>Anthropic 发布 Fable 5.2 千级智能体自主构建操作系统</title><link>https://todayforai.com/en/story/story-dc8382a0-0bf</link><guid isPermaLink="true">https://todayforai.com/en/story/story-dc8382a0-0bf</guid>
-<pubDate>Thu, 12 Nov 2026 23:30:01 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 于 IPO 路演启动当天发布 Claude Fable 5.2 与 Mythos 5.2，从 Gemini 4 Carbon 手中夺回全球第一模型位置。Fable 5.2 以 65 分登顶 Artificial Analysis 智能指数 v5，领先 Gemini 4 Carbon 五分，较前代提升 15 分；在 Agent Arena 上以 +30.4% 净提升登顶，约为第二名 Opus-5.5 的 1.6 倍，Code、Chat、Work 三大类别全部第一。API 价格下调 20% 至每百万 token 输入 8 美元、输出 40 美元，生成速度最高提升 30%，并可选 2.5 倍速 Fast 模式。
-
-预发布测试中，Fable 5.2 展示了惊人的长程任务能力：协调超过 1000 个子智能体，连续 8 天从零构建出含内核、驱动、文件系统与安装程序的可启动操作系统原型；在 30 小时内完成费马大定理的形式化证明，而人工形式化耗时 11 天。在 FrontierCode 2.0 智能体编码基准上以 49.1% 超越 GPT-6 Astra 的 42.8%，Remote Labor Index 得分 41.3% 约为对手两倍。Mythos 5.2 作为同底座的安全强化版，仅向通过审核的网络安全与生命科学机构开放，其沙箱逃逸率从 39% 降至 3.1%。
-
-尽管单 token 价格下降，但由于 token 消耗增加，SemiAnalysis 的 GDPx 基准显示单任务成本从 67.16 美元升至 88.15 美元，上涨约 31%。Anthropic 承认在训…&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Arena.ai (@arena), Artificial Analysis (@ArtificialAnlys), IT之家 · IT业界, 量子位官网, OpenRouter (@OpenRouter), Hacker News AI&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
