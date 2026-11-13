@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Fri, 13 Nov 2026 15:14:29 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 13 Nov 2026 15:37:18 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Ring Drops Manual Control for Security Drone After Two Demo Crashes</title><link>https://www.ithome.com/1/026/791.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/791.htm</guid>
+<pubDate>Fri, 13 Nov 2026 15:37:18 +0800</pubDate>
+<description>&lt;p&gt;Amazon-owned Ring confirmed its first home security drone, Drone Cam, will ship without manual control, relying solely on autonomous AI Pilot navigation. The decision follows a CBS News demo in which the drone crashed twice, which Ring attributed to an anti-collision fault and a failed safety landing after a network drop.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Ring 安防无人机演示两度撞墙后取消手动操控&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;具身智能产品在公开演示中暴露安全缺陷并因此收缩人工操控权限，是消费级自主飞行落地的典型风险样本。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/026/791.htm">IT之家 · 智能时代</source>
+<category>具身智能</category>
+<category>安防无人机</category>
+<category>亚马逊 Ring</category>
+<category>自主飞行</category>
+</item>
 <item><title>Hobbyist Runs 2.8T-Parameter Kimi K3 on Discontinued Intel Optane Memory</title><link>https://www.ithome.com/1/026/759.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/759.htm</guid>
 <pubDate>Fri, 13 Nov 2026 15:14:29 +0800</pubDate>
 <description>&lt;p&gt;A Reddit hobbyist ran the 2.8-trillion-parameter Moonshot Kimi K3 model in a GPU-free home lab using discontinued Intel Optane Persistent Memory 200 series and llama.cpp. With 1-bit quantization, disabling DAX so hot data benefits from DRAM caching lifted throughput from 0.85 to 1.5 tokens per second, while a 3-bit test reached only 0.75 tokens/s, taking about 18.5 hours for 50,000 tokens. The experiment shows trillion-scale models can run entirely from a memory hierarchy instead of GPU VRAM, though at far-from-practical speeds.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;玩家用停产傲腾内存跑通 2.8 万亿参数 Kimi K3&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以极低成本硬件验证万亿级模型的纯内存推理路径，对关注算力替代方案与本地部署的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 58/100&lt;/p&gt;</description>
@@ -29,6 +38,15 @@
 <category>安卓</category>
 <category>应用自动化</category>
 </item>
+<item><title>UCIe 4.0 Specification Extends Chiplet Interconnect to System-Level Integration</title><link>https://www.ithome.com/1/026/751.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/751.htm</guid>
+<pubDate>Fri, 13 Nov 2026 14:53:32 +0800</pubDate>
+<description>&lt;p&gt;The UCIe Consortium released version 4.0 of its chiplet interconnect specification, extending the architecture from chip-level interfaces to system-level integration of multiple dies in a unified package. It introduces the UCIe.mem on-package memory link with 93.75% data efficiency and roughly 2.5 TB/s/mm beachfront bandwidth density, plus new power-optimized profiles and enhanced bump designs. The update also adds trusted die state reporting, bidirectional integrity-protected management channels, and automotive-grade reliability extensions.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;UCIe 4.0 规范发布 芯粒互连迈向系统级集成&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;芯粒互连标准的关键代际更新，直接影响先进封装与多芯片系统设计路线。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 72/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/026/751.htm">IT之家 · IT业界</source>
+<category>芯粒互连</category>
+<category>UCIe</category>
+<category>先进封装</category>
+<category>算力基础设施</category>
+</item>
 <item><title>Cerebras Signs Microsoft as Third Hyperscaler Customer</title><link>https://www.ithome.com/1/026/741.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/741.htm</guid>
 <pubDate>Fri, 13 Nov 2026 14:41:28 +0800</pubDate>
 <description>&lt;p&gt;Cerebras announced at its Q3 2026 earnings call that it has signed Microsoft as its third hyperscaler customer after AWS and Oracle. Quarterly core revenue reached about $230M with cloud services up 272% year over year, while remaining performance obligations hit $26.1B as of September 30 and 700MW of data center capacity is secured for 2027 delivery.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Cerebras 签约微软 剩余履约义务达 261 亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;晶圆级芯片厂商拿下第三家超大规模云客户，261 亿美元剩余履约义务与 700MW 产能锁定是算力供给侧的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 78/100&lt;/p&gt;</description>
@@ -37,6 +55,14 @@
 <category>Cerebras</category>
 <category>微软</category>
 <category>云计算</category>
+</item>
+<item><title>Microsoft Global Outage Lasts Over 12 Hours Across 74 Countries</title><link>https://www.cnn.com/2026/11/12/business/live-news/microsoft-global-outage-intl-hnk</link><guid isPermaLink="true">https://www.cnn.com/2026/11/12/business/live-news/microsoft-global-outage-intl-hnk</guid>
+<pubDate>Fri, 13 Nov 2026 14:18:23 +0800</pubDate>
+<description>&lt;p&gt;A Microsoft cloud outage lasting more than 12 hours knocked out Outlook, Teams and other office services worldwide, affecting banks, governments and courts across 74 countries and territories. Microsoft said some remediation changes did not perform as expected and is identifying alternate workstreams to address sustained traffic management imbalances.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;微软全球宕机超 12 小时 74 国受影响&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;超大规模云服务商长时间全球性故障，直接暴露关键办公基础设施的单点依赖风险。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.cnn.com/2026/11/12/business/live-news/microsoft-global-outage-intl-hnk">Hacker News AI</source>
+<category>微软</category>
+<category>云服务宕机</category>
+<category>基础设施</category>
 </item>
 <item><title>Anthropic Launches Claude Sheets for Agent-Driven Spreadsheet Control</title><link>https://x.com/dotey/status/2121112501983064176</link><guid isPermaLink="true">https://x.com/dotey/status/2121112501983064176</guid>
 <pubDate>Fri, 13 Nov 2026 13:26:43 +0800</pubDate>
@@ -165,27 +191,54 @@
 <category>MoE</category>
 <category>Axelera AI</category>
 </item>
-<item><title>MiniMax H3-Image Tops Open Multi-Image Edit Arena with 10-Second 4K Generation</title><link>https://x.com/arena/status/2121071949841596620</link><guid isPermaLink="true">https://x.com/arena/status/2121071949841596620</guid>
+<item><title>国产医疗大模型完成 40 例复杂肺癌实证评测</title><link>https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247943733&amp;idx=1&amp;sn=6349b3258182996ecb696f0e716cdf72</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247943733&amp;idx=1&amp;sn=6349b3258182996ecb696f0e716cdf72</guid>
+<pubDate>Fri, 13 Nov 2026 10:54:00 +0800</pubDate>
+<description>&lt;p&gt;未来医生 MedGPT 与国内顶级三甲医院胸外科团队联合开展大规模肺癌实证研究，在 40 例复杂肺癌病例的统一标准评估中，AI 对医生取得 88 比 12 的胜率，参与评测的 250 名医生多来自三甲医院主任或副主任医师。在 MedGPT 辅助下，医生总体得分从 53.40 提升至 66.27，相对增幅 24.1%，且表现优于 GPT-5.4、Claude Opus 4.7、Gemini 3.1 Pro 等通用大模型。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产垂直医疗大模型首次完成大规模复杂肺癌临床实证，人机协作增益数据具体，值得医疗 AI 方向读者关注。&lt;/p&gt;&lt;p&gt;量子位 (微信公众号) · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247943733&amp;idx=1&amp;sn=6349b3258182996ecb696f0e716cdf72">量子位 (微信公众号)</source>
+<category>医疗AI</category>
+<category>大模型</category>
+<category>肺癌诊疗</category>
+<category>临床评测</category>
+</item>
+<item><title>openJiuwen 发布 RSI 原生 AgentOS 支持热插拔扩展</title><link>https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247943733&amp;idx=2&amp;sn=ec01ea8f00f9e007db2594633f94e039</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247943733&amp;idx=2&amp;sn=ec01ea8f00f9e007db2594633f94e039</guid>
+<pubDate>Fri, 13 Nov 2026 10:54:00 +0800</pubDate>
+<description>&lt;p&gt;openJiuwen 推出面向递归自我改进（RSI）的 AgentOS，在界面、网关、服务端与 Agent 执行层提供全周期扩展点，新功能以扩展包形式热插拔接入且无需改动应用原有代码，并支持版本管理与回退。其自有应用 WorkSwarm 已基于该 OS 构建，演示了 Agent 按自然语言需求自行生成并安装「桌宠」系统插件的流程。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出让 Agent 自行生成并热插拔扩展包的运行环境设计，对智能体自我改进工程化有参考价值。&lt;/p&gt;&lt;p&gt;量子位 (微信公众号) · agent · signal 62/100&lt;/p&gt;</description>
+<source url="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247943733&amp;idx=2&amp;sn=ec01ea8f00f9e007db2594633f94e039">量子位 (微信公众号)</source>
+<category>智能体</category>
+<category>AgentOS</category>
+<category>openJiuwen</category>
+<category>递归自我改进</category>
+</item>
+<item><title>谷歌发布 Gemini 4 Hydrogen 轻量模型 代码能力提升 3 倍</title><link>https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247943733&amp;idx=3&amp;sn=745bfc3f58406752d2d63db1306d234c</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247943733&amp;idx=3&amp;sn=745bfc3f58406752d2d63db1306d234c</guid>
+<pubDate>Fri, 13 Nov 2026 10:54:00 +0800</pubDate>
+<description>&lt;p&gt;谷歌发布 Gemini 4 家族轻量级模型 Gemini 4 Hydrogen，接替 Gemini 3.8 Flash。其任务完成速度提升 2.5 倍，Terminal-Bench 4.1 成绩从 18.2% 升至 57%，虚构性陈述减少超 5 倍，在 Artificial Analysis 智能指数上以 51 分反超旗舰 Gemini 4 Argon 的 50 分。该模型支持 100 万 Token 上下文，输入定价 1.5 美元/百万 Token，并可与 Gemini 4 Carbon 组成大小模型协同的 Agent 架构。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;轻量模型在智能指数上反超旗舰，且代码与工具调用能力大幅跃升，对模型选型与 Agent 架构设计有直接参考价值。&lt;/p&gt;&lt;p&gt;量子位 (微信公众号) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247943733&amp;idx=3&amp;sn=745bfc3f58406752d2d63db1306d234c">量子位 (微信公众号)</source>
+<category>大模型</category>
+<category>谷歌</category>
+<category>Gemini</category>
+<category>代码智能体</category>
+</item>
+<item><title>MiniMax H3-Image 登顶开源多图编辑榜 10 秒生成 4K</title><link>https://x.com/arena/status/2121071949841596620</link><guid isPermaLink="true">https://x.com/arena/status/2121071949841596620</guid>
 <pubDate>Fri, 13 Nov 2026 10:45:35 +0800</pubDate>
-<description>&lt;p&gt;MiniMax released H3-Image, an open-weight image model that ranks #1 among open models on the Multi-Image Edit Arena with a score of 1365, placing #11 overall and tying Nano Banana 2 and Pro as the only open model in the top 20. It supports 16-megapixel resolution and up to 16 reference images, with 2K editing in 10-15 seconds, which the lab claims is 3x faster than Nano Banana 2.1.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;MiniMax H3-Image 登顶开源多图编辑榜 10 秒生成 4K&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源图像模型首次在多图编辑榜逼近闭源前沿，且速度与分辨率指标明确，对关注开源多模态生态的读者有实质参考价值。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · opensource · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;MiniMax 发布开源权重图像模型 H3-Image，在 Multi-Image Edit Arena 以 1365 分位列开源第一、总榜第 11，与 Nano Banana 2/Pro 并列，是前 20 名中唯一开源模型。该模型支持 1600 万像素分辨率、最多 16 张参考图，2K 编辑生成仅需 10-15 秒，官方称比 Nano Banana 2.1 快 3 倍。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源图像模型首次在多图编辑榜逼近闭源前沿，且速度与分辨率指标明确，对关注开源多模态生态的读者有实质参考价值。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · opensource · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/arena/status/2121071949841596620">Arena.ai (@arena)</source>
 <category>开源模型</category>
 <category>图像生成</category>
 <category>MiniMax</category>
 <category>多模态</category>
 </item>
-<item><title>SMIC Warns Chip Foundry Capacity Will Tighten Sharply by 2027</title><link>https://www.ithome.com/1/026/524.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/524.htm</guid>
+<item><title>中芯国际预警 2027 年代工产能极度紧缺</title><link>https://www.ithome.com/1/026/524.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/524.htm</guid>
 <pubDate>Fri, 13 Nov 2026 10:21:15 +0800</pubDate>
-<description>&lt;p&gt;SMIC co-CEO Zhao Haijun said at the company&amp;#x27;s Q3 2026 earnings call that AI compute demand far outstrips supply, with industry consensus pointing to severe foundry capacity shortages in 2027 lasting into mid-to-late 2028. SMIC expects full-year revenue above $12 billion, up nearly 30% year over year, while shifting capacity freed from weak handset and low-end consumer orders toward specialty memory and BCD products.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;中芯国际预警 2027 年代工产能极度紧缺&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部代工厂 CEO 给出明确的 AI 算力供需时间表，是判断 2027 至 2028 年芯片产能与成本走势的一手产业信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;中芯国际联合 CEO 赵海军在 2026 年三季度业绩会上表示，AI 算力需求供不应求，行业共识是 2027 年半导体代工产能将非常紧缺，并可能持续到 2028 年中后期。公司全年收入预计超 120 亿美元、同比增长近三成，同时将手机与中低端消费释放出的产能转向专用存储、BCD 等高附加值产品。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部代工厂 CEO 给出明确的 AI 算力供需时间表，是判断 2027 至 2028 年芯片产能与成本走势的一手产业信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/026/524.htm">IT之家 · IT业界</source>
 <category>半导体代工</category>
 <category>算力基础设施</category>
 <category>中芯国际</category>
 <category>产能紧缺</category>
 </item>
-<item><title>JNTC Breaks Hoya Monopoly to Supply Seagate Glass Substrates from 2027</title><link>https://www.ithome.com/1/026/523.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/523.htm</guid>
+<item><title>JNTC 打破豪雅垄断 2027 年起向希捷供应玻璃盘片</title><link>https://www.ithome.com/1/026/523.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/523.htm</guid>
 <pubDate>Fri, 13 Nov 2026 10:12:10 +0800</pubDate>
-<description>&lt;p&gt;South Korea&amp;#x27;s JNTC has completed construction of its Vietnam production line for HDD glass substrates and is expected to begin shipping to Seagate in Q1 2027, ramping in Q2 and covering roughly 40% of Seagate&amp;#x27;s glass substrate demand. Glass platters are essential for HAMR drives and were previously monopolized by Japan&amp;#x27;s Hoya, so a second supplier could ease the HAMR capacity bottleneck and support areal-density-driven capacity growth.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;JNTC 打破豪雅垄断 2027 年起向希捷供应玻璃盘片&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;存储供应链关键材料打破单一垄断，直接关系 HAMR 机械硬盘产能与 AI 数据存储成本。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;韩国 JNTC 越南机械硬盘玻璃盘片产线已完成建设，预计 2027 年一季度起向希捷供货、二季度放量，将覆盖希捷约 40% 的玻璃盘片需求。玻璃盘片是 HAMR 热辅助磁记录硬盘的刚需材料，此前供应被日本豪雅垄断，新供应商入局有望缓解 HAMR 产能瓶颈并支撑面密度驱动的容量增长。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;存储供应链关键材料打破单一垄断，直接关系 HAMR 机械硬盘产能与 AI 数据存储成本。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/026/523.htm">IT之家 · IT业界</source>
 <category>存储</category>
 <category>HAMR</category>
@@ -218,60 +271,6 @@
 <category>OpenAI</category>
 <category>IPO</category>
 <category>估值</category>
-</item>
-<item><title>雷鸟创新双 11 成交额破亿 累计出货量突破 100 万台</title><link>https://www.ithome.com/1/026/494.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/494.htm</guid>
-<pubDate>Fri, 13 Nov 2026 09:36:25 +0800</pubDate>
-<description>&lt;p&gt;雷鸟创新双 11 期间在京东、天猫、抖音三平台总成交额突破 1 亿元，全平台销量市占率达 37.2%，连续 5 年蝉联品类销量第一。公司同时宣布品牌累计出货量突破 100 万台，成为继 Meta 之后全球第二家完成百万出货的智能眼镜品牌。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;智能眼镜品类爆发期的头部厂商销售与出货里程碑，反映 AI 眼镜消费市场的真实放量节奏。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 38/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/026/494.htm">IT之家 · IT业界</source>
-<category>智能眼镜</category>
-<category>AR</category>
-<category>消费电子</category>
-<category>雷鸟创新</category>
-</item>
-<item><title>中芯国际三季度中国区收入占比 90.8%</title><link>https://www.ithome.com/1/026/491.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/491.htm</guid>
-<pubDate>Fri, 13 Nov 2026 09:33:30 +0800</pubDate>
-<description>&lt;p&gt;中芯国际三季度营收 219.83 亿元、同比增长 28.1%，净利润同比大增 87.6%，中国区收入占比升至 90.8%。联合 CEO 赵海军称中国客户需求增速高于公司整体，产能向 12 英寸产线倾斜，并认为 AI 需求有望拉长半导体上行周期。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部晶圆代工厂的业绩与产能信号，是观察 AI 算力需求与在地化供应链的关键指标。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/026/491.htm">IT之家 · IT业界</source>
-<category>中芯国际</category>
-<category>半导体</category>
-<category>晶圆代工</category>
-<category>财报</category>
-</item>
-<item><title>中芯国际全年营收预计超 120 亿美元</title><link>https://www.ithome.com/1/026/490.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/490.htm</guid>
-<pubDate>Fri, 13 Nov 2026 09:26:14 +0800</pubDate>
-<description>&lt;p&gt;中芯国际三季度营收 606.18 亿元同比增长 22.4%，联合 CEO 赵海军称手机与消费电子需求疲弱，但电脑平板、工业汽车、互联可穿戴三领域受本土化切换带动环比增长 18% 至 26%。公司全年收入预计超 120 亿美元、同比增长近三成，并将产能向专用存储、BCD 等高附加值产品倾斜。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部晶圆代工厂的产能结构与本土化趋势数据，是判断 AI 算力供给与半导体周期的重要基本面信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/026/490.htm">IT之家 · IT业界</source>
-<category>中芯国际</category>
-<category>半导体</category>
-<category>晶圆代工</category>
-<category>本土化</category>
-</item>
-<item><title>中芯国际 Q3 营收 31.9 亿美元 全年预计破 120 亿</title><link>https://www.ithome.com/1/026/487.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/487.htm</guid>
-<pubDate>Fri, 13 Nov 2026 09:17:42 +0800</pubDate>
-<description>&lt;p&gt;中芯国际第三季度销售收入达 31.9 亿美元，环比增长 6.1%，超出指引上限，主因客户对 BCD、专用存储、Controller 等 AI 配套芯片的提拉速度快于预期。平均晶圆单价环比提升 1.8%，公司预计全年收入超 120 亿美元、同比增长近三成，但设备交付周期拉长可能扰动明年资本开支执行。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产晶圆代工龙头业绩超指引，AI 配套芯片需求成为增量主因，是观察算力供应链景气度的一手信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/026/487.htm">IT之家 · IT业界</source>
-<category>中芯国际</category>
-<category>晶圆代工</category>
-<category>算力供应链</category>
-<category>财报</category>
-</item>
-<item><title>中芯国际预计 2026 年收入超 120 亿美元</title><link>https://www.ithome.com/1/026/482.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/482.htm</guid>
-<pubDate>Fri, 13 Nov 2026 09:05:09 +0800</pubDate>
-<description>&lt;p&gt;中芯国际联合 CEO 赵海军表示，2026 年全年收入预计超过 120 亿美元，同比增长接近三成，四季度收入环比增长 4%-6%，毛利率指引维持 26%-28%。公司同时警示全球设备供应链紧张、交付周期拉长，可能扰动明年资本开支执行。前三季度营收 606.18 亿元、归母净利润 73.14 亿元，同比分别增长 22.4% 与 91.6%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产晶圆代工龙头的收入指引与设备交付瓶颈，直接关系 AI 算力供给与扩产节奏。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 68/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/026/482.htm">IT之家 · IT业界</source>
-<category>中芯国际</category>
-<category>晶圆代工</category>
-<category>算力基础设施</category>
-<category>财报</category>
-</item>
-<item><title>Inkling 2 Small 开源登顶美国开放模型榜首</title><link>https://x.com/arena/status/2121041107220037972</link><guid isPermaLink="true">https://x.com/arena/status/2121041107220037972</guid>
-<pubDate>Fri, 13 Nov 2026 08:43:01 +0800</pubDate>
-<description>&lt;p&gt;Thinky Machines 今日开源 Inkling 2 Small，该模型在 Agent Arena 中以 11.5k 真实智能体会话取得 +2.9% 净提升，位列全部开放模型第 2、总榜第 22，是唯一进入开放前十的美国模型。其可控性提升 10.9% 为开放模型最高，单任务中位成本仅 0.26 美元，约为榜首 Kimi K3.1 Pro 的 1/4.7。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;美国开源模型首次在真实智能体会话评测中进入开放前列，且成本优势显著，值得关注开源竞争格局变化。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · opensource · signal 72/100&lt;/p&gt;</description>
-<source url="https://x.com/arena/status/2121041107220037972">Arena.ai (@arena)</source>
-<category>开源模型</category>
-<category>智能体评测</category>
-<category>Thinky Machines</category>
-<category>成本效率</category>
 </item>
 </channel>
 </rss>
