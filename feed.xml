@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Fri, 13 Nov 2026 10:21:15 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 13 Nov 2026 10:56:08 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Axelera Unveils Titania Data Center AIPU Architecture for 2027</title><link>https://www.ithome.com/1/026/544.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/544.htm</guid>
+<pubDate>Fri, 13 Nov 2026 10:56:08 +0800</pubDate>
+<description>&lt;p&gt;Dutch chip startup Axelera AI has disclosed the architecture of Titania, its third-generation AIPU targeting data center inference, with mass production slated for Q3 2027 and over $300 million in orders already booked. Optimized for sparse MoE models, the chip delivers 2.5 PFLOPS at FP8, and a single 4U eight-card server can run a 1.6T MoE model locally, with the company claiming 7x per-watt throughput versus current data center servers.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Axelera 公布数据中心 AIPU 芯片 Titania 架构&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;数据中心推理芯片赛道再添新玩家，Titania 以稀疏 MoE 优化和超高能效比直指英伟达，值得关注算力格局变化。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/026/544.htm">IT之家 · 智能时代</source>
+<category>芯片算力</category>
+<category>AI 推理</category>
+<category>MoE</category>
+<category>Axelera AI</category>
+</item>
 <item><title>SMIC Warns Chip Foundry Capacity Will Tighten Sharply by 2027</title><link>https://www.ithome.com/1/026/524.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/524.htm</guid>
 <pubDate>Fri, 13 Nov 2026 10:21:15 +0800</pubDate>
 <description>&lt;p&gt;SMIC co-CEO Zhao Haijun said at the company&amp;#x27;s Q3 2026 earnings call that AI compute demand far outstrips supply, with industry consensus pointing to severe foundry capacity shortages in 2027 lasting into mid-to-late 2028. SMIC expects full-year revenue above $12 billion, up nearly 30% year over year, while shifting capacity freed from weak handset and low-end consumer orders toward specialty memory and BCD products.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;中芯国际预警 2027 年代工产能极度紧缺&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部代工厂 CEO 给出明确的 AI 算力供需时间表，是判断 2027 至 2028 年芯片产能与成本走势的一手产业信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 72/100&lt;/p&gt;</description>
@@ -139,6 +148,15 @@
 <category>前沿模型</category>
 <category>AI 安全</category>
 </item>
+<item><title>Adding RSA Key Support to Apple&#x27;s swift-nio-ssh Library</title><link>https://lograker.app/blog/swift-nio-ssh-rsa-support</link><guid isPermaLink="true">https://lograker.app/blog/swift-nio-ssh-rsa-support</guid>
+<pubDate>Fri, 13 Nov 2026 07:44:19 +0800</pubDate>
+<description>&lt;p&gt;LogRaker forked Apple&amp;#x27;s swift-nio-ssh to add RSA key support, since Amazon EC2 still issues PKCS#1 RSA key pairs while the upstream library deliberately supports only modern primitives like ed25519. Because NIOSSHPrivateKey&amp;#x27;s backing key enum offers no extension point, the change required modifying library internals; the author documents the gotchas and releases the fork with up-to-date security advisories.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;为 swift-nio-ssh 补上 RSA 密钥支持&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向 Swift 服务端开发者的实用工程记录，展示了在封闭内部枚举下扩展 SSH 库的真实取舍与实现细节。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 38/100&lt;/p&gt;</description>
+<source url="https://lograker.app/blog/swift-nio-ssh-rsa-support">Hacker News AI</source>
+<category>swift-nio-ssh</category>
+<category>RSA</category>
+<category>SSH</category>
+<category>开源</category>
+</item>
 <item><title>Anthropic and OpenAI Face Patent Suit Over Neural Network Claims</title><link>https://www.ithome.com/1/026/464.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/464.htm</guid>
 <pubDate>Fri, 13 Nov 2026 07:33:18 +0800</pubDate>
 <description>&lt;p&gt;Flinn AI Technologies filed two patent infringement suits against Anthropic and OpenAI in Delaware federal court on November 12, alleging the companies infringe five patents covering iterative attention-based neural network training and processing, with filings dating back to 2015-2016. The complaints target Claude&amp;#x27;s attention-based reasoning, retrieval, memory, agentic and multimodal capabilities, with similar claims against OpenAI. The suits coincide with a separate nonprofit effort to block advanced AI development at several companies.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 与 OpenAI 遭五项神经网络专利诉讼&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;注意力机制专利被用于起诉头部大模型公司，可能影响整个生成式 AI 生态的知识产权格局。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
@@ -191,18 +209,18 @@
 <category>GitHub</category>
 <category>开发者工具</category>
 </item>
-<item><title>SpaceX Plans $74 Billion AI Data Center Campuses in Two States</title><link>https://www.ithome.com/1/026/455.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/455.htm</guid>
+<item><title>SpaceX 拟投 740 亿美元建两座 AI 算力园区</title><link>https://www.ithome.com/1/026/455.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/455.htm</guid>
 <pubDate>Fri, 13 Nov 2026 06:52:04 +0800</pubDate>
-<description>&lt;p&gt;SpaceX announced plans to invest over $74 billion in two AI-focused hyperscale data center campuses in Texas and Arizona, extending its business beyond rockets and satellite internet into AI compute infrastructure. The Starbase, Texas site exceeds $24 billion with self-built gas power generation, while the roughly $50 billion Arizona project still awaits county approval amid a petition signed by about 2,400 opponents.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SpaceX 拟投 740 亿美元建两座 AI 算力园区&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;单笔超 740 亿美元的 AI 算力基建投入，是算力供给格局与电力配套模式的重要变量。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;SpaceX 宣布在得克萨斯州和亚利桑那州投资超 740 亿美元建设两座面向 AI 训练的超级计算数据中心园区，标志其业务从火箭发射与卫星互联网向超大规模算力基础设施延伸。得州星际基地项目投资超 240 亿美元并自建燃气发电，亚利桑那项目约 500 亿美元仍待当地审批，已面临约 2400 人请愿反对。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;单笔超 740 亿美元的 AI 算力基建投入，是算力供给格局与电力配套模式的重要变量。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/026/455.htm">IT之家 · 智能时代</source>
 <category>算力基础设施</category>
 <category>SpaceX</category>
 <category>数据中心</category>
 <category>AI 投资</category>
 </item>
-<item><title>Expo Launches Cloud Simulators Letting Coding Agents Test Mobile Apps</title><link>https://x.com/rohanpaul_ai/status/2121011402869723366</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121011402869723366</guid>
+<item><title>Expo 推出云端模拟器 让编码智能体自测移动应用</title><link>https://x.com/rohanpaul_ai/status/2121011402869723366</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121011402869723366</guid>
 <pubDate>Fri, 13 Nov 2026 06:44:59 +0800</pubDate>
-<description>&lt;p&gt;Expo is rolling out Expo Simulators, cloud-hosted iOS and Android simulator environments built for coding agents, so they can install their own builds, drive the app, and record the session before requesting human review. Agents start a remote session via the eas simulator command and operate the app through agent-device, Argent, or Appium, returning screenshots, video, and a live browser link reviewers can tap through. The move closes a key loop gap for coding agents that can write mobile code but never see it run.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Expo 推出云端模拟器 让编码智能体自测移动应用&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为编码智能体补上移动端运行与自测闭环，是智能体工程化落地的实用基础设施更新。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · tools · signal 68/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Expo 推出 Expo Simulators，为编码智能体提供云端 iOS/Android 模拟器环境，使其在提交改动前能自行安装构建、驱动应用并录制屏幕。智能体可通过 eas simulator 命令启动远程会话，配合 agent-device、Argent 或 Appium 操作应用，并回传截图、视频与可交互的浏览器链接供人工复核。这填补了编码智能体“能写代码却看不到应用运行”的关键闭环缺口。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为编码智能体补上移动端运行与自测闭环，是智能体工程化落地的实用基础设施更新。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · tools · signal 68/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2121011402869723366">Rohan Paul (@rohanpaul_ai)</source>
 <category>智能体</category>
 <category>移动开发</category>
@@ -251,24 +269,6 @@
 <category>反垄断</category>
 <category>英伟达</category>
 <category>产业监管</category>
-</item>
-<item><title>SGLang-Neuron 开源 支持在 AWS Trainium 上部署前沿模型</title><link>https://aws.amazon.com/blogs/machine-learning/deploy-frontier-ai-models-on-aws-trainium-with-sglang-neuron/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/deploy-frontier-ai-models-on-aws-trainium-with-sglang-neuron/</guid>
-<pubDate>Fri, 13 Nov 2026 06:03:34 +0800</pubDate>
-<description>&lt;p&gt;AWS 宣布 SGLang-Neuron 正式公开可用，可通过 AWS 深度学习容器获取，由 RadixArk 与 Annapurna Labs 合作发布。该插件以树外插件形式将 SGLang 接入 Trainium，底层基于原生 PyTorch，用户沿用现有 SGLang 服务接口与生成 API 即可部署模型并生成强化学习 rollout。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流推理框架 SGLang 正式打通 AWS 自研 AI 芯片 Trainium，为算力多元化与降本提供新的可落地路径。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · compute · signal 62/100&lt;/p&gt;</description>
-<source url="https://aws.amazon.com/blogs/machine-learning/deploy-frontier-ai-models-on-aws-trainium-with-sglang-neuron/">AWS Machine Learning Blog</source>
-<category>SGLang</category>
-<category>AWS Trainium</category>
-<category>推理框架</category>
-<category>算力</category>
-</item>
-<item><title>研究称 DeepSeek 等四家中国模型厂商已用上 Blackwell 芯片</title><link>https://unemploymentlabs.com/checkpoint-forensics</link><guid isPermaLink="true">https://unemploymentlabs.com/checkpoint-forensics</guid>
-<pubDate>Fri, 13 Nov 2026 05:56:11 +0800</pubDate>
-<description>&lt;p&gt;Unemployment Labs 通过对公开模型权重做取证分析，发现 DeepSeek、月之暗面、MiniMax 与蚂蚁集团自 2026 年 4 月以来发布的 6 个模型，其数值特征与英伟达 Blackwell 硬件匹配，而更早模型则对应上一代 Hopper。该结论完全来自模型自身权重而非爆料，并在 DeepSeek-V4-Flash 与 Kimi K3 上于实体 Blackwell 芯片完成验证，为出口管制执行提供了可复现的技术证据。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以模型权重取证推断受管制芯片使用情况，方法新颖且直接牵动中美算力管制议题。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 78/100&lt;/p&gt;</description>
-<source url="https://unemploymentlabs.com/checkpoint-forensics">Hacker News AI</source>
-<category>算力</category>
-<category>出口管制</category>
-<category>DeepSeek</category>
-<category>英伟达</category>
 </item>
 </channel>
 </rss>
