@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Fri, 13 Nov 2026 18:51:53 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 13 Nov 2026 20:28:23 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Jensen Huang Exits Nvidia as Interim CEO Faces Internal Doubts</title><link>https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/</guid>
+<pubDate>Fri, 13 Nov 2026 20:28:23 +0800</pubDate>
+<description>&lt;p&gt;Jensen Huang has stepped down as Nvidia CEO after more than 33 years, with CFO Colette Kress serving as interim chief, according to The Wall Street Journal. The report says Huang privately described Kress as \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;黄仁勋卸任英伟达 CEO 临时接任者遭质疑&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达最高管理层更替叠加内部治理分歧，是影响 AI 算力供应链走向的关键产业事件。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 71/100&lt;/p&gt;</description>
+<source url="https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/">TechCrunch AI</source>
+<category>英伟达</category>
+<category>高管变动</category>
+<category>公司治理</category>
+<category>AI 算力</category>
+</item>
+<item><title>Google Open Sources WeatherNext 3 Weather Datasets</title><link>https://www.ithome.com/1/026/939.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/939.htm</guid>
+<pubDate>Fri, 13 Nov 2026 20:09:02 +0800</pubDate>
+<description>&lt;p&gt;Google DeepMind has publicly released SatWeave and PARDIG, the two foundational datasets behind its WeatherNext 3 weather model, both hosted on Google Cloud Storage under CC BY 4.0. PARDIG uses a spherical-grid Transformer with ~10 km spatial and 15-minute temporal resolution, outperforming NASA IMERG-Final by over 30% on hourly light-to-moderate precipitation detection and remaining reliable in regions lacking ground radar.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌开源 WeatherNext 3 气象数据集&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;谷歌开源高分辨率全球气象基础数据集，对 AI for Science 与气象建模社区具备直接可用价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · opensource · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/026/939.htm">IT之家 · 智能时代</source>
+<category>开源数据集</category>
+<category>气象模型</category>
+<category>Google DeepMind</category>
+<category>AI for Science</category>
+</item>
 <item><title>Nvidia Confirms 260,000 GPU Supply Deal With South Korea</title><link>https://www.ithome.com/1/026/927.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/927.htm</guid>
 <pubDate>Fri, 13 Nov 2026 18:51:53 +0800</pubDate>
 <description>&lt;p&gt;South Korea&amp;#x27;s ICT minister said Nvidia has confirmed it will deliver 260,000 advanced GPUs to the country as originally agreed, and that CEO Jensen Huang&amp;#x27;s departure will not affect the plan. The two sides will also link Korean-made AI chips with Nvidia platforms, build compute infrastructure and pursue joint physical-AI research.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达确认向韩国供应 26 万块 GPU&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;26 万块 GPU 的国别级算力供应落地，是观察全球 AI 基础设施与主权算力布局的关键信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 78/100&lt;/p&gt;</description>
@@ -19,6 +37,15 @@
 <category>Anthropic</category>
 <category>服务故障</category>
 <category>Claude Code</category>
+</item>
+<item><title>llama.cpp Adds Arm NEON Kernel for 6.5x Faster Prompt Processing</title><link>https://github.com/hardwiredagent/silicon-forge-arm-neon-study</link><guid isPermaLink="true">https://github.com/hardwiredagent/silicon-forge-arm-neon-study</guid>
+<pubDate>Fri, 13 Nov 2026 18:28:36 +0800</pubDate>
+<description>&lt;p&gt;llama.cpp&amp;#x27;s tiled K-quant matmul previously shipped only AVX-512, AVX2 and AVX inner kernels, forcing Q3_K, Q2_K and IQ-family formats on Arm into a slow path that re-unpacked weights for every dot product. This contribution adds the missing Arm inner kernel built on the NEON SDOT instruction, lifting IQ3_M prompt processing on Neoverse N1 from 11.5 to 74.5 tokens/s (about 6.5x), with 3.3x to 4.9x gains on Neoverse V1 and V2.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;llama.cpp 新增 Arm NEON 内核 提示处理提速 6.5 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为 Arm 服务器补齐低比特量化推理的关键内核，实测提速最高 6.5 倍，直接改善本地与边缘部署体验。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 72/100&lt;/p&gt;</description>
+<source url="https://github.com/hardwiredagent/silicon-forge-arm-neon-study">Hacker News AI</source>
+<category>llama.cpp</category>
+<category>Arm</category>
+<category>量化推理</category>
+<category>开源生态</category>
 </item>
 <item><title>BBC Exposes UK Estate Agents Using AI to Fake Property Listings</title><link>https://www.ithome.com/1/026/904.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/904.htm</guid>
 <pubDate>Fri, 13 Nov 2026 18:22:41 +0800</pubDate>
@@ -169,18 +196,18 @@
 <category>先进封装</category>
 <category>算力基础设施</category>
 </item>
-<item><title>Cerebras Signs Microsoft as Third Hyperscaler Customer</title><link>https://www.ithome.com/1/026/741.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/741.htm</guid>
+<item><title>Cerebras 签约微软 剩余履约义务达 261 亿美元</title><link>https://www.ithome.com/1/026/741.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/741.htm</guid>
 <pubDate>Fri, 13 Nov 2026 14:41:28 +0800</pubDate>
-<description>&lt;p&gt;Cerebras announced at its Q3 2026 earnings call that it has signed Microsoft as its third hyperscaler customer after AWS and Oracle. Quarterly core revenue reached about $230M with cloud services up 272% year over year, while remaining performance obligations hit $26.1B as of September 30 and 700MW of data center capacity is secured for 2027 delivery.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Cerebras 签约微软 剩余履约义务达 261 亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;晶圆级芯片厂商拿下第三家超大规模云客户，261 亿美元剩余履约义务与 700MW 产能锁定是算力供给侧的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Cerebras 在 2026Q3 财报电话会上宣布与微软签署协议，微软成为其继 AWS、Oracle 之后的第三家超大规模云客户。当季核心营收约 2.3 亿美元，云服务收入同比增 272%，截至 9 月底剩余履约义务达 261 亿美元，并已锁定 2027 年 700MW 数据中心容量。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;晶圆级芯片厂商拿下第三家超大规模云客户，261 亿美元剩余履约义务与 700MW 产能锁定是算力供给侧的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/026/741.htm">IT之家 · 智能时代</source>
 <category>算力芯片</category>
 <category>Cerebras</category>
 <category>微软</category>
 <category>云计算</category>
 </item>
-<item><title>Microsoft Global Outage Lasts Over 12 Hours Across 74 Countries</title><link>https://www.cnn.com/2026/11/12/business/live-news/microsoft-global-outage-intl-hnk</link><guid isPermaLink="true">https://www.cnn.com/2026/11/12/business/live-news/microsoft-global-outage-intl-hnk</guid>
+<item><title>微软全球宕机超 12 小时 74 国受影响</title><link>https://www.cnn.com/2026/11/12/business/live-news/microsoft-global-outage-intl-hnk</link><guid isPermaLink="true">https://www.cnn.com/2026/11/12/business/live-news/microsoft-global-outage-intl-hnk</guid>
 <pubDate>Fri, 13 Nov 2026 14:18:23 +0800</pubDate>
-<description>&lt;p&gt;A Microsoft cloud outage lasting more than 12 hours knocked out Outlook, Teams and other office services worldwide, affecting banks, governments and courts across 74 countries and territories. Microsoft said some remediation changes did not perform as expected and is identifying alternate workstreams to address sustained traffic management imbalances.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;微软全球宕机超 12 小时 74 国受影响&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;超大规模云服务商长时间全球性故障，直接暴露关键办公基础设施的单点依赖风险。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;微软云服务发生持续超 12 小时的全球性宕机，Outlook、Teams 等办公套件大面积不可用，波及 74 个国家和地区的银行、政府与法院系统。微软称已确认部分修复措施未达预期，正寻找替代方案以缓解持续的流量管理失衡。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;超大规模云服务商长时间全球性故障，直接暴露关键办公基础设施的单点依赖风险。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.cnn.com/2026/11/12/business/live-news/microsoft-global-outage-intl-hnk">Hacker News AI</source>
 <category>微软</category>
 <category>云服务宕机</category>
@@ -241,32 +268,6 @@
 <category>硬件涨价</category>
 <category>供应链</category>
 <category>消费电子</category>
-</item>
-<item><title>Rust 1.100 发布 永不返回类型历经 10 年终稳定</title><link>https://www.ithome.com/1/026/669.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/669.htm</guid>
-<pubDate>Fri, 13 Nov 2026 12:30:10 +0800</pubDate>
-<description>&lt;p&gt;Rust 1.100.0 稳定版发布，版本号首次迈入三位数。最受关注的变化是历经约 10 年、5 次尝试的 never type（!）正式稳定，同时稳定了 Allocator API 核心部分，并新增 DropGuard、conjure_zst 等标准库接口，Cargo 也强化了未使用依赖提示与供应链安全机制。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Rust 语言层面的里程碑式版本，never type 与 Allocator API 稳定化对系统级开发者有实质影响。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · opensource · signal 72/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/026/669.htm">IT之家 · IT业界</source>
-<category>Rust</category>
-<category>开源</category>
-<category>编程语言</category>
-<category>标准库</category>
-</item>
-<item><title>ArtCraft 用 AI 复刻 17 款软件并开源</title><link>https://latent.space/p/artcraft/</link><guid isPermaLink="true">https://latent.space/p/artcraft/</guid>
-<pubDate>Fri, 13 Nov 2026 12:17:25 +0800</pubDate>
-<description>&lt;p&gt;ArtCraft 在 AI Engineer Code Summit 上展示了其 AI 驱动的开源软件复刻计划，已发布 17 个热门工具的开源版本，首个产品是用 Rust 从零构建的 Photoshop 替代品 PhotoCraft，并已复刻 Acrobat 推出 PdfCraft。创始人 Brandon Thomas 将其定位为 AI 时代开源宣言，核心差异在于开发工作主要由智能体承担，同时人类贡献者社区也在增长。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以智能体批量复刻并开源主流商业软件，展示了 AI 原生开源协作的新范式。&lt;/p&gt;&lt;p&gt;Latent Space · opensource · signal 62/100&lt;/p&gt;</description>
-<source url="https://latent.space/p/artcraft/">Latent Space</source>
-<category>开源生态</category>
-<category>智能体</category>
-<category>AI 编程</category>
-</item>
-<item><title>海康机器人完成股改与上市辅导备案</title><link>https://www.ithome.com/1/026/667.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/667.htm</guid>
-<pubDate>Fri, 13 Nov 2026 12:16:39 +0800</pubDate>
-<description>&lt;p&gt;海康威视在互动平台确认，子公司海康机器人已完成股份制改制及上市辅导备案，IPO 进程进入实质阶段。海康机器人聚焦机器视觉与移动机器人，移动机器人全品类累计下线已突破 20 万台，服务客户超 2 万家。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;具身智能与工业机器人赛道的头部玩家启动 IPO，是观察机器人产业资本化节奏的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/026/667.htm">IT之家 · 智能时代</source>
-<category>机器人</category>
-<category>IPO</category>
-<category>海康威视</category>
-<category>工业物联网</category>
 </item>
 </channel>
 </rss>
