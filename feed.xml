@@ -227,6 +227,16 @@
 <category>数据中心</category>
 <category>AI 投资</category>
 </item>
+<item><title>Liquid AI 开源 7400 万参数流式音频编解码器</title><link>https://x.com/Marktechpost/status/2121011561590608349</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2121011561590608349</guid>
+<pubDate>Fri, 13 Nov 2026 06:45:37 +0800</pubDate>
+<description>&lt;p&gt;Liquid AI 发布 LiquidCodec，一个约 7400 万参数的流式音频编解码器，将语音转为语言模型可预测的 token 再还原为音频，已用于 LFM3-Audio-2B 与 LFM3-Omni-2B。其核心创新是用分组有限标量量化（GFSQ）替代残差向量量化，每 80 毫秒帧生成 12 个独立 token 可并行预测，解码器直接预测频谱系数并跳过转置卷积上采样。在 Apple M4 Max 单 CPU 线程 FP32 下编码约 361 倍、解码约 87 倍实时，编码 RTF 0.0028 远优于 Kyutai Mimi 的 0.0361，并在全部 8 个测试集上取得最佳 ViSQOL 与 TTS UTMOSv2；但 PESQ 在 7/8 测试集上仍落后 NVIDIA NanoCodec，且未公布比特率与毫秒级延迟。权重已在 Hugging Face 开放，并提供 llama.cpp 的 GGUF 量化版本。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源音频编解码器以 GFSQ 实现并行 token 预测与极高 CPU 实时率，直接服务语音大模型链路，工程价值明确。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · opensource · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/Marktechpost/status/2121011561590608349">Marktechpost (@Marktechpost)</source>
+<category>音频编解码器</category>
+<category>Liquid AI</category>
+<category>开源模型</category>
+<category>语音大模型</category>
+<category>量化</category>
+</item>
 <item><title>Expo 推出云端模拟器 让编码智能体自测移动应用</title><link>https://x.com/rohanpaul_ai/status/2121011402869723366</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121011402869723366</guid>
 <pubDate>Fri, 13 Nov 2026 06:44:59 +0800</pubDate>
 <description>&lt;p&gt;Expo 推出 Expo Simulators，为编码智能体提供云端 iOS/Android 模拟器环境，使其在提交改动前能自行安装构建、驱动应用并录制屏幕。智能体可通过 eas simulator 命令启动远程会话，配合 agent-device、Argent 或 Appium 操作应用，并回传截图、视频与可交互的浏览器链接供人工复核。这填补了编码智能体“能写代码却看不到应用运行”的关键闭环缺口。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为编码智能体补上移动端运行与自测闭环，是智能体工程化落地的实用基础设施更新。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · tools · signal 68/100&lt;/p&gt;</description>
@@ -262,14 +272,6 @@
 <category>FAA</category>
 <category>智能交通</category>
 <category>基础设施</category>
-</item>
-<item><title>Meta Muse 上线代打电话功能 仅限付费订阅用户</title><link>https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/</guid>
-<pubDate>Fri, 13 Nov 2026 06:22:28 +0800</pubDate>
-<description>&lt;p&gt;Meta 的消费级 AI 智能体 Muse 正式向美国付费订阅用户开放代打电话功能，可代为处理联系有线电视公司、车管所或餐厅等事务。该功能 9 月已启动测试，Muse 用户规模已超 1000 万，Meta 计划后续向免费用户开放。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;消费级智能体首次将语音代打电话能力推向千万级用户，是 agent 落地真实生活场景的重要信号。&lt;/p&gt;&lt;p&gt;TechCrunch AI · agent · signal 62/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/">TechCrunch AI</source>
-<category>智能体</category>
-<category>Meta</category>
-<category>消费级 AI</category>
 </item>
 </channel>
 </rss>
