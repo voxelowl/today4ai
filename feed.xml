@@ -1,8 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 14 Nov 2026 00:00:12 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 14 Nov 2026 00:37:59 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Tencent Study Finds Domain Skills Scattered Across Neurons Inside MoE Experts</title><link>https://x.com/rohanpaul_ai/status/2121281433289589230</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121281433289589230</guid>
+<pubDate>Sat, 14 Nov 2026 00:37:59 +0800</pubDate>
+<description>&lt;p&gt;A new Tencent paper finds that domain skills such as math and coding in Mixture-of-Experts models are not concentrated in individual experts but scattered across sparse neurons spanning multiple experts. Neuron-level pruning scored by routed contribution (RAMP) retains 91%-98% of performance with 75% of neurons kept; at 50% retention, GPU memory drops 36%-43% and batched prefill throughput rises 17%-39%, offering an alternative to whole-expert pruning for MoE compression.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;腾讯新研究揭示 MoE 领域技能分散于专家内部神经元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示 MoE 能力分布机制并给出可落地的神经元级剪枝方案，对模型压缩与推理成本优化有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 72/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2121281433289589230">Rohan Paul (@rohanpaul_ai)</source>
+<category>MoE</category>
+<category>模型压缩</category>
+<category>腾讯</category>
+<category>剪枝</category>
+</item>
+<item><title>Anthropic Launches Claude for Manufacturing to Automate Factory Workflows</title><link>https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/</link><guid isPermaLink="true">https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/</guid>
+<pubDate>Sat, 14 Nov 2026 00:37:01 +0800</pubDate>
+<description>&lt;p&gt;Anthropic released Claude for Manufacturing, a plugin that connects the model directly to industrial software including Autodesk Fusion, Oracle NetSuite, Microsoft 365 and Infor through four universal interfaces. Bundled with 17 specialized skills, it drafts quotes from real inventory, compares suppliers, generates quality reports and design variants, and can reorder from backup suppliers and reschedule production after human approval.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 推出制造业版 Claude 直连工厂软件&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是大模型厂商首次以插件形态深度嵌入制造业核心业务系统，标志着 Agent 从办公场景向工业流程落地的关键一步。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 74/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/">The Decoder</source>
+<category>智能体</category>
+<category>Anthropic</category>
+<category>工业制造</category>
+<category>企业集成</category>
+</item>
+<item><title>Perplexity Open-Sources Decider v1.3 Decision Models with Span Extraction</title><link>https://x.com/Marktechpost/status/2121275306107666870</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2121275306107666870</guid>
+<pubDate>Sat, 14 Nov 2026 00:13:39 +0800</pubDate>
+<description>&lt;p&gt;Perplexity released Decider v1.3 and Decider Flash v1.3, open-weight decision models that upgrade from label-only classification to returning exact text spans with start and end character offsets via a Locate capability. Across 17 out-of-domain NER, PII and extractive QA tasks, v1.3 averages 69.0 and Flash 63.6, versus 43.3 for Liquid d1 and 33.6 for GLiNER large v2.5; query classification reaches 91.6% over 63 tasks with a 0.27% answer-flip rate. Built on Qwen3.8-27B and Qwen3.5-4B under Apache 2.0, with API input pricing at $0.02 and $0.01 per 1M tokens.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Perplexity 开源 Decider v1.3 决策模型，支持精确文本片段抽取&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开放权重决策模型将抽取能力从标签升级为精确片段定位，并在多项域外任务上大幅领先同类基线，对信息抽取与结构化管线选型有直接参考价值。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · llm · signal 71/100&lt;/p&gt;</description>
+<source url="https://x.com/Marktechpost/status/2121275306107666870">Marktechpost (@Marktechpost)</source>
+<category>开源模型</category>
+<category>信息抽取</category>
+<category>Perplexity</category>
+<category>决策模型</category>
+</item>
+<item><title>Study Finds Monthly Rating Decline for Unchanged AI Models</title><link>https://x.com/rohanpaul_ai/status/2121274748000936090</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121274748000936090</guid>
+<pubDate>Sat, 14 Nov 2026 00:11:25 +0800</pubDate>
+<description>&lt;p&gt;A study of 1.26 million blind votes on Chatbot Arena found that for identical frozen model pairs, the share of \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;研究发现同一批 AI 模型每月评分持续走低&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究用百万级盲测数据揭示用户评判标准随时间漂移，对理解模型评测与排行榜可信度有实质价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 71/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2121274748000936090">Rohan Paul (@rohanpaul_ai)</source>
+<category>模型评测</category>
+<category>Chatbot Arena</category>
+<category>用户偏好</category>
+</item>
+<item><title>LangChain Raises $300M Series C at $3B Valuation</title><link>https://www.langchain.com/blog/series-c</link><guid isPermaLink="true">https://www.langchain.com/blog/series-c</guid>
+<pubDate>Sat, 14 Nov 2026 00:06:29 +0800</pubDate>
+<description>&lt;p&gt;LangChain announced a $300M Series C at a $3B valuation, led by existing investor CapitalG with participation from new investors GIC and DFJ Growth. The company said the funding advances its mission to let every company own its intelligence, betting that domain-specific agents differentiated by knowledge, data, and UX will become a lasting competitive advantage.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;LangChain 完成 3 亿美元 C 轮融资 估值达 30 亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部智能体开发框架厂商的大额融资，反映资本对 Agent 基础设施赛道的持续押注。&lt;/p&gt;&lt;p&gt;LangChain Blog · industry · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.langchain.com/blog/series-c">LangChain Blog</source>
+<category>融资</category>
+<category>智能体</category>
+<category>LangChain</category>
+</item>
 <item><title>OpenAI Launches ChatGPT Wallet to Let AI Agents Shop and Pay</title><link>https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/</guid>
 <pubDate>Sat, 14 Nov 2026 00:00:12 +0800</pubDate>
 <description>&lt;p&gt;OpenAI launched a Wallet feature in ChatGPT that lets its agents, called dots, help users decide what to buy and complete the purchase on their behalf. The option is initially limited to U.S. ChatGPT Pro subscribers aged 18+ with a U.S.-issued Visa, Mastercard, or American Express. Users review items, totals, and the payment card before checkout and approve via Face ID or fingerprint, creating a transaction record. OpenAI also published a Commerce Partner Playbook to help retailers support agentic commerce.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 推出 ChatGPT 钱包 智能体可代用户下单支付&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是智能体从信息处理迈向真实交易闭环的关键一步，支付授权与安全机制的设计值得关注。&lt;/p&gt;&lt;p&gt;TechCrunch AI · agent · signal 78/100&lt;/p&gt;</description>
@@ -179,18 +222,18 @@
 <category>Anthropic</category>
 <category>消费级 AI</category>
 </item>
-<item><title>Oklo&#x27;s Groves-1 Test Reactor Cleared for Full Operations</title><link>https://www.world-nuclear-news.org/articles/us-test-reactor-cleared-for-operations</link><guid isPermaLink="true">https://www.world-nuclear-news.org/articles/us-test-reactor-cleared-for-operations</guid>
+<item><title>Oklo 试验反应堆获准全面运行</title><link>https://www.world-nuclear-news.org/articles/us-test-reactor-cleared-for-operations</link><guid isPermaLink="true">https://www.world-nuclear-news.org/articles/us-test-reactor-cleared-for-operations</guid>
 <pubDate>Fri, 13 Nov 2026 21:54:49 +0800</pubDate>
-<description>&lt;p&gt;The US Department of Energy has lifted the final operations hold point on Oklo&amp;#x27;s Groves-1 test reactor near Lockhart, Texas, clearing it to enter research, testing and training operations. The reactor reached first criticality in August, less than a year after groundbreaking, and is one of 11 advanced reactor projects selected for the DOE Nuclear Reactor Pilot Program. Operating experience will feed directly into Oklo&amp;#x27;s planned Groves-2 Forge isotope facility and its fast fission reactor work.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Oklo 试验反应堆获准全面运行&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;先进核裂变试验堆获准全面运行，为 AI 数据中心供电的核能路线再添实质进展。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;美国能源部已解除对 Oklo 位于得州 Caldwell County 的 Groves-1 试验反应堆的最后运行限制，该堆由此进入研究、测试与培训阶段。该堆于 2025 年 8 月动工，同年实现首次临界，是核反应堆试点计划选定的 11 个先进堆项目之一。其运行经验将直接用于 Oklo 后续的 Groves-2 Forge 同位素生产设施及快裂变反应堆研发。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;先进核裂变试验堆获准全面运行，为 AI 数据中心供电的核能路线再添实质进展。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.world-nuclear-news.org/articles/us-test-reactor-cleared-for-operations">Hacker News AI</source>
 <category>核能</category>
 <category>先进反应堆</category>
 <category>Oklo</category>
 <category>美国能源部</category>
 </item>
-<item><title>Lilly CEO Rebuts Amodei&#x27;s Bold Ten-Year Disease Cure Claim</title><link>https://garymarcus.substack.com/p/breaking-eli-lilly-ceo-becomes-latest</link><guid isPermaLink="true">https://garymarcus.substack.com/p/breaking-eli-lilly-ceo-becomes-latest</guid>
+<item><title>礼来 CEO 驳斥 Amodei 十年内攻克绝症言论</title><link>https://garymarcus.substack.com/p/breaking-eli-lilly-ceo-becomes-latest</link><guid isPermaLink="true">https://garymarcus.substack.com/p/breaking-eli-lilly-ceo-becomes-latest</guid>
 <pubDate>Fri, 13 Nov 2026 21:51:27 +0800</pubDate>
-<description>&lt;p&gt;Eli Lilly&amp;#x27;s CEO publicly pushed back on Anthropic CEO Dario Amodei&amp;#x27;s prediction that cancer, Alzheimer&amp;#x27;s, heart disease and mental illness will be cured within a decade, calling the timeline medically unrealistic. The dispute unfolded around Anthropic&amp;#x27;s IPO launch, with experts widely criticizing the overpromise as Theranos-style hype.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;礼来 CEO 驳斥 Amodei 十年内攻克绝症言论&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部药企与头部 AI 公司掌门人就 AI 医疗时间表正面交锋，折射 AI 医疗叙事与产业现实的张力。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;礼来 CEO 公开驳斥 Anthropic CEO Dario Amodei 关于十年内治愈癌症、阿尔茨海默病与精神疾病的预测，认为该时间表脱离医学现实。争议发生在 Anthropic IPO 启动之际，业界专家普遍批评该言论过度承诺，并类比 Theranos 式炒作。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部药企与头部 AI 公司掌门人就 AI 医疗时间表正面交锋，折射 AI 医疗叙事与产业现实的张力。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://garymarcus.substack.com/p/breaking-eli-lilly-ceo-becomes-latest">Hacker News AI</source>
 <category>AI 医疗</category>
 <category>Anthropic</category>
@@ -198,77 +241,32 @@
 <category>IPO</category>
 <category>行业争议</category>
 </item>
-<item><title>TSMC Launches $500 Million Venture Fund to Back Chip Startups</title><link>https://www.ithome.com/1/026/953.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/953.htm</guid>
+<item><title>台积电设立 5 亿美元创投基金扶持芯片初创</title><link>https://www.ithome.com/1/026/953.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/953.htm</guid>
 <pubDate>Fri, 13 Nov 2026 21:39:10 +0800</pubDate>
-<description>&lt;p&gt;TSMC plans to set up a $500 million venture fund aimed at backing chip startups that could become the next Nvidia or Broadcom, formalizing its investment mechanism for the first time. The fund will extend beyond direct customers to suppliers and upstream partners, while TSMC has also committed up to $500 million each to Anthropic and OpenAI.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;台积电设立 5 亿美元创投基金扶持芯片初创&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;台积电首次建立正式创投机制并扩大生态投资边界，是观察 AI 算力产业链资本布局的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;台积电计划设立规模 5 亿美元的创投基金，用于扶持有望成长为下一个英伟达或博通的芯片初创企业，并首次建立正式投资机制。新基金投资范围将从直接客户扩展至供应商等上游合作伙伴，同时台积电已承诺向 Anthropic 和 OpenAI 各投资最多 5 亿美元。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;台积电首次建立正式创投机制并扩大生态投资边界，是观察 AI 算力产业链资本布局的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/026/953.htm">IT之家 · IT业界</source>
 <category>台积电</category>
 <category>创投基金</category>
 <category>半导体</category>
 <category>AI 算力</category>
 </item>
-<item><title>South Korean AI Data Center Plans Lag Far Behind Gigawatt Targets</title><link>https://www.ithome.com/1/026/951.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/951.htm</guid>
+<item><title>韩企吉瓦级数据中心规划落地不足两成</title><link>https://www.ithome.com/1/026/951.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/951.htm</guid>
 <pubDate>Fri, 13 Nov 2026 21:30:11 +0800</pubDate>
-<description>&lt;p&gt;South Korean carriers and cloud providers including KT, SK Telecom and Naver have announced gigawatt-scale AI data center ambitions, yet their operating capacity remains in the tens to hundreds of megawatts, with KT and SK Telecom at only 13-15% of their 1GW targets. Meanwhile CoreWeave already runs 1.7GW with another 4.6GW contracted, leaving Korean players behind in both customer acquisition and buildout pace.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;韩企吉瓦级数据中心规划落地不足两成&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以具体容量与合同数据揭示韩国 AI 算力基建规划与落地之间的巨大落差，具备明确的产业对比价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;KT、SK 电讯、Naver 等韩国企业纷纷提出吉瓦级数据中心规划，但现有运营容量仅数十至数百兆瓦，KT 与 SK 电讯的实际规模仅达 1GW 目标的 13% 至 15%。同期 CoreWeave 已投运 1.7GW 并握有 4.6GW 签约供电容量，韩国企业在客户争夺与扩建节奏上明显落后。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以具体容量与合同数据揭示韩国 AI 算力基建规划与落地之间的巨大落差，具备明确的产业对比价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/026/951.htm">IT之家 · IT业界</source>
 <category>数据中心</category>
 <category>算力基础设施</category>
 <category>韩国</category>
 <category>CoreWeave</category>
 </item>
-<item><title>Dalian University of Technology Unveils 20 kg Hydrogen-Powered Unmanned Helicopter</title><link>https://www.ithome.com/1/026/949.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/949.htm</guid>
+<item><title>大连理工研制 20 公斤级氢能无人直升机 续航 3 小时</title><link>https://www.ithome.com/1/026/949.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/949.htm</guid>
 <pubDate>Fri, 13 Nov 2026 21:11:56 +0800</pubDate>
-<description>&lt;p&gt;A team at Dalian University of Technology&amp;#x27;s School of Chemical Engineering has developed China&amp;#x27;s first 20 kg-class hydrogen-powered unmanned helicopter, offering both pure hydrogen fuel cell and hydrogen-lithium hybrid configurations. The 12L fuel-cell variant reaches a 3-hour endurance, several times the roughly 30 minutes of conventional lithium-battery drones, and has completed a sea trial cruise in Force 6 winds.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;大连理工研制 20 公斤级氢能无人直升机 续航 3 小时&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;氢能动力无人机实现数倍续航提升并完成海上大风实测，是具身智能与新能源航空交叉落地的具体工程案例。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;大连理工大学化工学院团队研制出国内首款 20 公斤级氢能动力无人直升机，布局纯氢燃料电池与氢-锂混动两条技术路线。12L 氢燃料电池机型续航达 3 小时，较传统锂电无人机约 30 分钟的续航提升数倍，并已完成海上 6 级大风巡航试飞。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;氢能动力无人机实现数倍续航提升并完成海上大风实测，是具身智能与新能源航空交叉落地的具体工程案例。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/026/949.htm">IT之家 · IT业界</source>
 <category>氢燃料电池</category>
 <category>无人机</category>
 <category>新能源航空</category>
 <category>大连理工大学</category>
-</item>
-<item><title>微软 365 故障波及 Claude 连接器与登录</title><link>https://www.ithome.com/1/026/948.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/948.htm</guid>
-<pubDate>Fri, 13 Nov 2026 21:10:18 +0800</pubDate>
-<description>&lt;p&gt;微软 Microsoft 365 遭遇近一天半的大规模服务中断，Exchange Online、Outlook、SharePoint 与部分 Teams 受影响。Anthropic 将 Microsoft 365 连接器错误率升高归因于上游故障，Claude for Outlook 及邮件、日历、搜索功能大面积不可用；随后 claude.ai、Claude Code 与 platform.claude.com 又出现身份验证异常。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流云服务连环故障直接影响 Claude 用户可用性，是观察 AI 产品外部依赖风险的具体案例。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/026/948.htm">IT之家 · 智能时代</source>
-<category>微软</category>
-<category>Anthropic</category>
-<category>服务故障</category>
-<category>云服务</category>
-</item>
-<item><title>黄仁勋承认英伟达面临晶圆与内存供应过剩危机</title><link>https://respawnfirst.com/before-resigning-jensen-huang-admitted-he-was-facing-an-avalanche-of-excess-wafers-and-memory-new-report-sheds-more-light-on-the-gpu-ram-crisis/</link><guid isPermaLink="true">https://respawnfirst.com/before-resigning-jensen-huang-admitted-he-was-facing-an-avalanche-of-excess-wafers-and-memory-new-report-sheds-more-light-on-the-gpu-ram-crisis/</guid>
-<pubDate>Fri, 13 Nov 2026 21:08:48 +0800</pubDate>
-<description>&lt;p&gt;据《华尔街日报》报道，英伟达前 CEO 黄仁勋在 2026 年 8 月承认，主要云厂商正转向自研芯片，导致英伟达预付台积电的晶圆与内存出现大规模过剩，供应压力如“雪崩”般袭来。黄仁勋与现任临时 CEO、前 CFO Colette Kress 就公司对云厂商及 OpenAI、Anthropic 等 AI 公司的“循环融资”风险爆发激烈冲突，后者主张收紧财务敞口。这一内幕进一步印证了此前关于 AI 需求被夸大、渠道压货的报道。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达高层内幕首次证实 AI 算力需求被夸大与供应链过剩风险，对判断算力周期具有关键参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 78/100&lt;/p&gt;</description>
-<source url="https://respawnfirst.com/before-resigning-jensen-huang-admitted-he-was-facing-an-avalanche-of-excess-wafers-and-memory-new-report-sheds-more-light-on-the-gpu-ram-crisis/">Hacker News AI</source>
-<category>英伟达</category>
-<category>算力供应链</category>
-<category>AI 需求</category>
-<category>芯片</category>
-</item>
-<item><title>英伟达展示 AI 临床推理与病历解析落地案例</title><link>https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/</link><guid isPermaLink="true">https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/</guid>
-<pubDate>Fri, 13 Nov 2026 21:00:42 +0800</pubDate>
-<description>&lt;p&gt;英伟达发布博客，介绍 Dyania Health 等医疗 AI 团队如何借助其算力，将数十年自由文本病历转化为可推理的临床结论，用于患者与临床试验匹配、放射科辅助及居家护理。文章以客户案例为主，强调临床医生始终居中审核 AI 输出，未披露具体模型参数或量化效果。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;属于厂商绑定的医疗落地案例综述，有真实应用场景但缺乏技术参数与量化结果，仅作行业动态参考。&lt;/p&gt;&lt;p&gt;NVIDIA Blog · industry · signal 38/100&lt;/p&gt;</description>
-<source url="https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/">NVIDIA Blog</source>
-<category>医疗 AI</category>
-<category>临床推理</category>
-<category>英伟达</category>
-<category>落地案例</category>
-</item>
-<item><title>英伟达 CEO 黄仁勋离职 以色列风投看好挑战者</title><link>https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/</guid>
-<pubDate>Fri, 13 Nov 2026 20:52:19 +0800</pubDate>
-<description>&lt;p&gt;英伟达 CEO 黄仁勋离职引发以色列科技界担忧，因其 GPU 主导 AI 训练且公司在当地设有美国以外最大研发中心。以色列风投认为，这一领导层变动为 AI 芯片挑战者提供了证明差异化方案具备更优经济性的窗口，但仅靠人事变动不足以赢得客户。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达领导层变动牵动全球 AI 算力格局与以色列研发生态，风投视角提供了挑战者机会的产业判断。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/">TechCrunch AI</source>
-<category>英伟达</category>
-<category>AI 芯片</category>
-<category>以色列</category>
-<category>风险投资</category>
-</item>
-<item><title>亚马逊秘密构想世界商品图谱 包揽全网商品数据</title><link>https://www.ithome.com/1/026/945.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/945.htm</guid>
-<pubDate>Fri, 13 Nov 2026 20:37:16 +0800</pubDate>
-<description>&lt;p&gt;路透社披露亚马逊内部 PR/FAQ 文件，提出名为“世界商品图谱”的计划，试图收录全球几乎所有在售商品数据，无论亚马逊是否有库存，目标发布日期为 2027 年 10 月。该计划意在应对 AI 购物智能体的崛起、切入谷歌搜索腹地并对冲沃尔玛的电商扩张，亚马逊回应称文件内容已严重过时。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是大厂在 AI 购物智能体时代争夺商品数据底座的关键战略信号，涉及数据爬取、品牌合作与搜索入口重构。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 72/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/026/945.htm">IT之家 · IT业界</source>
-<category>亚马逊</category>
-<category>AI 购物智能体</category>
-<category>电商</category>
-<category>商品数据</category>
 </item>
 </channel>
 </rss>
