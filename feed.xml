@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Fri, 13 Nov 2026 14:55:27 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 13 Nov 2026 15:14:29 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Hobbyist Runs 2.8T-Parameter Kimi K3 on Discontinued Intel Optane Memory</title><link>https://www.ithome.com/1/026/759.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/759.htm</guid>
+<pubDate>Fri, 13 Nov 2026 15:14:29 +0800</pubDate>
+<description>&lt;p&gt;A Reddit hobbyist ran the 2.8-trillion-parameter Moonshot Kimi K3 model in a GPU-free home lab using discontinued Intel Optane Persistent Memory 200 series and llama.cpp. With 1-bit quantization, disabling DAX so hot data benefits from DRAM caching lifted throughput from 0.85 to 1.5 tokens per second, while a 3-bit test reached only 0.75 tokens/s, taking about 18.5 hours for 50,000 tokens. The experiment shows trillion-scale models can run entirely from a memory hierarchy instead of GPU VRAM, though at far-from-practical speeds.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;玩家用停产傲腾内存跑通 2.8 万亿参数 Kimi K3&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以极低成本硬件验证万亿级模型的纯内存推理路径，对关注算力替代方案与本地部署的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/026/759.htm">IT之家 · 智能时代</source>
+<category>算力基础设施</category>
+<category>Kimi K3</category>
+<category>傲腾内存</category>
+<category>本地推理</category>
+</item>
+<item><title>Nvidia Internal Post Draws 1,600 Comments Urging Jensen Huang Return</title><link>https://x.com/rohanpaul_ai/status/2121135206342275529</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121135206342275529</guid>
+<pubDate>Fri, 13 Nov 2026 14:56:56 +0800</pubDate>
+<description>&lt;p&gt;An internal Nvidia suggestion-box post by a longtime engineer, written before resigning, has drawn over 1,600 comments, many urging the board to bring back Jensen Huang. The post also asks the board to disclose investigation findings and poll staff before deciding, signaling strong internal pushback over governance and leadership changes.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达内部帖获 1600 条评论 员工呼吁黄仁勋回归&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达高层变动与内部治理争议直接牵动全球 AI 算力供应链，值得持续关注。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2121135206342275529">Rohan Paul (@rohanpaul_ai)</source>
+<category>英伟达</category>
+<category>公司治理</category>
+<category>高管变动</category>
+</item>
 <item><title>Google Gemini Phone Automation App List Leaks Covering 134 Apps</title><link>https://www.ithome.com/1/026/752.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/752.htm</guid>
 <pubDate>Fri, 13 Nov 2026 14:55:27 +0800</pubDate>
 <description>&lt;p&gt;Google&amp;#x27;s Gemini task automation app whitelist has surfaced, covering 114 apps on stable Android 17 QPR2 and 20 more on Android Canary for a total of 134, spanning food delivery, ride-hailing, shopping, travel and office scenarios. Gemini operates apps on a virtual screen and pauses before checkout for user confirmation, but whitelist inclusion does not mean automation is live, as Word and Outlook tests still failed to execute actions.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌 Gemini 手机自动化应用名单曝光 覆盖 134 款应用&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是手机端智能体从问答走向代操作的关键落地信号，白名单机制与实测边界对关注 Agent 落地的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 72/100&lt;/p&gt;</description>
@@ -175,18 +192,18 @@
 <category>供应链</category>
 <category>希捷</category>
 </item>
-<item><title>NYC Council Passes Ban on Algorithmic Surveillance Pricing</title><link>https://gothamist.com/news/nyc-council-passes-ban-on-surveillance-pricing-that-relies-on-personal-data</link><guid isPermaLink="true">https://gothamist.com/news/nyc-council-passes-ban-on-surveillance-pricing-that-relies-on-personal-data</guid>
+<item><title>纽约市议会通过算法定价禁令</title><link>https://gothamist.com/news/nyc-council-passes-ban-on-surveillance-pricing-that-relies-on-personal-data</link><guid isPermaLink="true">https://gothamist.com/news/nyc-council-passes-ban-on-surveillance-pricing-that-relies-on-personal-data</guid>
 <pubDate>Fri, 13 Nov 2026 10:04:39 +0800</pubDate>
-<description>&lt;p&gt;The New York City Council passed a bill banning surveillance pricing, which sets prices based on algorithms or shoppers&amp;#x27; personal data such as demographics, credit, browsing and purchase history. The ban covers both online and in-store transactions and directly constrains personalized pricing strategies used by e-commerce and retail firms.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;纽约市议会通过算法定价禁令&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是算法定价首次遭遇城市级立法禁令，对依赖用户数据做动态定价的 AI 商业应用具有直接合规影响。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;纽约市议会通过法案，禁止企业基于算法或消费者个人数据（人口统计、信用、浏览与购买记录）实施差异化定价，线上与线下门店均适用。该禁令针对所谓“监控定价”，被视为隐私与公平层面的实质性监管动作，将直接影响电商与零售的个性化定价策略。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是算法定价首次遭遇城市级立法禁令，对依赖用户数据做动态定价的 AI 商业应用具有直接合规影响。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://gothamist.com/news/nyc-council-passes-ban-on-surveillance-pricing-that-relies-on-personal-data">Hacker News AI</source>
 <category>算法定价</category>
 <category>监管政策</category>
 <category>隐私</category>
 <category>电商</category>
 </item>
-<item><title>Rapidus May Delay 2nm Mass Production to Fiscal 2028</title><link>https://www.ithome.com/1/026/510.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/510.htm</guid>
+<item><title>Rapidus 或推迟 2nm 量产至 2028 财年</title><link>https://www.ithome.com/1/026/510.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/510.htm</guid>
 <pubDate>Fri, 13 Nov 2026 09:57:13 +0800</pubDate>
-<description>&lt;p&gt;Japan&amp;#x27;s Jiji Press reports that Rapidus is considering pushing back mass production of its 2nm logic process by one year to fiscal 2028. The company began 2nm transistor trial production in 2025 but has hit integration hurdles between transistors and other components, falling short of performance targets while working to improve yields.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Rapidus 或推迟 2nm 量产至 2028 财年&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;日本先进制程国家队量产节点生变，直接影响全球 2nm 代工竞争格局与日本半导体复兴时间表。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;日本时事通信社报道称，Rapidus 正考虑将 2nm 逻辑半导体的量产时间推迟一年至 2028 财年。该公司 2025 年已启动 2nm 晶体管试制，但在晶体管与其他元件的集成上遇到技术障碍，难以达到高性能目标，同时正努力提升良率。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;日本先进制程国家队量产节点生变，直接影响全球 2nm 代工竞争格局与日本半导体复兴时间表。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/026/510.htm">IT之家 · IT业界</source>
 <category>2nm</category>
 <category>Rapidus</category>
@@ -255,24 +272,6 @@
 <category>智能体评测</category>
 <category>Thinky Machines</category>
 <category>成本效率</category>
-</item>
-<item><title>MIT 与 Meta 提出智能体记忆纠错新方法</title><link>https://x.com/rohanpaul_ai/status/2121040336361533502</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121040336361533502</guid>
-<pubDate>Fri, 13 Nov 2026 08:39:57 +0800</pubDate>
-<description>&lt;p&gt;MIT 与 Meta 联合论文提出 ReHarness 机制，让智能体在每次任务结束后，用任务结果反向修订此前被检索复用的旧笔记，而非只追加新笔记，从而避免过时或过宽的教训持续误导智能体。在 3 个基准与 3 个前沿模型上，该方法平均取得 0.240 的归一化增益，优于最佳原始轨迹基线的 0.168；在 CL-Bench 上配合 Claude 时，其 token 消耗仅为回放完整原始历史的约三分之一。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;针对智能体经验记忆易过时这一真实痛点给出可复用方法，并有跨模型跨基准的量化对比。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 71/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2121040336361533502">Rohan Paul (@rohanpaul_ai)</source>
-<category>智能体记忆</category>
-<category>MIT</category>
-<category>Meta</category>
-<category>论文</category>
-</item>
-<item><title>芝加哥学区拒绝谷歌捆绑 AI 宁可弃用搜索</title><link>https://www.techspot.com/news/114532-chicago-schools-tell-google-they-can-live-without.html</link><guid isPermaLink="true">https://www.techspot.com/news/114532-chicago-schools-tell-google-they-can-live-without.html</guid>
-<pubDate>Fri, 13 Nov 2026 08:38:41 +0800</pubDate>
-<description>&lt;p&gt;谷歌教育业务负责人此前表示，K-12 学校须接受其 AI 服务才能保留学生使用搜索的权限，理由是搜索与 AI 已深度整合。芝加哥公立学校明确回应将改用其他搜索方案，并引发针对谷歌的抗议活动。这一事件凸显教育机构对强制捆绑 AI 的抵触，以及大厂以核心产品为筹码推动 AI 渗透的争议路径。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大厂以搜索为筹码强制推广 AI 遭学区公开抵制，是观察 AI 落地阻力与渠道博弈的典型样本。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.techspot.com/news/114532-chicago-schools-tell-google-they-can-live-without.html">Hacker News AI</source>
-<category>谷歌</category>
-<category>AI 教育</category>
-<category>产业动态</category>
-<category>反垄断争议</category>
 </item>
 </channel>
 </rss>
