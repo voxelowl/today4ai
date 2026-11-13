@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 14 Nov 2026 00:37:59 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 14 Nov 2026 01:02:35 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Ai2 Releases XYBench to Test Whether AI Models See Past Misguided Questions</title><link>https://huggingface.co/blog/allenai/xybench</link><guid isPermaLink="true">https://huggingface.co/blog/allenai/xybench</guid>
+<pubDate>Sat, 14 Nov 2026 01:02:35 +0800</pubDate>
+<description>&lt;p&gt;Ai2 has released XYBench, a benchmark of over 8,000 questions designed to test whether AI assistants can recognize the real goal behind a misguided question, the classic XY problem, instead of answering the surface request. The dataset and code are open-sourced, with current coverage limited to English-language and mainly procedural problems.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Ai2 发布 XYBench 评测模型识别用户真实意图能力&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;针对 AI 助手真实使用中的高频失败模式提出可量化评测，对模型对齐与产品体验研究有直接参考价值。&lt;/p&gt;&lt;p&gt;Hugging Face Blog · llm · signal 62/100&lt;/p&gt;</description>
+<source url="https://huggingface.co/blog/allenai/xybench">Hugging Face Blog</source>
+<category>评测基准</category>
+<category>Ai2</category>
+<category>模型对齐</category>
+<category>开源数据集</category>
+</item>
 <item><title>Tencent Study Finds Domain Skills Scattered Across Neurons Inside MoE Experts</title><link>https://x.com/rohanpaul_ai/status/2121281433289589230</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121281433289589230</guid>
 <pubDate>Sat, 14 Nov 2026 00:37:59 +0800</pubDate>
 <description>&lt;p&gt;A new Tencent paper finds that domain skills such as math and coding in Mixture-of-Experts models are not concentrated in individual experts but scattered across sparse neurons spanning multiple experts. Neuron-level pruning scored by routed contribution (RAMP) retains 91%-98% of performance with 75% of neurons kept; at 50% retention, GPU memory drops 36%-43% and batched prefill throughput rises 17%-39%, offering an alternative to whole-expert pruning for MoE compression.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;腾讯新研究揭示 MoE 领域技能分散于专家内部神经元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示 MoE 能力分布机制并给出可落地的神经元级剪枝方案，对模型压缩与推理成本优化有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 72/100&lt;/p&gt;</description>
@@ -214,9 +223,9 @@
 <category>本地推理</category>
 <category>llama.cpp</category>
 </item>
-<item><title>Anthropic Launches Claude Duet Consumer Agent</title><link>https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on</guid>
+<item><title>Anthropic 推出消费级智能体 Claude Duet</title><link>https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on</guid>
 <pubDate>Fri, 13 Nov 2026 22:00:00 +0800</pubDate>
-<description>&lt;p&gt;Anthropic has launched Claude Duet, a consumer-facing AI agent aimed at non-coders, positioned as more work-oriented than Meta Muse and OpenAI Dots but more accessible than Claude Cowork. Hands-on testing finds it genuinely helpful yet somewhat neurotic in judging when to interject, with tone and nuance still needing calibration.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 推出消费级智能体 Claude Duet&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Anthropic 消费级智能体产品的首份实测，直接反映 agent 从编码走向大众场景的落地现状与短板。&lt;/p&gt;&lt;p&gt;The Verge AI · agent · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 面向非程序员用户推出消费级 AI 智能体 Claude Duet，定位比 Claude Cowork 更贴近普通用户、比 Claude Code 更偏工作场景。实测显示其主动协助能力实用，但判断何时介入的时机把握仍显神经质，语气与分寸感有待校准。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Anthropic 消费级智能体产品的首份实测，直接反映 agent 从编码走向大众场景的落地现状与短板。&lt;/p&gt;&lt;p&gt;The Verge AI · agent · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on">The Verge AI</source>
 <category>智能体</category>
 <category>Anthropic</category>
@@ -258,15 +267,6 @@
 <category>算力基础设施</category>
 <category>韩国</category>
 <category>CoreWeave</category>
-</item>
-<item><title>大连理工研制 20 公斤级氢能无人直升机 续航 3 小时</title><link>https://www.ithome.com/1/026/949.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/949.htm</guid>
-<pubDate>Fri, 13 Nov 2026 21:11:56 +0800</pubDate>
-<description>&lt;p&gt;大连理工大学化工学院团队研制出国内首款 20 公斤级氢能动力无人直升机，布局纯氢燃料电池与氢-锂混动两条技术路线。12L 氢燃料电池机型续航达 3 小时，较传统锂电无人机约 30 分钟的续航提升数倍，并已完成海上 6 级大风巡航试飞。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;氢能动力无人机实现数倍续航提升并完成海上大风实测，是具身智能与新能源航空交叉落地的具体工程案例。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/026/949.htm">IT之家 · IT业界</source>
-<category>氢燃料电池</category>
-<category>无人机</category>
-<category>新能源航空</category>
-<category>大连理工大学</category>
 </item>
 </channel>
 </rss>
