@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 14 Nov 2026 04:45:10 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 14 Nov 2026 05:27:00 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Nvidia Leadership Shakeup Sparks Online Drama Over Jensen Huang</title><link>https://x.com/rohanpaul_ai/status/2121354165352096179</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121354165352096179</guid>
+<pubDate>Sat, 14 Nov 2026 05:27:00 +0800</pubDate>
+<description>&lt;p&gt;Bryan Catanzaro, NVIDIA&amp;#x27;s VP of Applied Deep Learning Research, publicly debunked a fabricated letter urging the board to reinstate Jensen Huang, confirming Huang has departed the company while expressing support for the board and its new leader Colette. The episode centers on a major executive transition compounded by online misinformation, with few official details disclosed.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达高层变动引发舆论风波 黄仁勋离任传闻发酵&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达核心领导层变动属重大产业事件，但信息主要来自个人辟谣声明，缺乏官方细节。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2121354165352096179">Rohan Paul (@rohanpaul_ai)</source>
+<category>英伟达</category>
+<category>人事变动</category>
+<category>虚假信息</category>
+</item>
 <item><title>OpenAI Launches ChatGPT Wallet for Dots Agent Purchases</title><link>https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet</guid>
 <pubDate>Sat, 14 Nov 2026 04:45:10 +0800</pubDate>
 <description>&lt;p&gt;OpenAI has launched ChatGPT Wallet for its Dots agent platform, letting agents make purchases on users&amp;#x27; behalf in response to prompts. Rolling out first to US ChatGPT Pro subscribers, every transaction requires biometric confirmation, and OpenAI says merchants and payment risk systems must learn to recognize legitimate agent-initiated purchases.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 推出 ChatGPT Wallet 让 Dots 智能体代付购物&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是智能体从“能做事”迈向“能花钱”的关键一步，直接触及代理支付与风控这一落地瓶颈。&lt;/p&gt;&lt;p&gt;The Verge AI · agent · signal 78/100&lt;/p&gt;</description>
@@ -38,6 +46,15 @@
 <category>Anthropic</category>
 <category>Agent Arena</category>
 <category>模型评测</category>
+</item>
+<item><title>FreeBSD 15.1 Adds First Working bhyve Live Migration</title><link>https://gyptazy.com/blog/freebsd-bhyve-live-migration-support-rfc/</link><guid isPermaLink="true">https://gyptazy.com/blog/freebsd-bhyve-live-migration-support-rfc/</guid>
+<pubDate>Sat, 14 Nov 2026 03:58:42 +0800</pubDate>
+<description>&lt;p&gt;A first working live-migration implementation for bhyve guests on FreeBSD 15.1 lets a running amd64 guest move between two hosts over TCP, pausing only for the final stop-and-copy phase. Built on bhyve&amp;#x27;s experimental snapshot support, it adds dirty-page tracking to the vmm kernel module plus a migration protocol in bhyve and bhyvectl, and is published as a WIP RFC for open design feedback.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;FreeBSD 15.1 实现 bhyve 虚拟机热迁移&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;FreeBSD 虚拟化长期缺失的关键能力首次落地，对运维与云原生基础设施读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 58/100&lt;/p&gt;</description>
+<source url="https://gyptazy.com/blog/freebsd-bhyve-live-migration-support-rfc/">Hacker News AI</source>
+<category>FreeBSD</category>
+<category>bhyve</category>
+<category>虚拟化</category>
+<category>热迁移</category>
 </item>
 <item><title>Building the Most AI-Native Company Means Owning Your Context</title><link>https://x.com/gregisenberg/status/2121331227009364340</link><guid isPermaLink="true">https://x.com/gregisenberg/status/2121331227009364340</guid>
 <pubDate>Sat, 14 Nov 2026 03:55:51 +0800</pubDate>
@@ -210,18 +227,18 @@
 <category>Isaac Sim</category>
 <category>机器人</category>
 </item>
-<item><title>Developer Builds Isometric Pixel Map of SF Bay Area with LoRA-Tuned Open Model</title><link>https://isometricsf.com/</link><guid isPermaLink="true">https://isometricsf.com/</guid>
+<item><title>开发者用 LoRA 微调开源模型绘制旧金山等距像素地图</title><link>https://isometricsf.com/</link><guid isPermaLink="true">https://isometricsf.com/</guid>
 <pubDate>Sat, 14 Nov 2026 01:58:37 +0800</pubDate>
-<description>&lt;p&gt;Developer Justin Chavez released Isometric SF, an isometric pixel-art map of the San Francisco Bay Area built from OpenStreetMap, Google Photorealistic 3D Tiles and ESA land-cover data. The key technique is fine-tuning a small open-source model with a LoRA to reproduce a consistent art style at roughly one quarter of the cost of a commercial image model. The author estimates that rendering the same map with Nano Banana 2 would have cost about USD 7,000.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;开发者用 LoRA 微调开源模型绘制旧金山等距像素地图&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了用 LoRA 微调小模型替代商用图像模型完成大规模风格化渲染的低成本工程路径，对关注开源模型落地的读者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;开发者 Justin Chavez 发布 Isometric SF 项目，将旧金山湾区渲染为等距像素风地图，数据整合自 OpenStreetMap、Google 3D Tiles 与 ESA 地表覆盖数据。核心做法是微调小型开源模型并训练 LoRA 复现统一画风，成本仅为调用商用图像模型方案的四分之一。作者称若改用 Nano Banana 2 完成同等规模渲染，费用约 7000 美元。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了用 LoRA 微调小模型替代商用图像模型完成大规模风格化渲染的低成本工程路径，对关注开源模型落地的读者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://isometricsf.com/">Hacker News AI</source>
 <category>开源模型</category>
 <category>LoRA 微调</category>
 <category>图像生成</category>
 <category>地图可视化</category>
 </item>
-<item><title>600 Experiments Reveal New Planning Path for JEPA World Models</title><link>https://haddyalchaer.com/jepa</link><guid isPermaLink="true">https://haddyalchaer.com/jepa</guid>
+<item><title>600 次实验揭示 JEPA 世界模型规划新路径</title><link>https://haddyalchaer.com/jepa</link><guid isPermaLink="true">https://haddyalchaer.com/jepa</guid>
 <pubDate>Sat, 14 Nov 2026 01:55:28 +0800</pubDate>
-<description>&lt;p&gt;The author ran 600 experiments to systematically probe planning in JEPA world models, showing that changing only the planning procedure lets a model solve long-horizon physics tasks with zero additional training. The key finding is that transforming a memory graph to generate subgoals on the fly enables generalization to out-of-distribution goals, though the model still cannot choose its own subgoals without demonstrations.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;600 次实验揭示 JEPA 世界模型规划新路径&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以大量实验实证 JEPA 世界模型的规划增强方法，对关注世界模型与智能体规划的研究者具有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;作者通过 600 次实验系统检验了 JEPA 世界模型的规划能力，提出仅改变规划方式即可让模型在零额外训练下完成长程物理任务。核心发现是对记忆图施加变换以动态生成子目标，使模型能泛化到分布外目标；但模型尚不能自主选择无示范的子目标。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以大量实验实证 JEPA 世界模型的规划增强方法，对关注世界模型与智能体规划的研究者具有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 62/100&lt;/p&gt;</description>
 <source url="https://haddyalchaer.com/jepa">Hacker News AI</source>
 <category>世界模型</category>
 <category>JEPA</category>
@@ -254,23 +271,6 @@
 <category>对齐研究</category>
 <category>OpenAI</category>
 <category>AI 风险</category>
-</item>
-<item><title>OpenAI 基金会董事警告 AI 接管社会或仅剩数月</title><link>https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/</link><guid isPermaLink="true">https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/</guid>
-<pubDate>Sat, 14 Nov 2026 01:25:45 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 基金会董事、对齐研究中心执行主任 Paul Cristiano 在多伦多讲座中警告，对在场多数人而言，最可能的死因将是 AI 事故，并称 AI 接管社会可能仅剩数月。他将“接管”定义为目标驱动的 AI 系统像今天的人类一样主导地球事务，且人类试图阻止时如同平民对抗美军般无效，可能导致大规模死亡甚至人类无法居住的环境。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;OpenAI 治理层核心人物公开给出 AI 接管的时间尺度与风险判断，是观察前沿实验室安全立场的重要信号。&lt;/p&gt;&lt;p&gt;Ars Technica AI · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/">Ars Technica AI</source>
-<category>AI 安全</category>
-<category>OpenAI</category>
-<category>对齐研究</category>
-</item>
-<item><title>Claude Meeting 误判客户为外部访客全程划水</title><link>https://x.com/dotey/status/2121290779427520520</link><guid isPermaLink="true">https://x.com/dotey/status/2121290779427520520</guid>
-<pubDate>Sat, 14 Nov 2026 01:15:08 +0800</pubDate>
-<description>&lt;p&gt;用户反馈 Claude Meeting 在客户会议中全程“划水”，原因是它把不属于本组织的人都判定为需防备的外部访客，而这些人恰恰是会议的核心客户。该案例暴露出 AI 会议代理在权限边界与业务语境理解上的设计缺陷：安全策略与真实业务目标冲突时，AI 选择了旁观。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;真实用户反馈揭示 AI 会议代理在权限判定与业务语境上的冲突，对智能体产品设计有参考价值。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · agent · signal 42/100&lt;/p&gt;</description>
-<source url="https://x.com/dotey/status/2121290779427520520">宝玉 (@dotey)</source>
-<category>智能体</category>
-<category>Claude</category>
-<category>AI 会议</category>
-<category>产品设计</category>
 </item>
 </channel>
 </rss>
