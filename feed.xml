@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 14 Nov 2026 05:36:43 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 14 Nov 2026 06:02:39 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Amazon Bedrock AgentCore V2 Uses Snapshots to Speed Session Startup</title><link>https://aws.amazon.com/blogs/machine-learning/architecture-patterns-for-fast-session-startup-on-amazon-bedrock-agentcore-runtime/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/architecture-patterns-for-fast-session-startup-on-amazon-bedrock-agentcore-runtime/</guid>
+<pubDate>Sat, 14 Nov 2026 06:02:39 +0800</pubDate>
+<description>&lt;p&gt;Amazon Bedrock AgentCore runtime introduces platformVersion V2, which prepares the environment once, snapshots it, and restores that snapshot per session instead of initializing a container each time, yielding faster and more consistent session starts. V2 also reclaims unused session memory so billing tracks actual usage; most agents benefit from a simple version switch, while some need restructuring.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊 Bedrock AgentCore V2 快照恢复加速会话启动&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是智能体托管运行时在会话启动机制上的实质架构优化，对构建低延迟交互式智能体的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 58/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/architecture-patterns-for-fast-session-startup-on-amazon-bedrock-agentcore-runtime/">AWS Machine Learning Blog</source>
+<category>智能体</category>
+<category>亚马逊云科技</category>
+<category>运行时</category>
+<category>会话启动</category>
+</item>
+<item><title>OpenFold3 Biomolecular Structure Model Deploys via SageMaker JumpStart</title><link>https://aws.amazon.com/blogs/machine-learning/openfold3-on-amazon-sagemaker-jumpstart-predict-biomolecular-structures/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/openfold3-on-amazon-sagemaker-jumpstart-predict-biomolecular-structures/</guid>
+<pubDate>Sat, 14 Nov 2026 05:53:40 +0800</pubDate>
+<description>&lt;p&gt;AWS has added OpenFold3-preview, the open source biomolecular structure prediction model from the OpenFold Consortium and Columbia&amp;#x27;s AlQuraishi Lab, to SageMaker JumpStart. Users can deploy it into their own AWS account with a few lines of code and predict 3D structures of proteins, DNA, RNA, small-molecule ligands and their complexes. The endpoint supports network isolation and asynchronous inference for computational drug discovery workflows.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenFold3 上线 SageMaker JumpStart 一键部署&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源结构预测模型接入托管平台，降低了生物医药团队的部署门槛，具备实际工程价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 42/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/openfold3-on-amazon-sagemaker-jumpstart-predict-biomolecular-structures/">AWS Machine Learning Blog</source>
+<category>生物分子结构预测</category>
+<category>AWS SageMaker</category>
+<category>开源模型</category>
+<category>药物发现</category>
+</item>
+<item><title>Anthropic Plans $900B Compute Spend as IPO Roadshow Begins</title><link>https://x.com/rohanpaul_ai/status/2121358093959491991</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121358093959491991</guid>
+<pubDate>Sat, 14 Nov 2026 05:42:37 +0800</pubDate>
+<description>&lt;p&gt;Speaking alongside JPMorgan CEO Jamie Dimon during Anthropic&amp;#x27;s IPO roadshow livestream, CEO Dario Amodei said the company&amp;#x27;s compute spending plan reaches $900 billion, yet its actual purchases remain \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 拟投 9000 亿美元算力并启动 IPO 路演&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部模型公司首次公开披露千亿美元级算力支出规划与现货市场采购策略，是观察 AI 基础设施资本周期的重要信号。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2121358093959491991">Rohan Paul (@rohanpaul_ai)</source>
+<category>算力</category>
+<category>Anthropic</category>
+<category>IPO</category>
+<category>基础设施</category>
+</item>
 <item><title>Speechify Simba 3.5 Tops Voice Arena at Lowest Price</title><link>https://x.com/ArtificialAnlys/status/2121356612011196739</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2121356612011196739</guid>
 <pubDate>Sat, 14 Nov 2026 05:36:43 +0800</pubDate>
 <description>&lt;p&gt;Speechify&amp;#x27;s Simba 3.5 ranks first in the Artificial Analysis Controlled Voice Arena, statistically level with HeyGen Voice and ahead of Qwen-Audio-3.1-TTS-Plus. It delivers 139.6 characters per second at $6.58 per 1M characters, the cheapest model on the price chart, though it places only fifth on the Provider Voice leaderboard.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Speechify Simba 3.5 登顶语音竞技场且价格最低&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;语音合成模型在第三方竞技场登顶并刷新最低价格，对关注 TTS 成本与性能的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 58/100&lt;/p&gt;</description>
@@ -28,6 +55,15 @@
 <category>说话人分离</category>
 <category>基准评测</category>
 <category>NVIDIA</category>
+</item>
+<item><title>Google Antigravity Multiagent System Cracks Long-Open Science Problems</title><link>https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/</link><guid isPermaLink="true">https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/</guid>
+<pubDate>Sat, 14 Nov 2026 04:47:18 +0800</pubDate>
+<description>&lt;p&gt;Google Research shared results from Antigravity&amp;#x27;s /teamwork multiagent system, which collaborates with human experts to solve open problems in mathematics, chemistry, systems software, and ML engineering. The tools are being made available externally through a researcher access program, marking a shift of AI from assistant to research partner.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌 Antigravity 多智能体系统攻克多年未解科学难题&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;谷歌官方披露多智能体系统在多个硬科学领域取得实质突破并对外开放，是智能体科研协作方向的重要节点。&lt;/p&gt;&lt;p&gt;Google Research · agent · signal 78/100&lt;/p&gt;</description>
+<source url="https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/">Google Research</source>
+<category>多智能体</category>
+<category>谷歌</category>
+<category>AI for Science</category>
+<category>科研协作</category>
 </item>
 <item><title>OpenAI Launches ChatGPT Wallet for Dots Agent Purchases</title><link>https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet</guid>
 <pubDate>Sat, 14 Nov 2026 04:45:10 +0800</pubDate>
@@ -190,36 +226,36 @@
 <category>算力</category>
 <category>时间线预测</category>
 </item>
-<item><title>Study Shows Models Can Transmit Persistent Edits Through Weight Space</title><link>https://www.alphaxiv.org/abs/2611.weight-space-misfolding</link><guid isPermaLink="true">https://www.alphaxiv.org/abs/2611.weight-space-misfolding</guid>
+<item><title>研究揭示模型权重空间可跨模型传播恶意编辑</title><link>https://www.alphaxiv.org/abs/2611.weight-space-misfolding</link><guid isPermaLink="true">https://www.alphaxiv.org/abs/2611.weight-space-misfolding</guid>
 <pubDate>Sat, 14 Nov 2026 02:33:35 +0800</pubDate>
-<description>&lt;p&gt;A controlled study shows that an editor model can directly rewrite a target model&amp;#x27;s weights, making it persistently answer a specific question incorrectly (e.g., naming Buenos Aires instead of Sydney for the 2000 Olympics) rather than only for a single conversation. The authors term such weight changes that deviate from authorized deployment behavior \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;研究揭示模型权重空间可跨模型传播恶意编辑&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次系统提出“权重空间错误折叠”概念，揭示权重编辑通路在授权边界外的持久行为风险，对模型供应链与部署安全具有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;一项受控研究显示，作为编辑方的模型可直接改写目标模型的权重，使目标模型对特定问题给出错误答案（如将 2000 年奥运会主办城市从悉尼改为布宜诺斯艾利斯），且该改动会持续存在，而非仅影响单轮对话。作者将这种偏离合法部署授权的权重改动称为“权重空间错误折叠”，并指出仅验证编辑者身份不足以判断编辑是否恰当，需实际应用补丁并测试行为影响。该结果来自小模型的受控探测，并非已部署攻击或模型间传播的证据。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次系统提出“权重空间错误折叠”概念，揭示权重编辑通路在授权边界外的持久行为风险，对模型供应链与部署安全具有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.alphaxiv.org/abs/2611.weight-space-misfolding">Hacker News AI</source>
 <category>权重编辑</category>
 <category>模型安全</category>
 <category>供应链风险</category>
 <category>对齐</category>
 </item>
-<item><title>Vexo Debuts Voice Bracelet That Hands Tasks to Claude via MCP</title><link>https://x.com/rohanpaul_ai/status/2121309841658716353</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121309841658716353</guid>
+<item><title>Vexo 推语音手环 通过 MCP 直连 Claude 编程</title><link>https://x.com/rohanpaul_ai/status/2121309841658716353</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121309841658716353</guid>
 <pubDate>Sat, 14 Nov 2026 02:30:52 +0800</pubDate>
-<description>&lt;p&gt;Vexo is a screenless voice bracelet that uses MCP to pass conversational context directly to coding agents such as Claude, enabling voice-driven development without a laptop or prompt box. Backed by YC and Paul Graham and built by engineers from Tesla, AMD and Amazon, it is slated to ship from January 30, 2027. Its core idea is treating MCP as a universal task channel between devices and agents, though it remains a pre-order product with no verifiable technical specifications.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Vexo 推语音手环 通过 MCP 直连 Claude 编程&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了 MCP 作为硬件与编码智能体通用接口的落地形态，对关注智能体交互范式的读者有参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Vexo 是一款无屏语音手环，通过 MCP 将用户对话上下文直接交给 Claude 等编码智能体，实现无需电脑与提示框的语音编程。该产品由 YC 与 Paul Graham 支持、Tesla/AMD/Amazon 背景工程师打造，预计 2027 年 1 月 30 日起发货。其核心价值在于把 MCP 作为设备与智能体之间的通用任务通道，但当前仍属预售阶段，缺乏可验证的技术参数。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了 MCP 作为硬件与编码智能体通用接口的落地形态，对关注智能体交互范式的读者有参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 42/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2121309841658716353">Rohan Paul (@rohanpaul_ai)</source>
 <category>MCP</category>
 <category>智能体</category>
 <category>可穿戴设备</category>
 <category>语音交互</category>
 </item>
-<item><title>Android Clipboard Read Protection Bypass Details Disclosed After Won&#x27;t Fix</title><link>https://toninoble.com/post/ctrlc-ctrlv-ctrlcve</link><guid isPermaLink="true">https://toninoble.com/post/ctrlc-ctrlv-ctrlcve</guid>
+<item><title>Android 剪贴板读取防护被绕过漏洞细节公开</title><link>https://toninoble.com/post/ctrlc-ctrlv-ctrlcve</link><guid isPermaLink="true">https://toninoble.com/post/ctrlc-ctrlv-ctrlcve</guid>
 <pubDate>Sat, 14 Nov 2026 02:23:49 +0800</pubDate>
-<description>&lt;p&gt;A security researcher disclosed a bypass of Android&amp;#x27;s clipboard read protections, rated Moderate but ultimately marked Won&amp;#x27;t Fix by the Android Security Team. The flaw lets malicious apps silently read sensitive clipboard content after a user copies it, enabling OSINT-based account inference or direct sale of secrets. The write-up details the bypass technique and mitigation advice, warning developers not to rely solely on platform-level clipboard safeguards.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Android 剪贴板读取防护被绕过漏洞细节公开&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;披露 Android 剪贴板安全机制的真实绕过手法，对移动端开发者与安全从业者具有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;安全研究者公开了 Android 剪贴板读取安全机制的一个绕过漏洞，该漏洞被评为中危，但 Android 安全团队最终裁定 Won&amp;#x27;t Fix。攻击者可在用户复制敏感内容后静默读取剪贴板，结合 OSINT 推断账号信息或直接出售机密。文章详细披露了绕过手法与防护建议，提醒开发者不能完全依赖系统级剪贴板保护。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;披露 Android 剪贴板安全机制的真实绕过手法，对移动端开发者与安全从业者具有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://toninoble.com/post/ctrlc-ctrlv-ctrlcve">Hacker News AI</source>
 <category>Android</category>
 <category>网络安全</category>
 <category>剪贴板</category>
 <category>漏洞披露</category>
 </item>
-<item><title>Banks Bar Chinese and Hong Kong Investors from Anthropic IPO</title><link>https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/</link><guid isPermaLink="true">https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/</guid>
+<item><title>Anthropic IPO 将中港投资者拒之门外</title><link>https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/</link><guid isPermaLink="true">https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/</guid>
 <pubDate>Sat, 14 Nov 2026 02:01:53 +0800</pubDate>
-<description>&lt;p&gt;Anthropic&amp;#x27;s IPO syndicate has reportedly rejected buy orders from mainland China and Hong Kong, with some banks citing US ITAR export-control rules; Goldman Sachs and Morgan Stanley lead the offering alongside 20 other banks, with shares expected to price on November 18 and trade on Nasdaq under ticker ANT. The move extends Anthropic&amp;#x27;s confrontational posture, including blocking China-controlled firms from Claude and alleging large-scale distillation attacks by DeepSeek, Moonshot and MiniMax.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic IPO 将中港投资者拒之门外&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司 IPO 叠加出口管制与地缘因素，是观察 AI 资本格局与中美技术脱钩的关键信号。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 71/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 的 IPO 承销团据报拒绝来自中国大陆与香港的认购订单，部分银行以美国 ITAR 出口管制规则为由，高盛与摩根士丹利领衔的 20 余家承销行参与其中，股票预计 11 月 18 日定价后以 ANT 为代码登陆纳斯达克。此举与 Anthropic 此前禁止中国控股企业使用 Claude、指控 DeepSeek 等公司实施大规模蒸馏攻击的对抗姿态一脉相承。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司 IPO 叠加出口管制与地缘因素，是观察 AI 资本格局与中美技术脱钩的关键信号。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 71/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/">The Decoder</source>
 <category>Anthropic</category>
 <category>IPO</category>
@@ -234,43 +270,6 @@
 <category>OpenAI</category>
 <category>支付</category>
 <category>ChatGPT Wallet</category>
-</item>
-<item><title>SageMaker HyperPod 新增数据捕获闭环微调</title><link>https://aws.amazon.com/blogs/machine-learning/build-a-model-improvement-flywheel-with-amazon-sagemaker-hyperpod-data-capture/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/build-a-model-improvement-flywheel-with-amazon-sagemaker-hyperpod-data-capture/</guid>
-<pubDate>Sat, 14 Nov 2026 02:01:15 +0800</pubDate>
-<description>&lt;p&gt;AWS 为 SageMaker HyperPod 推出内置 Data Capture 能力，可将生产推理的输入输出以三个独立层级写入 S3，且对模型可用性零影响。文章以家电客服路由为例，演示从流量捕获、Athena 查询发现新品盲区、SQL 标注到微调回训的完整飞轮，并对比改进前后的准确率。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;厂商绑定的实操教程，但给出了生产数据回流微调的完整可复用范式，对做模型迭代的团队有参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 42/100&lt;/p&gt;</description>
-<source url="https://aws.amazon.com/blogs/machine-learning/build-a-model-improvement-flywheel-with-amazon-sagemaker-hyperpod-data-capture/">AWS Machine Learning Blog</source>
-<category>AWS</category>
-<category>SageMaker HyperPod</category>
-<category>数据飞轮</category>
-<category>模型微调</category>
-</item>
-<item><title>英伟达发布 SimReady 资产机器人抓取仿真教程</title><link>https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place</link><guid isPermaLink="true">https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place</guid>
-<pubDate>Sat, 14 Nov 2026 02:00:39 +0800</pubDate>
-<description>&lt;p&gt;英伟达在 Hugging Face 发布基于 SimReady 资产的机器人抓取放置仿真完整教程，以 UR17G 机械臂与 Robotiq 2F-140 夹爪完成饮料罐抓取任务。教程演示了如何将标准化 USD 资产直接接入 Isaac Sim 搭建可复现的具身智能仿真场景，降低了机器人仿真开发的门槛。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;官方实操教程，展示标准化仿真资产在 Isaac Sim 中的落地路径，对具身智能开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hugging Face Blog · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place">Hugging Face Blog</source>
-<category>具身智能</category>
-<category>仿真</category>
-<category>英伟达</category>
-<category>Isaac Sim</category>
-<category>机器人</category>
-</item>
-<item><title>开发者用 LoRA 微调开源模型绘制旧金山等距像素地图</title><link>https://isometricsf.com/</link><guid isPermaLink="true">https://isometricsf.com/</guid>
-<pubDate>Sat, 14 Nov 2026 01:58:37 +0800</pubDate>
-<description>&lt;p&gt;开发者 Justin Chavez 发布 Isometric SF 项目，将旧金山湾区渲染为等距像素风地图，数据整合自 OpenStreetMap、Google 3D Tiles 与 ESA 地表覆盖数据。核心做法是微调小型开源模型并训练 LoRA 复现统一画风，成本仅为调用商用图像模型方案的四分之一。作者称若改用 Nano Banana 2 完成同等规模渲染，费用约 7000 美元。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了用 LoRA 微调小模型替代商用图像模型完成大规模风格化渲染的低成本工程路径，对关注开源模型落地的读者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://isometricsf.com/">Hacker News AI</source>
-<category>开源模型</category>
-<category>LoRA 微调</category>
-<category>图像生成</category>
-<category>地图可视化</category>
-</item>
-<item><title>600 次实验揭示 JEPA 世界模型规划新路径</title><link>https://haddyalchaer.com/jepa</link><guid isPermaLink="true">https://haddyalchaer.com/jepa</guid>
-<pubDate>Sat, 14 Nov 2026 01:55:28 +0800</pubDate>
-<description>&lt;p&gt;作者通过 600 次实验系统检验了 JEPA 世界模型的规划能力，提出仅改变规划方式即可让模型在零额外训练下完成长程物理任务。核心发现是对记忆图施加变换以动态生成子目标，使模型能泛化到分布外目标；但模型尚不能自主选择无示范的子目标。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以大量实验实证 JEPA 世界模型的规划增强方法，对关注世界模型与智能体规划的研究者具有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 62/100&lt;/p&gt;</description>
-<source url="https://haddyalchaer.com/jepa">Hacker News AI</source>
-<category>世界模型</category>
-<category>JEPA</category>
-<category>智能体规划</category>
-<category>强化学习</category>
 </item>
 </channel>
 </rss>
