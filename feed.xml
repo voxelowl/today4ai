@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 14 Nov 2026 02:40:30 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 14 Nov 2026 02:55:21 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>OpenAI Launches ChatGPT Wallet for Agent-Driven Purchases</title><link>https://the-decoder.com/openai-rebuilt-ai-shopping-from-scratch-with-chatgpt-wallet/</link><guid isPermaLink="true">https://the-decoder.com/openai-rebuilt-ai-shopping-from-scratch-with-chatgpt-wallet/</guid>
+<pubDate>Sat, 14 Nov 2026 02:55:21 +0800</pubDate>
+<description>&lt;p&gt;OpenAI has launched ChatGPT Wallet, letting AI agents place and pay for online purchases on behalf of users, starting with Pro subscribers in the US. Each payment requires Face ID or fingerprint authorization, and card details are tokenized via partners such as Visa and Mastercard so merchants never see real card data. The move puts OpenAI in catch-up mode against Anthropic, Meta, and Google, which already offer agent shopping features.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 推出 ChatGPT Wallet 支持智能体代付&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;智能体从对话走向真实交易闭环的关键一步，支付授权与令牌化方案具备工程参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 72/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/openai-rebuilt-ai-shopping-from-scratch-with-chatgpt-wallet/">The Decoder</source>
+<category>智能体</category>
+<category>AI 支付</category>
+<category>OpenAI</category>
+<category>电商</category>
+</item>
 <item><title>Chinese Frontier Models Trained on Export-Banned Nvidia Blackwell Chips, Study Claims</title><link>https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/</guid>
 <pubDate>Sat, 14 Nov 2026 02:40:30 +0800</pubDate>
 <description>&lt;p&gt;A new research effort claims that leading open-weight models from Chinese labs were trained on Nvidia Blackwell GPUs that US export controls bar from China, indicating restricted compute continues to reach Chinese frontier developers. The report coincides with Nvidia CEO Jensen Huang&amp;#x27;s departure after admitting an affair with an executive of Megaspeed, a firm implicated in chip smuggling, putting export-control enforcement gaps and Nvidia&amp;#x27;s compliance exposure in the spotlight.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;研究称中国顶尖开源模型依赖被禁英伟达芯片训练&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;直接触及出口管制执行漏洞与前沿算力流向，是理解中美 AI 算力格局的关键事实增量。&lt;/p&gt;&lt;p&gt;TechCrunch AI · compute · signal 78/100&lt;/p&gt;</description>
@@ -13,6 +22,15 @@
 <category>芯片走私</category>
 <category>开源模型</category>
 </item>
+<item><title>Study Shows Models Can Transmit Persistent Edits Through Weight Space</title><link>https://www.alphaxiv.org/abs/2611.weight-space-misfolding</link><guid isPermaLink="true">https://www.alphaxiv.org/abs/2611.weight-space-misfolding</guid>
+<pubDate>Sat, 14 Nov 2026 02:33:35 +0800</pubDate>
+<description>&lt;p&gt;A controlled study shows that an editor model can directly rewrite a target model&amp;#x27;s weights, making it persistently answer a specific question incorrectly (e.g., naming Buenos Aires instead of Sydney for the 2000 Olympics) rather than only for a single conversation. The authors term such weight changes that deviate from authorized deployment behavior \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;研究揭示模型权重空间可跨模型传播恶意编辑&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次系统提出“权重空间错误折叠”概念，揭示权重编辑通路在授权边界外的持久行为风险，对模型供应链与部署安全具有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.alphaxiv.org/abs/2611.weight-space-misfolding">Hacker News AI</source>
+<category>权重编辑</category>
+<category>模型安全</category>
+<category>供应链风险</category>
+<category>对齐</category>
+</item>
 <item><title>Vexo Debuts Voice Bracelet That Hands Tasks to Claude via MCP</title><link>https://x.com/rohanpaul_ai/status/2121309841658716353</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121309841658716353</guid>
 <pubDate>Sat, 14 Nov 2026 02:30:52 +0800</pubDate>
 <description>&lt;p&gt;Vexo is a screenless voice bracelet that uses MCP to pass conversational context directly to coding agents such as Claude, enabling voice-driven development without a laptop or prompt box. Backed by YC and Paul Graham and built by engineers from Tesla, AMD and Amazon, it is slated to ship from January 30, 2027. Its core idea is treating MCP as a universal task channel between devices and agents, though it remains a pre-order product with no verifiable technical specifications.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Vexo 推语音手环 通过 MCP 直连 Claude 编程&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了 MCP 作为硬件与编码智能体通用接口的落地形态，对关注智能体交互范式的读者有参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 42/100&lt;/p&gt;</description>
@@ -21,6 +39,15 @@
 <category>智能体</category>
 <category>可穿戴设备</category>
 <category>语音交互</category>
+</item>
+<item><title>Android Clipboard Read Protection Bypass Details Disclosed After Won&#x27;t Fix</title><link>https://toninoble.com/post/ctrlc-ctrlv-ctrlcve</link><guid isPermaLink="true">https://toninoble.com/post/ctrlc-ctrlv-ctrlcve</guid>
+<pubDate>Sat, 14 Nov 2026 02:23:49 +0800</pubDate>
+<description>&lt;p&gt;A security researcher disclosed a bypass of Android&amp;#x27;s clipboard read protections, rated Moderate but ultimately marked Won&amp;#x27;t Fix by the Android Security Team. The flaw lets malicious apps silently read sensitive clipboard content after a user copies it, enabling OSINT-based account inference or direct sale of secrets. The write-up details the bypass technique and mitigation advice, warning developers not to rely solely on platform-level clipboard safeguards.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Android 剪贴板读取防护被绕过漏洞细节公开&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;披露 Android 剪贴板安全机制的真实绕过手法，对移动端开发者与安全从业者具有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://toninoble.com/post/ctrlc-ctrlv-ctrlcve">Hacker News AI</source>
+<category>Android</category>
+<category>网络安全</category>
+<category>剪贴板</category>
+<category>漏洞披露</category>
 </item>
 <item><title>Banks Bar Chinese and Hong Kong Investors from Anthropic IPO</title><link>https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/</link><guid isPermaLink="true">https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/</guid>
 <pubDate>Sat, 14 Nov 2026 02:01:53 +0800</pubDate>
@@ -199,27 +226,27 @@
 <category>AI 支付</category>
 <category>电商</category>
 </item>
-<item><title>Nearly 70 Percent of US Agencies Use Generative AI as Unions Win Guardrails</title><link>https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/</link><guid isPermaLink="true">https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/</guid>
+<item><title>近七成美国机构已用生成式 AI，工会争取人类监督护栏</title><link>https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/</link><guid isPermaLink="true">https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/</guid>
 <pubDate>Fri, 13 Nov 2026 23:53:49 +0800</pubDate>
-<description>&lt;p&gt;An Ernst &amp;amp; Young survey finds nearly 70 percent of US government agencies already deploy generative AI, while public-sector unions are rapidly securing protections. IFPTE Local 21 traded a strike vote for retraining instead of AI-driven layoffs, Pennsylvania&amp;#x27;s SEIU local won human oversight in a ChatGPT Enterprise pilot, and Ohio&amp;#x27;s transport union gained veto power over autonomous vehicles. Union leaders back AI safety systems that help workers but insist on mandatory human control over every workplace AI application.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;近七成美国机构已用生成式 AI，工会争取人类监督护栏&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;呈现生成式 AI 在公共部门的高渗透率与工会护栏谈判的最新实质进展，是观察 AI 落地治理的重要产业信号。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;安永调查显示，近七成美国政府机构已部署生成式 AI，公共部门工会正加速争取防护条款。IFPTE Local 21 以罢工投票换来再培训而非裁员，宾州 SEIU 分会获得 ChatGPT Enterprise 试点中的人类监督承诺，俄亥俄州交通工会则取得对自动驾驶的否决权。工会领袖普遍支持有助于工人的 AI 安全系统，但坚持工作场所每项 AI 应用都必须保留人工控制。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;呈现生成式 AI 在公共部门的高渗透率与工会护栏谈判的最新实质进展，是观察 AI 落地治理的重要产业信号。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 62/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/">The Decoder</source>
 <category>生成式 AI</category>
 <category>公共部门</category>
 <category>工会</category>
 <category>AI 治理</category>
 </item>
-<item><title>OpenAI Launches ChatGPT Wallet to Let Agents Shop for Users</title><link>https://www.ithome.com/1/026/994.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/994.htm</guid>
+<item><title>OpenAI 推出 ChatGPT Wallet 支持智能体代付购物</title><link>https://www.ithome.com/1/026/994.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/994.htm</guid>
 <pubDate>Fri, 13 Nov 2026 23:49:08 +0800</pubDate>
-<description>&lt;p&gt;OpenAI launched ChatGPT Wallet with American Express, Mastercard and Visa, letting users enter card details once and then have the dot agent find products and complete purchases, with every transaction requiring security verification. Payment networks issue purpose-limited tokens per transaction so the agent never touches real card numbers. Initially limited to US Pro subscribers aged 18 and over with no transaction fees, OpenAI aims to position ChatGPT as a shopping destination.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 推出 ChatGPT Wallet 支持智能体代付购物&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是智能体从信息处理迈向真实交易闭环的关键一步，支付令牌机制也为 agent 安全授权提供了可复用范式。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 联合美国运通、万事达卡与 Visa 推出 ChatGPT Wallet，用户录入一次银行卡后即可让 dot 智能体代为寻找商品并完成支付，每笔交易均需安全验证。支付网络为每笔交易生成限定用途的支付令牌，智能体不接触真实卡号信息。该功能初期仅面向美国 18 岁以上 Pro 订阅用户，暂不收取交易佣金，OpenAI 意在将 ChatGPT 培育为购物入口。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是智能体从信息处理迈向真实交易闭环的关键一步，支付令牌机制也为 agent 安全授权提供了可复用范式。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/026/994.htm">IT之家 · 智能时代</source>
 <category>智能体</category>
 <category>OpenAI</category>
 <category>支付</category>
 <category>电商</category>
 </item>
-<item><title>Deepnote Launches Agent Initiative Benchmark for Proactive Agents</title><link>https://x.com/rohanpaul_ai/status/2121262936161493501</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121262936161493501</guid>
+<item><title>Deepnote 发布主动式智能体基准 12 款前沿模型同台竞技</title><link>https://x.com/rohanpaul_ai/status/2121262936161493501</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121262936161493501</guid>
 <pubDate>Fri, 13 Nov 2026 23:24:29 +0800</pubDate>
-<description>&lt;p&gt;Deepnote released the Agent Initiative Benchmark, which drops proactive agents into a simulated company Slack and scores whether they know when to intervene, what to say, and when to stay silent. GPT-6 Astra led at 8.97 out of 10, with GPT-6.1 Sol close behind at 8.65 at just $0.11 per task, versus $1.87 per task for third-placed Claude Fable 5.2. The open-source dataset and benchmark code give builders a reproducible basis for choosing models for proactive agent use cases.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Deepnote 发布主动式智能体基准 12 款前沿模型同台竞技&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个聚焦智能体主动介入决策的公开基准，并附带开源数据集与代码，对智能体选型有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Deepnote 推出 Agent Initiative Benchmark，将主动式智能体放入模拟企业 Slack 环境，考察其是否知道何时介入、该说什么以及何时保持沉默。GPT-6 Astra 以 8.97 分领先，GPT-6.1 Sol 以 8.65 分紧随其后且单任务成本仅 0.11 美元，而第三名 Claude Fable 5.2 单任务成本高达 1.87 美元。该基准同时开源数据集与评测代码，为主动式智能体的选型提供了可复现的量化依据。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个聚焦智能体主动介入决策的公开基准，并附带开源数据集与代码，对智能体选型有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 72/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2121262936161493501">Rohan Paul (@rohanpaul_ai)</source>
 <category>智能体</category>
 <category>基准评测</category>
@@ -242,32 +269,6 @@
 <category>融资上市</category>
 <category>Anthropic</category>
 <category>AI 商业化</category>
-</item>
-<item><title>Meta 的 Muse 可代用户致电商家，但许多企业一听是 AI 就挂断</title><link>https://the-decoder.com/metas-muse-now-calls-businesses-for-you-but-many-companies-might-just-hang-up-on-the-ai/</link><guid isPermaLink="true">https://the-decoder.com/metas-muse-now-calls-businesses-for-you-but-many-companies-might-just-hang-up-on-the-ai/</guid>
-<pubDate>Fri, 13 Nov 2026 23:12:44 +0800</pubDate>
-<description>&lt;p&gt;Meta 的 AI 智能体 Muse 已向美国付费订阅用户开放代打电话功能，可代为联系有线电视公司、车管所和餐厅等，用户规模超过 1000 万。该功能此前于 9 月测试，如今正式上线，使 2018 年 Google Duplex 演示的能力成为常驻 AI 智能体的标准配置。但不少商家一旦识别出 AI 来电便直接挂断，Meta 因此不得不调整策略，而合成语音日益逼真也让识别愈发困难。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是常驻 AI 智能体从演示走向大规模商用代打电话的关键节点，同时暴露了商家端对 AI 来电的抵触这一真实落地阻力。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 72/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/metas-muse-now-calls-businesses-for-you-but-many-companies-might-just-hang-up-on-the-ai/">The Decoder</source>
-<category>AI 智能体</category>
-<category>Meta</category>
-<category>语音代理</category>
-<category>AI 代打电话</category>
-</item>
-<item><title>OpenAI 推出 Daybreak 双产品 进军网络安全市场</title><link>https://the-decoder.com/openai-enters-the-cybersecurity-market-with-two-daybreak-products/</link><guid isPermaLink="true">https://the-decoder.com/openai-enters-the-cybersecurity-market-with-two-daybreak-products/</guid>
-<pubDate>Fri, 13 Nov 2026 23:08:57 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 以 Daybreak 品牌发布两款安全产品：Red Team 用 AI 智能体自动分析源码与应用上下文、绘制攻击路径并验证漏洞与补丁；Defense Factory 则自动扫描代码库生成可部署的修复 PR 与配套测试。两者均基于最新的 GPT-6 Cyber 模型，标志着 OpenAI 正式切入攻防一体的网络安全市场。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;OpenAI 首次以专用模型加智能体产品组合进入网络安全攻防市场，是智能体落地与产业边界扩张的重要信号。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 78/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/openai-enters-the-cybersecurity-market-with-two-daybreak-products/">The Decoder</source>
-<category>网络安全</category>
-<category>AI 智能体</category>
-<category>OpenAI</category>
-<category>开发者工具</category>
-</item>
-<item><title>OpenAI 推出 ChatGPT Wallet 支持智能体安全支付</title><link>https://openai.com/index/introducing-chatgpt-wallet</link><guid isPermaLink="true">https://openai.com/index/introducing-chatgpt-wallet</guid>
-<pubDate>Fri, 13 Nov 2026 23:00:00 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 联合美国运通、万事达与 Visa 推出 ChatGPT Wallet，这是首个让智能体在不接触用户真实卡号的前提下完成支付的数字钱包，且每笔交易均需安全校验。该功能初期仅面向美国 ChatGPT Pro 订阅用户，通过 dots 提供，同时保留原有卡权益与争议保护。OpenAI 还同步发布工具与指南，帮助商户在现有支付系统中识别并接受智能体发起的合法交易。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是智能体商业化的关键基础设施落地，首次给出智能体支付的卡组织级安全方案。&lt;/p&gt;&lt;p&gt;OpenAI 官方博客 · agent · signal 78/100&lt;/p&gt;</description>
-<source url="https://openai.com/index/introducing-chatgpt-wallet">OpenAI 官方博客</source>
-<category>智能体支付</category>
-<category>OpenAI</category>
-<category>金融科技</category>
 </item>
 </channel>
 </rss>
