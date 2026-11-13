@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Fri, 13 Nov 2026 13:26:43 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 13 Nov 2026 15:06:41 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>谷歌发布 Gemini 4 Hydrogen 百万上下文定价 1.5 美元</title><link>https://todayforai.com/en/story/story-23e7bc49-744</link><guid isPermaLink="true">https://todayforai.com/en/story/story-23e7bc49-744</guid>
 <pubDate>Fri, 13 Nov 2026 10:54:00 +0800</pubDate>
@@ -75,13 +75,9 @@ AlphaGenome 2 打通了单细胞生物学与人类遗传学，为科学家定位
 
 行业影响上，Inkling 2 Small 以开源协议和低成本（单任务中位成本 0.26 美元，约为榜首 Kimi K3.1 Pro 的 1/4.7）显著降低了高性能多模态智能体的使用门槛，其视觉反馈闭环能力尤其适用于网站、游戏与 3D 设计等生成任务。该模型在 OpenRouter 和 OpenCode 上限时免费开放，有望加速智能体应用…&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter), Arena.ai (@arena), vLLM 官方博客, OpenCode (@opencode)&lt;/p&gt;</description>
 </item>
-<item><title>Rust 1.100 发布 稳定 Never 类型与 Allocator API</title><link>https://todayforai.com/en/story/story-01e8be9e-c06</link><guid isPermaLink="true">https://todayforai.com/en/story/story-01e8be9e-c06</guid>
-<pubDate>Fri, 13 Nov 2026 12:30:10 +0800</pubDate>
-<description>&lt;p&gt;Rust 1.100.0 正式发布，版本号首次迈入三位数。最受关注的是历经约 10 年、5 次尝试的 never type（!）终于稳定，同时 Allocator API 核心部分也进入稳定通道，为系统级开发者带来类型系统表达力与内存分配控制能力的双重提升。
-
-never type（!）用于表示永不返回的计算，稳定后 Infallible 类型改为其别名，完善了不可达分支的表达。Allocator API 核心部分稳定，Vec 与 Box 已支持自定义内存分配器，为高性能场景提供官方接口。此外，新增 DropGuard 支持在任意退出路径执行清理闭包，以及 conjure_zst 等标准库接口。Cargo 强化了未使用依赖提示与供应链安全机制，Clippy 也同步更新。
-
-此次发布对 Rust 生态意义重大：never type 的稳定将简化错误处理与泛型代码，Allocator API 为嵌入式与高性能计算铺平道路，供应链安全增强则回应了日益增长的软件安全需求。尽管部分信源认为此为常规迭代，但核心特性的稳定无疑将吸引更多系统级项目采用 Rust。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, Hacker News AI&lt;/p&gt;</description>
+<item><title>腾讯混元 Hy4 网络安全指数升至全球第三</title><link>https://todayforai.com/en/story/story-e840baf8-07a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e840baf8-07a</guid>
+<pubDate>Fri, 13 Nov 2026 15:06:41 +0800</pubDate>
+<description>&lt;p&gt;腾讯混元 Hy4 在 Artificial Analysis 网络安全指数上以 58% 得分位列第三，仅次于 Kimi K3.1 Pro（64%）和 GPT-6 Sol（69%），并以 1 分优势领先 DeepSeek V4.1 Flash。该模型在漏洞发现与修复基准 CWE-Bench-AA 上以 76% 登顶，单任务成本仅 0.92 美元，处于能力与成本帕累托前沿。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
