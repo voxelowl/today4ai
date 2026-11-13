@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Fri, 13 Nov 2026 23:15:08 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 14 Nov 2026 00:00:12 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>谷歌发布 Gemini 4 Hydrogen 百万上下文定价 1.5 美元</title><link>https://todayforai.com/en/story/story-23e7bc49-744</link><guid isPermaLink="true">https://todayforai.com/en/story/story-23e7bc49-744</guid>
 <pubDate>Fri, 13 Nov 2026 17:52:26 +0800</pubDate>
@@ -34,6 +34,14 @@ Hydrogen 的发布进一步加剧了高效模型赛道的竞争，其按任务�
 多方信源交叉验证显示，此次 IPO 呈现显著的结构性特征。一方面，老股东仅出售约 2360 万股，绝大部分资金流入公司而非早期投资人套现；另一方面，七位创始人通过持有 Class F 股锁定 50.1% 投票权，公开市场投资者几乎无法影响公司控制权。财务数据方面，公司前九月营收 332.4 亿美元，同比增长约 1200%，但净亏损达 1040 亿美元，主要来自可转换票据公允价值变动。此外，Anthropic 同步披露与微软、谷歌新增逾 100 亿美元算力采购承诺，合同总额分别升至 472 亿至 492 亿美元和约 1213 亿美元，均延续至 2033 年且为照付不议。
 
 这场 IPO 被视为对 AI 产业估值逻辑的关键检验。受科技股回调与中期选举后市场对 AI 基建投资情绪转冷影响，估值预期从传闻的 1.5 万亿美元下修至 1.1 万亿至 1.3 万亿美元区间，但仍高于 OpenAI 上周 1.25 万亿美元的私募估值。若发行成功，Anthropic 将成为首家登陆公开资本市场的前沿大模型公司，为后续 AI 企业上市定价提供锚点，同时也将考验公开市场对高增长、高亏损 AI 商业模式的接受程度。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, Anthropic News, Anthropic AI (@AnthropicAI), The Decoder, 宝玉 (@dotey), 新智元 (微信公众号)&lt;/p&gt;</description>
+</item>
+<item><title>OpenAI 联合三大卡组织推出 ChatGPT 钱包 智能体可代付</title><link>https://todayforai.com/en/story/story-a13f7ac4-a82</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a13f7ac4-a82</guid>
+<pubDate>Sat, 14 Nov 2026 00:00:12 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 正式推出 ChatGPT Wallet，这是首个让 AI 智能体在不接触用户真实卡号的前提下完成支付的数字钱包。该功能联合美国运通、万事达与 Visa 三大卡组织，每笔交易均需安全校验，并保留原有卡权益与争议保护机制。初期仅面向美国 ChatGPT Pro 订阅用户开放，通过智能体 dots 提供，暂不收取交易佣金。
+
+技术层面，支付网络为每笔交易生成限定用途的支付令牌，智能体全程不暴露真实卡号。用户在下单前可复核商品、金额与支付卡，并通过 Face ID 或指纹完成确认，交易全程留痕。OpenAI 同步发布 Commerce Partner Playbook 及商家工具与指南，帮助零售商在现有支付系统中识别并接受智能体发起的合法交易，包括检查网站是否误拦截其智能体。
+
+此举标志着 OpenAI 将 ChatGPT 培育为购物入口的野心，通过打通支付闭环，智能体从信息助手升级为交易执行者。对电商与支付行业而言，智能体购物流程的标准化将重塑流量分发与交易安全范式，三大卡组织的背书也为后续规模化铺平道路。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;OpenAI 官方博客, TechCrunch AI, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 <item><title>MiniMax 开源 H3-Image 生图模型 10 秒生成 4K 图像</title><link>https://todayforai.com/en/story/story-77b75cf4-9c6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-77b75cf4-9c6</guid>
 <pubDate>Fri, 13 Nov 2026 10:45:35 +0800</pubDate>
@@ -74,10 +82,6 @@ Hydrogen 的发布进一步加剧了高效模型赛道的竞争，其按任务�
 技术细节方面，Inkling 2 Small 采用 48 层 MoE 架构，384 个专家中 top-8 路由，混合精度（NVFP4 与 MXFP8）支持单节点部署。vLLM 在发布首日即完成适配，通过内核融合、PDL、Gluon 注意力内核与序列并行等优化，在 GB200 四卡张量并行下实现单用户最高 630 TPS、投机解码接受长度 3.5，并原生集成 DSpark 投机解码器。模型还支持 LoRA 与强化学习负载，可接入 Claude Code、Codex 等智能体框架。
 
 行业影响上，Inkling 2 Small 以开源协议和低成本（单任务中位成本 0.26 美元，约为榜首 Kimi K3.1 Pro 的 1/4.7）显著降低了高性能多模态智能体的使用门槛，其视觉反馈闭环能力尤其适用于网站、游戏与 3D 设计等生成任务。该模型在 OpenRouter 和 OpenCode 上限时免费开放，有望加速智能体应用…&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter), Arena.ai (@arena), vLLM 官方博客, OpenCode (@opencode)&lt;/p&gt;</description>
-</item>
-<item><title>腾讯混元 Hy4 网络安全指数升至全球第三</title><link>https://todayforai.com/en/story/story-e840baf8-07a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e840baf8-07a</guid>
-<pubDate>Fri, 13 Nov 2026 15:06:41 +0800</pubDate>
-<description>&lt;p&gt;腾讯混元 Hy4 在 Artificial Analysis 网络安全指数上以 58% 得分位列第三，仅次于 Kimi K3.1 Pro（64%）和 GPT-6 Sol（69%），并以 1 分优势领先 DeepSeek V4.1 Flash。该模型在漏洞发现与修复基准 CWE-Bench-AA 上以 76% 登顶，单任务成本仅 0.92 美元，处于能力与成本帕累托前沿。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
