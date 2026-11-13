@@ -43,6 +43,14 @@ ChatGPT Wallet 的核心安全机制在于令牌化支付：OpenAI 与美国运�
 
 行业影响方面，H3-Image 以开源权重和高吞吐、低延迟特性，显著降低了高质量 4K 图像生成的门槛，有望推动内容创作、电商、设计等领域的效率提升。同时，其跨平台快速适配（NVIDIA 与摩尔线程）显示出生态协同的成熟，为后续生图、生视频模型的 Day-0 支持建立基础，进一步加剧开源图像生成赛道的竞争。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;vLLM 官方博客, Arena.ai (@arena), IT之家 · 智能时代, 量子位官网, 机器之心 (微信公众号), Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
 </item>
+<item><title>Anthropic 推出 Claude Meetings 测试版 可加入视频会议实时协作</title><link>https://todayforai.com/en/story/story-e1d5d6f7-e74</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e1d5d6f7-e74</guid>
+<pubDate>Sat, 14 Nov 2026 06:39:15 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 正式推出 Claude Meetings 测试版，允许 Claude 以可见参会者身份加入视频会议，跟随对话并实时生成文档、白板与行动项，标志着 AI 助手从单点工具向会议协作伙伴的跨越。
+
+该功能面向 Team 与 Enterprise 套餐逐步开放，目前仅支持单一会议平台，其他平台即将支持。参会者可通过语音或聊天向 Claude 提问，并调用已连接工具。然而，有用户反馈 Claude 在客户会议中因将组织外参与者误判为外部访客而全程“划水”，暴露出 AI 代理在权限边界与业务语境理解上的设计缺陷。
+
+尽管存在初期问题，Claude Meetings 的推出仍显示了 AI 深入实时协作场景的趋势，有望提升会议效率与信息留存，但也对 AI 的安全策略与业务适应性提出了新挑战。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), Hacker News AI&lt;/p&gt;</description>
+</item>
 <item><title>研究称中国四家实验室模型使用被禁英伟达 Blackwell 芯片训练</title><link>https://todayforai.com/en/story/story-3a8c7475-b84</link><guid isPermaLink="true">https://todayforai.com/en/story/story-3a8c7475-b84</guid>
 <pubDate>Sat, 14 Nov 2026 02:40:30 +0800</pubDate>
 <description>&lt;p&gt;一项基于模型权重取证分析的研究发现，DeepSeek、月之暗面、MiniMax 与蚂蚁集团自 2026 年 4 月以来发布的 6 个开源模型，其数值特征与英伟达 Blackwell 硬件匹配，而更早模型则对应上一代 Hopper。该结论完全来自模型自身权重而非内部爆料，并在 DeepSeek-V4-Flash 与 Kimi K3 上于实体 Blackwell 芯片完成验证，为出口管制执行提供了可复现的技术证据。
@@ -70,14 +78,6 @@ ChatGPT Wallet 的核心安全机制在于令牌化支付：OpenAI 与美国运�
 <item><title>代码竞技场模型迭代提速 同等性能成本降 20 倍</title><link>https://todayforai.com/en/story/story-9e35ea46-7fd</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9e35ea46-7fd</guid>
 <pubDate>Sat, 14 Nov 2026 00:28:30 +0800</pubDate>
 <description>&lt;p&gt;Arena.ai 对 Code Arena WebDev 榜单 2025 年 12 月至 2026 年 10 月的 105 个模型进行分析，发现模型发布节奏从每月约 5 个增至 12-14 个，头部得分提升速度较冬季快 3 倍。到 10 月，小米 MiMo-V2.6-Flash 以不足二十分之一的价格超越 4 月榜首 Claude Opus 4.7，同价位区间胜率达 65-80%。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Arena.ai (@arena)&lt;/p&gt;</description>
-</item>
-<item><title>DeepSeek 开放全家桶 API 开发者可复刻完整 App</title><link>https://todayforai.com/en/story/story-8944917e-71c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-8944917e-71c</guid>
-<pubDate>Sat, 14 Nov 2026 04:31:51 +0800</pubDate>
-<description>&lt;p&gt;DeepSeek 正式开放其应用全家桶 API，开发者只需开启对应参数即可获得联网搜索、深度思考搜索、文件输入与链接阅读等完整对话能力，服务端自动完成工具调用与上下文拼接。同时，语音及底层能力（Search、Fetch、OCR、ASR、TTS）也作为独立接口开放，官方还开源了可导入历史对话的前端 Demo，开发者能够 1:1 复刻完整的 DeepSeek App。
-
-技术细节上，V4.1-Flash 模型在 Messages、Responses 与 Chat Completions 接口下支持联网搜索、深度思考搜索、文件输入、链接阅读与安全校验；Search、Fetch、OCR、ASR、TTS 均可单独调用，便于接入自有工作流。工具调用按次计费，例如搜索 5 元/千次。开源前端 Demo 支持导入 DeepSeek 历史对话，降低了开发门槛。
-
-这一开放策略将 DeepSeek 的完整应用能力模块化、API 化，使开发者能快速构建类似体验的 AI 应用，可能加剧大模型 API 市场的竞争，推动行业从单纯模型能力输出转向全栈应用能力开放。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
