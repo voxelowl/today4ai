@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Sat, 14 Nov 2026 00:00:12 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 14 Nov 2026 02:01:53 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>谷歌发布 Gemini 4 Hydrogen 百万上下文定价 1.5 美元</title><link>https://todayforai.com/en/story/story-23e7bc49-744</link><guid isPermaLink="true">https://todayforai.com/en/story/story-23e7bc49-744</guid>
 <pubDate>Fri, 13 Nov 2026 17:52:26 +0800</pubDate>
@@ -19,21 +19,21 @@ Hydrogen 的发布进一步加剧了高效模型赛道的竞争，其按任务�
 
 此次变动正值英伟达拟以约 129 亿美元收购 Hugging Face 的敏感节点，美国司法部已就竞争影响展开问询。Hugging Face CEO 德朗格公开表达惋惜，并承诺更坚定捍卫开源 AI。作为全球 AI 算力龙头，英伟达掌舵人更替直接冲击市场对 AI 基础设施前景的预期，GPU 路线图与产业格局面临重大不确定性。&lt;/p&gt;&lt;p&gt;9 sources&lt;/p&gt;&lt;p&gt;量子位官网, The Verge AI, IT之家 · IT业界, TechCrunch AI, Rohan Paul (@rohanpaul_ai), 宝玉 (@dotey)&lt;/p&gt;</description>
 </item>
+<item><title>Anthropic 启动 IPO 路演 最高募资 904 亿美元</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
+<pubDate>Sat, 14 Nov 2026 02:01:53 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 正式启动首次公开募股路演，计划以每股 70 至 78 美元发行 8.25 亿股 A 类普通股，基础募资规模最高约 643.5 亿美元，并以代码 ANT 登陆纳斯达克。若计入向谷歌、英伟达、微软、台积电等七家巨头定向私募配售的 260 亿美元 N 类普通股，合计融资规模最高可达 904 亿美元，完全稀释估值约 1.4 万亿美元，成为 AI 行业迄今规模最大的资本事件。
+
+多方信源交叉验证显示，此次 IPO 呈现显著的结构性特征。一方面，老股东仅出售约 2360 万股，绝大部分资金流入公司而非早期投资人套现；另一方面，七位创始人通过持有 Class F 股锁定 50.1% 投票权，公开市场投资者几乎无法影响公司控制权。财务数据方面，公司前九月营收 332.4 亿美元，同比增长约 1200%，但净亏损达 1040 亿美元，主要来自可转换票据公允价值变动。此外，Anthropic 同步披露与微软、谷歌新增逾 100 亿美元算力采购承诺，合同总额分别升至 472 亿至 492 亿美元和约 1213 亿美元，均延续至 2033 年且为照付不议。
+
+这场 IPO 被视为对 AI 产业估值逻辑的关键检验。受科技股回调与中期选举后市场对 AI 基建投资情绪转冷影响，估值预期从传闻的 1.5 万亿美元下修至 1.1 万亿至 1.3 万亿美元区间，但仍高于 OpenAI 上周 1.25 万亿美元的私募估值。若发行成功，Anthropic 将成为首家登陆公开资本市场的前沿大模型公司，为后续 AI 企业上市定价提供锚点，同时也将考验公开市场对高增长、高亏损 AI 商业模式的接受程度。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, Anthropic News, Anthropic AI (@AnthropicAI), The Decoder, 宝玉 (@dotey), 新智元 (微信公众号)&lt;/p&gt;</description>
+</item>
 <item><title>谷歌发布 Gemini Decision 1 单次调用并行千项判定</title><link>https://todayforai.com/en/story/story-0d6c164e-b26</link><guid isPermaLink="true">https://todayforai.com/en/story/story-0d6c164e-b26</guid>
 <pubDate>Thu, 12 Nov 2026 13:26:54 +0800</pubDate>
 <description>&lt;p&gt;谷歌 DeepMind 正式发布 Gemini Decision 1 决策模型及配套 Gemini Decisions API，专为是/否、多选、量表评分等封闭式决策设计，单次调用可并行处理最多 1000 个独立问题，覆盖文本、图像、音频、视频与 PDF 五种模态，并在 150-250 毫秒内返回带置信度的概率分数。该模型已在 Google AI Studio 开放 Python、JavaScript 与 REST 接入，Google Cloud 支持后续上线。
 
 据 Artificial Analysis 评测，Gemini Decision 1 在决策指数 v2.1 上得分 66，与 Elephant 9B、Jev 1.14 持平，但落后领先者 Drex Max v1.1 与 GLiDE v1.2 达 7 分；其在知识与推理基准上领先，但每百万任务成本约 345 美元，是 Drex Max v1.1 的三倍多，且在分类与抽取基准 AA-Paperclip 上明显落后。谷歌内部已将其用于 Gemini Notebook 的动态模型路由、Stitch 的设计原型与搜索安全审核，验证了高并发实时决策场景的可行性。
 
-作为首个由主流厂商推出的决策模型品类，Gemini Decision 1 将封闭式批量判定从传统规则引擎和单任务模型推向多模态、低成本、低延迟的新范式，有望重塑查询路由、内容分级与策略合规校验等场景的开发流程，但成本与精度短板也意味着该赛道竞争刚刚开始。&lt;/p&gt;&lt;p&gt;12 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, The Decoder, Artificial Analysis (@ArtificialAnlys), Google AI Blog, Simon Willison 博客, OpenRouter (@OpenRouter)&lt;/p&gt;</description>
-</item>
-<item><title>Anthropic 启动 IPO 路演 最高募资 904 亿美元</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
-<pubDate>Fri, 13 Nov 2026 23:15:08 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 正式启动首次公开募股路演，计划以每股 70 至 78 美元发行 8.25 亿股 A 类普通股，基础募资规模最高约 643.5 亿美元，并以代码 ANT 登陆纳斯达克。若计入向谷歌、英伟达、微软、台积电等七家巨头定向私募配售的 260 亿美元 N 类普通股，合计融资规模最高可达 904 亿美元，完全稀释估值约 1.4 万亿美元，成为 AI 行业迄今规模最大的资本事件。
-
-多方信源交叉验证显示，此次 IPO 呈现显著的结构性特征。一方面，老股东仅出售约 2360 万股，绝大部分资金流入公司而非早期投资人套现；另一方面，七位创始人通过持有 Class F 股锁定 50.1% 投票权，公开市场投资者几乎无法影响公司控制权。财务数据方面，公司前九月营收 332.4 亿美元，同比增长约 1200%，但净亏损达 1040 亿美元，主要来自可转换票据公允价值变动。此外，Anthropic 同步披露与微软、谷歌新增逾 100 亿美元算力采购承诺，合同总额分别升至 472 亿至 492 亿美元和约 1213 亿美元，均延续至 2033 年且为照付不议。
-
-这场 IPO 被视为对 AI 产业估值逻辑的关键检验。受科技股回调与中期选举后市场对 AI 基建投资情绪转冷影响，估值预期从传闻的 1.5 万亿美元下修至 1.1 万亿至 1.3 万亿美元区间，但仍高于 OpenAI 上周 1.25 万亿美元的私募估值。若发行成功，Anthropic 将成为首家登陆公开资本市场的前沿大模型公司，为后续 AI 企业上市定价提供锚点，同时也将考验公开市场对高增长、高亏损 AI 商业模式的接受程度。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, Anthropic News, Anthropic AI (@AnthropicAI), The Decoder, 宝玉 (@dotey), 新智元 (微信公众号)&lt;/p&gt;</description>
+作为首个由主流厂商推出的决策模型品类，Gemini Decision 1 将封闭式批量判定从传统规则引擎和单任务模型推向多模态、低成本、低延迟的新范式，有望重塑查询路由、内容分级与策略合规校验等场景的开发流程，但成本与精度短板也意味着该赛道竞争刚刚开始。&lt;/p&gt;&lt;p&gt;9 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, The Decoder, Artificial Analysis (@ArtificialAnlys), Google AI Blog, Simon Willison 博客, OpenRouter (@OpenRouter)&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 联合三大卡组织推出 ChatGPT 钱包 智能体可代付</title><link>https://todayforai.com/en/story/story-a13f7ac4-a82</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a13f7ac4-a82</guid>
 <pubDate>Sat, 14 Nov 2026 00:00:12 +0800</pubDate>
@@ -59,14 +59,6 @@ Hydrogen 的发布进一步加剧了高效模型赛道的竞争，其按任务�
 
 此举直接挑战 Microsoft 365 与 Google Workspace，消息公布后微软股价一度下跌 3.5%，反映出市场对 AI 办公入口争夺战的敏感。分析认为，Anthropic 凭借 Claude 在编程领域的口碑向通用知识工作市场扩张，与 OpenAI、Meta 形成三足鼎立之势，办公套件赛道竞争将愈发激烈。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, TechCrunch AI, 宝玉 (@dotey), IT之家 · 智能时代, Rohan Paul (@rohanpaul_ai), The Decoder&lt;/p&gt;</description>
 </item>
-<item><title>美联航封禁 AI 智能体代订机票</title><link>https://todayforai.com/en/story/story-d0fe1a17-1c3</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d0fe1a17-1c3</guid>
-<pubDate>Fri, 13 Nov 2026 01:17:58 +0800</pubDate>
-<description>&lt;p&gt;美联航近日宣布，禁止个人 AI 智能体在其数字平台上代用户完成机票预订和账户管理，成为首家对 AI 代理下单场景设限的美国大型航空公司。该限制覆盖美联航自有平台及外部渠道，AI 智能体仅能读取航班选项与价格信息，无法完成支付闭环。美联航后端已按来源区分个人、旅行社与 AI 智能体，以技术手段落实封禁。
-
-综合多家信源，美联航给出的理由包括：共享登录凭证可能导致敏感数据泄露和非授权购买；联邦航空法规要求乘客本人确认托运行李无爆炸物，AI 智能体无法合法代劳；此外，美联航也不愿增加交易中间环节。尽管目前实际使用 AI 代理订票的量极低，但企业已提前设立防御性护栏。此举与近期美国银行、eBay 等机构对 AI 代理的限制形成共振，凸显航空与金融业在身份核验与合规责任上的共同困境。
-
-该事件标志着主流企业对自主代理的权限边界开始系统性收紧。在受监管行业，AI 代理落地需先解决身份验证、责任归属与法规遵从问题。美联航的封禁不影响 Kayak、Hopper、Google Flights 等聚合平台继续售票，但个人 AI 助手从“提供建议”走向“代办交易”的路径正面临企业侧阻力，代理式购物与支付场景短期内恐难突破合规壁垒。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, Rohan Paul (@rohanpaul_ai), The Verge AI, Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
 <item><title>马斯克推进 SpaceX 与特斯拉合并 估值合计 3.45 万亿美元</title><link>https://todayforai.com/en/story/story-ebebddf2-c5c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-ebebddf2-c5c</guid>
 <pubDate>Fri, 13 Nov 2026 14:43:06 +0800</pubDate>
 <description>&lt;p&gt;马斯克正推动 SpaceX 与特斯拉合并，最快 12 月宣布协议，最迟或推迟至 2027 年初。合并后公司市值合计约 3.45 万亿美元，将成为全球最大规模企业合并之一，业务覆盖电动车、储能、火箭、卫星与 AI。
@@ -82,6 +74,10 @@ Hydrogen 的发布进一步加剧了高效模型赛道的竞争，其按任务�
 技术细节方面，Inkling 2 Small 采用 48 层 MoE 架构，384 个专家中 top-8 路由，混合精度（NVFP4 与 MXFP8）支持单节点部署。vLLM 在发布首日即完成适配，通过内核融合、PDL、Gluon 注意力内核与序列并行等优化，在 GB200 四卡张量并行下实现单用户最高 630 TPS、投机解码接受长度 3.5，并原生集成 DSpark 投机解码器。模型还支持 LoRA 与强化学习负载，可接入 Claude Code、Codex 等智能体框架。
 
 行业影响上，Inkling 2 Small 以开源协议和低成本（单任务中位成本 0.26 美元，约为榜首 Kimi K3.1 Pro 的 1/4.7）显著降低了高性能多模态智能体的使用门槛，其视觉反馈闭环能力尤其适用于网站、游戏与 3D 设计等生成任务。该模型在 OpenRouter 和 OpenCode 上限时免费开放，有望加速智能体应用…&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter), Arena.ai (@arena), vLLM 官方博客, OpenCode (@opencode)&lt;/p&gt;</description>
+</item>
+<item><title>腾讯混元 Hy4 网络安全指数升至全球第三</title><link>https://todayforai.com/en/story/story-e840baf8-07a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e840baf8-07a</guid>
+<pubDate>Fri, 13 Nov 2026 15:06:41 +0800</pubDate>
+<description>&lt;p&gt;腾讯混元 Hy4 在 Artificial Analysis 网络安全指数上以 58% 得分位列第三，仅次于 Kimi K3.1 Pro（64%）和 GPT-6 Sol（69%），并以 1 分优势领先 DeepSeek V4.1 Flash。该模型在漏洞发现与修复基准 CWE-Bench-AA 上以 76% 登顶，单任务成本仅 0.92 美元，处于能力与成本帕累托前沿。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

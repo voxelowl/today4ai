@@ -1,8 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 14 Nov 2026 01:34:44 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 14 Nov 2026 02:01:53 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Banks Bar Chinese and Hong Kong Investors from Anthropic IPO</title><link>https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/</link><guid isPermaLink="true">https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/</guid>
+<pubDate>Sat, 14 Nov 2026 02:01:53 +0800</pubDate>
+<description>&lt;p&gt;Anthropic&amp;#x27;s IPO syndicate has reportedly rejected buy orders from mainland China and Hong Kong, with some banks citing US ITAR export-control rules; Goldman Sachs and Morgan Stanley lead the offering alongside 20 other banks, with shares expected to price on November 18 and trade on Nasdaq under ticker ANT. The move extends Anthropic&amp;#x27;s confrontational posture, including blocking China-controlled firms from Claude and alleging large-scale distillation attacks by DeepSeek, Moonshot and MiniMax.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic IPO 将中港投资者拒之门外&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司 IPO 叠加出口管制与地缘因素，是观察 AI 资本格局与中美技术脱钩的关键信号。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 71/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/">The Decoder</source>
+<category>Anthropic</category>
+<category>IPO</category>
+<category>出口管制</category>
+<category>中美科技</category>
+</item>
+<item><title>SageMaker HyperPod Adds Data Capture for Closed-Loop Fine-Tuning</title><link>https://aws.amazon.com/blogs/machine-learning/build-a-model-improvement-flywheel-with-amazon-sagemaker-hyperpod-data-capture/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/build-a-model-improvement-flywheel-with-amazon-sagemaker-hyperpod-data-capture/</guid>
+<pubDate>Sat, 14 Nov 2026 02:01:15 +0800</pubDate>
+<description>&lt;p&gt;AWS has added built-in Data Capture to SageMaker HyperPod, recording live inference inputs and outputs to S3 across three independent tiers with zero impact on model availability. A home-appliance support router walkthrough shows the full flywheel: capture traffic, surface a new-product blind spot via Athena, label records with SQL, then fine-tune and measure accuracy before and after.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SageMaker HyperPod 新增数据捕获闭环微调&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;厂商绑定的实操教程，但给出了生产数据回流微调的完整可复用范式，对做模型迭代的团队有参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 42/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/build-a-model-improvement-flywheel-with-amazon-sagemaker-hyperpod-data-capture/">AWS Machine Learning Blog</source>
+<category>AWS</category>
+<category>SageMaker HyperPod</category>
+<category>数据飞轮</category>
+<category>模型微调</category>
+</item>
+<item><title>NVIDIA Releases SimReady Assets Tutorial for Robot Pick-and-Place Simulation</title><link>https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place</link><guid isPermaLink="true">https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place</guid>
+<pubDate>Sat, 14 Nov 2026 02:00:39 +0800</pubDate>
+<description>&lt;p&gt;NVIDIA published a full walkthrough on Hugging Face for building a robot pick-and-place simulation using SimReady assets, demonstrating a beverage-can task with the UR17G arm and Robotiq 2F-140 gripper. The tutorial shows how standardized USD assets plug directly into Isaac Sim to assemble reproducible embodied-AI simulation scenes, lowering the barrier to robotics simulation development.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达发布 SimReady 资产机器人抓取仿真教程&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;官方实操教程，展示标准化仿真资产在 Isaac Sim 中的落地路径，对具身智能开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hugging Face Blog · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place">Hugging Face Blog</source>
+<category>具身智能</category>
+<category>仿真</category>
+<category>英伟达</category>
+<category>Isaac Sim</category>
+<category>机器人</category>
+</item>
+<item><title>600 Experiments Reveal New Planning Path for JEPA World Models</title><link>https://haddyalchaer.com/jepa</link><guid isPermaLink="true">https://haddyalchaer.com/jepa</guid>
+<pubDate>Sat, 14 Nov 2026 01:55:28 +0800</pubDate>
+<description>&lt;p&gt;The author ran 600 experiments to systematically probe planning in JEPA world models, showing that changing only the planning procedure lets a model solve long-horizon physics tasks with zero additional training. The key finding is that transforming a memory graph to generate subgoals on the fly enables generalization to out-of-distribution goals, though the model still cannot choose its own subgoals without demonstrations.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;600 次实验揭示 JEPA 世界模型规划新路径&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以大量实验实证 JEPA 世界模型的规划增强方法，对关注世界模型与智能体规划的研究者具有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 62/100&lt;/p&gt;</description>
+<source url="https://haddyalchaer.com/jepa">Hacker News AI</source>
+<category>世界模型</category>
+<category>JEPA</category>
+<category>智能体规划</category>
+<category>强化学习</category>
+</item>
 <item><title>Nvidia Board Approaches Arm CEO Rene Haas as Potential Huang Successor</title><link>https://x.com/rohanpaul_ai/status/2121295713502199821</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121295713502199821</guid>
 <pubDate>Sat, 14 Nov 2026 01:34:44 +0800</pubDate>
 <description>&lt;p&gt;Nvidia&amp;#x27;s board has approached Arm CEO Rene Haas as a possible successor to Jensen Huang, the Financial Times reported. Haas, who has led SoftBank-owned Arm since 2022, spent roughly seven years at Nvidia over a decade ago and maintains strong ties with Huang and some directors. He is one of several candidates and may neither receive nor accept an offer.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达董事会接触 Arm CEO 探讨黄仁勋接班人选&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球市值最高芯片公司的最高层接班动向，直接牵动 AI 算力产业格局与 Arm 未来走向。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 78/100&lt;/p&gt;</description>
@@ -187,36 +224,36 @@
 <category>智能体</category>
 <category>Google DeepMind</category>
 </item>
-<item><title>ElevenLabs Launches ElevenAI App for Team Meeting Notes and Dictation</title><link>https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/</guid>
+<item><title>ElevenLabs 推出团队会议记录与听写应用</title><link>https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/</guid>
 <pubDate>Fri, 13 Nov 2026 22:44:48 +0800</pubDate>
-<description>&lt;p&gt;ElevenLabs unveiled ElevenAI, an experimental app combining meeting note-taking, dictation, and agent integration, at its 11/11 Summit. Still in preview with sign-up-only access, it is positioned as a team-level product rather than an individual productivity tool, directly contesting recent moves by Fireflies, Wispr Flow, and Granola.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;ElevenLabs 推出团队会议记录与听写应用&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;语音 AI 头部公司切入会议记录赛道，团队级定位与智能体集成值得关注。&lt;/p&gt;&lt;p&gt;TechCrunch AI · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;ElevenLabs 在 11/11 峰会上发布实验性应用 ElevenAI，将会议记录、听写与智能体集成整合为一体，目前处于预览阶段并需申请早期访问。该产品明确面向团队协作场景，而非个人效率工具，直接对标 Fireflies、Wispr Flow 与 Granola 近月密集推出的同类能力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;语音 AI 头部公司切入会议记录赛道，团队级定位与智能体集成值得关注。&lt;/p&gt;&lt;p&gt;TechCrunch AI · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/">TechCrunch AI</source>
 <category>语音AI</category>
 <category>会议记录</category>
 <category>ElevenLabs</category>
 <category>生产力工具</category>
 </item>
-<item><title>Huawei Delays Xiaoyi AI Quick Bar Rollout to Mid-November</title><link>https://www.ithome.com/1/026/962.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/962.htm</guid>
+<item><title>华为小艺 AI 快捷栏再度延期至 11 月中旬推送</title><link>https://www.ithome.com/1/026/962.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/962.htm</guid>
 <pubDate>Fri, 13 Nov 2026 22:41:59 +0800</pubDate>
-<description>&lt;p&gt;Huawei&amp;#x27;s Xiaoyi AI Quick Bar, a Dock-resident assistant feature first teased at the HarmonyOS 7 launch, has slipped again from late October to mid-November 2026, starting with the Mate 90 series and Pura X View. A two-wave December rollout will extend it to Mate 80, Pura 90 and MatePad devices, limited to models with 12GB RAM or more.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;华为小艺 AI 快捷栏再度延期至 11 月中旬推送&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及华为鸿蒙系统级 AI 入口的推送节奏与机型门槛，对关注端侧 AI 落地的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;华为小艺 AI 快捷栏原定 10 月底上线，现再次延期，首批推送定于 2026 年 11 月中旬，覆盖 Mate 90 系列与 Pura X View。12 月将分两批扩展至 Mate 80、Pura 90、MatePad 等大量机型，且仅 12GB 及以上内存设备支持。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及华为鸿蒙系统级 AI 入口的推送节奏与机型门槛，对关注端侧 AI 落地的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 38/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/026/962.htm">IT之家 · 智能时代</source>
 <category>华为</category>
 <category>鸿蒙</category>
 <category>端侧 AI</category>
 <category>智能助手</category>
 </item>
-<item><title>Amodei Predicts AI Will Cure Cancer in a Decade as Doctors Push Back</title><link>https://www.businessinsider.com/dario-amodei-anthropic-cancer-cure-ipo-roadshow-backlash-doctors-2026-11</link><guid isPermaLink="true">https://www.businessinsider.com/dario-amodei-anthropic-cancer-cure-ipo-roadshow-backlash-doctors-2026-11</guid>
+<item><title>Amodei 称 AI 十年内攻克癌症 医学界质疑</title><link>https://www.businessinsider.com/dario-amodei-anthropic-cancer-cure-ipo-roadshow-backlash-doctors-2026-11</link><guid isPermaLink="true">https://www.businessinsider.com/dario-amodei-anthropic-cancer-cure-ipo-roadshow-backlash-doctors-2026-11</guid>
 <pubDate>Fri, 13 Nov 2026 22:34:13 +0800</pubDate>
-<description>&lt;p&gt;Anthropic CEO Dario Amodei claimed in a 42-minute IPO roadshow video that cancer, Alzheimer&amp;#x27;s, heart disease and mental illness will become relics of the past in less than a decade. Medical professionals pushed back, calling the timeline ambitious or even misleading. The remarks come as Anthropic seeks investor backing at a trillion-dollar valuation.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Amodei 称 AI 十年内攻克癌症 医学界质疑&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司 CEO 在 IPO 节点抛出激进医疗预测并引发医学界公开反驳，是观察 AI 叙事与资本关系的重要样本。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic CEO Dario Amodei 在 IPO 路演视频中宣称，癌症、阿尔茨海默病、心脏病与精神疾病将在不到十年内成为历史。医学界人士对该时间表表示怀疑，认为其过于激进甚至具有误导性。此番表态正值 Anthropic 以万亿美元估值推进 IPO 之际，被解读为面向投资者的叙事调整。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司 CEO 在 IPO 节点抛出激进医疗预测并引发医学界公开反驳，是观察 AI 叙事与资本关系的重要样本。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.businessinsider.com/dario-amodei-anthropic-cancer-cure-ipo-roadshow-backlash-doctors-2026-11">Hacker News AI</source>
 <category>Anthropic</category>
 <category>AI 医疗</category>
 <category>IPO</category>
 <category>行业预测</category>
 </item>
-<item><title>SpaceXAI Cuts Grok Imagine Staff to Focus on AI Coding Tools</title><link>https://www.ithome.com/1/026/961.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/961.htm</guid>
+<item><title>SpaceXAI 裁减 Grok Imagine 团队 重心转向 AI 编程</title><link>https://www.ithome.com/1/026/961.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/961.htm</guid>
 <pubDate>Fri, 13 Nov 2026 22:30:48 +0800</pubDate>
-<description>&lt;p&gt;SpaceXAI has laid off roughly 60 members of its Grok Imagine video and image generation team, retaining only a skeleton crew for basic operations. The cut continues the restructuring after the xAI-SpaceX merger and signals a strategic pivot toward AI coding tools and the Grok Bot agent, underscored by the $60 billion acquisition of Cursor.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SpaceXAI 裁减 Grok Imagine 团队 重心转向 AI 编程&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司资源重新配置，视频生成线被边缘化，反映编程与智能体赛道的战略优先级跃升。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;SpaceXAI 裁撤约 60 名 Grok Imagine 视频图像生成团队成员，仅保留少数人员维持基础运营。此次调整是 xAI 与 SpaceX 合并后架构重组的延续，战略重心已转向 AI 编程工具与 Grok Bot 智能体，此前 600 亿美元收购 Cursor 即为佐证。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司资源重新配置，视频生成线被边缘化，反映编程与智能体赛道的战略优先级跃升。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/026/961.htm">IT之家 · 智能时代</source>
 <category>产业变革</category>
 <category>SpaceXAI</category>
@@ -231,40 +268,6 @@
 <category>API</category>
 <category>开发者工具</category>
 <category>开源</category>
-</item>
-<item><title>Rust 编写的独立 XMPP 服务器 Lonewolf 发布 0.3 版</title><link>https://github.com/lonewolf-im/lonewolf/releases/tag/v0.3.0</link><guid isPermaLink="true">https://github.com/lonewolf-im/lonewolf/releases/tag/v0.3.0</guid>
-<pubDate>Fri, 13 Nov 2026 22:28:40 +0800</pubDate>
-<description>&lt;p&gt;Lonewolf 0.3 是一款用 Rust 编写的自托管 XMPP 服务器，主打单二进制内嵌存储、低资源占用与严格遵循核心 XMPP RFC，支持多域名聊天、跨服务器联邦与多设备登录。项目仍处于 pre-1.0 阶段，集群能力尚未落地，且代码、测试与文档主要由 AI 编码智能体编写、由维护者把控设计与评审。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;一个由 AI 智能体主力编写、Rust 实现的自托管 XMPP 服务器新版本，对关注开源通信基础设施与 AI 辅助开发实践者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 42/100&lt;/p&gt;</description>
-<source url="https://github.com/lonewolf-im/lonewolf/releases/tag/v0.3.0">Hacker News AI</source>
-<category>开源</category>
-<category>XMPP</category>
-<category>Rust</category>
-<category>AI 辅助开发</category>
-</item>
-<item><title>韩国拟投 36 亿韩元采购设备防范 AI 眼镜作弊</title><link>https://www.ithome.com/1/026/958.htm</link><guid isPermaLink="true">https://www.ithome.com/1/026/958.htm</guid>
-<pubDate>Fri, 13 Nov 2026 22:08:39 +0800</pubDate>
-<description>&lt;p&gt;韩国国会正审议约 65.7 亿韩元的预算增拨方案，用于采购 7200 台无线电信号探测设备并配备逾 2.3 万名专职监考人员，以应对国家资格考试中利用 AI 眼镜作弊的问题。由于 AI 眼镜外观与普通眼镜高度相似，肉眼识别困难，今年高考仍主要依靠目视检查，韩国教育部已将 AI 眼镜列入考场禁带清单并明确最高 3 年禁考处罚。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 硬件普及倒逼考试监管升级的典型产业落地信号，涉及具体预算、设备数量与执法数据。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/026/958.htm">IT之家 · 智能时代</source>
-<category>AI 眼镜</category>
-<category>考试监管</category>
-<category>韩国</category>
-<category>政策预算</category>
-</item>
-<item><title>llama.cpp 发布 v1.0.0 本地推理迎来里程碑</title><link>https://huggingface.co/blog/ggml-org/llama-cpp-v1</link><guid isPermaLink="true">https://huggingface.co/blog/ggml-org/llama-cpp-v1</guid>
-<pubDate>Fri, 13 Nov 2026 22:05:22 +0800</pubDate>
-<description>&lt;p&gt;llama.cpp 正式发布 v1.0.0，在项目启动 3.5 年后确立稳定版本基线。该项目以量化、优化后端与可移植 C/C++ 实现为核心，支持在消费级设备到企业服务器上运行多模态大模型，是本地与私有化 AI 推理生态的关键底座。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;本地推理核心项目首次发布 1.0 稳定版，对开源生态与私有化部署具有节点意义。&lt;/p&gt;&lt;p&gt;Hugging Face Blog · opensource · signal 78/100&lt;/p&gt;</description>
-<source url="https://huggingface.co/blog/ggml-org/llama-cpp-v1">Hugging Face Blog</source>
-<category>开源生态</category>
-<category>本地推理</category>
-<category>llama.cpp</category>
-</item>
-<item><title>Anthropic 推出消费级智能体 Claude Duet</title><link>https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on</guid>
-<pubDate>Fri, 13 Nov 2026 22:00:00 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 面向非程序员用户推出消费级 AI 智能体 Claude Duet，定位比 Claude Cowork 更贴近普通用户、比 Claude Code 更偏工作场景。实测显示其主动协助能力实用，但判断何时介入的时机把握仍显神经质，语气与分寸感有待校准。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Anthropic 消费级智能体产品的首份实测，直接反映 agent 从编码走向大众场景的落地现状与短板。&lt;/p&gt;&lt;p&gt;The Verge AI · agent · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on">The Verge AI</source>
-<category>智能体</category>
-<category>Anthropic</category>
-<category>消费级 AI</category>
 </item>
 </channel>
 </rss>
