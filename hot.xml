@@ -47,14 +47,6 @@ Teamwork 采用专业智能体并行求解加独立质疑者与审查者的架�
 
 这一成果对数学形式化、AI  for Science 及软件工程赛道具有深远影响。多智能体协作攻克多年未解的开放问题，展示了 AI 在复杂科研任务中的潜力，有望加速科学发现与工程实践，推动 AI 从辅助工具向科研合作伙伴的范式跃迁。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Hacker News AI, Google Research&lt;/p&gt;</description>
 </item>
-<item><title>MiniMax 开源 H3-Image 生图模型 10 秒生成 4K 图像</title><link>https://todayforai.com/en/story/story-77b75cf4-9c6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-77b75cf4-9c6</guid>
-<pubDate>Sat, 14 Nov 2026 04:29:39 +0800</pubDate>
-<description>&lt;p&gt;MiniMax 正式开源 H3-Image 图像生成模型，支持文生图、图像参考与图像编辑，可在约 10 秒内生成 4096×4096 的 4K 图像，官方称速度约为主流水平的 5 倍。模型以开放权重形式发布，并同步上线 MiniMax API、MiniMax Code 与海螺 AI，同时接入 Arena 对战模式接受用户盲测。
-
-技术细节上，H3-Image 衍生自 H3 基座，单一 checkpoint 在六步采样内同时覆盖文生图与图像编辑，无需超分即可输出原生高分辨率，并支持最多 16 张参考图，指令遵循能力号称开源模型中最强。在 NVIDIA Vera Rubin 平台四卡配置下，原生 4K 生成中位延迟仅 0.87 秒，吞吐配置可达每小时 6115 张。摩尔线程 MTT S5000 也在开源首日完成适配，单卡即可生成 4K 图像，复用 SGLang、MATE、MCCL 等组件优化多参考图场景下的注意力开销。
-
-行业影响方面，H3-Image 以开源权重和高吞吐、低延迟特性，显著降低了高质量 4K 图像生成的门槛，有望推动内容创作、电商、设计等领域的效率提升。同时，其跨平台快速适配（NVIDIA 与摩尔线程）显示出生态协同的成熟，为后续生图、生视频模型的 Day-0 支持建立基础，进一步加剧开源图像生成赛道的竞争。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;vLLM 官方博客, Arena.ai (@arena), IT之家 · 智能时代, 量子位官网, 机器之心 (微信公众号), Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
-</item>
 <item><title>Anthropic 启动 IPO 路演 拟最高募资 904 亿美元</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
 <pubDate>Sun, 15 Nov 2026 03:05:17 +0800</pubDate>
 <description>&lt;p&gt;Anthropic 正式启动 IPO 路演，计划以代码 ANT 登陆纳斯达克，基础发行规模最高约 643.5 亿美元，叠加向谷歌、英伟达、微软等七家战略投资者定向发行的 260 亿美元私募股份，合计融资规模最高可达 904 亿美元，目标估值约 1.4 万亿美元，有望成为史上最大 IPO 之一。
@@ -62,6 +54,14 @@ Teamwork 采用专业智能体并行求解加独立质疑者与审查者的架�
 尽管此前因定价文件细节问题短暂撤回，且市场对 AI 板块的估值预期从 2 万亿美元下修至最低约 1.1 万亿美元，但此次发行仍获约 6 倍超额认购，显示资本对头部 AI 资产的强烈需求。公司年化收入已从 9 月的 710 亿美元增至 10 月底的 810 亿美元，为估值提供支撑。CEO Dario Amodei 表示上市核心目的是囤积现金以支撑总额 9000 亿美元的算力基础设施投入，包括与 SpaceX 每月最高 31 亿美元的数据中心协议，同时采取“少量长约+现货市场”策略对冲需求波动风险。
 
 此次 IPO 将成为 AI 行业资本化与估值逻辑的关键检验。七位创始人通过特殊股权结构锁定 50.1% 投票权，公开市场投资者几乎无法影响公司控制权，这种治理安排可能引发对公共利益公司（PBC）上市后责任归属的讨论。若发行成功，Anthropic 将获得充足弹药与 OpenAI 等对手展开算力军备竞赛，并重塑前沿 AI 实验室的融资与竞争格局。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;The Verge AI, Anthropic News, 量子位官网, Latent Space, The Decoder, IT之家 · IT业界&lt;/p&gt;</description>
+</item>
+<item><title>MiniMax 开源 H3-Image 生图模型 10 秒生成 4K 图像</title><link>https://todayforai.com/en/story/story-77b75cf4-9c6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-77b75cf4-9c6</guid>
+<pubDate>Sat, 14 Nov 2026 04:29:39 +0800</pubDate>
+<description>&lt;p&gt;MiniMax 正式开源 H3-Image 图像生成模型，支持文生图、图像参考与图像编辑，可在约 10 秒内生成 4096×4096 的 4K 图像，官方称速度约为主流水平的 5 倍。模型以开放权重形式发布，并同步上线 MiniMax API、MiniMax Code 与海螺 AI，同时接入 Arena 对战模式接受用户盲测。
+
+技术细节上，H3-Image 衍生自 H3 基座，单一 checkpoint 在六步采样内同时覆盖文生图与图像编辑，无需超分即可输出原生高分辨率，并支持最多 16 张参考图，指令遵循能力号称开源模型中最强。在 NVIDIA Vera Rubin 平台四卡配置下，原生 4K 生成中位延迟仅 0.87 秒，吞吐配置可达每小时 6115 张。摩尔线程 MTT S5000 也在开源首日完成适配，单卡即可生成 4K 图像，复用 SGLang、MATE、MCCL 等组件优化多参考图场景下的注意力开销。
+
+行业影响方面，H3-Image 以开源权重和高吞吐、低延迟特性，显著降低了高质量 4K 图像生成的门槛，有望推动内容创作、电商、设计等领域的效率提升。同时，其跨平台快速适配（NVIDIA 与摩尔线程）显示出生态协同的成熟，为后续生图、生视频模型的 Day-0 支持建立基础，进一步加剧开源图像生成赛道的竞争。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;vLLM 官方博客, Arena.ai (@arena), IT之家 · 智能时代, 量子位官网, 机器之心 (微信公众号), Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 重组机器人团队 押注通用模型</title><link>https://todayforai.com/en/story/story-2f2f7a24-649</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2f2f7a24-649</guid>
 <pubDate>Sat, 14 Nov 2026 19:40:51 +0800</pubDate>
