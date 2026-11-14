@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 15 Nov 2026 00:48:01 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 15 Nov 2026 01:43:10 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Lovable Apps Leak Passport Data and 200K Private Messages</title><link>https://www.crissyfield.de/research/lovable-en/</link><guid isPermaLink="true">https://www.crissyfield.de/research/lovable-en/</guid>
+<pubDate>Sun, 15 Nov 2026 01:43:10 +0800</pubDate>
+<description>&lt;p&gt;Security researchers scanned 159,041 Lovable-generated projects and found many exposing passports, private messages and other sensitive data without any login. The incident highlights systemic gaps in default security posture and data-permission design across AI low-code platforms, with non-technical builders most at risk.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Lovable 平台 15.9 万应用泄露护照与 20 万私信&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大规模实测数据揭示 AI 低代码平台的默认安全风险，对使用此类工具的开发者具有直接警示价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.crissyfield.de/research/lovable-en/">Hacker News AI</source>
+<category>AI 编程</category>
+<category>数据安全</category>
+<category>低代码平台</category>
+<category>Lovable</category>
+</item>
 <item><title>Gemini 4 Carbon Tops MathArena but Costs 15 Times More Than GPT-6.1 Sol</title><link>https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/</link><guid isPermaLink="true">https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/</guid>
 <pubDate>Sun, 15 Nov 2026 00:48:01 +0800</pubDate>
 <description>&lt;p&gt;Google&amp;#x27;s Gemini 4 Carbon has become the first non-OpenAI model in a while to top the MathArena math benchmark, displacing GPT-6.1 Sol, with Anthropic&amp;#x27;s Claude Fable 5.2 taking second place. However, its evaluation cost runs roughly 15 times that of GPT-6.1 Sol, and its most common failure mode is exceeding the time limit while almost never abandoning a task. The best open model, Moonshot AI&amp;#x27;s Kimi K3.1 Pro, trails at 54.3%.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Gemini 4 Carbon 登顶 MathArena 但成本高 15 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部模型在权威数学基准上的排名更替叠加显著成本差异，是评估模型选型的重要信号。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
@@ -218,9 +227,9 @@
 <category>IPO</category>
 <category>模型训练</category>
 </item>
-<item><title>Cursor Discloses Supply Chain Attack Affecting Up to 5,000 Users</title><link>https://www.ithome.com/1/027/215.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/215.htm</guid>
+<item><title>Cursor 披露供应链攻击调查结果 最多波及 5000 用户</title><link>https://www.ithome.com/1/027/215.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/215.htm</guid>
 <pubDate>Sat, 14 Nov 2026 18:52:39 +0800</pubDate>
-<description>&lt;p&gt;Cursor released its investigation into an October security incident in which attackers used leaked Fireworks keys to steal data from a shared storage bucket, then leveraged internal credentials to inject a tampered Claude Code extension into the Cursor marketplace. The malicious build stayed live for about 11 hours and affected up to 5,000 users; fewer than 0.05% of non-privacy-mode users had agent trace data exposed, and Cursor has notified affected customers and rotated credentials.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Cursor 披露供应链攻击调查结果 最多波及 5000 用户&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 编程工具首次公开的完整供应链攻击复盘，对依赖扩展生态的开发者具有直接的安全警示价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Cursor 公布 10 月安全事件调查结果：攻击者利用 Fireworks 泄露的密钥窃取共享存储桶数据，并借内部凭证向 Cursor 扩展市场注入篡改版 Claude Code 扩展，该恶意版本存续约 11 小时，最多波及 5000 名用户。未开启隐私模式的用户中，编程智能体链路追踪数据泄露占比不足 0.05%，官方已逐一通知受影响用户并完成密钥轮换与攻击者服务器关停。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 编程工具首次公开的完整供应链攻击复盘，对依赖扩展生态的开发者具有直接的安全警示价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/027/215.htm">IT之家 · 智能时代</source>
 <category>安全事件</category>
 <category>Cursor</category>
@@ -261,15 +270,6 @@
 <category>基准测试</category>
 <category>湿实验预测</category>
 <category>科研智能体</category>
-</item>
-<item><title>Runway 开源 Praxis-1 机器人控制模型</title><link>https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/</link><guid isPermaLink="true">https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/</guid>
-<pubDate>Sat, 14 Nov 2026 17:45:45 +0800</pubDate>
-<description>&lt;p&gt;Runway 以 Apache 2.0 协议开源了机器人控制模型 Praxis-1 的权重与源码。该模型基于视频与机器人数据训练，可接收相机图像、文本指令和位置数据并输出对应动作，且能通过追加训练适配新机器人本体。局限在于易混淆相似物体，尚不能独立规划复杂动作序列。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;视频生成厂商将视频预训练能力迁移至具身控制并完整开源权重与代码，是具身智能开源生态的重要增量。&lt;/p&gt;&lt;p&gt;The Decoder · opensource · signal 78/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/">The Decoder</source>
-<category>具身智能</category>
-<category>开源模型</category>
-<category>机器人控制</category>
-<category>Runway</category>
 </item>
 </channel>
 </rss>
