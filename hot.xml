@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Sat, 14 Nov 2026 20:45:55 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 14 Nov 2026 21:46:56 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Fable 5.2 登顶 Agent Arena，Gemini 4 Hydrogen 提速</title><link>https://todayforai.com/en/story/story-dc8382a0-0bf</link><guid isPermaLink="true">https://todayforai.com/en/story/story-dc8382a0-0bf</guid>
 <pubDate>Sat, 14 Nov 2026 04:45:33 +0800</pubDate>
@@ -13,7 +13,7 @@
 
 综合各信源，黄仁勋长期回避继任规划，约 60 名高管直接向其汇报，公司无明确二号人物。临时接任的克雷斯将在下周二财报会上说明短期安排，原定 11 月 17 日发布的第三季度财报维持原计划。新任 CEO 将接手约 1000 亿美元对外投资组合，包括拟以 129 亿美元收购 Hugging Face 的交易，该交易正面临美国司法部竞争问询。
 
-此次人事地震冲击全球 AI 算力供应链，英伟达预期市盈率降至 12 倍，为 2012 年以来最低。CoreWeave、Nebius 等算力租赁商股价承压，AMD 与博通则逆势上涨，投资者押注竞争格局生变。Hugging Face CEO 德朗格公开表达惋惜，并承诺更坚定捍卫开源 AI。事件暴露了英伟达以芯片供应叠加基础设施融资的循环模式风险，整个 AI 产业链面临重新定价。&lt;/p&gt;&lt;p&gt;10 sources&lt;/p&gt;&lt;p&gt;Latent Space, IT之家 · 智能时代, TechCrunch AI, 宝玉 (@dotey), 量子位官网, The Decoder&lt;/p&gt;</description>
+此次人事地震冲击全球 AI 算力供应链，英伟达预期市盈率降至 12 倍，为 2012 年以来最低。CoreWeave、Nebius 等算力租赁商股价承压，AMD 与博通则逆势上涨，投资者押注竞争格局生变。Hugging Face CEO 德朗格公开表达惋惜，并承诺更坚定捍卫开源 AI。事件暴露了英伟达以芯片供应叠加基础设施融资的循环模式风险，整个 AI 产业链面临重新定价。&lt;/p&gt;&lt;p&gt;9 sources&lt;/p&gt;&lt;p&gt;Latent Space, IT之家 · 智能时代, TechCrunch AI, 宝玉 (@dotey), 量子位官网, The Decoder&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 联合三大卡组织推出 ChatGPT 钱包 智能体可代付</title><link>https://todayforai.com/en/story/story-a13f7ac4-a82</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a13f7ac4-a82</guid>
 <pubDate>Sat, 14 Nov 2026 04:45:10 +0800</pubDate>
@@ -43,6 +43,14 @@ Claude Sheets 支持自然语言生成含公式与多标签的可协作表格，
 
 行业影响方面，H3-Image 以开源权重和高吞吐、低延迟特性，显著降低了高质量 4K 图像生成的门槛，有望推动内容创作、电商、设计等领域的效率提升。同时，其跨平台快速适配（NVIDIA 与摩尔线程）显示出生态协同的成熟，为后续生图、生视频模型的 Day-0 支持建立基础，进一步加剧开源图像生成赛道的竞争。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;vLLM 官方博客, Arena.ai (@arena), IT之家 · 智能时代, 量子位官网, 机器之心 (微信公众号), Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
 </item>
+<item><title>OpenAI 重组机器人团队 押注通用模型</title><link>https://todayforai.com/en/story/story-2f2f7a24-649</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2f2f7a24-649</guid>
+<pubDate>Sat, 14 Nov 2026 19:40:51 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 已确认解散独立机器人团队，将研究人员并入由首席研究官 Mark Chen 领导的核心研究团队，硬件团队转入 Greg Brockman 负责的应用部门。官方明确表示，此次重组旨在加速研发而非退出机器人领域，核心逻辑是通用多模态模型已能直接承担部分机器人任务，未来将逐步替代专用机器人模型。
+
+多方信源交叉验证了该决策的突然性：团队解散发生在奥斯汀 CoRL 大会期间，距 CEO 奥特曼 5 月公开招人仅五个月，已预订的展位空置。英伟达一项研究显示，由 GPT-6 Astra 驱动的智能体在模拟操作测试中成功率达 74.8%，显著高于专用模型的 51.0%，但推理速度、云端联网依赖与现场数据积累仍是落地瓶颈。
+
+此举标志着 OpenAI 对机器人技术路线的重大转向：从专用模型转向通用模型驱动，可能重塑具身智能领域的竞争格局。若通用模型能有效充当机器人大脑，将大幅降低机器人 AI 的开发门槛，加速通用机器人的商业化进程，同时也对专用机器人 AI 公司构成潜在冲击。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;The Decoder, 新智元 (微信公众号), IT之家 · 智能时代&lt;/p&gt;</description>
+</item>
 <item><title>Anthropic 启动 IPO 路演 最高募资 904 亿美元</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
 <pubDate>Sat, 14 Nov 2026 07:39:27 +0800</pubDate>
 <description>&lt;p&gt;Anthropic 正式启动首次公开募股路演，计划以每股 70 至 78 美元发行 8.25 亿股 A 类普通股，基础募资规模最高约 643.5 亿美元，并以代码 ANT 登陆纳斯达克。若计入向谷歌、英伟达、微软、台积电等七家巨头定向私募配售的 260 亿美元 N 类普通股，合计融资规模最高可达 904 亿美元，完全稀释估值约 1.4 万亿美元，成为 AI 行业迄今规模最大的资本事件。
@@ -51,25 +59,17 @@ Claude Sheets 支持自然语言生成含公式与多标签的可协作表格，
 
 这场 IPO 被视为对 AI 产业估值逻辑的关键检验。受科技股回调与中期选举后市场对 AI 基建投资情绪转冷影响，估值预期从传闻的 1.5 万亿美元下修至 1.1 万亿至 1.3 万亿美元区间，但仍高于 OpenAI 上周 1.25 万亿美元的私募估值。若发行成功，Anthropic 将成为首家登陆公开资本市场的前沿大模型公司，为后续 AI 企业上市定价提供锚点，同时也将考验公开市场对高增长、高亏损 AI 商业模式的接受程度。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, Anthropic News, Anthropic AI (@AnthropicAI), The Decoder, 宝玉 (@dotey), 新智元 (微信公众号)&lt;/p&gt;</description>
 </item>
+<item><title>Meta 上线 Muse 代打电话 商家识别 AI 即挂断</title><link>https://todayforai.com/en/story/story-26abef33-47b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-26abef33-47b</guid>
+<pubDate>Sat, 14 Nov 2026 21:46:56 +0800</pubDate>
+<description>&lt;p&gt;Meta 旗下消费级 AI 智能体 Muse 正式向美国付费订阅用户开放代打电话功能，可代为联系有线电视公司、车管所、餐厅及保险公司等处理预约与客服事务。该功能此前于 9 月启动测试，现面向每月 19.99 美元起的最高级别订阅用户开放，Muse 用户规模已超过 1000 万，Meta 计划后续向免费用户扩展。
+
+综合多家信源，Muse 以 AI 合成语音拨打电话，能力上延续了 2018 年 Google Duplex 演示的方向，但如今已成为常驻智能体的标准配置。实际落地中，不少商家一旦识别出 AI 来电便直接挂断，成为该功能面临的主要障碍。Meta 因此不得不调整策略，而合成语音日益逼真也让商家识别愈发困难。目前 Google Gemini、Instinct 及 xAI Grok Bot 已具备类似代打电话能力，OpenAI 与 Anthropic 尚未跟进。
+
+这一进展标志着消费级 AI 智能体从文本交互迈向真实世界任务执行，但商家端的信任与接受度仍是规模化落地的关键瓶颈。若 Meta 能通过策略调整提升接通率，代打电话有望成为智能体的标配功能，并推动语音 AI 在客服、预约等场景的普及；反之，若商家持续抵制，可能延缓整个赛道从演示走向日常应用的进程。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, TechCrunch AI, The Decoder&lt;/p&gt;</description>
+</item>
 <item><title>谷歌多智能体 Teamwork 完成韦伊猜想形式化证明</title><link>https://todayforai.com/en/story/story-e8a175f9-12c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e8a175f9-12c</guid>
 <pubDate>Sat, 14 Nov 2026 14:53:32 +0800</pubDate>
 <description>&lt;p&gt;谷歌扩展 Antigravity 多智能体系统，推出由 Gemini 驱动的 Teamwork 系统，通过并行专业智能体与独立质疑审查机制，完成韦伊猜想形式化证明，累计生成约 180 万行 Lean 代码。该系统还复现了三维纳维-斯托克斯方程有限时间爆破的形式化证明，并在分子结构识别与 C++ 转 Rust 代码重写等任务中取得可验证成果。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Google Research&lt;/p&gt;</description>
-</item>
-<item><title>前 Anthropic 研究员称重训 Mythos 算力需求骤降</title><link>https://todayforai.com/en/story/story-65ba0867-ae4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-65ba0867-ae4</guid>
-<pubDate>Sat, 14 Nov 2026 19:45:39 +0800</pubDate>
-<description>&lt;p&gt;前 Anthropic 研究员 Jacob Coxon 近日公开表示，Anthropic 如今重新训练其 Mythos 模型所需的算力已降至最初需求的一小部分。这一说法若属实，意味着前沿大模型的训练成本可能因算法效率的跃升而大幅下降，从而动摇“算力规模决定一切”的行业信条。
-
-Coxon 将 Anthropic IPO 路演中一张展示训练算力需求陡峭增长的图表列为离职的关键原因，并称该图表同时揭示了算法效率正以超指数速度提升。他进一步主张，行业应在明年暂停前沿模型研发，让竞争者得以追赶，从而使人类水平智能成为广泛可得的商品。不过，上述言论目前仅为个人转述，缺乏 Anthropic 官方数据或论文的佐证，其准确性有待验证。
-
-若该趋势得到证实，将对 AI 产业格局产生深远影响：一方面，训练门槛降低可能吸引更多参与者，加剧模型商品化竞争；另一方面，头部公司或需重新评估巨额算力投入的回报逻辑，而监管与安全议题也将因能力扩散而更趋复杂。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Decoder, IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
-<item><title>Thinking Machines 开源 Inkling 2 Small 登顶美国开源模型</title><link>https://todayforai.com/en/story/story-4ac260ee-18f</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4ac260ee-18f</guid>
-<pubDate>Sat, 14 Nov 2026 07:32:05 +0800</pubDate>
-<description>&lt;p&gt;Thinking Machines Lab 以 Apache 2.0 协议开源了 594B 参数的 Inkling 2 Small 模型，该模型从预训练到强化学习全程采用原生 4-bit 前向传播训练，使预训练时间缩短 8%、RL 时间缩短 20%，效率损失仅约 2%。发布即登顶美国开源模型榜首，在 Agent Arena 和 Code Arena 中均表现亮眼。
-
-Inkling 2 Small 采用 MoE 架构，总参数 594B 但仅激活 17B，支持 100 万 token 上下文与多模态输入。vLLM 在发布首日即完成适配，通过内核融合与投机解码优化，在 GB200 四卡上实现单用户 630 TPS。Arena.ai 数据显示，其在 Agent Arena 取得 +2.9% 净提升，可控性提升 10.9% 为开放模型最高，单任务中位成本仅 0.26 美元；Code Arena WebDev 得分 1647，较前代提升 239 分。OpenRouter 和 OpenCode 平台限时免费开放，可接入 Claude Code 等智能体框架。
-
-这一开源举措标志着高效训练与推理技术的成熟，4-bit 训练大幅降低计算成本，而高性能与低成本优势可能重塑开源模型竞争格局，推动智能体应用普及。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter), Arena.ai (@arena), Rohan Paul (@rohanpaul_ai), vLLM 官方博客, OpenCode (@opencode)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
