@@ -41,15 +41,7 @@ ChatGPT Wallet 的核心安全机制在于令牌化支付：OpenAI 与美国运�
 
 技术细节上，H3-Image 衍生自 H3 基座，单一 checkpoint 在六步采样内同时覆盖文生图与图像编辑，无需超分即可输出原生高分辨率，并支持最多 16 张参考图，指令遵循能力号称开源模型中最强。在 NVIDIA Vera Rubin 平台四卡配置下，原生 4K 生成中位延迟仅 0.87 秒，吞吐配置可达每小时 6115 张。摩尔线程 MTT S5000 也在开源首日完成适配，单卡即可生成 4K 图像，复用 SGLang、MATE、MCCL 等组件优化多参考图场景下的注意力开销。
 
-行业影响方面，H3-Image 以开源权重和高吞吐、低延迟特性，显著降低了高质量 4K 图像生成的门槛，有望推动内容创作、电商、设计等领域的效率提升。同时，其跨平台快速适配（NVIDIA 与摩尔线程）显示出生态协同的成熟，为后续生图、生视频模型的 Day-0 支持建立基础，进一步加剧开源图像生成赛道的竞争。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;vLLM 官方博客, Arena.ai (@arena), IT之家 · 智能时代, 量子位官网, 机器之心 (微信公众号), Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
-</item>
-<item><title>Thinking Machines 开源 Inkling 2 Small 登顶美国开源模型</title><link>https://todayforai.com/en/story/story-4ac260ee-18f</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4ac260ee-18f</guid>
-<pubDate>Sat, 14 Nov 2026 07:32:05 +0800</pubDate>
-<description>&lt;p&gt;Thinking Machines Lab 以 Apache 2.0 协议开源了 594B 参数的 Inkling 2 Small 模型，该模型从预训练到强化学习全程采用原生 4-bit 前向传播训练，使预训练时间缩短 8%、RL 时间缩短 20%，效率损失仅约 2%。发布即登顶美国开源模型榜首，在 Agent Arena 和 Code Arena 中均表现亮眼。
-
-Inkling 2 Small 采用 MoE 架构，总参数 594B 但仅激活 17B，支持 100 万 token 上下文与多模态输入。vLLM 在发布首日即完成适配，通过内核融合与投机解码优化，在 GB200 四卡上实现单用户 630 TPS。Arena.ai 数据显示，其在 Agent Arena 取得 +2.9% 净提升，可控性提升 10.9% 为开放模型最高，单任务中位成本仅 0.26 美元；Code Arena WebDev 得分 1647，较前代提升 239 分。OpenRouter 和 OpenCode 平台限时免费开放，可接入 Claude Code 等智能体框架。
-
-这一开源举措标志着高效训练与推理技术的成熟，4-bit 训练大幅降低计算成本，而高性能与低成本优势可能重塑开源模型竞争格局，推动智能体应用普及。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter), Arena.ai (@arena), Rohan Paul (@rohanpaul_ai), vLLM 官方博客, OpenCode (@opencode)&lt;/p&gt;</description>
+行业影响方面，H3-Image 以开源权重和高吞吐、低延迟特性，显著降低了高质量 4K 图像生成的门槛，有望推动内容创作、电商、设计等领域的效率提升。同时，其跨平台快速适配（NVIDIA 与摩尔线程）显示出生态协同的成熟，为后续生图、生视频模型的 Day-0 支持建立基础，进一步加剧开源图像生成赛道的竞争。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;vLLM 官方博客, Arena.ai (@arena), IT之家 · 智能时代, 量子位官网, 机器之心 (微信公众号), Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 推出 Claude Meetings 测试版 可加入视频会议实时协作</title><link>https://todayforai.com/en/story/story-e1d5d6f7-e74</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e1d5d6f7-e74</guid>
 <pubDate>Sat, 14 Nov 2026 06:39:15 +0800</pubDate>
@@ -58,6 +50,14 @@ Inkling 2 Small 采用 MoE 架构，总参数 594B 但仅激活 17B，支持 100
 该功能面向 Team 与 Enterprise 套餐逐步开放，目前仅支持单一会议平台，其他平台即将支持。参会者可通过语音或聊天向 Claude 提问，并调用已连接工具。然而，有用户反馈 Claude 在客户会议中因将组织外参与者误判为外部访客而全程“划水”，暴露出 AI 代理在权限边界与业务语境理解上的设计缺陷。
 
 尽管存在初期问题，Claude Meetings 的推出仍显示了 AI 深入实时协作场景的趋势，有望提升会议效率与信息留存，但也对 AI 的安全策略与业务适应性提出了新挑战。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), Hacker News AI&lt;/p&gt;</description>
+</item>
+<item><title>Thinking Machines 开源 Inkling 2 Small 登顶美国开源模型</title><link>https://todayforai.com/en/story/story-4ac260ee-18f</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4ac260ee-18f</guid>
+<pubDate>Sat, 14 Nov 2026 07:32:05 +0800</pubDate>
+<description>&lt;p&gt;Thinking Machines Lab 以 Apache 2.0 协议开源了 594B 参数的 Inkling 2 Small 模型，该模型从预训练到强化学习全程采用原生 4-bit 前向传播训练，使预训练时间缩短 8%、RL 时间缩短 20%，效率损失仅约 2%。发布即登顶美国开源模型榜首，在 Agent Arena 和 Code Arena 中均表现亮眼。
+
+Inkling 2 Small 采用 MoE 架构，总参数 594B 但仅激活 17B，支持 100 万 token 上下文与多模态输入。vLLM 在发布首日即完成适配，通过内核融合与投机解码优化，在 GB200 四卡上实现单用户 630 TPS。Arena.ai 数据显示，其在 Agent Arena 取得 +2.9% 净提升，可控性提升 10.9% 为开放模型最高，单任务中位成本仅 0.26 美元；Code Arena WebDev 得分 1647，较前代提升 239 分。OpenRouter 和 OpenCode 平台限时免费开放，可接入 Claude Code 等智能体框架。
+
+这一开源举措标志着高效训练与推理技术的成熟，4-bit 训练大幅降低计算成本，而高性能与低成本优势可能重塑开源模型竞争格局，推动智能体应用普及。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter), Arena.ai (@arena), Rohan Paul (@rohanpaul_ai), vLLM 官方博客, OpenCode (@opencode)&lt;/p&gt;</description>
 </item>
 <item><title>研究称中国四家实验室模型使用被禁英伟达 Blackwell 芯片训练</title><link>https://todayforai.com/en/story/story-3a8c7475-b84</link><guid isPermaLink="true">https://todayforai.com/en/story/story-3a8c7475-b84</guid>
 <pubDate>Sat, 14 Nov 2026 02:40:30 +0800</pubDate>
