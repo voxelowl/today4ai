@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 15 Nov 2026 00:27:14 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 15 Nov 2026 00:48:01 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Gemini 4 Carbon Tops MathArena but Costs 15 Times More Than GPT-6.1 Sol</title><link>https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/</link><guid isPermaLink="true">https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/</guid>
+<pubDate>Sun, 15 Nov 2026 00:48:01 +0800</pubDate>
+<description>&lt;p&gt;Google&amp;#x27;s Gemini 4 Carbon has become the first non-OpenAI model in a while to top the MathArena math benchmark, displacing GPT-6.1 Sol, with Anthropic&amp;#x27;s Claude Fable 5.2 taking second place. However, its evaluation cost runs roughly 15 times that of GPT-6.1 Sol, and its most common failure mode is exceeding the time limit while almost never abandoning a task. The best open model, Moonshot AI&amp;#x27;s Kimi K3.1 Pro, trails at 54.3%.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Gemini 4 Carbon 登顶 MathArena 但成本高 15 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部模型在权威数学基准上的排名更替叠加显著成本差异，是评估模型选型的重要信号。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/">The Decoder</source>
+<category>大模型</category>
+<category>基准评测</category>
+<category>谷歌</category>
+<category>Anthropic</category>
+</item>
+<item><title>Anthropic Says Outdated Prompting Habits Slow Down Claude Opus 5.5</title><link>https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/</link><guid isPermaLink="true">https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/</guid>
+<pubDate>Sun, 15 Nov 2026 00:42:56 +0800</pubDate>
+<description>&lt;p&gt;Anthropic says Claude Opus 5.5, now the default model on Pro, Max, Ultra and Team plans, is being held back by prompting habits carried over from older generations. The company advises removing phrases like \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 称过时提示习惯拖慢 Claude Opus 5.5&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;官方针对新默认模型的提示实践给出可操作建议，对日常使用 Claude 的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 62/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/">The Decoder</source>
+<category>大模型</category>
+<category>Anthropic</category>
+<category>提示工程</category>
+<category>Claude Opus 5.5</category>
+</item>
 <item><title>Musk Says Nvidia Supply Deals Rely on Jensen Huang&#x27;s Personal Ties</title><link>https://x.com/rohanpaul_ai/status/2121641114470166784</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121641114470166784</guid>
 <pubDate>Sun, 15 Nov 2026 00:27:14 +0800</pubDate>
 <description>&lt;p&gt;Elon Musk argued that many of Nvidia&amp;#x27;s critical supply-chain agreements rest on handshake deals with Jensen Huang rather than written contracts, warning that some could be lost without him. The remark frames Nvidia&amp;#x27;s moat as founder-level personal trust rather than institutional lock-in, sparking debate over the durability of AI compute supply chains.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;马斯克称英伟达供应链依赖黄仁勋个人关系&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及英伟达算力供应链的治理结构与关键人风险，对关注 AI 基础设施的读者有参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 38/100&lt;/p&gt;</description>
@@ -10,6 +28,15 @@
 <category>英伟达</category>
 <category>供应链</category>
 <category>算力基础设施</category>
+</item>
+<item><title>Cloud Fragility Exposed as Engineers Quietly Return to Bare Metal</title><link>https://soargram.io/content/369523282</link><guid isPermaLink="true">https://soargram.io/content/369523282</guid>
+<pubDate>Sun, 15 Nov 2026 00:10:57 +0800</pubDate>
+<description>&lt;p&gt;The piece argues the cloud is not an abstract, weightless place but a physical building with walls, cooling pipes and power cables. A single overheated AWS data center last May took down Coinbase, and a one-character typo in a Cloudflare script made thousands of sites invisible, exposing the fragility of concentrating the web on a few hyperscalers. The author contends the industry is now paying for that centralization, with seasoned engineers quietly moving back to bare metal.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;云基础设施脆弱性暴露 工程师回归裸金属&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以具体事故案例剖析云集中化的系统性风险与裸金属回归趋势，对基础设施读者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 58/100&lt;/p&gt;</description>
+<source url="https://soargram.io/content/369523282">Hacker News AI</source>
+<category>云计算</category>
+<category>基础设施</category>
+<category>系统韧性</category>
+<category>AWS</category>
 </item>
 <item><title>Goal Engineering Emerges as Core Discipline for Autonomous Agents</title><link>https://www.langchain.com/blog/goal-engineering</link><guid isPermaLink="true">https://www.langchain.com/blog/goal-engineering</guid>
 <pubDate>Sun, 15 Nov 2026 00:00:01 +0800</pubDate>
@@ -37,6 +64,16 @@
 <category>供应链安全</category>
 <category>Python</category>
 <category>PyPI</category>
+</item>
+<item><title>Developer Rebuilds DeepSeek V3 in 190 Lines of Pure JAX</title><link>https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax</link><guid isPermaLink="true">https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax</guid>
+<pubDate>Sat, 14 Nov 2026 23:04:15 +0800</pubDate>
+<description>&lt;p&gt;A developer released an open-source project that reimplements the DeepSeek V3 architecture from scratch in roughly 190 lines of pure JAX, covering Multi-head Latent Attention, decoupled RoPE, DeepSeekMoE and auxiliary-loss-free load balancing, and pretrains it on a MacBook Air. With no Flax, Equinox or PyTorch dependency and parameters as plain dicts of arrays, the code is readable top to bottom, making it a high-value reference for understanding frontier MoE architectures.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;开发者用 190 行纯 JAX 复现 DeepSeek V3&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以极简纯 JAX 代码复现前沿 MoE 大模型架构，对理解 MLA 与专家路由等核心机制有直接学习价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 72/100&lt;/p&gt;</description>
+<source url="https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax">Hacker News AI</source>
+<category>DeepSeek V3</category>
+<category>JAX</category>
+<category>开源项目</category>
+<category>MoE</category>
+<category>MLA</category>
 </item>
 <item><title>Ex-OpenAI Board Member Helen Toner Says AI CEOs Still Can&#x27;t Be Trusted</title><link>https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview</link><guid isPermaLink="true">https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview</guid>
 <pubDate>Sat, 14 Nov 2026 23:00:00 +0800</pubDate>
@@ -190,35 +227,35 @@
 <category>供应链攻击</category>
 <category>AI 编程工具</category>
 </item>
-<item><title>First US AI Music Awards Crown Virtual Artist Xania Monet</title><link>https://www.ithome.com/1/027/210.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/210.htm</guid>
+<item><title>美国首届 AI 音乐奖颁奖 虚拟歌手包揽三项大奖</title><link>https://www.ithome.com/1/027/210.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/210.htm</guid>
 <pubDate>Sat, 14 Nov 2026 18:22:58 +0800</pubDate>
-<description>&lt;p&gt;The first US AI Music Awards took place in Los Angeles, with virtual artist Xania Monet sweeping Artist, Song and Album of the Year; her track &amp;#x27;How Was I Supposed to Know?&amp;#x27; became the first AI-artist song to enter Billboard&amp;#x27;s radio airplay chart. Nominees stressed that lyrics and prompt tuning are human-driven, arguing AI music should be treated as a new genre.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美国首届 AI 音乐奖颁奖 虚拟歌手包揽三项大奖&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 生成内容进入主流音乐产业与榜单体系的标志性事件，涉及版权争议与创作范式讨论。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;美国首届 AI 音乐奖在洛杉矶举行，虚拟歌手 Xania Monet 包揽年度艺人、年度歌曲与年度专辑三项大奖，其作品《How Was I Supposed to Know?》成为首支进入公告牌电台榜的 AI 艺人歌曲。入围者强调歌词与提示词调校均由真人完成，主张将 AI 音乐视为一种新的音乐类型。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 生成内容进入主流音乐产业与榜单体系的标志性事件，涉及版权争议与创作范式讨论。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/027/210.htm">IT之家 · 智能时代</source>
 <category>AI 音乐</category>
 <category>生成式 AI</category>
 <category>产业动态</category>
 </item>
-<item><title>Nvidia Staff Petition for Jensen Huang Return as 60,000 Sign On</title><link>https://www.qbitai.com/2026/11/510297.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/510297.html</guid>
+<item><title>英伟达员工请愿要求黄仁勋回归 6 万人联署</title><link>https://www.qbitai.com/2026/11/510297.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/510297.html</guid>
 <pubDate>Sat, 14 Nov 2026 18:08:08 +0800</pubDate>
-<description>&lt;p&gt;Nvidia&amp;#x27;s board abruptly announced Jensen Huang&amp;#x27;s resignation as CEO and director, naming CFO Colette Kress interim chief while reportedly approaching Arm CEO Rene Haas as a potential successor. A \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达员工请愿要求黄仁勋回归 6 万人联署&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达最高层突发变动叠加员工与硅谷大规模声援，直接牵动全球 AI 算力核心供应商的走向。&lt;/p&gt;&lt;p&gt;量子位官网 · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;英伟达董事会突然宣布黄仁勋辞去 CEO 及董事职务，由 CFO Colette Kress 暂代，并已接触 Arm CEO Rene Haas 作为潜在继任者。公司内外随即发起“33 Years Deserve an Answer”请愿，要求恢复其职务并公开调查框架，已有超 6 万人签署，马斯克亦公开支持。事件已从公司治理争议演变为硅谷广泛关注的领导权博弈。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达最高层突发变动叠加员工与硅谷大规模声援，直接牵动全球 AI 算力核心供应商的走向。&lt;/p&gt;&lt;p&gt;量子位官网 · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.qbitai.com/2026/11/510297.html">量子位官网</source>
 <category>英伟达</category>
 <category>公司治理</category>
 <category>人事变动</category>
 <category>AI 算力</category>
 </item>
-<item><title>Cloudflare Open-Sources Kitesurf Agent Browser With Lower Resource Use Than Chromium</title><link>https://www.ithome.com/1/027/197.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/197.htm</guid>
+<item><title>Cloudflare 开源智能体浏览器 Kitesurf 资源消耗低于 Chromium</title><link>https://www.ithome.com/1/027/197.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/197.htm</guid>
 <pubDate>Sat, 14 Nov 2026 18:06:01 +0800</pubDate>
-<description>&lt;p&gt;Cloudflare open-sourced Kitesurf on November 13, a browser built specifically for AI agents that runs on Cloudflare Workers and handles HTML parsing, CSS application, JavaScript execution and page screenshots without any Chromium process or container. Cloudflare says it targets agent-centric metrics such as token consumption, context window, scalability and cost, and consumes significantly less CPU and memory than Chromium on tasks like screenshots and HTML extraction, enabling higher-concurrency agent workloads.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Cloudflare 开源智能体浏览器 Kitesurf 资源消耗低于 Chromium&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流云厂商开源面向智能体的轻量浏览器引擎，直接降低网页自动化智能体的算力与成本门槛。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Cloudflare 于 11 月 13 日宣布开源专为 AI 智能体设计的浏览器 Kitesurf，它运行在 Cloudflare Workers 之上，无需 Chromium 进程或容器即可完成 HTML 解析、CSS 应用、JavaScript 执行与网页截图。官方称其聚焦 Token 消耗、上下文窗口、可扩展性与成本等智能体核心指标，在截图与 HTML 提取等任务中 CPU 与内存占用显著低于 Chromium，可支撑更高并发的智能体负载。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流云厂商开源面向智能体的轻量浏览器引擎，直接降低网页自动化智能体的算力与成本门槛。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/027/197.htm">IT之家 · 智能时代</source>
 <category>智能体</category>
 <category>开源</category>
 <category>Cloudflare</category>
 <category>浏览器自动化</category>
 </item>
-<item><title>Stanford-led Team Launches SPU Benchmark with 4,207 Wet-Lab Tests</title><link>https://www.qbitai.com/2026/11/510232.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/510232.html</guid>
+<item><title>斯坦福等发布 SPU 基准 4207 个湿实验考验 AI 预测</title><link>https://www.qbitai.com/2026/11/510232.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/510232.html</guid>
 <pubDate>Sat, 14 Nov 2026 17:58:22 +0800</pubDate>
-<description>&lt;p&gt;UniPat AI, together with Stanford, Harvard, Cornell and over ten other institutions, released Science Prediction Universe (SPU), a benchmark of 116 tasks and 4,207 real wet-lab experiments that tests whether AI can predict experimental outcomes before they are run. Models were given an H20 GPU and an 8-hour workday to autonomously use retrieval and compute resources, yet even Opus 5.5 and GPT-6 Astra remained far from usable predictive accuracy, and a 5x compute increase did not help. The benchmark turns hard-to-quantify scientific judgment into a measurable, comparable score.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;斯坦福等发布 SPU 基准 4207 个湿实验考验 AI 预测&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个以真实湿实验结果为标尺的科研预测基准，揭示顶尖模型在科研判断上的真实差距。&lt;/p&gt;&lt;p&gt;量子位官网 · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;UniPat AI 联合斯坦福、哈佛、康奈尔等十余家机构推出 Science Prediction Universe（SPU）基准，用 116 个任务、4207 个真实湿实验检验 AI 对实验结果的前瞻预测能力。测试中模型配备 H20 算力、以 8 小时工作制自主调用检索与计算资源，但包括 Opus 5.5、GPT-6 Astra 在内的顶尖模型仍远未达到可用预测水平，算力翻 5 倍也无济于事。该基准首次把难以量化的科研判断力转化为可统一评估的数值。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个以真实湿实验结果为标尺的科研预测基准，揭示顶尖模型在科研判断上的真实差距。&lt;/p&gt;&lt;p&gt;量子位官网 · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.qbitai.com/2026/11/510232.html">量子位官网</source>
 <category>AI for Science</category>
 <category>基准测试</category>
@@ -233,42 +270,6 @@
 <category>开源模型</category>
 <category>机器人控制</category>
 <category>Runway</category>
-</item>
-<item><title>联想发布混合词元工厂 年产 2000 万亿 Token</title><link>https://www.qbitai.com/2026/11/510094.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/510094.html</guid>
-<pubDate>Sat, 14 Nov 2026 17:41:02 +0800</pubDate>
-<description>&lt;p&gt;联想集团在河北张家口发布“万全混合词元工厂”品牌，规划 15000P 超节点集群，宣称年产 2000 万亿 Token、成本降低 70%，以“绿电进、词元出”的工业化模式整合异构算力与模型，输出按需计费的 Token 服务。该方案试图回应企业 Token 支出高企、算力利用率低与敏感业务私有化部署的矛盾，但具体调度架构、模型清单与计费细则尚未公开。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;算力基础设施从卖硬件转向工业化量产 Token 的新范式，值得关注其后续落地细节。&lt;/p&gt;&lt;p&gt;量子位官网 · compute · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.qbitai.com/2026/11/510094.html">量子位官网</source>
-<category>算力基础设施</category>
-<category>联想</category>
-<category>Token 经济</category>
-<category>绿色数据中心</category>
-</item>
-<item><title>黄仁勋离任英伟达 CEO 华尔街押注 AI 投资热潮延续</title><link>https://www.ithome.com/1/027/184.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/184.htm</guid>
-<pubDate>Sat, 14 Nov 2026 17:19:02 +0800</pubDate>
-<description>&lt;p&gt;黄仁勋离任英伟达 CEO 引发股价一度暴跌 14%，但华尔街主流观点认为 AI 投资热潮不会因此逆转，博通与 AMD 被视为潜在受益者。分析师强调 AI 算力需求与超大规模云厂商至 2027 年的投资承诺构成短期支撑，但黄仁勋主导的产业链循环投资关系可能面临松动。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达最高层变动是 AI 算力产业链的标志性事件，直接影响投资格局与竞争版图判断。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/184.htm">IT之家 · IT业界</source>
-<category>英伟达</category>
-<category>AI 投资</category>
-<category>算力</category>
-<category>半导体</category>
-</item>
-<item><title>OpenAI 解散机器人团队 并入核心研究</title><link>https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652743065&amp;idx=1&amp;sn=11f32c30c2973ae0fa2cd69f2ca6427b</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652743065&amp;idx=1&amp;sn=11f32c30c2973ae0fa2cd69f2ca6427b</guid>
-<pubDate>Sat, 14 Nov 2026 17:06:00 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 在奥斯汀 CoRL 大会期间解散了机器人团队，距奥特曼 5 月公开招人仅五个月；原团队并入核心研究并向 Mark Chen 汇报，应用机器人与硬件业务由总裁 Greg Brockman 接管。报道将此举归因于 GPT-6 Astra 已能充当通用机器人大脑，但正文对 Astra 的能力仅有定性描述，缺乏可验证参数。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;OpenAI 组织架构重大调整，涉及机器人战略与基础模型分工，值得关注但细节与证据偏弱。&lt;/p&gt;&lt;p&gt;新智元 (微信公众号) · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652743065&amp;idx=1&amp;sn=11f32c30c2973ae0fa2cd69f2ca6427b">新智元 (微信公众号)</source>
-<category>OpenAI</category>
-<category>机器人</category>
-<category>组织调整</category>
-<category>GPT-6 Astra</category>
-</item>
-<item><title>南开团队提出 AI4AI 综述与 L0-L3 研究控制权框架</title><link>https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652743065&amp;idx=3&amp;sn=601af731d91f082037d24665847a7795</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652743065&amp;idx=3&amp;sn=601af731d91f082037d24665847a7795</guid>
-<pubDate>Sat, 14 Nov 2026 17:06:00 +0800</pubDate>
-<description>&lt;p&gt;南开大学与中关村学院联合发布综述，将 AI 自主研究拆解为搜索方向、搜索空间与评价信号三项关键决策，并据此提出 L0-L3 控制来源分级框架。该框架用于衡量 AI 在研究中究竟掌握多少决策权，而非仅执行人类预设的实验流程。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为理解 AI 自主科研提供可操作的控制权分级视角，适合关注智能体与 AI4Science 的读者。&lt;/p&gt;&lt;p&gt;新智元 (微信公众号) · agent · signal 62/100&lt;/p&gt;</description>
-<source url="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652743065&amp;idx=3&amp;sn=601af731d91f082037d24665847a7795">新智元 (微信公众号)</source>
-<category>AI4AI</category>
-<category>智能体</category>
-<category>学术综述</category>
-<category>自主科研</category>
 </item>
 </channel>
 </rss>
