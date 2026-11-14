@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Sat, 14 Nov 2026 21:20:43 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 14 Nov 2026 21:27:39 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Fable 5.2 登顶 Agent Arena，Gemini 4 Hydrogen 提速</title><link>https://todayforai.com/en/story/story-dc8382a0-0bf</link><guid isPermaLink="true">https://todayforai.com/en/story/story-dc8382a0-0bf</guid>
 <pubDate>Sat, 14 Nov 2026 04:45:33 +0800</pubDate>
@@ -13,7 +13,7 @@
 
 综合各信源，黄仁勋长期回避继任规划，约 60 名高管直接向其汇报，公司无明确二号人物。临时接任的克雷斯将在下周二财报会上说明短期安排，原定 11 月 17 日发布的第三季度财报维持原计划。新任 CEO 将接手约 1000 亿美元对外投资组合，包括拟以 129 亿美元收购 Hugging Face 的交易，该交易正面临美国司法部竞争问询。
 
-此次人事地震冲击全球 AI 算力供应链，英伟达预期市盈率降至 12 倍，为 2012 年以来最低。CoreWeave、Nebius 等算力租赁商股价承压，AMD 与博通则逆势上涨，投资者押注竞争格局生变。Hugging Face CEO 德朗格公开表达惋惜，并承诺更坚定捍卫开源 AI。事件暴露了英伟达以芯片供应叠加基础设施融资的循环模式风险，整个 AI 产业链面临重新定价。&lt;/p&gt;&lt;p&gt;9 sources&lt;/p&gt;&lt;p&gt;Latent Space, IT之家 · 智能时代, TechCrunch AI, 宝玉 (@dotey), 量子位官网, The Decoder&lt;/p&gt;</description>
+此次人事地震冲击全球 AI 算力供应链，英伟达预期市盈率降至 12 倍，为 2012 年以来最低。CoreWeave、Nebius 等算力租赁商股价承压，AMD 与博通则逆势上涨，投资者押注竞争格局生变。Hugging Face CEO 德朗格公开表达惋惜，并承诺更坚定捍卫开源 AI。事件暴露了英伟达以芯片供应叠加基础设施融资的循环模式风险，整个 AI 产业链面临重新定价。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;Latent Space, IT之家 · 智能时代, TechCrunch AI, 宝玉 (@dotey), 量子位官网, The Decoder&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 联合三大卡组织推出 ChatGPT 钱包 智能体可代付</title><link>https://todayforai.com/en/story/story-a13f7ac4-a82</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a13f7ac4-a82</guid>
 <pubDate>Sat, 14 Nov 2026 04:45:10 +0800</pubDate>
@@ -34,6 +34,14 @@ ChatGPT Wallet 的核心安全机制在于令牌化支付：OpenAI 与美国运�
 Claude Sheets 支持自然语言生成含公式与多标签的可协作表格，Claude Data 可连接 Snowflake、Salesforce 等数据源自动刷新仪表盘，Whiteboards 则能将讨论自动转为带时间线与负责人的看板。三款工具共享上下文，实现从白板到表格再到看板的无缝流转。同时推出的 Interactive Connectors 让 Adobe、Atlassian、Box 等第三方应用以完整形态嵌入 Claude，用户无需切换标签即可编辑或委托修改。企业客户还可获得审计日志、隔离虚拟机与合规 API 等安全管控。
 
 此举标志着 Anthropic 从编程工具市场向企业办公入口延伸，直接挑战 Microsoft 365 与 Google Workspace。消息公布后微软股价一度下跌超 3.5%，反映出市场对 AI 原生办公套件冲击传统软件巨头的担忧。分析认为，Claude 将协作能力下放至最便宜的 Pro 套餐，降低了使用门槛，可能加速 AI 办公套件的普及，并推动人机协作模式…&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), The Decoder, InfoQ 中文, Hacker News AI, The Verge AI, TechCrunch AI&lt;/p&gt;</description>
+</item>
+<item><title>Perplexity 开源 Decider v1.3 决策模型 支持精准文本片段抽取</title><link>https://todayforai.com/en/story/story-ad6cd1ef-769</link><guid isPermaLink="true">https://todayforai.com/en/story/story-ad6cd1ef-769</guid>
+<pubDate>Sat, 14 Nov 2026 21:27:39 +0800</pubDate>
+<description>&lt;p&gt;Perplexity 正式开源两款决策模型 Decider v1.3 与 Decider Flash v1.3，核心能力从单一标签分类升级为返回带起止字符偏移的精确文本片段，标志着决策模型从“分类器”向“定位器”的范式跃迁。模型基于 Qwen3.8-27B 与 Qwen3.5-4B 构建，采用 Apache 2.0 许可，API 输入定价低至每百万 token 0.02 与 0.01 美元，大幅降低了结构化信息抽取的部署门槛。
+
+在 17 项域外 NER、PII 与抽取式问答任务上，v1.3 平均得分 69.0、Flash 63.6，显著高于 Liquid d1 的 43.3 与 GLiNER large v2.5 的 33.6；查询分类在 63 项任务上达 91.6%，答案翻转率仅 0.27%。Artificial Analysis Decision Index v2.1 显示，v1.3 得分 70 维持第 6 位，Flash 得分 64 升至第 10 位，且在 AA-Symmetry 与 When2Call 上各提升 12 分。不过 Flash 在金融、编程与法律领域落后于 Jev 1.14，且全部指标为厂商自报，仍需独立验证。
+
+此次开源将高精度片段抽取能力下沉至开放权重模型，直接冲击 GLiNER 等传统 NER 方案，并为 RAG 管道、隐私过滤与智能体决策提供低成本、可自托管的替代路径。Perplexity 以极低 API 定价与宽松许可加速生态渗透，决策模型赛道的竞争焦点正从参数规模转向“定位精度与调用成本”的务实比拼。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost), Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
 </item>
 <item><title>谷歌多智能体 Teamwork 完成韦伊猜想形式化证明</title><link>https://todayforai.com/en/story/story-e8a175f9-12c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e8a175f9-12c</guid>
 <pubDate>Sat, 14 Nov 2026 21:20:43 +0800</pubDate>
@@ -66,14 +74,6 @@ Teamwork 采用专业智能体并行求解加独立质疑者与审查者的架�
 相比 10 月需自行串联工具调用的 Search/Fetch 接口，新接口由模型自动完成搜索决策与多步衔接，服务端自动完成工具调用与上下文拼接。V4.1-Flash 模型在 Messages、Responses 与 Chat Completions 接口下支持联网搜索、深度思考搜索、文件输入、链接阅读与安全校验。Search、Fetch、OCR、ASR、TTS 均可作为独立接口单独调用，便于接入自有工作流。工具调用按次计费，如搜索 5 元/千次。
 
 此次开放标志着 DeepSeek 从模型提供商向应用平台演进，开发者可快速构建具备完整对话能力的 AI 应用，降低开发门槛。语音能力的开放补齐了多模态交互短板，开源前端 Demo 进一步加速生态建设，预计将吸引大量开发者基于 DeepSeek 构建垂直应用，推动 AI 应用生态繁荣。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;量子位官网, IT之家 · 智能时代, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
-</item>
-<item><title>Anthropic 启动 IPO 路演 最高募资 904 亿美元</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
-<pubDate>Sat, 14 Nov 2026 07:39:27 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 正式启动首次公开募股路演，计划以每股 70 至 78 美元发行 8.25 亿股 A 类普通股，基础募资规模最高约 643.5 亿美元，并以代码 ANT 登陆纳斯达克。若计入向谷歌、英伟达、微软、台积电等七家巨头定向私募配售的 260 亿美元 N 类普通股，合计融资规模最高可达 904 亿美元，完全稀释估值约 1.4 万亿美元，成为 AI 行业迄今规模最大的资本事件。
-
-多方信源交叉验证显示，此次 IPO 呈现显著的结构性特征。一方面，老股东仅出售约 2360 万股，绝大部分资金流入公司而非早期投资人套现；另一方面，七位创始人通过持有 Class F 股锁定 50.1% 投票权，公开市场投资者几乎无法影响公司控制权。财务数据方面，公司前九月营收 332.4 亿美元，同比增长约 1200%，但净亏损达 1040 亿美元，主要来自可转换票据公允价值变动。此外，Anthropic 同步披露与微软、谷歌新增逾 100 亿美元算力采购承诺，合同总额分别升至 472 亿至 492 亿美元和约 1213 亿美元，均延续至 2033 年且为照付不议。
-
-这场 IPO 被视为对 AI 产业估值逻辑的关键检验。受科技股回调与中期选举后市场对 AI 基建投资情绪转冷影响，估值预期从传闻的 1.5 万亿美元下修至 1.1 万亿至 1.3 万亿美元区间，但仍高于 OpenAI 上周 1.25 万亿美元的私募估值。若发行成功，Anthropic 将成为首家登陆公开资本市场的前沿大模型公司，为后续 AI 企业上市定价提供锚点，同时也将考验公开市场对高增长、高亏损 AI 商业模式的接受程度。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, Anthropic News, Anthropic AI (@AnthropicAI), The Decoder, 宝玉 (@dotey), 新智元 (微信公众号)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
