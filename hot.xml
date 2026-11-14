@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Sat, 14 Nov 2026 08:14:06 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 14 Nov 2026 10:28:29 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>谷歌发布 Gemini 4 Hydrogen 百万上下文定价 1.5 美元</title><link>https://todayforai.com/en/story/story-23e7bc49-744</link><guid isPermaLink="true">https://todayforai.com/en/story/story-23e7bc49-744</guid>
 <pubDate>Fri, 13 Nov 2026 17:52:26 +0800</pubDate>
@@ -51,6 +51,14 @@ Claude Sheets 支持自然语言生成含公式与多标签的可协作表格，
 
 此举标志着 Anthropic 从编程工具市场向企业办公入口延伸，直接挑战 Microsoft 365 与 Google Workspace。消息公布后微软股价一度下跌超 3.5%，反映出市场对 AI 原生办公套件冲击传统软件巨头的担忧。分析认为，Claude 将协作能力下放至最便宜的 Pro 套餐，降低了使用门槛，可能加速 AI 办公套件的普及，并推动人机协作模式…&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;InfoQ 中文, Hacker News AI, The Verge AI, TechCrunch AI, 宝玉 (@dotey), IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
+<item><title>llama.cpp 发布 v1.0.0 本地推理生态确立稳定基线</title><link>https://todayforai.com/en/story/story-21ace097-fe1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-21ace097-fe1</guid>
+<pubDate>Sat, 14 Nov 2026 10:28:29 +0800</pubDate>
+<description>&lt;p&gt;llama.cpp 项目在启动 3.5 年后正式发布 v1.0.0 稳定版本，同时底层张量库 ggml 也同步进入 1.0.0 阶段。这标志着本地与私有化 AI 推理生态首次拥有了语义化版本管理的核心底座，开发者从此可以依赖明确的 API 破坏性变更边界进行长期维护。
+
+综合多方信源，v1.0.0 首次确立了 MAJOR/MINOR/PATCH 版本规则，主版本号升级即代表公共 C API 或 ABI 不兼容变更。项目已支持超过 150 种模型架构变体与主流推测解码方法，覆盖从消费级设备到企业服务器的多模态推理场景。ggml 作为无依赖纯 C/C++ 张量库，支持 x86、ARM、RISC-V 等多架构，提供 2 至 8 位整数量化及 MXFP4、NVFP4 微缩放格式，且运行时零内存分配。CI 基础设施已扩展至 Hugging Face HF Buckets/HF Jobs 与英伟达、AMD、高通、Arm、IBM、英特尔六大芯片厂商的自托管测试运行器，显著提升了跨平台兼容性验证的可靠性。
+
+对本地推理与端侧部署开发者而言，v1.0.0 是生态稳定性的关键信号。它降低了企业自托管 AI 的长期维护风险，为私有化部署提供了可预期的升级路径，并进一步巩固了 llama.cpp 作为开源本地推理事实标准的地位。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Hugging Face Blog, IT之家 · 智能时代, Hacker News AI&lt;/p&gt;</description>
+</item>
 <item><title>Thinking Machines 开源 Inkling 2 Small 登顶美国开源模型</title><link>https://todayforai.com/en/story/story-4ac260ee-18f</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4ac260ee-18f</guid>
 <pubDate>Sat, 14 Nov 2026 07:32:05 +0800</pubDate>
 <description>&lt;p&gt;Thinking Machines Lab 以 Apache 2.0 协议开源了 594B 参数的 Inkling 2 Small 模型，该模型从预训练到强化学习全程采用原生 4-bit 前向传播训练，使预训练时间缩短 8%、RL 时间缩短 20%，效率损失仅约 2%。发布即登顶美国开源模型榜首，在 Agent Arena 和 Code Arena 中均表现亮眼。
@@ -70,14 +78,6 @@ Inkling 2 Small 采用 MoE 架构，总参数 594B 但仅激活 17B，支持 100
 <item><title>Artificial Analysis 发布编程智能体指数 v2.1</title><link>https://todayforai.com/en/story/story-af463d80-b45</link><guid isPermaLink="true">https://todayforai.com/en/story/story-af463d80-b45</guid>
 <pubDate>Sat, 14 Nov 2026 08:04:35 +0800</pubDate>
 <description>&lt;p&gt;Artificial Analysis 发布 Coding Agent Index v2.1，将 FrontierCode 升级至 2.0、Terminal-Bench 升级至 4.1，并强化验证器以抵御奖励攻击。Claude Fable 5.2 与 Claude Opus 5.5 以 58 分并列榜首，但同分档配置的单任务成本相差约 30 倍，从 1.51 美元到 44.22 美元。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
-</item>
-<item><title>llama.cpp 发布 v1.0.0 本地推理生态确立稳定基线</title><link>https://todayforai.com/en/story/story-21ace097-fe1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-21ace097-fe1</guid>
-<pubDate>Sat, 14 Nov 2026 08:14:06 +0800</pubDate>
-<description>&lt;p&gt;llama.cpp 项目在启动 3.5 年后正式发布 v1.0.0 稳定版本，同时底层张量库 ggml 也同步升级至 1.0.0。这标志着本地与私有化 AI 推理生态的关键底座首次确立了语义化版本规则（MAJOR/MINOR/PATCH），并明确公共 C API 的破坏性变更边界，为开发者提供了长期稳定的接口预期。
-
-技术层面，llama.cpp 已支持超过 150 种模型架构变体与主流推测解码方法，凭借量化、优化后端与可移植 C/C++ 实现，可在消费级设备到企业服务器上运行多模态大模型。其 CI 基础设施扩展至 Hugging Face HF Buckets/HF Jobs 以及英伟达、AMD、高通、Arm、IBM、英特尔六大芯片厂商的自托管测试运行器，显著提升了跨平台兼容性与可靠性验证。
-
-此次版本发布对本地 AI 推理赛道具有里程碑意义。稳定的版本基线与明确的 API 边界将降低企业自托管与边缘部署的维护成本，吸引更多开发者基于 llama.cpp 构建私有化应用，进一步巩固其作为开源推理引擎事实标准的地位，并推动多模态大模型在终端侧的普及。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hugging Face Blog, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
