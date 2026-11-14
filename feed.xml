@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 15 Nov 2026 01:51:13 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 15 Nov 2026 03:05:17 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Anthropic CEO Flags Huge Compute Bet Uncertainty Ahead of Record IPO</title><link>https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/</link><guid isPermaLink="true">https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/</guid>
+<pubDate>Sun, 15 Nov 2026 03:05:17 +0800</pubDate>
+<description>&lt;p&gt;Days before what could be the largest IPO in history, Anthropic CEO Dario Amodei publicly named compute procurement as his company&amp;#x27;s deepest business dilemma: capacity must be locked in one to two years before anyone knows whether revenue will justify the cost. Bloomberg puts Anthropic&amp;#x27;s total commitments at nearly $901 billion, mostly tied to compute and chips, with roughly $71 billion due by September 2027 alone, and the IPO is designed to build a cash buffer against a potential spending-revenue mismatch.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic IPO 前夜 CEO 坦言算力投入存巨大不确定性&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 实验室在史上最大 IPO 前夜罕见公开承认算力投入的期限错配风险，是观察 AI 商业模式可持续性的关键信号。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 78/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/">The Decoder</source>
+<category>Anthropic</category>
+<category>IPO</category>
+<category>算力</category>
+<category>商业模式</category>
+</item>
+<item><title>Weak AI Models Can Grade Steps to Train Stronger Agents, Zhejiang University Finds</title><link>https://x.com/rohanpaul_ai/status/2121679426194718837</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121679426194718837</guid>
+<pubDate>Sun, 15 Nov 2026 02:59:28 +0800</pubDate>
+<description>&lt;p&gt;A new Zhejiang University paper shows that a decision model, JEV, which completes only 42.9% of ALFWorld tasks on its own, can still act as a step-level grader and lift another agent&amp;#x27;s success rate from 72.8% to 82.9%. The grader reviews a full trajectory after the attempt and its per-action scores are folded into GRPO training, sidestepping the uniform credit assignment of outcome-only rewards and the cost of per-environment labels or per-action LLM judges. The authors argue step graders should be selected by how well they judge recorded runs, not by how well they act.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;浙大研究：弱模型可当裁判训练出更强智能体&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出“弱执行者、强裁判”的步骤级奖励新范式，为智能体强化学习提供了低成本可复用的训练路径。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 71/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2121679426194718837">Rohan Paul (@rohanpaul_ai)</source>
+<category>智能体</category>
+<category>强化学习</category>
+<category>GRPO</category>
+<category>浙江大学</category>
+<category>论文</category>
+</item>
 <item><title>Claude Deletes Law Professor&#x27;s Year of Notes and Syllabus</title><link>https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits</link><guid isPermaLink="true">https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits</guid>
 <pubDate>Sun, 15 Nov 2026 01:51:13 +0800</pubDate>
 <description>&lt;p&gt;University of Chicago law professor William Baude asked Claude to renumber pages, a routine task, and the model instead deleted an entire year of Constitutional Law lecture notes plus his current syllabus; the files were later recovered via Dropbox. Baude shared the incident as a public service warning, highlighting permission boundaries and destructive-action risk when agents handle file operations.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Claude 误删法学教授整年讲义与教学大纲&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;真实用户案例揭示智能体执行文件操作时的破坏性风险，对使用 AI 处理重要文档的读者有直接警示价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 58/100&lt;/p&gt;</description>
@@ -207,9 +226,9 @@
 <category>公司治理</category>
 <category>人事变动</category>
 </item>
-<item><title>Claude and Arduino Help 32-Year-Old Jeep Pass Emissions Test</title><link>https://www.ithome.com/1/027/226.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/226.htm</guid>
+<item><title>Claude 与 Arduino 联手让 32 年老车通过排放检测</title><link>https://www.ithome.com/1/027/226.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/226.htm</guid>
 <pubDate>Sat, 14 Nov 2026 20:36:29 +0800</pubDate>
-<description>&lt;p&gt;US AI enthusiast Mohammad Zulali used Claude for diagnosis and Codex for coding, paired with a $3 Arduino Nano, to read data from the aging engine computer of a 1994 Jeep Cherokee and tune fuel parameters until the 32-year-old vehicle passed California emissions testing. Total electronics cost under $15, and the project is open-sourced as xj-scanner under GPLv3.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Claude 与 Arduino 联手让 32 年老车通过排放检测&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;一个具体可复现的 AI 辅助硬件逆向与诊断案例，展示了 LLM 在老旧系统改造中的实际价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;美国 AI 爱好者祖拉利借助 Claude 做诊断、Codex 写代码，配合一块 3 美元的 Arduino Nano 开发板，成功读取 1994 款 Jeep 切诺基的老式发动机电脑数据并调整燃油参数，让这辆 32 年车龄的老车通过加州尾气检测。全部电子元件成本不足 15 美元，相关项目已以 GPLv3 协议开源为 xj-scanner。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;一个具体可复现的 AI 辅助硬件逆向与诊断案例，展示了 LLM 在老旧系统改造中的实际价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/027/226.htm">IT之家 · 智能时代</source>
 <category>AI 编程</category>
 <category>Claude</category>
@@ -217,9 +236,9 @@
 <category>开源项目</category>
 <category>硬件逆向</category>
 </item>
-<item><title>Ex-Anthropic Researcher Says Retraining Mythos Now Needs Fraction of Original Compute</title><link>https://www.ithome.com/1/027/221.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/221.htm</guid>
+<item><title>前 Anthropic 研究员称重训 Mythos 算力需求骤降</title><link>https://www.ithome.com/1/027/221.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/221.htm</guid>
 <pubDate>Sat, 14 Nov 2026 19:45:39 +0800</pubDate>
-<description>&lt;p&gt;Former Anthropic researcher Jacob Coxon says a chart shown during Anthropic&amp;#x27;s IPO roadshow reveals super-exponential gains in algorithmic efficiency, meaning Mythos could now be retrained with a fraction of its original compute. He argues for a one-year pause on frontier model development to let competitors catch up.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;前 Anthropic 研究员称重训 Mythos 算力需求骤降&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自前沿实验室内部人士对算法效率超指数增长的判断，涉及训练算力经济学与研发节奏，值得关注。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;前 Anthropic 研究员雅各布·考克森称，Anthropic IPO 路演中一张展示训练算力需求变化的图表显示算法效率正超指数提升，如今重训 Mythos 只需最初一小部分算力。他据此主张明年暂停前沿模型研发，让竞争者追赶。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自前沿实验室内部人士对算法效率超指数增长的判断，涉及训练算力经济学与研发节奏，值得关注。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/027/221.htm">IT之家 · 智能时代</source>
 <category>算法效率</category>
 <category>Anthropic</category>
@@ -252,23 +271,6 @@
 <category>Cursor</category>
 <category>供应链攻击</category>
 <category>AI 编程工具</category>
-</item>
-<item><title>美国首届 AI 音乐奖颁奖 虚拟歌手包揽三项大奖</title><link>https://www.ithome.com/1/027/210.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/210.htm</guid>
-<pubDate>Sat, 14 Nov 2026 18:22:58 +0800</pubDate>
-<description>&lt;p&gt;美国首届 AI 音乐奖在洛杉矶举行，虚拟歌手 Xania Monet 包揽年度艺人、年度歌曲与年度专辑三项大奖，其作品《How Was I Supposed to Know?》成为首支进入公告牌电台榜的 AI 艺人歌曲。入围者强调歌词与提示词调校均由真人完成，主张将 AI 音乐视为一种新的音乐类型。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 生成内容进入主流音乐产业与榜单体系的标志性事件，涉及版权争议与创作范式讨论。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/210.htm">IT之家 · 智能时代</source>
-<category>AI 音乐</category>
-<category>生成式 AI</category>
-<category>产业动态</category>
-</item>
-<item><title>英伟达员工请愿要求黄仁勋回归 6 万人联署</title><link>https://www.qbitai.com/2026/11/510297.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/510297.html</guid>
-<pubDate>Sat, 14 Nov 2026 18:08:08 +0800</pubDate>
-<description>&lt;p&gt;英伟达董事会突然宣布黄仁勋辞去 CEO 及董事职务，由 CFO Colette Kress 暂代，并已接触 Arm CEO Rene Haas 作为潜在继任者。公司内外随即发起“33 Years Deserve an Answer”请愿，要求恢复其职务并公开调查框架，已有超 6 万人签署，马斯克亦公开支持。事件已从公司治理争议演变为硅谷广泛关注的领导权博弈。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达最高层突发变动叠加员工与硅谷大规模声援，直接牵动全球 AI 算力核心供应商的走向。&lt;/p&gt;&lt;p&gt;量子位官网 · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.qbitai.com/2026/11/510297.html">量子位官网</source>
-<category>英伟达</category>
-<category>公司治理</category>
-<category>人事变动</category>
-<category>AI 算力</category>
 </item>
 </channel>
 </rss>
