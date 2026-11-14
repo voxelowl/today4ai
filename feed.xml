@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 14 Nov 2026 18:52:39 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 14 Nov 2026 19:45:39 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Ex-Anthropic Researcher Says Retraining Mythos Now Needs Fraction of Original Compute</title><link>https://www.ithome.com/1/027/221.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/221.htm</guid>
+<pubDate>Sat, 14 Nov 2026 19:45:39 +0800</pubDate>
+<description>&lt;p&gt;Former Anthropic researcher Jacob Coxon says a chart shown during Anthropic&amp;#x27;s IPO roadshow reveals super-exponential gains in algorithmic efficiency, meaning Mythos could now be retrained with a fraction of its original compute. He argues for a one-year pause on frontier model development to let competitors catch up.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;前 Anthropic 研究员称重训 Mythos 算力需求骤降&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自前沿实验室内部人士对算法效率超指数增长的判断，涉及训练算力经济学与研发节奏，值得关注。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/027/221.htm">IT之家 · 智能时代</source>
+<category>算法效率</category>
+<category>Anthropic</category>
+<category>AI 安全</category>
+<category>算力</category>
+</item>
+<item><title>Ex-Anthropic Researcher Says Mythos Retraining Needs Far Less Compute</title><link>https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/</link><guid isPermaLink="true">https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/</guid>
+<pubDate>Sat, 14 Nov 2026 19:21:41 +0800</pubDate>
+<description>&lt;p&gt;Former Anthropic researcher Jacob Coxon says the company can already retrain its Mythos model with \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 前研究员称 Mythos 重训算力已大幅下降&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及前沿模型训练算力效率与 Anthropic IPO 披露，对关注 AI 成本曲线与产业动向的读者有参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/">The Decoder</source>
+<category>Anthropic</category>
+<category>算力效率</category>
+<category>IPO</category>
+<category>模型训练</category>
+</item>
 <item><title>Cursor Discloses Supply Chain Attack Affecting Up to 5,000 Users</title><link>https://www.ithome.com/1/027/215.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/215.htm</guid>
 <pubDate>Sat, 14 Nov 2026 18:52:39 +0800</pubDate>
 <description>&lt;p&gt;Cursor released its investigation into an October security incident in which attackers used leaked Fireworks keys to steal data from a shared storage bucket, then leveraged internal credentials to inject a tampered Claude Code extension into the Cursor marketplace. The malicious build stayed live for about 11 hours and affected up to 5,000 users; fewer than 0.05% of non-privacy-mode users had agent trace data exposed, and Cursor has notified affected customers and rotated credentials.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Cursor 披露供应链攻击调查结果 最多波及 5000 用户&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 编程工具首次公开的完整供应链攻击复盘，对依赖扩展生态的开发者具有直接的安全警示价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 72/100&lt;/p&gt;</description>
@@ -196,17 +214,17 @@
 <category>算力</category>
 <category>产业动态</category>
 </item>
-<item><title>Multi-Agent Orchestration Needs Main Session Plus Drill-Down Subtasks</title><link>https://x.com/dotey/status/2121434782433190063</link><guid isPermaLink="true">https://x.com/dotey/status/2121434782433190063</guid>
+<item><title>多智能体协作需主会话与子任务双层结合</title><link>https://x.com/dotey/status/2121434782433190063</link><guid isPermaLink="true">https://x.com/dotey/status/2121434782433190063</guid>
 <pubDate>Sat, 14 Nov 2026 10:47:21 +0800</pubDate>
-<description>&lt;p&gt;Baoyu critiques current AI coding agent session designs: single-main-session tools like Grokbot and Dots hide subtask execution details, while Claude Code&amp;#x27;s many-session model burdens users with tracking each session. He argues the ideal is a hybrid where users watch only the main conversation, an orchestrator routes messages and dispatches tasks, and users can drill into any task to intervene directly.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;多智能体协作需主会话与子任务双层结合&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;对智能体会话与任务编排交互范式提出有洞察力的产品设计思辨，对 Agent 工具开发者有参考价值。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · agent · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;宝玉针对当前 AI 编程智能体的会话管理提出批评：单一主会话（如 Grokbot、Dots）让子任务执行不透明，而 Claude Code 式的多 Session 又让人疲于记住每个会话在做什么。他主张理想形态是二者结合，人只盯主对话，由协调器判断消息归属并派发任务，同时允许随时点开具体任务进行干预。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;对智能体会话与任务编排交互范式提出有洞察力的产品设计思辨，对 Agent 工具开发者有参考价值。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · agent · signal 58/100&lt;/p&gt;</description>
 <source url="https://x.com/dotey/status/2121434782433190063">宝玉 (@dotey)</source>
 <category>智能体</category>
 <category>人机交互</category>
 <category>会话编排</category>
 </item>
-<item><title>Apple Details Privacy Protections for HomeView Smart Home Hub</title><link>https://www.ithome.com/1/027/064.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/064.htm</guid>
+<item><title>苹果详解 HomeView 智能家居中枢隐私保护机制</title><link>https://www.ithome.com/1/027/064.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/064.htm</guid>
 <pubDate>Sat, 14 Nov 2026 10:44:02 +0800</pubDate>
-<description>&lt;p&gt;Apple executives Matthew Costello and Cecilia Dantas detailed the privacy design of HomeView, the company&amp;#x27;s first smart home hub, in an interview with TechRadar. The device recognizes up to six family members without manual account switching and hides private content as soon as another person enters the camera view or the paired iPhone leaves the network.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;苹果详解 HomeView 智能家居中枢隐私保护机制&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;苹果首次系统披露智能家居中枢的多用户隐私隔离方案，对关注端侧感知与家庭场景 AI 交互的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;苹果硬件工程副总裁 Matthew Costello 与家居产品营销负责人 Cecilia Dantas 接受 TechRadar 采访，首次详细说明首款智能家居中枢 HomeView 的隐私设计。该设备可识别最多 6 名家庭成员，无需手动切换账户，并在检测到他人进入视野或配对 iPhone 离开网络时立即撤下私人内容。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;苹果首次系统披露智能家居中枢的多用户隐私隔离方案，对关注端侧感知与家庭场景 AI 交互的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/027/064.htm">IT之家 · 智能时代</source>
 <category>苹果</category>
 <category>智能家居</category>
@@ -247,22 +265,6 @@
 <category>智能体</category>
 <category>可穿戴设备</category>
 <category>多模型路由</category>
-</item>
-<item><title>Perplexity 的 AI 队友功能登陆 Mac 桌面端</title><link>https://www.ithome.com/1/027/050.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/050.htm</guid>
-<pubDate>Sat, 14 Nov 2026 09:58:31 +0800</pubDate>
-<description>&lt;p&gt;Perplexity 面向 Max 付费订阅用户，在 Mac 桌面端上线 AI 智能体功能“Teammates”，此前该功能仅支持 iOS 与网页端。与逐轮问答不同，Teammates 围绕一项职责持续规划并执行任务，支持多智能体协作，覆盖增长营销、错误报告分类、指标跟踪与市场研究等场景。官方未披露使用额度与系统要求，也暂无独立实测。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是智能体从问答走向持续负责工作流的桌面端落地，对关注 Agent 产品形态的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/050.htm">IT之家 · 智能时代</source>
-<category>智能体</category>
-<category>Perplexity</category>
-<category>AI 办公</category>
-</item>
-<item><title>苹果 HomeView 开售 支持人脸识别与访客权限管理</title><link>https://www.ithome.com/1/027/043.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/043.htm</guid>
-<pubDate>Sat, 14 Nov 2026 09:34:41 +0800</pubDate>
-<description>&lt;p&gt;苹果首款智能家居中枢 HomeView 于 11 月 13 日在美国等市场开售，官方支持文档披露了人脸识别、访客权限、睡眠定时与个人数据保护等使用细节。该产品通过人脸识别结合附近已解锁 iOS 设备完成身份认证，并允许机主限制访客的 Safari、Siri 与露骨内容访问。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;苹果首款智能家居中枢落地，人脸识别与访客权限设计对智能家居交互形态有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/043.htm">IT之家 · 智能时代</source>
-<category>智能家居</category>
-<category>苹果</category>
-<category>人脸识别</category>
 </item>
 </channel>
 </rss>

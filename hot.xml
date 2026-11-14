@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Sat, 14 Nov 2026 17:19:02 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 14 Nov 2026 19:45:39 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Fable 5.2 登顶 Agent Arena，Gemini 4 Hydrogen 提速</title><link>https://todayforai.com/en/story/story-dc8382a0-0bf</link><guid isPermaLink="true">https://todayforai.com/en/story/story-dc8382a0-0bf</guid>
 <pubDate>Sat, 14 Nov 2026 04:45:33 +0800</pubDate>
@@ -27,14 +27,6 @@ ChatGPT Wallet 的核心安全机制在于令牌化支付：OpenAI 与美国运�
 <pubDate>Sat, 14 Nov 2026 16:31:02 +0800</pubDate>
 <description>&lt;p&gt;llama.cpp 与底层张量库 ggml 同步发布 1.0 版本，标志着项目进入稳定阶段，llama.cpp 同时移除了 35 个已废弃的公开接口。SGLang 也在峰会上宣布 1.0 版本，本地推理与高性能服务框架的工程成熟度进一步提升。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Latent Space, Hugging Face Blog, IT之家 · 智能时代, Hacker News AI&lt;/p&gt;</description>
 </item>
-<item><title>Anthropic 启动 IPO 路演 最高募资 904 亿美元</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
-<pubDate>Sat, 14 Nov 2026 07:39:27 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 正式启动首次公开募股路演，计划以每股 70 至 78 美元发行 8.25 亿股 A 类普通股，基础募资规模最高约 643.5 亿美元，并以代码 ANT 登陆纳斯达克。若计入向谷歌、英伟达、微软、台积电等七家巨头定向私募配售的 260 亿美元 N 类普通股，合计融资规模最高可达 904 亿美元，完全稀释估值约 1.4 万亿美元，成为 AI 行业迄今规模最大的资本事件。
-
-多方信源交叉验证显示，此次 IPO 呈现显著的结构性特征。一方面，老股东仅出售约 2360 万股，绝大部分资金流入公司而非早期投资人套现；另一方面，七位创始人通过持有 Class F 股锁定 50.1% 投票权，公开市场投资者几乎无法影响公司控制权。财务数据方面，公司前九月营收 332.4 亿美元，同比增长约 1200%，但净亏损达 1040 亿美元，主要来自可转换票据公允价值变动。此外，Anthropic 同步披露与微软、谷歌新增逾 100 亿美元算力采购承诺，合同总额分别升至 472 亿至 492 亿美元和约 1213 亿美元，均延续至 2033 年且为照付不议。
-
-这场 IPO 被视为对 AI 产业估值逻辑的关键检验。受科技股回调与中期选举后市场对 AI 基建投资情绪转冷影响，估值预期从传闻的 1.5 万亿美元下修至 1.1 万亿至 1.3 万亿美元区间，但仍高于 OpenAI 上周 1.25 万亿美元的私募估值。若发行成功，Anthropic 将成为首家登陆公开资本市场的前沿大模型公司，为后续 AI 企业上市定价提供锚点，同时也将考验公开市场对高增长、高亏损 AI 商业模式的接受程度。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, Anthropic News, Anthropic AI (@AnthropicAI), The Decoder, 宝玉 (@dotey), 新智元 (微信公众号)&lt;/p&gt;</description>
-</item>
 <item><title>Anthropic 推出 Claude 办公套件 微软股价应声下跌 3.5%</title><link>https://todayforai.com/en/story/story-6b1d42f1-18b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-6b1d42f1-18b</guid>
 <pubDate>Sat, 14 Nov 2026 06:39:15 +0800</pubDate>
 <description>&lt;p&gt;Anthropic 正式发布 Claude 办公套件，包括 Claude Meetings、Whiteboards、Sheets 和 Data 四款产品，将 Claude 从对话助手升级为独立团队协作平台。其中 Claude Meetings 测试版允许 Claude 以可见参会者身份加入 Google Meet 视频会议，实时撰写纪要、回答问题、起草文档并绘制白板，会议结束后自动生成待办与转录稿。该功能目前仅面向 Team 与 Enterprise 套餐开放，测试期内纪要不另收费。
@@ -49,11 +41,27 @@ Claude Sheets 支持自然语言生成含公式与多标签的可协作表格，
 
 技术细节上，H3-Image 衍生自 H3 基座，单一 checkpoint 在六步采样内同时覆盖文生图与图像编辑，无需超分即可输出原生高分辨率，并支持最多 16 张参考图，指令遵循能力号称开源模型中最强。在 NVIDIA Vera Rubin 平台四卡配置下，原生 4K 生成中位延迟仅 0.87 秒，吞吐配置可达每小时 6115 张。摩尔线程 MTT S5000 也在开源首日完成适配，单卡即可生成 4K 图像，复用 SGLang、MATE、MCCL 等组件优化多参考图场景下的注意力开销。
 
-行业影响方面，H3-Image 以开源权重和高吞吐、低延迟特性，显著降低了高质量 4K 图像生成的门槛，有望推动内容创作、电商、设计等领域的效率提升。同时，其跨平台快速适配（NVIDIA 与摩尔线程）显示出生态协同的成熟，为后续生图、生视频模型的 Day-0 支持建立基础，进一步加剧开源图像生成赛道的竞争。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;vLLM 官方博客, Arena.ai (@arena), IT之家 · 智能时代, 量子位官网, 机器之心 (微信公众号), Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
+行业影响方面，H3-Image 以开源权重和高吞吐、低延迟特性，显著降低了高质量 4K 图像生成的门槛，有望推动内容创作、电商、设计等领域的效率提升。同时，其跨平台快速适配（NVIDIA 与摩尔线程）显示出生态协同的成熟，为后续生图、生视频模型的 Day-0 支持建立基础，进一步加剧开源图像生成赛道的竞争。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;vLLM 官方博客, Arena.ai (@arena), IT之家 · 智能时代, 量子位官网, 机器之心 (微信公众号), Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
+</item>
+<item><title>Anthropic 启动 IPO 路演 最高募资 904 亿美元</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
+<pubDate>Sat, 14 Nov 2026 07:39:27 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 正式启动首次公开募股路演，计划以每股 70 至 78 美元发行 8.25 亿股 A 类普通股，基础募资规模最高约 643.5 亿美元，并以代码 ANT 登陆纳斯达克。若计入向谷歌、英伟达、微软、台积电等七家巨头定向私募配售的 260 亿美元 N 类普通股，合计融资规模最高可达 904 亿美元，完全稀释估值约 1.4 万亿美元，成为 AI 行业迄今规模最大的资本事件。
+
+多方信源交叉验证显示，此次 IPO 呈现显著的结构性特征。一方面，老股东仅出售约 2360 万股，绝大部分资金流入公司而非早期投资人套现；另一方面，七位创始人通过持有 Class F 股锁定 50.1% 投票权，公开市场投资者几乎无法影响公司控制权。财务数据方面，公司前九月营收 332.4 亿美元，同比增长约 1200%，但净亏损达 1040 亿美元，主要来自可转换票据公允价值变动。此外，Anthropic 同步披露与微软、谷歌新增逾 100 亿美元算力采购承诺，合同总额分别升至 472 亿至 492 亿美元和约 1213 亿美元，均延续至 2033 年且为照付不议。
+
+这场 IPO 被视为对 AI 产业估值逻辑的关键检验。受科技股回调与中期选举后市场对 AI 基建投资情绪转冷影响，估值预期从传闻的 1.5 万亿美元下修至 1.1 万亿至 1.3 万亿美元区间，但仍高于 OpenAI 上周 1.25 万亿美元的私募估值。若发行成功，Anthropic 将成为首家登陆公开资本市场的前沿大模型公司，为后续 AI 企业上市定价提供锚点，同时也将考验公开市场对高增长、高亏损 AI 商业模式的接受程度。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, Anthropic News, Anthropic AI (@AnthropicAI), The Decoder, 宝玉 (@dotey), 新智元 (微信公众号)&lt;/p&gt;</description>
 </item>
 <item><title>谷歌多智能体 Teamwork 完成韦伊猜想形式化证明</title><link>https://todayforai.com/en/story/story-e8a175f9-12c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e8a175f9-12c</guid>
 <pubDate>Sat, 14 Nov 2026 14:53:32 +0800</pubDate>
 <description>&lt;p&gt;谷歌扩展 Antigravity 多智能体系统，推出由 Gemini 驱动的 Teamwork 系统，通过并行专业智能体与独立质疑审查机制，完成韦伊猜想形式化证明，累计生成约 180 万行 Lean 代码。该系统还复现了三维纳维-斯托克斯方程有限时间爆破的形式化证明，并在分子结构识别与 C++ 转 Rust 代码重写等任务中取得可验证成果。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Google Research&lt;/p&gt;</description>
+</item>
+<item><title>前 Anthropic 研究员称重训 Mythos 算力需求骤降</title><link>https://todayforai.com/en/story/story-65ba0867-ae4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-65ba0867-ae4</guid>
+<pubDate>Sat, 14 Nov 2026 19:45:39 +0800</pubDate>
+<description>&lt;p&gt;前 Anthropic 研究员 Jacob Coxon 近日公开表示，Anthropic 如今重新训练其 Mythos 模型所需的算力已降至最初需求的一小部分。这一说法若属实，意味着前沿大模型的训练成本可能因算法效率的跃升而大幅下降，从而动摇“算力规模决定一切”的行业信条。
+
+Coxon 将 Anthropic IPO 路演中一张展示训练算力需求陡峭增长的图表列为离职的关键原因，并称该图表同时揭示了算法效率正以超指数速度提升。他进一步主张，行业应在明年暂停前沿模型研发，让竞争者得以追赶，从而使人类水平智能成为广泛可得的商品。不过，上述言论目前仅为个人转述，缺乏 Anthropic 官方数据或论文的佐证，其准确性有待验证。
+
+若该趋势得到证实，将对 AI 产业格局产生深远影响：一方面，训练门槛降低可能吸引更多参与者，加剧模型商品化竞争；另一方面，头部公司或需重新评估巨额算力投入的回报逻辑，而监管与安全议题也将因能力扩散而更趋复杂。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Decoder, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 <item><title>Thinking Machines 开源 Inkling 2 Small 登顶美国开源模型</title><link>https://todayforai.com/en/story/story-4ac260ee-18f</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4ac260ee-18f</guid>
 <pubDate>Sat, 14 Nov 2026 07:32:05 +0800</pubDate>
@@ -62,14 +70,6 @@ Claude Sheets 支持自然语言生成含公式与多标签的可协作表格，
 Inkling 2 Small 采用 MoE 架构，总参数 594B 但仅激活 17B，支持 100 万 token 上下文与多模态输入。vLLM 在发布首日即完成适配，通过内核融合与投机解码优化，在 GB200 四卡上实现单用户 630 TPS。Arena.ai 数据显示，其在 Agent Arena 取得 +2.9% 净提升，可控性提升 10.9% 为开放模型最高，单任务中位成本仅 0.26 美元；Code Arena WebDev 得分 1647，较前代提升 239 分。OpenRouter 和 OpenCode 平台限时免费开放，可接入 Claude Code 等智能体框架。
 
 这一开源举措标志着高效训练与推理技术的成熟，4-bit 训练大幅降低计算成本，而高性能与低成本优势可能重塑开源模型竞争格局，推动智能体应用普及。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter), Arena.ai (@arena), Rohan Paul (@rohanpaul_ai), vLLM 官方博客, OpenCode (@opencode)&lt;/p&gt;</description>
-</item>
-<item><title>研究称中国四家实验室模型使用被禁英伟达 Blackwell 芯片训练</title><link>https://todayforai.com/en/story/story-3a8c7475-b84</link><guid isPermaLink="true">https://todayforai.com/en/story/story-3a8c7475-b84</guid>
-<pubDate>Sat, 14 Nov 2026 02:40:30 +0800</pubDate>
-<description>&lt;p&gt;一项基于模型权重取证分析的研究发现，DeepSeek、月之暗面、MiniMax 与蚂蚁集团自 2026 年 4 月以来发布的 6 个开源模型，其数值特征与英伟达 Blackwell 硬件匹配，而更早模型则对应上一代 Hopper。该结论完全来自模型自身权重而非内部爆料，并在 DeepSeek-V4-Flash 与 Kimi K3 上于实体 Blackwell 芯片完成验证，为出口管制执行提供了可复现的技术证据。
-
-前 OpenAI 研究员 Will DePue 主导了这项分析，OpenAI 与 Anthropic 的资深研究员已复核其方法。报告强调，证据仅证明这些实验室能够获取 Blackwell 算力，可能来自境外数据中心租用，并不直接等同于走私或违法。但事件同时牵出英伟达 CEO 黄仁勋因与涉嫌芯片走私的 Megaspeed 高管存在私人关系而离职，使出口管制执行漏洞与英伟达的合规责任成为焦点。
-
-这一发现首次以技术手段揭示中国前沿实验室在出口管制下仍能使用最新一代英伟达硬件，对美国的管制政策有效性构成挑战。若算力获取渠道无法被有效封堵，中国开源模型的迭代速度可能持续超出预期，进而影响全球 AI 竞争格局与监管走向。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, The Decoder, Hacker News AI&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
