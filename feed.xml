@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 15 Nov 2026 04:00:15 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 15 Nov 2026 05:41:22 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Musk and Tech Execs Sign Petition Urging Nvidia to Reinstate Jensen Huang</title><link>https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/</guid>
+<pubDate>Sun, 15 Nov 2026 05:41:22 +0800</pubDate>
+<description>&lt;p&gt;After Nvidia CEO Jensen Huang resigned over a relationship with a chip executive identified as a suspected Chinese spy, a petition demanding his reinstatement has gathered over 115,000 signatures, including Tesla&amp;#x27;s Elon Musk, Replit&amp;#x27;s Amjad Masad and Epic Games&amp;#x27; Tim Sweeney. Signers argue Huang was removed without due process and want him back pending an independent investigation, as Nvidia shares slipped and the departure threatens to widen a funding gap for AI startups.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;马斯克等科技高管联署请愿 要求英伟达恢复黄仁勋职务&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达最高层突发变动叠加行业领袖联署施压，直接牵动 AI 算力供给与创业融资格局，值得重度读者关注。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 71/100&lt;/p&gt;</description>
+<source url="https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/">TechCrunch AI</source>
+<category>英伟达</category>
+<category>人事变动</category>
+<category>AI 算力</category>
+<category>行业治理</category>
+</item>
+<item><title>Meta Paper Proposes Viewpoint-Invariance Test for LLM Truthfulness</title><link>https://x.com/rohanpaul_ai/status/2121715777548239060</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121715777548239060</guid>
+<pubDate>Sun, 15 Nov 2026 05:23:55 +0800</pubDate>
+<description>&lt;p&gt;A new Meta paper argues that likelihood is the wrong test of truth for LLMs, since models learn what is common in text rather than what is true, making frequently repeated falsehoods seem probable. Drawing on physics and philosophy, it treats a fact as real only if it survives a change of viewpoint: the model answers from several perspectives (e.g., three medical specialists), keeps what all answers share, and abstains when nothing is shared. The paper runs no experiments and relies on worked examples, such as a binary case where a loss of 0.67 yields 100% accuracy while a nearly equal loss of 0.71 yields 0%.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 新论文提出以视角不变性检验大模型事实真伪&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出以视角不变性替代似然作为大模型事实性判据的新思路，概念简洁但缺乏实验验证，值得关注其后续演进。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2121715777548239060">Rohan Paul (@rohanpaul_ai)</source>
+<category>大模型</category>
+<category>事实性</category>
+<category>Meta</category>
+<category>论文</category>
+</item>
 <item><title>Rising Rates Drive CoreWeave Credit Default Swap Spreads Higher</title><link>https://x.com/rohanpaul_ai/status/2121694721731187159</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121694721731187159</guid>
 <pubDate>Sun, 15 Nov 2026 04:00:15 +0800</pubDate>
 <description>&lt;p&gt;Chamath Palihapitiya argues on the All-In Podcast that credit default swap spreads on neoclouds such as CoreWeave have widened sharply. The mechanism is rising US interest rates colliding with a heavily leveraged, capital-intensive model that sells compute capacity at fixed prices, so widening spreads signal markets repricing refinancing and solvency risk.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;利率上行推高 CoreWeave 信用违约互换利差&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;从信用市场视角揭示算力租赁商的杠杆与利率风险，对判断 AI 基础设施投资周期有参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 58/100&lt;/p&gt;</description>
@@ -208,18 +226,18 @@
 <category>开源模型</category>
 <category>决策模型</category>
 </item>
-<item><title>Google Unveils Antigravity Multiagent System for Scientific Discovery</title><link>https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/</link><guid isPermaLink="true">https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/</guid>
+<item><title>Google 推出 Antigravity 多智能体科研协作系统</title><link>https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/</link><guid isPermaLink="true">https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/</guid>
 <pubDate>Sat, 14 Nov 2026 21:20:43 +0800</pubDate>
-<description>&lt;p&gt;Google Research introduced Antigravity&amp;#x27;s /teamwork multiagent system, which collaborates with human experts to tackle long-standing open problems in mathematics, chemistry, systems software, and ML engineering. Built on Gemini 4 Argon, the tools are being made available externally through a researcher access program.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Google 推出 Antigravity 多智能体科研协作系统&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;多智能体系统直接产出跨学科科研突破，是 AI for Science 与 Agent 协作范式的重要节点。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Google Research 发布 Antigravity 的 /teamwork 多智能体系统，与人类专家协作攻克数学、化学、系统软件与机器学习工程中长期悬而未决的开放问题。该系统基于 Gemini 4 Argon 模型，并已通过研究者访问计划对外开放。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;多智能体系统直接产出跨学科科研突破，是 AI for Science 与 Agent 协作范式的重要节点。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 78/100&lt;/p&gt;</description>
 <source url="https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/">Hacker News AI</source>
 <category>多智能体</category>
 <category>AI for Science</category>
 <category>Google Research</category>
 <category>Gemini</category>
 </item>
-<item><title>Huada Jiutian Merges Two Domestic Digital Front-End EDA Firms into HyperS2C</title><link>https://www.ithome.com/1/027/230.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/230.htm</guid>
+<item><title>华大九天整合两家国产数字前端 EDA 企业成立新禹思</title><link>https://www.ithome.com/1/027/230.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/230.htm</guid>
 <pubDate>Sat, 14 Nov 2026 21:07:04 +0800</pubDate>
-<description>&lt;p&gt;Huada Jiutian and the Greater Bay Area science and technology innovation fund announced the merger of Yake Hongyu and S2C into a new company, HyperS2C, positioned as a full-flow domestic digital front-end EDA platform spanning architecture design to system-level verification. The combined entity holds 205 patents and 200 software copyrights and serves over 800 customers, aiming to fix the domestic EDA industry&amp;#x27;s weakness in point solutions rather than integrated tool chains.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;华大九天整合两家国产数字前端 EDA 企业成立新禹思&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产 EDA 头部企业专业化整合，直接关系数字前端工具链的自主供给能力。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;华大九天与粤港澳大湾区科技创新产业投资基金联合宣布，将亚科鸿禹与思尔芯合并重组为新公司“新禹思”（HyperS2C），定位为覆盖架构设计到系统级验证的国产数字前端 EDA 全流程平台。新公司拥有 205 项专利、200 项软件著作权，服务客户超 800 家，意在改变国产 EDA 单点突破、成链配套能力偏弱的局面。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产 EDA 头部企业专业化整合，直接关系数字前端工具链的自主供给能力。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/027/230.htm">IT之家 · IT业界</source>
 <category>EDA</category>
 <category>华大九天</category>
@@ -252,24 +270,6 @@
 <category>Arduino</category>
 <category>开源项目</category>
 <category>硬件逆向</category>
-</item>
-<item><title>前 Anthropic 研究员称重训 Mythos 算力需求骤降</title><link>https://www.ithome.com/1/027/221.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/221.htm</guid>
-<pubDate>Sat, 14 Nov 2026 19:45:39 +0800</pubDate>
-<description>&lt;p&gt;前 Anthropic 研究员雅各布·考克森称，Anthropic IPO 路演中一张展示训练算力需求变化的图表显示算法效率正超指数提升，如今重训 Mythos 只需最初一小部分算力。他据此主张明年暂停前沿模型研发，让竞争者追赶。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自前沿实验室内部人士对算法效率超指数增长的判断，涉及训练算力经济学与研发节奏，值得关注。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/221.htm">IT之家 · 智能时代</source>
-<category>算法效率</category>
-<category>Anthropic</category>
-<category>AI 安全</category>
-<category>算力</category>
-</item>
-<item><title>OpenAI 重组机器人团队 押注通用模型</title><link>https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/</link><guid isPermaLink="true">https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/</guid>
-<pubDate>Sat, 14 Nov 2026 19:40:51 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 再次解散机器人团队，但这次并非放弃机器人，而是将研究人员并入 Mark Chen 领导的核心研究团队，应用机器人与硬件团队则划归 Greg Brockman 的应用组织。此举反映其判断：通用大模型可能让专用机器人 AI 变得不再必要，机器人能力将直接由通用模型驱动。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;OpenAI 组织架构调整透露其通用模型驱动机器人的技术路线判断，对关注具身智能走向的读者有实质参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 72/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/">The Decoder</source>
-<category>OpenAI</category>
-<category>具身智能</category>
-<category>组织调整</category>
-<category>通用模型</category>
 </item>
 </channel>
 </rss>
