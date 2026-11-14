@@ -83,6 +83,15 @@
 <category>太空数据中心</category>
 <category>卫星</category>
 </item>
+<item><title>Cmpnd Releases dspy-wsp Letting Frontier LLMs Patch Small Model Weights</title><link>https://x.com/Marktechpost/status/2121647818754670657</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2121647818754670657</guid>
+<pubDate>Sun, 15 Nov 2026 00:53:52 +0800</pubDate>
+<description>&lt;p&gt;Cmpnd open-sourced dspy-wsp, a DSPy-based weight-space programming optimizer in which a frontier writer LLM inspects a student model&amp;#x27;s tensors in a sandbox, forms hypotheses and patches a few weights, with no gradients, training loop or fine-tuning data. On the Typed Decisions benchmark, d1-omni-600M rose from 50.9% to 66.9% with WeightSpace alone and 69.1% when stacked with ReAnchor, though a 9B model gained only 1.9 points and each run cost $5.42 to $7.63 over 78 to 167 minutes.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Cmpnd 发布 dspy-wsp 用前沿 LLM 直接改写小模型权重&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出无需梯度的权重空间编程新范式并给出可复现基准与成本数据，对关注模型优化与智能体自动化的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · llm · signal 74/100&lt;/p&gt;</description>
+<source url="https://x.com/Marktechpost/status/2121647818754670657">Marktechpost (@Marktechpost)</source>
+<category>权重空间编程</category>
+<category>DSPy</category>
+<category>模型优化</category>
+<category>开源</category>
+</item>
 <item><title>Gemini 4 Carbon Tops MathArena but Costs 15 Times More Than GPT-6.1 Sol</title><link>https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/</link><guid isPermaLink="true">https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/</guid>
 <pubDate>Sun, 15 Nov 2026 00:48:01 +0800</pubDate>
 <description>&lt;p&gt;Google&amp;#x27;s Gemini 4 Carbon has become the first non-OpenAI model in a while to top the MathArena math benchmark, displacing GPT-6.1 Sol, with Anthropic&amp;#x27;s Claude Fable 5.2 taking second place. However, its evaluation cost runs roughly 15 times that of GPT-6.1 Sol, and its most common failure mode is exceeding the time limit while almost never abandoning a task. The best open model, Moonshot AI&amp;#x27;s Kimi K3.1 Pro, trails at 54.3%.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Gemini 4 Carbon 登顶 MathArena 但成本高 15 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部模型在权威数学基准上的排名更替叠加显著成本差异，是评估模型选型的重要信号。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
@@ -217,9 +226,9 @@
 <category>科普可视化</category>
 <category>进化策略</category>
 </item>
-<item><title>Perplexity Releases Decider v1.3 Decision Models Under Apache 2.0</title><link>https://x.com/ArtificialAnlys/status/2121595922090230033</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2121595922090230033</guid>
+<item><title>Perplexity 发布 Decider v1.3 决策模型 27B 开源</title><link>https://x.com/ArtificialAnlys/status/2121595922090230033</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2121595922090230033</guid>
 <pubDate>Sat, 14 Nov 2026 21:27:39 +0800</pubDate>
-<description>&lt;p&gt;Perplexity has updated its flagship decision models to Decider v1.3 and Decider Flash v1.3, scoring 70 and 64 on the Artificial Analysis Decision Index v2.1, with Flash climbing to #10 on a 4-point gain. The 27B and 4B models ship under Apache 2.0 with text and image input via Perplexity&amp;#x27;s first-party API.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Perplexity 发布 Decider v1.3 决策模型 27B 开源&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源决策专用模型的小版本迭代，参数规模与许可信息明确，对关注垂直决策模型选型的读者有参考价值。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Perplexity 更新旗舰决策模型 Decider v1.3 与轻量版 Decider Flash v1.3，在 Artificial Analysis Decision Index v2.1 上分别得分 70 和 64，Flash 版本较前代提升 4 分并升至第 10 位。两款模型分别为 27B 与 4B 参数，采用 Apache 2.0 许可，支持文本与图像输入，并通过 Perplexity 一方 API 提供。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源决策专用模型的小版本迭代，参数规模与许可信息明确，对关注垂直决策模型选型的读者有参考价值。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 58/100&lt;/p&gt;</description>
 <source url="https://x.com/ArtificialAnlys/status/2121595922090230033">Artificial Analysis (@ArtificialAnlys)</source>
 <category>大模型</category>
 <category>Perplexity</category>
@@ -260,16 +269,6 @@
 <category>英伟达</category>
 <category>公司治理</category>
 <category>人事变动</category>
-</item>
-<item><title>Claude 与 Arduino 联手让 32 年老车通过排放检测</title><link>https://www.ithome.com/1/027/226.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/226.htm</guid>
-<pubDate>Sat, 14 Nov 2026 20:36:29 +0800</pubDate>
-<description>&lt;p&gt;美国 AI 爱好者祖拉利借助 Claude 做诊断、Codex 写代码，配合一块 3 美元的 Arduino Nano 开发板，成功读取 1994 款 Jeep 切诺基的老式发动机电脑数据并调整燃油参数，让这辆 32 年车龄的老车通过加州尾气检测。全部电子元件成本不足 15 美元，相关项目已以 GPLv3 协议开源为 xj-scanner。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;一个具体可复现的 AI 辅助硬件逆向与诊断案例，展示了 LLM 在老旧系统改造中的实际价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/226.htm">IT之家 · 智能时代</source>
-<category>AI 编程</category>
-<category>Claude</category>
-<category>Arduino</category>
-<category>开源项目</category>
-<category>硬件逆向</category>
 </item>
 </channel>
 </rss>
