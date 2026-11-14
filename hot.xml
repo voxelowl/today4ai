@@ -23,6 +23,10 @@ ChatGPT Wallet 的核心安全机制在于令牌化支付：OpenAI 与美国运�
 
 此举标志着 OpenAI 正式将 ChatGPT 培育为购物入口，暂不收取交易佣金。尽管 Anthropic、Meta、Google 等对手已上线类似智能体购物能力，OpenAI 凭借与三大卡组织的深度合作及生物识别验证，在支付安全与生态整合上展现出后发优势。未来计划支持设定额度与品类后完全委托购买，但商户与风控系统的适配仍是关键挑战。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), The Decoder, IT之家 · 智能时代, The Verge AI, OpenAI 官方博客, TechCrunch AI&lt;/p&gt;</description>
 </item>
+<item><title>llama.cpp 与 ggml 发布 1.0 版本</title><link>https://todayforai.com/en/story/story-21ace097-fe1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-21ace097-fe1</guid>
+<pubDate>Sat, 14 Nov 2026 16:31:02 +0800</pubDate>
+<description>&lt;p&gt;llama.cpp 与底层张量库 ggml 同步发布 1.0 版本，标志着项目进入稳定阶段，llama.cpp 同时移除了 35 个已废弃的公开接口。SGLang 也在峰会上宣布 1.0 版本，本地推理与高性能服务框架的工程成熟度进一步提升。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Latent Space, Hugging Face Blog, IT之家 · 智能时代, Hacker News AI&lt;/p&gt;</description>
+</item>
 <item><title>Anthropic 启动 IPO 路演 最高募资 904 亿美元</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
 <pubDate>Sat, 14 Nov 2026 07:39:27 +0800</pubDate>
 <description>&lt;p&gt;Anthropic 正式启动首次公开募股路演，计划以每股 70 至 78 美元发行 8.25 亿股 A 类普通股，基础募资规模最高约 643.5 亿美元，并以代码 ANT 登陆纳斯达克。若计入向谷歌、英伟达、微软、台积电等七家巨头定向私募配售的 260 亿美元 N 类普通股，合计融资规模最高可达 904 亿美元，完全稀释估值约 1.4 万亿美元，成为 AI 行业迄今规模最大的资本事件。
@@ -46,14 +50,6 @@ Claude Sheets 支持自然语言生成含公式与多标签的可协作表格，
 技术细节上，H3-Image 衍生自 H3 基座，单一 checkpoint 在六步采样内同时覆盖文生图与图像编辑，无需超分即可输出原生高分辨率，并支持最多 16 张参考图，指令遵循能力号称开源模型中最强。在 NVIDIA Vera Rubin 平台四卡配置下，原生 4K 生成中位延迟仅 0.87 秒，吞吐配置可达每小时 6115 张。摩尔线程 MTT S5000 也在开源首日完成适配，单卡即可生成 4K 图像，复用 SGLang、MATE、MCCL 等组件优化多参考图场景下的注意力开销。
 
 行业影响方面，H3-Image 以开源权重和高吞吐、低延迟特性，显著降低了高质量 4K 图像生成的门槛，有望推动内容创作、电商、设计等领域的效率提升。同时，其跨平台快速适配（NVIDIA 与摩尔线程）显示出生态协同的成熟，为后续生图、生视频模型的 Day-0 支持建立基础，进一步加剧开源图像生成赛道的竞争。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;vLLM 官方博客, Arena.ai (@arena), IT之家 · 智能时代, 量子位官网, 机器之心 (微信公众号), Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
-</item>
-<item><title>llama.cpp 发布 v1.0.0 本地推理生态确立稳定基线</title><link>https://todayforai.com/en/story/story-21ace097-fe1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-21ace097-fe1</guid>
-<pubDate>Sat, 14 Nov 2026 10:28:29 +0800</pubDate>
-<description>&lt;p&gt;llama.cpp 项目在启动 3.5 年后正式发布 v1.0.0 稳定版本，同时底层张量库 ggml 也同步进入 1.0.0 阶段。这标志着本地与私有化 AI 推理生态首次拥有了语义化版本管理的核心底座，开发者从此可以依赖明确的 API 破坏性变更边界进行长期维护。
-
-综合多方信源，v1.0.0 首次确立了 MAJOR/MINOR/PATCH 版本规则，主版本号升级即代表公共 C API 或 ABI 不兼容变更。项目已支持超过 150 种模型架构变体与主流推测解码方法，覆盖从消费级设备到企业服务器的多模态推理场景。ggml 作为无依赖纯 C/C++ 张量库，支持 x86、ARM、RISC-V 等多架构，提供 2 至 8 位整数量化及 MXFP4、NVFP4 微缩放格式，且运行时零内存分配。CI 基础设施已扩展至 Hugging Face HF Buckets/HF Jobs 与英伟达、AMD、高通、Arm、IBM、英特尔六大芯片厂商的自托管测试运行器，显著提升了跨平台兼容性验证的可靠性。
-
-对本地推理与端侧部署开发者而言，v1.0.0 是生态稳定性的关键信号。它降低了企业自托管 AI 的长期维护风险，为私有化部署提供了可预期的升级路径，并进一步巩固了 llama.cpp 作为开源本地推理事实标准的地位。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Hugging Face Blog, IT之家 · 智能时代, Hacker News AI&lt;/p&gt;</description>
 </item>
 <item><title>谷歌多智能体 Teamwork 完成韦伊猜想形式化证明</title><link>https://todayforai.com/en/story/story-e8a175f9-12c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e8a175f9-12c</guid>
 <pubDate>Sat, 14 Nov 2026 14:53:32 +0800</pubDate>
