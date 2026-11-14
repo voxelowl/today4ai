@@ -12,6 +12,34 @@
 <category>具身智能</category>
 <category>物流</category>
 </item>
+<item><title>Two DGX Stations Serve GLM-5.3 at 607.8 Tokens per Second</title><link>https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/</link><guid isPermaLink="true">https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/</guid>
+<pubDate>Sat, 14 Nov 2026 22:09:25 +0800</pubDate>
+<description>&lt;p&gt;NVIDIA published a technical tutorial showing how to serve the 753B-parameter GLM-5.3 NVFP4 quantized MoE model locally across two DGX Stations linked via ConnectX-8 RDMA, using vLLM tensor parallelism (TP=2) to reach 607.8 tok/s through a single endpoint. The core challenge is that the 464 GB checkpoint exceeds the 252 GB HBM3e of a single GB300 GPU, so weights and computation are split across both GPUs with CPU offload disabled. The walkthrough offers a reproducible engineering path and concurrency benchmarking method for desk-side deployment of frontier-scale MoE models.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;双 DGX Station 本地部署 GLM-5.3 达 607.8 tok/s&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了前沿规模 MoE 模型跨机本地部署的具体参数、拓扑与吞吐数据，对算力基础设施读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 72/100&lt;/p&gt;</description>
+<source url="https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/">Hacker News AI</source>
+<category>vLLM</category>
+<category>DGX Station</category>
+<category>MoE</category>
+<category>本地推理</category>
+<category>NVFP4</category>
+</item>
+<item><title>Agweb Launches a macOS Browser Built for Coding Agents</title><link>https://github.com/paul-nameless/agweb</link><guid isPermaLink="true">https://github.com/paul-nameless/agweb</guid>
+<pubDate>Sat, 14 Nov 2026 22:08:12 +0800</pubDate>
+<description>&lt;p&gt;Agweb is a WebKit-based macOS browser purpose-built for coding agents, designed to never steal keyboard focus while agents drive it from the shell and users watch every tab live on a dashboard. It addresses focus hijacking, headless blocking, and resource bloat, with five idle pages consuming just 590 MB of memory.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Agweb 发布 macOS 智能体专用浏览器&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向多智能体并行的浏览器基础设施创新，直击焦点抢占与无头浏览器被拦截的真实痛点。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://github.com/paul-nameless/agweb">Hacker News AI</source>
+<category>智能体</category>
+<category>浏览器</category>
+<category>开发者工具</category>
+<category>macOS</category>
+</item>
+<item><title>Open Source Out-of-Order RISC-V Core Boots Mainline Linux 6.6</title><link>https://github.com/FURSOY/fursoy-cpu</link><guid isPermaLink="true">https://github.com/FURSOY/fursoy-cpu</guid>
+<pubDate>Sat, 14 Nov 2026 22:06:34 +0800</pubDate>
+<description>&lt;p&gt;Fursoy Slice-1 is a clean-slate 64-bit out-of-order superscalar RISC-V processor written in SystemVerilog, supporting RV64IMAFDV plus Zba/Zbb/Zicsr/Zifencei, and has booted mainline Linux 6.6.50 with BusyBox userspace under Sv39 virtual memory. Its microarchitecture features a 128-entry reorder buffer, a 160-entry physical integer register file and 8 branch checkpoints, with 500 MHz synthesis closure across 8 core blocks on Nangate 45nm.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;开源乱序 RISC-V 处理器成功启动 Linux 6.6&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;个人开源项目从零实现乱序 RISC-V 核心并跑通主线 Linux，是开源硬件与 RISC-V 生态中值得关注的技术实践。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
+<source url="https://github.com/FURSOY/fursoy-cpu">Hacker News AI</source>
+<category>RISC-V</category>
+<category>开源硬件</category>
+<category>处理器架构</category>
+<category>SystemVerilog</category>
+</item>
 <item><title>Meta&#x27;s Muse Agent Adds AI-Powered Phone Call Feature</title><link>https://www.ithome.com/1/027/238.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/238.htm</guid>
 <pubDate>Sat, 14 Nov 2026 21:46:56 +0800</pubDate>
 <description>&lt;p&gt;Meta&amp;#x27;s AI agent Muse has launched a call-making feature that lets paying subscribers delegate calls to US businesses, insurers and DMV appointments using synthetic voice. After months of testing, it is now available to top-tier subscribers at $19.99 per month, though merchants often hang up upon recognizing the AI caller.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 旗下 Muse 上线代打电话功能&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是主流大厂智能体从对话走向真实世界任务执行的重要一步，也暴露了语音代理落地的现实阻力。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 68/100&lt;/p&gt;</description>
@@ -20,6 +48,15 @@
 <category>Meta</category>
 <category>语音代理</category>
 <category>订阅服务</category>
+</item>
+<item><title>Google Unveils Antigravity Multiagent System for Scientific Discovery</title><link>https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/</link><guid isPermaLink="true">https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/</guid>
+<pubDate>Sat, 14 Nov 2026 21:20:43 +0800</pubDate>
+<description>&lt;p&gt;Google Research introduced Antigravity&amp;#x27;s /teamwork multiagent system, which collaborates with human experts to tackle long-standing open problems in mathematics, chemistry, systems software, and ML engineering. Built on Gemini 4 Argon, the tools are being made available externally through a researcher access program.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Google 推出 Antigravity 多智能体科研协作系统&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;多智能体系统直接产出跨学科科研突破，是 AI for Science 与 Agent 协作范式的重要节点。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 78/100&lt;/p&gt;</description>
+<source url="https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/">Hacker News AI</source>
+<category>多智能体</category>
+<category>AI for Science</category>
+<category>Google Research</category>
+<category>Gemini</category>
 </item>
 <item><title>Huada Jiutian Merges Two Domestic Digital Front-End EDA Firms into HyperS2C</title><link>https://www.ithome.com/1/027/230.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/230.htm</guid>
 <pubDate>Sat, 14 Nov 2026 21:07:04 +0800</pubDate>
@@ -192,26 +229,26 @@
 <category>AI 芯片</category>
 <category>韩国</category>
 </item>
-<item><title>Fed Governor Barr Warns Rapid AI Adoption May Widen Income Inequality</title><link>https://www.ithome.com/1/027/177.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/177.htm</guid>
+<item><title>美联储理事巴尔警告 AI 普及或加剧收入不平等</title><link>https://www.ithome.com/1/027/177.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/177.htm</guid>
 <pubDate>Sat, 14 Nov 2026 16:54:52 +0800</pubDate>
-<description>&lt;p&gt;Federal Reserve Governor Michael Barr warned in a Yale speech that rapid AI adoption could worsen income inequality in the near term, especially if a handful of AI firms dominate the market and concentrate gains among their executives and shareholders. He urged policymakers to build safeguards now, while adoption is still relatively early.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美联储理事巴尔警告 AI 普及或加剧收入不平等&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;美联储高层就 AI 与收入分配首次系统表态，属政策信号而非技术增量，对关注 AI 社会影响的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;美联储理事迈克尔·巴尔在耶鲁大学演讲中警告，AI 快速普及短期内可能加剧收入不平等，若少数 AI 企业主导市场，市场集中度上升将进一步拉大差距。他呼吁政策制定者趁 AI 普及尚处早期，立即建立劳动力市场冲击的防范机制。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;美联储高层就 AI 与收入分配首次系统表态，属政策信号而非技术增量，对关注 AI 社会影响的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/027/177.htm">IT之家 · 智能时代</source>
 <category>AI 监管</category>
 <category>收入不平等</category>
 <category>美联储</category>
 </item>
-<item><title>llama.cpp and ggml Reach 1.0 Milestone Releases</title><link>https://latent.space/p/ainews-the-no-ai-slop-manifesto/</link><guid isPermaLink="true">https://latent.space/p/ainews-the-no-ai-slop-manifesto/</guid>
+<item><title>llama.cpp 与 ggml 发布 1.0 版本</title><link>https://latent.space/p/ainews-the-no-ai-slop-manifesto/</link><guid isPermaLink="true">https://latent.space/p/ainews-the-no-ai-slop-manifesto/</guid>
 <pubDate>Sat, 14 Nov 2026 16:31:02 +0800</pubDate>
-<description>&lt;p&gt;llama.cpp and its underlying tensor library ggml have both shipped 1.0 releases, signaling API stability, with llama.cpp removing 35 deprecated functions from its public header. SGLang also announced its 1.0 at its summit, marking broader engineering maturity for local inference and high-performance serving stacks.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;llama.cpp 与 ggml 发布 1.0 版本&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流开源推理框架同时迈入 1.0 稳定期，对本地部署与推理服务选型有直接参考价值。&lt;/p&gt;&lt;p&gt;Latent Space · opensource · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;llama.cpp 与底层张量库 ggml 同步发布 1.0 版本，标志着项目进入稳定阶段，llama.cpp 同时移除了 35 个已废弃的公开接口。SGLang 也在峰会上宣布 1.0 版本，本地推理与高性能服务框架的工程成熟度进一步提升。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流开源推理框架同时迈入 1.0 稳定期，对本地部署与推理服务选型有直接参考价值。&lt;/p&gt;&lt;p&gt;Latent Space · opensource · signal 58/100&lt;/p&gt;</description>
 <source url="https://latent.space/p/ainews-the-no-ai-slop-manifesto/">Latent Space</source>
 <category>开源模型</category>
 <category>推理框架</category>
 <category>llama.cpp</category>
 <category>SGLang</category>
 </item>
-<item><title>Pearl Abyss Expands AI Across Its Entire Game Development Pipeline</title><link>https://www.ithome.com/1/027/154.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/154.htm</guid>
+<item><title>Pearl Abyss 将 AI 扩展至全开发管线</title><link>https://www.ithome.com/1/027/154.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/154.htm</guid>
 <pubDate>Sat, 14 Nov 2026 15:29:49 +0800</pubDate>
-<description>&lt;p&gt;Crimson Desert developer Pearl Abyss confirmed in its earnings report that it is extending generative AI from repetitive-task automation, content assistance and testing optimization to its entire development pipeline, while stressing that core gameplay and content creation remain human-led. The studio presses ahead despite a player backlash over AI-generated assets in the game&amp;#x27;s launch build.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Pearl Abyss 将 AI 扩展至全开发管线&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;游戏大厂将 AI 嵌入全开发管线的明确表态，反映生成式 AI 在 3A 制作流程中的落地边界与人力定位之争。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;《红色沙漠》开发商 Pearl Abyss 在财报中确认，正将生成式 AI 从重复任务自动化、内容创作辅助与测试优化扩展至整个开发管线，并强调核心玩法与内容创作仍由人类开发者主导。此前该作因正式版含 AI 生成资产遭玩家抵制，工作室移除资产后仍坚持推进 AI 战略。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;游戏大厂将 AI 嵌入全开发管线的明确表态，反映生成式 AI 在 3A 制作流程中的落地边界与人力定位之争。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/027/154.htm">IT之家 · 智能时代</source>
 <category>生成式 AI</category>
 <category>游戏开发</category>
@@ -235,40 +272,6 @@
 <category>基础模型</category>
 <category>国产算力</category>
 <category>单细胞蛋白组</category>
-</item>
-<item><title>Foundation 称未来 5 至 10 年多数战争将由机器人执行</title><link>https://www.ithome.com/1/027/144.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/144.htm</guid>
-<pubDate>Sat, 14 Nov 2026 15:02:25 +0800</pubDate>
-<description>&lt;p&gt;由埃里克·特朗普投资支持的机器人公司 Foundation 联合创始人迈克·勒布朗称，未来 5 至 10 年，人形机器人、地面车辆和无人机将承担大部分主要作战任务。该公司已交付两台载重约 40 公斤的 Phantom MK-1 机器人，下一代 MK 2 身高约 1.83 米、可抱起成年人并架设重机枪。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该消息披露了具身智能在军事场景的具体产品参数与交付进展，但核心内容为高管愿景表态，技术增量有限。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/144.htm">IT之家 · 智能时代</source>
-<category>具身智能</category>
-<category>军事机器人</category>
-<category>Foundation</category>
-</item>
-<item><title>TCL 华星印刷 OLED 产线产能提升至 9K 大板</title><link>https://www.ithome.com/1/027/142.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/142.htm</guid>
-<pubDate>Sat, 14 Nov 2026 14:58:27 +0800</pubDate>
-<description>&lt;p&gt;TCL 华星 CEO 赵军透露，武汉 t12 印刷 OLED 产线月产能已从 3K 大板提升至 9K 大板，首款产品 4 月量产后良率从个位数升至约 70%，多款产品同步量产。印刷 OLED 采用喷墨打印按需沉积有机材料，相比真空蒸镀材料利用率更高、更绿色高效，是显示制造工艺的重要路线切换。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;印刷 OLED 从试产走向产能与良率爬坡，是显示制造工艺路线的重要产业进展。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/142.htm">IT之家 · IT业界</source>
-<category>印刷 OLED</category>
-<category>TCL 华星</category>
-<category>显示制造</category>
-</item>
-<item><title>Gemini 个人智能接入 Google Wallet 分析消费</title><link>https://www.ithome.com/1/027/141.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/141.htm</guid>
-<pubDate>Sat, 14 Nov 2026 14:57:17 +0800</pubDate>
-<description>&lt;p&gt;谷歌宣布 Gemini 的 Personal Intelligence 功能正式接入 Google Wallet，用户授权后可通过 @Google Wallet 查询财务状况、消费记录与预算规划，并生成现金流与资产配置图表。该功能仅具备只读权限，无法转账或投资，且需用户手动开启并可随时断开。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Gemini 个人智能向金融场景延伸的具体落地，涉及授权边界与数据接入方式，值得关注 AI 助手与个人财务数据结合的进展。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/141.htm">IT之家 · 智能时代</source>
-<category>Gemini</category>
-<category>Google Wallet</category>
-<category>个人智能</category>
-<category>AI 助手</category>
-</item>
-<item><title>谷歌多智能体 Teamwork 完成韦伊猜想形式化证明</title><link>https://www.ithome.com/1/027/140.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/140.htm</guid>
-<pubDate>Sat, 14 Nov 2026 14:53:32 +0800</pubDate>
-<description>&lt;p&gt;谷歌扩展 Antigravity 多智能体系统，推出由 Gemini 驱动的 Teamwork 系统，通过并行专业智能体与独立质疑审查机制，完成韦伊猜想形式化证明，累计生成约 180 万行 Lean 代码。该系统还复现了三维纳维-斯托克斯方程有限时间爆破的形式化证明，并在分子结构识别与 C++ 转 Rust 代码重写等任务中取得可验证成果。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;多智能体协作首次在顶级数学形式化与真实工程任务上给出可验证成果，是智能体系统能力边界的重要节点。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 88/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/140.htm">IT之家 · 智能时代</source>
-<category>智能体</category>
-<category>谷歌</category>
-<category>形式化数学</category>
-<category>多智能体协作</category>
 </item>
 </channel>
 </rss>
