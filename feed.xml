@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 14 Nov 2026 07:49:11 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 14 Nov 2026 07:54:06 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Fed Flags AI as Top Financial Risk for Wall Street</title><link>https://x.com/rohanpaul_ai/status/2121391185499660332</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121391185499660332</guid>
+<pubDate>Sat, 14 Nov 2026 07:54:06 +0800</pubDate>
+<description>&lt;p&gt;The Fed&amp;#x27;s financial stability report shows 87% of polled market professionals now name AI as the top financial risk, up from 50% in spring. AI infrastructure debt surpassed $680B by October, roughly 5x all of 2023 and about 31% of investment-grade corporate borrowing, while big tech and chipmakers carry over $3T in future leases and guarantees that may understate true AI exposure. GPU makers guarantee chip values and invest in the same buyers, creating circular financing, and the largest US banks hold close to $1T of exposure to big tech and data center builders.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美联储警示 AI 成华尔街头号金融风险&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;美联储官方报告首次将 AI 列为头号金融风险，并给出债务规模与循环融资的量化证据，是判断 AI 资本周期风险的关键信号。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2121391185499660332">Rohan Paul (@rohanpaul_ai)</source>
+<category>金融风险</category>
+<category>AI 基础设施</category>
+<category>循环融资</category>
+<category>美联储</category>
+</item>
 <item><title>Amazon Plans World Product Graph to Index Global Shopping Data</title><link>https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search</link><guid isPermaLink="true">https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search</guid>
 <pubDate>Sat, 14 Nov 2026 07:49:11 +0800</pubDate>
 <description>&lt;p&gt;Internal documents reveal Amazon is pursuing a \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊拟建全球商品图谱索引全网购物数据&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 购物智能体时代商品数据入口争夺的关键信号，直接关系电商与智能体生态的权力格局。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 72/100&lt;/p&gt;</description>
@@ -12,6 +21,26 @@
 <category>商品数据</category>
 <category>亚马逊</category>
 </item>
+<item><title>China&#x27;s MIIT Moves to Form Industrial OS Standards Working Group</title><link>https://www.ithome.com/1/027/011.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/011.htm</guid>
+<pubDate>Sat, 14 Nov 2026 07:47:57 +0800</pubDate>
+<description>&lt;p&gt;China&amp;#x27;s Ministry of Industry and Information Technology (MIIT) is accelerating the formation of a standards working group for industrial operating systems, alongside drafting and validating key standards to support large-scale adoption. Industrial OS is positioned as a critical foundation for AI-enabled industry, shifting from single-project pilots toward reusable common platforms plus industry-specific capabilities. A companion AI-plus-software initiative targets 20,000 large software firms by 2028, while IDC forecasts China&amp;#x27;s industrial enterprise AI spending to reach RMB 280 billion by 2030.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;工信部筹建工业操作系统标准工作组&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;工信部推动工业操作系统标准化，直接关系 AI 赋能工业的底座与生态走向，对关注产业落地的读者有明确参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/027/011.htm">IT之家 · IT业界</source>
+<category>工业操作系统</category>
+<category>标准化</category>
+<category>工信部</category>
+<category>工业智能体</category>
+<category>智能制造</category>
+</item>
+<item><title>Multi-Agent Red-Blue Loop Auto-Generates and Proves Detection Rules</title><link>https://github.com/mjha-arya/DOC-foundry</link><guid isPermaLink="true">https://github.com/mjha-arya/DOC-foundry</guid>
+<pubDate>Sat, 14 Nov 2026 07:40:12 +0800</pubDate>
+<description>&lt;p&gt;Detection-as-Code Foundry builds an adversarial multi-agent detection-engineering workflow on LangGraph, Pydantic, FastMCP and Claude, turning threats such as CVEs, CISA KEV entries and ATT&amp;amp;CK techniques into Sigma detection rules hardened through a Blue-vs-Red loop. Its key contribution is shipping a threat report and a reproducible proof bundle with positive corpus, benign baseline, adversarial mutations, FP/FN numbers and a computed coverage label, making rule validity verifiable rather than asserted.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;多智能体红蓝对抗自动生成并验证检测规则&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把检测规则生成升级为可证明的红蓝对抗闭环，是智能体在安全工程落地的少见完整范式。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 71/100&lt;/p&gt;</description>
+<source url="https://github.com/mjha-arya/DOC-foundry">Hacker News AI</source>
+<category>智能体</category>
+<category>安全检测</category>
+<category>多智能体对抗</category>
+<category>Sigma 规则</category>
+<category>LangGraph</category>
+</item>
 <item><title>Anthropic Kicks Off IPO Roadshow With $900B Compute Spending Plan</title><link>https://x.com/rohanpaul_ai/status/2121387496722329833</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121387496722329833</guid>
 <pubDate>Sat, 14 Nov 2026 07:39:27 +0800</pubDate>
 <description>&lt;p&gt;Anthropic launched its Nasdaq IPO roadshow at a JPMorgan event in New York, with CEO Dario Amodei saying the company is \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 启动 IPO 路演 拟投 9000 亿美元建算力&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 头部实验室启动史上最大规模上市与算力资本开支计划，是产业格局级别的关键事件。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 88/100&lt;/p&gt;</description>
@@ -20,6 +49,25 @@
 <category>IPO</category>
 <category>算力基础设施</category>
 <category>融资</category>
+</item>
+<item><title>Macron Convenes European Tech Leaders in Paris on December 2</title><link>https://www.ithome.com/1/027/009.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/009.htm</guid>
+<pubDate>Sat, 14 Nov 2026 07:36:30 +0800</pubDate>
+<description>&lt;p&gt;Macron announced a December 2 meeting with Dutch Prime Minister Jetten in Paris to convene tech leaders and advance European tech sovereignty. He framed the gap as compute, capital and public procurement, while von der Leyen put the broader sovereignty bill at least EUR 500 billion and outlined seven AI gigafactories.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;马克龙 12 月 2 日召集欧洲科技企业巴黎开会&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;欧洲 AI 主权议程进入具体政策与资金落地阶段，涉及算力基建与政府采购，值得持续跟踪。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/027/009.htm">IT之家 · IT业界</source>
+<category>欧洲AI</category>
+<category>科技自主</category>
+<category>算力基建</category>
+<category>产业政策</category>
+</item>
+<item><title>China Releases National Standard for Smart Factories in Process Industries</title><link>https://www.ithome.com/1/027/008.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/008.htm</guid>
+<pubDate>Sat, 14 Nov 2026 07:35:26 +0800</pubDate>
+<description>&lt;p&gt;China&amp;#x27;s market regulator approved GB/T 48536-2026, a national standard governing business management for smart factories in process industries, effective May 1, 2027. The standard introduces the first unified management framework spanning R&amp;amp;D, manufacturing, operations, supply-chain collaboration and management methods, and mandates a unified industrial big-data platform covering the full production flow, while promoting digital twins and AI for scheduling optimization and abnormal-condition handling. It has been piloted at representative petrochemical, metallurgy and pharmaceutical enterprises.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;流程工业智能工厂新国标发布 2027 年 5 月实施&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国家级智能工厂标准落地，为流程工业的 AI 与数据平台建设提供统一合规标尺，直接影响石化、冶金、制药企业的数字化路线选择。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/027/008.htm">IT之家 · IT业界</source>
+<category>智能制造</category>
+<category>国家标准</category>
+<category>流程工业</category>
+<category>工业大数据</category>
+<category>数字孪生</category>
 </item>
 <item><title>Thinking Machines Open-Sources 594B-Parameter 4-Bit Trained Model</title><link>https://x.com/rohanpaul_ai/status/2121385644169769258</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121385644169769258</guid>
 <pubDate>Sat, 14 Nov 2026 07:32:05 +0800</pubDate>
@@ -57,6 +105,14 @@
 <category>Ratatui</category>
 <category>开源</category>
 </item>
+<item><title>Datasette Cluster Map Plugin 0.19 Adds Datasette 1.0a42 Support</title><link>https://simonwillison.net/2026/Nov/13/datasette-cluster-map/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/13/datasette-cluster-map/</guid>
+<pubDate>Sat, 14 Nov 2026 07:02:45 +0800</pubDate>
+<description>&lt;p&gt;The long-running Datasette plugin datasette-cluster-map shipped version 0.19, adding compatibility with Datasette 1.0a42 and depending on the new datasette-leaflet to send a referrer header for OpenStreetMap tile requests. The author also demos a faceted map of PG&amp;amp;E power plants, highlighting Datasette&amp;#x27;s recently redesigned facets.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Datasette 地图插件 0.19 兼容 1.0a42&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Datasette 生态内一次常规插件版本更新，对使用该工具链的开发者有直接可用价值。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · tools · signal 38/100&lt;/p&gt;</description>
+<source url="https://simonwillison.net/2026/Nov/13/datasette-cluster-map/">Simon Willison 博客</source>
+<category>Datasette</category>
+<category>开源插件</category>
+<category>数据可视化</category>
+</item>
 <item><title>Jensen Huang Exit Deals Blow to AI Startup Funding Ecosystem</title><link>https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/</guid>
 <pubDate>Sat, 14 Nov 2026 06:43:00 +0800</pubDate>
 <description>&lt;p&gt;Nvidia co-founder and CEO Jensen Huang has stepped down after 33 years, with CFO Colette Kress named interim CEO. As one of the most prolific AI investors—participating in 105 rounds this year alone, often as lead—Nvidia&amp;#x27;s potential shift in investment direction threatens a capital gap for AI-native startups, with VCs warning of impacts on dealmaking, valuations, and competition.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;黄仁勋卸任英伟达 CEO 引发 AI 创投圈震荡&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达掌舵人更替直接牵动 AI 创投最大资金来源，对初创生态与估值体系影响深远。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 78/100&lt;/p&gt;</description>
@@ -83,6 +139,15 @@
 <category>前缀缓存</category>
 <category>推理成本</category>
 <category>OpenAI</category>
+</item>
+<item><title>Datasette-Leaflet 0.3 Fixes OpenStreetMap Tile Referrer Policy</title><link>https://simonwillison.net/2026/Nov/13/datasette-leaflet/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/13/datasette-leaflet/</guid>
+<pubDate>Sat, 14 Nov 2026 06:30:54 +0800</pubDate>
+<description>&lt;p&gt;The datasette-leaflet plugin for Datasette released version 0.3, changing tile requests&amp;#x27; Referrer-Policy from no-referrer to strict-origin-when-cross-origin to comply with OpenStreetMap&amp;#x27;s referrer requirements for its hosted tile servers. The change passes only the host, not the full page path, and is a small compatibility fix.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;datasette-leaflet 0.3 修复 OSM 瓦片引用策略&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及开源地图插件对 OSM 使用政策的合规修复，对 Datasette 生态开发者有实际参考价值。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · opensource · signal 38/100&lt;/p&gt;</description>
+<source url="https://simonwillison.net/2026/Nov/13/datasette-leaflet/">Simon Willison 博客</source>
+<category>开源</category>
+<category>Datasette</category>
+<category>OpenStreetMap</category>
+<category>Leaflet</category>
 </item>
 <item><title>NVIDIA Open Sources Switchyard to Route Coding Agents by Task Cost</title><link>https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/</guid>
 <pubDate>Sat, 14 Nov 2026 06:30:12 +0800</pubDate>
@@ -165,112 +230,50 @@
 <category>AI for Science</category>
 <category>科研协作</category>
 </item>
-<item><title>OpenAI Launches ChatGPT Wallet for Dots Agent Purchases</title><link>https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet</guid>
+<item><title>OpenAI 推出 ChatGPT Wallet 让 Dots 智能体代付购物</title><link>https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet</guid>
 <pubDate>Sat, 14 Nov 2026 04:45:10 +0800</pubDate>
-<description>&lt;p&gt;OpenAI has launched ChatGPT Wallet for its Dots agent platform, letting agents make purchases on users&amp;#x27; behalf in response to prompts. Rolling out first to US ChatGPT Pro subscribers, every transaction requires biometric confirmation, and OpenAI says merchants and payment risk systems must learn to recognize legitimate agent-initiated purchases.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 推出 ChatGPT Wallet 让 Dots 智能体代付购物&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是智能体从“能做事”迈向“能花钱”的关键一步，直接触及代理支付与风控这一落地瓶颈。&lt;/p&gt;&lt;p&gt;The Verge AI · agent · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 为今年早些时候上线的 Dots 智能体平台推出 ChatGPT Wallet，使智能体可依据用户指令直接完成购物支付。该功能率先面向美国 ChatGPT Pro 订阅用户开放，每笔交易均需生物识别确认，并要求商户与支付风控系统识别智能体发起的合法交易。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是智能体从“能做事”迈向“能花钱”的关键一步，直接触及代理支付与风控这一落地瓶颈。&lt;/p&gt;&lt;p&gt;The Verge AI · agent · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet">The Verge AI</source>
 <category>智能体</category>
 <category>OpenAI</category>
 <category>代理支付</category>
 <category>ChatGPT</category>
 </item>
-<item><title>DeepSeek Opens Full App Stack via API with Search and Voice</title><link>https://x.com/rohanpaul_ai/status/2121340286773457097</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121340286773457097</guid>
+<item><title>DeepSeek 开放完整应用能力 API 含搜索与语音</title><link>https://x.com/rohanpaul_ai/status/2121340286773457097</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121340286773457097</guid>
 <pubDate>Sat, 14 Nov 2026 04:31:51 +0800</pubDate>
-<description>&lt;p&gt;DeepSeek has exposed the full capability stack behind its consumer app through its API, letting developers enable web search, file and PDF parsing, link reading, safety filtering and voice with a few parameters, or call standalone OCR, ASR and TTS endpoints. An open-source frontend demo with conversation-history import support means developers can closely recreate the entire DeepSeek App.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;DeepSeek 开放完整应用能力 API 含搜索与语音&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把消费级 App 的完整能力栈一次性 API 化并附开源前端，显著降低构建同类 AI 应用的工程门槛。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · tools · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;DeepSeek 将自家 App 背后的完整能力通过 API 开放，开发者用少量参数即可启用联网搜索、文件与 PDF 解析、链接读取、内容安全过滤和语音能力，也可单独调用 OCR、ASR、TTS 等独立接口。官方同时提供开源前端 Demo，支持导入 DeepSeek 历史对话，意味着开发者可近乎复刻整个 DeepSeek App。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把消费级 App 的完整能力栈一次性 API 化并附开源前端，显著降低构建同类 AI 应用的工程门槛。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · tools · signal 72/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2121340286773457097">Rohan Paul (@rohanpaul_ai)</source>
 <category>DeepSeek</category>
 <category>API 开放</category>
 <category>多模态</category>
 <category>开源</category>
 </item>
-<item><title>MiniMax H3-Image Tops Open Weights Image Model Rankings</title><link>https://x.com/ArtificialAnlys/status/2121339732026445859</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2121339732026445859</guid>
+<item><title>MiniMax H3-Image 登顶开源图像模型双榜</title><link>https://x.com/ArtificialAnlys/status/2121339732026445859</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2121339732026445859</guid>
 <pubDate>Sat, 14 Nov 2026 04:29:39 +0800</pubDate>
-<description>&lt;p&gt;MiniMax released H3-Image, which becomes the highest-ranked open weights model on both Artificial Analysis Image Arena leaderboards, placing #13 in image editing and #25 in text-to-image overall. A faster API-only variant, H3-Image Highspeed, follows closely at #14 and #24, narrowing the gap between open and closed image models.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;MiniMax H3-Image 登顶开源图像模型双榜&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源图像模型首次在两大权威竞技场同时登顶开源榜首，是开源多模态生态的重要节点。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;MiniMax 发布 H3-Image，在 Artificial Analysis 的图像编辑与文生图两个竞技场中均成为排名最高的开源权重模型，总榜分别位列第 13 与第 25。同时推出的 API 专属加速版 H3-Image Highspeed 以第 14 与第 24 名紧随其后，显示开源图像模型与闭源头部的差距进一步收窄。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源图像模型首次在两大权威竞技场同时登顶开源榜首，是开源多模态生态的重要节点。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 62/100&lt;/p&gt;</description>
 <source url="https://x.com/ArtificialAnlys/status/2121339732026445859">Artificial Analysis (@ArtificialAnlys)</source>
 <category>开源模型</category>
 <category>图像生成</category>
 <category>MiniMax</category>
 <category>基准评测</category>
 </item>
-<item><title>Nvidia&#x27;s $250 Billion Guarantee Program Reportedly Led to Jensen Huang&#x27;s Ouster</title><link>https://the-decoder.com/jensen-huangs-ouster-likely-traces-back-to-nvidias-risky-business-practices-more-than-his-personal-life/</link><guid isPermaLink="true">https://the-decoder.com/jensen-huangs-ouster-likely-traces-back-to-nvidias-risky-business-practices-more-than-his-personal-life/</guid>
+<item><title>黄仁勋被曝因英伟达 2500 亿美元担保计划遭罢免</title><link>https://the-decoder.com/jensen-huangs-ouster-likely-traces-back-to-nvidias-risky-business-practices-more-than-his-personal-life/</link><guid isPermaLink="true">https://the-decoder.com/jensen-huangs-ouster-likely-traces-back-to-nvidias-risky-business-practices-more-than-his-personal-life/</guid>
 <pubDate>Sat, 14 Nov 2026 04:07:34 +0800</pubDate>
-<description>&lt;p&gt;A Wall Street Journal report indicates Jensen Huang&amp;#x27;s removal stemmed primarily from Nvidia&amp;#x27;s risky credit guarantee program rather than his personal life. The program offered AI cloud providers billions in guarantees to purchase Nvidia chips, with the largest deal involving talks with OpenAI over a $250 billion guarantee that interim CEO Colette Kress halved after internal valuation concerns.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;黄仁勋被曝因英伟达 2500 亿美元担保计划遭罢免&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达最高层变动叠加巨额担保计划细节，直接牵动 AI 算力供应链与客户融资模式。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;《华尔街日报》报道称，黄仁勋被免职的主要原因并非个人生活问题，而是英伟达在其主导下推出的一项高风险信贷担保计划。该计划为 AI 云服务商提供数十亿美元担保以购买英伟达芯片，其中与 OpenAI 洽谈的最大一笔担保规模达 2500 亿美元，临时 CEO 科莱特·克雷斯上任后将承诺削减一半。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达最高层变动叠加巨额担保计划细节，直接牵动 AI 算力供应链与客户融资模式。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/jensen-huangs-ouster-likely-traces-back-to-nvidias-risky-business-practices-more-than-his-personal-life/">The Decoder</source>
 <category>英伟达</category>
 <category>黄仁勋</category>
 <category>AI 算力</category>
 <category>公司治理</category>
 </item>
-<item><title>Anthropic&#x27;s Claude Fable 5.2 Tops Agent Arena Leaderboard</title><link>https://x.com/arena/status/2121333119173468261</link><guid isPermaLink="true">https://x.com/arena/status/2121333119173468261</guid>
+<item><title>Claude Fable 5.2 登顶 Agent Arena 榜单</title><link>https://x.com/arena/status/2121333119173468261</link><guid isPermaLink="true">https://x.com/arena/status/2121333119173468261</guid>
 <pubDate>Sat, 14 Nov 2026 04:03:22 +0800</pubDate>
-<description>&lt;p&gt;Third-party evaluation platform Agent Arena reports that Anthropic&amp;#x27;s Claude Fable 5.2 (Max) leads Claude Opus 5.5 (Max) in 9 of 10 ranked categories, with the 10th a statistical tie. Overall net improvement score is 30.48% vs. 19.51%, with the widest gap in visual design (45.34% vs. 23.29%); Business &amp;amp; Finance is too close to call.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Claude Fable 5.2 登顶 Agent Arena 榜单&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部模型在第三方智能体竞技场的排名更替，反映模型能力代际差异，值得关注。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;第三方评测平台 Agent Arena 显示，Anthropic 的 Claude Fable 5.2 (Max) 在 10 个类别中的 9 个领先 Claude Opus 5.5 (Max)，第 10 类为统计持平。整体净提升分 30.48% 对 19.51%，视觉设计差距最大（45.34% 对 23.29%），商业金融领域差距过小无法判定。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部模型在第三方智能体竞技场的排名更替，反映模型能力代际差异，值得关注。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 58/100&lt;/p&gt;</description>
 <source url="https://x.com/arena/status/2121333119173468261">Arena.ai (@arena)</source>
 <category>大模型</category>
 <category>Anthropic</category>
 <category>Agent Arena</category>
 <category>模型评测</category>
-</item>
-<item><title>FreeBSD 15.1 Adds First Working bhyve Live Migration</title><link>https://gyptazy.com/blog/freebsd-bhyve-live-migration-support-rfc/</link><guid isPermaLink="true">https://gyptazy.com/blog/freebsd-bhyve-live-migration-support-rfc/</guid>
-<pubDate>Sat, 14 Nov 2026 03:58:42 +0800</pubDate>
-<description>&lt;p&gt;A first working live-migration implementation for bhyve guests on FreeBSD 15.1 lets a running amd64 guest move between two hosts over TCP, pausing only for the final stop-and-copy phase. Built on bhyve&amp;#x27;s experimental snapshot support, it adds dirty-page tracking to the vmm kernel module plus a migration protocol in bhyve and bhyvectl, and is published as a WIP RFC for open design feedback.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;FreeBSD 15.1 实现 bhyve 虚拟机热迁移&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;FreeBSD 虚拟化长期缺失的关键能力首次落地，对运维与云原生基础设施读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 58/100&lt;/p&gt;</description>
-<source url="https://gyptazy.com/blog/freebsd-bhyve-live-migration-support-rfc/">Hacker News AI</source>
-<category>FreeBSD</category>
-<category>bhyve</category>
-<category>虚拟化</category>
-<category>热迁移</category>
-</item>
-<item><title>Building the Most AI-Native Company Means Owning Your Context</title><link>https://x.com/gregisenberg/status/2121331227009364340</link><guid isPermaLink="true">https://x.com/gregisenberg/status/2121331227009364340</guid>
-<pubDate>Sat, 14 Nov 2026 03:55:51 +0800</pubDate>
-<description>&lt;p&gt;Greg Isenberg lays out a practical playbook for becoming the most AI-native company: build a personal second brain in Obsidian, capture voice notes via Wispr and meeting transcripts via Granola, then feed that private context to agents through CLAUDE.md or AGENTS.md instruction files, cross-session memory tools like claude-mem and mem0, and an Airbyte-to-ClickHouse data pipeline. His core argument: models are identical for everyone, so proprietary context is the only defensible moat.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;打造最 AI 原生公司需构建上下文飞轮&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了一套可立即落地的 AI 原生公司上下文工程方法论，工具链具体、步骤清晰，对构建智能体工作流的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;GREG ISENBERG (@gregisenberg) · agent · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/gregisenberg/status/2121331227009364340">GREG ISENBERG (@gregisenberg)</source>
-<category>智能体</category>
-<category>上下文工程</category>
-<category>知识管理</category>
-<category>数据管道</category>
-</item>
-<item><title>卡内基梅隆新基准：Opus 5.5 智能体超越 SGLang 生产系统</title><link>https://x.com/rohanpaul_ai/status/2121330917801431326</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121330917801431326</guid>
-<pubDate>Sat, 14 Nov 2026 03:54:37 +0800</pubDate>
-<description>&lt;p&gt;卡内基梅隆大学发布 Singularity-Bench 基准，让智能体端到端完成预训练流水线、推理引擎与集群编排等 6 项工程任务，并与 SGLang、NVIDIA Dynamo 等生产系统在同一 GPU 上对比。Opus 5.5 搭配 Claude Code 取得 1.25 的 Singularity-Index（1 为人类基线），其余 10 个智能体平均仅 0.58；其自建服务引擎每 GPU 小时收益 11.52 美元，高于 SGLang 的 8.18 美元。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个以生产级系统为对照、覆盖全栈 AI 工程链路的智能体基准，且给出可量化的经济性对比，对评估智能体真实工程能力具有参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2121330917801431326">Rohan Paul (@rohanpaul_ai)</source>
-<category>智能体</category>
-<category>基准测试</category>
-<category>推理引擎</category>
-<category>卡内基梅隆大学</category>
-</item>
-<item><title>17 位工程师发起 No AI Slop 宣言</title><link>https://www.slopmanifesto.com/</link><guid isPermaLink="true">https://www.slopmanifesto.com/</guid>
-<pubDate>Sat, 14 Nov 2026 03:51:56 +0800</pubDate>
-<description>&lt;p&gt;一群工程师仿照 2001 年敏捷宣言的形式，发布 No AI Slop 宣言，提出以成果优先于产出、理解优先于速度、自主思考优先于模型初稿等五组价值取向，呼吁在 AI 辅助编码与写作中保留人的判断与责任。宣言以公开 Gist 征集签名，属于行业价值观倡议而非技术方案。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 辅助开发时代关于工作方式与质量底线的行业价值观倡议，对重度 AI 从业者具有讨论与参照价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.slopmanifesto.com/">Hacker News AI</source>
-<category>AI 编程</category>
-<category>行业倡议</category>
-<category>开发者文化</category>
-</item>
-<item><title>CodeRabbit 投入 100 万美元为开源维护者免费提供深度扫描</title><link>https://x.com/rohanpaul_ai/status/2121326823862833400</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121326823862833400</guid>
-<pubDate>Sat, 14 Nov 2026 03:38:21 +0800</pubDate>
-<description>&lt;p&gt;CodeRabbit 宣布投入 100 万美元，为开源维护者免费提供 Deep Scan 安全扫描服务。该服务已覆盖 1,125 个公开仓库，发现 1,215 个高危或严重问题，其中 75 个已完成修复。Deep Scan 会先梳理仓库的入口点、信任边界与访问控制，再模拟攻击者路径进行全代码库渗透式排查。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以具体扫描数据揭示开源安全攻防不对称，并给出可落地的免费 AI 安全工具方案。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2121326823862833400">Rohan Paul (@rohanpaul_ai)</source>
-<category>开源安全</category>
-<category>AI 代码审查</category>
-<category>CodeRabbit</category>
-<category>开发者工具</category>
-</item>
-<item><title>LangChain 完成 3 亿美元 C 轮融资 估值达 30 亿美元</title><link>https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/</guid>
-<pubDate>Sat, 14 Nov 2026 03:37:57 +0800</pubDate>
-<description>&lt;p&gt;AI 智能体管理平台 LangChain 完成 3 亿美元 C 轮融资，由 CapitalG 领投，估值达 30 亿美元，较一年前的 12.5 亿美元翻倍有余。公司从开源框架起家，现已转向智能体创建与管理平台 LangSmith，主打模型、云与生态中立，称已拥有 7000 家客户，包括英伟达、丰田、Salesforce 等。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;智能体赛道头部开源公司估值一年翻倍，反映企业级 Agent 管理平台的商业化提速。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 72/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/">TechCrunch AI</source>
-<category>智能体</category>
-<category>融资</category>
-<category>开源</category>
-<category>LangChain</category>
-</item>
-<item><title>AssemblyAI 用 EC2 Spot 降低语音转写推理成本</title><link>https://aws.amazon.com/blogs/machine-learning/cost-optimizing-assemblyai-speech-to-text-inference-on-aws-with-amazon-ec2-spot/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/cost-optimizing-assemblyai-speech-to-text-inference-on-aws-with-amazon-ec2-spot/</guid>
-<pubDate>Sat, 14 Nov 2026 03:35:35 +0800</pubDate>
-<description>&lt;p&gt;AssemblyAI 在 AWS 上重构了其 GPU 推理架构，以 Amazon EC2 Spot 实例承载语音转写负载，在保留 2 分钟中断预警机制的前提下满足 SLA 与延迟要求，同时通过欧洲区域部署满足医疗、金融、法律等受监管客户的数据驻留需求。这是一份面向大规模 GPU 推理降本的工程实践，核心在于用架构设计吸收 Spot 回收带来的抖动。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了大规模 GPU 推理在 Spot 实例上稳定运行的架构思路，对做推理降本的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · compute · signal 58/100&lt;/p&gt;</description>
-<source url="https://aws.amazon.com/blogs/machine-learning/cost-optimizing-assemblyai-speech-to-text-inference-on-aws-with-amazon-ec2-spot/">AWS Machine Learning Blog</source>
-<category>推理降本</category>
-<category>EC2 Spot</category>
-<category>语音转写</category>
-<category>数据驻留</category>
 </item>
 </channel>
 </rss>
