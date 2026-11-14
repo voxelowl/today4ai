@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 14 Nov 2026 09:34:41 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 14 Nov 2026 10:00:24 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Natura Launches Interface Ring to Summon AI Agents With a Thumb Press</title><link>https://x.com/rohanpaul_ai/status/2121422968027034039</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121422968027034039</guid>
+<pubDate>Sat, 14 Nov 2026 10:00:24 +0800</pubDate>
+<description>&lt;p&gt;Natura unveiled Interface, a smart ring that turns a thumb press into a voice request routed by NatureOS to existing agents such as Claude, ChatGPT, Grok Bot, Meta&amp;#x27;s Muse or Instinct, letting users assign different models to different tasks. Responses return via headphones or the iPhone lock screen without unlocking the phone or opening an app. Natura claims it surpassed Oura&amp;#x27;s first-generation 2,383 orders in 30 days within 72 hours.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Natura 推出智能戒指 Interface 一键唤起多个 AI 智能体&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;可穿戴硬件作为多智能体统一入口的尝试，展示了跨模型路由与免解锁交互的产品形态。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2121422968027034039">Rohan Paul (@rohanpaul_ai)</source>
+<category>智能体</category>
+<category>可穿戴设备</category>
+<category>多模型路由</category>
+</item>
+<item><title>Perplexity Brings AI Teammates to Mac Desktop App</title><link>https://www.ithome.com/1/027/050.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/050.htm</guid>
+<pubDate>Sat, 14 Nov 2026 09:58:31 +0800</pubDate>
+<description>&lt;p&gt;Perplexity has rolled out its AI agent feature Teammates to the Mac desktop app for Max subscribers, extending availability beyond iOS and the web. Rather than turn-by-turn chat, Teammates plans and follows through on an ongoing responsibility, scaling to multi-agent collaboration for growth marketing, bug triage, metric tracking and market research. Perplexity disclosed no usage quotas or system requirements, and no independent testing is available yet.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Perplexity 的 AI 队友功能登陆 Mac 桌面端&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是智能体从问答走向持续负责工作流的桌面端落地，对关注 Agent 产品形态的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/027/050.htm">IT之家 · 智能时代</source>
+<category>智能体</category>
+<category>Perplexity</category>
+<category>AI 办公</category>
+</item>
 <item><title>Apple Launches HomeView Smart Home Hub with Face Recognition</title><link>https://www.ithome.com/1/027/043.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/043.htm</guid>
 <pubDate>Sat, 14 Nov 2026 09:34:41 +0800</pubDate>
 <description>&lt;p&gt;Apple&amp;#x27;s first smart home hub, HomeView, went on sale on November 13 in the US and other markets, with official support documents detailing face recognition, guest permissions, sleep timers and personal data protection. The device authenticates users via face recognition combined with a nearby unlocked iOS device, and lets owners restrict guest access to Safari, Siri and explicit content.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;苹果 HomeView 开售 支持人脸识别与访客权限管理&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;苹果首款智能家居中枢落地，人脸识别与访客权限设计对智能家居交互形态有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 58/100&lt;/p&gt;</description>
@@ -77,6 +93,16 @@
 <category>模型评测</category>
 <category>决策模型</category>
 <category>Subquadratic</category>
+</item>
+<item><title>Unsloth Ships Dynamic v3.1 Quantizations for Qwen3.8 Model Family</title><link>https://unsloth.ai/docs/models/qwen3.8</link><guid isPermaLink="true">https://unsloth.ai/docs/models/qwen3.8</guid>
+<pubDate>Sat, 14 Nov 2026 08:06:04 +0800</pubDate>
+<description>&lt;p&gt;Unsloth released Dynamic v3.1 quantizations for the Qwen3.8 family, including the 27B dense model and the 2.4T-A95B MoE variant, shipping GGUF weights across UD-Q4_K_XL down to IQ1_S bit-widths. The update pairs one-line installers with ready-made llama.cpp deployment commands, lowering the barrier to running very large MoE models locally.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Unsloth 发布 Qwen3.8 系列动态量化 v3.1 更新&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向本地推理的开源量化更新，直接提供可用的 GGUF 权重与部署命令，对自托管实践者有即时价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
+<source url="https://unsloth.ai/docs/models/qwen3.8">Hacker News AI</source>
+<category>开源模型</category>
+<category>模型量化</category>
+<category>本地推理</category>
+<category>Unsloth</category>
+<category>Qwen</category>
 </item>
 <item><title>Artificial Analysis Releases Coding Agent Index v2.1</title><link>https://x.com/ArtificialAnlys/status/2121393821955334328</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2121393821955334328</guid>
 <pubDate>Sat, 14 Nov 2026 08:04:35 +0800</pubDate>
@@ -189,35 +215,35 @@
 <category>GPT-6 Astra</category>
 <category>机器人</category>
 </item>
-<item><title>Ratatui Maintainer Proposes New Terminal Border Protocol</title><link>https://www.joshka.net/cell-borders/</link><guid isPermaLink="true">https://www.joshka.net/cell-borders/</guid>
+<item><title>Ratatui 维护者提出终端边框新协议</title><link>https://www.joshka.net/cell-borders/</link><guid isPermaLink="true">https://www.joshka.net/cell-borders/</guid>
 <pubDate>Sat, 14 Nov 2026 07:06:40 +0800</pubDate>
-<description>&lt;p&gt;Josh McKinney, maintainer of Ratatui, has proposed a terminal protocol that draws thin lines on cell edges, enabling borders without consuming extra character cells. The approach targets the limitations of Unicode Box Drawing characters in TUI design and is currently at the discussion and prototype stage, with feedback sought in the Ghostty community.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Ratatui 维护者提出终端边框新协议&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自主流 TUI 框架维护者的终端渲染协议提案，对终端应用与 TUI 开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Ratatui 维护者 Josh McKinney 提出一种终端协议，可在字符单元格边缘绘制细线，从而在不占用额外单元格的情况下实现边框效果。该方案旨在解决 Unicode 制表符（Box Drawing）在 TUI 设计中的局限，目前处于讨论与原型阶段，并已在 Ghostty 社区征集反馈。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自主流 TUI 框架维护者的终端渲染协议提案，对终端应用与 TUI 开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.joshka.net/cell-borders/">Hacker News AI</source>
 <category>终端渲染</category>
 <category>TUI</category>
 <category>Ratatui</category>
 <category>开源</category>
 </item>
-<item><title>Datasette Cluster Map Plugin 0.19 Adds Datasette 1.0a42 Support</title><link>https://simonwillison.net/2026/Nov/13/datasette-cluster-map/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/13/datasette-cluster-map/</guid>
+<item><title>Datasette 地图插件 0.19 兼容 1.0a42</title><link>https://simonwillison.net/2026/Nov/13/datasette-cluster-map/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/13/datasette-cluster-map/</guid>
 <pubDate>Sat, 14 Nov 2026 07:02:45 +0800</pubDate>
-<description>&lt;p&gt;The long-running Datasette plugin datasette-cluster-map shipped version 0.19, adding compatibility with Datasette 1.0a42 and depending on the new datasette-leaflet to send a referrer header for OpenStreetMap tile requests. The author also demos a faceted map of PG&amp;amp;E power plants, highlighting Datasette&amp;#x27;s recently redesigned facets.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Datasette 地图插件 0.19 兼容 1.0a42&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Datasette 生态内一次常规插件版本更新，对使用该工具链的开发者有直接可用价值。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · tools · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Datasette 老牌插件 datasette-cluster-map 发布 0.19 版本，适配 Datasette 1.0a42，并依赖新版 datasette-leaflet 为 OpenStreetMap 瓦片请求带上 referrer 头。作者同时展示了加州 PG&amp;amp;E 电厂数据的分面地图界面，体现 Datasette 近期改版的分面功能。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Datasette 生态内一次常规插件版本更新，对使用该工具链的开发者有直接可用价值。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · tools · signal 38/100&lt;/p&gt;</description>
 <source url="https://simonwillison.net/2026/Nov/13/datasette-cluster-map/">Simon Willison 博客</source>
 <category>Datasette</category>
 <category>开源插件</category>
 <category>数据可视化</category>
 </item>
-<item><title>Hacking Zed Remote Server onto FreeBSD via a 768-Byte Buffer Trick</title><link>https://hayzam.com/blog/03-lying-to-zeds-remote-editor/</link><guid isPermaLink="true">https://hayzam.com/blog/03-lying-to-zeds-remote-editor/</guid>
+<item><title>绕过 768 字节限制让 Zed 远程服务跑上 FreeBSD</title><link>https://hayzam.com/blog/03-lying-to-zeds-remote-editor/</link><guid isPermaLink="true">https://hayzam.com/blog/03-lying-to-zeds-remote-editor/</guid>
 <pubDate>Sat, 14 Nov 2026 06:54:47 +0800</pubDate>
-<description>&lt;p&gt;The author moved from VS Code to Zed for its speed and a native AI kill switch, then got Zed&amp;#x27;s remote development server working on FreeBSD. The key obstacle was a 768-byte buffer limit, and the resulting patch landed in FreeBSD&amp;#x27;s releng/15.2 branch.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;绕过 768 字节限制让 Zed 远程服务跑上 FreeBSD&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;一篇具体的 FreeBSD 平台适配实践，展示了编辑器远程服务移植中的真实工程障碍与修复路径。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;作者为摆脱 VS Code 的臃肿与 AI 功能干扰，转向可一键关闭 AI 的 Zed，并成功让 Zed 远程开发服务在 FreeBSD 上运行。关键障碍是一个 768 字节缓冲区限制，相关补丁已进入 FreeBSD releng/15.2 分支。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;一篇具体的 FreeBSD 平台适配实践，展示了编辑器远程服务移植中的真实工程障碍与修复路径。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
 <source url="https://hayzam.com/blog/03-lying-to-zeds-remote-editor/">Hacker News AI</source>
 <category>开发者工具</category>
 <category>FreeBSD</category>
 <category>Zed</category>
 <category>远程开发</category>
 </item>
-<item><title>Jensen Huang Exit Deals Blow to AI Startup Funding Ecosystem</title><link>https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/</guid>
+<item><title>黄仁勋卸任英伟达 CEO 引发 AI 创投圈震荡</title><link>https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/</guid>
 <pubDate>Sat, 14 Nov 2026 06:43:00 +0800</pubDate>
-<description>&lt;p&gt;Nvidia co-founder and CEO Jensen Huang has stepped down after 33 years, with CFO Colette Kress named interim CEO. As one of the most prolific AI investors—participating in 105 rounds this year alone, often as lead—Nvidia&amp;#x27;s potential shift in investment direction threatens a capital gap for AI-native startups, with VCs warning of impacts on dealmaking, valuations, and competition.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;黄仁勋卸任英伟达 CEO 引发 AI 创投圈震荡&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达掌舵人更替直接牵动 AI 创投最大资金来源，对初创生态与估值体系影响深远。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;英伟达联合创始人兼 CEO 黄仁勋在执掌公司 33 年后正式卸任，CFO Colette Kress 出任临时 CEO。作为近年 AI 创投最大的出资方之一，英伟达今年已参与 105 轮融资且常为领投方，其投资方向的潜在变化令大量 AI 原生初创公司面临资本断档风险。投资人普遍担忧这将冲击交易节奏、估值体系乃至竞争格局。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达掌舵人更替直接牵动 AI 创投最大资金来源，对初创生态与估值体系影响深远。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/">TechCrunch AI</source>
 <category>英伟达</category>
 <category>风险投资</category>
@@ -241,34 +267,6 @@
 <category>前缀缓存</category>
 <category>推理成本</category>
 <category>OpenAI</category>
-</item>
-<item><title>datasette-leaflet 0.3 修复 OSM 瓦片引用策略</title><link>https://simonwillison.net/2026/Nov/13/datasette-leaflet/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/13/datasette-leaflet/</guid>
-<pubDate>Sat, 14 Nov 2026 06:30:54 +0800</pubDate>
-<description>&lt;p&gt;Datasette 的 Leaflet 插件 datasette-leaflet 发布 0.3 版本，将瓦片请求的 Referrer-Policy 从 no-referrer 调整为 strict-origin-when-cross-origin，以符合 OpenStreetMap 对托管瓦片服务器的引用来源要求。该改动仅传递主机名而不暴露完整页面路径，属于小型兼容性修复。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及开源地图插件对 OSM 使用政策的合规修复，对 Datasette 生态开发者有实际参考价值。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · opensource · signal 38/100&lt;/p&gt;</description>
-<source url="https://simonwillison.net/2026/Nov/13/datasette-leaflet/">Simon Willison 博客</source>
-<category>开源</category>
-<category>Datasette</category>
-<category>OpenStreetMap</category>
-<category>Leaflet</category>
-</item>
-<item><title>NVIDIA 开源 Switchyard 按任务成本路由编码智能体</title><link>https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/</guid>
-<pubDate>Sat, 14 Nov 2026 06:30:12 +0800</pubDate>
-<description>&lt;p&gt;NVIDIA 开源 NeMo Switchyard 库，可在 Amazon Bedrock 上为编码智能体按请求动态选择模型，并通过 LiteLLM 集成提供阶段路由等策略。文章主张以“每个成功任务的成本”而非单 token 价格衡量路由效果，因为智能体任务往往需要多轮调用与重试。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供可落地的开源模型路由方案与成本评估口径，对构建编码智能体的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 62/100&lt;/p&gt;</description>
-<source url="https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/">AWS Machine Learning Blog</source>
-<category>智能体</category>
-<category>模型路由</category>
-<category>NVIDIA</category>
-<category>Amazon Bedrock</category>
-<category>开源</category>
-</item>
-<item><title>亚马逊 Bedrock AgentCore V2 快照恢复加速会话启动</title><link>https://aws.amazon.com/blogs/machine-learning/architecture-patterns-for-fast-session-startup-on-amazon-bedrock-agentcore-runtime/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/architecture-patterns-for-fast-session-startup-on-amazon-bedrock-agentcore-runtime/</guid>
-<pubDate>Sat, 14 Nov 2026 06:02:39 +0800</pubDate>
-<description>&lt;p&gt;亚马逊 Bedrock AgentCore runtime 推出 platformVersion V2，通过一次性准备环境并快照、按会话恢复快照的方式，替代逐会话初始化容器，使会话启动更快更稳定，同时回收未使用内存以降低计费。对多数智能体仅需切换版本即可受益，部分场景需重构以充分释放性能。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是智能体托管运行时在会话启动机制上的实质架构优化，对构建低延迟交互式智能体的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 58/100&lt;/p&gt;</description>
-<source url="https://aws.amazon.com/blogs/machine-learning/architecture-patterns-for-fast-session-startup-on-amazon-bedrock-agentcore-runtime/">AWS Machine Learning Blog</source>
-<category>智能体</category>
-<category>亚马逊云科技</category>
-<category>运行时</category>
-<category>会话启动</category>
 </item>
 </channel>
 </rss>
