@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Sat, 14 Nov 2026 10:28:29 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 14 Nov 2026 14:53:32 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Fable 5.2 登顶 Agent Arena，Gemini 4 Hydrogen 提速</title><link>https://todayforai.com/en/story/story-dc8382a0-0bf</link><guid isPermaLink="true">https://todayforai.com/en/story/story-dc8382a0-0bf</guid>
 <pubDate>Sat, 14 Nov 2026 04:45:33 +0800</pubDate>
@@ -55,6 +55,10 @@ Claude Sheets 支持自然语言生成含公式与多标签的可协作表格，
 
 对本地推理与端侧部署开发者而言，v1.0.0 是生态稳定性的关键信号。它降低了企业自托管 AI 的长期维护风险，为私有化部署提供了可预期的升级路径，并进一步巩固了 llama.cpp 作为开源本地推理事实标准的地位。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Hugging Face Blog, IT之家 · 智能时代, Hacker News AI&lt;/p&gt;</description>
 </item>
+<item><title>谷歌多智能体 Teamwork 完成韦伊猜想形式化证明</title><link>https://todayforai.com/en/story/story-e8a175f9-12c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e8a175f9-12c</guid>
+<pubDate>Sat, 14 Nov 2026 14:53:32 +0800</pubDate>
+<description>&lt;p&gt;谷歌扩展 Antigravity 多智能体系统，推出由 Gemini 驱动的 Teamwork 系统，通过并行专业智能体与独立质疑审查机制，完成韦伊猜想形式化证明，累计生成约 180 万行 Lean 代码。该系统还复现了三维纳维-斯托克斯方程有限时间爆破的形式化证明，并在分子结构识别与 C++ 转 Rust 代码重写等任务中取得可验证成果。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Google Research&lt;/p&gt;</description>
+</item>
 <item><title>Thinking Machines 开源 Inkling 2 Small 登顶美国开源模型</title><link>https://todayforai.com/en/story/story-4ac260ee-18f</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4ac260ee-18f</guid>
 <pubDate>Sat, 14 Nov 2026 07:32:05 +0800</pubDate>
 <description>&lt;p&gt;Thinking Machines Lab 以 Apache 2.0 协议开源了 594B 参数的 Inkling 2 Small 模型，该模型从预训练到强化学习全程采用原生 4-bit 前向传播训练，使预训练时间缩短 8%、RL 时间缩短 20%，效率损失仅约 2%。发布即登顶美国开源模型榜首，在 Agent Arena 和 Code Arena 中均表现亮眼。
@@ -70,10 +74,6 @@ Inkling 2 Small 采用 MoE 架构，总参数 594B 但仅激活 17B，支持 100
 前 OpenAI 研究员 Will DePue 主导了这项分析，OpenAI 与 Anthropic 的资深研究员已复核其方法。报告强调，证据仅证明这些实验室能够获取 Blackwell 算力，可能来自境外数据中心租用，并不直接等同于走私或违法。但事件同时牵出英伟达 CEO 黄仁勋因与涉嫌芯片走私的 Megaspeed 高管存在私人关系而离职，使出口管制执行漏洞与英伟达的合规责任成为焦点。
 
 这一发现首次以技术手段揭示中国前沿实验室在出口管制下仍能使用最新一代英伟达硬件，对美国的管制政策有效性构成挑战。若算力获取渠道无法被有效封堵，中国开源模型的迭代速度可能持续超出预期，进而影响全球 AI 竞争格局与监管走向。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, The Decoder, Hacker News AI&lt;/p&gt;</description>
-</item>
-<item><title>Artificial Analysis 发布编程智能体指数 v2.1</title><link>https://todayforai.com/en/story/story-af463d80-b45</link><guid isPermaLink="true">https://todayforai.com/en/story/story-af463d80-b45</guid>
-<pubDate>Sat, 14 Nov 2026 08:04:35 +0800</pubDate>
-<description>&lt;p&gt;Artificial Analysis 发布 Coding Agent Index v2.1，将 FrontierCode 升级至 2.0、Terminal-Bench 升级至 4.1，并强化验证器以抵御奖励攻击。Claude Fable 5.2 与 Claude Opus 5.5 以 58 分并列榜首，但同分档配置的单任务成本相差约 30 倍，从 1.51 美元到 44.22 美元。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
