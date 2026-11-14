@@ -1,8 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 14 Nov 2026 23:40:52 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 15 Nov 2026 00:27:14 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Musk Says Nvidia Supply Deals Rely on Jensen Huang&#x27;s Personal Ties</title><link>https://x.com/rohanpaul_ai/status/2121641114470166784</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121641114470166784</guid>
+<pubDate>Sun, 15 Nov 2026 00:27:14 +0800</pubDate>
+<description>&lt;p&gt;Elon Musk argued that many of Nvidia&amp;#x27;s critical supply-chain agreements rest on handshake deals with Jensen Huang rather than written contracts, warning that some could be lost without him. The remark frames Nvidia&amp;#x27;s moat as founder-level personal trust rather than institutional lock-in, sparking debate over the durability of AI compute supply chains.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;马斯克称英伟达供应链依赖黄仁勋个人关系&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及英伟达算力供应链的治理结构与关键人风险，对关注 AI 基础设施的读者有参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 38/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2121641114470166784">Rohan Paul (@rohanpaul_ai)</source>
+<category>英伟达</category>
+<category>供应链</category>
+<category>算力基础设施</category>
+</item>
+<item><title>Goal Engineering Emerges as Core Discipline for Autonomous Agents</title><link>https://www.langchain.com/blog/goal-engineering</link><guid isPermaLink="true">https://www.langchain.com/blog/goal-engineering</guid>
+<pubDate>Sun, 15 Nov 2026 00:00:01 +0800</pubDate>
+<description>&lt;p&gt;As agents evolve from simple text generation to executing full tasks and pursuing open-ended goals, scoping goals becomes a critical discipline. The article argues that well-designed goals should make feedback easy to give while the agent operates, addressing failures caused by missing context and enabling continuous learning toward greater autonomy. The author predicts prompt and context engineering will fade while goal engineering endures.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;目标工程将取代提示工程成为智能体设计核心&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出智能体设计从提示工程转向目标工程的判断，对关注 Agent 架构演进的读者有方法论参考价值。&lt;/p&gt;&lt;p&gt;LangChain Blog · agent · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.langchain.com/blog/goal-engineering">LangChain Blog</source>
+<category>智能体</category>
+<category>目标工程</category>
+<category>上下文工程</category>
+<category>Agent 架构</category>
+</item>
+<item><title>Formalizing the US Tax Code in Lean to Hunt Unknown Loopholes</title><link>https://lexifina.com/blog/formalizing-the-us-tax-code</link><guid isPermaLink="true">https://lexifina.com/blog/formalizing-the-us-tax-code</guid>
+<pubDate>Sat, 14 Nov 2026 23:41:20 +0800</pubDate>
+<description>&lt;p&gt;The author formalized US retirement-account tax rules in Lean and a blind search rediscovered the backdoor Roth loophole, then proposed formalizing the entire Internal Revenue Code to automatically surface unknown contradictions and mechanical errors. Code, certificates, and searches are released in the CC0 global-law repository&amp;#x27;s lean-proofs folder.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;用 Lean 形式化美国税法以搜索未知漏洞&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把定理证明器用于法律条文形式化并自动搜索漏洞，是 AI for Science 与形式化方法交叉的少见实证案例。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 62/100&lt;/p&gt;</description>
+<source url="https://lexifina.com/blog/formalizing-the-us-tax-code">Hacker News AI</source>
+<category>形式化验证</category>
+<category>Lean</category>
+<category>AI for Science</category>
+<category>法律科技</category>
+</item>
 <item><title>PyPI Rolls Out Redesigned Project Pages with Clearer Security Signals</title><link>https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/</link><guid isPermaLink="true">https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/</guid>
 <pubDate>Sat, 14 Nov 2026 23:40:52 +0800</pubDate>
 <description>&lt;p&gt;PyPI has completed and shipped its redesigned project pages, with a focus on making security signals such as digital attestations and provenance easier for ordinary users to understand. The update was shaped by Python community user research and supported by OpenSSF funding, aiming to counter supply-chain risks from malicious packages.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;PyPI 全新项目页上线 强化安全信号展示&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Python 生态核心基础设施的安全可视化改版，直接影响所有依赖 PyPI 的开发者。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
@@ -199,27 +225,27 @@
 <category>湿实验预测</category>
 <category>科研智能体</category>
 </item>
-<item><title>Runway Open-Sources Praxis-1 Robot Control Model</title><link>https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/</link><guid isPermaLink="true">https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/</guid>
+<item><title>Runway 开源 Praxis-1 机器人控制模型</title><link>https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/</link><guid isPermaLink="true">https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/</guid>
 <pubDate>Sat, 14 Nov 2026 17:45:45 +0800</pubDate>
-<description>&lt;p&gt;Runway has released Praxis-1, its robot control model, with open weights and source code under Apache 2.0. Trained on video and robot data, it maps camera images, text instructions and position data to robot motions, and can be adapted to new robot bodies via additional training. It still confuses similar-looking objects and cannot yet reliably plan complex action sequences on its own.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Runway 开源 Praxis-1 机器人控制模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;视频生成厂商将视频预训练能力迁移至具身控制并完整开源权重与代码，是具身智能开源生态的重要增量。&lt;/p&gt;&lt;p&gt;The Decoder · opensource · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Runway 以 Apache 2.0 协议开源了机器人控制模型 Praxis-1 的权重与源码。该模型基于视频与机器人数据训练，可接收相机图像、文本指令和位置数据并输出对应动作，且能通过追加训练适配新机器人本体。局限在于易混淆相似物体，尚不能独立规划复杂动作序列。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;视频生成厂商将视频预训练能力迁移至具身控制并完整开源权重与代码，是具身智能开源生态的重要增量。&lt;/p&gt;&lt;p&gt;The Decoder · opensource · signal 78/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/">The Decoder</source>
 <category>具身智能</category>
 <category>开源模型</category>
 <category>机器人控制</category>
 <category>Runway</category>
 </item>
-<item><title>Lenovo Unveils Hybrid Token Factory With 2000 Trillion Annual Output</title><link>https://www.qbitai.com/2026/11/510094.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/510094.html</guid>
+<item><title>联想发布混合词元工厂 年产 2000 万亿 Token</title><link>https://www.qbitai.com/2026/11/510094.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/510094.html</guid>
 <pubDate>Sat, 14 Nov 2026 17:41:02 +0800</pubDate>
-<description>&lt;p&gt;Lenovo has unveiled its Wanquan Hybrid Token Factory brand in Zhangjiakou, Hebei, planning a 15,000P super-node cluster that it claims will produce 2 trillion tokens annually at 70% lower cost. The \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;联想发布混合词元工厂 年产 2000 万亿 Token&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;算力基础设施从卖硬件转向工业化量产 Token 的新范式，值得关注其后续落地细节。&lt;/p&gt;&lt;p&gt;量子位官网 · compute · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;联想集团在河北张家口发布“万全混合词元工厂”品牌，规划 15000P 超节点集群，宣称年产 2000 万亿 Token、成本降低 70%，以“绿电进、词元出”的工业化模式整合异构算力与模型，输出按需计费的 Token 服务。该方案试图回应企业 Token 支出高企、算力利用率低与敏感业务私有化部署的矛盾，但具体调度架构、模型清单与计费细则尚未公开。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;算力基础设施从卖硬件转向工业化量产 Token 的新范式，值得关注其后续落地细节。&lt;/p&gt;&lt;p&gt;量子位官网 · compute · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.qbitai.com/2026/11/510094.html">量子位官网</source>
 <category>算力基础设施</category>
 <category>联想</category>
 <category>Token 经济</category>
 <category>绿色数据中心</category>
 </item>
-<item><title>Jensen Huang Exits Nvidia as Wall Street Bets AI Boom Endures</title><link>https://www.ithome.com/1/027/184.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/184.htm</guid>
+<item><title>黄仁勋离任英伟达 CEO 华尔街押注 AI 投资热潮延续</title><link>https://www.ithome.com/1/027/184.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/184.htm</guid>
 <pubDate>Sat, 14 Nov 2026 17:19:02 +0800</pubDate>
-<description>&lt;p&gt;Jensen Huang&amp;#x27;s departure as Nvidia CEO triggered a brief 14% stock plunge, yet Wall Street largely expects the AI investment boom to continue, with Broadcom and AMD seen as beneficiaries. Analysts point to sustained compute demand and hyperscaler commitments through 2027 as near-term support, while Huang&amp;#x27;s sprawling circular investment network across AI startups may loosen.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;黄仁勋离任英伟达 CEO 华尔街押注 AI 投资热潮延续&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达最高层变动是 AI 算力产业链的标志性事件，直接影响投资格局与竞争版图判断。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;黄仁勋离任英伟达 CEO 引发股价一度暴跌 14%，但华尔街主流观点认为 AI 投资热潮不会因此逆转，博通与 AMD 被视为潜在受益者。分析师强调 AI 算力需求与超大规模云厂商至 2027 年的投资承诺构成短期支撑，但黄仁勋主导的产业链循环投资关系可能面临松动。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达最高层变动是 AI 算力产业链的标志性事件，直接影响投资格局与竞争版图判断。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/027/184.htm">IT之家 · IT业界</source>
 <category>英伟达</category>
 <category>AI 投资</category>
@@ -243,33 +269,6 @@
 <category>智能体</category>
 <category>学术综述</category>
 <category>自主科研</category>
-</item>
-<item><title>12 个 AI 进群当同事，OpenAI 包揽前二且成本低 17 倍</title><link>https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652743065&amp;idx=2&amp;sn=1a4290d6a0151b95f34f287bf2f6e711</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652743065&amp;idx=2&amp;sn=1a4290d6a0151b95f34f287bf2f6e711</guid>
-<pubDate>Sat, 14 Nov 2026 17:06:00 +0800</pubDate>
-<description>&lt;p&gt;数据协作平台 Deepnote 创始人 Jakub Jurovych 发布 Agent Initiative Benchmark，将 12 个前沿模型放入同一企业 Slack 群中充当 AI 同事，考察其自主判断何时介入、何时沉默的能力。结果显示 OpenAI 的 GPT-6 Astra 与 GPT-6.1 Sol 包揽前二，其中 Sol 单任务成本仅 0.11 美元，而排名第三的 Anthropic Fable 5.2 单任务成本 1.87 美元、得分反而更低，折算 70 人公司月度账单相差约 16 倍。评测还揭示极端性价比落差：Fable 5.1 每单 3.02 美元与 GPT-6 Luna 每单 0.007 美元相差 430 倍，得分仅差 1.1 分。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个以“AI 同事主动介入判断”为核心的真实协作场景评测，且给出极具冲击力的成本效益对比，对智能体落地选型有直接参考价值。&lt;/p&gt;&lt;p&gt;新智元 (微信公众号) · agent · signal 72/100&lt;/p&gt;</description>
-<source url="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652743065&amp;idx=2&amp;sn=1a4290d6a0151b95f34f287bf2f6e711">新智元 (微信公众号)</source>
-<category>智能体</category>
-<category>基准评测</category>
-<category>OpenAI</category>
-<category>Anthropic</category>
-<category>成本效益</category>
-</item>
-<item><title>英特尔联合 23 家韩企组建 AI 全栈联盟</title><link>https://www.ithome.com/1/027/180.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/180.htm</guid>
-<pubDate>Sat, 14 Nov 2026 17:03:04 +0800</pubDate>
-<description>&lt;p&gt;英特尔在首尔 AI 峰会上宣布联合 23 家韩国本土企业成立“K-AI 全栈联盟”，覆盖服务器制造、NPU 设计、大模型开发与云服务，目标是构建面向韩国市场的主权 AI 与开放基础设施生态。英特尔同时首次公开展示数据中心推理加速器 D270，350 瓦功耗下提供 26,200 TFLOPS FP4 算力，并宣称在 Gemma 推理延迟、智能体性能与金融仿真上优于英伟达 RTX 6000 Pro。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英特尔以联盟形式切入主权 AI 市场并首次亮出 D 系列推理芯片实体，是算力竞争格局中的实质动向。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 72/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/180.htm">IT之家 · IT业界</source>
-<category>英特尔</category>
-<category>主权 AI</category>
-<category>AI 芯片</category>
-<category>韩国</category>
-</item>
-<item><title>美联储理事巴尔警告 AI 普及或加剧收入不平等</title><link>https://www.ithome.com/1/027/177.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/177.htm</guid>
-<pubDate>Sat, 14 Nov 2026 16:54:52 +0800</pubDate>
-<description>&lt;p&gt;美联储理事迈克尔·巴尔在耶鲁大学演讲中警告，AI 快速普及短期内可能加剧收入不平等，若少数 AI 企业主导市场，市场集中度上升将进一步拉大差距。他呼吁政策制定者趁 AI 普及尚处早期，立即建立劳动力市场冲击的防范机制。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;美联储高层就 AI 与收入分配首次系统表态，属政策信号而非技术增量，对关注 AI 社会影响的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/177.htm">IT之家 · 智能时代</source>
-<category>AI 监管</category>
-<category>收入不平等</category>
-<category>美联储</category>
 </item>
 </channel>
 </rss>
