@@ -51,6 +51,14 @@ Claude Sheets 支持自然语言生成含公式与多标签的可协作表格，
 
 此举标志着 OpenAI 对机器人技术路线的重大转向：从专用模型转向通用模型驱动，可能重塑具身智能领域的竞争格局。若通用模型能有效充当机器人大脑，将大幅降低机器人 AI 的开发门槛，加速通用机器人的商业化进程，同时也对专用机器人 AI 公司构成潜在冲击。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;The Decoder, 新智元 (微信公众号), IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
+<item><title>DeepSeek 开放全家桶 API 开发者可 1:1 复刻完整 App</title><link>https://todayforai.com/en/story/story-8944917e-71c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-8944917e-71c</guid>
+<pubDate>Sat, 14 Nov 2026 10:39:56 +0800</pubDate>
+<description>&lt;p&gt;DeepSeek 正式开放其应用全家桶 API，将联网搜索、深度思考搜索、文件上传、链接阅读以及首次开放的语音识别与合成能力拆分为独立接口，支持单独调用与分别计费。官方称开发者可 1:1 复刻完整 DeepSeek App，并同步开源轻量级聊天前端 Demo，支持导入历史对话。
+
+相比 10 月需自行串联工具调用的 Search/Fetch 接口，新接口由模型自动完成搜索决策与多步衔接，服务端自动完成工具调用与上下文拼接。V4.1-Flash 模型在 Messages、Responses 与 Chat Completions 接口下支持联网搜索、深度思考搜索、文件输入、链接阅读与安全校验。Search、Fetch、OCR、ASR、TTS 均可作为独立接口单独调用，便于接入自有工作流。工具调用按次计费，如搜索 5 元/千次。
+
+此次开放标志着 DeepSeek 从模型提供商向应用平台演进，开发者可快速构建具备完整对话能力的 AI 应用，降低开发门槛。语音能力的开放补齐了多模态交互短板，开源前端 Demo 进一步加速生态建设，预计将吸引大量开发者基于 DeepSeek 构建垂直应用，推动 AI 应用生态繁荣。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;量子位官网, IT之家 · 智能时代, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
+</item>
 <item><title>Anthropic 启动 IPO 路演 最高募资 904 亿美元</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
 <pubDate>Sat, 14 Nov 2026 07:39:27 +0800</pubDate>
 <description>&lt;p&gt;Anthropic 正式启动首次公开募股路演，计划以每股 70 至 78 美元发行 8.25 亿股 A 类普通股，基础募资规模最高约 643.5 亿美元，并以代码 ANT 登陆纳斯达克。若计入向谷歌、英伟达、微软、台积电等七家巨头定向私募配售的 260 亿美元 N 类普通股，合计融资规模最高可达 904 亿美元，完全稀释估值约 1.4 万亿美元，成为 AI 行业迄今规模最大的资本事件。
@@ -66,10 +74,6 @@ Claude Sheets 支持自然语言生成含公式与多标签的可协作表格，
 综合多家信源，Muse 以 AI 合成语音拨打电话，能力上延续了 2018 年 Google Duplex 演示的方向，但如今已成为常驻智能体的标准配置。实际落地中，不少商家一旦识别出 AI 来电便直接挂断，成为该功能面临的主要障碍。Meta 因此不得不调整策略，而合成语音日益逼真也让商家识别愈发困难。目前 Google Gemini、Instinct 及 xAI Grok Bot 已具备类似代打电话能力，OpenAI 与 Anthropic 尚未跟进。
 
 这一进展标志着消费级 AI 智能体从文本交互迈向真实世界任务执行，但商家端的信任与接受度仍是规模化落地的关键瓶颈。若 Meta 能通过策略调整提升接通率，代打电话有望成为智能体的标配功能，并推动语音 AI 在客服、预约等场景的普及；反之，若商家持续抵制，可能延缓整个赛道从演示走向日常应用的进程。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, TechCrunch AI, The Decoder&lt;/p&gt;</description>
-</item>
-<item><title>谷歌多智能体 Teamwork 完成韦伊猜想形式化证明</title><link>https://todayforai.com/en/story/story-e8a175f9-12c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e8a175f9-12c</guid>
-<pubDate>Sat, 14 Nov 2026 14:53:32 +0800</pubDate>
-<description>&lt;p&gt;谷歌扩展 Antigravity 多智能体系统，推出由 Gemini 驱动的 Teamwork 系统，通过并行专业智能体与独立质疑审查机制，完成韦伊猜想形式化证明，累计生成约 180 万行 Lean 代码。该系统还复现了三维纳维-斯托克斯方程有限时间爆破的形式化证明，并在分子结构识别与 C++ 转 Rust 代码重写等任务中取得可验证成果。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Google Research&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
