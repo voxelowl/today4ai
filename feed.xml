@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 14 Nov 2026 17:19:02 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 14 Nov 2026 18:06:01 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Cloudflare Open-Sources Kitesurf Agent Browser With Lower Resource Use Than Chromium</title><link>https://www.ithome.com/1/027/197.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/197.htm</guid>
+<pubDate>Sat, 14 Nov 2026 18:06:01 +0800</pubDate>
+<description>&lt;p&gt;Cloudflare open-sourced Kitesurf on November 13, a browser built specifically for AI agents that runs on Cloudflare Workers and handles HTML parsing, CSS application, JavaScript execution and page screenshots without any Chromium process or container. Cloudflare says it targets agent-centric metrics such as token consumption, context window, scalability and cost, and consumes significantly less CPU and memory than Chromium on tasks like screenshots and HTML extraction, enabling higher-concurrency agent workloads.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Cloudflare 开源智能体浏览器 Kitesurf 资源消耗低于 Chromium&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流云厂商开源面向智能体的轻量浏览器引擎，直接降低网页自动化智能体的算力与成本门槛。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/027/197.htm">IT之家 · 智能时代</source>
+<category>智能体</category>
+<category>开源</category>
+<category>Cloudflare</category>
+<category>浏览器自动化</category>
+</item>
+<item><title>Runway Open-Sources Praxis-1 Robot Control Model</title><link>https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/</link><guid isPermaLink="true">https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/</guid>
+<pubDate>Sat, 14 Nov 2026 17:45:45 +0800</pubDate>
+<description>&lt;p&gt;Runway has released Praxis-1, its robot control model, with open weights and source code under Apache 2.0. Trained on video and robot data, it maps camera images, text instructions and position data to robot motions, and can be adapted to new robot bodies via additional training. It still confuses similar-looking objects and cannot yet reliably plan complex action sequences on its own.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Runway 开源 Praxis-1 机器人控制模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;视频生成厂商将视频预训练能力迁移至具身控制并完整开源权重与代码，是具身智能开源生态的重要增量。&lt;/p&gt;&lt;p&gt;The Decoder · opensource · signal 78/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/">The Decoder</source>
+<category>具身智能</category>
+<category>开源模型</category>
+<category>机器人控制</category>
+<category>Runway</category>
+</item>
 <item><title>Jensen Huang Exits Nvidia as Wall Street Bets AI Boom Endures</title><link>https://www.ithome.com/1/027/184.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/184.htm</guid>
 <pubDate>Sat, 14 Nov 2026 17:19:02 +0800</pubDate>
 <description>&lt;p&gt;Jensen Huang&amp;#x27;s departure as Nvidia CEO triggered a brief 14% stock plunge, yet Wall Street largely expects the AI investment boom to continue, with Broadcom and AMD seen as beneficiaries. Analysts point to sustained compute demand and hyperscaler commitments through 2027 as near-term support, while Huang&amp;#x27;s sprawling circular investment network across AI startups may loosen.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;黄仁勋离任英伟达 CEO 华尔街押注 AI 投资热潮延续&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达最高层变动是 AI 算力产业链的标志性事件，直接影响投资格局与竞争版图判断。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 78/100&lt;/p&gt;</description>
@@ -196,9 +214,9 @@
 <category>本地推理</category>
 <category>量化</category>
 </item>
-<item><title>Natura Launches Interface Ring to Summon AI Agents With a Thumb Press</title><link>https://x.com/rohanpaul_ai/status/2121422968027034039</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121422968027034039</guid>
+<item><title>Natura 推出智能戒指 Interface 一键唤起多个 AI 智能体</title><link>https://x.com/rohanpaul_ai/status/2121422968027034039</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121422968027034039</guid>
 <pubDate>Sat, 14 Nov 2026 10:00:24 +0800</pubDate>
-<description>&lt;p&gt;Natura unveiled Interface, a smart ring that turns a thumb press into a voice request routed by NatureOS to existing agents such as Claude, ChatGPT, Grok Bot, Meta&amp;#x27;s Muse or Instinct, letting users assign different models to different tasks. Responses return via headphones or the iPhone lock screen without unlocking the phone or opening an app. Natura claims it surpassed Oura&amp;#x27;s first-generation 2,383 orders in 30 days within 72 hours.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Natura 推出智能戒指 Interface 一键唤起多个 AI 智能体&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;可穿戴硬件作为多智能体统一入口的尝试，展示了跨模型路由与免解锁交互的产品形态。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Natura 发布智能戒指 Interface，用户拇指按压即可发起语音请求，由 NatureOS 路由至 Claude、ChatGPT、Grok Bot、Meta Muse 或 Instinct 等已有智能体，并按任务类型分配不同模型。回答通过耳机或 iPhone 锁屏直接返回，无需解锁手机或打开应用。官方称其 72 小时预订量已超过 Oura 初代 30 天的 2383 单。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;可穿戴硬件作为多智能体统一入口的尝试，展示了跨模型路由与免解锁交互的产品形态。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2121422968027034039">Rohan Paul (@rohanpaul_ai)</source>
 <category>智能体</category>
 <category>可穿戴设备</category>
@@ -243,23 +261,6 @@
 <category>Claude Code</category>
 <category>开发者工具</category>
 <category>主题定制</category>
-</item>
-<item><title>Anthropic 拆解 24 小时在线 Agent 的五大构件</title><link>https://x.com/dotey/status/2121406975279792268</link><guid isPermaLink="true">https://x.com/dotey/status/2121406975279792268</guid>
-<pubDate>Sat, 14 Nov 2026 08:56:51 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 发布《Building always-on agents》技术文章，由 William Hu 撰写，系统拆解了常驻型 AI Agent 的五个核心构件：事件驱动的收件箱唤醒机制、定时器主动触发、持久化记忆文件夹、账号权限约束与发件箱出口控制。文章重点讨论并发事件冲突处理、记忆精简策略、敏感操作的人工确认流程，以及为何建议初期让 Agent 保持低打扰。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Anthropic 官方首次系统化拆解常驻 Agent 的工程架构，对构建生产级 Agent 的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · agent · signal 62/100&lt;/p&gt;</description>
-<source url="https://x.com/dotey/status/2121406975279792268">宝玉 (@dotey)</source>
-<category>AI Agent</category>
-<category>Anthropic</category>
-<category>工程架构</category>
-</item>
-<item><title>SBF 当年 5 亿美元投资 Anthropic 如今价值约 370 亿美元</title><link>https://x.com/rohanpaul_ai/status/2121400552927985769</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121400552927985769</guid>
-<pubDate>Sat, 14 Nov 2026 08:31:20 +0800</pubDate>
-<description>&lt;p&gt;FT 报道指出，Sam Bankman-Fried 旗下 Alameda Research Ventures 于 2021 年以约 4 亿美元估值买入 Anthropic 近 14% 股份，投入 5 亿美元；按下周预期 IPO 定价，这笔股份价值约 370 亿美元。FTX 破产后，破产财产已于 2024 年以约 13 亿美元出售该股份。同一基金还曾以 20 万美元获得 Cursor 母公司 Anysphere 约 5% 股权，2023 年原价卖出，而按 SpaceX 收购 Anysphere 的 600 亿美元估值，这部分股权本可值约 30 亿美元。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以 Anthropic 预期 IPO 定价为锚，量化 FTX 破产财产过早出售股份的机会成本，是观察 AI 资产估值膨胀的典型样本。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 72/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2121400552927985769">Rohan Paul (@rohanpaul_ai)</source>
-<category>Anthropic</category>
-<category>IPO</category>
-<category>FTX</category>
-<category>风险投资</category>
 </item>
 </channel>
 </rss>
