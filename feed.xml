@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 15 Nov 2026 08:42:33 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 15 Nov 2026 10:13:57 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>SK Group Orders All Subsidiaries to Rebuild as AI Companies</title><link>https://www.ithome.com/1/027/277.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/277.htm</guid>
+<pubDate>Sun, 15 Nov 2026 10:13:57 +0800</pubDate>
+<description>&lt;p&gt;SK Group Chairman Chey Tae-won told the conglomerate&amp;#x27;s CEOs to break existing frameworks and reposition every subsidiary as an AI company, extending from AI semiconductors, infrastructure and energy into services to build an \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SK 集团宣布所有子公司全面转型 AI 企业&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;韩国第二大财阀最高层明确下达全集团 AI 转型指令，是观察大企业 AI 组织变革与算力需求走向的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/027/277.htm">IT之家 · 智能时代</source>
+<category>产业转型</category>
+<category>SK 集团</category>
+<category>AI 基础设施</category>
+</item>
 <item><title>LG U+ to Enter AI Token Business Next Year with Heterogeneous Chips</title><link>https://www.ithome.com/1/027/262.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/262.htm</guid>
 <pubDate>Sun, 15 Nov 2026 08:42:33 +0800</pubDate>
 <description>&lt;p&gt;South Korean carrier LG U+ will enter the B2B AI token business next year, targeting enterprise AI transformation costs with three technologies: Harness Engineering for agent task paths, intelligent model routing, and a heterogeneous chip mix. Its in-house on-device model shrinks by a third while retaining over 95% of a general cloud model&amp;#x27;s performance, and a small-model-generates, large-model-verifies flow more than doubles token generation speed. The move means all three major Korean carriers will compete in the token economy.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;LG U+ 明年进军 AI Token 业务 异构芯片降本&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;电信运营商以异构芯片与路由技术切入 Token 经济，是算力商业化路径的实质信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 58/100&lt;/p&gt;</description>
@@ -210,9 +218,9 @@
 <category>系统韧性</category>
 <category>AWS</category>
 </item>
-<item><title>Goal Engineering Emerges as Core Discipline for Autonomous Agents</title><link>https://www.langchain.com/blog/goal-engineering</link><guid isPermaLink="true">https://www.langchain.com/blog/goal-engineering</guid>
+<item><title>目标工程将取代提示工程成为智能体设计核心</title><link>https://www.langchain.com/blog/goal-engineering</link><guid isPermaLink="true">https://www.langchain.com/blog/goal-engineering</guid>
 <pubDate>Sun, 15 Nov 2026 00:00:01 +0800</pubDate>
-<description>&lt;p&gt;As agents evolve from simple text generation to executing full tasks and pursuing open-ended goals, scoping goals becomes a critical discipline. The article argues that well-designed goals should make feedback easy to give while the agent operates, addressing failures caused by missing context and enabling continuous learning toward greater autonomy. The author predicts prompt and context engineering will fade while goal engineering endures.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;目标工程将取代提示工程成为智能体设计核心&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出智能体设计从提示工程转向目标工程的判断，对关注 Agent 架构演进的读者有方法论参考价值。&lt;/p&gt;&lt;p&gt;LangChain Blog · agent · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;随着智能体从简单文本生成演进到执行完整任务并追求开放式目标，设计目标范围成为关键能力。文章提出，好的目标设计应让智能体运行过程中的反馈尽可能容易，从而弥补上下文缺失导致的失误，并让智能体持续学习、提升自主性。作者断言提示工程与上下文工程终将消失，而目标工程将长期存在。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出智能体设计从提示工程转向目标工程的判断，对关注 Agent 架构演进的读者有方法论参考价值。&lt;/p&gt;&lt;p&gt;LangChain Blog · agent · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.langchain.com/blog/goal-engineering">LangChain Blog</source>
 <category>智能体</category>
 <category>目标工程</category>
@@ -263,16 +271,6 @@
 <category>亚马逊</category>
 <category>具身智能</category>
 <category>物流</category>
-</item>
-<item><title>双 DGX Station 本地部署 GLM-5.3 达 607.8 tok/s</title><link>https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/</link><guid isPermaLink="true">https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/</guid>
-<pubDate>Sat, 14 Nov 2026 22:09:25 +0800</pubDate>
-<description>&lt;p&gt;NVIDIA 发布技术教程，展示如何用两台 DGX Station 通过 ConnectX-8 RDMA 互联，以 vLLM 张量并行（TP=2）方式本地部署 7530 亿参数的 GLM-5.3 NVFP4 量化模型，实现单端点 607.8 tok/s 的推理吞吐。核心难点在于 464 GB 权重超出单卡 252 GB HBM3e 容量，方案通过跨机张量并行将权重与计算分摊到两块 GB300 GPU，并禁用 CPU 权重卸载以保持全 GPU 驻留。该实践为前沿规模 MoE 模型的桌面级本地部署提供了可复现的工程路径与并发压测方法。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了前沿规模 MoE 模型跨机本地部署的具体参数、拓扑与吞吐数据，对算力基础设施读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 72/100&lt;/p&gt;</description>
-<source url="https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/">Hacker News AI</source>
-<category>vLLM</category>
-<category>DGX Station</category>
-<category>MoE</category>
-<category>本地推理</category>
-<category>NVFP4</category>
 </item>
 </channel>
 </rss>
