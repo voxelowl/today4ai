@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 15 Nov 2026 12:40:41 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 15 Nov 2026 13:18:14 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Grok Bot Team Merges 11K PRs Monthly With AI Coding Discipline</title><link>https://x.com/dotey/status/2121835140850602200</link><guid isPermaLink="true">https://x.com/dotey/status/2121835140850602200</guid>
+<pubDate>Sun, 15 Nov 2026 13:18:14 +0800</pubDate>
+<description>&lt;p&gt;Lauren Tan, who leads the Grok Bot desktop app at SpaceXAI, shared her team&amp;#x27;s AI coding playbook at the AI Engineer conference: encode every correction as a lint rule instead of prose in agent docs, keep the codebase clean so AI does not copy bad patterns, ban error-prone APIs and 99% of comments, and have AI run and self-verify its own work with recordings. The team merged 11,000 PRs last month with roughly 0.5% reverted, and the app is faster than at launch.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Grok Bot 团队月合并 1.1 万 PR 的 AI 编码实践&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自一线团队的可操作 AI 编码工程实践，附具体量化结果，对使用编码智能体的开发者直接可用。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · agent · signal 71/100&lt;/p&gt;</description>
+<source url="https://x.com/dotey/status/2121835140850602200">宝玉 (@dotey)</source>
+<category>AI 编码</category>
+<category>智能体工程</category>
+<category>代码质量</category>
+<category>Grok Bot</category>
+</item>
 <item><title>Kiri Launches Container Runtime Claiming 8x Faster Startup Than Docker</title><link>https://runkiri.com/</link><guid isPermaLink="true">https://runkiri.com/</guid>
 <pubDate>Sun, 15 Nov 2026 12:40:41 +0800</pubDate>
 <description>&lt;p&gt;Kiri is a modern container runtime that stays drop-in compatible with the Docker ecosystem while claiming a docker run cold start of just 22 ms versus 178 ms on Docker Desktop, 152 ms on Colima and 279 ms on OrbStack, roughly an 8x gap. It keeps the native docker CLI, Compose, Buildx, Docker Engine API and OCI image compatibility, and is now available as a free beta on Mac, Windows and Linux.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Kiri 容器运行时发布 启动速度达 Docker 8 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;对本地开发容器工具链的实测性能对比与 Docker 兼容替代方案，开发者可立即评估迁移。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
@@ -202,18 +211,18 @@
 <category>文件操作</category>
 <category>AI 风险</category>
 </item>
-<item><title>Lovable Apps Leak Passport Data and 200K Private Messages</title><link>https://www.crissyfield.de/research/lovable-en/</link><guid isPermaLink="true">https://www.crissyfield.de/research/lovable-en/</guid>
+<item><title>Lovable 平台 15.9 万应用泄露护照与 20 万私信</title><link>https://www.crissyfield.de/research/lovable-en/</link><guid isPermaLink="true">https://www.crissyfield.de/research/lovable-en/</guid>
 <pubDate>Sun, 15 Nov 2026 01:43:10 +0800</pubDate>
-<description>&lt;p&gt;Security researchers scanned 159,041 Lovable-generated projects and found many exposing passports, private messages and other sensitive data without any login. The incident highlights systemic gaps in default security posture and data-permission design across AI low-code platforms, with non-technical builders most at risk.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Lovable 平台 15.9 万应用泄露护照与 20 万私信&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大规模实测数据揭示 AI 低代码平台的默认安全风险，对使用此类工具的开发者具有直接警示价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;安全研究团队扫描了 159,041 个 Lovable 生成项目，发现大量应用在未登录状态下即可访问个人证件、私密消息等敏感数据。事件暴露了 AI 低代码平台在默认安全配置与数据权限设计上的系统性缺口，对无编程背景的构建者尤为危险。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大规模实测数据揭示 AI 低代码平台的默认安全风险，对使用此类工具的开发者具有直接警示价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.crissyfield.de/research/lovable-en/">Hacker News AI</source>
 <category>AI 编程</category>
 <category>数据安全</category>
 <category>低代码平台</category>
 <category>Lovable</category>
 </item>
-<item><title>Tech Giants Race to Put AI Data Centers in Orbit</title><link>https://www.forethought.org/research/will-we-really-put-data-centers-in-space</link><guid isPermaLink="true">https://www.forethought.org/research/will-we-really-put-data-centers-in-space</guid>
+<item><title>科技巨头竞逐太空 AI 数据中心</title><link>https://www.forethought.org/research/will-we-really-put-data-centers-in-space</link><guid isPermaLink="true">https://www.forethought.org/research/will-we-really-put-data-centers-in-space</guid>
 <pubDate>Sun, 15 Nov 2026 01:35:33 +0800</pubDate>
-<description>&lt;p&gt;Several major technology companies have announced plans to operate AI data centers in orbit, with Elon Musk publicly endorsing the idea. The podcast examines technical feasibility and engineering hurdles, including thermal management, power supply, satellite decommissioning and orbital debris handling.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;科技巨头竞逐太空 AI 数据中心&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;太空算力是算力基础设施的前沿方向，涉及散热、供电与轨道运维等真实工程约束，值得关注。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;多家大型科技公司已宣布在轨运行 AI 数据中心的计划，马斯克也公开表态支持。播客深入讨论其技术可行性与工程障碍，包括散热、供电、卫星退役与轨道碎片处理等关键难题。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;太空算力是算力基础设施的前沿方向，涉及散热、供电与轨道运维等真实工程约束，值得关注。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.forethought.org/research/will-we-really-put-data-centers-in-space">Hacker News AI</source>
 <category>算力基础设施</category>
 <category>太空数据中心</category>
@@ -262,15 +271,6 @@
 <category>英伟达</category>
 <category>供应链</category>
 <category>算力基础设施</category>
-</item>
-<item><title>云基础设施脆弱性暴露 工程师回归裸金属</title><link>https://soargram.io/content/369523282</link><guid isPermaLink="true">https://soargram.io/content/369523282</guid>
-<pubDate>Sun, 15 Nov 2026 00:10:57 +0800</pubDate>
-<description>&lt;p&gt;文章指出云并非抽象无重力的存在，而是由墙体、冷却管道和电缆构成的实体建筑。去年 5 月单个 AWS 数据中心过热，导致 Coinbase 宕机、Cloudflare 脚本笔误令数千网站不可见，暴露了现代互联网对少数超大规模供应商的脆弱依赖。作者认为业界正为集中化付出代价，部分资深工程师开始悄然回归裸金属部署。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以具体事故案例剖析云集中化的系统性风险与裸金属回归趋势，对基础设施读者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 58/100&lt;/p&gt;</description>
-<source url="https://soargram.io/content/369523282">Hacker News AI</source>
-<category>云计算</category>
-<category>基础设施</category>
-<category>系统韧性</category>
-<category>AWS</category>
 </item>
 </channel>
 </rss>

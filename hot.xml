@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Sun, 15 Nov 2026 05:41:22 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 15 Nov 2026 13:18:14 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>黄仁勋辞任英伟达 CEO 市值蒸发近 2 万亿美元</title><link>https://todayforai.com/en/story/story-9954eb0b-f56</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9954eb0b-f56</guid>
 <pubDate>Sun, 15 Nov 2026 05:41:22 +0800</pubDate>
@@ -47,6 +47,10 @@ Claude Sheets 支持自然语言生成含公式与多标签的可协作表格，
 
 此举标志着 Anthropic 从编程工具市场向企业办公入口延伸，直接挑战 Microsoft 365 与 Google Workspace。消息公布后微软股价一度下跌超 3.5%，反映出市场对 AI 原生办公套件冲击传统软件巨头的担忧。分析认为，Claude 将协作能力下放至最便宜的 Pro 套餐，降低了使用门槛，可能加速 AI 办公套件的普及，并推动人机协作模式…&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), The Decoder, InfoQ 中文, Hacker News AI, The Verge AI, TechCrunch AI&lt;/p&gt;</description>
 </item>
+<item><title>Grok Bot 团队月合并 1.1 万 PR 的 AI 编码实践</title><link>https://todayforai.com/en/story/story-4fd4002d-a27</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4fd4002d-a27</guid>
+<pubDate>Sun, 15 Nov 2026 13:18:14 +0800</pubDate>
+<description>&lt;p&gt;Lauren Tan 在 AI Engineer 大会分享了 Grok Bot 桌面版团队的高效 AI 编码方法论：把每次纠正固化为 lint 规则而非文档说明，保持代码库干净以免 AI 照抄坏模式，禁用易错 API 与 99% 注释，并让 AI 自跑自测提交录屏。团队上月合并 1.1 万个 PR，撤回率约 0.5%，应用性能反超初版。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey)&lt;/p&gt;</description>
+</item>
 <item><title>OpenAI 重组机器人团队 押注通用模型</title><link>https://todayforai.com/en/story/story-2f2f7a24-649</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2f2f7a24-649</guid>
 <pubDate>Sat, 14 Nov 2026 19:40:51 +0800</pubDate>
 <description>&lt;p&gt;OpenAI 已确认解散独立机器人团队，将研究人员并入由首席研究官 Mark Chen 领导的核心研究团队，硬件团队转入 Greg Brockman 负责的应用部门。官方明确表示，此次重组旨在加速研发而非退出机器人领域，核心逻辑是通用多模态模型已能直接承担部分机器人任务，未来将逐步替代专用机器人模型。
@@ -70,14 +74,6 @@ Claude Sheets 支持自然语言生成含公式与多标签的可协作表格，
 尽管此前因定价文件细节问题短暂撤回，且市场对 AI 板块的估值预期从 2 万亿美元下修至最低约 1.1 万亿美元，但此次发行仍获约 6 倍超额认购，显示资本对头部 AI 资产的强烈需求。公司年化收入已从 9 月的 710 亿美元增至 10 月底的 810 亿美元，为估值提供支撑。CEO Dario Amodei 表示上市核心目的是囤积现金以支撑总额 9000 亿美元的算力基础设施投入，包括与 SpaceX 每月最高 31 亿美元的数据中心协议，同时采取“少量长约+现货市场”策略对冲需求波动风险。
 
 此次 IPO 将成为 AI 行业资本化与估值逻辑的关键检验。七位创始人通过特殊股权结构锁定 50.1% 投票权，公开市场投资者几乎无法影响公司控制权，这种治理安排可能引发对公共利益公司（PBC）上市后责任归属的讨论。若发行成功，Anthropic 将获得充足弹药与 OpenAI 等对手展开算力军备竞赛，并重塑前沿 AI 实验室的融资与竞争格局。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Verge AI, Anthropic News, 量子位官网, Latent Space, The Decoder, IT之家 · IT业界&lt;/p&gt;</description>
-</item>
-<item><title>前 Anthropic 研究员称重训 Mythos 算力需求骤降</title><link>https://todayforai.com/en/story/story-65ba0867-ae4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-65ba0867-ae4</guid>
-<pubDate>Sat, 14 Nov 2026 19:45:39 +0800</pubDate>
-<description>&lt;p&gt;前 Anthropic 研究员 Jacob Coxon 近日公开表示，Anthropic 如今重新训练其 Mythos 模型所需的算力已降至最初需求的一小部分。这一说法若属实，意味着前沿大模型的训练成本可能因算法效率的跃升而大幅下降，从而动摇“算力规模决定一切”的行业信条。
-
-Coxon 将 Anthropic IPO 路演中一张展示训练算力需求陡峭增长的图表列为离职的关键原因，并称该图表同时揭示了算法效率正以超指数速度提升。他进一步主张，行业应在明年暂停前沿模型研发，让竞争者得以追赶，从而使人类水平智能成为广泛可得的商品。不过，上述言论目前仅为个人转述，缺乏 Anthropic 官方数据或论文的佐证，其准确性有待验证。
-
-若该趋势得到证实，将对 AI 产业格局产生深远影响：一方面，训练门槛降低可能吸引更多参与者，加剧模型商品化竞争；另一方面，头部公司或需重新评估巨额算力投入的回报逻辑，而监管与安全议题也将因能力扩散而更趋复杂。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Decoder, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
