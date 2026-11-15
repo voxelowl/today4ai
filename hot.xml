@@ -27,14 +27,6 @@
 
 该综述的发布恰逢大模型架构创新进入深水区，位置编码作为影响模型外推能力和训练稳定性的关键组件，正受到越来越多的关注。对于开发者而言，理解不同位置编码方案的优劣及实现细节，将有助于在自定义模型时做出更明智的架构决策；对于整个生态，这类系统性的知识梳理有望加速最佳实践的沉淀，推动更高效、更强大的模型设计。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Ahead of AI (Sebastian Raschka), Hacker News AI&lt;/p&gt;</description>
 </item>
-<item><title>OpenAI 联合三大卡组织推出 ChatGPT 钱包 智能体可代付</title><link>https://todayforai.com/en/story/story-a13f7ac4-a82</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a13f7ac4-a82</guid>
-<pubDate>Sat, 14 Nov 2026 04:45:10 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 正式推出 ChatGPT Wallet，允许其 Dots 智能体根据用户指令直接完成在线购物支付。该功能首批面向美国 18 岁以上 ChatGPT Pro 订阅用户开放，需绑定符合条件的美国发行信用卡。每笔交易均需通过 Face ID 或指纹等生物识别确认，确保用户对支付行为的实时控制。
-
-ChatGPT Wallet 的核心安全机制在于令牌化支付：OpenAI 与美国运通、万事达和 Visa 合作，为每笔交易生成限定用途的支付令牌，智能体全程不接触用户真实卡号，商户也无法获取卡信息。用户在下单前可复核商品、金额与支付卡，交易全程留痕，且保留原有卡权益与争议保护。OpenAI 同步发布 Commerce Partner Playbook 及商户工具指南，帮助零售商识别并接受智能体发起的合法交易，避免误拦。
-
-此举标志着 OpenAI 正式将 ChatGPT 培育为购物入口，暂不收取交易佣金。尽管 Anthropic、Meta、Google 等对手已上线类似智能体购物能力，OpenAI 凭借与三大卡组织的深度合作及生物识别验证，在支付安全与生态整合上展现出后发优势。未来计划支持设定额度与品类后完全委托购买，但商户与风控系统的适配仍是关键挑战。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), The Decoder, IT之家 · 智能时代, The Verge AI, OpenAI 官方博客, TechCrunch AI&lt;/p&gt;</description>
-</item>
 <item><title>韩国税务师考试头名 AI 作弊 全国资格考启动排查</title><link>https://todayforai.com/en/story/story-1ab29d68-03e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1ab29d68-03e</guid>
 <pubDate>Sun, 15 Nov 2026 21:42:51 +0800</pubDate>
 <description>&lt;p&gt;韩国第 63 届税务师考试头名考生承认利用微型摄像头拍摄试题并交由生成式 AI 作答，成绩被取消且五年禁考。该考生在税务师两轮及注册会计师首轮考试中均使用相同手法，首轮 160 题仅错 1 题、三门满分，异常高分引发质疑后自首。
@@ -55,14 +47,6 @@ ChatGPT Wallet 的核心安全机制在于令牌化支付：OpenAI 与美国运�
 <pubDate>Sat, 14 Nov 2026 16:31:02 +0800</pubDate>
 <description>&lt;p&gt;llama.cpp 与底层张量库 ggml 同步发布 1.0 版本，标志着项目进入稳定阶段，llama.cpp 同时移除了 35 个已废弃的公开接口。SGLang 也在峰会上宣布 1.0 版本，本地推理与高性能服务框架的工程成熟度进一步提升。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Latent Space, Hugging Face Blog, IT之家 · 智能时代, Hacker News AI&lt;/p&gt;</description>
 </item>
-<item><title>Perplexity 开源 Decider v1.3 决策模型 支持精准文本片段抽取</title><link>https://todayforai.com/en/story/story-ad6cd1ef-769</link><guid isPermaLink="true">https://todayforai.com/en/story/story-ad6cd1ef-769</guid>
-<pubDate>Sat, 14 Nov 2026 21:27:39 +0800</pubDate>
-<description>&lt;p&gt;Perplexity 正式开源两款决策模型 Decider v1.3 与 Decider Flash v1.3，核心能力从单一标签分类升级为返回带起止字符偏移的精确文本片段，标志着决策模型从“分类器”向“定位器”的范式跃迁。模型基于 Qwen3.8-27B 与 Qwen3.5-4B 构建，采用 Apache 2.0 许可，API 输入定价低至每百万 token 0.02 与 0.01 美元，大幅降低了结构化信息抽取的部署门槛。
-
-在 17 项域外 NER、PII 与抽取式问答任务上，v1.3 平均得分 69.0、Flash 63.6，显著高于 Liquid d1 的 43.3 与 GLiNER large v2.5 的 33.6；查询分类在 63 项任务上达 91.6%，答案翻转率仅 0.27%。Artificial Analysis Decision Index v2.1 显示，v1.3 得分 70 维持第 6 位，Flash 得分 64 升至第 10 位，且在 AA-Symmetry 与 When2Call 上各提升 12 分。不过 Flash 在金融、编程与法律领域落后于 Jev 1.14，且全部指标为厂商自报，仍需独立验证。
-
-此次开源将高精度片段抽取能力下沉至开放权重模型，直接冲击 GLiNER 等传统 NER 方案，并为 RAG 管道、隐私过滤与智能体决策提供低成本、可自托管的替代路径。Perplexity 以极低 API 定价与宽松许可加速生态渗透，决策模型赛道的竞争焦点正从参数规模转向“定位精度与调用成本”的务实比拼。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost), Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
-</item>
 <item><title>谷歌多智能体 Teamwork 完成韦伊猜想形式化证明</title><link>https://todayforai.com/en/story/story-e8a175f9-12c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e8a175f9-12c</guid>
 <pubDate>Sat, 14 Nov 2026 21:20:43 +0800</pubDate>
 <description>&lt;p&gt;谷歌研究团队基于 Gemini 模型推出 Antigravity 多智能体系统 Teamwork，首次完成韦伊猜想的形式化证明，累计生成约 180 万行 Lean 代码。该系统还复现了三维纳维-斯托克斯方程有限时间爆破的形式化证明，并在分子结构识别与 C++ 转 Rust 代码重写等任务中取得可验证成果，标志着 AI 从辅助工具向科研合作伙伴的角色转变。
@@ -78,6 +62,18 @@ Teamwork 采用专业智能体并行求解加独立质疑者与审查者的架�
 综合多方信源，新政策取消了额外 30 天的补丁缓冲期，披露窗口将分 90 天、60 天、30 天三阶段逐步收紧。谷歌明确表示，LLM 加速了漏洞发现、利用以及从补丁逆向出攻击代码的全过程，零补丁到利用时间已成为合理的攻击者行为模型，厂商修复窗口被实质压缩。新政策仅保留在野利用、已公开漏洞和厂商主动请求三类例外。
 
 这一变化对软件厂商和网络安全生态影响深远。厂商必须更快完成修复，否则将面临漏洞细节提前公开的风险。AI 驱动的攻击节奏加快，迫使安全社区重新审视漏洞披露的平衡点，可能推动行业整体向更敏捷的修复流程演进。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Hacker News AI&lt;/p&gt;</description>
+</item>
+<item><title>Grok Bot 团队月合并 1.1 万 PR 的 AI 编码实践</title><link>https://todayforai.com/en/story/story-4fd4002d-a27</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4fd4002d-a27</guid>
+<pubDate>Sun, 15 Nov 2026 13:18:14 +0800</pubDate>
+<description>&lt;p&gt;Lauren Tan 在 AI Engineer 大会分享了 Grok Bot 桌面版团队的高效 AI 编码方法论：把每次纠正固化为 lint 规则而非文档说明，保持代码库干净以免 AI 照抄坏模式，禁用易错 API 与 99% 注释，并让 AI 自跑自测提交录屏。团队上月合并 1.1 万个 PR，撤回率约 0.5%，应用性能反超初版。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey)&lt;/p&gt;</description>
+</item>
+<item><title>OpenAI 重组机器人团队 押注通用模型</title><link>https://todayforai.com/en/story/story-2f2f7a24-649</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2f2f7a24-649</guid>
+<pubDate>Sat, 14 Nov 2026 19:40:51 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 已确认解散独立机器人团队，将研究人员并入由首席研究官 Mark Chen 领导的核心研究团队，硬件团队转入 Greg Brockman 负责的应用部门。官方明确表示，此次重组旨在加速研发而非退出机器人领域，核心逻辑是通用多模态模型已能直接承担部分机器人任务，未来将逐步替代专用机器人模型。
+
+多方信源交叉验证了该决策的突然性：团队解散发生在奥斯汀 CoRL 大会期间，距 CEO 奥特曼 5 月公开招人仅五个月，已预订的展位空置。英伟达一项研究显示，由 GPT-6 Astra 驱动的智能体在模拟操作测试中成功率达 74.8%，显著高于专用模型的 51.0%，但推理速度、云端联网依赖与现场数据积累仍是落地瓶颈。
+
+此举标志着 OpenAI 对机器人技术路线的重大转向：从专用模型转向通用模型驱动，可能重塑具身智能领域的竞争格局。若通用模型能有效充当机器人大脑，将大幅降低机器人 AI 的开发门槛，加速通用机器人的商业化进程，同时也对专用机器人 AI 公司构成潜在冲击。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;The Decoder, 新智元 (微信公众号), IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
