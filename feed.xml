@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 15 Nov 2026 11:31:34 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 15 Nov 2026 12:40:41 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Kiri Launches Container Runtime Claiming 8x Faster Startup Than Docker</title><link>https://runkiri.com/</link><guid isPermaLink="true">https://runkiri.com/</guid>
+<pubDate>Sun, 15 Nov 2026 12:40:41 +0800</pubDate>
+<description>&lt;p&gt;Kiri is a modern container runtime that stays drop-in compatible with the Docker ecosystem while claiming a docker run cold start of just 22 ms versus 178 ms on Docker Desktop, 152 ms on Colima and 279 ms on OrbStack, roughly an 8x gap. It keeps the native docker CLI, Compose, Buildx, Docker Engine API and OCI image compatibility, and is now available as a free beta on Mac, Windows and Linux.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Kiri 容器运行时发布 启动速度达 Docker 8 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;对本地开发容器工具链的实测性能对比与 Docker 兼容替代方案，开发者可立即评估迁移。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://runkiri.com/">Hacker News AI</source>
+<category>容器运行时</category>
+<category>开发者工具</category>
+<category>Docker</category>
+<category>本地开发</category>
+</item>
+<item><title>Gawain Enforces Full Python Type Annotations and Runs Type Checkers</title><link>https://github.com/matheuzgomes/gawain</link><guid isPermaLink="true">https://github.com/matheuzgomes/gawain</guid>
+<pubDate>Sun, 15 Nov 2026 12:39:25 +0800</pubDate>
+<description>&lt;p&gt;Gawain is a newly open-sourced Python linter that demands explicit type annotations on variables, parameters, return values and class attributes, then verifies them with ty or pyrefly. It fills a gap left by ruff&amp;#x27;s ANN rules and flake8-annotations, which only cover function signatures, and its author cites eliminating dict[str, Any] as the motivation.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Gawain 强制 Python 全量类型注解并联动类型检查&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向 Python 类型严谨性痛点的轻量工具，对追求强类型代码库的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://github.com/matheuzgomes/gawain">Hacker News AI</source>
+<category>Python</category>
+<category>类型检查</category>
+<category>开发者工具</category>
+<category>开源</category>
+</item>
+<item><title>Turbo-Browser-MCP Consolidates Browser Primitives into 10 Batched Tools</title><link>https://github.com/Tthanh2k6/turbo-browser-mcp</link><guid isPermaLink="true">https://github.com/Tthanh2k6/turbo-browser-mcp</guid>
+<pubDate>Sun, 15 Nov 2026 12:09:11 +0800</pubDate>
+<description>&lt;p&gt;Turbo-Browser-MCP is a Playwright-based MCP server that consolidates 25-33 fine-grained browser primitives into 10 batched tools, cutting token waste and multi-turn latency via delta DOM snapshots, single-turn form prefill and direct disk file uploads. Benchmarks show dense UI snapshots dropping from 18,654 to 1,135 tokens and post-click deltas at just 56 tokens, with a human-in-the-loop submit guard enabled by default.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Turbo-Browser-MCP 将浏览器工具合并为 10 个批量接口&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;针对 MCP 浏览器自动化 token 浪费与多轮延迟的工程优化，附带可复现基准数据，对构建 Agent 工具链的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
+<source url="https://github.com/Tthanh2k6/turbo-browser-mcp">Hacker News AI</source>
+<category>MCP</category>
+<category>浏览器自动化</category>
+<category>Agent 工具链</category>
+<category>开源项目</category>
+</item>
 <item><title>Apple HomeView Reviews Flag Buggy Siri AI and Privacy Risks</title><link>https://www.ithome.com/1/027/294.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/294.htm</guid>
 <pubDate>Sun, 15 Nov 2026 11:31:34 +0800</pubDate>
 <description>&lt;p&gt;Apple&amp;#x27;s first smart home hub HomeView launched overseas on November 13, and early reviews are dominated by complaints that its Siri AI is slow, off-target and sometimes freezes for minutes. Reviewers also flagged privacy risks in face-recognition-based account switching, plus limited personalization and no physical camera or mic kill switch, with only sound quality and personalization earning praise.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;苹果 HomeView 首批评测翻车 Siri AI 频出故障&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;苹果首款家庭中枢的实际评测暴露 Siri AI 落地短板与隐私设计缺陷，是观察端侧 AI 助手真实成熟度的关键样本。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
@@ -192,27 +219,27 @@
 <category>太空数据中心</category>
 <category>卫星</category>
 </item>
-<item><title>Datasette Vega Charting Plugin Returns with 0.7 Release</title><link>https://simonwillison.net/2026/Nov/14/datasette-vega/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/14/datasette-vega/</guid>
+<item><title>Datasette 图表插件 vega 时隔八年更新 0.7 版</title><link>https://simonwillison.net/2026/Nov/14/datasette-vega/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/14/datasette-vega/</guid>
 <pubDate>Sun, 15 Nov 2026 01:09:09 +0800</pubDate>
-<description>&lt;p&gt;Datasette&amp;#x27;s charting plugin datasette-vega shipped version 0.7, its first release since July 2018. The update adds compatibility with recent Datasette alphas and cosmetic tweaks for Datasette Lite, enabling the plugin to run in the browser-only environment.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Datasette 图表插件 vega 时隔八年更新 0.7 版&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;长期停更的 Datasette 官方图表插件恢复维护，并打通纯前端 Datasette Lite 运行路径，对数据工具生态有实际价值。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · tools · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Datasette 的图表渲染插件 datasette-vega 发布 0.7 版本，这是自 2018 年 7 月以来的首次更新。新版本适配最新 Datasette alpha 版本，并针对 Datasette Lite 做了兼容与外观调整，使该插件可在浏览器端纯前端环境中运行。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;长期停更的 Datasette 官方图表插件恢复维护，并打通纯前端 Datasette Lite 运行路径，对数据工具生态有实际价值。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · tools · signal 38/100&lt;/p&gt;</description>
 <source url="https://simonwillison.net/2026/Nov/14/datasette-vega/">Simon Willison 博客</source>
 <category>Datasette</category>
 <category>数据可视化</category>
 <category>开源插件</category>
 <category>Vega-Lite</category>
 </item>
-<item><title>Cmpnd Releases dspy-wsp Letting Frontier LLMs Patch Small Model Weights</title><link>https://x.com/Marktechpost/status/2121647818754670657</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2121647818754670657</guid>
+<item><title>Cmpnd 发布 dspy-wsp 用前沿 LLM 直接改写小模型权重</title><link>https://x.com/Marktechpost/status/2121647818754670657</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2121647818754670657</guid>
 <pubDate>Sun, 15 Nov 2026 00:53:52 +0800</pubDate>
-<description>&lt;p&gt;Cmpnd open-sourced dspy-wsp, a DSPy-based weight-space programming optimizer in which a frontier writer LLM inspects a student model&amp;#x27;s tensors in a sandbox, forms hypotheses and patches a few weights, with no gradients, training loop or fine-tuning data. On the Typed Decisions benchmark, d1-omni-600M rose from 50.9% to 66.9% with WeightSpace alone and 69.1% when stacked with ReAnchor, though a 9B model gained only 1.9 points and each run cost $5.42 to $7.63 over 78 to 167 minutes.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Cmpnd 发布 dspy-wsp 用前沿 LLM 直接改写小模型权重&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出无需梯度的权重空间编程新范式并给出可复现基准与成本数据，对关注模型优化与智能体自动化的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · llm · signal 74/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Cmpnd 开源 dspy-wsp，一种基于 DSPy 的权重空间编程优化器：由前沿写作模型在沙箱中读取学生模型张量、提出假设并直接打补丁，无需梯度、训练循环或微调数据。在 Typed Decisions 基准上，d1-omni-600M 单独使用 WeightSpace 从 50.9% 提升至 66.9%，叠加 ReAnchor 后达 69.1%，但 9B 模型仅提升 1.9 个百分点，且单次运行成本 5.42 至 7.63 美元、耗时 78 至 167 分钟。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出无需梯度的权重空间编程新范式并给出可复现基准与成本数据，对关注模型优化与智能体自动化的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · llm · signal 74/100&lt;/p&gt;</description>
 <source url="https://x.com/Marktechpost/status/2121647818754670657">Marktechpost (@Marktechpost)</source>
 <category>权重空间编程</category>
 <category>DSPy</category>
 <category>模型优化</category>
 <category>开源</category>
 </item>
-<item><title>Gemini 4 Carbon Tops MathArena but Costs 15 Times More Than GPT-6.1 Sol</title><link>https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/</link><guid isPermaLink="true">https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/</guid>
+<item><title>Gemini 4 Carbon 登顶 MathArena 但成本高 15 倍</title><link>https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/</link><guid isPermaLink="true">https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/</guid>
 <pubDate>Sun, 15 Nov 2026 00:48:01 +0800</pubDate>
-<description>&lt;p&gt;Google&amp;#x27;s Gemini 4 Carbon has become the first non-OpenAI model in a while to top the MathArena math benchmark, displacing GPT-6.1 Sol, with Anthropic&amp;#x27;s Claude Fable 5.2 taking second place. However, its evaluation cost runs roughly 15 times that of GPT-6.1 Sol, and its most common failure mode is exceeding the time limit while almost never abandoning a task. The best open model, Moonshot AI&amp;#x27;s Kimi K3.1 Pro, trails at 54.3%.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Gemini 4 Carbon 登顶 MathArena 但成本高 15 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部模型在权威数学基准上的排名更替叠加显著成本差异，是评估模型选型的重要信号。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;谷歌 Gemini 4 Carbon 成为近期首个登顶 MathArena 数学基准的非 OpenAI 模型，将 GPT-6.1 Sol 挤下榜首，Anthropic 的 Claude Fable 5.2 位列第二。但其单次评测成本约为 GPT-6.1 Sol 的 15 倍，且最常见失败模式是超时，同时几乎从不主动放弃任务。开源阵营最佳为月之暗面 Kimi K3.1 Pro，得分 54.3%，与闭源头部差距明显。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部模型在权威数学基准上的排名更替叠加显著成本差异，是评估模型选型的重要信号。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/">The Decoder</source>
 <category>大模型</category>
 <category>基准评测</category>
@@ -244,33 +271,6 @@
 <category>基础设施</category>
 <category>系统韧性</category>
 <category>AWS</category>
-</item>
-<item><title>目标工程将取代提示工程成为智能体设计核心</title><link>https://www.langchain.com/blog/goal-engineering</link><guid isPermaLink="true">https://www.langchain.com/blog/goal-engineering</guid>
-<pubDate>Sun, 15 Nov 2026 00:00:01 +0800</pubDate>
-<description>&lt;p&gt;随着智能体从简单文本生成演进到执行完整任务并追求开放式目标，设计目标范围成为关键能力。文章提出，好的目标设计应让智能体运行过程中的反馈尽可能容易，从而弥补上下文缺失导致的失误，并让智能体持续学习、提升自主性。作者断言提示工程与上下文工程终将消失，而目标工程将长期存在。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出智能体设计从提示工程转向目标工程的判断，对关注 Agent 架构演进的读者有方法论参考价值。&lt;/p&gt;&lt;p&gt;LangChain Blog · agent · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.langchain.com/blog/goal-engineering">LangChain Blog</source>
-<category>智能体</category>
-<category>目标工程</category>
-<category>上下文工程</category>
-<category>Agent 架构</category>
-</item>
-<item><title>用 Lean 形式化美国税法以搜索未知漏洞</title><link>https://lexifina.com/blog/formalizing-the-us-tax-code</link><guid isPermaLink="true">https://lexifina.com/blog/formalizing-the-us-tax-code</guid>
-<pubDate>Sat, 14 Nov 2026 23:41:20 +0800</pubDate>
-<description>&lt;p&gt;作者在 Lean 中形式化美国国税局退休账户规则，并用盲搜索重新发现了 backdoor Roth 这一已知漏洞，进而提出将整部税法形式化以自动发现未知矛盾与机械性错误。该工作开源在 CC0 仓库 global-law 的 lean-proofs 目录，包含定理、IRS 示例测试与搜索结果。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把定理证明器用于法律条文形式化并自动搜索漏洞，是 AI for Science 与形式化方法交叉的少见实证案例。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 62/100&lt;/p&gt;</description>
-<source url="https://lexifina.com/blog/formalizing-the-us-tax-code">Hacker News AI</source>
-<category>形式化验证</category>
-<category>Lean</category>
-<category>AI for Science</category>
-<category>法律科技</category>
-</item>
-<item><title>PyPI 全新项目页上线 强化安全信号展示</title><link>https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/</link><guid isPermaLink="true">https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/</guid>
-<pubDate>Sat, 14 Nov 2026 23:40:52 +0800</pubDate>
-<description>&lt;p&gt;PyPI 完成界面改版并正式上线，重点重构项目页的安全信号展示，让数字证明与来源信息更易被普通用户理解。改版基于 Python 社区的用户调研，并获得 OpenSSF 的资金与协作支持，旨在应对恶意包增长带来的供应链风险。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Python 生态核心基础设施的安全可视化改版，直接影响所有依赖 PyPI 的开发者。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
-<source url="https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/">Hacker News AI</source>
-<category>开源生态</category>
-<category>供应链安全</category>
-<category>Python</category>
-<category>PyPI</category>
 </item>
 </channel>
 </rss>
