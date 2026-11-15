@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Mon, 16 Nov 2026 00:16:26 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 16 Nov 2026 02:29:42 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Agentic Coding Shifts to Verifier-First Development Paradigm</title><link>https://x.com/Yuchenj_UW/status/2122034320823247091</link><guid isPermaLink="true">https://x.com/Yuchenj_UW/status/2122034320823247091</guid>
+<pubDate>Mon, 16 Nov 2026 02:29:42 +0800</pubDate>
+<description>&lt;p&gt;Investor Yuchen Jin argues that development is shifting from writing code and then testing it to building the verifier first and letting agents generate code until it passes. The framing places automated correctness checks at the center of agentic coding workflows.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;智能体开发范式转向先建验证器再生成代码&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;简短观点点出智能体编码中验证器优先的关键工程转向，值得关注。&lt;/p&gt;&lt;p&gt;Yuchen Jin (@Yuchenj_UW) · agent · signal 42/100&lt;/p&gt;</description>
+<source url="https://x.com/Yuchenj_UW/status/2122034320823247091">Yuchen Jin (@Yuchenj_UW)</source>
+<category>智能体</category>
+<category>软件工程</category>
+<category>代码生成</category>
+</item>
 <item><title>Building AI Agents with Picasso&#x27;s Minimalist Bull Lesson</title><link>https://claramap.com/blog/what-picasso-taught-me-about-building-ai-agents/</link><guid isPermaLink="true">https://claramap.com/blog/what-picasso-taught-me-about-building-ai-agents/</guid>
 <pubDate>Mon, 16 Nov 2026 00:16:26 +0800</pubDate>
 <description>&lt;p&gt;The author draws a parallel between Picasso&amp;#x27;s 11-stage reduction of The Bull and AI agent development, arguing that as models improve, elaborate frameworks, orchestration engines and multi-agent architectures are being stripped away in favor of simpler single-prompt solutions. The core lesson is that agent engineering rewards subtraction over accumulated system complexity.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;从毕加索画牛看 AI 智能体的极简构建之道&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以艺术大师的减法哲学反思智能体过度工程化，对一线开发者有方法论启发。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 58/100&lt;/p&gt;</description>
@@ -27,6 +35,16 @@
 <category>开源</category>
 <category>版权</category>
 <category>AI 生成代码</category>
+</item>
+<item><title>db-branch Clones Instant Database Branches via ZFS for AI Agents</title><link>https://github.com/db-branch/db-branch</link><guid isPermaLink="true">https://github.com/db-branch/db-branch</guid>
+<pubDate>Sun, 15 Nov 2026 21:50:51 +0800</pubDate>
+<description>&lt;p&gt;The open-source db-branch project uses ZFS copy-on-write clones to spin up zero-copy MySQL and PostgreSQL database branches in seconds, enabling migration testing, sandboxed AI agent runs, and per-PR database copies without duplicating data. It is Apache-2.0 licensed, self-hosted, and currently in Beta, with APIs and CLI details still subject to change before 1.0.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;db-branch 用 ZFS 秒级克隆数据库分支&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为 AI 智能体与 CI 提供秒级零拷贝数据库分支，是智能体安全试错与数据隔离的实用基础设施。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
+<source url="https://github.com/db-branch/db-branch">Hacker News AI</source>
+<category>开源项目</category>
+<category>数据库</category>
+<category>AI 智能体</category>
+<category>ZFS</category>
+<category>CI</category>
 </item>
 <item><title>South Korea Audits National Exams After AI Cheating Scandal</title><link>https://www.ithome.com/1/027/453.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/453.htm</guid>
 <pubDate>Sun, 15 Nov 2026 21:42:51 +0800</pubDate>
@@ -189,9 +207,9 @@
 <category>韩国</category>
 <category>生成式 AI</category>
 </item>
-<item><title>Motphys Releases MotrixSim 1.0 Physics Engine Built in Rust</title><link>https://www.ithome.com/1/027/340.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/340.htm</guid>
+<item><title>谋先飞发布 MotrixSim 1.0 物理引擎，G1 训练提速至 10.2 分钟</title><link>https://www.ithome.com/1/027/340.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/340.htm</guid>
 <pubDate>Sun, 15 Nov 2026 15:11:00 +0800</pubDate>
-<description>&lt;p&gt;Motphys has launched MotrixSim 1.0, a new physics simulation engine for multibody dynamics and robotics, with its CPU core written in Rust for performance and memory safety. Official paper data claims millions of physics steps per second at 4096 concurrency, cutting end-to-end G1 humanoid training from 130.8 minutes to 10.2 minutes. A CPU/GPU heterogeneous architecture and unified constraint chain enable million-level concurrency, with support for Kunpeng, Moore Threads, Tianshu Zhixin and other domestic compute ecosystems.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谋先飞发布 MotrixSim 1.0 物理引擎，G1 训练提速至 10.2 分钟&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产自研物理仿真引擎以 Rust 重构并给出人形机器人训练提速一个数量级的实测数据，对具身智能与仿真基础设施读者有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;谋先飞正式发布新一代物理仿真引擎 MotrixSim 1.0，面向多体动力学与机器人仿真，核心采用 Rust 开发以兼顾性能与内存安全。官方论文数据显示，在 4096 并发下可达数百万物理步/秒，G1 人形机器人端到端训练从 130.8 分钟缩短至 10.2 分钟。引擎通过 CPU/GPU 异构架构与统一约束链实现百万级并发，并兼容鲲鹏、摩尔线程、天数智芯等国产算力生态。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产自研物理仿真引擎以 Rust 重构并给出人形机器人训练提速一个数量级的实测数据，对具身智能与仿真基础设施读者有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/027/340.htm">IT之家 · 智能时代</source>
 <category>物理仿真</category>
 <category>具身智能</category>
@@ -199,9 +217,9 @@
 <category>机器人训练</category>
 <category>国产算力</category>
 </item>
-<item><title>Jensen Huang Resigns as Nvidia CEO in Shock to AI Startup Funding</title><link>https://www.ithome.com/1/027/339.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/339.htm</guid>
+<item><title>黄仁勋辞任英伟达 CEO 或重塑 AI 创投格局</title><link>https://www.ithome.com/1/027/339.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/339.htm</guid>
 <pubDate>Sun, 15 Nov 2026 15:10:41 +0800</pubDate>
-<description>&lt;p&gt;Jensen Huang has formally stepped down as Nvidia CEO after 33 years at the helm, sending shockwaves through the tech industry. As one of the most active investors in the AI startup ecosystem, with 105 funding rounds this year alone, Nvidia&amp;#x27;s pullback under expected more conservative interim CEO Colette Kress could tighten capital for early-stage AI companies and pressure valuations. Most observers doubt this ends the AI boom, but near-term deal flow and competitive dynamics face significant uncertainty.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;黄仁勋辞任英伟达 CEO 或重塑 AI 创投格局&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球市值最高芯片公司掌门人突然离任，直接牵动 AI 创投生态的资金供给与竞争格局，属行业级重大事件。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 88/100&lt;/p&gt;</description>
+<description>&lt;p&gt;执掌英伟达 33 年的黄仁勋正式辞去 CEO 一职，震动全球科技行业。作为 AI 初创生态最重要的投资方之一，英伟达今年已参与 105 轮融资，投资者普遍担忧继任者科莱特·克雷斯将转向更保守的投资策略，导致早期 AI 企业资金供给收紧、估值承压。多数观点认为这不会终结 AI 繁荣，但短期内融资交易与竞争格局将面临显著变数。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球市值最高芯片公司掌门人突然离任，直接牵动 AI 创投生态的资金供给与竞争格局，属行业级重大事件。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 88/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/027/339.htm">IT之家 · IT业界</source>
 <category>英伟达</category>
 <category>黄仁勋</category>
@@ -244,24 +262,6 @@
 <category>智能体工程</category>
 <category>代码质量</category>
 <category>Grok Bot</category>
-</item>
-<item><title>Kiri 容器运行时发布 启动速度达 Docker 8 倍</title><link>https://runkiri.com/</link><guid isPermaLink="true">https://runkiri.com/</guid>
-<pubDate>Sun, 15 Nov 2026 12:40:41 +0800</pubDate>
-<description>&lt;p&gt;Kiri 是一款兼容 Docker 生态的现代容器运行时，宣称 docker run 冷启动仅 22 ms，而 Docker Desktop 为 178 ms、Colima 152 ms、OrbStack 279 ms，约为 8 倍差距。它保留原生 docker CLI、Compose、Buildx、Docker Engine API 与 OCI 镜像兼容，目前以免费 Beta 形式登陆 Mac、Windows 与 Linux。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;对本地开发容器工具链的实测性能对比与 Docker 兼容替代方案，开发者可立即评估迁移。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://runkiri.com/">Hacker News AI</source>
-<category>容器运行时</category>
-<category>开发者工具</category>
-<category>Docker</category>
-<category>本地开发</category>
-</item>
-<item><title>Gawain 强制 Python 全量类型注解并联动类型检查</title><link>https://github.com/matheuzgomes/gawain</link><guid isPermaLink="true">https://github.com/matheuzgomes/gawain</guid>
-<pubDate>Sun, 15 Nov 2026 12:39:25 +0800</pubDate>
-<description>&lt;p&gt;Gawain 是一款新开源的 Python 静态检查工具，要求变量、参数、返回值与类属性全部显式标注类型，再调用 ty 或 pyrefly 校验类型正确性。它填补了 ruff ANN 规则与 flake8-annotations 仅覆盖函数注解的空白，作者直言动机是消除 dict[str, Any] 泛滥。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向 Python 类型严谨性痛点的轻量工具，对追求强类型代码库的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://github.com/matheuzgomes/gawain">Hacker News AI</source>
-<category>Python</category>
-<category>类型检查</category>
-<category>开发者工具</category>
-<category>开源</category>
 </item>
 </channel>
 </rss>
