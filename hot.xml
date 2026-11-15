@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Sun, 15 Nov 2026 21:42:51 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 16 Nov 2026 05:56:35 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
+<item><title>黄仁勋辞任英伟达 CEO 市值蒸发近 2 万亿美元</title><link>https://todayforai.com/en/story/story-9954eb0b-f56</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9954eb0b-f56</guid>
+<pubDate>Mon, 16 Nov 2026 04:20:01 +0800</pubDate>
+<description>&lt;p&gt;英伟达创始人黄仁勋于 11 月 13 日突然辞去总裁、CEO 及董事职务，即刻生效，结束其 33 年的掌舵生涯。公司未披露辞职原因，董事会已任命 CFO 科莱特·克雷斯为临时 CEO，并启动内外部继任者遴选。同时，董事会首次设立董事长职位，由前新思科技 CEO 哈维·琼斯出任。消息公布后，英伟达股价盘中一度暴跌 14%，市值跌破 4 万亿美元，较 10 月高点蒸发近 2 万亿美元。
+
+市场反应剧烈，多家券商下调评级或目标价。黄仁勋的离职正值英伟达拟以 129 亿美元收购 Hugging Face 的关键节点，美国司法部已就竞争影响展开问询。Hugging Face CEO 德朗格公开表达惋惜，并承诺更坚定地捍卫开源 AI。此外，英伟达今年已参与 105 轮 AI 初创企业融资，投资者担忧继任者克雷斯将转向更保守的投资策略，导致早期 AI 企业资金供给收紧。
+
+作为全球 AI 算力龙头，英伟达的人事地震直接冲击了市场对 AI 基础设施前景的预期。尽管多数观点认为这不会终结 AI 繁荣，但短期内融资交易与竞争格局将面临显著变数。董事会强调将守护公司业务与生态的延续性，第三季度财报仍按原计划于 11 月 17 日发布。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;The Decoder, IT之家 · IT业界, Latent Space, Rohan Paul (@rohanpaul_ai), 量子位官网, 宝玉 (@dotey)&lt;/p&gt;</description>
+</item>
+<item><title>英伟达董事会罢免黄仁勋 硅谷高管联名请愿要求复职</title><link>https://todayforai.com/en/story/story-23dce459-e50</link><guid isPermaLink="true">https://todayforai.com/en/story/story-23dce459-e50</guid>
+<pubDate>Mon, 16 Nov 2026 05:56:35 +0800</pubDate>
+<description>&lt;p&gt;英伟达董事会经过调查后迅速罢免了 CEO 黄仁勋，这一决定的速度超出多数观察者预期。黄仁勋个人与英伟达品牌高度绑定，其离任立即引发了对英伟达在 AI 生态巨额投资前景的担忧，以及对整个 AI 经济信心的冲击。
+
+据《金融时报》报道，黄仁勋已就重返公司出任 CEO 一事展开讨论，其盟友正组建由硅谷高管组成的“作战室”，在黄仁勋支持下游说董事会与白宫。与此同时，包括马斯克在内的科技高管已联署请愿，要求英伟达恢复黄仁勋职务。目前英伟达官方尚未对此事作出回应，消息仍处于多方博弈阶段。
+
+这一突发事件将英伟达推向了前所未有的治理危机。作为 AI 算力帝国的核心掌舵人，黄仁勋的去留不仅关乎英伟达自身战略连续性，更可能波及全球 AI 产业链的稳定与投资信心。董事会与黄仁勋阵营的角力结果，将决定这家万亿美元市值公司的未来走向。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), TechCrunch AI&lt;/p&gt;</description>
+</item>
 <item><title>深度解析现代大模型位置编码与 RoPE 机制</title><link>https://todayforai.com/en/story/story-b9da5c60-6fb</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b9da5c60-6fb</guid>
 <pubDate>Sun, 15 Nov 2026 20:14:06 +0800</pubDate>
 <description>&lt;p&gt;近期，一份系统性的技术综述对现代大语言模型的位置编码机制进行了全面梳理，尤其聚焦于当前主流的旋转位置编码（RoPE）及其变体。该综述不仅涵盖了从经典绝对位置编码到相对位置编码的演进脉络，还提供了详细的数学推导、可视化示例以及可运行的 PyTorch 实现代码，为开发者与研究者提供了宝贵的实践参考。
@@ -10,14 +26,6 @@
 综述的核心发现之一是，2026 年的开源权重模型在位置编码的选择上呈现出显著差异。一些模型仍坚持使用 RoPE 的改进版本，而另一些则尝试调整甚至完全省略显式位置编码，转而依赖注意力机制本身来隐式捕捉位置信息。这种分化反映了业界对长上下文建模和计算效率的不同权衡，也表明位置编码的设计远未形成统一标准。
 
 该综述的发布恰逢大模型架构创新进入深水区，位置编码作为影响模型外推能力和训练稳定性的关键组件，正受到越来越多的关注。对于开发者而言，理解不同位置编码方案的优劣及实现细节，将有助于在自定义模型时做出更明智的架构决策；对于整个生态，这类系统性的知识梳理有望加速最佳实践的沉淀，推动更高效、更强大的模型设计。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Ahead of AI (Sebastian Raschka), Hacker News AI&lt;/p&gt;</description>
-</item>
-<item><title>黄仁勋辞任英伟达 CEO 市值蒸发近 2 万亿美元</title><link>https://todayforai.com/en/story/story-9954eb0b-f56</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9954eb0b-f56</guid>
-<pubDate>Sun, 15 Nov 2026 15:10:41 +0800</pubDate>
-<description>&lt;p&gt;英伟达创始人黄仁勋辞去总裁、CEO 及董事职务并立即生效，结束 33 年执掌。CFO 科莱特·克雷斯出任临时 CEO，董事会启动继任者遴选，并首次设立董事长职位，由哈维·琼斯出任。消息公布后股价盘中一度跌约 14%，市值跌破 4 万亿美元，累计蒸发近 2 万亿美元。
-
-此次变动发生在董事会就黄仁勋疑似成为外国情报目标启动外部调查之后，此前其第二段私人关系被曝出，董事会已启动独立调查。黄仁勋持股约 3.6% 为最大股东，此前拒绝正式继任规划，公司无明确接班人。临时 CEO 克雷斯保留 CFO 职位，继任者将接手逾 1000 亿美元对外投资组合，包括拟以 100 亿美元认购 Anthropic 上市股份。
-
-作为全球 AI 算力龙头，英伟达管理层剧变直接冲击 GPU 路线图与产业预期。Hugging Face CEO 德朗格公开表达惋惜，并承诺更坚定捍卫开源 AI。事件正值英伟达拟以约 129 亿美元收购 Hugging Face 的敏感节点，美国司法部已就竞争影响问询，AI 算力与开源生态走向面临重大不确定性。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, TechCrunch AI, Latent Space, Rohan Paul (@rohanpaul_ai), Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 <item><title>韩国税务师考试头名 AI 作弊 全国资格考启动排查</title><link>https://todayforai.com/en/story/story-1ab29d68-03e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1ab29d68-03e</guid>
 <pubDate>Sun, 15 Nov 2026 21:42:51 +0800</pubDate>
@@ -66,14 +74,6 @@
 多方信源交叉验证了该决策的突然性：团队解散发生在奥斯汀 CoRL 大会期间，距 CEO 奥特曼 5 月公开招人仅五个月，已预订的展位空置。英伟达一项研究显示，由 GPT-6 Astra 驱动的智能体在模拟操作测试中成功率达 74.8%，显著高于专用模型的 51.0%，但推理速度、云端联网依赖与现场数据积累仍是落地瓶颈。
 
 此举标志着 OpenAI 对机器人技术路线的重大转向：从专用模型转向通用模型驱动，可能重塑具身智能领域的竞争格局。若通用模型能有效充当机器人大脑，将大幅降低机器人 AI 的开发门槛，加速通用机器人的商业化进程，同时也对专用机器人 AI 公司构成潜在冲击。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;The Decoder, 新智元 (微信公众号), IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
-<item><title>Perplexity 开源 Decider v1.3 决策模型 支持精准文本片段抽取</title><link>https://todayforai.com/en/story/story-ad6cd1ef-769</link><guid isPermaLink="true">https://todayforai.com/en/story/story-ad6cd1ef-769</guid>
-<pubDate>Sat, 14 Nov 2026 21:27:39 +0800</pubDate>
-<description>&lt;p&gt;Perplexity 正式开源两款决策模型 Decider v1.3 与 Decider Flash v1.3，核心能力从单一标签分类升级为返回带起止字符偏移的精确文本片段，标志着决策模型从“分类器”向“定位器”的范式跃迁。模型基于 Qwen3.8-27B 与 Qwen3.5-4B 构建，采用 Apache 2.0 许可，API 输入定价低至每百万 token 0.02 与 0.01 美元，大幅降低了结构化信息抽取的部署门槛。
-
-在 17 项域外 NER、PII 与抽取式问答任务上，v1.3 平均得分 69.0、Flash 63.6，显著高于 Liquid d1 的 43.3 与 GLiNER large v2.5 的 33.6；查询分类在 63 项任务上达 91.6%，答案翻转率仅 0.27%。Artificial Analysis Decision Index v2.1 显示，v1.3 得分 70 维持第 6 位，Flash 得分 64 升至第 10 位，且在 AA-Symmetry 与 When2Call 上各提升 12 分。不过 Flash 在金融、编程与法律领域落后于 Jev 1.14，且全部指标为厂商自报，仍需独立验证。
-
-此次开源将高精度片段抽取能力下沉至开放权重模型，直接冲击 GLiNER 等传统 NER 方案，并为 RAG 管道、隐私过滤与智能体决策提供低成本、可自托管的替代路径。Perplexity 以极低 API 定价与宽松许可加速生态渗透，决策模型赛道的竞争焦点正从参数规模转向“定位精度与调用成本”的务实比拼。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost), Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
