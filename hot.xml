@@ -47,14 +47,6 @@ Claude Sheets 支持自然语言生成含公式与多标签的可协作表格，
 
 此举标志着 Anthropic 从编程工具市场向企业办公入口延伸，直接挑战 Microsoft 365 与 Google Workspace。消息公布后微软股价一度下跌超 3.5%，反映出市场对 AI 原生办公套件冲击传统软件巨头的担忧。分析认为，Claude 将协作能力下放至最便宜的 Pro 套餐，降低了使用门槛，可能加速 AI 办公套件的普及，并推动人机协作模式…&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), The Decoder, InfoQ 中文, Hacker News AI, The Verge AI, TechCrunch AI&lt;/p&gt;</description>
 </item>
-<item><title>MiniMax 开源 H3-Image 生图模型 10 秒生成 4K 图像</title><link>https://todayforai.com/en/story/story-77b75cf4-9c6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-77b75cf4-9c6</guid>
-<pubDate>Sat, 14 Nov 2026 04:29:39 +0800</pubDate>
-<description>&lt;p&gt;MiniMax 正式开源 H3-Image 图像生成模型，支持文生图、图像参考与图像编辑，可在约 10 秒内生成 4096×4096 的 4K 图像，官方称速度约为主流水平的 5 倍。模型以开放权重形式发布，并同步上线 MiniMax API、MiniMax Code 与海螺 AI，同时接入 Arena 对战模式接受用户盲测。
-
-技术细节上，H3-Image 衍生自 H3 基座，单一 checkpoint 在六步采样内同时覆盖文生图与图像编辑，无需超分即可输出原生高分辨率，并支持最多 16 张参考图，指令遵循能力号称开源模型中最强。在 NVIDIA Vera Rubin 平台四卡配置下，原生 4K 生成中位延迟仅 0.87 秒，吞吐配置可达每小时 6115 张。摩尔线程 MTT S5000 也在开源首日完成适配，单卡即可生成 4K 图像，复用 SGLang、MATE、MCCL 等组件优化多参考图场景下的注意力开销。
-
-行业影响方面，H3-Image 以开源权重和高吞吐、低延迟特性，显著降低了高质量 4K 图像生成的门槛，有望推动内容创作、电商、设计等领域的效率提升。同时，其跨平台快速适配（NVIDIA 与摩尔线程）显示出生态协同的成熟，为后续生图、生视频模型的 Day-0 支持建立基础，进一步加剧开源图像生成赛道的竞争。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;vLLM 官方博客, Arena.ai (@arena), IT之家 · 智能时代, 量子位官网, 机器之心 (微信公众号), Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
-</item>
 <item><title>Anthropic 启动 IPO 路演 拟最高募资 904 亿美元</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
 <pubDate>Sun, 15 Nov 2026 03:05:17 +0800</pubDate>
 <description>&lt;p&gt;Anthropic 正式启动 IPO 路演，计划以代码 ANT 登陆纳斯达克，基础发行规模最高约 643.5 亿美元，叠加向谷歌、英伟达、微软等七家战略投资者定向发行的 260 亿美元私募股份，合计融资规模最高可达 904 亿美元，目标估值约 1.4 万亿美元，有望成为史上最大 IPO 之一。
@@ -78,6 +70,14 @@ Claude Sheets 支持自然语言生成含公式与多标签的可协作表格，
 相比 10 月需自行串联工具调用的 Search/Fetch 接口，新接口由模型自动完成搜索决策与多步衔接，服务端自动完成工具调用与上下文拼接。V4.1-Flash 模型在 Messages、Responses 与 Chat Completions 接口下支持联网搜索、深度思考搜索、文件输入、链接阅读与安全校验。Search、Fetch、OCR、ASR、TTS 均可作为独立接口单独调用，便于接入自有工作流。工具调用按次计费，如搜索 5 元/千次。
 
 此次开放标志着 DeepSeek 从模型提供商向应用平台演进，开发者可快速构建具备完整对话能力的 AI 应用，降低开发门槛。语音能力的开放补齐了多模态交互短板，开源前端 Demo 进一步加速生态建设，预计将吸引大量开发者基于 DeepSeek 构建垂直应用，推动 AI 应用生态繁荣。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;量子位官网, IT之家 · 智能时代, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
+</item>
+<item><title>前 Anthropic 研究员称重训 Mythos 算力需求骤降</title><link>https://todayforai.com/en/story/story-65ba0867-ae4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-65ba0867-ae4</guid>
+<pubDate>Sat, 14 Nov 2026 19:45:39 +0800</pubDate>
+<description>&lt;p&gt;前 Anthropic 研究员 Jacob Coxon 近日公开表示，Anthropic 如今重新训练其 Mythos 模型所需的算力已降至最初需求的一小部分。这一说法若属实，意味着前沿大模型的训练成本可能因算法效率的跃升而大幅下降，从而动摇“算力规模决定一切”的行业信条。
+
+Coxon 将 Anthropic IPO 路演中一张展示训练算力需求陡峭增长的图表列为离职的关键原因，并称该图表同时揭示了算法效率正以超指数速度提升。他进一步主张，行业应在明年暂停前沿模型研发，让竞争者得以追赶，从而使人类水平智能成为广泛可得的商品。不过，上述言论目前仅为个人转述，缺乏 Anthropic 官方数据或论文的佐证，其准确性有待验证。
+
+若该趋势得到证实，将对 AI 产业格局产生深远影响：一方面，训练门槛降低可能吸引更多参与者，加剧模型商品化竞争；另一方面，头部公司或需重新评估巨额算力投入的回报逻辑，而监管与安全议题也将因能力扩散而更趋复杂。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Decoder, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
