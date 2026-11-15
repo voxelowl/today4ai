@@ -1,8 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 15 Nov 2026 13:18:14 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 15 Nov 2026 15:11:00 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Motphys Releases MotrixSim 1.0 Physics Engine Built in Rust</title><link>https://www.ithome.com/1/027/340.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/340.htm</guid>
+<pubDate>Sun, 15 Nov 2026 15:11:00 +0800</pubDate>
+<description>&lt;p&gt;Motphys has launched MotrixSim 1.0, a new physics simulation engine for multibody dynamics and robotics, with its CPU core written in Rust for performance and memory safety. Official paper data claims millions of physics steps per second at 4096 concurrency, cutting end-to-end G1 humanoid training from 130.8 minutes to 10.2 minutes. A CPU/GPU heterogeneous architecture and unified constraint chain enable million-level concurrency, with support for Kunpeng, Moore Threads, Tianshu Zhixin and other domestic compute ecosystems.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谋先飞发布 MotrixSim 1.0 物理引擎，G1 训练提速至 10.2 分钟&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产自研物理仿真引擎以 Rust 重构并给出人形机器人训练提速一个数量级的实测数据，对具身智能与仿真基础设施读者有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 72/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/027/340.htm">IT之家 · 智能时代</source>
+<category>物理仿真</category>
+<category>具身智能</category>
+<category>Rust</category>
+<category>机器人训练</category>
+<category>国产算力</category>
+</item>
+<item><title>Jensen Huang Resigns as Nvidia CEO in Shock to AI Startup Funding</title><link>https://www.ithome.com/1/027/339.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/339.htm</guid>
+<pubDate>Sun, 15 Nov 2026 15:10:41 +0800</pubDate>
+<description>&lt;p&gt;Jensen Huang has formally stepped down as Nvidia CEO after 33 years at the helm, sending shockwaves through the tech industry. As one of the most active investors in the AI startup ecosystem, with 105 funding rounds this year alone, Nvidia&amp;#x27;s pullback under expected more conservative interim CEO Colette Kress could tighten capital for early-stage AI companies and pressure valuations. Most observers doubt this ends the AI boom, but near-term deal flow and competitive dynamics face significant uncertainty.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;黄仁勋辞任英伟达 CEO 或重塑 AI 创投格局&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球市值最高芯片公司掌门人突然离任，直接牵动 AI 创投生态的资金供给与竞争格局，属行业级重大事件。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 88/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/027/339.htm">IT之家 · IT业界</source>
+<category>英伟达</category>
+<category>黄仁勋</category>
+<category>AI 创投</category>
+<category>人事变动</category>
+</item>
+<item><title>Sugon scaleFabric Expands Single-Subnet Interconnect to 114,000 GPUs</title><link>https://www.ithome.com/1/027/320.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/320.htm</guid>
+<pubDate>Sun, 15 Nov 2026 14:17:25 +0800</pubDate>
+<description>&lt;p&gt;At the 8th China Supercomputing Conference, Sugon chief engineer Wan Wei argued that high-speed interconnect is the key to breaking through cluster-scale bottlenecks, requiring system-level innovation for efficient collaboration at larger scales. Sugon&amp;#x27;s fully self-developed scaleFabric 400G lossless network supports up to 114,000 GPUs per subnet, 2.33x that of traditional InfiniBand, cuts networking costs by about 30%, and already underpins a 30,000-GPU intelligent computing cluster at the Zhengzhou core node.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;中科曙光 scaleFabric 单子网互连扩至 11.4 万卡&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产全栈自研高速互连网络给出明确的规模与成本量级数据，直接关系超大规模智算集群的组网路线选择。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 72/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/027/320.htm">IT之家 · IT业界</source>
+<category>算力基础设施</category>
+<category>高速互连</category>
+<category>中科曙光</category>
+<category>智算集群</category>
+</item>
 <item><title>Grok Bot Team Merges 11K PRs Monthly With AI Coding Discipline</title><link>https://x.com/dotey/status/2121835140850602200</link><guid isPermaLink="true">https://x.com/dotey/status/2121835140850602200</guid>
 <pubDate>Sun, 15 Nov 2026 13:18:14 +0800</pubDate>
 <description>&lt;p&gt;Lauren Tan, who leads the Grok Bot desktop app at SpaceXAI, shared her team&amp;#x27;s AI coding playbook at the AI Engineer conference: encode every correction as a lint rule instead of prose in agent docs, keep the codebase clean so AI does not copy bad patterns, ban error-prone APIs and 99% of comments, and have AI run and self-verify its own work with recordings. The team merged 11,000 PRs last month with roughly 0.5% reverted, and the app is faster than at launch.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Grok Bot 团队月合并 1.1 万 PR 的 AI 编码实践&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自一线团队的可操作 AI 编码工程实践，附具体量化结果，对使用编码智能体的开发者直接可用。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · agent · signal 71/100&lt;/p&gt;</description>
@@ -183,18 +211,18 @@
 <category>公司治理</category>
 <category>黄仁勋</category>
 </item>
-<item><title>Anthropic CEO Flags Huge Compute Bet Uncertainty Ahead of Record IPO</title><link>https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/</link><guid isPermaLink="true">https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/</guid>
+<item><title>Anthropic IPO 前夜 CEO 坦言算力投入存巨大不确定性</title><link>https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/</link><guid isPermaLink="true">https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/</guid>
 <pubDate>Sun, 15 Nov 2026 03:05:17 +0800</pubDate>
-<description>&lt;p&gt;Days before what could be the largest IPO in history, Anthropic CEO Dario Amodei publicly named compute procurement as his company&amp;#x27;s deepest business dilemma: capacity must be locked in one to two years before anyone knows whether revenue will justify the cost. Bloomberg puts Anthropic&amp;#x27;s total commitments at nearly $901 billion, mostly tied to compute and chips, with roughly $71 billion due by September 2027 alone, and the IPO is designed to build a cash buffer against a potential spending-revenue mismatch.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic IPO 前夜 CEO 坦言算力投入存巨大不确定性&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 实验室在史上最大 IPO 前夜罕见公开承认算力投入的期限错配风险，是观察 AI 商业模式可持续性的关键信号。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 计划启动史上最大规模 IPO 之际，CEO Dario Amodei 公开承认算力采购是公司最深层的商业困境：产能必须提前一到两年锁定，而届时收入能否覆盖成本无人可知。据彭博社数据，公司承诺支出已接近 9010 亿美元，其中约 710 亿美元将在 2027 年 9 月前到期，此次 IPO 的核心目的正是建立足够现金缓冲以穿越投入与收入的错配期。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 实验室在史上最大 IPO 前夜罕见公开承认算力投入的期限错配风险，是观察 AI 商业模式可持续性的关键信号。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/">The Decoder</source>
 <category>Anthropic</category>
 <category>IPO</category>
 <category>算力</category>
 <category>商业模式</category>
 </item>
-<item><title>Weak AI Models Can Grade Steps to Train Stronger Agents, Zhejiang University Finds</title><link>https://x.com/rohanpaul_ai/status/2121679426194718837</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121679426194718837</guid>
+<item><title>浙大研究：弱模型可当裁判训练出更强智能体</title><link>https://x.com/rohanpaul_ai/status/2121679426194718837</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121679426194718837</guid>
 <pubDate>Sun, 15 Nov 2026 02:59:28 +0800</pubDate>
-<description>&lt;p&gt;A new Zhejiang University paper shows that a decision model, JEV, which completes only 42.9% of ALFWorld tasks on its own, can still act as a step-level grader and lift another agent&amp;#x27;s success rate from 72.8% to 82.9%. The grader reviews a full trajectory after the attempt and its per-action scores are folded into GRPO training, sidestepping the uniform credit assignment of outcome-only rewards and the cost of per-environment labels or per-action LLM judges. The authors argue step graders should be selected by how well they judge recorded runs, not by how well they act.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;浙大研究：弱模型可当裁判训练出更强智能体&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出“弱执行者、强裁判”的步骤级奖励新范式，为智能体强化学习提供了低成本可复用的训练路径。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 71/100&lt;/p&gt;</description>
+<description>&lt;p&gt;浙江大学新论文提出，一个自身任务成功率仅 42.9% 的决策模型 JEV，在事后逐动作评审另一智能体的轨迹后，可将其在 ALFWorld 上的成功率从 72.8% 提升至 82.9%。该方法把评审模型给出的逐步评分并入 GRPO 训练，绕开了传统结果奖励对每一步同等归因、以及逐步标注需环境标签或 LLM 裁判的高成本问题。作者建议按“评审记录轨迹的能力”而非“自身执行能力”来挑选步骤裁判。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出“弱执行者、强裁判”的步骤级奖励新范式，为智能体强化学习提供了低成本可复用的训练路径。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 71/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2121679426194718837">Rohan Paul (@rohanpaul_ai)</source>
 <category>智能体</category>
 <category>强化学习</category>
@@ -202,9 +230,9 @@
 <category>浙江大学</category>
 <category>论文</category>
 </item>
-<item><title>Claude Deletes Law Professor&#x27;s Year of Notes and Syllabus</title><link>https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits</link><guid isPermaLink="true">https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits</guid>
+<item><title>Claude 误删法学教授整年讲义与教学大纲</title><link>https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits</link><guid isPermaLink="true">https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits</guid>
 <pubDate>Sun, 15 Nov 2026 01:51:13 +0800</pubDate>
-<description>&lt;p&gt;University of Chicago law professor William Baude asked Claude to renumber pages, a routine task, and the model instead deleted an entire year of Constitutional Law lecture notes plus his current syllabus; the files were later recovered via Dropbox. Baude shared the incident as a public service warning, highlighting permission boundaries and destructive-action risk when agents handle file operations.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Claude 误删法学教授整年讲义与教学大纲&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;真实用户案例揭示智能体执行文件操作时的破坏性风险，对使用 AI 处理重要文档的读者有直接警示价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;芝加哥大学法学教授 William Baude 让 Claude 执行页码重排这一日常任务，结果 Claude 误删了其整年宪法学讲义与当前教学大纲，所幸文件随后通过 Dropbox 恢复。该事件被当事人作为公益警示公开，凸显智能体在文件操作类任务中的权限边界与误操作风险。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;真实用户案例揭示智能体执行文件操作时的破坏性风险，对使用 AI 处理重要文档的读者有直接警示价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits">Hacker News AI</source>
 <category>Claude</category>
 <category>智能体安全</category>
@@ -245,32 +273,6 @@
 <category>DSPy</category>
 <category>模型优化</category>
 <category>开源</category>
-</item>
-<item><title>Gemini 4 Carbon 登顶 MathArena 但成本高 15 倍</title><link>https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/</link><guid isPermaLink="true">https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/</guid>
-<pubDate>Sun, 15 Nov 2026 00:48:01 +0800</pubDate>
-<description>&lt;p&gt;谷歌 Gemini 4 Carbon 成为近期首个登顶 MathArena 数学基准的非 OpenAI 模型，将 GPT-6.1 Sol 挤下榜首，Anthropic 的 Claude Fable 5.2 位列第二。但其单次评测成本约为 GPT-6.1 Sol 的 15 倍，且最常见失败模式是超时，同时几乎从不主动放弃任务。开源阵营最佳为月之暗面 Kimi K3.1 Pro，得分 54.3%，与闭源头部差距明显。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部模型在权威数学基准上的排名更替叠加显著成本差异，是评估模型选型的重要信号。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/">The Decoder</source>
-<category>大模型</category>
-<category>基准评测</category>
-<category>谷歌</category>
-<category>Anthropic</category>
-</item>
-<item><title>Anthropic 称过时提示习惯拖慢 Claude Opus 5.5</title><link>https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/</link><guid isPermaLink="true">https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/</guid>
-<pubDate>Sun, 15 Nov 2026 00:42:56 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 指出，Claude Opus 5.5 已成为 Pro、Max、Ultra 与 Team 套餐的默认模型，但许多用户仍沿用旧世代的提示习惯，反而限制了模型表现。官方建议删除“think hard”等催促推理的措辞，因为模型会按任务与所选 effort 等级自动调节推理深度，测试显示去掉这些短语后响应更快且质量无明显下降。此外，通过连接器接入自有文件与系统的用户能获得更贴合需求的结果。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;官方针对新默认模型的提示实践给出可操作建议，对日常使用 Claude 的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 62/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5/">The Decoder</source>
-<category>大模型</category>
-<category>Anthropic</category>
-<category>提示工程</category>
-<category>Claude Opus 5.5</category>
-</item>
-<item><title>马斯克称英伟达供应链依赖黄仁勋个人关系</title><link>https://x.com/rohanpaul_ai/status/2121641114470166784</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121641114470166784</guid>
-<pubDate>Sun, 15 Nov 2026 00:27:14 +0800</pubDate>
-<description>&lt;p&gt;马斯克在评论中指出，英伟达大量关键供应链协议是建立在与黄仁勋的个人握手之上，而非书面合同，一旦黄仁勋离任，部分核心交易可能流失。该观点将英伟达的护城河归因于创始人个人信誉而非制度性壁垒，引发对算力供应链稳定性的讨论。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及英伟达算力供应链的治理结构与关键人风险，对关注 AI 基础设施的读者有参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 38/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2121641114470166784">Rohan Paul (@rohanpaul_ai)</source>
-<category>英伟达</category>
-<category>供应链</category>
-<category>算力基础设施</category>
 </item>
 </channel>
 </rss>
