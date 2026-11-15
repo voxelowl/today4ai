@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 15 Nov 2026 23:42:03 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 16 Nov 2026 00:16:26 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Building AI Agents with Picasso&#x27;s Minimalist Bull Lesson</title><link>https://claramap.com/blog/what-picasso-taught-me-about-building-ai-agents/</link><guid isPermaLink="true">https://claramap.com/blog/what-picasso-taught-me-about-building-ai-agents/</guid>
+<pubDate>Mon, 16 Nov 2026 00:16:26 +0800</pubDate>
+<description>&lt;p&gt;The author draws a parallel between Picasso&amp;#x27;s 11-stage reduction of The Bull and AI agent development, arguing that as models improve, elaborate frameworks, orchestration engines and multi-agent architectures are being stripped away in favor of simpler single-prompt solutions. The core lesson is that agent engineering rewards subtraction over accumulated system complexity.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;从毕加索画牛看 AI 智能体的极简构建之道&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以艺术大师的减法哲学反思智能体过度工程化，对一线开发者有方法论启发。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 58/100&lt;/p&gt;</description>
+<source url="https://claramap.com/blog/what-picasso-taught-me-about-building-ai-agents/">Hacker News AI</source>
+<category>智能体</category>
+<category>工程实践</category>
+<category>方法论</category>
+</item>
 <item><title>Anthropic&#x27;s Claude Fable 5.2 Paints With Code and Brushstrokes</title><link>https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/</link><guid isPermaLink="true">https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/</guid>
 <pubDate>Sun, 15 Nov 2026 23:42:03 +0800</pubDate>
 <description>&lt;p&gt;Anthropic released Claude Fable 5.2, a language model that paints rather than generates pixels, placing individual brushstrokes on a virtual canvas via Python code while simulating bristle texture and paint application. Demos include a parking garage scene built from roughly 700,000 strokes and a bird painting from 111 coordinate sequences, with deviations painted over afterward. It scored 64.9% on Anthropic&amp;#x27;s internal RoboDojo Sim benchmark versus 29.8% for OpenAI&amp;#x27;s GPT-6 Astra, but trailed in speed and fine motor control in a real robot-arm test.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Claude Fable 5.2 用代码逐笔作画&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以代码逐笔作画替代像素生成，并延伸到机械臂控制，是模型能力范式的一次实质性探索。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
@@ -200,9 +208,9 @@
 <category>AI 创投</category>
 <category>人事变动</category>
 </item>
-<item><title>Sugon scaleFabric Expands Single-Subnet Interconnect to 114,000 GPUs</title><link>https://www.ithome.com/1/027/320.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/320.htm</guid>
+<item><title>中科曙光 scaleFabric 单子网互连扩至 11.4 万卡</title><link>https://www.ithome.com/1/027/320.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/320.htm</guid>
 <pubDate>Sun, 15 Nov 2026 14:17:25 +0800</pubDate>
-<description>&lt;p&gt;At the 8th China Supercomputing Conference, Sugon chief engineer Wan Wei argued that high-speed interconnect is the key to breaking through cluster-scale bottlenecks, requiring system-level innovation for efficient collaboration at larger scales. Sugon&amp;#x27;s fully self-developed scaleFabric 400G lossless network supports up to 114,000 GPUs per subnet, 2.33x that of traditional InfiniBand, cuts networking costs by about 30%, and already underpins a 30,000-GPU intelligent computing cluster at the Zhengzhou core node.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;中科曙光 scaleFabric 单子网互连扩至 11.4 万卡&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产全栈自研高速互连网络给出明确的规模与成本量级数据，直接关系超大规模智算集群的组网路线选择。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;中科曙光总工程师万伟在第八届中国超级算力大会上提出，高速互连是突破算力集群规模瓶颈的关键，需通过系统级创新实现更大规模计算资源的高效协作。其全栈自研的 scaleFabric 400G 无损网络单子网互连规模可达 11.4 万卡，为传统 InfiniBand 的 2.33 倍，组网总成本降低约 30%，并已支撑郑州核心节点 3 万卡级智算集群运行。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产全栈自研高速互连网络给出明确的规模与成本量级数据，直接关系超大规模智算集群的组网路线选择。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/027/320.htm">IT之家 · IT业界</source>
 <category>算力基础设施</category>
 <category>高速互连</category>
@@ -254,15 +262,6 @@
 <category>类型检查</category>
 <category>开发者工具</category>
 <category>开源</category>
-</item>
-<item><title>Turbo-Browser-MCP 将浏览器工具合并为 10 个批量接口</title><link>https://github.com/Tthanh2k6/turbo-browser-mcp</link><guid isPermaLink="true">https://github.com/Tthanh2k6/turbo-browser-mcp</guid>
-<pubDate>Sun, 15 Nov 2026 12:09:11 +0800</pubDate>
-<description>&lt;p&gt;Turbo-Browser-MCP 是基于 Playwright 的 MCP 服务器，把 25-33 个细粒度浏览器原语合并为 10 个批量工具，通过增量 DOM 快照、单轮表单预填与磁盘直传文件显著降低 token 消耗与多轮延迟。基准显示密集 UI 快照从 18,654 token 降至 1,135 token，点击后增量快照仅 56 token，并默认启用提交前人工确认保护。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;针对 MCP 浏览器自动化 token 浪费与多轮延迟的工程优化，附带可复现基准数据，对构建 Agent 工具链的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
-<source url="https://github.com/Tthanh2k6/turbo-browser-mcp">Hacker News AI</source>
-<category>MCP</category>
-<category>浏览器自动化</category>
-<category>Agent 工具链</category>
-<category>开源项目</category>
 </item>
 </channel>
 </rss>

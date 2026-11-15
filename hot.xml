@@ -11,14 +11,6 @@
 
 作为全球 AI 算力龙头，英伟达管理层剧变直接冲击 GPU 路线图与产业预期。Hugging Face CEO 德朗格公开表达惋惜，并承诺更坚定捍卫开源 AI。事件正值英伟达拟以约 129 亿美元收购 Hugging Face 的敏感节点，美国司法部已就竞争影响问询，AI 算力与开源生态走向面临重大不确定性。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, TechCrunch AI, Latent Space, Rohan Paul (@rohanpaul_ai), Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
-<item><title>Anthropic 推出 Claude 办公套件 微软股价一度下跌 3.5%</title><link>https://todayforai.com/en/story/story-6b1d42f1-18b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-6b1d42f1-18b</guid>
-<pubDate>Sun, 15 Nov 2026 13:52:00 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 正式发布 Claude 办公套件，将 Claude 从对话助手升级为独立协作平台，直接挑战 Microsoft 365 与 Google Workspace。此次发布包括 Claude Meetings、Whiteboards、Sheets 和 Data 四款产品，其中 Claude 可作为可见参会者加入视频会议，实时生成文档、白板与行动项，并支持语音或聊天提问。消息公布后，微软股价一度下跌超过 3.5%，市值蒸发约 893 亿美元，市场反应剧烈。
-
-综合多源信息，Claude Sheets 支持自然语言生成含公式与多标签的可协作表格，Claude Data 可连接 Snowflake、Salesforce 等数据源自动刷新仪表盘，Whiteboards 则能将讨论自动转为带时间线与负责人的看板。Interactive Connectors 让 Adobe、Atlassian、Salesforce 等第三方应用以完整形态嵌入对话，用户无需切换标签即可编辑或委托 Claude 修改。企业客户同时获得审计日志、隔离虚拟机与合规 API 等安全管控。Claude Meetings 目前仅支持 Google Meet，面向 Team 与 Enterprise 套餐测试，测试期内纪要不另收费。
-
-此举标志着 Anthropic 从开发者市场向企业办公入口延伸，与 Microsoft、Google 及 OpenAI 展开正面竞争。Claude 从依赖 Office/Workspace 插件的形态转为独立工作台，用户不再需要订阅微软或谷歌套件，这直接动摇了传统办公软件巨头…&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, 宝玉 (@dotey), The Decoder, InfoQ 中文, Hacker News AI, The Verge AI&lt;/p&gt;</description>
-</item>
 <item><title>深度解析现代大模型位置编码与 RoPE 机制</title><link>https://todayforai.com/en/story/story-b9da5c60-6fb</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b9da5c60-6fb</guid>
 <pubDate>Sun, 15 Nov 2026 20:14:06 +0800</pubDate>
 <description>&lt;p&gt;近期，一份系统性的技术综述对现代大语言模型的位置编码机制进行了全面梳理，尤其聚焦于当前主流的旋转位置编码（RoPE）及其变体。该综述不仅涵盖了从经典绝对位置编码到相对位置编码的演进脉络，还提供了详细的数学推导、可视化示例以及可运行的 PyTorch 实现代码，为开发者与研究者提供了宝贵的实践参考。
@@ -62,6 +54,14 @@ Teamwork 采用专业智能体并行求解加独立质疑者与审查者的架�
 综合多方信源，新政策取消了额外 30 天的补丁缓冲期，披露窗口将分 90 天、60 天、30 天三阶段逐步收紧。谷歌明确表示，LLM 加速了漏洞发现、利用以及从补丁逆向出攻击代码的全过程，零补丁到利用时间已成为合理的攻击者行为模型，厂商修复窗口被实质压缩。新政策仅保留在野利用、已公开漏洞和厂商主动请求三类例外。
 
 这一变化对软件厂商和网络安全生态影响深远。厂商必须更快完成修复，否则将面临漏洞细节提前公开的风险。AI 驱动的攻击节奏加快，迫使安全社区重新审视漏洞披露的平衡点，可能推动行业整体向更敏捷的修复流程演进。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Hacker News AI&lt;/p&gt;</description>
+</item>
+<item><title>Anthropic 推出 Claude 办公套件 微软股价一度下跌 3.5%</title><link>https://todayforai.com/en/story/story-6b1d42f1-18b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-6b1d42f1-18b</guid>
+<pubDate>Sun, 15 Nov 2026 13:52:00 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 正式发布 Claude 办公套件，将 Claude 从对话助手升级为独立协作平台，直接挑战 Microsoft 365 与 Google Workspace。此次发布包括 Claude Meetings、Whiteboards、Sheets 和 Data 四款产品，其中 Claude 可作为可见参会者加入视频会议，实时生成文档、白板与行动项，并支持语音或聊天提问。消息公布后，微软股价一度下跌超过 3.5%，市值蒸发约 893 亿美元，市场反应剧烈。
+
+综合多源信息，Claude Sheets 支持自然语言生成含公式与多标签的可协作表格，Claude Data 可连接 Snowflake、Salesforce 等数据源自动刷新仪表盘，Whiteboards 则能将讨论自动转为带时间线与负责人的看板。Interactive Connectors 让 Adobe、Atlassian、Salesforce 等第三方应用以完整形态嵌入对话，用户无需切换标签即可编辑或委托 Claude 修改。企业客户同时获得审计日志、隔离虚拟机与合规 API 等安全管控。Claude Meetings 目前仅支持 Google Meet，面向 Team 与 Enterprise 套餐测试，测试期内纪要不另收费。
+
+此举标志着 Anthropic 从开发者市场向企业办公入口延伸，与 Microsoft、Google 及 OpenAI 展开正面竞争。Claude 从依赖 Office/Workspace 插件的形态转为独立工作台，用户不再需要订阅微软或谷歌套件，这直接动摇了传统办公软件巨头…&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, 宝玉 (@dotey), The Decoder, InfoQ 中文, Hacker News AI, The Verge AI&lt;/p&gt;</description>
 </item>
 <item><title>Grok Bot 团队月合并 1.1 万 PR 的 AI 编码实践</title><link>https://todayforai.com/en/story/story-4fd4002d-a27</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4fd4002d-a27</guid>
 <pubDate>Sun, 15 Nov 2026 13:18:14 +0800</pubDate>
