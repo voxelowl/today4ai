@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 15 Nov 2026 22:46:58 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 15 Nov 2026 23:42:03 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Anthropic&#x27;s Claude Fable 5.2 Paints With Code and Brushstrokes</title><link>https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/</link><guid isPermaLink="true">https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/</guid>
+<pubDate>Sun, 15 Nov 2026 23:42:03 +0800</pubDate>
+<description>&lt;p&gt;Anthropic released Claude Fable 5.2, a language model that paints rather than generates pixels, placing individual brushstrokes on a virtual canvas via Python code while simulating bristle texture and paint application. Demos include a parking garage scene built from roughly 700,000 strokes and a bird painting from 111 coordinate sequences, with deviations painted over afterward. It scored 64.9% on Anthropic&amp;#x27;s internal RoboDojo Sim benchmark versus 29.8% for OpenAI&amp;#x27;s GPT-6 Astra, but trailed in speed and fine motor control in a real robot-arm test.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Claude Fable 5.2 用代码逐笔作画&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以代码逐笔作画替代像素生成，并延伸到机械臂控制，是模型能力范式的一次实质性探索。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/">The Decoder</source>
+<category>大模型</category>
+<category>Anthropic</category>
+<category>多模态</category>
+<category>具身智能</category>
+</item>
 <item><title>Why AI-Generated Code Should Be Open Source by Default</title><link>https://jakub.jankiewicz.org/blog/ai-code-open-source/</link><guid isPermaLink="true">https://jakub.jankiewicz.org/blog/ai-code-open-source/</guid>
 <pubDate>Sun, 15 Nov 2026 22:46:58 +0800</pubDate>
 <description>&lt;p&gt;The author argues that all AI-generated code should be open source: models were trained on scraped open-source and CC-licensed content, making proprietary output a form of license laundering, and purely AI-generated works lack human authorship, so under the Monkey Selfie precedent they should not be copyrightable. The piece is an opinion argument without new data or technical proposals.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 生成代码应默认开源的观点论证&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;触及 AI 生成物版权与开源许可的核心争议，观点鲜明但属个人论述，适合关注开源合规的读者参考。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
@@ -209,9 +218,9 @@
 <category>NeurIPS 2026</category>
 <category>蛋白质设计</category>
 </item>
-<item><title>Anthropic Launches Whiteboards, Sheets and Data Tools for Claude</title><link>https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652743221&amp;idx=2&amp;sn=94166010bc71bedc14b2b7d376e8520e</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652743221&amp;idx=2&amp;sn=94166010bc71bedc14b2b7d376e8520e</guid>
+<item><title>Claude 推出白板表格数据三大办公工具</title><link>https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652743221&amp;idx=2&amp;sn=94166010bc71bedc14b2b7d376e8520e</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652743221&amp;idx=2&amp;sn=94166010bc71bedc14b2b7d376e8520e</guid>
 <pubDate>Sun, 15 Nov 2026 13:52:00 +0800</pubDate>
-<description>&lt;p&gt;Anthropic rolled out three office-oriented capabilities for Claude — Whiteboards, Sheets and Data — covering planning, spreadsheet building and data storytelling, with third-party tools like Adobe and Notion callable directly inside the chat. The move lands squarely on Microsoft Office&amp;#x27;s turf; Microsoft shares fell 2.2% on the day, erasing roughly $89.3 billion in market value.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Claude 推出白板表格数据三大办公工具&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部模型厂商首次成体系切入办公套件核心场景，并引发微软市值明显波动，是 AI 应用层竞争格局的重要信号。&lt;/p&gt;&lt;p&gt;新智元 (微信公众号) · tools · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 为 Claude 一次性上线 Whiteboards、Sheets、Data 三款办公协作工具，覆盖从规划梳理、表格搭建到数据可视化的完整工作流，并支持 Adobe、Notion 等第三方工具在对话中直接调用。此举直接切入微软 Office 全家桶核心腹地，消息公布当日微软股价收跌 2.2%，市值蒸发约 893 亿美元。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部模型厂商首次成体系切入办公套件核心场景，并引发微软市值明显波动，是 AI 应用层竞争格局的重要信号。&lt;/p&gt;&lt;p&gt;新智元 (微信公众号) · tools · signal 78/100&lt;/p&gt;</description>
 <source url="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652743221&amp;idx=2&amp;sn=94166010bc71bedc14b2b7d376e8520e">新智元 (微信公众号)</source>
 <category>智能体</category>
 <category>办公工具</category>
@@ -254,16 +263,6 @@
 <category>浏览器自动化</category>
 <category>Agent 工具链</category>
 <category>开源项目</category>
-</item>
-<item><title>苹果 HomeView 首批评测翻车 Siri AI 频出故障</title><link>https://www.ithome.com/1/027/294.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/294.htm</guid>
-<pubDate>Sun, 15 Nov 2026 11:31:34 +0800</pubDate>
-<description>&lt;p&gt;苹果首款智能家庭中枢 HomeView 于 11 月 13 日海外上市，首批媒体评测集中批评其 Siri AI 响应迟缓、答非所问甚至卡死，且人脸识别下的账户切换存在隐私泄露风险。评测同时指出个性化选项有限、缺少摄像头与麦克风物理禁用键等硬件短板，仅音质与个性化功能获部分好评。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;苹果首款家庭中枢的实际评测暴露 Siri AI 落地短板与隐私设计缺陷，是观察端侧 AI 助手真实成熟度的关键样本。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/294.htm">IT之家 · 智能时代</source>
-<category>苹果</category>
-<category>智能家居</category>
-<category>Siri</category>
-<category>端侧 AI</category>
-<category>隐私</category>
 </item>
 </channel>
 </rss>
