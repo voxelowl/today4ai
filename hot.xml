@@ -27,9 +27,13 @@ ChatGPT Wallet 的核心安全机制在于令牌化支付：OpenAI 与美国运�
 
 此举标志着 Anthropic 从开发者市场向企业办公入口延伸，与 Microsoft、Google 及 OpenAI 展开正面竞争。Claude 从依赖 Office/Workspace 插件的形态转为独立工作台，用户不再需要订阅微软或谷歌套件，这直接动摇了传统办公软件巨头…&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, 宝玉 (@dotey), The Decoder, InfoQ 中文, Hacker News AI, The Verge AI&lt;/p&gt;</description>
 </item>
-<item><title>llama.cpp 与 ggml 发布 1.0 版本</title><link>https://todayforai.com/en/story/story-21ace097-fe1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-21ace097-fe1</guid>
-<pubDate>Sat, 14 Nov 2026 16:31:02 +0800</pubDate>
-<description>&lt;p&gt;llama.cpp 与底层张量库 ggml 同步发布 1.0 版本，标志着项目进入稳定阶段，llama.cpp 同时移除了 35 个已废弃的公开接口。SGLang 也在峰会上宣布 1.0 版本，本地推理与高性能服务框架的工程成熟度进一步提升。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Latent Space, Hugging Face Blog, IT之家 · 智能时代, Hacker News AI&lt;/p&gt;</description>
+<item><title>深度解析现代大模型位置编码与 RoPE 机制</title><link>https://todayforai.com/en/story/story-b9da5c60-6fb</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b9da5c60-6fb</guid>
+<pubDate>Sun, 15 Nov 2026 20:14:06 +0800</pubDate>
+<description>&lt;p&gt;近期，一份系统性的技术综述对现代大语言模型的位置编码机制进行了全面梳理，尤其聚焦于当前主流的旋转位置编码（RoPE）及其变体。该综述不仅涵盖了从经典绝对位置编码到相对位置编码的演进脉络，还提供了详细的数学推导、可视化示例以及可运行的 PyTorch 实现代码，为开发者与研究者提供了宝贵的实践参考。
+
+综述的核心发现之一是，2026 年的开源权重模型在位置编码的选择上呈现出显著差异。一些模型仍坚持使用 RoPE 的改进版本，而另一些则尝试调整甚至完全省略显式位置编码，转而依赖注意力机制本身来隐式捕捉位置信息。这种分化反映了业界对长上下文建模和计算效率的不同权衡，也表明位置编码的设计远未形成统一标准。
+
+该综述的发布恰逢大模型架构创新进入深水区，位置编码作为影响模型外推能力和训练稳定性的关键组件，正受到越来越多的关注。对于开发者而言，理解不同位置编码方案的优劣及实现细节，将有助于在自定义模型时做出更明智的架构决策；对于整个生态，这类系统性的知识梳理有望加速最佳实践的沉淀，推动更高效、更强大的模型设计。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Ahead of AI (Sebastian Raschka), Hacker News AI&lt;/p&gt;</description>
 </item>
 <item><title>韩国税务师考试头名 AI 作弊 全国资格考启动排查</title><link>https://todayforai.com/en/story/story-1ab29d68-03e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1ab29d68-03e</guid>
 <pubDate>Sun, 15 Nov 2026 21:42:51 +0800</pubDate>
@@ -46,6 +50,10 @@ ChatGPT Wallet 的核心安全机制在于令牌化支付：OpenAI 与美国运�
 该研究基于 RBA 分析师 Mike Major 构建的劳动力市场监测系统，聚焦入门级岗位与高 AI 暴露职业。结论指出，澳大利亚整体尚未出现大规模岗位替代，但软件开发、文职与客服等高度暴露领域的招聘岗位明显下滑，年轻求职者处境更为艰难。斯坦福大学与 Anthropic 的联合研究也印证了类似趋势，显示 22 至 25 岁年轻人在高 AI 影响职业中的就业人数下降约 13% 至 14%。不过，研究者强调目前尚无直接因果证据，且世界经济论坛（WEF）与 LinkedIn 数据显示，AI 相关新岗位与技能需求正同步增长。
 
 这一发现揭示了 AI 对就业市场的结构性影响：入门级岗位首当其冲，年轻人面临更大的就业压力，但整体失业率未系统性上升，劳动力市场正在经历技能需求的重塑。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, The Decoder&lt;/p&gt;</description>
+</item>
+<item><title>llama.cpp 与 ggml 发布 1.0 版本</title><link>https://todayforai.com/en/story/story-21ace097-fe1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-21ace097-fe1</guid>
+<pubDate>Sat, 14 Nov 2026 16:31:02 +0800</pubDate>
+<description>&lt;p&gt;llama.cpp 与底层张量库 ggml 同步发布 1.0 版本，标志着项目进入稳定阶段，llama.cpp 同时移除了 35 个已废弃的公开接口。SGLang 也在峰会上宣布 1.0 版本，本地推理与高性能服务框架的工程成熟度进一步提升。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Latent Space, Hugging Face Blog, IT之家 · 智能时代, Hacker News AI&lt;/p&gt;</description>
 </item>
 <item><title>Perplexity 开源 Decider v1.3 决策模型 支持精准文本片段抽取</title><link>https://todayforai.com/en/story/story-ad6cd1ef-769</link><guid isPermaLink="true">https://todayforai.com/en/story/story-ad6cd1ef-769</guid>
 <pubDate>Sat, 14 Nov 2026 21:27:39 +0800</pubDate>
@@ -70,10 +78,6 @@ Teamwork 采用专业智能体并行求解加独立质疑者与审查者的架�
 综合多方信源，新政策取消了额外 30 天的补丁缓冲期，披露窗口将分 90 天、60 天、30 天三阶段逐步收紧。谷歌明确表示，LLM 加速了漏洞发现、利用以及从补丁逆向出攻击代码的全过程，零补丁到利用时间已成为合理的攻击者行为模型，厂商修复窗口被实质压缩。新政策仅保留在野利用、已公开漏洞和厂商主动请求三类例外。
 
 这一变化对软件厂商和网络安全生态影响深远。厂商必须更快完成修复，否则将面临漏洞细节提前公开的风险。AI 驱动的攻击节奏加快，迫使安全社区重新审视漏洞披露的平衡点，可能推动行业整体向更敏捷的修复流程演进。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Hacker News AI&lt;/p&gt;</description>
-</item>
-<item><title>Grok Bot 团队月合并 1.1 万 PR 的 AI 编码实践</title><link>https://todayforai.com/en/story/story-4fd4002d-a27</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4fd4002d-a27</guid>
-<pubDate>Sun, 15 Nov 2026 13:18:14 +0800</pubDate>
-<description>&lt;p&gt;Lauren Tan 在 AI Engineer 大会分享了 Grok Bot 桌面版团队的高效 AI 编码方法论：把每次纠正固化为 lint 规则而非文档说明，保持代码库干净以免 AI 照抄坏模式，禁用易错 API 与 99% 注释，并让 AI 自跑自测提交录屏。团队上月合并 1.1 万个 PR，撤回率约 0.5%，应用性能反超初版。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
