@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Sun, 15 Nov 2026 15:10:41 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 15 Nov 2026 18:12:07 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>黄仁勋辞任英伟达 CEO 市值蒸发近 2 万亿美元</title><link>https://todayforai.com/en/story/story-9954eb0b-f56</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9954eb0b-f56</guid>
 <pubDate>Sun, 15 Nov 2026 15:10:41 +0800</pubDate>
@@ -39,6 +39,14 @@ Teamwork 采用专业智能体并行求解加独立质疑者与审查者的架�
 
 这一成果对数学形式化、AI  for Science 及软件工程赛道具有深远影响。多智能体协作攻克多年未解的开放问题，展示了 AI 在复杂科研任务中的潜力，有望加速科学发现与工程实践，推动 AI 从辅助工具向科研合作伙伴的范式跃迁。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Hacker News AI, Google Research&lt;/p&gt;</description>
 </item>
+<item><title>谷歌零项目将漏洞披露期限缩短至 90 天</title><link>https://todayforai.com/en/story/story-55370c94-b6a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-55370c94-b6a</guid>
+<pubDate>Sun, 15 Nov 2026 18:12:07 +0800</pubDate>
+<description>&lt;p&gt;谷歌 Project Zero 团队宣布取消原有的“90+30”漏洞披露政策，改为在报告后 90 天直接公开漏洞细节，并计划分阶段将期限进一步压缩至 30 天。这一调整的核心动因是 AI 辅助的漏洞发现与利用技术大幅压缩了攻击者的行动时间，传统的补丁“浸泡期”在当下威胁环境中已失去意义。
+
+综合多方信源，新政策取消了额外 30 天的补丁缓冲期，披露窗口将分 90 天、60 天、30 天三阶段逐步收紧。谷歌明确表示，LLM 加速了漏洞发现、利用以及从补丁逆向出攻击代码的全过程，零补丁到利用时间已成为合理的攻击者行为模型，厂商修复窗口被实质压缩。新政策仅保留在野利用、已公开漏洞和厂商主动请求三类例外。
+
+这一变化对软件厂商和网络安全生态影响深远。厂商必须更快完成修复，否则将面临漏洞细节提前公开的风险。AI 驱动的攻击节奏加快，迫使安全社区重新审视漏洞披露的平衡点，可能推动行业整体向更敏捷的修复流程演进。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Hacker News AI&lt;/p&gt;</description>
+</item>
 <item><title>Anthropic 推出 Claude 办公套件 微软股价应声下跌 3.5%</title><link>https://todayforai.com/en/story/story-6b1d42f1-18b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-6b1d42f1-18b</guid>
 <pubDate>Sat, 14 Nov 2026 06:39:15 +0800</pubDate>
 <description>&lt;p&gt;Anthropic 正式发布 Claude 办公套件，包括 Claude Meetings、Whiteboards、Sheets 和 Data 四款产品，将 Claude 从对话助手升级为独立团队协作平台。其中 Claude Meetings 测试版允许 Claude 以可见参会者身份加入 Google Meet 视频会议，实时撰写纪要、回答问题、起草文档并绘制白板，会议结束后自动生成待办与转录稿。该功能目前仅面向 Team 与 Enterprise 套餐开放，测试期内纪要不另收费。
@@ -66,14 +74,6 @@ Claude Sheets 支持自然语言生成含公式与多标签的可协作表格，
 相比 10 月需自行串联工具调用的 Search/Fetch 接口，新接口由模型自动完成搜索决策与多步衔接，服务端自动完成工具调用与上下文拼接。V4.1-Flash 模型在 Messages、Responses 与 Chat Completions 接口下支持联网搜索、深度思考搜索、文件输入、链接阅读与安全校验。Search、Fetch、OCR、ASR、TTS 均可作为独立接口单独调用，便于接入自有工作流。工具调用按次计费，如搜索 5 元/千次。
 
 此次开放标志着 DeepSeek 从模型提供商向应用平台演进，开发者可快速构建具备完整对话能力的 AI 应用，降低开发门槛。语音能力的开放补齐了多模态交互短板，开源前端 Demo 进一步加速生态建设，预计将吸引大量开发者基于 DeepSeek 构建垂直应用，推动 AI 应用生态繁荣。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;量子位官网, IT之家 · 智能时代, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
-</item>
-<item><title>Anthropic 启动 IPO 路演 拟最高募资 904 亿美元</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
-<pubDate>Sun, 15 Nov 2026 03:05:17 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 正式启动 IPO 路演，计划以代码 ANT 登陆纳斯达克，基础发行规模最高约 643.5 亿美元，叠加向谷歌、英伟达、微软等七家战略投资者定向发行的 260 亿美元私募股份，合计融资规模最高可达 904 亿美元，目标估值约 1.4 万亿美元，有望成为史上最大 IPO 之一。
-
-尽管此前因定价文件细节问题短暂撤回，且市场对 AI 板块的估值预期从 2 万亿美元下修至最低约 1.1 万亿美元，但此次发行仍获约 6 倍超额认购，显示资本对头部 AI 资产的强烈需求。公司年化收入已从 9 月的 710 亿美元增至 10 月底的 810 亿美元，为估值提供支撑。CEO Dario Amodei 表示上市核心目的是囤积现金以支撑总额 9000 亿美元的算力基础设施投入，包括与 SpaceX 每月最高 31 亿美元的数据中心协议，同时采取“少量长约+现货市场”策略对冲需求波动风险。
-
-此次 IPO 将成为 AI 行业资本化与估值逻辑的关键检验。七位创始人通过特殊股权结构锁定 50.1% 投票权，公开市场投资者几乎无法影响公司控制权，这种治理安排可能引发对公共利益公司（PBC）上市后责任归属的讨论。若发行成功，Anthropic 将获得充足弹药与 OpenAI 等对手展开算力军备竞赛，并重塑前沿 AI 实验室的融资与竞争格局。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Verge AI, Anthropic News, 量子位官网, Latent Space, The Decoder, IT之家 · IT业界&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
