@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 15 Nov 2026 08:08:32 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 15 Nov 2026 08:42:33 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>LG U+ to Enter AI Token Business Next Year with Heterogeneous Chips</title><link>https://www.ithome.com/1/027/262.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/262.htm</guid>
+<pubDate>Sun, 15 Nov 2026 08:42:33 +0800</pubDate>
+<description>&lt;p&gt;South Korean carrier LG U+ will enter the B2B AI token business next year, targeting enterprise AI transformation costs with three technologies: Harness Engineering for agent task paths, intelligent model routing, and a heterogeneous chip mix. Its in-house on-device model shrinks by a third while retaining over 95% of a general cloud model&amp;#x27;s performance, and a small-model-generates, large-model-verifies flow more than doubles token generation speed. The move means all three major Korean carriers will compete in the token economy.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;LG U+ 明年进军 AI Token 业务 异构芯片降本&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;电信运营商以异构芯片与路由技术切入 Token 经济，是算力商业化路径的实质信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/027/262.htm">IT之家 · 智能时代</source>
+<category>AI Token</category>
+<category>LG U+</category>
+<category>异构算力</category>
+<category>智能路由</category>
+<category>电信运营商</category>
+</item>
 <item><title>Northwestern and Google Unveil Self-Improving Agent Harness Method</title><link>https://x.com/rohanpaul_ai/status/2121757204810469793</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121757204810469793</guid>
 <pubDate>Sun, 15 Nov 2026 08:08:32 +0800</pubDate>
 <description>&lt;p&gt;A Northwestern and Google paper introduces Harness2, which lets agents self-improve their harness (prompts, tools, skills, memory) on new tasks without answer keys by test-running proposed edits and keeping only those that help. A single improvement step lifted GLM-5 by 11.5 points on WorkBuddy-Bench, surpassing Gemini 3.5 Flash on its stock harness, while unvalidated harness edits dropped coding scores from 73.4 to 63.2.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;西北大学与谷歌提出智能体框架自进化方法&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出无需标注即可自动优化智能体框架的闭环方法，并给出可验证的量化增益与反例，对智能体工程实践有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
@@ -209,18 +219,18 @@
 <category>上下文工程</category>
 <category>Agent 架构</category>
 </item>
-<item><title>Formalizing the US Tax Code in Lean to Hunt Unknown Loopholes</title><link>https://lexifina.com/blog/formalizing-the-us-tax-code</link><guid isPermaLink="true">https://lexifina.com/blog/formalizing-the-us-tax-code</guid>
+<item><title>用 Lean 形式化美国税法以搜索未知漏洞</title><link>https://lexifina.com/blog/formalizing-the-us-tax-code</link><guid isPermaLink="true">https://lexifina.com/blog/formalizing-the-us-tax-code</guid>
 <pubDate>Sat, 14 Nov 2026 23:41:20 +0800</pubDate>
-<description>&lt;p&gt;The author formalized US retirement-account tax rules in Lean and a blind search rediscovered the backdoor Roth loophole, then proposed formalizing the entire Internal Revenue Code to automatically surface unknown contradictions and mechanical errors. Code, certificates, and searches are released in the CC0 global-law repository&amp;#x27;s lean-proofs folder.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;用 Lean 形式化美国税法以搜索未知漏洞&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把定理证明器用于法律条文形式化并自动搜索漏洞，是 AI for Science 与形式化方法交叉的少见实证案例。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;作者在 Lean 中形式化美国国税局退休账户规则，并用盲搜索重新发现了 backdoor Roth 这一已知漏洞，进而提出将整部税法形式化以自动发现未知矛盾与机械性错误。该工作开源在 CC0 仓库 global-law 的 lean-proofs 目录，包含定理、IRS 示例测试与搜索结果。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把定理证明器用于法律条文形式化并自动搜索漏洞，是 AI for Science 与形式化方法交叉的少见实证案例。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 62/100&lt;/p&gt;</description>
 <source url="https://lexifina.com/blog/formalizing-the-us-tax-code">Hacker News AI</source>
 <category>形式化验证</category>
 <category>Lean</category>
 <category>AI for Science</category>
 <category>法律科技</category>
 </item>
-<item><title>PyPI Rolls Out Redesigned Project Pages with Clearer Security Signals</title><link>https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/</link><guid isPermaLink="true">https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/</guid>
+<item><title>PyPI 全新项目页上线 强化安全信号展示</title><link>https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/</link><guid isPermaLink="true">https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/</guid>
 <pubDate>Sat, 14 Nov 2026 23:40:52 +0800</pubDate>
-<description>&lt;p&gt;PyPI has completed and shipped its redesigned project pages, with a focus on making security signals such as digital attestations and provenance easier for ordinary users to understand. The update was shaped by Python community user research and supported by OpenSSF funding, aiming to counter supply-chain risks from malicious packages.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;PyPI 全新项目页上线 强化安全信号展示&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Python 生态核心基础设施的安全可视化改版，直接影响所有依赖 PyPI 的开发者。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;PyPI 完成界面改版并正式上线，重点重构项目页的安全信号展示，让数字证明与来源信息更易被普通用户理解。改版基于 Python 社区的用户调研，并获得 OpenSSF 的资金与协作支持，旨在应对恶意包增长带来的供应链风险。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Python 生态核心基础设施的安全可视化改版，直接影响所有依赖 PyPI 的开发者。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
 <source url="https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/">Hacker News AI</source>
 <category>开源生态</category>
 <category>供应链安全</category>
@@ -263,15 +273,6 @@
 <category>MoE</category>
 <category>本地推理</category>
 <category>NVFP4</category>
-</item>
-<item><title>Agweb 发布 macOS 智能体专用浏览器</title><link>https://github.com/paul-nameless/agweb</link><guid isPermaLink="true">https://github.com/paul-nameless/agweb</guid>
-<pubDate>Sat, 14 Nov 2026 22:08:12 +0800</pubDate>
-<description>&lt;p&gt;Agweb 是一款基于 WebKit 的 macOS 浏览器，专为并行运行的编码智能体设计，核心特性是永不抢占键盘焦点，智能体通过命令行驱动，用户可在仪表盘实时查看所有标签页。相比 Playwright Chrome 与无头浏览器，它解决了焦点抢占、站点拦截无头访问和资源占用过高的问题，五个空闲页面仅占 590 MB 内存。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向多智能体并行的浏览器基础设施创新，直击焦点抢占与无头浏览器被拦截的真实痛点。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://github.com/paul-nameless/agweb">Hacker News AI</source>
-<category>智能体</category>
-<category>浏览器</category>
-<category>开发者工具</category>
-<category>macOS</category>
 </item>
 </channel>
 </rss>
