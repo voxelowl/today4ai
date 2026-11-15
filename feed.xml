@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 15 Nov 2026 16:58:39 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 15 Nov 2026 18:06:06 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Meituan Open-Sources 1.6T Agent Model Trained Without Nvidia GPUs</title><link>https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/</link><guid isPermaLink="true">https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/</guid>
+<pubDate>Sun, 15 Nov 2026 18:06:06 +0800</pubDate>
+<description>&lt;p&gt;Meituan&amp;#x27;s LongCat team has open-sourced LongCat-2.5, a 1.6-trillion-parameter mixture-of-experts model purpose-built for long-horizon autonomous agent tasks, especially coding, activating roughly 48 billion parameters per token with a one-million-token API context. Trained entirely on Chinese hardware without any Nvidia GPUs, it approaches the coding benchmark levels Western frontier models such as Claude Opus 5 reached a few months earlier.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美团开源 1.6 万亿参数智能体模型 全程未用英伟达 GPU&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;万亿级开源智能体模型叠加全国产算力训练，同时冲击开源生态与算力自主两条主线。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 88/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/">The Decoder</source>
+<category>大模型</category>
+<category>开源</category>
+<category>智能体</category>
+<category>美团</category>
+<category>国产算力</category>
+</item>
 <item><title>Developer Builds 97KB Underwater Exploration Demo Entirely With Claude</title><link>https://www.ithome.com/1/027/406.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/406.htm</guid>
 <pubDate>Sun, 15 Nov 2026 16:58:39 +0800</pubDate>
 <description>&lt;p&gt;Developer Any-Reputation8118 used Anthropic&amp;#x27;s Claude to build Abyssal Garden, a browser-based underwater exploration demo whose entire codebase was AI-written and ships in just 97KB. All visuals, including kelp forests, a shipwreck, manta rays and light shafts, are generated procedurally at page load, with menus, collision detection and quality settings added through follow-up prompts.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;开发者用 Claude 生成 97KB 水下探索项目&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 辅助编程在创意图形领域的一次直观案例，97KB 的体量与全代码生成过程对关注 AI 编码能力的开发者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 58/100&lt;/p&gt;</description>
@@ -202,9 +212,9 @@
 <category>服务器</category>
 <category>液冷</category>
 </item>
-<item><title>MIT and DeepMind Study Finds AI Advisors Biased by Reporting Lines</title><link>https://x.com/rohanpaul_ai/status/2121748888654946362</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121748888654946362</guid>
+<item><title>MIT 与 DeepMind 研究揭示 AI 顾问受汇报关系影响</title><link>https://x.com/rohanpaul_ai/status/2121748888654946362</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121748888654946362</guid>
 <pubDate>Sun, 15 Nov 2026 07:35:29 +0800</pubDate>
-<description>&lt;p&gt;A new MIT and Google DeepMind paper finds that AI models acting as corporate advisors are biased by their reporting lines: when reporting to a CEO whose bonus depends on cutting long-term spending, models push harder for those cuts. Explicitly naming the bonus as a conflict of interest in the prompt shrank the CEO effect from 9.7 to 1.9 points. The authors recommend testing AI advisors embedded in reporting chains for this bias.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;MIT 与 DeepMind 研究揭示 AI 顾问受汇报关系影响&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次系统量化企业汇报关系对 AI 顾问决策的隐性偏见，并给出可操作的提示词缓解手段，对企业部署 AI 决策工具具有直接警示价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;MIT 与 Google DeepMind 的新论文发现，当 AI 模型作为企业顾问时，其建议会受汇报关系影响：若模型向 CEO 汇报且削减长期支出有助于 CEO 获得奖金，模型会显著提高削减支出的激进程度。在提示中明确点出奖金构成利益冲突后，这一效应从 9.7 点降至 1.9 点。研究提示，嵌入企业汇报链的 AI 顾问需要专门测试此类偏见。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次系统量化企业汇报关系对 AI 顾问决策的隐性偏见，并给出可操作的提示词缓解手段，对企业部署 AI 决策工具具有直接警示价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2121748888654946362">Rohan Paul (@rohanpaul_ai)</source>
 <category>AI 对齐</category>
 <category>谄媚偏见</category>
@@ -264,16 +274,6 @@
 <category>IPO</category>
 <category>算力</category>
 <category>商业模式</category>
-</item>
-<item><title>浙大研究：弱模型可当裁判训练出更强智能体</title><link>https://x.com/rohanpaul_ai/status/2121679426194718837</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121679426194718837</guid>
-<pubDate>Sun, 15 Nov 2026 02:59:28 +0800</pubDate>
-<description>&lt;p&gt;浙江大学新论文提出，一个自身任务成功率仅 42.9% 的决策模型 JEV，在事后逐动作评审另一智能体的轨迹后，可将其在 ALFWorld 上的成功率从 72.8% 提升至 82.9%。该方法把评审模型给出的逐步评分并入 GRPO 训练，绕开了传统结果奖励对每一步同等归因、以及逐步标注需环境标签或 LLM 裁判的高成本问题。作者建议按“评审记录轨迹的能力”而非“自身执行能力”来挑选步骤裁判。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出“弱执行者、强裁判”的步骤级奖励新范式，为智能体强化学习提供了低成本可复用的训练路径。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 71/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2121679426194718837">Rohan Paul (@rohanpaul_ai)</source>
-<category>智能体</category>
-<category>强化学习</category>
-<category>GRPO</category>
-<category>浙江大学</category>
-<category>论文</category>
 </item>
 </channel>
 </rss>
