@@ -11,14 +11,6 @@
 
 作为全球 AI 算力龙头，英伟达管理层剧变直接冲击 GPU 路线图与产业预期。Hugging Face CEO 德朗格公开表达惋惜，并承诺更坚定捍卫开源 AI。事件正值英伟达拟以约 129 亿美元收购 Hugging Face 的敏感节点，美国司法部已就竞争影响问询，AI 算力与开源生态走向面临重大不确定性。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, TechCrunch AI, Latent Space, Rohan Paul (@rohanpaul_ai), Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
-<item><title>OpenAI 联合三大卡组织推出 ChatGPT 钱包 智能体可代付</title><link>https://todayforai.com/en/story/story-a13f7ac4-a82</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a13f7ac4-a82</guid>
-<pubDate>Sat, 14 Nov 2026 04:45:10 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 正式推出 ChatGPT Wallet，允许其 Dots 智能体根据用户指令直接完成在线购物支付。该功能首批面向美国 18 岁以上 ChatGPT Pro 订阅用户开放，需绑定符合条件的美国发行信用卡。每笔交易均需通过 Face ID 或指纹等生物识别确认，确保用户对支付行为的实时控制。
-
-ChatGPT Wallet 的核心安全机制在于令牌化支付：OpenAI 与美国运通、万事达和 Visa 合作，为每笔交易生成限定用途的支付令牌，智能体全程不接触用户真实卡号，商户也无法获取卡信息。用户在下单前可复核商品、金额与支付卡，交易全程留痕，且保留原有卡权益与争议保护。OpenAI 同步发布 Commerce Partner Playbook 及商户工具指南，帮助零售商识别并接受智能体发起的合法交易，避免误拦。
-
-此举标志着 OpenAI 正式将 ChatGPT 培育为购物入口，暂不收取交易佣金。尽管 Anthropic、Meta、Google 等对手已上线类似智能体购物能力，OpenAI 凭借与三大卡组织的深度合作及生物识别验证，在支付安全与生态整合上展现出后发优势。未来计划支持设定额度与品类后完全委托购买，但商户与风控系统的适配仍是关键挑战。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), The Decoder, IT之家 · 智能时代, The Verge AI, OpenAI 官方博客, TechCrunch AI&lt;/p&gt;</description>
-</item>
 <item><title>Anthropic 推出 Claude 办公套件 微软股价一度下跌 3.5%</title><link>https://todayforai.com/en/story/story-6b1d42f1-18b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-6b1d42f1-18b</guid>
 <pubDate>Sun, 15 Nov 2026 13:52:00 +0800</pubDate>
 <description>&lt;p&gt;Anthropic 正式发布 Claude 办公套件，将 Claude 从对话助手升级为独立协作平台，直接挑战 Microsoft 365 与 Google Workspace。此次发布包括 Claude Meetings、Whiteboards、Sheets 和 Data 四款产品，其中 Claude 可作为可见参会者加入视频会议，实时生成文档、白板与行动项，并支持语音或聊天提问。消息公布后，微软股价一度下跌超过 3.5%，市值蒸发约 893 亿美元，市场反应剧烈。
@@ -34,6 +26,14 @@ ChatGPT Wallet 的核心安全机制在于令牌化支付：OpenAI 与美国运�
 综述的核心发现之一是，2026 年的开源权重模型在位置编码的选择上呈现出显著差异。一些模型仍坚持使用 RoPE 的改进版本，而另一些则尝试调整甚至完全省略显式位置编码，转而依赖注意力机制本身来隐式捕捉位置信息。这种分化反映了业界对长上下文建模和计算效率的不同权衡，也表明位置编码的设计远未形成统一标准。
 
 该综述的发布恰逢大模型架构创新进入深水区，位置编码作为影响模型外推能力和训练稳定性的关键组件，正受到越来越多的关注。对于开发者而言，理解不同位置编码方案的优劣及实现细节，将有助于在自定义模型时做出更明智的架构决策；对于整个生态，这类系统性的知识梳理有望加速最佳实践的沉淀，推动更高效、更强大的模型设计。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Ahead of AI (Sebastian Raschka), Hacker News AI&lt;/p&gt;</description>
+</item>
+<item><title>OpenAI 联合三大卡组织推出 ChatGPT 钱包 智能体可代付</title><link>https://todayforai.com/en/story/story-a13f7ac4-a82</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a13f7ac4-a82</guid>
+<pubDate>Sat, 14 Nov 2026 04:45:10 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 正式推出 ChatGPT Wallet，允许其 Dots 智能体根据用户指令直接完成在线购物支付。该功能首批面向美国 18 岁以上 ChatGPT Pro 订阅用户开放，需绑定符合条件的美国发行信用卡。每笔交易均需通过 Face ID 或指纹等生物识别确认，确保用户对支付行为的实时控制。
+
+ChatGPT Wallet 的核心安全机制在于令牌化支付：OpenAI 与美国运通、万事达和 Visa 合作，为每笔交易生成限定用途的支付令牌，智能体全程不接触用户真实卡号，商户也无法获取卡信息。用户在下单前可复核商品、金额与支付卡，交易全程留痕，且保留原有卡权益与争议保护。OpenAI 同步发布 Commerce Partner Playbook 及商户工具指南，帮助零售商识别并接受智能体发起的合法交易，避免误拦。
+
+此举标志着 OpenAI 正式将 ChatGPT 培育为购物入口，暂不收取交易佣金。尽管 Anthropic、Meta、Google 等对手已上线类似智能体购物能力，OpenAI 凭借与三大卡组织的深度合作及生物识别验证，在支付安全与生态整合上展现出后发优势。未来计划支持设定额度与品类后完全委托购买，但商户与风控系统的适配仍是关键挑战。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), The Decoder, IT之家 · 智能时代, The Verge AI, OpenAI 官方博客, TechCrunch AI&lt;/p&gt;</description>
 </item>
 <item><title>韩国税务师考试头名 AI 作弊 全国资格考启动排查</title><link>https://todayforai.com/en/story/story-1ab29d68-03e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1ab29d68-03e</guid>
 <pubDate>Sun, 15 Nov 2026 21:42:51 +0800</pubDate>

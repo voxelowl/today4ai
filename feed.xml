@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 15 Nov 2026 21:42:51 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 15 Nov 2026 22:46:58 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Why AI-Generated Code Should Be Open Source by Default</title><link>https://jakub.jankiewicz.org/blog/ai-code-open-source/</link><guid isPermaLink="true">https://jakub.jankiewicz.org/blog/ai-code-open-source/</guid>
+<pubDate>Sun, 15 Nov 2026 22:46:58 +0800</pubDate>
+<description>&lt;p&gt;The author argues that all AI-generated code should be open source: models were trained on scraped open-source and CC-licensed content, making proprietary output a form of license laundering, and purely AI-generated works lack human authorship, so under the Monkey Selfie precedent they should not be copyrightable. The piece is an opinion argument without new data or technical proposals.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 生成代码应默认开源的观点论证&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;触及 AI 生成物版权与开源许可的核心争议，观点鲜明但属个人论述，适合关注开源合规的读者参考。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
+<source url="https://jakub.jankiewicz.org/blog/ai-code-open-source/">Hacker News AI</source>
+<category>开源</category>
+<category>版权</category>
+<category>AI 生成代码</category>
+</item>
 <item><title>South Korea Audits National Exams After AI Cheating Scandal</title><link>https://www.ithome.com/1/027/453.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/453.htm</guid>
 <pubDate>Sun, 15 Nov 2026 21:42:51 +0800</pubDate>
 <description>&lt;p&gt;The top scorer in South Korea&amp;#x27;s 63rd tax accountant exam admitted using a micro-camera to photograph questions and feeding them to AI, resulting in score cancellation and a five-year ban. The government has launched an AI-cheating probe across all national exams this year and plans comprehensive countermeasures, including infrared detectors and a ban on smart glasses.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;韩国税务师考试头名 AI 作弊引发全国资格考排查&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首例高利害国家考试 AI 作弊被实锤，直接触发监管与考场技术升级，是 AI 落地风险侧的标志性事件。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
@@ -192,9 +200,9 @@
 <category>中科曙光</category>
 <category>智算集群</category>
 </item>
-<item><title>NeurIPS 2026 Paper Enables Training-Free Black-Box Reward Steering of Discrete Diffusion Models</title><link>https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652743221&amp;idx=3&amp;sn=7705b49c8bacec95cf19df0b474ee36d</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652743221&amp;idx=3&amp;sn=7705b49c8bacec95cf19df0b474ee36d</guid>
+<item><title>NeurIPS 2026 免训练免梯度引导离散扩散设计生物序列</title><link>https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652743221&amp;idx=3&amp;sn=7705b49c8bacec95cf19df0b474ee36d</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652743221&amp;idx=3&amp;sn=7705b49c8bacec95cf19df0b474ee36d</guid>
 <pubDate>Sun, 15 Nov 2026 13:52:00 +0800</pubDate>
-<description>&lt;p&gt;A NeurIPS 2026 paper introduces D-DOIT, which frames reward adaptation as a distribution transport problem and derives a Doob h-transform formulation for masked discrete diffusion, enabling a frozen model to target arbitrary black-box rewards without retraining or reward gradients. On HepG2 enhancer design, high-budget D-DOIT-Q reaches a predicted activity of 6.19, surpassing the fine-tuned DRAKES (5.61), with results also shown on protein inverse folding.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;NeurIPS 2026 免训练免梯度引导离散扩散设计生物序列&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为黑盒生物奖励提供免训练、免梯度的推理期对齐方案，对 AI for Science 与扩散模型采样研究有直接参考价值。&lt;/p&gt;&lt;p&gt;新智元 (微信公众号) · llm · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;NeurIPS 2026 论文提出 D-DOIT，将奖励适配视为分布搬运问题，借助 Doob h-变换推导出掩码离散扩散上的推理期采样规则，无需改动模型参数、也无需奖励梯度，即可让冻结模型对齐任意黑盒奖励。在 HepG2 增强子设计任务上，高预算 D-DOIT-Q 预测活性达 6.19，超过需微调的 DRAKES（5.61），并在蛋白质逆折叠任务上验证了通用性。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为黑盒生物奖励提供免训练、免梯度的推理期对齐方案，对 AI for Science 与扩散模型采样研究有直接参考价值。&lt;/p&gt;&lt;p&gt;新智元 (微信公众号) · llm · signal 72/100&lt;/p&gt;</description>
 <source url="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652743221&amp;idx=3&amp;sn=7705b49c8bacec95cf19df0b474ee36d">新智元 (微信公众号)</source>
 <category>离散扩散模型</category>
 <category>AI for Science</category>
@@ -256,15 +264,6 @@
 <category>Siri</category>
 <category>端侧 AI</category>
 <category>隐私</category>
-</item>
-<item><title>全球 PC CPU 出货量 2026Q3 同比下滑 6.5%</title><link>https://www.ithome.com/1/027/291.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/291.htm</guid>
-<pubDate>Sun, 15 Nov 2026 11:18:42 +0800</pubDate>
-<description>&lt;p&gt;JPR 数据显示，2026 年第 3 季度全球 PC 客户端 CPU 出货量降至 6080 万颗，同比下滑 6.5%、环比下滑 3.4%，其中桌面端跌幅达 13%。存储器等关键零组件涨价压制消费需求，机构预计 PC 市场疲软将持续至 2027 年上半年；与之形成对比的是，服务器 CPU 出货量同比增长 23.4%，云端 AI 推理系统中 CPU 与 GPU 的配比有所下降。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这组数据同时反映消费级 PC 需求收缩与 AI 推理基础设施中 CPU 配比下降，是观察算力结构变化的一手市场信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/291.htm">IT之家 · IT业界</source>
-<category>CPU 出货量</category>
-<category>PC 市场</category>
-<category>服务器算力</category>
-<category>JPR</category>
 </item>
 </channel>
 </rss>
