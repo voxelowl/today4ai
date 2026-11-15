@@ -22,6 +22,15 @@
 <category>鸿蒙</category>
 <category>昇腾</category>
 </item>
+<item><title>Developer Builds NES Emulator in the Odin Language</title><link>https://lucypero.com/lucynes.html</link><guid isPermaLink="true">https://lucypero.com/lucynes.html</guid>
+<pubDate>Sun, 15 Nov 2026 20:51:47 +0800</pubDate>
+<description>&lt;p&gt;Developer lucypero built lucyNES, a from-scratch NES emulator written in Odin, accurate enough to run Battletoads and hundreds of other games, with a debugger view, save states and controller support. Started in June 2024 and paused in January 2025, the project is open-sourced on GitHub.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;开发者用 Odin 语言实现 NES 模拟器&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;一个用冷门系统级语言 Odin 从零实现的高精度 NES 模拟器开源项目，对模拟器与底层工程爱好者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 38/100&lt;/p&gt;</description>
+<source url="https://lucypero.com/lucynes.html">Hacker News AI</source>
+<category>开源项目</category>
+<category>模拟器</category>
+<category>Odin</category>
+<category>系统编程</category>
+</item>
 <item><title>CMU Researchers Turn Everyday Objects into AI Virtual Pets</title><link>https://www.ithome.com/1/027/443.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/443.htm</guid>
 <pubDate>Sun, 15 Nov 2026 20:43:54 +0800</pubDate>
 <description>&lt;p&gt;Daehwa Kim, a PhD student in Carnegie Mellon University&amp;#x27;s Future Interfaces Group, presented OATs (Object Agent Twins), a micro AI agent system that gives everyday household objects emotional virtual personas via e-ink displays and embedded sensors. Shown at UIST 2026 with two honorable mentions, the project has no commercialization plans yet.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;CMU 研发物体智能体双生体 让日常物品变虚拟宠物&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是人机交互领域一项有具体系统设计与学术背书的智能体落地探索，为 AI 硬件形态提供了新思路。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 58/100&lt;/p&gt;</description>
@@ -202,18 +211,18 @@
 <category>微软</category>
 <category>AI 应用</category>
 </item>
-<item><title>Grok Bot Team Merges 11K PRs Monthly With AI Coding Discipline</title><link>https://x.com/dotey/status/2121835140850602200</link><guid isPermaLink="true">https://x.com/dotey/status/2121835140850602200</guid>
+<item><title>Grok Bot 团队月合并 1.1 万 PR 的 AI 编码实践</title><link>https://x.com/dotey/status/2121835140850602200</link><guid isPermaLink="true">https://x.com/dotey/status/2121835140850602200</guid>
 <pubDate>Sun, 15 Nov 2026 13:18:14 +0800</pubDate>
-<description>&lt;p&gt;Lauren Tan, who leads the Grok Bot desktop app at SpaceXAI, shared her team&amp;#x27;s AI coding playbook at the AI Engineer conference: encode every correction as a lint rule instead of prose in agent docs, keep the codebase clean so AI does not copy bad patterns, ban error-prone APIs and 99% of comments, and have AI run and self-verify its own work with recordings. The team merged 11,000 PRs last month with roughly 0.5% reverted, and the app is faster than at launch.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Grok Bot 团队月合并 1.1 万 PR 的 AI 编码实践&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自一线团队的可操作 AI 编码工程实践，附具体量化结果，对使用编码智能体的开发者直接可用。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · agent · signal 71/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Lauren Tan 在 AI Engineer 大会分享了 Grok Bot 桌面版团队的高效 AI 编码方法论：把每次纠正固化为 lint 规则而非文档说明，保持代码库干净以免 AI 照抄坏模式，禁用易错 API 与 99% 注释，并让 AI 自跑自测提交录屏。团队上月合并 1.1 万个 PR，撤回率约 0.5%，应用性能反超初版。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自一线团队的可操作 AI 编码工程实践，附具体量化结果，对使用编码智能体的开发者直接可用。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · agent · signal 71/100&lt;/p&gt;</description>
 <source url="https://x.com/dotey/status/2121835140850602200">宝玉 (@dotey)</source>
 <category>AI 编码</category>
 <category>智能体工程</category>
 <category>代码质量</category>
 <category>Grok Bot</category>
 </item>
-<item><title>Kiri Launches Container Runtime Claiming 8x Faster Startup Than Docker</title><link>https://runkiri.com/</link><guid isPermaLink="true">https://runkiri.com/</guid>
+<item><title>Kiri 容器运行时发布 启动速度达 Docker 8 倍</title><link>https://runkiri.com/</link><guid isPermaLink="true">https://runkiri.com/</guid>
 <pubDate>Sun, 15 Nov 2026 12:40:41 +0800</pubDate>
-<description>&lt;p&gt;Kiri is a modern container runtime that stays drop-in compatible with the Docker ecosystem while claiming a docker run cold start of just 22 ms versus 178 ms on Docker Desktop, 152 ms on Colima and 279 ms on OrbStack, roughly an 8x gap. It keeps the native docker CLI, Compose, Buildx, Docker Engine API and OCI image compatibility, and is now available as a free beta on Mac, Windows and Linux.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Kiri 容器运行时发布 启动速度达 Docker 8 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;对本地开发容器工具链的实测性能对比与 Docker 兼容替代方案，开发者可立即评估迁移。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Kiri 是一款兼容 Docker 生态的现代容器运行时，宣称 docker run 冷启动仅 22 ms，而 Docker Desktop 为 178 ms、Colima 152 ms、OrbStack 279 ms，约为 8 倍差距。它保留原生 docker CLI、Compose、Buildx、Docker Engine API 与 OCI 镜像兼容，目前以免费 Beta 形式登陆 Mac、Windows 与 Linux。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;对本地开发容器工具链的实测性能对比与 Docker 兼容替代方案，开发者可立即评估迁移。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://runkiri.com/">Hacker News AI</source>
 <category>容器运行时</category>
 <category>开发者工具</category>
@@ -256,23 +265,6 @@
 <category>PC 市场</category>
 <category>服务器算力</category>
 <category>JPR</category>
-</item>
-<item><title>施密特称长时推理是唯一值得押注的 AI 主题</title><link>https://x.com/rohanpaul_ai/status/2121804554425741703</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2121804554425741703</guid>
-<pubDate>Sun, 15 Nov 2026 11:16:41 +0800</pubDate>
-<description>&lt;p&gt;前谷歌 CEO 埃里克·施密特表示，若只能选择一个 AI 投资主题，他会选择长时推理。他认为能在一个问题上持续数小时乃至数天的模型，与答完即止的模型有本质区别，而市场尚未对这一差异定价。该观点出自 Blackstone 与施密特的 YouTube 对谈。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;顶级产业人物的投资判断指向长时推理这一前沿方向，对理解下一阶段模型能力与估值差异有参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2121804554425741703">Rohan Paul (@rohanpaul_ai)</source>
-<category>长时推理</category>
-<category>Eric Schmidt</category>
-<category>投资主题</category>
-</item>
-<item><title>中国黑马 ACE Music v1 首登 AA 榜超越 Suno v6</title><link>https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247944089&amp;idx=1&amp;sn=d2361ece62def93463fe98336a83235b</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247944089&amp;idx=1&amp;sn=d2361ece62def93463fe98336a83235b</guid>
-<pubDate>Sun, 15 Nov 2026 10:51:00 +0800</pubDate>
-<description>&lt;p&gt;中国 AI 音乐模型 ACE Music v1 首次登上 Artificial Analysis 音乐人声榜即以 1160 分超越 Suno v6 达 16 分，成为首个在盲测中正面击败 Suno 最新旗舰的模型。其背后公司 2025 年 3 月才启动音乐生成基座模型研发，一年多即实现榜单反超，实测中人声自然度与咬字表现优于 Suno。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个在权威盲测榜单上正面超越 Suno 最新旗舰的中国模型，标志 AI 音乐生成竞争格局生变。&lt;/p&gt;&lt;p&gt;量子位 (微信公众号) · llm · signal 72/100&lt;/p&gt;</description>
-<source url="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247944089&amp;idx=1&amp;sn=d2361ece62def93463fe98336a83235b">量子位 (微信公众号)</source>
-<category>AI音乐</category>
-<category>ACE Music</category>
-<category>Suno</category>
-<category>模型评测</category>
 </item>
 </channel>
 </rss>
