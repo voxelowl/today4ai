@@ -3,14 +3,6 @@
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
 <language>en</language><lastBuildDate>Sun, 15 Nov 2026 21:42:51 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
-<item><title>黄仁勋辞任英伟达 CEO 市值蒸发近 2 万亿美元</title><link>https://todayforai.com/en/story/story-9954eb0b-f56</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9954eb0b-f56</guid>
-<pubDate>Sun, 15 Nov 2026 15:10:41 +0800</pubDate>
-<description>&lt;p&gt;英伟达创始人黄仁勋辞去总裁、CEO 及董事职务并立即生效，结束 33 年执掌。CFO 科莱特·克雷斯出任临时 CEO，董事会启动继任者遴选，并首次设立董事长职位，由哈维·琼斯出任。消息公布后股价盘中一度跌约 14%，市值跌破 4 万亿美元，累计蒸发近 2 万亿美元。
-
-此次变动发生在董事会就黄仁勋疑似成为外国情报目标启动外部调查之后，此前其第二段私人关系被曝出，董事会已启动独立调查。黄仁勋持股约 3.6% 为最大股东，此前拒绝正式继任规划，公司无明确接班人。临时 CEO 克雷斯保留 CFO 职位，继任者将接手逾 1000 亿美元对外投资组合，包括拟以 100 亿美元认购 Anthropic 上市股份。
-
-作为全球 AI 算力龙头，英伟达管理层剧变直接冲击 GPU 路线图与产业预期。Hugging Face CEO 德朗格公开表达惋惜，并承诺更坚定捍卫开源 AI。事件正值英伟达拟以约 129 亿美元收购 Hugging Face 的敏感节点，美国司法部已就竞争影响问询，AI 算力与开源生态走向面临重大不确定性。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, TechCrunch AI, Latent Space, Rohan Paul (@rohanpaul_ai), Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
 <item><title>深度解析现代大模型位置编码与 RoPE 机制</title><link>https://todayforai.com/en/story/story-b9da5c60-6fb</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b9da5c60-6fb</guid>
 <pubDate>Sun, 15 Nov 2026 20:14:06 +0800</pubDate>
 <description>&lt;p&gt;近期，一份系统性的技术综述对现代大语言模型的位置编码机制进行了全面梳理，尤其聚焦于当前主流的旋转位置编码（RoPE）及其变体。该综述不仅涵盖了从经典绝对位置编码到相对位置编码的演进脉络，还提供了详细的数学推导、可视化示例以及可运行的 PyTorch 实现代码，为开发者与研究者提供了宝贵的实践参考。
@@ -18,6 +10,14 @@
 综述的核心发现之一是，2026 年的开源权重模型在位置编码的选择上呈现出显著差异。一些模型仍坚持使用 RoPE 的改进版本，而另一些则尝试调整甚至完全省略显式位置编码，转而依赖注意力机制本身来隐式捕捉位置信息。这种分化反映了业界对长上下文建模和计算效率的不同权衡，也表明位置编码的设计远未形成统一标准。
 
 该综述的发布恰逢大模型架构创新进入深水区，位置编码作为影响模型外推能力和训练稳定性的关键组件，正受到越来越多的关注。对于开发者而言，理解不同位置编码方案的优劣及实现细节，将有助于在自定义模型时做出更明智的架构决策；对于整个生态，这类系统性的知识梳理有望加速最佳实践的沉淀，推动更高效、更强大的模型设计。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Ahead of AI (Sebastian Raschka), Hacker News AI&lt;/p&gt;</description>
+</item>
+<item><title>黄仁勋辞任英伟达 CEO 市值蒸发近 2 万亿美元</title><link>https://todayforai.com/en/story/story-9954eb0b-f56</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9954eb0b-f56</guid>
+<pubDate>Sun, 15 Nov 2026 15:10:41 +0800</pubDate>
+<description>&lt;p&gt;英伟达创始人黄仁勋辞去总裁、CEO 及董事职务并立即生效，结束 33 年执掌。CFO 科莱特·克雷斯出任临时 CEO，董事会启动继任者遴选，并首次设立董事长职位，由哈维·琼斯出任。消息公布后股价盘中一度跌约 14%，市值跌破 4 万亿美元，累计蒸发近 2 万亿美元。
+
+此次变动发生在董事会就黄仁勋疑似成为外国情报目标启动外部调查之后，此前其第二段私人关系被曝出，董事会已启动独立调查。黄仁勋持股约 3.6% 为最大股东，此前拒绝正式继任规划，公司无明确接班人。临时 CEO 克雷斯保留 CFO 职位，继任者将接手逾 1000 亿美元对外投资组合，包括拟以 100 亿美元认购 Anthropic 上市股份。
+
+作为全球 AI 算力龙头，英伟达管理层剧变直接冲击 GPU 路线图与产业预期。Hugging Face CEO 德朗格公开表达惋惜，并承诺更坚定捍卫开源 AI。事件正值英伟达拟以约 129 亿美元收购 Hugging Face 的敏感节点，美国司法部已就竞争影响问询，AI 算力与开源生态走向面临重大不确定性。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, TechCrunch AI, Latent Space, Rohan Paul (@rohanpaul_ai), Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 <item><title>韩国税务师考试头名 AI 作弊 全国资格考启动排查</title><link>https://todayforai.com/en/story/story-1ab29d68-03e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1ab29d68-03e</guid>
 <pubDate>Sun, 15 Nov 2026 21:42:51 +0800</pubDate>
@@ -38,14 +38,6 @@
 <item><title>llama.cpp 与 ggml 发布 1.0 版本</title><link>https://todayforai.com/en/story/story-21ace097-fe1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-21ace097-fe1</guid>
 <pubDate>Sat, 14 Nov 2026 16:31:02 +0800</pubDate>
 <description>&lt;p&gt;llama.cpp 与底层张量库 ggml 同步发布 1.0 版本，标志着项目进入稳定阶段，llama.cpp 同时移除了 35 个已废弃的公开接口。SGLang 也在峰会上宣布 1.0 版本，本地推理与高性能服务框架的工程成熟度进一步提升。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Latent Space, Hugging Face Blog, IT之家 · 智能时代, Hacker News AI&lt;/p&gt;</description>
-</item>
-<item><title>谷歌多智能体 Teamwork 完成韦伊猜想形式化证明</title><link>https://todayforai.com/en/story/story-e8a175f9-12c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e8a175f9-12c</guid>
-<pubDate>Sat, 14 Nov 2026 21:20:43 +0800</pubDate>
-<description>&lt;p&gt;谷歌研究团队基于 Gemini 模型推出 Antigravity 多智能体系统 Teamwork，首次完成韦伊猜想的形式化证明，累计生成约 180 万行 Lean 代码。该系统还复现了三维纳维-斯托克斯方程有限时间爆破的形式化证明，并在分子结构识别与 C++ 转 Rust 代码重写等任务中取得可验证成果，标志着 AI 从辅助工具向科研合作伙伴的角色转变。
-
-Teamwork 采用专业智能体并行求解加独立质疑者与审查者的架构，通过分工协作与交叉验证降低长链推理错误。韦伊猜想形式化耗费约 2.88 万次子智能体调用，分子识别基准 Top-1 达 95%、Top-3 达 100%，并将 libgav1 解码器重写为约 17 万行 Rust 代码。谷歌通过 Antigravity 向 1 万名学术研究者提供 6 个月免费高额度访问，相关工具已通过研究者访问计划对外开放。
-
-这一成果对数学形式化、AI  for Science 及软件工程赛道具有深远影响。多智能体协作攻克多年未解的开放问题，展示了 AI 在复杂科研任务中的潜力，有望加速科学发现与工程实践，推动 AI 从辅助工具向科研合作伙伴的范式跃迁。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Hacker News AI, Google Research&lt;/p&gt;</description>
 </item>
 <item><title>谷歌零项目将漏洞披露期限缩短至 90 天</title><link>https://todayforai.com/en/story/story-55370c94-b6a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-55370c94-b6a</guid>
 <pubDate>Sun, 15 Nov 2026 18:12:07 +0800</pubDate>
@@ -74,6 +66,14 @@ Teamwork 采用专业智能体并行求解加独立质疑者与审查者的架�
 多方信源交叉验证了该决策的突然性：团队解散发生在奥斯汀 CoRL 大会期间，距 CEO 奥特曼 5 月公开招人仅五个月，已预订的展位空置。英伟达一项研究显示，由 GPT-6 Astra 驱动的智能体在模拟操作测试中成功率达 74.8%，显著高于专用模型的 51.0%，但推理速度、云端联网依赖与现场数据积累仍是落地瓶颈。
 
 此举标志着 OpenAI 对机器人技术路线的重大转向：从专用模型转向通用模型驱动，可能重塑具身智能领域的竞争格局。若通用模型能有效充当机器人大脑，将大幅降低机器人 AI 的开发门槛，加速通用机器人的商业化进程，同时也对专用机器人 AI 公司构成潜在冲击。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;The Decoder, 新智元 (微信公众号), IT之家 · 智能时代&lt;/p&gt;</description>
+</item>
+<item><title>Perplexity 开源 Decider v1.3 决策模型 支持精准文本片段抽取</title><link>https://todayforai.com/en/story/story-ad6cd1ef-769</link><guid isPermaLink="true">https://todayforai.com/en/story/story-ad6cd1ef-769</guid>
+<pubDate>Sat, 14 Nov 2026 21:27:39 +0800</pubDate>
+<description>&lt;p&gt;Perplexity 正式开源两款决策模型 Decider v1.3 与 Decider Flash v1.3，核心能力从单一标签分类升级为返回带起止字符偏移的精确文本片段，标志着决策模型从“分类器”向“定位器”的范式跃迁。模型基于 Qwen3.8-27B 与 Qwen3.5-4B 构建，采用 Apache 2.0 许可，API 输入定价低至每百万 token 0.02 与 0.01 美元，大幅降低了结构化信息抽取的部署门槛。
+
+在 17 项域外 NER、PII 与抽取式问答任务上，v1.3 平均得分 69.0、Flash 63.6，显著高于 Liquid d1 的 43.3 与 GLiNER large v2.5 的 33.6；查询分类在 63 项任务上达 91.6%，答案翻转率仅 0.27%。Artificial Analysis Decision Index v2.1 显示，v1.3 得分 70 维持第 6 位，Flash 得分 64 升至第 10 位，且在 AA-Symmetry 与 When2Call 上各提升 12 分。不过 Flash 在金融、编程与法律领域落后于 Jev 1.14，且全部指标为厂商自报，仍需独立验证。
+
+此次开源将高精度片段抽取能力下沉至开放权重模型，直接冲击 GLiNER 等传统 NER 方案，并为 RAG 管道、隐私过滤与智能体决策提供低成本、可自托管的替代路径。Perplexity 以极低 API 定价与宽松许可加速生态渗透，决策模型赛道的竞争焦点正从参数规模转向“定位精度与调用成本”的务实比拼。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost), Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
