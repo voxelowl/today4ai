@@ -1,8 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Tue, 17 Nov 2026 03:24:40 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 17 Nov 2026 03:42:13 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Google Warns Fully Automated AI Cyberattacks Have Arrived</title><link>https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast/</link><guid isPermaLink="true">https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast/</guid>
+<pubDate>Tue, 17 Nov 2026 03:42:13 +0800</pubDate>
+<description>&lt;p&gt;Google&amp;#x27;s Threat Intelligence Group (GTIG) has for the first time observed attackers fully automating vulnerability discovery and exploitation with no human in the loop, using an exposed AI framework called exploit_agent that connects to multiple language models. Google rates the activity at Level 5, where AI handles several attack stages, and notes these automated attacks currently trade stealth for speed, leaving forensic traces that make them easier to detect.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌警告全自动 AI 网络攻击已出现并将快速升级&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次实证智能体端到端自动化攻击落地，是 AI 安全与自主代理风险的重要节点。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 78/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast/">The Decoder</source>
+<category>AI 安全</category>
+<category>智能体</category>
+<category>谷歌</category>
+<category>网络攻击</category>
+</item>
+<item><title>Huawei EvoTrias Decouples Search Planning from Coding to Cut Token Cost 64%</title><link>https://x.com/rohanpaul_ai/status/2122412646972744045</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122412646972744045</guid>
+<pubDate>Tue, 17 Nov 2026 03:33:02 +0800</pubDate>
+<description>&lt;p&gt;Huawei proposes EvoTrias, a code-evolution agent framework that assigns search planning, code writing, and scoring to three separate owners: a controller, a coding agent, and an evaluator the agent cannot read. It led 6 of 7 math tasks and cut token cost per run by 64% versus the 4-agent CORAL, while lifting solver quality 13.2% on 300 instances of the 680K-line C++ OR-Tools repository, against -0.1% for one-shot runs of the same agent. The takeaway: hide the scorer from the agent and keep search planning out of the coding agent.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;华为 EvoTrias 将搜索规划与编码评分解耦，Token 成本降 64%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以清晰的消融式对比给出可复用的智能体架构原则，并附真实大型 C++ 仓库的量化收益。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2122412646972744045">Rohan Paul (@rohanpaul_ai)</source>
+<category>智能体</category>
+<category>代码进化</category>
+<category>华为</category>
+<category>Token 成本</category>
+<category>搜索规划</category>
+</item>
+<item><title>Intercepting HTTP/3 Traffic by Decoding QUIC and QPACK</title><link>https://interceptsuite.com/blog/intercept-http3-traffic-quic-qpack-explained/</link><guid isPermaLink="true">https://interceptsuite.com/blog/intercept-http3-traffic-quic-qpack-explained/</guid>
+<pubDate>Tue, 17 Nov 2026 03:29:17 +0800</pubDate>
+<description>&lt;p&gt;HTTP/3 runs over QUIC and UDP, so conventional HTTP-over-TCP proxies never see the traffic; interception requires a proxy that relays UDP and performs QUIC man-in-the-middle. Using real traffic from curl and Microsoft Edge plus a lab server, the post walks byte by byte through QUIC streams and QPACK header compression, showing requests are no longer text but compressed bytes.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;HTTP/3 抓包解析 QUIC 与 QPACK 机制&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;系统讲解 HTTP/3 抓包所需的 QUIC 中间人与 QPACK 解压原理，对安全测试与协议调试有实操价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
+<source url="https://interceptsuite.com/blog/intercept-http3-traffic-quic-qpack-explained/">Hacker News AI</source>
+<category>HTTP/3</category>
+<category>QUIC</category>
+<category>QPACK</category>
+<category>网络安全</category>
+</item>
 <item><title>Apple Tests Daily Usage Caps for Cloud-Based Siri AI Features</title><link>https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription</link><guid isPermaLink="true">https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription</guid>
 <pubDate>Tue, 17 Nov 2026 03:24:40 +0800</pubDate>
 <description>&lt;p&gt;Apple is testing per-device daily usage limits for cloud-dependent Siri and Apple Intelligence features in the iOS 27.3, iPadOS 27.3, and macOS 27.3 betas, while basic Siri commands stay free and unlimited. The caps cover multi-step personal-context requests, image generation and editing, Shortcuts automations relying on Apple Foundation Cloud and Cloud Pro models, and third-party apps using those same cloud models. Apple has not disclosed exact quotas, which will vary by task, and plans to notify users as they approach and hit their limits.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;苹果测试 Siri 云端 AI 功能每日用量上限&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;苹果首次为云端 AI 功能设置用量配额，标志端侧与云侧 AI 成本分层进入商业化阶段。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 62/100&lt;/p&gt;</description>
@@ -83,6 +111,15 @@
 <category>Amazon Bedrock</category>
 <category>客户互动平台</category>
 </item>
+<item><title>FBI Warns Artex Open-Source AI Hacking Tool Used in Network Breaches</title><link>https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/</guid>
+<pubDate>Tue, 17 Nov 2026 02:12:21 +0800</pubDate>
+<description>&lt;p&gt;The FBI issued a flash cybersecurity advisory warning that hackers are using open-source AI penetration-testing platforms like Artex, connected to frontier LLMs, to launch autonomous cyberattacks against ConnectWise customers and South Korea&amp;#x27;s financial sector. The tools enable attack speeds that outpace human defenders, and some Artex systems were found publicly exposed due to misconfiguration.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;FBI 警告 Artex 开源 AI 黑客工具被用于入侵网络&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 智能体被武器化用于真实网络攻击的官方警示，涉及前沿模型滥用与关键基础设施安全，对关注 AI 安全与 Agent 落地的读者具有高价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 78/100&lt;/p&gt;</description>
+<source url="https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/">Hacker News AI</source>
+<category>AI 安全</category>
+<category>智能体</category>
+<category>网络攻击</category>
+<category>FBI</category>
+</item>
 <item><title>Altman Says AI Industry Will Be Fine Without Jensen Huang</title><link>https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/</guid>
 <pubDate>Tue, 17 Nov 2026 02:11:10 +0800</pubDate>
 <description>&lt;p&gt;OpenAI CEO Sam Altman made his first public comments on Jensen Huang&amp;#x27;s resignation from Nvidia, saying AI demand and revenue growth are strong enough that the industry will be fine without him, while crediting Huang with an outsized role in driving the boom. The remarks come as industry figures sign a public letter urging Nvidia to reinstate Huang amid fears his exit could unsettle the chipmaker&amp;#x27;s aggressive investment posture.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Altman 回应黄仁勋离职称 AI 行业不会受冲击&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司 CEO 首次就英伟达最高层变动公开定调，直接关系算力供给与行业投资信心。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 62/100&lt;/p&gt;</description>
@@ -118,15 +155,6 @@
 <category>基座模型</category>
 <category>融资</category>
 <category>AI 安全</category>
-</item>
-<item><title>FBI Warns Open-Source AI Hacking Tool Artex Breaches Networks in Under Three Hours</title><link>https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/</guid>
-<pubDate>Tue, 17 Nov 2026 01:36:43 +0800</pubDate>
-<description>&lt;p&gt;The FBI issued a flash cybersecurity advisory warning that attackers are weaponizing open-source AI penetration-testing platforms like Artex, wired to frontier LLMs, to conduct autonomous cyberattacks against ConnectWise customers and South Korea&amp;#x27;s financial sector, with some intrusions completed in under three hours. The tools generate noisy traffic that can trigger alerts, but their speed outpaces human defenders.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;FBI 警告开源 AI 黑客工具 Artex 三小时内攻破网络&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是自主 AI 智能体被大规模用于真实网络攻击的首个官方级警示，标志着 AI 安全风险从理论走向实战。&lt;/p&gt;&lt;p&gt;TechCrunch AI · agent · signal 78/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/">TechCrunch AI</source>
-<category>AI 安全</category>
-<category>自主智能体</category>
-<category>网络攻击</category>
-<category>FBI</category>
 </item>
 <item><title>Harmonic Expands Aristotle Formal Verification to Rust</title><link>https://www.harmonic.fun/news/aristotle-rust-verification/</link><guid isPermaLink="true">https://www.harmonic.fun/news/aristotle-rust-verification/</guid>
 <pubDate>Tue, 17 Nov 2026 01:34:41 +0800</pubDate>
@@ -188,36 +216,36 @@
 <category>微软研究院</category>
 <category>开源</category>
 </item>
-<item><title>OpenAI Expands Free ChatGPT Access to 200,000 Researchers</title><link>https://openai.com/index/expanding-chatgpt-for-academic-researchers</link><guid isPermaLink="true">https://openai.com/index/expanding-chatgpt-for-academic-researchers</guid>
+<item><title>OpenAI 向 20 万科研人员免费开放 ChatGPT</title><link>https://openai.com/index/expanding-chatgpt-for-academic-researchers</link><guid isPermaLink="true">https://openai.com/index/expanding-chatgpt-for-academic-researchers</guid>
 <pubDate>Tue, 17 Nov 2026 01:00:00 +0800</pubDate>
-<description>&lt;p&gt;OpenAI is scaling its ChatGPT for Academic Researchers program to up to 200,000 researchers worldwide, with the next application round opening November 23 and 50,000 new grants awarded first-come, first-served, each covering the recipient plus up to two collaborators on ChatGPT Plus. About 20,000 researchers across 33 countries have joined since the July pilot, and OpenAI says program data is not used to train its models by default.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 向 20 万科研人员免费开放 ChatGPT&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 OpenAI 面向科研群体的规模化免费开放举措，涉及 20 万名额与明确的数据使用承诺，对关注 AI for Science 的读者有实际参考价值。&lt;/p&gt;&lt;p&gt;OpenAI 官方博客 · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 将 ChatGPT for Academic Researchers 项目从试点扩展至全球最多 20 万名科研人员，下一轮于 11 月 23 日开放申请，新增 5 万个名额，先到先得，每个名额可供受资助者及最多两名合作者免费使用 ChatGPT Plus。项目自 7 月试点以来已有 33 个国家约 2 万名研究人员加入，官方承诺默认不使用项目内共享数据训练模型。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 OpenAI 面向科研群体的规模化免费开放举措，涉及 20 万名额与明确的数据使用承诺，对关注 AI for Science 的读者有实际参考价值。&lt;/p&gt;&lt;p&gt;OpenAI 官方博客 · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://openai.com/index/expanding-chatgpt-for-academic-researchers">OpenAI 官方博客</source>
 <category>AI for Science</category>
 <category>OpenAI</category>
 <category>科研资助</category>
 <category>ChatGPT</category>
 </item>
-<item><title>OpenAI Debuts CSAM Image Classifier and ChatGPT Warning Blocks</title><link>https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/</guid>
+<item><title>OpenAI 推出 CSAM 图像分类器并上线 ChatGPT 拦截警告</title><link>https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/</guid>
 <pubDate>Tue, 17 Nov 2026 01:00:00 +0800</pubDate>
-<description>&lt;p&gt;OpenAI released an image classifier that detects CSAM, including AI-generated material, offering free API access to select companies and co-developing it with NCMEC. ChatGPT will also issue warnings and temporary blocks for content sexualizing children, alongside a developer guideline and law-enforcement tooling. Early partner testing cut flagged images by 48% while catching the same number of abusive images, easing reviewer workload.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 推出 CSAM 图像分类器并上线 ChatGPT 拦截警告&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部模型厂商将安全治理产品化并开放 API，是 AI 内容合规基础设施的重要动向。&lt;/p&gt;&lt;p&gt;TechCrunch AI · llm · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 发布可识别 AI 生成内容的 CSAM 图像分类器，通过 API 免费向部分企业开放，并与 NCMEC 合作开发。同时 ChatGPT 将对涉及儿童性化的内容发出警告并临时封禁，配套推出开发者指南与执法工具。早期测试中分类器在保持同等检出量的前提下减少 48% 的误报标记，降低人工审核负担。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部模型厂商将安全治理产品化并开放 API，是 AI 内容合规基础设施的重要动向。&lt;/p&gt;&lt;p&gt;TechCrunch AI · llm · signal 62/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/">TechCrunch AI</source>
 <category>AI 安全</category>
 <category>OpenAI</category>
 <category>内容审核</category>
 <category>API</category>
 </item>
-<item><title>Alibaba Launches Qwen4-Max to Challenge Opus 5.5 at Lower Cost</title><link>https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices/</link><guid isPermaLink="true">https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices/</guid>
+<item><title>阿里发布 Qwen4-Max 以更低价格对标 Opus 5.5</title><link>https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices/</link><guid isPermaLink="true">https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices/</guid>
 <pubDate>Tue, 17 Nov 2026 00:56:04 +0800</pubDate>
-<description>&lt;p&gt;Alibaba has released Qwen4-Max, a 2.4-trillion-parameter mixture-of-experts flagship that activates only 71 billion parameters per token and natively handles images with a one-million-token context window. It ranks second on the Artificial Analysis Intelligence Index behind Kimi K3.1 Pro while costing roughly a third of its predecessor per task, and introduces a Live Delivery feature that lets users inspect intermediate agent results and adjust running tasks on the fly.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;阿里发布 Qwen4-Max 以更低价格对标 Opus 5.5&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;阿里旗舰模型以更低成本对标顶级闭源模型，并引入智能体过程可观测能力，是值得关注的前沿模型发布。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 84/100&lt;/p&gt;</description>
+<description>&lt;p&gt;阿里巴巴发布新一代旗舰模型 Qwen4-Max，采用 2.4 万亿参数混合专家架构，每 token 仅激活 710 亿参数，原生支持图像理解与百万 token 上下文。该模型在 Artificial Analysis 智能指数上位列第二，仅次于 Kimi K3.1 Pro，但单任务成本约为前代的三分之一，并新增 Live Delivery 功能，允许用户提前查看自主智能体的中间结果并实时调整任务。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;阿里旗舰模型以更低成本对标顶级闭源模型，并引入智能体过程可观测能力，是值得关注的前沿模型发布。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 84/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices/">The Decoder</source>
 <category>大模型</category>
 <category>阿里巴巴</category>
 <category>混合专家</category>
 <category>智能体</category>
 </item>
-<item><title>Jiff 1.0 Ships as Stable Datetime Library for Rust</title><link>https://burntsushi.net/jiff/</link><guid isPermaLink="true">https://burntsushi.net/jiff/</guid>
+<item><title>Jiff 1.0 发布 Rust 日期时间库迎来稳定版</title><link>https://burntsushi.net/jiff/</link><guid isPermaLink="true">https://burntsushi.net/jiff/</guid>
 <pubDate>Tue, 17 Nov 2026 00:53:39 +0800</pubDate>
-<description>&lt;p&gt;BurntSushi released Jiff 1.0, a Rust datetime library that puts time zone and daylight saving time handling at the center of its API and has already seen broad adoption on crates.io. It borrows from Temporal&amp;#x27;s design but makes trade-offs, supporting only the Gregorian calendar and a range of plus or minus 9999 years.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Jiff 1.0 发布 Rust 日期时间库迎来稳定版&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Rust 生态重要基础库迎来 1.0 稳定版，时区安全设计对后端开发者有直接价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Rust 生态知名开发者 BurntSushi 发布 Jiff 1.0，这是一款将时区与夏令时处理置于 API 核心的日期时间库，已在 crates.io 获得广泛采用。该库借鉴 Temporal 设计但做了取舍，仅支持公历、时间范围限定在正负 9999 年。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Rust 生态重要基础库迎来 1.0 稳定版，时区安全设计对后端开发者有直接价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://burntsushi.net/jiff/">Hacker News AI</source>
 <category>Rust</category>
 <category>开源</category>
@@ -231,43 +259,6 @@
 <category>编译器</category>
 <category>开源项目</category>
 <category>C FFI</category>
-</item>
-<item><title>亚马逊 Bedrock 知识库新增表格检索能力</title><link>https://aws.amazon.com/blogs/machine-learning/get-answers-from-tables-with-tabular-search-in-amazon-bedrock-managed-knowledge-base/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/get-answers-from-tables-with-tabular-search-in-amazon-bedrock-managed-knowledge-base/</guid>
-<pubDate>Tue, 17 Nov 2026 00:12:16 +0800</pubDate>
-<description>&lt;p&gt;亚马逊 Bedrock 托管知识库新增表格检索功能，可通过智能体检索直接对 CSV、XLSX、XLS 文件中的数据进行跨行查值与计算，并与相关文档中的事实结合，回答需要多步分析的问题。该能力复用现有的 AgenticRetrieveStream 接口，无需额外改造即可覆盖 SharePoint、S3 等混合数据源。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;企业级 RAG 从非结构化文档扩展到表格结构化数据，是智能体检索栈的一次实用能力补全。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://aws.amazon.com/blogs/machine-learning/get-answers-from-tables-with-tabular-search-in-amazon-bedrock-managed-knowledge-base/">AWS Machine Learning Blog</source>
-<category>Amazon Bedrock</category>
-<category>RAG</category>
-<category>智能体检索</category>
-<category>表格数据</category>
-</item>
-<item><title>Claude 支持在 Canvas 内嵌真实 HTML 交互元素</title><link>https://the-decoder.com/claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-with-real-html/</link><guid isPermaLink="true">https://the-decoder.com/claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-with-real-html/</guid>
-<pubDate>Tue, 17 Nov 2026 00:10:22 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 的 Claude 现已支持 HTML-in-Canvas 能力，可将真实可点击、可选中、可被读屏软件识别的网页元素嵌入 Canvas 图形与 3D 效果中，兼顾视觉形变与交互可访问性。官方演示页给出 15 个示例，包括针织图案、3D 立方体等形态的网站，被开发者形容为 Flash 时代的回归。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是生成式前端能力的一次实质扩展，直接改变 Claude 产出交互式视觉网页的可行边界。&lt;/p&gt;&lt;p&gt;The Decoder · tools · signal 62/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-with-real-html/">The Decoder</source>
-<category>Claude</category>
-<category>Anthropic</category>
-<category>前端开发</category>
-<category>HTML-in-Canvas</category>
-</item>
-<item><title>Lambda 部署英伟达 CPO 交换机 连接万卡 AI 集群</title><link>https://blogs.nvidia.com/blog/lambda-photonics/</link><guid isPermaLink="true">https://blogs.nvidia.com/blog/lambda-photonics/</guid>
-<pubDate>Tue, 17 Nov 2026 00:00:51 +0800</pubDate>
-<description>&lt;p&gt;Lambda 采用英伟达 Photonics 共封装光学（CPO）交换机，将超过 1 万块 GPU 的 GB300 NVL72 机架互联，构建大规模 AI 工厂网络。测试显示机架级网络延迟下降约 4%，Pod 级最高下降约 10%，吞吐与传统可插拔光模块持平，同时功耗更低、中断间隔更长。这是 CPO 技术首次在万卡级生产集群中落地，为下一代超大规模 AI 集群互联提供了可复用的工程范式。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;CPO 光互连首次在万卡级生产集群落地，直接关系超大规模 AI 训练网络的功耗与可靠性。&lt;/p&gt;&lt;p&gt;NVIDIA Blog · compute · signal 72/100&lt;/p&gt;</description>
-<source url="https://blogs.nvidia.com/blog/lambda-photonics/">NVIDIA Blog</source>
-<category>光互连</category>
-<category>AI 数据中心</category>
-<category>英伟达</category>
-<category>Lambda</category>
-</item>
-<item><title>NVIDIA 扩展 Slurm 支持 量子处理器接入超算中心</title><link>https://blogs.nvidia.com/blog/slurm-quantum-computing-supercomputing/</link><guid isPermaLink="true">https://blogs.nvidia.com/blog/slurm-quantum-computing-supercomputing/</guid>
-<pubDate>Tue, 17 Nov 2026 00:00:47 +0800</pubDate>
-<description>&lt;p&gt;NVIDIA 发布新版 Slurm，允许量子处理器厂商通过单一配置文件为所有超算中心提供统一硬件接口，并已支持 QRMI 与 QDMI 标准。该扩展已被 Alice &amp;amp; Bob、IBM、IQM、Pasqal、Quantinuum 等厂商采用，旨在让化学、物理与材料科研人员沿用现有 HPC 工作流直接调用量子算力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;量子处理器正加速进入超算中心，NVIDIA 借 Slurm 统一调度接口，是量子与经典 HPC 融合的关键基础设施进展。&lt;/p&gt;&lt;p&gt;NVIDIA Blog · compute · signal 62/100&lt;/p&gt;</description>
-<source url="https://blogs.nvidia.com/blog/slurm-quantum-computing-supercomputing/">NVIDIA Blog</source>
-<category>量子计算</category>
-<category>NVIDIA</category>
-<category>Slurm</category>
-<category>超算</category>
-<category>HPC</category>
 </item>
 </channel>
 </rss>
