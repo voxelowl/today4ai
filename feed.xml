@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Mon, 16 Nov 2026 18:41:45 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 16 Nov 2026 20:30:00 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Ex-Freshworks Execs Raise $53M for AI-Native CRM Startup Dreamteam</title><link>https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/</guid>
+<pubDate>Mon, 16 Nov 2026 20:30:00 +0800</pubDate>
+<description>&lt;p&gt;Dreamteam, founded by former Freshworks executives, has raised $53 million across seed and Series A rounds led by Together Fund and Accel, with Premji Invest participating, to challenge Salesforce and HubSpot with an AI-native CRM. The startup automatically captures context from emails and customer conversations and deploys AI agents for follow-ups, meeting prep, and pipeline monitoring, aiming to eliminate manual data entry for sales teams.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;前 Freshworks 高管创立 AI 原生 CRM 融资 5300 万美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 原生 CRM 赛道再添大额早期融资，且创始团队来自成熟 SaaS 体系，对关注 AI 应用层商业化的读者有参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/">TechCrunch AI</source>
+<category>AI CRM</category>
+<category>融资</category>
+<category>AI 智能体</category>
+<category>企业软件</category>
+</item>
 <item><title>Meta Unveils JiTTests Where LLMs Write Failing Tests to Catch Bugs</title><link>https://x.com/Marktechpost/status/2122278946440110483</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2122278946440110483</guid>
 <pubDate>Mon, 16 Nov 2026 18:41:45 +0800</pubDate>
 <description>&lt;p&gt;Meta introduced JiTTests, which has LLMs generate tests expected to fail against a code diff, proving the change altered behavior before it lands; an LLM judge ensemble plus a rule-based filter called RubFake then decides which failures merit engineer attention. In H1 2026 it caught 74 privacy SEVs at the diff stage, cut privacy SEV occurrence by 20%, and drew a roughly 60% engineer-reported true-positive rate across 589 engineers. Intent-aware tests showed a 6.4% weak-catch rate per test versus 0.8% for Meta&amp;#x27;s earlier ACH hardening, though the initial paper deployment confirmed only 8 of 41 reported catches and all production figures are self-reported.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 推出 JiTTests 用大模型生成失败测试拦截缺陷&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把大模型从代码评审转向生成可执行的失败测试，是 AI 辅助软件工程中较新的验证范式，且附带真实生产数据与明确的局限说明。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · tools · signal 72/100&lt;/p&gt;</description>
@@ -125,9 +134,9 @@
 <category>华为云</category>
 <category>昇腾</category>
 </item>
-<item><title>MediaTek Genio 420 Powers On-Device AI Sleep Temperature System</title><link>https://www.ithome.com/1/027/645.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/645.htm</guid>
+<item><title>联发科 Genio 420 驱动端侧 AI 睡眠温控系统</title><link>https://www.ithome.com/1/027/645.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/645.htm</guid>
 <pubDate>Mon, 16 Nov 2026 13:33:37 +0800</pubDate>
-<description>&lt;p&gt;MediaTek and sleep-tech brand ISHO launched the iFlow smart temperature control system, which uses dual BCG sensing bands and a proprietary physiological signal model to capture heart rate, breathing and body movement, with the Genio 420 edge AI platform performing on-device sleep-state inference and dynamic temperature adjustment without user intervention. The Pro version adds a 512-point flexible pressure array for posture detection and upgrades to six TEC modules. The case illustrates edge AI landing in a concrete smart-home sleep scenario.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;联发科 Genio 420 驱动端侧 AI 睡眠温控系统&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;端侧 AI 芯片在睡眠温控这一垂直场景的具体落地案例，具备一定的技术集成参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;联发科与睡眠科技品牌 ISHO 合作推出 iFlow 智能温控系统，通过双 BCG 感知带与自研生理信号大模型实时捕捉心跳、呼吸与体动，由 Genio 420 端侧 AI 平台在本地完成睡眠状态判断与动态调温，无需用户手动操作。Pro 版增加 512 点柔性压力阵列识别睡姿，并升级至六组 TEC 温控模块。该案例展示了边缘 AI 在智能家居睡眠场景的具象化落地。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;端侧 AI 芯片在睡眠温控这一垂直场景的具体落地案例，具备一定的技术集成参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/027/645.htm">IT之家 · 智能时代</source>
 <category>端侧 AI</category>
 <category>联发科</category>
@@ -268,16 +277,6 @@
 <category>大模型</category>
 <category>阿里</category>
 <category>Qwen</category>
-<category>模型评测</category>
-</item>
-<item><title>阿里 Qwen4-Max 发布 编程竞技场升至第 6</title><link>https://x.com/arena/status/2122153582384583156</link><guid isPermaLink="true">https://x.com/arena/status/2122153582384583156</guid>
-<pubDate>Mon, 16 Nov 2026 10:23:36 +0800</pubDate>
-<description>&lt;p&gt;阿里通义千问团队发布 Qwen4-Max，在 Code Arena WebDev 榜单以 1750 分（初步）位列第 6，较前代 Qwen3.8-Max 提升 74 分，成为该榜排名最高的中国模型。在 Agent Arena 上，其总榜排名从第 39 位跃升至第 14 位，基于 1.47 万条真实智能体会话的净提升达 7.5%，使阿里成为 Agent Arena 上排名第一的中国实验室、全球第五。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产前沿模型在真实智能体与编程竞技场双双大幅跃升，是观察中美模型差距收窄的关键节点。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 72/100&lt;/p&gt;</description>
-<source url="https://x.com/arena/status/2122153582384583156">Arena.ai (@arena)</source>
-<category>大模型</category>
-<category>阿里通义千问</category>
-<category>智能体</category>
-<category>代码生成</category>
 <category>模型评测</category>
 </item>
 </channel>
