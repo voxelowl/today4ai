@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Mon, 16 Nov 2026 23:02:34 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 16 Nov 2026 23:52:19 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Audible Launches AI Audio Discovery Feature for Audiobook Browsing</title><link>https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/</guid>
+<pubDate>Mon, 16 Nov 2026 23:52:19 +0800</pubDate>
+<description>&lt;p&gt;Audible has launched an AI-powered audio discovery feature that generates brief overviews of a book&amp;#x27;s themes and listener reactions, blended with editor or author commentary pulled from past interviews. The move extends last month&amp;#x27;s AI tools for character interaction and recaps as Audible faces rising competition in the audiobook market.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Audible 推出 AI 音频发现功能&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部有声书平台将生成式 AI 嵌入内容发现链路，是消费级 AI 应用落地的典型样本。&lt;/p&gt;&lt;p&gt;TechCrunch AI · tools · signal 42/100&lt;/p&gt;</description>
+<source url="https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/">TechCrunch AI</source>
+<category>AI 应用</category>
+<category>有声书</category>
+<category>内容发现</category>
+<category>Audible</category>
+</item>
+<item><title>Anthropic Finds Selective Forgetting Beats Exhaustive Memory for AI Agents</title><link>https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store/</link><guid isPermaLink="true">https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store/</guid>
+<pubDate>Mon, 16 Nov 2026 23:25:48 +0800</pubDate>
+<description>&lt;p&gt;Anthropic studied how Claude retains knowledge across sessions and found that selectively recording strategies and rules outperforms exhaustive logging, which floods models with outdated data. Its post-session \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 揭示智能体记忆关键在于选择性遗忘&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为智能体长期记忆设计提供了可验证的工程范式，对构建跨会话 Agent 的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 78/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store/">The Decoder</source>
+<category>智能体记忆</category>
+<category>Anthropic</category>
+<category>Claude</category>
+<category>上下文工程</category>
+</item>
 <item><title>US Tightens AI Chip Export Rules to Close Remote Compute Loophole</title><link>https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/</guid>
 <pubDate>Mon, 16 Nov 2026 23:02:34 +0800</pubDate>
 <description>&lt;p&gt;The US Commerce Department unveiled an interim rule requiring licenses for exporting, reexporting or transferring AI chips and servers to data centers anywhere in the world if they may supply compute to China or other restricted countries. The rule extends controls to remote access, closing a loophole that let restricted-country firms bypass chip export limits via offshore infrastructure, covering the D:5 embargo group including China, Russia, Iran and North Korea.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美国收紧 AI 芯片出口管制 封堵远程算力访问&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是算力出口管制从实体芯片向远程访问延伸的关键监管升级，直接影响全球 AI 基础设施布局与跨境算力供给。&lt;/p&gt;&lt;p&gt;TechCrunch AI · compute · signal 78/100&lt;/p&gt;</description>
@@ -74,6 +92,15 @@
 <category>Google 地图</category>
 <category>智能体</category>
 <category>消费级 AI</category>
+</item>
+<item><title>CheeseDB Debuts Embedded Agent Memory Database with Revocable Provenance</title><link>https://github.com/govinargo-labs/cheesedb</link><guid isPermaLink="true">https://github.com/govinargo-labs/cheesedb</guid>
+<pubDate>Mon, 16 Nov 2026 21:54:50 +0800</pubDate>
+<description>&lt;p&gt;CheeseDB is an embedded database engine purpose-built for AI agent memory, implemented in Go with only the standard library. It uses an append-only, hash-chained store in which every memory tracks its sources, so deleting a source also revokes everything learned from it, addressing bad data, prompt injection and user deletion requests. The project is in preview, has not had an independent security review, and its API and on-disk format may change before v1.0, so it is not yet recommended for production data.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;CheeseDB 发布可撤销记忆的智能体数据库&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来源可撤销的记忆数据库切中智能体记忆污染与数据删除的真实痛点，且以纯 Go 嵌入式形态提供 MCP 接入，具备明确的工程参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
+<source url="https://github.com/govinargo-labs/cheesedb">Hacker News AI</source>
+<category>智能体记忆</category>
+<category>开源项目</category>
+<category>Go</category>
+<category>MCP</category>
 </item>
 <item><title>XPeng to Sell IRON Humanoid Robots to External Clients in Q2 2027</title><link>https://www.ithome.com/1/027/964.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/964.htm</guid>
 <pubDate>Mon, 16 Nov 2026 21:27:42 +0800</pubDate>
@@ -165,9 +192,9 @@
 <category>媒体</category>
 <category>企业合作</category>
 </item>
-<item><title>Lenovo&#x27;s Yang Yuanqing Bets on Hybrid AI and Private Data Flywheel</title><link>https://www.ithome.com/1/027/813.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/813.htm</guid>
+<item><title>杨元庆提出私域数据飞轮 押注混合式 AI 落地</title><link>https://www.ithome.com/1/027/813.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/813.htm</guid>
 <pubDate>Mon, 16 Nov 2026 16:40:50 +0800</pubDate>
-<description>&lt;p&gt;Lenovo Chairman and CEO Yang Yuanqing introduced a \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;杨元庆提出私域数据飞轮 押注混合式 AI 落地&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;联想高层对 AI 产业竞争格局的战略判断，附带 AI PC 份额与端侧 Token 占比等具体数据，对关注产业落地者具参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;联想集团董事长兼 CEO 杨元庆在 2026 联想创投 CEO 年会上提出“私域数据飞轮”，判断 AI 竞争将从比拼模型参数转向比拼混合式 AI 落地能力。他披露联想 AI PC 全球份额达 25%、中国累计销量突破 700 万台，并预测未来 70% 至 80% 的 Token 将产生在边侧或端侧。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;联想高层对 AI 产业竞争格局的战略判断，附带 AI PC 份额与端侧 Token 占比等具体数据，对关注产业落地者具参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/027/813.htm">IT之家 · 智能时代</source>
 <category>混合式 AI</category>
 <category>联想</category>
@@ -249,34 +276,6 @@
 <category>腾讯混元</category>
 <category>MoE</category>
 <category>开源</category>
-</item>
-<item><title>汇丰将英伟达目标价下调 54% 至 170 美元</title><link>https://www.ithome.com/1/027/612.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/612.htm</guid>
-<pubDate>Mon, 16 Nov 2026 13:03:11 +0800</pubDate>
-<description>&lt;p&gt;汇丰分析师 Frank Lee 将英伟达评级下调至持有，目标价从 365 美元砍至 170 美元，降幅约 54%。核心依据是黄仁勋于 11 月 12 日辞去总裁、CEO 及董事职务后公司缺乏正式接班计划，以及海外收入面临更严格的芯片出口管制风险。英伟达上季收入 962.2 亿美元、同比增长 105.8%，但管理层承认需求远超供应链能力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球市值最高芯片公司的 CEO 突然离任叠加投行腰斩式下调目标价，是算力产业与资本市场的重要转折信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 88/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/612.htm">IT之家 · IT业界</source>
-<category>英伟达</category>
-<category>汇丰</category>
-<category>目标价下调</category>
-<category>CEO 离任</category>
-<category>出口管制</category>
-</item>
-<item><title>无界进化完成超亿元 Pre-A 轮融资</title><link>https://www.ithome.com/1/027/609.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/609.htm</guid>
-<pubDate>Mon, 16 Nov 2026 12:42:03 +0800</pubDate>
-<description>&lt;p&gt;AI for Science 企业无界进化（INFevo）宣布完成超亿元 Pre-A 轮融资，由星连资本、Prosperity7 Ventures、华盖资本等联合投资，老股东顺为资本、红杉中国、松禾资本追加。资金将用于 AI4S 基础设施建设，推动虚拟细胞模型与高通量自动化实验协同，并已发布基于转录组数据的虚拟细胞基础模型 OCOO-T。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;虚拟细胞赛道单笔融资纪录，且披露了具体模型与基准表现，对 AI4S 方向有实质参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/609.htm">IT之家 · 智能时代</source>
-<category>AI for Science</category>
-<category>虚拟细胞</category>
-<category>融资</category>
-<category>生物医药</category>
-</item>
-<item><title>豆包工作上线工作台 覆盖 21 个专业场景</title><link>https://www.ithome.com/1/027/608.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/608.htm</guid>
-<pubDate>Mon, 16 Nov 2026 12:27:33 +0800</pubDate>
-<description>&lt;p&gt;豆包工作推出「工作台」功能，首批覆盖金融、医疗、教育等 21 个专业场景，预置场景所需技能与工具以降低 AI 使用门槛。金融工作台打通万得、同花顺、国泰海通等专业数据服务，用户还可自建并分享个人专属工作台。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;字节跳动将 AI 助手向垂直专业场景延伸的产品动作，体现专业数据接入与场景化工作流的落地路径。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/608.htm">IT之家 · 智能时代</source>
-<category>豆包</category>
-<category>AI 工作台</category>
-<category>垂直场景</category>
-<category>字节跳动</category>
 </item>
 </channel>
 </rss>
