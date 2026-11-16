@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Mon, 16 Nov 2026 09:01:05 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 16 Nov 2026 09:26:56 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Apple Launches 200,000-Person AI Health Study with OpenEvidence</title><link>https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools</link><guid isPermaLink="true">https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools</guid>
+<pubDate>Mon, 16 Nov 2026 09:26:56 +0800</pubDate>
+<description>&lt;p&gt;Apple announced the Apple Health AI Usage Study in partnership with clinical AI platform OpenEvidence, recruiting up to 200,000 US participants aged 21 and older. Through a new iOS app, users ask health questions and rate AI responses on accuracy, detail, and relevance, aiming to quantify the real-world usefulness of conversational health AI and inform Apple&amp;#x27;s health ecosystem design.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;苹果联合 OpenEvidence 启动 20 万人 AI 健康研究&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;苹果以 20 万人规模实测对话式健康 AI 的可用性，是消费级健康 AI 落地的重要实证信号。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.theverge.com/tech/1033355/apples-new-study-looks-to-improve-the-effectiveness-of-ai-health-tools">The Verge AI</source>
+<category>AI 医疗</category>
+<category>苹果</category>
+<category>OpenEvidence</category>
+<category>健康 AI</category>
+</item>
+<item><title>Samsung Launches 144 Trillion Won Chungcheong Chip Investment</title><link>https://www.ithome.com/1/027/497.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/497.htm</guid>
+<pubDate>Mon, 16 Nov 2026 09:22:26 +0800</pubDate>
+<description>&lt;p&gt;Samsung has kicked off a 144 trillion won long-term investment in South Korea&amp;#x27;s Chungcheong region spanning advanced semiconductor packaging, OLED panels, AI server substrates and batteries. The centerpiece is a fifth HBM packaging line at Onyang, slated for June 2028 production, aimed at turning the Onyang-Cheonan complex into a frontier HBM hub for AI semiconductors.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;三星启动 144 万亿韩元忠清投资 建 HBM 封装枢纽&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是全球存储巨头围绕 HBM 与 AI 封装产能的千亿级资本开支落地，直接决定未来 AI 算力供给格局。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/027/497.htm">IT之家 · IT业界</source>
+<category>HBM</category>
+<category>先进封装</category>
+<category>三星</category>
+<category>算力基础设施</category>
+<category>AI 服务器</category>
+</item>
 <item><title>Anthropic&#x27;s Claude Fable 5.2 Paints via 700,000 Simulated Brushstrokes</title><link>https://www.ithome.com/1/027/490.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/490.htm</guid>
 <pubDate>Mon, 16 Nov 2026 09:01:05 +0800</pubDate>
 <description>&lt;p&gt;Anthropic released Claude Fable 5.2 and Claude Mythos 5.2, with Fable 5.2 demonstrating an image-making path that bypasses image generation models entirely: it writes 1,000-2,000 lines of Python to drive a simulated painting engine, controlling brush texture, paint wetness and canvas grain stroke by stroke. In a staff demo, the model produced a parking-lot shopping cart using roughly 700,000 simulated brushstrokes, with no external image model or pre-rendered base image.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Claude Fable 5.2 用 70 万笔触代码作画&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是代码生成能力向视觉创作迁移的一个新范式样本，值得关注模型能力边界与多模态替代路径的读者一读。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 71/100&lt;/p&gt;</description>
@@ -30,6 +49,15 @@
 <category>输入法</category>
 <category>WinUI3</category>
 <category>Windows</category>
+</item>
+<item><title>Tor Ships Emergency 0.4.9.17 Fix to Counter Sustained DDoS Attack</title><link>https://forum.torproject.org/t/security-release-0-4-9-17/22454</link><guid isPermaLink="true">https://forum.torproject.org/t/security-release-0-4-9-17/22454</guid>
+<pubDate>Mon, 16 Nov 2026 08:21:54 +0800</pubDate>
+<description>&lt;p&gt;The Tor Project released security version 0.4.9.17 as a rapid response to an ongoing DDoS attack that has overwhelmed relays with a flood of client circuits. A fix tied to IPv6 handling in relay DoS defenses is flagged as especially important; the team says more defenses and releases are coming and urges all relay operators to upgrade immediately.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Tor 发布 0.4.9.17 紧急修复抵御持续 DDoS 攻击&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流匿名网络遭持续 DDoS 攻击并紧急发版，对开源基础设施运维者具直接行动价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
+<source url="https://forum.torproject.org/t/security-release-0-4-9-17/22454">Hacker News AI</source>
+<category>Tor</category>
+<category>DDoS 防御</category>
+<category>开源安全</category>
+<category>中继网络</category>
 </item>
 <item><title>Datasette Ships MapLibre Geospatial Plugin Built With One Prompt</title><link>https://simonwillison.net/2026/Nov/15/datasette-maplibre/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/15/datasette-maplibre/</guid>
 <pubDate>Mon, 16 Nov 2026 07:58:36 +0800</pubDate>
@@ -190,25 +218,25 @@
 <category>黄仁勋</category>
 <category>AI 算力</category>
 </item>
-<item><title>Protomaps Makes Self-Hosting Map Tiles Cheap and Easy</title><link>https://bruceroettgers.eu/blog/protomaps/</link><guid isPermaLink="true">https://bruceroettgers.eu/blog/protomaps/</guid>
+<item><title>Protomaps 让自托管地图瓦片变得廉价简单</title><link>https://bruceroettgers.eu/blog/protomaps/</link><guid isPermaLink="true">https://bruceroettgers.eu/blog/protomaps/</guid>
 <pubDate>Mon, 16 Nov 2026 03:26:22 +0800</pubDate>
-<description>&lt;p&gt;PMTiles, part of the Protomaps ecosystem, packages an entire map into a single file served via HTTP Range requests, deployable directly to a storage bucket or CDN without running a tile server. It offers developers a low-cost, portable self-hosting alternative to commercial map APIs whose usage-based pricing can spike sharply.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Protomaps 让自托管地图瓦片变得廉价简单&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为地图类应用提供了一条绕开商业 API 按量计费的自托管方案，工程实用性强。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Protomaps 生态中的 PMTiles 格式将整幅地图打包为单个文件，通过 HTTP Range 请求按需读取，可直接部署到存储桶或 CDN，无需自建瓦片服务器。对担心商业地图 API 流量费用失控的开发者而言，这是一条低成本、可移植的自托管替代路径。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为地图类应用提供了一条绕开商业 API 按量计费的自托管方案，工程实用性强。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
 <source url="https://bruceroettgers.eu/blog/protomaps/">Hacker News AI</source>
 <category>地图瓦片</category>
 <category>自托管</category>
 <category>开源工具</category>
 </item>
-<item><title>Eclipse Mosquitto Open Source MQTT Broker Supports MQTT 5.0</title><link>https://github.com/eclipse-mosquitto/mosquitto</link><guid isPermaLink="true">https://github.com/eclipse-mosquitto/mosquitto</guid>
+<item><title>Eclipse Mosquitto 开源 MQTT Broker 支持 MQTT 5.0</title><link>https://github.com/eclipse-mosquitto/mosquitto</link><guid isPermaLink="true">https://github.com/eclipse-mosquitto/mosquitto</guid>
 <pubDate>Mon, 16 Nov 2026 02:36:40 +0800</pubDate>
-<description>&lt;p&gt;Eclipse Mosquitto is an open source broker implementing MQTT 5.0, 3.1.1 and 3.1, bundled with C/C++ client libraries, pub/sub utilities such as mosquitto_pub and mosquitto_sub, and admin tools like mosquitto_ctrl and mosquitto_passwd. It is distributed via its homepage and GitHub repository, with an install port available in vcpkg.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Eclipse Mosquitto 开源 MQTT Broker 支持 MQTT 5.0&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;物联网消息中间件的经典开源项目文档页，具备工程参考价值但无新增技术增量。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Eclipse Mosquitto 是 MQTT 5.0、3.1.1 与 3.1 协议的开源 Broker 实现，同时提供 C/C++ 客户端库及 mosquitto_pub、mosquitto_sub、mosquitto_rr 等发布订阅工具，以及 mosquitto_ctrl、mosquitto_passwd 等管理程序。项目通过官网与 GitHub 仓库分发，并已在 vcpkg 中提供安装端口。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;物联网消息中间件的经典开源项目文档页，具备工程参考价值但无新增技术增量。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 38/100&lt;/p&gt;</description>
 <source url="https://github.com/eclipse-mosquitto/mosquitto">Hacker News AI</source>
 <category>开源项目</category>
 <category>MQTT</category>
 <category>物联网</category>
 </item>
-<item><title>Agentic Coding Shifts to Verifier-First Development Paradigm</title><link>https://x.com/Yuchenj_UW/status/2122034320823247091</link><guid isPermaLink="true">https://x.com/Yuchenj_UW/status/2122034320823247091</guid>
+<item><title>智能体开发范式转向先建验证器再生成代码</title><link>https://x.com/Yuchenj_UW/status/2122034320823247091</link><guid isPermaLink="true">https://x.com/Yuchenj_UW/status/2122034320823247091</guid>
 <pubDate>Mon, 16 Nov 2026 02:29:42 +0800</pubDate>
-<description>&lt;p&gt;Investor Yuchen Jin argues that development is shifting from writing code and then testing it to building the verifier first and letting agents generate code until it passes. The framing places automated correctness checks at the center of agentic coding workflows.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;智能体开发范式转向先建验证器再生成代码&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;简短观点点出智能体编码中验证器优先的关键工程转向，值得关注。&lt;/p&gt;&lt;p&gt;Yuchen Jin (@Yuchenj_UW) · agent · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;投资人 Yuchen Jin 提出开发范式正从先写代码再测试转向先构建验证器、再让智能体持续生成代码直至通过验证。这一观点将验证器置于智能体编码流程的核心，强调可自动判定的正确性标准是规模化代码生成的前提。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;简短观点点出智能体编码中验证器优先的关键工程转向，值得关注。&lt;/p&gt;&lt;p&gt;Yuchen Jin (@Yuchenj_UW) · agent · signal 42/100&lt;/p&gt;</description>
 <source url="https://x.com/Yuchenj_UW/status/2122034320823247091">Yuchen Jin (@Yuchenj_UW)</source>
 <category>智能体</category>
 <category>软件工程</category>
@@ -239,33 +267,6 @@
 <category>Anthropic</category>
 <category>多模态</category>
 <category>具身智能</category>
-</item>
-<item><title>AI 生成代码应默认开源的观点论证</title><link>https://jakub.jankiewicz.org/blog/ai-code-open-source/</link><guid isPermaLink="true">https://jakub.jankiewicz.org/blog/ai-code-open-source/</guid>
-<pubDate>Sun, 15 Nov 2026 22:46:58 +0800</pubDate>
-<description>&lt;p&gt;作者主张所有由 AI 生成的代码都应开源，理由有二：一是模型训练数据大量来自开源代码与 CC 协议内容，闭源化属于“许可洗白”；二是纯 AI 生成物缺乏人类作者，依“猴子自拍案”先例不应享有版权。文章以观点论证为主，未提供新数据或技术方案。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;触及 AI 生成物版权与开源许可的核心争议，观点鲜明但属个人论述，适合关注开源合规的读者参考。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
-<source url="https://jakub.jankiewicz.org/blog/ai-code-open-source/">Hacker News AI</source>
-<category>开源</category>
-<category>版权</category>
-<category>AI 生成代码</category>
-</item>
-<item><title>db-branch 用 ZFS 秒级克隆数据库分支</title><link>https://github.com/db-branch/db-branch</link><guid isPermaLink="true">https://github.com/db-branch/db-branch</guid>
-<pubDate>Sun, 15 Nov 2026 21:50:51 +0800</pubDate>
-<description>&lt;p&gt;开源项目 db-branch 基于 ZFS 写时复制克隆，为 MySQL 与 PostgreSQL 在数秒内创建零拷贝的数据库分支，无需复制数据即可测试迁移、供 AI 智能体自由操作或为每个 PR 提供独立数据库副本。项目采用 Apache-2.0 协议、自托管部署，目前处于 Beta 阶段，API 与命令行细节在 1.0 前仍可能变动。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为 AI 智能体与 CI 提供秒级零拷贝数据库分支，是智能体安全试错与数据隔离的实用基础设施。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
-<source url="https://github.com/db-branch/db-branch">Hacker News AI</source>
-<category>开源项目</category>
-<category>数据库</category>
-<category>AI 智能体</category>
-<category>ZFS</category>
-<category>CI</category>
-</item>
-<item><title>韩国税务师考试头名 AI 作弊引发全国资格考排查</title><link>https://www.ithome.com/1/027/453.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/453.htm</guid>
-<pubDate>Sun, 15 Nov 2026 21:42:51 +0800</pubDate>
-<description>&lt;p&gt;韩国第 63 届税务师考试头名考生承认用微型摄像头拍题并交由 AI 作答，成绩被取消且五年禁考。政府据此对今年全部国家资格考试启动 AI 作弊排查，并计划年内出台含红外探测设备与智能眼镜禁令的综合防作弊措施。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首例高利害国家考试 AI 作弊被实锤，直接触发监管与考场技术升级，是 AI 落地风险侧的标志性事件。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/453.htm">IT之家 · 智能时代</source>
-<category>AI 作弊</category>
-<category>韩国</category>
-<category>国家资格考试</category>
-<category>AI 治理</category>
 </item>
 </channel>
 </rss>
