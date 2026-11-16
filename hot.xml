@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Tue, 17 Nov 2026 04:46:01 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 17 Nov 2026 06:03:02 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>阿里发布 2.4 万亿参数 Qwen4-Max 任务成本降超 60%</title><link>https://todayforai.com/en/story/story-5a6c2c19-ef6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5a6c2c19-ef6</guid>
 <pubDate>Tue, 17 Nov 2026 00:56:04 +0800</pubDate>
@@ -11,13 +11,21 @@
 
 Qwen4-Max 的发布标志着阿里在稀疏 MoE 架构与长上下文效率上的系统性突破，其成本优势可能重塑企业级 AI 应用的性价比基准。模型已通过 OpenRouter 等平台开放，小尺寸同源模型将陆续…&lt;/p&gt;&lt;p&gt;10 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, Artificial Analysis (@ArtificialAnlys), OpenRouter (@OpenRouter), Arena.ai (@arena), Qwen 官方博客 (通义), IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
+<item><title>腾讯混元 Hy4 flash 发布 单任务成本降至 Hy4 的 5%</title><link>https://todayforai.com/en/story/story-31af8399-33e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-31af8399-33e</guid>
+<pubDate>Tue, 17 Nov 2026 01:09:00 +0800</pubDate>
+<description>&lt;p&gt;腾讯混元正式发布 Hy4 flash 模型，总参数 224B、每 token 激活 12B，支持多模态输入与 100 万 token 上下文。通过混合注意力、LatentMoE、Engram 查表参数及 4bit 量化等三阶段协同优化，其单任务成本仅为 Hy4 的 1/20、DeepSeek-V4.1-Flash 的 1/8，官方称综合效果略优于 Hy4 preview，并计划开源。
+
+技术细节上，Hy4 flash 包含 64B Engram 查表参数，KV cache 降至 Hy4 的 1/6，解码速度超 150 tps。在 WorkIndex 评测中，单任务成本为 Hy4 的 1/20、DeepSeek-V4.1-Flash 的 1/8。定价方面，输入 0.5 元/百万 Token；OpenRouter 上线期至 11 月 30 日提供五折优惠，输入 0.035 美元/百万 token、输出 0.14 美元/百万 token。OpenCode 还宣布未来两周免费开放近无限量使用，并承诺零数据留存。
+
+Hy4 flash 以极致性价比和长上下文能力，直接冲击智能体、编程及高并发负载场景，有望降低 AI 应用门槛，加剧大模型价格战，并推动开源生态竞争。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, OpenRouter (@OpenRouter), InfoQ 中文, OpenCode (@opencode)&lt;/p&gt;</description>
+</item>
 <item><title>黄仁勋辞任英伟达 CEO 市值蒸发近 2 万亿美元</title><link>https://todayforai.com/en/story/story-9954eb0b-f56</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9954eb0b-f56</guid>
-<pubDate>Tue, 17 Nov 2026 02:43:35 +0800</pubDate>
-<description>&lt;p&gt;英伟达创始人黄仁勋于周四上午即刻辞去总裁、CEO 及董事职务，结束 33 年执掌，CFO 科莱特·克雷斯出任临时 CEO，董事会启动内外部继任者遴选，并首次设立董事长职位由哈维·琼斯出任。消息公布后股价盘中一度跌约 13%，市值跌破 4 万亿美元，较 10 月高点累计蒸发约 2 万亿美元。
+<pubDate>Tue, 17 Nov 2026 06:03:02 +0800</pubDate>
+<description>&lt;p&gt;英伟达创始人黄仁勋在执掌公司 33 年后，突然辞去总裁、CEO 及董事职务并立即生效，董事会任命 CFO 科莱特·克雷斯兼任临时 CEO，同时启动内外部继任者遴选。公司首次设立董事长职位，由 1993 年起任职的董事哈维·琼斯出任。消息公布后，英伟达股价盘中一度暴跌约 14%，市值跌破 4 万亿美元，较 10 月高点累计蒸发近 2 万亿美元，多家券商紧急下调评级或目标价。
 
-综合多家信源，辞职与董事会正在进行的独立调查相关，涉及黄仁勋与一名疑似中国间谍及直接下属的不当关系报道。公司此前未制定公开接班计划，约 60 名高管曾直接向黄仁勋汇报。克雷斯自 2013 年加入英伟达，兼任临时 CEO 与 CFO，将于 11 月 17 日财报会说明短期安排。AMD 与博通逆势上涨，投资者押注竞争格局生变。
+综合多方信源，此次人事变动并非渐进交接，公告未说明黄仁勋离职原因，其本人亦未公开表态。据彭博社报道，董事会此前已联合外部猎头评估继任方案，事件或与针对黄仁勋的独立调查有关，调查涉及个人关系及疑似外国情报目标等指控。黄仁勋作为最大股东持股约 3.6%，长期拒绝正式继任规划，导致公司缺乏明确二号人物，约 60 名高管曾直接向其汇报。临时 CEO 克雷斯自 2013 年加入英伟达，此前在思科、微软、德州仪器担任财务要职，将接手约 1000 亿美元对外投资组合，包括拟收购 Hugging Face 及认购 Anthropic 上市股份等重大交易。
 
-事件暴露了英伟达以芯片供应叠加基础设施融资的循环模式风险，整个 AI 产业链面临重新定价。Hugging Face CEO 德朗格公开表达惋惜，并承诺更坚定捍卫开源 AI。此事正值英伟达拟以约 129 亿美元收购 Hugging Face、美国司法部已就竞争影响问询的敏感节点，AI 算力与开源生态走向面临重大不确定性。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;The Decoder, IT之家 · IT业界, Latent Space, Rohan Paul (@rohanpaul_ai), Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
+作为全球 AI 算力龙头，英伟达最高权力更迭直接冲击市场对 AI 基础设施前景的预期，GPU 路线图与产业生态走向面临不确定性。Hugging Face CEO 德朗格公开表达惋惜，并承诺更坚定捍卫开源 AI。此次事件正值英伟达拟以 129 亿美元收购 Hugging Face、美国司法部就竞争影响问询的敏感节点，AI 算力与开源格局或迎来深度调整。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), Rohan Paul (@rohanpaul_ai), Hacker News AI, IT之家 · 智能时代, The Verge AI, The Decoder&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 首引外部安全评估员常驻内部</title><link>https://todayforai.com/en/story/story-ba588e25-41f</link><guid isPermaLink="true">https://todayforai.com/en/story/story-ba588e25-41f</guid>
 <pubDate>Tue, 17 Nov 2026 01:02:43 +0800</pubDate>
@@ -35,21 +43,21 @@ Qwen4-Max 的发布标志着阿里在稀疏 MoE 架构与长上下文效率上�
 
 此案对 OpenAI 的竞争对手与客户均有重大影响，可能确立 AI 实验室对自主智能体行为的法律责任边界，推动行业安全标准与监管框架的实质性变革。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), TechCrunch AI, The Verge AI&lt;/p&gt;</description>
 </item>
-<item><title>腾讯混元 Hy4 flash 发布 单任务成本降至 Hy4 的 5%</title><link>https://todayforai.com/en/story/story-31af8399-33e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-31af8399-33e</guid>
-<pubDate>Tue, 17 Nov 2026 01:09:00 +0800</pubDate>
-<description>&lt;p&gt;腾讯混元正式发布 Hy4 flash 大模型，总参数 224B、每 token 激活 12B，支持多模态输入与 100 万 token 上下文。通过混合注意力、LatentMoE、Engram 查表参数及 4bit 量化等三阶段协同优化，其单任务成本仅为 Hy4 的 1/20、DeepSeek-V4.1-Flash 的 1/8，官方称综合效果略优于 Hy4 preview，并计划开源。
+<item><title>OpenCode 发布 Browse 让智能体接管真实浏览器</title><link>https://todayforai.com/en/story/story-5b3bde84-f4b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5b3bde84-f4b</guid>
+<pubDate>Tue, 17 Nov 2026 05:20:37 +0800</pubDate>
+<description>&lt;p&gt;OpenCode 正式推出 Browse 工具，通过 MCP 服务器与 Chromium 扩展的组合，让 AI 智能体能够直接操作用户已登录的真实浏览器。智能体可以在后台分组标签页中执行读取页面、点击、输入、截图与录制等操作，而遇到登录、双因素认证或支付环节时，标签页会自动交还用户手动完成，用户点击继续后自动化流程随即恢复。这一设计在赋予智能体强大网页交互能力的同时，确保了关键安全环节的人类控制。
 
-Hy4 flash 在架构上引入 64B Engram 查表参数，将 KV cache 降至 Hy4 的 1/6，解码速度超 150 tps。在 WorkIndex 评测中，其单任务成本低至 Hy4 的 1/20，输入定价为 0.5 元/百万 Token。该模型已在 OpenRouter 上线，限时五折定价为输入 0.035 美元/百万 token、输出 0.14 美元/百万 token，面向智能体、编程及高并发负载场景。
+Browse 0.1.0 版本已用 Rust 语言完全重写，带来显著的性能提升：内存占用降低 25 倍，体积缩小 23 倍，并移除了对 Playwright 的依赖，极大简化了部署链路。该工具兼容 OpenCode、Claude Code、Cursor、Codex、Zed 等主流 MCP 客户端，无需额外密钥配置，降低了智能体浏览器自动化的门槛。
 
-Hy4 flash 的发布标志着腾讯混元在模型效率与成本控制上取得重大突破，其开源计划与高频迭代策略有望降低 AI 应用门槛，加剧大模型市场的价格竞争，推动智能体与高并发场景的普及。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter), InfoQ 中文, IT之家 · 智能时代&lt;/p&gt;</description>
+Browse 的发布标志着 AI 智能体在真实环境中的操作能力迈出重要一步。通过复用用户已登录的浏览器会话，智能体可以无缝接入各类网页应用，而无需处理复杂的认证流程。同时，Rust 重写带来的资源效率提升，使得大规模部署成为可能，有望推动智能体在自动化办公、网页测试、数据采集等场景的普及，进一步模糊人类与 AI 在网页交互中的边界。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, OpenCode (@opencode)&lt;/p&gt;</description>
 </item>
 <item><title>Altman 称黄仁勋离职不影响 AI 行业增长</title><link>https://todayforai.com/en/story/story-8d81247c-ccb</link><guid isPermaLink="true">https://todayforai.com/en/story/story-8d81247c-ccb</guid>
-<pubDate>Tue, 17 Nov 2026 03:56:33 +0800</pubDate>
-<description>&lt;p&gt;OpenAI CEO Sam Altman 首次公开回应英伟达 CEO 黄仁勋离职一事，明确表示 AI 行业不会因个人变动而失速。他强调，当前 AI 需求与营收增长足够强劲，行业基本面足以支撑持续发展。此番表态发生在业界联名呼吁英伟达恢复黄仁勋职务、担忧其离职动摇英伟达激进投资策略的背景下。
+<pubDate>Tue, 17 Nov 2026 04:37:27 +0800</pubDate>
+<description>&lt;p&gt;OpenAI CEO Sam Altman 首次公开回应英伟达 CEO 黄仁勋因个人丑闻离职一事，明确表示 AI 行业的真实需求与营收增长足够强劲，不会因单一领导者的变动而失速。此番表态发生在业界联名呼吁英伟达恢复黄仁勋职务、担忧其离职动摇公司激进投资策略的背景下。
 
-综合多方信源，Altman 在 Yahoo Finance 采访中拒绝对黄仁勋是否应回归英伟达直接表态，称了解不够，但高度评价黄仁勋为“心目中的英雄”，并强调很难想象没有他的 AI 革命。同时，Altman 回应了英伟达为 OpenAI 俄亥俄州数据中心提供的最高 1050 亿美元租用担保，称业界仍高度信任英伟达的背书，当前需求与收入增长足以消化相关连锁风险。
+Altman 在 Yahoo Finance 采访中拒绝对黄仁勋是否应回归英伟达直接表态，称了解不够，但高度评价黄仁勋为“心目中的英雄”，并强调“很难想象没有他的 AI 革命”。他同时回应了英伟达为 OpenAI 俄亥俄州数据中心提供的最高 1050 亿美元租用担保，认为市场对英伟达的信任依然稳固，当前 AI 需求与收入快速增长足以消化相关连锁风险。
 
-黄仁勋因个人丑闻离职，引发业界对英伟达可能收缩支撑 AI 热潮的高风险投入的担忧。Altman 的言论旨在稳定市场情绪，强调 AI 行业已具备独立于个人的增长动力。英伟达的巨额担保被视为全行业信用背书，其投资策略的连续性对 AI 基础设施扩张至关重要。Altman 的表态既是对黄仁勋个人贡献的肯定，也试图将行业叙事从依赖领袖转向依赖真实需求，为 AI 产业的长期稳定发展注入信心。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, 宝玉 (@dotey)&lt;/p&gt;</description>
+此番言论旨在稳定市场情绪，缓解外界对英伟达领导层变动可能引发 AI 投资收缩的担忧。黄仁勋的离职恰逢 AI 行业资本支出处于历史高位，英伟达的千亿担保被视为全行业信用背书，Altman 的背书有助于维护投资者信心，但黄仁勋的个人影响力能否被制度性安排替代，仍是行业长期关注的焦点。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, 宝玉 (@dotey)&lt;/p&gt;</description>
 </item>
 <item><title>研究称美国 400 座数据中心耗电超密歇根州</title><link>https://todayforai.com/en/story/story-f0f6b3e0-c65</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f0f6b3e0-c65</guid>
 <pubDate>Tue, 17 Nov 2026 04:27:58 +0800</pubDate>
@@ -74,14 +82,6 @@ Hy4 flash 的发布标志着腾讯混元在模型效率与成本控制上取得�
 据 OpenAI 官方博客介绍，GPT-6 Astra 将研究者的格点规范理论策略转化为完整构造，并主导完成了非微扰定义标准模型的详细证明。该工作采用 overlap 费米子并取连续极限，为完整标准模型的非微扰定义提供了候选路径。然而，此前 OpenAI 在 Navier-Stokes 方程证明上曾遭数学家质疑，因此本次成果的严格性仍需同行评议检验。
 
 这一进展意味着大语言模型在理论物理形式化推导中已能做出实质贡献，有望加速基础物理研究。若证明成立，将推动标准模型的非微扰计算，对粒子物理产生深远影响，同时也将引发关于 AI 在科学发现中角色的新讨论。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Decoder, OpenAI 官方博客&lt;/p&gt;</description>
-</item>
-<item><title>美国拟将 AI 芯片出口管制扩至远程算力租用</title><link>https://todayforai.com/en/story/story-b4e7b8bd-36c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b4e7b8bd-36c</guid>
-<pubDate>Tue, 17 Nov 2026 03:10:09 +0800</pubDate>
-<description>&lt;p&gt;美国商务部正在酝酿一项临时规则，将 AI 芯片出口管制的范围从实体芯片运输扩展至远程算力访问。根据新规，企业向全球任何数据中心出口、再出口或转移 AI 芯片与服务器时，若该数据中心可能为中国、俄罗斯、伊朗、朝鲜等 D:5 禁运国家提供算力，须事先取得许可证。此举旨在封堵受限国家通过境外基础设施远程租用高端 AI 芯片的通道。
-
-综合多家媒体报道，新规特别点名印尼、马来西亚、新加坡、泰国、巴西等地作为主要中转节点，认为这些地区的远程算力可能被用于军事与情报相关 AI 能力，包括大规模杀伤性武器研发、网络间谍与算法窃取。美方以国家安全为由，将管制触角从硬件销售延伸至云端服务，标志着出口管制策略的重大转向。
-
-这一规则若落地，将迫使全球数据中心运营商在承接涉及受限国家的业务时进行合规审查，增加运营成本与法律风险。同时，中国等国家获取高端 AI 算力的难度进一步加大，可能加速本土芯片替代与算力自主化进程。全球 AI 算力供应链与地缘政治格局将面临新一轮调整。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Ars Technica AI, TechCrunch AI&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
