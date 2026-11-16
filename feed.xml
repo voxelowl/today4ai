@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Mon, 16 Nov 2026 11:59:15 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 16 Nov 2026 12:27:33 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>ByteDance&#x27;s Doubao Work Launches Workbench Covering 21 Professional Scenarios</title><link>https://www.ithome.com/1/027/608.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/608.htm</guid>
+<pubDate>Mon, 16 Nov 2026 12:27:33 +0800</pubDate>
+<description>&lt;p&gt;Doubao Work has launched a Workbench feature covering 21 professional scenarios including finance, healthcare and education, pre-configuring scenario-specific skills and tools to lower the barrier to AI adoption. The finance workbench connects to professional data services such as Wind, Hithink RoyalFlush and Guotai Haitong, and users can also build and share their own custom workbenches.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;豆包工作上线工作台 覆盖 21 个专业场景&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;字节跳动将 AI 助手向垂直专业场景延伸的产品动作，体现专业数据接入与场景化工作流的落地路径。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/027/608.htm">IT之家 · 智能时代</source>
+<category>豆包</category>
+<category>AI 工作台</category>
+<category>垂直场景</category>
+<category>字节跳动</category>
+</item>
+<item><title>China and ASEAN Declare 2027 as Year of AI Cooperation</title><link>https://www.ithome.com/1/027/607.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/607.htm</guid>
+<pubDate>Mon, 16 Nov 2026 12:17:38 +0800</pubDate>
+<description>&lt;p&gt;China and ASEAN have designated 2027 as a Year of AI Cooperation, alongside the entry into force of the China-ASEAN Free Trade Area 3.0 upgrade protocol on December 1, 2026. Guangxi has already advanced a China-ASEAN AI innovation center and built the first bilateral AI platform with Laos.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;中国与东盟宣布 2027 年为人工智能合作年&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是区域级 AI 合作机制与自贸协定升级的官方信号，对关注 AI 地缘与出海布局的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/027/607.htm">IT之家 · 智能时代</source>
+<category>产业政策</category>
+<category>中国东盟合作</category>
+<category>AI 出海</category>
+</item>
 <item><title>AI Demand Lifts Electronics and Electrical Equipment Prices Above 5% Year on Year</title><link>https://www.ithome.com/1/027/602.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/602.htm</guid>
 <pubDate>Mon, 16 Nov 2026 11:59:15 +0800</pubDate>
 <description>&lt;p&gt;China&amp;#x27;s National Bureau of Statistics said on November 16 that rapid AI development is moving from technical innovation into industrial deployment, lifting demand in electronics and electrical machinery. In October, producer prices for electrical machinery and computers/communications equipment rose 0.1% month on month and 6.2% and 5.9% year on year respectively, together contributing about 1.18 percentage points to PPI growth. It is an official data point directly linking AI demand to industrial price increases.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 需求拉动电子电气行业价格同比涨超 5%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;官方统计口径首次将 AI 产业需求与工业品价格上行直接挂钩，是观察 AI 算力与硬件产业链景气度的宏观信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
@@ -38,6 +55,15 @@
 <category>空间智能</category>
 <category>高德</category>
 <category>车路协同</category>
+</item>
+<item><title>Layered Main-Session and Thread Routing Cuts Agent Token Costs</title><link>https://x.com/dotey/status/2122162706606121396</link><guid isPermaLink="true">https://x.com/dotey/status/2122162706606121396</guid>
+<pubDate>Mon, 16 Nov 2026 10:59:51 +0800</pubDate>
+<description>&lt;p&gt;Baoyu outlines a layered routing pattern for multi-agent sessions: the main session only classifies and dispatches tasks, so a mid-tier model like Sonnet 5.5 suffices, while stronger models such as Opus 5.5 handle work inside threads. Paired with differentiated prompt-caching tactics, sending only recent messages plus session retrieval after cache expiry and compressing thread context near cache TTL, overall token consumption stays manageable.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;主会话加 Thread 分层调度可显著优化 Token 消耗&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;给出可直接落地的多会话模型分级与缓存策略，对构建 Agent 系统的开发者有实操参考价值。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · agent · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/dotey/status/2122162706606121396">宝玉 (@dotey)</source>
+<category>Agent 架构</category>
+<category>Prompt Caching</category>
+<category>Token 成本</category>
+<category>Claude</category>
 </item>
 <item><title>Alibaba Releases Qwen4 Max with 9-Point Intelligence Index Gain</title><link>https://x.com/ArtificialAnlys/status/2122161629592953032</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2122161629592953032</guid>
 <pubDate>Mon, 16 Nov 2026 10:55:35 +0800</pubDate>
@@ -202,9 +228,9 @@
 <category>代码生成</category>
 <category>多模态</category>
 </item>
-<item><title>Tencent WorkBuddy Global Edition Adds Gemini 4 Carbon Model</title><link>https://www.ithome.com/1/027/487.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/487.htm</guid>
+<item><title>腾讯 WorkBuddy 国际版接入 Gemini 4 Carbon</title><link>https://www.ithome.com/1/027/487.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/487.htm</guid>
 <pubDate>Mon, 16 Nov 2026 08:44:37 +0800</pubDate>
-<description>&lt;p&gt;Tencent&amp;#x27;s WorkBuddy global edition has officially integrated Google&amp;#x27;s Gemini 4 Carbon model, targeting deep-reasoning and long-horizon task scenarios with up to 1M tokens of context and multimodal text, image, audio and video input. Access is currently limited to Pro plan users, and the platform has not yet disclosed usage quotas or limits.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;腾讯 WorkBuddy 国际版接入 Gemini 4 Carbon&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流协作平台接入前沿多模态长上下文模型，反映第三方分发渠道的模型生态扩张。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · tools · signal 52/100&lt;/p&gt;</description>
+<description>&lt;p&gt;腾讯 WorkBuddy 国际版正式上线谷歌 Gemini 4 Carbon 模型，面向需要深度推理与长任务处理的场景，支持最高 100 万 Token 上下文及文本、图像、音频、视频多模态输入。该模型目前仅对 Pro 计划用户开放，平台尚未公布具体调用额度与限制。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流协作平台接入前沿多模态长上下文模型，反映第三方分发渠道的模型生态扩张。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · tools · signal 52/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/027/487.htm">IT之家 · IT业界</source>
 <category>大模型</category>
 <category>腾讯</category>
@@ -212,18 +238,18 @@
 <category>多模态</category>
 <category>智能体</category>
 </item>
-<item><title>Microsoft Quietly Lists WinUI3 Chinese IME with Bing Search and Word Import</title><link>https://www.ithome.com/1/027/484.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/484.htm</guid>
+<item><title>微软 WinUI3 中文输入法上架 支持词库导入与必应搜索</title><link>https://www.ithome.com/1/027/484.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/484.htm</guid>
 <pubDate>Mon, 16 Nov 2026 08:40:25 +0800</pubDate>
-<description>&lt;p&gt;Microsoft has quietly listed a standalone Chinese pinyin input method on the Microsoft Store, rebuilt with WinUI3 for x64 and Arm64 and pitched as ad-free with a cleaner interface. It adds a richer lexicon covering internet slang, names, places and technical terms, supports personal dictionary import, and can invoke Bing search while typing. The IME installs separately and does not replace the built-in Microsoft Pinyin, making this a routine product update rather than an AI capability release.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;微软 WinUI3 中文输入法上架 支持词库导入与必应搜索&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;微软输入法产品线的一次常规更新，对 Windows 中文用户有实用价值，但缺乏 AI 技术增量。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · tools · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;微软在 Microsoft Store 悄然上架一款独立的中文拼音输入法，基于 WinUI3 重构界面，支持 x64 与 Arm64，主打无广告与简洁体验。新输入法扩充了网络热词、人名地名与专业术语词库，并支持个人词库导入及输入时调用必应搜索查词。该输入法需单独安装，不会替换系统内置微软拼音，属于常规产品更新而非 AI 能力发布。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;微软输入法产品线的一次常规更新，对 Windows 中文用户有实用价值，但缺乏 AI 技术增量。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · tools · signal 38/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/027/484.htm">IT之家 · IT业界</source>
 <category>微软</category>
 <category>输入法</category>
 <category>WinUI3</category>
 <category>Windows</category>
 </item>
-<item><title>Tor Ships Emergency 0.4.9.17 Fix to Counter Sustained DDoS Attack</title><link>https://forum.torproject.org/t/security-release-0-4-9-17/22454</link><guid isPermaLink="true">https://forum.torproject.org/t/security-release-0-4-9-17/22454</guid>
+<item><title>Tor 发布 0.4.9.17 紧急修复抵御持续 DDoS 攻击</title><link>https://forum.torproject.org/t/security-release-0-4-9-17/22454</link><guid isPermaLink="true">https://forum.torproject.org/t/security-release-0-4-9-17/22454</guid>
 <pubDate>Mon, 16 Nov 2026 08:21:54 +0800</pubDate>
-<description>&lt;p&gt;The Tor Project released security version 0.4.9.17 as a rapid response to an ongoing DDoS attack that has overwhelmed relays with a flood of client circuits. A fix tied to IPv6 handling in relay DoS defenses is flagged as especially important; the team says more defenses and releases are coming and urges all relay operators to upgrade immediately.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Tor 发布 0.4.9.17 紧急修复抵御持续 DDoS 攻击&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流匿名网络遭持续 DDoS 攻击并紧急发版，对开源基础设施运维者具直接行动价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Tor Project 发布安全版本 0.4.9.17，针对持续中的网络 DDoS 攻击快速响应，其中一项 IPv6 处理相关的中继 DoS 防御修复尤为关键。官方称攻击以海量客户端电路淹没中继，问题难以根治，正评估更多防御手段并预告后续版本，呼吁所有中继运营者尽快升级。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流匿名网络遭持续 DDoS 攻击并紧急发版，对开源基础设施运维者具直接行动价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
 <source url="https://forum.torproject.org/t/security-release-0-4-9-17/22454">Hacker News AI</source>
 <category>Tor</category>
 <category>DDoS 防御</category>
@@ -246,33 +272,6 @@
 <category>地理空间</category>
 <category>Datasette</category>
 <category>AI 辅助编程</category>
-</item>
-<item><title>黄仁勋卸任 英伟达寻找下一位掌舵者</title><link>https://steveblank.com/2026/11/15/whats-next-for-nvidia/</link><guid isPermaLink="true">https://steveblank.com/2026/11/15/whats-next-for-nvidia/</guid>
-<pubDate>Mon, 16 Nov 2026 07:55:55 +0800</pubDate>
-<description>&lt;p&gt;英伟达董事会宣布黄仁勋在联合创办公司 33 年后辞任 CEO，公司进入继任者遴选阶段。文章回顾了黄仁勋三次关键转型（CUDA 通用计算、押注深度学习、收购 Mellanox 转向整机架数据中心），并指出多数愿景型 CEO 离任后创新往往停滞、公司靠品牌惯性滑行，董事会须明确新 CEO 既要守住现有业务，也要在技术被淘汰前完成再发明。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达 CEO 更替是 AI 算力供应链上的重大治理事件，直接影响未来技术路线与产业格局。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://steveblank.com/2026/11/15/whats-next-for-nvidia/">Hacker News AI</source>
-<category>英伟达</category>
-<category>CEO 更替</category>
-<category>AI 算力</category>
-<category>公司治理</category>
-</item>
-<item><title>Neovim 模块库 mini.nvim 迁移至 Tangled 平台</title><link>https://tangled.org/nvim-mini.org/mini.nvim</link><guid isPermaLink="true">https://tangled.org/nvim-mini.org/mini.nvim</guid>
-<pubDate>Mon, 16 Nov 2026 07:55:41 +0800</pubDate>
-<description>&lt;p&gt;包含 45 个以上独立 Lua 模块的 Neovim 增强库 mini.nvim 已将其代码仓库迁移至去中心化代码托管平台 Tangled。此次迁移属于基础设施层面的变动，项目本身的功能与模块规划未发生实质变化，对 Neovim 生态的日常使用影响有限。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Neovim 生态知名模块库更换代码托管平台，对开源社区有一定参考价值，但无技术增量。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 38/100&lt;/p&gt;</description>
-<source url="https://tangled.org/nvim-mini.org/mini.nvim">Hacker News AI</source>
-<category>开源生态</category>
-<category>Neovim</category>
-<category>Lua</category>
-</item>
-<item><title>DeepMind 用多智能体将芯片仿真波形转为 SQL 查询</title><link>https://x.com/rohanpaul_ai/status/2122114049353908599</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122114049353908599</guid>
-<pubDate>Mon, 16 Nov 2026 07:46:30 +0800</pubDate>
-<description>&lt;p&gt;Google DeepMind 与哥伦比亚大学联合提出 BTTF 方法，将超过 10 GB 的芯片仿真波形转储压缩为 SQLite 数据库，再由多智能体团队把自然语言问题翻译为 SQL 并校验设计规则。在 150 道专家标注的验证问题上，基于 Gemini 2.5 Pro 的该系统正确率达 95.33%，多智能体分工比单智能体在质量审计上高出 17.3%，代价是 1.96 倍延迟。其核心启示是：面对超大日志与追踪数据，应将其放入可查询数据库而非塞进提示词。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出将超大仿真波形转为可查询数据库并由多智能体协作调试的实用范式，附有明确基准数据，对智能体工程与芯片验证均有参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2122114049353908599">Rohan Paul (@rohanpaul_ai)</source>
-<category>智能体</category>
-<category>芯片验证</category>
-<category>Google DeepMind</category>
-<category>多智能体</category>
-<category>SQL</category>
 </item>
 </channel>
 </rss>
