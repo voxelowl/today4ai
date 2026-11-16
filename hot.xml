@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Mon, 16 Nov 2026 22:01:15 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 16 Nov 2026 22:48:13 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>阿里发布 2.4 万亿参数 Qwen4-Max 任务成本降超 60%</title><link>https://todayforai.com/en/story/story-5a6c2c19-ef6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5a6c2c19-ef6</guid>
 <pubDate>Mon, 16 Nov 2026 17:47:06 +0800</pubDate>
@@ -19,6 +19,14 @@ Qwen4-Max 的发布标志着阿里在稀疏 MoE 架构与长上下文效率上�
 
 事件冲击全球 AI 算力产业链，英伟达预期市盈率降至 12 倍为 2012 年以来最低，CoreWeave、Nebius 等算力租赁商承压，AMD 与博通则逆势上涨。Hugging Face CEO 德朗格公开表达惋惜，事件正值英伟达拟以 129 亿美元收购 Hugging Face 的敏感节点，美国司法部已就竞争影响问询，开源 AI 生态与算力格局面临重大不确定性。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, 量子位官网, 宝玉 (@dotey), IT之家 · IT业界, The Verge AI, TechCrunch AI&lt;/p&gt;</description>
 </item>
+<item><title>Google Maps 上线 AI 行程规划 覆盖 200 余国</title><link>https://todayforai.com/en/story/story-a8900e24-c6a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a8900e24-c6a</guid>
+<pubDate>Mon, 16 Nov 2026 22:48:13 +0800</pubDate>
+<description>&lt;p&gt;Google 地图正式为 Gemini 驱动的 Ask Maps 聊天机器人新增 AI 行程规划能力，可自动生成单日或多日逐日行程，包含路线、编号地点、实时交通与营业时间信息，并支持分享及导出至 Google Docs。该功能即日起在 Android 与 iOS 上线，覆盖 Ask Maps 所及的 200 多个国家，同时 Ask Maps 本身扩展至欧洲 30 余国。
+
+综合多方信源，新功能不仅提供静态行程列表，还在导航时推送沿途站点的实时详情，并新增预约可用性查询，例如询问某餐厅未来 30 分钟内能否容纳五人。行程可一键分享给同行者，桌面端更可导出为文档便于协作编辑。这标志着谷歌将智能体式任务代办能力嵌入日活数亿的成熟消费级产品，从“查路线”升级为“规划并执行行程”。
+
+对用户而言，旅行规划的门槛显著降低，跨应用切换减少；对行业而言，谷歌凭借地图的实时数据与生态整合，为 AI 助手落地提供了高频场景范本，可能推动其他平台加速集成类似智能体功能，进一步加剧消费级 AI 入口的竞争。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, The Verge AI&lt;/p&gt;</description>
+</item>
 <item><title>FrontierML 基准：AI 智能体可花 200 美元自主提升模型性能</title><link>https://todayforai.com/en/story/story-423aa9f4-e99</link><guid isPermaLink="true">https://todayforai.com/en/story/story-423aa9f4-e99</guid>
 <pubDate>Mon, 16 Nov 2026 22:01:15 +0800</pubDate>
 <description>&lt;p&gt;研究者发布 FrontierML 基准，用 21 个端到端机器学习长周期任务衡量智能体将资金转化为模型性能的能力。每个任务提供 12 小时 CPU 沙箱与 10 至 200 美元预算，前沿系统已能通过外包子任务等方式自主改进表现。这既反映 AI 研发能力的提升，也指向智能体之间相互分包工作的机器经济雏形。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Import AI (Jack Clark)&lt;/p&gt;</description>
@@ -30,6 +38,10 @@ Qwen4-Max 的发布标志着阿里在稀疏 MoE 架构与长上下文效率上�
 Hy4 flash 的成本突破源于三阶段协同优化：混合注意力机制、LatentMoE 稀疏架构、64B Engram 查表参数以及 4bit 量化。其中 KV cache 降至 Hy4 的 1/6，解码速度超过 150 tps，在 WorkIndex 评测中展现出极高的性价比。多家信源一致确认了参数规模、上下文长度与定价细节，交叉验证了其效率优势。
 
 这款模型将显著降低长上下文多模态应用的部署门槛，对开发者生态和 API 市场形成直接冲击。腾讯混元承诺高频迭代并开源，有望推动稀疏 MoE 架构与量化技术的进一步普及，加剧大模型性价比竞争。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, InfoQ 中文&lt;/p&gt;</description>
+</item>
+<item><title>Coral 开源智能体网关 让智能体自写工具提速 29%</title><link>https://todayforai.com/en/story/story-499d4ed7-235</link><guid isPermaLink="true">https://todayforai.com/en/story/story-499d4ed7-235</guid>
+<pubDate>Mon, 16 Nov 2026 22:14:51 +0800</pubDate>
+<description>&lt;p&gt;Coral 是一个开源自托管的智能体执行网关，位于智能体与其操作的目标系统之间：智能体通过编写简短的 TypeScript 程序调用工具，并将验证有效的代码保存为可复用的自定义工具，每次调用都会先经过策略校验再注入凭证并转发。官方称在 GitHub、Linear、Slack 等任务上，自定义工具让智能体提速 29%、成本降低 31%。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Hacker News AI&lt;/p&gt;</description>
 </item>
 <item><title>苹果联合 OpenEvidence 启动 20 万人健康 AI 研究</title><link>https://todayforai.com/en/story/story-e4f8293b-688</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e4f8293b-688</guid>
 <pubDate>Mon, 16 Nov 2026 09:30:00 +0800</pubDate>
@@ -58,18 +70,6 @@ Hy4 flash 的成本突破源于三阶段协同优化：混合注意力机制、L
 综述的核心发现之一是，2026 年的开源权重模型在位置编码的选择上呈现出显著差异。一些模型仍坚持使用 RoPE 的改进版本，而另一些则尝试调整甚至完全省略显式位置编码，转而依赖注意力机制本身来隐式捕捉位置信息。这种分化反映了业界对长上下文建模和计算效率的不同权衡，也表明位置编码的设计远未形成统一标准。
 
 该综述的发布恰逢大模型架构创新进入深水区，位置编码作为影响模型外推能力和训练稳定性的关键组件，正受到越来越多的关注。对于开发者而言，理解不同位置编码方案的优劣及实现细节，将有助于在自定义模型时做出更明智的架构决策；对于整个生态，这类系统性的知识梳理有望加速最佳实践的沉淀，推动更高效、更强大的模型设计。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Ahead of AI (Sebastian Raschka), Hacker News AI&lt;/p&gt;</description>
-</item>
-<item><title>Gemini 4 Carbon 登顶 MathArena 但成本高 15 倍</title><link>https://todayforai.com/en/story/story-d7aabeb3-ec9</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d7aabeb3-ec9</guid>
-<pubDate>Mon, 16 Nov 2026 16:17:49 +0800</pubDate>
-<description>&lt;p&gt;谷歌最新模型 Gemini 4 Carbon 在数学基准 MathArena 上登顶，成为近期首个打破 OpenAI 垄断的非 OpenAI 模型，将 GPT-6.1 Sol 挤下榜首，Anthropic 的 Claude Fable 5.2 以 82.8% 的得分位列第二。然而，其单次评测成本约为 GPT-6.1 Sol 的 15 倍，性价比成为关键权衡。
-
-在 Arena 第 46 周盲测榜单中，Gemini 4 Carbon (High) 首秀即以 1526 分登顶综合榜，与同家族 Gemini 4 Argon 仅差 4 分，视为并列第一。Anthropic 在智能体与前端开发榜仍保持统治力，Top 8 中占据 5 席。国产模型方面，月之暗面 Kimi K3.1 Pro 在 MathArena 上以 54.3% 成为开源最佳，但与前两名差距明显；视频生成赛道国产模型稳定占据第 6 至第 8 名，Kimi K3.1 Pro 首次进入前端开发榜第 12 名。
-
-Gemini 4 Carbon 的登顶标志着谷歌在顶级数学推理能力上重回第一梯队，但高昂的推理成本可能限制其大规模应用。开源模型与闭源头部之间仍存在显著性能鸿沟，而 Anthropic 在智能体与前端开发等实用场景的优势依然稳固。此次榜单变化预示着大模型竞争正从单一基准得分转向成本、可靠性与多场景能力的综合较量。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, The Decoder&lt;/p&gt;</description>
-</item>
-<item><title>GPT-6 Astra 协助完成标准模型格点定义证明</title><link>https://todayforai.com/en/story/story-d202318d-b6a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d202318d-b6a</guid>
-<pubDate>Mon, 16 Nov 2026 06:00:01 +0800</pubDate>
-<description>&lt;p&gt;物理学家借助 GPT-6 Astra 将格点规范理论策略转化为完整构造，并主导完成非微扰定义标准模型的详细证明。该预印本首次给出包含规范场与费米子的最简统一 Yang-Mills 理论的格点存在性论证，展示了前沿大模型在理论物理形式化推导中的实质贡献。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;OpenAI 官方博客&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

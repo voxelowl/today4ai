@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Mon, 16 Nov 2026 22:48:13 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 16 Nov 2026 23:02:34 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>US Tightens AI Chip Export Rules to Close Remote Compute Loophole</title><link>https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/</guid>
+<pubDate>Mon, 16 Nov 2026 23:02:34 +0800</pubDate>
+<description>&lt;p&gt;The US Commerce Department unveiled an interim rule requiring licenses for exporting, reexporting or transferring AI chips and servers to data centers anywhere in the world if they may supply compute to China or other restricted countries. The rule extends controls to remote access, closing a loophole that let restricted-country firms bypass chip export limits via offshore infrastructure, covering the D:5 embargo group including China, Russia, Iran and North Korea.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美国收紧 AI 芯片出口管制 封堵远程算力访问&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是算力出口管制从实体芯片向远程访问延伸的关键监管升级，直接影响全球 AI 基础设施布局与跨境算力供给。&lt;/p&gt;&lt;p&gt;TechCrunch AI · compute · signal 78/100&lt;/p&gt;</description>
+<source url="https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/">TechCrunch AI</source>
+<category>出口管制</category>
+<category>算力基础设施</category>
+<category>AI 芯片</category>
+<category>地缘政策</category>
+</item>
 <item><title>Google Maps Adds AI Trip Itinerary Planning and Live Route Details</title><link>https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop/</guid>
 <pubDate>Mon, 16 Nov 2026 22:48:13 +0800</pubDate>
 <description>&lt;p&gt;Google Maps is rolling out Ask Maps-powered features that generate step-by-step trip itineraries, surface real-time details for each stop along a route, and check appointment availability. The updates launch Monday on Android and iOS, while Ask Maps expands to 30 European countries including Spain, Germany and the UK, marking Google&amp;#x27;s push to embed agentic task completion into a mass-market consumer service.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌地图上线 AI 行程规划与实时路线详情&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;谷歌将智能体式任务代办能力落地到日活数亿的地图产品，是消费级 AI 助手规模化的重要信号。&lt;/p&gt;&lt;p&gt;TechCrunch AI · agent · signal 58/100&lt;/p&gt;</description>
@@ -22,6 +31,15 @@
 <category>收购</category>
 <category>AI 基础设施</category>
 </item>
+<item><title>Coral Open-Source Agent Gateway Lets Agents Write Their Own Tools</title><link>https://github.com/withcoral/coral</link><guid isPermaLink="true">https://github.com/withcoral/coral</guid>
+<pubDate>Mon, 16 Nov 2026 22:14:51 +0800</pubDate>
+<description>&lt;p&gt;Coral is an open-source, self-hosted execution gateway that sits between agents and the systems they operate on. Agents invoke tools by writing short TypeScript programs and persist working code as reusable custom tools, with every call checked against policy before credentials are injected and the request forwarded. The team reports custom tools make agents 29% faster at 31% lower cost on GitHub, Linear and Slack tasks.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Coral 开源智能体网关 让智能体自写工具提速 29%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以策略校验加凭证注入的执行网关切入智能体工具自生成，并给出可量化的效率与成本收益，对构建智能体基础设施的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 72/100&lt;/p&gt;</description>
+<source url="https://github.com/withcoral/coral">Hacker News AI</source>
+<category>智能体</category>
+<category>开源</category>
+<category>开发者工具</category>
+<category>执行网关</category>
+</item>
 <item><title>FrontierML Benchmark Shows AI Agents Can Buy Their Own Performance Gains</title><link>https://importai.substack.com/p/import-ai-481-ai-sub-contractors</link><guid isPermaLink="true">https://importai.substack.com/p/import-ai-481-ai-sub-contractors</guid>
 <pubDate>Mon, 16 Nov 2026 22:01:15 +0800</pubDate>
 <description>&lt;p&gt;Researchers released FrontierML, a benchmark measuring how well agents convert capital into model performance across 21 end-to-end ML tasks. Each task gives a 12-hour CPU sandbox, a $10 to $200 wallet, and validation samples, and frontier systems already turn that budget into measurable self-improvement. The result highlights advancing AI R&amp;amp;D capability and hints at a machine economy where agents sub-contract work to one another.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;FrontierML 基准：AI 智能体可花 200 美元自主提升模型性能&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个以“资金转化为模型性能”为核心度量的智能体基准，直接触及 AI 自我改进与机器经济议题。&lt;/p&gt;&lt;p&gt;Import AI (Jack Clark) · agent · signal 72/100&lt;/p&gt;</description>
@@ -30,6 +48,24 @@
 <category>基准评测</category>
 <category>AI 研发自动化</category>
 <category>机器经济</category>
+</item>
+<item><title>Audible Launches AI Audio Synopsis to Help Users Pick Audiobooks</title><link>https://www.theverge.com/tech/1034083/audible-audio-discovery-ai-feature-availability</link><guid isPermaLink="true">https://www.theverge.com/tech/1034083/audible-audio-discovery-ai-feature-availability</guid>
+<pubDate>Mon, 16 Nov 2026 22:00:00 +0800</pubDate>
+<description>&lt;p&gt;Audible is rolling out an AI-assisted &amp;#x27;audio discovery&amp;#x27; feature that blends audiobook samples, AI-generated overviews of themes and listener reactions, and author or editor commentary into a short audio synopsis to help users decide what to listen to next. It also adds personalized recommendation collections, with a broader rollout planned to begin in December.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Audible 推出 AI 音频摘要功能，帮助用户挑选有声书&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是主流音频平台将 AI 摘要嵌入内容发现流程的具体产品落地，对关注 AI 应用层落地的读者有参考价值。&lt;/p&gt;&lt;p&gt;The Verge AI · tools · signal 38/100&lt;/p&gt;</description>
+<source url="https://www.theverge.com/tech/1034083/audible-audio-discovery-ai-feature-availability">The Verge AI</source>
+<category>AI 应用</category>
+<category>有声书</category>
+<category>内容发现</category>
+<category>Audible</category>
+</item>
+<item><title>Google Maps Adds AI Trip Itinerary Planning Feature</title><link>https://www.theverge.com/tech/1034110/google-ask-maps-ai-trip-planning</link><guid isPermaLink="true">https://www.theverge.com/tech/1034110/google-ask-maps-ai-trip-planning</guid>
+<pubDate>Mon, 16 Nov 2026 22:00:00 +0800</pubDate>
+<description>&lt;p&gt;Google is adding AI trip planning to the Gemini-powered Ask Maps chatbot in Maps, generating day-by-day itineraries with routes and numbered pins that can be shared or exported to Google Docs. The feature rolls out to the 200+ countries where Ask Maps is available, while Ask Maps itself expands to over 30 European countries.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Google Maps 上线 AI 行程规划功能&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Gemini 驱动的消费级 AI 功能落地到十亿级用户的 Maps，是观察大模型产品化路径的典型样本。&lt;/p&gt;&lt;p&gt;The Verge AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.theverge.com/tech/1034110/google-ask-maps-ai-trip-planning">The Verge AI</source>
+<category>Google Maps</category>
+<category>Gemini</category>
+<category>AI 应用</category>
+<category>智能助手</category>
 </item>
 <item><title>Google Maps Ask Maps Adds Trip Planning and Agentic Booking</title><link>https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/</link><guid isPermaLink="true">https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/</guid>
 <pubDate>Mon, 16 Nov 2026 22:00:00 +0800</pubDate>
@@ -139,9 +175,9 @@
 <category>智能体</category>
 <category>端侧计算</category>
 </item>
-<item><title>Google&#x27;s Gemini 4 Carbon Debuts Atop Arena Blind-Test Leaderboard</title><link>https://www.ithome.com/1/027/775.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/775.htm</guid>
+<item><title>谷歌 Gemini 4 Carbon 首秀登顶 Arena 盲测榜</title><link>https://www.ithome.com/1/027/775.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/775.htm</guid>
 <pubDate>Mon, 16 Nov 2026 16:17:49 +0800</pubDate>
-<description>&lt;p&gt;Arena&amp;#x27;s week-46 blind-test leaderboard shows Google&amp;#x27;s new Gemini 4 Carbon (High) debuting at No. 1 with 1526 points, statistically tied with sibling Gemini 4 Argon just 4 points behind. Anthropic retains dominance on agent and frontend boards, while Chinese models hold ranks 6-8 in video generation and Kimi K3.1 Pro breaks into the frontend top 12.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌 Gemini 4 Carbon 首秀登顶 Arena 盲测榜&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;反映头部模型竞争格局与国产模型多模态渗透的最新盲测信号，但属榜单汇总类信息，实质技术增量有限。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · llm · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Arena 第 46 周盲测榜单显示，谷歌新模型 Gemini 4 Carbon (High) 首秀即以 1526 分登顶综合榜，与同家族 Gemini 4 Argon 仅差 4 分，视为并列第一。Anthropic 在智能体与前端开发榜仍保持统治力，国产模型则在视频生成赛道稳定占据第 6 至第 8 名，Kimi K3.1 Pro 首次进入前端开发榜第 12 名。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;反映头部模型竞争格局与国产模型多模态渗透的最新盲测信号，但属榜单汇总类信息，实质技术增量有限。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · llm · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/027/775.htm">IT之家 · IT业界</source>
 <category>大模型</category>
 <category>Arena 榜单</category>
@@ -149,9 +185,9 @@
 <category>Anthropic</category>
 <category>国产模型</category>
 </item>
-<item><title>OpenAI Math Dump Raises Questions Over Lean Proof Validity</title><link>https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/</link><guid isPermaLink="true">https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/</guid>
+<item><title>OpenAI 论文库 45% 附 Lean 代码引验证争议</title><link>https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/</link><guid isPermaLink="true">https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/</guid>
 <pubDate>Mon, 16 Nov 2026 15:38:19 +0800</pubDate>
-<description>&lt;p&gt;OpenAI&amp;#x27;s recent dump of 722 mathematics papers included Lean formalization for roughly 45%, yet three non-Leanified papers were already retracted over a sign error. The post argues that Lean code compiling is not proof of correctness, especially when AI-generated, and that additional tests against reward hacking and kernel soundness are needed but have not yet been systematically performed.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 论文库 45% 附 Lean 代码引验证争议&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;直面 AI 生成形式化证明的可信度问题，对关注大模型数学推理与验证的读者有实质参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 71/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 上月发布的 722 篇数学论文中约 45% 附带 Lean 形式化代码，但已有 3 篇非 Lean 论文因符号错误被撤稿。文章指出，Lean 代码编译通过并不等于定理正确，尤其当代码由 AI 生成时，还需额外测试来排除奖励黑客与内核可靠性问题，而这类检验目前尚未系统开展。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;直面 AI 生成形式化证明的可信度问题，对关注大模型数学推理与验证的读者有实质参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 71/100&lt;/p&gt;</description>
 <source url="https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/">Hacker News AI</source>
 <category>形式化验证</category>
 <category>Lean</category>
@@ -159,9 +195,9 @@
 <category>AI 数学</category>
 <category>可信度</category>
 </item>
-<item><title>ByteDance Opens Seedance 2.5 4K Video Generation API to All Developers</title><link>https://www.ithome.com/1/027/736.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/736.htm</guid>
+<item><title>字节跳动 Seedance 2.5 4K 视频生成 API 全面开放</title><link>https://www.ithome.com/1/027/736.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/736.htm</guid>
 <pubDate>Mon, 16 Nov 2026 15:23:26 +0800</pubDate>
-<description>&lt;p&gt;ByteDance&amp;#x27;s Volcano Engine has fully opened the API for its Seedance 2.5 4K video generation model, letting developers and enterprise clients call it directly. Launched on October 23, the model supports a Draft mode that validates storyboards in 480P before rendering 4K finals, and offers 10-bit color depth plus stronger reference-material consistency for cinema-grade use.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;字节跳动 Seedance 2.5 4K 视频生成 API 全面开放&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;4K 视频生成模型 API 开放意味着开发者可实际接入影视级生成能力，具备明确的工程与产业落地价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;字节跳动火山引擎宣布 Seedance 2.5 4K 视频生成模型 API 全面开放，开发者与企业客户可直接调用。该模型于 10 月 23 日发布，支持 480P 样片快速验证分镜、确认后再生成 4K 正片的 Draft 模式，并具备 10-bit 色深与更强的参考素材一致性保持能力，面向影视级大屏场景。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;4K 视频生成模型 API 开放意味着开发者可实际接入影视级生成能力，具备明确的工程与产业落地价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/027/736.htm">IT之家 · 智能时代</source>
 <category>视频生成</category>
 <category>字节跳动</category>
@@ -241,42 +277,6 @@
 <category>AI 工作台</category>
 <category>垂直场景</category>
 <category>字节跳动</category>
-</item>
-<item><title>中国与东盟宣布 2027 年为人工智能合作年</title><link>https://www.ithome.com/1/027/607.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/607.htm</guid>
-<pubDate>Mon, 16 Nov 2026 12:17:38 +0800</pubDate>
-<description>&lt;p&gt;中国与东盟宣布将 2027 年定为人工智能合作年，同时中国－东盟自贸区 3.0 版升级议定书将于 2026 年 12 月 1 日生效。此前广西已推动中国－东盟人工智能创新合作中心建设，并与老挝共建首个双边 AI 合作平台。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是区域级 AI 合作机制与自贸协定升级的官方信号，对关注 AI 地缘与出海布局的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/607.htm">IT之家 · 智能时代</source>
-<category>产业政策</category>
-<category>中国东盟合作</category>
-<category>AI 出海</category>
-</item>
-<item><title>AI 垃圾论文冒名 Hinton 李飞飞等顶流学者</title><link>https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651074684&amp;idx=2&amp;sn=d9d5b8d0066e6f455ff6395786414131</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651074684&amp;idx=2&amp;sn=d9d5b8d0066e6f455ff6395786414131</guid>
-<pubDate>Mon, 16 Nov 2026 12:01:00 +0800</pubDate>
-<description>&lt;p&gt;一批不知名期刊正批量发表 AI 生成的空洞论文，并把 Geoffrey Hinton、Yann LeCun、李飞飞、吴恩达、Christopher Manning 等顶尖学者列为作者，哥德堡大学教授 Alan Said 在收到谷歌学术推送后才发现自己“被署名”。投诉后论文仅被换名重挂，暴露出学术出版链条在 AI 生成内容冲击下的身份核验与撤稿机制失效。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 生成垃圾内容已从网页蔓延至学术出版，冒名顶替顶级学者，直接冲击科研诚信与学术评价体系。&lt;/p&gt;&lt;p&gt;机器之心 (微信公众号) · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651074684&amp;idx=2&amp;sn=d9d5b8d0066e6f455ff6395786414131">机器之心 (微信公众号)</source>
-<category>学术诚信</category>
-<category>AI 生成内容</category>
-<category>论文造假</category>
-<category>科研生态</category>
-</item>
-<item><title>NovaSilicon 首提 CDK 芯片设计套件 自研 Agent 实测超越 GPT-6</title><link>https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651074684&amp;idx=1&amp;sn=0ddb788a327e64cd83ac3069ccad7744</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651074684&amp;idx=1&amp;sn=0ddb788a327e64cd83ac3069ccad7744</guid>
-<pubDate>Mon, 16 Nov 2026 12:01:00 +0800</pubDate>
-<description>&lt;p&gt;NovaSilicon 首次提出 CDK（电路设计套件）概念，将芯片设计经验与 Agent 封装为系统，类比晶圆厂的 PDK，并据此提出 Designless 新分工模式。其两篇论文在模拟版图设计与数字芯片布图规划两个场景中，自研 Agent 平均分均超过 GPT-6 Astra，其中 floorplan 约为后者 1.9 倍。公司成立 5 个月已完成 3 轮融资累计数亿元，最新一轮由顺为资本领投。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出 CDK 与 Designless 新范式，并用自研 Agent 在芯片设计任务上对标 GPT-6，兼具技术增量与产业想象空间。&lt;/p&gt;&lt;p&gt;机器之心 (微信公众号) · agent · signal 74/100&lt;/p&gt;</description>
-<source url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651074684&amp;idx=1&amp;sn=0ddb788a327e64cd83ac3069ccad7744">机器之心 (微信公众号)</source>
-<category>芯片设计</category>
-<category>Agent</category>
-<category>CDK</category>
-<category>融资</category>
-</item>
-<item><title>清华 SkillMaster 让智能体自主进化技能</title><link>https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651074684&amp;idx=3&amp;sn=98e2d05a9365087f6adf4590de6d8793</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651074684&amp;idx=3&amp;sn=98e2d05a9365087f6adf4590de6d8793</guid>
-<pubDate>Mon, 16 Nov 2026 12:01:00 +0800</pubDate>
-<description>&lt;p&gt;清华大学李勇团队提出 SkillMaster，将技能的创建、更新与保留纳入智能体自身的策略，与任务执行共同进行强化学习，不再依赖外部教师模型或预设规则。该方法以「失败任务后续更易成功、成功任务步骤更少」作为技能编辑的学习信号，论文已被 NeurIPS 2026 录用。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把技能自我进化从外挂模块变为智能体可训练能力，是智能体长期演进方向上的实质性方法进展。&lt;/p&gt;&lt;p&gt;机器之心 (微信公众号) · agent · signal 78/100&lt;/p&gt;</description>
-<source url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651074684&amp;idx=3&amp;sn=98e2d05a9365087f6adf4590de6d8793">机器之心 (微信公众号)</source>
-<category>智能体</category>
-<category>强化学习</category>
-<category>技能进化</category>
-<category>清华大学</category>
-<category>NeurIPS</category>
 </item>
 </channel>
 </rss>
