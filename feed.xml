@@ -1,8 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Mon, 16 Nov 2026 07:55:41 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 16 Nov 2026 09:01:05 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Anthropic&#x27;s Claude Fable 5.2 Paints via 700,000 Simulated Brushstrokes</title><link>https://www.ithome.com/1/027/490.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/490.htm</guid>
+<pubDate>Mon, 16 Nov 2026 09:01:05 +0800</pubDate>
+<description>&lt;p&gt;Anthropic released Claude Fable 5.2 and Claude Mythos 5.2, with Fable 5.2 demonstrating an image-making path that bypasses image generation models entirely: it writes 1,000-2,000 lines of Python to drive a simulated painting engine, controlling brush texture, paint wetness and canvas grain stroke by stroke. In a staff demo, the model produced a parking-lot shopping cart using roughly 700,000 simulated brushstrokes, with no external image model or pre-rendered base image.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Claude Fable 5.2 用 70 万笔触代码作画&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是代码生成能力向视觉创作迁移的一个新范式样本，值得关注模型能力边界与多模态替代路径的读者一读。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 71/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/027/490.htm">IT之家 · 智能时代</source>
+<category>大模型</category>
+<category>Anthropic</category>
+<category>代码生成</category>
+<category>多模态</category>
+</item>
+<item><title>Tencent WorkBuddy Global Edition Adds Gemini 4 Carbon Model</title><link>https://www.ithome.com/1/027/487.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/487.htm</guid>
+<pubDate>Mon, 16 Nov 2026 08:44:37 +0800</pubDate>
+<description>&lt;p&gt;Tencent&amp;#x27;s WorkBuddy global edition has officially integrated Google&amp;#x27;s Gemini 4 Carbon model, targeting deep-reasoning and long-horizon task scenarios with up to 1M tokens of context and multimodal text, image, audio and video input. Access is currently limited to Pro plan users, and the platform has not yet disclosed usage quotas or limits.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;腾讯 WorkBuddy 国际版接入 Gemini 4 Carbon&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流协作平台接入前沿多模态长上下文模型，反映第三方分发渠道的模型生态扩张。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · tools · signal 52/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/027/487.htm">IT之家 · IT业界</source>
+<category>大模型</category>
+<category>腾讯</category>
+<category>谷歌</category>
+<category>多模态</category>
+<category>智能体</category>
+</item>
+<item><title>Microsoft Quietly Lists WinUI3 Chinese IME with Bing Search and Word Import</title><link>https://www.ithome.com/1/027/484.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/484.htm</guid>
+<pubDate>Mon, 16 Nov 2026 08:40:25 +0800</pubDate>
+<description>&lt;p&gt;Microsoft has quietly listed a standalone Chinese pinyin input method on the Microsoft Store, rebuilt with WinUI3 for x64 and Arm64 and pitched as ad-free with a cleaner interface. It adds a richer lexicon covering internet slang, names, places and technical terms, supports personal dictionary import, and can invoke Bing search while typing. The IME installs separately and does not replace the built-in Microsoft Pinyin, making this a routine product update rather than an AI capability release.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;微软 WinUI3 中文输入法上架 支持词库导入与必应搜索&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;微软输入法产品线的一次常规更新，对 Windows 中文用户有实用价值，但缺乏 AI 技术增量。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · tools · signal 38/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/027/484.htm">IT之家 · IT业界</source>
+<category>微软</category>
+<category>输入法</category>
+<category>WinUI3</category>
+<category>Windows</category>
+</item>
+<item><title>Datasette Ships MapLibre Geospatial Plugin Built With One Prompt</title><link>https://simonwillison.net/2026/Nov/15/datasette-maplibre/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/15/datasette-maplibre/</guid>
+<pubDate>Mon, 16 Nov 2026 07:58:36 +0800</pubDate>
+<description>&lt;p&gt;Datasette released datasette-maplibre 0.1a0, a geospatial plugin combining MapLibre GL with the free vector tile service OpenFreeMap and merging features from datasette-cluster-map and datasette-leaflet-geojson. Author Simon Willison says most of it was built from a single Claude prompt, yielding ideas such as SVG GeoJSON previews that defer WebGL loading until shapes scroll into view.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Datasette 推出 MapLibre 地理空间插件&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了单条提示词驱动完整插件开发的实践，并给出可在线体验的开源地理可视化工具。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://simonwillison.net/2026/Nov/15/datasette-maplibre/">Simon Willison 博客</source>
+<category>开源项目</category>
+<category>地理空间</category>
+<category>Datasette</category>
+<category>AI 辅助编程</category>
+</item>
+<item><title>Nvidia Faces Leadership Crossroads After Jensen Huang Steps Down</title><link>https://steveblank.com/2026/11/15/whats-next-for-nvidia/</link><guid isPermaLink="true">https://steveblank.com/2026/11/15/whats-next-for-nvidia/</guid>
+<pubDate>Mon, 16 Nov 2026 07:55:55 +0800</pubDate>
+<description>&lt;p&gt;Nvidia&amp;#x27;s board announced that Jensen Huang has resigned as CEO 33 years after co-founding the company, opening a succession process. The piece traces his three reinventions, CUDA as a general-purpose computing platform, the pivot to deep learning after ImageNet, and the Mellanox acquisition that moved Nvidia from GPU boards to integrated AI datacenter racks, and warns that visionary-led firms often coast on momentum after their founder departs. The board must decide whether the next CEO is hired to execute today&amp;#x27;s business, reinvent it, or both.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;黄仁勋卸任 英伟达寻找下一位掌舵者&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达 CEO 更替是 AI 算力供应链上的重大治理事件，直接影响未来技术路线与产业格局。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 62/100&lt;/p&gt;</description>
+<source url="https://steveblank.com/2026/11/15/whats-next-for-nvidia/">Hacker News AI</source>
+<category>英伟达</category>
+<category>CEO 更替</category>
+<category>AI 算力</category>
+<category>公司治理</category>
+</item>
 <item><title>Mini.nvim Migrates Its Repository to the Tangled Platform</title><link>https://tangled.org/nvim-mini.org/mini.nvim</link><guid isPermaLink="true">https://tangled.org/nvim-mini.org/mini.nvim</guid>
 <pubDate>Mon, 16 Nov 2026 07:55:41 +0800</pubDate>
 <description>&lt;p&gt;Mini.nvim, a library of 45+ independent Lua modules that enhances Neovim, has moved its repository to the decentralized code hosting platform Tangled. The migration is an infrastructure-level change with no substantive shift in the project&amp;#x27;s features or module roadmap, so its impact on day-to-day Neovim workflows is limited.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Neovim 模块库 mini.nvim 迁移至 Tangled 平台&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Neovim 生态知名模块库更换代码托管平台，对开源社区有一定参考价值，但无技术增量。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 38/100&lt;/p&gt;</description>
@@ -39,6 +85,15 @@
 <category>纽约市</category>
 <category>消费者保护</category>
 </item>
+<item><title>Datasette 1.0a43 Ships Streaming Output and Security Fixes</title><link>https://simonwillison.net/2026/Nov/15/datasette/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/15/datasette/</guid>
+<pubDate>Mon, 16 Nov 2026 07:20:27 +0800</pubDate>
+<description>&lt;p&gt;Datasette released 1.0a43, with the 1.0 milestone now 53% complete. The headline addition is streaming support for output renderers, now used by the built-in TSV and CSV exports, letting plugins stream an entire table via the new Response.stream() method. The release also fixes a security issue where private stored queries could leak their title and SQL, and introduces a 1.0-ready row page JSON representation plus a \u003cdatasette-copy-button\u003e Web Component.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Datasette 1.0a43 发布 新增流式输出与安全修复&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向数据工具生态的重要开源项目预发布，流式导出与安全修复对插件开发者有直接价值。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · opensource · signal 42/100&lt;/p&gt;</description>
+<source url="https://simonwillison.net/2026/Nov/15/datasette/">Simon Willison 博客</source>
+<category>Datasette</category>
+<category>开源</category>
+<category>数据工具</category>
+<category>安全修复</category>
+</item>
 <item><title>Datasette 0.65.6 Patches Unauthorized Database Download Flaw</title><link>https://simonwillison.net/2026/Nov/15/datasette-2/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/15/datasette-2/</guid>
 <pubDate>Mon, 16 Nov 2026 07:18:17 +0800</pubDate>
 <description>&lt;p&gt;Datasette released version 0.65.6, backporting a security fix from 1.0a43: databases registered via add_database with a route differing from their name could be downloaded at /\u003croute\u003e.db by actors denied access. The flaw is an access-control bypass, and deployments using custom routes should upgrade promptly.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Datasette 0.65.6 修复数据库越权下载漏洞&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及数据服务权限绕过漏洞的修复，对使用 Datasette 的开发者有直接安全价值。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · tools · signal 38/100&lt;/p&gt;</description>
@@ -54,6 +109,15 @@
 <category>强化学习</category>
 <category>神经科学</category>
 <category>科普</category>
+</item>
+<item><title>Apple Smart Glasses Prototype Leaks Ahead of WWDC 2027 Launch</title><link>https://www.ithome.com/1/027/466.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/466.htm</guid>
+<pubDate>Mon, 16 Nov 2026 07:04:30 +0800</pubDate>
+<description>&lt;p&gt;Bloomberg&amp;#x27;s Mark Gurman revealed Apple&amp;#x27;s first smart glasses, codenamed N50, will debut at WWDC in June 2027 with shipments by year-end. The display-free device centers on Siri voice interaction, runs a stripped-down visionOS 28 on a chip derived from early Apple Watch silicon, and relies on iPhone collaboration rather than standalone apps.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;苹果智能眼镜原型曝光 2027 年 WWDC 发布&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;苹果首款智能眼镜的关键产品形态与时间表首次明确，是端侧 AI 硬件路线的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/027/466.htm">IT之家 · 智能时代</source>
+<category>智能眼镜</category>
+<category>苹果</category>
+<category>Siri</category>
+<category>端侧 AI</category>
 </item>
 <item><title>Samsung to Invest $1.9B in Austin for SpaceX Satellite Chips</title><link>https://www.ithome.com/1/027/465.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/465.htm</guid>
 <pubDate>Mon, 16 Nov 2026 07:01:15 +0800</pubDate>
@@ -150,43 +214,43 @@
 <category>软件工程</category>
 <category>代码生成</category>
 </item>
-<item><title>clice v1.0 Ships as Stable Language Server for Modern C++</title><link>https://ykiko.me/en/articles/2105384023094834022/</link><guid isPermaLink="true">https://ykiko.me/en/articles/2105384023094834022/</guid>
+<item><title>clice v1.0 发布 现代 C++ 语言服务器正式稳定</title><link>https://ykiko.me/en/articles/2105384023094834022/</link><guid isPermaLink="true">https://ykiko.me/en/articles/2105384023094834022/</guid>
 <pubDate>Mon, 16 Nov 2026 01:22:32 +0800</pubDate>
-<description>&lt;p&gt;clice has shipped v1.0, its first stable release, a language server built for modern C++. The author says the project has gone through roughly two and a half years of development, four months of alpha testing and extensive validation against real open-source projects, with core features now stable.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;clice v1.0 发布 现代 C++ 语言服务器正式稳定&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向现代 C++ 的新语言服务器进入稳定版，对 C++ 工具链与编辑器生态有实际参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;clice 发布 v1.0 首个稳定版本，这是一个面向现代 C++ 的语言服务器项目。作者称项目历经约两年半开发、四个月 alpha 测试与大量真实开源项目验证，核心功能已趋于稳定。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向现代 C++ 的新语言服务器进入稳定版，对 C++ 工具链与编辑器生态有实际参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
 <source url="https://ykiko.me/en/articles/2105384023094834022/">Hacker News AI</source>
 <category>C++</category>
 <category>语言服务器</category>
 <category>开发者工具</category>
 <category>开源</category>
 </item>
-<item><title>Building AI Agents with Picasso&#x27;s Minimalist Bull Lesson</title><link>https://claramap.com/blog/what-picasso-taught-me-about-building-ai-agents/</link><guid isPermaLink="true">https://claramap.com/blog/what-picasso-taught-me-about-building-ai-agents/</guid>
+<item><title>从毕加索画牛看 AI 智能体的极简构建之道</title><link>https://claramap.com/blog/what-picasso-taught-me-about-building-ai-agents/</link><guid isPermaLink="true">https://claramap.com/blog/what-picasso-taught-me-about-building-ai-agents/</guid>
 <pubDate>Mon, 16 Nov 2026 00:16:26 +0800</pubDate>
-<description>&lt;p&gt;The author draws a parallel between Picasso&amp;#x27;s 11-stage reduction of The Bull and AI agent development, arguing that as models improve, elaborate frameworks, orchestration engines and multi-agent architectures are being stripped away in favor of simpler single-prompt solutions. The core lesson is that agent engineering rewards subtraction over accumulated system complexity.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;从毕加索画牛看 AI 智能体的极简构建之道&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以艺术大师的减法哲学反思智能体过度工程化，对一线开发者有方法论启发。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;作者以毕加索《公牛》11 次删繁就简的创作过程类比 AI 智能体开发，指出随着模型能力提升，框架、编排引擎、多智能体架构等复杂抽象正被逐步剥离，单次提示即可完成更多任务。核心结论是：智能体工程的关键在于做减法而非堆叠系统复杂度。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以艺术大师的减法哲学反思智能体过度工程化，对一线开发者有方法论启发。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 58/100&lt;/p&gt;</description>
 <source url="https://claramap.com/blog/what-picasso-taught-me-about-building-ai-agents/">Hacker News AI</source>
 <category>智能体</category>
 <category>工程实践</category>
 <category>方法论</category>
 </item>
-<item><title>Anthropic&#x27;s Claude Fable 5.2 Paints With Code and Brushstrokes</title><link>https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/</link><guid isPermaLink="true">https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/</guid>
+<item><title>Claude Fable 5.2 用代码逐笔作画</title><link>https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/</link><guid isPermaLink="true">https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/</guid>
 <pubDate>Sun, 15 Nov 2026 23:42:03 +0800</pubDate>
-<description>&lt;p&gt;Anthropic released Claude Fable 5.2, a language model that paints rather than generates pixels, placing individual brushstrokes on a virtual canvas via Python code while simulating bristle texture and paint application. Demos include a parking garage scene built from roughly 700,000 strokes and a bird painting from 111 coordinate sequences, with deviations painted over afterward. It scored 64.9% on Anthropic&amp;#x27;s internal RoboDojo Sim benchmark versus 29.8% for OpenAI&amp;#x27;s GPT-6 Astra, but trailed in speed and fine motor control in a real robot-arm test.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Claude Fable 5.2 用代码逐笔作画&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以代码逐笔作画替代像素生成，并延伸到机械臂控制，是模型能力范式的一次实质性探索。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 发布语言模型 Claude Fable 5.2，它不直接生成像素图像，而是通过 Python 代码在虚拟画布上逐笔落笔，模拟笔毛纹理与颜料附着等物理特性。演示中它用约 70 万笔完成停车场场景、以 111 组坐标序列画出一只鸟，并在事后覆盖修正偏差。在内部 RoboDojo Sim 基准上得分 64.9%，远超 GPT-6 Astra 的 29.8%，但真实机械臂测试中速度与精细运动控制仍落后。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以代码逐笔作画替代像素生成，并延伸到机械臂控制，是模型能力范式的一次实质性探索。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/">The Decoder</source>
 <category>大模型</category>
 <category>Anthropic</category>
 <category>多模态</category>
 <category>具身智能</category>
 </item>
-<item><title>Why AI-Generated Code Should Be Open Source by Default</title><link>https://jakub.jankiewicz.org/blog/ai-code-open-source/</link><guid isPermaLink="true">https://jakub.jankiewicz.org/blog/ai-code-open-source/</guid>
+<item><title>AI 生成代码应默认开源的观点论证</title><link>https://jakub.jankiewicz.org/blog/ai-code-open-source/</link><guid isPermaLink="true">https://jakub.jankiewicz.org/blog/ai-code-open-source/</guid>
 <pubDate>Sun, 15 Nov 2026 22:46:58 +0800</pubDate>
-<description>&lt;p&gt;The author argues that all AI-generated code should be open source: models were trained on scraped open-source and CC-licensed content, making proprietary output a form of license laundering, and purely AI-generated works lack human authorship, so under the Monkey Selfie precedent they should not be copyrightable. The piece is an opinion argument without new data or technical proposals.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 生成代码应默认开源的观点论证&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;触及 AI 生成物版权与开源许可的核心争议，观点鲜明但属个人论述，适合关注开源合规的读者参考。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;作者主张所有由 AI 生成的代码都应开源，理由有二：一是模型训练数据大量来自开源代码与 CC 协议内容，闭源化属于“许可洗白”；二是纯 AI 生成物缺乏人类作者，依“猴子自拍案”先例不应享有版权。文章以观点论证为主，未提供新数据或技术方案。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;触及 AI 生成物版权与开源许可的核心争议，观点鲜明但属个人论述，适合关注开源合规的读者参考。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
 <source url="https://jakub.jankiewicz.org/blog/ai-code-open-source/">Hacker News AI</source>
 <category>开源</category>
 <category>版权</category>
 <category>AI 生成代码</category>
 </item>
-<item><title>db-branch Clones Instant Database Branches via ZFS for AI Agents</title><link>https://github.com/db-branch/db-branch</link><guid isPermaLink="true">https://github.com/db-branch/db-branch</guid>
+<item><title>db-branch 用 ZFS 秒级克隆数据库分支</title><link>https://github.com/db-branch/db-branch</link><guid isPermaLink="true">https://github.com/db-branch/db-branch</guid>
 <pubDate>Sun, 15 Nov 2026 21:50:51 +0800</pubDate>
-<description>&lt;p&gt;The open-source db-branch project uses ZFS copy-on-write clones to spin up zero-copy MySQL and PostgreSQL database branches in seconds, enabling migration testing, sandboxed AI agent runs, and per-PR database copies without duplicating data. It is Apache-2.0 licensed, self-hosted, and currently in Beta, with APIs and CLI details still subject to change before 1.0.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;db-branch 用 ZFS 秒级克隆数据库分支&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为 AI 智能体与 CI 提供秒级零拷贝数据库分支，是智能体安全试错与数据隔离的实用基础设施。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;开源项目 db-branch 基于 ZFS 写时复制克隆，为 MySQL 与 PostgreSQL 在数秒内创建零拷贝的数据库分支，无需复制数据即可测试迁移、供 AI 智能体自由操作或为每个 PR 提供独立数据库副本。项目采用 Apache-2.0 协议、自托管部署，目前处于 Beta 阶段，API 与命令行细节在 1.0 前仍可能变动。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为 AI 智能体与 CI 提供秒级零拷贝数据库分支，是智能体安全试错与数据隔离的实用基础设施。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
 <source url="https://github.com/db-branch/db-branch">Hacker News AI</source>
 <category>开源项目</category>
 <category>数据库</category>
@@ -194,70 +258,14 @@
 <category>ZFS</category>
 <category>CI</category>
 </item>
-<item><title>South Korea Audits National Exams After AI Cheating Scandal</title><link>https://www.ithome.com/1/027/453.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/453.htm</guid>
+<item><title>韩国税务师考试头名 AI 作弊引发全国资格考排查</title><link>https://www.ithome.com/1/027/453.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/453.htm</guid>
 <pubDate>Sun, 15 Nov 2026 21:42:51 +0800</pubDate>
-<description>&lt;p&gt;The top scorer in South Korea&amp;#x27;s 63rd tax accountant exam admitted using a micro-camera to photograph questions and feeding them to AI, resulting in score cancellation and a five-year ban. The government has launched an AI-cheating probe across all national exams this year and plans comprehensive countermeasures, including infrared detectors and a ban on smart glasses.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;韩国税务师考试头名 AI 作弊引发全国资格考排查&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首例高利害国家考试 AI 作弊被实锤，直接触发监管与考场技术升级，是 AI 落地风险侧的标志性事件。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;韩国第 63 届税务师考试头名考生承认用微型摄像头拍题并交由 AI 作答，成绩被取消且五年禁考。政府据此对今年全部国家资格考试启动 AI 作弊排查，并计划年内出台含红外探测设备与智能眼镜禁令的综合防作弊措施。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首例高利害国家考试 AI 作弊被实锤，直接触发监管与考场技术升级，是 AI 落地风险侧的标志性事件。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/027/453.htm">IT之家 · 智能时代</source>
 <category>AI 作弊</category>
 <category>韩国</category>
 <category>国家资格考试</category>
 <category>AI 治理</category>
-</item>
-<item><title>Huawei Cloud Launches Open-Source Pangu openPangu-2.1-Pro Model</title><link>https://www.ithome.com/1/027/450.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/450.htm</guid>
-<pubDate>Sun, 15 Nov 2026 21:16:54 +0800</pubDate>
-<description>&lt;p&gt;Huawei Cloud has launched the open-source Pangu model openPangu-2.1-Pro on its MaaS platform, upgrading capabilities across agent development, AI coding and inference optimization. The model was tuned on over 100,000 specialized samples to improve skill triggering and tool calling, with targeted adaptation for HarmonyOS ArkTS development and Ascend operator generation, and will be integrated into AgentArts, CodeArts and other core products. Inference is priced at RMB 0.8 per million input tokens and RMB 3.2 per million output tokens.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;开源盘古 openPangu-2.1-Pro 上线华为云&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产开源大模型在 Agent 与鸿蒙生态的定向升级，附带明确定价，对关注国产模型落地与昇腾生态的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/450.htm">IT之家 · 智能时代</source>
-<category>开源模型</category>
-<category>华为云</category>
-<category>Agent</category>
-<category>鸿蒙</category>
-<category>昇腾</category>
-</item>
-<item><title>开发者用 Odin 语言实现 NES 模拟器</title><link>https://lucypero.com/lucynes.html</link><guid isPermaLink="true">https://lucypero.com/lucynes.html</guid>
-<pubDate>Sun, 15 Nov 2026 20:51:47 +0800</pubDate>
-<description>&lt;p&gt;开发者 lucypero 用 Odin 语言从零实现了一个 NES 模拟器 lucyNES，精度足以流畅运行《忍者蛙》等数百款游戏，并附带调试器、存档状态与手柄支持。项目于 2024 年 6 月启动、2025 年 1 月暂停，代码已在 GitHub 开源。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;一个用冷门系统级语言 Odin 从零实现的高精度 NES 模拟器开源项目，对模拟器与底层工程爱好者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 38/100&lt;/p&gt;</description>
-<source url="https://lucypero.com/lucynes.html">Hacker News AI</source>
-<category>开源项目</category>
-<category>模拟器</category>
-<category>Odin</category>
-<category>系统编程</category>
-</item>
-<item><title>CMU 研发物体智能体双生体 让日常物品变虚拟宠物</title><link>https://www.ithome.com/1/027/443.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/443.htm</guid>
-<pubDate>Sun, 15 Nov 2026 20:43:54 +0800</pubDate>
-<description>&lt;p&gt;卡内基梅隆大学未来交互研究小组博士生金大华提出 OATs（物体智能体双生体）系统，通过电子墨水屏与内外传感器为家居物品赋予可表达情绪的虚拟形象，让用户像照顾拓麻歌子一样照顾实体物品。该项目在 UIST 2026 展示并获两项荣誉奖，目前尚无商业化计划。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是人机交互领域一项有具体系统设计与学术背书的智能体落地探索，为 AI 硬件形态提供了新思路。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/443.htm">IT之家 · 智能时代</source>
-<category>智能体</category>
-<category>人机交互</category>
-<category>AI 硬件</category>
-<category>卡内基梅隆大学</category>
-</item>
-<item><title>三星、SK 海力士、美光被诉操纵 DRAM 价格，撤诉动议遭驳回</title><link>https://www.ithome.com/1/027/442.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/442.htm</guid>
-<pubDate>Sun, 15 Nov 2026 20:35:53 +0800</pubDate>
-<description>&lt;p&gt;美国加州北区联邦法院法官驳回了三星、SK 海力士与美光联合提交的撤诉动议，裁定原告关于三方违反《谢尔曼法》第 1 条、协同限制 DRAM 供应以抬价的指控具备合理性，案件将进入证据开示阶段。诉状称，三家公司将晶圆产能转向 HBM 后，传统 DRAM 价格在 18 个月内飙升 697%，而三者合计占据全球 DRAM 市场逾 91% 的营收份额。目前法院尚未作出实体判决，三家公司须于 12 月 7 日前提交答辩状。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 算力扩张传导至存储供应链的关键司法节点，直接牵动 DRAM 与 HBM 的定价逻辑。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 72/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/442.htm">IT之家 · IT业界</source>
-<category>DRAM</category>
-<category>HBM</category>
-<category>反垄断诉讼</category>
-<category>存储芯片</category>
-<category>AI 算力</category>
-</item>
-<item><title>现代 LLM 位置编码机制全景解析</title><link>https://magazine.sebastianraschka.com/p/understanding-positional-embeddings</link><guid isPermaLink="true">https://magazine.sebastianraschka.com/p/understanding-positional-embeddings</guid>
-<pubDate>Sun, 15 Nov 2026 20:14:06 +0800</pubDate>
-<description>&lt;p&gt;本文系统梳理了现代大语言模型中的位置编码机制，涵盖 RoPE 等经典与前沿方法，并配有可视化示例、数学推导与 PyTorch 实现。文章还对比了 2026 年开源权重模型在位置编码上的不同选择，以及现代架构如何适配或省略显式位置编码。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;系统梳理位置编码这一 LLM 核心组件，兼具教学价值与 2026 开源模型横向对比。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 58/100&lt;/p&gt;</description>
-<source url="https://magazine.sebastianraschka.com/p/understanding-positional-embeddings">Hacker News AI</source>
-<category>位置编码</category>
-<category>RoPE</category>
-<category>大模型架构</category>
-<category>教程</category>
-</item>
-<item><title>英伟达芯片经第三方渠道流入中国 涉资近 120 亿美元</title><link>https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/</link><guid isPermaLink="true">https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/</guid>
-<pubDate>Sun, 15 Nov 2026 19:35:12 +0800</pubDate>
-<description>&lt;p&gt;据《华尔街日报》查阅的文件，与英伟达前 CEO 黄仁勋前伴侣 Alice Huang 关联的公司 Megaspeed，在 2024 年 3 月至 2025 年 6 月间为中国企业撮合了近 120 亿美元的英伟达高性能芯片订单，涉及数十万颗受美国出口管制的芯片。Megaspeed 凭借英伟达云合作伙伴身份及阿里巴巴等大客户关系获得稀缺芯片的优先配额，显示中国业务可能大量经由间接渠道完成。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及近 120 亿美元受管制芯片的间接流向，直接触及出口管制有效性与英伟达中国营收结构，是算力供应链的重要产业信号。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/">The Decoder</source>
-<category>英伟达</category>
-<category>出口管制</category>
-<category>算力供应链</category>
-<category>中国市场</category>
 </item>
 </channel>
 </rss>
