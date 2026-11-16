@@ -59,6 +59,10 @@ Qwen4-Max 的发布标志着阿里在高效大模型赛道取得关键突破，�
 <pubDate>Mon, 16 Nov 2026 10:04:48 +0800</pubDate>
 <description>&lt;p&gt;安全研究者披露 uBlock Origin（MV2 Firefox 版）存在一键通用 XSS 漏洞：恶意网站可借元素选择器诱导扩展写入受信任过滤规则，从而在任意站点注入并执行任意 JavaScript；MV3 版 uBO Lite 亦受类似但较轻影响。该漏洞已修复，GitHub 安全公告已发布。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Hacker News AI&lt;/p&gt;</description>
 </item>
+<item><title>DeepMind 用多智能体将芯片仿真波形转为 SQL 查询</title><link>https://todayforai.com/en/story/story-16dcfa4e-9c4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-16dcfa4e-9c4</guid>
+<pubDate>Mon, 16 Nov 2026 07:46:30 +0800</pubDate>
+<description>&lt;p&gt;Google DeepMind 与哥伦比亚大学联合提出 BTTF 方法，将超过 10 GB 的芯片仿真波形转储压缩为 SQLite 数据库，再由多智能体团队把自然语言问题翻译为 SQL 并校验设计规则。在 150 道专家标注的验证问题上，基于 Gemini 2.5 Pro 的该系统正确率达 95.33%，多智能体分工比单智能体在质量审计上高出 17.3%，代价是 1.96 倍延迟。其核心启示是：面对超大日志与追踪数据，应将其放入可查询数据库而非塞进提示词。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
+</item>
 <item><title>谷歌零项目将漏洞披露期限缩短至 90 天</title><link>https://todayforai.com/en/story/story-55370c94-b6a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-55370c94-b6a</guid>
 <pubDate>Sun, 15 Nov 2026 18:12:07 +0800</pubDate>
 <description>&lt;p&gt;谷歌 Project Zero 团队宣布取消原有的“90+30”漏洞披露政策，改为在报告后 90 天直接公开漏洞细节，并计划分阶段将期限进一步压缩至 30 天。这一调整的核心动因是 AI 辅助的漏洞发现与利用技术大幅压缩了攻击者的行动时间，传统的补丁“浸泡期”在当下威胁环境中已失去意义。
@@ -66,10 +70,6 @@ Qwen4-Max 的发布标志着阿里在高效大模型赛道取得关键突破，�
 综合多方信源，新政策取消了额外 30 天的补丁缓冲期，披露窗口将分 90 天、60 天、30 天三阶段逐步收紧。谷歌明确表示，LLM 加速了漏洞发现、利用以及从补丁逆向出攻击代码的全过程，零补丁到利用时间已成为合理的攻击者行为模型，厂商修复窗口被实质压缩。新政策仅保留在野利用、已公开漏洞和厂商主动请求三类例外。
 
 这一变化对软件厂商和网络安全生态影响深远。厂商必须更快完成修复，否则将面临漏洞细节提前公开的风险。AI 驱动的攻击节奏加快，迫使安全社区重新审视漏洞披露的平衡点，可能推动行业整体向更敏捷的修复流程演进。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Hacker News AI&lt;/p&gt;</description>
-</item>
-<item><title>DeepMind 用多智能体将芯片仿真波形转为 SQL 查询</title><link>https://todayforai.com/en/story/story-16dcfa4e-9c4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-16dcfa4e-9c4</guid>
-<pubDate>Mon, 16 Nov 2026 07:46:30 +0800</pubDate>
-<description>&lt;p&gt;Google DeepMind 与哥伦比亚大学联合提出 BTTF 方法，将超过 10 GB 的芯片仿真波形转储压缩为 SQLite 数据库，再由多智能体团队把自然语言问题翻译为 SQL 并校验设计规则。在 150 道专家标注的验证问题上，基于 Gemini 2.5 Pro 的该系统正确率达 95.33%，多智能体分工比单智能体在质量审计上高出 17.3%，代价是 1.96 倍延迟。其核心启示是：面对超大日志与追踪数据，应将其放入可查询数据库而非塞进提示词。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
