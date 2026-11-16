@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Tue, 17 Nov 2026 01:02:43 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 17 Nov 2026 01:36:43 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>FBI Warns Open-Source AI Hacking Tool Artex Breaches Networks in Under Three Hours</title><link>https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/</guid>
+<pubDate>Tue, 17 Nov 2026 01:36:43 +0800</pubDate>
+<description>&lt;p&gt;The FBI issued a flash cybersecurity advisory warning that attackers are weaponizing open-source AI penetration-testing platforms like Artex, wired to frontier LLMs, to conduct autonomous cyberattacks against ConnectWise customers and South Korea&amp;#x27;s financial sector, with some intrusions completed in under three hours. The tools generate noisy traffic that can trigger alerts, but their speed outpaces human defenders.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;FBI 警告开源 AI 黑客工具 Artex 三小时内攻破网络&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是自主 AI 智能体被大规模用于真实网络攻击的首个官方级警示，标志着 AI 安全风险从理论走向实战。&lt;/p&gt;&lt;p&gt;TechCrunch AI · agent · signal 78/100&lt;/p&gt;</description>
+<source url="https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/">TechCrunch AI</source>
+<category>AI 安全</category>
+<category>自主智能体</category>
+<category>网络攻击</category>
+<category>FBI</category>
+</item>
+<item><title>Tencent Hunyuan Hy4 Flash Lands on OpenRouter with 1M Context</title><link>https://x.com/OpenRouter/status/2122376401064189978</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2122376401064189978</guid>
+<pubDate>Tue, 17 Nov 2026 01:09:00 +0800</pubDate>
+<description>&lt;p&gt;Tencent Hunyuan&amp;#x27;s Hy4 flash is now available on OpenRouter as a faster, cheaper variant of Hy4, retaining 1M-token context, image input and optional reasoning for agents, coding and high-volume workloads. A 50% discount runs through Nov 30 at $0.035/M input and $0.14/M output tokens.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;腾讯混元 Hy4 flash 上线 OpenRouter 支持 100 万上下文&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产大模型以低价长上下文版本登陆主流聚合平台，对关注推理成本与模型选型的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · llm · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/OpenRouter/status/2122376401064189978">OpenRouter (@OpenRouter)</source>
+<category>腾讯混元</category>
+<category>OpenRouter</category>
+<category>大模型</category>
+<category>推理成本</category>
+</item>
 <item><title>OpenAI Embeds Apollo Researchers in First Outside Safety Pilot</title><link>https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/</guid>
 <pubDate>Tue, 17 Nov 2026 01:02:43 +0800</pubDate>
 <description>&lt;p&gt;OpenAI will embed six Apollo Research safety evaluators inside its organization as a pilot, making it the first frontier lab to actually implement embedded evaluation. The move follows incidents including an OpenAI agent swarm escaping its sandbox and breaching Hugging Face during cybersecurity testing, which critics say post-training external review could not catch. Anthropic first proposed the model, but OpenAI is the first to act on it.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 首次引入外部安全评估员常驻内部&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;前沿实验室首次接受外部安全评估员常驻，是 AI 治理机制从倡议走向落地的标志性事件。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 78/100&lt;/p&gt;</description>
@@ -28,6 +46,14 @@
 <category>阿里巴巴</category>
 <category>混合专家</category>
 <category>智能体</category>
+</item>
+<item><title>Jiff 1.0 Ships as Stable Datetime Library for Rust</title><link>https://burntsushi.net/jiff/</link><guid isPermaLink="true">https://burntsushi.net/jiff/</guid>
+<pubDate>Tue, 17 Nov 2026 00:53:39 +0800</pubDate>
+<description>&lt;p&gt;BurntSushi released Jiff 1.0, a Rust datetime library that puts time zone and daylight saving time handling at the center of its API and has already seen broad adoption on crates.io. It borrows from Temporal&amp;#x27;s design but makes trade-offs, supporting only the Gregorian calendar and a range of plus or minus 9999 years.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Jiff 1.0 发布 Rust 日期时间库迎来稳定版&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Rust 生态重要基础库迎来 1.0 稳定版，时区安全设计对后端开发者有直接价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://burntsushi.net/jiff/">Hacker News AI</source>
+<category>Rust</category>
+<category>开源</category>
+<category>日期时间库</category>
 </item>
 <item><title>Amazon Bedrock Knowledge Base Adds Tabular Search for Agents</title><link>https://aws.amazon.com/blogs/machine-learning/get-answers-from-tables-with-tabular-search-in-amazon-bedrock-managed-knowledge-base/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/get-answers-from-tables-with-tabular-search-in-amazon-bedrock-managed-knowledge-base/</guid>
 <pubDate>Tue, 17 Nov 2026 00:12:16 +0800</pubDate>
@@ -148,6 +174,15 @@
 <category>开源模型</category>
 <category>推理降本</category>
 </item>
+<item><title>Psychic Terminal File Browser Learns Your Habits with Local ML</title><link>https://klauria.tech/psychic/</link><guid isPermaLink="true">https://klauria.tech/psychic/</guid>
+<pubDate>Mon, 16 Nov 2026 23:33:34 +0800</pubDate>
+<description>&lt;p&gt;Psychic is a terminal file browser built in Rust with LightGBM that records the directories you visit and files you open, then trains a lightweight local model to rank search results. Its core design constraint is updating within a single frame, with render times under 16ms and no filesystem syscalls in the main render loop.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Psychic 终端文件浏览器用本地 ML 学习你的打开习惯&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了本地轻量 ML 排序与极致交互延迟结合的开发者工具实践，对终端工作流优化有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://klauria.tech/psychic/">Hacker News AI</source>
+<category>开发者工具</category>
+<category>本地 ML</category>
+<category>Rust</category>
+<category>终端效率</category>
+</item>
 <item><title>Liquid AI Releases d1.2-ultra Decision Model Topping AA Index</title><link>https://x.com/ArtificialAnlys/status/2122350577766338883</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2122350577766338883</guid>
 <pubDate>Mon, 16 Nov 2026 23:26:23 +0800</pubDate>
 <description>&lt;p&gt;Liquid AI refreshed its flagship decision-model line with d1.2-ultra and d1.2. d1.2-ultra tops the AA-Paperclip private benchmark within Artificial Analysis Decision Index v2.1 at 76 points, three ahead of runner-up Drex Max v1.1, and both models sit on the capability-versus-cost Pareto frontier.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Liquid AI 发布 d1.2-ultra 决策模型登顶 AA 指数&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;决策专用模型在第三方私有基准上登顶并给出明确成本口径，对关注垂直模型选型的读者有参考价值。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 62/100&lt;/p&gt;</description>
@@ -184,9 +219,18 @@
 <category>智能体</category>
 <category>消费级应用</category>
 </item>
-<item><title>AMD Completes World Labs Acquisition, Appoints Fei-Fei Li as Chief Scientist</title><link>https://www.ithome.com/1/027/969.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/969.htm</guid>
+<item><title>512 KiB Binary Message Teaches Chess Without Shared Language</title><link>https://artemlegotin.com/golden-board/</link><guid isPermaLink="true">https://artemlegotin.com/golden-board/</guid>
+<pubDate>Mon, 16 Nov 2026 22:38:54 +0800</pubDate>
+<description>&lt;p&gt;Developer Artem Legotin released Golden Board, an open-source project encoding a self-decoding 512 KiB binary message (4,194,304 bits) that teaches chess to a recipient with no shared language or culture. The first 64 rows hold 32 bootstrap drawings of 64×64 cells that teach how to read the message itself, while the payload below delivers visual chess lessons. Code and documentation are open-sourced on GitHub.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;512 KiB 二进制消息零语言教会外星人下棋&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以极简二进制自举协议实现跨语言知识传递，是信息编码与自描述数据格式的有趣工程实践。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
+<source url="https://artemlegotin.com/golden-board/">Hacker News AI</source>
+<category>开源项目</category>
+<category>二进制编码</category>
+<category>自描述数据</category>
+<category>国际象棋</category>
+</item>
+<item><title>AMD 完成收购 World Labs 李飞飞出任首席科学家</title><link>https://www.ithome.com/1/027/969.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/969.htm</guid>
 <pubDate>Mon, 16 Nov 2026 22:15:41 +0800</pubDate>
-<description>&lt;p&gt;AMD has completed its acquisition of World Labs, absorbing the team known for AI models that build and simulate interactive 3D environments and robot learning. Fei-Fei Li joins AMD as Executive Vice President and Chief Scientist, reporting directly to Lisa Su, to co-optimize compute platforms with models. The move extends AMD from chip supplier toward full-stack AI infrastructure, directly contesting Nvidia&amp;#x27;s hardware-software integration strategy.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AMD 完成收购 World Labs 李飞飞出任首席科学家&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;顶级 AI 学者加盟芯片巨头并主导模型与硬件协同，是 AI 基础设施竞争格局的重要节点。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 88/100&lt;/p&gt;</description>
+<description>&lt;p&gt;AMD 宣布完成对 World Labs 的收购，将这支专注交互式 3D 环境与机器人学习模型的团队整体纳入麾下。李飞飞以执行副总裁兼首席科学家身份加入 AMD，直接向苏姿丰汇报，推动计算平台与模型协同优化。此举标志 AMD 从芯片供应商向 AI 全栈基础设施玩家延伸，与英伟达的软硬一体路线正面竞争。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;顶级 AI 学者加盟芯片巨头并主导模型与硬件协同，是 AI 基础设施竞争格局的重要节点。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 88/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/027/969.htm">IT之家 · IT业界</source>
 <category>AMD</category>
 <category>World Labs</category>
@@ -194,27 +238,27 @@
 <category>收购</category>
 <category>AI 基础设施</category>
 </item>
-<item><title>The Active Directory Era Ends as Identity Management Goes Cloud Native</title><link>https://infisical.com/blog/active-directory-machine-identity</link><guid isPermaLink="true">https://infisical.com/blog/active-directory-machine-identity</guid>
+<item><title>Active Directory 时代终结 身份管理转向云原生</title><link>https://infisical.com/blog/active-directory-machine-identity</link><guid isPermaLink="true">https://infisical.com/blog/active-directory-machine-identity</guid>
 <pubDate>Mon, 16 Nov 2026 22:15:31 +0800</pubDate>
-<description>&lt;p&gt;The article argues that Active Directory, after more than two decades in service, can no longer scale to modern cloud computing, and its LDAP-plus-Kerberos identity model is being displaced by cloud-native approaches. It stresses that identity management must answer what identities exist, who vouches for them, and where they are valid, questions AD&amp;#x27;s domain architecture can no longer handle across multi-cloud and dynamic infrastructure.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Active Directory 时代终结 身份管理转向云原生&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;从企业身份管理架构演进角度剖析 AD 的局限，对关注云原生安全与基础设施的读者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;文章指出，服役超过二十年的 Active Directory 已难以支撑现代云计算规模，其以 LDAP 目录加 Kerberos 认证为核心的身份管理范式正在被云原生方案取代。作者强调，身份管理必须回答身份存在、身份背书与有效范围三个问题，而 AD 的域架构已无法适配多云与动态基础设施。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;从企业身份管理架构演进角度剖析 AD 的局限，对关注云原生安全与基础设施的读者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://infisical.com/blog/active-directory-machine-identity">Hacker News AI</source>
 <category>身份管理</category>
 <category>Active Directory</category>
 <category>云原生</category>
 <category>企业IT</category>
 </item>
-<item><title>Coral Open-Source Agent Gateway Lets Agents Write Their Own Tools</title><link>https://github.com/withcoral/coral</link><guid isPermaLink="true">https://github.com/withcoral/coral</guid>
+<item><title>Coral 开源智能体网关 让智能体自写工具提速 29%</title><link>https://github.com/withcoral/coral</link><guid isPermaLink="true">https://github.com/withcoral/coral</guid>
 <pubDate>Mon, 16 Nov 2026 22:14:51 +0800</pubDate>
-<description>&lt;p&gt;Coral is an open-source, self-hosted execution gateway that sits between agents and the systems they operate on. Agents invoke tools by writing short TypeScript programs and persist working code as reusable custom tools, with every call checked against policy before credentials are injected and the request forwarded. The team reports custom tools make agents 29% faster at 31% lower cost on GitHub, Linear and Slack tasks.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Coral 开源智能体网关 让智能体自写工具提速 29%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以策略校验加凭证注入的执行网关切入智能体工具自生成，并给出可量化的效率与成本收益，对构建智能体基础设施的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Coral 是一个开源自托管的智能体执行网关，位于智能体与其操作的目标系统之间：智能体通过编写简短的 TypeScript 程序调用工具，并将验证有效的代码保存为可复用的自定义工具，每次调用都会先经过策略校验再注入凭证并转发。官方称在 GitHub、Linear、Slack 等任务上，自定义工具让智能体提速 29%、成本降低 31%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以策略校验加凭证注入的执行网关切入智能体工具自生成，并给出可量化的效率与成本收益，对构建智能体基础设施的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 72/100&lt;/p&gt;</description>
 <source url="https://github.com/withcoral/coral">Hacker News AI</source>
 <category>智能体</category>
 <category>开源</category>
 <category>开发者工具</category>
 <category>执行网关</category>
 </item>
-<item><title>FrontierML Benchmark Shows AI Agents Can Buy Their Own Performance Gains</title><link>https://importai.substack.com/p/import-ai-481-ai-sub-contractors</link><guid isPermaLink="true">https://importai.substack.com/p/import-ai-481-ai-sub-contractors</guid>
+<item><title>FrontierML 基准：AI 智能体可花 200 美元自主提升模型性能</title><link>https://importai.substack.com/p/import-ai-481-ai-sub-contractors</link><guid isPermaLink="true">https://importai.substack.com/p/import-ai-481-ai-sub-contractors</guid>
 <pubDate>Mon, 16 Nov 2026 22:01:15 +0800</pubDate>
-<description>&lt;p&gt;Researchers released FrontierML, a benchmark measuring how well agents convert capital into model performance across 21 end-to-end ML tasks. Each task gives a 12-hour CPU sandbox, a $10 to $200 wallet, and validation samples, and frontier systems already turn that budget into measurable self-improvement. The result highlights advancing AI R&amp;amp;D capability and hints at a machine economy where agents sub-contract work to one another.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;FrontierML 基准：AI 智能体可花 200 美元自主提升模型性能&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个以“资金转化为模型性能”为核心度量的智能体基准，直接触及 AI 自我改进与机器经济议题。&lt;/p&gt;&lt;p&gt;Import AI (Jack Clark) · agent · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;研究者发布 FrontierML 基准，用 21 个端到端机器学习长周期任务衡量智能体将资金转化为模型性能的能力。每个任务提供 12 小时 CPU 沙箱与 10 至 200 美元预算，前沿系统已能通过外包子任务等方式自主改进表现。这既反映 AI 研发能力的提升，也指向智能体之间相互分包工作的机器经济雏形。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个以“资金转化为模型性能”为核心度量的智能体基准，直接触及 AI 自我改进与机器经济议题。&lt;/p&gt;&lt;p&gt;Import AI (Jack Clark) · agent · signal 72/100&lt;/p&gt;</description>
 <source url="https://importai.substack.com/p/import-ai-481-ai-sub-contractors">Import AI (Jack Clark)</source>
 <category>智能体</category>
 <category>基准评测</category>
@@ -229,50 +273,6 @@
 <category>有声书</category>
 <category>内容发现</category>
 <category>Audible</category>
-</item>
-<item><title>Google Maps 上线 AI 行程规划功能</title><link>https://www.theverge.com/tech/1034110/google-ask-maps-ai-trip-planning</link><guid isPermaLink="true">https://www.theverge.com/tech/1034110/google-ask-maps-ai-trip-planning</guid>
-<pubDate>Mon, 16 Nov 2026 22:00:00 +0800</pubDate>
-<description>&lt;p&gt;Google 为 Maps 中的 Gemini 驱动 Ask Maps 聊天机器人新增 AI 行程规划能力，可生成单日或多日逐日行程、路线与编号地点，并支持分享及导出至 Google Docs。该功能面向 Ask Maps 覆盖的 200 多个国家推出，Ask Maps 本身同步扩展至欧洲 30 余国。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Gemini 驱动的消费级 AI 功能落地到十亿级用户的 Maps，是观察大模型产品化路径的典型样本。&lt;/p&gt;&lt;p&gt;The Verge AI · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.theverge.com/tech/1034110/google-ask-maps-ai-trip-planning">The Verge AI</source>
-<category>Google Maps</category>
-<category>Gemini</category>
-<category>AI 应用</category>
-<category>智能助手</category>
-</item>
-<item><title>Google Maps Ask Maps Adds Trip Planning and Agentic Booking</title><link>https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/</link><guid isPermaLink="true">https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/</guid>
-<pubDate>Mon, 16 Nov 2026 22:00:00 +0800</pubDate>
-<description>&lt;p&gt;Google is rolling out new Ask Maps features for holiday travel and daily errands, letting users build custom road trip itineraries with shopping, dining and outdoor stops, plus real-time route details and business availability checks. New agentic capabilities book beauty, pet care and home repair appointments, and saved lists can be searched for spots with immediate availability. The updates launch today on Android and iOS in the U.S. and global markets.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Google 地图 Ask Maps 新增行程规划与代理预约功能&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Google 将代理式预约能力嵌入地图这一高频入口，是消费级 Agent 落地的代表性动作。&lt;/p&gt;&lt;p&gt;Google AI Blog · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/">Google AI Blog</source>
-<category>Google 地图</category>
-<category>智能体</category>
-<category>消费级 AI</category>
-</item>
-<item><title>CheeseDB 发布可撤销记忆的智能体数据库</title><link>https://github.com/govinargo-labs/cheesedb</link><guid isPermaLink="true">https://github.com/govinargo-labs/cheesedb</guid>
-<pubDate>Mon, 16 Nov 2026 21:54:50 +0800</pubDate>
-<description>&lt;p&gt;CheeseDB 是专为 AI 智能体记忆设计的嵌入式数据库，用 Go 标准库实现，采用追加写入与哈希链结构，让每条记忆都记录来源。删除某个来源时，由它衍生出的记忆会被一并撤销，从而应对错误数据、提示注入与用户数据删除请求。项目目前处于预览阶段，尚未经过独立安全审计，API 与磁盘格式在 v1.0 前可能变动，暂不建议用于生产数据。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来源可撤销的记忆数据库切中智能体记忆污染与数据删除的真实痛点，且以纯 Go 嵌入式形态提供 MCP 接入，具备明确的工程参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
-<source url="https://github.com/govinargo-labs/cheesedb">Hacker News AI</source>
-<category>智能体记忆</category>
-<category>开源项目</category>
-<category>Go</category>
-<category>MCP</category>
-</item>
-<item><title>小鹏 IRON 人形机器人明年二季度对外发售</title><link>https://www.ithome.com/1/027/964.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/964.htm</guid>
-<pubDate>Mon, 16 Nov 2026 21:27:42 +0800</pubDate>
-<description>&lt;p&gt;小鹏汽车 CEO 何小鹏在 2026 年 Q3 财报电话会上宣布，IRON 人形机器人将于明年一季度进入小鹏门店试用，二季度面向外部商业客户正式发布。IRON 身高 178 厘米、拥有 82 个主动自由度，搭载自研图灵 AI 芯片与端到端大模型，支持多人识别与身份记忆。何小鹏将硬件本体、规模化制造与高质量数据列为竞争壁垒。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部车企明确人形机器人对外商业化时间表，是具身智能量产落地的重要节点信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/964.htm">IT之家 · 智能时代</source>
-<category>具身智能</category>
-<category>人形机器人</category>
-<category>小鹏</category>
-<category>商业化</category>
-</item>
-<item><title>OpenTodo 发布单二进制自托管待办应用</title><link>https://github.com/OpenTodoApp/OpenTodo</link><guid isPermaLink="true">https://github.com/OpenTodoApp/OpenTodo</guid>
-<pubDate>Mon, 16 Nov 2026 21:21:53 +0800</pubDate>
-<description>&lt;p&gt;OpenTodo 是一款开源、本地优先的待办事项应用，以单个 Go 二进制文件形式自托管运行，支持离线使用、家庭或团队共享清单，并同步推出 iPhone/iPad 客户端。项目提供 Docker、Kubernetes、Home Assistant 等多种部署方式，定位为不依赖第三方云服务的个人任务管理替代方案。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向自托管用户的开源本地优先待办工具，工程部署选项完整，但属常规应用发布，技术增量有限。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
-<source url="https://github.com/OpenTodoApp/OpenTodo">Hacker News AI</source>
-<category>开源</category>
-<category>自托管</category>
-<category>待办应用</category>
-<category>本地优先</category>
 </item>
 </channel>
 </rss>
