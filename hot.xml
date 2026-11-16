@@ -35,10 +35,6 @@ Hy4 flash 的成本突破源于三阶段协同优化：混合注意力机制、L
 
 此次合作标志着苹果在健康 AI 领域的实质性推进，通过大规模真实世界数据收集，苹果有望在竞争激烈的 AI 健康助手赛道中建立差异化优势。同时，OpenEvidence 作为临床 AI 平台，借助苹果的硬件生态和用户基础，可加速其循证 AI 技术的落地验证。该研究结果可能影响未来健康类 AI 产品的监管标准与设计规范，对开发者与医疗产业产生深远影响。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Verge AI, TechCrunch AI&lt;/p&gt;</description>
 </item>
-<item><title>Meta 推出 JiTTests 用大模型生成失败测试拦截缺陷</title><link>https://todayforai.com/en/story/story-66907a1f-b00</link><guid isPermaLink="true">https://todayforai.com/en/story/story-66907a1f-b00</guid>
-<pubDate>Mon, 16 Nov 2026 18:41:45 +0800</pubDate>
-<description>&lt;p&gt;Meta 发布 JiTTests，让大模型针对代码 diff 生成本应失败的测试，以证明改动破坏了原有行为，再由 LLM 评审团与规则过滤器 RubFake 筛选值得工程师关注的失败。2026 年上半年在 diff 阶段捕获 74 个隐私类 SEV，隐私 SEV 发生率下降 20%，589 名工程师反馈真阳性率约 60%。论文阶段意图感知测试单测弱捕获率为 6.4%，高于此前 ACH 加固方案的 0.8%，但初期部署 41 个上报仅确认 8 个，且生产数据均为自报。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost)&lt;/p&gt;</description>
-</item>
 <item><title>Anthropic 发布 Claude Fable 5.2 以代码逐笔作画</title><link>https://todayforai.com/en/story/story-3cffe06d-a15</link><guid isPermaLink="true">https://todayforai.com/en/story/story-3cffe06d-a15</guid>
 <pubDate>Mon, 16 Nov 2026 09:01:05 +0800</pubDate>
 <description>&lt;p&gt;Anthropic 正式发布语言模型 Claude Fable 5.2，其最大突破在于不依赖扩散模型生成像素图像，而是通过编写 Python 代码驱动虚拟绘画引擎，在画布上逐笔模拟笔刷纹理、颜料湿度与画布质感。官方演示中，模型用约 70 万次模拟笔触完成一幅停车场购物车场景，并以 111 组坐标序列画出一只鸟，全程无外部图像模型或预渲染底图参与。
@@ -46,6 +42,10 @@ Hy4 flash 的成本突破源于三阶段协同优化：混合注意力机制、L
 技术细节上，Fable 5.2 可生成 1000 至 2000 行 Python 代码来规划每一笔的落点、力度与颜料附着效果，并支持通过后续笔触覆盖修正偏差。在内部 RoboDojo Sim 基准测试中，该模型得分 64.9%，远超 GPT-6 Astra 的 29.8%，展现出强大的序列规划与精细控制能力。不过，在真实机械臂测试中，其运动速度与精细操作仍落后于人类水平。
 
 这一路径将绘画拆解为大量可规划的笔触指令，与扩散模型逐步去噪的思路本质不同，为多模态生成开辟了新方向。尽管真实物理执行仍有差距，但 Fable 5.2 在模拟环境中的优异表现，预示着语言模型在机器人控制、动画制作与创意编程等领域的巨大潜力，也加剧了与 OpenAI 等对手在具身智能赛道上的竞争。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, The Decoder&lt;/p&gt;</description>
+</item>
+<item><title>Meta 推出 JiTTests 用大模型生成失败测试拦截缺陷</title><link>https://todayforai.com/en/story/story-66907a1f-b00</link><guid isPermaLink="true">https://todayforai.com/en/story/story-66907a1f-b00</guid>
+<pubDate>Mon, 16 Nov 2026 18:41:45 +0800</pubDate>
+<description>&lt;p&gt;Meta 发布 JiTTests，让大模型针对代码 diff 生成本应失败的测试，以证明改动破坏了原有行为，再由 LLM 评审团与规则过滤器 RubFake 筛选值得工程师关注的失败。2026 年上半年在 diff 阶段捕获 74 个隐私类 SEV，隐私 SEV 发生率下降 20%，589 名工程师反馈真阳性率约 60%。论文阶段意图感知测试单测弱捕获率为 6.4%，高于此前 ACH 加固方案的 0.8%，但初期部署 41 个上报仅确认 8 个，且生产数据均为自报。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost)&lt;/p&gt;</description>
 </item>
 <item><title>深度解析现代大模型位置编码与 RoPE 机制</title><link>https://todayforai.com/en/story/story-b9da5c60-6fb</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b9da5c60-6fb</guid>
 <pubDate>Sun, 15 Nov 2026 20:14:06 +0800</pubDate>
