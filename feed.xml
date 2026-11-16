@@ -113,6 +113,15 @@
 <category>开源模型</category>
 <category>推理降本</category>
 </item>
+<item><title>Liquid AI Releases d1.2-ultra Decision Model Topping AA Index</title><link>https://x.com/ArtificialAnlys/status/2122350577766338883</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2122350577766338883</guid>
+<pubDate>Mon, 16 Nov 2026 23:26:23 +0800</pubDate>
+<description>&lt;p&gt;Liquid AI refreshed its flagship decision-model line with d1.2-ultra and d1.2. d1.2-ultra tops the AA-Paperclip private benchmark within Artificial Analysis Decision Index v2.1 at 76 points, three ahead of runner-up Drex Max v1.1, and both models sit on the capability-versus-cost Pareto frontier.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Liquid AI 发布 d1.2-ultra 决策模型登顶 AA 指数&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;决策专用模型在第三方私有基准上登顶并给出明确成本口径，对关注垂直模型选型的读者有参考价值。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 62/100&lt;/p&gt;</description>
+<source url="https://x.com/ArtificialAnlys/status/2122350577766338883">Artificial Analysis (@ArtificialAnlys)</source>
+<category>大模型</category>
+<category>Liquid AI</category>
+<category>基准评测</category>
+<category>决策模型</category>
+</item>
 <item><title>Anthropic Finds Selective Forgetting Beats Exhaustive Memory for AI Agents</title><link>https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store/</link><guid isPermaLink="true">https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store/</guid>
 <pubDate>Mon, 16 Nov 2026 23:25:48 +0800</pubDate>
 <description>&lt;p&gt;Anthropic studied how Claude retains knowledge across sessions and found that selectively recording strategies and rules outperforms exhaustive logging, which floods models with outdated data. Its post-session \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 揭示智能体记忆关键在于选择性遗忘&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为智能体长期记忆设计提供了可验证的工程范式，对构建跨会话 Agent 的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 78/100&lt;/p&gt;</description>
@@ -149,6 +158,15 @@
 <category>李飞飞</category>
 <category>收购</category>
 <category>AI 基础设施</category>
+</item>
+<item><title>The Active Directory Era Ends as Identity Management Goes Cloud Native</title><link>https://infisical.com/blog/active-directory-machine-identity</link><guid isPermaLink="true">https://infisical.com/blog/active-directory-machine-identity</guid>
+<pubDate>Mon, 16 Nov 2026 22:15:31 +0800</pubDate>
+<description>&lt;p&gt;The article argues that Active Directory, after more than two decades in service, can no longer scale to modern cloud computing, and its LDAP-plus-Kerberos identity model is being displaced by cloud-native approaches. It stresses that identity management must answer what identities exist, who vouches for them, and where they are valid, questions AD&amp;#x27;s domain architecture can no longer handle across multi-cloud and dynamic infrastructure.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Active Directory 时代终结 身份管理转向云原生&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;从企业身份管理架构演进角度剖析 AD 的局限，对关注云原生安全与基础设施的读者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://infisical.com/blog/active-directory-machine-identity">Hacker News AI</source>
+<category>身份管理</category>
+<category>Active Directory</category>
+<category>云原生</category>
+<category>企业IT</category>
 </item>
 <item><title>Coral Open-Source Agent Gateway Lets Agents Write Their Own Tools</title><link>https://github.com/withcoral/coral</link><guid isPermaLink="true">https://github.com/withcoral/coral</guid>
 <pubDate>Mon, 16 Nov 2026 22:14:51 +0800</pubDate>
@@ -212,18 +230,18 @@
 <category>小鹏</category>
 <category>商业化</category>
 </item>
-<item><title>OpenTodo Ships Self-Hosted Local-First To-Do App as Single Go Binary</title><link>https://github.com/OpenTodoApp/OpenTodo</link><guid isPermaLink="true">https://github.com/OpenTodoApp/OpenTodo</guid>
+<item><title>OpenTodo 发布单二进制自托管待办应用</title><link>https://github.com/OpenTodoApp/OpenTodo</link><guid isPermaLink="true">https://github.com/OpenTodoApp/OpenTodo</guid>
 <pubDate>Mon, 16 Nov 2026 21:21:53 +0800</pubDate>
-<description>&lt;p&gt;OpenTodo is an open-source, local-first to-do app distributed as a single self-hosted Go binary, supporting offline use and shared lists for families or teams, alongside a new iPhone/iPad client. It offers Docker, Kubernetes, and Home Assistant deployment paths, positioning itself as a personal task manager that avoids third-party cloud dependency.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenTodo 发布单二进制自托管待办应用&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向自托管用户的开源本地优先待办工具，工程部署选项完整，但属常规应用发布，技术增量有限。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenTodo 是一款开源、本地优先的待办事项应用，以单个 Go 二进制文件形式自托管运行，支持离线使用、家庭或团队共享清单，并同步推出 iPhone/iPad 客户端。项目提供 Docker、Kubernetes、Home Assistant 等多种部署方式，定位为不依赖第三方云服务的个人任务管理替代方案。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向自托管用户的开源本地优先待办工具，工程部署选项完整，但属常规应用发布，技术增量有限。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
 <source url="https://github.com/OpenTodoApp/OpenTodo">Hacker News AI</source>
 <category>开源</category>
 <category>自托管</category>
 <category>待办应用</category>
 <category>本地优先</category>
 </item>
-<item><title>Jensen Huang Resigns as Nvidia CEO Amid Scandal as Shares Fall 14 Percent</title><link>https://www.theverge.com/ai-artificial-intelligence/1031740/jensen-huang-nvidia-scandal-isnt-slowing-down</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1031740/jensen-huang-nvidia-scandal-isnt-slowing-down</guid>
+<item><title>黄仁勋因丑闻辞任英伟达 CEO 股价跌 14%</title><link>https://www.theverge.com/ai-artificial-intelligence/1031740/jensen-huang-nvidia-scandal-isnt-slowing-down</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1031740/jensen-huang-nvidia-scandal-isnt-slowing-down</guid>
 <pubDate>Mon, 16 Nov 2026 21:00:00 +0800</pubDate>
-<description>&lt;p&gt;Nvidia CEO Jensen Huang has resigned amid a scandal over multiple affairs, sending shares down 14 percent. With Huang reportedly assembling allies for a comeback, the AI industry is watching how the leadership shakeup at the bedrock of US AI compute will unfold.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;黄仁勋因丑闻辞任英伟达 CEO 股价跌 14%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球 AI 算力核心供应商的最高层突发变动，直接牵动整个行业的算力供给与投资格局。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;英伟达 CEO 黄仁勋因多起婚外情丑闻辞职，公司股价随即下跌 14%。作为美国 AI 算力基石的掌舵者，黄仁勋据称正集结盟友谋求回归，整个 AI 行业都在观望这场权力更迭的走向。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球 AI 算力核心供应商的最高层突发变动，直接牵动整个行业的算力供给与投资格局。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.theverge.com/ai-artificial-intelligence/1031740/jensen-huang-nvidia-scandal-isnt-slowing-down">The Verge AI</source>
 <category>英伟达</category>
 <category>黄仁勋</category>
@@ -255,24 +273,6 @@
 <category>人形机器人</category>
 <category>工业制造</category>
 <category>睿尔曼智能</category>
-</item>
-<item><title>Meta 推出 JiTTests 用大模型生成失败测试拦截缺陷</title><link>https://x.com/Marktechpost/status/2122278946440110483</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2122278946440110483</guid>
-<pubDate>Mon, 16 Nov 2026 18:41:45 +0800</pubDate>
-<description>&lt;p&gt;Meta 发布 JiTTests，让大模型针对代码 diff 生成本应失败的测试，以证明改动破坏了原有行为，再由 LLM 评审团与规则过滤器 RubFake 筛选值得工程师关注的失败。2026 年上半年在 diff 阶段捕获 74 个隐私类 SEV，隐私 SEV 发生率下降 20%，589 名工程师反馈真阳性率约 60%。论文阶段意图感知测试单测弱捕获率为 6.4%，高于此前 ACH 加固方案的 0.8%，但初期部署 41 个上报仅确认 8 个，且生产数据均为自报。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把大模型从代码评审转向生成可执行的失败测试，是 AI 辅助软件工程中较新的验证范式，且附带真实生产数据与明确的局限说明。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · tools · signal 72/100&lt;/p&gt;</description>
-<source url="https://x.com/Marktechpost/status/2122278946440110483">Marktechpost (@Marktechpost)</source>
-<category>AI 编程</category>
-<category>软件测试</category>
-<category>Meta</category>
-<category>代码评审</category>
-</item>
-<item><title>阿里发布 2.4T 参数 Qwen4-Max 旗舰模型</title><link>https://x.com/Marktechpost/status/2122265192365187472</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2122265192365187472</guid>
-<pubDate>Mon, 16 Nov 2026 17:47:06 +0800</pubDate>
-<description>&lt;p&gt;阿里巴巴发布 Qwen4-Max，采用 2.4 万亿参数稀疏 MoE 架构，单 token 仅激活 71B 参数，输入定价为每百万 token 1.5 美元。核心创新在于重建的稀疏 MoE 栈：3 层 Gated DeltaNet 为每层 Qwen Sparse Attention 压缩历史，配合轻量索引器选取上下文，并叠加 4 条门控残差分支与 328B N-gram Embedding 参数。该模型在 16 项基准中的 4 项登顶，但编程与终端任务明显落后于 Claude Opus 5.5 与 Kimi K3.1，呈现明显的取舍。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;2.4T 参数旗舰模型以极低激活成本发布，稀疏 MoE 架构细节与真实基准取舍对模型选型有直接参考价值。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · llm · signal 88/100&lt;/p&gt;</description>
-<source url="https://x.com/Marktechpost/status/2122265192365187472">Marktechpost (@Marktechpost)</source>
-<category>大模型</category>
-<category>阿里巴巴</category>
-<category>MoE</category>
-<category>Qwen</category>
 </item>
 </channel>
 </rss>
