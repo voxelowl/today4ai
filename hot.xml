@@ -27,6 +27,14 @@ Hy4 flash 的成本突破源于三阶段协同优化：混合注意力机制、L
 
 这款模型将显著降低长上下文多模态应用的部署门槛，对开发者生态和 API 市场形成直接冲击。腾讯混元承诺高频迭代并开源，有望推动稀疏 MoE 架构与量化技术的进一步普及，加剧大模型性价比竞争。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, InfoQ 中文&lt;/p&gt;</description>
 </item>
+<item><title>苹果联合 OpenEvidence 启动 20 万人健康 AI 研究</title><link>https://todayforai.com/en/story/story-e4f8293b-688</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e4f8293b-688</guid>
+<pubDate>Mon, 16 Nov 2026 09:30:00 +0800</pubDate>
+<description>&lt;p&gt;苹果宣布与临床 AI 平台 OpenEvidence 合作，启动一项针对健康 AI 的大规模用户研究，计划招募最多 20 万名 21 岁以上的美国用户，通过新推出的 iOS 应用向对话式 AI 提出健康问题，并从准确性、细节和相关性等维度评估回答质量。该研究旨在量化对话式健康 AI 的真实可用性，为苹果健康生态的 AI 工具设计提供实证依据。
+
+与通用聊天机器人不同，该应用的回答严格以《新英格兰医学杂志》《美国医学会杂志》《自然》等临床文献为依据，强调循证而非生成式自由发挥。研究周期超过 12 个月，参与者需使用 iPhone 15 Pro 或更新机型并运行 iOS 26 以上系统，且需开启 Apple Intelligence。值得注意的是，应用本身并不依赖 Apple Intelligence 运行，但设备门槛将其限定在高端用户群体。
+
+此次合作标志着苹果在健康 AI 领域的实质性推进，通过大规模真实世界数据收集，苹果有望在竞争激烈的 AI 健康助手赛道中建立差异化优势。同时，OpenEvidence 作为临床 AI 平台，借助苹果的硬件生态和用户基础，可加速其循证 AI 技术的落地验证。该研究结果可能影响未来健康类 AI 产品的监管标准与设计规范，对开发者与医疗产业产生深远影响。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Verge AI, TechCrunch AI&lt;/p&gt;</description>
+</item>
 <item><title>Anthropic 发布 Claude Fable 5.2 以代码逐笔作画</title><link>https://todayforai.com/en/story/story-3cffe06d-a15</link><guid isPermaLink="true">https://todayforai.com/en/story/story-3cffe06d-a15</guid>
 <pubDate>Mon, 16 Nov 2026 09:01:05 +0800</pubDate>
 <description>&lt;p&gt;Anthropic 正式发布语言模型 Claude Fable 5.2，其最大突破在于不依赖扩散模型生成像素图像，而是通过编写 Python 代码驱动虚拟绘画引擎，在画布上逐笔模拟笔刷纹理、颜料湿度与画布质感。官方演示中，模型用约 70 万次模拟笔触完成一幅停车场购物车场景，并以 111 组坐标序列画出一只鸟，全程无外部图像模型或预渲染底图参与。
@@ -66,14 +74,6 @@ Hy4 flash 的成本突破源于三阶段协同优化：混合注意力机制、L
 <item><title>uBlock Origin 曝一键通用 XSS 漏洞</title><link>https://todayforai.com/en/story/story-85ced49d-d04</link><guid isPermaLink="true">https://todayforai.com/en/story/story-85ced49d-d04</guid>
 <pubDate>Mon, 16 Nov 2026 10:04:48 +0800</pubDate>
 <description>&lt;p&gt;安全研究者披露 uBlock Origin（MV2 Firefox 版）存在一键通用 XSS 漏洞：恶意网站可借元素选择器诱导扩展写入受信任过滤规则，从而在任意站点注入并执行任意 JavaScript；MV3 版 uBO Lite 亦受类似但较轻影响。该漏洞已修复，GitHub 安全公告已发布。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Hacker News AI&lt;/p&gt;</description>
-</item>
-<item><title>谷歌零项目将漏洞披露期限缩短至 90 天</title><link>https://todayforai.com/en/story/story-55370c94-b6a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-55370c94-b6a</guid>
-<pubDate>Sun, 15 Nov 2026 18:12:07 +0800</pubDate>
-<description>&lt;p&gt;谷歌 Project Zero 团队宣布取消原有的“90+30”漏洞披露政策，改为在报告后 90 天直接公开漏洞细节，并计划分阶段将期限进一步压缩至 30 天。这一调整的核心动因是 AI 辅助的漏洞发现与利用技术大幅压缩了攻击者的行动时间，传统的补丁“浸泡期”在当下威胁环境中已失去意义。
-
-综合多方信源，新政策取消了额外 30 天的补丁缓冲期，披露窗口将分 90 天、60 天、30 天三阶段逐步收紧。谷歌明确表示，LLM 加速了漏洞发现、利用以及从补丁逆向出攻击代码的全过程，零补丁到利用时间已成为合理的攻击者行为模型，厂商修复窗口被实质压缩。新政策仅保留在野利用、已公开漏洞和厂商主动请求三类例外。
-
-这一变化对软件厂商和网络安全生态影响深远。厂商必须更快完成修复，否则将面临漏洞细节提前公开的风险。AI 驱动的攻击节奏加快，迫使安全社区重新审视漏洞披露的平衡点，可能推动行业整体向更敏捷的修复流程演进。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Hacker News AI&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
