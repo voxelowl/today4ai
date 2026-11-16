@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Mon, 16 Nov 2026 16:17:49 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 16 Nov 2026 18:41:45 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>阿里发布 2.4 万亿参数 Qwen4-Max 任务成本降超 60%</title><link>https://todayforai.com/en/story/story-5a6c2c19-ef6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5a6c2c19-ef6</guid>
-<pubDate>Mon, 16 Nov 2026 11:24:00 +0800</pubDate>
+<pubDate>Mon, 16 Nov 2026 17:47:06 +0800</pubDate>
 <description>&lt;p&gt;阿里巴巴正式发布新一代基座大模型 Qwen4 系列，旗舰版 Qwen4-Max 同步上线千问 AI 平台与 QwenCloud API。该模型采用基于 Qwen 稀疏注意力（QSA）的全新 MoE 架构，总参数达 2.4 万亿，每 token 激活 71B 参数，并配备 328B N-gram Embedding 参数，原生支持视觉理解与 100 万 token 上下文窗口。官方称其在编程、办公与长程任务上全面超越前代 Qwen3.8-Max，同等性能下任务成本降低超 60%，单任务 Token 消耗减少近 50%。
 
 第三方评测机构数据交叉验证了官方说法。Artificial Analysis 智能指数显示，Qwen4-Max 以 xhigh 推理档位取得 43 分，较 Qwen3.8-Max 提升 9 分，单任务成本降至 3.27 美元，约为前代三分之一，并比 Kimi K3.1 Pro 低约 11%。Arena.ai 数据显示，Qwen4-Max 在 Agent Arena 首秀即位列总榜第 14 名，较前代第 39 名大幅跃升，成为排名最高的中国模型，使阿里成为中文第一、全球第五的实验室；在 Code Arena WebDev 榜单以 1750 分位列第 6，较前代提升 74 分。在 1.47 万次真实智能体会话中实现 7.5% 净提升，用户满意度与可控性提升最显著。
 
-Qwen4-Max 的发布标志着阿里在稀疏 MoE 架构与长上下文效率上的系统性突破，其成本优势可能重塑企业级 AI 应用的性价比基准。模型已通过 OpenRouter 等平台开放，小尺寸同源模型将陆续…&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, Artificial Analysis (@ArtificialAnlys), OpenRouter (@OpenRouter), Arena.ai (@arena), Qwen 官方博客 (通义), IT之家 · 智能时代&lt;/p&gt;</description>
+Qwen4-Max 的发布标志着阿里在稀疏 MoE 架构与长上下文效率上的系统性突破，其成本优势可能重塑企业级 AI 应用的性价比基准。模型已通过 OpenRouter 等平台开放，小尺寸同源模型将陆续…&lt;/p&gt;&lt;p&gt;8 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, Artificial Analysis (@ArtificialAnlys), OpenRouter (@OpenRouter), Arena.ai (@arena), Qwen 官方博客 (通义), IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 <item><title>黄仁勋辞任英伟达 CEO 市值蒸发近 2 万亿美元</title><link>https://todayforai.com/en/story/story-9954eb0b-f56</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9954eb0b-f56</guid>
 <pubDate>Mon, 16 Nov 2026 05:56:35 +0800</pubDate>
@@ -35,6 +35,10 @@ Hy4 flash 的成本突破源于三阶段协同优化：混合注意力机制、L
 
 此次合作标志着苹果在健康 AI 领域的实质性推进，通过大规模真实世界数据收集，苹果有望在竞争激烈的 AI 健康助手赛道中建立差异化优势。同时，OpenEvidence 作为临床 AI 平台，借助苹果的硬件生态和用户基础，可加速其循证 AI 技术的落地验证。该研究结果可能影响未来健康类 AI 产品的监管标准与设计规范，对开发者与医疗产业产生深远影响。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Verge AI, TechCrunch AI&lt;/p&gt;</description>
 </item>
+<item><title>Meta 推出 JiTTests 用大模型生成失败测试拦截缺陷</title><link>https://todayforai.com/en/story/story-66907a1f-b00</link><guid isPermaLink="true">https://todayforai.com/en/story/story-66907a1f-b00</guid>
+<pubDate>Mon, 16 Nov 2026 18:41:45 +0800</pubDate>
+<description>&lt;p&gt;Meta 发布 JiTTests，让大模型针对代码 diff 生成本应失败的测试，以证明改动破坏了原有行为，再由 LLM 评审团与规则过滤器 RubFake 筛选值得工程师关注的失败。2026 年上半年在 diff 阶段捕获 74 个隐私类 SEV，隐私 SEV 发生率下降 20%，589 名工程师反馈真阳性率约 60%。论文阶段意图感知测试单测弱捕获率为 6.4%，高于此前 ACH 加固方案的 0.8%，但初期部署 41 个上报仅确认 8 个，且生产数据均为自报。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost)&lt;/p&gt;</description>
+</item>
 <item><title>Anthropic 发布 Claude Fable 5.2 以代码逐笔作画</title><link>https://todayforai.com/en/story/story-3cffe06d-a15</link><guid isPermaLink="true">https://todayforai.com/en/story/story-3cffe06d-a15</guid>
 <pubDate>Mon, 16 Nov 2026 09:01:05 +0800</pubDate>
 <description>&lt;p&gt;Anthropic 正式发布语言模型 Claude Fable 5.2，其最大突破在于不依赖扩散模型生成像素图像，而是通过编写 Python 代码驱动虚拟绘画引擎，在画布上逐笔模拟笔刷纹理、颜料湿度与画布质感。官方演示中，模型用约 70 万次模拟笔触完成一幅停车场购物车场景，并以 111 组坐标序列画出一只鸟，全程无外部图像模型或预渲染底图参与。
@@ -43,14 +47,6 @@ Hy4 flash 的成本突破源于三阶段协同优化：混合注意力机制、L
 
 这一路径将绘画拆解为大量可规划的笔触指令，与扩散模型逐步去噪的思路本质不同，为多模态生成开辟了新方向。尽管真实物理执行仍有差距，但 Fable 5.2 在模拟环境中的优异表现，预示着语言模型在机器人控制、动画制作与创意编程等领域的巨大潜力，也加剧了与 OpenAI 等对手在具身智能赛道上的竞争。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, The Decoder&lt;/p&gt;</description>
 </item>
-<item><title>Gemini 4 Carbon 登顶 MathArena 但成本高 15 倍</title><link>https://todayforai.com/en/story/story-d7aabeb3-ec9</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d7aabeb3-ec9</guid>
-<pubDate>Mon, 16 Nov 2026 16:17:49 +0800</pubDate>
-<description>&lt;p&gt;谷歌最新模型 Gemini 4 Carbon 在数学基准 MathArena 上登顶，成为近期首个打破 OpenAI 垄断的非 OpenAI 模型，将 GPT-6.1 Sol 挤下榜首，Anthropic 的 Claude Fable 5.2 以 82.8% 的得分位列第二。然而，其单次评测成本约为 GPT-6.1 Sol 的 15 倍，性价比成为关键权衡。
-
-在 Arena 第 46 周盲测榜单中，Gemini 4 Carbon (High) 首秀即以 1526 分登顶综合榜，与同家族 Gemini 4 Argon 仅差 4 分，视为并列第一。Anthropic 在智能体与前端开发榜仍保持统治力，Top 8 中占据 5 席。国产模型方面，月之暗面 Kimi K3.1 Pro 在 MathArena 上以 54.3% 成为开源最佳，但与前两名差距明显；视频生成赛道国产模型稳定占据第 6 至第 8 名，Kimi K3.1 Pro 首次进入前端开发榜第 12 名。
-
-Gemini 4 Carbon 的登顶标志着谷歌在顶级数学推理能力上重回第一梯队，但高昂的推理成本可能限制其大规模应用。开源模型与闭源头部之间仍存在显著性能鸿沟，而 Anthropic 在智能体与前端开发等实用场景的优势依然稳固。此次榜单变化预示着大模型竞争正从单一基准得分转向成本、可靠性与多场景能力的综合较量。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, The Decoder&lt;/p&gt;</description>
-</item>
 <item><title>深度解析现代大模型位置编码与 RoPE 机制</title><link>https://todayforai.com/en/story/story-b9da5c60-6fb</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b9da5c60-6fb</guid>
 <pubDate>Sun, 15 Nov 2026 20:14:06 +0800</pubDate>
 <description>&lt;p&gt;近期，一份系统性的技术综述对现代大语言模型的位置编码机制进行了全面梳理，尤其聚焦于当前主流的旋转位置编码（RoPE）及其变体。该综述不仅涵盖了从经典绝对位置编码到相对位置编码的演进脉络，还提供了详细的数学推导、可视化示例以及可运行的 PyTorch 实现代码，为开发者与研究者提供了宝贵的实践参考。
@@ -58,6 +54,14 @@ Gemini 4 Carbon 的登顶标志着谷歌在顶级数学推理能力上重回第�
 综述的核心发现之一是，2026 年的开源权重模型在位置编码的选择上呈现出显著差异。一些模型仍坚持使用 RoPE 的改进版本，而另一些则尝试调整甚至完全省略显式位置编码，转而依赖注意力机制本身来隐式捕捉位置信息。这种分化反映了业界对长上下文建模和计算效率的不同权衡，也表明位置编码的设计远未形成统一标准。
 
 该综述的发布恰逢大模型架构创新进入深水区，位置编码作为影响模型外推能力和训练稳定性的关键组件，正受到越来越多的关注。对于开发者而言，理解不同位置编码方案的优劣及实现细节，将有助于在自定义模型时做出更明智的架构决策；对于整个生态，这类系统性的知识梳理有望加速最佳实践的沉淀，推动更高效、更强大的模型设计。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Ahead of AI (Sebastian Raschka), Hacker News AI&lt;/p&gt;</description>
+</item>
+<item><title>Gemini 4 Carbon 登顶 MathArena 但成本高 15 倍</title><link>https://todayforai.com/en/story/story-d7aabeb3-ec9</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d7aabeb3-ec9</guid>
+<pubDate>Mon, 16 Nov 2026 16:17:49 +0800</pubDate>
+<description>&lt;p&gt;谷歌最新模型 Gemini 4 Carbon 在数学基准 MathArena 上登顶，成为近期首个打破 OpenAI 垄断的非 OpenAI 模型，将 GPT-6.1 Sol 挤下榜首，Anthropic 的 Claude Fable 5.2 以 82.8% 的得分位列第二。然而，其单次评测成本约为 GPT-6.1 Sol 的 15 倍，性价比成为关键权衡。
+
+在 Arena 第 46 周盲测榜单中，Gemini 4 Carbon (High) 首秀即以 1526 分登顶综合榜，与同家族 Gemini 4 Argon 仅差 4 分，视为并列第一。Anthropic 在智能体与前端开发榜仍保持统治力，Top 8 中占据 5 席。国产模型方面，月之暗面 Kimi K3.1 Pro 在 MathArena 上以 54.3% 成为开源最佳，但与前两名差距明显；视频生成赛道国产模型稳定占据第 6 至第 8 名，Kimi K3.1 Pro 首次进入前端开发榜第 12 名。
+
+Gemini 4 Carbon 的登顶标志着谷歌在顶级数学推理能力上重回第一梯队，但高昂的推理成本可能限制其大规模应用。开源模型与闭源头部之间仍存在显著性能鸿沟，而 Anthropic 在智能体与前端开发等实用场景的优势依然稳固。此次榜单变化预示着大模型竞争正从单一基准得分转向成本、可靠性与多场景能力的综合较量。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, The Decoder&lt;/p&gt;</description>
 </item>
 <item><title>GPT-6 Astra 协助完成标准模型格点定义证明</title><link>https://todayforai.com/en/story/story-d202318d-b6a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d202318d-b6a</guid>
 <pubDate>Mon, 16 Nov 2026 06:00:01 +0800</pubDate>
@@ -70,14 +74,6 @@ Gemini 4 Carbon 的登顶标志着谷歌在顶级数学推理能力上重回第�
 韩国政府已对今年全部国家资格考试启动 AI 作弊排查，并计划年内出台综合防作弊措施，包括引入红外探测设备、禁止智能眼镜、设立线上线下举报中心、加强监控并培训监考人员识别智能设备。青瓦台还因 11 月 19 日高考临近紧急召开跨部门会议研究防范对策。
 
 此次事件暴露了生成式 AI 对传统考试监管体系的冲击，韩国作为考试竞争激烈的国家，其应对措施可能成为其他地区参考的范本，同时也引发对 AI 工具滥用边界与资格认证公信力的广泛讨论。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, IT之家 · IT业界&lt;/p&gt;</description>
-</item>
-<item><title>澳央行研究显示 AI 冲击初显 年轻软件岗位就业承压</title><link>https://todayforai.com/en/story/story-013b7b0d-d0d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-013b7b0d-d0d</guid>
-<pubDate>Sun, 15 Nov 2026 19:03:53 +0800</pubDate>
-<description>&lt;p&gt;澳大利亚储备银行（RBA）最新研究显示，自 ChatGPT 发布以来，人工智能对劳动力市场的冲击已初步显现，影响程度最高的职业招聘岗位降幅最大，其中 15 至 24 岁年轻劳动者和应届毕业生在软件开发、客服等领域的就业率明显低于资深从业者。
-
-该研究基于 RBA 分析师 Mike Major 构建的劳动力市场监测系统，聚焦入门级岗位与高 AI 暴露职业。结论指出，澳大利亚整体尚未出现大规模岗位替代，但软件开发、文职与客服等高度暴露领域的招聘岗位明显下滑，年轻求职者处境更为艰难。斯坦福大学与 Anthropic 的联合研究也印证了类似趋势，显示 22 至 25 岁年轻人在高 AI 影响职业中的就业人数下降约 13% 至 14%。不过，研究者强调目前尚无直接因果证据，且世界经济论坛（WEF）与 LinkedIn 数据显示，AI 相关新岗位与技能需求正同步增长。
-
-这一发现揭示了 AI 对就业市场的结构性影响：入门级岗位首当其冲，年轻人面临更大的就业压力，但整体失业率未系统性上升，劳动力市场正在经历技能需求的重塑。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, The Decoder&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

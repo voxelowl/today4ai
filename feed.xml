@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Mon, 16 Nov 2026 17:32:58 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 16 Nov 2026 18:41:45 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Meta Unveils JiTTests Where LLMs Write Failing Tests to Catch Bugs</title><link>https://x.com/Marktechpost/status/2122278946440110483</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2122278946440110483</guid>
+<pubDate>Mon, 16 Nov 2026 18:41:45 +0800</pubDate>
+<description>&lt;p&gt;Meta introduced JiTTests, which has LLMs generate tests expected to fail against a code diff, proving the change altered behavior before it lands; an LLM judge ensemble plus a rule-based filter called RubFake then decides which failures merit engineer attention. In H1 2026 it caught 74 privacy SEVs at the diff stage, cut privacy SEV occurrence by 20%, and drew a roughly 60% engineer-reported true-positive rate across 589 engineers. Intent-aware tests showed a 6.4% weak-catch rate per test versus 0.8% for Meta&amp;#x27;s earlier ACH hardening, though the initial paper deployment confirmed only 8 of 41 reported catches and all production figures are self-reported.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 推出 JiTTests 用大模型生成失败测试拦截缺陷&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把大模型从代码评审转向生成可执行的失败测试，是 AI 辅助软件工程中较新的验证范式，且附带真实生产数据与明确的局限说明。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · tools · signal 72/100&lt;/p&gt;</description>
+<source url="https://x.com/Marktechpost/status/2122278946440110483">Marktechpost (@Marktechpost)</source>
+<category>AI 编程</category>
+<category>软件测试</category>
+<category>Meta</category>
+<category>代码评审</category>
+</item>
+<item><title>Alibaba Releases Qwen4-Max 2.4T-Parameter MoE Flagship</title><link>https://x.com/Marktechpost/status/2122265192365187472</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2122265192365187472</guid>
+<pubDate>Mon, 16 Nov 2026 17:47:06 +0800</pubDate>
+<description>&lt;p&gt;Alibaba released Qwen4-Max, a 2.4T-parameter sparse MoE flagship that activates only 71B parameters per token at $1.5 per million input tokens. Its rebuilt sparse MoE stack uses three Gated DeltaNet layers to compress history for each Qwen Sparse Attention layer, a lightweight indexer for context selection, plus four gated residual branches and 328B N-gram embedding parameters. It tops 4 of 16 benchmarks but trails Claude Opus 5.5 and Kimi K3.1 on coding and terminal tasks, a clear trade-off.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;阿里发布 2.4T 参数 Qwen4-Max 旗舰模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;2.4T 参数旗舰模型以极低激活成本发布，稀疏 MoE 架构细节与真实基准取舍对模型选型有直接参考价值。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · llm · signal 88/100&lt;/p&gt;</description>
+<source url="https://x.com/Marktechpost/status/2122265192365187472">Marktechpost (@Marktechpost)</source>
+<category>大模型</category>
+<category>阿里巴巴</category>
+<category>MoE</category>
+<category>Qwen</category>
+</item>
 <item><title>IMF Warns AI Circular Financing Tops $1 Trillion as Growth Hinges on AI</title><link>https://www.ithome.com/1/027/861.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/861.htm</guid>
 <pubDate>Mon, 16 Nov 2026 17:32:58 +0800</pubDate>
 <description>&lt;p&gt;IMF Managing Director Kristalina Georgieva warned that the global economy is leaning on AI as its single growth engine, with circular financing among AI firms now exceeding $1 trillion, roughly two-thirds of it debt-funded. She called recent volatility an orderly adjustment but cautioned that if AI disappoints expectations, US equities could fall 20% in 2026 and global output could run 1.1% below baseline by 2028.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;IMF 警告 AI 循环融资规模已超 1 万亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;IMF 首次给出 AI 循环融资超万亿美元的量级估算，是判断 AI 资本泡沫风险的关键宏观信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 78/100&lt;/p&gt;</description>
@@ -115,9 +133,9 @@
 <category>MoE</category>
 <category>开源</category>
 </item>
-<item><title>HSBC Slashes Nvidia Price Target by 54% to $170</title><link>https://www.ithome.com/1/027/612.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/612.htm</guid>
+<item><title>汇丰将英伟达目标价下调 54% 至 170 美元</title><link>https://www.ithome.com/1/027/612.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/612.htm</guid>
 <pubDate>Mon, 16 Nov 2026 13:03:11 +0800</pubDate>
-<description>&lt;p&gt;HSBC analyst Frank Lee cut Nvidia to Hold and slashed the price target from $365 to $170, a roughly 54% reduction. The downgrade rests on the absence of a formal succession plan after Jensen Huang resigned as president, CEO and board member on November 12, plus tighter chip export restrictions on overseas revenue. Nvidia posted $96.22 billion in quarterly revenue, up 105.8% year over year, while management said demand far exceeds supply chain capacity.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;汇丰将英伟达目标价下调 54% 至 170 美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球市值最高芯片公司的 CEO 突然离任叠加投行腰斩式下调目标价，是算力产业与资本市场的重要转折信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 88/100&lt;/p&gt;</description>
+<description>&lt;p&gt;汇丰分析师 Frank Lee 将英伟达评级下调至持有，目标价从 365 美元砍至 170 美元，降幅约 54%。核心依据是黄仁勋于 11 月 12 日辞去总裁、CEO 及董事职务后公司缺乏正式接班计划，以及海外收入面临更严格的芯片出口管制风险。英伟达上季收入 962.2 亿美元、同比增长 105.8%，但管理层承认需求远超供应链能力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球市值最高芯片公司的 CEO 突然离任叠加投行腰斩式下调目标价，是算力产业与资本市场的重要转折信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 88/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/027/612.htm">IT之家 · IT业界</source>
 <category>英伟达</category>
 <category>汇丰</category>
@@ -125,9 +143,9 @@
 <category>CEO 离任</category>
 <category>出口管制</category>
 </item>
-<item><title>INFevo Raises Over $14M Pre-A to Build Virtual Cell AI Platform</title><link>https://www.ithome.com/1/027/609.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/609.htm</guid>
+<item><title>无界进化完成超亿元 Pre-A 轮融资</title><link>https://www.ithome.com/1/027/609.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/609.htm</guid>
 <pubDate>Mon, 16 Nov 2026 12:42:03 +0800</pubDate>
-<description>&lt;p&gt;AI-for-Science startup INFevo announced a Pre-A round exceeding RMB 100 million, led by Xinglian Capital, Prosperity7 Ventures, Huagai Capital and others, with existing investors Shunwei, Sequoia China and Songhe adding capital. The funds will expand its AI4S infrastructure linking virtual-cell models with high-throughput automated experiments; the company has released OCOO-T, a transcriptome-based virtual cell foundation model.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;无界进化完成超亿元 Pre-A 轮融资&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;虚拟细胞赛道单笔融资纪录，且披露了具体模型与基准表现，对 AI4S 方向有实质参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;AI for Science 企业无界进化（INFevo）宣布完成超亿元 Pre-A 轮融资，由星连资本、Prosperity7 Ventures、华盖资本等联合投资，老股东顺为资本、红杉中国、松禾资本追加。资金将用于 AI4S 基础设施建设，推动虚拟细胞模型与高通量自动化实验协同，并已发布基于转录组数据的虚拟细胞基础模型 OCOO-T。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;虚拟细胞赛道单笔融资纪录，且披露了具体模型与基准表现，对 AI4S 方向有实质参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/027/609.htm">IT之家 · 智能时代</source>
 <category>AI for Science</category>
 <category>虚拟细胞</category>
@@ -260,23 +278,6 @@
 <category>阿里通义千问</category>
 <category>Agent Arena</category>
 <category>智能体评测</category>
-</item>
-<item><title>TuringFonts 用自定义字体让文本无法被爬取复制</title><link>https://jfmdev.github.io/TuringFonts/index.html</link><guid isPermaLink="true">https://jfmdev.github.io/TuringFonts/index.html</guid>
-<pubDate>Mon, 16 Nov 2026 10:19:08 +0800</pubDate>
-<description>&lt;p&gt;TuringFonts 提出一种基于简单替换密码与自定义字体的轻量方案，让网页或 PDF 中的文本对爬虫与剪贴板不可读。它适用于隐藏邮箱、电话等敏感信息或防止内容被抄袭，但本质是混淆而非加密，无法抵御 OCR 与人工阅读。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了一种低成本的反爬与防复制文本混淆思路，对关注内容保护与前端安全的开发者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 42/100&lt;/p&gt;</description>
-<source url="https://jfmdev.github.io/TuringFonts/index.html">Hacker News AI</source>
-<category>反爬虫</category>
-<category>字体混淆</category>
-<category>内容保护</category>
-</item>
-<item><title>阿里发布 Qwen4-Max 2.4 万亿参数原生多模态</title><link>https://qwen.ai/blog?id=qwen4-max</link><guid isPermaLink="true">https://qwen.ai/blog?id=qwen4-max</guid>
-<pubDate>Mon, 16 Nov 2026 10:14:44 +0800</pubDate>
-<description>&lt;p&gt;阿里通义千问团队发布 Qwen4-Max，基于全新 Qwen4 架构，采用 2.4 万亿参数骨干、原生视觉能力与百万级 token 上下文窗口。官方称其在编程、专业工具使用与长程任务执行上全面超越 Qwen3.8-Max，可覆盖 3D 建模、游戏开发、精密制造、金融、法律、医疗与前沿科研等场景。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;2.4 万亿参数与百万上下文的新一代旗舰基座发布，是国产大模型能力边界的重要节点。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 88/100&lt;/p&gt;</description>
-<source url="https://qwen.ai/blog?id=qwen4-max">Hacker News AI</source>
-<category>大模型</category>
-<category>阿里</category>
-<category>多模态</category>
-<category>长上下文</category>
 </item>
 </channel>
 </rss>
