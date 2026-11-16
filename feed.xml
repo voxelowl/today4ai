@@ -1,8 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Mon, 16 Nov 2026 05:59:28 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 16 Nov 2026 07:46:30 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>DeepMind Turns Chip Simulation Waveforms into Queryable SQL for AI Agents</title><link>https://x.com/rohanpaul_ai/status/2122114049353908599</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122114049353908599</guid>
+<pubDate>Mon, 16 Nov 2026 07:46:30 +0800</pubDate>
+<description>&lt;p&gt;Google DeepMind and Columbia University propose BTTF, which compresses 10 GB+ chip simulation waveform dumps into a compact SQLite database that a team of agents can query. On 150 expert-labeled verification questions, the Gemini 2.5 Pro-based system answered 95.33% correctly, and splitting work across specialized agents scored 17.3% higher on a quality audit than a single agent at 1.96x latency. The broader lesson: put huge logs and traces into a queryable database instead of pushing them into the prompt.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;DeepMind 用多智能体将芯片仿真波形转为 SQL 查询&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出将超大仿真波形转为可查询数据库并由多智能体协作调试的实用范式，附有明确基准数据，对智能体工程与芯片验证均有参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2122114049353908599">Rohan Paul (@rohanpaul_ai)</source>
+<category>智能体</category>
+<category>芯片验证</category>
+<category>Google DeepMind</category>
+<category>多智能体</category>
+<category>SQL</category>
+</item>
+<item><title>Indian Chip Startup Bharat Semi Raises $24M Seed Round for AI Sensors</title><link>https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/</guid>
+<pubDate>Mon, 16 Nov 2026 07:30:00 +0800</pubDate>
+<description>&lt;p&gt;Bharat Semi, an Indian semiconductor startup, has raised $24 million in seed funding to develop programmable image sensors that integrate image capture, processing, and AI compute on a single chip. The pre-revenue company, which targets initial commercial production in 2027, says it has secured design wins with General Atomics and Kaynes Semicon.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;印度芯片初创 Bharat Semi 获 2400 万美元种子轮融资&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;印度 AI 芯片初创获大额种子轮并拿下美印设计订单，是观察全球 AI 传感器供应链多元化的一手信号。&lt;/p&gt;&lt;p&gt;TechCrunch AI · compute · signal 58/100&lt;/p&gt;</description>
+<source url="https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/">TechCrunch AI</source>
+<category>芯片算力</category>
+<category>AI 传感器</category>
+<category>融资</category>
+<category>印度半导体</category>
+</item>
+<item><title>Samsung to Invest $1.9B in Austin for SpaceX Satellite Chips</title><link>https://www.ithome.com/1/027/465.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/465.htm</guid>
+<pubDate>Mon, 16 Nov 2026 07:01:15 +0800</pubDate>
+<description>&lt;p&gt;Samsung plans to invest $1.9 billion to expand its Austin, Texas fab to produce STM32V8 microcontrollers on 18nm FD-SOI for SpaceX&amp;#x27;s Starlink satellites, targeting 2030 production. The move shifts part of the space-grade chip supply chain to U.S. soil under the CHIPS Act FD-SOI program.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;三星投资 19 亿美元在美为 SpaceX 生产卫星芯片&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;航天级芯片产能本土化与三星代工客户向太空领域延伸，是算力供应链的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/027/465.htm">IT之家 · IT业界</source>
+<category>芯片制造</category>
+<category>三星</category>
+<category>SpaceX</category>
+<category>FD-SOI</category>
+</item>
 <item><title>WisprFlow Debuts In-House Speech Model Canto 1 at 3.4% WER</title><link>https://x.com/rohanpaul_ai/status/2122087112082399393</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122087112082399393</guid>
 <pubDate>Mon, 16 Nov 2026 05:59:28 +0800</pubDate>
 <description>&lt;p&gt;Speech-input startup WisprFlow has hired Ariya Rastrow, a founding Alexa scientist, as chief science officer and shifted from rented speech engines to training its own models. Its first in-house model, Canto 1, was trained on noisy real-world dictation and posted a 3.4% word error rate across roughly 10 hours of real Flow dictations from over 2,300 speakers, beating every competing model Wispr tested while cutting dictations that take over a second to appear by 54%.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;WisprFlow 自研语音模型 Canto 1 词错率降至 3.4%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;语音识别从租用引擎转向自研，并以真实嘈杂场景的低词错率给出可验证结果，是语音交互赛道值得关注的信号。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 71/100&lt;/p&gt;</description>
@@ -189,26 +217,26 @@
 <category>澳大利亚央行</category>
 <category>劳动力市场</category>
 </item>
-<item><title>Australia Central Bank Study Finds AI Hitting Young Workers and Software Roles First</title><link>https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/</link><guid isPermaLink="true">https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/</guid>
+<item><title>澳央行研究显示 AI 冲击初显 年轻人与软件岗位首当其冲</title><link>https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/</link><guid isPermaLink="true">https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/</guid>
 <pubDate>Sun, 15 Nov 2026 18:45:58 +0800</pubDate>
-<description>&lt;p&gt;A Reserve Bank of Australia analysis by Mike Major builds a monitoring framework targeting where AI effects surface first: entry-level roles and highly exposed occupations. Australia has seen little outright job displacement so far, but job postings in software development, clerical work and customer service have fallen notably, with young job-seekers faring worse.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;澳央行研究显示 AI 冲击初显 年轻人与软件岗位首当其冲&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;央行层面的官方劳动力市场监测数据，为 AI 就业冲击提供了早期实证信号。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 68/100&lt;/p&gt;</description>
+<description>&lt;p&gt;澳大利亚央行（RBA）基于 Mike Major 的分析构建了一套劳动力市场监测系统，聚焦 AI 影响最先显现的领域：入门级岗位与高暴露职业。结论是澳大利亚整体尚未出现大规模岗位替代，但软件开发、文职与客服等高度暴露领域的招聘岗位明显下滑，年轻求职者处境更差。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;央行层面的官方劳动力市场监测数据，为 AI 就业冲击提供了早期实证信号。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 68/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/">The Decoder</source>
 <category>AI 就业影响</category>
 <category>劳动力市场</category>
 <category>澳大利亚央行</category>
 <category>软件岗位</category>
 </item>
-<item><title>Gartner Forecasts AI to Net 1.7 Million Jobs by 2030</title><link>https://www.ithome.com/1/027/427.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/427.htm</guid>
+<item><title>Gartner 预测 2030 年 AI 净增 170 万岗位</title><link>https://www.ithome.com/1/027/427.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/427.htm</guid>
 <pubDate>Sun, 15 Nov 2026 18:27:59 +0800</pubDate>
-<description>&lt;p&gt;Gartner forecasts AI will create 10.6 million jobs and displace 8.9 million between 2025 and 2030, a net gain of about 1.7 million worldwide. The impact is less about outright job loss than slower hiring, role substitution and new role creation, with over 20% of workers needing to adapt how they work.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Gartner 预测 2030 年 AI 净增 170 万岗位&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供 AI 就业影响的量化预测与阶段性判断，对理解产业落地节奏有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Gartner 预测 2025 至 2030 年间 AI 将创造 1060 万个新岗位、替代 890 万个，全球净增约 170 万个。报告强调冲击并非单纯岗位消失，而是招聘放缓、岗位替代与新岗位涌现并行，超过 20% 的劳动者需适应工作方式变化。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供 AI 就业影响的量化预测与阶段性判断，对理解产业落地节奏有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/027/427.htm">IT之家 · 智能时代</source>
 <category>AI 就业</category>
 <category>Gartner</category>
 <category>产业预测</category>
 </item>
-<item><title>Google Project Zero to Cut Vulnerability Disclosure Window to 30 Days</title><link>https://www.ithome.com/1/027/423.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/423.htm</guid>
+<item><title>谷歌 Project Zero 漏洞披露期限将逐步缩短至 30 天</title><link>https://www.ithome.com/1/027/423.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/423.htm</guid>
 <pubDate>Sun, 15 Nov 2026 18:12:07 +0800</pubDate>
-<description>&lt;p&gt;Google Project Zero is overhauling its vulnerability disclosure policy, removing the 30-day patch buffer and phasing the public disclosure window down from 90 days to 30 days by January 2028. Google cites AI-assisted vulnerability discovery and exploitation as fundamentally shifting the threat landscape, leaving only three exceptions: in-the-wild exploitation, already-public details, and vendor requests.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌 Project Zero 漏洞披露期限将逐步缩短至 30 天&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 加速漏洞攻防正在倒逼安全披露规则重构，该政策变化对安全与 AI 工程团队均有直接影响。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 68/100&lt;/p&gt;</description>
+<description>&lt;p&gt;谷歌 Project Zero 宣布调整漏洞披露政策，取消原有的 30 天补丁缓冲期，并分三阶段将公开披露期限从 90 天逐步压缩至 30 天。谷歌称，AI 辅助漏洞挖掘与利用技术的兴起使攻击节奏显著加快，现有修复周期已难以适应，新政策仅保留在野利用、已公开漏洞和厂商主动请求三类例外。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 加速漏洞攻防正在倒逼安全披露规则重构，该政策变化对安全与 AI 工程团队均有直接影响。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 68/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/027/423.htm">IT之家 · 智能时代</source>
 <category>AI 安全</category>
 <category>漏洞披露</category>
@@ -231,33 +259,6 @@
 <category>智能体</category>
 <category>美团</category>
 <category>国产算力</category>
-</item>
-<item><title>开发者用 Claude 生成 97KB 水下探索项目</title><link>https://www.ithome.com/1/027/406.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/406.htm</guid>
-<pubDate>Sun, 15 Nov 2026 16:58:39 +0800</pubDate>
-<description>&lt;p&gt;开发者 Any-Reputation8118 借助 Anthropic Claude 从一条提示词起步，逐步迭代出浏览器水下探索模拟项目 Abyssal Garden，全部代码由 AI 编写，体积仅 97KB。项目中的海带森林、沉船、蝠鲼与光束等视觉元素均在页面加载时由代码实时生成，并已加入主菜单、碰撞检测与画质调节功能。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 辅助编程在创意图形领域的一次直观案例，97KB 的体量与全代码生成过程对关注 AI 编码能力的开发者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/406.htm">IT之家 · 智能时代</source>
-<category>AI 编程</category>
-<category>Claude</category>
-<category>程序化生成</category>
-<category>开源项目</category>
-</item>
-<item><title>游族网络子公司获 14.28 亿元闪存颗粒订单</title><link>https://www.ithome.com/1/027/399.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/399.htm</guid>
-<pubDate>Sun, 15 Nov 2026 16:38:22 +0800</pubDate>
-<description>&lt;p&gt;游族网络控股子公司智存合盈与 B 公司签订两年期闪存颗粒采购合同，首笔订单金额达 14.28 亿元含税。此前公司刚以 42.25 亿元采购 GPU，显示这家游戏公司正大举向算力与存储硬件供应链转型。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;游戏公司连续签下 GPU 与闪存大额采购订单，是 AI 算力供应链外溢至非传统玩家的典型信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/399.htm">IT之家 · IT业界</source>
-<category>闪存颗粒</category>
-<category>算力供应链</category>
-<category>游族网络</category>
-<category>GPU 采购</category>
-</item>
-<item><title>SK 海力士加速 HBM4 扩产 月增产能超 2 万片</title><link>https://www.ithome.com/1/027/392.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/392.htm</guid>
-<pubDate>Sun, 15 Nov 2026 16:15:09 +0800</pubDate>
-<description>&lt;p&gt;SK 海力士正加快 HBM4 生产设备的采购与进场进度，目标明年上半年完成安装调试，新增产能将主要落在韩国清州 P&amp;amp;T6 封装测试厂。若该厂全面运转，按晶圆计算每月可额外生产 2 万片以上 HBM。公司此前表示，截至 2029 年的 DRAM 与 HBM 产能已基本售罄，显示 AI 算力需求仍处高位。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;HBM4 产能扩张直接决定下一代 AI 加速卡的供给节奏，是算力基础设施的关键风向标。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 72/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/392.htm">IT之家 · 智能时代</source>
-<category>HBM4</category>
-<category>SK 海力士</category>
-<category>算力基础设施</category>
-<category>半导体</category>
 </item>
 </channel>
 </rss>
