@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Mon, 16 Nov 2026 09:01:05 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 16 Nov 2026 10:23:36 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>黄仁勋辞任英伟达 CEO 市值蒸发近 2 万亿美元</title><link>https://todayforai.com/en/story/story-9954eb0b-f56</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9954eb0b-f56</guid>
 <pubDate>Mon, 16 Nov 2026 05:56:35 +0800</pubDate>
@@ -10,6 +10,14 @@
 消息公布后，英伟达股价盘中一度暴跌约 14%，市值跌破 4 万亿美元，较 10 月高点累计蒸发近 2 万亿美元。多家券商下调评级或目标价，预期市盈率降至 12 倍，为 2012 年以来最低。AI 概念股集体承压，CoreWeave、Nebius 等算力租赁商跌幅显著，而 AMD 与博通则逆势上涨，投资者押注竞争格局生变。
 
 此次人事地震发生在英伟达拟以约 129 亿美元收购 Hugging Face、美国司法部已就竞争影响问询的敏感节点。Hugging Face CEO 德朗格公开表达惋惜，并承诺更坚定地捍卫开源 AI。事件不仅暴露了英伟达以芯片供应叠加基础设施融资的循环模式风险，也使全球 AI 算力与开源生态走向面临重大不确定性。公司 2027 财年三季度财报仍定于 11 月 17 日发布，届时临时 CEO 克雷斯将首次公开说明短期战略安排。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), Hacker News AI, IT之家 · 智能时代, The Verge AI, The Decoder, IT之家 · IT业界&lt;/p&gt;</description>
+</item>
+<item><title>阿里发布 2.4 万亿参数 Qwen4-Max 任务成本降超 60%</title><link>https://todayforai.com/en/story/story-5a6c2c19-ef6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5a6c2c19-ef6</guid>
+<pubDate>Mon, 16 Nov 2026 10:23:36 +0800</pubDate>
+<description>&lt;p&gt;阿里巴巴通义千问团队正式发布旗舰模型 Qwen4-Max，以 2.4 万亿参数稀疏 MoE 架构为核心，原生支持视觉理解与 100 万 Token 上下文窗口，官方称在同等性能下任务成本降低超过 60%。该模型通过 Gated DeltaNet、Qwen Sparse Attention 等系统性架构调整，显著降低了长序列推理开销，并已通过 QwenCloud API 面向办公、编程、科研等长周期专业任务开放。
+
+在第三方评测中，Qwen4-Max 表现亮眼。Agent Arena 基于 1.47 万次真实智能体会话的测试显示，其总榜排名从第 39 位跃升至第 14 位，净提升 7.5%，成为排名最高的中国模型，并使阿里成为中文第一、全球第五的实验室。Code Arena WebDev 榜单上，该模型以 1750 分位列第 6，较前代提升 74 分。此外，隐式缓存价格下降 70%，进一步降低了使用门槛。
+
+Qwen4-Max 的发布标志着阿里在稀疏 MoE 架构与长上下文效率上的突破，其成本优势与智能体能力的提升将直接冲击企业级 AI 市场。随着小尺寸同源模型后续开源，阿里有望在开发者生态中形成更广泛的覆盖，加剧全球大模型竞争格局。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Arena.ai (@arena), IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 发布 Claude Fable 5.2 以代码逐笔作画</title><link>https://todayforai.com/en/story/story-3cffe06d-a15</link><guid isPermaLink="true">https://todayforai.com/en/story/story-3cffe06d-a15</guid>
 <pubDate>Mon, 16 Nov 2026 09:01:05 +0800</pubDate>
@@ -47,6 +55,10 @@
 
 这一发现揭示了 AI 对就业市场的结构性影响：入门级岗位首当其冲，年轻人面临更大的就业压力，但整体失业率未系统性上升，劳动力市场正在经历技能需求的重塑。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, The Decoder&lt;/p&gt;</description>
 </item>
+<item><title>uBlock Origin 曝一键通用 XSS 漏洞</title><link>https://todayforai.com/en/story/story-85ced49d-d04</link><guid isPermaLink="true">https://todayforai.com/en/story/story-85ced49d-d04</guid>
+<pubDate>Mon, 16 Nov 2026 10:04:48 +0800</pubDate>
+<description>&lt;p&gt;安全研究者披露 uBlock Origin（MV2 Firefox 版）存在一键通用 XSS 漏洞：恶意网站可借元素选择器诱导扩展写入受信任过滤规则，从而在任意站点注入并执行任意 JavaScript；MV3 版 uBO Lite 亦受类似但较轻影响。该漏洞已修复，GitHub 安全公告已发布。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Hacker News AI&lt;/p&gt;</description>
+</item>
 <item><title>谷歌零项目将漏洞披露期限缩短至 90 天</title><link>https://todayforai.com/en/story/story-55370c94-b6a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-55370c94-b6a</guid>
 <pubDate>Sun, 15 Nov 2026 18:12:07 +0800</pubDate>
 <description>&lt;p&gt;谷歌 Project Zero 团队宣布取消原有的“90+30”漏洞披露政策，改为在报告后 90 天直接公开漏洞细节，并计划分阶段将期限进一步压缩至 30 天。这一调整的核心动因是 AI 辅助的漏洞发现与利用技术大幅压缩了攻击者的行动时间，传统的补丁“浸泡期”在当下威胁环境中已失去意义。
@@ -58,14 +70,6 @@
 <item><title>DeepMind 用多智能体将芯片仿真波形转为 SQL 查询</title><link>https://todayforai.com/en/story/story-16dcfa4e-9c4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-16dcfa4e-9c4</guid>
 <pubDate>Mon, 16 Nov 2026 07:46:30 +0800</pubDate>
 <description>&lt;p&gt;Google DeepMind 与哥伦比亚大学联合提出 BTTF 方法，将超过 10 GB 的芯片仿真波形转储压缩为 SQLite 数据库，再由多智能体团队把自然语言问题翻译为 SQL 并校验设计规则。在 150 道专家标注的验证问题上，基于 Gemini 2.5 Pro 的该系统正确率达 95.33%，多智能体分工比单智能体在质量审计上高出 17.3%，代价是 1.96 倍延迟。其核心启示是：面对超大日志与追踪数据，应将其放入可查询数据库而非塞进提示词。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
-</item>
-<item><title>Grok Bot 团队月合并 1.1 万 PR 的 AI 编码实践</title><link>https://todayforai.com/en/story/story-4fd4002d-a27</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4fd4002d-a27</guid>
-<pubDate>Sun, 15 Nov 2026 13:18:14 +0800</pubDate>
-<description>&lt;p&gt;Lauren Tan 在 AI Engineer 大会分享了 Grok Bot 桌面版团队的高效 AI 编码方法论：把每次纠正固化为 lint 规则而非文档说明，保持代码库干净以免 AI 照抄坏模式，禁用易错 API 与 99% 注释，并让 AI 自跑自测提交录屏。团队上月合并 1.1 万个 PR，撤回率约 0.5%，应用性能反超初版。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey)&lt;/p&gt;</description>
-</item>
-<item><title>llama.cpp 与 ggml 发布 1.0 版本</title><link>https://todayforai.com/en/story/story-21ace097-fe1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-21ace097-fe1</guid>
-<pubDate>Sat, 14 Nov 2026 16:31:02 +0800</pubDate>
-<description>&lt;p&gt;llama.cpp 与底层张量库 ggml 同步发布 1.0 版本，标志着项目进入稳定阶段，llama.cpp 同时移除了 35 个已废弃的公开接口。SGLang 也在峰会上宣布 1.0 版本，本地推理与高性能服务框架的工程成熟度进一步提升。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Latent Space, Hugging Face Blog, IT之家 · 智能时代, Hacker News AI&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
