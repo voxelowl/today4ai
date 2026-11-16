@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Mon, 16 Nov 2026 07:46:30 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 16 Nov 2026 07:55:41 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Mini.nvim Migrates Its Repository to the Tangled Platform</title><link>https://tangled.org/nvim-mini.org/mini.nvim</link><guid isPermaLink="true">https://tangled.org/nvim-mini.org/mini.nvim</guid>
+<pubDate>Mon, 16 Nov 2026 07:55:41 +0800</pubDate>
+<description>&lt;p&gt;Mini.nvim, a library of 45+ independent Lua modules that enhances Neovim, has moved its repository to the decentralized code hosting platform Tangled. The migration is an infrastructure-level change with no substantive shift in the project&amp;#x27;s features or module roadmap, so its impact on day-to-day Neovim workflows is limited.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Neovim 模块库 mini.nvim 迁移至 Tangled 平台&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Neovim 生态知名模块库更换代码托管平台，对开源社区有一定参考价值，但无技术增量。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 38/100&lt;/p&gt;</description>
+<source url="https://tangled.org/nvim-mini.org/mini.nvim">Hacker News AI</source>
+<category>开源生态</category>
+<category>Neovim</category>
+<category>Lua</category>
+</item>
 <item><title>DeepMind Turns Chip Simulation Waveforms into Queryable SQL for AI Agents</title><link>https://x.com/rohanpaul_ai/status/2122114049353908599</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122114049353908599</guid>
 <pubDate>Mon, 16 Nov 2026 07:46:30 +0800</pubDate>
 <description>&lt;p&gt;Google DeepMind and Columbia University propose BTTF, which compresses 10 GB+ chip simulation waveform dumps into a compact SQLite database that a team of agents can query. On 150 expert-labeled verification questions, the Gemini 2.5 Pro-based system answered 95.33% correctly, and splitting work across specialized agents scored 17.3% higher on a quality audit than a single agent at 1.96x latency. The broader lesson: put huge logs and traces into a queryable database instead of pushing them into the prompt.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;DeepMind 用多智能体将芯片仿真波形转为 SQL 查询&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出将超大仿真波形转为可查询数据库并由多智能体协作调试的实用范式，附有明确基准数据，对智能体工程与芯片验证均有参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
@@ -30,6 +38,14 @@
 <category>监管合规</category>
 <category>纽约市</category>
 <category>消费者保护</category>
+</item>
+<item><title>Datasette 0.65.6 Patches Unauthorized Database Download Flaw</title><link>https://simonwillison.net/2026/Nov/15/datasette-2/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/15/datasette-2/</guid>
+<pubDate>Mon, 16 Nov 2026 07:18:17 +0800</pubDate>
+<description>&lt;p&gt;Datasette released version 0.65.6, backporting a security fix from 1.0a43: databases registered via add_database with a route differing from their name could be downloaded at /\u003croute\u003e.db by actors denied access. The flaw is an access-control bypass, and deployments using custom routes should upgrade promptly.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Datasette 0.65.6 修复数据库越权下载漏洞&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及数据服务权限绕过漏洞的修复，对使用 Datasette 的开发者有直接安全价值。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · tools · signal 38/100&lt;/p&gt;</description>
+<source url="https://simonwillison.net/2026/Nov/15/datasette-2/">Simon Willison 博客</source>
+<category>Datasette</category>
+<category>安全修复</category>
+<category>权限绕过</category>
 </item>
 <item><title>How Four Neurons Learn to Chase the Light</title><link>https://x.com/dotey/status/2122106906814935475</link><guid isPermaLink="true">https://x.com/dotey/status/2122106906814935475</guid>
 <pubDate>Mon, 16 Nov 2026 07:18:08 +0800</pubDate>
@@ -197,18 +213,18 @@
 <category>鸿蒙</category>
 <category>昇腾</category>
 </item>
-<item><title>Developer Builds NES Emulator in the Odin Language</title><link>https://lucypero.com/lucynes.html</link><guid isPermaLink="true">https://lucypero.com/lucynes.html</guid>
+<item><title>开发者用 Odin 语言实现 NES 模拟器</title><link>https://lucypero.com/lucynes.html</link><guid isPermaLink="true">https://lucypero.com/lucynes.html</guid>
 <pubDate>Sun, 15 Nov 2026 20:51:47 +0800</pubDate>
-<description>&lt;p&gt;Developer lucypero built lucyNES, a from-scratch NES emulator written in Odin, accurate enough to run Battletoads and hundreds of other games, with a debugger view, save states and controller support. Started in June 2024 and paused in January 2025, the project is open-sourced on GitHub.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;开发者用 Odin 语言实现 NES 模拟器&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;一个用冷门系统级语言 Odin 从零实现的高精度 NES 模拟器开源项目，对模拟器与底层工程爱好者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;开发者 lucypero 用 Odin 语言从零实现了一个 NES 模拟器 lucyNES，精度足以流畅运行《忍者蛙》等数百款游戏，并附带调试器、存档状态与手柄支持。项目于 2024 年 6 月启动、2025 年 1 月暂停，代码已在 GitHub 开源。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;一个用冷门系统级语言 Odin 从零实现的高精度 NES 模拟器开源项目，对模拟器与底层工程爱好者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 38/100&lt;/p&gt;</description>
 <source url="https://lucypero.com/lucynes.html">Hacker News AI</source>
 <category>开源项目</category>
 <category>模拟器</category>
 <category>Odin</category>
 <category>系统编程</category>
 </item>
-<item><title>CMU Researchers Turn Everyday Objects into AI Virtual Pets</title><link>https://www.ithome.com/1/027/443.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/443.htm</guid>
+<item><title>CMU 研发物体智能体双生体 让日常物品变虚拟宠物</title><link>https://www.ithome.com/1/027/443.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/443.htm</guid>
 <pubDate>Sun, 15 Nov 2026 20:43:54 +0800</pubDate>
-<description>&lt;p&gt;Daehwa Kim, a PhD student in Carnegie Mellon University&amp;#x27;s Future Interfaces Group, presented OATs (Object Agent Twins), a micro AI agent system that gives everyday household objects emotional virtual personas via e-ink displays and embedded sensors. Shown at UIST 2026 with two honorable mentions, the project has no commercialization plans yet.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;CMU 研发物体智能体双生体 让日常物品变虚拟宠物&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是人机交互领域一项有具体系统设计与学术背书的智能体落地探索，为 AI 硬件形态提供了新思路。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;卡内基梅隆大学未来交互研究小组博士生金大华提出 OATs（物体智能体双生体）系统，通过电子墨水屏与内外传感器为家居物品赋予可表达情绪的虚拟形象，让用户像照顾拓麻歌子一样照顾实体物品。该项目在 UIST 2026 展示并获两项荣誉奖，目前尚无商业化计划。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是人机交互领域一项有具体系统设计与学术背书的智能体落地探索，为 AI 硬件形态提供了新思路。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/027/443.htm">IT之家 · 智能时代</source>
 <category>智能体</category>
 <category>人机交互</category>
@@ -242,23 +258,6 @@
 <category>出口管制</category>
 <category>算力供应链</category>
 <category>中国市场</category>
-</item>
-<item><title>澳央行研究显示 AI 冲击初显 年轻软件岗位就业承压</title><link>https://www.ithome.com/1/027/432.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/432.htm</guid>
-<pubDate>Sun, 15 Nov 2026 19:03:53 +0800</pubDate>
-<description>&lt;p&gt;澳大利亚储备银行研究显示，自 ChatGPT 发布以来，AI 影响程度最高的职业招聘岗位降幅最大，15 至 24 岁年轻劳动者和应届毕业生在软件开发、客服等岗位的就业率明显低于资深从业者。斯坦福与 Anthropic 的研究也印证了类似趋势，22 至 25 岁年轻人在高 AI 影响职业中的就业人数下降约 13% 至 14%。但研究者强调，目前尚无直接因果证据，且 WEF 与 LinkedIn 数据显示 AI 相关新岗位与技能需求正同步增长。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;央行级研究为 AI 对初级岗位的结构性冲击提供了量化证据，对关注 AI 就业影响与技术人才市场的读者具有高参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 72/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/432.htm">IT之家 · 智能时代</source>
-<category>AI就业影响</category>
-<category>澳大利亚央行</category>
-<category>劳动力市场</category>
-</item>
-<item><title>澳央行研究显示 AI 冲击初显 年轻人与软件岗位首当其冲</title><link>https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/</link><guid isPermaLink="true">https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/</guid>
-<pubDate>Sun, 15 Nov 2026 18:45:58 +0800</pubDate>
-<description>&lt;p&gt;澳大利亚央行（RBA）基于 Mike Major 的分析构建了一套劳动力市场监测系统，聚焦 AI 影响最先显现的领域：入门级岗位与高暴露职业。结论是澳大利亚整体尚未出现大规模岗位替代，但软件开发、文职与客服等高度暴露领域的招聘岗位明显下滑，年轻求职者处境更差。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;央行层面的官方劳动力市场监测数据，为 AI 就业冲击提供了早期实证信号。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 68/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/">The Decoder</source>
-<category>AI 就业影响</category>
-<category>劳动力市场</category>
-<category>澳大利亚央行</category>
-<category>软件岗位</category>
 </item>
 </channel>
 </rss>
