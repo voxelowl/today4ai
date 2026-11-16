@@ -1,8 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Mon, 16 Nov 2026 23:52:19 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 17 Nov 2026 00:12:16 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Amazon Bedrock Knowledge Base Adds Tabular Search for Agents</title><link>https://aws.amazon.com/blogs/machine-learning/get-answers-from-tables-with-tabular-search-in-amazon-bedrock-managed-knowledge-base/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/get-answers-from-tables-with-tabular-search-in-amazon-bedrock-managed-knowledge-base/</guid>
+<pubDate>Tue, 17 Nov 2026 00:12:16 +0800</pubDate>
+<description>&lt;p&gt;Amazon Bedrock Managed Knowledge Base now supports tabular search, letting agentic retrieval look up values and run calculations across rows in CSV, XLSX, and XLS files, then combine results with facts from related documents to answer multi-step analytical questions. The capability reuses the existing AgenticRetrieveStream request and works across mixed sources such as SharePoint and S3.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊 Bedrock 知识库新增表格检索能力&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;企业级 RAG 从非结构化文档扩展到表格结构化数据，是智能体检索栈的一次实用能力补全。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/get-answers-from-tables-with-tabular-search-in-amazon-bedrock-managed-knowledge-base/">AWS Machine Learning Blog</source>
+<category>Amazon Bedrock</category>
+<category>RAG</category>
+<category>智能体检索</category>
+<category>表格数据</category>
+</item>
+<item><title>Claude Adds Real Interactive HTML Elements Inside Canvas Graphics</title><link>https://the-decoder.com/claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-with-real-html/</link><guid isPermaLink="true">https://the-decoder.com/claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-with-real-html/</guid>
+<pubDate>Tue, 17 Nov 2026 00:10:22 +0800</pubDate>
+<description>&lt;p&gt;Anthropic&amp;#x27;s Claude can now use HTML-in-Canvas to embed real, clickable, selectable and screen-reader-accessible page elements inside canvas graphics and 3D effects, combining visual warping with interactivity. A demo page shows 15 examples, including sites rendered as knitting patterns and 3D cubes, which developers liken to a return of the Flash era.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Claude 支持在 Canvas 内嵌真实 HTML 交互元素&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是生成式前端能力的一次实质扩展，直接改变 Claude 产出交互式视觉网页的可行边界。&lt;/p&gt;&lt;p&gt;The Decoder · tools · signal 62/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-with-real-html/">The Decoder</source>
+<category>Claude</category>
+<category>Anthropic</category>
+<category>前端开发</category>
+<category>HTML-in-Canvas</category>
+</item>
+<item><title>Lambda Deploys NVIDIA CPO Switches to Link 10,000-GPU AI Cluster</title><link>https://blogs.nvidia.com/blog/lambda-photonics/</link><guid isPermaLink="true">https://blogs.nvidia.com/blog/lambda-photonics/</guid>
+<pubDate>Tue, 17 Nov 2026 00:00:51 +0800</pubDate>
+<description>&lt;p&gt;Lambda has deployed NVIDIA Photonics co-packaged optics (CPO) switches to interconnect NVIDIA GB300 NVL72 racks spanning more than 10,000 GPUs, forming a large-scale AI factory network. Tests show roughly 4% lower rack-scale latency and up to about 10% lower pod-scale latency, with throughput matching conventional pluggable optics while cutting power draw and extending mean time between interruptions. It marks one of the first production-scale CPO deployments at the 10,000-GPU level, offering a reusable engineering blueprint for next-generation AI cluster interconnect.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Lambda 部署英伟达 CPO 交换机 连接万卡 AI 集群&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;CPO 光互连首次在万卡级生产集群落地，直接关系超大规模 AI 训练网络的功耗与可靠性。&lt;/p&gt;&lt;p&gt;NVIDIA Blog · compute · signal 72/100&lt;/p&gt;</description>
+<source url="https://blogs.nvidia.com/blog/lambda-photonics/">NVIDIA Blog</source>
+<category>光互连</category>
+<category>AI 数据中心</category>
+<category>英伟达</category>
+<category>Lambda</category>
+</item>
+<item><title>NVIDIA Expands Slurm to Integrate Quantum Processors Into Supercomputing</title><link>https://blogs.nvidia.com/blog/slurm-quantum-computing-supercomputing/</link><guid isPermaLink="true">https://blogs.nvidia.com/blog/slurm-quantum-computing-supercomputing/</guid>
+<pubDate>Tue, 17 Nov 2026 00:00:47 +0800</pubDate>
+<description>&lt;p&gt;NVIDIA released a new version of Slurm that lets quantum processor vendors expose a single hardware interface to every supercomputing center through one configuration file, supporting the QRMI and QDMI standards. The expansion is already adopted by Alice &amp;amp; Bob, IBM, IQM, Pasqal, Quantinuum and MQSC, aiming to let chemists, physicists and materials scientists call quantum resources within existing HPC workflows.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;NVIDIA 扩展 Slurm 支持 量子处理器接入超算中心&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;量子处理器正加速进入超算中心，NVIDIA 借 Slurm 统一调度接口，是量子与经典 HPC 融合的关键基础设施进展。&lt;/p&gt;&lt;p&gt;NVIDIA Blog · compute · signal 62/100&lt;/p&gt;</description>
+<source url="https://blogs.nvidia.com/blog/slurm-quantum-computing-supercomputing/">NVIDIA Blog</source>
+<category>量子计算</category>
+<category>NVIDIA</category>
+<category>Slurm</category>
+<category>超算</category>
+<category>HPC</category>
+</item>
+<item><title>NVIDIA Vera Rubin Debut Sweeps MLPerf Training and Endpoints Benchmarks</title><link>https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/</link><guid isPermaLink="true">https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/</guid>
+<pubDate>Tue, 17 Nov 2026 00:00:25 +0800</pubDate>
+<description>&lt;p&gt;NVIDIA&amp;#x27;s next-generation Vera Rubin platform swept every MLPerf Training v6.1 benchmark in its debut and delivered over 10x generational gains in throughput per watt for agentic AI in its first MLPerf Endpoints submission. NVIDIA says performance will keep climbing through continuous CUDA software-stack optimization, so existing infrastructure investments appreciate over time.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达 Vera Rubin 首秀横扫 MLPerf 训练与端点基准&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;下一代旗舰算力平台的首份权威基准成绩，直接决定未来一两年 AI 训练与智能体推理的算力选型。&lt;/p&gt;&lt;p&gt;NVIDIA Blog · compute · signal 78/100&lt;/p&gt;</description>
+<source url="https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/">NVIDIA Blog</source>
+<category>英伟达</category>
+<category>MLPerf</category>
+<category>算力基础设施</category>
+<category>智能体推理</category>
+</item>
+<item><title>NVIDIA Expands CUDA-X Science Libraries with Eight-Minute Black Hole Analysis</title><link>https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/</link><guid isPermaLink="true">https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/</guid>
+<pubDate>Tue, 17 Nov 2026 00:00:16 +0800</pubDate>
+<description>&lt;p&gt;NVIDIA expanded its CUDA-X scientific libraries at SC26 with new modules including cuPhoton, cuPotential and cuSpa, spanning astrophysics, materials science and single-cell biology. The cuPhoton.xBeam module cuts Event Horizon Telescope data correlation from over a month to eight minutes, and the libraries are exposed as tools for AI agents to accelerate discovery.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达发布 CUDA-X 科学计算库 黑洞数据处理提速至 8 分钟&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达把科学计算库做成智能体可调用的工具，并给出黑洞数据处理从月级到分钟级的量化提速，是算力基础设施与 AI for Science 结合的重要动向。&lt;/p&gt;&lt;p&gt;NVIDIA Blog · compute · signal 72/100&lt;/p&gt;</description>
+<source url="https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/">NVIDIA Blog</source>
+<category>英伟达</category>
+<category>CUDA-X</category>
+<category>AI for Science</category>
+<category>科学计算</category>
+</item>
+<item><title>CUDA Turns 20, Reshaping Scientific Computing and AI Foundations</title><link>https://blogs.nvidia.com/blog/20-years-cuda/</link><guid isPermaLink="true">https://blogs.nvidia.com/blog/20-years-cuda/</guid>
+<pubDate>Tue, 17 Nov 2026 00:00:11 +0800</pubDate>
+<description>&lt;p&gt;NVIDIA marks 20 years of CUDA at SC26, tracing its journey from its 2006 debut at SC06 for the scientific community to becoming the foundation of modern science and AI accelerated computing. CUDA extended GPU computing beyond graphics into simulation, AI research and more, powered by a persistent developer community.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;CUDA 走过 20 年 重塑科学计算与 AI 基座&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;CUDA 二十周年是加速计算生态的重要节点，值得关注算力基础设施演进的读者了解。&lt;/p&gt;&lt;p&gt;NVIDIA Blog · compute · signal 42/100&lt;/p&gt;</description>
+<source url="https://blogs.nvidia.com/blog/20-years-cuda/">NVIDIA Blog</source>
+<category>CUDA</category>
+<category>NVIDIA</category>
+<category>加速计算</category>
+<category>科学计算</category>
+</item>
+<item><title>NVIDIA Unveils Rubin HPC GPU with Over 50,000 CUDA Cores</title><link>https://blogs.nvidia.com/blog/rubin-hpc/</link><guid isPermaLink="true">https://blogs.nvidia.com/blog/rubin-hpc/</guid>
+<pubDate>Tue, 17 Nov 2026 00:00:01 +0800</pubDate>
+<description>&lt;p&gt;NVIDIA unveiled Rubin HPC at SC26, a new GPU in its Vera Rubin platform featuring over 50,000 CUDA cores per chip, sparse data acceleration and seventh-generation NVLink. Targeting science, engineering and analytics workloads, it is built to speed up agent-invoked simulations and shorten the hypothesis-simulation-refinement loop, with availability expected in 2028.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达发布 Rubin HPC GPU 超 5 万 CUDA 核心&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达为智能体科研场景推出专用 HPC GPU，核心规格与互联技术升级明确，是算力基础设施路线的重要节点。&lt;/p&gt;&lt;p&gt;NVIDIA Blog · compute · signal 78/100&lt;/p&gt;</description>
+<source url="https://blogs.nvidia.com/blog/rubin-hpc/">NVIDIA Blog</source>
+<category>英伟达</category>
+<category>GPU</category>
+<category>科学计算</category>
+<category>智能体</category>
+<category>NVLink</category>
+</item>
 <item><title>Audible Launches AI Audio Discovery Feature for Audiobook Browsing</title><link>https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/16/audible-turns-to-ai-to-help-users-discover-audiobooks/</guid>
 <pubDate>Mon, 16 Nov 2026 23:52:19 +0800</pubDate>
 <description>&lt;p&gt;Audible has launched an AI-powered audio discovery feature that generates brief overviews of a book&amp;#x27;s themes and listener reactions, blended with editor or author commentary pulled from past interviews. The move extends last month&amp;#x27;s AI tools for character interaction and recaps as Audible faces rising competition in the audiobook market.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Audible 推出 AI 音频发现功能&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部有声书平台将生成式 AI 嵌入内容发现链路，是消费级 AI 应用落地的典型样本。&lt;/p&gt;&lt;p&gt;TechCrunch AI · tools · signal 42/100&lt;/p&gt;</description>
@@ -11,6 +85,33 @@
 <category>有声书</category>
 <category>内容发现</category>
 <category>Audible</category>
+</item>
+<item><title>Four Common Pitfalls in Amazon Bedrock Denied Topics Design</title><link>https://aws.amazon.com/blogs/machine-learning/best-practices-for-writing-denied-topics-in-amazon-bedrock-guardrails/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/best-practices-for-writing-denied-topics-in-amazon-bedrock-guardrails/</guid>
+<pubDate>Mon, 16 Nov 2026 23:48:01 +0800</pubDate>
+<description>&lt;p&gt;AWS published best practices for authoring Denied Topics in Amazon Bedrock Guardrails, noting that semantic matching can over-block legitimate requests. The post identifies four common authoring pitfalls, such as defining topics by subject domain instead of user intent and relying on keyword lists, and recommends intent-centric definitions with iterative tuning.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Amazon Bedrock 拒答主题配置的四种常见误区&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向 Bedrock Guardrails 用户的实操配置指南，对构建安全护栏的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 42/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/best-practices-for-writing-denied-topics-in-amazon-bedrock-guardrails/">AWS Machine Learning Blog</source>
+<category>Amazon Bedrock</category>
+<category>Guardrails</category>
+<category>AI 安全</category>
+<category>开发者工具</category>
+</item>
+<item><title>Amazon Bedrock Knowledge Base Adds Per-Tenant Retrieval Instructions</title><link>https://aws.amazon.com/blogs/machine-learning/customize-answers-per-tenant-in-amazon-bedrock-managed-knowledge-base/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/customize-answers-per-tenant-in-amazon-bedrock-managed-knowledge-base/</guid>
+<pubDate>Mon, 16 Nov 2026 23:46:28 +0800</pubDate>
+<description>&lt;p&gt;Amazon Bedrock Managed Knowledge Base now supports retrieval instructions that let teams define per-tenant answer voice, format, and retrieval policy as a versioned managed resource. Previously, enforcing a fixed answer style required disabling response generation and maintaining prompts in every application.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊 Bedrock 知识库新增多租户检索指令&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向多租户 RAG 场景的托管化提示词与检索策略管理，能减少重复维护提示词的工作量。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 42/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/customize-answers-per-tenant-in-amazon-bedrock-managed-knowledge-base/">AWS Machine Learning Blog</source>
+<category>Amazon Bedrock</category>
+<category>RAG</category>
+<category>知识库</category>
+<category>多租户</category>
+</item>
+<item><title>Amazon Bedrock Adds Prompt Caching for Open-Weight Models</title><link>https://aws.amazon.com/blogs/machine-learning/use-prompt-caching-with-open-weight-models-on-amazon-bedrock/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/use-prompt-caching-with-open-weight-models-on-amazon-bedrock/</guid>
+<pubDate>Mon, 16 Nov 2026 23:42:41 +0800</pubDate>
+<description>&lt;p&gt;Amazon Bedrock now supports explicit prompt caching for open-weight models, letting applications reuse repeated prefixes such as system prompts, reference documents, tool definitions and conversation history to cut input costs and latency. The cache is fully managed by Bedrock, offers implicit and explicit modes, and exposes cache read/write metrics for monitoring.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Amazon Bedrock 开源权重模型支持提示缓存&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是云平台对开源权重模型的托管缓存能力更新，对在 Bedrock 上做长上下文应用降本有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 38/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/use-prompt-caching-with-open-weight-models-on-amazon-bedrock/">AWS Machine Learning Blog</source>
+<category>提示缓存</category>
+<category>Amazon Bedrock</category>
+<category>开源模型</category>
+<category>推理降本</category>
 </item>
 <item><title>Anthropic Finds Selective Forgetting Beats Exhaustive Memory for AI Agents</title><link>https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store/</link><guid isPermaLink="true">https://the-decoder.com/anthropic-says-the-key-to-agent-memory-is-knowing-what-to-forget-not-how-much-to-store/</guid>
 <pubDate>Mon, 16 Nov 2026 23:25:48 +0800</pubDate>
@@ -111,6 +212,15 @@
 <category>小鹏</category>
 <category>商业化</category>
 </item>
+<item><title>OpenTodo Ships Self-Hosted Local-First To-Do App as Single Go Binary</title><link>https://github.com/OpenTodoApp/OpenTodo</link><guid isPermaLink="true">https://github.com/OpenTodoApp/OpenTodo</guid>
+<pubDate>Mon, 16 Nov 2026 21:21:53 +0800</pubDate>
+<description>&lt;p&gt;OpenTodo is an open-source, local-first to-do app distributed as a single self-hosted Go binary, supporting offline use and shared lists for families or teams, alongside a new iPhone/iPad client. It offers Docker, Kubernetes, and Home Assistant deployment paths, positioning itself as a personal task manager that avoids third-party cloud dependency.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenTodo 发布单二进制自托管待办应用&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向自托管用户的开源本地优先待办工具，工程部署选项完整，但属常规应用发布，技术增量有限。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
+<source url="https://github.com/OpenTodoApp/OpenTodo">Hacker News AI</source>
+<category>开源</category>
+<category>自托管</category>
+<category>待办应用</category>
+<category>本地优先</category>
+</item>
 <item><title>Jensen Huang Resigns as Nvidia CEO Amid Scandal as Shares Fall 14 Percent</title><link>https://www.theverge.com/ai-artificial-intelligence/1031740/jensen-huang-nvidia-scandal-isnt-slowing-down</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1031740/jensen-huang-nvidia-scandal-isnt-slowing-down</guid>
 <pubDate>Mon, 16 Nov 2026 21:00:00 +0800</pubDate>
 <description>&lt;p&gt;Nvidia CEO Jensen Huang has resigned amid a scandal over multiple affairs, sending shares down 14 percent. With Huang reportedly assembling allies for a comeback, the AI industry is watching how the leadership shakeup at the bedrock of US AI compute will unfold.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;黄仁勋因丑闻辞任英伟达 CEO 股价跌 14%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球 AI 算力核心供应商的最高层突发变动，直接牵动整个行业的算力供给与投资格局。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 78/100&lt;/p&gt;</description>
@@ -120,162 +230,49 @@
 <category>算力</category>
 <category>公司治理</category>
 </item>
-<item><title>Ex-Freshworks Execs Raise $53M for AI-Native CRM Startup Dreamteam</title><link>https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/</guid>
+<item><title>前 Freshworks 高管创立 AI 原生 CRM 融资 5300 万美元</title><link>https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/</guid>
 <pubDate>Mon, 16 Nov 2026 20:30:00 +0800</pubDate>
-<description>&lt;p&gt;Dreamteam, founded by former Freshworks executives, has raised $53 million across seed and Series A rounds led by Together Fund and Accel, with Premji Invest participating, to challenge Salesforce and HubSpot with an AI-native CRM. The startup automatically captures context from emails and customer conversations and deploys AI agents for follow-ups, meeting prep, and pipeline monitoring, aiming to eliminate manual data entry for sales teams.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;前 Freshworks 高管创立 AI 原生 CRM 融资 5300 万美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 原生 CRM 赛道再添大额早期融资，且创始团队来自成熟 SaaS 体系，对关注 AI 应用层商业化的读者有参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;由前 Freshworks 高管创立的 Dreamteam 完成 5300 万美元种子轮与 A 轮融资，投资方包括 Together Fund、Accel 和 Premji Invest，意图以 AI 原生 CRM 挑战 Salesforce 与 HubSpot。其核心思路是自动从邮件与客户对话中捕获上下文，并用 AI 智能体承担跟进、会议准备与销售管道监控等任务，减少销售人员的手动录入。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 原生 CRM 赛道再添大额早期融资，且创始团队来自成熟 SaaS 体系，对关注 AI 应用层商业化的读者有参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/16/freshworks-alums-raise-53m-to-take-on-salesforce-hubspot-with-ai-native-crm/">TechCrunch AI</source>
 <category>AI CRM</category>
 <category>融资</category>
 <category>AI 智能体</category>
 <category>企业软件</category>
 </item>
-<item><title>AI Progress Index More Than Doubles Before GTA VI Launch</title><link>https://x.com/ArtificialAnlys/status/2122305411659497870</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2122305411659497870</guid>
+<item><title>GTA VI 发布前 AI 模型能力指数翻倍</title><link>https://x.com/ArtificialAnlys/status/2122305411659497870</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2122305411659497870</guid>
 <pubDate>Mon, 16 Nov 2026 20:26:55 +0800</pubDate>
-<description>&lt;p&gt;Artificial Analysis reports that its Progress Index top score has more than doubled from 160 to 358 since the first GTA VI trailer in December 2023. Of the 491 models tracked, 481 were released in that window, the top score was beaten on 23 separate days by models from OpenAI, Google DeepMind, SpaceXAI and Anthropic, and GPT-4 Turbo has fallen to 379th place.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;GTA VI 发布前 AI 模型能力指数翻倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以游戏发售为时间锚点，用指数数据直观呈现近三年大模型迭代速度，适合作为行业节奏参考。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · industry · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Artificial Analysis 统计显示，自 2023 年 12 月 GTA VI 首支预告发布以来，其 Progress Index 最高分从 160 升至 358，翻了一倍多。期间 491 个模型中 481 个为新发布，榜首被 OpenAI、Google DeepMind、SpaceXAI 和 Anthropic 的模型刷新 23 次，GPT-4 Turbo 已跌至第 379 位。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以游戏发售为时间锚点，用指数数据直观呈现近三年大模型迭代速度，适合作为行业节奏参考。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · industry · signal 38/100&lt;/p&gt;</description>
 <source url="https://x.com/ArtificialAnlys/status/2122305411659497870">Artificial Analysis (@ArtificialAnlys)</source>
 <category>行业观察</category>
 <category>模型评测</category>
 <category>Artificial Analysis</category>
 </item>
-<item><title>Meta Unveils JiTTests Where LLMs Write Failing Tests to Catch Bugs</title><link>https://x.com/Marktechpost/status/2122278946440110483</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2122278946440110483</guid>
+<item><title>睿尔曼智能以轮式人形机器人切入工业产线</title><link>https://www.qbitai.com/2026/11/510542.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/510542.html</guid>
+<pubDate>Mon, 16 Nov 2026 18:57:31 +0800</pubDate>
+<description>&lt;p&gt;睿尔曼智能在常州工业具身智能大会上展示 RealBOT 轮式人形机器人，依托 GLN 远程作业网络在柔性上下料与分拣场景中完成真实作业。创始人郑随兵提出质量、经济性、长期稳定性是机器人落地的三大标准，并采用自主作业加遥操作介入的组合模式。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供工业具身智能落地的务实判断标准与遥操作组合路径，但属企业供稿，缺乏具体参数与量化数据。&lt;/p&gt;&lt;p&gt;量子位官网 · industry · signal 38/100&lt;/p&gt;</description>
+<source url="https://www.qbitai.com/2026/11/510542.html">量子位官网</source>
+<category>具身智能</category>
+<category>人形机器人</category>
+<category>工业制造</category>
+<category>睿尔曼智能</category>
+</item>
+<item><title>Meta 推出 JiTTests 用大模型生成失败测试拦截缺陷</title><link>https://x.com/Marktechpost/status/2122278946440110483</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2122278946440110483</guid>
 <pubDate>Mon, 16 Nov 2026 18:41:45 +0800</pubDate>
-<description>&lt;p&gt;Meta introduced JiTTests, which has LLMs generate tests expected to fail against a code diff, proving the change altered behavior before it lands; an LLM judge ensemble plus a rule-based filter called RubFake then decides which failures merit engineer attention. In H1 2026 it caught 74 privacy SEVs at the diff stage, cut privacy SEV occurrence by 20%, and drew a roughly 60% engineer-reported true-positive rate across 589 engineers. Intent-aware tests showed a 6.4% weak-catch rate per test versus 0.8% for Meta&amp;#x27;s earlier ACH hardening, though the initial paper deployment confirmed only 8 of 41 reported catches and all production figures are self-reported.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 推出 JiTTests 用大模型生成失败测试拦截缺陷&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把大模型从代码评审转向生成可执行的失败测试，是 AI 辅助软件工程中较新的验证范式，且附带真实生产数据与明确的局限说明。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · tools · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Meta 发布 JiTTests，让大模型针对代码 diff 生成本应失败的测试，以证明改动破坏了原有行为，再由 LLM 评审团与规则过滤器 RubFake 筛选值得工程师关注的失败。2026 年上半年在 diff 阶段捕获 74 个隐私类 SEV，隐私 SEV 发生率下降 20%，589 名工程师反馈真阳性率约 60%。论文阶段意图感知测试单测弱捕获率为 6.4%，高于此前 ACH 加固方案的 0.8%，但初期部署 41 个上报仅确认 8 个，且生产数据均为自报。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把大模型从代码评审转向生成可执行的失败测试，是 AI 辅助软件工程中较新的验证范式，且附带真实生产数据与明确的局限说明。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · tools · signal 72/100&lt;/p&gt;</description>
 <source url="https://x.com/Marktechpost/status/2122278946440110483">Marktechpost (@Marktechpost)</source>
 <category>AI 编程</category>
 <category>软件测试</category>
 <category>Meta</category>
 <category>代码评审</category>
 </item>
-<item><title>Alibaba Releases Qwen4-Max 2.4T-Parameter MoE Flagship</title><link>https://x.com/Marktechpost/status/2122265192365187472</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2122265192365187472</guid>
+<item><title>阿里发布 2.4T 参数 Qwen4-Max 旗舰模型</title><link>https://x.com/Marktechpost/status/2122265192365187472</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2122265192365187472</guid>
 <pubDate>Mon, 16 Nov 2026 17:47:06 +0800</pubDate>
-<description>&lt;p&gt;Alibaba released Qwen4-Max, a 2.4T-parameter sparse MoE flagship that activates only 71B parameters per token at $1.5 per million input tokens. Its rebuilt sparse MoE stack uses three Gated DeltaNet layers to compress history for each Qwen Sparse Attention layer, a lightweight indexer for context selection, plus four gated residual branches and 328B N-gram embedding parameters. It tops 4 of 16 benchmarks but trails Claude Opus 5.5 and Kimi K3.1 on coding and terminal tasks, a clear trade-off.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;阿里发布 2.4T 参数 Qwen4-Max 旗舰模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;2.4T 参数旗舰模型以极低激活成本发布，稀疏 MoE 架构细节与真实基准取舍对模型选型有直接参考价值。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · llm · signal 88/100&lt;/p&gt;</description>
+<description>&lt;p&gt;阿里巴巴发布 Qwen4-Max，采用 2.4 万亿参数稀疏 MoE 架构，单 token 仅激活 71B 参数，输入定价为每百万 token 1.5 美元。核心创新在于重建的稀疏 MoE 栈：3 层 Gated DeltaNet 为每层 Qwen Sparse Attention 压缩历史，配合轻量索引器选取上下文，并叠加 4 条门控残差分支与 328B N-gram Embedding 参数。该模型在 16 项基准中的 4 项登顶，但编程与终端任务明显落后于 Claude Opus 5.5 与 Kimi K3.1，呈现明显的取舍。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;2.4T 参数旗舰模型以极低激活成本发布，稀疏 MoE 架构细节与真实基准取舍对模型选型有直接参考价值。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · llm · signal 88/100&lt;/p&gt;</description>
 <source url="https://x.com/Marktechpost/status/2122265192365187472">Marktechpost (@Marktechpost)</source>
 <category>大模型</category>
 <category>阿里巴巴</category>
 <category>MoE</category>
 <category>Qwen</category>
-</item>
-<item><title>IMF Warns AI Circular Financing Tops $1 Trillion as Growth Hinges on AI</title><link>https://www.ithome.com/1/027/861.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/861.htm</guid>
-<pubDate>Mon, 16 Nov 2026 17:32:58 +0800</pubDate>
-<description>&lt;p&gt;IMF Managing Director Kristalina Georgieva warned that the global economy is leaning on AI as its single growth engine, with circular financing among AI firms now exceeding $1 trillion, roughly two-thirds of it debt-funded. She called recent volatility an orderly adjustment but cautioned that if AI disappoints expectations, US equities could fall 20% in 2026 and global output could run 1.1% below baseline by 2028.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;IMF 警告 AI 循环融资规模已超 1 万亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;IMF 首次给出 AI 循环融资超万亿美元的量级估算，是判断 AI 资本泡沫风险的关键宏观信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/861.htm">IT之家 · 智能时代</source>
-<category>产业金融</category>
-<category>IMF</category>
-<category>AI 泡沫</category>
-<category>循环融资</category>
-</item>
-<item><title>S2 Ditches Route53 for Self-Hosted Authoritative DNS to Scale Unlimited Basins</title><link>https://s2.dev/blog/dns-server</link><guid isPermaLink="true">https://s2.dev/blog/dns-server</guid>
-<pubDate>Mon, 16 Nov 2026 17:19:38 +0800</pubDate>
-<description>&lt;p&gt;S2&amp;#x27;s engineering team recounts replacing AWS Route53 with a self-hosted authoritative DNS server. To support unlimited per-account basins, each mapped to its own subdomain and CNAME record, the team needed strongly consistent, unbounded DNS record management and ultimately went self-hosted; customers now create thousands of basins that are instantly available for streaming.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;S2 弃用 Route53 自建权威 DNS 支撑无限存储桶&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是一篇关于云原生基础设施中 DNS 自建与强一致性权衡的一线工程复盘，对关注存储架构与云成本的开发者有实际参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 58/100&lt;/p&gt;</description>
-<source url="https://s2.dev/blog/dns-server">Hacker News AI</source>
-<category>DNS</category>
-<category>云基础设施</category>
-<category>Route53</category>
-<category>S2</category>
-<category>工程实践</category>
-</item>
-<item><title>KTC Unveils VMAX All-Sensing Agent Mini PC With Detachable Screen</title><link>https://www.ithome.com/1/027/819.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/819.htm</guid>
-<pubDate>Mon, 16 Nov 2026 17:00:34 +0800</pubDate>
-<description>&lt;p&gt;KTC, under KTC Technology, launched the VMAX all-sensing agent mini PC, combining a Windows mini host with a pan-tilt camera, microphone array and the detachable VMAX GO companion screen. It runs vision, audio and meeting-summary models locally, capturing audio offline and auto-syncing structured meeting notes when reattached.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;KTC 推出 VMAX 全感知智能体主机&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是本地化 AI 智能体硬件的一次产品化尝试，把多模态感知与会议纪要能力集成进迷你主机形态，对关注端侧 AI 硬件落地的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 38/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/819.htm">IT之家 · 智能时代</source>
-<category>端侧 AI</category>
-<category>智能硬件</category>
-<category>会议纪要</category>
-<category>KTC</category>
-</item>
-<item><title>LVMH Media Division Signs Strategic Partnership with OpenAI</title><link>https://openai.com/index/lvmh-media-division-partnership</link><guid isPermaLink="true">https://openai.com/index/lvmh-media-division-partnership</guid>
-<pubDate>Mon, 16 Nov 2026 17:00:00 +0800</pubDate>
-<description>&lt;p&gt;LVMH Group&amp;#x27;s Media Division and OpenAI have signed a strategic agreement to bring AI into all of the division&amp;#x27;s publications and make their journalism accessible through ChatGPT. The deal includes deploying ChatGPT Enterprise across editorial teams to build AI applications for tasks such as document research, comparison and preliminary translation, freeing journalists to focus on investigation and writing.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;LVMH 媒体部门与 OpenAI 达成战略合作&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;传统媒体集团与头部模型厂商的规模化企业级合作，反映新闻业 AI 落地的真实路径。&lt;/p&gt;&lt;p&gt;OpenAI 官方博客 · industry · signal 42/100&lt;/p&gt;</description>
-<source url="https://openai.com/index/lvmh-media-division-partnership">OpenAI 官方博客</source>
-<category>OpenAI</category>
-<category>LVMH</category>
-<category>媒体</category>
-<category>企业合作</category>
-</item>
-<item><title>杨元庆提出私域数据飞轮 押注混合式 AI 落地</title><link>https://www.ithome.com/1/027/813.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/813.htm</guid>
-<pubDate>Mon, 16 Nov 2026 16:40:50 +0800</pubDate>
-<description>&lt;p&gt;联想集团董事长兼 CEO 杨元庆在 2026 联想创投 CEO 年会上提出“私域数据飞轮”，判断 AI 竞争将从比拼模型参数转向比拼混合式 AI 落地能力。他披露联想 AI PC 全球份额达 25%、中国累计销量突破 700 万台，并预测未来 70% 至 80% 的 Token 将产生在边侧或端侧。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;联想高层对 AI 产业竞争格局的战略判断，附带 AI PC 份额与端侧 Token 占比等具体数据，对关注产业落地者具参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/813.htm">IT之家 · 智能时代</source>
-<category>混合式 AI</category>
-<category>联想</category>
-<category>AI PC</category>
-<category>智能体</category>
-<category>端侧计算</category>
-</item>
-<item><title>谷歌 Gemini 4 Carbon 首秀登顶 Arena 盲测榜</title><link>https://www.ithome.com/1/027/775.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/775.htm</guid>
-<pubDate>Mon, 16 Nov 2026 16:17:49 +0800</pubDate>
-<description>&lt;p&gt;Arena 第 46 周盲测榜单显示，谷歌新模型 Gemini 4 Carbon (High) 首秀即以 1526 分登顶综合榜，与同家族 Gemini 4 Argon 仅差 4 分，视为并列第一。Anthropic 在智能体与前端开发榜仍保持统治力，国产模型则在视频生成赛道稳定占据第 6 至第 8 名，Kimi K3.1 Pro 首次进入前端开发榜第 12 名。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;反映头部模型竞争格局与国产模型多模态渗透的最新盲测信号，但属榜单汇总类信息，实质技术增量有限。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · llm · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/775.htm">IT之家 · IT业界</source>
-<category>大模型</category>
-<category>Arena 榜单</category>
-<category>谷歌 Gemini</category>
-<category>Anthropic</category>
-<category>国产模型</category>
-</item>
-<item><title>OpenAI 论文库 45% 附 Lean 代码引验证争议</title><link>https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/</link><guid isPermaLink="true">https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/</guid>
-<pubDate>Mon, 16 Nov 2026 15:38:19 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 上月发布的 722 篇数学论文中约 45% 附带 Lean 形式化代码，但已有 3 篇非 Lean 论文因符号错误被撤稿。文章指出，Lean 代码编译通过并不等于定理正确，尤其当代码由 AI 生成时，还需额外测试来排除奖励黑客与内核可靠性问题，而这类检验目前尚未系统开展。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;直面 AI 生成形式化证明的可信度问题，对关注大模型数学推理与验证的读者有实质参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 71/100&lt;/p&gt;</description>
-<source url="https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/">Hacker News AI</source>
-<category>形式化验证</category>
-<category>Lean</category>
-<category>OpenAI</category>
-<category>AI 数学</category>
-<category>可信度</category>
-</item>
-<item><title>字节跳动 Seedance 2.5 4K 视频生成 API 全面开放</title><link>https://www.ithome.com/1/027/736.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/736.htm</guid>
-<pubDate>Mon, 16 Nov 2026 15:23:26 +0800</pubDate>
-<description>&lt;p&gt;字节跳动火山引擎宣布 Seedance 2.5 4K 视频生成模型 API 全面开放，开发者与企业客户可直接调用。该模型于 10 月 23 日发布，支持 480P 样片快速验证分镜、确认后再生成 4K 正片的 Draft 模式，并具备 10-bit 色深与更强的参考素材一致性保持能力，面向影视级大屏场景。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;4K 视频生成模型 API 开放意味着开发者可实际接入影视级生成能力，具备明确的工程与产业落地价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 72/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/736.htm">IT之家 · 智能时代</source>
-<category>视频生成</category>
-<category>字节跳动</category>
-<category>火山引擎</category>
-<category>API 开放</category>
-</item>
-<item><title>台积电按客户信用额度分配 AI 产能</title><link>https://www.ithome.com/1/027/697.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/697.htm</guid>
-<pubDate>Mon, 16 Nov 2026 14:54:11 +0800</pubDate>
-<description>&lt;p&gt;台积电将客户资产负债表、历史损失率与数据中心建设进度纳入产能评估，订单超出信用额度需现金支付，部分客户须预付款锁定产能。截至 6 月底客户暂收款达 2342.3 亿新台币，反映 AI 循环融资风险正传导至晶圆代工环节。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部代工厂首次将客户信用与融资风险直接嵌入产能分配规则，是观察 AI 基建泡沫与供应链金融风险的关键信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/697.htm">IT之家 · 智能时代</source>
-<category>台积电</category>
-<category>AI 算力</category>
-<category>循环融资</category>
-<category>半导体供应链</category>
-</item>
-<item><title>华为云称 80% 中国具身智能企业选用昇腾云</title><link>https://www.ithome.com/1/027/690.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/690.htm</guid>
-<pubDate>Mon, 16 Nov 2026 14:50:33 +0800</pubDate>
-<description>&lt;p&gt;华为云在 CloudRobo 具身世界模型发布会上称，昇腾云在中国具身智能市场排名第一，80% 的中国具身智能企业已选择昇腾云，重点高校基本实现全覆盖。CloudRobo 平台已汇聚超 16500 名开发者、230 多家企业和高校，沉淀 1500+ 行业资产，并发布昇腾原生具身世界模型 CloudRobo-WM1.2，在 RoboTwin 2.0 与 Libero Pro 2.0 评测中位列第一。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产算力底座在具身智能赛道的份额数据与平台生态规模，对关注算力与具身智能落地的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/690.htm">IT之家 · 智能时代</source>
-<category>具身智能</category>
-<category>华为云</category>
-<category>昇腾</category>
-<category>算力基础设施</category>
-</item>
-<item><title>华为云开源昇腾原生具身世界模型 CloudRobo-WM1.2</title><link>https://www.ithome.com/1/027/684.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/684.htm</guid>
-<pubDate>Mon, 16 Nov 2026 14:46:23 +0800</pubDate>
-<description>&lt;p&gt;华为云在 CloudRobo 发布会上正式发布并开源昇腾原生具身世界模型 CloudRobo-WM1.2，采用共享世界模型骨干与原生 DualAct 动作生成架构，在 RoboTwin 2.0 与 LiberoPro 2.0 两个基准上均排名第一。同步开放训练框架与昇腾算力最佳实践，并称已有 80% 的中国具身智能企业选择昇腾云。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产算力原生训练的具身世界模型开源，并附带训练框架与算力实践，对具身智能开发者具备直接可用价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/684.htm">IT之家 · 智能时代</source>
-<category>具身智能</category>
-<category>世界模型</category>
-<category>开源</category>
-<category>华为云</category>
-<category>昇腾</category>
-</item>
-<item><title>联发科 Genio 420 驱动端侧 AI 睡眠温控系统</title><link>https://www.ithome.com/1/027/645.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/645.htm</guid>
-<pubDate>Mon, 16 Nov 2026 13:33:37 +0800</pubDate>
-<description>&lt;p&gt;联发科与睡眠科技品牌 ISHO 合作推出 iFlow 智能温控系统，通过双 BCG 感知带与自研生理信号大模型实时捕捉心跳、呼吸与体动，由 Genio 420 端侧 AI 平台在本地完成睡眠状态判断与动态调温，无需用户手动操作。Pro 版增加 512 点柔性压力阵列识别睡姿，并升级至六组 TEC 温控模块。该案例展示了边缘 AI 在智能家居睡眠场景的具象化落地。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;端侧 AI 芯片在睡眠温控这一垂直场景的具体落地案例，具备一定的技术集成参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/645.htm">IT之家 · 智能时代</source>
-<category>端侧 AI</category>
-<category>联发科</category>
-<category>智能家居</category>
-<category>边缘计算</category>
-</item>
-<item><title>腾讯混元 Hy4 flash 发布 单任务成本降至 Hy4 的 5%</title><link>https://www.ithome.com/1/027/630.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/630.htm</guid>
-<pubDate>Mon, 16 Nov 2026 13:09:25 +0800</pubDate>
-<description>&lt;p&gt;腾讯混元正式推出 Hy4 flash，总参数 224B、每 token 激活 12B，支持多模态输入与 100 万 token 上下文。通过混合注意力、LatentMoE、Engram 查表参数及 4bit 量化等三阶段协同优化，其单任务成本仅为 Hy4 的 1/20、DeepSeek-V4.1-Flash 的 1/8，官方称综合效果略优于 Hy4 preview，并计划开源。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产大模型以架构创新把单任务成本压到旗舰的 5%，并承诺开源，对成本敏感的 Agent 落地具有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/630.htm">IT之家 · 智能时代</source>
-<category>大模型</category>
-<category>腾讯混元</category>
-<category>MoE</category>
-<category>开源</category>
 </item>
 </channel>
 </rss>

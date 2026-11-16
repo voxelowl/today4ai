@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Mon, 16 Nov 2026 23:52:19 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 17 Nov 2026 00:00:51 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>阿里发布 2.4 万亿参数 Qwen4-Max 任务成本降超 60%</title><link>https://todayforai.com/en/story/story-5a6c2c19-ef6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5a6c2c19-ef6</guid>
 <pubDate>Mon, 16 Nov 2026 17:47:06 +0800</pubDate>
@@ -9,7 +9,7 @@
 
 第三方评测机构数据交叉验证了官方说法。Artificial Analysis 智能指数显示，Qwen4-Max 以 xhigh 推理档位取得 43 分，较 Qwen3.8-Max 提升 9 分，单任务成本降至 3.27 美元，约为前代三分之一，并比 Kimi K3.1 Pro 低约 11%。Arena.ai 数据显示，Qwen4-Max 在 Agent Arena 首秀即位列总榜第 14 名，较前代第 39 名大幅跃升，成为排名最高的中国模型，使阿里成为中文第一、全球第五的实验室；在 Code Arena WebDev 榜单以 1750 分位列第 6，较前代提升 74 分。在 1.47 万次真实智能体会话中实现 7.5% 净提升，用户满意度与可控性提升最显著。
 
-Qwen4-Max 的发布标志着阿里在稀疏 MoE 架构与长上下文效率上的系统性突破，其成本优势可能重塑企业级 AI 应用的性价比基准。模型已通过 OpenRouter 等平台开放，小尺寸同源模型将陆续…&lt;/p&gt;&lt;p&gt;8 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, Artificial Analysis (@ArtificialAnlys), OpenRouter (@OpenRouter), Arena.ai (@arena), Qwen 官方博客 (通义), IT之家 · 智能时代&lt;/p&gt;</description>
+Qwen4-Max 的发布标志着阿里在稀疏 MoE 架构与长上下文效率上的系统性突破，其成本优势可能重塑企业级 AI 应用的性价比基准。模型已通过 OpenRouter 等平台开放，小尺寸同源模型将陆续…&lt;/p&gt;&lt;p&gt;9 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, Artificial Analysis (@ArtificialAnlys), OpenRouter (@OpenRouter), Arena.ai (@arena), Qwen 官方博客 (通义), IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 <item><title>黄仁勋辞任英伟达 CEO 市值蒸发近 2 万亿美元</title><link>https://todayforai.com/en/story/story-9954eb0b-f56</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9954eb0b-f56</guid>
 <pubDate>Mon, 16 Nov 2026 21:00:00 +0800</pubDate>
@@ -35,6 +35,22 @@ Qwen4-Max 的发布标志着阿里在稀疏 MoE 架构与长上下文效率上�
 
 对用户而言，旅行规划的门槛显著降低，跨应用切换减少；对行业而言，谷歌凭借地图的实时数据与生态整合，为 AI 助手落地提供了高频场景范本，可能推动其他平台加速集成类似智能体功能，进一步加剧消费级 AI 入口的竞争。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, The Verge AI&lt;/p&gt;</description>
 </item>
+<item><title>Lambda 部署英伟达 CPO 交换机 连接万卡 AI 集群</title><link>https://todayforai.com/en/story/story-a6936b30-0de</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a6936b30-0de</guid>
+<pubDate>Tue, 17 Nov 2026 00:00:51 +0800</pubDate>
+<description>&lt;p&gt;Lambda 采用英伟达 Photonics 共封装光学（CPO）交换机，将超过 1 万块 GPU 的 GB300 NVL72 机架互联，构建大规模 AI 工厂网络。测试显示机架级网络延迟下降约 4%，Pod 级最高下降约 10%，吞吐与传统可插拔光模块持平，同时功耗更低、中断间隔更长。这是 CPO 技术首次在万卡级生产集群中落地，为下一代超大规模 AI 集群互联提供了可复用的工程范式。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;NVIDIA Blog&lt;/p&gt;</description>
+</item>
+<item><title>英伟达 Vera Rubin 首秀横扫 MLPerf 训练与端点基准</title><link>https://todayforai.com/en/story/story-82b80f9d-553</link><guid isPermaLink="true">https://todayforai.com/en/story/story-82b80f9d-553</guid>
+<pubDate>Tue, 17 Nov 2026 00:00:25 +0800</pubDate>
+<description>&lt;p&gt;英伟达下一代 Vera Rubin 平台在 MLPerf 首秀中横扫 Training v6.1 全部基准，并在首次 MLPerf Endpoints 提交中实现智能体推理每瓦吞吐超 10 倍的代际提升。官方表示性能将随 CUDA 软件栈持续优化而继续攀升，意味着客户现有基础设施投资可随时间增值。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;NVIDIA Blog&lt;/p&gt;</description>
+</item>
+<item><title>英伟达发布 CUDA-X 科学计算库 黑洞数据处理提速至 8 分钟</title><link>https://todayforai.com/en/story/story-0d645d9f-a1a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-0d645d9f-a1a</guid>
+<pubDate>Tue, 17 Nov 2026 00:00:16 +0800</pubDate>
+<description>&lt;p&gt;英伟达在 SC26 上扩展 CUDA-X 科学计算库，新增 cuPhoton、cuPotential、cuSpa 等模块，覆盖天体物理、材料科学与单细胞生物学。其中 cuPhoton.xBeam 将事件视界望远镜的观测数据关联分析从超过一个月压缩到 8 分钟，并面向 AI 智能体开放这些加速工具。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;NVIDIA Blog&lt;/p&gt;</description>
+</item>
+<item><title>英伟达发布 Rubin HPC GPU 超 5 万 CUDA 核心</title><link>https://todayforai.com/en/story/story-340b9b7e-646</link><guid isPermaLink="true">https://todayforai.com/en/story/story-340b9b7e-646</guid>
+<pubDate>Tue, 17 Nov 2026 00:00:01 +0800</pubDate>
+<description>&lt;p&gt;英伟达在 SC26 发布 Vera Rubin 平台新成员 Rubin HPC GPU，单卡 CUDA 核心数突破 5 万，并引入稀疏数据加速能力与第七代 NVLink 互联，专为科学计算、工程仿真与数据分析工作负载设计。该卡面向智能体驱动的科研探索场景，通过加速智能体调用的仿真任务缩短假设、仿真与迭代闭环，预计 2028 年上市。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;NVIDIA Blog, LangChain Blog&lt;/p&gt;</description>
+</item>
 <item><title>FrontierML 基准：AI 智能体可花 200 美元自主提升模型性能</title><link>https://todayforai.com/en/story/story-423aa9f4-e99</link><guid isPermaLink="true">https://todayforai.com/en/story/story-423aa9f4-e99</guid>
 <pubDate>Mon, 16 Nov 2026 22:01:15 +0800</pubDate>
 <description>&lt;p&gt;研究者发布 FrontierML 基准，用 21 个端到端机器学习长周期任务衡量智能体将资金转化为模型性能的能力。每个任务提供 12 小时 CPU 沙箱与 10 至 200 美元预算，前沿系统已能通过外包子任务等方式自主改进表现。这既反映 AI 研发能力的提升，也指向智能体之间相互分包工作的机器经济雏形。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Import AI (Jack Clark)&lt;/p&gt;</description>
@@ -46,30 +62,6 @@ Qwen4-Max 的发布标志着阿里在稀疏 MoE 架构与长上下文效率上�
 Hy4 flash 的成本突破源于三阶段协同优化：混合注意力机制、LatentMoE 稀疏架构、64B Engram 查表参数以及 4bit 量化。其中 KV cache 降至 Hy4 的 1/6，解码速度超过 150 tps，在 WorkIndex 评测中展现出极高的性价比。多家信源一致确认了参数规模、上下文长度与定价细节，交叉验证了其效率优势。
 
 这款模型将显著降低长上下文多模态应用的部署门槛，对开发者生态和 API 市场形成直接冲击。腾讯混元承诺高频迭代并开源，有望推动稀疏 MoE 架构与量化技术的进一步普及，加剧大模型性价比竞争。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, InfoQ 中文&lt;/p&gt;</description>
-</item>
-<item><title>Coral 开源智能体网关 让智能体自写工具提速 29%</title><link>https://todayforai.com/en/story/story-499d4ed7-235</link><guid isPermaLink="true">https://todayforai.com/en/story/story-499d4ed7-235</guid>
-<pubDate>Mon, 16 Nov 2026 22:14:51 +0800</pubDate>
-<description>&lt;p&gt;Coral 是一个开源自托管的智能体执行网关，位于智能体与其操作的目标系统之间：智能体通过编写简短的 TypeScript 程序调用工具，并将验证有效的代码保存为可复用的自定义工具，每次调用都会先经过策略校验再注入凭证并转发。官方称在 GitHub、Linear、Slack 等任务上，自定义工具让智能体提速 29%、成本降低 31%。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Hacker News AI&lt;/p&gt;</description>
-</item>
-<item><title>苹果联合 OpenEvidence 启动 20 万人健康 AI 研究</title><link>https://todayforai.com/en/story/story-e4f8293b-688</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e4f8293b-688</guid>
-<pubDate>Mon, 16 Nov 2026 09:30:00 +0800</pubDate>
-<description>&lt;p&gt;苹果宣布与临床 AI 平台 OpenEvidence 合作，启动一项针对健康 AI 的大规模用户研究，计划招募最多 20 万名 21 岁以上的美国用户，通过新推出的 iOS 应用向对话式 AI 提出健康问题，并从准确性、细节和相关性等维度评估回答质量。该研究旨在量化对话式健康 AI 的真实可用性，为苹果健康生态的 AI 工具设计提供实证依据。
-
-与通用聊天机器人不同，该应用的回答严格以《新英格兰医学杂志》《美国医学会杂志》《自然》等临床文献为依据，强调循证而非生成式自由发挥。研究周期超过 12 个月，参与者需使用 iPhone 15 Pro 或更新机型并运行 iOS 26 以上系统，且需开启 Apple Intelligence。值得注意的是，应用本身并不依赖 Apple Intelligence 运行，但设备门槛将其限定在高端用户群体。
-
-此次合作标志着苹果在健康 AI 领域的实质性推进，通过大规模真实世界数据收集，苹果有望在竞争激烈的 AI 健康助手赛道中建立差异化优势。同时，OpenEvidence 作为临床 AI 平台，借助苹果的硬件生态和用户基础，可加速其循证 AI 技术的落地验证。该研究结果可能影响未来健康类 AI 产品的监管标准与设计规范，对开发者与医疗产业产生深远影响。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Verge AI, TechCrunch AI&lt;/p&gt;</description>
-</item>
-<item><title>Meta 推出 JiTTests 用大模型生成失败测试拦截缺陷</title><link>https://todayforai.com/en/story/story-66907a1f-b00</link><guid isPermaLink="true">https://todayforai.com/en/story/story-66907a1f-b00</guid>
-<pubDate>Mon, 16 Nov 2026 18:41:45 +0800</pubDate>
-<description>&lt;p&gt;Meta 发布 JiTTests，让大模型针对代码 diff 生成本应失败的测试，以证明改动破坏了原有行为，再由 LLM 评审团与规则过滤器 RubFake 筛选值得工程师关注的失败。2026 年上半年在 diff 阶段捕获 74 个隐私类 SEV，隐私 SEV 发生率下降 20%，589 名工程师反馈真阳性率约 60%。论文阶段意图感知测试单测弱捕获率为 6.4%，高于此前 ACH 加固方案的 0.8%，但初期部署 41 个上报仅确认 8 个，且生产数据均为自报。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost)&lt;/p&gt;</description>
-</item>
-<item><title>Anthropic 发布 Claude Fable 5.2 以代码逐笔作画</title><link>https://todayforai.com/en/story/story-3cffe06d-a15</link><guid isPermaLink="true">https://todayforai.com/en/story/story-3cffe06d-a15</guid>
-<pubDate>Mon, 16 Nov 2026 09:01:05 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 正式发布语言模型 Claude Fable 5.2，其最大突破在于不依赖扩散模型生成像素图像，而是通过编写 Python 代码驱动虚拟绘画引擎，在画布上逐笔模拟笔刷纹理、颜料湿度与画布质感。官方演示中，模型用约 70 万次模拟笔触完成一幅停车场购物车场景，并以 111 组坐标序列画出一只鸟，全程无外部图像模型或预渲染底图参与。
-
-技术细节上，Fable 5.2 可生成 1000 至 2000 行 Python 代码来规划每一笔的落点、力度与颜料附着效果，并支持通过后续笔触覆盖修正偏差。在内部 RoboDojo Sim 基准测试中，该模型得分 64.9%，远超 GPT-6 Astra 的 29.8%，展现出强大的序列规划与精细控制能力。不过，在真实机械臂测试中，其运动速度与精细操作仍落后于人类水平。
-
-这一路径将绘画拆解为大量可规划的笔触指令，与扩散模型逐步去噪的思路本质不同，为多模态生成开辟了新方向。尽管真实物理执行仍有差距，但 Fable 5.2 在模拟环境中的优异表现，预示着语言模型在机器人控制、动画制作与创意编程等领域的巨大潜力，也加剧了与 OpenAI 等对手在具身智能赛道上的竞争。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, The Decoder&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
