@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Mon, 16 Nov 2026 15:23:26 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 16 Nov 2026 16:17:49 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Google&#x27;s Gemini 4 Carbon Debuts Atop Arena Blind-Test Leaderboard</title><link>https://www.ithome.com/1/027/775.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/775.htm</guid>
+<pubDate>Mon, 16 Nov 2026 16:17:49 +0800</pubDate>
+<description>&lt;p&gt;Arena&amp;#x27;s week-46 blind-test leaderboard shows Google&amp;#x27;s new Gemini 4 Carbon (High) debuting at No. 1 with 1526 points, statistically tied with sibling Gemini 4 Argon just 4 points behind. Anthropic retains dominance on agent and frontend boards, while Chinese models hold ranks 6-8 in video generation and Kimi K3.1 Pro breaks into the frontend top 12.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌 Gemini 4 Carbon 首秀登顶 Arena 盲测榜&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;反映头部模型竞争格局与国产模型多模态渗透的最新盲测信号，但属榜单汇总类信息，实质技术增量有限。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · llm · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/027/775.htm">IT之家 · IT业界</source>
+<category>大模型</category>
+<category>Arena 榜单</category>
+<category>谷歌 Gemini</category>
+<category>Anthropic</category>
+<category>国产模型</category>
+</item>
 <item><title>ByteDance Opens Seedance 2.5 4K Video Generation API to All Developers</title><link>https://www.ithome.com/1/027/736.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/736.htm</guid>
 <pubDate>Mon, 16 Nov 2026 15:23:26 +0800</pubDate>
 <description>&lt;p&gt;ByteDance&amp;#x27;s Volcano Engine has fully opened the API for its Seedance 2.5 4K video generation model, letting developers and enterprise clients call it directly. Launched on October 23, the model supports a Draft mode that validates storyboards in 480P before rendering 4K finals, and offers 10-bit color depth plus stronger reference-material consistency for cinema-grade use.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;字节跳动 Seedance 2.5 4K 视频生成 API 全面开放&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;4K 视频生成模型 API 开放意味着开发者可实际接入影视级生成能力，具备明确的工程与产业落地价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 72/100&lt;/p&gt;</description>
@@ -159,26 +169,35 @@
 <category>模型评测</category>
 <category>推理成本</category>
 </item>
-<item><title>Orico Launches FlashMem FM9800 SSD with pSLC AI Cache Zone</title><link>https://www.ithome.com/1/027/552.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/552.htm</guid>
+<item><title>奥睿科推出 FlashMem FM9800 固态硬盘 配备 pSLC AI Cache 区域</title><link>https://www.ithome.com/1/027/552.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/552.htm</guid>
 <pubDate>Mon, 16 Nov 2026 10:53:51 +0800</pubDate>
-<description>&lt;p&gt;Orico has launched the FlashMem FM9800 SSD, built on 3D TLC NAND with a portion of flash configured in pSLC mode to form an AI Cache zone that holds local AI model weights, context, and inference intermediate data. The PCIe Gen5 drive comes in 768GB+85GB and 1638GB+128GB configurations and pairs with AI storage middleware and the Herdsman local inference engine for tiered coordination across GPU VRAM, system memory, and flash cache.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;奥睿科推出 FlashMem FM9800 固态硬盘 配备 pSLC AI Cache 区域&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是消费级存储厂商针对本地 AI 推理场景的硬件产品发布，展示了用 pSLC 缓存区承接模型权重的思路，但缺乏实测数据与生态验证。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;奥睿科发布 FlashMem FM9800 固态硬盘，基于 3D TLC NAND，将部分闪存配置为 pSLC 模式形成 AI Cache 区域，用于承接本地 AI 模型权重、上下文与推理中间数据。该产品支持 PCIe Gen5，提供 768GB+85GB 与 1638GB+128GB 两种容量组合，并配合 AI 存储中间件与 Herdsman 本地推理引擎实现显存、内存与闪存的分层协同。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是消费级存储厂商针对本地 AI 推理场景的硬件产品发布，展示了用 pSLC 缓存区承接模型权重的思路，但缺乏实测数据与生态验证。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 38/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/027/552.htm">IT之家 · 智能时代</source>
 <category>存储硬件</category>
 <category>本地推理</category>
 <category>PCIe Gen5</category>
 </item>
-<item><title>Alibaba Qwen4-Max Tops Chinese Models and Ranks Fifth Globally</title><link>https://x.com/arena/status/2122157548057084062</link><guid isPermaLink="true">https://x.com/arena/status/2122157548057084062</guid>
+<item><title>阿里 Qwen4 Max 上线 OpenRouter 主打编程与长程智能体</title><link>https://x.com/OpenRouter/status/2122158038631281136</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2122158038631281136</guid>
+<pubDate>Mon, 16 Nov 2026 10:41:18 +0800</pubDate>
+<description>&lt;p&gt;阿里通义千问 Qwen4 系列首款模型 Qwen4 Max 已在 OpenRouter 上线，官方定位为面向编程、办公任务与长程智能体场景的基座模型。这是 Qwen 代际从 Qwen3 迈向 Qwen4 的首个公开信号，但当前披露信息仅限定位描述，尚无参数规模、基准成绩或定价细节。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Qwen 代际跃迁的首个公开落地信号，对关注开源与国产大模型路线的读者具有跟踪价值。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · llm · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/OpenRouter/status/2122158038631281136">OpenRouter (@OpenRouter)</source>
+<category>大模型</category>
+<category>阿里通义千问</category>
+<category>OpenRouter</category>
+<category>智能体</category>
+</item>
+<item><title>阿里 Qwen4-Max 登顶中文模型榜首 综合排名全球第五</title><link>https://x.com/arena/status/2122157548057084062</link><guid isPermaLink="true">https://x.com/arena/status/2122157548057084062</guid>
 <pubDate>Mon, 16 Nov 2026 10:39:21 +0800</pubDate>
-<description>&lt;p&gt;Alibaba&amp;#x27;s Qwen4-Max has entered the Arena, becoming the top-ranked Chinese model and making Alibaba the #1 Chinese lab and #5 lab overall, behind Anthropic, Google, OpenAI and Meta. It debuts at #14 on Agent Arena with a +7.5% net improvement across 14.7k real-world agentic sessions, ranking first among Chinese models in Work, Chat and Code. Reviewers compared it against Opus, GPT, Kimi and Fable across 3D scenes, games, web design and interactive explanations, finding the web-design gap notably narrowed.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;阿里 Qwen4-Max 登顶中文模型榜首 综合排名全球第五&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产模型首次跻身全球前五实验室梯队，且附带多维度实测对比，对关注模型竞争格局的读者价值明确。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;阿里 Qwen4-Max 正式登陆 Arena 竞技场，成为排行榜第一的中文模型，使阿里成为中文第一、全球第五的实验室，仅次于 Anthropic、Google、OpenAI 与 Meta。在 Agent Arena 首秀位列第 14，14.7k 真实智能体会话净提升 7.5%，工作、聊天、代码三类均居中文模型首位。评测者从 3D 场景、游戏、网页设计到交互式讲解多维度对比 Opus、GPT、Kimi 与 Fable，认为其网页设计差距已明显缩小。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产模型首次跻身全球前五实验室梯队，且附带多维度实测对比，对关注模型竞争格局的读者价值明确。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/arena/status/2122157548057084062">Arena.ai (@arena)</source>
 <category>大模型</category>
 <category>阿里</category>
 <category>Qwen</category>
 <category>模型评测</category>
 </item>
-<item><title>Alibaba&#x27;s Qwen4-Max Debuts at No. 6 on Code Arena WebDev</title><link>https://x.com/arena/status/2122153582384583156</link><guid isPermaLink="true">https://x.com/arena/status/2122153582384583156</guid>
+<item><title>阿里 Qwen4-Max 发布 编程竞技场升至第 6</title><link>https://x.com/arena/status/2122153582384583156</link><guid isPermaLink="true">https://x.com/arena/status/2122153582384583156</guid>
 <pubDate>Mon, 16 Nov 2026 10:23:36 +0800</pubDate>
-<description>&lt;p&gt;Alibaba&amp;#x27;s Qwen team released Qwen4-Max, which debuts at No. 6 on the Code Arena WebDev leaderboard with a preliminary 1750 points, up 74 points over its predecessor Qwen3.8-Max and the highest-ranked Chinese model on that board. On Agent Arena it jumps from No. 39 to No. 14 overall, with a 7.5% net improvement across 14.7k real-world agentic sessions, making Alibaba the top Chinese lab and fifth lab globally.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;阿里 Qwen4-Max 发布 编程竞技场升至第 6&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产前沿模型在真实智能体与编程竞技场双双大幅跃升，是观察中美模型差距收窄的关键节点。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;阿里通义千问团队发布 Qwen4-Max，在 Code Arena WebDev 榜单以 1750 分（初步）位列第 6，较前代 Qwen3.8-Max 提升 74 分，成为该榜排名最高的中国模型。在 Agent Arena 上，其总榜排名从第 39 位跃升至第 14 位，基于 1.47 万条真实智能体会话的净提升达 7.5%，使阿里成为 Agent Arena 上排名第一的中国实验室、全球第五。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产前沿模型在真实智能体与编程竞技场双双大幅跃升，是观察中美模型差距收窄的关键节点。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 72/100&lt;/p&gt;</description>
 <source url="https://x.com/arena/status/2122153582384583156">Arena.ai (@arena)</source>
 <category>大模型</category>
 <category>阿里通义千问</category>
@@ -247,24 +266,6 @@
 <category>AI 战略</category>
 <category>组织变革</category>
 <category>混元</category>
-</item>
-<item><title>华为小艺 AI 会员上线 49 元起含 1000 积分</title><link>https://www.ithome.com/1/027/506.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/506.htm</guid>
-<pubDate>Mon, 16 Nov 2026 09:53:28 +0800</pubDate>
-<description>&lt;p&gt;华为将此前分散在小艺 Work 等产品线中的付费能力整合为三级 AI 会员体系，体验版每月免费赠送 200 积分，付费档从 49 元 1000 积分到 499 元 15000 积分并附云空间。计费以任务复杂度折算 AI 积分，仅云端高阶 Agent 能力扣点，系统级本地功能保持免费。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是华为首次将端侧 AI 能力打包成订阅制商品，其按任务复杂度折算积分的定价方式对观察 AI 助手商业化路径有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/506.htm">IT之家 · IT业界</source>
-<category>华为</category>
-<category>AI 会员</category>
-<category>订阅制</category>
-<category>智能助手</category>
-<category>鸿蒙</category>
-</item>
-<item><title>Anthropic CEO 称算力是最深层商业难题</title><link>https://www.ithome.com/1/027/505.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/505.htm</guid>
-<pubDate>Mon, 16 Nov 2026 09:52:51 +0800</pubDate>
-<description>&lt;p&gt;Anthropic CEO 达里奥·阿莫迪在纽约与摩根大通 CEO 杰米·戴蒙对谈时表示，算力是公司面临的“最深层商业难题”，并称上市的核心目的之一是增加现金储备，以缓冲高度不确定的算力需求。面对 Anthropic 披露的约 9000 亿美元算力、租赁与数据中心未来承诺，阿莫迪未逐项拆解，而是强调技术转化为经济价值的速度存在巨大不确定性。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部模型公司掌门人首次公开将算力定性为最深层商业难题，并披露千亿美元级承诺与上市动机，是观察 AI 资本结构的关键信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/027/505.htm">IT之家 · 智能时代</source>
-<category>算力</category>
-<category>Anthropic</category>
-<category>商业战略</category>
 </item>
 </channel>
 </rss>
