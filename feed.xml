@@ -48,6 +48,23 @@
 <category>Sam Altman</category>
 <category>模型研发</category>
 </item>
+<item><title>Cutting Generative AI Costs by Replacing Model Calls with Rules</title><link>https://aws.amazon.com/blogs/machine-learning/cut-generative-ai-costs-code-for-rules-models-for-judgment/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/cut-generative-ai-costs-code-for-rules-models-for-judgment/</guid>
+<pubDate>Wed, 18 Nov 2026 05:14:55 +0800</pubDate>
+<description>&lt;p&gt;An AWS blog post argues that the biggest cost lever in generative AI systems is whether a model is called at all, since deterministic steps such as input validation, formatting and routing can be handled by rule-based code. It offers a decision framework mapping each workflow step to deterministic code, a constrained decision call, or a right-sized model on Amazon Bedrock, and recommends starting with one high-volume workflow to measure how much of it never needed a model.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;用规则替代模型调用可大幅削减生成式 AI 成本&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供可落地的成本优化决策框架，对构建生产级 AI 系统的工程团队有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 52/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/cut-generative-ai-costs-code-for-rules-models-for-judgment/">AWS Machine Learning Blog</source>
+<category>成本优化</category>
+<category>Amazon Bedrock</category>
+<category>工程实践</category>
+</item>
+<item><title>Amazon SageMaker Adds KV Cache-Aware Routing for Real-Time Endpoints</title><link>https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-real-time-endpoints-now-support-kv-cache-aware-routing/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-real-time-endpoints-now-support-kv-cache-aware-routing/</guid>
+<pubDate>Wed, 18 Nov 2026 05:11:51 +0800</pubDate>
+<description>&lt;p&gt;Amazon SageMaker AI introduced KV cache-aware routing for real-time endpoints, using cache state reported by the model container to send each request to an instance holding a long cached prefix match that is not overloaded. It targets multi-turn chat, long shared prompts and RAG workloads, and is enabled via one environment variable plus the KV_AWARE routing strategy in the endpoint configuration, with no client API changes.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SageMaker 实时端点新增 KV 缓存感知路由&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是云厂商推理底座在缓存复用调度上的实用工程更新，对部署 LLM 服务的团队有直接降本增效价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · compute · signal 62/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-real-time-endpoints-now-support-kv-cache-aware-routing/">AWS Machine Learning Blog</source>
+<category>推理优化</category>
+<category>KV 缓存</category>
+<category>Amazon SageMaker</category>
+<category>云基础设施</category>
+</item>
 <item><title>Critical OpenJDK Base64 Decoder Flaw Enables Remote Code Execution</title><link>https://calif.io/java4shell/</link><guid isPermaLink="true">https://calif.io/java4shell/</guid>
 <pubDate>Wed, 18 Nov 2026 05:11:28 +0800</pubDate>
 <description>&lt;p&gt;Researchers disclosed Java4Shell (CVE-2026-114938), a memory-corruption vulnerability in OpenJDK&amp;#x27;s Base64 decoder rated 9.2 CRITICAL under CVSS 4.0. The flaw lies in the optimized x86-64 SIMD code path used to accelerate decoding and can lead to remote code execution. Given Java&amp;#x27;s position as the third most popular language and its role in 90% of Fortune 500 companies, the impact spans banking, aviation and telecom infrastructure, making patching urgent.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenJDK Base64 解码器曝 9.2 分严重漏洞&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;影响面极广的 OpenJDK 远程代码执行漏洞，所有 Java 服务端与关键基础设施运维方都需立即评估。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 78/100&lt;/p&gt;</description>
@@ -90,6 +107,15 @@
 <category>商业模式</category>
 <category>模型路由</category>
 <category>AI 融资</category>
+</item>
+<item><title>AWS Agent Registry Adds Custom Metadata Schemas for Agent Governance</title><link>https://aws.amazon.com/blogs/machine-learning/govern-and-discover-records-with-common-metadata-in-aws-agent-registry/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/govern-and-discover-records-with-common-metadata-in-aws-agent-registry/</guid>
+<pubDate>Wed, 18 Nov 2026 04:31:04 +0800</pubDate>
+<description>&lt;p&gt;AWS Agent Registry now supports custom metadata schemas, letting administrators define organization-wide key-value attributes that every agent, MCP server, and skill record must carry. This fills a prior gap where teams could not define or store organization-specific facts such as business units, owners, and risk classifications, making approvals and discovery more dependable.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS Agent Registry 新增自定义元数据架构&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是云厂商注册表产品的一次治理能力补齐，对使用 AWS 构建智能体资产目录的团队有实际参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 38/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/govern-and-discover-records-with-common-metadata-in-aws-agent-registry/">AWS Machine Learning Blog</source>
+<category>AWS</category>
+<category>智能体治理</category>
+<category>MCP</category>
+<category>元数据</category>
 </item>
 <item><title>OpenAI Releases GPT-6.2 Astra and Sol with Lower API Pricing</title><link>https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains/</link><guid isPermaLink="true">https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains/</guid>
 <pubDate>Wed, 18 Nov 2026 04:30:50 +0800</pubDate>
@@ -186,27 +212,27 @@
 <category>合成数据</category>
 <category>模型微调</category>
 </item>
-<item><title>US Licensing Rule Freezes $480M Nvidia GPU Loan for ByteDance</title><link>https://x.com/rohanpaul_ai/status/2122775745042997380</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122775745042997380</guid>
+<item><title>美国新许可规则冻结 4.8 亿美元 GPU 贷款</title><link>https://x.com/rohanpaul_ai/status/2122775745042997380</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122775745042997380</guid>
 <pubDate>Wed, 18 Nov 2026 03:35:51 +0800</pubDate>
-<description>&lt;p&gt;A new US AI chip licensing rule has effectively blocked a $480M financing: Singapore neocloud Aolani Cloud was arranging a three-year loan through DBS Group to buy Nvidia GPUs for ByteDance&amp;#x27;s use in Malaysia. Washington now requires data center operators in Singapore, Malaysia and elsewhere to obtain licenses before purchasing advanced AI chips, explicitly targeting remote access that lets Chinese firms rent compute on chips that never enter China. Bankers at five lenders have discussed pulling out, with some calling the facility dead because funding it could breach the rule.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美国新许可规则冻结 4.8 亿美元 GPU 贷款&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是美国芯片出口管制从硬件流向延伸至“远程算力租赁”的关键转折，直接冲击中国企业的海外算力获取路径与金融机构的信贷决策。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;美国新出台的 AI 芯片许可规则已实质阻断一笔 4.8 亿美元融资：新加坡云服务商 Aolani Cloud 原计划通过星展银行安排三年期贷款，采购英伟达 GPU 供字节跳动在马来西亚使用。新规要求新加坡、马来西亚等地的数据中心运营商在购买先进 AI 芯片前须获得许可，并直接针对“远程访问”模式，即中国企业租用从未入境中国的算力。已有五家银行的信贷人员讨论退出，部分人士称该融资安排已“死亡”，因为放款可能违反规则。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是美国芯片出口管制从硬件流向延伸至“远程算力租赁”的关键转折，直接冲击中国企业的海外算力获取路径与金融机构的信贷决策。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2122775745042997380">Rohan Paul (@rohanpaul_ai)</source>
 <category>出口管制</category>
 <category>算力</category>
 <category>字节跳动</category>
 <category>英伟达</category>
 </item>
-<item><title>Model ML Raises $250M at $1.5B Valuation to Automate Banking Work</title><link>https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/</guid>
+<item><title>Model ML 融资 2.5 亿美元 估值达 15 亿美元</title><link>https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/</guid>
 <pubDate>Wed, 18 Nov 2026 03:32:11 +0800</pubDate>
-<description>&lt;p&gt;London-based Model ML has raised a $250 million Series B at a $1.5 billion valuation, just a year after its $75 million Series A. Its AI agents plug into client systems such as Excel and PowerPoint to automate junior-banker tasks like financial modeling, pitch decks and due diligence reports. The startup says running on open source models keeps costs at roughly 2% of frontier models.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Model ML 融资 2.5 亿美元 估值达 15 亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;金融垂直智能体赛道的大额融资，且披露了开源模型降本至 2% 的明确成本主张，具备行业与工程参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 68/100&lt;/p&gt;</description>
+<description>&lt;p&gt;伦敦 AI 初创公司 Model ML 完成 2.5 亿美元 B 轮融资，估值达 15 亿美元，距其 7500 万美元 A 轮仅一年。其智能体可接入 Excel、PowerPoint 等客户系统，自动完成财务建模、路演材料和尽调报告等初级投行工作。公司称基于开源模型运行，成本仅为前沿模型的约 2%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;金融垂直智能体赛道的大额融资，且披露了开源模型降本至 2% 的明确成本主张，具备行业与工程参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 68/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/">TechCrunch AI</source>
 <category>金融科技</category>
 <category>智能体</category>
 <category>融资</category>
 <category>开源模型</category>
 </item>
-<item><title>Open Source Karpo Decision Model Tops 300-Model Leaderboard</title><link>https://x.com/rohanpaul_ai/status/2122770273879658621</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122770273879658621</guid>
+<item><title>开源决策模型 Karpo 登顶 300 项评测榜首</title><link>https://x.com/rohanpaul_ai/status/2122770273879658621</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122770273879658621</guid>
 <pubDate>Wed, 18 Nov 2026 03:14:07 +0800</pubDate>
-<description>&lt;p&gt;Karpo released a family of six open-weight decision models from 0.8B to 31B, with the 31B variant scoring 73.9 to tie for first among 300 entries on the Decision Index. It replaces autoregressive decoding with a readout head that scores each option as a single token, producing zero generated tokens and always-valid answers, and beats Gemini Decision 1 on Amazon ESCI and New Yorker Caption.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;开源决策模型 Karpo 登顶 300 项评测榜首&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以读出头取代解码的决策范式在开源权重下登顶权威榜单，对搜索推荐与智能体阈值判定有直接工程价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Karpo 发布 0.8B 至 31B 六款开源权重决策模型，其中 31B 版本以 73.9 分在 Decision Index 300 项评测中并列第一。该模型以读出头替代自回归解码，每个选项仅需单 token 打分，零生成 token 且输出恒为合法答案，在 Amazon ESCI 与 New Yorker Caption 上均超过 Gemini Decision 1。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以读出头取代解码的决策范式在开源权重下登顶权威榜单，对搜索推荐与智能体阈值判定有直接工程价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2122770273879658621">Rohan Paul (@rohanpaul_ai)</source>
 <category>开源模型</category>
 <category>决策模型</category>
@@ -238,33 +264,6 @@
 <category>智能体</category>
 <category>开发者工具</category>
 <category>YC</category>
-</item>
-<item><title>Google Spark 智能体更名 Tasks 并向全球免费开放</title><link>https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free</link><guid isPermaLink="true">https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free</guid>
-<pubDate>Wed, 18 Nov 2026 02:58:01 +0800</pubDate>
-<description>&lt;p&gt;Google 将 Spark 智能体更名为 Tasks，并取消订阅门槛，向美国、加拿大、日本、韩国、澳大利亚和印度所有用户免费开放。该功能由 Gemini 4 Hydrogen 模型驱动，可制定膳食计划、管理日历、检索邮件中的重复支出，美国用户还可让智能体代打电话比价、用 Google Pay 下单及登录支持密码管理器的账户。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流厂商将自主智能体从付费订阅推向全量免费，并叠加代打电话、代下单等真实世界操作能力，是智能体商业化落地的重要信号。&lt;/p&gt;&lt;p&gt;The Verge AI · agent · signal 72/100&lt;/p&gt;</description>
-<source url="https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free">The Verge AI</source>
-<category>智能体</category>
-<category>Google</category>
-<category>Gemini</category>
-<category>AI 助手</category>
-</item>
-<item><title>微软 MAI-Image-2.7 正式发布 单图 0.035 美元</title><link>https://x.com/arena/status/2122766066254590434</link><guid isPermaLink="true">https://x.com/arena/status/2122766066254590434</guid>
-<pubDate>Wed, 18 Nov 2026 02:57:23 +0800</pubDate>
-<description>&lt;p&gt;微软 AI 的图像生成模型 MAI-Image-2.7 结束预览正式上线，在 Arena.ai 三个图像竞技场上均处于帕累托前沿，单张生成成本 0.035 美元。该模型在单图编辑榜单位列第 4、多图编辑第 3、文生图第 4，相较 2.6 版本综合提升约 50 分，其中写实与电影感影像从第 8 升至第 3，文字渲染从第 13 升至第 4。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;微软以极低单价把图像模型推到竞技场帕累托前沿，是图像生成成本曲线与竞争格局的实质变化。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 72/100&lt;/p&gt;</description>
-<source url="https://x.com/arena/status/2122766066254590434">Arena.ai (@arena)</source>
-<category>图像生成</category>
-<category>微软</category>
-<category>模型发布</category>
-<category>性价比</category>
-</item>
-<item><title>Solid 2.0 正式发布 以异步图重构细粒度响应式</title><link>https://www.solidjs.com/blog/solid-2-0-the-long-hold/</link><guid isPermaLink="true">https://www.solidjs.com/blog/solid-2-0-the-long-hold/</guid>
-<pubDate>Wed, 18 Nov 2026 02:56:17 +0800</pubDate>
-<description>&lt;p&gt;Solid 2.0 在首个提交十年后正式稳定，核心是围绕细粒度响应式（signals）构建的异步图（Async Graph），让框架能感知应用结构并更精确地调度异步状态。作者指出 signals 已从当年的少数派选择扩散到 Angular、Svelte runes、Vue Vapor 乃至 TC39 提案，Solid 2.0 意在从追随者转为可被他人借鉴的路线。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流前端响应式框架的大版本稳定发布，signals 与异步调度设计对 AI 应用前端与工具链开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.solidjs.com/blog/solid-2-0-the-long-hold/">Hacker News AI</source>
-<category>前端框架</category>
-<category>响应式编程</category>
-<category>Solid</category>
-<category>开源</category>
 </item>
 </channel>
 </rss>
