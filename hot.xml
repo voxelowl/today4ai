@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Tue, 17 Nov 2026 22:57:02 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 18 Nov 2026 00:47:21 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>阿里发布 2.4 万亿参数 Qwen4-Max 任务成本降超 60%</title><link>https://todayforai.com/en/story/story-5a6c2c19-ef6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5a6c2c19-ef6</guid>
 <pubDate>Tue, 17 Nov 2026 10:36:00 +0800</pubDate>
@@ -75,13 +75,13 @@ Hy4 flash 以极致性价比和长上下文能力，直接冲击智能体、编�
 
 这一发现将数据中心能耗从抽象预测变为可量化的区域级负荷事实，为 AI 算力扩张的环境成本提供了可核验的基线，对电网规划、能源政策及科技公司的可持续发展承诺构成直接压力。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;The Verge AI, Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
-<item><title>Hugging Face 联手 OpenRouter 打通开源模型调用</title><link>https://todayforai.com/en/story/story-5d65acd3-b61</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5d65acd3-b61</guid>
-<pubDate>Tue, 17 Nov 2026 02:12:43 +0800</pubDate>
-<description>&lt;p&gt;Hugging Face 与 OpenRouter 达成合作，用户可直接使用 Hugging Face 令牌调用 Hub 上由服务商托管的开源权重模型。OpenRouter 会基于对各服务商的实时测量，将请求路由至 80 多家提供商，从而降低开源模型的部署与调用门槛。
+<item><title>美国拟封堵中国海外租用算力通道</title><link>https://todayforai.com/en/story/story-b4e7b8bd-36c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b4e7b8bd-36c</guid>
+<pubDate>Wed, 18 Nov 2026 00:47:21 +0800</pubDate>
+<description>&lt;p&gt;美国商务部正着手推出临时规则，将 AI 芯片出口管制范围从实体芯片运输扩展至远程算力访问，要求企业向全球任何可能为中国等受限国家提供算力的数据中心出口、再出口或转移 AI 芯片与服务器时，必须事先取得许可证。此举旨在封堵中国企业通过第三国数据中心合法租用英伟达算力的通道，覆盖中国、俄罗斯、伊朗、朝鲜等 D:5 禁运国家。
 
-具体而言，用户只需将 OpenRouter 账户与 Hugging Face 关联，即可沿用同一 Hugging Face Token 与 API 调用开源模型，无需单独对接各推理厂商。OpenRouter 会根据价格、速度与可用性自动选择最优提供商，并支持故障自动切换。此外，请求轨迹可通过 Broadcast 写入 Hugging Face Storage，便于后续评测与微调。
+综合多家信源，新规点名的中转节点包括印尼、马来西亚、新加坡、泰国和巴西等地。美方以国家安全为由，称此类远程算力可能被用于军事与情报相关 AI 能力，包括大规模杀伤性武器研发、网络间谍与算法窃取。此外，美方还威胁对隐蔽的模型蒸馏行为实施制裁与实体清单处罚，调查显示中国已围绕美国模型输出构建起一条完整的蒸馏产业链，以对冲多年芯片禁运的影响。
 
-这一合作打通了开源模型从托管到调用的关键环节，显著降低了开发者使用开源模型的门槛，有望加速开源模型在各类应用中的落地，并推动推理服务市场的竞争与整合。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter), Hugging Face Blog&lt;/p&gt;</description>
+这一规则标志着美国出口管制从硬件实体向算力服务延伸，将重塑全球算力部署的合规格局。对于跨国云服务商和第三国数据中心而言，需重新评估客户结构与许可义务；对于中国企业，海外算力租用路径收窄，可能加速国产芯片替代与模型自主创新。同时，蒸馏产业链被纳入制裁视野，意味着技术封锁正从硬件层向模型层渗透，全球 AI 生态的分化风险进一步上升。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, The Decoder, Ars Technica AI&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
