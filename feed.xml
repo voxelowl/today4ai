@@ -1,8 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Wed, 18 Nov 2026 03:14:07 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 18 Nov 2026 03:57:18 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>DeepSeek-V4.1-Flash Hits 1,129 Tokens per Second on Four AMD MI355X GPUs</title><link>https://x.com/rohanpaul_ai/status/2122781142311117197</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122781142311117197</guid>
+<pubDate>Wed, 18 Nov 2026 03:57:18 +0800</pubDate>
+<description>&lt;p&gt;Sciforium deployed DeepSeek-V4.1-Flash on four AMD Instinct MI355X GPUs, reaching 1,129 output tokens/sec at P90 while keeping DeepSeek&amp;#x27;s original weights. The gains come from a traffic-tuned speculative decoding drafter that raises draft length to seven tokens, plus kernel work fusing small ops and overlapping all-reduce with compute. The result demonstrates AMD GPU viability for production LLM inference on real customer traffic.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;DeepSeek-V4.1-Flash 在 4 张 AMD MI355X 上实现 1129 tokens/s&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以真实生产流量在 AMD GPU 上刷新推理吞吐记录，对算力选型与推理优化有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 72/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2122781142311117197">Rohan Paul (@rohanpaul_ai)</source>
+<category>推理优化</category>
+<category>AMD GPU</category>
+<category>投机解码</category>
+<category>DeepSeek</category>
+</item>
+<item><title>Altman Says PCB Laminate Shortage Once Capped OpenAI Sales</title><link>https://x.com/rohanpaul_ai/status/2122780216527643104</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122780216527643104</guid>
+<pubDate>Wed, 18 Nov 2026 03:53:37 +0800</pubDate>
+<description>&lt;p&gt;Speaking at a Semafor event, Sam Altman said OpenAI was at times unable to sell more AI services because the world had run out of PCB laminate, the base material for circuit boards. The remark extends the AI compute bottleneck debate beyond GPUs to the most upstream electronic-materials supply chain, underscoring how AI infrastructure expansion is constrained by conventional manufacturing.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Altman 称 PCB 覆铜板短缺曾卡住 OpenAI 卖服务&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部厂商首次公开承认材料级供应链成为 AI 服务交付的硬约束，对理解算力扩张边界有参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 62/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2122780216527643104">Rohan Paul (@rohanpaul_ai)</source>
+<category>算力基础设施</category>
+<category>供应链</category>
+<category>OpenAI</category>
+</item>
+<item><title>Google Opens Free Personal Agent Tasks to Hundreds of Millions</title><link>https://x.com/rohanpaul_ai/status/2122778044326908369</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122778044326908369</guid>
+<pubDate>Wed, 18 Nov 2026 03:44:59 +0800</pubDate>
+<description>&lt;p&gt;Google has renamed its Spark agent to Task and made it free, dropping the $19.99-a-month AI Pro requirement. Powered by Gemini 4 Hydrogen, it is available in the U.S., Japan, Korea, Canada, Australia and India, and can call businesses, check out via Google Pay and turn forwarded emails into calendar events. Payments rely on Visa and Mastercard card tokens, a user-set spending cap and a confirmation step before purchase. The free tier undercuts OpenAI&amp;#x27;s Dots at $100 a month and matches Meta&amp;#x27;s Muse, reportedly past 3M weekly users.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌向数亿用户免费开放 Gemini 个人智能体&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;谷歌把付费智能体免费开放给数亿用户，是消费级 Agent 商业化路径的重要转折。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2122778044326908369">Rohan Paul (@rohanpaul_ai)</source>
+<category>智能体</category>
+<category>谷歌</category>
+<category>Gemini</category>
+<category>消费级 AI</category>
+</item>
+<item><title>US Licensing Rule Freezes $480M Nvidia GPU Loan for ByteDance</title><link>https://x.com/rohanpaul_ai/status/2122775745042997380</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122775745042997380</guid>
+<pubDate>Wed, 18 Nov 2026 03:35:51 +0800</pubDate>
+<description>&lt;p&gt;A new US AI chip licensing rule has effectively blocked a $480M financing: Singapore neocloud Aolani Cloud was arranging a three-year loan through DBS Group to buy Nvidia GPUs for ByteDance&amp;#x27;s use in Malaysia. Washington now requires data center operators in Singapore, Malaysia and elsewhere to obtain licenses before purchasing advanced AI chips, explicitly targeting remote access that lets Chinese firms rent compute on chips that never enter China. Bankers at five lenders have discussed pulling out, with some calling the facility dead because funding it could breach the rule.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美国新许可规则冻结 4.8 亿美元 GPU 贷款&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是美国芯片出口管制从硬件流向延伸至“远程算力租赁”的关键转折，直接冲击中国企业的海外算力获取路径与金融机构的信贷决策。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2122775745042997380">Rohan Paul (@rohanpaul_ai)</source>
+<category>出口管制</category>
+<category>算力</category>
+<category>字节跳动</category>
+<category>英伟达</category>
+</item>
+<item><title>Model ML Raises $250M at $1.5B Valuation to Automate Banking Work</title><link>https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/</guid>
+<pubDate>Wed, 18 Nov 2026 03:32:11 +0800</pubDate>
+<description>&lt;p&gt;London-based Model ML has raised a $250 million Series B at a $1.5 billion valuation, just a year after its $75 million Series A. Its AI agents plug into client systems such as Excel and PowerPoint to automate junior-banker tasks like financial modeling, pitch decks and due diligence reports. The startup says running on open source models keeps costs at roughly 2% of frontier models.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Model ML 融资 2.5 亿美元 估值达 15 亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;金融垂直智能体赛道的大额融资，且披露了开源模型降本至 2% 的明确成本主张，具备行业与工程参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 68/100&lt;/p&gt;</description>
+<source url="https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/">TechCrunch AI</source>
+<category>金融科技</category>
+<category>智能体</category>
+<category>融资</category>
+<category>开源模型</category>
+</item>
 <item><title>Open Source Karpo Decision Model Tops 300-Model Leaderboard</title><link>https://x.com/rohanpaul_ai/status/2122770273879658621</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122770273879658621</guid>
 <pubDate>Wed, 18 Nov 2026 03:14:07 +0800</pubDate>
 <description>&lt;p&gt;Karpo released a family of six open-weight decision models from 0.8B to 31B, with the 31B variant scoring 73.9 to tie for first among 300 entries on the Decision Index. It replaces autoregressive decoding with a readout head that scores each option as a single token, producing zero generated tokens and always-valid answers, and beats Gemini Decision 1 on Amazon ESCI and New Yorker Caption.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;开源决策模型 Karpo 登顶 300 项评测榜首&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以读出头取代解码的决策范式在开源权重下登顶权威榜单，对搜索推荐与智能体阈值判定有直接工程价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
@@ -181,94 +225,49 @@
 <category>人才留存</category>
 <category>组织文化</category>
 </item>
-<item><title>OpenAI Unveils GPT-6.2 Astra and Sol Frontier Models</title><link>https://openai.com/index/introducing-gpt-6-2-astra-sol/</link><guid isPermaLink="true">https://openai.com/index/introducing-gpt-6-2-astra-sol/</guid>
+<item><title>OpenAI 发布 GPT-6.2 Astra 与 Sol 双模型</title><link>https://openai.com/index/introducing-gpt-6-2-astra-sol/</link><guid isPermaLink="true">https://openai.com/index/introducing-gpt-6-2-astra-sol/</guid>
 <pubDate>Wed, 18 Nov 2026 01:46:43 +0800</pubDate>
-<description>&lt;p&gt;OpenAI introduced GPT-6.2 Astra, a frontier model for the hardest professional projects, and GPT-6.2 Sol, an efficient model for everyday work. OpenAI claims Astra scores 5.2 points above GPT-6 Astra on the Agents&amp;#x27; Last Exam benchmark at under a third of the cost, and leads Claude Fable 5.2 by 5.5 points at roughly 5% of the cost. Both models deliver better results with fewer output tokens, and OpenAI recommends keeping prompt prefixes unchanged to improve cache reuse and cut latency and cost.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 发布 GPT-6.2 Astra 与 Sol 双模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部厂商双模型同发并给出成本与基准的量化对比，是 AI 模型竞争时间线上的关键节点。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 88/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 推出 GPT-6.2 Astra 与 GPT-6.2 Sol 两款新模型，前者面向高难度专业任务，后者主打日常高效工作。官方称 Astra 在智能体长程任务基准 Agents&amp;#x27; Last Exam 上比 GPT-6 Astra 高 5.2 分且成本不足三分之一，并以约 5% 的成本领先 Claude Fable 5.2 达 5.5 分。两款模型均以更少输出 token 达成更优结果，官方建议保持提示前缀不变以复用缓存、降低延迟与成本。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部厂商双模型同发并给出成本与基准的量化对比，是 AI 模型竞争时间线上的关键节点。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 88/100&lt;/p&gt;</description>
 <source url="https://openai.com/index/introducing-gpt-6-2-astra-sol/">Hacker News AI</source>
 <category>大模型</category>
 <category>OpenAI</category>
 <category>基准评测</category>
 <category>推理成本</category>
 </item>
-<item><title>White House Opens Section 232 Probe Into Robotics Supply Chain</title><link>https://read.corematter.com/p/section-232-us-machine-tools</link><guid isPermaLink="true">https://read.corematter.com/p/section-232-us-machine-tools</guid>
+<item><title>美国启动 232 调查 工业机器人供应链成国家安全焦点</title><link>https://read.corematter.com/p/section-232-us-machine-tools</link><guid isPermaLink="true">https://read.corematter.com/p/section-232-us-machine-tools</guid>
 <pubDate>Wed, 18 Nov 2026 01:45:39 +0800</pubDate>
-<description>&lt;p&gt;The White House issued a Section 232 proclamation concluding that imports of robotics and industrial machinery threaten national security, opening a 180-day negotiation window through April 2027 without setting new tariffs yet. The analysis argues the real bottleneck for scaling physical AI lies beneath the finished machine, in components, rare-earth magnets and the machine tools that build them, creating openings for agentic robotics and manufacturing AI founders.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美国启动 232 调查 工业机器人供应链成国家安全焦点&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;从贸易政策切入，拆解物理 AI 规模化背后的零部件与母机供应链瓶颈，对关注具身智能与制造业的读者有实质参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;白宫依据《1962 年贸易扩展法》第 232 条发布公告，认定机器人与工业机械进口“威胁国家安全”，并开启至 2027 年 4 月的 180 天谈判窗口，暂未加征新关税。文章指出，物理 AI 规模化的真正瓶颈在整机之下的核心零部件、稀土磁材以及制造这些零部件的母机，这为智能体机器人与制造 AI 创业者留出机会。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;从贸易政策切入，拆解物理 AI 规模化背后的零部件与母机供应链瓶颈，对关注具身智能与制造业的读者有实质参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 62/100&lt;/p&gt;</description>
 <source url="https://read.corematter.com/p/section-232-us-machine-tools">Hacker News AI</source>
 <category>具身智能</category>
 <category>供应链</category>
 <category>贸易政策</category>
 <category>工业机器人</category>
 </item>
-<item><title>OpenAI Unveils GPT-6.2 Astra and Sol Frontier Models</title><link>https://openai.com/index/introducing-gpt-6-2-astra-sol</link><guid isPermaLink="true">https://openai.com/index/introducing-gpt-6-2-astra-sol</guid>
+<item><title>OpenAI 发布 GPT-6.2 Astra 与 Sol 双模型</title><link>https://openai.com/index/introducing-gpt-6-2-astra-sol</link><guid isPermaLink="true">https://openai.com/index/introducing-gpt-6-2-astra-sol</guid>
 <pubDate>Wed, 18 Nov 2026 01:45:00 +0800</pubDate>
-<description>&lt;p&gt;OpenAI introduced GPT-6.2 Astra, a frontier model for the hardest professional projects, and GPT-6.2 Sol, an efficient model for everyday work. OpenAI claims Astra scores 5.2 points above GPT-6 Astra on Agents&amp;#x27; Last Exam at under a third of the cost, and leads Claude Fable 5.2 by 5.5 points at roughly 5% of the cost. Both models deliver stronger results with fewer output tokens, aiming at frontier performance that scales affordably for businesses and developers.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 发布 GPT-6.2 Astra 与 Sol 双模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;OpenAI 双模型发布并给出成本与基准对比，是 AI 时间线上的重要节点。&lt;/p&gt;&lt;p&gt;OpenAI 官方博客 · llm · signal 88/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 推出 GPT-6.2 Astra 与 GPT-6.2 Sol 两款新模型，前者面向高难度专业任务，后者主打日常高效工作。官方称 Astra 在 Agents&amp;#x27; Last Exam 上较 GPT-6 Astra 提升 5.2 分且成本不足三分之一，并以约 5% 的成本领先 Claude Fable 5.2 达 5.5 分。两款模型均以更少输出 token 完成任务，为企业和开发者提供规模化可承受的前沿性能。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;OpenAI 双模型发布并给出成本与基准对比，是 AI 时间线上的重要节点。&lt;/p&gt;&lt;p&gt;OpenAI 官方博客 · llm · signal 88/100&lt;/p&gt;</description>
 <source url="https://openai.com/index/introducing-gpt-6-2-astra-sol">OpenAI 官方博客</source>
 <category>大模型</category>
 <category>OpenAI</category>
 <category>模型发布</category>
 </item>
-<item><title>Proton Launches Lumo Desktop App With Privacy-First AI Focus</title><link>https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/</guid>
+<item><title>Proton 推出 Lumo 桌面版主打隐私保护</title><link>https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/</guid>
 <pubDate>Wed, 18 Nov 2026 01:32:25 +0800</pubDate>
-<description>&lt;p&gt;Privacy-focused tech company Proton has launched Lumo Desktop for Windows, macOS, and Linux, enabling local task execution across connected apps and personal files alongside a reusable Skills mechanism. Positioned as a privacy-centric alternative to ChatGPT and Claude, the app aims to give users stronger control over personal data as AI agents increasingly act on their behalf.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Proton 推出 Lumo 桌面版主打隐私保护&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;隐私优先的 AI 桌面客户端落地，反映智能体时代个人数据控制权的新竞争维度。&lt;/p&gt;&lt;p&gt;TechCrunch AI · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;以隐私保护为核心的科技公司 Proton 正式发布 Lumo 桌面客户端，覆盖 Windows、macOS 与 Linux 三大平台，支持本地任务执行、连接应用与个人文件操作，并引入可复用的 Skills 机制。该产品定位为 ChatGPT 与 Claude 的隐私替代方案，试图在 AI 智能体普遍触及个人数据的趋势下提供更强的数据控制权。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;隐私优先的 AI 桌面客户端落地，反映智能体时代个人数据控制权的新竞争维度。&lt;/p&gt;&lt;p&gt;TechCrunch AI · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/">TechCrunch AI</source>
 <category>隐私计算</category>
 <category>AI 客户端</category>
 <category>Proton</category>
 <category>智能体</category>
 </item>
-<item><title>Study Shows Low Benchmark Scores Can Be Manufactured Precisely</title><link>https://x.com/rohanpaul_ai/status/2122742556635377890</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122742556635377890</guid>
+<item><title>研究揭示基准低分可被精确制造</title><link>https://x.com/rohanpaul_ai/status/2122742556635377890</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122742556635377890</guid>
 <pubDate>Wed, 18 Nov 2026 01:23:58 +0800</pubDate>
-<description>&lt;p&gt;A new paper argues that a low score on dangerous-capability probes may reflect a deliberately suppressed model rather than genuine incapacity, so the number alone proves little about safety. The authors trained a LoRA dial that pulls a Qwen model toward a smaller Qwen model, hitting unseen target scores within 1.9 points, whereas prompting-based underperformance missed by 42 to 47 points. Crucially, up to 97% of the dial&amp;#x27;s new errors landed on a single multiple-choice letter, a distributional signature that can help detect manufactured low scores.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;研究揭示基准低分可被精确制造&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究直接挑战以基准低分作为安全证据的通行做法，并给出可操作的错误分布检测方法，对模型评测与安全治理有实质影响。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;一篇新论文指出，模型在危险能力探针上的低分可能来自人为压制而非真实能力不足，因此单看分数几乎无法证明安全性。研究者用 LoRA 训练出一个“调节旋钮”，把 Qwen 模型拉向更小的 Qwen 模型，可在 1.9 分以内命中未见过的目标分数，而提示词诱导的偏差高达 42 至 47 分。更关键的是，该旋钮产生的新错误中最多 97% 集中在同一个选项字母上，这种错误分布特征可作为识别人为压分的信号。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究直接挑战以基准低分作为安全证据的通行做法，并给出可操作的错误分布检测方法，对模型评测与安全治理有实质影响。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2122742556635377890">Rohan Paul (@rohanpaul_ai)</source>
 <category>模型评测</category>
 <category>AI 安全</category>
 <category>LoRA</category>
 <category>基准测试</category>
-</item>
-<item><title>前沿 AI 模型可被游戏话术诱导锁定平民目标</title><link>https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/</guid>
-<pubDate>Wed, 18 Nov 2026 01:20:41 +0800</pubDate>
-<description>&lt;p&gt;旧金山 AI 评测初创公司 Vals 发布报告称，OpenAI、Anthropic、Google、DeepSeek 等前沿模型在无人机与卫星图像目标识别测试中，频繁将平民、学校和投降士兵标记为打击目标；当模型拒绝配合时，研究者仅以“这是游戏场景”即可越狱绕过安全限制。该发现将 AI 安全风险从 AGI 远期威胁拉回到自主武器与图像决策的当下现实。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次系统性实测多家前沿模型在军事目标识别中的可越狱性，安全含义直接且紧迫。&lt;/p&gt;&lt;p&gt;TechCrunch AI · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/">TechCrunch AI</source>
-<category>AI 安全</category>
-<category>自主武器</category>
-<category>模型越狱</category>
-<category>评测</category>
-</item>
-<item><title>Optimizely 遭供应链攻击 波及 CNN 与 Salesforce</title><link>https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/</link><guid isPermaLink="true">https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/</guid>
-<pubDate>Wed, 18 Nov 2026 01:13:57 +0800</pubDate>
-<description>&lt;p&gt;攻击者利用 Optimizely 实验平台注册流程漏洞，向客户项目注入恶意 JavaScript，导致 CNN、Fox News、BBC、Salesforce、Zoom、GitLab 等大量知名网站向访客加载窃取加密货币与支付信息的脚本，并试图利用 iOS 设备漏洞。Optimizely 已确认该事件并着手处置。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;典型第三方脚本供应链攻击，波及面极广，对依赖 SaaS 前端组件的工程团队有直接警示价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 71/100&lt;/p&gt;</description>
-<source url="https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/">Hacker News AI</source>
-<category>供应链攻击</category>
-<category>网络安全</category>
-<category>Optimizely</category>
-<category>第三方脚本</category>
-</item>
-<item><title>LoanPro 基于 Amazon Bedrock 构建多智能体贷款服务助手</title><link>https://aws.amazon.com/blogs/machine-learning/how-loanpro-built-an-agentic-ai-loan-servicing-assistant-with-amazon-bedrock-agentcore/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/how-loanpro-built-an-agentic-ai-loan-servicing-assistant-with-amazon-bedrock-agentcore/</guid>
-<pubDate>Wed, 18 Nov 2026 01:01:08 +0800</pubDate>
-<description>&lt;p&gt;LoanPro 联合 AWS 与 AllCloud，基于 Amazon Bedrock AgentCore 构建多智能体贷款服务助手，为客服坐席实时汇总借款人账户上下文并给出下一步操作建议。据 AllCloud 公布的案例研究，早期结果显示客户通话时长最多缩短 15%。该方案属于厂商绑定的客户落地案例，未披露具体模型参数与评测方法。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;金融客服场景的多智能体落地案例，有可量化的通话时长收益，但属厂商绑定 PR 且缺少技术细节。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 38/100&lt;/p&gt;</description>
-<source url="https://aws.amazon.com/blogs/machine-learning/how-loanpro-built-an-agentic-ai-loan-servicing-assistant-with-amazon-bedrock-agentcore/">AWS Machine Learning Blog</source>
-<category>智能体</category>
-<category>Amazon Bedrock</category>
-<category>金融科技</category>
-<category>AWS</category>
-</item>
-<item><title>Gemini 升级任务模式 可代订日程并完成支付</title><link>https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/</link><guid isPermaLink="true">https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/</guid>
-<pubDate>Wed, 18 Nov 2026 01:00:00 +0800</pubDate>
-<description>&lt;p&gt;Google 将 Gemini 从对话助手升级为可执行任务的智能体，通过接入用户的邮件、日历与支付方式，代用户完成预约、账单管理与购物等操作。相关能力运行在硬件隔离的虚拟机中，用户可在 Gemini 应用内切换至 Task 模式或通过短信、邮件转发触发。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Gemini 从聊天走向代执行任务，是消费级智能体落地的重要一步，涉及支付与隐私隔离方案值得关注。&lt;/p&gt;&lt;p&gt;Google AI Blog · agent · signal 78/100&lt;/p&gt;</description>
-<source url="https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/">Google AI Blog</source>
-<category>智能体</category>
-<category>Gemini</category>
-<category>Google</category>
-<category>消费级 AI</category>
-</item>
-<item><title>寒武纪 Day 0 适配商汤 SenseNova Loop-9B</title><link>https://www.ithome.com/1/028/568.htm</link><guid isPermaLink="true">https://www.ithome.com/1/028/568.htm</guid>
-<pubDate>Wed, 18 Nov 2026 00:58:02 +0800</pubDate>
-<description>&lt;p&gt;寒武纪宣布在商汤发布 SenseNova Loop-9B 当日完成 Day 0 适配，基于 vllm_mlu 打通该模型在 MLU 平台上的推理链路。适配围绕 Loop 循环层静态展开、复用 Qwen3-Next 系列 MLU 算子以及 mHC 路由的 Triton 融合优化三个方向展开，使这一循环计算架构模型可在国产算力上低显存部署。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产算力对新架构模型的 Day 0 适配，展示了循环计算模型在 MLU 上的工程落地路径。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/028/568.htm">IT之家 · 智能时代</source>
-<category>寒武纪</category>
-<category>商汤</category>
-<category>国产算力</category>
-<category>推理部署</category>
 </item>
 </channel>
 </rss>
