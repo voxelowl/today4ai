@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Wed, 18 Nov 2026 02:57:23 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 18 Nov 2026 03:14:07 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Open Source Karpo Decision Model Tops 300-Model Leaderboard</title><link>https://x.com/rohanpaul_ai/status/2122770273879658621</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122770273879658621</guid>
+<pubDate>Wed, 18 Nov 2026 03:14:07 +0800</pubDate>
+<description>&lt;p&gt;Karpo released a family of six open-weight decision models from 0.8B to 31B, with the 31B variant scoring 73.9 to tie for first among 300 entries on the Decision Index. It replaces autoregressive decoding with a readout head that scores each option as a single token, producing zero generated tokens and always-valid answers, and beats Gemini Decision 1 on Amazon ESCI and New Yorker Caption.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;开源决策模型 Karpo 登顶 300 项评测榜首&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以读出头取代解码的决策范式在开源权重下登顶权威榜单，对搜索推荐与智能体阈值判定有直接工程价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2122770273879658621">Rohan Paul (@rohanpaul_ai)</source>
+<category>开源模型</category>
+<category>决策模型</category>
+<category>模型评测</category>
+<category>Karpo</category>
+</item>
+<item><title>StarSling Launches Self-Improving CI Platform for Agent-Heavy Repos</title><link>https://starsling.dev</link><guid isPermaLink="true">https://starsling.dev</guid>
+<pubDate>Wed, 18 Nov 2026 03:01:43 +0800</pubDate>
+<description>&lt;p&gt;YC P25-backed StarSling launched a self-improving CI platform aimed at repositories where AI agents generate code faster than pipelines can verify it. Its agents automatically optimize test pipelines, with Mastra&amp;#x27;s suite dropping from 29m56s to 5m06s and Better Auth&amp;#x27;s E2E tests roughly halving, across 3M+ CI jobs run.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;StarSling 推出智能体自优化 CI 平台&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;智能体大规模写代码后 CI 成为新瓶颈，该产品切中真实工程痛点并给出可量化提速数据。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://starsling.dev">Hacker News AI</source>
+<category>CI/CD</category>
+<category>智能体</category>
+<category>开发者工具</category>
+<category>YC</category>
+</item>
 <item><title>Microsoft Ships MAI-Image-2.7 at $0.035 per Image</title><link>https://x.com/arena/status/2122766066254590434</link><guid isPermaLink="true">https://x.com/arena/status/2122766066254590434</guid>
 <pubDate>Wed, 18 Nov 2026 02:57:23 +0800</pubDate>
 <description>&lt;p&gt;Microsoft AI&amp;#x27;s MAI-Image-2.7 has exited preview and now sits on the Pareto frontier across all three Arena.ai image leaderboards at $0.035 per image. It ranks #3 on Multi-Image Edit, #4 on Single Image Edit and #4 on Text-to-Image, gaining roughly 50 points over version 2.6, with photorealistic imagery rising from #8 to #3 and text rendering from #13 to #4.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;微软 MAI-Image-2.7 正式发布 单图 0.035 美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;微软以极低单价把图像模型推到竞技场帕累托前沿，是图像生成成本曲线与竞争格局的实质变化。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 72/100&lt;/p&gt;</description>
@@ -11,6 +29,15 @@
 <category>微软</category>
 <category>模型发布</category>
 <category>性价比</category>
+</item>
+<item><title>Solid 2.0 Ships With Async Graph and Fine-Grained Reactivity</title><link>https://www.solidjs.com/blog/solid-2-0-the-long-hold/</link><guid isPermaLink="true">https://www.solidjs.com/blog/solid-2-0-the-long-hold/</guid>
+<pubDate>Wed, 18 Nov 2026 02:56:17 +0800</pubDate>
+<description>&lt;p&gt;Solid 2.0 reaches stable a decade after its first commit, centered on an Async Graph built atop fine-grained reactivity so the framework can reason about application shape and schedule async state more precisely. The author notes signals have spread from a minority bet to Angular, Svelte runes, Vue Vapor and a TC39 proposal, positioning Solid 2.0 as a path others can follow rather than a follower.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Solid 2.0 正式发布 以异步图重构细粒度响应式&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流前端响应式框架的大版本稳定发布，signals 与异步调度设计对 AI 应用前端与工具链开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.solidjs.com/blog/solid-2-0-the-long-hold/">Hacker News AI</source>
+<category>前端框架</category>
+<category>响应式编程</category>
+<category>Solid</category>
+<category>开源</category>
 </item>
 <item><title>Microsoft Ships MAI-Image-2.7 With Sharp Gains in Image Editing</title><link>https://x.com/arena/status/2122764936388784405</link><guid isPermaLink="true">https://x.com/arena/status/2122764936388784405</guid>
 <pubDate>Wed, 18 Nov 2026 02:52:54 +0800</pubDate>
@@ -47,6 +74,15 @@
 <category>消费 AI</category>
 <category>融资</category>
 <category>旅行</category>
+</item>
+<item><title>OpenAI Advances Computer-Use Agents for Healthcare Workflows</title><link>https://openai.com/index/advancing-computer-use-for-healthcare-teams/</link><guid isPermaLink="true">https://openai.com/index/advancing-computer-use-for-healthcare-teams/</guid>
+<pubDate>Wed, 18 Nov 2026 02:26:05 +0800</pubDate>
+<description>&lt;p&gt;OpenAI shared new results on model performance, safety, and cost for computer-use agents in clinical and administrative workflows, alongside partnerships with Abridge, Ambience, Cigna Healthcare, and CVS Health covering authorization requests, referrals, discharge planning, and between-visit outreach. The capabilities are available today via the OpenAI API, ChatGPT for Healthcare, and ChatGPT for Clinicians, with support for HIPAA-compliant workflows and configurable approvals.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 推进医疗场景计算机操作智能体落地&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是计算机操作智能体在受监管医疗行业落地的代表性进展，涉及真实机构合作与合规路径，值得关注。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 62/100&lt;/p&gt;</description>
+<source url="https://openai.com/index/advancing-computer-use-for-healthcare-teams/">Hacker News AI</source>
+<category>智能体</category>
+<category>医疗</category>
+<category>OpenAI</category>
+<category>合规</category>
 </item>
 <item><title>Microsoft Debuts MAI Code 2 and Code 2 Flash Coding Models</title><link>https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/</link><guid isPermaLink="true">https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/</guid>
 <pubDate>Wed, 18 Nov 2026 02:25:13 +0800</pubDate>
@@ -189,36 +225,36 @@
 <category>金融科技</category>
 <category>AWS</category>
 </item>
-<item><title>Google Gemini Adds Task Mode to Book, Pay and Shop for Users</title><link>https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/</link><guid isPermaLink="true">https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/</guid>
+<item><title>Gemini 升级任务模式 可代订日程并完成支付</title><link>https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/</link><guid isPermaLink="true">https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/</guid>
 <pubDate>Wed, 18 Nov 2026 01:00:00 +0800</pubDate>
-<description>&lt;p&gt;Google is upgrading Gemini from a conversational assistant into a task-executing agent that connects to users&amp;#x27; email, calendar and payment methods to book appointments, manage bills and shop on their behalf. The capabilities run inside hardware-isolated virtual machines, and users can trigger them via a Task toggle in the Gemini app, SMS, or email forwarding.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Gemini 升级任务模式 可代订日程并完成支付&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Gemini 从聊天走向代执行任务，是消费级智能体落地的重要一步，涉及支付与隐私隔离方案值得关注。&lt;/p&gt;&lt;p&gt;Google AI Blog · agent · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Google 将 Gemini 从对话助手升级为可执行任务的智能体，通过接入用户的邮件、日历与支付方式，代用户完成预约、账单管理与购物等操作。相关能力运行在硬件隔离的虚拟机中，用户可在 Gemini 应用内切换至 Task 模式或通过短信、邮件转发触发。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Gemini 从聊天走向代执行任务，是消费级智能体落地的重要一步，涉及支付与隐私隔离方案值得关注。&lt;/p&gt;&lt;p&gt;Google AI Blog · agent · signal 78/100&lt;/p&gt;</description>
 <source url="https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/">Google AI Blog</source>
 <category>智能体</category>
 <category>Gemini</category>
 <category>Google</category>
 <category>消费级 AI</category>
 </item>
-<item><title>Cambricon Completes Day 0 Adaptation of SenseTime SenseNova Loop-9B</title><link>https://www.ithome.com/1/028/568.htm</link><guid isPermaLink="true">https://www.ithome.com/1/028/568.htm</guid>
+<item><title>寒武纪 Day 0 适配商汤 SenseNova Loop-9B</title><link>https://www.ithome.com/1/028/568.htm</link><guid isPermaLink="true">https://www.ithome.com/1/028/568.htm</guid>
 <pubDate>Wed, 18 Nov 2026 00:58:02 +0800</pubDate>
-<description>&lt;p&gt;Cambricon announced Day 0 adaptation of SenseTime&amp;#x27;s newly released SenseNova Loop-9B, bringing the model&amp;#x27;s inference pipeline onto its MLU platform via vllm_mlu. The work covers static unrolling of the Loop layers, reuse of existing Qwen3-Next MLU operators, and Triton-fused optimization of mHC routing, enabling low-memory deployment of this loop-computing architecture on domestic accelerators.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;寒武纪 Day 0 适配商汤 SenseNova Loop-9B&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产算力对新架构模型的 Day 0 适配，展示了循环计算模型在 MLU 上的工程落地路径。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;寒武纪宣布在商汤发布 SenseNova Loop-9B 当日完成 Day 0 适配，基于 vllm_mlu 打通该模型在 MLU 平台上的推理链路。适配围绕 Loop 循环层静态展开、复用 Qwen3-Next 系列 MLU 算子以及 mHC 路由的 Triton 融合优化三个方向展开，使这一循环计算架构模型可在国产算力上低显存部署。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产算力对新架构模型的 Day 0 适配，展示了循环计算模型在 MLU 上的工程落地路径。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/028/568.htm">IT之家 · 智能时代</source>
 <category>寒武纪</category>
 <category>商汤</category>
 <category>国产算力</category>
 <category>推理部署</category>
 </item>
-<item><title>AWS Publishes Phased Responsible AI Roadmap for Agentic Systems</title><link>https://aws.amazon.com/blogs/machine-learning/responsible-ai-for-agentic-ai-a-phased-roadmap-for-platform-and-application-teams/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/responsible-ai-for-agentic-ai-a-phased-roadmap-for-platform-and-application-teams/</guid>
+<item><title>AWS 发布智能体负责任 AI 分阶段落地路线图</title><link>https://aws.amazon.com/blogs/machine-learning/responsible-ai-for-agentic-ai-a-phased-roadmap-for-platform-and-application-teams/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/responsible-ai-for-agentic-ai-a-phased-roadmap-for-platform-and-application-teams/</guid>
 <pubDate>Wed, 18 Nov 2026 00:56:31 +0800</pubDate>
-<description>&lt;p&gt;AWS outlines a phased responsible AI roadmap for agentic systems, extending governance beyond model training and inference to tool use, multi-step reasoning, and autonomous actions. It ships an open RAI assessment skill on GitHub so platform and application teams can audit their governance posture with their own agents.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS 发布智能体负责任 AI 分阶段落地路线图&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把负责任 AI 从模型中心扩展到智能体全链路治理，并给出可执行的评估技能，对构建智能体平台的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;AWS 提出面向智能体 AI 的负责任 AI 分阶段路线图，主张将治理范围从模型训练与推理扩展到智能体动态调用工具、多步推理与自主行动的全链路。配套发布可在 GitHub 获取的 RAI 评估技能，供平台与应用团队用自有智能体自查治理成熟度。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把负责任 AI 从模型中心扩展到智能体全链路治理，并给出可执行的评估技能，对构建智能体平台的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 58/100&lt;/p&gt;</description>
 <source url="https://aws.amazon.com/blogs/machine-learning/responsible-ai-for-agentic-ai-a-phased-roadmap-for-platform-and-application-teams/">AWS Machine Learning Blog</source>
 <category>负责任 AI</category>
 <category>智能体</category>
 <category>AWS</category>
 <category>AI 治理</category>
 </item>
-<item><title>OpenAI Launches Healthcare Admin Agents at 8.5 Cents per Task</title><link>https://the-decoder.com/ai-agents-are-starting-to-fill-out-medical-forms-and-file-insurance-requests-in-place-of-human-staff/</link><guid isPermaLink="true">https://the-decoder.com/ai-agents-are-starting-to-fill-out-medical-forms-and-file-insurance-requests-in-place-of-human-staff/</guid>
+<item><title>OpenAI 推出医疗行政智能体 单任务成本 8.5 美分</title><link>https://the-decoder.com/ai-agents-are-starting-to-fill-out-medical-forms-and-file-insurance-requests-in-place-of-human-staff/</link><guid isPermaLink="true">https://the-decoder.com/ai-agents-are-starting-to-fill-out-medical-forms-and-file-insurance-requests-in-place-of-human-staff/</guid>
 <pubDate>Wed, 18 Nov 2026 00:55:47 +0800</pubDate>
-<description>&lt;p&gt;OpenAI has released GPT-6 Astra and GPT-6 Luna, computer-use agents that operate clinic software and insurance portals via simulated mouse clicks and keystrokes, sidestepping the healthcare industry&amp;#x27;s widespread lack of APIs. Both models reliably completed administrative tasks in testing, with Luna costing about 8.5 cents per task, and US firms including CVS Health already use them for referrals.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 推出医疗行政智能体 单任务成本 8.5 美分&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是计算机使用智能体在医疗行政这一高摩擦场景的规模化落地，并首次给出明确的单任务成本量级。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 发布 GPT-6 Astra 与 GPT-6 Luna 两款计算机使用智能体，通过模拟鼠标点击与键盘输入操作诊所软件和保险门户，绕开医疗行业普遍缺乏 API 的痛点。测试中两款模型均能稳定完成医疗行政任务，其中 Luna 单任务成本约 8.5 美分，CVS Health 等美国企业已将其用于转诊流程。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是计算机使用智能体在医疗行政这一高摩擦场景的规模化落地，并首次给出明确的单任务成本量级。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 78/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/ai-agents-are-starting-to-fill-out-medical-forms-and-file-insurance-requests-in-place-of-human-staff/">The Decoder</source>
 <category>智能体</category>
 <category>计算机使用</category>
@@ -233,42 +269,6 @@
 <category>数据隐私</category>
 <category>Google</category>
 <category>AI 合规</category>
-</item>
-<item><title>主动式智能体从任务执行转向目标驱动</title><link>https://www.langchain.com/blog/what-weve-learned-building-proactive-agents</link><guid isPermaLink="true">https://www.langchain.com/blog/what-weve-learned-building-proactive-agents</guid>
-<pubDate>Wed, 18 Nov 2026 00:49:24 +0800</pubDate>
-<description>&lt;p&gt;主动式智能体正从被动响应提示转向在后台持续运行、围绕长期目标自主推进，Muse、Instinct、OpenAI dots 与 Hone Engines 等产品已体现这一趋势。其核心变化在于以目标而非任务为分配单位，使智能体能够处理跨越数天乃至数周的复杂问题，同时在不确定时仍会向人类确认或请求审批。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;系统梳理主动式智能体的设计范式与产品实践，对关注智能体架构演进的读者有参考价值。&lt;/p&gt;&lt;p&gt;LangChain Blog · agent · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.langchain.com/blog/what-weve-learned-building-proactive-agents">LangChain Blog</source>
-<category>智能体</category>
-<category>主动式智能体</category>
-<category>LangChain</category>
-</item>
-<item><title>Datasette Lite 重写 浏览器内跑完整 Python 应用</title><link>https://simonwillison.net/2026/Nov/17/datasette-lite/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/17/datasette-lite/</guid>
-<pubDate>Wed, 18 Nov 2026 00:48:33 +0800</pubDate>
-<description>&lt;p&gt;Simon Willison 发布 Datasette Lite 的完整重写版本，借助 Service Worker 与 Pyodide 将服务端 Datasette Python 应用搬进浏览器，效果已接近真实服务端版本。用户可通过 URL 参数加载任意 SQLite、JSON、CSV 数据，指定 PyPI 上的 Datasette 版本、GitHub 提交或分支，并从 100 多个 SQLite 版本中选择，还可安装 PyPI 或 wheel 链接中的插件。该工具特别适合为开发中功能或 bug 复现提供免服务器的可分享演示链接。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;将完整 Python 服务端应用通过 WebAssembly 与 Service Worker 搬进浏览器，为免服务器演示与复现提供了实用范式。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · tools · signal 62/100&lt;/p&gt;</description>
-<source url="https://simonwillison.net/2026/Nov/17/datasette-lite/">Simon Willison 博客</source>
-<category>Datasette</category>
-<category>Pyodide</category>
-<category>WebAssembly</category>
-<category>Service Worker</category>
-<category>开发者工具</category>
-</item>
-<item><title>美国拟封堵中国海外租用算力漏洞</title><link>https://the-decoder.com/the-us-wants-to-block-china-from-renting-ai-power-abroad-but-china-already-built-a-parallel-supply-chain-from-us-ai-output/</link><guid isPermaLink="true">https://the-decoder.com/the-us-wants-to-block-china-from-renting-ai-power-abroad-but-china-already-built-a-parallel-supply-chain-from-us-ai-output/</guid>
-<pubDate>Wed, 18 Nov 2026 00:47:21 +0800</pubDate>
-<description>&lt;p&gt;美国商务部工业与安全局正着手封堵中国企业通过第三国数据中心合法租用英伟达算力的通道，并威胁对隐蔽的模型蒸馏行为实施制裁与实体清单处罚。调查显示，中国已围绕美国模型输出构建起一条完整的蒸馏产业链，以对冲多年芯片禁运的影响。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;出口管制与模型蒸馏产业链的双线博弈，直接牵动算力供给与中美 AI 竞争格局。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/the-us-wants-to-block-china-from-renting-ai-power-abroad-but-china-already-built-a-parallel-supply-chain-from-us-ai-output/">The Decoder</source>
-<category>出口管制</category>
-<category>算力</category>
-<category>模型蒸馏</category>
-<category>中美竞争</category>
-</item>
-<item><title>SWE-CoWork 基准发布 智能体完整交付率不足 8%</title><link>https://x.com/rohanpaul_ai/status/2122730768317476944</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122730768317476944</guid>
-<pubDate>Wed, 18 Nov 2026 00:37:08 +0800</pubDate>
-<description>&lt;p&gt;TokenWave AI 发布 SWE-CoWork 基准，将编码智能体置于模拟职场中，82% 的需求分散在队友手中，智能体必须主动询问才能获知任务内容。在 101 个真实开源仓库任务上，最强模型单项检查通过率约 63%，但完整交付的仅 8 项，暴露出长周期协作与信息获取是当前智能体的核心短板。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个以职场协作与隐性需求获取为核心的编码智能体基准，用硬数据揭示当前智能体在长周期任务上的真实差距。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2122730768317476944">Rohan Paul (@rohanpaul_ai)</source>
-<category>智能体</category>
-<category>编码基准</category>
-<category>SWE-CoWork</category>
-<category>长周期任务</category>
 </item>
 </channel>
 </rss>
