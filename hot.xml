@@ -43,6 +43,14 @@ Hy4 flash 以极致性价比和长上下文能力，直接冲击智能体、编�
 
 此案对 AI 行业影响深远。若胜诉，将确立前沿实验室对智能体行为的法律责任先例，迫使企业加强测试隔离与透明度。竞争对手与客户亦需重新评估风险，可能推动全行业安全标准升级。加州寻求禁令、赔偿及每次违规 2500 美元的民事罚款，后续进展值得关注。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), TechCrunch AI, IT之家 · IT业界, The Verge AI&lt;/p&gt;</description>
 </item>
+<item><title>Optimizely 遭供应链攻击 波及 15 家知名网站</title><link>https://todayforai.com/en/story/story-cdb3b558-327</link><guid isPermaLink="true">https://todayforai.com/en/story/story-cdb3b558-327</guid>
+<pubDate>Tue, 17 Nov 2026 12:17:55 +0800</pubDate>
+<description>&lt;p&gt;安全事件响应人员发现，A/B 测试与个性化平台 Optimizely 的标签脚本遭恶意篡改，导致包括 CNN、Zoom、BBC、Salesforce、GitLab 在内的 15 家知名网站访客侧被注入恶意 JavaScript。攻击者通过被污染的第三方脚本，在用户浏览器中执行加密货币地址替换、银行卡数据窃取，并将截图、Cookie 与页面 URL 回传至命令控制服务器。
+
+此次攻击的核心在于供应链污染：只要网站加载了被篡改的 Optimizely 脚本，即使源站本身未被攻破，访客仍会中招。恶意代码通过 loader 加载 track.js，具备地址替换、支付信息窃取及针对 iOS 设备的攻击能力。目前细节主要来自安全媒体与社交媒体转述，官方确认与完整受影响列表仍待核实。
+
+事件再次凸显第三方脚本与 A/B 测试平台已成为高价值攻击面。企业需立即审计前端第三方脚本，实施子资源完整性校验与出站流量监控，并建立第三方组件的持续监控机制，以防类似供应链攻击波及自身用户。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, GREG ISENBERG (@gregisenberg)&lt;/p&gt;</description>
+</item>
 <item><title>哈佛研究称美国 403 座数据中心耗电超密歇根州</title><link>https://todayforai.com/en/story/story-f0f6b3e0-c65</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f0f6b3e0-c65</guid>
 <pubDate>Tue, 17 Nov 2026 15:41:48 +0800</pubDate>
 <description>&lt;p&gt;哈佛大学在《自然-可持续性》发表同行评审研究，首次量化了美国超大规模数据中心的环境成本：403 座设施年耗电量超过密歇根州全年用电，年排放约 2570 万吨二氧化碳，相当于丹麦全国排放量，较 2018 年同类研究增长约三倍。
@@ -74,14 +82,6 @@ TokenEconomizer 的核心机制是从智能体历史运行中学习微技能、�
 技术细节上，四节点通过 ConnectX-7 实现高速直连，省去了独立网络交换机的采购与配置成本。聚合的 512GB 内存与 20TB NVMe 存储支持分布式部署大型模型，本地可运行最高 7000 亿参数模型。配套的 HPC SDK 提供 GPU 加速的 C/C++/Fortran 编译器与 MPI 工具，面向多节点 GPU 应用开发、FP32 混合精度算法及 LAMMPS 分子动力学仿真等场景。
 
 该套件的推出降低了多节点 HPC 开发的门槛，使科研团队和 AI 开发者能在本地完成原本依赖大型集群的分布式训练与仿真任务，有望加速科学计算与智能体应用的创新迭代，并对传统共享 GPU 集群的使用模式形成补充。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;NVIDIA Blog, IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
-<item><title>OpenCode 发布 Browse 让智能体接管真实浏览器</title><link>https://todayforai.com/en/story/story-5b3bde84-f4b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5b3bde84-f4b</guid>
-<pubDate>Tue, 17 Nov 2026 05:20:37 +0800</pubDate>
-<description>&lt;p&gt;OpenCode 正式推出 Browse 工具，通过 MCP 服务器与 Chromium 扩展的组合，让 AI 智能体能够直接操作用户已登录的真实浏览器。智能体可以在后台分组标签页中执行读取页面、点击、输入、截图与录制等操作，而遇到登录、双因素认证或支付环节时，标签页会自动交还用户手动完成，用户点击继续后自动化流程随即恢复。这一设计在赋予智能体强大网页交互能力的同时，确保了关键安全环节的人类控制。
-
-Browse 0.1.0 版本已用 Rust 语言完全重写，带来显著的性能提升：内存占用降低 25 倍，体积缩小 23 倍，并移除了对 Playwright 的依赖，极大简化了部署链路。该工具兼容 OpenCode、Claude Code、Cursor、Codex、Zed 等主流 MCP 客户端，无需额外密钥配置，降低了智能体浏览器自动化的门槛。
-
-Browse 的发布标志着 AI 智能体在真实环境中的操作能力迈出重要一步。通过复用用户已登录的浏览器会话，智能体可以无缝接入各类网页应用，而无需处理复杂的认证流程。同时，Rust 重写带来的资源效率提升，使得大规模部署成为可能，有望推动智能体在自动化办公、网页测试、数据采集等场景的普及，进一步模糊人类与 AI 在网页交互中的边界。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, OpenCode (@opencode)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
