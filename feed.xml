@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Wed, 18 Nov 2026 03:57:18 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 18 Nov 2026 04:25:23 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>AWS Details Secure OAuth Patterns for AgentCore to Snowflake Cortex</title><link>https://aws.amazon.com/blogs/machine-learning/secure-oauth-patterns-for-snowflake-cortex-ai-through-amazon-bedrock-agentcore/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/secure-oauth-patterns-for-snowflake-cortex-ai-through-amazon-bedrock-agentcore/</guid>
+<pubDate>Wed, 18 Nov 2026 04:25:23 +0800</pubDate>
+<description>&lt;p&gt;AWS and Snowflake published a technical guide on how AI agents running on Amazon Bedrock AgentCore can securely call Snowflake Cortex Agents over MCP. It presents three tested OAuth configurations, including per-user Snowflake OAuth and three-legged OAuth, letting enterprises extend existing identity and authorization controls into the agent layer instead of relying on broad service accounts or custom auth builds.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS 发布 AgentCore 调用 Snowflake 的 OAuth 安全模式&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为智能体接入企业数据源提供了可落地的 OAuth 鉴权范式，对构建生产级 Agent 的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/secure-oauth-patterns-for-snowflake-cortex-ai-through-amazon-bedrock-agentcore/">AWS Machine Learning Blog</source>
+<category>智能体</category>
+<category>OAuth</category>
+<category>MCP</category>
+<category>Snowflake</category>
+<category>AWS</category>
+</item>
+<item><title>Book Teaches Browser Internals by Building One in Python</title><link>https://browser.engineering/</link><guid isPermaLink="true">https://browser.engineering/</guid>
+<pubDate>Wed, 18 Nov 2026 04:01:35 +0800</pubDate>
+<description>&lt;p&gt;Web Browser Engineering is an open technical book that builds a basic but complete web browser in roughly two thousand lines of Python, covering networking, HTML parsing, layout, rendering, and JavaScript. It targets developers who want a systematic, hands-on understanding of how browsers work internally.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;从零构建浏览器 千行 Python 讲透底层原理&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以工程实践方式系统讲解浏览器底层原理，对前端与系统开发者有长期学习价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 42/100&lt;/p&gt;</description>
+<source url="https://browser.engineering/">Hacker News AI</source>
+<category>浏览器</category>
+<category>开源教程</category>
+<category>Python</category>
+</item>
 <item><title>DeepSeek-V4.1-Flash Hits 1,129 Tokens per Second on Four AMD MI355X GPUs</title><link>https://x.com/rohanpaul_ai/status/2122781142311117197</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122781142311117197</guid>
 <pubDate>Wed, 18 Nov 2026 03:57:18 +0800</pubDate>
 <description>&lt;p&gt;Sciforium deployed DeepSeek-V4.1-Flash on four AMD Instinct MI355X GPUs, reaching 1,129 output tokens/sec at P90 while keeping DeepSeek&amp;#x27;s original weights. The gains come from a traffic-tuned speculative decoding drafter that raises draft length to seven tokens, plus kernel work fusing small ops and overlapping all-reduce with compute. The result demonstrates AMD GPU viability for production LLM inference on real customer traffic.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;DeepSeek-V4.1-Flash 在 4 张 AMD MI355X 上实现 1129 tokens/s&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以真实生产流量在 AMD GPU 上刷新推理吞吐记录，对算力选型与推理优化有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 72/100&lt;/p&gt;</description>
@@ -20,6 +38,14 @@
 <category>供应链</category>
 <category>OpenAI</category>
 </item>
+<item><title>jQuery 4.1.0 Ships as 3.x Branch Moves to Critical-Only Support</title><link>https://github.com/jquery/jquery/releases/tag/4.1.0</link><guid isPermaLink="true">https://github.com/jquery/jquery/releases/tag/4.1.0</guid>
+<pubDate>Wed, 18 Nov 2026 03:50:40 +0800</pubDate>
+<description>&lt;p&gt;The jQuery team released version 4.1.0, continuing the 4.x mainline and adding ECMAScript module builds that export jQuery and $ as named exports from the dist-module/ directory. The project also confirmed that the 3.x branch now receives critical fixes only, while 2.x and 1.x are fully end-of-life.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;jQuery 4.1.0 发布 3.x 分支转入仅关键修复&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;前端基础设施老牌库的版本迭代与支持策略调整，对仍维护 jQuery 技术栈的团队有直接升级参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
+<source url="https://github.com/jquery/jquery/releases/tag/4.1.0">Hacker News AI</source>
+<category>jQuery</category>
+<category>前端工具链</category>
+<category>开源维护</category>
+</item>
 <item><title>Google Opens Free Personal Agent Tasks to Hundreds of Millions</title><link>https://x.com/rohanpaul_ai/status/2122778044326908369</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122778044326908369</guid>
 <pubDate>Wed, 18 Nov 2026 03:44:59 +0800</pubDate>
 <description>&lt;p&gt;Google has renamed its Spark agent to Task and made it free, dropping the $19.99-a-month AI Pro requirement. Powered by Gemini 4 Hydrogen, it is available in the U.S., Japan, Korea, Canada, Australia and India, and can call businesses, check out via Google Pay and turn forwarded emails into calendar events. Payments rely on Visa and Mastercard card tokens, a user-set spending cap and a confirmation step before purchase. The free tier undercuts OpenAI&amp;#x27;s Dots at $100 a month and matches Meta&amp;#x27;s Muse, reportedly past 3M weekly users.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌向数亿用户免费开放 Gemini 个人智能体&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;谷歌把付费智能体免费开放给数亿用户，是消费级 Agent 商业化路径的重要转折。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
@@ -28,6 +54,15 @@
 <category>谷歌</category>
 <category>Gemini</category>
 <category>消费级 AI</category>
+</item>
+<item><title>Amazon SageMaker Adds AI Data Preparation Capabilities</title><link>https://aws.amazon.com/blogs/machine-learning/announcing-ai-data-preparation-capabilities-in-amazon-sagemaker-build-high-quality-datasets-for-model-development-workflows/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/announcing-ai-data-preparation-capabilities-in-amazon-sagemaker-build-high-quality-datasets-for-model-development-workflows/</guid>
+<pubDate>Wed, 18 Nov 2026 03:40:01 +0800</pubDate>
+<description>&lt;p&gt;AWS has added AI data preparation capabilities to Amazon SageMaker AI, enabling teams to generate synthetic examples, assess and improve existing datasets, and plug them into model development workflows. The feature targets the data bottleneck in fine-tuning, reinforcement learning, and evaluation suites, helping teams build high-quality task-specific data at lower cost.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SageMaker 新增 AI 数据准备能力&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;云厂商在模型开发数据链路上的实质能力扩展，对做微调与评测的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 62/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/announcing-ai-data-preparation-capabilities-in-amazon-sagemaker-build-high-quality-datasets-for-model-development-workflows/">AWS Machine Learning Blog</source>
+<category>Amazon SageMaker</category>
+<category>数据准备</category>
+<category>合成数据</category>
+<category>模型微调</category>
 </item>
 <item><title>US Licensing Rule Freezes $480M Nvidia GPU Loan for ByteDance</title><link>https://x.com/rohanpaul_ai/status/2122775745042997380</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122775745042997380</guid>
 <pubDate>Wed, 18 Nov 2026 03:35:51 +0800</pubDate>
@@ -55,6 +90,14 @@
 <category>决策模型</category>
 <category>模型评测</category>
 <category>Karpo</category>
+</item>
+<item><title>AWS Expands Forward Deployed Engineering to 15 Countries</title><link>https://aws.amazon.com/blogs/machine-learning/getting-ai-out-of-the-demo-and-into-businesses-globally/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/getting-ai-out-of-the-demo-and-into-businesses-globally/</guid>
+<pubDate>Wed, 18 Nov 2026 03:05:22 +0800</pubDate>
+<description>&lt;p&gt;AWS has expanded its Forward Deployed Engineering (FDE) service to 15 countries, including the U.S., U.K., Germany, Japan and Saudi Arabia, for commercial and public sector customers, backed by dozens of built-in production-ready accelerators. The offering targets the last mile from AI prototype to production, addressing messy data, auditability and governance at scale.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS 前沿部署工程扩展至 15 国&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AWS 将 AI 落地服务推向全球 15 国，反映云厂商正把交付工程能力产品化，对关注企业 AI 落地的读者有参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · industry · signal 42/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/getting-ai-out-of-the-demo-and-into-businesses-globally/">AWS Machine Learning Blog</source>
+<category>企业AI</category>
+<category>AWS</category>
+<category>AI落地</category>
 </item>
 <item><title>Google Expands Gemini Tasks to Handle Calls and Purchases</title><link>https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/</guid>
 <pubDate>Wed, 18 Nov 2026 03:02:20 +0800</pubDate>
@@ -110,6 +153,15 @@
 <category>图像编辑</category>
 <category>模型定价</category>
 </item>
+<item><title>AWS Ships WhatsApp Agent Integration for Bedrock AgentCore</title><link>https://aws.amazon.com/blogs/machine-learning/build-whatsapp-ai-agents-with-amazon-bedrock-agentcore/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/build-whatsapp-ai-agents-with-amazon-bedrock-agentcore/</guid>
+<pubDate>Wed, 18 Nov 2026 02:48:50 +0800</pubDate>
+<description>&lt;p&gt;AWS released a WhatsApp integration blueprint for Amazon Bedrock AgentCore that packages what previously required wiring more than 10 AWS services into reusable components. It covers inbound message authentication and normalization, multimodal media handling for voice notes, images and documents, cross-session memory, durable scheduling, and Meta pre-approved template delivery outside the 24-hour window.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS 发布 WhatsApp 智能体集成方案&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;对做对话式智能体的团队而言，这是把 WhatsApp 这一高价值渠道接入 AgentCore 的实用工程参考。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 58/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/build-whatsapp-ai-agents-with-amazon-bedrock-agentcore/">AWS Machine Learning Blog</source>
+<category>智能体</category>
+<category>Amazon Bedrock</category>
+<category>WhatsApp</category>
+<category>AWS</category>
+</item>
 <item><title>Google Extends Gemini Temporary Chat Retention to Two Months</title><link>https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/</guid>
 <pubDate>Wed, 18 Nov 2026 02:48:23 +0800</pubDate>
 <description>&lt;p&gt;Google is extending retention of temporary Gemini chats and conversations with history off from 72 hours to roughly two months, rolling out globally over the coming weeks. The company frames the change as a safety and security measure, yet the new window far exceeds OpenAI&amp;#x27;s 30-day temporary chat policy and Anthropic&amp;#x27;s 30-day incognito default. Google is also adding a separate toggle governing whether conversations can be used for model training.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Google 将 Gemini 临时对话保留期延长至两个月&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流大模型厂商隐私保留策略出现量级变化，直接影响用户数据边界与同业对比。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 62/100&lt;/p&gt;</description>
@@ -164,110 +216,57 @@
 <category>系统卡</category>
 <category>对齐评估</category>
 </item>
-<item><title>OpenAI Releases GPT-6.2 Astra and Sol with 20% API Price Cut</title><link>https://x.com/dotey/status/2122755808689549335</link><guid isPermaLink="true">https://x.com/dotey/status/2122755808689549335</guid>
+<item><title>OpenAI 发布 GPT-6.2 Astra 与 Sol，Astra API 降价 20%</title><link>https://x.com/dotey/status/2122755808689549335</link><guid isPermaLink="true">https://x.com/dotey/status/2122755808689549335</guid>
 <pubDate>Wed, 18 Nov 2026 02:16:38 +0800</pubDate>
-<description>&lt;p&gt;OpenAI released two GPT-6.2 models: flagship Astra succeeds GPT-6 Astra and workhorse Sol replaces GPT-6.1 Sol, both optimized to spend fewer tokens per task. Plus-and-above subscribers get access at no extra cost via ChatGPT Work and Codex, while Astra API pricing drops 20% to $8/$40 per million input/output tokens.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 发布 GPT-6.2 Astra 与 Sol，Astra API 降价 20%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;旗舰模型换代叠加 API 降价与订阅门槛优势，是当日大模型竞争格局中最具分量的节点事件。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · llm · signal 88/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 发布 GPT-6.2 双模型：旗舰 Astra 接替 GPT-6 Astra，主力 Sol 接替 GPT-6.1 Sol，主打同等任务消耗更少 Token。Plus 及以上订阅无需额外付费即可在 ChatGPT Work 与 Codex 中使用，Astra API 输入输出价格下调 20% 至每百万 Token 8 美元与 40 美元。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;旗舰模型换代叠加 API 降价与订阅门槛优势，是当日大模型竞争格局中最具分量的节点事件。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · llm · signal 88/100&lt;/p&gt;</description>
 <source url="https://x.com/dotey/status/2122755808689549335">宝玉 (@dotey)</source>
 <category>大模型</category>
 <category>OpenAI</category>
 <category>API 定价</category>
 <category>订阅</category>
 </item>
-<item><title>Decision Model Usage Surges as Customization Becomes Next Frontier</title><link>https://techcrunch.com/2026/11/17/as-decision-model-use-skyrockets-is-customization-is-the-next-frontier/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/17/as-decision-model-use-skyrockets-is-customization-is-the-next-frontier/</guid>
+<item><title>决策模型用量激增 定制化成下一战场</title><link>https://techcrunch.com/2026/11/17/as-decision-model-use-skyrockets-is-customization-is-the-next-frontier/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/17/as-decision-model-use-skyrockets-is-customization-is-the-next-frontier/</guid>
 <pubDate>Wed, 18 Nov 2026 02:10:00 +0800</pubDate>
-<description>&lt;p&gt;More than one in four requests on Vercel&amp;#x27;s AI model router went to decision models in October, a category invented only a month earlier. These models skip output tokens and instead make fast, cheap choices among preset options with confidence scores, suiting latency-sensitive production workloads. TypeSafe hit a $7.5 billion valuation on its Jev family, but low barriers have spawned dozens of rivals, pushing customization to the fore.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;决策模型用量激增 定制化成下一战场&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了决策模型这一新兴模型类别在生产环境中的真实用量数据与竞争格局变化。&lt;/p&gt;&lt;p&gt;TechCrunch AI · llm · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Vercel 的 AI 模型路由数据显示，10 月超过四分之一的请求流向决策模型，而这类模型一个月前才被发明。决策模型不生成输出 token，而是以低成本在预设选项中快速抉择并给出置信度，适合对速度敏感的生产环境。TypeSafe 凭借 Jev 系列模型估值达 75 亿美元，但门槛低导致数十款同类模型涌现，定制化被视为下一阶段竞争焦点。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了决策模型这一新兴模型类别在生产环境中的真实用量数据与竞争格局变化。&lt;/p&gt;&lt;p&gt;TechCrunch AI · llm · signal 62/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/17/as-decision-model-use-skyrockets-is-customization-is-the-next-frontier/">TechCrunch AI</source>
 <category>决策模型</category>
 <category>模型路由</category>
 <category>TypeSafe</category>
 <category>Vercel</category>
 </item>
-<item><title>OpenTSLM Time-Series Models Now Available on Amazon SageMaker JumpStart</title><link>https://aws.amazon.com/blogs/machine-learning/reason-over-time-series-data-with-opentslm-on-amazon-sagemaker-jumpstart/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/reason-over-time-series-data-with-opentslm-on-amazon-sagemaker-jumpstart/</guid>
+<item><title>OpenTSLM 开源时序模型上线 SageMaker JumpStart</title><link>https://aws.amazon.com/blogs/machine-learning/reason-over-time-series-data-with-opentslm-on-amazon-sagemaker-jumpstart/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/reason-over-time-series-data-with-opentslm-on-amazon-sagemaker-jumpstart/</guid>
 <pubDate>Wed, 18 Nov 2026 02:06:44 +0800</pubDate>
-<description>&lt;p&gt;Aionic Labs is building OpenTSLM, an open-source family of time-series language models that interpret operational metrics such as sensor readings and supply-demand signals alongside context like maintenance records and market news, avoiding the token cost of serializing long histories as text or images. The models are now available through Amazon SageMaker JumpStart, with a public ARFBench example for developers to evaluate before applying them to their own domains.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenTSLM 开源时序模型上线 SageMaker JumpStart&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;时序基础模型与云平台托管结合，为工业数据分析提供了可落地的开源路径。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · opensource · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Aionic Labs 正在开发时序语言模型 OpenTSLM，可将设备传感器、供需等运营指标与维护记录、市场新闻等上下文联合解读，避免把长历史指标转成文本或图像带来的高额 token 成本。该开源模型家族现已接入 Amazon SageMaker JumpStart，并提供 ARFBench 公开基准示例供开发者上手评估。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;时序基础模型与云平台托管结合，为工业数据分析提供了可落地的开源路径。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · opensource · signal 62/100&lt;/p&gt;</description>
 <source url="https://aws.amazon.com/blogs/machine-learning/reason-over-time-series-data-with-opentslm-on-amazon-sagemaker-jumpstart/">AWS Machine Learning Blog</source>
 <category>时序模型</category>
 <category>开源</category>
 <category>SageMaker</category>
 <category>工业AI</category>
 </item>
-<item><title>Spara Launches Scout, a Proactive Sales Agent That Works Without Prompts</title><link>https://x.com/rohanpaul_ai/status/2122753092735418398</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122753092735418398</guid>
+<item><title>Spara 推出主动型销售智能体 Scout</title><link>https://x.com/rohanpaul_ai/status/2122753092735418398</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122753092735418398</guid>
 <pubDate>Wed, 18 Nov 2026 02:05:50 +0800</pubDate>
-<description>&lt;p&gt;Spara launched Scout, an AI assistant for salespeople that autonomously reads CRM, inbox, call recordings and LinkedIn each morning, then texts users who to contact, why now, and a ready-to-send draft. Spara reports Scout-driven outreach hit a 10.5% reply rate versus 3.5% for traditional sequences.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Spara 推出主动型销售智能体 Scout&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了无需提示词、主动触发工作的智能体在销售场景的落地形态，并给出可对比的回复率数据。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Spara 发布面向销售人员的 AI 助手 Scout，它每天自动读取 CRM、收件箱、通话录音与 LinkedIn，主动通过 Slack 和短信告知该联系谁、为何现在联系，并生成可直接发送的邮件或 LinkedIn 草稿。官方称其自主外联回复率达 10.5%，传统序列仅为 3.5%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了无需提示词、主动触发工作的智能体在销售场景的落地形态，并给出可对比的回复率数据。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 58/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2122753092735418398">Rohan Paul (@rohanpaul_ai)</source>
 <category>智能体</category>
 <category>销售</category>
 <category>Spara</category>
 <category>主动式 AI</category>
 </item>
-<item><title>Pedestal AI Raises $4.7M Seed to Agentify Supply Chains</title><link>https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/</guid>
+<item><title>Pedestal AI 获 470 万美元融资 用智能体重构供应链</title><link>https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/</guid>
 <pubDate>Wed, 18 Nov 2026 02:04:16 +0800</pubDate>
-<description>&lt;p&gt;Pedestal AI emerged from stealth with a $4.7 million seed round led by Eclipse, with participation from RRE, Converge VC and others. The startup applies purpose-built AI agents to delivery supply chains, already working with Fortune 500 firms and major shipping companies, and cut missed deliveries by 20% for a large furniture client. The funding will expand product, engineering, marketing and deployments.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Pedestal AI 获 470 万美元融资 用智能体重构供应链&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;智能体在供应链配送场景的早期落地案例，含明确融资额与可量化效果，值得关注。&lt;/p&gt;&lt;p&gt;TechCrunch AI · agent · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Pedestal AI 以 470 万美元种子轮走出隐身模式，由 Eclipse 领投，RRE、Converge VC 等跟投。公司用专用智能体切入配送供应链，已与财富 500 强及全球大型航运企业合作，并在一家大型家具客户处将漏送率降低 20%。资金将用于扩充产品与工程团队、市场组织及更多部署。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;智能体在供应链配送场景的早期落地案例，含明确融资额与可量化效果，值得关注。&lt;/p&gt;&lt;p&gt;TechCrunch AI · agent · signal 58/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/">TechCrunch AI</source>
 <category>智能体</category>
 <category>供应链</category>
 <category>融资</category>
 </item>
-<item><title>OpenAI Releases GPT-6.2 Astra and Sol Models</title><link>https://x.com/arena/status/2122752107292099001</link><guid isPermaLink="true">https://x.com/arena/status/2122752107292099001</guid>
+<item><title>OpenAI 发布 GPT-6.2 Astra 与 Sol 双模型</title><link>https://x.com/arena/status/2122752107292099001</link><guid isPermaLink="true">https://x.com/arena/status/2122752107292099001</guid>
 <pubDate>Wed, 18 Nov 2026 02:01:55 +0800</pubDate>
-<description>&lt;p&gt;OpenAI has released GPT-6.2 Astra and Sol, positioned as highly efficient models built for real-world performance. Both are now live in Arena&amp;#x27;s Agent Arena and Code Arena tracks, where Agent Arena evaluates models on millions of real-world long-horizon agentic tasks using causal tracing methodology.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 发布 GPT-6.2 Astra 与 Sol 双模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;OpenAI 新一代 GPT-6.2 双模型发布并进入第三方智能体评测，是值得关注的前沿模型节点。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 正式发布 GPT-6.2 系列 Astra 与 Sol 两款模型，主打高效与真实场景表现，并同步上线 Agent Arena 与 Code Arena 多个评测赛道。Agent Arena 基于数百万真实长周期智能体任务，采用因果追踪方法衡量模型相对平均水平的实际成效。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;OpenAI 新一代 GPT-6.2 双模型发布并进入第三方智能体评测，是值得关注的前沿模型节点。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/arena/status/2122752107292099001">Arena.ai (@arena)</source>
 <category>大模型</category>
 <category>OpenAI</category>
 <category>智能体评测</category>
-</item>
-<item><title>Anthropic IPO Roadshow Highlights Net Talent Inflow and All Seven Co-Founders Retained</title><link>https://x.com/rohanpaul_ai/status/2122750398201205042</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122750398201205042</guid>
-<pubDate>Wed, 18 Nov 2026 01:55:08 +0800</pubDate>
-<description>&lt;p&gt;At Anthropic&amp;#x27;s IPO roadshow, CEO Dario Amodei told JPMorgan CEO Jamie Dimon that the company sees net talent inflow, with more people joining from other firms than leaving, all seven co-founders still on board, and many departures later returning. He attributed this to strict cultural screening that rejects disruptive self-promoters and those not oriented toward public benefit.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic IPO 路演披露人才净流入与七位联创全员留任&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次披露 Anthropic IPO 路演细节，涉及人才留存与组织文化的一手表态，对观察头部 AI 实验室竞争格局有参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2122750398201205042">Rohan Paul (@rohanpaul_ai)</source>
-<category>Anthropic</category>
-<category>IPO</category>
-<category>人才留存</category>
-<category>组织文化</category>
-</item>
-<item><title>OpenAI 发布 GPT-6.2 Astra 与 Sol 双模型</title><link>https://openai.com/index/introducing-gpt-6-2-astra-sol/</link><guid isPermaLink="true">https://openai.com/index/introducing-gpt-6-2-astra-sol/</guid>
-<pubDate>Wed, 18 Nov 2026 01:46:43 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 推出 GPT-6.2 Astra 与 GPT-6.2 Sol 两款新模型，前者面向高难度专业任务，后者主打日常高效工作。官方称 Astra 在智能体长程任务基准 Agents&amp;#x27; Last Exam 上比 GPT-6 Astra 高 5.2 分且成本不足三分之一，并以约 5% 的成本领先 Claude Fable 5.2 达 5.5 分。两款模型均以更少输出 token 达成更优结果，官方建议保持提示前缀不变以复用缓存、降低延迟与成本。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部厂商双模型同发并给出成本与基准的量化对比，是 AI 模型竞争时间线上的关键节点。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 88/100&lt;/p&gt;</description>
-<source url="https://openai.com/index/introducing-gpt-6-2-astra-sol/">Hacker News AI</source>
-<category>大模型</category>
-<category>OpenAI</category>
-<category>基准评测</category>
-<category>推理成本</category>
-</item>
-<item><title>美国启动 232 调查 工业机器人供应链成国家安全焦点</title><link>https://read.corematter.com/p/section-232-us-machine-tools</link><guid isPermaLink="true">https://read.corematter.com/p/section-232-us-machine-tools</guid>
-<pubDate>Wed, 18 Nov 2026 01:45:39 +0800</pubDate>
-<description>&lt;p&gt;白宫依据《1962 年贸易扩展法》第 232 条发布公告，认定机器人与工业机械进口“威胁国家安全”，并开启至 2027 年 4 月的 180 天谈判窗口，暂未加征新关税。文章指出，物理 AI 规模化的真正瓶颈在整机之下的核心零部件、稀土磁材以及制造这些零部件的母机，这为智能体机器人与制造 AI 创业者留出机会。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;从贸易政策切入，拆解物理 AI 规模化背后的零部件与母机供应链瓶颈，对关注具身智能与制造业的读者有实质参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://read.corematter.com/p/section-232-us-machine-tools">Hacker News AI</source>
-<category>具身智能</category>
-<category>供应链</category>
-<category>贸易政策</category>
-<category>工业机器人</category>
-</item>
-<item><title>OpenAI 发布 GPT-6.2 Astra 与 Sol 双模型</title><link>https://openai.com/index/introducing-gpt-6-2-astra-sol</link><guid isPermaLink="true">https://openai.com/index/introducing-gpt-6-2-astra-sol</guid>
-<pubDate>Wed, 18 Nov 2026 01:45:00 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 推出 GPT-6.2 Astra 与 GPT-6.2 Sol 两款新模型，前者面向高难度专业任务，后者主打日常高效工作。官方称 Astra 在 Agents&amp;#x27; Last Exam 上较 GPT-6 Astra 提升 5.2 分且成本不足三分之一，并以约 5% 的成本领先 Claude Fable 5.2 达 5.5 分。两款模型均以更少输出 token 完成任务，为企业和开发者提供规模化可承受的前沿性能。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;OpenAI 双模型发布并给出成本与基准对比，是 AI 时间线上的重要节点。&lt;/p&gt;&lt;p&gt;OpenAI 官方博客 · llm · signal 88/100&lt;/p&gt;</description>
-<source url="https://openai.com/index/introducing-gpt-6-2-astra-sol">OpenAI 官方博客</source>
-<category>大模型</category>
-<category>OpenAI</category>
-<category>模型发布</category>
-</item>
-<item><title>Proton 推出 Lumo 桌面版主打隐私保护</title><link>https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/</guid>
-<pubDate>Wed, 18 Nov 2026 01:32:25 +0800</pubDate>
-<description>&lt;p&gt;以隐私保护为核心的科技公司 Proton 正式发布 Lumo 桌面客户端，覆盖 Windows、macOS 与 Linux 三大平台，支持本地任务执行、连接应用与个人文件操作，并引入可复用的 Skills 机制。该产品定位为 ChatGPT 与 Claude 的隐私替代方案，试图在 AI 智能体普遍触及个人数据的趋势下提供更强的数据控制权。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;隐私优先的 AI 桌面客户端落地，反映智能体时代个人数据控制权的新竞争维度。&lt;/p&gt;&lt;p&gt;TechCrunch AI · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/">TechCrunch AI</source>
-<category>隐私计算</category>
-<category>AI 客户端</category>
-<category>Proton</category>
-<category>智能体</category>
-</item>
-<item><title>研究揭示基准低分可被精确制造</title><link>https://x.com/rohanpaul_ai/status/2122742556635377890</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122742556635377890</guid>
-<pubDate>Wed, 18 Nov 2026 01:23:58 +0800</pubDate>
-<description>&lt;p&gt;一篇新论文指出，模型在危险能力探针上的低分可能来自人为压制而非真实能力不足，因此单看分数几乎无法证明安全性。研究者用 LoRA 训练出一个“调节旋钮”，把 Qwen 模型拉向更小的 Qwen 模型，可在 1.9 分以内命中未见过的目标分数，而提示词诱导的偏差高达 42 至 47 分。更关键的是，该旋钮产生的新错误中最多 97% 集中在同一个选项字母上，这种错误分布特征可作为识别人为压分的信号。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究直接挑战以基准低分作为安全证据的通行做法，并给出可操作的错误分布检测方法，对模型评测与安全治理有实质影响。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2122742556635377890">Rohan Paul (@rohanpaul_ai)</source>
-<category>模型评测</category>
-<category>AI 安全</category>
-<category>LoRA</category>
-<category>基准测试</category>
 </item>
 </channel>
 </rss>
