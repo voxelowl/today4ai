@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Tue, 17 Nov 2026 07:26:46 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 17 Nov 2026 08:14:08 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>阿里发布 2.4 万亿参数 Qwen4-Max 任务成本降超 60%</title><link>https://todayforai.com/en/story/story-5a6c2c19-ef6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5a6c2c19-ef6</guid>
-<pubDate>Tue, 17 Nov 2026 00:56:04 +0800</pubDate>
+<pubDate>Tue, 17 Nov 2026 08:14:08 +0800</pubDate>
 <description>&lt;p&gt;阿里巴巴正式发布新一代基座大模型 Qwen4 系列，旗舰版 Qwen4-Max 同步上线千问 AI 平台与 QwenCloud API。该模型采用基于 Qwen 稀疏注意力（QSA）的全新 MoE 架构，总参数达 2.4 万亿，每 token 激活 71B 参数，并配备 328B N-gram Embedding 参数，原生支持视觉理解与 100 万 token 上下文窗口。官方称其在编程、办公与长程任务上全面超越前代 Qwen3.8-Max，同等性能下任务成本降低超 60%，单任务 Token 消耗减少近 50%。
 
 第三方评测机构数据交叉验证了官方说法。Artificial Analysis 智能指数显示，Qwen4-Max 以 xhigh 推理档位取得 43 分，较 Qwen3.8-Max 提升 9 分，单任务成本降至 3.27 美元，约为前代三分之一，并比 Kimi K3.1 Pro 低约 11%。Arena.ai 数据显示，Qwen4-Max 在 Agent Arena 首秀即位列总榜第 14 名，较前代第 39 名大幅跃升，成为排名最高的中国模型，使阿里成为中文第一、全球第五的实验室；在 Code Arena WebDev 榜单以 1750 分位列第 6，较前代提升 74 分。在 1.47 万次真实智能体会话中实现 7.5% 净提升，用户满意度与可控性提升最显著。
 
-Qwen4-Max 的发布标志着阿里在稀疏 MoE 架构与长上下文效率上的系统性突破，其成本优势可能重塑企业级 AI 应用的性价比基准。模型已通过 OpenRouter 等平台开放，小尺寸同源模型将陆续…&lt;/p&gt;&lt;p&gt;10 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, Artificial Analysis (@ArtificialAnlys), OpenRouter (@OpenRouter), Arena.ai (@arena), Qwen 官方博客 (通义), IT之家 · 智能时代&lt;/p&gt;</description>
+Qwen4-Max 的发布标志着阿里在稀疏 MoE 架构与长上下文效率上的系统性突破，其成本优势可能重塑企业级 AI 应用的性价比基准。模型已通过 OpenRouter 等平台开放，小尺寸同源模型将陆续…&lt;/p&gt;&lt;p&gt;11 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, Artificial Analysis (@ArtificialAnlys), OpenRouter (@OpenRouter), Arena.ai (@arena), Qwen 官方博客 (通义), IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 <item><title>腾讯混元 Hy4 flash 发布 单任务成本降至 Hy4 的 5%</title><link>https://todayforai.com/en/story/story-31af8399-33e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-31af8399-33e</guid>
 <pubDate>Tue, 17 Nov 2026 01:09:00 +0800</pubDate>
@@ -67,6 +67,14 @@ Browse 的发布标志着 AI 智能体在真实环境中的操作能力迈出重
 
 此举将前沿 AI 工具大规模引入学术研究场景，有望降低科研人员使用大模型的门槛，加速跨学科研究。但服务等级下调也引发对免费版功能限制的讨论，OpenAI 需在扩大覆盖与保证体验之间取得平衡。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, OpenAI 官方博客&lt;/p&gt;</description>
 </item>
+<item><title>英伟达发布 Rubin HPC GPU 单卡超 5 万 CUDA 核心</title><link>https://todayforai.com/en/story/story-340b9b7e-646</link><guid isPermaLink="true">https://todayforai.com/en/story/story-340b9b7e-646</guid>
+<pubDate>Tue, 17 Nov 2026 07:52:18 +0800</pubDate>
+<description>&lt;p&gt;英伟达在 SC26 大会正式发布 Vera Rubin 平台新成员 Rubin HPC GPU，单卡 CUDA 核心数突破 5 万个，创下英伟达 GPU 核心数量新纪录，约为 RTX PRO 6000 Blackwell 的两倍。该卡专为科学计算、工程仿真与数据分析设计，引入稀疏数据加速能力与第七代 NVLink 互联，旨在应对气候建模、基因组分析、金融风险计算等稀疏矩阵与模板计算负载。
+
+综合多方信源，Rubin HPC GPU 在架构上强调均衡设计，通过稀疏数据加速维持核心数据供给，并利用第七代 NVLink 提升多卡互联带宽，以加速智能体驱动的科研闭环，缩短假设、仿真与迭代周期。不过，英伟达尚未公布详细参数与功耗，且产品预计 2028 年才上市，短期内对市场无实质影响。
+
+尽管落地尚早，Rubin HPC GPU 的发布仍释放出明确信号：英伟达正将 GPU 竞争从通用 AI 训练延伸至科学计算与智能体科研场景，试图以超大规模核心与稀疏加速能力卡位下一代 HPC 市场。这对依赖仿真与数据分析的科研机构与金融、生命科学等行业将产生深远影响，同时也给 AMD、英特尔等竞争对手带来新的压力。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;LangChain Blog, IT之家 · 智能时代, NVIDIA Blog&lt;/p&gt;</description>
+</item>
 <item><title>Altman 称黄仁勋离职不影响 AI 行业增长</title><link>https://todayforai.com/en/story/story-8d81247c-ccb</link><guid isPermaLink="true">https://todayforai.com/en/story/story-8d81247c-ccb</guid>
 <pubDate>Tue, 17 Nov 2026 04:37:27 +0800</pubDate>
 <description>&lt;p&gt;OpenAI CEO Sam Altman 首次公开回应英伟达 CEO 黄仁勋因个人丑闻离职一事，明确表示 AI 行业的真实需求与营收增长足够强劲，不会因单一领导者的变动而失速。此番表态发生在业界联名呼吁英伟达恢复黄仁勋职务、担忧其离职动摇公司激进投资策略的背景下。
@@ -74,10 +82,6 @@ Browse 的发布标志着 AI 智能体在真实环境中的操作能力迈出重
 Altman 在 Yahoo Finance 采访中拒绝对黄仁勋是否应回归英伟达直接表态，称了解不够，但高度评价黄仁勋为“心目中的英雄”，并强调“很难想象没有他的 AI 革命”。他同时回应了英伟达为 OpenAI 俄亥俄州数据中心提供的最高 1050 亿美元租用担保，认为市场对英伟达的信任依然稳固，当前 AI 需求与收入快速增长足以消化相关连锁风险。
 
 此番言论旨在稳定市场情绪，缓解外界对英伟达领导层变动可能引发 AI 投资收缩的担忧。黄仁勋的离职恰逢 AI 行业资本支出处于历史高位，英伟达的千亿担保被视为全行业信用背书，Altman 的背书有助于维护投资者信心，但黄仁勋的个人影响力能否被制度性安排替代，仍是行业长期关注的焦点。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, 宝玉 (@dotey)&lt;/p&gt;</description>
-</item>
-<item><title>Meta 发布 Muse Ember 刷新 WebDev 性价比前沿</title><link>https://todayforai.com/en/story/story-0fdbd702-0fe</link><guid isPermaLink="true">https://todayforai.com/en/story/story-0fdbd702-0fe</guid>
-<pubDate>Tue, 17 Nov 2026 03:14:28 +0800</pubDate>
-<description>&lt;p&gt;Arena.ai 更新 Code Arena: WebDev 性价比前沿，Meta 的 Muse Ember 成为五款新上榜模型中对前沿推动最大的一款。在约 3 美分/答案的价位上，其得分达 1608，较此前同价位最佳的 1438 提升约 170 分，对战胜率约 73%。同期上榜的还有 Claude Fable 5.2、Gemini 4 Carbon、Kimi K3.1 Pro 与 GPT-6.1 Terra。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Arena.ai (@arena)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
