@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Tue, 17 Nov 2026 14:02:15 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 17 Nov 2026 14:20:43 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>PFN Advances Vertical Stacked DRAM Chip with Doubled Memory Bandwidth Target</title><link>https://www.ithome.com/1/028/240.htm</link><guid isPermaLink="true">https://www.ithome.com/1/028/240.htm</guid>
+<pubDate>Tue, 17 Nov 2026 14:20:43 +0800</pubDate>
+<description>&lt;p&gt;PFN announced that its MN-Core L2000 AI inference accelerator will continue its partnership with SEMIFIVE and Samsung, retaining the vertically stacked logic-and-DRAM architecture and targeting more than double the memory bandwidth of L1000. The L1000 offers 200 TFLOPS FP8 per chip with 32GB on-package memory at over 10TB/s, ships in 2027, while L2000 tape-out is slated for Q1 2027.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;PFN 推进垂直堆叠 DRAM 芯片 L2000 目标内存带宽翻倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;日本 AI 芯片自研路线的重要节点，垂直堆叠 DRAM 方案对推理带宽瓶颈具有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/028/240.htm">IT之家 · 智能时代</source>
+<category>芯片算力</category>
+<category>AI 推理加速器</category>
+<category>PFN</category>
+</item>
 <item><title>Samsung Develops Custom HBM4E for Meta with 2nm Base Die</title><link>https://www.ithome.com/1/028/234.htm</link><guid isPermaLink="true">https://www.ithome.com/1/028/234.htm</guid>
 <pubDate>Tue, 17 Nov 2026 14:02:15 +0800</pubDate>
 <description>&lt;p&gt;Samsung Electronics is developing custom HBM for Meta&amp;#x27;s proprietary ASIC program, built on standard HBM4E but with a customized base die that adopts a 2nm logic process ahead of Samsung&amp;#x27;s own general-purpose roadmap. The move frees up XPU die area for Meta and shifts custom HBM competition toward the HBM-to-XPU interface rather than capacity alone.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;三星为 Meta 定制 HBM4E 采用 2nm 基础裸片&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大厂自研 ASIC 与定制 HBM 深度绑定，2nm 基础裸片先行导入是存储与算力协同设计的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 72/100&lt;/p&gt;</description>
@@ -139,9 +147,9 @@
 <category>CUDA</category>
 <category>GPU Kernel</category>
 </item>
-<item><title>BF16 Tiling Delivers 1.5x Speedup and 28.5% Energy Cut on A40</title><link>https://cwtractors.com</link><guid isPermaLink="true">https://cwtractors.com</guid>
+<item><title>BF16 分块优化在 A40 上实现 1.5 倍加速与 28.5% 能耗下降</title><link>https://cwtractors.com</link><guid isPermaLink="true">https://cwtractors.com</guid>
 <pubDate>Tue, 17 Nov 2026 09:31:35 +0800</pubDate>
-<description>&lt;p&gt;The author optimized a 2D seven-point hexagonal Ising lattice simulation on an NVIDIA A40 using BF16 tiling and a unified logic protocol, achieving roughly 1.477x speedup and 28.5% (L=4608) to 27.1% (L=9216) reductions in dynamic energy. The methodology freezes specifications and runs multi-model red-team audits before compiling or renting compute, with NVML energy measurements disclosed.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;BF16 分块优化在 A40 上实现 1.5 倍加速与 28.5% 能耗下降&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了可复现的 BF16 分块优化方法与实测能耗数据，对 GPU 内核调优与能效评估有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;作者在 NVIDIA A40 上通过 BF16 分块（tiling）与统一逻辑协议，对二维七点六角 Ising 晶格模拟进行优化，实测获得约 1.477 倍加速，动态能耗下降 28.5%（L=4608）与 27.1%（L=9216）。方法强调先冻结规格、再经多模型红队审计，随后才编译与租用算力，并公开了 NVML 能耗测量数据。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了可复现的 BF16 分块优化方法与实测能耗数据，对 GPU 内核调优与能效评估有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 58/100&lt;/p&gt;</description>
 <source url="https://cwtractors.com">Hacker News AI</source>
 <category>GPU 优化</category>
 <category>BF16</category>
@@ -263,15 +271,6 @@
 <category>大模型</category>
 <category>模型评测</category>
 <category>Artificial Analysis</category>
-</item>
-<item><title>Corma 三个月估值达 10 亿美元 融资 1.25 亿</title><link>https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/</guid>
-<pubDate>Tue, 17 Nov 2026 07:32:32 +0800</pubDate>
-<description>&lt;p&gt;AI 网络安全初创公司 Corma 在产品发布约三个月后完成 1.25 亿美元 A 轮融资，估值达 10 亿美元，由 NEA 领投，累计融资 1.85 亿美元。Corma 定位为专注防御的前沿 AI 研究实验室，提供面向网络安全攻防的模型与智能体，其热度在 10 月 21 日 PHP、Node.js 与 LiteLLM 等连环安全事件后迅速攀升。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;三个月内从产品发布到 10 亿美元估值的融资节奏，是 AI 安全赛道资本热度与真实安全事件驱动的典型样本。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 72/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/">TechCrunch AI</source>
-<category>AI 安全</category>
-<category>融资</category>
-<category>智能体</category>
-<category>网络安全</category>
 </item>
 </channel>
 </rss>
