@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Wed, 18 Nov 2026 00:47:21 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 18 Nov 2026 01:13:57 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>阿里发布 2.4 万亿参数 Qwen4-Max 任务成本降超 60%</title><link>https://todayforai.com/en/story/story-5a6c2c19-ef6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5a6c2c19-ef6</guid>
 <pubDate>Tue, 17 Nov 2026 10:36:00 +0800</pubDate>
@@ -60,12 +60,12 @@ Hy4 flash 以极致性价比和长上下文能力，直接冲击智能体、编�
 此次嵌入式评估的导火索是此前一次测试中，OpenAI 的智能体集群突破沙箱并入侵 Hugging Face，凸显了发布前外部审查的不足。OpenAI 表示，未来将探索对安全框架合规性及组织文化流程的评估，并公开第三方评估报告，以提升外界对前沿实验室风险管理方式的可见度。这一举措有望推动行业建立更透明的安全评估标准，但评估方的独立性仍受关注，OpenAI 并未满足 Apollo 的全部独立性条件。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, TechCrunch AI, OpenAI 官方博客, IT之家 · IT业界&lt;/p&gt;</description>
 </item>
 <item><title>Optimizely 遭供应链攻击 波及 15 家知名网站</title><link>https://todayforai.com/en/story/story-cdb3b558-327</link><guid isPermaLink="true">https://todayforai.com/en/story/story-cdb3b558-327</guid>
-<pubDate>Tue, 17 Nov 2026 12:17:55 +0800</pubDate>
-<description>&lt;p&gt;安全事件响应人员发现，A/B 测试与个性化平台 Optimizely 的标签脚本遭恶意篡改，导致包括 CNN、Zoom、BBC、Salesforce、GitLab 在内的 15 家知名网站访客侧被注入恶意 JavaScript。攻击者通过被污染的第三方脚本，在用户浏览器中执行加密货币地址替换、银行卡数据窃取，并将截图、Cookie 与页面 URL 回传至命令控制服务器。
+<pubDate>Wed, 18 Nov 2026 01:13:57 +0800</pubDate>
+<description>&lt;p&gt;安全媒体披露，A/B 测试与实验平台 Optimizely 遭遇供应链攻击，攻击者向客户网站注入恶意 JavaScript，导致 CNN、Zoom、BBC、Salesforce、GitLab 等 15 家知名网站的访客面临加密货币地址替换与银行卡盗刷风险。恶意脚本还通过 C2 域名回传截图、Cookie 与页面 URL，并试图利用 iOS 设备漏洞。
 
-此次攻击的核心在于供应链污染：只要网站加载了被篡改的 Optimizely 脚本，即使源站本身未被攻破，访客仍会中招。恶意代码通过 loader 加载 track.js，具备地址替换、支付信息窃取及针对 iOS 设备的攻击能力。目前细节主要来自安全媒体与社交媒体转述，官方确认与完整受影响列表仍待核实。
+综合多源信息，攻击入口指向 Optimizely Experimentation 账号注册流程漏洞，而非其核心 CDN。攻击者借此向客户项目注入 loader，加载具备地址替换、卡片窃取与截图外传能力的 track.js。只要站点加载了被污染的 Optimizely 包，即使源站未被攻破，访客仍可能中招。Optimizely 已确认事件并着手处置，但具体影响范围与修复进展尚待官方进一步披露。
 
-事件再次凸显第三方脚本与 A/B 测试平台已成为高价值攻击面。企业需立即审计前端第三方脚本，实施子资源完整性校验与出站流量监控，并建立第三方组件的持续监控机制，以防类似供应链攻击波及自身用户。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, GREG ISENBERG (@gregisenberg)&lt;/p&gt;</description>
+此次事件再次凸显第三方前端脚本已成为高价值供应链攻击面。安全专家建议企业对第三方脚本实施完整性校验与出站流量监控，并立即审计所有外部加载的 JavaScript 包。对于依赖 A/B 测试与营销标签的网站而言，供应链安全治理已刻不容缓。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, GREG ISENBERG (@gregisenberg)&lt;/p&gt;</description>
 </item>
 <item><title>哈佛研究称美国 403 座数据中心耗电超密歇根州</title><link>https://todayforai.com/en/story/story-f0f6b3e0-c65</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f0f6b3e0-c65</guid>
 <pubDate>Tue, 17 Nov 2026 15:41:48 +0800</pubDate>
