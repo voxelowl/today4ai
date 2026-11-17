@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Tue, 17 Nov 2026 23:26:32 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 17 Nov 2026 23:57:09 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>ArisGlobal Cuts Bedrock Inference Costs by Reordering Prompt Cache</title><link>https://aws.amazon.com/blogs/machine-learning/how-arisglobal-scaled-generative-ai-inference-on-amazon-bedrock/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/how-arisglobal-scaled-generative-ai-inference-on-amazon-bedrock/</guid>
+<pubDate>Tue, 17 Nov 2026 23:57:09 +0800</pubDate>
+<description>&lt;p&gt;Life-sciences SaaS vendor ArisGlobal runs its NavaX engine on Amazon Bedrock to automate pharmacovigilance adverse-event case processing. As multi-tenant compliance requirements pushed the shared prompt prefix up roughly 150% in six months and per-case inference costs up over 200%, the team reversed its caching strategy to cache the shared prefix instead of each source document, cutting effective input cost and enabling tenant growth without proportional spend.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;ArisGlobal 逆转缓存顺序降本 200%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;一个具体可复用的提示缓存工程实践，揭示了多租户场景下缓存命中顺序对成本的量级影响。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · compute · signal 58/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/how-arisglobal-scaled-generative-ai-inference-on-amazon-bedrock/">AWS Machine Learning Blog</source>
+<category>提示缓存</category>
+<category>Amazon Bedrock</category>
+<category>推理成本</category>
+<category>多租户</category>
+</item>
 <item><title>Kuaishou Kling Releases Image 4.0 with Native 8K and 2000-Word Text Rendering</title><link>https://www.ithome.com/1/028/563.htm</link><guid isPermaLink="true">https://www.ithome.com/1/028/563.htm</guid>
 <pubDate>Tue, 17 Nov 2026 23:26:32 +0800</pubDate>
 <description>&lt;p&gt;Kuaishou&amp;#x27;s Kling AI launched Kling Image 4.0, a next-generation image creation model built on a unified understanding-generation architecture. It debuts native 8K image generation, renders up to 2,000 characters of text within a single image, and can produce up to 10 coherent image sets or long-form layouts from one prompt, with native agentic planning and API access for enterprises and developers.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;快手可灵发布 Kling Image 4.0 支持原生 8K 与 2000 字生成&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产图像生成模型在分辨率、文字渲染与组图规划上同步跃升，并开放 API，对多模态创作与电商设计场景有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 72/100&lt;/p&gt;</description>
@@ -101,6 +110,16 @@
 <category>百度</category>
 <category>小米</category>
 </item>
+<item><title>AMD Closes $8.2B World Labs Deal, Appoints Fei-Fei Li Chief Scientist</title><link>https://www.qbitai.com/2026/11/510695.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/510695.html</guid>
+<pubDate>Tue, 17 Nov 2026 22:15:20 +0800</pubDate>
+<description>&lt;p&gt;AMD completed its acquisition of World Labs, the spatial intelligence startup co-founded by Fei-Fei Li, on November 13, issuing about 14.98 million shares in an all-stock deal valued at roughly $8.2 billion and closing in just 46 days, making it AMD&amp;#x27;s second-largest acquisition ever. Fei-Fei Li becomes Executive Vice President and Chief Scientist reporting directly to Lisa Su, with the World Labs team folded into AMD to bolster its 3D world model and physical AI capabilities.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AMD 以 82 亿美元完成收购 World Labs，李飞飞出任首席科学家&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;82 亿美元全股票并购落地，李飞飞进入 AMD 核心管理层，是芯片巨头争夺物理 AI 与空间智能的关键节点。&lt;/p&gt;&lt;p&gt;量子位官网 · industry · signal 88/100&lt;/p&gt;</description>
+<source url="https://www.qbitai.com/2026/11/510695.html">量子位官网</source>
+<category>AMD</category>
+<category>World Labs</category>
+<category>李飞飞</category>
+<category>并购</category>
+<category>物理AI</category>
+</item>
 <item><title>Nvidia Forms National Security and Export Control Oversight Committee</title><link>https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/17/nvidias-first-big-move-after-jensen-huangs-exit-targets-national-security/</guid>
 <pubDate>Tue, 17 Nov 2026 22:05:30 +0800</pubDate>
 <description>&lt;p&gt;Nvidia has established a board-level standing committee to oversee national security policy, export control compliance, and global trade risk following the abrupt resignation of CEO Jensen Huang over alleged ties to a suspected Chinese spy. The move comes as U.S. lawmakers intensify scrutiny and the Commerce Department plans new export controls on AI chips and data centers outside the U.S.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达设立国家安全与出口管制监督委员会&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达在 CEO 辞职风波后首次重大治理动作，直接关联 AI 芯片出口管制走向，对算力供应链影响深远。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 71/100&lt;/p&gt;</description>
@@ -118,6 +137,16 @@
 <category>Grok Bot</category>
 <category>可观测性</category>
 <category>权限控制</category>
+</item>
+<item><title>NVIDIA Unveils Nemotron for Science Agent Platform at SC26</title><link>https://blogs.nvidia.com/blog/ian-buck-sc26/</link><guid isPermaLink="true">https://blogs.nvidia.com/blog/ian-buck-sc26/</guid>
+<pubDate>Tue, 17 Nov 2026 22:00:10 +0800</pubDate>
+<description>&lt;p&gt;At SC26 in Chicago, NVIDIA&amp;#x27;s Ian Buck announced Nemotron for Science, agent software that plans experiments, runs code and verifies results on researchers&amp;#x27; own systems, alongside the Rubin HPC GPU and an expanded Vera CPU platform. NVIDIA also detailed a quantum-classical co-design collaboration with IBM and Fermilab plus an error-correction breakthrough.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达发布 Nemotron for Science 智能体科研平台&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达一次性发布科研智能体软件、Rubin HPC GPU 与 Vera CPU 扩展，并联合 IBM 推进量子纠错，是算力与 AI for Science 交叉的重要节点。&lt;/p&gt;&lt;p&gt;NVIDIA Blog · compute · signal 72/100&lt;/p&gt;</description>
+<source url="https://blogs.nvidia.com/blog/ian-buck-sc26/">NVIDIA Blog</source>
+<category>英伟达</category>
+<category>AI for Science</category>
+<category>智能体</category>
+<category>高性能计算</category>
+<category>量子计算</category>
 </item>
 <item><title>Gemini 4 Argon Tops Artificial Analysis Metaphor Benchmark</title><link>https://x.com/ArtificialAnlys/status/2122691228856709575</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2122691228856709575</guid>
 <pubDate>Tue, 17 Nov 2026 22:00:01 +0800</pubDate>
@@ -201,17 +230,26 @@
 <category>生成式 AI</category>
 <category>韩国</category>
 </item>
-<item><title>Marsh Says Hackers Are Using AI Agents to Hunt for Security Flaws</title><link>https://www.ithome.com/1/028/489.htm</link><guid isPermaLink="true">https://www.ithome.com/1/028/489.htm</guid>
+<item><title>李沐出任 Aimotion 联合创始人兼 CTO</title><link>https://www.qbitai.com/2026/11/510688.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/510688.html</guid>
+<pubDate>Tue, 17 Nov 2026 19:40:37 +0800</pubDate>
+<description>&lt;p&gt;前 AWS AI 资深首席科学家、Boson AI 联合创始人李沐正式出任硅谷 AI 公司 Aimotion 的联合创始人兼 CTO，带队搭建面向汽车等高价值行业的产业级 AI 技术体系。Aimotion 近期完成数千万美元 A 轮融资，由 BAI Capital 领投，并将与 Boson AI 联合攻关产业级世界模型与商业 AI Agent。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;顶级 AI 科学家出任产业 AI 公司 CTO 并伴随数千万美元融资，是值得关注的产业与人才动向。&lt;/p&gt;&lt;p&gt;量子位官网 · industry · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.qbitai.com/2026/11/510688.html">量子位官网</source>
+<category>产业AI</category>
+<category>人才流动</category>
+<category>融资</category>
+<category>AI Agent</category>
+</item>
+<item><title>达信称黑客正用 AI 智能体搜寻漏洞</title><link>https://www.ithome.com/1/028/489.htm</link><guid isPermaLink="true">https://www.ithome.com/1/028/489.htm</guid>
 <pubDate>Tue, 17 Nov 2026 18:55:35 +0800</pubDate>
-<description>&lt;p&gt;Insurance broker Marsh reported that its clients logged 105 cyber incidents in the last two weeks of October, more than double the 48 seen in late May. Its cyber risk lead said there are signs hackers are using AI tools and agents to find unpatched flaws, exposed systems and weak authentication faster, arguing AI is not a risk itself but an amplifier. GlobalData expects cyber insurance premiums to rise 6.9% to $16.6 billion in 2026.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;达信称黑客正用 AI 智能体搜寻漏洞&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以保险侧真实事件数据揭示 AI 智能体被用于攻击面扫描，是观察 AI 安全攻防态势的行业信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;保险经纪公司达信披露，其客户在 10 月最后两周报告 105 起网络安全事件，较 5 月同期翻倍以上。达信网络风险负责人称，有迹象表明黑客正借助 AI 工具与智能体加速发现未修补漏洞、暴露系统与薄弱认证，AI 本身不是风险，但会放大各领域风险。GlobalData 预计网络保险保费 2026 年增长 6.9% 至 166 亿美元。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以保险侧真实事件数据揭示 AI 智能体被用于攻击面扫描，是观察 AI 安全攻防态势的行业信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/028/489.htm">IT之家 · 智能时代</source>
 <category>AI 安全</category>
 <category>网络保险</category>
 <category>智能体</category>
 </item>
-<item><title>NVIDIA Open-Sources NVKE and NVKR for Self-Hosted Managed Kubernetes on GPU Clouds</title><link>https://x.com/Marktechpost/status/2122641110996861358</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2122641110996861358</guid>
+<item><title>英伟达开源 NVKE 与 NVKR 让 GPU 云自建托管 K8s</title><link>https://x.com/Marktechpost/status/2122641110996861358</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2122641110996861358</guid>
 <pubDate>Tue, 17 Nov 2026 18:40:52 +0800</pubDate>
-<description>&lt;p&gt;NVIDIA has open-sourced NVKE and NVKR under Apache 2.0, a reference stack that lets GPU cloud providers run their own EKS-style managed Kubernetes service on bare metal. NVKE is the management plane, exposing a REST API and controllers that spin up customer clusters each with its own control plane, etcd and node pools, while NVKR builds and signs the node images, container images and Helm charts those clusters consume. The stack is conformance tested on Kubernetes 1.36 and certified as a Kubernetes AI Platform, and nodes must present a TPM-attested SPIFFE identity before receiving join credentials; however, the NVKE API serves plain HTTP with authentication disabled and lacks management-plane upgrade and backup procedures.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达开源 NVKE 与 NVKR 让 GPU 云自建托管 K8s&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达把托管 K8s 控制面开源，直接冲击 GPU 云自建服务的门槛与 Gardener 等同类项目。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · compute · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;英伟达以 Apache 2.0 协议开源 NVKE 与 NVKR 参考栈，让 GPU 云厂商能在裸金属上自建类似 EKS 的托管 Kubernetes 服务。NVKE 负责管理面，通过 REST API 与控制器创建带独立控制面、etcd 和节点池的客户集群；NVKR 负责构建并签名节点镜像、容器镜像与 Helm Chart。该栈已通过 Kubernetes 1.36 一致性测试并获 Certified Kubernetes AI Platform 认证，节点需先出示 TPM 认证的 SPIFFE 身份才能获取加入凭证，但目前管理面 API 以明文 HTTP 暴露且无鉴权，也缺少升级与备份流程。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达把托管 K8s 控制面开源，直接冲击 GPU 云自建服务的门槛与 Gardener 等同类项目。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · compute · signal 72/100&lt;/p&gt;</description>
 <source url="https://x.com/Marktechpost/status/2122641110996861358">Marktechpost (@Marktechpost)</source>
 <category>英伟达</category>
 <category>Kubernetes</category>
@@ -236,42 +274,6 @@
 <category>代码生成</category>
 <category>验证闭环</category>
 <category>Anthropic</category>
-</item>
-<item><title>长鑫 LPDDR6 速率达 12800Mbps 并拓展智能驾驶场景</title><link>https://www.ithome.com/1/028/457.htm</link><guid isPermaLink="true">https://www.ithome.com/1/028/457.htm</guid>
-<pubDate>Tue, 17 Nov 2026 18:20:35 +0800</pubDate>
-<description>&lt;p&gt;长鑫科技在 2026 年第三季度业绩说明会上表示，车载内存已演进至 LPDDR5X，正加快 LPDDR6 在车载场景的拓展，目标覆盖智能驾驶、边缘计算与高能效服务器。其首款 LPDDR6 已在国内旗舰手机量产，最高速率 12800Mbps，带宽较 LPDDR5X 提升 60%、功耗下降 20%。公司同时判断端侧 AI 存储需求增速显著高于其他细分赛道。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产存储厂商给出 LPDDR6 具体速率与能效数据，并明确向车规与边缘场景延伸，是观察端侧 AI 内存供给的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/028/457.htm">IT之家 · IT业界</source>
-<category>存储芯片</category>
-<category>LPDDR6</category>
-<category>智能驾驶</category>
-<category>端侧 AI</category>
-</item>
-<item><title>OVHcloud 开源 70 亿参数 Olala mini 7A1B</title><link>https://www.ithome.com/1/028/453.htm</link><guid isPermaLink="true">https://www.ithome.com/1/028/453.htm</guid>
-<pubDate>Tue, 17 Nov 2026 18:06:46 +0800</pubDate>
-<description>&lt;p&gt;欧洲云服务商 OVHcloud 发布首个 AI 模型家族 Olala，首款成员 Olala mini 7A1B 以 Apache 2.0 许可开源。该模型采用 Differential-TPA 与 Mamba-3 混合注意力机制，总参数 70 亿、激活参数 10 亿，可在 8GB 显存 GPU 上运行，训练总开销约 700 万欧元。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;欧洲云厂商首次自研开源模型，混合注意力架构与低显存部署门槛具备技术参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 72/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/028/453.htm">IT之家 · 智能时代</source>
-<category>开源模型</category>
-<category>OVHcloud</category>
-<category>混合注意力</category>
-<category>Mamba</category>
-</item>
-<item><title>Sarvam 在印度开放 Token Factory 推理平台</title><link>https://x.com/Marktechpost/status/2122629246078329278</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2122629246078329278</guid>
-<pubDate>Tue, 17 Nov 2026 17:53:43 +0800</pubDate>
-<description>&lt;p&gt;印度 AI 公司 Sarvam 向所有用户开放 Sarvam Token Factory 推理平台，基于印度本地 GPU 集群同时托管自研模型与主流开源权重模型。其核心是共享前缀缓存与缓存感知路由，并将 prefill 与 decode 拆分到独立的 B200 资源池，官方自报在 Kimi K3.1 Pro 上单 GPU 吞吐达 6,177 tokens/s。不过部分场景下其流式速度仍落后 Together，且所有数据均为自报。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是印度本土推理基础设施的一次实质性开放，缓存感知路由与 prefill/decode 分离的工程方案具备参考价值。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · compute · signal 62/100&lt;/p&gt;</description>
-<source url="https://x.com/Marktechpost/status/2122629246078329278">Marktechpost (@Marktechpost)</source>
-<category>推理基础设施</category>
-<category>Sarvam</category>
-<category>前缀缓存</category>
-<category>印度 AI</category>
-</item>
-<item><title>雷军称具身智能机器人想象力将超汽车产业</title><link>https://www.ithome.com/1/028/437.htm</link><guid isPermaLink="true">https://www.ithome.com/1/028/437.htm</guid>
-<pubDate>Tue, 17 Nov 2026 17:53:00 +0800</pubDate>
-<description>&lt;p&gt;雷军在 2026 年 APEC 工商领导人峰会上表示，AI 走向物理世界将带来巨大机会，具身智能机器人的产业想象力会超过汽车产业。他还透露小米已建成无人工厂，并正探索将其升级为可自主生产、自主发现问题、自主迭代的工业智能体。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;小米掌门人对具身智能产业量级的公开判断，兼有工业智能体落地进展，具备行业风向参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/028/437.htm">IT之家 · 智能时代</source>
-<category>具身智能</category>
-<category>小米</category>
-<category>工业智能体</category>
-<category>机器人</category>
 </item>
 </channel>
 </rss>
