@@ -1,8 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Tue, 17 Nov 2026 09:18:56 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 17 Nov 2026 10:13:41 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>AI Notes App Mem to Shut Down in January 2027</title><link>https://get.mem.ai/blog/mem-is-shutting-down</link><guid isPermaLink="true">https://get.mem.ai/blog/mem-is-shutting-down</guid>
+<pubDate>Tue, 17 Nov 2026 10:13:41 +0800</pubDate>
+<description>&lt;p&gt;AI notes app Mem announced it will shut down on January 15, 2027, with notes becoming read-only from December 18, 2026, and all billing paused. The company is focusing its final weeks on data export, offering a migration guide to Apple Notes, Notion and other platforms.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 笔记应用 Mem 宣布 2027 年 1 月关停&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;又一家 AI 原生应用退场，反映 AI 笔记赛道商业化与留存压力，对关注 AI 产品落地者具参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 42/100&lt;/p&gt;</description>
+<source url="https://get.mem.ai/blog/mem-is-shutting-down">Hacker News AI</source>
+<category>AI 应用</category>
+<category>产品关停</category>
+<category>笔记工具</category>
+</item>
+<item><title>Free Interactive Course Launches on AI Agent Governance</title><link>https://studio.sinapsdata.com.br</link><guid isPermaLink="true">https://studio.sinapsdata.com.br</guid>
+<pubDate>Tue, 17 Nov 2026 10:12:13 +0800</pubDate>
+<description>&lt;p&gt;A free interactive course on AI agent governance has been posted to Hacker News under Show HN, covering governance mechanisms and norms for agentic systems. The course is presented in an interactive format, but only the title is currently disclosed, with no syllabus, module content, or technical details available.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;免费互动课程上线 聚焦 AI 智能体治理&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;智能体治理是 Agent 落地的重要配套议题，但当前仅有课程标题，缺乏可评估的实质内容。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 38/100&lt;/p&gt;</description>
+<source url="https://studio.sinapsdata.com.br">Hacker News AI</source>
+<category>智能体</category>
+<category>AI 治理</category>
+<category>在线课程</category>
+</item>
+<item><title>Penn State Study Shows Self-Evolving AI Agents Can Be Backdoored via Poisoned Tasks</title><link>https://x.com/rohanpaul_ai/status/2122509527270539693</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122509527270539693</guid>
+<pubDate>Tue, 17 Nov 2026 09:58:00 +0800</pubDate>
+<description>&lt;p&gt;A Penn State paper introduces BadEvolve, an attack that injects just 20 LLM-optimized poisoned tasks into a self-evolving agent&amp;#x27;s learning set, causing the agent to write attacker-chosen backdoor rules into reusable skills. Against Kimi-K2.5 across 4 frameworks and 3 benchmarks, it achieved a 79.6% payload injection rate versus 37.6% for the best baseline, while clean-task accuracy dropped only 1.1 points. The authors advise treating user-submitted or external learning tasks as untrusted and reviewing learned skills before reuse.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;宾州州立大学新研究揭示自进化智能体技能后门注入风险&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次系统揭示自进化智能体技能学习链路的后门攻击面，攻击成功率近 80% 且几乎不影响正常性能，对智能体安全工程有直接警示价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2122509527270539693">Rohan Paul (@rohanpaul_ai)</source>
+<category>智能体安全</category>
+<category>后门攻击</category>
+<category>自进化智能体</category>
+<category>论文</category>
+</item>
+<item><title>BF16 Tiling Delivers 1.5x Speedup and 28.5% Energy Cut on A40</title><link>https://cwtractors.com</link><guid isPermaLink="true">https://cwtractors.com</guid>
+<pubDate>Tue, 17 Nov 2026 09:31:35 +0800</pubDate>
+<description>&lt;p&gt;The author optimized a 2D seven-point hexagonal Ising lattice simulation on an NVIDIA A40 using BF16 tiling and a unified logic protocol, achieving roughly 1.477x speedup and 28.5% (L=4608) to 27.1% (L=9216) reductions in dynamic energy. The methodology freezes specifications and runs multi-model red-team audits before compiling or renting compute, with NVML energy measurements disclosed.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;BF16 分块优化在 A40 上实现 1.5 倍加速与 28.5% 能耗下降&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了可复现的 BF16 分块优化方法与实测能耗数据，对 GPU 内核调优与能效评估有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 58/100&lt;/p&gt;</description>
+<source url="https://cwtractors.com">Hacker News AI</source>
+<category>GPU 优化</category>
+<category>BF16</category>
+<category>能效</category>
+<category>Ising 模拟</category>
+</item>
 <item><title>Lend Lets Remote Coding Agents Borrow Local Credentials on Demand</title><link>https://blog.antonio.cx/running-agents-with-lend</link><guid isPermaLink="true">https://blog.antonio.cx/running-agents-with-lend</guid>
 <pubDate>Tue, 17 Nov 2026 09:18:56 +0800</pubDate>
 <description>&lt;p&gt;Developer Antonio released lend, an open-source tool that lets coding agents running on disposable VMs invoke local SSH keys, 1Password, and logged-in CLIs under explicit human approval, instead of handing credentials to remote environments. Combined with the herdr multi-agent terminal and Ovis parallel workflows, it forms an auditable credential-borrowing mechanism.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;lend 让远程编码智能体按需借用本机凭证&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;针对多智能体并行开发中的凭证安全痛点给出可落地的开源方案，工程实践价值明确。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
@@ -166,9 +200,9 @@
 <category>Goodfire</category>
 <category>投融资</category>
 </item>
-<item><title>Berkeley and Microsoft Cut Coding Agent Token Costs by Up to 30.9%</title><link>https://x.com/rohanpaul_ai/status/2122466371594580269</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122466371594580269</guid>
+<item><title>伯克利与微软新方法降低编程智能体 token 成本 30.9%</title><link>https://x.com/rohanpaul_ai/status/2122466371594580269</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122466371594580269</guid>
 <pubDate>Tue, 17 Nov 2026 07:06:31 +0800</pubDate>
-<description>&lt;p&gt;UC Berkeley and Microsoft introduce TokenEconomizer, an external black-box controller that learns from past runs which facts to inject, which unused tools to prune, and when to halt failing loops, changing only prompts and tool settings. Across Claude Code, Codex, and GitHub Copilot CLI on 277 SWE-Bench tasks, it cut mean per-task cost by 18.4% to 30.9% and improved Pass@1 in 4 of 5 agent-model settings.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;伯克利与微软新方法降低编程智能体 token 成本 30.9%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出可插拔的智能体成本优化范式，在主流编程智能体上给出可复现的降本与提效数据。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;加州大学伯克利分校与微软提出 TokenEconomizer，一个位于智能体外部的黑盒控制器，通过从历史运行中学习应注入哪些事实、剔除哪些未使用工具、何时提前终止失败循环，仅改动提示与工具配置。在 Claude Code、Codex 与 GitHub Copilot CLI 上针对 277 个 SWE-Bench 任务测试，单任务平均成本下降 18.4% 至 30.9%，并在 5 组智能体-模型配置中的 4 组提升了 Pass@1。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出可插拔的智能体成本优化范式，在主流编程智能体上给出可复现的降本与提效数据。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2122466371594580269">Rohan Paul (@rohanpaul_ai)</source>
 <category>编程智能体</category>
 <category>Token 成本</category>
@@ -176,43 +210,43 @@
 <category>UC Berkeley</category>
 <category>微软</category>
 </item>
-<item><title>US Names 33 Alliances for Full-Stack AI Exports</title><link>https://www.ithome.com/1/028/022.htm</link><guid isPermaLink="true">https://www.ithome.com/1/028/022.htm</guid>
+<item><title>美国推出 33 个全栈 AI 出口联盟</title><link>https://www.ithome.com/1/028/022.htm</link><guid isPermaLink="true">https://www.ithome.com/1/028/022.htm</guid>
 <pubDate>Tue, 17 Nov 2026 07:01:32 +0800</pubDate>
-<description>&lt;p&gt;The US Commerce Department designated 33 pre-built industry alliances to export full-stack superintelligence solutions spanning chips, data pipelines, models, security and vertical applications, with on-demand alliance applications opening Nov 30. In parallel, BIS tightened curbs on cross-border advanced AI chip flows and remote compute, adding Indonesia, Malaysia, Singapore, Thailand and Brazil to licensing requirements while rescinding the Biden-era AI diffusion rule. The twin moves use government backing to reshape the global AI supply chain.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美国推出 33 个全栈 AI 出口联盟&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;美国以政府背书方式组织全栈 AI 出口并同步收紧芯片管制，直接改变全球 AI 供应链与出海格局。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;美国商务部依据第 14320 号行政令，指定首批 33 个预制产业联盟，向海外输出覆盖芯片、数据、模型、安全与行业应用的全栈超级智能方案，并将于 11 月 30 日开放按需联盟申请。与此同时，BIS 收紧先进 AI 芯片跨境流动与远程算力限制，将印尼、马来西亚、新加坡、泰国、巴西纳入许可范围，并撤销拜登时期的 AI 扩散规则。政策一手促出口、一手控算力，实质是以政府背书重塑全球 AI 技术供应链。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;美国以政府背书方式组织全栈 AI 出口并同步收紧芯片管制，直接改变全球 AI 供应链与出海格局。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/028/022.htm">IT之家 · IT业界</source>
 <category>AI 出口管制</category>
 <category>算力基础设施</category>
 <category>产业政策</category>
 </item>
-<item><title>NVIDIA Unveils Four-Node DGX Spark HPC Developer Kit</title><link>https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/</link><guid isPermaLink="true">https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/</guid>
+<item><title>英伟达推出 DGX Spark 四节点桌面超算开发套件</title><link>https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/</link><guid isPermaLink="true">https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/</guid>
 <pubDate>Tue, 17 Nov 2026 07:00:05 +0800</pubDate>
-<description>&lt;p&gt;At SC26, NVIDIA introduced the DGX Spark HPC Developer Kit, a four-node cluster of DGX Spark systems ring-connected via ConnectX-7 with no switch required, offering 512GB of combined memory and 20TB of NVMe storage. It lets researchers run multi-node scientific workloads, AI models and agents at their desks instead of waiting for shared GPU cluster time.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达推出 DGX Spark 四节点桌面超算开发套件&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;桌面级多节点超算形态降低了科研团队获取 GPU 集群的门槛，对算力基础设施读者有实际参考价值。&lt;/p&gt;&lt;p&gt;NVIDIA Blog · compute · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;英伟达在 SC26 发布 DGX Spark HPC 开发者套件，由四台 DGX Spark 通过 ConnectX-7 环形直连组成，无需交换机即可提供 512GB 聚合内存与 20TB NVMe 存储。该套件让研究者能在桌面运行多节点科学计算、AI 模型与智能体负载，减少对共享 GPU 集群排队的依赖。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;桌面级多节点超算形态降低了科研团队获取 GPU 集群的门槛，对算力基础设施读者有实际参考价值。&lt;/p&gt;&lt;p&gt;NVIDIA Blog · compute · signal 62/100&lt;/p&gt;</description>
 <source url="https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/">NVIDIA Blog</source>
 <category>算力基础设施</category>
 <category>英伟达</category>
 <category>科学计算</category>
 </item>
-<item><title>Eric Trump-Backed Military Robot Startup Misses Payroll and Faces Collapse</title><link>https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse/</link><guid isPermaLink="true">https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse/</guid>
+<item><title>Eric Trump 背书的军用机器人公司欠薪濒临倒闭</title><link>https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse/</link><guid isPermaLink="true">https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse/</guid>
 <pubDate>Tue, 17 Nov 2026 06:58:27 +0800</pubDate>
-<description>&lt;p&gt;Foundation Future Industries, a humanoid robotics startup backed and advised by Eric Trump, failed to pay employees for the payroll period ending October 30 and may be on the brink of collapse amid a funding shortfall. Staff are reportedly furious that co-founder and CEO Sankaet Pathak borrowed $4.6 million in company funds to buy a luxury home, while leadership continues raising at a $3 billion valuation on the promise of a combat-ready humanoid robot.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Eric Trump 背书的军用机器人公司欠薪濒临倒闭&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;具身智能军用机器人赛道出现资金链断裂与治理丑闻，是观察高估值人形机器人泡沫的典型样本。&lt;/p&gt;&lt;p&gt;Ars Technica AI · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;由 Eric Trump 投资并担任顾问的人形机器人公司 Foundation Future Industries 因资金短缺未能支付 10 月 30 日截止的工资，公司可能濒临倒闭。员工愤怒的焦点在于联合创始人兼 CEO Sankaet Pathak 被指挪用 460 万美元公司资金购置豪宅，而公司仍在以 30 亿美元估值寻求融资，承诺打造可持械执行战斗任务的人形机器人。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;具身智能军用机器人赛道出现资金链断裂与治理丑闻，是观察高估值人形机器人泡沫的典型样本。&lt;/p&gt;&lt;p&gt;Ars Technica AI · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://arstechnica.com/ai/2026/11/robo-soldier-startup-backed-by-eric-trump-misses-payroll-may-collapse/">Ars Technica AI</source>
 <category>具身智能</category>
 <category>人形机器人</category>
 <category>融资</category>
 <category>军用机器人</category>
 </item>
-<item><title>Windows 11 Found Collecting Data on Coding Agents and Developer Tools</title><link>https://xusheng.dev/posts/windows-coding-agent-telemetry/</link><guid isPermaLink="true">https://xusheng.dev/posts/windows-coding-agent-telemetry/</guid>
+<item><title>Windows 11 被曝默认采集开发者编码工具使用数据</title><link>https://xusheng.dev/posts/windows-coding-agent-telemetry/</link><guid isPermaLink="true">https://xusheng.dev/posts/windows-coding-agent-telemetry/</guid>
 <pubDate>Tue, 17 Nov 2026 06:58:20 +0800</pubDate>
-<description>&lt;p&gt;Reverse engineering of Windows 11&amp;#x27;s MissionControlAggregator.dll reveals built-in detection for coding agents such as codex.exe, claude.exe, copilot.exe and cursor.exe, plus developer tools like python.exe and gcc.exe. The component records local usage and reports it to Windows Diagnostics, which uploads to Microsoft by default unless optional diagnostic data is disabled.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Windows 11 被曝默认采集开发者编码工具使用数据&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示操作系统层面默认采集 AI 编码工具使用数据，涉及开发者隐私与遥测边界，值得关注。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;逆向分析发现，Windows 11 的 MissionControlAggregator.dll 内置了 codex.exe、claude.exe、copilot.exe、cursor.exe 等编码智能体以及 python.exe、gcc.exe 等开发工具的识别列表，会记录这些工具的使用情况并上报至 Windows 诊断系统。由于“可选诊断数据”默认开启，相关数据会被上传至微软，用户需手动关闭。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示操作系统层面默认采集 AI 编码工具使用数据，涉及开发者隐私与遥测边界，值得关注。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 62/100&lt;/p&gt;</description>
 <source url="https://xusheng.dev/posts/windows-coding-agent-telemetry/">Hacker News AI</source>
 <category>Windows 11</category>
 <category>隐私遥测</category>
 <category>编码智能体</category>
 <category>开发者工具</category>
 </item>
-<item><title>Faraday Future Narrows Nine-Month Loss 76.64% Amid Physical AI Pivot</title><link>https://www.ithome.com/1/028/018.htm</link><guid isPermaLink="true">https://www.ithome.com/1/028/018.htm</guid>
+<item><title>法拉第未来前三季亏损收窄 76.64% 转型物理 AI 平台</title><link>https://www.ithome.com/1/028/018.htm</link><guid isPermaLink="true">https://www.ithome.com/1/028/018.htm</guid>
 <pubDate>Tue, 17 Nov 2026 06:46:08 +0800</pubDate>
-<description>&lt;p&gt;Faraday Future reported a $83.43 million net loss attributable to shareholders for the first nine months of fiscal 2026, narrowing 76.64% year over year, on revenue of $2.498 million, up 513.76%. Gross margin remained deeply negative at -1227.1% and the debt-to-asset ratio stood at 92.3%, as the company pivots from EV manufacturing toward Robotaxi operations, physical-AI cockpit technology and an investment holding platform.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;法拉第未来前三季亏损收窄 76.64% 转型物理 AI 平台&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;具身智能转型标的的财务拐点信号，亏损大幅收窄但商业化规模与流动性风险并存，值得关注其物理 AI 路线落地成色。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;法拉第未来 2026 财年前三季度归母净亏损 8343.1 万美元，同比收窄 76.64%，营收 249.8 万美元同比增长 513.76%，但毛利率仍为 -1227.1%、资产负债率高达 92.3%。公司正从新能源车企转型为 Robotaxi 出行运营、物理 AI 座舱技术与投资控股平台，机器人业务开始商业化放量，但绝对盈利未转正、流动性压力突出。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;具身智能转型标的的财务拐点信号，亏损大幅收窄但商业化规模与流动性风险并存，值得关注其物理 AI 路线落地成色。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 38/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/028/018.htm">IT之家 · IT业界</source>
 <category>具身智能</category>
 <category>法拉第未来</category>
@@ -236,41 +270,6 @@
 <category>Amazon Bedrock</category>
 <category>检索增强</category>
 <category>知识库</category>
-</item>
-<item><title>Duco 基于 Bedrock AgentCore 重构智能体数据平台</title><link>https://aws.amazon.com/blogs/machine-learning/how-duco-transforms-financial-data-automation-with-amazon-bedrock-agentcore/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/how-duco-transforms-financial-data-automation-with-amazon-bedrock-agentcore/</guid>
-<pubDate>Tue, 17 Nov 2026 06:06:08 +0800</pubDate>
-<description>&lt;p&gt;金融运营平台 Duco 将原有传统机器学习栈迁移至 Amazon Bedrock 与 Bedrock AgentCore，构建多租户智能体架构，在满足银行级数据隔离与合规要求的同时缩短部署周期并降低客户接入成本。该平台每月处理 200 亿笔交易，服务 200 多家金融机构。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了一个受监管金融场景下多租户智能体落地的具体工程路径，对构建企业级 Agent 基础设施有参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 58/100&lt;/p&gt;</description>
-<source url="https://aws.amazon.com/blogs/machine-learning/how-duco-transforms-financial-data-automation-with-amazon-bedrock-agentcore/">AWS Machine Learning Blog</source>
-<category>智能体</category>
-<category>金融科技</category>
-<category>AWS</category>
-<category>多租户</category>
-</item>
-<item><title>英伟达 CEO 黄仁勋辞职 临时 CEO 将首次发布财报</title><link>https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/</guid>
-<pubDate>Tue, 17 Nov 2026 06:03:02 +0800</pubDate>
-<description>&lt;p&gt;英伟达创始人黄仁勋因与客户高管存在不当关系并涉嫌关联中国情报人员而被迫辞职，CFO Colette Kress 以临时 CEO 身份首次主持财报会。公司同时面临受限芯片走私中国的调查、国会闭门质询以及民主党方面的追责压力，董事会治理结构成为市场关注焦点。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达最高层突然更迭叠加芯片出口合规调查，是影响 AI 算力供应链与公司治理的标志性产业事件。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 71/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/">TechCrunch AI</source>
-<category>英伟达</category>
-<category>公司治理</category>
-<category>芯片出口</category>
-<category>高管变动</category>
-</item>
-<item><title>多智能体设计模式分类与制造业经验教训</title><link>https://aws.amazon.com/blogs/machine-learning/taxonomy-of-multi-agent-design-patterns-anti-patterns-and-lessons-from-manufacturing/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/taxonomy-of-multi-agent-design-patterns-anti-patterns-and-lessons-from-manufacturing/</guid>
-<pubDate>Tue, 17 Nov 2026 05:53:46 +0800</pubDate>
-<description>&lt;p&gt;企业多智能体系统落地失败的主因往往不是模型能力，而是把分布式系统协调问题当成模型问题。文章给出多智能体设计模式与反模式的分类框架，并借用制造业的节拍时间等概念，主张确定性工作流优先、仅在真正开放式问题上才引入自主编排。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;系统梳理多智能体设计模式与反模式，并给出何时该用多智能体的决策框架，对构建 Agent 系统的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 72/100&lt;/p&gt;</description>
-<source url="https://aws.amazon.com/blogs/machine-learning/taxonomy-of-multi-agent-design-patterns-anti-patterns-and-lessons-from-manufacturing/">AWS Machine Learning Blog</source>
-<category>多智能体</category>
-<category>Agent 架构</category>
-<category>分布式系统</category>
-<category>设计模式</category>
-</item>
-<item><title>Seedream 5.5 与 Canva Craft 重塑文生图价格格局</title><link>https://x.com/ArtificialAnlys/status/2122445489736122633</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2122445489736122633</guid>
-<pubDate>Tue, 17 Nov 2026 05:43:32 +0800</pubDate>
-<description>&lt;p&gt;Artificial Analysis 基于 AA-Image-T2I v2.1 榜单指出，此前每千张 10 至 34 美元区间内没有模型能超越 Muse Image。新入榜的 Seedream 5.5 以每千张 20 美元成为 30 美元以下最佳模型，Canva Craft 以每千张 30 美元成为前十中最便宜的模型。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;第三方评测机构给出文生图模型价格与排名交叉对比，为选型提供直接参考。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/ArtificialAnlys/status/2122445489736122633">Artificial Analysis (@ArtificialAnlys)</source>
-<category>文生图</category>
-<category>模型定价</category>
-<category>基准评测</category>
 </item>
 </channel>
 </rss>
