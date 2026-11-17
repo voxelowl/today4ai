@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Tue, 17 Nov 2026 11:34:43 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 17 Nov 2026 15:41:48 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>阿里发布 2.4 万亿参数 Qwen4-Max 任务成本降超 60%</title><link>https://todayforai.com/en/story/story-5a6c2c19-ef6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5a6c2c19-ef6</guid>
 <pubDate>Tue, 17 Nov 2026 10:36:00 +0800</pubDate>
@@ -43,6 +43,14 @@ Hy4 flash 以极致性价比和长上下文能力，直接冲击智能体、编�
 
 此案对 AI 行业影响深远。若胜诉，将确立前沿实验室对智能体行为的法律责任先例，迫使企业加强测试隔离与透明度。竞争对手与客户亦需重新评估风险，可能推动全行业安全标准升级。加州寻求禁令、赔偿及每次违规 2500 美元的民事罚款，后续进展值得关注。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), TechCrunch AI, IT之家 · IT业界, The Verge AI&lt;/p&gt;</description>
 </item>
+<item><title>哈佛研究称美国 403 座数据中心耗电超密歇根州</title><link>https://todayforai.com/en/story/story-f0f6b3e0-c65</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f0f6b3e0-c65</guid>
+<pubDate>Tue, 17 Nov 2026 15:41:48 +0800</pubDate>
+<description>&lt;p&gt;哈佛大学在《自然-可持续性》发表同行评审研究，首次量化了美国超大规模数据中心的环境成本：403 座设施年耗电量超过密歇根州全年用电，年排放约 2570 万吨二氧化碳，相当于丹麦全国排放量，较 2018 年同类研究增长约三倍。
+
+研究揭示区域集中度极高，弗吉尼亚、俄勒冈、俄亥俄与艾奥瓦四州占用电量一半以上，且多数设施依赖天然气发电。化石燃料仍是主要电力来源，但同一算力基础设施因供电结构不同可产生截然不同的环境后果，表明 AI 碳足迹并非不可改变，关键在于供电结构与政策选择。
+
+这一发现将数据中心能耗从抽象预测变为可量化的区域级负荷事实，为 AI 算力扩张的环境成本提供了可核验的基线，对电网规划、能源政策及科技公司的可持续发展承诺构成直接压力。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;The Verge AI, Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
+</item>
 <item><title>Hugging Face 联手 OpenRouter 打通开源模型调用</title><link>https://todayforai.com/en/story/story-5d65acd3-b61</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5d65acd3-b61</guid>
 <pubDate>Tue, 17 Nov 2026 02:12:43 +0800</pubDate>
 <description>&lt;p&gt;Hugging Face 与 OpenRouter 达成合作，用户可直接使用 Hugging Face 令牌调用 Hub 上由服务商托管的开源权重模型。OpenRouter 会基于对各服务商的实时测量，将请求路由至 80 多家提供商，从而降低开源模型的部署与调用门槛。
@@ -74,14 +82,6 @@ TokenEconomizer 的核心机制是从智能体历史运行中学习微技能、�
 Browse 0.1.0 版本已用 Rust 语言完全重写，带来显著的性能提升：内存占用降低 25 倍，体积缩小 23 倍，并移除了对 Playwright 的依赖，极大简化了部署链路。该工具兼容 OpenCode、Claude Code、Cursor、Codex、Zed 等主流 MCP 客户端，无需额外密钥配置，降低了智能体浏览器自动化的门槛。
 
 Browse 的发布标志着 AI 智能体在真实环境中的操作能力迈出重要一步。通过复用用户已登录的浏览器会话，智能体可以无缝接入各类网页应用，而无需处理复杂的认证流程。同时，Rust 重写带来的资源效率提升，使得大规模部署成为可能，有望推动智能体在自动化办公、网页测试、数据采集等场景的普及，进一步模糊人类与 AI 在网页交互中的边界。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, OpenCode (@opencode)&lt;/p&gt;</description>
-</item>
-<item><title>OpenAI 向 20 万科研人员免费开放 ChatGPT</title><link>https://todayforai.com/en/story/story-be652ce1-e98</link><guid isPermaLink="true">https://todayforai.com/en/story/story-be652ce1-e98</guid>
-<pubDate>Tue, 17 Nov 2026 07:18:51 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 宣布将其学术研究免费计划从试点扩展至全球最多 20 万名科研人员，下一轮申请于 11 月 23 日开放，新增 5 万个名额，先到先得。每个名额可供受资助者及最多两名合作者免费使用 ChatGPT Plus，官方承诺默认不使用项目内共享数据训练模型。
-
-该计划自 7 月试点以来已有 33 个国家约 2 万名研究人员加入，总目标从 10 万人提升至 20 万人。与试点期相比，服务等级由 Pro 下调为 Plus，以覆盖更多研究团队，同时名额分配改为先到先得，不再抽签。
-
-此举将前沿 AI 工具大规模引入学术研究场景，有望降低科研人员使用大模型的门槛，加速跨学科研究。但服务等级下调也引发对免费版功能限制的讨论，OpenAI 需在扩大覆盖与保证体验之间取得平衡。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, OpenAI 官方博客&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
