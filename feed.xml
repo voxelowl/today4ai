@@ -1,8 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Wed, 18 Nov 2026 05:48:07 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 18 Nov 2026 06:52:29 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Prime Radiant Open Sources External Sandbox Pattern for Coding Agents</title><link>https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/</guid>
+<pubDate>Wed, 18 Nov 2026 06:52:29 +0800</pubDate>
+<description>&lt;p&gt;Simon Willison and AI research lab Prime Radiant introduced the external sandbox pattern, in which the coding agent runs outside a dedicated sandbox while the code it executes is isolated inside it, reducing the risk of damaging actions from local model mistakes or prompt injection. They released three open-source sandbox server implementations, including one running Alpine Linux in WebAssembly via v86 and one using Apple Containers.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Prime Radiant 开源编码智能体外置沙箱方案&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为编码智能体提供可复用的安全隔离范式与开源实现，直接回应提示注入与本地模型试错风险。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · agent · signal 72/100&lt;/p&gt;</description>
+<source url="https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/">Simon Willison 博客</source>
+<category>编码智能体</category>
+<category>沙箱隔离</category>
+<category>开源项目</category>
+<category>提示注入</category>
+</item>
+<item><title>OpenAI Releases GPT-6.2 Astra and Sol with 20% Price Cut</title><link>https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/</guid>
+<pubDate>Wed, 18 Nov 2026 06:38:52 +0800</pubDate>
+<description>&lt;p&gt;OpenAI introduced GPT-6.2 Astra, a frontier model for the hardest projects, and GPT-6.2 Sol, an efficient model for everyday work, both available via API as gpt-6.2-astra and gpt-6.2-sol. Astra is priced at $8/MTok input and $40/MTok output, 20% below the previous 6 Astra, with cached input dropping to $0.40/million versus $1/million, a major boon for long-running agentic sessions; Sol holds at $2/$10.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 发布 GPT-6.2 Astra 与 Sol 双模型，输入降价 20%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;OpenAI 新一代双模型发布并伴随主力模型降价与缓存大幅折扣，直接影响开发者选型与智能体成本结构。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/">Simon Willison 博客</source>
+<category>大模型</category>
+<category>OpenAI</category>
+<category>API 定价</category>
+<category>智能体</category>
+</item>
+<item><title>Amazon and Google to Own Nearly 30% of Anthropic After IPO</title><link>https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/</guid>
+<pubDate>Wed, 18 Nov 2026 06:29:05 +0800</pubDate>
+<description>&lt;p&gt;Anthropic&amp;#x27;s IPO filing reveals Amazon will hold roughly 14.7% in non-voting shares, with Google holding a similar stake, putting the two cloud providers at nearly 30% combined. Amazon converted promissory notes priced at about $2.09 to $5.05 per share, while Anthropic has committed to spending over $100 billion on cloud services over the next decade.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic IPO 后亚马逊与谷歌合计持股近 30%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部大模型公司 IPO 股权结构首次清晰，云厂商深度绑定的资本与算力关系值得关注。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 72/100&lt;/p&gt;</description>
+<source url="https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/">TechCrunch AI</source>
+<category>Anthropic</category>
+<category>IPO</category>
+<category>亚马逊</category>
+<category>谷歌</category>
+<category>云算力</category>
+</item>
+<item><title>OpenAI Unveils GPT-6.2 Astra and Sol Ahead of Anthropic IPO</title><link>https://www.ithome.com/1/028/577.htm</link><guid isPermaLink="true">https://www.ithome.com/1/028/577.htm</guid>
+<pubDate>Wed, 18 Nov 2026 06:23:42 +0800</pubDate>
+<description>&lt;p&gt;OpenAI released GPT-6.2 Astra and GPT-6.2 Sol one day before Anthropic&amp;#x27;s IPO pricing, targeting professional work, coding, computer use and multi-step agentic tasks while cutting output token costs. OpenAI reports Astra scoring 5.5 points above Claude Fable 5.2 on Agents&amp;#x27; Last Exam at just 5% of the cost, plus a new high on Terminal-Bench-Science 0.1. The models ship first to ChatGPT Work, Codex and the API, not the standard chat mode.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 发布 GPT-6.2 双模型 成本降至对手 5%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部实验室在竞对 IPO 前夜发布旗舰双模型，且以数量级成本优势对标，是当日最具注意力价值的事件。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 88/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/028/577.htm">IT之家 · 智能时代</source>
+<category>大模型</category>
+<category>OpenAI</category>
+<category>智能体</category>
+<category>成本优化</category>
+</item>
+<item><title>Treg Open-Sources Jobs API for AI Agents at $0.03 per Hunt</title><link>https://x.com/rohanpaul_ai/status/2122816899755172025</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122816899755172025</guid>
+<pubDate>Wed, 18 Nov 2026 06:19:23 +0800</pubDate>
+<description>&lt;p&gt;Treg has launched an open-source jobs API that lets AI agents search employer job boards, score fit against a resume and locate the hiring manager for a role. Fit scoring is handled by TypeSafe AI&amp;#x27;s decision model Jev at under $0.001 per evaluation, bringing a full job hunt to roughly $0.03 with no markup.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Treg 开源职位搜索 API 单次求职成本 0.03 美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了决策模型在求职智能体中的低成本落地路径，对构建垂直 Agent 的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 42/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2122816899755172025">Rohan Paul (@rohanpaul_ai)</source>
+<category>智能体</category>
+<category>决策模型</category>
+<category>开源</category>
+<category>招聘</category>
+</item>
+<item><title>Latent Lattice Language Models Cut KV Cache 45% with 22 Layers</title><link>https://shivamduggal4.github.io/latent-lattice-language-models/</link><guid isPermaLink="true">https://shivamduggal4.github.io/latent-lattice-language-models/</guid>
+<pubDate>Wed, 18 Nov 2026 06:17:18 +0800</pubDate>
+<description>&lt;p&gt;The paper introduces Latent Lattice Language Models (LLLM), which add a horizontal latent width alongside the vertical residual-stream width. At 20B-token pretraining scale, LLLM matches a 40-layer Transformer&amp;#x27;s validation perplexity using only 22 layers, cutting KV cache by 45%, and can be combined with a Jacobi refiner for further gains.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;LLLM 架构以 22 层实现 45% KV 缓存缩减&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出新的残差流增强架构并在 20B token 规模验证，对关注大模型结构效率的读者有实质参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 74/100&lt;/p&gt;</description>
+<source url="https://shivamduggal4.github.io/latent-lattice-language-models/">Hacker News AI</source>
+<category>大模型</category>
+<category>模型架构</category>
+<category>KV 缓存</category>
+<category>预训练</category>
+</item>
+<item><title>Nvidia Quarterly Revenue Doubles to $115.8 Billion on AI Data Center Demand</title><link>https://x.com/rohanpaul_ai/status/2122812619379900579</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122812619379900579</guid>
+<pubDate>Wed, 18 Nov 2026 06:02:23 +0800</pubDate>
+<description>&lt;p&gt;Nvidia&amp;#x27;s quarterly revenue more than doubled year over year to $115.8 billion, with AI data centers accounting for 93% of the total and data center revenue up 110% to $107.6 billion. Vera Rubin NVL72 racks began shipping to CoreWeave, Google Cloud, Microsoft Azure and Oracle, while AI cloud and enterprise sales nearly tripled to $47.5 billion, growing almost three times faster than hyperscalers. The $130 billion fourth-quarter guidance assumes no China data center compute sales.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达季度营收翻倍至 1158 亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;营收翻倍、Vera Rubin 新平台开始出货与 AI 云客户增速反超超大规模云厂商，是算力需求结构变化的关键信号。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 88/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2122812619379900579">Rohan Paul (@rohanpaul_ai)</source>
+<category>英伟达</category>
+<category>算力基础设施</category>
+<category>数据中心</category>
+<category>财报</category>
+</item>
 <item><title>Nvidia Faces SEC Civil Probe After CEO Huang&#x27;s Departure</title><link>https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/</guid>
 <pubDate>Wed, 18 Nov 2026 05:48:07 +0800</pubDate>
 <description>&lt;p&gt;The SEC has opened a civil probe into whether Nvidia&amp;#x27;s disclosures misled investors, following CEO Jensen Huang&amp;#x27;s resignation amid an extramarital affair involving an alleged Chinese spy. The investigation compounds Commerce Department scrutiny of chip diversion through Megaspeed and congressional pressure, with Nvidia shares down over 10% since Huang&amp;#x27;s exit even as quarterly revenue hit $115.8 billion, up 103% year over year.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达遭 SEC 民事调查 黄仁勋离职后股价跌超 10%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球市值最高芯片公司遭遇监管调查与 CEO 离职双重冲击，直接牵动 AI 算力供应链与出口管制走向。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 78/100&lt;/p&gt;</description>
@@ -152,118 +216,56 @@
 <category>OpenAI</category>
 <category>风险预测</category>
 </item>
-<item><title>Genesis AI Raises $500M Series A at $3.5B Valuation</title><link>https://x.com/rohanpaul_ai/status/2122783054720807005</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122783054720807005</guid>
+<item><title>Genesis AI 融资 5 亿美元 估值 35 亿美元</title><link>https://x.com/rohanpaul_ai/status/2122783054720807005</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122783054720807005</guid>
 <pubDate>Wed, 18 Nov 2026 04:04:54 +0800</pubDate>
-<description>&lt;p&gt;Robotics startup Genesis AI has closed a $500M Series A at a $3.5B valuation. The capital funds a single thesis: teaching robots hand skills by recording humans at work through a glove that captures touch and force, with its GENE model self-practicing in parallel across many virtual environments inside the Genesis World physics simulator. The practical payoff is evaluation, where scenes and objects can be varied to find where a skill breaks before committing to costly physical trials.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Genesis AI 融资 5 亿美元 估值 35 亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大额融资叠加触觉数据采集与仿真自练习的明确技术路线，是具身智能领域值得关注的产业动向。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;机器人初创公司 Genesis AI 完成 5 亿美元 A 轮融资，估值达 35 亿美元。资金将集中投入一条技术路线：通过带触觉与力反馈的手套记录人类工作过程，以此教会机器人手部技能，并借助 Genesis World 物理仿真器让 GENE 模型在大量虚拟环境中并行自练习。其关键价值在于可在仿真中变换场景与物体，提前定位技能失效边界，减少昂贵的实体试错。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大额融资叠加触觉数据采集与仿真自练习的明确技术路线，是具身智能领域值得关注的产业动向。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2122783054720807005">Rohan Paul (@rohanpaul_ai)</source>
 <category>具身智能</category>
 <category>机器人</category>
 <category>融资</category>
 <category>物理仿真</category>
 </item>
-<item><title>Book Teaches Browser Internals by Building One in Python</title><link>https://browser.engineering/</link><guid isPermaLink="true">https://browser.engineering/</guid>
+<item><title>从零构建浏览器 千行 Python 讲透底层原理</title><link>https://browser.engineering/</link><guid isPermaLink="true">https://browser.engineering/</guid>
 <pubDate>Wed, 18 Nov 2026 04:01:35 +0800</pubDate>
-<description>&lt;p&gt;Web Browser Engineering is an open technical book that builds a basic but complete web browser in roughly two thousand lines of Python, covering networking, HTML parsing, layout, rendering, and JavaScript. It targets developers who want a systematic, hands-on understanding of how browsers work internally.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;从零构建浏览器 千行 Python 讲透底层原理&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以工程实践方式系统讲解浏览器底层原理，对前端与系统开发者有长期学习价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;《Web Browser Engineering》是一本开源技术书，用约两千行 Python 从网络请求、HTML 解析、排版渲染到 JavaScript 逐步构建一个完整可用的浏览器。它面向希望深入理解浏览器底层机制的开发者，提供系统化教程与配套社区讨论渠道。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以工程实践方式系统讲解浏览器底层原理，对前端与系统开发者有长期学习价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 42/100&lt;/p&gt;</description>
 <source url="https://browser.engineering/">Hacker News AI</source>
 <category>浏览器</category>
 <category>开源教程</category>
 <category>Python</category>
 </item>
-<item><title>DeepSeek-V4.1-Flash Hits 1,129 Tokens per Second on Four AMD MI355X GPUs</title><link>https://x.com/rohanpaul_ai/status/2122781142311117197</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122781142311117197</guid>
+<item><title>DeepSeek-V4.1-Flash 在 4 张 AMD MI355X 上实现 1129 tokens/s</title><link>https://x.com/rohanpaul_ai/status/2122781142311117197</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122781142311117197</guid>
 <pubDate>Wed, 18 Nov 2026 03:57:18 +0800</pubDate>
-<description>&lt;p&gt;Sciforium deployed DeepSeek-V4.1-Flash on four AMD Instinct MI355X GPUs, reaching 1,129 output tokens/sec at P90 while keeping DeepSeek&amp;#x27;s original weights. The gains come from a traffic-tuned speculative decoding drafter that raises draft length to seven tokens, plus kernel work fusing small ops and overlapping all-reduce with compute. The result demonstrates AMD GPU viability for production LLM inference on real customer traffic.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;DeepSeek-V4.1-Flash 在 4 张 AMD MI355X 上实现 1129 tokens/s&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以真实生产流量在 AMD GPU 上刷新推理吞吐记录，对算力选型与推理优化有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Sciforium 在 4 张 AMD Instinct MI355X 上部署 DeepSeek-V4.1-Flash，P90 输出吞吐达 1129 tokens/s，且保留 DeepSeek 原始权重。性能提升主要来自面向真实客户流量调优的投机解码 Drafter（草稿长度提升至 7 token），以及算子融合与 all-reduce 与计算重叠等内核优化。该结果以真实生产流量验证了 AMD GPU 在大模型推理上的可用性。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以真实生产流量在 AMD GPU 上刷新推理吞吐记录，对算力选型与推理优化有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 72/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2122781142311117197">Rohan Paul (@rohanpaul_ai)</source>
 <category>推理优化</category>
 <category>AMD GPU</category>
 <category>投机解码</category>
 <category>DeepSeek</category>
 </item>
-<item><title>Altman Says PCB Laminate Shortage Once Capped OpenAI Sales</title><link>https://x.com/rohanpaul_ai/status/2122780216527643104</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122780216527643104</guid>
+<item><title>Altman 称 PCB 覆铜板短缺曾卡住 OpenAI 卖服务</title><link>https://x.com/rohanpaul_ai/status/2122780216527643104</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122780216527643104</guid>
 <pubDate>Wed, 18 Nov 2026 03:53:37 +0800</pubDate>
-<description>&lt;p&gt;Speaking at a Semafor event, Sam Altman said OpenAI was at times unable to sell more AI services because the world had run out of PCB laminate, the base material for circuit boards. The remark extends the AI compute bottleneck debate beyond GPUs to the most upstream electronic-materials supply chain, underscoring how AI infrastructure expansion is constrained by conventional manufacturing.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Altman 称 PCB 覆铜板短缺曾卡住 OpenAI 卖服务&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部厂商首次公开承认材料级供应链成为 AI 服务交付的硬约束，对理解算力扩张边界有参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Sam Altman 在 Semafor 访谈中透露，OpenAI 曾因全球 PCB 覆铜板（电路板基础材料）供应耗尽而无法承接更多 AI 服务订单。这一表态把算力瓶颈的讨论从 GPU 延伸到最上游的电子材料供应链，凸显 AI 基础设施扩张正受制于传统制造业环节。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部厂商首次公开承认材料级供应链成为 AI 服务交付的硬约束，对理解算力扩张边界有参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 62/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2122780216527643104">Rohan Paul (@rohanpaul_ai)</source>
 <category>算力基础设施</category>
 <category>供应链</category>
 <category>OpenAI</category>
 </item>
-<item><title>jQuery 4.1.0 Ships as 3.x Branch Moves to Critical-Only Support</title><link>https://github.com/jquery/jquery/releases/tag/4.1.0</link><guid isPermaLink="true">https://github.com/jquery/jquery/releases/tag/4.1.0</guid>
+<item><title>jQuery 4.1.0 发布 3.x 分支转入仅关键修复</title><link>https://github.com/jquery/jquery/releases/tag/4.1.0</link><guid isPermaLink="true">https://github.com/jquery/jquery/releases/tag/4.1.0</guid>
 <pubDate>Wed, 18 Nov 2026 03:50:40 +0800</pubDate>
-<description>&lt;p&gt;The jQuery team released version 4.1.0, continuing the 4.x mainline and adding ECMAScript module builds that export jQuery and $ as named exports from the dist-module/ directory. The project also confirmed that the 3.x branch now receives critical fixes only, while 2.x and 1.x are fully end-of-life.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;jQuery 4.1.0 发布 3.x 分支转入仅关键修复&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;前端基础设施老牌库的版本迭代与支持策略调整，对仍维护 jQuery 技术栈的团队有直接升级参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;jQuery 团队发布 4.1.0 版本，延续 4.x 主线并新增 ESM 模块化构建产物（dist-module/ 目录导出 jQuery 与 $ 具名导出）。同时官方明确 3.x 分支仅接收关键修复，2.x 与 1.x 已完全停止支持，并推荐用户升级至最新版本。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;前端基础设施老牌库的版本迭代与支持策略调整，对仍维护 jQuery 技术栈的团队有直接升级参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
 <source url="https://github.com/jquery/jquery/releases/tag/4.1.0">Hacker News AI</source>
 <category>jQuery</category>
 <category>前端工具链</category>
 <category>开源维护</category>
 </item>
-<item><title>Google Opens Free Personal Agent Tasks to Hundreds of Millions</title><link>https://x.com/rohanpaul_ai/status/2122778044326908369</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122778044326908369</guid>
+<item><title>谷歌向数亿用户免费开放 Gemini 个人智能体</title><link>https://x.com/rohanpaul_ai/status/2122778044326908369</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122778044326908369</guid>
 <pubDate>Wed, 18 Nov 2026 03:44:59 +0800</pubDate>
-<description>&lt;p&gt;Google has renamed its Spark agent to Task and made it free, dropping the $19.99-a-month AI Pro requirement. Powered by Gemini 4 Hydrogen, it is available in the U.S., Japan, Korea, Canada, Australia and India, and can call businesses, check out via Google Pay and turn forwarded emails into calendar events. Payments rely on Visa and Mastercard card tokens, a user-set spending cap and a confirmation step before purchase. The free tier undercuts OpenAI&amp;#x27;s Dots at $100 a month and matches Meta&amp;#x27;s Muse, reportedly past 3M weekly users.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌向数亿用户免费开放 Gemini 个人智能体&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;谷歌把付费智能体免费开放给数亿用户，是消费级 Agent 商业化路径的重要转折。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;谷歌将原需每月 19.99 美元 AI Pro 订阅的 Spark 智能体更名为 Task，并基于 Gemini 4 Hydrogen 在美国、日本、韩国、加拿大、澳大利亚和印度六国免费开放。该功能支持代打电话比价、通过 Google Pay 结账、将转发邮件转为日历事件，支付环节采用 Visa 与 Mastercard 卡令牌、用户自设消费上限及购买前确认。免费策略直接对标 OpenAI 每月 100 美元起的 Dots，并与据称数周内突破 300 万周活的 Meta Muse 正面竞争。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;谷歌把付费智能体免费开放给数亿用户，是消费级 Agent 商业化路径的重要转折。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2122778044326908369">Rohan Paul (@rohanpaul_ai)</source>
 <category>智能体</category>
 <category>谷歌</category>
 <category>Gemini</category>
 <category>消费级 AI</category>
-</item>
-<item><title>Amazon SageMaker Adds AI Data Preparation Capabilities</title><link>https://aws.amazon.com/blogs/machine-learning/announcing-ai-data-preparation-capabilities-in-amazon-sagemaker-build-high-quality-datasets-for-model-development-workflows/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/announcing-ai-data-preparation-capabilities-in-amazon-sagemaker-build-high-quality-datasets-for-model-development-workflows/</guid>
-<pubDate>Wed, 18 Nov 2026 03:40:01 +0800</pubDate>
-<description>&lt;p&gt;AWS has added AI data preparation capabilities to Amazon SageMaker AI, enabling teams to generate synthetic examples, assess and improve existing datasets, and plug them into model development workflows. The feature targets the data bottleneck in fine-tuning, reinforcement learning, and evaluation suites, helping teams build high-quality task-specific data at lower cost.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SageMaker 新增 AI 数据准备能力&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;云厂商在模型开发数据链路上的实质能力扩展，对做微调与评测的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 62/100&lt;/p&gt;</description>
-<source url="https://aws.amazon.com/blogs/machine-learning/announcing-ai-data-preparation-capabilities-in-amazon-sagemaker-build-high-quality-datasets-for-model-development-workflows/">AWS Machine Learning Blog</source>
-<category>Amazon SageMaker</category>
-<category>数据准备</category>
-<category>合成数据</category>
-<category>模型微调</category>
-</item>
-<item><title>美国新许可规则冻结 4.8 亿美元 GPU 贷款</title><link>https://x.com/rohanpaul_ai/status/2122775745042997380</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122775745042997380</guid>
-<pubDate>Wed, 18 Nov 2026 03:35:51 +0800</pubDate>
-<description>&lt;p&gt;美国新出台的 AI 芯片许可规则已实质阻断一笔 4.8 亿美元融资：新加坡云服务商 Aolani Cloud 原计划通过星展银行安排三年期贷款，采购英伟达 GPU 供字节跳动在马来西亚使用。新规要求新加坡、马来西亚等地的数据中心运营商在购买先进 AI 芯片前须获得许可，并直接针对“远程访问”模式，即中国企业租用从未入境中国的算力。已有五家银行的信贷人员讨论退出，部分人士称该融资安排已“死亡”，因为放款可能违反规则。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是美国芯片出口管制从硬件流向延伸至“远程算力租赁”的关键转折，直接冲击中国企业的海外算力获取路径与金融机构的信贷决策。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2122775745042997380">Rohan Paul (@rohanpaul_ai)</source>
-<category>出口管制</category>
-<category>算力</category>
-<category>字节跳动</category>
-<category>英伟达</category>
-</item>
-<item><title>Model ML 融资 2.5 亿美元 估值达 15 亿美元</title><link>https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/</guid>
-<pubDate>Wed, 18 Nov 2026 03:32:11 +0800</pubDate>
-<description>&lt;p&gt;伦敦 AI 初创公司 Model ML 完成 2.5 亿美元 B 轮融资，估值达 15 亿美元，距其 7500 万美元 A 轮仅一年。其智能体可接入 Excel、PowerPoint 等客户系统，自动完成财务建模、路演材料和尽调报告等初级投行工作。公司称基于开源模型运行，成本仅为前沿模型的约 2%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;金融垂直智能体赛道的大额融资，且披露了开源模型降本至 2% 的明确成本主张，具备行业与工程参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 68/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/">TechCrunch AI</source>
-<category>金融科技</category>
-<category>智能体</category>
-<category>融资</category>
-<category>开源模型</category>
-</item>
-<item><title>开源决策模型 Karpo 登顶 300 项评测榜首</title><link>https://x.com/rohanpaul_ai/status/2122770273879658621</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122770273879658621</guid>
-<pubDate>Wed, 18 Nov 2026 03:14:07 +0800</pubDate>
-<description>&lt;p&gt;Karpo 发布 0.8B 至 31B 六款开源权重决策模型，其中 31B 版本以 73.9 分在 Decision Index 300 项评测中并列第一。该模型以读出头替代自回归解码，每个选项仅需单 token 打分，零生成 token 且输出恒为合法答案，在 Amazon ESCI 与 New Yorker Caption 上均超过 Gemini Decision 1。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以读出头取代解码的决策范式在开源权重下登顶权威榜单，对搜索推荐与智能体阈值判定有直接工程价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2122770273879658621">Rohan Paul (@rohanpaul_ai)</source>
-<category>开源模型</category>
-<category>决策模型</category>
-<category>模型评测</category>
-<category>Karpo</category>
-</item>
-<item><title>AWS 前沿部署工程扩展至 15 国</title><link>https://aws.amazon.com/blogs/machine-learning/getting-ai-out-of-the-demo-and-into-businesses-globally/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/getting-ai-out-of-the-demo-and-into-businesses-globally/</guid>
-<pubDate>Wed, 18 Nov 2026 03:05:22 +0800</pubDate>
-<description>&lt;p&gt;AWS 宣布其前沿部署工程（FDE）服务已覆盖美国、英国、德国、日本等 15 个国家，面向商业与公共部门客户，并内置数十个生产级加速器。该服务旨在帮助企业跨越从 AI 原型到生产部署的最后一公里，解决数据质量、审计可解释性与规模化治理等业务问题。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AWS 将 AI 落地服务推向全球 15 国，反映云厂商正把交付工程能力产品化，对关注企业 AI 落地的读者有参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · industry · signal 42/100&lt;/p&gt;</description>
-<source url="https://aws.amazon.com/blogs/machine-learning/getting-ai-out-of-the-demo-and-into-businesses-globally/">AWS Machine Learning Blog</source>
-<category>企业AI</category>
-<category>AWS</category>
-<category>AI落地</category>
-</item>
-<item><title>Google 扩大 Gemini Tasks 开放范围 可代打电话与购物</title><link>https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/</guid>
-<pubDate>Wed, 18 Nov 2026 03:02:20 +0800</pubDate>
-<description>&lt;p&gt;Google 将 Gemini 中的 Tasks 功能从早期测试者扩展至更广泛用户，使其从对话助手升级为可执行任务的代理：代用户致电商家预约、通过 Google Pay 完成购物，并在授权下安全登录网站。该功能此前以 Gemini Spark 名义于 5 月向测试者开放，并已扩展至美国 Google AI Ultra 订阅用户。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是消费级 AI 代理从对话走向真实任务执行的关键落地，涉及电话代拨、支付与账号登录等高风险动作，值得关注其权限与安全边界。&lt;/p&gt;&lt;p&gt;TechCrunch AI · agent · signal 72/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/">TechCrunch AI</source>
-<category>智能体</category>
-<category>Google</category>
-<category>Gemini</category>
-<category>AI 助手</category>
-</item>
-<item><title>StarSling 推出智能体自优化 CI 平台</title><link>https://starsling.dev</link><guid isPermaLink="true">https://starsling.dev</guid>
-<pubDate>Wed, 18 Nov 2026 03:01:43 +0800</pubDate>
-<description>&lt;p&gt;YC P25 孵化的 StarSling 发布面向智能体高频提交代码仓库的自优化 CI 平台，通过 AI 智能体自动优化测试流水线，官方数据显示 Mastra 测试套件耗时从 29 分 56 秒降至 5 分 06 秒，Better Auth 端到端测试提速约 2 倍，平台累计运行超 300 万次 CI 任务。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;智能体大规模写代码后 CI 成为新瓶颈，该产品切中真实工程痛点并给出可量化提速数据。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://starsling.dev">Hacker News AI</source>
-<category>CI/CD</category>
-<category>智能体</category>
-<category>开发者工具</category>
-<category>YC</category>
 </item>
 </channel>
 </rss>
