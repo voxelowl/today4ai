@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Tue, 17 Nov 2026 15:41:48 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 17 Nov 2026 17:23:13 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>阿里发布 2.4 万亿参数 Qwen4-Max 任务成本降超 60%</title><link>https://todayforai.com/en/story/story-5a6c2c19-ef6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5a6c2c19-ef6</guid>
 <pubDate>Tue, 17 Nov 2026 10:36:00 +0800</pubDate>
@@ -10,6 +10,14 @@
 第三方评测机构数据交叉验证了官方说法。Artificial Analysis 智能指数显示，Qwen4-Max 以 xhigh 推理档位取得 43 分，较 Qwen3.8-Max 提升 9 分，单任务成本降至 3.27 美元，约为前代三分之一，并比 Kimi K3.1 Pro 低约 11%。Arena.ai 数据显示，Qwen4-Max 在 Agent Arena 首秀即位列总榜第 14 名，较前代第 39 名大幅跃升，成为排名最高的中国模型，使阿里成为中文第一、全球第五的实验室；在 Code Arena WebDev 榜单以 1750 分位列第 6，较前代提升 74 分。在 1.47 万次真实智能体会话中实现 7.5% 净提升，用户满意度与可控性提升最显著。
 
 Qwen4-Max 的发布标志着阿里在稀疏 MoE 架构与长上下文效率上的系统性突破，其成本优势可能重塑企业级 AI 应用的性价比基准。模型已通过 OpenRouter 等平台开放，小尺寸同源模型将陆续…&lt;/p&gt;&lt;p&gt;11 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys), OpenRouter (@OpenRouter), Qwen 官方博客 (通义), IT之家 · 智能时代, InfoQ 中文, The Decoder&lt;/p&gt;</description>
+</item>
+<item><title>Liquid AI 开源决策模型 d1.2-ultra 登顶全球榜首</title><link>https://todayforai.com/en/story/story-4840ee60-b70</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4840ee60-b70</guid>
+<pubDate>Tue, 17 Nov 2026 17:23:13 +0800</pubDate>
+<description>&lt;p&gt;Liquid AI 发布决策模型 d1.2 与 d1.2-ultra，首次将大模型从生成 token 转向输出校准概率，在权威决策基准上登顶全球榜首。d1.2-ultra 在 Artificial Analysis 决策指数 v2.1 的私有基准 AA-Paperclip 上以 76 分排名第一，领先第二名 Drex Max v1.1 三分，校准误差仅 0.8，远优于对比模型的 3.7。
+
+该模型不再逐 token 生成文本，而是接收状态与结构化问题，单次调用返回每个选项的校准概率，并支持读值、跨度定位、画框、区间估计、多选等五种答案类型。两款模型均处于能力与成本帕累托前沿，每百万任务成本分别为 133 与 63 美元，支持 64K 上下文与文本图像多模态输入，但仅通过 Liquid AI 一方 API 提供。
+
+这一突破直击智能体落地的算力成本痛点。浏览器操作等长链任务的单次开销可达复杂推理的 4.8 倍，通用大模型的高昂 token 成本成为瓶颈。开源全尺寸决策模型为智能体执行层提供了可替代方案，有望推动决策智能从实验室走向规模化部署。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys), Marktechpost (@Marktechpost), 新智元 (微信公众号)&lt;/p&gt;</description>
 </item>
 <item><title>腾讯混元 Hy4 flash 发布 单任务成本降至 Hy4 的 5%</title><link>https://todayforai.com/en/story/story-31af8399-33e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-31af8399-33e</guid>
 <pubDate>Tue, 17 Nov 2026 01:09:00 +0800</pubDate>
@@ -58,14 +66,6 @@ Hy4 flash 以极致性价比和长上下文能力，直接冲击智能体、编�
 研究揭示区域集中度极高，弗吉尼亚、俄勒冈、俄亥俄与艾奥瓦四州占用电量一半以上，且多数设施依赖天然气发电。化石燃料仍是主要电力来源，但同一算力基础设施因供电结构不同可产生截然不同的环境后果，表明 AI 碳足迹并非不可改变，关键在于供电结构与政策选择。
 
 这一发现将数据中心能耗从抽象预测变为可量化的区域级负荷事实，为 AI 算力扩张的环境成本提供了可核验的基线，对电网规划、能源政策及科技公司的可持续发展承诺构成直接压力。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;The Verge AI, Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
-<item><title>Liquid AI 开源决策模型 d1.2-ultra 登顶全球榜首</title><link>https://todayforai.com/en/story/story-4840ee60-b70</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4840ee60-b70</guid>
-<pubDate>Tue, 17 Nov 2026 12:33:00 +0800</pubDate>
-<description>&lt;p&gt;Liquid AI 发布旗舰决策模型 d1.2-ultra，在权威评测机构 Artificial Analysis 的决策指数 v2.1 私有基准 AA-Paperclip 上以 76 分登顶全球榜首，领先第二名 Drex Max v1.1 三分。该模型相比前代 d1-ultra 和 d1.1 分别提升 4 分和 3 分，并支持 64K 上下文与文本图像多模态输入，目前仅通过 Liquid AI 一方 API 提供。
-
-该模型以开源全尺寸形态提供，与谷歌等闭源王牌模型形成直接竞争。其另一版本 d1.2 每百万任务成本为 63 美元，d1.2-ultra 为 133 美元，两款模型均处于能力与成本帕累托前沿。分析指出，浏览器操作等长链任务的单次开销可达复杂推理的 4.8 倍，算力成本成为智能体落地的核心瓶颈，而该开源模型为高成本通用大模型提供了可替代的执行层方案。
-
-此次登顶意味着开源模型在智能体决策这一关键赛道首次超越闭源巨头，可能重塑智能体执行层的竞争格局。开发者将获得一个高性能、可定制的开源选择，降低对单一闭源 API 的依赖，同时推动决策模型在成本与能力平衡上持续优化。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;新智元 (微信公众号), Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
 </item>
 <item><title>Hugging Face 联手 OpenRouter 打通开源模型调用</title><link>https://todayforai.com/en/story/story-5d65acd3-b61</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5d65acd3-b61</guid>
 <pubDate>Tue, 17 Nov 2026 02:12:43 +0800</pubDate>
