@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Tue, 17 Nov 2026 10:36:00 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 17 Nov 2026 11:34:43 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>阿里发布 2.4 万亿参数 Qwen4-Max 任务成本降超 60%</title><link>https://todayforai.com/en/story/story-5a6c2c19-ef6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5a6c2c19-ef6</guid>
 <pubDate>Tue, 17 Nov 2026 10:36:00 +0800</pubDate>
@@ -43,6 +43,14 @@ Hy4 flash 以极致性价比和长上下文能力，直接冲击智能体、编�
 
 此案对 AI 行业影响深远。若胜诉，将确立前沿实验室对智能体行为的法律责任先例，迫使企业加强测试隔离与透明度。竞争对手与客户亦需重新评估风险，可能推动全行业安全标准升级。加州寻求禁令、赔偿及每次违规 2500 美元的民事罚款，后续进展值得关注。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), TechCrunch AI, IT之家 · IT业界, The Verge AI&lt;/p&gt;</description>
 </item>
+<item><title>Hugging Face 联手 OpenRouter 打通开源模型调用</title><link>https://todayforai.com/en/story/story-5d65acd3-b61</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5d65acd3-b61</guid>
+<pubDate>Tue, 17 Nov 2026 02:12:43 +0800</pubDate>
+<description>&lt;p&gt;Hugging Face 与 OpenRouter 达成合作，用户可直接使用 Hugging Face 令牌调用 Hub 上由服务商托管的开源权重模型。OpenRouter 会基于对各服务商的实时测量，将请求路由至 80 多家提供商，从而降低开源模型的部署与调用门槛。
+
+具体而言，用户只需将 OpenRouter 账户与 Hugging Face 关联，即可沿用同一 Hugging Face Token 与 API 调用开源模型，无需单独对接各推理厂商。OpenRouter 会根据价格、速度与可用性自动选择最优提供商，并支持故障自动切换。此外，请求轨迹可通过 Broadcast 写入 Hugging Face Storage，便于后续评测与微调。
+
+这一合作打通了开源模型从托管到调用的关键环节，显著降低了开发者使用开源模型的门槛，有望加速开源模型在各类应用中的落地，并推动推理服务市场的竞争与整合。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter), Hugging Face Blog&lt;/p&gt;</description>
+</item>
 <item><title>微软开源 TokenEconomizer 让编程智能体降本 30.9%</title><link>https://todayforai.com/en/story/story-0eb50616-73d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-0eb50616-73d</guid>
 <pubDate>Tue, 17 Nov 2026 07:06:31 +0800</pubDate>
 <description>&lt;p&gt;微软研究院联合加州大学伯克利分校发布开源插件 TokenEconomizer，在不改动智能体与底层模型的前提下，通过外部黑盒控制器显著降低编程智能体的 token 消耗。在 277 个 SWE-Bench 真实修 bug 任务上，单任务平均成本下降 18.4% 至 30.9%，且所有测试仓库均实现降本，任务成功率基本持平。
@@ -50,6 +58,14 @@ Hy4 flash 以极致性价比和长上下文能力，直接冲击智能体、编�
 TokenEconomizer 的核心机制是从智能体历史运行中学习微技能、裁剪未使用工具、并在检测到失败循环时提前终止，仅调整提示与工具配置。在 Claude Code、Codex 与 GitHub Copilot CLI 上测试，5 组智能体-模型配置中有 4 组 Pass@1 提升，表明降本的同时还能提升效率。该方法主张按整个项目而非单任务衡量智能体成本，为成本优化提供了新视角。
 
 这一开源方案直击编程智能体规模化部署的成本痛点，开发者无需修改模型或智能体内部即可集成，有望推动 AI 编程助手在真实生产环境中的经济性普及，并启发更多外部优化工具的出现。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), Microsoft Research&lt;/p&gt;</description>
+</item>
+<item><title>英伟达发布四节点桌面超算套件 聚合 512GB 内存</title><link>https://todayforai.com/en/story/story-5718d2a2-f71</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5718d2a2-f71</guid>
+<pubDate>Tue, 17 Nov 2026 11:34:43 +0800</pubDate>
+<description>&lt;p&gt;英伟达在 SC26 大会正式发布 DGX Spark HPC 开发者套件，由四台 DGX Spark 通过 ConnectX-7 环形直连组成，无需外接交换机即可提供 512GB 聚合内存与 20TB NVMe 存储。该套件让研究者在桌面即可运行多节点科学计算、AI 模型与智能体负载，显著减少对共享 GPU 集群排队的依赖。
+
+技术细节上，四节点通过 ConnectX-7 实现高速直连，省去了独立网络交换机的采购与配置成本。聚合的 512GB 内存与 20TB NVMe 存储支持分布式部署大型模型，本地可运行最高 7000 亿参数模型。配套的 HPC SDK 提供 GPU 加速的 C/C++/Fortran 编译器与 MPI 工具，面向多节点 GPU 应用开发、FP32 混合精度算法及 LAMMPS 分子动力学仿真等场景。
+
+该套件的推出降低了多节点 HPC 开发的门槛，使科研团队和 AI 开发者能在本地完成原本依赖大型集群的分布式训练与仿真任务，有望加速科学计算与智能体应用的创新迭代，并对传统共享 GPU 集群的使用模式形成补充。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;NVIDIA Blog, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 <item><title>OpenCode 发布 Browse 让智能体接管真实浏览器</title><link>https://todayforai.com/en/story/story-5b3bde84-f4b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5b3bde84-f4b</guid>
 <pubDate>Tue, 17 Nov 2026 05:20:37 +0800</pubDate>
@@ -66,18 +82,6 @@ Browse 的发布标志着 AI 智能体在真实环境中的操作能力迈出重
 该计划自 7 月试点以来已有 33 个国家约 2 万名研究人员加入，总目标从 10 万人提升至 20 万人。与试点期相比，服务等级由 Pro 下调为 Plus，以覆盖更多研究团队，同时名额分配改为先到先得，不再抽签。
 
 此举将前沿 AI 工具大规模引入学术研究场景，有望降低科研人员使用大模型的门槛，加速跨学科研究。但服务等级下调也引发对免费版功能限制的讨论，OpenAI 需在扩大覆盖与保证体验之间取得平衡。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, OpenAI 官方博客&lt;/p&gt;</description>
-</item>
-<item><title>英伟达发布 Rubin HPC GPU 单卡超 5 万 CUDA 核心</title><link>https://todayforai.com/en/story/story-340b9b7e-646</link><guid isPermaLink="true">https://todayforai.com/en/story/story-340b9b7e-646</guid>
-<pubDate>Tue, 17 Nov 2026 07:52:18 +0800</pubDate>
-<description>&lt;p&gt;英伟达在 SC26 大会正式发布 Vera Rubin 平台新成员 Rubin HPC GPU，单卡 CUDA 核心数突破 5 万个，创下英伟达 GPU 核心数量新纪录，约为 RTX PRO 6000 Blackwell 的两倍。该卡专为科学计算、工程仿真与数据分析设计，引入稀疏数据加速能力与第七代 NVLink 互联，旨在应对气候建模、基因组分析、金融风险计算等稀疏矩阵与模板计算负载。
-
-综合多方信源，Rubin HPC GPU 在架构上强调均衡设计，通过稀疏数据加速维持核心数据供给，并利用第七代 NVLink 提升多卡互联带宽，以加速智能体驱动的科研闭环，缩短假设、仿真与迭代周期。不过，英伟达尚未公布详细参数与功耗，且产品预计 2028 年才上市，短期内对市场无实质影响。
-
-尽管落地尚早，Rubin HPC GPU 的发布仍释放出明确信号：英伟达正将 GPU 竞争从通用 AI 训练延伸至科学计算与智能体科研场景，试图以超大规模核心与稀疏加速能力卡位下一代 HPC 市场。这对依赖仿真与数据分析的科研机构与金融、生命科学等行业将产生深远影响，同时也给 AMD、英特尔等竞争对手带来新的压力。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;LangChain Blog, IT之家 · 智能时代, NVIDIA Blog&lt;/p&gt;</description>
-</item>
-<item><title>Meta 发布 Muse Ember 刷新 WebDev 性价比前沿</title><link>https://todayforai.com/en/story/story-0fdbd702-0fe</link><guid isPermaLink="true">https://todayforai.com/en/story/story-0fdbd702-0fe</guid>
-<pubDate>Tue, 17 Nov 2026 03:14:28 +0800</pubDate>
-<description>&lt;p&gt;Arena.ai 更新 Code Arena: WebDev 性价比前沿，Meta 的 Muse Ember 成为五款新上榜模型中对前沿推动最大的一款。在约 3 美分/答案的价位上，其得分达 1608，较此前同价位最佳的 1438 提升约 170 分，对战胜率约 73%。同期上榜的还有 Claude Fable 5.2、Gemini 4 Carbon、Kimi K3.1 Pro 与 GPT-6.1 Terra。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Arena.ai (@arena)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

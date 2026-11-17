@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Tue, 17 Nov 2026 10:56:51 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 17 Nov 2026 11:34:43 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Nvidia Unveils Four-Node DGX Spark HPC Kit with 512GB Memory</title><link>https://www.ithome.com/1/028/023.htm</link><guid isPermaLink="true">https://www.ithome.com/1/028/023.htm</guid>
+<pubDate>Tue, 17 Nov 2026 11:34:43 +0800</pubDate>
+<description>&lt;p&gt;Nvidia announced the DGX Spark HPC Development Kit at SC26, clustering four DGX Spark units via ConnectX-7 direct interconnect without an external switch, offering 512GB of memory and 20TB of NVMe storage. Aimed at researchers and AI developers, it supports locally deploying models up to 700B parameters and eases server-quota bottlenecks.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达发布 DGX Spark 四节点 HPC 套件 512GB 内存&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达将桌面级 DGX Spark 打包为四节点集群，是本地大模型与科研算力形态的一次具体产品化落地。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/028/023.htm">IT之家 · 智能时代</source>
+<category>英伟达</category>
+<category>算力基础设施</category>
+<category>DGX Spark</category>
+<category>HPC</category>
+</item>
+<item><title>Alibaba Tencent Moonshot Tighten Cyberattack Capabilities in Flagship Models</title><link>https://www.ithome.com/1/028/133.htm</link><guid isPermaLink="true">https://www.ithome.com/1/028/133.htm</guid>
+<pubDate>Tue, 17 Nov 2026 11:28:52 +0800</pubDate>
+<description>&lt;p&gt;Bloomberg reports that Alibaba&amp;#x27;s Qwen4-Max, Tencent&amp;#x27;s Hy4 and Moonshot&amp;#x27;s Kimi K3.1 Pro have systematically stripped cyberattack-related training data from their new flagship models while retaining defensive capabilities such as vulnerability detection, with Qwen4-Max withholding open weights. The move aligns with China&amp;#x27;s draft export-control rules targeting AI-driven malicious code generation, signaling a deliberate capability-safety tradeoff among leading vendors.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;阿里腾讯月之暗面集体收紧模型网络攻击能力&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部厂商集体收缩模型攻击能力并配合出口管制，是模型安全治理与开源策略转向的关键信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/028/133.htm">IT之家 · 智能时代</source>
+<category>模型安全</category>
+<category>出口管制</category>
+<category>Qwen</category>
+<category>Kimi</category>
+<category>AI 治理</category>
+</item>
 <item><title>Japan&#x27;s Fugaku Supercomputer Halted After Breach Exposes 4,222 Users&#x27; Data</title><link>https://www.ithome.com/1/028/108.htm</link><guid isPermaLink="true">https://www.ithome.com/1/028/108.htm</guid>
 <pubDate>Tue, 17 Nov 2026 10:56:51 +0800</pubDate>
 <description>&lt;p&gt;Japan&amp;#x27;s RIKEN confirmed that Fugaku, the country&amp;#x27;s flagship supercomputer, was taken offline on November 14 after attackers breached its operations network via a publicly exposed status dashboard and planted malware. Up to 4,222 Fugaku users and 375 Riken users may have had names, emails, SSH private keys and research data exposed.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;日本超算富岳遭非法入侵暂停运行 4222 名用户数据或泄露&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国家级超算因公开仪表板被突破而全面停机，暴露科研基础设施在认证凭据与网络边界上的系统性风险。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 72/100&lt;/p&gt;</description>
@@ -55,6 +74,14 @@
 <category>算力</category>
 <category>谷歌云</category>
 <category>英伟达</category>
+</item>
+<item><title>Open Source SaaS Replacement Playbook Sparks Debate</title><link>https://x.com/gregisenberg/status/2122505285885423625</link><guid isPermaLink="true">https://x.com/gregisenberg/status/2122505285885423625</guid>
+<pubDate>Tue, 17 Nov 2026 09:41:09 +0800</pubDate>
+<description>&lt;p&gt;Greg Isenberg outlined a playbook for replacing widely disliked paid SaaS: open-source a free clone, build goodwill, then upsell power users on hosted versions, team features and support. Kevin Rose illustrated it with SignuDoc, an open-source DocuSign alternative that deploys to a user&amp;#x27;s own Vercel account at zero cost per seat.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;开源替代高价 SaaS 的商业模式引热议&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了一套可复用的开源替代商业 SaaS 的落地打法，并附有真实产品案例。&lt;/p&gt;&lt;p&gt;GREG ISENBERG (@gregisenberg) · opensource · signal 38/100&lt;/p&gt;</description>
+<source url="https://x.com/gregisenberg/status/2122505285885423625">GREG ISENBERG (@gregisenberg)</source>
+<category>开源</category>
+<category>SaaS</category>
+<category>商业模式</category>
 </item>
 <item><title>Anthropic&#x27;s Claude Mythos Cuts AMD GPU Onboarding to Three Days</title><link>https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-mythos-slashed-software-work-to-onboard-amd-gpus-from-up-to-12-months-to-around-three-days-writing-almost-100-percent-of-kernels-autonomously-chips-away-at-nvidias-cuda-moat</link><guid isPermaLink="true">https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-mythos-slashed-software-work-to-onboard-amd-gpus-from-up-to-12-months-to-around-three-days-writing-almost-100-percent-of-kernels-autonomously-chips-away-at-nvidias-cuda-moat</guid>
 <pubDate>Tue, 17 Nov 2026 09:35:16 +0800</pubDate>
@@ -157,26 +184,26 @@
 <category>MoE</category>
 <category>早报</category>
 </item>
-<item><title>Nasiko Launches Open Runtime to Meter Agent Token Spend</title><link>https://x.com/rohanpaul_ai/status/2122480175179088217</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122480175179088217</guid>
+<item><title>Nasiko 推出智能体运行时 按 token 精细计费</title><link>https://x.com/rohanpaul_ai/status/2122480175179088217</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122480175179088217</guid>
 <pubDate>Tue, 17 Nov 2026 08:01:22 +0800</pubDate>
-<description>&lt;p&gt;Nasiko released Open Runtime, a platform that installs with one command beneath existing AI agents and breaks down token spend by team, agent, model, session and even individual MCP tools without code changes. It adds budget alerts, automatic agent pausing at limits, and model routing that the company claims can cut token spend by up to 50%.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Nasiko 推出智能体运行时 按 token 精细计费&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;智能体成本治理是当前多智能体落地的真实痛点，该平台提供了细粒度计量与预算管控的具体方案。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Nasiko 发布 Open Runtime 平台，以一条命令部署在现有智能体之下，无需改动代码即可按团队、智能体、模型、会话乃至单个 MCP 工具拆分 token 开销。平台支持预算阈值告警与超限自动暂停，并宣称可通过模型路由将 token 支出降低最多 50%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;智能体成本治理是当前多智能体落地的真实痛点，该平台提供了细粒度计量与预算管控的具体方案。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 58/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2122480175179088217">Rohan Paul (@rohanpaul_ai)</source>
 <category>智能体</category>
 <category>成本治理</category>
 <category>token 计费</category>
 <category>MCP</category>
 </item>
-<item><title>LLM 0.37.3 Ships Fix for SQLite 3.54.1 Compatibility Break</title><link>https://simonwillison.net/2026/Nov/16/llm/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/16/llm/</guid>
+<item><title>LLM 0.37.3 修复 SQLite 3.54.1 兼容问题</title><link>https://simonwillison.net/2026/Nov/16/llm/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/16/llm/</guid>
 <pubDate>Tue, 17 Nov 2026 07:57:26 +0800</pubDate>
-<description>&lt;p&gt;Simon Willison&amp;#x27;s LLM CLI tool released version 0.37.3, mainly fixing a breakage in its logging code caused by SQLite 3.54.1 shipped in the latest Homebrew package. The root cause is SQLite&amp;#x27;s corrected behavior where a subquery returns SQL text rather than a JSON value; the fix wraps the subquery in json().&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;LLM 0.37.3 修复 SQLite 3.54.1 兼容问题&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及主流 AI 命令行工具与 SQLite 行为变更的兼容性修复，对使用 LLM 的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · tools · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Simon Willison 的 LLM 命令行工具发布 0.37.3 版本，主要修复 Homebrew 最新打包的 SQLite 3.54.1 导致日志代码报错的问题。根因是 SQLite 修正了子查询返回 JSON 文本而非 JSON 值的行为，官方通过外层包裹 json() 函数完成兼容。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及主流 AI 命令行工具与 SQLite 行为变更的兼容性修复，对使用 LLM 的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · tools · signal 38/100&lt;/p&gt;</description>
 <source url="https://simonwillison.net/2026/Nov/16/llm/">Simon Willison 博客</source>
 <category>开发者工具</category>
 <category>SQLite</category>
 <category>LLM CLI</category>
 </item>
-<item><title>Nvidia Unveils Rubin HPC GPU with Over 50,000 CUDA Cores</title><link>https://www.ithome.com/1/027/998.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/998.htm</guid>
+<item><title>英伟达发布 Rubin HPC GPU 单卡超 5 万 CUDA 核心</title><link>https://www.ithome.com/1/027/998.htm</link><guid isPermaLink="true">https://www.ithome.com/1/027/998.htm</guid>
 <pubDate>Tue, 17 Nov 2026 07:52:18 +0800</pubDate>
-<description>&lt;p&gt;Nvidia unveiled the Rubin HPC GPU at SC26, built on the Vera Rubin platform with more than 50,000 CUDA cores per card, roughly double the RTX PRO 6000 Blackwell, plus seventh-generation NVLink and sparse-data acceleration. It is balanced for simulation workloads such as sparse matrix operations, stencil computation and sorting/reduction, targeting climate modeling, genomics and financial risk, but launch is slated for 2028 with detailed specs still undisclosed.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达发布 Rubin HPC GPU 单卡超 5 万 CUDA 核心&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达首次披露 HPC 专用 Rubin 卡的核心规格，是算力路线图的重要节点，但上市时间遥远且参数有限。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;英伟达在 SC26 大会发布基于 Vera Rubin 平台的 Rubin HPC GPU，单卡 CUDA 核心数突破 5 万个，约为 RTX PRO 6000 Blackwell 的两倍，并支持第七代 NVLink 与稀疏数据加速。该卡针对稀疏矩阵、模板计算、排序归约等仿真负载做均衡设计，主打气候建模、基因组分析与金融风险计算，但预计 2028 年才上市，详细参数尚未公布。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达首次披露 HPC 专用 Rubin 卡的核心规格，是算力路线图的重要节点，但上市时间遥远且参数有限。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/027/998.htm">IT之家 · 智能时代</source>
 <category>英伟达</category>
 <category>GPU</category>
@@ -246,32 +273,6 @@
 <category>OpenAI</category>
 <category>Goodfire</category>
 <category>投融资</category>
-</item>
-<item><title>伯克利与微软新方法降低编程智能体 token 成本 30.9%</title><link>https://x.com/rohanpaul_ai/status/2122466371594580269</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122466371594580269</guid>
-<pubDate>Tue, 17 Nov 2026 07:06:31 +0800</pubDate>
-<description>&lt;p&gt;加州大学伯克利分校与微软提出 TokenEconomizer，一个位于智能体外部的黑盒控制器，通过从历史运行中学习应注入哪些事实、剔除哪些未使用工具、何时提前终止失败循环，仅改动提示与工具配置。在 Claude Code、Codex 与 GitHub Copilot CLI 上针对 277 个 SWE-Bench 任务测试，单任务平均成本下降 18.4% 至 30.9%，并在 5 组智能体-模型配置中的 4 组提升了 Pass@1。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出可插拔的智能体成本优化范式，在主流编程智能体上给出可复现的降本与提效数据。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2122466371594580269">Rohan Paul (@rohanpaul_ai)</source>
-<category>编程智能体</category>
-<category>Token 成本</category>
-<category>SWE-Bench</category>
-<category>UC Berkeley</category>
-<category>微软</category>
-</item>
-<item><title>美国推出 33 个全栈 AI 出口联盟</title><link>https://www.ithome.com/1/028/022.htm</link><guid isPermaLink="true">https://www.ithome.com/1/028/022.htm</guid>
-<pubDate>Tue, 17 Nov 2026 07:01:32 +0800</pubDate>
-<description>&lt;p&gt;美国商务部依据第 14320 号行政令，指定首批 33 个预制产业联盟，向海外输出覆盖芯片、数据、模型、安全与行业应用的全栈超级智能方案，并将于 11 月 30 日开放按需联盟申请。与此同时，BIS 收紧先进 AI 芯片跨境流动与远程算力限制，将印尼、马来西亚、新加坡、泰国、巴西纳入许可范围，并撤销拜登时期的 AI 扩散规则。政策一手促出口、一手控算力，实质是以政府背书重塑全球 AI 技术供应链。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;美国以政府背书方式组织全栈 AI 出口并同步收紧芯片管制，直接改变全球 AI 供应链与出海格局。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/028/022.htm">IT之家 · IT业界</source>
-<category>AI 出口管制</category>
-<category>算力基础设施</category>
-<category>产业政策</category>
-</item>
-<item><title>英伟达推出 DGX Spark 四节点桌面超算开发套件</title><link>https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/</link><guid isPermaLink="true">https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/</guid>
-<pubDate>Tue, 17 Nov 2026 07:00:05 +0800</pubDate>
-<description>&lt;p&gt;英伟达在 SC26 发布 DGX Spark HPC 开发者套件，由四台 DGX Spark 通过 ConnectX-7 环形直连组成，无需交换机即可提供 512GB 聚合内存与 20TB NVMe 存储。该套件让研究者能在桌面运行多节点科学计算、AI 模型与智能体负载，减少对共享 GPU 集群排队的依赖。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;桌面级多节点超算形态降低了科研团队获取 GPU 集群的门槛，对算力基础设施读者有实际参考价值。&lt;/p&gt;&lt;p&gt;NVIDIA Blog · compute · signal 62/100&lt;/p&gt;</description>
-<source url="https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/">NVIDIA Blog</source>
-<category>算力基础设施</category>
-<category>英伟达</category>
-<category>科学计算</category>
 </item>
 </channel>
 </rss>
