@@ -43,14 +43,6 @@
 
 Anthropic 上市核心目的是囤积现金以支撑算力扩张，公司 9 月底持有超 1300 亿美元现金，计划投入 9000 亿美元建设基础设施，包括与 SpaceX 每月最高 31 亿美元的数据中心协议。此次 IPO 将成为 AI 行业估值与商业化能力的关键定价锚点，对全球 AI 产业资本化进程具有标志性意义。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;InfoQ 中文, Rohan Paul (@rohanpaul_ai), IT之家 · 智能时代, Anthropic AI (@AnthropicAI), Latent Space, The Decoder&lt;/p&gt;</description>
 </item>
-<item><title>腾讯混元 Hy4 flash 发布 单任务成本降至 Hy4 的 5%</title><link>https://todayforai.com/en/story/story-31af8399-33e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-31af8399-33e</guid>
-<pubDate>Wed, 18 Nov 2026 12:36:17 +0800</pubDate>
-<description>&lt;p&gt;腾讯混元正式发布 Hy4 flash 模型，总参数 224B、每 token 激活 12B，支持多模态输入与 100 万 token 上下文。通过混合注意力、LatentMoE、Engram 查表参数及 4bit 量化等三阶段协同优化，其单任务成本仅为 Hy4 的 1/20、DeepSeek-V4.1-Flash 的 1/8，官方称综合效果略优于 Hy4 preview，并计划开源。
-
-技术细节上，Hy4 flash 包含 64B Engram 查表参数，KV cache 降至 Hy4 的 1/6，解码速度超 150 tps。在 WorkIndex 评测中，单任务成本为 Hy4 的 1/20、DeepSeek-V4.1-Flash 的 1/8。定价方面，输入 0.5 元/百万 Token；OpenRouter 上线期至 11 月 30 日提供五折优惠，输入 0.035 美元/百万 token、输出 0.14 美元/百万 token。OpenCode 还宣布未来两周免费开放近无限量使用，并承诺零数据留存。
-
-Hy4 flash 以极致性价比和长上下文能力，直接冲击智能体、编程及高并发负载场景，有望降低 AI 应用门槛，加剧大模型价格战，并推动开源生态竞争。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, OpenRouter (@OpenRouter), InfoQ 中文, OpenCode (@opencode), Hacker News AI&lt;/p&gt;</description>
-</item>
 <item><title>英伟达季度营收 1158 亿美元 同比增长 103%</title><link>https://todayforai.com/en/story/story-ba409721-088</link><guid isPermaLink="true">https://todayforai.com/en/story/story-ba409721-088</guid>
 <pubDate>Wed, 18 Nov 2026 08:16:50 +0800</pubDate>
 <description>&lt;p&gt;英伟达在创始人黄仁勋离职后的首份财报中交出创纪录成绩：2027 财年第三季度营收达 1158.44 亿美元，同比增长 103%，远超此前 1080 亿美元的指引，成为少数单季营收突破千亿美元的公司。净利润 652.87 亿美元，同比增长 105%，毛利率升至 74.9%，盈利质量同步走强。
@@ -58,6 +50,14 @@ Hy4 flash 以极致性价比和长上下文能力，直接冲击智能体、编�
 数据中心业务仍是核心引擎，收入 1076 亿美元，同比增长 110%，贡献总营收的 93%。边缘计算与游戏业务收入 82 亿美元，同比增长 42%。AI 云及企业客户收入增长 195%，增速接近超大规模云厂商的三倍。Vera Rubin NVL72 机架已开始向 CoreWeave、谷歌云、微软 Azure 与甲骨文交付。公司对下季度给出 1300 亿美元营收指引，并假设不含中国数据中心算力销售；同时将 2028 财年营收增速预期从 70% 上调至约 75%。临时 CEO Colette Kress 强调业务一切照常，并确认 129 亿美元收购 Hugging Face 的交易按计划推进，开源 AI 战略不变。
 
 黄仁勋辞任后，董事会主席琼斯表示 CEO 遴选将全面深入、不急于推进。尽管管理层变动带来不确定性，但英伟达凭借锁定内存与先进封装产能、与台积电合作缩小供需缺口，展现出 AI 算力需求的持续强劲。其开源战略与 Hugging Face 收购有望进一步巩固开发者生态，而超预期的业绩和指引则强化了市场对 AI 基础设施投资周期的信心。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, Rohan Paul (@rohanpaul_ai), The Verge AI, IT之家 · IT业界&lt;/p&gt;</description>
+</item>
+<item><title>腾讯混元 Hy4 flash 发布 单任务成本降至 Hy4 的 5%</title><link>https://todayforai.com/en/story/story-31af8399-33e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-31af8399-33e</guid>
+<pubDate>Wed, 18 Nov 2026 12:36:17 +0800</pubDate>
+<description>&lt;p&gt;腾讯混元正式发布 Hy4 flash 模型，总参数 224B、每 token 激活 12B，支持多模态输入与 100 万 token 上下文。通过混合注意力、LatentMoE、Engram 查表参数及 4bit 量化等三阶段协同优化，其单任务成本仅为 Hy4 的 1/20、DeepSeek-V4.1-Flash 的 1/8，官方称综合效果略优于 Hy4 preview，并计划开源。
+
+技术细节上，Hy4 flash 包含 64B Engram 查表参数，KV cache 降至 Hy4 的 1/6，解码速度超 150 tps。在 WorkIndex 评测中，单任务成本为 Hy4 的 1/20、DeepSeek-V4.1-Flash 的 1/8。定价方面，输入 0.5 元/百万 Token；OpenRouter 上线期至 11 月 30 日提供五折优惠，输入 0.035 美元/百万 token、输出 0.14 美元/百万 token。OpenCode 还宣布未来两周免费开放近无限量使用，并承诺零数据留存。
+
+Hy4 flash 以极致性价比和长上下文能力，直接冲击智能体、编程及高并发负载场景，有望降低 AI 应用门槛，加剧大模型价格战，并推动开源生态竞争。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, OpenRouter (@OpenRouter), InfoQ 中文, OpenCode (@opencode), Hacker News AI&lt;/p&gt;</description>
 </item>
 <item><title>法国 Genesis AI 融资 5 亿美元 估值达 35 亿美元</title><link>https://todayforai.com/en/story/story-3d8b8018-ccd</link><guid isPermaLink="true">https://todayforai.com/en/story/story-3d8b8018-ccd</guid>
 <pubDate>Wed, 18 Nov 2026 12:28:57 +0800</pubDate>
