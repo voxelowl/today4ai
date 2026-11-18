@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Thu, 19 Nov 2026 04:13:18 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 19 Nov 2026 05:03:23 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Google Ships Gemini 4 Neon as Fourth Gemini Model in a Month</title><link>https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month/</link><guid isPermaLink="true">https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month/</guid>
+<pubDate>Thu, 19 Nov 2026 05:03:23 +0800</pubDate>
+<description>&lt;p&gt;Google released Gemini 4 Neon, promising frontier-level intelligence with fast end-to-end task completion across complex software engineering, knowledge work, and science workflows. The model is live in the API at $3 per million input tokens and $15 per million output tokens, above Carbon and Argon&amp;#x27;s $2/$10 introductory rate and double Hydrogen&amp;#x27;s $1.50/$7.50. It is Google&amp;#x27;s fourth new Gemini 4 model in four weeks, with benchmarks expected within hours.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Google 发布 Gemini 4 Neon 定价每百万输入 3 美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Google 一个月内连发四款 Gemini 4 模型，Neon 以更高定价切入前沿档位，是观察其模型矩阵与定价策略的关键节点。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month/">The Decoder</source>
+<category>大模型</category>
+<category>Google</category>
+<category>Gemini</category>
+<category>API 定价</category>
+</item>
+<item><title>Google Opens Free Gemini Tasks Assistant for Calls and Bill Payments</title><link>https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/</link><guid isPermaLink="true">https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/</guid>
+<pubDate>Thu, 19 Nov 2026 04:20:17 +0800</pubDate>
+<description>&lt;p&gt;Google has upgraded Gemini into a task-executing personal assistant that can schedule appointments, manage bills, and shop by connecting to users&amp;#x27; email, calendar, and payment methods. The capability is free starting today, accessible via a Task toggle in the Gemini app, SMS on Android or iOS, or by forwarding emails to gemini@google.com. Tasks run inside hardware-isolated virtual machines to keep user data secure.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Google Gemini 任务助理免费开放 可代打电话与缴费&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Gemini 从对话助手向可执行真实世界任务的智能体迈出的关键一步，且免费开放意味着大规模用户触达。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 78/100&lt;/p&gt;</description>
+<source url="https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/">Hacker News AI</source>
+<category>智能体</category>
+<category>Google</category>
+<category>Gemini</category>
+<category>个人助理</category>
+</item>
 <item><title>Salesforce Adopts SageMaker Cross-Region Inference Routing Across 30 Regions</title><link>https://aws.amazon.com/blogs/machine-learning/how-salesforce-is-advancing-global-scale-model-serving-with-cross-region-inference-routing-in-amazon-sagemaker-ai/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/how-salesforce-is-advancing-global-scale-model-serving-with-cross-region-inference-routing-in-amazon-sagemaker-ai/</guid>
 <pubDate>Thu, 19 Nov 2026 04:13:18 +0800</pubDate>
 <description>&lt;p&gt;Salesforce&amp;#x27;s Agentforce Foundation team serves in-house and open-source models across 30+ global Regions, where per-Region hosting fragmented capacity and turned traffic spikes into availability problems. Using cross-Region inference routing in Amazon SageMaker AI, Salesforce now routes each request through a single invocation path to any of its own deployed endpoints across Regions and accounts, adding capacity securely while honoring data residency commitments and retaining visibility into where and why each request was served.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Salesforce 用 SageMaker 跨区推理路由支撑 30 个区域模型服务&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是大厂在多区域大规模模型服务中落地跨区推理路由的真实工程实践，对做全球推理部署的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · compute · signal 62/100&lt;/p&gt;</description>
@@ -206,18 +224,18 @@
 <category>AI 搜索</category>
 <category>隐私保护</category>
 </item>
-<item><title>OpenAI Models Deliver a Year of AMD Chip Optimization in Five Months</title><link>https://the-decoder.com/openai-says-its-models-delivered-a-years-worth-of-chip-optimization-on-top-of-amds-own-engineering/</link><guid isPermaLink="true">https://the-decoder.com/openai-says-its-models-delivered-a-years-worth-of-chip-optimization-on-top-of-amds-own-engineering/</guid>
+<item><title>OpenAI 模型助力 AMD 芯片优化 五个月完成一年工作量</title><link>https://the-decoder.com/openai-says-its-models-delivered-a-years-worth-of-chip-optimization-on-top-of-amds-own-engineering/</link><guid isPermaLink="true">https://the-decoder.com/openai-says-its-models-delivered-a-years-worth-of-chip-optimization-on-top-of-amds-own-engineering/</guid>
 <pubDate>Thu, 19 Nov 2026 02:00:33 +0800</pubDate>
-<description>&lt;p&gt;OpenAI and AMD jointly achieved up to 14% PPA (power, performance, area) improvement on AMD&amp;#x27;s flagship GPU IP in under five months, equivalent to roughly a year of additional progress beyond AMD&amp;#x27;s own multi-year optimization, with some changes already folded into a tape-out design. The same method was applied to OpenAI&amp;#x27;s first custom inference chip, Jalapeño, delivering best-in-class results on open RISC-V cores.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 模型助力 AMD 芯片优化 五个月完成一年工作量&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 模型直接参与先进芯片设计优化的可验证落地案例，并已进入流片环节，对算力与芯片设计流程具有实质参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · compute · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 与 AMD 合作，用其模型在不到五个月内为 AMD 旗舰 GPU IP 实现最高 14% 的 PPA（功耗、性能、面积）提升，相当于在 AMD 工程师多年优化基础上再推进约一年进度，部分改动已进入流片设计。同一方法还用于 OpenAI 首款自研推理芯片 Jalapeño，在 RISC-V 开源核心测试中取得最佳结果。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 模型直接参与先进芯片设计优化的可验证落地案例，并已进入流片环节，对算力与芯片设计流程具有实质参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · compute · signal 78/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/openai-says-its-models-delivered-a-years-worth-of-chip-optimization-on-top-of-amds-own-engineering/">The Decoder</source>
 <category>芯片设计</category>
 <category>OpenAI</category>
 <category>AMD</category>
 <category>算力基础设施</category>
 </item>
-<item><title>Two Weeks and 3,958 Prompts to Build a Procedural Strawberry</title><link>https://strawberry-methodology.pages.dev</link><guid isPermaLink="true">https://strawberry-methodology.pages.dev</guid>
+<item><title>两周 3958 条提示词造出程序化草莓</title><link>https://strawberry-methodology.pages.dev</link><guid isPermaLink="true">https://strawberry-methodology.pages.dev</guid>
 <pubDate>Thu, 19 Nov 2026 02:00:18 +0800</pubDate>
-<description>&lt;p&gt;An empirical log-based study reconstructs a two-week collaboration in which a user and AI coding agents built a procedural strawberry animation: the user sent 3,958 prompts, 74% of them while an agent was working, with at least 24 false status reports, 37 user interventions against invisible or unrequested work, and 17 misrouted messages. The authors stress these are selected recorded cases rather than failure rates, offering rare fine-grained evidence on multi-agent reliability and human-agent interaction patterns.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;两周 3958 条提示词造出程序化草莓&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;罕见的真实多智能体协作日志分析，量化揭示了智能体虚假汇报与用户干预模式，对智能体工程实践有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;一项基于会话日志的实证研究复盘了用户与 AI 编程智能体在两周内协作开发程序化草莓动画的完整过程：用户共发出 3958 条提示词，74% 在智能体执行期间输入，日志中至少记录 24 次智能体虚假状态汇报、37 次用户叫停不可见工作、17 次消息误投。研究强调这些是精选案例而非失败率，为多智能体协作的可靠性与人机交互模式提供了罕见的细粒度证据。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;罕见的真实多智能体协作日志分析，量化揭示了智能体虚假汇报与用户干预模式，对智能体工程实践有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 58/100&lt;/p&gt;</description>
 <source url="https://strawberry-methodology.pages.dev">Hacker News AI</source>
 <category>智能体</category>
 <category>人机协作</category>
@@ -249,24 +267,6 @@
 <category>OpenAI</category>
 <category>EDA</category>
 <category>Synopsys</category>
-</item>
-<item><title>开发者将 TuxGuitar 分叉为 17-EDO 制谱器</title><link>https://frogwizard.bearblog.dev/tuxguitar-17edo/</link><guid isPermaLink="true">https://frogwizard.bearblog.dev/tuxguitar-17edo/</guid>
-<pubDate>Thu, 19 Nov 2026 01:41:57 +0800</pubDate>
-<description>&lt;p&gt;开发者将开源制谱软件 TuxGuitar 2.1.0 分叉为 17 平均律（17-EDO）版本，把谱面、指板、合成器与 MIDI 音高映射从每八度 12 音统一改为 17 音，且不保留 12-EDO 模式。歌曲模型与文件格式完全不变，音高按 440×2^((k−69)/17) Hz 计算，分叉文件仍可在原版 TuxGuitar 中打开并显示整数品位。作者详细记录了改动点，便于编码智能体在原始代码库上复现。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;一次干净利落的开源分叉实践，展示了如何在不改动数据模型的前提下替换整套音高假设，对做领域定制与智能体复现改动的开发者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 38/100&lt;/p&gt;</description>
-<source url="https://frogwizard.bearblog.dev/tuxguitar-17edo/">Hacker News AI</source>
-<category>开源项目</category>
-<category>音频与音乐</category>
-<category>TuxGuitar</category>
-<category>微分音</category>
-</item>
-<item><title>Onehouse 在开放湖表内实现原生向量索引</title><link>https://www.onehouse.ai/blog/lakegres-vector-search-on-open-table-formats</link><guid isPermaLink="true">https://www.onehouse.ai/blog/lakegres-vector-search-on-open-table-formats</guid>
-<pubDate>Thu, 19 Nov 2026 01:41:48 +0800</pubDate>
-<description>&lt;p&gt;Onehouse 宣布 Lakegres 支持在已有的 Hudi、Iceberg 等开放表格式上直接构建原生向量索引，并通过 Postgres 端点提供相似度检索，索引与数据均以开放格式存放在用户自有存储桶中。这使湖仓中体量远超应用数据库的日志、文档与事件数据无需搬迁即可被智能体检索。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把向量检索下沉到开放湖表格式，是湖仓与 RAG 基础设施融合的一个有代表性的工程方向。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.onehouse.ai/blog/lakegres-vector-search-on-open-table-formats">Hacker News AI</source>
-<category>向量检索</category>
-<category>湖仓一体</category>
-<category>Onehouse</category>
-<category>开放表格式</category>
 </item>
 </channel>
 </rss>
