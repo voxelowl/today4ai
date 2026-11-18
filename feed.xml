@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Wed, 18 Nov 2026 17:23:01 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 18 Nov 2026 18:07:11 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>AgiBot Deploys Nearly 500 Humanoid Robots at Chimelong Park</title><link>https://www.ithome.com/1/028/996.htm</link><guid isPermaLink="true">https://www.ithome.com/1/028/996.htm</guid>
+<pubDate>Wed, 18 Nov 2026 18:07:11 +0800</pubDate>
+<description>&lt;p&gt;AgiBot partner Wang Chuang said at the APEC Finance Night that the embodied-AI theme park built with Chimelong has deployed nearly 500 robots across more than 100 roles since opening in September, targeting 1,000 units by year-end. He stressed that humanoid robots must deliver real work, not just walking and talking.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;智元长隆乐园部署近 500 台人形机器人&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是人形机器人从演示走向规模化岗位部署的少见量化案例，值得关注落地进展。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/028/996.htm">IT之家 · 智能时代</source>
+<category>具身智能</category>
+<category>人形机器人</category>
+<category>智元</category>
+<category>商业落地</category>
+</item>
+<item><title>Energy-Based Reasoners Achieve 385x Inference Efficiency Gain</title><link>https://energy-based-reasoners.github.io/</link><guid isPermaLink="true">https://energy-based-reasoners.github.io/</guid>
+<pubDate>Wed, 18 Nov 2026 17:29:32 +0800</pubDate>
+<description>&lt;p&gt;Researchers introduce Energy-Based Reasoners (EBRs), which learn an energy function over latent reasoning states and cast looped updates as gradient descent on that energy, using the energy value as a stopping signal. Across four algorithmic reasoning benchmarks, EBRs match or beat prior recurrent reasoning models, reaching 99.9% accuracy on Sudoku-Extreme with 345x less inference compute and achieving state-of-the-art coverage of distinct valid solutions on multi-solution tasks.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;能量推理器实现 385 倍推理效率提升&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以能量函数显式引导循环推理并给出停止信号，在硬推理基准上实现数量级推理算力节省，对推理架构研究有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://energy-based-reasoners.github.io/">Hacker News AI</source>
+<category>推理模型</category>
+<category>能量模型</category>
+<category>循环架构</category>
+<category>推理效率</category>
+</item>
 <item><title>Amazon Signals Openness to External AI Shopping Agents</title><link>https://www.ithome.com/1/028/933.htm</link><guid isPermaLink="true">https://www.ithome.com/1/028/933.htm</guid>
 <pubDate>Wed, 18 Nov 2026 17:23:01 +0800</pubDate>
 <description>&lt;p&gt;Amazon CEO Andy Jassy said the company has not permanently closed the door on external AI shopping agents placing orders on its platform, provided they deliver a good consumer experience and a fair value exchange. Amazon blocked Meta&amp;#x27;s Muse and similar agents in September and is now in talks with each vendor while pushing its own Alexa for Shopping and Buy for Me tools.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊松口 或重新放行外部 AI 购物智能体&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部零售商对 AI 购物智能体的态度转向，直接关系智能体商业化入口与平台生态规则。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 62/100&lt;/p&gt;</description>
@@ -177,18 +195,18 @@
 <category>天体物理</category>
 <category>科研诚信</category>
 </item>
-<item><title>Optimizely Experimentation Platform Hijacked, 178 Organizations Exposed</title><link>https://blog.fortirix.com/blog/optimjack/</link><guid isPermaLink="true">https://blog.fortirix.com/blog/optimjack/</guid>
+<item><title>Optimizely 实验平台遭劫持 178 家机构受影响</title><link>https://blog.fortirix.com/blog/optimjack/</link><guid isPermaLink="true">https://blog.fortirix.com/blog/optimjack/</guid>
 <pubDate>Wed, 18 Nov 2026 13:21:07 +0800</pubDate>
-<description>&lt;p&gt;Attackers exploited a vulnerability in Optimizely&amp;#x27;s Experimentation platform to inject malicious JavaScript served from the vendor&amp;#x27;s own CDN, reaching visitors of 178 organizations including global banks, newsrooms, airlines and a hardware-wallet maker. Tracked as OPTIMJACK, the payload swapped crypto wallet addresses, stole payment-card data and cookies, and pushed exploit kits to iPhones. The incident highlights third-party experimentation scripts as a systemic supply-chain trust anchor risk.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Optimizely 实验平台遭劫持 178 家机构受影响&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;第三方实验脚本从厂商 CDN 注入恶意代码，波及 178 家高价值机构，是典型的供应链信任链攻击样本。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;攻击者利用 Optimizely Experimentation 平台漏洞，从厂商自有 CDN 注入恶意 JavaScript，波及全球银行、新闻媒体、航空与加密钱包厂商等 178 家机构的访客。该行动被追踪为 OPTIMJACK，载荷具备替换加密钱包地址、窃取支付卡信息与 Cookie、并向 iPhone 推送漏洞利用套件的能力。事件暴露了第三方实验脚本作为供应链信任锚点的系统性风险。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;第三方实验脚本从厂商 CDN 注入恶意代码，波及 178 家高价值机构，是典型的供应链信任链攻击样本。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://blog.fortirix.com/blog/optimjack/">Hacker News AI</source>
 <category>供应链安全</category>
 <category>Web 安全</category>
 <category>Optimizely</category>
 <category>恶意脚本注入</category>
 </item>
-<item><title>Some Nvidia Directors Still Push to Bring Back Jensen Huang</title><link>https://x.com/rohanpaul_ai/status/2122922693662245298</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122922693662245298</guid>
+<item><title>英伟达部分董事仍推动黄仁勋回归</title><link>https://x.com/rohanpaul_ai/status/2122922693662245298</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122922693662245298</guid>
 <pubDate>Wed, 18 Nov 2026 13:19:46 +0800</pubDate>
-<description>&lt;p&gt;Semafor reports that some Nvidia directors are still pushing to bring Jensen Huang back as CEO despite Chair Harvey Jones&amp;#x27;s public denial, and Huang discussed a return with at least one director before Tuesday&amp;#x27;s earnings report. The board vote covered only the resignation, and Nvidia&amp;#x27;s bylaws allow a simple majority of the 10 remaining directors to appoint a CEO without a shareholder vote, while other directors are narrowing the search to candidates including Arm CEO Rene Haas and Marvell CEO Matt Murphy.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达部分董事仍推动黄仁勋回归&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达最高管理层变动牵动全球 AI 算力供应链，继任路径与章程机制具备实质信息量。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Semafor 报道称，尽管英伟达董事长 Harvey Jones 公开否认，部分董事仍在推动让黄仁勋回归 CEO 职位，黄仁勋本人也在财报发布前与至少一名董事讨论过回归事宜。董事会此前的投票仅涉及接受辞任，而公司章程允许剩余 10 名董事以简单多数直接任命 CEO，无需股东投票；同时其他董事正将继任者搜索范围收窄至 Arm CEO Rene Haas 与 Marvell CEO Matt Murphy 等人。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达最高管理层变动牵动全球 AI 算力供应链，继任路径与章程机制具备实质信息量。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2122922693662245298">Rohan Paul (@rohanpaul_ai)</source>
 <category>英伟达</category>
 <category>高管变动</category>
@@ -255,25 +273,6 @@
 <category>语音听写</category>
 <category>开发者工具</category>
 <category>本地处理</category>
-</item>
-<item><title>英伟达 AMD 首次联手投资 Genesis 5 亿美元</title><link>https://www.qbitai.com/2026/11/510821.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/510821.html</guid>
-<pubDate>Wed, 18 Nov 2026 12:28:57 +0800</pubDate>
-<description>&lt;p&gt;美国具身智能公司 Genesis AI 完成 5 亿美元 A 轮融资，投后估值达 35 亿美元，英伟达与 AMD 首次联手投资具身智能企业。Genesis 定位为具身全栈玩家，自研 GENE-26.5 基础模型，以单一共享权重模型完成厨房、实验室等长程灵巧操作任务，并构建数据、模型、评测与本体耦合的闭环体系。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达与 AMD 罕见联手押注具身智能，叠加 5 亿美元大额融资与全栈自研路线，是观察物理 AGI 投资风向的关键信号。&lt;/p&gt;&lt;p&gt;量子位官网 · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.qbitai.com/2026/11/510821.html">量子位官网</source>
-<category>具身智能</category>
-<category>融资</category>
-<category>英伟达</category>
-<category>AMD</category>
-<category>基础模型</category>
-</item>
-<item><title>Gemini 4 Carbon 实测慢如蜗牛 单任务耗时近一小时</title><link>https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/</link><guid isPermaLink="true">https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/</guid>
-<pubDate>Wed, 18 Nov 2026 12:14:04 +0800</pubDate>
-<description>&lt;p&gt;第三方私有评测显示，Gemini 4 Carbon 完成 Opus 与 Astra 仅需数分钟的任务耗时近一小时，用户普遍反馈其慢到近乎不可用。逐步骤追踪归因于过度审计无关代码、机械性低效（工具调用少、频繁重读），仅修复机械问题即可缩短约四分之一运行时间。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以量化追踪拆解前沿模型真实延迟成因，对关注智能体工程效率的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 72/100&lt;/p&gt;</description>
-<source url="https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/">Hacker News AI</source>
-<category>Gemini 4 Carbon</category>
-<category>模型延迟</category>
-<category>智能体评测</category>
-<category>代码修复</category>
 </item>
 </channel>
 </rss>
