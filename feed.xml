@@ -1,8 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Thu, 19 Nov 2026 00:59:00 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 19 Nov 2026 01:32:10 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Citibank and Other Banks Shift Liability to Customers Using AI Agents</title><link>https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/</guid>
+<pubDate>Thu, 19 Nov 2026 01:32:10 +0800</pubDate>
+<description>&lt;p&gt;Citibank updated its Online User Agreement this week to state that customers who grant third-party AI agents access to their bank accounts bear full responsibility for any erroneous or fraudulent transactions, with the bank not obligated to reverse them. The move signals growing institutional resistance to unreliable AI agents in core financial systems and formally draws liability boundaries for agentic finance.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;花旗等银行修改条款 客户用 AI 代理出事自担&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部银行首次以协议形式把 AI 代理风险转嫁给客户，是智能体落地金融的关键责任分水岭。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 72/100&lt;/p&gt;</description>
+<source url="https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/">TechCrunch AI</source>
+<category>AI 代理</category>
+<category>金融科技</category>
+<category>责任边界</category>
+<category>花旗银行</category>
+</item>
+<item><title>Humyn Labs Raises $47M to Capture Real-World Robot Training Data</title><link>https://x.com/rohanpaul_ai/status/2123105962789875972</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123105962789875972</guid>
+<pubDate>Thu, 19 Nov 2026 01:28:01 +0800</pubDate>
+<description>&lt;p&gt;Humyn Labs has raised a $47M Series A to record real factory workers with self-built capture glasses, replacing tidy-lab egocentric footage. The data is filtered, then decomposed into atomic primitives such as reach, grasp, lift and place, with in-house benchmarks validating it so policies can learn skills across scenes.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Humyn Labs 融资 4700 万美元采集真实工厂具身数据&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;具身智能数据基础设施的实质融资与技术路线披露，切中 Physical AI 规模化的关键瓶颈。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2123105962789875972">Rohan Paul (@rohanpaul_ai)</source>
+<category>具身智能</category>
+<category>数据基础设施</category>
+<category>融资</category>
+<category>Physical AI</category>
+</item>
+<item><title>Maritime Launches Managed Cloud Platform for Production AI Agents</title><link>https://news.ycombinator.com/item?id=50549188</link><guid isPermaLink="true">https://news.ycombinator.com/item?id=50549188</guid>
+<pubDate>Thu, 19 Nov 2026 01:26:28 +0800</pubDate>
+<description>&lt;p&gt;YC F26-backed Maritime launched a managed cloud for production AI agents, arguing that sandboxes address only about 10% of the infrastructure problem. Its core offering covers agent lifecycle management, including sleep/wake, persistent storage, triggers, scheduling, per-user routing and spend caps, health monitoring, failure recovery and zero-downtime fleet updates.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Maritime 推出面向生产级 AI 智能体的托管云平台&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;针对智能体生产部署中沙箱之外的运维缺口提出系统化托管方案，对构建生产级 Agent 的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 62/100&lt;/p&gt;</description>
+<source url="https://news.ycombinator.com/item?id=50549188">Hacker News AI</source>
+<category>AI 智能体</category>
+<category>云基础设施</category>
+<category>YC 孵化</category>
+</item>
+<item><title>Mirrord Extends Local-to-Cloud Dev Loop to AWS ECS</title><link>https://metalbear.com/blog/stop-deploying-to-ecs/</link><guid isPermaLink="true">https://metalbear.com/blog/stop-deploying-to-ecs/</guid>
+<pubDate>Thu, 19 Nov 2026 01:05:13 +0800</pubDate>
+<description>&lt;p&gt;MetalBear has added AWS ECS support to mirrord, letting developers and coding agents run code locally or in a sandbox as if it were a live staging task, inheriting its network, environment variables and IAM role. Session-header routing lets multiple users and agents share one staging environment concurrently, replacing full image-build-and-rollout cycles with a single local run.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;mirrord 支持 ECS 本地代码直连预发环境&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;直击智能体开发中最耗时的部署验证环节，把本地调试与云端运行时上下文打通，对使用 ECS 的团队有明确工程价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
+<source url="https://metalbear.com/blog/stop-deploying-to-ecs/">Hacker News AI</source>
+<category>开发者工具</category>
+<category>AWS ECS</category>
+<category>云原生开发</category>
+<category>智能体工作流</category>
+</item>
 <item><title>Altman Rejects Gradual Handover of Decision-Making to AI</title><link>https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/</guid>
 <pubDate>Thu, 19 Nov 2026 00:59:00 +0800</pubDate>
 <description>&lt;p&gt;OpenAI CEO Sam Altman used the New York Times DealBook Summit stage to reject the Silicon Valley notion of a gradual handover of decision-making authority to AI, insisting humans must remain in control. Appearing alongside Greg Brockman, he also argued defenders must wield the most capable models against cyber models now in the hands of threat actors.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Altman 公开反对 AI 渐进接管人类决策&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司掌门人首次公开正面驳斥“AI 接管论”，是观察行业治理路线与安全话语权的重要表态。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 42/100&lt;/p&gt;</description>
@@ -193,36 +228,36 @@
 <category>Linux 内核</category>
 <category>安全</category>
 </item>
-<item><title>Critical Pre-Auth RCE Flaws Found in Nginx HTTP/2 Handling</title><link>https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities</link><guid isPermaLink="true">https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities</guid>
+<item><title>Nginx 曝 HTTP/2 预认证 RCE 漏洞 CVSS 9.2</title><link>https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities</link><guid isPermaLink="true">https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities</guid>
 <pubDate>Wed, 18 Nov 2026 23:19:55 +0800</pubDate>
-<description>&lt;p&gt;Five independent security teams, including Wiz Research, uncovered two critical remote code execution flaws in Nginx tracked as CVE-2026-123633 and CVE-2026-123007, both rated 9.2 under CVSS 4.0. The bugs live in Nginx itself and are exploitable pre-auth whenever HTTP/2 is enabled, affecting versions back to 1.9.5 and over 225 million websites. Successful exploitation allows full server takeover, data theft, or service disruption.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Nginx 曝 HTTP/2 预认证 RCE 漏洞 CVSS 9.2&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球最广泛使用的 Web 服务器曝出预认证 RCE，影响面覆盖海量生产环境，运维与安全团队需立即排查。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 88/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Wiz Research 等五家安全团队独立发现 Nginx 两个严重远程代码执行漏洞 CVE-2026-123633 与 CVE-2026-123007，CVSS 4.0 评分均为 9.2。漏洞位于 Nginx 自身而非应用代码，只要启用 HTTP/2 即可被预认证攻击者利用，影响可追溯至 1.9.5 版本，波及超 2.25 亿网站。攻击者成功利用后可完全控制服务器、窃取数据或中断服务。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球最广泛使用的 Web 服务器曝出预认证 RCE，影响面覆盖海量生产环境，运维与安全团队需立即排查。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 88/100&lt;/p&gt;</description>
 <source url="https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities">Hacker News AI</source>
 <category>Nginx</category>
 <category>安全漏洞</category>
 <category>RCE</category>
 <category>HTTP/2</category>
 </item>
-<item><title>SpaceXAI Data Center in Mississippi Leaks 20 Cubic Meters of Propylene Glycol</title><link>https://www.ithome.com/1/029/115.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/115.htm</guid>
+<item><title>SpaceXAI 密西西比数据中心泄漏约 20 立方米丙二醇</title><link>https://www.ithome.com/1/029/115.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/115.htm</guid>
 <pubDate>Wed, 18 Nov 2026 23:01:50 +0800</pubDate>
-<description>&lt;p&gt;A SpaceXAI AI data center in Mississippi leaked roughly 5,000-6,000 gallons (about 19-23 cubic meters) of propylene-glycol coolant after a contractor misconfigured a hose while connecting a mobile tank; some fluid reached an on-site drainage ditch but was contained by berms before entering Horn Lake Creek. MDEQ classified the substance as a non-hazardous mixture that degrades quickly and poses no direct health threat, yet the spill compounds existing lawsuits over gas-turbine noise and air pollution, heightening community concerns about oversight of large AI compute facilities.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SpaceXAI 密西西比数据中心泄漏约 20 立方米丙二醇&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;液冷散热化学品泄漏叠加社区诉讼，折射大型 AI 算力中心的环境合规与监管透明度问题。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;SpaceXAI 位于密西西比州的 AI 数据中心因承包商软管配置错误，泄漏约 5000 至 6000 加仑（约 19 至 23 立方米）液冷用丙二醇水溶液，部分流入厂区排水沟但被围堰拦截，未进入下游霍恩湖溪。MDEQ 认定该物质属非危险混合物、降解较快，对居民健康无直接威胁，但事件叠加此前的燃气轮机噪音与空气污染诉讼，进一步激化社区对大型 AI 算力中心监管与透明度的担忧。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;液冷散热化学品泄漏叠加社区诉讼，折射大型 AI 算力中心的环境合规与监管透明度问题。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 38/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/029/115.htm">IT之家 · IT业界</source>
 <category>算力基础设施</category>
 <category>液冷散热</category>
 <category>环境合规</category>
 <category>SpaceXAI</category>
 </item>
-<item><title>IBM and Confluent Bring Time-Series Models into Streaming Data Platform</title><link>https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse</link><guid isPermaLink="true">https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse</guid>
+<item><title>IBM 与 Confluent 将时序模型引入流式数据平台</title><link>https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse</link><guid isPermaLink="true">https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse</guid>
 <pubDate>Wed, 18 Nov 2026 23:00:23 +0800</pubDate>
-<description>&lt;p&gt;IBM Research and Confluent have integrated time-series foundation models into the Streamhouse streaming data architecture, giving real-time pipelines native forecasting and anomaly detection capabilities. The article outlines the technical approach and representative use cases, marking a shift of time-series AI from offline analytics to in-stream inference.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;IBM 与 Confluent 将时序模型引入流式数据平台&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;时序基础模型与流式数据平台结合，为实时 AI 推理提供新的工程范式。&lt;/p&gt;&lt;p&gt;Hugging Face Blog · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;IBM Research 与 Confluent 合作，将时序基础模型集成进 Streamhouse 流式数据架构，使实时数据管道具备原生预测与异常检测能力。文章介绍了该方案的技术路径与典型用例，标志着时序 AI 从离线分析走向流内推理。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;时序基础模型与流式数据平台结合，为实时 AI 推理提供新的工程范式。&lt;/p&gt;&lt;p&gt;Hugging Face Blog · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse">Hugging Face Blog</source>
 <category>时序模型</category>
 <category>流式数据</category>
 <category>IBM</category>
 <category>Confluent</category>
 </item>
-<item><title>Unsiloed AI Raises $7.5M Seed to Make Documents Queryable for AI Agents</title><link>https://x.com/rohanpaul_ai/status/2123068415904809041</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123068415904809041</guid>
+<item><title>Unsiloed AI 获 750 万美元融资 让文档可被 AI 查询</title><link>https://x.com/rohanpaul_ai/status/2123068415904809041</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123068415904809041</guid>
 <pubDate>Wed, 18 Nov 2026 22:58:49 +0800</pubDate>
-<description>&lt;p&gt;Seven-person startup Unsiloed AI has raised a $7.5M seed round led by Felicis to build a computable document layer for AI agents. Its dual-stream vision models read content and layout in parallel, heat-map chunking concentrates compute on figures and charts, every extracted field links back to its page location, and the system can run air-gapped on customer servers.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Unsiloed AI 获 750 万美元融资 让文档可被 AI 查询&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向金融、法律、医疗的文档解析基础设施获得早期融资，技术路线（双流视觉+版面热力图分块+字段溯源）对智能体落地有参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;7 人初创公司 Unsiloed AI 完成由 Felicis 领投的 750 万美元种子轮融资，目标是构建面向 AI 智能体的“文档可计算层”。其双流视觉模型并行读取文档内容与版面布局，并通过热力图分块把额外算力集中在图表与数字上，每个抽取字段都可回溯到页面原始位置，且支持在客户自有服务器上离线部署。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向金融、法律、医疗的文档解析基础设施获得早期融资，技术路线（双流视觉+版面热力图分块+字段溯源）对智能体落地有参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 62/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2123068415904809041">Rohan Paul (@rohanpaul_ai)</source>
 <category>文档解析</category>
 <category>智能体</category>
@@ -237,43 +272,6 @@
 <category>Mistral</category>
 <category>桌面应用</category>
 <category>多任务并行</category>
-</item>
-<item><title>OpenAI 首次向四家独立机构开放内部系统现场审计</title><link>https://the-decoder.com/openai-opens-its-ai-systems-to-four-independent-on-site-auditors-for-the-first-time/</link><guid isPermaLink="true">https://the-decoder.com/openai-opens-its-ai-systems-to-four-independent-on-site-auditors-for-the-first-time/</guid>
-<pubDate>Wed, 18 Nov 2026 22:36:42 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 首次允许 Apollo Research、METR、Transluce 与 Goodfire 四家独立机构进入其办公场所，直接接触未发布模型、源代码、训练数据与监控系统，并可与开发者保密对话。该计划延续此前的现场审查，并兑现“超级智能白宫协议”承诺；审计结果独立发布，但 OpenAI 可对机密材料做删减、并推迟报告以便先行修复风险。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是前沿实验室首次将内部系统向外部审计机构实质开放，为 AI 安全治理提供了可观察的新范式。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/openai-opens-its-ai-systems-to-four-independent-on-site-auditors-for-the-first-time/">The Decoder</source>
-<category>AI 安全</category>
-<category>OpenAI</category>
-<category>模型审计</category>
-<category>AI 治理</category>
-</item>
-<item><title>Hugging Face 接入 OpenRouter 自动择优路由模型请求</title><link>https://the-decoder.com/hugging-face-now-routes-model-requests-through-openrouter-for-the-best-price-or-speed/</link><guid isPermaLink="true">https://the-decoder.com/hugging-face-now-routes-model-requests-through-openrouter-for-the-best-price-or-speed/</guid>
-<pubDate>Wed, 18 Nov 2026 22:33:44 +0800</pubDate>
-<description>&lt;p&gt;Hugging Face 的 Inference Providers 现已通过 OpenRouter 路由语言模型请求，默认按价格、速度与可靠性综合择优分发。开发者可用简单修饰符按吞吐或成本调整路由策略，且无需再自备模型 API Key，由 Hugging Face 直接计费且不加价。文章同时指出，开源权重模型已占 OpenRouter 高频模型 token 的 71% 以上，平均成本约为闭源方案的四分之一。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流开源模型平台接入第三方路由层，直接影响开发者的模型调用成本与延迟选择。&lt;/p&gt;&lt;p&gt;The Decoder · tools · signal 62/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/hugging-face-now-routes-model-requests-through-openrouter-for-the-best-price-or-speed/">The Decoder</source>
-<category>Hugging Face</category>
-<category>OpenRouter</category>
-<category>模型路由</category>
-<category>开源模型</category>
-<category>推理服务</category>
-</item>
-<item><title>美国最大数据中心过半电力仍来自化石燃料</title><link>https://the-decoder.com/more-than-half-the-electricity-feeding-americas-largest-data-centers-comes-from-gas-and-coal/</link><guid isPermaLink="true">https://the-decoder.com/more-than-half-the-electricity-feeding-americas-largest-data-centers-comes-from-gas-and-coal/</guid>
-<pubDate>Wed, 18 Nov 2026 22:25:04 +0800</pubDate>
-<description>&lt;p&gt;哈佛研究显示，美国约 400 座最大数据中心年耗电约 82 太瓦时，其中 54% 来自天然气与煤炭，单年碳排放已超过丹麦全国。国际能源署预计到 2035 年全球数据中心年排放将达 3.5 亿吨，而 COP31 提出的《安塔利亚人工智能承诺》仍为自愿性质、不具法律约束力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次以实证数据量化 AI 算力扩张的碳足迹，并揭示电网瓶颈正推动运营商自建燃气电厂这一结构性趋势。&lt;/p&gt;&lt;p&gt;The Decoder · compute · signal 78/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/more-than-half-the-electricity-feeding-americas-largest-data-centers-comes-from-gas-and-coal/">The Decoder</source>
-<category>数据中心</category>
-<category>碳排放</category>
-<category>算力基础设施</category>
-<category>能源</category>
-</item>
-<item><title>腾讯 WorkBuddy 年化收入超 5 亿美元 日活破千万</title><link>https://www.ithome.com/1/029/110.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/110.htm</guid>
-<pubDate>Wed, 18 Nov 2026 22:15:02 +0800</pubDate>
-<description>&lt;p&gt;腾讯总裁刘炽平在分析师会上披露，AI 产品 WorkBuddy 最近七天收入按年化折算超过 5 亿美元，三季度收入达二季度的 5 倍以上，日活用户超 1000 万、日均 Token 调用量超 100 万亿。该产品已覆盖中国百强企业中的 60%，成为中国大模型应用中商业化速度最快的案例之一。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部大厂 AI 产品首次披露年化 5 亿美元级收入与千万日活，是观察中国大模型商业化进度的关键数据点。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/029/110.htm">IT之家 · 智能时代</source>
-<category>腾讯</category>
-<category>商业化</category>
-<category>大模型应用</category>
-<category>企业服务</category>
 </item>
 </channel>
 </rss>
