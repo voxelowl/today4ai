@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Wed, 18 Nov 2026 23:54:22 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 19 Nov 2026 01:45:47 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>OpenAI 发布 GPT-6.2 双模型 成本仅为对手 5%</title><link>https://todayforai.com/en/story/story-38dbfe49-f31</link><guid isPermaLink="true">https://todayforai.com/en/story/story-38dbfe49-f31</guid>
 <pubDate>Wed, 18 Nov 2026 18:19:04 +0800</pubDate>
@@ -15,7 +15,7 @@
 
 此次辞职与董事会正在进行的独立调查密切相关。多家媒体报道称，调查涉及黄仁勋与一名疑似中国间谍及一名直接下属的私人关系。董事会已一致决定不接受黄仁勋复职，临时 CEO Colette Kress 在 CNBC 节目中明确表示“不会让 Jensen 回归”，董事长 Jones 亦在财报电话会上确认该决定。Kress 自 2013 年起担任英伟达 CFO，将兼任临时 CEO 直至正式继任者到位。公司此前缺乏公开接班计划，约 60 名高管曾直接向黄仁勋汇报，新 CEO 将接手约 1000 亿美元对外投资组合，包括计划在 Anthropic 上市时购入的 100 亿美元股份。
 
-作为全球 AI 芯片的核心供应商，英伟达的领导层真空引发市场对战略连续性与供应链关系的担忧。多家券商已下调评级或目标价，投资者关注 11 月 17 日财报会上的短期安排。此次变动是继 Google DeepMind 高层重组后 AI 行业最具冲击力的领导层更迭，可能影响 GPU 路线图、客户信心及整个 AI 算力生态的走向。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), The Decoder, Latent Space, The Verge AI, IT之家 · IT业界, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
+作为全球 AI 芯片的核心供应商，英伟达的领导层真空引发市场对战略连续性与供应链关系的担忧。多家券商已下调评级或目标价，投资者关注 11 月 17 日财报会上的短期安排。此次变动是继 Google DeepMind 高层重组后 AI 行业最具冲击力的领导层更迭，可能影响 GPU 路线图、客户信心及整个 AI 算力生态的走向。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), The Decoder, Latent Space, The Verge AI, IT之家 · IT业界, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 启动 IPO 路演 拟最高募资 904 亿美元</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
 <pubDate>Wed, 18 Nov 2026 23:35:59 +0800</pubDate>
@@ -57,6 +57,14 @@ Mercor 以 AI 人才招聘与专家数据服务起家，拥有超过 500 万名�
 
 Jason Wei 将“数据塑造下一个前沿”作为核心判断，此次转向被视为顶级推理研究者对数据路线的标志性押注。随着模型能力竞争进入深水区，高质量数据与评测正成为下一个关键战场，而大厂天价挖人后的一年悬崖期也加速了人才向数据侧创业公司流动。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;量子位官网, 机器之心 (微信公众号), 宝玉 (@dotey)&lt;/p&gt;</description>
 </item>
+<item><title>OpenAI 用前沿模型加速自研芯片与 AMD 硬件设计</title><link>https://todayforai.com/en/story/story-5727ee1e-daf</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5727ee1e-daf</guid>
+<pubDate>Thu, 19 Nov 2026 01:45:47 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 首次系统性披露，其前沿大模型已深度介入自研推理芯片 Jalapeño 的专家级设计流程，在向量单元浮点加法器、乘法器与归约函数等关键模块上实现了非平凡的 PPA（功耗、性能、面积）优化。这标志着 AI 从辅助代码生成迈向了芯片物理设计核心环节，验证了前沿模型参与专家级硬件工程的可行性。
+
+更值得关注的是，OpenAI 正将同一方法迁移至 AMD 第三方硬件，意味着该能力不局限于自研芯片，而有望成为通用芯片设计加速器。同时，OpenAI 与 EDA 巨头 Synopsys 合作推出专用模型 GPT-Synopsys，将前沿智能直接嵌入工程师日常使用的工具链，推动芯片设计验证的端到端自动化。多方信源交叉验证了上述进展，显示 OpenAI 在芯片设计自动化上已形成从自研到外供、从模型到工具的完整闭环。
+
+这一动向对半导体行业影响深远：一方面，AI 辅助设计有望大幅缩短芯片研发周期、降低人力成本，尤其对定制化推理芯片意义重大；另一方面，OpenAI 与 Synopsys 的结盟可能重塑 EDA 市场格局，迫使竞争对手加速 AI 集成。长期看，AI 驱动芯片设计或成为解决算力瓶颈的关键路径，但也引发对设计质量与安全验证的新挑战。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;OpenAI 官方博客, Hacker News AI&lt;/p&gt;</description>
+</item>
 <item><title>毕马威百个 AI 智能体完成首次平行审计</title><link>https://todayforai.com/en/story/story-b8158e28-38f</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b8158e28-38f</guid>
 <pubDate>Wed, 18 Nov 2026 23:49:34 +0800</pubDate>
 <description>&lt;p&gt;毕马威英国近日完成全球首次全流程 AI 平行审计，对一家富时 250 指数公司部署超过 100 个 AI 智能体，覆盖审计各阶段，与人类团队并行作业。实验代号“指数计划”，结果显示智能体在单个财务问题上追查更深、提问质量更高，但监管条款与公司文件匹配环节仍需人工介入，官方审计意见仍以传统审计为准。
@@ -68,14 +76,6 @@ Jason Wei 将“数据塑造下一个前沿”作为核心判断，此次转向�
 <item><title>Meta 发布 Muse Ember 刷新 WebDev 性价比前沿</title><link>https://todayforai.com/en/story/story-0fdbd702-0fe</link><guid isPermaLink="true">https://todayforai.com/en/story/story-0fdbd702-0fe</guid>
 <pubDate>Wed, 18 Nov 2026 23:54:22 +0800</pubDate>
 <description>&lt;p&gt;Arena.ai 更新 Code Arena: WebDev 性价比前沿，Meta 的 Muse Ember 成为五款新上榜模型中对前沿推动最大的一款。在约 3 美分/答案的价位上，其得分达 1608，较此前同价位最佳的 1438 提升约 170 分，对战胜率约 73%。同期上榜的还有 Claude Fable 5.2、Gemini 4 Carbon、Kimi K3.1 Pro 与 GPT-6.1 Terra。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Arena.ai (@arena)&lt;/p&gt;</description>
-</item>
-<item><title>法国 Genesis AI 融资 5 亿美元 估值达 35 亿美元</title><link>https://todayforai.com/en/story/story-3d8b8018-ccd</link><guid isPermaLink="true">https://todayforai.com/en/story/story-3d8b8018-ccd</guid>
-<pubDate>Wed, 18 Nov 2026 12:28:57 +0800</pubDate>
-<description>&lt;p&gt;法国通用机器人公司 Genesis AI 宣布完成 5 亿美元 A 轮融资，投后估值达 35 亿美元，成为欧洲机器人行业规模最大的融资之一。本轮投资方包括谷歌前 CEO 埃里克·施密特、Khosla Ventures、英伟达、AMD 以及法国政府支持的 Bpifrance，其中英伟达与 AMD 首次联手投资具身智能企业，在具身融资遇冷期尤为突出。
-
-Genesis AI 定位为具身全栈玩家，资金将集中投入一条技术路线：通过带触觉与力反馈的手套记录人类工作过程，采集真实操作数据，并借助 Genesis World 物理仿真器让 GENE 模型在大量虚拟环境中并行自练习，提前定位技能失效边界，减少昂贵的实体试错。其自研的 GENE-26.5 基础模型以单一共享权重完成厨房、实验室等长程灵巧操作任务，而非多专用小模型堆叠，公司主张数据、模型、评测与本体全栈自研闭环。
-
-此次融资将用于提升通用机器人 Eno 的产量并扩大数据采集与 AI 训练规模。在具身智能融资整体遇冷背景下，英伟达与 AMD 的联手押注凸显了 Genesis AI 全栈路线的稀缺性，也为欧洲机器人产业注入强心剂，有望加速通用机器人在真实场景的落地进程。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Rohan Paul (@rohanpaul_ai), 量子位官网&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
