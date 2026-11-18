@@ -1,8 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Thu, 19 Nov 2026 03:26:25 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 19 Nov 2026 03:56:39 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Snapchat Launches Easy Lens CLI for AI-Assisted AR Lens Development</title><link>https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/</guid>
+<pubDate>Thu, 19 Nov 2026 03:56:39 +0800</pubDate>
+<description>&lt;p&gt;Snapchat released Easy Lens CLI, enabling developers to build AR Lenses directly through AI coding assistants such as Claude Code, Cursor, and Codex. Extending its prompt-based Easy Lens tool into local developer workflows across Mac, Windows, and Linux, the move lowers the barrier to AR creation and lets brands convert existing campaign assets into AR experiences faster.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Snapchat 推出 Easy Lens CLI 支持 AI 助手开发 AR 滤镜&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流社交平台将 AR 创作接入通用 AI 编程助手工作流，是 AI 工具链向内容创作场景渗透的典型信号。&lt;/p&gt;&lt;p&gt;TechCrunch AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/">TechCrunch AI</source>
+<category>AI 编程助手</category>
+<category>AR</category>
+<category>Snapchat</category>
+<category>开发者工具</category>
+</item>
+<item><title>White House Weighs Public Disclosure Rule for Chinese AI Model Use</title><link>https://x.com/rohanpaul_ai/status/2123143316661538837</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123143316661538837</guid>
+<pubDate>Thu, 19 Nov 2026 03:56:27 +0800</pubDate>
+<description>&lt;p&gt;The Trump administration is weighing a rule requiring US companies to publicly disclose any use of Chinese AI models, relying on name-and-shame pressure rather than new restrictions. Airbnb&amp;#x27;s customer service agent runs on Qwen, Anysphere&amp;#x27;s Composer 2 was built on Kimi, and DoorDash routes internal tasks through Kimi, with House China committee chair Moolenaar backing the disclosure idea.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美政府拟要求企业公示使用中国 AI 模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;监管风向可能重塑中美模型供应链选择，直接影响企业技术选型与合规成本。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 72/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2123143316661538837">Rohan Paul (@rohanpaul_ai)</source>
+<category>AI 监管</category>
+<category>中美科技</category>
+<category>模型供应链</category>
+</item>
+<item><title>RadixArk Open-Sources DaisyRose-27B Agent Model Trained in 18 Days</title><link>https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin</link><guid isPermaLink="true">https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin</guid>
+<pubDate>Thu, 19 Nov 2026 03:54:56 +0800</pubDate>
+<description>&lt;p&gt;RadixArk released DaisyRose-27B, its first model, post-trained from Qwen3.8-27B with reinforcement learning on long-horizon agent tasks using only 1,200 curated tasks across 144 H200 GPUs in 18 days. Terminal-Bench 4.1 pass@1 rose from 5.6% to 12.0%, with checkpoints released under Apache 2.0.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;RadixArk 开源 27B 智能体模型 长程任务训练仅用 18 天&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以极小数据量与算力实现智能体长程任务能力翻倍，且完全开源，对后训练效率研究有直接参考价值。&lt;/p&gt;&lt;p&gt;Hugging Face Blog · llm · signal 72/100&lt;/p&gt;</description>
+<source url="https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin">Hugging Face Blog</source>
+<category>开源模型</category>
+<category>强化学习</category>
+<category>智能体</category>
+<category>后训练</category>
+</item>
+<item><title>RadixArk Releases DaisyRose-27B Agent Model Doubling Terminal-Bench Pass Rate</title><link>https://www.radixark.com/blog/daisyrose-27b</link><guid isPermaLink="true">https://www.radixark.com/blog/daisyrose-27b</guid>
+<pubDate>Thu, 19 Nov 2026 03:39:16 +0800</pubDate>
+<description>&lt;p&gt;RadixArk released DaisyRose-27B, its first model, built on Qwen3.8-27B and RL-trained on 1,200 curated long-horizon agent tasks over 18 days using 144 H200 GPUs. It lifts Terminal-Bench 4.1 pass@1 from 5.6% to 12.0% and improves several reasoning, instruction-following and coding benchmarks, with BF16, FP8 and NVFP4 checkpoints released openly.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;RadixArk 开源 27B 智能体模型 终端任务通过率翻倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;小样本长程智能体 RL 在有限算力下实现基准翻倍，且权重全量开源，对智能体训练路线有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 72/100&lt;/p&gt;</description>
+<source url="https://www.radixark.com/blog/daisyrose-27b">Hacker News AI</source>
+<category>大模型</category>
+<category>智能体</category>
+<category>强化学习</category>
+<category>开源模型</category>
+</item>
 <item><title>Google DeepMind Releases Genie 4 World Model to Subscribers</title><link>https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing/</link><guid isPermaLink="true">https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing/</guid>
 <pubDate>Thu, 19 Nov 2026 03:26:25 +0800</pubDate>
 <description>&lt;p&gt;Google DeepMind is releasing Genie 4, its most advanced world model for generating interactive 3D worlds, moving it from research preview to Google AI Ultra subscribers. The model lets users reshape weather, characters and storylines in real time via text and generates native real-time sound that adapts to the scene. Genie 3 also gains longer sessions of up to three minutes, 360-degree panorama support and chainable worlds, plus a community gallery for sharing and remixing, with all output carrying SynthID watermarks and safety checks.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Google DeepMind 发布 Genie 4 世界模型并开放订阅&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;世界模型从研究预览走向付费产品化，是交互式生成与智能体环境构建的重要节点。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
@@ -187,35 +222,35 @@
 <category>融资</category>
 <category>Physical AI</category>
 </item>
-<item><title>Maritime Launches Managed Cloud Platform for Production AI Agents</title><link>https://news.ycombinator.com/item?id=50549188</link><guid isPermaLink="true">https://news.ycombinator.com/item?id=50549188</guid>
+<item><title>Maritime 推出面向生产级 AI 智能体的托管云平台</title><link>https://news.ycombinator.com/item?id=50549188</link><guid isPermaLink="true">https://news.ycombinator.com/item?id=50549188</guid>
 <pubDate>Thu, 19 Nov 2026 01:26:28 +0800</pubDate>
-<description>&lt;p&gt;YC F26-backed Maritime launched a managed cloud for production AI agents, arguing that sandboxes address only about 10% of the infrastructure problem. Its core offering covers agent lifecycle management, including sleep/wake, persistent storage, triggers, scheduling, per-user routing and spend caps, health monitoring, failure recovery and zero-downtime fleet updates.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Maritime 推出面向生产级 AI 智能体的托管云平台&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;针对智能体生产部署中沙箱之外的运维缺口提出系统化托管方案，对构建生产级 Agent 的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;YC F26 孵化的 Maritime 推出面向生产级 AI 智能体的托管云平台，主张沙箱只解决约 10% 的基础设施问题。其核心能力覆盖智能体生命周期管理，包括休眠唤醒、持久存储、触发器、调度、按用户路由与消费上限、健康监控、故障恢复及无停机批量更新。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;针对智能体生产部署中沙箱之外的运维缺口提出系统化托管方案，对构建生产级 Agent 的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 62/100&lt;/p&gt;</description>
 <source url="https://news.ycombinator.com/item?id=50549188">Hacker News AI</source>
 <category>AI 智能体</category>
 <category>云基础设施</category>
 <category>YC 孵化</category>
 </item>
-<item><title>Mirrord Extends Local-to-Cloud Dev Loop to AWS ECS</title><link>https://metalbear.com/blog/stop-deploying-to-ecs/</link><guid isPermaLink="true">https://metalbear.com/blog/stop-deploying-to-ecs/</guid>
+<item><title>mirrord 支持 ECS 本地代码直连预发环境</title><link>https://metalbear.com/blog/stop-deploying-to-ecs/</link><guid isPermaLink="true">https://metalbear.com/blog/stop-deploying-to-ecs/</guid>
 <pubDate>Thu, 19 Nov 2026 01:05:13 +0800</pubDate>
-<description>&lt;p&gt;MetalBear has added AWS ECS support to mirrord, letting developers and coding agents run code locally or in a sandbox as if it were a live staging task, inheriting its network, environment variables and IAM role. Session-header routing lets multiple users and agents share one staging environment concurrently, replacing full image-build-and-rollout cycles with a single local run.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;mirrord 支持 ECS 本地代码直连预发环境&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;直击智能体开发中最耗时的部署验证环节，把本地调试与云端运行时上下文打通，对使用 ECS 的团队有明确工程价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;MetalBear 为 mirrord 新增 ECS 支持，开发者与编码智能体可在本地或沙箱中直接以预发任务的身份运行代码，复用其网络、环境变量与 IAM 角色，无需构建镜像和滚动发布即可验证改动。该能力通过会话头路由实现多人多智能体并行共享同一预发环境，把智能体的迭代等待时间从整轮部署压缩为一次本地运行。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;直击智能体开发中最耗时的部署验证环节，把本地调试与云端运行时上下文打通，对使用 ECS 的团队有明确工程价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
 <source url="https://metalbear.com/blog/stop-deploying-to-ecs/">Hacker News AI</source>
 <category>开发者工具</category>
 <category>AWS ECS</category>
 <category>云原生开发</category>
 <category>智能体工作流</category>
 </item>
-<item><title>Google Brings Gemini App to Low-Memory Android Go Devices</title><link>https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/</link><guid isPermaLink="true">https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/</guid>
+<item><title>Gemini 应用登陆低内存 Android Go 设备</title><link>https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/</link><guid isPermaLink="true">https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/</guid>
 <pubDate>Thu, 19 Nov 2026 01:00:00 +0800</pubDate>
-<description>&lt;p&gt;Google is bringing the Gemini app to eligible low-memory Android (Go edition) devices, extending its assistant to hundreds of millions of entry-level phone users who previously had only basic voice commands. The app was re-architected to run the core Gemini experience on constrained hardware, retaining Gemini Live voice chat in 45+ languages, camera-based translation, and Nano Banana image generation.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Gemini 应用登陆低内存 Android Go 设备&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Gemini 在新兴市场低端硬件上的重要分发扩张，并披露了为低内存设备重构应用的技术取舍。&lt;/p&gt;&lt;p&gt;Google AI Blog · tools · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Google 将 Gemini 应用下放至低内存的 Android Go 设备，覆盖此前仅支持基础语音指令的数百亿级入门机型用户。为适配低内存硬件，团队对应用进行了重新架构，保留 Gemini Live 多语言语音对话、摄像头识图翻译与 Nano Banana 图像生成等核心能力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Gemini 在新兴市场低端硬件上的重要分发扩张，并披露了为低内存设备重构应用的技术取舍。&lt;/p&gt;&lt;p&gt;Google AI Blog · tools · signal 42/100&lt;/p&gt;</description>
 <source url="https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/">Google AI Blog</source>
 <category>Gemini</category>
 <category>Android Go</category>
 <category>Google</category>
 <category>AI 助手</category>
 </item>
-<item><title>Altman Rejects Gradual Handover of Decision-Making to AI</title><link>https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/</guid>
+<item><title>Altman 公开反对 AI 渐进接管人类决策</title><link>https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/</guid>
 <pubDate>Thu, 19 Nov 2026 00:59:00 +0800</pubDate>
-<description>&lt;p&gt;OpenAI CEO Sam Altman used the New York Times DealBook Summit stage to reject the Silicon Valley notion of a gradual handover of decision-making authority to AI, insisting humans must remain in control. Appearing alongside Greg Brockman, he also argued defenders must wield the most capable models against cyber models now in the hands of threat actors.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Altman 公开反对 AI 渐进接管人类决策&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司掌门人首次公开正面驳斥“AI 接管论”，是观察行业治理路线与安全话语权的重要表态。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI CEO Sam Altman 在纽约时报 DealBook 峰会上明确反对硅谷流行的“渐进式向 AI 移交决策权”论调，强调人类必须始终掌控未来。他与 Greg Brockman 同台表态，同时指出面对威胁行为者手中的网络攻击模型，防御方必须使用最强模型进行对抗。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司掌门人首次公开正面驳斥“AI 接管论”，是观察行业治理路线与安全话语权的重要表态。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 42/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/">TechCrunch AI</source>
 <category>AI 治理</category>
 <category>OpenAI</category>
@@ -229,42 +264,6 @@
 <category>开源</category>
 <category>软件工程</category>
 <category>Mastra</category>
-</item>
-<item><title>Altman 后悔未持有 OpenAI 股权</title><link>https://x.com/rohanpaul_ai/status/2123096489966895153</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123096489966895153</guid>
-<pubDate>Thu, 19 Nov 2026 00:50:23 +0800</pubDate>
-<description>&lt;p&gt;Sam Altman 在 CNBC Dealbook 峰会上承认，他本应听从 Greg Brockman 的建议，在 OpenAI 持有股权。Brockman 的持股今年早些时候估值接近 300 亿美元，这凸显了 OpenAI 治理与股权结构中的关键张力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;OpenAI 掌门人首次公开承认股权决策失误，折射出这家头部 AI 实验室独特的治理与利益结构。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2123096489966895153">Rohan Paul (@rohanpaul_ai)</source>
-<category>OpenAI</category>
-<category>股权结构</category>
-<category>公司治理</category>
-<category>Sam Altman</category>
-</item>
-<item><title>腾讯称芯片限制将加速国产供应链建设</title><link>https://www.ithome.com/1/029/124.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/124.htm</guid>
-<pubDate>Thu, 19 Nov 2026 00:40:50 +0800</pubDate>
-<description>&lt;p&gt;腾讯在 2026 年第三季度业绩会上表示，芯片限制导致短期可用算力减少、下一代混元模型推出可能延后，但长期将推动更多中国企业转向国产芯片与国内供应链，带动相关研发力量集中。管理层同时称 AI 基建资本开支并非一次性消耗，预计到 2028 年设备采购价格下降与训练推理效率提升将缓解经营压力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部云厂商首次明确将出口限制与国产芯片替代、下一代模型节奏直接挂钩，是观察中国算力供应链走向的关键信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/029/124.htm">IT之家 · 智能时代</source>
-<category>算力</category>
-<category>国产芯片</category>
-<category>腾讯</category>
-<category>供应链</category>
-</item>
-<item><title>谷歌研究：会反驳的 AI 队友让学生商业计划得分提升 7 个百分点</title><link>https://x.com/rohanpaul_ai/status/2123090747771781144</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123090747771781144</guid>
-<pubDate>Thu, 19 Nov 2026 00:27:34 +0800</pubDate>
-<description>&lt;p&gt;谷歌研究团队基于 Vantage 平台开展实验，让 Gemini 3.1 Pro 驱动的 AI 队友主动提出有缺陷的想法、表达异议并陈述错误论断，但绝不替学生完成任务。52 名学生参与的试验显示，使用该平台的学生商业计划平均得分 67.6%，高于使用普通 AI 工具的对照组 60.5%；完成 5 至 6 次练习的学生平均达 79.7%。结论是面向学习的 AI 应设计为挑战用户的队友，而非代劳的助手。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了 AI 教育智能体设计范式的实证数据，对构建学习类 Agent 的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 62/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2123090747771781144">Rohan Paul (@rohanpaul_ai)</source>
-<category>AI 教育</category>
-<category>智能体</category>
-<category>谷歌研究</category>
-<category>Gemini</category>
-</item>
-<item><title>LangSmith 推出按成果追踪编码智能体花费</title><link>https://www.langchain.com/blog/langsmith-coding-agents-roi</link><guid isPermaLink="true">https://www.langchain.com/blog/langsmith-coding-agents-roi</guid>
-<pubDate>Thu, 19 Nov 2026 00:27:01 +0800</pubDate>
-<description>&lt;p&gt;LangChain 旗下 LangSmith 新增“成果（outcomes）”概念，将 GitHub PR 或 GitLab MR 与智能体会话线程关联，使团队能直接看到每个已合并 PR 的实际花费，以及多少支出未产出任何 PR。该功能面向企业编码智能体的 ROI 核算，每个 PR 可回溯到背后的线程以定位成本驱动因素。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;编码智能体已成为企业 AI 支出最大类别，按成果核算成本是工程团队刚需，该功能提供了可落地的观测手段。&lt;/p&gt;&lt;p&gt;LangChain Blog · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.langchain.com/blog/langsmith-coding-agents-roi">LangChain Blog</source>
-<category>LangSmith</category>
-<category>编码智能体</category>
-<category>可观测性</category>
-<category>ROI</category>
 </item>
 </channel>
 </rss>

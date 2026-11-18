@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Thu, 19 Nov 2026 02:49:51 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 19 Nov 2026 03:54:56 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>OpenAI 发布 GPT-6.2 双模型 成本仅为对手 5%</title><link>https://todayforai.com/en/story/story-38dbfe49-f31</link><guid isPermaLink="true">https://todayforai.com/en/story/story-38dbfe49-f31</guid>
 <pubDate>Wed, 18 Nov 2026 18:19:04 +0800</pubDate>
@@ -41,6 +41,14 @@ Anthropic 上市核心目的是囤积现金以支撑算力扩张，公司 9 月�
 
 此次发布标志着生成式 AI 从文本、图像向交互式 3D 世界构建的延伸。Genie 4 的订阅制开放策略可能推动 AI 世界生成在游戏、教育、虚拟制作等领域的商业化应用，同时加剧与 Unity、Epic 等传统 3D 引擎的竞争。社区画廊的引入则暗示谷歌正构建创作者生态，未来或形成新的内容平台。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Google DeepMind, Hacker News AI&lt;/p&gt;</description>
 </item>
+<item><title>RadixArk 开源 27B 智能体模型 终端任务通过率翻倍</title><link>https://todayforai.com/en/story/story-a9b92b62-184</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a9b92b62-184</guid>
+<pubDate>Thu, 19 Nov 2026 03:54:56 +0800</pubDate>
+<description>&lt;p&gt;RadixArk 正式发布其首个开源智能体模型 DaisyRose-27B，基于 Qwen3.8-27B 通过强化学习在长程智能体任务上进行后训练。该模型仅使用 1200 条精选任务、144 张 H200 GPU 训练 18 天即完成，在 Terminal-Bench 4.1 基准上的 pass@1 从 5.6% 提升至 12.0%，实现通过率翻倍，同时支持高达 1M token 的单会话上下文。
+
+技术细节方面，DaisyRose-27B 在 Terminal-Bench 2.1 上达到 75.5 分，DeepSWE v1.1 上达到 46.2 分，并在推理、指令遵循与编码等多项基准上取得普遍增益。RadixArk 同步开源了 BF16、FP8 和 NVFP4 三档权重，均采用 Apache 2.0 许可，便于不同硬件环境下的部署与二次开发。
+
+这一发布表明，高质量的小规模任务集与高效训练策略能在有限算力下显著提升智能体的长程任务能力，为开源社区提供了可复现的智能体训练范式，有望推动终端自动化与软件工程智能体应用的快速发展。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hugging Face Blog, Hacker News AI&lt;/p&gt;</description>
+</item>
 <item><title>谷歌免费开放 Gemini 个人智能体 支持代打电话与支付</title><link>https://todayforai.com/en/story/story-1e240428-2ad</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1e240428-2ad</guid>
 <pubDate>Wed, 18 Nov 2026 03:44:59 +0800</pubDate>
 <description>&lt;p&gt;谷歌宣布将原需每月 19.99 美元订阅的 Spark 智能体更名为 Task，并基于 Gemini 4 Hydrogen 模型在美国、日本、韩国、加拿大、澳大利亚和印度六国免费开放。该功能从对话助手升级为可执行任务的智能体，支持代打电话比价、通过 Google Pay 结账、将转发邮件转为日历事件等操作，直接对标 OpenAI 每月 100 美元起的 Dots 和 Meta Muse。
@@ -72,14 +80,6 @@ Jason Wei 将“数据塑造下一个前沿”作为核心判断，此次转向�
 更值得关注的是，OpenAI 正将同一方法迁移至 AMD 第三方硬件，意味着该能力不局限于自研芯片，而有望成为通用芯片设计加速器。同时，OpenAI 与 EDA 巨头 Synopsys 合作推出专用模型 GPT-Synopsys，将前沿智能直接嵌入工程师日常使用的工具链，推动芯片设计验证的端到端自动化。多方信源交叉验证了上述进展，显示 OpenAI 在芯片设计自动化上已形成从自研到外供、从模型到工具的完整闭环。
 
 这一动向对半导体行业影响深远：一方面，AI 辅助设计有望大幅缩短芯片研发周期、降低人力成本，尤其对定制化推理芯片意义重大；另一方面，OpenAI 与 Synopsys 的结盟可能重塑 EDA 市场格局，迫使竞争对手加速 AI 集成。长期看，AI 驱动芯片设计或成为解决算力瓶颈的关键路径，但也引发对设计质量与安全验证的新挑战。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;OpenAI 官方博客, Hacker News AI&lt;/p&gt;</description>
-</item>
-<item><title>毕马威百个 AI 智能体完成首次平行审计</title><link>https://todayforai.com/en/story/story-b8158e28-38f</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b8158e28-38f</guid>
-<pubDate>Wed, 18 Nov 2026 23:49:34 +0800</pubDate>
-<description>&lt;p&gt;毕马威英国近日完成全球首次全流程 AI 平行审计，对一家富时 250 指数公司部署超过 100 个 AI 智能体，覆盖审计各阶段，与人类团队并行作业。实验代号“指数计划”，结果显示智能体在单个财务问题上追查更深、提问质量更高，但监管条款与公司文件匹配环节仍需人工介入，官方审计意见仍以传统审计为准。
-
-多方信源交叉验证，此次实验并非仅辅助孤立行政环节，而是端到端执行审计任务，直接触及审计行业人力成本结构与专业分工。智能体在深度挖掘上超越常规团队，但在需要专业判断与监管匹配的环节仍依赖人类，表明 AI 在审计中的角色是增强而非替代。
-
-行业影响方面，若 AI 智能体大规模应用，审计经济学可能重构，人力密集型分析工作或被替代，但同时也对审计质量、责任归属和监管框架提出新挑战。毕马威的尝试为行业提供了平行审计的范本，预示着人机协作将成为审计新常态。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, The Decoder&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
