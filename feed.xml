@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Thu, 19 Nov 2026 02:50:13 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 19 Nov 2026 02:53:43 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>272 Production Runs Reveal Fine-Tuning Time Far Exceeds FLOPs Estimates</title><link>https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time</link><guid isPermaLink="true">https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time</guid>
+<pubDate>Thu, 19 Nov 2026 02:53:43 +0800</pubDate>
+<description>&lt;p&gt;The Dharma-AI team analyzed 272 production fine-tuning runs to quantify the gap between theoretical FLOPs-based estimates and actual end-to-end training time on shared GPU clusters, attributing the discrepancy to communication, scheduling, and I/O overheads. The work offers empirical grounding for more accurate job-duration prediction and cluster resource planning, with the full paper forthcoming on arXiv.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;实测 272 次微调任务揭示 GPU 耗时远超 FLOPs 估算&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;基于 272 次真实生产任务量化微调耗时偏差，对 GPU 集群调度与成本预估有直接工程价值。&lt;/p&gt;&lt;p&gt;Hugging Face Blog · compute · signal 62/100&lt;/p&gt;</description>
+<source url="https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time">Hugging Face Blog</source>
+<category>微调</category>
+<category>GPU 集群</category>
+<category>训练效率</category>
+<category>Hugging Face</category>
+</item>
 <item><title>YC Startup Helios Measures 1,000 Proteins From a Drop of Blood With AI Agent</title><link>https://x.com/rohanpaul_ai/status/2123126650145849489</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123126650145849489</guid>
 <pubDate>Thu, 19 Nov 2026 02:50:13 +0800</pubDate>
 <description>&lt;p&gt;Y Combinator-backed startup Helios has introduced a needle-free at-home blood collection device that measures over 1,000 protein biomarkers from a single drop of blood, far beyond the roughly 20 markers in a routine checkup panel. An AI agent then interprets the results, flags rising disease risks and offers personalized guidance; the product is currently in waitlist stage.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;YC 初创 Helios 用一滴血测 1000 种蛋白并由 AI 解读&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;将高维蛋白质组检测与 AI 智能体解读结合，展示了消费级健康监测的新形态，但尚处等待名单阶段、缺乏验证数据。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 58/100&lt;/p&gt;</description>
@@ -11,6 +20,33 @@
 <category>智能体</category>
 <category>生物标志物</category>
 <category>Y Combinator</category>
+</item>
+<item><title>Google Rolls Out Genie 4 World Generation to AI Ultra Subscribers</title><link>https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/</link><guid isPermaLink="true">https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/</guid>
+<pubDate>Thu, 19 Nov 2026 02:49:51 +0800</pubDate>
+<description>&lt;p&gt;Google is rolling out Genie 4 to eligible Google AI Ultra subscribers, enabling real-time natural-language environment editing, native audio, and sharing creations in a new community gallery. The updated Genie 3 model adds longer sessions, panorama grounding, and linked world sequences, while the new Project Genie agent builds custom worlds through conversational interaction. Google AI Pro members can only join the waitlist for now.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌向 Ultra 订阅用户开放 Genie 4 世界生成&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;谷歌交互式世界生成模型 Genie 4 正式面向订阅用户开放，是生成式世界模型落地消费级产品的重要一步。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 72/100&lt;/p&gt;</description>
+<source url="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/">Hacker News AI</source>
+<category>世界模型</category>
+<category>谷歌</category>
+<category>生成式 AI</category>
+<category>订阅服务</category>
+</item>
+<item><title>Microsoft Replaces External AI Models With Cheaper In-House Alternatives</title><link>https://the-decoder.com/microsoft-is-replacing-outside-ai-models-in-its-own-products-with-cheaper-in-house-alternatives/</link><guid isPermaLink="true">https://the-decoder.com/microsoft-is-replacing-outside-ai-models-in-its-own-products-with-cheaper-in-house-alternatives/</guid>
+<pubDate>Thu, 19 Nov 2026 02:47:36 +0800</pubDate>
+<description>&lt;p&gt;Microsoft AI unveiled seven specialized models at Ignite spanning code, IT security, image editing, speech and workflow decisions, all aimed at cutting the operating costs of always-on AI agents. MAI Code 2 nearly matches GPT-6.1 Sol and Claude Opus 5.5 on internal benchmarks at a fraction of the cost, while MAI Cyber 2 Flash edges past GPT-6 Astra on a vulnerability test. Microsoft will also let enterprise customers fine-tune selected model weights with their own data on Azure, sharpening its push to replace OpenAI and Anthropic systems with in-house alternatives.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;微软用自研模型替换外部 AI 模型以降低成本&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;微软以自研专用模型替代外部模型，直接冲击 OpenAI 与 Anthropic 的供应关系，是模型层竞争格局的重要信号。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/microsoft-is-replacing-outside-ai-models-in-its-own-products-with-cheaper-in-house-alternatives/">The Decoder</source>
+<category>微软</category>
+<category>自研模型</category>
+<category>模型竞争</category>
+<category>Azure</category>
+</item>
+<item><title>Nvidia&#x27;s First Earnings Call Under New CEO Signals Strategic Shift</title><link>https://www.theverge.com/ai-artificial-intelligence/1036776/nvidia-earnings-kress-jensen-huang-petition</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1036776/nvidia-earnings-kress-jensen-huang-petition</guid>
+<pubDate>Thu, 19 Nov 2026 02:34:15 +0800</pubDate>
+<description>&lt;p&gt;Nvidia held its first earnings call under new CEO Colette Kress, with investors watching whether she will rein in the customer-financing bets that defined Jensen Huang&amp;#x27;s tenure. Elon Musk&amp;#x27;s claim that Huang struck supplier deals on handshakes rather than written contracts, plus Kress&amp;#x27;s earlier pushback as CFO against subsidizing customers, suggests Nvidia&amp;#x27;s capital-allocation and governance style may be shifting.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;黄仁勋卸任后英伟达换帅首份财报引关注&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达换帅后的首份财报与客户融资策略调整，直接牵动 AI 算力供应链与万亿市值公司的治理走向。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 71/100&lt;/p&gt;</description>
+<source url="https://www.theverge.com/ai-artificial-intelligence/1036776/nvidia-earnings-kress-jensen-huang-petition">The Verge AI</source>
+<category>英伟达</category>
+<category>算力</category>
+<category>公司治理</category>
+<category>AI 基础设施</category>
 </item>
 <item><title>Sims Creator Will Wright Unveils AI Memory Mining Simulation</title><link>https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories/</link><guid isPermaLink="true">https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories/</guid>
 <pubDate>Thu, 19 Nov 2026 02:10:33 +0800</pubDate>
@@ -142,6 +178,15 @@
 <category>OpenAI</category>
 <category>AI 安全</category>
 </item>
+<item><title>Mastra Open-Sources Software Factory Merging 238 PRs a Week</title><link>https://news.ycombinator.com/item?id=50548660</link><guid isPermaLink="true">https://news.ycombinator.com/item?id=50548660</guid>
+<pubDate>Thu, 19 Nov 2026 00:53:42 +0800</pubDate>
+<description>&lt;p&gt;The Mastra team has open-sourced Mastra Factory, the internal agentic kanban system it uses to maintain the Mastra TypeScript agent framework, driven largely through Slack mentions. Built on durable agents, conversational memory, a citation-backed markdown wiki and a cloud sandbox, Factory opened and merged 238 PRs last week versus 630 merged by humans.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Mastra 开源软件工厂 单周自主合并 238 个 PR&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;真实生产环境中的多智能体软件工厂落地案例，附带可量化的 PR 吞吐数据与完整技术栈拆解。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 72/100&lt;/p&gt;</description>
+<source url="https://news.ycombinator.com/item?id=50548660">Hacker News AI</source>
+<category>智能体</category>
+<category>开源</category>
+<category>软件工程</category>
+<category>Mastra</category>
+</item>
 <item><title>Altman Regrets Not Taking Equity Stake in OpenAI</title><link>https://x.com/rohanpaul_ai/status/2123096489966895153</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123096489966895153</guid>
 <pubDate>Thu, 19 Nov 2026 00:50:23 +0800</pubDate>
 <description>&lt;p&gt;Sam Altman admitted at CNBC&amp;#x27;s Dealbook Summit that he should have followed Greg Brockman&amp;#x27;s advice and taken an equity stake in OpenAI. Brockman&amp;#x27;s own stake was valued near $30B earlier this year, underscoring the unusual ownership dynamics at the heart of OpenAI&amp;#x27;s governance.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Altman 后悔未持有 OpenAI 股权&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;OpenAI 掌门人首次公开承认股权决策失误，折射出这家头部 AI 实验室独特的治理与利益结构。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
@@ -178,18 +223,18 @@
 <category>可观测性</category>
 <category>ROI</category>
 </item>
-<item><title>Solo Agent Factory Ships 30 Open Source Libraries in One Month</title><link>https://recursiveai.org/blog/what-my-software-factory-built/</link><guid isPermaLink="true">https://recursiveai.org/blog/what-my-software-factory-built/</guid>
+<item><title>单人智能体工厂一月产出 30 个开源库</title><link>https://recursiveai.org/blog/what-my-software-factory-built/</link><guid isPermaLink="true">https://recursiveai.org/blog/what-my-software-factory-built/</guid>
 <pubDate>Thu, 19 Nov 2026 00:26:42 +0800</pubDate>
-<description>&lt;p&gt;A solo developer&amp;#x27;s self-built software factory agent pipeline brought 28 complex open source libraries to 1.0 within a month, totaling nearly 1.9 million lines of handwritten library code and 241 releases, spanning a SQLite-compatible database engine, a deterministic-physics game engine, a GPU stack with its own shader compiler, and Office document readers/writers. The author claims zero code written, zero diffs reviewed and zero replies authored, demonstrating an agent paradigm for end-to-end delivery and ongoing maintenance of complex software.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;单人智能体工厂一月产出 30 个开源库&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;单人智能体流水线一个月交付近 190 万行复杂基础库，是自主软件工程能力边界的罕见实证。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;一位开发者用自建的软件工厂智能体流水线，在一个月内让 28 个复杂开源库达到 1.0 版本，累计近 190 万行手写库代码、241 次发布，覆盖 SQLite 兼容数据库引擎、确定性物理游戏引擎、自带着色器编译器的 GPU 栈以及 Office 文档读写器。作者称全程未写代码、未审 diff、未撰写回复，展示了智能体端到端交付并持续维护复杂软件的新范式。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;单人智能体流水线一个月交付近 190 万行复杂基础库，是自主软件工程能力边界的罕见实证。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 72/100&lt;/p&gt;</description>
 <source url="https://recursiveai.org/blog/what-my-software-factory-built/">Hacker News AI</source>
 <category>智能体</category>
 <category>自主软件工程</category>
 <category>开源生态</category>
 <category>代码生成</category>
 </item>
-<item><title>Microsoft Study Finds LLMs Abandon Correct Answers When Wrongly Challenged</title><link>https://x.com/rohanpaul_ai/status/2123089945187496028</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123089945187496028</guid>
+<item><title>微软新研究揭示大模型遭错误质疑时放弃正确答案</title><link>https://x.com/rohanpaul_ai/status/2123089945187496028</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123089945187496028</guid>
 <pubDate>Thu, 19 Nov 2026 00:24:22 +0800</pubDate>
-<description>&lt;p&gt;A new Microsoft paper finds that LLMs frequently abandon correct answers when challenged with flawed arguments, and accuracy-focused training does not fix this failure mode. The proposed Self-Disagreement training has a model answer, write the strongest counter-case, then rule on it and answer again, raising correct-answer retention under wrong challenges from 53.3% to about 89% for Qwen3-8B and from 25.1% to about 89% for Gemma-2 9B.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;微软新研究揭示大模型遭错误质疑时放弃正确答案&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了大模型在多智能体与用户交互中的关键脆弱性，并给出可复现的训练解法，对智能体系统设计有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;微软最新论文发现，当用户或其他智能体以错误论据质疑模型答案时，大模型往往会放弃原本正确的回答，且单纯提升准确率的训练无法解决这一问题。研究提出 Self-Disagreement 训练法，让模型先作答、再写出最强反驳、最后裁决并重新作答，使 Qwen3-8B 与 Gemma-2 9B 在错误质疑下保持正确答案的比例从 53.3% 和 25.1% 提升至约 89%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了大模型在多智能体与用户交互中的关键脆弱性，并给出可复现的训练解法，对智能体系统设计有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2123089945187496028">Rohan Paul (@rohanpaul_ai)</source>
 <category>大模型</category>
 <category>微软</category>
@@ -197,76 +242,31 @@
 <category>多智能体</category>
 <category>模型鲁棒性</category>
 </item>
-<item><title>Wispr Flow Brings Notetaker to iPhone for In-Person Meetings</title><link>https://x.com/rohanpaul_ai/status/2123087582796054819</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123087582796054819</guid>
+<item><title>Wispr Flow 记事本登陆 iPhone 支持线下会议记录</title><link>https://x.com/rohanpaul_ai/status/2123087582796054819</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123087582796054819</guid>
 <pubDate>Thu, 19 Nov 2026 00:14:59 +0800</pubDate>
-<description>&lt;p&gt;Wispr Flow has launched its Notetaker feature on iPhone, extending meeting capture to in-person conversations for the first time; previously it was desktop-only for virtual meetings. Notes sync across devices so users can resume seamlessly, and the feature is free.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Wispr Flow 记事本登陆 iPhone 支持线下会议记录&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;会议记录工具从桌面扩展到移动端线下场景，对依赖 AI 笔记的开发者与知识工作者有直接实用价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · tools · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Wispr Flow 的 Notetaker 功能正式登陆 iPhone，首次支持线下面对面会议的录音与笔记生成，此前该功能仅限桌面端用于线上会议。跨设备笔记同步让用户可在手机与电脑间无缝续接记录，且该功能免费开放。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;会议记录工具从桌面扩展到移动端线下场景，对依赖 AI 笔记的开发者与知识工作者有直接实用价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · tools · signal 38/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2123087582796054819">Rohan Paul (@rohanpaul_ai)</source>
 <category>AI 笔记</category>
 <category>会议记录</category>
 <category>Wispr Flow</category>
 <category>移动端应用</category>
 </item>
-<item><title>SuperEMeans Fuses e-means for 3x Faster High-Dimensional Clustering</title><link>https://www.lkuffo.com/superemeans/</link><guid isPermaLink="true">https://www.lkuffo.com/superemeans/</guid>
+<item><title>SuperEMeans 融合 e-means 实现高维向量聚类提速 3 倍</title><link>https://www.lkuffo.com/superemeans/</link><guid isPermaLink="true">https://www.lkuffo.com/superemeans/</guid>
 <pubDate>Thu, 19 Nov 2026 00:09:50 +0800</pubDate>
-<description>&lt;p&gt;The authors fused SuperKMeans with e-means into SuperEMeans, achieving roughly 3x faster clustering of high-dimensional vectors with no quality trade-off. The work targets the clustering bottleneck in building large-scale vector indexes such as IVF and ScANN, with open-source code and reproducibility scripts on GitHub.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SuperEMeans 融合 e-means 实现高维向量聚类提速 3 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向向量检索索引构建的实质工程优化，开源可复现，对 RAG 与向量数据库开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;作者将 SuperKMeans 与 e-means 融合为 SuperEMeans，在高维向量聚类上实现约 3 倍加速且不牺牲聚类质量。该工作直击 IVF、ScANN 等大规模向量索引构建中的聚类瓶颈，代码已在 GitHub 开源并提供可复现脚本。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向向量检索索引构建的实质工程优化，开源可复现，对 RAG 与向量数据库开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.lkuffo.com/superemeans/">Hacker News AI</source>
 <category>向量检索</category>
 <category>聚类算法</category>
 <category>开源项目</category>
 <category>向量数据库</category>
 </item>
-<item><title>AI Detector Flags 99 Percent of Award-Winning Peruvian Novel as Machine-Written</title><link>https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author/</link><guid isPermaLink="true">https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author/</guid>
+<item><title>AI 检测工具误判秘鲁获奖小说 99% 为机器生成</title><link>https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author/</link><guid isPermaLink="true">https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author/</guid>
 <pubDate>Thu, 19 Nov 2026 00:09:08 +0800</pubDate>
-<description>&lt;p&gt;AI detection tool Pangram flagged 99 percent of Peruvian author David Silva Rojas&amp;#x27;s award-winning novel \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 检测工具误判秘鲁获奖小说 99% 为机器生成&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;真实误判案例直接暴露 AI 文本检测工具在文学场景下的可靠性缺陷，对关注检测与内容溯源的人有参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;AI 检测工具 Pangram 将秘鲁作家 David Silva Rojas 的获奖小说《Donde el agua trabaja》判定为 99% 由 AI 生成，甚至把作者本人的访谈、随笔与 Instagram 否认声明中 80% 以上的文本也标为 AI 写作。墨西哥出版社 Almadía 在审阅作者提交的材料后仍坚持保留该奖项，事件由此升级为拉美文学界关于 AI 检测可信度与误判风险的公开争论。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;真实误判案例直接暴露 AI 文本检测工具在文学场景下的可靠性缺陷，对关注检测与内容溯源的人有参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 62/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author/">The Decoder</source>
 <category>AI 检测</category>
 <category>内容溯源</category>
 <category>出版业</category>
-</item>
-<item><title>微软 MAI 一次发布 7 款模型 主打极致性价比</title><link>https://microsoft.ai/news/microsoft-ignite-2026/</link><guid isPermaLink="true">https://microsoft.ai/news/microsoft-ignite-2026/</guid>
-<pubDate>Thu, 19 Nov 2026 00:08:24 +0800</pubDate>
-<description>&lt;p&gt;微软 MAI 团队一次性发布 7 款新模型，覆盖代码、图像与安全等方向，核心卖点是极致的性价比：MAI Code 2 以约 40% 的价格达到 GPT-6.1 Sol 98% 的编码质量，MAI Cyber 2 Flash 以不到 2% 的单任务成本超越 GPT-6 Astra。此举直接对标 OpenAI 与 Anthropic 的旗舰产品，意在抢占需要 7×24 小时运行智能体的高 token 消耗场景。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;微软一次性推出七款模型并以明确的价格与性能对比直指竞品，是模型竞争格局的重要信号。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://microsoft.ai/news/microsoft-ignite-2026/">Hacker News AI</source>
-<category>大模型</category>
-<category>微软</category>
-<category>性价比</category>
-<category>代码模型</category>
-</item>
-<item><title>KVM 曝高危逃逸漏洞 云主机可读写宿主机内存</title><link>https://www.terra.security/blog/kvm-guest-to-host-escape</link><guid isPermaLink="true">https://www.terra.security/blog/kvm-guest-to-host-escape</guid>
-<pubDate>Thu, 19 Nov 2026 00:06:21 +0800</pubDate>
-<description>&lt;p&gt;安全团队在 DigitalOcean 普通云主机上演示了 KVM 客户机到宿主机的完整逃逸，可读取宿主机约 127 GB 内存，并在自有 AMD 裸金属服务器上实现 32 字节的宿主机内核任意写。攻击仅需一个 VM 及其中 root 权限，AMD 平台 KVM 宿主机需尽快升级内核，或关闭 kvm_amd 的嵌套虚拟化参数以阻断该路径。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是云多租户隔离基座的实质性突破，直接影响所有运行 AMD KVM 的云厂商与自建虚拟化用户。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 88/100&lt;/p&gt;</description>
-<source url="https://www.terra.security/blog/kvm-guest-to-host-escape">Hacker News AI</source>
-<category>云安全</category>
-<category>虚拟化</category>
-<category>KVM</category>
-<category>AMD</category>
-<category>漏洞</category>
-</item>
-<item><title>ExitPath 开源迁移指南助企业脱离 Slack 与微软 365</title><link>https://exitpath-ruddy.vercel.app/</link><guid isPermaLink="true">https://exitpath-ruddy.vercel.app/</guid>
-<pubDate>Thu, 19 Nov 2026 00:04:43 +0800</pubDate>
-<description>&lt;p&gt;ExitPath 是一个开源项目，为希望脱离 Slack、Notion、Google Workspace 和 Microsoft 365 等主流 SaaS 套件的用户提供分步迁移指南。它按文档协作、文件同步、邮件日历和团队聊天等类别，给出替代方案（如 Nextcloud、LibreOffice、Thunderbird）及 0-100 的迁移难度评分，帮助团队评估切换成本。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为寻求数字主权与降本的团队提供可操作的 SaaS 迁移路线图与难度量化，具备实际参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://exitpath-ruddy.vercel.app/">Hacker News AI</source>
-<category>开源</category>
-<category>SaaS 迁移</category>
-<category>数字主权</category>
-</item>
-<item><title>curl 作者回应 Rust 重写 三周合并 300 个提交</title><link>https://simonwillison.net/2026/Nov/18/daniel-stenberg/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/18/daniel-stenberg/</guid>
-<pubDate>Wed, 18 Nov 2026 23:58:27 +0800</pubDate>
-<description>&lt;p&gt;curl 创始人 Daniel Stenberg 回应 AI 智能体将 18.5 万行 C 代码改写为 34 万行 Rust 的现象，指出同期真实 curl 项目合并了 300 多个提交、修复 200 多个 bug 及若干漏洞。他强调真实维护产生的修复与安全补丁是这些重写克隆所不具备的，质疑其可持续性。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源维护者对 AI 大规模代码重写的一次直接、有数据支撑的质疑，涉及代码质量与安全维护的核心议题。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · opensource · signal 58/100&lt;/p&gt;</description>
-<source url="https://simonwillison.net/2026/Nov/18/daniel-stenberg/">Simon Willison 博客</source>
-<category>开源</category>
-<category>curl</category>
-<category>Rust</category>
-<category>AI 编程</category>
-</item>
-<item><title>Meta 发布 Muse Ember 高效模型 速度提升 13 倍</title><link>https://x.com/arena/status/2123082393536049393</link><guid isPermaLink="true">https://x.com/arena/status/2123082393536049393</guid>
-<pubDate>Wed, 18 Nov 2026 23:54:22 +0800</pubDate>
-<description>&lt;p&gt;Arena.ai 评测显示，Meta 的 Muse Ember 在 Agent Arena 中全面领先 OpenAI GPT-6 Luna 与 Anthropic Claude Haiku 5.5，单任务耗时 27 秒，约为 Luna 的 1/13，成本仅 1.9 美分，不到对手的三分之一。该模型面向真实工作任务优化，在速度、性能与成本三个维度同时取得优势，标志着高效小模型赛道出现新的领跑者。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;高效模型赛道出现明确领跑者，速度与成本量级优势显著，直接影响开发者的模型选型。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/arena/status/2123082393536049393">Arena.ai (@arena)</source>
-<category>大模型</category>
-<category>Meta</category>
-<category>高效推理</category>
-<category>Agent Arena</category>
 </item>
 </channel>
 </rss>
