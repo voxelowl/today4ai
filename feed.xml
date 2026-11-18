@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Thu, 19 Nov 2026 03:56:39 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 19 Nov 2026 04:13:18 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Salesforce Adopts SageMaker Cross-Region Inference Routing Across 30 Regions</title><link>https://aws.amazon.com/blogs/machine-learning/how-salesforce-is-advancing-global-scale-model-serving-with-cross-region-inference-routing-in-amazon-sagemaker-ai/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/how-salesforce-is-advancing-global-scale-model-serving-with-cross-region-inference-routing-in-amazon-sagemaker-ai/</guid>
+<pubDate>Thu, 19 Nov 2026 04:13:18 +0800</pubDate>
+<description>&lt;p&gt;Salesforce&amp;#x27;s Agentforce Foundation team serves in-house and open-source models across 30+ global Regions, where per-Region hosting fragmented capacity and turned traffic spikes into availability problems. Using cross-Region inference routing in Amazon SageMaker AI, Salesforce now routes each request through a single invocation path to any of its own deployed endpoints across Regions and accounts, adding capacity securely while honoring data residency commitments and retaining visibility into where and why each request was served.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Salesforce 用 SageMaker 跨区推理路由支撑 30 个区域模型服务&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是大厂在多区域大规模模型服务中落地跨区推理路由的真实工程实践，对做全球推理部署的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · compute · signal 62/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/how-salesforce-is-advancing-global-scale-model-serving-with-cross-region-inference-routing-in-amazon-sagemaker-ai/">AWS Machine Learning Blog</source>
+<category>推理部署</category>
+<category>Salesforce</category>
+<category>Amazon SageMaker</category>
+<category>跨区域路由</category>
+</item>
+<item><title>Rethinking Spreadsheets as Remotely Evaluated S-Expression Matrices</title><link>https://lisper.cc/ideas/entangle.html</link><guid isPermaLink="true">https://lisper.cc/ideas/entangle.html</guid>
+<pubDate>Thu, 19 Nov 2026 04:01:50 +0800</pubDate>
+<description>&lt;p&gt;The author proposes S-Matrix, treating each spreadsheet row as a self-contained S-expression whose first cell is a function and remaining cells are arguments, making the whole sheet a list of expressions evaluated remotely and asynchronously. A prototype called entangle demonstrates server-side parallel evaluation of rows, offering a functional new abstraction for spreadsheets.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;将电子表格重构为可远程求值的 S 表达式矩阵&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了一个将电子表格抽象为函数式表达式矩阵的新颖设计思路，对工具与语言设计者具启发价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 42/100&lt;/p&gt;</description>
+<source url="https://lisper.cc/ideas/entangle.html">Hacker News AI</source>
+<category>电子表格</category>
+<category>S 表达式</category>
+<category>函数式编程</category>
+</item>
 <item><title>Snapchat Launches Easy Lens CLI for AI-Assisted AR Lens Development</title><link>https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/</guid>
 <pubDate>Thu, 19 Nov 2026 03:56:39 +0800</pubDate>
 <description>&lt;p&gt;Snapchat released Easy Lens CLI, enabling developers to build AR Lenses directly through AI coding assistants such as Claude Code, Cursor, and Codex. Extending its prompt-based Easy Lens tool into local developer workflows across Mac, Windows, and Linux, the move lowers the barrier to AR creation and lets brands convert existing campaign assets into AR experiences faster.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Snapchat 推出 Easy Lens CLI 支持 AI 助手开发 AR 滤镜&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流社交平台将 AR 创作接入通用 AI 编程助手工作流，是 AI 工具链向内容创作场景渗透的典型信号。&lt;/p&gt;&lt;p&gt;TechCrunch AI · tools · signal 58/100&lt;/p&gt;</description>
@@ -38,6 +55,15 @@
 <category>强化学习</category>
 <category>开源模型</category>
 </item>
+<item><title>Social Department Builds Culture-Aware Video Discovery with Multimodal Search</title><link>https://aws.amazon.com/blogs/machine-learning/how-social-department-built-culture-aware-video-discovery/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/how-social-department-built-culture-aware-video-discovery/</guid>
+<pubDate>Thu, 19 Nov 2026 03:27:56 +0800</pubDate>
+<description>&lt;p&gt;Entertainment marketing teams must surface shareable, quotable moments from massive video catalogs, but plain semantic search only answers explicitly describable queries. Social Department built a culture-aware video discovery system that combines editorial definitions of &amp;#x27;quotable&amp;#x27; or &amp;#x27;memeable&amp;#x27; with continuously refreshed external trend signals, scaling work that previously required days of expert manual review.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Social Department 用多模态检索实现文化感知视频发现&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了多模态检索结合文化趋势信号在娱乐营销场景的工程化落地思路，对构建垂直领域视频检索系统有参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/how-social-department-built-culture-aware-video-discovery/">AWS Machine Learning Blog</source>
+<category>多模态检索</category>
+<category>视频理解</category>
+<category>娱乐营销</category>
+<category>AWS</category>
+</item>
 <item><title>Google DeepMind Releases Genie 4 World Model to Subscribers</title><link>https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing/</link><guid isPermaLink="true">https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing/</guid>
 <pubDate>Thu, 19 Nov 2026 03:26:25 +0800</pubDate>
 <description>&lt;p&gt;Google DeepMind is releasing Genie 4, its most advanced world model for generating interactive 3D worlds, moving it from research preview to Google AI Ultra subscribers. The model lets users reshape weather, characters and storylines in real time via text and generates native real-time sound that adapts to the scene. Genie 3 also gains longer sessions of up to three minutes, 360-degree panorama support and chainable worlds, plus a community gallery for sharing and remixing, with all output carrying SynthID watermarks and safety checks.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Google DeepMind 发布 Genie 4 世界模型并开放订阅&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;世界模型从研究预览走向付费产品化，是交互式生成与智能体环境构建的重要节点。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
@@ -56,6 +82,16 @@
 <category>隐私</category>
 <category>Meta</category>
 </item>
+<item><title>AWS Details Hub-and-Spoke Network Pattern for AgentCore Gateway Private APIs</title><link>https://aws.amazon.com/blogs/machine-learning/connect-amazon-bedrock-agentcore-gateway-to-private-apis-in-a-hub-and-spoke-network-with-centralized-inspection/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/connect-amazon-bedrock-agentcore-gateway-to-private-apis-in-a-hub-and-spoke-network-with-centralized-inspection/</guid>
+<pubDate>Thu, 19 Nov 2026 03:05:45 +0800</pubDate>
+<description>&lt;p&gt;AWS published a reference pattern for connecting Amazon Bedrock AgentCore Gateway to private REST APIs and MCP servers while preserving central network team ownership of subnets and bidirectional firewall inspection. The post specifies where to place the VPC Lattice resource gateway, how responsibilities split across teams, six configuration decisions, and validation checks, tested in us-east-1 across three member accounts.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS 发布 AgentCore Gateway 私有 API 集中审查组网方案&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向企业级 Agent 落地的网络架构实践，对受合规约束的私有 API 与 MCP 接入具有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/connect-amazon-bedrock-agentcore-gateway-to-private-apis-in-a-hub-and-spoke-network-with-centralized-inspection/">AWS Machine Learning Blog</source>
+<category>AWS</category>
+<category>AgentCore</category>
+<category>MCP</category>
+<category>网络架构</category>
+<category>企业落地</category>
+</item>
 <item><title>Nvidia Interim CEO Front-Loads Raises to Stem Post-Huang Talent Drain</title><link>https://x.com/rohanpaul_ai/status/2123128998201012713</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123128998201012713</guid>
 <pubDate>Thu, 19 Nov 2026 02:59:33 +0800</pubDate>
 <description>&lt;p&gt;Nvidia interim CEO Colette Kress opened the company&amp;#x27;s first post-Huang all-hands by moving raises and extra equity grants up to December, months ahead of schedule. The move answers pay anxiety that topped the 700 questions staff submitted and aims to calm investor fears of a brain drain after Jensen Huang&amp;#x27;s departure.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达黄仁勋卸任 临时 CEO 提前加薪留人&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达最高管理层更替与留人激励是算力产业格局的关键变量，值得持续关注。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
@@ -63,6 +99,16 @@
 <category>英伟达</category>
 <category>人事变动</category>
 <category>算力产业</category>
+</item>
+<item><title>Stretto Builds Bankruptcy Intake Voice Agent on Amazon Nova 2 Sonic</title><link>https://aws.amazon.com/blogs/machine-learning/how-stretto-built-an-ai-voice-agent-with-amazon-nova-2-sonic/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/how-stretto-built-an-ai-voice-agent-with-amazon-nova-2-sonic/</guid>
+<pubDate>Thu, 19 Nov 2026 02:58:42 +0800</pubDate>
+<description>&lt;p&gt;Stretto replaced the Bankruptcy.com web form with an AI voice agent built on Amazon Nova 2 Sonic, guiding callers through a conversational bankruptcy intake to capture detailed financial data such as debts, assets and real estate. The deployment addresses the trade-off between form abandonment and the cost of human phone interviews, serving as a vertical voice-agent case study in a sensitive, high-value intake process.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Stretto 用 Amazon Nova 2 Sonic 打造破产咨询语音智能体&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;语音智能体在破产咨询这一高敏感垂直场景的真实落地，展示了对话式信息采集替代表单的工程取舍。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 38/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/how-stretto-built-an-ai-voice-agent-with-amazon-nova-2-sonic/">AWS Machine Learning Blog</source>
+<category>语音智能体</category>
+<category>Amazon Nova</category>
+<category>AWS</category>
+<category>破产咨询</category>
+<category>客户线索</category>
 </item>
 <item><title>272 Production Runs Reveal Fine-Tuning Time Far Exceeds FLOPs Estimates</title><link>https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time</link><guid isPermaLink="true">https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time</guid>
 <pubDate>Thu, 19 Nov 2026 02:53:43 +0800</pubDate>
@@ -72,6 +118,15 @@
 <category>GPU 集群</category>
 <category>训练效率</category>
 <category>Hugging Face</category>
+</item>
+<item><title>Three Scanners Pose as AI Crawlers to Hunt API Keys</title><link>https://tin.computer/blog/fake-ai-crawler-secrets-scanners</link><guid isPermaLink="true">https://tin.computer/blog/fake-ai-crawler-secrets-scanners</guid>
+<pubDate>Thu, 19 Nov 2026 02:53:17 +0800</pubDate>
+<description>&lt;p&gt;A two-month study observed three scanners, Octopus, Gecko and Tortoise, impersonating AI crawlers such as GPTBot and ClaudeBot to probe for .env files and the key stores of Claude Code, Cursor and Gemini CLI. Octopus rotates 32 crawler names and tailors its path lists to each site&amp;#x27;s framework, while Gecko fires from cloud hosts in bulk. The finding highlights the need to distinguish genuine AI crawlers from credential-harvesting traffic.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;三类扫描器伪装 AI 爬虫窃取密钥&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了伪装成 AI 爬虫的密钥窃取基础设施，对部署 AI 编码工具的团队有直接安全警示价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://tin.computer/blog/fake-ai-crawler-secrets-scanners">Hacker News AI</source>
+<category>AI 爬虫</category>
+<category>密钥安全</category>
+<category>Web 安全</category>
+<category>开发者工具</category>
 </item>
 <item><title>YC Startup Helios Measures 1,000 Proteins From a Drop of Blood With AI Agent</title><link>https://x.com/rohanpaul_ai/status/2123126650145849489</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123126650145849489</guid>
 <pubDate>Thu, 19 Nov 2026 02:50:13 +0800</pubDate>
@@ -99,6 +154,15 @@
 <category>自研模型</category>
 <category>模型竞争</category>
 <category>Azure</category>
+</item>
+<item><title>GNU Emacs Community Debates Accepting LLM-Generated Code</title><link>https://foss.life/notes/2026/free-software-isnt-free-enough/</link><guid isPermaLink="true">https://foss.life/notes/2026/free-software-isnt-free-enough/</guid>
+<pubDate>Thu, 19 Nov 2026 02:39:28 +0800</pubDate>
+<description>&lt;p&gt;A thread on the emacs-devel mailing list has sparked a heated debate over whether GNU Emacs should accept LLM-generated contributions, with opponents using extreme hypotheticals to probe maintainers&amp;#x27; ethical lines. The dispute exposes a core tension in the free software movement: how to define acceptable boundaries when code originates from non-free tools and labor.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;GNU Emacs 社区激辩是否接纳 LLM 生成代码&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;自由软件旗舰项目首次公开辩论 LLM 贡献的伦理与版权边界，对开源治理具风向标意义。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
+<source url="https://foss.life/notes/2026/free-software-isnt-free-enough/">Hacker News AI</source>
+<category>开源治理</category>
+<category>GNU Emacs</category>
+<category>自由软件</category>
+<category>LLM 代码贡献</category>
 </item>
 <item><title>Nvidia&#x27;s First Earnings Call Under New CEO Signals Strategic Shift</title><link>https://www.theverge.com/ai-artificial-intelligence/1036776/nvidia-earnings-kress-jensen-huang-petition</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1036776/nvidia-earnings-kress-jensen-huang-petition</guid>
 <pubDate>Thu, 19 Nov 2026 02:34:15 +0800</pubDate>
@@ -160,110 +224,49 @@
 <category>编程智能体</category>
 <category>日志分析</category>
 </item>
-<item><title>AI Shopping Answers Shift 84% Overnight Across Four Engines</title><link>https://supercite.ai/blog/ai-answers-change-every-day</link><guid isPermaLink="true">https://supercite.ai/blog/ai-answers-change-every-day</guid>
+<item><title>AI 购物推荐答案次日 84% 发生变化</title><link>https://supercite.ai/blog/ai-answers-change-every-day</link><guid isPermaLink="true">https://supercite.ai/blog/ai-answers-change-every-day</guid>
 <pubDate>Thu, 19 Nov 2026 01:58:00 +0800</pubDate>
-<description>&lt;p&gt;A repeat test of 210 buying questions across four AI engines found that 84% of answers named a different set of brands one day later, rising to 95% on Gemini. About 27% of brands named on day one disappeared the next day, while top-ranked brands were still mentioned 90% of the time but held the top spot only 63% of the time.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 购物推荐答案次日 84% 发生变化&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以可复现的重复测试量化了 AI 推荐答案的隔日不稳定性，对关注 AI 搜索与品牌可见度的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;一项针对 210 个购买类问题的重复测试显示，同一批问题在四个 AI 引擎上隔日重问后，84% 的答案涉及不同品牌集合，Gemini 上更高达 95%。首日被提及的品牌有 27% 次日消失，排名第一的品牌次日仍有 90% 被提及但仅 63% 保住榜首，小型品牌仅保住约一半席位。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以可复现的重复测试量化了 AI 推荐答案的隔日不稳定性，对关注 AI 搜索与品牌可见度的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://supercite.ai/blog/ai-answers-change-every-day">Hacker News AI</source>
 <category>AI 搜索</category>
 <category>品牌可见度</category>
 <category>生成式引擎优化</category>
 </item>
-<item><title>Disney Debuts Star Wars Animatronics with Real-Time AI Interaction</title><link>https://www.theverge.com/tech/1036729/disney-star-wars-anzellans-animatronic-amazon-aws-cloud-ai</link><guid isPermaLink="true">https://www.theverge.com/tech/1036729/disney-star-wars-anzellans-animatronic-amazon-aws-cloud-ai</guid>
+<item><title>迪士尼星战机器人借 AWS 实现实时 AI 互动</title><link>https://www.theverge.com/tech/1036729/disney-star-wars-anzellans-animatronic-amazon-aws-cloud-ai</link><guid isPermaLink="true">https://www.theverge.com/tech/1036729/disney-star-wars-anzellans-animatronic-amazon-aws-cloud-ai</guid>
 <pubDate>Thu, 19 Nov 2026 01:50:57 +0800</pubDate>
-<description>&lt;p&gt;Walt Disney Imagineering R&amp;amp;D has unveiled three Audio-Animatronic prototypes based on the Anzellan aliens from Star Wars, using Amazon AWS cloud AI to respond to guest interactions in real time. Every movement and line of dialogue remains prewritten by Imagineers, with the models only selecting and triggering scripted behavior to keep characters on-brand. The three bots will make their public debut in Las Vegas later this month during AWS re:Invent.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;迪士尼星战机器人借 AWS 实现实时 AI 互动&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主题乐园具身互动角色首次引入云端大模型做实时反应调度，是 AI 落地线下娱乐场景的典型样本。&lt;/p&gt;&lt;p&gt;The Verge AI · agent · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;迪士尼幻想工程研发部门发布三款基于《星球大战》Anzellan 外星角色的 Audio-Animatronic 原型机，依托亚马逊 AWS 云端 AI 能力，可根据游客互动实时生成差异化反应。所有动作与台词仍由幻想工程师预先编写，AI 仅在既定脚本内调度触发，确保角色人设不偏离。三款机器人将于本月晚些时候在拉斯维加斯 AWS re:Invent 期间首次公开亮相。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主题乐园具身互动角色首次引入云端大模型做实时反应调度，是 AI 落地线下娱乐场景的典型样本。&lt;/p&gt;&lt;p&gt;The Verge AI · agent · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.theverge.com/tech/1036729/disney-star-wars-anzellans-animatronic-amazon-aws-cloud-ai">The Verge AI</source>
 <category>具身智能</category>
 <category>迪士尼</category>
 <category>AWS</category>
 <category>主题乐园</category>
 </item>
-<item><title>OpenAI Uses Frontier Models to Accelerate Custom Chip Design</title><link>https://openai.com/index/advancing-chip-design-with-our-models/</link><guid isPermaLink="true">https://openai.com/index/advancing-chip-design-with-our-models/</guid>
+<item><title>OpenAI 用前沿模型加速自研芯片设计</title><link>https://openai.com/index/advancing-chip-design-with-our-models/</link><guid isPermaLink="true">https://openai.com/index/advancing-chip-design-with-our-models/</guid>
 <pubDate>Thu, 19 Nov 2026 01:45:47 +0800</pubDate>
-<description>&lt;p&gt;OpenAI detailed how its frontier models delivered expert-level PPA improvements in its custom inference chip Jalapeño, and it is extending the same approach to AMD hardware. OpenAI is also partnering with Synopsys on a GPT-Synopsys model that brings frontier intelligence into the EDA tools chip designers already use.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 用前沿模型加速自研芯片设计&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 模型直接参与芯片设计并落地到自研与第三方硬件的实质案例，兼具技术增量与产业影响。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 披露其前沿模型在自研推理芯片 Jalapeño 设计中实现了专家级 PPA 优化，并正将同一方法扩展至 AMD 硬件。同时，OpenAI 与 Synopsys 合作推出 GPT-Synopsys 模型，将前沿智能接入工程师日常使用的 EDA 工具链。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 模型直接参与芯片设计并落地到自研与第三方硬件的实质案例，兼具技术增量与产业影响。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 78/100&lt;/p&gt;</description>
 <source url="https://openai.com/index/advancing-chip-design-with-our-models/">Hacker News AI</source>
 <category>芯片设计</category>
 <category>OpenAI</category>
 <category>EDA</category>
 <category>Synopsys</category>
 </item>
-<item><title>Developer Forks TuxGuitar into a 17-EDO Tab Editor</title><link>https://frogwizard.bearblog.dev/tuxguitar-17edo/</link><guid isPermaLink="true">https://frogwizard.bearblog.dev/tuxguitar-17edo/</guid>
+<item><title>开发者将 TuxGuitar 分叉为 17-EDO 制谱器</title><link>https://frogwizard.bearblog.dev/tuxguitar-17edo/</link><guid isPermaLink="true">https://frogwizard.bearblog.dev/tuxguitar-17edo/</guid>
 <pubDate>Thu, 19 Nov 2026 01:41:57 +0800</pubDate>
-<description>&lt;p&gt;A developer has forked the open-source tab editor TuxGuitar 2.1.0 into a 17 equal divisions of the octave (17-EDO) build, converting the tab, staff, fretboard and synth from 12 notes per octave to 17 with no 12-EDO mode retained. The song model and file formats are untouched, pitch is computed as 440×2^((k−69)/17) Hz, and fork-saved files still open in stock TuxGuitar showing plain integer frets. The write-up documents each change in enough detail for a coding agent to reapply them to a stock checkout.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;开发者将 TuxGuitar 分叉为 17-EDO 制谱器&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;一次干净利落的开源分叉实践，展示了如何在不改动数据模型的前提下替换整套音高假设，对做领域定制与智能体复现改动的开发者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;开发者将开源制谱软件 TuxGuitar 2.1.0 分叉为 17 平均律（17-EDO）版本，把谱面、指板、合成器与 MIDI 音高映射从每八度 12 音统一改为 17 音，且不保留 12-EDO 模式。歌曲模型与文件格式完全不变，音高按 440×2^((k−69)/17) Hz 计算，分叉文件仍可在原版 TuxGuitar 中打开并显示整数品位。作者详细记录了改动点，便于编码智能体在原始代码库上复现。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;一次干净利落的开源分叉实践，展示了如何在不改动数据模型的前提下替换整套音高假设，对做领域定制与智能体复现改动的开发者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 38/100&lt;/p&gt;</description>
 <source url="https://frogwizard.bearblog.dev/tuxguitar-17edo/">Hacker News AI</source>
 <category>开源项目</category>
 <category>音频与音乐</category>
 <category>TuxGuitar</category>
 <category>微分音</category>
 </item>
-<item><title>Onehouse Adds Native Vector Index to Open Lakehouse Tables</title><link>https://www.onehouse.ai/blog/lakegres-vector-search-on-open-table-formats</link><guid isPermaLink="true">https://www.onehouse.ai/blog/lakegres-vector-search-on-open-table-formats</guid>
+<item><title>Onehouse 在开放湖表内实现原生向量索引</title><link>https://www.onehouse.ai/blog/lakegres-vector-search-on-open-table-formats</link><guid isPermaLink="true">https://www.onehouse.ai/blog/lakegres-vector-search-on-open-table-formats</guid>
 <pubDate>Thu, 19 Nov 2026 01:41:48 +0800</pubDate>
-<description>&lt;p&gt;Onehouse announced that Lakegres now supports native vector indexes built directly on existing Hudi and Iceberg open tables, exposing similarity search through a Postgres endpoint while keeping both index and data in open formats inside the customer&amp;#x27;s own bucket. This lets agents query lakehouse-scale logs, documents and event history without moving data into a separate application database.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Onehouse 在开放湖表内实现原生向量索引&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把向量检索下沉到开放湖表格式，是湖仓与 RAG 基础设施融合的一个有代表性的工程方向。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Onehouse 宣布 Lakegres 支持在已有的 Hudi、Iceberg 等开放表格式上直接构建原生向量索引，并通过 Postgres 端点提供相似度检索，索引与数据均以开放格式存放在用户自有存储桶中。这使湖仓中体量远超应用数据库的日志、文档与事件数据无需搬迁即可被智能体检索。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把向量检索下沉到开放湖表格式，是湖仓与 RAG 基础设施融合的一个有代表性的工程方向。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.onehouse.ai/blog/lakegres-vector-search-on-open-table-formats">Hacker News AI</source>
 <category>向量检索</category>
 <category>湖仓一体</category>
 <category>Onehouse</category>
 <category>开放表格式</category>
-</item>
-<item><title>Citibank and Other Banks Shift Liability to Customers Using AI Agents</title><link>https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/</guid>
-<pubDate>Thu, 19 Nov 2026 01:32:10 +0800</pubDate>
-<description>&lt;p&gt;Citibank updated its Online User Agreement this week to state that customers who grant third-party AI agents access to their bank accounts bear full responsibility for any erroneous or fraudulent transactions, with the bank not obligated to reverse them. The move signals growing institutional resistance to unreliable AI agents in core financial systems and formally draws liability boundaries for agentic finance.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;花旗等银行修改条款 客户用 AI 代理出事自担&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部银行首次以协议形式把 AI 代理风险转嫁给客户，是智能体落地金融的关键责任分水岭。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 72/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/">TechCrunch AI</source>
-<category>AI 代理</category>
-<category>金融科技</category>
-<category>责任边界</category>
-<category>花旗银行</category>
-</item>
-<item><title>Humyn Labs Raises $47M to Capture Real-World Robot Training Data</title><link>https://x.com/rohanpaul_ai/status/2123105962789875972</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123105962789875972</guid>
-<pubDate>Thu, 19 Nov 2026 01:28:01 +0800</pubDate>
-<description>&lt;p&gt;Humyn Labs has raised a $47M Series A to record real factory workers with self-built capture glasses, replacing tidy-lab egocentric footage. The data is filtered, then decomposed into atomic primitives such as reach, grasp, lift and place, with in-house benchmarks validating it so policies can learn skills across scenes.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Humyn Labs 融资 4700 万美元采集真实工厂具身数据&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;具身智能数据基础设施的实质融资与技术路线披露，切中 Physical AI 规模化的关键瓶颈。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2123105962789875972">Rohan Paul (@rohanpaul_ai)</source>
-<category>具身智能</category>
-<category>数据基础设施</category>
-<category>融资</category>
-<category>Physical AI</category>
-</item>
-<item><title>Maritime 推出面向生产级 AI 智能体的托管云平台</title><link>https://news.ycombinator.com/item?id=50549188</link><guid isPermaLink="true">https://news.ycombinator.com/item?id=50549188</guid>
-<pubDate>Thu, 19 Nov 2026 01:26:28 +0800</pubDate>
-<description>&lt;p&gt;YC F26 孵化的 Maritime 推出面向生产级 AI 智能体的托管云平台，主张沙箱只解决约 10% 的基础设施问题。其核心能力覆盖智能体生命周期管理，包括休眠唤醒、持久存储、触发器、调度、按用户路由与消费上限、健康监控、故障恢复及无停机批量更新。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;针对智能体生产部署中沙箱之外的运维缺口提出系统化托管方案，对构建生产级 Agent 的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 62/100&lt;/p&gt;</description>
-<source url="https://news.ycombinator.com/item?id=50549188">Hacker News AI</source>
-<category>AI 智能体</category>
-<category>云基础设施</category>
-<category>YC 孵化</category>
-</item>
-<item><title>mirrord 支持 ECS 本地代码直连预发环境</title><link>https://metalbear.com/blog/stop-deploying-to-ecs/</link><guid isPermaLink="true">https://metalbear.com/blog/stop-deploying-to-ecs/</guid>
-<pubDate>Thu, 19 Nov 2026 01:05:13 +0800</pubDate>
-<description>&lt;p&gt;MetalBear 为 mirrord 新增 ECS 支持，开发者与编码智能体可在本地或沙箱中直接以预发任务的身份运行代码，复用其网络、环境变量与 IAM 角色，无需构建镜像和滚动发布即可验证改动。该能力通过会话头路由实现多人多智能体并行共享同一预发环境，把智能体的迭代等待时间从整轮部署压缩为一次本地运行。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;直击智能体开发中最耗时的部署验证环节，把本地调试与云端运行时上下文打通，对使用 ECS 的团队有明确工程价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
-<source url="https://metalbear.com/blog/stop-deploying-to-ecs/">Hacker News AI</source>
-<category>开发者工具</category>
-<category>AWS ECS</category>
-<category>云原生开发</category>
-<category>智能体工作流</category>
-</item>
-<item><title>Gemini 应用登陆低内存 Android Go 设备</title><link>https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/</link><guid isPermaLink="true">https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/</guid>
-<pubDate>Thu, 19 Nov 2026 01:00:00 +0800</pubDate>
-<description>&lt;p&gt;Google 将 Gemini 应用下放至低内存的 Android Go 设备，覆盖此前仅支持基础语音指令的数百亿级入门机型用户。为适配低内存硬件，团队对应用进行了重新架构，保留 Gemini Live 多语言语音对话、摄像头识图翻译与 Nano Banana 图像生成等核心能力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Gemini 在新兴市场低端硬件上的重要分发扩张，并披露了为低内存设备重构应用的技术取舍。&lt;/p&gt;&lt;p&gt;Google AI Blog · tools · signal 42/100&lt;/p&gt;</description>
-<source url="https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/">Google AI Blog</source>
-<category>Gemini</category>
-<category>Android Go</category>
-<category>Google</category>
-<category>AI 助手</category>
-</item>
-<item><title>Altman 公开反对 AI 渐进接管人类决策</title><link>https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/</guid>
-<pubDate>Thu, 19 Nov 2026 00:59:00 +0800</pubDate>
-<description>&lt;p&gt;OpenAI CEO Sam Altman 在纽约时报 DealBook 峰会上明确反对硅谷流行的“渐进式向 AI 移交决策权”论调，强调人类必须始终掌控未来。他与 Greg Brockman 同台表态，同时指出面对威胁行为者手中的网络攻击模型，防御方必须使用最强模型进行对抗。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司掌门人首次公开正面驳斥“AI 接管论”，是观察行业治理路线与安全话语权的重要表态。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 42/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/">TechCrunch AI</source>
-<category>AI 治理</category>
-<category>OpenAI</category>
-<category>AI 安全</category>
-</item>
-<item><title>Mastra 开源软件工厂 单周自主合并 238 个 PR</title><link>https://news.ycombinator.com/item?id=50548660</link><guid isPermaLink="true">https://news.ycombinator.com/item?id=50548660</guid>
-<pubDate>Thu, 19 Nov 2026 00:53:42 +0800</pubDate>
-<description>&lt;p&gt;Mastra 团队开源了内部使用的软件工厂 Mastra Factory，这是一个可在 Slack 中 @ 提及、可配置的智能体看板系统，用于自动化维护 Mastra 框架本身。Factory 基于 Mastra 的持久化智能体、对话记忆、带引用的 Markdown 知识库与云端沙箱构建，上周自主开启并合并 238 个 PR，同期人类合并 630 个。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;真实生产环境中的多智能体软件工厂落地案例，附带可量化的 PR 吞吐数据与完整技术栈拆解。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 72/100&lt;/p&gt;</description>
-<source url="https://news.ycombinator.com/item?id=50548660">Hacker News AI</source>
-<category>智能体</category>
-<category>开源</category>
-<category>软件工程</category>
-<category>Mastra</category>
 </item>
 </channel>
 </rss>
