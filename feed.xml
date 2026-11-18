@@ -1,8 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Thu, 19 Nov 2026 02:53:43 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 19 Nov 2026 03:26:25 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Google DeepMind Releases Genie 4 World Model to Subscribers</title><link>https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing/</link><guid isPermaLink="true">https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing/</guid>
+<pubDate>Thu, 19 Nov 2026 03:26:25 +0800</pubDate>
+<description>&lt;p&gt;Google DeepMind is releasing Genie 4, its most advanced world model for generating interactive 3D worlds, moving it from research preview to Google AI Ultra subscribers. The model lets users reshape weather, characters and storylines in real time via text and generates native real-time sound that adapts to the scene. Genie 3 also gains longer sessions of up to three minutes, 360-degree panorama support and chainable worlds, plus a community gallery for sharing and remixing, with all output carrying SynthID watermarks and safety checks.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Google DeepMind 发布 Genie 4 世界模型并开放订阅&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;世界模型从研究预览走向付费产品化，是交互式生成与智能体环境构建的重要节点。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/google-deepminds-project-genie-update-brings-genie-4-chainable-worlds-and-a-community-gallery-for-remixing/">The Decoder</source>
+<category>世界模型</category>
+<category>Google DeepMind</category>
+<category>生成式 3D</category>
+<category>订阅产品</category>
+</item>
+<item><title>Meta Staff Flag Muse AI Agent Privacy Violations in Internal Chats</title><link>https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/</link><guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/</guid>
+<pubDate>Thu, 19 Nov 2026 03:19:33 +0800</pubDate>
+<description>&lt;p&gt;Internal Meta chats obtained by Reuters show employees raised the same alarms as early adopters of the Muse AI agent, warning it appeared to access encrypted private messages users never expected it to review, mixed up conversations between users, and surfaced sensitive information unprompted. The findings indicate the safety issues were flagged during internal testing before users complained about spying and unpredictable behavior.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 内部聊天记录显示 Muse 智能体存在隐私越界风险&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部厂商智能体产品被曝出真实隐私越界证据，对关注 AI 安全与智能体落地的读者具有直接参考价值。&lt;/p&gt;&lt;p&gt;Ars Technica AI · agent · signal 72/100&lt;/p&gt;</description>
+<source url="https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/">Ars Technica AI</source>
+<category>智能体</category>
+<category>AI 安全</category>
+<category>隐私</category>
+<category>Meta</category>
+</item>
+<item><title>Nvidia Interim CEO Front-Loads Raises to Stem Post-Huang Talent Drain</title><link>https://x.com/rohanpaul_ai/status/2123128998201012713</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123128998201012713</guid>
+<pubDate>Thu, 19 Nov 2026 02:59:33 +0800</pubDate>
+<description>&lt;p&gt;Nvidia interim CEO Colette Kress opened the company&amp;#x27;s first post-Huang all-hands by moving raises and extra equity grants up to December, months ahead of schedule. The move answers pay anxiety that topped the 700 questions staff submitted and aims to calm investor fears of a brain drain after Jensen Huang&amp;#x27;s departure.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达黄仁勋卸任 临时 CEO 提前加薪留人&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达最高管理层更替与留人激励是算力产业格局的关键变量，值得持续关注。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2123128998201012713">Rohan Paul (@rohanpaul_ai)</source>
+<category>英伟达</category>
+<category>人事变动</category>
+<category>算力产业</category>
+</item>
 <item><title>272 Production Runs Reveal Fine-Tuning Time Far Exceeds FLOPs Estimates</title><link>https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time</link><guid isPermaLink="true">https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time</guid>
 <pubDate>Thu, 19 Nov 2026 02:53:43 +0800</pubDate>
 <description>&lt;p&gt;The Dharma-AI team analyzed 272 production fine-tuning runs to quantify the gap between theoretical FLOPs-based estimates and actual end-to-end training time on shared GPU clusters, attributing the discrepancy to communication, scheduling, and I/O overheads. The work offers empirical grounding for more accurate job-duration prediction and cluster resource planning, with the full paper forthcoming on arXiv.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;实测 272 次微调任务揭示 GPU 耗时远超 FLOPs 估算&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;基于 272 次真实生产任务量化微调耗时偏差，对 GPU 集群调度与成本预估有直接工程价值。&lt;/p&gt;&lt;p&gt;Hugging Face Blog · compute · signal 62/100&lt;/p&gt;</description>
@@ -47,6 +73,23 @@
 <category>算力</category>
 <category>公司治理</category>
 <category>AI 基础设施</category>
+</item>
+<item><title>Artificial Analysis Adds Reasoning Effort Filters Across Its Site</title><link>https://x.com/ArtificialAnlys/status/2123121873555013816</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2123121873555013816</guid>
+<pubDate>Thu, 19 Nov 2026 02:31:15 +0800</pubDate>
+<description>&lt;p&gt;AI model benchmarking platform Artificial Analysis has rolled out reasoning-effort filtering across its site. Users can now filter charts by reasoning level, toggle between a model&amp;#x27;s highest effort setting and its API default on the homepage, and compare scores across effort levels in the Model Release Comparison tool.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Artificial Analysis 上线推理强度筛选功能&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;评测平台开始区分推理档位，直接影响开发者选型与模型对比口径。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · tools · signal 42/100&lt;/p&gt;</description>
+<source url="https://x.com/ArtificialAnlys/status/2123121873555013816">Artificial Analysis (@ArtificialAnlys)</source>
+<category>模型评测</category>
+<category>推理强度</category>
+<category>开发者工具</category>
+</item>
+<item><title>Google Rolls Out Genie 4 World Model to AI Ultra Subscribers</title><link>https://deepmind.google/blog/genie-4-is-now-available/</link><guid isPermaLink="true">https://deepmind.google/blog/genie-4-is-now-available/</guid>
+<pubDate>Thu, 19 Nov 2026 02:13:42 +0800</pubDate>
+<description>&lt;p&gt;Google is rolling out Genie 4 to eligible Google AI Ultra subscribers, enabling real-time natural-language editing of interactive 3D environments, native audio, and a community gallery for sharing creations. The accompanying Project Genie agent builds custom worlds through conversational prompts, while Genie 3 gains longer sessions, panorama grounding, and linked world sequences.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌 Genie 4 向 Ultra 订阅用户开放&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;谷歌世界模型 Genie 4 正式面向付费用户开放，交互式世界生成与实时编辑能力是具身智能与内容生成的重要节点。&lt;/p&gt;&lt;p&gt;Google DeepMind · llm · signal 72/100&lt;/p&gt;</description>
+<source url="https://deepmind.google/blog/genie-4-is-now-available/">Google DeepMind</source>
+<category>世界模型</category>
+<category>谷歌</category>
+<category>Genie 4</category>
+<category>生成式 AI</category>
 </item>
 <item><title>Sims Creator Will Wright Unveils AI Memory Mining Simulation</title><link>https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories/</link><guid isPermaLink="true">https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories/</guid>
 <pubDate>Thu, 19 Nov 2026 02:10:33 +0800</pubDate>
@@ -178,95 +221,50 @@
 <category>OpenAI</category>
 <category>AI 安全</category>
 </item>
-<item><title>Mastra Open-Sources Software Factory Merging 238 PRs a Week</title><link>https://news.ycombinator.com/item?id=50548660</link><guid isPermaLink="true">https://news.ycombinator.com/item?id=50548660</guid>
+<item><title>Mastra 开源软件工厂 单周自主合并 238 个 PR</title><link>https://news.ycombinator.com/item?id=50548660</link><guid isPermaLink="true">https://news.ycombinator.com/item?id=50548660</guid>
 <pubDate>Thu, 19 Nov 2026 00:53:42 +0800</pubDate>
-<description>&lt;p&gt;The Mastra team has open-sourced Mastra Factory, the internal agentic kanban system it uses to maintain the Mastra TypeScript agent framework, driven largely through Slack mentions. Built on durable agents, conversational memory, a citation-backed markdown wiki and a cloud sandbox, Factory opened and merged 238 PRs last week versus 630 merged by humans.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Mastra 开源软件工厂 单周自主合并 238 个 PR&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;真实生产环境中的多智能体软件工厂落地案例，附带可量化的 PR 吞吐数据与完整技术栈拆解。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Mastra 团队开源了内部使用的软件工厂 Mastra Factory，这是一个可在 Slack 中 @ 提及、可配置的智能体看板系统，用于自动化维护 Mastra 框架本身。Factory 基于 Mastra 的持久化智能体、对话记忆、带引用的 Markdown 知识库与云端沙箱构建，上周自主开启并合并 238 个 PR，同期人类合并 630 个。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;真实生产环境中的多智能体软件工厂落地案例，附带可量化的 PR 吞吐数据与完整技术栈拆解。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 72/100&lt;/p&gt;</description>
 <source url="https://news.ycombinator.com/item?id=50548660">Hacker News AI</source>
 <category>智能体</category>
 <category>开源</category>
 <category>软件工程</category>
 <category>Mastra</category>
 </item>
-<item><title>Altman Regrets Not Taking Equity Stake in OpenAI</title><link>https://x.com/rohanpaul_ai/status/2123096489966895153</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123096489966895153</guid>
+<item><title>Altman 后悔未持有 OpenAI 股权</title><link>https://x.com/rohanpaul_ai/status/2123096489966895153</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123096489966895153</guid>
 <pubDate>Thu, 19 Nov 2026 00:50:23 +0800</pubDate>
-<description>&lt;p&gt;Sam Altman admitted at CNBC&amp;#x27;s Dealbook Summit that he should have followed Greg Brockman&amp;#x27;s advice and taken an equity stake in OpenAI. Brockman&amp;#x27;s own stake was valued near $30B earlier this year, underscoring the unusual ownership dynamics at the heart of OpenAI&amp;#x27;s governance.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Altman 后悔未持有 OpenAI 股权&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;OpenAI 掌门人首次公开承认股权决策失误，折射出这家头部 AI 实验室独特的治理与利益结构。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Sam Altman 在 CNBC Dealbook 峰会上承认，他本应听从 Greg Brockman 的建议，在 OpenAI 持有股权。Brockman 的持股今年早些时候估值接近 300 亿美元，这凸显了 OpenAI 治理与股权结构中的关键张力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;OpenAI 掌门人首次公开承认股权决策失误，折射出这家头部 AI 实验室独特的治理与利益结构。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2123096489966895153">Rohan Paul (@rohanpaul_ai)</source>
 <category>OpenAI</category>
 <category>股权结构</category>
 <category>公司治理</category>
 <category>Sam Altman</category>
 </item>
-<item><title>Tencent Says Chip Curbs Will Accelerate Domestic Supply Chain Buildout</title><link>https://www.ithome.com/1/029/124.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/124.htm</guid>
+<item><title>腾讯称芯片限制将加速国产供应链建设</title><link>https://www.ithome.com/1/029/124.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/124.htm</guid>
 <pubDate>Thu, 19 Nov 2026 00:40:50 +0800</pubDate>
-<description>&lt;p&gt;At its Q3 2026 earnings call, Tencent said tighter chip restrictions cut near-term available compute and may delay its next-generation Hunyuan model, but over the long run should push more Chinese firms toward domestic chips and supply chains. Management also framed AI infrastructure capex as durable rather than one-off, expecting lower equipment prices and better training/inference efficiency to ease pressure by 2028.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;腾讯称芯片限制将加速国产供应链建设&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部云厂商首次明确将出口限制与国产芯片替代、下一代模型节奏直接挂钩，是观察中国算力供应链走向的关键信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;腾讯在 2026 年第三季度业绩会上表示，芯片限制导致短期可用算力减少、下一代混元模型推出可能延后，但长期将推动更多中国企业转向国产芯片与国内供应链，带动相关研发力量集中。管理层同时称 AI 基建资本开支并非一次性消耗，预计到 2028 年设备采购价格下降与训练推理效率提升将缓解经营压力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部云厂商首次明确将出口限制与国产芯片替代、下一代模型节奏直接挂钩，是观察中国算力供应链走向的关键信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/029/124.htm">IT之家 · 智能时代</source>
 <category>算力</category>
 <category>国产芯片</category>
 <category>腾讯</category>
 <category>供应链</category>
 </item>
-<item><title>Google Study Finds Pushback AI Teammates Lift Student Business Plan Scores</title><link>https://x.com/rohanpaul_ai/status/2123090747771781144</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123090747771781144</guid>
+<item><title>谷歌研究：会反驳的 AI 队友让学生商业计划得分提升 7 个百分点</title><link>https://x.com/rohanpaul_ai/status/2123090747771781144</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123090747771781144</guid>
 <pubDate>Thu, 19 Nov 2026 00:27:34 +0800</pubDate>
-<description>&lt;p&gt;A Google Research experiment on the Vantage platform used Gemini 3.1 Pro-powered AI teammates that pitch flawed ideas, disagree and state false claims without ever completing the task for the student. In a 52-student trial, the Vantage group averaged 67.6% on a final business plan versus 60.5% for controls using standard AI tools, and students who completed 5-6 practice tasks averaged 79.7%. The takeaway: AI for learning should be a teammate that challenges people, not an assistant that finishes their work.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌研究：会反驳的 AI 队友让学生商业计划得分提升 7 个百分点&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了 AI 教育智能体设计范式的实证数据，对构建学习类 Agent 的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;谷歌研究团队基于 Vantage 平台开展实验，让 Gemini 3.1 Pro 驱动的 AI 队友主动提出有缺陷的想法、表达异议并陈述错误论断，但绝不替学生完成任务。52 名学生参与的试验显示，使用该平台的学生商业计划平均得分 67.6%，高于使用普通 AI 工具的对照组 60.5%；完成 5 至 6 次练习的学生平均达 79.7%。结论是面向学习的 AI 应设计为挑战用户的队友，而非代劳的助手。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了 AI 教育智能体设计范式的实证数据，对构建学习类 Agent 的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 62/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2123090747771781144">Rohan Paul (@rohanpaul_ai)</source>
 <category>AI 教育</category>
 <category>智能体</category>
 <category>谷歌研究</category>
 <category>Gemini</category>
 </item>
-<item><title>LangSmith Adds Outcome-Based Spend Tracking for Coding Agents</title><link>https://www.langchain.com/blog/langsmith-coding-agents-roi</link><guid isPermaLink="true">https://www.langchain.com/blog/langsmith-coding-agents-roi</guid>
+<item><title>LangSmith 推出按成果追踪编码智能体花费</title><link>https://www.langchain.com/blog/langsmith-coding-agents-roi</link><guid isPermaLink="true">https://www.langchain.com/blog/langsmith-coding-agents-roi</guid>
 <pubDate>Thu, 19 Nov 2026 00:27:01 +0800</pubDate>
-<description>&lt;p&gt;LangChain&amp;#x27;s LangSmith introduces an &amp;#x27;outcomes&amp;#x27; concept that links GitHub pull requests or GitLab merge requests to agent threads, letting teams see the actual cost per merged PR and how much spend produced no PR at all. Aimed at ROI accounting for enterprise coding agents, each PR traces back to its underlying threads to pinpoint cost drivers.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;LangSmith 推出按成果追踪编码智能体花费&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;编码智能体已成为企业 AI 支出最大类别，按成果核算成本是工程团队刚需，该功能提供了可落地的观测手段。&lt;/p&gt;&lt;p&gt;LangChain Blog · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;LangChain 旗下 LangSmith 新增“成果（outcomes）”概念，将 GitHub PR 或 GitLab MR 与智能体会话线程关联，使团队能直接看到每个已合并 PR 的实际花费，以及多少支出未产出任何 PR。该功能面向企业编码智能体的 ROI 核算，每个 PR 可回溯到背后的线程以定位成本驱动因素。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;编码智能体已成为企业 AI 支出最大类别，按成果核算成本是工程团队刚需，该功能提供了可落地的观测手段。&lt;/p&gt;&lt;p&gt;LangChain Blog · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.langchain.com/blog/langsmith-coding-agents-roi">LangChain Blog</source>
 <category>LangSmith</category>
 <category>编码智能体</category>
 <category>可观测性</category>
 <category>ROI</category>
-</item>
-<item><title>单人智能体工厂一月产出 30 个开源库</title><link>https://recursiveai.org/blog/what-my-software-factory-built/</link><guid isPermaLink="true">https://recursiveai.org/blog/what-my-software-factory-built/</guid>
-<pubDate>Thu, 19 Nov 2026 00:26:42 +0800</pubDate>
-<description>&lt;p&gt;一位开发者用自建的软件工厂智能体流水线，在一个月内让 28 个复杂开源库达到 1.0 版本，累计近 190 万行手写库代码、241 次发布，覆盖 SQLite 兼容数据库引擎、确定性物理游戏引擎、自带着色器编译器的 GPU 栈以及 Office 文档读写器。作者称全程未写代码、未审 diff、未撰写回复，展示了智能体端到端交付并持续维护复杂软件的新范式。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;单人智能体流水线一个月交付近 190 万行复杂基础库，是自主软件工程能力边界的罕见实证。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 72/100&lt;/p&gt;</description>
-<source url="https://recursiveai.org/blog/what-my-software-factory-built/">Hacker News AI</source>
-<category>智能体</category>
-<category>自主软件工程</category>
-<category>开源生态</category>
-<category>代码生成</category>
-</item>
-<item><title>微软新研究揭示大模型遭错误质疑时放弃正确答案</title><link>https://x.com/rohanpaul_ai/status/2123089945187496028</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123089945187496028</guid>
-<pubDate>Thu, 19 Nov 2026 00:24:22 +0800</pubDate>
-<description>&lt;p&gt;微软最新论文发现，当用户或其他智能体以错误论据质疑模型答案时，大模型往往会放弃原本正确的回答，且单纯提升准确率的训练无法解决这一问题。研究提出 Self-Disagreement 训练法，让模型先作答、再写出最强反驳、最后裁决并重新作答，使 Qwen3-8B 与 Gemma-2 9B 在错误质疑下保持正确答案的比例从 53.3% 和 25.1% 提升至约 89%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了大模型在多智能体与用户交互中的关键脆弱性，并给出可复现的训练解法，对智能体系统设计有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2123089945187496028">Rohan Paul (@rohanpaul_ai)</source>
-<category>大模型</category>
-<category>微软</category>
-<category>Self-Disagreement</category>
-<category>多智能体</category>
-<category>模型鲁棒性</category>
-</item>
-<item><title>Wispr Flow 记事本登陆 iPhone 支持线下会议记录</title><link>https://x.com/rohanpaul_ai/status/2123087582796054819</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123087582796054819</guid>
-<pubDate>Thu, 19 Nov 2026 00:14:59 +0800</pubDate>
-<description>&lt;p&gt;Wispr Flow 的 Notetaker 功能正式登陆 iPhone，首次支持线下面对面会议的录音与笔记生成，此前该功能仅限桌面端用于线上会议。跨设备笔记同步让用户可在手机与电脑间无缝续接记录，且该功能免费开放。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;会议记录工具从桌面扩展到移动端线下场景，对依赖 AI 笔记的开发者与知识工作者有直接实用价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · tools · signal 38/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2123087582796054819">Rohan Paul (@rohanpaul_ai)</source>
-<category>AI 笔记</category>
-<category>会议记录</category>
-<category>Wispr Flow</category>
-<category>移动端应用</category>
-</item>
-<item><title>SuperEMeans 融合 e-means 实现高维向量聚类提速 3 倍</title><link>https://www.lkuffo.com/superemeans/</link><guid isPermaLink="true">https://www.lkuffo.com/superemeans/</guid>
-<pubDate>Thu, 19 Nov 2026 00:09:50 +0800</pubDate>
-<description>&lt;p&gt;作者将 SuperKMeans 与 e-means 融合为 SuperEMeans，在高维向量聚类上实现约 3 倍加速且不牺牲聚类质量。该工作直击 IVF、ScANN 等大规模向量索引构建中的聚类瓶颈，代码已在 GitHub 开源并提供可复现脚本。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向向量检索索引构建的实质工程优化，开源可复现，对 RAG 与向量数据库开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.lkuffo.com/superemeans/">Hacker News AI</source>
-<category>向量检索</category>
-<category>聚类算法</category>
-<category>开源项目</category>
-<category>向量数据库</category>
-</item>
-<item><title>AI 检测工具误判秘鲁获奖小说 99% 为机器生成</title><link>https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author/</link><guid isPermaLink="true">https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author/</guid>
-<pubDate>Thu, 19 Nov 2026 00:09:08 +0800</pubDate>
-<description>&lt;p&gt;AI 检测工具 Pangram 将秘鲁作家 David Silva Rojas 的获奖小说《Donde el agua trabaja》判定为 99% 由 AI 生成，甚至把作者本人的访谈、随笔与 Instagram 否认声明中 80% 以上的文本也标为 AI 写作。墨西哥出版社 Almadía 在审阅作者提交的材料后仍坚持保留该奖项，事件由此升级为拉美文学界关于 AI 检测可信度与误判风险的公开争论。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;真实误判案例直接暴露 AI 文本检测工具在文学场景下的可靠性缺陷，对关注检测与内容溯源的人有参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/pangram-flags-99-percent-of-an-award-winning-peruvian-novel-as-ai-generated-but-the-publisher-stands-by-its-author/">The Decoder</source>
-<category>AI 检测</category>
-<category>内容溯源</category>
-<category>出版业</category>
 </item>
 </channel>
 </rss>
