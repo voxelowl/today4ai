@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Wed, 18 Nov 2026 22:36:42 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 18 Nov 2026 23:00:23 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>IBM and Confluent Bring Time-Series Models into Streaming Data Platform</title><link>https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse</link><guid isPermaLink="true">https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse</guid>
+<pubDate>Wed, 18 Nov 2026 23:00:23 +0800</pubDate>
+<description>&lt;p&gt;IBM Research and Confluent have integrated time-series foundation models into the Streamhouse streaming data architecture, giving real-time pipelines native forecasting and anomaly detection capabilities. The article outlines the technical approach and representative use cases, marking a shift of time-series AI from offline analytics to in-stream inference.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;IBM 与 Confluent 将时序模型引入流式数据平台&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;时序基础模型与流式数据平台结合，为实时 AI 推理提供新的工程范式。&lt;/p&gt;&lt;p&gt;Hugging Face Blog · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse">Hugging Face Blog</source>
+<category>时序模型</category>
+<category>流式数据</category>
+<category>IBM</category>
+<category>Confluent</category>
+</item>
+<item><title>Unsiloed AI Raises $7.5M Seed to Make Documents Queryable for AI Agents</title><link>https://x.com/rohanpaul_ai/status/2123068415904809041</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123068415904809041</guid>
+<pubDate>Wed, 18 Nov 2026 22:58:49 +0800</pubDate>
+<description>&lt;p&gt;Seven-person startup Unsiloed AI has raised a $7.5M seed round led by Felicis to build a computable document layer for AI agents. Its dual-stream vision models read content and layout in parallel, heat-map chunking concentrates compute on figures and charts, every extracted field links back to its page location, and the system can run air-gapped on customer servers.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Unsiloed AI 获 750 万美元融资 让文档可被 AI 查询&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向金融、法律、医疗的文档解析基础设施获得早期融资，技术路线（双流视觉+版面热力图分块+字段溯源）对智能体落地有参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 62/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2123068415904809041">Rohan Paul (@rohanpaul_ai)</source>
+<category>文档解析</category>
+<category>智能体</category>
+<category>融资</category>
+<category>计算机视觉</category>
+</item>
+<item><title>Mistral Launches Vibe Desktop App for Parallel Agent Tasks</title><link>https://the-decoder.com/mistral-plays-catch-up-with-vibe-desktop-as-rivals-already-command-full-operating-systems/</link><guid isPermaLink="true">https://the-decoder.com/mistral-plays-catch-up-with-vibe-desktop-as-rivals-already-command-full-operating-systems/</guid>
+<pubDate>Wed, 18 Nov 2026 22:40:52 +0800</pubDate>
+<description>&lt;p&gt;Mistral has released a desktop app for its Vibe AI agent (formerly Le Chat) on macOS and Windows, letting users assign multiple tasks at once and watch the agent execute them in parallel. The app merges Vibe CLI&amp;#x27;s local capabilities with Vibe Code Web&amp;#x27;s cloud sessions, using Git worktrees to isolate parallel tasks within the same project, and Work mode can now access local files. The report notes Mistral is still catching up, as rivals like Anthropic already offer desktop agents that can operate full operating systems.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Mistral 推出 Vibe 桌面版 支持多任务并行代理&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Mistral 智能体产品形态从网页与命令行扩展到桌面端，反映代理类产品竞争焦点正转向本地多任务并行与系统级操作能力。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 58/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/mistral-plays-catch-up-with-vibe-desktop-as-rivals-already-command-full-operating-systems/">The Decoder</source>
+<category>智能体</category>
+<category>Mistral</category>
+<category>桌面应用</category>
+<category>多任务并行</category>
+</item>
 <item><title>OpenAI Grants Four Independent Auditors On-Site Access to Its AI Systems</title><link>https://the-decoder.com/openai-opens-its-ai-systems-to-four-independent-on-site-auditors-for-the-first-time/</link><guid isPermaLink="true">https://the-decoder.com/openai-opens-its-ai-systems-to-four-independent-on-site-auditors-for-the-first-time/</guid>
 <pubDate>Wed, 18 Nov 2026 22:36:42 +0800</pubDate>
 <description>&lt;p&gt;OpenAI has for the first time given four outside organizations — Apollo Research, METR, Transluce and Goodfire — on-site access to unreleased models, source code, training data and monitoring systems, plus confidential conversations with developers. The program builds on an earlier on-site review and fulfills commitments under the White House Accord on Super Intelligence; auditors publish independently, though OpenAI may redact confidential material and delay reports to fix risks first.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 首次向四家独立机构开放内部系统现场审计&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是前沿实验室首次将内部系统向外部审计机构实质开放，为 AI 安全治理提供了可观察的新范式。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 78/100&lt;/p&gt;</description>
@@ -200,27 +227,27 @@
 <category>Agent</category>
 <category>RAG</category>
 </item>
-<item><title>Unsiloed AI Raises $7.5M Seed to Make Enterprise Documents Agent-Readable</title><link>https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/</guid>
+<item><title>Unsiloed AI 获 750 万美元融资 让企业文档可被智能体读取</title><link>https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/</guid>
 <pubDate>Wed, 18 Nov 2026 20:00:00 +0800</pubDate>
-<description>&lt;p&gt;Unsiloed AI has raised a $7.5 million seed round led by Felicis, with participation from Y Combinator, Orange Collective and Uncorrelated Ventures. Its software parses tables, charts and complex layouts into structured, traceable data that AI agents can consume, targeting high-stakes sectors such as banking, healthcare and law. The seven-person startup will use the funds to hire researchers and engineers, expand sales and build proprietary datasets.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Unsiloed AI 获 750 万美元融资 让企业文档可被智能体读取&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;企业文档结构化是智能体落地的关键瓶颈，该融资反映了资本对这一数据层的关注。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Unsiloed AI 完成 750 万美元种子轮融资，由 Felicis 领投，Y Combinator 等机构参与。该公司通过解析表格、图表与复杂版式，将企业文档转化为智能体可用的结构化数据，并支持溯源定位，瞄准金融、医疗、法律等高错误代价场景。资金将用于扩充研究与工程团队、拓展销售并构建专有数据集。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;企业文档结构化是智能体落地的关键瓶颈，该融资反映了资本对这一数据层的关注。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 62/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/">TechCrunch AI</source>
 <category>企业文档</category>
 <category>智能体</category>
 <category>融资</category>
 <category>数据解析</category>
 </item>
-<item><title>India&#x27;s Humyn Labs Raises $47M to Supply Robot Training Data</title><link>https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/</guid>
+<item><title>Humyn Labs 融资 4700 万美元为美国机器人公司供数据</title><link>https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/</guid>
 <pubDate>Wed, 18 Nov 2026 19:30:00 +0800</pubDate>
-<description>&lt;p&gt;India-based Humyn Labs has raised $47M in Series A funding, comprising $26M in equity led by Accel and $21M in venture debt led by Lighthouse Canton. The capital will scale real-world physical manipulation data collection for U.S. AI and robotics firms, addressing the embodied AI training data bottleneck.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Humyn Labs 融资 4700 万美元为美国机器人公司供数据&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;具身智能数据供应链的关键融资事件，反映机器人训练数据采集正成为独立赛道。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;印度数据采集初创公司 Humyn Labs 完成 4700 万美元 A 轮融资，其中 2600 万美元为 Accel 领投的股权融资，2100 万美元为 Lighthouse Canton 领投的创投债务。资金将用于为美国 AI 与机器人公司规模化采集真实物理环境操作数据，缓解具身智能训练数据瓶颈。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;具身智能数据供应链的关键融资事件，反映机器人训练数据采集正成为独立赛道。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 62/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/">TechCrunch AI</source>
 <category>具身智能</category>
 <category>数据采集</category>
 <category>融资</category>
 <category>机器人</category>
 </item>
-<item><title>Suno Launches Visuals to Turn AI Songs into Videos</title><link>https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature</guid>
+<item><title>Suno 推出 Visuals 支持歌曲生成 AI 视频</title><link>https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature</guid>
 <pubDate>Wed, 18 Nov 2026 19:16:53 +0800</pubDate>
-<description>&lt;p&gt;Suno has launched Visuals, letting users turn song sections into AI-generated clips of up to 15 seconds with automatic lyric lipsync, or generate cover art and thumbnails from prompts across web, iOS and Android. It marks Suno&amp;#x27;s push from music generation toward a multimodal content platform, even as community pushback over audio quality priorities grows louder.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Suno 推出 Visuals 支持歌曲生成 AI 视频&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;音乐生成平台向视频多模态延伸的代表性产品动作，值得关注 AI 内容创作工具链的边界扩张。&lt;/p&gt;&lt;p&gt;The Verge AI · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Suno 上线 Visuals 功能，用户可将歌曲片段转为最长 15 秒、自动对口型歌词的 AI 视频，或通过提示词生成封面与缩略图，覆盖 Web、iOS 与 Android。这是 Suno 从音乐生成向多模态内容平台扩张的一步，但社区对音频质量优先级的质疑也在同步升温。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;音乐生成平台向视频多模态延伸的代表性产品动作，值得关注 AI 内容创作工具链的边界扩张。&lt;/p&gt;&lt;p&gt;The Verge AI · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature">The Verge AI</source>
 <category>AI 视频</category>
 <category>Suno</category>
@@ -243,33 +270,6 @@
 <category>AI 助理</category>
 <category>腾讯</category>
 <category>端侧推理</category>
-</item>
-<item><title>Anthropic 启动史上最大 IPO 估值或达 1.4 万亿美元</title><link>https://www.ithome.com/1/029/015.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/015.htm</guid>
-<pubDate>Wed, 18 Nov 2026 18:45:07 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 预计于 11 月 19 日登陆公开市场，IPO 估值最高可达 1.4 万亿美元，有望成为史上最大规模 IPO。华尔街正提前造势，至少 7 家发行商准备推出 11 只单股杠杆 ETF，Vanda Research 预计散户净买入约 2.5 亿美元，将达 SpaceX IPO 纪录的两倍。此次上市被视为重振 AI 板块投资信心的关键事件，但也暴露出机构与散户在配售渠道上的明显差距。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;万亿级估值 IPO 将直接检验 AI 板块的资本市场信心，是行业走向的关键风向标。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/029/015.htm">IT之家 · 智能时代</source>
-<category>Anthropic</category>
-<category>IPO</category>
-<category>AI 投资</category>
-<category>资本市场</category>
-</item>
-<item><title>美团无人机索降机型出海 迪拜航线即将投用</title><link>https://www.ithome.com/1/029/014.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/014.htm</guid>
-<pubDate>Wed, 18 Nov 2026 18:44:51 +0800</pubDate>
-<description>&lt;p&gt;美团第四代索降机型 M-Drone 4L 在迪拜完成海外首秀，索降航线将于近期在 Sobha Hartland 等社区正式投用。该机型通过自主选点、摆动抑制与六轴力传感器电控脱钩实现平稳投放，并已在零下 20 摄氏度至 50 摄氏度、大雨及沙尘条件下完成实测。美团无人机全球累计订单已超 110 万笔，覆盖深圳、上海、广州、香港等多城。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;中国无人机配送方案首次规模化落地中东，是具身智能与低空物流出海的重要产业信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/029/014.htm">IT之家 · IT业界</source>
-<category>无人机配送</category>
-<category>美团</category>
-<category>低空物流</category>
-<category>出海</category>
-</item>
-<item><title>Suno 推出 Visuals 功能 为 AI 音乐生成配套视频</title><link>https://the-decoder.com/sunos-new-visuals-feature-pairs-ai-generated-music-with-ai-generated-video/</link><guid isPermaLink="true">https://the-decoder.com/sunos-new-visuals-feature-pairs-ai-generated-music-with-ai-generated-video/</guid>
-<pubDate>Wed, 18 Nov 2026 18:22:45 +0800</pubDate>
-<description>&lt;p&gt;Suno 上线 Visuals 功能，可基于 MiniMax H3 定制模型 H3 Move 为歌曲生成最长 15 秒的配套视频，支持歌词同步、唇形同步与时间线延展。该功能覆盖 Web、iOS 与 Android，并通过过滤与内嵌水印应对版权风险。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;音乐生成平台向多模态内容生产延伸，且明确采用中国开源视频模型定制，具备产品与技术选型双重参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · tools · signal 62/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/sunos-new-visuals-feature-pairs-ai-generated-music-with-ai-generated-video/">The Decoder</source>
-<category>多模态生成</category>
-<category>AI 音乐</category>
-<category>视频生成</category>
-<category>Suno</category>
 </item>
 </channel>
 </rss>
