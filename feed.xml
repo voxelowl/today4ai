@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Wed, 18 Nov 2026 12:07:25 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 18 Nov 2026 12:52:10 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Stanford Finds All 8 LLMs Favor Their Own Medical Answers as Judges</title><link>https://x.com/rohanpaul_ai/status/2122915748477587474</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122915748477587474</guid>
+<pubDate>Wed, 18 Nov 2026 12:52:10 +0800</pubDate>
+<description>&lt;p&gt;A new Stanford paper had eight models from OpenAI, Anthropic, Google and Qwen answer 620 real clinician questions, then rank all eight answers anonymously. Every judge favored its own answer, by 1.22 rank positions on average and nearly 3 for GPT-5.6 Sol. The bias persisted without a rubric, and revealing model names cut it by only 0.094 positions, implying LLM-as-judge medical benchmarks carry systematic self-preference. The authors recommend multi-family judge panels with per-judge reporting instead of one pooled score.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;斯坦福发现 8 款大模型评审医学答案时集体偏袒自身&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;直接动摇 LLM-as-judge 评测范式的可信度，对做医学评测与模型选型的人有立即可用的方法论修正。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2122915748477587474">Rohan Paul (@rohanpaul_ai)</source>
+<category>大模型评测</category>
+<category>LLM-as-judge</category>
+<category>医学AI</category>
+<category>斯坦福</category>
+</item>
+<item><title>Tencent Open-Sources Hy4 flash with 224B Total Parameters</title><link>https://www.ithome.com/1/028/701.htm</link><guid isPermaLink="true">https://www.ithome.com/1/028/701.htm</guid>
+<pubDate>Wed, 18 Nov 2026 12:36:17 +0800</pubDate>
+<description>&lt;p&gt;Tencent Hunyuan has officially open-sourced the Hy4 flash family, including the standard, FP8, and Base variants, available on GitHub, Hugging Face, ModelScope, and GitCode. The model carries 224B total parameters (including 64B Engram parameters) while activating only 12B per token, supports multimodal input and a 1M-token context window, and is positioned as the most cost-effective Hy model to date, already deployed across Tencent Cloud TokenHub, Yuanbao, WeCom, and other products. Tencent also teased that the full Hy4 model is being open-sourced soon.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;腾讯开源 Hy4 flash 模型 224B 总参数激活 12B&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产大厂稀疏激活旗舰模型开源，参数规模与百万上下文规格明确，可直接下载部署。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · opensource · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/028/701.htm">IT之家 · 智能时代</source>
+<category>开源模型</category>
+<category>腾讯混元</category>
+<category>稀疏激活</category>
+<category>多模态</category>
+</item>
+<item><title>Boston Dynamics Atlas to Begin Testing at GlobalFoundries Chip Plants</title><link>https://www.ithome.com/1/028/700.htm</link><guid isPermaLink="true">https://www.ithome.com/1/028/700.htm</guid>
+<pubDate>Wed, 18 Nov 2026 12:32:15 +0800</pubDate>
+<description>&lt;p&gt;Boston Dynamics and GlobalFoundries will begin testing the Atlas humanoid robot in semiconductor fabs from early 2027, marking Atlas&amp;#x27;s first move beyond automotive into chip manufacturing. Specific tasks and deployment numbers remain undisclosed, while the Spot quadruped is already operating at GlobalFoundries sites.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;波士顿动力 Atlas 人形机器人明年进入格罗方德工厂测试&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;人形机器人首次切入半导体制造这一高精密场景，是具身智能产业化落地的标志性信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/028/700.htm">IT之家 · 智能时代</source>
+<category>人形机器人</category>
+<category>半导体制造</category>
+<category>具身智能</category>
+<category>波士顿动力</category>
+</item>
 <item><title>Nvidia CFO Signals Review of Circular Financing Investments</title><link>https://x.com/rohanpaul_ai/status/2122904484854771926</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122904484854771926</guid>
 <pubDate>Wed, 18 Nov 2026 12:07:25 +0800</pubDate>
 <description>&lt;p&gt;Nvidia CFO Colette Kress, serving as interim CEO, said the company has \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达 CFO 改口 重新审视循环融资投资&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达高层对循环融资口径由辩护转为审视，涉及 AI 算力资本循环这一行业核心议题。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
@@ -11,6 +38,16 @@
 <category>循环融资</category>
 <category>算力资本</category>
 <category>AI 产业</category>
+</item>
+<item><title>Two AI Models Build Explorable Miami 3D Scene From Single Prompt</title><link>https://x.com/ArtificialAnlys/status/2122904331276177768</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2122904331276177768</guid>
+<pubDate>Wed, 18 Nov 2026 12:06:48 +0800</pubDate>
+<description>&lt;p&gt;Artificial Analysis prompted Claude Fable 5.2 and GPT-6.2 Astra, each with a single prompt in the offline AA-3D sandbox, to build a GTA VI-themed Miami scene. Both models populated Ocean Drive with real hotels the prompt never named, including the Colony and the Avalon, and produced scenes explorable by car, speedboat or blimp at sunset or night. The test highlights implicit spatial memory of real cities and interactive 3D generation in frontier models without internet access.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;两大模型单提示词生成可探索迈阿密 3D 场景&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以对照实验方式展示两大前沿模型在离线条件下生成可交互真实城市 3D 场景的能力，具备直观的技术参考价值。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/ArtificialAnlys/status/2122904331276177768">Artificial Analysis (@ArtificialAnlys)</source>
+<category>3D 生成</category>
+<category>Claude</category>
+<category>GPT</category>
+<category>多模态</category>
+<category>基准测试</category>
 </item>
 <item><title>Rockchip RK3668 Specs Leak with 44 TOPS NPU and 2027 Sampling</title><link>https://www.ithome.com/1/028/693.htm</link><guid isPermaLink="true">https://www.ithome.com/1/028/693.htm</guid>
 <pubDate>Wed, 18 Nov 2026 11:55:53 +0800</pubDate>
@@ -47,6 +84,14 @@
 <category>贝索斯</category>
 <category>具身智能</category>
 <category>创业公司</category>
+</item>
+<item><title>Measuring AI Coding Impact Through Engineering Vitals</title><link>https://octopus.com/blog/engineering-vitals-in-the-age-of-ai</link><guid isPermaLink="true">https://octopus.com/blog/engineering-vitals-in-the-age-of-ai</guid>
+<pubDate>Wed, 18 Nov 2026 11:36:12 +0800</pubDate>
+<description>&lt;p&gt;The article argues that both common ways of measuring AI coding impact fall short: activity metrics such as lines of code and token consumption, and vague value-based aspirations that cannot be counted. It proposes engineering vitals spanning the full engineering lifecycle as a more observable way to track AI&amp;#x27;s real effect on delivery speed and quality.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 编程度量应转向工程生命体征&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;针对 AI 编程度量这一普遍痛点提出可操作的指标体系思路，对工程管理者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 38/100&lt;/p&gt;</description>
+<source url="https://octopus.com/blog/engineering-vitals-in-the-age-of-ai">Hacker News AI</source>
+<category>AI 编程</category>
+<category>工程效能</category>
+<category>研发度量</category>
 </item>
 <item><title>Zheng Yuanjie Releases AI-Made Fairy Tale Animated Shorts for Free</title><link>https://www.ithome.com/1/028/689.htm</link><guid isPermaLink="true">https://www.ithome.com/1/028/689.htm</guid>
 <pubDate>Wed, 18 Nov 2026 11:19:45 +0800</pubDate>
@@ -157,36 +202,36 @@
 <category>印度 IT</category>
 <category>业务剥离</category>
 </item>
-<item><title>Cerebras Deploys Disaggregated Inference Mixing GPUs and Wafer-Scale Engines</title><link>https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference</link><guid isPermaLink="true">https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference</guid>
+<item><title>Cerebras 推出 GPU 与晶圆级引擎分离式推理方案</title><link>https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference</link><guid isPermaLink="true">https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference</guid>
 <pubDate>Wed, 18 Nov 2026 08:56:23 +0800</pubDate>
-<description>&lt;p&gt;Cerebras has moved disaggregated inference into production, assigning prompt prefill to GPUs and output decode to its wafer-scale engines, yielding five times more tokens per megawatt at the same ultrafast speeds. The setup now runs on Cerebras Inference Cloud and is available to infrastructure partners for their own datacenters, alongside CS-4 and a planned 700MW of capacity.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Cerebras 推出 GPU 与晶圆级引擎分离式推理方案&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是异构算力分工落地的少见生产级案例，直接关系到超快推理的成本与供给能力。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Cerebras 将分离式推理投入生产：GPU 负责 prefill，晶圆级引擎负责 decode，在保持同等超快速度下每兆瓦吞吐提升 5 倍。该方案已在其推理云上线，并开放给基础设施合作伙伴在自有数据中心部署，配合 CS-4 与 700MW 数据中心规划进一步扩张超快推理产能。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是异构算力分工落地的少见生产级案例，直接关系到超快推理的成本与供给能力。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference">Hacker News AI</source>
 <category>推理基础设施</category>
 <category>Cerebras</category>
 <category>分离式推理</category>
 <category>算力</category>
 </item>
-<item><title>Microsoft CEO Nadella Says He Is AGI-Pilled but Denies AI Consciousness</title><link>https://www.ithome.com/1/028/609.htm</link><guid isPermaLink="true">https://www.ithome.com/1/028/609.htm</guid>
+<item><title>纳德拉自称 AGI 信徒 否认 AI 具有意识</title><link>https://www.ithome.com/1/028/609.htm</link><guid isPermaLink="true">https://www.ithome.com/1/028/609.htm</guid>
 <pubDate>Wed, 18 Nov 2026 08:52:57 +0800</pubDate>
-<description>&lt;p&gt;Microsoft CEO Satya Nadella said at a roundtable that he has become \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;纳德拉自称 AGI 信徒 否认 AI 具有意识&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;微软掌门人对 AGI 与 AI 意识边界的最新公开表态，反映头部厂商的路线与治理取向。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;微软 CEO 纳德拉在圆桌讨论中称自己已成为“AGI 信徒”，主张从政治经济学层面思考 AGI 将带来的组织结构变革。但他明确否认 Claude 等前沿模型具有意识，认同苏莱曼关于企业不应赋予 AI 模型权利与道德地位的立场，并强调当前行业最紧迫的是确保 AI 在经济体系中广泛普及。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;微软掌门人对 AGI 与 AI 意识边界的最新公开表态，反映头部厂商的路线与治理取向。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/028/609.htm">IT之家 · 智能时代</source>
 <category>微软</category>
 <category>AGI</category>
 <category>AI 治理</category>
 <category>行业观点</category>
 </item>
-<item><title>Nvidia Invests Over $1 Billion in Kinsus to Expand ABF Substrate Output</title><link>https://www.ithome.com/1/028/608.htm</link><guid isPermaLink="true">https://www.ithome.com/1/028/608.htm</guid>
+<item><title>英伟达向景硕投资超 10 亿美元扩产 ABF 基板</title><link>https://www.ithome.com/1/028/608.htm</link><guid isPermaLink="true">https://www.ithome.com/1/028/608.htm</guid>
 <pubDate>Wed, 18 Nov 2026 08:51:54 +0800</pubDate>
-<description>&lt;p&gt;Nvidia will invest more than $1 billion in cash in Taiwanese substrate maker Kinsus, funding equipment purchases to expand its Taoyuan Youshi plant and lift advanced ABF substrate capacity by over 3.5x, with new output expected in H2 2027 and full ramp by Q3 2028. Nvidia also amended its substrate supply agreement with Samsung Electro-Mechanics to raise existing plant throughput and reaffirmed its next-gen GPU and networking partnership with Foxconn.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达向景硕投资超 10 亿美元扩产 ABF 基板&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达以十亿美元级现金直接下场锁定 ABF 基板产能，是 AI 算力供应链从芯片向封装材料延伸的关键信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;英伟达宣布向中国台湾地区封装基板厂商景硕投资超 10 亿美元现金，用于采购设备并支持其桃园幼狮厂扩产，目标将先进 ABF 封装基板产能扩大 3.5 倍以上，新产能预计 2027 年下半年开出、2028 年三季度达产。同时英伟达修改与三星电机的基板供应协议以提升现有工厂运营能力，并重申与鸿海在下一代 GPU 与网络平台上的合作。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达以十亿美元级现金直接下场锁定 ABF 基板产能，是 AI 算力供应链从芯片向封装材料延伸的关键信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/028/608.htm">IT之家 · IT业界</source>
 <category>英伟达</category>
 <category>ABF 基板</category>
 <category>AI 供应链</category>
 <category>半导体封装</category>
 </item>
-<item><title>Jason Wei Leaves Meta to Join Mercor as Chief Scientist</title><link>https://x.com/dotey/status/2122855192358178891</link><guid isPermaLink="true">https://x.com/dotey/status/2122855192358178891</guid>
+<item><title>Jason Wei 离开 Meta 加盟 Mercor 任首席科学家</title><link>https://x.com/dotey/status/2122855192358178891</link><guid isPermaLink="true">https://x.com/dotey/status/2122855192358178891</guid>
 <pubDate>Wed, 18 Nov 2026 08:51:33 +0800</pubDate>
-<description>&lt;p&gt;Jason Wei, first author of the chain-of-thought paper and a former OpenAI o1 contributor, has confirmed his departure from Meta&amp;#x27;s TBD lab to become Chief Scientist at AI data company Mercor, where he will build a research team focused on data and evaluation. The move underscores data and evals as the next competitive frontier and puts Meta, which paid $14.3B for a 49% stake in Scale AI, in an awkward spot.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Jason Wei 离开 Meta 加盟 Mercor 任首席科学家&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;顶尖研究员从大厂流向数据评测赛道，折射 AI 竞争重心从模型转向数据与评测。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;思维链论文第一作者、前 OpenAI o1 核心成员 Jason Wei 确认离开 Meta TBD 实验室，出任 AI 数据公司 Mercor 首席科学家，负责组建研究团队并主管数据与评测。此举凸显数据与评测正成为模型竞赛的下一个关键战场，也让重金投入 Scale AI 的 Meta 陷入尴尬。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;顶尖研究员从大厂流向数据评测赛道，折射 AI 竞争重心从模型转向数据与评测。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/dotey/status/2122855192358178891">宝玉 (@dotey)</source>
 <category>人才流动</category>
 <category>AI 数据</category>
@@ -194,17 +239,17 @@
 <category>Meta</category>
 <category>Mercor</category>
 </item>
-<item><title>Bezos Advises Nvidia to Promote From Within Rather Than Hire Outside CEO</title><link>https://x.com/rohanpaul_ai/status/2122854686298640532</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122854686298640532</guid>
+<item><title>贝索斯谈英伟达接班 建议内部提拔而非空降</title><link>https://x.com/rohanpaul_ai/status/2122854686298640532</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122854686298640532</guid>
 <pubDate>Wed, 18 Nov 2026 08:49:32 +0800</pubDate>
-<description>&lt;p&gt;Speaking in a Semafor interview, Jeff Bezos argued that if Jensen Huang were to step down, Nvidia should promote from within rather than bring in an outside CEO. He reasoned that Nvidia&amp;#x27;s business and organization are too complex for an external leader, whose odds of success at such companies are vanishingly small, making outside hiring a last resort.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;贝索斯谈英伟达接班 建议内部提拔而非空降&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;贝索斯对英伟达治理与接班路径的公开判断，是观察这家算力巨头组织风险的一手观点。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;贝索斯在 Semafor 访谈中就英伟达 CEO 接班问题表态，认为若黄仁勋离任，应优先从内部提拔而非空降外部 CEO。他给出的核心理由是英伟达业务与组织过于复杂，外部管理者在复杂公司中的成功概率极低，只能作为最后手段。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;贝索斯对英伟达治理与接班路径的公开判断，是观察这家算力巨头组织风险的一手观点。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 38/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2122854686298640532">Rohan Paul (@rohanpaul_ai)</source>
 <category>英伟达</category>
 <category>公司治理</category>
 <category>贝索斯</category>
 </item>
-<item><title>OpenAI Releases GPT-6.2 Astra and Sol with 3D Generation Lead</title><link>https://www.qbitai.com/2026/11/510707.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/510707.html</guid>
+<item><title>OpenAI 双发 GPT-6.2 Astra 与 Sol，3D 生成登顶</title><link>https://www.qbitai.com/2026/11/510707.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/510707.html</guid>
 <pubDate>Wed, 18 Nov 2026 08:49:14 +0800</pubDate>
-<description>&lt;p&gt;OpenAI launched GPT-6.2 Astra and the lightweight Sol simultaneously. Astra upgrades complex agent tasks, scientific research and 3D generation, topping the AA-3D leaderboard at 1318 Elo while cutting API prices 20%. Sol approaches Astra&amp;#x27;s coding ability at one-fifth the task cost, and both are available on ChatGPT Work, Codex and the API.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 双发 GPT-6.2 Astra 与 Sol，3D 生成登顶&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;OpenAI 双模型同发并首次在 3D 生成榜单登顶，价格与成本结构同步下调，是当日最具分量的模型发布。&lt;/p&gt;&lt;p&gt;量子位官网 · llm · signal 88/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 同时发布 GPT-6.2 Astra 与轻量版 Sol 两款模型，Astra 在复杂 Agent 任务、科研与 3D 生成上全面升级，AA-3D 评测以 1318 Elo 登顶，API 价格直降 20%。Sol 编程能力逼近 Astra，任务成本仅为其五分之一，两款模型已上线 ChatGPT Work、Codex 与 API。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;OpenAI 双模型同发并首次在 3D 生成榜单登顶，价格与成本结构同步下调，是当日最具分量的模型发布。&lt;/p&gt;&lt;p&gt;量子位官网 · llm · signal 88/100&lt;/p&gt;</description>
 <source url="https://www.qbitai.com/2026/11/510707.html">量子位官网</source>
 <category>大模型</category>
 <category>OpenAI</category>
@@ -228,52 +273,6 @@
 <category>机器人</category>
 <category>融资</category>
 <category>法国</category>
-</item>
-<item><title>微软联合 40 多家组织推进 AI 透明度开放标准</title><link>https://www.ithome.com/1/028/603.htm</link><guid isPermaLink="true">https://www.ithome.com/1/028/603.htm</guid>
-<pubDate>Wed, 18 Nov 2026 08:37:36 +0800</pubDate>
-<description>&lt;p&gt;微软在 Ignite 大会上启动 AI 透明度计划，联合埃森哲、Adobe、毕马威、万事达卡、沃尔沃等 40 多家组织，推动建立覆盖闭源与开放权重模型的开放安全治理标准。该框架以观察、验证、控制三环节为核心，强调智能体行为不能由模型自证，需结合独立系统记录交叉验证，并将落地到 Microsoft AI、Foundry 与 Copilot。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是大厂主导的 AI 智能体治理标准与合规基础设施布局，直接影响企业 AI 安全审计与模型选型。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 72/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/028/603.htm">IT之家 · IT业界</source>
-<category>AI 治理</category>
-<category>微软</category>
-<category>智能体安全</category>
-<category>行业标准</category>
-</item>
-<item><title>微软 Copilot 全面集成 Office 三件套</title><link>https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/</link><guid isPermaLink="true">https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/</guid>
-<pubDate>Wed, 18 Nov 2026 08:27:29 +0800</pubDate>
-<description>&lt;p&gt;微软在 Ignite 大会上宣布 Word、Excel、PowerPoint 已在 Copilot 中正式可用，CEO 纳德拉将其定位为“工作的新操作系统”。这标志着软件使用范式的反转：由智能体主导工作流，Office 应用退居为插件组件，并由跨邮件、会议、日历与文件的组织知识层提供上下文。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;微软将 Office 三件套正式嵌入 Copilot 并重新定义其为工作操作系统，是智能体主导工作流的重要范式转变。&lt;/p&gt;&lt;p&gt;Ars Technica AI · agent · signal 78/100&lt;/p&gt;</description>
-<source url="https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/">Ars Technica AI</source>
-<category>微软</category>
-<category>Copilot</category>
-<category>智能体</category>
-<category>办公软件</category>
-</item>
-<item><title>研究显示 AI 概览使外部网站点击量下降 40%</title><link>https://revscope.co/blog/search-seo-geo-2026/</link><guid isPermaLink="true">https://revscope.co/blog/search-seo-geo-2026/</guid>
-<pubDate>Wed, 18 Nov 2026 08:17:58 +0800</pubDate>
-<description>&lt;p&gt;一项随机对照实验显示，隐藏 AI 概览后，美国桌面用户点击外部网站的次数比看到概览的用户高出约 40%，说明 AI 概览正在实质性分流搜索流量。与此同时，AI 概览已覆盖 DataForSEO 追踪的过半美国关键词，而 AI 助手带来的流量占比仅 0.3%，GEO 尚未找到可验证的补偿路径。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;用随机对照实验量化了 AI 搜索对开放网络流量的冲击，是内容生态与搜索商业模式的关键信号。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 74/100&lt;/p&gt;</description>
-<source url="https://revscope.co/blog/search-seo-geo-2026/">Hacker News AI</source>
-<category>AI 搜索</category>
-<category>流量生态</category>
-<category>GEO</category>
-<category>Google</category>
-</item>
-<item><title>英伟达季度营收 1158 亿美元 同比增长 103%</title><link>https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/</guid>
-<pubDate>Wed, 18 Nov 2026 08:16:50 +0800</pubDate>
-<description>&lt;p&gt;英伟达在创始人黄仁勋离职后的首个财报季交出 1158 亿美元营收，同比增长 103%，超出此前 1080 亿美元的指引。临时 CEO Colette Kress 预计下一季度营收将达 1300 亿美元，并将 2028 财年营收增速预期从 70% 上调至约 75%。公司表示已锁定内存与先进封装产能，正与台积电合作缩小供需缺口。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达在管理层动荡后仍给出超预期业绩与上调指引，是算力供需与 AI 基础设施景气度的关键风向标。&lt;/p&gt;&lt;p&gt;TechCrunch AI · compute · signal 78/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/">TechCrunch AI</source>
-<category>英伟达</category>
-<category>算力</category>
-<category>财报</category>
-<category>AI 基础设施</category>
-</item>
-<item><title>Anthropic IPO 拟超 80 美元 估值冲 1.6 万亿美元</title><link>https://x.com/rohanpaul_ai/status/2122845999387602999</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2122845999387602999</guid>
-<pubDate>Wed, 18 Nov 2026 08:15:01 +0800</pubDate>
-<description>&lt;p&gt;据 WSJ 报道，Anthropic 预计将其 IPO 定价定在 70 至 78 美元的申报区间之上，可能超过每股 80 美元，顾问讨论的估值达 1.5 万亿至 1.6 万亿美元，高于此前约 1.33 万亿美元。按申报区间计算，IPO 募资约 610 亿美元，同时进行 260 亿美元私募配售，Google 与 Nvidia 各以发行价认购约 100 亿美元。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 头部公司 IPO 定价与万亿级估值，叠加 Google、Nvidia 战略认购，是产业资本格局的标志性事件。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 88/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2122845999387602999">Rohan Paul (@rohanpaul_ai)</source>
-<category>Anthropic</category>
-<category>IPO</category>
-<category>估值</category>
-<category>Nvidia</category>
-<category>Google</category>
 </item>
 </channel>
 </rss>
