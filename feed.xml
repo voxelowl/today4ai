@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Fri, 20 Nov 2026 04:22:17 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 20 Nov 2026 04:43:57 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>PostgreSQL 19 Ships with Read-Your-Writes Consistency via WAIT FOR LSN</title><link>https://simonwillison.net/2026/Nov/19/postgresql-19/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/19/postgresql-19/</guid>
+<pubDate>Fri, 20 Nov 2026 04:43:57 +0800</pubDate>
+<description>&lt;p&gt;PostgreSQL 19 has shipped roughly two months later than its usual September cadence, largely because the team had to work through a surge of AI-assisted vulnerability reports. The headline feature is the new WAIT FOR LSN command, which lets a standby session wait until WAL replay reaches a given LSN before querying, enabling read-your-writes consistency on read replicas.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;PostgreSQL 19 发布 新增 WAIT FOR LSN 读己之写一致性&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流开源数据库的重要版本更新，新增的读己之写一致性能力对读写分离架构有直接工程价值。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://simonwillison.net/2026/Nov/19/postgresql-19/">Simon Willison 博客</source>
+<category>PostgreSQL</category>
+<category>数据库</category>
+<category>开源</category>
+<category>复制</category>
+</item>
 <item><title>Meta Prices Muse Charm AI Gadget at $300</title><link>https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price</link><guid isPermaLink="true">https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price</guid>
 <pubDate>Fri, 20 Nov 2026 04:22:17 +0800</pubDate>
 <description>&lt;p&gt;Meta plans to price the Muse Charm, a screen-equipped gadget for chatting with its Muse AI agent, at $300 with a free 12-month Verizon 5G plan. The device enables tap-to-talk voice interaction via a fingerprint sensor, and Zuckerberg has said it will ship in time for the December holidays, marking Meta&amp;#x27;s major bet on AI hardware.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta Muse Charm 定价 300 美元 押注 AI 硬件&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Meta 首款 AI 智能体硬件的定价与出货节奏，是观察大厂 AI 硬件商业化路径的关键信号。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 58/100&lt;/p&gt;</description>
@@ -119,6 +128,14 @@
 <category>前沿 AI</category>
 <category>观点辩论</category>
 </item>
+<item><title>Anthropic Tops Code Arena WebDev Leaderboard with Claude Fable 5.2</title><link>https://x.com/arena/status/2123487889774526841</link><guid isPermaLink="true">https://x.com/arena/status/2123487889774526841</guid>
+<pubDate>Fri, 20 Nov 2026 02:45:40 +0800</pubDate>
+<description>&lt;p&gt;Arena.ai published its latest Code Arena WebDev leaderboard, naming Anthropic the top-ranked lab with its best model Claude Fable 5.2 scoring 1824 points, 27 points ahead of the next-best lab. The ranking reflects human-preference battles on front-end and web development tasks, and Anthropic also shared its year-over-year lab ranking trajectory and its standing on the Agent Arena Index.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 登顶 WebDev 代码竞技场榜首&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;第三方竞技场榜单确认 Anthropic 在网页开发类编码任务上的领先位置，是观察模型编码能力格局变化的有效信号。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/arena/status/2123487889774526841">Arena.ai (@arena)</source>
+<category>代码竞技场</category>
+<category>Anthropic</category>
+<category>模型评测</category>
+</item>
 <item><title>Positron Titan Runs 32 Trillion Parameter Models on Commodity DRAM</title><link>https://x.com/rohanpaul_ai/status/2123486091353456802</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123486091353456802</guid>
 <pubDate>Fri, 20 Nov 2026 02:38:31 +0800</pubDate>
 <description>&lt;p&gt;Positron&amp;#x27;s Titan servers abandon scarce HBM for cheap smartphone-style DRAM, letting a single machine hold models of up to 32 trillion parameters and making memory capacity per watt the key metric. Inference cloud Parasail will be the first to deploy Titan at scale, starting at 5MW, claiming 4X better cost-per-token than next-gen NVIDIA/AMD systems and targeting trillions of cost-optimized tokens per day by late 2027.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Positron Titan 用廉价 DRAM 承载 32 万亿参数模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以 DRAM 替代 HBM 承载超大模型，直接冲击推理成本结构，是算力路线分化的重要信号。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 71/100&lt;/p&gt;</description>
@@ -207,18 +224,18 @@
 <category>模型部署</category>
 <category>AWS</category>
 </item>
-<item><title>Oncolytic Virus Injection Stabilizes Pancreatic Cancer in Three Patients</title><link>https://scienceinhand.com/pancreatic-cancer-halted-by-virus-injection-in-three-patients/</link><guid isPermaLink="true">https://scienceinhand.com/pancreatic-cancer-halted-by-virus-injection-in-three-patients/</guid>
+<item><title>溶瘤病毒让三例胰腺癌患者病情稳定</title><link>https://scienceinhand.com/pancreatic-cancer-halted-by-virus-injection-in-three-patients/</link><guid isPermaLink="true">https://scienceinhand.com/pancreatic-cancer-halted-by-virus-injection-in-three-patients/</guid>
 <pubDate>Fri, 20 Nov 2026 01:25:33 +0800</pubDate>
-<description>&lt;p&gt;A University of Minnesota Phase I trial reported that three patients with inoperable pancreatic cancer achieved stable disease after intratumoral injection of a genetically engineered adenovirus, with one reaching 15 months of disease control. The result is an early feasibility signal and does not prove tumor elimination or survival benefit.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;溶瘤病毒让三例胰腺癌患者病情稳定&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;溶瘤病毒在难治胰腺癌上出现早期临床信号，值得关注其后续剂量爬坡与疗效验证。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;明尼苏达大学一项 I 期临床试验显示，三名无法手术的胰腺癌患者在接受基因工程腺病毒瘤内注射后病情稳定，其中一人疾病控制达 15 个月。该结果属于早期安全性/可行性信号，尚不能证明肿瘤消失或生存期延长。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;溶瘤病毒在难治胰腺癌上出现早期临床信号，值得关注其后续剂量爬坡与疗效验证。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://scienceinhand.com/pancreatic-cancer-halted-by-virus-injection-in-three-patients/">Hacker News AI</source>
 <category>溶瘤病毒</category>
 <category>胰腺癌</category>
 <category>临床试验</category>
 <category>生物医药</category>
 </item>
-<item><title>US Chip Export Crackdown Halts Chinese AI Data Center Deals</title><link>https://the-decoder.com/chinese-tech-firms-face-a-double-hit-as-chip-shipments-stop-and-overseas-cloud-access-disappears/</link><guid isPermaLink="true">https://the-decoder.com/chinese-tech-firms-face-a-double-hit-as-chip-shipments-stop-and-overseas-cloud-access-disappears/</guid>
+<item><title>美收紧芯片出口 中国 AI 数据中心项目停摆</title><link>https://the-decoder.com/chinese-tech-firms-face-a-double-hit-as-chip-shipments-stop-and-overseas-cloud-access-disappears/</link><guid isPermaLink="true">https://the-decoder.com/chinese-tech-firms-face-a-double-hit-as-chip-shipments-stop-and-overseas-cloud-access-disappears/</guid>
 <pubDate>Fri, 20 Nov 2026 01:02:41 +0800</pubDate>
-<description>&lt;p&gt;Days after the US Commerce Department closed the overseas cloud-compute loophole, the first multimillion-dollar AI data center deals in Asia are collapsing as chipmakers freeze deliveries to Chinese buyers. Reporting also alleges Alibaba built data centers with export-controlled Nvidia chips for a military-adjacent lab via state-owned Zhejiang Computility and a supplier network tied to Alice Huang and Kang Wei.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美收紧芯片出口 中国 AI 数据中心项目停摆&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;出口管制从芯片延伸到云端租用，直接冲击中国 AI 算力供给与亚洲数据中心投资，是算力地缘格局的关键节点。&lt;/p&gt;&lt;p&gt;The Decoder · compute · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;美国商务部封堵海外云计算租用算力漏洞后，亚洲首批数亿美元级 AI 数据中心交易随即崩盘，芯片厂商冻结对华交付。报道同时披露，阿里巴巴曾通过国有算力公司及关联供应商网络，为军事相关实验室搭建使用受出口管制英伟达芯片的数据中心。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;出口管制从芯片延伸到云端租用，直接冲击中国 AI 算力供给与亚洲数据中心投资，是算力地缘格局的关键节点。&lt;/p&gt;&lt;p&gt;The Decoder · compute · signal 78/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/chinese-tech-firms-face-a-double-hit-as-chip-shipments-stop-and-overseas-cloud-access-disappears/">The Decoder</source>
 <category>出口管制</category>
 <category>算力基础设施</category>
@@ -251,24 +268,6 @@
 <category>端侧 AI</category>
 <category>浏览器</category>
 <category>带宽消耗</category>
-</item>
-<item><title>Anthropic 登陆纳斯达克 市值达 1.5 万亿美元</title><link>https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq</guid>
-<pubDate>Fri, 20 Nov 2026 00:52:01 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 正式在纳斯达克挂牌上市，股票代码为 ANT，开盘价 111.50 美元，较 83 美元的发行价大幅上涨，对应估值约 1.5 万亿美元。其 S-1 文件显示上半年营收 163 亿美元，净亏损 807 亿美元主要来自非经营性会计计提，同时公司通过治理结构将控制权保留在创始人手中。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 行业迄今规模最大的 IPO 之一，1.5 万亿美元估值与创始人控制权设计对产业格局影响深远。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 88/100&lt;/p&gt;</description>
-<source url="https://www.theverge.com/ai-artificial-intelligence/1035384/anthropic-ipo-trading-nasdaq">The Verge AI</source>
-<category>Anthropic</category>
-<category>IPO</category>
-<category>融资上市</category>
-<category>AI 产业</category>
-</item>
-<item><title>亚马逊 SageMaker HyperPod 新增 GPU 训练可观测能力</title><link>https://aws.amazon.com/blogs/machine-learning/introducing-enhanced-observability-in-amazon-sagemaker-hyperpod-to-diagnose-gpu-training-issues/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/introducing-enhanced-observability-in-amazon-sagemaker-hyperpod-to-diagnose-gpu-training-issues/</guid>
-<pubDate>Fri, 20 Nov 2026 00:41:35 +0800</pubDate>
-<description>&lt;p&gt;亚马逊为 SageMaker HyperPod 推出增强型可观测能力，通过 CloudWatch 的 DetectGroupOutliers API 对比同一训练任务中各 GPU 的利用率、显存、温度、功耗与 SM 时钟，自动标记偏离群体的异常卡。该能力同时支持 EKS 与 Slurm 编排，内置 XID 错误、ECC 内存错误、EFA 吞吐下降与热降频等静态诊断规则，并配套 Grafana 仪表盘，目前已在所有提供 HyperPod 的区域上线。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向大规模 GPU 训练运维的实用诊断能力更新，直接回应分布式训练中定位慢节点的真实痛点。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · compute · signal 58/100&lt;/p&gt;</description>
-<source url="https://aws.amazon.com/blogs/machine-learning/introducing-enhanced-observability-in-amazon-sagemaker-hyperpod-to-diagnose-gpu-training-issues/">AWS Machine Learning Blog</source>
-<category>算力基础设施</category>
-<category>GPU 训练</category>
-<category>AWS</category>
-<category>可观测性</category>
 </item>
 </channel>
 </rss>
