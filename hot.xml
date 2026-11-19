@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Thu, 19 Nov 2026 08:40:49 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 19 Nov 2026 10:06:35 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>谷歌发布 Gemini 4 Neon 单任务成本较竞品低 69%</title><link>https://todayforai.com/en/story/story-01de03ce-0b6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-01de03ce-0b6</guid>
 <pubDate>Thu, 19 Nov 2026 08:40:49 +0800</pubDate>
@@ -24,6 +24,14 @@ Gemini 4 系列在七周内已发布四款模型，发布间隔从 28 天缩短�
 此次 IPO 获得约 6 倍超额认购，机构锚定订单达可售份额数倍，高盛与摩根士丹利领衔 22 家承销行。公司年化收入已从 9 月的 710 亿美元增至 10 月底的 810 亿美元，支撑强劲认购需求。值得注意的是，Anthropic 以公共利益公司（PBC）身份运营，创始人通过 Class F 股锁定 50.1% 投票权，公开市场投资者几乎无法影响公司控制权。募资所得将主要用于支撑约 9000 亿美元的算力与基础设施支出，包括与 SpaceX 每月最高 31 亿美元的数据中心协议。
 
 作为头部大模型公司首次进入公开资本市场，Anthropic 的上市将成为 AI 行业估值与商业化能力的关键定价锚点，标志着前沿 AI 实验室资本化进程进入新阶段。其“少量长约+现货市场”的算力采购策略，以及巨额基础设施投入，也将对 AI 芯片、数据中心和云服务产业链产生深远影响。&lt;/p&gt;&lt;p&gt;8 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Simon Willison 博客, 量子位官网, 量子位 (微信公众号), Latent Space, InfoQ 中文&lt;/p&gt;</description>
+</item>
+<item><title>GPT-6.2 双版本行为风格突变 回答更短更自然</title><link>https://todayforai.com/en/story/story-b81f4303-c80</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b81f4303-c80</guid>
+<pubDate>Thu, 19 Nov 2026 10:06:35 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 新一代模型 GPT-6.2 的 Astra 与 Sol 两个版本在行为风格上出现显著变化。根据 Artificial Analysis 的评测，两个版本的回答长度大幅缩短，Astra 平均从 352 词降至 210 词，Sol 从 337 词降至 223 词；同时，模型主动承认不确定性的比例骤降，Astra 从 96 降至 24，Sol 从 98 降至 51，而自然度评分则显著上升，Astra 达到满分 100，Sol 为 79。这表明新模型在保持直接性的同时，大幅提升了回答的流畅度和自信度。
+
+Arena.ai 的实测进一步从任务维度交叉验证了上述趋势。在 3D 场景、游戏、幻灯片、数据可视化、网站 UI 及交互应用等多类生成任务中，Astra 在深度与精度上表现更优，Sol 则在动态表现与设计选择上更为突出。测试同步记录了各次运行的耗时与成本，为评估性价比提供了参照。两家信源的结论相互补充，共同勾勒出 GPT-6.2 在风格上的主动调整：更简洁、更自然、更少犹豫。
+
+这一变化可能标志着 OpenAI 在模型对齐策略上的转向，即从过度谨慎转向更自信、更接近人类对话习惯的输出。对于开发者而言，更短的回答和更高的自然度有望提升用户体验，但不确定性承认比例的下降也可能引发对模型可靠性的新讨论。随着模型在多样任务中展现差异化优势，用户可根据需求在 Astra 的精准与 Sol 的灵动之间灵活选择。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys), Arena.ai (@arena)&lt;/p&gt;</description>
 </item>
 <item><title>谷歌向 Ultra 用户开放 Genie 4 世界模型</title><link>https://todayforai.com/en/story/story-71017e8f-b4d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-71017e8f-b4d</guid>
 <pubDate>Thu, 19 Nov 2026 06:39:01 +0800</pubDate>
@@ -68,14 +76,6 @@ Gemini 4 系列在七周内已发布四款模型，发布间隔从 28 天缩短�
 技术细节上，MAI-Image-2.7 在文字符号、场景风格与增强修复三类编辑任务中均列第一，Flash 版在场景风格编辑中排名第三。相较 2.6 版本，新模型单图编辑能力提升约 50 分，写实与电影感影像排名从第 8 跃升至第 3，文字渲染从第 13 升至第 4，商业设计与 3D 建模等细分项也大幅前移。多信源一致确认其质量与价格的前沿位置，但排名细节略有差异：一方强调编辑榜登顶，另一方侧重综合排名第二，这反映了不同评测维度的侧重点。
 
 行业影响方面，微软以极低定价切入图像生成赛道，直接挑战 Midjourney、DALL·E 等竞品，可能引发新一轮价格竞争。其帕累托前沿的定位意味着在成本与质量间取得平衡，对开发者与中小企业具有吸引力，有望推动图像编辑能力的普及化应用。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Arena.ai (@arena), Artificial Analysis (@ArtificialAnlys), IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
-<item><title>微软发布决策专用模型 Decision-1.1 提速超 2 倍</title><link>https://todayforai.com/en/story/story-3c6ca8b3-ef0</link><guid isPermaLink="true">https://todayforai.com/en/story/story-3c6ca8b3-ef0</guid>
-<pubDate>Thu, 19 Nov 2026 03:56:18 +0800</pubDate>
-<description>&lt;p&gt;微软正式推出面向企业高频决策场景的专用模型 Microsoft-Decision-1.1，该模型不生成通用文本，而是在开发者设定的规则约束内从允许操作中做出结构化选择，并输出校准置信度，信息不足时可弃权或转人工。目前该模型已在 Foundry、OpenRouter 和 Vercel 上线，输入定价为每百万 token 0.042 美元，输出免费。
-
-在第三方评测机构 Artificial Analysis 的 Decision Index v2.1 上，Decision-1.1 得分 68，较前代提升 6 分，六项子评测全面上涨，位列榜单第 8。其单任务耗时从 274 毫秒降至 123 毫秒，提速超过 2 倍，速度排名第 5。微软内部将其用于 Copilot 请求路由时，速度快 2.2 倍、成本低 4.4 倍。该评测指数也被纳入微软 Ignite 大会主题演讲，获得主流厂商背书。
-
-Decision-1.1 的发布标志着 AI 模型从通用文本生成向垂直决策专用化演进，为企业自动化流程提供了更低成本、更高效率的解决方案，同时推动了决策能力评估标准的建立，对智能体和工作流自动化赛道具有重要影响。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
