@@ -1,8 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Fri, 20 Nov 2026 01:38:40 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 20 Nov 2026 02:38:31 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Positron Titan Runs 32 Trillion Parameter Models on Commodity DRAM</title><link>https://x.com/rohanpaul_ai/status/2123486091353456802</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123486091353456802</guid>
+<pubDate>Fri, 20 Nov 2026 02:38:31 +0800</pubDate>
+<description>&lt;p&gt;Positron&amp;#x27;s Titan servers abandon scarce HBM for cheap smartphone-style DRAM, letting a single machine hold models of up to 32 trillion parameters and making memory capacity per watt the key metric. Inference cloud Parasail will be the first to deploy Titan at scale, starting at 5MW, claiming 4X better cost-per-token than next-gen NVIDIA/AMD systems and targeting trillions of cost-optimized tokens per day by late 2027.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Positron Titan 用廉价 DRAM 承载 32 万亿参数模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以 DRAM 替代 HBM 承载超大模型，直接冲击推理成本结构，是算力路线分化的重要信号。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 71/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2123486091353456802">Rohan Paul (@rohanpaul_ai)</source>
+<category>算力基础设施</category>
+<category>推理成本</category>
+<category>DRAM</category>
+<category>Positron</category>
+</item>
+<item><title>Anthropic Says SpaceX Compute Quality Is High</title><link>https://x.com/rohanpaul_ai/status/2123483690106073585</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123483690106073585</guid>
+<pubDate>Fri, 20 Nov 2026 02:28:58 +0800</pubDate>
+<description>&lt;p&gt;Dario Amodei said Anthropic is using compute supplied by SpaceX, calling it high quality and praising the collaboration. The remark marks a rare crossover between a frontier AI lab and a commercial space company on compute supply, though no scale, chip type or contract terms were disclosed.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 称 SpaceX 提供的算力质量很高&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 实验室确认外部算力来源，涉及算力供应链多元化这一关键变量。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 42/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2123483690106073585">Rohan Paul (@rohanpaul_ai)</source>
+<category>算力</category>
+<category>Anthropic</category>
+<category>SpaceX</category>
+</item>
+<item><title>Google Brings Computer Use to Gemini App on macOS</title><link>https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use</link><guid isPermaLink="true">https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use</guid>
+<pubDate>Fri, 20 Nov 2026 02:21:13 +0800</pubDate>
+<description>&lt;p&gt;Google has added computer use to its Gemini app for macOS, letting it complete multi-step tasks across local files, desktop apps, and the web. Users control which apps Gemini can access and can watch a live preview in a background window. The feature is rolling out in English to US users, ahead of Apple&amp;#x27;s new restrictions on apps requesting full disk access.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Gemini Mac 版上线电脑操作能力&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流消费级 AI 助手首次在桌面端获得跨应用操作能力，且与 Apple 即将收紧的权限规则形成直接张力，值得关注智能体落地边界。&lt;/p&gt;&lt;p&gt;The Verge AI · agent · signal 68/100&lt;/p&gt;</description>
+<source url="https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use">The Verge AI</source>
+<category>智能体</category>
+<category>Google</category>
+<category>macOS</category>
+<category>computer use</category>
+</item>
+<item><title>Amazon SageMaker AI Adds Cross-Region Inference Routing</title><link>https://aws.amazon.com/blogs/machine-learning/keep-inference-running-through-regional-capacity-shortfalls-with-cross-region-inference-routing-in-amazon-sagemaker-ai/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/keep-inference-running-through-regional-capacity-shortfalls-with-cross-region-inference-routing-in-amazon-sagemaker-ai/</guid>
+<pubDate>Fri, 20 Nov 2026 02:20:54 +0800</pubDate>
+<description>&lt;p&gt;Amazon SageMaker AI has launched cross-Region inference routing, introducing an inference router resource that gives applications a single invocation path across endpoints and inference components in multiple AWS Regions and accounts. When local GPU capacity falls short, the router shifts new requests to other registered destinations and gradually returns traffic after recovery, filling a gap previously requiring customers to build routing themselves.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊 SageMaker AI 推出跨区域推理路由&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是云厂商在推理基础设施高可用层面的实质产品能力补齐，对部署多区域大模型服务的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · compute · signal 62/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/keep-inference-running-through-regional-capacity-shortfalls-with-cross-region-inference-routing-in-amazon-sagemaker-ai/">AWS Machine Learning Blog</source>
+<category>Amazon SageMaker AI</category>
+<category>跨区域推理</category>
+<category>推理基础设施</category>
+<category>AWS</category>
+</item>
+<item><title>Skyflow Interceptor Adds Data De-identification to AgentCore Gateway</title><link>https://aws.amazon.com/blogs/machine-learning/protect-agent-tool-calls-with-skyflow-and-amazon-bedrock-agentcore-gateway/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/protect-agent-tool-calls-with-skyflow-and-amazon-bedrock-agentcore-gateway/</guid>
+<pubDate>Fri, 20 Nov 2026 02:14:36 +0800</pubDate>
+<description>&lt;p&gt;Skyflow and Amazon Bedrock AgentCore Gateway have introduced an open-source request/response interceptor that automatically de-identifies and restores sensitive data across agent tool-call flows, keeping it out of both tools and model context. The approach requires no changes to agents or tools, and is available on AWS Marketplace and open-sourced on GitHub.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Skyflow 拦截器为 AgentCore 网关加上数据脱敏&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Agent 工具调用链路的数据安全是落地关键缺口，该方案以拦截器形式提供可复用的脱敏范式。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 58/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/protect-agent-tool-calls-with-skyflow-and-amazon-bedrock-agentcore-gateway/">AWS Machine Learning Blog</source>
+<category>智能体</category>
+<category>数据安全</category>
+<category>AWS</category>
+<category>开源</category>
+</item>
+<item><title>Google Brings Computer Use to Gemini Desktop App on macOS</title><link>https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/</guid>
+<pubDate>Fri, 20 Nov 2026 02:09:11 +0800</pubDate>
+<description>&lt;p&gt;Google announced that its Gemini desktop app on macOS now supports computer use, letting the AI operate native Mac apps and browse websites in the background to complete tasks on users&amp;#x27; behalf. The feature is initially limited to English-speaking users in the U.S. and requires a Google AI Plus, Pro, or Ultra subscription, arriving later than similar agentic offerings from OpenAI, Anthropic, and Meta.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Google 为 Gemini 桌面端上线 Mac 电脑操作能力&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流大模型厂商将电脑操作智能体落地到桌面端，是智能体产品化的重要一步，值得关注其能力边界与竞争格局。&lt;/p&gt;&lt;p&gt;TechCrunch AI · agent · signal 62/100&lt;/p&gt;</description>
+<source url="https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/">TechCrunch AI</source>
+<category>智能体</category>
+<category>Google</category>
+<category>Gemini</category>
+<category>桌面应用</category>
+</item>
+<item><title>Google Adds Tool Retrieval to Gemini API for On-Demand Schema Loading</title><link>https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/</link><guid isPermaLink="true">https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/</guid>
+<pubDate>Fri, 20 Nov 2026 02:00:00 +0800</pubDate>
+<description>&lt;p&gt;Google has launched Tool Retrieval in preview within the Gemini Interactions API, letting agents load tool parameter schemas on demand instead of shipping the full tool library in every request. The feature targets lower input token costs and latency while keeping tool selection accurate as libraries scale. Developers enable it by adding a tool_search tool and setting defer_loading to true.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Gemini API 上线工具检索 按需加载降本提速&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向大规模工具库的按需 schema 加载是智能体工程化的实用优化，直接影响 token 成本与延迟。&lt;/p&gt;&lt;p&gt;Google AI Blog · tools · signal 62/100&lt;/p&gt;</description>
+<source url="https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/">Google AI Blog</source>
+<category>Gemini API</category>
+<category>智能体工具调用</category>
+<category>Google</category>
+<category>上下文优化</category>
+</item>
 <item><title>Meta AI Agent Muse Reportedly Leaks Private Data Across Accounts</title><link>https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/</guid>
 <pubDate>Fri, 20 Nov 2026 01:38:40 +0800</pubDate>
 <description>&lt;p&gt;A Reuters investigation based on internal Meta posts found that Muse, Meta&amp;#x27;s AI agent launched in September, has been mixing conversations across accounts and surfacing other users&amp;#x27; private data, including bank balances, childcare requests, and career advice. In one case it read Signal messages without permission. With over 10 million downloads, Muse&amp;#x27;s safety lapses highlight serious flaws in permission boundaries and multi-tenant data isolation for consumer AI agents.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta AI 智能体 Muse 被曝串号泄露用户隐私&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部厂商消费级智能体出现跨账号隐私泄露，是智能体安全与权限治理的重要警示案例。&lt;/p&gt;&lt;p&gt;TechCrunch AI · agent · signal 78/100&lt;/p&gt;</description>
@@ -20,6 +82,14 @@
 <category>Anthropic</category>
 <category>量子引力</category>
 <category>智能体</category>
+</item>
+<item><title>PolyAI Dialog-RSN-1 Lands on Amazon SageMaker JumpStart</title><link>https://aws.amazon.com/blogs/machine-learning/polyai-dialog-rsn-1-is-now-on-amazon-sagemaker-jumpstart/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/polyai-dialog-rsn-1-is-now-on-amazon-sagemaker-jumpstart/</guid>
+<pubDate>Fri, 20 Nov 2026 01:28:47 +0800</pubDate>
+<description>&lt;p&gt;PolyAI&amp;#x27;s Dialog-RSN-1, a reasoning model built for real-time complex dialog, is now available on AWS Marketplace and Amazon SageMaker JumpStart, letting customers deploy it as a SageMaker endpoint inside their own AWS environment. It performs perception, reasoning and real-time action in a single pass and is the first PolyAI model distributed through AWS Marketplace.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;PolyAI 对话推理模型上架 SageMaker JumpStart&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是模型分发渠道的常规上架更新，缺乏具体参数与评测数据，但对关注对话式智能体部署的读者有参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 38/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/polyai-dialog-rsn-1-is-now-on-amazon-sagemaker-jumpstart/">AWS Machine Learning Blog</source>
+<category>对话智能体</category>
+<category>模型部署</category>
+<category>AWS</category>
 </item>
 <item><title>US Chip Export Crackdown Halts Chinese AI Data Center Deals</title><link>https://the-decoder.com/chinese-tech-firms-face-a-double-hit-as-chip-shipments-stop-and-overseas-cloud-access-disappears/</link><guid isPermaLink="true">https://the-decoder.com/chinese-tech-firms-face-a-double-hit-as-chip-shipments-stop-and-overseas-cloud-access-disappears/</guid>
 <pubDate>Fri, 20 Nov 2026 01:02:41 +0800</pubDate>
@@ -65,6 +135,15 @@
 <category>IPO</category>
 <category>融资上市</category>
 <category>AI 产业</category>
+</item>
+<item><title>AWS SageMaker HyperPod Adds GPU Training Observability Tools</title><link>https://aws.amazon.com/blogs/machine-learning/introducing-enhanced-observability-in-amazon-sagemaker-hyperpod-to-diagnose-gpu-training-issues/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/introducing-enhanced-observability-in-amazon-sagemaker-hyperpod-to-diagnose-gpu-training-issues/</guid>
+<pubDate>Fri, 20 Nov 2026 00:41:35 +0800</pubDate>
+<description>&lt;p&gt;AWS has launched enhanced observability in Amazon SageMaker HyperPod to help teams diagnose GPU training issues faster. The capability uses CloudWatch&amp;#x27;s DetectGroupOutliers API to compare GPUs within a training job across utilization, memory, temperature, power, and SM clock, flagging outliers, and adds static diagnostic rules for XID errors, ECC memory errors, EFA throughput drops, and thermal throttling. It works across both EKS and Slurm orchestrators, ships with a prebuilt Grafana dashboard, and is available in all regions where HyperPod is offered.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊 SageMaker HyperPod 新增 GPU 训练可观测能力&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向大规模 GPU 训练运维的实用诊断能力更新，直接回应分布式训练中定位慢节点的真实痛点。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · compute · signal 58/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/introducing-enhanced-observability-in-amazon-sagemaker-hyperpod-to-diagnose-gpu-training-issues/">AWS Machine Learning Blog</source>
+<category>算力基础设施</category>
+<category>GPU 训练</category>
+<category>AWS</category>
+<category>可观测性</category>
 </item>
 <item><title>Onlook Launches Open-Source Visual Canvas for Designers</title><link>https://github.com/onlook-dev/onlook/</link><guid isPermaLink="true">https://github.com/onlook-dev/onlook/</guid>
 <pubDate>Fri, 20 Nov 2026 00:34:04 +0800</pubDate>
@@ -146,9 +225,9 @@
 <category>语音模型</category>
 <category>开放权重</category>
 </item>
-<item><title>Editing Just 0.016% of Weights Cures Model Reasoning Loops</title><link>https://tabbyml.github.io/weight-space-playground/</link><guid isPermaLink="true">https://tabbyml.github.io/weight-space-playground/</guid>
+<item><title>仅改 0.016% 权重即可消除模型推理死循环</title><link>https://tabbyml.github.io/weight-space-playground/</link><guid isPermaLink="true">https://tabbyml.github.io/weight-space-playground/</guid>
 <pubDate>Thu, 19 Nov 2026 23:32:47 +0800</pubDate>
-<description>&lt;p&gt;The author built an interactive WebGPU walkthrough of \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;仅改 0.016% 权重即可消除模型推理死循环&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以极小权重改动解决具体推理失败模式，数据对比清晰，且提供了可交互的 WebGPU 演示。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 74/100&lt;/p&gt;</description>
+<description>&lt;p&gt;作者用 WebGPU 构建了一个交互式演示，展示“权重空间编程”：无需梯度下降，仅修改 Qwen 小模型约 80 亿参数中 0.016%（13.1 万）的 ffn_down 输出权重，就显著缓解了模型反复自我验证、耗尽 token 预算的死循环问题。同一模型同一提示下，触及 32k token 上限的运行比例从 93.0% 降至 33.1%，MATH-500 准确率从 7.9% 升至 48.1%。该方法定位少数具体失败模式及其对应神经元，与模型汤（souping）的广谱合并形成对比，并被视为智能体“提议-测试-反馈”闭环的潜在应用方向。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以极小权重改动解决具体推理失败模式，数据对比清晰，且提供了可交互的 WebGPU 演示。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 74/100&lt;/p&gt;</description>
 <source url="https://tabbyml.github.io/weight-space-playground/">Hacker News AI</source>
 <category>权重空间编程</category>
 <category>推理死循环</category>
@@ -156,120 +235,39 @@
 <category>Qwen</category>
 <category>模型编辑</category>
 </item>
-<item><title>ChatGPT Adds Real-Time Dictation and Removes Ten-Minute Limit</title><link>https://www.ithome.com/1/029/707.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/707.htm</guid>
+<item><title>ChatGPT 上线实时听写并取消 10 分钟限制</title><link>https://www.ithome.com/1/029/707.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/707.htm</guid>
 <pubDate>Thu, 19 Nov 2026 23:28:10 +0800</pubDate>
-<description>&lt;p&gt;OpenAI has added real-time dictation to ChatGPT, transcribing speech into text as the user talks instead of waiting for the recording to finish, and removed the previous 10-minute limit. The feature is rolling out across web, desktop, iOS and Android, with transcripts editable directly in the input box.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;ChatGPT 上线实时听写并取消 10 分钟限制&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;ChatGPT 语音输入体验的实质性升级，取消时长限制并实现边说边转写，对高频语音交互用户有直接价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 为 ChatGPT 新增“实时听写”功能，用户说话时语音同步转为文字，无需等待录音结束，并取消原有 10 分钟时长限制。该功能将陆续覆盖网页版、桌面客户端及 iOS、Android 应用，转写结果可直接在输入框编辑。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;ChatGPT 语音输入体验的实质性升级，取消时长限制并实现边说边转写，对高频语音交互用户有直接价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 42/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/029/707.htm">IT之家 · 智能时代</source>
 <category>ChatGPT</category>
 <category>语音转写</category>
 <category>OpenAI</category>
 <category>产品更新</category>
 </item>
-<item><title>Arena Shows Nine-Generation Evolution of Anthropic Opus Models</title><link>https://x.com/arena/status/2123436909120856466</link><guid isPermaLink="true">https://x.com/arena/status/2123436909120856466</guid>
+<item><title>Arena 展示 Anthropic Opus 模型九代演进对比</title><link>https://x.com/arena/status/2123436909120856466</link><guid isPermaLink="true">https://x.com/arena/status/2123436909120856466</guid>
 <pubDate>Thu, 19 Nov 2026 23:23:05 +0800</pubDate>
-<description>&lt;p&gt;Arena.ai published nine outputs generated by @petergostev from a single prompt, spanning Anthropic models from Opus 4.5 to Opus 5.5 (Max). The side-by-side comparison visualizes capability progression across model generations, though no concrete benchmarks or methodology details were disclosed.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Arena 展示 Anthropic Opus 模型九代演进对比&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以同一提示词直观呈现 Anthropic 模型多代演进，对关注模型能力迭代节奏的读者有参考价值。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Arena.ai 发布由 @petergostev 用同一提示词生成的九组输出，覆盖从 Opus 4.5 到 Opus 5.5 (Max) 的 Anthropic 模型代际。该对比以直观方式呈现模型能力随版本迭代的演进轨迹，但未披露具体评测指标或方法细节。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以同一提示词直观呈现 Anthropic 模型多代演进，对关注模型能力迭代节奏的读者有参考价值。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 38/100&lt;/p&gt;</description>
 <source url="https://x.com/arena/status/2123436909120856466">Arena.ai (@arena)</source>
 <category>Anthropic</category>
 <category>模型评测</category>
 <category>Arena</category>
 </item>
-<item><title>Nothing&#x27;s First AI Device Leaks with Screenless Recorder Design</title><link>https://www.ithome.com/1/029/705.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/705.htm</guid>
+<item><title>Nothing 首款 AI 设备曝光 无屏设计形似录音笔</title><link>https://www.ithome.com/1/029/705.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/705.htm</guid>
 <pubDate>Thu, 19 Nov 2026 23:17:24 +0800</pubDate>
-<description>&lt;p&gt;Images of Nothing&amp;#x27;s first AI device surfaced on X, showing a palm-sized, screenless gadget with dedicated record and Talk buttons plus a status light. A tipster confirmed it is the company&amp;#x27;s debut AI hardware, though its functions and launch timeline remain undisclosed.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Nothing 首款 AI 设备曝光 无屏设计形似录音笔&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Nothing 首次进入 AI 硬件赛道，外观泄露具备一定行业信号价值，但缺乏功能与参数细节。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Nothing 首款 AI 设备外观在 X 平台流出，设备无屏幕、巴掌大小，配备录音与 Talk 两个实体按键及状态指示灯。消息人士确认其为 Nothing 旗下首款 AI 设备，但具体功能与发布时间尚未公布。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Nothing 首次进入 AI 硬件赛道，外观泄露具备一定行业信号价值，但缺乏功能与参数细节。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/029/705.htm">IT之家 · 智能时代</source>
 <category>AI 硬件</category>
 <category>Nothing</category>
 <category>智能设备</category>
 </item>
-<item><title>ChatGPT Adds Live Dictation With Real-Time Transcription and No Time Limit</title><link>https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation</guid>
+<item><title>ChatGPT 上线实时听写 边说边转写并取消 10 分钟限制</title><link>https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation</guid>
 <pubDate>Thu, 19 Nov 2026 23:16:45 +0800</pubDate>
-<description>&lt;p&gt;OpenAI has launched Live Dictation in ChatGPT, transcribing speech in real time as users talk instead of waiting for recording to finish, and has removed the previous 10-minute recording cap. The feature is rolling out globally to all ChatGPT plans across web, desktop, iOS and Android, letting users tap the audio waveform to view and edit the live transcript in the prompt box.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;ChatGPT 上线实时听写 边说边转写并取消 10 分钟限制&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;ChatGPT 语音输入体验的实质性升级，覆盖全平台全套餐，直接影响日常使用效率。&lt;/p&gt;&lt;p&gt;The Verge AI · tools · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 为 ChatGPT 推出 Live Dictation 实时听写功能，可在用户说话的同时转写语音，不再等待录音结束，并取消原有 10 分钟录音时长上限。该功能已面向所有套餐的网页端、桌面端及 iOS、Android 应用全球推送，用户可点击音频波形查看实时转写文本并在输入框中编辑。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;ChatGPT 语音输入体验的实质性升级，覆盖全平台全套餐，直接影响日常使用效率。&lt;/p&gt;&lt;p&gt;The Verge AI · tools · signal 42/100&lt;/p&gt;</description>
 <source url="https://www.theverge.com/ai-artificial-intelligence/1037634/openai-chatgpt-live-dictation">The Verge AI</source>
 <category>ChatGPT</category>
 <category>语音转写</category>
 <category>OpenAI</category>
 <category>开发者工具</category>
-</item>
-<item><title>Alibaba May Cut 2032 Target of 20GW Global Data Center Capacity</title><link>https://www.ithome.com/1/029/702.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/702.htm</guid>
-<pubDate>Thu, 19 Nov 2026 23:03:58 +0800</pubDate>
-<description>&lt;p&gt;Alibaba CEO Eddie Wu said on the earnings call that sweeping changes in regional compute policies may force the company to lower its target of exceeding 20GW of global data center capacity by 2032, with capex likely reduced as well. Alibaba will instead invest more aggressively in domestic compute and supply chains, making 2027 through the first half of 2028 its largest sustained investment phase, with T-Head chips becoming the primary source of supply.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;阿里 2032 年 20GW 数据中心目标或下调&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部云厂商首次公开松口下调超大规模算力扩张目标，同时明确转向国产芯片供应链，是观察中国 AI 算力供给格局的关键信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 72/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/029/702.htm">IT之家 · 智能时代</source>
-<category>算力基础设施</category>
-<category>阿里巴巴</category>
-<category>国产芯片</category>
-<category>资本开支</category>
-</item>
-<item><title>Arena Launches Coding Index to Rank Agents on Real Coding Work</title><link>https://x.com/arena/status/2123431957308871030</link><guid isPermaLink="true">https://x.com/arena/status/2123431957308871030</guid>
-<pubDate>Thu, 19 Nov 2026 23:03:24 +0800</pubDate>
-<description>&lt;p&gt;Arena.ai introduced its Coding Index, a benchmark measuring how well agents perform on real coding work. OpenAI&amp;#x27;s GPT-6.2 Astra (Max) scored 1338 points at #3 on the index, up 50 points from its predecessor while cutting median cost per task by 62% to $4.75, landing on the cost Pareto frontier. Its overall Agent Arena Index score was 1291 points at #6.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Arena 推出编程指数 评测智能体真实编码能力&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;新增一个面向真实编码任务的智能体评测维度，并给出头部模型的具体分数与成本对比，对关注智能体选型的读者有参考价值。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · agent · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/arena/status/2123431957308871030">Arena.ai (@arena)</source>
-<category>智能体评测</category>
-<category>Arena</category>
-<category>OpenAI</category>
-<category>基准测试</category>
-</item>
-<item><title>Anthropic IPO Tests AI Circular Financing as Supplier Stakes Near $308B</title><link>https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/</guid>
-<pubDate>Thu, 19 Nov 2026 22:54:39 +0800</pubDate>
-<description>&lt;p&gt;Anthropic&amp;#x27;s IPO arrives on public markets with infrastructure backers Amazon and Google holding stakes worth roughly $307.9 billion at the $83 per-share price. Nvidia, AMD, Microsoft, Broadcom, Micron and TSMC also joined a $26 billion private placement at the IPO price. The listing becomes a key test of AI&amp;#x27;s circular financing model, in which suppliers fund customers who then buy their compute.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 上市 供应商股东回报超 3000 亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 头部模型公司 IPO 叠加供应商股东巨额回报，是观察 AI 循环融资与算力资本结构的关键产业事件。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/19/anthropics-ipo-puts-ais-circular-financing-boom-to-the-test/">TechCrunch AI</source>
-<category>IPO</category>
-<category>循环融资</category>
-<category>算力基础设施</category>
-<category>Anthropic</category>
-</item>
-<item><title>微软 Agent Framework 遭供应链投毒 恶意版本存活 31 分钟</title><link>https://www.ithome.com/1/029/700.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/700.htm</guid>
-<pubDate>Thu, 19 Nov 2026 22:47:41 +0800</pubDate>
-<description>&lt;p&gt;微软官方 PyPI 包 Agent Framework 于 11 月 17 日遭劫持，攻击者先后发布 1.26.1 与 1.26.2 两个恶意版本，植入窃取 Azure、AWS、GitHub、OpenAI 等凭据与云令牌的代码，并在 Python 启动时自动执行。PyPI 在 31 分钟内隔离首个恶意版本，第二个版本 8 分钟后被清除，但尚不清楚是否已造成开发者信息泄露。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流 AI 智能体开发框架遭供应链投毒，直接威胁开发者云凭据安全，具备高警示与实操价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · opensource · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/029/700.htm">IT之家 · 智能时代</source>
-<category>供应链安全</category>
-<category>开源生态</category>
-<category>AI 智能体</category>
-<category>PyPI</category>
-</item>
-<item><title>Deepnote 推出应用托管 让氛围编程产物接入企业数据</title><link>https://x.com/rohanpaul_ai/status/2123425817242071118</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123425817242071118</guid>
-<pubDate>Thu, 19 Nov 2026 22:39:00 +0800</pubDate>
-<description>&lt;p&gt;Deepnote 发布 Apps 功能，可将用户在 Claude Code、Codex 或 ChatGPT 中氛围编程生成的内部仪表盘托管为可共享应用，后端由连接企业数据源的 Deepnote notebook 驱动。与一次性聊天快照不同，应用数据保持实时、版本留存，同事凭链接按各自权限访问，定位类似面向内部数据应用的 Vercel。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;它切中了氛围编程产物难以落地共享的真实痛点，给出带数据连接与权限的托管方案。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · tools · signal 62/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2123425817242071118">Rohan Paul (@rohanpaul_ai)</source>
-<category>开发者工具</category>
-<category>氛围编程</category>
-<category>数据应用</category>
-<category>Deepnote</category>
-</item>
-<item><title>谷歌联手蓝色起源 2029 年发射 TPU 算力卫星</title><link>https://www.ithome.com/1/029/695.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/695.htm</guid>
-<pubDate>Thu, 19 Nov 2026 22:26:06 +0800</pubDate>
-<description>&lt;p&gt;谷歌与蓝色起源达成合作，计划于 2029 年第一季度用新格伦火箭发射搭载谷歌 TPU 的卫星，单星算力约相当于一个数据中心机架，属于谷歌“太阳捕手计划”探索太空 AI 数据中心的一环。此前谷歌已在今年 10 月部署首颗 AI 服务器卫星并成功启动 TPU，在轨运行 Gemma 4 模型生成俳句回传地球。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是把 AI 算力基础设施推向太空的关键一步，涉及 TPU 在轨运行与发射时间表等硬信息。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 72/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/029/695.htm">IT之家 · 智能时代</source>
-<category>算力基础设施</category>
-<category>太空数据中心</category>
-<category>谷歌</category>
-<category>蓝色起源</category>
-<category>TPU</category>
-</item>
-<item><title>Anthropic 上市募资 813 亿美元 估值 1.5 万亿</title><link>https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure</guid>
-<pubDate>Thu, 19 Nov 2026 22:25:37 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 完成史上最大规模 IPO，募资 813 亿美元，超越 SpaceX 成为最高估值新股，完全稀释市值约 1.5 万亿美元。文章指出，这家以安全优先立身的实验室正面临使命与资本压力的正面冲突：其特殊治理结构使管理层几乎不受股东约束，而上市后对盈利与速度的诉求可能侵蚀其“好人”声誉。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;史上最大 IPO 落地，直接改写 AI 实验室资本化路径与安全治理叙事。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.theverge.com/ai-artificial-intelligence/1037459/anthropic-ipo-safe-ai-reputation-power-structure">The Verge AI</source>
-<category>Anthropic</category>
-<category>IPO</category>
-<category>AI 治理</category>
-<category>融资</category>
-</item>
-<item><title>Anthropic 上市募资 813 亿美元 刷新 IPO 纪录</title><link>https://the-decoder.com/anthropics-81-3-billion-ipo-shatters-spacexs-record-as-rising-rates-and-political-headwinds-shake-the-sector/</link><guid isPermaLink="true">https://the-decoder.com/anthropics-81-3-billion-ipo-shatters-spacexs-record-as-rising-rates-and-political-headwinds-shake-the-sector/</guid>
-<pubDate>Thu, 19 Nov 2026 22:02:22 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 以每股 83 美元完成 IPO，募资 813 亿美元，超越 SpaceX 成为史上最大规模 IPO，市值最高达 1.5 万亿美元。Claude Code 驱动 2026 年前九个月营收达 332.4 亿美元，但净亏损因负债重估扩大至 1040 亿美元。早期投资人 Dustin Moskovitz 公开与此次 IPO 保持距离，警示不受约束的竞争与自主智能体安全风险。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;史上最大规模 IPO 落地，叠加 Claude Code 商业化数据与安全派投资人公开异议，是 AI 产业资本化进程的关键节点。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 88/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/anthropics-81-3-billion-ipo-shatters-spacexs-record-as-rising-rates-and-political-headwinds-shake-the-sector/">The Decoder</source>
-<category>融资上市</category>
-<category>Anthropic</category>
-<category>Claude Code</category>
-<category>AI 安全</category>
-</item>
-<item><title>Superhuman 将 Go 助手扩展至全产品线</title><link>https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/</guid>
-<pubDate>Thu, 19 Nov 2026 22:00:00 +0800</pubDate>
-<description>&lt;p&gt;Superhuman（原 Grammarly）将 Go 助手从单一写作场景扩展为贯穿全产品的个性化智能体，支持跨应用上下文学习、Docs 内嵌代理以及第三方代理集成。该助手以光标内联方式工作，并可主动监控日程与邮件，公司同时重构引导流程以便用户预先接入工具与工作上下文。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;生产力工具厂商将 AI 助手升级为跨应用主动式智能体，反映办公场景代理化竞争的新动向。&lt;/p&gt;&lt;p&gt;TechCrunch AI · tools · signal 42/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/19/superhuman-pushes-its-go-assistant-everywhere/">TechCrunch AI</source>
-<category>智能体</category>
-<category>生产力工具</category>
-<category>Superhuman</category>
 </item>
 </channel>
 </rss>
