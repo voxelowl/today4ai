@@ -12,6 +12,14 @@
 <category>育碧</category>
 <category>组织调整</category>
 </item>
+<item><title>OpenSSL Warns of Critical Buffer Overflow Flaw in EVP_EncodeBlock</title><link>https://github.com/openssl/openssl/pull/33652</link><guid isPermaLink="true">https://github.com/openssl/openssl/pull/33652</guid>
+<pubDate>Fri, 20 Nov 2026 10:01:09 +0800</pubDate>
+<description>&lt;p&gt;The OpenSSL project disclosed a buffer overflow in the EVP_EncodeBlock() function tracked as CVE-2026-121481, carrying a maximum-severity CVSS score of 9.8. The flaw sits in libcrypto, the cryptographic library underpinning OpenSSL&amp;#x27;s TLS, DTLS and QUIC implementations, giving it broad exposure across servers and clients that rely on OpenSSL.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenSSL 曝 9.8 分缓冲区溢出漏洞&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;最高危级别的基础设施安全漏洞，直接影响几乎所有依赖 OpenSSL 的 AI 服务与推理集群。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
+<source url="https://github.com/openssl/openssl/pull/33652">Hacker News AI</source>
+<category>OpenSSL</category>
+<category>安全漏洞</category>
+<category>开源基础设施</category>
+</item>
 <item><title>Micron Says 75% of 2027 Memory Chip Output Already Sold</title><link>https://www.ithome.com/1/029/786.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/786.htm</guid>
 <pubDate>Fri, 20 Nov 2026 09:25:21 +0800</pubDate>
 <description>&lt;p&gt;Micron CEO Sanjay Mehrotra said 75% of the company&amp;#x27;s 2027 memory chip inventory is already sold, with supply-demand tightness expected to exceed 2026 and persist into 2028. Micron has signed 26 strategic customer agreements backed by $32 billion in upfront cash and financial commitments, while betting on 3D DRAM to gain traction in 2028-2029 and scale in 2030-2031.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美光 2027 年存储芯片 75% 库存已售罄&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;存储芯片供需持续收紧直接决定 AI 算力成本与供给节奏，75% 预售比例是判断 2027 年硬件周期的关键信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 78/100&lt;/p&gt;</description>
@@ -39,6 +47,15 @@
 <category>MCP</category>
 <category>成本优化</category>
 <category>Uber</category>
+</item>
+<item><title>Huawei Cloud Launches Ascend-Native Embodied World Model CloudRobo-WM1.2</title><link>https://www.qbitai.com/2026/11/511426.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/511426.html</guid>
+<pubDate>Fri, 20 Nov 2026 09:07:38 +0800</pubDate>
+<description>&lt;p&gt;Huawei Cloud released CloudRobo-WM1.2, an Ascend-native embodied world model, alongside its one-stop CloudRobo development platform that bundles compute, simulation and real-robot adaptation. The pitch is that embodied AI teams should not rebuild the same infrastructure from scratch, backed by partner funding of up to RMB 2 million and 230+ enterprise and university partners in five months.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;华为云发布昇腾原生具身世界模型 CloudRobo-WM1.2&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产算力厂商切入具身智能底层工程栈，并给出具体平台与生态投入，对关注具身智能落地路径的读者有参考价值。&lt;/p&gt;&lt;p&gt;量子位官网 · compute · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.qbitai.com/2026/11/511426.html">量子位官网</source>
+<category>具身智能</category>
+<category>华为云</category>
+<category>算力基础设施</category>
+<category>世界模型</category>
 </item>
 <item><title>LLMs Generate 3D Scenes as Code to Challenge Video Models</title><link>https://x.com/ArtificialAnlys/status/2123581865965855205</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2123581865965855205</guid>
 <pubDate>Fri, 20 Nov 2026 08:59:05 +0800</pubDate>
@@ -193,18 +210,18 @@
 <category>腾讯</category>
 <category>AI 助手</category>
 </item>
-<item><title>Anthropic Files for IPO as Dario Amodei Charts AI Mission</title><link>https://x.com/dotey/status/2123556264772874346</link><guid isPermaLink="true">https://x.com/dotey/status/2123556264772874346</guid>
+<item><title>Anthropic 启动 IPO，Dario Amodei 发布上市致辞</title><link>https://x.com/dotey/status/2123556264772874346</link><guid isPermaLink="true">https://x.com/dotey/status/2123556264772874346</guid>
 <pubDate>Fri, 20 Nov 2026 07:17:21 +0800</pubDate>
-<description>&lt;p&gt;Anthropic has kicked off its initial public offering, with CEO Dario Amodei framing the listing around AI&amp;#x27;s potential to compress a century of scientific and medical progress into a decade. He also reiterated the company&amp;#x27;s candor on misuse, economic disruption and loss-of-control risks, marking the first time a frontier model developer enters public markets.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 启动 IPO，Dario Amodei 发布上市致辞&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部大模型公司首次 IPO，是 AI 产业资本化与治理演进的标志性节点。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 正式启动首次公开募股，CEO Dario Amodei 发表上市致辞，强调以 AI 加速科学与医学进步为核心使命，并重申对滥用、经济冲击与失控等现实风险的坦诚态度。这是头部大模型公司首次进入公开资本市场，标志 AI 产业商业化与治理进入新阶段。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部大模型公司首次 IPO，是 AI 产业资本化与治理演进的标志性节点。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/dotey/status/2123556264772874346">宝玉 (@dotey)</source>
 <category>Anthropic</category>
 <category>IPO</category>
 <category>AI 治理</category>
 <category>产业融资</category>
 </item>
-<item><title>Ex-Anthropic Researcher Predicts 80% Cognitive Labor Automation by 2028</title><link>https://x.com/rohanpaul_ai/status/2123553626509791647</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123553626509791647</guid>
+<item><title>前 Anthropic 研究员预测 2028 年 80% 认知劳动自动化</title><link>https://x.com/rohanpaul_ai/status/2123553626509791647</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123553626509791647</guid>
 <pubDate>Fri, 20 Nov 2026 07:06:52 +0800</pubDate>
-<description>&lt;p&gt;Jacob Coxon, a former Anthropic and OpenAI researcher, predicted at Y Combinator&amp;#x27;s first debate that 80% of cognitive labor will be automated by the end of 2028, framing it as task-level rather than job-level replacement. His extrapolation rests on Anthropic&amp;#x27;s reported 26% automation rate in core research, a single internal metric rather than systematic evidence.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;前 Anthropic 研究员预测 2028 年 80% 认知劳动自动化&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自前沿实验室核心研究者的激进时间线判断，可作为观察 AI 自动化叙事与行业预期的参考信号。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;前 Anthropic 与 OpenAI 研究员 Jacob Coxon 在 Y Combinator 首场辩论中预测，到 2028 年底 80% 的认知劳动将被自动化，并强调这是劳动任务而非岗位的整体替代。其推算依据是 Anthropic 当前核心研究自动化率已达 26%，属于基于单一内部指标的外推判断，尚无系统性数据支撑。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自前沿实验室核心研究者的激进时间线判断，可作为观察 AI 自动化叙事与行业预期的参考信号。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 42/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2123553626509791647">Rohan Paul (@rohanpaul_ai)</source>
 <category>行业预测</category>
 <category>AI 自动化</category>
@@ -253,24 +270,6 @@
 <category>智能体</category>
 <category>苹果</category>
 <category>AI 战略</category>
-</item>
-<item><title>Kong 推出 Volcano 智能体云平台</title><link>https://x.com/rohanpaul_ai/status/2123543493033484787</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123543493033484787</guid>
-<pubDate>Fri, 20 Nov 2026 06:26:36 +0800</pubDate>
-<description>&lt;p&gt;Kong 发布面向 AI 智能体的云平台 Volcano，内置托管、Postgres、登录、存储、沙箱与长时运行工作流，可直接部署 Claude Code、Cursor 或 Codex 构建的智能体。其核心组件 LavaFlow 会监控线上应用与代码库，定位故障原因并通过 GitHub 提交修复补丁，实现自愈式运维。该平台针对智能体长时间运行、等待人工介入、中途失败等传统托管难以覆盖的场景设计。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Kong 将智能体长时运行与自愈修复能力打包为云基础设施，代表托管范式从请求级向智能体级的迁移。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2123543493033484787">Rohan Paul (@rohanpaul_ai)</source>
-<category>智能体</category>
-<category>云平台</category>
-<category>Kong</category>
-<category>自愈运维</category>
-</item>
-<item><title>宝马集团如何治理数千开发者使用的数百个智能体</title><link>https://aws.amazon.com/blogs/machine-learning/how-the-bmw-group-governs-hundreds-of-agents-across-thousands-of-developers/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/how-the-bmw-group-governs-hundreds-of-agents-across-thousands-of-developers/</guid>
-<pubDate>Fri, 20 Nov 2026 06:20:23 +0800</pubDate>
-<description>&lt;p&gt;宝马集团研发部门在 12500 名开发者、约 5 亿行车载代码与 1300 余个微服务的规模下，分享了企业级智能体治理实践。其核心矛盾在于开发团队的快速创新自由与企业对安全、合规、可组合性和成本效率的统一管控之间的平衡，否则将形成碎片化的 AI 孤岛。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自受监管车企的一线规模化智能体治理经验，对推进企业级 Agent 落地的团队具有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 62/100&lt;/p&gt;</description>
-<source url="https://aws.amazon.com/blogs/machine-learning/how-the-bmw-group-governs-hundreds-of-agents-across-thousands-of-developers/">AWS Machine Learning Blog</source>
-<category>智能体</category>
-<category>企业治理</category>
-<category>汽车软件</category>
-<category>AI 平台</category>
 </item>
 </channel>
 </rss>
