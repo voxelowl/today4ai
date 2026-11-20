@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 21 Nov 2026 05:48:34 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 21 Nov 2026 05:58:29 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Google Search Homepage Redesign Drops Search Button and Adds AI Sidebar</title><link>https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/</link><guid isPermaLink="true">https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/</guid>
+<pubDate>Sat, 21 Nov 2026 05:58:29 +0800</pubDate>
+<description>&lt;p&gt;Google has officially rolled out a redesigned desktop search homepage, removing the long-standing dedicated search button and adding AI entry points for image generation, file analysis, and Gemini brainstorming below the search bar. Search VP Robby Stein confirmed the full deployment after weeks of testing, marking a shift of the homepage from a traditional retrieval entry to an AI interaction hub.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌搜索主页改版 移除搜索按钮并新增 AI 侧栏&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;谷歌搜索首页正式改版并移除搜索按钮，是搜索产品形态向 AI 交互迁移的明确信号，值得关注。&lt;/p&gt;&lt;p&gt;Ars Technica AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/">Ars Technica AI</source>
+<category>谷歌搜索</category>
+<category>Gemini</category>
+<category>AI 产品</category>
+<category>界面改版</category>
+</item>
 <item><title>Nace Launches Drex Router with Sub-90ms Model Selection</title><link>https://x.com/rohanpaul_ai/status/2123896307811246550</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123896307811246550</guid>
 <pubDate>Sat, 21 Nov 2026 05:48:34 +0800</pubDate>
 <description>&lt;p&gt;Nace AI released Drex Router, a 12B Gemma-based model that reads a prompt and a candidate model list to return a pick, per-candidate probabilities and a short rationale in 57-87 ms. On 1,400 general-knowledge exam questions it scored 87.6% at $0.10 per 1,000 questions, versus Jev Router&amp;#x27;s 86.4% at $1.09.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Nace 推出 12B 模型路由器 Drex 延迟低于 90 ms&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;低成本低延迟的模型路由方案，为 Agent 多模型调度提供了可量化的新选择。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · tools · signal 62/100&lt;/p&gt;</description>
@@ -11,6 +20,24 @@
 <category>Agent</category>
 <category>Nace AI</category>
 <category>推理成本</category>
+</item>
+<item><title>Meta Reconsiders 2030 Net-Zero Goal as AI Data Center Emissions Surge</title><link>https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/</link><guid isPermaLink="true">https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/</guid>
+<pubDate>Sat, 21 Nov 2026 05:47:10 +0800</pubDate>
+<description>&lt;p&gt;In its 2026 sustainability report, Meta acknowledged it is re-evaluating the 2030 timeline and interim milestones for its net-zero emissions goal, citing AI infrastructure demand that has grown faster than almost anyone projected. The company posted a record percentage increase in greenhouse gas emissions, outpacing every other Big Tech peer, while insisting its long-term ambitions remain unchanged.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 因 AI 数据中心排放激增重估 2030 净零目标&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 算力扩张与气候承诺正面冲突的标志性事件，头部厂商首次公开松动净零时间表，对理解 AI 基础设施成本具有行业风向意义。&lt;/p&gt;&lt;p&gt;Ars Technica AI · industry · signal 72/100&lt;/p&gt;</description>
+<source url="https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/">Ars Technica AI</source>
+<category>AI 数据中心</category>
+<category>净零排放</category>
+<category>Meta</category>
+<category>算力基础设施</category>
+</item>
+<item><title>HeyGen Decision 1 Goes Live on OpenRouter for Multimodal Probability Scoring</title><link>https://x.com/OpenRouter/status/2123893458318614941</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2123893458318614941</guid>
+<pubDate>Sat, 21 Nov 2026 05:37:15 +0800</pubDate>
+<description>&lt;p&gt;HeyGen&amp;#x27;s Decision 1 is now live on OpenRouter, accepting video, audio, image and text in a single request and returning a calibrated probability for each question, such as whether a selfie video matches an ID photo or is a live capture. It handles up to 400 questions per call at roughly 100 ms latency, with input pricing at 50% off through December 1.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;HeyGen Decision 1 上线 OpenRouter 支持多模态概率判定&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;多模态概率判定模型接入主流聚合平台，为身份核验与内容审核提供了可直接调用的新工具。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · tools · signal 62/100&lt;/p&gt;</description>
+<source url="https://x.com/OpenRouter/status/2123893458318614941">OpenRouter (@OpenRouter)</source>
+<category>多模态模型</category>
+<category>HeyGen</category>
+<category>OpenRouter</category>
+<category>身份核验</category>
 </item>
 <item><title>OpenAI Releases MedChemBench Medicinal Chemistry Benchmark</title><link>https://x.com/rohanpaul_ai/status/2123888611678646426</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123888611678646426</guid>
 <pubDate>Sat, 21 Nov 2026 05:17:59 +0800</pubDate>
@@ -202,27 +229,27 @@
 <category>跨平台运行</category>
 <category>开源项目</category>
 </item>
-<item><title>GrapheneOS Accuses Google of Pressuring OEMs and Threatening Pixel Bootloader Lockdown</title><link>https://www.androidauthority.com/grapheneos-team-google-pressure-3737525/</link><guid isPermaLink="true">https://www.androidauthority.com/grapheneos-team-google-pressure-3737525/</guid>
+<item><title>GrapheneOS 指控 Google 施压 OEM 并威胁锁死 Pixel 引导程序</title><link>https://www.androidauthority.com/grapheneos-team-google-pressure-3737525/</link><guid isPermaLink="true">https://www.androidauthority.com/grapheneos-team-google-pressure-3737525/</guid>
 <pubDate>Sat, 21 Nov 2026 03:21:49 +0800</pubDate>
-<description>&lt;p&gt;The GrapheneOS team has publicly accused Google of trying to harm and wipe out the project, alleging that Google contacted Android OEMs to ask whether they work with GrapheneOS and threatened those brands. The team also warned that Google could start locking the bootloader on Pixel devices, cutting off third-party ROM flashing. All claims currently come from GrapheneOS alone, with no formal response from Google.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;GrapheneOS 指控 Google 施压 OEM 并威胁锁死 Pixel 引导程序&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及 Android 生态开放性与定制系统生存空间，对关注移动端开源与平台治理的读者有实质参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;GrapheneOS 团队公开指控 Google 正试图打压并消灭该项目，称 Google 已联系多家 Android OEM，询问其是否与 GrapheneOS 合作并施加威胁。团队还警告 Google 可能对 Pixel 设备锁死引导程序，从而切断第三方系统的刷机路径。目前相关指控均来自 GrapheneOS 一方，Google 尚未给出正式回应。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及 Android 生态开放性与定制系统生存空间，对关注移动端开源与平台治理的读者有实质参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.androidauthority.com/grapheneos-team-google-pressure-3737525/">Hacker News AI</source>
 <category>GrapheneOS</category>
 <category>Google</category>
 <category>Android</category>
 <category>开源生态</category>
 </item>
-<item><title>Google Gemini Adds Background Computer Use on Mac</title><link>https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/</link><guid isPermaLink="true">https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/</guid>
+<item><title>Gemini 上线 Mac 后台电脑操作功能</title><link>https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/</link><guid isPermaLink="true">https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/</guid>
 <pubDate>Sat, 21 Nov 2026 02:50:31 +0800</pubDate>
-<description>&lt;p&gt;Google has launched a Computer Use feature in the Gemini Mac app that lets users describe a goal and have Gemini complete multistep tasks across local files, desktop apps, and websites inside an isolated background window, keeping the screen and cursor free. It rolls out in English in the US today, with per-app permissions, live step previews, pause controls, and pre-approval for key actions.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Gemini 上线 Mac 后台电脑操作功能&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是桌面端智能体落地的关键一步，后台隔离执行与权限审批机制为 Computer Use 类产品提供了可参考的工程范式。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Google 在 Gemini Mac 应用中推出 Computer Use 功能，用户只需描述目标，Gemini 即可在隔离的后台窗口中跨本地文件、桌面应用与网页完成多步骤任务，同时保持屏幕与光标可用。该功能今日以英文在美国上线，支持应用级权限选择、实时步骤预览、随时暂停与关键操作预审批。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是桌面端智能体落地的关键一步，后台隔离执行与权限审批机制为 Computer Use 类产品提供了可参考的工程范式。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 78/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/">The Decoder</source>
 <category>智能体</category>
 <category>Google</category>
 <category>Computer Use</category>
 <category>桌面自动化</category>
 </item>
-<item><title>Trump Threatens Heavy Tax on Overseas AI Data Centers</title><link>https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax</link><guid isPermaLink="true">https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax</guid>
+<item><title>特朗普威胁对海外建数据中心征收重税</title><link>https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax</link><guid isPermaLink="true">https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax</guid>
 <pubDate>Sat, 21 Nov 2026 02:50:19 +0800</pubDate>
-<description>&lt;p&gt;At a press conference following summits with Xi Jinping and Vladimir Putin, Trump publicly floated, for the first time, a \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;特朗普威胁对海外建数据中心征收重税&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;算力基础设施布局直接受美国政策风向影响，该表态虽细节缺失但涉及全球数据中心选址与 AI 基建成本结构。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;特朗普在中俄峰会后的记者会上首次公开提出，将对在美国境外建设数据中心的公司征收“巨额税收”，并称若放任外建“中国会把它们全部拿走”。该表态缺乏具体税率、法律依据与执行路径，且与美国多州、市正在收紧数据中心审批的现实相冲突，落地难度大。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;算力基础设施布局直接受美国政策风向影响，该表态虽细节缺失但涉及全球数据中心选址与 AI 基建成本结构。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax">The Verge AI</source>
 <category>数据中心</category>
 <category>算力基础设施</category>
@@ -246,32 +273,6 @@
 <category>FPGA</category>
 <category>编码代理</category>
 <category>硬件开发</category>
-</item>
-<item><title>METR 更新 AI 任务时长图 新增开放式任务评估</title><link>https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/</link><guid isPermaLink="true">https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/</guid>
-<pubDate>Sat, 21 Nov 2026 02:15:15 +0800</pubDate>
-<description>&lt;p&gt;AI 评估非营利机构 METR 更新其广受关注的“任务时长”曲线，新增耗时更长与更开放式的任务，结果显示前沿模型可完成任务的时长仍约每四个月翻倍，但在需要判断力的任务上表现弱于编程。报告同时强调，开放式任务评估尚不足以回答自动化 AI 研发是否会到来、以及有多快到来。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;METR 任务时长曲线是衡量 AI 能力进展的关键标尺，此次更新引入开放式任务，直接影响对自动化研发时间表的判断。&lt;/p&gt;&lt;p&gt;MIT Technology Review · llm · signal 72/100&lt;/p&gt;</description>
-<source url="https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/">MIT Technology Review</source>
-<category>AI 评估</category>
-<category>METR</category>
-<category>任务时长</category>
-<category>前沿模型</category>
-</item>
-<item><title>Perceptron 开源 360 亿参数机器人模型检查点</title><link>https://x.com/rohanpaul_ai/status/2123838152754491595</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123838152754491595</guid>
-<pubDate>Sat, 21 Nov 2026 01:57:29 +0800</pubDate>
-<description>&lt;p&gt;Perceptron AI 在 Hugging Face 与 LeRobot 上发布了 360 亿参数机器人模型的即用型检查点，每个检查点已针对特定机械臂完成微调。用户下载匹配检查点后即可用纯文本指令驱动机器人，并可进一步微调适配自有任务。这标志着机器人领域开始形成类似语言模型的预训练检查点生态。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;机器人领域首次出现大规模参数模型的开箱即用检查点分发，直接复用语言模型的生态模式，对具身智能开发者有实际可用价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · opensource · signal 72/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2123838152754491595">Rohan Paul (@rohanpaul_ai)</source>
-<category>具身智能</category>
-<category>开源模型</category>
-<category>机器人</category>
-<category>Hugging Face</category>
-</item>
-<item><title>Arena 对齐指数更新 OpenAI 包揽前七</title><link>https://x.com/arena/status/2123835034532729205</link><guid isPermaLink="true">https://x.com/arena/status/2123835034532729205</guid>
-<pubDate>Sat, 21 Nov 2026 01:45:05 +0800</pubDate>
-<description>&lt;p&gt;Arena.ai 更新对齐指数（Alignment Index），改进对模型失效信号的检测方法并扩大覆盖范围。新榜单中 OpenAI 包揽前七名，Anthropic 新发布的 Claude Fable 5.2 以 78.2 分位列第 8，Kimi K3.1 Pro 成为排名最高的开源模型（第 9）。该指数从越权操作、虚假完成、错误归因三个维度衡量智能体在真实用户会话中的行为表现。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个以真实会话行为衡量智能体对齐的公开榜单更新，为模型选型提供行为安全维度的参考。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 74/100&lt;/p&gt;</description>
-<source url="https://x.com/arena/status/2123835034532729205">Arena.ai (@arena)</source>
-<category>模型评测</category>
-<category>智能体对齐</category>
-<category>Arena.ai</category>
 </item>
 </channel>
 </rss>
