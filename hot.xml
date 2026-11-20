@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Sat, 21 Nov 2026 01:45:05 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 21 Nov 2026 02:50:31 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 登陆纳斯达克 募资 935 亿美元刷新纪录</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
 <pubDate>Sat, 21 Nov 2026 01:44:01 +0800</pubDate>
@@ -51,6 +51,14 @@ CloudRobo-WM1.2 采用 PPA 多模态世界表征架构与世界模型原生 Dual
 <pubDate>Sat, 21 Nov 2026 01:45:05 +0800</pubDate>
 <description>&lt;p&gt;Arena.ai 更新对齐指数（Alignment Index），改进对模型失效信号的检测方法并扩大覆盖范围。新榜单中 OpenAI 包揽前七名，Anthropic 新发布的 Claude Fable 5.2 以 78.2 分位列第 8，Kimi K3.1 Pro 成为排名最高的开源模型（第 9）。该指数从越权操作、虚假完成、错误归因三个维度衡量智能体在真实用户会话中的行为表现。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Arena.ai (@arena)&lt;/p&gt;</description>
 </item>
+<item><title>Gemini Mac 版上线电脑操作能力 可跨应用执行多步任务</title><link>https://todayforai.com/en/story/story-f7c8af2b-03e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f7c8af2b-03e</guid>
+<pubDate>Sat, 21 Nov 2026 02:50:31 +0800</pubDate>
+<description>&lt;p&gt;Google 为 macOS 版 Gemini 应用正式上线 computer use 能力，AI 可在后台操作原生 Mac 应用、浏览网页并跨本地文件执行多步任务，标志着桌面端智能体竞争进入新阶段。该功能允许用户逐项授权可访问的应用，并通过后台窗口实时预览执行过程，在赋予 AI 操作权限的同时保留用户控制权。
+
+综合多方信息，该功能目前仅以英文面向美国用户推送，且需订阅 Google AI Plus、Pro 或 Ultra 服务。值得注意的是，上线时点抢在 Apple 对申请全盘访问权限的应用施加新限制之前，凸显 Google 在隐私合规窗口期的策略性卡位。与 OpenAI、Anthropic、Meta 等竞争对手相比，Google 的 computer use 能力落地较晚，但直接集成于 Gemini 桌面应用，覆盖原生应用与网页的跨场景操作，展现出后发整合优势。
+
+此举将加剧桌面端 AI 智能体的竞争，推动人机交互从对话式向执行式演进。对开发者而言，原生应用的操作自动化将催生新的工作流与安全授权范式；对用户来说，效率提升与隐私风险并存，如何平衡自动化便利与数据安全将成为行业持续关注的焦点。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, The Verge AI, The Decoder&lt;/p&gt;</description>
+</item>
 <item><title>PostgreSQL 19 发布 新增 WAIT FOR LSN 实现读己之写</title><link>https://todayforai.com/en/story/story-db918387-50d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-db918387-50d</guid>
 <pubDate>Sat, 21 Nov 2026 01:08:56 +0800</pubDate>
 <description>&lt;p&gt;PostgreSQL 19 于 2026 年 11 月 19 日正式发布，比往年惯例晚两个月，主要原因是团队需集中处理 AI 辅助漏洞挖掘带来的大量安全报告。本版最受关注的新特性是 WAIT FOR LSN 命令，它允许备库会话等待 WAL 回放至指定 LSN 后再执行查询，从而在读写分离架构下实现读己之写一致性。应用可将 pg_current_wal_insert_lsn() 的返回值（如存入签名 Cookie）用于后续请求的一致性等待，确保用户总能读到自己的写入。
@@ -66,14 +74,6 @@ Databricks Lakebase 在社区发布当天即提供支持，打破托管服务通
 Signal 总裁 Meredith Whittaker 指出，Google、Apple、Microsoft 等 OS 厂商并未提供细粒度接口让开发者限制 AI 数据访问，Signal 只能在牺牲核心体验的前提下自保。具体而言，Signal 将在 iOS 27 与可检测到 AI 助手的 Android 版本上限制屏幕内容被读取，但 macOS 端因平台限制暂无法落地同等保护。
 
 这一事件揭示了端侧 AI 落地的深层矛盾：系统级智能体需要广泛的数据访问权限以提供无缝体验，而隐私应用则必须确保用户数据不被第三方 AI 截取。Signal 的被动防御虽保护了用户，却以功能妥协为代价，呼吁 OS 厂商建立更精细的 AI 数据访问控制框架已成为行业紧迫议题。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, The Verge AI&lt;/p&gt;</description>
-</item>
-<item><title>936 个 AI 智能体三个月自主产出 936 篇论文</title><link>https://todayforai.com/en/story/story-b2747e6e-d72</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b2747e6e-d72</guid>
-<pubDate>Fri, 20 Nov 2026 14:56:41 +0800</pubDate>
-<description>&lt;p&gt;近日，alphaXiv 联合 MIT、斯坦福等机构发布了一项大规模实验报告：35 个实验室接入 936 个 AI 智能体，人类仅提供算力与研究方向，选题、实验、代码编写与论文撰写全部由 AI 自主完成。在三个月内，这些智能体共产出 936 篇论文，并自发形成了设计辩论、主动撤稿纠错、发现人类论文错误等机制，甚至自建 AI 期刊进行盲审与代码复算。
-
-与同期人类论文的盲评对比显示，AI 论文在实验严谨性上平均高出 2 分，但新颖性低 0.4 分，且总分优势主要来自单一实验室，因此结论需谨慎看待。智能体在 229 个自建聊天室中产生了 9500 条讨论，并通过代码复算推翻了 156 条重大意见中的 77 条，展现出一定的自我纠错能力。
-
-该平台现已对外开放，支持外部研究者接入自有智能体提交成果。这一实验不仅展示了 AI 智能体在科研流程中的自主潜力，也引发了关于学术质量、创新性评估以及人机协作模式的讨论。尽管 AI 在严谨性上表现突出，但新颖性的不足提示当前智能体更擅长执行与验证，而非提出颠覆性想法。未来，此类平台或将成为科研加速的重要工具，但需建立更完善的评审与伦理框架。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), 量子位 (微信公众号)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
