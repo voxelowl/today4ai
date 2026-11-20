@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Fri, 20 Nov 2026 14:15:40 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 20 Nov 2026 15:02:07 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Google Engineer Runs 270M-Parameter Model on a Printer</title><link>https://www.ithome.com/1/029/953.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/953.htm</guid>
+<pubDate>Fri, 20 Nov 2026 15:02:07 +0800</pubDate>
+<description>&lt;p&gt;Google DeepMind team member Omar Sanseviero demonstrated an extreme experiment: without modifying firmware or adding external compute boards, a printer&amp;#x27;s built-in PostScript interpreter was used to run inference on a quantized Gemma 3 270M model, peaking at roughly 14.1MB of memory. The setup uses dynamic layer loading, swapping 18 Transformer layers in and out of memory, at a cost of about 60 seconds per generated token. The value lies in probing on-device inference under extreme memory constraints rather than practical performance.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌工程师让打印机运行 2.7 亿参数模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以极端内存约束验证端侧推理边界，对关注量化与低资源部署的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/029/953.htm">IT之家 · 智能时代</source>
+<category>端侧推理</category>
+<category>模型量化</category>
+<category>Gemma</category>
+<category>PostScript</category>
+</item>
 <item><title>Nvidia in Talks to Acquire Diffusion LLM Startup Inception for Over $500M</title><link>https://www.ithome.com/1/029/886.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/886.htm</guid>
 <pubDate>Fri, 20 Nov 2026 14:15:40 +0800</pubDate>
 <description>&lt;p&gt;Nvidia is in advanced talks to acquire AI startup Inception at a valuation of at least $500 million, potentially with performance-based earnouts. Founded in 2024 by Stanford, UCLA and Cornell professors, Inception builds diffusion-based large language models; its Mercury model claims sub-300ms time-to-first-token and 5-7x throughput via parallel generation. If completed, the team could join Nvidia&amp;#x27;s Nemotron open model efforts and extend diffusion techniques to robotics and physical AI.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达拟逾 5 亿美元收购扩散式大模型公司 Inception&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达以逾 5 亿美元押注非自回归的扩散式大模型路线，可能重塑推理效率与物理 AI 布局。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 78/100&lt;/p&gt;</description>
@@ -172,9 +181,9 @@
 <category>算力基础设施</category>
 <category>3D DRAM</category>
 </item>
-<item><title>OpenAI Opens dots Agent Testing to Select Plus Users</title><link>https://www.ithome.com/1/029/784.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/784.htm</guid>
+<item><title>OpenAI 向 Plus 用户开放 dots 智能体测试</title><link>https://www.ithome.com/1/029/784.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/784.htm</guid>
 <pubDate>Fri, 20 Nov 2026 09:20:21 +0800</pubDate>
-<description>&lt;p&gt;OpenAI product lead Thibault Sottiaux announced that a small group of ChatGPT Plus users is being invited to test dots, the always-on agent, while access opens to all ChatGPT Business Standard users. dots runs on its own cloud computer to plan agendas, build sites and test apps in the background within user-defined autonomy limits. Mobile ChatGPT will give dots a dedicated tab, with Codex and Projects pinnable to the bottom bar and the new design toggleable in settings.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 向 Plus 用户开放 dots 智能体测试&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 OpenAI 智能体产品从发布走向规模化测试的关键一步，且涉及移动端入口级改版，对关注 Agent 落地的读者有实质参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 68/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 核心产品负责人 Thibault Sottiaux 宣布，邀请少量 ChatGPT Plus 用户测试全天候智能体 dots，同时向所有 ChatGPT Business Standard 用户开放。dots 拥有独立云电脑，可后台规划议程、设计网站、测试应用，并按用户授权范围自主执行。移动版 ChatGPT 将为其设置独立标签页，并支持固定 Codex、Projects 等入口，新界面可随时关闭。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 OpenAI 智能体产品从发布走向规模化测试的关键一步，且涉及移动端入口级改版，对关注 Agent 落地的读者有实质参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 68/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/029/784.htm">IT之家 · 智能时代</source>
 <category>智能体</category>
 <category>OpenAI</category>
@@ -261,15 +270,6 @@
 <category>AIOps</category>
 <category>Codex</category>
 <category>多智能体</category>
-</item>
-<item><title>PostgreSQL 19 发布 同日上线 Databricks Lakebase</title><link>https://www.databricks.com/blog/postgresql-19-available-lakebase</link><guid isPermaLink="true">https://www.databricks.com/blog/postgresql-19-available-lakebase</guid>
-<pubDate>Fri, 20 Nov 2026 08:37:31 +0800</pubDate>
-<description>&lt;p&gt;PostgreSQL 19 正式 GA，Databricks Lakebase 在社区发布当天即提供支持，无需等待数周。该版本聚焦运维控制能力，新增在线 REPACK、查询计划建议与 WAIT FOR LSN 副本读己之写，逻辑复制亦有升级。Lakebase 团队多名 PostgreSQL committer 直接参与了本次发布的核心开发。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流数据库大版本同日上云，运维能力升级对后端与数据基础设施团队有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.databricks.com/blog/postgresql-19-available-lakebase">Hacker News AI</source>
-<category>PostgreSQL</category>
-<category>Databricks</category>
-<category>数据库</category>
-<category>云服务</category>
 </item>
 </channel>
 </rss>
