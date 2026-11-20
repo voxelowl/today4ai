@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Fri, 20 Nov 2026 15:13:50 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 20 Nov 2026 16:21:08 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Google Reworks TPU Supply Chain with MediaTek and Direct HBM Buying</title><link>https://www.ithome.com/1/030/066.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/066.htm</guid>
+<pubDate>Fri, 20 Nov 2026 16:21:08 +0800</pubDate>
+<description>&lt;p&gt;Google is restructuring its TPU supply chain: on some new-generation TPUs it designs the compute die itself, MediaTek handles I/O chip design, and Google buys HBM directly from memory makers, bypassing Broadcom to cut intermediary costs. Broadcom still participates in other high-end flagship TPU programs, creating a dual-track model. The move reflects hyperscalers reducing NVIDIA GPU dependence and reshaping HBM pricing dynamics.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌调整 TPU 供应链 联发科分担设计并直采 HBM&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;谷歌 TPU 供应链分工与直采 HBM 的实质调整，直接影响 AI 算力成本与存储厂商议价格局。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 72/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/030/066.htm">IT之家 · IT业界</source>
+<category>TPU</category>
+<category>HBM</category>
+<category>供应链</category>
+<category>谷歌</category>
+<category>联发科</category>
+</item>
 <item><title>GPT-6.2 Sol Falls Short of Opus 5.5 on Complex Coding Tasks</title><link>https://x.com/dotey/status/2123676175021281770</link><guid isPermaLink="true">https://x.com/dotey/status/2123676175021281770</guid>
 <pubDate>Fri, 20 Nov 2026 15:13:50 +0800</pubDate>
 <description>&lt;p&gt;Developer Bao Yu reports after heavy hands-on testing that GPT-6.2 Sol handles simple tasks acceptably but trails Opus 5.5 markedly on complex coding work, with its output still requiring Opus 5.5 to clean up. The verdict rests on personal experience without benchmarks or reproducible methodology, reflecting a single user&amp;#x27;s impression.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;GPT-6.2 Sol 复杂编码任务实测不及 Opus 5.5&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自知名开发者的第一手模型对比体验，虽无数据支撑，但对关注前沿编码模型选型的读者有参考价值。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · llm · signal 38/100&lt;/p&gt;</description>
@@ -191,9 +201,9 @@
 <category>超级智能</category>
 <category>前沿研究</category>
 </item>
-<item><title>Postgres 19 Ships Built-In REPACK for Online Table Bloat Cleanup</title><link>https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/</link><guid isPermaLink="true">https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/</guid>
+<item><title>Postgres 19 内置 REPACK 在线清理表膨胀</title><link>https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/</link><guid isPermaLink="true">https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/</guid>
 <pubDate>Fri, 20 Nov 2026 10:43:49 +0800</pubDate>
-<description>&lt;p&gt;Postgres 19 introduces built-in REPACK CONCURRENTLY, enabling online table rebuilds and bloat reclamation without the long read/write lock imposed by VACUUM FULL or the caveats of third-party extensions. Now at RC1 with GA expected in November or December 2026, it is a meaningful operational win for high-update production databases.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Postgres 19 内置 REPACK 在线清理表膨胀&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Postgres 核心内置在线表重建能力，直接解决长期困扰生产库的表膨胀运维痛点。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Postgres 19 引入内置 REPACK CONCURRENTLY，可在不长时间持有读写锁的情况下在线重建表、回收膨胀空间，替代此前需依赖 VACUUM FULL 停机或第三方扩展的方案。该功能已进入 RC1，预计 11 月至 12 月 GA，对高更新量生产库的运维价值显著。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Postgres 核心内置在线表重建能力，直接解决长期困扰生产库的表膨胀运维痛点。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/">Hacker News AI</source>
 <category>PostgreSQL</category>
 <category>数据库</category>
@@ -262,15 +272,6 @@
 <category>视频生成</category>
 <category>3D 场景</category>
 <category>基准测试</category>
-</item>
-<item><title>LangSmith 提出以可观测性为智能体治理起点</title><link>https://www.langchain.com/blog/agent-governance-observability</link><guid isPermaLink="true">https://www.langchain.com/blog/agent-governance-observability</guid>
-<pubDate>Fri, 20 Nov 2026 08:57:43 +0800</pubDate>
-<description>&lt;p&gt;LangChain 旗下 LangSmith 发布观点文章，主张智能体治理应从可观测性入手：通过记录并分析智能体每一步执行轨迹，既能验证护栏等预防性控制是否生效，也为生产环境中的检测性控制提供数据基础。文章强调检测发现的新故障应回流至预防环节，转化为更严格的护栏或回归测试，形成治理闭环。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出智能体治理的可观测性闭环框架，对构建生产级 Agent 的团队有方法论参考价值。&lt;/p&gt;&lt;p&gt;LangChain Blog · agent · signal 42/100&lt;/p&gt;</description>
-<source url="https://www.langchain.com/blog/agent-governance-observability">LangChain Blog</source>
-<category>智能体</category>
-<category>可观测性</category>
-<category>LangSmith</category>
-<category>AI 治理</category>
 </item>
 </channel>
 </rss>
