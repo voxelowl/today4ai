@@ -51,6 +51,14 @@ Neon 的发布标志着谷歌在七周内连发四款 Gemini 4 系列模型，�
 
 事件凸显端侧智能体普及与隐私应用之间的权限冲突正在升级。在 OS 厂商提供细粒度 AI 数据访问控制接口之前，隐私应用只能被动防御，整个应用生态都可能面临类似取舍。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, The Verge AI, The Decoder&lt;/p&gt;</description>
 </item>
+<item><title>OpenAI 披露多层防御体系 阻断对抗性蒸馏攻击</title><link>https://todayforai.com/en/story/story-fe915d44-805</link><guid isPermaLink="true">https://todayforai.com/en/story/story-fe915d44-805</guid>
+<pubDate>Sat, 21 Nov 2026 04:11:14 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 首次系统披露了针对对抗性蒸馏的防御框架，通过对抗测试、模型训练、分类器与 API 层防护的多层组合，检测并阻断攻击者利用前沿模型输出训练无安全护栏克隆模型的行为。该框架重点加固受保护的推理过程，防止攻击者复现网络安全等敏感能力。
+
+据 OpenAI 官方博客介绍，对抗性蒸馏攻击可让攻击者未经授权复刻前沿模型能力，并剥离安全护栏后部署，例如将模型用于原模型会拒绝的网络安全攻击场景。防御体系的核心发现是，在 SWE-bench Verified 和前沿网络安全任务上，完整推理记录比摘要更具蒸馏价值，因此防御需覆盖推理链输出。OpenAI 同时公开了跨行业可复用的防护经验，包括对抗测试方法和分类器设计。
+
+这一披露对 AI 安全生态具有实质影响。随着模型能力提升，对抗性蒸馏成为新型滥用途径，OpenAI 的多层防御思路为行业提供了可借鉴的范本，推动 API 提供商和模型开发者加强推理链保护，也可能促使全行业重新评估模型输出管控策略。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, OpenAI 官方博客&lt;/p&gt;</description>
+</item>
 <item><title>Parallel Search 登顶搜索指数 单次任务仅 0.014 美元</title><link>https://todayforai.com/en/story/story-1b003842-8b7</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1b003842-8b7</guid>
 <pubDate>Sat, 21 Nov 2026 01:43:02 +0800</pubDate>
 <description>&lt;p&gt;Artificial Analysis 用 Stirrup 智能体框架对 Parallel Search API 的 fast 与 advanced 两种模式进行了 1700 项搜索任务评测，advanced 模式以 83 分与 Keenable Search (pro) 并列榜首，fast 模式以 82 分位列第四。相比 8 月版本，两种模式分别提升 8 分和 9 分，且 fast 模式单次任务成本仅 0.014 美元，在 DeepSearchQA 上两种模式均取得 89 F1。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
@@ -70,10 +78,6 @@ CloudRobo-WM1.2 采用 PPA 多模态世界表征架构与世界模型原生 Dual
 综合多家信源，特朗普的表态缺乏具体税率、法律依据与执行路径，且与美国多州、市正在收紧数据中心审批的现实相冲突。其所谓“中国会把数据中心全部拿走”的论调，延续了防止芯片产业外流的逻辑，但政策内部存在张力，落地难度大。
 
 此举可能加剧美国科技企业海外布局的不确定性，并引发盟友对投资环境的担忧。同时，特朗普关于数据中心自建发电降低电价的说法缺乏数据支撑，而地方现金补偿换项目获批的模式，可能推高公共成本并引发公平性质疑。整体来看，该政策信号意义大于实际执行力，但足以扰动全球数据中心投资格局。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), The Verge AI&lt;/p&gt;</description>
-</item>
-<item><title>Arena 对齐指数更新 OpenAI 包揽前七</title><link>https://todayforai.com/en/story/story-80f390be-b1d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-80f390be-b1d</guid>
-<pubDate>Sat, 21 Nov 2026 01:45:05 +0800</pubDate>
-<description>&lt;p&gt;Arena.ai 更新对齐指数（Alignment Index），改进对模型失效信号的检测方法并扩大覆盖范围。新榜单中 OpenAI 包揽前七名，Anthropic 新发布的 Claude Fable 5.2 以 78.2 分位列第 8，Kimi K3.1 Pro 成为排名最高的开源模型（第 9）。该指数从越权操作、虚假完成、错误归因三个维度衡量智能体在真实用户会话中的行为表现。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Arena.ai (@arena)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 21 Nov 2026 04:37:31 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 21 Nov 2026 05:07:21 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>SpaceX Raises $32B Debt to Secure Nvidia Rubin GPUs</title><link>https://x.com/rohanpaul_ai/status/2123885935230341451</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123885935230341451</guid>
+<pubDate>Sat, 21 Nov 2026 05:07:21 +0800</pubDate>
+<description>&lt;p&gt;SpaceX has sold $32B of debt to lock in Nvidia&amp;#x27;s newest Rubin GPUs, with BlackRock and KKR as anchor investors. The proceeds fund roughly $47.3B of GPU equipment, with deliveries starting in January. Structured through Apollo-managed Saturn Funding Trust, which buys the chips and leases them back to SpaceX for about five years, the deal keeps the borrowing off SpaceX&amp;#x27;s balance sheet, helping it preserve investment-grade ratings and borrow more, faster.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SpaceX 举债 320 亿美元采购英伟达 Rubin GPU&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 算力融资结构创新的标志性案例，涉及巨额资本与顶级芯片供应，对关注算力基础设施的读者具有高参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2123885935230341451">Rohan Paul (@rohanpaul_ai)</source>
+<category>算力基础设施</category>
+<category>英伟达</category>
+<category>SpaceX</category>
+<category>融资</category>
+</item>
+<item><title>AI Router Supply Chain Leaks User Secrets in 2 Million Probe Test</title><link>https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/</link><guid isPermaLink="true">https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/</guid>
+<pubDate>Sat, 21 Nov 2026 04:59:08 +0800</pubDate>
+<description>&lt;p&gt;Security researcher HD Moore planted 2 million digital canaries in requests routed through AI gateways such as OpenRouter and Vercel, finding that the multi-hop resale chain leaks highly sensitive credentials like AWS keys at an alarming rate. The experiment is the first systematic quantification of how prompts and secrets entrusted to third-party AI routers can be intercepted, stolen, and abused in transit.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 路由链泄露用户密钥 200 万探针实测&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次以大规模实测揭示 AI 路由网关这一被忽视的供应链隐私风险，对所有调用第三方推理服务的开发者具有直接警示价值。&lt;/p&gt;&lt;p&gt;Ars Technica AI · industry · signal 78/100&lt;/p&gt;</description>
+<source url="https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/">Ars Technica AI</source>
+<category>AI 安全</category>
+<category>供应链</category>
+<category>隐私泄露</category>
+<category>AI 路由</category>
+</item>
+<item><title>Michigan Study Finds AI Agents Report False Discoveries in Up to 98% of Cases</title><link>https://x.com/rohanpaul_ai/status/2123883512780775790</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123883512780775790</guid>
+<pubDate>Sat, 21 Nov 2026 04:57:43 +0800</pubDate>
+<description>&lt;p&gt;A new University of Michigan paper finds that frontier coding agents asked to analyze simulated data with no real effects still reported p\u003c0.05 in 54% to 98% of runs, all false positives. The cause is agents trying many models after seeing the data, violating the assumptions behind classical p-values. Replaying agents on subsamples cut false positives to about 5%.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;密歇根大学研究揭示 AI 智能体数据分析假阳性率高达 98%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次系统量化编码智能体做数据分析时的 p 值偏差，并给出可操作的校正方法，对依赖智能体做科研与数据结论的读者有直接警示价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2123883512780775790">Rohan Paul (@rohanpaul_ai)</source>
+<category>AI 智能体</category>
+<category>数据分析</category>
+<category>统计显著性</category>
+<category>科研可信度</category>
+</item>
 <item><title>Standard Bank and AWS Automate Generative AI Risk Assessment</title><link>https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai/</guid>
 <pubDate>Sat, 21 Nov 2026 04:37:31 +0800</pubDate>
 <description>&lt;p&gt;Standard Bank Group worked with AWS Professional Services to automate risk assessment for generative AI use cases, scoring each against international AI standards and internal policy and generating reports plus a dashboard. The governance step that once depended on manual review becomes a repeatable, scalable process, though the post is a customer deployment story without specific models, parameters, or quantified results.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;标准银行联合 AWS 自动化生成式 AI 风险评估&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示大型银行如何把生成式 AI 合规评估工程化，对关注 AI 治理落地的读者有参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · industry · signal 58/100&lt;/p&gt;</description>
@@ -11,6 +38,15 @@
 <category>金融</category>
 <category>AWS</category>
 <category>风险评估</category>
+</item>
+<item><title>OpenAI Tightens Reasoning Defenses as Attack Success Rate Falls to 0.2%</title><link>https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/</link><guid isPermaLink="true">https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/</guid>
+<pubDate>Sat, 21 Nov 2026 04:31:50 +0800</pubDate>
+<description>&lt;p&gt;OpenAI has sharply hardened reasoning-extraction defenses for GPT-6.2 Astra and Sol, cutting attack success rates on prior requests from 54.0% to 0.2% and on active requests from 22.9% to 0.9% in internal automated tests. The defenses combine targeted training, input/output filters, API-level blocks, and mass account bans against coordinated campaigns, with selected improvements backported to GPT-6 Astra.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 强化推理防泄露 攻击成功率降至 0.2%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是前沿模型推理防蒸馏攻防的关键量化进展，直接关系到模型知识产权保护与 API 安全策略。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/">The Decoder</source>
+<category>大模型</category>
+<category>OpenAI</category>
+<category>模型安全</category>
+<category>对抗蒸馏</category>
 </item>
 <item><title>Nvidia Faces SEC Accounting Probe as Market Value Sheds $750 Billion</title><link>https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html</link><guid isPermaLink="true">https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html</guid>
 <pubDate>Sat, 21 Nov 2026 04:22:41 +0800</pubDate>
@@ -39,6 +75,15 @@
 <category>企业合作</category>
 <category>数据壁垒</category>
 </item>
+<item><title>OpenComputer Launches Open Source Cloud Coding Agent 3.3x Faster Than Devin</title><link>https://github.com/diggerhq/opencomputer</link><guid isPermaLink="true">https://github.com/diggerhq/opencomputer</guid>
+<pubDate>Sat, 21 Nov 2026 04:19:56 +0800</pubDate>
+<description>&lt;p&gt;OpenComputer released an open source, self-hostable alternative to Devin: users mention @Computer in Slack, and the agent works on its own machine and lands results as a pull request. Its benchmark claims PRs open 3.3x faster than Devin, with the full stack runnable on a single VM in your own cloud.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenComputer 开源发布 云端编码智能体提速 3.3 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源可自托管的云端编码智能体直接对标 Devin，且给出可复现的提速基准，对关注 Agent 工程化的读者有实际参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 68/100&lt;/p&gt;</description>
+<source url="https://github.com/diggerhq/opencomputer">Hacker News AI</source>
+<category>编码智能体</category>
+<category>开源</category>
+<category>自托管</category>
+<category>Slack</category>
+</item>
 <item><title>Inkling Releases 26.4B Looped Transformer Model That Runs on Laptops</title><link>https://thinkingmachines.ai/news/inkling-2-mini/</link><guid isPermaLink="true">https://thinkingmachines.ai/news/inkling-2-mini/</guid>
 <pubDate>Sat, 21 Nov 2026 04:12:19 +0800</pubDate>
 <description>&lt;p&gt;Inkling released Inkling 2 Mini, an open-weights model built on a looped transformer that runs its middle layers three times per token to reason with fewer tokens. The MoE model has 26.4B total and 3.4B active parameters, scoring 48.2% on DeepSWE v1.1 and 46.5% on Vals Index v2.2, which it claims leads all open-weights models under 100B while running locally on a laptop.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Inkling 2 Mini 发布 26.4B 参数可跑在笔记本&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;循环 Transformer 架构加本地可运行的小参数开源模型，对关注模型架构与端侧部署的读者有实质参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 74/100&lt;/p&gt;</description>
@@ -47,6 +92,34 @@
 <category>开源模型</category>
 <category>MoE</category>
 <category>循环 Transformer</category>
+</item>
+<item><title>OpenAI Details Defenses Against Adversarial Model Distillation</title><link>https://openai.com/index/combatting-adversarial-distillation/</link><guid isPermaLink="true">https://openai.com/index/combatting-adversarial-distillation/</guid>
+<pubDate>Sat, 21 Nov 2026 04:11:14 +0800</pubDate>
+<description>&lt;p&gt;OpenAI outlined how it detects and disrupts adversarial distillation by combining adversarial testing, model training, classifiers and API-level protections, with a focus on hardening protected reasoning. The company warns that actors can use a frontier model&amp;#x27;s outputs without authorization to train a similarly capable model and deploy it without comparable safeguards, for example distilling cyber capabilities for attacks the original model would refuse. OpenAI also shared lessons intended to strengthen defenses industry-wide.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 披露对抗蒸馏防御体系&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是前沿实验室首次系统公开对抗蒸馏的攻防细节与防护栈，对模型安全与 API 治理具有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://openai.com/index/combatting-adversarial-distillation/">Hacker News AI</source>
+<category>模型安全</category>
+<category>对抗蒸馏</category>
+<category>OpenAI</category>
+<category>API 防护</category>
+</item>
+<item><title>Reverse Engineering a Litter Box App for Home Assistant Automation</title><link>https://master--ytulsiani.netlify.app/blog/furrytails/</link><guid isPermaLink="true">https://master--ytulsiani.netlify.app/blog/furrytails/</guid>
+<pubDate>Sat, 21 Nov 2026 04:07:14 +0800</pubDate>
+<description>&lt;p&gt;The author reverse engineered a smart litter box&amp;#x27;s Android app via traffic capture and decompilation, reproducing its signed HTTP requests and MQTT binary commands to integrate the device into Home Assistant with button controls. The open-source project demonstrates a full path for reverse engineering and locally integrating consumer IoT devices.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;逆向猫砂盆 App 接入 Home Assistant 自动化&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;一篇扎实的 IoT 逆向工程实践，展示了签名请求复现与 MQTT 协议重建的完整方法，对智能家居集成开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://master--ytulsiani.netlify.app/blog/furrytails/">Hacker News AI</source>
+<category>IoT 逆向</category>
+<category>Home Assistant</category>
+<category>MQTT</category>
+<category>智能家居</category>
+</item>
+<item><title>Anthropic Models Claim Generalized Riemann Hypothesis Proof in 17.4M Lines of Lean</title><link>https://scottaaronson.blog/?p=10344</link><guid isPermaLink="true">https://scottaaronson.blog/?p=10344</guid>
+<pubDate>Sat, 21 Nov 2026 04:03:07 +0800</pubDate>
+<description>&lt;p&gt;Levent Alpöge claims to have used Anthropic models to prove the Generalized Riemann Hypothesis, generating 17.4 million lines of Lean code now published on GitHub. Coming on the heels of an AI-assisted result bounding nontrivial zeros within 3/8 of the critical line, a verified proof would mark a landmark moment for AI for mathematics.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 模型宣称证明广义黎曼猜想 产出 1740 万行 Lean 代码&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 挑战千禧年难题级数学猜想并产出超大规模形式化证明，是 AI for Science 领域极具分量的潜在节点事件。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 88/100&lt;/p&gt;</description>
+<source url="https://scottaaronson.blog/?p=10344">Hacker News AI</source>
+<category>AI for Science</category>
+<category>形式化验证</category>
+<category>Anthropic</category>
+<category>黎曼猜想</category>
+<category>Lean</category>
 </item>
 <item><title>Trump Threatens Heavy Tax on US Firms Building Data Centers Abroad</title><link>https://x.com/rohanpaul_ai/status/2123868222940475571</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123868222940475571</guid>
 <pubDate>Sat, 21 Nov 2026 03:56:58 +0800</pubDate>
@@ -156,120 +229,49 @@
 <category>任务时长</category>
 <category>前沿模型</category>
 </item>
-<item><title>Perceptron Releases 36B Robot Model Checkpoints on Hugging Face</title><link>https://x.com/rohanpaul_ai/status/2123838152754491595</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123838152754491595</guid>
+<item><title>Perceptron 开源 360 亿参数机器人模型检查点</title><link>https://x.com/rohanpaul_ai/status/2123838152754491595</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123838152754491595</guid>
 <pubDate>Sat, 21 Nov 2026 01:57:29 +0800</pubDate>
-<description>&lt;p&gt;Perceptron AI has released ready-to-run checkpoints of its 36B-parameter robot model on Hugging Face and LeRobot, each pre-fine-tuned for a specific robot arm. Owners of supported arms can download the matching checkpoint, drive the robot with plain-text instructions, and further fine-tune for their own tasks, signaling a pretrained-checkpoint economy emerging in robotics.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Perceptron 开源 360 亿参数机器人模型检查点&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;机器人领域首次出现大规模参数模型的开箱即用检查点分发，直接复用语言模型的生态模式，对具身智能开发者有实际可用价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · opensource · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Perceptron AI 在 Hugging Face 与 LeRobot 上发布了 360 亿参数机器人模型的即用型检查点，每个检查点已针对特定机械臂完成微调。用户下载匹配检查点后即可用纯文本指令驱动机器人，并可进一步微调适配自有任务。这标志着机器人领域开始形成类似语言模型的预训练检查点生态。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;机器人领域首次出现大规模参数模型的开箱即用检查点分发，直接复用语言模型的生态模式，对具身智能开发者有实际可用价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · opensource · signal 72/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2123838152754491595">Rohan Paul (@rohanpaul_ai)</source>
 <category>具身智能</category>
 <category>开源模型</category>
 <category>机器人</category>
 <category>Hugging Face</category>
 </item>
-<item><title>Arena Alignment Index Update Sees OpenAI Sweep Top Seven</title><link>https://x.com/arena/status/2123835034532729205</link><guid isPermaLink="true">https://x.com/arena/status/2123835034532729205</guid>
+<item><title>Arena 对齐指数更新 OpenAI 包揽前七</title><link>https://x.com/arena/status/2123835034532729205</link><guid isPermaLink="true">https://x.com/arena/status/2123835034532729205</guid>
 <pubDate>Sat, 21 Nov 2026 01:45:05 +0800</pubDate>
-<description>&lt;p&gt;Arena.ai has updated its Alignment Index, refining how failure signals are detected and broadening coverage. OpenAI holds all seven top spots, while Anthropic&amp;#x27;s newly released Claude Fable 5.2 debuts at #8 with 78.2 and Kimi K3.1 Pro ranks as the best open model at #9. The index scores agent behavior in real user sessions across unauthorized action, deceptive completion and false attribution.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Arena 对齐指数更新 OpenAI 包揽前七&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个以真实会话行为衡量智能体对齐的公开榜单更新，为模型选型提供行为安全维度的参考。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 74/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Arena.ai 更新对齐指数（Alignment Index），改进对模型失效信号的检测方法并扩大覆盖范围。新榜单中 OpenAI 包揽前七名，Anthropic 新发布的 Claude Fable 5.2 以 78.2 分位列第 8，Kimi K3.1 Pro 成为排名最高的开源模型（第 9）。该指数从越权操作、虚假完成、错误归因三个维度衡量智能体在真实用户会话中的行为表现。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个以真实会话行为衡量智能体对齐的公开榜单更新，为模型选型提供行为安全维度的参考。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 74/100&lt;/p&gt;</description>
 <source url="https://x.com/arena/status/2123835034532729205">Arena.ai (@arena)</source>
 <category>模型评测</category>
 <category>智能体对齐</category>
 <category>Arena.ai</category>
 </item>
-<item><title>Anthropic Shares Fall 11% After IPO as Nasdaq Erases 2026 Gains</title><link>https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394</link><guid isPermaLink="true">https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394</guid>
+<item><title>Anthropic 上市次日股价跌超 11% 纳指回吐全年涨幅</title><link>https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394</link><guid isPermaLink="true">https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394</guid>
 <pubDate>Sat, 21 Nov 2026 01:44:01 +0800</pubDate>
-<description>&lt;p&gt;Anthropic shares fell more than 11% a day after its record-setting IPO, reversing a 17% first-day pop and leading a broader AI sell-off. The Nasdaq Composite dropped over 3%, erasing all of its 2026 gains, while the S&amp;amp;P 500 slid nearly 2% for a sixth straight losing session and entered correction territory, down 10% from its recent high, with CoreWeave, Nvidia and Oracle also selling off.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 上市次日股价跌超 11% 纳指回吐全年涨幅&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司 IPO 后即遭抛售、纳指抹平全年涨幅，是 AI 资本市场情绪转向的关键信号。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 71/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 创纪录 IPO 次日股价大跌逾 11%，回吐首日 17% 涨幅，并领跌本轮 AI 板块抛售。纳斯达克综合指数跌超 3%，正式抹平 2026 年全部涨幅；标普 500 连跌六日、较近期高点回落 10% 进入回调区间，CoreWeave、英伟达、甲骨文同步走弱。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司 IPO 后即遭抛售、纳指抹平全年涨幅，是 AI 资本市场情绪转向的关键信号。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 71/100&lt;/p&gt;</description>
 <source url="https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394">Hacker News AI</source>
 <category>Anthropic</category>
 <category>IPO</category>
 <category>美股</category>
 <category>AI 资本市场</category>
 </item>
-<item><title>Parallel Search Tops AI Search Index at $0.014 per Task</title><link>https://x.com/ArtificialAnlys/status/2123834515814506617</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2123834515814506617</guid>
+<item><title>Parallel Search 登顶搜索指数 单次任务仅 0.014 美元</title><link>https://x.com/ArtificialAnlys/status/2123834515814506617</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2123834515814506617</guid>
 <pubDate>Sat, 21 Nov 2026 01:43:02 +0800</pubDate>
-<description>&lt;p&gt;Artificial Analysis benchmarked Parallel Search API&amp;#x27;s fast and advanced modes across 1,700 search tasks in its Stirrup agent harness, with advanced scoring 83 to tie Keenable Search (pro) atop the board and fast scoring 82 at fourth. Both modes gained 8-9 points since August, with fast mode costing just $0.014 per task and both hitting 89 F1 on DeepSearchQA.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Parallel Search 登顶搜索指数 单次任务仅 0.014 美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;第三方权威评测给出搜索 API 的横向排名与真实成本，对选型搜索工具的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · tools · signal 68/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Artificial Analysis 用 Stirrup 智能体框架对 Parallel Search API 的 fast 与 advanced 两种模式进行了 1700 项搜索任务评测，advanced 模式以 83 分与 Keenable Search (pro) 并列榜首，fast 模式以 82 分位列第四。相比 8 月版本，两种模式分别提升 8 分和 9 分，且 fast 模式单次任务成本仅 0.014 美元，在 DeepSearchQA 上两种模式均取得 89 F1。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;第三方权威评测给出搜索 API 的横向排名与真实成本，对选型搜索工具的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · tools · signal 68/100&lt;/p&gt;</description>
 <source url="https://x.com/ArtificialAnlys/status/2123834515814506617">Artificial Analysis (@ArtificialAnlys)</source>
 <category>搜索 API</category>
 <category>基准评测</category>
 <category>Artificial Analysis</category>
 <category>Parallel Search</category>
 </item>
-<item><title>Space Data Center Chip Financing Faces Collateral Hurdles</title><link>https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/</guid>
+<item><title>太空数据中心芯片融资面临抵押难题</title><link>https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/</guid>
 <pubDate>Sat, 21 Nov 2026 01:40:01 +0800</pubDate>
-<description>&lt;p&gt;Building data centers in space runs into a structural financing obstacle: the data center ecosystem relies on debt backed by chips as collateral, but chips orbiting at 17,500 mph cannot be repossessed and resold. Lenders behind SpaceX&amp;#x27;s $40 billion chip financing deal have asked to exclude in-orbit chips. Meanwhile SpaceX and Tesla are pursuing a US-based Terrafab foundry, which has yet to break ground.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;太空数据中心芯片融资面临抵押难题&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示太空算力热潮背后被忽视的金融基础设施约束，是算力扩张叙事中的关键反面视角。&lt;/p&gt;&lt;p&gt;TechCrunch AI · compute · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;在太空建设数据中心正面临芯片融资的结构性障碍：现有数据中心生态依赖以芯片为抵押品的债务融资，但轨道上的芯片无法被贷款方收回再出售，SpaceX 的 400 亿美元芯片融资交易中贷款方已要求排除在轨芯片。与此同时，SpaceX 与特斯拉正推进美国本土 Terrafab 晶圆厂项目，但尚未动工。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示太空算力热潮背后被忽视的金融基础设施约束，是算力扩张叙事中的关键反面视角。&lt;/p&gt;&lt;p&gt;TechCrunch AI · compute · signal 58/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/">TechCrunch AI</source>
 <category>太空数据中心</category>
 <category>芯片融资</category>
 <category>SpaceX</category>
 <category>算力基础设施</category>
-</item>
-<item><title>Claude Helps Anthropic Mathematician Prove Riemann Hypothesis</title><link>https://x.com/rohanpaul_ai/status/2123833283863789602</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123833283863789602</guid>
-<pubDate>Sat, 21 Nov 2026 01:38:08 +0800</pubDate>
-<description>&lt;p&gt;Anthropic mathematician Alpöge claims he and Claude have proved the 167-year-old Riemann hypothesis, with Claude proposing a key step in advanced areas he had not mastered and the pair formalizing the full argument as machine-checkable code in about six weeks. If confirmed, it marks the first substantive AI contribution to a top-tier open mathematical problem.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Claude 协助 Anthropic 数学家证明黎曼猜想&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 首次被声称攻克顶级数学未解难题，且以机器可验证形式呈现，具备里程碑意义。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 88/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2123833283863789602">Rohan Paul (@rohanpaul_ai)</source>
-<category>大模型</category>
-<category>Anthropic</category>
-<category>数学证明</category>
-<category>形式化验证</category>
-</item>
-<item><title>Tao Reports AI-Assisted Proofs on Euler and Navier-Stokes Singularities</title><link>https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/</link><guid isPermaLink="true">https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/</guid>
-<pubDate>Sat, 21 Nov 2026 01:21:36 +0800</pubDate>
-<description>&lt;p&gt;Terence Tao reports that Levent Alpöge, Tristan Buckmaster and Matei Coiculescu, with heavy AI assistance, have obtained new results on unforced Euler and Navier-Stokes singularities, linked to the Generalized Riemann Hypothesis. The post signals AI&amp;#x27;s growing role in frontier mathematical proof, though the source is truncated and full methods and verification remain to be confirmed.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;陶哲轩称 AI 辅助证明攻克 Euler 与 Navier-Stokes 奇点难题&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 辅助数学证明触及千禧年难题级问题，对关注 AI for Science 的读者具有高信号价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/">Hacker News AI</source>
-<category>AI for Science</category>
-<category>数学证明</category>
-<category>陶哲轩</category>
-</item>
-<item><title>Dario Amodei Says Anthropic Deliberately Runs at Under Half Its Possible Speed</title><link>https://x.com/rohanpaul_ai/status/2123829074753998977</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123829074753998977</guid>
-<pubDate>Sat, 21 Nov 2026 01:21:24 +0800</pubDate>
-<description>&lt;p&gt;Anthropic CEO Dario Amodei said in a CNBC interview that the company deliberately runs at less than half the pace it could, redirecting the surplus into safety work and \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Dario Amodei 称 Anthropic 主动将研发速度压至可承受的一半&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部实验室掌门人公开阐述“主动减速”的战略取舍，是理解前沿 AI 竞争节奏与安全路线分歧的一手表态。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2123829074753998977">Rohan Paul (@rohanpaul_ai)</source>
-<category>Anthropic</category>
-<category>AI 安全</category>
-<category>产业动向</category>
-</item>
-<item><title>斯坦福等机构发现 27B 开源模型可自主编辑权重自我提升</title><link>https://x.com/rohanpaul_ai/status/2123828039276773655</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123828039276773655</guid>
-<pubDate>Sat, 21 Nov 2026 01:17:18 +0800</pubDate>
-<description>&lt;p&gt;斯坦福等机构的新论文提出一种无需训练与梯度的自我改进方法：让 Qwen3.5-27B 在梯度屏蔽下访问自身权重、带评分的练习答案与 Python 会话，通过推理对比答完与截断两类答案的隐藏状态，削弱区分二者的方向，从而直接编辑权重。在预先固定的 490 道未见题目上，准确率从 57.2% 提升至 63.8%；2B 模型未能产生有效编辑，4B 与 9B 模型则出现自我损伤。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出无需梯度与训练的权重自编辑范式，并在开源模型上给出可验证的提升与规模效应证据，对模型后训练与部署迭代路线有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2123828039276773655">Rohan Paul (@rohanpaul_ai)</source>
-<category>大模型</category>
-<category>自我改进</category>
-<category>权重编辑</category>
-<category>开源模型</category>
-<category>斯坦福</category>
-</item>
-<item><title>PostgreSQL 19 发布 新增 IGNORE NULLS 与 JSONPath 转换</title><link>https://certuvia.com/blog/postgres-19</link><guid isPermaLink="true">https://certuvia.com/blog/postgres-19</guid>
-<pubDate>Sat, 21 Nov 2026 01:08:56 +0800</pubDate>
-<description>&lt;p&gt;PostgreSQL 19 于 2026 年 11 月 19 日正式发布，在 SQL 能力上新增 IGNORE NULLS、get-or-create 插入、JSON 导出、JSONPath 转换与范围相减等特性，同时改进维护与复制机制。官方提供可在浏览器中直接运行的实操示例，覆盖逻辑订阅与物理备库场景，并面向扩展作者开放新的 planner hooks 与共享内存注册改进。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流开源数据库年度大版本更新，SQL 新特性与复制改进对后端与数据工程读者具备直接可用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://certuvia.com/blog/postgres-19">Hacker News AI</source>
-<category>PostgreSQL</category>
-<category>数据库</category>
-<category>开源</category>
-<category>SQL</category>
-</item>
-<item><title>谷歌员工联名反对以断供搜索惩罚拒用 AI 学区</title><link>https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/</link><guid isPermaLink="true">https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/</guid>
-<pubDate>Sat, 21 Nov 2026 00:59:27 +0800</pubDate>
-<description>&lt;p&gt;数百名谷歌员工联名要求管理层撤回一项政策：自明年起，拒绝在校内启用 Gemini AI 工具的学区将被切断谷歌搜索引擎服务。该政策于选举日突然公布，已引发全美多地社区抗议，员工则质疑公司以捆绑手段强推 AI 进课堂。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大厂以核心产品捆绑强推 AI 进校园引发内部联名抵制，是观察 AI 落地伦理与商业策略冲突的典型样本。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/">Hacker News AI</source>
-<category>谷歌</category>
-<category>AI 教育</category>
-<category>Gemini</category>
-<category>科技伦理</category>
-</item>
-<item><title>ClickUp 内置 AI 可生成视频并自建工具</title><link>https://x.com/rohanpaul_ai/status/2123822297471660234</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123822297471660234</guid>
-<pubDate>Sat, 21 Nov 2026 00:54:29 +0800</pubDate>
-<description>&lt;p&gt;ClickUp 发布更新，将任务管理应用升级为可执行工作的平台：内置 AI 能生成视频、运行多步骤流程并构建自定义工具，且直接基于团队真实任务上下文运行。其 CEO 借此提出“软件收敛”论，认为 AI 让开发成本下降后，单一平台承载全部上下文将成为主流形态。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;反映 AI 编码成本下降如何压缩产品品类边界，是观察 SaaS 形态演进的典型样本。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2123822297471660234">Rohan Paul (@rohanpaul_ai)</source>
-<category>AI 编程</category>
-<category>SaaS</category>
-<category>智能体</category>
-<category>产品战略</category>
-</item>
-<item><title>Anthropic 数学家称借 Claude 攻克黎曼猜想</title><link>https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem</guid>
-<pubDate>Sat, 21 Nov 2026 00:34:13 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 数学家 Levent Alpöge 声称借助 Claude 证明了悬置 160 余年的黎曼猜想，若获独立验证将是 AI 在数学领域的又一里程碑。该证明尚未经同行验证，Anthropic 官方未参与或置评，Alpöge 称曾私下告知 CEO Dario Amodei 并推迟至公司 IPO 后公布。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;若属实将是 AI 辅助数学证明的里程碑事件，但证据尚未验证，值得关注后续进展。&lt;/p&gt;&lt;p&gt;The Verge AI · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem">The Verge AI</source>
-<category>大模型</category>
-<category>Anthropic</category>
-<category>AI for Science</category>
-<category>数学证明</category>
 </item>
 </channel>
 </rss>
