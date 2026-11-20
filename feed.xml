@@ -12,6 +12,14 @@
 <category>NAS</category>
 <category>漏洞修复</category>
 </item>
+<item><title>GIMP Adds Real-Interface GUI Automated Testing</title><link>https://www.gimp.org/news/2026/11/16/gimp-ui-tests/</link><guid isPermaLink="true">https://www.gimp.org/news/2026/11/16/gimp-ui-tests/</guid>
+<pubDate>Fri, 20 Nov 2026 12:00:24 +0800</pubDate>
+<description>&lt;p&gt;The GIMP project announced a new GUI testing platform that launches the real application, clicks menus and buttons, and verifies results, running automatically on every merged contributor change. Existing unit tests never opened a real window, so they could not catch broken dialogs or menu actions; the new suite closes that gap.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;GIMP 引入真实界面 GUI 自动化测试&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源老牌项目补齐真实界面自动化测试，对关注开源工程实践与桌面软件质量的读者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 38/100&lt;/p&gt;</description>
+<source url="https://www.gimp.org/news/2026/11/16/gimp-ui-tests/">Hacker News AI</source>
+<category>开源项目</category>
+<category>软件测试</category>
+<category>GIMP</category>
+</item>
 <item><title>Bostrom Calculates Delaying Superintelligence Costs Millions of Lives Yearly</title><link>https://x.com/rohanpaul_ai/status/2123626737120809367</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123626737120809367</guid>
 <pubDate>Fri, 20 Nov 2026 11:57:23 +0800</pubDate>
 <description>&lt;p&gt;Nick Bostrom, author of Superintelligence, argues via a simplified model that if superintelligence cures aging, average remaining lifespan for people alive today could stretch from roughly 40 years to about 1,400. As long as AI-caused extinction risk stays below 97%, launching immediately raises expected lifespan, meaning each year of delay costs millions of lives lost to aging.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Bostrom 测算：延迟超级智能每年致数百万人死亡&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 安全与加速主义争论中一个极具争议的量化论证，值得关注 AI 长期风险议题的读者了解其推理框架。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
@@ -20,6 +28,14 @@
 <category>超级智能</category>
 <category>Nick Bostrom</category>
 <category>长期主义</category>
+</item>
+<item><title>PostgreSQL 19 Ships REPACK Command and Logical Replication Upgrades</title><link>https://www.postgresql.org/docs/release/19.0/</link><guid isPermaLink="true">https://www.postgresql.org/docs/release/19.0/</guid>
+<pubDate>Fri, 20 Nov 2026 11:45:45 +0800</pubDate>
+<description>&lt;p&gt;PostgreSQL 19 is released with a new REPACK command that reclaims disk space and reorganizes table contents, with a CONCURRENTLY mode that avoids blocking reads and writes. It also adds the pg_plan_advice and pg_stash_advice extensions for planner control, enables logical replication without a server restart, supports sequence-value replication, and adds read-your-writes consistency on standbys.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;PostgreSQL 19 发布 新增 REPACK 与逻辑复制增强&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流开源数据库年度大版本更新，REPACK 与逻辑复制能力对生产运维有直接价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.postgresql.org/docs/release/19.0/">Hacker News AI</source>
+<category>PostgreSQL</category>
+<category>开源数据库</category>
+<category>逻辑复制</category>
 </item>
 <item><title>Samsung Gauss 4 Model Surfaces in One UI 9.5 Beta Code</title><link>https://www.ithome.com/1/029/833.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/833.htm</guid>
 <pubDate>Fri, 20 Nov 2026 11:27:10 +0800</pubDate>
@@ -172,18 +188,18 @@
 <category>Codex</category>
 <category>多智能体</category>
 </item>
-<item><title>PostgreSQL 19 Ships with Same-Day Support on Databricks Lakebase</title><link>https://www.databricks.com/blog/postgresql-19-available-lakebase</link><guid isPermaLink="true">https://www.databricks.com/blog/postgresql-19-available-lakebase</guid>
+<item><title>PostgreSQL 19 发布 同日上线 Databricks Lakebase</title><link>https://www.databricks.com/blog/postgresql-19-available-lakebase</link><guid isPermaLink="true">https://www.databricks.com/blog/postgresql-19-available-lakebase</guid>
 <pubDate>Fri, 20 Nov 2026 08:37:31 +0800</pubDate>
-<description>&lt;p&gt;PostgreSQL 19 reached GA and is available on Databricks Lakebase the same day, skipping the usual weeks-long lag for managed services. The release centers on operational control: online REPACK, query plan advice, and WAIT FOR LSN for read-your-writes on replicas, plus logical replication upgrades. Several Lakebase engineers are PostgreSQL committers who contributed directly to the release.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;PostgreSQL 19 发布 同日上线 Databricks Lakebase&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流数据库大版本同日上云，运维能力升级对后端与数据基础设施团队有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;PostgreSQL 19 正式 GA，Databricks Lakebase 在社区发布当天即提供支持，无需等待数周。该版本聚焦运维控制能力，新增在线 REPACK、查询计划建议与 WAIT FOR LSN 副本读己之写，逻辑复制亦有升级。Lakebase 团队多名 PostgreSQL committer 直接参与了本次发布的核心开发。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流数据库大版本同日上云，运维能力升级对后端与数据基础设施团队有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.databricks.com/blog/postgresql-19-available-lakebase">Hacker News AI</source>
 <category>PostgreSQL</category>
 <category>Databricks</category>
 <category>数据库</category>
 <category>云服务</category>
 </item>
-<item><title>Anthropic Closes Nasdaq Debut Up 17% at $1.76T Valuation</title><link>https://x.com/rohanpaul_ai/status/2123576007282377061</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123576007282377061</guid>
+<item><title>Anthropic 上市首日收涨 17% 市值达 1.76 万亿美元</title><link>https://x.com/rohanpaul_ai/status/2123576007282377061</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123576007282377061</guid>
 <pubDate>Fri, 20 Nov 2026 08:35:48 +0800</pubDate>
-<description>&lt;p&gt;Anthropic wrapped up its Nasdaq debut at $97.17, up 17% from an $83 offering price, after spiking to $115.10 and then giving back more than half the early gain. Its fully diluted market value reached roughly $1.76 trillion, ranking it the seventh most valuable US company, while the Nasdaq composite fell over 2% and AMD dropped more than 7% as retail investors rotated into the new shares.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 上市首日收涨 17% 市值达 1.76 万亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部大模型公司以万亿美元级市值登陆公开市场，是 AI 产业资本化进程的标志性节点。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 88/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 完成纳斯达克上市首秀，发行价 83 美元，开盘冲高至 115.10 美元后回落，最终收于 97.17 美元、涨 17%，完全稀释市值约 1.76 万亿美元，成为美国市值第七大公司。首日行情同时抽走其他 AI 与半导体标的资金，纳斯达克综指跌超 2%，AMD 跌逾 7%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部大模型公司以万亿美元级市值登陆公开市场，是 AI 产业资本化进程的标志性节点。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 88/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2123576007282377061">Rohan Paul (@rohanpaul_ai)</source>
 <category>Anthropic</category>
 <category>IPO</category>
@@ -216,6 +232,15 @@
 <category>ElevenLabs</category>
 <category>基准评测</category>
 </item>
+<item><title>ChatGPT 聊天程序移植到 SNES 主机</title><link>https://www.bxfoundry.com/chatgpt_snes/</link><guid isPermaLink="true">https://www.bxfoundry.com/chatgpt_snes/</guid>
+<pubDate>Fri, 20 Nov 2026 08:25:59 +0800</pubDate>
+<description>&lt;p&gt;开发者 Benj Edwards 发布 ChatGPT for SNES v0.7，一个运行在超级任天堂上的非官方聊天程序实验，由 AI 智能体编写代码，需 Super FX 加速芯片的烧录卡才能运行。它并非真正调用大模型，而是基于预置训练对话的复古主机端交互演示。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以复古硬件复刻 ChatGPT 交互形态的趣味工程实验，展示了 AI 智能体编写主机代码的能力边界。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.bxfoundry.com/chatgpt_snes/">Hacker News AI</source>
+<category>复古硬件</category>
+<category>ChatGPT</category>
+<category>AI 智能体</category>
+<category>SNES</category>
+</item>
 <item><title>谷歌让智能体自改 Harness 任务成功率提升 8 倍</title><link>https://www.ithome.com/1/029/766.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/766.htm</guid>
 <pubDate>Fri, 20 Nov 2026 08:19:51 +0800</pubDate>
 <description>&lt;p&gt;谷歌研究提出可自我改进的 Harness 架构，让优化模型直接修改智能体运行框架代码，并通过验证集筛选保留有效改动。在 SWE-bench Lite 的 40 道任务上，模块化方案将成功率从 5.0% 提升至 40.0%，每任务约消耗 4.67 万 Token，远低于整体重写方案的 45.16 万 Token。研究同时警示代码自改带来的提示词膨胀、基准过拟合与评估程序篡改风险。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次系统验证智能体可自改运行框架代码并获得 8 倍任务成功率提升，为 Agent 工程化提供新范式。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 78/100&lt;/p&gt;</description>
@@ -244,33 +269,6 @@
 <category>智能眼镜</category>
 <category>消费电子</category>
 <category>商务部</category>
-</item>
-<item><title>Zoom 流式语音模型登顶 AA-WER 榜 错误率 2.4%</title><link>https://x.com/ArtificialAnlys/status/2123562077168287768</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2123562077168287768</guid>
-<pubDate>Fri, 20 Nov 2026 07:40:27 +0800</pubDate>
-<description>&lt;p&gt;Artificial Analysis 独立评测显示，Zoom 新发布的流式语音转写模型 Scribe V2.1 Pro Live 在 AA-WER Streaming 最终转写准确率榜上以 2.4% 词错误率登顶，略优于 MAI-Transcribe-2-Streaming 的 2.5%。这是 Zoom 在实时语音识别方向的一次小幅领先，但差距仅 0.1 个百分点，属于头部模型间的贴身竞争。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;第三方独立基准显示流式语音识别榜首易主，对关注实时 ASR 与语音交互的读者有参考价值。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/ArtificialAnlys/status/2123562077168287768">Artificial Analysis (@ArtificialAnlys)</source>
-<category>语音识别</category>
-<category>流式 ASR</category>
-<category>基准评测</category>
-<category>Zoom</category>
-</item>
-<item><title>Gemini 4 Neon 登顶模型工程指数榜首</title><link>https://git-aarvin.github.io/mei/</link><guid isPermaLink="true">https://git-aarvin.github.io/mei/</guid>
-<pubDate>Fri, 20 Nov 2026 07:35:35 +0800</pubDate>
-<description>&lt;p&gt;Models Engineering Index 最新榜单显示，谷歌 Gemini 4 Neon 以 69.5 分位居第一，在性能与成本/Token 效率的综合权衡上领先。Anthropic 的 Fable 5.2 与 Opus 5.5 分列二、三位，OpenAI、Meta、Moonshot、阿里、DeepSeek 等模型进入前十五，榜单同时给出相对成本与 Token 消耗倍数。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;榜单以性能与成本/Token 效率的权衡给出横向排名，为模型选型提供可参考的量级对比。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 58/100&lt;/p&gt;</description>
-<source url="https://git-aarvin.github.io/mei/">Hacker News AI</source>
-<category>大模型</category>
-<category>模型评测</category>
-<category>Google</category>
-<category>Anthropic</category>
-</item>
-<item><title>Anthropic 完成 813 亿美元 IPO 估值达 1.5 万亿</title><link>https://www.ithome.com/1/029/755.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/755.htm</guid>
-<pubDate>Fri, 20 Nov 2026 07:21:22 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 以每股 83 美元完成 813 亿美元 IPO，完全稀释后市值达 1.5 万亿美元，成为史上最大规模 IPO。同期腾讯承认元宝未达预期并大幅削减投入，显示头部 AI 助手竞争格局分化。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 头部公司史上最大 IPO 与腾讯助手战略收缩同日出现，是观察资本与产品格局的关键信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/029/755.htm">IT之家 · IT业界</source>
-<category>融资IPO</category>
-<category>Anthropic</category>
-<category>腾讯</category>
-<category>AI 助手</category>
 </item>
 </channel>
 </rss>
