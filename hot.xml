@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Sat, 21 Nov 2026 03:56:58 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 21 Nov 2026 04:12:19 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 登陆纳斯达克 募资 935 亿美元刷新纪录</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
 <pubDate>Sat, 21 Nov 2026 01:44:01 +0800</pubDate>
@@ -26,6 +26,14 @@ Neon 的发布标志着谷歌在七周内连发四款 Gemini 4 系列模型，�
 目前该声明仅为 Alpöge 的个人公开主张，尚未经过数学界同行评审与独立验证。Anthropic 官方未参与或置评，Alpöge 称曾私下告知 CEO Dario Amodei，并推迟至公司 IPO 后公布，引发利益关联质疑。多个信源一致强调，证明以 Lean 代码形式公布，但形式化验证本身仍需社区复核，且此前 OpenAI 在 10 月公布的数学成果被认为提供了突破口。
 
 若最终获得确认，这一事件将深刻影响 AI 辅助数学研究的生态，证明大模型在最高阶创造性数学推理中的潜力，并推动形式化验证与 AI 协作范式的普及。然而，在独立验证完成前，业界应保持审慎，避免过度解读个人声明。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;Simon Willison 博客, IT之家 · 智能时代, The Verge AI, Rohan Paul (@rohanpaul_ai), TechCrunch AI&lt;/p&gt;</description>
+</item>
+<item><title>Thinking Machines 开源循环层模型 Inkling 2 Mini</title><link>https://todayforai.com/en/story/story-e7a42b22-638</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e7a42b22-638</guid>
+<pubDate>Sat, 21 Nov 2026 04:12:19 +0800</pubDate>
+<description>&lt;p&gt;Thinking Machines Lab 联合 Hugging Face 正式开源多模态混合专家模型 Inkling 2 Mini，以 26B 总参数、仅 3.5B 激活参数的轻量架构，实现最高 100 万 token 上下文与图文输入，并可在笔记本本地运行。其核心创新在于循环 Transformer 设计：中间 12 层共享权重循环执行三次，每轮保留独立 KV 缓存并读取上一轮门控消息，从而在不增加参数量的前提下显著放大有效容量。
+
+多方信源交叉验证了关键指标：模型内置 DSpark 推测解码器，采用 NVFP4/MXFP8 混合精度权重加速；在 DeepSWE v1.1 取得 48.2%、Vals Index v2.2 取得 46.5%，官方称领先所有 100B 以下开源权重模型。vLLM 已在 NVIDIA Blackwell、Hopper 与 DGX Spark 上实现发布当日支持，确保开发者可立即部署。
+
+该模型将循环架构与 MoE 高效激活结合，大幅降低本地部署门槛，可能推动边缘侧多模态智能体应用爆发，并对“堆参数”路线形成挑战，标志着高效推理架构竞争进入新阶段。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, vLLM 官方博客, Hugging Face Blog&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 发布 GPT-6.2 双模型 任务成本骤降 80%</title><link>https://todayforai.com/en/story/story-38dbfe49-f31</link><guid isPermaLink="true">https://todayforai.com/en/story/story-38dbfe49-f31</guid>
 <pubDate>Fri, 20 Nov 2026 15:13:50 +0800</pubDate>
@@ -66,14 +74,6 @@ CloudRobo-WM1.2 采用 PPA 多模态世界表征架构与世界模型原生 Dual
 <item><title>Arena 对齐指数更新 OpenAI 包揽前七</title><link>https://todayforai.com/en/story/story-80f390be-b1d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-80f390be-b1d</guid>
 <pubDate>Sat, 21 Nov 2026 01:45:05 +0800</pubDate>
 <description>&lt;p&gt;Arena.ai 更新对齐指数（Alignment Index），改进对模型失效信号的检测方法并扩大覆盖范围。新榜单中 OpenAI 包揽前七名，Anthropic 新发布的 Claude Fable 5.2 以 78.2 分位列第 8，Kimi K3.1 Pro 成为排名最高的开源模型（第 9）。该指数从越权操作、虚假完成、错误归因三个维度衡量智能体在真实用户会话中的行为表现。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Arena.ai (@arena)&lt;/p&gt;</description>
-</item>
-<item><title>Gemini Mac 版上线电脑操作 后台跨应用执行多步任务</title><link>https://todayforai.com/en/story/story-f7c8af2b-03e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f7c8af2b-03e</guid>
-<pubDate>Sat, 21 Nov 2026 02:50:31 +0800</pubDate>
-<description>&lt;p&gt;Google 今日在 Gemini Mac 应用中正式上线 Computer Use 功能，用户只需用自然语言描述目标，Gemini 即可在隔离的后台窗口中跨本地文件、桌面应用与网页完成多步骤任务，同时保持屏幕与光标可用。该功能以英文在美国首发，支持应用级权限选择、实时步骤预览、随时暂停与关键操作预审批，典型场景包括批量修图、从本地 PDF 填单与生成演示文稿。
-
-综合多方信源，Gemini 的电脑操作能力在技术实现上强调安全与可控：所有操作均在后台窗口执行，不占用前台屏幕与光标，用户可逐项授权可访问的应用，并实时观看每一步执行过程，随时暂停或预审批关键操作。该功能目前仅面向美国英语用户开放，需订阅 Google AI Plus、Pro 或 Ultra。The Verge 指出，Google 抢在 Apple 对申请全盘访问权限的应用施加新限制之前落地该功能，而 TechCrunch 则强调 Google 在该能力上晚于 OpenAI、Anthropic、Meta 等竞争对手。
-
-此次上线标志着 Google 正式加入桌面智能体竞争，将电脑操作能力从实验性功能推向付费用户。对开发者与产业而言，Gemini 的后台隔离执行与细粒度权限控制为智能体安全落地提供了新范式，同时也加剧了与 Apple 生态政策的博弈。随着 Apple 新限制临近，Google 的抢先布局或为后续跨平台智能体功能设定合规参照。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, The Verge AI, The Decoder&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
