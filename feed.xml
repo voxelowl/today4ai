@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Fri, 20 Nov 2026 13:50:54 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 20 Nov 2026 14:15:40 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Nvidia in Talks to Acquire Diffusion LLM Startup Inception for Over $500M</title><link>https://www.ithome.com/1/029/886.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/886.htm</guid>
+<pubDate>Fri, 20 Nov 2026 14:15:40 +0800</pubDate>
+<description>&lt;p&gt;Nvidia is in advanced talks to acquire AI startup Inception at a valuation of at least $500 million, potentially with performance-based earnouts. Founded in 2024 by Stanford, UCLA and Cornell professors, Inception builds diffusion-based large language models; its Mercury model claims sub-300ms time-to-first-token and 5-7x throughput via parallel generation. If completed, the team could join Nvidia&amp;#x27;s Nemotron open model efforts and extend diffusion techniques to robotics and physical AI.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达拟逾 5 亿美元收购扩散式大模型公司 Inception&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达以逾 5 亿美元押注非自回归的扩散式大模型路线，可能重塑推理效率与物理 AI 布局。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/029/886.htm">IT之家 · 智能时代</source>
+<category>英伟达</category>
+<category>收购</category>
+<category>扩散式大模型</category>
+<category>物理 AI</category>
+</item>
+<item><title>PHP Patches 20-Year-Old Flaw That Silently Disables TLS Encryption</title><link>https://www.ithome.com/1/029/884.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/884.htm</guid>
+<pubDate>Fri, 20 Nov 2026 14:10:33 +0800</pubDate>
+<description>&lt;p&gt;The PHP project released security updates including 8.5.13, fixing CVE-2026-128064 (CVSS 8.2), a high-severity flaw in HTTP/FTP stream wrappers. Inconsistent case handling of URL schemes lets HTTPS:// or httpS:// bypass TLS and fall back to plaintext, exposing credentials, cookies and POST data. The bug traces back to PHP 4.3.0, lurking for nearly 20 years.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;PHP 高危漏洞潜伏近 20 年 大写 S 可绕过 TLS 加密&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;影响面极广的基础设施级安全漏洞，所有 PHP 后端与运维团队需立即排查升级。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · tools · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/029/884.htm">IT之家 · IT业界</source>
+<category>PHP</category>
+<category>安全漏洞</category>
+<category>TLS</category>
+<category>开源生态</category>
+</item>
 <item><title>MetaChip Lights Up Mega188 3D-TPU Chip with 600GB/s DRAM Bandwidth</title><link>https://www.ithome.com/1/029/876.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/876.htm</guid>
 <pubDate>Fri, 20 Nov 2026 13:50:54 +0800</pubDate>
 <description>&lt;p&gt;Chinese edge-LLM chip startup MetaChip announced that its 3D-TPU chip Mega188 has successfully taped out and lit up. The chip vertically integrates 2/4/8GB of DRAM via 3D stacking and hybrid bonding, reaching 600GB/s peak memory bandwidth with a 5W low-power mode, and benchmarks at 80 TPS on Qwen3-8B inference.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;迈特芯 3D-TPU 芯片 Mega188 点亮 带宽 600GB/s&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;端侧大模型芯片以 3D 堆叠 DRAM 突破内存带宽瓶颈，是国产算力架构路线的重要工程进展。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 72/100&lt;/p&gt;</description>
@@ -29,6 +47,16 @@
 <category>推理加速</category>
 <category>高通</category>
 <category>数据中心</category>
+</item>
+<item><title>Agnes Harness Open-Sources Dual-System Agent With 14x Speedup</title><link>https://www.qbitai.com/2026/11/511582.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/511582.html</guid>
+<pubDate>Fri, 20 Nov 2026 13:24:11 +0800</pubDate>
+<description>&lt;p&gt;Agnes Harness is an Apache 2.0 open-source agent execution framework with 2.1k GitHub stars, built around a Sys1 dual-system decision mechanism and a TTT×RSI two-layer self-evolution loop. Its authors claim up to 14x higher execution efficiency and 1/27 of the cost, targeting the high per-customer adaptation cost and failure to retain experience that block enterprise agent deployment.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Agnes Harness 开源双系统 Agent 提速 14 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源 Agent 框架给出双系统决策与自进化两条具体技术路径，并附技术报告，对关注 Agent 落地成本的读者有实质参考价值。&lt;/p&gt;&lt;p&gt;量子位官网 · agent · signal 72/100&lt;/p&gt;</description>
+<source url="https://www.qbitai.com/2026/11/511582.html">量子位官网</source>
+<category>Agent</category>
+<category>开源框架</category>
+<category>双系统决策</category>
+<category>自进化</category>
+<category>降本增效</category>
 </item>
 <item><title>Synology DSM Hit by CVSS 9.8 Flaw Allowing Unauthenticated File Access</title><link>https://www.ithome.com/1/029/861.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/861.htm</guid>
 <pubDate>Fri, 20 Nov 2026 12:22:46 +0800</pubDate>
@@ -153,9 +181,9 @@
 <category>ChatGPT</category>
 <category>产品更新</category>
 </item>
-<item><title>Uber Caps Claude Code Sessions at 400K Tokens to Curb AI Costs</title><link>https://x.com/rohanpaul_ai/status/2123585302870806552</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123585302870806552</guid>
+<item><title>Uber 将 Claude Code 会话压缩至 40 万 token</title><link>https://x.com/rohanpaul_ai/status/2123585302870806552</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123585302870806552</guid>
 <pubDate>Fri, 20 Nov 2026 09:12:45 +0800</pubDate>
-<description>&lt;p&gt;After exhausting its AI budget, Uber caps engineers&amp;#x27; Claude Code sessions at 400K tokens even on million-token models. Weekly agent requests grew 9.4x from February to August and weekly active users of its AI coding tools grew 7x, yet overall AI spending has stayed roughly flat since April, with cost per session down 52% from its June peak. Uber still runs MCP servers but routes agents through command-line tools tied to a central MCP gateway, avoiding the 50K-70K tokens needed to preload descriptions for 100-plus tools.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Uber 将 Claude Code 会话压缩至 40 万 token&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部科技公司在大规模智能体落地中如何控制上下文与 token 成本的实战数据，对构建 Agent 系统的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 71/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Uber 在 AI 预算吃紧后，将工程师的 Claude Code 会话统一压缩至 40 万 token，即便所用模型支持百万级上下文。其周度智能体请求量 2 月至 8 月增长 9.4 倍、AI 编程工具周活增长 7 倍，但整体 AI 支出自 4 月起基本持平，单会话成本较 6 月峰值下降 52%。Uber 仍保留 MCP 服务器，但改为通过命令行工具经中央 MCP 网关访问，以避免预加载 100 多个工具描述消耗 5 万至 7 万 token。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部科技公司在大规模智能体落地中如何控制上下文与 token 成本的实战数据，对构建 Agent 系统的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 71/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2123585302870806552">Rohan Paul (@rohanpaul_ai)</source>
 <category>智能体</category>
 <category>Claude Code</category>
@@ -163,18 +191,18 @@
 <category>成本优化</category>
 <category>Uber</category>
 </item>
-<item><title>Huawei Cloud Launches Ascend-Native Embodied World Model CloudRobo-WM1.2</title><link>https://www.qbitai.com/2026/11/511426.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/511426.html</guid>
+<item><title>华为云发布昇腾原生具身世界模型 CloudRobo-WM1.2</title><link>https://www.qbitai.com/2026/11/511426.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/511426.html</guid>
 <pubDate>Fri, 20 Nov 2026 09:07:38 +0800</pubDate>
-<description>&lt;p&gt;Huawei Cloud released CloudRobo-WM1.2, an Ascend-native embodied world model, alongside its one-stop CloudRobo development platform that bundles compute, simulation and real-robot adaptation. The pitch is that embodied AI teams should not rebuild the same infrastructure from scratch, backed by partner funding of up to RMB 2 million and 230+ enterprise and university partners in five months.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;华为云发布昇腾原生具身世界模型 CloudRobo-WM1.2&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产算力厂商切入具身智能底层工程栈，并给出具体平台与生态投入，对关注具身智能落地路径的读者有参考价值。&lt;/p&gt;&lt;p&gt;量子位官网 · compute · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;华为云发布昇腾原生具身世界模型 CloudRobo-WM1.2，并配套一站式具身智能开发平台 CloudRobo，试图把算力、仿真、真机适配等底层工程统一承接。其核心主张是具身智能研发不必每家公司从零搭建，同时以最高 200 万元伙伴专项支持拉拢生态，专区上线 5 个月已合作 230 多家企业与高校。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产算力厂商切入具身智能底层工程栈，并给出具体平台与生态投入，对关注具身智能落地路径的读者有参考价值。&lt;/p&gt;&lt;p&gt;量子位官网 · compute · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.qbitai.com/2026/11/511426.html">量子位官网</source>
 <category>具身智能</category>
 <category>华为云</category>
 <category>算力基础设施</category>
 <category>世界模型</category>
 </item>
-<item><title>LLMs Generate 3D Scenes as Code to Challenge Video Models</title><link>https://x.com/ArtificialAnlys/status/2123581865965855205</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2123581865965855205</guid>
+<item><title>语言模型用代码生成 3D 场景挑战视频模型</title><link>https://x.com/ArtificialAnlys/status/2123581865965855205</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2123581865965855205</guid>
 <pubDate>Fri, 20 Nov 2026 08:59:05 +0800</pubDate>
-<description>&lt;p&gt;Artificial Analysis ran a head-to-head test asking OpenAI&amp;#x27;s GPT-6.2 Astra to build three 3D scenes (Sydney Opera House, an exploded mechanical watch, and a dragon attacking a medieval town) as three.js code, then flew a scripted camera through each in a browser at 15s, 1080p, 24fps. ByteDance&amp;#x27;s Dreamina Seedance 2.5 received the same camera path as a text prompt with route reference images at identical settings, probing whether LLMs can compete with dedicated video generation models.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;语言模型用代码生成 3D 场景挑战视频模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以代码驱动 3D 场景与专用视频模型的直接对比，为理解语言模型在动态影像生成上的能力边界提供了新视角。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Artificial Analysis 发起对比测试，让 OpenAI GPT-6.2 Astra 以 three.js 代码构建悉尼歌剧院、机械表爆炸图与巨龙袭击中世纪城镇三个 3D 场景，并用浏览器脚本相机以 15 秒 1080p 24fps 输出视频；字节跳动 Dreamina Seedance 2.5 以相同相机路径和参考图作为文本提示生成对照视频。测试意在检验语言模型能否在动态影像生成上与专用视频模型竞争。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以代码驱动 3D 场景与专用视频模型的直接对比，为理解语言模型在动态影像生成上的能力边界提供了新视角。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 72/100&lt;/p&gt;</description>
 <source url="https://x.com/ArtificialAnlys/status/2123581865965855205">Artificial Analysis (@ArtificialAnlys)</source>
 <category>大模型</category>
 <category>视频生成</category>
@@ -242,33 +270,6 @@
 <category>Databricks</category>
 <category>数据库</category>
 <category>云服务</category>
-</item>
-<item><title>Anthropic 上市首日收涨 17% 市值达 1.76 万亿美元</title><link>https://x.com/rohanpaul_ai/status/2123576007282377061</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123576007282377061</guid>
-<pubDate>Fri, 20 Nov 2026 08:35:48 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 完成纳斯达克上市首秀，发行价 83 美元，开盘冲高至 115.10 美元后回落，最终收于 97.17 美元、涨 17%，完全稀释市值约 1.76 万亿美元，成为美国市值第七大公司。首日行情同时抽走其他 AI 与半导体标的资金，纳斯达克综指跌超 2%，AMD 跌逾 7%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部大模型公司以万亿美元级市值登陆公开市场，是 AI 产业资本化进程的标志性节点。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 88/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2123576007282377061">Rohan Paul (@rohanpaul_ai)</source>
-<category>Anthropic</category>
-<category>IPO</category>
-<category>资本市场</category>
-<category>AI 芯片股</category>
-</item>
-<item><title>SageMaker 推理 2026 升级 支持跨区域路由与多模型共享 GPU</title><link>https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-launches-in-review-part-2/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-launches-in-review-part-2/</guid>
-<pubDate>Fri, 20 Nov 2026 08:34:07 +0800</pubDate>
-<description>&lt;p&gt;AWS 回顾了 SageMaker Inference 在 2026 年的多项更新，核心包括 HyperPod Inference 新增路由策略、支持更多模型服务框架与多区域网络，Inference Gateway 负责请求路由，并引入托管版 NVIDIA Dynamo 作为新的服务框架。托管端点方面，推理推荐已可在 SageMaker AI Studio、Python SDK 及编码智能体中运行，端点支持跨区域与跨账户路由，帮助团队在流量变化后重新选型、在已付费 GPU 上部署更多模型并解决区域间算力闲置问题。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AWS 推理基础设施的年度能力盘点，涉及跨区域路由、GPU 多模型共享与托管 Dynamo，对部署大模型服务的工程团队有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · compute · signal 58/100&lt;/p&gt;</description>
-<source url="https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-launches-in-review-part-2/">AWS Machine Learning Blog</source>
-<category>SageMaker</category>
-<category>推理基础设施</category>
-<category>AWS</category>
-<category>NVIDIA Dynamo</category>
-</item>
-<item><title>Kimi Code CLI 2.7.0 原生接入 Amazon Bedrock</title><link>https://aws.amazon.com/blogs/machine-learning/use-kimi-code-cli-with-models-on-amazon-bedrock/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/use-kimi-code-cli-with-models-on-amazon-bedrock/</guid>
-<pubDate>Fri, 20 Nov 2026 08:33:30 +0800</pubDate>
-<description>&lt;p&gt;Moonshot AI 为开源编码智能体 Kimi Code CLI 发布 v2.7.0，新增原生 Amazon Bedrock provider，用户可直接复用标准 AWS 凭证链（含命名 profile 与 SSO），无需再单独申请和保管 Bedrock API Key。文中以 Kimi K3.1 Pro Highspeed 为例演示接入流程，该模型支持流式输出、可配置推理、图像输入与客户端工具调用。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源编码智能体打通 AWS 标准凭证链，对在 Bedrock 上跑 Kimi 模型的团队有直接工程价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 42/100&lt;/p&gt;</description>
-<source url="https://aws.amazon.com/blogs/machine-learning/use-kimi-code-cli-with-models-on-amazon-bedrock/">AWS Machine Learning Blog</source>
-<category>Kimi Code CLI</category>
-<category>Amazon Bedrock</category>
-<category>编码智能体</category>
-<category>AWS</category>
 </item>
 </channel>
 </rss>
