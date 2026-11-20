@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Fri, 20 Nov 2026 23:03:25 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 20 Nov 2026 23:37:46 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Anthropic Mathematician Claims Riemann Hypothesis Proof Co-Authored with Claude</title><link>https://www.ithome.com/1/030/278.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/278.htm</guid>
+<pubDate>Fri, 20 Nov 2026 23:37:46 +0800</pubDate>
+<description>&lt;p&gt;Anthropic mathematician Levent Alpoge claims to have proven the Riemann Hypothesis in collaboration with Claude, extending the result to the broader Generalized Riemann Hypothesis and encoding the proof in Lean for formal verification. If confirmed, it would mark the first AI-assisted proof of a top-tier open mathematical problem and a pivotal leap in AI mathematical reasoning.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 数学家称与 Claude 合作证明黎曼猜想&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;黎曼猜想级别的数学突破若被 Lean 验证，将是 AI 推理能力的里程碑事件，值得所有关注前沿模型能力边界的读者优先关注。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 88/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/030/278.htm">IT之家 · 智能时代</source>
+<category>大模型</category>
+<category>Anthropic</category>
+<category>数学推理</category>
+<category>形式化验证</category>
+</item>
+<item><title>US Grid Equipment Shortage May Hit 2027 as AI Data Centers Drive Two-Thirds of Gap</title><link>https://www.ithome.com/1/030/275.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/275.htm</guid>
+<pubDate>Fri, 20 Nov 2026 23:22:11 +0800</pubDate>
+<description>&lt;p&gt;A Johns Hopkins study in Cell Reports Sustainability finds US electricity demand will grow 21% by 2030, driven by AI data centers, EVs and electrification, triggering shortages of copper, steel and nickel as early as 2027. Transformer supply gaps approach 15% over the next four years and other key grid equipment gaps reach 30%, with data centers accounting for roughly two-thirds of the projected shortfall, constraining new plant and data center interconnection while pushing up power bills.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美国最早 2027 年面临电网设备短缺，AI 数据中心占缺口三分之二&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次以材料供应链量化 AI 算力扩张的电网瓶颈，直接关系数据中心并网节奏与算力成本。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 72/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/030/275.htm">IT之家 · 智能时代</source>
+<category>电网基础设施</category>
+<category>AI 数据中心</category>
+<category>算力供应链</category>
+<category>能源</category>
+</item>
 <item><title>Apple Recruits Senior Engineer to Build Device-Control AI Agent</title><link>https://the-decoder.com/apple-joins-the-race-for-ai-agents-that-control-your-device-while-raising-new-barriers-for-competitors/</link><guid isPermaLink="true">https://the-decoder.com/apple-joins-the-race-for-ai-agents-that-control-your-device-while-raising-new-barriers-for-competitors/</guid>
 <pubDate>Fri, 20 Nov 2026 23:03:25 +0800</pubDate>
 <description>&lt;p&gt;Apple is hiring a senior engineering manager to lead an AI agent capable of controlling devices, apps, browsing and coding, potentially shipping as early as late next year with privacy-focused permission models and sandboxing. The move comes as Apple is said to raise barriers for rival agents, with new CEO John Ternus pushing a bolder AI strategy.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;苹果招募资深工程师研发设备控制 AI 智能体&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;苹果正式入局设备控制型智能体，且叠加平台准入壁垒，对智能体生态格局有实质影响。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 68/100&lt;/p&gt;</description>
@@ -29,6 +47,15 @@
 <category>英伟达</category>
 <category>收购</category>
 <category>扩散模型</category>
+<category>开源模型</category>
+</item>
+<item><title>NVIDIA Releases Sigma Diffusion Language Models with 3.46x Faster Decoding</title><link>https://x.com/Marktechpost/status/2123791147843940501</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2123791147843940501</guid>
+<pubDate>Fri, 20 Nov 2026 22:50:42 +0800</pubDate>
+<description>&lt;p&gt;NVIDIA released Nemotron-Labs-Sigma, 14 continuous diffusion language model checkpoints at 3B and 8B that move diffusion out of discrete token space into a learned 16-D embedding space, adding and removing Gaussian noise block by block. Sigma-8B averages 71.16 on NVIDIA&amp;#x27;s 6-task base suite versus 70.22 for the discrete-diffusion NLD-8B, and self-speculative decoding runs 3.46x faster on average (up to 4.20x) on a single GB200. The trade-off is clear: instruct average of 59.14 trails NLD-8B&amp;#x27;s 59.92, and AIME25 sits at just 17.00.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达发布 Sigma 扩散语言模型 解码提速 3.46 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达把扩散语言模型推向连续嵌入空间并给出可复现的加速数据，是扩散式 LLM 路线的重要工程节点。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/Marktechpost/status/2123791147843940501">Marktechpost (@Marktechpost)</source>
+<category>扩散语言模型</category>
+<category>英伟达</category>
+<category>推理加速</category>
 <category>开源模型</category>
 </item>
 <item><title>Samsung Executives Say Neocloud Risks Limited as AI Demand Stays Real</title><link>https://www.ithome.com/1/030/247.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/247.htm</guid>
@@ -166,18 +193,18 @@
 <category>Gemini</category>
 <category>员工请愿</category>
 </item>
-<item><title>Xiaomi MiMo Launches UltraSpeed Inference Model with 20x Faster Output</title><link>https://www.ithome.com/1/030/193.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/193.htm</guid>
+<item><title>小米 MiMo 推出 UltraSpeed 推理模型 输出提速 20 倍</title><link>https://www.ithome.com/1/030/193.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/193.htm</guid>
 <pubDate>Fri, 20 Nov 2026 18:11:05 +0800</pubDate>
-<description>&lt;p&gt;Xiaomi MiMo has opened limited-time access to MiMo-V2.6-Pro-UltraSpeed for Pro and Max tiers of its Token Plan starting November 19, claiming up to 20x faster output while retaining V2.6-Pro-level capability, targeting latency-sensitive workloads such as quantitative trading, real-time risk control, scientific research and live coding assistance. The model is currently offered only as a time-limited plan add-on, with no standalone API pricing or detailed technical specifications disclosed.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;小米 MiMo 推出 UltraSpeed 推理模型 输出提速 20 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产厂商在推理加速方向的产品化落地，20 倍输出速度对低延迟场景有实际参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;小米 MiMo 于 11 月 19 日起在 Token Plan 的 Pro / Max 套餐中限时开放 MiMo-V2.6-Pro-UltraSpeed 超高速推理模型，官方称其在保持 V2.6-Pro 性能的同时提供最高 20 倍输出速度，面向量化交易、实时风控、科学研究与实时编程辅助等低延迟场景。该模型目前仅以限时套餐形式提供，尚未公布独立 API 定价与详细技术参数。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产厂商在推理加速方向的产品化落地，20 倍输出速度对低延迟场景有实际参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/030/193.htm">IT之家 · 智能时代</source>
 <category>大模型</category>
 <category>推理加速</category>
 <category>小米 MiMo</category>
 <category>API 服务</category>
 </item>
-<item><title>AI Designs Novel CPU Architecture Delivering 4.59x Performance per Watt</title><link>https://architectlabs.com/blog/frostbite</link><guid isPermaLink="true">https://architectlabs.com/blog/frostbite</guid>
+<item><title>AI 自主设计出全新指令集 CPU 能效提升 4.59 倍</title><link>https://architectlabs.com/blog/frostbite</link><guid isPermaLink="true">https://architectlabs.com/blog/frostbite</guid>
 <pubDate>Fri, 20 Nov 2026 18:01:41 +0800</pubDate>
-<description>&lt;p&gt;Architect Labs unveiled Frostbite, a general-purpose CPU and brand-new instruction set designed, implemented and verified end-to-end by its AI systems. Built on interaction nets, where every step is local and every dependency explicit, it achieves a 4.59x performance-per-watt multiple over a modern silicon-proven superscalar CPU across 25 workloads, 15 of them held out until final evaluation. The team plans to release the RTL and ISA, marking a shift from AI implementing given architectures to AI co-designing hardware and software.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 自主设计出全新指令集 CPU 能效提升 4.59 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 首次端到端自主发现并验证全新 CPU 架构与指令集，能效提升达 4.59 倍，是硬件设计范式的节点性事件。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 88/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Architect Labs 发布 Frostbite，一款由 AI 系统从零设计、实现并验证的通用 CPU 及其全新指令集。该架构基于交互网（interaction nets）的局部性与显式依赖特性，在 25 个含 15 个最终才揭晓的留出工作负载上，相较现代已流片的超标量 CPU 实现 4.59 倍每瓦性能提升。团队计划开源 Frostbite 的 RTL 与 ISA，标志着 AI 从实现既有架构迈向软硬件协同设计的新阶段。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 首次端到端自主发现并验证全新 CPU 架构与指令集，能效提升达 4.59 倍，是硬件设计范式的节点性事件。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 88/100&lt;/p&gt;</description>
 <source url="https://architectlabs.com/blog/frostbite">Hacker News AI</source>
 <category>芯片架构</category>
 <category>AI for Science</category>
@@ -185,9 +212,9 @@
 <category>指令集</category>
 <category>Architect Labs</category>
 </item>
-<item><title>Nous Research Brings Hermes Agent Into Microsoft Teams</title><link>https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/</link><guid isPermaLink="true">https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/</guid>
+<item><title>Nous Research 将 Hermes Agent 集成进微软 Teams</title><link>https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/</link><guid isPermaLink="true">https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/</guid>
 <pubDate>Fri, 20 Nov 2026 17:59:51 +0800</pubDate>
-<description>&lt;p&gt;Nous Research announced that enterprises can run its open-source Hermes Agent directly inside Microsoft Teams, letting employees delegate tasks such as financial analysis, document drafting, and inbox triage and review results in the same chat. Agents run in isolated microVM sandboxes on Azure Container Apps, and a new Collective Wisdom feature lets employees turn successful workflows into reusable skills and share them with teammates after review.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Nous Research 将 Hermes Agent 集成进微软 Teams&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源智能体进入主流企业协作平台，并给出技能沉淀与团队共享的具体机制，对企业 Agent 落地有参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Nous Research 宣布企业可在微软 Teams 内直接运行开源 Hermes Agent，员工可将财务分析、文档起草、收件箱整理等任务交给智能体并在同一聊天窗口审阅结果。智能体运行于 Azure Container Apps 隔离微虚拟机沙箱中，并新增 Collective Wisdom 功能，允许员工在审核后把成功工作流沉淀为可复用技能并共享给团队。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源智能体进入主流企业协作平台，并给出技能沉淀与团队共享的具体机制，对企业 Agent 落地有参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 58/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/">The Decoder</source>
 <category>智能体</category>
 <category>开源</category>
@@ -246,33 +273,6 @@
 <category>智能算力</category>
 <category>生成式AI</category>
 <category>数字产业</category>
-</item>
-<item><title>群联推出太空定制固态硬盘产品线</title><link>https://www.ithome.com/1/030/134.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/134.htm</guid>
-<pubDate>Fri, 20 Nov 2026 17:25:17 +0800</pubDate>
-<description>&lt;p&gt;群联在 SC26 上发布 Pascari Space 产品类别，面向商业航天与轨道基础设施提供耐严苛环境的定制固态硬盘。该产品线分为飞行关键、主存储、轨道数据中心三条线，可按任务定制续航、数据保持率与错误处理能力，其定制 SSD 已达 TRL-9 并随商业月球载荷抵达月表。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;存储硬件厂商切入航天赛道，为轨道数据中心提供经在轨验证的定制存储方案，属算力基础设施的细分新动向。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 38/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/030/134.htm">IT之家 · IT业界</source>
-<category>存储硬件</category>
-<category>航天计算</category>
-<category>群联</category>
-<category>轨道数据中心</category>
-</item>
-<item><title>AMD XDNA 2 NPU 率先适配 Unsloth Desktop</title><link>https://www.ithome.com/1/030/131.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/131.htm</guid>
-<pubDate>Fri, 20 Nov 2026 17:13:35 +0800</pubDate>
-<description>&lt;p&gt;AMD 宣布锐龙 AI 处理器上的 XDNA 2 NPU 成为首款获得 Unsloth Desktop 本地界面支持的神经网络处理器，通过 Lemonade 与 FastFlowLM 完成模型服务与推理。这意味着 OpenClaw、Hermes 等超百款智能体可在 NPU 上本地运行，将 AI 负载从 CPU 与 GPU 卸载，释放算力并延长续航。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;端侧 NPU 首次接入主流本地智能体运行栈，是 AI PC 推理路径的一次实质性生态扩展。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/030/131.htm">IT之家 · 智能时代</source>
-<category>AMD</category>
-<category>端侧 AI</category>
-<category>NPU</category>
-<category>Unsloth</category>
-</item>
-<item><title>美光新加坡 HBM 封装厂设备进驻 2027 年初投产</title><link>https://www.ithome.com/1/030/130.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/130.htm</guid>
-<pubDate>Fri, 20 Nov 2026 17:13:25 +0800</pubDate>
-<description>&lt;p&gt;美光位于新加坡的 HBM 先进封装厂完成首台设备搬入，预计 2027 年初实现首批产出，总投资约 70 亿美元并延续至 2030 年后。该厂是美光扩充 HBM 产能、承接 AI 算力需求的关键落子，配套先进晶圆厂计划 2028 年下半年出片。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;HBM 产能扩张是 AI 算力供给的关键变量，美光 70 亿美元封装厂进入设备安装阶段具有明确的时间节点意义。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/030/130.htm">IT之家 · IT业界</source>
-<category>HBM</category>
-<category>美光</category>
-<category>先进封装</category>
-<category>算力基础设施</category>
 </item>
 </channel>
 </rss>
