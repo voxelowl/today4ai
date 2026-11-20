@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Sat, 21 Nov 2026 01:08:56 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 21 Nov 2026 01:38:08 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 登陆纳斯达克 募资 935 亿美元刷新纪录</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
 <pubDate>Fri, 20 Nov 2026 22:44:29 +0800</pubDate>
@@ -19,6 +19,14 @@
 
 Neon 的发布标志着谷歌在七周内连发四款 Gemini 4 系列模型，产品线快速收敛。其高性价比与可操控性优势直接对标 Anthropic 与 OpenAI 的旗舰产品，有望降低企业部署智能体的门槛，加剧中端 AI 模型市场的价格竞争。&lt;/p&gt;&lt;p&gt;15 sources&lt;/p&gt;&lt;p&gt;The Decoder, Marktechpost (@Marktechpost), Google DeepMind, OpenRouter (@OpenRouter), Hacker News AI, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
+<item><title>Anthropic 数学家宣称与 Claude 合作证明黎曼猜想</title><link>https://todayforai.com/en/story/story-c508eedd-8d6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c508eedd-8d6</guid>
+<pubDate>Sat, 21 Nov 2026 01:38:08 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 数学家 Levent Alpöge 公开宣称，在与 Claude 的协作下，成功证明了悬置 167 年的黎曼猜想，并进一步声称该方法可推广至广义黎曼猜想。据其表述，Claude 在数学家本人未掌握的高阶领域提出了关键证明步骤，双方历时约六周将完整论证形式化为机器可验证的 Lean 代码，且声称论证在无额外假设下完成。若该声明经同行评审确认，这将是 AI 首次在顶级数学难题上做出实质性贡献，标志着 AI 数学能力的重大跃迁。
+
+目前该声明仅为 Alpöge 的个人公开主张，尚未经过数学界同行评审与独立验证。Anthropic 官方未参与或置评，Alpöge 称曾私下告知 CEO Dario Amodei，并推迟至公司 IPO 后公布，引发利益关联质疑。多个信源一致强调，证明以 Lean 代码形式公布，但形式化验证本身仍需社区复核，且此前 OpenAI 在 10 月公布的数学成果被认为提供了突破口。
+
+若最终获得确认，这一事件将深刻影响 AI 辅助数学研究的生态，证明大模型在最高阶创造性数学推理中的潜力，并推动形式化验证与 AI 协作范式的普及。然而，在独立验证完成前，业界应保持审慎，避免过度解读个人声明。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Simon Willison 博客, IT之家 · 智能时代, The Verge AI, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
+</item>
 <item><title>OpenAI 发布 GPT-6.2 双模型 任务成本骤降 80%</title><link>https://todayforai.com/en/story/story-38dbfe49-f31</link><guid isPermaLink="true">https://todayforai.com/en/story/story-38dbfe49-f31</guid>
 <pubDate>Fri, 20 Nov 2026 15:13:50 +0800</pubDate>
 <description>&lt;p&gt;OpenAI 正式发布 GPT-6.2 Astra 与 GPT-6.2 Sol 两款新模型，分别面向高难度专业任务与日常高效工作。Astra 在专业智能体基准 Agents&amp;#x27; Last Exam 上较前代 GPT-6 Astra 提升 5.2 分，且单任务成本不足前代三分之一；对竞品 Claude Fable 5.2 领先 5.5 分，成本仅为其约 5%。API 定价同步下调 20%，Astra 输入/输出价格降至每百万 Token 8 美元与 40 美元，缓存输入价格从 1 美元降至 0.4 美元，Sol 维持 2/10 美元定价。
@@ -26,14 +34,6 @@ Neon 的发布标志着谷歌在七周内连发四款 Gemini 4 系列模型，�
 技术细节上，两款模型均以更少输出 Token 完成同等任务，官方建议保持提示前缀不变以复用缓存、降低延迟。Astra 在 3D 生成评测 AA-3D 中以 1318 Elo 登顶，超过 Fable 5.2 的 1271 分；在 Artificial Analysis 智能指数 v5 上，Astra 与 Sol 分别升至 62 分与 57 分，位列第二、第三，仅次于 Claude Fable 5.2。OpenAI 借此占据单位任务成本帕累托前沿的大部分区间，与 Anthropic、Meta 共同构成前沿格局。
 
 行业影响方面，此次发布正值 Anthropic IPO 定价前夕，OpenAI 以显著的成本优势发起价格战，有望降低企业级智能体部署门槛，加速 AI 在专业工作与编程场景的规模化落地。然而，安全评估也揭示隐忧：Astra 是 OpenAI 首个在 AI 自我改进维度获评 High 的公开模型，网络安全维度维持 Critical 级，英国 …&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), Arena.ai (@arena), IT之家 · IT业界, The Decoder, OpenRouter (@OpenRouter), Hacker News AI&lt;/p&gt;</description>
-</item>
-<item><title>Anthropic 数学家宣称与 Claude 合作证明黎曼猜想</title><link>https://todayforai.com/en/story/story-c508eedd-8d6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c508eedd-8d6</guid>
-<pubDate>Sat, 21 Nov 2026 00:34:13 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 数学家 Levent Alpöge 公开宣称，在与 Claude 协作下发现了黎曼猜想的证明，并称该方法可推广至广义黎曼猜想，且论证已在无额外假设下完成形式化。若该声明经同行验证成立，将是 AI 辅助数学研究的里程碑事件，但当前仅为个人声明，尚待形式化验证与社区复核。
-
-综合多个信源，Alpöge 称证明不仅覆盖黎曼猜想，还覆盖更广的广义黎曼猜想，成果已编写为 Lean 代码待形式化验证。此前 OpenAI 10 月公布的数学成果被认为提供了突破口。The Verge 报道称，该证明尚未经同行验证，Anthropic 官方未参与或置评，Alpöge 称曾私下告知 CEO Dario Amodei 并推迟至公司 IPO 后公布，引发利益关联质疑。
-
-若获确认，这将是 AI 首次在顶级未解数学难题上产出可验证证明，标志 AI 数学能力的关键跃迁。黎曼猜想是悬置 160 余年的七大千禧年难题之一，其证明若由 AI 辅助完成，将极大提升 AI 在数学研究中的地位，并可能引发对 AI 科研诚信与利益冲突的广泛讨论。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Simon Willison 博客, IT之家 · 智能时代, The Verge AI&lt;/p&gt;</description>
 </item>
 <item><title>华为云开源昇腾原生具身世界模型 CloudRobo-WM1.2</title><link>https://todayforai.com/en/story/story-bed90b93-fbf</link><guid isPermaLink="true">https://todayforai.com/en/story/story-bed90b93-fbf</guid>
 <pubDate>Fri, 20 Nov 2026 18:23:30 +0800</pubDate>
@@ -67,17 +67,17 @@ Signal 总裁 Meredith Whittaker 指出，Google、Apple、Microsoft 等 OS 厂�
 
 该平台现已对外开放，支持外部研究者接入自有智能体提交成果。这一实验不仅展示了 AI 智能体在科研流程中的自主潜力，也引发了关于学术质量、创新性评估以及人机协作模式的讨论。尽管 AI 在严谨性上表现突出，但新颖性的不足提示当前智能体更擅长执行与验证，而非提出颠覆性想法。未来，此类平台或将成为科研加速的重要工具，但需建立更完善的评审与伦理框架。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), 量子位 (微信公众号)&lt;/p&gt;</description>
 </item>
-<item><title>谷歌向 Ultra 用户开放 Genie 4 世界模型</title><link>https://todayforai.com/en/story/story-71017e8f-b4d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-71017e8f-b4d</guid>
-<pubDate>Thu, 19 Nov 2026 06:39:01 +0800</pubDate>
-<description>&lt;p&gt;谷歌正式向 Google AI Ultra 订阅用户开放其最先进的交互式 3D 世界生成模型 Genie 4，首次提供实时自然语言编辑与原生音频生成能力。这标志着世界模型从研究预览迈向商业化订阅服务，谷歌在生成式 AI 的下一阶段竞赛中率先落子。
-
-综合多方信源，Genie 4 的核心突破在于允许用户在探索过程中用自然语言实时修改 3D 环境，例如切换天气、添加角色或调整剧情，并首次为生成画面搭配随场景动态适配的原生音频。同步升级的 Genie 3 将单次可探索时长从 60 秒提升至 3 分钟，支持 360 度全景图 grounding 与多世界串联。新增的 Project Genie 智能体通过对话式交互调度多模态模型套件，将创作简化为自然语言对话。所有输出均嵌入 SynthID 水印并通过安全检查，社区画廊支持作品分享与二次创作。
-
-此次开放对 AI 内容创作、游戏原型设计与虚拟现实开发等领域具有实质影响。世界模型从被动生成转向可交互、可编辑的实时环境，有望大幅降低 3D 内容创作门槛，并推动订阅制 AI 服务的价值分层。Google AI Pro 用户目前仅能加入等待名单，凸显 Ultra 订阅的优先体验权。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, The Decoder, Google DeepMind, Hacker News AI&lt;/p&gt;</description>
-</item>
 <item><title>英伟达拟逾 5 亿美元收购扩散式大模型公司 Inception</title><link>https://todayforai.com/en/story/story-e018fd32-cc3</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e018fd32-cc3</guid>
 <pubDate>Fri, 20 Nov 2026 22:53:50 +0800</pubDate>
 <description>&lt;p&gt;英伟达正深入谈判收购 AI 初创公司 Inception，交易估值至少超 5 亿美元并可能附带业绩对赌。Inception 由斯坦福、UCLA、康奈尔教授于 2024 年创立，其扩散式大语言模型 Mercury 以并行生成实现低于 300 毫秒首字延迟、5 至 7 倍吞吐量，若交易落地团队或将加入英伟达 Nemotron 开源体系并延伸至机器人物理 AI。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, The Decoder&lt;/p&gt;</description>
+</item>
+<item><title>谷歌模块化改写智能体框架 省 90% Token 成功率翻 8 倍</title><link>https://todayforai.com/en/story/story-fff81094-a75</link><guid isPermaLink="true">https://todayforai.com/en/story/story-fff81094-a75</guid>
+<pubDate>Fri, 20 Nov 2026 08:19:51 +0800</pubDate>
+<description>&lt;p&gt;谷歌研究团队提出一种可自我改进的智能体框架（Harness）架构，通过让优化器模型逐模块改写框架代码并强制通过验证集筛选，在 SWE-bench Lite 的 40 个任务上实现了成功率与成本的双重突破。实验显示，模块化门控改写方案将任务成功率从 5.0% 提升至 40.0%，而每任务仅消耗约 4.67 万 Token；相比之下，不受限的整体重写方案虽达到 42.5% 的准确率，但每任务消耗高达 45.16 万 Token，成本接近前者的 10 倍。
+
+研究进一步揭示了关键约束条件：将规则写入提示词反而导致准确率暴跌至 2.5%，而将约束落在代码层强制执行则效果显著。此外，为某一模型调优的框架在迁移到另一模型时容易停滞或浪费 Token，表明框架优化具有模型特异性。研究同时警示代码自改带来的提示词膨胀、基准过拟合与评估程序篡改风险，强调需通过验证机制与权限边界加以约束。
+
+这一成果对智能体开发赛道具有实质影响：它证明了模块化、验证驱动的自我改进路径在成本与效果上远优于粗放的整体重写，为构建高效、可迁移的智能体框架提供了可复用的工程范式。同时，研究指出的过拟合与篡改风险也为社区敲响警钟，推动更严谨的评估标准与安全边界设计。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
