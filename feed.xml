@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 21 Nov 2026 05:58:29 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 21 Nov 2026 06:35:24 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>AWS Launches SageMaker HyperPod Global Inference Gateway</title><link>https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-one-endpoint-across-regions-and-clusters/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-one-endpoint-across-regions-and-clusters/</guid>
+<pubDate>Sat, 21 Nov 2026 06:35:24 +0800</pubDate>
+<description>&lt;p&gt;AWS introduced the SageMaker HyperPod Global Inference Gateway, extending its GPU-aware routing from a single cluster to a single managed endpoint spanning multiple clusters and Regions. The gateway selects clusters using real-time signals such as KV cache utilization and queue depth, carries requests over the AWS backbone, and provides automatic failover with SigV4 and IAM authentication. It targets capacity waste when one cluster queues requests while GPUs elsewhere sit idle.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS 推出 SageMaker 跨区全局推理网关&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向大模型推理的跨区容量调度能力更新，对使用 HyperPod 的团队有直接工程价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · compute · signal 58/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-one-endpoint-across-regions-and-clusters/">AWS Machine Learning Blog</source>
+<category>AWS</category>
+<category>推理基础设施</category>
+<category>算力调度</category>
+<category>SageMaker</category>
+</item>
 <item><title>Google Search Homepage Redesign Drops Search Button and Adds AI Sidebar</title><link>https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/</link><guid isPermaLink="true">https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/</guid>
 <pubDate>Sat, 21 Nov 2026 05:58:29 +0800</pubDate>
 <description>&lt;p&gt;Google has officially rolled out a redesigned desktop search homepage, removing the long-standing dedicated search button and adding AI entry points for image generation, file analysis, and Gemini brainstorming below the search bar. Search VP Robby Stein confirmed the full deployment after weeks of testing, marking a shift of the homepage from a traditional retrieval entry to an AI interaction hub.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌搜索主页改版 移除搜索按钮并新增 AI 侧栏&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;谷歌搜索首页正式改版并移除搜索按钮，是搜索产品形态向 AI 交互迁移的明确信号，值得关注。&lt;/p&gt;&lt;p&gt;Ars Technica AI · tools · signal 58/100&lt;/p&gt;</description>
@@ -83,6 +92,15 @@
 <category>金融</category>
 <category>AWS</category>
 <category>风险评估</category>
+</item>
+<item><title>Thinking Machines Releases Inkling 2 Mini Open-Weights Model</title><link>https://x.com/ArtificialAnlys/status/2123877871316087012</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2123877871316087012</guid>
+<pubDate>Sat, 21 Nov 2026 04:35:18 +0800</pubDate>
+<description>&lt;p&gt;Thinking Machines has released Inkling 2 Mini, a 26B-total, 5.4B-active-parameter looped-transformer mixture-of-experts model scoring 20 on the Artificial Analysis Intelligence Index, placing it on the Pareto frontier for intelligence versus active parameters. Released under Apache 2.0 with text and image input and a 1M-token context window, it is small enough to run locally on a MacBook or DGX Spark.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Thinking Machines 发布 Inkling 2 Mini 开源模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源权重模型以极小激活参数进入智能帕累托前沿，且可在消费级设备本地运行，对关注端侧与开源生态的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/ArtificialAnlys/status/2123877871316087012">Artificial Analysis (@ArtificialAnlys)</source>
+<category>开源模型</category>
+<category>混合专家</category>
+<category>端侧推理</category>
+<category>Thinking Machines</category>
 </item>
 <item><title>OpenAI Tightens Reasoning Defenses as Attack Success Rate Falls to 0.2%</title><link>https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/</link><guid isPermaLink="true">https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/</guid>
 <pubDate>Sat, 21 Nov 2026 04:31:50 +0800</pubDate>
@@ -201,18 +219,36 @@
 <category>端到端加密</category>
 <category>Signal</category>
 </item>
-<item><title>Google and Johns Hopkins Unveil Pro2 Agent That Tracks Bottlenecks Before Coding</title><link>https://x.com/rohanpaul_ai/status/2123866338850709801</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123866338850709801</guid>
+<item><title>GPT-6.2 Astra Tops AA-Robotics Benchmark with Fewest Moves</title><link>https://x.com/ArtificialAnlys/status/2123866468156854664</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2123866468156854664</guid>
+<pubDate>Sat, 21 Nov 2026 03:50:00 +0800</pubDate>
+<description>&lt;p&gt;Artificial Analysis&amp;#x27; AA-Robotics v0.1 benchmark shows GPT-6.2 Astra issuing only 668 commands across six robotic tasks, the fewest among 11 models, while posting the highest score. On the box-cleanup task it used 92 arm commands, roughly 75% fewer than Claude Fable 5.2, indicating stronger motion-planning efficiency.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;GPT-6.2 Astra 在机器人基准中动作数最少&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个机器人操作效率基准的横向对比结果，直接反映前沿模型在具身任务规划上的差距。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 62/100&lt;/p&gt;</description>
+<source url="https://x.com/ArtificialAnlys/status/2123866468156854664">Artificial Analysis (@ArtificialAnlys)</source>
+<category>大模型</category>
+<category>具身智能</category>
+<category>基准评测</category>
+<category>Artificial Analysis</category>
+</item>
+<item><title>谷歌新研究让科研智能体先记录瓶颈再改代码</title><link>https://x.com/rohanpaul_ai/status/2123866338850709801</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123866338850709801</guid>
 <pubDate>Sat, 21 Nov 2026 03:49:29 +0800</pubDate>
-<description>&lt;p&gt;Google and Johns Hopkins researchers introduce Pro2 Agent, which has ML research agents first build a &amp;#x27;Problem State&amp;#x27; capturing suspected bottlenecks, candidate fixes and confidence levels, then run single-variable experiments to update beliefs before committing code changes. It reaches a 76.0% medal rate across all 75 MLE-Bench tasks within 48 hours, the highest reported, and medals on 57.6% of MLE-Bench Lite tasks with its first solution versus 28.8% for MARS.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌新研究让科研智能体先记录瓶颈再改代码&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出可复用的科研智能体方法论并在权威基准上刷新最高成绩，对构建研究型 Agent 的开发者有直接借鉴价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;谷歌与约翰霍普金斯大学联合提出 Pro2 Agent，让 ML 科研智能体先构建“问题状态”，记录疑似瓶颈、候选修复方案及置信度，再通过单变量实验逐步更新判断，而非盲目循环改代码。在全部 75 个 MLE-Bench 任务上，其 48 小时奖牌率达 76.0%，为已报告最高水平；MLE-Bench Lite 上首个方案即达 57.6%，远超 MARS 的 28.8%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出可复用的科研智能体方法论并在权威基准上刷新最高成绩，对构建研究型 Agent 的开发者有直接借鉴价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2123866338850709801">Rohan Paul (@rohanpaul_ai)</source>
 <category>智能体</category>
 <category>AI for Science</category>
 <category>谷歌</category>
 <category>基准评测</category>
 </item>
-<item><title>Anthropic Researcher Claims Lean-Verified Proof of Riemann Hypothesis</title><link>https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/</guid>
+<item><title>Anthropic 称 Claude 辅助证明黎曼猜想</title><link>https://x.com/ArtificialAnlys/status/2123865423364161861</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2123865423364161861</guid>
+<pubDate>Sat, 21 Nov 2026 03:45:51 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 研究员 Levent Alpöge 宣称借助 Claude 完成黎曼猜想的证明，这是继 OpenAI 9 月声称用未公开内部模型解决纳维-斯托克斯方程后，第二起 AI 涉足千禧年数学难题的事件。两项结果均待独立验证，目前仅 Perelman 对庞加莱猜想的证明获正式认可。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 首次被宣称介入黎曼猜想等千禧年难题，虽待验证但标志前沿模型向数学发现延伸。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 71/100&lt;/p&gt;</description>
+<source url="https://x.com/ArtificialAnlys/status/2123865423364161861">Artificial Analysis (@ArtificialAnlys)</source>
+<category>大模型</category>
+<category>数学推理</category>
+<category>Anthropic</category>
+<category>OpenAI</category>
+</item>
+<item><title>Anthropic 员工宣称用 Lean 攻克 167 年黎曼猜想</title><link>https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/</guid>
 <pubDate>Sat, 21 Nov 2026 03:32:08 +0800</pubDate>
-<description>&lt;p&gt;Anthropic mathematician Levent Alpöge has published an essay claiming a Lean-compilable proof of the Riemann Hypothesis, an open problem since 1859 and one of the Clay Millennium Prize problems. Mathematicians are scrutinizing the result in Lean community channels, while a second researcher has also claimed an independent proof, leaving verification to peer review. If it holds, the result would mark a landmark intersection of mathematics and AI-assisted formal verification.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 员工宣称用 Lean 攻克 167 年黎曼猜想&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;黎曼猜想的 Lean 形式化证明若被证实，将是数学史与 AI 形式化验证的双重里程碑，值得所有关注前沿的读者优先分配注意力。&lt;/p&gt;&lt;p&gt;TechCrunch AI · llm · signal 88/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 数学家 Levent Alpöge 发布论文，宣称给出黎曼猜想的 Lean 可编译证明，该猜想自 1859 年悬置至今并属千禧年大奖难题。消息在 Lean 社区引发数学家密集核验，同时另一名研究者也声称独立完成证明，真伪尚待同行评审确认。若成立，将是数学与 AI 形式化验证交叉领域的里程碑事件。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;黎曼猜想的 Lean 形式化证明若被证实，将是数学史与 AI 形式化验证的双重里程碑，值得所有关注前沿的读者优先分配注意力。&lt;/p&gt;&lt;p&gt;TechCrunch AI · llm · signal 88/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/">TechCrunch AI</source>
 <category>黎曼猜想</category>
 <category>Lean</category>
@@ -220,9 +256,9 @@
 <category>Anthropic</category>
 <category>数学</category>
 </item>
-<item><title>Winedroid Demo Runs Android Apps via WebAssembly</title><link>https://winedroid.soham.sh/demo/</link><guid isPermaLink="true">https://winedroid.soham.sh/demo/</guid>
+<item><title>Winedroid 演示用 WASM 运行 Android 应用</title><link>https://winedroid.soham.sh/demo/</link><guid isPermaLink="true">https://winedroid.soham.sh/demo/</guid>
 <pubDate>Sat, 21 Nov 2026 03:30:16 +0800</pubDate>
-<description>&lt;p&gt;Winedroid is an experimental project that attempts to run Android applications without an Android OS by leveraging WebAssembly, and it has released an interactive demo. The demo currently crashes with a runtime error when opening an APK, indicating the project remains at an early, unstable stage.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Winedroid 演示用 WASM 运行 Android 应用&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以 WASM 替代 Android 运行时是颇具想象力的技术路线，虽演示尚不稳定，仍值得关注其后续进展。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Winedroid 是一个实验性项目，尝试通过 WebAssembly 在无 Android 操作系统的环境中运行 Android 应用，并发布了可交互演示。当前演示在打开 APK 时触发运行时错误而停止，说明项目仍处于早期不稳定阶段。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以 WASM 替代 Android 运行时是颇具想象力的技术路线，虽演示尚不稳定，仍值得关注其后续进展。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 42/100&lt;/p&gt;</description>
 <source url="https://winedroid.soham.sh/demo/">Hacker News AI</source>
 <category>WebAssembly</category>
 <category>Android</category>
@@ -237,42 +273,6 @@
 <category>Google</category>
 <category>Android</category>
 <category>开源生态</category>
-</item>
-<item><title>Gemini 上线 Mac 后台电脑操作功能</title><link>https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/</link><guid isPermaLink="true">https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/</guid>
-<pubDate>Sat, 21 Nov 2026 02:50:31 +0800</pubDate>
-<description>&lt;p&gt;Google 在 Gemini Mac 应用中推出 Computer Use 功能，用户只需描述目标，Gemini 即可在隔离的后台窗口中跨本地文件、桌面应用与网页完成多步骤任务，同时保持屏幕与光标可用。该功能今日以英文在美国上线，支持应用级权限选择、实时步骤预览、随时暂停与关键操作预审批。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是桌面端智能体落地的关键一步，后台隔离执行与权限审批机制为 Computer Use 类产品提供了可参考的工程范式。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 78/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/">The Decoder</source>
-<category>智能体</category>
-<category>Google</category>
-<category>Computer Use</category>
-<category>桌面自动化</category>
-</item>
-<item><title>特朗普威胁对海外建数据中心征收重税</title><link>https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax</link><guid isPermaLink="true">https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax</guid>
-<pubDate>Sat, 21 Nov 2026 02:50:19 +0800</pubDate>
-<description>&lt;p&gt;特朗普在中俄峰会后的记者会上首次公开提出，将对在美国境外建设数据中心的公司征收“巨额税收”，并称若放任外建“中国会把它们全部拿走”。该表态缺乏具体税率、法律依据与执行路径，且与美国多州、市正在收紧数据中心审批的现实相冲突，落地难度大。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;算力基础设施布局直接受美国政策风向影响，该表态虽细节缺失但涉及全球数据中心选址与 AI 基建成本结构。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax">The Verge AI</source>
-<category>数据中心</category>
-<category>算力基础设施</category>
-<category>美国政策</category>
-<category>AI 基建</category>
-</item>
-<item><title>特朗普威胁对美企海外 AI 数据中心加征重税</title><link>https://x.com/rohanpaul_ai/status/2123846591027261628</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123846591027261628</guid>
-<pubDate>Sat, 21 Nov 2026 02:31:01 +0800</pubDate>
-<description>&lt;p&gt;特朗普在白宫简报会上表示，美国企业若在海外建设 AI 数据中心将面临“巨额税收”，并将此举类比为半导体产业外迁。他同时敦促国内社区停止拒绝数据中心项目，转而让开发商付费，并点名西弗吉尼亚作为替代选址。该表态尚未形成具体政策，但可能抬高美企寻求廉价电力出海建站的成本预期。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;直接影响 AI 算力基础设施的全球布局与选址成本，是产业政策层面的重要信号。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2123846591027261628">Rohan Paul (@rohanpaul_ai)</source>
-<category>产业政策</category>
-<category>数据中心</category>
-<category>算力基础设施</category>
-<category>特朗普</category>
-</item>
-<item><title>开发者用 AI 编码代理在 FPGA 上跑通大模型</title><link>https://ankitg.me/blog/vibecoding-inference-chip/</link><guid isPermaLink="true">https://ankitg.me/blog/vibecoding-inference-chip/</guid>
-<pubDate>Sat, 21 Nov 2026 02:15:16 +0800</pubDate>
-<description>&lt;p&gt;一位开发者借助编码代理，在可重编程 FPGA 上完成了大模型推理的硬件实现，并称整个流程“直接跑通了”。文章复盘了从零进入硬件领域的一系列关键突破，认为编码代理把低层硬件开发的门槛大幅拉低，让此前只有专业团队才能涉足的方向变得可行。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是编码代理跨域落地硬件开发的真实一手实践，对关注 AI 辅助工程与算力底座的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 72/100&lt;/p&gt;</description>
-<source url="https://ankitg.me/blog/vibecoding-inference-chip/">Hacker News AI</source>
-<category>AI 编程</category>
-<category>FPGA</category>
-<category>编码代理</category>
-<category>硬件开发</category>
 </item>
 </channel>
 </rss>
