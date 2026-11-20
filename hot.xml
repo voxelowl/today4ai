@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Sat, 21 Nov 2026 04:12:19 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 21 Nov 2026 05:17:59 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 登陆纳斯达克 募资 935 亿美元刷新纪录</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
 <pubDate>Sat, 21 Nov 2026 01:44:01 +0800</pubDate>
@@ -17,7 +17,7 @@ Anthropic 的上市标志着头部大模型公司首次进入公开资本市场�
 
 综合多源信息，Neon 支持 100 万 token 上下文与四档推理级别，可在 Antigravity 开发环境中调度多个子智能体并行执行长任务。在 Arena 智能体竞技场基于 4200 场真实会话的评测中，Neon 以 1336 分位列总榜第二，单任务中位成本仅 2.82 美元，比 Claude Opus 5.5 低 53%，比榜首 Claude Fable 5.2 低 69%。模型卡显示其在 Gray-Swan 基准上 100% 阻断间接提示注入攻击，速度约 110 tokens/秒，接近同代 Carbon 的两倍。
 
-Neon 的发布标志着谷歌在七周内连发四款 Gemini 4 系列模型，产品线快速收敛。其高性价比与可操控性优势直接对标 Anthropic 与 OpenAI 的旗舰产品，有望降低企业部署智能体的门槛，加剧中端 AI 模型市场的价格竞争。&lt;/p&gt;&lt;p&gt;15 sources&lt;/p&gt;&lt;p&gt;The Decoder, Marktechpost (@Marktechpost), Google DeepMind, OpenRouter (@OpenRouter), Hacker News AI, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
+Neon 的发布标志着谷歌在七周内连发四款 Gemini 4 系列模型，产品线快速收敛。其高性价比与可操控性优势直接对标 Anthropic 与 OpenAI 的旗舰产品，有望降低企业部署智能体的门槛，加剧中端 AI 模型市场的价格竞争。&lt;/p&gt;&lt;p&gt;12 sources&lt;/p&gt;&lt;p&gt;The Decoder, Marktechpost (@Marktechpost), Google DeepMind, OpenRouter (@OpenRouter), Hacker News AI, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 数学家宣称与 Claude 合作证明黎曼猜想</title><link>https://todayforai.com/en/story/story-c508eedd-8d6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c508eedd-8d6</guid>
 <pubDate>Sat, 21 Nov 2026 03:32:08 +0800</pubDate>
@@ -59,6 +59,14 @@ Neon 的发布标志着谷歌在七周内连发四款 Gemini 4 系列模型，�
 
 这一披露对 AI 安全生态具有实质影响。随着模型能力提升，对抗性蒸馏成为新型滥用途径，OpenAI 的多层防御思路为行业提供了可借鉴的范本，推动 API 提供商和模型开发者加强推理链保护，也可能促使全行业重新评估模型输出管控策略。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, OpenAI 官方博客&lt;/p&gt;</description>
 </item>
+<item><title>OpenAI 发布药物化学基准 MedChemBench</title><link>https://todayforai.com/en/story/story-ac4a9ae9-3fa</link><guid isPermaLink="true">https://todayforai.com/en/story/story-ac4a9ae9-3fa</guid>
+<pubDate>Sat, 21 Nov 2026 05:17:59 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 正式推出药物化学基准 MedChemBench，旨在评测 AI 模型在真实药物发现任务中的推理能力。该基准从 117 篇论文与专利中提取题目，覆盖 761 个分级分子结构，并在真实决策点截断、隐藏后续实验结果，要求模型基于生物靶点、已合成化合物与部分测定结果做出判断。
+
+测试结果显示，最强模型 GPT-6.2 Astra 总体正确率约 84%，化学结构解读近乎满分，但关键决策正确率仅约五成。这表明前沿模型在分子结构解读方面表现优异，但在需要综合实验证据进行药物设计决策时仍有明显短板。OpenAI 官方表示，MedChemBench 聚焦分子结构与实验证据的关联推理，任务覆盖结果解释、化合物比较与性质预测三类核心工作，旨在定位模型能力边界，为后续迭代提供可量化参照。
+
+该基准的发布填补了药物化学领域 AI 评测的空白，为开发者提供了衡量模型在真实科研场景中实用性的标尺。业界认为，随着 AI 在药物发现中的应用日益深入，此类基准将推动模型从“结构识别”向“决策辅助”演进，加速 AI 在生物医药研发中的落地。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), OpenAI 官方博客&lt;/p&gt;</description>
+</item>
 <item><title>Parallel Search 登顶搜索指数 单次任务仅 0.014 美元</title><link>https://todayforai.com/en/story/story-1b003842-8b7</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1b003842-8b7</guid>
 <pubDate>Sat, 21 Nov 2026 01:43:02 +0800</pubDate>
 <description>&lt;p&gt;Artificial Analysis 用 Stirrup 智能体框架对 Parallel Search API 的 fast 与 advanced 两种模式进行了 1700 项搜索任务评测，advanced 模式以 83 分与 Keenable Search (pro) 并列榜首，fast 模式以 82 分位列第四。相比 8 月版本，两种模式分别提升 8 分和 9 分，且 fast 模式单次任务成本仅 0.014 美元，在 DeepSearchQA 上两种模式均取得 89 F1。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
@@ -70,14 +78,6 @@ Neon 的发布标志着谷歌在七周内连发四款 Gemini 4 系列模型，�
 CloudRobo-WM1.2 采用 PPA 多模态世界表征架构与世界模型原生 DualAct 动作生成架构，能够直接输出动作，并通过多粒度监督预训练兼容缺失动作标注、深度缺失等异构数据。其跨具身运动建模统一了单臂、双臂与轮式机器人的运动语义，在第三方真机测试中覆盖 5 种本体 13 项任务，平均成功率领先第二名 23 个百分点，并具备插接失败后的动态重试能力。模型从架构、训练框架到核心算子与推理部署均围绕昇腾进行软硬件协同优化，实现了全栈自主可控。
 
 同步推出的 CloudRobo 一站式具身智能开发平台，整合了算力、仿真与真机适配等底层工程，旨在降低具身智能研发门槛。华为云还设立最高 200 万元的伙伴专项支持，专区上线 5 个月已合作 230 多家企业与高校。此举标志着华为云在具身智能领域从模型到生态的全面布局，有望加速机器人产业的智能化升级。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;量子位 (微信公众号), InfoQ 中文, 量子位官网&lt;/p&gt;</description>
-</item>
-<item><title>特朗普威胁对海外建数据中心美企征重税</title><link>https://todayforai.com/en/story/story-12a274f9-59f</link><guid isPermaLink="true">https://todayforai.com/en/story/story-12a274f9-59f</guid>
-<pubDate>Sat, 21 Nov 2026 03:56:58 +0800</pubDate>
-<description>&lt;p&gt;美国总统特朗普在白宫简报会上首次公开威胁，将对在美国境外建设数据中心的美国企业征收“巨额税收”并施加惩罚，点名芬兰项目，理由是担心中国接手。他声称数据中心将自建发电设施从而压低居民电价，并支持地方以现金补偿换取项目落地。
-
-综合多家信源，特朗普的表态缺乏具体税率、法律依据与执行路径，且与美国多州、市正在收紧数据中心审批的现实相冲突。其所谓“中国会把数据中心全部拿走”的论调，延续了防止芯片产业外流的逻辑，但政策内部存在张力，落地难度大。
-
-此举可能加剧美国科技企业海外布局的不确定性，并引发盟友对投资环境的担忧。同时，特朗普关于数据中心自建发电降低电价的说法缺乏数据支撑，而地方现金补偿换项目获批的模式，可能推高公共成本并引发公平性质疑。整体来看，该政策信号意义大于实际执行力，但足以扰动全球数据中心投资格局。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), The Verge AI&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

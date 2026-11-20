@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 21 Nov 2026 05:07:21 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 21 Nov 2026 05:48:34 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Nace Launches Drex Router with Sub-90ms Model Selection</title><link>https://x.com/rohanpaul_ai/status/2123896307811246550</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123896307811246550</guid>
+<pubDate>Sat, 21 Nov 2026 05:48:34 +0800</pubDate>
+<description>&lt;p&gt;Nace AI released Drex Router, a 12B Gemma-based model that reads a prompt and a candidate model list to return a pick, per-candidate probabilities and a short rationale in 57-87 ms. On 1,400 general-knowledge exam questions it scored 87.6% at $0.10 per 1,000 questions, versus Jev Router&amp;#x27;s 86.4% at $1.09.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Nace 推出 12B 模型路由器 Drex 延迟低于 90 ms&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;低成本低延迟的模型路由方案，为 Agent 多模型调度提供了可量化的新选择。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · tools · signal 62/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2123896307811246550">Rohan Paul (@rohanpaul_ai)</source>
+<category>模型路由</category>
+<category>Agent</category>
+<category>Nace AI</category>
+<category>推理成本</category>
+</item>
+<item><title>OpenAI Releases MedChemBench Medicinal Chemistry Benchmark</title><link>https://x.com/rohanpaul_ai/status/2123888611678646426</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123888611678646426</guid>
+<pubDate>Sat, 21 Nov 2026 05:17:59 +0800</pubDate>
+<description>&lt;p&gt;OpenAI has published MedChemBench, a medicinal chemistry benchmark built from 117 papers and patents spanning 761 graded molecular structures, with prompts cut off at real decision points and later reported results withheld. The strongest model, GPT-6.2 Astra, scores about 84% overall and is near-perfect at reading chemistry, yet is correct only about half the time on the decision that actually matters, exposing a clear gap in real-world drug design judgment.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 发布药物化学基准 MedChemBench&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个以真实药物化学决策点为切口的基准，揭示顶尖模型在关键判断上仅约五成正确。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2123888611678646426">Rohan Paul (@rohanpaul_ai)</source>
+<category>基准评测</category>
+<category>药物化学</category>
+<category>OpenAI</category>
+<category>AI for Science</category>
+</item>
 <item><title>SpaceX Raises $32B Debt to Secure Nvidia Rubin GPUs</title><link>https://x.com/rohanpaul_ai/status/2123885935230341451</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123885935230341451</guid>
 <pubDate>Sat, 21 Nov 2026 05:07:21 +0800</pubDate>
 <description>&lt;p&gt;SpaceX has sold $32B of debt to lock in Nvidia&amp;#x27;s newest Rubin GPUs, with BlackRock and KKR as anchor investors. The proceeds fund roughly $47.3B of GPU equipment, with deliveries starting in January. Structured through Apollo-managed Saturn Funding Trust, which buys the chips and leases them back to SpaceX for about five years, the deal keeps the borrowing off SpaceX&amp;#x27;s balance sheet, helping it preserve investment-grade ratings and borrow more, faster.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SpaceX 举债 320 亿美元采购英伟达 Rubin GPU&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 算力融资结构创新的标志性案例，涉及巨额资本与顶级芯片供应，对关注算力基础设施的读者具有高参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 78/100&lt;/p&gt;</description>
@@ -111,6 +129,15 @@
 <category>MQTT</category>
 <category>智能家居</category>
 </item>
+<item><title>Emacs Author Releases DreamCoder AI Coding Harness and IDE</title><link>https://www.masteringemacs.org/article/announcing-dreamcoder</link><guid isPermaLink="true">https://www.masteringemacs.org/article/announcing-dreamcoder</guid>
+<pubDate>Sat, 21 Nov 2026 04:03:59 +0800</pubDate>
+<description>&lt;p&gt;The author of Mastering Emacs has released DreamCoder, an AI coding harness and IDE positioned as distinct from terminal-based tools like Claude Code, after fifteen months of development. Drawing on his own experience using Claude Code to build enterprise middleware, he highlights its speed gains alongside the need for human steering, framing a broader discussion of AI coding tool form factors.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Emacs 专家发布 DreamCoder AI 编程工具&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;知名 Emacs 作者推出的新 AI 编程工具，具备一定开发者关注度，但正文信息有限且偏个人叙事。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.masteringemacs.org/article/announcing-dreamcoder">Hacker News AI</source>
+<category>AI 编程工具</category>
+<category>IDE</category>
+<category>Emacs</category>
+<category>开发者工具</category>
+</item>
 <item><title>Anthropic Models Claim Generalized Riemann Hypothesis Proof in 17.4M Lines of Lean</title><link>https://scottaaronson.blog/?p=10344</link><guid isPermaLink="true">https://scottaaronson.blog/?p=10344</guid>
 <pubDate>Sat, 21 Nov 2026 04:03:07 +0800</pubDate>
 <description>&lt;p&gt;Levent Alpöge claims to have used Anthropic models to prove the Generalized Riemann Hypothesis, generating 17.4 million lines of Lean code now published on GitHub. Coming on the heels of an AI-assisted result bounding nontrivial zeros within 3/8 of the critical line, a verified proof would mark a landmark moment for AI for mathematics.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 模型宣称证明广义黎曼猜想 产出 1740 万行 Lean 代码&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 挑战千禧年难题级数学猜想并产出超大规模形式化证明，是 AI for Science 领域极具分量的潜在节点事件。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 88/100&lt;/p&gt;</description>
@@ -202,27 +229,27 @@
 <category>美国政策</category>
 <category>AI 基建</category>
 </item>
-<item><title>Trump Threatens Heavy Tax on US Firms Building AI Data Centers Abroad</title><link>https://x.com/rohanpaul_ai/status/2123846591027261628</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123846591027261628</guid>
+<item><title>特朗普威胁对美企海外 AI 数据中心加征重税</title><link>https://x.com/rohanpaul_ai/status/2123846591027261628</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123846591027261628</guid>
 <pubDate>Sat, 21 Nov 2026 02:31:01 +0800</pubDate>
-<description>&lt;p&gt;President Trump said at a White House briefing that US companies building AI data centers abroad would face \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;特朗普威胁对美企海外 AI 数据中心加征重税&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;直接影响 AI 算力基础设施的全球布局与选址成本，是产业政策层面的重要信号。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;特朗普在白宫简报会上表示，美国企业若在海外建设 AI 数据中心将面临“巨额税收”，并将此举类比为半导体产业外迁。他同时敦促国内社区停止拒绝数据中心项目，转而让开发商付费，并点名西弗吉尼亚作为替代选址。该表态尚未形成具体政策，但可能抬高美企寻求廉价电力出海建站的成本预期。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;直接影响 AI 算力基础设施的全球布局与选址成本，是产业政策层面的重要信号。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2123846591027261628">Rohan Paul (@rohanpaul_ai)</source>
 <category>产业政策</category>
 <category>数据中心</category>
 <category>算力基础设施</category>
 <category>特朗普</category>
 </item>
-<item><title>Developer Vibe-Codes an FPGA to Run an LLM End to End</title><link>https://ankitg.me/blog/vibecoding-inference-chip/</link><guid isPermaLink="true">https://ankitg.me/blog/vibecoding-inference-chip/</guid>
+<item><title>开发者用 AI 编码代理在 FPGA 上跑通大模型</title><link>https://ankitg.me/blog/vibecoding-inference-chip/</link><guid isPermaLink="true">https://ankitg.me/blog/vibecoding-inference-chip/</guid>
 <pubDate>Sat, 21 Nov 2026 02:15:16 +0800</pubDate>
-<description>&lt;p&gt;A developer used coding agents to implement LLM inference on a reprogrammable FPGA, reporting that it simply worked. The post recounts a series of breakthroughs while entering hardware from scratch and argues that coding agents sharply lower the barrier to low-level hardware work, opening directions previously reserved for specialized teams.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;开发者用 AI 编码代理在 FPGA 上跑通大模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是编码代理跨域落地硬件开发的真实一手实践，对关注 AI 辅助工程与算力底座的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;一位开发者借助编码代理，在可重编程 FPGA 上完成了大模型推理的硬件实现，并称整个流程“直接跑通了”。文章复盘了从零进入硬件领域的一系列关键突破，认为编码代理把低层硬件开发的门槛大幅拉低，让此前只有专业团队才能涉足的方向变得可行。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是编码代理跨域落地硬件开发的真实一手实践，对关注 AI 辅助工程与算力底座的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 72/100&lt;/p&gt;</description>
 <source url="https://ankitg.me/blog/vibecoding-inference-chip/">Hacker News AI</source>
 <category>AI 编程</category>
 <category>FPGA</category>
 <category>编码代理</category>
 <category>硬件开发</category>
 </item>
-<item><title>METR Updates AI Task-Horizon Plot with Open-Ended Benchmarks</title><link>https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/</link><guid isPermaLink="true">https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/</guid>
+<item><title>METR 更新 AI 任务时长图 新增开放式任务评估</title><link>https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/</link><guid isPermaLink="true">https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/</guid>
 <pubDate>Sat, 21 Nov 2026 02:15:15 +0800</pubDate>
-<description>&lt;p&gt;AI evaluation nonprofit METR has updated its widely cited time-horizon plot, adding longer and more open-ended tasks. The trend of frontier models doubling the length of tasks they can complete roughly every four months appears to hold, but models remain weaker on judgment-heavy work than on coding. METR cautions that open-ended evaluation is still far from settling whether, or how fast, automated AI R&amp;amp;D might arrive.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;METR 更新 AI 任务时长图 新增开放式任务评估&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;METR 任务时长曲线是衡量 AI 能力进展的关键标尺，此次更新引入开放式任务，直接影响对自动化研发时间表的判断。&lt;/p&gt;&lt;p&gt;MIT Technology Review · llm · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;AI 评估非营利机构 METR 更新其广受关注的“任务时长”曲线，新增耗时更长与更开放式的任务，结果显示前沿模型可完成任务的时长仍约每四个月翻倍，但在需要判断力的任务上表现弱于编程。报告同时强调，开放式任务评估尚不足以回答自动化 AI 研发是否会到来、以及有多快到来。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;METR 任务时长曲线是衡量 AI 能力进展的关键标尺，此次更新引入开放式任务，直接影响对自动化研发时间表的判断。&lt;/p&gt;&lt;p&gt;MIT Technology Review · llm · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/">MIT Technology Review</source>
 <category>AI 评估</category>
 <category>METR</category>
@@ -245,33 +272,6 @@
 <category>模型评测</category>
 <category>智能体对齐</category>
 <category>Arena.ai</category>
-</item>
-<item><title>Anthropic 上市次日股价跌超 11% 纳指回吐全年涨幅</title><link>https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394</link><guid isPermaLink="true">https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394</guid>
-<pubDate>Sat, 21 Nov 2026 01:44:01 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 创纪录 IPO 次日股价大跌逾 11%，回吐首日 17% 涨幅，并领跌本轮 AI 板块抛售。纳斯达克综合指数跌超 3%，正式抹平 2026 年全部涨幅；标普 500 连跌六日、较近期高点回落 10% 进入回调区间，CoreWeave、英伟达、甲骨文同步走弱。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司 IPO 后即遭抛售、纳指抹平全年涨幅，是 AI 资本市场情绪转向的关键信号。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 71/100&lt;/p&gt;</description>
-<source url="https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394">Hacker News AI</source>
-<category>Anthropic</category>
-<category>IPO</category>
-<category>美股</category>
-<category>AI 资本市场</category>
-</item>
-<item><title>Parallel Search 登顶搜索指数 单次任务仅 0.014 美元</title><link>https://x.com/ArtificialAnlys/status/2123834515814506617</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2123834515814506617</guid>
-<pubDate>Sat, 21 Nov 2026 01:43:02 +0800</pubDate>
-<description>&lt;p&gt;Artificial Analysis 用 Stirrup 智能体框架对 Parallel Search API 的 fast 与 advanced 两种模式进行了 1700 项搜索任务评测，advanced 模式以 83 分与 Keenable Search (pro) 并列榜首，fast 模式以 82 分位列第四。相比 8 月版本，两种模式分别提升 8 分和 9 分，且 fast 模式单次任务成本仅 0.014 美元，在 DeepSearchQA 上两种模式均取得 89 F1。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;第三方权威评测给出搜索 API 的横向排名与真实成本，对选型搜索工具的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · tools · signal 68/100&lt;/p&gt;</description>
-<source url="https://x.com/ArtificialAnlys/status/2123834515814506617">Artificial Analysis (@ArtificialAnlys)</source>
-<category>搜索 API</category>
-<category>基准评测</category>
-<category>Artificial Analysis</category>
-<category>Parallel Search</category>
-</item>
-<item><title>太空数据中心芯片融资面临抵押难题</title><link>https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/</guid>
-<pubDate>Sat, 21 Nov 2026 01:40:01 +0800</pubDate>
-<description>&lt;p&gt;在太空建设数据中心正面临芯片融资的结构性障碍：现有数据中心生态依赖以芯片为抵押品的债务融资，但轨道上的芯片无法被贷款方收回再出售，SpaceX 的 400 亿美元芯片融资交易中贷款方已要求排除在轨芯片。与此同时，SpaceX 与特斯拉正推进美国本土 Terrafab 晶圆厂项目，但尚未动工。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示太空算力热潮背后被忽视的金融基础设施约束，是算力扩张叙事中的关键反面视角。&lt;/p&gt;&lt;p&gt;TechCrunch AI · compute · signal 58/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/">TechCrunch AI</source>
-<category>太空数据中心</category>
-<category>芯片融资</category>
-<category>SpaceX</category>
-<category>算力基础设施</category>
 </item>
 </channel>
 </rss>
