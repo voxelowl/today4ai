@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Fri, 20 Nov 2026 12:22:46 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 20 Nov 2026 13:50:54 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>MetaChip Lights Up Mega188 3D-TPU Chip with 600GB/s DRAM Bandwidth</title><link>https://www.ithome.com/1/029/876.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/876.htm</guid>
+<pubDate>Fri, 20 Nov 2026 13:50:54 +0800</pubDate>
+<description>&lt;p&gt;Chinese edge-LLM chip startup MetaChip announced that its 3D-TPU chip Mega188 has successfully taped out and lit up. The chip vertically integrates 2/4/8GB of DRAM via 3D stacking and hybrid bonding, reaching 600GB/s peak memory bandwidth with a 5W low-power mode, and benchmarks at 80 TPS on Qwen3-8B inference.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;迈特芯 3D-TPU 芯片 Mega188 点亮 带宽 600GB/s&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;端侧大模型芯片以 3D 堆叠 DRAM 突破内存带宽瓶颈，是国产算力架构路线的重要工程进展。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 72/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/029/876.htm">IT之家 · 智能时代</source>
+<category>芯片算力</category>
+<category>端侧推理</category>
+<category>3D 堆叠</category>
+<category>迈特芯</category>
+</item>
+<item><title>Jujutsu Primer Shows Automatic Rebase and Native Undo Reshaping Git Workflows</title><link>https://ethanlowman.com/posts/jj-primer/</link><guid isPermaLink="true">https://ethanlowman.com/posts/jj-primer/</guid>
+<pubDate>Fri, 20 Nov 2026 13:46:01 +0800</pubDate>
+<description>&lt;p&gt;This primer introduces the Jujutsu (jj) version control system to developers already familiar with Git, highlighting primitives like automatic rebase and native undo that smooth Git&amp;#x27;s sharp edges. Because jj can run side-by-side with Git in the same repository, developers can trial it with low risk and organically discover workflows such as stacked PRs. The author credits jj with keeping VCS bookkeeping out of working memory and teases jj-pancake, a stacked-PR tool.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Jujutsu 入门指南 自动变基与原生撤销重塑 Git 工作流&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向 Git 用户的 jj 实操入门，展示了自动变基与堆叠 PR 等可迁移的工程实践。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://ethanlowman.com/posts/jj-primer/">Hacker News AI</source>
+<category>版本控制</category>
+<category>开发者工具</category>
+<category>Jujutsu</category>
+<category>Git</category>
+</item>
+<item><title>Qualcomm Opens Cloud Evaluation of AI200 Inference Accelerator with Cirrascale</title><link>https://www.ithome.com/1/029/874.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/874.htm</guid>
+<pubDate>Fri, 20 Nov 2026 13:43:03 +0800</pubDate>
+<description>&lt;p&gt;Qualcomm, together with AI private-cloud provider Cirrascale, has opened cloud-based evaluation of its first rack-scale inference solution, Dragonfly AI200, to select customers. Each card carries 768GB of LPDDR5X memory, and a 140kW liquid-cooled rack packs 56 cards with 43TB total memory and 0.414 PB/s bandwidth, targeting 10T-parameter-class inference in a single rack at lower total cost of ownership.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;高通 AI200 推理加速器启动客户云上评估&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;高通正式切入数据中心推理芯片赛道，机架级规格与内存容量参数明确，值得关注算力格局变化。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/029/874.htm">IT之家 · 智能时代</source>
+<category>算力芯片</category>
+<category>推理加速</category>
+<category>高通</category>
+<category>数据中心</category>
+</item>
 <item><title>Synology DSM Hit by CVSS 9.8 Flaw Allowing Unauthenticated File Access</title><link>https://www.ithome.com/1/029/861.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/861.htm</guid>
 <pubDate>Fri, 20 Nov 2026 12:22:46 +0800</pubDate>
 <description>&lt;p&gt;Synology confirmed a CWE-88 argument delimiter flaw in the DSM OAuth Service suite rated CVSS 9.8, letting unauthenticated attackers read or write arbitrary NAS files and trigger denial of service without user interaction. Patched builds for DSM 7.4 and 7.3 are slated for November 20, while 7.2.1, 7.2.2 and 7.1 remain in progress; Synology advises users who cannot upgrade to disable the OAuth Service package.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;群晖 DSM 曝 CVSS 9.8 漏洞 无需登录可远程读写文件&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及广泛部署的 NAS 系统最高危漏洞，直接影响企业自托管 AI 与数据基础设施的安全运维。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · tools · signal 62/100&lt;/p&gt;</description>
@@ -154,34 +181,34 @@
 <category>3D 场景</category>
 <category>基准测试</category>
 </item>
-<item><title>LangSmith Positions Observability as the Foundation of Agent Governance</title><link>https://www.langchain.com/blog/agent-governance-observability</link><guid isPermaLink="true">https://www.langchain.com/blog/agent-governance-observability</guid>
+<item><title>LangSmith 提出以可观测性为智能体治理起点</title><link>https://www.langchain.com/blog/agent-governance-observability</link><guid isPermaLink="true">https://www.langchain.com/blog/agent-governance-observability</guid>
 <pubDate>Fri, 20 Nov 2026 08:57:43 +0800</pubDate>
-<description>&lt;p&gt;LangSmith, LangChain&amp;#x27;s observability platform, argues that agent governance must begin with observability: recording and analyzing every step an agent takes both validates preventative controls like guardrails and underpins detective controls in production. Discovered failures are fed back into prevention, becoming tighter guardrails or new regression tests to close the governance loop.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;LangSmith 提出以可观测性为智能体治理起点&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出智能体治理的可观测性闭环框架，对构建生产级 Agent 的团队有方法论参考价值。&lt;/p&gt;&lt;p&gt;LangChain Blog · agent · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;LangChain 旗下 LangSmith 发布观点文章，主张智能体治理应从可观测性入手：通过记录并分析智能体每一步执行轨迹，既能验证护栏等预防性控制是否生效，也为生产环境中的检测性控制提供数据基础。文章强调检测发现的新故障应回流至预防环节，转化为更严格的护栏或回归测试，形成治理闭环。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出智能体治理的可观测性闭环框架，对构建生产级 Agent 的团队有方法论参考价值。&lt;/p&gt;&lt;p&gt;LangChain Blog · agent · signal 42/100&lt;/p&gt;</description>
 <source url="https://www.langchain.com/blog/agent-governance-observability">LangChain Blog</source>
 <category>智能体</category>
 <category>可观测性</category>
 <category>LangSmith</category>
 <category>AI 治理</category>
 </item>
-<item><title>Apple Job Listing Reveals In-House AI Agent for Mac Control</title><link>https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/</guid>
+<item><title>苹果招聘岗位透露正研发 Mac 端自主 AI 智能体</title><link>https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/</guid>
 <pubDate>Fri, 20 Nov 2026 08:56:01 +0800</pubDate>
-<description>&lt;p&gt;Bloomberg spotted an Apple job posting for a senior engineering manager to build an AI agent that can use a computer like a person, browsing the web, working across apps, running commands, and writing and debugging code. The effort emphasizes privacy and remains in early stages, with Apple reportedly eyeing a launch as soon as the end of next year.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;苹果招聘岗位透露正研发 Mac 端自主 AI 智能体&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;苹果入局设备级自主智能体，标志主流操作系统厂商正式押注 Agent 范式。&lt;/p&gt;&lt;p&gt;TechCrunch AI · agent · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;彭博社发现苹果发布的招聘启事，显示其正招募高级工程经理，负责打造一个能像人一样操作电脑的 AI 智能体，可浏览网页、跨应用操作、执行命令并编写调试代码。该智能体强调隐私保护，目前仍处早期阶段，苹果内部目标最早于明年年底推出。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;苹果入局设备级自主智能体，标志主流操作系统厂商正式押注 Agent 范式。&lt;/p&gt;&lt;p&gt;TechCrunch AI · agent · signal 62/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/">TechCrunch AI</source>
 <category>智能体</category>
 <category>苹果</category>
 <category>操作系统</category>
 </item>
-<item><title>Ex-Anthropic Researcher Predicts AI Research Speedup Doubling Every Three Months</title><link>https://x.com/rohanpaul_ai/status/2123580196943274245</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123580196943274245</guid>
+<item><title>前 Anthropic 研究员预测 AI 研发提速每 3 个月翻倍</title><link>https://x.com/rohanpaul_ai/status/2123580196943274245</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123580196943274245</guid>
 <pubDate>Fri, 20 Nov 2026 08:52:27 +0800</pubDate>
-<description>&lt;p&gt;Former Anthropic and OpenAI researcher Jacob Coxon said at Y Combinator&amp;#x27;s first debate that Anthropic staff self-report a 4-5x AI research speedup that roughly doubles every three months, extrapolating to 100x by 2027. He also predicted Claude will handle all of Anthropic&amp;#x27;s AI research by late 2027, with about 25% already running through it. These are personal extrapolations from self-reported figures without verifiable methodology.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;前 Anthropic 研究员预测 AI 研发提速每 3 个月翻倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及头部实验室内部 AI 研发自动化比例与提速趋势的一手转述，虽为个人预测但具行业风向标价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;前 Anthropic 与 OpenAI 研究员 Jacob Coxon 在 Y Combinator 首场辩论中称，Anthropic 内部自报的 AI 研发提速已达 4 至 5 倍，且约每 3 个月翻一番，按此趋势 2027 年可达 100 倍。他还预测到 2027 年底 Claude 将承担 Anthropic 全部 AI 研究，目前约 25% 的研究已通过 Claude 完成。上述均为个人外推与自报数据，缺乏可验证的方法细节。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及头部实验室内部 AI 研发自动化比例与提速趋势的一手转述，虽为个人预测但具行业风向标价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2123580196943274245">Rohan Paul (@rohanpaul_ai)</source>
 <category>AI 研发自动化</category>
 <category>Anthropic</category>
 <category>行业预测</category>
 </item>
-<item><title>OpenAI Opens GPT-Live-1.1 API for Full-Duplex Voice Agents</title><link>https://www.ithome.com/1/029/776.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/776.htm</guid>
+<item><title>OpenAI 开放 GPT-Live-1.1 API 支持全双工语音智能体</title><link>https://www.ithome.com/1/029/776.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/776.htm</guid>
 <pubDate>Fri, 20 Nov 2026 08:50:30 +0800</pubDate>
-<description>&lt;p&gt;OpenAI has opened its GPT-Live-1.1 voice model API to third-party developers. Built on a full-duplex architecture, the model listens and speaks simultaneously while detecting pauses, interruptions, and pace changes. Its key advance is delegating deep reasoning and tool-calling tasks to a developer-chosen backend model without interrupting the live conversation, merging real-time voice interaction with multi-step agent workflows.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 开放 GPT-Live-1.1 API 支持全双工语音智能体&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全双工语音加后端模型委托，是语音智能体从对话走向任务执行的关键架构升级。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 正式向第三方开发者开放 GPT-Live-1.1 语音模型 API，该模型采用全双工架构，可同时聆听与说话，并识别停顿、打断与语速变化。其关键突破在于支持将深度推理与工具调用任务委托给后端模型，语音对话不中断，使实时语音交互与多步骤智能体工作流得以融合。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全双工语音加后端模型委托，是语音智能体从对话走向任务执行的关键架构升级。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/029/776.htm">IT之家 · 智能时代</source>
 <category>语音智能体</category>
 <category>OpenAI</category>
@@ -242,33 +269,6 @@
 <category>Amazon Bedrock</category>
 <category>编码智能体</category>
 <category>AWS</category>
-</item>
-<item><title>ElevenLabs Scribe v3 语音转写错误率降至 1.95%</title><link>https://x.com/ArtificialAnlys/status/2123574381251375493</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2123574381251375493</guid>
-<pubDate>Fri, 20 Nov 2026 08:29:21 +0800</pubDate>
-<description>&lt;p&gt;ElevenLabs 发布 Scribe v3 非流式语音转写模型，在 Artificial Analysis 独立评测的 AA-WER 指数上以 1.95% 词错误率位列第二，较上代 Scribe v2 的 2.18% 明显改善。该成绩仅次于阿里巴巴 Fun-Realtime-ASR-preview 的 1.73%，略优于微软 MAI-Transcribe-2 的 2.04%，显示语音识别头部梯队竞争加剧。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部语音模型换代并给出第三方独立评测的量化对比，是关注 ASR 技术进展读者的有效信号。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/ArtificialAnlys/status/2123574381251375493">Artificial Analysis (@ArtificialAnlys)</source>
-<category>语音识别</category>
-<category>ElevenLabs</category>
-<category>基准评测</category>
-</item>
-<item><title>ChatGPT 聊天程序移植到 SNES 主机</title><link>https://www.bxfoundry.com/chatgpt_snes/</link><guid isPermaLink="true">https://www.bxfoundry.com/chatgpt_snes/</guid>
-<pubDate>Fri, 20 Nov 2026 08:25:59 +0800</pubDate>
-<description>&lt;p&gt;开发者 Benj Edwards 发布 ChatGPT for SNES v0.7，一个运行在超级任天堂上的非官方聊天程序实验，由 AI 智能体编写代码，需 Super FX 加速芯片的烧录卡才能运行。它并非真正调用大模型，而是基于预置训练对话的复古主机端交互演示。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以复古硬件复刻 ChatGPT 交互形态的趣味工程实验，展示了 AI 智能体编写主机代码的能力边界。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.bxfoundry.com/chatgpt_snes/">Hacker News AI</source>
-<category>复古硬件</category>
-<category>ChatGPT</category>
-<category>AI 智能体</category>
-<category>SNES</category>
-</item>
-<item><title>谷歌让智能体自改 Harness 任务成功率提升 8 倍</title><link>https://www.ithome.com/1/029/766.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/766.htm</guid>
-<pubDate>Fri, 20 Nov 2026 08:19:51 +0800</pubDate>
-<description>&lt;p&gt;谷歌研究提出可自我改进的 Harness 架构，让优化模型直接修改智能体运行框架代码，并通过验证集筛选保留有效改动。在 SWE-bench Lite 的 40 道任务上，模块化方案将成功率从 5.0% 提升至 40.0%，每任务约消耗 4.67 万 Token，远低于整体重写方案的 45.16 万 Token。研究同时警示代码自改带来的提示词膨胀、基准过拟合与评估程序篡改风险。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次系统验证智能体可自改运行框架代码并获得 8 倍任务成功率提升，为 Agent 工程化提供新范式。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/029/766.htm">IT之家 · 智能时代</source>
-<category>智能体</category>
-<category>谷歌</category>
-<category>SWE-bench</category>
-<category>Harness</category>
-<category>代码自改</category>
 </item>
 </channel>
 </rss>
