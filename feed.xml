@@ -1,8 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Fri, 20 Nov 2026 08:12:03 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 20 Nov 2026 08:43:50 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Anthropic Raises $81.3B in IPO as Founders Cash Out Nearly $2B</title><link>https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/</guid>
+<pubDate>Fri, 20 Nov 2026 08:43:50 +0800</pubDate>
+<description>&lt;p&gt;Anthropic completed one of the largest IPOs on record, raising $81.3 billion in total, with its seven co-founders selling roughly 3.4 million shares each at $83 to collectively cash out nearly $2 billion. The company also disclosed $1.05 trillion to $1.08 trillion in future infrastructure commitments, underscoring the capital intensity of frontier model development.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 上市募资 813 亿美元 七位创始人套现近 20 亿&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部大模型公司完成史上最大规模 IPO 之一，创始人套现与万亿级算力承诺共同揭示前沿 AI 的资本结构。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 78/100&lt;/p&gt;</description>
+<source url="https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/">TechCrunch AI</source>
+<category>Anthropic</category>
+<category>IPO</category>
+<category>融资</category>
+<category>算力基础设施</category>
+</item>
+<item><title>SageMaker Inference 2026 Update Adds Cross-Region Routing and GPU Sharing</title><link>https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-launches-in-review-part-2/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-launches-in-review-part-2/</guid>
+<pubDate>Fri, 20 Nov 2026 08:34:07 +0800</pubDate>
+<description>&lt;p&gt;AWS reviewed its 2026 SageMaker Inference updates, including new routing strategies for HyperPod Inference, broader model-serving framework support and expanded multi-Region networking, with the Inference Gateway handling routing and managed NVIDIA Dynamo added as a new serving framework. For managed endpoints, inference recommendations now run from SageMaker AI Studio, the Python SDK and coding agents, and endpoints can route requests across Regions and accounts, helping teams re-select configurations after traffic shifts, pack more models onto paid-for GPUs and fix idle capacity across Regions.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SageMaker 推理 2026 升级 支持跨区域路由与多模型共享 GPU&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AWS 推理基础设施的年度能力盘点，涉及跨区域路由、GPU 多模型共享与托管 Dynamo，对部署大模型服务的工程团队有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · compute · signal 58/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-launches-in-review-part-2/">AWS Machine Learning Blog</source>
+<category>SageMaker</category>
+<category>推理基础设施</category>
+<category>AWS</category>
+<category>NVIDIA Dynamo</category>
+</item>
+<item><title>Moonshot Adds Native Amazon Bedrock Provider to Kimi Code CLI</title><link>https://aws.amazon.com/blogs/machine-learning/use-kimi-code-cli-with-models-on-amazon-bedrock/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/use-kimi-code-cli-with-models-on-amazon-bedrock/</guid>
+<pubDate>Fri, 20 Nov 2026 08:33:30 +0800</pubDate>
+<description>&lt;p&gt;Moonshot AI released Kimi Code CLI v2.7.0, adding a native Amazon Bedrock provider so the open source coding agent can authenticate through the standard AWS credential chain, including named profiles and SSO, instead of a separately managed Bedrock API key. The walkthrough uses Kimi K3.1 Pro Highspeed, which supports streaming, configurable reasoning, image input and client-side tool calling.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Kimi Code CLI 2.7.0 原生接入 Amazon Bedrock&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源编码智能体打通 AWS 标准凭证链，对在 Bedrock 上跑 Kimi 模型的团队有直接工程价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 42/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/use-kimi-code-cli-with-models-on-amazon-bedrock/">AWS Machine Learning Blog</source>
+<category>Kimi Code CLI</category>
+<category>Amazon Bedrock</category>
+<category>编码智能体</category>
+<category>AWS</category>
+</item>
+<item><title>Google Lets Agents Rewrite Their Own Harness to Boost Task Success Eightfold</title><link>https://www.ithome.com/1/029/766.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/766.htm</guid>
+<pubDate>Fri, 20 Nov 2026 08:19:51 +0800</pubDate>
+<description>&lt;p&gt;Google researchers propose a self-improving harness architecture in which an optimizer model directly edits the agent&amp;#x27;s runtime framework code, keeping only changes that pass validation. On 40 SWE-bench Lite tasks, the modular approach lifted success from 5.0% to 40.0% at roughly 46.7K tokens per task, far below the 451.6K tokens needed for unconstrained full rewrites. The paper also flags risks of prompt bloat, benchmark overfitting and evaluator tampering.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌让智能体自改 Harness 任务成功率提升 8 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次系统验证智能体可自改运行框架代码并获得 8 倍任务成功率提升，为 Agent 工程化提供新范式。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/029/766.htm">IT之家 · 智能时代</source>
+<category>智能体</category>
+<category>谷歌</category>
+<category>SWE-bench</category>
+<category>Harness</category>
+<category>代码自改</category>
+</item>
 <item><title>Google to Roll Out Global Android Developer Verification in 2027</title><link>https://www.ithome.com/1/029/765.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/765.htm</guid>
 <pubDate>Fri, 20 Nov 2026 08:12:03 +0800</pubDate>
 <description>&lt;p&gt;Google will globally roll out Android developer identity verification in January 2027, covering Google Play plus six major OEM app stores including Samsung, Honor, OPPO, vivo, Xiaomi and Transsion. After fierce developer backlash following its August 2025 announcement, Google softened sideloading restrictions and added a risk-confirmation flow for advanced users installing apps from unverified developers.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌 2027 年全球推行 Android 开发者验证&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;影响整个 Android 应用分发与侧载生态的平台级政策落地，开发者需提前规划合规注册。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
@@ -22,6 +59,15 @@
 <category>消费电子</category>
 <category>商务部</category>
 </item>
+<item><title>Gemini 4 Neon Tops Models Engineering Index Rankings</title><link>https://git-aarvin.github.io/mei/</link><guid isPermaLink="true">https://git-aarvin.github.io/mei/</guid>
+<pubDate>Fri, 20 Nov 2026 07:35:35 +0800</pubDate>
+<description>&lt;p&gt;The latest Models Engineering Index ranks Google&amp;#x27;s Gemini 4 Neon first at 69.5, leading on the combined performance-versus-cost/token tradeoff. Anthropic&amp;#x27;s Fable 5.2 and Opus 5.5 take second and third, while OpenAI, Meta, Moonshot, Alibaba and DeepSeek models fill out the top fifteen, with relative cost and token multipliers listed alongside.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Gemini 4 Neon 登顶模型工程指数榜首&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;榜单以性能与成本/Token 效率的权衡给出横向排名，为模型选型提供可参考的量级对比。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 58/100&lt;/p&gt;</description>
+<source url="https://git-aarvin.github.io/mei/">Hacker News AI</source>
+<category>大模型</category>
+<category>模型评测</category>
+<category>Google</category>
+<category>Anthropic</category>
+</item>
 <item><title>Anthropic Completes $81.3B IPO at $1.5 Trillion Valuation</title><link>https://www.ithome.com/1/029/755.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/755.htm</guid>
 <pubDate>Fri, 20 Nov 2026 07:21:22 +0800</pubDate>
 <description>&lt;p&gt;Anthropic priced its IPO at $83 per share, raising $81.3 billion and reaching a $1.5 trillion fully diluted valuation, the largest IPO on record. In the same cycle, Tencent conceded its Yuanbao assistant fell short of expectations and cut investment, signaling divergence among leading AI assistant players.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 完成 813 亿美元 IPO 估值达 1.5 万亿&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 头部公司史上最大 IPO 与腾讯助手战略收缩同日出现，是观察资本与产品格局的关键信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
@@ -38,6 +84,16 @@
 <category>行业预测</category>
 <category>AI 自动化</category>
 <category>Y Combinator</category>
+</item>
+<item><title>AWS Lets AI Agents Buy Marketplace Products via AgentCore</title><link>https://aws.amazon.com/blogs/machine-learning/enable-ai-agents-to-pay-for-aws-marketplace-x402-products-with-amazon-bedrock-agentcore-payments/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/enable-ai-agents-to-pay-for-aws-marketplace-x402-products-with-amazon-bedrock-agentcore-payments/</guid>
+<pubDate>Fri, 20 Nov 2026 07:02:16 +0800</pubDate>
+<description>&lt;p&gt;AWS extended Bedrock AgentCore payments to AWS Marketplace, letting agents autonomously discover and purchase x402-enabled software, APIs, data, and content, with charges billed in USD directly to the developer&amp;#x27;s AWS bill and no stablecoin wallets or API keys required. Developers can automate discovery via the Marketplace connector in AgentCore Gateway and enforce per-session spending caps and approved seller lists through AgentCore policy, with all transactions auditable in CloudTrail and Cost Explorer.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS 让 AI 智能体直接购买 Marketplace 商品&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是智能体自主交易能力首次接入主流云市场计费体系，为 Agent 商业化补齐支付与审计闭环。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 72/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/enable-ai-agents-to-pay-for-aws-marketplace-x402-products-with-amazon-bedrock-agentcore-payments/">AWS Machine Learning Blog</source>
+<category>智能体</category>
+<category>AWS</category>
+<category>AgentCore</category>
+<category>x402</category>
+<category>云市场</category>
 </item>
 <item><title>Musk&#x27;s Terafab Aims for 30X Global AI Chip Output</title><link>https://x.com/rohanpaul_ai/status/2123551545262567834</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123551545262567834</guid>
 <pubDate>Fri, 20 Nov 2026 06:58:36 +0800</pubDate>
@@ -170,104 +226,49 @@
 <category>开源</category>
 <category>复制</category>
 </item>
-<item><title>Gemini 4 Carbon, Neon and Hydrogen Pricing and Reasoning Tiers Surface</title><link>https://x.com/ArtificialAnlys/status/2123513872095269336</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2123513872095269336</guid>
+<item><title>Gemini 4 三款新模型定价与推理档位曝光</title><link>https://x.com/ArtificialAnlys/status/2123513872095269336</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2123513872095269336</guid>
 <pubDate>Fri, 20 Nov 2026 04:28:54 +0800</pubDate>
-<description>&lt;p&gt;Artificial Analysis disclosed pricing and reasoning-tier differences across the three Gemini 4 models: Carbon, Neon and Hydrogen. Carbon is the priciest at $4/$20 per 1M input/output tokens and leads at low effort but consumes more tokens, while Neon and Hydrogen scale better at higher reasoning efforts and add an xhigh option.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Gemini 4 三款新模型定价与推理档位曝光&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首批 Gemini 4 系列定价与推理档位细节流出，对模型选型与成本评估有直接参考价值。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Artificial Analysis 披露 Gemini 4 系列三款模型 Carbon、Neon、Hydrogen 的定价与推理档位差异。Carbon 定价最高（每百万输入/输出 token 4/20 美元），低推理强度下表现最佳但耗用 token 更多；Neon 与 Hydrogen 在高推理强度下扩展性更好，并额外提供 xhigh 推理档位。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首批 Gemini 4 系列定价与推理档位细节流出，对模型选型与成本评估有直接参考价值。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 72/100&lt;/p&gt;</description>
 <source url="https://x.com/ArtificialAnlys/status/2123513872095269336">Artificial Analysis (@ArtificialAnlys)</source>
 <category>大模型</category>
 <category>Gemini 4</category>
 <category>Google</category>
 <category>模型定价</category>
 </item>
-<item><title>Meta Prices Muse Charm AI Gadget at $300</title><link>https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price</link><guid isPermaLink="true">https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price</guid>
+<item><title>Meta Muse Charm 定价 300 美元 押注 AI 硬件</title><link>https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price</link><guid isPermaLink="true">https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price</guid>
 <pubDate>Fri, 20 Nov 2026 04:22:17 +0800</pubDate>
-<description>&lt;p&gt;Meta plans to price the Muse Charm, a screen-equipped gadget for chatting with its Muse AI agent, at $300 with a free 12-month Verizon 5G plan. The device enables tap-to-talk voice interaction via a fingerprint sensor, and Zuckerberg has said it will ship in time for the December holidays, marking Meta&amp;#x27;s major bet on AI hardware.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta Muse Charm 定价 300 美元 押注 AI 硬件&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Meta 首款 AI 智能体硬件的定价与出货节奏，是观察大厂 AI 硬件商业化路径的关键信号。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Meta 计划将搭载 Muse AI 智能体的屏幕小硬件 Muse Charm 定价为 300 美元，并附赠 Verizon 12 个月免费 5G 数据套餐。该设备支持指纹解锁后直接语音对话，扎克伯格此前称将于 12 月假日季出货，这是 Meta 在 AI 硬件赛道的重要押注。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Meta 首款 AI 智能体硬件的定价与出货节奏，是观察大厂 AI 硬件商业化路径的关键信号。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price">The Verge AI</source>
 <category>AI 硬件</category>
 <category>Meta</category>
 <category>智能体</category>
 </item>
-<item><title>Google Brings AI Chat Sidebar to Search Homepage</title><link>https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats</link><guid isPermaLink="true">https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats</guid>
+<item><title>Google 搜索首页上线 AI 对话侧边栏</title><link>https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats</link><guid isPermaLink="true">https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats</guid>
 <pubDate>Fri, 20 Nov 2026 04:05:06 +0800</pubDate>
-<description>&lt;p&gt;Google is rolling out an AI chat sidebar on the desktop Search homepage, letting users browse their AI Mode search history, start new threads, and connect a Gemini Notebook. The feature is now available globally, with Google saying testing showed the sidebar significantly helped users keep exploring.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Google 搜索首页上线 AI 对话侧边栏&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Google 将 AI 对话入口前置到搜索首页，是搜索交互形态向对话式演进的重要信号。&lt;/p&gt;&lt;p&gt;The Verge AI · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Google 在桌面端搜索首页推出 AI 对话侧边栏，用户可直接查看 AI Mode 历史搜索、新建对话线程并连接 Gemini Notebook。该功能已全球上线，Google 称测试中侧边栏显著提升了用户持续探索的效率。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Google 将 AI 对话入口前置到搜索首页，是搜索交互形态向对话式演进的重要信号。&lt;/p&gt;&lt;p&gt;The Verge AI · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats">The Verge AI</source>
 <category>Google</category>
 <category>AI 搜索</category>
 <category>Gemini</category>
 <category>产品发布</category>
 </item>
-<item><title>Google Quantum AI Demonstrates Quantum Advantage on 105 Qubits</title><link>https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/</link><guid isPermaLink="true">https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/</guid>
+<item><title>谷歌量子 AI 用 105 量子比特验证量子优势</title><link>https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/</link><guid isPermaLink="true">https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/</guid>
 <pubDate>Fri, 20 Nov 2026 04:03:00 +0800</pubDate>
-<description>&lt;p&gt;Google Quantum AI ran a quantum magic square game on a superconducting processor, hitting a 98.3% hardware win rate that exceeds the 88.9% classical bound, turning entanglement-based advantage into a measurable, benchmarkable engineering metric. The experiment scales to 105 qubits, offering a reusable methodology for system-level validation and cross-platform quantum benchmarking.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌量子 AI 用 105 量子比特验证量子优势&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是量子计算从理论优势走向可量化工程基准的重要一步，105 量子比特规模与明确的经典上限对比具有实质参考价值。&lt;/p&gt;&lt;p&gt;Google Research · compute · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;谷歌量子 AI 团队在超导处理器上运行量子魔方游戏，以 98.3% 的硬件胜率超越 88.9% 的经典理论上限，首次将量子纠缠优势转化为可测量、可基准化的工程指标。该实验规模扩展至 105 量子比特，为量子计算在系统级验证与跨平台基准测试提供了可复用的方法论。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是量子计算从理论优势走向可量化工程基准的重要一步，105 量子比特规模与明确的经典上限对比具有实质参考价值。&lt;/p&gt;&lt;p&gt;Google Research · compute · signal 78/100&lt;/p&gt;</description>
 <source url="https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/">Google Research</source>
 <category>量子计算</category>
 <category>谷歌量子 AI</category>
 <category>量子优势</category>
 <category>基准测试</category>
 </item>
-<item><title>Amazon Bedrock AgentCore Harness Adopts Strands with Lifecycle Hooks</title><link>https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-adds-strands-harness-defaults-built-in-tools-and-lifecycle-hooks/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-adds-strands-harness-defaults-built-in-tools-and-lifecycle-hooks/</guid>
+<item><title>亚马逊 Bedrock AgentCore 升级 Strands 框架</title><link>https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-adds-strands-harness-defaults-built-in-tools-and-lifecycle-hooks/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-adds-strands-harness-defaults-built-in-tools-and-lifecycle-hooks/</guid>
 <pubDate>Fri, 20 Nov 2026 04:01:06 +0800</pubDate>
-<description>&lt;p&gt;Amazon upgraded the Bedrock AgentCore harness to build on its open-source Strands harness, giving managed agents recommended models, task-oriented system prompts, automatic prompt caching, and proactive context management by default. It also adds built-in tools for planning, web retrieval, filesystem access, context offloading, and task delegation, plus lifecycle hooks that let developers inject deterministic checks and notifications at defined points in the agent loop.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊 Bedrock AgentCore 升级 Strands 框架&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;托管智能体框架的实质性升级，内置工具与生命周期钩子直接影响智能体工程实践。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;亚马逊将 Bedrock AgentCore harness 升级为基于开源 Strands harness，为托管智能体默认提供推荐模型、任务导向系统提示、自动提示缓存与主动上下文管理。同时新增规划、网页检索、文件系统访问、上下文卸载与任务委派等内置工具，并引入生命周期钩子，让开发者能在智能体循环的指定节点插入确定性校验与通知。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;托管智能体框架的实质性升级，内置工具与生命周期钩子直接影响智能体工程实践。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 62/100&lt;/p&gt;</description>
 <source url="https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-adds-strands-harness-defaults-built-in-tools-and-lifecycle-hooks/">AWS Machine Learning Blog</source>
 <category>智能体</category>
 <category>Amazon Bedrock</category>
 <category>开源框架</category>
 <category>上下文管理</category>
-</item>
-<item><title>AMD Shares Fall 11% After Short Seller Links Firmware to Blacklisted Chinese Server Maker</title><link>https://x.com/rohanpaul_ai/status/2123506776482127987</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123506776482127987</guid>
-<pubDate>Fri, 20 Nov 2026 04:00:43 +0800</pubDate>
-<description>&lt;p&gt;Short seller Hunterbrook Media alleged that IEIT Systems, a US-export-blacklisted Chinese server maker, received at least six newer versions of AMD&amp;#x27;s TurinPI boot firmware since its March 2025 blacklisting, even though sending US technology to blacklisted entities requires a license Washington policy refuses to grant. AMD shares fell as much as 11% on the report, reversing a rally that had cast the chipmaker as the safer alternative after Jensen Huang left Nvidia. Hunterbrook also found that IEIT-owned Kaytus in Singapore and its California unit Aivres, neither blacklisted, post firmware 99.94% identical to IEIT&amp;#x27;s for the same server model, suggesting IEIT server designs may still be sold under those names.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AMD 因向黑名单中企供应固件遭做空 股价一度跌 11%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;做空报告直指 AMD 对华出口合规漏洞，涉及出口管制与服务器芯片供应链，对算力与产业读者具高关注价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2123506776482127987">Rohan Paul (@rohanpaul_ai)</source>
-<category>AMD</category>
-<category>出口管制</category>
-<category>服务器芯片</category>
-<category>做空报告</category>
-</item>
-<item><title>英伟达与微软将加速计算扩展至 Windows PC</title><link>https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/</link><guid isPermaLink="true">https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/</guid>
-<pubDate>Fri, 20 Nov 2026 04:00:15 +0800</pubDate>
-<description>&lt;p&gt;英伟达与微软在 Microsoft Ignite 上宣布将全栈合作从 Azure 数据中心延伸至工业系统与 Windows PC。Azure 已上线基于 Vera Rubin NVL72 的虚拟机，微软 Foundry 引入英伟达开放模型与定制能力，微软自身还用 Dynamo 推理软件和 RTX PRO 6000 Blackwell GPU 加速 Bing 搜索模型。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;两大算力巨头把合作从云端推进到端侧与 PC，直接影响企业 AI 部署的硬件选型与推理栈。&lt;/p&gt;&lt;p&gt;NVIDIA Blog · compute · signal 72/100&lt;/p&gt;</description>
-<source url="https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/">NVIDIA Blog</source>
-<category>算力基础设施</category>
-<category>英伟达</category>
-<category>微软</category>
-<category>Azure</category>
-<category>推理</category>
-</item>
-<item><title>Anthropic IPO 定价 83 美元 约 600 名员工身家过亿</title><link>https://x.com/rohanpaul_ai/status/2123505498419020007</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123505498419020007</guid>
-<pubDate>Fri, 20 Nov 2026 03:55:38 +0800</pubDate>
-<description>&lt;p&gt;据 WSJ 报道，Anthropic 的 IPO 发行价定为每股 83 美元，按此计算约 600 名员工所持股份价值将超过 1 亿美元。Hill.com 的估算还显示，约 2800 名员工持股价值超过 1000 万美元，5000 多名员工中的大多数将跨过百万美元门槛。这将是 AI 头部实验室迄今规模最大的员工财富兑现事件之一。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 实验室 IPO 定价与员工持股规模，是观察 AI 资本周期与人才竞争格局的关键信号。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2123505498419020007">Rohan Paul (@rohanpaul_ai)</source>
-<category>Anthropic</category>
-<category>IPO</category>
-<category>员工持股</category>
-<category>AI 资本</category>
-</item>
-<item><title>Amazon Polly 上线语音克隆 支持 7 种语言</title><link>https://aws.amazon.com/blogs/machine-learning/amazon-polly-launches-voice-cloning-a-unique-voice-for-your-brand/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/amazon-polly-launches-voice-cloning-a-unique-voice-for-your-brand/</guid>
-<pubDate>Fri, 20 Nov 2026 03:53:32 +0800</pubDate>
-<description>&lt;p&gt;Amazon Polly 语音克隆功能正式可用，采用受限开放（gated）方式。用户只需提供说话人几分钟的授权录音，即可生成基于生成式引擎的专属克隆音色，首批支持英语、西班牙语、德语、法语、意大利语、葡萄牙语和印地语七种语言。克隆音色自动加密并受访问控制，仅创建者可调用，已在生成式引擎覆盖的全部 AWS 区域（含 GovCloud）开放。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AWS 将定制音色克隆纳入托管 TTS 服务，是企业语音品牌化落地的实用基础设施更新。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 62/100&lt;/p&gt;</description>
-<source url="https://aws.amazon.com/blogs/machine-learning/amazon-polly-launches-voice-cloning-a-unique-voice-for-your-brand/">AWS Machine Learning Blog</source>
-<category>Amazon Polly</category>
-<category>语音克隆</category>
-<category>AWS</category>
-<category>TTS</category>
-</item>
-<item><title>Ramp 指数显示 AI 用量创新高但单价六周降 21%</title><link>https://the-decoder.com/ai-industry-growth-remains-strong-but-the-pace-is-slowing/</link><guid isPermaLink="true">https://the-decoder.com/ai-industry-growth-remains-strong-but-the-pace-is-slowing/</guid>
-<pubDate>Fri, 20 Nov 2026 03:28:19 +0800</pubDate>
-<description>&lt;p&gt;Ramp AI Index 基于 8.5 万家美国企业的交易数据指出，AI 模型调用量升至历史新高，但六周内 token 单价下降 21.2%，企业 API 支出较两周前峰值回落 6.3%。用量扩张与单价下行并行，意味着行业仍需极高增速才能覆盖已规划的大规模算力建设投入。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以真实交易数据量化 AI 用量与价格走势，是判断行业景气与算力投资回报的关键信号。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/ai-industry-growth-remains-strong-but-the-pace-is-slowing/">The Decoder</source>
-<category>AI 产业</category>
-<category>Token 价格</category>
-<category>算力投资</category>
-<category>Ramp AI Index</category>
-</item>
-<item><title>Anthropic 上市或为慈善带来 1560 亿美元</title><link>https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/</guid>
-<pubDate>Fri, 20 Nov 2026 03:10:45 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 完成重磅 IPO，其公共福利基金获得约 8.5 亿股、按当前股价计约 800 亿美元捐赠基金，若估值持续增长还将追加 2% 股份。叠加员工捐赠承诺等渠道，本次上市预计可为慈善事业带来约 1560 亿美元，重点投向 AI 对劳动者影响研究与 AI 安全研究。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;前沿实验室 IPO 与巨额慈善资金流向，是观察 AI 治理与利益分配的重要产业事件。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/">TechCrunch AI</source>
-<category>Anthropic</category>
-<category>IPO</category>
-<category>AI 治理</category>
-<category>慈善基金</category>
 </item>
 </channel>
 </rss>
