@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Sat, 21 Nov 2026 00:30:48 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 21 Nov 2026 01:08:56 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 登陆纳斯达克 募资 935 亿美元刷新纪录</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
 <pubDate>Fri, 20 Nov 2026 22:44:29 +0800</pubDate>
@@ -27,6 +27,14 @@ Neon 的发布标志着谷歌在七周内连发四款 Gemini 4 系列模型，�
 
 行业影响方面，此次发布正值 Anthropic IPO 定价前夕，OpenAI 以显著的成本优势发起价格战，有望降低企业级智能体部署门槛，加速 AI 在专业工作与编程场景的规模化落地。然而，安全评估也揭示隐忧：Astra 是 OpenAI 首个在 AI 自我改进维度获评 High 的公开模型，网络安全维度维持 Critical 级，英国 …&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), Arena.ai (@arena), IT之家 · IT业界, The Decoder, OpenRouter (@OpenRouter), Hacker News AI&lt;/p&gt;</description>
 </item>
+<item><title>Anthropic 数学家宣称与 Claude 合作证明黎曼猜想</title><link>https://todayforai.com/en/story/story-c508eedd-8d6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c508eedd-8d6</guid>
+<pubDate>Sat, 21 Nov 2026 00:34:13 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 数学家 Levent Alpöge 公开宣称，在与 Claude 协作下发现了黎曼猜想的证明，并称该方法可推广至广义黎曼猜想，且论证已在无额外假设下完成形式化。若该声明经同行验证成立，将是 AI 辅助数学研究的里程碑事件，但当前仅为个人声明，尚待形式化验证与社区复核。
+
+综合多个信源，Alpöge 称证明不仅覆盖黎曼猜想，还覆盖更广的广义黎曼猜想，成果已编写为 Lean 代码待形式化验证。此前 OpenAI 10 月公布的数学成果被认为提供了突破口。The Verge 报道称，该证明尚未经同行验证，Anthropic 官方未参与或置评，Alpöge 称曾私下告知 CEO Dario Amodei 并推迟至公司 IPO 后公布，引发利益关联质疑。
+
+若获确认，这将是 AI 首次在顶级未解数学难题上产出可验证证明，标志 AI 数学能力的关键跃迁。黎曼猜想是悬置 160 余年的七大千禧年难题之一，其证明若由 AI 辅助完成，将极大提升 AI 在数学研究中的地位，并可能引发对 AI 科研诚信与利益冲突的广泛讨论。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Simon Willison 博客, IT之家 · 智能时代, The Verge AI&lt;/p&gt;</description>
+</item>
 <item><title>华为云开源昇腾原生具身世界模型 CloudRobo-WM1.2</title><link>https://todayforai.com/en/story/story-bed90b93-fbf</link><guid isPermaLink="true">https://todayforai.com/en/story/story-bed90b93-fbf</guid>
 <pubDate>Fri, 20 Nov 2026 18:23:30 +0800</pubDate>
 <description>&lt;p&gt;华为云正式发布昇腾原生具身世界模型 CloudRobo-WM1.2，并计划于 11 月 30 日开放模型权重、推理代码与后训练代码。该模型在 RoboTwin 2.0 与 LIBERO-Pro 2.0 两项权威评测中分别取得 88.98% 和 81.73% 的平均成功率，双双登顶，展现出强大的跨具身泛化能力。
@@ -34,6 +42,14 @@ Neon 的发布标志着谷歌在七周内连发四款 Gemini 4 系列模型，�
 CloudRobo-WM1.2 采用 PPA 多模态世界表征架构与世界模型原生 DualAct 动作生成架构，能够直接输出动作，并通过多粒度监督预训练兼容缺失动作标注、深度缺失等异构数据。其跨具身运动建模统一了单臂、双臂与轮式机器人的运动语义，在第三方真机测试中覆盖 5 种本体 13 项任务，平均成功率领先第二名 23 个百分点，并具备插接失败后的动态重试能力。模型从架构、训练框架到核心算子与推理部署均围绕昇腾进行软硬件协同优化，实现了全栈自主可控。
 
 同步推出的 CloudRobo 一站式具身智能开发平台，整合了算力、仿真与真机适配等底层工程，旨在降低具身智能研发门槛。华为云还设立最高 200 万元的伙伴专项支持，专区上线 5 个月已合作 230 多家企业与高校。此举标志着华为云在具身智能领域从模型到生态的全面布局，有望加速机器人产业的智能化升级。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;量子位 (微信公众号), InfoQ 中文, 量子位官网&lt;/p&gt;</description>
+</item>
+<item><title>PostgreSQL 19 发布 新增 WAIT FOR LSN 实现读己之写</title><link>https://todayforai.com/en/story/story-db918387-50d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-db918387-50d</guid>
+<pubDate>Sat, 21 Nov 2026 01:08:56 +0800</pubDate>
+<description>&lt;p&gt;PostgreSQL 19 于 2026 年 11 月 19 日正式发布，比往年惯例晚两个月，主要原因是团队需集中处理 AI 辅助漏洞挖掘带来的大量安全报告。本版最受关注的新特性是 WAIT FOR LSN 命令，它允许备库会话等待 WAL 回放至指定 LSN 后再执行查询，从而在读写分离架构下实现读己之写一致性。应用可将 pg_current_wal_insert_lsn() 的返回值（如存入签名 Cookie）用于后续请求的一致性等待，确保用户总能读到自己的写入。
+
+除一致性读外，PostgreSQL 19 还聚焦运维控制能力，新增在线 REPACK 命令（CONCURRENTLY 模式不阻塞读写）、pg_plan_advice 与 pg_stash_advice 扩展以干预查询计划，并支持无需重启即开启逻辑复制、序列值逻辑复制等。SQL 能力上新增 IGNORE NULLS、get-or-create 插入、JSON 导出与 JSONPath 转换等特性。官方提供可在浏览器中直接运行的实操示例，覆盖逻辑订阅与物理备库场景，并面向扩展作者开放新的 planner hooks 与共享内存注册改进。
+
+Databricks Lakebase 在社区发布当天即提供支持，打破托管服务通常滞后数周的惯例，其团队多名 PostgreSQL committer 直接参与了本次发布的核心开发。PostgreSQL 19 通过 WAIT FOR LSN 等特性显著提升了读写分离架构的易用性与一致性保障，同时强化了运维与扩展能力，进一步巩固了其作为开源关系数据库领导者的地位。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Simon Willison 博客, Hacker News AI&lt;/p&gt;</description>
 </item>
 <item><title>Signal 封堵截屏 阻止系统级 AI 读取用户消息</title><link>https://todayforai.com/en/story/story-7515a48b-c5e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-7515a48b-c5e</guid>
 <pubDate>Fri, 20 Nov 2026 20:30:47 +0800</pubDate>
@@ -50,22 +66,6 @@ Signal 总裁 Meredith Whittaker 指出，Google、Apple、Microsoft 等 OS 厂�
 与同期人类论文的盲评对比显示，AI 论文在实验严谨性上平均高出 2 分，但新颖性低 0.4 分，且总分优势主要来自单一实验室，因此结论需谨慎看待。智能体在 229 个自建聊天室中产生了 9500 条讨论，并通过代码复算推翻了 156 条重大意见中的 77 条，展现出一定的自我纠错能力。
 
 该平台现已对外开放，支持外部研究者接入自有智能体提交成果。这一实验不仅展示了 AI 智能体在科研流程中的自主潜力，也引发了关于学术质量、创新性评估以及人机协作模式的讨论。尽管 AI 在严谨性上表现突出，但新颖性的不足提示当前智能体更擅长执行与验证，而非提出颠覆性想法。未来，此类平台或将成为科研加速的重要工具，但需建立更完善的评审与伦理框架。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), 量子位 (微信公众号)&lt;/p&gt;</description>
-</item>
-<item><title>Anthropic 数学家宣称与 Claude 合作证明黎曼猜想</title><link>https://todayforai.com/en/story/story-c508eedd-8d6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c508eedd-8d6</guid>
-<pubDate>Sat, 21 Nov 2026 00:30:48 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 数学家 Levent Alpöge 公开宣称，在与 Claude 协作下发现了黎曼猜想的证明，并称该方法可推广至广义黎曼猜想，且论证已在无额外假设下完成形式化。若该声明经同行验证成立，将是 AI 辅助数学研究的里程碑事件。
-
-据 IT 之家报道，Alpöge 表示证明不仅覆盖黎曼猜想，还覆盖更广的广义黎曼猜想，成果已编写为 Lean 代码待形式化验证。此前 OpenAI 在 10 月公布的数学成果被认为提供了突破口。目前该声明仅为个人公开主张，尚未经同行评审与独立验证，社区正等待形式化验证结果。
-
-若获确认，这将是 AI 首次在顶级未解数学难题上产出可验证证明，标志 AI 数学能力的关键跃迁，并可能重塑数学研究与 AI 协作的范式。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Simon Willison 博客, IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
-<item><title>腾讯开源 770B 参数 Hy4 大模型 支持百万上下文</title><link>https://todayforai.com/en/story/story-31af8399-33e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-31af8399-33e</guid>
-<pubDate>Fri, 20 Nov 2026 11:47:35 +0800</pubDate>
-<description>&lt;p&gt;腾讯混元团队正式开源 Hy4 系列大模型，旗舰版 Hy4 采用 MoE 架构，总参数 770B、激活参数 49B，上下文窗口突破 100 万 Token，并同步推出主打性价比的 Hy4 flash。至此混元 LLM 系列实现全量开源，Hy4 及 Hy4 preview 采用 Apache 2.0 协议允许商用，同时发布安全评估卡片披露防守性网络安全训练策略。
-
-Hy4 flash 成为本次开源的亮点，其总参数 224B（含 64B Engram 参数），每 token 仅激活 12B，原生支持多模态与 100 万 Token 上下文。通过混合注意力、LatentMoE 与 Engram 等架构创新，KV 缓存压缩至 Hy3 的 1/24，单任务成本仅为 Hy4 的 1/20，API 输出价格低至每百万 token 0.281 美元。上线首日即登顶 OpenRouter 日榜，Token 调用量突破 50 万亿，创混元系列首日新高。
-
-此次开源标志着腾讯在 AI 大模型领域采取激进开放策略，以全量开源和极致性价比冲击市场。Hy4 系列覆盖从旗舰到轻量的完整谱系，Apache 2.0 协议降低了商业使用门槛，有望吸引大量开发者和企业迁移。同时，安全评估卡片的发布体现了对模型滥用风险的主动管理，为行业提供了开源与安全平衡的参考范例。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · 智能时代, OpenRouter (@OpenRouter), InfoQ 中文, OpenCode (@opencode)&lt;/p&gt;</description>
 </item>
 <item><title>谷歌向 Ultra 用户开放 Genie 4 世界模型</title><link>https://todayforai.com/en/story/story-71017e8f-b4d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-71017e8f-b4d</guid>
 <pubDate>Thu, 19 Nov 2026 06:39:01 +0800</pubDate>

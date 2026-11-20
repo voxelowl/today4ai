@@ -1,8 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 21 Nov 2026 00:30:48 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 21 Nov 2026 01:21:24 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Dario Amodei Says Anthropic Deliberately Runs at Under Half Its Possible Speed</title><link>https://x.com/rohanpaul_ai/status/2123829074753998977</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123829074753998977</guid>
+<pubDate>Sat, 21 Nov 2026 01:21:24 +0800</pubDate>
+<description>&lt;p&gt;Anthropic CEO Dario Amodei said in a CNBC interview that the company deliberately runs at less than half the pace it could, redirecting the surplus into safety work and \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Dario Amodei 称 Anthropic 主动将研发速度压至可承受的一半&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部实验室掌门人公开阐述“主动减速”的战略取舍，是理解前沿 AI 竞争节奏与安全路线分歧的一手表态。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2123829074753998977">Rohan Paul (@rohanpaul_ai)</source>
+<category>Anthropic</category>
+<category>AI 安全</category>
+<category>产业动向</category>
+</item>
+<item><title>Stanford-led Study Finds 27B Open Model Can Self-Improve by Editing Its Own Weights</title><link>https://x.com/rohanpaul_ai/status/2123828039276773655</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123828039276773655</guid>
+<pubDate>Sat, 21 Nov 2026 01:17:18 +0800</pubDate>
+<description>&lt;p&gt;A new paper from Stanford and other top labs shows a 27B open model can improve itself without training or gradients: Qwen3.5-27B was given access to its own weights, graded practice answers and a Python session with gradients blocked, then reasoned over hidden states for completed versus truncated answers and weakened the direction separating them. On 490 held-out problems fixed in advance, accuracy rose from 57.2% to 63.8%, while the 2B model made no edit and the 4B and 9B models degraded themselves.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;斯坦福等机构发现 27B 开源模型可自主编辑权重自我提升&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出无需梯度与训练的权重自编辑范式，并在开源模型上给出可验证的提升与规模效应证据，对模型后训练与部署迭代路线有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2123828039276773655">Rohan Paul (@rohanpaul_ai)</source>
+<category>大模型</category>
+<category>自我改进</category>
+<category>权重编辑</category>
+<category>开源模型</category>
+<category>斯坦福</category>
+</item>
+<item><title>PostgreSQL 19 Ships IGNORE NULLS and JSONPath Transformations</title><link>https://certuvia.com/blog/postgres-19</link><guid isPermaLink="true">https://certuvia.com/blog/postgres-19</guid>
+<pubDate>Sat, 21 Nov 2026 01:08:56 +0800</pubDate>
+<description>&lt;p&gt;PostgreSQL 19 was released on November 19, 2026, adding IGNORE NULLS, get-or-create inserts, JSON export, JSONPath transformations and range subtraction to its SQL surface, alongside maintenance and replication improvements. Official hands-on browser examples cover logical subscribers and physical standbys, and extension authors gain new planner hooks and shared-memory registration changes.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;PostgreSQL 19 发布 新增 IGNORE NULLS 与 JSONPath 转换&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流开源数据库年度大版本更新，SQL 新特性与复制改进对后端与数据工程读者具备直接可用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://certuvia.com/blog/postgres-19">Hacker News AI</source>
+<category>PostgreSQL</category>
+<category>数据库</category>
+<category>开源</category>
+<category>SQL</category>
+</item>
+<item><title>ClickUp Adds Built-in AI That Builds Tools and Makes Videos</title><link>https://x.com/rohanpaul_ai/status/2123822297471660234</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123822297471660234</guid>
+<pubDate>Sat, 21 Nov 2026 00:54:29 +0800</pubDate>
+<description>&lt;p&gt;ClickUp shipped an update that turns its task-tracking app into a work-execution platform: built-in AI can generate video, run multi-step processes and build custom tools, all grounded in the team&amp;#x27;s real task data rather than pasted summaries. Its CEO frames this as software convergence, arguing cheaper AI-driven development pushes vendors toward single platforms holding full context.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;ClickUp 内置 AI 可生成视频并自建工具&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;反映 AI 编码成本下降如何压缩产品品类边界，是观察 SaaS 形态演进的典型样本。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2123822297471660234">Rohan Paul (@rohanpaul_ai)</source>
+<category>AI 编程</category>
+<category>SaaS</category>
+<category>智能体</category>
+<category>产品战略</category>
+</item>
+<item><title>Anthropic Mathematician Claims Claude Helped Crack Riemann Hypothesis</title><link>https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem</guid>
+<pubDate>Sat, 21 Nov 2026 00:34:13 +0800</pubDate>
+<description>&lt;p&gt;Anthropic mathematician Levent Alpöge claims to have proved the Riemann hypothesis, a 160-year-old Millennium Prize problem, with Claude&amp;#x27;s help. The proof has not been independently verified, Anthropic has not commented or participated, and Alpöge says he privately notified CEO Dario Amodei and delayed publication until after the company&amp;#x27;s IPO.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 数学家称借 Claude 攻克黎曼猜想&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;若属实将是 AI 辅助数学证明的里程碑事件，但证据尚未验证，值得关注后续进展。&lt;/p&gt;&lt;p&gt;The Verge AI · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem">The Verge AI</source>
+<category>大模型</category>
+<category>Anthropic</category>
+<category>AI for Science</category>
+<category>数学证明</category>
+</item>
 <item><title>Mathematician Claims Riemann Hypothesis Proof Co-Discovered with Claude</title><link>https://simonwillison.net/2026/Nov/20/levent-alpoge/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/20/levent-alpoge/</guid>
 <pubDate>Sat, 21 Nov 2026 00:30:48 +0800</pubDate>
 <description>&lt;p&gt;Mathematician Levent Alpöge publicly claims to have discovered a proof of the Riemann Hypothesis working alongside Claude, saying the method extends to the Generalized Riemann Hypothesis and that the arguments were formalized without assumptions. If verified by peers, this would mark a milestone for AI-assisted mathematics, though it currently remains a personal claim awaiting formal verification and community review.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;数学家称与 Claude 合作证明黎曼猜想&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;黎曼猜想级别的数学声明叠加 Claude 深度参与，无论最终验证结果如何都值得持续关注。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · llm · signal 88/100&lt;/p&gt;</description>
@@ -175,27 +220,27 @@
 <category>智能终端</category>
 <category>战略合作</category>
 </item>
-<item><title>WeRide Q3 Revenue Jumps 88% as Robotaxi Sales Top $14M</title><link>https://www.ithome.com/1/030/224.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/224.htm</guid>
+<item><title>文远知行第三季度营收 3.21 亿元，Robotaxi 单季破亿</title><link>https://www.ithome.com/1/030/224.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/224.htm</guid>
 <pubDate>Fri, 20 Nov 2026 19:41:22 +0800</pubDate>
-<description>&lt;p&gt;WeRide posted Q3 2026 revenue of RMB 321 million, up 88% year over year, with gross margin rising to 43%. Robotaxi revenue topped RMB 100 million for the first time, over 90% from overseas, while cumulative nine-month revenue reached RMB 667 million against a net loss of RMB 1.1 billion.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;文远知行第三季度营收 3.21 亿元，Robotaxi 单季破亿&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;自动驾驶头部公司季度财报披露 Robotaxi 单季收入破亿与单车经济转正，是观察 L4 商业化拐点的关键数据。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;文远知行 2026 财年第三季度营收 3.21 亿元，同比增长 88%，毛利率升至 43%，Robotaxi 单季收入首次突破 1 亿元且海外占比超九成。前三季度累计营收 6.67 亿元，归母净亏损 11 亿元，广州 Robotaxi 单车单位经济效益已转正。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;自动驾驶头部公司季度财报披露 Robotaxi 单季收入破亿与单车经济转正，是观察 L4 商业化拐点的关键数据。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/030/224.htm">IT之家 · IT业界</source>
 <category>自动驾驶</category>
 <category>Robotaxi</category>
 <category>财报</category>
 <category>文远知行</category>
 </item>
-<item><title>Tencent WorkBuddy Adds Computer Use Capability for Desktop Automation</title><link>https://www.ithome.com/1/030/222.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/222.htm</guid>
+<item><title>腾讯 WorkBuddy 上线电脑操控能力</title><link>https://www.ithome.com/1/030/222.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/222.htm</guid>
 <pubDate>Fri, 20 Nov 2026 19:25:49 +0800</pubDate>
-<description>&lt;p&gt;Tencent WorkBuddy has launched a Computer Use capability that recognizes on-screen pages and client interfaces to perform clicks, typing, and scrolling without requiring target software to expose APIs, operating in the background. The feature is in public beta on macOS and Windows, requiring client version 5.11.0 or above and user authorization, with Tencent advising users to stay present during sensitive actions such as login, payment, and deletion.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;腾讯 WorkBuddy 上线电脑操控能力&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;腾讯将 GUI 操控能力集成进办公智能体产品，是 Computer Use 在国内大厂落地的重要一步。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;腾讯 WorkBuddy 正式上线电脑操控（Computer Use）能力，可识别当前页面与客户端界面，执行点击、输入、滚动等操作，无需目标软件开放接口即可在后台运行。该功能目前处于公测阶段，支持 macOS 与 Windows，需客户端升级至 5.11.0 及以上版本并完成授权，官方建议在登录、支付、删除等敏感操作时保持在场监控。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;腾讯将 GUI 操控能力集成进办公智能体产品，是 Computer Use 在国内大厂落地的重要一步。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/030/222.htm">IT之家 · 智能时代</source>
 <category>智能体</category>
 <category>Computer Use</category>
 <category>腾讯</category>
 <category>办公自动化</category>
 </item>
-<item><title>Insta360 Mic Pro and Wave Gain Native Tencent WorkBuddy Integration</title><link>https://www.ithome.com/1/030/221.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/221.htm</guid>
+<item><title>影石 Mic Pro 与 Wave 固件升级 原生接入腾讯 WorkBuddy</title><link>https://www.ithome.com/1/030/221.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/221.htm</guid>
 <pubDate>Fri, 20 Nov 2026 19:19:32 +0800</pubDate>
-<description>&lt;p&gt;Insta360 has released a free firmware update for its Mic Pro wireless microphone and Wave AI speakerphone, adding native integration with Tencent WorkBuddy. Recordings now flow directly into an AI workflow for transcription, summarization and task extraction, with AI agents aggregating content across meetings.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;影石 Mic Pro 与 Wave 固件升级 原生接入腾讯 WorkBuddy&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;硬件麦克风与 AI 办公智能体打通，是语音入口争夺战的一个具体落地样本。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;影石 Insta360 为旗舰无线麦克风 Mic Pro 与 AI 全向麦克风 Wave 推送免费固件升级，原生接入腾讯 WorkBuddy。升级后录音可直接进入 AI 工作流，自动完成转写、总结与待办提取，并由 AI Agent 跨会议汇总处理任务。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;硬件麦克风与 AI 办公智能体打通，是语音入口争夺战的一个具体落地样本。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 38/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/030/221.htm">IT之家 · 智能时代</source>
 <category>智能体</category>
 <category>腾讯</category>
@@ -229,51 +274,6 @@
 <category>推理加速</category>
 <category>小米 MiMo</category>
 <category>API 服务</category>
-</item>
-<item><title>AI 自主设计出全新指令集 CPU 能效提升 4.59 倍</title><link>https://architectlabs.com/blog/frostbite</link><guid isPermaLink="true">https://architectlabs.com/blog/frostbite</guid>
-<pubDate>Fri, 20 Nov 2026 18:01:41 +0800</pubDate>
-<description>&lt;p&gt;Architect Labs 发布 Frostbite，一款由 AI 系统从零设计、实现并验证的通用 CPU 及其全新指令集。该架构基于交互网（interaction nets）的局部性与显式依赖特性，在 25 个含 15 个最终才揭晓的留出工作负载上，相较现代已流片的超标量 CPU 实现 4.59 倍每瓦性能提升。团队计划开源 Frostbite 的 RTL 与 ISA，标志着 AI 从实现既有架构迈向软硬件协同设计的新阶段。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 首次端到端自主发现并验证全新 CPU 架构与指令集，能效提升达 4.59 倍，是硬件设计范式的节点性事件。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 88/100&lt;/p&gt;</description>
-<source url="https://architectlabs.com/blog/frostbite">Hacker News AI</source>
-<category>芯片架构</category>
-<category>AI for Science</category>
-<category>软硬件协同设计</category>
-<category>指令集</category>
-<category>Architect Labs</category>
-</item>
-<item><title>Nous Research 将 Hermes Agent 集成进微软 Teams</title><link>https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/</link><guid isPermaLink="true">https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/</guid>
-<pubDate>Fri, 20 Nov 2026 17:59:51 +0800</pubDate>
-<description>&lt;p&gt;Nous Research 宣布企业可在微软 Teams 内直接运行开源 Hermes Agent，员工可将财务分析、文档起草、收件箱整理等任务交给智能体并在同一聊天窗口审阅结果。智能体运行于 Azure Container Apps 隔离微虚拟机沙箱中，并新增 Collective Wisdom 功能，允许员工在审核后把成功工作流沉淀为可复用技能并共享给团队。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源智能体进入主流企业协作平台，并给出技能沉淀与团队共享的具体机制，对企业 Agent 落地有参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 58/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/hermes-agents-collective-wisdom-feature-turns-one-employees-ai-trick-into-the-whole-teams-skill/">The Decoder</source>
-<category>智能体</category>
-<category>开源</category>
-<category>企业协作</category>
-<category>Nous Research</category>
-</item>
-<item><title>林俊旸创业公司语用科技估值达 50 亿美元</title><link>https://www.ithome.com/1/030/176.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/176.htm</guid>
-<pubDate>Fri, 20 Nov 2026 17:59:30 +0800</pubDate>
-<description>&lt;p&gt;据彭博社报道，前阿里最年轻 P10 技术专家林俊旸今年夏天创立的语用科技（Pragmatik Labs）已完成新一轮数千万美元融资，估值升至 50 亿美元，较 8 月首轮的 20 亿美元翻了一倍多。新晋投资方包括华业天成资本、鼎晖投资和吉利汽车控股，公司尚未公开具体技术路线与产品。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;明星技术负责人创业公司估值在三个月内翻倍，是观察中国基模人才流动与资本热度的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/030/176.htm">IT之家 · IT业界</source>
-<category>融资</category>
-<category>人才流动</category>
-<category>基座模型</category>
-</item>
-<item><title>开放原子龙架构社区成立 首批 22 家单位共建</title><link>https://www.ithome.com/1/030/139.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/139.htm</guid>
-<pubDate>Fri, 20 Nov 2026 17:44:40 +0800</pubDate>
-<description>&lt;p&gt;开放原子龙架构社区在 2026 开放原子开发者大会上正式成立，由龙芯中科与开放原子开源基金会联合共建，是我国自主指令集领域首个综合性开源社区。社区重点布局 IP 核、二进制翻译、基础操作系统三大专项，首批 22 家成员单位覆盖芯片、操作系统与整机终端，OpenLA132 处理器核、LATU/LATS 翻译器与 LoongHong 操作系统等标志性项目已上线。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;自主指令集首次以基金会模式组织全栈开源生态，是国产 CPU 架构生态建设的关键节点。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · opensource · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/030/139.htm">IT之家 · IT业界</source>
-<category>开源生态</category>
-<category>龙芯</category>
-<category>指令集</category>
-<category>操作系统</category>
-</item>
-<item><title>Signal 封堵 iOS 27 与安卓系统级 AI 读取聊天屏幕</title><link>https://signal.org/blog/protecting-your-privacy/</link><guid isPermaLink="true">https://signal.org/blog/protecting-your-privacy/</guid>
-<pubDate>Fri, 20 Nov 2026 17:42:16 +0800</pubDate>
-<description>&lt;p&gt;Signal 宣布将限制 iOS 27 与部分安卓版本中系统内置 AI 助手读取其应用界面，防止 Gemini Intelligence 等智能体截取并存储用户聊天数据。这是继去年用截图屏蔽阻止 Windows Recall 之后，Signal 第二次针对操作系统级 AI 采集能力采取技术反制。事件凸显端侧智能体普及与隐私应用之间的权限冲突正在升级。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;隐私通讯应用首次系统性反制系统级 AI 智能体的屏幕读取，是端侧 Agent 权限边界的重要行业信号。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://signal.org/blog/protecting-your-privacy/">Hacker News AI</source>
-<category>隐私安全</category>
-<category>智能体</category>
-<category>端侧 AI</category>
-<category>Signal</category>
 </item>
 </channel>
 </rss>
