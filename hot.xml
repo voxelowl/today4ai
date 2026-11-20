@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Sat, 21 Nov 2026 05:17:59 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 21 Nov 2026 07:24:30 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 登陆纳斯达克 募资 935 亿美元刷新纪录</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
 <pubDate>Sat, 21 Nov 2026 01:44:01 +0800</pubDate>
@@ -17,7 +17,15 @@ Anthropic 的上市标志着头部大模型公司首次进入公开资本市场�
 
 综合多源信息，Neon 支持 100 万 token 上下文与四档推理级别，可在 Antigravity 开发环境中调度多个子智能体并行执行长任务。在 Arena 智能体竞技场基于 4200 场真实会话的评测中，Neon 以 1336 分位列总榜第二，单任务中位成本仅 2.82 美元，比 Claude Opus 5.5 低 53%，比榜首 Claude Fable 5.2 低 69%。模型卡显示其在 Gray-Swan 基准上 100% 阻断间接提示注入攻击，速度约 110 tokens/秒，接近同代 Carbon 的两倍。
 
-Neon 的发布标志着谷歌在七周内连发四款 Gemini 4 系列模型，产品线快速收敛。其高性价比与可操控性优势直接对标 Anthropic 与 OpenAI 的旗舰产品，有望降低企业部署智能体的门槛，加剧中端 AI 模型市场的价格竞争。&lt;/p&gt;&lt;p&gt;12 sources&lt;/p&gt;&lt;p&gt;The Decoder, Marktechpost (@Marktechpost), Google DeepMind, OpenRouter (@OpenRouter), Hacker News AI, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
+Neon 的发布标志着谷歌在七周内连发四款 Gemini 4 系列模型，产品线快速收敛。其高性价比与可操控性优势直接对标 Anthropic 与 OpenAI 的旗舰产品，有望降低企业部署智能体的门槛，加剧中端 AI 模型市场的价格竞争。&lt;/p&gt;&lt;p&gt;11 sources&lt;/p&gt;&lt;p&gt;The Decoder, Marktechpost (@Marktechpost), Google DeepMind, OpenRouter (@OpenRouter), Hacker News AI, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
+</item>
+<item><title>Thinking Machines 开源 26B 循环层模型 Inkling 2 Mini</title><link>https://todayforai.com/en/story/story-e7a42b22-638</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e7a42b22-638</guid>
+<pubDate>Sat, 21 Nov 2026 07:24:30 +0800</pubDate>
+<description>&lt;p&gt;Thinking Machines Lab 联合 Hugging Face 正式开源多模态混合专家模型 Inkling 2 Mini，以 26B 总参数、仅 3-5B 激活参数的极致稀疏设计，在 Artificial Analysis 智能指数上得分 20，并支持 100 万 token 上下文与图文输入，可在 MacBook 或 DGX Spark 上本地运行。
+
+该模型的核心创新在于循环 Transformer 架构：中间 12 层共享权重并循环执行三次，每轮保留独立 KV 缓存并读取上一轮的门控消息，从而在不增加参数量的前提下显著提升有效容量。vLLM 在 NVIDIA Blackwell、Hopper 与 DGX Spark 上实现发布当日支持，并通过 NVFP4/MXFP8 混合精度权重与内置 DSpark 推测解码进一步加速推理。据 Hacker News 报道，其在 DeepSWE v1.1 取得 48.2%、Vals Index v2.2 取得 46.5%，官方称领先所有 100B 以下开源权重模型。
+
+Inkling 2 Mini 的发布标志着高效循环架构在开源社区的落地，为本地部署与长上下文应用提供了新的可能性，有望推动边缘 AI 与隐私敏感场景的发展，并对同等规模的传统 Transformer 模型形成竞争压力。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;vLLM 官方博客, Hugging Face Blog, Hacker News AI, Artificial Analysis (@ArtificialAnlys), Artificial Analysis&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 数学家宣称与 Claude 合作证明黎曼猜想</title><link>https://todayforai.com/en/story/story-c508eedd-8d6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c508eedd-8d6</guid>
 <pubDate>Sat, 21 Nov 2026 03:45:51 +0800</pubDate>
@@ -27,13 +35,13 @@ Neon 的发布标志着谷歌在七周内连发四款 Gemini 4 系列模型，�
 
 若最终获得确认，这一事件将深刻影响 AI 辅助数学研究的生态，证明大模型在最高阶创造性数学推理中的潜力，并推动形式化验证与 AI 协作范式的普及。然而，在独立验证完成前，业界应保持审慎，避免过度解读个人声明。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;Simon Willison 博客, IT之家 · 智能时代, The Verge AI, Rohan Paul (@rohanpaul_ai), TechCrunch AI, Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
 </item>
-<item><title>Thinking Machines 开源 26B 循环层模型 Inkling 2 Mini</title><link>https://todayforai.com/en/story/story-e7a42b22-638</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e7a42b22-638</guid>
-<pubDate>Sat, 21 Nov 2026 04:35:18 +0800</pubDate>
-<description>&lt;p&gt;Thinking Machines Lab 联合 Hugging Face 正式开源多模态混合专家模型 Inkling 2 Mini，以 26B 总参数、仅 3-5B 激活参数的极致稀疏设计，在 Artificial Analysis 智能指数上得分 20，并支持 100 万 token 上下文与图文输入，可在 MacBook 或 DGX Spark 上本地运行。
+<item><title>HeyGen 上线 Decision 1 多模态概率判定模型</title><link>https://todayforai.com/en/story/story-4c3c4a18-8e7</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4c3c4a18-8e7</guid>
+<pubDate>Sat, 21 Nov 2026 07:14:24 +0800</pubDate>
+<description>&lt;p&gt;HeyGen 正式推出 Decision 1 模型，并已在 OpenRouter 平台上线。该模型不生成自然语言文本，而是接收视频、音频、图像与文本的多模态输入，针对每个问题返回校准后的概率值，可直接接入业务代码逻辑。单次调用最多支持 400 个问题，延迟约 100 毫秒，输入价格在 12 月 1 日前享受五折优惠，Turbo 版本每百万 token 仅 0.042 美元，输出免费。
 
-该模型的核心创新在于循环 Transformer 架构：中间 12 层共享权重并循环执行三次，每轮保留独立 KV 缓存并读取上一轮的门控消息，从而在不增加参数量的前提下显著提升有效容量。vLLM 在 NVIDIA Blackwell、Hopper 与 DGX Spark 上实现发布当日支持，并通过 NVFP4/MXFP8 混合精度权重与内置 DSpark 推测解码进一步加速推理。据 Hacker News 报道，其在 DeepSWE v1.1 取得 48.2%、Vals Index v2.2 取得 46.5%，官方称领先所有 100B 以下开源权重模型。
+综合多方信源，Decision 1 的核心特性在于批量概率判定能力。官方演示中，手势与情绪识别 8 题全对，单次成本约 0.0027 美元，凸显低成本实用导向。模型通过 AI/ML API 平台分发，与 OpenRouter 形成互补渠道。其输出概率值而非文本的设计，便于开发者直接嵌入风控、身份核验等自动化流程，例如判断自拍视频与证件照是否同一人、是否为活体采集。
 
-Inkling 2 Mini 的发布标志着高效循环架构在开源社区的落地，为本地部署与长上下文应用提供了新的可能性，有望推动边缘 AI 与隐私敏感场景的发展，并对同等规模的传统 Transformer 模型形成竞争压力。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;vLLM 官方博客, Hugging Face Blog, Hacker News AI, Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
+此次发布标志着 AI 模型从内容生成向决策判定延伸，为视频审核、金融身份认证、互动娱乐等场景提供了可量化的概率工具。HeyGen 以极低定价和批量处理能力切入，有望降低多模态判定的应用门槛，推动概率型 AI 服务成为新的基础设施。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter), Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 发布 GPT-6.2 双模型 任务成本骤降 80%</title><link>https://todayforai.com/en/story/story-38dbfe49-f31</link><guid isPermaLink="true">https://todayforai.com/en/story/story-38dbfe49-f31</guid>
 <pubDate>Fri, 20 Nov 2026 15:13:50 +0800</pubDate>
@@ -70,14 +78,6 @@ Inkling 2 Mini 的发布标志着高效循环架构在开源社区的落地，�
 <item><title>Parallel Search 登顶搜索指数 单次任务仅 0.014 美元</title><link>https://todayforai.com/en/story/story-1b003842-8b7</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1b003842-8b7</guid>
 <pubDate>Sat, 21 Nov 2026 01:43:02 +0800</pubDate>
 <description>&lt;p&gt;Artificial Analysis 用 Stirrup 智能体框架对 Parallel Search API 的 fast 与 advanced 两种模式进行了 1700 项搜索任务评测，advanced 模式以 83 分与 Keenable Search (pro) 并列榜首，fast 模式以 82 分位列第四。相比 8 月版本，两种模式分别提升 8 分和 9 分，且 fast 模式单次任务成本仅 0.014 美元，在 DeepSearchQA 上两种模式均取得 89 F1。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
-</item>
-<item><title>特朗普威胁对海外建数据中心美企征重税</title><link>https://todayforai.com/en/story/story-12a274f9-59f</link><guid isPermaLink="true">https://todayforai.com/en/story/story-12a274f9-59f</guid>
-<pubDate>Sat, 21 Nov 2026 03:56:58 +0800</pubDate>
-<description>&lt;p&gt;美国总统特朗普在白宫简报会上首次公开威胁，将对在美国境外建设数据中心的美国企业征收“巨额税收”并施加惩罚，点名芬兰项目，理由是担心中国接手。他声称数据中心将自建发电设施从而压低居民电价，并支持地方以现金补偿换取项目落地。
-
-综合多家信源，特朗普的表态缺乏具体税率、法律依据与执行路径，且与美国多州、市正在收紧数据中心审批的现实相冲突。其所谓“中国会把数据中心全部拿走”的论调，延续了防止芯片产业外流的逻辑，但政策内部存在张力，落地难度大。
-
-此举可能加剧美国科技企业海外布局的不确定性，并引发盟友对投资环境的担忧。同时，特朗普关于数据中心自建发电降低电价的说法缺乏数据支撑，而地方现金补偿换项目获批的模式，可能推高公共成本并引发公平性质疑。整体来看，该政策信号意义大于实际执行力，但足以扰动全球数据中心投资格局。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), The Verge AI&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

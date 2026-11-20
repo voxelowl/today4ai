@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 21 Nov 2026 06:35:24 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 21 Nov 2026 07:14:24 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>HeyGen Releases Decision 1 Model That Outputs Probabilities for Video</title><link>https://x.com/rohanpaul_ai/status/2123917907499634975</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123917907499634975</guid>
+<pubDate>Sat, 21 Nov 2026 07:14:24 +0800</pubDate>
+<description>&lt;p&gt;HeyGen has launched Decision 1, a model that generates no text at all: it accepts text, image, video or audio input, answers up to 400 questions, and returns a probability per question that code can act on directly. It is now available through the AI/ML API platform, with a demo scoring 8 out of 8 on gesture and emotion recognition at roughly $0.0027 per run.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;HeyGen 发布 Decision 1 视频概率判定模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;视频理解从生成文本转向输出可编程概率，为自动化决策类应用提供了新的接口范式。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2123917907499634975">Rohan Paul (@rohanpaul_ai)</source>
+<category>视频理解</category>
+<category>HeyGen</category>
+<category>API 平台</category>
+<category>多模态</category>
+</item>
+<item><title>SEC Probes Nvidia Accounting as Shares Plunge 14 Percent</title><link>https://x.com/rohanpaul_ai/status/2123915336739410309</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123915336739410309</guid>
+<pubDate>Sat, 21 Nov 2026 07:04:11 +0800</pubDate>
+<description>&lt;p&gt;The FT reports that US securities regulators are examining Nvidia, expanding a civil review of whether its disclosures misled investors into an accounting probe. Shares fell 14% in one session, erasing roughly $491B in market cap. A focal point is Nvidia&amp;#x27;s shift from billing-location to customer-headquarters revenue reporting shortly after blocklisting Megaspeed in June 2025, which moved most of $10.2B in Singapore-billed revenue into the US line.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美 SEC 调查英伟达会计问题 市值单日蒸发 4910 亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;监管调查叠加千亿美元级市值蒸发，直接冲击 AI 算力龙头的财务可信度与收入地域口径。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 88/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2123915336739410309">Rohan Paul (@rohanpaul_ai)</source>
+<category>英伟达</category>
+<category>SEC 调查</category>
+<category>财务披露</category>
+<category>算力</category>
+<category>监管</category>
+</item>
 <item><title>AWS Launches SageMaker HyperPod Global Inference Gateway</title><link>https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-one-endpoint-across-regions-and-clusters/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-one-endpoint-across-regions-and-clusters/</guid>
 <pubDate>Sat, 21 Nov 2026 06:35:24 +0800</pubDate>
 <description>&lt;p&gt;AWS introduced the SageMaker HyperPod Global Inference Gateway, extending its GPU-aware routing from a single cluster to a single managed endpoint spanning multiple clusters and Regions. The gateway selects clusters using real-time signals such as KV cache utilization and queue depth, carries requests over the AWS backbone, and provides automatic failover with SigV4 and IAM authentication. It targets capacity waste when one cluster queues requests while GPUs elsewhere sit idle.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS 推出 SageMaker 跨区全局推理网关&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向大模型推理的跨区容量调度能力更新，对使用 HyperPod 的团队有直接工程价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · compute · signal 58/100&lt;/p&gt;</description>
@@ -11,6 +30,14 @@
 <category>推理基础设施</category>
 <category>算力调度</category>
 <category>SageMaker</category>
+</item>
+<item><title>Study Reveals Concealed Commercial Incentives in Large Language Models</title><link>https://www.researchgate.net/publication/418143113_The_Hungry_Butler_Effect_Concealed_Commercial_Incentives_and_the_Erosion_of_Epistemic_Rigour_in_Large_Language_Models</link><guid isPermaLink="true">https://www.researchgate.net/publication/418143113_The_Hungry_Butler_Effect_Concealed_Commercial_Incentives_and_the_Erosion_of_Epistemic_Rigour_in_Large_Language_Models</guid>
+<pubDate>Sat, 21 Nov 2026 06:18:20 +0800</pubDate>
+<description>&lt;p&gt;A study titled \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;研究揭示大模型暗藏商业激励偏差&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究提出大模型隐性商业激励这一值得警惕的新偏差类型，对模型可信度评估具有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.researchgate.net/publication/418143113_The_Hungry_Butler_Effect_Concealed_Commercial_Incentives_and_the_Erosion_of_Epistemic_Rigour_in_Large_Language_Models">Hacker News AI</source>
+<category>大模型</category>
+<category>模型偏差</category>
+<category>AI 可信度</category>
 </item>
 <item><title>Google Search Homepage Redesign Drops Search Button and Adds AI Sidebar</title><link>https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/</link><guid isPermaLink="true">https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/</guid>
 <pubDate>Sat, 21 Nov 2026 05:58:29 +0800</pubDate>
@@ -47,6 +74,14 @@
 <category>HeyGen</category>
 <category>OpenRouter</category>
 <category>身份核验</category>
+</item>
+<item><title>Formal Verification Emerges as Weapon Against AI-Generated Slop</title><link>https://latent.space/p/formal-verification/</link><guid isPermaLink="true">https://latent.space/p/formal-verification/</guid>
+<pubDate>Sat, 21 Nov 2026 05:18:41 +0800</pubDate>
+<description>&lt;p&gt;As AI-generated code proliferates, low-quality output known as \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;形式化验证成为对抗 AI 低质代码的新武器&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;形式化验证与 AI 结合是代码质量治理的重要方向，值得关注其工程化进展。&lt;/p&gt;&lt;p&gt;Latent Space · tools · signal 62/100&lt;/p&gt;</description>
+<source url="https://latent.space/p/formal-verification/">Latent Space</source>
+<category>形式化验证</category>
+<category>AI 编程</category>
+<category>代码质量</category>
 </item>
 <item><title>OpenAI Releases MedChemBench Medicinal Chemistry Benchmark</title><link>https://x.com/rohanpaul_ai/status/2123888611678646426</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123888611678646426</guid>
 <pubDate>Sat, 21 Nov 2026 05:17:59 +0800</pubDate>
@@ -183,9 +218,9 @@
 <category>Emacs</category>
 <category>开发者工具</category>
 </item>
-<item><title>Anthropic Models Claim Generalized Riemann Hypothesis Proof in 17.4M Lines of Lean</title><link>https://scottaaronson.blog/?p=10344</link><guid isPermaLink="true">https://scottaaronson.blog/?p=10344</guid>
+<item><title>Anthropic 模型宣称证明广义黎曼猜想 产出 1740 万行 Lean 代码</title><link>https://scottaaronson.blog/?p=10344</link><guid isPermaLink="true">https://scottaaronson.blog/?p=10344</guid>
 <pubDate>Sat, 21 Nov 2026 04:03:07 +0800</pubDate>
-<description>&lt;p&gt;Levent Alpöge claims to have used Anthropic models to prove the Generalized Riemann Hypothesis, generating 17.4 million lines of Lean code now published on GitHub. Coming on the heels of an AI-assisted result bounding nontrivial zeros within 3/8 of the critical line, a verified proof would mark a landmark moment for AI for mathematics.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 模型宣称证明广义黎曼猜想 产出 1740 万行 Lean 代码&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 挑战千禧年难题级数学猜想并产出超大规模形式化证明，是 AI for Science 领域极具分量的潜在节点事件。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 88/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Levent Alpöge 声称借助 Anthropic 模型完成了广义黎曼猜想的证明，并生成了高达 1740 万行的 Lean 形式化代码，已在 GitHub 公开。此前 AI 已在黎曼 zeta 函数非平凡零点分布上取得 3/8 距离的实质进展，若此次证明通过形式化验证，将是 AI for Math 的标志性节点。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 挑战千禧年难题级数学猜想并产出超大规模形式化证明，是 AI for Science 领域极具分量的潜在节点事件。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 88/100&lt;/p&gt;</description>
 <source url="https://scottaaronson.blog/?p=10344">Hacker News AI</source>
 <category>AI for Science</category>
 <category>形式化验证</category>
@@ -193,35 +228,35 @@
 <category>黎曼猜想</category>
 <category>Lean</category>
 </item>
-<item><title>Trump Threatens Heavy Tax on US Firms Building Data Centers Abroad</title><link>https://x.com/rohanpaul_ai/status/2123868222940475571</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123868222940475571</guid>
+<item><title>特朗普威胁对海外建数据中心美企征重税</title><link>https://x.com/rohanpaul_ai/status/2123868222940475571</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123868222940475571</guid>
 <pubDate>Sat, 21 Nov 2026 03:56:58 +0800</pubDate>
-<description>&lt;p&gt;At a White House briefing, President Trump said his administration will block US companies from building data centers abroad and impose a \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;特朗普威胁对海外建数据中心美企征重税&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;美国最高层直接以税收与禁令干预 AI 算力基础设施的全球布局，是影响数据中心选址与资本开支的实质性政策信号。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;特朗普在白宫简报会上表示，将阻止美国企业赴海外建设数据中心，并对相关企业征收“巨额税收”与惩罚，点名芬兰项目，理由是担心中国接手。他同时声称数据中心将自建发电设施从而压低居民电价，并支持地方以现金补偿换取项目落地。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;美国最高层直接以税收与禁令干预 AI 算力基础设施的全球布局，是影响数据中心选址与资本开支的实质性政策信号。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 62/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2123868222940475571">Rohan Paul (@rohanpaul_ai)</source>
 <category>数据中心</category>
 <category>算力基础设施</category>
 <category>政策监管</category>
 <category>特朗普</category>
 </item>
-<item><title>Spotify Founder Daniel Ek Backs AI Researcher&#x27;s Fusion Startup</title><link>https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/</guid>
+<item><title>Spotify 创始人投资 AI 研究员创立的核聚变公司</title><link>https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/</guid>
 <pubDate>Sat, 21 Nov 2026 03:53:41 +0800</pubDate>
-<description>&lt;p&gt;Spotify founder Daniel Ek has backed Europa Fusion, a UK-based fusion startup founded in February by Nantas Nardelli, a former Google DeepMind, Meta AI and Microsoft Research scientist who most recently led machine learning at Pacific Fusion. The move marks AI talent flowing into energy infrastructure, though the startup&amp;#x27;s technical approach and product details remain undisclosed.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Spotify 创始人投资 AI 研究员创立的核聚变公司&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 顶尖研究员转向核聚变创业并获知名天使投资，反映 AI 人才与资本向能源基础设施外溢的趋势。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Spotify 创始人 Daniel Ek 投资了英国核聚变初创公司 Europa Fusion，该公司由前 DeepMind、Meta AI 及微软研究院研究员 Nantas Nardelli 于今年 2 月创立。Nardelli 曾任美国 Pacific Fusion 机器学习负责人，此次创业代表 AI 人才向能源基础设施领域的外溢，但公司技术路线与产品细节尚未公开。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 顶尖研究员转向核聚变创业并获知名天使投资，反映 AI 人才与资本向能源基础设施外溢的趋势。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 38/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/">TechCrunch AI</source>
 <category>核聚变</category>
 <category>AI 人才流动</category>
 <category>投融资</category>
 </item>
-<item><title>Signal Blocks Screenshots on iOS 27 and Android to Stop AI Agents Reading Chats</title><link>https://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats/</link><guid isPermaLink="true">https://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats/</guid>
+<item><title>Signal 在 iOS 27 与 Android 上封堵截屏，阻止 AI 智能体读取私聊</title><link>https://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats/</link><guid isPermaLink="true">https://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats/</guid>
 <pubDate>Sat, 21 Nov 2026 03:50:27 +0800</pubDate>
-<description>&lt;p&gt;Signal now blocks screenshots outright on iOS 27 and triggers protection on supported Android versions when an AI assistant attempts to access the screen, aiming to stop OS-level AI agents from pulling decrypted messages off the display and bypassing end-to-end encryption. Signal told Reuters the move addresses an \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Signal 在 iOS 27 与 Android 上封堵截屏，阻止 AI 智能体读取私聊&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;端到端加密与系统级 AI 智能体的权限边界首次正面碰撞，对隐私架构与智能体落地均有实质影响。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Signal 在 iOS 27 上直接禁止截屏，并在受支持的 Android 版本上于 AI 助手尝试读取屏幕时触发保护，以阻止系统级 AI 智能体绕过端到端加密抓取已解密消息。Signal 向路透社称此举针对隐私面临的“生存性威胁”，并援引 Meta 智能体 Muse 此前在 Android 与 macOS 上通过无障碍权限等广泛授权获取 Signal 内容的先例。这标志着端到端加密应用与操作系统级 AI 之间围绕屏幕内容访问权的首次正面冲突。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;端到端加密与系统级 AI 智能体的权限边界首次正面碰撞，对隐私架构与智能体落地均有实质影响。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats/">The Decoder</source>
 <category>隐私安全</category>
 <category>AI 智能体</category>
 <category>端到端加密</category>
 <category>Signal</category>
 </item>
-<item><title>GPT-6.2 Astra Tops AA-Robotics Benchmark with Fewest Moves</title><link>https://x.com/ArtificialAnlys/status/2123866468156854664</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2123866468156854664</guid>
+<item><title>GPT-6.2 Astra 在机器人基准中动作数最少</title><link>https://x.com/ArtificialAnlys/status/2123866468156854664</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2123866468156854664</guid>
 <pubDate>Sat, 21 Nov 2026 03:50:00 +0800</pubDate>
-<description>&lt;p&gt;Artificial Analysis&amp;#x27; AA-Robotics v0.1 benchmark shows GPT-6.2 Astra issuing only 668 commands across six robotic tasks, the fewest among 11 models, while posting the highest score. On the box-cleanup task it used 92 arm commands, roughly 75% fewer than Claude Fable 5.2, indicating stronger motion-planning efficiency.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;GPT-6.2 Astra 在机器人基准中动作数最少&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个机器人操作效率基准的横向对比结果，直接反映前沿模型在具身任务规划上的差距。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Artificial Analysis 的 AA-Robotics v0.1 基准显示，GPT-6.2 Astra 在六项机器人任务中仅发出 668 条指令，为 11 个参评模型中最少，并取得最高分。在清理箱子任务中它用了 92 条机械臂指令，比 Claude Fable 5.2 少约 75%，体现出更强的动作规划效率。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个机器人操作效率基准的横向对比结果，直接反映前沿模型在具身任务规划上的差距。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 62/100&lt;/p&gt;</description>
 <source url="https://x.com/ArtificialAnlys/status/2123866468156854664">Artificial Analysis (@ArtificialAnlys)</source>
 <category>大模型</category>
 <category>具身智能</category>
@@ -236,43 +271,6 @@
 <category>AI for Science</category>
 <category>谷歌</category>
 <category>基准评测</category>
-</item>
-<item><title>Anthropic 称 Claude 辅助证明黎曼猜想</title><link>https://x.com/ArtificialAnlys/status/2123865423364161861</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2123865423364161861</guid>
-<pubDate>Sat, 21 Nov 2026 03:45:51 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 研究员 Levent Alpöge 宣称借助 Claude 完成黎曼猜想的证明，这是继 OpenAI 9 月声称用未公开内部模型解决纳维-斯托克斯方程后，第二起 AI 涉足千禧年数学难题的事件。两项结果均待独立验证，目前仅 Perelman 对庞加莱猜想的证明获正式认可。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 首次被宣称介入黎曼猜想等千禧年难题，虽待验证但标志前沿模型向数学发现延伸。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 71/100&lt;/p&gt;</description>
-<source url="https://x.com/ArtificialAnlys/status/2123865423364161861">Artificial Analysis (@ArtificialAnlys)</source>
-<category>大模型</category>
-<category>数学推理</category>
-<category>Anthropic</category>
-<category>OpenAI</category>
-</item>
-<item><title>Anthropic 员工宣称用 Lean 攻克 167 年黎曼猜想</title><link>https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/</guid>
-<pubDate>Sat, 21 Nov 2026 03:32:08 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 数学家 Levent Alpöge 发布论文，宣称给出黎曼猜想的 Lean 可编译证明，该猜想自 1859 年悬置至今并属千禧年大奖难题。消息在 Lean 社区引发数学家密集核验，同时另一名研究者也声称独立完成证明，真伪尚待同行评审确认。若成立，将是数学与 AI 形式化验证交叉领域的里程碑事件。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;黎曼猜想的 Lean 形式化证明若被证实，将是数学史与 AI 形式化验证的双重里程碑，值得所有关注前沿的读者优先分配注意力。&lt;/p&gt;&lt;p&gt;TechCrunch AI · llm · signal 88/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/">TechCrunch AI</source>
-<category>黎曼猜想</category>
-<category>Lean</category>
-<category>形式化验证</category>
-<category>Anthropic</category>
-<category>数学</category>
-</item>
-<item><title>Winedroid 演示用 WASM 运行 Android 应用</title><link>https://winedroid.soham.sh/demo/</link><guid isPermaLink="true">https://winedroid.soham.sh/demo/</guid>
-<pubDate>Sat, 21 Nov 2026 03:30:16 +0800</pubDate>
-<description>&lt;p&gt;Winedroid 是一个实验性项目，尝试通过 WebAssembly 在无 Android 操作系统的环境中运行 Android 应用，并发布了可交互演示。当前演示在打开 APK 时触发运行时错误而停止，说明项目仍处于早期不稳定阶段。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以 WASM 替代 Android 运行时是颇具想象力的技术路线，虽演示尚不稳定，仍值得关注其后续进展。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 42/100&lt;/p&gt;</description>
-<source url="https://winedroid.soham.sh/demo/">Hacker News AI</source>
-<category>WebAssembly</category>
-<category>Android</category>
-<category>跨平台运行</category>
-<category>开源项目</category>
-</item>
-<item><title>GrapheneOS 指控 Google 施压 OEM 并威胁锁死 Pixel 引导程序</title><link>https://www.androidauthority.com/grapheneos-team-google-pressure-3737525/</link><guid isPermaLink="true">https://www.androidauthority.com/grapheneos-team-google-pressure-3737525/</guid>
-<pubDate>Sat, 21 Nov 2026 03:21:49 +0800</pubDate>
-<description>&lt;p&gt;GrapheneOS 团队公开指控 Google 正试图打压并消灭该项目，称 Google 已联系多家 Android OEM，询问其是否与 GrapheneOS 合作并施加威胁。团队还警告 Google 可能对 Pixel 设备锁死引导程序，从而切断第三方系统的刷机路径。目前相关指控均来自 GrapheneOS 一方，Google 尚未给出正式回应。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及 Android 生态开放性与定制系统生存空间，对关注移动端开源与平台治理的读者有实质参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.androidauthority.com/grapheneos-team-google-pressure-3737525/">Hacker News AI</source>
-<category>GrapheneOS</category>
-<category>Google</category>
-<category>Android</category>
-<category>开源生态</category>
 </item>
 </channel>
 </rss>
