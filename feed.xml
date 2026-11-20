@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Fri, 20 Nov 2026 11:57:23 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 20 Nov 2026 12:22:46 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Synology DSM Hit by CVSS 9.8 Flaw Allowing Unauthenticated File Access</title><link>https://www.ithome.com/1/029/861.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/861.htm</guid>
+<pubDate>Fri, 20 Nov 2026 12:22:46 +0800</pubDate>
+<description>&lt;p&gt;Synology confirmed a CWE-88 argument delimiter flaw in the DSM OAuth Service suite rated CVSS 9.8, letting unauthenticated attackers read or write arbitrary NAS files and trigger denial of service without user interaction. Patched builds for DSM 7.4 and 7.3 are slated for November 20, while 7.2.1, 7.2.2 and 7.1 remain in progress; Synology advises users who cannot upgrade to disable the OAuth Service package.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;群晖 DSM 曝 CVSS 9.8 漏洞 无需登录可远程读写文件&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及广泛部署的 NAS 系统最高危漏洞，直接影响企业自托管 AI 与数据基础设施的安全运维。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · tools · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/029/861.htm">IT之家 · IT业界</source>
+<category>网络安全</category>
+<category>群晖</category>
+<category>NAS</category>
+<category>漏洞修复</category>
+</item>
 <item><title>Bostrom Calculates Delaying Superintelligence Costs Millions of Lives Yearly</title><link>https://x.com/rohanpaul_ai/status/2123626737120809367</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123626737120809367</guid>
 <pubDate>Fri, 20 Nov 2026 11:57:23 +0800</pubDate>
 <description>&lt;p&gt;Nick Bostrom, author of Superintelligence, argues via a simplified model that if superintelligence cures aging, average remaining lifespan for people alive today could stretch from roughly 40 years to about 1,400. As long as AI-caused extinction risk stays below 97%, launching immediately raises expected lifespan, meaning each year of delay costs millions of lives lost to aging.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Bostrom 测算：延迟超级智能每年致数百万人死亡&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 安全与加速主义争论中一个极具争议的量化论证，值得关注 AI 长期风险议题的读者了解其推理框架。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
@@ -181,9 +190,9 @@
 <category>资本市场</category>
 <category>AI 芯片股</category>
 </item>
-<item><title>SageMaker Inference 2026 Update Adds Cross-Region Routing and GPU Sharing</title><link>https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-launches-in-review-part-2/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-launches-in-review-part-2/</guid>
+<item><title>SageMaker 推理 2026 升级 支持跨区域路由与多模型共享 GPU</title><link>https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-launches-in-review-part-2/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-launches-in-review-part-2/</guid>
 <pubDate>Fri, 20 Nov 2026 08:34:07 +0800</pubDate>
-<description>&lt;p&gt;AWS reviewed its 2026 SageMaker Inference updates, including new routing strategies for HyperPod Inference, broader model-serving framework support and expanded multi-Region networking, with the Inference Gateway handling routing and managed NVIDIA Dynamo added as a new serving framework. For managed endpoints, inference recommendations now run from SageMaker AI Studio, the Python SDK and coding agents, and endpoints can route requests across Regions and accounts, helping teams re-select configurations after traffic shifts, pack more models onto paid-for GPUs and fix idle capacity across Regions.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SageMaker 推理 2026 升级 支持跨区域路由与多模型共享 GPU&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AWS 推理基础设施的年度能力盘点，涉及跨区域路由、GPU 多模型共享与托管 Dynamo，对部署大模型服务的工程团队有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · compute · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;AWS 回顾了 SageMaker Inference 在 2026 年的多项更新，核心包括 HyperPod Inference 新增路由策略、支持更多模型服务框架与多区域网络，Inference Gateway 负责请求路由，并引入托管版 NVIDIA Dynamo 作为新的服务框架。托管端点方面，推理推荐已可在 SageMaker AI Studio、Python SDK 及编码智能体中运行，端点支持跨区域与跨账户路由，帮助团队在流量变化后重新选型、在已付费 GPU 上部署更多模型并解决区域间算力闲置问题。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AWS 推理基础设施的年度能力盘点，涉及跨区域路由、GPU 多模型共享与托管 Dynamo，对部署大模型服务的工程团队有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · compute · signal 58/100&lt;/p&gt;</description>
 <source url="https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-launches-in-review-part-2/">AWS Machine Learning Blog</source>
 <category>SageMaker</category>
 <category>推理基础设施</category>
@@ -262,15 +271,6 @@
 <category>Anthropic</category>
 <category>腾讯</category>
 <category>AI 助手</category>
-</item>
-<item><title>Anthropic 启动 IPO，Dario Amodei 发布上市致辞</title><link>https://x.com/dotey/status/2123556264772874346</link><guid isPermaLink="true">https://x.com/dotey/status/2123556264772874346</guid>
-<pubDate>Fri, 20 Nov 2026 07:17:21 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 正式启动首次公开募股，CEO Dario Amodei 发表上市致辞，强调以 AI 加速科学与医学进步为核心使命，并重申对滥用、经济冲击与失控等现实风险的坦诚态度。这是头部大模型公司首次进入公开资本市场，标志 AI 产业商业化与治理进入新阶段。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部大模型公司首次 IPO，是 AI 产业资本化与治理演进的标志性节点。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/dotey/status/2123556264772874346">宝玉 (@dotey)</source>
-<category>Anthropic</category>
-<category>IPO</category>
-<category>AI 治理</category>
-<category>产业融资</category>
 </item>
 </channel>
 </rss>
