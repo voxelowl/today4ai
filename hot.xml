@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Fri, 20 Nov 2026 18:54:00 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 20 Nov 2026 20:30:47 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 上市首日大涨 17% 市值达 1.5 万亿美元</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
 <pubDate>Fri, 20 Nov 2026 17:06:53 +0800</pubDate>
@@ -34,6 +34,14 @@ Neon 的发布标志着谷歌在七周内连发四款 Gemini 4 系列模型，�
 CloudRobo-WM1.2 采用 PPA 多模态世界表征架构与世界模型原生 DualAct 动作生成架构，能够直接输出动作，并通过多粒度监督预训练兼容缺失动作标注、深度缺失等异构数据。其跨具身运动建模统一了单臂、双臂与轮式机器人的运动语义，在第三方真机测试中覆盖 5 种本体 13 项任务，平均成功率领先第二名 23 个百分点，并具备插接失败后的动态重试能力。模型从架构、训练框架到核心算子与推理部署均围绕昇腾进行软硬件协同优化，实现了全栈自主可控。
 
 同步推出的 CloudRobo 一站式具身智能开发平台，整合了算力、仿真与真机适配等底层工程，旨在降低具身智能研发门槛。华为云还设立最高 200 万元的伙伴专项支持，专区上线 5 个月已合作 230 多家企业与高校。此举标志着华为云在具身智能领域从模型到生态的全面布局，有望加速机器人产业的智能化升级。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;量子位 (微信公众号), InfoQ 中文, 量子位官网&lt;/p&gt;</description>
+</item>
+<item><title>Signal 封堵截屏 阻止系统级 AI 读取用户消息</title><link>https://todayforai.com/en/story/story-7515a48b-c5e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-7515a48b-c5e</guid>
+<pubDate>Fri, 20 Nov 2026 20:30:47 +0800</pubDate>
+<description>&lt;p&gt;Signal 在 iOS 与 Android 端实施截屏限制，以阻止操作系统内置的智能体 AI 通过屏幕内容读取用户私密消息。这是继去年屏蔽 Windows Recall 后，Signal 第二次针对系统级 AI 采集能力采取技术反制，凸显端侧智能体普及与隐私应用之间的权限冲突正在升级。
+
+Signal 总裁 Meredith Whittaker 指出，Google、Apple、Microsoft 等 OS 厂商并未提供细粒度接口让开发者限制 AI 数据访问，Signal 只能在牺牲核心体验的前提下自保。具体而言，Signal 将在 iOS 27 与可检测到 AI 助手的 Android 版本上限制屏幕内容被读取，但 macOS 端因平台限制暂无法落地同等保护。
+
+这一事件揭示了端侧 AI 落地的深层矛盾：系统级智能体需要广泛的数据访问权限以提供无缝体验，而隐私应用则必须确保用户数据不被第三方 AI 截取。Signal 的被动防御虽保护了用户，却以功能妥协为代价，呼吁 OS 厂商建立更精细的 AI 数据访问控制框架已成为行业紧迫议题。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, The Verge AI&lt;/p&gt;</description>
 </item>
 <item><title>腾讯开源 770B 参数 Hy4 大模型 支持百万上下文</title><link>https://todayforai.com/en/story/story-31af8399-33e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-31af8399-33e</guid>
 <pubDate>Fri, 20 Nov 2026 11:47:35 +0800</pubDate>
@@ -70,14 +78,6 @@ Hy4 flash 成为本次开源的亮点，其总参数 224B（含 64B Engram 参�
 <item><title>语言模型用代码生成 3D 场景挑战视频模型</title><link>https://todayforai.com/en/story/story-fc28fcb3-959</link><guid isPermaLink="true">https://todayforai.com/en/story/story-fc28fcb3-959</guid>
 <pubDate>Fri, 20 Nov 2026 08:59:05 +0800</pubDate>
 <description>&lt;p&gt;Artificial Analysis 发起对比测试，让 OpenAI GPT-6.2 Astra 以 three.js 代码构建悉尼歌剧院、机械表爆炸图与巨龙袭击中世纪城镇三个 3D 场景，并用浏览器脚本相机以 15 秒 1080p 24fps 输出视频；字节跳动 Dreamina Seedance 2.5 以相同相机路径和参考图作为文本提示生成对照视频。测试意在检验语言模型能否在动态影像生成上与专用视频模型竞争。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
-</item>
-<item><title>英伟达季度营收 1158 亿美元股价却暴跌 40%</title><link>https://todayforai.com/en/story/story-ba409721-088</link><guid isPermaLink="true">https://todayforai.com/en/story/story-ba409721-088</guid>
-<pubDate>Fri, 20 Nov 2026 18:54:00 +0800</pubDate>
-<description>&lt;p&gt;英伟达在创始人黄仁勋辞任 CEO 后的首份财报中交出惊人成绩：2027 财年第三季度营收达 1158.44 亿美元，同比增长 103%，净利润 652.87 亿美元，同比增长 105%，均超出此前 1080 亿美元的指引。数据中心业务贡献 1076 亿美元，占总营收 93%，同比增长 110%，其中新一代 Vera Rubin NVL72 平台单季贡献近 200 亿美元，成为公司史上爬坡最快的产品。然而，亮眼业绩未能提振市场信心，财报发布后股价较 10 月高点回落近 40%，凸显投资者对 AI 算力需求可持续性的深层忧虑。
-
-多方信源交叉验证显示，英伟达的增长引擎依然强劲：AI 云及企业客户收入增长 195%，增速约为超大规模云厂商的三倍；公司对下季度给出 1300 亿美元指引，并上调 2028 财年营收增速预期至 75%。临时 CEO 科莱特·克雷斯强调业务一切照常，开源 AI 战略不变，129 亿美元收购 Hugging Face 的交易按计划推进。同时，公司首次明确对 neocloud 与 AI 数据中心的融资担保边界，表示将更严格筛选担保对象，暗示黄仁勋时代激进的循环投资风格可能收敛。
-
-尽管财报数据全面超预期，股价暴跌反映出市场对 AI 芯片需求持续性的质疑，以及 CEO 更迭带来的不确定性。英伟达已锁定内存与先进封装产能，并与台积电合作缩小供需缺口，但能否在管理层过渡期维持增长势头，将是未来几个季度的关键考验。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, Rohan Paul (@rohanpaul_ai), The Verge AI, IT之家 · IT业界, InfoQ 中文&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
