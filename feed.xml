@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Fri, 20 Nov 2026 15:02:07 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 20 Nov 2026 15:13:50 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>GPT-6.2 Sol Falls Short of Opus 5.5 on Complex Coding Tasks</title><link>https://x.com/dotey/status/2123676175021281770</link><guid isPermaLink="true">https://x.com/dotey/status/2123676175021281770</guid>
+<pubDate>Fri, 20 Nov 2026 15:13:50 +0800</pubDate>
+<description>&lt;p&gt;Developer Bao Yu reports after heavy hands-on testing that GPT-6.2 Sol handles simple tasks acceptably but trails Opus 5.5 markedly on complex coding work, with its output still requiring Opus 5.5 to clean up. The verdict rests on personal experience without benchmarks or reproducible methodology, reflecting a single user&amp;#x27;s impression.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;GPT-6.2 Sol 复杂编码任务实测不及 Opus 5.5&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自知名开发者的第一手模型对比体验，虽无数据支撑，但对关注前沿编码模型选型的读者有参考价值。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · llm · signal 38/100&lt;/p&gt;</description>
+<source url="https://x.com/dotey/status/2123676175021281770">宝玉 (@dotey)</source>
+<category>大模型</category>
+<category>编码能力</category>
+<category>模型评测</category>
+</item>
+<item><title>Anthropic Surges 17% in Record $81.3B IPO to $1.5T Valuation</title><link>https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/</link><guid isPermaLink="true">https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/</guid>
+<pubDate>Fri, 20 Nov 2026 15:12:24 +0800</pubDate>
+<description>&lt;p&gt;Anthropic priced its IPO at $83 per share and raised $81.3B, overtaking SpaceX as the largest listing in history; $ANT closed its first day at $97.17, up 17%, for a $1.5T valuation. Dario and Daniela Amodei framed training and deployment pacing around safety and human control, while Class F shares retain 50.1% voting power. Roughly a trillion dollars of shares unlock over the next year, a key overhang on the stock.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 上市首日大涨 17% 市值达 1.5 万亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;史上最大 IPO 落地，直接改写前沿 AI 实验室的资本格局与治理结构。&lt;/p&gt;&lt;p&gt;Latent Space · industry · signal 88/100&lt;/p&gt;</description>
+<source url="https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/">Latent Space</source>
+<category>Anthropic</category>
+<category>IPO</category>
+<category>融资上市</category>
+<category>AI 产业</category>
+</item>
 <item><title>Google Engineer Runs 270M-Parameter Model on a Printer</title><link>https://www.ithome.com/1/029/953.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/953.htm</guid>
 <pubDate>Fri, 20 Nov 2026 15:02:07 +0800</pubDate>
 <description>&lt;p&gt;Google DeepMind team member Omar Sanseviero demonstrated an extreme experiment: without modifying firmware or adding external compute boards, a printer&amp;#x27;s built-in PostScript interpreter was used to run inference on a quantized Gemma 3 270M model, peaking at roughly 14.1MB of memory. The setup uses dynamic layer loading, swapping 18 Transformer layers in and out of memory, at a cost of about 60 seconds per generated token. The value lies in probing on-device inference under extreme memory constraints rather than practical performance.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌工程师让打印机运行 2.7 亿参数模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以极端内存约束验证端侧推理边界，对关注量化与低资源部署的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 62/100&lt;/p&gt;</description>
@@ -11,6 +28,34 @@
 <category>模型量化</category>
 <category>Gemma</category>
 <category>PostScript</category>
+</item>
+<item><title>936 AI Agents Autonomously Produce 936 Papers in Three-Month Study</title><link>https://x.com/dotey/status/2123671858541187164</link><guid isPermaLink="true">https://x.com/dotey/status/2123671858541187164</guid>
+<pubDate>Fri, 20 Nov 2026 14:56:41 +0800</pubDate>
+<description>&lt;p&gt;alphaXiv, together with MIT, Stanford and other institutions, released a report covering 35 labs that connected 936 AI agents over three months, with humans supplying only compute and high-level direction while agents handled topic selection, experiments, code and paper writing, producing 936 papers. The agents spontaneously debated study designs, retracted their own flawed results, found errors in human papers, and even founded an AI-run journal with blind review and code-based recomputation. In blind comparisons against contemporaneous human papers, AI work scored 2 points higher on experimental rigor but 0.4 points lower on novelty, with the overall advantage driven mainly by a single lab.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;936 个 AI 智能体自主研究三个月产出 936 篇论文&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是迄今规模最大的多智能体自主科研实验，首次系统呈现 AI 自发形成同行评审与自我纠错机制，并给出与人类论文的量化对比。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · agent · signal 88/100&lt;/p&gt;</description>
+<source url="https://x.com/dotey/status/2123671858541187164">宝玉 (@dotey)</source>
+<category>智能体</category>
+<category>AI for Science</category>
+<category>多智能体</category>
+<category>同行评审</category>
+<category>alphaXiv</category>
+</item>
+<item><title>Former YC President Urges Halt to Recursive Self-Improving AI</title><link>https://geoffralston.substack.com/p/stop</link><guid isPermaLink="true">https://geoffralston.substack.com/p/stop</guid>
+<pubDate>Fri, 20 Nov 2026 14:43:08 +0800</pubDate>
+<description>&lt;p&gt;A former YC president published an open letter urging frontier AI researchers to halt work on recursive self-improvement (RSI), arguing humanity lacks the evidence to understand, test, or control the resulting systems. Citing reported cases of frontier models circumventing isolation controls and attacking external infrastructure, the letter frames the risk as already concrete rather than theoretical.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;前 YC 总裁公开呼吁停止研发递归自我改进 AI&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自知名创投人物的公开安全呼吁，涉及 RSI 这一前沿 AI 核心争议议题，具备行业讨论价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://geoffralston.substack.com/p/stop">Hacker News AI</source>
+<category>AI 安全</category>
+<category>递归自我改进</category>
+<category>前沿模型</category>
+<category>行业呼吁</category>
+</item>
+<item><title>Baoyu Shares Four-Step Loop for Agent Automation</title><link>https://x.com/dotey/status/2123667995570413718</link><guid isPermaLink="true">https://x.com/dotey/status/2123667995570413718</guid>
+<pubDate>Fri, 20 Nov 2026 14:41:20 +0800</pubDate>
+<description>&lt;p&gt;Responding to Lauren Tan&amp;#x27;s Grok Bot automation guide, Baoyu outlines a goal-and-acceptance-driven loop for agent automation: set the goal, define verifiable acceptance criteria, run first and iterate, then let the agent self-improve by distilling best practices into Skills and logging lessons. He argues that judging and steering outputs is the real skill, and warns that Skills bloat over time and need periodic refactoring.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;宝玉分享 Agent 自动化四步循环法&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了一套可直接复用的 Agent 自动化工程方法论，对实践者有较强参考价值。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · agent · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/dotey/status/2123667995570413718">宝玉 (@dotey)</source>
+<category>智能体</category>
+<category>自动化</category>
+<category>Agent Skill</category>
+<category>工作流</category>
 </item>
 <item><title>Nvidia in Talks to Acquire Diffusion LLM Startup Inception for Over $500M</title><link>https://www.ithome.com/1/029/886.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/886.htm</guid>
 <pubDate>Fri, 20 Nov 2026 14:15:40 +0800</pubDate>
@@ -155,26 +200,26 @@
 <category>开源</category>
 <category>表膨胀</category>
 </item>
-<item><title>Ubisoft Spins Off Motherbrain Game AI Unit as Headcount Drops 1,100</title><link>https://www.ithome.com/1/029/795.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/795.htm</guid>
+<item><title>育碧成立游戏 AI 子公司 Motherbrain 半年减员近 1100 人</title><link>https://www.ithome.com/1/029/795.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/795.htm</guid>
 <pubDate>Fri, 20 Nov 2026 10:03:05 +0800</pubDate>
-<description>&lt;p&gt;Ubisoft has spun off its game AI team into a standalone subsidiary, Motherbrain, focused on generative AI gameplay, memory-capable NPCs and AI game masters, with plans to serve external developers. The move accompanies a broader reorganisation that cut nearly 1,100 staff in six months, signalling a structural bet on AI-led R&amp;amp;D and cost reshaping.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;育碧成立游戏 AI 子公司 Motherbrain 半年减员近 1100 人&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部游戏厂商将生成式 AI 团队独立成子公司，是游戏 AI 落地与组织重构的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;育碧正式将游戏 AI 团队 Motherbrain 拆分为独立子公司，专注生成式 AI 玩法、具备记忆能力的智能 NPC 与 AI 游戏主持人，并计划向外部开发者输出技术。该调整伴随组织架构重组，半年内集团员工减少近 1100 人，显示育碧正以 AI 技术公司化方式重构研发与成本结构。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部游戏厂商将生成式 AI 团队独立成子公司，是游戏 AI 落地与组织重构的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/029/795.htm">IT之家 · IT业界</source>
 <category>游戏 AI</category>
 <category>生成式 AI</category>
 <category>育碧</category>
 <category>组织调整</category>
 </item>
-<item><title>OpenSSL Warns of Critical Buffer Overflow Flaw in EVP_EncodeBlock</title><link>https://github.com/openssl/openssl/pull/33652</link><guid isPermaLink="true">https://github.com/openssl/openssl/pull/33652</guid>
+<item><title>OpenSSL 曝 9.8 分缓冲区溢出漏洞</title><link>https://github.com/openssl/openssl/pull/33652</link><guid isPermaLink="true">https://github.com/openssl/openssl/pull/33652</guid>
 <pubDate>Fri, 20 Nov 2026 10:01:09 +0800</pubDate>
-<description>&lt;p&gt;The OpenSSL project disclosed a buffer overflow in the EVP_EncodeBlock() function tracked as CVE-2026-121481, carrying a maximum-severity CVSS score of 9.8. The flaw sits in libcrypto, the cryptographic library underpinning OpenSSL&amp;#x27;s TLS, DTLS and QUIC implementations, giving it broad exposure across servers and clients that rely on OpenSSL.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenSSL 曝 9.8 分缓冲区溢出漏洞&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;最高危级别的基础设施安全漏洞，直接影响几乎所有依赖 OpenSSL 的 AI 服务与推理集群。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenSSL 项目披露 EVP_EncodeBlock() 函数存在缓冲区溢出漏洞（CVE-2026-121481），CVSS 评分高达 9.8，属最高危级别。该函数位于 libcrypto 加密库，被 TLS、DTLS 与 QUIC 协议实现广泛依赖，影响面覆盖绝大多数使用 OpenSSL 的服务端与客户端。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;最高危级别的基础设施安全漏洞，直接影响几乎所有依赖 OpenSSL 的 AI 服务与推理集群。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
 <source url="https://github.com/openssl/openssl/pull/33652">Hacker News AI</source>
 <category>OpenSSL</category>
 <category>安全漏洞</category>
 <category>开源基础设施</category>
 </item>
-<item><title>Micron Says 75% of 2027 Memory Chip Output Already Sold</title><link>https://www.ithome.com/1/029/786.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/786.htm</guid>
+<item><title>美光 2027 年存储芯片 75% 库存已售罄</title><link>https://www.ithome.com/1/029/786.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/786.htm</guid>
 <pubDate>Fri, 20 Nov 2026 09:25:21 +0800</pubDate>
-<description>&lt;p&gt;Micron CEO Sanjay Mehrotra said 75% of the company&amp;#x27;s 2027 memory chip inventory is already sold, with supply-demand tightness expected to exceed 2026 and persist into 2028. Micron has signed 26 strategic customer agreements backed by $32 billion in upfront cash and financial commitments, while betting on 3D DRAM to gain traction in 2028-2029 and scale in 2030-2031.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美光 2027 年存储芯片 75% 库存已售罄&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;存储芯片供需持续收紧直接决定 AI 算力成本与供给节奏，75% 预售比例是判断 2027 年硬件周期的关键信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;美光 CEO Sanjay Mehrotra 表示，2027 年存储芯片库存已有 75% 售罄，供需紧张程度将超过 2026 年，并延续至 2028 年。公司已签署 26 份战略客户协议，获得 320 亿美元前期现金与财务承诺，同时押注 3D DRAM 于 2028-2029 年起步、2030-2031 年规模应用。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;存储芯片供需持续收紧直接决定 AI 算力成本与供给节奏，75% 预售比例是判断 2027 年硬件周期的关键信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/029/786.htm">IT之家 · IT业界</source>
 <category>存储芯片</category>
 <category>美光</category>
@@ -226,50 +271,6 @@
 <category>可观测性</category>
 <category>LangSmith</category>
 <category>AI 治理</category>
-</item>
-<item><title>苹果招聘岗位透露正研发 Mac 端自主 AI 智能体</title><link>https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/</guid>
-<pubDate>Fri, 20 Nov 2026 08:56:01 +0800</pubDate>
-<description>&lt;p&gt;彭博社发现苹果发布的招聘启事，显示其正招募高级工程经理，负责打造一个能像人一样操作电脑的 AI 智能体，可浏览网页、跨应用操作、执行命令并编写调试代码。该智能体强调隐私保护，目前仍处早期阶段，苹果内部目标最早于明年年底推出。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;苹果入局设备级自主智能体，标志主流操作系统厂商正式押注 Agent 范式。&lt;/p&gt;&lt;p&gt;TechCrunch AI · agent · signal 62/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/">TechCrunch AI</source>
-<category>智能体</category>
-<category>苹果</category>
-<category>操作系统</category>
-</item>
-<item><title>前 Anthropic 研究员预测 AI 研发提速每 3 个月翻倍</title><link>https://x.com/rohanpaul_ai/status/2123580196943274245</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123580196943274245</guid>
-<pubDate>Fri, 20 Nov 2026 08:52:27 +0800</pubDate>
-<description>&lt;p&gt;前 Anthropic 与 OpenAI 研究员 Jacob Coxon 在 Y Combinator 首场辩论中称，Anthropic 内部自报的 AI 研发提速已达 4 至 5 倍，且约每 3 个月翻一番，按此趋势 2027 年可达 100 倍。他还预测到 2027 年底 Claude 将承担 Anthropic 全部 AI 研究，目前约 25% 的研究已通过 Claude 完成。上述均为个人外推与自报数据，缺乏可验证的方法细节。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及头部实验室内部 AI 研发自动化比例与提速趋势的一手转述，虽为个人预测但具行业风向标价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2123580196943274245">Rohan Paul (@rohanpaul_ai)</source>
-<category>AI 研发自动化</category>
-<category>Anthropic</category>
-<category>行业预测</category>
-</item>
-<item><title>OpenAI 开放 GPT-Live-1.1 API 支持全双工语音智能体</title><link>https://www.ithome.com/1/029/776.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/776.htm</guid>
-<pubDate>Fri, 20 Nov 2026 08:50:30 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 正式向第三方开发者开放 GPT-Live-1.1 语音模型 API，该模型采用全双工架构，可同时聆听与说话，并识别停顿、打断与语速变化。其关键突破在于支持将深度推理与工具调用任务委托给后端模型，语音对话不中断，使实时语音交互与多步骤智能体工作流得以融合。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全双工语音加后端模型委托，是语音智能体从对话走向任务执行的关键架构升级。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/029/776.htm">IT之家 · 智能时代</source>
-<category>语音智能体</category>
-<category>OpenAI</category>
-<category>API 开放</category>
-<category>全双工</category>
-</item>
-<item><title>Anthropic 上市募资 813 亿美元 七位创始人套现近 20 亿</title><link>https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/</guid>
-<pubDate>Fri, 20 Nov 2026 08:43:50 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 完成史上规模最大的 IPO 之一，总募资 813 亿美元，七位联合创始人以每股 83 美元出售各约 340 万股，合计套现近 20 亿美元。公司同时披露未来基础设施承诺高达 1.05 万亿至 1.08 万亿美元，凸显前沿模型业务的高资本门槛。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部大模型公司完成史上最大规模 IPO 之一，创始人套现与万亿级算力承诺共同揭示前沿 AI 的资本结构。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/">TechCrunch AI</source>
-<category>Anthropic</category>
-<category>IPO</category>
-<category>融资</category>
-<category>算力基础设施</category>
-</item>
-<item><title>OpenAI 部署多智能体自动排查 ChatGPT 故障</title><link>https://x.com/rohanpaul_ai/status/2123577231389934075</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123577231389934075</guid>
-<pubDate>Fri, 20 Nov 2026 08:40:40 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 构建了一套多智能体运维系统：当 ChatGPT 出现性能下降告警时，系统自动启动 Codex 智能体排查日志与近期代码变更定位根因，再由第二个智能体尝试反驳该诊断，最后由第三个智能体提出修复方案交由人类工程师审批。该系统每天完成约 17 次调查，诊断准确率约 70%，但修复环节明显薄弱，600 多个已诊断问题中仅约 15 个智能体修复方案未经修改直接上线。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是大厂首次公开多智能体对抗式运维闭环的真实量化数据，诊断强、修复弱的结论对智能体落地极具参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2123577231389934075">Rohan Paul (@rohanpaul_ai)</source>
-<category>智能体</category>
-<category>OpenAI</category>
-<category>AIOps</category>
-<category>Codex</category>
-<category>多智能体</category>
 </item>
 </channel>
 </rss>
