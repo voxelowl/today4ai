@@ -63,6 +63,14 @@ Anthropic 的上市标志着头部 AI 实验室正式进入公开资本市场，
 
 Kling Image 4.0 的发布直接指向广告、影视与设计素材生产场景，其高分辨率与文字渲染能力有望替代部分传统拍摄与排版流程，进一步加剧图像生成赛道在细节保真与输出规格上的竞争。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;量子位官网, IT之家 · 智能时代, 量子位 (微信公众号), Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
 </item>
+<item><title>PostgreSQL 19 发布 新增 WAIT FOR LSN 读己之写一致性</title><link>https://todayforai.com/en/story/story-db918387-50d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-db918387-50d</guid>
+<pubDate>Fri, 20 Nov 2026 08:37:31 +0800</pubDate>
+<description>&lt;p&gt;PostgreSQL 19 正式 GA，比往年惯例晚两个月发布，主要原因是团队需集中处理 AI 辅助漏洞挖掘带来的大量安全报告。本版最受关注的新特性是 WAIT FOR LSN 命令，它允许备库会话等待 WAL 回放至指定 LSN 后再执行查询，从而在读写分离架构下实现读己之写一致性。
+
+该版本聚焦运维控制能力，新增在线 REPACK、查询计划建议等功能，逻辑复制亦有升级。WAIT FOR LSN 的使用方式为：应用可将 pg_current_wal_insert_lsn() 返回值（如存入签名 Cookie）用于后续请求的一致性等待。Databricks Lakebase 在社区发布当天即提供支持，打破托管服务通常滞后数周的惯例，其团队多名 PostgreSQL committer 直接参与了本次核心开发。
+
+PostgreSQL 19 的发布进一步强化了开源数据库在云原生环境下的竞争力，WAIT FOR LSN 为读写分离场景提供了原生一致性解决方案，降低了应用层复杂度。同时，AI 辅助漏洞挖掘对开源安全流程的影响也引发关注，未来数据库版本迭代或需更灵活的安全响应机制。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Simon Willison 博客, Hacker News AI&lt;/p&gt;</description>
+</item>
 <item><title>Meta 智能体 Muse 被曝串号泄露用户隐私</title><link>https://todayforai.com/en/story/story-c5d1d689-4ec</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c5d1d689-4ec</guid>
 <pubDate>Fri, 20 Nov 2026 01:38:40 +0800</pubDate>
 <description>&lt;p&gt;Meta 于 9 月推出的 AI 智能体 Muse 被曝存在严重的跨账号会话混淆问题，向用户推送他人的银行余额、育儿请求、职业建议等私密信息，甚至未经授权读取 Signal 加密消息并发出提醒。尽管 Muse 下载量已超 1000 万，成为增长最快的应用之一，但此次事件暴露了消费级智能体在权限边界与多租户数据隔离上的系统性安全缺陷。
@@ -70,14 +78,6 @@ Kling Image 4.0 的发布直接指向广告、影视与设计素材生产场景�
 路透社基于 Meta 内部帖子的调查显示，多名员工在测试中同样发现 Muse 疑似读取用户未预期的加密私信、混淆不同用户对话，并主动推送敏感信息。AI Now 研究所已复现 Signal 消息读取问题，而 Meta 则称这些是孤立事件，并暗示银行余额信息可能是 AI 幻觉而非真实泄露。内部聊天记录还显示，Muse 曾向员工推送与本人无关的上下文内容，如咖啡桌交易信息与洗钱定义，早期用户投诉与内部警报相互印证，说明隐私边界设计存在严重漏洞。
 
 此次事件对消费级 AI 智能体赛道敲响了警钟。随着智能体日益深入个人通信与金融场景，系统权限边界与数据隔离机制成为亟待解决的治理难题。Meta 虽试图淡化事件影响，但内部测试阶段即已察觉隐患的事实表明，智能体在追求功能创新的同时，必须将隐私保护与安全设计置于首位，否则将面临用户信任危机与监管压力。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Ars Technica AI, TechCrunch AI&lt;/p&gt;</description>
-</item>
-<item><title>腾讯混元 Hy4 flash 发布 单任务成本降至 Hy4 的 5%</title><link>https://todayforai.com/en/story/story-31af8399-33e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-31af8399-33e</guid>
-<pubDate>Thu, 19 Nov 2026 14:57:00 +0800</pubDate>
-<description>&lt;p&gt;腾讯混元正式发布 Hy4 flash 模型，总参数 224B、每 token 激活 12B，支持多模态输入与 100 万 token 上下文。通过混合注意力、LatentMoE、Engram 查表参数及 4bit 量化等三阶段协同优化，其单任务成本仅为 Hy4 的 1/20、DeepSeek-V4.1-Flash 的 1/8，官方称综合效果略优于 Hy4 preview，并计划开源。
-
-技术细节上，Hy4 flash 包含 64B Engram 查表参数，KV cache 降至 Hy4 的 1/6，解码速度超 150 tps。在 WorkIndex 评测中，单任务成本为 Hy4 的 1/20、DeepSeek-V4.1-Flash 的 1/8。定价方面，输入 0.5 元/百万 Token；OpenRouter 上线期至 11 月 30 日提供五折优惠，输入 0.035 美元/百万 token、输出 0.14 美元/百万 token。OpenCode 还宣布未来两周免费开放近无限量使用，并承诺零数据留存。
-
-Hy4 flash 以极致性价比和长上下文能力，直接冲击智能体、编程及高并发负载场景，有望降低 AI 应用门槛，加剧大模型价格战，并推动开源生态竞争。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, OpenRouter (@OpenRouter), InfoQ 中文, OpenCode (@opencode), Hacker News AI&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
