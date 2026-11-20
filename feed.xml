@@ -38,6 +38,15 @@
 <category>超级智能</category>
 <category>前沿研究</category>
 </item>
+<item><title>Postgres 19 Ships Built-In REPACK for Online Table Bloat Cleanup</title><link>https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/</link><guid isPermaLink="true">https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/</guid>
+<pubDate>Fri, 20 Nov 2026 10:43:49 +0800</pubDate>
+<description>&lt;p&gt;Postgres 19 introduces built-in REPACK CONCURRENTLY, enabling online table rebuilds and bloat reclamation without the long read/write lock imposed by VACUUM FULL or the caveats of third-party extensions. Now at RC1 with GA expected in November or December 2026, it is a meaningful operational win for high-update production databases.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Postgres 19 内置 REPACK 在线清理表膨胀&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Postgres 核心内置在线表重建能力，直接解决长期困扰生产库的表膨胀运维痛点。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.snowflake.com/en/blog/engineering/postgres-19-repack-table-bloat/">Hacker News AI</source>
+<category>PostgreSQL</category>
+<category>数据库</category>
+<category>开源</category>
+<category>表膨胀</category>
+</item>
 <item><title>Ubisoft Spins Off Motherbrain Game AI Unit as Headcount Drops 1,100</title><link>https://www.ithome.com/1/029/795.htm</link><guid isPermaLink="true">https://www.ithome.com/1/029/795.htm</guid>
 <pubDate>Fri, 20 Nov 2026 10:03:05 +0800</pubDate>
 <description>&lt;p&gt;Ubisoft has spun off its game AI team into a standalone subsidiary, Motherbrain, focused on generative AI gameplay, memory-capable NPCs and AI game masters, with plans to serve external developers. The move accompanies a broader reorganisation that cut nearly 1,100 staff in six months, signalling a structural bet on AI-led R&amp;amp;D and cost reshaping.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;育碧成立游戏 AI 子公司 Motherbrain 半年减员近 1100 人&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部游戏厂商将生成式 AI 团队独立成子公司，是游戏 AI 落地与组织重构的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 62/100&lt;/p&gt;</description>
@@ -181,18 +190,18 @@
 <category>AWS</category>
 <category>NVIDIA Dynamo</category>
 </item>
-<item><title>Moonshot Adds Native Amazon Bedrock Provider to Kimi Code CLI</title><link>https://aws.amazon.com/blogs/machine-learning/use-kimi-code-cli-with-models-on-amazon-bedrock/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/use-kimi-code-cli-with-models-on-amazon-bedrock/</guid>
+<item><title>Kimi Code CLI 2.7.0 原生接入 Amazon Bedrock</title><link>https://aws.amazon.com/blogs/machine-learning/use-kimi-code-cli-with-models-on-amazon-bedrock/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/use-kimi-code-cli-with-models-on-amazon-bedrock/</guid>
 <pubDate>Fri, 20 Nov 2026 08:33:30 +0800</pubDate>
-<description>&lt;p&gt;Moonshot AI released Kimi Code CLI v2.7.0, adding a native Amazon Bedrock provider so the open source coding agent can authenticate through the standard AWS credential chain, including named profiles and SSO, instead of a separately managed Bedrock API key. The walkthrough uses Kimi K3.1 Pro Highspeed, which supports streaming, configurable reasoning, image input and client-side tool calling.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Kimi Code CLI 2.7.0 原生接入 Amazon Bedrock&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源编码智能体打通 AWS 标准凭证链，对在 Bedrock 上跑 Kimi 模型的团队有直接工程价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Moonshot AI 为开源编码智能体 Kimi Code CLI 发布 v2.7.0，新增原生 Amazon Bedrock provider，用户可直接复用标准 AWS 凭证链（含命名 profile 与 SSO），无需再单独申请和保管 Bedrock API Key。文中以 Kimi K3.1 Pro Highspeed 为例演示接入流程，该模型支持流式输出、可配置推理、图像输入与客户端工具调用。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源编码智能体打通 AWS 标准凭证链，对在 Bedrock 上跑 Kimi 模型的团队有直接工程价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 42/100&lt;/p&gt;</description>
 <source url="https://aws.amazon.com/blogs/machine-learning/use-kimi-code-cli-with-models-on-amazon-bedrock/">AWS Machine Learning Blog</source>
 <category>Kimi Code CLI</category>
 <category>Amazon Bedrock</category>
 <category>编码智能体</category>
 <category>AWS</category>
 </item>
-<item><title>ElevenLabs Scribe v3 Cuts Speech-to-Text Error Rate to 1.95%</title><link>https://x.com/ArtificialAnlys/status/2123574381251375493</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2123574381251375493</guid>
+<item><title>ElevenLabs Scribe v3 语音转写错误率降至 1.95%</title><link>https://x.com/ArtificialAnlys/status/2123574381251375493</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2123574381251375493</guid>
 <pubDate>Fri, 20 Nov 2026 08:29:21 +0800</pubDate>
-<description>&lt;p&gt;ElevenLabs released Scribe v3, a non-streaming speech-to-text model that ranks second on Artificial Analysis&amp;#x27; independent AA-WER Index at 1.95% word error rate, improving on Scribe v2&amp;#x27;s 2.18%. It trails only Alibaba&amp;#x27;s Fun-Realtime-ASR-preview at 1.73% and edges past Microsoft&amp;#x27;s MAI-Transcribe-2 at 2.04%, underscoring intensifying competition at the top of ASR.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;ElevenLabs Scribe v3 语音转写错误率降至 1.95%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部语音模型换代并给出第三方独立评测的量化对比，是关注 ASR 技术进展读者的有效信号。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;ElevenLabs 发布 Scribe v3 非流式语音转写模型，在 Artificial Analysis 独立评测的 AA-WER 指数上以 1.95% 词错误率位列第二，较上代 Scribe v2 的 2.18% 明显改善。该成绩仅次于阿里巴巴 Fun-Realtime-ASR-preview 的 1.73%，略优于微软 MAI-Transcribe-2 的 2.04%，显示语音识别头部梯队竞争加剧。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部语音模型换代并给出第三方独立评测的量化对比，是关注 ASR 技术进展读者的有效信号。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 58/100&lt;/p&gt;</description>
 <source url="https://x.com/ArtificialAnlys/status/2123574381251375493">Artificial Analysis (@ArtificialAnlys)</source>
 <category>语音识别</category>
 <category>ElevenLabs</category>
@@ -262,14 +271,6 @@
 <category>IPO</category>
 <category>AI 治理</category>
 <category>产业融资</category>
-</item>
-<item><title>前 Anthropic 研究员预测 2028 年 80% 认知劳动自动化</title><link>https://x.com/rohanpaul_ai/status/2123553626509791647</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123553626509791647</guid>
-<pubDate>Fri, 20 Nov 2026 07:06:52 +0800</pubDate>
-<description>&lt;p&gt;前 Anthropic 与 OpenAI 研究员 Jacob Coxon 在 Y Combinator 首场辩论中预测，到 2028 年底 80% 的认知劳动将被自动化，并强调这是劳动任务而非岗位的整体替代。其推算依据是 Anthropic 当前核心研究自动化率已达 26%，属于基于单一内部指标的外推判断，尚无系统性数据支撑。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自前沿实验室核心研究者的激进时间线判断，可作为观察 AI 自动化叙事与行业预期的参考信号。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 42/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2123553626509791647">Rohan Paul (@rohanpaul_ai)</source>
-<category>行业预测</category>
-<category>AI 自动化</category>
-<category>Y Combinator</category>
 </item>
 </channel>
 </rss>
