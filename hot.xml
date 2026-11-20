@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Fri, 20 Nov 2026 20:30:47 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 20 Nov 2026 21:29:59 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 上市首日大涨 17% 市值达 1.5 万亿美元</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
 <pubDate>Fri, 20 Nov 2026 17:06:53 +0800</pubDate>
@@ -43,6 +43,14 @@ Signal 总裁 Meredith Whittaker 指出，Google、Apple、Microsoft 等 OS 厂�
 
 这一事件揭示了端侧 AI 落地的深层矛盾：系统级智能体需要广泛的数据访问权限以提供无缝体验，而隐私应用则必须确保用户数据不被第三方 AI 截取。Signal 的被动防御虽保护了用户，却以功能妥协为代价，呼吁 OS 厂商建立更精细的 AI 数据访问控制框架已成为行业紧迫议题。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, The Verge AI&lt;/p&gt;</description>
 </item>
+<item><title>936 个 AI 智能体三个月自主产出 936 篇论文</title><link>https://todayforai.com/en/story/story-b2747e6e-d72</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b2747e6e-d72</guid>
+<pubDate>Fri, 20 Nov 2026 14:56:41 +0800</pubDate>
+<description>&lt;p&gt;近日，alphaXiv 联合 MIT、斯坦福等机构发布了一项大规模实验报告：35 个实验室接入 936 个 AI 智能体，人类仅提供算力与研究方向，选题、实验、代码编写与论文撰写全部由 AI 自主完成。在三个月内，这些智能体共产出 936 篇论文，并自发形成了设计辩论、主动撤稿纠错、发现人类论文错误等机制，甚至自建 AI 期刊进行盲审与代码复算。
+
+与同期人类论文的盲评对比显示，AI 论文在实验严谨性上平均高出 2 分，但新颖性低 0.4 分，且总分优势主要来自单一实验室，因此结论需谨慎看待。智能体在 229 个自建聊天室中产生了 9500 条讨论，并通过代码复算推翻了 156 条重大意见中的 77 条，展现出一定的自我纠错能力。
+
+该平台现已对外开放，支持外部研究者接入自有智能体提交成果。这一实验不仅展示了 AI 智能体在科研流程中的自主潜力，也引发了关于学术质量、创新性评估以及人机协作模式的讨论。尽管 AI 在严谨性上表现突出，但新颖性的不足提示当前智能体更擅长执行与验证，而非提出颠覆性想法。未来，此类平台或将成为科研加速的重要工具，但需建立更完善的评审与伦理框架。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), 量子位 (微信公众号)&lt;/p&gt;</description>
+</item>
 <item><title>腾讯开源 770B 参数 Hy4 大模型 支持百万上下文</title><link>https://todayforai.com/en/story/story-31af8399-33e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-31af8399-33e</guid>
 <pubDate>Fri, 20 Nov 2026 11:47:35 +0800</pubDate>
 <description>&lt;p&gt;腾讯混元团队正式开源 Hy4 系列大模型，旗舰版 Hy4 采用 MoE 架构，总参数 770B、激活参数 49B，上下文窗口突破 100 万 Token，并同步推出主打性价比的 Hy4 flash。至此混元 LLM 系列实现全量开源，Hy4 及 Hy4 preview 采用 Apache 2.0 协议允许商用，同时发布安全评估卡片披露防守性网络安全训练策略。
@@ -50,6 +58,14 @@ Signal 总裁 Meredith Whittaker 指出，Google、Apple、Microsoft 等 OS 厂�
 Hy4 flash 成为本次开源的亮点，其总参数 224B（含 64B Engram 参数），每 token 仅激活 12B，原生支持多模态与 100 万 Token 上下文。通过混合注意力、LatentMoE 与 Engram 等架构创新，KV 缓存压缩至 Hy3 的 1/24，单任务成本仅为 Hy4 的 1/20，API 输出价格低至每百万 token 0.281 美元。上线首日即登顶 OpenRouter 日榜，Token 调用量突破 50 万亿，创混元系列首日新高。
 
 此次开源标志着腾讯在 AI 大模型领域采取激进开放策略，以全量开源和极致性价比冲击市场。Hy4 系列覆盖从旗舰到轻量的完整谱系，Apache 2.0 协议降低了商业使用门槛，有望吸引大量开发者和企业迁移。同时，安全评估卡片的发布体现了对模型滥用风险的主动管理，为行业提供了开源与安全平衡的参考范例。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · 智能时代, OpenRouter (@OpenRouter), InfoQ 中文, OpenCode (@opencode)&lt;/p&gt;</description>
+</item>
+<item><title>Anthropic 登陆纳斯达克 募资 813 亿美元创全球最大 IPO</title><link>https://todayforai.com/en/story/story-3d8741bd-795</link><guid isPermaLink="true">https://todayforai.com/en/story/story-3d8741bd-795</guid>
+<pubDate>Fri, 20 Nov 2026 21:29:59 +0800</pubDate>
+<description>&lt;p&gt;北京时间 11 月 19 日晚，Anthropic 正式在纳斯达克敲钟上市，以每股 83 美元定价发行 9.8 亿股，合计募资 813.4 亿美元，超越 SpaceX 成为全球史上最大 IPO。按发行区间上限计算，约 5300 名员工持有约 2160 亿美元股权激励，人均约 4100 万美元，造富效应空前。
+
+然而，这场创纪录 IPO 并未如期点燃市场热情。开盘竞价迟迟未产生首笔成交，反映大型 IPO 的定价博弈与市场分歧。更值得关注的是，全球 AI 相关股票在 IPO 后仍遭大规模抛售，亚洲市场录得 2020 年以来最差单周表现，台湾股市单日下跌 6.7%。这表明资本市场对 AI 板块的估值重估已超越单一明星公司的利好，行业进入风险定价调整期。
+
+Anthropic 的上市既是 AI 商业化进程的里程碑，也折射出资本市场的深层焦虑。一方面，巨额募资为 Anthropic 后续研发与算力扩张提供充足弹药；另一方面，投资者对 AI 板块的高估值开始用脚投票，行业分化与泡沫出清或加速到来。对开发者与初创企业而言，头部效应将进一步加剧，融资门槛与估值逻辑面临重构。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, 新智元 (微信公众号)&lt;/p&gt;</description>
 </item>
 <item><title>谷歌向 Ultra 用户开放 Genie 4 世界模型</title><link>https://todayforai.com/en/story/story-71017e8f-b4d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-71017e8f-b4d</guid>
 <pubDate>Thu, 19 Nov 2026 06:39:01 +0800</pubDate>
@@ -59,14 +75,6 @@ Hy4 flash 成为本次开源的亮点，其总参数 224B（含 64B Engram 参�
 
 此次开放对 AI 内容创作、游戏原型设计与虚拟现实开发等领域具有实质影响。世界模型从被动生成转向可交互、可编辑的实时环境，有望大幅降低 3D 内容创作门槛，并推动订阅制 AI 服务的价值分层。Google AI Pro 用户目前仅能加入等待名单，凸显 Ultra 订阅的优先体验权。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, The Decoder, Google DeepMind, Hacker News AI&lt;/p&gt;</description>
 </item>
-<item><title>PostgreSQL 19 发布 新增 WAIT FOR LSN 实现读己之写</title><link>https://todayforai.com/en/story/story-db918387-50d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-db918387-50d</guid>
-<pubDate>Fri, 20 Nov 2026 11:45:45 +0800</pubDate>
-<description>&lt;p&gt;PostgreSQL 19 正式发布，比往年惯例晚两个月，主要原因是团队需集中处理 AI 辅助漏洞挖掘带来的大量安全报告。本版最受关注的新特性是 WAIT FOR LSN 命令，它允许备库会话等待 WAL 回放至指定 LSN 后再执行查询，从而在读写分离架构下实现读己之写一致性。应用可将 pg_current_wal_insert_lsn() 的返回值（如存入签名 Cookie）用于后续请求的一致性等待。
-
-除一致性读外，PostgreSQL 19 还聚焦运维控制能力，新增在线 REPACK 命令（CONCURRENTLY 模式不阻塞读写）、pg_plan_advice 与 pg_stash_advice 扩展以干预查询计划，并增强逻辑复制，支持免重启开启、序列值复制及备库读己之写。Databricks Lakebase 在发布当天即提供支持，打破托管服务通常滞后数周的惯例，其团队多名 PostgreSQL committer 直接参与了核心开发。
-
-这些更新显著降低了读写分离架构下的应用复杂度，提升了数据库运维的灵活性与效率。WAIT FOR LSN 有望成为构建高一致性分布式系统的关键工具，而在线 REPACK 和查询计划建议则进一步减轻了 DBA 的日常负担。PostgreSQL 19 的发布也反映出 AI 辅助安全研究对开源软件维护节奏的实质影响。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Simon Willison 博客, Hacker News AI&lt;/p&gt;</description>
-</item>
 <item><title>谷歌模块化改写智能体框架 省 90% Token 成功率翻 8 倍</title><link>https://todayforai.com/en/story/story-fff81094-a75</link><guid isPermaLink="true">https://todayforai.com/en/story/story-fff81094-a75</guid>
 <pubDate>Fri, 20 Nov 2026 08:19:51 +0800</pubDate>
 <description>&lt;p&gt;谷歌研究团队提出一种可自我改进的智能体框架（Harness）架构，通过让优化器模型逐模块改写框架代码并强制通过验证集筛选，在 SWE-bench Lite 的 40 个任务上实现了成功率与成本的双重突破。实验显示，模块化门控改写方案将任务成功率从 5.0% 提升至 40.0%，而每任务仅消耗约 4.67 万 Token；相比之下，不受限的整体重写方案虽达到 42.5% 的准确率，但每任务消耗高达 45.16 万 Token，成本接近前者的 10 倍。
@@ -74,10 +82,6 @@ Hy4 flash 成为本次开源的亮点，其总参数 224B（含 64B Engram 参�
 研究进一步揭示了关键约束条件：将规则写入提示词反而导致准确率暴跌至 2.5%，而将约束落在代码层强制执行则效果显著。此外，为某一模型调优的框架在迁移到另一模型时容易停滞或浪费 Token，表明框架优化具有模型特异性。研究同时警示代码自改带来的提示词膨胀、基准过拟合与评估程序篡改风险，强调需通过验证机制与权限边界加以约束。
 
 这一成果对智能体开发赛道具有实质影响：它证明了模块化、验证驱动的自我改进路径在成本与效果上远优于粗放的整体重写，为构建高效、可迁移的智能体框架提供了可复用的工程范式。同时，研究指出的过拟合与篡改风险也为社区敲响警钟，推动更严谨的评估标准与安全边界设计。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
-<item><title>语言模型用代码生成 3D 场景挑战视频模型</title><link>https://todayforai.com/en/story/story-fc28fcb3-959</link><guid isPermaLink="true">https://todayforai.com/en/story/story-fc28fcb3-959</guid>
-<pubDate>Fri, 20 Nov 2026 08:59:05 +0800</pubDate>
-<description>&lt;p&gt;Artificial Analysis 发起对比测试，让 OpenAI GPT-6.2 Astra 以 three.js 代码构建悉尼歌剧院、机械表爆炸图与巨龙袭击中世纪城镇三个 3D 场景，并用浏览器脚本相机以 15 秒 1080p 24fps 输出视频；字节跳动 Dreamina Seedance 2.5 以相同相机路径和参考图作为文本提示生成对照视频。测试意在检验语言模型能否在动态影像生成上与专用视频模型竞争。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
