@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 21 Nov 2026 01:57:29 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 21 Nov 2026 02:31:01 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Trump Threatens Heavy Tax on US Firms Building AI Data Centers Abroad</title><link>https://x.com/rohanpaul_ai/status/2123846591027261628</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123846591027261628</guid>
+<pubDate>Sat, 21 Nov 2026 02:31:01 +0800</pubDate>
+<description>&lt;p&gt;President Trump said at a White House briefing that US companies building AI data centers abroad would face \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;特朗普威胁对美企海外 AI 数据中心加征重税&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;直接影响 AI 算力基础设施的全球布局与选址成本，是产业政策层面的重要信号。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2123846591027261628">Rohan Paul (@rohanpaul_ai)</source>
+<category>产业政策</category>
+<category>数据中心</category>
+<category>算力基础设施</category>
+<category>特朗普</category>
+</item>
+<item><title>METR Updates AI Task-Horizon Plot with Open-Ended Benchmarks</title><link>https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/</link><guid isPermaLink="true">https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/</guid>
+<pubDate>Sat, 21 Nov 2026 02:15:15 +0800</pubDate>
+<description>&lt;p&gt;AI evaluation nonprofit METR has updated its widely cited time-horizon plot, adding longer and more open-ended tasks. The trend of frontier models doubling the length of tasks they can complete roughly every four months appears to hold, but models remain weaker on judgment-heavy work than on coding. METR cautions that open-ended evaluation is still far from settling whether, or how fast, automated AI R&amp;amp;D might arrive.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;METR 更新 AI 任务时长图 新增开放式任务评估&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;METR 任务时长曲线是衡量 AI 能力进展的关键标尺，此次更新引入开放式任务，直接影响对自动化研发时间表的判断。&lt;/p&gt;&lt;p&gt;MIT Technology Review · llm · signal 72/100&lt;/p&gt;</description>
+<source url="https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/">MIT Technology Review</source>
+<category>AI 评估</category>
+<category>METR</category>
+<category>任务时长</category>
+<category>前沿模型</category>
+</item>
 <item><title>Perceptron Releases 36B Robot Model Checkpoints on Hugging Face</title><link>https://x.com/rohanpaul_ai/status/2123838152754491595</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123838152754491595</guid>
 <pubDate>Sat, 21 Nov 2026 01:57:29 +0800</pubDate>
 <description>&lt;p&gt;Perceptron AI has released ready-to-run checkpoints of its 36B-parameter robot model on Hugging Face and LeRobot, each pre-fine-tuned for a specific robot arm. Owners of supported arms can download the matching checkpoint, drive the robot with plain-text instructions, and further fine-tune for their own tasks, signaling a pretrained-checkpoint economy emerging in robotics.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Perceptron 开源 360 亿参数机器人模型检查点&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;机器人领域首次出现大规模参数模型的开箱即用检查点分发，直接复用语言模型的生态模式，对具身智能开发者有实际可用价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · opensource · signal 72/100&lt;/p&gt;</description>
@@ -11,6 +29,32 @@
 <category>开源模型</category>
 <category>机器人</category>
 <category>Hugging Face</category>
+</item>
+<item><title>Arena Alignment Index Update Sees OpenAI Sweep Top Seven</title><link>https://x.com/arena/status/2123835034532729205</link><guid isPermaLink="true">https://x.com/arena/status/2123835034532729205</guid>
+<pubDate>Sat, 21 Nov 2026 01:45:05 +0800</pubDate>
+<description>&lt;p&gt;Arena.ai has updated its Alignment Index, refining how failure signals are detected and broadening coverage. OpenAI holds all seven top spots, while Anthropic&amp;#x27;s newly released Claude Fable 5.2 debuts at #8 with 78.2 and Kimi K3.1 Pro ranks as the best open model at #9. The index scores agent behavior in real user sessions across unauthorized action, deceptive completion and false attribution.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Arena 对齐指数更新 OpenAI 包揽前七&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个以真实会话行为衡量智能体对齐的公开榜单更新，为模型选型提供行为安全维度的参考。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 74/100&lt;/p&gt;</description>
+<source url="https://x.com/arena/status/2123835034532729205">Arena.ai (@arena)</source>
+<category>模型评测</category>
+<category>智能体对齐</category>
+<category>Arena.ai</category>
+</item>
+<item><title>Anthropic Shares Fall 11% After IPO as Nasdaq Erases 2026 Gains</title><link>https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394</link><guid isPermaLink="true">https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394</guid>
+<pubDate>Sat, 21 Nov 2026 01:44:01 +0800</pubDate>
+<description>&lt;p&gt;Anthropic shares fell more than 11% a day after its record-setting IPO, reversing a 17% first-day pop and leading a broader AI sell-off. The Nasdaq Composite dropped over 3%, erasing all of its 2026 gains, while the S&amp;amp;P 500 slid nearly 2% for a sixth straight losing session and entered correction territory, down 10% from its recent high, with CoreWeave, Nvidia and Oracle also selling off.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 上市次日股价跌超 11% 纳指回吐全年涨幅&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司 IPO 后即遭抛售、纳指抹平全年涨幅，是 AI 资本市场情绪转向的关键信号。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 71/100&lt;/p&gt;</description>
+<source url="https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394">Hacker News AI</source>
+<category>Anthropic</category>
+<category>IPO</category>
+<category>美股</category>
+<category>AI 资本市场</category>
+</item>
+<item><title>Parallel Search Tops AI Search Index at $0.014 per Task</title><link>https://x.com/ArtificialAnlys/status/2123834515814506617</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2123834515814506617</guid>
+<pubDate>Sat, 21 Nov 2026 01:43:02 +0800</pubDate>
+<description>&lt;p&gt;Artificial Analysis benchmarked Parallel Search API&amp;#x27;s fast and advanced modes across 1,700 search tasks in its Stirrup agent harness, with advanced scoring 83 to tie Keenable Search (pro) atop the board and fast scoring 82 at fourth. Both modes gained 8-9 points since August, with fast mode costing just $0.014 per task and both hitting 89 F1 on DeepSearchQA.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Parallel Search 登顶搜索指数 单次任务仅 0.014 美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;第三方权威评测给出搜索 API 的横向排名与真实成本，对选型搜索工具的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · tools · signal 68/100&lt;/p&gt;</description>
+<source url="https://x.com/ArtificialAnlys/status/2123834515814506617">Artificial Analysis (@ArtificialAnlys)</source>
+<category>搜索 API</category>
+<category>基准评测</category>
+<category>Artificial Analysis</category>
+<category>Parallel Search</category>
 </item>
 <item><title>Space Data Center Chip Financing Faces Collateral Hurdles</title><link>https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/</guid>
 <pubDate>Sat, 21 Nov 2026 01:40:01 +0800</pubDate>
@@ -29,6 +73,14 @@
 <category>Anthropic</category>
 <category>数学证明</category>
 <category>形式化验证</category>
+</item>
+<item><title>Tao Reports AI-Assisted Proofs on Euler and Navier-Stokes Singularities</title><link>https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/</link><guid isPermaLink="true">https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/</guid>
+<pubDate>Sat, 21 Nov 2026 01:21:36 +0800</pubDate>
+<description>&lt;p&gt;Terence Tao reports that Levent Alpöge, Tristan Buckmaster and Matei Coiculescu, with heavy AI assistance, have obtained new results on unforced Euler and Navier-Stokes singularities, linked to the Generalized Riemann Hypothesis. The post signals AI&amp;#x27;s growing role in frontier mathematical proof, though the source is truncated and full methods and verification remain to be confirmed.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;陶哲轩称 AI 辅助证明攻克 Euler 与 Navier-Stokes 奇点难题&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 辅助数学证明触及千禧年难题级问题，对关注 AI for Science 的读者具有高信号价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/">Hacker News AI</source>
+<category>AI for Science</category>
+<category>数学证明</category>
+<category>陶哲轩</category>
 </item>
 <item><title>Dario Amodei Says Anthropic Deliberately Runs at Under Half Its Possible Speed</title><link>https://x.com/rohanpaul_ai/status/2123829074753998977</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123829074753998977</guid>
 <pubDate>Sat, 21 Nov 2026 01:21:24 +0800</pubDate>
@@ -167,18 +219,18 @@
 <category>推理加速</category>
 <category>开源模型</category>
 </item>
-<item><title>Samsung Executives Say Neocloud Risks Limited as AI Demand Stays Real</title><link>https://www.ithome.com/1/030/247.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/247.htm</guid>
+<item><title>三星高管称 Neocloud 风险有限 AI 投资基于真实需求</title><link>https://www.ithome.com/1/030/247.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/247.htm</guid>
 <pubDate>Fri, 20 Nov 2026 22:09:40 +0800</pubDate>
-<description>&lt;p&gt;Two Samsung Electronics executives at a Morgan Stanley conference said Neocloud providers hold only about 8% market share, so concerns about them pose no major threat to the overall AI trajectory. Samsung Foundry&amp;#x27;s sales lead argued the current AI investment wave is structural and demand-driven, with chip shortages expected to persist and long-term contracts clarifying supply-demand ties.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;三星高管称 Neocloud 风险有限 AI 投资基于真实需求&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;三星半导体高层从供需与份额角度回应 Neocloud 泡沫担忧，为判断 AI 算力投资可持续性提供一线厂商视角。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;三星电子两位高管在摩根士丹利会议上表示，Neocloud 新兴 AI 云服务商仅占约 8% 市场份额，其不确定性不足以动摇 AI 整体发展轨迹。三星晶圆代工方面认为当前 AI 投资属结构性真实需求，芯片短缺在可预见的未来仍将持续，长期合同让供需关系更清晰。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;三星半导体高层从供需与份额角度回应 Neocloud 泡沫担忧，为判断 AI 算力投资可持续性提供一线厂商视角。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/030/247.htm">IT之家 · IT业界</source>
 <category>算力基础设施</category>
 <category>三星电子</category>
 <category>Neocloud</category>
 <category>AI 投资</category>
 </item>
-<item><title>Anthropic Falls 9% After IPO Debut on 40x Revenue Valuation</title><link>https://www.ithome.com/1/030/246.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/246.htm</guid>
+<item><title>Anthropic 上市次日跌 9% 估值达营收 40 倍</title><link>https://www.ithome.com/1/030/246.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/246.htm</guid>
 <pubDate>Fri, 20 Nov 2026 22:05:13 +0800</pubDate>
-<description>&lt;p&gt;Anthropic shares fell about 9% to $88.25 on the second trading day after its IPO, leaving a fully diluted valuation of roughly $1.6 trillion, or about 40x trailing 12-month revenue. The flagship AI listing failed to revive sentiment across the sector, with Nvidia, Meta and AMD also under pressure. Attention now shifts to a potential OpenAI IPO next year.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 上市次日跌 9% 估值达营收 40 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 头部公司 IPO 定价与二级市场反应是判断板块估值中枢的关键信号，直接影响后续 AI 融资与上市窗口。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 上市次日股价报 88.25 美元，较首日收盘下跌约 9%，完全稀释估值约 1.6 万亿美元，约为过去 12 个月营收的 40 倍。作为 AI 投资热潮的风向标，其 IPO 未能提振板块情绪，英伟达、Meta、AMD 等科技与芯片股同步承压。市场下一步焦点转向 OpenAI 可能于明年启动的 IPO。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 头部公司 IPO 定价与二级市场反应是判断板块估值中枢的关键信号，直接影响后续 AI 融资与上市窗口。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/030/246.htm">IT之家 · IT业界</source>
 <category>Anthropic</category>
 <category>IPO</category>
@@ -186,93 +238,40 @@
 <category>估值</category>
 <category>OpenAI</category>
 </item>
-<item><title>AI Agents Cut Admin Panel Development Time by Tenfold</title><link>https://backpackforlaravel.com/articles/opinions/llms-txt-and-mcp-didn-t-move-the-needle-for-us-here-s-what-did</link><guid isPermaLink="true">https://backpackforlaravel.com/articles/opinions/llms-txt-and-mcp-didn-t-move-the-needle-for-us-here-s-what-did</guid>
+<item><title>AI 智能体让后台面板开发提速 10 倍</title><link>https://backpackforlaravel.com/articles/opinions/llms-txt-and-mcp-didn-t-move-the-needle-for-us-here-s-what-did</link><guid isPermaLink="true">https://backpackforlaravel.com/articles/opinions/llms-txt-and-mcp-didn-t-move-the-needle-for-us-here-s-what-did</guid>
 <pubDate>Fri, 20 Nov 2026 22:00:23 +0800</pubDate>
-<description>&lt;p&gt;The maintainer of Backpack for Laravel reports that AI agents have compressed a full day of CRUD admin-panel work into one to two hours, and a week-long feature into a single day. He argues that llms.txt and MCP did not move the needle; the real gains come from agents directly invoking project generators and writing configuration and tests.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 智能体让后台面板开发提速 10 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自一线开源维护者的真实效率数据，对评估 AI 编码智能体在传统 Web 开发中的实际增益有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Laravel 后台面板包 Backpack 维护者基于自身实践指出，借助 AI 智能体，原本需要一天的 CRUD 后台开发已压缩到一到两小时，一周的功能量级缩短到一天。作者认为 llms.txt 与 MCP 等标准化尝试并未带来实质增量，真正的效率提升来自智能体直接调用项目生成器、编写配置与测试。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自一线开源维护者的真实效率数据，对评估 AI 编码智能体在传统 Web 开发中的实际增益有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
 <source url="https://backpackforlaravel.com/articles/opinions/llms-txt-and-mcp-didn-t-move-the-needle-for-us-here-s-what-did">Hacker News AI</source>
 <category>AI 编程</category>
 <category>智能体</category>
 <category>Laravel</category>
 <category>开发者效率</category>
 </item>
-<item><title>Samsung Device Unit Sees Memory Costs Surge 263 Percent</title><link>https://www.ithome.com/1/030/243.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/243.htm</guid>
+<item><title>三星非半导体部门内存采购价暴涨 263%</title><link>https://www.ithome.com/1/030/243.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/243.htm</guid>
 <pubDate>Fri, 20 Nov 2026 21:47:56 +0800</pubDate>
-<description>&lt;p&gt;Samsung&amp;#x27;s DX division, which houses its non-semiconductor device businesses, saw average memory purchase prices jump 263% year over year in the first nine months of 2026, while Galaxy smartphone average selling prices rose only 13%. Memory purchases reached 7.7 trillion won, or 12.3% of raw material spending, pushing the MX and NW businesses into a second consecutive quarterly loss and illustrating how AI-driven memory inflation is squeezing device makers&amp;#x27; margins.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;三星非半导体部门内存采购价暴涨 263%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;存储涨价向终端传导的硬数据，揭示 AI 算力需求对消费电子利润的挤压。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;三星电子三季报显示，负责非半导体业务的 DX 部门今年前三季度内存平均采购价同比暴涨 263%，而 Galaxy 手机平均售价仅上涨 13%，成本与售价严重倒挂。内存采购总额达 7.7 万亿韩元，占原材料采购的 12.3%，MX 与 NW 业务已连续两个季度亏损。这一数据直观反映了 AI 驱动的存储涨价对终端硬件厂商利润的挤压。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;存储涨价向终端传导的硬数据，揭示 AI 算力需求对消费电子利润的挤压。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/030/243.htm">IT之家 · IT业界</source>
 <category>存储涨价</category>
 <category>三星电子</category>
 <category>消费电子</category>
 <category>AI 算力</category>
 </item>
-<item><title>Anthropic&#x27;s Record IPO Fails to Halt Global AI Stock Sell-Off</title><link>https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off</link><guid isPermaLink="true">https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off</guid>
+<item><title>Anthropic 创纪录 IPO 未能止住全球 AI 股抛售</title><link>https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off</link><guid isPermaLink="true">https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off</guid>
 <pubDate>Fri, 20 Nov 2026 21:29:59 +0800</pubDate>
-<description>&lt;p&gt;Anthropic&amp;#x27;s record-breaking IPO failed to reverse a broad sell-off in AI-linked equities, with Asian markets posting their worst week since 2020 and Taiwan stocks falling 6.7% in a single session. The reaction signals that investors are repricing AI-sector risk despite a marquee listing, marking a shift in market sentiment toward the sector.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 创纪录 IPO 未能止住全球 AI 股抛售&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司创纪录 IPO 与全球 AI 股抛售同时发生，是判断行业资本周期与估值拐点的关键信号。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 完成创纪录 IPO 后，全球 AI 相关股票仍遭大规模抛售，亚洲市场录得 2020 年以来最差单周表现，台湾股市单日下跌 6.7%。这表明资本市场对 AI 板块的估值重估已超越单一明星公司的利好，行业进入风险定价调整期。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司创纪录 IPO 与全球 AI 股抛售同时发生，是判断行业资本周期与估值拐点的关键信号。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off">Hacker News AI</source>
 <category>AI 股市</category>
 <category>Anthropic</category>
 <category>IPO</category>
 <category>资本市场</category>
 </item>
-<item><title>Google Homepage Redesign Pushes Search Toward AI Answer Engine</title><link>https://the-decoder.com/googles-latest-homepage-update-pushes-its-search-engine-further-toward-an-ai-answer-engine/</link><guid isPermaLink="true">https://the-decoder.com/googles-latest-homepage-update-pushes-its-search-engine-further-toward-an-ai-answer-engine/</guid>
+<item><title>Google 首页改版 搜索加速转向 AI 答案引擎</title><link>https://the-decoder.com/googles-latest-homepage-update-pushes-its-search-engine-further-toward-an-ai-answer-engine/</link><guid isPermaLink="true">https://the-decoder.com/googles-latest-homepage-update-pushes-its-search-engine-further-toward-an-ai-answer-engine/</guid>
 <pubDate>Fri, 20 Nov 2026 21:19:31 +0800</pubDate>
-<description>&lt;p&gt;Google has updated its Search homepage with a sidebar designed to help users resume multi-step research where they left off, accelerating the shift from keyword search toward an AI answer engine. It is also rolling out temporary threads in AI Mode worldwide that ignore prior context, are not saved to history, and do not affect future recommendations.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Google 首页改版 搜索加速转向 AI 答案引擎&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Google 搜索产品形态向 AI 答案引擎演进的关键一步，涉及交互与隐私机制的具体变化。&lt;/p&gt;&lt;p&gt;The Decoder · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Google 更新搜索首页，新增侧边栏以支持跨会话的连续研究，让用户能从上次中断处继续探索。此举推动搜索从关键词检索进一步转向 AI 答案引擎。同时，AI Mode 在全球上线临时线程，不调用历史上下文、不保存记录、不影响后续推荐，关闭即消失。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Google 搜索产品形态向 AI 答案引擎演进的关键一步，涉及交互与隐私机制的具体变化。&lt;/p&gt;&lt;p&gt;The Decoder · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/googles-latest-homepage-update-pushes-its-search-engine-further-toward-an-ai-answer-engine/">The Decoder</source>
 <category>Google 搜索</category>
 <category>AI 答案引擎</category>
 <category>AI Mode</category>
-</item>
-<item><title>停止写代码会削弱代码审查能力</title><link>https://cekrem.github.io/posts/if-you-stop-writing-code-you-also-get-worse-at-reviewing-it/</link><guid isPermaLink="true">https://cekrem.github.io/posts/if-you-stop-writing-code-you-also-get-worse-at-reviewing-it/</guid>
-<pubDate>Fri, 20 Nov 2026 20:41:38 +0800</pubDate>
-<description>&lt;p&gt;文章指出软件工程界存在一种独特误区，认为工程师停止亲手写代码后，仅靠审查和指导他人仍能维持甚至提升专业能力。作者以音乐等领域的刻意练习原则作类比，论证代码审查能力同样依赖持续的编码实践，长期脱离编码会让审查判断力退化。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;对 AI 辅助编码时代工程师技能退化问题提出了值得讨论的观点。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://cekrem.github.io/posts/if-you-stop-writing-code-you-also-get-worse-at-reviewing-it/">Hacker News AI</source>
-<category>软件工程</category>
-<category>开发者技能</category>
-<category>代码审查</category>
-</item>
-<item><title>Signal 封堵截屏 阻止系统级 AI 读取用户消息</title><link>https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app</guid>
-<pubDate>Fri, 20 Nov 2026 20:30:47 +0800</pubDate>
-<description>&lt;p&gt;Signal 在 iOS 与 Android 端限制截屏能力，以阻止操作系统内置的智能体 AI 通过屏幕内容读取用户私密消息。Signal 总裁 Meredith Whittaker 指出，Google、Apple、Microsoft 等并未提供细粒度接口让开发者限制 AI 数据访问，Signal 只能在牺牲核心体验的前提下自保，macOS 端因此暂无法落地该保护。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;端侧智能体与隐私边界首次正面冲突，Signal 的应对揭示了操作系统 AI 权限缺位的生态级问题。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 72/100&lt;/p&gt;</description>
-<source url="https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app">The Verge AI</source>
-<category>隐私安全</category>
-<category>智能体</category>
-<category>Signal</category>
-<category>操作系统</category>
-</item>
-<item><title>Epic 为虚幻引擎 5.9 引入 AI 智能体资产创作</title><link>https://spectrum.ieee.org/epic-games-unreal-engine-ai</link><guid isPermaLink="true">https://spectrum.ieee.org/epic-games-unreal-engine-ai</guid>
-<pubDate>Fri, 20 Nov 2026 20:16:36 +0800</pubDate>
-<description>&lt;p&gt;Epic Games 在虚幻引擎 5.9 中推出 Unreal Canvas，允许开发者通过 AI 智能体协作生成与迭代游戏资产。该功能将生成式 AI 直接嵌入主流游戏引擎工作流，降低美术与场景制作门槛。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流游戏引擎首次将 AI 智能体资产创作纳入官方工作流，对游戏开发者具有直接实用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
-<source url="https://spectrum.ieee.org/epic-games-unreal-engine-ai">Hacker News AI</source>
-<category>游戏引擎</category>
-<category>AI 智能体</category>
-<category>Epic Games</category>
-</item>
-<item><title>京东与华为 OSTA 星芒达成三年 700 亿销售合作</title><link>https://www.ithome.com/1/030/227.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/227.htm</guid>
-<pubDate>Fri, 20 Nov 2026 19:51:33 +0800</pubDate>
-<description>&lt;p&gt;华为全新子品牌 OSTA 星芒正式亮相，并发布首款鸿蒙 AI 手机 OSTA O1 Pro，首发价 5499 元起。京东与 OSTA 星芒签署战略合作协议，明确未来三年全品类销售额 700 亿元目标，双方将在产品服务、用户运营与 AI 生态协同三方面深化合作。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及华为新子品牌发布与 700 亿渠道大单，属终端与 AI 生态商业动向，但缺乏具体技术参数。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 38/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/030/227.htm">IT之家 · IT业界</source>
-<category>华为</category>
-<category>京东</category>
-<category>鸿蒙</category>
-<category>智能终端</category>
-<category>战略合作</category>
-</item>
-<item><title>文远知行第三季度营收 3.21 亿元，Robotaxi 单季破亿</title><link>https://www.ithome.com/1/030/224.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/224.htm</guid>
-<pubDate>Fri, 20 Nov 2026 19:41:22 +0800</pubDate>
-<description>&lt;p&gt;文远知行 2026 财年第三季度营收 3.21 亿元，同比增长 88%，毛利率升至 43%，Robotaxi 单季收入首次突破 1 亿元且海外占比超九成。前三季度累计营收 6.67 亿元，归母净亏损 11 亿元，广州 Robotaxi 单车单位经济效益已转正。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;自动驾驶头部公司季度财报披露 Robotaxi 单季收入破亿与单车经济转正，是观察 L4 商业化拐点的关键数据。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/030/224.htm">IT之家 · IT业界</source>
-<category>自动驾驶</category>
-<category>Robotaxi</category>
-<category>财报</category>
-<category>文远知行</category>
-</item>
-<item><title>腾讯 WorkBuddy 上线电脑操控能力</title><link>https://www.ithome.com/1/030/222.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/222.htm</guid>
-<pubDate>Fri, 20 Nov 2026 19:25:49 +0800</pubDate>
-<description>&lt;p&gt;腾讯 WorkBuddy 正式上线电脑操控（Computer Use）能力，可识别当前页面与客户端界面，执行点击、输入、滚动等操作，无需目标软件开放接口即可在后台运行。该功能目前处于公测阶段，支持 macOS 与 Windows，需客户端升级至 5.11.0 及以上版本并完成授权，官方建议在登录、支付、删除等敏感操作时保持在场监控。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;腾讯将 GUI 操控能力集成进办公智能体产品，是 Computer Use 在国内大厂落地的重要一步。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/030/222.htm">IT之家 · 智能时代</source>
-<category>智能体</category>
-<category>Computer Use</category>
-<category>腾讯</category>
-<category>办公自动化</category>
 </item>
 </channel>
 </rss>
