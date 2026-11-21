@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Sat, 21 Nov 2026 22:36:45 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 22 Nov 2026 01:07:07 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
-<item><title>Lean 社区正式验证黎曼猜想形式化证明</title><link>https://todayforai.com/en/story/story-c508eedd-8d6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c508eedd-8d6</guid>
-<pubDate>Sat, 21 Nov 2026 22:36:45 +0800</pubDate>
-<description>&lt;p&gt;2026 年 11 月 20 日，Anthropic 数学家 Levent Alpöge 发布了约 1700 万行 Lean 形式化代码，声称证明了黎曼猜想及其广义形式（GRH）。仅一天后，Lean 与 Mathlib 社区联合宣布，该代码库正确无误，陈述与证明均通过专家审核，标志着 AI 辅助形式化数学首次触及顶级未解难题。
+<item><title>Lean 社区启动黎曼猜想形式化证明独立验证</title><link>https://todayforai.com/en/story/story-c508eedd-8d6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c508eedd-8d6</guid>
+<pubDate>Sat, 21 Nov 2026 23:54:34 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 数学家 Levent Alpöge 宣称与 Claude 合作给出了黎曼猜想的 Lean 形式化证明，并公开了约 1700 万行代码。该猜想自 1859 年悬置至今，属千禧年大奖难题。消息在 Lean 社区引发数学家密集核验，同时斯坦福研究者 Alessandro Masullo 也声称独立完成证明，真伪尚待同行评审确认。
 
-该证明的独特之处在于完全以机器可验证的 Lean 代码呈现，而非传统论文。代码仅依赖 Mathlib，便于社区复核。据披露，Claude 在证明过程中提出了关键的连续 Theta Lifts 思路与核心参数，并在后期贡献超出预期。陶哲轩指出，证明疑似动用了朗兰兹纲领与算术几何的现代成果，数学界梳理仍需时间。同日，斯坦福研究者 Alessandro Masullo 发布了耗时 12 年的 940 页纯人工证明，形成 AI 与人类路径的正面竞争。
+据披露，Claude 在证明后期贡献了关键思路，包括连续 Theta Lifts 和核心参数，整个论证在约六周内完成形式化。陶哲轩指出，该证明疑似依赖朗兰兹纲领与算术几何的现代成果，验证需数学界投入时间。初步检查确认形式化命题为广义黎曼猜想，但 Lean 内核可靠性仍存理论风险。MIT 的 Andrew Sutherland 使用 Claude Code 进行了独立验证，175,187 个模块全部编译通过，五个核心定理仅依赖三条标准公理，两个独立内核 nanoda 与 con-leche 均接受完整导出证明。
 
-若最终确认，这将是 AI for Math 的标志性节点，不仅支撑数百个依赖黎曼猜想的数学结论，更验证了大规模形式化证明的可行性。事件凸显了 AI 研究成果可信验证机制的重要性，以及形式化工具链在确保数学严谨性中的核心作用。&lt;/p&gt;&lt;p&gt;11 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), The Decoder, Hacker News AI, IT之家 · 智能时代, The Verge AI, IT之家 · IT业界&lt;/p&gt;</description>
+若该证明最终通过同行评审，将是 AI 辅助数学研究的里程碑事件，不仅支撑数百个依赖黎曼猜想的数学结论，也凸显 AI 在顶级数学研究中的实际参与度，并推动“AI 成果如何被可信验证”的机制建设。&lt;/p&gt;&lt;p&gt;11 sources&lt;/p&gt;&lt;p&gt;Latent Space, Rohan Paul (@rohanpaul_ai), The Decoder, Simon Willison 博客, TechCrunch AI, IT之家 · IT业界&lt;/p&gt;</description>
 </item>
 <item><title>Thinking Machines 开源 26B 循环模型 Inkling 2 Mini</title><link>https://todayforai.com/en/story/story-e7a42b22-638</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e7a42b22-638</guid>
 <pubDate>Sat, 21 Nov 2026 20:19:28 +0800</pubDate>
@@ -43,6 +43,14 @@ Anthropic 的上市标志着头部大模型公司首次进入公开资本市场�
 
 Neon 的发布标志着谷歌模型迭代节奏近乎指数级加快，发布间隔从 28 天缩短至 6 天，同时产品线快速收敛，Argon 退役、旧版 Pro 与 Flash 下线。凭借速度、成本与可操控性的平衡，Neon 直接对标 Anthropic 的 Opus 与 Fable 系列，加剧了中端智能体市场的竞争，也为开发者提供了高性价比的前沿智能选择。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, IT之家 · IT业界, Marktechpost (@Marktechpost), 宝玉 (@dotey), Artificial Analysis, Latent Space&lt;/p&gt;</description>
 </item>
+<item><title>腾讯元宝联合 KCL 发布群聊 Agent 记忆基准</title><link>https://todayforai.com/en/story/story-5c1756b3-b65</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5c1756b3-b65</guid>
+<pubDate>Sun, 22 Nov 2026 01:07:07 +0800</pubDate>
+<description>&lt;p&gt;腾讯元宝与伦敦国王学院 NLP 团队联合发布 GroupAssistBench，这是首个针对群聊场景的 Agent 记忆能力评测基准。该基准基于 50 个真实群聊的 80,299 条历史消息，构建了 2,395 道评测题，覆盖单条记忆、多记忆整合与更新冲突三类结构，并首次将记忆能力拆分为 L1 事实召回与 L2 开放式服务两个层级。
+
+实验对比 14 组配置后发现，记忆召回更强并不等于服务能力更强。例如，EverMemOS 在 L1 得分 0.621，高于完整上下文的 0.570，但在 L2 仅得 0.247，远低于后者的 0.431。这表明检索增强与外部记忆方案在开放式服务任务上普遍落后于完整上下文，为 Agent 记忆系统的设计提供了重要警示。
+
+该基准的论文、代码与数据集均已公开，有望推动群聊 Agent 记忆研究的标准化与可复现性。随着 AI 助手日益融入群聊协作场景，如何平衡记忆召回与服务能力将成为开发者关注的核心问题，此项工作为后续优化指明了方向。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), 量子位 (微信公众号)&lt;/p&gt;</description>
+</item>
 <item><title>GPT-6.2 Astra 具身任务成功率翻倍至 41.2%</title><link>https://todayforai.com/en/story/story-1fc81bf4-75d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1fc81bf4-75d</guid>
 <pubDate>Sat, 21 Nov 2026 14:35:59 +0800</pubDate>
 <description>&lt;p&gt;GPT-6.2 Astra 在机器人操作基准测试中实现重大突破，综合成功率从两个月前 GPT-6 Astra 的 19.6% 提升至 41.2%，翻倍有余。在 XDOF 的 Ember-0 双臂机器人基准的 16 项任务中，提升覆盖整套任务而非单点突破，其中给绳子打结、展开 T 恤两项柔性物体任务首次被模型攻克，此前 143 次 T 恤测试无一成功。
@@ -70,14 +78,6 @@ MedChemBench 的推出为药物化学领域的 AI 应用提供了可量化的评
 综合多方信源，Decision 1 的核心特性在于批量概率判定能力。官方演示中，手势与情绪识别 8 题全对，单次成本约 0.0027 美元，凸显低成本实用导向。模型通过 AI/ML API 平台分发，与 OpenRouter 形成互补渠道。其输出概率值而非文本的设计，便于开发者直接嵌入风控、身份核验等自动化流程，例如判断自拍视频与证件照是否同一人、是否为活体采集。
 
 此次发布标志着 AI 模型从内容生成向决策判定延伸，为视频审核、金融身份认证、互动娱乐等场景提供了可量化的概率工具。HeyGen 以极低定价和批量处理能力切入，有望降低多模态判定的应用门槛，推动概率型 AI 服务成为新的基础设施。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter), Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
-</item>
-<item><title>Signal 封堵截屏 阻止系统级 AI 读取私聊</title><link>https://todayforai.com/en/story/story-7515a48b-c5e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-7515a48b-c5e</guid>
-<pubDate>Sat, 21 Nov 2026 03:50:27 +0800</pubDate>
-<description>&lt;p&gt;Signal 在 iOS 27 与部分 Android 版本上实施截屏封堵，阻止系统级 AI 智能体通过屏幕内容读取已解密的私聊消息。这是端到端加密应用与操作系统级 AI 之间围绕屏幕访问权的首次正面冲突，Signal 总裁 Meredith Whittaker 称隐私面临“生存性威胁”。
-
-综合多家信源，Signal 在 iOS 27 上直接禁止截屏，在 Android 上则于检测到 AI 助手尝试读取屏幕时触发保护。导火索是 Meta 智能体 Muse 此前通过无障碍权限等广泛授权获取 Signal 内容。Whittaker 指出，Google、Apple、Microsoft 等 OS 厂商并未提供细粒度接口让开发者限制 AI 数据访问，Signal 只能在牺牲核心体验的前提下自保，macOS 端因此暂无法落地该保护。此前 Signal 已用截图屏蔽阻止 Windows 11 上的 Microsoft Recall 默认截屏，这是其第二次针对操作系统级 AI 采集能力采取技术反制。
-
-事件凸显端侧智能体普及与隐私应用之间的权限冲突正在升级。在 OS 厂商提供细粒度 AI 数据访问控制接口之前，隐私应用只能被动防御，整个应用生态都可能面临类似取舍。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, The Verge AI, The Decoder&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

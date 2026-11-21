@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 22 Nov 2026 00:45:08 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 22 Nov 2026 01:08:04 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>gopgext Lets Developers Build PostgreSQL Extensions in Go</title><link>https://jespino.github.io/gopgext/</link><guid isPermaLink="true">https://jespino.github.io/gopgext/</guid>
+<pubDate>Sun, 22 Nov 2026 01:08:04 +0800</pubDate>
+<description>&lt;p&gt;Open-source project gopgext uses a custom TinyGo target and runtime layer to compile plain Go code into PostgreSQL extensions, auto-generating C glue, install scripts and control files. It supports the standard library, SQL type mapping, SPI queries and SQLSTATE error codes, but remains experimental and is explicitly not production-ready.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;gopgext 让 Go 直接编写 PostgreSQL 扩展&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为 PostgreSQL 扩展开发引入 Go 生态，思路与 gokm 一脉相承，对数据库与 Go 开发者有实际参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://jespino.github.io/gopgext/">Hacker News AI</source>
+<category>PostgreSQL</category>
+<category>Go</category>
+<category>TinyGo</category>
+<category>开源项目</category>
+</item>
+<item><title>Claude Assists Mathematician in Proving Riemann Hypothesis with 17M-Line Lean Proof</title><link>https://x.com/rohanpaul_ai/status/2124187865899049164</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2124187865899049164</guid>
+<pubDate>Sun, 22 Nov 2026 01:07:07 +0800</pubDate>
+<description>&lt;p&gt;Anthropic mathematician Alpöge used Claude to prove the Riemann Hypothesis, formalizing the entire argument into roughly 17 million lines of machine-checkable code that Lean&amp;#x27;s official community certified within a single day. It marks the first time AI has helped crack mathematics&amp;#x27; most famous open problem after 167 years, with Claude proposing a key step in areas beyond the human&amp;#x27;s own expertise.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Claude 协助证明黎曼猜想 1700 万行代码获 Lean 社区认证&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 首次参与攻克数学界最著名的百年难题，且以可机器验证的形式化证明落地，是 AI for Science 的标志性节点。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 88/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2124187865899049164">Rohan Paul (@rohanpaul_ai)</source>
+<category>AI for Science</category>
+<category>Anthropic</category>
+<category>形式化验证</category>
+<category>数学证明</category>
+</item>
 <item><title>LangChain Pitches Knowledge Factory Architecture for Enterprise Agents</title><link>https://www.langchain.com/blog/knowledge-factory</link><guid isPermaLink="true">https://www.langchain.com/blog/knowledge-factory</guid>
 <pubDate>Sun, 22 Nov 2026 00:45:08 +0800</pubDate>
 <description>&lt;p&gt;LangChain introduces the \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;LangChain 提出知识工厂架构破解智能体落地难题&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自 LangChain 创始人的方法论文章，提出企业智能体落地的知识工程路径，对构建内部 Agent 的团队有参考价值。&lt;/p&gt;&lt;p&gt;LangChain Blog · agent · signal 58/100&lt;/p&gt;</description>
@@ -37,6 +55,15 @@
 <category>微短剧</category>
 <category>肖像授权</category>
 <category>商业化</category>
+</item>
+<item><title>Lean Proof of Riemann Hypothesis Passes Multi-Kernel Verification</title><link>https://math.mit.edu/~drew/grh/</link><guid isPermaLink="true">https://math.mit.edu/~drew/grh/</guid>
+<pubDate>Sat, 21 Nov 2026 23:54:34 +0800</pubDate>
+<description>&lt;p&gt;Andrew Sutherland of MIT, using Claude Code, has independently verified a Lean formalization of the Riemann Hypothesis: all 175,187 modules compile cleanly, the five headline theorems depend only on the three standard axioms, and two independent kernels, nanoda and con-leche, accept the full exported proof. It marks the first time AI-assisted formal mathematics on a major open problem has reached machine-checkable verification strength.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Lean 形式化黎曼猜想证明通过多内核验证&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 辅助形式化数学首次在黎曼猜想级别难题上通过多内核独立验证，是形式化推理与 AI 工程结合的里程碑事件。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 88/100&lt;/p&gt;</description>
+<source url="https://math.mit.edu/~drew/grh/">Hacker News AI</source>
+<category>形式化数学</category>
+<category>Lean</category>
+<category>黎曼猜想</category>
+<category>AI 辅助证明</category>
 </item>
 <item><title>Zero C# Compiles C# to Native Code Without Runtime or GC</title><link>https://onurgumus.github.io/zero-csharp/index.html</link><guid isPermaLink="true">https://onurgumus.github.io/zero-csharp/index.html</guid>
 <pubDate>Sat, 21 Nov 2026 23:39:09 +0800</pubDate>
@@ -202,27 +229,27 @@
 <category>开源模型</category>
 <category>决策模型</category>
 </item>
-<item><title>ByteDance Claims Three Training Steps Suffice for Competitive Open Model</title><link>https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model/</link><guid isPermaLink="true">https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model/</guid>
+<item><title>字节提出三步训练法并开源竞争性模型</title><link>https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model/</link><guid isPermaLink="true">https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model/</guid>
 <pubDate>Sat, 21 Nov 2026 17:17:24 +0800</pubDate>
-<description>&lt;p&gt;A ByteDance team, together with several US universities, argues in a new paper that today&amp;#x27;s agent training pipelines have become deeply nested and hard to attribute or reproduce, and claims that three training steps are enough to produce a competitive open model. The work positions a lean training pipeline as an alternative to stacked multi-stage recipes.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;字节提出三步训练法并开源竞争性模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;字节联合高校挑战多阶段训练范式，主张三步训练即可，对关注训练效率与开源模型的读者有参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;字节跳动联合多所美国高校发表论文，指出当前智能体训练流程层层堆叠、难以归因且复现成本高昂，主张仅需三个训练阶段即可获得具备竞争力的开源模型。该工作以精简训练管线为核心主张，试图为复杂多阶段训练范式提供替代方案。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;字节联合高校挑战多阶段训练范式，主张三步训练即可，对关注训练效率与开源模型的读者有参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 58/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model/">The Decoder</source>
 <category>大模型</category>
 <category>训练方法</category>
 <category>开源模型</category>
 <category>字节跳动</category>
 </item>
-<item><title>China Data Bureau to Set Token Metering and Quality Standards</title><link>https://www.ithome.com/1/030/418.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/418.htm</guid>
+<item><title>国家数据局将健全词元计量计费与质量测评标准</title><link>https://www.ithome.com/1/030/418.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/418.htm</guid>
 <pubDate>Sat, 21 Nov 2026 16:51:37 +0800</pubDate>
-<description>&lt;p&gt;At the 2026 World Computing Conference, National Data Administration head Liu Liehong said tokens have become the value anchor linking compute, models and data, with a token production-circulation-consumption ecosystem taking shape. The agency will expand token service scenarios, build metering, billing and quality assessment standards, and explicitly curb low-quality redundant construction.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;国家数据局将健全词元计量计费与质量测评标准&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是国家级数据主管部门首次系统提出词元计量与质量标准的监管方向，直接影响算力与模型服务的计价方式。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;国家数据局局长刘烈宏在 2026 世界计算大会上表示，词元已成为连接算力、模型与数据的价值锚点，围绕词元生产、流通、消费的产业生态正加速构建。下一步国家数据局将拓展词元服务应用场景，健全词元计量计费与质量测评标准规范，并明确要求避免低质量重复建设。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是国家级数据主管部门首次系统提出词元计量与质量标准的监管方向，直接影响算力与模型服务的计价方式。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/030/418.htm">IT之家 · 智能时代</source>
 <category>词元经济</category>
 <category>国家数据局</category>
 <category>算力基础设施</category>
 <category>政策标准</category>
 </item>
-<item><title>GPGME Patches Critical Double Free Flaw Enabling Remote Code Execution</title><link>https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html</link><guid isPermaLink="true">https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html</guid>
+<item><title>GPGME 修复可致远程代码执行的关键漏洞</title><link>https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html</link><guid isPermaLink="true">https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html</guid>
 <pubDate>Sat, 21 Nov 2026 16:32:58 +0800</pubDate>
-<description>&lt;p&gt;The GnuPG project released GPGME 2.3.1 to fix a critical flaw (CVE-2026-129975) present in all prior versions. A crafted OpenPGP key with an extremely long user ID triggers a double free that can exfiltrate application data and potentially enable remote code execution; downstream products including Gpg4win and GnuPG Desktop have been updated in tandem.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;GPGME 修复可致远程代码执行的关键漏洞&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及广泛部署的加密库关键 RCE 漏洞，所有使用 GPGME 的应用与下游发行版都需立即升级。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;GnuPG 项目发布 GPGME 2.3.1，修复一个影响所有历史版本的关键安全漏洞（CVE-2026-129975）。攻击者可通过构造超长 OpenPGP 用户 ID 触发双重释放，进而窃取应用数据甚至实现远程代码执行，Gpg4win 与 GnuPG Desktop 等下游产品已同步更新。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及广泛部署的加密库关键 RCE 漏洞，所有使用 GPGME 的应用与下游发行版都需立即升级。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
 <source url="https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html">Hacker News AI</source>
 <category>安全漏洞</category>
 <category>开源</category>
@@ -245,32 +272,6 @@
 <category>谷歌</category>
 <category>Gemini</category>
 <category>GIF</category>
-</item>
-<item><title>OpenCode Console 支持无密钥 OIDC 认证</title><link>https://x.com/opencode/status/2124037654639468759</link><guid isPermaLink="true">https://x.com/opencode/status/2124037654639468759</guid>
-<pubDate>Sat, 21 Nov 2026 15:10:14 +0800</pubDate>
-<description>&lt;p&gt;OpenCode 宣布其 Console 支持无密钥认证，在 CI 等支持 OIDC 的环境中调用模型不再需要长期有效的 API Token，改用短时凭证降低密钥泄露风险。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向开发者的模型调用认证方式更新，对在 CI 流水线中集成 AI 的团队有直接实用价值。&lt;/p&gt;&lt;p&gt;OpenCode (@opencode) · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/opencode/status/2124037654639468759">OpenCode (@opencode)</source>
-<category>开发者工具</category>
-<category>认证</category>
-<category>OIDC</category>
-<category>CI</category>
-</item>
-<item><title>Antigravity 扩容缓存池 配额任务量提升 20%</title><link>https://x.com/dotey/status/2124034738931613802</link><guid isPermaLink="true">https://x.com/dotey/status/2124034738931613802</guid>
-<pubDate>Sat, 21 Nov 2026 14:58:39 +0800</pubDate>
-<description>&lt;p&gt;Antigravity 通过大幅扩容缓存池，将 Neon 缓存命中率提升约 4%，使同等配额下可完成的任务量至少提升 20%。由于此前配额消耗过快，更新完成后将统一重置一次配额。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及 AI 编程工具配额与缓存优化的具体工程改动，对重度用户有直接使用价值。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/dotey/status/2124034738931613802">宝玉 (@dotey)</source>
-<category>AI 编程工具</category>
-<category>缓存优化</category>
-<category>配额</category>
-</item>
-<item><title>智元精灵 G2 进驻蓝思手机测试产线</title><link>https://www.ithome.com/1/030/364.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/364.htm</guid>
-<pubDate>Sat, 21 Nov 2026 14:39:35 +0800</pubDate>
-<description>&lt;p&gt;智元创新与蓝思科技达成战略合作，在手机测试产线批量部署数十台精灵 G2 机器人，承担自动上下料与测试设备交互等工序。该部署覆盖 MMI、ANT、CAM 等测试环节，官方称已跑通工艺适配到交付的全链路，具备 1-N 规模化复制潜力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;具身智能在 3C 精密制造产线的批量落地案例，具备明确的工序与复制路径信息。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/030/364.htm">IT之家 · 智能时代</source>
-<category>具身智能</category>
-<category>智元</category>
-<category>蓝思科技</category>
-<category>3C 制造</category>
 </item>
 </channel>
 </rss>
