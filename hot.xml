@@ -17,7 +17,7 @@ Anthropic 的上市标志着头部大模型公司首次进入公开资本市场�
 
 目前该声明仅为 Alpöge 的个人公开主张，尚未经过数学界同行评审与独立验证。Anthropic 官方未参与或置评，Alpöge 称曾私下告知 CEO Dario Amodei，并推迟至公司 IPO 后公布，引发利益关联质疑。多个信源一致强调，证明以 Lean 代码形式公布，但形式化验证本身仍需社区复核，且此前 OpenAI 在 10 月公布的数学成果被认为提供了突破口。
 
-若最终获得确认，这一事件将深刻影响 AI 辅助数学研究的生态，证明大模型在最高阶创造性数学推理中的潜力，并推动形式化验证与 AI 协作范式的普及。然而，在独立验证完成前，业界应保持审慎，避免过度解读个人声明。&lt;/p&gt;&lt;p&gt;8 sources&lt;/p&gt;&lt;p&gt;Simon Willison 博客, IT之家 · 智能时代, The Verge AI, Rohan Paul (@rohanpaul_ai), TechCrunch AI, Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
+若最终获得确认，这一事件将深刻影响 AI 辅助数学研究的生态，证明大模型在最高阶创造性数学推理中的潜力，并推动形式化验证与 AI 协作范式的普及。然而，在独立验证完成前，业界应保持审慎，避免过度解读个人声明。&lt;/p&gt;&lt;p&gt;9 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, Artificial Analysis (@ArtificialAnlys), Latent Space, Rohan Paul (@rohanpaul_ai), Simon Willison 博客, TechCrunch AI&lt;/p&gt;</description>
 </item>
 <item><title>Thinking Machines 开源 26B 循环层模型 Inkling 2 Mini</title><link>https://todayforai.com/en/story/story-e7a42b22-638</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e7a42b22-638</guid>
 <pubDate>Sat, 21 Nov 2026 07:24:30 +0800</pubDate>
@@ -27,13 +27,25 @@ Anthropic 的上市标志着头部大模型公司首次进入公开资本市场�
 
 Inkling 2 Mini 的发布标志着高效循环架构在开源社区的落地，为本地部署与长上下文应用提供了新的可能性，有望推动边缘 AI 与隐私敏感场景的发展，并对同等规模的传统 Transformer 模型形成竞争压力。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;vLLM 官方博客, Hugging Face Blog, Hacker News AI, Artificial Analysis (@ArtificialAnlys), Artificial Analysis, Arena.ai (@arena)&lt;/p&gt;</description>
 </item>
-<item><title>谷歌发布 Gemini 4 Neon 单任务成本降逾五成</title><link>https://todayforai.com/en/story/story-d7aabeb3-ec9</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d7aabeb3-ec9</guid>
-<pubDate>Fri, 20 Nov 2026 18:54:00 +0800</pubDate>
-<description>&lt;p&gt;谷歌 DeepMind 正式发布 Gemini 4 系列第四款模型 Neon，定位中端市场，主打端到端快速任务完成。该模型在 Artificial Analysis 智能指数上以 61 分位列总榜第三，在 Agent Arena 可操控性榜单上排名第二，并在编程智能体指数中以 58.6 分超越 Claude Opus 5.5 登顶。其 API 定价为每百万输入 token 3 美元、输出 15 美元，缓存输入低至 0.15 美元，单任务成本较旗舰模型低约 50% 至 80%。
+<item><title>OpenAI 强化推理防泄露 攻击成功率降至 0.2%</title><link>https://todayforai.com/en/story/story-fe915d44-805</link><guid isPermaLink="true">https://todayforai.com/en/story/story-fe915d44-805</guid>
+<pubDate>Sat, 21 Nov 2026 09:45:22 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 首次系统披露针对对抗性蒸馏的多层防御体系，核心指标大幅改善：从历史请求中提取受保护推理内容的攻击成功率由 54.0% 降至 0.2%，针对活跃请求的攻击成功率由 22.9% 降至 0.9%。该防御覆盖 GPT-6.2 Astra 与 Sol 等前沿模型，部分改进将回补至前代 GPT-6 Astra。
 
-综合多源信息，Neon 支持 100 万 token 上下文与四档推理级别，可在 Antigravity 开发环境中调度多个子智能体并行执行长任务。在 Arena 智能体竞技场基于 4200 场真实会话的评测中，Neon 以 1336 分位列总榜第二，单任务中位成本仅 2.82 美元，比 Claude Opus 5.5 低 53%，比榜首 Claude Fable 5.2 低 69%。模型卡显示其在 Gray-Swan 基准上 100% 阻断间接提示注入攻击，速度约 110 tokens/秒，接近同代 Carbon 的两倍。
+防御体系由三层构成：单请求层面的对抗性训练、输入输出分类器与 API 级推理内容隔离；跨会话与跨组织的推理复用限制；以及针对协同攻击的批量账号封禁。OpenAI 每周对数千至数万个未授权蒸馏账号采取执法行动，并与其他厂商共享攻击指标。官方博客特别指出，在 SWE-bench Verified 与前沿网络安全任务上，完整推理记录比摘要更具蒸馏价值，因此防御必须覆盖推理链输出。
 
-Neon 的发布标志着谷歌在七周内连发四款 Gemini 4 系列模型，产品线快速收敛。其高性价比与可操控性优势直接对标 Anthropic 与 OpenAI 的旗舰产品，有望降低企业部署智能体的门槛，加剧中端 AI 模型市场的价格竞争。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;The Decoder, Marktechpost (@Marktechpost), Google DeepMind, OpenRouter (@OpenRouter), Hacker News AI, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
+这一披露对行业具有双重意义：一方面，对抗蒸馏可让攻击者复刻前沿能力并剥离安全护栏，形成实质滥用风险，OpenAI 的防御框架提供了可复用的跨行业经验；另一方面，Arena.ai 同期更新的对齐指数显示 OpenAI 包揽前七名，Claude Fable 5.2 首发第八，Kimi K3.1 Pro 为最强开源模型（第九），表明安全与对齐正成为模型竞争力的关键维度。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, Arena.ai (@arena), IT之家 · 智能时代, OpenAI 官方博客, The Decoder&lt;/p&gt;</description>
+</item>
+<item><title>谷歌发布 Gemini 4 Neon 登顶 Agent Arena 第二</title><link>https://todayforai.com/en/story/story-d7aabeb3-ec9</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d7aabeb3-ec9</guid>
+<pubDate>Sat, 21 Nov 2026 05:39:48 +0800</pubDate>
+<description>&lt;p&gt;谷歌 DeepMind 正式发布 Gemini 4 Neon，这是七周内第四款 Gemini 4 系列模型，定位为兼顾前沿智能与端到端快速任务完成的中端模型。其在 Agent Arena 智能体竞技场以 1336 分位列总榜第二，创下谷歌在该榜单的最佳成绩，单任务中位成本仅 2.82 美元，比榜首 Claude Fable 5.2 低 69%，性价比优势显著。
+
+技术层面，Neon 支持 100 万 token 上下文与四档推理级别，在 Artificial Analysis 编程智能体指数以 58.6 分超越 Claude Opus 5.5 位列第一，智能指数以 61 分排名第三。模型速度约 110 tokens/秒，是前代 Carbon 的两倍，且基础定价更低。在 Antigravity 开发环境中，Neon 可调度多个子智能体并行执行长任务，接入后 SWE-sweep 得分从 12.8% 跃升至 39.0%。安全方面，模型卡称其在 Gray-Swan 基准上 100% 阻断间接提示注入攻击。
+
+Neon 的发布标志着谷歌模型迭代节奏近乎指数级加快，发布间隔从 28 天缩短至 6 天，同时产品线快速收敛，Argon 退役、旧版 Pro 与 Flash 下线。凭借速度、成本与可操控性的平衡，Neon 直接对标 Anthropic 的 Opus 与 Fable 系列，加剧了中端智能体市场的竞争，也为开发者提供了高性价比的前沿智能选择。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, IT之家 · IT业界, Marktechpost (@Marktechpost), 宝玉 (@dotey), Artificial Analysis, Latent Space&lt;/p&gt;</description>
+</item>
+<item><title>英伟达市值蒸发 2.73 万亿美元 纳斯达克创疫情后最差单周</title><link>https://todayforai.com/en/story/story-77a24844-7a2</link><guid isPermaLink="true">https://todayforai.com/en/story/story-77a24844-7a2</guid>
+<pubDate>Sat, 21 Nov 2026 08:08:12 +0800</pubDate>
+<description>&lt;p&gt;英伟达股价周五再跌 14%，较 10 月高点累计回撤约 47%，市值蒸发超 2.73 万亿美元，规模超过整个亚马逊。抛售由黄仁勋因丑闻辞职引发的人事震荡直接触发，叠加市场对 AI 高估值与巨额资本开支回报的怀疑，纳斯达克单周下跌 10%，创 2020 年 3 月以来最差表现。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, Hacker News AI, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 发布药物化学基准 MedChemBench 揭示模型决策短板</title><link>https://todayforai.com/en/story/story-ac4a9ae9-3fa</link><guid isPermaLink="true">https://todayforai.com/en/story/story-ac4a9ae9-3fa</guid>
 <pubDate>Sat, 21 Nov 2026 08:06:12 +0800</pubDate>
@@ -59,14 +71,6 @@ MedChemBench 的推出为药物化学领域的 AI 应用提供了可量化的评
 
 事件凸显端侧智能体普及与隐私应用之间的权限冲突正在升级。在 OS 厂商提供细粒度 AI 数据访问控制接口之前，隐私应用只能被动防御，整个应用生态都可能面临类似取舍。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, The Verge AI, The Decoder&lt;/p&gt;</description>
 </item>
-<item><title>OpenAI 披露多层防御体系 阻断对抗性蒸馏攻击</title><link>https://todayforai.com/en/story/story-fe915d44-805</link><guid isPermaLink="true">https://todayforai.com/en/story/story-fe915d44-805</guid>
-<pubDate>Sat, 21 Nov 2026 04:11:14 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 首次系统披露了针对对抗性蒸馏的防御框架，通过对抗测试、模型训练、分类器与 API 层防护的多层组合，检测并阻断攻击者利用前沿模型输出训练无安全护栏克隆模型的行为。该框架重点加固受保护的推理过程，防止攻击者复现网络安全等敏感能力。
-
-据 OpenAI 官方博客介绍，对抗性蒸馏攻击可让攻击者未经授权复刻前沿模型能力，并剥离安全护栏后部署，例如将模型用于原模型会拒绝的网络安全攻击场景。防御体系的核心发现是，在 SWE-bench Verified 和前沿网络安全任务上，完整推理记录比摘要更具蒸馏价值，因此防御需覆盖推理链输出。OpenAI 同时公开了跨行业可复用的防护经验，包括对抗测试方法和分类器设计。
-
-这一披露对 AI 安全生态具有实质影响。随着模型能力提升，对抗性蒸馏成为新型滥用途径，OpenAI 的多层防御思路为行业提供了可借鉴的范本，推动 API 提供商和模型开发者加强推理链保护，也可能促使全行业重新评估模型输出管控策略。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, OpenAI 官方博客&lt;/p&gt;</description>
-</item>
 <item><title>SpaceX 举债 320 亿美元采购英伟达 Rubin GPU</title><link>https://todayforai.com/en/story/story-623e8439-1a9</link><guid isPermaLink="true">https://todayforai.com/en/story/story-623e8439-1a9</guid>
 <pubDate>Sat, 21 Nov 2026 07:34:13 +0800</pubDate>
 <description>&lt;p&gt;SpaceX 通过一笔约 320 亿美元的债务融资，锁定英伟达下一代 Rubin GPU 及配套设备，成为迄今规模最大的 GPU 融资交易。该交易由阿波罗全球管理公司与高盛牵头，贝莱德、KKR 等机构参与，因需求强劲而超额认购并扩大规模，最终融资定价达 440 亿美元，资金专项用于采购约 473 亿美元的 GPU 设备。
@@ -74,10 +78,6 @@ MedChemBench 的推出为药物化学领域的 AI 应用提供了可量化的评
 交易结构上，SpaceX 借助阿波罗旗下 Saturn Funding Trust 以“买芯片再回租”的方式完成，使债务不进入其资产负债表，从而维持投资级评级并加快后续融资。芯片预计自明年 1 月起交付，2027 年上半年租赁安排正式生效。这一设计既满足了 SpaceX 对大规模算力的迫切需求，又避免了高杠杆对财务指标的冲击。
 
 此次融资凸显 AI 算力军备竞赛已从科技巨头蔓延至航天与重工业领域。SpaceX 通过表外融资锁定稀缺的英伟达高端芯片，为星链、星舰等项目的 AI 训练与推理储备算力，同时也为其他企业提供了“债务隔离+租赁”的算力获取范本。分析认为，这类结构化融资或将成为大额 GPU 采购的主流模式，进一步推高英伟达订单能见度。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
-</item>
-<item><title>Arena 推出 Agent 排行榜 Gemini 4 Neon 空降第二</title><link>https://todayforai.com/en/story/story-e50edc48-2c8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e50edc48-2c8</guid>
-<pubDate>Sat, 21 Nov 2026 05:39:48 +0800</pubDate>
-<description>&lt;p&gt;Arena.ai 正式上线 Agent Arena Index，首次以统一榜单横向评测智能体能力。谷歌 Gemini 4 Neon 以 1336 分空降第二，OpenAI GPT-6.2 Astra 与 Sol 分列第六和第十一，阿里 Qwen4-Max 位列第十四并成为排名最高的中国模型。榜单同时引入成本维度，Meta Muse Ember 在 WebDev 代码竞技场以约 0.03 美元单任务成本刷新性价比前沿。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Arena.ai (@arena)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
