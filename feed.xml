@@ -22,6 +22,15 @@
 <category>算力</category>
 <category>监管</category>
 </item>
+<item><title>Thinking Machines Releases 26B Looped Transformer Inkling 2 Mini</title><link>https://x.com/arena/status/2123914021883756728</link><guid isPermaLink="true">https://x.com/arena/status/2123914021883756728</guid>
+<pubDate>Sat, 21 Nov 2026 06:58:57 +0800</pubDate>
+<description>&lt;p&gt;Thinking Machines has released Inkling 2 Mini, a 26B-parameter looped transformer small enough to run on a laptop yet capable of agentic work, scoring 20.1 on the AA Index. The model is now live across Arena.ai&amp;#x27;s Agent Arena, Code Arena and Text Arena, with leaderboard results pending.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Thinking Machines 发布 26B 循环 Transformer 模型 Inkling 2 Mini&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;小参数循环 Transformer 兼顾本地部署与智能体能力，是端侧模型路线值得关注的信号。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 62/100&lt;/p&gt;</description>
+<source url="https://x.com/arena/status/2123914021883756728">Arena.ai (@arena)</source>
+<category>小模型</category>
+<category>循环 Transformer</category>
+<category>智能体</category>
+<category>模型评测</category>
+</item>
 <item><title>AWS Launches SageMaker HyperPod Global Inference Gateway</title><link>https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-one-endpoint-across-regions-and-clusters/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-one-endpoint-across-regions-and-clusters/</guid>
 <pubDate>Sat, 21 Nov 2026 06:35:24 +0800</pubDate>
 <description>&lt;p&gt;AWS introduced the SageMaker HyperPod Global Inference Gateway, extending its GPU-aware routing from a single cluster to a single managed endpoint spanning multiple clusters and Regions. The gateway selects clusters using real-time signals such as KV cache utilization and queue depth, carries requests over the AWS backbone, and provides automatic failover with SigV4 and IAM authentication. It targets capacity waste when one cluster queues requests while GPUs elsewhere sit idle.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS 推出 SageMaker 跨区全局推理网关&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向大模型推理的跨区容量调度能力更新，对使用 HyperPod 的团队有直接工程价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · compute · signal 58/100&lt;/p&gt;</description>
@@ -65,6 +74,16 @@
 <category>净零排放</category>
 <category>Meta</category>
 <category>算力基础设施</category>
+</item>
+<item><title>Arena Launches Agent Index as Gemini 4 Neon Debuts at No. 2</title><link>https://x.com/arena/status/2123894102496555446</link><guid isPermaLink="true">https://x.com/arena/status/2123894102496555446</guid>
+<pubDate>Sat, 21 Nov 2026 05:39:48 +0800</pubDate>
+<description>&lt;p&gt;Arena.ai launched the Agent Arena Index, its first unified leaderboard for agentic capability. Google&amp;#x27;s Gemini 4 Neon debuted at No. 2 with 1336 points, while OpenAI&amp;#x27;s GPT-6.2 Astra and Sol placed sixth and eleventh; Alibaba&amp;#x27;s Qwen4-Max ranked 14th as the top Chinese model. The index also tracks cost, with Meta&amp;#x27;s Muse Ember pushing the WebDev Pareto frontier to roughly $0.03 per task.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Arena 推出 Agent 排行榜 Gemini 4 Neon 空降第二&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个跨厂商智能体统一榜单落地，头部模型排名与成本前沿同步公开，是观察 Agent 竞争格局的关键坐标。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · agent · signal 72/100&lt;/p&gt;</description>
+<source url="https://x.com/arena/status/2123894102496555446">Arena.ai (@arena)</source>
+<category>智能体</category>
+<category>基准评测</category>
+<category>Gemini</category>
+<category>Qwen</category>
+<category>成本</category>
 </item>
 <item><title>HeyGen Decision 1 Goes Live on OpenRouter for Multimodal Probability Scoring</title><link>https://x.com/OpenRouter/status/2123893458318614941</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2123893458318614941</guid>
 <pubDate>Sat, 21 Nov 2026 05:37:15 +0800</pubDate>
@@ -200,18 +219,18 @@
 <category>OpenAI</category>
 <category>API 防护</category>
 </item>
-<item><title>Reverse Engineering a Litter Box App for Home Assistant Automation</title><link>https://master--ytulsiani.netlify.app/blog/furrytails/</link><guid isPermaLink="true">https://master--ytulsiani.netlify.app/blog/furrytails/</guid>
+<item><title>逆向猫砂盆 App 接入 Home Assistant 自动化</title><link>https://master--ytulsiani.netlify.app/blog/furrytails/</link><guid isPermaLink="true">https://master--ytulsiani.netlify.app/blog/furrytails/</guid>
 <pubDate>Sat, 21 Nov 2026 04:07:14 +0800</pubDate>
-<description>&lt;p&gt;The author reverse engineered a smart litter box&amp;#x27;s Android app via traffic capture and decompilation, reproducing its signed HTTP requests and MQTT binary commands to integrate the device into Home Assistant with button controls. The open-source project demonstrates a full path for reverse engineering and locally integrating consumer IoT devices.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;逆向猫砂盆 App 接入 Home Assistant 自动化&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;一篇扎实的 IoT 逆向工程实践，展示了签名请求复现与 MQTT 协议重建的完整方法，对智能家居集成开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;作者通过抓包与反编译安卓 App，复现了智能猫砂盆的签名 HTTP 请求与 MQTT 二进制指令，从而将设备接入 Home Assistant 并实现按钮控制。该项目展示了消费级 IoT 设备逆向与本地化集成的完整路径，代码已开源。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;一篇扎实的 IoT 逆向工程实践，展示了签名请求复现与 MQTT 协议重建的完整方法，对智能家居集成开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://master--ytulsiani.netlify.app/blog/furrytails/">Hacker News AI</source>
 <category>IoT 逆向</category>
 <category>Home Assistant</category>
 <category>MQTT</category>
 <category>智能家居</category>
 </item>
-<item><title>Emacs Author Releases DreamCoder AI Coding Harness and IDE</title><link>https://www.masteringemacs.org/article/announcing-dreamcoder</link><guid isPermaLink="true">https://www.masteringemacs.org/article/announcing-dreamcoder</guid>
+<item><title>Emacs 专家发布 DreamCoder AI 编程工具</title><link>https://www.masteringemacs.org/article/announcing-dreamcoder</link><guid isPermaLink="true">https://www.masteringemacs.org/article/announcing-dreamcoder</guid>
 <pubDate>Sat, 21 Nov 2026 04:03:59 +0800</pubDate>
-<description>&lt;p&gt;The author of Mastering Emacs has released DreamCoder, an AI coding harness and IDE positioned as distinct from terminal-based tools like Claude Code, after fifteen months of development. Drawing on his own experience using Claude Code to build enterprise middleware, he highlights its speed gains alongside the need for human steering, framing a broader discussion of AI coding tool form factors.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Emacs 专家发布 DreamCoder AI 编程工具&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;知名 Emacs 作者推出的新 AI 编程工具，具备一定开发者关注度，但正文信息有限且偏个人叙事。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;《Mastering Emacs》作者发布 DreamCoder，一款定位区别于 Claude Code 等终端工具的 AI 编程 harness 与 IDE，项目历时十五个月开发。作者以自身使用 Claude Code 构建企业级中间件的经历为参照，强调其速度优势与人工纠偏需求，并借此讨论 AI 编程工具的形态选择。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;知名 Emacs 作者推出的新 AI 编程工具，具备一定开发者关注度，但正文信息有限且偏个人叙事。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.masteringemacs.org/article/announcing-dreamcoder">Hacker News AI</source>
 <category>AI 编程工具</category>
 <category>IDE</category>
@@ -253,24 +272,6 @@
 <category>AI 智能体</category>
 <category>端到端加密</category>
 <category>Signal</category>
-</item>
-<item><title>GPT-6.2 Astra 在机器人基准中动作数最少</title><link>https://x.com/ArtificialAnlys/status/2123866468156854664</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2123866468156854664</guid>
-<pubDate>Sat, 21 Nov 2026 03:50:00 +0800</pubDate>
-<description>&lt;p&gt;Artificial Analysis 的 AA-Robotics v0.1 基准显示，GPT-6.2 Astra 在六项机器人任务中仅发出 668 条指令，为 11 个参评模型中最少，并取得最高分。在清理箱子任务中它用了 92 条机械臂指令，比 Claude Fable 5.2 少约 75%，体现出更强的动作规划效率。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个机器人操作效率基准的横向对比结果，直接反映前沿模型在具身任务规划上的差距。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 62/100&lt;/p&gt;</description>
-<source url="https://x.com/ArtificialAnlys/status/2123866468156854664">Artificial Analysis (@ArtificialAnlys)</source>
-<category>大模型</category>
-<category>具身智能</category>
-<category>基准评测</category>
-<category>Artificial Analysis</category>
-</item>
-<item><title>谷歌新研究让科研智能体先记录瓶颈再改代码</title><link>https://x.com/rohanpaul_ai/status/2123866338850709801</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123866338850709801</guid>
-<pubDate>Sat, 21 Nov 2026 03:49:29 +0800</pubDate>
-<description>&lt;p&gt;谷歌与约翰霍普金斯大学联合提出 Pro2 Agent，让 ML 科研智能体先构建“问题状态”，记录疑似瓶颈、候选修复方案及置信度，再通过单变量实验逐步更新判断，而非盲目循环改代码。在全部 75 个 MLE-Bench 任务上，其 48 小时奖牌率达 76.0%，为已报告最高水平；MLE-Bench Lite 上首个方案即达 57.6%，远超 MARS 的 28.8%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出可复用的科研智能体方法论并在权威基准上刷新最高成绩，对构建研究型 Agent 的开发者有直接借鉴价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2123866338850709801">Rohan Paul (@rohanpaul_ai)</source>
-<category>智能体</category>
-<category>AI for Science</category>
-<category>谷歌</category>
-<category>基准评测</category>
 </item>
 </channel>
 </rss>
