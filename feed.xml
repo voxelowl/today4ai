@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 22 Nov 2026 05:07:42 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 22 Nov 2026 05:37:10 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Signal Restricts Mobile Screenshots to Counter AI Agent Surveillance</title><link>https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/</guid>
+<pubDate>Sun, 22 Nov 2026 05:37:10 +0800</pubDate>
+<description>&lt;p&gt;Signal announced it is restricting in-app screenshots on Android and iOS by default, following a similar move on Windows. President Meredith Whittaker called operating systems with integrated AI agents an existential threat, arguing their screen-scanning capabilities prevent Signal from independently guaranteeing privacy. She acknowledged the fix is incomplete and can be disabled by users, which would break the app&amp;#x27;s privacy guarantees.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Signal 限制移动端截图以应对 AI 代理监控威胁&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;端到端加密通讯应用首次因操作系统级 AI 代理的屏幕读取能力而收紧截图权限，折射出 AI 代理与隐私边界的结构性冲突。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 62/100&lt;/p&gt;</description>
+<source url="https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/">TechCrunch AI</source>
+<category>隐私安全</category>
+<category>AI 代理</category>
+<category>端到端加密</category>
+<category>Signal</category>
+</item>
 <item><title>Nvidia Revenue Soars as Musk and Others Push for Jensen Huang Return</title><link>https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/</guid>
 <pubDate>Sun, 22 Nov 2026 05:07:42 +0800</pubDate>
 <description>&lt;p&gt;Nvidia reported soaring revenue and its current leadership insists there is no plan for former CEO Jensen Huang to return. Yet Elon Musk and other tech executives are circulating a petition calling for Huang&amp;#x27;s comeback, Huang says he is prepared to return, and the falling stock price signals Wall Street remains unconvinced.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达营收飙升 马斯克等人呼吁黄仁勋回归&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达财报与高管回归风波交织，折射公司治理与市场信心分歧，值得关注。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 58/100&lt;/p&gt;</description>
@@ -217,9 +226,9 @@
 <category>数学证明</category>
 <category>形式化验证</category>
 </item>
-<item><title>Thinking Machines Open-Sources 26.4B Looped Transformer Inkling 2 Mini</title><link>https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/</link><guid isPermaLink="true">https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/</guid>
+<item><title>Thinking Machines 开源 264 亿参数循环 Transformer 模型</title><link>https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/</link><guid isPermaLink="true">https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/</guid>
 <pubDate>Sat, 21 Nov 2026 18:33:02 +0800</pubDate>
-<description>&lt;p&gt;Thinking Machines released Inkling 2 Mini, an open looped transformer that runs 12 of its 24 layers three times per token, extending internal reasoning without emitting more text. The 26.4B-parameter mixture-of-experts model activates 5.4B parameters per token, handles text and images, offers a 1M-token context window, ships under Apache 2.0, and runs on a laptop. It leads open models under 100B parameters on agentic coding benchmarks, scoring 48.2% on DeepSWE v1.1 and 46.5% on Vals Index v2.2.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Thinking Machines 开源 264 亿参数循环 Transformer 模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;循环 Transformer 架构叠加小体积开源权重，为端侧推理与高效智能体编程提供了新的可复现路线。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Thinking Machines 发布开源模型 Inkling 2 Mini，采用循环 Transformer 架构，24 层中有 12 层对每个 token 重复执行三次，从而在不增加输出 token 的前提下延长内部推理。该模型为 26.4B 参数的混合专家模型，每 token 激活 5.4B，支持文本与图像输入、100 万 token 上下文，采用 Apache 2.0 许可，可在笔记本上运行。在 100B 以下开源模型中，其智能体编程测试成绩领先，DeepSWE v1.1 得分 48.2%，Vals Index v2.2 得分 46.5%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;循环 Transformer 架构叠加小体积开源权重，为端侧推理与高效智能体编程提供了新的可复现路线。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/">The Decoder</source>
 <category>开源模型</category>
 <category>循环 Transformer</category>
@@ -263,15 +272,6 @@
 <category>腾讯元宝</category>
 <category>群聊助手</category>
 <category>开源数据集</category>
-</item>
-<item><title>MachinePulse 开源浏览器 Agent 框架与 31B 决策模型</title><link>https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247947677&amp;idx=1&amp;sn=ebf1f96b9afceacdfa0d407ecdb3ff2b</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247947677&amp;idx=1&amp;sn=ebf1f96b9afceacdfa0d407ecdb3ff2b</guid>
-<pubDate>Sat, 21 Nov 2026 17:52:00 +0800</pubDate>
-<description>&lt;p&gt;MachinePulse AI 开源了面向 Agent 高频决策的 Karpo Decision 31B 模型，以及配套的 karpo-browser 浏览器操作框架、27B Act 动作模型和 KBB 评测集。官方数据显示，该方案在 Browserbase Benchmark v2 上取得 89% 平均成功率、201 秒平均耗时，单任务模型成本仅 0.096 美元，速度约为 Claude Fable 5.2 方案的 1.9 倍、成本约为其十三分之一。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源了专为 Agent 决策与浏览器操作设计的模型加框架组合，并给出速度与成本量级数据，对 Agent 工程实践有直接参考价值。&lt;/p&gt;&lt;p&gt;量子位 (微信公众号) · agent · signal 78/100&lt;/p&gt;</description>
-<source url="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247947677&amp;idx=1&amp;sn=ebf1f96b9afceacdfa0d407ecdb3ff2b">量子位 (微信公众号)</source>
-<category>智能体</category>
-<category>浏览器 Agent</category>
-<category>开源模型</category>
-<category>决策模型</category>
 </item>
 </channel>
 </rss>
