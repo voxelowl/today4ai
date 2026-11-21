@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 22 Nov 2026 02:47:26 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 22 Nov 2026 03:44:29 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Eric Schmidt Says a Mutual AI Race Pause Is Impossible</title><link>https://x.com/rohanpaul_ai/status/2124227469377184044</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2124227469377184044</guid>
+<pubDate>Sun, 22 Nov 2026 03:44:29 +0800</pubDate>
+<description>&lt;p&gt;Former Google CEO Eric Schmidt argues in an Economist interview that a mutual pause in the US-China AI race is unworkable, since either side has incentives to cheat and UN-style verification is technically infeasible. Modern codebases are largely machine-written, he notes, so no human inspection team can review them line by line, and inspectors cannot access secret facilities including military labs.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;施密特称 AI 竞赛无法相互暂停&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 治理与地缘竞争的核心判断，涉及可验证性这一关键瓶颈，值得关注政策与产业走向的读者一读。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2124227469377184044">Rohan Paul (@rohanpaul_ai)</source>
+<category>AI 治理</category>
+<category>地缘竞争</category>
+<category>Eric Schmidt</category>
+</item>
 <item><title>Claude Autonomously Finds Algorithm Breaking 3SUM and APSP Limits</title><link>https://x.com/rohanpaul_ai/status/2124213113583174076</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2124213113583174076</guid>
 <pubDate>Sun, 22 Nov 2026 02:47:26 +0800</pubDate>
 <description>&lt;p&gt;A new Columbia and MIT paper reports that Claude autonomously discovered a faster method for computing selected entries of a product of two long, thin matrices, which classic reductions turn into speedups for 3SUM and all-pairs shortest paths. 3SUM now runs in O(n^1.9992) and APSP in O(n^2.9995, tiny gains that nonetheless refute the long-standing 3SUM and APSP hypotheses. The method was found in a single AI session using 16M output tokens with no human input and was formally checked in Lean 4.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Claude 自主发现算法突破 3SUM 与全源最短路极限&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 首次自主推翻长期算法复杂度猜想，是 AI for Science 与算法研究的标志性节点。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 88/100&lt;/p&gt;</description>
@@ -219,9 +227,9 @@
 <category>Anthropic</category>
 <category>资本市场</category>
 </item>
-<item><title>HUST and Alibaba Launch Joint AI Security Research Center</title><link>https://www.ithome.com/1/030/423.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/423.htm</guid>
+<item><title>华中科大与阿里共建 AI 安全联合研究中心</title><link>https://www.ithome.com/1/030/423.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/423.htm</guid>
 <pubDate>Sat, 21 Nov 2026 17:57:05 +0800</pubDate>
-<description>&lt;p&gt;Huazhong University of Science and Technology and Alibaba have signed a partnership to establish a joint research center on intelligent attack-defense and frontier AI security, launching nine initial projects across LLM security, agent and endpoint security, intelligent system and software security, and data collaboration with privacy protection. The work targets concrete risks such as malicious manipulation of AI agents, forged screen content, and data leakage during cross-app collaboration.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;华中科大与阿里共建 AI 安全联合研究中心&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;校企共建 AI 安全研究机构，课题方向明确指向智能体与大模型攻防，是 AI 安全治理落地的实质动作。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;华中科技大学与阿里巴巴签署合作协议，共建“智能攻防与前沿安全联合研究中心”，首批启动 9 个课题，覆盖大模型安全攻防、智能体与终端安全、智能化系统与软件安全、数据协同与隐私保护四大方向。合作聚焦智能体被恶意诱导、屏幕画面伪造、跨应用数据协同泄露等真实风险场景。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;校企共建 AI 安全研究机构，课题方向明确指向智能体与大模型攻防，是 AI 安全治理落地的实质动作。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/030/423.htm">IT之家 · 智能时代</source>
 <category>AI 安全</category>
 <category>产学研合作</category>
@@ -264,15 +272,6 @@
 <category>训练方法</category>
 <category>开源模型</category>
 <category>字节跳动</category>
-</item>
-<item><title>国家数据局将健全词元计量计费与质量测评标准</title><link>https://www.ithome.com/1/030/418.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/418.htm</guid>
-<pubDate>Sat, 21 Nov 2026 16:51:37 +0800</pubDate>
-<description>&lt;p&gt;国家数据局局长刘烈宏在 2026 世界计算大会上表示，词元已成为连接算力、模型与数据的价值锚点，围绕词元生产、流通、消费的产业生态正加速构建。下一步国家数据局将拓展词元服务应用场景，健全词元计量计费与质量测评标准规范，并明确要求避免低质量重复建设。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是国家级数据主管部门首次系统提出词元计量与质量标准的监管方向，直接影响算力与模型服务的计价方式。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/030/418.htm">IT之家 · 智能时代</source>
-<category>词元经济</category>
-<category>国家数据局</category>
-<category>算力基础设施</category>
-<category>政策标准</category>
 </item>
 </channel>
 </rss>
