@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 21 Nov 2026 14:39:35 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 21 Nov 2026 15:10:14 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>OpenCode Console Adds Keyless OIDC Authentication for Model Calls</title><link>https://x.com/opencode/status/2124037654639468759</link><guid isPermaLink="true">https://x.com/opencode/status/2124037654639468759</guid>
+<pubDate>Sat, 21 Nov 2026 15:10:14 +0800</pubDate>
+<description>&lt;p&gt;OpenCode announced that its Console now supports keyless authentication, letting users call models from CI and other OIDC-capable environments without long-lived API tokens, replacing them with short-lived credentials to reduce key-leak risk.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenCode Console 支持无密钥 OIDC 认证&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向开发者的模型调用认证方式更新，对在 CI 流水线中集成 AI 的团队有直接实用价值。&lt;/p&gt;&lt;p&gt;OpenCode (@opencode) · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/opencode/status/2124037654639468759">OpenCode (@opencode)</source>
+<category>开发者工具</category>
+<category>认证</category>
+<category>OIDC</category>
+<category>CI</category>
+</item>
 <item><title>AGIBOT Deploys Genie G2 Robots on Lens Technology Phone Test Lines</title><link>https://www.ithome.com/1/030/364.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/364.htm</guid>
 <pubDate>Sat, 21 Nov 2026 14:39:35 +0800</pubDate>
 <description>&lt;p&gt;AGIBOT has formed a strategic partnership with Lens Technology to deploy dozens of Genie G2 robots across phone testing lines, handling automated loading and test-equipment interaction. The rollout covers MMI, ANT and CAM testing, with AGIBOT claiming a fully validated process-to-delivery chain that is ready for 1-to-N replication.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;智元精灵 G2 进驻蓝思手机测试产线&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;具身智能在 3C 精密制造产线的批量落地案例，具备明确的工序与复制路径信息。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
@@ -200,9 +209,9 @@
 <category>SpaceX</category>
 <category>GPU</category>
 </item>
-<item><title>Google Duplex Evolves into Gemini-Powered Business Calling</title><link>https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/</link><guid isPermaLink="true">https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/</guid>
+<item><title>Google Duplex 并入 Gemini 支持代打电话</title><link>https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/</link><guid isPermaLink="true">https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/</guid>
 <pubDate>Sat, 21 Nov 2026 07:30:30 +0800</pubDate>
-<description>&lt;p&gt;Google has integrated its 2018 Duplex phone-conversation technology into Tasks in Gemini, letting the AI call local businesses on users&amp;#x27; behalf to complete reservations and bookings. The move marks Duplex&amp;#x27;s evolution from a standalone demo into background infrastructure powering Gemini&amp;#x27;s agentic task capabilities.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Google Duplex 并入 Gemini 支持代打电话&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Duplex 从独立系统并入 Gemini 智能体，是语音代理落地真实任务的关键产品化节点。&lt;/p&gt;&lt;p&gt;Google Research · agent · signal 68/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Google 宣布将 2018 年推出的 Duplex 电话对话技术整合进 Gemini 的 Tasks 功能，使 AI 能直接代用户致电本地商户完成订餐、预约等任务。这标志着 Duplex 从独立演示系统演变为嵌入 Gemini 智能体能力的后台基础设施，是语音智能体落地真实任务的重要一步。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Duplex 从独立系统并入 Gemini 智能体，是语音代理落地真实任务的关键产品化节点。&lt;/p&gt;&lt;p&gt;Google Research · agent · signal 68/100&lt;/p&gt;</description>
 <source url="https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/">Google Research</source>
 <category>智能体</category>
 <category>Google</category>
@@ -264,15 +273,6 @@
 <category>循环 Transformer</category>
 <category>智能体</category>
 <category>模型评测</category>
-</item>
-<item><title>OpenAI 向 Plus 用户开放 Spaces 协作空间</title><link>https://www.ithome.com/1/030/288.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/288.htm</guid>
-<pubDate>Sat, 21 Nov 2026 06:57:39 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 将 ChatGPT Spaces 多人协作空间从 Pro、Business、Enterprise 下放至每月 20 美元的 Plus 订阅层，支持共享文档、Pages 智能体文档与定时任务协同编辑。该功能于 2026 年 9 月 Dev Day 推出，目前按 18 岁以上用户分批开放，免费用户仍无法访问共享内容。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;协作空间下放至主流订阅层，反映 ChatGPT 从个人助手向团队工作台的产品演进。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/030/288.htm">IT之家 · 智能时代</source>
-<category>ChatGPT</category>
-<category>协作工具</category>
-<category>OpenAI</category>
-<category>订阅</category>
 </item>
 </channel>
 </rss>
