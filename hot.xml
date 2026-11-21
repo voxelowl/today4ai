@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Sat, 21 Nov 2026 18:33:02 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 21 Nov 2026 19:19:49 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 数学家宣称与 Claude 合作证明黎曼猜想</title><link>https://todayforai.com/en/story/story-c508eedd-8d6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c508eedd-8d6</guid>
-<pubDate>Sat, 21 Nov 2026 13:02:13 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 数学家 Levent Alpöge 公开宣称，他与 Claude 合作找到了悬置 167 年的黎曼猜想的证明，并进一步声称覆盖了更广的广义黎曼猜想（GRH）。该证明以 Lean 形式化代码呈现，代码量高达 1740 万行，完整展开超 25 万页，已公开在 GitHub 供社区机器验证。若最终通过形式化验证与同行评审，这将是 AI 首次在顶级未解数学难题上做出实质性贡献，标志着 AI for Math 进入新纪元。
+<pubDate>Sat, 21 Nov 2026 19:19:49 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 数学家 Levent Alpöge 公开宣称，在与 Claude 协作下证明了悬置 167 年的黎曼猜想及其广义形式（GRH），并生成了约 1740 万行 Lean 形式化代码在 GitHub 公开。该声明以 4 页说明文档和 14 个压缩包交付，声称论证已在无额外公理假设下完成形式化，若 Lean 编译通过，将成为 AI 首次在顶级数学难题上产出可验证证明的里程碑。
 
-多方信源交叉显示，Claude 在证明过程中提出了关键的连续 Theta Lifts 思路与核心参数，甚至涉及合作者本人未掌握的高阶数学领域，被评价为在收尾阶段大幅领先人类。整个论证历时约六周完成形式化。然而，该证明尚未经同行验证，且仅公开了 4 页说明文档与 14 个压缩包的 Lean 代码，文字证明超 25 万页未公开。陶哲轩指出证明疑似依赖朗兰兹纲领与算术几何的现代成果，数学界梳理与验证仍需时间。同时，另一名数学家 Alessandro Masullo 在数小时内发布了其耗时 12 年的 940 页纯人工证明，形成传统数学路径的正面回应。
+综合多源信息，Claude 在证明后期提出了关键的连续 Theta Lifts 思路与核心参数，甚至涉及合作者本人未掌握的高阶数学领域，整个形式化过程耗时约六周。然而，该证明尚未经同行评审，且陶哲轩指出其疑似依赖朗兰兹纲领与算术几何的现代成果，数学界梳理验证仍需时间。与此同时，斯坦福研究者 Alessandro Masullo 在数小时内发布了耗时 12 年的 940 页纯人工证明，形成同日对撞，凸显 AI 成果可信验证机制的争议。
 
-事件在 Lean 社区引发数学家密集核验，初步检查确认形式化命题确为 GRH，但 Lean 内核历史版本曾出现缺陷，可靠性仍存理论风险。Anthropic 官方未参与或置评，Alpöge 称曾私下告知 CEO Dario Amodei 并推迟至公司 IPO 后公布，引发利益关联质疑。无论结果如何，此次事件凸显了 AI 生成证明的可验证性高度依赖形式化工具链，而非人类通读，为 AI 辅助数学研究树立了新的…&lt;/p&gt;&lt;p&gt;10 sources&lt;/p&gt;&lt;p&gt;Latent Space, Rohan Paul (@rohanpaul_ai), TechCrunch AI, IT之家 · 智能时代, IT之家 · IT业界, Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
+若该证明最终通过形式化验证与社区复核，将标志着 AI 在数学研究中的角色从辅助工具跃升为实质性贡献者，并可能推动形式化数学与 AI 验证工具链的深度融合。但当前仅为个人声明，Lean 内核的历史缺陷与缺乏传统论文发表，使得数学界对 AI 生成证明的接受度仍存变数，事件走向将深刻影响 AI for Math 的生态格局。&lt;/p&gt;&lt;p&gt;11 sources&lt;/p&gt;&lt;p&gt;Latent Space, Rohan Paul (@rohanpaul_ai), Simon Willison 博客, Hacker News AI, IT之家 · 智能时代, The Verge AI&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 登陆纳斯达克 募资 935 亿美元刷新纪录</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
 <pubDate>Sat, 21 Nov 2026 01:44:01 +0800</pubDate>
@@ -41,7 +41,7 @@ Inkling 2 Mini 的发布标志着高效循环架构在开源社区的落地，�
 
 技术层面，Neon 支持 100 万 token 上下文与四档推理级别，在 Artificial Analysis 编程智能体指数以 58.6 分超越 Claude Opus 5.5 位列第一，智能指数以 61 分排名第三。模型速度约 110 tokens/秒，是前代 Carbon 的两倍，且基础定价更低。在 Antigravity 开发环境中，Neon 可调度多个子智能体并行执行长任务，接入后 SWE-sweep 得分从 12.8% 跃升至 39.0%。安全方面，模型卡称其在 Gray-Swan 基准上 100% 阻断间接提示注入攻击。
 
-Neon 的发布标志着谷歌模型迭代节奏近乎指数级加快，发布间隔从 28 天缩短至 6 天，同时产品线快速收敛，Argon 退役、旧版 Pro 与 Flash 下线。凭借速度、成本与可操控性的平衡，Neon 直接对标 Anthropic 的 Opus 与 Fable 系列，加剧了中端智能体市场的竞争，也为开发者提供了高性价比的前沿智能选择。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, IT之家 · IT业界, Marktechpost (@Marktechpost), 宝玉 (@dotey), Artificial Analysis, Latent Space&lt;/p&gt;</description>
+Neon 的发布标志着谷歌模型迭代节奏近乎指数级加快，发布间隔从 28 天缩短至 6 天，同时产品线快速收敛，Argon 退役、旧版 Pro 与 Flash 下线。凭借速度、成本与可操控性的平衡，Neon 直接对标 Anthropic 的 Opus 与 Fable 系列，加剧了中端智能体市场的竞争，也为开发者提供了高性价比的前沿智能选择。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, IT之家 · IT业界, Marktechpost (@Marktechpost), 宝玉 (@dotey), Artificial Analysis, Latent Space&lt;/p&gt;</description>
 </item>
 <item><title>GPT-6.2 Astra 具身任务成功率翻倍至 41.2%</title><link>https://todayforai.com/en/story/story-1fc81bf4-75d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1fc81bf4-75d</guid>
 <pubDate>Sat, 21 Nov 2026 14:35:59 +0800</pubDate>

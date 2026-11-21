@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 21 Nov 2026 18:33:02 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 21 Nov 2026 19:19:49 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Anthropic Claims Claude Proof of Riemann Hypothesis as Stanford Releases Human Draft</title><link>https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/</link><guid isPermaLink="true">https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/</guid>
+<pubDate>Sat, 21 Nov 2026 19:19:49 +0800</pubDate>
+<description>&lt;p&gt;Anthropic mathematician Levent Alpöge and Claude claim a proof of the Generalized Riemann Hypothesis, formalized in Lean for machine verification. Hours later, Stanford researcher Alessandro Masullo published an independent, fully human competing draft. The same-day collision highlights AI&amp;#x27;s real participation in frontier mathematics and reignites debate over how AI-produced results can be credibly verified.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 称 Claude 证明黎曼猜想 斯坦福同日发布纯人类竞争稿&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 首次被宣称攻克数学界最著名的开放问题之一，且同日出现人类竞争稿，是 AI for Science 的标志性事件。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 88/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/">The Decoder</source>
+<category>大模型</category>
+<category>AI for Science</category>
+<category>Anthropic</category>
+<category>数学证明</category>
+<category>形式化验证</category>
+</item>
 <item><title>Thinking Machines Open-Sources 26.4B Looped Transformer Inkling 2 Mini</title><link>https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/</link><guid isPermaLink="true">https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/</guid>
 <pubDate>Sat, 21 Nov 2026 18:33:02 +0800</pubDate>
 <description>&lt;p&gt;Thinking Machines released Inkling 2 Mini, an open looped transformer that runs 12 of its 24 layers three times per token, extending internal reasoning without emitting more text. The 26.4B-parameter mixture-of-experts model activates 5.4B parameters per token, handles text and images, offers a 1M-token context window, ships under Apache 2.0, and runs on a laptop. It leads open models under 100B parameters on agentic coding benchmarks, scoring 48.2% on DeepSWE v1.1 and 46.5% on Vals Index v2.2.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Thinking Machines 开源 264 亿参数循环 Transformer 模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;循环 Transformer 架构叠加小体积开源权重，为端侧推理与高效智能体编程提供了新的可复现路线。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
@@ -261,15 +271,6 @@
 <category>数学证明</category>
 <category>Anthropic</category>
 <category>形式化验证</category>
-</item>
-<item><title>AWS 推出分布式 KV 缓存 推理成本降 40%</title><link>https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/</guid>
-<pubDate>Sat, 21 Nov 2026 08:14:26 +0800</pubDate>
-<description>&lt;p&gt;AWS 发布基于 Amazon ElastiCache 的分布式 KV 缓存方案，在 GPU 集群旁构建共享缓存层，使任意服务器可复用数天内的 KV 状态，跨会话、路由切换与故障场景均有效。官方数据显示，该方案可将自托管 LLM 推理成本降低最多 40%，首 token 延迟（TTFT）降低最多 80%，直接缓解长上下文智能体反复预填充（prefill）造成的算力浪费。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;针对自托管大模型长上下文重复预填充这一真实痛点，给出可量化的降本与降延迟方案，对推理基础设施读者有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · compute · signal 72/100&lt;/p&gt;</description>
-<source url="https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/">AWS Machine Learning Blog</source>
-<category>推理优化</category>
-<category>KV 缓存</category>
-<category>AWS</category>
-<category>自托管</category>
 </item>
 </channel>
 </rss>
