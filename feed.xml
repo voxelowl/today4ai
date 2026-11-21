@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 21 Nov 2026 07:55:09 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 21 Nov 2026 08:18:26 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Claude Assists in Proving Riemann Hypothesis After 167 Years</title><link>https://x.com/rohanpaul_ai/status/2123934024628596896</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123934024628596896</guid>
+<pubDate>Sat, 21 Nov 2026 08:18:26 +0800</pubDate>
+<description>&lt;p&gt;Anthropic mathematician Alpöge and Claude have reportedly proved the Riemann hypothesis, a problem unsolved for 167 years, completing the work in roughly six weeks and formalizing the full argument as machine-checkable code. Claude contributed a key step in advanced areas Alpöge admits he had not mastered, an idea he says will make fellow mathematicians &amp;#x27;fall out of their chairs.&amp;#x27; The result directly echoes Peter Thiel&amp;#x27;s 2024 prediction that AI would crack olympiad-level math within 3-5 years, leaving math people worse off than word people.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Claude 协助证明黎曼猜想 数学界 167 年难题告破&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;若属实，这是 AI 首次参与解决数学界最著名的未解难题，是前沿模型能力的里程碑事件。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 88/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2123934024628596896">Rohan Paul (@rohanpaul_ai)</source>
+<category>大模型</category>
+<category>数学证明</category>
+<category>Anthropic</category>
+<category>形式化验证</category>
+</item>
+<item><title>AWS Launches Distributed KV Caching to Cut LLM Inference Costs</title><link>https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/</guid>
+<pubDate>Sat, 21 Nov 2026 08:14:26 +0800</pubDate>
+<description>&lt;p&gt;AWS introduced distributed KV caching built on Amazon ElastiCache, adding a shared cache tier beside GPU fleets so any server can reuse KV state for days across sessions, routing shifts and failures. AWS claims the approach cuts self-hosted LLM inference costs by up to 40% and time to first token by up to 80%, directly addressing redundant prefill work in long-context agents.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS 推出分布式 KV 缓存 推理成本降 40%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;针对自托管大模型长上下文重复预填充这一真实痛点，给出可量化的降本与降延迟方案，对推理基础设施读者有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · compute · signal 72/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/">AWS Machine Learning Blog</source>
+<category>推理优化</category>
+<category>KV 缓存</category>
+<category>AWS</category>
+<category>自托管</category>
+</item>
+<item><title>Nvidia Sheds $2.73 Trillion as Nasdaq Posts Worst Week Since 2020</title><link>https://www.ithome.com/1/030/302.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/302.htm</guid>
+<pubDate>Sat, 21 Nov 2026 08:08:12 +0800</pubDate>
+<description>&lt;p&gt;Nvidia fell another 14% on Friday, extending a roughly 47% drawdown from its October peak and wiping out more than $2.73 trillion in market value, larger than all of Amazon. The selloff was triggered by CEO Jensen Huang&amp;#x27;s resignation amid a scandal, compounded by doubts over AI valuations and capex returns, sending the Nasdaq down 10% for its worst week since March 2020.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达市值蒸发 2.73 万亿美元 纳斯达克创疫情后最差单周&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 算力龙头遭遇历史级回撤，是判断 AI 产业估值与资本周期的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/030/302.htm">IT之家 · IT业界</source>
+<category>英伟达</category>
+<category>AI 算力</category>
+<category>美股</category>
+<category>资本市场</category>
+</item>
 <item><title>Intel Reveals High Failure Rates in Early DDR5 Validation</title><link>https://www.ithome.com/1/030/299.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/299.htm</guid>
 <pubDate>Sat, 21 Nov 2026 07:55:09 +0800</pubDate>
 <description>&lt;p&gt;Intel disclosed behind-the-scenes details of early DDR5 development, noting that prototype DRAM modules often failed to boot on first insertion and required repeated joint debugging with Samsung, SK Hynix, Micron and JEDEC. DDR5 adds PMIC, SPD hub and clock drivers plus tighter voltage margins, making validation far more complex than DDR4. Intel used thousands of processors for testing and noted client platform DRAM die density rose from 16Gb to 32Gb.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英特尔披露 DDR5 早期验证失败率极高&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示 DDR5 验证工程细节与产业链协同机制，对理解内存与平台兼容性有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 38/100&lt;/p&gt;</description>
@@ -30,6 +57,15 @@
 <category>SpaceX</category>
 <category>GPU</category>
 </item>
+<item><title>Google Duplex Evolves into Gemini-Powered Business Calling</title><link>https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/</link><guid isPermaLink="true">https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/</guid>
+<pubDate>Sat, 21 Nov 2026 07:30:30 +0800</pubDate>
+<description>&lt;p&gt;Google has integrated its 2018 Duplex phone-conversation technology into Tasks in Gemini, letting the AI call local businesses on users&amp;#x27; behalf to complete reservations and bookings. The move marks Duplex&amp;#x27;s evolution from a standalone demo into background infrastructure powering Gemini&amp;#x27;s agentic task capabilities.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Google Duplex 并入 Gemini 支持代打电话&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Duplex 从独立系统并入 Gemini 智能体，是语音代理落地真实任务的关键产品化节点。&lt;/p&gt;&lt;p&gt;Google Research · agent · signal 68/100&lt;/p&gt;</description>
+<source url="https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/">Google Research</source>
+<category>智能体</category>
+<category>Google</category>
+<category>语音助手</category>
+<category>Gemini</category>
+</item>
 <item><title>US Regulators Cleared 879,868 Nvidia and AMD AI Chips for China</title><link>https://x.com/rohanpaul_ai/status/2123920673928298860</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123920673928298860</guid>
 <pubDate>Sat, 21 Nov 2026 07:25:23 +0800</pubDate>
 <description>&lt;p&gt;House Foreign Affairs Committee files show Nvidia and AMD sought licenses for over 3.4 million H200 and MI325X chips for Chinese customers including Alibaba and Tencent; by May the Bureau of Industry and Security had approved roughly 879,868, about one in four, with every approved application rated low diversion risk. Approved buyers reportedly include firms the Pentagon flags as military-linked, underscoring tension between export-control enforcement and national-security scrutiny.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美监管机构批准 87.9 万枚英伟达 AMD 芯片对华出口&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是迄今最具体的对华 AI 芯片出口许可数据，直接关系算力供给与管制走向。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 68/100&lt;/p&gt;</description>
@@ -48,6 +84,15 @@
 <category>HeyGen</category>
 <category>API 平台</category>
 <category>多模态</category>
+</item>
+<item><title>AWS Adds Managed Cluster Extensions to SageMaker HyperPod Slurm</title><link>https://aws.amazon.com/blogs/machine-learning/introducing-managed-cluster-extensions-for-observability-and-user-management-in-amazon-sagemaker-hyperpod-slurm/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/introducing-managed-cluster-extensions-for-observability-and-user-management-in-amazon-sagemaker-hyperpod-slurm/</guid>
+<pubDate>Sat, 21 Nov 2026 07:07:03 +0800</pubDate>
+<description>&lt;p&gt;AWS introduced managed cluster extensions for Slurm clusters in Amazon SageMaker HyperPod, starting with observability and user management. The feature brings node-level software and settings under declarative API or console control, with AWS validating changes and continuously maintaining the desired state, extending the 2026 roadmap of API-driven configuration, AMI-based setup, continuous provisioning, automatic topology management and deep health checks.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊 SageMaker HyperPod 推出 Slurm 托管集群扩展&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向大模型训练基础设施的配置漂移治理更新，对运维 Slurm 集群的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · compute · signal 58/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/introducing-managed-cluster-extensions-for-observability-and-user-management-in-amazon-sagemaker-hyperpod-slurm/">AWS Machine Learning Blog</source>
+<category>SageMaker HyperPod</category>
+<category>Slurm</category>
+<category>集群管理</category>
+<category>AWS</category>
 </item>
 <item><title>SEC Probes Nvidia Accounting as Shares Plunge 14 Percent</title><link>https://x.com/rohanpaul_ai/status/2123915336739410309</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123915336739410309</guid>
 <pubDate>Sat, 21 Nov 2026 07:04:11 +0800</pubDate>
@@ -175,45 +220,45 @@
 <category>统计显著性</category>
 <category>科研可信度</category>
 </item>
-<item><title>Standard Bank and AWS Automate Generative AI Risk Assessment</title><link>https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai/</guid>
+<item><title>标准银行联合 AWS 自动化生成式 AI 风险评估</title><link>https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai/</guid>
 <pubDate>Sat, 21 Nov 2026 04:37:31 +0800</pubDate>
-<description>&lt;p&gt;Standard Bank Group worked with AWS Professional Services to automate risk assessment for generative AI use cases, scoring each against international AI standards and internal policy and generating reports plus a dashboard. The governance step that once depended on manual review becomes a repeatable, scalable process, though the post is a customer deployment story without specific models, parameters, or quantified results.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;标准银行联合 AWS 自动化生成式 AI 风险评估&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示大型银行如何把生成式 AI 合规评估工程化，对关注 AI 治理落地的读者有参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;标准银行集团与 AWS Professional Services 合作，将生成式 AI 用例的风险评估流程自动化，按国际 AI 标准与内部政策逐项打分并生成报告和仪表盘，把原本依赖人工审阅的治理环节从管线瓶颈转为可规模化流程。文章属于客户部署案例，未披露具体模型、参数或量化效果。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示大型银行如何把生成式 AI 合规评估工程化，对关注 AI 治理落地的读者有参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai/">AWS Machine Learning Blog</source>
 <category>AI 治理</category>
 <category>金融</category>
 <category>AWS</category>
 <category>风险评估</category>
 </item>
-<item><title>Thinking Machines Releases Inkling 2 Mini Open-Weights Model</title><link>https://x.com/ArtificialAnlys/status/2123877871316087012</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2123877871316087012</guid>
+<item><title>Thinking Machines 发布 Inkling 2 Mini 开源模型</title><link>https://x.com/ArtificialAnlys/status/2123877871316087012</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2123877871316087012</guid>
 <pubDate>Sat, 21 Nov 2026 04:35:18 +0800</pubDate>
-<description>&lt;p&gt;Thinking Machines has released Inkling 2 Mini, a 26B-total, 5.4B-active-parameter looped-transformer mixture-of-experts model scoring 20 on the Artificial Analysis Intelligence Index, placing it on the Pareto frontier for intelligence versus active parameters. Released under Apache 2.0 with text and image input and a 1M-token context window, it is small enough to run locally on a MacBook or DGX Spark.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Thinking Machines 发布 Inkling 2 Mini 开源模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源权重模型以极小激活参数进入智能帕累托前沿，且可在消费级设备本地运行，对关注端侧与开源生态的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Thinking Machines 发布 Inkling 2 Mini，这是一款总参数 26B、激活参数 5.4B 的循环 Transformer 混合专家模型，在 Artificial Analysis 智能指数上得分 20，处于智能与激活参数权衡的帕累托前沿。模型采用 Apache 2.0 许可，支持文本与图像输入及 1M token 上下文，体积小到可在 MacBook 或 DGX Spark 上本地运行。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源权重模型以极小激活参数进入智能帕累托前沿，且可在消费级设备本地运行，对关注端侧与开源生态的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/ArtificialAnlys/status/2123877871316087012">Artificial Analysis (@ArtificialAnlys)</source>
 <category>开源模型</category>
 <category>混合专家</category>
 <category>端侧推理</category>
 <category>Thinking Machines</category>
 </item>
-<item><title>OpenAI Tightens Reasoning Defenses as Attack Success Rate Falls to 0.2%</title><link>https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/</link><guid isPermaLink="true">https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/</guid>
+<item><title>OpenAI 强化推理防泄露 攻击成功率降至 0.2%</title><link>https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/</link><guid isPermaLink="true">https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/</guid>
 <pubDate>Sat, 21 Nov 2026 04:31:50 +0800</pubDate>
-<description>&lt;p&gt;OpenAI has sharply hardened reasoning-extraction defenses for GPT-6.2 Astra and Sol, cutting attack success rates on prior requests from 54.0% to 0.2% and on active requests from 22.9% to 0.9% in internal automated tests. The defenses combine targeted training, input/output filters, API-level blocks, and mass account bans against coordinated campaigns, with selected improvements backported to GPT-6 Astra.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 强化推理防泄露 攻击成功率降至 0.2%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是前沿模型推理防蒸馏攻防的关键量化进展，直接关系到模型知识产权保护与 API 安全策略。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 针对 GPT-6.2 Astra 与 Sol 大幅强化了推理内容防提取机制，在内部自动化测试中，从历史请求中窃取受保护推理的攻击成功率由 54.0% 降至 0.2%，针对活跃请求的攻击成功率由 22.9% 降至 0.9%。防御体系覆盖单请求层面的定向训练、输入输出过滤与 API 阻断，以及针对协同攻击的批量账号封禁，部分改进也将回补至 GPT-6 Astra。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是前沿模型推理防蒸馏攻防的关键量化进展，直接关系到模型知识产权保护与 API 安全策略。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/">The Decoder</source>
 <category>大模型</category>
 <category>OpenAI</category>
 <category>模型安全</category>
 <category>对抗蒸馏</category>
 </item>
-<item><title>Nvidia Faces SEC Accounting Probe as Market Value Sheds $750 Billion</title><link>https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html</link><guid isPermaLink="true">https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html</guid>
+<item><title>英伟达遭 SEC 会计调查 单周市值蒸发超 7500 亿美元</title><link>https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html</link><guid isPermaLink="true">https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html</guid>
 <pubDate>Sat, 21 Nov 2026 04:22:41 +0800</pubDate>
-<description>&lt;p&gt;The SEC&amp;#x27;s probe into Nvidia is examining potential accounting issues and whether the company&amp;#x27;s disclosures misled investors. Combined with heavy selling, Nvidia fell about 10% Friday, shedding roughly $400 billion in market value and on track to lose over $750 billion this week, the largest one-week drop for any company on record.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达遭 SEC 会计调查 单周市值蒸发超 7500 亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;监管调查直指 AI 算力龙头的财务披露，叠加创纪录市值蒸发，对 AI 产业链估值与市场情绪影响重大。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;美国证券交易委员会对英伟达的调查正聚焦潜在会计问题，并审查其信息披露是否误导投资者。消息叠加抛售压力，英伟达周五股价跌约 10%，单日市值缩水约 4000 亿美元，本周累计蒸发或超 7500 亿美元，创下个股单周最大跌幅纪录。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;监管调查直指 AI 算力龙头的财务披露，叠加创纪录市值蒸发，对 AI 产业链估值与市场情绪影响重大。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html">Hacker News AI</source>
 <category>英伟达</category>
 <category>SEC 调查</category>
 <category>资本市场</category>
 <category>AI 算力</category>
 </item>
-<item><title>AWS Launches Textract Insights for Natural Language Document Extraction</title><link>https://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents/</guid>
+<item><title>AWS 发布 Textract Insights 支持自然语言抽取文档字段</title><link>https://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents/</guid>
 <pubDate>Sat, 21 Nov 2026 04:22:00 +0800</pubDate>
-<description>&lt;p&gt;AWS has made Amazon Textract Insights generally available, adding a new API that lets users describe desired fields in natural language and extract structured data from single documents or mixed multi-document packets without model training. Each extracted value carries a confidence score and page-level grounding, targeting verifiable and auditable generative document processing.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS 发布 Textract Insights 支持自然语言抽取文档字段&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;云厂商将生成式抽取能力产品化并强调可审计溯源，对文档密集型行业有直接落地价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;AWS 正式发布 Amazon Textract Insights，通过新增 API 让用户用自然语言描述所需字段，即可从单份文档或混合多文档包中抽取结构化数据，无需模型训练。每个抽取结果附带置信度分数与页码级溯源，主打可验证、可审计的生成式文档处理。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;云厂商将生成式抽取能力产品化并强调可审计溯源，对文档密集型行业有直接落地价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents/">AWS Machine Learning Blog</source>
 <category>AWS</category>
 <category>文档处理</category>
@@ -228,51 +273,6 @@
 <category>前沿实验室</category>
 <category>企业合作</category>
 <category>数据壁垒</category>
-</item>
-<item><title>OpenComputer 开源发布 云端编码智能体提速 3.3 倍</title><link>https://github.com/diggerhq/opencomputer</link><guid isPermaLink="true">https://github.com/diggerhq/opencomputer</guid>
-<pubDate>Sat, 21 Nov 2026 04:19:56 +0800</pubDate>
-<description>&lt;p&gt;OpenComputer 发布开源、可自托管的 Devin 替代方案，用户在 Slack 中 @Computer 即可派发任务，智能体在独立计算机上执行并直接提交 PR。其基准测试显示开 PR 速度比 Devin 快 3.3 倍，整套栈可运行于单台 VM 并支持自有云部署。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源可自托管的云端编码智能体直接对标 Devin，且给出可复现的提速基准，对关注 Agent 工程化的读者有实际参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 68/100&lt;/p&gt;</description>
-<source url="https://github.com/diggerhq/opencomputer">Hacker News AI</source>
-<category>编码智能体</category>
-<category>开源</category>
-<category>自托管</category>
-<category>Slack</category>
-</item>
-<item><title>Inkling 2 Mini 发布 26.4B 参数可跑在笔记本</title><link>https://thinkingmachines.ai/news/inkling-2-mini/</link><guid isPermaLink="true">https://thinkingmachines.ai/news/inkling-2-mini/</guid>
-<pubDate>Sat, 21 Nov 2026 04:12:19 +0800</pubDate>
-<description>&lt;p&gt;Inkling 发布开源权重模型 Inkling 2 Mini，采用循环 Transformer 架构，对每个 token 重复运行中间层三次，以更少 token 完成推理。该模型为 MoE 结构，总参数 26.4B、激活 3.4B，在 DeepSWE v1.1 取得 48.2%、Vals Index v2.2 取得 46.5%，称领先所有 100B 以下开源权重模型，并可在笔记本本地运行。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;循环 Transformer 架构加本地可运行的小参数开源模型，对关注模型架构与端侧部署的读者有实质参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 74/100&lt;/p&gt;</description>
-<source url="https://thinkingmachines.ai/news/inkling-2-mini/">Hacker News AI</source>
-<category>大模型</category>
-<category>开源模型</category>
-<category>MoE</category>
-<category>循环 Transformer</category>
-</item>
-<item><title>OpenAI 披露对抗蒸馏防御体系</title><link>https://openai.com/index/combatting-adversarial-distillation/</link><guid isPermaLink="true">https://openai.com/index/combatting-adversarial-distillation/</guid>
-<pubDate>Sat, 21 Nov 2026 04:11:14 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 系统披露了针对对抗蒸馏的检测与阻断方案，将对抗测试、模型训练、分类器与 API 层防护结合，重点加固受保护的推理过程。文章指出，攻击者可未经授权利用前沿模型输出训练能力相近的模型，并剥离安全护栏后部署，例如复现网络安全能力用于原模型会拒绝的攻击场景。OpenAI 同时公开了跨行业可复用的防护经验。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是前沿实验室首次系统公开对抗蒸馏的攻防细节与防护栈，对模型安全与 API 治理具有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://openai.com/index/combatting-adversarial-distillation/">Hacker News AI</source>
-<category>模型安全</category>
-<category>对抗蒸馏</category>
-<category>OpenAI</category>
-<category>API 防护</category>
-</item>
-<item><title>逆向猫砂盆 App 接入 Home Assistant 自动化</title><link>https://master--ytulsiani.netlify.app/blog/furrytails/</link><guid isPermaLink="true">https://master--ytulsiani.netlify.app/blog/furrytails/</guid>
-<pubDate>Sat, 21 Nov 2026 04:07:14 +0800</pubDate>
-<description>&lt;p&gt;作者通过抓包与反编译安卓 App，复现了智能猫砂盆的签名 HTTP 请求与 MQTT 二进制指令，从而将设备接入 Home Assistant 并实现按钮控制。该项目展示了消费级 IoT 设备逆向与本地化集成的完整路径，代码已开源。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;一篇扎实的 IoT 逆向工程实践，展示了签名请求复现与 MQTT 协议重建的完整方法，对智能家居集成开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://master--ytulsiani.netlify.app/blog/furrytails/">Hacker News AI</source>
-<category>IoT 逆向</category>
-<category>Home Assistant</category>
-<category>MQTT</category>
-<category>智能家居</category>
-</item>
-<item><title>Emacs 专家发布 DreamCoder AI 编程工具</title><link>https://www.masteringemacs.org/article/announcing-dreamcoder</link><guid isPermaLink="true">https://www.masteringemacs.org/article/announcing-dreamcoder</guid>
-<pubDate>Sat, 21 Nov 2026 04:03:59 +0800</pubDate>
-<description>&lt;p&gt;《Mastering Emacs》作者发布 DreamCoder，一款定位区别于 Claude Code 等终端工具的 AI 编程 harness 与 IDE，项目历时十五个月开发。作者以自身使用 Claude Code 构建企业级中间件的经历为参照，强调其速度优势与人工纠偏需求，并借此讨论 AI 编程工具的形态选择。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;知名 Emacs 作者推出的新 AI 编程工具，具备一定开发者关注度，但正文信息有限且偏个人叙事。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.masteringemacs.org/article/announcing-dreamcoder">Hacker News AI</source>
-<category>AI 编程工具</category>
-<category>IDE</category>
-<category>Emacs</category>
-<category>开发者工具</category>
 </item>
 </channel>
 </rss>
