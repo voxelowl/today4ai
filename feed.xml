@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 22 Nov 2026 05:59:04 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 22 Nov 2026 06:09:58 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Open Source PcapAnalyzer Ships 27 Network Fault Detectors</title><link>https://github.com/sebaandrada-cell/PcapAnalyzer</link><guid isPermaLink="true">https://github.com/sebaandrada-cell/PcapAnalyzer</guid>
+<pubDate>Sun, 22 Nov 2026 06:09:58 +0800</pubDate>
+<description>&lt;p&gt;PcapAnalyzer is an Apache 2.0 open-source, self-hosted analyzer for .pcap/.pcapng captures that runs 27 detectors covering TCP retransmissions and window anomalies, PMTUD black holes, DNS/DHCP/ARP failures, TLS alerts, and tunnels such as IPsec, WireGuard and OpenVPN, each finding paired with a severity and next-step guidance. Captures stay on local infrastructure, making it relevant for security-sensitive network operations; the project is currently in beta.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;PcapAnalyzer 开源 27 项网络故障检测器&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向网络排障的开源本地抓包分析工具，检测器覆盖面广且给出可执行排查建议，对运维与 SRE 读者有直接实用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://github.com/sebaandrada-cell/PcapAnalyzer">Hacker News AI</source>
+<category>开源工具</category>
+<category>网络诊断</category>
+<category>抓包分析</category>
+<category>SRE</category>
+</item>
 <item><title>Frontier Models Can Identify Anonymous Authors From Writing Style Alone</title><link>https://x.com/rohanpaul_ai/status/2124261335982862679</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2124261335982862679</guid>
 <pubDate>Sun, 22 Nov 2026 05:59:04 +0800</pubDate>
 <description>&lt;p&gt;A new University of Maryland paper finds that frontier models, given only a single text and a zero-shot prompt with no tools or candidate lists, detect AI-written prose as well as trained detectors like Pangram while explaining their reasoning. More strikingly, they infer authorship: Claude Fable 5.2 identified the reviewer in 56% of 398 anonymous peer reviews and the account behind 69% of comments from Redditors with over 500 posts a year. The anonymity assumptions behind blind review and pseudonymous forums are now weak.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;马里兰大学研究：前沿模型可凭文风识别匿名作者&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究把文风指纹识别推到前沿模型的原生能力层面，直接冲击匿名评审与化名社区的隐私假设。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
@@ -20,6 +29,15 @@
 <category>AI 代理</category>
 <category>端到端加密</category>
 <category>Signal</category>
+</item>
+<item><title>Rust GUI Development Accelerates on Surging AI-Driven Interest</title><link>https://linebender.org/blog/next-100-guis/</link><guid isPermaLink="true">https://linebender.org/blog/next-100-guis/</guid>
+<pubDate>Sun, 22 Nov 2026 05:17:53 +0800</pubDate>
+<description>&lt;p&gt;Raph Levien&amp;#x27;s follow-up essay argues that although Rust GUI adoption has been slow over the past four years with few flagship apps, AI-driven interest is now rapidly accelerating the space. He maintains that Rust remains a compelling path to high-performance cross-platform UI and advises newcomers to build on solid foundations, follow established specs, and collaborate constructively with open source upstreams rather than submitting low-quality PRs.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Rust GUI 迎来 AI 驱动的加速发展期&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;资深 Rust GUI 实践者对生态现状与工程方法论的权威复盘，对关注跨平台高性能 UI 的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://linebender.org/blog/next-100-guis/">Hacker News AI</source>
+<category>Rust</category>
+<category>GUI</category>
+<category>开源生态</category>
+<category>开发者工具</category>
 </item>
 <item><title>Nvidia Revenue Soars as Musk and Others Push for Jensen Huang Return</title><link>https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/</guid>
 <pubDate>Sun, 22 Nov 2026 05:07:42 +0800</pubDate>
@@ -207,18 +225,18 @@
 <category>AI 投资</category>
 <category>数据中心</category>
 </item>
-<item><title>Thinking Machines Open-Sources 26.4B Looped Transformer Inkling 2 Mini</title><link>https://x.com/Marktechpost/status/2124115475932316046</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2124115475932316046</guid>
+<item><title>Thinking Machines 开源 26.4B 循环 Transformer 模型</title><link>https://x.com/Marktechpost/status/2124115475932316046</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2124115475932316046</guid>
 <pubDate>Sat, 21 Nov 2026 20:19:28 +0800</pubDate>
-<description>&lt;p&gt;Thinking Machines released Inkling 2 Mini, a looped transformer that stores 24 layers but runs the middle 12 three times with shared weights, yielding 48 layer passes per token from a ~20GB checkpoint that fits on a 32GB Mac. The 26.4B-total, 3.4B-active model supports 1M context under Apache 2.0, scoring 79.2% on SWE-bench Verified and 48.2% on DeepSWE 1.1 versus 42.2% for Qwen3.8-27B, while knowledge recall lags notably.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Thinking Machines 开源 26.4B 循环 Transformer 模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;循环层共享权重的小模型以 Apache 2.0 开源并可在消费级设备本地运行，为端侧与低成本推理提供新架构范式。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Thinking Machines 发布 Inkling 2 Mini，采用循环 Transformer 架构：仅存储 24 层，中间 12 层以共享权重重复运行 3 次，单 token 实际经过 48 层计算，约 20GB 检查点即可在 32GB Mac 上本地运行。模型总参数 26.4B、激活 3.4B，支持 1M 上下文，以 Apache 2.0 开源，SWE-bench Verified 达 79.2%，DeepSWE 1.1 以 48.2% 超过 Qwen3.8-27B 的 42.2%，但知识召回明显偏弱。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;循环层共享权重的小模型以 Apache 2.0 开源并可在消费级设备本地运行，为端侧与低成本推理提供新架构范式。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/Marktechpost/status/2124115475932316046">Marktechpost (@Marktechpost)</source>
 <category>大模型</category>
 <category>开源模型</category>
 <category>循环 Transformer</category>
 <category>Thinking Machines</category>
 </item>
-<item><title>Gelsinger Says AI Needs 10,000x Efficiency Leap Beyond Incremental Chips</title><link>https://www.ithome.com/1/030/464.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/464.htm</guid>
+<item><title>基辛格称 AI 需万倍能效跃升而非渐进芯片升级</title><link>https://www.ithome.com/1/030/464.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/464.htm</guid>
 <pubDate>Sat, 21 Nov 2026 19:43:07 +0800</pubDate>
-<description>&lt;p&gt;Former Intel CEO Pat Gelsinger said at the COSM tech summit that AI demands roughly a 10,000x leap in compute efficiency, which incremental chip scaling cannot deliver, while rejecting the idea that Moore&amp;#x27;s Law is dead. He argues its revival hinges on fundamental breakthroughs in optics, power delivery, thermal management, materials and packaging, and has backed lithography, nuclear power and silicon photonics startups through Playground Global.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;基辛格称 AI 需万倍能效跃升而非渐进芯片升级&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;行业重量级人物对 AI 算力瓶颈与芯片技术路线的公开判断，并附带其投资布局线索。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;前英特尔 CEO 基辛格在 COSM 科技峰会上表示，AI 对算力的需求要求实现约一万倍的效率跃升，仅靠常规代际微缩无法满足，但他否认摩尔定律已终结。他认为摩尔定律能否重焕生机取决于光学、供电、散热、材料与封装五大工程领域的根本性突破，并已通过 Playground Global 投资光刻、核能与硅光子等方向。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;行业重量级人物对 AI 算力瓶颈与芯片技术路线的公开判断，并附带其投资布局线索。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/030/464.htm">IT之家 · 智能时代</source>
 <category>芯片算力</category>
 <category>摩尔定律</category>
@@ -253,24 +271,6 @@
 <category>半导体</category>
 <category>Anthropic</category>
 <category>资本市场</category>
-</item>
-<item><title>华中科大与阿里共建 AI 安全联合研究中心</title><link>https://www.ithome.com/1/030/423.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/423.htm</guid>
-<pubDate>Sat, 21 Nov 2026 17:57:05 +0800</pubDate>
-<description>&lt;p&gt;华中科技大学与阿里巴巴签署合作协议，共建“智能攻防与前沿安全联合研究中心”，首批启动 9 个课题，覆盖大模型安全攻防、智能体与终端安全、智能化系统与软件安全、数据协同与隐私保护四大方向。合作聚焦智能体被恶意诱导、屏幕画面伪造、跨应用数据协同泄露等真实风险场景。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;校企共建 AI 安全研究机构，课题方向明确指向智能体与大模型攻防，是 AI 安全治理落地的实质动作。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/030/423.htm">IT之家 · 智能时代</source>
-<category>AI 安全</category>
-<category>产学研合作</category>
-<category>智能体安全</category>
-<category>隐私计算</category>
-</item>
-<item><title>Grok 工程师单月提交 3000 个 PR 的 AI 编程心法</title><link>https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247947677&amp;idx=2&amp;sn=b447df9da18baf8a4c7a3f9f7fdd034f</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247947677&amp;idx=2&amp;sn=b447df9da18baf8a4c7a3f9f7fdd034f</guid>
-<pubDate>Sat, 21 Nov 2026 17:52:00 +0800</pubDate>
-<description>&lt;p&gt;SpaceXAI 首席工程师 Lauren Tan 在 AI Engineer CODE 大会上分享了她的 AI 编程方法论，核心是把低信任度的 Agent 工作环境改造成高信任度环境。她提出信任倒金字塔模型，主张把精力优先投入代码架构与确定性检查工具，而非自然语言规则，并强调保持代码库整洁、禁用绝大多数代码注释。她上月个人提交 3000 个 PR，团队整体交付 1.1 万个 PR，撤回率仅 0.5%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自一线高频 AI 编程实践者的具体方法论，对使用 Agent 写代码的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;量子位 (微信公众号) · tools · signal 62/100&lt;/p&gt;</description>
-<source url="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247947677&amp;idx=2&amp;sn=b447df9da18baf8a4c7a3f9f7fdd034f">量子位 (微信公众号)</source>
-<category>AI 编程</category>
-<category>Agent</category>
-<category>开发者工具</category>
-<category>Grok</category>
 </item>
 </channel>
 </rss>
