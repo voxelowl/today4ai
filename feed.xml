@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 21 Nov 2026 11:24:35 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 21 Nov 2026 11:31:43 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>SoftBank Weighed $1 Trillion Takeover of SK Hynix</title><link>https://www.ithome.com/1/030/339.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/339.htm</guid>
+<pubDate>Sat, 21 Nov 2026 11:31:43 +0800</pubDate>
+<description>&lt;p&gt;The Information reported that Masayoshi Son approached Wall Street financiers about funding a takeover of SK Hynix, with a roughly 40% premium pushing the deal value toward $1 trillion. A SoftBank spokesperson said the transaction is no longer under active consideration. SK Hynix is a key HBM supplier for AI accelerators, so any deal would reshape the AI compute supply chain, though SoftBank&amp;#x27;s stretched balance sheet, Korean regulatory resistance and SK Group&amp;#x27;s lack of interest in selling are major obstacles.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;孙正义曾探讨万亿美元收购 SK 海力士&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及 AI 算力核心供应链 HBM 的潜在千亿美元级并购动向，虽已搁置但反映资本对算力上游的争夺逻辑。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/030/339.htm">IT之家 · IT业界</source>
+<category>软银</category>
+<category>SK 海力士</category>
+<category>HBM</category>
+<category>算力供应链</category>
+<category>并购</category>
+</item>
 <item><title>Tencent Hunyuan Team Signals Plans for Larger-Scale Models in Reddit AMA</title><link>https://www.ithome.com/1/030/338.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/338.htm</guid>
 <pubDate>Sat, 21 Nov 2026 11:24:35 +0800</pubDate>
 <description>&lt;p&gt;Tencent chief AI scientist Shunyu Yao and the Hunyuan team held a 120-minute Reddit AMA addressing questions about model scale. The team argued that well-built smaller models like Hy3 and Hy4 can outperform larger ones at lower cost, but acknowledged Hy4 has substantial room for improvement through post-training and large-scale reinforcement learning, and confirmed plans to train larger-scale models while considering 24B-31B dense variants.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;腾讯混元姚顺雨团队回应参数路线 计划训练更大规模模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;腾讯混元核心团队首次公开回应参数规模路线之争，透露后训练强化学习投入与更大模型计划，是观察国产大模型技术路线的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 62/100&lt;/p&gt;</description>
@@ -192,9 +202,9 @@
 <category>OpenAI</category>
 <category>订阅</category>
 </item>
-<item><title>AWS Launches SageMaker HyperPod Global Inference Gateway</title><link>https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-one-endpoint-across-regions-and-clusters/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-one-endpoint-across-regions-and-clusters/</guid>
+<item><title>AWS 推出 SageMaker 跨区全局推理网关</title><link>https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-one-endpoint-across-regions-and-clusters/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-one-endpoint-across-regions-and-clusters/</guid>
 <pubDate>Sat, 21 Nov 2026 06:35:24 +0800</pubDate>
-<description>&lt;p&gt;AWS introduced the SageMaker HyperPod Global Inference Gateway, extending its GPU-aware routing from a single cluster to a single managed endpoint spanning multiple clusters and Regions. The gateway selects clusters using real-time signals such as KV cache utilization and queue depth, carries requests over the AWS backbone, and provides automatic failover with SigV4 and IAM authentication. It targets capacity waste when one cluster queues requests while GPUs elsewhere sit idle.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS 推出 SageMaker 跨区全局推理网关&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向大模型推理的跨区容量调度能力更新，对使用 HyperPod 的团队有直接工程价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · compute · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;AWS 发布 SageMaker HyperPod Global Inference Gateway，将原本单集群内的 GPU 感知路由扩展为跨集群、跨区域的统一推理入口。网关基于 KV 缓存利用率与队列深度等实时信号选择集群，通过 AWS 骨干网传输请求，并借助 SigV4 与 IAM 实现自动故障转移与鉴权。该能力主要解决流量高峰时部分集群排队、另一些集群 GPU 闲置的容量浪费问题。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向大模型推理的跨区容量调度能力更新，对使用 HyperPod 的团队有直接工程价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · compute · signal 58/100&lt;/p&gt;</description>
 <source url="https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-one-endpoint-across-regions-and-clusters/">AWS Machine Learning Blog</source>
 <category>AWS</category>
 <category>推理基础设施</category>
@@ -263,14 +273,6 @@
 <category>HeyGen</category>
 <category>OpenRouter</category>
 <category>身份核验</category>
-</item>
-<item><title>形式化验证成为对抗 AI 低质代码的新武器</title><link>https://latent.space/p/formal-verification/</link><guid isPermaLink="true">https://latent.space/p/formal-verification/</guid>
-<pubDate>Sat, 21 Nov 2026 05:18:41 +0800</pubDate>
-<description>&lt;p&gt;随着 AI 生成代码激增，低质量输出（slop）成为工程团队的日常困扰。Harmonic、Theorem、Axiom Math 等公司正将基于数学证明的形式化验证系统推向实用，用于校验 AI 智能体交付代码的正确性。AI 数学能力的提升使这一原本高门槛的方法具备了落地条件。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;形式化验证与 AI 结合是代码质量治理的重要方向，值得关注其工程化进展。&lt;/p&gt;&lt;p&gt;Latent Space · tools · signal 62/100&lt;/p&gt;</description>
-<source url="https://latent.space/p/formal-verification/">Latent Space</source>
-<category>形式化验证</category>
-<category>AI 编程</category>
-<category>代码质量</category>
 </item>
 </channel>
 </rss>
