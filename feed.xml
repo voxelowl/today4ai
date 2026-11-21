@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 21 Nov 2026 17:17:24 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 21 Nov 2026 17:57:05 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>HUST and Alibaba Launch Joint AI Security Research Center</title><link>https://www.ithome.com/1/030/423.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/423.htm</guid>
+<pubDate>Sat, 21 Nov 2026 17:57:05 +0800</pubDate>
+<description>&lt;p&gt;Huazhong University of Science and Technology and Alibaba have signed a partnership to establish a joint research center on intelligent attack-defense and frontier AI security, launching nine initial projects across LLM security, agent and endpoint security, intelligent system and software security, and data collaboration with privacy protection. The work targets concrete risks such as malicious manipulation of AI agents, forged screen content, and data leakage during cross-app collaboration.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;华中科大与阿里共建 AI 安全联合研究中心&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;校企共建 AI 安全研究机构，课题方向明确指向智能体与大模型攻防，是 AI 安全治理落地的实质动作。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/030/423.htm">IT之家 · 智能时代</source>
+<category>AI 安全</category>
+<category>产学研合作</category>
+<category>智能体安全</category>
+<category>隐私计算</category>
+</item>
 <item><title>ByteDance Claims Three Training Steps Suffice for Competitive Open Model</title><link>https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model/</link><guid isPermaLink="true">https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model/</guid>
 <pubDate>Sat, 21 Nov 2026 17:17:24 +0800</pubDate>
 <description>&lt;p&gt;A ByteDance team, together with several US universities, argues in a new paper that today&amp;#x27;s agent training pipelines have become deeply nested and hard to attribute or reproduce, and claims that three training steps are enough to produce a competitive open model. The work positions a lean training pipeline as an alternative to stacked multi-stage recipes.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;字节提出三步训练法并开源竞争性模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;字节联合高校挑战多阶段训练范式，主张三步训练即可，对关注训练效率与开源模型的读者有参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 58/100&lt;/p&gt;</description>
@@ -198,9 +207,9 @@
 <category>Anthropic</category>
 <category>形式化验证</category>
 </item>
-<item><title>AWS Launches Distributed KV Caching to Cut LLM Inference Costs</title><link>https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/</guid>
+<item><title>AWS 推出分布式 KV 缓存 推理成本降 40%</title><link>https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/</guid>
 <pubDate>Sat, 21 Nov 2026 08:14:26 +0800</pubDate>
-<description>&lt;p&gt;AWS introduced distributed KV caching built on Amazon ElastiCache, adding a shared cache tier beside GPU fleets so any server can reuse KV state for days across sessions, routing shifts and failures. AWS claims the approach cuts self-hosted LLM inference costs by up to 40% and time to first token by up to 80%, directly addressing redundant prefill work in long-context agents.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS 推出分布式 KV 缓存 推理成本降 40%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;针对自托管大模型长上下文重复预填充这一真实痛点，给出可量化的降本与降延迟方案，对推理基础设施读者有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · compute · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;AWS 发布基于 Amazon ElastiCache 的分布式 KV 缓存方案，在 GPU 集群旁构建共享缓存层，使任意服务器可复用数天内的 KV 状态，跨会话、路由切换与故障场景均有效。官方数据显示，该方案可将自托管 LLM 推理成本降低最多 40%，首 token 延迟（TTFT）降低最多 80%，直接缓解长上下文智能体反复预填充（prefill）造成的算力浪费。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;针对自托管大模型长上下文重复预填充这一真实痛点，给出可量化的降本与降延迟方案，对推理基础设施读者有直接参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · compute · signal 72/100&lt;/p&gt;</description>
 <source url="https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/">AWS Machine Learning Blog</source>
 <category>推理优化</category>
 <category>KV 缓存</category>
@@ -260,16 +269,6 @@
 <category>Google</category>
 <category>语音助手</category>
 <category>Gemini</category>
-</item>
-<item><title>美监管机构批准 87.9 万枚英伟达 AMD 芯片对华出口</title><link>https://x.com/rohanpaul_ai/status/2123920673928298860</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123920673928298860</guid>
-<pubDate>Sat, 21 Nov 2026 07:25:23 +0800</pubDate>
-<description>&lt;p&gt;美国众议院外交事务委员会文件显示，英伟达与 AMD 为阿里巴巴、腾讯等中国客户申请逾 340 万枚 H200 与 MI325X 芯片出口许可，截至 5 月美国工业与安全局（BIS）批准约 87.9 万枚，约占四分之一，且所有获批申请的风险评级均为低转移风险。获批对象中包含被五角大楼标记为涉军的中国企业，凸显出口管制执行与国家安全审查之间的张力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是迄今最具体的对华 AI 芯片出口许可数据，直接关系算力供给与管制走向。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 68/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2123920673928298860">Rohan Paul (@rohanpaul_ai)</source>
-<category>出口管制</category>
-<category>AI 芯片</category>
-<category>英伟达</category>
-<category>AMD</category>
-<category>算力</category>
 </item>
 </channel>
 </rss>
