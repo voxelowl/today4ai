@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Sat, 21 Nov 2026 13:05:02 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 21 Nov 2026 18:33:02 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
+<item><title>Anthropic 数学家宣称与 Claude 合作证明黎曼猜想</title><link>https://todayforai.com/en/story/story-c508eedd-8d6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c508eedd-8d6</guid>
+<pubDate>Sat, 21 Nov 2026 13:02:13 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 数学家 Levent Alpöge 公开宣称，他与 Claude 合作找到了悬置 167 年的黎曼猜想的证明，并进一步声称覆盖了更广的广义黎曼猜想（GRH）。该证明以 Lean 形式化代码呈现，代码量高达 1740 万行，完整展开超 25 万页，已公开在 GitHub 供社区机器验证。若最终通过形式化验证与同行评审，这将是 AI 首次在顶级未解数学难题上做出实质性贡献，标志着 AI for Math 进入新纪元。
+
+多方信源交叉显示，Claude 在证明过程中提出了关键的连续 Theta Lifts 思路与核心参数，甚至涉及合作者本人未掌握的高阶数学领域，被评价为在收尾阶段大幅领先人类。整个论证历时约六周完成形式化。然而，该证明尚未经同行验证，且仅公开了 4 页说明文档与 14 个压缩包的 Lean 代码，文字证明超 25 万页未公开。陶哲轩指出证明疑似依赖朗兰兹纲领与算术几何的现代成果，数学界梳理与验证仍需时间。同时，另一名数学家 Alessandro Masullo 在数小时内发布了其耗时 12 年的 940 页纯人工证明，形成传统数学路径的正面回应。
+
+事件在 Lean 社区引发数学家密集核验，初步检查确认形式化命题确为 GRH，但 Lean 内核历史版本曾出现缺陷，可靠性仍存理论风险。Anthropic 官方未参与或置评，Alpöge 称曾私下告知 CEO Dario Amodei 并推迟至公司 IPO 后公布，引发利益关联质疑。无论结果如何，此次事件凸显了 AI 生成证明的可验证性高度依赖形式化工具链，而非人类通读，为 AI 辅助数学研究树立了新的…&lt;/p&gt;&lt;p&gt;10 sources&lt;/p&gt;&lt;p&gt;Latent Space, Rohan Paul (@rohanpaul_ai), TechCrunch AI, IT之家 · 智能时代, IT之家 · IT业界, Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
+</item>
 <item><title>Anthropic 登陆纳斯达克 募资 935 亿美元刷新纪录</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
 <pubDate>Sat, 21 Nov 2026 01:44:01 +0800</pubDate>
 <description>&lt;p&gt;Anthropic 于本周四正式在纳斯达克挂牌上市，以每股 83 美元的发行价募资约 935 亿美元，超越 SpaceX 保持的 862.5 亿美元纪录，成为史上最大 IPO。其开盘价飙升至 111.50 美元，较发行价高开 33%，完全稀释估值一度突破 1.5 万亿美元。
@@ -11,21 +19,13 @@
 
 Anthropic 的上市标志着头部大模型公司首次进入公开资本市场，为 AI 行业估值与商业化能力提供了关键定价锚点。其约 2200 亿美元的现金储备将加剧与 OpenAI 等对手的算力军备竞赛，同时也让资本市场对 AI 泡沫的争论更趋白热化。&lt;/p&gt;&lt;p&gt;13 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · IT业界, Anthropic AI (@AnthropicAI), Yuchen Jin (@Yuchenj_UW), 机器之心 (微信公众号), The Decoder&lt;/p&gt;</description>
 </item>
-<item><title>Anthropic 数学家宣称与 Claude 合作证明黎曼猜想</title><link>https://todayforai.com/en/story/story-c508eedd-8d6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c508eedd-8d6</guid>
-<pubDate>Sat, 21 Nov 2026 13:02:13 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 数学家 Levent Alpöge 公开宣称，在与 Claude 的协作下，成功证明了悬置 167 年的黎曼猜想，并进一步声称该方法可推广至广义黎曼猜想。据其表述，Claude 在数学家本人未掌握的高阶领域提出了关键证明步骤，双方历时约六周将完整论证形式化为机器可验证的 Lean 代码，且声称论证在无额外假设下完成。若该声明经同行评审确认，这将是 AI 首次在顶级数学难题上做出实质性贡献，标志着 AI 数学能力的重大跃迁。
-
-目前该声明仅为 Alpöge 的个人公开主张，尚未经过数学界同行评审与独立验证。Anthropic 官方未参与或置评，Alpöge 称曾私下告知 CEO Dario Amodei，并推迟至公司 IPO 后公布，引发利益关联质疑。多个信源一致强调，证明以 Lean 代码形式公布，但形式化验证本身仍需社区复核，且此前 OpenAI 在 10 月公布的数学成果被认为提供了突破口。
-
-若最终获得确认，这一事件将深刻影响 AI 辅助数学研究的生态，证明大模型在最高阶创造性数学推理中的潜力，并推动形式化验证与 AI 协作范式的普及。然而，在独立验证完成前，业界应保持审慎，避免过度解读个人声明。&lt;/p&gt;&lt;p&gt;9 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, Artificial Analysis (@ArtificialAnlys), Latent Space, Rohan Paul (@rohanpaul_ai), Simon Willison 博客, TechCrunch AI&lt;/p&gt;</description>
-</item>
 <item><title>Thinking Machines 开源 26B 循环层模型 Inkling 2 Mini</title><link>https://todayforai.com/en/story/story-e7a42b22-638</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e7a42b22-638</guid>
-<pubDate>Sat, 21 Nov 2026 07:24:30 +0800</pubDate>
+<pubDate>Sat, 21 Nov 2026 18:33:02 +0800</pubDate>
 <description>&lt;p&gt;Thinking Machines Lab 联合 Hugging Face 正式开源多模态混合专家模型 Inkling 2 Mini，以 26B 总参数、仅 3-5B 激活参数的极致稀疏设计，在 Artificial Analysis 智能指数上得分 20，并支持 100 万 token 上下文与图文输入，可在 MacBook 或 DGX Spark 上本地运行。
 
 该模型的核心创新在于循环 Transformer 架构：中间 12 层共享权重并循环执行三次，每轮保留独立 KV 缓存并读取上一轮的门控消息，从而在不增加参数量的前提下显著提升有效容量。vLLM 在 NVIDIA Blackwell、Hopper 与 DGX Spark 上实现发布当日支持，并通过 NVFP4/MXFP8 混合精度权重与内置 DSpark 推测解码进一步加速推理。据 Hacker News 报道，其在 DeepSWE v1.1 取得 48.2%、Vals Index v2.2 取得 46.5%，官方称领先所有 100B 以下开源权重模型。
 
-Inkling 2 Mini 的发布标志着高效循环架构在开源社区的落地，为本地部署与长上下文应用提供了新的可能性，有望推动边缘 AI 与隐私敏感场景的发展，并对同等规模的传统 Transformer 模型形成竞争压力。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;vLLM 官方博客, Hugging Face Blog, Hacker News AI, Artificial Analysis (@ArtificialAnlys), Artificial Analysis, Arena.ai (@arena)&lt;/p&gt;</description>
+Inkling 2 Mini 的发布标志着高效循环架构在开源社区的落地，为本地部署与长上下文应用提供了新的可能性，有望推动边缘 AI 与隐私敏感场景的发展，并对同等规模的传统 Transformer 模型形成竞争压力。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;vLLM 官方博客, Hugging Face Blog, Hacker News AI, Artificial Analysis (@ArtificialAnlys), Artificial Analysis, Arena.ai (@arena)&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 强化推理防泄露 攻击成功率降至 0.2%</title><link>https://todayforai.com/en/story/story-fe915d44-805</link><guid isPermaLink="true">https://todayforai.com/en/story/story-fe915d44-805</guid>
 <pubDate>Sat, 21 Nov 2026 09:45:22 +0800</pubDate>
@@ -42,6 +42,14 @@ Inkling 2 Mini 的发布标志着高效循环架构在开源社区的落地，�
 技术层面，Neon 支持 100 万 token 上下文与四档推理级别，在 Artificial Analysis 编程智能体指数以 58.6 分超越 Claude Opus 5.5 位列第一，智能指数以 61 分排名第三。模型速度约 110 tokens/秒，是前代 Carbon 的两倍，且基础定价更低。在 Antigravity 开发环境中，Neon 可调度多个子智能体并行执行长任务，接入后 SWE-sweep 得分从 12.8% 跃升至 39.0%。安全方面，模型卡称其在 Gray-Swan 基准上 100% 阻断间接提示注入攻击。
 
 Neon 的发布标志着谷歌模型迭代节奏近乎指数级加快，发布间隔从 28 天缩短至 6 天，同时产品线快速收敛，Argon 退役、旧版 Pro 与 Flash 下线。凭借速度、成本与可操控性的平衡，Neon 直接对标 Anthropic 的 Opus 与 Fable 系列，加剧了中端智能体市场的竞争，也为开发者提供了高性价比的前沿智能选择。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, IT之家 · IT业界, Marktechpost (@Marktechpost), 宝玉 (@dotey), Artificial Analysis, Latent Space&lt;/p&gt;</description>
+</item>
+<item><title>GPT-6.2 Astra 具身任务成功率翻倍至 41.2%</title><link>https://todayforai.com/en/story/story-1fc81bf4-75d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1fc81bf4-75d</guid>
+<pubDate>Sat, 21 Nov 2026 14:35:59 +0800</pubDate>
+<description>&lt;p&gt;GPT-6.2 Astra 在机器人操作基准测试中实现重大突破，综合成功率从两个月前 GPT-6 Astra 的 19.6% 提升至 41.2%，翻倍有余。在 XDOF 的 Ember-0 双臂机器人基准的 16 项任务中，提升覆盖整套任务而非单点突破，其中给绳子打结、展开 T 恤两项柔性物体任务首次被模型攻克，此前 143 次 T 恤测试无一成功。
+
+交叉验证显示，GPT-6.2 Astra 不仅在成功率上大幅领先，动作规划效率也显著优化。Artificial Analysis 的 AA-Robotics v0.1 基准中，它在六项任务中仅发出 668 条指令，为 11 个参评模型中最少，却取得最高分；清理箱子任务仅用 92 条机械臂指令，比 Claude Fable 5.2 少约 75%。XDOF 的评测以六台 YAM 工作站并行、每任务重复 30 次并人工标注失误，标准严苛，结果可靠。
+
+这一进展标志着具身智能从单点演示迈向通用任务能力，柔性物体操作曾是机器人领域的难点，此次突破将加速机器人在家庭、工业等场景的落地。同时，动作效率的提升降低了部署成本，为大规模应用铺平道路。XDOF 表示该基准或不久后被模型能力饱和，暗示技术迭代速度远超预期。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;量子位官网, Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
 </item>
 <item><title>英伟达市值蒸发 2.73 万亿美元 纳斯达克创疫情后最差单周</title><link>https://todayforai.com/en/story/story-77a24844-7a2</link><guid isPermaLink="true">https://todayforai.com/en/story/story-77a24844-7a2</guid>
 <pubDate>Sat, 21 Nov 2026 08:08:12 +0800</pubDate>
@@ -70,14 +78,6 @@ MedChemBench 的推出为药物化学领域的 AI 应用提供了可量化的评
 综合多家信源，Signal 在 iOS 27 上直接禁止截屏，在 Android 上则于检测到 AI 助手尝试读取屏幕时触发保护。导火索是 Meta 智能体 Muse 此前通过无障碍权限等广泛授权获取 Signal 内容。Whittaker 指出，Google、Apple、Microsoft 等 OS 厂商并未提供细粒度接口让开发者限制 AI 数据访问，Signal 只能在牺牲核心体验的前提下自保，macOS 端因此暂无法落地该保护。此前 Signal 已用截图屏蔽阻止 Windows 11 上的 Microsoft Recall 默认截屏，这是其第二次针对操作系统级 AI 采集能力采取技术反制。
 
 事件凸显端侧智能体普及与隐私应用之间的权限冲突正在升级。在 OS 厂商提供细粒度 AI 数据访问控制接口之前，隐私应用只能被动防御，整个应用生态都可能面临类似取舍。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, The Verge AI, The Decoder&lt;/p&gt;</description>
-</item>
-<item><title>GrapheneOS 指控谷歌以 GMS 授权施压手机厂商</title><link>https://todayforai.com/en/story/story-a435761a-701</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a435761a-701</guid>
-<pubDate>Sat, 21 Nov 2026 13:05:02 +0800</pubDate>
-<description>&lt;p&gt;开源安全移动操作系统 GrapheneOS 近日公开指控谷歌滥用市场支配地位，以 GMS（谷歌移动服务）授权为筹码，施压手机厂商不得与其合作，并点名摩托罗拉 Signature 27 合作受阻。GrapheneOS 称谷歌主动询问 OEM 是否与其合作，并以授权条款相威胁，同时警告谷歌可能对 Pixel 设备锁死引导程序，切断第三方系统刷机路径。
-
-争议核心还包括 Play Integrity API 对第三方系统的应用准入限制。GrapheneOS 指出，该 API 已成为限制第三方系统运行银行等应用的实际闸门，导致用户无法在 GrapheneOS 上正常使用关键服务。目前相关指控均来自 GrapheneOS 一方，谷歌尚未给出正式回应，事实有待核实。
-
-若指控属实，此举将严重打击第三方 Android 系统的生存空间，削弱开源生态的多样性与安全性创新。GrapheneOS 表示将寻求美国司法部介入，事件可能引发对谷歌是否违反反垄断法的进一步审查，对移动操作系统市场的公平竞争产生深远影响。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, Hacker News AI&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
