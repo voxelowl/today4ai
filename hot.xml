@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Sat, 21 Nov 2026 07:24:30 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 21 Nov 2026 07:40:02 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 登陆纳斯达克 募资 935 亿美元刷新纪录</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
 <pubDate>Sat, 21 Nov 2026 01:44:01 +0800</pubDate>
@@ -19,21 +19,21 @@ Anthropic 的上市标志着头部大模型公司首次进入公开资本市场�
 
 Inkling 2 Mini 的发布标志着高效循环架构在开源社区的落地，为本地部署与长上下文应用提供了新的可能性，有望推动边缘 AI 与隐私敏感场景的发展，并对同等规模的传统 Transformer 模型形成竞争压力。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;vLLM 官方博客, Hugging Face Blog, Hacker News AI, Artificial Analysis (@ArtificialAnlys), Artificial Analysis, Arena.ai (@arena)&lt;/p&gt;</description>
 </item>
+<item><title>Anthropic 数学家宣称与 Claude 合作证明黎曼猜想</title><link>https://todayforai.com/en/story/story-c508eedd-8d6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c508eedd-8d6</guid>
+<pubDate>Sat, 21 Nov 2026 07:40:02 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 数学家 Levent Alpöge 公开宣称，在与 Claude 的协作下，成功证明了悬置 167 年的黎曼猜想，并进一步声称该方法可推广至广义黎曼猜想。据其表述，Claude 在数学家本人未掌握的高阶领域提出了关键证明步骤，双方历时约六周将完整论证形式化为机器可验证的 Lean 代码，且声称论证在无额外假设下完成。若该声明经同行评审确认，这将是 AI 首次在顶级数学难题上做出实质性贡献，标志着 AI 数学能力的重大跃迁。
+
+目前该声明仅为 Alpöge 的个人公开主张，尚未经过数学界同行评审与独立验证。Anthropic 官方未参与或置评，Alpöge 称曾私下告知 CEO Dario Amodei，并推迟至公司 IPO 后公布，引发利益关联质疑。多个信源一致强调，证明以 Lean 代码形式公布，但形式化验证本身仍需社区复核，且此前 OpenAI 在 10 月公布的数学成果被认为提供了突破口。
+
+若最终获得确认，这一事件将深刻影响 AI 辅助数学研究的生态，证明大模型在最高阶创造性数学推理中的潜力，并推动形式化验证与 AI 协作范式的普及。然而，在独立验证完成前，业界应保持审慎，避免过度解读个人声明。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;Simon Willison 博客, IT之家 · 智能时代, The Verge AI, Rohan Paul (@rohanpaul_ai), TechCrunch AI, Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
+</item>
 <item><title>谷歌发布 Gemini 4 Neon 单任务成本降逾五成</title><link>https://todayforai.com/en/story/story-d7aabeb3-ec9</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d7aabeb3-ec9</guid>
 <pubDate>Fri, 20 Nov 2026 18:54:00 +0800</pubDate>
 <description>&lt;p&gt;谷歌 DeepMind 正式发布 Gemini 4 系列第四款模型 Neon，定位中端市场，主打端到端快速任务完成。该模型在 Artificial Analysis 智能指数上以 61 分位列总榜第三，在 Agent Arena 可操控性榜单上排名第二，并在编程智能体指数中以 58.6 分超越 Claude Opus 5.5 登顶。其 API 定价为每百万输入 token 3 美元、输出 15 美元，缓存输入低至 0.15 美元，单任务成本较旗舰模型低约 50% 至 80%。
 
 综合多源信息，Neon 支持 100 万 token 上下文与四档推理级别，可在 Antigravity 开发环境中调度多个子智能体并行执行长任务。在 Arena 智能体竞技场基于 4200 场真实会话的评测中，Neon 以 1336 分位列总榜第二，单任务中位成本仅 2.82 美元，比 Claude Opus 5.5 低 53%，比榜首 Claude Fable 5.2 低 69%。模型卡显示其在 Gray-Swan 基准上 100% 阻断间接提示注入攻击，速度约 110 tokens/秒，接近同代 Carbon 的两倍。
 
-Neon 的发布标志着谷歌在七周内连发四款 Gemini 4 系列模型，产品线快速收敛。其高性价比与可操控性优势直接对标 Anthropic 与 OpenAI 的旗舰产品，有望降低企业部署智能体的门槛，加剧中端 AI 模型市场的价格竞争。&lt;/p&gt;&lt;p&gt;11 sources&lt;/p&gt;&lt;p&gt;The Decoder, Marktechpost (@Marktechpost), Google DeepMind, OpenRouter (@OpenRouter), Hacker News AI, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
-</item>
-<item><title>Anthropic 数学家宣称与 Claude 合作证明黎曼猜想</title><link>https://todayforai.com/en/story/story-c508eedd-8d6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c508eedd-8d6</guid>
-<pubDate>Sat, 21 Nov 2026 03:45:51 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 数学家 Levent Alpöge 公开宣称，在与 Claude 的协作下，成功证明了悬置 167 年的黎曼猜想，并进一步声称该方法可推广至广义黎曼猜想。据其表述，Claude 在数学家本人未掌握的高阶领域提出了关键证明步骤，双方历时约六周将完整论证形式化为机器可验证的 Lean 代码，且声称论证在无额外假设下完成。若该声明经同行评审确认，这将是 AI 首次在顶级数学难题上做出实质性贡献，标志着 AI 数学能力的重大跃迁。
-
-目前该声明仅为 Alpöge 的个人公开主张，尚未经过数学界同行评审与独立验证。Anthropic 官方未参与或置评，Alpöge 称曾私下告知 CEO Dario Amodei，并推迟至公司 IPO 后公布，引发利益关联质疑。多个信源一致强调，证明以 Lean 代码形式公布，但形式化验证本身仍需社区复核，且此前 OpenAI 在 10 月公布的数学成果被认为提供了突破口。
-
-若最终获得确认，这一事件将深刻影响 AI 辅助数学研究的生态，证明大模型在最高阶创造性数学推理中的潜力，并推动形式化验证与 AI 协作范式的普及。然而，在独立验证完成前，业界应保持审慎，避免过度解读个人声明。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;Simon Willison 博客, IT之家 · 智能时代, The Verge AI, Rohan Paul (@rohanpaul_ai), TechCrunch AI, Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
+Neon 的发布标志着谷歌在七周内连发四款 Gemini 4 系列模型，产品线快速收敛。其高性价比与可操控性优势直接对标 Anthropic 与 OpenAI 的旗舰产品，有望降低企业部署智能体的门槛，加剧中端 AI 模型市场的价格竞争。&lt;/p&gt;&lt;p&gt;9 sources&lt;/p&gt;&lt;p&gt;The Decoder, Marktechpost (@Marktechpost), Google DeepMind, OpenRouter (@OpenRouter), Hacker News AI, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
 <item><title>HeyGen 上线 Decision 1 多模态概率判定模型</title><link>https://todayforai.com/en/story/story-4c3c4a18-8e7</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4c3c4a18-8e7</guid>
 <pubDate>Sat, 21 Nov 2026 07:14:24 +0800</pubDate>
@@ -67,6 +67,14 @@ Neon 的发布标志着谷歌在七周内连发四款 Gemini 4 系列模型，�
 
 这一披露对 AI 安全生态具有实质影响。随着模型能力提升，对抗性蒸馏成为新型滥用途径，OpenAI 的多层防御思路为行业提供了可借鉴的范本，推动 API 提供商和模型开发者加强推理链保护，也可能促使全行业重新评估模型输出管控策略。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, OpenAI 官方博客&lt;/p&gt;</description>
 </item>
+<item><title>SpaceX 举债 320 亿美元采购英伟达 Rubin GPU</title><link>https://todayforai.com/en/story/story-623e8439-1a9</link><guid isPermaLink="true">https://todayforai.com/en/story/story-623e8439-1a9</guid>
+<pubDate>Sat, 21 Nov 2026 07:34:13 +0800</pubDate>
+<description>&lt;p&gt;SpaceX 通过一笔约 320 亿美元的债务融资，锁定英伟达下一代 Rubin GPU 及配套设备，成为迄今规模最大的 GPU 融资交易。该交易由阿波罗全球管理公司与高盛牵头，贝莱德、KKR 等机构参与，因需求强劲而超额认购并扩大规模，最终融资定价达 440 亿美元，资金专项用于采购约 473 亿美元的 GPU 设备。
+
+交易结构上，SpaceX 借助阿波罗旗下 Saturn Funding Trust 以“买芯片再回租”的方式完成，使债务不进入其资产负债表，从而维持投资级评级并加快后续融资。芯片预计自明年 1 月起交付，2027 年上半年租赁安排正式生效。这一设计既满足了 SpaceX 对大规模算力的迫切需求，又避免了高杠杆对财务指标的冲击。
+
+此次融资凸显 AI 算力军备竞赛已从科技巨头蔓延至航天与重工业领域。SpaceX 通过表外融资锁定稀缺的英伟达高端芯片，为星链、星舰等项目的 AI 训练与推理储备算力，同时也为其他企业提供了“债务隔离+租赁”的算力获取范本。分析认为，这类结构化融资或将成为大额 GPU 采购的主流模式，进一步推高英伟达订单能见度。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
+</item>
 <item><title>OpenAI 发布药物化学基准 MedChemBench</title><link>https://todayforai.com/en/story/story-ac4a9ae9-3fa</link><guid isPermaLink="true">https://todayforai.com/en/story/story-ac4a9ae9-3fa</guid>
 <pubDate>Sat, 21 Nov 2026 05:17:59 +0800</pubDate>
 <description>&lt;p&gt;OpenAI 正式推出药物化学基准 MedChemBench，旨在评测 AI 模型在真实药物发现任务中的推理能力。该基准从 117 篇论文与专利中提取题目，覆盖 761 个分级分子结构，并在真实决策点截断、隐藏后续实验结果，要求模型基于生物靶点、已合成化合物与部分测定结果做出判断。
@@ -74,10 +82,6 @@ Neon 的发布标志着谷歌在七周内连发四款 Gemini 4 系列模型，�
 测试结果显示，最强模型 GPT-6.2 Astra 总体正确率约 84%，化学结构解读近乎满分，但关键决策正确率仅约五成。这表明前沿模型在分子结构解读方面表现优异，但在需要综合实验证据进行药物设计决策时仍有明显短板。OpenAI 官方表示，MedChemBench 聚焦分子结构与实验证据的关联推理，任务覆盖结果解释、化合物比较与性质预测三类核心工作，旨在定位模型能力边界，为后续迭代提供可量化参照。
 
 该基准的发布填补了药物化学领域 AI 评测的空白，为开发者提供了衡量模型在真实科研场景中实用性的标尺。业界认为，随着 AI 在药物发现中的应用日益深入，此类基准将推动模型从“结构识别”向“决策辅助”演进，加速 AI 在生物医药研发中的落地。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), OpenAI 官方博客&lt;/p&gt;</description>
-</item>
-<item><title>Arena 推出 Agent 排行榜 Gemini 4 Neon 空降第二</title><link>https://todayforai.com/en/story/story-e50edc48-2c8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e50edc48-2c8</guid>
-<pubDate>Sat, 21 Nov 2026 05:39:48 +0800</pubDate>
-<description>&lt;p&gt;Arena.ai 正式上线 Agent Arena Index，首次以统一榜单横向评测智能体能力。谷歌 Gemini 4 Neon 以 1336 分空降第二，OpenAI GPT-6.2 Astra 与 Sol 分列第六和第十一，阿里 Qwen4-Max 位列第十四并成为排名最高的中国模型。榜单同时引入成本维度，Meta Muse Ember 在 WebDev 代码竞技场以约 0.03 美元单任务成本刷新性价比前沿。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Arena.ai (@arena)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
