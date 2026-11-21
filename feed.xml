@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 22 Nov 2026 01:20:44 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 22 Nov 2026 02:02:19 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Open Source Quantization Compiler Shrinks Qwen3.5-4B to 1.2 GB</title><link>https://github.com/ShinMegamiBoson/lookatmyquant</link><guid isPermaLink="true">https://github.com/ShinMegamiBoson/lookatmyquant</guid>
+<pubDate>Sun, 22 Nov 2026 02:02:19 +0800</pubDate>
+<description>&lt;p&gt;The open source LookAtMyQuant project introduces a post-training quantization compiler that allocates bit budgets per stored unit based on measured output damage, using Fisher information and trellis codes. Its second version compresses Qwen3.5-4B to 1.23 GB (~2.3 bits per weight), solving 330 of 540 exact-answer math problems versus 328 for the same-size Bonsai 2 Ternary 4B, with lower KL divergence (0.45 vs 0.59 nats). The full recipe and roughly $34 of GPU cost are published under the MIT license.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;开源量化编译器将 Qwen3.5-4B 压至 1.2 GB&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;在极小体积下实现优于同尺寸竞品的量化质量，且配方与成本完全公开，对本地部署与端侧推理有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 71/100&lt;/p&gt;</description>
+<source url="https://github.com/ShinMegamiBoson/lookatmyquant">Hacker News AI</source>
+<category>模型量化</category>
+<category>开源</category>
+<category>Qwen</category>
+<category>本地部署</category>
+</item>
 <item><title>OpenAI&#x27;s GPT-6.2 Astra Gains Coding Strength but Loses Chat Ground</title><link>https://x.com/arena/status/2124191294360588725</link><guid isPermaLink="true">https://x.com/arena/status/2124191294360588725</guid>
 <pubDate>Sun, 22 Nov 2026 01:20:44 +0800</pubDate>
 <description>&lt;p&gt;Arena.ai&amp;#x27;s Agent Arena Index places OpenAI&amp;#x27;s GPT-6.2 Astra (Max) at #6 overall, just one spot above GPT-6 Astra (Max). The new model improves coding from 1,288 to 1,338, rising from #8 to #3, but drops in chat from 1,265 to 1,211, falling from #8 to #11, with the two shifts nearly canceling out in the aggregate score.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;GPT-6.2 Astra 编程能力跃升但聊天能力下滑&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;榜单数据显示新模型能力结构出现明显取舍，对关注模型迭代方向的读者有参考价值。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 58/100&lt;/p&gt;</description>
@@ -209,9 +218,9 @@
 <category>智能体安全</category>
 <category>隐私计算</category>
 </item>
-<item><title>Grok Engineer Shares AI Coding Playbook Behind 3,000 Monthly PRs</title><link>https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247947677&amp;idx=2&amp;sn=b447df9da18baf8a4c7a3f9f7fdd034f</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247947677&amp;idx=2&amp;sn=b447df9da18baf8a4c7a3f9f7fdd034f</guid>
+<item><title>Grok 工程师单月提交 3000 个 PR 的 AI 编程心法</title><link>https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247947677&amp;idx=2&amp;sn=b447df9da18baf8a4c7a3f9f7fdd034f</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247947677&amp;idx=2&amp;sn=b447df9da18baf8a4c7a3f9f7fdd034f</guid>
 <pubDate>Sat, 21 Nov 2026 17:52:00 +0800</pubDate>
-<description>&lt;p&gt;SpaceXAI principal engineer Lauren Tan presented her AI coding methodology at the AI Engineer CODE conference, framing the challenge as converting a low-trust agent environment into a high-trust one. She proposed a trust inverted pyramid that prioritizes code architecture and deterministic checks over natural-language rules, and stressed keeping the codebase clean and banning most code comments. She personally filed 3,000 PRs last month, while her team shipped 11,000 with only a 0.5% revert rate.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Grok 工程师单月提交 3000 个 PR 的 AI 编程心法&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自一线高频 AI 编程实践者的具体方法论，对使用 Agent 写代码的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;量子位 (微信公众号) · tools · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;SpaceXAI 首席工程师 Lauren Tan 在 AI Engineer CODE 大会上分享了她的 AI 编程方法论，核心是把低信任度的 Agent 工作环境改造成高信任度环境。她提出信任倒金字塔模型，主张把精力优先投入代码架构与确定性检查工具，而非自然语言规则，并强调保持代码库整洁、禁用绝大多数代码注释。她上月个人提交 3000 个 PR，团队整体交付 1.1 万个 PR，撤回率仅 0.5%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自一线高频 AI 编程实践者的具体方法论，对使用 Agent 写代码的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;量子位 (微信公众号) · tools · signal 62/100&lt;/p&gt;</description>
 <source url="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247947677&amp;idx=2&amp;sn=b447df9da18baf8a4c7a3f9f7fdd034f">量子位 (微信公众号)</source>
 <category>AI 编程</category>
 <category>Agent</category>
@@ -263,14 +272,6 @@
 <category>开源</category>
 <category>GnuPG</category>
 <category>加密库</category>
-</item>
-<item><title>Gemini Neon 视频生成效果获实测好评</title><link>https://x.com/dotey/status/2124052093971624234</link><guid isPermaLink="true">https://x.com/dotey/status/2124052093971624234</guid>
-<pubDate>Sat, 21 Nov 2026 16:07:36 +0800</pubDate>
-<description>&lt;p&gt;宝玉实测指出 Gemini Neon 在视频生成任务上效果不错，并附上开源视频制作 Artifact（skill）项目链接。该内容属于个人使用体验分享，未披露具体参数、评测数据或方法细节。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供 Gemini Neon 视频能力的早期实测线索与开源配套 skill，但缺乏量化数据，适合作为工具选型参考。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · tools · signal 38/100&lt;/p&gt;</description>
-<source url="https://x.com/dotey/status/2124052093971624234">宝玉 (@dotey)</source>
-<category>Gemini Neon</category>
-<category>视频生成</category>
-<category>开源工具</category>
 </item>
 </channel>
 </rss>
