@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 22 Nov 2026 00:23:45 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 22 Nov 2026 00:45:08 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>LangChain Pitches Knowledge Factory Architecture for Enterprise Agents</title><link>https://www.langchain.com/blog/knowledge-factory</link><guid isPermaLink="true">https://www.langchain.com/blog/knowledge-factory</guid>
+<pubDate>Sun, 22 Nov 2026 00:45:08 +0800</pubDate>
+<description>&lt;p&gt;LangChain introduces the \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;LangChain 提出知识工厂架构破解智能体落地难题&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自 LangChain 创始人的方法论文章，提出企业智能体落地的知识工程路径，对构建内部 Agent 的团队有参考价值。&lt;/p&gt;&lt;p&gt;LangChain Blog · agent · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.langchain.com/blog/knowledge-factory">LangChain Blog</source>
+<category>智能体</category>
+<category>知识工程</category>
+<category>LangChain</category>
+<category>企业落地</category>
+</item>
+<item><title>NVIDIA Method Caches LLM Reasoning as CPU Code to Cut Costs 291x</title><link>https://x.com/rohanpaul_ai/status/2124177125247013266</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2124177125247013266</guid>
+<pubDate>Sun, 22 Nov 2026 00:24:26 +0800</pubDate>
+<description>&lt;p&gt;An NVIDIA paper proposes compiling an LLM&amp;#x27;s reasoning trace into small parameterized Python functions that run on CPU, invoking a fine-tuned 1B model only for lightweight text tasks such as value extraction. The cache matched or beat the source model on 7 of 8 math and science benchmarks, scoring 93.3% versus 83.3% on AIME &amp;#x27;25, and covered at least 90% of rephrased or re-numbered variants at 16x to 291x lower cost.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达新方法将推理轨迹缓存为 CPU 代码 成本降 291 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把重复推理固化为可执行代码的思路，为智能体高频调用场景提供了可量化的降本路径。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2124177125247013266">Rohan Paul (@rohanpaul_ai)</source>
+<category>推理缓存</category>
+<category>智能体</category>
+<category>降本</category>
+<category>英伟达</category>
+</item>
 <item><title>Nvidia Researchers Call Huge Context Windows a Dead End</title><link>https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/</link><guid isPermaLink="true">https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/</guid>
 <pubDate>Sun, 22 Nov 2026 00:23:45 +0800</pubDate>
 <description>&lt;p&gt;An Nvidia research team argues that ever-larger context windows are often overkill and expensive. In many tests, periodic summarization combined with targeted lookups performed about as well as stuffing entire documents into the prompt, suggesting the industry should rethink the &amp;#x27;longer is better&amp;#x27; assumption.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达研究员称超大上下文窗口是死路&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;对主流“堆上下文”路线提出反直觉质疑，涉及成本与架构取舍，值得关注。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 58/100&lt;/p&gt;</description>
@@ -211,17 +229,17 @@
 <category>GnuPG</category>
 <category>加密库</category>
 </item>
-<item><title>Gemini Neon Shows Strong Video Generation Results in Early Test</title><link>https://x.com/dotey/status/2124052093971624234</link><guid isPermaLink="true">https://x.com/dotey/status/2124052093971624234</guid>
+<item><title>Gemini Neon 视频生成效果获实测好评</title><link>https://x.com/dotey/status/2124052093971624234</link><guid isPermaLink="true">https://x.com/dotey/status/2124052093971624234</guid>
 <pubDate>Sat, 21 Nov 2026 16:07:36 +0800</pubDate>
-<description>&lt;p&gt;Baoyu reports that Gemini Neon performs well on video generation tasks and links an open-source video Artifact skill project. The post is a personal hands-on impression without disclosed parameters, benchmarks, or methodology.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Gemini Neon 视频生成效果获实测好评&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供 Gemini Neon 视频能力的早期实测线索与开源配套 skill，但缺乏量化数据，适合作为工具选型参考。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · tools · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;宝玉实测指出 Gemini Neon 在视频生成任务上效果不错，并附上开源视频制作 Artifact（skill）项目链接。该内容属于个人使用体验分享，未披露具体参数、评测数据或方法细节。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供 Gemini Neon 视频能力的早期实测线索与开源配套 skill，但缺乏量化数据，适合作为工具选型参考。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · tools · signal 38/100&lt;/p&gt;</description>
 <source url="https://x.com/dotey/status/2124052093971624234">宝玉 (@dotey)</source>
 <category>Gemini Neon</category>
 <category>视频生成</category>
 <category>开源工具</category>
 </item>
-<item><title>Google Adds GIF Generation to Gemini Powered by Omni 1.2 Flash</title><link>https://www.ithome.com/1/030/381.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/381.htm</guid>
+<item><title>谷歌 Gemini 上线 GIF 生成功能，由 Omni 1.2 Flash 驱动</title><link>https://www.ithome.com/1/030/381.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/381.htm</guid>
 <pubDate>Sat, 21 Nov 2026 15:41:30 +0800</pubDate>
-<description>&lt;p&gt;Google has added GIF generation to the Gemini app, powered by its Gemini Omni 1.2 Flash video model, enabling looping animations and meme creation. The feature is available to all Google AI subscribers and free in eight countries including the US, Japan and Korea. It is a routine consumer-facing multimodal extension with limited technical novelty but lower barriers to animated image creation.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌 Gemini 上线 GIF 生成功能，由 Omni 1.2 Flash 驱动&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流多模态产品新增动态图生成入口，对关注 AI 创作工具演进的读者有实用参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;谷歌为 Gemini 应用新增 GIF 动态图生成能力，由视频模型 Gemini Omni 1.2 Flash 驱动，支持循环动效与表情包创作，面向所有 Google AI 订阅用户开放，并在美日韩等八国免费。该功能属于消费级多模态工具的常规扩展，技术增量有限，但降低了动态图像创作门槛。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流多模态产品新增动态图生成入口，对关注 AI 创作工具演进的读者有实用参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 42/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/030/381.htm">IT之家 · 智能时代</source>
 <category>多模态生成</category>
 <category>谷歌</category>
@@ -253,24 +271,6 @@
 <category>智元</category>
 <category>蓝思科技</category>
 <category>3C 制造</category>
-</item>
-<item><title>GPT-6.2 Astra 具身任务成功率翻倍至 41.2%</title><link>https://www.qbitai.com/2026/11/511779.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/511779.html</guid>
-<pubDate>Sat, 21 Nov 2026 14:35:59 +0800</pubDate>
-<description>&lt;p&gt;在机器人基础设施公司 XDOF 的 Ember-0 双臂机器人基准实测中，GPT-6.2 Astra 的 16 项操作任务综合成功率从两个月前 GPT-6 Astra 的 19.6% 提升至 41.2%，实现翻倍。其中给绳子打结、展开 T 恤两项此前无模型通关的柔性物体任务首次被攻克，且提升覆盖整套任务而非单点突破。XDOF 表示该基准或不久后被模型能力饱和。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;前沿多模态大模型在真实物理操作基准上两月翻倍并首次攻克柔性物体任务，是具身智能能力跃迁的硬信号。&lt;/p&gt;&lt;p&gt;量子位官网 · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.qbitai.com/2026/11/511779.html">量子位官网</source>
-<category>具身智能</category>
-<category>多模态大模型</category>
-<category>机器人基准</category>
-<category>OpenAI</category>
-</item>
-<item><title>DeepSeek V1 作者开源个人 Agent 项目 Linger</title><link>https://www.qbitai.com/2026/11/511570.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/511570.html</guid>
-<pubDate>Sat, 21 Nov 2026 14:32:31 +0800</pubDate>
-<description>&lt;p&gt;前 DeepSeek V1 作者、DeepSeek-VL 项目负责人 Tony Zhang 公布创业项目 Linger，定位为运行在个人电脑上的开源 Personal Agent。其核心是名为 Another Me 的本地记忆中枢，每晚将邮件、日历、聊天记录整理为个人知识库，LoCoMo 长期记忆基准准确率达 95%，并支持接入第三方模型与本地 LLM 优化。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;DeepSeek 核心作者创业并选择开源路线，叠加本地记忆与端侧推理的明确技术方案，对 Agent 与开源生态读者具备实质参考价值。&lt;/p&gt;&lt;p&gt;量子位官网 · agent · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.qbitai.com/2026/11/511570.html">量子位官网</source>
-<category>智能体</category>
-<category>开源</category>
-<category>本地推理</category>
-<category>DeepSeek</category>
 </item>
 </channel>
 </rss>
