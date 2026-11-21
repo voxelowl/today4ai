@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 22 Nov 2026 02:02:19 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 22 Nov 2026 02:47:26 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Claude Autonomously Finds Algorithm Breaking 3SUM and APSP Limits</title><link>https://x.com/rohanpaul_ai/status/2124213113583174076</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2124213113583174076</guid>
+<pubDate>Sun, 22 Nov 2026 02:47:26 +0800</pubDate>
+<description>&lt;p&gt;A new Columbia and MIT paper reports that Claude autonomously discovered a faster method for computing selected entries of a product of two long, thin matrices, which classic reductions turn into speedups for 3SUM and all-pairs shortest paths. 3SUM now runs in O(n^1.9992) and APSP in O(n^2.9995, tiny gains that nonetheless refute the long-standing 3SUM and APSP hypotheses. The method was found in a single AI session using 16M output tokens with no human input and was formally checked in Lean 4.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Claude 自主发现算法突破 3SUM 与全源最短路极限&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 首次自主推翻长期算法复杂度猜想，是 AI for Science 与算法研究的标志性节点。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 88/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2124213113583174076">Rohan Paul (@rohanpaul_ai)</source>
+<category>AI for Science</category>
+<category>算法复杂度</category>
+<category>Claude</category>
+<category>形式化验证</category>
+<category>3SUM</category>
+</item>
 <item><title>Open Source Quantization Compiler Shrinks Qwen3.5-4B to 1.2 GB</title><link>https://github.com/ShinMegamiBoson/lookatmyquant</link><guid isPermaLink="true">https://github.com/ShinMegamiBoson/lookatmyquant</guid>
 <pubDate>Sun, 22 Nov 2026 02:02:19 +0800</pubDate>
 <description>&lt;p&gt;The open source LookAtMyQuant project introduces a post-training quantization compiler that allocates bit budgets per stored unit based on measured output damage, using Fisher information and trellis codes. Its second version compresses Qwen3.5-4B to 1.23 GB (~2.3 bits per weight), solving 330 of 540 exact-answer math problems versus 328 for the same-size Bonsai 2 Ternary 4B, with lower KL divergence (0.45 vs 0.59 nats). The full recipe and roughly $34 of GPU cost are published under the MIT license.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;开源量化编译器将 Qwen3.5-4B 压至 1.2 GB&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;在极小体积下实现优于同尺寸竞品的量化质量，且配方与成本完全公开，对本地部署与端侧推理有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 71/100&lt;/p&gt;</description>
@@ -227,9 +237,9 @@
 <category>开发者工具</category>
 <category>Grok</category>
 </item>
-<item><title>Tencent Yuanbao and KCL Release Group Chat Agent Memory Benchmark</title><link>https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247947677&amp;idx=3&amp;sn=0797fbd2116a405b44176c97577757d8</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247947677&amp;idx=3&amp;sn=0797fbd2116a405b44176c97577757d8</guid>
+<item><title>腾讯元宝联合 KCL 发布群聊 Agent 记忆基准</title><link>https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247947677&amp;idx=3&amp;sn=0797fbd2116a405b44176c97577757d8</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247947677&amp;idx=3&amp;sn=0797fbd2116a405b44176c97577757d8</guid>
 <pubDate>Sat, 21 Nov 2026 17:52:00 +0800</pubDate>
-<description>&lt;p&gt;Tencent Yuanbao and King&amp;#x27;s College London&amp;#x27;s NLP team jointly released GroupAssistBench, built from 50 real group chats and 80,299 historical messages into 2,395 evaluation tasks, splitting agent memory into L1 factual recall and L2 open-ended service. Across 14 configurations, stronger recall did not imply better service: EverMemOS scored 0.621 on L1 versus 0.570 for full context, yet only 0.247 on L2 versus 0.431. The paper, code and dataset are all public.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;腾讯元宝联合 KCL 发布群聊 Agent 记忆基准&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个基于真实群聊构建的 Agent 记忆基准，揭示记忆召回与服务能力脱节的关键问题，且数据代码全开源。&lt;/p&gt;&lt;p&gt;量子位 (微信公众号) · agent · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;腾讯元宝与伦敦国王学院 NLP 团队联合发布 GroupAssistBench，基于 50 个真实群聊、80,299 条历史消息构建 2,395 道评测题，首次将 Agent 记忆能力拆分为 L1 事实召回与 L2 开放式服务两个层级。实验对比 14 组配置后发现，记忆召回更强并不等于服务能力更强，例如 EverMemOS 在 L1 得分 0.621 高于完整上下文的 0.570，但在 L2 仅得 0.247，远低于后者的 0.431。论文、代码与数据集均已公开。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个基于真实群聊构建的 Agent 记忆基准，揭示记忆召回与服务能力脱节的关键问题，且数据代码全开源。&lt;/p&gt;&lt;p&gt;量子位 (微信公众号) · agent · signal 78/100&lt;/p&gt;</description>
 <source url="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247947677&amp;idx=3&amp;sn=0797fbd2116a405b44176c97577757d8">量子位 (微信公众号)</source>
 <category>Agent 记忆</category>
 <category>评测基准</category>
@@ -263,15 +273,6 @@
 <category>国家数据局</category>
 <category>算力基础设施</category>
 <category>政策标准</category>
-</item>
-<item><title>GPGME 修复可致远程代码执行的关键漏洞</title><link>https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html</link><guid isPermaLink="true">https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html</guid>
-<pubDate>Sat, 21 Nov 2026 16:32:58 +0800</pubDate>
-<description>&lt;p&gt;GnuPG 项目发布 GPGME 2.3.1，修复一个影响所有历史版本的关键安全漏洞（CVE-2026-129975）。攻击者可通过构造超长 OpenPGP 用户 ID 触发双重释放，进而窃取应用数据甚至实现远程代码执行，Gpg4win 与 GnuPG Desktop 等下游产品已同步更新。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及广泛部署的加密库关键 RCE 漏洞，所有使用 GPGME 的应用与下游发行版都需立即升级。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
-<source url="https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html">Hacker News AI</source>
-<category>安全漏洞</category>
-<category>开源</category>
-<category>GnuPG</category>
-<category>加密库</category>
 </item>
 </channel>
 </rss>
