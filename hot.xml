@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Sun, 22 Nov 2026 01:07:07 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 22 Nov 2026 01:20:44 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Lean 社区启动黎曼猜想形式化证明独立验证</title><link>https://todayforai.com/en/story/story-c508eedd-8d6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c508eedd-8d6</guid>
 <pubDate>Sat, 21 Nov 2026 23:54:34 +0800</pubDate>
@@ -25,7 +25,7 @@ Inkling 2 Mini 的发布标志着循环架构在开源模型中的一次重要�
 
 此次 IPO 获得约 6 倍超额认购，散户配售比例提升至 20%。除公开发行 8.25 亿股外，谷歌、英伟达、微软、AMD、博通、美光、台积电等七家巨头还以同价参与 260 亿美元的私募配售，其中英伟达认购 100 亿美元。公司年化收入已从 9 月的 710 亿美元增至 10 月底的 810 亿美元，支撑强劲需求。CEO Dario Amodei 表示，上市核心目的是囤积现金以支撑总额 9000 亿美元的算力基础设施投入，包括与 SpaceX 每月最高 31 亿美元的数据中心协议。
 
-Anthropic 的上市标志着头部大模型公司首次进入公开资本市场，为 AI 行业估值与商业化能力提供了关键定价锚点。其约 2200 亿美元的现金储备将加剧与 OpenAI 等对手的算力军备竞赛，同时也让资本市场对 AI 泡沫的争论更趋白热化。&lt;/p&gt;&lt;p&gt;9 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · IT业界, Anthropic AI (@AnthropicAI), Yuchen Jin (@Yuchenj_UW), 机器之心 (微信公众号), The Decoder&lt;/p&gt;</description>
+Anthropic 的上市标志着头部大模型公司首次进入公开资本市场，为 AI 行业估值与商业化能力提供了关键定价锚点。其约 2200 亿美元的现金储备将加剧与 OpenAI 等对手的算力军备竞赛，同时也让资本市场对 AI 泡沫的争论更趋白热化。&lt;/p&gt;&lt;p&gt;8 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · IT业界, Anthropic AI (@AnthropicAI), Yuchen Jin (@Yuchenj_UW), 机器之心 (微信公众号), The Decoder&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 强化推理防泄露 攻击成功率降至 0.2%</title><link>https://todayforai.com/en/story/story-fe915d44-805</link><guid isPermaLink="true">https://todayforai.com/en/story/story-fe915d44-805</guid>
 <pubDate>Sat, 21 Nov 2026 09:45:22 +0800</pubDate>
@@ -34,6 +34,14 @@ Anthropic 的上市标志着头部大模型公司首次进入公开资本市场�
 防御体系由三层构成：单请求层面的对抗性训练、输入输出分类器与 API 级推理内容隔离；跨会话与跨组织的推理复用限制；以及针对协同攻击的批量账号封禁。OpenAI 每周对数千至数万个未授权蒸馏账号采取执法行动，并与其他厂商共享攻击指标。官方博客特别指出，在 SWE-bench Verified 与前沿网络安全任务上，完整推理记录比摘要更具蒸馏价值，因此防御必须覆盖推理链输出。
 
 这一披露对行业具有双重意义：一方面，对抗蒸馏可让攻击者复刻前沿能力并剥离安全护栏，形成实质滥用风险，OpenAI 的防御框架提供了可复用的跨行业经验；另一方面，Arena.ai 同期更新的对齐指数显示 OpenAI 包揽前七名，Claude Fable 5.2 首发第八，Kimi K3.1 Pro 为最强开源模型（第九），表明安全与对齐正成为模型竞争力的关键维度。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, Arena.ai (@arena), IT之家 · 智能时代, OpenAI 官方博客, The Decoder&lt;/p&gt;</description>
+</item>
+<item><title>OpenAI 发布 GPT-6.2 Astra 与 Sol 提示词模板</title><link>https://todayforai.com/en/story/story-f32ec359-08b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f32ec359-08b</guid>
+<pubDate>Sun, 22 Nov 2026 01:20:44 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 正式发布 GPT-6.2 Astra 与 Sol 的系统提示词模板，旨在纠正模型默认回答过短、频繁反问打断流程等行为问题。模板覆盖写作风格、主动性与编码三类规范，其中编码模板明确要求复用既有代码、避免无谓抽象，并仅在明确要求或出现特定错误时新增测试。
+
+与此同时，API 侧同步发生重要变化：编辑对话历史会丢弃此前的推理步骤，影响 token 成本与回答质量；temperature 与 top_p 等参数已被移除。另据 Arena.ai 的 Agent Arena Index 评测，GPT-6.2 Astra 编程得分从 1,288 升至 1,338，排名由第 8 跃升至第 3；但聊天得分从 1,265 降至 1,211，排名由第 8 跌至第 11，两项变化在总分上几乎相互抵消，综合排名仅比 GPT-6 Astra 高一位。
+
+此次发布反映出 OpenAI 在提升模型编程能力的同时，正通过提示词模板引导用户规范使用，以弥补聊天体验的短板。API 参数的移除与推理步骤的丢弃可能影响开发者成本与输出稳定性，而编程能力的显著跃升则可能吸引更多代码生成场景的采用。整体来看，GPT-6.2 Astra 在专业任务与通用对话之间的能力分化，或将成为后续迭代的重点方向。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Arena.ai (@arena), The Decoder&lt;/p&gt;</description>
 </item>
 <item><title>谷歌发布 Gemini 4 Neon 登顶 Agent Arena 第二</title><link>https://todayforai.com/en/story/story-d7aabeb3-ec9</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d7aabeb3-ec9</guid>
 <pubDate>Sat, 21 Nov 2026 05:39:48 +0800</pubDate>
@@ -70,14 +78,6 @@ Neon 的发布标志着谷歌模型迭代节奏近乎指数级加快，发布间
 测试结果显示，最强模型 GPT-6.2 Astra 在 xhigh 推理档下总体得分约 84.5%，分子结构重建分项高达 95.4%，但在关键决策（如化合物筛选与数值性质预测）上正确率仅约五成。相比之下，GPT-5.6 Sol 仅得 58.2%，模型间差距明显。OpenAI 强调，该结果不能证明模型能发现新药，仅用于定位能力边界与短板。
 
 MedChemBench 的推出为药物化学领域的 AI 应用提供了可量化的评估工具，揭示了前沿模型在结构解读与真实决策之间的显著落差。这有助于引导后续模型迭代聚焦于提升因果推理与实验证据整合能力，对 AI 辅助药物发现赛道具有风向标意义。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), OpenAI 官方博客, IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
-<item><title>HeyGen 上线 Decision 1 多模态概率判定模型</title><link>https://todayforai.com/en/story/story-4c3c4a18-8e7</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4c3c4a18-8e7</guid>
-<pubDate>Sat, 21 Nov 2026 07:14:24 +0800</pubDate>
-<description>&lt;p&gt;HeyGen 正式推出 Decision 1 模型，并已在 OpenRouter 平台上线。该模型不生成自然语言文本，而是接收视频、音频、图像与文本的多模态输入，针对每个问题返回校准后的概率值，可直接接入业务代码逻辑。单次调用最多支持 400 个问题，延迟约 100 毫秒，输入价格在 12 月 1 日前享受五折优惠，Turbo 版本每百万 token 仅 0.042 美元，输出免费。
-
-综合多方信源，Decision 1 的核心特性在于批量概率判定能力。官方演示中，手势与情绪识别 8 题全对，单次成本约 0.0027 美元，凸显低成本实用导向。模型通过 AI/ML API 平台分发，与 OpenRouter 形成互补渠道。其输出概率值而非文本的设计，便于开发者直接嵌入风控、身份核验等自动化流程，例如判断自拍视频与证件照是否同一人、是否为活体采集。
-
-此次发布标志着 AI 模型从内容生成向决策判定延伸，为视频审核、金融身份认证、互动娱乐等场景提供了可量化的概率工具。HeyGen 以极低定价和批量处理能力切入，有望降低多模态判定的应用门槛，推动概率型 AI 服务成为新的基础设施。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter), Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

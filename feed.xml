@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 22 Nov 2026 01:08:04 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 22 Nov 2026 01:20:44 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>OpenAI&#x27;s GPT-6.2 Astra Gains Coding Strength but Loses Chat Ground</title><link>https://x.com/arena/status/2124191294360588725</link><guid isPermaLink="true">https://x.com/arena/status/2124191294360588725</guid>
+<pubDate>Sun, 22 Nov 2026 01:20:44 +0800</pubDate>
+<description>&lt;p&gt;Arena.ai&amp;#x27;s Agent Arena Index places OpenAI&amp;#x27;s GPT-6.2 Astra (Max) at #6 overall, just one spot above GPT-6 Astra (Max). The new model improves coding from 1,288 to 1,338, rising from #8 to #3, but drops in chat from 1,265 to 1,211, falling from #8 to #11, with the two shifts nearly canceling out in the aggregate score.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;GPT-6.2 Astra 编程能力跃升但聊天能力下滑&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;榜单数据显示新模型能力结构出现明显取舍，对关注模型迭代方向的读者有参考价值。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/arena/status/2124191294360588725">Arena.ai (@arena)</source>
+<category>大模型</category>
+<category>OpenAI</category>
+<category>基准评测</category>
+</item>
 <item><title>gopgext Lets Developers Build PostgreSQL Extensions in Go</title><link>https://jespino.github.io/gopgext/</link><guid isPermaLink="true">https://jespino.github.io/gopgext/</guid>
 <pubDate>Sun, 22 Nov 2026 01:08:04 +0800</pubDate>
 <description>&lt;p&gt;Open-source project gopgext uses a custom TinyGo target and runtime layer to compile plain Go code into PostgreSQL extensions, auto-generating C glue, install scripts and control files. It supports the standard library, SQL type mapping, SPI queries and SQLSTATE error codes, but remains experimental and is explicitly not production-ready.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;gopgext 让 Go 直接编写 PostgreSQL 扩展&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为 PostgreSQL 扩展开发引入 Go 生态，思路与 gokm 一脉相承，对数据库与 Go 开发者有实际参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
@@ -220,9 +228,9 @@
 <category>群聊助手</category>
 <category>开源数据集</category>
 </item>
-<item><title>MachinePulse Open-Sources Browser Agent Framework and 31B Decision Model</title><link>https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247947677&amp;idx=1&amp;sn=ebf1f96b9afceacdfa0d407ecdb3ff2b</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247947677&amp;idx=1&amp;sn=ebf1f96b9afceacdfa0d407ecdb3ff2b</guid>
+<item><title>MachinePulse 开源浏览器 Agent 框架与 31B 决策模型</title><link>https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247947677&amp;idx=1&amp;sn=ebf1f96b9afceacdfa0d407ecdb3ff2b</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247947677&amp;idx=1&amp;sn=ebf1f96b9afceacdfa0d407ecdb3ff2b</guid>
 <pubDate>Sat, 21 Nov 2026 17:52:00 +0800</pubDate>
-<description>&lt;p&gt;MachinePulse AI has open-sourced Karpo Decision 31B, a low-latency decision model for agents, alongside the karpo-browser framework, a 27B Act action model, and the KBB evaluation set. On Browserbase Benchmark v2, the stack reports 89% average success at 201 seconds per task and $0.096 model cost per task, roughly 1.9x faster and about one-thirteenth the cost of the Claude Fable 5.2 setup.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;MachinePulse 开源浏览器 Agent 框架与 31B 决策模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源了专为 Agent 决策与浏览器操作设计的模型加框架组合，并给出速度与成本量级数据，对 Agent 工程实践有直接参考价值。&lt;/p&gt;&lt;p&gt;量子位 (微信公众号) · agent · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;MachinePulse AI 开源了面向 Agent 高频决策的 Karpo Decision 31B 模型，以及配套的 karpo-browser 浏览器操作框架、27B Act 动作模型和 KBB 评测集。官方数据显示，该方案在 Browserbase Benchmark v2 上取得 89% 平均成功率、201 秒平均耗时，单任务模型成本仅 0.096 美元，速度约为 Claude Fable 5.2 方案的 1.9 倍、成本约为其十三分之一。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源了专为 Agent 决策与浏览器操作设计的模型加框架组合，并给出速度与成本量级数据，对 Agent 工程实践有直接参考价值。&lt;/p&gt;&lt;p&gt;量子位 (微信公众号) · agent · signal 78/100&lt;/p&gt;</description>
 <source url="https://mp.weixin.qq.com/s?__biz=MzIzNjc1NzUzMw==&amp;mid=2247947677&amp;idx=1&amp;sn=ebf1f96b9afceacdfa0d407ecdb3ff2b">量子位 (微信公众号)</source>
 <category>智能体</category>
 <category>浏览器 Agent</category>
@@ -263,15 +271,6 @@
 <category>Gemini Neon</category>
 <category>视频生成</category>
 <category>开源工具</category>
-</item>
-<item><title>谷歌 Gemini 上线 GIF 生成功能，由 Omni 1.2 Flash 驱动</title><link>https://www.ithome.com/1/030/381.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/381.htm</guid>
-<pubDate>Sat, 21 Nov 2026 15:41:30 +0800</pubDate>
-<description>&lt;p&gt;谷歌为 Gemini 应用新增 GIF 动态图生成能力，由视频模型 Gemini Omni 1.2 Flash 驱动，支持循环动效与表情包创作，面向所有 Google AI 订阅用户开放，并在美日韩等八国免费。该功能属于消费级多模态工具的常规扩展，技术增量有限，但降低了动态图像创作门槛。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流多模态产品新增动态图生成入口，对关注 AI 创作工具演进的读者有实用参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 42/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/030/381.htm">IT之家 · 智能时代</source>
-<category>多模态生成</category>
-<category>谷歌</category>
-<category>Gemini</category>
-<category>GIF</category>
 </item>
 </channel>
 </rss>
