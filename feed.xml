@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 21 Nov 2026 20:36:00 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 21 Nov 2026 21:32:35 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>OpenAI Ships New Prompt Templates for GPT-6.2 Astra and Sol</title><link>https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/</link><guid isPermaLink="true">https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/</guid>
+<pubDate>Sat, 21 Nov 2026 21:32:35 +0800</pubDate>
+<description>&lt;p&gt;OpenAI published copy-ready system prompt templates for GPT-6.2 Astra and Sol to correct behaviors observed in both releases, notably overly brief default answers and unnecessary clarifying questions that interrupt workflows. The templates cover writing style, initiative, and coding, with coding guidance to reuse existing code, avoid needless abstractions, and add tests only on request or for specific errors. API changes accompany the release: editing conversation history discards earlier reasoning steps, affecting token cost and response quality, while parameters such as temperature and top_p are gone.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 发布 GPT-6.2 Astra 与 Sol 提示词模板&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;官方提示词模板与 API 行为变更直接影响所有使用 Astra 与 Sol 的开发者，属于可立即落地的工程实践更新。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 68/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/">The Decoder</source>
+<category>大模型</category>
+<category>OpenAI</category>
+<category>提示词工程</category>
+<category>API 变更</category>
+</item>
 <item><title>Lagarde Urges EU Public Funds to Absorb First-Loss Risk on Chip and Data Center Projects</title><link>https://www.ithome.com/1/030/472.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/472.htm</guid>
 <pubDate>Sat, 21 Nov 2026 20:36:00 +0800</pubDate>
 <description>&lt;p&gt;In her final speech before stepping down, ECB President Christine Lagarde called on the EU to use public funds, including the EU budget, to absorb first-loss risk on large chip fab and data center projects so as to crowd in private capital through cross-regional public-private partnerships. She cited an estimate that lifting Europe&amp;#x27;s share of global AI compute from about 5% to 15% by 2030 would require roughly EUR 1.3 trillion in investment.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;拉加德呼吁欧盟公共资金兜底芯片与数据中心首轮损失&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;欧洲最高货币官员就 AI 算力基建的公共资本撬动机制给出明确政策主张与万亿级投资量级，是观察欧洲算力主权路线的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 72/100&lt;/p&gt;</description>
@@ -11,6 +20,15 @@
 <category>欧盟</category>
 <category>AI 投资</category>
 <category>数据中心</category>
+</item>
+<item><title>Thinking Machines Open-Sources 26.4B Looped Transformer Inkling 2 Mini</title><link>https://x.com/Marktechpost/status/2124115475932316046</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2124115475932316046</guid>
+<pubDate>Sat, 21 Nov 2026 20:19:28 +0800</pubDate>
+<description>&lt;p&gt;Thinking Machines released Inkling 2 Mini, a looped transformer that stores 24 layers but runs the middle 12 three times with shared weights, yielding 48 layer passes per token from a ~20GB checkpoint that fits on a 32GB Mac. The 26.4B-total, 3.4B-active model supports 1M context under Apache 2.0, scoring 79.2% on SWE-bench Verified and 48.2% on DeepSWE 1.1 versus 42.2% for Qwen3.8-27B, while knowledge recall lags notably.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Thinking Machines 开源 26.4B 循环 Transformer 模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;循环层共享权重的小模型以 Apache 2.0 开源并可在消费级设备本地运行，为端侧与低成本推理提供新架构范式。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/Marktechpost/status/2124115475932316046">Marktechpost (@Marktechpost)</source>
+<category>大模型</category>
+<category>开源模型</category>
+<category>循环 Transformer</category>
+<category>Thinking Machines</category>
 </item>
 <item><title>Gelsinger Says AI Needs 10,000x Efficiency Leap Beyond Incremental Chips</title><link>https://www.ithome.com/1/030/464.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/464.htm</guid>
 <pubDate>Sat, 21 Nov 2026 19:43:07 +0800</pubDate>
@@ -211,17 +229,17 @@
 <category>Lean</category>
 <category>AI for Science</category>
 </item>
-<item><title>Antigravity Lacks Mobile App but Offers Web Add-to-Home-Screen Workaround</title><link>https://x.com/dotey/status/2123993892353675427</link><guid isPermaLink="true">https://x.com/dotey/status/2123993892353675427</guid>
+<item><title>Antigravity 暂无手机 App 可用网页版添加到主屏替代</title><link>https://x.com/dotey/status/2123993892353675427</link><guid isPermaLink="true">https://x.com/dotey/status/2123993892353675427</guid>
 <pubDate>Sat, 21 Nov 2026 12:16:20 +0800</pubDate>
-<description>&lt;p&gt;Antigravity has not yet shipped a mobile app, though one is said to be coming soon. Users can open the official site in a mobile browser and choose Add to Home Screen to get an app-like entry point for remotely driving and replying to all conversations.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Antigravity 暂无手机 App 可用网页版添加到主屏替代&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了一条可立即上手的移动端替代操作路径，对 Antigravity 用户有实用价值。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · tools · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Antigravity 目前尚未推出手机 App，官方称即将发布。用户可通过在手机浏览器打开官网并选择“添加到主屏幕”，将网页版变为类 App 入口，从而远程操控并回复所有对话。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了一条可立即上手的移动端替代操作路径，对 Antigravity 用户有实用价值。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · tools · signal 38/100&lt;/p&gt;</description>
 <source url="https://x.com/dotey/status/2123993892353675427">宝玉 (@dotey)</source>
 <category>Antigravity</category>
 <category>移动端</category>
 <category>开发者工具</category>
 </item>
-<item><title>SoftBank Weighed $1 Trillion Takeover of SK Hynix</title><link>https://www.ithome.com/1/030/339.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/339.htm</guid>
+<item><title>孙正义曾探讨万亿美元收购 SK 海力士</title><link>https://www.ithome.com/1/030/339.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/339.htm</guid>
 <pubDate>Sat, 21 Nov 2026 11:31:43 +0800</pubDate>
-<description>&lt;p&gt;The Information reported that Masayoshi Son approached Wall Street financiers about funding a takeover of SK Hynix, with a roughly 40% premium pushing the deal value toward $1 trillion. A SoftBank spokesperson said the transaction is no longer under active consideration. SK Hynix is a key HBM supplier for AI accelerators, so any deal would reshape the AI compute supply chain, though SoftBank&amp;#x27;s stretched balance sheet, Korean regulatory resistance and SK Group&amp;#x27;s lack of interest in selling are major obstacles.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;孙正义曾探讨万亿美元收购 SK 海力士&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及 AI 算力核心供应链 HBM 的潜在千亿美元级并购动向，虽已搁置但反映资本对算力上游的争夺逻辑。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;据 The Information 报道，孙正义近期曾接洽华尔街金融机构，探讨为收购 SK 海力士筹集资金，按 40% 溢价估算交易规模接近 1 万亿美元。软银发言人随后回应称该交易已不再处于积极考虑阶段。SK 海力士是全球 HBM 主要供应商，若交易推进将重塑 AI 算力供应链格局，但软银资产负债表承压、韩国监管阻力与 SK 集团无意出售构成实质障碍。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及 AI 算力核心供应链 HBM 的潜在千亿美元级并购动向，虽已搁置但反映资本对算力上游的争夺逻辑。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/030/339.htm">IT之家 · IT业界</source>
 <category>软银</category>
 <category>SK 海力士</category>
@@ -255,23 +273,6 @@
 <category>对抗性蒸馏</category>
 <category>OpenAI</category>
 <category>推理链</category>
-</item>
-<item><title>AWS Quick 升级多智能体协同与可视化流程编排</title><link>https://aws.amazon.com/blogs/machine-learning/new-in-aws-quick-more-capable-flows-an-updated-web-experience-and-agents-that-work-together/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/new-in-aws-quick-more-capable-flows-an-updated-web-experience-and-agents-that-work-together/</guid>
-<pubDate>Sat, 21 Nov 2026 09:06:42 +0800</pubDate>
-<description>&lt;p&gt;AWS 为其 AI 工作空间 Quick 推出更新，核心是让用户通过对话直接构建可编排智能体、技能与工具的业务流程，并新增确定性步骤以提升可验证性。同时上线多智能体编排，多个专用智能体并行处理同一请求并合并结果，Web 端还支持关闭标签页后任务继续运行。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;企业级 AI 工作空间开始把流程编排与多智能体协同产品化，值得关注智能体落地形态的读者一读。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · agent · signal 58/100&lt;/p&gt;</description>
-<source url="https://aws.amazon.com/blogs/machine-learning/new-in-aws-quick-more-capable-flows-an-updated-web-experience-and-agents-that-work-together/">AWS Machine Learning Blog</source>
-<category>智能体</category>
-<category>AWS</category>
-<category>工作流编排</category>
-<category>企业AI</category>
-</item>
-<item><title>Anthropic 研究员预测 2027 年底 AI 超越顶尖专家</title><link>https://www.ithome.com/1/030/308.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/308.htm</guid>
-<pubDate>Sat, 21 Nov 2026 08:53:29 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 技术团队成员 Tao Lin 预测，到 2027 年底 AI 在编程、电影制作等几乎所有领域可媲美或超越顶尖人类专家，并警告几乎所有人可能长期失去就业机会、转而依赖政府保障。但他同时指出，受机器人普及速度限制，2027 年出现大规模失业的可能性极低，替代实体经济工作仍需大规模机器人部署。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自前沿实验室研究员的激进时间线预测，涉及就业冲击与机器人瓶颈，具备讨论价值但缺乏可验证技术增量。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 52/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/030/308.htm">IT之家 · 智能时代</source>
-<category>Anthropic</category>
-<category>AI 就业冲击</category>
-<category>技术预测</category>
 </item>
 </channel>
 </rss>
