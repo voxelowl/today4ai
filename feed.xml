@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 21 Nov 2026 21:32:35 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 21 Nov 2026 22:26:35 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>South Korea President Visits SK Ulsan Data Center to Speed Up AI Race</title><link>https://www.ithome.com/1/030/506.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/506.htm</guid>
+<pubDate>Sat, 21 Nov 2026 22:26:35 +0800</pubDate>
+<description>&lt;p&gt;South Korean President Lee Jae-myung visited the Ulsan data center jointly developed by SK Group and AWS, stressing that speed is critical in the global AI race and hoping the project will attract more global AI investment. The project carries an estimated total investment of 7 trillion won, is slated to begin operations in the second half of 2027, and targets 103MW of initial capacity by 2029 with plans to expand by nearly 900MW.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;韩国总统视察 SK 蔚山数据中心 呼吁加快 AI 竞赛&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及国家级 AI 算力基础设施投资与政策信号，对关注算力布局的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 42/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/030/506.htm">IT之家 · 智能时代</source>
+<category>算力基础设施</category>
+<category>数据中心</category>
+<category>韩国</category>
+<category>SK 集团</category>
+</item>
 <item><title>OpenAI Ships New Prompt Templates for GPT-6.2 Astra and Sol</title><link>https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/</link><guid isPermaLink="true">https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/</guid>
 <pubDate>Sat, 21 Nov 2026 21:32:35 +0800</pubDate>
 <description>&lt;p&gt;OpenAI published copy-ready system prompt templates for GPT-6.2 Astra and Sol to correct behaviors observed in both releases, notably overly brief default answers and unnecessary clarifying questions that interrupt workflows. The templates cover writing style, initiative, and coding, with coding guidance to reuse existing code, avoid needless abstractions, and add tests only on request or for specific errors. API changes accompany the release: editing conversation history discards earlier reasoning steps, affecting token cost and response quality, while parameters such as temperature and top_p are gone.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 发布 GPT-6.2 Astra 与 Sol 提示词模板&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;官方提示词模板与 API 行为变更直接影响所有使用 Astra 与 Sol 的开发者，属于可立即落地的工程实践更新。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 68/100&lt;/p&gt;</description>
@@ -11,6 +20,14 @@
 <category>OpenAI</category>
 <category>提示词工程</category>
 <category>API 变更</category>
+</item>
+<item><title>SimpleBench Shows Top LLMs Still Trail Ordinary Humans on Common Sense</title><link>https://simple-bench.com/</link><guid isPermaLink="true">https://simple-bench.com/</guid>
+<pubDate>Sat, 21 Nov 2026 21:16:12 +0800</pubDate>
+<description>&lt;p&gt;Researchers released SimpleBench, a 200-plus-question multiple-choice benchmark covering spatio-temporal reasoning, social intelligence and linguistic adversarial trick questions. A non-specialized human baseline of 83.7% from nine participants beat every tested frontier model, with top performer Claude Fable reaching only 81.9%, showing memorized knowledge and approximate retrieval are still insufficient for basic common-sense questions.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SimpleBench 揭示顶尖模型常识推理不及普通人&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该基准以普通人基线反超所有前沿模型，为评估大模型真实推理短板提供了可复用的对照方法。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 58/100&lt;/p&gt;</description>
+<source url="https://simple-bench.com/">Hacker News AI</source>
+<category>基准评测</category>
+<category>推理能力</category>
+<category>大模型</category>
 </item>
 <item><title>Samsung Storage Capacity Through 2029 Largely Sold Out</title><link>https://www.ithome.com/1/030/475.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/475.htm</guid>
 <pubDate>Sat, 21 Nov 2026 20:47:11 +0800</pubDate>
@@ -211,18 +228,18 @@
 <category>本地推理</category>
 <category>DeepSeek</category>
 </item>
-<item><title>Tencent Hunyuan Team Reveals Hy Small Model Roadmap in Reddit AMA</title><link>https://www.qbitai.com/2026/11/511757.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/511757.html</guid>
+<item><title>腾讯混元团队 Reddit AMA 透露 Hy 小模型路线图</title><link>https://www.qbitai.com/2026/11/511757.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/511757.html</guid>
 <pubDate>Sat, 21 Nov 2026 14:30:55 +0800</pubDate>
-<description>&lt;p&gt;Tencent&amp;#x27;s Hunyuan team held a Reddit AMA on its newly released flagship Hy4 and lightweight Hy4 flash models, confirming that a small Hy model and a 24GB-VRAM variant are on the roadmap. The team also detailed how Flash was distilled from the flagship and then RL-tuned to shorten reasoning chains and curb overthinking.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;腾讯混元团队 Reddit AMA 透露 Hy 小模型路线图&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;官方团队首次公开小模型与低显存版本路线图，并披露 MoE 稀疏度与后训练细节，对关注开源模型落地的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;量子位官网 · llm · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;腾讯混元团队在 Reddit 举行 AMA，围绕本月发布的旗舰模型 Hy4 与轻量版 Hy4 flash 回应开发者提问。团队确认 Hy 小模型与面向 24GB 显存的版本已进入路线图，并披露 Flash 采用从旗舰蒸馏加强化学习压缩推理链、以缓解过度思考的训练路径。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;官方团队首次公开小模型与低显存版本路线图，并披露 MoE 稀疏度与后训练细节，对关注开源模型落地的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;量子位官网 · llm · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.qbitai.com/2026/11/511757.html">量子位官网</source>
 <category>腾讯混元</category>
 <category>开源模型</category>
 <category>MoE</category>
 <category>模型蒸馏</category>
 </item>
-<item><title>SpaceX Raises $32 Billion in Debt to Fund Nvidia Chip Purchases</title><link>https://www.ithome.com/1/030/351.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/351.htm</guid>
+<item><title>SpaceX 发债 320 亿美元采购英伟达芯片</title><link>https://www.ithome.com/1/030/351.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/351.htm</guid>
 <pubDate>Sat, 21 Nov 2026 13:42:19 +0800</pubDate>
-<description>&lt;p&gt;SpaceX has closed roughly $32 billion in bond financing to fund about $47.3 billion of Nvidia and other AI chip purchases, with its largest tranche, the A3 notes, yielding 8.259% versus a 5.95% investment-grade average. The chips are bought through Apollo-backed special purpose vehicles such as Saturn Funding Trust and leased back to SpaceX, underscoring a shift toward debt-financed AI compute buildout and investor caution over chip collateral value and future cash flows.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SpaceX 发债 320 亿美元采购英伟达芯片&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 算力融资结构创新的标志性案例，8.259% 的高收益率与 SPV 回租模式对理解算力资本化路径具有实质参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;SpaceX 完成约 320 亿美元债券融资，用于采购约 473 亿美元的英伟达等 AI 芯片，其中最大一档 A3 类票据收益率达 8.259%，显著高于投资级公司债 5.95% 的平均水平。芯片通过 Apollo 旗下 Saturn Funding Trust 等特殊目的载体购入并回租给 SpaceX，凸显 AI 算力扩张正转向债务驱动模式，也反映投资者对芯片资产价值与现金流可持续性的谨慎。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 算力融资结构创新的标志性案例，8.259% 的高收益率与 SPV 回租模式对理解算力资本化路径具有实质参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/030/351.htm">IT之家 · IT业界</source>
 <category>算力融资</category>
 <category>英伟达</category>
@@ -255,25 +272,6 @@
 <category>Baseten</category>
 <category>Gemma 4</category>
 <category>开源模型</category>
-</item>
-<item><title>GrapheneOS 指控谷歌施压 OEM 阻挠第三方系统合作</title><link>https://www.ithome.com/1/030/347.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/347.htm</guid>
-<pubDate>Sat, 21 Nov 2026 13:05:02 +0800</pubDate>
-<description>&lt;p&gt;GrapheneOS 公开指控谷歌以 GMS 授权为筹码，施压手机厂商不得与其合作，并点名摩托罗拉 Signature 27 合作受阻。争议核心还包括 Play Integrity API 对第三方系统的应用准入限制，项目方称将寻求美国司法部介入。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Android 生态开放性与反垄断监管的关键信号，直接影响第三方系统与刷机生态的生存空间。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/030/347.htm">IT之家 · IT业界</source>
-<category>GrapheneOS</category>
-<category>Android 生态</category>
-<category>反垄断</category>
-<category>Play Integrity</category>
-</item>
-<item><title>Anthropic 研究员的 Claude 辅助证明黎曼猜想</title><link>https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/</link><guid isPermaLink="true">https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/</guid>
-<pubDate>Sat, 21 Nov 2026 13:02:13 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 研究员 Levent Alpöge 借助 Claude 生成约 25 万页 Lean 形式化代码，声称证明了黎曼猜想的广义形式 GRH；数小时后数学家 Alessandro Masullo 发布其耗时 12 年的 940 页纯人工证明。两起独立声明在数小时内相继出现，若 Lean 编译通过且无额外公理，AI 辅助证明的可信度将获得关键验证。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 辅助形式化证明首次触及数学界最著名的未解难题，且与人类独立证明正面碰撞，是标志性事件。&lt;/p&gt;&lt;p&gt;Latent Space · llm · signal 88/100&lt;/p&gt;</description>
-<source url="https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/">Latent Space</source>
-<category>黎曼猜想</category>
-<category>形式化证明</category>
-<category>Anthropic</category>
-<category>Lean</category>
-<category>AI for Science</category>
 </item>
 </channel>
 </rss>
