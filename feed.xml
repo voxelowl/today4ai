@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 21 Nov 2026 08:18:26 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 21 Nov 2026 08:27:24 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Partial Code Understanding Is Normal in Large Projects and for AI Agents</title><link>https://x.com/dotey/status/2123936278056165393</link><guid isPermaLink="true">https://x.com/dotey/status/2123936278056165393</guid>
+<pubDate>Sat, 21 Nov 2026 08:27:24 +0800</pubDate>
+<description>&lt;p&gt;Sean Goedecke argues that in large software projects, programmers understanding only the code they own is normal and is the best achievable state. Bao Yu extends this to AI agents: they too can never fully understand a codebase in one session, so quality must be backstopped by automated tests, code review, and having agents supply screenshot evidence.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;大型项目中部分理解代码是常态，Agent 亦然&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;将人类在大型代码库中的部分理解常态迁移到 Agent 工程实践，给出测试兜底与截图取证等可操作的质量保障思路。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · agent · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/dotey/status/2123936278056165393">宝玉 (@dotey)</source>
+<category>AI 编程</category>
+<category>Agent 工程</category>
+<category>软件质量保障</category>
+</item>
 <item><title>Claude Assists in Proving Riemann Hypothesis After 167 Years</title><link>https://x.com/rohanpaul_ai/status/2123934024628596896</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123934024628596896</guid>
 <pubDate>Sat, 21 Nov 2026 08:18:26 +0800</pubDate>
 <description>&lt;p&gt;Anthropic mathematician Alpöge and Claude have reportedly proved the Riemann hypothesis, a problem unsolved for 167 years, completing the work in roughly six weeks and formalizing the full argument as machine-checkable code. Claude contributed a key step in advanced areas Alpöge admits he had not mastered, an idea he says will make fellow mathematicians &amp;#x27;fall out of their chairs.&amp;#x27; The result directly echoes Peter Thiel&amp;#x27;s 2024 prediction that AI would crack olympiad-level math within 3-5 years, leaving math people worse off than word people.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Claude 协助证明黎曼猜想 数学界 167 年难题告破&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;若属实，这是 AI 首次参与解决数学界最著名的未解难题，是前沿模型能力的里程碑事件。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 88/100&lt;/p&gt;</description>
@@ -122,6 +130,15 @@
 <category>算力调度</category>
 <category>SageMaker</category>
 </item>
+<item><title>IETF Draft Proposes Merkle Tree Certificates to Cut Post-Quantum Overhead</title><link>https://datatracker.ietf.org/doc/draft-ietf-plants-merkle-tree-certs/</link><guid isPermaLink="true">https://datatracker.ietf.org/doc/draft-ietf-plants-merkle-tree-certs/</guid>
+<pubDate>Sat, 21 Nov 2026 06:19:23 +0800</pubDate>
+<description>&lt;p&gt;The IETF PLANTS working group published version 08 of the Merkle Tree Certificates draft, co-authored by Google, Apple, Cloudflare and Geomys. The design embeds Certificate Transparency-style public logging directly into X.509 certificates, cutting logging overhead for short-lived certificates and large post-quantum signatures while preserving security properties comparable to existing CT, with an optional signature-omission optimization.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;IETF 提出 Merkle 树证书 降低后量子签名开销&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流浏览器与云厂商联合推进的 PKI 底层标准演进，直接影响后量子时代 TLS 证书体系的部署成本。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 62/100&lt;/p&gt;</description>
+<source url="https://datatracker.ietf.org/doc/draft-ietf-plants-merkle-tree-certs/">Hacker News AI</source>
+<category>后量子密码</category>
+<category>PKI</category>
+<category>IETF</category>
+<category>证书透明</category>
+</item>
 <item><title>Study Reveals Concealed Commercial Incentives in Large Language Models</title><link>https://www.researchgate.net/publication/418143113_The_Hungry_Butler_Effect_Concealed_Commercial_Incentives_and_the_Erosion_of_Epistemic_Rigour_in_Large_Language_Models</link><guid isPermaLink="true">https://www.researchgate.net/publication/418143113_The_Hungry_Butler_Effect_Concealed_Commercial_Incentives_and_the_Erosion_of_Epistemic_Rigour_in_Large_Language_Models</guid>
 <pubDate>Sat, 21 Nov 2026 06:18:20 +0800</pubDate>
 <description>&lt;p&gt;A study titled \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;研究揭示大模型暗藏商业激励偏差&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究提出大模型隐性商业激励这一值得警惕的新偏差类型，对模型可信度评估具有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 58/100&lt;/p&gt;</description>
@@ -202,18 +219,18 @@
 <category>SpaceX</category>
 <category>融资</category>
 </item>
-<item><title>AI Router Supply Chain Leaks User Secrets in 2 Million Probe Test</title><link>https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/</link><guid isPermaLink="true">https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/</guid>
+<item><title>AI 路由链泄露用户密钥 200 万探针实测</title><link>https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/</link><guid isPermaLink="true">https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/</guid>
 <pubDate>Sat, 21 Nov 2026 04:59:08 +0800</pubDate>
-<description>&lt;p&gt;Security researcher HD Moore planted 2 million digital canaries in requests routed through AI gateways such as OpenRouter and Vercel, finding that the multi-hop resale chain leaks highly sensitive credentials like AWS keys at an alarming rate. The experiment is the first systematic quantification of how prompts and secrets entrusted to third-party AI routers can be intercepted, stolen, and abused in transit.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 路由链泄露用户密钥 200 万探针实测&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次以大规模实测揭示 AI 路由网关这一被忽视的供应链隐私风险，对所有调用第三方推理服务的开发者具有直接警示价值。&lt;/p&gt;&lt;p&gt;Ars Technica AI · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;安全研究员 HD Moore 在经 OpenRouter、Vercel 等 AI 路由网关转发的请求中植入 200 万个数字探针，发现这条多级转售链路会以惊人比例泄露 AWS 密钥等高度敏感凭证。该实验首次系统量化了 AI 应用经第三方路由调用模型时，提示词与密钥在中间环节被截留、窃取和滥用的真实风险。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次以大规模实测揭示 AI 路由网关这一被忽视的供应链隐私风险，对所有调用第三方推理服务的开发者具有直接警示价值。&lt;/p&gt;&lt;p&gt;Ars Technica AI · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/">Ars Technica AI</source>
 <category>AI 安全</category>
 <category>供应链</category>
 <category>隐私泄露</category>
 <category>AI 路由</category>
 </item>
-<item><title>Michigan Study Finds AI Agents Report False Discoveries in Up to 98% of Cases</title><link>https://x.com/rohanpaul_ai/status/2123883512780775790</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123883512780775790</guid>
+<item><title>密歇根大学研究揭示 AI 智能体数据分析假阳性率高达 98%</title><link>https://x.com/rohanpaul_ai/status/2123883512780775790</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123883512780775790</guid>
 <pubDate>Sat, 21 Nov 2026 04:57:43 +0800</pubDate>
-<description>&lt;p&gt;A new University of Michigan paper finds that frontier coding agents asked to analyze simulated data with no real effects still reported p\u003c0.05 in 54% to 98% of runs, all false positives. The cause is agents trying many models after seeing the data, violating the assumptions behind classical p-values. Replaying agents on subsamples cut false positives to about 5%.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;密歇根大学研究揭示 AI 智能体数据分析假阳性率高达 98%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次系统量化编码智能体做数据分析时的 p 值偏差，并给出可操作的校正方法，对依赖智能体做科研与数据结论的读者有直接警示价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;密歇根大学新论文发现，让前沿编码智能体分析完全无效应数据时，最高 98% 的运行仍报告 p&amp;lt;0.05 的“发现”，全部为假阳性。原因是智能体在见到数据后反复试模型再挑结果，破坏了经典 p 值的先验假设。研究者用子样本重放校正，将假阳性率压至约 5%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次系统量化编码智能体做数据分析时的 p 值偏差，并给出可操作的校正方法，对依赖智能体做科研与数据结论的读者有直接警示价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2123883512780775790">Rohan Paul (@rohanpaul_ai)</source>
 <category>AI 智能体</category>
 <category>数据分析</category>
@@ -255,24 +272,6 @@
 <category>SEC 调查</category>
 <category>资本市场</category>
 <category>AI 算力</category>
-</item>
-<item><title>AWS 发布 Textract Insights 支持自然语言抽取文档字段</title><link>https://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents/</guid>
-<pubDate>Sat, 21 Nov 2026 04:22:00 +0800</pubDate>
-<description>&lt;p&gt;AWS 正式发布 Amazon Textract Insights，通过新增 API 让用户用自然语言描述所需字段，即可从单份文档或混合多文档包中抽取结构化数据，无需模型训练。每个抽取结果附带置信度分数与页码级溯源，主打可验证、可审计的生成式文档处理。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;云厂商将生成式抽取能力产品化并强调可审计溯源，对文档密集型行业有直接落地价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents/">AWS Machine Learning Blog</source>
-<category>AWS</category>
-<category>文档处理</category>
-<category>生成式 AI</category>
-<category>开发者工具</category>
-</item>
-<item><title>Arcfront 融资不足 200 万美元 年化收入破 10 亿美元</title><link>https://x.com/rohanpaul_ai/status/2123874173781250130</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123874173781250130</guid>
-<pubDate>Sat, 21 Nov 2026 04:20:37 +0800</pubDate>
-<description>&lt;p&gt;Arcfront 正式亮相，通过 300 多家企业合作获取医生、工程师、银行家等专家逐步决策的真实记录，将其转化为前沿模型的训练数据。公司称 5 家前沿 AI 实验室中已有 4 家付费，并在融资不足 200 万美元的情况下不到一年实现 10 亿美元年化收入。其核心逻辑是互联网数据无法记录资深专家的判断过程，而这类私有决策轨迹比公开爬取数据更难复制。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以专家决策轨迹作为前沿模型训练数据的新供给模式，并给出 4/5 前沿实验室付费与 10 亿美元年化收入的强量级信号。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2123874173781250130">Rohan Paul (@rohanpaul_ai)</source>
-<category>训练数据</category>
-<category>前沿实验室</category>
-<category>企业合作</category>
-<category>数据壁垒</category>
 </item>
 </channel>
 </rss>
