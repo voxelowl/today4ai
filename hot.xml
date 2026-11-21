@@ -11,14 +11,6 @@
 
 若该证明最终通过形式化验证与社区复核，将标志着 AI 在数学研究中的角色从辅助工具跃升为实质性贡献者，并可能推动形式化数学与 AI 验证工具链的深度融合。但当前仅为个人声明，Lean 内核的历史缺陷与缺乏传统论文发表，使得数学界对 AI 生成证明的接受度仍存变数，事件走向将深刻影响 AI for Math 的生态格局。&lt;/p&gt;&lt;p&gt;11 sources&lt;/p&gt;&lt;p&gt;Latent Space, Rohan Paul (@rohanpaul_ai), Simon Willison 博客, Hacker News AI, IT之家 · 智能时代, The Verge AI&lt;/p&gt;</description>
 </item>
-<item><title>Anthropic 登陆纳斯达克 募资 935 亿美元刷新纪录</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
-<pubDate>Sat, 21 Nov 2026 01:44:01 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 于本周四正式在纳斯达克挂牌上市，以每股 83 美元的发行价募资约 935 亿美元，超越 SpaceX 保持的 862.5 亿美元纪录，成为史上最大 IPO。其开盘价飙升至 111.50 美元，较发行价高开 33%，完全稀释估值一度突破 1.5 万亿美元。
-
-此次 IPO 获得约 6 倍超额认购，散户配售比例提升至 20%。除公开发行 8.25 亿股外，谷歌、英伟达、微软、AMD、博通、美光、台积电等七家巨头还以同价参与 260 亿美元的私募配售，其中英伟达认购 100 亿美元。公司年化收入已从 9 月的 710 亿美元增至 10 月底的 810 亿美元，支撑强劲需求。CEO Dario Amodei 表示，上市核心目的是囤积现金以支撑总额 9000 亿美元的算力基础设施投入，包括与 SpaceX 每月最高 31 亿美元的数据中心协议。
-
-Anthropic 的上市标志着头部大模型公司首次进入公开资本市场，为 AI 行业估值与商业化能力提供了关键定价锚点。其约 2200 亿美元的现金储备将加剧与 OpenAI 等对手的算力军备竞赛，同时也让资本市场对 AI 泡沫的争论更趋白热化。&lt;/p&gt;&lt;p&gt;13 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · IT业界, Anthropic AI (@AnthropicAI), Yuchen Jin (@Yuchenj_UW), 机器之心 (微信公众号), The Decoder&lt;/p&gt;</description>
-</item>
 <item><title>Thinking Machines 开源 26B 循环层模型 Inkling 2 Mini</title><link>https://todayforai.com/en/story/story-e7a42b22-638</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e7a42b22-638</guid>
 <pubDate>Sat, 21 Nov 2026 20:19:28 +0800</pubDate>
 <description>&lt;p&gt;Thinking Machines Lab 联合 Hugging Face 正式开源多模态混合专家模型 Inkling 2 Mini，以 26B 总参数、仅 3-5B 激活参数的极致稀疏设计，在 Artificial Analysis 智能指数上得分 20，并支持 100 万 token 上下文与图文输入，可在 MacBook 或 DGX Spark 上本地运行。
@@ -26,6 +18,14 @@ Anthropic 的上市标志着头部大模型公司首次进入公开资本市场�
 该模型的核心创新在于循环 Transformer 架构：中间 12 层共享权重并循环执行三次，每轮保留独立 KV 缓存并读取上一轮的门控消息，从而在不增加参数量的前提下显著提升有效容量。vLLM 在 NVIDIA Blackwell、Hopper 与 DGX Spark 上实现发布当日支持，并通过 NVFP4/MXFP8 混合精度权重与内置 DSpark 推测解码进一步加速推理。据 Hacker News 报道，其在 DeepSWE v1.1 取得 48.2%、Vals Index v2.2 取得 46.5%，官方称领先所有 100B 以下开源权重模型。
 
 Inkling 2 Mini 的发布标志着高效循环架构在开源社区的落地，为本地部署与长上下文应用提供了新的可能性，有望推动边缘 AI 与隐私敏感场景的发展，并对同等规模的传统 Transformer 模型形成竞争压力。&lt;/p&gt;&lt;p&gt;8 sources&lt;/p&gt;&lt;p&gt;vLLM 官方博客, Hugging Face Blog, Hacker News AI, Artificial Analysis (@ArtificialAnlys), Artificial Analysis, Arena.ai (@arena)&lt;/p&gt;</description>
+</item>
+<item><title>Anthropic 登陆纳斯达克 募资 935 亿美元刷新纪录</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
+<pubDate>Sat, 21 Nov 2026 01:44:01 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 于本周四正式在纳斯达克挂牌上市，以每股 83 美元的发行价募资约 935 亿美元，超越 SpaceX 保持的 862.5 亿美元纪录，成为史上最大 IPO。其开盘价飙升至 111.50 美元，较发行价高开 33%，完全稀释估值一度突破 1.5 万亿美元。
+
+此次 IPO 获得约 6 倍超额认购，散户配售比例提升至 20%。除公开发行 8.25 亿股外，谷歌、英伟达、微软、AMD、博通、美光、台积电等七家巨头还以同价参与 260 亿美元的私募配售，其中英伟达认购 100 亿美元。公司年化收入已从 9 月的 710 亿美元增至 10 月底的 810 亿美元，支撑强劲需求。CEO Dario Amodei 表示，上市核心目的是囤积现金以支撑总额 9000 亿美元的算力基础设施投入，包括与 SpaceX 每月最高 31 亿美元的数据中心协议。
+
+Anthropic 的上市标志着头部大模型公司首次进入公开资本市场，为 AI 行业估值与商业化能力提供了关键定价锚点。其约 2200 亿美元的现金储备将加剧与 OpenAI 等对手的算力军备竞赛，同时也让资本市场对 AI 泡沫的争论更趋白热化。&lt;/p&gt;&lt;p&gt;12 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · IT业界, Anthropic AI (@AnthropicAI), Yuchen Jin (@Yuchenj_UW), 机器之心 (微信公众号), The Decoder&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 强化推理防泄露 攻击成功率降至 0.2%</title><link>https://todayforai.com/en/story/story-fe915d44-805</link><guid isPermaLink="true">https://todayforai.com/en/story/story-fe915d44-805</guid>
 <pubDate>Sat, 21 Nov 2026 09:45:22 +0800</pubDate>
