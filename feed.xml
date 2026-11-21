@@ -1,8 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 21 Nov 2026 08:27:24 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 21 Nov 2026 10:03:24 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Two Million Canary Requests Expose Leaks Across AI Supply Chain</title><link>https://www.ithome.com/1/030/322.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/322.htm</guid>
+<pubDate>Sat, 21 Nov 2026 10:03:24 +0800</pubDate>
+<description>&lt;p&gt;Dragos chief research officer HD Moore sent nearly two million canary-token requests to multiple AI providers and found at least three were breached, with attackers using stolen keys to make tens of thousands of cloud API calls. The study also shows reseller chains leaking data, with private URLs from requests marked zero data retention still being scraped days later.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;200 万条请求暴露 AI 供应链隐私漏洞&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以大规模实测数据揭示 AI 服务链的密钥窃取与隐私承诺失效，对企业选型与部署决策有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/030/322.htm">IT之家 · 智能时代</source>
+<category>AI 安全</category>
+<category>数据隐私</category>
+<category>供应链安全</category>
+<category>Dragos</category>
+</item>
+<item><title>OpenAI Cuts Chain-of-Thought Extraction Rate to 0.2% with Anti-Distillation Defenses</title><link>https://www.ithome.com/1/030/319.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/319.htm</guid>
+<pubDate>Sat, 21 Nov 2026 09:45:22 +0800</pubDate>
+<description>&lt;p&gt;OpenAI unveiled multi-layered defenses against adversarial distillation, cutting protected chain-of-thought extraction on GPT-6.2 Astra from 54.0% to 0.2% for prior requests and from 22.9% to 0.9% for current ones. The measures combine adversarial training, input/output classifiers and API-level reasoning isolation, backed by weekly enforcement against thousands to tens of thousands of violating accounts.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 反蒸馏防护将思考链提取率降至 0.2%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次系统披露前沿模型推理链防提取的量化效果与工程手段，对模型安全与 API 设计有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/030/319.htm">IT之家 · 智能时代</source>
+<category>模型安全</category>
+<category>对抗性蒸馏</category>
+<category>OpenAI</category>
+<category>推理链</category>
+</item>
+<item><title>Anthropic Researcher Predicts AI to Surpass Top Experts by Late 2027</title><link>https://www.ithome.com/1/030/308.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/308.htm</guid>
+<pubDate>Sat, 21 Nov 2026 08:53:29 +0800</pubDate>
+<description>&lt;p&gt;Anthropic technical staff member Tao Lin predicts that by late 2027 AI will match or surpass top human experts in nearly all domains, including programming and filmmaking, and warns that almost everyone could face permanent job loss and depend on government support. He nonetheless notes that mass unemployment by 2027 is highly unlikely given the slow pace of robotics deployment, which is required to displace physical-economy work.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 研究员预测 2027 年底 AI 超越顶尖专家&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自前沿实验室研究员的激进时间线预测，涉及就业冲击与机器人瓶颈，具备讨论价值但缺乏可验证技术增量。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 52/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/030/308.htm">IT之家 · 智能时代</source>
+<category>Anthropic</category>
+<category>AI 就业冲击</category>
+<category>技术预测</category>
+</item>
 <item><title>Partial Code Understanding Is Normal in Large Projects and for AI Agents</title><link>https://x.com/dotey/status/2123936278056165393</link><guid isPermaLink="true">https://x.com/dotey/status/2123936278056165393</guid>
 <pubDate>Sat, 21 Nov 2026 08:27:24 +0800</pubDate>
 <description>&lt;p&gt;Sean Goedecke argues that in large software projects, programmers understanding only the code they own is normal and is the best achievable state. Bao Yu extends this to AI agents: they too can never fully understand a codebase in one session, so quality must be backstopped by automated tests, code review, and having agents supply screenshot evidence.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;大型项目中部分理解代码是常态，Agent 亦然&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;将人类在大型代码库中的部分理解常态迁移到 Agent 工程实践，给出测试兜底与截图取证等可操作的质量保障思路。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · agent · signal 58/100&lt;/p&gt;</description>
@@ -37,6 +63,15 @@
 <category>AI 算力</category>
 <category>美股</category>
 <category>资本市场</category>
+</item>
+<item><title>OpenAI Releases MedChemBench to Gauge AI Drug Discovery Skills</title><link>https://www.ithome.com/1/030/301.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/301.htm</guid>
+<pubDate>Sat, 21 Nov 2026 08:06:12 +0800</pubDate>
+<description>&lt;p&gt;OpenAI has released MedChemBench, a 99-question benchmark drawn from 117 papers and patents to evaluate model reasoning in medicinal chemistry. GPT-6.2 Astra scores 84.5% usable at the xhigh reasoning tier, reaching 95.4% on molecular structure reconstruction but only about half correct on compound selection and numerical property prediction. OpenAI cautions the results do not prove models can discover new drugs, only map capability boundaries.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 发布 MedChemBench 药物化学基准&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;OpenAI 首个面向药物化学推理的公开基准，分项数据清晰揭示模型在结构重建与性质预测间的巨大落差。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 72/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/030/301.htm">IT之家 · 智能时代</source>
+<category>大模型</category>
+<category>OpenAI</category>
+<category>AI for Science</category>
+<category>基准评测</category>
 </item>
 <item><title>Intel Reveals High Failure Rates in Early DDR5 Validation</title><link>https://www.ithome.com/1/030/299.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/299.htm</guid>
 <pubDate>Sat, 21 Nov 2026 07:55:09 +0800</pubDate>
@@ -84,6 +119,15 @@
 <category>AMD</category>
 <category>算力</category>
 </item>
+<item><title>Anonymous Model Gestalt Tops Design Benchmark With 1931 Elo</title><link>https://www.ithome.com/1/030/291.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/291.htm</guid>
+<pubDate>Sat, 21 Nov 2026 07:17:51 +0800</pubDate>
+<description>&lt;p&gt;Contra Labs released its Frontier Design Benchmark, where an anonymous stealth model codenamed Gestalt topped the leaderboard with a 1931 Elo rating and 90% win rate, beating the human designer reference (1739) as well as Claude Fable 5.2 and GPT-6.1 Sol. The benchmark drew on 33 real commercial design tasks and 4,311 blind votes from 35 professional designers across five rounds; Gestalt also scored near-human on quality rubrics and AI-slop detection, though its team and architecture remain undisclosed.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;匿名模型 Gestalt 登顶设计盲测 Elo 达 1931&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个以真实商业设计委托为任务的盲测榜单出现匿名黑马，且评分超越人类参考，值得关注其后续身份揭晓。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 74/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/030/291.htm">IT之家 · 智能时代</source>
+<category>大模型</category>
+<category>设计评测</category>
+<category>Contra Labs</category>
+<category>基准测试</category>
+</item>
 <item><title>HeyGen Releases Decision 1 Model That Outputs Probabilities for Video</title><link>https://x.com/rohanpaul_ai/status/2123917907499634975</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123917907499634975</guid>
 <pubDate>Sat, 21 Nov 2026 07:14:24 +0800</pubDate>
 <description>&lt;p&gt;HeyGen has launched Decision 1, a model that generates no text at all: it accepts text, image, video or audio input, answers up to 400 questions, and returns a probability per question that code can act on directly. It is now available through the AI/ML API platform, with a demo scoring 8 out of 8 on gesture and emotion recognition at roughly $0.0027 per run.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;HeyGen 发布 Decision 1 视频概率判定模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;视频理解从生成文本转向输出可编程概率，为自动化决策类应用提供了新的接口范式。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · tools · signal 58/100&lt;/p&gt;</description>
@@ -121,6 +165,15 @@
 <category>智能体</category>
 <category>模型评测</category>
 </item>
+<item><title>OpenAI Opens ChatGPT Spaces Collaboration to Plus Subscribers</title><link>https://www.ithome.com/1/030/288.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/288.htm</guid>
+<pubDate>Sat, 21 Nov 2026 06:57:39 +0800</pubDate>
+<description>&lt;p&gt;OpenAI has extended ChatGPT Spaces, its multiplayer collaboration workspace, from Pro, Business and Enterprise tiers down to the $20/month Plus plan, enabling shared documents, agent-oriented Pages and Scheduled Tasks co-editing. Launched at the September 2026 Dev Day, the rollout is staged for users 18 and older, while free users still cannot open shared content.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 向 Plus 用户开放 Spaces 协作空间&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;协作空间下放至主流订阅层，反映 ChatGPT 从个人助手向团队工作台的产品演进。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/030/288.htm">IT之家 · 智能时代</source>
+<category>ChatGPT</category>
+<category>协作工具</category>
+<category>OpenAI</category>
+<category>订阅</category>
+</item>
 <item><title>AWS Launches SageMaker HyperPod Global Inference Gateway</title><link>https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-one-endpoint-across-regions-and-clusters/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-one-endpoint-across-regions-and-clusters/</guid>
 <pubDate>Sat, 21 Nov 2026 06:35:24 +0800</pubDate>
 <description>&lt;p&gt;AWS introduced the SageMaker HyperPod Global Inference Gateway, extending its GPU-aware routing from a single cluster to a single managed endpoint spanning multiple clusters and Regions. The gateway selects clusters using real-time signals such as KV cache utilization and queue depth, carries requests over the AWS backbone, and provides automatic failover with SigV4 and IAM authentication. It targets capacity waste when one cluster queues requests while GPUs elsewhere sit idle.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS 推出 SageMaker 跨区全局推理网关&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向大模型推理的跨区容量调度能力更新，对使用 HyperPod 的团队有直接工程价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · compute · signal 58/100&lt;/p&gt;</description>
@@ -156,27 +209,27 @@
 <category>AI 产品</category>
 <category>界面改版</category>
 </item>
-<item><title>Nace Launches Drex Router with Sub-90ms Model Selection</title><link>https://x.com/rohanpaul_ai/status/2123896307811246550</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123896307811246550</guid>
+<item><title>Nace 推出 12B 模型路由器 Drex 延迟低于 90 ms</title><link>https://x.com/rohanpaul_ai/status/2123896307811246550</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123896307811246550</guid>
 <pubDate>Sat, 21 Nov 2026 05:48:34 +0800</pubDate>
-<description>&lt;p&gt;Nace AI released Drex Router, a 12B Gemma-based model that reads a prompt and a candidate model list to return a pick, per-candidate probabilities and a short rationale in 57-87 ms. On 1,400 general-knowledge exam questions it scored 87.6% at $0.10 per 1,000 questions, versus Jev Router&amp;#x27;s 86.4% at $1.09.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Nace 推出 12B 模型路由器 Drex 延迟低于 90 ms&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;低成本低延迟的模型路由方案，为 Agent 多模型调度提供了可量化的新选择。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · tools · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Nace AI 发布 Drex Router，基于 Gemma 构建的 12B 模型读取提示词与候选模型列表，在 57 至 87 毫秒内返回模型选择、每个候选的概率及简短理由。在 1400 道通用知识考题测试中准确率 87.6%，每千题成本 0.10 美元，对比 Jev Router 的 86.4% 与 1.09 美元。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;低成本低延迟的模型路由方案，为 Agent 多模型调度提供了可量化的新选择。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · tools · signal 62/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2123896307811246550">Rohan Paul (@rohanpaul_ai)</source>
 <category>模型路由</category>
 <category>Agent</category>
 <category>Nace AI</category>
 <category>推理成本</category>
 </item>
-<item><title>Meta Reconsiders 2030 Net-Zero Goal as AI Data Center Emissions Surge</title><link>https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/</link><guid isPermaLink="true">https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/</guid>
+<item><title>Meta 因 AI 数据中心排放激增重估 2030 净零目标</title><link>https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/</link><guid isPermaLink="true">https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/</guid>
 <pubDate>Sat, 21 Nov 2026 05:47:10 +0800</pubDate>
-<description>&lt;p&gt;In its 2026 sustainability report, Meta acknowledged it is re-evaluating the 2030 timeline and interim milestones for its net-zero emissions goal, citing AI infrastructure demand that has grown faster than almost anyone projected. The company posted a record percentage increase in greenhouse gas emissions, outpacing every other Big Tech peer, while insisting its long-term ambitions remain unchanged.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 因 AI 数据中心排放激增重估 2030 净零目标&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 算力扩张与气候承诺正面冲突的标志性事件，头部厂商首次公开松动净零时间表，对理解 AI 基础设施成本具有行业风向意义。&lt;/p&gt;&lt;p&gt;Ars Technica AI · industry · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Meta 在 2026 年可持续发展报告中首次承认，正重新评估 2030 年实现净零排放的时间表与阶段性目标，原因是 AI 基础设施需求增长远超预期，导致其温室气体排放增幅创下纪录并超过所有大型科技同行。公司称长期愿景未变，但运营环境已发生实质变化。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 算力扩张与气候承诺正面冲突的标志性事件，头部厂商首次公开松动净零时间表，对理解 AI 基础设施成本具有行业风向意义。&lt;/p&gt;&lt;p&gt;Ars Technica AI · industry · signal 72/100&lt;/p&gt;</description>
 <source url="https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/">Ars Technica AI</source>
 <category>AI 数据中心</category>
 <category>净零排放</category>
 <category>Meta</category>
 <category>算力基础设施</category>
 </item>
-<item><title>Arena Launches Agent Index as Gemini 4 Neon Debuts at No. 2</title><link>https://x.com/arena/status/2123894102496555446</link><guid isPermaLink="true">https://x.com/arena/status/2123894102496555446</guid>
+<item><title>Arena 推出 Agent 排行榜 Gemini 4 Neon 空降第二</title><link>https://x.com/arena/status/2123894102496555446</link><guid isPermaLink="true">https://x.com/arena/status/2123894102496555446</guid>
 <pubDate>Sat, 21 Nov 2026 05:39:48 +0800</pubDate>
-<description>&lt;p&gt;Arena.ai launched the Agent Arena Index, its first unified leaderboard for agentic capability. Google&amp;#x27;s Gemini 4 Neon debuted at No. 2 with 1336 points, while OpenAI&amp;#x27;s GPT-6.2 Astra and Sol placed sixth and eleventh; Alibaba&amp;#x27;s Qwen4-Max ranked 14th as the top Chinese model. The index also tracks cost, with Meta&amp;#x27;s Muse Ember pushing the WebDev Pareto frontier to roughly $0.03 per task.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Arena 推出 Agent 排行榜 Gemini 4 Neon 空降第二&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个跨厂商智能体统一榜单落地，头部模型排名与成本前沿同步公开，是观察 Agent 竞争格局的关键坐标。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · agent · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Arena.ai 正式上线 Agent Arena Index，首次以统一榜单横向评测智能体能力。谷歌 Gemini 4 Neon 以 1336 分空降第二，OpenAI GPT-6.2 Astra 与 Sol 分列第六和第十一，阿里 Qwen4-Max 位列第十四并成为排名最高的中国模型。榜单同时引入成本维度，Meta Muse Ember 在 WebDev 代码竞技场以约 0.03 美元单任务成本刷新性价比前沿。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个跨厂商智能体统一榜单落地，头部模型排名与成本前沿同步公开，是观察 Agent 竞争格局的关键坐标。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · agent · signal 72/100&lt;/p&gt;</description>
 <source url="https://x.com/arena/status/2123894102496555446">Arena.ai (@arena)</source>
 <category>智能体</category>
 <category>基准评测</category>
@@ -184,94 +237,40 @@
 <category>Qwen</category>
 <category>成本</category>
 </item>
-<item><title>HeyGen Decision 1 Goes Live on OpenRouter for Multimodal Probability Scoring</title><link>https://x.com/OpenRouter/status/2123893458318614941</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2123893458318614941</guid>
+<item><title>HeyGen Decision 1 上线 OpenRouter 支持多模态概率判定</title><link>https://x.com/OpenRouter/status/2123893458318614941</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2123893458318614941</guid>
 <pubDate>Sat, 21 Nov 2026 05:37:15 +0800</pubDate>
-<description>&lt;p&gt;HeyGen&amp;#x27;s Decision 1 is now live on OpenRouter, accepting video, audio, image and text in a single request and returning a calibrated probability for each question, such as whether a selfie video matches an ID photo or is a live capture. It handles up to 400 questions per call at roughly 100 ms latency, with input pricing at 50% off through December 1.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;HeyGen Decision 1 上线 OpenRouter 支持多模态概率判定&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;多模态概率判定模型接入主流聚合平台，为身份核验与内容审核提供了可直接调用的新工具。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · tools · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;HeyGen 的 Decision 1 模型已在 OpenRouter 上线，可在单次请求中同时处理视频、音频、图像与文本，并对每个问题返回校准后的概率，例如判断自拍视频与证件照是否同一人、是否为活体采集。单次调用最多支持 400 个问题，延迟约 100 毫秒，12 月 1 日前输入价格为五折。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;多模态概率判定模型接入主流聚合平台，为身份核验与内容审核提供了可直接调用的新工具。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · tools · signal 62/100&lt;/p&gt;</description>
 <source url="https://x.com/OpenRouter/status/2123893458318614941">OpenRouter (@OpenRouter)</source>
 <category>多模态模型</category>
 <category>HeyGen</category>
 <category>OpenRouter</category>
 <category>身份核验</category>
 </item>
-<item><title>Formal Verification Emerges as Weapon Against AI-Generated Slop</title><link>https://latent.space/p/formal-verification/</link><guid isPermaLink="true">https://latent.space/p/formal-verification/</guid>
+<item><title>形式化验证成为对抗 AI 低质代码的新武器</title><link>https://latent.space/p/formal-verification/</link><guid isPermaLink="true">https://latent.space/p/formal-verification/</guid>
 <pubDate>Sat, 21 Nov 2026 05:18:41 +0800</pubDate>
-<description>&lt;p&gt;As AI-generated code proliferates, low-quality output known as \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;形式化验证成为对抗 AI 低质代码的新武器&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;形式化验证与 AI 结合是代码质量治理的重要方向，值得关注其工程化进展。&lt;/p&gt;&lt;p&gt;Latent Space · tools · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;随着 AI 生成代码激增，低质量输出（slop）成为工程团队的日常困扰。Harmonic、Theorem、Axiom Math 等公司正将基于数学证明的形式化验证系统推向实用，用于校验 AI 智能体交付代码的正确性。AI 数学能力的提升使这一原本高门槛的方法具备了落地条件。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;形式化验证与 AI 结合是代码质量治理的重要方向，值得关注其工程化进展。&lt;/p&gt;&lt;p&gt;Latent Space · tools · signal 62/100&lt;/p&gt;</description>
 <source url="https://latent.space/p/formal-verification/">Latent Space</source>
 <category>形式化验证</category>
 <category>AI 编程</category>
 <category>代码质量</category>
 </item>
-<item><title>OpenAI Releases MedChemBench Medicinal Chemistry Benchmark</title><link>https://x.com/rohanpaul_ai/status/2123888611678646426</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123888611678646426</guid>
+<item><title>OpenAI 发布药物化学基准 MedChemBench</title><link>https://x.com/rohanpaul_ai/status/2123888611678646426</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123888611678646426</guid>
 <pubDate>Sat, 21 Nov 2026 05:17:59 +0800</pubDate>
-<description>&lt;p&gt;OpenAI has published MedChemBench, a medicinal chemistry benchmark built from 117 papers and patents spanning 761 graded molecular structures, with prompts cut off at real decision points and later reported results withheld. The strongest model, GPT-6.2 Astra, scores about 84% overall and is near-perfect at reading chemistry, yet is correct only about half the time on the decision that actually matters, exposing a clear gap in real-world drug design judgment.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 发布药物化学基准 MedChemBench&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个以真实药物化学决策点为切口的基准，揭示顶尖模型在关键判断上仅约五成正确。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 发布药物化学基准 MedChemBench，题目源自 117 篇论文与专利，覆盖 761 个分级分子结构，并在真实决策点截断、隐藏后续实验结果。最强模型 GPT-6.2 Astra 总体约 84%，化学结构解读近乎满分，但关键决策正确率仅约五成，显示前沿模型在真实药物设计判断上仍有明显短板。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个以真实药物化学决策点为切口的基准，揭示顶尖模型在关键判断上仅约五成正确。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2123888611678646426">Rohan Paul (@rohanpaul_ai)</source>
 <category>基准评测</category>
 <category>药物化学</category>
 <category>OpenAI</category>
 <category>AI for Science</category>
 </item>
-<item><title>SpaceX Raises $32B Debt to Secure Nvidia Rubin GPUs</title><link>https://x.com/rohanpaul_ai/status/2123885935230341451</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123885935230341451</guid>
+<item><title>SpaceX 举债 320 亿美元采购英伟达 Rubin GPU</title><link>https://x.com/rohanpaul_ai/status/2123885935230341451</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123885935230341451</guid>
 <pubDate>Sat, 21 Nov 2026 05:07:21 +0800</pubDate>
-<description>&lt;p&gt;SpaceX has sold $32B of debt to lock in Nvidia&amp;#x27;s newest Rubin GPUs, with BlackRock and KKR as anchor investors. The proceeds fund roughly $47.3B of GPU equipment, with deliveries starting in January. Structured through Apollo-managed Saturn Funding Trust, which buys the chips and leases them back to SpaceX for about five years, the deal keeps the borrowing off SpaceX&amp;#x27;s balance sheet, helping it preserve investment-grade ratings and borrow more, faster.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SpaceX 举债 320 亿美元采购英伟达 Rubin GPU&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 算力融资结构创新的标志性案例，涉及巨额资本与顶级芯片供应，对关注算力基础设施的读者具有高参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;SpaceX 通过发行 320 亿美元债务锁定英伟达最新 Rubin GPU，贝莱德与 KKR 作为锚定投资者参与。资金将用于采购约 473 亿美元 GPU 设备，芯片自明年 1 月起交付。交易通过 Apollo 旗下 Saturn Funding Trust 以“买芯片再回租”的结构完成，使债务不进入 SpaceX 资产负债表，从而维持投资级评级并加快后续融资。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 算力融资结构创新的标志性案例，涉及巨额资本与顶级芯片供应，对关注算力基础设施的读者具有高参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2123885935230341451">Rohan Paul (@rohanpaul_ai)</source>
 <category>算力基础设施</category>
 <category>英伟达</category>
 <category>SpaceX</category>
 <category>融资</category>
-</item>
-<item><title>AI 路由链泄露用户密钥 200 万探针实测</title><link>https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/</link><guid isPermaLink="true">https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/</guid>
-<pubDate>Sat, 21 Nov 2026 04:59:08 +0800</pubDate>
-<description>&lt;p&gt;安全研究员 HD Moore 在经 OpenRouter、Vercel 等 AI 路由网关转发的请求中植入 200 万个数字探针，发现这条多级转售链路会以惊人比例泄露 AWS 密钥等高度敏感凭证。该实验首次系统量化了 AI 应用经第三方路由调用模型时，提示词与密钥在中间环节被截留、窃取和滥用的真实风险。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次以大规模实测揭示 AI 路由网关这一被忽视的供应链隐私风险，对所有调用第三方推理服务的开发者具有直接警示价值。&lt;/p&gt;&lt;p&gt;Ars Technica AI · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/">Ars Technica AI</source>
-<category>AI 安全</category>
-<category>供应链</category>
-<category>隐私泄露</category>
-<category>AI 路由</category>
-</item>
-<item><title>密歇根大学研究揭示 AI 智能体数据分析假阳性率高达 98%</title><link>https://x.com/rohanpaul_ai/status/2123883512780775790</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2123883512780775790</guid>
-<pubDate>Sat, 21 Nov 2026 04:57:43 +0800</pubDate>
-<description>&lt;p&gt;密歇根大学新论文发现，让前沿编码智能体分析完全无效应数据时，最高 98% 的运行仍报告 p&amp;lt;0.05 的“发现”，全部为假阳性。原因是智能体在见到数据后反复试模型再挑结果，破坏了经典 p 值的先验假设。研究者用子样本重放校正，将假阳性率压至约 5%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次系统量化编码智能体做数据分析时的 p 值偏差，并给出可操作的校正方法，对依赖智能体做科研与数据结论的读者有直接警示价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2123883512780775790">Rohan Paul (@rohanpaul_ai)</source>
-<category>AI 智能体</category>
-<category>数据分析</category>
-<category>统计显著性</category>
-<category>科研可信度</category>
-</item>
-<item><title>标准银行联合 AWS 自动化生成式 AI 风险评估</title><link>https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai/</guid>
-<pubDate>Sat, 21 Nov 2026 04:37:31 +0800</pubDate>
-<description>&lt;p&gt;标准银行集团与 AWS Professional Services 合作，将生成式 AI 用例的风险评估流程自动化，按国际 AI 标准与内部政策逐项打分并生成报告和仪表盘，把原本依赖人工审阅的治理环节从管线瓶颈转为可规模化流程。文章属于客户部署案例，未披露具体模型、参数或量化效果。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示大型银行如何把生成式 AI 合规评估工程化，对关注 AI 治理落地的读者有参考价值。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://aws.amazon.com/blogs/machine-learning/how-standard-bank-group-automates-ai-risk-assessment-for-generative-ai/">AWS Machine Learning Blog</source>
-<category>AI 治理</category>
-<category>金融</category>
-<category>AWS</category>
-<category>风险评估</category>
-</item>
-<item><title>Thinking Machines 发布 Inkling 2 Mini 开源模型</title><link>https://x.com/ArtificialAnlys/status/2123877871316087012</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2123877871316087012</guid>
-<pubDate>Sat, 21 Nov 2026 04:35:18 +0800</pubDate>
-<description>&lt;p&gt;Thinking Machines 发布 Inkling 2 Mini，这是一款总参数 26B、激活参数 5.4B 的循环 Transformer 混合专家模型，在 Artificial Analysis 智能指数上得分 20，处于智能与激活参数权衡的帕累托前沿。模型采用 Apache 2.0 许可，支持文本与图像输入及 1M token 上下文，体积小到可在 MacBook 或 DGX Spark 上本地运行。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源权重模型以极小激活参数进入智能帕累托前沿，且可在消费级设备本地运行，对关注端侧与开源生态的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/ArtificialAnlys/status/2123877871316087012">Artificial Analysis (@ArtificialAnlys)</source>
-<category>开源模型</category>
-<category>混合专家</category>
-<category>端侧推理</category>
-<category>Thinking Machines</category>
-</item>
-<item><title>OpenAI 强化推理防泄露 攻击成功率降至 0.2%</title><link>https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/</link><guid isPermaLink="true">https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/</guid>
-<pubDate>Sat, 21 Nov 2026 04:31:50 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 针对 GPT-6.2 Astra 与 Sol 大幅强化了推理内容防提取机制，在内部自动化测试中，从历史请求中窃取受保护推理的攻击成功率由 54.0% 降至 0.2%，针对活跃请求的攻击成功率由 22.9% 降至 0.9%。防御体系覆盖单请求层面的定向训练、输入输出过滤与 API 阻断，以及针对协同攻击的批量账号封禁，部分改进也将回补至 GPT-6 Astra。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是前沿模型推理防蒸馏攻防的关键量化进展，直接关系到模型知识产权保护与 API 安全策略。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/">The Decoder</source>
-<category>大模型</category>
-<category>OpenAI</category>
-<category>模型安全</category>
-<category>对抗蒸馏</category>
-</item>
-<item><title>英伟达遭 SEC 会计调查 单周市值蒸发超 7500 亿美元</title><link>https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html</link><guid isPermaLink="true">https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html</guid>
-<pubDate>Sat, 21 Nov 2026 04:22:41 +0800</pubDate>
-<description>&lt;p&gt;美国证券交易委员会对英伟达的调查正聚焦潜在会计问题，并审查其信息披露是否误导投资者。消息叠加抛售压力，英伟达周五股价跌约 10%，单日市值缩水约 4000 亿美元，本周累计蒸发或超 7500 亿美元，创下个股单周最大跌幅纪录。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;监管调查直指 AI 算力龙头的财务披露，叠加创纪录市值蒸发，对 AI 产业链估值与市场情绪影响重大。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html">Hacker News AI</source>
-<category>英伟达</category>
-<category>SEC 调查</category>
-<category>资本市场</category>
-<category>AI 算力</category>
 </item>
 </channel>
 </rss>

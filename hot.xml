@@ -35,6 +35,14 @@ Inkling 2 Mini 的发布标志着高效循环架构在开源社区的落地，�
 
 Neon 的发布标志着谷歌在七周内连发四款 Gemini 4 系列模型，产品线快速收敛。其高性价比与可操控性优势直接对标 Anthropic 与 OpenAI 的旗舰产品，有望降低企业部署智能体的门槛，加剧中端 AI 模型市场的价格竞争。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;The Decoder, Marktechpost (@Marktechpost), Google DeepMind, OpenRouter (@OpenRouter), Hacker News AI, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
+<item><title>OpenAI 发布药物化学基准 MedChemBench 揭示模型决策短板</title><link>https://todayforai.com/en/story/story-ac4a9ae9-3fa</link><guid isPermaLink="true">https://todayforai.com/en/story/story-ac4a9ae9-3fa</guid>
+<pubDate>Sat, 21 Nov 2026 08:06:12 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 正式发布药物化学基准 MedChemBench，旨在评估 AI 模型在真实药物发现任务中的推理能力。该基准包含 99 道题目，源自 117 篇论文与专利，覆盖 761 个分级分子结构，并在真实决策点截断、隐藏后续实验结果，要求模型基于生物靶点、已合成化合物与部分测定结果做出判断。
+
+测试结果显示，最强模型 GPT-6.2 Astra 在 xhigh 推理档下总体得分约 84.5%，分子结构重建分项高达 95.4%，但在关键决策（如化合物筛选与数值性质预测）上正确率仅约五成。相比之下，GPT-5.6 Sol 仅得 58.2%，模型间差距明显。OpenAI 强调，该结果不能证明模型能发现新药，仅用于定位能力边界与短板。
+
+MedChemBench 的推出为药物化学领域的 AI 应用提供了可量化的评估工具，揭示了前沿模型在结构解读与真实决策之间的显著落差。这有助于引导后续模型迭代聚焦于提升因果推理与实验证据整合能力，对 AI 辅助药物发现赛道具有风向标意义。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), OpenAI 官方博客, IT之家 · 智能时代&lt;/p&gt;</description>
+</item>
 <item><title>HeyGen 上线 Decision 1 多模态概率判定模型</title><link>https://todayforai.com/en/story/story-4c3c4a18-8e7</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4c3c4a18-8e7</guid>
 <pubDate>Sat, 21 Nov 2026 07:14:24 +0800</pubDate>
 <description>&lt;p&gt;HeyGen 正式推出 Decision 1 模型，并已在 OpenRouter 平台上线。该模型不生成自然语言文本，而是接收视频、音频、图像与文本的多模态输入，针对每个问题返回校准后的概率值，可直接接入业务代码逻辑。单次调用最多支持 400 个问题，延迟约 100 毫秒，输入价格在 12 月 1 日前享受五折优惠，Turbo 版本每百万 token 仅 0.042 美元，输出免费。
@@ -42,14 +50,6 @@ Neon 的发布标志着谷歌在七周内连发四款 Gemini 4 系列模型，�
 综合多方信源，Decision 1 的核心特性在于批量概率判定能力。官方演示中，手势与情绪识别 8 题全对，单次成本约 0.0027 美元，凸显低成本实用导向。模型通过 AI/ML API 平台分发，与 OpenRouter 形成互补渠道。其输出概率值而非文本的设计，便于开发者直接嵌入风控、身份核验等自动化流程，例如判断自拍视频与证件照是否同一人、是否为活体采集。
 
 此次发布标志着 AI 模型从内容生成向决策判定延伸，为视频审核、金融身份认证、互动娱乐等场景提供了可量化的概率工具。HeyGen 以极低定价和批量处理能力切入，有望降低多模态判定的应用门槛，推动概率型 AI 服务成为新的基础设施。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter), Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
-</item>
-<item><title>OpenAI 发布 GPT-6.2 双模型 任务成本骤降 80%</title><link>https://todayforai.com/en/story/story-38dbfe49-f31</link><guid isPermaLink="true">https://todayforai.com/en/story/story-38dbfe49-f31</guid>
-<pubDate>Fri, 20 Nov 2026 15:13:50 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 正式发布 GPT-6.2 Astra 与 GPT-6.2 Sol 两款新模型，分别面向高难度专业任务与日常高效工作。Astra 在专业智能体基准 Agents&amp;#x27; Last Exam 上较前代 GPT-6 Astra 提升 5.2 分，且单任务成本不足前代三分之一；对竞品 Claude Fable 5.2 领先 5.5 分，成本仅为其约 5%。API 定价同步下调 20%，Astra 输入/输出价格降至每百万 Token 8 美元与 40 美元，缓存输入价格从 1 美元降至 0.4 美元，Sol 维持 2/10 美元定价。
-
-技术细节上，两款模型均以更少输出 Token 完成同等任务，官方建议保持提示前缀不变以复用缓存、降低延迟。Astra 在 3D 生成评测 AA-3D 中以 1318 Elo 登顶，超过 Fable 5.2 的 1271 分；在 Artificial Analysis 智能指数 v5 上，Astra 与 Sol 分别升至 62 分与 57 分，位列第二、第三，仅次于 Claude Fable 5.2。OpenAI 借此占据单位任务成本帕累托前沿的大部分区间，与 Anthropic、Meta 共同构成前沿格局。
-
-行业影响方面，此次发布正值 Anthropic IPO 定价前夕，OpenAI 以显著的成本优势发起价格战，有望降低企业级智能体部署门槛，加速 AI 在专业工作与编程场景的规模化落地。然而，安全评估也揭示隐忧：Astra 是 OpenAI 首个在 AI 自我改进维度获评 High 的公开模型，网络安全维度维持 Critical 级，英国 …&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), Arena.ai (@arena), IT之家 · IT业界, The Decoder, OpenRouter (@OpenRouter), Hacker News AI&lt;/p&gt;</description>
 </item>
 <item><title>Signal 封堵截屏 阻止系统级 AI 读取私聊</title><link>https://todayforai.com/en/story/story-7515a48b-c5e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-7515a48b-c5e</guid>
 <pubDate>Sat, 21 Nov 2026 03:50:27 +0800</pubDate>
@@ -75,13 +75,9 @@ Neon 的发布标志着谷歌在七周内连发四款 Gemini 4 系列模型，�
 
 此次融资凸显 AI 算力军备竞赛已从科技巨头蔓延至航天与重工业领域。SpaceX 通过表外融资锁定稀缺的英伟达高端芯片，为星链、星舰等项目的 AI 训练与推理储备算力，同时也为其他企业提供了“债务隔离+租赁”的算力获取范本。分析认为，这类结构化融资或将成为大额 GPU 采购的主流模式，进一步推高英伟达订单能见度。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
-<item><title>OpenAI 发布药物化学基准 MedChemBench</title><link>https://todayforai.com/en/story/story-ac4a9ae9-3fa</link><guid isPermaLink="true">https://todayforai.com/en/story/story-ac4a9ae9-3fa</guid>
-<pubDate>Sat, 21 Nov 2026 05:17:59 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 正式推出药物化学基准 MedChemBench，旨在评测 AI 模型在真实药物发现任务中的推理能力。该基准从 117 篇论文与专利中提取题目，覆盖 761 个分级分子结构，并在真实决策点截断、隐藏后续实验结果，要求模型基于生物靶点、已合成化合物与部分测定结果做出判断。
-
-测试结果显示，最强模型 GPT-6.2 Astra 总体正确率约 84%，化学结构解读近乎满分，但关键决策正确率仅约五成。这表明前沿模型在分子结构解读方面表现优异，但在需要综合实验证据进行药物设计决策时仍有明显短板。OpenAI 官方表示，MedChemBench 聚焦分子结构与实验证据的关联推理，任务覆盖结果解释、化合物比较与性质预测三类核心工作，旨在定位模型能力边界，为后续迭代提供可量化参照。
-
-该基准的发布填补了药物化学领域 AI 评测的空白，为开发者提供了衡量模型在真实科研场景中实用性的标尺。业界认为，随着 AI 在药物发现中的应用日益深入，此类基准将推动模型从“结构识别”向“决策辅助”演进，加速 AI 在生物医药研发中的落地。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), OpenAI 官方博客&lt;/p&gt;</description>
+<item><title>Arena 推出 Agent 排行榜 Gemini 4 Neon 空降第二</title><link>https://todayforai.com/en/story/story-e50edc48-2c8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e50edc48-2c8</guid>
+<pubDate>Sat, 21 Nov 2026 05:39:48 +0800</pubDate>
+<description>&lt;p&gt;Arena.ai 正式上线 Agent Arena Index，首次以统一榜单横向评测智能体能力。谷歌 Gemini 4 Neon 以 1336 分空降第二，OpenAI GPT-6.2 Astra 与 Sol 分列第六和第十一，阿里 Qwen4-Max 位列第十四并成为排名最高的中国模型。榜单同时引入成本维度，Meta Muse Ember 在 WebDev 代码竞技场以约 0.03 美元单任务成本刷新性价比前沿。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Arena.ai (@arena)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
