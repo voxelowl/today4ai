@@ -43,6 +43,14 @@ Inkling 2 Mini 的发布标志着循环架构在开源模型中的一次重要�
 
 行…&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Decoder, Arena.ai (@arena), Sam Altman (@sama), Artificial Analysis (@ArtificialAnlys), Hacker News AI, 量子位官网&lt;/p&gt;</description>
 </item>
+<item><title>腾讯元宝联合 KCL 发布首个群聊 Agent 记忆基准</title><link>https://todayforai.com/en/story/story-5c1756b3-b65</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5c1756b3-b65</guid>
+<pubDate>Sun, 22 Nov 2026 01:07:07 +0800</pubDate>
+<description>&lt;p&gt;腾讯元宝与伦敦国王学院 NLP 团队联合发布 GroupAssistBench，这是首个基于真实群聊构建的 Agent 记忆评测基准。该基准覆盖 50 个真实群聊、80,299 条历史消息与 2,395 道评测题，将 Agent 记忆能力拆分为 L1 事实召回与 L2 开放式服务两个层级，并揭示关键反差：记忆召回更强的配置在开放式服务任务上反而可能落后于完整上下文，说明“记得住”不等于“用得好”。
+
+在技术方案上，GroupAssistBench 按 M1 单条记忆、M2 多记忆整合、M3 更新冲突划分记忆结构，强调旧决定被取代的识别能力。实验对比 14 组配置发现，EverMemOS 在 L1 得分 0.621 高于完整上下文的 0.570，但在 L2 仅得 0.247，远低于后者的 0.431。检索增强与外部记忆方案在 L2 上普遍落后于完整上下文，表明现有记忆系统在复杂服务场景中仍有不足。
+
+该基准的发布为 Agent 记忆研究提供了首个真实群聊场景的评测标准，论文、代码与数据集均已开源。行业影响方面，它提醒开发者记忆召回能力并非服务效果的充分条件，需关注记忆的整合与更新能力，推动 Agent 从“记得住”向“用得好”演进，对群聊助手、协作 Agent 等应用具有指导意义。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), 量子位官网, 量子位 (微信公众号)&lt;/p&gt;</description>
+</item>
 <item><title>200 万条诱饵请求暴露 AI 路由链密钥泄露</title><link>https://todayforai.com/en/story/story-2235dbbd-344</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2235dbbd-344</guid>
 <pubDate>Sun, 22 Nov 2026 13:11:43 +0800</pubDate>
 <description>&lt;p&gt;安全公司 Dragos 首席研究官 HD Moore 向多家 AI 服务商投放近 200 万条带可追踪诱饵的请求，首次系统量化了 AI 供应链中的隐私与凭证泄露风险。实验发现至少三家服务商遭入侵，攻击者利用窃取的密钥发起数万次云接口调用，部分密钥在提交后数小时内即被滥用。
@@ -62,14 +70,6 @@ Inkling 2 Mini 的发布标志着循环架构在开源模型中的一次重要�
 此次 IPO 获得约 6 倍超额认购，散户配售比例提升至 20%。除公开发行 8.25 亿股外，谷歌、英伟达、微软、AMD、博通、美光、台积电等七家巨头还以同价参与 260 亿美元的私募配售，其中英伟达认购 100 亿美元。公司年化收入已从 9 月的 710 亿美元增至 10 月底的 810 亿美元，支撑强劲需求。CEO Dario Amodei 表示，上市核心目的是囤积现金以支撑总额 9000 亿美元的算力基础设施投入，包括与 SpaceX 每月最高 31 亿美元的数据中心协议。
 
 Anthropic 的上市标志着头部大模型公司首次进入公开资本市场，为 AI 行业估值与商业化能力提供了关键定价锚点。其约 2200 亿美元的现金储备将加剧与 OpenAI 等对手的算力军备竞赛，同时也让资本市场对 AI 泡沫的争论更趋白热化。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · IT业界, Anthropic AI (@AnthropicAI), Yuchen Jin (@Yuchenj_UW), 机器之心 (微信公众号), The Decoder&lt;/p&gt;</description>
-</item>
-<item><title>腾讯元宝联合 KCL 发布群聊 Agent 记忆基准</title><link>https://todayforai.com/en/story/story-5c1756b3-b65</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5c1756b3-b65</guid>
-<pubDate>Sun, 22 Nov 2026 01:07:07 +0800</pubDate>
-<description>&lt;p&gt;腾讯元宝与伦敦国王学院 NLP 团队联合发布 GroupAssistBench，这是首个针对群聊场景的 Agent 记忆能力评测基准。该基准基于 50 个真实群聊的 80,299 条历史消息，构建了 2,395 道评测题，覆盖单条记忆、多记忆整合与更新冲突三类结构，并首次将记忆能力拆分为 L1 事实召回与 L2 开放式服务两个层级。
-
-实验对比 14 组配置后发现，记忆召回更强并不等于服务能力更强。例如，EverMemOS 在 L1 得分 0.621，高于完整上下文的 0.570，但在 L2 仅得 0.247，远低于后者的 0.431。这表明检索增强与外部记忆方案在开放式服务任务上普遍落后于完整上下文，为 Agent 记忆系统的设计提供了重要警示。
-
-该基准的论文、代码与数据集均已公开，有望推动群聊 Agent 记忆研究的标准化与可复现性。随着 AI 助手日益融入群聊协作场景，如何平衡记忆召回与服务能力将成为开发者关注的核心问题，此项工作为后续优化指明了方向。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), 量子位 (微信公众号)&lt;/p&gt;</description>
 </item>
 <item><title>Signal 封堵截屏 阻止系统级 AI 读取私聊</title><link>https://todayforai.com/en/story/story-7515a48b-c5e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-7515a48b-c5e</guid>
 <pubDate>Sun, 22 Nov 2026 07:28:10 +0800</pubDate>
