@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Mon, 23 Nov 2026 03:22:49 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 23 Nov 2026 05:14:07 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 数学家与 Claude 宣称证明黎曼猜想</title><link>https://todayforai.com/en/story/story-b91caf62-12d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b91caf62-12d</guid>
 <pubDate>Sun, 22 Nov 2026 19:08:31 +0800</pubDate>
@@ -10,6 +10,14 @@
 Lean 与 Mathlib 社区联合核验了该证明，确认其通过四项标准：陈述正确、代码可编译、证明与 Mathlib 陈述一致、证明有效。核验动用了 Lean 官方内核、con-leche、con-ron 及多个第三方独立检查器，并借助相对集合论的形式化证明排除了检查器本身接受错误证明的可能。数十名独立验证者运行代码得到一致结果。菲尔兹奖得主 James Maynard 表示相信证明正确，但强调数学界全面认可的前提是有人真正理解并能向外解释其思想框架。同日，斯坦福研究者 Alessandro Masullo 发布了一份完全由人类完成的独立竞争性证明稿，但数小时内即被 AI 查出问题，形成鲜明对照。
 
 该事件凸显了 AI 在顶级数学研究中的实际参与度，也把“AI 成果如何被可信验证”的争议推到台前。形式化验证成为 AI 数学成果的可信背书，但证明的真正价值可能在于催生解释素数分布结构的新数学理论，而非猜想本身。若证明成立，将支撑数百个依赖黎曼猜想的数学结论，并标志 AI for Math 进入新阶段。&lt;/p&gt;&lt;p&gt;8 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, TechCrunch AI, 宝玉 (@dotey), Latent Space, Hacker News AI, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
+</item>
+<item><title>OpenAI 首席科学家提议以困惑度统一衡量模型安全</title><link>https://todayforai.com/en/story/story-24028721-a3a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-24028721-a3a</guid>
+<pubDate>Mon, 23 Nov 2026 05:14:07 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 首席科学家 Jakub Pachocki 近日撰文提出，将困惑度（等价于交叉熵损失）确立为跨模型开发者可比的统一指标，并以此支撑共享安全标准。作为第一步，OpenAI 首次公开了自身预训练进展的更多透明度信息，并指出近期模型设计中已出现来自 AI 的实质性贡献。
+
+Pachocki 认为，现代 AI 的进步本质上是训练更优压缩器（即预测器）的进展，而下游能力基准快速过时，困惑度更适合作为进展的稳定度量。该提议呼应了 Anthropic CEO Dario Amodei 的“节奏化前沿”计划，后者主张企业就安全标准与无节制进展的速率限制达成共识。若被采纳，困惑度将从训练评估指标升级为行业治理的量化锚点，企业或承诺在理解与监控能力达到具体里程碑前不越过特定阈值。
+
+这一提议若落地，将首次为 AI 安全治理提供可量化、可比较的通用标尺，推动行业从各自为政的基准测试转向协同限速机制。对开发者而言，困惑度作为统一指标可降低评估成本，但也可能引发对单一指标过度依赖的担忧。OpenAI 主动披露预训练进展，或倒逼更多厂商提升透明度，加速形成共享安全标准。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, TechCrunch AI, OpenAI 官方博客&lt;/p&gt;</description>
 </item>
 <item><title>OpenRouter 下架 3 家推理供应商并移除 125 个端点</title><link>https://todayforai.com/en/story/story-e2a11f6e-42a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e2a11f6e-42a</guid>
 <pubDate>Sun, 22 Nov 2026 20:07:56 +0800</pubDate>
@@ -26,14 +34,6 @@ Dragos 在 2026 年 7 月至 11 月间向多家 AI 推理服务商发送约 200 
 各信源在架构细节上高度一致：循环层每轮保留独立 KV 缓存并读取上一轮门控消息，激活参数约 3.4B 至 5.4B（不同统计口径），每 token 仅使用约 3.1B 唯一权重。性能方面，其在 100B 以下开源模型中智能体编程测试领先，DeepSWE v1.1 得分 48.2%，SWE-bench Verified 达 79.2%，AA Index 得分 20.1，与 Qwen3.8 27B 持平但激活参数少 5 至 6 倍，推理成本约为其六分之一。不过，模型在知识召回上存在明显取舍，非幻觉率仅 63.4%。vLLM 在 Blackwell、Hopper 与 DGX Spark 上实现发布当日支持，并内置 DSpark 推测解码加速。
 
 Inkling 2 Mini 的发布标志着循环架构在开源模型中的一次重要落地，以极低的激活参数实现了与更大模型相当的智能水平，大幅降低了本地部署门槛。其突出的智能体编程能力与长上下文支持，为个人设备上的长程任务自动化提供了新可能，有望推动本地优先的 AI 应用生态发展。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost), Arena.ai (@arena), The Decoder, Artificial Analysis (@ArtificialAnlys), vLLM 官方博客, Hacker News AI&lt;/p&gt;</description>
-</item>
-<item><title>OpenAI 首席科学家提议以困惑度统一衡量模型安全</title><link>https://todayforai.com/en/story/story-24028721-a3a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-24028721-a3a</guid>
-<pubDate>Mon, 23 Nov 2026 01:06:27 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 首席科学家 Jakub Pachocki 近日撰文提出，将困惑度（交叉熵损失）作为跨模型开发者可比的统一指标，并以此支撑共享安全标准。他认为，现代 AI 的进步本质上是训练更优压缩器（即预测器）的进展，困惑度能直接反映模型预测能力，是衡量预训练进展的核心标尺。作为第一步，OpenAI 首次公开了自身预训练进展的更多透明度信息，并透露近期模型设计中已有实质性贡献来自 AI 自身。
-
-该提议若被行业采纳，将首次为不同厂商的模型能力与安全性提供可比较的量化基准，有助于建立统一的评估体系。同时，OpenAI 主动披露预训练细节，也回应了外界对 AI 透明度日益增长的呼吁。然而，困惑度作为安全标尺仍存争议，因其主要衡量预测准确性，而非模型行为的合规性或危害性。
-
-这一动向可能推动行业形成更开放的竞争与合作格局，促使开发者共享关键指标，加速安全标准的协同制定。但能否成为通用标准，还需看其他主要厂商的响应与监管机构的认可。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, OpenAI 官方博客&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 发布 GPT-6.2 双模型 成本仅为对手 5%</title><link>https://todayforai.com/en/story/story-38dbfe49-f31</link><guid isPermaLink="true">https://todayforai.com/en/story/story-38dbfe49-f31</guid>
 <pubDate>Sun, 22 Nov 2026 01:20:44 +0800</pubDate>
@@ -59,13 +59,13 @@ Muru 延续了 Dumpleton 在 wrapture 项目中采用的公开开发日志模式
 
 Muru 的出现可能对 Python 应用服务器生态带来新的选择，尤其是对需要同时支持 ASGI 和 WSGI 的部署场景。Rust 带来的性能优势与 AI 辅助的开发效率，或将为传统服务器项目提供一条新的演进路径。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Simon Willison 博客, Hacker News AI&lt;/p&gt;</description>
 </item>
-<item><title>200 万条诱饵请求暴露 AI 路由链密钥泄露</title><link>https://todayforai.com/en/story/story-2235dbbd-344</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2235dbbd-344</guid>
-<pubDate>Sun, 22 Nov 2026 13:11:43 +0800</pubDate>
-<description>&lt;p&gt;安全公司 Dragos 首席研究官 HD Moore 向多家 AI 服务商投放近 200 万条带可追踪诱饵的请求，首次系统量化了 AI 供应链中的隐私与凭证泄露风险。实验发现至少三家服务商遭入侵，攻击者利用窃取的密钥发起数万次云接口调用，部分密钥在提交后数小时内即被滥用。
+<item><title>Anthropic 登陆纳斯达克 募资 935 亿美元刷新纪录</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
+<pubDate>Mon, 23 Nov 2026 04:47:59 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 于本周四正式在纳斯达克挂牌上市，以每股 83 美元的发行价募资约 935 亿美元，超越 SpaceX 保持的 862.5 亿美元纪录，成为史上最大 IPO。其开盘价飙升至 111.50 美元，较发行价高开 33%，完全稀释估值一度突破 1.5 万亿美元。
 
-研究进一步揭示，AI 路由网关和转售商层层转手是数据外泄的关键节点。即便请求标注“零数据保留”，其私密网址仍在数日后被抓取；市场转售商会窃取客户提示词，隐私设置与数据保留策略被供应商无视。Moore 采用金丝雀令牌精确定位泄露环节，证实提示词与 AWS 密钥等敏感凭证在中间环节被截留、窃取和滥用。
+此次 IPO 获得约 6 倍超额认购，散户配售比例提升至 20%。除公开发行 8.25 亿股外，谷歌、英伟达、微软、AMD、博通、美光、台积电等七家巨头还以同价参与 260 亿美元的私募配售，其中英伟达认购 100 亿美元。公司年化收入已从 9 月的 710 亿美元增至 10 月底的 810 亿美元，支撑强劲需求。CEO Dario Amodei 表示，上市核心目的是囤积现金以支撑总额 9000 亿美元的算力基础设施投入，包括与 SpaceX 每月最高 31 亿美元的数据中心协议。
 
-这一发现对依赖第三方路由调用模型的开发者敲响警钟。AI 路由链已成为密钥与敏感数据泄露的新增攻击面，开发者需重新评估信任边界与凭证管理策略。建议敏感业务本地部署，或直连可信上游并明确指定服务提供方，同时可用金丝雀令牌低成本检测提示词是否外传。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Ars Technica AI, Hacker News AI&lt;/p&gt;</description>
+Anthropic 的上市标志着头部大模型公司首次进入公开资本市场，为 AI 行业估值与商业化能力提供了关键定价锚点。其约 2200 亿美元的现金储备将加剧与 OpenAI 等对手的算力军备竞赛，同时也让资本市场对 AI 泡沫的争论更趋白热化。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · IT业界, Anthropic AI (@AnthropicAI), Yuchen Jin (@Yuchenj_UW), 机器之心 (微信公众号), The Decoder&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 2028 年电力 87% 来自天然气</title><link>https://todayforai.com/en/story/story-4d18b27f-9fd</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4d18b27f-9fd</guid>
 <pubDate>Sun, 22 Nov 2026 16:57:34 +0800</pubDate>
