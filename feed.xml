@@ -30,6 +30,15 @@
 <category>AI 服务器</category>
 <category>算力基础设施</category>
 </item>
+<item><title>Canary Tokens Expose Prompt Leaks Across Three AI Supply Chain Breaches</title><link>https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens</link><guid isPermaLink="true">https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens</guid>
+<pubDate>Sun, 22 Nov 2026 13:11:43 +0800</pubDate>
+<description>&lt;p&gt;Dragos used canary tokens to trace AI inference data flows and documented real breaches at three companies, where marketplace resellers stole customer prompts and privacy settings and retention policies were ignored. The post identifies AI routers as a key exfiltration point and outlines a practical canary-token approach for detecting prompt leaks.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 供应链安全告急 金丝雀令牌捕获三起提示词泄露&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以真实泄露案例揭示 AI 推理链路中的提示词外泄风险，并给出可落地的检测手段，对企业 AI 安全建设有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 72/100&lt;/p&gt;</description>
+<source url="https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens">Hacker News AI</source>
+<category>AI 安全</category>
+<category>供应链安全</category>
+<category>提示词泄露</category>
+<category>金丝雀令牌</category>
+</item>
 <item><title>Together AI Discloses Prompt Leak After AI Coding Agent Exposed Credential</title><link>https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026</link><guid isPermaLink="true">https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026</guid>
 <pubDate>Sun, 22 Nov 2026 11:07:27 +0800</pubDate>
 <description>&lt;p&gt;Together AI disclosed a security incident in which an AI coding agent committed a credential to its public GitHub repository xorl, granting access to a private Hugging Face repo holding prompt samples from MiniMax M3, GLM-5.2 and Kimi K2.6 requests in June and July 2026. An unauthorized party downloaded the samples and searched them for further credentials. The incident highlights supply-chain risk from AI agents in development workflows; Together advises customers handling sensitive prompts to enable zero data retention.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Together AI 因 AI 编码代理泄露凭证致提示词外泄&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 编码代理直接引发真实数据泄露的罕见公开案例，对使用代理式开发与托管推理服务的团队具有直接警示价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 71/100&lt;/p&gt;</description>
@@ -199,9 +208,9 @@
 <category>端到端加密</category>
 <category>Signal</category>
 </item>
-<item><title>Rust GUI Development Accelerates on Surging AI-Driven Interest</title><link>https://linebender.org/blog/next-100-guis/</link><guid isPermaLink="true">https://linebender.org/blog/next-100-guis/</guid>
+<item><title>Rust GUI 迎来 AI 驱动的加速发展期</title><link>https://linebender.org/blog/next-100-guis/</link><guid isPermaLink="true">https://linebender.org/blog/next-100-guis/</guid>
 <pubDate>Sun, 22 Nov 2026 05:17:53 +0800</pubDate>
-<description>&lt;p&gt;Raph Levien&amp;#x27;s follow-up essay argues that although Rust GUI adoption has been slow over the past four years with few flagship apps, AI-driven interest is now rapidly accelerating the space. He maintains that Rust remains a compelling path to high-performance cross-platform UI and advises newcomers to build on solid foundations, follow established specs, and collaborate constructively with open source upstreams rather than submitting low-quality PRs.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Rust GUI 迎来 AI 驱动的加速发展期&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;资深 Rust GUI 实践者对生态现状与工程方法论的权威复盘，对关注跨平台高性能 UI 的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Raph Levien 在《给下一个百个 Rust GUI 的建议》中指出，尽管过去四年 Rust GUI 工具包采用缓慢、旗舰应用稀少，但 AI 带来的关注度正推动这一领域快速升温。他认为 Rust 在跨平台高性能 UI 上仍具不可替代的价值，并建议后来者夯实基础、遵循成熟规范、与开源上游良性协作而非提交低质 PR。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;资深 Rust GUI 实践者对生态现状与工程方法论的权威复盘，对关注跨平台高性能 UI 的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://linebender.org/blog/next-100-guis/">Hacker News AI</source>
 <category>Rust</category>
 <category>GUI</category>
@@ -260,15 +269,6 @@
 <category>大模型</category>
 <category>OpenAI</category>
 <category>基准评测</category>
-</item>
-<item><title>gopgext 让 Go 直接编写 PostgreSQL 扩展</title><link>https://jespino.github.io/gopgext/</link><guid isPermaLink="true">https://jespino.github.io/gopgext/</guid>
-<pubDate>Sun, 22 Nov 2026 01:08:04 +0800</pubDate>
-<description>&lt;p&gt;开源项目 gopgext 基于 TinyGo 自定义目标与运行时层，可将普通 Go 代码编译为 PostgreSQL 扩展，自动生成 C 胶水代码、安装脚本与控制文件。项目支持标准库、SQL 类型映射、SPI 查询与 SQLSTATE 错误码，但目前仍属实验性，官方明确警告不可用于生产环境。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为 PostgreSQL 扩展开发引入 Go 生态，思路与 gokm 一脉相承，对数据库与 Go 开发者有实际参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://jespino.github.io/gopgext/">Hacker News AI</source>
-<category>PostgreSQL</category>
-<category>Go</category>
-<category>TinyGo</category>
-<category>开源项目</category>
 </item>
 </channel>
 </rss>

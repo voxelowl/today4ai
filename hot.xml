@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Sun, 22 Nov 2026 10:31:50 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 22 Nov 2026 13:11:43 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 数学家与 Claude 宣称证明黎曼猜想</title><link>https://todayforai.com/en/story/story-c508eedd-8d6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c508eedd-8d6</guid>
 <pubDate>Sun, 22 Nov 2026 10:31:50 +0800</pubDate>
@@ -43,6 +43,14 @@ Inkling 2 Mini 的发布标志着循环架构在开源模型中的一次重要�
 
 Anthropic 的上市标志着头部大模型公司首次进入公开资本市场，为 AI 行业估值与商业化能力提供了关键定价锚点。其约 2200 亿美元的现金储备将加剧与 OpenAI 等对手的算力军备竞赛，同时也让资本市场对 AI 泡沫的争论更趋白热化。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · IT业界, Anthropic AI (@AnthropicAI), Yuchen Jin (@Yuchenj_UW), 机器之心 (微信公众号), The Decoder&lt;/p&gt;</description>
 </item>
+<item><title>200 万条诱饵请求暴露 AI 路由链密钥泄露</title><link>https://todayforai.com/en/story/story-2235dbbd-344</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2235dbbd-344</guid>
+<pubDate>Sun, 22 Nov 2026 13:11:43 +0800</pubDate>
+<description>&lt;p&gt;安全公司 Dragos 首席研究官 HD Moore 向多家 AI 服务商投放近 200 万条带可追踪诱饵的请求，首次系统量化了 AI 供应链中的隐私与凭证泄露风险。实验发现至少三家服务商遭入侵，攻击者利用窃取的密钥发起数万次云接口调用，部分密钥在提交后数小时内即被滥用。
+
+研究进一步揭示，AI 路由网关和转售商层层转手是数据外泄的关键节点。即便请求标注“零数据保留”，其私密网址仍在数日后被抓取；市场转售商会窃取客户提示词，隐私设置与数据保留策略被供应商无视。Moore 采用金丝雀令牌精确定位泄露环节，证实提示词与 AWS 密钥等敏感凭证在中间环节被截留、窃取和滥用。
+
+这一发现对依赖第三方路由调用模型的开发者敲响警钟。AI 路由链已成为密钥与敏感数据泄露的新增攻击面，开发者需重新评估信任边界与凭证管理策略。建议敏感业务本地部署，或直连可信上游并明确指定服务提供方，同时可用金丝雀令牌低成本检测提示词是否外传。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Ars Technica AI, Hacker News AI&lt;/p&gt;</description>
+</item>
 <item><title>Signal 封堵截屏 阻止系统级 AI 读取私聊</title><link>https://todayforai.com/en/story/story-7515a48b-c5e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-7515a48b-c5e</guid>
 <pubDate>Sun, 22 Nov 2026 07:28:10 +0800</pubDate>
 <description>&lt;p&gt;Signal 在 iOS 27 与部分 Android 版本上默认启用防截屏机制，直接阻止系统级 AI 智能体（如 Siri AI、Gemini）通过屏幕内容读取已解密的私聊消息。这是端到端加密应用与操作系统级 AI 之间围绕屏幕访问权的首次正面冲突，Signal 总裁 Meredith Whittaker 称此举针对隐私面临的“生存性威胁”。
@@ -70,14 +78,6 @@ Anthropic 的上市标志着头部大模型公司首次进入公开资本市场�
 <item><title>英伟达市值蒸发 2.73 万亿美元 纳斯达克创疫情后最差单周</title><link>https://todayforai.com/en/story/story-77a24844-7a2</link><guid isPermaLink="true">https://todayforai.com/en/story/story-77a24844-7a2</guid>
 <pubDate>Sat, 21 Nov 2026 08:08:12 +0800</pubDate>
 <description>&lt;p&gt;英伟达股价周五再跌 14%，较 10 月高点累计回撤约 47%，市值蒸发超 2.73 万亿美元，规模超过整个亚马逊。抛售由黄仁勋因丑闻辞职引发的人事震荡直接触发，叠加市场对 AI 高估值与巨额资本开支回报的怀疑，纳斯达克单周下跌 10%，创 2020 年 3 月以来最差表现。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, Hacker News AI, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
-</item>
-<item><title>HeyGen 上线 Decision 1 多模态概率判定模型</title><link>https://todayforai.com/en/story/story-4c3c4a18-8e7</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4c3c4a18-8e7</guid>
-<pubDate>Sat, 21 Nov 2026 07:14:24 +0800</pubDate>
-<description>&lt;p&gt;HeyGen 正式推出 Decision 1 模型，并已在 OpenRouter 平台上线。该模型不生成自然语言文本，而是接收视频、音频、图像与文本的多模态输入，针对每个问题返回校准后的概率值，可直接接入业务代码逻辑。单次调用最多支持 400 个问题，延迟约 100 毫秒，输入价格在 12 月 1 日前享受五折优惠，Turbo 版本每百万 token 仅 0.042 美元，输出免费。
-
-综合多方信源，Decision 1 的核心特性在于批量概率判定能力。官方演示中，手势与情绪识别 8 题全对，单次成本约 0.0027 美元，凸显低成本实用导向。模型通过 AI/ML API 平台分发，与 OpenRouter 形成互补渠道。其输出概率值而非文本的设计，便于开发者直接嵌入风控、身份核验等自动化流程，例如判断自拍视频与证件照是否同一人、是否为活体采集。
-
-此次发布标志着 AI 模型从内容生成向决策判定延伸，为视频审核、金融身份认证、互动娱乐等场景提供了可量化的概率工具。HeyGen 以极低定价和批量处理能力切入，有望降低多模态判定的应用门槛，推动概率型 AI 服务成为新的基础设施。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter), Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
