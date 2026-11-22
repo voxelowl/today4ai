@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Mon, 23 Nov 2026 02:36:34 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 23 Nov 2026 03:22:49 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Ant Group Open-Sources 560B Medical MoE Model LingSante-3.1-flash</title><link>https://x.com/rohanpaul_ai/status/2124584403695435777</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2124584403695435777</guid>
+<pubDate>Mon, 23 Nov 2026 03:22:49 +0800</pubDate>
+<description>&lt;p&gt;Ant Group has open-sourced LingSante-3.1-flash, a 560B-parameter medical MoE model with 25B activations per token, releasing weights on Hugging Face under an MIT license. It outperforms GPT-6 Astra, Claude Opus 5.5 and Gemini 4 Argon on HealthBench Professional, HLE, BrowseComp and EHR-Complex. The recipe mixes medical and general data from pretraining onward, trains medical reasoning, tool use, search and clinician-style behavior as separate skills with their own RL rewards, then merges the specialists via multi-teacher on-policy distillation.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;蚂蚁发布 560B 医疗 MoE 模型 LingSante-3.1-flash 并开源&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源权重医疗大模型首次在多项专业基准上超越闭源前沿模型，且披露了可复用的多技能 RL 加蒸馏训练范式。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 88/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2124584403695435777">Rohan Paul (@rohanpaul_ai)</source>
+<category>大模型</category>
+<category>开源</category>
+<category>医疗 AI</category>
+<category>MoE</category>
+<category>蚂蚁集团</category>
+</item>
 <item><title>Cerebras Says Architecture Sidesteps Three Major AI Chip Supply Bottlenecks</title><link>https://x.com/rohanpaul_ai/status/2124572766800331002</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2124572766800331002</guid>
 <pubDate>Mon, 23 Nov 2026 02:36:34 +0800</pubDate>
 <description>&lt;p&gt;Cerebras co-founder and CEO Andrew Feldman identified three supply-chain bottlenecks constraining much of the AI accelerator industry: HBM memory, CoWoS advanced packaging capacity, and access to TSMC&amp;#x27;s 3nm manufacturing. Cerebras largely sidesteps all three by architectural choice, relying on neither HBM nor CoWoS and fabricating current chips on 5nm rather than 3nm, giving it a materially different supply profile from mainstream GPU systems.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Cerebras 称架构设计绕开 AI 芯片三大供应链瓶颈&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 芯片公司 CEO 直接拆解行业供应链瓶颈，并给出差异化架构路径，对算力基础设施判断有参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 58/100&lt;/p&gt;</description>
@@ -220,9 +230,9 @@
 <category>智能体应用</category>
 <category>产业落地</category>
 </item>
-<item><title>Anthropic&#x27;s 2028 Power Mix Skewed 87% Toward Natural Gas</title><link>https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/</link><guid isPermaLink="true">https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/</guid>
+<item><title>Anthropic 2028 年电力 87% 来自天然气</title><link>https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/</link><guid isPermaLink="true">https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/</guid>
 <pubDate>Sun, 22 Nov 2026 16:57:34 +0800</pubDate>
-<description>&lt;p&gt;Anthropic&amp;#x27;s AI compute expansion is being powered overwhelmingly by fossil fuels, with roughly 87% of its 2028 electricity mix projected to come from natural gas and 11% from coal, leaving renewables marginal. The case study illustrates a broader industry pattern in which AI data centers drive both &amp;#x27;bring your own power&amp;#x27; projects and ~377 GW of new fossil generation, exposing a structural conflict between AI scaling and clean-energy commitments.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 2028 年电力 87% 来自天然气&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以具体电力结构数据揭示 AI 算力扩张对化石能源的深度依赖，是理解 AI 基础设施约束的关键视角。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;分析显示，Anthropic 为支撑其 AI 算力扩张，正大规模自建与锁定化石能源发电，预计到 2028 年其电力结构中约 87% 来自天然气、11% 来自煤炭，可再生能源占比极低。这一案例折射出 AI 数据中心“自带电源”（BYOP）与电网新增化石产能合计约 377 GW 的行业趋势，凸显 AI 算力扩张与清洁能源目标之间的结构性矛盾。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以具体电力结构数据揭示 AI 算力扩张对化石能源的深度依赖，是理解 AI 基础设施约束的关键视角。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 72/100&lt;/p&gt;</description>
 <source url="https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/">Hacker News AI</source>
 <category>算力基础设施</category>
 <category>能源</category>
@@ -264,15 +274,6 @@
 <category>腾讯</category>
 <category>语音转写</category>
 <category>AI 应用</category>
-</item>
-<item><title>全球电子协会警告 PCB 短缺或持续至 2027 年</title><link>https://www.ithome.com/1/030/573.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/573.htm</guid>
-<pubDate>Sun, 22 Nov 2026 14:25:23 +0800</pubDate>
-<description>&lt;p&gt;全球电子协会发布行业警报，称 PCB 供应链短缺持续加剧，AI 服务器高多层板需求挤占产能，订单量同比增长 56.1% 而出货量仅增 13.3%，高多层板交期已达 16-20 周。协会预计短缺至少持续到 2027 年上半年，2028 年中期前难有明显缓解，风险堪比 2021 年芯片短缺。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 算力扩张正把瓶颈从芯片转移到 PCB 与上游材料，这一预警直接影响数据中心与硬件供应链排期。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/030/573.htm">IT之家 · IT业界</source>
-<category>PCB</category>
-<category>供应链</category>
-<category>AI 服务器</category>
-<category>算力基础设施</category>
 </item>
 </channel>
 </rss>
