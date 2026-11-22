@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Sun, 22 Nov 2026 13:11:43 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 22 Nov 2026 17:35:58 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 数学家与 Claude 宣称证明黎曼猜想</title><link>https://todayforai.com/en/story/story-c508eedd-8d6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c508eedd-8d6</guid>
-<pubDate>Sun, 22 Nov 2026 10:31:50 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 数学家 Levent Alpöge 于近日公开宣称，在与 Claude 的协作下完成了黎曼猜想的证明，并进一步覆盖了更广的广义黎曼猜想（GRH）。该证明以约 1700 万行 Lean 形式化代码交付，已通过 Lean FRO 与 Mathlib 社区的联合核验，包括陈述正确性、代码可编译性、与 Mathlib 陈述一致性以及证明有效性四项标准。这是 AI 首次深度参与顶级数学开放问题的证明，并将形式化验证规模推至千万行量级。
+<pubDate>Sun, 22 Nov 2026 17:35:58 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 数学家 Levent Alpöge 宣布与 Claude 合作，完成了悬置 167 年的黎曼猜想的证明，并进一步声称覆盖广义黎曼猜想。该证明以约 1700 万行 Lean 形式化代码交付，已通过 Lean FRO 与 Mathlib 社区的联合核验，包括陈述正确、代码可编译、与 Mathlib 陈述一致及证明有效四项标准。核验动用了 Lean 官方内核、con-leche、con-ron 及多个第三方独立检查器，并借助相对集合论的形式化证明排除了检查器本身接受错误证明的可能。
 
-多方信源交叉验证显示，核验过程动用了 Lean 官方内核、con-leche、con-ron 及多个第三方独立检查器，并借助相对集合论的形式化证明排除了检查器本身接受错误证明的可能。MIT 的 Andrew Sutherland 使用 Claude Code 进行独立验证，确认 175,187 个模块全部编译通过，五个核心定理仅依赖三条标准公理，两个独立内核 nanoda 与 con-leche 均接受完整导出证明。陶哲轩指出，该证明疑似依赖朗兰兹纲领与算术几何的现代成果，数学界梳理与验证仍需时间。同日，斯坦福研究者 Alessandro Masullo 发布了一份完全由人类完成的独立竞争性证明稿，但数小时内即被 AI 查出问题，形成鲜明对照。
+技术细节显示，175,187 个 Lean 模块在 Lean v4.33.1 与 Mathlib v4.33.1 下零错误编译通过，五个核心定理仅依赖 propext、Classical.choice、Quot.sound 三条标准公理。MIT 的 Andrew Sutherland 使用 Claude Code 进行了独立验证，两个独立内核 nanoda 与 con-leche 均接受完整导出证明。Claude 在数学家未掌握的高阶领域提出了关键步骤，双方用约六周时间完成形式化。同日，斯坦福研究者 Alessandro Masullo 发布了完全由人类完成的独立竞争性证明稿，但数小时内即被 AI 查出问题，形成鲜明对照。
 
-若最终成立，这将是 AI 辅助数学与形式化验证领域的里程碑事件，不仅支撑数百个依赖黎曼猜想的数学结论，更将检验 AI 研究成果的可信验证机制。事件凸显了 AI 实验室与形式化数学证明工具交叉地带的最新动向，也把“AI 成果如何被可信验证”的争议推到台前。&lt;/p&gt;&lt;p&gt;12 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Artificial Analysis (@ArtificialAnlys), 宝玉 (@dotey), 量子位官网, Rohan Paul (@rohanpaul_ai), The Decoder&lt;/p&gt;</description>
+若最终经同行评审确认，这将是 AI 首次在顶级数学开放问题上做出实质性贡献，并将形式化验证规模推至千万行量级。菲尔兹奖得主 James Maynard 表示相信证明正确，但强调数学界全面认可的前提是有人真正理解并能向外解释其思想框架。该成果的真正价值可能在于催生…&lt;/p&gt;&lt;p&gt;12 sources&lt;/p&gt;&lt;p&gt;Latent Space, 量子位官网, Rohan Paul (@rohanpaul_ai), The Decoder, Hacker News AI, TechCrunch AI&lt;/p&gt;</description>
 </item>
 <item><title>Thinking Machines 开源 26B 循环模型 Inkling 2 Mini</title><link>https://todayforai.com/en/story/story-e7a42b22-638</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e7a42b22-638</guid>
 <pubDate>Sat, 21 Nov 2026 20:19:28 +0800</pubDate>
@@ -19,14 +19,6 @@
 
 Inkling 2 Mini 的发布标志着循环架构在开源模型中的一次重要落地，以极低的激活参数实现了与更大模型相当的智能水平，大幅降低了本地部署门槛。其突出的智能体编程能力与长上下文支持，为个人设备上的长程任务自动化提供了新可能，有望推动本地优先的 AI 应用生态发展。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost), Arena.ai (@arena), The Decoder, Artificial Analysis (@ArtificialAnlys), vLLM 官方博客, Hacker News AI&lt;/p&gt;</description>
 </item>
-<item><title>OpenAI 反蒸馏防护将思考链提取成功率降至 0.2%</title><link>https://todayforai.com/en/story/story-fe915d44-805</link><guid isPermaLink="true">https://todayforai.com/en/story/story-fe915d44-805</guid>
-<pubDate>Sun, 22 Nov 2026 07:31:46 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 公布针对 GPT-6.2 Astra 与 GPT-6.2 Sol 的反蒸馏防护进展，黑盒红队测试显示旧请求的推理思考链提取成功率从 54% 降至 0.2%，新请求从 22.9% 降至 0.9%。同时 OpenAI 采取多层防护，每周封禁数千至数万个涉未经授权蒸馏的账号，标志着前沿模型厂商对推理链资产保护进入实质性对抗阶段。
-
-技术方案上，OpenAI 通过多层防护机制显著降低了思考链提取成功率，旧请求提取率从 54% 降至 0.2%，新请求从 22.9% 降至 0.9%。此外，OpenAI 每周封禁数千至数万个涉未经授权蒸馏的账号，表明其正在积极打击模型窃取行为。这些措施共同构成了对推理链资产的实质性保护。
-
-行业影响方面，推理思考链正被厂商视为需重点保护的核心资产，OpenAI 的举措可能引发其他前沿模型厂商跟进，推动反蒸馏技术成为行业标准。同时，这也可能加剧模型厂商与试图蒸馏者之间的对抗，促使相关法律法规进一步完善。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, IT之家 · 智能时代, Hacker News AI, Arena.ai (@arena), OpenAI 官方博客, The Decoder&lt;/p&gt;</description>
-</item>
 <item><title>OpenRouter 下架 3 家推理供应商并移除 125 个端点</title><link>https://todayforai.com/en/story/story-e2a11f6e-42a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e2a11f6e-42a</guid>
 <pubDate>Sun, 22 Nov 2026 10:14:14 +0800</pubDate>
 <description>&lt;p&gt;OpenRouter 在安全研究者发现部分第三方推理供应商存在数据处理违规后，迅速采取行动，下架了 3 家供应商并移除了 125 个端点的零数据保留（ZDR）资格，同时通知受影响用户。平台强调自身未遭入侵，问题源于上游供应商的数据政策执行。
@@ -34,6 +26,14 @@ Inkling 2 Mini 的发布标志着循环架构在开源模型中的一次重要�
 据官方声明，研究者的测试方法将被纳入平台常态化安全检查流程，以增强对供应商数据合规的持续监控。此次事件凸显了模型路由层在数据治理中的执法能力，即通过动态调整供应商名单来维护用户数据安全。
 
 对开发者而言，这意味著选择推理服务时需更关注供应商的合规状态；对行业来说，OpenRouter 的主动下架为 AI 基础设施的数据隐私保护树立了执行先例，可能推动上游供应商提高透明度。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter), Hacker News AI&lt;/p&gt;</description>
+</item>
+<item><title>OpenAI 反蒸馏防护将思考链提取成功率降至 0.2%</title><link>https://todayforai.com/en/story/story-fe915d44-805</link><guid isPermaLink="true">https://todayforai.com/en/story/story-fe915d44-805</guid>
+<pubDate>Sun, 22 Nov 2026 07:31:46 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 公布针对 GPT-6.2 Astra 与 GPT-6.2 Sol 的反蒸馏防护进展，黑盒红队测试显示旧请求的推理思考链提取成功率从 54% 降至 0.2%，新请求从 22.9% 降至 0.9%。同时 OpenAI 采取多层防护，每周封禁数千至数万个涉未经授权蒸馏的账号，标志着前沿模型厂商对推理链资产保护进入实质性对抗阶段。
+
+技术方案上，OpenAI 通过多层防护机制显著降低了思考链提取成功率，旧请求提取率从 54% 降至 0.2%，新请求从 22.9% 降至 0.9%。此外，OpenAI 每周封禁数千至数万个涉未经授权蒸馏的账号，表明其正在积极打击模型窃取行为。这些措施共同构成了对推理链资产的实质性保护。
+
+行业影响方面，推理思考链正被厂商视为需重点保护的核心资产，OpenAI 的举措可能引发其他前沿模型厂商跟进，推动反蒸馏技术成为行业标准。同时，这也可能加剧模型厂商与试图蒸馏者之间的对抗，促使相关法律法规进一步完善。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, IT之家 · 智能时代, Hacker News AI, Arena.ai (@arena), OpenAI 官方博客, The Decoder&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 发布 GPT-6.2 双模型 成本仅为对手 5%</title><link>https://todayforai.com/en/story/story-38dbfe49-f31</link><guid isPermaLink="true">https://todayforai.com/en/story/story-38dbfe49-f31</guid>
 <pubDate>Sun, 22 Nov 2026 01:20:44 +0800</pubDate>
@@ -51,14 +51,6 @@ Inkling 2 Mini 的发布标志着循环架构在开源模型中的一次重要�
 
 这一发现对依赖第三方路由调用模型的开发者敲响警钟。AI 路由链已成为密钥与敏感数据泄露的新增攻击面，开发者需重新评估信任边界与凭证管理策略。建议敏感业务本地部署，或直连可信上游并明确指定服务提供方，同时可用金丝雀令牌低成本检测提示词是否外传。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Ars Technica AI, Hacker News AI&lt;/p&gt;</description>
 </item>
-<item><title>Signal 封堵截屏 阻止系统级 AI 读取私聊</title><link>https://todayforai.com/en/story/story-7515a48b-c5e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-7515a48b-c5e</guid>
-<pubDate>Sun, 22 Nov 2026 07:28:10 +0800</pubDate>
-<description>&lt;p&gt;Signal 在 iOS 27 与部分 Android 版本上默认启用防截屏机制，直接阻止系统级 AI 智能体（如 Siri AI、Gemini）通过屏幕内容读取已解密的私聊消息。这是端到端加密应用与操作系统级 AI 之间围绕屏幕访问权的首次正面冲突，Signal 总裁 Meredith Whittaker 称此举针对隐私面临的“生存性威胁”。
-
-具体实现上，iOS 端默认开启阻止 Siri AI 的设置，用户仅可临时关闭 10 分钟或永久禁用；Android 端在检测到 AI 助手尝试截图时自动启用屏幕安全策略，但受设备差异影响稳定性有限。macOS 端因缺少必要的开发工具暂无法实现同等防护，官方建议将 Signal 加入 Siri 排除列表。导火索是 Meta 智能体 Muse 此前通过无障碍权限等广泛授权获取 Signal 内容，而 Google、Apple、Microsoft 等 OS 厂商并未提供细粒度接口让开发者限制 AI 数据访问，Signal 只能在牺牲核心体验的前提下自保。
-
-这是继去年用截图屏蔽阻止 Windows Recall 之后，Signal 第二次针对操作系统级 AI 采集能力采取技术反制。事件凸显端侧智能体普及与隐私应用之间的权限冲突正在升级，也暴露了操作系统层面对 AI 数据访问控制的结构性缺失。若 OS 厂商不提供细粒度权限管理，更多隐私应用将被迫采取类似被动防御，进而影响用户体验与生态信任。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, The Verge AI, The Decoder, IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
 <item><title>Anthropic 登陆纳斯达克 募资 935 亿美元刷新纪录</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
 <pubDate>Sat, 21 Nov 2026 01:44:01 +0800</pubDate>
 <description>&lt;p&gt;Anthropic 于本周四正式在纳斯达克挂牌上市，以每股 83 美元的发行价募资约 935 亿美元，超越 SpaceX 保持的 862.5 亿美元纪录，成为史上最大 IPO。其开盘价飙升至 111.50 美元，较发行价高开 33%，完全稀释估值一度突破 1.5 万亿美元。
@@ -74,6 +66,14 @@ Anthropic 的上市标志着头部大模型公司首次进入公开资本市场�
 实验对比 14 组配置后发现，记忆召回更强并不等于服务能力更强。例如，EverMemOS 在 L1 得分 0.621，高于完整上下文的 0.570，但在 L2 仅得 0.247，远低于后者的 0.431。这表明检索增强与外部记忆方案在开放式服务任务上普遍落后于完整上下文，为 Agent 记忆系统的设计提供了重要警示。
 
 该基准的论文、代码与数据集均已公开，有望推动群聊 Agent 记忆研究的标准化与可复现性。随着 AI 助手日益融入群聊协作场景，如何平衡记忆召回与服务能力将成为开发者关注的核心问题，此项工作为后续优化指明了方向。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), 量子位 (微信公众号)&lt;/p&gt;</description>
+</item>
+<item><title>Signal 封堵截屏 阻止系统级 AI 读取私聊</title><link>https://todayforai.com/en/story/story-7515a48b-c5e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-7515a48b-c5e</guid>
+<pubDate>Sun, 22 Nov 2026 07:28:10 +0800</pubDate>
+<description>&lt;p&gt;Signal 在 iOS 27 与部分 Android 版本上默认启用防截屏机制，直接阻止系统级 AI 智能体（如 Siri AI、Gemini）通过屏幕内容读取已解密的私聊消息。这是端到端加密应用与操作系统级 AI 之间围绕屏幕访问权的首次正面冲突，Signal 总裁 Meredith Whittaker 称此举针对隐私面临的“生存性威胁”。
+
+具体实现上，iOS 端默认开启阻止 Siri AI 的设置，用户仅可临时关闭 10 分钟或永久禁用；Android 端在检测到 AI 助手尝试截图时自动启用屏幕安全策略，但受设备差异影响稳定性有限。macOS 端因缺少必要的开发工具暂无法实现同等防护，官方建议将 Signal 加入 Siri 排除列表。导火索是 Meta 智能体 Muse 此前通过无障碍权限等广泛授权获取 Signal 内容，而 Google、Apple、Microsoft 等 OS 厂商并未提供细粒度接口让开发者限制 AI 数据访问，Signal 只能在牺牲核心体验的前提下自保。
+
+这是继去年用截图屏蔽阻止 Windows Recall 之后，Signal 第二次针对操作系统级 AI 采集能力采取技术反制。事件凸显端侧智能体普及与隐私应用之间的权限冲突正在升级，也暴露了操作系统层面对 AI 数据访问控制的结构性缺失。若 OS 厂商不提供细粒度权限管理，更多隐私应用将被迫采取类似被动防御，进而影响用户体验与生态信任。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, The Verge AI, The Decoder, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 <item><title>GPT-6.2 Astra 具身任务成功率翻倍至 41.2%</title><link>https://todayforai.com/en/story/story-1fc81bf4-75d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1fc81bf4-75d</guid>
 <pubDate>Sat, 21 Nov 2026 14:35:59 +0800</pubDate>
