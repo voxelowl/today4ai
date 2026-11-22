@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Sun, 22 Nov 2026 20:07:56 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 23 Nov 2026 00:51:03 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 数学家与 Claude 宣称证明黎曼猜想</title><link>https://todayforai.com/en/story/story-b91caf62-12d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b91caf62-12d</guid>
 <pubDate>Sun, 22 Nov 2026 19:08:31 +0800</pubDate>
@@ -9,7 +9,7 @@
 
 Lean 与 Mathlib 社区联合核验了该证明，确认其通过四项标准：陈述正确、代码可编译、证明与 Mathlib 陈述一致、证明有效。核验动用了 Lean 官方内核、con-leche、con-ron 及多个第三方独立检查器，并借助相对集合论的形式化证明排除了检查器本身接受错误证明的可能。数十名独立验证者运行代码得到一致结果。菲尔兹奖得主 James Maynard 表示相信证明正确，但强调数学界全面认可的前提是有人真正理解并能向外解释其思想框架。同日，斯坦福研究者 Alessandro Masullo 发布了一份完全由人类完成的独立竞争性证明稿，但数小时内即被 AI 查出问题，形成鲜明对照。
 
-该事件凸显了 AI 在顶级数学研究中的实际参与度，也把“AI 成果如何被可信验证”的争议推到台前。形式化验证成为 AI 数学成果的可信背书，但证明的真正价值可能在于催生解释素数分布结构的新数学理论，而非猜想本身。若证明成立，将支撑数百个依赖黎曼猜想的数学结论，并标志 AI for Math 进入新阶段。&lt;/p&gt;&lt;p&gt;12 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, TechCrunch AI, 宝玉 (@dotey), Latent Space, Hacker News AI, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
+该事件凸显了 AI 在顶级数学研究中的实际参与度，也把“AI 成果如何被可信验证”的争议推到台前。形式化验证成为 AI 数学成果的可信背书，但证明的真正价值可能在于催生解释素数分布结构的新数学理论，而非猜想本身。若证明成立，将支撑数百个依赖黎曼猜想的数学结论，并标志 AI for Math 进入新阶段。&lt;/p&gt;&lt;p&gt;10 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, TechCrunch AI, 宝玉 (@dotey), Latent Space, Hacker News AI, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
 <item><title>Thinking Machines 开源 26B 循环模型 Inkling 2 Mini</title><link>https://todayforai.com/en/story/story-e7a42b22-638</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e7a42b22-638</guid>
 <pubDate>Sat, 21 Nov 2026 20:19:28 +0800</pubDate>
@@ -71,13 +71,9 @@ Muru 的出现可能对 Python 应用服务器生态带来新的选择，尤其�
 <pubDate>Sun, 22 Nov 2026 16:57:34 +0800</pubDate>
 <description>&lt;p&gt;分析显示，Anthropic 为支撑其 AI 算力扩张，正大规模自建与锁定化石能源发电，预计到 2028 年其电力结构中约 87% 来自天然气、11% 来自煤炭，可再生能源占比极低。这一案例折射出 AI 数据中心“自带电源”（BYOP）与电网新增化石产能合计约 377 GW 的行业趋势，凸显 AI 算力扩张与清洁能源目标之间的结构性矛盾。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Hacker News AI&lt;/p&gt;</description>
 </item>
-<item><title>GPT-6.2 Astra 具身任务成功率翻倍至 41.2%</title><link>https://todayforai.com/en/story/story-1fc81bf4-75d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1fc81bf4-75d</guid>
-<pubDate>Sat, 21 Nov 2026 14:35:59 +0800</pubDate>
-<description>&lt;p&gt;GPT-6.2 Astra 在机器人操作基准测试中实现重大突破，综合成功率从两个月前 GPT-6 Astra 的 19.6% 提升至 41.2%，翻倍有余。在 XDOF 的 Ember-0 双臂机器人基准的 16 项任务中，提升覆盖整套任务而非单点突破，其中给绳子打结、展开 T 恤两项柔性物体任务首次被模型攻克，此前 143 次 T 恤测试无一成功。
-
-交叉验证显示，GPT-6.2 Astra 不仅在成功率上大幅领先，动作规划效率也显著优化。Artificial Analysis 的 AA-Robotics v0.1 基准中，它在六项任务中仅发出 668 条指令，为 11 个参评模型中最少，却取得最高分；清理箱子任务仅用 92 条机械臂指令，比 Claude Fable 5.2 少约 75%。XDOF 的评测以六台 YAM 工作站并行、每任务重复 30 次并人工标注失误，标准严苛，结果可靠。
-
-这一进展标志着具身智能从单点演示迈向通用任务能力，柔性物体操作曾是机器人领域的难点，此次突破将加速机器人在家庭、工业等场景的落地。同时，动作效率的提升降低了部署成本，为大规模应用铺平道路。XDOF 表示该基准或不久后被模型能力饱和，暗示技术迭代速度远超预期。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;量子位官网, Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
+<item><title>哈佛研究称顶级模型停用 19 天未影响开发者产出</title><link>https://todayforai.com/en/story/story-3dc43f78-d11</link><guid isPermaLink="true">https://todayforai.com/en/story/story-3dc43f78-d11</guid>
+<pubDate>Mon, 23 Nov 2026 00:51:03 +0800</pubDate>
+<description>&lt;p&gt;哈佛论文利用 2026 年 6 月 Claude Fable 5 因美国出口管制被停用 19 天的自然实验，对比 297 名受影响用户与 8,908 名持续使用 Opus 4.8 的开发者，发现 7 天 PR 合并率仅提升 1.4 个百分点，处于噪声区间。在另外 5 次模型升级中合并率同样未见上升，且此前已有 94.5% 的 PR 被合并，说明前沿模型能力提升对成熟开发流程的边际产出可能远低于预期。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
