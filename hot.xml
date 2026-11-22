@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Sun, 22 Nov 2026 19:08:31 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 22 Nov 2026 20:07:56 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 数学家与 Claude 宣称证明黎曼猜想</title><link>https://todayforai.com/en/story/story-c508eedd-8d6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c508eedd-8d6</guid>
 <pubDate>Sun, 22 Nov 2026 19:08:31 +0800</pubDate>
@@ -20,12 +20,12 @@
 Inkling 2 Mini 的发布标志着循环架构在开源模型中的一次重要落地，以极低的激活参数实现了与更大模型相当的智能水平，大幅降低了本地部署门槛。其突出的智能体编程能力与长上下文支持，为个人设备上的长程任务自动化提供了新可能，有望推动本地优先的 AI 应用生态发展。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost), Arena.ai (@arena), The Decoder, Artificial Analysis (@ArtificialAnlys), vLLM 官方博客, Hacker News AI&lt;/p&gt;</description>
 </item>
 <item><title>OpenRouter 下架 3 家推理供应商并移除 125 个端点</title><link>https://todayforai.com/en/story/story-e2a11f6e-42a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e2a11f6e-42a</guid>
-<pubDate>Sun, 22 Nov 2026 10:14:14 +0800</pubDate>
-<description>&lt;p&gt;OpenRouter 在安全研究者发现部分第三方推理供应商存在数据处理违规后，迅速采取行动，下架了 3 家供应商并移除了 125 个端点的零数据保留（ZDR）资格，同时通知受影响用户。平台强调自身未遭入侵，问题源于上游供应商的数据政策执行。
+<pubDate>Sun, 22 Nov 2026 20:07:56 +0800</pubDate>
+<description>&lt;p&gt;OpenRouter 在安全公司 Dragos 披露部分第三方推理供应商存在严重数据处理问题后，确认自身平台未被入侵，但已下架 3 家供应商并移除 125 个端点的零数据保留资格，同时通知受影响用户。这是模型路由层首次大规模公开执行上游供应商数据合规的案例。
 
-据官方声明，研究者的测试方法将被纳入平台常态化安全检查流程，以增强对供应商数据合规的持续监控。此次事件凸显了模型路由层在数据治理中的执法能力，即通过动态调整供应商名单来维护用户数据安全。
+Dragos 在 2026 年 7 月至 11 月间向多家 AI 推理服务商发送约 200 万条含伪造凭证的测试请求，发现至少三家供应商已被攻击者长期入侵，用户数据与 AWS 密钥遭窃取且数月未被察觉。最大一起事件中数百个 AWS 密钥被窃，部分来自供应商已拒绝处理的请求。OpenRouter 表示将把研究人员的测试方法纳入常态化安全检查，但部分涉事供应商尚未公开披露事件。
 
-对开发者而言，这意味著选择推理服务时需更关注供应商的合规状态；对行业来说，OpenRouter 的主动下架为 AI 基础设施的数据隐私保护树立了执行先例，可能推动上游供应商提高透明度。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter), Hacker News AI&lt;/p&gt;</description>
+事件凸显 AI 供应链中转售与路由中间商、模型市场的风险。OpenRouter 的快速下架与端点清理为行业树立了合规执法样本，可能推动推理服务商加强安全审计与透明度，并促使开发者更谨慎选择上游供应商。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter), Hacker News AI, The Decoder&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 反蒸馏防护将思考链提取成功率降至 0.2%</title><link>https://todayforai.com/en/story/story-fe915d44-805</link><guid isPermaLink="true">https://todayforai.com/en/story/story-fe915d44-805</guid>
 <pubDate>Sun, 22 Nov 2026 07:31:46 +0800</pubDate>

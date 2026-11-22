@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 22 Nov 2026 19:24:43 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 22 Nov 2026 20:07:56 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Cheap AI Inference Providers Caught Stealing Keys and Snooping on Users</title><link>https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/</link><guid isPermaLink="true">https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/</guid>
+<pubDate>Sun, 22 Nov 2026 20:07:56 +0800</pubDate>
+<description>&lt;p&gt;Security firm Dragos sent roughly 2 million AI requests containing fake credentials to inference providers between July and November 2026, finding at least three compromised services where attackers had been silently stealing user data and AWS keys for months. The study flags intermediaries and model marketplaces that route requests as a major supply-chain risk.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;研究揭示廉价 AI 推理商窃取密钥并窥探用户&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以大规模实测数据揭示廉价推理服务背后的凭证窃取与数据窥探风险，对任何调用第三方 API 的团队都有直接警示价值。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 78/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/">The Decoder</source>
+<category>AI 安全</category>
+<category>推理服务</category>
+<category>供应链风险</category>
+<category>凭证泄露</category>
+</item>
 <item><title>Developer Fits Tiny Transformer on a Floppy Disk to Run AI on 486 PCs</title><link>https://www.ithome.com/1/030/699.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/699.htm</guid>
 <pubDate>Sun, 22 Nov 2026 19:24:43 +0800</pubDate>
 <description>&lt;p&gt;Developer WollyMonjac released Tiny 2.1, a tiny question-answering Transformer written in Turbo C 2.0 with just 367K parameters and 8-bit quantization that fits in roughly 380 KB, small enough for a single floppy disk and runnable on DOS-era 486DX and Pentium machines. Released under the MIT license with a training-data folder, the project has limited practical value but demonstrates model compression and deployment under extreme storage and memory constraints.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;开发者把微型 Transformer 塞进软盘 让 486 老电脑跑上 AI&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;一个有趣的极端约束工程案例，展示了微型 Transformer 的量化压缩与 DOS 部署路径。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 58/100&lt;/p&gt;</description>
@@ -201,9 +210,9 @@
 <category>AWS Quick</category>
 <category>Meta</category>
 </item>
-<item><title>OpenRouter Off-boards Three Inference Providers Over Data Handling Flaws</title><link>https://x.com/OpenRouter/status/2124315081899200715</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2124315081899200715</guid>
+<item><title>OpenRouter 因数据处理问题下架 3 家推理服务商</title><link>https://x.com/OpenRouter/status/2124315081899200715</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2124315081899200715</guid>
 <pubDate>Sun, 22 Nov 2026 09:32:38 +0800</pubDate>
-<description>&lt;p&gt;Security researchers identified data-handling flaws in some inference providers on OpenRouter, though OpenRouter itself was not breached. The platform off-boarded three providers, stripped many endpoints of zero-data-retention eligibility, notified affected customers, and is folding the researchers&amp;#x27; tests into ongoing checks.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenRouter 因数据处理问题下架 3 家推理服务商&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;聚合平台首次因第三方推理商数据合规问题批量下架服务，直接影响开发者选型与数据留存策略。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;安全研究人员发现 OpenRouter 平台上部分推理服务商存在数据处理问题，OpenRouter 本身未发生数据泄露。平台已下架 3 家服务商、取消大量端点的零数据留存资格并通知受影响客户，同时将研究人员的测试方法纳入常态化检查。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;聚合平台首次因第三方推理商数据合规问题批量下架服务，直接影响开发者选型与数据留存策略。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://x.com/OpenRouter/status/2124315081899200715">OpenRouter (@OpenRouter)</source>
 <category>OpenRouter</category>
 <category>数据安全</category>
@@ -262,16 +271,6 @@
 <category>AI 智能体</category>
 <category>端到端加密</category>
 <category>Signal</category>
-</item>
-<item><title>Anthropic 数学家与 Claude 联手证明黎曼猜想</title><link>https://x.com/dotey/status/2124282462343967111</link><guid isPermaLink="true">https://x.com/dotey/status/2124282462343967111</guid>
-<pubDate>Sun, 22 Nov 2026 07:23:00 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 数学家 Levent Alpöge 宣布与 Claude 合作完成黎曼猜想证明，交付 1700 万行 Lean 代码，Lean FRO 与 Mathlib 社区已联合认证其通过全部机器验证。这是 AI 首次参与攻克数学界悬置 160 余年的顶级难题，也首次将形式化验证推到如此规模。同一天斯坦福发布的纯人工证明草稿数小时内即被 AI 查出问题，形成鲜明对照。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 首次参与攻克悬置 160 余年的顶级数学难题并通过大规模形式化验证，是 AI 时间线上的里程碑事件。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · llm · signal 96/100&lt;/p&gt;</description>
-<source url="https://x.com/dotey/status/2124282462343967111">宝玉 (@dotey)</source>
-<category>黎曼猜想</category>
-<category>形式化验证</category>
-<category>Lean</category>
-<category>Anthropic</category>
-<category>AI for Science</category>
 </item>
 </channel>
 </rss>
