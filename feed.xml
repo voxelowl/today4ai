@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 22 Nov 2026 08:10:14 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 22 Nov 2026 10:31:50 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Lean Community Verifies 17-Million-Line Riemann Hypothesis Proof</title><link>https://www.ithome.com/1/030/547.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/547.htm</guid>
+<pubDate>Sun, 22 Nov 2026 10:31:50 +0800</pubDate>
+<description>&lt;p&gt;The Lean and Mathlib communities jointly announced that Levent Alpöge&amp;#x27;s roughly 17-million-line Lean formalization of a Riemann Hypothesis proof has passed four verification criteria: correct statement, compilable code, proof-to-statement correspondence, and proof validity. Verification used the official Lean kernel, con-leche, con-ron, and several independent third-party checkers, with relative set-theoretic soundness proofs ruling out checkers accepting invalid proofs. If it holds, this marks a milestone for AI-assisted mathematics and formal verification.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Lean 社区核验 1700 万行黎曼猜想形式化证明&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;黎曼猜想若被形式化证明攻克，将是数学与 AI 辅助推理的历史性节点，且核验流程本身具备高度技术参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · llm · signal 88/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/030/547.htm">IT之家 · IT业界</source>
+<category>形式化验证</category>
+<category>Lean</category>
+<category>黎曼猜想</category>
+<category>AI for Science</category>
+</item>
+<item><title>AWS Quick Adds Meta Ads Connector via MCP Server</title><link>https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick/</guid>
+<pubDate>Sun, 22 Nov 2026 09:59:13 +0800</pubDate>
+<description>&lt;p&gt;AWS Quick has added a Meta ads AI connector that exposes Meta&amp;#x27;s ads MCP server operations, letting marketers create, manage and analyze campaigns in natural language while requiring user approval before any write action. The integration links ad performance data with first- and third-party data, cutting the manual export-and-rebuild loop between reporting and Ads Manager.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS Quick 接入 Meta 广告 MCP 连接器&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 MCP 协议在广告投放场景的落地集成，展示了自然语言驱动写操作与权限确认的工程范式。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick/">AWS Machine Learning Blog</source>
+<category>MCP</category>
+<category>广告投放</category>
+<category>AWS Quick</category>
+<category>Meta</category>
+</item>
 <item><title>Amazon Nears $7.5B Decart Deal to Bolster In-House Chips</title><link>https://x.com/rohanpaul_ai/status/2124294348712092061</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2124294348712092061</guid>
 <pubDate>Sun, 22 Nov 2026 08:10:14 +0800</pubDate>
 <description>&lt;p&gt;Amazon is nearing a deal to acquire AI startup Decart for roughly $7.5B, nearly double its latest $4B valuation. The strategic driver is Decart&amp;#x27;s inference optimization, which reportedly delivers more tokens per kilowatt on Amazon&amp;#x27;s Trainium3, running its real-time video model 4x faster than GPUs at half the cost.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊拟 75 亿美元收购 Decart 强化自研芯片&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大额收购叠加自研芯片性能数据，直接反映云厂商算力自主化竞争走向。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 78/100&lt;/p&gt;</description>
@@ -199,18 +217,18 @@
 <category>TinyGo</category>
 <category>开源项目</category>
 </item>
-<item><title>Claude Assists Mathematician in Proving Riemann Hypothesis with 17M-Line Lean Proof</title><link>https://x.com/rohanpaul_ai/status/2124187865899049164</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2124187865899049164</guid>
+<item><title>Claude 协助证明黎曼猜想 1700 万行代码获 Lean 社区认证</title><link>https://x.com/rohanpaul_ai/status/2124187865899049164</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2124187865899049164</guid>
 <pubDate>Sun, 22 Nov 2026 01:07:07 +0800</pubDate>
-<description>&lt;p&gt;Anthropic mathematician Alpöge used Claude to prove the Riemann Hypothesis, formalizing the entire argument into roughly 17 million lines of machine-checkable code that Lean&amp;#x27;s official community certified within a single day. It marks the first time AI has helped crack mathematics&amp;#x27; most famous open problem after 167 years, with Claude proposing a key step in areas beyond the human&amp;#x27;s own expertise.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Claude 协助证明黎曼猜想 1700 万行代码获 Lean 社区认证&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 首次参与攻克数学界最著名的百年难题，且以可机器验证的形式化证明落地，是 AI for Science 的标志性节点。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 88/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 数学家 Alpöge 借助 Claude 完成黎曼猜想的证明，并将全部论证形式化为约 1700 万行机器可验证代码，Lean 官方社区在一天内完成认证。这是 AI 首次参与攻克数学界悬置 167 年的最著名未解难题，Claude 在超出人类掌握范围的高阶环节提出了关键步骤。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 首次参与攻克数学界最著名的百年难题，且以可机器验证的形式化证明落地，是 AI for Science 的标志性节点。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 88/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2124187865899049164">Rohan Paul (@rohanpaul_ai)</source>
 <category>AI for Science</category>
 <category>Anthropic</category>
 <category>形式化验证</category>
 <category>数学证明</category>
 </item>
-<item><title>LangChain Pitches Knowledge Factory Architecture for Enterprise Agents</title><link>https://www.langchain.com/blog/knowledge-factory</link><guid isPermaLink="true">https://www.langchain.com/blog/knowledge-factory</guid>
+<item><title>LangChain 提出知识工厂架构破解智能体落地难题</title><link>https://www.langchain.com/blog/knowledge-factory</link><guid isPermaLink="true">https://www.langchain.com/blog/knowledge-factory</guid>
 <pubDate>Sun, 22 Nov 2026 00:45:08 +0800</pubDate>
-<description>&lt;p&gt;LangChain introduces the \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;LangChain 提出知识工厂架构破解智能体落地难题&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自 LangChain 创始人的方法论文章，提出企业智能体落地的知识工程路径，对构建内部 Agent 的团队有参考价值。&lt;/p&gt;&lt;p&gt;LangChain Blog · agent · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;LangChain 提出“知识工厂”概念，认为企业落地 AI 的瓶颈不在模型能力，而在于把分散在员工头脑与文档中的隐性运营知识收集、整理并持续维护成可供智能体调用的知识表示。该架构已在 LangChain 内部 GTM 与内容团队实践，并正与部分客户合作推广。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自 LangChain 创始人的方法论文章，提出企业智能体落地的知识工程路径，对构建内部 Agent 的团队有参考价值。&lt;/p&gt;&lt;p&gt;LangChain Blog · agent · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.langchain.com/blog/knowledge-factory">LangChain Blog</source>
 <category>智能体</category>
 <category>知识工程</category>
@@ -251,24 +269,6 @@
 <category>Lean</category>
 <category>黎曼猜想</category>
 <category>AI 辅助证明</category>
-</item>
-<item><title>Zero C# 让 C# 脱离运行时与 GC 直编原生程序</title><link>https://onurgumus.github.io/zero-csharp/index.html</link><guid isPermaLink="true">https://onurgumus.github.io/zero-csharp/index.html</guid>
-<pubDate>Sat, 21 Nov 2026 23:39:09 +0800</pubDate>
-<description>&lt;p&gt;Zero C# 是 bflat 的一个分支，可将 C# 直接编译为小型原生程序，运行时无需 .NET 运行时、垃圾回收器或任何安装依赖。它保留 C# 的语法、类型检查与泛型，改用一次性释放的 arena 管理内存，同一份源码可运行于 Linux、macOS、Windows、WebAssembly 乃至 386 上的 DOS。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;它展示了 C# 在无运行时、无 GC 约束下的原生编译路径，对系统编程与嵌入式场景具有实际参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
-<source url="https://onurgumus.github.io/zero-csharp/index.html">Hacker News AI</source>
-<category>C#</category>
-<category>原生编译</category>
-<category>无 GC</category>
-<category>bflat</category>
-</item>
-<item><title>Anthropic 上市后安全优先路线面临考验</title><link>https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure</link><guid isPermaLink="true">https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure</guid>
-<pubDate>Sat, 21 Nov 2026 23:00:00 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 上周四在纳斯达克上市，成为全球市值最高的公司之一，但真正的看点在于上市之后：它能否在向股东负责、持续扩大营收以覆盖未来数年约 9000 亿美元算力账单的同时，继续兑现对 AI 安全的投入承诺。The Verge 播客 Decoder 与资深 AI 记者 Hayden Field 拆解了这一张力可能的走向。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 实验室上市后安全使命与股东压力的结构性冲突，是观察行业治理走向的关键样本。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure">The Verge AI</source>
-<category>Anthropic</category>
-<category>IPO</category>
-<category>AI 安全</category>
-<category>算力成本</category>
 </item>
 </channel>
 </rss>

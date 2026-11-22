@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Sun, 22 Nov 2026 07:31:46 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 22 Nov 2026 10:31:50 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 数学家与 Claude 宣称证明黎曼猜想</title><link>https://todayforai.com/en/story/story-c508eedd-8d6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c508eedd-8d6</guid>
-<pubDate>Sun, 22 Nov 2026 07:23:00 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 数学家 Levent Alpöge 于近日公开宣称，在与 Claude 协作下完成了黎曼猜想的证明，并进一步覆盖广义黎曼猜想。该证明以 Lean 形式化代码交付，代码量高达 1700 万行（约 25 万页），已在 GitHub 公开。Lean FRO 与 Mathlib 社区已联合认证其通过全部机器验证，MIT 的 Andrew Sutherland 使用 Claude Code 独立复核，确认 175,187 个模块零错误编译，五个核心定理仅依赖三条标准公理，两个独立内核 nanoda 与 con-leche 均接受完整导出证明。
+<pubDate>Sun, 22 Nov 2026 10:31:50 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 数学家 Levent Alpöge 于近日公开宣称，在与 Claude 的协作下完成了黎曼猜想的证明，并进一步覆盖了更广的广义黎曼猜想（GRH）。该证明以约 1700 万行 Lean 形式化代码交付，已通过 Lean FRO 与 Mathlib 社区的联合核验，包括陈述正确性、代码可编译性、与 Mathlib 陈述一致性以及证明有效性四项标准。这是 AI 首次深度参与顶级数学开放问题的证明，并将形式化验证规模推至千万行量级。
 
-多方信源交叉验证显示，Claude 在证明中贡献了关键的连续 Theta Lifts 思路与核心参数，且整个形式化过程仅耗时约六周。然而，该声明目前仍属个人主张，尚未经同行评审。同日，斯坦福研究者 Alessandro Masullo 发布了一份耗时 12 年、940 页的纯人工证明稿，形成鲜明对照；但该人工稿在数小时内即被 AI 查出问题。此外，另一名研究者也声称独立完成证明，真伪尚待确认。
+多方信源交叉验证显示，核验过程动用了 Lean 官方内核、con-leche、con-ron 及多个第三方独立检查器，并借助相对集合论的形式化证明排除了检查器本身接受错误证明的可能。MIT 的 Andrew Sutherland 使用 Claude Code 进行独立验证，确认 175,187 个模块全部编译通过，五个核心定理仅依赖三条标准公理，两个独立内核 nanoda 与 con-leche 均接受完整导出证明。陶哲轩指出，该证明疑似依赖朗兰兹纲领与算术几何的现代成果，数学界梳理与验证仍需时间。同日，斯坦福研究者 Alessandro Masullo 发布了一份完全由人类完成的独立竞争性证明稿，但数小时内即被 AI 查出问题，形成鲜明对照。
 
-若该证明最终成立，将是 AI 首次深度参与攻克数学界悬置 160 余年的顶级难题，标志着 AI 辅助数学研究进入新纪元。同时，千万行级形式化验证的可行性得到验证，为未来 AI 生成数学证明的可信验证机制树立了标杆，可能深刻改变数学研究的协作模式与出版生态。&lt;/p&gt;&lt;p&gt;12 sources&lt;/p&gt;&lt;p&gt;Latent Space, 量子位官网, The Decoder, Simon Willison 博客, The Verge AI, IT之家 · IT业界&lt;/p&gt;</description>
+若最终成立，这将是 AI 辅助数学与形式化验证领域的里程碑事件，不仅支撑数百个依赖黎曼猜想的数学结论，更将检验 AI 研究成果的可信验证机制。事件凸显了 AI 实验室与形式化数学证明工具交叉地带的最新动向，也把“AI 成果如何被可信验证”的争议推到台前。&lt;/p&gt;&lt;p&gt;12 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Artificial Analysis (@ArtificialAnlys), 宝玉 (@dotey), 量子位官网, Rohan Paul (@rohanpaul_ai), The Decoder&lt;/p&gt;</description>
 </item>
 <item><title>Thinking Machines 开源 26B 循环模型 Inkling 2 Mini</title><link>https://todayforai.com/en/story/story-e7a42b22-638</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e7a42b22-638</guid>
 <pubDate>Sat, 21 Nov 2026 20:19:28 +0800</pubDate>
