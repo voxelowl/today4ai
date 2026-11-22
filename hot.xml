@@ -5,11 +5,11 @@
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 数学家与 Claude 宣称证明黎曼猜想</title><link>https://todayforai.com/en/story/story-b91caf62-12d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b91caf62-12d</guid>
 <pubDate>Sun, 22 Nov 2026 19:08:31 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 数学家 Levent Alpöge 宣布与 Claude 合作，完成了数学界悬置 167 年的黎曼猜想证明，并以约 1700 万行 Lean 形式化代码提交。Lean 与 Mathlib 社区已联合认证该证明通过全部机器验证，包括陈述正确、代码可编译、与 Mathlib 陈述一致及证明有效四项核验。这是 AI 首次深度参与顶级数学开放问题的证明，并将形式化验证规模推至千万行量级。
+<description>&lt;p&gt;Anthropic 数学家 Levent Alpöge 于 2026 年 11 月 20 日宣布，与 Claude 合作完成了黎曼猜想的证明，并进一步声称覆盖广义黎曼猜想。证明以约 1700 万行 Lean 形式化代码提交，而非传统论文，便于机器验证。这是 AI 首次深度参与数学界悬置 160 余年的顶级难题，若最终成立，将成为 AI 辅助数学与形式化验证交叉领域的里程碑。
 
-技术细节上，证明仅直接依赖 Mathlib，数十名独立验证者复现编译通过。核验动用了 Lean 官方内核、con-leche、con-ron 及多个第三方独立检查器交叉验证，并借助相对集合论的形式化证明排除了检查器本身接受错误证明的可能。检查在惰性导出文件上运行，规避源码潜在恶意代码影响。菲尔兹奖得主 James Maynard 表示相信证明正确，但强调数学界全面认可的前提是有人真正理解并能向外解释其思想框架。同日，斯坦福研究者 Alessandro Masullo 发布了一份耗时 12 年的 940 页纯人工证明，形成鲜明对照。
+Lean 与 Mathlib 社区联合核验了该证明，确认其通过四项标准：陈述正确、代码可编译、证明与 Mathlib 陈述一致、证明有效。核验动用了 Lean 官方内核、con-leche、con-ron 及多个第三方独立检查器，并借助相对集合论的形式化证明排除了检查器本身接受错误证明的可能。数十名独立验证者运行代码得到一致结果。菲尔兹奖得主 James Maynard 表示相信证明正确，但强调数学界全面认可的前提是有人真正理解并能向外解释其思想框架。同日，斯坦福研究者 Alessandro Masullo 发布了一份完全由人类完成的独立竞争性证明稿，但数小时内即被 AI 查出问题，形成鲜明对照。
 
-若最终成立，这将是 AI 辅助数学与形式化验证领域的里程碑事件。它不仅展示了 AI 在顶级数学难题上的实质性贡献，也凸显了形式化验证作为 AI 研究成果可信验证机制的重要性。该成果的真正价值可能在于催生解释素数分布结构的新数学理论，而非猜想本身。&lt;/p&gt;&lt;p&gt;12 sources&lt;/p&gt;&lt;p&gt;Latent Space, 量子位官网, Rohan Paul (@rohanpaul_ai), IT之家 · IT业界, The Decoder, IT之家 · 智能时代&lt;/p&gt;</description>
+该事件凸显了 AI 在顶级数学研究中的实际参与度，也把“AI 成果如何被可信验证”的争议推到台前。形式化验证成为 AI 数学成果的可信背书，但证明的真正价值可能在于催生解释素数分布结构的新数学理论，而非猜想本身。若证明成立，将支撑数百个依赖黎曼猜想的数学结论，并标志 AI for Math 进入新阶段。&lt;/p&gt;&lt;p&gt;12 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, TechCrunch AI, 宝玉 (@dotey), Latent Space, Hacker News AI, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
 <item><title>Thinking Machines 开源 26B 循环模型 Inkling 2 Mini</title><link>https://todayforai.com/en/story/story-e7a42b22-638</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e7a42b22-638</guid>
 <pubDate>Sat, 21 Nov 2026 20:19:28 +0800</pubDate>
@@ -51,6 +51,14 @@ Dragos 在 2026 年 7 月至 11 月间向多家 AI 推理服务商发送约 200 
 
 该基准的发布为 Agent 记忆研究提供了首个真实群聊场景的评测标准，论文、代码与数据集均已开源。行业影响方面，它提醒开发者记忆召回能力并非服务效果的充分条件，需关注记忆的整合与更新能力，推动 Agent 从“记得住”向“用得好”演进，对群聊助手、协作 Agent 等应用具有指导意义。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), 量子位官网, 量子位 (微信公众号)&lt;/p&gt;</description>
 </item>
+<item><title>mod_wsgi 作者用 AI 辅助开发 Rust 服务器 Muru</title><link>https://todayforai.com/en/story/story-06a3d66d-f9e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-06a3d66d-f9e</guid>
+<pubDate>Sun, 22 Nov 2026 17:57:01 +0800</pubDate>
+<description>&lt;p&gt;曾主导 mod_wsgi 项目的 Graham Dumpleton 在时隔二十年后推出全新服务器 Muru，该服务器采用 Rust 编写并大量借助 AI 辅助开发，目标是为 ASGI 与 WSGI 两种 Python 应用接口提供开发与生产环境下的最佳运行方案。
+
+Muru 延续了 Dumpleton 在 wrapture 项目中采用的公开开发日志模式，三周内发布了十余篇深度技术文章，详细解析了 worker 模型、import once fork many 预加载机制等核心架构设计。这些文档不仅记录了实现细节，也展示了 AI 辅助编程在复杂系统开发中的实际应用方式。
+
+Muru 的出现可能对 Python 应用服务器生态带来新的选择，尤其是对需要同时支持 ASGI 和 WSGI 的部署场景。Rust 带来的性能优势与 AI 辅助的开发效率，或将为传统服务器项目提供一条新的演进路径。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Simon Willison 博客, Hacker News AI&lt;/p&gt;</description>
+</item>
 <item><title>200 万条诱饵请求暴露 AI 路由链密钥泄露</title><link>https://todayforai.com/en/story/story-2235dbbd-344</link><guid isPermaLink="true">https://todayforai.com/en/story/story-2235dbbd-344</guid>
 <pubDate>Sun, 22 Nov 2026 13:11:43 +0800</pubDate>
 <description>&lt;p&gt;安全公司 Dragos 首席研究官 HD Moore 向多家 AI 服务商投放近 200 万条带可追踪诱饵的请求，首次系统量化了 AI 供应链中的隐私与凭证泄露风险。实验发现至少三家服务商遭入侵，攻击者利用窃取的密钥发起数万次云接口调用，部分密钥在提交后数小时内即被滥用。
@@ -70,14 +78,6 @@ Dragos 在 2026 年 7 月至 11 月间向多家 AI 推理服务商发送约 200 
 此次 IPO 获得约 6 倍超额认购，散户配售比例提升至 20%。除公开发行 8.25 亿股外，谷歌、英伟达、微软、AMD、博通、美光、台积电等七家巨头还以同价参与 260 亿美元的私募配售，其中英伟达认购 100 亿美元。公司年化收入已从 9 月的 710 亿美元增至 10 月底的 810 亿美元，支撑强劲需求。CEO Dario Amodei 表示，上市核心目的是囤积现金以支撑总额 9000 亿美元的算力基础设施投入，包括与 SpaceX 每月最高 31 亿美元的数据中心协议。
 
 Anthropic 的上市标志着头部大模型公司首次进入公开资本市场，为 AI 行业估值与商业化能力提供了关键定价锚点。其约 2200 亿美元的现金储备将加剧与 OpenAI 等对手的算力军备竞赛，同时也让资本市场对 AI 泡沫的争论更趋白热化。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · IT业界, Anthropic AI (@AnthropicAI), Yuchen Jin (@Yuchenj_UW), 机器之心 (微信公众号), The Decoder&lt;/p&gt;</description>
-</item>
-<item><title>GPT-6.2 Astra 具身任务成功率翻倍至 41.2%</title><link>https://todayforai.com/en/story/story-1fc81bf4-75d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1fc81bf4-75d</guid>
-<pubDate>Sat, 21 Nov 2026 14:35:59 +0800</pubDate>
-<description>&lt;p&gt;GPT-6.2 Astra 在机器人操作基准测试中实现重大突破，综合成功率从两个月前 GPT-6 Astra 的 19.6% 提升至 41.2%，翻倍有余。在 XDOF 的 Ember-0 双臂机器人基准的 16 项任务中，提升覆盖整套任务而非单点突破，其中给绳子打结、展开 T 恤两项柔性物体任务首次被模型攻克，此前 143 次 T 恤测试无一成功。
-
-交叉验证显示，GPT-6.2 Astra 不仅在成功率上大幅领先，动作规划效率也显著优化。Artificial Analysis 的 AA-Robotics v0.1 基准中，它在六项任务中仅发出 668 条指令，为 11 个参评模型中最少，却取得最高分；清理箱子任务仅用 92 条机械臂指令，比 Claude Fable 5.2 少约 75%。XDOF 的评测以六台 YAM 工作站并行、每任务重复 30 次并人工标注失误，标准严苛，结果可靠。
-
-这一进展标志着具身智能从单点演示迈向通用任务能力，柔性物体操作曾是机器人领域的难点，此次突破将加速机器人在家庭、工业等场景的落地。同时，动作效率的提升降低了部署成本，为大规模应用铺平道路。XDOF 表示该基准或不久后被模型能力饱和，暗示技术迭代速度远超预期。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;量子位官网, Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
