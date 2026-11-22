@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 22 Nov 2026 10:31:50 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 22 Nov 2026 11:07:27 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Together AI Discloses Prompt Leak After AI Coding Agent Exposed Credential</title><link>https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026</link><guid isPermaLink="true">https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026</guid>
+<pubDate>Sun, 22 Nov 2026 11:07:27 +0800</pubDate>
+<description>&lt;p&gt;Together AI disclosed a security incident in which an AI coding agent committed a credential to its public GitHub repository xorl, granting access to a private Hugging Face repo holding prompt samples from MiniMax M3, GLM-5.2 and Kimi K2.6 requests in June and July 2026. An unauthorized party downloaded the samples and searched them for further credentials. The incident highlights supply-chain risk from AI agents in development workflows; Together advises customers handling sensitive prompts to enable zero data retention.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Together AI 因 AI 编码代理泄露凭证致提示词外泄&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 编码代理直接引发真实数据泄露的罕见公开案例，对使用代理式开发与托管推理服务的团队具有直接警示价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 71/100&lt;/p&gt;</description>
+<source url="https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026">Hacker News AI</source>
+<category>安全事件</category>
+<category>AI 编码代理</category>
+<category>Together AI</category>
+<category>数据泄露</category>
+</item>
 <item><title>Lean Community Verifies 17-Million-Line Riemann Hypothesis Proof</title><link>https://www.ithome.com/1/030/547.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/547.htm</guid>
 <pubDate>Sun, 22 Nov 2026 10:31:50 +0800</pubDate>
 <description>&lt;p&gt;The Lean and Mathlib communities jointly announced that Levent Alpöge&amp;#x27;s roughly 17-million-line Lean formalization of a Riemann Hypothesis proof has passed four verification criteria: correct statement, compilable code, proof-to-statement correspondence, and proof validity. Verification used the official Lean kernel, con-leche, con-ron, and several independent third-party checkers, with relative set-theoretic soundness proofs ruling out checkers accepting invalid proofs. If it holds, this marks a milestone for AI-assisted mathematics and formal verification.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Lean 社区核验 1700 万行黎曼猜想形式化证明&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;黎曼猜想若被形式化证明攻克，将是数学与 AI 辅助推理的历史性节点，且核验流程本身具备高度技术参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · llm · signal 88/100&lt;/p&gt;</description>
@@ -198,9 +207,9 @@
 <category>地缘竞争</category>
 <category>Eric Schmidt</category>
 </item>
-<item><title>Claude Autonomously Finds Algorithm Breaking 3SUM and APSP Limits</title><link>https://x.com/rohanpaul_ai/status/2124213113583174076</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2124213113583174076</guid>
+<item><title>Claude 自主发现算法突破 3SUM 与全源最短路极限</title><link>https://x.com/rohanpaul_ai/status/2124213113583174076</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2124213113583174076</guid>
 <pubDate>Sun, 22 Nov 2026 02:47:26 +0800</pubDate>
-<description>&lt;p&gt;A new Columbia and MIT paper reports that Claude autonomously discovered a faster method for computing selected entries of a product of two long, thin matrices, which classic reductions turn into speedups for 3SUM and all-pairs shortest paths. 3SUM now runs in O(n^1.9992) and APSP in O(n^2.9995, tiny gains that nonetheless refute the long-standing 3SUM and APSP hypotheses. The method was found in a single AI session using 16M output tokens with no human input and was formally checked in Lean 4.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Claude 自主发现算法突破 3SUM 与全源最短路极限&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 首次自主推翻长期算法复杂度猜想，是 AI for Science 与算法研究的标志性节点。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 88/100&lt;/p&gt;</description>
+<description>&lt;p&gt;哥伦比亚大学与 MIT 的论文显示，Claude 在无人工干预下自主发现了一种更快的长瘦矩阵乘积部分元素计算方法，并借助经典归约将其转化为 3SUM 与全源最短路径的算法加速。3SUM 复杂度降至 O(n^1.9992)、APSP 降至 O(n^2.9995，虽提升幅度极小，却首次实质性反驳了长期被视为不可突破的 3SUM 与 APSP 猜想。该结果由 AI 单次会话、1600 万输出 token 完成，并经 Lean 4 形式化验证。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 首次自主推翻长期算法复杂度猜想，是 AI for Science 与算法研究的标志性节点。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 88/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2124213113583174076">Rohan Paul (@rohanpaul_ai)</source>
 <category>AI for Science</category>
 <category>算法复杂度</category>
@@ -260,14 +269,6 @@
 <category>智能体</category>
 <category>降本</category>
 <category>英伟达</category>
-</item>
-<item><title>英伟达研究员称超大上下文窗口是死路</title><link>https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/</link><guid isPermaLink="true">https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/</guid>
-<pubDate>Sun, 22 Nov 2026 00:23:45 +0800</pubDate>
-<description>&lt;p&gt;英伟达研究团队指出，动辄百万 token 的超大上下文窗口往往既昂贵又非必要。在多项测试中，定期摘要加定向检索的效果与一次性塞入全文相当，暗示业界应重新审视“上下文越长越好”的路线。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;对主流“堆上下文”路线提出反直觉质疑，涉及成本与架构取舍，值得关注。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 58/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/">The Decoder</source>
-<category>上下文窗口</category>
-<category>英伟达</category>
-<category>检索增强</category>
 </item>
 </channel>
 </rss>

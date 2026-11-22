@@ -71,13 +71,13 @@ Anthropic 的上市标志着头部大模型公司首次进入公开资本市场�
 <pubDate>Sat, 21 Nov 2026 08:08:12 +0800</pubDate>
 <description>&lt;p&gt;英伟达股价周五再跌 14%，较 10 月高点累计回撤约 47%，市值蒸发超 2.73 万亿美元，规模超过整个亚马逊。抛售由黄仁勋因丑闻辞职引发的人事震荡直接触发，叠加市场对 AI 高估值与巨额资本开支回报的怀疑，纳斯达克单周下跌 10%，创 2020 年 3 月以来最差表现。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, Hacker News AI, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
-<item><title>HeyGen 上线 Decision 1 多模态概率判定模型</title><link>https://todayforai.com/en/story/story-4c3c4a18-8e7</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4c3c4a18-8e7</guid>
-<pubDate>Sat, 21 Nov 2026 07:14:24 +0800</pubDate>
-<description>&lt;p&gt;HeyGen 正式推出 Decision 1 模型，并已在 OpenRouter 平台上线。该模型不生成自然语言文本，而是接收视频、音频、图像与文本的多模态输入，针对每个问题返回校准后的概率值，可直接接入业务代码逻辑。单次调用最多支持 400 个问题，延迟约 100 毫秒，输入价格在 12 月 1 日前享受五折优惠，Turbo 版本每百万 token 仅 0.042 美元，输出免费。
+<item><title>谷歌发布 Gemini 4 Neon 登顶 Agent Arena 第二</title><link>https://todayforai.com/en/story/story-d7aabeb3-ec9</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d7aabeb3-ec9</guid>
+<pubDate>Sat, 21 Nov 2026 05:39:48 +0800</pubDate>
+<description>&lt;p&gt;谷歌 DeepMind 正式发布 Gemini 4 Neon，这是七周内第四款 Gemini 4 系列模型，定位为兼顾前沿智能与端到端快速任务完成的中端模型。其在 Agent Arena 智能体竞技场以 1336 分位列总榜第二，创下谷歌在该榜单的最佳成绩，单任务中位成本仅 2.82 美元，比榜首 Claude Fable 5.2 低 69%，性价比优势显著。
 
-综合多方信源，Decision 1 的核心特性在于批量概率判定能力。官方演示中，手势与情绪识别 8 题全对，单次成本约 0.0027 美元，凸显低成本实用导向。模型通过 AI/ML API 平台分发，与 OpenRouter 形成互补渠道。其输出概率值而非文本的设计，便于开发者直接嵌入风控、身份核验等自动化流程，例如判断自拍视频与证件照是否同一人、是否为活体采集。
+技术层面，Neon 支持 100 万 token 上下文与四档推理级别，在 Artificial Analysis 编程智能体指数以 58.6 分超越 Claude Opus 5.5 位列第一，智能指数以 61 分排名第三。模型速度约 110 tokens/秒，是前代 Carbon 的两倍，且基础定价更低。在 Antigravity 开发环境中，Neon 可调度多个子智能体并行执行长任务，接入后 SWE-sweep 得分从 12.8% 跃升至 39.0%。安全方面，模型卡称其在 Gray-Swan 基准上 100% 阻断间接提示注入攻击。
 
-此次发布标志着 AI 模型从内容生成向决策判定延伸，为视频审核、金融身份认证、互动娱乐等场景提供了可量化的概率工具。HeyGen 以极低定价和批量处理能力切入，有望降低多模态判定的应用门槛，推动概率型 AI 服务成为新的基础设施。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter), Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
+Neon 的发布标志着谷歌模型迭代节奏近乎指数级加快，发布间隔从 28 天缩短至 6 天，同时产品线快速收敛，Argon 退役、旧版 Pro 与 Flash 下线。凭借速度、成本与可操控性的平衡，Neon 直接对标 Anthropic 的 Opus 与 Fable 系列，加剧了中端智能体市场的竞争，也为开发者提供了高性价比的前沿智能选择。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, IT之家 · IT业界, Marktechpost (@Marktechpost), 宝玉 (@dotey), Artificial Analysis, Latent Space&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
