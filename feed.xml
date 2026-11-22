@@ -12,6 +12,15 @@
 <category>黎曼猜想</category>
 <category>AI for Science</category>
 </item>
+<item><title>OpenRouter Offboards Three Inference Providers After Data Policy Audit</title><link>https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/</link><guid isPermaLink="true">https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/</guid>
+<pubDate>Sun, 22 Nov 2026 10:14:14 +0800</pubDate>
+<description>&lt;p&gt;After security researchers found evidence that some inference providers had compromised data or failed to honor their data policies, OpenRouter confirmed no breach of its own platform but offboarded three providers and stripped 125 endpoints of Zero Data Retention eligibility, notifying affected users. The incident highlights how model routing layers can enforce data compliance across upstream providers.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenRouter 下架 3 家推理供应商并移除 125 个端点&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 推理供应链数据合规的实质性执法案例，涉及具体下架与端点处置动作，对使用第三方推理服务的开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 72/100&lt;/p&gt;</description>
+<source url="https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/">Hacker News AI</source>
+<category>AI 供应链安全</category>
+<category>数据合规</category>
+<category>推理服务</category>
+<category>OpenRouter</category>
+</item>
 <item><title>AWS Quick Adds Meta Ads Connector via MCP Server</title><link>https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick/</guid>
 <pubDate>Sun, 22 Nov 2026 09:59:13 +0800</pubDate>
 <description>&lt;p&gt;AWS Quick has added a Meta ads AI connector that exposes Meta&amp;#x27;s ads MCP server operations, letting marketers create, manage and analyze campaigns in natural language while requiring user approval before any write action. The integration links ad performance data with first- and third-party data, cutting the manual export-and-rebuild loop between reporting and Ads Manager.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS Quick 接入 Meta 广告 MCP 连接器&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 MCP 协议在广告投放场景的落地集成，展示了自然语言驱动写操作与权限确认的工程范式。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 58/100&lt;/p&gt;</description>
@@ -200,17 +209,17 @@
 <category>Qwen</category>
 <category>本地部署</category>
 </item>
-<item><title>OpenAI&#x27;s GPT-6.2 Astra Gains Coding Strength but Loses Chat Ground</title><link>https://x.com/arena/status/2124191294360588725</link><guid isPermaLink="true">https://x.com/arena/status/2124191294360588725</guid>
+<item><title>GPT-6.2 Astra 编程能力跃升但聊天能力下滑</title><link>https://x.com/arena/status/2124191294360588725</link><guid isPermaLink="true">https://x.com/arena/status/2124191294360588725</guid>
 <pubDate>Sun, 22 Nov 2026 01:20:44 +0800</pubDate>
-<description>&lt;p&gt;Arena.ai&amp;#x27;s Agent Arena Index places OpenAI&amp;#x27;s GPT-6.2 Astra (Max) at #6 overall, just one spot above GPT-6 Astra (Max). The new model improves coding from 1,288 to 1,338, rising from #8 to #3, but drops in chat from 1,265 to 1,211, falling from #8 to #11, with the two shifts nearly canceling out in the aggregate score.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;GPT-6.2 Astra 编程能力跃升但聊天能力下滑&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;榜单数据显示新模型能力结构出现明显取舍，对关注模型迭代方向的读者有参考价值。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Arena.ai 的 Agent Arena Index 显示，OpenAI 的 GPT-6.2 Astra (Max) 综合排名第 6，仅比 GPT-6 Astra (Max) 高一位。分项来看，新模型编程得分从 1,288 升至 1,338，排名由第 8 升至第 3；但聊天得分从 1,265 降至 1,211，排名由第 8 跌至第 11，两项变化在总分上几乎相互抵消。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;榜单数据显示新模型能力结构出现明显取舍，对关注模型迭代方向的读者有参考价值。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 58/100&lt;/p&gt;</description>
 <source url="https://x.com/arena/status/2124191294360588725">Arena.ai (@arena)</source>
 <category>大模型</category>
 <category>OpenAI</category>
 <category>基准评测</category>
 </item>
-<item><title>gopgext Lets Developers Build PostgreSQL Extensions in Go</title><link>https://jespino.github.io/gopgext/</link><guid isPermaLink="true">https://jespino.github.io/gopgext/</guid>
+<item><title>gopgext 让 Go 直接编写 PostgreSQL 扩展</title><link>https://jespino.github.io/gopgext/</link><guid isPermaLink="true">https://jespino.github.io/gopgext/</guid>
 <pubDate>Sun, 22 Nov 2026 01:08:04 +0800</pubDate>
-<description>&lt;p&gt;Open-source project gopgext uses a custom TinyGo target and runtime layer to compile plain Go code into PostgreSQL extensions, auto-generating C glue, install scripts and control files. It supports the standard library, SQL type mapping, SPI queries and SQLSTATE error codes, but remains experimental and is explicitly not production-ready.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;gopgext 让 Go 直接编写 PostgreSQL 扩展&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为 PostgreSQL 扩展开发引入 Go 生态，思路与 gokm 一脉相承，对数据库与 Go 开发者有实际参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;开源项目 gopgext 基于 TinyGo 自定义目标与运行时层，可将普通 Go 代码编译为 PostgreSQL 扩展，自动生成 C 胶水代码、安装脚本与控制文件。项目支持标准库、SQL 类型映射、SPI 查询与 SQLSTATE 错误码，但目前仍属实验性，官方明确警告不可用于生产环境。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为 PostgreSQL 扩展开发引入 Go 生态，思路与 gokm 一脉相承，对数据库与 Go 开发者有实际参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://jespino.github.io/gopgext/">Hacker News AI</source>
 <category>PostgreSQL</category>
 <category>Go</category>
@@ -260,15 +269,6 @@
 <category>微短剧</category>
 <category>肖像授权</category>
 <category>商业化</category>
-</item>
-<item><title>Lean 形式化黎曼猜想证明通过多内核验证</title><link>https://math.mit.edu/~drew/grh/</link><guid isPermaLink="true">https://math.mit.edu/~drew/grh/</guid>
-<pubDate>Sat, 21 Nov 2026 23:54:34 +0800</pubDate>
-<description>&lt;p&gt;MIT 的 Andrew Sutherland 使用 Claude Code 对一份 Lean 形式化的黎曼猜想证明进行了独立验证：175,187 个模块全部编译通过，五个核心定理仅依赖三条标准公理，两个独立内核 nanoda 与 con-leche 均接受完整导出证明。这标志着 AI 辅助形式化数学在重大未解难题上首次达到可被机器独立复核的验证强度。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 辅助形式化数学首次在黎曼猜想级别难题上通过多内核独立验证，是形式化推理与 AI 工程结合的里程碑事件。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 88/100&lt;/p&gt;</description>
-<source url="https://math.mit.edu/~drew/grh/">Hacker News AI</source>
-<category>形式化数学</category>
-<category>Lean</category>
-<category>黎曼猜想</category>
-<category>AI 辅助证明</category>
 </item>
 </channel>
 </rss>
