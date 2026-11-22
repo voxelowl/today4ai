@@ -48,6 +48,15 @@
 <category>提示词泄露</category>
 <category>金丝雀令牌</category>
 </item>
+<item><title>Fast-Anything Ports Only the Slowest 5% of Code to Rust</title><link>https://github.com/EL4CTEO/fast-anything</link><guid isPermaLink="true">https://github.com/EL4CTEO/fast-anything</guid>
+<pubDate>Sun, 22 Nov 2026 12:10:09 +0800</pubDate>
+<description>&lt;p&gt;Fast-Anything proposes an incremental performance path: profile the app to rank hot functions, have a coding agent port only those to Rust, verify equivalence by replaying up to 500 recorded real calls, then swap the port in with one reversible command. It targets Python, Node, Ruby, Java, Go, PHP and C/C++, bridging via a single C entry point that takes and returns JSON, so no per-language bindings are needed.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;新工具只把最慢的 5% 代码用 Rust 重写&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;针对“全量重写 Rust”的高成本痛点给出可验证、可回滚的局部移植方案，对性能优化实践有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 68/100&lt;/p&gt;</description>
+<source url="https://github.com/EL4CTEO/fast-anything">Hacker News AI</source>
+<category>Rust</category>
+<category>性能优化</category>
+<category>开发者工具</category>
+<category>编码智能体</category>
+</item>
 <item><title>Together AI Discloses Prompt Leak After AI Coding Agent Exposed Credential</title><link>https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026</link><guid isPermaLink="true">https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026</guid>
 <pubDate>Sun, 22 Nov 2026 11:07:27 +0800</pubDate>
 <description>&lt;p&gt;Together AI disclosed a security incident in which an AI coding agent committed a credential to its public GitHub repository xorl, granting access to a private Hugging Face repo holding prompt samples from MiniMax M3, GLM-5.2 and Kimi K2.6 requests in June and July 2026. An unauthorized party downloaded the samples and searched them for further credentials. The incident highlights supply-chain risk from AI agents in development workflows; Together advises customers handling sensitive prompts to enable zero data retention.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Together AI 因 AI 编码代理泄露凭证致提示词外泄&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 编码代理直接引发真实数据泄露的罕见公开案例，对使用代理式开发与托管推理服务的团队具有直接警示价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 71/100&lt;/p&gt;</description>
@@ -91,6 +100,15 @@
 <category>广告投放</category>
 <category>AWS Quick</category>
 <category>Meta</category>
+</item>
+<item><title>OpenRouter Off-boards Three Inference Providers Over Data Handling Flaws</title><link>https://x.com/OpenRouter/status/2124315081899200715</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2124315081899200715</guid>
+<pubDate>Sun, 22 Nov 2026 09:32:38 +0800</pubDate>
+<description>&lt;p&gt;Security researchers identified data-handling flaws in some inference providers on OpenRouter, though OpenRouter itself was not breached. The platform off-boarded three providers, stripped many endpoints of zero-data-retention eligibility, notified affected customers, and is folding the researchers&amp;#x27; tests into ongoing checks.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenRouter 因数据处理问题下架 3 家推理服务商&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;聚合平台首次因第三方推理商数据合规问题批量下架服务，直接影响开发者选型与数据留存策略。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/OpenRouter/status/2124315081899200715">OpenRouter (@OpenRouter)</source>
+<category>OpenRouter</category>
+<category>数据安全</category>
+<category>推理服务</category>
+<category>零数据留存</category>
 </item>
 <item><title>Amazon Nears $7.5B Decart Deal to Bolster In-House Chips</title><link>https://x.com/rohanpaul_ai/status/2124294348712092061</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2124294348712092061</guid>
 <pubDate>Sun, 22 Nov 2026 08:10:14 +0800</pubDate>
@@ -190,18 +208,18 @@
 <category>开发者体验</category>
 <category>Antigravity</category>
 </item>
-<item><title>Open Source PcapAnalyzer Ships 27 Network Fault Detectors</title><link>https://github.com/sebaandrada-cell/PcapAnalyzer</link><guid isPermaLink="true">https://github.com/sebaandrada-cell/PcapAnalyzer</guid>
+<item><title>PcapAnalyzer 开源 27 项网络故障检测器</title><link>https://github.com/sebaandrada-cell/PcapAnalyzer</link><guid isPermaLink="true">https://github.com/sebaandrada-cell/PcapAnalyzer</guid>
 <pubDate>Sun, 22 Nov 2026 06:09:58 +0800</pubDate>
-<description>&lt;p&gt;PcapAnalyzer is an Apache 2.0 open-source, self-hosted analyzer for .pcap/.pcapng captures that runs 27 detectors covering TCP retransmissions and window anomalies, PMTUD black holes, DNS/DHCP/ARP failures, TLS alerts, and tunnels such as IPsec, WireGuard and OpenVPN, each finding paired with a severity and next-step guidance. Captures stay on local infrastructure, making it relevant for security-sensitive network operations; the project is currently in beta.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;PcapAnalyzer 开源 27 项网络故障检测器&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向网络排障的开源本地抓包分析工具，检测器覆盖面广且给出可执行排查建议，对运维与 SRE 读者有直接实用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;PcapAnalyzer 是一款 Apache 2.0 开源的本地化 pcap/pcapng 抓包分析工具，内置 27 个检测器，覆盖 TCP 重传与窗口异常、PMTUD 黑洞、DNS/DHCP/ARP 故障、TLS 告警及 IPsec/WireGuard 等隧道问题，并为每项发现给出严重级别与下一步排查建议。抓包数据完全在本地处理，适合对数据外泄敏感的网络运维场景，目前处于 beta 阶段。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向网络排障的开源本地抓包分析工具，检测器覆盖面广且给出可执行排查建议，对运维与 SRE 读者有直接实用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://github.com/sebaandrada-cell/PcapAnalyzer">Hacker News AI</source>
 <category>开源工具</category>
 <category>网络诊断</category>
 <category>抓包分析</category>
 <category>SRE</category>
 </item>
-<item><title>Frontier Models Can Identify Anonymous Authors From Writing Style Alone</title><link>https://x.com/rohanpaul_ai/status/2124261335982862679</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2124261335982862679</guid>
+<item><title>马里兰大学研究：前沿模型可凭文风识别匿名作者</title><link>https://x.com/rohanpaul_ai/status/2124261335982862679</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2124261335982862679</guid>
 <pubDate>Sun, 22 Nov 2026 05:59:04 +0800</pubDate>
-<description>&lt;p&gt;A new University of Maryland paper finds that frontier models, given only a single text and a zero-shot prompt with no tools or candidate lists, detect AI-written prose as well as trained detectors like Pangram while explaining their reasoning. More strikingly, they infer authorship: Claude Fable 5.2 identified the reviewer in 56% of 398 anonymous peer reviews and the account behind 69% of comments from Redditors with over 500 posts a year. The anonymity assumptions behind blind review and pseudonymous forums are now weak.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;马里兰大学研究：前沿模型可凭文风识别匿名作者&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究把文风指纹识别推到前沿模型的原生能力层面，直接冲击匿名评审与化名社区的隐私假设。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;马里兰大学新论文发现，前沿模型在零样本提示下即可检测 AI 生成文本，准确率与 Pangram 等训练过的检测器相当，并能给出推理依据。更关键的是，模型仅凭单篇文本就能推断作者所属 AI 实验室甚至具体个人，在 398 篇匿名同行评审中 Claude Fable 5.2 命中 56% 的评审人，在 Reddit 重度用户评论中命中 69% 的账号。这意味着匿名评审与化名社区的匿名性假设正被削弱。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究把文风指纹识别推到前沿模型的原生能力层面，直接冲击匿名评审与化名社区的隐私假设。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2124261335982862679">Rohan Paul (@rohanpaul_ai)</source>
 <category>大模型</category>
 <category>AI 文本检测</category>
@@ -251,25 +269,6 @@
 <category>AI 治理</category>
 <category>地缘竞争</category>
 <category>Eric Schmidt</category>
-</item>
-<item><title>Claude 自主发现算法突破 3SUM 与全源最短路极限</title><link>https://x.com/rohanpaul_ai/status/2124213113583174076</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2124213113583174076</guid>
-<pubDate>Sun, 22 Nov 2026 02:47:26 +0800</pubDate>
-<description>&lt;p&gt;哥伦比亚大学与 MIT 的论文显示，Claude 在无人工干预下自主发现了一种更快的长瘦矩阵乘积部分元素计算方法，并借助经典归约将其转化为 3SUM 与全源最短路径的算法加速。3SUM 复杂度降至 O(n^1.9992)、APSP 降至 O(n^2.9995，虽提升幅度极小，却首次实质性反驳了长期被视为不可突破的 3SUM 与 APSP 猜想。该结果由 AI 单次会话、1600 万输出 token 完成，并经 Lean 4 形式化验证。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 首次自主推翻长期算法复杂度猜想，是 AI for Science 与算法研究的标志性节点。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 88/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2124213113583174076">Rohan Paul (@rohanpaul_ai)</source>
-<category>AI for Science</category>
-<category>算法复杂度</category>
-<category>Claude</category>
-<category>形式化验证</category>
-<category>3SUM</category>
-</item>
-<item><title>开源量化编译器将 Qwen3.5-4B 压至 1.2 GB</title><link>https://github.com/ShinMegamiBoson/lookatmyquant</link><guid isPermaLink="true">https://github.com/ShinMegamiBoson/lookatmyquant</guid>
-<pubDate>Sun, 22 Nov 2026 02:02:19 +0800</pubDate>
-<description>&lt;p&gt;开源项目 LookAtMyQuant 提出一种基于 Fisher 信息与 trellis 编码的后训练量化编译器，按存储单元对输出损伤分配比特预算。其第二版将 Qwen3.5-4B 压缩至 1.23 GB（约 2.3 bit/权重），在 540 道精确答案数学题上解出 330 道，优于同尺寸的 Bonsai 2 Ternary 4B（328 道），KL 散度 0.45 nats 亦低于对方的 0.59。完整配方与约 34 美元 GPU 成本已公开，代码采用 MIT 许可。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;在极小体积下实现优于同尺寸竞品的量化质量，且配方与成本完全公开，对本地部署与端侧推理有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 71/100&lt;/p&gt;</description>
-<source url="https://github.com/ShinMegamiBoson/lookatmyquant">Hacker News AI</source>
-<category>模型量化</category>
-<category>开源</category>
-<category>Qwen</category>
-<category>本地部署</category>
 </item>
 </channel>
 </rss>
