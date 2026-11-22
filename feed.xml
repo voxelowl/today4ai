@@ -21,6 +21,16 @@
 <category>复古计算</category>
 <category>开源项目</category>
 </item>
+<item><title>Google Cuts Broadcom-Designed TPU 8i Orders by One Million Units</title><link>https://www.ithome.com/1/030/698.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/698.htm</guid>
+<pubDate>Sun, 22 Nov 2026 19:20:07 +0800</pubDate>
+<description>&lt;p&gt;Ming-Chi Kuo&amp;#x27;s supply-chain survey indicates Google has cut 2027 shipments of Broadcom-designed TPU 8i by roughly one million units, about 20% of the series, while planning to raise volumes of MediaTek-designed TPU 8t. The shift reflects frontier-model compute priority, tight supply and data-center power constraints, alongside Google decoupling TPU design from HBM procurement to cut costs.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌削减 2027 年博通 TPU 8i 订单约 100 万颗&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部云厂商自研 AI 芯片的订单结构与供应链分工出现实质调整，是观察算力供给格局的关键信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/030/698.htm">IT之家 · IT业界</source>
+<category>TPU</category>
+<category>谷歌</category>
+<category>博通</category>
+<category>联发科</category>
+<category>算力供应链</category>
+</item>
 <item><title>Lean Community Confirms Formal Proof of Riemann Hypothesis</title><link>https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/</link><guid isPermaLink="true">https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/</guid>
 <pubDate>Sun, 22 Nov 2026 19:08:31 +0800</pubDate>
 <description>&lt;p&gt;The Lean and Mathlib community has officially confirmed that Stanford mathematician Levent Alpöge&amp;#x27;s proof of the Riemann hypothesis is correct. Published on Nov 20, 2026 as 17 million lines of Lean code, the proof was independently reproduced by dozens of verifiers whose programs are provably incapable of accepting a flawed argument. It marks the first time AI-assisted formal mathematics has cracked one of the most famous open problems in math.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;黎曼猜想被 Lean 形式化证明验证通过&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;黎曼猜想被形式化验证攻克，是 AI 与数学交叉史上的里程碑事件，影响远超单一模型发布。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 96/100&lt;/p&gt;</description>
@@ -201,9 +211,9 @@
 <category>AI 伦理</category>
 <category>学术奖项</category>
 </item>
-<item><title>AWS Quick Adds Meta Ads Connector via MCP Server</title><link>https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick/</guid>
+<item><title>AWS Quick 接入 Meta 广告 MCP 连接器</title><link>https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick/</guid>
 <pubDate>Sun, 22 Nov 2026 09:59:13 +0800</pubDate>
-<description>&lt;p&gt;AWS Quick has added a Meta ads AI connector that exposes Meta&amp;#x27;s ads MCP server operations, letting marketers create, manage and analyze campaigns in natural language while requiring user approval before any write action. The integration links ad performance data with first- and third-party data, cutting the manual export-and-rebuild loop between reporting and Ads Manager.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS Quick 接入 Meta 广告 MCP 连接器&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 MCP 协议在广告投放场景的落地集成，展示了自然语言驱动写操作与权限确认的工程范式。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;AWS Quick 新增 Meta 广告 AI 连接器，通过 MCP 服务器操作让营销人员用自然语言创建、管理并分析广告活动，同时保留写操作前的用户授权确认。该集成把广告投放数据与第一方及第三方数据打通，减少手工导出报表与回填 Ads Manager 的重复劳动。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 MCP 协议在广告投放场景的落地集成，展示了自然语言驱动写操作与权限确认的工程范式。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick/">AWS Machine Learning Blog</source>
 <category>MCP</category>
 <category>广告投放</category>
@@ -262,15 +272,6 @@
 <category>反蒸馏</category>
 <category>OpenAI</category>
 <category>模型安全</category>
-</item>
-<item><title>Signal 默认屏蔽截图 阻止 AI 智能体读取私聊</title><link>https://www.ithome.com/1/030/517.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/517.htm</guid>
-<pubDate>Sun, 22 Nov 2026 07:28:10 +0800</pubDate>
-<description>&lt;p&gt;Signal 在 iOS 与 Android 新版中默认启用防截图机制，阻止 Siri AI、Gemini 等系统级智能体读取用户私人消息。总裁 Meredith Whittaker 称系统级 AI 智能体的扩张正威胁端到端加密的隐私边界，macOS 端因缺少开发工具暂无法实现同等防护。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是端到端加密与系统级 AI 智能体权限冲突的首个明确产品化回应，对隐私与 Agent 生态走向有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 72/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/030/517.htm">IT之家 · 智能时代</source>
-<category>隐私安全</category>
-<category>AI 智能体</category>
-<category>端到端加密</category>
-<category>Signal</category>
 </item>
 </channel>
 </rss>
