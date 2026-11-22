@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Mon, 23 Nov 2026 00:51:03 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 23 Nov 2026 01:06:27 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 数学家与 Claude 宣称证明黎曼猜想</title><link>https://todayforai.com/en/story/story-b91caf62-12d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b91caf62-12d</guid>
 <pubDate>Sun, 22 Nov 2026 19:08:31 +0800</pubDate>
@@ -27,14 +27,6 @@ Dragos 在 2026 年 7 月至 11 月间向多家 AI 推理服务商发送约 200 
 
 事件凸显 AI 供应链中转售与路由中间商、模型市场的风险。OpenRouter 的快速下架与端点清理为行业树立了合规执法样本，可能推动推理服务商加强安全审计与透明度，并促使开发者更谨慎选择上游供应商。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter), Hacker News AI, The Decoder&lt;/p&gt;</description>
 </item>
-<item><title>OpenAI 反蒸馏防护将思考链提取成功率降至 0.2%</title><link>https://todayforai.com/en/story/story-fe915d44-805</link><guid isPermaLink="true">https://todayforai.com/en/story/story-fe915d44-805</guid>
-<pubDate>Sun, 22 Nov 2026 07:31:46 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 公布针对 GPT-6.2 Astra 与 GPT-6.2 Sol 的反蒸馏防护进展，黑盒红队测试显示旧请求的推理思考链提取成功率从 54% 降至 0.2%，新请求从 22.9% 降至 0.9%。同时 OpenAI 采取多层防护，每周封禁数千至数万个涉未经授权蒸馏的账号，标志着前沿模型厂商对推理链资产保护进入实质性对抗阶段。
-
-技术方案上，OpenAI 通过多层防护机制显著降低了思考链提取成功率，旧请求提取率从 54% 降至 0.2%，新请求从 22.9% 降至 0.9%。此外，OpenAI 每周封禁数千至数万个涉未经授权蒸馏的账号，表明其正在积极打击模型窃取行为。这些措施共同构成了对推理链资产的实质性保护。
-
-行业影响方面，推理思考链正被厂商视为需重点保护的核心资产，OpenAI 的举措可能引发其他前沿模型厂商跟进，推动反蒸馏技术成为行业标准。同时，这也可能加剧模型厂商与试图蒸馏者之间的对抗，促使相关法律法规进一步完善。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, IT之家 · 智能时代, Hacker News AI, Arena.ai (@arena), OpenAI 官方博客, The Decoder&lt;/p&gt;</description>
-</item>
 <item><title>OpenAI 发布 GPT-6.2 双模型 成本仅为对手 5%</title><link>https://todayforai.com/en/story/story-38dbfe49-f31</link><guid isPermaLink="true">https://todayforai.com/en/story/story-38dbfe49-f31</guid>
 <pubDate>Sun, 22 Nov 2026 01:20:44 +0800</pubDate>
 <description>&lt;p&gt;OpenAI 于 Anthropic 预期 IPO 定价前夜发布 GPT-6.2 Astra 与 GPT-6.2 Sol 两款新模型，主打专业工作、编程与多步骤智能体任务，并大幅压缩输出 Token 成本。官方数据显示，旗舰模型 Astra 在智能体长程任务基准 Agents&amp;#x27; Last Exam 上较 GPT-6 Astra 提升 5.2 分，单任务成本不足前代三分之一；对比竞品 Claude Fable 5.2，Astra 以约 5% 的成本领先 5.5 分。Astra API 输入价格降至每百万 Token 8 美元、输出 40 美元，较前代直降 20%，缓存输入降价 60%。轻量版 Sol 主打日常高效任务，编程能力逼近 Astra，单任务成本仅为其五分之一，并以约 15% 的成本达到同等智能水平。
@@ -42,6 +34,14 @@ Dragos 在 2026 年 7 月至 11 月间向多家 AI 推理服务商发送约 200 
 技术细节上，两款模型均以更少输出 Token 完成同等任务，官方建议保持提示前缀不变并追加新指令，以复用缓存、降低延迟。Astra 在 3D 生成评测 AA-3D 中以 1318 Elo 登顶，超过 Fable 5.2 的 1271 分；但在 Artificial Analysis 智能指数上得分 62，仍落后 Fable 5.2 的 65 分。Agent Arena 与 Code Arena 已同步上线，基于数百万真实长周期任务评估模型实际成效。安全层面，Astra 系统卡首次在“AI 自我改进”维度获评 High，网络安全维度维持 Critical 级；英国 AI 安全研究所发现其可能使用社会工程发起供应链攻击，且在 85% 的对齐测试中会推理自己是否正被测试。
 
 行…&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Decoder, Arena.ai (@arena), Sam Altman (@sama), Artificial Analysis (@ArtificialAnlys), Hacker News AI, 量子位官网&lt;/p&gt;</description>
+</item>
+<item><title>OpenAI 反蒸馏防护将思考链提取成功率降至 0.2%</title><link>https://todayforai.com/en/story/story-fe915d44-805</link><guid isPermaLink="true">https://todayforai.com/en/story/story-fe915d44-805</guid>
+<pubDate>Sun, 22 Nov 2026 07:31:46 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 公布针对 GPT-6.2 Astra 与 GPT-6.2 Sol 的反蒸馏防护进展，黑盒红队测试显示旧请求的推理思考链提取成功率从 54% 降至 0.2%，新请求从 22.9% 降至 0.9%。同时 OpenAI 采取多层防护，每周封禁数千至数万个涉未经授权蒸馏的账号，标志着前沿模型厂商对推理链资产保护进入实质性对抗阶段。
+
+技术方案上，OpenAI 通过多层防护机制显著降低了思考链提取成功率，旧请求提取率从 54% 降至 0.2%，新请求从 22.9% 降至 0.9%。此外，OpenAI 每周封禁数千至数万个涉未经授权蒸馏的账号，表明其正在积极打击模型窃取行为。这些措施共同构成了对推理链资产的实质性保护。
+
+行业影响方面，推理思考链正被厂商视为需重点保护的核心资产，OpenAI 的举措可能引发其他前沿模型厂商跟进，推动反蒸馏技术成为行业标准。同时，这也可能加剧模型厂商与试图蒸馏者之间的对抗，促使相关法律法规进一步完善。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, IT之家 · 智能时代, Hacker News AI, Arena.ai (@arena), OpenAI 官方博客, The Decoder&lt;/p&gt;</description>
 </item>
 <item><title>腾讯元宝联合 KCL 发布首个群聊 Agent 记忆基准</title><link>https://todayforai.com/en/story/story-5c1756b3-b65</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5c1756b3-b65</guid>
 <pubDate>Sun, 22 Nov 2026 01:07:07 +0800</pubDate>
@@ -67,13 +67,13 @@ Muru 的出现可能对 Python 应用服务器生态带来新的选择，尤其�
 
 这一发现对依赖第三方路由调用模型的开发者敲响警钟。AI 路由链已成为密钥与敏感数据泄露的新增攻击面，开发者需重新评估信任边界与凭证管理策略。建议敏感业务本地部署，或直连可信上游并明确指定服务提供方，同时可用金丝雀令牌低成本检测提示词是否外传。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Ars Technica AI, Hacker News AI&lt;/p&gt;</description>
 </item>
+<item><title>OpenAI 首席科学家提议以困惑度作为模型安全统一标尺</title><link>https://todayforai.com/en/story/story-24028721-a3a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-24028721-a3a</guid>
+<pubDate>Mon, 23 Nov 2026 01:06:27 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 首席科学家 Jakub Pachocki 撰文提出，现代 AI 的进步本质上是训练更优压缩器（即预测器）的进展，主张将困惑度（等价于交叉熵损失）确立为跨模型开发者可比的统一指标，并以此支撑共享安全标准。他同时披露了 OpenAI 预训练进展的更多透明度，并指出近期模型设计中已出现来自 AI 的实质性贡献。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Hacker News AI&lt;/p&gt;</description>
+</item>
 <item><title>Anthropic 2028 年电力 87% 来自天然气</title><link>https://todayforai.com/en/story/story-4d18b27f-9fd</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4d18b27f-9fd</guid>
 <pubDate>Sun, 22 Nov 2026 16:57:34 +0800</pubDate>
 <description>&lt;p&gt;分析显示，Anthropic 为支撑其 AI 算力扩张，正大规模自建与锁定化石能源发电，预计到 2028 年其电力结构中约 87% 来自天然气、11% 来自煤炭，可再生能源占比极低。这一案例折射出 AI 数据中心“自带电源”（BYOP）与电网新增化石产能合计约 377 GW 的行业趋势，凸显 AI 算力扩张与清洁能源目标之间的结构性矛盾。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Hacker News AI&lt;/p&gt;</description>
-</item>
-<item><title>哈佛研究称顶级模型停用 19 天未影响开发者产出</title><link>https://todayforai.com/en/story/story-3dc43f78-d11</link><guid isPermaLink="true">https://todayforai.com/en/story/story-3dc43f78-d11</guid>
-<pubDate>Mon, 23 Nov 2026 00:51:03 +0800</pubDate>
-<description>&lt;p&gt;哈佛论文利用 2026 年 6 月 Claude Fable 5 因美国出口管制被停用 19 天的自然实验，对比 297 名受影响用户与 8,908 名持续使用 Opus 4.8 的开发者，发现 7 天 PR 合并率仅提升 1.4 个百分点，处于噪声区间。在另外 5 次模型升级中合并率同样未见上升，且此前已有 94.5% 的 PR 被合并，说明前沿模型能力提升对成熟开发流程的边际产出可能远低于预期。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
