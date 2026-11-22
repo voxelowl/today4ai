@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Mon, 23 Nov 2026 05:14:07 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 23 Nov 2026 05:25:30 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Ant Group Open-Sources 124B Medical Multimodal Model LingSante-3.1-air-VL</title><link>https://x.com/rohanpaul_ai/status/2124615279108137021</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2124615279108137021</guid>
+<pubDate>Mon, 23 Nov 2026 05:25:30 +0800</pubDate>
+<description>&lt;p&gt;Ant Group has open-sourced LingSante-3.1-air-VL, a medical multimodal model built on a mixture-of-experts architecture with 124B total and 5.5B active parameters per token, covering medical image understanding, report generation and medical reasoning. Ant reports it leads GPT-6.1 Sol, Claude Opus 5.5 and Gemini 3.8 Flash across AFUMED-Derm, AFUMED-Report, MIMIC-CXR and medical VQA, while remaining competitive on general tasks such as BrowseComp-VL and AndroidWorld. Its reinforcement learning rewards clinical meaning, abnormality localization, false positives and missed findings rather than report style imitation.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;蚂蚁开源 124B 医疗多模态模型 LingSante-3.1-air-VL&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源医疗多模态模型以稀疏 MoE 与临床导向强化学习切入报告生成，并在多项基准上对标闭源前沿模型。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2124615279108137021">Rohan Paul (@rohanpaul_ai)</source>
+<category>开源模型</category>
+<category>医疗AI</category>
+<category>多模态</category>
+<category>MoE</category>
+<category>蚂蚁集团</category>
+</item>
 <item><title>OpenAI Chief Scientist Proposes Perplexity as AI Speed Limit Metric</title><link>https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/</guid>
 <pubDate>Mon, 23 Nov 2026 05:14:07 +0800</pubDate>
 <description>&lt;p&gt;OpenAI chief scientist Jakub Pachocki published a post proposing perplexity as a standard measure of AI progress, which companies could use to set common limits on frontier development. The proposal echoes Anthropic CEO Dario Amodei&amp;#x27;s plan to pace the frontier through shared safety standards and rate limits on unchecked progress. If adopted, perplexity would shift from a training evaluation metric to a quantitative anchor for industry governance.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 首席科学家提议用困惑度设定 AI 发展上限&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部实验室首次提出可量化的 AI 发展限速指标，直接关系前沿模型治理路径。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 72/100&lt;/p&gt;</description>
@@ -66,6 +76,15 @@
 <category>医疗 AI</category>
 <category>MoE</category>
 <category>蚂蚁集团</category>
+</item>
+<item><title>Agent-Led Search Engine last30days Hits 72K GitHub Stars</title><link>https://github.com/mvanhorn/last30days-skill</link><guid isPermaLink="true">https://github.com/mvanhorn/last30days-skill</guid>
+<pubDate>Mon, 23 Nov 2026 02:42:48 +0800</pubDate>
+<description>&lt;p&gt;The open-source project last30days runs an AI agent-led search engine that ranks results by real signals such as Reddit upvotes, X likes and money-backed Polymarket odds instead of editorial curation, and has reached roughly 72K GitHub stars. It installs via the Claude Code plugin marketplace or npx skills with zero config, immediately covering Reddit, Hacker News, GitHub, patents and careers pages, while a setup wizard unlocks X, YouTube, arXiv and more.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;last30days 智能体搜索引擎获 7.2 万星&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了以真实社区与资金信号替代编辑排序的智能体搜索范式，且安装门槛极低、可直接上手。&lt;/p&gt;&lt;p&gt;GitHub Trending AI · agent · signal 62/100&lt;/p&gt;</description>
+<source url="https://github.com/mvanhorn/last30days-skill">GitHub Trending AI</source>
+<category>智能体</category>
+<category>开源项目</category>
+<category>搜索引擎</category>
+<category>Agent Skills</category>
 </item>
 <item><title>Cerebras Says Architecture Sidesteps Three Major AI Chip Supply Bottlenecks</title><link>https://x.com/rohanpaul_ai/status/2124572766800331002</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2124572766800331002</guid>
 <pubDate>Mon, 23 Nov 2026 02:36:34 +0800</pubDate>
@@ -211,18 +230,18 @@
 <category>AI 工具</category>
 <category>硬件改造</category>
 </item>
-<item><title>Cheap AI Inference Providers Caught Stealing Keys and Snooping on Users</title><link>https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/</link><guid isPermaLink="true">https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/</guid>
+<item><title>研究揭示廉价 AI 推理商窃取密钥并窥探用户</title><link>https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/</link><guid isPermaLink="true">https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/</guid>
 <pubDate>Sun, 22 Nov 2026 20:07:56 +0800</pubDate>
-<description>&lt;p&gt;Security firm Dragos sent roughly 2 million AI requests containing fake credentials to inference providers between July and November 2026, finding at least three compromised services where attackers had been silently stealing user data and AWS keys for months. The study flags intermediaries and model marketplaces that route requests as a major supply-chain risk.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;研究揭示廉价 AI 推理商窃取密钥并窥探用户&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以大规模实测数据揭示廉价推理服务背后的凭证窃取与数据窥探风险，对任何调用第三方 API 的团队都有直接警示价值。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;安全公司 Dragos 在 2026 年 7 月至 11 月间向多家 AI 推理服务商发送约 200 万条含伪造凭证的测试请求，发现至少三家供应商已被攻击者长期入侵，用户数据与 AWS 密钥遭窃取且数月未被察觉。研究指出，转售与路由请求的中间商和模型市场是当前最突出的供应链风险点。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以大规模实测数据揭示廉价推理服务背后的凭证窃取与数据窥探风险，对任何调用第三方 API 的团队都有直接警示价值。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/">The Decoder</source>
 <category>AI 安全</category>
 <category>推理服务</category>
 <category>供应链风险</category>
 <category>凭证泄露</category>
 </item>
-<item><title>Developer Fits Tiny Transformer on a Floppy Disk to Run AI on 486 PCs</title><link>https://www.ithome.com/1/030/699.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/699.htm</guid>
+<item><title>开发者把微型 Transformer 塞进软盘 让 486 老电脑跑上 AI</title><link>https://www.ithome.com/1/030/699.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/699.htm</guid>
 <pubDate>Sun, 22 Nov 2026 19:24:43 +0800</pubDate>
-<description>&lt;p&gt;Developer WollyMonjac released Tiny 2.1, a tiny question-answering Transformer written in Turbo C 2.0 with just 367K parameters and 8-bit quantization that fits in roughly 380 KB, small enough for a single floppy disk and runnable on DOS-era 486DX and Pentium machines. Released under the MIT license with a training-data folder, the project has limited practical value but demonstrates model compression and deployment under extreme storage and memory constraints.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;开发者把微型 Transformer 塞进软盘 让 486 老电脑跑上 AI&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;一个有趣的极端约束工程案例，展示了微型 Transformer 的量化压缩与 DOS 部署路径。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;开发者 WollyMonjac 发布 Tiny 2.1，一个用 Turbo C 2.0 编写的微型问答 Transformer，参数量仅 36.7 万、8 位量化后约 380 KB，可完整放入一张软盘，并在 DOS 系统的 486DX 与 Pentium 老电脑上运行。项目以 MIT 许可证开源并附带训练数据文件夹，实用价值有限，但展示了在极端存储与内存约束下压缩和部署模型的工程思路。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;一个有趣的极端约束工程案例，展示了微型 Transformer 的量化压缩与 DOS 部署路径。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/030/699.htm">IT之家 · 智能时代</source>
 <category>微型模型</category>
 <category>模型量化</category>
@@ -256,24 +275,6 @@
 <category>AR 眼镜</category>
 <category>消费电子</category>
 <category>市场数据</category>
-</item>
-<item><title>报告称美国会计业 88% 用生成式 AI 但仅 13% 达成熟度门槛</title><link>https://www.ithome.com/1/030/679.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/679.htm</guid>
-<pubDate>Sun, 22 Nov 2026 17:58:03 +0800</pubDate>
-<description>&lt;p&gt;Wolters Kluwer 调查 746 名美国会计从业者发现，88% 已在日常工作中使用生成式 AI，68% 使用智能体 AI，83% 自认技术创新者或早期采用者。但在参与数字化成熟度评估的事务所中，仅 13% 达到技术领先门槛，说明工具采用与数据、流程、云端架构的真正整合之间存在显著落差。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以具体调查数据揭示 AI 采用率与整合成熟度之间的落差，对理解企业级 AI 落地瓶颈有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/030/679.htm">IT之家 · 智能时代</source>
-<category>行业报告</category>
-<category>企业AI落地</category>
-<category>会计行业</category>
-<category>智能体</category>
-</item>
-<item><title>mod_wsgi 作者推出 AI 辅助 Rust 服务器 Muru</title><link>https://simonwillison.net/2026/Nov/21/muru/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/21/muru/</guid>
-<pubDate>Sun, 22 Nov 2026 17:57:01 +0800</pubDate>
-<description>&lt;p&gt;mod_wsgi 作者 Graham Dumpleton 发布用 Rust 编写的新服务器 Muru，目标是为 ASGI 与 WSGI Python 应用提供开发与生产环境的最佳运行方案，开发过程大量借助 AI 辅助。他延续公开开发日志的做法，三周内发布十余篇深度文章，详解 worker 模型、import once fork many 等架构设计。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Python 服务部署领域资深作者的新一代 Rust 服务器，架构细节公开透明，对后端与基础设施工程师有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
-<source url="https://simonwillison.net/2026/Nov/21/muru/">Hacker News AI</source>
-<category>Rust</category>
-<category>Python</category>
-<category>Web 服务器</category>
-<category>开源项目</category>
 </item>
 </channel>
 </rss>
