@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 22 Nov 2026 08:04:47 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 22 Nov 2026 08:10:14 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Amazon Nears $7.5B Decart Deal to Bolster In-House Chips</title><link>https://x.com/rohanpaul_ai/status/2124294348712092061</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2124294348712092061</guid>
+<pubDate>Sun, 22 Nov 2026 08:10:14 +0800</pubDate>
+<description>&lt;p&gt;Amazon is nearing a deal to acquire AI startup Decart for roughly $7.5B, nearly double its latest $4B valuation. The strategic driver is Decart&amp;#x27;s inference optimization, which reportedly delivers more tokens per kilowatt on Amazon&amp;#x27;s Trainium3, running its real-time video model 4x faster than GPUs at half the cost.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊拟 75 亿美元收购 Decart 强化自研芯片&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大额收购叠加自研芯片性能数据，直接反映云厂商算力自主化竞争走向。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2124294348712092061">Rohan Paul (@rohanpaul_ai)</source>
+<category>芯片算力</category>
+<category>亚马逊</category>
+<category>收购</category>
+<category>Trainium</category>
+</item>
 <item><title>Phison Unveils Smart SSD with Built-in NPU and 64GB Memory</title><link>https://www.ithome.com/1/030/524.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/524.htm</guid>
 <pubDate>Sun, 22 Nov 2026 08:04:47 +0800</pubDate>
 <description>&lt;p&gt;At SC26, Phison showed two enterprise SSDs built for AI workloads. One integrates an NPU and 64GB of memory with 130GB/s bandwidth, running PyTorch, vLLM, OpenVINO and llama.cpp directly on the drive, pushing compute to storage and returning only results to the host, which Phison says can cut data movement by 10-100x on certain workloads. The other uses a mixed-media design pairing pSLC cache with QLC flash, limiting cache loss to 4% per failed drive versus 25% in traditional dedicated-cache setups.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;群联展示内置 NPU 与 64GB 内存的智能固态硬盘&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;存储侧计算是 AI 基础设施的重要演进方向，该产品把推理能力直接嵌入 SSD，对算力与数据搬运成本有实质影响。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 72/100&lt;/p&gt;</description>
@@ -11,6 +20,15 @@
 <category>企业级 SSD</category>
 <category>AI 基础设施</category>
 <category>群联</category>
+</item>
+<item><title>mod_wsgi Creator Builds AI-Assisted Rust Server Muru for Python Apps</title><link>https://simonwillison.net/2026/Nov/21/muru/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/21/muru/</guid>
+<pubDate>Sun, 22 Nov 2026 07:56:28 +0800</pubDate>
+<description>&lt;p&gt;Graham Dumpleton, creator of mod_wsgi, has launched Muru, an AI-assisted Rust server aimed at providing the best tooling for running ASGI and WSGI Python applications in both development and production. Continuing the approach he used with wrapture, he is publishing an unusually detailed build-in-public account of the project as he develops it.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;mod_wsgi 作者用 AI 辅助开发 Rust 服务器 Muru&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Python 生产部署领域资深作者的 Rust 重写项目，且以 AI 辅助开发与超详细过程记录为特色，对 Web 服务与工程实践读者有参考价值。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://simonwillison.net/2026/Nov/21/muru/">Simon Willison 博客</source>
+<category>Rust</category>
+<category>Python</category>
+<category>AI 辅助编程</category>
+<category>Web 服务器</category>
 </item>
 <item><title>HarmonyOS 7 Expands XiaoYi Starlight Voice to More Huawei Devices</title><link>https://www.ithome.com/1/030/519.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/519.htm</guid>
 <pubDate>Sun, 22 Nov 2026 07:35:28 +0800</pubDate>
@@ -208,17 +226,17 @@
 <category>降本</category>
 <category>英伟达</category>
 </item>
-<item><title>Nvidia Researchers Call Huge Context Windows a Dead End</title><link>https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/</link><guid isPermaLink="true">https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/</guid>
+<item><title>英伟达研究员称超大上下文窗口是死路</title><link>https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/</link><guid isPermaLink="true">https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/</guid>
 <pubDate>Sun, 22 Nov 2026 00:23:45 +0800</pubDate>
-<description>&lt;p&gt;An Nvidia research team argues that ever-larger context windows are often overkill and expensive. In many tests, periodic summarization combined with targeted lookups performed about as well as stuffing entire documents into the prompt, suggesting the industry should rethink the &amp;#x27;longer is better&amp;#x27; assumption.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达研究员称超大上下文窗口是死路&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;对主流“堆上下文”路线提出反直觉质疑，涉及成本与架构取舍，值得关注。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;英伟达研究团队指出，动辄百万 token 的超大上下文窗口往往既昂贵又非必要。在多项测试中，定期摘要加定向检索的效果与一次性塞入全文相当，暗示业界应重新审视“上下文越长越好”的路线。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;对主流“堆上下文”路线提出反直觉质疑，涉及成本与架构取舍，值得关注。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 58/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end/">The Decoder</source>
 <category>上下文窗口</category>
 <category>英伟达</category>
 <category>检索增强</category>
 </item>
-<item><title>Microdrama Startup Tests Selling AI Versions of Actors&#x27; Faces</title><link>https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/</guid>
+<item><title>微短剧公司试水 AI 换脸授权商业模式</title><link>https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/</guid>
 <pubDate>Sun, 22 Nov 2026 00:00:00 +0800</pubDate>
-<description>&lt;p&gt;Microdrama platform Shortical is shifting toward AI-generated content and exploring licensing deals to buy actors&amp;#x27; facial likenesses, aiming to cut production costs. The move highlights AI commercialization attempts in short-form drama, though industry observers remain skeptical about genuine audience demand.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;微短剧公司试水 AI 换脸授权商业模式&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了 AI 肖像授权在内容产业的落地尝试与成本逻辑，对关注 AI 商业化边界的读者有参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;微短剧平台 Shortical 正将业务重心转向 AI 生成内容，并探索向演员购买面部肖像授权以降低制作成本。该模式折射出 AI 内容在短剧行业的商业化尝试，但业内对其真实观众需求仍存疑。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示了 AI 肖像授权在内容产业的落地尝试与成本逻辑，对关注 AI 商业化边界的读者有参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 42/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/">TechCrunch AI</source>
 <category>AI 内容生成</category>
 <category>微短剧</category>
@@ -251,24 +269,6 @@
 <category>IPO</category>
 <category>AI 安全</category>
 <category>算力成本</category>
-</item>
-<item><title>Lean 社区正式验证黎曼猜想形式化证明</title><link>https://leanprover-community.github.io/blog/posts/riemann-hypothesis/</link><guid isPermaLink="true">https://leanprover-community.github.io/blog/posts/riemann-hypothesis/</guid>
-<pubDate>Sat, 21 Nov 2026 22:36:45 +0800</pubDate>
-<description>&lt;p&gt;Lean 与 Mathlib 社区联合声明，确认 Levent Alpöge 于 2026 年 11 月 20 日发布的 1700 万行 Lean 代码库正确证明了黎曼猜想，且陈述与证明均通过专家审核。这是 AI 辅助形式化数学与机器验证领域的里程碑事件，标志着大规模形式化证明首次触及顶级未解难题。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;形式化数学社区首次认证黎曼猜想证明，对 AI for Math 与机器验证生态具有节点级意义。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 88/100&lt;/p&gt;</description>
-<source url="https://leanprover-community.github.io/blog/posts/riemann-hypothesis/">Hacker News AI</source>
-<category>形式化验证</category>
-<category>Lean</category>
-<category>数学</category>
-<category>开源社区</category>
-</item>
-<item><title>韩国总统视察 SK 蔚山数据中心 呼吁加快 AI 竞赛</title><link>https://www.ithome.com/1/030/506.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/506.htm</guid>
-<pubDate>Sat, 21 Nov 2026 22:26:35 +0800</pubDate>
-<description>&lt;p&gt;韩国总统李在明视察 SK 集团与亚马逊云科技共建的蔚山数据中心，强调全球 AI 竞赛中速度至关重要，并希望该项目吸引更多全球 AI 企业投资。该数据中心总投资预计 7 万亿韩元，2027 年下半年投运，首期容量 2029 年达 103MW，未来计划扩容近 900MW。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及国家级 AI 算力基础设施投资与政策信号，对关注算力布局的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 42/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/030/506.htm">IT之家 · 智能时代</source>
-<category>算力基础设施</category>
-<category>数据中心</category>
-<category>韩国</category>
-<category>SK 集团</category>
 </item>
 </channel>
 </rss>
