@@ -27,6 +27,14 @@ Dragos 在 2026 年 7 月至 11 月间向多家 AI 推理服务商发送约 200 
 
 事件凸显 AI 供应链中转售与路由中间商、模型市场的风险。OpenRouter 的快速下架与端点清理为行业树立了合规执法样本，可能推动推理服务商加强安全审计与透明度，并促使开发者更谨慎选择上游供应商。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter), Hacker News AI, The Decoder&lt;/p&gt;</description>
 </item>
+<item><title>OpenAI 首席科学家提议以困惑度统一衡量模型安全</title><link>https://todayforai.com/en/story/story-24028721-a3a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-24028721-a3a</guid>
+<pubDate>Mon, 23 Nov 2026 01:06:27 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 首席科学家 Jakub Pachocki 近日撰文提出，将困惑度（交叉熵损失）作为跨模型开发者可比的统一指标，并以此支撑共享安全标准。他认为，现代 AI 的进步本质上是训练更优压缩器（即预测器）的进展，困惑度能直接反映模型预测能力，是衡量预训练进展的核心标尺。作为第一步，OpenAI 首次公开了自身预训练进展的更多透明度信息，并透露近期模型设计中已有实质性贡献来自 AI 自身。
+
+该提议若被行业采纳，将首次为不同厂商的模型能力与安全性提供可比较的量化基准，有助于建立统一的评估体系。同时，OpenAI 主动披露预训练细节，也回应了外界对 AI 透明度日益增长的呼吁。然而，困惑度作为安全标尺仍存争议，因其主要衡量预测准确性，而非模型行为的合规性或危害性。
+
+这一动向可能推动行业形成更开放的竞争与合作格局，促使开发者共享关键指标，加速安全标准的协同制定。但能否成为通用标准，还需看其他主要厂商的响应与监管机构的认可。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, OpenAI 官方博客&lt;/p&gt;</description>
+</item>
 <item><title>OpenAI 发布 GPT-6.2 双模型 成本仅为对手 5%</title><link>https://todayforai.com/en/story/story-38dbfe49-f31</link><guid isPermaLink="true">https://todayforai.com/en/story/story-38dbfe49-f31</guid>
 <pubDate>Sun, 22 Nov 2026 01:20:44 +0800</pubDate>
 <description>&lt;p&gt;OpenAI 于 Anthropic 预期 IPO 定价前夜发布 GPT-6.2 Astra 与 GPT-6.2 Sol 两款新模型，主打专业工作、编程与多步骤智能体任务，并大幅压缩输出 Token 成本。官方数据显示，旗舰模型 Astra 在智能体长程任务基准 Agents&amp;#x27; Last Exam 上较 GPT-6 Astra 提升 5.2 分，单任务成本不足前代三分之一；对比竞品 Claude Fable 5.2，Astra 以约 5% 的成本领先 5.5 分。Astra API 输入价格降至每百万 Token 8 美元、输出 40 美元，较前代直降 20%，缓存输入降价 60%。轻量版 Sol 主打日常高效任务，编程能力逼近 Astra，单任务成本仅为其五分之一，并以约 15% 的成本达到同等智能水平。
@@ -66,10 +74,6 @@ Muru 的出现可能对 Python 应用服务器生态带来新的选择，尤其�
 研究进一步揭示，AI 路由网关和转售商层层转手是数据外泄的关键节点。即便请求标注“零数据保留”，其私密网址仍在数日后被抓取；市场转售商会窃取客户提示词，隐私设置与数据保留策略被供应商无视。Moore 采用金丝雀令牌精确定位泄露环节，证实提示词与 AWS 密钥等敏感凭证在中间环节被截留、窃取和滥用。
 
 这一发现对依赖第三方路由调用模型的开发者敲响警钟。AI 路由链已成为密钥与敏感数据泄露的新增攻击面，开发者需重新评估信任边界与凭证管理策略。建议敏感业务本地部署，或直连可信上游并明确指定服务提供方，同时可用金丝雀令牌低成本检测提示词是否外传。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Ars Technica AI, Hacker News AI&lt;/p&gt;</description>
-</item>
-<item><title>OpenAI 首席科学家提议以困惑度作为模型安全统一标尺</title><link>https://todayforai.com/en/story/story-24028721-a3a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-24028721-a3a</guid>
-<pubDate>Mon, 23 Nov 2026 01:06:27 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 首席科学家 Jakub Pachocki 撰文提出，现代 AI 的进步本质上是训练更优压缩器（即预测器）的进展，主张将困惑度（等价于交叉熵损失）确立为跨模型开发者可比的统一指标，并以此支撑共享安全标准。他同时披露了 OpenAI 预训练进展的更多透明度，并指出近期模型设计中已出现来自 AI 的实质性贡献。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Hacker News AI&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 2028 年电力 87% 来自天然气</title><link>https://todayforai.com/en/story/story-4d18b27f-9fd</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4d18b27f-9fd</guid>
 <pubDate>Sun, 22 Nov 2026 16:57:34 +0800</pubDate>
