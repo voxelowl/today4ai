@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 22 Nov 2026 22:00:48 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 22 Nov 2026 22:24:17 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Oracle Confirms Funding Secured for Full OpenAI Infrastructure Contract</title><link>https://www.ithome.com/1/030/715.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/715.htm</guid>
+<pubDate>Sun, 22 Nov 2026 22:24:17 +0800</pubDate>
+<description>&lt;p&gt;Oracle said it has raised all the capital needed to fulfill its compute contract with OpenAI, disclosing that its Abilene, Texas campus is already training GPT-6 Astra and is near completion, while the next gigawatt-scale site, Shackelford, has secured all permits. The company reiterated targets of positive free cash flow in H2 FY2028 and over $30 billion by FY2029.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;甲骨文确认已筹齐履行 OpenAI 合同所需资金&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是超大规模 AI 算力基建的关键资金与交付进展，直接关系 OpenAI 下一代模型的训练节奏。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/030/715.htm">IT之家 · 智能时代</source>
+<category>算力基建</category>
+<category>甲骨文</category>
+<category>OpenAI</category>
+<category>数据中心</category>
+</item>
+<item><title>Perplexity Launches Monitor API to Push Scheduled Web Changes to Agents</title><link>https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/</link><guid isPermaLink="true">https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/</guid>
+<pubDate>Sun, 22 Nov 2026 22:20:28 +0800</pubDate>
+<description>&lt;p&gt;Perplexity released a Monitor API that runs scheduled web searches or watches fixed pages and pushes filtered changes to AI agents via webhook, removing the need for teams to maintain their own polling and dedup code. A review model filters results by relevance, timeliness and credibility, priced at $1 per 1,000 requests, and Perplexity says internal tests beat Firecrawl and Exa.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Perplexity 推出 Monitor API 让智能体按计划监控网页变化&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把搜索从一次性查询变成事件驱动的持续监控，是智能体获取实时信息的重要基础设施变化。&lt;/p&gt;&lt;p&gt;The Decoder · tools · signal 72/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/">The Decoder</source>
+<category>Perplexity</category>
+<category>搜索 API</category>
+<category>智能体</category>
+<category>开发者工具</category>
+</item>
 <item><title>AI Server Vendors Raise Prices Up to 45% Before Delivery</title><link>https://www.ithome.com/1/030/713.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/713.htm</guid>
 <pubDate>Sun, 22 Nov 2026 22:00:48 +0800</pubDate>
 <description>&lt;p&gt;AI server vendors including Dell, HPE, Lenovo and Supermicro are sharply raising prices 25-45% after contracts are signed but before delivery, per the Financial Times, as buyers are forced to accept. The hikes stem largely from memory costs up over 400% since early 2024, and a dispute over a $549M fixed-price Dell-XTX deal has surfaced in Irish court.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 服务器交付前涨价最高达 45%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示算力供应链定价权失衡与内存成本传导，是理解 AI 基础设施经济性的关键信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 78/100&lt;/p&gt;</description>
@@ -11,6 +29,15 @@
 <category>算力基础设施</category>
 <category>内存涨价</category>
 <category>戴尔</category>
+</item>
+<item><title>Show HN Game Casts Players as an LLM Agent&#x27;s Subagent</title><link>https://github.com/gulivan/worker755</link><guid isPermaLink="true">https://github.com/gulivan/worker755</guid>
+<pubDate>Sun, 22 Nov 2026 21:56:58 +0800</pubDate>
+<description>&lt;p&gt;A developer launched Worker 755, a browser game in which the player acts as the subagent of a real LLM orchestrator (Claude, GPT, Gemini, DeepSeek and others), executing terminal instructions under a 90-second clock and returning reports. Hidden ground-truth checks simulate the full agent-orchestration loop of task dispatch, correction and performance review, making it both entertainment and a hands-on demo of multi-agent workflows.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Show HN 新作让玩家扮演 AI 智能体的子代理&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以游戏形式直观呈现 LLM 编排器与子代理的协作闭环，对理解智能体任务分发与校验机制有启发价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 58/100&lt;/p&gt;</description>
+<source url="https://github.com/gulivan/worker755">Hacker News AI</source>
+<category>智能体</category>
+<category>多智能体编排</category>
+<category>浏览器游戏</category>
+<category>Show HN</category>
 </item>
 <item><title>MiniMax Internal Model Breaks Multiple Frontier Cryptographic Schemes</title><link>https://www.ithome.com/1/030/711.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/711.htm</guid>
 <pubDate>Sun, 22 Nov 2026 21:23:38 +0800</pubDate>
@@ -203,27 +230,27 @@
 <category>Claude</category>
 <category>Navier-Stokes</category>
 </item>
-<item><title>Fudan Team Unveils F2G-Pose for One-Shot Object Pose and Shape Prediction</title><link>https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651075704&amp;idx=2&amp;sn=3b3303aa11937d51386964ec70bf1eff</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651075704&amp;idx=2&amp;sn=3b3303aa11937d51386964ec70bf1eff</guid>
+<item><title>复旦团队提出 F2G-Pose 单次前向预测物体位姿与形状</title><link>https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651075704&amp;idx=2&amp;sn=3b3303aa11937d51386964ec70bf1eff</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651075704&amp;idx=2&amp;sn=3b3303aa11937d51386964ec70bf1eff</guid>
 <pubDate>Sun, 22 Nov 2026 13:21:00 +0800</pubDate>
-<description>&lt;p&gt;Researchers from Fudan University and Shanghai Innovation Institute propose F2G-Pose, which performs direct RGB-D category-level 6D pose estimation in a single forward pass, jointly predicting object pose, size, and full 3D shape without per-instance CAD models or reference images. Accepted to NeurIPS 2026 with code released, it offers a more direct spatial perception route for robotic grasping and manipulation.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;复旦团队提出 F2G-Pose 单次前向预测物体位姿与形状&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;顶会接收的类别级位姿估计新方法，单次前向联合预测位姿尺寸形状，对具身智能与机器人感知有直接价值。&lt;/p&gt;&lt;p&gt;机器之心 (微信公众号) · llm · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;复旦大学与上海创智学院团队提出 F2G-Pose，在类别级 6D 位姿估计任务中实现单次前向推理同时输出物体位姿、尺寸与完整三维形状，无需逐物体 CAD 模型或参考图像。该工作已被 NeurIPS 2026 接收，并开源代码，为机器人抓取与操作提供更直接的空间感知路径。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;顶会接收的类别级位姿估计新方法，单次前向联合预测位姿尺寸形状，对具身智能与机器人感知有直接价值。&lt;/p&gt;&lt;p&gt;机器之心 (微信公众号) · llm · signal 72/100&lt;/p&gt;</description>
 <source url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651075704&amp;idx=2&amp;sn=3b3303aa11937d51386964ec70bf1eff">机器之心 (微信公众号)</source>
 <category>具身智能</category>
 <category>6D 位姿估计</category>
 <category>NeurIPS 2026</category>
 <category>机器人感知</category>
 </item>
-<item><title>Tsinghua and 16 Institutions Launch Mind2Act World Embodied Benchmark</title><link>https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651075704&amp;idx=1&amp;sn=dd36e17788a25d918f6fbc5c3c0907cb</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651075704&amp;idx=1&amp;sn=dd36e17788a25d918f6fbc5c3c0907cb</guid>
+<item><title>清华联合 16 家机构发布具身诊断基准 Mind2Act World</title><link>https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651075704&amp;idx=1&amp;sn=dd36e17788a25d918f6fbc5c3c0907cb</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651075704&amp;idx=1&amp;sn=dd36e17788a25d918f6fbc5c3c0907cb</guid>
 <pubDate>Sun, 22 Nov 2026 13:21:00 +0800</pubDate>
-<description>&lt;p&gt;Tsinghua mmlab@SIGS, together with Yuanxing Guangnian and 16 institutions, released Mind2Act World, a diagnostic benchmark for robotic manipulation with 30 tasks and 180 configurations that tests reasoning and physical execution separately and then jointly, attributing each failed episode to a root cause. Across 9 systems and 56,700 simulated episodes, the best agent scored 52.7% on reasoning-only and 39.0% on execution-only tasks, but just 12.0% on composed tasks, while end-to-end policies peaked at 3.6%.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;清华联合 16 家机构发布具身诊断基准 Mind2Act World&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该基准以失败归因取代单一成功率，为 VLA 与通用 Agent 两条具身路线提供了可诊断的评测维度。&lt;/p&gt;&lt;p&gt;机器之心 (微信公众号) · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;清华大学 mmlab@SIGS 联合远行光年等 16 家机构发布通用机器人操作诊断基准 Mind2Act World，包含 30 项任务、180 种配置，将「想」与「做」分开考核再组合评测，并为失败回合逐一归因。首批评测覆盖 9 个系统、56,700 个仿真回合，最佳 Agent 在纯推理任务成功率 52.7%、纯执行 39.0%，而需边想边做的组合任务仅 12.0%，端到端策略最高 3.6%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该基准以失败归因取代单一成功率，为 VLA 与通用 Agent 两条具身路线提供了可诊断的评测维度。&lt;/p&gt;&lt;p&gt;机器之心 (微信公众号) · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651075704&amp;idx=1&amp;sn=dd36e17788a25d918f6fbc5c3c0907cb">机器之心 (微信公众号)</source>
 <category>具身智能</category>
 <category>评测基准</category>
 <category>VLA</category>
 <category>机器人操作</category>
 </item>
-<item><title>Canary Tokens Expose Prompt Leaks Across Three AI Supply Chain Breaches</title><link>https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens</link><guid isPermaLink="true">https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens</guid>
+<item><title>AI 供应链安全告急 金丝雀令牌捕获三起提示词泄露</title><link>https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens</link><guid isPermaLink="true">https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens</guid>
 <pubDate>Sun, 22 Nov 2026 13:11:43 +0800</pubDate>
-<description>&lt;p&gt;Dragos used canary tokens to trace AI inference data flows and documented real breaches at three companies, where marketplace resellers stole customer prompts and privacy settings and retention policies were ignored. The post identifies AI routers as a key exfiltration point and outlines a practical canary-token approach for detecting prompt leaks.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 供应链安全告急 金丝雀令牌捕获三起提示词泄露&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以真实泄露案例揭示 AI 推理链路中的提示词外泄风险，并给出可落地的检测手段，对企业 AI 安全建设有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Dragos 通过部署金丝雀令牌追踪 AI 推理数据流向，发现三家企业在 AI 路由与转售环节发生真实泄露：市场转售商窃取客户提示词，隐私设置与数据保留策略被无视。文章指出 AI 路由器是提示词外泄的关键节点，并给出用金丝雀令牌检测提示词泄露的实操方法。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以真实泄露案例揭示 AI 推理链路中的提示词外泄风险，并给出可落地的检测手段，对企业 AI 安全建设有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens">Hacker News AI</source>
 <category>AI 安全</category>
 <category>供应链安全</category>
@@ -248,33 +275,6 @@
 <category>单细胞扰动</category>
 <category>NeurIPS 2026</category>
 <category>开源模型</category>
-</item>
-<item><title>新工具只把最慢的 5% 代码用 Rust 重写</title><link>https://github.com/EL4CTEO/fast-anything</link><guid isPermaLink="true">https://github.com/EL4CTEO/fast-anything</guid>
-<pubDate>Sun, 22 Nov 2026 12:10:09 +0800</pubDate>
-<description>&lt;p&gt;fast-anything 提出一种渐进式性能优化路径：先用性能剖析找出耗时最高的少数函数，再让编码智能体仅将这些函数移植为 Rust，并通过回放真实录制的调用验证结果一致后热替换，全程一条命令且可逆。它支持 Python、Node、Ruby、Java、Go、PHP、C/C++ 等语言，通过统一的 C 入口 JSON 桥接，无需为每种语言单独编写绑定。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;针对“全量重写 Rust”的高成本痛点给出可验证、可回滚的局部移植方案，对性能优化实践有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 68/100&lt;/p&gt;</description>
-<source url="https://github.com/EL4CTEO/fast-anything">Hacker News AI</source>
-<category>Rust</category>
-<category>性能优化</category>
-<category>开发者工具</category>
-<category>编码智能体</category>
-</item>
-<item><title>Together AI 因 AI 编码代理泄露凭证致提示词外泄</title><link>https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026</link><guid isPermaLink="true">https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026</guid>
-<pubDate>Sun, 22 Nov 2026 11:07:27 +0800</pubDate>
-<description>&lt;p&gt;Together AI 披露一起安全事件：其公开 GitHub 仓库 xorl 开发过程中，一个 AI 编码代理将可访问私有 Hugging Face 仓库的凭证提交入库，导致 2026 年 6 至 7 月间 MiniMax M3、GLM-5.2、Kimi K2.6 等模型的部分用户提示词样本被未授权方下载。攻击者随后还在样本中搜寻其他凭证。事件暴露了 AI 代理参与开发流程带来的供应链风险，公司建议处理敏感提示词的客户启用零数据保留（ZDR）。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 编码代理直接引发真实数据泄露的罕见公开案例，对使用代理式开发与托管推理服务的团队具有直接警示价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 71/100&lt;/p&gt;</description>
-<source url="https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026">Hacker News AI</source>
-<category>安全事件</category>
-<category>AI 编码代理</category>
-<category>Together AI</category>
-<category>数据泄露</category>
-</item>
-<item><title>Lean 社区核验 1700 万行黎曼猜想形式化证明</title><link>https://www.ithome.com/1/030/547.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/547.htm</guid>
-<pubDate>Sun, 22 Nov 2026 10:31:50 +0800</pubDate>
-<description>&lt;p&gt;Lean 与 Mathlib 社区联合宣布，Levent Alpöge 以约 1700 万行 Lean 代码形式给出的黎曼猜想证明已通过四项核验：陈述正确、代码可编译、证明与 Mathlib 陈述一致、证明有效。核验动用了 Lean 官方内核、con-leche、con-ron 及多个第三方独立检查器，并借助相对集合论的形式化证明排除了检查器本身接受错误证明的可能。若最终成立，这将是 AI 辅助数学与形式化验证领域的里程碑事件。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;黎曼猜想若被形式化证明攻克，将是数学与 AI 辅助推理的历史性节点，且核验流程本身具备高度技术参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · llm · signal 88/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/030/547.htm">IT之家 · IT业界</source>
-<category>形式化验证</category>
-<category>Lean</category>
-<category>黎曼猜想</category>
-<category>AI for Science</category>
 </item>
 </channel>
 </rss>
