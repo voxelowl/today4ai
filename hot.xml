@@ -51,6 +51,10 @@ Inkling 2 Mini 的发布标志着循环架构在开源模型中的一次重要�
 
 这一发现对依赖第三方路由调用模型的开发者敲响警钟。AI 路由链已成为密钥与敏感数据泄露的新增攻击面，开发者需重新评估信任边界与凭证管理策略。建议敏感业务本地部署，或直连可信上游并明确指定服务提供方，同时可用金丝雀令牌低成本检测提示词是否外传。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Ars Technica AI, Hacker News AI&lt;/p&gt;</description>
 </item>
+<item><title>Anthropic 2028 年电力 87% 来自天然气</title><link>https://todayforai.com/en/story/story-4d18b27f-9fd</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4d18b27f-9fd</guid>
+<pubDate>Sun, 22 Nov 2026 16:57:34 +0800</pubDate>
+<description>&lt;p&gt;分析显示，Anthropic 为支撑其 AI 算力扩张，正大规模自建与锁定化石能源发电，预计到 2028 年其电力结构中约 87% 来自天然气、11% 来自煤炭，可再生能源占比极低。这一案例折射出 AI 数据中心“自带电源”（BYOP）与电网新增化石产能合计约 377 GW 的行业趋势，凸显 AI 算力扩张与清洁能源目标之间的结构性矛盾。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Hacker News AI&lt;/p&gt;</description>
+</item>
 <item><title>Anthropic 登陆纳斯达克 募资 935 亿美元刷新纪录</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
 <pubDate>Sat, 21 Nov 2026 01:44:01 +0800</pubDate>
 <description>&lt;p&gt;Anthropic 于本周四正式在纳斯达克挂牌上市，以每股 83 美元的发行价募资约 935 亿美元，超越 SpaceX 保持的 862.5 亿美元纪录，成为史上最大 IPO。其开盘价飙升至 111.50 美元，较发行价高开 33%，完全稀释估值一度突破 1.5 万亿美元。
@@ -74,14 +78,6 @@ Anthropic 的上市标志着头部大模型公司首次进入公开资本市场�
 具体实现上，iOS 端默认开启阻止 Siri AI 的设置，用户仅可临时关闭 10 分钟或永久禁用；Android 端在检测到 AI 助手尝试截图时自动启用屏幕安全策略，但受设备差异影响稳定性有限。macOS 端因缺少必要的开发工具暂无法实现同等防护，官方建议将 Signal 加入 Siri 排除列表。导火索是 Meta 智能体 Muse 此前通过无障碍权限等广泛授权获取 Signal 内容，而 Google、Apple、Microsoft 等 OS 厂商并未提供细粒度接口让开发者限制 AI 数据访问，Signal 只能在牺牲核心体验的前提下自保。
 
 这是继去年用截图屏蔽阻止 Windows Recall 之后，Signal 第二次针对操作系统级 AI 采集能力采取技术反制。事件凸显端侧智能体普及与隐私应用之间的权限冲突正在升级，也暴露了操作系统层面对 AI 数据访问控制的结构性缺失。若 OS 厂商不提供细粒度权限管理，更多隐私应用将被迫采取类似被动防御，进而影响用户体验与生态信任。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, The Verge AI, The Decoder, IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
-<item><title>GPT-6.2 Astra 具身任务成功率翻倍至 41.2%</title><link>https://todayforai.com/en/story/story-1fc81bf4-75d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1fc81bf4-75d</guid>
-<pubDate>Sat, 21 Nov 2026 14:35:59 +0800</pubDate>
-<description>&lt;p&gt;GPT-6.2 Astra 在机器人操作基准测试中实现重大突破，综合成功率从两个月前 GPT-6 Astra 的 19.6% 提升至 41.2%，翻倍有余。在 XDOF 的 Ember-0 双臂机器人基准的 16 项任务中，提升覆盖整套任务而非单点突破，其中给绳子打结、展开 T 恤两项柔性物体任务首次被模型攻克，此前 143 次 T 恤测试无一成功。
-
-交叉验证显示，GPT-6.2 Astra 不仅在成功率上大幅领先，动作规划效率也显著优化。Artificial Analysis 的 AA-Robotics v0.1 基准中，它在六项任务中仅发出 668 条指令，为 11 个参评模型中最少，却取得最高分；清理箱子任务仅用 92 条机械臂指令，比 Claude Fable 5.2 少约 75%。XDOF 的评测以六台 YAM 工作站并行、每任务重复 30 次并人工标注失误，标准严苛，结果可靠。
-
-这一进展标志着具身智能从单点演示迈向通用任务能力，柔性物体操作曾是机器人领域的难点，此次突破将加速机器人在家庭、工业等场景的落地。同时，动作效率的提升降低了部署成本，为大规模应用铺平道路。XDOF 表示该基准或不久后被模型能力饱和，暗示技术迭代速度远超预期。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;量子位官网, Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
