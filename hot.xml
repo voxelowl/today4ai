@@ -17,7 +17,7 @@
 
 各信源在架构细节上高度一致：循环层每轮保留独立 KV 缓存并读取上一轮门控消息，激活参数约 3.4B 至 5.4B（不同统计口径），每 token 仅使用约 3.1B 唯一权重。性能方面，其在 100B 以下开源模型中智能体编程测试领先，DeepSWE v1.1 得分 48.2%，SWE-bench Verified 达 79.2%，AA Index 得分 20.1，与 Qwen3.8 27B 持平但激活参数少 5 至 6 倍，推理成本约为其六分之一。不过，模型在知识召回上存在明显取舍，非幻觉率仅 63.4%。vLLM 在 Blackwell、Hopper 与 DGX Spark 上实现发布当日支持，并内置 DSpark 推测解码加速。
 
-Inkling 2 Mini 的发布标志着循环架构在开源模型中的一次重要落地，以极低的激活参数实现了与更大模型相当的智能水平，大幅降低了本地部署门槛。其突出的智能体编程能力与长上下文支持，为个人设备上的长程任务自动化提供了新可能，有望推动本地优先的 AI 应用生态发展。&lt;/p&gt;&lt;p&gt;9 sources&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost), Arena.ai (@arena), The Decoder, Artificial Analysis (@ArtificialAnlys), vLLM 官方博客, Hacker News AI&lt;/p&gt;</description>
+Inkling 2 Mini 的发布标志着循环架构在开源模型中的一次重要落地，以极低的激活参数实现了与更大模型相当的智能水平，大幅降低了本地部署门槛。其突出的智能体编程能力与长上下文支持，为个人设备上的长程任务自动化提供了新可能，有望推动本地优先的 AI 应用生态发展。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost), Arena.ai (@arena), The Decoder, Artificial Analysis (@ArtificialAnlys), vLLM 官方博客, Hacker News AI&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 登陆纳斯达克 募资 935 亿美元刷新纪录</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
 <pubDate>Sat, 21 Nov 2026 01:44:01 +0800</pubDate>
@@ -71,13 +71,13 @@ Anthropic 的上市标志着头部大模型公司首次进入公开资本市场�
 <pubDate>Sat, 21 Nov 2026 08:08:12 +0800</pubDate>
 <description>&lt;p&gt;英伟达股价周五再跌 14%，较 10 月高点累计回撤约 47%，市值蒸发超 2.73 万亿美元，规模超过整个亚马逊。抛售由黄仁勋因丑闻辞职引发的人事震荡直接触发，叠加市场对 AI 高估值与巨额资本开支回报的怀疑，纳斯达克单周下跌 10%，创 2020 年 3 月以来最差表现。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, Hacker News AI, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
-<item><title>OpenAI 发布药物化学基准 MedChemBench 揭示模型决策短板</title><link>https://todayforai.com/en/story/story-ac4a9ae9-3fa</link><guid isPermaLink="true">https://todayforai.com/en/story/story-ac4a9ae9-3fa</guid>
-<pubDate>Sat, 21 Nov 2026 08:06:12 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 正式发布药物化学基准 MedChemBench，旨在评估 AI 模型在真实药物发现任务中的推理能力。该基准包含 99 道题目，源自 117 篇论文与专利，覆盖 761 个分级分子结构，并在真实决策点截断、隐藏后续实验结果，要求模型基于生物靶点、已合成化合物与部分测定结果做出判断。
+<item><title>HeyGen 上线 Decision 1 多模态概率判定模型</title><link>https://todayforai.com/en/story/story-4c3c4a18-8e7</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4c3c4a18-8e7</guid>
+<pubDate>Sat, 21 Nov 2026 07:14:24 +0800</pubDate>
+<description>&lt;p&gt;HeyGen 正式推出 Decision 1 模型，并已在 OpenRouter 平台上线。该模型不生成自然语言文本，而是接收视频、音频、图像与文本的多模态输入，针对每个问题返回校准后的概率值，可直接接入业务代码逻辑。单次调用最多支持 400 个问题，延迟约 100 毫秒，输入价格在 12 月 1 日前享受五折优惠，Turbo 版本每百万 token 仅 0.042 美元，输出免费。
 
-测试结果显示，最强模型 GPT-6.2 Astra 在 xhigh 推理档下总体得分约 84.5%，分子结构重建分项高达 95.4%，但在关键决策（如化合物筛选与数值性质预测）上正确率仅约五成。相比之下，GPT-5.6 Sol 仅得 58.2%，模型间差距明显。OpenAI 强调，该结果不能证明模型能发现新药，仅用于定位能力边界与短板。
+综合多方信源，Decision 1 的核心特性在于批量概率判定能力。官方演示中，手势与情绪识别 8 题全对，单次成本约 0.0027 美元，凸显低成本实用导向。模型通过 AI/ML API 平台分发，与 OpenRouter 形成互补渠道。其输出概率值而非文本的设计，便于开发者直接嵌入风控、身份核验等自动化流程，例如判断自拍视频与证件照是否同一人、是否为活体采集。
 
-MedChemBench 的推出为药物化学领域的 AI 应用提供了可量化的评估工具，揭示了前沿模型在结构解读与真实决策之间的显著落差。这有助于引导后续模型迭代聚焦于提升因果推理与实验证据整合能力，对 AI 辅助药物发现赛道具有风向标意义。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), OpenAI 官方博客, IT之家 · 智能时代&lt;/p&gt;</description>
+此次发布标志着 AI 模型从内容生成向决策判定延伸，为视频审核、金融身份认证、互动娱乐等场景提供了可量化的概率工具。HeyGen 以极低定价和批量处理能力切入，有望降低多模态判定的应用门槛，推动概率型 AI 服务成为新的基础设施。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter), Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

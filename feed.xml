@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 22 Nov 2026 07:31:46 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 22 Nov 2026 08:04:47 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Phison Unveils Smart SSD with Built-in NPU and 64GB Memory</title><link>https://www.ithome.com/1/030/524.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/524.htm</guid>
+<pubDate>Sun, 22 Nov 2026 08:04:47 +0800</pubDate>
+<description>&lt;p&gt;At SC26, Phison showed two enterprise SSDs built for AI workloads. One integrates an NPU and 64GB of memory with 130GB/s bandwidth, running PyTorch, vLLM, OpenVINO and llama.cpp directly on the drive, pushing compute to storage and returning only results to the host, which Phison says can cut data movement by 10-100x on certain workloads. The other uses a mixed-media design pairing pSLC cache with QLC flash, limiting cache loss to 4% per failed drive versus 25% in traditional dedicated-cache setups.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;群联展示内置 NPU 与 64GB 内存的智能固态硬盘&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;存储侧计算是 AI 基础设施的重要演进方向，该产品把推理能力直接嵌入 SSD，对算力与数据搬运成本有实质影响。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 72/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/030/524.htm">IT之家 · 智能时代</source>
+<category>存储计算</category>
+<category>企业级 SSD</category>
+<category>AI 基础设施</category>
+<category>群联</category>
+</item>
+<item><title>HarmonyOS 7 Expands XiaoYi Starlight Voice to More Huawei Devices</title><link>https://www.ithome.com/1/030/519.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/519.htm</guid>
+<pubDate>Sun, 22 Nov 2026 07:35:28 +0800</pubDate>
+<description>&lt;p&gt;Huawei has extended its XiaoYi Starlight voice to more HarmonyOS 7 devices such as the Mate 80 and Mate 90, adding pitch and speed controls after debuting the feature on the OSTA O1 Pro. The move is a routine personalization update, with the Starlight line&amp;#x27;s exclusive AI screen and avatar features still unconfirmed for wider release.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;鸿蒙 7 向更多机型开放小艺星芒音色&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;反映华为鸿蒙 AI 助手能力向存量机型扩散的节奏，但仅为音色与参数调节的常规功能下放。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 38/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/030/519.htm">IT之家 · IT业界</source>
+<category>鸿蒙</category>
+<category>华为</category>
+<category>AI 助手</category>
+<category>智能终端</category>
+</item>
 <item><title>OpenAI Cuts Chain-of-Thought Extraction Rate to 0.2 Percent</title><link>https://www.ithome.com/1/030/518.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/518.htm</guid>
 <pubDate>Sun, 22 Nov 2026 07:31:46 +0800</pubDate>
 <description>&lt;p&gt;OpenAI disclosed anti-distillation safeguards for GPT-6.2 Astra and GPT-6.2 Sol, with black-box red-team tests showing chain-of-thought extraction success dropping from 54% to 0.2% on legacy requests and from 22.9% to 0.9% on new ones. Combined with weekly bans of thousands to tens of thousands of unauthorized distillation accounts, the move signals frontier labs are now actively defending reasoning traces as core assets.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 反蒸馏防护将思考链提取成功率降至 0.2%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是本期早报中唯一具备明确技术指标与可验证结果的 AI 前沿条目，直接关系模型知识产权与推理链安全。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
@@ -207,18 +225,18 @@
 <category>肖像授权</category>
 <category>商业化</category>
 </item>
-<item><title>Lean Proof of Riemann Hypothesis Passes Multi-Kernel Verification</title><link>https://math.mit.edu/~drew/grh/</link><guid isPermaLink="true">https://math.mit.edu/~drew/grh/</guid>
+<item><title>Lean 形式化黎曼猜想证明通过多内核验证</title><link>https://math.mit.edu/~drew/grh/</link><guid isPermaLink="true">https://math.mit.edu/~drew/grh/</guid>
 <pubDate>Sat, 21 Nov 2026 23:54:34 +0800</pubDate>
-<description>&lt;p&gt;Andrew Sutherland of MIT, using Claude Code, has independently verified a Lean formalization of the Riemann Hypothesis: all 175,187 modules compile cleanly, the five headline theorems depend only on the three standard axioms, and two independent kernels, nanoda and con-leche, accept the full exported proof. It marks the first time AI-assisted formal mathematics on a major open problem has reached machine-checkable verification strength.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Lean 形式化黎曼猜想证明通过多内核验证&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 辅助形式化数学首次在黎曼猜想级别难题上通过多内核独立验证，是形式化推理与 AI 工程结合的里程碑事件。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 88/100&lt;/p&gt;</description>
+<description>&lt;p&gt;MIT 的 Andrew Sutherland 使用 Claude Code 对一份 Lean 形式化的黎曼猜想证明进行了独立验证：175,187 个模块全部编译通过，五个核心定理仅依赖三条标准公理，两个独立内核 nanoda 与 con-leche 均接受完整导出证明。这标志着 AI 辅助形式化数学在重大未解难题上首次达到可被机器独立复核的验证强度。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 辅助形式化数学首次在黎曼猜想级别难题上通过多内核独立验证，是形式化推理与 AI 工程结合的里程碑事件。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 88/100&lt;/p&gt;</description>
 <source url="https://math.mit.edu/~drew/grh/">Hacker News AI</source>
 <category>形式化数学</category>
 <category>Lean</category>
 <category>黎曼猜想</category>
 <category>AI 辅助证明</category>
 </item>
-<item><title>Zero C# Compiles C# to Native Code Without Runtime or GC</title><link>https://onurgumus.github.io/zero-csharp/index.html</link><guid isPermaLink="true">https://onurgumus.github.io/zero-csharp/index.html</guid>
+<item><title>Zero C# 让 C# 脱离运行时与 GC 直编原生程序</title><link>https://onurgumus.github.io/zero-csharp/index.html</link><guid isPermaLink="true">https://onurgumus.github.io/zero-csharp/index.html</guid>
 <pubDate>Sat, 21 Nov 2026 23:39:09 +0800</pubDate>
-<description>&lt;p&gt;Zero C# is a fork of bflat that compiles C# straight into small native programs with no .NET runtime, no garbage collector and nothing to install on the target. It keeps C# syntax, type checking and generics while managing memory through arenas freed all at once, and the same source runs on Linux, macOS, Windows, WebAssembly and even DOS on a 386.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Zero C# 让 C# 脱离运行时与 GC 直编原生程序&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;它展示了 C# 在无运行时、无 GC 约束下的原生编译路径，对系统编程与嵌入式场景具有实际参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Zero C# 是 bflat 的一个分支，可将 C# 直接编译为小型原生程序，运行时无需 .NET 运行时、垃圾回收器或任何安装依赖。它保留 C# 的语法、类型检查与泛型，改用一次性释放的 arena 管理内存，同一份源码可运行于 Linux、macOS、Windows、WebAssembly 乃至 386 上的 DOS。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;它展示了 C# 在无运行时、无 GC 约束下的原生编译路径，对系统编程与嵌入式场景具有实际参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
 <source url="https://onurgumus.github.io/zero-csharp/index.html">Hacker News AI</source>
 <category>C#</category>
 <category>原生编译</category>
@@ -251,23 +269,6 @@
 <category>数据中心</category>
 <category>韩国</category>
 <category>SK 集团</category>
-</item>
-<item><title>OpenAI 发布 GPT-6.2 Astra 与 Sol 提示词模板</title><link>https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/</link><guid isPermaLink="true">https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/</guid>
-<pubDate>Sat, 21 Nov 2026 21:32:35 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 为 GPT-6.2 Astra 与 Sol 发布可直接复用的系统提示词模板，针对默认回答过短、频繁反问打断流程等行为进行纠正，并给出写作风格、主动性与编码三类规范。编码模板要求复用既有代码、避免无谓抽象、仅在明确要求或出现特定错误时新增测试。API 侧同步变化：编辑对话历史会丢弃此前的推理步骤，影响 token 成本与回答质量，temperature 与 top_p 等参数已被移除。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;官方提示词模板与 API 行为变更直接影响所有使用 Astra 与 Sol 的开发者，属于可立即落地的工程实践更新。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 68/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/">The Decoder</source>
-<category>大模型</category>
-<category>OpenAI</category>
-<category>提示词工程</category>
-<category>API 变更</category>
-</item>
-<item><title>SimpleBench 揭示顶尖模型常识推理不及普通人</title><link>https://simple-bench.com/</link><guid isPermaLink="true">https://simple-bench.com/</guid>
-<pubDate>Sat, 21 Nov 2026 21:16:12 +0800</pubDate>
-<description>&lt;p&gt;研究团队发布 SimpleBench 基准，包含 200 余道时空推理、社会智能与语言对抗性陷阱题。在九名普通高中知识水平受试者构成的基线达到 83.7% 的情况下，包括 Claude Fable 在内的所有受测前沿模型均未超越，最高仅 81.9%，说明记忆知识与近似推理检索仍不足以应对基础常识问题。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该基准以普通人基线反超所有前沿模型，为评估大模型真实推理短板提供了可复用的对照方法。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 58/100&lt;/p&gt;</description>
-<source url="https://simple-bench.com/">Hacker News AI</source>
-<category>基准评测</category>
-<category>推理能力</category>
-<category>大模型</category>
 </item>
 </channel>
 </rss>
