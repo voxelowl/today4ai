@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Sun, 22 Nov 2026 01:20:44 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 22 Nov 2026 07:28:10 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Lean 社区启动黎曼猜想形式化证明独立验证</title><link>https://todayforai.com/en/story/story-c508eedd-8d6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c508eedd-8d6</guid>
 <pubDate>Sat, 21 Nov 2026 23:54:34 +0800</pubDate>
@@ -43,6 +43,14 @@ Anthropic 的上市标志着头部大模型公司首次进入公开资本市场�
 
 此次发布反映出 OpenAI 在提升模型编程能力的同时，正通过提示词模板引导用户规范使用，以弥补聊天体验的短板。API 参数的移除与推理步骤的丢弃可能影响开发者成本与输出稳定性，而编程能力的显著跃升则可能吸引更多代码生成场景的采用。整体来看，GPT-6.2 Astra 在专业任务与通用对话之间的能力分化，或将成为后续迭代的重点方向。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Arena.ai (@arena), The Decoder&lt;/p&gt;</description>
 </item>
+<item><title>Signal 封堵截屏 阻止系统级 AI 读取私聊</title><link>https://todayforai.com/en/story/story-7515a48b-c5e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-7515a48b-c5e</guid>
+<pubDate>Sun, 22 Nov 2026 07:28:10 +0800</pubDate>
+<description>&lt;p&gt;Signal 在 iOS 27 与部分 Android 版本上默认启用防截屏机制，直接阻止系统级 AI 智能体（如 Siri AI、Gemini）通过屏幕内容读取已解密的私聊消息。这是端到端加密应用与操作系统级 AI 之间围绕屏幕访问权的首次正面冲突，Signal 总裁 Meredith Whittaker 称此举针对隐私面临的“生存性威胁”。
+
+具体实现上，iOS 端默认开启阻止 Siri AI 的设置，用户仅可临时关闭 10 分钟或永久禁用；Android 端在检测到 AI 助手尝试截图时自动启用屏幕安全策略，但受设备差异影响稳定性有限。macOS 端因缺少必要的开发工具暂无法实现同等防护，官方建议将 Signal 加入 Siri 排除列表。导火索是 Meta 智能体 Muse 此前通过无障碍权限等广泛授权获取 Signal 内容，而 Google、Apple、Microsoft 等 OS 厂商并未提供细粒度接口让开发者限制 AI 数据访问，Signal 只能在牺牲核心体验的前提下自保。
+
+这是继去年用截图屏蔽阻止 Windows Recall 之后，Signal 第二次针对操作系统级 AI 采集能力采取技术反制。事件凸显端侧智能体普及与隐私应用之间的权限冲突正在升级，也暴露了操作系统层面对 AI 数据访问控制的结构性缺失。若 OS 厂商不提供细粒度权限管理，更多隐私应用将被迫采取类似被动防御，进而影响用户体验与生态信任。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, The Verge AI, The Decoder, IT之家 · 智能时代&lt;/p&gt;</description>
+</item>
 <item><title>腾讯元宝联合 KCL 发布群聊 Agent 记忆基准</title><link>https://todayforai.com/en/story/story-5c1756b3-b65</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5c1756b3-b65</guid>
 <pubDate>Sun, 22 Nov 2026 01:07:07 +0800</pubDate>
 <description>&lt;p&gt;腾讯元宝与伦敦国王学院 NLP 团队联合发布 GroupAssistBench，这是首个针对群聊场景的 Agent 记忆能力评测基准。该基准基于 50 个真实群聊的 80,299 条历史消息，构建了 2,395 道评测题，覆盖单条记忆、多记忆整合与更新冲突三类结构，并首次将记忆能力拆分为 L1 事实召回与 L2 开放式服务两个层级。
@@ -70,14 +78,6 @@ Anthropic 的上市标志着头部大模型公司首次进入公开资本市场�
 测试结果显示，最强模型 GPT-6.2 Astra 在 xhigh 推理档下总体得分约 84.5%，分子结构重建分项高达 95.4%，但在关键决策（如化合物筛选与数值性质预测）上正确率仅约五成。相比之下，GPT-5.6 Sol 仅得 58.2%，模型间差距明显。OpenAI 强调，该结果不能证明模型能发现新药，仅用于定位能力边界与短板。
 
 MedChemBench 的推出为药物化学领域的 AI 应用提供了可量化的评估工具，揭示了前沿模型在结构解读与真实决策之间的显著落差。这有助于引导后续模型迭代聚焦于提升因果推理与实验证据整合能力，对 AI 辅助药物发现赛道具有风向标意义。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), OpenAI 官方博客, IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
-<item><title>谷歌发布 Gemini 4 Neon 登顶 Agent Arena 第二</title><link>https://todayforai.com/en/story/story-d7aabeb3-ec9</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d7aabeb3-ec9</guid>
-<pubDate>Sat, 21 Nov 2026 05:39:48 +0800</pubDate>
-<description>&lt;p&gt;谷歌 DeepMind 正式发布 Gemini 4 Neon，这是七周内第四款 Gemini 4 系列模型，定位为兼顾前沿智能与端到端快速任务完成的中端模型。其在 Agent Arena 智能体竞技场以 1336 分位列总榜第二，创下谷歌在该榜单的最佳成绩，单任务中位成本仅 2.82 美元，比榜首 Claude Fable 5.2 低 69%，性价比优势显著。
-
-技术层面，Neon 支持 100 万 token 上下文与四档推理级别，在 Artificial Analysis 编程智能体指数以 58.6 分超越 Claude Opus 5.5 位列第一，智能指数以 61 分排名第三。模型速度约 110 tokens/秒，是前代 Carbon 的两倍，且基础定价更低。在 Antigravity 开发环境中，Neon 可调度多个子智能体并行执行长任务，接入后 SWE-sweep 得分从 12.8% 跃升至 39.0%。安全方面，模型卡称其在 Gray-Swan 基准上 100% 阻断间接提示注入攻击。
-
-Neon 的发布标志着谷歌模型迭代节奏近乎指数级加快，发布间隔从 28 天缩短至 6 天，同时产品线快速收敛，Argon 退役、旧版 Pro 与 Flash 下线。凭借速度、成本与可操控性的平衡，Neon 直接对标 Anthropic 的 Opus 与 Fable 系列，加剧了中端智能体市场的竞争，也为开发者提供了高性价比的前沿智能选择。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, IT之家 · IT业界, Marktechpost (@Marktechpost), 宝玉 (@dotey), Artificial Analysis, Latent Space&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
