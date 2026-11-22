@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Mon, 23 Nov 2026 05:14:07 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 23 Nov 2026 06:50:46 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 数学家与 Claude 宣称证明黎曼猜想</title><link>https://todayforai.com/en/story/story-b91caf62-12d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b91caf62-12d</guid>
 <pubDate>Sun, 22 Nov 2026 19:08:31 +0800</pubDate>
@@ -12,12 +12,12 @@ Lean 与 Mathlib 社区联合核验了该证明，确认其通过四项标准：
 该事件凸显了 AI 在顶级数学研究中的实际参与度，也把“AI 成果如何被可信验证”的争议推到台前。形式化验证成为 AI 数学成果的可信背书，但证明的真正价值可能在于催生解释素数分布结构的新数学理论，而非猜想本身。若证明成立，将支撑数百个依赖黎曼猜想的数学结论，并标志 AI for Math 进入新阶段。&lt;/p&gt;&lt;p&gt;8 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, TechCrunch AI, 宝玉 (@dotey), Latent Space, Hacker News AI, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 首席科学家提议以困惑度统一衡量模型安全</title><link>https://todayforai.com/en/story/story-24028721-a3a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-24028721-a3a</guid>
-<pubDate>Mon, 23 Nov 2026 05:14:07 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 首席科学家 Jakub Pachocki 近日撰文提出，将困惑度（等价于交叉熵损失）确立为跨模型开发者可比的统一指标，并以此支撑共享安全标准。作为第一步，OpenAI 首次公开了自身预训练进展的更多透明度信息，并指出近期模型设计中已出现来自 AI 的实质性贡献。
+<pubDate>Mon, 23 Nov 2026 06:50:46 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 首席科学家 Jakub Pachocki 近日撰文提出，将困惑度（交叉熵损失）确立为跨模型开发者可比的统一指标，并以此为基础设定行业共同的安全开发门槛。他首次披露了 OpenAI 自身的预训练进展数据：GPT-3.5 的对数困惑度约为 0.99，GPT-4 约为 0.91，并指出当该数值低于 0.8 时，模型在网络安全与数学领域会展现出新能力，0.76 左右则可能在开放数学问题上取得突破。Pachocki 预计 2027 年前后预训练将迎来新一轮快速进展，而对齐与行为监控能力或难以同步，因此提议在监控能力达到既定里程碑之前，企业不应突破约定的开发上限。
 
-Pachocki 认为，现代 AI 的进步本质上是训练更优压缩器（即预测器）的进展，而下游能力基准快速过时，困惑度更适合作为进展的稳定度量。该提议呼应了 Anthropic CEO Dario Amodei 的“节奏化前沿”计划，后者主张企业就安全标准与无节制进展的速率限制达成共识。若被采纳，困惑度将从训练评估指标升级为行业治理的量化锚点，企业或承诺在理解与监控能力达到具体里程碑前不越过特定阈值。
+该提议与 Anthropic CEO Dario Amodei 的“节奏化前沿”计划形成呼应，后者同样主张就安全标准与进展速率限制达成行业共识。OpenAI 首席执行官奥尔特曼公开支持这一提议，称其是公司近期最重要的内容之一。与此同时，美国国会的 AI 监管讨论正在升温，困惑度这一原本用于训练评估的指标，有望升级为行业治理的量化锚点。
 
-这一提议若落地，将首次为 AI 安全治理提供可量化、可比较的通用标尺，推动行业从各自为政的基准测试转向协同限速机制。对开发者而言，困惑度作为统一指标可降低评估成本，但也可能引发对单一指标过度依赖的担忧。OpenAI 主动披露预训练进展，或倒逼更多厂商提升透明度，加速形成共享安全标准。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, TechCrunch AI, OpenAI 官方博客&lt;/p&gt;</description>
+若被广泛采纳，这将是 AI 行业首次以可跨企业追踪的量化指标来协调开发节奏与安全投入，标志着从各自为政的“自愿承诺”向可验证的“共同门槛”迈出关键一步。对开发者而言，这意味着未来模型能力的提升将更紧密地与安全监控能力挂钩，行业竞争维度也可能从单纯追求更低困惑度，转向在安全约束下实现可控进展。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Hacker News AI, TechCrunch AI, OpenAI 官方博客&lt;/p&gt;</description>
 </item>
 <item><title>OpenRouter 下架 3 家推理供应商并移除 125 个端点</title><link>https://todayforai.com/en/story/story-e2a11f6e-42a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e2a11f6e-42a</guid>
 <pubDate>Sun, 22 Nov 2026 20:07:56 +0800</pubDate>
@@ -33,7 +33,7 @@ Dragos 在 2026 年 7 月至 11 月间向多家 AI 推理服务商发送约 200 
 
 各信源在架构细节上高度一致：循环层每轮保留独立 KV 缓存并读取上一轮门控消息，激活参数约 3.4B 至 5.4B（不同统计口径），每 token 仅使用约 3.1B 唯一权重。性能方面，其在 100B 以下开源模型中智能体编程测试领先，DeepSWE v1.1 得分 48.2%，SWE-bench Verified 达 79.2%，AA Index 得分 20.1，与 Qwen3.8 27B 持平但激活参数少 5 至 6 倍，推理成本约为其六分之一。不过，模型在知识召回上存在明显取舍，非幻觉率仅 63.4%。vLLM 在 Blackwell、Hopper 与 DGX Spark 上实现发布当日支持，并内置 DSpark 推测解码加速。
 
-Inkling 2 Mini 的发布标志着循环架构在开源模型中的一次重要落地，以极低的激活参数实现了与更大模型相当的智能水平，大幅降低了本地部署门槛。其突出的智能体编程能力与长上下文支持，为个人设备上的长程任务自动化提供了新可能，有望推动本地优先的 AI 应用生态发展。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost), Arena.ai (@arena), The Decoder, Artificial Analysis (@ArtificialAnlys), vLLM 官方博客, Hacker News AI&lt;/p&gt;</description>
+Inkling 2 Mini 的发布标志着循环架构在开源模型中的一次重要落地，以极低的激活参数实现了与更大模型相当的智能水平，大幅降低了本地部署门槛。其突出的智能体编程能力与长上下文支持，为个人设备上的长程任务自动化提供了新可能，有望推动本地优先的 AI 应用生态发展。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost), Arena.ai (@arena), The Decoder, Artificial Analysis (@ArtificialAnlys), vLLM 官方博客, Hacker News AI&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 发布 GPT-6.2 双模型 成本仅为对手 5%</title><link>https://todayforai.com/en/story/story-38dbfe49-f31</link><guid isPermaLink="true">https://todayforai.com/en/story/story-38dbfe49-f31</guid>
 <pubDate>Sun, 22 Nov 2026 01:20:44 +0800</pubDate>
