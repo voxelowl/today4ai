@@ -217,9 +217,9 @@
 <category>LangChain</category>
 <category>企业落地</category>
 </item>
-<item><title>NVIDIA Method Caches LLM Reasoning as CPU Code to Cut Costs 291x</title><link>https://x.com/rohanpaul_ai/status/2124177125247013266</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2124177125247013266</guid>
+<item><title>英伟达新方法将推理轨迹缓存为 CPU 代码 成本降 291 倍</title><link>https://x.com/rohanpaul_ai/status/2124177125247013266</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2124177125247013266</guid>
 <pubDate>Sun, 22 Nov 2026 00:24:26 +0800</pubDate>
-<description>&lt;p&gt;An NVIDIA paper proposes compiling an LLM&amp;#x27;s reasoning trace into small parameterized Python functions that run on CPU, invoking a fine-tuned 1B model only for lightweight text tasks such as value extraction. The cache matched or beat the source model on 7 of 8 math and science benchmarks, scoring 93.3% versus 83.3% on AIME &amp;#x27;25, and covered at least 90% of rephrased or re-numbered variants at 16x to 291x lower cost.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达新方法将推理轨迹缓存为 CPU 代码 成本降 291 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把重复推理固化为可执行代码的思路，为智能体高频调用场景提供了可量化的降本路径。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;英伟达论文提出将大模型的推理轨迹编译为带参数的小型 Python 函数，在 CPU 上执行以复用推理结果，仅在抽取数值等轻量文本任务时调用微调的 1B 小模型。该方法在 8 个数学与科学基准中的 7 个达到或超过原模型精度，AIME &amp;#x27;25 上为 93.3% 对 83.3%，对改写或换数的变体覆盖至少 90%，成本降低 16 至 291 倍。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把重复推理固化为可执行代码的思路，为智能体高频调用场景提供了可量化的降本路径。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2124177125247013266">Rohan Paul (@rohanpaul_ai)</source>
 <category>推理缓存</category>
 <category>智能体</category>
