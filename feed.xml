@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sun, 22 Nov 2026 18:06:07 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sun, 22 Nov 2026 19:08:31 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Lean Community Confirms Formal Proof of Riemann Hypothesis</title><link>https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/</link><guid isPermaLink="true">https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/</guid>
+<pubDate>Sun, 22 Nov 2026 19:08:31 +0800</pubDate>
+<description>&lt;p&gt;The Lean and Mathlib community has officially confirmed that Stanford mathematician Levent Alpöge&amp;#x27;s proof of the Riemann hypothesis is correct. Published on Nov 20, 2026 as 17 million lines of Lean code, the proof was independently reproduced by dozens of verifiers whose programs are provably incapable of accepting a flawed argument. It marks the first time AI-assisted formal mathematics has cracked one of the most famous open problems in math.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;黎曼猜想被 Lean 形式化证明验证通过&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;黎曼猜想被形式化验证攻克，是 AI 与数学交叉史上的里程碑事件，影响远超单一模型发布。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 96/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/">The Decoder</source>
+<category>形式化数学</category>
+<category>Lean</category>
+<category>黎曼猜想</category>
+<category>AI for Science</category>
+</item>
 <item><title>China Smart Glasses Average Price Falls to 1,542 Yuan in Q3 2026</title><link>https://www.ithome.com/1/030/683.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/683.htm</guid>
 <pubDate>Sun, 22 Nov 2026 18:06:07 +0800</pubDate>
 <description>&lt;p&gt;RUNTO data shows China&amp;#x27;s smart glasses retail volume reached 544,000 units in Q3 2026, up 14.3% year on year, while retail value fell 4.3% and average price dropped 16.2% to 1,542 yuan. AR glasses were the only category to gain share, rising to 35.8%, while camera glasses saw steep price declines. RUNTO cut its full-year volume forecast to 2.05-2.15 million units, below the earlier 2.58 million.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;2026 年第三季度中国智能眼镜均价降至 1542 元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;智能眼镜作为具身与可穿戴 AI 载体，其量增价跌与品类结构变化是观察端侧 AI 硬件落地的重要行业信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 52/100&lt;/p&gt;</description>
@@ -201,9 +210,9 @@
 <category>收购</category>
 <category>Trainium</category>
 </item>
-<item><title>Phison Unveils Smart SSD with Built-in NPU and 64GB Memory</title><link>https://www.ithome.com/1/030/524.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/524.htm</guid>
+<item><title>群联展示内置 NPU 与 64GB 内存的智能固态硬盘</title><link>https://www.ithome.com/1/030/524.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/524.htm</guid>
 <pubDate>Sun, 22 Nov 2026 08:04:47 +0800</pubDate>
-<description>&lt;p&gt;At SC26, Phison showed two enterprise SSDs built for AI workloads. One integrates an NPU and 64GB of memory with 130GB/s bandwidth, running PyTorch, vLLM, OpenVINO and llama.cpp directly on the drive, pushing compute to storage and returning only results to the host, which Phison says can cut data movement by 10-100x on certain workloads. The other uses a mixed-media design pairing pSLC cache with QLC flash, limiting cache loss to 4% per failed drive versus 25% in traditional dedicated-cache setups.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;群联展示内置 NPU 与 64GB 内存的智能固态硬盘&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;存储侧计算是 AI 基础设施的重要演进方向，该产品把推理能力直接嵌入 SSD，对算力与数据搬运成本有实质影响。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;群联在 SC26 大会展示两款面向 AI 场景的企业级固态硬盘，其中一款内置 NPU 与 64GB 内存，带宽达 130GB/s，可直接在盘上运行 PyTorch、vLLM、OpenVINO 与 llama.cpp 等框架。其思路是把部分计算下沉到存储侧，仅向主机返回结果，特定负载下数据传输量可减少 10 至 100 倍。另一款采用 pSLC 缓存与 QLC 混合介质设计，以单盘故障仅损失 4% 缓存容量替代独立缓存盘方案。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;存储侧计算是 AI 基础设施的重要演进方向，该产品把推理能力直接嵌入 SSD，对算力与数据搬运成本有实质影响。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/030/524.htm">IT之家 · 智能时代</source>
 <category>存储计算</category>
 <category>企业级 SSD</category>
@@ -263,15 +272,6 @@
 <category>谷歌</category>
 <category>Gemini</category>
 <category>Google Home</category>
-</item>
-<item><title>SEC 调查英伟达会计问题 股价较 10 月高点腰斩</title><link>https://www.ithome.com/1/030/514.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/514.htm</guid>
-<pubDate>Sun, 22 Nov 2026 07:07:13 +0800</pubDate>
-<description>&lt;p&gt;路透社援引知情人士称，美国证券交易委员会执法部门正审查英伟达可能存在的会计问题，SEC 与英伟达均拒绝置评。消息叠加此前《华尔街日报》报道，令投资者担忧加剧，英伟达股价当日跌超 14% 至 125.5 美元，较 10 月高点 243.4 美元回落逾 48%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;监管调查直指 AI 算力龙头财务合规，叠加股价腰斩，是影响整个 AI 产业链情绪的关键产业事件。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/030/514.htm">IT之家 · IT业界</source>
-<category>英伟达</category>
-<category>SEC 调查</category>
-<category>股价</category>
-<category>AI 算力</category>
 </item>
 </channel>
 </rss>
