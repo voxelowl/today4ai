@@ -3,6 +3,14 @@
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
 <language>en</language><lastBuildDate>Mon, 23 Nov 2026 20:11:11 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
+<item><title>智谱发布 GLM-5.4 循环 Transformer 架构落地</title><link>https://todayforai.com/en/story/story-d2145516-db8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d2145516-db8</guid>
+<pubDate>Mon, 23 Nov 2026 18:06:43 +0800</pubDate>
+<description>&lt;p&gt;智谱正式发布旗舰模型 GLM-5.4，这是其首个基于循环 Transformer（Loop Transformer）架构的大模型。该架构通过多次迭代复用同一组共享权重层来加深推理，在不增加参数量的前提下，使模型智能水平对标 2T-3T 参数级模型，验证了计算深度扩展路线的可行性。
+
+综合多源信息，GLM-5.4 主打“泛编程”能力，将代码能力外推至视频生成、完整游戏构建、3D 建模等场景，并新增视觉理解能力，模型列表标注 1M 上下文。即日起向 GLM Coding Plan 全量用户开放，V2、V3 及团队版用户额度提升至 1.5 倍，按周计额用户可用量较 GLM-5.3 提升 50%。官方计划在安全评估后开放 API，并负责任地开源权重。不过，模型存在陷入超长“马拉松式思考”循环的局限，但延长反思与自我纠正通常能带来精度提升。
+
+GLM-5.4 的发布标志着循环 Transformer 架构首次在旗舰模型中落地，为行业提供了不依赖参数膨胀的推理增强新路径。其泛编程定位与视觉能力扩展，有望推动 AI 编程助手向更广泛的创作场景渗透，同时开源计划可能加速该架构的社区探索与生态构建。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Hacker News AI, 智谱 AI 研究, 宝玉 (@dotey)&lt;/p&gt;</description>
+</item>
 <item><title>蚂蚁开源 560B 医疗大模型 124B 多模态版笔记本可跑</title><link>https://todayforai.com/en/story/story-c5def680-01d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c5def680-01d</guid>
 <pubDate>Mon, 23 Nov 2026 15:42:01 +0800</pubDate>
 <description>&lt;p&gt;蚂蚁集团在阿福医疗健康生态大会上宣布全面开源百灵医疗健康大模型家族，核心包括 560B 总参数、25B 激活的 LingSante-3.1-flash 和 124B 总参数、仅 5.5B 激活的多模态模型 LingSante-3.1-air-VL。前者支持 100 万 Token 上下文，后者可在单台笔记本本地部署，两款模型均采用 MIT 许可在 Hugging Face 放出权重，标志着医疗 AI 从闭源问答走向开源管家式服务。
@@ -19,14 +27,6 @@
 
 若最终成立，这将是 AI 辅助数学与形式化验证领域的里程碑事件。黎曼猜想自 1859 年悬置至今，其证明将支撑数百个依赖它的数学结论。该成果的真正价值可能在于催生解释素数分布结构的新数学理论，而非猜想本身。同时，事件也把“AI 成果如何被可信验证”的争议推到台前，形式化验证或成为 AI 数学成果的可信背书。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;Latent Space, IT之家 · IT业界, The Decoder, TechCrunch AI, Artificial Analysis (@ArtificialAnlys), 宝玉 (@dotey)&lt;/p&gt;</description>
 </item>
-<item><title>智谱发布 GLM-5.4 循环 Transformer 架构落地</title><link>https://todayforai.com/en/story/story-d2145516-db8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d2145516-db8</guid>
-<pubDate>Mon, 23 Nov 2026 18:06:43 +0800</pubDate>
-<description>&lt;p&gt;智谱正式发布旗舰模型 GLM-5.4，这是其首个基于循环 Transformer 架构的大模型。该架构通过多次迭代复用同一组共享层来加深推理，在不增加参数量的前提下，使模型智能水平对标 2T-3T 参数级模型，验证了计算深度扩展路线的可行性。
-
-GLM-5.4 已上线 Coding Plan，新增视觉理解能力并强化泛 Coding 表现，模型列表标注 1M 上下文。官方称过去三个月同时激进扩展 Scaling Loop 与模型规模，Loop Transformer 是主要技术亮点。V2、V3 及团队版用户额度提升至 1.5 倍，将模型名设为 glm-5.4 即可调用。不过，该模型存在陷入超长“马拉松式思考”循环的局限，但延长反思与自我纠正常带来精度提升。
-
-此次发布标志着智谱在架构创新上迈出关键一步，循环 Transformer 为行业提供了不依赖参数膨胀的提升推理深度新路径。同时，新增视觉与 1M 上下文能力，以及 Coding Plan 额度提升，将直接增强开发者生态的吸引力，对编程辅助与多模态应用赛道形成冲击。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, 宝玉 (@dotey), IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
 <item><title>OpenAI 首席科学家提议以困惑度统一衡量模型安全</title><link>https://todayforai.com/en/story/story-24028721-a3a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-24028721-a3a</guid>
 <pubDate>Mon, 23 Nov 2026 06:50:46 +0800</pubDate>
 <description>&lt;p&gt;OpenAI 首席科学家 Jakub Pachocki 近日撰文提出，将困惑度（交叉熵损失）确立为跨模型开发者可比的统一指标，并以此为基础设定行业共同的安全开发门槛。他首次披露了 OpenAI 自身的预训练进展数据：GPT-3.5 的对数困惑度约为 0.99，GPT-4 约为 0.91，并指出当该数值低于 0.8 时，模型在网络安全与数学领域会展现出新能力，0.76 左右则可能在开放数学问题上取得突破。Pachocki 预计 2027 年前后预训练将迎来新一轮快速进展，而对齐与行为监控能力或难以同步，因此提议在监控能力达到既定里程碑之前，企业不应突破约定的开发上限。
@@ -34,6 +34,10 @@ GLM-5.4 已上线 Coding Plan，新增视觉理解能力并强化泛 Coding 表�
 该提议与 Anthropic CEO Dario Amodei 的“节奏化前沿”计划形成呼应，后者同样主张就安全标准与进展速率限制达成行业共识。OpenAI 首席执行官奥尔特曼公开支持这一提议，称其是公司近期最重要的内容之一。与此同时，美国国会的 AI 监管讨论正在升温，困惑度这一原本用于训练评估的指标，有望升级为行业治理的量化锚点。
 
 若被广泛采纳，这将是 AI 行业首次以可跨企业追踪的量化指标来协调开发节奏与安全投入，标志着从各自为政的“自愿承诺”向可验证的“共同门槛”迈出关键一步。对开发者而言，这意味着未来模型能力的提升将更紧密地与安全监控能力挂钩，行业竞争维度也可能从单纯追求更低困惑度，转向在安全约束下实现可控进展。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Hacker News AI, TechCrunch AI, OpenAI 官方博客&lt;/p&gt;</description>
+</item>
+<item><title>Meta 首席 AI 官 Alexandr Wang 发文称超级智能正在到来</title><link>https://todayforai.com/en/story/story-b11cfec5-780</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b11cfec5-780</guid>
+<pubDate>Mon, 23 Nov 2026 17:30:00 +0800</pubDate>
+<description>&lt;p&gt;Meta 首席 AI 官 Alexandr Wang 发表长文《Superintelligence is Arriving》，认为 AI 的瓶颈已从智力转向各行业专门知识与实验条件，并以 AIME 满分和黎曼猜想为标志性节点。他同时明确反对把社会交给超级智能，主张行业改走一条让所有人获得更多自主权的路线，但未给出具体方案。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), 机器之心 (微信公众号)&lt;/p&gt;</description>
 </item>
 <item><title>OpenRouter 下架 3 家推理供应商并移除 125 个端点</title><link>https://todayforai.com/en/story/story-e2a11f6e-42a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e2a11f6e-42a</guid>
 <pubDate>Sun, 22 Nov 2026 20:07:56 +0800</pubDate>
@@ -70,14 +74,6 @@ Anthropic 作为首家上市的前沿大模型公司，其首日破发为 AI 行
 <item><title>Qwen3.5 27B 自主改写权重 数学准确率提升 6.6 个百分点</title><link>https://todayforai.com/en/story/story-9700b1e7-d76</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9700b1e7-d76</guid>
 <pubDate>Mon, 23 Nov 2026 16:02:19 +0800</pubDate>
 <description>&lt;p&gt;UIUC、CMU、普林斯顿等机构的研究者让 Qwen3.5 27B 在单块 GPU 上不经重新训练、不借助梯度，直接写 Python 代码修改自身权重，把未见过数学题的准确率从 57.2% 提升到 63.8%，未答完率从 33.6% 降到 26.1%。模型还通过逐层排查异常矩阵，修复了被随机噪声破坏的副本，数学能力恢复到 33.0%，六项视觉测试从 7.3% 回升到 70.2%。作者强调这还不是递归自我进化：8 轮实验每轮都从原版模型重新开始，且仅在 Qwen3.5 家族与数学任务上验证，论文尚未经同行评审。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey)&lt;/p&gt;</description>
-</item>
-<item><title>亚马逊拟 75 亿美元收购 Decart 强化自研芯片</title><link>https://todayforai.com/en/story/story-a9b413fa-7c8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a9b413fa-7c8</guid>
-<pubDate>Mon, 23 Nov 2026 11:35:46 +0800</pubDate>
-<description>&lt;p&gt;亚马逊正接近以约 75 亿美元收购以色列 AI 初创公司 Decart，报价接近后者上一轮 40 亿美元估值的两倍。交易最早可能本周初敲定，但仍存破裂风险。Decart 的核心价值在于其跨硬件 AI 堆栈优化能力，尤其是让实时视频模型在亚马逊自研 Trainium3 芯片上比 GPU 快 4 倍、成本减半。
-
-Decart 是 AWS Trainium3 自研 ASIC 的早期使用者，具备自研芯片优化实战经验，同时也在研发世界模型。此前 Anthropic 也曾表达收购兴趣，凸显 Decart 的技术稀缺性。多方信源一致指出，此次收购将强化亚马逊在自研算力生态上的软硬协同，减少对英伟达 GPU 的依赖。
-
-若交易达成，这将是亚马逊在 AI 芯片领域最大手笔的收购之一，直接挑战英伟达在 AI 算力市场的主导地位。通过整合 Decart 的优化能力，亚马逊有望提升 Trainium 芯片的竞争力，吸引更多云客户，并推动自研芯片在生成式 AI 推理场景中的规模化应用。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
