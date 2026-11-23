@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Mon, 23 Nov 2026 06:50:46 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 23 Nov 2026 07:24:31 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
-<item><title>Anthropic 数学家与 Claude 宣称证明黎曼猜想</title><link>https://todayforai.com/en/story/story-b91caf62-12d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b91caf62-12d</guid>
-<pubDate>Sun, 22 Nov 2026 19:08:31 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 数学家 Levent Alpöge 于 2026 年 11 月 20 日宣布，与 Claude 合作完成了黎曼猜想的证明，并进一步声称覆盖广义黎曼猜想。证明以约 1700 万行 Lean 形式化代码提交，而非传统论文，便于机器验证。这是 AI 首次深度参与数学界悬置 160 余年的顶级难题，若最终成立，将成为 AI 辅助数学与形式化验证交叉领域的里程碑。
+<item><title>Anthropic 数学家与 Claude 宣称证明黎曼猜想 1700 万行 Lean 代码通过机器核验</title><link>https://todayforai.com/en/story/story-b91caf62-12d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b91caf62-12d</guid>
+<pubDate>Mon, 23 Nov 2026 07:24:31 +0800</pubDate>
+<description>&lt;p&gt;2026 年 11 月 20 日，Anthropic 数学家 Levent Alpöge 宣布与 Claude 合作，给出了黎曼猜想的证明，并以约 1700 万行 Lean 形式化代码提交。Lean FRO 与 Mathlib 社区联合核验后确认：陈述正确、代码可编译、证明与 Mathlib 陈述一致、证明有效。核验动用了 Lean 官方内核及多个第三方独立检查器，并借助相对集合论的形式化证明排除了检查器本身接受错误证明的可能。数十名独立验证者复现编译通过，结果一致。
 
-Lean 与 Mathlib 社区联合核验了该证明，确认其通过四项标准：陈述正确、代码可编译、证明与 Mathlib 陈述一致、证明有效。核验动用了 Lean 官方内核、con-leche、con-ron 及多个第三方独立检查器，并借助相对集合论的形式化证明排除了检查器本身接受错误证明的可能。数十名独立验证者运行代码得到一致结果。菲尔兹奖得主 James Maynard 表示相信证明正确，但强调数学界全面认可的前提是有人真正理解并能向外解释其思想框架。同日，斯坦福研究者 Alessandro Masullo 发布了一份完全由人类完成的独立竞争性证明稿，但数小时内即被 AI 查出问题，形成鲜明对照。
+该证明直接依赖 Mathlib，检查在惰性导出文件上运行以规避源码潜在恶意代码影响。据 Alpöge 透露，Claude 提出了关键的连续 Theta Lifts 思路与核心参数，并在收尾阶段大幅领先人类。同日，斯坦福研究者 Alessandro Masullo 发布了一份耗时 12 年、940 页的纯人类黎曼猜想证明草稿，但公开 8 小时后即有研究者借助 AI 报告问题，形成机器验证与人工审读的鲜明对照。
 
-该事件凸显了 AI 在顶级数学研究中的实际参与度，也把“AI 成果如何被可信验证”的争议推到台前。形式化验证成为 AI 数学成果的可信背书，但证明的真正价值可能在于催生解释素数分布结构的新数学理论，而非猜想本身。若证明成立，将支撑数百个依赖黎曼猜想的数学结论，并标志 AI for Math 进入新阶段。&lt;/p&gt;&lt;p&gt;8 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, TechCrunch AI, 宝玉 (@dotey), Latent Space, Hacker News AI, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
+菲尔兹奖得主 James Maynard 表示相信证明正确，但强调数学界全面认可的前提是有人真正理解并能向外解释其思想框架。若最终成立，这将是 AI 辅助数学与形式化验证领域的里程碑事件，不仅支撑数百个依赖黎曼猜想的数学结论，更将形式化验证推至千万行量级，为 AI 研究成果的可信验证机制树立新范式。&lt;/p&gt;&lt;p&gt;8 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Simon Willison 博客, Hacker News AI, 量子位官网, IT之家 · IT业界, The Decoder&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 首席科学家提议以困惑度统一衡量模型安全</title><link>https://todayforai.com/en/story/story-24028721-a3a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-24028721-a3a</guid>
 <pubDate>Mon, 23 Nov 2026 06:50:46 +0800</pubDate>
@@ -26,14 +26,6 @@ Lean 与 Mathlib 社区联合核验了该证明，确认其通过四项标准：
 Dragos 在 2026 年 7 月至 11 月间向多家 AI 推理服务商发送约 200 万条含伪造凭证的测试请求，发现至少三家供应商已被攻击者长期入侵，用户数据与 AWS 密钥遭窃取且数月未被察觉。最大一起事件中数百个 AWS 密钥被窃，部分来自供应商已拒绝处理的请求。OpenRouter 表示将把研究人员的测试方法纳入常态化安全检查，但部分涉事供应商尚未公开披露事件。
 
 事件凸显 AI 供应链中转售与路由中间商、模型市场的风险。OpenRouter 的快速下架与端点清理为行业树立了合规执法样本，可能推动推理服务商加强安全审计与透明度，并促使开发者更谨慎选择上游供应商。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter), Hacker News AI, The Decoder&lt;/p&gt;</description>
-</item>
-<item><title>Thinking Machines 开源 26B 循环模型 Inkling 2 Mini</title><link>https://todayforai.com/en/story/story-e7a42b22-638</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e7a42b22-638</guid>
-<pubDate>Sat, 21 Nov 2026 20:19:28 +0800</pubDate>
-<description>&lt;p&gt;Thinking Machines Lab 以 Apache 2.0 许可开源了多模态混合专家模型 Inkling 2 Mini，总参数 26B，采用循环 Transformer 架构，中间 12 层共享权重重复执行三次，单 token 等效经过 48 层计算，从而在不增加输出 token 的情况下延长内部推理。模型支持文本与图像输入及 100 万 token 上下文，检查点仅约 20GB，可在 32GB Mac 或 DGX Spark 上本地运行。
-
-各信源在架构细节上高度一致：循环层每轮保留独立 KV 缓存并读取上一轮门控消息，激活参数约 3.4B 至 5.4B（不同统计口径），每 token 仅使用约 3.1B 唯一权重。性能方面，其在 100B 以下开源模型中智能体编程测试领先，DeepSWE v1.1 得分 48.2%，SWE-bench Verified 达 79.2%，AA Index 得分 20.1，与 Qwen3.8 27B 持平但激活参数少 5 至 6 倍，推理成本约为其六分之一。不过，模型在知识召回上存在明显取舍，非幻觉率仅 63.4%。vLLM 在 Blackwell、Hopper 与 DGX Spark 上实现发布当日支持，并内置 DSpark 推测解码加速。
-
-Inkling 2 Mini 的发布标志着循环架构在开源模型中的一次重要落地，以极低的激活参数实现了与更大模型相当的智能水平，大幅降低了本地部署门槛。其突出的智能体编程能力与长上下文支持，为个人设备上的长程任务自动化提供了新可能，有望推动本地优先的 AI 应用生态发展。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost), Arena.ai (@arena), The Decoder, Artificial Analysis (@ArtificialAnlys), vLLM 官方博客, Hacker News AI&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 发布 GPT-6.2 双模型 成本仅为对手 5%</title><link>https://todayforai.com/en/story/story-38dbfe49-f31</link><guid isPermaLink="true">https://todayforai.com/en/story/story-38dbfe49-f31</guid>
 <pubDate>Sun, 22 Nov 2026 01:20:44 +0800</pubDate>
@@ -58,6 +50,14 @@ Inkling 2 Mini 的发布标志着循环架构在开源模型中的一次重要�
 Muru 延续了 Dumpleton 在 wrapture 项目中采用的公开开发日志模式，三周内发布了十余篇深度技术文章，详细解析了 worker 模型、import once fork many 预加载机制等核心架构设计。这些文档不仅记录了实现细节，也展示了 AI 辅助编程在复杂系统开发中的实际应用方式。
 
 Muru 的出现可能对 Python 应用服务器生态带来新的选择，尤其是对需要同时支持 ASGI 和 WSGI 的部署场景。Rust 带来的性能优势与 AI 辅助的开发效率，或将为传统服务器项目提供一条新的演进路径。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Simon Willison 博客, Hacker News AI&lt;/p&gt;</description>
+</item>
+<item><title>Thinking Machines 开源 26B 循环模型 Inkling 2 Mini</title><link>https://todayforai.com/en/story/story-e7a42b22-638</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e7a42b22-638</guid>
+<pubDate>Sat, 21 Nov 2026 20:19:28 +0800</pubDate>
+<description>&lt;p&gt;Thinking Machines Lab 以 Apache 2.0 许可开源了多模态混合专家模型 Inkling 2 Mini，总参数 26B，采用循环 Transformer 架构，中间 12 层共享权重重复执行三次，单 token 等效经过 48 层计算，从而在不增加输出 token 的情况下延长内部推理。模型支持文本与图像输入及 100 万 token 上下文，检查点仅约 20GB，可在 32GB Mac 或 DGX Spark 上本地运行。
+
+各信源在架构细节上高度一致：循环层每轮保留独立 KV 缓存并读取上一轮门控消息，激活参数约 3.4B 至 5.4B（不同统计口径），每 token 仅使用约 3.1B 唯一权重。性能方面，其在 100B 以下开源模型中智能体编程测试领先，DeepSWE v1.1 得分 48.2%，SWE-bench Verified 达 79.2%，AA Index 得分 20.1，与 Qwen3.8 27B 持平但激活参数少 5 至 6 倍，推理成本约为其六分之一。不过，模型在知识召回上存在明显取舍，非幻觉率仅 63.4%。vLLM 在 Blackwell、Hopper 与 DGX Spark 上实现发布当日支持，并内置 DSpark 推测解码加速。
+
+Inkling 2 Mini 的发布标志着循环架构在开源模型中的一次重要落地，以极低的激活参数实现了与更大模型相当的智能水平，大幅降低了本地部署门槛。其突出的智能体编程能力与长上下文支持，为个人设备上的长程任务自动化提供了新可能，有望推动本地优先的 AI 应用生态发展。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost), Arena.ai (@arena), The Decoder, Artificial Analysis (@ArtificialAnlys), vLLM 官方博客, Hacker News AI&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 登陆纳斯达克 募资 935 亿美元刷新纪录</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
 <pubDate>Mon, 23 Nov 2026 04:47:59 +0800</pubDate>
