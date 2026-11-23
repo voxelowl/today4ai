@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Mon, 23 Nov 2026 09:25:30 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 23 Nov 2026 11:35:46 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 数学家与 Claude 宣称证明黎曼猜想 1700 万行 Lean 代码通过机器核验</title><link>https://todayforai.com/en/story/story-b91caf62-12d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b91caf62-12d</guid>
 <pubDate>Mon, 23 Nov 2026 07:24:31 +0800</pubDate>
@@ -34,6 +34,14 @@ Dragos 在 2026 年 7 月至 11 月间向多家 AI 推理服务商发送约 200 
 尽管超额认购达 6 倍，市场对 Anthropic 的估值分歧显著。招股书显示，其年化收入从 9 月的 710 亿美元增至 10 月底的 810 亿美元，但募资额仅相当于其 9010 亿美元算力承诺的 10.5%。公司计划投入 9000 亿美元建设算力基础设施，包括与 SpaceX 每月最高 31 亿美元的数据中心协议。CEO Dario Amodei 表示上市核心目的是囤积现金以支撑算力扩张，而非追求估值最大化。
 
 Anthropic 作为首家上市的前沿大模型公司，其首日破发为 AI 行业资本化敲响警钟。市场对万亿估值与巨额算力支出的匹配度存疑，投资者担忧其盈利路径与现金流压力。此次 IPO 将成为 AI 行业估值与商业化能力的关键定价锚点，后续表现将影响其他 AI 实验室的上市节奏与融资环境。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Anthropic AI (@AnthropicAI), The Decoder, Rohan Paul (@rohanpaul_ai), IT之家 · IT业界, Simon Willison 博客, 宝玉 (@dotey)&lt;/p&gt;</description>
+</item>
+<item><title>亚马逊拟 75 亿美元收购 Decart 强化自研芯片</title><link>https://todayforai.com/en/story/story-a9b413fa-7c8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a9b413fa-7c8</guid>
+<pubDate>Mon, 23 Nov 2026 11:35:46 +0800</pubDate>
+<description>&lt;p&gt;亚马逊正接近以约 75 亿美元收购以色列 AI 初创公司 Decart，报价接近后者上一轮 40 亿美元估值的两倍。交易最早可能本周初敲定，但仍存破裂风险。Decart 的核心价值在于其跨硬件 AI 堆栈优化能力，尤其是让实时视频模型在亚马逊自研 Trainium3 芯片上比 GPU 快 4 倍、成本减半。
+
+Decart 是 AWS Trainium3 自研 ASIC 的早期使用者，具备自研芯片优化实战经验，同时也在研发世界模型。此前 Anthropic 也曾表达收购兴趣，凸显 Decart 的技术稀缺性。多方信源一致指出，此次收购将强化亚马逊在自研算力生态上的软硬协同，减少对英伟达 GPU 的依赖。
+
+若交易达成，这将是亚马逊在 AI 芯片领域最大手笔的收购之一，直接挑战英伟达在 AI 算力市场的主导地位。通过整合 Decart 的优化能力，亚马逊有望提升 Trainium 芯片的竞争力，吸引更多云客户，并推动自研芯片在生成式 AI 推理场景中的规模化应用。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 发布 GPT-6.2 双模型 成本仅为对手 5%</title><link>https://todayforai.com/en/story/story-38dbfe49-f31</link><guid isPermaLink="true">https://todayforai.com/en/story/story-38dbfe49-f31</guid>
 <pubDate>Sun, 22 Nov 2026 01:20:44 +0800</pubDate>
@@ -70,10 +78,6 @@ Inkling 2 Mini 的发布标志着循环架构在开源模型中的一次重要�
 <item><title>英伟达发布 2B 推理 VLA 模型 Alpamayo 2 Edge</title><link>https://todayforai.com/en/story/story-3e94a140-d23</link><guid isPermaLink="true">https://todayforai.com/en/story/story-3e94a140-d23</guid>
 <pubDate>Mon, 23 Nov 2026 02:54:11 +0800</pubDate>
 <description>&lt;p&gt;英伟达发布 2B 参数推理型视觉语言动作模型 Alpamayo 2 Edge，运行于 DRIVE AGX Thor 车端平台，核心创新是自适应推理：常规驾驶仅输出 &amp;lt;NOMINAL&amp;gt; 标记，仅在复杂场景生成因果链解释，以节省车载算力。官方 AlpaSim 测试中责任事故间隔达 15.15 km，约为 4B Qwen-Drive-1.0 的 60 倍，开环 minADE 0.53 m，FP8 TensorRT 下像素到轨迹规划耗时 160-190 ms；但 LingoQA 得分 75.2，落后于自家 Super 版本与 Qwen-Drive-1.0 SFT。权重以 OpenMDW-1.1、代码以 Apache 2.0 在 Hugging Face 开放。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost)&lt;/p&gt;</description>
-</item>
-<item><title>Anthropic 2028 年电力 87% 来自天然气</title><link>https://todayforai.com/en/story/story-4d18b27f-9fd</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4d18b27f-9fd</guid>
-<pubDate>Sun, 22 Nov 2026 16:57:34 +0800</pubDate>
-<description>&lt;p&gt;分析显示，Anthropic 为支撑其 AI 算力扩张，正大规模自建与锁定化石能源发电，预计到 2028 年其电力结构中约 87% 来自天然气、11% 来自煤炭，可再生能源占比极低。这一案例折射出 AI 数据中心“自带电源”（BYOP）与电网新增化石产能合计约 377 GW 的行业趋势，凸显 AI 算力扩张与清洁能源目标之间的结构性矛盾。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Hacker News AI&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
