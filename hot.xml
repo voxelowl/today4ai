@@ -3,6 +3,14 @@
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
 <language>en</language><lastBuildDate>Mon, 23 Nov 2026 20:11:11 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
+<item><title>蚂蚁开源 560B 医疗大模型 124B 多模态版笔记本可跑</title><link>https://todayforai.com/en/story/story-c5def680-01d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c5def680-01d</guid>
+<pubDate>Mon, 23 Nov 2026 15:42:01 +0800</pubDate>
+<description>&lt;p&gt;蚂蚁集团在阿福医疗健康生态大会上宣布全面开源百灵医疗健康大模型家族，核心包括 560B 总参数、25B 激活的 LingSante-3.1-flash 和 124B 总参数、仅 5.5B 激活的多模态模型 LingSante-3.1-air-VL。前者支持 100 万 Token 上下文，后者可在单台笔记本本地部署，两款模型均采用 MIT 许可在 Hugging Face 放出权重，标志着医疗 AI 从闭源问答走向开源管家式服务。
+
+技术细节上，LingSante-3.1-flash 从预训练阶段即混合医疗与通用数据，将医疗推理、工具调用、检索与临床行为作为独立技能分别用强化学习奖励训练，再通过多教师同策略蒸馏合并为单一模型。官方评测显示其在 HealthBench Professional、HLE、BrowseComp 与 EHR-Complex 上超过 GPT-6 Astra、Claude Opus 5.5 和 Gemini 4 Argon。LingSante-3.1-air-VL 则融合医学影像理解、报告生成、医学推理与多模态检索，在 AFUMED-Derm、AFUMED-Report、MIMIC-CXR 与医学 VQA 四项基准上领先 GPT-6.1 Sol 与 Gemini 3.8 Flash，其强化学习奖励按临床意义、异常定位、误报与漏诊打分，而非模仿报告文风。
+
+同步推出的还有覆盖 150 余项疾病六年风险预测的 Pulse 模型和安全防护模型 MedGuard，形成覆盖大语言、实时音视频、预测与安全防护的四类模型矩阵。蚂蚁提出“模型要像医生一样思考”的训练与评测…&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), AntLing (@AntLingAGI), 量子位官网, IT之家 · 智能时代&lt;/p&gt;</description>
+</item>
 <item><title>Anthropic 数学家与 Claude 宣称证明黎曼猜想 1700 万行 Lean 代码通过机器核验</title><link>https://todayforai.com/en/story/story-b91caf62-12d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b91caf62-12d</guid>
 <pubDate>Mon, 23 Nov 2026 13:00:49 +0800</pubDate>
 <description>&lt;p&gt;2026 年 11 月 20 日，Anthropic 数学家 Levent Alpöge 宣布与 Claude 合作完成黎曼猜想的证明，并以约 1700 万行 Lean 代码形式提交。Lean 与 Mathlib 社区随后联合认证，该证明通过四项核验：陈述正确、代码可编译、与 Mathlib 陈述一致、证明有效。这是 AI 首次深度参与攻克数学界悬置 167 年的顶级难题，也是形式化验证首次被推到千万行规模。
@@ -26,14 +34,6 @@ GLM-5.4 已上线 Coding Plan，新增视觉理解能力并强化泛 Coding 表�
 该提议与 Anthropic CEO Dario Amodei 的“节奏化前沿”计划形成呼应，后者同样主张就安全标准与进展速率限制达成行业共识。OpenAI 首席执行官奥尔特曼公开支持这一提议，称其是公司近期最重要的内容之一。与此同时，美国国会的 AI 监管讨论正在升温，困惑度这一原本用于训练评估的指标，有望升级为行业治理的量化锚点。
 
 若被广泛采纳，这将是 AI 行业首次以可跨企业追踪的量化指标来协调开发节奏与安全投入，标志着从各自为政的“自愿承诺”向可验证的“共同门槛”迈出关键一步。对开发者而言，这意味着未来模型能力的提升将更紧密地与安全监控能力挂钩，行业竞争维度也可能从单纯追求更低困惑度，转向在安全约束下实现可控进展。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Hacker News AI, TechCrunch AI, OpenAI 官方博客&lt;/p&gt;</description>
-</item>
-<item><title>蚂蚁开源 560B 医疗大模型 笔记本可跑 124B 多模态版</title><link>https://todayforai.com/en/story/story-c5def680-01d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c5def680-01d</guid>
-<pubDate>Mon, 23 Nov 2026 15:42:01 +0800</pubDate>
-<description>&lt;p&gt;蚂蚁集团在阿福医疗健康生态大会上一次性发布五款医疗 AI 模型，并宣布其中两款核心模型当天开源。旗舰模型 LingSante-3.1-flash 总参数 560B、每 token 激活 25B，支持 100 万 Token 上下文与多轮证据检索；多模态模型 LingSante-3.1-air-VL 总参数 124B、仅激活 5.5B，可在笔记本等本地设备部署。两款模型均采用 MIT 许可，权重已在 Hugging Face 放出。
-
-技术细节上，LingSante-3.1-flash 从预训练阶段即混合医疗与通用数据，将医疗推理、工具调用、检索与临床行为作为独立技能分别用强化学习奖励训练，再通过多教师同策略蒸馏合并为单一模型。官方评测称其在 HealthBench Professional、HLE、BrowseComp 与 EHR-Complex 上超过 GPT-6 Astra、Claude Opus 5.5 和 Gemini 4 Argon。LingSante-3.1-air-VL 的强化学习奖励按临床意义、异常定位、误报与漏诊打分，而非模仿报告文风，在 AFUMED-Derm、AFUMED-Report、MIMIC-CXR 与医学 VQA 上领先 GPT-6.1 Sol、Claude Opus 5.5 与 Gemini 3.8 Flash。配套还推出覆盖 150 余项疾病六年风险预测的 Pulse 模型与安全防护模型 MedGuard。
-
-此次开源标志着医疗 AI 从通用问答走向专业化、私有化部署的新阶段。560B 模型提供顶尖医疗推理能力，124B 多模态模型则大幅降低本…&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), 量子位官网, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 <item><title>OpenRouter 下架 3 家推理供应商并移除 125 个端点</title><link>https://todayforai.com/en/story/story-e2a11f6e-42a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e2a11f6e-42a</guid>
 <pubDate>Sun, 22 Nov 2026 20:07:56 +0800</pubDate>
