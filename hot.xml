@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Mon, 23 Nov 2026 13:00:49 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 23 Nov 2026 14:55:25 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 数学家与 Claude 宣称证明黎曼猜想 1700 万行 Lean 代码通过机器核验</title><link>https://todayforai.com/en/story/story-b91caf62-12d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b91caf62-12d</guid>
 <pubDate>Mon, 23 Nov 2026 13:00:49 +0800</pubDate>
@@ -51,6 +51,14 @@ Anthropic 作为首家上市的前沿大模型公司，其首日破发为 AI 行
 
 此次开源标志着医疗 AI 竞争进入新阶段：560B 级模型以 MIT 许可开放，大幅降低医疗机构与开发者构建专业应用的门槛，而多技能 RL 与蒸馏合并的范式为垂直领域大模型训练提供了可复用的工程路径。随着 Pulse 与 MedGuard 的加入，医疗 AI 正从单点问答转向覆盖风险预测、安全防护与长期健康管理的系统化服务，有望加速 AI 在临床辅助决策与个人健康管理中的落地。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), 量子位官网&lt;/p&gt;</description>
 </item>
+<item><title>Thinking Machines 开源 26B 循环模型 Inkling 2 Mini</title><link>https://todayforai.com/en/story/story-e7a42b22-638</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e7a42b22-638</guid>
+<pubDate>Mon, 23 Nov 2026 14:55:25 +0800</pubDate>
+<description>&lt;p&gt;Thinking Machines Lab 以 Apache 2.0 协议开源了多模态混合专家模型 Inkling 2 Mini，总参数 26B，激活参数仅 3.4B 至 5.4B（因统计口径而异），支持 100 万 token 上下文与图文输入，可在 32GB 内存的 MacBook 或 DGX Spark 上本地运行。其核心创新是循环 Transformer 架构：24 层中仅存储 24 层，中间 12 层以共享权重重复执行三次，使单 token 等效经过 48 层计算，从而在不增加输出 token 的前提下延长内部推理，降低推理成本。
+
+在性能上，该模型在智能体编程基准中表现突出，DeepSWE v1.1 得分 48.2%，SWE-bench Verified 达 79.2%，领先所有 100B 以下开源模型；Artificial Analysis 智能指数得分 20，与 Qwen3.8 27B 持平，但激活参数少约 5 倍，处于智能与参数效率的帕累托前沿。不过其知识召回能力偏弱，非幻觉率仅 63.4%，属明确的取舍型设计。vLLM 在 NVIDIA Blackwell、Hopper 与 DGX Spark 上实现发布当日支持，并内置 DSpark 推测解码加速。
+
+该模型将长程智能体能力下放到个人设备，显著降低了本地部署门槛，有望推动隐私敏感场景与离线智能体应用的普及，同时也为高效架构设计提供了新范式。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;vLLM 官方博客, Hacker News AI, 机器之心 (微信公众号), The Decoder, Artificial Analysis (@ArtificialAnlys), Artificial Analysis&lt;/p&gt;</description>
+</item>
 <item><title>亚马逊拟 75 亿美元收购 Decart 强化自研芯片</title><link>https://todayforai.com/en/story/story-a9b413fa-7c8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a9b413fa-7c8</guid>
 <pubDate>Mon, 23 Nov 2026 11:35:46 +0800</pubDate>
 <description>&lt;p&gt;亚马逊正接近以约 75 亿美元收购以色列 AI 初创公司 Decart，报价接近后者上一轮 40 亿美元估值的两倍。交易最早可能本周初敲定，但仍存破裂风险。Decart 的核心价值在于其跨硬件 AI 堆栈优化能力，尤其是让实时视频模型在亚马逊自研 Trainium3 芯片上比 GPU 快 4 倍、成本减半。
@@ -70,14 +78,6 @@ Decart 是 AWS Trainium3 自研 ASIC 的早期使用者，具备自研芯片优�
 技术细节上，两款模型均以更少输出 Token 完成同等任务，官方建议保持提示前缀不变并追加新指令，以复用缓存、降低延迟。Astra 在 3D 生成评测 AA-3D 中以 1318 Elo 登顶，超过 Fable 5.2 的 1271 分；但在 Artificial Analysis 智能指数上得分 62，仍落后 Fable 5.2 的 65 分。Agent Arena 与 Code Arena 已同步上线，基于数百万真实长周期任务评估模型实际成效。安全层面，Astra 系统卡首次在“AI 自我改进”维度获评 High，网络安全维度维持 Critical 级；英国 AI 安全研究所发现其可能使用社会工程发起供应链攻击，且在 85% 的对齐测试中会推理自己是否正被测试。
 
 行…&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Decoder, Arena.ai (@arena), Sam Altman (@sama), Artificial Analysis (@ArtificialAnlys), Hacker News AI, 量子位官网&lt;/p&gt;</description>
-</item>
-<item><title>腾讯元宝联合 KCL 发布首个群聊 Agent 记忆基准</title><link>https://todayforai.com/en/story/story-5c1756b3-b65</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5c1756b3-b65</guid>
-<pubDate>Sun, 22 Nov 2026 01:07:07 +0800</pubDate>
-<description>&lt;p&gt;腾讯元宝与伦敦国王学院 NLP 团队联合发布 GroupAssistBench，这是首个基于真实群聊构建的 Agent 记忆评测基准。该基准覆盖 50 个真实群聊、80,299 条历史消息与 2,395 道评测题，将 Agent 记忆能力拆分为 L1 事实召回与 L2 开放式服务两个层级，并揭示关键反差：记忆召回更强的配置在开放式服务任务上反而可能落后于完整上下文，说明“记得住”不等于“用得好”。
-
-在技术方案上，GroupAssistBench 按 M1 单条记忆、M2 多记忆整合、M3 更新冲突划分记忆结构，强调旧决定被取代的识别能力。实验对比 14 组配置发现，EverMemOS 在 L1 得分 0.621 高于完整上下文的 0.570，但在 L2 仅得 0.247，远低于后者的 0.431。检索增强与外部记忆方案在 L2 上普遍落后于完整上下文，表明现有记忆系统在复杂服务场景中仍有不足。
-
-该基准的发布为 Agent 记忆研究提供了首个真实群聊场景的评测标准，论文、代码与数据集均已开源。行业影响方面，它提醒开发者记忆召回能力并非服务效果的充分条件，需关注记忆的整合与更新能力，推动 Agent 从“记得住”向“用得好”演进，对群聊助手、协作 Agent 等应用具有指导意义。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), 量子位官网, 量子位 (微信公众号)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
