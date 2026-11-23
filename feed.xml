@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Tue, 24 Nov 2026 03:14:46 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 24 Nov 2026 04:00:00 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Anthropic Launches Claude Ship to Autonomously Review and Fix Pull Requests</title><link>https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests</guid>
+<pubDate>Tue, 24 Nov 2026 04:00:00 +0800</pubDate>
+<description>&lt;p&gt;Anthropic unveiled Claude Ship alongside two beta agents, PR Steward and Claude Approvals, letting Claude autonomously resolve failing CI checks, merge conflicts, and review feedback, and approve routine changes when organizational policy permits. Available to Claude Team and Enterprise customers on GitHub repositories, the launch moves Claude from a code review assistant toward a closed-loop coding agent.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Claude 推出 Ship 产品 可自主审查并修复 PR&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Claude 从被动评审走向自主修复与批准 PR，是编码智能体闭环交付的重要一步。&lt;/p&gt;&lt;p&gt;The Verge AI · agent · signal 72/100&lt;/p&gt;</description>
+<source url="https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests">The Verge AI</source>
+<category>智能体</category>
+<category>Anthropic</category>
+<category>代码评审</category>
+<category>开发者工具</category>
+</item>
 <item><title>Google AI Mode Adds Drive and Wallet for Personalized Search</title><link>https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/</guid>
 <pubDate>Tue, 24 Nov 2026 03:14:46 +0800</pubDate>
 <description>&lt;p&gt;Google is expanding Personal Intelligence in Search&amp;#x27;s AI Mode to Google Drive, Google Wallet, and the Gemini app, letting the AI ground answers in users&amp;#x27; personal data. The feature already connects to Gmail, Calendar, and Photos, and each integration is opt-in and can be toggled off anytime. It marks a key move to differentiate Search through Google&amp;#x27;s proprietary ecosystem data.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌 AI 模式接入 Drive 与 Wallet 实现个性化搜索&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;谷歌把个人数据接入搜索 AI 模式，是消费级 AI 助手个性化竞争的重要产品动作。&lt;/p&gt;&lt;p&gt;TechCrunch AI · tools · signal 58/100&lt;/p&gt;</description>
@@ -126,6 +135,16 @@
 <category>个人数据</category>
 <category>隐私授权</category>
 </item>
+<item><title>Google Uses Gemini 4 Agent Teams to Discover Faster Quantum Algorithms</title><link>https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/</link><guid isPermaLink="true">https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/</guid>
+<pubDate>Tue, 24 Nov 2026 00:59:40 +0800</pubDate>
+<description>&lt;p&gt;Google researchers used teams of Gemini 4 agents paired with Lean formal verification to automatically optimize quantum algorithm circuits, substantially cutting resource requirements for fusion energy, chemistry and enzyme simulations. The team is open-sourcing its Lean library to let the community build on and verify the results. It marks an early closed loop in which agent systems produce verifiable algorithmic discoveries in hard science.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌用 Gemini 4 智能体团队发现更快量子算法&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;智能体系统首次在量子算法优化这一硬科学领域产出可形式化验证的实质成果，并开源验证库。&lt;/p&gt;&lt;p&gt;Google DeepMind · llm · signal 88/100&lt;/p&gt;</description>
+<source url="https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/">Google DeepMind</source>
+<category>智能体</category>
+<category>量子计算</category>
+<category>形式化验证</category>
+<category>谷歌</category>
+<category>开源</category>
+</item>
 <item><title>SenseTime Open-Sources 9B Multimodal Model with Looped Architecture and 512K Context</title><link>https://x.com/rohanpaul_ai/status/2124904314024186073</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2124904314024186073</guid>
 <pubDate>Tue, 24 Nov 2026 00:34:01 +0800</pubDate>
 <description>&lt;p&gt;SenseTime released SenseNova-Loop-9B on Hugging Face, an open-weight multimodal model for complex reasoning, coding and multi-step tool use with a 512K context window. Its key innovation reuses the same 24-layer middle block twice, executing 56 layer computations per forward pass while storing weights for only 32 distinct layers, trading parameters for reasoning depth. The study shows more loops are not always better: code generation and visualization improved up to four loops while data QA and office tasks peaked at three, so the release settles on two loops to balance performance and inference cost.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;商汤开源 9B 多模态模型 循环架构支持 512K 上下文&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以循环复用层权重的架构创新实现参数效率与推理深度的解耦，并给出循环次数的实证权衡，对关注高效推理与开源多模态模型的读者价值明确。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
@@ -206,18 +225,18 @@
 <category>市值</category>
 <category>AI 算力</category>
 </item>
-<item><title>Nvidia Board Reverses Course and Reinstates Jensen Huang as CEO</title><link>https://x.com/rohanpaul_ai/status/2124875409703719174</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2124875409703719174</guid>
+<item><title>英伟达董事会推翻决定 黄仁勋复职股价大涨 31%</title><link>https://x.com/rohanpaul_ai/status/2124875409703719174</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2124875409703719174</guid>
 <pubDate>Mon, 23 Nov 2026 22:39:10 +0800</pubDate>
-<description>&lt;p&gt;Nvidia&amp;#x27;s board unanimously reversed its earlier stance and reinstated Jensen Huang as CEO, president and director, sending shares up 31% in a single session. The board said follow-up meetings resolved concerns about his candor, while senior US officials confirmed his return poses no national security risk and President Trump endorsed the move. The dramatic U-turn, coming less than a week after the chair said the board had no plans to bring him back, underscores the founder&amp;#x27;s irreplaceable role at the AI compute leader.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达董事会推翻决定 黄仁勋复职股价大涨 31%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球 AI 算力龙头最高管理层戏剧性反转，直接影响产业链与资本市场预期。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 71/100&lt;/p&gt;</description>
+<description>&lt;p&gt;英伟达董事会全票推翻此前决定，重新任命黄仁勋为 CEO、总裁兼董事，消息公布后股价单日大涨 31%。董事会称后续沟通已消除对其坦诚度的疑虑，美国高层官员亦确认其回归不构成国家安全风险，特朗普总统公开表态支持。这是继一周前董事会主席公开表示无意让其回归后的戏剧性反转，凸显创始人对这家 AI 算力龙头的不可替代性。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球 AI 算力龙头最高管理层戏剧性反转，直接影响产业链与资本市场预期。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 71/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2124875409703719174">Rohan Paul (@rohanpaul_ai)</source>
 <category>英伟达</category>
 <category>黄仁勋</category>
 <category>公司治理</category>
 <category>算力</category>
 </item>
-<item><title>Nvidia Reinstates Jensen Huang as CEO After Two-Week Absence</title><link>https://the-decoder.com/nvidia-tried-life-without-jensen-huang-and-it-lasted-about-two-weeks/</link><guid isPermaLink="true">https://the-decoder.com/nvidia-tried-life-without-jensen-huang-and-it-lasted-about-two-weeks/</guid>
+<item><title>黄仁勋回归英伟达 复职仅隔两周</title><link>https://the-decoder.com/nvidia-tried-life-without-jensen-huang-and-it-lasted-about-two-weeks/</link><guid isPermaLink="true">https://the-decoder.com/nvidia-tried-life-without-jensen-huang-and-it-lasted-about-two-weeks/</guid>
 <pubDate>Mon, 23 Nov 2026 22:24:47 +0800</pubDate>
-<description>&lt;p&gt;Nvidia&amp;#x27;s board unanimously reinstated Jensen Huang as president, CEO and director effective immediately, roughly two weeks after his resignation over an espionage scandal that erased $1.4 trillion in market value. The US Attorney General found no evidence of wrongdoing, and senior government officials concluded his return poses no national security risk, though an independent board committee continues its investigation.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;黄仁勋回归英伟达 复职仅隔两周&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球市值最高芯片公司的最高管理层在两周内戏剧性反转，直接牵动 AI 算力供应链与地缘政治风险判断。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;英伟达董事会一致决定让黄仁勋立即复任总裁、CEO 及董事，此前其因间谍丑闻辞职导致公司市值蒸发 1.4 万亿美元。美国司法部长认定其无违法行为，政府高层亦确认其回归不构成国家安全风险，但独立董事委员会仍在调查相关指控。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球市值最高芯片公司的最高管理层在两周内戏剧性反转，直接牵动 AI 算力供应链与地缘政治风险判断。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/nvidia-tried-life-without-jensen-huang-and-it-lasted-about-two-weeks/">The Decoder</source>
 <category>英伟达</category>
 <category>黄仁勋</category>
@@ -250,23 +269,6 @@
 <category>英伟达</category>
 <category>黄仁勋</category>
 <category>公司治理</category>
-<category>AI 算力</category>
-</item>
-<item><title>黄仁勋重返英伟达出任 CEO 并新设合规官</title><link>https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director</link><guid isPermaLink="true">https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director</guid>
-<pubDate>Mon, 23 Nov 2026 22:01:23 +0800</pubDate>
-<description>&lt;p&gt;英伟达董事会一致决定即刻恢复黄仁勋的总裁兼 CEO 及董事职务，此前临时 CEO 由 CFO Colette Kress 兼任。董事会称已获美国政府高层意见并确认其回归不构成国家安全风险，同时公司新设首席合规官一职以统筹合规并配合政府调查。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球市值最高芯片公司的最高管理层变动叠加政府安全审查与合规整改，对 AI 算力供应链影响重大。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 71/100&lt;/p&gt;</description>
-<source url="https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director">Hacker News AI</source>
-<category>英伟达</category>
-<category>高管变动</category>
-<category>合规监管</category>
-<category>算力</category>
-</item>
-<item><title>英伟达董事会宣布恢复黄仁勋 CEO 职务</title><link>https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html</link><guid isPermaLink="true">https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html</guid>
-<pubDate>Mon, 23 Nov 2026 22:00:18 +0800</pubDate>
-<description>&lt;p&gt;英伟达董事会一致投票决定，立即恢复黄仁勋的总裁、CEO 及董事职务。此前黄仁勋因婚外情及涉嫌中国间谍的报道于 11 月 13 日辞职，该丑闻重创公司股价并震动科技与 AI 行业。董事会称已与美国政府高层沟通后作出此决定。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球最重要 AI 算力公司的最高管理层突发变动与复职，直接影响产业走向与市场预期。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html">Hacker News AI</source>
-<category>英伟达</category>
-<category>高管变动</category>
 <category>AI 算力</category>
 </item>
 </channel>
