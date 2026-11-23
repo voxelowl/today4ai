@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Mon, 23 Nov 2026 23:22:19 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 24 Nov 2026 00:34:01 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>SenseTime Open-Sources 9B Multimodal Model with Looped Architecture and 512K Context</title><link>https://x.com/rohanpaul_ai/status/2124904314024186073</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2124904314024186073</guid>
+<pubDate>Tue, 24 Nov 2026 00:34:01 +0800</pubDate>
+<description>&lt;p&gt;SenseTime released SenseNova-Loop-9B on Hugging Face, an open-weight multimodal model for complex reasoning, coding and multi-step tool use with a 512K context window. Its key innovation reuses the same 24-layer middle block twice, executing 56 layer computations per forward pass while storing weights for only 32 distinct layers, trading parameters for reasoning depth. The study shows more loops are not always better: code generation and visualization improved up to four loops while data QA and office tasks peaked at three, so the release settles on two loops to balance performance and inference cost.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;商汤开源 9B 多模态模型 循环架构支持 512K 上下文&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以循环复用层权重的架构创新实现参数效率与推理深度的解耦，并给出循环次数的实证权衡，对关注高效推理与开源多模态模型的读者价值明确。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2124904314024186073">Rohan Paul (@rohanpaul_ai)</source>
+<category>开源模型</category>
+<category>多模态</category>
+<category>商汤</category>
+<category>模型架构</category>
+<category>推理效率</category>
+</item>
+<item><title>Meta&#x27;s Muse Ember Tops Agent Arena Index at $0.02 per Task</title><link>https://x.com/arena/status/2124901393488048410</link><guid isPermaLink="true">https://x.com/arena/status/2124901393488048410</guid>
+<pubDate>Tue, 24 Nov 2026 00:22:25 +0800</pubDate>
+<description>&lt;p&gt;Meta&amp;#x27;s Muse Ember (Max) landed on the Pareto frontier of Arena.ai&amp;#x27;s new Agent Arena Index and all six sub-indexes covering Work, Coding, Chat, Task Outcome, Steering and Tool Use. It scores 1093 points at a median cost of $0.02 per task, 75% to 86% cheaper than GPT-6 Luna, Claude Haiku 5.5 and DeepSeek-V4.1-Flash, while running roughly 13x faster than Luna. Tool Use is its strongest placement at 1161 points for the same cost.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 发布 Muse Ember 智能体模型 成本仅 0.02 美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;高效智能体模型在真实任务基准上以极低成本逼近前沿模型，直接影响模型选型与成本决策。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/arena/status/2124901393488048410">Arena.ai (@arena)</source>
+<category>大模型</category>
+<category>智能体</category>
+<category>Meta</category>
+<category>模型评测</category>
+</item>
+<item><title>Ladybird Browser Engine Enters Alpha with macOS and Linux Builds</title><link>https://ladybird.org/posts/alpha/</link><guid isPermaLink="true">https://ladybird.org/posts/alpha/</guid>
+<pubDate>Tue, 24 Nov 2026 00:13:12 +0800</pubDate>
+<description>&lt;p&gt;Ladybird has shipped its first alpha release for macOS and Linux, built on a from-scratch browser engine rather than a fork of Chromium or Gecko. The team acknowledges compatibility gaps and crashes, runs a rolling update channel, and openly invites security researchers to attack the browser.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Ladybird 浏览器进入 Alpha 阶段&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;独立自研浏览器引擎进入可用阶段，是开源基础设施领域少见的长期工程节点。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 62/100&lt;/p&gt;</description>
+<source url="https://ladybird.org/posts/alpha/">Hacker News AI</source>
+<category>浏览器引擎</category>
+<category>开源项目</category>
+<category>Ladybird</category>
+</item>
 <item><title>OpenCode 2.4.0 Ships Automation Tool for Agent Workflows</title><link>https://x.com/opencode/status/2124886266835505473</link><guid isPermaLink="true">https://x.com/opencode/status/2124886266835505473</guid>
 <pubDate>Mon, 23 Nov 2026 23:22:19 +0800</pubDate>
 <description>&lt;p&gt;OpenCode 2.4.0 introduces an automation tool that lets agents create automations running on schedule or reacting to MCP events. These automations can trigger prompts, shell commands, or code-mode scripts with access to MCP tools.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenCode 2.4.0 发布自动化工具&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为智能体工作流加入事件驱动与定时自动化能力，对使用 MCP 的开发者有直接实用价值。&lt;/p&gt;&lt;p&gt;OpenCode (@opencode) · tools · signal 58/100&lt;/p&gt;</description>
@@ -102,6 +129,14 @@
 <category>合规监管</category>
 <category>算力</category>
 </item>
+<item><title>Nvidia Board Reinstates Jensen Huang as CEO After Scandal</title><link>https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html</link><guid isPermaLink="true">https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html</guid>
+<pubDate>Mon, 23 Nov 2026 22:00:18 +0800</pubDate>
+<description>&lt;p&gt;Nvidia&amp;#x27;s board unanimously voted to immediately reinstate Jensen Huang as president, CEO and board director. Huang had resigned on Nov. 13 amid reports of extramarital affairs, including one with an alleged Chinese spy, a scandal that hammered the chipmaker&amp;#x27;s stock and rattled the tech and AI industries. The board said it acted after input from senior levels of the U.S. government.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达董事会宣布恢复黄仁勋 CEO 职务&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球最重要 AI 算力公司的最高管理层突发变动与复职，直接影响产业走向与市场预期。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html">Hacker News AI</source>
+<category>英伟达</category>
+<category>高管变动</category>
+<category>AI 算力</category>
+</item>
 <item><title>Meta AI Chief Warns Industry Is Unprepared for Superintelligence</title><link>https://the-decoder.com/metas-alexandr-wang-warns-the-ai-industry-isnt-ready-for-whats-coming-after-riemann-breakthrough/</link><guid isPermaLink="true">https://the-decoder.com/metas-alexandr-wang-warns-the-ai-industry-isnt-ready-for-whats-coming-after-riemann-breakthrough/</guid>
 <pubDate>Mon, 23 Nov 2026 21:59:36 +0800</pubDate>
 <description>&lt;p&gt;Meta Chief AI Officer Alexandr Wang argues that an AI-assisted proof sketch of the Riemann Hypothesis shows raw intelligence is no longer the bottleneck, with current models lacking only domain knowledge and infrastructure. He warns that models could soon self-improve and accelerate research in biology, weapons and economics faster than society can absorb.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 首席 AI 官警告行业尚未准备好迎接超级智能&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Meta 核心 AI 高管就前沿模型能力跃迁与自我改进风险给出明确判断，属重要行业观点信号。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 58/100&lt;/p&gt;</description>
@@ -192,36 +227,36 @@
 <category>CrowdStrike</category>
 <category>Zscaler</category>
 </item>
-<item><title>STMicroelectronics Targets Doubling STM32 Revenue by 2028</title><link>https://www.ithome.com/1/031/179.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/179.htm</guid>
+<item><title>意法半导体目标 2028 年 STM32 收入翻倍</title><link>https://www.ithome.com/1/031/179.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/179.htm</guid>
 <pubDate>Mon, 23 Nov 2026 19:35:33 +0800</pubDate>
-<description>&lt;p&gt;STMicroelectronics executives said the company aims to double STM32 MCU/MPU revenue between 2025 and 2028, lifting its general-purpose MCU share from 23% to 25-30% by 2030. The firm also expects data-center revenue of $1.3B in 2026 and over $2B in 2027, while expanding localized supply chains in China.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;意法半导体目标 2028 年 STM32 收入翻倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是边缘算力芯片龙头的营收目标与数据中心业务预期，对关注 AI 硬件基础设施的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;意法半导体高管表示，公司计划在 2025~2028 年间实现 STM32 系列 MCU/MPU 收入翻倍，并将通用 MCU 市场份额从 23% 提升至 2030 年的 25~30%。同时公司预计数据中心业务 2026 年贡献 13 亿美元营收、2027 年突破 20 亿美元，并推进中国本土化供应链布局。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是边缘算力芯片龙头的营收目标与数据中心业务预期，对关注 AI 硬件基础设施的读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 42/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/031/179.htm">IT之家 · IT业界</source>
 <category>意法半导体</category>
 <category>STM32</category>
 <category>MCU</category>
 <category>数据中心</category>
 </item>
-<item><title>Nospeaker Turns MacBook Trackpad Haptics Into a Voice Synthesizer</title><link>https://github.com/os6/nospeaker</link><guid isPermaLink="true">https://github.com/os6/nospeaker</guid>
+<item><title>Nospeaker 用触控板震动马达合成语音</title><link>https://github.com/os6/nospeaker</link><guid isPermaLink="true">https://github.com/os6/nospeaker</guid>
 <pubDate>Mon, 23 Nov 2026 19:31:54 +0800</pubDate>
-<description>&lt;p&gt;Developer Cody Collier released Nospeaker, an open-source MIT-licensed tool that drives the MacBook trackpad&amp;#x27;s haptic motor up to 4,000 times per second to produce audible speech, singing and instrument sounds. It runs with a single command and never uses the laptop&amp;#x27;s speakers.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Nospeaker 用触控板震动马达合成语音&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把触觉马达当作声源的黑客式创意，展示了硬件非常规用法，对喜欢折腾设备的开发者有直接可玩性。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;开发者 Cody Collier 发布开源项目 Nospeaker，通过将 MacBook 触控板的触觉马达驱动至每秒 4000 次，把震动转化为可听见的语音、歌声与乐器音色。项目以 MIT 协议开源，一条命令即可运行，全程不调用扬声器。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把触觉马达当作声源的黑客式创意，展示了硬件非常规用法，对喜欢折腾设备的开发者有直接可玩性。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 42/100&lt;/p&gt;</description>
 <source url="https://github.com/os6/nospeaker">Hacker News AI</source>
 <category>开源项目</category>
 <category>触觉反馈</category>
 <category>MacBook</category>
 <category>创意硬件</category>
 </item>
-<item><title>Moore Threads Plans Up to 1 Billion Yuan Buyback for Equity Incentives</title><link>https://www.ithome.com/1/031/165.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/165.htm</guid>
+<item><title>摩尔线程拟回购 5 亿至 10 亿元股份用于股权激励</title><link>https://www.ithome.com/1/031/165.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/165.htm</guid>
 <pubDate>Mon, 23 Nov 2026 19:17:44 +0800</pubDate>
-<description>&lt;p&gt;Moore Threads announced a share buyback of 500 million to 1 billion yuan at a maximum price of 511 yuan per share, earmarked for employee stock ownership or equity incentives, backed by a loan commitment of up to 900 million yuan from Bank of China Beijing Branch. The move signals the domestic GPU maker&amp;#x27;s intent to support its share price and retain core talent.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;摩尔线程拟回购 5 亿至 10 亿元股份用于股权激励&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产 GPU 头部厂商的大额回购与股权激励计划，是观察其资本运作与人才战略的实质信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;摩尔线程公告拟以自有及自筹资金回购 5 亿至 10 亿元股份，回购价上限 511 元/股，用于员工持股计划或股权激励，并已获中国银行北京分行不超过 9 亿元贷款承诺。这是国产 GPU 厂商在资本市场层面的重要动作，反映其稳定股价与绑定核心人才的意图。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产 GPU 头部厂商的大额回购与股权激励计划，是观察其资本运作与人才战略的实质信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/031/165.htm">IT之家 · IT业界</source>
 <category>摩尔线程</category>
 <category>股份回购</category>
 <category>国产GPU</category>
 <category>股权激励</category>
 </item>
-<item><title>Meta Builds Its Largest AI Data Center in Rural Louisiana</title><link>https://www.ithome.com/1/031/164.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/164.htm</guid>
+<item><title>Meta 在路易斯安那州建全球最大 AI 数据中心</title><link>https://www.ithome.com/1/031/164.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/164.htm</guid>
 <pubDate>Mon, 23 Nov 2026 19:17:37 +0800</pubDate>
-<description>&lt;p&gt;Meta is building its largest AI data center to date near Holly Ridge, Louisiana, spanning roughly 9.29 million square feet, larger than Vatican City. The project has spurred local business and over $270 million in road investment, but residents also face construction noise, traffic and dust, which Meta says it is addressing through contractor rules and community meetings.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 在路易斯安那州建全球最大 AI 数据中心&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;反映超大规模 AI 算力基建对地方社区的真实影响，是算力扩张落地的一线样本。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Meta 正在路易斯安那州霍利里奇建设其全球最大 AI 数据中心，占地约 929 万平方米，规模超过梵蒂冈城国。项目为当地带来创业机会与道路投资，但也引发施工噪声、交通拥堵和扬尘等居民关切，Meta 称已投入超 2.7 亿美元改善道路并采取抑尘措施。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;反映超大规模 AI 算力基建对地方社区的真实影响，是算力扩张落地的一线样本。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/031/164.htm">IT之家 · IT业界</source>
 <category>数据中心</category>
 <category>算力基建</category>
@@ -236,44 +271,6 @@
 <category>无界方舟</category>
 <category>开源模型</category>
 <category>Edge0-145B</category>
-</item>
-<item><title>沃尔玛开放智能体购物通道 支持 Meta Muse 代买黑五商品</title><link>https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday</guid>
-<pubDate>Mon, 23 Nov 2026 19:00:00 +0800</pubDate>
-<description>&lt;p&gt;沃尔玛正式上线上月预告的 Agent Gateway，允许 Meta 的 Muse 智能体在沃尔玛网站代用户搜索并购买黑五商品。该机制通过独立的 Agent Profiles 隔离智能体活动，用户可设置消费上限、逐笔审批并查看购买记录，无需向智能体共享完整购买历史。这是 AI 购物智能体在主流零售商处落地的首批真实案例之一。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流零售商首次向第三方 AI 智能体开放真实交易权限，是智能体商业化落地的关键信号。&lt;/p&gt;&lt;p&gt;The Verge AI · agent · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday">The Verge AI</source>
-<category>智能体</category>
-<category>AI 购物</category>
-<category>沃尔玛</category>
-<category>Meta</category>
-</item>
-<item><title>GLM-5.4 发布 首个循环 Transformer 架构模型</title><link>https://z.ai/blog/glm-5.4</link><guid isPermaLink="true">https://z.ai/blog/glm-5.4</guid>
-<pubDate>Mon, 23 Nov 2026 18:06:43 +0800</pubDate>
-<description>&lt;p&gt;智谱发布 GLM-5.4，这是其首个基于循环 Transformer 架构的旗舰模型，通过多次迭代复用同一组共享层来加深推理，在不增加参数量的前提下达到 2T-3T 参数级模型的智能水平。该模型同时提出“广义编程”方向，让代码成为解决更广泛任务的基础能力，但存在陷入超长“马拉松式思考”循环的局限。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个循环 Transformer 旗舰模型，以计算深度替代参数堆叠，代表大模型扩展路线的重要新方向。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 88/100&lt;/p&gt;</description>
-<source url="https://z.ai/blog/glm-5.4">Hacker News AI</source>
-<category>大模型</category>
-<category>智谱AI</category>
-<category>循环 Transformer</category>
-<category>广义编程</category>
-</item>
-<item><title>CubeSandbox v0.8.0 发布 支持 JuiceFS 与插件化调度</title><link>https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&amp;mid=2649808258&amp;idx=2&amp;sn=5ac2a5154f7b50cbda4ca96997130515</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&amp;mid=2649808258&amp;idx=2&amp;sn=5ac2a5154f7b50cbda4ca96997130515</guid>
-<pubDate>Mon, 23 Nov 2026 17:36:00 +0800</pubDate>
-<description>&lt;p&gt;CubeSandbox 发布 v0.8.0，共合并 128 个 PR、来自 46 位贡献者，包含 8 项核心特性。新增 JuiceFS 存储后端（预览版），使模板可跨节点共享并提升跨机暂停恢复的性能与稳定性；调度策略改为插件化定制，运行状态支持统一采集，异常恢复交由沙箱自身处理，同时补齐沙箱间通信并增强 E2B 兼容性。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向 AI 沙箱基础设施的实质性版本更新，涉及存储后端、调度插件化与可观测性等工程能力。&lt;/p&gt;&lt;p&gt;腾讯技术工程 (微信公众号) · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&amp;mid=2649808258&amp;idx=2&amp;sn=5ac2a5154f7b50cbda4ca96997130515">腾讯技术工程 (微信公众号)</source>
-<category>沙箱</category>
-<category>JuiceFS</category>
-<category>调度</category>
-<category>可观测性</category>
-<category>E2B</category>
-</item>
-<item><title>腾讯 EROX 统一数据面让 50GB 工作区 1 秒就绪</title><link>https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&amp;mid=2649808258&amp;idx=1&amp;sn=4954a3eef1bc7617fc57abd0fafbd0c3</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&amp;mid=2649808258&amp;idx=1&amp;sn=4954a3eef1bc7617fc57abd0fafbd0c3</guid>
-<pubDate>Mon, 23 Nov 2026 17:36:00 +0800</pubDate>
-<description>&lt;p&gt;腾讯 TencentOS 团队推出 EROX 统一数据面，针对 AI Agent 与 RL rollout 等有状态长会话负载的数据恢复瓶颈，将内核直挂、按需拉取、P2P 分发、增量快照与节点侧降本串成一条链路。官方数据显示 50GB 工作区可在 1 秒内就绪、冷启动时间缩减 50% 以上，核心价值是读取即启动、状态可跨节点复制。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向 Agent 沙箱数据恢复这一真实工程瓶颈给出系统性方案与量化指标，对做 Agent 基础设施的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;腾讯技术工程 (微信公众号) · compute · signal 72/100&lt;/p&gt;</description>
-<source url="https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&amp;mid=2649808258&amp;idx=1&amp;sn=4954a3eef1bc7617fc57abd0fafbd0c3">腾讯技术工程 (微信公众号)</source>
-<category>AI Agent</category>
-<category>数据面</category>
-<category>沙箱</category>
-<category>腾讯</category>
-<category>快照恢复</category>
 </item>
 </channel>
 </rss>
