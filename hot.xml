@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Tue, 24 Nov 2026 01:20:37 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 24 Nov 2026 01:14:23 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>英伟达董事会全票推翻决定 黄仁勋复职股价大涨 31%</title><link>https://todayforai.com/en/story/story-97c1526e-d94</link><guid isPermaLink="true">https://todayforai.com/en/story/story-97c1526e-d94</guid>
 <pubDate>Mon, 23 Nov 2026 22:39:10 +0800</pubDate>
@@ -51,6 +51,14 @@
 <pubDate>Tue, 24 Nov 2026 00:22:25 +0800</pubDate>
 <description>&lt;p&gt;Meta 的 Muse Ember (Max) 在 Arena.ai 新推出的 Agent Arena Index 及工作、编程、对话、任务完成、可控性、工具调用六项子指数中全部进入帕累托前沿。其综合得分 1093 分，单任务中位成本仅 0.02 美元，比 GPT-6 Luna、Claude Haiku 5.5 和 DeepSeek-V4.1-Flash 低 75% 至 86%，速度约为 Luna 的 13 倍。工具调用是其最强项，以同等成本取得 1161 分。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Arena.ai (@arena)&lt;/p&gt;</description>
 </item>
+<item><title>亚马逊 75 亿美元收购 Decart 强化自研芯片生态</title><link>https://todayforai.com/en/story/story-a9b413fa-7c8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a9b413fa-7c8</guid>
+<pubDate>Tue, 24 Nov 2026 01:14:23 +0800</pubDate>
+<description>&lt;p&gt;亚马逊正深入谈判以约 75 亿美元收购以色列 AI 初创公司 Decart，报价接近其上一轮 40 亿美元估值的两倍。交易核心是 Decart 的优化软件栈 DOS 及核心团队，该技术能让 AI 模型在英伟达、亚马逊和谷歌硬件上高效运行，尤其使实时视频模型在亚马逊 Trainium3 芯片上比 GPU 快 4 倍、成本减半。
+
+多方信源交叉验证，Decart 是 AWS Trainium3 的早期使用者，具备自研芯片优化实战经验，同时自研世界模型，此前 Anthropic 也曾表达收购兴趣。交易最早可能本周初敲定，但仍存破裂风险。
+
+此举被视为亚马逊为推广自研 Trainium 芯片、降低对英伟达 GPU 依赖的关键布局，通过软硬协同强化自研算力生态，对 AI 芯片竞争格局将产生重要影响。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, Rohan Paul (@rohanpaul_ai), IT之家 · 智能时代&lt;/p&gt;</description>
+</item>
 <item><title>OpenRouter 下架 3 家推理供应商并移除 125 个端点</title><link>https://todayforai.com/en/story/story-e2a11f6e-42a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e2a11f6e-42a</guid>
 <pubDate>Sun, 22 Nov 2026 20:07:56 +0800</pubDate>
 <description>&lt;p&gt;OpenRouter 在安全公司 Dragos 披露部分第三方推理供应商存在严重数据处理问题后，确认自身平台未被入侵，但已下架 3 家供应商并移除 125 个端点的零数据保留资格，同时通知受影响用户。这是模型路由层首次大规模公开执行上游供应商数据合规的案例。
@@ -66,10 +74,6 @@ Dragos 在 2026 年 7 月至 11 月间向多家 AI 推理服务商发送约 200 
 综合多方信源，Docker 此次更新包含品牌与产品两个层面。品牌上，新徽标强调开放合作与开发者优先；产品上，AI Governance 将容器隔离思路延伸至智能体工具调用环节，通过沙箱策略约束运行边界，并对 MCP 工具调用进行治理和审计。目前官方尚未公布具体技术参数与量化效果，但已有能力框架清晰。
 
 对行业而言，Docker 此举将容器安全范式引入 AI 智能体赛道，有望解决智能体自主行动带来的信任与合规痛点。开发者可在受控环境中运行 AI Agent，企业则获得审计可见性，这或推动智能体部署标准化，并加剧容器平台在 AI 治理领域的竞争。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · IT业界&lt;/p&gt;</description>
-</item>
-<item><title>Ai2 开源 RoboTrack 点跟踪模型与 1500 万数据集</title><link>https://todayforai.com/en/story/story-dba75bc5-726</link><guid isPermaLink="true">https://todayforai.com/en/story/story-dba75bc5-726</guid>
-<pubDate>Tue, 24 Nov 2026 01:20:37 +0800</pubDate>
-<description>&lt;p&gt;艾伦人工智能研究所（Ai2）发布 RoboTrack，一套面向真实机器人操作的点跟踪模型、1500 万规模数据集 RoboTrack-15M、仿真数据生成管线与配套基准 RoboTrack-Bench，全部开源。该工作把机器人部署中的感知跟踪失败转化为可度量、可训练的问题，为机械臂与物体在交互过程中的位置跟随提供可靠感知基础。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Hugging Face Blog&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
