@@ -51,14 +51,6 @@ Dragos 在 2026 年 7 月至 11 月间向多家 AI 推理服务商发送约 200 
 
 Anthropic 作为首家上市的前沿大模型公司，其首日破发为 AI 行业资本化敲响警钟。市场对万亿估值与巨额算力支出的匹配度存疑，投资者担忧其盈利路径与现金流压力。此次 IPO 将成为 AI 行业估值与商业化能力的关键定价锚点，后续表现将影响其他 AI 实验室的上市节奏与融资环境。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Anthropic AI (@AnthropicAI), The Decoder, Rohan Paul (@rohanpaul_ai), IT之家 · IT业界, Simon Willison 博客, 宝玉 (@dotey)&lt;/p&gt;</description>
 </item>
-<item><title>Thinking Machines 开源 26B 循环模型 Inkling 2 Mini</title><link>https://todayforai.com/en/story/story-e7a42b22-638</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e7a42b22-638</guid>
-<pubDate>Mon, 23 Nov 2026 14:55:25 +0800</pubDate>
-<description>&lt;p&gt;Thinking Machines Lab 以 Apache 2.0 协议开源了多模态混合专家模型 Inkling 2 Mini，总参数 26B，激活参数仅 3.4B 至 5.4B（因统计口径而异），支持 100 万 token 上下文与图文输入，可在 32GB 内存的 MacBook 或 DGX Spark 上本地运行。其核心创新是循环 Transformer 架构：24 层中仅存储 24 层，中间 12 层以共享权重重复执行三次，使单 token 等效经过 48 层计算，从而在不增加输出 token 的前提下延长内部推理，降低推理成本。
-
-在性能上，该模型在智能体编程基准中表现突出，DeepSWE v1.1 得分 48.2%，SWE-bench Verified 达 79.2%，领先所有 100B 以下开源模型；Artificial Analysis 智能指数得分 20，与 Qwen3.8 27B 持平，但激活参数少约 5 倍，处于智能与参数效率的帕累托前沿。不过其知识召回能力偏弱，非幻觉率仅 63.4%，属明确的取舍型设计。vLLM 在 NVIDIA Blackwell、Hopper 与 DGX Spark 上实现发布当日支持，并内置 DSpark 推测解码加速。
-
-该模型将长程智能体能力下放到个人设备，显著降低了本地部署门槛，有望推动隐私敏感场景与离线智能体应用的普及，同时也为高效架构设计提供了新范式。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;vLLM 官方博客, Hacker News AI, 机器之心 (微信公众号), The Decoder, Artificial Analysis (@ArtificialAnlys), Artificial Analysis&lt;/p&gt;</description>
-</item>
 <item><title>腾讯混元确认下一代模型大幅扩参并坚持 Scaling Law</title><link>https://todayforai.com/en/story/story-01739c94-1a5</link><guid isPermaLink="true">https://todayforai.com/en/story/story-01739c94-1a5</guid>
 <pubDate>Mon, 23 Nov 2026 14:30:30 +0800</pubDate>
 <description>&lt;p&gt;腾讯混元团队在 Reddit 的 LocalLLaMA 社区首次公开 AMA 中明确，下一代 Hy 模型将显著扩大参数量，并继续押注 Scaling Law。团队同时考虑推出 240 亿至 310 亿参数的稠密模型，以覆盖不同场景需求。
@@ -70,6 +62,14 @@ Anthropic 作为首家上市的前沿大模型公司，其首日破发为 AI 行
 <item><title>Qwen3.5 27B 自主改写权重 数学准确率提升 6.6 个百分点</title><link>https://todayforai.com/en/story/story-9700b1e7-d76</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9700b1e7-d76</guid>
 <pubDate>Mon, 23 Nov 2026 16:02:19 +0800</pubDate>
 <description>&lt;p&gt;UIUC、CMU、普林斯顿等机构的研究者让 Qwen3.5 27B 在单块 GPU 上不经重新训练、不借助梯度，直接写 Python 代码修改自身权重，把未见过数学题的准确率从 57.2% 提升到 63.8%，未答完率从 33.6% 降到 26.1%。模型还通过逐层排查异常矩阵，修复了被随机噪声破坏的副本，数学能力恢复到 33.0%，六项视觉测试从 7.3% 回升到 70.2%。作者强调这还不是递归自我进化：8 轮实验每轮都从原版模型重新开始，且仅在 Qwen3.5 家族与数学任务上验证，论文尚未经同行评审。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey)&lt;/p&gt;</description>
+</item>
+<item><title>Thinking Machines 开源 26B 循环模型 Inkling 2 Mini</title><link>https://todayforai.com/en/story/story-e7a42b22-638</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e7a42b22-638</guid>
+<pubDate>Mon, 23 Nov 2026 14:55:25 +0800</pubDate>
+<description>&lt;p&gt;Thinking Machines Lab 以 Apache 2.0 协议开源了多模态混合专家模型 Inkling 2 Mini，总参数 26B，激活参数仅 3.4B 至 5.4B（因统计口径而异），支持 100 万 token 上下文与图文输入，可在 32GB 内存的 MacBook 或 DGX Spark 上本地运行。其核心创新是循环 Transformer 架构：24 层中仅存储 24 层，中间 12 层以共享权重重复执行三次，使单 token 等效经过 48 层计算，从而在不增加输出 token 的前提下延长内部推理，降低推理成本。
+
+在性能上，该模型在智能体编程基准中表现突出，DeepSWE v1.1 得分 48.2%，SWE-bench Verified 达 79.2%，领先所有 100B 以下开源模型；Artificial Analysis 智能指数得分 20，与 Qwen3.8 27B 持平，但激活参数少约 5 倍，处于智能与参数效率的帕累托前沿。不过其知识召回能力偏弱，非幻觉率仅 63.4%，属明确的取舍型设计。vLLM 在 NVIDIA Blackwell、Hopper 与 DGX Spark 上实现发布当日支持，并内置 DSpark 推测解码加速。
+
+该模型将长程智能体能力下放到个人设备，显著降低了本地部署门槛，有望推动隐私敏感场景与离线智能体应用的普及，同时也为高效架构设计提供了新范式。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;vLLM 官方博客, Hacker News AI, 机器之心 (微信公众号), The Decoder, Artificial Analysis (@ArtificialAnlys), Artificial Analysis&lt;/p&gt;</description>
 </item>
 <item><title>亚马逊拟 75 亿美元收购 Decart 强化自研芯片</title><link>https://todayforai.com/en/story/story-a9b413fa-7c8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a9b413fa-7c8</guid>
 <pubDate>Mon, 23 Nov 2026 11:35:46 +0800</pubDate>
