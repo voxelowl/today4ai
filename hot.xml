@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Tue, 24 Nov 2026 02:42:38 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 24 Nov 2026 05:39:25 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>黄仁勋复任英伟达 CEO 开盘大涨 32%</title><link>https://todayforai.com/en/story/story-97c1526e-d94</link><guid isPermaLink="true">https://todayforai.com/en/story/story-97c1526e-d94</guid>
 <pubDate>Tue, 24 Nov 2026 00:17:55 +0800</pubDate>
@@ -12,12 +12,12 @@
 此次人事反转发生在 AI 产业对算力需求空前高涨的关键时点，管理层稳定性直接关系到全球 AI 供应链与资本市场预期。黄仁勋表示将以焕然一新的承诺领导公司迎接新一轮工业革命。分析认为，尽管合规架构有所强化，但独立调查的后续进展仍可能成为影响英伟达未来治理与股价的潜在变量。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), TechCrunch AI, 宝玉 (@dotey), IT之家 · IT业界, The Decoder, The Verge AI&lt;/p&gt;</description>
 </item>
 <item><title>智谱发布 GLM-5.4 循环 Transformer 架构落地</title><link>https://todayforai.com/en/story/story-d2145516-db8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d2145516-db8</guid>
-<pubDate>Mon, 23 Nov 2026 23:13:03 +0800</pubDate>
-<description>&lt;p&gt;智谱 AI 正式发布旗舰模型 GLM-5.4，这是全球首个采用循环 Transformer 架构的大模型，通过共享权重层多次迭代复用，在不增加参数量的前提下实现更深推理，智能水平对标 2-3 万亿参数级模型。该模型参数规模达 7500 亿，即日起向 GLM Coding Plan 全量用户开放，并新增视觉理解能力与 1M 上下文支持。
+<pubDate>Tue, 24 Nov 2026 03:16:52 +0800</pubDate>
+<description>&lt;p&gt;智谱 AI 正式发布旗舰模型 GLM-5.4，这是其首个基于循环 Transformer 架构的大模型，通过让共享权重层在前向传播中重复执行两次来加深推理，在不增加参数量的前提下达到 2T-3T 参数级模型的智能水平。模型参数规模达 7500 亿，已上线 GLM Coding Plan、ZCode 与 Z.ai Chat，API 与权重将在安全评估后开放。
 
-技术细节上，GLM-5.4 让共享层块重复运行两次来加深网络，配合控制门、共享 token 缓存与稀疏注意力机制，有效抑制显存与算力开销的上升。官方强调过去三个月同时激进扩展 Scaling Loop 与模型规模，Loop Transformer 是核心突破。模型主打“泛 Coding”，代码能力可外推至视频生成、完整游戏构建与 3D 建模等场景。不过，模型存在陷入超长“马拉松式思考”循环的局限，但延长反思与自我纠正通常带来精度提升。
+技术细节上，GLM-5.4 复用 28 层基座，第二遍循环复用第一遍的稀疏 KV 与注意力索引，额外仅增加一个滑动窗口的 KV 缓存开销，配合控制门、共享 token 缓存与稀疏注意力机制抑制显存与算力成本。在 30B 等参测试中，循环机制以约 10% 的额外训练算力换来 AIME25 +11.3、GPQA-Diamond +8.7 的提升，同时输出长度下降 11.7% 至 14.9%。模型新增视觉理解能力，支持 1M 上下文，主打“泛编程”，可由代码生成视频、游戏与 CAD 模型。
 
-行业影响方面，GLM-5.4 验证了计算深度扩展路线，为突破参数规模瓶颈提供了新范式。即日起 Coding Plan 用户可调用 glm-5.4，V2、V3 及团队版用户额度提升至 1.5 倍，周额度用户可用量较 GLM-5.3 提升 50%。权重计划负责任开源，API 待安全评估后开放。此举可能推动更多厂商探索循环架构，并加速 AI 编程从辅助工具向全栈生成演进。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Hacker News AI, 智谱 AI 研究, The Decoder, 宝玉 (@dotey)&lt;/p&gt;</description>
+对行业而言，GLM-5.4 验证了计算深度扩展路线，为不盲目堆参数的大模型发展提供了新范式。其“泛编程”定位将代码能力外推至视频生成、游戏构建与 3D 建模等场景，有望拓展 AI 编程工具的应用边界。即日起向 Coding Plan 用户全量开放，V2、V3 及团队版用户额度提升至 1.5 倍，周额度用户可用量较 GLM-5.3 提升 50%，将加速其在开发者生态中的渗透。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), IT之家 · 智能时代, Marktechpost (@Marktechpost), Hacker News AI, 智谱 AI 研究, The Decoder&lt;/p&gt;</description>
 </item>
 <item><title>蚂蚁开源 560B 医疗大模型 124B 多模态版笔记本可跑</title><link>https://todayforai.com/en/story/story-c5def680-01d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c5def680-01d</guid>
 <pubDate>Mon, 23 Nov 2026 15:42:01 +0800</pubDate>
@@ -43,6 +43,18 @@
 
 若最终成立，这将是 AI 辅助数学与形式化验证领域的里程碑事件。黎曼猜想自 1859 年悬置至今，其证明将支撑数百个依赖它的数学结论。该成果的真正价值可能在于催生解释素数分布结构的新数学理论，而非猜想本身。同时，事件也把“AI 成果如何被可信验证”的争议推到台前，形式化验证或成为 AI 数学成果的可信背书。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;Latent Space, IT之家 · IT业界, The Decoder, TechCrunch AI, Artificial Analysis (@ArtificialAnlys), 宝玉 (@dotey)&lt;/p&gt;</description>
 </item>
+<item><title>Thinking Machines 开源 26B 循环模型 Inkling 2 Mini</title><link>https://todayforai.com/en/story/story-e7a42b22-638</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e7a42b22-638</guid>
+<pubDate>Tue, 24 Nov 2026 05:39:25 +0800</pubDate>
+<description>&lt;p&gt;Thinking Machines Lab 以 Apache 2.0 协议开源了多模态混合专家模型 Inkling 2 Mini，总参数 26.4B，激活参数约 3.4B，支持 100 万 token 上下文与图文输入。其核心创新是循环 Transformer 架构：24 层中仅存储 24 层，中间 12 层以共享权重重复运行 3 次，使单 token 等效经过 48 层计算，从而在不增加输出 token 的前提下延长内部推理。模型检查点仅约 20GB，可在 32GB 内存的 Mac 或 DGX Spark 上本地运行，vLLM 在 Blackwell、Hopper 与 DGX Spark 上实现发布当日支持。
+
+在性能上，Inkling 2 Mini 在智能体编程基准中表现突出：DeepSWE v1.1 得分 48.2%，超过 Qwen3.8-27B 的 42.2%；SWE-bench Verified 达 79.2%，在 100B 以下开源模型中领先。Artificial Analysis 智能指数得分 20，与 Qwen3.8 27B 持平，但激活参数少约 5 倍，处于智能与参数规模的帕累托前沿。不过，模型知识召回能力偏弱，非幻觉率仅 63.4%，属明确的取舍型设计。
+
+该模型将循环架构与 MoE 结合，以极低激活参数实现接近更大模型的智能体能力，显著降低了本地部署门槛。其开源将推动个人设备上的智能体应用，并为高效推理架构提供新范式，可能引发对循环 Transformer 的进一步探索。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost), Arena.ai (@arena), The Decoder, Artificial Analysis (@ArtificialAnlys), IT之家 · 智能时代, Hacker News AI&lt;/p&gt;</description>
+</item>
+<item><title>Agent Arena 指数揭示五个月智能体竞争格局</title><link>https://todayforai.com/en/story/story-0f6c7926-348</link><guid isPermaLink="true">https://todayforai.com/en/story/story-0f6c7926-348</guid>
+<pubDate>Tue, 24 Nov 2026 04:42:08 +0800</pubDate>
+<description>&lt;p&gt;Arena.ai 发布基于 320 万次真实智能体会话的 Agent Arena Index，用统一评分衡量模型在编程、知识工作与对话中的实际任务完成能力。榜单显示 Anthropic 在真实智能体任务上扩大领先，Google DeepMind 已反超 OpenAI，阿里 Qwen 与腾讯混元等中国实验室持续追赶，前三名之后的格局正在重塑。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Arena.ai (@arena)&lt;/p&gt;</description>
+</item>
 <item><title>Meta 首席 AI 官 Alexandr Wang 发文称超级智能正在到来</title><link>https://todayforai.com/en/story/story-b11cfec5-780</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b11cfec5-780</guid>
 <pubDate>Mon, 23 Nov 2026 17:30:00 +0800</pubDate>
 <description>&lt;p&gt;Meta 首席 AI 官 Alexandr Wang 发表长文《Superintelligence is Arriving》，认为 AI 的瓶颈已从智力转向各行业专门知识与实验条件，并以 AIME 满分和黎曼猜想为标志性节点。他同时明确反对把社会交给超级智能，主张行业改走一条让所有人获得更多自主权的路线，但未给出具体方案。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), 机器之心 (微信公众号)&lt;/p&gt;</description>
@@ -58,22 +70,6 @@
 多方信源交叉验证，Decart 是 AWS Trainium3 的早期使用者，具备自研芯片优化实战经验，同时自研世界模型，此前 Anthropic 也曾表达收购兴趣。交易最早可能本周初敲定，但仍存破裂风险。
 
 此举被视为亚马逊为推广自研 Trainium 芯片、降低对英伟达 GPU 依赖的关键布局，通过软硬协同强化自研算力生态，对 AI 芯片竞争格局将产生重要影响。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, Rohan Paul (@rohanpaul_ai), IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
-<item><title>OpenRouter 下架 3 家推理供应商并移除 125 个端点</title><link>https://todayforai.com/en/story/story-e2a11f6e-42a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e2a11f6e-42a</guid>
-<pubDate>Sun, 22 Nov 2026 20:07:56 +0800</pubDate>
-<description>&lt;p&gt;OpenRouter 在安全公司 Dragos 披露部分第三方推理供应商存在严重数据处理问题后，确认自身平台未被入侵，但已下架 3 家供应商并移除 125 个端点的零数据保留资格，同时通知受影响用户。这是模型路由层首次大规模公开执行上游供应商数据合规的案例。
-
-Dragos 在 2026 年 7 月至 11 月间向多家 AI 推理服务商发送约 200 万条含伪造凭证的测试请求，发现至少三家供应商已被攻击者长期入侵，用户数据与 AWS 密钥遭窃取且数月未被察觉。最大一起事件中数百个 AWS 密钥被窃，部分来自供应商已拒绝处理的请求。OpenRouter 表示将把研究人员的测试方法纳入常态化安全检查，但部分涉事供应商尚未公开披露事件。
-
-事件凸显 AI 供应链中转售与路由中间商、模型市场的风险。OpenRouter 的快速下架与端点清理为行业树立了合规执法样本，可能推动推理服务商加强安全审计与透明度，并促使开发者更谨慎选择上游供应商。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter), Hacker News AI, The Decoder&lt;/p&gt;</description>
-</item>
-<item><title>Docker 焕新徽标 转向智能体安全容器环境</title><link>https://todayforai.com/en/story/story-82fd190a-d0b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-82fd190a-d0b</guid>
-<pubDate>Mon, 23 Nov 2026 20:11:11 +0800</pubDate>
-<description>&lt;p&gt;Docker 于 11 月 19 日发布新版徽标，将 Moby 鲸鱼形象改为更抽象简洁的黑色设计，并宣布品牌定位转向“为信任而生”，目标是把安全、隔离、可治理的容器打造为智能体可信执行环境。同时，Docker 推出 AI Governance 能力，面向智能体工作流提供沙箱策略、MCP 工具治理与审计可见性，标志着容器平台正式进军 AI 智能体安全治理领域。
-
-综合多方信源，Docker 此次更新包含品牌与产品两个层面。品牌上，新徽标强调开放合作与开发者优先；产品上，AI Governance 将容器隔离思路延伸至智能体工具调用环节，通过沙箱策略约束运行边界，并对 MCP 工具调用进行治理和审计。目前官方尚未公布具体技术参数与量化效果，但已有能力框架清晰。
-
-对行业而言，Docker 此举将容器安全范式引入 AI 智能体赛道，有望解决智能体自主行动带来的信任与合规痛点。开发者可在受控环境中运行 AI Agent，企业则获得审计可见性，这或推动智能体部署标准化，并加剧容器平台在 AI 治理领域的竞争。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · IT业界&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
