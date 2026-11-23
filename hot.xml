@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Mon, 23 Nov 2026 14:55:25 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 23 Nov 2026 16:02:19 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 数学家与 Claude 宣称证明黎曼猜想 1700 万行 Lean 代码通过机器核验</title><link>https://todayforai.com/en/story/story-b91caf62-12d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b91caf62-12d</guid>
 <pubDate>Mon, 23 Nov 2026 13:00:49 +0800</pubDate>
@@ -67,6 +67,10 @@ Anthropic 作为首家上市的前沿大模型公司，其首日破发为 AI 行
 
 此次表态明确了腾讯混元在模型规模上的战略方向，即坚持 Scaling Law 与实用化并重。在行业对 Scaling Law 有效性存在争议的背景下，混元的大幅扩参计划将加剧大模型竞赛，同时其低成本小模型路线也有助于拓展本地化应用生态。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;InfoQ 中文, 量子位官网, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
+<item><title>Qwen3.5 27B 自主改写权重 数学准确率提升 6.6 个百分点</title><link>https://todayforai.com/en/story/story-9700b1e7-d76</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9700b1e7-d76</guid>
+<pubDate>Mon, 23 Nov 2026 16:02:19 +0800</pubDate>
+<description>&lt;p&gt;UIUC、CMU、普林斯顿等机构的研究者让 Qwen3.5 27B 在单块 GPU 上不经重新训练、不借助梯度，直接写 Python 代码修改自身权重，把未见过数学题的准确率从 57.2% 提升到 63.8%，未答完率从 33.6% 降到 26.1%。模型还通过逐层排查异常矩阵，修复了被随机噪声破坏的副本，数学能力恢复到 33.0%，六项视觉测试从 7.3% 回升到 70.2%。作者强调这还不是递归自我进化：8 轮实验每轮都从原版模型重新开始，且仅在 Qwen3.5 家族与数学任务上验证，论文尚未经同行评审。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey)&lt;/p&gt;</description>
+</item>
 <item><title>亚马逊拟 75 亿美元收购 Decart 强化自研芯片</title><link>https://todayforai.com/en/story/story-a9b413fa-7c8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a9b413fa-7c8</guid>
 <pubDate>Mon, 23 Nov 2026 11:35:46 +0800</pubDate>
 <description>&lt;p&gt;亚马逊正接近以约 75 亿美元收购以色列 AI 初创公司 Decart，报价接近后者上一轮 40 亿美元估值的两倍。交易最早可能本周初敲定，但仍存破裂风险。Decart 的核心价值在于其跨硬件 AI 堆栈优化能力，尤其是让实时视频模型在亚马逊自研 Trainium3 芯片上比 GPU 快 4 倍、成本减半。
@@ -74,10 +78,6 @@ Anthropic 作为首家上市的前沿大模型公司，其首日破发为 AI 行
 Decart 是 AWS Trainium3 自研 ASIC 的早期使用者，具备自研芯片优化实战经验，同时也在研发世界模型。此前 Anthropic 也曾表达收购兴趣，凸显 Decart 的技术稀缺性。多方信源一致指出，此次收购将强化亚马逊在自研算力生态上的软硬协同，减少对英伟达 GPU 的依赖。
 
 若交易达成，这将是亚马逊在 AI 芯片领域最大手笔的收购之一，直接挑战英伟达在 AI 算力市场的主导地位。通过整合 Decart 的优化能力，亚马逊有望提升 Trainium 芯片的竞争力，吸引更多云客户，并推动自研芯片在生成式 AI 推理场景中的规模化应用。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
-<item><title>XNU Linux 让 macOS 图形界面跑在 Linux 内核上</title><link>https://todayforai.com/en/story/story-9410775b-53b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9410775b-53b</guid>
-<pubDate>Mon, 23 Nov 2026 11:49:24 +0800</pubDate>
-<description>&lt;p&gt;开源项目 xnulinux 将苹果开源的 XNU 内核编译为可加载模块 xnu.ko，直接运行在未修改的 arm64 Linux 内核中，由 XNU 直接驱动 CPU 与 MMU，使 macOS 进程与 Linux 进程在同一批 CPU 上原生并行，中间无虚拟机监控器。借助标准 Ubuntu 内核加载该模块，即可从苹果官方安装器制作的 macOS 27 系统盘启动至桌面，运行 loginwindow、WindowServer、Dock、Finder、Safari 与 Chrome。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Hacker News AI&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
