@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Tue, 24 Nov 2026 02:42:38 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 24 Nov 2026 03:04:52 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Nothing Unveils Ear Note Earbuds with AI Recording and Transcription</title><link>https://www.theverge.com/gadgets/1040357/nothing-ear-note-earbuds-ai-recording</link><guid isPermaLink="true">https://www.theverge.com/gadgets/1040357/nothing-ear-note-earbuds-ai-recording</guid>
+<pubDate>Tue, 24 Nov 2026 03:04:52 +0800</pubDate>
+<description>&lt;p&gt;Nothing plans to launch the Ear Note on December 8, a pair of earbuds whose microphone-equipped charging case records and transcribes conversations, with a companion app managing recordings, transcripts and AI summaries. CEO Carl Pei demoed the device to Bloomberg but said pricing is not yet settled, while Nothing&amp;#x27;s AI smartwatch and smart glasses plans have been delayed.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Nothing 发布 Ear Note 耳机 支持 AI 录音转写&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Nothing 切入 AI 可穿戴录音转写赛道的新硬件，但产品尚未发布、价格未定，信息增量有限。&lt;/p&gt;&lt;p&gt;The Verge AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.theverge.com/gadgets/1040357/nothing-ear-note-earbuds-ai-recording">The Verge AI</source>
+<category>AI 硬件</category>
+<category>可穿戴设备</category>
+<category>Nothing</category>
+</item>
+<item><title>Anthropic Pays xAI $3.1 Billion a Month for Compute</title><link>https://the-decoder.com/anthropics-appetite-for-compute-is-pushing-xai-toward-a-rent-over-build-strategy/</link><guid isPermaLink="true">https://the-decoder.com/anthropics-appetite-for-compute-is-pushing-xai-toward-a-rent-over-build-strategy/</guid>
+<pubDate>Tue, 24 Nov 2026 02:47:53 +0800</pubDate>
+<description>&lt;p&gt;Anthropic has become xAI&amp;#x27;s largest compute customer with a contract worth roughly $3.1 billion a month, dwarfing Google&amp;#x27;s $800 million, with either deal cancellable on 90 days&amp;#x27; notice. The revenue now exceeds half of xAI&amp;#x27;s total, pushing Musk to pivot from building frontier models toward renting out GPU capacity, with internal frustration that xAI&amp;#x27;s own models can barely compete.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 月付 31 亿美元租用 xAI 算力&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部实验室算力采购规模与 xAI 商业模式转向的一手细节，揭示 AI 算力供需格局的关键变化。&lt;/p&gt;&lt;p&gt;The Decoder · compute · signal 78/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/anthropics-appetite-for-compute-is-pushing-xai-toward-a-rent-over-build-strategy/">The Decoder</source>
+<category>算力</category>
+<category>xAI</category>
+<category>Anthropic</category>
+<category>数据中心</category>
+<category>商业模式</category>
+</item>
 <item><title>OpenAI Proposes Perplexity as Industry Yardstick and Urges Shared Safety Limits</title><link>https://the-decoder.com/openai-warns-that-upcoming-ai-systems-could-outpace-safety-checks-and-urges-rivals-to-agree-on-shared-limits/</link><guid isPermaLink="true">https://the-decoder.com/openai-warns-that-upcoming-ai-systems-could-outpace-safety-checks-and-urges-rivals-to-agree-on-shared-limits/</guid>
 <pubDate>Tue, 24 Nov 2026 02:42:38 +0800</pubDate>
 <description>&lt;p&gt;OpenAI chief scientist Jakub Pachocki proposes perplexity as a shared industry yardstick for AI progress and, for the first time, publishes internal GPT-series scores up to an unreleased model beyond GPT-6. The data indicates that capabilities such as fluent conversation, logical reasoning and complex math solving emerge at fixed perplexity thresholds. Pachocki warns that newer models could bypass existing safety checks and calls on leading labs to agree on shared capability limits until better oversight methods exist.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 提议以困惑度作为行业标尺并呼吁共享安全红线&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次公开 GPT 系列跨代际困惑度数据并提出行业统一标尺与安全红线倡议，对理解能力涌现与前沿治理具实质参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
@@ -47,6 +65,15 @@
 <category>先进制造</category>
 <category>融资</category>
 </item>
+<item><title>Google DeepCrossAttention Speeds Up Transformer Training Threefold</title><link>https://research.google/blog/supercharging-transformer-residual-connections/</link><guid isPermaLink="true">https://research.google/blog/supercharging-transformer-residual-connections/</guid>
+<pubDate>Tue, 24 Nov 2026 01:21:12 +0800</pubDate>
+<description>&lt;p&gt;Google Research introduces DeepCrossAttention (DCA), an architecture that dynamically combines outputs from earlier layers via learnable weights and depth-wise cross-attention, mitigating information dilution in standard residual connections. Published at ICML 2025, it reaches equivalent model quality up to three times faster with negligible parameter overhead.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌 DeepCrossAttention 让 Transformer 训练提速 3 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是对 Transformer 基础残差结构的实质性改进，直接关系到训练效率与深层网络可扩展性，值得前沿读者关注。&lt;/p&gt;&lt;p&gt;Google Research · llm · signal 72/100&lt;/p&gt;</description>
+<source url="https://research.google/blog/supercharging-transformer-residual-connections/">Google Research</source>
+<category>Transformer</category>
+<category>模型架构</category>
+<category>Google Research</category>
+<category>训练效率</category>
+</item>
 <item><title>Ai2 Open-Sources RoboTrack Point Tracking Model and 15M Dataset</title><link>https://huggingface.co/blog/allenai/robotrack</link><guid isPermaLink="true">https://huggingface.co/blog/allenai/robotrack</guid>
 <pubDate>Tue, 24 Nov 2026 01:20:37 +0800</pubDate>
 <description>&lt;p&gt;Ai2 has released RoboTrack, a point-tracking system for real-world robotic manipulation, together with the 15M-scale RoboTrack-15M dataset, a simulation data pipeline, and the RoboTrack-Bench benchmark, all open-sourced. The work turns perception tracking failures in deployment into a measurable, trainable problem, giving robots reliable gripper and object position following during interaction.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Ai2 开源 RoboTrack 点跟踪模型与 1500 万数据集&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源模型、大规模数据集与基准三件套齐备，直接服务具身智能感知这一关键瓶颈。&lt;/p&gt;&lt;p&gt;Hugging Face Blog · opensource · signal 78/100&lt;/p&gt;</description>
@@ -81,6 +108,15 @@
 <category>亚马逊</category>
 <category>收购</category>
 </item>
+<item><title>Google Search Adds Wallet and Drive Data to Personal Intelligence</title><link>https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/</link><guid isPermaLink="true">https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/</guid>
+<pubDate>Tue, 24 Nov 2026 01:00:00 +0800</pubDate>
+<description>&lt;p&gt;Google is connecting Google Wallet and Google Drive to Personal Intelligence in AI Mode, letting Search answer queries using users&amp;#x27; spending records, documents and chats. The feature is opt-in via Search personalization settings, and users retain control over their data and can adjust preferences at any time.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌搜索接入钱包与云端硬盘个人数据&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;搜索入口与个人数据打通是 AI 助手竞争的关键一步，值得关注其隐私边界与产品形态。&lt;/p&gt;&lt;p&gt;Google AI Blog · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/">Google AI Blog</source>
+<category>谷歌搜索</category>
+<category>AI Mode</category>
+<category>个人数据</category>
+<category>隐私授权</category>
+</item>
 <item><title>SenseTime Open-Sources 9B Multimodal Model with Looped Architecture and 512K Context</title><link>https://x.com/rohanpaul_ai/status/2124904314024186073</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2124904314024186073</guid>
 <pubDate>Tue, 24 Nov 2026 00:34:01 +0800</pubDate>
 <description>&lt;p&gt;SenseTime released SenseNova-Loop-9B on Hugging Face, an open-weight multimodal model for complex reasoning, coding and multi-step tool use with a 512K context window. Its key innovation reuses the same 24-layer middle block twice, executing 56 layer computations per forward pass while storing weights for only 32 distinct layers, trading parameters for reasoning depth. The study shows more loops are not always better: code generation and visualization improved up to four loops while data QA and office tasks peaked at three, so the release settles on two loops to balance performance and inference cost.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;商汤开源 9B 多模态模型 循环架构支持 512K 上下文&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以循环复用层权重的架构创新实现参数效率与推理深度的解耦，并给出循环次数的实证权衡，对关注高效推理与开源多模态模型的读者价值明确。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
@@ -99,6 +135,15 @@
 <category>智能体</category>
 <category>Meta</category>
 <category>模型评测</category>
+</item>
+<item><title>Nvidia Board Reinstates Jensen Huang as CEO Ten Days After Resignation</title><link>https://x.com/dotey/status/2124900260925296807</link><guid isPermaLink="true">https://x.com/dotey/status/2124900260925296807</guid>
+<pubDate>Tue, 24 Nov 2026 00:17:55 +0800</pubDate>
+<description>&lt;p&gt;Nvidia&amp;#x27;s board voted unanimously on Nov 22 to reinstate Jensen Huang as president, CEO and director, just ten days after he resigned on Nov 12. The board said it consulted senior U.S. government officials and concluded his return poses no national security risk, while creating a new national security and export control committee and hiring a chief compliance officer as an independent probe into foreign intelligence targeting continues.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;黄仁勋辞职 10 天后被英伟达董事会恢复 CEO 职务&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球最重要 AI 芯片公司 CEO 十天内去而复返，牵涉国家安全审查与出口管制治理架构调整，是 AI 算力供应链的关键变量。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · industry · signal 71/100&lt;/p&gt;</description>
+<source url="https://x.com/dotey/status/2124900260925296807">宝玉 (@dotey)</source>
+<category>英伟达</category>
+<category>黄仁勋</category>
+<category>出口管制</category>
+<category>公司治理</category>
 </item>
 <item><title>Ladybird Browser Engine Enters Alpha with macOS and Linux Builds</title><link>https://ladybird.org/posts/alpha/</link><guid isPermaLink="true">https://ladybird.org/posts/alpha/</guid>
 <pubDate>Tue, 24 Nov 2026 00:13:12 +0800</pubDate>
@@ -179,9 +224,9 @@
 <category>公司治理</category>
 <category>算力</category>
 </item>
-<item><title>Chinese Researchers Launch AscendGYM Benchmark for Huawei Ascend Kernels</title><link>https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks</link><guid isPermaLink="true">https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks</guid>
+<item><title>中国团队发布 AscendGYM 基准 用 AI 优化华为昇腾内核</title><link>https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks</link><guid isPermaLink="true">https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks</guid>
 <pubDate>Mon, 23 Nov 2026 22:11:17 +0800</pubDate>
-<description>&lt;p&gt;Researchers at the Shenzhen Loop Area Institute have released AscendGYM, a kernel optimization benchmark for Huawei Ascend NPUs that evaluates whether an AI agent can further improve a correct kernel&amp;#x27;s performance on a target workload within a budget while preserving correctness. The work gives export-constrained Chinese organizations a route to use AI to optimize domestic compute substrates and narrow the performance gap with Western chips.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;中国团队发布 AscendGYM 基准 用 AI 优化华为昇腾内核&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个面向昇腾 NPU 的 AI 内核优化基准，直接关联国产算力自主与出口管制博弈。&lt;/p&gt;&lt;p&gt;Import AI (Jack Clark) · compute · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;深圳湾区研究院团队发布 AscendGYM，这是面向华为昇腾 NPU 的内核优化基准，用于评估 AI 智能体在给定正确内核实现的前提下，能否在预算内进一步提升目标负载性能并保持正确性。该工作为受出口管制限制的中国机构提供了一条用 AI 自动优化国产算力底座的路径，有望缩小与西方芯片的性能差距。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个面向昇腾 NPU 的 AI 内核优化基准，直接关联国产算力自主与出口管制博弈。&lt;/p&gt;&lt;p&gt;Import AI (Jack Clark) · compute · signal 72/100&lt;/p&gt;</description>
 <source url="https://importai.substack.com/p/import-ai-482-huawei-kernel-benchmarks">Import AI (Jack Clark)</source>
 <category>昇腾 NPU</category>
 <category>内核优化</category>
@@ -189,85 +234,40 @@
 <category>AI for Systems</category>
 <category>基准评测</category>
 </item>
-<item><title>Jensen Huang Returns as Nvidia CEO After Board Reinstatement</title><link>https://www.theverge.com/tech/1039937/nvidia-ceo-jensen-huang-reinstated</link><guid isPermaLink="true">https://www.theverge.com/tech/1039937/nvidia-ceo-jensen-huang-reinstated</guid>
+<item><title>黄仁勋重返英伟达出任 CEO</title><link>https://www.theverge.com/tech/1039937/nvidia-ceo-jensen-huang-reinstated</link><guid isPermaLink="true">https://www.theverge.com/tech/1039937/nvidia-ceo-jensen-huang-reinstated</guid>
 <pubDate>Mon, 23 Nov 2026 22:04:24 +0800</pubDate>
-<description>&lt;p&gt;Nvidia&amp;#x27;s board unanimously voted to reinstate Jensen Huang as president, CEO, and board director, stating it received input from senior levels of the U.S. government and determined his return poses no national security risk. Donald Trump publicly endorsed the decision, saying the U.S. government has no reason to believe Huang&amp;#x27;s return threatens national security. The move comes at a time when Nvidia is critical to the AI boom, following concerns about an outsider replacing him.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;黄仁勋重返英伟达出任 CEO&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达 CEO 更迭直接牵动全球 AI 算力供应链与产业格局，是重大行业事件。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;英伟达董事会一致投票决定恢复黄仁勋的总裁、CEO 及董事职务，并表示已获得美国政府高层意见，认定其回归不构成国家安全风险。特朗普公开支持这一决定，称美国政府无理由认为黄仁勋回归会带来安全风险。此举发生在英伟达对 AI 产业至关重要的时点，此前外界曾担忧外部人选接替黄仁勋。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达 CEO 更迭直接牵动全球 AI 算力供应链与产业格局，是重大行业事件。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.theverge.com/tech/1039937/nvidia-ceo-jensen-huang-reinstated">The Verge AI</source>
 <category>英伟达</category>
 <category>黄仁勋</category>
 <category>公司治理</category>
 <category>AI 算力</category>
 </item>
-<item><title>Jensen Huang Reinstated as Nvidia CEO Amid Compliance Overhaul</title><link>https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director</link><guid isPermaLink="true">https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director</guid>
+<item><title>黄仁勋重返英伟达出任 CEO 并新设合规官</title><link>https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director</link><guid isPermaLink="true">https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director</guid>
 <pubDate>Mon, 23 Nov 2026 22:01:23 +0800</pubDate>
-<description>&lt;p&gt;Nvidia&amp;#x27;s board unanimously reinstated Jensen Huang as President, CEO and director effective immediately, ending CFO Colette Kress&amp;#x27;s interim CEO stint. The board said it received input from senior U.S. government levels and concluded his return poses no national security risk, while the company creates a new Chief Compliance Officer role to oversee compliance and cooperate with ongoing investigations.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;黄仁勋重返英伟达出任 CEO 并新设合规官&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球市值最高芯片公司的最高管理层变动叠加政府安全审查与合规整改，对 AI 算力供应链影响重大。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 71/100&lt;/p&gt;</description>
+<description>&lt;p&gt;英伟达董事会一致决定即刻恢复黄仁勋的总裁兼 CEO 及董事职务，此前临时 CEO 由 CFO Colette Kress 兼任。董事会称已获美国政府高层意见并确认其回归不构成国家安全风险，同时公司新设首席合规官一职以统筹合规并配合政府调查。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球市值最高芯片公司的最高管理层变动叠加政府安全审查与合规整改，对 AI 算力供应链影响重大。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 71/100&lt;/p&gt;</description>
 <source url="https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director">Hacker News AI</source>
 <category>英伟达</category>
 <category>高管变动</category>
 <category>合规监管</category>
 <category>算力</category>
 </item>
-<item><title>Nvidia Board Reinstates Jensen Huang as CEO After Scandal</title><link>https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html</link><guid isPermaLink="true">https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html</guid>
+<item><title>英伟达董事会宣布恢复黄仁勋 CEO 职务</title><link>https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html</link><guid isPermaLink="true">https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html</guid>
 <pubDate>Mon, 23 Nov 2026 22:00:18 +0800</pubDate>
-<description>&lt;p&gt;Nvidia&amp;#x27;s board unanimously voted to immediately reinstate Jensen Huang as president, CEO and board director. Huang had resigned on Nov. 13 amid reports of extramarital affairs, including one with an alleged Chinese spy, a scandal that hammered the chipmaker&amp;#x27;s stock and rattled the tech and AI industries. The board said it acted after input from senior levels of the U.S. government.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达董事会宣布恢复黄仁勋 CEO 职务&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球最重要 AI 算力公司的最高管理层突发变动与复职，直接影响产业走向与市场预期。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;英伟达董事会一致投票决定，立即恢复黄仁勋的总裁、CEO 及董事职务。此前黄仁勋因婚外情及涉嫌中国间谍的报道于 11 月 13 日辞职，该丑闻重创公司股价并震动科技与 AI 行业。董事会称已与美国政府高层沟通后作出此决定。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球最重要 AI 算力公司的最高管理层突发变动与复职，直接影响产业走向与市场预期。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html">Hacker News AI</source>
 <category>英伟达</category>
 <category>高管变动</category>
 <category>AI 算力</category>
 </item>
-<item><title>Meta AI Chief Warns Industry Is Unprepared for Superintelligence</title><link>https://the-decoder.com/metas-alexandr-wang-warns-the-ai-industry-isnt-ready-for-whats-coming-after-riemann-breakthrough/</link><guid isPermaLink="true">https://the-decoder.com/metas-alexandr-wang-warns-the-ai-industry-isnt-ready-for-whats-coming-after-riemann-breakthrough/</guid>
+<item><title>Meta 首席 AI 官警告行业尚未准备好迎接超级智能</title><link>https://the-decoder.com/metas-alexandr-wang-warns-the-ai-industry-isnt-ready-for-whats-coming-after-riemann-breakthrough/</link><guid isPermaLink="true">https://the-decoder.com/metas-alexandr-wang-warns-the-ai-industry-isnt-ready-for-whats-coming-after-riemann-breakthrough/</guid>
 <pubDate>Mon, 23 Nov 2026 21:59:36 +0800</pubDate>
-<description>&lt;p&gt;Meta Chief AI Officer Alexandr Wang argues that an AI-assisted proof sketch of the Riemann Hypothesis shows raw intelligence is no longer the bottleneck, with current models lacking only domain knowledge and infrastructure. He warns that models could soon self-improve and accelerate research in biology, weapons and economics faster than society can absorb.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 首席 AI 官警告行业尚未准备好迎接超级智能&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Meta 核心 AI 高管就前沿模型能力跃迁与自我改进风险给出明确判断，属重要行业观点信号。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Meta 首席 AI 官 Alexandr Wang 认为，AI 辅助完成黎曼猜想的证明草图表明，原始智能已不再是瓶颈，当前模型只缺领域知识与工程基础设施。他警告，模型可能很快实现自我改进并加速生物、武器与经济等领域研究，而行业尚未做好应对准备。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Meta 核心 AI 高管就前沿模型能力跃迁与自我改进风险给出明确判断，属重要行业观点信号。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/metas-alexandr-wang-warns-the-ai-industry-isnt-ready-for-whats-coming-after-riemann-breakthrough/">The Decoder</source>
 <category>超级智能</category>
 <category>Meta</category>
 <category>AI 安全</category>
 <category>科研自动化</category>
-</item>
-<item><title>155 家组织呼吁亚马逊 eBay 停售 AI 玩具</title><link>https://www.ithome.com/1/031/203.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/203.htm</guid>
-<pubDate>Mon, 23 Nov 2026 21:15:12 +0800</pubDate>
-<description>&lt;p&gt;由 155 家儿童权益保护组织组成的联盟向亚马逊和 eBay 发出公开信，要求其停止销售缺乏安全测试的 AI 玩具，理由是这类产品存在生成色情内容、泄露隐私、提供危险物品使用指导等风险。美国公共利益研究组织（U.S. PIRG）的年度测试发现，部分 AI 玩具会与儿童进行不当对话，亚马逊已下架个别产品，但仅美国站仍有超 50 款在售。加州已立法自 2027 年起禁止向 16 岁以下儿童销售配备陪伴型聊天机器人的玩具，联盟认为平台不必等待禁令生效。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 玩具安全争议首次升级为大规模组织联合施压电商平台，叠加州级立法时间表，是 AI 消费硬件合规风险的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/031/203.htm">IT之家 · 智能时代</source>
-<category>AI 玩具</category>
-<category>儿童安全</category>
-<category>电商平台</category>
-<category>监管合规</category>
-</item>
-<item><title>METR 更新 AI 时间跨度图 判断力成新瓶颈</title><link>https://www.technologyreview.com/2026/11/23/1149548/the-download-ai-judgment-problem-carbon-removal-crop-threat/</link><guid isPermaLink="true">https://www.technologyreview.com/2026/11/23/1149548/the-download-ai-judgment-problem-carbon-removal-crop-threat/</guid>
-<pubDate>Mon, 23 Nov 2026 21:10:00 +0800</pubDate>
-<description>&lt;p&gt;AI 评估非营利机构 METR 更新其广受关注的「时间跨度」图表，新增设计 AI 评估、评分哲学论证等开放式任务。结果显示模型在编码类任务上能力呈指数级提升，但在需要判断力的任务上明显落后，而这类能力对实现研发自动化至关重要。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;METR 时间跨度图是衡量 AI 能力进展的重要标尺，此次更新揭示判断力短板，对关注研发自动化的读者有实质参考价值。&lt;/p&gt;&lt;p&gt;MIT Technology Review · llm · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.technologyreview.com/2026/11/23/1149548/the-download-ai-judgment-problem-carbon-removal-crop-threat/">MIT Technology Review</source>
-<category>AI 评估</category>
-<category>METR</category>
-<category>模型能力</category>
-<category>研发自动化</category>
-</item>
-<item><title>Arm CEO 哈斯续约至 2033 年并出任软银副董事长</title><link>https://www.ithome.com/1/031/200.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/200.htm</guid>
-<pubDate>Mon, 23 Nov 2026 20:48:58 +0800</pubDate>
-<description>&lt;p&gt;Arm 宣布 CEO 雷内・哈斯续约至 2033 年，他将于 2026 年 12 月 1 日起兼任最大股东软银集团副董事长。此举将 Arm 管理层与软银的 AI 算力战略更紧密绑定，为 Arm 在数据中心与 AI 芯片领域的长期路线提供稳定性。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Arm 掌舵人长期锁定并进入软银决策层，直接影响 AI 算力底层架构的路线稳定性。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/031/200.htm">IT之家 · IT业界</source>
-<category>Arm</category>
-<category>软银</category>
-<category>芯片算力</category>
-<category>人事变动</category>
-</item>
-<item><title>Win4wine 让 Windows XP 外壳成为 Linux 桌面</title><link>https://github.com/mikuta0407/win4wine</link><guid isPermaLink="true">https://github.com/mikuta0407/win4wine</guid>
-<pubDate>Mon, 23 Nov 2026 20:28:11 +0800</pubDate>
-<description>&lt;p&gt;Win4wine 是一个实验性开源项目，通过打补丁的 Wine 在 Linux 上运行 Windows XP 的 explorer.exe，将其作为完整桌面外壳，提供原版任务栏、开始菜单、桌面与文件夹窗口，并让 Linux 应用以 XP 窗口边框和任务栏方式集成。项目不捆绑微软文件，需用户自备 XP ISO，也支持 ReactOS 或 Windows 7 外壳替代方案。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以 Wine 兼容层实现 Windows 外壳级桌面集成的罕见工程实验，对桌面环境与兼容层技术爱好者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
-<source url="https://github.com/mikuta0407/win4wine">Hacker News AI</source>
-<category>开源项目</category>
-<category>Wine</category>
-<category>Linux 桌面</category>
-<category>兼容层</category>
-</item>
-<item><title>GPT-6.2 Astra 独立攻克 2006 年数学定理并自创证明路径</title><link>https://the-decoder.com/gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proof-strategy/</link><guid isPermaLink="true">https://the-decoder.com/gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proof-strategy/</guid>
-<pubDate>Mon, 23 Nov 2026 20:17:01 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 的 GPT-6.2 Astra 在无人类干预下，为 2006 年提出的 Smoktunowicz 间隙定理生成了可机器验证的 Lean 形式化证明，这是该定理首个已知的 Lean 证明。由于 Mathlib 缺少原始证明的关键基础，Astra 绕开已发表路径，改用既有研究中的“容量”度量自行构建证明策略。该案例显示前沿模型已能在形式化数学中产出可验证的新颖推理，而非仅复述训练数据。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个可机器验证的定理形式化证明由 AI 独立完成，且自创证明路径，是 AI for Math 的标志性节点。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 88/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proof-strategy/">The Decoder</source>
-<category>大模型</category>
-<category>AI for Math</category>
-<category>形式化证明</category>
-<category>OpenAI</category>
 </item>
 </channel>
 </rss>
