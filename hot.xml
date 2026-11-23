@@ -67,13 +67,13 @@ Inkling 2 Mini 的发布标志着循环架构在开源模型中的一次重要�
 
 Anthropic 的上市标志着头部大模型公司首次进入公开资本市场，为 AI 行业估值与商业化能力提供了关键定价锚点。其约 2200 亿美元的现金储备将加剧与 OpenAI 等对手的算力军备竞赛，同时也让资本市场对 AI 泡沫的争论更趋白热化。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · IT业界, Anthropic AI (@AnthropicAI), Yuchen Jin (@Yuchenj_UW), 机器之心 (微信公众号), The Decoder&lt;/p&gt;</description>
 </item>
+<item><title>英伟达发布 2B 推理 VLA 模型 Alpamayo 2 Edge</title><link>https://todayforai.com/en/story/story-3e94a140-d23</link><guid isPermaLink="true">https://todayforai.com/en/story/story-3e94a140-d23</guid>
+<pubDate>Mon, 23 Nov 2026 02:54:11 +0800</pubDate>
+<description>&lt;p&gt;英伟达发布 2B 参数推理型视觉语言动作模型 Alpamayo 2 Edge，运行于 DRIVE AGX Thor 车端平台，核心创新是自适应推理：常规驾驶仅输出 &amp;lt;NOMINAL&amp;gt; 标记，仅在复杂场景生成因果链解释，以节省车载算力。官方 AlpaSim 测试中责任事故间隔达 15.15 km，约为 4B Qwen-Drive-1.0 的 60 倍，开环 minADE 0.53 m，FP8 TensorRT 下像素到轨迹规划耗时 160-190 ms；但 LingoQA 得分 75.2，落后于自家 Super 版本与 Qwen-Drive-1.0 SFT。权重以 OpenMDW-1.1、代码以 Apache 2.0 在 Hugging Face 开放。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost)&lt;/p&gt;</description>
+</item>
 <item><title>Anthropic 2028 年电力 87% 来自天然气</title><link>https://todayforai.com/en/story/story-4d18b27f-9fd</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4d18b27f-9fd</guid>
 <pubDate>Sun, 22 Nov 2026 16:57:34 +0800</pubDate>
 <description>&lt;p&gt;分析显示，Anthropic 为支撑其 AI 算力扩张，正大规模自建与锁定化石能源发电，预计到 2028 年其电力结构中约 87% 来自天然气、11% 来自煤炭，可再生能源占比极低。这一案例折射出 AI 数据中心“自带电源”（BYOP）与电网新增化石产能合计约 377 GW 的行业趋势，凸显 AI 算力扩张与清洁能源目标之间的结构性矛盾。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Hacker News AI&lt;/p&gt;</description>
-</item>
-<item><title>蚂蚁发布 560B 医疗 MoE 模型 LingSante-3.1-flash 并开源</title><link>https://todayforai.com/en/story/story-c5def680-01d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c5def680-01d</guid>
-<pubDate>Mon, 23 Nov 2026 03:22:49 +0800</pubDate>
-<description>&lt;p&gt;蚂蚁集团开源 LingSante-3.1-flash，总参数 560B、每 token 激活 25B 的医疗 MoE 模型，采用 MIT 许可在 Hugging Face 放出权重。该模型在 HealthBench Professional、HLE、BrowseComp 与 EHR-Complex 上超过 GPT-6 Astra、Claude Opus 5.5 和 Gemini 4 Argon。其方法是从预训练阶段即混合医疗与通用数据，将医疗推理、工具调用、检索与临床行为作为独立技能分别用 RL 奖励训练，再通过多教师同策略蒸馏合并为单一模型。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

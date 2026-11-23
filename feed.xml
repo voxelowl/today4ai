@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Mon, 23 Nov 2026 08:10:21 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 23 Nov 2026 08:18:21 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Intel Says 18A Yield Hits 70 Percent as 14A Targets 2028</title><link>https://www.ithome.com/1/030/734.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/734.htm</guid>
+<pubDate>Mon, 23 Nov 2026 08:18:21 +0800</pubDate>
+<description>&lt;p&gt;Intel CEO Lip-Bu Tan said at the TomorrowX conference that Intel 18A process yield has climbed to 70 percent from what he called a very poor level when he took over in March 2025. The node already powers Panther Lake client chips and the up-to-288-core Clearwater Forest Xeon 6+ data center processors. For the next node, Intel has shipped 14A PDK 0.9 to customers, with PDK 1.0 due in Q1 2027, risk production in H2 2027 and volume manufacturing in 2028.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英特尔 18A 良率达 70% 14A 定档 2028 年量产&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是英特尔代工路线图的关键节点数据，直接关系到其先进制程竞争力与 AI 算力供给格局。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 72/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/030/734.htm">IT之家 · IT业界</source>
+<category>英特尔</category>
+<category>先进制程</category>
+<category>18A</category>
+<category>14A</category>
+<category>芯片制造</category>
+</item>
 <item><title>Nadella Admits Claude Code Eroded VS Code Dominance in Six Months</title><link>https://www.ithome.com/1/030/733.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/733.htm</guid>
 <pubDate>Mon, 23 Nov 2026 08:10:21 +0800</pubDate>
 <description>&lt;p&gt;Microsoft CEO Satya Nadella publicly acknowledged that within roughly six months of Anthropic launching Claude Code, traditional IDEs like VS Code have visibly lost developer mindshare, as coding shifts from typing code to describing intent. His stated lesson: don&amp;#x27;t fall in love with what you built. He argues IDEs may revive around writing Markdown specs with next-gen decision models, and Microsoft has already shipped agent inbox, model comparison and model routing in VS Code 1.146 and 1.147.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;纳德拉承认 Claude Code 半年动摇 VS Code 地位&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;微软一号位罕见公开承认竞品冲击自家旗舰工具，是 AI 编程范式转移的标志性表态。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 72/100&lt;/p&gt;</description>
@@ -12,6 +22,14 @@
 <category>Claude Code</category>
 <category>微软</category>
 <category>开发者工具</category>
+</item>
+<item><title>0rwx Framework Maps AI Usage Levels to Unix Permissions</title><link>https://0rwx.com/</link><guid isPermaLink="true">https://0rwx.com/</guid>
+<pubDate>Mon, 23 Nov 2026 07:53:00 +0800</pubDate>
+<description>&lt;p&gt;The author proposes 0rwx, a labelling system that borrows Unix file-permission levels from 0 to rwx to describe a user&amp;#x27;s ability to scrutinise AI-generated work rather than the tools they use. It aims to give domain experts clearer, less judgemental language for discussing AI, with the logos released into the public domain.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;0rwx 框架用 Unix 权限类比 AI 使用层级&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了一套轻量、可复用的 AI 使用能力分级语言，对团队内部讨论 AI 协作有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 38/100&lt;/p&gt;</description>
+<source url="https://0rwx.com/">Hacker News AI</source>
+<category>AI 使用框架</category>
+<category>Unix 权限</category>
+<category>概念模型</category>
 </item>
 <item><title>Lean Community Verifies Formal Proof of Riemann Hypothesis</title><link>https://www.ithome.com/1/030/725.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/725.htm</guid>
 <pubDate>Mon, 23 Nov 2026 07:24:31 +0800</pubDate>
@@ -149,6 +167,16 @@
 <category>推理服务</category>
 <category>Databricks</category>
 </item>
+<item><title>NVIDIA Releases Alpamayo 2 Edge 2B Reasoning VLA for In-Car Driving</title><link>https://x.com/Marktechpost/status/2124577197780582804</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2124577197780582804</guid>
+<pubDate>Mon, 23 Nov 2026 02:54:11 +0800</pubDate>
+<description>&lt;p&gt;NVIDIA released Alpamayo 2 Edge, a 2B-parameter reasoning vision-language-action model running on the DRIVE AGX Thor in-car platform. Its key innovation is adaptive reasoning: it emits \u003cNOMINAL\u003e tokens during routine driving and generates a Chain-of-Causation explanation only when a scene demands it, saving onboard compute. NVIDIA-run AlpaSim tests show 15.15 km between at-fault incidents, roughly 60x the 4B Qwen-Drive-1.0, with open-loop minADE of 0.53 m and 160-190 ms pixel-to-trajectory planning under an FP8 TensorRT recipe; however, LingoQA scores 75.2, trailing both Alpamayo 2 Super and Qwen-Drive-1.0 SFT. Weights are on Hugging Face under OpenMDW-1.1 and code under Apache 2.0.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达发布 2B 推理 VLA 模型 Alpamayo 2 Edge&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;车端 2B 推理 VLA 以自适应推理换取算力效率，并开放权重与代码，是自动驾驶端侧模型的重要工程样本。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/Marktechpost/status/2124577197780582804">Marktechpost (@Marktechpost)</source>
+<category>自动驾驶</category>
+<category>VLA</category>
+<category>英伟达</category>
+<category>开源模型</category>
+<category>车端推理</category>
+</item>
 <item><title>Agent-Led Search Engine last30days Hits 72K GitHub Stars</title><link>https://github.com/mvanhorn/last30days-skill</link><guid isPermaLink="true">https://github.com/mvanhorn/last30days-skill</guid>
 <pubDate>Mon, 23 Nov 2026 02:42:48 +0800</pubDate>
 <description>&lt;p&gt;The open-source project last30days runs an AI agent-led search engine that ranks results by real signals such as Reddit upvotes, X likes and money-backed Polymarket odds instead of editorial curation, and has reached roughly 72K GitHub stars. It installs via the Claude Code plugin marketplace or npx skills with zero config, immediately covering Reddit, Hacker News, GitHub, patents and careers pages, while a setup wizard unlocks X, YouTube, arXiv and more.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;last30days 智能体搜索引擎获 7.2 万星&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了以真实社区与资金信号替代编辑排序的智能体搜索范式，且安装门槛极低、可直接上手。&lt;/p&gt;&lt;p&gt;GitHub Trending AI · agent · signal 62/100&lt;/p&gt;</description>
@@ -203,27 +231,27 @@
 <category>实证研究</category>
 <category>出口管制</category>
 </item>
-<item><title>C++26 Technical Work Completed Again After Ballot Rejection</title><link>https://herbsutter.com/2026/11/21/c26-is-done-again-trip-report-november-2026-iso-c-standards-meeting-buzios-brazil/</link><guid isPermaLink="true">https://herbsutter.com/2026/11/21/c26-is-done-again-trip-report-november-2026-iso-c-standards-meeting-buzios-brazil/</guid>
+<item><title>C++26 技术工作二次完成 合约特性成焦点</title><link>https://herbsutter.com/2026/11/21/c26-is-done-again-trip-report-november-2026-iso-c-standards-meeting-buzios-brazil/</link><guid isPermaLink="true">https://herbsutter.com/2026/11/21/c26-is-done-again-trip-report-november-2026-iso-c-standards-meeting-buzios-brazil/</guid>
 <pubDate>Sun, 22 Nov 2026 23:59:59 +0800</pubDate>
-<description>&lt;p&gt;The ISO C++ committee completed technical work on C++26 for a second time in Búzios, Brazil, after the March version failed to pass its DIS ballot unanimously and was returned with international comments. The six-day meeting focused on resolving a second round of comments, mainly on the contracts language feature, while adopting break/continue with labels, std::ranges::any_view and views::slice for the C++29 draft.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;C++26 技术工作二次完成 合约特性成焦点&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;C++26 因合约特性争议罕见地被退回重审，是理解现代 C++ 演进节奏与标准化流程的重要节点。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;ISO C++ 委员会在巴西 Búzios 会议上第二次完成 C++26 技术工作，此前 3 月完成的版本在 DIS 投票中首次未获全票通过并被退回。本次六天会议主要处理第二轮国际意见，集中在 contracts 语言特性上，同时为 C++29 草案采纳了带标签的 break/continue、std::ranges::any_view、views::slice 等新特性。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;C++26 因合约特性争议罕见地被退回重审，是理解现代 C++ 演进节奏与标准化流程的重要节点。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://herbsutter.com/2026/11/21/c26-is-done-again-trip-report-november-2026-iso-c-standards-meeting-buzios-brazil/">Hacker News AI</source>
 <category>C++26</category>
 <category>ISO C++</category>
 <category>编程语言</category>
 <category>标准化</category>
 </item>
-<item><title>US Startup Unveils AI-Designed Frostbite CPU With 4.59x Efficiency Gain</title><link>https://www.ithome.com/1/030/717.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/717.htm</guid>
+<item><title>美初创公司用 AI 自研 CPU 架构能效提升 4.59 倍</title><link>https://www.ithome.com/1/030/717.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/717.htm</guid>
 <pubDate>Sun, 22 Nov 2026 23:15:55 +0800</pubDate>
-<description>&lt;p&gt;Palo Alto startup Architect Labs says its AI system autonomously discovered, designed and validated Frostbite, a general-purpose CPU with a new instruction set and a &amp;#x27;Multithreading for Free&amp;#x27; scheme that sidesteps out-of-order execution and cache-coherence overhead. In simulations across 25 workloads, a four-tile cluster delivered 4.59x the performance per watt and 8.77x the performance per area of a comparable dual-issue in-order core. The results come from a 7nm simulated design that has not been taped out, so real-silicon gains remain unproven.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美初创公司用 AI 自研 CPU 架构能效提升 4.59 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 自主完成 CPU 架构设计并给出可量化能效数据，是 AI for Chip Design 的标志性案例，但模拟结果未流片需谨慎看待。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;帕洛阿尔托初创公司 Architect Labs 宣布，其 AI 系统自主发现、设计并验证了一款名为 Frostbite 的通用 CPU 架构，采用全新指令集与“免费多线程”方案，绕开乱序执行与缓存一致性等传统硬件开销。在 25 项工作负载模拟中，4 Tile 集群每瓦性能达同尺寸双发射顺序执行核心的 4.59 倍，单位面积性能达 8.77 倍。但该结果基于 7 纳米工艺模拟设计，尚未流片，实际芯片表现仍待验证。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 自主完成 CPU 架构设计并给出可量化能效数据，是 AI for Chip Design 的标志性案例，但模拟结果未流片需谨慎看待。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/030/717.htm">IT之家 · 智能时代</source>
 <category>芯片算力</category>
 <category>AI 芯片设计</category>
 <category>CPU 架构</category>
 <category>Architect Labs</category>
 </item>
-<item><title>AI Coding Agents Complete Under 10% of Simulated Workplace Tasks</title><link>https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/</link><guid isPermaLink="true">https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/</guid>
+<item><title>AI 编程智能体模拟职场任务完成率不足一成</title><link>https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/</link><guid isPermaLink="true">https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/</guid>
 <pubDate>Sun, 22 Nov 2026 23:15:48 +0800</pubDate>
-<description>&lt;p&gt;A new experiment places frontier coding agents such as Claude Opus 5.5 and GPT-6 Astra inside a simulated software company with colleagues, project boards, and chat histories to test them as digital employees. Despite near-saturated scores on isolated benchmarks like SWE-bench, the agents fully completed fewer than one in ten tasks, exposing a wide gap between benchmark performance and real workplace collaboration.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 编程智能体模拟职场任务完成率不足一成&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次以模拟职场环境检验编程智能体的端到端任务完成率，揭示基准饱和与真实落地能力之间的显著落差。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;一项新实验首次将 Claude Opus 5.5、GPT-6 Astra 等前沿编程智能体置于模拟软件公司环境中，配备同事、项目看板与聊天记录，考察其作为“数字员工”的真实工作能力。结果显示，尽管这些模型在 SWE-bench 等孤立基准上接近满分，但在完整任务闭环中完全完成率不足 10%，暴露出基准成绩与真实职场协作能力之间的巨大鸿沟。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次以模拟职场环境检验编程智能体的端到端任务完成率，揭示基准饱和与真实落地能力之间的显著落差。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 78/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/">The Decoder</source>
 <category>AI 编程智能体</category>
 <category>基准评测</category>
@@ -247,34 +275,6 @@
 <category>搜索 API</category>
 <category>智能体</category>
 <category>开发者工具</category>
-</item>
-<item><title>AI 服务器交付前涨价最高达 45%</title><link>https://www.ithome.com/1/030/713.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/713.htm</guid>
-<pubDate>Sun, 22 Nov 2026 22:00:48 +0800</pubDate>
-<description>&lt;p&gt;据金融时报报道，戴尔、HPE、联想、超微等 AI 服务器厂商在合同签署数月后、设备交付前大幅提价，涨幅达 25% 至 45%，买家被迫接受。涨价主因是内存成本自 2024 年初上涨超 400%，戴尔与 XTX 的 5.49 亿美元固定价合同纠纷已在爱尔兰法院公开。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示算力供应链定价权失衡与内存成本传导，是理解 AI 基础设施经济性的关键信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/030/713.htm">IT之家 · 智能时代</source>
-<category>AI 服务器</category>
-<category>算力基础设施</category>
-<category>内存涨价</category>
-<category>戴尔</category>
-</item>
-<item><title>Show HN 新作让玩家扮演 AI 智能体的子代理</title><link>https://github.com/gulivan/worker755</link><guid isPermaLink="true">https://github.com/gulivan/worker755</guid>
-<pubDate>Sun, 22 Nov 2026 21:56:58 +0800</pubDate>
-<description>&lt;p&gt;开发者发布浏览器游戏 Worker 755，玩家扮演真实大模型（Claude、GPT、Gemini、DeepSeek 等）编排器下的子代理，在 90 秒倒计时内执行终端指令并提交报告。游戏通过隐藏的 ground-truth 校验模拟智能体编排中的指令下发、纠错与绩效评估闭环，兼具娱乐性与对多智能体协作流程的直观演示。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以游戏形式直观呈现 LLM 编排器与子代理的协作闭环，对理解智能体任务分发与校验机制有启发价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 58/100&lt;/p&gt;</description>
-<source url="https://github.com/gulivan/worker755">Hacker News AI</source>
-<category>智能体</category>
-<category>多智能体编排</category>
-<category>浏览器游戏</category>
-<category>Show HN</category>
-</item>
-<item><title>MiniMax 内部模型攻破多个密码学前沿方案</title><link>https://www.ithome.com/1/030/711.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/711.htm</guid>
-<pubDate>Sun, 22 Nov 2026 21:23:38 +0800</pubDate>
-<description>&lt;p&gt;MiniMax 宣布其最新内部模型对现代密码方案开展系统性自动化密码分析，首次实际攻破多个 NIST 竞赛中此前无已知实际攻击的候选算法，并对顶会顶刊方案实现高效密文伪造与密钥恢复，刷新新型分组密码最高破解轮数纪录。在经典数学困难问题的国际公开挑战赛中，该模型首次解出数十个无公开解的高阶实例，实测较最优算法加速数百至数万倍。官方强调不影响 AES、RSA、SHA-256 等现行主流标准，并已公开技术报告与代码。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大模型首次被系统性用于自动化密码分析并取得可验证的实战突破，是 AI for Science 与安全领域的标志性事件。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/030/711.htm">IT之家 · 智能时代</source>
-<category>密码学</category>
-<category>AI for Science</category>
-<category>MiniMax</category>
-<category>自动化密码分析</category>
-<category>安全披露</category>
 </item>
 </channel>
 </rss>
