@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Mon, 23 Nov 2026 22:49:24 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 23 Nov 2026 23:22:19 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>OpenCode 2.4.0 Ships Automation Tool for Agent Workflows</title><link>https://x.com/opencode/status/2124886266835505473</link><guid isPermaLink="true">https://x.com/opencode/status/2124886266835505473</guid>
+<pubDate>Mon, 23 Nov 2026 23:22:19 +0800</pubDate>
+<description>&lt;p&gt;OpenCode 2.4.0 introduces an automation tool that lets agents create automations running on schedule or reacting to MCP events. These automations can trigger prompts, shell commands, or code-mode scripts with access to MCP tools.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenCode 2.4.0 发布自动化工具&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为智能体工作流加入事件驱动与定时自动化能力，对使用 MCP 的开发者有直接实用价值。&lt;/p&gt;&lt;p&gt;OpenCode (@opencode) · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/opencode/status/2124886266835505473">OpenCode (@opencode)</source>
+<category>OpenCode</category>
+<category>MCP</category>
+<category>智能体</category>
+<category>自动化</category>
+</item>
+<item><title>Z.ai Unveils 750B GLM-5.4 Built on Loop Transformer Architecture</title><link>https://the-decoder.com/z-ai-follows-openai-into-loop-transformer-territory-with-its-new-750b-flagship-model/</link><guid isPermaLink="true">https://the-decoder.com/z-ai-follows-openai-into-loop-transformer-territory-with-its-new-750b-flagship-model/</guid>
+<pubDate>Mon, 23 Nov 2026 23:13:03 +0800</pubDate>
+<description>&lt;p&gt;Zhipu AI has released GLM-5.4, a 750-billion-parameter flagship that adopts a loop transformer architecture, running a shared block of layers twice to deepen the network without adding parameters. Dedicated control gates, a shared token cache and sparse attention curb memory and compute growth; Z.ai says the model can generate videos, games and CAD models from code, with weights to follow.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;智谱发布 7500 亿参数 GLM-5.4 采用循环 Transformer 架构&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产旗舰模型首次跟进循环 Transformer 路线，7500 亿参数与免增参数的深度扩展方案具备明确技术增量。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/z-ai-follows-openai-into-loop-transformer-territory-with-its-new-750b-flagship-model/">The Decoder</source>
+<category>大模型</category>
+<category>智谱 AI</category>
+<category>循环 Transformer</category>
+<category>GLM-5.4</category>
+</item>
 <item><title>Nvidia Reinstates Jensen Huang as CEO After Board Review</title><link>https://www.ithome.com/1/031/218.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/218.htm</guid>
 <pubDate>Mon, 23 Nov 2026 22:49:24 +0800</pubDate>
 <description>&lt;p&gt;Nvidia&amp;#x27;s board unanimously voted to reinstate Jensen Huang as president, CEO and board member effective immediately, ending a brief period of his departure. Elon Musk reposted the announcement on X with the comment \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达恢复黄仁勋 CEO 职务&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球市值最高芯片公司的最高管理层变动，直接影响 AI 算力供应链预期，值得关注。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
@@ -210,18 +228,18 @@
 <category>Meta</category>
 <category>社区影响</category>
 </item>
-<item><title>AutoArk Releases Edge0-145B, a 145-Billion-Parameter On-Device Model</title><link>https://www.qbitai.com/2026/11/512195.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/512195.html</guid>
+<item><title>无界方舟发布 1450 亿参数端侧大模型 Edge0-145B</title><link>https://www.qbitai.com/2026/11/512195.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/512195.html</guid>
 <pubDate>Mon, 23 Nov 2026 19:01:15 +0800</pubDate>
-<description>&lt;p&gt;AutoArk has released Edge0-145B, a 145-billion-parameter on-device foundation model it calls the first trillion-scale-class model built natively for local deployment, running offline on PCs and high-end laptops at over 80 tokens per second. The open-source release topped Hugging Face&amp;#x27;s Text Generation leaderboard within three days, with vendor benchmarks positioning it against cloud models such as Claude Opus 4.6 and DeepSeek-V4-Flash.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;无界方舟发布 1450 亿参数端侧大模型 Edge0-145B&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;千亿参数端侧模型首次真正跑在消费级硬件上，直接冲击云端推理成本结构，值得关注。&lt;/p&gt;&lt;p&gt;量子位官网 · llm · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;无界方舟发布 Edge0-145B，总参数量 1450 亿，官方称其为全球首个千亿参数端侧原生基础模型，可在 PC 或高配笔记本上断网运行，推理速度达 80+ token/s。该模型开源上线 3 天即登顶 Hugging Face Text Generation 榜单，官方评测称其智力水平可对标 Claude Opus 4.6、DeepSeek-V4-Flash 等云端模型。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;千亿参数端侧模型首次真正跑在消费级硬件上，直接冲击云端推理成本结构，值得关注。&lt;/p&gt;&lt;p&gt;量子位官网 · llm · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.qbitai.com/2026/11/512195.html">量子位官网</source>
 <category>端侧大模型</category>
 <category>无界方舟</category>
 <category>开源模型</category>
 <category>Edge0-145B</category>
 </item>
-<item><title>Walmart Opens Agent Gateway Letting Meta Muse Shop Black Friday Deals</title><link>https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday</guid>
+<item><title>沃尔玛开放智能体购物通道 支持 Meta Muse 代买黑五商品</title><link>https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday</guid>
 <pubDate>Mon, 23 Nov 2026 19:00:00 +0800</pubDate>
-<description>&lt;p&gt;Walmart has launched the Agent Gateway it previewed last month, letting Meta&amp;#x27;s Muse agent search and purchase Black Friday deals on its site on users&amp;#x27; behalf. Agent activity runs through dedicated Agent Profiles inside the customer account, with spending limits, purchase approvals and full history, without exposing the user&amp;#x27;s purchase history to the agent. It is one of the first live deployments of AI shopping agents at a major retailer.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;沃尔玛开放智能体购物通道 支持 Meta Muse 代买黑五商品&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流零售商首次向第三方 AI 智能体开放真实交易权限，是智能体商业化落地的关键信号。&lt;/p&gt;&lt;p&gt;The Verge AI · agent · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;沃尔玛正式上线上月预告的 Agent Gateway，允许 Meta 的 Muse 智能体在沃尔玛网站代用户搜索并购买黑五商品。该机制通过独立的 Agent Profiles 隔离智能体活动，用户可设置消费上限、逐笔审批并查看购买记录，无需向智能体共享完整购买历史。这是 AI 购物智能体在主流零售商处落地的首批真实案例之一。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流零售商首次向第三方 AI 智能体开放真实交易权限，是智能体商业化落地的关键信号。&lt;/p&gt;&lt;p&gt;The Verge AI · agent · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.theverge.com/ai-artificial-intelligence/1039874/walmart-agent-gateway-meta-muse-black-friday">The Verge AI</source>
 <category>智能体</category>
 <category>AI 购物</category>
@@ -256,24 +274,6 @@
 <category>沙箱</category>
 <category>腾讯</category>
 <category>快照恢复</category>
-</item>
-<item><title>Meta 首席 AI 官称超级智能已至但反对移交社会</title><link>https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651075779&amp;idx=2&amp;sn=db35c965e76c082820047067df9b866e</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651075779&amp;idx=2&amp;sn=db35c965e76c082820047067df9b866e</guid>
-<pubDate>Mon, 23 Nov 2026 17:30:00 +0800</pubDate>
-<description>&lt;p&gt;Meta 首席 AI 官 Alexandr Wang 发表长文《Superintelligence is Arriving》，以 Claude 参与黎曼猜想形式化证明为引，判断 AI 智力瓶颈已被突破，未来将自动化整个 AI 研究并自我改进。但他同时明确反对把社会移交给 AI，强调未来一年人类的选择将决定最终世界形态。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部实验室高管对超级智能时间线的公开判断，兼有黎曼猜想形式化证明这一标志性事件，值得关注。&lt;/p&gt;&lt;p&gt;机器之心 (微信公众号) · llm · signal 58/100&lt;/p&gt;</description>
-<source url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651075779&amp;idx=2&amp;sn=db35c965e76c082820047067df9b866e">机器之心 (微信公众号)</source>
-<category>超级智能</category>
-<category>Meta</category>
-<category>黎曼猜想</category>
-<category>形式化证明</category>
-</item>
-<item><title>新国立 PEEK 采样法让扩散模型 FID 最高降 49 点</title><link>https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651075779&amp;idx=3&amp;sn=ff8f20a1a0f4b849a0dbf430478343ba</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651075779&amp;idx=3&amp;sn=ff8f20a1a0f4b849a0dbf430478343ba</guid>
-<pubDate>Mon, 23 Nov 2026 17:30:00 +0800</pubDate>
-<description>&lt;p&gt;新加坡国立大学团队提出 PEEK 采样方法，被 NeurIPS 2026 接收。该方法针对扩散模型的曝光偏差问题，在确定性采样中先「前瞻」一步、用更少噪声位置的预测结果回填当前步输入，从而在相同采样步数下更早纠正方向偏差。无需重新训练模型、即插即用，FID 最高下降 49.3 点。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;免训练、即插即用的扩散采样改进，在同等步数下带来显著 FID 收益，对生成模型实践者有直接参考价值。&lt;/p&gt;&lt;p&gt;机器之心 (微信公众号) · llm · signal 71/100&lt;/p&gt;</description>
-<source url="https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&amp;mid=2651075779&amp;idx=3&amp;sn=ff8f20a1a0f4b849a0dbf430478343ba">机器之心 (微信公众号)</source>
-<category>扩散模型</category>
-<category>采样算法</category>
-<category>NeurIPS</category>
-<category>图像生成</category>
 </item>
 </channel>
 </rss>

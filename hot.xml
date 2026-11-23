@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Mon, 23 Nov 2026 22:39:10 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 23 Nov 2026 23:13:03 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>英伟达董事会全票推翻决定 黄仁勋复职股价大涨 31%</title><link>https://todayforai.com/en/story/story-97c1526e-d94</link><guid isPermaLink="true">https://todayforai.com/en/story/story-97c1526e-d94</guid>
 <pubDate>Mon, 23 Nov 2026 22:39:10 +0800</pubDate>
@@ -12,12 +12,12 @@
 此次复职发生在 AI 产业对英伟达算力需求空前高涨的时点，马斯克等科技高管曾公开请愿要求黄仁勋回归。分析认为，创始人回归将稳定公司战略方向，但合规官新设与独立调查持续，意味着治理架构面临再平衡。英伟达股价单日大涨 31%，反映华尔街对黄仁勋领导力的高度认可，也为 AI 芯片竞赛注入新变数。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;The Verge AI, Hacker News AI, Rohan Paul (@rohanpaul_ai), TechCrunch AI, IT之家 · IT业界, The Decoder&lt;/p&gt;</description>
 </item>
 <item><title>智谱发布 GLM-5.4 循环 Transformer 架构落地</title><link>https://todayforai.com/en/story/story-d2145516-db8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d2145516-db8</guid>
-<pubDate>Mon, 23 Nov 2026 18:06:43 +0800</pubDate>
-<description>&lt;p&gt;智谱正式发布旗舰模型 GLM-5.4，这是其首个基于循环 Transformer（Loop Transformer）架构的大模型。该架构通过多次迭代复用同一组共享权重层来加深推理，在不增加参数量的前提下，使模型智能水平对标 2T-3T 参数级模型，验证了计算深度扩展路线的可行性。
+<pubDate>Mon, 23 Nov 2026 23:13:03 +0800</pubDate>
+<description>&lt;p&gt;智谱 AI 正式发布旗舰模型 GLM-5.4，这是全球首个采用循环 Transformer 架构的大模型，通过共享权重层多次迭代复用，在不增加参数量的前提下实现更深推理，智能水平对标 2-3 万亿参数级模型。该模型参数规模达 7500 亿，即日起向 GLM Coding Plan 全量用户开放，并新增视觉理解能力与 1M 上下文支持。
 
-综合多源信息，GLM-5.4 主打“泛编程”能力，将代码能力外推至视频生成、完整游戏构建、3D 建模等场景，并新增视觉理解能力，模型列表标注 1M 上下文。即日起向 GLM Coding Plan 全量用户开放，V2、V3 及团队版用户额度提升至 1.5 倍，按周计额用户可用量较 GLM-5.3 提升 50%。官方计划在安全评估后开放 API，并负责任地开源权重。不过，模型存在陷入超长“马拉松式思考”循环的局限，但延长反思与自我纠正通常能带来精度提升。
+技术细节上，GLM-5.4 让共享层块重复运行两次来加深网络，配合控制门、共享 token 缓存与稀疏注意力机制，有效抑制显存与算力开销的上升。官方强调过去三个月同时激进扩展 Scaling Loop 与模型规模，Loop Transformer 是核心突破。模型主打“泛 Coding”，代码能力可外推至视频生成、完整游戏构建与 3D 建模等场景。不过，模型存在陷入超长“马拉松式思考”循环的局限，但延长反思与自我纠正通常带来精度提升。
 
-GLM-5.4 的发布标志着循环 Transformer 架构首次在旗舰模型中落地，为行业提供了不依赖参数膨胀的推理增强新路径。其泛编程定位与视觉能力扩展，有望推动 AI 编程助手向更广泛的创作场景渗透，同时开源计划可能加速该架构的社区探索与生态构建。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Hacker News AI, 智谱 AI 研究, 宝玉 (@dotey)&lt;/p&gt;</description>
+行业影响方面，GLM-5.4 验证了计算深度扩展路线，为突破参数规模瓶颈提供了新范式。即日起 Coding Plan 用户可调用 glm-5.4，V2、V3 及团队版用户额度提升至 1.5 倍，周额度用户可用量较 GLM-5.3 提升 50%。权重计划负责任开源，API 待安全评估后开放。此举可能推动更多厂商探索循环架构，并加速 AI 编程从辅助工具向全栈生成演进。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Hacker News AI, 智谱 AI 研究, The Decoder, 宝玉 (@dotey)&lt;/p&gt;</description>
 </item>
 <item><title>蚂蚁开源 560B 医疗大模型 124B 多模态版笔记本可跑</title><link>https://todayforai.com/en/story/story-c5def680-01d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c5def680-01d</guid>
 <pubDate>Mon, 23 Nov 2026 15:42:01 +0800</pubDate>
