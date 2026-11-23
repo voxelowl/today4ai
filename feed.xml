@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Mon, 23 Nov 2026 13:22:04 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 23 Nov 2026 14:06:12 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>XiaZibian Releases WALL-OSS-1.0 Embodied Foundation Model</title><link>https://www.ithome.com/1/030/890.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/890.htm</guid>
+<pubDate>Mon, 23 Nov 2026 14:06:12 +0800</pubDate>
+<description>&lt;p&gt;Chinese embodied AI startup XiaZibian released WALL-OSS-1.0, a new embodied foundation model that treats pretraining itself as the source of intelligence rather than a starting point for task fine-tuning. Training runs in two stages: action data is injected early alongside multimodal data so world understanding and manipulation form in one set of weights, then an action expert is added for precise, efficient motion generation. The model ranks first among single models on the RoboDojo simulation leaderboard and reaches 55.1% zero-shot success on real robots.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;自变量发布具身基础模型 WALL-OSS-1.0&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;具身基础模型以预训练为核心范式，并在仿真榜单与真机零样本上给出可验证结果，值得关注。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 68/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/030/890.htm">IT之家 · 智能时代</source>
+<category>具身智能</category>
+<category>基础模型</category>
+<category>机器人</category>
+<category>零样本</category>
+</item>
 <item><title>AI Bots Now Supply 52% of Helpful Community Notes on X</title><link>https://x.com/rohanpaul_ai/status/2124735210214568371</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2124735210214568371</guid>
 <pubDate>Mon, 23 Nov 2026 13:22:04 +0800</pubDate>
 <description>&lt;p&gt;A SpaceXAI paper reports that after X opened a public API for Community Notes, AI bots can draft candidate notes, with the largest bot Community Writer using two Grok models to draft, filter weak submissions, and delete notes flagged by early ratings. In June 2026 it produced 41% of proposed notes and 52% of helpful ones while consuming only 22% of human ratings. Every note still requires human raters to decide display, and 42% of posts with a helpful note had only AI notes.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 机器人贡献 X 社区笔记 52% 有用内容&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次以量化数据揭示 AI 智能体在真实内容审核平台上的规模化协作效果与人工评分节省。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 72/100&lt;/p&gt;</description>
@@ -13,6 +22,14 @@
 <category>社区笔记</category>
 <category>X 平台</category>
 </item>
+<item><title>Just How Large Is a 17 Million Line Lean Proof</title><link>https://micjm.com/blog/yes-17m-lines-of-lean-is-a-lot/</link><guid isPermaLink="true">https://micjm.com/blog/yes-17m-lines-of-lean-is-a-lot/</guid>
+<pubDate>Mon, 23 Nov 2026 13:00:49 +0800</pubDate>
+<description>&lt;p&gt;Responding to claims that a Riemann hypothesis proof spans 17 million lines of Lean, the author benchmarks that figure against 259 famous theorems in Mathlib and every Lean package indexed on Reservoir. The comparison shows the claim is genuinely extreme: all of Mathlib is about 2.4 million lines and only three packages exceed 17 million, underscoring the scale of machine-checkable formal proofs.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;1700 万行 Lean 证明规模究竟有多大&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以实证数据回答形式化数学证明规模问题，为关注 AI for Math 与 Lean 生态的读者提供有价值的量级参照。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 42/100&lt;/p&gt;</description>
+<source url="https://micjm.com/blog/yes-17m-lines-of-lean-is-a-lot/">Hacker News AI</source>
+<category>形式化验证</category>
+<category>Lean</category>
+<category>AI for Math</category>
+</item>
 <item><title>Zhipu Releases GLM-5.4 with Vision and 1M Context on Coding Plan</title><link>https://www.ithome.com/1/030/809.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/809.htm</guid>
 <pubDate>Mon, 23 Nov 2026 12:49:30 +0800</pubDate>
 <description>&lt;p&gt;Zhipu has rolled out GLM-5.4 on its Coding Plan, adding vision understanding and stronger general coding performance, with the model list showing a 1M context window. The company said it aggressively scaled both the Scaling Loop and model size over the past three months, with Loop Transformer as the headline technique. V2, V3 and Team users get 1.5x quota and can call it by setting the model name to glm-5.4.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;智谱 GLM-5.4 上线 Coding Plan 新增视觉与 1M 上下文&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产头部基座模型迭代并新增视觉与超长上下文，对关注开源与 Coding 生态的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 62/100&lt;/p&gt;</description>
@@ -20,6 +37,15 @@
 <category>大模型</category>
 <category>智谱</category>
 <category>Coding Plan</category>
+<category>多模态</category>
+</item>
+<item><title>Zhipu Releases GLM-5.4 for Coding Plan with Vision and 50% More Quota</title><link>https://x.com/dotey/status/2124726140023537849</link><guid isPermaLink="true">https://x.com/dotey/status/2124726140023537849</guid>
+<pubDate>Mon, 23 Nov 2026 12:46:01 +0800</pubDate>
+<description>&lt;p&gt;Zhipu has rolled out GLM-5.4 to all GLM Coding Plan subscribers, adding image understanding and claiming stronger overall coding performance. Users on weekly quotas get 50% more usage than with GLM-5.3. The news came via Zixuan Li on X, with no concrete benchmark figures disclosed.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;智谱 GLM-5.4 上线编程订阅 新增视觉与 50% 额度&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产编程模型迭代并新增多模态输入，额度提升对订阅用户有直接实用价值。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · llm · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/dotey/status/2124726140023537849">宝玉 (@dotey)</source>
+<category>大模型</category>
+<category>智谱</category>
+<category>编程助手</category>
 <category>多模态</category>
 </item>
 <item><title>Ant Group Open-Sources LingSante Medical Model Family Up to 560B</title><link>https://www.qbitai.com/2026/11/511998.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/511998.html</guid>
@@ -159,36 +185,36 @@
 <category>数学</category>
 <category>开源</category>
 </item>
-<item><title>Notable Capital, GIC and Baillie Gifford Bet Big on Anthropic Ahead of IPO</title><link>https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/</guid>
+<item><title>Anthropic IPO 前获 GIC 等机构重仓押注</title><link>https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/</guid>
 <pubDate>Mon, 23 Nov 2026 09:25:53 +0800</pubDate>
-<description>&lt;p&gt;Notable Capital allocated roughly 10% of the U.S. portion of its $1B+ fund to Anthropic&amp;#x27;s Series E at a $61.5B valuation, the highest entry in the early-stage firm&amp;#x27;s 25-year history. The thesis rested on developers using Claude 70% of the time, reversing the prior year&amp;#x27;s preference for ChatGPT. GIC and Baillie Gifford also built large pre-IPO positions, with Baillie Gifford committing $1.5B across three rounds.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic IPO 前获 GIC 等机构重仓押注&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示头部机构在 Anthropic IPO 前的重仓逻辑与开发者偏好数据，对理解 AI 竞争格局有参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Notable Capital 在 Anthropic E 轮融资中将超过 10 亿美元基金美国部分的约 10% 投入，当时 Anthropic 估值达 615 亿美元，为这家早期基金 25 年历史最高。投资逻辑在于开发者使用 Claude 的比例升至 70%，反超 ChatGPT。GIC 与 Baillie Gifford 等机构在 IPO 前多轮加注，Baillie Gifford 三轮累计投入 15 亿美元。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示头部机构在 Anthropic IPO 前的重仓逻辑与开发者偏好数据，对理解 AI 竞争格局有参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/">TechCrunch AI</source>
 <category>投融资</category>
 <category>Anthropic</category>
 <category>IPO</category>
 <category>开发者生态</category>
 </item>
-<item><title>Nango Shares Lessons From Operating Auth for 1,000 APIs</title><link>https://nango.dev/blog/lessons-from-operating-api-auth-for-900-apis/</link><guid isPermaLink="true">https://nango.dev/blog/lessons-from-operating-api-auth-for-900-apis/</guid>
+<item><title>Nango 复盘 1000 个 API 鉴权运维事故</title><link>https://nango.dev/blog/lessons-from-operating-api-auth-for-900-apis/</link><guid isPermaLink="true">https://nango.dev/blog/lessons-from-operating-api-auth-for-900-apis/</guid>
 <pubDate>Mon, 23 Nov 2026 09:01:11 +0800</pubDate>
-<description>&lt;p&gt;Nango recounts a production incident in which a faulty PR discarded credentials for hundreds of connections, exposing refresh-token rotation differences across providers like Airtable, Atlassian, Salesforce and Slack as the core risk. The post distills engineering lessons from operating OAuth auth at the scale of 1,000 APIs, offering direct reference value for teams building integration platforms.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Nango 复盘 1000 个 API 鉴权运维事故&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以真实生产事故为切口，系统总结大规模 OAuth 鉴权运维的工程陷阱与厂商差异，对集成平台开发者有实操价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Nango 复盘了一次因 PR 缺陷导致数百个连接凭证被丢弃的生产事故，并揭示出 Airtable、Atlassian、Salesforce、Slack 等厂商在刷新令牌轮换上的差异是核心风险点。文章给出了在 1000 个 API 规模下运维 OAuth 鉴权的工程经验，对构建集成平台的团队具有直接参考价值。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以真实生产事故为切口，系统总结大规模 OAuth 鉴权运维的工程陷阱与厂商差异，对集成平台开发者有实操价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://nango.dev/blog/lessons-from-operating-api-auth-for-900-apis/">Hacker News AI</source>
 <category>OAuth</category>
 <category>API 集成</category>
 <category>工程实践</category>
 <category>Nango</category>
 </item>
-<item><title>Microsoft Backs OpenAI Transparency Push and Shares MAI-2 Base Results</title><link>https://www.ithome.com/1/030/745.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/745.htm</guid>
+<item><title>微软支持 OpenAI 透明度倡议 公布 MAI-2 评测</title><link>https://www.ithome.com/1/030/745.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/745.htm</guid>
 <pubDate>Mon, 23 Nov 2026 09:00:23 +0800</pubDate>
-<description>&lt;p&gt;Microsoft AI chief Mustafa Suleyman publicly endorsed OpenAI&amp;#x27;s transparency initiative and pledged to share pre-training progress on a jointly held evaluation set. With OpenAI&amp;#x27;s permission, Microsoft disclosed that MAI-2 Base scores 0.819 log-perplexity, roughly on par with the GPT-5.6 Sol base model. The move marks a public step by leading labs toward safety coordination and mutual evaluation disclosure.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;微软支持 OpenAI 透明度倡议 公布 MAI-2 评测&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部厂商就模型透明度与评测互认公开表态，并首次披露自研基座模型的对数困惑度数据。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;微软 AI 负责人苏莱曼公开支持 OpenAI 提出的模型透明度倡议，并承诺在双方共同保留的评测集上分享预训练进展。微软经 OpenAI 许可公布了 MAI-2 Base 的对数困惑度 0.819，称其与 GPT-5.6 Sol 基础模型处于相近水平。此举是头部厂商在 AI 安全协调与评测互认上的一次公开表态。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部厂商就模型透明度与评测互认公开表态，并首次披露自研基座模型的对数困惑度数据。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/030/745.htm">IT之家 · 智能时代</source>
 <category>AI 安全</category>
 <category>模型透明度</category>
 <category>微软</category>
 <category>OpenAI</category>
 </item>
-<item><title>Intel Says 18A Yield Hits 70 Percent as 14A Targets 2028</title><link>https://www.ithome.com/1/030/734.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/734.htm</guid>
+<item><title>英特尔 18A 良率达 70% 14A 定档 2028 年量产</title><link>https://www.ithome.com/1/030/734.htm</link><guid isPermaLink="true">https://www.ithome.com/1/030/734.htm</guid>
 <pubDate>Mon, 23 Nov 2026 08:18:21 +0800</pubDate>
-<description>&lt;p&gt;Intel CEO Lip-Bu Tan said at the TomorrowX conference that Intel 18A process yield has climbed to 70 percent from what he called a very poor level when he took over in March 2025. The node already powers Panther Lake client chips and the up-to-288-core Clearwater Forest Xeon 6+ data center processors. For the next node, Intel has shipped 14A PDK 0.9 to customers, with PDK 1.0 due in Q1 2027, risk production in H2 2027 and volume manufacturing in 2028.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英特尔 18A 良率达 70% 14A 定档 2028 年量产&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是英特尔代工路线图的关键节点数据，直接关系到其先进制程竞争力与 AI 算力供给格局。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;英特尔 CEO 陈立武在 TomorrowX 会议上披露，Intel 18A 制程良率已从 2025 年 3 月的糟糕水平提升至 70%，该节点已用于 Panther Lake 客户端处理器与最多 288 核的 Clearwater Forest 至强 6+ 数据中心芯片。下一代 Intel 14A 已向客户交付 PDK 0.9，计划 2027 年一季度推出 PDK 1.0、下半年风险试产，2028 年大规模量产。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是英特尔代工路线图的关键节点数据，直接关系到其先进制程竞争力与 AI 算力供给格局。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/030/734.htm">IT之家 · IT业界</source>
 <category>英特尔</category>
 <category>先进制程</category>
@@ -248,34 +274,6 @@
 <category>GPT-2</category>
 <category>行业观点</category>
 <category>AI 发展史</category>
-</item>
-<item><title>AI 智能体集群尝试攻克 P vs NP 难题</title><link>https://pequalnp.com/</link><guid isPermaLink="true">https://pequalnp.com/</guid>
-<pubDate>Mon, 23 Nov 2026 05:53:45 +0800</pubDate>
-<description>&lt;p&gt;一个协调运行的 AI 智能体集群正在公开尝试攻克计算机科学最著名的开放问题 P vs NP，所有证明均需通过统一的 Lean 检查器验证。该项目以实时舰队视图展示各智能体的工作进度，已产生经过检查的引理，也有猜想被推翻、路线被判定为死路。目前该问题仍处于开放状态，尚无任何结果被正式记录在案。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是智能体集群协作攻克重大数学开放问题的公开实验，具备真实的技术与工程观察价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 58/100&lt;/p&gt;</description>
-<source url="https://pequalnp.com/">Hacker News AI</source>
-<category>智能体</category>
-<category>P vs NP</category>
-<category>Lean</category>
-<category>形式化验证</category>
-</item>
-<item><title>蚂蚁开源 124B 医疗多模态模型 LingSante-3.1-air-VL</title><link>https://x.com/rohanpaul_ai/status/2124615279108137021</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2124615279108137021</guid>
-<pubDate>Mon, 23 Nov 2026 05:25:30 +0800</pubDate>
-<description>&lt;p&gt;蚂蚁集团开源医疗多模态模型 LingSante-3.1-air-VL，采用 MoE 架构，总参数 124B、每 token 仅激活 5.5B，可完成胸片报告生成、医学图像理解与医学推理。官方评测称其在 AFUMED-Derm、AFUMED-Report、MIMIC-CXR 与医学 VQA 上领先 GPT-6.1 Sol、Claude Opus 5.5 与 Gemini 3.8 Flash，并在 BrowseComp-VL、AndroidWorld 等通用任务上具备竞争力。其强化学习奖励按临床意义、异常定位、误报与漏诊打分，而非仅模仿报告文风。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源医疗多模态模型以稀疏 MoE 与临床导向强化学习切入报告生成，并在多项基准上对标闭源前沿模型。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2124615279108137021">Rohan Paul (@rohanpaul_ai)</source>
-<category>开源模型</category>
-<category>医疗AI</category>
-<category>多模态</category>
-<category>MoE</category>
-<category>蚂蚁集团</category>
-</item>
-<item><title>OpenAI 首席科学家提议用困惑度设定 AI 发展上限</title><link>https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/</guid>
-<pubDate>Mon, 23 Nov 2026 05:14:07 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 首席科学家 Jakub Pachocki 发文提出，以困惑度（perplexity）作为衡量 AI 进展的统一指标，并据此为前沿模型开发设定共同上限。该提议呼应了 Anthropic CEO Dario Amodei 的“节奏化前沿”计划，后者主张企业就安全标准与无节制进展的速率限制达成共识。若被采纳，困惑度将从训练评估指标升级为行业治理的量化锚点。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部实验室首次提出可量化的 AI 发展限速指标，直接关系前沿模型治理路径。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 72/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/">TechCrunch AI</source>
-<category>AI 治理</category>
-<category>OpenAI</category>
-<category>Anthropic</category>
-<category>前沿模型</category>
 </item>
 </channel>
 </rss>
