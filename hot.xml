@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Mon, 23 Nov 2026 07:24:31 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 23 Nov 2026 09:25:30 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 数学家与 Claude 宣称证明黎曼猜想 1700 万行 Lean 代码通过机器核验</title><link>https://todayforai.com/en/story/story-b91caf62-12d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b91caf62-12d</guid>
 <pubDate>Mon, 23 Nov 2026 07:24:31 +0800</pubDate>
@@ -43,6 +43,14 @@ Dragos 在 2026 年 7 月至 11 月间向多家 AI 推理服务商发送约 200 
 
 该基准的发布为 Agent 记忆研究提供了首个真实群聊场景的评测标准，论文、代码与数据集均已开源。行业影响方面，它提醒开发者记忆召回能力并非服务效果的充分条件，需关注记忆的整合与更新能力，推动 Agent 从“记得住”向“用得好”演进，对群聊助手、协作 Agent 等应用具有指导意义。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), 量子位官网, 量子位 (微信公众号)&lt;/p&gt;</description>
 </item>
+<item><title>Anthropic 上市首日破发 万亿估值遭市场拷问</title><link>https://todayforai.com/en/story/story-b6c2c040-da2</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b6c2c040-da2</guid>
+<pubDate>Mon, 23 Nov 2026 09:25:30 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 于 11 月 19 日正式登陆纳斯达克，发行价 83 美元，开盘一度冲高至 111.5 美元，较发行价上涨 34.3%，但次日即回吐涨幅下跌约 9%，股价逼近发行价，首日散户交易额超 7.5 亿美元创下纪录。这一走势与同期纳指单周暴跌 10%、英伟达全周跌 23% 的 AI 板块资金撤离潮高度吻合，显示 Anthropic 的上市未能扭转市场对 AI 资产的悲观情绪。
+
+综合多方信源，市场关注焦点并非市值数字本身，而是公司上市后能否在公开市场增长诉求与 AI 安全投入之间取得平衡。Anthropic 未来数年面临约 9000 亿美元的算力账单，迫使公司必须持续扩大营收规模以覆盖巨额支出。与此同时，上市当天 Claude 出现性能降级且官方未作解释，进一步引发外界对其服务稳定性的质疑。CEO Amodei 强调不向商业与政治压力低头，但市场正以营收兑现和安全约束的双重标准审视公司。
+
+此次破发对 AI 赛道具有标志性意义：一方面，它暴露了高估值 AI 公司在公开市场的脆弱性，投资者开始用更严苛的财务指标衡量其商业化能力；另一方面，Anthropic 的案例将检验“安全优先”路线能否在上市公司框架下持续，其后续表现或成为其他 AI 独角兽上市定价的重要参照。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Verge AI, InfoQ 中文&lt;/p&gt;</description>
+</item>
 <item><title>mod_wsgi 作者用 AI 辅助开发 Rust 服务器 Muru</title><link>https://todayforai.com/en/story/story-06a3d66d-f9e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-06a3d66d-f9e</guid>
 <pubDate>Sun, 22 Nov 2026 17:57:01 +0800</pubDate>
 <description>&lt;p&gt;曾主导 mod_wsgi 项目的 Graham Dumpleton 在时隔二十年后推出全新服务器 Muru，该服务器采用 Rust 编写并大量借助 AI 辅助开发，目标是为 ASGI 与 WSGI 两种 Python 应用接口提供开发与生产环境下的最佳运行方案。
@@ -70,10 +78,6 @@ Anthropic 的上市标志着头部大模型公司首次进入公开资本市场�
 <item><title>英伟达发布 2B 推理 VLA 模型 Alpamayo 2 Edge</title><link>https://todayforai.com/en/story/story-3e94a140-d23</link><guid isPermaLink="true">https://todayforai.com/en/story/story-3e94a140-d23</guid>
 <pubDate>Mon, 23 Nov 2026 02:54:11 +0800</pubDate>
 <description>&lt;p&gt;英伟达发布 2B 参数推理型视觉语言动作模型 Alpamayo 2 Edge，运行于 DRIVE AGX Thor 车端平台，核心创新是自适应推理：常规驾驶仅输出 &amp;lt;NOMINAL&amp;gt; 标记，仅在复杂场景生成因果链解释，以节省车载算力。官方 AlpaSim 测试中责任事故间隔达 15.15 km，约为 4B Qwen-Drive-1.0 的 60 倍，开环 minADE 0.53 m，FP8 TensorRT 下像素到轨迹规划耗时 160-190 ms；但 LingoQA 得分 75.2，落后于自家 Super 版本与 Qwen-Drive-1.0 SFT。权重以 OpenMDW-1.1、代码以 Apache 2.0 在 Hugging Face 开放。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost)&lt;/p&gt;</description>
-</item>
-<item><title>Anthropic 2028 年电力 87% 来自天然气</title><link>https://todayforai.com/en/story/story-4d18b27f-9fd</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4d18b27f-9fd</guid>
-<pubDate>Sun, 22 Nov 2026 16:57:34 +0800</pubDate>
-<description>&lt;p&gt;分析显示，Anthropic 为支撑其 AI 算力扩张，正大规模自建与锁定化石能源发电，预计到 2028 年其电力结构中约 87% 来自天然气、11% 来自煤炭，可再生能源占比极低。这一案例折射出 AI 数据中心“自带电源”（BYOP）与电网新增化石产能合计约 377 GW 的行业趋势，凸显 AI 算力扩张与清洁能源目标之间的结构性矛盾。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Hacker News AI&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
