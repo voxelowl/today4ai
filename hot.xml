@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Mon, 23 Nov 2026 20:11:11 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Mon, 23 Nov 2026 22:39:10 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
+<item><title>英伟达董事会推翻决定 黄仁勋复职股价大涨 31%</title><link>https://todayforai.com/en/story/story-97c1526e-d94</link><guid isPermaLink="true">https://todayforai.com/en/story/story-97c1526e-d94</guid>
+<pubDate>Mon, 23 Nov 2026 22:39:10 +0800</pubDate>
+<description>&lt;p&gt;英伟达董事会全票推翻此前决定，重新任命黄仁勋为 CEO、总裁兼董事，消息公布后股价单日大涨 31%。董事会称后续沟通已消除对其坦诚度的疑虑，美国高层官员亦确认其回归不构成国家安全风险，特朗普总统公开表态支持。这是继一周前董事会主席公开表示无意让其回归后的戏剧性反转，凸显创始人对这家 AI 算力龙头的不可替代性。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, Rohan Paul (@rohanpaul_ai), TechCrunch AI, IT之家 · IT业界, The Decoder&lt;/p&gt;</description>
+</item>
 <item><title>智谱发布 GLM-5.4 循环 Transformer 架构落地</title><link>https://todayforai.com/en/story/story-d2145516-db8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d2145516-db8</guid>
 <pubDate>Mon, 23 Nov 2026 18:06:43 +0800</pubDate>
 <description>&lt;p&gt;智谱正式发布旗舰模型 GLM-5.4，这是其首个基于循环 Transformer（Loop Transformer）架构的大模型。该架构通过多次迭代复用同一组共享权重层来加深推理，在不增加参数量的前提下，使模型智能水平对标 2T-3T 参数级模型，验证了计算深度扩展路线的可行性。
@@ -61,19 +65,11 @@ Dragos 在 2026 年 7 月至 11 月间向多家 AI 推理服务商发送约 200 
 
 尽管超额认购达 6 倍，市场对 Anthropic 的估值分歧显著。招股书显示，其年化收入从 9 月的 710 亿美元增至 10 月底的 810 亿美元，但募资额仅相当于其 9010 亿美元算力承诺的 10.5%。公司计划投入 9000 亿美元建设算力基础设施，包括与 SpaceX 每月最高 31 亿美元的数据中心协议。CEO Dario Amodei 表示上市核心目的是囤积现金以支撑算力扩张，而非追求估值最大化。
 
-Anthropic 作为首家上市的前沿大模型公司，其首日破发为 AI 行业资本化敲响警钟。市场对万亿估值与巨额算力支出的匹配度存疑，投资者担忧其盈利路径与现金流压力。此次 IPO 将成为 AI 行业估值与商业化能力的关键定价锚点，后续表现将影响其他 AI 实验室的上市节奏与融资环境。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Anthropic AI (@AnthropicAI), The Decoder, Rohan Paul (@rohanpaul_ai), IT之家 · IT业界, Simon Willison 博客, 宝玉 (@dotey)&lt;/p&gt;</description>
+Anthropic 作为首家上市的前沿大模型公司，其首日破发为 AI 行业资本化敲响警钟。市场对万亿估值与巨额算力支出的匹配度存疑，投资者担忧其盈利路径与现金流压力。此次 IPO 将成为 AI 行业估值与商业化能力的关键定价锚点，后续表现将影响其他 AI 实验室的上市节奏与融资环境。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Anthropic AI (@AnthropicAI), The Decoder, Rohan Paul (@rohanpaul_ai), IT之家 · IT业界, Simon Willison 博客, 宝玉 (@dotey)&lt;/p&gt;</description>
 </item>
-<item><title>腾讯混元确认下一代模型大幅扩参并坚持 Scaling Law</title><link>https://todayforai.com/en/story/story-01739c94-1a5</link><guid isPermaLink="true">https://todayforai.com/en/story/story-01739c94-1a5</guid>
-<pubDate>Mon, 23 Nov 2026 14:30:30 +0800</pubDate>
-<description>&lt;p&gt;腾讯混元团队在 Reddit 的 LocalLLaMA 社区首次公开 AMA 中明确，下一代 Hy 模型将显著扩大参数量，并继续押注 Scaling Law。团队同时考虑推出 240 亿至 310 亿参数的稠密模型，以覆盖不同场景需求。
-
-综合多源信息，混元团队承认 Hy4 在后训练尤其是大规模强化学习上仍有较大改进空间，后训练中最难改善的行为是“过度思考”。轻量版 Hy4 flash 通过从旗舰模型蒸馏加强化学习压缩推理链来缓解该问题，其单任务成本约为 Hy4 的二十分之一，支持最长 100 万 Token 上下文与图文输入。此外，Hy 小模型及面向 24GB 显存的版本已列入路线图，llama.cpp 适配正在推进。
-
-此次表态明确了腾讯混元在模型规模上的战略方向，即坚持 Scaling Law 与实用化并重。在行业对 Scaling Law 有效性存在争议的背景下，混元的大幅扩参计划将加剧大模型竞赛，同时其低成本小模型路线也有助于拓展本地化应用生态。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;InfoQ 中文, 量子位官网, IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
-<item><title>Qwen3.5 27B 自主改写权重 数学准确率提升 6.6 个百分点</title><link>https://todayforai.com/en/story/story-9700b1e7-d76</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9700b1e7-d76</guid>
-<pubDate>Mon, 23 Nov 2026 16:02:19 +0800</pubDate>
-<description>&lt;p&gt;UIUC、CMU、普林斯顿等机构的研究者让 Qwen3.5 27B 在单块 GPU 上不经重新训练、不借助梯度，直接写 Python 代码修改自身权重，把未见过数学题的准确率从 57.2% 提升到 63.8%，未答完率从 33.6% 降到 26.1%。模型还通过逐层排查异常矩阵，修复了被随机噪声破坏的副本，数学能力恢复到 33.0%，六项视觉测试从 7.3% 回升到 70.2%。作者强调这还不是递归自我进化：8 轮实验每轮都从原版模型重新开始，且仅在 Qwen3.5 家族与数学任务上验证，论文尚未经同行评审。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey)&lt;/p&gt;</description>
+<item><title>中国团队发布 AscendGYM 基准 用 AI 优化华为昇腾内核</title><link>https://todayforai.com/en/story/story-e391198b-280</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e391198b-280</guid>
+<pubDate>Mon, 23 Nov 2026 22:11:17 +0800</pubDate>
+<description>&lt;p&gt;深圳湾区研究院团队发布 AscendGYM，这是面向华为昇腾 NPU 的内核优化基准，用于评估 AI 智能体在给定正确内核实现的前提下，能否在预算内进一步提升目标负载性能并保持正确性。该工作为受出口管制限制的中国机构提供了一条用 AI 自动优化国产算力底座的路径，有望缩小与西方芯片的性能差距。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Import AI (Jack Clark)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
