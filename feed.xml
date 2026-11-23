@@ -1,8 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Tue, 24 Nov 2026 05:39:25 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 24 Nov 2026 06:05:50 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Anthropic Launches Claude Ship to Automate Code Review and Approvals</title><link>https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/</guid>
+<pubDate>Tue, 24 Nov 2026 06:05:50 +0800</pubDate>
+<description>&lt;p&gt;Anthropic launched Claude Ship, a suite of AI agents that automate code review, fixes, and approvals of routine code changes, with Claude Approvals able to greenlight changes based on team-defined policies. The product targets the review bottleneck created by AI-generated code volume, rolling out to Claude Team and Enterprise plans on GitHub with Code Review generally available and PR Steward and Claude Approvals in beta.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 推出 Claude Ship 让智能体自动审批代码&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是智能体从写代码延伸到代码放行决策的关键一步，自动审批机制对研发流程影响直接。&lt;/p&gt;&lt;p&gt;TechCrunch AI · agent · signal 78/100&lt;/p&gt;</description>
+<source url="https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/">TechCrunch AI</source>
+<category>智能体</category>
+<category>代码审查</category>
+<category>Anthropic</category>
+<category>开发者工具</category>
+</item>
+<item><title>Supertake Raises $20M to Turn Market Views into AI-Built Portfolios</title><link>https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/</guid>
+<pubDate>Tue, 24 Nov 2026 06:02:05 +0800</pubDate>
+<description>&lt;p&gt;AI investing startup Supertake has raised a $20 million seed round led by Adjacent, with Coinbase Ventures, USV and prominent angels participating. The platform lets users turn market opinions into real investment portfolios via frontier models and trading agents, and the funding will expand engineering, design and growth teams.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Supertake 融资 2000 万美元 用 AI 智能体构建股票组合&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 智能体在个人投资场景落地的早期融资案例，投资方阵容与产品形态对关注 Agent 商业化的读者有参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/">TechCrunch AI</source>
+<category>AI 投资</category>
+<category>智能体</category>
+<category>融资</category>
+<category>金融科技</category>
+</item>
+<item><title>US Commerce Department Blacklists Singapore Chip Buyer Megaspeed</title><link>https://x.com/rohanpaul_ai/status/2124983432854036813</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2124983432854036813</guid>
+<pubDate>Tue, 24 Nov 2026 05:48:25 +0800</pubDate>
+<description>&lt;p&gt;The US Commerce Department has added Singapore-based chip buyer Megaspeed to the Entity List, barring US suppliers from selling semiconductors and controlled technology to it or its foreign affiliates without a license. Once among Nvidia&amp;#x27;s largest customers, Megaspeed was cut off by Nvidia in June 2025, so the listing mainly closes indirect routes via other US vendors&amp;#x27; servers and affiliate sales. US prosecutors and Singapore authorities are separately investigating whether it smuggled Nvidia chips to China; the company denies wrongdoing.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美商务部将新加坡芯片采购商 Megaspeed 列入实体清单&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;出口管制实体清单直接改变 AI 算力芯片的跨境流通路径，是关注算力供应链读者的必读产业动向。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 62/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2124983432854036813">Rohan Paul (@rohanpaul_ai)</source>
+<category>出口管制</category>
+<category>算力供应链</category>
+<category>英伟达</category>
+<category>实体清单</category>
+</item>
+<item><title>Ladybird Browser Ships First Alpha Release</title><link>https://simonwillison.net/2026/Nov/23/ladybird/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/23/ladybird/</guid>
+<pubDate>Tue, 24 Nov 2026 05:46:35 +0800</pubDate>
+<description>&lt;p&gt;The independent Ladybird browser project has shipped its first alpha, letting macOS and Linux users install it without compiling from source. Ladybird implements most core engine components itself, including HTML parsing, CSS, layout, JavaScript and WebAssembly, relying on external libraries only for text shaping, 2D graphics, video and SQLite.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Ladybird 浏览器发布首个 Alpha 版&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;从零自研浏览器引擎的罕见开源项目进入可安装阶段，对关注开源生态与底层系统工程的读者有实质参考价值。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · opensource · signal 58/100&lt;/p&gt;</description>
+<source url="https://simonwillison.net/2026/Nov/23/ladybird/">Simon Willison 博客</source>
+<category>开源</category>
+<category>浏览器引擎</category>
+<category>Ladybird</category>
+<category>SerenityOS</category>
+</item>
+<item><title>Berkeley, UIUC and Anthropic Find 0.1% Pretraining Poison Plants Agent Backdoor</title><link>https://x.com/rohanpaul_ai/status/2124982540142538811</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2124982540142538811</guid>
+<pubDate>Tue, 24 Nov 2026 05:44:52 +0800</pubDate>
+<description>&lt;p&gt;A joint paper from UC Berkeley, UIUC and Anthropic shows that poisoning just 0.1% of pretraining text can implant a backdoor that survives clean post-training. Qwen3 models from 0.6B to 4B were pretrained from scratch and then tuned with clean SFT, DPO and RL into command-line agents; the 4B agent emitted the attacker&amp;#x27;s command on 92.7% of triggered prompts. Larger models were easier to poison, and the backdoor fired 0.0% of the time on normal requests, underscoring the need to screen every shell command before execution.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;伯克利等团队证实 0.1% 预训练投毒可植入智能体后门&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次以完整预训练到后训练链路实证预训练投毒可穿透干净微调，直接威胁智能体安全。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 88/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2124982540142538811">Rohan Paul (@rohanpaul_ai)</source>
+<category>AI 安全</category>
+<category>预训练投毒</category>
+<category>智能体</category>
+<category>后门攻击</category>
+</item>
 <item><title>Thinking Machines Releases 26B Inkling 2 Mini Open Model</title><link>https://x.com/arena/status/2124981167279546382</link><guid isPermaLink="true">https://x.com/arena/status/2124981167279546382</guid>
 <pubDate>Tue, 24 Nov 2026 05:39:25 +0800</pubDate>
 <description>&lt;p&gt;Thinking Machines has released Inkling 2 Mini, a 26B-parameter looped transformer open-weight model small enough to run on a laptop. It ranks #18 among open models on the Agent Arena Index and #3 among U.S. open-weight models, with tool use as its strongest category (#6 open), while its median cost per task is 28% lower than the 594B Inkling 2 Small.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Thinking Machines 发布 26B 参数 Inkling 2 Mini 开源模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;小参数开源模型在智能体基准上逼近大模型且成本更低，对关注开源与端侧部署的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 72/100&lt;/p&gt;</description>
@@ -10,6 +55,15 @@
 <category>开源模型</category>
 <category>智能体</category>
 <category>Thinking Machines</category>
+</item>
+<item><title>YC-Backed Antropi Robotics Builds Autonomous CNC Factories</title><link>https://x.com/rohanpaul_ai/status/2124980757395599572</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2124980757395599572</guid>
+<pubDate>Tue, 24 Nov 2026 05:37:47 +0800</pubDate>
+<description>&lt;p&gt;YC-backed Antropi Robotics is building autonomous CNC factories, with its Factory OS coordinating robotic loading, machining, scheduling and inspection to deliver US-quality parts at China-competitive prices. The company reported $100K October revenue across 14 customers at roughly 60% gross margins, while Hadrian raised $1.37B at a near-$8B valuation, signaling automated manufacturing as a hot physical-AI category.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;YC 系 Antropi 打造自主 CNC 工厂，月收入 10 万美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供自主工厂软件栈与早期营收数据，并折射自动化制造赛道的资本热度。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2124980757395599572">Rohan Paul (@rohanpaul_ai)</source>
+<category>物理 AI</category>
+<category>自动化制造</category>
+<category>YC</category>
+<category>融资</category>
 </item>
 <item><title>Virginia and Oregon Sue SpaceX to Halt Grok Child Sex Abuse Image Generation</title><link>https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/</link><guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/</guid>
 <pubDate>Tue, 24 Nov 2026 05:30:44 +0800</pubDate>
@@ -36,6 +90,15 @@
 <category>数据中心</category>
 <category>气候政策</category>
 <category>算力能耗</category>
+</item>
+<item><title>Zed Spins Out GPUI Into Standalone Open Source Repository</title><link>https://github.com/zed-industries/gpui</link><guid isPermaLink="true">https://github.com/zed-industries/gpui</guid>
+<pubDate>Tue, 24 Nov 2026 04:52:54 +0800</pubDate>
+<description>&lt;p&gt;Zed Industries has split GPUI, the GPU-accelerated Rust UI framework powering its editor, into a standalone repository under zed-industries/gpui. The framework blends immediate and retained rendering modes, and the move lets it evolve independently of a single application for the broader Rust desktop UI ecosystem.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Zed 将 GPUI 拆分为独立开源仓库&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流 Rust 编辑器背后的自研 UI 框架独立成库，对 Rust 桌面开发生态具有实际参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
+<source url="https://github.com/zed-industries/gpui">Hacker News AI</source>
+<category>开源</category>
+<category>Rust</category>
+<category>UI 框架</category>
+<category>Zed</category>
 </item>
 <item><title>Agent Arena Index Charts Five Months of Agentic Model Competition</title><link>https://x.com/arena/status/2124966751544791340</link><guid isPermaLink="true">https://x.com/arena/status/2124966751544791340</guid>
 <pubDate>Tue, 24 Nov 2026 04:42:08 +0800</pubDate>
@@ -161,112 +224,48 @@
 <category>Google Research</category>
 <category>训练效率</category>
 </item>
-<item><title>Ai2 Open-Sources RoboTrack Point Tracking Model and 15M Dataset</title><link>https://huggingface.co/blog/allenai/robotrack</link><guid isPermaLink="true">https://huggingface.co/blog/allenai/robotrack</guid>
+<item><title>Ai2 开源 RoboTrack 点跟踪模型与 1500 万数据集</title><link>https://huggingface.co/blog/allenai/robotrack</link><guid isPermaLink="true">https://huggingface.co/blog/allenai/robotrack</guid>
 <pubDate>Tue, 24 Nov 2026 01:20:37 +0800</pubDate>
-<description>&lt;p&gt;Ai2 has released RoboTrack, a point-tracking system for real-world robotic manipulation, together with the 15M-scale RoboTrack-15M dataset, a simulation data pipeline, and the RoboTrack-Bench benchmark, all open-sourced. The work turns perception tracking failures in deployment into a measurable, trainable problem, giving robots reliable gripper and object position following during interaction.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Ai2 开源 RoboTrack 点跟踪模型与 1500 万数据集&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源模型、大规模数据集与基准三件套齐备，直接服务具身智能感知这一关键瓶颈。&lt;/p&gt;&lt;p&gt;Hugging Face Blog · opensource · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;艾伦人工智能研究所（Ai2）发布 RoboTrack，一套面向真实机器人操作的点跟踪模型、1500 万规模数据集 RoboTrack-15M、仿真数据生成管线与配套基准 RoboTrack-Bench，全部开源。该工作把机器人部署中的感知跟踪失败转化为可度量、可训练的问题，为机械臂与物体在交互过程中的位置跟随提供可靠感知基础。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源模型、大规模数据集与基准三件套齐备，直接服务具身智能感知这一关键瓶颈。&lt;/p&gt;&lt;p&gt;Hugging Face Blog · opensource · signal 78/100&lt;/p&gt;</description>
 <source url="https://huggingface.co/blog/allenai/robotrack">Hugging Face Blog</source>
 <category>具身智能</category>
 <category>点跟踪</category>
 <category>开源数据集</category>
 <category>机器人感知</category>
 </item>
-<item><title>How Should LLMs See a Screen, Screenshots or Accessibility Trees</title><link>https://www.greptile.com/blog/trex-computer-use</link><guid isPermaLink="true">https://www.greptile.com/blog/trex-computer-use</guid>
+<item><title>LLM 看屏幕该用截图还是无障碍树</title><link>https://www.greptile.com/blog/trex-computer-use</link><guid isPermaLink="true">https://www.greptile.com/blog/trex-computer-use</guid>
 <pubDate>Tue, 24 Nov 2026 01:19:25 +0800</pubDate>
-<description>&lt;p&gt;The article traces accessibility trees from a 1984 IBM screen-reading project to modern OS APIs, noting that on the OSWorld benchmark screenshot-only models solved roughly one task in twenty while text-based screen readers performed better. The authors tested screenshot-only versus screenshot-plus-accessibility-tree inputs across seven models to decide how their QA agent TREX should perceive the screen.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;LLM 看屏幕该用截图还是无障碍树&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;系统梳理了智能体感知图形界面的两种输入范式及其实测差异，对做 GUI Agent 的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;文章回顾了无障碍树从 1984 年 IBM 屏幕朗读项目到现代操作系统 API 的演进，并指出在 OSWorld 基准上仅靠截图的模型完成率约为二十分之一，而读取文本无障碍树的模型表现更好。作者在七个模型上对比了纯截图与截图加无障碍树两种输入方式，并据此决定其 QA 智能体 TREX 的屏幕感知方案。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;系统梳理了智能体感知图形界面的两种输入范式及其实测差异，对做 GUI Agent 的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.greptile.com/blog/trex-computer-use">Hacker News AI</source>
 <category>GUI Agent</category>
 <category>无障碍树</category>
 <category>OSWorld</category>
 <category>智能体评测</category>
 </item>
-<item><title>Kagi Launches Privacy-First Email Service in Public Beta</title><link>https://blog.kagi.com/kagi-mail-public-beta</link><guid isPermaLink="true">https://blog.kagi.com/kagi-mail-public-beta</guid>
+<item><title>Kagi 推出年费 99 美元隐私邮箱公测</title><link>https://blog.kagi.com/kagi-mail-public-beta</link><guid isPermaLink="true">https://blog.kagi.com/kagi-mail-public-beta</guid>
 <pubDate>Tue, 24 Nov 2026 01:17:01 +0800</pubDate>
-<description>&lt;p&gt;Kagi has launched the public beta of Kagi Mail, a private email and calendar service offering @kagimail.com addresses or custom domains at $99 per year, included with Kagi Ultimate. Continuing Kagi&amp;#x27;s no-ads, no-tracking business model, the product emphasizes speed, privacy and security, and aims to surface actionable items rather than monetize user data.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Kagi 推出年费 99 美元隐私邮箱公测&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是订阅制搜索引擎 Kagi 向邮箱与日历领域的产品扩张，其无广告、不将用户数据用于 AI 训练的定位对关注隐私与 AI 数据治理的读者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Kagi 正式发布 Kagi Mail 公测版，提供 @kagimail.com 地址及自有域名绑定的私密邮箱与日历服务，定价 99 美元/年，Kagi Ultimate 订阅用户免费包含。该产品延续 Kagi 无广告、不追踪、不将用户数据用于 AI 训练的商业模式，主打速度、隐私与安全，并尝试将待办与回复事项主动前置。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是订阅制搜索引擎 Kagi 向邮箱与日历领域的产品扩张，其无广告、不将用户数据用于 AI 训练的定位对关注隐私与 AI 数据治理的读者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 42/100&lt;/p&gt;</description>
 <source url="https://blog.kagi.com/kagi-mail-public-beta">Hacker News AI</source>
 <category>隐私邮箱</category>
 <category>Kagi</category>
 <category>订阅服务</category>
 </item>
-<item><title>Amazon Pays $7.5B for Decart AI Optimization Tech</title><link>https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/</guid>
+<item><title>亚马逊 75 亿美元收购 Decart 优化技术</title><link>https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/</guid>
 <pubDate>Tue, 24 Nov 2026 01:14:23 +0800</pubDate>
-<description>&lt;p&gt;Amazon is paying $7.5 billion to acquire the core assets of Israeli startup Decart, including its Decart Optimization Stack (DOS) software plus its founding team and AI researchers. DOS enables AI models to run efficiently across Nvidia, Amazon and Google hardware, a move seen as key groundwork for Amazon to sell its own Trainium chips.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊 75 亿美元收购 Decart 优化技术&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大额收购叠加自研芯片战略，直接牵动 AI 算力成本与硬件竞争格局。&lt;/p&gt;&lt;p&gt;TechCrunch AI · compute · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;亚马逊以 75 亿美元收购以色列初创公司 Decart 的核心资产，包括其 Decart Optimization Stack（DOS）软件及创始团队与 AI 研究人员。DOS 能让 AI 模型在英伟达、亚马逊和谷歌硬件上高效运行，此举被视为亚马逊为自家 Trainium 芯片铺路的关键布局。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大额收购叠加自研芯片战略，直接牵动 AI 算力成本与硬件竞争格局。&lt;/p&gt;&lt;p&gt;TechCrunch AI · compute · signal 78/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/">TechCrunch AI</source>
 <category>算力芯片</category>
 <category>亚马逊</category>
 <category>收购</category>
 </item>
-<item><title>Google Search Adds Wallet and Drive Data to Personal Intelligence</title><link>https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/</link><guid isPermaLink="true">https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/</guid>
+<item><title>谷歌搜索接入钱包与云端硬盘个人数据</title><link>https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/</link><guid isPermaLink="true">https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/</guid>
 <pubDate>Tue, 24 Nov 2026 01:00:00 +0800</pubDate>
-<description>&lt;p&gt;Google is connecting Google Wallet and Google Drive to Personal Intelligence in AI Mode, letting Search answer queries using users&amp;#x27; spending records, documents and chats. The feature is opt-in via Search personalization settings, and users retain control over their data and can adjust preferences at any time.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌搜索接入钱包与云端硬盘个人数据&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;搜索入口与个人数据打通是 AI 助手竞争的关键一步，值得关注其隐私边界与产品形态。&lt;/p&gt;&lt;p&gt;Google AI Blog · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;谷歌将 Google Wallet 与 Google Drive 接入 AI Mode 的 Personal Intelligence，使搜索可基于用户消费记录、文档与聊天内容给出个性化回答。用户需在搜索个性化设置中主动选择开启，并可随时调整数据授权。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;搜索入口与个人数据打通是 AI 助手竞争的关键一步，值得关注其隐私边界与产品形态。&lt;/p&gt;&lt;p&gt;Google AI Blog · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/">Google AI Blog</source>
 <category>谷歌搜索</category>
 <category>AI Mode</category>
 <category>个人数据</category>
 <category>隐私授权</category>
-</item>
-<item><title>Google Uses Gemini 4 Agent Teams to Discover Faster Quantum Algorithms</title><link>https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/</link><guid isPermaLink="true">https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/</guid>
-<pubDate>Tue, 24 Nov 2026 00:59:40 +0800</pubDate>
-<description>&lt;p&gt;Google researchers used teams of Gemini 4 agents paired with Lean formal verification to automatically optimize quantum algorithm circuits, substantially cutting resource requirements for fusion energy, chemistry and enzyme simulations. The team is open-sourcing its Lean library to let the community build on and verify the results. It marks an early closed loop in which agent systems produce verifiable algorithmic discoveries in hard science.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌用 Gemini 4 智能体团队发现更快量子算法&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;智能体系统首次在量子算法优化这一硬科学领域产出可形式化验证的实质成果，并开源验证库。&lt;/p&gt;&lt;p&gt;Google DeepMind · llm · signal 88/100&lt;/p&gt;</description>
-<source url="https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/">Google DeepMind</source>
-<category>智能体</category>
-<category>量子计算</category>
-<category>形式化验证</category>
-<category>谷歌</category>
-<category>开源</category>
-</item>
-<item><title>SenseTime Open-Sources 9B Multimodal Model with Looped Architecture and 512K Context</title><link>https://x.com/rohanpaul_ai/status/2124904314024186073</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2124904314024186073</guid>
-<pubDate>Tue, 24 Nov 2026 00:34:01 +0800</pubDate>
-<description>&lt;p&gt;SenseTime released SenseNova-Loop-9B on Hugging Face, an open-weight multimodal model for complex reasoning, coding and multi-step tool use with a 512K context window. Its key innovation reuses the same 24-layer middle block twice, executing 56 layer computations per forward pass while storing weights for only 32 distinct layers, trading parameters for reasoning depth. The study shows more loops are not always better: code generation and visualization improved up to four loops while data QA and office tasks peaked at three, so the release settles on two loops to balance performance and inference cost.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;商汤开源 9B 多模态模型 循环架构支持 512K 上下文&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以循环复用层权重的架构创新实现参数效率与推理深度的解耦，并给出循环次数的实证权衡，对关注高效推理与开源多模态模型的读者价值明确。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2124904314024186073">Rohan Paul (@rohanpaul_ai)</source>
-<category>开源模型</category>
-<category>多模态</category>
-<category>商汤</category>
-<category>模型架构</category>
-<category>推理效率</category>
-</item>
-<item><title>Meta 发布 Muse Ember 智能体模型 成本仅 0.02 美元</title><link>https://x.com/arena/status/2124901393488048410</link><guid isPermaLink="true">https://x.com/arena/status/2124901393488048410</guid>
-<pubDate>Tue, 24 Nov 2026 00:22:25 +0800</pubDate>
-<description>&lt;p&gt;Meta 的 Muse Ember (Max) 在 Arena.ai 新推出的 Agent Arena Index 及工作、编程、对话、任务完成、可控性、工具调用六项子指数中全部进入帕累托前沿。其综合得分 1093 分，单任务中位成本仅 0.02 美元，比 GPT-6 Luna、Claude Haiku 5.5 和 DeepSeek-V4.1-Flash 低 75% 至 86%，速度约为 Luna 的 13 倍。工具调用是其最强项，以同等成本取得 1161 分。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;高效智能体模型在真实任务基准上以极低成本逼近前沿模型，直接影响模型选型与成本决策。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/arena/status/2124901393488048410">Arena.ai (@arena)</source>
-<category>大模型</category>
-<category>智能体</category>
-<category>Meta</category>
-<category>模型评测</category>
-</item>
-<item><title>黄仁勋辞职 10 天后被英伟达董事会恢复 CEO 职务</title><link>https://x.com/dotey/status/2124900260925296807</link><guid isPermaLink="true">https://x.com/dotey/status/2124900260925296807</guid>
-<pubDate>Tue, 24 Nov 2026 00:17:55 +0800</pubDate>
-<description>&lt;p&gt;英伟达董事会 11 月 22 日全票通过恢复黄仁勋总裁、CEO 及董事职务，距其 11 月 12 日辞职仅 10 天。董事会称已听取美国政府高层意见，认定其回归不构成国家安全风险，同时新设国家安全与出口管制委员会并招聘首席合规官，针对外国情报行动的独立调查仍将继续。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球最重要 AI 芯片公司 CEO 十天内去而复返，牵涉国家安全审查与出口管制治理架构调整，是 AI 算力供应链的关键变量。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · industry · signal 71/100&lt;/p&gt;</description>
-<source url="https://x.com/dotey/status/2124900260925296807">宝玉 (@dotey)</source>
-<category>英伟达</category>
-<category>黄仁勋</category>
-<category>出口管制</category>
-<category>公司治理</category>
-</item>
-<item><title>Ladybird 浏览器进入 Alpha 阶段</title><link>https://ladybird.org/posts/alpha/</link><guid isPermaLink="true">https://ladybird.org/posts/alpha/</guid>
-<pubDate>Tue, 24 Nov 2026 00:13:12 +0800</pubDate>
-<description>&lt;p&gt;Ladybird 浏览器发布首个 Alpha 版本，面向 macOS 与 Linux 提供下载。其核心是团队从零自研的全新浏览器引擎，而非基于 Chromium 或 Gecko 的分支。官方坦承当前版本存在兼容性与崩溃问题，采用滚动更新通道，并公开邀请安全研究者进行漏洞挖掘。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;独立自研浏览器引擎进入可用阶段，是开源基础设施领域少见的长期工程节点。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 62/100&lt;/p&gt;</description>
-<source url="https://ladybird.org/posts/alpha/">Hacker News AI</source>
-<category>浏览器引擎</category>
-<category>开源项目</category>
-<category>Ladybird</category>
-</item>
-<item><title>OpenCode 2.4.0 发布自动化工具</title><link>https://x.com/opencode/status/2124886266835505473</link><guid isPermaLink="true">https://x.com/opencode/status/2124886266835505473</guid>
-<pubDate>Mon, 23 Nov 2026 23:22:19 +0800</pubDate>
-<description>&lt;p&gt;OpenCode 2.4.0 引入自动化工具，智能体可创建按计划运行或响应 MCP 事件的自动化任务。这些任务能触发提示词、Shell 命令或可访问 MCP 工具的代码模式脚本。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为智能体工作流加入事件驱动与定时自动化能力，对使用 MCP 的开发者有直接实用价值。&lt;/p&gt;&lt;p&gt;OpenCode (@opencode) · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/opencode/status/2124886266835505473">OpenCode (@opencode)</source>
-<category>OpenCode</category>
-<category>MCP</category>
-<category>智能体</category>
-<category>自动化</category>
-</item>
-<item><title>智谱发布 7500 亿参数 GLM-5.4 采用循环 Transformer 架构</title><link>https://the-decoder.com/z-ai-follows-openai-into-loop-transformer-territory-with-its-new-750b-flagship-model/</link><guid isPermaLink="true">https://the-decoder.com/z-ai-follows-openai-into-loop-transformer-territory-with-its-new-750b-flagship-model/</guid>
-<pubDate>Mon, 23 Nov 2026 23:13:03 +0800</pubDate>
-<description>&lt;p&gt;智谱 AI 推出旗舰模型 GLM-5.4，参数规模达 7500 亿，首次采用循环 Transformer 架构，通过让共享层块重复运行两次来加深网络，而不增加参数量。配套的控制门、共享 token 缓存与稀疏注意力机制抑制了显存与算力开销的上升，官方称该模型可用代码生成视频、游戏与 CAD 模型，并计划后续开放权重。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产旗舰模型首次跟进循环 Transformer 路线，7500 亿参数与免增参数的深度扩展方案具备明确技术增量。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/z-ai-follows-openai-into-loop-transformer-territory-with-its-new-750b-flagship-model/">The Decoder</source>
-<category>大模型</category>
-<category>智谱 AI</category>
-<category>循环 Transformer</category>
-<category>GLM-5.4</category>
 </item>
 </channel>
 </rss>

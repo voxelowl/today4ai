@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Tue, 24 Nov 2026 05:39:25 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 24 Nov 2026 05:46:35 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>黄仁勋复任英伟达 CEO 开盘大涨 32%</title><link>https://todayforai.com/en/story/story-97c1526e-d94</link><guid isPermaLink="true">https://todayforai.com/en/story/story-97c1526e-d94</guid>
 <pubDate>Tue, 24 Nov 2026 00:17:55 +0800</pubDate>
@@ -51,6 +51,14 @@
 
 该模型将循环架构与 MoE 结合，以极低激活参数实现接近更大模型的智能体能力，显著降低了本地部署门槛。其开源将推动个人设备上的智能体应用，并为高效推理架构提供新范式，可能引发对循环 Transformer 的进一步探索。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost), Arena.ai (@arena), The Decoder, Artificial Analysis (@ArtificialAnlys), IT之家 · 智能时代, Hacker News AI&lt;/p&gt;</description>
 </item>
+<item><title>Ladybird 浏览器发布首个 Alpha 版 自研引擎挑战 Chromium 霸权</title><link>https://todayforai.com/en/story/story-f5746387-c9c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f5746387-c9c</guid>
+<pubDate>Tue, 24 Nov 2026 05:46:35 +0800</pubDate>
+<description>&lt;p&gt;独立浏览器项目 Ladybird 正式发布首个 Alpha 版本，面向 macOS 与 Linux 用户提供直接下载，无需编译源码即可体验。这标志着全球浏览器引擎市场迎来一个从零构建的全新挑战者，其核心引擎完全自研，而非基于 Chromium 或 Gecko 的分支。
+
+据官方信息与 Simon Willison 博客分析，Ladybird 自研了 HTML 解析、CSS 引擎、布局、JavaScript 与 WebAssembly 等核心组件，仅复用 HarfBuzz、Skia、ffmpeg、SQLite 等少数外部库。该项目源自 SerenityOS，采用滚动更新通道，官方坦承当前版本存在兼容性与崩溃问题，并明确不承诺安全性，主动邀请安全研究者进行漏洞挖掘。
+
+Ladybird 的 Alpha 发布是浏览器引擎领域少见的从零构建尝试，打破了 Chromium 与 Gecko 长期主导的格局。尽管早期版本稳定性不足，但其独立技术路线为开发者提供了新的选择，并可能推动浏览器引擎技术的多元化竞争。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, Simon Willison 博客&lt;/p&gt;</description>
+</item>
 <item><title>Agent Arena 指数揭示五个月智能体竞争格局</title><link>https://todayforai.com/en/story/story-0f6c7926-348</link><guid isPermaLink="true">https://todayforai.com/en/story/story-0f6c7926-348</guid>
 <pubDate>Tue, 24 Nov 2026 04:42:08 +0800</pubDate>
 <description>&lt;p&gt;Arena.ai 发布基于 320 万次真实智能体会话的 Agent Arena Index，用统一评分衡量模型在编程、知识工作与对话中的实际任务完成能力。榜单显示 Anthropic 在真实智能体任务上扩大领先，Google DeepMind 已反超 OpenAI，阿里 Qwen 与腾讯混元等中国实验室持续追赶，前三名之后的格局正在重塑。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Arena.ai (@arena)&lt;/p&gt;</description>
@@ -62,14 +70,6 @@
 <item><title>Meta 发布 Muse Ember 智能体模型 成本仅 0.02 美元</title><link>https://todayforai.com/en/story/story-b7eaf070-db5</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b7eaf070-db5</guid>
 <pubDate>Tue, 24 Nov 2026 00:22:25 +0800</pubDate>
 <description>&lt;p&gt;Meta 的 Muse Ember (Max) 在 Arena.ai 新推出的 Agent Arena Index 及工作、编程、对话、任务完成、可控性、工具调用六项子指数中全部进入帕累托前沿。其综合得分 1093 分，单任务中位成本仅 0.02 美元，比 GPT-6 Luna、Claude Haiku 5.5 和 DeepSeek-V4.1-Flash 低 75% 至 86%，速度约为 Luna 的 13 倍。工具调用是其最强项，以同等成本取得 1161 分。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Arena.ai (@arena)&lt;/p&gt;</description>
-</item>
-<item><title>亚马逊 75 亿美元收购 Decart 强化自研芯片生态</title><link>https://todayforai.com/en/story/story-a9b413fa-7c8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a9b413fa-7c8</guid>
-<pubDate>Tue, 24 Nov 2026 01:14:23 +0800</pubDate>
-<description>&lt;p&gt;亚马逊正深入谈判以约 75 亿美元收购以色列 AI 初创公司 Decart，报价接近其上一轮 40 亿美元估值的两倍。交易核心是 Decart 的优化软件栈 DOS 及核心团队，该技术能让 AI 模型在英伟达、亚马逊和谷歌硬件上高效运行，尤其使实时视频模型在亚马逊 Trainium3 芯片上比 GPU 快 4 倍、成本减半。
-
-多方信源交叉验证，Decart 是 AWS Trainium3 的早期使用者，具备自研芯片优化实战经验，同时自研世界模型，此前 Anthropic 也曾表达收购兴趣。交易最早可能本周初敲定，但仍存破裂风险。
-
-此举被视为亚马逊为推广自研 Trainium 芯片、降低对英伟达 GPU 依赖的关键布局，通过软硬协同强化自研算力生态，对 AI 芯片竞争格局将产生重要影响。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, Rohan Paul (@rohanpaul_ai), IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
