@@ -35,14 +35,6 @@ Claude Ship 的核心差异点在于 Claude Approvals 可依据团队预设策�
 
 Claude Ship 直击 AI 生成代码量激增后审查与放行环节的瓶颈，标志着 Claude 从代码评审工具升级为可闭环交付的编码智能体。该产品有望显著提升开发团队的合并效率，但自动审批的准确率与召回率尚未公开，企业需在效率与风险间谨慎权衡。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Marktechpost (@Marktechpost), The Verge AI, TechCrunch AI, The Decoder&lt;/p&gt;</description>
 </item>
-<item><title>蚂蚁开源 560B 医疗大模型 124B 多模态版笔记本可跑</title><link>https://todayforai.com/en/story/story-333423b6-a51</link><guid isPermaLink="true">https://todayforai.com/en/story/story-333423b6-a51</guid>
-<pubDate>Tue, 24 Nov 2026 11:05:00 +0800</pubDate>
-<description>&lt;p&gt;蚂蚁集团在 11 月 23 日的阿福医疗健康生态大会上一次性发布五款医疗 AI 模型，并开源其中两款核心基础模型：560B 参数的 LingSante-3.1-flash 和 124B 参数的 LingSante-3.1-air-VL。这是蚂蚁首次集中展示其医疗健康底层技术布局，标志着医疗 AI 从问答工具向管家式服务演进。
-
-旗舰模型 LingSante-3.1-flash 采用 MoE 架构，总参数 560B，每 token 仅激活 25B，支持 100 万 Token 超长上下文，可进行多轮证据检索与核对。官方评测显示，其在 HealthBench Professional、HLE、BrowseComp 和 EHR-Complex 等基准上超越 GPT-6 Astra、Claude Opus 5.5 和 Gemini 4 Argon。训练方法上，蚂蚁从预训练阶段即混合医疗与通用数据，将医疗推理、工具调用、检索与临床行为作为独立技能分别用强化学习训练，再通过多教师同策略蒸馏合并为单一模型。多模态模型 LingSante-3.1-air-VL 总参数 124B，激活参数仅 5.5B，可在笔记本等本地设备部署，融合医学影像理解、报告生成、医学推理与多模态检索能力，在 AFUMED-Derm、AFUMED-Report、MIMIC-CXR 和医学 VQA 四项基准上领先 GPT-6.1 Sol 与 Gemini 3.8 Flash。
-
-同步推出的还有覆盖 150 余项疾病六年风险预测的 Pulse 模型和安全防护模型 MedGuard。蚂蚁提出“模型要像医生一样思考”的训练与评测…&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, 机器之心 (微信公众号), Rohan Paul (@rohanpaul_ai), AntLing (@AntLingAGI), 量子位官网&lt;/p&gt;</description>
-</item>
 <item><title>百度开源文心 5.5 Flash 2800 亿参数模型</title><link>https://todayforai.com/en/story/story-8899f5da-682</link><guid isPermaLink="true">https://todayforai.com/en/story/story-8899f5da-682</guid>
 <pubDate>Tue, 24 Nov 2026 14:59:54 +0800</pubDate>
 <description>&lt;p&gt;百度以 Apache 2.0 协议开源文心 5.5 Flash Preview，采用 2800 亿总参数、每 Token 激活 140 亿的 MoE 架构，支持 100 万 Token 上下文，权重已上架 Hugging Face 与 ModelScope。该模型在 AutomationBench 上以 61.9 分超过 Claude Opus 5.5，CodeArena WebDev 以 1668 分位列开源第二，但 Terminal-Bench 4.0 等终端任务仍落后于头部闭源模型。
@@ -74,6 +66,14 @@ Tidal 的举措是流媒体平台针对 AI 生成内容治理的明确信号。�
 OceanLake 融合数据库实时事务、数仓分析与数据湖开放存储，实现离在线一体与多模态数据统一治理。其技术方案基于对象存储实现存算分离弹性，以一份数据同时支撑在线读写、实时分析与离线加工。Agent 友好能力依靠逻辑表隔离与秒级数据库分支，支持并行试错与失败回滚，并提供效果观测评测、长期共享记忆与权限治理。多模混合搜索被视为与事务、分析并列的新工作负载，统一管理结构化与非结构化数据。CTO 杨传辉透露，MCP 访问量半年增长约 13 倍带来的架构压力是此次发布的重要背景。
 
 OceanBase 押注多模态数据基础设施的逻辑与当年押注分布式数据库一致。目前其 AI 业务营收已突破 1 亿元，国际化营收占比 15%、增速 100%，研发团队已拆分为传统数据库与 AI 数据两条线。此次开源核心引擎有望降低 AI 数据平台的使用门槛，推动 Agent 生态发展，并加剧数据库厂商在 AI 时代的竞争。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;量子位官网, IT之家 · 智能时代, InfoQ 中文&lt;/p&gt;</description>
+</item>
+<item><title>蚂蚁开源 560B 医疗大模型 124B 多模态版笔记本可跑</title><link>https://todayforai.com/en/story/story-333423b6-a51</link><guid isPermaLink="true">https://todayforai.com/en/story/story-333423b6-a51</guid>
+<pubDate>Tue, 24 Nov 2026 11:05:00 +0800</pubDate>
+<description>&lt;p&gt;蚂蚁集团在 11 月 23 日的阿福医疗健康生态大会上一次性发布五款医疗 AI 模型，并开源其中两款核心基础模型：560B 参数的 LingSante-3.1-flash 和 124B 参数的 LingSante-3.1-air-VL。这是蚂蚁首次集中展示其医疗健康底层技术布局，标志着医疗 AI 从问答工具向管家式服务演进。
+
+旗舰模型 LingSante-3.1-flash 采用 MoE 架构，总参数 560B，每 token 仅激活 25B，支持 100 万 Token 超长上下文，可进行多轮证据检索与核对。官方评测显示，其在 HealthBench Professional、HLE、BrowseComp 和 EHR-Complex 等基准上超越 GPT-6 Astra、Claude Opus 5.5 和 Gemini 4 Argon。训练方法上，蚂蚁从预训练阶段即混合医疗与通用数据，将医疗推理、工具调用、检索与临床行为作为独立技能分别用强化学习训练，再通过多教师同策略蒸馏合并为单一模型。多模态模型 LingSante-3.1-air-VL 总参数 124B，激活参数仅 5.5B，可在笔记本等本地设备部署，融合医学影像理解、报告生成、医学推理与多模态检索能力，在 AFUMED-Derm、AFUMED-Report、MIMIC-CXR 和医学 VQA 四项基准上领先 GPT-6.1 Sol 与 Gemini 3.8 Flash。
+
+同步推出的还有覆盖 150 余项疾病六年风险预测的 Pulse 模型和安全防护模型 MedGuard。蚂蚁提出“模型要像医生一样思考”的训练与评测…&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, 机器之心 (微信公众号), Rohan Paul (@rohanpaul_ai), AntLing (@AntLingAGI), 量子位官网&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
