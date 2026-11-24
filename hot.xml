@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Tue, 24 Nov 2026 19:26:23 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 24 Nov 2026 20:00:57 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
-<item><title>黄仁勋辞任 11 天后回归英伟达任 CEO</title><link>https://todayforai.com/en/story/story-97c1526e-d94</link><guid isPermaLink="true">https://todayforai.com/en/story/story-97c1526e-d94</guid>
-<pubDate>Tue, 24 Nov 2026 12:14:16 +0800</pubDate>
-<description>&lt;p&gt;英伟达董事会一致投票决定重新任命黄仁勋为总裁、CEO 及董事会成员，距其宣布辞职仅 11 天，董事会称已征询美国财政部等高级官员意见。同期 OpenAI 披露预训练曲线，智谱发布首个循环 Transformer 模型 GLM 5.4，Sierra 估值较去年 100 亿美元翻三倍。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, The Decoder, The Verge AI, Hacker News AI, Rohan Paul (@rohanpaul_ai), TechCrunch AI&lt;/p&gt;</description>
-</item>
 <item><title>智谱发布 GLM-5.4 循环 Transformer 架构落地</title><link>https://todayforai.com/en/story/story-d2145516-db8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d2145516-db8</guid>
 <pubDate>Tue, 24 Nov 2026 17:21:55 +0800</pubDate>
 <description>&lt;p&gt;智谱 AI 正式发布旗舰模型 GLM-5.4，这是其首个基于循环 Transformer 架构的大模型，通过让共享权重层在前向传播中重复执行两次来加深推理，在不增加参数量的前提下达到 2T-3T 参数级模型的智能水平。模型参数规模达 7500 亿，已上线 GLM Coding Plan、ZCode 与 Z.ai Chat，API 与权重将在安全评估后开放。
@@ -14,6 +10,10 @@
 技术细节上，GLM-5.4 复用 28 层基座，第二遍循环复用第一遍的稀疏 KV 与注意力索引，额外仅增加一个滑动窗口的 KV 缓存开销，配合控制门、共享 token 缓存与稀疏注意力机制抑制显存与算力成本。在 30B 等参测试中，循环机制以约 10% 的额外训练算力换来 AIME25 +11.3、GPQA-Diamond +8.7 的提升，同时输出长度下降 11.7% 至 14.9%。模型新增视觉理解能力，支持 1M 上下文，主打“泛编程”，可由代码生成视频、游戏与 CAD 模型。
 
 对行业而言，GLM-5.4 验证了计算深度扩展路线，为不盲目堆参数的大模型发展提供了新范式。其“泛编程”定位将代码能力外推至视频生成、游戏构建与 3D 建模等场景，有望拓展 AI 编程工具的应用边界。即日起向 Coding Plan 用户全量开放，V2、V3 及团队版用户额度提升至 1.5 倍，周额度用户可用量较 GLM-5.3 提升 50%，将加速其在开发者生态中的渗透。&lt;/p&gt;&lt;p&gt;8 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), IT之家 · 智能时代, Marktechpost (@Marktechpost), Hacker News AI, 智谱 AI 研究, The Decoder&lt;/p&gt;</description>
+</item>
+<item><title>黄仁勋辞任 11 天后回归英伟达任 CEO</title><link>https://todayforai.com/en/story/story-97c1526e-d94</link><guid isPermaLink="true">https://todayforai.com/en/story/story-97c1526e-d94</guid>
+<pubDate>Tue, 24 Nov 2026 12:14:16 +0800</pubDate>
+<description>&lt;p&gt;英伟达董事会一致投票决定重新任命黄仁勋为总裁、CEO 及董事会成员，距其宣布辞职仅 11 天，董事会称已征询美国财政部等高级官员意见。同期 OpenAI 披露预训练曲线，智谱发布首个循环 Transformer 模型 GLM 5.4，Sierra 估值较去年 100 亿美元翻三倍。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, The Decoder, The Verge AI, Hacker News AI, Rohan Paul (@rohanpaul_ai), TechCrunch AI&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 推出 Claude Ship 实现代码审查与自动审批</title><link>https://todayforai.com/en/story/story-f3e61143-17c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f3e61143-17c</guid>
 <pubDate>Tue, 24 Nov 2026 19:26:23 +0800</pubDate>
@@ -47,6 +47,10 @@ Claude Ship 直击 AI 生成代码量激增后审查与放行环节的瓶颈，�
 
 Shirudo 的推出为基础设施运维者和安全研究者提供了一种快速响应漏洞威胁的新手段，尤其适用于无法立即重启的关键业务系统。其开源特性有望推动运行时安全防护生态的发展，并促进 AI 生成防护规则的标准化与可信部署。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, OpenAI 官方博客, Hacker News AI&lt;/p&gt;</description>
 </item>
+<item><title>Anthropic 上市次日跌破 83 美元发行价</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
+<pubDate>Tue, 24 Nov 2026 20:00:57 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 在纳斯达克完成史上最大规模 IPO 后仅数日，盘前股价即跌破 83 美元发行价，最新报 82 美元，较首日 111.50 美元开盘价明显回落。CEO Dario Amodei 于上市次日减持逾 337 万股、套现超 2.8 亿美元，叠加科技股整体回调，加剧了市场对 AI 板块高估值与算力资本开支的担忧。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;GREG ISENBERG (@gregisenberg), IT之家 · IT业界, 新智元 (微信公众号), The Verge AI, 宝玉 (@dotey), 机器之心 (微信公众号)&lt;/p&gt;</description>
+</item>
 <item><title>蚂蚁开源 560B 医疗大模型 124B 多模态版笔记本可跑</title><link>https://todayforai.com/en/story/story-c5def680-01d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c5def680-01d</guid>
 <pubDate>Mon, 23 Nov 2026 15:42:01 +0800</pubDate>
 <description>&lt;p&gt;蚂蚁集团在阿福医疗健康生态大会上宣布全面开源百灵医疗健康大模型家族，核心包括 560B 总参数、25B 激活的 LingSante-3.1-flash 和 124B 总参数、仅 5.5B 激活的多模态模型 LingSante-3.1-air-VL。前者支持 100 万 Token 上下文，后者可在单台笔记本本地部署，两款模型均采用 MIT 许可在 Hugging Face 放出权重，标志着医疗 AI 从闭源问答走向开源管家式服务。
@@ -70,10 +74,6 @@ Shirudo 的推出为基础设施运维者和安全研究者提供了一种快速
 该提议获得了多方信源的交叉印证。OpenAI 官方博客与 Hacker News 的报道均强调，困惑度作为压缩器/预测器能力的核心度量，可替代快速过时的下游基准测试，成为行业治理的量化锚点。The Decoder 进一步披露，OpenAI 首次公开了直至 GPT-6 之后未发布模型的内部得分，显示流畅对话、逻辑推理与复杂数学求解等能力均在固定困惑度阈值处涌现。TechCrunch 指出，该提议与 Anthropic CEO Dario Amodei 的“节奏化前沿”计划形成呼应，后者同样主张企业就安全标准与进展速率限制达成共识。奥尔特曼公开支持该文，称其为 OpenAI 近期最重要内容之一，而美国国会的 AI 监管讨论也在升温。
 
 若被采纳，困惑度将从训练评估指标升级为行业治理的量化锚点，推动 AI 安全监管从各自为政的基准测试转向可比较、可追踪的统一标尺。这不仅为头部实验室提供了共享安全红线的操作基础，也可能影响未来 AI…&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Hacker News AI, TechCrunch AI, OpenAI 官方博客, The Decoder&lt;/p&gt;</description>
-</item>
-<item><title>编码智能体评测揭示 harness 选择对成本影响超过得分</title><link>https://todayforai.com/en/story/story-4b1c2242-486</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4b1c2242-486</guid>
-<pubDate>Tue, 24 Nov 2026 11:31:19 +0800</pubDate>
-<description>&lt;p&gt;Artificial Analysis 在其 Coding Agent Index v2.1 上推出 Harness Comparisons，固定模型仅更换 harness，对 GPT-6 Luna 与 GLM-5.3-Flash 各测试 13 种 harness。结论是没有任何 harness 在所有模型上都最优，最佳组合因模型而异，且 harness 对成本的影响大于对得分的影响。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
