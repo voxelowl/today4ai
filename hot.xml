@@ -19,14 +19,6 @@
 
 对行业而言，GLM-5.4 验证了计算深度扩展路线，为不盲目堆参数的大模型发展提供了新范式。其“泛编程”定位将代码能力外推至视频生成、游戏构建与 3D 建模等场景，有望拓展 AI 编程工具的应用边界。即日起向 Coding Plan 用户全量开放，V2、V3 及团队版用户额度提升至 1.5 倍，周额度用户可用量较 GLM-5.3 提升 50%，将加速其在开发者生态中的渗透。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), IT之家 · 智能时代, Marktechpost (@Marktechpost), Hacker News AI, 智谱 AI 研究, The Decoder&lt;/p&gt;</description>
 </item>
-<item><title>Anthropic 推出 Claude Ship 实现代码审查与自动审批</title><link>https://todayforai.com/en/story/story-f3e61143-17c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f3e61143-17c</guid>
-<pubDate>Tue, 24 Nov 2026 19:26:23 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 正式发布 Claude Ship 智能体流水线，将 GitHub PR 流程拆分为代码审查、PR Steward 修复推进与 Claude Approvals 策略审批三个专职智能体，可在无人逐步介入的情况下完成从审查到批准决策的闭环。官方数据显示，Claude Code 团队合并 PR 数量在 6 月至 9 月间翻倍以上，回滚变更占比下降超 40%，单轮审查修复通过率从 65% 升至 78%。
-
-Claude Ship 的核心差异点在于 Claude Approvals 可依据团队预设策略自动批准常规代码变更，策略以自然语言文件形式存入代码仓库，并可结合 Code Review 结果与企业自研分类器信号。PR Steward 能自动处理 CI 失败与合并冲突，并在每次推送后说明改动内容及回滚方式。Code Review 已正式可用，支持 Quick、Standard、Deep 三档审查强度并可升级至人工决策；PR Steward 与 Claude Approvals 仍处于公测阶段，仅限 Team 与 Enterprise 计划的 GitHub 用户。计费按 token 而非按次，官方建议先以观察模式运行并设置月度支出上限。
-
-Claude Ship 直击 AI 生成代码量激增后审查与放行环节的瓶颈，标志着 Claude 从代码评审工具升级为可闭环交付的编码智能体。该产品有望显著提升开发团队的合并效率，但自动审批的准确率与召回率尚未公开，企业需在效率与风险间谨慎权衡。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Marktechpost (@Marktechpost), The Verge AI, TechCrunch AI, The Decoder&lt;/p&gt;</description>
-</item>
 <item><title>Anthropic 上市次日跌破 83 美元发行价</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
 <pubDate>Tue, 24 Nov 2026 21:23:47 +0800</pubDate>
 <description>&lt;p&gt;Anthropic 以每股 83 美元登陆纳斯达克，募资超 940 亿美元刷新全球 IPO 纪录，但上市次日即跌破发行价，市值回落至约 1 万亿美元附近。
@@ -34,6 +26,14 @@ Claude Ship 直击 AI 生成代码量激增后审查与放行环节的瓶颈，�
 发行价较 70 至 78 美元的初始区间上调 6.4%，公开募股叠加谷歌、英伟达、微软等七巨头 260 亿美元同价私募配售，合计募资超越 SpaceX 保持的 862.5 亿美元纪录。超额认购达 6 倍，散户配售比例提升至 20%，隐含估值约为其 810 亿美元年化收入的 18.5 倍。然而，募资额仅相当于其 9010 亿美元算力承诺的 10.5%，市场对巨额基础设施支出的回报周期存疑。
 
 此次破发为头部 AI 实验室的资本化进程敲响警钟。Anthropic 计划投入 9000 亿美元建设算力基础设施，包括与 SpaceX 每月最高 31 亿美元的数据中心协议，但上市首日高开 33% 后迅速回落，显示公开市场对 AI 高估值与巨额资本开支的审慎态度。作为首家上市的前沿大模型公司，其股价表现将成为 AI 行业估值定价的关键锚点，影响后续 AI 公司的上市节奏与融资环境。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;机器之心 (微信公众号), The Decoder, TechCrunch AI, Anthropic News, GREG ISENBERG (@gregisenberg), Anthropic AI (@AnthropicAI)&lt;/p&gt;</description>
+</item>
+<item><title>Anthropic 推出 Claude Ship 实现代码审查与自动审批</title><link>https://todayforai.com/en/story/story-f3e61143-17c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f3e61143-17c</guid>
+<pubDate>Tue, 24 Nov 2026 19:26:23 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 正式发布 Claude Ship 智能体流水线，将 GitHub PR 流程拆分为代码审查、PR Steward 修复推进与 Claude Approvals 策略审批三个专职智能体，可在无人逐步介入的情况下完成从审查到批准决策的闭环。官方数据显示，Claude Code 团队合并 PR 数量在 6 月至 9 月间翻倍以上，回滚变更占比下降超 40%，单轮审查修复通过率从 65% 升至 78%。
+
+Claude Ship 的核心差异点在于 Claude Approvals 可依据团队预设策略自动批准常规代码变更，策略以自然语言文件形式存入代码仓库，并可结合 Code Review 结果与企业自研分类器信号。PR Steward 能自动处理 CI 失败与合并冲突，并在每次推送后说明改动内容及回滚方式。Code Review 已正式可用，支持 Quick、Standard、Deep 三档审查强度并可升级至人工决策；PR Steward 与 Claude Approvals 仍处于公测阶段，仅限 Team 与 Enterprise 计划的 GitHub 用户。计费按 token 而非按次，官方建议先以观察模式运行并设置月度支出上限。
+
+Claude Ship 直击 AI 生成代码量激增后审查与放行环节的瓶颈，标志着 Claude 从代码评审工具升级为可闭环交付的编码智能体。该产品有望显著提升开发团队的合并效率，但自动审批的准确率与召回率尚未公开，企业需在效率与风险间谨慎权衡。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Marktechpost (@Marktechpost), The Verge AI, TechCrunch AI, The Decoder&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 数学家与 Claude 合作证明黎曼猜想 1700 万行 Lean 代码通过机器核验</title><link>https://todayforai.com/en/story/story-b91caf62-12d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b91caf62-12d</guid>
 <pubDate>Tue, 24 Nov 2026 14:27:00 +0800</pubDate>
