@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Wed, 25 Nov 2026 00:46:00 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 25 Nov 2026 01:34:34 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>特朗普与硅谷施压 黄仁勋重返英伟达</title><link>https://todayforai.com/en/story/story-97c1526e-d94</link><guid isPermaLink="true">https://todayforai.com/en/story/story-97c1526e-d94</guid>
 <pubDate>Tue, 24 Nov 2026 22:56:50 +0800</pubDate>
@@ -18,6 +18,22 @@
 <item><title>Anthropic 研究员回应 AI 辅助黎曼证明争议</title><link>https://todayforai.com/en/story/story-b91caf62-12d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b91caf62-12d</guid>
 <pubDate>Tue, 24 Nov 2026 22:28:41 +0800</pubDate>
 <description>&lt;p&gt;Anthropic 研究员 Levent Alpöge 坚持其 AI 辅助广义黎曼假设证明的数学有效性，Lean 代码已通过形式化验证，但他承认发布过程存在多处失误：代码未经清理、充斥冗余步骤与无用引理，关于证明长度的说法只是玩笑。他承认外界对发布方式的批评合理，并指出仅靠编译成功并不能证明 Lean 代码准确陈述了定理且无隐藏假设。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys), Latent Space, Simon Willison 博客, TechCrunch AI, The Verge AI, 宝玉 (@dotey)&lt;/p&gt;</description>
+</item>
+<item><title>Tidal 将于 12 月 9 日全面下架纯 AI 生成音乐</title><link>https://todayforai.com/en/story/story-68b9d3af-e20</link><guid isPermaLink="true">https://todayforai.com/en/story/story-68b9d3af-e20</guid>
+<pubDate>Wed, 25 Nov 2026 01:34:34 +0800</pubDate>
+<description>&lt;p&gt;流媒体平台 Tidal 宣布自 12 月 9 日起全面删除纯 AI 生成音乐，并每日拒收约 8 万至 8.5 万首此类投稿。此前 Tidal 仅对 AI 曲目进行标注并取消变现，但近 90 天新上传中完全 AI 生成比例高达 43%，11 月 6 日单日更飙升至 60%，迫使平台采取更严厉措施。
+
+Tidal 目前标注为 AI 的曲目约 2700 万至 2900 万首，占曲库 6.3%，但其中 96% 在过去 90 天零播放，因此下架对平台实际影响有限。政策仅针对完全由 AI 创作的作品，人类主导并借助 AI 工具的作品仍可上架。执行层面，Tidal 借助 Ircam Amplify 检测与元数据校验来识别纯 AI 曲目。
+
+此举标志着流媒体平台对 AI 音乐从温和标注转向主动清理，旨在维护版权秩序与用户体验。尽管下架曲目数量庞大，但零播放率表明 AI 音乐泛滥并未带来实际消费价值，Tidal 的强硬立场可能引发其他平台跟进，推动行业形成 AI 音乐治理新标准。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, Ars Technica AI, The Verge AI, Hacker News AI&lt;/p&gt;</description>
+</item>
+<item><title>OpenAI 与思科开源 Shirudo 运行时 免重启拦截漏洞攻击</title><link>https://todayforai.com/en/story/story-50bba636-e6b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-50bba636-e6b</guid>
+<pubDate>Tue, 24 Nov 2026 22:20:17 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 与思科联合开源了安全运行时 Shirudo，它基于 eBPF 技术，能在内核层为运行中的 Linux 系统动态加载临时防护，无需重启即可阻断漏洞利用。在受控测试中，由 Codex 生成的防护层成功拦截了针对 Elasticsearch 的 Java4Shell 攻击，且服务全程未中断。项目以 BSD 2-Clause 许可证开源，并引入签名验证与 TPM 审计机制以降低误用风险。
+
+Shirudo 的核心创新在于让 AI 智能体以代码形式编写签名的 eBPF 程序，在内核层精准控制可疑行为，避免封禁正常业务所需的系统调用。防护程序加载前需经过加密签名与 eBPF 验证器校验，并通过 TPM 2.0 记录每次加载与移除，以供审计。不过，该方案目前依赖 bpf-next 内核与额外补丁，且仅披露了单一测试案例，缺少性能开销数据，落地门槛较高。
+
+Shirudo 填补了补丁空窗期的安全防护空白，为基础设施运维者提供了免重启的临时防护手段。其开源特性有望吸引开发者与安全研究者共同推进，但实际部署仍需克服内核兼容性与性能验证等挑战。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost), IT之家 · 智能时代, OpenAI 官方博客, Hacker News AI&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 上市次日跌破 83 美元发行价</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
 <pubDate>Tue, 24 Nov 2026 21:23:47 +0800</pubDate>
@@ -42,22 +58,6 @@ Claude Ship 直击 AI 生成代码量激增后审查与放行环节的瓶颈，�
 技术细节方面，模型共 43 层，其中 37 层使用 HCA、6 层使用 MLA+DSA 稀疏注意力，官方解码速度超 200 Token/s。vLLM 团队与百度合作，在发布当天通过 vLLM-ERNIE 插件提供支持，并引入 FlashIndexer 稀疏索引加速与 DSpark 投机解码优化，实现端到端推理加速。基座与后训练权重均以 Apache 2.0 开放，支持 vLLM、SGLang 本地部署，使文心 Flash 系列形成完整开源链条。
 
 行业影响上，此次开源为开发者提供了高性能长上下文 MoE 模型的新选择，尤其在 Agent 与代码生成场景具备竞争力，但终端任务短板也表明其与顶尖闭源模型仍有差距。Apache 2.0 协议与首日推理支持有望降低部署门槛，推动开源生态在稀疏 MoE 架构上的进一步探索。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, vLLM 官方博客, 量子位官网&lt;/p&gt;</description>
-</item>
-<item><title>OpenAI 与思科开源 Shirudo 运行时 免重启拦截漏洞攻击</title><link>https://todayforai.com/en/story/story-50bba636-e6b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-50bba636-e6b</guid>
-<pubDate>Tue, 24 Nov 2026 07:28:29 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 与思科联合开源了安全运行时 Shirudo，它能在不重启系统的情况下为运行中的 Linux 系统提供临时防护，填补补丁部署前的空窗期。该工具基于 eBPF 技术，在内核层动态加载防护规则，精准拦截可疑行为而不影响正常业务。
-
-在受控测试中，由 OpenAI Codex 生成的防护规则成功拦截了针对 Elasticsearch 服务的 Java4Shell 漏洞利用尝试，且服务全程未中断。Shirudo 采用 BSD 2-Clause 许可证开源，并引入签名验证与 TPM 审计机制，确保防护规则加载前经过加密签名和 eBPF 验证器校验，加载与移除过程通过 TPM 记录以供审计，降低了误用风险。
-
-Shirudo 的推出为基础设施运维者和安全研究者提供了一种快速响应漏洞威胁的新手段，尤其适用于无法立即重启的关键业务系统。其开源特性有望推动运行时安全防护生态的发展，并促进 AI 生成防护规则的标准化与可信部署。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, OpenAI 官方博客, Hacker News AI&lt;/p&gt;</description>
-</item>
-<item><title>Tidal 下架 2900 万首纯 AI 生成曲目</title><link>https://todayforai.com/en/story/story-68b9d3af-e20</link><guid isPermaLink="true">https://todayforai.com/en/story/story-68b9d3af-e20</guid>
-<pubDate>Wed, 25 Nov 2026 00:46:00 +0800</pubDate>
-<description>&lt;p&gt;音乐流媒体平台 Tidal 宣布，自 12 月 9 日起下架所有完全由 AI 生成的音乐，预计年底前删除超过 2900 万首曲目，并禁止分发服务上传纯 AI 作品。此举的直接诱因是过去 90 天平台上传曲目中逾 43% 为 AI 完全生成，新规下每日将拒收约 8 万至 8.5 万首。
-
-Tidal 的新政策并非全面禁止 AI 参与音乐创作，而是明确区分“完全 AI 生成”与“AI 辅助创作”：前者被禁止上传和分发，后者仍被接受，但要求艺人主动标注曲目属性。此外，对于涉及冒充知名艺人、欺骗听众等欺诈行为的 AI 歌曲，平台将取消其变现资格。这一系列动作旨在回应生成式 AI 内容带来的版权与真实性争议，维护平台生态的透明与可信。
-
-Tidal 的举措是流媒体平台针对 AI 生成内容治理的明确信号。随着 AI 音乐产量激增，平台面临版权归属、收益分配和听众信任等多重挑战。Tidal 通过下架、标注和变现限制组合拳，为行业提供了可参考的治理样本，可能推动其他平台跟进，进而影响 AI 音乐创作与分发的整体格局。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, Hacker News AI&lt;/p&gt;</description>
 </item>
 <item><title>蚂蚁 OceanBase 发布湖库一体 AI 数据平台并开源核心引擎</title><link>https://todayforai.com/en/story/story-defe2a1b-346</link><guid isPermaLink="true">https://todayforai.com/en/story/story-defe2a1b-346</guid>
 <pubDate>Tue, 24 Nov 2026 20:29:21 +0800</pubDate>
