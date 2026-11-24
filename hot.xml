@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Tue, 24 Nov 2026 06:37:02 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 24 Nov 2026 07:28:29 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>黄仁勋复任英伟达 CEO 开盘大涨 32%</title><link>https://todayforai.com/en/story/story-97c1526e-d94</link><guid isPermaLink="true">https://todayforai.com/en/story/story-97c1526e-d94</guid>
 <pubDate>Tue, 24 Nov 2026 00:17:55 +0800</pubDate>
@@ -51,6 +51,14 @@
 
 该模型将循环架构与 MoE 结合，以极低激活参数实现接近更大模型的智能体能力，显著降低了本地部署门槛。其开源将推动个人设备上的智能体应用，并为高效推理架构提供新范式，可能引发对循环 Transformer 的进一步探索。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost), Arena.ai (@arena), The Decoder, Artificial Analysis (@ArtificialAnlys), IT之家 · 智能时代, Hacker News AI&lt;/p&gt;</description>
 </item>
+<item><title>OpenAI 与思科开源 Shirudo 运行时 免重启拦截漏洞攻击</title><link>https://todayforai.com/en/story/story-50bba636-e6b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-50bba636-e6b</guid>
+<pubDate>Tue, 24 Nov 2026 07:28:29 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 与思科联合开源了名为 Shirudo 的安全运行时，它基于 eBPF 技术，能在内核层为运行中的 Linux 系统动态加载临时防护，无需重启即可阻断漏洞利用。在受控测试中，由 OpenAI Codex 生成的防护层成功拦截了针对 Elasticsearch 的 Java4Shell 攻击，且服务全程未中断，验证了该方案在真实场景下的有效性。
+
+Shirudo 的核心机制是利用 eBPF 精准观察并控制可疑行为，避免封禁正常业务所需的系统调用。防护规则（shield）在加载前需经过加密签名与 eBPF 验证器校验，并通过 TPM 记录加载与移除过程以供审计，从而降低误用风险。项目以 BSD 2-Clause 许可证开源，并公开了文档，邀请开发者与安全研究者共同参与建设。
+
+这一发布为漏洞应急响应提供了新思路：在官方补丁就绪前，系统可通过动态加载防护规则获得临时保护，尤其适用于无法立即重启的关键服务。OpenAI 与思科的合作也展示了 AI 生成代码在安全领域的应用潜力，有望推动运行时安全防护的普及与生态共建。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, OpenAI 官方博客&lt;/p&gt;</description>
+</item>
 <item><title>Ladybird 浏览器发布首个 Alpha 版 自研引擎挑战 Chromium 霸权</title><link>https://todayforai.com/en/story/story-f5746387-c9c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f5746387-c9c</guid>
 <pubDate>Tue, 24 Nov 2026 05:46:35 +0800</pubDate>
 <description>&lt;p&gt;独立浏览器项目 Ladybird 正式发布首个 Alpha 版本，面向 macOS 与 Linux 用户提供直接下载，无需编译源码即可体验。这标志着全球浏览器引擎市场迎来一个从零构建的全新挑战者，其核心引擎完全自研，而非基于 Chromium 或 Gecko 的分支。
@@ -70,10 +78,6 @@ Ladybird 的 Alpha 发布是浏览器引擎领域少见的从零构建尝试，�
 <item><title>Agent Arena 指数揭示五个月智能体竞争格局</title><link>https://todayforai.com/en/story/story-0f6c7926-348</link><guid isPermaLink="true">https://todayforai.com/en/story/story-0f6c7926-348</guid>
 <pubDate>Tue, 24 Nov 2026 04:42:08 +0800</pubDate>
 <description>&lt;p&gt;Arena.ai 发布基于 320 万次真实智能体会话的 Agent Arena Index，用统一评分衡量模型在编程、知识工作与对话中的实际任务完成能力。榜单显示 Anthropic 在真实智能体任务上扩大领先，Google DeepMind 已反超 OpenAI，阿里 Qwen 与腾讯混元等中国实验室持续追赶，前三名之后的格局正在重塑。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Arena.ai (@arena)&lt;/p&gt;</description>
-</item>
-<item><title>Meta 首席 AI 官 Alexandr Wang 发文称超级智能正在到来</title><link>https://todayforai.com/en/story/story-b11cfec5-780</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b11cfec5-780</guid>
-<pubDate>Mon, 23 Nov 2026 17:30:00 +0800</pubDate>
-<description>&lt;p&gt;Meta 首席 AI 官 Alexandr Wang 发表长文《Superintelligence is Arriving》，认为 AI 的瓶颈已从智力转向各行业专门知识与实验条件，并以 AIME 满分和黎曼猜想为标志性节点。他同时明确反对把社会交给超级智能，主张行业改走一条让所有人获得更多自主权的路线，但未给出具体方案。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), 机器之心 (微信公众号)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
