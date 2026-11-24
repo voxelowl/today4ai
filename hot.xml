@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Tue, 24 Nov 2026 08:08:36 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 24 Nov 2026 12:16:19 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>智谱发布 GLM-5.4 循环 Transformer 架构落地</title><link>https://todayforai.com/en/story/story-d2145516-db8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d2145516-db8</guid>
 <pubDate>Tue, 24 Nov 2026 07:40:49 +0800</pubDate>
@@ -19,6 +19,14 @@
 
 此次人事反转发生在 AI 产业对算力需求空前高涨的关键时点，管理层稳定性直接关系到全球 AI 供应链与资本市场预期。黄仁勋表示将以焕然一新的承诺领导公司迎接新一轮工业革命。分析认为，尽管合规架构有所强化，但独立调查的后续进展仍可能成为影响英伟达未来治理与股价的潜在变量。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), TechCrunch AI, 宝玉 (@dotey), IT之家 · IT业界, The Decoder, The Verge AI&lt;/p&gt;</description>
 </item>
+<item><title>Anthropic 数学家与 Claude 合作证明黎曼猜想 1700 万行 Lean 代码通过机器核验</title><link>https://todayforai.com/en/story/story-b91caf62-12d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b91caf62-12d</guid>
+<pubDate>Tue, 24 Nov 2026 12:16:19 +0800</pubDate>
+<description>&lt;p&gt;2026 年 11 月 20 日，Anthropic 数学家 Levent Alpöge 宣布与 Claude 合作，完成了数学界悬置 167 年的黎曼猜想的证明，并将完整论证形式化为约 1700 万行 Lean 代码。该证明已通过 Lean 与 Mathlib 社区的独立机器核验，包括 Lean 官方内核、con-leche、con-ron 及多个第三方检查器的交叉验证，确认陈述正确、代码可编译、证明与 Mathlib 陈述一致且证明有效。这是 AI 首次深度参与顶级数学开放问题的证明，并将形式化验证规模推至千万行量级。
+
+多方信源交叉验证显示，该证明包含 175,187 个 Lean 模块，在 Lean v4.33.1 与 Mathlib v4.33.1 下零错误编译通过，五个核心定理仅依赖 propext、Classical.choice、Quot.sound 三条标准公理。两个独立编写的内核 nanoda 与 con-leche 均接受完整导出证明，lean4lean 亦通过全部模块。核验还借助相对集合论的形式化证明排除了检查器本身接受错误证明的可能，并在惰性导出文件上运行以规避源码潜在恶意代码影响。MIT 的 Andrew Sutherland 使用 Claude Code 执行了独立验证。
+
+这一事件对 AI 辅助数学与形式化验证领域具有里程碑意义。菲尔兹奖得主 James Maynard 表示相信证明正确，但强调数学界全面认可的前提是有人真正理解并能向外解释其思想框架。同日，斯坦福研究者发布了一份完全由人类完成的独立竞争性证明稿，数小时内即被 AI 查出问题，形成…&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · IT业界, The Decoder, IT之家 · 智能时代, Simon Willison 博客, TechCrunch AI&lt;/p&gt;</description>
+</item>
 <item><title>Anthropic 推出 Claude Ship 实现代码审查与自动审批</title><link>https://todayforai.com/en/story/story-f3e61143-17c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f3e61143-17c</guid>
 <pubDate>Tue, 24 Nov 2026 08:08:36 +0800</pubDate>
 <description>&lt;p&gt;Anthropic 正式发布 Claude Ship 智能体流水线，将 GitHub PR 流程拆分为代码审查、PR Steward 修复推进与 Claude Approvals 策略审批三个专职智能体，可在无人逐步介入的情况下完成从审查到批准决策的闭环。官方数据显示，Claude Code 团队合并 PR 数量在 6 月至 9 月间翻倍以上，回滚变更占比下降超 40%，单轮审查修复通过率从 65% 升至 78%。
@@ -34,14 +42,6 @@ Claude Ship 直击 AI 生成代码量激增后审查与放行环节的瓶颈，�
 在受控测试中，由 OpenAI Codex 生成的防护规则成功拦截了针对 Elasticsearch 服务的 Java4Shell 漏洞利用尝试，且服务全程未中断。Shirudo 采用 BSD 2-Clause 许可证开源，并引入签名验证与 TPM 审计机制，确保防护规则加载前经过加密签名和 eBPF 验证器校验，加载与移除过程通过 TPM 记录以供审计，降低了误用风险。
 
 Shirudo 的推出为基础设施运维者和安全研究者提供了一种快速响应漏洞威胁的新手段，尤其适用于无法立即重启的关键业务系统。其开源特性有望推动运行时安全防护生态的发展，并促进 AI 生成防护规则的标准化与可信部署。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, OpenAI 官方博客, Hacker News AI&lt;/p&gt;</description>
-</item>
-<item><title>Anthropic 数学家与 Claude 合作证明黎曼猜想 1700 万行 Lean 代码通过机器核验</title><link>https://todayforai.com/en/story/story-b91caf62-12d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b91caf62-12d</guid>
-<pubDate>Tue, 24 Nov 2026 06:23:04 +0800</pubDate>
-<description>&lt;p&gt;2026 年 11 月 20 日，Anthropic 数学家 Levent Alpöge 宣布与 Claude 合作，完成了对悬置 167 年的黎曼猜想（及其推广形式广义黎曼猜想）的证明，并将完整论证形式化为约 1700 万行 Lean 代码。Lean 与 Mathlib 社区随后联合认证，该证明已通过四项核验：陈述正确、代码可编译、证明与 Mathlib 陈述一致、证明有效。这是 AI 首次深度参与顶级数学开放问题的证明，并将形式化验证规模推至千万行量级。
-
-核验过程动用了 Lean 官方内核、con-leche、con-ron 及多个第三方独立检查器交叉验证，并借助相对集合论的形式化证明排除了检查器本身接受错误证明的可能。数十名独立验证者运行代码得到一致结果。菲尔兹奖得主 James Maynard 表示相信证明正确，但强调数学界全面认可的前提是有人真正理解并能向外解释其思想框架。同日，斯坦福研究者 Alessandro Masullo 发布了一份完全由人类完成的独立竞争性证明稿，形成鲜明对照。
-
-若最终成立，这将是 AI 辅助数学与形式化验证领域的里程碑事件，不仅支撑数百个依赖黎曼猜想的数学结论，更将形式化验证推至千万行规模，为 AI 研究成果的可信验证机制树立新范式。其真正价值可能在于催生解释素数分布结构的新数学理论，而非猜想本身。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;Latent Space, Hacker News AI, 量子位官网, The Decoder, IT之家 · 智能时代, Simon Willison 博客&lt;/p&gt;</description>
 </item>
 <item><title>蚂蚁开源 560B 医疗大模型 124B 多模态版笔记本可跑</title><link>https://todayforai.com/en/story/story-c5def680-01d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c5def680-01d</guid>
 <pubDate>Mon, 23 Nov 2026 15:42:01 +0800</pubDate>
