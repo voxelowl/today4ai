@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Tue, 24 Nov 2026 07:49:00 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 24 Nov 2026 08:08:36 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>智谱发布 GLM-5.4 循环 Transformer 架构落地</title><link>https://todayforai.com/en/story/story-d2145516-db8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d2145516-db8</guid>
 <pubDate>Tue, 24 Nov 2026 07:40:49 +0800</pubDate>
@@ -18,6 +18,14 @@
 多方信源交叉验证显示，董事会是在听取美国政府高层意见后作出决定的，认定黄仁勋回归不构成国家安全风险，特朗普总统亦公开表态支持。为回应外界疑虑，英伟达同步新设首席合规官岗位，并成立仅由独立董事组成的国家安全与出口管制委员会，针对外国情报行动的独立调查仍将继续。马斯克等科技领袖公开请愿并称“错误已更正”，凸显创始人对这家 AI 算力龙头的不可替代性。
 
 此次人事反转发生在 AI 产业对算力需求空前高涨的关键时点，管理层稳定性直接关系到全球 AI 供应链与资本市场预期。黄仁勋表示将以焕然一新的承诺领导公司迎接新一轮工业革命。分析认为，尽管合规架构有所强化，但独立调查的后续进展仍可能成为影响英伟达未来治理与股价的潜在变量。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), TechCrunch AI, 宝玉 (@dotey), IT之家 · IT业界, The Decoder, The Verge AI&lt;/p&gt;</description>
+</item>
+<item><title>Anthropic 推出 Claude Ship 实现代码审查与自动审批</title><link>https://todayforai.com/en/story/story-f3e61143-17c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f3e61143-17c</guid>
+<pubDate>Tue, 24 Nov 2026 08:08:36 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 正式发布 Claude Ship 智能体流水线，将 GitHub PR 流程拆分为代码审查、PR Steward 修复推进与 Claude Approvals 策略审批三个专职智能体，可在无人逐步介入的情况下完成从审查到批准决策的闭环。官方数据显示，Claude Code 团队合并 PR 数量在 6 月至 9 月间翻倍以上，回滚变更占比下降超 40%，单轮审查修复通过率从 65% 升至 78%。
+
+Claude Ship 的核心差异点在于 Claude Approvals 可依据团队预设策略自动批准常规代码变更，策略以自然语言文件形式存入代码仓库，并可结合 Code Review 结果与企业自研分类器信号。PR Steward 能自动处理 CI 失败与合并冲突，并在每次推送后说明改动内容及回滚方式。Code Review 已正式可用，支持 Quick、Standard、Deep 三档审查强度并可升级至人工决策；PR Steward 与 Claude Approvals 仍处于公测阶段，仅限 Team 与 Enterprise 计划的 GitHub 用户。计费按 token 而非按次，官方建议先以观察模式运行并设置月度支出上限。
+
+Claude Ship 直击 AI 生成代码量激增后审查与放行环节的瓶颈，标志着 Claude 从代码评审工具升级为可闭环交付的编码智能体。该产品有望显著提升开发团队的合并效率，但自动审批的准确率与召回率尚未公开，企业需在效率与风险间谨慎权衡。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Marktechpost (@Marktechpost), The Verge AI, TechCrunch AI&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 与思科开源 Shirudo 运行时 免重启拦截漏洞攻击</title><link>https://todayforai.com/en/story/story-50bba636-e6b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-50bba636-e6b</guid>
 <pubDate>Tue, 24 Nov 2026 07:28:29 +0800</pubDate>
@@ -42,14 +50,6 @@ Shirudo 的推出为基础设施运维者和安全研究者提供了一种快速
 技术细节上，LingSante-3.1-flash 从预训练阶段即混合医疗与通用数据，将医疗推理、工具调用、检索与临床行为作为独立技能分别用强化学习奖励训练，再通过多教师同策略蒸馏合并为单一模型。官方评测显示其在 HealthBench Professional、HLE、BrowseComp 与 EHR-Complex 上超过 GPT-6 Astra、Claude Opus 5.5 和 Gemini 4 Argon。LingSante-3.1-air-VL 则融合医学影像理解、报告生成、医学推理与多模态检索，在 AFUMED-Derm、AFUMED-Report、MIMIC-CXR 与医学 VQA 四项基准上领先 GPT-6.1 Sol 与 Gemini 3.8 Flash，其强化学习奖励按临床意义、异常定位、误报与漏诊打分，而非模仿报告文风。
 
 同步推出的还有覆盖 150 余项疾病六年风险预测的 Pulse 模型和安全防护模型 MedGuard，形成覆盖大语言、实时音视频、预测与安全防护的四类模型矩阵。蚂蚁提出“模型要像医生一样思考”的训练与评测…&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), AntLing (@AntLingAGI), 量子位官网, IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
-<item><title>Anthropic 推出 Claude Ship 实现代码审查与自动审批</title><link>https://todayforai.com/en/story/story-f3e61143-17c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f3e61143-17c</guid>
-<pubDate>Tue, 24 Nov 2026 07:49:00 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 正式发布 Claude Ship 智能体工具集，首次将代码审查、修复与合并审批全流程自动化。该产品直击 AI 生成代码激增带来的审查瓶颈，允许团队依据预设策略自动批准常规变更，标志着 Claude 从代码评审工具升级为可闭环交付的编码智能体。
-
-Claude Ship 包含 Code Review、PR Steward 和 Claude Approvals 三项核心功能。其中 Code Review 已正式可用，支持 Quick、Standard、Deep 三档审查强度并可升级至人工决策；PR Steward 与 Claude Approvals 仍处于测试阶段，前者可自动处理 CI 失败与合并冲突并回写修改说明，后者则依据自然语言策略文件或自定义分类器信号批准变更。目前该产品仅面向 Claude Team 与 Enterprise 套餐客户，且仅支持 GitHub 仓库。官方建议先以观察模式运行并设置月度支出上限。
-
-此次发布意味着 Anthropic 在 AI 编程赛道从辅助生成向自主交付迈出关键一步。通过将审批策略代码化并嵌入开发工作流，Claude Ship 有望显著缓解 AI 代码量暴增后的人工审查压力，但也对团队策略制定与风险管控提出了更高要求。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;The Verge AI, TechCrunch AI, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 <item><title>Thinking Machines 开源 26B 循环模型 Inkling 2 Mini</title><link>https://todayforai.com/en/story/story-e7a42b22-638</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e7a42b22-638</guid>
 <pubDate>Tue, 24 Nov 2026 05:39:25 +0800</pubDate>
