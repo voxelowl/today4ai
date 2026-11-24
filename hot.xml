@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Tue, 24 Nov 2026 21:40:02 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 25 Nov 2026 00:46:00 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
-<item><title>黄仁勋辞任 11 天后回归英伟达 股价单日暴涨 32%</title><link>https://todayforai.com/en/story/story-97c1526e-d94</link><guid isPermaLink="true">https://todayforai.com/en/story/story-97c1526e-d94</guid>
-<pubDate>Tue, 24 Nov 2026 21:40:02 +0800</pubDate>
-<description>&lt;p&gt;英伟达董事会于 11 月 22 日一致投票决定，即刻恢复黄仁勋的总裁、CEO 及董事职务，距其 11 月 12 日因婚外情及涉嫌中国间谍报道辞职仅 10 天。消息公布后，英伟达美股开盘跳涨 32%，市值单日增加超 1 万亿美元，总市值重新站上 4 万亿美元。董事会称决策前已征询美国财政部等高级官员意见，并获特朗普总统公开支持，认定其回归不构成国家安全风险。
-
-多方信源交叉验证显示，黄仁勋辞职期间由 CFO Colette Kress 代行职责，公司市值一度蒸发 1.4 万亿美元。复职同时，英伟达新设首席合规官岗位及仅由独立董事组成的国家安全与出口管制委员会，以统筹合规并配合政府调查，但针对外国情报行动的独立调查仍在进行。董事会全票推翻一周前“无意让其回归”的表态，凸显创始人对这家 AI 算力龙头的不可替代性。
-
-此次事件对 AI 算力供应链与资本市场预期构成直接冲击。黄仁勋回归稳定了英伟达管理层，缓解了外界对领导层真空的担忧，但公司治理独立性因政府高层介入而受质疑。在 OpenAI 披露预训练曲线、智谱发布首个循环 Transformer 模型 GLM 5.4、Sierra 估值翻三倍等 AI 竞赛白热化背景下，英伟达的稳定对全球 AI 产业至关重要。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, The Decoder, The Verge AI, Hacker News AI, Rohan Paul (@rohanpaul_ai), TechCrunch AI&lt;/p&gt;</description>
+<item><title>特朗普与硅谷施压 黄仁勋重返英伟达</title><link>https://todayforai.com/en/story/story-97c1526e-d94</link><guid isPermaLink="true">https://todayforai.com/en/story/story-97c1526e-d94</guid>
+<pubDate>Tue, 24 Nov 2026 22:56:50 +0800</pubDate>
+<description>&lt;p&gt;英伟达 CEO 黄仁勋因丑闻辞职不到两周便戏剧性复职，董事会是在特朗普总统直接施压与硅谷盟友密集游说下作出逆转决定。支持者称黄仁勋个人对美国 AI 产业与股市稳定不可或缺，但此举引发对公司治理与董事会判断力的严重质疑。&lt;/p&gt;&lt;p&gt;8 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, 宝玉 (@dotey), Latent Space, The Decoder, Hacker News AI, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
 <item><title>智谱发布 GLM-5.4 循环 Transformer 架构落地</title><link>https://todayforai.com/en/story/story-d2145516-db8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d2145516-db8</guid>
 <pubDate>Tue, 24 Nov 2026 17:21:55 +0800</pubDate>
@@ -18,6 +14,10 @@
 技术细节上，GLM-5.4 复用 28 层基座，第二遍循环复用第一遍的稀疏 KV 与注意力索引，额外仅增加一个滑动窗口的 KV 缓存开销，配合控制门、共享 token 缓存与稀疏注意力机制抑制显存与算力成本。在 30B 等参测试中，循环机制以约 10% 的额外训练算力换来 AIME25 +11.3、GPQA-Diamond +8.7 的提升，同时输出长度下降 11.7% 至 14.9%。模型新增视觉理解能力，支持 1M 上下文，主打“泛编程”，可由代码生成视频、游戏与 CAD 模型。
 
 对行业而言，GLM-5.4 验证了计算深度扩展路线，为不盲目堆参数的大模型发展提供了新范式。其“泛编程”定位将代码能力外推至视频生成、游戏构建与 3D 建模等场景，有望拓展 AI 编程工具的应用边界。即日起向 Coding Plan 用户全量开放，V2、V3 及团队版用户额度提升至 1.5 倍，周额度用户可用量较 GLM-5.3 提升 50%，将加速其在开发者生态中的渗透。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), IT之家 · 智能时代, Marktechpost (@Marktechpost), Hacker News AI, 智谱 AI 研究, The Decoder&lt;/p&gt;</description>
+</item>
+<item><title>Anthropic 研究员回应 AI 辅助黎曼证明争议</title><link>https://todayforai.com/en/story/story-b91caf62-12d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b91caf62-12d</guid>
+<pubDate>Tue, 24 Nov 2026 22:28:41 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 研究员 Levent Alpöge 坚持其 AI 辅助广义黎曼假设证明的数学有效性，Lean 代码已通过形式化验证，但他承认发布过程存在多处失误：代码未经清理、充斥冗余步骤与无用引理，关于证明长度的说法只是玩笑。他承认外界对发布方式的批评合理，并指出仅靠编译成功并不能证明 Lean 代码准确陈述了定理且无隐藏假设。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys), Latent Space, Simon Willison 博客, TechCrunch AI, The Verge AI, 宝玉 (@dotey)&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 上市次日跌破 83 美元发行价</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
 <pubDate>Tue, 24 Nov 2026 21:23:47 +0800</pubDate>
@@ -34,14 +34,6 @@
 Claude Ship 的核心差异点在于 Claude Approvals 可依据团队预设策略自动批准常规代码变更，策略以自然语言文件形式存入代码仓库，并可结合 Code Review 结果与企业自研分类器信号。PR Steward 能自动处理 CI 失败与合并冲突，并在每次推送后说明改动内容及回滚方式。Code Review 已正式可用，支持 Quick、Standard、Deep 三档审查强度并可升级至人工决策；PR Steward 与 Claude Approvals 仍处于公测阶段，仅限 Team 与 Enterprise 计划的 GitHub 用户。计费按 token 而非按次，官方建议先以观察模式运行并设置月度支出上限。
 
 Claude Ship 直击 AI 生成代码量激增后审查与放行环节的瓶颈，标志着 Claude 从代码评审工具升级为可闭环交付的编码智能体。该产品有望显著提升开发团队的合并效率，但自动审批的准确率与召回率尚未公开，企业需在效率与风险间谨慎权衡。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Marktechpost (@Marktechpost), The Verge AI, TechCrunch AI, The Decoder&lt;/p&gt;</description>
-</item>
-<item><title>Anthropic 数学家与 Claude 合作证明黎曼猜想 1700 万行 Lean 代码通过机器核验</title><link>https://todayforai.com/en/story/story-b91caf62-12d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b91caf62-12d</guid>
-<pubDate>Tue, 24 Nov 2026 14:27:00 +0800</pubDate>
-<description>&lt;p&gt;2026 年 11 月 20 日，Anthropic 数学家 Levent Alpöge 宣布与 Claude 合作，完成了数学界悬置 167 年的黎曼猜想证明，并以约 1700 万行 Lean 形式化代码交付。Lean FRO 与 Mathlib 社区随后联合认证，该证明通过四项核验：陈述正确、代码可编译、与 Mathlib 陈述一致、证明有效。这是 AI 首次深度参与顶级数学开放问题的证明，并将形式化验证规模推至千万行量级。
-
-核验过程动用了 Lean 官方内核、con-leche、con-ron 及多个第三方独立检查器交叉验证，并借助相对集合论的形式化证明排除了检查器本身接受错误证明的可能。MIT 的 Andrew Sutherland 使用 Claude Code 进行独立验证，确认 175,187 个模块全部编译通过，五个核心定理仅依赖三条标准公理，两个独立内核 nanoda 与 con-leche 均接受完整导出证明。Alpöge 称该方法可推广至广义黎曼猜想，且论证已在无额外假设下完成形式化。
-
-同日，数学家 Alessandro Maria Masullo 发布了耗时 12 年、940 页的纯人类黎曼猜想证明草稿，公开 8 小时后即有研究者借助 AI 报告问题，形成 AI 辅助与人类手稿的鲜明对照。菲尔兹奖得主 James Maynard 表示相信证明正确，但强调数学界全面认可的前提是有人真正理解并能向外解释其思想框架。该成果的真正价值可能在于催生解释素数分布结构的新数学理论，而非猜想本身。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, 量子位 (微信公众号), 宝玉 (@dotey), Hacker News AI, The Decoder, Simon Willison 博客&lt;/p&gt;</description>
 </item>
 <item><title>蚂蚁开源 560B 医疗大模型 124B 多模态版笔记本可跑</title><link>https://todayforai.com/en/story/story-333423b6-a51</link><guid isPermaLink="true">https://todayforai.com/en/story/story-333423b6-a51</guid>
 <pubDate>Tue, 24 Nov 2026 11:05:00 +0800</pubDate>
@@ -67,6 +59,14 @@ Claude Ship 直击 AI 生成代码量激增后审查与放行环节的瓶颈，�
 
 Shirudo 的推出为基础设施运维者和安全研究者提供了一种快速响应漏洞威胁的新手段，尤其适用于无法立即重启的关键业务系统。其开源特性有望推动运行时安全防护生态的发展，并促进 AI 生成防护规则的标准化与可信部署。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, OpenAI 官方博客, Hacker News AI&lt;/p&gt;</description>
 </item>
+<item><title>Tidal 下架 2900 万首纯 AI 生成曲目</title><link>https://todayforai.com/en/story/story-68b9d3af-e20</link><guid isPermaLink="true">https://todayforai.com/en/story/story-68b9d3af-e20</guid>
+<pubDate>Wed, 25 Nov 2026 00:46:00 +0800</pubDate>
+<description>&lt;p&gt;音乐流媒体平台 Tidal 宣布，自 12 月 9 日起下架所有完全由 AI 生成的音乐，预计年底前删除超过 2900 万首曲目，并禁止分发服务上传纯 AI 作品。此举的直接诱因是过去 90 天平台上传曲目中逾 43% 为 AI 完全生成，新规下每日将拒收约 8 万至 8.5 万首。
+
+Tidal 的新政策并非全面禁止 AI 参与音乐创作，而是明确区分“完全 AI 生成”与“AI 辅助创作”：前者被禁止上传和分发，后者仍被接受，但要求艺人主动标注曲目属性。此外，对于涉及冒充知名艺人、欺骗听众等欺诈行为的 AI 歌曲，平台将取消其变现资格。这一系列动作旨在回应生成式 AI 内容带来的版权与真实性争议，维护平台生态的透明与可信。
+
+Tidal 的举措是流媒体平台针对 AI 生成内容治理的明确信号。随着 AI 音乐产量激增，平台面临版权归属、收益分配和听众信任等多重挑战。Tidal 通过下架、标注和变现限制组合拳，为行业提供了可参考的治理样本，可能推动其他平台跟进，进而影响 AI 音乐创作与分发的整体格局。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, Hacker News AI&lt;/p&gt;</description>
+</item>
 <item><title>蚂蚁 OceanBase 发布湖库一体 AI 数据平台并开源核心引擎</title><link>https://todayforai.com/en/story/story-defe2a1b-346</link><guid isPermaLink="true">https://todayforai.com/en/story/story-defe2a1b-346</guid>
 <pubDate>Tue, 24 Nov 2026 20:29:21 +0800</pubDate>
 <description>&lt;p&gt;蚂蚁集团旗下 OceanBase 于 11 月 24 日在北京 AI 数据大会上发布湖库一体 AI 数据平台 OceanLake，并宣布以 Apache 2.0 协议向全球开源其核心 AI 数据库引擎 OceanSeek。CEO 杨冰提出 AI 时代数据基础设施的四大原则：湖库一体、多模融合、Agent 友好、开源开放，直指企业私有数据、多模态数据与数据治理三座冰山。
@@ -74,14 +74,6 @@ Shirudo 的推出为基础设施运维者和安全研究者提供了一种快速
 OceanLake 融合数据库实时事务、数仓分析与数据湖开放存储，实现离在线一体与多模态数据统一治理。其技术方案基于对象存储实现存算分离弹性，以一份数据同时支撑在线读写、实时分析与离线加工。Agent 友好能力依靠逻辑表隔离与秒级数据库分支，支持并行试错与失败回滚，并提供效果观测评测、长期共享记忆与权限治理。多模混合搜索被视为与事务、分析并列的新工作负载，统一管理结构化与非结构化数据。CTO 杨传辉透露，MCP 访问量半年增长约 13 倍带来的架构压力是此次发布的重要背景。
 
 OceanBase 押注多模态数据基础设施的逻辑与当年押注分布式数据库一致。目前其 AI 业务营收已突破 1 亿元，国际化营收占比 15%、增速 100%，研发团队已拆分为传统数据库与 AI 数据两条线。此次开源核心引擎有望降低 AI 数据平台的使用门槛，推动 Agent 生态发展，并加剧数据库厂商在 AI 时代的竞争。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;量子位官网, IT之家 · 智能时代, InfoQ 中文&lt;/p&gt;</description>
-</item>
-<item><title>Thinking Machines 开源 26B 循环模型 Inkling 2 Mini</title><link>https://todayforai.com/en/story/story-e7a42b22-638</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e7a42b22-638</guid>
-<pubDate>Tue, 24 Nov 2026 05:39:25 +0800</pubDate>
-<description>&lt;p&gt;Thinking Machines Lab 以 Apache 2.0 协议开源了多模态混合专家模型 Inkling 2 Mini，总参数 26.4B，激活参数约 3.4B，支持 100 万 token 上下文与图文输入。其核心创新是循环 Transformer 架构：24 层中仅存储 24 层，中间 12 层以共享权重重复运行 3 次，使单 token 等效经过 48 层计算，从而在不增加输出 token 的前提下延长内部推理。模型检查点仅约 20GB，可在 32GB 内存的 Mac 或 DGX Spark 上本地运行，vLLM 在 Blackwell、Hopper 与 DGX Spark 上实现发布当日支持。
-
-在性能上，Inkling 2 Mini 在智能体编程基准中表现突出：DeepSWE v1.1 得分 48.2%，超过 Qwen3.8-27B 的 42.2%；SWE-bench Verified 达 79.2%，在 100B 以下开源模型中领先。Artificial Analysis 智能指数得分 20，与 Qwen3.8 27B 持平，但激活参数少约 5 倍，处于智能与参数规模的帕累托前沿。不过，模型知识召回能力偏弱，非幻觉率仅 63.4%，属明确的取舍型设计。
-
-该模型将循环架构与 MoE 结合，以极低激活参数实现接近更大模型的智能体能力，显著降低了本地部署门槛。其开源将推动个人设备上的智能体应用，并为高效推理架构提供新范式，可能引发对循环 Transformer 的进一步探索。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost), Arena.ai (@arena), The Decoder, Artificial Analysis (@ArtificialAnlys), IT之家 · 智能时代, Hacker News AI&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

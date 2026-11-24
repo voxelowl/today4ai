@@ -1,8 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Wed, 25 Nov 2026 00:34:13 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 25 Nov 2026 01:05:20 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>WisprFlow Launches Canto-2 Speech Model Ten Times Larger</title><link>https://x.com/rohanpaul_ai/status/2125274579258224659</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125274579258224659</guid>
+<pubDate>Wed, 25 Nov 2026 01:05:20 +0800</pubDate>
+<description>&lt;p&gt;Wispr Flow has released Canto-2, an in-house speech recognition model 10x larger than its predecessor, cutting average error rates across 14 non-English languages from 9.9% to 6.3%. Recognition of difficult custom terms rises from 41% to 69%, with targeted training to avoid context-driven word substitutions.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;WisprFlow 发布 Canto-2 语音模型 参数规模扩大 10 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;应用层公司自研专用语音模型并给出明确错误率与术语识别数据，是垂直模型替代通用 API 的典型信号。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 62/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2125274579258224659">Rohan Paul (@rohanpaul_ai)</source>
+<category>语音识别</category>
+<category>垂直模型</category>
+<category>Wispr Flow</category>
+</item>
+<item><title>Meta Brings Muse AI Assistant Directly Into Instagram DMs</title><link>https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/</guid>
+<pubDate>Wed, 25 Nov 2026 01:00:00 +0800</pubDate>
+<description>&lt;p&gt;Meta announced that Instagram users can now chat with its AI agent Muse directly within DM threads, eliminating the need to switch apps. Users can share posts for context or ask Muse to take actions like planning itineraries or finding deals, with conversations syncing to the main Muse app as a side chat. The move reflects intensifying competition to embed AI assistants into everyday digital life.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 将 Muse AI 助手接入 Instagram 私信&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Meta 将 AI 智能体嵌入 Instagram 私信，是消费级 AI 助手分发渠道的重要扩展，值得关注。&lt;/p&gt;&lt;p&gt;TechCrunch AI · agent · signal 58/100&lt;/p&gt;</description>
+<source url="https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/">TechCrunch AI</source>
+<category>AI 助手</category>
+<category>Meta</category>
+<category>Instagram</category>
+<category>智能体</category>
+</item>
+<item><title>Tidal to Purge 29 Million Fully AI-Generated Tracks</title><link>https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/</guid>
+<pubDate>Wed, 25 Nov 2026 00:46:00 +0800</pubDate>
+<description>&lt;p&gt;Tidal will begin removing fully AI-generated music on December 9, with more than 29 million tracks expected to be deleted by year-end, and will bar distributors from delivering 100% AI-made songs. The policy follows a surge in which over 43% of tracks uploaded in the past 90 days were AI-generated, forcing the platform to reject roughly 80,000-85,000 tracks per day. AI-assisted but not fully generated music remains permitted.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Tidal 将下架 2900 万首纯 AI 生成曲目&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流流媒体平台首次以千万级下架规模正面治理 AI 生成内容泛滥，是内容平台与生成式 AI 版权秩序的重要风向标。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 72/100&lt;/p&gt;</description>
+<source url="https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/">TechCrunch AI</source>
+<category>AI 音乐</category>
+<category>内容治理</category>
+<category>流媒体</category>
+<category>版权</category>
+</item>
 <item><title>NVIDIA Releases Sim2Real Obstacle Avoidance Workflow for Microduck</title><link>https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance</link><guid isPermaLink="true">https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance</guid>
 <pubDate>Wed, 25 Nov 2026 00:34:13 +0800</pubDate>
 <description>&lt;p&gt;An NVIDIA team built a Sim2Real workflow for local obstacle avoidance on Pollen Robotics&amp;#x27; Microduck quadruped using Isaac Lab and the Newton physics engine. The approach keeps the existing locomotion policy fixed, assembles varied training courses from reusable SimReady assets, and models ToF sensing via Newton&amp;#x27;s raycaster to train a controller that transfers to real hardware.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达开源 Microduck 避障 Sim2Real 工作流&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了具身智能中传感器仿真与策略解耦的完整 Sim2Real 工程范式，对机器人开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hugging Face Blog · agent · signal 58/100&lt;/p&gt;</description>
@@ -191,26 +217,26 @@
 <category>Anthropic</category>
 <category>前沿模型</category>
 </item>
-<item><title>US Data Centers Plan Over 115 Gigawatts of Behind-the-Meter Gas Power</title><link>https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/</link><guid isPermaLink="true">https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/</guid>
+<item><title>美国数据中心自建燃气电厂 规划装机超 115 吉瓦</title><link>https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/</link><guid isPermaLink="true">https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/</guid>
 <pubDate>Tue, 24 Nov 2026 19:00:00 +0800</pubDate>
-<description>&lt;p&gt;With grid interconnection approvals potentially taking a decade, US data center developers are increasingly building their own off-grid gas power plants. As of October 2026, more than 100 behind-the-meter gas projects have been announced, totaling over 115 gigawatts of planned capacity, more than double California&amp;#x27;s peak demand, with most announced since early 2025. xAI&amp;#x27;s Memphis campus pioneered the approach but faces legal battles over unpermitted turbines, and the strategy raises concerns about cost shifting and environmental impact.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美国数据中心自建燃气电厂 规划装机超 115 吉瓦&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示 AI 算力扩张与电网瓶颈的结构性矛盾，115 吉瓦自建装机是理解未来算力基础设施布局的关键信号。&lt;/p&gt;&lt;p&gt;MIT Technology Review · compute · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;由于电网接入审批可能长达十年，美国数据中心开发商正大规模转向自建离网燃气电厂。截至 2026 年 10 月，已宣布的此类项目超过 100 个，合计规划装机超 115 吉瓦，超过加州峰值用电需求的两倍，且绝大多数在 2025 年后公布。xAI 孟菲斯园区是早期代表，但因部分涡轮机未获许可而陷入法律纠纷，这一模式也引发成本转嫁与环保争议。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示 AI 算力扩张与电网瓶颈的结构性矛盾，115 吉瓦自建装机是理解未来算力基础设施布局的关键信号。&lt;/p&gt;&lt;p&gt;MIT Technology Review · compute · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/">MIT Technology Review</source>
 <category>算力基础设施</category>
 <category>数据中心</category>
 <category>燃气发电</category>
 <category>xAI</category>
 </item>
-<item><title>Rewind Deterministic VM Enables Reproducible Performance Profiling</title><link>https://fzakaria.com/2026/11/12/worshipping-at-the-altar-of-brendan-gregg</link><guid isPermaLink="true">https://fzakaria.com/2026/11/12/worshipping-at-the-altar-of-brendan-gregg</guid>
+<item><title>Rewind 确定性虚拟机实现可复现性能剖析</title><link>https://fzakaria.com/2026/11/12/worshipping-at-the-altar-of-brendan-gregg</link><guid isPermaLink="true">https://fzakaria.com/2026/11/12/worshipping-at-the-altar-of-brendan-gregg</guid>
 <pubDate>Tue, 24 Nov 2026 18:50:14 +0800</pubDate>
-<description>&lt;p&gt;A developer has applied Brendan Gregg&amp;#x27;s classic performance-analysis methods to Rewind, a deterministic VM, enabling reproducible critical-path analysis of builds. The approach turns sampling-based, hard-to-reproduce performance diagnostics into exactly replayable operations, offering a verifiable new path for performance engineering.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Rewind 确定性虚拟机实现可复现性能剖析&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了确定性虚拟机在性能剖析领域的实用价值，对关注系统性能与可复现工程的开发者有参考意义。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;开发者利用确定性虚拟机 Rewind 复现了 Brendan Gregg 的经典性能分析方法，实现了构建关键路径分析与可复现的性能剖析。该方案将原本依赖多次采样、难以复现的性能诊断流程，转化为可在确定性环境中精确重放的操作，为性能工程提供了新的可验证路径。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了确定性虚拟机在性能剖析领域的实用价值，对关注系统性能与可复现工程的开发者有参考意义。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 42/100&lt;/p&gt;</description>
 <source url="https://fzakaria.com/2026/11/12/worshipping-at-the-altar-of-brendan-gregg">Hacker News AI</source>
 <category>确定性虚拟机</category>
 <category>性能剖析</category>
 <category>开发者工具</category>
 </item>
-<item><title>Samsung and SK Hynix Face 260,000-Worker Shortage for Fab Expansion</title><link>https://www.ithome.com/1/031/801.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/801.htm</guid>
+<item><title>三星与 SK 海力士晶圆厂扩建面临 26 万工人缺口</title><link>https://www.ithome.com/1/031/801.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/801.htm</guid>
 <pubDate>Tue, 24 Nov 2026 18:43:16 +0800</pubDate>
-<description>&lt;p&gt;Samsung and SK Hynix will need roughly 260,000 specialized construction workers by 2030 to build their next-generation fabs, but long training cycles for precision piping and welding plus an aging workforce make the gap hard to close. South Korea&amp;#x27;s Ministry of Land, Infrastructure and Transport has formed a public-private task force with the chipmakers, contractors and the national land agency to train workers and recruit returning skilled tradespeople and veterans so construction stays on schedule.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;三星与 SK 海力士晶圆厂扩建面临 26 万工人缺口&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;存储扩产的关键瓶颈从资本转向熟练施工人力，直接影响 2030 年量产节奏与全球存储供给预期。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;韩国两大存储芯片巨头三星与 SK 海力士计划到 2030 年建成多座新晶圆厂，合计需要约 26 万名专业施工人员，但精密配管、焊接等工种培养周期长、行业老龄化严重，缺口难以快速填补。韩国国土交通部已联合企业、分包商与土地住宅公社成立公私协商机制，拟通过联合培训、召回技术工匠和退伍军人等方式补足人力，避免拖慢产线建设进度。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;存储扩产的关键瓶颈从资本转向熟练施工人力，直接影响 2030 年量产节奏与全球存储供给预期。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/031/801.htm">IT之家 · IT业界</source>
 <category>半导体</category>
 <category>存储芯片</category>
@@ -246,34 +272,6 @@
 <category>智谱</category>
 <category>开源</category>
 <category>代码生成</category>
-</item>
-<item><title>诺华 CEO 称 AI 十年难治愈癌症 新药周期可缩至 8 年</title><link>https://www.ithome.com/1/031/705.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/705.htm</guid>
-<pubDate>Tue, 24 Nov 2026 17:19:16 +0800</pubDate>
-<description>&lt;p&gt;诺华 CEO 纳拉辛汉公开反驳 Anthropic 与 DeepMind 关于 AI 十年内攻克癌症的乐观预期，指出人类仅理解约 5% 的人体运行机制，工程思维无法替代临床验证。他给出更务实的量化判断：AI 可将早期药物发现从 4 年缩短至 2 年，十年内把完整研发周期从 12 年压缩到 8 年，并将一期临床后成功率从 8% 提升至 12%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;制药巨头掌门人首次以量化口径回应 AI 攻克疾病的乐观叙事，为 AI for Science 落地预期提供了产业侧的校准坐标。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 68/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/031/705.htm">IT之家 · 智能时代</source>
-<category>AI 制药</category>
-<category>诺华</category>
-<category>AI for Science</category>
-<category>药物研发</category>
-</item>
-<item><title>IDC 预测 2027 年中国智能眼镜出货破 450 万台</title><link>https://www.ithome.com/1/031/553.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/553.htm</guid>
-<pubDate>Tue, 24 Nov 2026 16:29:53 +0800</pubDate>
-<description>&lt;p&gt;IDC 最新报告预计，2027 年全球智能眼镜出货将达 2622.1 万台，中国市场突破 450.6 万台，行业重心从单点创新转向多模态感知、生态协同与场景价值闭环。报告同时给出隐私合规硬件升级比例超 40%、多模态交互产品出货占比超 35% 等结构性判断，显示 AI 大模型与端侧算力正成为该品类分化的核心变量。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;IDC 给出 2027 年智能眼镜出货量级与结构性占比预测，是观察 AI 终端生态落地节奏的量化参考。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 52/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/031/553.htm">IT之家 · 智能时代</source>
-<category>智能眼镜</category>
-<category>IDC</category>
-<category>AI 终端</category>
-<category>多模态交互</category>
-</item>
-<item><title>蚂蚁发布湖库一体 AI 数据平台 OceanLake</title><link>https://www.qbitai.com/2026/11/512383.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/512383.html</guid>
-<pubDate>Tue, 24 Nov 2026 16:10:43 +0800</pubDate>
-<description>&lt;p&gt;蚂蚁 OceanBase 在北京 AI 数据大会发布湖库一体 AI 数据平台 OceanLake，并开源核心引擎 AI 数据库 OceanSeek。CTO 杨传辉提出湖库一体、Agent 友好、多模混合搜索三大技术判断，背后是 MCP 访问量半年增长约 13 倍带来的架构压力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部数据库厂商面向 Agent 负载重构数据底座并开源核心引擎，是 AI 基础设施层的重要路线信号。&lt;/p&gt;&lt;p&gt;量子位官网 · compute · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.qbitai.com/2026/11/512383.html">量子位官网</source>
-<category>OceanBase</category>
-<category>AI 数据平台</category>
-<category>湖库一体</category>
-<category>开源</category>
-<category>Agent</category>
 </item>
 </channel>
 </rss>
