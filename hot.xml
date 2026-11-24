@@ -19,6 +19,14 @@
 
 此次人事反转发生在 AI 产业对算力需求空前高涨的关键时点，管理层稳定性直接关系到全球 AI 供应链与资本市场预期。黄仁勋表示将以焕然一新的承诺领导公司迎接新一轮工业革命。分析认为，尽管合规架构有所强化，但独立调查的后续进展仍可能成为影响英伟达未来治理与股价的潜在变量。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), TechCrunch AI, 宝玉 (@dotey), IT之家 · IT业界, The Decoder, The Verge AI&lt;/p&gt;</description>
 </item>
+<item><title>OpenAI 与思科开源 Shirudo 运行时 免重启拦截漏洞攻击</title><link>https://todayforai.com/en/story/story-50bba636-e6b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-50bba636-e6b</guid>
+<pubDate>Tue, 24 Nov 2026 07:28:29 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 与思科联合开源了安全运行时 Shirudo，它能在不重启系统的情况下为运行中的 Linux 系统提供临时防护，填补补丁部署前的空窗期。该工具基于 eBPF 技术，在内核层动态加载防护规则，精准拦截可疑行为而不影响正常业务。
+
+在受控测试中，由 OpenAI Codex 生成的防护规则成功拦截了针对 Elasticsearch 服务的 Java4Shell 漏洞利用尝试，且服务全程未中断。Shirudo 采用 BSD 2-Clause 许可证开源，并引入签名验证与 TPM 审计机制，确保防护规则加载前经过加密签名和 eBPF 验证器校验，加载与移除过程通过 TPM 记录以供审计，降低了误用风险。
+
+Shirudo 的推出为基础设施运维者和安全研究者提供了一种快速响应漏洞威胁的新手段，尤其适用于无法立即重启的关键业务系统。其开源特性有望推动运行时安全防护生态的发展，并促进 AI 生成防护规则的标准化与可信部署。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, OpenAI 官方博客, Hacker News AI&lt;/p&gt;</description>
+</item>
 <item><title>Anthropic 数学家与 Claude 合作证明黎曼猜想 1700 万行 Lean 代码通过机器核验</title><link>https://todayforai.com/en/story/story-b91caf62-12d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b91caf62-12d</guid>
 <pubDate>Tue, 24 Nov 2026 06:23:04 +0800</pubDate>
 <description>&lt;p&gt;2026 年 11 月 20 日，Anthropic 数学家 Levent Alpöge 宣布与 Claude 合作，完成了对悬置 167 年的黎曼猜想（及其推广形式广义黎曼猜想）的证明，并将完整论证形式化为约 1700 万行 Lean 代码。Lean 与 Mathlib 社区随后联合认证，该证明已通过四项核验：陈述正确、代码可编译、证明与 Mathlib 陈述一致、证明有效。这是 AI 首次深度参与顶级数学开放问题的证明，并将形式化验证规模推至千万行量级。
@@ -58,14 +66,6 @@ Claude Ship 包含 Code Review、PR Steward 和 Claude Approvals 三项核心功
 该提议获得了多方信源的交叉印证。OpenAI 官方博客与 Hacker News 的报道均强调，困惑度作为压缩器/预测器能力的核心度量，可替代快速过时的下游基准测试，成为行业治理的量化锚点。The Decoder 进一步披露，OpenAI 首次公开了直至 GPT-6 之后未发布模型的内部得分，显示流畅对话、逻辑推理与复杂数学求解等能力均在固定困惑度阈值处涌现。TechCrunch 指出，该提议与 Anthropic CEO Dario Amodei 的“节奏化前沿”计划形成呼应，后者同样主张企业就安全标准与进展速率限制达成共识。奥尔特曼公开支持该文，称其为 OpenAI 近期最重要内容之一，而美国国会的 AI 监管讨论也在升温。
 
 若被采纳，困惑度将从训练评估指标升级为行业治理的量化锚点，推动 AI 安全监管从各自为政的基准测试转向可比较、可追踪的统一标尺。这不仅为头部实验室提供了共享安全红线的操作基础，也可能影响未来 AI…&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Hacker News AI, TechCrunch AI, OpenAI 官方博客, The Decoder&lt;/p&gt;</description>
-</item>
-<item><title>OpenAI 与思科开源 Shirudo 运行时 免重启拦截漏洞攻击</title><link>https://todayforai.com/en/story/story-50bba636-e6b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-50bba636-e6b</guid>
-<pubDate>Tue, 24 Nov 2026 07:28:29 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 与思科联合开源了名为 Shirudo 的安全运行时，它基于 eBPF 技术，能在内核层为运行中的 Linux 系统动态加载临时防护，无需重启即可阻断漏洞利用。在受控测试中，由 OpenAI Codex 生成的防护层成功拦截了针对 Elasticsearch 的 Java4Shell 攻击，且服务全程未中断，验证了该方案在真实场景下的有效性。
-
-Shirudo 的核心机制是利用 eBPF 精准观察并控制可疑行为，避免封禁正常业务所需的系统调用。防护规则（shield）在加载前需经过加密签名与 eBPF 验证器校验，并通过 TPM 记录加载与移除过程以供审计，从而降低误用风险。项目以 BSD 2-Clause 许可证开源，并公开了文档，邀请开发者与安全研究者共同参与建设。
-
-这一发布为漏洞应急响应提供了新思路：在官方补丁就绪前，系统可通过动态加载防护规则获得临时保护，尤其适用于无法立即重启的关键服务。OpenAI 与思科的合作也展示了 AI 生成代码在安全领域的应用潜力，有望推动运行时安全防护的普及与生态共建。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, OpenAI 官方博客&lt;/p&gt;</description>
 </item>
 <item><title>Ladybird 浏览器发布首个 Alpha 版 自研引擎挑战 Chromium 霸权</title><link>https://todayforai.com/en/story/story-f5746387-c9c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f5746387-c9c</guid>
 <pubDate>Tue, 24 Nov 2026 05:46:35 +0800</pubDate>

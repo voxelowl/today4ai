@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Tue, 24 Nov 2026 07:52:36 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 24 Nov 2026 08:13:49 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Amazon Acquires Decart AI Optimization Tech for $7.5 Billion</title><link>https://www.ithome.com/1/031/262.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/262.htm</guid>
+<pubDate>Tue, 24 Nov 2026 08:13:49 +0800</pubDate>
+<description>&lt;p&gt;Amazon has acquired Decart&amp;#x27;s AI optimization technology and brought its co-founder and staff in-house, in a deal Bloomberg reports at roughly $7.5 billion. Decart&amp;#x27;s DOS software engine speeds up AI workloads and lets them move fluidly across Nvidia, Google and Amazon chips, and has already been used to tune Trainium performance. The move aims to sharpen the inference efficiency and cost competitiveness of Amazon&amp;#x27;s in-house silicon against Nvidia&amp;#x27;s dominance.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊 75 亿美元收购 Decart 优化技术&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大额收购叠加自研芯片优化，直接牵动 AI 算力成本与芯片竞争格局。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/031/262.htm">IT之家 · 智能时代</source>
+<category>芯片算力</category>
+<category>亚马逊</category>
+<category>Decart</category>
+<category>Trainium</category>
+<category>收购</category>
+</item>
 <item><title>Samsung Upgrades Xi&#x27;an Plant to V9 NAND for AI Data Center SSDs</title><link>https://www.ithome.com/1/031/258.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/258.htm</guid>
 <pubDate>Tue, 24 Nov 2026 07:52:36 +0800</pubDate>
 <description>&lt;p&gt;Samsung plans to turn its Xi&amp;#x27;an fab into a core production base for AI data center eSSDs, prioritizing expansion of ninth-generation V9 NAND capacity. Post-retrofit V9 monthly capacity is expected to reach 50,000-60,000 wafers, with equipment arriving around February 2027 and completion in November 2027. V9 uses 286-layer stacking, delivers roughly 50% more capacity than the prior generation, and has achieved yields above 90%.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;三星西安工厂升级 V9 闪存 扩产 AI 数据中心 eSSD&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部存储厂商在华产能向 AI 数据中心 eSSD 倾斜，直接影响 NAND 供需与算力基础设施成本。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 72/100&lt;/p&gt;</description>
@@ -186,6 +196,15 @@
 <category>SpaceX</category>
 <category>监管诉讼</category>
 </item>
+<item><title>OpenAI and Cisco Open Source Shirudo Runtime to Shield Unpatched Linux</title><link>https://openai.com/index/introducing-shirudo/</link><guid isPermaLink="true">https://openai.com/index/introducing-shirudo/</guid>
+<pubDate>Tue, 24 Nov 2026 05:30:41 +0800</pubDate>
+<description>&lt;p&gt;OpenAI and Cisco have launched Shirudo, an open-source runtime that shields running Linux systems while patches are being rolled out, avoiding restarts. In a controlled test, a Codex-generated shield blocked a Java4Shell exploit attempt against a live Elasticsearch service without a restart. The project is open for community contribution via public docs.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 与思科开源 Shirudo 运行时 免重启防护未打补丁 Linux&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大厂联合开源的安全运行时，用 AI 生成防护规则填补补丁空窗期，对基础设施运维与安全团队有直接实用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 72/100&lt;/p&gt;</description>
+<source url="https://openai.com/index/introducing-shirudo/">Hacker News AI</source>
+<category>开源安全</category>
+<category>OpenAI</category>
+<category>思科</category>
+<category>Linux 防护</category>
+</item>
 <item><title>OpenAI and Cisco Launch Shirudo Open-Source Linux Runtime</title><link>https://openai.com/index/introducing-shirudo</link><guid isPermaLink="true">https://openai.com/index/introducing-shirudo</guid>
 <pubDate>Tue, 24 Nov 2026 05:20:00 +0800</pubDate>
 <description>&lt;p&gt;OpenAI and Cisco have launched Shirudo, an open-source runtime that shields running Linux systems while patches are still being rolled out, without requiring restarts. In a controlled test, a Codex-generated shield blocked a Java4Shell exploit attempt against a live Elasticsearch service. The project is open-sourced with public documentation and invites developers and security researchers to contribute.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 与思科开源 Shirudo 运行时&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;前沿 AI 公司联手网络设备巨头推出安全开源项目，且经实测拦截真实漏洞利用，具备明确技术增量。&lt;/p&gt;&lt;p&gt;OpenAI 官方博客 · opensource · signal 74/100&lt;/p&gt;</description>
@@ -212,18 +231,18 @@
 <category>气候政策</category>
 <category>算力能耗</category>
 </item>
-<item><title>Zed Spins Out GPUI Into Standalone Open Source Repository</title><link>https://github.com/zed-industries/gpui</link><guid isPermaLink="true">https://github.com/zed-industries/gpui</guid>
+<item><title>Zed 将 GPUI 拆分为独立开源仓库</title><link>https://github.com/zed-industries/gpui</link><guid isPermaLink="true">https://github.com/zed-industries/gpui</guid>
 <pubDate>Tue, 24 Nov 2026 04:52:54 +0800</pubDate>
-<description>&lt;p&gt;Zed Industries has split GPUI, the GPU-accelerated Rust UI framework powering its editor, into a standalone repository under zed-industries/gpui. The framework blends immediate and retained rendering modes, and the move lets it evolve independently of a single application for the broader Rust desktop UI ecosystem.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Zed 将 GPUI 拆分为独立开源仓库&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流 Rust 编辑器背后的自研 UI 框架独立成库，对 Rust 桌面开发生态具有实际参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Zed Industries 将驱动其编辑器的 GPU 加速 Rust UI 框架 GPUI 拆分为独立仓库 zed-industries/gpui，融合即时模式与保留模式两种范式。此举让该框架脱离单一应用场景，面向更广泛的 Rust 桌面 UI 生态独立演进。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流 Rust 编辑器背后的自研 UI 框架独立成库，对 Rust 桌面开发生态具有实际参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
 <source url="https://github.com/zed-industries/gpui">Hacker News AI</source>
 <category>开源</category>
 <category>Rust</category>
 <category>UI 框架</category>
 <category>Zed</category>
 </item>
-<item><title>Agent Arena Index Charts Five Months of Agentic Model Competition</title><link>https://x.com/arena/status/2124966751544791340</link><guid isPermaLink="true">https://x.com/arena/status/2124966751544791340</guid>
+<item><title>Agent Arena 指数揭示五个月智能体竞争格局</title><link>https://x.com/arena/status/2124966751544791340</link><guid isPermaLink="true">https://x.com/arena/status/2124966751544791340</guid>
 <pubDate>Tue, 24 Nov 2026 04:42:08 +0800</pubDate>
-<description>&lt;p&gt;Arena.ai released its Agent Arena Index, built on 3.2M real-world agentic sessions, scoring models on how well they complete coding, knowledge work, and conversation tasks. Anthropic widened its lead on agentic real-world tasks, Google DeepMind overtook OpenAI, and Chinese labs Alibaba Qwen and Tencent Hunyuan gained ground, reshaping the field behind the top three.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Agent Arena 指数揭示五个月智能体竞争格局&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个基于数百万真实智能体会话的公开评测指数，直接反映头部模型在落地任务中的竞争位次变化。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · agent · signal 68/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Arena.ai 发布基于 320 万次真实智能体会话的 Agent Arena Index，用统一评分衡量模型在编程、知识工作与对话中的实际任务完成能力。榜单显示 Anthropic 在真实智能体任务上扩大领先，Google DeepMind 已反超 OpenAI，阿里 Qwen 与腾讯混元等中国实验室持续追赶，前三名之后的格局正在重塑。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个基于数百万真实智能体会话的公开评测指数，直接反映头部模型在落地任务中的竞争位次变化。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · agent · signal 68/100&lt;/p&gt;</description>
 <source url="https://x.com/arena/status/2124966751544791340">Arena.ai (@arena)</source>
 <category>智能体</category>
 <category>模型评测</category>
@@ -256,23 +275,6 @@
 <category>智谱</category>
 <category>循环 Transformer</category>
 <category>模型架构</category>
-</item>
-<item><title>谷歌 AI 模式接入 Drive 与 Wallet 实现个性化搜索</title><link>https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/</guid>
-<pubDate>Tue, 24 Nov 2026 03:14:46 +0800</pubDate>
-<description>&lt;p&gt;谷歌将 Personal Intelligence 扩展至搜索 AI 模式，新增 Google Drive、Google Wallet 与 Gemini 应用接入，使 AI 可基于用户个人数据给出情境化回答。该功能此前已支持 Gmail、日历与相册，接入为可选且可随时关闭。这是谷歌依托自有生态数据构建差异化搜索体验的关键一步。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;谷歌把个人数据接入搜索 AI 模式，是消费级 AI 助手个性化竞争的重要产品动作。&lt;/p&gt;&lt;p&gt;TechCrunch AI · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/">TechCrunch AI</source>
-<category>谷歌</category>
-<category>AI 搜索</category>
-<category>个性化</category>
-<category>智能助手</category>
-</item>
-<item><title>Nothing 发布 Ear Note 耳机 支持 AI 录音转写</title><link>https://www.theverge.com/gadgets/1040357/nothing-ear-note-earbuds-ai-recording</link><guid isPermaLink="true">https://www.theverge.com/gadgets/1040357/nothing-ear-note-earbuds-ai-recording</guid>
-<pubDate>Tue, 24 Nov 2026 03:04:52 +0800</pubDate>
-<description>&lt;p&gt;Nothing 计划于 12 月 8 日推出 Ear Note 耳机，其充电盒内置麦克风，可录制并转写对话，配套应用负责管理录音、转写文本与 AI 摘要。CEO Carl Pei 已向 Bloomberg 演示该设备，但售价尚未确定；同时 Nothing 的 AI 智能手表与智能眼镜计划被推迟。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 Nothing 切入 AI 可穿戴录音转写赛道的新硬件，但产品尚未发布、价格未定，信息增量有限。&lt;/p&gt;&lt;p&gt;The Verge AI · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.theverge.com/gadgets/1040357/nothing-ear-note-earbuds-ai-recording">The Verge AI</source>
-<category>AI 硬件</category>
-<category>可穿戴设备</category>
-<category>Nothing</category>
 </item>
 </channel>
 </rss>
