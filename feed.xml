@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Tue, 24 Nov 2026 14:38:43 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 24 Nov 2026 14:59:54 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>百度开源文心 5.5 Flash 2800 亿参数 140 亿激活</title><link>https://www.ithome.com/1/031/501.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/501.htm</guid>
+<pubDate>Tue, 24 Nov 2026 14:59:54 +0800</pubDate>
+<description>&lt;p&gt;百度以 Apache 2.0 协议开源文心 5.5 Flash Preview，采用 2800 亿总参数、每 Token 激活 140 亿的 MoE 架构，支持 100 万 Token 上下文，权重已上架 Hugging Face 与 ModelScope。该模型在 AutomationBench 上以 61.9 分超过 Claude Opus 5.5，CodeArena WebDev 以 1668 分位列开源第二，但 Terminal-Bench 4.0 等终端任务仍落后于头部闭源模型。基座与后训练权重相继开放，使文心 Flash 系列形成完整开源链条。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产头部厂商以宽松协议开源 2800 亿参数 MoE 模型，且基准表现分化明显，对关注开源模型选型的读者有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/031/501.htm">IT之家 · 智能时代</source>
+<category>开源模型</category>
+<category>百度</category>
+<category>MoE</category>
+<category>大模型</category>
+</item>
+<item><title>鸿蒙终端破亿 15 个月跑完千万到亿级</title><link>https://www.ithome.com/1/031/498.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/498.htm</guid>
+<pubDate>Tue, 24 Nov 2026 14:49:56 +0800</pubDate>
+<description>&lt;p&gt;华为在 Mate X8 发布会上宣布鸿蒙终端设备突破 1 亿台，覆盖手机、平板、电脑、手表、车机等全场景品类。从 2025 年 7 月的 1000 万台到破亿仅用约 15 个半月，最后 2000 万台增量耗时约 3 个月，应用与元服务超 45 万、注册开发者超 1100 万。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产操作系统跨过亿级装机门槛，是观察移动 OS 格局与开发者生态迁移的关键节点。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/031/498.htm">IT之家 · IT业界</source>
+<category>鸿蒙</category>
+<category>操作系统</category>
+<category>华为</category>
+<category>开发者生态</category>
+</item>
 <item><title>Neuralink 受试者凭意念畅玩《GTA 6》</title><link>https://www.ithome.com/1/031/492.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/492.htm</guid>
 <pubDate>Tue, 24 Nov 2026 14:38:43 +0800</pubDate>
 <description>&lt;p&gt;Neuralink 公开内部直播录像，四肢瘫痪受试者 Billy 在无实体手柄的情况下，仅凭脑机接口意念操控双摇杆与 12 个按键，完成《GTA 6》游玩。该演示展示了高自由度游戏输入场景下的意念控制能力，但设备仍处于研究阶段，尚未进入商用。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;脑机接口首次展示高复杂度游戏输入控制，是具身交互能力的重要节点。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 72/100&lt;/p&gt;</description>
@@ -251,24 +269,6 @@
 <category>AI 编程</category>
 <category>UI 语言</category>
 <category>开发者工具</category>
-</item>
-<item><title>Rust 重写 Emacs 内核 支持多线程 Elisp</title><link>https://github.com/CeleritasCelery/rune</link><guid isPermaLink="true">https://github.com/CeleritasCelery/rune</guid>
-<pubDate>Tue, 24 Nov 2026 10:30:47 +0800</pubDate>
-<description>&lt;p&gt;Rune 是一个用 Rust 编写的实验性 Emacs 内核项目，目标是为 Emacs 引入多线程 Elisp、与现有 Elisp 包保持 bug 级兼容，并借助 Rust 生态提升 GC、正则与 JSON 性能。项目目前处于极早期阶段，已具备基础 Elisp 运行时，正推进包含缓冲区、光标、滚动与文件 IO 的最小 GUI 编辑器 MVP。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以 Rust 重写 Emacs 内核并追求多线程 Elisp 与包级兼容，是编辑器基础设施领域值得关注的开源实验。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 62/100&lt;/p&gt;</description>
-<source url="https://github.com/CeleritasCelery/rune">Hacker News AI</source>
-<category>Rust</category>
-<category>Emacs</category>
-<category>开源项目</category>
-<category>编辑器内核</category>
-</item>
-<item><title>自变量发布 WALL-OSS-1.0 零样本成功率 55.1%</title><link>https://www.qbitai.com/2026/11/512264.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/512264.html</guid>
-<pubDate>Tue, 24 Nov 2026 09:51:56 +0800</pubDate>
-<description>&lt;p&gt;自变量机器人发布新一代具身基础模型 WALL-OSS-1.0，无需任何任务微调即可直接执行陌生任务，零样本成功率 55.1%，较经过多任务微调的 π0.5 高出 70.8%，语义任务成功率 78%。同时推出首个具身基础模型 API WALL-API-1.0，让通用操作能力像大模型一样开箱即用。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;具身智能首次以纯预训练实现零样本通用操作并开放 API，是行业从微调范式转向基础模型范式的标志性节点。&lt;/p&gt;&lt;p&gt;量子位官网 · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.qbitai.com/2026/11/512264.html">量子位官网</source>
-<category>具身智能</category>
-<category>基础模型</category>
-<category>零样本泛化</category>
-<category>API</category>
 </item>
 </channel>
 </rss>
