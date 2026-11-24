@@ -51,14 +51,6 @@ Claude Ship 包含 Code Review、PR Steward 和 Claude Approvals 三项核心功
 
 此次发布意味着 Anthropic 在 AI 编程赛道从辅助生成向自主交付迈出关键一步。通过将审批策略代码化并嵌入开发工作流，Claude Ship 有望显著缓解 AI 代码量暴增后的人工审查压力，但也对团队策略制定与风险管控提出了更高要求。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;The Verge AI, TechCrunch AI, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
-<item><title>OpenAI 首席科学家提议以困惑度设定 AI 开发共同门槛</title><link>https://todayforai.com/en/story/story-24028721-a3a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-24028721-a3a</guid>
-<pubDate>Tue, 24 Nov 2026 02:42:38 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 首席科学家 Jakub Pachocki 近日撰文提出，将困惑度（交叉熵损失）确立为跨企业可比的预训练进展统一指标，并以此为基础设定行业共同的安全开发门槛。他首次公开了 OpenAI 内部数据：GPT-3.5 对数困惑度约 0.99，GPT-4 约 0.91，且当困惑度低于 0.8 时模型在网络安全与数学领域涌现新能力，0.76 左右在开放数学问题上取得突破。Pachocki 预计 2027 年前后预训练可能迎来快速进展，而对齐与监控能力或难以同步，因此呼吁头部实验室在更完善的监管手段出现前，就共享能力上限达成共识，避免突破约定的安全红线。
-
-该提议获得了多方信源的交叉印证。OpenAI 官方博客与 Hacker News 的报道均强调，困惑度作为压缩器/预测器能力的核心度量，可替代快速过时的下游基准测试，成为行业治理的量化锚点。The Decoder 进一步披露，OpenAI 首次公开了直至 GPT-6 之后未发布模型的内部得分，显示流畅对话、逻辑推理与复杂数学求解等能力均在固定困惑度阈值处涌现。TechCrunch 指出，该提议与 Anthropic CEO Dario Amodei 的“节奏化前沿”计划形成呼应，后者同样主张企业就安全标准与进展速率限制达成共识。奥尔特曼公开支持该文，称其为 OpenAI 近期最重要内容之一，而美国国会的 AI 监管讨论也在升温。
-
-若被采纳，困惑度将从训练评估指标升级为行业治理的量化锚点，推动 AI 安全监管从各自为政的基准测试转向可比较、可追踪的统一标尺。这不仅为头部实验室提供了共享安全红线的操作基础，也可能影响未来 AI…&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Hacker News AI, TechCrunch AI, OpenAI 官方博客, The Decoder&lt;/p&gt;</description>
-</item>
 <item><title>Thinking Machines 开源 26B 循环模型 Inkling 2 Mini</title><link>https://todayforai.com/en/story/story-e7a42b22-638</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e7a42b22-638</guid>
 <pubDate>Tue, 24 Nov 2026 05:39:25 +0800</pubDate>
 <description>&lt;p&gt;Thinking Machines Lab 以 Apache 2.0 协议开源了多模态混合专家模型 Inkling 2 Mini，总参数 26.4B，激活参数约 3.4B，支持 100 万 token 上下文与图文输入。其核心创新是循环 Transformer 架构：24 层中仅存储 24 层，中间 12 层以共享权重重复运行 3 次，使单 token 等效经过 48 层计算，从而在不增加输出 token 的前提下延长内部推理。模型检查点仅约 20GB，可在 32GB 内存的 Mac 或 DGX Spark 上本地运行，vLLM 在 Blackwell、Hopper 与 DGX Spark 上实现发布当日支持。
@@ -66,6 +58,14 @@ Claude Ship 包含 Code Review、PR Steward 和 Claude Approvals 三项核心功
 在性能上，Inkling 2 Mini 在智能体编程基准中表现突出：DeepSWE v1.1 得分 48.2%，超过 Qwen3.8-27B 的 42.2%；SWE-bench Verified 达 79.2%，在 100B 以下开源模型中领先。Artificial Analysis 智能指数得分 20，与 Qwen3.8 27B 持平，但激活参数少约 5 倍，处于智能与参数规模的帕累托前沿。不过，模型知识召回能力偏弱，非幻觉率仅 63.4%，属明确的取舍型设计。
 
 该模型将循环架构与 MoE 结合，以极低激活参数实现接近更大模型的智能体能力，显著降低了本地部署门槛。其开源将推动个人设备上的智能体应用，并为高效推理架构提供新范式，可能引发对循环 Transformer 的进一步探索。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost), Arena.ai (@arena), The Decoder, Artificial Analysis (@ArtificialAnlys), IT之家 · 智能时代, Hacker News AI&lt;/p&gt;</description>
+</item>
+<item><title>OpenAI 首席科学家提议以困惑度设定 AI 开发共同门槛</title><link>https://todayforai.com/en/story/story-24028721-a3a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-24028721-a3a</guid>
+<pubDate>Tue, 24 Nov 2026 02:42:38 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 首席科学家 Jakub Pachocki 近日撰文提出，将困惑度（交叉熵损失）确立为跨企业可比的预训练进展统一指标，并以此为基础设定行业共同的安全开发门槛。他首次公开了 OpenAI 内部数据：GPT-3.5 对数困惑度约 0.99，GPT-4 约 0.91，且当困惑度低于 0.8 时模型在网络安全与数学领域涌现新能力，0.76 左右在开放数学问题上取得突破。Pachocki 预计 2027 年前后预训练可能迎来快速进展，而对齐与监控能力或难以同步，因此呼吁头部实验室在更完善的监管手段出现前，就共享能力上限达成共识，避免突破约定的安全红线。
+
+该提议获得了多方信源的交叉印证。OpenAI 官方博客与 Hacker News 的报道均强调，困惑度作为压缩器/预测器能力的核心度量，可替代快速过时的下游基准测试，成为行业治理的量化锚点。The Decoder 进一步披露，OpenAI 首次公开了直至 GPT-6 之后未发布模型的内部得分，显示流畅对话、逻辑推理与复杂数学求解等能力均在固定困惑度阈值处涌现。TechCrunch 指出，该提议与 Anthropic CEO Dario Amodei 的“节奏化前沿”计划形成呼应，后者同样主张企业就安全标准与进展速率限制达成共识。奥尔特曼公开支持该文，称其为 OpenAI 近期最重要内容之一，而美国国会的 AI 监管讨论也在升温。
+
+若被采纳，困惑度将从训练评估指标升级为行业治理的量化锚点，推动 AI 安全监管从各自为政的基准测试转向可比较、可追踪的统一标尺。这不仅为头部实验室提供了共享安全红线的操作基础，也可能影响未来 AI…&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Hacker News AI, TechCrunch AI, OpenAI 官方博客, The Decoder&lt;/p&gt;</description>
 </item>
 <item><title>Ladybird 浏览器发布首个 Alpha 版 自研引擎挑战 Chromium 霸权</title><link>https://todayforai.com/en/story/story-f5746387-c9c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f5746387-c9c</guid>
 <pubDate>Tue, 24 Nov 2026 05:46:35 +0800</pubDate>
