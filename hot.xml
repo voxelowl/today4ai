@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Tue, 24 Nov 2026 21:23:47 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 24 Nov 2026 21:40:02 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
+<item><title>黄仁勋辞任 11 天后回归英伟达 股价单日暴涨 32%</title><link>https://todayforai.com/en/story/story-97c1526e-d94</link><guid isPermaLink="true">https://todayforai.com/en/story/story-97c1526e-d94</guid>
+<pubDate>Tue, 24 Nov 2026 21:40:02 +0800</pubDate>
+<description>&lt;p&gt;英伟达董事会于 11 月 22 日一致投票决定，即刻恢复黄仁勋的总裁、CEO 及董事职务，距其 11 月 12 日因婚外情及涉嫌中国间谍报道辞职仅 10 天。消息公布后，英伟达美股开盘跳涨 32%，市值单日增加超 1 万亿美元，总市值重新站上 4 万亿美元。董事会称决策前已征询美国财政部等高级官员意见，并获特朗普总统公开支持，认定其回归不构成国家安全风险。
+
+多方信源交叉验证显示，黄仁勋辞职期间由 CFO Colette Kress 代行职责，公司市值一度蒸发 1.4 万亿美元。复职同时，英伟达新设首席合规官岗位及仅由独立董事组成的国家安全与出口管制委员会，以统筹合规并配合政府调查，但针对外国情报行动的独立调查仍在进行。董事会全票推翻一周前“无意让其回归”的表态，凸显创始人对这家 AI 算力龙头的不可替代性。
+
+此次事件对 AI 算力供应链与资本市场预期构成直接冲击。黄仁勋回归稳定了英伟达管理层，缓解了外界对领导层真空的担忧，但公司治理独立性因政府高层介入而受质疑。在 OpenAI 披露预训练曲线、智谱发布首个循环 Transformer 模型 GLM 5.4、Sierra 估值翻三倍等 AI 竞赛白热化背景下，英伟达的稳定对全球 AI 产业至关重要。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, The Decoder, The Verge AI, Hacker News AI, Rohan Paul (@rohanpaul_ai), TechCrunch AI&lt;/p&gt;</description>
+</item>
 <item><title>智谱发布 GLM-5.4 循环 Transformer 架构落地</title><link>https://todayforai.com/en/story/story-d2145516-db8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d2145516-db8</guid>
 <pubDate>Tue, 24 Nov 2026 17:21:55 +0800</pubDate>
 <description>&lt;p&gt;智谱 AI 正式发布旗舰模型 GLM-5.4，这是其首个基于循环 Transformer 架构的大模型，通过让共享权重层在前向传播中重复执行两次来加深推理，在不增加参数量的前提下达到 2T-3T 参数级模型的智能水平。模型参数规模达 7500 亿，已上线 GLM Coding Plan、ZCode 与 Z.ai Chat，API 与权重将在安全评估后开放。
@@ -10,10 +18,6 @@
 技术细节上，GLM-5.4 复用 28 层基座，第二遍循环复用第一遍的稀疏 KV 与注意力索引，额外仅增加一个滑动窗口的 KV 缓存开销，配合控制门、共享 token 缓存与稀疏注意力机制抑制显存与算力成本。在 30B 等参测试中，循环机制以约 10% 的额外训练算力换来 AIME25 +11.3、GPQA-Diamond +8.7 的提升，同时输出长度下降 11.7% 至 14.9%。模型新增视觉理解能力，支持 1M 上下文，主打“泛编程”，可由代码生成视频、游戏与 CAD 模型。
 
 对行业而言，GLM-5.4 验证了计算深度扩展路线，为不盲目堆参数的大模型发展提供了新范式。其“泛编程”定位将代码能力外推至视频生成、游戏构建与 3D 建模等场景，有望拓展 AI 编程工具的应用边界。即日起向 Coding Plan 用户全量开放，V2、V3 及团队版用户额度提升至 1.5 倍，周额度用户可用量较 GLM-5.3 提升 50%，将加速其在开发者生态中的渗透。&lt;/p&gt;&lt;p&gt;8 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), IT之家 · 智能时代, Marktechpost (@Marktechpost), Hacker News AI, 智谱 AI 研究, The Decoder&lt;/p&gt;</description>
-</item>
-<item><title>黄仁勋辞任 11 天后回归英伟达任 CEO</title><link>https://todayforai.com/en/story/story-97c1526e-d94</link><guid isPermaLink="true">https://todayforai.com/en/story/story-97c1526e-d94</guid>
-<pubDate>Tue, 24 Nov 2026 12:14:16 +0800</pubDate>
-<description>&lt;p&gt;英伟达董事会一致投票决定重新任命黄仁勋为总裁、CEO 及董事会成员，距其宣布辞职仅 11 天，董事会称已征询美国财政部等高级官员意见。同期 OpenAI 披露预训练曲线，智谱发布首个循环 Transformer 模型 GLM 5.4，Sierra 估值较去年 100 亿美元翻三倍。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, The Decoder, The Verge AI, Hacker News AI, Rohan Paul (@rohanpaul_ai), TechCrunch AI&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 推出 Claude Ship 实现代码审查与自动审批</title><link>https://todayforai.com/en/story/story-f3e61143-17c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f3e61143-17c</guid>
 <pubDate>Tue, 24 Nov 2026 19:26:23 +0800</pubDate>
