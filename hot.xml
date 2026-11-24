@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Tue, 24 Nov 2026 13:55:12 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 24 Nov 2026 14:59:54 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>黄仁勋辞任 11 天后回归英伟达任 CEO</title><link>https://todayforai.com/en/story/story-97c1526e-d94</link><guid isPermaLink="true">https://todayforai.com/en/story/story-97c1526e-d94</guid>
 <pubDate>Tue, 24 Nov 2026 12:14:16 +0800</pubDate>
@@ -47,6 +47,14 @@ Shirudo 的推出为基础设施运维者和安全研究者提供了一种快速
 
 同步推出的还有覆盖 150 余项疾病六年风险预测的 Pulse 模型和安全防护模型 MedGuard，形成覆盖大语言、实时音视频、预测与安全防护的四类模型矩阵。蚂蚁提出“模型要像医生一样思考”的训练与评测…&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), AntLing (@AntLingAGI), 量子位官网, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
+<item><title>百度开源文心 5.5 Flash 2800 亿参数模型</title><link>https://todayforai.com/en/story/story-8899f5da-682</link><guid isPermaLink="true">https://todayforai.com/en/story/story-8899f5da-682</guid>
+<pubDate>Tue, 24 Nov 2026 14:59:54 +0800</pubDate>
+<description>&lt;p&gt;百度以 Apache 2.0 协议开源文心 5.5 Flash Preview，采用 2800 亿总参数、每 Token 激活 140 亿的 MoE 架构，支持 100 万 Token 上下文，权重已上架 Hugging Face 与 ModelScope。该模型在 AutomationBench 上以 61.9 分超过 Claude Opus 5.5，CodeArena WebDev 以 1668 分位列开源第二，但 Terminal-Bench 4.0 等终端任务仍落后于头部闭源模型。
+
+技术细节方面，模型共 43 层，其中 37 层使用 HCA、6 层使用 MLA+DSA 稀疏注意力，官方解码速度超 200 Token/s。vLLM 团队与百度合作，在发布当天通过 vLLM-ERNIE 插件提供支持，并引入 FlashIndexer 稀疏索引加速与 DSpark 投机解码优化，实现端到端推理加速。基座与后训练权重均以 Apache 2.0 开放，支持 vLLM、SGLang 本地部署，使文心 Flash 系列形成完整开源链条。
+
+行业影响上，此次开源为开发者提供了高性能长上下文 MoE 模型的新选择，尤其在 Agent 与代码生成场景具备竞争力，但终端任务短板也表明其与顶尖闭源模型仍有差距。Apache 2.0 协议与首日推理支持有望降低部署门槛，推动开源生态在稀疏 MoE 架构上的进一步探索。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, vLLM 官方博客&lt;/p&gt;</description>
+</item>
 <item><title>Thinking Machines 开源 26B 循环模型 Inkling 2 Mini</title><link>https://todayforai.com/en/story/story-e7a42b22-638</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e7a42b22-638</guid>
 <pubDate>Tue, 24 Nov 2026 05:39:25 +0800</pubDate>
 <description>&lt;p&gt;Thinking Machines Lab 以 Apache 2.0 协议开源了多模态混合专家模型 Inkling 2 Mini，总参数 26.4B，激活参数约 3.4B，支持 100 万 token 上下文与图文输入。其核心创新是循环 Transformer 架构：24 层中仅存储 24 层，中间 12 层以共享权重重复运行 3 次，使单 token 等效经过 48 层计算，从而在不增加输出 token 的前提下延长内部推理。模型检查点仅约 20GB，可在 32GB 内存的 Mac 或 DGX Spark 上本地运行，vLLM 在 Blackwell、Hopper 与 DGX Spark 上实现发布当日支持。
@@ -66,14 +74,6 @@ Shirudo 的推出为基础设施运维者和安全研究者提供了一种快速
 <item><title>编码智能体评测揭示 harness 选择对成本影响超过得分</title><link>https://todayforai.com/en/story/story-4b1c2242-486</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4b1c2242-486</guid>
 <pubDate>Tue, 24 Nov 2026 11:31:19 +0800</pubDate>
 <description>&lt;p&gt;Artificial Analysis 在其 Coding Agent Index v2.1 上推出 Harness Comparisons，固定模型仅更换 harness，对 GPT-6 Luna 与 GLM-5.3-Flash 各测试 13 种 harness。结论是没有任何 harness 在所有模型上都最优，最佳组合因模型而异，且 harness 对成本的影响大于对得分的影响。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
-</item>
-<item><title>Ladybird 浏览器发布首个 Alpha 版 自研引擎挑战 Chromium 霸权</title><link>https://todayforai.com/en/story/story-f5746387-c9c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f5746387-c9c</guid>
-<pubDate>Tue, 24 Nov 2026 05:46:35 +0800</pubDate>
-<description>&lt;p&gt;独立浏览器项目 Ladybird 正式发布首个 Alpha 版本，面向 macOS 与 Linux 用户提供直接下载，无需编译源码即可体验。这标志着全球浏览器引擎市场迎来一个从零构建的全新挑战者，其核心引擎完全自研，而非基于 Chromium 或 Gecko 的分支。
-
-据官方信息与 Simon Willison 博客分析，Ladybird 自研了 HTML 解析、CSS 引擎、布局、JavaScript 与 WebAssembly 等核心组件，仅复用 HarfBuzz、Skia、ffmpeg、SQLite 等少数外部库。该项目源自 SerenityOS，采用滚动更新通道，官方坦承当前版本存在兼容性与崩溃问题，并明确不承诺安全性，主动邀请安全研究者进行漏洞挖掘。
-
-Ladybird 的 Alpha 发布是浏览器引擎领域少见的从零构建尝试，打破了 Chromium 与 Gecko 长期主导的格局。尽管早期版本稳定性不足，但其独立技术路线为开发者提供了新的选择，并可能推动浏览器引擎技术的多元化竞争。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, Simon Willison 博客&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
