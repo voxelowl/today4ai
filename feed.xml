@@ -1,8 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Tue, 24 Nov 2026 07:28:29 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 24 Nov 2026 07:52:36 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Samsung Upgrades Xi&#x27;an Plant to V9 NAND for AI Data Center SSDs</title><link>https://www.ithome.com/1/031/258.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/258.htm</guid>
+<pubDate>Tue, 24 Nov 2026 07:52:36 +0800</pubDate>
+<description>&lt;p&gt;Samsung plans to turn its Xi&amp;#x27;an fab into a core production base for AI data center eSSDs, prioritizing expansion of ninth-generation V9 NAND capacity. Post-retrofit V9 monthly capacity is expected to reach 50,000-60,000 wafers, with equipment arriving around February 2027 and completion in November 2027. V9 uses 286-layer stacking, delivers roughly 50% more capacity than the prior generation, and has achieved yields above 90%.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;三星西安工厂升级 V9 闪存 扩产 AI 数据中心 eSSD&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部存储厂商在华产能向 AI 数据中心 eSSD 倾斜，直接影响 NAND 供需与算力基础设施成本。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 72/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/031/258.htm">IT之家 · IT业界</source>
+<category>存储芯片</category>
+<category>NAND</category>
+<category>AI 数据中心</category>
+<category>三星</category>
+<category>eSSD</category>
+</item>
+<item><title>Anthropic Launches Claude Ship Beta to Automate Code Review and Approvals</title><link>https://www.ithome.com/1/031/257.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/257.htm</guid>
+<pubDate>Tue, 24 Nov 2026 07:49:00 +0800</pubDate>
+<description>&lt;p&gt;Anthropic has launched Claude Ship in beta, a multi-agent toolset comprising Code Review, PR Steward and Claude Approvals that automates code review, fixes CI failures and merge conflicts, and executes approvals against team-defined policies. Code Review is generally available while the other two remain in beta, with Anthropic recommending observation mode and monthly spend caps initially.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 推出 Claude Ship 测试版 可自动审查并批准代码&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 智能体首次系统性介入代码审查与合并审批环节，直接触及软件工程协作流程的核心权限边界。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/031/257.htm">IT之家 · 智能时代</source>
+<category>AI 编程</category>
+<category>智能体</category>
+<category>Anthropic</category>
+<category>代码审查</category>
+</item>
+<item><title>Z.ai Releases GLM-5.4 Featuring First Loop Transformer Architecture</title><link>https://simonwillison.net/2026/Nov/23/glm-54/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/23/glm-54/</guid>
+<pubDate>Tue, 24 Nov 2026 07:40:49 +0800</pubDate>
+<description>&lt;p&gt;Z.ai has released GLM-5.4, its first model built on a looped transformer architecture that runs weight-shared layers for multiple iterations to deepen the effective network without raising parameter count. The model is not yet open-weight and is currently accessible only via the Z.ai API through its Coding Plan subscription, targeting reasoning-heavy tasks such as agentic coding.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;智谱发布 GLM-5.4 首个循环 Transformer 架构&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;循环 Transformer 架构在一周内被两家实验室采用，代表模型深度扩展的新技术路线，值得关注。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · llm · signal 74/100&lt;/p&gt;</description>
+<source url="https://simonwillison.net/2026/Nov/23/glm-54/">Simon Willison 博客</source>
+<category>大模型</category>
+<category>智谱 AI</category>
+<category>循环 Transformer</category>
+<category>智能体编程</category>
+</item>
 <item><title>OpenAI and Cisco Open Source Shirudo for Zero-Reboot Linux Patching</title><link>https://www.ithome.com/1/031/245.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/245.htm</guid>
 <pubDate>Tue, 24 Nov 2026 07:28:29 +0800</pubDate>
 <description>&lt;p&gt;OpenAI and Cisco have open-sourced Shirudo, an eBPF-based security runtime that dynamically loads temporary shields into running Linux kernels to block exploit paths without requiring a restart. In controlled tests, a Codex-generated shield stopped a Java4Shell exploit against a live Elasticsearch service with zero downtime. Released under BSD 2-Clause with signed shield verification and TPM-backed audit logging, the project aims to let one team&amp;#x27;s validated mitigation be reused across the industry.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 与思科开源 Shirudo 实现免重启漏洞防护&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;OpenAI 与思科联手将 eBPF 运行时防护开源，为漏洞应急响应提供了免重启的工程化新范式。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · opensource · signal 78/100&lt;/p&gt;</description>
@@ -21,6 +49,15 @@
 <category>AI 公平性</category>
 <category>模型审计</category>
 <category>学术研究</category>
+</item>
+<item><title>Zhipu Releases GLM-5.4 with Vision and Stronger Coding Skills</title><link>https://www.ithome.com/1/031/252.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/252.htm</guid>
+<pubDate>Tue, 24 Nov 2026 07:22:14 +0800</pubDate>
+<description>&lt;p&gt;Zhipu released the GLM-5.4 model and rolled it out to its Coding Plan, adding vision capabilities and stronger general coding performance. The company says it aggressively scaled both its Scaling Loop and model size over the past three months. This is the only item in the roundup with substantive AI frontier substance.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;智谱 GLM-5.4 发布 新增视觉与泛 Coding 能力&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;智谱 GLM-5.4 是本期早报中唯一具备模型能力增量的条目，值得关注国产基座模型的多模态与编码演进。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · llm · signal 38/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/031/252.htm">IT之家 · IT业界</source>
+<category>智谱</category>
+<category>GLM-5.4</category>
+<category>大模型</category>
+<category>多模态</category>
 </item>
 <item><title>Musk Admits AI R&amp;D Lag, Rents Compute for Billions Monthly</title><link>https://www.ithome.com/1/031/246.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/246.htm</guid>
 <pubDate>Tue, 24 Nov 2026 07:00:34 +0800</pubDate>
@@ -194,35 +231,35 @@
 <category>Anthropic</category>
 <category>Google DeepMind</category>
 </item>
-<item><title>OpenAI Rolls Out GPT-6.2 Sol Chat Model Worldwide</title><link>https://the-decoder.com/openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-more-reliably/</link><guid isPermaLink="true">https://the-decoder.com/openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-more-reliably/</guid>
+<item><title>OpenAI 全球上线 GPT-6.2 Sol 聊天模型</title><link>https://the-decoder.com/openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-more-reliably/</link><guid isPermaLink="true">https://the-decoder.com/openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-more-reliably/</guid>
 <pubDate>Tue, 24 Nov 2026 04:39:18 +0800</pubDate>
-<description>&lt;p&gt;OpenAI is rolling out a chat-tuned GPT-6.2 Sol worldwide to Plus, Pro, Business and Enterprise users, targeting complex everyday questions, web search and image understanding. Internal tests show image comprehension rising from 47.4% to 71.7% and difficult instruction following from 62.5% to 78.1%, with expert-level tasks beating GPT-6 across all four reasoning levels.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 全球上线 GPT-6.2 Sol 聊天模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;OpenAI 主力对话模型的代际更新，直接决定数亿用户日常体验，且给出可对比的量化提升。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 面向 Plus、Pro、Business 与 Enterprise 用户全球推送聊天调优版 GPT-6.2 Sol，重点强化复杂日常问答、联网搜索与图像理解能力。内部测试显示其图像理解得分从 47.4% 提升至 71.7%，复杂指令遵循从 62.5% 升至 78.1%，专家级任务在四档推理强度下全面超越 GPT-6。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;OpenAI 主力对话模型的代际更新，直接决定数亿用户日常体验，且给出可对比的量化提升。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-more-reliably/">The Decoder</source>
 <category>大模型</category>
 <category>OpenAI</category>
 <category>ChatGPT</category>
 </item>
-<item><title>Anthropic Launches Claude Ship to Autonomously Review and Fix Pull Requests</title><link>https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests</guid>
+<item><title>Claude 推出 Ship 产品 可自主审查并修复 PR</title><link>https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests</guid>
 <pubDate>Tue, 24 Nov 2026 04:00:00 +0800</pubDate>
-<description>&lt;p&gt;Anthropic unveiled Claude Ship alongside two beta agents, PR Steward and Claude Approvals, letting Claude autonomously resolve failing CI checks, merge conflicts, and review feedback, and approve routine changes when organizational policy permits. Available to Claude Team and Enterprise customers on GitHub repositories, the launch moves Claude from a code review assistant toward a closed-loop coding agent.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Claude 推出 Ship 产品 可自主审查并修复 PR&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Claude 从被动评审走向自主修复与批准 PR，是编码智能体闭环交付的重要一步。&lt;/p&gt;&lt;p&gt;The Verge AI · agent · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 发布 Claude Ship 产品，并同步推出 PR Steward 与 Claude Approvals 两个测试版智能体，使 Claude 能自主处理失败的 CI 检查、合并冲突与评审反馈，并在组织策略允许时直接批准常规变更。该能力面向 Claude Team 与 Enterprise 客户，目前仅支持 GitHub 仓库，标志着 Claude 从代码评审工具升级为可闭环交付的编码智能体。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Claude 从被动评审走向自主修复与批准 PR，是编码智能体闭环交付的重要一步。&lt;/p&gt;&lt;p&gt;The Verge AI · agent · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests">The Verge AI</source>
 <category>智能体</category>
 <category>Anthropic</category>
 <category>代码评审</category>
 <category>开发者工具</category>
 </item>
-<item><title>Z.ai Releases GLM-5.4, Its First Loop Transformer Flagship Model</title><link>https://x.com/Marktechpost/status/2124945294332928085</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2124945294332928085</guid>
+<item><title>智谱发布 GLM-5.4 循环 Transformer 旗舰模型</title><link>https://x.com/Marktechpost/status/2124945294332928085</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2124945294332928085</guid>
 <pubDate>Tue, 24 Nov 2026 03:16:52 +0800</pubDate>
-<description>&lt;p&gt;Z.ai has released GLM-5.4, its first Loop Transformer flagship, which deepens the model without enlarging it: the same weights run 28 layers of the GLM-5 base twice per forward pass, with pass 2 reusing pass 1&amp;#x27;s sparse KV and attention indices so the extra loop costs only one sliding window of KV cache. In a 30B iso-parameter test, looping delivered +11.3 on AIME25 and +8.7 on GPQA-Diamond for roughly 10% more training compute, while cutting output length by 11.7% to 14.9%. The 750B-scale model is live in the GLM Coding Plan, ZCode and Z.ai Chat, with API and weights pending safety evaluation.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;智谱发布 GLM-5.4 循环 Transformer 旗舰模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;循环 Transformer 是让模型变深而不变大的新架构路线，且给出了等参对照的量化收益，对关注前沿模型架构的读者有实质增量。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;智谱 Z.ai 发布首个循环 Transformer 旗舰模型 GLM-5.4，核心思路是让模型变深而不变大：同一组权重在前向传播中运行两遍 28 层 GLM-5 基座，第二遍复用第一遍的稀疏 KV 与注意力索引，额外循环仅增加一个滑动窗口的 KV 缓存开销。在 30B 等参测试中，循环机制以约 10% 的额外训练算力换来 AIME25 +11.3、GPQA-Diamond +8.7 的提升，同时输出长度下降 11.7% 至 14.9%。模型规模达 750B，已上线 GLM Coding Plan、ZCode 与 Z.ai Chat，API 与权重将在安全评估后开放。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;循环 Transformer 是让模型变深而不变大的新架构路线，且给出了等参对照的量化收益，对关注前沿模型架构的读者有实质增量。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/Marktechpost/status/2124945294332928085">Marktechpost (@Marktechpost)</source>
 <category>大模型</category>
 <category>智谱</category>
 <category>循环 Transformer</category>
 <category>模型架构</category>
 </item>
-<item><title>Google AI Mode Adds Drive and Wallet for Personalized Search</title><link>https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/</guid>
+<item><title>谷歌 AI 模式接入 Drive 与 Wallet 实现个性化搜索</title><link>https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/</guid>
 <pubDate>Tue, 24 Nov 2026 03:14:46 +0800</pubDate>
-<description>&lt;p&gt;Google is expanding Personal Intelligence in Search&amp;#x27;s AI Mode to Google Drive, Google Wallet, and the Gemini app, letting the AI ground answers in users&amp;#x27; personal data. The feature already connects to Gmail, Calendar, and Photos, and each integration is opt-in and can be toggled off anytime. It marks a key move to differentiate Search through Google&amp;#x27;s proprietary ecosystem data.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌 AI 模式接入 Drive 与 Wallet 实现个性化搜索&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;谷歌把个人数据接入搜索 AI 模式，是消费级 AI 助手个性化竞争的重要产品动作。&lt;/p&gt;&lt;p&gt;TechCrunch AI · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;谷歌将 Personal Intelligence 扩展至搜索 AI 模式，新增 Google Drive、Google Wallet 与 Gemini 应用接入，使 AI 可基于用户个人数据给出情境化回答。该功能此前已支持 Gmail、日历与相册，接入为可选且可随时关闭。这是谷歌依托自有生态数据构建差异化搜索体验的关键一步。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;谷歌把个人数据接入搜索 AI 模式，是消费级 AI 助手个性化竞争的重要产品动作。&lt;/p&gt;&lt;p&gt;TechCrunch AI · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/">TechCrunch AI</source>
 <category>谷歌</category>
 <category>AI 搜索</category>
@@ -236,43 +273,6 @@
 <category>AI 硬件</category>
 <category>可穿戴设备</category>
 <category>Nothing</category>
-</item>
-<item><title>Anthropic 月付 31 亿美元租用 xAI 算力</title><link>https://the-decoder.com/anthropics-appetite-for-compute-is-pushing-xai-toward-a-rent-over-build-strategy/</link><guid isPermaLink="true">https://the-decoder.com/anthropics-appetite-for-compute-is-pushing-xai-toward-a-rent-over-build-strategy/</guid>
-<pubDate>Tue, 24 Nov 2026 02:47:53 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 已成为 xAI 最大算力客户，月合同额约 31 亿美元，远超谷歌的 8 亿美元，且双方均可提前 90 天解约。这笔收入占 xAI 总收入一半以上，正推动马斯克把战略重心从自研模型转向对外出租算力，内部甚至出现“卖算力，因为我们竞争不过”的说法。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部实验室算力采购规模与 xAI 商业模式转向的一手细节，揭示 AI 算力供需格局的关键变化。&lt;/p&gt;&lt;p&gt;The Decoder · compute · signal 78/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/anthropics-appetite-for-compute-is-pushing-xai-toward-a-rent-over-build-strategy/">The Decoder</source>
-<category>算力</category>
-<category>xAI</category>
-<category>Anthropic</category>
-<category>数据中心</category>
-<category>商业模式</category>
-</item>
-<item><title>OpenAI 提议以困惑度作为行业标尺并呼吁共享安全红线</title><link>https://the-decoder.com/openai-warns-that-upcoming-ai-systems-could-outpace-safety-checks-and-urges-rivals-to-agree-on-shared-limits/</link><guid isPermaLink="true">https://the-decoder.com/openai-warns-that-upcoming-ai-systems-could-outpace-safety-checks-and-urges-rivals-to-agree-on-shared-limits/</guid>
-<pubDate>Tue, 24 Nov 2026 02:42:38 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 首席科学家 Jakub Pachocki 提议将困惑度（perplexity）确立为衡量 AI 进展的行业通用标尺，并首次公开 GPT 系列直至 GPT-6 之后未发布模型的内部得分数据。数据显示，流畅对话、逻辑推理与复杂数学求解等能力均在固定困惑度阈值处涌现。Pachocki 同时警告，新一代模型可能绕过现有安全审查，呼吁头部实验室在更完善的监管手段出现前就共享能力上限达成共识。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次公开 GPT 系列跨代际困惑度数据并提出行业统一标尺与安全红线倡议，对理解能力涌现与前沿治理具实质参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/openai-warns-that-upcoming-ai-systems-could-outpace-safety-checks-and-urges-rivals-to-agree-on-shared-limits/">The Decoder</source>
-<category>大模型</category>
-<category>OpenAI</category>
-<category>AI 安全</category>
-<category>模型评估</category>
-</item>
-<item><title>美国两州起诉 SpaceX 指控 Grok 生成色情深伪</title><link>https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit</guid>
-<pubDate>Tue, 24 Nov 2026 02:26:47 +0800</pubDate>
-<description>&lt;p&gt;俄勒冈州与弗吉尼亚州总检察长分别对 SpaceX 提起诉讼，指控其旗下 X 平台与 Grok 在缺乏行业标准防护的情况下，放任用户生成非自愿私密影像与儿童性虐待材料，并虚假宣传平台安全性。诉状称弱防护并非失误而是有意为之的商业选择，两州依据消费者保护法追责。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;州级监管首次就生成式 AI 深伪危害直接起诉平台方，为 AI 内容安全责任划定重要法律先例。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit">The Verge AI</source>
-<category>AI 安全</category>
-<category>深度伪造</category>
-<category>监管诉讼</category>
-<category>Grok</category>
-</item>
-<item><title>Embo 获 1.1 亿美元种子轮 用世界模型训练机器人</title><link>https://x.com/rohanpaul_ai/status/2124931821825913195</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2124931821825913195</guid>
-<pubDate>Tue, 24 Nov 2026 02:23:20 +0800</pubDate>
-<description>&lt;p&gt;机器人初创公司 Embo 完成 1.1 亿美元种子轮融资，由 Andreessen Horowitz 领投，为机器人领域史上最大种子轮之一。其核心路线是在互联网视频上训练世界模型，再让智能体在该模拟器中通过强化学习反复演练抓取失败、抽屉卡住等场景，把训练从物理机器迁移到算力上，从而突破真实机器人数据采集的规模上限。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;世界模型加强化学习训练机器人大脑的路线，叠加机器人史上最大种子轮之一，兼具技术路线与产业信号价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2124931821825913195">Rohan Paul (@rohanpaul_ai)</source>
-<category>世界模型</category>
-<category>具身智能</category>
-<category>强化学习</category>
-<category>融资</category>
 </item>
 </channel>
 </rss>

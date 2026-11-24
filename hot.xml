@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Tue, 24 Nov 2026 07:28:29 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 24 Nov 2026 07:49:00 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
+<item><title>智谱发布 GLM-5.4 循环 Transformer 架构落地</title><link>https://todayforai.com/en/story/story-d2145516-db8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d2145516-db8</guid>
+<pubDate>Tue, 24 Nov 2026 07:40:49 +0800</pubDate>
+<description>&lt;p&gt;智谱 AI 正式发布旗舰模型 GLM-5.4，这是其首个基于循环 Transformer 架构的大模型，通过让共享权重层在前向传播中重复执行两次来加深推理，在不增加参数量的前提下达到 2T-3T 参数级模型的智能水平。模型参数规模达 7500 亿，已上线 GLM Coding Plan、ZCode 与 Z.ai Chat，API 与权重将在安全评估后开放。
+
+技术细节上，GLM-5.4 复用 28 层基座，第二遍循环复用第一遍的稀疏 KV 与注意力索引，额外仅增加一个滑动窗口的 KV 缓存开销，配合控制门、共享 token 缓存与稀疏注意力机制抑制显存与算力成本。在 30B 等参测试中，循环机制以约 10% 的额外训练算力换来 AIME25 +11.3、GPQA-Diamond +8.7 的提升，同时输出长度下降 11.7% 至 14.9%。模型新增视觉理解能力，支持 1M 上下文，主打“泛编程”，可由代码生成视频、游戏与 CAD 模型。
+
+对行业而言，GLM-5.4 验证了计算深度扩展路线，为不盲目堆参数的大模型发展提供了新范式。其“泛编程”定位将代码能力外推至视频生成、游戏构建与 3D 建模等场景，有望拓展 AI 编程工具的应用边界。即日起向 Coding Plan 用户全量开放，V2、V3 及团队版用户额度提升至 1.5 倍，周额度用户可用量较 GLM-5.3 提升 50%，将加速其在开发者生态中的渗透。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), IT之家 · 智能时代, Marktechpost (@Marktechpost), Hacker News AI, 智谱 AI 研究, The Decoder&lt;/p&gt;</description>
+</item>
 <item><title>黄仁勋复任英伟达 CEO 开盘大涨 32%</title><link>https://todayforai.com/en/story/story-97c1526e-d94</link><guid isPermaLink="true">https://todayforai.com/en/story/story-97c1526e-d94</guid>
 <pubDate>Tue, 24 Nov 2026 00:17:55 +0800</pubDate>
 <description>&lt;p&gt;英伟达董事会于 11 月 22 日一致投票决定，即日起恢复黄仁勋的总裁、首席执行官及董事会成员职务，结束其因涉嫌间谍丑闻而短暂离任的 10 天空窗期。消息公布后，英伟达美股开盘跳涨 32%，市值单日增加超 1 万亿美元，总市值重新站上 4 万亿美元。此前黄仁勋辞职曾导致公司市值蒸发 1.4 万亿美元，CFO Colette Kress 代行职责。
@@ -11,13 +19,13 @@
 
 此次人事反转发生在 AI 产业对算力需求空前高涨的关键时点，管理层稳定性直接关系到全球 AI 供应链与资本市场预期。黄仁勋表示将以焕然一新的承诺领导公司迎接新一轮工业革命。分析认为，尽管合规架构有所强化，但独立调查的后续进展仍可能成为影响英伟达未来治理与股价的潜在变量。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), TechCrunch AI, 宝玉 (@dotey), IT之家 · IT业界, The Decoder, The Verge AI&lt;/p&gt;</description>
 </item>
-<item><title>智谱发布 GLM-5.4 循环 Transformer 架构落地</title><link>https://todayforai.com/en/story/story-d2145516-db8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d2145516-db8</guid>
-<pubDate>Tue, 24 Nov 2026 03:16:52 +0800</pubDate>
-<description>&lt;p&gt;智谱 AI 正式发布旗舰模型 GLM-5.4，这是其首个基于循环 Transformer 架构的大模型，通过让共享权重层在前向传播中重复执行两次来加深推理，在不增加参数量的前提下达到 2T-3T 参数级模型的智能水平。模型参数规模达 7500 亿，已上线 GLM Coding Plan、ZCode 与 Z.ai Chat，API 与权重将在安全评估后开放。
+<item><title>Anthropic 数学家与 Claude 合作证明黎曼猜想 1700 万行 Lean 代码通过机器核验</title><link>https://todayforai.com/en/story/story-b91caf62-12d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b91caf62-12d</guid>
+<pubDate>Tue, 24 Nov 2026 06:23:04 +0800</pubDate>
+<description>&lt;p&gt;2026 年 11 月 20 日，Anthropic 数学家 Levent Alpöge 宣布与 Claude 合作，完成了对悬置 167 年的黎曼猜想（及其推广形式广义黎曼猜想）的证明，并将完整论证形式化为约 1700 万行 Lean 代码。Lean 与 Mathlib 社区随后联合认证，该证明已通过四项核验：陈述正确、代码可编译、证明与 Mathlib 陈述一致、证明有效。这是 AI 首次深度参与顶级数学开放问题的证明，并将形式化验证规模推至千万行量级。
 
-技术细节上，GLM-5.4 复用 28 层基座，第二遍循环复用第一遍的稀疏 KV 与注意力索引，额外仅增加一个滑动窗口的 KV 缓存开销，配合控制门、共享 token 缓存与稀疏注意力机制抑制显存与算力成本。在 30B 等参测试中，循环机制以约 10% 的额外训练算力换来 AIME25 +11.3、GPQA-Diamond +8.7 的提升，同时输出长度下降 11.7% 至 14.9%。模型新增视觉理解能力，支持 1M 上下文，主打“泛编程”，可由代码生成视频、游戏与 CAD 模型。
+核验过程动用了 Lean 官方内核、con-leche、con-ron 及多个第三方独立检查器交叉验证，并借助相对集合论的形式化证明排除了检查器本身接受错误证明的可能。数十名独立验证者运行代码得到一致结果。菲尔兹奖得主 James Maynard 表示相信证明正确，但强调数学界全面认可的前提是有人真正理解并能向外解释其思想框架。同日，斯坦福研究者 Alessandro Masullo 发布了一份完全由人类完成的独立竞争性证明稿，形成鲜明对照。
 
-对行业而言，GLM-5.4 验证了计算深度扩展路线，为不盲目堆参数的大模型发展提供了新范式。其“泛编程”定位将代码能力外推至视频生成、游戏构建与 3D 建模等场景，有望拓展 AI 编程工具的应用边界。即日起向 Coding Plan 用户全量开放，V2、V3 及团队版用户额度提升至 1.5 倍，周额度用户可用量较 GLM-5.3 提升 50%，将加速其在开发者生态中的渗透。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), IT之家 · 智能时代, Marktechpost (@Marktechpost), Hacker News AI, 智谱 AI 研究, The Decoder&lt;/p&gt;</description>
+若最终成立，这将是 AI 辅助数学与形式化验证领域的里程碑事件，不仅支撑数百个依赖黎曼猜想的数学结论，更将形式化验证推至千万行规模，为 AI 研究成果的可信验证机制树立新范式。其真正价值可能在于催生解释素数分布结构的新数学理论，而非猜想本身。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;Latent Space, Hacker News AI, 量子位官网, The Decoder, IT之家 · 智能时代, Simon Willison 博客&lt;/p&gt;</description>
 </item>
 <item><title>蚂蚁开源 560B 医疗大模型 124B 多模态版笔记本可跑</title><link>https://todayforai.com/en/story/story-c5def680-01d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c5def680-01d</guid>
 <pubDate>Mon, 23 Nov 2026 15:42:01 +0800</pubDate>
@@ -27,21 +35,13 @@
 
 同步推出的还有覆盖 150 余项疾病六年风险预测的 Pulse 模型和安全防护模型 MedGuard，形成覆盖大语言、实时音视频、预测与安全防护的四类模型矩阵。蚂蚁提出“模型要像医生一样思考”的训练与评测…&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), AntLing (@AntLingAGI), 量子位官网, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
-<item><title>OpenAI 首席科学家提议以困惑度设定 AI 开发共同门槛</title><link>https://todayforai.com/en/story/story-24028721-a3a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-24028721-a3a</guid>
-<pubDate>Tue, 24 Nov 2026 02:42:38 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 首席科学家 Jakub Pachocki 近日撰文提出，将困惑度（交叉熵损失）确立为跨企业可比的预训练进展统一指标，并以此为基础设定行业共同的安全开发门槛。他首次公开了 OpenAI 内部数据：GPT-3.5 对数困惑度约 0.99，GPT-4 约 0.91，且当困惑度低于 0.8 时模型在网络安全与数学领域涌现新能力，0.76 左右在开放数学问题上取得突破。Pachocki 预计 2027 年前后预训练可能迎来快速进展，而对齐与监控能力或难以同步，因此呼吁头部实验室在更完善的监管手段出现前，就共享能力上限达成共识，避免突破约定的安全红线。
+<item><title>Anthropic 推出 Claude Ship 实现代码审查与自动审批</title><link>https://todayforai.com/en/story/story-f3e61143-17c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f3e61143-17c</guid>
+<pubDate>Tue, 24 Nov 2026 07:49:00 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 正式发布 Claude Ship 智能体工具集，首次将代码审查、修复与合并审批全流程自动化。该产品直击 AI 生成代码激增带来的审查瓶颈，允许团队依据预设策略自动批准常规变更，标志着 Claude 从代码评审工具升级为可闭环交付的编码智能体。
 
-该提议获得了多方信源的交叉印证。OpenAI 官方博客与 Hacker News 的报道均强调，困惑度作为压缩器/预测器能力的核心度量，可替代快速过时的下游基准测试，成为行业治理的量化锚点。The Decoder 进一步披露，OpenAI 首次公开了直至 GPT-6 之后未发布模型的内部得分，显示流畅对话、逻辑推理与复杂数学求解等能力均在固定困惑度阈值处涌现。TechCrunch 指出，该提议与 Anthropic CEO Dario Amodei 的“节奏化前沿”计划形成呼应，后者同样主张企业就安全标准与进展速率限制达成共识。奥尔特曼公开支持该文，称其为 OpenAI 近期最重要内容之一，而美国国会的 AI 监管讨论也在升温。
+Claude Ship 包含 Code Review、PR Steward 和 Claude Approvals 三项核心功能。其中 Code Review 已正式可用，支持 Quick、Standard、Deep 三档审查强度并可升级至人工决策；PR Steward 与 Claude Approvals 仍处于测试阶段，前者可自动处理 CI 失败与合并冲突并回写修改说明，后者则依据自然语言策略文件或自定义分类器信号批准变更。目前该产品仅面向 Claude Team 与 Enterprise 套餐客户，且仅支持 GitHub 仓库。官方建议先以观察模式运行并设置月度支出上限。
 
-若被采纳，困惑度将从训练评估指标升级为行业治理的量化锚点，推动 AI 安全监管从各自为政的基准测试转向可比较、可追踪的统一标尺。这不仅为头部实验室提供了共享安全红线的操作基础，也可能影响未来 AI…&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Hacker News AI, TechCrunch AI, OpenAI 官方博客, The Decoder&lt;/p&gt;</description>
-</item>
-<item><title>Anthropic 数学家与 Claude 宣称证明黎曼猜想 1700 万行 Lean 代码通过机器核验</title><link>https://todayforai.com/en/story/story-b91caf62-12d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b91caf62-12d</guid>
-<pubDate>Mon, 23 Nov 2026 13:00:49 +0800</pubDate>
-<description>&lt;p&gt;2026 年 11 月 20 日，Anthropic 数学家 Levent Alpöge 宣布与 Claude 合作完成黎曼猜想的证明，并以约 1700 万行 Lean 代码形式提交。Lean 与 Mathlib 社区随后联合认证，该证明通过四项核验：陈述正确、代码可编译、与 Mathlib 陈述一致、证明有效。这是 AI 首次深度参与攻克数学界悬置 167 年的顶级难题，也是形式化验证首次被推到千万行规模。
-
-核验过程动用了 Lean 官方内核、con-leche、con-ron 及多个第三方独立检查器交叉验证，并借助相对集合论的形式化证明排除了检查器本身接受错误证明的可能。数十名独立验证者复现编译通过，结果一致。菲尔兹奖得主 James Maynard 表示相信证明正确，但强调数学界全面认可的前提是有人真正理解并能向外解释其思想框架。同日，斯坦福研究者 Alessandro Masullo 发布了一份完全由人类完成的独立竞争性证明稿，但公开数小时后即被 AI 查出问题，形成机器验证与人类审读的鲜明对照。
-
-若最终成立，这将是 AI 辅助数学与形式化验证领域的里程碑事件。黎曼猜想自 1859 年悬置至今，其证明将支撑数百个依赖它的数学结论。该成果的真正价值可能在于催生解释素数分布结构的新数学理论，而非猜想本身。同时，事件也把“AI 成果如何被可信验证”的争议推到台前，形式化验证或成为 AI 数学成果的可信背书。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;Latent Space, IT之家 · IT业界, The Decoder, TechCrunch AI, Artificial Analysis (@ArtificialAnlys), 宝玉 (@dotey)&lt;/p&gt;</description>
+此次发布意味着 Anthropic 在 AI 编程赛道从辅助生成向自主交付迈出关键一步。通过将审批策略代码化并嵌入开发工作流，Claude Ship 有望显著缓解 AI 代码量暴增后的人工审查压力，但也对团队策略制定与风险管控提出了更高要求。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;The Verge AI, TechCrunch AI, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 <item><title>Thinking Machines 开源 26B 循环模型 Inkling 2 Mini</title><link>https://todayforai.com/en/story/story-e7a42b22-638</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e7a42b22-638</guid>
 <pubDate>Tue, 24 Nov 2026 05:39:25 +0800</pubDate>
@@ -50,6 +50,14 @@
 在性能上，Inkling 2 Mini 在智能体编程基准中表现突出：DeepSWE v1.1 得分 48.2%，超过 Qwen3.8-27B 的 42.2%；SWE-bench Verified 达 79.2%，在 100B 以下开源模型中领先。Artificial Analysis 智能指数得分 20，与 Qwen3.8 27B 持平，但激活参数少约 5 倍，处于智能与参数规模的帕累托前沿。不过，模型知识召回能力偏弱，非幻觉率仅 63.4%，属明确的取舍型设计。
 
 该模型将循环架构与 MoE 结合，以极低激活参数实现接近更大模型的智能体能力，显著降低了本地部署门槛。其开源将推动个人设备上的智能体应用，并为高效推理架构提供新范式，可能引发对循环 Transformer 的进一步探索。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost), Arena.ai (@arena), The Decoder, Artificial Analysis (@ArtificialAnlys), IT之家 · 智能时代, Hacker News AI&lt;/p&gt;</description>
+</item>
+<item><title>OpenAI 首席科学家提议以困惑度设定 AI 开发共同门槛</title><link>https://todayforai.com/en/story/story-24028721-a3a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-24028721-a3a</guid>
+<pubDate>Tue, 24 Nov 2026 02:42:38 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 首席科学家 Jakub Pachocki 近日撰文提出，将困惑度（交叉熵损失）确立为跨企业可比的预训练进展统一指标，并以此为基础设定行业共同的安全开发门槛。他首次公开了 OpenAI 内部数据：GPT-3.5 对数困惑度约 0.99，GPT-4 约 0.91，且当困惑度低于 0.8 时模型在网络安全与数学领域涌现新能力，0.76 左右在开放数学问题上取得突破。Pachocki 预计 2027 年前后预训练可能迎来快速进展，而对齐与监控能力或难以同步，因此呼吁头部实验室在更完善的监管手段出现前，就共享能力上限达成共识，避免突破约定的安全红线。
+
+该提议获得了多方信源的交叉印证。OpenAI 官方博客与 Hacker News 的报道均强调，困惑度作为压缩器/预测器能力的核心度量，可替代快速过时的下游基准测试，成为行业治理的量化锚点。The Decoder 进一步披露，OpenAI 首次公开了直至 GPT-6 之后未发布模型的内部得分，显示流畅对话、逻辑推理与复杂数学求解等能力均在固定困惑度阈值处涌现。TechCrunch 指出，该提议与 Anthropic CEO Dario Amodei 的“节奏化前沿”计划形成呼应，后者同样主张企业就安全标准与进展速率限制达成共识。奥尔特曼公开支持该文，称其为 OpenAI 近期最重要内容之一，而美国国会的 AI 监管讨论也在升温。
+
+若被采纳，困惑度将从训练评估指标升级为行业治理的量化锚点，推动 AI 安全监管从各自为政的基准测试转向可比较、可追踪的统一标尺。这不仅为头部实验室提供了共享安全红线的操作基础，也可能影响未来 AI…&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Hacker News AI, TechCrunch AI, OpenAI 官方博客, The Decoder&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 与思科开源 Shirudo 运行时 免重启拦截漏洞攻击</title><link>https://todayforai.com/en/story/story-50bba636-e6b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-50bba636-e6b</guid>
 <pubDate>Tue, 24 Nov 2026 07:28:29 +0800</pubDate>
@@ -74,10 +82,6 @@ Ladybird 的 Alpha 发布是浏览器引擎领域少见的从零构建尝试，�
 具体而言，多组 Gemini 4 智能体协同生成量子电路，所有结果必须通过 Lean 形式化验证才会被采纳，有效规避了智能体幻觉风险。在惯性约束聚变场景中，算力成本降低 11.8 倍；细胞色素 P450 模拟所需内存从 481 量子比特降至 333 量子比特；Grover 算法特定实现提速 2.57 倍，反正弦子程序最高提速 290 倍。团队已在 GitHub 开源 Lean 量子算法库、问题定义与验证通过的解决方案，为学界提供可复用样板。
 
 这一成果标志着 AI 智能体与形式化验证结合的科研新范式走向成熟，有望大幅降低量子算法研发门槛，加速量子计算在能源、化学、生物医药等领域的落地应用，并推动社区协作与可复现研究。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Google DeepMind&lt;/p&gt;</description>
-</item>
-<item><title>Agent Arena 指数揭示五个月智能体竞争格局</title><link>https://todayforai.com/en/story/story-0f6c7926-348</link><guid isPermaLink="true">https://todayforai.com/en/story/story-0f6c7926-348</guid>
-<pubDate>Tue, 24 Nov 2026 04:42:08 +0800</pubDate>
-<description>&lt;p&gt;Arena.ai 发布基于 320 万次真实智能体会话的 Agent Arena Index，用统一评分衡量模型在编程、知识工作与对话中的实际任务完成能力。榜单显示 Anthropic 在真实智能体任务上扩大领先，Google DeepMind 已反超 OpenAI，阿里 Qwen 与腾讯混元等中国实验室持续追赶，前三名之后的格局正在重塑。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Arena.ai (@arena)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
