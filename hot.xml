@@ -21,7 +21,7 @@
 
 核验过程采用 Lean 官方内核、con-leche、con-ron 及多个第三方独立检查器交叉验证，五个核心定理仅依赖 propext、Classical.choice、Quot.sound 三条标准公理。MIT 的 Andrew Sutherland 借助 Claude Code 独立验证了 175,187 个模块全部零错误编译，两个独立内核 nanoda 与 con-leche 均接受完整导出证明。社区还借助相对集合论的形式化证明排除了检查器本身接受错误证明的可能，并在惰性导出文件上运行检查以规避源码潜在恶意代码影响。
 
-同日，斯坦福研究者 Alessandro Masullo 发布了一份完全由人类完成的独立竞争性证明稿，数小时内即被 AI 查出问题，形成机器验证与人类审读的鲜明对照。菲尔兹奖得主 James Maynard 表示相信证明正确，但强调数学界全面认可的前提是有人真正理解并能向外解释其思想框架。该成果的真正价值可能在于催生解释素数分布结构的新数学理论，而非猜想本身。若最终成立，这将是 AI 辅助数学与形式化验证领域的里程…&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;Latent Space, Hacker News AI, 量子位官网, IT之家 · IT业界, IT之家 · 智能时代, The Verge AI&lt;/p&gt;</description>
+同日，斯坦福研究者 Alessandro Masullo 发布了一份完全由人类完成的独立竞争性证明稿，数小时内即被 AI 查出问题，形成机器验证与人类审读的鲜明对照。菲尔兹奖得主 James Maynard 表示相信证明正确，但强调数学界全面认可的前提是有人真正理解并能向外解释其思想框架。该成果的真正价值可能在于催生解释素数分布结构的新数学理论，而非猜想本身。若最终成立，这将是 AI 辅助数学与形式化验证领域的里程…&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Latent Space, Hacker News AI, 量子位官网, IT之家 · IT业界, IT之家 · 智能时代, The Verge AI&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 推出 Claude Ship 实现代码审查与自动审批</title><link>https://todayforai.com/en/story/story-f3e61143-17c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f3e61143-17c</guid>
 <pubDate>Tue, 24 Nov 2026 08:08:36 +0800</pubDate>
@@ -30,6 +30,14 @@
 Claude Ship 的核心差异点在于 Claude Approvals 可依据团队预设策略自动批准常规代码变更，策略以自然语言文件形式存入代码仓库，并可结合 Code Review 结果与企业自研分类器信号。PR Steward 能自动处理 CI 失败与合并冲突，并在每次推送后说明改动内容及回滚方式。Code Review 已正式可用，支持 Quick、Standard、Deep 三档审查强度并可升级至人工决策；PR Steward 与 Claude Approvals 仍处于公测阶段，仅限 Team 与 Enterprise 计划的 GitHub 用户。计费按 token 而非按次，官方建议先以观察模式运行并设置月度支出上限。
 
 Claude Ship 直击 AI 生成代码量激增后审查与放行环节的瓶颈，标志着 Claude 从代码评审工具升级为可闭环交付的编码智能体。该产品有望显著提升开发团队的合并效率，但自动审批的准确率与召回率尚未公开，企业需在效率与风险间谨慎权衡。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Marktechpost (@Marktechpost), The Verge AI, TechCrunch AI&lt;/p&gt;</description>
+</item>
+<item><title>百度开源文心 5.5 Flash 2800 亿参数模型</title><link>https://todayforai.com/en/story/story-8899f5da-682</link><guid isPermaLink="true">https://todayforai.com/en/story/story-8899f5da-682</guid>
+<pubDate>Tue, 24 Nov 2026 14:59:54 +0800</pubDate>
+<description>&lt;p&gt;百度以 Apache 2.0 协议开源文心 5.5 Flash Preview，采用 2800 亿总参数、每 Token 激活 140 亿的 MoE 架构，支持 100 万 Token 上下文，权重已上架 Hugging Face 与 ModelScope。该模型在 AutomationBench 上以 61.9 分超过 Claude Opus 5.5，CodeArena WebDev 以 1668 分位列开源第二，但 Terminal-Bench 4.0 等终端任务仍落后于头部闭源模型。
+
+技术细节方面，模型共 43 层，其中 37 层使用 HCA、6 层使用 MLA+DSA 稀疏注意力，官方解码速度超 200 Token/s。vLLM 团队与百度合作，在发布当天通过 vLLM-ERNIE 插件提供支持，并引入 FlashIndexer 稀疏索引加速与 DSpark 投机解码优化，实现端到端推理加速。基座与后训练权重均以 Apache 2.0 开放，支持 vLLM、SGLang 本地部署，使文心 Flash 系列形成完整开源链条。
+
+行业影响上，此次开源为开发者提供了高性能长上下文 MoE 模型的新选择，尤其在 Agent 与代码生成场景具备竞争力，但终端任务短板也表明其与顶尖闭源模型仍有差距。Apache 2.0 协议与首日推理支持有望降低部署门槛，推动开源生态在稀疏 MoE 架构上的进一步探索。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, vLLM 官方博客, 量子位官网&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 与思科开源 Shirudo 运行时 免重启拦截漏洞攻击</title><link>https://todayforai.com/en/story/story-50bba636-e6b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-50bba636-e6b</guid>
 <pubDate>Tue, 24 Nov 2026 07:28:29 +0800</pubDate>
@@ -46,14 +54,6 @@ Shirudo 的推出为基础设施运维者和安全研究者提供了一种快速
 技术细节上，LingSante-3.1-flash 从预训练阶段即混合医疗与通用数据，将医疗推理、工具调用、检索与临床行为作为独立技能分别用强化学习奖励训练，再通过多教师同策略蒸馏合并为单一模型。官方评测显示其在 HealthBench Professional、HLE、BrowseComp 与 EHR-Complex 上超过 GPT-6 Astra、Claude Opus 5.5 和 Gemini 4 Argon。LingSante-3.1-air-VL 则融合医学影像理解、报告生成、医学推理与多模态检索，在 AFUMED-Derm、AFUMED-Report、MIMIC-CXR 与医学 VQA 四项基准上领先 GPT-6.1 Sol 与 Gemini 3.8 Flash，其强化学习奖励按临床意义、异常定位、误报与漏诊打分，而非模仿报告文风。
 
 同步推出的还有覆盖 150 余项疾病六年风险预测的 Pulse 模型和安全防护模型 MedGuard，形成覆盖大语言、实时音视频、预测与安全防护的四类模型矩阵。蚂蚁提出“模型要像医生一样思考”的训练与评测…&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), AntLing (@AntLingAGI), 量子位官网, IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
-<item><title>百度开源文心 5.5 Flash 2800 亿参数模型</title><link>https://todayforai.com/en/story/story-8899f5da-682</link><guid isPermaLink="true">https://todayforai.com/en/story/story-8899f5da-682</guid>
-<pubDate>Tue, 24 Nov 2026 14:59:54 +0800</pubDate>
-<description>&lt;p&gt;百度以 Apache 2.0 协议开源文心 5.5 Flash Preview，采用 2800 亿总参数、每 Token 激活 140 亿的 MoE 架构，支持 100 万 Token 上下文，权重已上架 Hugging Face 与 ModelScope。该模型在 AutomationBench 上以 61.9 分超过 Claude Opus 5.5，CodeArena WebDev 以 1668 分位列开源第二，但 Terminal-Bench 4.0 等终端任务仍落后于头部闭源模型。
-
-技术细节方面，模型共 43 层，其中 37 层使用 HCA、6 层使用 MLA+DSA 稀疏注意力，官方解码速度超 200 Token/s。vLLM 团队与百度合作，在发布当天通过 vLLM-ERNIE 插件提供支持，并引入 FlashIndexer 稀疏索引加速与 DSpark 投机解码优化，实现端到端推理加速。基座与后训练权重均以 Apache 2.0 开放，支持 vLLM、SGLang 本地部署，使文心 Flash 系列形成完整开源链条。
-
-行业影响上，此次开源为开发者提供了高性能长上下文 MoE 模型的新选择，尤其在 Agent 与代码生成场景具备竞争力，但终端任务短板也表明其与顶尖闭源模型仍有差距。Apache 2.0 协议与首日推理支持有望降低部署门槛，推动开源生态在稀疏 MoE 架构上的进一步探索。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, vLLM 官方博客, 量子位官网&lt;/p&gt;</description>
 </item>
 <item><title>Thinking Machines 开源 26B 循环模型 Inkling 2 Mini</title><link>https://todayforai.com/en/story/story-e7a42b22-638</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e7a42b22-638</guid>
 <pubDate>Tue, 24 Nov 2026 05:39:25 +0800</pubDate>
