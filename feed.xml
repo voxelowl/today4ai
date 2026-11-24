@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Tue, 24 Nov 2026 18:15:57 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 24 Nov 2026 19:26:23 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Anthropic Launches Claude Ship to Let AI Agents Review and Merge PRs</title><link>https://the-decoder.com/anthropics-claude-ship-lets-ai-agents-review-fix-and-approve-pull-requests-on-their-own/</link><guid isPermaLink="true">https://the-decoder.com/anthropics-claude-ship-lets-ai-agents-review-fix-and-approve-pull-requests-on-their-own/</guid>
+<pubDate>Tue, 24 Nov 2026 19:26:23 +0800</pubDate>
+<description>&lt;p&gt;Anthropic released Claude Ship in beta, bundling code review, automated fixes and merge approval into a single agent pipeline. PR Steward reworks drafts when tests fail or reviewers request changes, while Claude Approvals reads a policy file in the repo to decide whether routine changes can be approved by AI alone, enabling end-to-end unattended merges with GitHub auto-merge.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 推出 Claude Ship 让智能体自主审改并合并 PR&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是智能体从辅助编码走向接管代码合并权限的关键一步，直接影响研发流程与权限治理。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 78/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/anthropics-claude-ship-lets-ai-agents-review-fix-and-approve-pull-requests-on-their-own/">The Decoder</source>
+<category>智能体</category>
+<category>代码审查</category>
+<category>Anthropic</category>
+<category>研发流程</category>
+</item>
+<item><title>Samsung and SK Hynix Face 260,000-Worker Shortage for Fab Expansion</title><link>https://www.ithome.com/1/031/801.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/801.htm</guid>
+<pubDate>Tue, 24 Nov 2026 18:43:16 +0800</pubDate>
+<description>&lt;p&gt;Samsung and SK Hynix will need roughly 260,000 specialized construction workers by 2030 to build their next-generation fabs, but long training cycles for precision piping and welding plus an aging workforce make the gap hard to close. South Korea&amp;#x27;s Ministry of Land, Infrastructure and Transport has formed a public-private task force with the chipmakers, contractors and the national land agency to train workers and recruit returning skilled tradespeople and veterans so construction stays on schedule.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;三星与 SK 海力士晶圆厂扩建面临 26 万工人缺口&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;存储扩产的关键瓶颈从资本转向熟练施工人力，直接影响 2030 年量产节奏与全球存储供给预期。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/031/801.htm">IT之家 · IT业界</source>
+<category>半导体</category>
+<category>存储芯片</category>
+<category>晶圆厂</category>
+<category>韩国</category>
+<category>劳动力短缺</category>
+</item>
 <item><title>Ant Group Open-Sources Health Model Predicting 150 Disease Risks Over Six Years</title><link>https://www.qbitai.com/2026/11/512451.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/512451.html</guid>
 <pubDate>Tue, 24 Nov 2026 18:15:57 +0800</pubDate>
 <description>&lt;p&gt;Ant Group&amp;#x27;s Ling announced the open-source health prediction model LingSante Pulse, which unifies EEG, ECG, PPG and EMG signals to forecast the onset risk of 150 disease phenotypes over the next six years. Pretrained on over 150,000 hours of multi-scenario physiological sequences, it raises the count of reliably predictable phenotypes by about 42% over the prior best model, and retains strong prediction for 118 diseases using only ECG and chest-band respiration channels. The technical report and weights are released on GitHub and Hugging Face.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;蚂蚁开源医疗预测模型 可预测六年内 150 种疾病风险&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源可复现的跨信号生理基础模型，把健康预测窗口拉长到六年，对医疗 AI 与可穿戴方向有实质参考价值。&lt;/p&gt;&lt;p&gt;量子位官网 · llm · signal 78/100&lt;/p&gt;</description>
@@ -192,18 +211,18 @@
 <category>开发者工具</category>
 <category>Claude Code</category>
 </item>
-<item><title>Amazon Bedrock Launches Trusted Access API for Model Safety Programs</title><link>https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/</guid>
+<item><title>亚马逊 Bedrock 推出可信访问 API 统一接入模型安全计划</title><link>https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/</link><guid isPermaLink="true">https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/</guid>
 <pubDate>Tue, 24 Nov 2026 13:01:14 +0800</pubDate>
-<description>&lt;p&gt;Amazon Bedrock has released the general availability of its trusted access program API, giving customers a single place to discover, request, and enroll in model providers&amp;#x27; trusted access programs. The first two offerings, Anthropic&amp;#x27;s Enterprise Frontier Safeguards (EFS) and Enterprise Data Controls (EDC), enter public preview across Claude Fable, Mythos, Opus 5.5, and Sonnet 5.5. The mechanism centralizes frontier-model safety monitoring and data retention controls at the Bedrock platform layer.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊 Bedrock 推出可信访问 API 统一接入模型安全计划&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;前沿模型安全合规接入方式出现平台级标准化，对企业采购与部署 Claude 系列有直接影响。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;亚马逊 Bedrock 正式发布可信访问计划 API，让客户在一个入口完成模型供应商可信访问项目的发现、申请与注册。首批上线 Anthropic 的企业前沿安全保障（EFS）与企业数据控制（EDC）公开预览，覆盖 Claude Fable、Mythos、Opus 5.5 与 Sonnet 5.5 等模型。该机制将前沿模型的安全监控策略与数据留存控制统一到 Bedrock 平台侧管理。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;前沿模型安全合规接入方式出现平台级标准化，对企业采购与部署 Claude 系列有直接影响。&lt;/p&gt;&lt;p&gt;AWS Machine Learning Blog · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls/">AWS Machine Learning Blog</source>
 <category>亚马逊 Bedrock</category>
 <category>Anthropic</category>
 <category>企业合规</category>
 <category>模型安全</category>
 </item>
-<item><title>SenseTime Open-Sources SenseNova U1.6 with Native Image Self-Correction</title><link>https://www.ithome.com/1/031/465.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/465.htm</guid>
+<item><title>商汤开源 SenseNova U1.6 多模态模型 支持图像自修正</title><link>https://www.ithome.com/1/031/465.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/465.htm</guid>
 <pubDate>Tue, 24 Nov 2026 12:58:18 +0800</pubDate>
-<description>&lt;p&gt;SenseTime released and open-sourced SenseNova U1.6, a native multimodal model that keeps the unified understanding-generation paradigm and brings native image self-correction to its 8B open model for the first time, letting it draft, self-check against the prompt, and emit a corrected version. Text and layout capabilities were also strengthened, with UltraTextBench dense infographic scores rising from 86.04 to 92.28; weights are open and the model is available on ComfyUI.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;商汤开源 SenseNova U1.6 多模态模型 支持图像自修正&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源 8B 原生多模态模型首次具备图像自修正闭环，且给出可验证的基准提升与权重地址，对多模态生成研究者有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;商汤发布并开源 SenseNova U1.6 原生多模态模型，延续理解与生成统一范式，首次为 8B 开源模型引入原生图像自修正能力，模型可先生成首稿再对照提示自查并输出修正版。文字与版式能力同步加强，UltraTextBench 密集信息图得分从 86.04 提升至 92.28，权重已开源并上线 ComfyUI。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源 8B 原生多模态模型首次具备图像自修正闭环，且给出可验证的基准提升与权重地址，对多模态生成研究者有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/031/465.htm">IT之家 · 智能时代</source>
 <category>多模态模型</category>
 <category>开源</category>
@@ -254,24 +273,6 @@
 <category>多模态</category>
 <category>蚂蚁集团</category>
 <category>智能体</category>
-</item>
-<item><title>OceanBase 发布湖库一体 AI 数据平台并开源核心引擎</title><link>https://www.ithome.com/1/031/365.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/365.htm</guid>
-<pubDate>Tue, 24 Nov 2026 11:35:44 +0800</pubDate>
-<description>&lt;p&gt;蚂蚁 OceanBase 在 11 月 24 日北京 AI 数据大会上发布湖库一体 AI 数据平台 OceanLake，并宣布将核心 AI 数据库引擎向全球开源。CEO 杨冰提出 AI 时代数据基础设施的四大原则：湖库一体、多模融合、Agent 友好、开源开放，将数据层定位为 Agent 基建成熟后的核心瓶颈。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产数据库厂商将核心引擎开源并明确押注 Agent 数据层，是数据基础设施赛道值得关注的路线信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · opensource · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/031/365.htm">IT之家 · 智能时代</source>
-<category>开源</category>
-<category>数据基础设施</category>
-<category>OceanBase</category>
-<category>Agent</category>
-</item>
-<item><title>编码智能体评测揭示 harness 选择对成本影响超过得分</title><link>https://x.com/ArtificialAnlys/status/2125069725977968935</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2125069725977968935</guid>
-<pubDate>Tue, 24 Nov 2026 11:31:19 +0800</pubDate>
-<description>&lt;p&gt;Artificial Analysis 在其 Coding Agent Index v2.1 上推出 Harness Comparisons，固定模型仅更换 harness，对 GPT-6 Luna 与 GLM-5.3-Flash 各测试 13 种 harness。结论是没有任何 harness 在所有模型上都最优，最佳组合因模型而异，且 harness 对成本的影响大于对得分的影响。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次系统量化 harness 与模型的配对效应，为智能体工程选型提供可复用的成本与性能权衡依据。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · agent · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/ArtificialAnlys/status/2125069725977968935">Artificial Analysis (@ArtificialAnlys)</source>
-<category>智能体</category>
-<category>编码智能体</category>
-<category>基准评测</category>
-<category>成本优化</category>
 </item>
 </channel>
 </rss>

@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Tue, 24 Nov 2026 17:21:55 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 24 Nov 2026 19:26:23 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
+<item><title>黄仁勋辞任 11 天后回归英伟达任 CEO</title><link>https://todayforai.com/en/story/story-97c1526e-d94</link><guid isPermaLink="true">https://todayforai.com/en/story/story-97c1526e-d94</guid>
+<pubDate>Tue, 24 Nov 2026 12:14:16 +0800</pubDate>
+<description>&lt;p&gt;英伟达董事会一致投票决定重新任命黄仁勋为总裁、CEO 及董事会成员，距其宣布辞职仅 11 天，董事会称已征询美国财政部等高级官员意见。同期 OpenAI 披露预训练曲线，智谱发布首个循环 Transformer 模型 GLM 5.4，Sierra 估值较去年 100 亿美元翻三倍。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, The Decoder, The Verge AI, Hacker News AI, Rohan Paul (@rohanpaul_ai), TechCrunch AI&lt;/p&gt;</description>
+</item>
 <item><title>智谱发布 GLM-5.4 循环 Transformer 架构落地</title><link>https://todayforai.com/en/story/story-d2145516-db8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d2145516-db8</guid>
 <pubDate>Tue, 24 Nov 2026 17:21:55 +0800</pubDate>
 <description>&lt;p&gt;智谱 AI 正式发布旗舰模型 GLM-5.4，这是其首个基于循环 Transformer 架构的大模型，通过让共享权重层在前向传播中重复执行两次来加深推理，在不增加参数量的前提下达到 2T-3T 参数级模型的智能水平。模型参数规模达 7500 亿，已上线 GLM Coding Plan、ZCode 与 Z.ai Chat，API 与权重将在安全评估后开放。
@@ -11,9 +15,13 @@
 
 对行业而言，GLM-5.4 验证了计算深度扩展路线，为不盲目堆参数的大模型发展提供了新范式。其“泛编程”定位将代码能力外推至视频生成、游戏构建与 3D 建模等场景，有望拓展 AI 编程工具的应用边界。即日起向 Coding Plan 用户全量开放，V2、V3 及团队版用户额度提升至 1.5 倍，周额度用户可用量较 GLM-5.3 提升 50%，将加速其在开发者生态中的渗透。&lt;/p&gt;&lt;p&gt;8 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), IT之家 · 智能时代, Marktechpost (@Marktechpost), Hacker News AI, 智谱 AI 研究, The Decoder&lt;/p&gt;</description>
 </item>
-<item><title>黄仁勋辞任 11 天后回归英伟达任 CEO</title><link>https://todayforai.com/en/story/story-97c1526e-d94</link><guid isPermaLink="true">https://todayforai.com/en/story/story-97c1526e-d94</guid>
-<pubDate>Tue, 24 Nov 2026 12:14:16 +0800</pubDate>
-<description>&lt;p&gt;英伟达董事会一致投票决定重新任命黄仁勋为总裁、CEO 及董事会成员，距其宣布辞职仅 11 天，董事会称已征询美国财政部等高级官员意见。同期 OpenAI 披露预训练曲线，智谱发布首个循环 Transformer 模型 GLM 5.4，Sierra 估值较去年 100 亿美元翻三倍。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, The Decoder, The Verge AI, Hacker News AI, Rohan Paul (@rohanpaul_ai), TechCrunch AI&lt;/p&gt;</description>
+<item><title>Anthropic 推出 Claude Ship 实现代码审查与自动审批</title><link>https://todayforai.com/en/story/story-f3e61143-17c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f3e61143-17c</guid>
+<pubDate>Tue, 24 Nov 2026 19:26:23 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 正式发布 Claude Ship 智能体流水线，将 GitHub PR 流程拆分为代码审查、PR Steward 修复推进与 Claude Approvals 策略审批三个专职智能体，可在无人逐步介入的情况下完成从审查到批准决策的闭环。官方数据显示，Claude Code 团队合并 PR 数量在 6 月至 9 月间翻倍以上，回滚变更占比下降超 40%，单轮审查修复通过率从 65% 升至 78%。
+
+Claude Ship 的核心差异点在于 Claude Approvals 可依据团队预设策略自动批准常规代码变更，策略以自然语言文件形式存入代码仓库，并可结合 Code Review 结果与企业自研分类器信号。PR Steward 能自动处理 CI 失败与合并冲突，并在每次推送后说明改动内容及回滚方式。Code Review 已正式可用，支持 Quick、Standard、Deep 三档审查强度并可升级至人工决策；PR Steward 与 Claude Approvals 仍处于公测阶段，仅限 Team 与 Enterprise 计划的 GitHub 用户。计费按 token 而非按次，官方建议先以观察模式运行并设置月度支出上限。
+
+Claude Ship 直击 AI 生成代码量激增后审查与放行环节的瓶颈，标志着 Claude 从代码评审工具升级为可闭环交付的编码智能体。该产品有望显著提升开发团队的合并效率，但自动审批的准确率与召回率尚未公开，企业需在效率与风险间谨慎权衡。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Marktechpost (@Marktechpost), The Verge AI, TechCrunch AI, The Decoder&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 数学家与 Claude 合作证明黎曼猜想 1700 万行 Lean 代码通过机器核验</title><link>https://todayforai.com/en/story/story-b91caf62-12d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b91caf62-12d</guid>
 <pubDate>Tue, 24 Nov 2026 13:55:12 +0800</pubDate>
@@ -22,14 +30,6 @@
 核验过程采用 Lean 官方内核、con-leche、con-ron 及多个第三方独立检查器交叉验证，五个核心定理仅依赖 propext、Classical.choice、Quot.sound 三条标准公理。MIT 的 Andrew Sutherland 借助 Claude Code 独立验证了 175,187 个模块全部零错误编译，两个独立内核 nanoda 与 con-leche 均接受完整导出证明。社区还借助相对集合论的形式化证明排除了检查器本身接受错误证明的可能，并在惰性导出文件上运行检查以规避源码潜在恶意代码影响。
 
 同日，斯坦福研究者 Alessandro Masullo 发布了一份完全由人类完成的独立竞争性证明稿，数小时内即被 AI 查出问题，形成机器验证与人类审读的鲜明对照。菲尔兹奖得主 James Maynard 表示相信证明正确，但强调数学界全面认可的前提是有人真正理解并能向外解释其思想框架。该成果的真正价值可能在于催生解释素数分布结构的新数学理论，而非猜想本身。若最终成立，这将是 AI 辅助数学与形式化验证领域的里程…&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Latent Space, Hacker News AI, 量子位官网, IT之家 · IT业界, IT之家 · 智能时代, The Verge AI&lt;/p&gt;</description>
-</item>
-<item><title>Anthropic 推出 Claude Ship 实现代码审查与自动审批</title><link>https://todayforai.com/en/story/story-f3e61143-17c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f3e61143-17c</guid>
-<pubDate>Tue, 24 Nov 2026 08:08:36 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 正式发布 Claude Ship 智能体流水线，将 GitHub PR 流程拆分为代码审查、PR Steward 修复推进与 Claude Approvals 策略审批三个专职智能体，可在无人逐步介入的情况下完成从审查到批准决策的闭环。官方数据显示，Claude Code 团队合并 PR 数量在 6 月至 9 月间翻倍以上，回滚变更占比下降超 40%，单轮审查修复通过率从 65% 升至 78%。
-
-Claude Ship 的核心差异点在于 Claude Approvals 可依据团队预设策略自动批准常规代码变更，策略以自然语言文件形式存入代码仓库，并可结合 Code Review 结果与企业自研分类器信号。PR Steward 能自动处理 CI 失败与合并冲突，并在每次推送后说明改动内容及回滚方式。Code Review 已正式可用，支持 Quick、Standard、Deep 三档审查强度并可升级至人工决策；PR Steward 与 Claude Approvals 仍处于公测阶段，仅限 Team 与 Enterprise 计划的 GitHub 用户。计费按 token 而非按次，官方建议先以观察模式运行并设置月度支出上限。
-
-Claude Ship 直击 AI 生成代码量激增后审查与放行环节的瓶颈，标志着 Claude 从代码评审工具升级为可闭环交付的编码智能体。该产品有望显著提升开发团队的合并效率，但自动审批的准确率与召回率尚未公开，企业需在效率与风险间谨慎权衡。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Marktechpost (@Marktechpost), The Verge AI, TechCrunch AI&lt;/p&gt;</description>
 </item>
 <item><title>百度开源文心 5.5 Flash 2800 亿参数模型</title><link>https://todayforai.com/en/story/story-8899f5da-682</link><guid isPermaLink="true">https://todayforai.com/en/story/story-8899f5da-682</guid>
 <pubDate>Tue, 24 Nov 2026 14:59:54 +0800</pubDate>
