@@ -67,6 +67,10 @@ Shirudo 的推出为基础设施运维者和安全研究者提供了一种快速
 
 若被采纳，困惑度将从训练评估指标升级为行业治理的量化锚点，推动 AI 安全监管从各自为政的基准测试转向可比较、可追踪的统一标尺。这不仅为头部实验室提供了共享安全红线的操作基础，也可能影响未来 AI…&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Hacker News AI, TechCrunch AI, OpenAI 官方博客, The Decoder&lt;/p&gt;</description>
 </item>
+<item><title>编码智能体评测揭示 harness 选择对成本影响超过得分</title><link>https://todayforai.com/en/story/story-4b1c2242-486</link><guid isPermaLink="true">https://todayforai.com/en/story/story-4b1c2242-486</guid>
+<pubDate>Tue, 24 Nov 2026 11:31:19 +0800</pubDate>
+<description>&lt;p&gt;Artificial Analysis 在其 Coding Agent Index v2.1 上推出 Harness Comparisons，固定模型仅更换 harness，对 GPT-6 Luna 与 GLM-5.3-Flash 各测试 13 种 harness。结论是没有任何 harness 在所有模型上都最优，最佳组合因模型而异，且 harness 对成本的影响大于对得分的影响。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
+</item>
 <item><title>Ladybird 浏览器发布首个 Alpha 版 自研引擎挑战 Chromium 霸权</title><link>https://todayforai.com/en/story/story-f5746387-c9c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f5746387-c9c</guid>
 <pubDate>Tue, 24 Nov 2026 05:46:35 +0800</pubDate>
 <description>&lt;p&gt;独立浏览器项目 Ladybird 正式发布首个 Alpha 版本，面向 macOS 与 Linux 用户提供直接下载，无需编译源码即可体验。这标志着全球浏览器引擎市场迎来一个从零构建的全新挑战者，其核心引擎完全自研，而非基于 Chromium 或 Gecko 的分支。
@@ -74,14 +78,6 @@ Shirudo 的推出为基础设施运维者和安全研究者提供了一种快速
 据官方信息与 Simon Willison 博客分析，Ladybird 自研了 HTML 解析、CSS 引擎、布局、JavaScript 与 WebAssembly 等核心组件，仅复用 HarfBuzz、Skia、ffmpeg、SQLite 等少数外部库。该项目源自 SerenityOS，采用滚动更新通道，官方坦承当前版本存在兼容性与崩溃问题，并明确不承诺安全性，主动邀请安全研究者进行漏洞挖掘。
 
 Ladybird 的 Alpha 发布是浏览器引擎领域少见的从零构建尝试，打破了 Chromium 与 Gecko 长期主导的格局。尽管早期版本稳定性不足，但其独立技术路线为开发者提供了新的选择，并可能推动浏览器引擎技术的多元化竞争。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, Simon Willison 博客&lt;/p&gt;</description>
-</item>
-<item><title>谷歌用 Gemini 4 智能体团队发现更快量子算法</title><link>https://todayforai.com/en/story/story-af6498af-76c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-af6498af-76c</guid>
-<pubDate>Tue, 24 Nov 2026 06:37:02 +0800</pubDate>
-<description>&lt;p&gt;谷歌 DeepMind 与 Google Quantum AI 团队利用 Gemini 4 智能体团队自动生成并优化量子电路，结合 Lean 形式化定理证明器逐条验证正确性，在聚变能源、药物分子模拟等场景实现 2.5 至 290 倍的资源或速度改进。这是智能体系统首次在硬科学算法发现领域形成可验证的闭环产出。
-
-具体而言，多组 Gemini 4 智能体协同生成量子电路，所有结果必须通过 Lean 形式化验证才会被采纳，有效规避了智能体幻觉风险。在惯性约束聚变场景中，算力成本降低 11.8 倍；细胞色素 P450 模拟所需内存从 481 量子比特降至 333 量子比特；Grover 算法特定实现提速 2.57 倍，反正弦子程序最高提速 290 倍。团队已在 GitHub 开源 Lean 量子算法库、问题定义与验证通过的解决方案，为学界提供可复用样板。
-
-这一成果标志着 AI 智能体与形式化验证结合的科研新范式走向成熟，有望大幅降低量子算法研发门槛，加速量子计算在能源、化学、生物医药等领域的落地应用，并推动社区协作与可复现研究。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Google DeepMind&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
