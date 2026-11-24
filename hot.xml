@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Tue, 24 Nov 2026 20:29:21 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Tue, 24 Nov 2026 21:23:47 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
-<item><title>黄仁勋辞任 11 天后回归英伟达任 CEO</title><link>https://todayforai.com/en/story/story-97c1526e-d94</link><guid isPermaLink="true">https://todayforai.com/en/story/story-97c1526e-d94</guid>
-<pubDate>Tue, 24 Nov 2026 12:14:16 +0800</pubDate>
-<description>&lt;p&gt;英伟达董事会一致投票决定重新任命黄仁勋为总裁、CEO 及董事会成员，距其宣布辞职仅 11 天，董事会称已征询美国财政部等高级官员意见。同期 OpenAI 披露预训练曲线，智谱发布首个循环 Transformer 模型 GLM 5.4，Sierra 估值较去年 100 亿美元翻三倍。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, The Decoder, The Verge AI, Hacker News AI, Rohan Paul (@rohanpaul_ai), TechCrunch AI&lt;/p&gt;</description>
-</item>
 <item><title>智谱发布 GLM-5.4 循环 Transformer 架构落地</title><link>https://todayforai.com/en/story/story-d2145516-db8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d2145516-db8</guid>
 <pubDate>Tue, 24 Nov 2026 17:21:55 +0800</pubDate>
 <description>&lt;p&gt;智谱 AI 正式发布旗舰模型 GLM-5.4，这是其首个基于循环 Transformer 架构的大模型，通过让共享权重层在前向传播中重复执行两次来加深推理，在不增加参数量的前提下达到 2T-3T 参数级模型的智能水平。模型参数规模达 7500 亿，已上线 GLM Coding Plan、ZCode 与 Z.ai Chat，API 与权重将在安全评估后开放。
@@ -14,6 +10,10 @@
 技术细节上，GLM-5.4 复用 28 层基座，第二遍循环复用第一遍的稀疏 KV 与注意力索引，额外仅增加一个滑动窗口的 KV 缓存开销，配合控制门、共享 token 缓存与稀疏注意力机制抑制显存与算力成本。在 30B 等参测试中，循环机制以约 10% 的额外训练算力换来 AIME25 +11.3、GPQA-Diamond +8.7 的提升，同时输出长度下降 11.7% 至 14.9%。模型新增视觉理解能力，支持 1M 上下文，主打“泛编程”，可由代码生成视频、游戏与 CAD 模型。
 
 对行业而言，GLM-5.4 验证了计算深度扩展路线，为不盲目堆参数的大模型发展提供了新范式。其“泛编程”定位将代码能力外推至视频生成、游戏构建与 3D 建模等场景，有望拓展 AI 编程工具的应用边界。即日起向 Coding Plan 用户全量开放，V2、V3 及团队版用户额度提升至 1.5 倍，周额度用户可用量较 GLM-5.3 提升 50%，将加速其在开发者生态中的渗透。&lt;/p&gt;&lt;p&gt;8 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), IT之家 · 智能时代, Marktechpost (@Marktechpost), Hacker News AI, 智谱 AI 研究, The Decoder&lt;/p&gt;</description>
+</item>
+<item><title>黄仁勋辞任 11 天后回归英伟达任 CEO</title><link>https://todayforai.com/en/story/story-97c1526e-d94</link><guid isPermaLink="true">https://todayforai.com/en/story/story-97c1526e-d94</guid>
+<pubDate>Tue, 24 Nov 2026 12:14:16 +0800</pubDate>
+<description>&lt;p&gt;英伟达董事会一致投票决定重新任命黄仁勋为总裁、CEO 及董事会成员，距其宣布辞职仅 11 天，董事会称已征询美国财政部等高级官员意见。同期 OpenAI 披露预训练曲线，智谱发布首个循环 Transformer 模型 GLM 5.4，Sierra 估值较去年 100 亿美元翻三倍。&lt;/p&gt;&lt;p&gt;7 sources&lt;/p&gt;&lt;p&gt;IT之家 · IT业界, The Decoder, The Verge AI, Hacker News AI, Rohan Paul (@rohanpaul_ai), TechCrunch AI&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 推出 Claude Ship 实现代码审查与自动审批</title><link>https://todayforai.com/en/story/story-f3e61143-17c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f3e61143-17c</guid>
 <pubDate>Tue, 24 Nov 2026 19:26:23 +0800</pubDate>
@@ -23,13 +23,29 @@ Claude Ship 的核心差异点在于 Claude Approvals 可依据团队预设策�
 
 Claude Ship 直击 AI 生成代码量激增后审查与放行环节的瓶颈，标志着 Claude 从代码评审工具升级为可闭环交付的编码智能体。该产品有望显著提升开发团队的合并效率，但自动审批的准确率与召回率尚未公开，企业需在效率与风险间谨慎权衡。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Marktechpost (@Marktechpost), The Verge AI, TechCrunch AI, The Decoder&lt;/p&gt;</description>
 </item>
+<item><title>Anthropic 上市次日跌破 83 美元发行价</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
+<pubDate>Tue, 24 Nov 2026 21:23:47 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 以每股 83 美元登陆纳斯达克，募资超 940 亿美元刷新全球 IPO 纪录，但上市次日即跌破发行价，市值回落至约 1 万亿美元附近。
+
+发行价较 70 至 78 美元的初始区间上调 6.4%，公开募股叠加谷歌、英伟达、微软等七巨头 260 亿美元同价私募配售，合计募资超越 SpaceX 保持的 862.5 亿美元纪录。超额认购达 6 倍，散户配售比例提升至 20%，隐含估值约为其 810 亿美元年化收入的 18.5 倍。然而，募资额仅相当于其 9010 亿美元算力承诺的 10.5%，市场对巨额基础设施支出的回报周期存疑。
+
+此次破发为头部 AI 实验室的资本化进程敲响警钟。Anthropic 计划投入 9000 亿美元建设算力基础设施，包括与 SpaceX 每月最高 31 亿美元的数据中心协议，但上市首日高开 33% 后迅速回落，显示公开市场对 AI 高估值与巨额资本开支的审慎态度。作为首家上市的前沿大模型公司，其股价表现将成为 AI 行业估值定价的关键锚点，影响后续 AI 公司的上市节奏与融资环境。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;机器之心 (微信公众号), The Decoder, TechCrunch AI, Anthropic News, GREG ISENBERG (@gregisenberg), Anthropic AI (@AnthropicAI)&lt;/p&gt;</description>
+</item>
 <item><title>Anthropic 数学家与 Claude 合作证明黎曼猜想 1700 万行 Lean 代码通过机器核验</title><link>https://todayforai.com/en/story/story-b91caf62-12d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b91caf62-12d</guid>
-<pubDate>Tue, 24 Nov 2026 13:55:12 +0800</pubDate>
-<description>&lt;p&gt;2026 年 11 月 20 日，Anthropic 数学家 Levent Alpöge 宣布与 Claude 合作完成了悬置 167 年的黎曼猜想证明，并进一步声称覆盖广义黎曼猜想。证明以约 1700 万行 Lean 代码形式提交，经 Lean FRO 与 Mathlib 社区数十人独立复现，确认陈述正确、代码可编译、证明与 Mathlib 陈述一致且有效。这是 AI 首次深度参与顶级数学开放问题的证明，并将形式化验证规模推至千万行量级。
+<pubDate>Tue, 24 Nov 2026 14:27:00 +0800</pubDate>
+<description>&lt;p&gt;2026 年 11 月 20 日，Anthropic 数学家 Levent Alpöge 宣布与 Claude 合作，完成了数学界悬置 167 年的黎曼猜想证明，并以约 1700 万行 Lean 形式化代码交付。Lean FRO 与 Mathlib 社区随后联合认证，该证明通过四项核验：陈述正确、代码可编译、与 Mathlib 陈述一致、证明有效。这是 AI 首次深度参与顶级数学开放问题的证明，并将形式化验证规模推至千万行量级。
 
-核验过程采用 Lean 官方内核、con-leche、con-ron 及多个第三方独立检查器交叉验证，五个核心定理仅依赖 propext、Classical.choice、Quot.sound 三条标准公理。MIT 的 Andrew Sutherland 借助 Claude Code 独立验证了 175,187 个模块全部零错误编译，两个独立内核 nanoda 与 con-leche 均接受完整导出证明。社区还借助相对集合论的形式化证明排除了检查器本身接受错误证明的可能，并在惰性导出文件上运行检查以规避源码潜在恶意代码影响。
+核验过程动用了 Lean 官方内核、con-leche、con-ron 及多个第三方独立检查器交叉验证，并借助相对集合论的形式化证明排除了检查器本身接受错误证明的可能。MIT 的 Andrew Sutherland 使用 Claude Code 进行独立验证，确认 175,187 个模块全部编译通过，五个核心定理仅依赖三条标准公理，两个独立内核 nanoda 与 con-leche 均接受完整导出证明。Alpöge 称该方法可推广至广义黎曼猜想，且论证已在无额外假设下完成形式化。
 
-同日，斯坦福研究者 Alessandro Masullo 发布了一份完全由人类完成的独立竞争性证明稿，数小时内即被 AI 查出问题，形成机器验证与人类审读的鲜明对照。菲尔兹奖得主 James Maynard 表示相信证明正确，但强调数学界全面认可的前提是有人真正理解并能向外解释其思想框架。该成果的真正价值可能在于催生解释素数分布结构的新数学理论，而非猜想本身。若最终成立，这将是 AI 辅助数学与形式化验证领域的里程…&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Latent Space, Hacker News AI, 量子位官网, IT之家 · IT业界, IT之家 · 智能时代, The Verge AI&lt;/p&gt;</description>
+同日，数学家 Alessandro Maria Masullo 发布了耗时 12 年、940 页的纯人类黎曼猜想证明草稿，公开 8 小时后即有研究者借助 AI 报告问题，形成 AI 辅助与人类手稿的鲜明对照。菲尔兹奖得主 James Maynard 表示相信证明正确，但强调数学界全面认可的前提是有人真正理解并能向外解释其思想框架。该成果的真正价值可能在于催生解释素数分布结构的新数学理论，而非猜想本身。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, 量子位 (微信公众号), 宝玉 (@dotey), Hacker News AI, The Decoder, Simon Willison 博客&lt;/p&gt;</description>
+</item>
+<item><title>蚂蚁开源 560B 医疗大模型 124B 多模态版笔记本可跑</title><link>https://todayforai.com/en/story/story-333423b6-a51</link><guid isPermaLink="true">https://todayforai.com/en/story/story-333423b6-a51</guid>
+<pubDate>Tue, 24 Nov 2026 11:05:00 +0800</pubDate>
+<description>&lt;p&gt;蚂蚁集团在 11 月 23 日的阿福医疗健康生态大会上一次性发布五款医疗 AI 模型，并开源其中两款核心基础模型：560B 参数的 LingSante-3.1-flash 和 124B 参数的 LingSante-3.1-air-VL。这是蚂蚁首次集中展示其医疗健康底层技术布局，标志着医疗 AI 从问答工具向管家式服务演进。
+
+旗舰模型 LingSante-3.1-flash 采用 MoE 架构，总参数 560B，每 token 仅激活 25B，支持 100 万 Token 超长上下文，可进行多轮证据检索与核对。官方评测显示，其在 HealthBench Professional、HLE、BrowseComp 和 EHR-Complex 等基准上超越 GPT-6 Astra、Claude Opus 5.5 和 Gemini 4 Argon。训练方法上，蚂蚁从预训练阶段即混合医疗与通用数据，将医疗推理、工具调用、检索与临床行为作为独立技能分别用强化学习训练，再通过多教师同策略蒸馏合并为单一模型。多模态模型 LingSante-3.1-air-VL 总参数 124B，激活参数仅 5.5B，可在笔记本等本地设备部署，融合医学影像理解、报告生成、医学推理与多模态检索能力，在 AFUMED-Derm、AFUMED-Report、MIMIC-CXR 和医学 VQA 四项基准上领先 GPT-6.1 Sol 与 Gemini 3.8 Flash。
+
+同步推出的还有覆盖 150 余项疾病六年风险预测的 Pulse 模型和安全防护模型 MedGuard。蚂蚁提出“模型要像医生一样思考”的训练与评测…&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, 机器之心 (微信公众号), Rohan Paul (@rohanpaul_ai), AntLing (@AntLingAGI), 量子位官网&lt;/p&gt;</description>
 </item>
 <item><title>百度开源文心 5.5 Flash 2800 亿参数模型</title><link>https://todayforai.com/en/story/story-8899f5da-682</link><guid isPermaLink="true">https://todayforai.com/en/story/story-8899f5da-682</guid>
 <pubDate>Tue, 24 Nov 2026 14:59:54 +0800</pubDate>
@@ -54,18 +70,6 @@ Shirudo 的推出为基础设施运维者和安全研究者提供了一种快速
 OceanLake 融合数据库实时事务、数仓分析与数据湖开放存储，实现离在线一体与多模态数据统一治理。其技术方案基于对象存储实现存算分离弹性，以一份数据同时支撑在线读写、实时分析与离线加工。Agent 友好能力依靠逻辑表隔离与秒级数据库分支，支持并行试错与失败回滚，并提供效果观测评测、长期共享记忆与权限治理。多模混合搜索被视为与事务、分析并列的新工作负载，统一管理结构化与非结构化数据。CTO 杨传辉透露，MCP 访问量半年增长约 13 倍带来的架构压力是此次发布的重要背景。
 
 OceanBase 押注多模态数据基础设施的逻辑与当年押注分布式数据库一致。目前其 AI 业务营收已突破 1 亿元，国际化营收占比 15%、增速 100%，研发团队已拆分为传统数据库与 AI 数据两条线。此次开源核心引擎有望降低 AI 数据平台的使用门槛，推动 Agent 生态发展，并加剧数据库厂商在 AI 时代的竞争。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;量子位官网, IT之家 · 智能时代, InfoQ 中文&lt;/p&gt;</description>
-</item>
-<item><title>Anthropic 上市次日跌破 83 美元发行价</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
-<pubDate>Tue, 24 Nov 2026 20:00:57 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 在纳斯达克完成史上最大规模 IPO 后仅数日，盘前股价即跌破 83 美元发行价，最新报 82 美元，较首日 111.50 美元开盘价明显回落。CEO Dario Amodei 于上市次日减持逾 337 万股、套现超 2.8 亿美元，叠加科技股整体回调，加剧了市场对 AI 板块高估值与算力资本开支的担忧。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;GREG ISENBERG (@gregisenberg), IT之家 · IT业界, 新智元 (微信公众号), The Verge AI, 宝玉 (@dotey), 机器之心 (微信公众号)&lt;/p&gt;</description>
-</item>
-<item><title>蚂蚁开源 560B 医疗大模型 124B 多模态版笔记本可跑</title><link>https://todayforai.com/en/story/story-c5def680-01d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-c5def680-01d</guid>
-<pubDate>Mon, 23 Nov 2026 15:42:01 +0800</pubDate>
-<description>&lt;p&gt;蚂蚁集团在阿福医疗健康生态大会上宣布全面开源百灵医疗健康大模型家族，核心包括 560B 总参数、25B 激活的 LingSante-3.1-flash 和 124B 总参数、仅 5.5B 激活的多模态模型 LingSante-3.1-air-VL。前者支持 100 万 Token 上下文，后者可在单台笔记本本地部署，两款模型均采用 MIT 许可在 Hugging Face 放出权重，标志着医疗 AI 从闭源问答走向开源管家式服务。
-
-技术细节上，LingSante-3.1-flash 从预训练阶段即混合医疗与通用数据，将医疗推理、工具调用、检索与临床行为作为独立技能分别用强化学习奖励训练，再通过多教师同策略蒸馏合并为单一模型。官方评测显示其在 HealthBench Professional、HLE、BrowseComp 与 EHR-Complex 上超过 GPT-6 Astra、Claude Opus 5.5 和 Gemini 4 Argon。LingSante-3.1-air-VL 则融合医学影像理解、报告生成、医学推理与多模态检索，在 AFUMED-Derm、AFUMED-Report、MIMIC-CXR 与医学 VQA 四项基准上领先 GPT-6.1 Sol 与 Gemini 3.8 Flash，其强化学习奖励按临床意义、异常定位、误报与漏诊打分，而非模仿报告文风。
-
-同步推出的还有覆盖 150 余项疾病六年风险预测的 Pulse 模型和安全防护模型 MedGuard，形成覆盖大语言、实时音视频、预测与安全防护的四类模型矩阵。蚂蚁提出“模型要像医生一样思考”的训练与评测…&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), AntLing (@AntLingAGI), 量子位官网, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 <item><title>Thinking Machines 开源 26B 循环模型 Inkling 2 Mini</title><link>https://todayforai.com/en/story/story-e7a42b22-638</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e7a42b22-638</guid>
 <pubDate>Tue, 24 Nov 2026 05:39:25 +0800</pubDate>
