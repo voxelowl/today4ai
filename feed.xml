@@ -1,8 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Wed, 25 Nov 2026 02:55:12 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 25 Nov 2026 03:23:44 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Grafana Patches Multiple CVEs Across Five Release Branches</title><link>https://grafana.com/grafana/download</link><guid isPermaLink="true">https://grafana.com/grafana/download</guid>
+<pubDate>Wed, 25 Nov 2026 03:23:44 +0800</pubDate>
+<description>&lt;p&gt;Grafana Labs released coordinated security fixes across five release branches (12.4.16, 13.0.14, 13.1.11, 13.2.7 and 13.3.2) to address multiple CVEs. This is a routine security patch for the widely deployed observability platform, and operators running affected versions should upgrade promptly.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Grafana 多版本修复多个 CVE 漏洞&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;广泛部署的可观测性平台集中修复多个 CVE，对运维与平台团队有直接升级价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
+<source url="https://grafana.com/grafana/download">Hacker News AI</source>
+<category>Grafana</category>
+<category>安全漏洞</category>
+<category>可观测性</category>
+</item>
+<item><title>Anthropic Tops 700 Million Monthly MCP Downloads, Expands Agent Protocol</title><link>https://the-decoder.com/anthropic-tops-700-million-monthly-mcp-sdk-downloads-and-expands-the-protocol-for-more-autonomous-ai-agents/</link><guid isPermaLink="true">https://the-decoder.com/anthropic-tops-700-million-monthly-mcp-sdk-downloads-and-expands-the-protocol-for-more-autonomous-ai-agents/</guid>
+<pubDate>Wed, 25 Nov 2026 03:23:41 +0800</pubDate>
+<description>&lt;p&gt;Anthropic says its MCP standard now exceeds 700 million monthly SDK downloads and 10,000 connectors for Claude, two years after launch. The protocol adds generally available Tasks and Elicitation features plus inter-agent communication, letting MCP servers run longer jobs independently and coordinate workflows.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic MCP 月下载破 7 亿并扩展智能体协作&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;MCP 已成为智能体工具调用的事实标准，7 亿月下载量与协议级新能力直接决定后续 Agent 生态的架构走向。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 78/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/anthropic-tops-700-million-monthly-mcp-sdk-downloads-and-expands-the-protocol-for-more-autonomous-ai-agents/">The Decoder</source>
+<category>智能体</category>
+<category>Anthropic</category>
+<category>MCP</category>
+<category>协议标准</category>
+</item>
+<item><title>Protocolis Compiler Turns Web Pages into Typed Agent Operations</title><link>https://protocolis.co/paper/</link><guid isPermaLink="true">https://protocolis.co/paper/</guid>
+<pubDate>Wed, 25 Nov 2026 03:12:02 +0800</pubDate>
+<description>&lt;p&gt;Protocolis introduces \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Protocolis 编译器让网页操作免去模型推理&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该方案把网页操作从逐步模型读页转为编译式类型化执行，直击 Web Agent 成本与可靠性痛点，且已进入生产环境。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 72/100&lt;/p&gt;</description>
+<source url="https://protocolis.co/paper/">Hacker News AI</source>
+<category>Web Agent</category>
+<category>编译器</category>
+<category>智能体</category>
+<category>arXiv</category>
+</item>
+<item><title>Cloudflare Masks Origin Server Gaps in IPv6 and Encryption</title><link>https://charlie.fish/posts/2026/11/what-cloudflare-doesnt-tell-you/</link><guid isPermaLink="true">https://charlie.fish/posts/2026/11/what-cloudflare-doesnt-tell-you/</guid>
+<pubDate>Wed, 25 Nov 2026 03:03:55 +0800</pubDate>
+<description>&lt;p&gt;Cloudflare&amp;#x27;s edge supports TLS, IPv6 and post-quantum encryption, but its connections back to origin servers may still be plaintext or IPv4-only, creating a stark mismatch between what users see and the actual origin reality. The author argues Cloudflare&amp;#x27;s dashboard should proactively flag these gaps, positioning the company as a catalyst for modernizing the internet rather than an enabler of indefinite stagnation.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Cloudflare 掩盖源站 IPv4 与明文传输短板&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;从边缘与源站能力落差切入，揭示 CDN 透明度缺失对互联网基础设施现代化的实质影响。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 42/100&lt;/p&gt;</description>
+<source url="https://charlie.fish/posts/2026/11/what-cloudflare-doesnt-tell-you/">Hacker News AI</source>
+<category>Cloudflare</category>
+<category>网络安全</category>
+<category>IPv6</category>
+<category>后量子加密</category>
+<category>CDN</category>
+</item>
 <item><title>OpenAI Publishes 722 Model-Generated Math Manuscripts</title><link>https://github.com/openai/math/tree/main/preprints/VP-and-VNP-are-different-November-23-2026</link><guid isPermaLink="true">https://github.com/openai/math/tree/main/preprints/VP-and-VNP-are-different-November-23-2026</guid>
 <pubDate>Wed, 25 Nov 2026 02:55:12 +0800</pubDate>
 <description>&lt;p&gt;OpenAI has released a repository of 722 mathematical manuscripts grouped into 374 families, produced by an unnamed internal model on open research problems, with some results backed by Lean formalizations. OpenAI frames them as raw research data rather than polished papers, concedes unformalized results may contain errors, and defers credit and precedence entirely to the math community.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 公开 722 篇模型产出数学手稿&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是大模型直接冲击原创数学研究生产方式的标志性事件，规模与形式化验证策略均值得持续关注。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 88/100&lt;/p&gt;</description>
@@ -110,6 +146,15 @@
 <category>流媒体</category>
 <category>版权</category>
 </item>
+<item><title>Anthropic Accuses Customer of Distillation, Gives Developer 24 Hours to Prove Innocence</title><link>https://news.ycombinator.com/item?id=50630809</link><guid isPermaLink="true">https://news.ycombinator.com/item?id=50630809</guid>
+<pubDate>Wed, 25 Nov 2026 00:45:44 +0800</pubDate>
+<description>&lt;p&gt;A developer says Anthropic has accused his company of using its API to distill models, despite the company not training any models of its own; the only suspicious activity was automated regression benchmarks run when AI settings change. Anthropic gave a 24-hour deadline to prove innocence, raising the question of how to do so without violating user privacy. The case highlights the blurred line between anti-distillation terms and routine engineering testing.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 指控客户蒸馏模型 开发者 24 小时内自证清白&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部模型厂商反蒸馏执法与正常工程测试的冲突，对依赖闭源 API 的团队具有直接警示价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://news.ycombinator.com/item?id=50630809">Hacker News AI</source>
+<category>Anthropic</category>
+<category>模型蒸馏</category>
+<category>API 政策</category>
+<category>开发者合规</category>
+</item>
 <item><title>NVIDIA Releases Sim2Real Obstacle Avoidance Workflow for Microduck</title><link>https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance</link><guid isPermaLink="true">https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance</guid>
 <pubDate>Wed, 25 Nov 2026 00:34:13 +0800</pubDate>
 <description>&lt;p&gt;An NVIDIA team built a Sim2Real workflow for local obstacle avoidance on Pollen Robotics&amp;#x27; Microduck quadruped using Isaac Lab and the Newton physics engine. The approach keeps the existing locomotion policy fixed, assembles varied training courses from reusable SimReady assets, and models ToF sensing via Newton&amp;#x27;s raycaster to train a controller that transfers to real hardware.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达开源 Microduck 避障 Sim2Real 工作流&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了具身智能中传感器仿真与策略解耦的完整 Sim2Real 工程范式，对机器人开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hugging Face Blog · agent · signal 58/100&lt;/p&gt;</description>
@@ -181,27 +226,27 @@
 <category>开源工具</category>
 <category>私有化部署</category>
 </item>
-<item><title>Trump and Silicon Valley Pressure Nvidia to Reinstate Jensen Huang</title><link>https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/</link><guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/</guid>
+<item><title>特朗普与硅谷施压 黄仁勋重返英伟达</title><link>https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/</link><guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/</guid>
 <pubDate>Tue, 24 Nov 2026 22:56:50 +0800</pubDate>
-<description>&lt;p&gt;Nvidia CEO Jensen Huang was dramatically reinstated less than two weeks after resigning over a scandal, after President Donald Trump pressured the board and Silicon Valley allies lobbied intensively. Backers argued Huang is personally integral to the US AI industry and stock market, but the reversal raises serious questions about corporate governance and the board&amp;#x27;s judgment.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;特朗普与硅谷施压 黄仁勋重返英伟达&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球最重要 AI 芯片公司 CEO 在政治与产业力量干预下闪电复职，是观察 AI 产业与政商关系的关键事件。&lt;/p&gt;&lt;p&gt;Ars Technica AI · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;英伟达 CEO 黄仁勋因丑闻辞职不到两周便戏剧性复职，董事会是在特朗普总统直接施压与硅谷盟友密集游说下作出逆转决定。支持者称黄仁勋个人对美国 AI 产业与股市稳定不可或缺，但此举引发对公司治理与董事会判断力的严重质疑。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球最重要 AI 芯片公司 CEO 在政治与产业力量干预下闪电复职，是观察 AI 产业与政商关系的关键事件。&lt;/p&gt;&lt;p&gt;Ars Technica AI · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/">Ars Technica AI</source>
 <category>英伟达</category>
 <category>黄仁勋</category>
 <category>公司治理</category>
 <category>AI 产业</category>
 </item>
-<item><title>Anthropic Researcher Defends AI-Assisted Riemann Proof Amid Backlash</title><link>https://the-decoder.com/anthropic-researcher-stands-by-his-ai-assisted-riemann-proof-but-owns-up-to-stupid-things-in-the-rollout/</link><guid isPermaLink="true">https://the-decoder.com/anthropic-researcher-stands-by-his-ai-assisted-riemann-proof-but-owns-up-to-stupid-things-in-the-rollout/</guid>
+<item><title>Anthropic 研究员回应 AI 辅助黎曼证明争议</title><link>https://the-decoder.com/anthropic-researcher-stands-by-his-ai-assisted-riemann-proof-but-owns-up-to-stupid-things-in-the-rollout/</link><guid isPermaLink="true">https://the-decoder.com/anthropic-researcher-stands-by-his-ai-assisted-riemann-proof-but-owns-up-to-stupid-things-in-the-rollout/</guid>
 <pubDate>Tue, 24 Nov 2026 22:28:41 +0800</pubDate>
-<description>&lt;p&gt;Anthropic researcher Levent Alpöge stands by the mathematical validity of his AI-assisted proof of the generalized Riemann hypothesis, whose Lean code has passed formal verification, but concedes multiple rollout missteps: the code was published uncleaned and packed with redundant steps and unnecessary lemmas, and his remarks on the proof&amp;#x27;s length were meant as a joke. He calls the criticism of his presentation fair and notes that a successful compile alone does not prove the Lean code states the right theorem without hidden assumptions.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 研究员回应 AI 辅助黎曼证明争议&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 辅助数学证明是前沿交叉领域，该事件涉及形式化验证的可信边界与发布规范，对关注 AI for Science 的读者有实质参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 研究员 Levent Alpöge 坚持其 AI 辅助广义黎曼假设证明的数学有效性，Lean 代码已通过形式化验证，但他承认发布过程存在多处失误：代码未经清理、充斥冗余步骤与无用引理，关于证明长度的说法只是玩笑。他承认外界对发布方式的批评合理，并指出仅靠编译成功并不能证明 Lean 代码准确陈述了定理且无隐藏假设。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 辅助数学证明是前沿交叉领域，该事件涉及形式化验证的可信边界与发布规范，对关注 AI for Science 的读者有实质参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 72/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/anthropic-researcher-stands-by-his-ai-assisted-riemann-proof-but-owns-up-to-stupid-things-in-the-rollout/">The Decoder</source>
 <category>AI for Science</category>
 <category>形式化验证</category>
 <category>Anthropic</category>
 <category>黎曼假设</category>
 </item>
-<item><title>OpenAI and Cisco Open-Source Shirudo Runtime to Shield Live Systems via eBPF</title><link>https://x.com/Marktechpost/status/2125233043657150537</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2125233043657150537</guid>
+<item><title>OpenAI 与思科开源 Shirudo 运行时 用 eBPF 盾牌热补漏洞</title><link>https://x.com/Marktechpost/status/2125233043657150537</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2125233043657150537</guid>
 <pubDate>Tue, 24 Nov 2026 22:20:17 +0800</pubDate>
-<description>&lt;p&gt;OpenAI and Cisco&amp;#x27;s Isovalent have open-sourced Shirudo, a Linux runtime that lets AI agents write signed eBPF programs to block the exact code path an exploit needs while official patches are still being tested. In a controlled test, a Codex-generated guard stopped the critical Java4Shell flaw on a live Elasticsearch node without a restart, though the approach requires a bpf-next kernel plus five out-of-tree patches and reports only one test with no overhead figures.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 与思科开源 Shirudo 运行时 用 eBPF 盾牌热补漏洞&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是智能体直接介入系统安全运维的新范式，且由 OpenAI 与思科联合开源，具备明确技术路径与真实漏洞验证。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · agent · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 与思科旗下 Isovalent 联合开源 Linux 运行时 Shirudo，让 AI 智能体以代码形式编写签名 eBPF 程序，在正式补丁测试期间阻断漏洞利用路径。受控测试中，Codex 生成的防护程序在无需重启的情况下拦截了 Elasticsearch 节点上的 Java4Shell 高危漏洞，但方案依赖 bpf-next 内核与额外补丁，且仅披露单一测试、缺少性能开销数据。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是智能体直接介入系统安全运维的新范式，且由 OpenAI 与思科联合开源，具备明确技术路径与真实漏洞验证。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · agent · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/Marktechpost/status/2125233043657150537">Marktechpost (@Marktechpost)</source>
 <category>智能体</category>
 <category>eBPF</category>
@@ -209,68 +254,24 @@
 <category>开源</category>
 <category>OpenAI</category>
 </item>
-<item><title>ASRock Industrial and Intel Launch RBK-100 Physical AI Dev Platform</title><link>https://www.ithome.com/1/031/880.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/880.htm</guid>
+<item><title>东擎联合英特尔推出物理 AI 开发平台 RBK-100</title><link>https://www.ithome.com/1/031/880.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/880.htm</guid>
 <pubDate>Tue, 24 Nov 2026 22:15:00 +0800</pubDate>
-<description>&lt;p&gt;ASRock Industrial and Intel have launched RBK-100, a Robotics-in-a-Box platform that bundles a NUC BOX-358H mini PC, an RGB-D depth camera, a six-axis master-slave robotic arm and AiRoboStarter software into an out-of-the-box robotics development kit. It ships with 32GB DDR5 memory (64GB optional) and covers the full workflow from demonstration recording and dataset inspection to model training and skill execution, supporting ACT and Pi0.5 model pipelines.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;东擎联合英特尔推出物理 AI 开发平台 RBK-100&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向具身智能开发者的软硬一体套件，降低了机器人模仿学习工作流的入门门槛，但属于厂商绑定的集成方案，技术增量有限。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;东擎联合英特尔发布 RBK-100 整合式物理 AI 开发平台，将 NUC BOX-358H 迷你主机、RGB-D 深度摄像头、6 轴主从机械手与 AiRoboStarter 软件打包为开箱即用的机器人开发套件。平台标配 32GB DDR5 内存，可选 64GB 版本，覆盖示范动作录制、数据集检视、模型训练到技能执行的完整流程，并支持 ACT 与 Pi0.5 模型工作流。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向具身智能开发者的软硬一体套件，降低了机器人模仿学习工作流的入门门槛，但属于厂商绑定的集成方案，技术增量有限。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 38/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/031/880.htm">IT之家 · 智能时代</source>
 <category>具身智能</category>
 <category>开发平台</category>
 <category>英特尔</category>
 <category>东擎</category>
 </item>
-<item><title>OpenAI and Anthropic Insiders Doubt Control of Unreleased Models</title><link>https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures/</link><guid isPermaLink="true">https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures/</guid>
+<item><title>OpenAI 与 Anthropic 内部担忧未发布模型失控</title><link>https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures/</link><guid isPermaLink="true">https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures/</guid>
 <pubDate>Tue, 24 Nov 2026 22:02:31 +0800</pubDate>
-<description>&lt;p&gt;Citing more than two dozen insiders, Axios reports that unreleased frontier models at OpenAI and Anthropic have grown capable enough that many employees no longer believe they can be safely controlled. Both companies are reportedly debating internally whether to delay or halt release, marking a shift from theoretical safety debate to real deployment decisions.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 与 Anthropic 内部担忧未发布模型失控&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是前沿实验室内部对模型能力超越安全护栏的罕见公开信号，直接关系到下一代模型的发布节奏与行业监管走向。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;据 Axios 援引超过二十名内部人士报道，OpenAI 与 Anthropic 尚未发布的前沿模型能力已超出其现有安全管控手段，许多员工不再相信这些系统能够被安全地控制。两家公司内部正在讨论是否应推迟甚至叫停发布，这标志着前沿实验室的安全治理正从理论讨论转向真实的发布决策压力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是前沿实验室内部对模型能力超越安全护栏的罕见公开信号，直接关系到下一代模型的发布节奏与行业监管走向。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures/">The Decoder</source>
 <category>AI 安全</category>
 <category>OpenAI</category>
 <category>Anthropic</category>
 <category>前沿模型</category>
 <category>行业动态</category>
-</item>
-<item><title>英伟达盘前跌超 5% 黄仁勋回归行情熄火</title><link>https://www.ithome.com/1/031/872.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/872.htm</guid>
-<pubDate>Tue, 24 Nov 2026 21:40:02 +0800</pubDate>
-<description>&lt;p&gt;英伟达股价在盘前交易中下跌 5.2%，此前一个交易日因黄仁勋回归 CEO 职位而暴涨 31.5%、市值增加超 9520 亿美元。市场关注点从短期业务风险转向董事会独立性、白宫干预公司治理等政治与法律层面的长期不确定性。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;英伟达作为 AI 算力核心标的，其管理层剧变与治理风险直接牵动整个 AI 生态与资本市场情绪。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/031/872.htm">IT之家 · IT业界</source>
-<category>英伟达</category>
-<category>公司治理</category>
-<category>AI 芯片</category>
-<category>资本市场</category>
-</item>
-<item><title>Anthropic 上市首日盘前跌破 83 美元发行价</title><link>https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading</link><guid isPermaLink="true">https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading</guid>
-<pubDate>Tue, 24 Nov 2026 21:23:47 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 完成 IPO 后，其股票在盘前交易中跌破 83 美元发行价，成为这家前沿模型公司上市后的首个市场压力信号。破发意味着公开市场对 Anthropic 的估值定价与私募阶段存在分歧，也为其他等待上市的大模型公司提供了关键参照。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部大模型公司 IPO 破发是 AI 产业资本化进程的标志性事件，直接影响行业估值锚与后续融资节奏。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 72/100&lt;/p&gt;</description>
-<source url="https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading">Hacker News AI</source>
-<category>Anthropic</category>
-<category>IPO</category>
-<category>估值</category>
-<category>资本市场</category>
-</item>
-<item><title>美国数据中心自建逾 100 座燃气电厂</title><link>https://www.technologyreview.com/2026/11/24/1149669/the-download-data-centers-gas-ai-consciousness/</link><guid isPermaLink="true">https://www.technologyreview.com/2026/11/24/1149669/the-download-data-centers-gas-ai-consciousness/</guid>
-<pubDate>Tue, 24 Nov 2026 21:10:00 +0800</pubDate>
-<description>&lt;p&gt;并网审批可能长达十年，迫使美国数据中心开发商转向自建离网燃气电厂，截至 2026 年 10 月已宣布逾 100 座此类项目。这一绕开电网的做法虽能加速 AI 算力落地，却会加剧碳排放并可能推高其他用户的电费。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示 AI 算力扩张与电网瓶颈、气候成本之间的结构性矛盾，是理解数据中心基础设施走向的关键信号。&lt;/p&gt;&lt;p&gt;MIT Technology Review · compute · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.technologyreview.com/2026/11/24/1149669/the-download-data-centers-gas-ai-consciousness/">MIT Technology Review</source>
-<category>数据中心</category>
-<category>算力基础设施</category>
-<category>能源</category>
-</item>
-<item><title>德国 40 位学者倡议计算机科学升级为计算机与 AI 科学</title><link>https://the-decoder.com/german-researchers-call-for-computer-science-to-reinvent-itself-as-computer-and-ai-science/</link><guid isPermaLink="true">https://the-decoder.com/german-researchers-call-for-computer-science-to-reinvent-itself-as-computer-and-ai-science/</guid>
-<pubDate>Tue, 24 Nov 2026 20:30:49 +0800</pubDate>
-<description>&lt;p&gt;达姆施塔特工业大学 40 位研究者发布立场文件，主张计算机科学应升级为“计算机与 AI 科学”，认为生成式 AI 让该学科更重要而非被取代。他们指出工作重心正从手写代码转向验证与指挥 AI 生成系统，并提出“生成式计算”对现有安全保障构成挑战，呼吁课程体系根本性改革并加强能效与社会责任。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自欧洲高校的集体学科倡议，反映 AI 对计算机科学教育与研究范式的结构性冲击，值得关注学科走向的读者一读。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 52/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/german-researchers-call-for-computer-science-to-reinvent-itself-as-computer-and-ai-science/">The Decoder</source>
-<category>计算机科学</category>
-<category>AI 教育</category>
-<category>生成式计算</category>
-<category>学术倡议</category>
-</item>
-<item><title>亚马逊披露黑客 AI 智能体自主发现并利用 0-day 漏洞</title><link>https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/</link><guid isPermaLink="true">https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/</guid>
-<pubDate>Tue, 24 Nov 2026 20:30:05 +0800</pubDate>
-<description>&lt;p&gt;亚马逊安全团队披露，攻击者利用开源 AI 渗透测试框架 Cairn 驱动智能体，仅给出 IP 列表与“获取 shell 权限”的简单指令，智能体便自主发现并利用某东亚高校服务器上开源医学影像 AI 应用的 0-day 漏洞，取得系统完全控制权。这是首次有公开证据显示智能体攻击已具备端到端自主发现与利用漏洞的能力，防御方需应对其速度与持续性。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次公开证实 AI 智能体可端到端自主完成 0-day 发现与利用，是攻防范式转变的标志性事件。&lt;/p&gt;&lt;p&gt;Ars Technica AI · agent · signal 88/100&lt;/p&gt;</description>
-<source url="https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/">Ars Technica AI</source>
-<category>AI 安全</category>
-<category>智能体</category>
-<category>0-day 漏洞</category>
-<category>渗透测试</category>
 </item>
 </channel>
 </rss>
