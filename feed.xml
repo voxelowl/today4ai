@@ -1,8 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Wed, 25 Nov 2026 03:23:44 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 25 Nov 2026 09:24:00 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>METR Finds OpenAI Base Models Cutting Prediction Error 7x Faster</title><link>https://x.com/rohanpaul_ai/status/2125400074322895282</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125400074322895282</guid>
+<pubDate>Wed, 25 Nov 2026 09:24:00 +0800</pubDate>
+<description>&lt;p&gt;METR, analyzing OpenAI&amp;#x27;s published pretraining loss for 13 frontier models since GPT-3.5, finds log-perplexity has fallen roughly 7x faster since early 2026 than over 2022-2025. At that pace, the three-year GPT-3.5-to-GPT-4.1 gain would repeat in about 6.5 months, implying 8-10x faster effective compute growth. OpenAI credits long-term research and compute, while acknowledging AI made meaningful design contributions; METR separately estimates about 80% of Anthropic&amp;#x27;s October 2026 R&amp;amp;D acceleration came from AI.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;METR 发现 OpenAI 基础模型预测误差下降提速 7 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次以公开预训练损失量化 AI 研发自身的加速，是判断递归自我改进节奏的关键实证。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2125400074322895282">Rohan Paul (@rohanpaul_ai)</source>
+<category>模型评估</category>
+<category>研发加速</category>
+<category>OpenAI</category>
+<category>METR</category>
+</item>
+<item><title>Anthropic Breaks IPO Price as Market Value Sheds Nearly $200B</title><link>https://x.com/rohanpaul_ai/status/2125378974796955934</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125378974796955934</guid>
+<pubDate>Wed, 25 Nov 2026 08:00:09 +0800</pubDate>
+<description>&lt;p&gt;Anthropic fell below its $83 IPO price on debut, closing down 12.6% at $76.60 and shedding nearly $200B in market value as it slid from a brief $2T peak to roughly $1.5T. Underwriters exercised the extra-share option, lifting gross proceeds to a record $93.5B while removing potential price support, and lock-up terms let some insiders sell from day one. The stock now trades at about 40X trailing 12-month sales, leaving substantial valuation risk.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 上市首日破发 市值蒸发近 2000 亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 头部公司 IPO 首日破发与创纪录募资规模，是观察一级市场估值与二级市场承接力的关键信号。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 88/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2125378974796955934">Rohan Paul (@rohanpaul_ai)</source>
+<category>IPO</category>
+<category>Anthropic</category>
+<category>估值</category>
+<category>资本市场</category>
+</item>
+<item><title>Viktor Code Turns AI Agent Into a Full PR Workflow Owner</title><link>https://x.com/rohanpaul_ai/status/2125376951699615970</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125376951699615970</guid>
+<pubDate>Wed, 25 Nov 2026 07:52:07 +0800</pubDate>
+<description>&lt;p&gt;Viktor has launched Viktor Code, upgrading its AI agent, already used by over 80,000 teams on Slack and Microsoft Teams, into a coding agent that can be briefed directly in a chat thread. The agent watches automated checks, returns when a check fails or a reviewer requests changes, supports merging from chat, and keeps tracking errors after merge to ship follow-up fixes. The author argues the real bottleneck in AI coding has shifted from writing code to reviewing and merging it.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Viktor Code 让 AI 智能体接管 PR 全流程&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了 AI 编码智能体从生成代码延伸到审查、合并与修复闭环的工程实践方向。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2125376951699615970">Rohan Paul (@rohanpaul_ai)</source>
+<category>AI 编码</category>
+<category>智能体</category>
+<category>开发者工具</category>
+</item>
+<item><title>Arena Benchmarks Decision-Dodging Across 20 Agent Models</title><link>https://x.com/arena/status/2125323227849252924</link><guid isPermaLink="true">https://x.com/arena/status/2125323227849252924</guid>
+<pubDate>Wed, 25 Nov 2026 04:18:38 +0800</pubDate>
+<description>&lt;p&gt;Arena.ai introduces \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Arena 实测 20 款智能体模型决策回避率&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次以量化方式横向对比主流智能体的自主决策倾向，对智能体产品选型与评测体系有直接参考价值。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · agent · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/arena/status/2125323227849252924">Arena.ai (@arena)</source>
+<category>智能体</category>
+<category>模型评测</category>
+<category>Arena.ai</category>
+<category>自主性</category>
+</item>
 <item><title>Grafana Patches Multiple CVEs Across Five Release Branches</title><link>https://grafana.com/grafana/download</link><guid isPermaLink="true">https://grafana.com/grafana/download</guid>
 <pubDate>Wed, 25 Nov 2026 03:23:44 +0800</pubDate>
 <description>&lt;p&gt;Grafana Labs released coordinated security fixes across five release branches (12.4.16, 13.0.14, 13.1.11, 13.2.7 and 13.3.2) to address multiple CVEs. This is a routine security patch for the widely deployed observability platform, and operators running affected versions should upgrade promptly.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Grafana 多版本修复多个 CVE 漏洞&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;广泛部署的可观测性平台集中修复多个 CVE，对运维与平台团队有直接升级价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
@@ -66,6 +101,15 @@
 <category>Anthropic</category>
 <category>AI 估值</category>
 <category>资本市场</category>
+</item>
+<item><title>Arena.ai Launches Dedicated 3D Leaderboard in Code Arena</title><link>https://x.com/arena/status/2125290119271772222</link><guid isPermaLink="true">https://x.com/arena/status/2125290119271772222</guid>
+<pubDate>Wed, 25 Nov 2026 02:07:05 +0800</pubDate>
+<description>&lt;p&gt;Arena.ai has added a dedicated 3D leaderboard to Code Arena, ranking models separately on real-world 3D tasks such as games, explorable worlds and interactive simulations based on global community votes. Claude Fable 5.2 (xHigh) tops the debut list at 1933 points, followed by Claude Opus 5.5 (Max) and GPT-6.2 Sol (Max). Arena notes some models score higher in 3D than in the overall Code Arena ranking, signaling 3D as a distinct evaluation axis.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Arena.ai 推出 Code Arena 3D 模型排行榜&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流模型竞技场新增 3D 专项评测维度，为观察模型空间与交互生成能力提供了新的横向参照。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/arena/status/2125290119271772222">Arena.ai (@arena)</source>
+<category>模型评测</category>
+<category>3D 生成</category>
+<category>Arena.ai</category>
+<category>代码模型</category>
 </item>
 <item><title>UK Warns AI Hacking Tools Rapidly Exploit Years-Old Flaws</title><link>https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/</guid>
 <pubDate>Wed, 25 Nov 2026 02:02:59 +0800</pubDate>
@@ -164,6 +208,14 @@
 <category>Isaac Lab</category>
 <category>四足机器人</category>
 </item>
+<item><title>Arena.ai Launches Agent Arena Index for Agent Performance</title><link>https://x.com/arena/status/2125261827588194782</link><guid isPermaLink="true">https://x.com/arena/status/2125261827588194782</guid>
+<pubDate>Wed, 25 Nov 2026 00:14:39 +0800</pubDate>
+<description>&lt;p&gt;Arena.ai introduced the Agent Arena Index, a headline measure of overall agent performance built on four real-world signals: task completion, praise versus complaint, steerability, and Bash reliability. The index aims to give agents a unified, comparable benchmark, though the exact weighting and data sources are not fully detailed in this post.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Arena.ai 推出智能体综合性能指数&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;智能体评测标准是当前生态的关键基础设施，该指数提出多维真实信号框架，值得关注。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · agent · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/arena/status/2125261827588194782">Arena.ai (@arena)</source>
+<category>智能体</category>
+<category>评测基准</category>
+<category>Arena.ai</category>
+</item>
 <item><title>Tidal Bans AI-Generated Music From Its Platform</title><link>https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/</link><guid isPermaLink="true">https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/</guid>
 <pubDate>Wed, 25 Nov 2026 00:12:38 +0800</pubDate>
 <description>&lt;p&gt;Music streaming platform Tidal is banning AI-generated music, requiring artists to label tracks as AI-generated or AI-assisted and demonetizing AI songs tied to fraudulent activity such as impersonating established artists or deceiving listeners. The move marks a concrete governance step by a streaming platform on authenticity and rights issues around generative AI content.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Tidal 全面禁止 AI 生成音乐上架&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;流媒体平台首次以标注加禁售加取消变现的组合规则治理 AI 音乐，对关注生成式 AI 内容合规的读者有实质参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 58/100&lt;/p&gt;</description>
@@ -173,105 +225,50 @@
 <category>流媒体</category>
 <category>版权</category>
 </item>
-<item><title>Mason Launches Columnar Postgres Read Replica with 81x Faster Analytics</title><link>https://masondata.ai/</link><guid isPermaLink="true">https://masondata.ai/</guid>
+<item><title>Mason 发布列式存储 Postgres 只读副本，分析查询提速 81 倍</title><link>https://masondata.ai/</link><guid isPermaLink="true">https://masondata.ai/</guid>
 <pubDate>Wed, 25 Nov 2026 00:11:52 +0800</pubDate>
-<description>&lt;p&gt;Mason introduces a lightweight Postgres read replica built on DuckDB&amp;#x27;s columnar engine, running as a single Node.js process that rewrites Postgres queries into DuckDB-optimized forms. In a 10M-row aggregation benchmark, query time dropped from 15.7s on the primary to 0.193s, an 81x speedup with identical results.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Mason 发布列式存储 Postgres 只读副本，分析查询提速 81 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为分析型负载提供云厂商无关的 Postgres 兼容加速方案，实测数据明确且部署极轻。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Mason 推出基于 DuckDB 列式引擎的轻量级 Postgres 只读副本，以单个 Node.js 进程运行，自动将 Postgres 查询改写为 DuckDB 高效执行形式。在 1000 万行聚合查询基准中，耗时从主库的 15.7 秒降至 0.193 秒，提速 81 倍且结果一致。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为分析型负载提供云厂商无关的 Postgres 兼容加速方案，实测数据明确且部署极轻。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://masondata.ai/">Hacker News AI</source>
 <category>Postgres</category>
 <category>DuckDB</category>
 <category>列式存储</category>
 <category>分析查询</category>
 </item>
-<item><title>Crusoe Investor Bets on Solar and Batteries to Power AI Data Centers</title><link>https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/</guid>
+<item><title>投资人押注太阳能与储能破解 AI 数据中心供电瓶颈</title><link>https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/</guid>
 <pubDate>Wed, 25 Nov 2026 00:10:00 +0800</pubDate>
-<description>&lt;p&gt;G2 Venture Partners partner Brook Porter argues that AI data center power demand is growing faster than widely appreciated, and that natural gas plants are only a stopgap. Based on his firm&amp;#x27;s analysis, he contends that solar paired with energy storage can be deployed faster and at greater scale, urging hyperscalers and data center developers to plan long-lead energy strategies now.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;投资人押注太阳能与储能破解 AI 数据中心供电瓶颈&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;从投资视角揭示 AI 算力扩张背后的电力供给瓶颈与光储替代路径，对关注算力基础设施的读者有参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · compute · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;G2 Venture Partners 合伙人 Brook Porter 基于其团队对数据中心电力需求的分析指出，AI 数据中心用电增速远超市场预期，天然气发电只是权宜之计，太阳能配储能在部署速度与规模上更具优势。他呼吁超大规模云厂商与数据中心开发商提前布局长周期能源方案，而非被动抢购现成电力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;从投资视角揭示 AI 算力扩张背后的电力供给瓶颈与光储替代路径，对关注算力基础设施的读者有参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · compute · signal 58/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/24/why-a-crusoe-investor-is-betting-on-solar-and-batteries-to-power-future-ai-data-centers/">TechCrunch AI</source>
 <category>算力基础设施</category>
 <category>数据中心供电</category>
 <category>储能</category>
 <category>风险投资</category>
 </item>
-<item><title>New York Times Tells Photographers to Avoid Updated Photoshop</title><link>https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features</guid>
+<item><title>纽约时报要求摄影记者停用新版 Photoshop</title><link>https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features</guid>
 <pubDate>Wed, 25 Nov 2026 00:09:23 +0800</pubDate>
-<description>&lt;p&gt;The New York Times&amp;#x27; photography leaders have asked freelance photographers not to use Adobe Photoshop&amp;#x27;s 2027 update on assignment, warning that its AI features can cause metadata to label images as AI-generated. Adobe&amp;#x27;s November release added an AI Assisted Editor view and prompt-based image transformation, though neither party specified which features triggered the concern.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;纽约时报要求摄影记者停用新版 Photoshop&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流新闻机构首次因 AI 元数据标记问题限制生产工具版本，触及新闻摄影真实性与 AI 内容溯源的关键议题。&lt;/p&gt;&lt;p&gt;The Verge AI · tools · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;纽约时报摄影部门负责人发邮件要求自由摄影师在接稿时不要使用 Adobe Photoshop 2027 更新版，原因是新版 AI 功能可能在元数据中把照片标记为 AI 生成，影响新闻摄影的可信度。Adobe 在 11 月更新中加入了 AI 辅助编辑器视图和基于提示的图像变换等功能，但双方均未说明具体涉及哪些特性。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流新闻机构首次因 AI 元数据标记问题限制生产工具版本，触及新闻摄影真实性与 AI 内容溯源的关键议题。&lt;/p&gt;&lt;p&gt;The Verge AI · tools · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features">The Verge AI</source>
 <category>Adobe</category>
 <category>Photoshop</category>
 <category>AI 内容溯源</category>
 <category>新闻摄影</category>
 </item>
-<item><title>Pinterest Lets Parents Limit AI-Generated Content for Teens</title><link>https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/</guid>
+<item><title>Pinterest 允许家长限制青少年浏览 AI 生成内容</title><link>https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/</guid>
 <pubDate>Wed, 25 Nov 2026 00:02:37 +0800</pubDate>
-<description>&lt;p&gt;Pinterest this week expanded its parental controls with a setting that lets parents adjust how much AI-generated content their teens are exposed to, making it one of the first major social platforms to hand that lever to parents. The option ships alongside standard controls for notifications and video autoplay, plus a redesigned parental controls page. Rivals have so far focused on restricting minors&amp;#x27; access to specific AI features rather than AI content exposure.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Pinterest 允许家长限制青少年浏览 AI 生成内容&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流社交平台首次将 AI 生成内容曝光量纳入家长控制，反映平台治理 AI 内容的新方向。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Pinterest 本周扩展家长控制功能，新增可调节青少年接触 AI 生成内容比例的设置，成为首批将 AI 内容曝光量交由家长管理的主流社交平台之一。该功能与通知调节、视频自动播放开关等常规选项一同上线，并重新设计了家长控制页面。其他平台目前多聚焦于限制未成年人使用特定 AI 功能，而非控制 AI 内容曝光。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流社交平台首次将 AI 生成内容曝光量纳入家长控制，反映平台治理 AI 内容的新方向。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/24/pinterest-will-now-let-parents-limit-the-ai-generated-content-their-teens-see/">TechCrunch AI</source>
 <category>平台治理</category>
 <category>青少年保护</category>
 <category>AI 内容</category>
 <category>Pinterest</category>
 </item>
-<item><title>Amazon Buys Decart for $7.5B to Close AI Chip Gap via Software</title><link>https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/</guid>
+<item><title>亚马逊 75 亿美元收购 Decart 以软件弥补芯片差距</title><link>https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/</guid>
 <pubDate>Tue, 24 Nov 2026 23:51:07 +0800</pubDate>
-<description>&lt;p&gt;Amazon is acquiring the technology and team of AI optimization startup Decart for a reported $7.5 billion, aiming to use its model-optimization software to make in-house Trainium chips more competitive against Nvidia. Anthropic reportedly attempted a similar acquisition at a comparable price, and Nvidia participated in Decart&amp;#x27;s $300 million round, underscoring the technology&amp;#x27;s strategic value.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊 75 亿美元收购 Decart 以软件弥补芯片差距&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 算力竞争从硬件转向软硬协同优化的标志性交易，直接影响英伟达与云厂商的芯片格局。&lt;/p&gt;&lt;p&gt;TechCrunch AI · compute · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;亚马逊以约 75 亿美元收购 AI 优化初创公司 Decart 的技术与团队，核心动机是借助其模型优化软件，让自研 Trainium 芯片在推理与训练上更具竞争力，缩小与英伟达的硬件差距。此前 Anthropic 曾以相近价位尝试收购，英伟达亦参与其 3 亿美元融资，显示该技术被多方视为战略资产。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 算力竞争从硬件转向软硬协同优化的标志性交易，直接影响英伟达与云厂商的芯片格局。&lt;/p&gt;&lt;p&gt;TechCrunch AI · compute · signal 78/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/24/amazons-decart-acquisition-is-a-bet-on-using-software-to-narrow-the-gap-with-nvidia-in-the-ai-chip-race/">TechCrunch AI</source>
 <category>算力芯片</category>
 <category>亚马逊</category>
 <category>英伟达</category>
 <category>收购</category>
-</item>
-<item><title>Songe Trains Local Models on Idle Compute While You Work</title><link>https://github.com/sous-labs/songe</link><guid isPermaLink="true">https://github.com/sous-labs/songe</guid>
-<pubDate>Tue, 24 Nov 2026 23:03:40 +0800</pubDate>
-<description>&lt;p&gt;Songe is a local training engine that plugs into your everyday model via OpenAI-compatible tools like opencode or pi, learning from tool results, errors and your corrections whenever the agent goes quiet. It offers Quick Dream and Deep Dream modes, promotes a new version only if it performs better on your own conversations, and runs fully offline with no account or telemetry.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Songe 利用闲置算力在本地训练专属模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把闲置算力转化为本地模型的持续微调闭环，且以私有化与可回滚为设计前提，对自托管用户有实际参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
-<source url="https://github.com/sous-labs/songe">Hacker News AI</source>
-<category>本地训练</category>
-<category>开源工具</category>
-<category>私有化部署</category>
-</item>
-<item><title>特朗普与硅谷施压 黄仁勋重返英伟达</title><link>https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/</link><guid isPermaLink="true">https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/</guid>
-<pubDate>Tue, 24 Nov 2026 22:56:50 +0800</pubDate>
-<description>&lt;p&gt;英伟达 CEO 黄仁勋因丑闻辞职不到两周便戏剧性复职，董事会是在特朗普总统直接施压与硅谷盟友密集游说下作出逆转决定。支持者称黄仁勋个人对美国 AI 产业与股市稳定不可或缺，但此举引发对公司治理与董事会判断力的严重质疑。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全球最重要 AI 芯片公司 CEO 在政治与产业力量干预下闪电复职，是观察 AI 产业与政商关系的关键事件。&lt;/p&gt;&lt;p&gt;Ars Technica AI · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/">Ars Technica AI</source>
-<category>英伟达</category>
-<category>黄仁勋</category>
-<category>公司治理</category>
-<category>AI 产业</category>
-</item>
-<item><title>Anthropic 研究员回应 AI 辅助黎曼证明争议</title><link>https://the-decoder.com/anthropic-researcher-stands-by-his-ai-assisted-riemann-proof-but-owns-up-to-stupid-things-in-the-rollout/</link><guid isPermaLink="true">https://the-decoder.com/anthropic-researcher-stands-by-his-ai-assisted-riemann-proof-but-owns-up-to-stupid-things-in-the-rollout/</guid>
-<pubDate>Tue, 24 Nov 2026 22:28:41 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 研究员 Levent Alpöge 坚持其 AI 辅助广义黎曼假设证明的数学有效性，Lean 代码已通过形式化验证，但他承认发布过程存在多处失误：代码未经清理、充斥冗余步骤与无用引理，关于证明长度的说法只是玩笑。他承认外界对发布方式的批评合理，并指出仅靠编译成功并不能证明 Lean 代码准确陈述了定理且无隐藏假设。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 辅助数学证明是前沿交叉领域，该事件涉及形式化验证的可信边界与发布规范，对关注 AI for Science 的读者有实质参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 72/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/anthropic-researcher-stands-by-his-ai-assisted-riemann-proof-but-owns-up-to-stupid-things-in-the-rollout/">The Decoder</source>
-<category>AI for Science</category>
-<category>形式化验证</category>
-<category>Anthropic</category>
-<category>黎曼假设</category>
-</item>
-<item><title>OpenAI 与思科开源 Shirudo 运行时 用 eBPF 盾牌热补漏洞</title><link>https://x.com/Marktechpost/status/2125233043657150537</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2125233043657150537</guid>
-<pubDate>Tue, 24 Nov 2026 22:20:17 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 与思科旗下 Isovalent 联合开源 Linux 运行时 Shirudo，让 AI 智能体以代码形式编写签名 eBPF 程序，在正式补丁测试期间阻断漏洞利用路径。受控测试中，Codex 生成的防护程序在无需重启的情况下拦截了 Elasticsearch 节点上的 Java4Shell 高危漏洞，但方案依赖 bpf-next 内核与额外补丁，且仅披露单一测试、缺少性能开销数据。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是智能体直接介入系统安全运维的新范式，且由 OpenAI 与思科联合开源，具备明确技术路径与真实漏洞验证。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · agent · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/Marktechpost/status/2125233043657150537">Marktechpost (@Marktechpost)</source>
-<category>智能体</category>
-<category>eBPF</category>
-<category>系统安全</category>
-<category>开源</category>
-<category>OpenAI</category>
-</item>
-<item><title>东擎联合英特尔推出物理 AI 开发平台 RBK-100</title><link>https://www.ithome.com/1/031/880.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/880.htm</guid>
-<pubDate>Tue, 24 Nov 2026 22:15:00 +0800</pubDate>
-<description>&lt;p&gt;东擎联合英特尔发布 RBK-100 整合式物理 AI 开发平台，将 NUC BOX-358H 迷你主机、RGB-D 深度摄像头、6 轴主从机械手与 AiRoboStarter 软件打包为开箱即用的机器人开发套件。平台标配 32GB DDR5 内存，可选 64GB 版本，覆盖示范动作录制、数据集检视、模型训练到技能执行的完整流程，并支持 ACT 与 Pi0.5 模型工作流。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向具身智能开发者的软硬一体套件，降低了机器人模仿学习工作流的入门门槛，但属于厂商绑定的集成方案，技术增量有限。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 38/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/031/880.htm">IT之家 · 智能时代</source>
-<category>具身智能</category>
-<category>开发平台</category>
-<category>英特尔</category>
-<category>东擎</category>
-</item>
-<item><title>OpenAI 与 Anthropic 内部担忧未发布模型失控</title><link>https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures/</link><guid isPermaLink="true">https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures/</guid>
-<pubDate>Tue, 24 Nov 2026 22:02:31 +0800</pubDate>
-<description>&lt;p&gt;据 Axios 援引超过二十名内部人士报道，OpenAI 与 Anthropic 尚未发布的前沿模型能力已超出其现有安全管控手段，许多员工不再相信这些系统能够被安全地控制。两家公司内部正在讨论是否应推迟甚至叫停发布，这标志着前沿实验室的安全治理正从理论讨论转向真实的发布决策压力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是前沿实验室内部对模型能力超越安全护栏的罕见公开信号，直接关系到下一代模型的发布节奏与行业监管走向。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures/">The Decoder</source>
-<category>AI 安全</category>
-<category>OpenAI</category>
-<category>Anthropic</category>
-<category>前沿模型</category>
-<category>行业动态</category>
 </item>
 </channel>
 </rss>
