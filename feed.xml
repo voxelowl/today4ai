@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Wed, 25 Nov 2026 19:34:25 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 25 Nov 2026 20:15:21 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>TSMC Share Climbs to 75% as Pure-Play Foundry Market Grows 36%</title><link>https://www.ithome.com/1/032/477.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/477.htm</guid>
+<pubDate>Wed, 25 Nov 2026 20:15:21 +0800</pubDate>
+<description>&lt;p&gt;Counterpoint data shows the global pure-play foundry market grew 36% year over year and 13% quarter over quarter in Q3 2026, driven by AI demand for advanced nodes and packaging outpacing supply. TSMC&amp;#x27;s share rose to 75% from 73% in the prior two quarters on 16% sequential revenue growth, backed by 2nm ramp, fully loaded N3 capacity and CoWoS expansion, while Samsung slipped to 6.4% and SMIC held third on record revenue.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;台积电 Q3 份额升至 75% 纯代工市场同比增长 36%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 算力供给格局的关键量化信号，直接反映先进制程与 CoWoS 封装的供需紧张程度。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/032/477.htm">IT之家 · IT业界</source>
+<category>晶圆代工</category>
+<category>台积电</category>
+<category>AI 算力</category>
+<category>先进封装</category>
+</item>
+<item><title>Theoretical Physicists Move to Build a Fair AI Benchmark</title><link>https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/</link><guid isPermaLink="true">https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/</guid>
+<pubDate>Wed, 25 Nov 2026 20:00:28 +0800</pubDate>
+<description>&lt;p&gt;Theoretical physicist Suvrat Raju tested a frontier AI model with an unpublished physics problem; the model failed but performed better than expected, prompting him and a colleague to build a dedicated theoretical physics benchmark. The effort stresses original, never-published problems to avoid memorization contamination from internet training data.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;理论物理学家着手构建 AI 基准测试&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出以未公开原创问题评测 AI 物理推理能力的思路，切中大模型基准污染这一关键痛点。&lt;/p&gt;&lt;p&gt;Ars Technica AI · llm · signal 58/100&lt;/p&gt;</description>
+<source url="https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/">Ars Technica AI</source>
+<category>基准测试</category>
+<category>理论物理</category>
+<category>大模型评测</category>
+<category>AI for Science</category>
+</item>
+<item><title>PrismML Compresses 54 GB Model Down to 5.9 GB</title><link>https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/</link><guid isPermaLink="true">https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/</guid>
+<pubDate>Wed, 25 Nov 2026 19:51:49 +0800</pubDate>
+<description>&lt;p&gt;PrismML released Ternary Bonsai 2.5 27B, built on Qwen3.8-27B and using ternary quantization where each weight is limited to -1, 0, or +1, cutting memory from roughly 54 GB to 5.9 GB. The update targets long-chain tool-calling agent tasks, lifting SWE-bench Verified from 60.8% to 75.6% and AppWorld from 51.2% to 90.5%, approaching the full-precision base model.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;PrismML 将 54 GB 模型压缩至 5.9 GB&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;极端量化把 27B 模型压到手机可承载的体积且智能体能力大幅回升，是端侧部署的重要信号。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/">The Decoder</source>
+<category>三值量化</category>
+<category>端侧模型</category>
+<category>智能体</category>
+<category>PrismML</category>
+</item>
 <item><title>Windows Loudness Equalization Reverse-Engineered and Ported to PipeWire</title><link>https://github.com/xoxorwr/pw-loudness-eq</link><guid isPermaLink="true">https://github.com/xoxorwr/pw-loudness-eq</guid>
 <pubDate>Wed, 25 Nov 2026 19:34:25 +0800</pubDate>
 <description>&lt;p&gt;A developer reverse-engineered Windows&amp;#x27; Loudness Equalization and the audio engine&amp;#x27;s output limiter from WMALFXGFXDSP.dll and AudioEng.dll, reimplementing them as PipeWire DSP modules and plugins that even out per-application playback volume. The project ships an optional GTK3 control window for global or per-app toggling and release-time tuning, and requires PipeWire 1.4 or newer.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Windows 响度均衡被逆向移植至 PipeWire&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把 Windows 独有音频处理链路逆向为 Linux 开源实现，对桌面音频与 PipeWire 生态有实际可用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
@@ -129,18 +156,18 @@
 <category>Gemini</category>
 <category>数据治理</category>
 </item>
-<item><title>Telos Live-1 Debuts Full-Duplex Voice Model That Listens and Calls Tools Simultaneously</title><link>https://x.com/rohanpaul_ai/status/2125498498632286696</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125498498632286696</guid>
+<item><title>Telos Live-1 发布 全双工实时语音模型支持边听边说边调工具</title><link>https://x.com/rohanpaul_ai/status/2125498498632286696</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125498498632286696</guid>
 <pubDate>Wed, 25 Nov 2026 15:55:06 +0800</pubDate>
-<description>&lt;p&gt;Telos has released Telos-Live-1, a real-time interaction model that sees, hears and speaks while reasoning, searching and calling tools instead of waiting for turns. Its reported evaluations show 4.5 versus 8.5 for GPT-Live-1 on false interruptions during pauses (lower is better) and 59.8 versus 32.0 on τ-Voice banking tasks. The author notes these measure different things and argues the real test is whether a mid-task user correction is reflected in the final action.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Telos Live-1 发布 全双工实时语音模型支持边听边说边调工具&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全双工实时语音交互是智能体落地的重要方向，该模型给出可对比的量化评测，值得关注。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Telos 发布实时交互模型 Telos-Live-1，可在推理、搜索与调用工具的同时持续看、听、说，不再依赖轮次等待。其公布的评测显示，在停顿期间误打断指标上以 4.5 优于 GPT-Live-1 的 8.5（越低越好），在 τ-Voice 银行任务上以 59.8 对 32.0 领先。作者指出两项指标衡量维度不同，真正值得验证的是用户中途修正细节时，模型能否让最终动作反映修正而非重来。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全双工实时语音交互是智能体落地的重要方向，该模型给出可对比的量化评测，值得关注。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 72/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2125498498632286696">Rohan Paul (@rohanpaul_ai)</source>
 <category>实时语音</category>
 <category>全双工交互</category>
 <category>智能体</category>
 <category>模型评测</category>
 </item>
-<item><title>XPeng Unveils IRON Humanoid Robot with 76 Degrees of Freedom</title><link>https://www.ithome.com/1/032/164.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/164.htm</guid>
+<item><title>小鹏人形机器人 IRON 亮相 全身 76 自由度</title><link>https://www.ithome.com/1/032/164.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/164.htm</guid>
 <pubDate>Wed, 25 Nov 2026 15:50:43 +0800</pubDate>
-<description>&lt;p&gt;XPeng publicly debuted its high-order general-purpose humanoid robot IRON at its 2026 Tech Day, walking on stage and conversing in real time without teleoperation. IRON features 76 degrees of freedom with regionally tunable stiffness, a 3D vision plus 720-degree panoramic perception system, 9 microphones for sound localization, and over 1,500 tactile sensing points covering more than 80% of core areas.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;小鹏人形机器人 IRON 亮相 全身 76 自由度&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;小鹏人形机器人从演示走向真机自主交互，76 自由度与全身触觉方案是具身智能落地的关键硬件指标。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;小鹏在 2026 科技日上首次公开展示高阶通用人形机器人 IRON 真机，全程无人工遥控完成舞台行走与实时对话。IRON 全身 76 自由度、不同部位软硬度可调，搭载 3D 视觉与 720° 全景感知、9 麦克风声源定位及 1500+ 触觉感知点，核心区域触觉覆盖率超 80%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;小鹏人形机器人从演示走向真机自主交互，76 自由度与全身触觉方案是具身智能落地的关键硬件指标。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/164.htm">IT之家 · 智能时代</source>
 <category>具身智能</category>
 <category>人形机器人</category>
@@ -246,34 +273,6 @@
 <category>Sand.ai</category>
 <category>国产算力</category>
 <category>多模态</category>
-</item>
-<item><title>Anthropic 与 OpenAI 同日宣称证明 VP≠VNP 猜想</title><link>https://www.ithome.com/1/032/122.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/122.htm</guid>
-<pubDate>Wed, 25 Nov 2026 14:50:01 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 与 OpenAI 于 11 月 23 日先后宣布证明代数复杂度猜想 VP≠VNP，若成立则意味着存在可被简洁描述、却无法仅靠加法与乘法高效计算的多项式。该猜想是经典 P?NP 问题的代数版本，其方法或可启发 P?NP 的求解思路，但不能直接给出 P?NP 的答案。两家公司均已在 GitHub 公开相关形式化材料与预印本。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;两大前沿 AI 实验室同日宣称攻克代数复杂度核心猜想，是 AI for Science 与形式化数学领域的标志性事件。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 88/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/032/122.htm">IT之家 · 智能时代</source>
-<category>AI for Science</category>
-<category>形式化数学</category>
-<category>计算复杂度</category>
-<category>Anthropic</category>
-<category>OpenAI</category>
-</item>
-<item><title>权龙离开苹果创办格秩科技 押注空间与物理 AI</title><link>https://www.qbitai.com/2026/11/512498.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/512498.html</guid>
-<pubDate>Wed, 25 Nov 2026 14:49:27 +0800</pubDate>
-<description>&lt;p&gt;苹果空间智能首席科学家权龙离职创办格秩科技（Envision AI），主攻原生空间与物理 AI 基础模型，试图补足大语言模型在空间表达与物理泛化上的短板。公司称在城市级三维建模任务上单场景推理成本从 GPT-6-Astra 的 100 至 600 美元降至不足 10 美元，并已积累 3000 万空间物理数据资产与 500 万以上复杂场景。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;世界级视觉几何学者离职苹果二次创业，切入空间与物理 AI 基础模型，并给出可量化的成本与数据规模对比。&lt;/p&gt;&lt;p&gt;量子位官网 · industry · signal 72/100&lt;/p&gt;</description>
-<source url="https://www.qbitai.com/2026/11/512498.html">量子位官网</source>
-<category>空间智能</category>
-<category>物理AI</category>
-<category>创业</category>
-<category>三维视觉</category>
-</item>
-<item><title>DeepMind 论文预测 AI 算力成本十年降百万倍</title><link>https://www.ithome.com/1/032/114.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/114.htm</guid>
-<pubDate>Wed, 25 Nov 2026 14:27:02 +0800</pubDate>
-<description>&lt;p&gt;谷歌 DeepMind 研究所发布《AGI 之后是什么？》论文，提出“认知工业化”概念，认为 AI 正让脑力劳动规模化生产。论文测算过去十年 AI 有效算力每年至少增长 10 倍，若趋势延续，今天需 10 亿美元算力的认知任务十年后成本可降至约 1000 美元。文章同时给出从 AGI 迈向 ASI 的四条路径，并提示数据枯竭、规模收益递减与能源芯片约束等瓶颈。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;DeepMind 以量化趋势给出算力成本百万倍下降的长期判断，并系统梳理 AGI 到 ASI 的路径与瓶颈，对判断 AI 长期曲线有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/032/114.htm">IT之家 · 智能时代</source>
-<category>DeepMind</category>
-<category>AGI</category>
-<category>算力成本</category>
-<category>论文</category>
 </item>
 </channel>
 </rss>
