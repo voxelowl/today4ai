@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Thu, 26 Nov 2026 00:44:37 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 26 Nov 2026 02:59:43 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>亚马逊与 Meta 谈判解禁购物智能体 Muse</title><link>https://todayforai.com/en/story/story-ec03a573-644</link><guid isPermaLink="true">https://todayforai.com/en/story/story-ec03a573-644</guid>
 <pubDate>Thu, 26 Nov 2026 00:44:37 +0800</pubDate>
@@ -47,6 +47,14 @@
 
 这一进展标志着通用大模型向生物设计领域迈出关键一步，有望降低蛋白质工程的门槛，但距离完全替代专用工具仍有差距。若后续能补齐结构预测短板，GPT-6 或将成为跨学科科研的通用引擎，推动 AI 驱动的生物发现进入新阶段。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;OpenAI 官方博客, Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
+<item><title>FCC 批准 SpaceX 部署百万颗 AI 算力卫星</title><link>https://todayforai.com/en/story/story-08987834-4f4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-08987834-4f4</guid>
+<pubDate>Thu, 26 Nov 2026 02:59:43 +0800</pubDate>
+<description>&lt;p&gt;美国联邦通信委员会（FCC）正式批准 SpaceX 推进 Starmind 计划，允许其在轨部署最多 100 万颗搭载 AI 芯片的卫星，构建太空数据中心星座。这是监管机构首次批准完整的 AI 卫星星座，标志着太空算力竞赛进入新阶段。
+
+根据审批要求，SpaceX 须在 2033 年前完成首颗卫星部署，2040 年前达成百万颗规模。但 FCC 暂缓批准其将 600 公里以上卫星送入太空坟场轨道的处置方案，要求补充信息。FCC 主席 Brendan Carr 称此举将扩大美国在超级智能领域的领先优势，但该计划遭到亚马逊、Viasat 及美国天文学会的反对，争议集中在光学天文观测与监管权限之外的环境影响。与此同时，Google 的 Project Suncatcher 与 Blue Origin 也在推进太空数据中心布局，竞争格局初现。
+
+这一决定对 AI 算力基础设施赛道影响深远。太空数据中心有望利用近乎无限的太阳能和真空散热优势，突破地面数据中心的能源与土地瓶颈。然而，百万颗卫星的部署也引发了对轨道拥挤、天文观测干扰和太空环境治理的担忧。监管机构在鼓励创新与防范风险之间仍需谨慎平衡，后续审批细节与反对声音的博弈将决定 Starmind 计划的最终走向。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Verge AI, Hacker News AI&lt;/p&gt;</description>
+</item>
 <item><title>Claude 桌面版支持将 Artifact 一键安装为本地应用</title><link>https://todayforai.com/en/story/story-028eb944-24c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-028eb944-24c</guid>
 <pubDate>Wed, 25 Nov 2026 07:20:30 +0800</pubDate>
 <description>&lt;p&gt;Anthropic 为 Claude 桌面版推出测试版功能，允许用户将聊天中生成的 Artifacts 一键安装为 macOS 与 Windows 独立应用，无需编写代码。这些应用拥有独立图标与窗口，可调用操作系统 API、连接器及 Claude 本身，并支持菜单栏项、透明窗口、通知等能力，甚至可构建自定义终端、文件管理器与视频编辑器。
@@ -70,14 +78,6 @@
 Shirudo 的核心创新在于让 AI 智能体以代码形式编写签名的 eBPF 程序，在内核层精准控制可疑行为，避免封禁正常业务所需的系统调用。防护程序加载前需经过加密签名与 eBPF 验证器校验，并通过 TPM 2.0 记录每次加载与移除，以供审计。不过，该方案目前依赖 bpf-next 内核与额外补丁，且仅披露了单一测试案例，缺少性能开销数据，落地门槛较高。
 
 Shirudo 填补了补丁空窗期的安全防护空白，为基础设施运维者提供了免重启的临时防护手段。其开源特性有望吸引开发者与安全研究者共同推进，但实际部署仍需克服内核兼容性与性能验证等挑战。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost), IT之家 · 智能时代, OpenAI 官方博客, Hacker News AI&lt;/p&gt;</description>
-</item>
-<item><title>Anthropic 推出 Claude Ship 实现代码审查与自动审批</title><link>https://todayforai.com/en/story/story-f3e61143-17c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f3e61143-17c</guid>
-<pubDate>Tue, 24 Nov 2026 19:26:23 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 正式发布 Claude Ship 智能体流水线，将 GitHub PR 流程拆分为代码审查、PR Steward 修复推进与 Claude Approvals 策略审批三个专职智能体，可在无人逐步介入的情况下完成从审查到批准决策的闭环。官方数据显示，Claude Code 团队合并 PR 数量在 6 月至 9 月间翻倍以上，回滚变更占比下降超 40%，单轮审查修复通过率从 65% 升至 78%。
-
-Claude Ship 的核心差异点在于 Claude Approvals 可依据团队预设策略自动批准常规代码变更，策略以自然语言文件形式存入代码仓库，并可结合 Code Review 结果与企业自研分类器信号。PR Steward 能自动处理 CI 失败与合并冲突，并在每次推送后说明改动内容及回滚方式。Code Review 已正式可用，支持 Quick、Standard、Deep 三档审查强度并可升级至人工决策；PR Steward 与 Claude Approvals 仍处于公测阶段，仅限 Team 与 Enterprise 计划的 GitHub 用户。计费按 token 而非按次，官方建议先以观察模式运行并设置月度支出上限。
-
-Claude Ship 直击 AI 生成代码量激增后审查与放行环节的瓶颈，标志着 Claude 从代码评审工具升级为可闭环交付的编码智能体。该产品有望显著提升开发团队的合并效率，但自动审批的准确率与召回率尚未公开，企业需在效率与风险间谨慎权衡。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Marktechpost (@Marktechpost), The Verge AI, TechCrunch AI, The Decoder&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
