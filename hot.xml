@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Thu, 26 Nov 2026 04:51:02 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 26 Nov 2026 04:52:14 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>亚马逊与 Meta 谈判解禁购物智能体 Muse</title><link>https://todayforai.com/en/story/story-ec03a573-644</link><guid isPermaLink="true">https://todayforai.com/en/story/story-ec03a573-644</guid>
 <pubDate>Thu, 26 Nov 2026 00:44:37 +0800</pubDate>
@@ -34,6 +34,14 @@
 此举的直接诱因是过去 90 天平台上传曲目中逾 43% 为 AI 完全生成，11 月 6 日单日占比更飙升至 60%。Tidal 此前已对 AI 曲目进行标注并取消变现，但威慑效果有限。目前平台标注为 AI 的曲目达 2700 万首，占曲库 6.3%，其中 96% 在过去 90 天零播放，因此下架对平台实际影响有限。Tidal 将借助 Ircam Amplify 检测与元数据校验执行新规，涉及冒充艺人、欺骗听众等欺诈行为的 AI 歌曲将被取消变现资格。
 
 与 Spotify、YouTube Music 仅对 AI 音乐加标记的温和路线相比，Tidal 的全面封禁是流媒体平台针对生成式 AI 内容真实性与版权问题的明确治理动作，可能推动行业形成更严格的 AI 内容审核标准。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, IT之家 · 智能时代, Ars Technica AI, The Verge AI, Hacker News AI&lt;/p&gt;</description>
+</item>
+<item><title>Anthropic 用 Claude 将 Messages API 迁移至 Rust 单请求 CPU 降 70%</title><link>https://todayforai.com/en/story/story-9d85b604-0d4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9d85b604-0d4</guid>
+<pubDate>Thu, 26 Nov 2026 04:52:14 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 宣布将其核心 Messages API 从 Python 迁移至 Rust，单请求 CPU 消耗下降约 70%，以应对自 2024 年初以来约 1800 倍的 API 流量增长。这一重写工作由 Claude 主导完成，团队中并无专职 Rust 开发者，Claude 约一周即产出首版代码。
+
+迁移的关键挑战并非编写代码，而是确保新实现与原有 Python 服务的行为一致性。团队借助多组 Claude 智能体对比新旧服务，定位并修复差异，将验证解比生成解容易得多的任务特性视为可行性的基础。线上系统的正确性难以用测试套件完整定义，是此类迁移的主要风险点。
+
+此次迁移展示了 AI 在大型成熟代码库重构中的潜力，为应对指数级流量增长提供了高效能方案，同时也凸显了验证环节在 AI 辅助工程中的核心地位。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), Hacker News AI&lt;/p&gt;</description>
 </item>
 <item><title>PrismML 将 54 GB 模型压缩至 5.9 GB</title><link>https://todayforai.com/en/story/story-262515ce-dbd</link><guid isPermaLink="true">https://todayforai.com/en/story/story-262515ce-dbd</guid>
 <pubDate>Wed, 25 Nov 2026 19:51:49 +0800</pubDate>
@@ -70,14 +78,6 @@
 该架构的核心思路是复用同一组权重做多轮隐状态迭代，按任务复杂度动态调整计算深度，而非堆叠网络层，从而显著降低对 HBM 的依赖。智谱 GLM-5.4 首次在旗舰模型中引入 Looped Transformer，28 层网络循环两轮即可对标 2 万亿至 3 万亿参数模型；OpenAI 的 Astra 也被曝采用类似循环深度路线。脸谱心智进一步将循环架构从语言推理延伸至世界模型与扩散生成，为大模型扩展提供了以计算深度换参数规模的新路径。
 
 这一路线若得到验证，将大幅降低大模型的训练与推理成本，缓解显存与带宽压力，为开发者提供更高效的模型扩展方案。然而，该技术报告随后被官方临时下架，核心工程路径与显存优化细节尚未完整公开，其实际效果与可复现性仍有待业界进一步验证。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;量子位官网, 机器之心 (微信公众号), 量子位 (微信公众号)&lt;/p&gt;</description>
-</item>
-<item><title>美国芯片新规封堵远程租算力 字节阿里腾讯数十亿美元贷款搁置</title><link>https://todayforai.com/en/story/story-e32f7204-40a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e32f7204-40a</guid>
-<pubDate>Thu, 26 Nov 2026 04:51:02 +0800</pubDate>
-<description>&lt;p&gt;美国最新芯片出口管制将限制范围从芯片出货地扩大到芯片使用者，直接封堵了中国企业自 2022 年起通过东南亚数据中心远程租用算力的路径。由于新许可证审批流程与适用主体尚不明确，银行无法为字节跳动、阿里巴巴、腾讯相关算力租赁定价，数十亿美元贷款因此被搁置，其中 Aolani 一笔 4.8 亿美元贷款正在重新评估。
-
-据 The Information 报道，自 2025 年 9 月起，美国对中国企业远程租用境外数据中心英伟达高端芯片的限制，叠加 OpenAI 与 Anthropic 的反蒸馏措施，已使 DeepSeek、Moonshot AI、阿里巴巴等中国实验室的多项在研项目出现延期。DeepSeek 内部估算，若限制持续，其与顶尖美国模型的差距可能从 3 至 6 个月拉大到 9 个月。Anthropic 此前指控 DeepSeek、Moonshot、MiniMax 通过约 1600 万次查询窃取 Claude 数据，蒸馏通道正被系统性封堵。
-
-这一系列措施标志着美国对华 AI 管制从硬件出口转向使用行为与数据流动，对中国 AI 产业的算力获取、模型研发与融资链条形成多重挤压。短期看，中国实验室的研发进度和成本将承压；长期看，可能加速国产芯片替代与自主技术栈的构建，同时加剧全球 AI 生态的分化。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Decoder, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
