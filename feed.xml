@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Thu, 26 Nov 2026 02:22:02 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 26 Nov 2026 02:41:16 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Living Brain Memory Layer Helps Agents Prove 17 Math Results</title><link>https://x.com/rohanpaul_ai/status/2125661110259106232</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125661110259106232</guid>
+<pubDate>Thu, 26 Nov 2026 02:41:16 +0800</pubDate>
+<description>&lt;p&gt;Living Brain, a persistent memory layer for AI agents, surfaced open problems unlocked by the Lean formalization of the Riemann Hypothesis three days after it landed, and helped OpenHuman agents prove 17 results, six of them named conjectures open until 20 November, including the Lindelöf hypothesis and Erdős Problem 985. Its core value is a shared knowledge store across ChatGPT, Claude and Cursor so switching models no longer wipes accumulated context.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Living Brain 记忆层助智能体证明 17 项数学结果&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;跨模型共享记忆层与形式化数学自动发现开放问题的结合，展示了智能体基础设施的实际增量。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 62/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2125661110259106232">Rohan Paul (@rohanpaul_ai)</source>
+<category>智能体</category>
+<category>持久记忆</category>
+<category>形式化数学</category>
+<category>Lean</category>
+</item>
 <item><title>OpenAI Pilots Private Inference to Keep Enterprise Data Hidden</title><link>https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/</link><guid isPermaLink="true">https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/</guid>
 <pubDate>Thu, 26 Nov 2026 02:22:02 +0800</pubDate>
 <description>&lt;p&gt;OpenAI is piloting a feature called Private Inference with its first enterprise customers, letting companies query its most powerful models without OpenAI being able to access the data. The offering targets business customers, whose data OpenAI already excludes from training, unlike default consumer ChatGPT conversations. OpenAI says it is scaling compute to expand availability and frames the move as a first step toward private intelligence for everyone.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 推出私有推理 企业数据不可见&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部厂商将数据隔离能力产品化，直接影响企业采用敏感业务场景 AI 的合规与信任边界。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 72/100&lt;/p&gt;</description>
@@ -81,6 +90,15 @@
 <category>模型路由</category>
 <category>OpenRouter</category>
 <category>模型采用度</category>
+</item>
+<item><title>SenseTime Open-Sources SenseNova U1.6 Image Model with Photorealistic Portraits</title><link>https://www.qbitai.com/2026/11/512748.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/512748.html</guid>
+<pubDate>Thu, 26 Nov 2026 00:34:09 +0800</pubDate>
+<description>&lt;p&gt;SenseTime has open-sourced SenseNova U1.6, a new image generation model emphasizing very fast inference plus improved content accuracy and aesthetic quality, producing portraits and landscapes that read as real photography. It is live on SenseTime&amp;#x27;s Xiaohuanxiong and Seko platforms, integrated into ComfyUI, with weights and code released on Hugging Face and GitHub.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;商汤开源 SenseNova U1.6 图像模型 人像逼真度逼近摄影&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产开源图像生成模型在速度与写实度上再进一步，且权重与 ComfyUI 生态同步开放，对图像生成开发者有直接可用价值。&lt;/p&gt;&lt;p&gt;量子位官网 · llm · signal 72/100&lt;/p&gt;</description>
+<source url="https://www.qbitai.com/2026/11/512748.html">量子位官网</source>
+<category>图像生成</category>
+<category>开源模型</category>
+<category>商汤</category>
+<category>ComfyUI</category>
 </item>
 <item><title>Anthropic Migrates Messages API to Rust Using Claude</title><link>https://www.anthropic.com/research/migrating-api-to-rust</link><guid isPermaLink="true">https://www.anthropic.com/research/migrating-api-to-rust</guid>
 <pubDate>Thu, 26 Nov 2026 00:28:28 +0800</pubDate>
@@ -209,9 +227,9 @@
 <category>存储芯片</category>
 <category>AI 算力</category>
 </item>
-<item><title>DeepMind Lets AI Agents Run Gemini Experiments on Their Own Compute</title><link>https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/</link><guid isPermaLink="true">https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/</guid>
+<item><title>DeepMind 让 AI 智能体自主调度算力开展 Gemini 实验</title><link>https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/</link><guid isPermaLink="true">https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/</guid>
 <pubDate>Wed, 25 Nov 2026 21:23:36 +0800</pubDate>
-<description>&lt;p&gt;Google DeepMind has begun letting AI agents autonomously control part of its compute to run experiments for the next Gemini model, according to research VP Koray Kavukcuoglu, as part of a shift from specialized teams like AlphaFold toward a single general-purpose algorithm. He stresses the lab remains far from full recursive self-improvement, and deliberately does not reward agents&amp;#x27; chain-of-thought during training so their intentions stay reviewable in natural language before acting.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;DeepMind 让 AI 智能体自主调度算力开展 Gemini 实验&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是前沿实验室首次公开承认智能体已介入自身模型研发的算力调度，触及 AI 自我改进这一核心议题。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Google DeepMind 研究副总裁 Koray Kavukcuoglu 透露，实验室已让 AI 智能体自主控制部分算力来运行下一代 Gemini 的实验，这是其从 AlphaFold 等专用团队转向单一通用算法的战略调整的一部分。但他强调，距离完全递归自我改进仍很遥远，且训练中刻意不奖励智能体的思维链，以保证其意图在行动前可被自然语言审查。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是前沿实验室首次公开承认智能体已介入自身模型研发的算力调度，触及 AI 自我改进这一核心议题。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 78/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/">The Decoder</source>
 <category>智能体</category>
 <category>Google DeepMind</category>
@@ -219,9 +237,9 @@
 <category>递归自我改进</category>
 <category>算力</category>
 </item>
-<item><title>Anthropic Study of 58 Firms Reveals Organizational Bottlenecks in AI Adoption</title><link>https://the-decoder.com/anthropic-study-shows-the-hardest-part-of-adopting-ai-at-work-has-little-to-do-with-learning-the-tools/</link><guid isPermaLink="true">https://the-decoder.com/anthropic-study-shows-the-hardest-part-of-adopting-ai-at-work-has-little-to-do-with-learning-the-tools/</guid>
+<item><title>Anthropic 调研 58 家企业揭示 AI 落地三大组织瓶颈</title><link>https://the-decoder.com/anthropic-study-shows-the-hardest-part-of-adopting-ai-at-work-has-little-to-do-with-learning-the-tools/</link><guid isPermaLink="true">https://the-decoder.com/anthropic-study-shows-the-hardest-part-of-adopting-ai-at-work-has-little-to-do-with-learning-the-tools/</guid>
 <pubDate>Wed, 25 Nov 2026 21:14:27 +0800</pubDate>
-<description>&lt;p&gt;Anthropic&amp;#x27;s economics team interviewed 66 people across 58 US companies, covering nearly 300 AI applications, and found that 55% deliver higher output or better quality while 19% produce no business value so far. The real friction is internal: excessive AI output for humans to review (49 mentions), employee resistance (43), and required expert reviews (42) outrank tool learning as adoption barriers.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 调研 58 家企业揭示 AI 落地三大组织瓶颈&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;基于 58 家企业一手访谈的实证调研，量化揭示了企业 AI 落地的组织性瓶颈，对评估 AI 部署 ROI 具有直接参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 经济团队对 58 家美国企业开展 66 场访谈，覆盖近 300 个 AI 应用场景，发现 55% 的应用带来产出或质量提升，但 19% 尚未产生任何商业价值。真正的阻力来自企业内部：AI 产出超出人工审核能力（49 次提及）、员工抵触（43 次）与专家复核需求（42 次）位列前三，而非工具学习本身。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;基于 58 家企业一手访谈的实证调研，量化揭示了企业 AI 落地的组织性瓶颈，对评估 AI 部署 ROI 具有直接参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 72/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/anthropic-study-shows-the-hardest-part-of-adopting-ai-at-work-has-little-to-do-with-learning-the-tools/">The Decoder</source>
 <category>企业AI落地</category>
 <category>Anthropic</category>
@@ -253,24 +271,6 @@
 <category>台积电</category>
 <category>AI 算力</category>
 <category>先进封装</category>
-</item>
-<item><title>理论物理学家着手构建 AI 基准测试</title><link>https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/</link><guid isPermaLink="true">https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/</guid>
-<pubDate>Wed, 25 Nov 2026 20:00:28 +0800</pubDate>
-<description>&lt;p&gt;印度理论物理学家 Suvrat Raju 用一道从未公开的物理题测试前沿大模型，模型虽答错但表现超出预期，促使他联合同事着手构建专门面向理论物理的 AI 基准测试。该基准强调使用未在互联网上出现过的原创问题，以规避大模型对公开题目的记忆污染。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出以未公开原创问题评测 AI 物理推理能力的思路，切中大模型基准污染这一关键痛点。&lt;/p&gt;&lt;p&gt;Ars Technica AI · llm · signal 58/100&lt;/p&gt;</description>
-<source url="https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/">Ars Technica AI</source>
-<category>基准测试</category>
-<category>理论物理</category>
-<category>大模型评测</category>
-<category>AI for Science</category>
-</item>
-<item><title>PrismML 将 54 GB 模型压缩至 5.9 GB</title><link>https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/</link><guid isPermaLink="true">https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/</guid>
-<pubDate>Wed, 25 Nov 2026 19:51:49 +0800</pubDate>
-<description>&lt;p&gt;PrismML 发布 Ternary Bonsai 2.5 27B，基于 Qwen3.8-27B 采用三值量化（权重仅取 -1、0、+1），内存占用从约 54 GB 降至 5.9 GB。该版本针对长链工具调用的智能体任务优化，SWE-bench Verified 从 60.8% 提升至 75.6%，AppWorld 从 51.2% 跃升至 90.5%，接近原始全精度模型水平。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;极端量化把 27B 模型压到手机可承载的体积且智能体能力大幅回升，是端侧部署的重要信号。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/">The Decoder</source>
-<category>三值量化</category>
-<category>端侧模型</category>
-<category>智能体</category>
-<category>PrismML</category>
 </item>
 </channel>
 </rss>
