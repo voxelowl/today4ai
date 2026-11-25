@@ -51,6 +51,14 @@ Claude Ship 的核心差异点在于 Claude Approvals 可依据团队预设策�
 
 Claude Ship 直击 AI 生成代码量激增后审查与放行环节的瓶颈，标志着 Claude 从代码评审工具升级为可闭环交付的编码智能体。该产品有望显著提升开发团队的合并效率，但自动审批的准确率与召回率尚未公开，企业需在效率与风险间谨慎权衡。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Marktechpost (@Marktechpost), The Verge AI, TechCrunch AI, The Decoder&lt;/p&gt;</description>
 </item>
+<item><title>OpenAI 称 GPT-6 仅凭推理与代码设计蛋白质</title><link>https://todayforai.com/en/story/story-be158134-dca</link><guid isPermaLink="true">https://todayforai.com/en/story/story-be158134-dca</guid>
+<pubDate>Wed, 25 Nov 2026 06:44:58 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 发布预印本论文，宣称其最新通用模型 GPT-6.2 无需依赖专用生物学模型，仅凭推理与通用编程工具即可设计蛋白质三维结构及氨基酸序列。在与 Onava 合作的湿实验中，322 个微型结合蛋白有 35 个显示结合迹象，抗体结合环重设计 182 个中有 128 个仍能结合 IL-4Rα，初步验证了通用模型在生物设计任务上的可行性。
+
+计算基准上，GPT-6.2 表现显著超越专用模型：基序支架任务成功率 43.7%，高于 RFdiffusion 的 27.8%；小分子对接准确率约 93%，远超 DiffDock-L 的 50%。然而 OpenAI 承认，筛选环节仍依赖 Boltz-2、ESMFold2 等专用模型，且从序列预测完整结构的 TM-score 仅 0.38，远低于 ESMFold2 的 0.93，端到端能力尚未成立。
+
+这一进展标志着通用大模型向生物设计领域迈出关键一步，有望降低蛋白质工程的门槛，但距离完全替代专用工具仍有差距。若后续能补齐结构预测短板，GPT-6 或将成为跨学科科研的通用引擎，推动 AI 驱动的生物发现进入新阶段。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
+</item>
 <item><title>百度开源文心 5.5 Flash 2800 亿参数模型</title><link>https://todayforai.com/en/story/story-8899f5da-682</link><guid isPermaLink="true">https://todayforai.com/en/story/story-8899f5da-682</guid>
 <pubDate>Tue, 24 Nov 2026 14:59:54 +0800</pubDate>
 <description>&lt;p&gt;百度以 Apache 2.0 协议开源文心 5.5 Flash Preview，采用 2800 亿总参数、每 Token 激活 140 亿的 MoE 架构，支持 100 万 Token 上下文，权重已上架 Hugging Face 与 ModelScope。该模型在 AutomationBench 上以 61.9 分超过 Claude Opus 5.5，CodeArena WebDev 以 1668 分位列开源第二，但 Terminal-Bench 4.0 等终端任务仍落后于头部闭源模型。
@@ -66,10 +74,6 @@ Claude Ship 直击 AI 生成代码量激增后审查与放行环节的瓶颈，�
 OceanLake 融合数据库实时事务、数仓分析与数据湖开放存储，实现离在线一体与多模态数据统一治理。其技术方案基于对象存储实现存算分离弹性，以一份数据同时支撑在线读写、实时分析与离线加工。Agent 友好能力依靠逻辑表隔离与秒级数据库分支，支持并行试错与失败回滚，并提供效果观测评测、长期共享记忆与权限治理。多模混合搜索被视为与事务、分析并列的新工作负载，统一管理结构化与非结构化数据。CTO 杨传辉透露，MCP 访问量半年增长约 13 倍带来的架构压力是此次发布的重要背景。
 
 OceanBase 押注多模态数据基础设施的逻辑与当年押注分布式数据库一致。目前其 AI 业务营收已突破 1 亿元，国际化营收占比 15%、增速 100%，研发团队已拆分为传统数据库与 AI 数据两条线。此次开源核心引擎有望降低 AI 数据平台的使用门槛，推动 Agent 生态发展，并加剧数据库厂商在 AI 时代的竞争。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;量子位官网, IT之家 · 智能时代, InfoQ 中文&lt;/p&gt;</description>
-</item>
-<item><title>英国警告 AI 自主攻击工具正快速利用多年旧漏洞</title><link>https://todayforai.com/en/story/story-01ff1561-22c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-01ff1561-22c</guid>
-<pubDate>Wed, 25 Nov 2026 02:02:59 +0800</pubDate>
-<description>&lt;p&gt;英国国家网络安全中心（NCSC）警告，近几个月 AI 驱动的自主黑客工具引发的攻击事件明显上升，已造成多家机构入侵与业务中断。被利用的漏洞本身并不新，但开源自主渗透测试工具（如 Artex、Cairn）让发现与利用漏洞的速度从数年缩短到数分钟。NCSC 强调传统安全控制并未过时，但打好基础比以往更重要。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, Ars Technica AI, IT之家 · IT业界&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
