@@ -1,11 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Wed, 25 Nov 2026 22:45:47 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 25 Nov 2026 23:41:43 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
-<item><title>Amazon in Talks with Meta to Let Muse Shopping Agent Access Marketplace</title><link>https://www.ithome.com/1/032/515.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/515.htm</guid>
+<item><title>AI 数据中心建设受阻 新云厂商承压加剧</title><link>https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/</link><guid isPermaLink="true">https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/</guid>
+<pubDate>Wed, 25 Nov 2026 23:41:43 +0800</pubDate>
+<description>&lt;p&gt;英伟达明确表示，在数据中心接近可运行前不会提供兜底融资，与此同时新云厂商正遭遇建设延期与债务成本上升的双重挤压。土地、电力与已完工建筑正取代融资路演，成为项目能否落地的核心门槛，行业预计将在 2027 年前后出现一轮洗牌。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示 AI 算力基建从资本叙事转向土地电力交付的硬约束，对新云厂商与数据中心投资判断有直接参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · compute · signal 62/100&lt;/p&gt;</description>
+<source url="https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/">TechCrunch AI</source>
+<category>算力基建</category>
+<category>数据中心</category>
+<category>新云厂商</category>
+<category>英伟达</category>
+</item>
+<item><title>C++ 中 = default 与 {} 构造语义差异显著</title><link>https://lemire.me/blog/2026/11/02/default-and-braces-are-not-the-same-constructor/</link><guid isPermaLink="true">https://lemire.me/blog/2026/11/02/default-and-braces-are-not-the-same-constructor/</guid>
+<pubDate>Wed, 25 Nov 2026 23:20:15 +0800</pubDate>
+<description>&lt;p&gt;Daniel Lemire 撰文指出，C++ 中空默认构造函数写成 `= default` 还是 `{}` 会带来截然不同的语义与性能后果：前者使类型保持 trivial，值初始化时整对象（含 padding）被清零；后者属于用户提供构造函数，值初始化不再清零成员。这一差异在 span 等轻量结构体上会直接影响初始化开销与正确性。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以极小代码差异揭示 C++ 对象初始化语义与性能陷阱，对系统级开发者有直接实用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 42/100&lt;/p&gt;</description>
+<source url="https://lemire.me/blog/2026/11/02/default-and-braces-are-not-the-same-constructor/">Hacker News AI</source>
+<category>C++</category>
+<category>性能优化</category>
+<category>语言语义</category>
+</item>
+<item><title>亚马逊与 Meta 洽谈 Muse 购物智能体接入</title><link>https://www.ithome.com/1/032/515.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/515.htm</guid>
 <pubDate>Wed, 25 Nov 2026 22:45:47 +0800</pubDate>
-<description>&lt;p&gt;Amazon is in multi-round talks with Meta to let the Muse AI shopping agent plug into its marketplace, a sharp reversal from blocking Muse checkouts two months ago. Negotiations hinge on how search results are displayed and how advertising revenue is handled, with Amazon worried that third-party agents could erode ad income and its direct customer relationship; any deal needs CEO approval from both sides.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊与 Meta 洽谈 Muse 购物智能体接入&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部电商与社交巨头围绕 AI 购物智能体的入口与广告利益博弈，是智能体商业化落地的关键风向标。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;亚马逊正与 Meta 就 Muse AI 购物智能体接入其电商平台展开多轮谈判，态度较两个月前直接屏蔽出现明显反转。谈判卡在搜索结果展示方式与广告业务安排两大议题，核心顾虑是第三方智能体冲击广告收入并削弱亚马逊对用户关系的掌控，协议需双方 CEO 批准。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部电商与社交巨头围绕 AI 购物智能体的入口与广告利益博弈，是智能体商业化落地的关键风向标。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/515.htm">IT之家 · 智能时代</source>
 <category>智能体</category>
 <category>电商</category>
@@ -13,54 +30,54 @@
 <category>Meta</category>
 <category>AI 购物</category>
 </item>
-<item><title>Zhiyuan LinkSoul Platform Incubates Over 30,000 Robot Agents in First Year</title><link>https://www.qbitai.com/2026/11/512715.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/512715.html</guid>
+<item><title>智元灵心平台一年孵化超 3 万个机器人智能体</title><link>https://www.qbitai.com/2026/11/512715.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/512715.html</guid>
 <pubDate>Wed, 25 Nov 2026 22:32:57 +0800</pubDate>
-<description>&lt;p&gt;Zhiyuan Robotics unveiled its AIMA embodied-AI ecosystem stack and the Yuansheng plan, committing at least RMB 2 billion over five years to ecosystem building. Its LinkSoul agent development platform reports 20,000+ users, 30,000+ robot agents and 70,000+ content items in its first year, using natural-language agent creation, visual task orchestration, 3D simulation debugging and SDK/MCP/Skill connectors to shift robot app development from one-off customization to continuous iteration.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;智元灵心平台一年孵化超 3 万个机器人智能体&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;具身智能平台化降低开发门槛的规模化数据值得关注，但内容偏厂商生态宣传，技术细节有限。&lt;/p&gt;&lt;p&gt;量子位官网 · agent · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;智元机器人发布 AIMA 具身智能生态技术体系及五年不低于 20 亿元的“元苼”生态计划，其灵心（LinkSoul）智能体开发平台上线一年累计吸引 2 万+ 用户、孵化 3 万+ 机器人智能体、沉淀 7 万+ 平台内容。平台通过自然语言创建智能体、知识技能配置、可视化任务编排与 3D 仿真调试，并借助 SDK、MCP、Skill 连接外部工具与机器人本体，试图把机器人应用从一次性定制开发转向持续迭代。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;具身智能平台化降低开发门槛的规模化数据值得关注，但内容偏厂商生态宣传，技术细节有限。&lt;/p&gt;&lt;p&gt;量子位官网 · agent · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.qbitai.com/2026/11/512715.html">量子位官网</source>
 <category>具身智能</category>
 <category>智能体平台</category>
 <category>智元机器人</category>
 <category>开发者生态</category>
 </item>
-<item><title>DataCanvas Unveils Physical AI Factory and Open Ecosystem Plan</title><link>https://www.qbitai.com/2026/11/512582.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/512582.html</guid>
+<item><title>九章云极发布物理 AI 工厂与生态开放计划</title><link>https://www.qbitai.com/2026/11/512582.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/512582.html</guid>
 <pubDate>Wed, 25 Nov 2026 22:21:20 +0800</pubDate>
-<description>&lt;p&gt;DataCanvas hosted a Physical AI summit in Shenzhen, proposing a \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;九章云极发布物理 AI 工厂与生态开放计划&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;厂商主导的生态大会，提出物理 AI 工程化与算力组织思路，但缺乏具体产品参数与可验证指标。&lt;/p&gt;&lt;p&gt;量子位官网 · compute · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;九章云极 DataCanvas 在深圳举办物理 AI 行业峰会，提出以“物理 AI 工厂”将算力工程化为生产体系，并联合产业链发起物理 AI 联盟与生态开放计划。会议聚焦机器人、世界模型与仿真软件从实验室走向产线的可靠性工程问题，龙华区已建成虚实融合具身智能训练场作为落地试验场。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;厂商主导的生态大会，提出物理 AI 工程化与算力组织思路，但缺乏具体产品参数与可验证指标。&lt;/p&gt;&lt;p&gt;量子位官网 · compute · signal 42/100&lt;/p&gt;</description>
 <source url="https://www.qbitai.com/2026/11/512582.html">量子位官网</source>
 <category>物理AI</category>
 <category>算力基础设施</category>
 <category>具身智能</category>
 <category>生态联盟</category>
 </item>
-<item><title>LimX Dynamics Partners with SenseTime to Power Robot Simulation Training</title><link>https://www.qbitai.com/2026/11/512683.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/512683.html</guid>
+<item><title>逐际动力与商汤大装置合作 以算力支撑机器人仿真训练</title><link>https://www.qbitai.com/2026/11/512683.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/512683.html</guid>
 <pubDate>Wed, 25 Nov 2026 22:20:24 +0800</pubDate>
-<description>&lt;p&gt;LimX Dynamics has partnered with SenseTime&amp;#x27;s SenseCore platform to obtain elastic compute scheduling for robot simulation, vision-policy training and reinforcement learning, easing resource contention across concurrent tasks. SenseTime says it has optimized embodied models such as OpenPI, WorldScape-Policy and OmniVLA for domestic chips, and already serves clients including Fourier Robotics.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;逐际动力与商汤大装置合作 以算力支撑机器人仿真训练&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;具身智能企业与国产算力平台的落地合作，披露了 VLA 模型训练优化的具体对象，但整体偏客户案例 PR。&lt;/p&gt;&lt;p&gt;量子位官网 · compute · signal 52/100&lt;/p&gt;</description>
+<description>&lt;p&gt;逐际动力与商汤大装置达成合作，后者将依托 SenseCore 平台为逐际动力的机器人仿真、视觉策略训练与强化学习提供弹性算力调度，缓解并发任务资源争用。商汤大装置称已针对 OpenPI、WorldScape-Policy 和 OmniVLA 等具身模型在国产算力上的训练瓶颈做专项优化，此前已服务傅利叶机器人、大晓机器人等客户。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;具身智能企业与国产算力平台的落地合作，披露了 VLA 模型训练优化的具体对象，但整体偏客户案例 PR。&lt;/p&gt;&lt;p&gt;量子位官网 · compute · signal 52/100&lt;/p&gt;</description>
 <source url="https://www.qbitai.com/2026/11/512683.html">量子位官网</source>
 <category>具身智能</category>
 <category>算力基础设施</category>
 <category>商汤大装置</category>
 <category>逐际动力</category>
 </item>
-<item><title>AWS Launches S3 Files with Native File System Access</title><link>https://aws.amazon.com/s3/features/files/</link><guid isPermaLink="true">https://aws.amazon.com/s3/features/files/</guid>
+<item><title>AWS 推出 S3 Files 原生文件系统访问</title><link>https://aws.amazon.com/s3/features/files/</link><guid isPermaLink="true">https://aws.amazon.com/s3/features/files/</guid>
 <pubDate>Wed, 25 Nov 2026 22:19:21 +0800</pubDate>
-<description>&lt;p&gt;AWS has launched S3 Files, a shared file system that lets any AWS compute instance, container, or function read and write S3 data with full file system semantics, eliminating the need to duplicate or cycle data between object and file storage. AWS claims it is the first cloud object store to offer fully featured, high-performance file system access, simplifying storage architecture for file-based applications and AI agents.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AWS 推出 S3 Files 原生文件系统访问&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;云对象存储首次原生支持完整文件系统语义，直接影响 AI 数据管道与智能体存储架构选型。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;AWS 发布 S3 Files，让任意 AWS 计算实例、容器与函数以完整文件系统语义直接读写 S3 中的数据，无需在对象存储与文件存储之间复制或迁移数据。官方称这是首个提供全功能高性能文件系统访问的云对象存储，可降低 AI 智能体与文件型应用的存储架构复杂度。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;云对象存储首次原生支持完整文件系统语义，直接影响 AI 数据管道与智能体存储架构选型。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 62/100&lt;/p&gt;</description>
 <source url="https://aws.amazon.com/s3/features/files/">Hacker News AI</source>
 <category>云存储</category>
 <category>AWS</category>
 <category>对象存储</category>
 <category>文件系统</category>
 </item>
-<item><title>Amazon in Talks with Meta to Unblock Muse AI Shopping Agent</title><link>https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions</link><guid isPermaLink="true">https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions</guid>
+<item><title>亚马逊与 Meta 洽谈解除 Muse 购物智能体封禁</title><link>https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions</link><guid isPermaLink="true">https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions</guid>
 <pubDate>Wed, 25 Nov 2026 22:12:33 +0800</pubDate>
-<description>&lt;p&gt;Amazon is reportedly negotiating with Meta to lift its block on the Muse AI shopping agent, with talks centered on which products the agent recommends and the potential hit to Amazon&amp;#x27;s ad revenue. Amazon also worries about search-result quality and customer relationships, while pushing its own Alexa for Shopping assistant as the in-house alternative.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊与 Meta 洽谈解除 Muse 购物智能体封禁&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;电商巨头与 AI 智能体在流量入口与广告商业模式上的首次正面博弈，预示智能体购物时代的平台规则之争。&lt;/p&gt;&lt;p&gt;The Verge AI · agent · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;亚马逊正与 Meta 就允许 Muse AI 购物智能体接入其电商平台展开谈判，核心分歧在于智能体推荐商品的范围及其对亚马逊广告收入的冲击。亚马逊同时担忧 Muse 的商品搜索结果质量与客户关系归属，并正力推自家 Alexa for Shopping 作为替代方案。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;电商巨头与 AI 智能体在流量入口与广告商业模式上的首次正面博弈，预示智能体购物时代的平台规则之争。&lt;/p&gt;&lt;p&gt;The Verge AI · agent · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions">The Verge AI</source>
 <category>智能体</category>
 <category>电商</category>
 <category>亚马逊</category>
 <category>Meta</category>
 </item>
-<item><title>Amazon and Meta in Talks to Unblock AI Shopping Agent Muse</title><link>https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/</guid>
+<item><title>亚马逊与 Meta 洽谈解禁 AI 购物智能体 Muse</title><link>https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/</guid>
 <pubDate>Wed, 25 Nov 2026 22:10:18 +0800</pubDate>
-<description>&lt;p&gt;Amazon and Meta are reportedly in multiple rounds of talks to let Meta&amp;#x27;s AI shopping agent Muse connect directly to Amazon&amp;#x27;s store, a sharp reversal from the blockade two months ago. The sticking points are how search results are presented and how advertising is handled, since third-party shopping agents could disrupt Amazon&amp;#x27;s ad business; any deal would require CEO approval on both sides.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊与 Meta 洽谈解禁 AI 购物智能体 Muse&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部平台与智能体之间的接入博弈，直接决定 AI 购物智能体的商业可行性与平台生态规则走向。&lt;/p&gt;&lt;p&gt;TechCrunch AI · agent · signal 74/100&lt;/p&gt;</description>
+<description>&lt;p&gt;亚马逊与 Meta 正就允许 Meta 的 AI 购物智能体 Muse 直连亚马逊商城进行多轮谈判，此举较两个月前的封禁出现重大反转。核心分歧在于搜索结果呈现方式与广告处理机制，因第三方购物智能体可能冲击亚马逊广告业务，任何协议均需双方 CEO 批准。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部平台与智能体之间的接入博弈，直接决定 AI 购物智能体的商业可行性与平台生态规则走向。&lt;/p&gt;&lt;p&gt;TechCrunch AI · agent · signal 74/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/">TechCrunch AI</source>
 <category>AI 智能体</category>
 <category>电商</category>
@@ -68,18 +85,18 @@
 <category>Meta</category>
 <category>亚马逊</category>
 </item>
-<item><title>SK Hynix Targets 100-Layer 3D DRAM Mass Production in Four to Five Years</title><link>https://www.ithome.com/1/032/496.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/496.htm</guid>
+<item><title>SK 海力士计划 4 至 5 年内量产 100 层 3D DRAM</title><link>https://www.ithome.com/1/032/496.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/496.htm</guid>
 <pubDate>Wed, 25 Nov 2026 21:33:04 +0800</pubDate>
-<description>&lt;p&gt;SK Hynix aims to mass-produce 3D DRAM within four to five years, with its first commercial product stacking 100 vertical layers, senior engineer Choi Kang-sik said at Seoul National University&amp;#x27;s AI semiconductor forum. The company has already fabricated cell prototypes and validated device characteristics matching conventional DRAM refresh performance, with a long-term goal of exceeding 1,000 layers by borrowing 3D NAND stacking and hybrid bonding techniques.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SK 海力士计划 4 至 5 年内量产 100 层 3D DRAM&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是存储巨头对后摩尔时代 DRAM 架构路线的一次明确时间表披露，直接关系 AI 算力内存供给的长期走向。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;SK 海力士资深工程师崔康植在首尔大学 AI 半导体论坛上透露，公司计划在 4 至 5 年内实现 3D DRAM 量产，首款商用产品将采用 100 层垂直堆叠。公司已完成存储单元样片制造并验证器件工作特性，刷新性能可对标传统 DRAM，长期目标则借鉴 3D NAND 工艺冲击 1000 层以上。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是存储巨头对后摩尔时代 DRAM 架构路线的一次明确时间表披露，直接关系 AI 算力内存供给的长期走向。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/496.htm">IT之家 · IT业界</source>
 <category>3D DRAM</category>
 <category>SK 海力士</category>
 <category>存储芯片</category>
 <category>AI 算力</category>
 </item>
-<item><title>DeepMind Lets AI Agents Run Gemini Experiments on Their Own Compute</title><link>https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/</link><guid isPermaLink="true">https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/</guid>
+<item><title>DeepMind 让 AI 智能体自主调度算力开展 Gemini 实验</title><link>https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/</link><guid isPermaLink="true">https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/</guid>
 <pubDate>Wed, 25 Nov 2026 21:23:36 +0800</pubDate>
-<description>&lt;p&gt;Google DeepMind has begun letting AI agents autonomously control part of its compute to run experiments for the next Gemini model, according to research VP Koray Kavukcuoglu, as part of a shift from specialized teams like AlphaFold toward a single general-purpose algorithm. He stresses the lab remains far from full recursive self-improvement, and deliberately does not reward agents&amp;#x27; chain-of-thought during training so their intentions stay reviewable in natural language before acting.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;DeepMind 让 AI 智能体自主调度算力开展 Gemini 实验&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是前沿实验室首次公开承认智能体已介入自身模型研发的算力调度，触及 AI 自我改进这一核心议题。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Google DeepMind 研究副总裁 Koray Kavukcuoglu 透露，实验室已让 AI 智能体自主控制部分算力来运行下一代 Gemini 的实验，这是其从 AlphaFold 等专用团队转向单一通用算法的战略调整的一部分。但他强调，距离完全递归自我改进仍很遥远，且训练中刻意不奖励智能体的思维链，以保证其意图在行动前可被自然语言审查。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是前沿实验室首次公开承认智能体已介入自身模型研发的算力调度，触及 AI 自我改进这一核心议题。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 78/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/">The Decoder</source>
 <category>智能体</category>
 <category>Google DeepMind</category>
@@ -87,89 +104,89 @@
 <category>递归自我改进</category>
 <category>算力</category>
 </item>
-<item><title>Anthropic Study of 58 Firms Reveals Organizational Bottlenecks in AI Adoption</title><link>https://the-decoder.com/anthropic-study-shows-the-hardest-part-of-adopting-ai-at-work-has-little-to-do-with-learning-the-tools/</link><guid isPermaLink="true">https://the-decoder.com/anthropic-study-shows-the-hardest-part-of-adopting-ai-at-work-has-little-to-do-with-learning-the-tools/</guid>
+<item><title>Anthropic 调研 58 家企业揭示 AI 落地三大组织瓶颈</title><link>https://the-decoder.com/anthropic-study-shows-the-hardest-part-of-adopting-ai-at-work-has-little-to-do-with-learning-the-tools/</link><guid isPermaLink="true">https://the-decoder.com/anthropic-study-shows-the-hardest-part-of-adopting-ai-at-work-has-little-to-do-with-learning-the-tools/</guid>
 <pubDate>Wed, 25 Nov 2026 21:14:27 +0800</pubDate>
-<description>&lt;p&gt;Anthropic&amp;#x27;s economics team interviewed 66 people across 58 US companies, covering nearly 300 AI applications, and found that 55% deliver higher output or better quality while 19% produce no business value so far. The real friction is internal: excessive AI output for humans to review (49 mentions), employee resistance (43), and required expert reviews (42) outrank tool learning as adoption barriers.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 调研 58 家企业揭示 AI 落地三大组织瓶颈&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;基于 58 家企业一手访谈的实证调研，量化揭示了企业 AI 落地的组织性瓶颈，对评估 AI 部署 ROI 具有直接参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 经济团队对 58 家美国企业开展 66 场访谈，覆盖近 300 个 AI 应用场景，发现 55% 的应用带来产出或质量提升，但 19% 尚未产生任何商业价值。真正的阻力来自企业内部：AI 产出超出人工审核能力（49 次提及）、员工抵触（43 次）与专家复核需求（42 次）位列前三，而非工具学习本身。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;基于 58 家企业一手访谈的实证调研，量化揭示了企业 AI 落地的组织性瓶颈，对评估 AI 部署 ROI 具有直接参考价值。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 72/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/anthropic-study-shows-the-hardest-part-of-adopting-ai-at-work-has-little-to-do-with-learning-the-tools/">The Decoder</source>
 <category>企业AI落地</category>
 <category>Anthropic</category>
 <category>行业调研</category>
 <category>组织变革</category>
 </item>
-<item><title>Vibe Coding Agents Push Music Gear Makers Toward Open Source</title><link>https://www.theverge.com/ai-artificial-intelligence/1040081/vibe-coding-open-source-music-firmware</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1040081/vibe-coding-open-source-music-firmware</guid>
+<item><title>AI 编程代理倒逼音乐硬件厂商开源</title><link>https://www.theverge.com/ai-artificial-intelligence/1040081/vibe-coding-open-source-music-firmware</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1040081/vibe-coding-open-source-music-firmware</guid>
 <pubDate>Wed, 25 Nov 2026 21:00:00 +0800</pubDate>
-<description>&lt;p&gt;AI coding agents and reverse-engineering tools are rapidly cracking and modding music hardware firmware, forcing vendors to adapt. inMusic chose to open up SDKs and internals for devices like the MPC, while Roland, Korg and others remain silent.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 编程代理倒逼音乐硬件厂商开源&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 代理能力外溢至硬件固件领域，倒逼传统厂商开源，是观察 AI 对实体产业冲击的典型案例。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;AI 编程代理与逆向工程工具让音乐硬件固件被快速破解与魔改，迫使厂商调整策略。inMusic 选择主动开放 MPC 等设备的 SDK 与内部机制，Roland、Korg 等多数厂商仍保持沉默。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 代理能力外溢至硬件固件领域，倒逼传统厂商开源，是观察 AI 对实体产业冲击的典型案例。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.theverge.com/ai-artificial-intelligence/1040081/vibe-coding-open-source-music-firmware">The Verge AI</source>
 <category>AI 编程代理</category>
 <category>开源硬件</category>
 <category>音乐科技</category>
 </item>
-<item><title>Stripe Valuation Set to Top $200 Billion in Share Buyback</title><link>https://www.ithome.com/1/032/488.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/488.htm</guid>
+<item><title>Stripe 估值有望突破 2000 亿美元</title><link>https://www.ithome.com/1/032/488.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/488.htm</guid>
 <pubDate>Wed, 25 Nov 2026 20:37:30 +0800</pubDate>
-<description>&lt;p&gt;Stripe is discussing its annual share buyback, with its valuation expected to surpass $200 billion. The payments company has been aggressively expanding into AI, acquiring model-routing platform OpenRouter for over $7 billion in August and adding Metronome and Parafin to integrate its stack with the agentic commerce market.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Stripe 估值有望突破 2000 亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;支付巨头估值跃升叠加 70 亿美元收购 OpenRouter，是 AI 智能体商业基础设施的重要产业信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Stripe 正讨论新一轮年度例行股票回购，估值有望突破 2000 亿美元，较此前大幅跃升。该公司今年 8 月以超 70 亿美元收购 AI 模型路由平台 OpenRouter，并连续并购 Metronome、Parafin，加速将支付技术栈与智能体消费市场整合。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;支付巨头估值跃升叠加 70 亿美元收购 OpenRouter，是 AI 智能体商业基础设施的重要产业信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/488.htm">IT之家 · IT业界</source>
 <category>支付</category>
 <category>融资估值</category>
 <category>智能体商业</category>
 <category>并购</category>
 </item>
-<item><title>TSMC Share Climbs to 75% as Pure-Play Foundry Market Grows 36%</title><link>https://www.ithome.com/1/032/477.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/477.htm</guid>
+<item><title>台积电 Q3 份额升至 75% 纯代工市场同比增长 36%</title><link>https://www.ithome.com/1/032/477.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/477.htm</guid>
 <pubDate>Wed, 25 Nov 2026 20:15:21 +0800</pubDate>
-<description>&lt;p&gt;Counterpoint data shows the global pure-play foundry market grew 36% year over year and 13% quarter over quarter in Q3 2026, driven by AI demand for advanced nodes and packaging outpacing supply. TSMC&amp;#x27;s share rose to 75% from 73% in the prior two quarters on 16% sequential revenue growth, backed by 2nm ramp, fully loaded N3 capacity and CoWoS expansion, while Samsung slipped to 6.4% and SMIC held third on record revenue.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;台积电 Q3 份额升至 75% 纯代工市场同比增长 36%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 算力供给格局的关键量化信号，直接反映先进制程与 CoWoS 封装的供需紧张程度。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Counterpoint 数据显示，2026 年 Q3 全球纯晶圆代工市场同比增长 36%、环比增长 13%，AI 对先进制程与先进封装的需求持续超过供给是核心驱动。台积电份额由前两季的 73% 扩大至 75%，营收环比增长 16%，2 纳米放量、N3 满载与 CoWoS 扩产共同支撑；三星份额降至 6.4%，中芯国际以创纪录营收守住第三。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 算力供给格局的关键量化信号，直接反映先进制程与 CoWoS 封装的供需紧张程度。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/477.htm">IT之家 · IT业界</source>
 <category>晶圆代工</category>
 <category>台积电</category>
 <category>AI 算力</category>
 <category>先进封装</category>
 </item>
-<item><title>Theoretical Physicists Move to Build a Fair AI Benchmark</title><link>https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/</link><guid isPermaLink="true">https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/</guid>
+<item><title>理论物理学家着手构建 AI 基准测试</title><link>https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/</link><guid isPermaLink="true">https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/</guid>
 <pubDate>Wed, 25 Nov 2026 20:00:28 +0800</pubDate>
-<description>&lt;p&gt;Theoretical physicist Suvrat Raju tested a frontier AI model with an unpublished physics problem; the model failed but performed better than expected, prompting him and a colleague to build a dedicated theoretical physics benchmark. The effort stresses original, never-published problems to avoid memorization contamination from internet training data.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;理论物理学家着手构建 AI 基准测试&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出以未公开原创问题评测 AI 物理推理能力的思路，切中大模型基准污染这一关键痛点。&lt;/p&gt;&lt;p&gt;Ars Technica AI · llm · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;印度理论物理学家 Suvrat Raju 用一道从未公开的物理题测试前沿大模型，模型虽答错但表现超出预期，促使他联合同事着手构建专门面向理论物理的 AI 基准测试。该基准强调使用未在互联网上出现过的原创问题，以规避大模型对公开题目的记忆污染。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出以未公开原创问题评测 AI 物理推理能力的思路，切中大模型基准污染这一关键痛点。&lt;/p&gt;&lt;p&gt;Ars Technica AI · llm · signal 58/100&lt;/p&gt;</description>
 <source url="https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/">Ars Technica AI</source>
 <category>基准测试</category>
 <category>理论物理</category>
 <category>大模型评测</category>
 <category>AI for Science</category>
 </item>
-<item><title>PrismML Compresses 54 GB Model Down to 5.9 GB</title><link>https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/</link><guid isPermaLink="true">https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/</guid>
+<item><title>PrismML 将 54 GB 模型压缩至 5.9 GB</title><link>https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/</link><guid isPermaLink="true">https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/</guid>
 <pubDate>Wed, 25 Nov 2026 19:51:49 +0800</pubDate>
-<description>&lt;p&gt;PrismML released Ternary Bonsai 2.5 27B, built on Qwen3.8-27B and using ternary quantization where each weight is limited to -1, 0, or +1, cutting memory from roughly 54 GB to 5.9 GB. The update targets long-chain tool-calling agent tasks, lifting SWE-bench Verified from 60.8% to 75.6% and AppWorld from 51.2% to 90.5%, approaching the full-precision base model.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;PrismML 将 54 GB 模型压缩至 5.9 GB&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;极端量化把 27B 模型压到手机可承载的体积且智能体能力大幅回升，是端侧部署的重要信号。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;PrismML 发布 Ternary Bonsai 2.5 27B，基于 Qwen3.8-27B 采用三值量化（权重仅取 -1、0、+1），内存占用从约 54 GB 降至 5.9 GB。该版本针对长链工具调用的智能体任务优化，SWE-bench Verified 从 60.8% 提升至 75.6%，AppWorld 从 51.2% 跃升至 90.5%，接近原始全精度模型水平。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;极端量化把 27B 模型压到手机可承载的体积且智能体能力大幅回升，是端侧部署的重要信号。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/">The Decoder</source>
 <category>三值量化</category>
 <category>端侧模型</category>
 <category>智能体</category>
 <category>PrismML</category>
 </item>
-<item><title>Windows Loudness Equalization Reverse-Engineered and Ported to PipeWire</title><link>https://github.com/xoxorwr/pw-loudness-eq</link><guid isPermaLink="true">https://github.com/xoxorwr/pw-loudness-eq</guid>
+<item><title>Windows 响度均衡被逆向移植至 PipeWire</title><link>https://github.com/xoxorwr/pw-loudness-eq</link><guid isPermaLink="true">https://github.com/xoxorwr/pw-loudness-eq</guid>
 <pubDate>Wed, 25 Nov 2026 19:34:25 +0800</pubDate>
-<description>&lt;p&gt;A developer reverse-engineered Windows&amp;#x27; Loudness Equalization and the audio engine&amp;#x27;s output limiter from WMALFXGFXDSP.dll and AudioEng.dll, reimplementing them as PipeWire DSP modules and plugins that even out per-application playback volume. The project ships an optional GTK3 control window for global or per-app toggling and release-time tuning, and requires PipeWire 1.4 or newer.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Windows 响度均衡被逆向移植至 PipeWire&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把 Windows 独有音频处理链路逆向为 Linux 开源实现，对桌面音频与 PipeWire 生态有实际可用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;开发者从 Windows 音频引擎的 WMALFXGFXDSP.dll 与 AudioEng.dll 中逆向出响度均衡与输出限幅器，并将其实现为 PipeWire 的 DSP 模块与插件，可对每个应用的播放流做音量均衡。项目附带 GTK3 控制窗口，支持全局或按应用开关及释放时间调节，需 PipeWire 1.4 及以上。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把 Windows 独有音频处理链路逆向为 Linux 开源实现，对桌面音频与 PipeWire 生态有实际可用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://github.com/xoxorwr/pw-loudness-eq">Hacker News AI</source>
 <category>PipeWire</category>
 <category>音频处理</category>
 <category>逆向工程</category>
 <category>开源工具</category>
 </item>
-<item><title>Chinese Team&#x27;s Looped Model Cuts Weight Memory by 98 Percent</title><link>https://www.qbitai.com/2026/11/512565.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/512565.html</guid>
+<item><title>中国团队 Loop 架构实现 9400 万参数对标 50 亿</title><link>https://www.qbitai.com/2026/11/512565.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/512565.html</guid>
 <pubDate>Wed, 25 Nov 2026 19:07:14 +0800</pubDate>
-<description>&lt;p&gt;Chinese startup FaceMind AI has introduced General Looped Model, which decouples parameter scale from computational depth by reusing a single weight set across multiple hidden-state iterations. A 94M-parameter model reportedly matches a 5B-parameter baseline while cutting weight memory by 98%. The team had earlier published LoopWM, the first looped-architecture paper for world models, predating public disclosures from OpenAI Astra and Zhipu GLM-5.4.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;中国团队 Loop 架构实现 9400 万参数对标 50 亿&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Loop 架构正成为大模型新范式，该报告给出参数与计算深度解耦的完整工程路径与跨赛道实测，具备实质技术增量。&lt;/p&gt;&lt;p&gt;量子位官网 · llm · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;脸谱心智团队提出 General Looped Model，通过复用同一组权重对隐状态进行多轮迭代，将参数规模与计算深度解耦，9400 万参数模型可对标 50 亿参数模型，权重显存直降 98%。该团队此前已发布全球首篇面向世界模型的循环架构论文 LoopWM，早于 OpenAI Astra 与智谱 GLM-5.4 的公开报道。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Loop 架构正成为大模型新范式，该报告给出参数与计算深度解耦的完整工程路径与跨赛道实测，具备实质技术增量。&lt;/p&gt;&lt;p&gt;量子位官网 · llm · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.qbitai.com/2026/11/512565.html">量子位官网</source>
 <category>Loop架构</category>
 <category>大模型</category>
 <category>显存优化</category>
 <category>脸谱心智</category>
 </item>
-<item><title>MIT Team Finds Synthetic Data Makes AI Climate Models More Reliable</title><link>https://the-decoder.com/mit-team-discovers-that-unrealistic-training-data-makes-ai-climate-predictions-more-reliable/</link><guid isPermaLink="true">https://the-decoder.com/mit-team-discovers-that-unrealistic-training-data-makes-ai-climate-predictions-more-reliable/</guid>
+<item><title>MIT 团队发现合成数据可让 AI 气候预测更可靠</title><link>https://the-decoder.com/mit-team-discovers-that-unrealistic-training-data-makes-ai-climate-predictions-more-reliable/</link><guid isPermaLink="true">https://the-decoder.com/mit-team-discovers-that-unrealistic-training-data-makes-ai-climate-predictions-more-reliable/</guid>
 <pubDate>Wed, 25 Nov 2026 18:47:51 +0800</pubDate>
-<description>&lt;p&gt;A team from MIT, ETH Zurich, and Imperial College London has built an algorithm that trains AI climate emulators on synthetic rather than realistic scenario data, cutting the required training data to a fraction of previous levels. The approach makes emulators faster and cheaper to build and more robust on unfamiliar scenarios, addressing the problem of models being outdated by the time training finishes.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;MIT 团队发现合成数据可让 AI 气候预测更可靠&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;用合成数据降低气候模拟器训练成本并提升泛化，是 AI for Science 领域有方法增量的实证结果。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;MIT 联合 ETH Zurich 与帝国理工学院提出一种新训练算法，用合成数据替代部分真实气候模拟，使 AI 气候模拟器所需训练数据降至常规的一小部分，训练更快更便宜，且在陌生情景下表现更稳健。该方法有望缓解气候模拟器训练周期过长、模型刚完成即过时的问题。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;用合成数据降低气候模拟器训练成本并提升泛化，是 AI for Science 领域有方法增量的实证结果。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 72/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/mit-team-discovers-that-unrealistic-training-data-makes-ai-climate-predictions-more-reliable/">The Decoder</source>
 <category>AI for Science</category>
 <category>合成数据</category>
 <category>气候预测</category>
 <category>MIT</category>
 </item>
-<item><title>JD Logistics Launches F2B2C Cold-Chain Solution Covering 340 Cities</title><link>https://www.ithome.com/1/032/445.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/445.htm</guid>
+<item><title>京东物流发布 F2B2C 冷链方案 覆盖 340 城</title><link>https://www.ithome.com/1/032/445.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/445.htm</guid>
 <pubDate>Wed, 25 Nov 2026 18:44:05 +0800</pubDate>
-<description>&lt;p&gt;JD Logistics unveiled the industry&amp;#x27;s first F2B2C full-scenario cold-chain solution, linking origin, merchant and consumer across more than 340 cities, with over 80% of orders delivered same-day or next-day. Its new Chengdu &amp;#x27;Zhilang&amp;#x27; cold-chain warehouse, the industry&amp;#x27;s first automated low-temperature facility, keeps robots operating at -20°C and lifts picking-to-dispatch efficiency by over 3x.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;京东物流发布 F2B2C 冷链方案 覆盖 340 城&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;冷链自动化仓储的低温机器人落地具备真实工程参数与规模数据，是物流 AI 硬件的可参考案例。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;京东物流发布行业首个 F2B2C 冷链全场景解决方案，整合产地、商家与消费者全链路，服务覆盖超 340 个城市，超 80% 订单实现当日或次日达。同步开仓的成都冷链“智狼”仓为行业首个低温自动化冷链仓，-20℃ 环境下机器人稳定作业，拣选到出库最快十余分钟，库区效率提升超 3 倍。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;冷链自动化仓储的低温机器人落地具备真实工程参数与规模数据，是物流 AI 硬件的可参考案例。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 42/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/445.htm">IT之家 · IT业界</source>
 <category>冷链物流</category>
 <category>仓储自动化</category>
@@ -257,26 +274,6 @@
 <category>基准评测</category>
 <category>智能体</category>
 <category>谷歌</category>
-</item>
-<item><title>匿名模型 HungerG 空降两大编程平台 支持 100 万上下文</title><link>https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652745183&amp;idx=1&amp;sn=07553853fe2c0df02d2209ea8a3f6c90</link><guid isPermaLink="true">https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652745183&amp;idx=1&amp;sn=07553853fe2c0df02d2209ea8a3f6c90</guid>
-<pubDate>Wed, 25 Nov 2026 17:40:00 +0800</pubDate>
-<description>&lt;p&gt;一个代号为 HungerG 的匿名模型突然上线 Qoder 与 OpenCode 两大 AI 编程平台，提供 100 万 token 超长上下文、原生多模态输入，并承诺不将用户数据用于训练，同时限时免费开放调用。数小时内开发者实测内容大量涌现，涵盖 3D 聚变反应堆生成、浏览器自动化找 Bug 等任务，但模型归属方与具体参数尚未公开。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;匿名前沿模型突袭两大编程平台并引发大规模实测，是观察模型能力与厂商暗测策略的一手信号。&lt;/p&gt;&lt;p&gt;新智元 (微信公众号) · llm · signal 58/100&lt;/p&gt;</description>
-<source url="https://mp.weixin.qq.com/s?__biz=MzI3MTA0MTk1MA==&amp;mid=2652745183&amp;idx=1&amp;sn=07553853fe2c0df02d2209ea8a3f6c90">新智元 (微信公众号)</source>
-<category>大模型</category>
-<category>AI 编程</category>
-<category>匿名模型</category>
-<category>Qoder</category>
-<category>OpenCode</category>
-</item>
-<item><title>金山软件第三财季归母亏损 2.04 亿元</title><link>https://www.ithome.com/1/032/358.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/358.htm</guid>
-<pubDate>Wed, 25 Nov 2026 17:36:05 +0800</pubDate>
-<description>&lt;p&gt;金山软件 2026 财年第三财季营收 24.39 亿元同比增长 1%，归母净利润由盈转亏至 -2.04 亿元，主因分占联营公司公允价值变动产生 10.91 亿元非现金亏损。核心经营仍稳健，经调整归母净利润 3.01 亿元同比增长 12%，办公业务收入 17.66 亿元增长 16%，联营金山云 AI 云账单收入同比大增 115%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;财报揭示办公与 AI 云业务高增长，同时投资公允价值波动导致报表转亏，是观察金山系 AI 商业化进度的关键窗口。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/032/358.htm">IT之家 · IT业界</source>
-<category>金山软件</category>
-<category>财报</category>
-<category>金山云</category>
-<category>AI 云</category>
-<category>办公软件</category>
 </item>
 </channel>
 </rss>
