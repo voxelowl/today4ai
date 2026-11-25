@@ -1,73 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Thu, 26 Nov 2026 03:28:55 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 26 Nov 2026 04:01:44 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
-<item><title>Agent Arena 帕累托前沿仅剩 4 款模型</title><link>https://x.com/arena/status/2125673103405830417</link><guid isPermaLink="true">https://x.com/arena/status/2125673103405830417</guid>
+<item><title>Abstract Launches Cloud Inference for Robots with 30ms Round Trip</title><link>https://x.com/rohanpaul_ai/status/2125681362195857426</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125681362195857426</guid>
+<pubDate>Thu, 26 Nov 2026 04:01:44 +0800</pubDate>
+<description>&lt;p&gt;Abstract has launched a cloud inference service that moves robot model compute off the device and onto its own GPUs. Robots send camera frames, current state and a plain-language task, and the service returns the next chunk of motion commands with a claimed 30ms round trip. The model turns GPU hardware from a per-unit purchase into a per-request bill, shifting the cost math for teams building robots at scale.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Abstract 推出机器人云端推理 30 毫秒往返&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;机器人推理从板载 GPU 转向云端按请求计费，是具身智能成本结构的一次实质性变化。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 62/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2125681362195857426">Rohan Paul (@rohanpaul_ai)</source>
+<category>具身智能</category>
+<category>云端推理</category>
+<category>机器人</category>
+<category>算力</category>
+</item>
+<item><title>Amodei Rejects Claims Anthropic Would Surrender Human Control to AI</title><link>https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/</guid>
+<pubDate>Thu, 26 Nov 2026 03:44:24 +0800</pubDate>
+<description>&lt;p&gt;Anthropic CEO Dario Amodei pushed back on claims that his company wants humanity to surrender free will to AI, calling the idea \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Amodei 驳斥 Anthropic 放弃人类控制权指控&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 实验室掌门人就人类能动性与 AI 治理公开交锋，反映行业安全路线分歧，但属观点论战、无技术增量。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 38/100&lt;/p&gt;</description>
+<source url="https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/">TechCrunch AI</source>
+<category>AI 安全</category>
+<category>Anthropic</category>
+<category>行业观点</category>
+</item>
+<item><title>US Chip Curbs Stall Billions in Loans Tied to ByteDance, Alibaba, Tencent</title><link>https://x.com/rohanpaul_ai/status/2125676144678821985</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125676144678821985</guid>
+<pubDate>Thu, 26 Nov 2026 03:41:00 +0800</pubDate>
+<description>&lt;p&gt;Bloomberg reports that new US chip export controls now target who uses advanced chips rather than only where they are shipped, closing the remote-rental route Chinese firms have used since 2022 via Southeast Asian data centers. With the license approval process and covered entities still undefined, lenders cannot price compute rentals tied to ByteDance, Alibaba and Tencent, stalling billions in loans, including a $480M facility for Aolani now under reassessment.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美国芯片新规波及字节阿里腾讯 数十亿美元贷款被搁置&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;管制口径从出货地转向使用者，直接冲击中国大厂的海外算力获取路径与融资链条，是算力地缘格局的重要变量。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2125676144678821985">Rohan Paul (@rohanpaul_ai)</source>
+<category>芯片管制</category>
+<category>算力基础设施</category>
+<category>字节跳动</category>
+<category>阿里巴巴</category>
+<category>腾讯</category>
+</item>
+<item><title>NTU Method Teaches AI Agents to Wait, Boosting Accuracy by 17.1%</title><link>https://x.com/rohanpaul_ai/status/2125674862459130075</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125674862459130075</guid>
+<pubDate>Thu, 26 Nov 2026 03:35:54 +0800</pubDate>
+<description>&lt;p&gt;Researchers at NTU Singapore propose RLVB (Reinforcement Learning with Verifiable Beliefs), which rewards agents for continuing to explore while multiple candidate answers remain and for answering only once evidence suffices, rather than rewarding the final answer alone. Across three Qwen vision-language models and three benchmarks, RLVB beats the base model by 17.1% on average, while outcome-reward RL falls below baseline. Premature commitment in under-evidenced turns drops from 3-68% to 0.1-2.2% after training.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;NTU 新方法让智能体学会等待 准确率提升 17.1%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;直击智能体“过早下结论”的普遍失效模式，用可验证信念重塑奖励信号，并给出跨模型跨基准的量化提升。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2125674862459130075">Rohan Paul (@rohanpaul_ai)</source>
+<category>强化学习</category>
+<category>智能体</category>
+<category>视觉语言模型</category>
+<category>南洋理工大学</category>
+</item>
+<item><title>Only Four Models Remain on Agent Arena Pareto Frontier</title><link>https://x.com/arena/status/2125673103405830417</link><guid isPermaLink="true">https://x.com/arena/status/2125673103405830417</guid>
 <pubDate>Thu, 26 Nov 2026 03:28:55 +0800</pubDate>
-<description>&lt;p&gt;Arena.ai 公布 Agent Arena 能力与对齐帕累托前沿，仅 GPT-6.2 Sol、GPT-6.2 Astra、GPT-6 Astra 与 Claude Fable 5.2 四款模型入选，其余模型均被至少一款前沿模型在两项指标上同时超越。GPT-6.2 Sol 以 85.5 的对齐指数居首，Claude Fable 5.2 以 1448 的 Agent Arena 指数成为能力最强模型，Gemini 4 Neon 等旗舰模型均未进入前沿。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是智能体评测领域少见的双轴帕累托排名，直接反映头部模型在能力与对齐上的取舍格局。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Arena.ai published the Agent Arena capability-versus-alignment Pareto frontier, which now contains only four models: GPT-6.2 Sol, GPT-6.2 Astra, GPT-6 Astra and Claude Fable 5.2. Every other leaderboard model is dominated on both axes by at least one of them. GPT-6.2 Sol leads on alignment index at 85.5, while Claude Fable 5.2 is the most capable with an Agent Arena index of 1448; flagships such as Gemini 4 Neon fall below the frontier.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Agent Arena 帕累托前沿仅剩 4 款模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是智能体评测领域少见的双轴帕累托排名，直接反映头部模型在能力与对齐上的取舍格局。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 62/100&lt;/p&gt;</description>
 <source url="https://x.com/arena/status/2125673103405830417">Arena.ai (@arena)</source>
 <category>智能体评测</category>
 <category>模型对齐</category>
 <category>Arena.ai</category>
 <category>帕累托前沿</category>
 </item>
-<item><title>OpenAI 宣称证明矩阵乘法指数下界为 9/4</title><link>https://scottaaronson.blog/?p=10379</link><guid isPermaLink="true">https://scottaaronson.blog/?p=10379</guid>
+<item><title>OpenAI Claims Proof That Matrix Multiplication Exponent Is Exactly 9/4</title><link>https://scottaaronson.blog/?p=10379</link><guid isPermaLink="true">https://scottaaronson.blog/?p=10379</guid>
 <pubDate>Thu, 26 Nov 2026 03:11:27 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 发布预印本，宣称证明了矩阵乘法指数 ω 的下界恰为 9/4，与其此前给出的上界吻合，从而彻底确定这一自 1960 年代起悬而未决的算法核心问题。该结果紧随 OpenAI 与 Anthropic 在 VP≠VNP、黎曼猜想等数学难题上的密集产出，标志着 AI 系统正深度介入基础数学证明。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;若属实，这是 AI 直接推动的基础数学与算法理论里程碑，影响远超单一模型发布。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 88/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI has released a preprint claiming a lower bound proving that ω, the exponent of matrix multiplication, is exactly 9/4, matching its earlier upper bound and settling a central algorithmic question open since the late 1960s. The result follows a dense wave of AI-assisted math breakthroughs from OpenAI and Anthropic, including VP≠VNP and the Riemann Hypothesis.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 宣称证明矩阵乘法指数下界为 9/4&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;若属实，这是 AI 直接推动的基础数学与算法理论里程碑，影响远超单一模型发布。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 88/100&lt;/p&gt;</description>
 <source url="https://scottaaronson.blog/?p=10379">Hacker News AI</source>
 <category>数学证明</category>
 <category>算法理论</category>
 <category>OpenAI</category>
 <category>基础研究</category>
 </item>
-<item><title>SpaceX 获 FCC 批准部署百万颗轨道数据中心卫星</title><link>https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html</link><guid isPermaLink="true">https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html</guid>
+<item><title>SpaceX Wins FCC Approval for One Million Orbital Data Center Satellites</title><link>https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html</link><guid isPermaLink="true">https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html</guid>
 <pubDate>Thu, 26 Nov 2026 02:59:43 +0800</pubDate>
-<description>&lt;p&gt;美国联邦通信委员会（FCC）批准 SpaceX 部署 100 万颗用于太空数据中心的 AI 计算卫星，星座命名为 Starmind。FCC 主席 Brendan Carr 称此举将扩大美国在超级智能领域的领先优势，但该计划遭到亚马逊、Viasat 及美国天文学会的反对，争议集中在光学天文观测与监管权限之外的环境影响。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;轨道算力基础设施首次获得监管放行，标志算力竞争向太空延伸，但细节仍待披露。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;The FCC has authorized SpaceX to deploy one million AI computing satellites in orbit as space-based data centers, under a constellation named Starmind. Chairman Brendan Carr framed the approval as extending America&amp;#x27;s lead in super intelligence, while Amazon, Viasat and the American Astronomical Society opposed the plan over optical astronomy and environmental concerns outside the agency&amp;#x27;s authority.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SpaceX 获 FCC 批准部署百万颗轨道数据中心卫星&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;轨道算力基础设施首次获得监管放行，标志算力竞争向太空延伸，但细节仍待披露。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html">Hacker News AI</source>
 <category>算力基础设施</category>
 <category>SpaceX</category>
 <category>FCC</category>
 <category>太空数据中心</category>
 </item>
-<item><title>Ai2 调研科学家对 AI 智能体的责任边界</title><link>https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents</link><guid isPermaLink="true">https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents</guid>
+<item><title>Ai2 Survey Maps Where Scientists Draw the Line on AI Agents</title><link>https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents</link><guid isPermaLink="true">https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents</guid>
 <pubDate>Thu, 26 Nov 2026 02:52:55 +0800</pubDate>
-<description>&lt;p&gt;Ai2 发布负责任 AI 调研报告，聚焦科研人员使用智能体时的责任归属问题。报告指出，把文献综述、数据分析等任务交给 AI 并不转移科学家的责任，研究者仍需核查证据冲突、方法选择与结果可复现性。核心主张是科学 AI 的价值在于拓展可研究的问题边界，而非简单外包工作量。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自 Ai2 的负责任 AI 调研，为科研场景下智能体的责任与可核查性划出边界，对关注 agent 落地的读者有参考价值。&lt;/p&gt;&lt;p&gt;Hugging Face Blog · agent · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Ai2 has published a responsible-AI survey examining accountability when researchers delegate work to agentic systems. The report argues that handing off literature review or data analysis does not transfer responsibility: scientists must still verify conflicting evidence, understand which methods and files an agent used, and confirm reproducibility. Its central claim is that scientific AI should expand the questions researchers can pursue rather than simply offload labor.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Ai2 调研科学家对 AI 智能体的责任边界&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自 Ai2 的负责任 AI 调研，为科研场景下智能体的责任与可核查性划出边界，对关注 agent 落地的读者有参考价值。&lt;/p&gt;&lt;p&gt;Hugging Face Blog · agent · signal 58/100&lt;/p&gt;</description>
 <source url="https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents">Hugging Face Blog</source>
 <category>智能体</category>
 <category>AI for Science</category>
 <category>负责任 AI</category>
 <category>Ai2</category>
 </item>
-<item><title>Living Brain 记忆层助智能体证明 17 项数学结果</title><link>https://x.com/rohanpaul_ai/status/2125661110259106232</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125661110259106232</guid>
+<item><title>Living Brain Memory Layer Helps Agents Prove 17 Math Results</title><link>https://x.com/rohanpaul_ai/status/2125661110259106232</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125661110259106232</guid>
 <pubDate>Thu, 26 Nov 2026 02:41:16 +0800</pubDate>
-<description>&lt;p&gt;面向 AI 智能体的持久记忆层 Living Brain 在黎曼猜想于 Lean 中完成形式化证明三天后，自动检索出可被该结论推进的开放问题，并协助 OpenHuman 智能体完成 17 项证明，其中 6 项为 11 月 20 日前仍开放的命名猜想，包括 Lindelöf 假设与 Erdős 问题 985。其核心价值在于让 ChatGPT、Claude、Cursor 等不同工具共享同一知识存储，切换模型不再丢失已积累的上下文。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;跨模型共享记忆层与形式化数学自动发现开放问题的结合，展示了智能体基础设施的实际增量。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Living Brain, a persistent memory layer for AI agents, surfaced open problems unlocked by the Lean formalization of the Riemann Hypothesis three days after it landed, and helped OpenHuman agents prove 17 results, six of them named conjectures open until 20 November, including the Lindelöf hypothesis and Erdős Problem 985. Its core value is a shared knowledge store across ChatGPT, Claude and Cursor so switching models no longer wipes accumulated context.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Living Brain 记忆层助智能体证明 17 项数学结果&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;跨模型共享记忆层与形式化数学自动发现开放问题的结合，展示了智能体基础设施的实际增量。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 62/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2125661110259106232">Rohan Paul (@rohanpaul_ai)</source>
 <category>智能体</category>
 <category>持久记忆</category>
 <category>形式化数学</category>
 <category>Lean</category>
 </item>
-<item><title>OpenAI 推出私有推理 企业数据不可见</title><link>https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/</link><guid isPermaLink="true">https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/</guid>
+<item><title>OpenAI Pilots Private Inference to Keep Enterprise Data Hidden</title><link>https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/</link><guid isPermaLink="true">https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/</guid>
 <pubDate>Thu, 26 Nov 2026 02:22:02 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 正在为首批企业客户试点名为 Private Inference 的新功能，让企业在调用其最强模型时，OpenAI 自身无法访问查询数据。该功能面向企业客户，OpenAI 本就不将其数据用于训练，而消费级 ChatGPT 对话默认用于训练。OpenAI 表示正扩充算力以扩大服务规模，并将其定位为迈向普惠私有智能的第一步。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部厂商将数据隔离能力产品化，直接影响企业采用敏感业务场景 AI 的合规与信任边界。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI is piloting a feature called Private Inference with its first enterprise customers, letting companies query its most powerful models without OpenAI being able to access the data. The offering targets business customers, whose data OpenAI already excludes from training, unlike default consumer ChatGPT conversations. OpenAI says it is scaling compute to expand availability and frames the move as a first step toward private intelligence for everyone.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 推出私有推理 企业数据不可见&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部厂商将数据隔离能力产品化，直接影响企业采用敏感业务场景 AI 的合规与信任边界。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 72/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/">The Decoder</source>
 <category>OpenAI</category>
 <category>数据隐私</category>
 <category>企业服务</category>
 <category>推理</category>
 </item>
-<item><title>突破 n log n 排序壁垒的算法新进展</title><link>https://iahmed.me/post/nlogn/</link><guid isPermaLink="true">https://iahmed.me/post/nlogn/</guid>
+<item><title>New Algorithms Challenge the n log n Sorting Barrier</title><link>https://iahmed.me/post/nlogn/</link><guid isPermaLink="true">https://iahmed.me/post/nlogn/</guid>
 <pubDate>Thu, 26 Nov 2026 01:54:29 +0800</pubDate>
-<description>&lt;p&gt;近期多项研究声称突破经典 n log n 排序下界，包括 Duan 等人针对有向最短路径的 O(m + n log n) 改进，以及一篇声称实现亚 n log n 排序的预印本。文章从信息论与熵的角度审视这些结果，指出最短路径计算本不需要对每个顶点排序，n 位整数乘法的输出空间熵下限为 2n 而非 n!，并探讨算法是否通过扩大分支因子 k 来绕开传统下界。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;从信息论视角审视近期亚 n log n 算法宣称，对关注算法与理论边界的读者有实质思辨价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Recent work claims to break the classical n log n sorting lower bound, including Duan et al.&amp;#x27;s O(m + n log n) improvement for directed shortest paths and a preprint claiming sub-n log n sorting. The article examines these results through information theory and entropy, noting that shortest-path computation need not sort every vertex and that n-bit integer multiplication has an entropy floor of 2n rather than n!, while asking whether the algorithm widens the branching factor k with n.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;突破 n log n 排序壁垒的算法新进展&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;从信息论视角审视近期亚 n log n 算法宣称，对关注算法与理论边界的读者有实质思辨价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 58/100&lt;/p&gt;</description>
 <source url="https://iahmed.me/post/nlogn/">Hacker News AI</source>
 <category>算法</category>
 <category>信息论</category>
 <category>复杂度理论</category>
 </item>
-<item><title>FCC 批准 SpaceX 部署百万颗 AI 算力卫星</title><link>https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers</link><guid isPermaLink="true">https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers</guid>
+<item><title>FCC Approves SpaceX Plan for One Million AI Data Center Satellites</title><link>https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers</link><guid isPermaLink="true">https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers</guid>
 <pubDate>Thu, 26 Nov 2026 01:44:51 +0800</pubDate>
-<description>&lt;p&gt;FCC 正式授权 SpaceX 推进 Starmind 计划，允许其在轨部署最多 100 万颗搭载 AI 芯片的卫星，构建太空数据中心星座。审批要求 SpaceX 在 2033 年前完成首颗卫星部署、2040 年前达成百万颗规模，但暂缓批准其将 600 公里以上卫星送入太空坟场轨道的处置方案。这是监管机构首次批准完整的 AI 卫星星座，Google 与 Blue Origin 等玩家也在同步推进太空算力布局。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;太空算力从概念走向监管落地，百万颗 AI 卫星星座首次获批，直接重塑算力基础设施的长期想象空间。&lt;/p&gt;&lt;p&gt;The Verge AI · compute · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;The FCC has formally authorized SpaceX to deploy up to one million AI chip-equipped satellites under its Starmind initiative, marking the first regulatory approval for a full AI satellite constellation. SpaceX must launch at least one satellite by 2033 and reach the one-million milestone by 2040, while its request to park satellites above 600km in graveyard orbits was deferred over insufficient disposal details. The approval lands as Google and Blue Origin pursue their own space data center ambitions.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;FCC 批准 SpaceX 部署百万颗 AI 算力卫星&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;太空算力从概念走向监管落地，百万颗 AI 卫星星座首次获批，直接重塑算力基础设施的长期想象空间。&lt;/p&gt;&lt;p&gt;The Verge AI · compute · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers">The Verge AI</source>
 <category>太空算力</category>
 <category>SpaceX</category>
@@ -75,115 +111,115 @@
 <category>数据中心</category>
 <category>卫星星座</category>
 </item>
-<item><title>42 州总检察长阻止 Character AI 拍卖用户私聊数据</title><link>https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/</guid>
+<item><title>42 State AGs Move to Block Character AI User Chat Data Auction</title><link>https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/</guid>
 <pubDate>Thu, 26 Nov 2026 01:35:58 +0800</pubDate>
-<description>&lt;p&gt;Character.ai 破产清算中计划将数百万用户的私密对话数据打包拍卖，引发 42 州总检察长联合介入。各州以儿童安全与隐私保护为由，要求法院阻止该数据资产出售，此案将首次界定 AI 公司破产时用户对话数据的法律归属。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首例 AI 公司破产清算中用户对话数据归属之争，直接关系所有聊天机器人用户的隐私边界。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Character.ai&amp;#x27;s bankruptcy liquidation plan to auction off millions of users&amp;#x27; private conversations has drawn intervention from 42 state attorneys general. Citing child safety and privacy concerns, the states are asking the court to block the data asset sale, a case that will set the first precedent on who owns user chat data when an AI company fails.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;42 州总检察长阻止 Character AI 拍卖用户私聊数据&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首例 AI 公司破产清算中用户对话数据归属之争，直接关系所有聊天机器人用户的隐私边界。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 62/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/">TechCrunch AI</source>
 <category>数据隐私</category>
 <category>破产清算</category>
 <category>Character AI</category>
 <category>监管</category>
 </item>
-<item><title>OpenAI 内部模型产出 730 篇数学手稿</title><link>https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf</link><guid isPermaLink="true">https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf</guid>
+<item><title>OpenAI Internal Model Produces 730 Math Manuscripts</title><link>https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf</link><guid isPermaLink="true">https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf</guid>
 <pubDate>Thu, 26 Nov 2026 01:34:34 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 公开了一个由未命名内部模型生成的数学手稿仓库，包含 730 篇手稿、375 个研究族，其中一篇宣称推翻了多项式 Hirsch 猜想。这些结果处于不同验证阶段，部分尚无 Lean 形式化，官方承认未形式化结果可能存在问题，并将其定位为原始研究数据而非成熟论文。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;前沿模型直接挑战开放数学难题并公开原始产出，是评估模型科研能力边界的重要信号。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI has released a repository of mathematical manuscripts generated by an unnamed internal model, comprising 730 manuscripts across 375 families, one of which claims to disprove the polynomial Hirsch conjecture. The results sit at varying stages of verification, many lack Lean formalizations, and OpenAI acknowledges unformalized results may contain errors, framing the collection as raw research data rather than polished papers.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 内部模型产出 730 篇数学手稿&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;前沿模型直接挑战开放数学难题并公开原始产出，是评估模型科研能力边界的重要信号。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf">Hacker News AI</source>
 <category>数学推理</category>
 <category>OpenAI</category>
 <category>形式化验证</category>
 <category>前沿研究</category>
 </item>
-<item><title>微软 MAI-Code-2.1 首次亮相 Code Arena 排名第 13</title><link>https://x.com/arena/status/2125638411654508641</link><guid isPermaLink="true">https://x.com/arena/status/2125638411654508641</guid>
+<item><title>Microsoft MAI-Code-2.1 Debuts at 13th on Code Arena WebDev</title><link>https://x.com/arena/status/2125638411654508641</link><guid isPermaLink="true">https://x.com/arena/status/2125638411654508641</guid>
 <pubDate>Thu, 26 Nov 2026 01:11:04 +0800</pubDate>
-<description>&lt;p&gt;微软 AI 的新模型 MAI-Code-2.1 首次进入 Code Arena WebDev 榜单，以 1717 分位列总榜第 13，在 Frontier AI 实验室中排名第 6。该模型在 Fullstack、Data &amp;amp; Analytics、Consumer Product 等分项均进入前 11，得分仅落后 Meta Muse Wonder Full 7 分，并超过 Gemini 4 Hydrogen 与 Kimi K3.1 Pro。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;微软自研代码模型首次进入公开竞技榜单并跻身头部梯队，反映前沿代码模型竞争格局变化。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Microsoft AI&amp;#x27;s new model MAI-Code-2.1 has debuted on the Code Arena WebDev leaderboard at 13th overall with 1717 points, ranking sixth among frontier AI labs. It places in the top 11 across Fullstack, Data &amp;amp; Analytics and Consumer Product subcategories, trailing Meta&amp;#x27;s Muse Wonder Full by just 7 points while beating Gemini 4 Hydrogen and Kimi K3.1 Pro.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;微软 MAI-Code-2.1 首次亮相 Code Arena 排名第 13&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;微软自研代码模型首次进入公开竞技榜单并跻身头部梯队，反映前沿代码模型竞争格局变化。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 58/100&lt;/p&gt;</description>
 <source url="https://x.com/arena/status/2125638411654508641">Arena.ai (@arena)</source>
 <category>大模型</category>
 <category>代码生成</category>
 <category>基准评测</category>
 <category>微软</category>
 </item>
-<item><title>谷歌推出多智能体社交推理评测框架</title><link>https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/</link><guid isPermaLink="true">https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/</guid>
+<item><title>Google Unveils Multi-Agent Framework for Verifiable Social Reasoning</title><link>https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/</link><guid isPermaLink="true">https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/</guid>
 <pubDate>Thu, 26 Nov 2026 01:10:27 +0800</pubDate>
-<description>&lt;p&gt;谷歌研究院提出一套基于多智能体社交仿真的评测框架，用于量化 AI 助手能否从用户的主观叙述中准确推断社交情境。框架中带有隐藏动机的目标智能体与其他智能体互动，用户智能体随后向被评测助手求助，由此构造出可验证的动机真值。该工作为 LLM 在个人咨询场景下的社交推理能力提供了可复现的评测基准。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为 LLM 社交推理提供可验证的评测范式，对智能体与助手类应用评测有直接参考价值。&lt;/p&gt;&lt;p&gt;Google Research · llm · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Google Research introduces an evaluation framework built on multi-agent social simulations that quantifies how well AI assistants infer social situations from users&amp;#x27; subjective narratives. A target agent with a hidden motive interacts with other agents, and a user agent then consults the assistant under evaluation, yielding verifiable ground truth by construction. The work provides a reproducible benchmark for LLM social reasoning in personal consultation settings.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌推出多智能体社交推理评测框架&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为 LLM 社交推理提供可验证的评测范式，对智能体与助手类应用评测有直接参考价值。&lt;/p&gt;&lt;p&gt;Google Research · llm · signal 72/100&lt;/p&gt;</description>
 <source url="https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/">Google Research</source>
 <category>社交推理</category>
 <category>多智能体</category>
 <category>评测基准</category>
 <category>谷歌研究院</category>
 </item>
-<item><title>OpenRouter 为 Halo 后训练竞赛提供 600 模型额度</title><link>https://x.com/OpenRouter/status/2125636143198941260</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2125636143198941260</guid>
+<item><title>OpenRouter Backs Halo Post-Training Contest With 600-Model Credits</title><link>https://x.com/OpenRouter/status/2125636143198941260</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2125636143198941260</guid>
 <pubDate>Thu, 26 Nov 2026 01:02:03 +0800</pubDate>
-<description>&lt;p&gt;OpenRouter 宣布与 White Circle 合作，为 Halo 后训练竞赛的入选团队提供平台额度，使其可调用 600 余个模型进行训练与测试，报名截止 11 月 30 日。该竞赛由 OpenAI、Google DeepMind、Mistral AI、AWS 等多家机构共同支持，是目前规模最大的后训练赛事之一。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;后训练竞赛生态动向，涉及多家头部机构联合支持，但当前信息以招募报名为主，缺乏赛制与技术细节。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · industry · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenRouter is partnering with White Circle on the Halo post-training competition, granting accepted teams platform credits to build and test models against a catalog of 600+ models. Applications close November 30, with the contest backed by OpenAI, Google DeepMind, Mistral AI, AWS and others as one of the largest post-training events to date.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenRouter 为 Halo 后训练竞赛提供 600 模型额度&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;后训练竞赛生态动向，涉及多家头部机构联合支持，但当前信息以招募报名为主，缺乏赛制与技术细节。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · industry · signal 38/100&lt;/p&gt;</description>
 <source url="https://x.com/OpenRouter/status/2125636143198941260">OpenRouter (@OpenRouter)</source>
 <category>后训练</category>
 <category>竞赛</category>
 <category>OpenRouter</category>
 <category>模型评测</category>
 </item>
-<item><title>数据中心扩张推动美国天然气发电复兴</title><link>https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/</link><guid isPermaLink="true">https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/</guid>
+<item><title>Data Center Boom Fuels a US Natural Gas Resurgence</title><link>https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/</link><guid isPermaLink="true">https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/</guid>
 <pubDate>Thu, 26 Nov 2026 01:00:00 +0800</pubDate>
-<description>&lt;p&gt;AI 数据中心的电力需求正实质性改变美国能源结构，Meta 在路易斯安那州的数据中心配套天然气电厂规划从 3 座增至 10 座，开发商甚至开始自建离网燃气电站。文章认为，在美国，AI 热潮与天然气热潮已基本同义。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;从能源基础设施视角揭示 AI 算力扩张的真实约束与代价，对关注算力供给的读者有实质参考价值。&lt;/p&gt;&lt;p&gt;MIT Technology Review · compute · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Surging AI data-center power demand is materially reshaping the US energy mix: planned gas plants supporting Meta&amp;#x27;s Louisiana campus grew from three to ten, and developers are now building off-grid gas generation. The piece argues that in the US, the AI boom is effectively synonymous with a natural-gas boom.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;数据中心扩张推动美国天然气发电复兴&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;从能源基础设施视角揭示 AI 算力扩张的真实约束与代价，对关注算力供给的读者有实质参考价值。&lt;/p&gt;&lt;p&gt;MIT Technology Review · compute · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/">MIT Technology Review</source>
 <category>算力基础设施</category>
 <category>数据中心</category>
 <category>能源</category>
 </item>
-<item><title>亚马逊与 Meta 洽谈解封 AI 购物智能体 Muse</title><link>https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/</link><guid isPermaLink="true">https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/</guid>
+<item><title>Amazon and Meta in Talks to Unblock AI Shopping Agent Muse</title><link>https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/</link><guid isPermaLink="true">https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/</guid>
 <pubDate>Thu, 26 Nov 2026 00:44:37 +0800</pubDate>
-<description>&lt;p&gt;亚马逊与 Meta 正就解除对 Meta AI 购物智能体 Muse 的封禁进行谈判，核心分歧在于广告收入归属与搜索结果控制权。亚马逊担心第三方智能体会削弱其与消费者的直接关系并绕过平台广告，该广告业务年收入达 686 亿美元。CEO 安迪·贾西表示目前第三方智能体购物体验尚无明显优势，但未排除开放可能。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部平台围绕 AI 购物智能体的入口与广告利益博弈，是智能体商业化落地的关键风向标。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Amazon and Meta are negotiating to lift Amazon&amp;#x27;s block on Meta&amp;#x27;s AI shopping agent Muse, with ad revenue and control over search results as the main sticking points. Amazon fears third-party agents could weaken customer relationships and bypass its platform ads, a business worth $68.6 billion annually. CEO Andy Jassy said agent-based shopping has yet to prove more convenient than going direct, but did not rule out opening access.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊与 Meta 洽谈解封 AI 购物智能体 Muse&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部平台围绕 AI 购物智能体的入口与广告利益博弈，是智能体商业化落地的关键风向标。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 72/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/">The Decoder</source>
 <category>AI 智能体</category>
 <category>电商</category>
 <category>平台生态</category>
 <category>广告</category>
 </item>
-<item><title>Inkling 2 Small 在 Auto Router 调用量上超越 DeepSeek Flash</title><link>https://x.com/OpenRouter/status/2125630871806033981</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2125630871806033981</guid>
+<item><title>Inkling 2 Small Overtakes DeepSeek Flash in OpenRouter Auto Router Traffic</title><link>https://x.com/OpenRouter/status/2125630871806033981</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2125630871806033981</guid>
 <pubDate>Thu, 26 Nov 2026 00:41:06 +0800</pubDate>
-<description>&lt;p&gt;OpenRouter 数据显示，Inkling 2 Small 在 Auto Router 自动路由的新增调用量上已超过 DeepSeek Flash，反映模型路由分配格局正在变化。官方提供实时页面可查看各模型流量占比随时间的动态变化。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;模型路由层的调用份额变化是观察模型实际采用度的实用信号，但信息量有限。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · tools · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenRouter reports that Inkling 2 Small has overtaken DeepSeek Flash in new traffic served through its Auto Router, signaling a shift in how the router allocates requests across models. A live dashboard tracks how the model blend evolves over time.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Inkling 2 Small 在 Auto Router 调用量上超越 DeepSeek Flash&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;模型路由层的调用份额变化是观察模型实际采用度的实用信号，但信息量有限。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · tools · signal 38/100&lt;/p&gt;</description>
 <source url="https://x.com/OpenRouter/status/2125630871806033981">OpenRouter (@OpenRouter)</source>
 <category>模型路由</category>
 <category>OpenRouter</category>
 <category>模型采用度</category>
 </item>
-<item><title>商汤开源 SenseNova U1.6 图像模型 人像逼真度逼近摄影</title><link>https://www.qbitai.com/2026/11/512748.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/512748.html</guid>
+<item><title>SenseTime Open-Sources SenseNova U1.6 Image Model with Photorealistic Portraits</title><link>https://www.qbitai.com/2026/11/512748.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/512748.html</guid>
 <pubDate>Thu, 26 Nov 2026 00:34:09 +0800</pubDate>
-<description>&lt;p&gt;商汤科技开源新一代图像生成模型 SenseNova U1.6，主打极快生成速度，并在内容准确性与审美质感上明显提升，人像与风景成片已接近真实摄影。模型已上线商汤小浣熊、Seko 平台并同步接入 ComfyUI，权重与代码在 Hugging Face 和 GitHub 开放。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产开源图像生成模型在速度与写实度上再进一步，且权重与 ComfyUI 生态同步开放，对图像生成开发者有直接可用价值。&lt;/p&gt;&lt;p&gt;量子位官网 · llm · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;SenseTime has open-sourced SenseNova U1.6, a new image generation model emphasizing very fast inference plus improved content accuracy and aesthetic quality, producing portraits and landscapes that read as real photography. It is live on SenseTime&amp;#x27;s Xiaohuanxiong and Seko platforms, integrated into ComfyUI, with weights and code released on Hugging Face and GitHub.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;商汤开源 SenseNova U1.6 图像模型 人像逼真度逼近摄影&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产开源图像生成模型在速度与写实度上再进一步，且权重与 ComfyUI 生态同步开放，对图像生成开发者有直接可用价值。&lt;/p&gt;&lt;p&gt;量子位官网 · llm · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.qbitai.com/2026/11/512748.html">量子位官网</source>
 <category>图像生成</category>
 <category>开源模型</category>
 <category>商汤</category>
 <category>ComfyUI</category>
 </item>
-<item><title>Anthropic 用 Claude 将 Messages API 迁移至 Rust</title><link>https://www.anthropic.com/research/migrating-api-to-rust</link><guid isPermaLink="true">https://www.anthropic.com/research/migrating-api-to-rust</guid>
+<item><title>Anthropic Migrates Messages API to Rust Using Claude</title><link>https://www.anthropic.com/research/migrating-api-to-rust</link><guid isPermaLink="true">https://www.anthropic.com/research/migrating-api-to-rust</guid>
 <pubDate>Thu, 26 Nov 2026 00:28:28 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 工程团队披露，他们借助 Claude 完成了 Messages API 从原技术栈向 Rust 的迁移，而团队中并无专职 Rust 开发者。文章以生成-验证差距为框架，指出当 Claude 具备可靠验证手段时，可承担大型成熟代码库的迁移工作，并讨论了在线上系统中验证正确性所面临的挑战。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部模型厂商亲自示范用自家模型完成核心 API 的语言级重写，为 AI 辅助大规模代码迁移提供了少见的真实工程样本。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic&amp;#x27;s engineering team reports migrating its Messages API to Rust with Claude doing the work, despite having no dedicated Rust developers. Framed around the generator-verifier gap, the post argues Claude can take on large, well-tested codebase migrations when given reliable verification, and discusses the difficulty of defining correctness in live systems.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 用 Claude 将 Messages API 迁移至 Rust&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部模型厂商亲自示范用自家模型完成核心 API 的语言级重写，为 AI 辅助大规模代码迁移提供了少见的真实工程样本。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.anthropic.com/research/migrating-api-to-rust">Hacker News AI</source>
 <category>Rust</category>
 <category>代码迁移</category>
 <category>Anthropic</category>
 <category>AI 辅助开发</category>
 </item>
-<item><title>Nothing 发布 AI 耳机 Ear Note 支持通话录音与转写</title><link>https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal</link><guid isPermaLink="true">https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal</guid>
+<item><title>Nothing Unveils Ear Note AI Earbuds With Call Recording and Transcription</title><link>https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal</link><guid isPermaLink="true">https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal</guid>
 <pubDate>Thu, 26 Nov 2026 00:00:59 +0800</pubDate>
-<description>&lt;p&gt;Nothing 在 12 月 8 日正式发售前公布其 AI 耳机 Ear Note 的详细外观与功能，充电盒内置麦克风，可通过 Record 键录制并转写对话，耳机本体支持通话录音。CEO Carl Pei 称这是迈向 AI 硬件上下文层的第一步，配套 App 可管理录音、转写与 AI 摘要，并接入多种 AI 智能体。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 硬件向环境上下文采集延伸的具体产品落地，具备明确功能与发布时间，值得关注。&lt;/p&gt;&lt;p&gt;The Verge AI · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Nothing has revealed a detailed look at its upcoming Ear Note AI earbuds ahead of their December 8th launch. The charging case packs a microphone with a Record button for capturing and transcribing conversations, while the buds themselves can record calls; CEO Carl Pei frames this as a first step toward a hardware context layer for AI, with a companion app managing recordings, transcripts, and AI summaries across multiple agents.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Nothing 发布 AI 耳机 Ear Note 支持通话录音与转写&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 硬件向环境上下文采集延伸的具体产品落地，具备明确功能与发布时间，值得关注。&lt;/p&gt;&lt;p&gt;The Verge AI · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal">The Verge AI</source>
 <category>AI 硬件</category>
 <category>智能耳机</category>
 <category>语音转写</category>
 <category>Nothing</category>
 </item>
-<item><title>AI 数据中心建设受阻 新云厂商承压加剧</title><link>https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/</link><guid isPermaLink="true">https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/</guid>
+<item><title>AI Data Center Buildouts Stall as Neoclouds Face Rising Pressure</title><link>https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/</link><guid isPermaLink="true">https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/</guid>
 <pubDate>Wed, 25 Nov 2026 23:41:43 +0800</pubDate>
-<description>&lt;p&gt;英伟达明确表示，在数据中心接近可运行前不会提供兜底融资，与此同时新云厂商正遭遇建设延期与债务成本上升的双重挤压。土地、电力与已完工建筑正取代融资路演，成为项目能否落地的核心门槛，行业预计将在 2027 年前后出现一轮洗牌。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示 AI 算力基建从资本叙事转向土地电力交付的硬约束，对新云厂商与数据中心投资判断有直接参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · compute · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Nvidia has made clear it will not backstop an AI data center until it is nearly ready to run, just as neoclouds report construction delays and costlier debt. Land, power and finished buildings now outweigh pitch decks as the gating factors, with an industry shakeout expected around 2027.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 数据中心建设受阻 新云厂商承压加剧&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示 AI 算力基建从资本叙事转向土地电力交付的硬约束，对新云厂商与数据中心投资判断有直接参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · compute · signal 62/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/">TechCrunch AI</source>
 <category>算力基建</category>
 <category>数据中心</category>
 <category>新云厂商</category>
 <category>英伟达</category>
 </item>
-<item><title>C++ 中 = default 与 {} 构造语义差异显著</title><link>https://lemire.me/blog/2026/11/02/default-and-braces-are-not-the-same-constructor/</link><guid isPermaLink="true">https://lemire.me/blog/2026/11/02/default-and-braces-are-not-the-same-constructor/</guid>
+<item><title>In C++, = default and {} Constructors Differ in Semantics</title><link>https://lemire.me/blog/2026/11/02/default-and-braces-are-not-the-same-constructor/</link><guid isPermaLink="true">https://lemire.me/blog/2026/11/02/default-and-braces-are-not-the-same-constructor/</guid>
 <pubDate>Wed, 25 Nov 2026 23:20:15 +0800</pubDate>
-<description>&lt;p&gt;Daniel Lemire 撰文指出，C++ 中空默认构造函数写成 `= default` 还是 `{}` 会带来截然不同的语义与性能后果：前者使类型保持 trivial，值初始化时整对象（含 padding）被清零；后者属于用户提供构造函数，值初始化不再清零成员。这一差异在 span 等轻量结构体上会直接影响初始化开销与正确性。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以极小代码差异揭示 C++ 对象初始化语义与性能陷阱，对系统级开发者有直接实用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Daniel Lemire explains that writing an empty default constructor as `= default` versus `{}` in C++ yields very different semantics and performance: the former keeps the type trivial so value-initialization zeroes the whole object including padding, while the latter is user-provided and no longer zeroes members. The distinction directly affects initialization cost and correctness for lightweight structs like span.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;C++ 中 = default 与 {} 构造语义差异显著&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以极小代码差异揭示 C++ 对象初始化语义与性能陷阱，对系统级开发者有直接实用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 42/100&lt;/p&gt;</description>
 <source url="https://lemire.me/blog/2026/11/02/default-and-braces-are-not-the-same-constructor/">Hacker News AI</source>
 <category>C++</category>
 <category>性能优化</category>
@@ -234,43 +270,6 @@
 <category>算力基础设施</category>
 <category>具身智能</category>
 <category>生态联盟</category>
-</item>
-<item><title>逐际动力与商汤大装置合作 以算力支撑机器人仿真训练</title><link>https://www.qbitai.com/2026/11/512683.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/512683.html</guid>
-<pubDate>Wed, 25 Nov 2026 22:20:24 +0800</pubDate>
-<description>&lt;p&gt;逐际动力与商汤大装置达成合作，后者将依托 SenseCore 平台为逐际动力的机器人仿真、视觉策略训练与强化学习提供弹性算力调度，缓解并发任务资源争用。商汤大装置称已针对 OpenPI、WorldScape-Policy 和 OmniVLA 等具身模型在国产算力上的训练瓶颈做专项优化，此前已服务傅利叶机器人、大晓机器人等客户。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;具身智能企业与国产算力平台的落地合作，披露了 VLA 模型训练优化的具体对象，但整体偏客户案例 PR。&lt;/p&gt;&lt;p&gt;量子位官网 · compute · signal 52/100&lt;/p&gt;</description>
-<source url="https://www.qbitai.com/2026/11/512683.html">量子位官网</source>
-<category>具身智能</category>
-<category>算力基础设施</category>
-<category>商汤大装置</category>
-<category>逐际动力</category>
-</item>
-<item><title>AWS 推出 S3 Files 原生文件系统访问</title><link>https://aws.amazon.com/s3/features/files/</link><guid isPermaLink="true">https://aws.amazon.com/s3/features/files/</guid>
-<pubDate>Wed, 25 Nov 2026 22:19:21 +0800</pubDate>
-<description>&lt;p&gt;AWS 发布 S3 Files，让任意 AWS 计算实例、容器与函数以完整文件系统语义直接读写 S3 中的数据，无需在对象存储与文件存储之间复制或迁移数据。官方称这是首个提供全功能高性能文件系统访问的云对象存储，可降低 AI 智能体与文件型应用的存储架构复杂度。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;云对象存储首次原生支持完整文件系统语义，直接影响 AI 数据管道与智能体存储架构选型。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 62/100&lt;/p&gt;</description>
-<source url="https://aws.amazon.com/s3/features/files/">Hacker News AI</source>
-<category>云存储</category>
-<category>AWS</category>
-<category>对象存储</category>
-<category>文件系统</category>
-</item>
-<item><title>亚马逊与 Meta 洽谈解除 Muse 购物智能体封禁</title><link>https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions</link><guid isPermaLink="true">https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions</guid>
-<pubDate>Wed, 25 Nov 2026 22:12:33 +0800</pubDate>
-<description>&lt;p&gt;亚马逊正与 Meta 就允许 Muse AI 购物智能体接入其电商平台展开谈判，核心分歧在于智能体推荐商品的范围及其对亚马逊广告收入的冲击。亚马逊同时担忧 Muse 的商品搜索结果质量与客户关系归属，并正力推自家 Alexa for Shopping 作为替代方案。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;电商巨头与 AI 智能体在流量入口与广告商业模式上的首次正面博弈，预示智能体购物时代的平台规则之争。&lt;/p&gt;&lt;p&gt;The Verge AI · agent · signal 72/100&lt;/p&gt;</description>
-<source url="https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions">The Verge AI</source>
-<category>智能体</category>
-<category>电商</category>
-<category>亚马逊</category>
-<category>Meta</category>
-</item>
-<item><title>亚马逊与 Meta 洽谈解禁 AI 购物智能体 Muse</title><link>https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/</guid>
-<pubDate>Wed, 25 Nov 2026 22:10:18 +0800</pubDate>
-<description>&lt;p&gt;亚马逊与 Meta 正就允许 Meta 的 AI 购物智能体 Muse 直连亚马逊商城进行多轮谈判，此举较两个月前的封禁出现重大反转。核心分歧在于搜索结果呈现方式与广告处理机制，因第三方购物智能体可能冲击亚马逊广告业务，任何协议均需双方 CEO 批准。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部平台与智能体之间的接入博弈，直接决定 AI 购物智能体的商业可行性与平台生态规则走向。&lt;/p&gt;&lt;p&gt;TechCrunch AI · agent · signal 74/100&lt;/p&gt;</description>
-<source url="https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/">TechCrunch AI</source>
-<category>AI 智能体</category>
-<category>电商</category>
-<category>平台生态</category>
-<category>Meta</category>
-<category>亚马逊</category>
 </item>
 </channel>
 </rss>
