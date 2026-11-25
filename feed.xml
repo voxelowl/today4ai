@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Thu, 26 Nov 2026 01:44:51 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 26 Nov 2026 02:22:02 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>OpenAI Pilots Private Inference to Keep Enterprise Data Hidden</title><link>https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/</link><guid isPermaLink="true">https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/</guid>
+<pubDate>Thu, 26 Nov 2026 02:22:02 +0800</pubDate>
+<description>&lt;p&gt;OpenAI is piloting a feature called Private Inference with its first enterprise customers, letting companies query its most powerful models without OpenAI being able to access the data. The offering targets business customers, whose data OpenAI already excludes from training, unlike default consumer ChatGPT conversations. OpenAI says it is scaling compute to expand availability and frames the move as a first step toward private intelligence for everyone.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 推出私有推理 企业数据不可见&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部厂商将数据隔离能力产品化，直接影响企业采用敏感业务场景 AI 的合规与信任边界。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 72/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/">The Decoder</source>
+<category>OpenAI</category>
+<category>数据隐私</category>
+<category>企业服务</category>
+<category>推理</category>
+</item>
+<item><title>New Algorithms Challenge the n log n Sorting Barrier</title><link>https://iahmed.me/post/nlogn/</link><guid isPermaLink="true">https://iahmed.me/post/nlogn/</guid>
+<pubDate>Thu, 26 Nov 2026 01:54:29 +0800</pubDate>
+<description>&lt;p&gt;Recent work claims to break the classical n log n sorting lower bound, including Duan et al.&amp;#x27;s O(m + n log n) improvement for directed shortest paths and a preprint claiming sub-n log n sorting. The article examines these results through information theory and entropy, noting that shortest-path computation need not sort every vertex and that n-bit integer multiplication has an entropy floor of 2n rather than n!, while asking whether the algorithm widens the branching factor k with n.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;突破 n log n 排序壁垒的算法新进展&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;从信息论视角审视近期亚 n log n 算法宣称，对关注算法与理论边界的读者有实质思辨价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 58/100&lt;/p&gt;</description>
+<source url="https://iahmed.me/post/nlogn/">Hacker News AI</source>
+<category>算法</category>
+<category>信息论</category>
+<category>复杂度理论</category>
+</item>
 <item><title>FCC Approves SpaceX Plan for One Million AI Data Center Satellites</title><link>https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers</link><guid isPermaLink="true">https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers</guid>
 <pubDate>Thu, 26 Nov 2026 01:44:51 +0800</pubDate>
 <description>&lt;p&gt;The FCC has formally authorized SpaceX to deploy up to one million AI chip-equipped satellites under its Starmind initiative, marking the first regulatory approval for a full AI satellite constellation. SpaceX must launch at least one satellite by 2033 and reach the one-million milestone by 2040, while its request to park satellites above 600km in graveyard orbits was deferred over insufficient disposal details. The approval lands as Google and Blue Origin pursue their own space data center ambitions.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;FCC 批准 SpaceX 部署百万颗 AI 算力卫星&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;太空算力从概念走向监管落地，百万颗 AI 卫星星座首次获批，直接重塑算力基础设施的长期想象空间。&lt;/p&gt;&lt;p&gt;The Verge AI · compute · signal 78/100&lt;/p&gt;</description>
@@ -99,6 +116,15 @@
 <category>C++</category>
 <category>性能优化</category>
 <category>语言语义</category>
+</item>
+<item><title>GitHub Pitches Evidence-First Method for App Modernization</title><link>https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/</link><guid isPermaLink="true">https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/</guid>
+<pubDate>Wed, 25 Nov 2026 23:00:00 +0800</pubDate>
+<description>&lt;p&gt;A GitHub Blog post outlines an evidence-first approach to application modernization: first establish which existing behaviors still work, then collect evidence that can serve as a regression net, and only then decide on changes such as framework replacement. The author applied the repeatable process to four public applications, from a small Node.js game to a large Java ERP system, and shows how to encode it as a GitHub Copilot agent skill while keeping architectural judgment with the system owners.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;GitHub 提出证据优先的应用现代化选型方法&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供可复用的现代化决策流程与 Copilot agent skill 落地方式，对工程团队有实操参考价值。&lt;/p&gt;&lt;p&gt;GitHub Blog · AI &amp;amp; ML · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/">GitHub Blog · AI &amp; ML</source>
+<category>GitHub Copilot</category>
+<category>应用现代化</category>
+<category>软件工程</category>
+<category>Agent Skill</category>
 </item>
 <item><title>Lean 4 Formal Verification of Clojure Core Uncovers 17 Unreported Bugs</title><link>https://s.conao3.com/blog/2026/e4f733</link><guid isPermaLink="true">https://s.conao3.com/blog/2026/e4f733</guid>
 <pubDate>Wed, 25 Nov 2026 22:56:52 +0800</pubDate>
@@ -202,26 +228,26 @@
 <category>行业调研</category>
 <category>组织变革</category>
 </item>
-<item><title>Vibe Coding Agents Push Music Gear Makers Toward Open Source</title><link>https://www.theverge.com/ai-artificial-intelligence/1040081/vibe-coding-open-source-music-firmware</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1040081/vibe-coding-open-source-music-firmware</guid>
+<item><title>AI 编程代理倒逼音乐硬件厂商开源</title><link>https://www.theverge.com/ai-artificial-intelligence/1040081/vibe-coding-open-source-music-firmware</link><guid isPermaLink="true">https://www.theverge.com/ai-artificial-intelligence/1040081/vibe-coding-open-source-music-firmware</guid>
 <pubDate>Wed, 25 Nov 2026 21:00:00 +0800</pubDate>
-<description>&lt;p&gt;AI coding agents and reverse-engineering tools are rapidly cracking and modding music hardware firmware, forcing vendors to adapt. inMusic chose to open up SDKs and internals for devices like the MPC, while Roland, Korg and others remain silent.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 编程代理倒逼音乐硬件厂商开源&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 代理能力外溢至硬件固件领域，倒逼传统厂商开源，是观察 AI 对实体产业冲击的典型案例。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;AI 编程代理与逆向工程工具让音乐硬件固件被快速破解与魔改，迫使厂商调整策略。inMusic 选择主动开放 MPC 等设备的 SDK 与内部机制，Roland、Korg 等多数厂商仍保持沉默。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 代理能力外溢至硬件固件领域，倒逼传统厂商开源，是观察 AI 对实体产业冲击的典型案例。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.theverge.com/ai-artificial-intelligence/1040081/vibe-coding-open-source-music-firmware">The Verge AI</source>
 <category>AI 编程代理</category>
 <category>开源硬件</category>
 <category>音乐科技</category>
 </item>
-<item><title>Stripe Valuation Set to Top $200 Billion in Share Buyback</title><link>https://www.ithome.com/1/032/488.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/488.htm</guid>
+<item><title>Stripe 估值有望突破 2000 亿美元</title><link>https://www.ithome.com/1/032/488.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/488.htm</guid>
 <pubDate>Wed, 25 Nov 2026 20:37:30 +0800</pubDate>
-<description>&lt;p&gt;Stripe is discussing its annual share buyback, with its valuation expected to surpass $200 billion. The payments company has been aggressively expanding into AI, acquiring model-routing platform OpenRouter for over $7 billion in August and adding Metronome and Parafin to integrate its stack with the agentic commerce market.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Stripe 估值有望突破 2000 亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;支付巨头估值跃升叠加 70 亿美元收购 OpenRouter，是 AI 智能体商业基础设施的重要产业信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Stripe 正讨论新一轮年度例行股票回购，估值有望突破 2000 亿美元，较此前大幅跃升。该公司今年 8 月以超 70 亿美元收购 AI 模型路由平台 OpenRouter，并连续并购 Metronome、Parafin，加速将支付技术栈与智能体消费市场整合。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;支付巨头估值跃升叠加 70 亿美元收购 OpenRouter，是 AI 智能体商业基础设施的重要产业信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/488.htm">IT之家 · IT业界</source>
 <category>支付</category>
 <category>融资估值</category>
 <category>智能体商业</category>
 <category>并购</category>
 </item>
-<item><title>TSMC Share Climbs to 75% as Pure-Play Foundry Market Grows 36%</title><link>https://www.ithome.com/1/032/477.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/477.htm</guid>
+<item><title>台积电 Q3 份额升至 75% 纯代工市场同比增长 36%</title><link>https://www.ithome.com/1/032/477.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/477.htm</guid>
 <pubDate>Wed, 25 Nov 2026 20:15:21 +0800</pubDate>
-<description>&lt;p&gt;Counterpoint data shows the global pure-play foundry market grew 36% year over year and 13% quarter over quarter in Q3 2026, driven by AI demand for advanced nodes and packaging outpacing supply. TSMC&amp;#x27;s share rose to 75% from 73% in the prior two quarters on 16% sequential revenue growth, backed by 2nm ramp, fully loaded N3 capacity and CoWoS expansion, while Samsung slipped to 6.4% and SMIC held third on record revenue.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;台积电 Q3 份额升至 75% 纯代工市场同比增长 36%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 算力供给格局的关键量化信号，直接反映先进制程与 CoWoS 封装的供需紧张程度。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Counterpoint 数据显示，2026 年 Q3 全球纯晶圆代工市场同比增长 36%、环比增长 13%，AI 对先进制程与先进封装的需求持续超过供给是核心驱动。台积电份额由前两季的 73% 扩大至 75%，营收环比增长 16%，2 纳米放量、N3 满载与 CoWoS 扩产共同支撑；三星份额降至 6.4%，中芯国际以创纪录营收守住第三。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 算力供给格局的关键量化信号，直接反映先进制程与 CoWoS 封装的供需紧张程度。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/477.htm">IT之家 · IT业界</source>
 <category>晶圆代工</category>
 <category>台积电</category>
@@ -245,33 +271,6 @@
 <category>端侧模型</category>
 <category>智能体</category>
 <category>PrismML</category>
-</item>
-<item><title>Windows 响度均衡被逆向移植至 PipeWire</title><link>https://github.com/xoxorwr/pw-loudness-eq</link><guid isPermaLink="true">https://github.com/xoxorwr/pw-loudness-eq</guid>
-<pubDate>Wed, 25 Nov 2026 19:34:25 +0800</pubDate>
-<description>&lt;p&gt;开发者从 Windows 音频引擎的 WMALFXGFXDSP.dll 与 AudioEng.dll 中逆向出响度均衡与输出限幅器，并将其实现为 PipeWire 的 DSP 模块与插件，可对每个应用的播放流做音量均衡。项目附带 GTK3 控制窗口，支持全局或按应用开关及释放时间调节，需 PipeWire 1.4 及以上。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把 Windows 独有音频处理链路逆向为 Linux 开源实现，对桌面音频与 PipeWire 生态有实际可用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://github.com/xoxorwr/pw-loudness-eq">Hacker News AI</source>
-<category>PipeWire</category>
-<category>音频处理</category>
-<category>逆向工程</category>
-<category>开源工具</category>
-</item>
-<item><title>中国团队 Loop 架构实现 9400 万参数对标 50 亿</title><link>https://www.qbitai.com/2026/11/512565.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/512565.html</guid>
-<pubDate>Wed, 25 Nov 2026 19:07:14 +0800</pubDate>
-<description>&lt;p&gt;脸谱心智团队提出 General Looped Model，通过复用同一组权重对隐状态进行多轮迭代，将参数规模与计算深度解耦，9400 万参数模型可对标 50 亿参数模型，权重显存直降 98%。该团队此前已发布全球首篇面向世界模型的循环架构论文 LoopWM，早于 OpenAI Astra 与智谱 GLM-5.4 的公开报道。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Loop 架构正成为大模型新范式，该报告给出参数与计算深度解耦的完整工程路径与跨赛道实测，具备实质技术增量。&lt;/p&gt;&lt;p&gt;量子位官网 · llm · signal 72/100&lt;/p&gt;</description>
-<source url="https://www.qbitai.com/2026/11/512565.html">量子位官网</source>
-<category>Loop架构</category>
-<category>大模型</category>
-<category>显存优化</category>
-<category>脸谱心智</category>
-</item>
-<item><title>MIT 团队发现合成数据可让 AI 气候预测更可靠</title><link>https://the-decoder.com/mit-team-discovers-that-unrealistic-training-data-makes-ai-climate-predictions-more-reliable/</link><guid isPermaLink="true">https://the-decoder.com/mit-team-discovers-that-unrealistic-training-data-makes-ai-climate-predictions-more-reliable/</guid>
-<pubDate>Wed, 25 Nov 2026 18:47:51 +0800</pubDate>
-<description>&lt;p&gt;MIT 联合 ETH Zurich 与帝国理工学院提出一种新训练算法，用合成数据替代部分真实气候模拟，使 AI 气候模拟器所需训练数据降至常规的一小部分，训练更快更便宜，且在陌生情景下表现更稳健。该方法有望缓解气候模拟器训练周期过长、模型刚完成即过时的问题。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;用合成数据降低气候模拟器训练成本并提升泛化，是 AI for Science 领域有方法增量的实证结果。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 72/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/mit-team-discovers-that-unrealistic-training-data-makes-ai-climate-predictions-more-reliable/">The Decoder</source>
-<category>AI for Science</category>
-<category>合成数据</category>
-<category>气候预测</category>
-<category>MIT</category>
 </item>
 </channel>
 </rss>
