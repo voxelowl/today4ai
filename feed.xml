@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Thu, 26 Nov 2026 05:33:32 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 26 Nov 2026 05:51:26 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Google Patent for AI-Generated Personalized Video Feeds Sparks Concern</title><link>https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent</link><guid isPermaLink="true">https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent</guid>
+<pubDate>Thu, 26 Nov 2026 05:51:26 +0800</pubDate>
+<description>&lt;p&gt;Google&amp;#x27;s My Channel patent, filed last May and published last week, describes a system that uses demographic data, viewing history, IP addresses and GPS locations to auto-generate prompts for an LLM, producing personalized AI videos and ads. The patent has been rejected, though Google may appeal or resubmit an amended version. Critics argue the approach would further flood the internet with low-quality, unwanted content.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌申请 AI 定制视频流专利引发争议&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该专利揭示了生成式 AI 在个性化内容分发上的激进应用路径，涉及数据隐私与内容生态质量，值得行业关注。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent">The Verge AI</source>
+<category>生成式 AI</category>
+<category>谷歌</category>
+<category>专利</category>
+<category>个性化推荐</category>
+<category>内容生态</category>
+</item>
+<item><title>Defang Breach Exposes Main Database and Deployment Credentials</title><link>https://defang.io/blog/post/security-incident-november-2026/</link><guid isPermaLink="true">https://defang.io/blog/post/security-incident-november-2026/</guid>
+<pubDate>Thu, 26 Nov 2026 05:47:16 +0800</pubDate>
+<description>&lt;p&gt;Cloud deployment platform Defang disclosed that an attacker breached its build system on November 12, stealing operational credentials and downloading a copy of its main database, confirmed only on November 23. Users who installed the Defang GitHub App may have had credentials usable against their repositories and cloud accounts; Defang has rotated them but requires users to perform their own checks.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Defang 遭入侵 主数据库与部署凭证泄露&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;云部署平台供应链入侵事件，涉及 GitHub App 过度授权与云账户凭证外泄，对使用同类部署工具的团队有直接安全警示价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 62/100&lt;/p&gt;</description>
+<source url="https://defang.io/blog/post/security-incident-november-2026/">Hacker News AI</source>
+<category>安全事件</category>
+<category>供应链安全</category>
+<category>云部署</category>
+<category>凭证泄露</category>
+</item>
 <item><title>Anthropic Engineer Thariq Joins OpenAI in Talent Shift</title><link>https://x.com/rohanpaul_ai/status/2125704462153257074</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125704462153257074</guid>
 <pubDate>Thu, 26 Nov 2026 05:33:32 +0800</pubDate>
 <description>&lt;p&gt;Anthropic staffer Thariq (@trq212) announced he has joined OpenAI, saying he is proud of his time at Anthropic but felt he could contribute most to bringing AI to the world at OpenAI. He framed the move as part of Silicon Valley&amp;#x27;s flow of ideas and people, citing friends already at the company and a goal of building AI products for over a billion users.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 核心成员 Thariq 跳槽 OpenAI&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 实验室之间的人才流动是观察技术路线与组织竞争的一手信号，值得关注。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 62/100&lt;/p&gt;</description>
@@ -40,6 +59,33 @@
 <category>中美竞争</category>
 <category>DeepSeek</category>
 </item>
+<item><title>Artificial Analysis Launches FrontierPhysics Leaderboard for Physics Research Agents</title><link>https://x.com/ArtificialAnlys/status/2125691597602058284</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2125691597602058284</guid>
+<pubDate>Thu, 26 Nov 2026 04:42:24 +0800</pubDate>
+<description>&lt;p&gt;Artificial Analysis launched the FrontierPhysics leaderboard, built on 54 physicist-authored research tasks from benchflow_ai that require agents to review literature, run simulations and submit a manuscript. Claude Fable 5.2 leads at 32%, six points ahead of GPT-6.2 Astra, with the top six models clustered between 22% and 32%, underscoring how far agents remain from reliable physics research.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Artificial Analysis 发布 FrontierPhysics 物理研究智能体榜单&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个面向真实物理科研流程的私有防污染智能体评测榜单，揭示了前沿模型在科研任务上的真实短板。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/ArtificialAnlys/status/2125691597602058284">Artificial Analysis (@ArtificialAnlys)</source>
+<category>智能体评测</category>
+<category>物理科研</category>
+<category>基准榜单</category>
+<category>Artificial Analysis</category>
+</item>
+<item><title>Ubuntu Lags Nine Days on Critical Kernel CVE Fixes</title><link>https://www.openwall.com/lists/oss-security/2026/11/25/9</link><guid isPermaLink="true">https://www.openwall.com/lists/oss-security/2026/11/25/9</guid>
+<pubDate>Thu, 26 Nov 2026 04:38:00 +0800</pubDate>
+<description>&lt;p&gt;Security researcher Hanno Böck flagged on the oss-security mailing list that Ubuntu has yet to ship fixes for a remote memory corruption flaw in the Linux kernel TCP stack (NoisyTCP, CVE-2026-99288) and an AMD KVM host escape (CVE-2026-99312), nine days after the former was disclosed, while other distributions had patches ready at publication. The gap highlights latency in a major distribution&amp;#x27;s security response process and poses direct risk to Ubuntu-based server and cloud operators.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Ubuntu 修复高危内核漏洞滞后九天&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流发行版对高危内核漏洞的修复时延直接影响生产环境安全，值得运维与安全读者关注。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 42/100&lt;/p&gt;</description>
+<source url="https://www.openwall.com/lists/oss-security/2026/11/25/9">Hacker News AI</source>
+<category>开源安全</category>
+<category>Linux 内核</category>
+<category>Ubuntu</category>
+<category>漏洞修复</category>
+</item>
+<item><title>Linux Kernel NFS Server Exposes Pre-Auth Remote Root Flaw Scoring 9.8</title><link>https://opensec.in/blog/nfs2root-cve-2026-99362</link><guid isPermaLink="true">https://opensec.in/blog/nfs2root-cve-2026-99362</guid>
+<pubDate>Thu, 26 Nov 2026 04:35:50 +0800</pubDate>
+<description>&lt;p&gt;A pre-auth heap overflow tracked as CVE-2026-99362 has lurked in the Linux kernel&amp;#x27;s nfsd for 12 years, letting an unauthenticated attacker write 61 bytes past a kernel heap object over a single TCP connection and chain it into a root shell. Any host serving NFSv4.1/4.2 on reachable tcp/2049 is exposed; the flaw is fixed in Linux 6.12.117, 6.18.61, 7.3.2 and 7.4-rc1, so operators should patch and reboot or firewall port 2049 immediately.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Linux 内核 NFS 服务器曝 9.8 分预认证远程 root 漏洞&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;一个潜伏 12 年、CVSS 9.8 的预认证远程 root 漏洞直接威胁海量文件服务器与 K8s 存储节点，修复窗口紧迫且影响面极广。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 88/100&lt;/p&gt;</description>
+<source url="https://opensec.in/blog/nfs2root-cve-2026-99362">Hacker News AI</source>
+<category>安全漏洞</category>
+<category>Linux 内核</category>
+<category>NFS</category>
+<category>开源生态</category>
+</item>
 <item><title>Anthropic CEO Rejects AI Governance of Society as a Bad Idea</title><link>https://the-decoder.com/anthropic-ceo-dario-amodei-says-letting-ai-govern-society-would-be-a-bad-idea/</link><guid isPermaLink="true">https://the-decoder.com/anthropic-ceo-dario-amodei-says-letting-ai-govern-society-would-be-a-bad-idea/</guid>
 <pubDate>Thu, 26 Nov 2026 04:15:50 +0800</pubDate>
 <description>&lt;p&gt;Anthropic CEO Dario Amodei publicly pushed back on an Axios report, calling it \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic CEO 明确反对由 AI 治理社会&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 实验室掌门人首次就“AI 治理社会”这一路线争议公开表态，是观察 Anthropic 安全立场与行业话语边界的重要信号。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 58/100&lt;/p&gt;</description>
@@ -48,6 +94,15 @@
 <category>Anthropic</category>
 <category>AI 安全</category>
 <category>行业观点</category>
+</item>
+<item><title>Artificial Analysis Launches Robotics Sim Benchmark for Humanoid Control</title><link>https://x.com/ArtificialAnlys/status/2125683694103064979</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2125683694103064979</guid>
+<pubDate>Thu, 26 Nov 2026 04:11:00 +0800</pubDate>
+<description>&lt;p&gt;Artificial Analysis released AA-Robotics-Sim v0.1, a research preview in which frontier language models directly control a simulated Unitree G1 humanoid through native harnesses across 10 tasks spanning embodied reasoning, pick-and-place, assembly, tool use and mobility. Each model first runs five practice episodes, then is evaluated on ten varied new scenes. GPT-6.2 Astra leads at 71.0, ahead of Claude Fable 5.2 (57.5) and GPT-6.2 Sol (53.7), while some skills look mature but long-horizon task completion remains weak, with each episode costing $0.84 to $9.01 and taking 17 to 39 minutes.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Artificial Analysis 发布机器人仿真基准 前沿模型操控人形机器人&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个由第三方评测机构推出的 LLM 直接驱动机器人的仿真基准，为具身智能能力对比提供了可复现的量化标尺。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · agent · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/ArtificialAnlys/status/2125683694103064979">Artificial Analysis (@ArtificialAnlys)</source>
+<category>具身智能</category>
+<category>机器人仿真</category>
+<category>基准评测</category>
+<category>人形机器人</category>
 </item>
 <item><title>OpenAI Merges ChatGPT Chat and Work Tabs for Pro Users</title><link>https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/</guid>
 <pubDate>Thu, 26 Nov 2026 04:03:27 +0800</pubDate>
@@ -164,9 +219,9 @@
 <category>信息论</category>
 <category>复杂度理论</category>
 </item>
-<item><title>FCC Approves SpaceX Plan for One Million AI Data Center Satellites</title><link>https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers</link><guid isPermaLink="true">https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers</guid>
+<item><title>FCC 批准 SpaceX 部署百万颗 AI 算力卫星</title><link>https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers</link><guid isPermaLink="true">https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers</guid>
 <pubDate>Thu, 26 Nov 2026 01:44:51 +0800</pubDate>
-<description>&lt;p&gt;The FCC has formally authorized SpaceX to deploy up to one million AI chip-equipped satellites under its Starmind initiative, marking the first regulatory approval for a full AI satellite constellation. SpaceX must launch at least one satellite by 2033 and reach the one-million milestone by 2040, while its request to park satellites above 600km in graveyard orbits was deferred over insufficient disposal details. The approval lands as Google and Blue Origin pursue their own space data center ambitions.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;FCC 批准 SpaceX 部署百万颗 AI 算力卫星&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;太空算力从概念走向监管落地，百万颗 AI 卫星星座首次获批，直接重塑算力基础设施的长期想象空间。&lt;/p&gt;&lt;p&gt;The Verge AI · compute · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;FCC 正式授权 SpaceX 推进 Starmind 计划，允许其在轨部署最多 100 万颗搭载 AI 芯片的卫星，构建太空数据中心星座。审批要求 SpaceX 在 2033 年前完成首颗卫星部署、2040 年前达成百万颗规模，但暂缓批准其将 600 公里以上卫星送入太空坟场轨道的处置方案。这是监管机构首次批准完整的 AI 卫星星座，Google 与 Blue Origin 等玩家也在同步推进太空算力布局。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;太空算力从概念走向监管落地，百万颗 AI 卫星星座首次获批，直接重塑算力基础设施的长期想象空间。&lt;/p&gt;&lt;p&gt;The Verge AI · compute · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers">The Verge AI</source>
 <category>太空算力</category>
 <category>SpaceX</category>
@@ -174,102 +229,50 @@
 <category>数据中心</category>
 <category>卫星星座</category>
 </item>
-<item><title>42 State AGs Move to Block Character AI User Chat Data Auction</title><link>https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/</guid>
+<item><title>42 州总检察长阻止 Character AI 拍卖用户私聊数据</title><link>https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/</guid>
 <pubDate>Thu, 26 Nov 2026 01:35:58 +0800</pubDate>
-<description>&lt;p&gt;Character.ai&amp;#x27;s bankruptcy liquidation plan to auction off millions of users&amp;#x27; private conversations has drawn intervention from 42 state attorneys general. Citing child safety and privacy concerns, the states are asking the court to block the data asset sale, a case that will set the first precedent on who owns user chat data when an AI company fails.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;42 州总检察长阻止 Character AI 拍卖用户私聊数据&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首例 AI 公司破产清算中用户对话数据归属之争，直接关系所有聊天机器人用户的隐私边界。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Character.ai 破产清算中计划将数百万用户的私密对话数据打包拍卖，引发 42 州总检察长联合介入。各州以儿童安全与隐私保护为由，要求法院阻止该数据资产出售，此案将首次界定 AI 公司破产时用户对话数据的法律归属。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首例 AI 公司破产清算中用户对话数据归属之争，直接关系所有聊天机器人用户的隐私边界。&lt;/p&gt;&lt;p&gt;TechCrunch AI · industry · signal 62/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/">TechCrunch AI</source>
 <category>数据隐私</category>
 <category>破产清算</category>
 <category>Character AI</category>
 <category>监管</category>
 </item>
-<item><title>OpenAI Internal Model Produces 730 Math Manuscripts</title><link>https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf</link><guid isPermaLink="true">https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf</guid>
+<item><title>OpenAI 内部模型产出 730 篇数学手稿</title><link>https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf</link><guid isPermaLink="true">https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf</guid>
 <pubDate>Thu, 26 Nov 2026 01:34:34 +0800</pubDate>
-<description>&lt;p&gt;OpenAI has released a repository of mathematical manuscripts generated by an unnamed internal model, comprising 730 manuscripts across 375 families, one of which claims to disprove the polynomial Hirsch conjecture. The results sit at varying stages of verification, many lack Lean formalizations, and OpenAI acknowledges unformalized results may contain errors, framing the collection as raw research data rather than polished papers.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 内部模型产出 730 篇数学手稿&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;前沿模型直接挑战开放数学难题并公开原始产出，是评估模型科研能力边界的重要信号。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 公开了一个由未命名内部模型生成的数学手稿仓库，包含 730 篇手稿、375 个研究族，其中一篇宣称推翻了多项式 Hirsch 猜想。这些结果处于不同验证阶段，部分尚无 Lean 形式化，官方承认未形式化结果可能存在问题，并将其定位为原始研究数据而非成熟论文。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;前沿模型直接挑战开放数学难题并公开原始产出，是评估模型科研能力边界的重要信号。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://github.com/openai/math/blob/main/preprints/Superpolynomial-graph-diameter-of-simple-polytopes-November-24-2026/paper.pdf">Hacker News AI</source>
 <category>数学推理</category>
 <category>OpenAI</category>
 <category>形式化验证</category>
 <category>前沿研究</category>
 </item>
-<item><title>Microsoft MAI-Code-2.1 Debuts at 13th on Code Arena WebDev</title><link>https://x.com/arena/status/2125638411654508641</link><guid isPermaLink="true">https://x.com/arena/status/2125638411654508641</guid>
+<item><title>微软 MAI-Code-2.1 首次亮相 Code Arena 排名第 13</title><link>https://x.com/arena/status/2125638411654508641</link><guid isPermaLink="true">https://x.com/arena/status/2125638411654508641</guid>
 <pubDate>Thu, 26 Nov 2026 01:11:04 +0800</pubDate>
-<description>&lt;p&gt;Microsoft AI&amp;#x27;s new model MAI-Code-2.1 has debuted on the Code Arena WebDev leaderboard at 13th overall with 1717 points, ranking sixth among frontier AI labs. It places in the top 11 across Fullstack, Data &amp;amp; Analytics and Consumer Product subcategories, trailing Meta&amp;#x27;s Muse Wonder Full by just 7 points while beating Gemini 4 Hydrogen and Kimi K3.1 Pro.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;微软 MAI-Code-2.1 首次亮相 Code Arena 排名第 13&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;微软自研代码模型首次进入公开竞技榜单并跻身头部梯队，反映前沿代码模型竞争格局变化。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;微软 AI 的新模型 MAI-Code-2.1 首次进入 Code Arena WebDev 榜单，以 1717 分位列总榜第 13，在 Frontier AI 实验室中排名第 6。该模型在 Fullstack、Data &amp;amp; Analytics、Consumer Product 等分项均进入前 11，得分仅落后 Meta Muse Wonder Full 7 分，并超过 Gemini 4 Hydrogen 与 Kimi K3.1 Pro。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;微软自研代码模型首次进入公开竞技榜单并跻身头部梯队，反映前沿代码模型竞争格局变化。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 58/100&lt;/p&gt;</description>
 <source url="https://x.com/arena/status/2125638411654508641">Arena.ai (@arena)</source>
 <category>大模型</category>
 <category>代码生成</category>
 <category>基准评测</category>
 <category>微软</category>
 </item>
-<item><title>Google Unveils Multi-Agent Framework for Verifiable Social Reasoning</title><link>https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/</link><guid isPermaLink="true">https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/</guid>
+<item><title>谷歌推出多智能体社交推理评测框架</title><link>https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/</link><guid isPermaLink="true">https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/</guid>
 <pubDate>Thu, 26 Nov 2026 01:10:27 +0800</pubDate>
-<description>&lt;p&gt;Google Research introduces an evaluation framework built on multi-agent social simulations that quantifies how well AI assistants infer social situations from users&amp;#x27; subjective narratives. A target agent with a hidden motive interacts with other agents, and a user agent then consults the assistant under evaluation, yielding verifiable ground truth by construction. The work provides a reproducible benchmark for LLM social reasoning in personal consultation settings.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌推出多智能体社交推理评测框架&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为 LLM 社交推理提供可验证的评测范式，对智能体与助手类应用评测有直接参考价值。&lt;/p&gt;&lt;p&gt;Google Research · llm · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;谷歌研究院提出一套基于多智能体社交仿真的评测框架，用于量化 AI 助手能否从用户的主观叙述中准确推断社交情境。框架中带有隐藏动机的目标智能体与其他智能体互动，用户智能体随后向被评测助手求助，由此构造出可验证的动机真值。该工作为 LLM 在个人咨询场景下的社交推理能力提供了可复现的评测基准。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为 LLM 社交推理提供可验证的评测范式，对智能体与助手类应用评测有直接参考价值。&lt;/p&gt;&lt;p&gt;Google Research · llm · signal 72/100&lt;/p&gt;</description>
 <source url="https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/">Google Research</source>
 <category>社交推理</category>
 <category>多智能体</category>
 <category>评测基准</category>
 <category>谷歌研究院</category>
 </item>
-<item><title>OpenRouter Backs Halo Post-Training Contest With 600-Model Credits</title><link>https://x.com/OpenRouter/status/2125636143198941260</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2125636143198941260</guid>
+<item><title>OpenRouter 为 Halo 后训练竞赛提供 600 模型额度</title><link>https://x.com/OpenRouter/status/2125636143198941260</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2125636143198941260</guid>
 <pubDate>Thu, 26 Nov 2026 01:02:03 +0800</pubDate>
-<description>&lt;p&gt;OpenRouter is partnering with White Circle on the Halo post-training competition, granting accepted teams platform credits to build and test models against a catalog of 600+ models. Applications close November 30, with the contest backed by OpenAI, Google DeepMind, Mistral AI, AWS and others as one of the largest post-training events to date.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenRouter 为 Halo 后训练竞赛提供 600 模型额度&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;后训练竞赛生态动向，涉及多家头部机构联合支持，但当前信息以招募报名为主，缺乏赛制与技术细节。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · industry · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenRouter 宣布与 White Circle 合作，为 Halo 后训练竞赛的入选团队提供平台额度，使其可调用 600 余个模型进行训练与测试，报名截止 11 月 30 日。该竞赛由 OpenAI、Google DeepMind、Mistral AI、AWS 等多家机构共同支持，是目前规模最大的后训练赛事之一。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;后训练竞赛生态动向，涉及多家头部机构联合支持，但当前信息以招募报名为主，缺乏赛制与技术细节。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · industry · signal 38/100&lt;/p&gt;</description>
 <source url="https://x.com/OpenRouter/status/2125636143198941260">OpenRouter (@OpenRouter)</source>
 <category>后训练</category>
 <category>竞赛</category>
 <category>OpenRouter</category>
 <category>模型评测</category>
-</item>
-<item><title>数据中心扩张推动美国天然气发电复兴</title><link>https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/</link><guid isPermaLink="true">https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/</guid>
-<pubDate>Thu, 26 Nov 2026 01:00:00 +0800</pubDate>
-<description>&lt;p&gt;AI 数据中心的电力需求正实质性改变美国能源结构，Meta 在路易斯安那州的数据中心配套天然气电厂规划从 3 座增至 10 座，开发商甚至开始自建离网燃气电站。文章认为，在美国，AI 热潮与天然气热潮已基本同义。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;从能源基础设施视角揭示 AI 算力扩张的真实约束与代价，对关注算力供给的读者有实质参考价值。&lt;/p&gt;&lt;p&gt;MIT Technology Review · compute · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/">MIT Technology Review</source>
-<category>算力基础设施</category>
-<category>数据中心</category>
-<category>能源</category>
-</item>
-<item><title>亚马逊与 Meta 洽谈解封 AI 购物智能体 Muse</title><link>https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/</link><guid isPermaLink="true">https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/</guid>
-<pubDate>Thu, 26 Nov 2026 00:44:37 +0800</pubDate>
-<description>&lt;p&gt;亚马逊与 Meta 正就解除对 Meta AI 购物智能体 Muse 的封禁进行谈判，核心分歧在于广告收入归属与搜索结果控制权。亚马逊担心第三方智能体会削弱其与消费者的直接关系并绕过平台广告，该广告业务年收入达 686 亿美元。CEO 安迪·贾西表示目前第三方智能体购物体验尚无明显优势，但未排除开放可能。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部平台围绕 AI 购物智能体的入口与广告利益博弈，是智能体商业化落地的关键风向标。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 72/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/">The Decoder</source>
-<category>AI 智能体</category>
-<category>电商</category>
-<category>平台生态</category>
-<category>广告</category>
-</item>
-<item><title>Inkling 2 Small 在 Auto Router 调用量上超越 DeepSeek Flash</title><link>https://x.com/OpenRouter/status/2125630871806033981</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2125630871806033981</guid>
-<pubDate>Thu, 26 Nov 2026 00:41:06 +0800</pubDate>
-<description>&lt;p&gt;OpenRouter 数据显示，Inkling 2 Small 在 Auto Router 自动路由的新增调用量上已超过 DeepSeek Flash，反映模型路由分配格局正在变化。官方提供实时页面可查看各模型流量占比随时间的动态变化。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;模型路由层的调用份额变化是观察模型实际采用度的实用信号，但信息量有限。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · tools · signal 38/100&lt;/p&gt;</description>
-<source url="https://x.com/OpenRouter/status/2125630871806033981">OpenRouter (@OpenRouter)</source>
-<category>模型路由</category>
-<category>OpenRouter</category>
-<category>模型采用度</category>
-</item>
-<item><title>商汤开源 SenseNova U1.6 图像模型 人像逼真度逼近摄影</title><link>https://www.qbitai.com/2026/11/512748.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/512748.html</guid>
-<pubDate>Thu, 26 Nov 2026 00:34:09 +0800</pubDate>
-<description>&lt;p&gt;商汤科技开源新一代图像生成模型 SenseNova U1.6，主打极快生成速度，并在内容准确性与审美质感上明显提升，人像与风景成片已接近真实摄影。模型已上线商汤小浣熊、Seko 平台并同步接入 ComfyUI，权重与代码在 Hugging Face 和 GitHub 开放。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产开源图像生成模型在速度与写实度上再进一步，且权重与 ComfyUI 生态同步开放，对图像生成开发者有直接可用价值。&lt;/p&gt;&lt;p&gt;量子位官网 · llm · signal 72/100&lt;/p&gt;</description>
-<source url="https://www.qbitai.com/2026/11/512748.html">量子位官网</source>
-<category>图像生成</category>
-<category>开源模型</category>
-<category>商汤</category>
-<category>ComfyUI</category>
-</item>
-<item><title>Anthropic 用 Claude 将 Messages API 迁移至 Rust</title><link>https://www.anthropic.com/research/migrating-api-to-rust</link><guid isPermaLink="true">https://www.anthropic.com/research/migrating-api-to-rust</guid>
-<pubDate>Thu, 26 Nov 2026 00:28:28 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 工程团队披露，他们借助 Claude 完成了 Messages API 从原技术栈向 Rust 的迁移，而团队中并无专职 Rust 开发者。文章以生成-验证差距为框架，指出当 Claude 具备可靠验证手段时，可承担大型成熟代码库的迁移工作，并讨论了在线上系统中验证正确性所面临的挑战。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部模型厂商亲自示范用自家模型完成核心 API 的语言级重写，为 AI 辅助大规模代码迁移提供了少见的真实工程样本。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.anthropic.com/research/migrating-api-to-rust">Hacker News AI</source>
-<category>Rust</category>
-<category>代码迁移</category>
-<category>Anthropic</category>
-<category>AI 辅助开发</category>
-</item>
-<item><title>Nothing 发布 AI 耳机 Ear Note 支持通话录音与转写</title><link>https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal</link><guid isPermaLink="true">https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal</guid>
-<pubDate>Thu, 26 Nov 2026 00:00:59 +0800</pubDate>
-<description>&lt;p&gt;Nothing 在 12 月 8 日正式发售前公布其 AI 耳机 Ear Note 的详细外观与功能，充电盒内置麦克风，可通过 Record 键录制并转写对话，耳机本体支持通话录音。CEO Carl Pei 称这是迈向 AI 硬件上下文层的第一步，配套 App 可管理录音、转写与 AI 摘要，并接入多种 AI 智能体。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 硬件向环境上下文采集延伸的具体产品落地，具备明确功能与发布时间，值得关注。&lt;/p&gt;&lt;p&gt;The Verge AI · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal">The Verge AI</source>
-<category>AI 硬件</category>
-<category>智能耳机</category>
-<category>语音转写</category>
-<category>Nothing</category>
 </item>
 </channel>
 </rss>
