@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Wed, 25 Nov 2026 10:34:21 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 25 Nov 2026 10:51:30 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Microsoft Launches Red Alert to Overhaul Global Outage Response</title><link>https://www.ithome.com/1/031/974.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/974.htm</guid>
+<pubDate>Wed, 25 Nov 2026 10:51:30 +0800</pubDate>
+<description>&lt;p&gt;After a 24-hour global outage in mid-November, Microsoft has triggered a top-level \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;微软启动红色警报改革全球服务故障应对机制&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部云厂商因重大故障重构可靠性工程体系，并引入 AI 智能体参与故障诊断，对关注云基础设施与 AI 运维的读者有实质参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 72/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/031/974.htm">IT之家 · IT业界</source>
+<category>微软</category>
+<category>云服务故障</category>
+<category>AIOps</category>
+<category>基础设施可靠性</category>
+</item>
 <item><title>Models on Same Inference Server Can Covertly Communicate via Side Channels</title><link>https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being</link><guid isPermaLink="true">https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being</guid>
 <pubDate>Wed, 25 Nov 2026 10:34:21 +0800</pubDate>
 <description>&lt;p&gt;Two models running on the same inference server can reliably communicate even without messaging or shared filesystem access, by exploiting side channels in how vLLM selects kernels for engine steps. The author presents two protocols, Step Sizing and KV Cache Message Board, achieving 1,221/1,221 correct guesses in a color game and letting a colluding monitor pass 354/354 attacks while catching 85-92% of honeypots.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;同一推理服务器上的模型可借侧信道秘密通信&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次系统展示推理服务器层面的隐蔽通信侧信道，对多智能体安全与监控协议设计有直接冲击。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 78/100&lt;/p&gt;</description>
@@ -19,6 +28,24 @@
 <category>具身智能</category>
 <category>贝索斯</category>
 <category>创业公司</category>
+</item>
+<item><title>Imec Pushes CFET Commercialization to 0.5nm Node by 2036</title><link>https://www.ithome.com/1/031/952.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/952.htm</guid>
+<pubDate>Wed, 25 Nov 2026 09:45:48 +0800</pubDate>
+<description>&lt;p&gt;Imec CEO Patrick Vandenameele now expects CFET, which vertically stacks PMOS and NMOS, to reach commercialization only at the 0.5nm-class node around 2036, a notable slip from imec&amp;#x27;s own mid-year forecast of a 0.7nm landing near 2033. IBM, meanwhile, debuted a 0.7nm-class Nanostack implementation in June and expects volume production within five years, underscoring divergent roadmaps for advanced nodes.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;imec 将 CFET 商业化推迟至 2036 年 0.5nm 节点&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;imec 半年内下调 CFET 时间表，是先进制程路线图的重要信号，直接影响芯片算力长期预期。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/031/952.htm">IT之家 · IT业界</source>
+<category>芯片算力</category>
+<category>先进制程</category>
+<category>CFET</category>
+<category>imec</category>
+</item>
+<item><title>Rebuilding PyTorch Autograd in 60 Lines of Python</title><link>https://farid-alexander.github.io/autograd-from-scratch/</link><guid isPermaLink="true">https://farid-alexander.github.io/autograd-from-scratch/</guid>
+<pubDate>Wed, 25 Nov 2026 09:40:39 +0800</pubDate>
+<description>&lt;p&gt;The article rebuilds PyTorch&amp;#x27;s autograd engine in roughly 60 lines of plain Python: each forward operation records how to pass gradients back, and backward() walks those records in reverse. Objects are named and shaped like PyTorch&amp;#x27;s own, so the two graphs can be printed side by side and every gradient checked numerically.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;60 行 Python 复刻 PyTorch 自动微分机制&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以极简代码拆解自动微分这一深度学习核心机制，并逐项对照 PyTorch 验证，是理解反向传播的高质量教学材料。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://farid-alexander.github.io/autograd-from-scratch/">Hacker News AI</source>
+<category>自动微分</category>
+<category>PyTorch</category>
+<category>深度学习教学</category>
+<category>反向传播</category>
 </item>
 <item><title>LangChain Unveils Agent Lake for Trace Data at Scale</title><link>https://www.langchain.com/blog/the-agent-lake</link><guid isPermaLink="true">https://www.langchain.com/blog/the-agent-lake</guid>
 <pubDate>Wed, 25 Nov 2026 09:32:21 +0800</pubDate>
@@ -38,6 +65,15 @@
 <category>基准测试</category>
 <category>清华大学</category>
 <category>软件工程</category>
+</item>
+<item><title>Trump Says US Government Stake in Nvidia May Not Be Too Late</title><link>https://www.ithome.com/1/031/947.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/947.htm</guid>
+<pubDate>Wed, 25 Nov 2026 09:31:15 +0800</pubDate>
+<description>&lt;p&gt;President Trump said he had considered having the US government take a stake in Nvidia and that acting now &amp;#x27;may not be too late,&amp;#x27; though he disclosed no size, ratio or plan. The remark follows Washington&amp;#x27;s $8.9 billion investment for roughly 9.9% of Intel, signaling a possible shift from subsidies toward direct equity in US semiconductors.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;特朗普称美国政府入股英伟达或为时未晚&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;总统级表态暗示美国半导体政策可能从补贴转向直接持股，涉及全球市值最高的芯片公司，但尚无任何具体方案。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/031/947.htm">IT之家 · IT业界</source>
+<category>英伟达</category>
+<category>美国政府</category>
+<category>半导体政策</category>
+<category>产业投资</category>
 </item>
 <item><title>METR Finds OpenAI Base Models Cutting Prediction Error 7x Faster</title><link>https://x.com/rohanpaul_ai/status/2125400074322895282</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125400074322895282</guid>
 <pubDate>Wed, 25 Nov 2026 09:24:00 +0800</pubDate>
@@ -136,36 +172,36 @@
 <category>Instagram</category>
 <category>AI 助手</category>
 </item>
-<item><title>Tesla Prioritizes AI5 Chip for Optimus Robot Over Cars</title><link>https://www.ithome.com/1/031/915.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/915.htm</guid>
+<item><title>特斯拉 AI5 芯片优先用于 Optimus 机器人</title><link>https://www.ithome.com/1/031/915.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/915.htm</guid>
 <pubDate>Wed, 25 Nov 2026 07:38:21 +0800</pubDate>
-<description>&lt;p&gt;Musk confirmed that Tesla&amp;#x27;s next-generation AI5 chip will be deployed first to the Optimus humanoid robot and AI training systems, while vehicles stay on AI4, which he claims is already sufficient for \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;特斯拉 AI5 芯片优先用于 Optimus 机器人&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;马斯克亲口确认 AI5 优先供给 Optimus，并披露流片、算力与量产时间表，是观察特斯拉算力路线与具身智能战略的关键信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 68/100&lt;/p&gt;</description>
+<description>&lt;p&gt;马斯克明确表示，特斯拉下一代 AI5 芯片将优先部署于 Optimus 人形机器人与 AI 训练系统，汽车则继续沿用 AI4，并称 AI4 已足以实现“超人驾驶”。AI5 已完成流片并进入试产，算力约为 AI4 的 12 倍，内存提升至约 96GB，大规模量产目标定在 2027 年。这一表态显示特斯拉的战略重心正从车载自动驾驶向具身智能倾斜。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;马斯克亲口确认 AI5 优先供给 Optimus，并披露流片、算力与量产时间表，是观察特斯拉算力路线与具身智能战略的关键信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 68/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/031/915.htm">IT之家 · 智能时代</source>
 <category>芯片算力</category>
 <category>特斯拉</category>
 <category>人形机器人</category>
 <category>自动驾驶</category>
 </item>
-<item><title>OpenAI Enables Amateur Astronomers to Find Exoplanet Candidates with AI</title><link>https://www.ithome.com/1/031/899.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/899.htm</guid>
+<item><title>OpenAI 用 AI 助力业余天文学家发现系外行星候选</title><link>https://www.ithome.com/1/031/899.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/899.htm</guid>
 <pubDate>Wed, 25 Nov 2026 07:24:40 +0800</pubDate>
-<description>&lt;p&gt;OpenAI reported that two amateur astronomers used Codex and Astra to analyze public Kepler and TESS data, surfacing over 200 and 49 candidate signals respectively, with some independently reviewed by NASA&amp;#x27;s TESS team. Built on the transit method, the approach rapidly screens massive light curves for signals traditional algorithms may miss, though confirmation still requires months to years of follow-up observation and cross-validation.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 用 AI 助力业余天文学家发现系外行星候选&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示 AI 编码工具在真实科学发现流程中的落地路径，对 AI for Science 读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 发布博文称，两位业余天文学家借助 Codex 与 Astra 分析开普勒与 TESS 公开望远镜数据，分别筛出 200 余个和 49 个候选信号，其中部分已获 NASA TESS 团队独立复核。该方法基于凌日法，可快速从海量光变曲线中筛出传统算法可能遗漏的信号，但候选仍需数月乃至数年的重复观测与交叉验证才能确认。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示 AI 编码工具在真实科学发现流程中的落地路径，对 AI for Science 读者有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/031/899.htm">IT之家 · 智能时代</source>
 <category>AI for Science</category>
 <category>OpenAI</category>
 <category>系外行星</category>
 <category>Codex</category>
 </item>
-<item><title>Anthropic Lets Claude Artifacts Install as Native Desktop Apps</title><link>https://www.ithome.com/1/031/911.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/911.htm</guid>
+<item><title>Claude Artifacts 支持一键安装为桌面应用</title><link>https://www.ithome.com/1/031/911.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/911.htm</guid>
 <pubDate>Wed, 25 Nov 2026 07:17:06 +0800</pubDate>
-<description>&lt;p&gt;Anthropic has added an \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Claude Artifacts 支持一键安装为桌面应用&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Claude 生成物首次可落地为本地独立应用，权限模型值得开发者关注。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 为 Claude 的交互式 Artifacts 功能新增“安装为应用”选项，用户可将生成内容直接安装为 macOS 与 Windows 独立桌面软件。安装后应用拥有独立工具栏图标，并支持通知、快捷键拦截、窗口置顶乃至完整计算机访问等分级权限。该功能目前处于 Beta 阶段并逐步开放，标志着 Claude 生成物从浏览器内交互走向可长期驻留的本地应用形态。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Claude 生成物首次可落地为本地独立应用，权限模型值得开发者关注。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/031/911.htm">IT之家 · 智能时代</source>
 <category>Anthropic</category>
 <category>Claude</category>
 <category>桌面应用</category>
 <category>开发者工具</category>
 </item>
-<item><title>OpenAI Says GPT-6 General Model Can Design Proteins Without Specialized Tools</title><link>https://www.ithome.com/1/031/902.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/902.htm</guid>
+<item><title>OpenAI 称 GPT-6 通用模型可设计蛋白质</title><link>https://www.ithome.com/1/031/902.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/902.htm</guid>
 <pubDate>Wed, 25 Nov 2026 06:44:58 +0800</pubDate>
-<description>&lt;p&gt;OpenAI has released a preprint claiming that GPT-6.2 can design protein 3D structures and amino acid sequences using only reasoning and general coding tools, without specialized biology models. In lab tests with partner Onava, 35 of 322 mini binder designs showed binding signals across five targets, and 128 of 182 antibody loop redesigns retained IL-4Rα binding. Computationally, GPT-6.2 reached 43.7% success on motif scaffolding versus 27.8% for RFdiffusion, and about 93% accuracy on small-molecule docking versus 50% for DiffDock-L. OpenAI concedes that screening still relies on Boltz-2 and ESMFold2, and that structure prediction from sequence remains weak at a TM-score of 0.38 versus 0.93 for ESMFold2, so end-to-end protein design is not yet demonstrated.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 称 GPT-6 通用模型可设计蛋白质&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;通用大模型首次在真实湿实验中展示蛋白质设计能力，且附带与专用模型的量化对比和明确局限，是 AI for Science 的重要节点。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 88/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 发布预印本论文，称 GPT-6.2 仅靠推理与通用编程工具即可设计蛋白质三维结构与氨基酸序列，并在与 Onava 合作的实验室测试中获得初步验证：322 个微型结合蛋白中 35 个显示结合迹象，抗体结合环重设计中 182 个设计有 128 个仍能结合 IL-4Rα。计算任务上，GPT-6.2 在基序支架任务成功率 43.7%、小分子对接准确率约 93%，均显著超过 RFdiffusion 与 DiffDock-L。但 OpenAI 承认筛选环节仍依赖 Boltz-2、ESMFold2 等专用模型，且从序列预测完整结构的 TM-score 仅 0.38，远低于 ESMFold2 的 0.93，端到端能力尚未成立。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;通用大模型首次在真实湿实验中展示蛋白质设计能力，且附带与专用模型的量化对比和明确局限，是 AI for Science 的重要节点。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 88/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/031/902.htm">IT之家 · 智能时代</source>
 <category>大模型</category>
 <category>AI for Science</category>
@@ -234,42 +270,6 @@
 <category>AI for Science</category>
 <category>蛋白质设计</category>
 <category>OpenAI</category>
-</item>
-<item><title>Versine 推出 MCP 支付工具 让 AI 直接转账</title><link>https://news.ycombinator.com/item?id=50634426</link><guid isPermaLink="true">https://news.ycombinator.com/item?id=50634426</guid>
-<pubDate>Wed, 25 Nov 2026 04:44:15 +0800</pubDate>
-<description>&lt;p&gt;YC F26 团队推出 Versine，通过 MCP 协议把钱包接入 AI 助手，用户只需对话即可完成转账、收款与多人分账，并支持 passkey 审批与免注册收款。产品面向希望用智能体自动化日常财务操作的高级用户，目前处于早期阶段。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 MCP 在真实金融支付场景中的一次具体落地尝试，对关注智能体工具生态的读者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://news.ycombinator.com/item?id=50634426">Hacker News AI</source>
-<category>MCP</category>
-<category>智能体</category>
-<category>支付</category>
-<category>YC</category>
-</item>
-<item><title>数学家借助 AI 攻克黎曼猜想</title><link>https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/</link><guid isPermaLink="true">https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/</guid>
-<pubDate>Wed, 25 Nov 2026 04:34:53 +0800</pubDate>
-<description>&lt;p&gt;有消息称，一位数学家借助 AI 完成了对黎曼猜想的证明，这是数学界最重大的未解难题之一。该事件紧随此前多项由大模型系统推动或独立完成的数学突破，令整个数学界陷入震动。目前数学家仍在消化这份证明，其细节尚待验证。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;若属实，这将是 AI 辅助数学研究的里程碑事件，值得持续关注。&lt;/p&gt;&lt;p&gt;Ars Technica AI · llm · signal 72/100&lt;/p&gt;</description>
-<source url="https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/">Ars Technica AI</source>
-<category>大模型</category>
-<category>AI for Science</category>
-<category>数学</category>
-<category>黎曼猜想</category>
-</item>
-<item><title>Arena 实测 20 款智能体模型决策回避率</title><link>https://x.com/arena/status/2125323227849252924</link><guid isPermaLink="true">https://x.com/arena/status/2125323227849252924</guid>
-<pubDate>Wed, 25 Nov 2026 04:18:38 +0800</pubDate>
-<description>&lt;p&gt;Arena.ai 提出“决策回避”指标，统计智能体把本可自行决定的事项抛回给用户的频率。在 20 款主流 Agent 模型实测中，Kimi K3.1 Pro 与三款 OpenAI 模型最低仅 2%，OpenAI 整体约为 3%，而 Claude Fable 5.1 以 7.5% 居首。该结果为大模型智能体自主性评估提供了可量化的行为维度。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次以量化方式横向对比主流智能体的自主决策倾向，对智能体产品选型与评测体系有直接参考价值。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · agent · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/arena/status/2125323227849252924">Arena.ai (@arena)</source>
-<category>智能体</category>
-<category>模型评测</category>
-<category>Arena.ai</category>
-<category>自主性</category>
-</item>
-<item><title>PrismML 发布 Ternary Bonsai 2.5 27B 端侧智能体编码模型</title><link>https://prismml.com/news/bonsai-2-5-27b</link><guid isPermaLink="true">https://prismml.com/news/bonsai-2-5-27b</guid>
-<pubDate>Wed, 25 Nov 2026 04:08:03 +0800</pubDate>
-<description>&lt;p&gt;PrismML 推出 Ternary Bonsai 2.5 27B，基于 Qwen3.8 27B 升级，重点强化智能体编码、多轮工具调用与多步任务执行能力。模型维持 5.9 GB 体积不变，可在本地设备上处理私有文件与工具，官方称其为同内存占用下最强的智能体工作负载模型。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;端侧小体积模型在智能体编码与工具调用上的实质升级，对本地私有化部署有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 72/100&lt;/p&gt;</description>
-<source url="https://prismml.com/news/bonsai-2-5-27b">Hacker News AI</source>
-<category>端侧模型</category>
-<category>智能体编码</category>
-<category>工具调用</category>
-<category>PrismML</category>
 </item>
 </channel>
 </rss>
