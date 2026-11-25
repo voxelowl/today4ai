@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Wed, 25 Nov 2026 08:00:09 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 25 Nov 2026 09:32:21 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>特朗普与硅谷施压 黄仁勋重返英伟达</title><link>https://todayforai.com/en/story/story-97c1526e-d94</link><guid isPermaLink="true">https://todayforai.com/en/story/story-97c1526e-d94</guid>
 <pubDate>Tue, 24 Nov 2026 22:56:50 +0800</pubDate>
@@ -59,6 +59,14 @@ Claude Ship 直击 AI 生成代码量激增后审查与放行环节的瓶颈，�
 
 这一进展标志着通用大模型向生物设计领域迈出关键一步，有望降低蛋白质工程的门槛，但距离完全替代专用工具仍有差距。若后续能补齐结构预测短板，GPT-6 或将成为跨学科科研的通用引擎，推动 AI 驱动的生物发现进入新阶段。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
+<item><title>Canva 开放 MCP 服务 智能体可直出可编辑设计稿</title><link>https://todayforai.com/en/story/story-5694a3bc-fdb</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5694a3bc-fdb</guid>
+<pubDate>Wed, 25 Nov 2026 09:32:21 +0800</pubDate>
+<description>&lt;p&gt;Canva 正式向所有开发者开放 MCP 服务器，取消等待名单，标志着设计平台向智能体生态迈出关键一步。任何智能体或开发者均可接入，通过自主编排工具顺序，从一句自然语言需求直接生成设计、视频及多平台尺寸版本，最终输出为可编辑的 Canva 设计文件，供人工审阅、微调与发布。
+
+该服务允许智能体自主选择并依次调用 Canva 工具，实现从需求到成品的端到端自动化。输出文件保持可编辑性，确保人工在审阅环节保留控制权。与此同时，LangChain 提出的 Agent Lake 概念为智能体轨迹的规模化分析提供了新思路，其 SmithDB 数据库与智能计算查询层可对非结构化推理轨迹进行高效处理，形成持续改进闭环。两者共同指向智能体工作流从实验走向生产的关键趋势。
+
+对设计行业而言，Canva 的开放降低了智能体接入门槛，使自动化设计生成与人工审阅无缝衔接，有望大幅提升内容生产效率。对开发者生态，MCP 服务器的全面开放意味着更多第三方智能体可嵌入设计能力，推动跨平台协作。LangChain 的轨迹分析方案则补足了智能体可观测性短板，为生产环境下的可靠部署提供支撑。整体来看，智能体正从单点工具演化为可编排、可分析、可改进的系统级工作流。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;LangChain Blog, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
+</item>
 <item><title>百度开源文心 5.5 Flash 2800 亿参数模型</title><link>https://todayforai.com/en/story/story-8899f5da-682</link><guid isPermaLink="true">https://todayforai.com/en/story/story-8899f5da-682</guid>
 <pubDate>Tue, 24 Nov 2026 14:59:54 +0800</pubDate>
 <description>&lt;p&gt;百度以 Apache 2.0 协议开源文心 5.5 Flash Preview，采用 2800 亿总参数、每 Token 激活 140 亿的 MoE 架构，支持 100 万 Token 上下文，权重已上架 Hugging Face 与 ModelScope。该模型在 AutomationBench 上以 61.9 分超过 Claude Opus 5.5，CodeArena WebDev 以 1668 分位列开源第二，但 Terminal-Bench 4.0 等终端任务仍落后于头部闭源模型。
@@ -66,14 +74,6 @@ Claude Ship 直击 AI 生成代码量激增后审查与放行环节的瓶颈，�
 技术细节方面，模型共 43 层，其中 37 层使用 HCA、6 层使用 MLA+DSA 稀疏注意力，官方解码速度超 200 Token/s。vLLM 团队与百度合作，在发布当天通过 vLLM-ERNIE 插件提供支持，并引入 FlashIndexer 稀疏索引加速与 DSpark 投机解码优化，实现端到端推理加速。基座与后训练权重均以 Apache 2.0 开放，支持 vLLM、SGLang 本地部署，使文心 Flash 系列形成完整开源链条。
 
 行业影响上，此次开源为开发者提供了高性能长上下文 MoE 模型的新选择，尤其在 Agent 与代码生成场景具备竞争力，但终端任务短板也表明其与顶尖闭源模型仍有差距。Apache 2.0 协议与首日推理支持有望降低部署门槛，推动开源生态在稀疏 MoE 架构上的进一步探索。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, vLLM 官方博客, 量子位官网&lt;/p&gt;</description>
-</item>
-<item><title>蚂蚁 OceanBase 发布湖库一体 AI 数据平台并开源核心引擎</title><link>https://todayforai.com/en/story/story-defe2a1b-346</link><guid isPermaLink="true">https://todayforai.com/en/story/story-defe2a1b-346</guid>
-<pubDate>Tue, 24 Nov 2026 20:29:21 +0800</pubDate>
-<description>&lt;p&gt;蚂蚁集团旗下 OceanBase 于 11 月 24 日在北京 AI 数据大会上发布湖库一体 AI 数据平台 OceanLake，并宣布以 Apache 2.0 协议向全球开源其核心 AI 数据库引擎 OceanSeek。CEO 杨冰提出 AI 时代数据基础设施的四大原则：湖库一体、多模融合、Agent 友好、开源开放，直指企业私有数据、多模态数据与数据治理三座冰山。
-
-OceanLake 融合数据库实时事务、数仓分析与数据湖开放存储，实现离在线一体与多模态数据统一治理。其技术方案基于对象存储实现存算分离弹性，以一份数据同时支撑在线读写、实时分析与离线加工。Agent 友好能力依靠逻辑表隔离与秒级数据库分支，支持并行试错与失败回滚，并提供效果观测评测、长期共享记忆与权限治理。多模混合搜索被视为与事务、分析并列的新工作负载，统一管理结构化与非结构化数据。CTO 杨传辉透露，MCP 访问量半年增长约 13 倍带来的架构压力是此次发布的重要背景。
-
-OceanBase 押注多模态数据基础设施的逻辑与当年押注分布式数据库一致。目前其 AI 业务营收已突破 1 亿元，国际化营收占比 15%、增速 100%，研发团队已拆分为传统数据库与 AI 数据两条线。此次开源核心引擎有望降低 AI 数据平台的使用门槛，推动 Agent 生态发展，并加剧数据库厂商在 AI 时代的竞争。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;量子位官网, IT之家 · 智能时代, InfoQ 中文&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
