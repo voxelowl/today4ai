@@ -1,8 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Wed, 25 Nov 2026 15:30:51 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 25 Nov 2026 16:20:00 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Google G-MTP Drafting Head Speeds Up Gemma 4 Inference 3.14x</title><link>https://x.com/rohanpaul_ai/status/2125504763802378719</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125504763802378719</guid>
+<pubDate>Wed, 25 Nov 2026 16:20:00 +0800</pubDate>
+<description>&lt;p&gt;Google introduces G-MTP, a shared 4-layer drafting head that reads the main model&amp;#x27;s final activations and existing KV cache to skip prefill, accelerating speculative decoding of Gemma 4 31B by up to 3.14x on H100s versus 2.60x for DFlash and 2.07x for EAGLE-3. By eliminating a separate draft model, it cuts memory overhead and opens a path to on-device deployment. The paper also notes that fine-tuning only the main model degrades drafter block efficiency by 36.3% on SciQA, requiring distillation of the drafter on the new model to recover it.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌 G-MTP 让 Gemma 4 推理提速 3.14 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出免独立草稿模型的投机解码新范式，实测提速数据明确且给出微调后的工程注意事项。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2125504763802378719">Rohan Paul (@rohanpaul_ai)</source>
+<category>投机解码</category>
+<category>Gemma</category>
+<category>推理加速</category>
+<category>谷歌</category>
+</item>
+<item><title>Telos Live-1 Debuts Full-Duplex Voice Model That Listens and Calls Tools Simultaneously</title><link>https://x.com/rohanpaul_ai/status/2125498498632286696</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125498498632286696</guid>
+<pubDate>Wed, 25 Nov 2026 15:55:06 +0800</pubDate>
+<description>&lt;p&gt;Telos has released Telos-Live-1, a real-time interaction model that sees, hears and speaks while reasoning, searching and calling tools instead of waiting for turns. Its reported evaluations show 4.5 versus 8.5 for GPT-Live-1 on false interruptions during pauses (lower is better) and 59.8 versus 32.0 on τ-Voice banking tasks. The author notes these measure different things and argues the real test is whether a mid-task user correction is reflected in the final action.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Telos Live-1 发布 全双工实时语音模型支持边听边说边调工具&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全双工实时语音交互是智能体落地的重要方向，该模型给出可对比的量化评测，值得关注。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 72/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2125498498632286696">Rohan Paul (@rohanpaul_ai)</source>
+<category>实时语音</category>
+<category>全双工交互</category>
+<category>智能体</category>
+<category>模型评测</category>
+</item>
+<item><title>XPeng Unveils IRON Humanoid Robot with 76 Degrees of Freedom</title><link>https://www.ithome.com/1/032/164.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/164.htm</guid>
+<pubDate>Wed, 25 Nov 2026 15:50:43 +0800</pubDate>
+<description>&lt;p&gt;XPeng publicly debuted its high-order general-purpose humanoid robot IRON at its 2026 Tech Day, walking on stage and conversing in real time without teleoperation. IRON features 76 degrees of freedom with regionally tunable stiffness, a 3D vision plus 720-degree panoramic perception system, 9 microphones for sound localization, and over 1,500 tactile sensing points covering more than 80% of core areas.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;小鹏人形机器人 IRON 亮相 全身 76 自由度&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;小鹏人形机器人从演示走向真机自主交互，76 自由度与全身触觉方案是具身智能落地的关键硬件指标。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 72/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/032/164.htm">IT之家 · 智能时代</source>
+<category>具身智能</category>
+<category>人形机器人</category>
+<category>小鹏</category>
+</item>
+<item><title>Samsung Display Invests €210M in ams OSRAM for Micro LED Development</title><link>https://www.ithome.com/1/032/161.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/161.htm</guid>
+<pubDate>Wed, 25 Nov 2026 15:47:00 +0800</pubDate>
+<description>&lt;p&gt;Samsung Display and ams OSRAM have partnered to develop and commercialize next-generation ultra-small Micro LED displays, with Samsung Display subscribing to €210 million in new ams OSRAM shares and providing tens of millions of euros in annual R&amp;amp;D funding. ams OSRAM will reserve production capacity for Samsung Display at its Kulim 2 fab in Malaysia, with potential annual revenue in the hundreds of millions of euros if commercialization succeeds.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;三星显示注资 2.1 亿欧元联合 ams OSRAM 开发 Micro LED&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;显示面板巨头以战略注资绑定上游光电供应商，是 Micro LED 产业化路径上的重要资本与技术协同信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/032/161.htm">IT之家 · IT业界</source>
+<category>Micro LED</category>
+<category>三星显示</category>
+<category>ams OSRAM</category>
+<category>显示技术</category>
+<category>战略投资</category>
+</item>
+<item><title>XPeng Unveils Turing VLA 3.0 Embodied Intelligence Architecture</title><link>https://www.ithome.com/1/032/159.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/159.htm</guid>
+<pubDate>Wed, 25 Nov 2026 15:41:25 +0800</pubDate>
+<description>&lt;p&gt;At its 2026 Tech Day, XPeng unveiled the Turing embodied intelligence architecture VLA 3.0, linking a System 2 brain, System 1 cerebellum, System 0 instinct layer and the physical body into one loop where goals flow downward and body feedback flows upward. A single technical base supports both vehicles and robots, sharing compute, motion control, data and safety stacks, while the IRON humanoid delivered a bilingual speech on stage.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;小鹏发布图灵 VLA 3.0 具身智能架构&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;车企以统一 VLA 底座打通自动驾驶与具身机器人，是具身智能架构层面的重要路线信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 68/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/032/159.htm">IT之家 · 智能时代</source>
+<category>具身智能</category>
+<category>小鹏</category>
+<category>VLA</category>
+<category>人形机器人</category>
+</item>
 <item><title>Xiaomi Says 16 Billion Yuan AI Investment on Track as Revenue Grows</title><link>https://www.ithome.com/1/032/151.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/151.htm</guid>
 <pubDate>Wed, 25 Nov 2026 15:30:51 +0800</pubDate>
 <description>&lt;p&gt;Xiaomi CFO Lin Shiwei confirmed on the earnings call that the company&amp;#x27;s 16 billion yuan AI investment for this year is landing on plan, with MiMo model API calls and AI-related revenue both rising. Xiaomi remains in a heavy-investment phase, pushing AI across its human-car-home ecosystem, including on-device MiMo in the Xiaomi 18 Fold and MiMo integration in HyperOS 4&amp;#x27;s Super Xiao Ai 2.0.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;小米今年 AI 投入 160 亿元稳健落地&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;小米首次给出年度 AI 投入规模与落地进展的官方口径，是观察手机厂商 AI 商业化节奏的关键信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
@@ -20,6 +65,15 @@
 <category>网络安全</category>
 <category>思科</category>
 <category>漏洞利用</category>
+</item>
+<item><title>TrendForce Cuts 2027 Memory Output Forecast as DRAM Prices Set to Plateau</title><link>https://www.ithome.com/1/032/148.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/148.htm</guid>
+<pubDate>Wed, 25 Nov 2026 15:23:34 +0800</pubDate>
+<description>&lt;p&gt;TrendForce has trimmed its 2027 revenue forecasts for DRAM and NAND flash to $1.153 trillion and $419.3 billion, up 69% and 29% year over year. Some cloud service providers began cutting server memory and enterprise SSD demand in Q4 2026; DRAM stays tight as other CSPs absorb the slack but contract price growth narrows toward a plateau in H2 2027, while NAND swings back to oversupply and falling prices.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;集邦下调 2027 年存储产值预估 DRAM 价格下半年或持平&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 算力基础设施成本端的关键风向标，直接影响服务器与存储采购节奏。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/032/148.htm">IT之家 · IT业界</source>
+<category>存储芯片</category>
+<category>DRAM</category>
+<category>NAND</category>
+<category>算力基础设施</category>
 </item>
 <item><title>EU Drafts $54.8B Sovereign Tech Equity Fund for AI and Quantum</title><link>https://x.com/rohanpaul_ai/status/2125490212038189501</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125490212038189501</guid>
 <pubDate>Wed, 25 Nov 2026 15:22:10 +0800</pubDate>
@@ -131,54 +185,54 @@
 <category>谷歌</category>
 <category>Gemma</category>
 </item>
-<item><title>ShellBench Benchmark Reveals Agents Fail Mostly by Omitting Information</title><link>https://x.com/rohanpaul_ai/status/2125464526149890399</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125464526149890399</guid>
+<item><title>ShellBench 发布 揭示智能体 51% 失败源于信息遗漏</title><link>https://x.com/rohanpaul_ai/status/2125464526149890399</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125464526149890399</guid>
 <pubDate>Wed, 25 Nov 2026 13:40:06 +0800</pubDate>
-<description>&lt;p&gt;The OpenClaw Foundation launched ShellBench, independently reproduced by Kaggle, evaluating frontier models on 100 real-world personal AI tasks. The dominant failure mode is omission: 51% of failed tasks involved missing information, and in 87% of those cases the agent had already collected it. GPT-6 Astra, the top model averaged across five harnesses, passed 75.1% of tasks at least once, with 48.8% passing on all three.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;ShellBench 发布 揭示智能体 51% 失败源于信息遗漏&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个由 OpenClaw 基金会推出并经 Kaggle 独立复现的真实任务智能体基准，量化了信息遗漏这一关键失效模式。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenClaw 基金会推出 ShellBench 基准，并由 Kaggle 独立复现，用 100 个真实个人 AI 任务评测前沿模型。结果显示智能体失败的主因是信息遗漏：51% 的失败任务涉及信息缺失，而其中 87% 的情况下智能体其实已经收集到了该信息。跨 5 种 harness 平均表现最好的 GPT-6 Astra 至少一次通过 75.1% 的任务，三种 harness 全部通过的比例为 48.8%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个由 OpenClaw 基金会推出并经 Kaggle 独立复现的真实任务智能体基准，量化了信息遗漏这一关键失效模式。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 72/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2125464526149890399">Rohan Paul (@rohanpaul_ai)</source>
 <category>智能体</category>
 <category>基准评测</category>
 <category>OpenClaw</category>
 <category>Kaggle</category>
 </item>
-<item><title>PrismML Releases Ternary Bonsai 2.5 27B Model at One-Ninth the Size</title><link>https://www.ithome.com/1/032/101.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/101.htm</guid>
+<item><title>PrismML 发布三值量化 Bonsai 2.5 27B 模型，体积压缩至九分之一</title><link>https://www.ithome.com/1/032/101.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/101.htm</guid>
 <pubDate>Wed, 25 Nov 2026 13:36:32 +0800</pubDate>
-<description>&lt;p&gt;PrismML has released Ternary Bonsai 2.5 27B, built on the Qwen3.8 27B base, using ternary quantization with weights restricted to -1, 0 and 1. In its most compact form it needs only 5.9GB of memory, roughly one-ninth of the 53.8GB full-precision version, while retaining about 93.7% of agentic coding capability (SWE-bench Verified 75.6 vs 80.6). Versus the September release, SWE-bench Verified rose from 60.8 to 75.6 and AppWorld tool use jumped from 51.2 to 90.5, with improved tool-feedback use and failure recovery to curb error accumulation on long tasks. The model is free under Apache 2.0 and runs locally via llama.cpp and MLX on GPUs, Mac, iPhone and iPad.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;PrismML 发布三值量化 Bonsai 2.5 27B 模型，体积压缩至九分之一&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;三值量化在压缩至九分之一体积的同时保留九成以上编程能力，为端侧本地智能体部署提供了可验证的新范式。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;PrismML 发布 Ternary Bonsai 2.5 27B，基于 Qwen3.8 27B 基座，采用权重仅取 -1、0、1 的三值量化，最紧凑格式下仅占 5.9GB 内存，约为全精度版本 53.8GB 的九分之一，同时保留约 93.7% 的 Agent 编程能力（SWE-bench Verified 75.6 对 80.6）。相比 9 月版本，其 SWE-bench Verified 从 60.8 升至 75.6，AppWorld 工具使用从 51.2 跃升至 90.5，并针对长任务误差累积改进了工具反馈利用与失败恢复能力。模型以 Apache 2.0 许可免费开放，可通过 llama.cpp 与 MLX 在 GPU、Mac、iPhone 和 iPad 上本地运行。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;三值量化在压缩至九分之一体积的同时保留九成以上编程能力，为端侧本地智能体部署提供了可验证的新范式。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/101.htm">IT之家 · 智能时代</source>
 <category>大模型</category>
 <category>三值量化</category>
 <category>端侧部署</category>
 <category>开源模型</category>
 </item>
-<item><title>German Consumer Group Sues Meta Over Camera Smart Glasses Sales</title><link>https://www.ithome.com/1/032/099.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/099.htm</guid>
+<item><title>德国消费者组织起诉 Meta 智能眼镜违规</title><link>https://www.ithome.com/1/032/099.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/099.htm</guid>
 <pubDate>Wed, 25 Nov 2026 13:31:03 +0800</pubDate>
-<description>&lt;p&gt;German consumer protection group VZBV has sued Meta and EssilorLuxottica, alleging the companies failed to disclose data-protection risks when selling Ray-Ban camera smart glasses and that the white LED indicator is insufficient to inform bystanders. The case pushes privacy compliance responsibility onto the point of sale and could affect European market access for wearable AI hardware.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;德国消费者组织起诉 Meta 智能眼镜违规&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是可穿戴 AI 硬件在欧洲面临的首批消费者保护诉讼之一，直接触及隐私合规与销售披露义务的边界。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;德国消费者保护组织 VZBV 对 Meta 与依视路陆逊梯卡提起诉讼，指控其在销售 Ray-Ban 摄像头智能眼镜时未充分披露数据保护风险，且白色闪光灯提示不足以告知公众被拍摄。该案将智能眼镜的隐私合规责任推向销售环节，可能影响可穿戴 AI 硬件的欧洲市场准入。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是可穿戴 AI 硬件在欧洲面临的首批消费者保护诉讼之一，直接触及隐私合规与销售披露义务的边界。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/099.htm">IT之家 · 智能时代</source>
 <category>智能眼镜</category>
 <category>隐私合规</category>
 <category>Meta</category>
 <category>可穿戴设备</category>
 </item>
-<item><title>MIT and Microsoft Study Finds Copilot Cuts Junior Coder Hiring by 40%</title><link>https://x.com/rohanpaul_ai/status/2125461932111229203</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125461932111229203</guid>
+<item><title>MIT 与微软研究称 Copilot 致初级程序员招聘降 40%</title><link>https://x.com/rohanpaul_ai/status/2125461932111229203</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125461932111229203</guid>
 <pubDate>Wed, 25 Nov 2026 13:29:48 +0800</pubDate>
-<description>&lt;p&gt;A joint MIT and Microsoft paper uses GitHub contract review timing across 5,414 multinational firms as a natural experiment, finding that one year after GitHub Copilot adoption quarterly technical hiring fell 29%, with junior software engineer hiring down about 40% while senior hiring and exits stayed flat. The share of coding-heavy entry-level roles dropped from 72% to 52%, suggesting AI coding tools are reshaping the entry-level job mix.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;MIT 与微软研究称 Copilot 致初级程序员招聘降 40%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是首批用准实验方法量化 AI 编程工具对就业结构影响的大样本研究，对开发者职业路径与招聘策略有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;MIT 与微软联合论文基于 5,414 家跨国企业的 GitHub 合同审查时间构造自然实验，发现采用 GitHub Copilot 一年后企业季度技术招聘下降 29%，其中初级软件工程师招聘降幅约 40%，而资深工程师招聘与员工离职率基本持平。研究还显示初级技术岗位中编码密集型职位占比从 72% 降至 52%，提示 AI 编程工具正在重塑入门级岗位结构。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是首批用准实验方法量化 AI 编程工具对就业结构影响的大样本研究，对开发者职业路径与招聘策略有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2125461932111229203">Rohan Paul (@rohanpaul_ai)</source>
 <category>AI 编程工具</category>
 <category>就业影响</category>
 <category>GitHub Copilot</category>
 <category>研究论文</category>
 </item>
-<item><title>Nvidia Cuts RTX 50 Supply as AI Chip Demand Squeezes Capacity</title><link>https://www.ithome.com/1/032/097.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/097.htm</guid>
+<item><title>AI 芯片挤占产能 英伟达缩减 RTX 50 供货</title><link>https://www.ithome.com/1/032/097.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/097.htm</guid>
 <pubDate>Wed, 25 Nov 2026 13:19:30 +0800</pubDate>
-<description>&lt;p&gt;Nvidia&amp;#x27;s surging AI chip orders are squeezing consumer GPU capacity, with new B300 orders now quoted at 26 to 40 weeks and GB300 at roughly 14 to 26 weeks, pushing most new projects to delivery in Q2-Q3 2027. As a result, Nvidia has begun cutting GeForce RTX 50 series supply, and the RTX 60 series, originally targeted for mass production by end-2027, may slip further. GDDR7 memory output is also constrained as fabs prioritize server DRAM, driving up prices and adding pressure on GPU supply and PC costs.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 芯片挤占产能 英伟达缩减 RTX 50 供货&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 算力需求对消费级硬件产能的挤出效应已具体量化到交期与产品路线，是观察算力供需失衡的关键信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;英伟达 AI 芯片订单激增正挤压消费级显卡产能，B300 新订单交期已拉长至 26 至 40 周，GB300 约为 14 至 26 周，多数新项目要等到 2027 年第二至第三季度才能交付。受此影响，英伟达已缩减 GeForce RTX 50 系列供货，原定 2027 年底量产的 RTX 60 系列也可能推迟。GDDR7 显存产能被服务器 DRAM 优先占用，报价持续上涨，进一步加剧显卡供应与整机成本压力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 算力需求对消费级硬件产能的挤出效应已具体量化到交期与产品路线，是观察算力供需失衡的关键信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/097.htm">IT之家 · IT业界</source>
 <category>英伟达</category>
 <category>算力供应链</category>
 <category>消费级显卡</category>
 <category>显存</category>
 </item>
-<item><title>Meta&#x27;s Huge AI Pay Packages Roughly Net Neutral for Top Researchers</title><link>https://x.com/rohanpaul_ai/status/2125456631966335471</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125456631966335471</guid>
+<item><title>Meta 天价薪酬对顶尖研究员近乎持平</title><link>https://x.com/rohanpaul_ai/status/2125456631966335471</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125456631966335471</guid>
 <pubDate>Wed, 25 Nov 2026 13:08:44 +0800</pubDate>
-<description>&lt;p&gt;Meta chief AI officer Alexandr Wang said the company&amp;#x27;s famously large offers to top AI researchers were roughly net neutral for many, since their OpenAI and Anthropic equity had grown enough that staying would have paid about the same. The real draw, he argued, was the mission.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 天价薪酬对顶尖研究员近乎持平&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Meta 首席 AI 官首次公开解释天价挖角为何对顶尖研究员近乎持平，为理解 AI 人才争夺的真实驱动力提供了内部视角。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Meta 首席 AI 官 Alexandr Wang 表示，Meta 为顶尖 AI 研究员开出的天价薪酬包，对许多人而言并非真正的涨薪，因为其 OpenAI 与 Anthropic 持股增值后，留任收益已大致相当。他认为真正吸引人才的是使命本身。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Meta 首席 AI 官首次公开解释天价挖角为何对顶尖研究员近乎持平，为理解 AI 人才争夺的真实驱动力提供了内部视角。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 42/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2125456631966335471">Rohan Paul (@rohanpaul_ai)</source>
 <category>人才流动</category>
 <category>Meta</category>
@@ -220,59 +274,6 @@
 <category>数据中心</category>
 <category>电力需求</category>
 <category>高盛</category>
-</item>
-<item><title>经典 GPU 技术演示在浏览器中重现</title><link>https://gpu-demo-gallery.pages.dev/</link><guid isPermaLink="true">https://gpu-demo-gallery.pages.dev/</guid>
-<pubDate>Wed, 25 Nov 2026 12:31:48 +0800</pubDate>
-<description>&lt;p&gt;开发者将 1998 至 2006 年间 3dfx、NVIDIA 与 ATI 的经典显卡技术演示从原始文件重建，并移植到浏览器中运行。这些演示涵盖 Voodoo2 双纹理单元、GeForce 256 硬件变换光照与 GeForce 8 的 GPU 端烟雾水体模拟，直观呈现了早期 GPU 能力的演进脉络。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以可交互方式重现早期 GPU 里程碑演示，是理解图形硬件演进与 Web 移植技术的优质素材。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 42/100&lt;/p&gt;</description>
-<source url="https://gpu-demo-gallery.pages.dev/">Hacker News AI</source>
-<category>GPU</category>
-<category>图形渲染</category>
-<category>Web 移植</category>
-<category>技术演示</category>
-</item>
-<item><title>Gemini 4 Neon 发布 谷歌 DeepMind 重返前沿实验室</title><link>https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/</link><guid isPermaLink="true">https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/</guid>
-<pubDate>Wed, 25 Nov 2026 12:29:07 +0800</pubDate>
-<description>&lt;p&gt;谷歌 DeepMind 发布 Gemini 4 Neon，被业界视为其重回前沿实验室行列的标志性节点。此前在 Demis Hassabis 等核心成员离职、Gemini 3 进展不及预期后，外界曾公开质疑 GDM 的前沿地位，如今 Neon 的采用趋势出现异常强劲的突破。文章同时提及 Argon、Carbon 等 Gemini 4 系列版本，并指出这轮热度更可能源于真实采用而非协同炒作。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Gemini 4 Neon 的发布与采用趋势直接关系到前沿大模型竞争格局，是值得关注的节点性事件。&lt;/p&gt;&lt;p&gt;Latent Space · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/">Latent Space</source>
-<category>大模型</category>
-<category>谷歌 DeepMind</category>
-<category>Gemini</category>
-</item>
-<item><title>众擎 CEO 赵同阳：人形机器人进入商业化关键阶段</title><link>https://www.ithome.com/1/032/062.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/062.htm</guid>
-<pubDate>Wed, 25 Nov 2026 12:08:36 +0800</pubDate>
-<description>&lt;p&gt;众擎机器人 CEO 赵同阳在开发者大会上表示，人形机器人正从整机量产走向商业化应用，下一阶段竞争核心是工程能力而非能否造出。他提出生态协同路线，主张企业应选对行业、锁定客户、穿透场景，而非追求单一公司覆盖所有需求。众擎 T800 定价 18 万元起，深圳基地已实现每 15 分钟下线一台。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;人形机器人量产与商业化路径的一手高管表态，附带产线节拍与定价等硬信息。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/032/062.htm">IT之家 · 智能时代</source>
-<category>人形机器人</category>
-<category>商业化</category>
-<category>众擎</category>
-<category>具身智能</category>
-</item>
-<item><title>Octen Search 单次搜索 0.17 秒刷新 25 款 API 最快纪录</title><link>https://x.com/ArtificialAnlys/status/2125439213944664531</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2125439213944664531</guid>
-<pubDate>Wed, 25 Nov 2026 11:59:32 +0800</pubDate>
-<description>&lt;p&gt;Artificial Analysis 对 25 款搜索 API 产品进行基准测试，Octen Search 快速动态模式单次搜索约 0.17 秒，为全场最快，约为第二名 0.33 秒的一半。其搜索指数得分 82 分位列第三，仅落后榜首 1 分，在 BrowseComp 困难子集上取得 92% 正确率，定价为每千次请求 1 美元。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;第三方独立基准给出可比的延迟与质量数据，为搜索 API 选型提供直接参考。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · tools · signal 68/100&lt;/p&gt;</description>
-<source url="https://x.com/ArtificialAnlys/status/2125439213944664531">Artificial Analysis (@ArtificialAnlys)</source>
-<category>搜索 API</category>
-<category>基准测试</category>
-<category>Artificial Analysis</category>
-<category>Octen</category>
-</item>
-<item><title>OpenAI 将网络安全视为下一个千亿级增长引擎</title><link>https://www.ithome.com/1/031/989.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/989.htm</guid>
-<pubDate>Wed, 25 Nov 2026 11:41:20 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 正把网络安全定位为可能超越编程业务的下一个商业化赛道，CFO 弗莱尔认为 3000 亿美元的市场规模估计仍偏低。公司已推出面向防御场景的 GPT-5.4-Cyber 并扩大受信访问计划，但如何转化为可规模化盈利产品仍不清晰。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部厂商商业化重心从编程转向网安，涉及专用模型与受控分发路径，对判断 AI 落地方向有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 72/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/031/989.htm">IT之家 · 智能时代</source>
-<category>网络安全</category>
-<category>OpenAI</category>
-<category>商业化</category>
-<category>AI 编程</category>
-</item>
-<item><title>Anthropic 上市首周破发 跌破 83 美元发行价</title><link>https://www.ithome.com/1/031/983.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/983.htm</guid>
-<pubDate>Wed, 25 Nov 2026 11:29:13 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 于 11 月 19 日登陆纳斯达克，创下史上最大 IPO 纪录，但上市不到一周即跌破 83 美元发行价，11 月 24 日收报 81.91 美元，单日下跌 6.54%，较首日高点回撤约 34%。此次破发并非个案，市场对 AI 企业盈利能力、巨额算力资本开支与高估值可持续性的疑虑正在引发科技股广泛抛售。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;史上最大 IPO 首周破发，是 AI 高估值叙事遭遇基本面审视的标志性事件。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/031/983.htm">IT之家 · 智能时代</source>
-<category>Anthropic</category>
-<category>IPO</category>
-<category>AI 估值</category>
-<category>科技股</category>
 </item>
 </channel>
 </rss>
