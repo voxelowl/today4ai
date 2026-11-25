@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Wed, 25 Nov 2026 16:20:00 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 25 Nov 2026 16:33:25 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>XPeng IRON Humanoid to Host Guangzhou Auto Show Launch Event</title><link>https://www.ithome.com/1/032/263.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/263.htm</guid>
+<pubDate>Wed, 25 Nov 2026 16:33:25 +0800</pubDate>
+<description>&lt;p&gt;XPeng announced that its IRON humanoid robot will host the company&amp;#x27;s press event at the 2026 Guangzhou Auto Show on November 27, which CEO He Xiaopeng called possibly the first robot-led new-car launch in history. The move is a public demonstration of embodied AI in a real commercial setting, though XPeng has not disclosed the robot&amp;#x27;s level of autonomy, task parameters or technical details.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;小鹏 IRON 人形机器人将主持广州车展发布会&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;具身智能首次走向车展发布会主持台，是观察人形机器人真实落地能力的一个信号点。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/032/263.htm">IT之家 · 智能时代</source>
+<category>具身智能</category>
+<category>人形机器人</category>
+<category>小鹏</category>
+<category>车展</category>
+</item>
 <item><title>Google G-MTP Drafting Head Speeds Up Gemma 4 Inference 3.14x</title><link>https://x.com/rohanpaul_ai/status/2125504763802378719</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125504763802378719</guid>
 <pubDate>Wed, 25 Nov 2026 16:20:00 +0800</pubDate>
 <description>&lt;p&gt;Google introduces G-MTP, a shared 4-layer drafting head that reads the main model&amp;#x27;s final activations and existing KV cache to skip prefill, accelerating speculative decoding of Gemma 4 31B by up to 3.14x on H100s versus 2.60x for DFlash and 2.07x for EAGLE-3. By eliminating a separate draft model, it cuts memory overhead and opens a path to on-device deployment. The paper also notes that fine-tuning only the main model degrades drafter block efficiency by 36.3% on SciQA, requiring distillation of the drafter on the new model to recover it.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌 G-MTP 让 Gemma 4 推理提速 3.14 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出免独立草稿模型的投机解码新范式，实测提速数据明确且给出微调后的工程注意事项。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
@@ -11,6 +20,23 @@
 <category>Gemma</category>
 <category>推理加速</category>
 <category>谷歌</category>
+</item>
+<item><title>XPeng Sets Q2 2027 Launch for IRON Humanoid Robot</title><link>https://www.ithome.com/1/032/194.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/194.htm</guid>
+<pubDate>Wed, 25 Nov 2026 16:16:46 +0800</pubDate>
+<description>&lt;p&gt;At its Origin tech day, XPeng announced that its high-order general-purpose humanoid robot IRON will begin an in-store guide internship in China in Q1 2027, with a formal public launch in Q2 2027 and hardware mass production starting January 2027. CEO He Xiaopeng also outlined software and token subscription business models plus skills and model stores for partners.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;小鹏 IRON 人形机器人定档 2027 年 Q2 发布&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;人形机器人从演示走向门店实习与量产排期，且首次明确订阅制商业模式，是具身智能落地的关键节点。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/032/194.htm">IT之家 · 智能时代</source>
+<category>具身智能</category>
+<category>人形机器人</category>
+<category>小鹏</category>
+<category>商业模式</category>
+</item>
+<item><title>Google Adds Separate Training Data Toggle for Gemini</title><link>https://www.ithome.com/1/032/191.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/191.htm</guid>
+<pubDate>Wed, 25 Nov 2026 16:15:32 +0800</pubDate>
+<description>&lt;p&gt;Google has added a new privacy setting to the Gemini app that lets users keep their chat history while independently opting out of having those conversations used to train generative AI models. Once disabled, future chats are excluded from training data, with the exception of feedback users actively submit.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌为 Gemini 推出独立训练数据开关&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流大模型产品将训练数据授权与聊天记录留存解耦，是数据治理与用户控制权层面的实质性产品变更。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/032/191.htm">IT之家 · 智能时代</source>
+<category>隐私设置</category>
+<category>Gemini</category>
+<category>数据治理</category>
 </item>
 <item><title>Telos Live-1 Debuts Full-Duplex Voice Model That Listens and Calls Tools Simultaneously</title><link>https://x.com/rohanpaul_ai/status/2125498498632286696</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125498498632286696</guid>
 <pubDate>Wed, 25 Nov 2026 15:55:06 +0800</pubDate>
@@ -149,6 +175,15 @@
 <category>可解释性</category>
 <category>谷歌</category>
 </item>
+<item><title>AI Inference Is Forcing Cloud Native Back to Stateful Design</title><link>https://bexx.io/post/swift-death-of-statelessness/</link><guid isPermaLink="true">https://bexx.io/post/swift-death-of-statelessness/</guid>
+<pubDate>Wed, 25 Nov 2026 14:23:09 +0800</pubDate>
+<description>&lt;p&gt;The author argues that reasoning models and multi-turn agentic workflows are inherently stateful, carrying prompt history, context windows and costly KV-caches. Standard round-robin load balancing across stateless containers discards that cache and forces saturated GPUs to recompute already-processed tokens, a pure deadweight loss and cache thrashing. The networking frontier is shifting from packet movement to an economic allocation problem balancing transport latency against GPU recomputation cost.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 推理正迫使云原生架构重回有状态设计&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;从云原生视角点出 AI 推理对无状态架构的根本性冲击，提出缓存感知路由这一关键工程命题。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 58/100&lt;/p&gt;</description>
+<source url="https://bexx.io/post/swift-death-of-statelessness/">Hacker News AI</source>
+<category>云原生</category>
+<category>推理优化</category>
+<category>KV-cache</category>
+<category>架构演进</category>
+</item>
 <item><title>Meta Reassesses 2030 Net-Zero Goal as AI Buildout Drives Emissions Up</title><link>https://www.ithome.com/1/032/111.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/111.htm</guid>
 <pubDate>Wed, 25 Nov 2026 14:13:52 +0800</pubDate>
 <description>&lt;p&gt;Meta confirmed in its FY2025 sustainability report that it is reassessing its 2030 net-zero and related environmental targets, citing massive AI infrastructure buildout and limited US power supply headroom that drove a 12x year-over-year surge in greenhouse gas emissions; it has also exited the RE100 renewable energy initiative. The company says it remains committed to emissions reduction and eventual net zero, but concedes AI demand has grown far faster than the assumptions behind its original targets.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 因 AI 算力扩张重估 2030 净零排放目标&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 算力扩张与气候承诺正面冲突的标志性案例，直接反映超大规模数据中心的能源约束。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 68/100&lt;/p&gt;</description>
@@ -167,23 +202,32 @@
 <category>专利</category>
 <category>个性化内容</category>
 </item>
-<item><title>Amazon Strands Open-Sources Five Decider v2 Decision Models</title><link>https://www.ithome.com/1/032/105.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/105.htm</guid>
+<item><title>亚马逊 Strands 开源 5 款 Decider v2 决策模型</title><link>https://www.ithome.com/1/032/105.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/105.htm</guid>
 <pubDate>Wed, 25 Nov 2026 13:58:17 +0800</pubDate>
-<description>&lt;p&gt;Amazon&amp;#x27;s Strands Agents team released the Strands Decider v2 family of decision models, built on Google Gemma 4 and spanning five sizes from E2B to 31B, open-sourced under Apache-2.0 with weights on Hugging Face. The new architecture was trained on 17.5 million samples and tuned for long-horizon inputs; the 31B variant scores 82.1 on average across six public text benchmarks, up from 70.0 for v1&amp;#x27;s 26B-A4B, with gains on image and video tasks as well.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊 Strands 开源 5 款 Decider v2 决策模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;亚马逊基于 Gemma 4 开源决策模型家族，为智能体决策环节提供可直接部署的开放权重选项。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 68/100&lt;/p&gt;</description>
+<description>&lt;p&gt;亚马逊 Strands Agents 团队发布 Strands Decider v2 系列决策模型，基于谷歌 Gemma 4 打造，共 5 款型号，规模从 E2B 到 31B，以 Apache-2.0 许可开源并在 Hugging Face 发布权重。该系列采用全新架构，使用 1750 万训练样本，并针对长程输入专门优化；31B 版本在六项公开文本基准上平均得分 82.1，较 v1 的 26B-A4B 的 70.0 明显提升，图像与视频任务表现亦有改善。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;亚马逊基于 Gemma 4 开源决策模型家族，为智能体决策环节提供可直接部署的开放权重选项。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 68/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/105.htm">IT之家 · 智能时代</source>
 <category>开源模型</category>
 <category>智能体</category>
 <category>亚马逊</category>
 <category>Gemma</category>
 </item>
-<item><title>Google Open Sources gBench Evaluation Framework with 86 Built-in Suites</title><link>https://www.ithome.com/1/032/104.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/104.htm</guid>
+<item><title>谷歌开源 gBench 评测框架 内置 86 套评估套件</title><link>https://www.ithome.com/1/032/104.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/104.htm</guid>
 <pubDate>Wed, 25 Nov 2026 13:57:50 +0800</pubDate>
-<description>&lt;p&gt;Google has open-sourced gBench, a benchmarking framework for evaluating open models such as Gemma, bundling 86 evaluation suites across both LLMs and VLMs. Released as a pip-installable Python package under Apache 2.0, it accepts OpenAI-compatible APIs and works with vLLM and Ollama. The framework lets developers compare models on a single standard without stitching together test scripts, and run smoke tests or full evaluations before deployment.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌开源 gBench 评测框架 内置 86 套评估套件&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;谷歌开源统一评测框架，降低开放模型横向对比与上线前验证的门槛。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;谷歌开源了基准测试框架 gBench，用于评估 Gemma 等开放模型，内置 86 个评估套件，覆盖 LLM 与 VLM。框架以 Python 包形式发布，兼容 OpenAI 接口并支持 vLLM、Ollama，采用 Apache 2.0 许可证。它让开发者无需自行拼凑测试脚本，即可在同一标准下横向对比模型，并在上线前完成冒烟测试与完整评测。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;谷歌开源统一评测框架，降低开放模型横向对比与上线前验证的门槛。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/104.htm">IT之家 · 智能时代</source>
 <category>开源框架</category>
 <category>模型评测</category>
 <category>谷歌</category>
 <category>Gemma</category>
+</item>
+<item><title>字节 Seed 与港大开源 Laminar 强化学习框架</title><link>https://x.com/Marktechpost/status/2125465845212327969</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2125465845212327969</guid>
+<pubDate>Wed, 25 Nov 2026 13:45:21 +0800</pubDate>
+<description>&lt;p&gt;字节跳动 Seed 与香港大学研究者开源了强化学习后训练框架 Laminar，核心思路是将 rollout、经验缓冲、训练与权重同步完全解耦为独立循环，避免所有 GPU 等待最慢的智能体轨迹。在 Qwen3-Coder-30B-A3B-Instruct 的 SWE 智能体强化学习任务上，SWE-bench Verified 从 46.6% 提升至 52.2%，训练样本减少 33%、GPU 小时减少 64%，论文报告在 1024 卡上吞吐最高提升 5.48 倍。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向智能体强化学习后训练的系统级解耦设计，附带可复现的开源实现与显著效率收益，对训练基础设施读者价值高。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · opensource · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/Marktechpost/status/2125465845212327969">Marktechpost (@Marktechpost)</source>
+<category>强化学习</category>
+<category>开源框架</category>
+<category>智能体</category>
+<category>训练基础设施</category>
 </item>
 <item><title>ShellBench 发布 揭示智能体 51% 失败源于信息遗漏</title><link>https://x.com/rohanpaul_ai/status/2125464526149890399</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125464526149890399</guid>
 <pubDate>Wed, 25 Nov 2026 13:40:06 +0800</pubDate>
@@ -229,51 +273,6 @@
 <category>算力供应链</category>
 <category>消费级显卡</category>
 <category>显存</category>
-</item>
-<item><title>Meta 天价薪酬对顶尖研究员近乎持平</title><link>https://x.com/rohanpaul_ai/status/2125456631966335471</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125456631966335471</guid>
-<pubDate>Wed, 25 Nov 2026 13:08:44 +0800</pubDate>
-<description>&lt;p&gt;Meta 首席 AI 官 Alexandr Wang 表示，Meta 为顶尖 AI 研究员开出的天价薪酬包，对许多人而言并非真正的涨薪，因为其 OpenAI 与 Anthropic 持股增值后，留任收益已大致相当。他认为真正吸引人才的是使命本身。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Meta 首席 AI 官首次公开解释天价挖角为何对顶尖研究员近乎持平，为理解 AI 人才争夺的真实驱动力提供了内部视角。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 42/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2125456631966335471">Rohan Paul (@rohanpaul_ai)</source>
-<category>人才流动</category>
-<category>Meta</category>
-<category>薪酬</category>
-</item>
-<item><title>OpenAI 与 Anthropic 在 GitHub 发布海量 Lean 数学证明</title><link>https://x.com/Yuchenj_UW/status/2125455365592727715</link><guid isPermaLink="true">https://x.com/Yuchenj_UW/status/2125455365592727715</guid>
-<pubDate>Wed, 25 Nov 2026 13:03:42 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 与 Anthropic 正通过 GitHub 直接发布包含数百万行 Lean 代码的数学突破，绕过了传统同行评审流程。这一变化首次让科学发现的速度与人类理解这些发现的速度出现明显脱钩。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;捕捉到 AI 数学证明绕过同行评审、发现速度与人类理解脱钩的关键趋势信号。&lt;/p&gt;&lt;p&gt;Yuchen Jin (@Yuchenj_UW) · llm · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/Yuchenj_UW/status/2125455365592727715">Yuchen Jin (@Yuchenj_UW)</source>
-<category>数学证明</category>
-<category>Lean</category>
-<category>OpenAI</category>
-<category>Anthropic</category>
-<category>AI for Science</category>
-</item>
-<item><title>OpenClaw 发布 ShellBench 智能体真实任务基准</title><link>https://x.com/rohanpaul_ai/status/2125454780026011734</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125454780026011734</guid>
-<pubDate>Wed, 25 Nov 2026 13:01:23 +0800</pubDate>
-<description>&lt;p&gt;OpenClaw 联合多方发布 ShellBench，用 100 个真实日常任务、12 个模型、5 种运行框架共 53,100 次评分运行，衡量智能体完成杂乱实际工作的能力。最强智能体 GPT-6 Astra 仅完整完成 62.5% 的任务，三次尝试全部通过率 48.8%，说明日常任务仍有约四成失败。开源运行框架表现不落下风。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个聚焦真实杂乱日常任务的智能体基准，揭示顶尖模型仍有约四成任务失败，对评估智能体落地能力有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2125454780026011734">Rohan Paul (@rohanpaul_ai)</source>
-<category>智能体</category>
-<category>基准测试</category>
-<category>OpenClaw</category>
-<category>开源</category>
-</item>
-<item><title>星际荣耀双曲线三号完成尾段极限载荷静力试验</title><link>https://www.ithome.com/1/032/093.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/093.htm</guid>
-<pubDate>Wed, 25 Nov 2026 12:59:19 +0800</pubDate>
-<description>&lt;p&gt;星际荣耀宣布双曲线三号可重复使用液氧甲烷火箭完成尾段-传力极限载荷静力试验，验证了九机并联布局下核心承力结构的承载能力与设计裕度。试验极限载荷与仿真偏差小于 5%，破坏部位与预示结果一致，为首飞入轨与海上回收任务奠定基础。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;可重复使用火箭关键承力结构通过极限载荷试验，是双曲线三号首飞与海上回收路线上的实质工程节点。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/032/093.htm">IT之家 · IT业界</source>
-<category>可重复使用火箭</category>
-<category>星际荣耀</category>
-<category>液氧甲烷</category>
-<category>结构试验</category>
-</item>
-<item><title>高盛预计美国数据中心电力容量 2028 年新增 52 吉瓦</title><link>https://www.ithome.com/1/032/089.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/089.htm</guid>
-<pubDate>Wed, 25 Nov 2026 12:33:29 +0800</pubDate>
-<description>&lt;p&gt;高盛报告指出，受 AI 热潮推动，美国数据中心电力容量强劲增长有望持续至 2028 年，期间预计新增 52 吉瓦。今年该领域电力容量与需求增长近 30%，贡献了美国电力需求总增量的三分之一以上，将对电力与天然气需求构成上行风险。高盛同时提示，中期选举后的政策调整可能减弱这一上行风险。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;投行量化测算 AI 算力扩张对电力与天然气需求的传导，是算力基础设施瓶颈的重要前瞻信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/032/089.htm">IT之家 · 智能时代</source>
-<category>算力基础设施</category>
-<category>数据中心</category>
-<category>电力需求</category>
-<category>高盛</category>
 </item>
 </channel>
 </rss>
