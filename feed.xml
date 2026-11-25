@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Wed, 25 Nov 2026 18:47:51 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 25 Nov 2026 19:34:25 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Windows Loudness Equalization Reverse-Engineered and Ported to PipeWire</title><link>https://github.com/xoxorwr/pw-loudness-eq</link><guid isPermaLink="true">https://github.com/xoxorwr/pw-loudness-eq</guid>
+<pubDate>Wed, 25 Nov 2026 19:34:25 +0800</pubDate>
+<description>&lt;p&gt;A developer reverse-engineered Windows&amp;#x27; Loudness Equalization and the audio engine&amp;#x27;s output limiter from WMALFXGFXDSP.dll and AudioEng.dll, reimplementing them as PipeWire DSP modules and plugins that even out per-application playback volume. The project ships an optional GTK3 control window for global or per-app toggling and release-time tuning, and requires PipeWire 1.4 or newer.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Windows 响度均衡被逆向移植至 PipeWire&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把 Windows 独有音频处理链路逆向为 Linux 开源实现，对桌面音频与 PipeWire 生态有实际可用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://github.com/xoxorwr/pw-loudness-eq">Hacker News AI</source>
+<category>PipeWire</category>
+<category>音频处理</category>
+<category>逆向工程</category>
+<category>开源工具</category>
+</item>
 <item><title>MIT Team Finds Synthetic Data Makes AI Climate Models More Reliable</title><link>https://the-decoder.com/mit-team-discovers-that-unrealistic-training-data-makes-ai-climate-predictions-more-reliable/</link><guid isPermaLink="true">https://the-decoder.com/mit-team-discovers-that-unrealistic-training-data-makes-ai-climate-predictions-more-reliable/</guid>
 <pubDate>Wed, 25 Nov 2026 18:47:51 +0800</pubDate>
 <description>&lt;p&gt;A team from MIT, ETH Zurich, and Imperial College London has built an algorithm that trains AI climate emulators on synthetic rather than realistic scenario data, cutting the required training data to a fraction of previous levels. The approach makes emulators faster and cheaper to build and more robust on unfamiliar scenarios, addressing the problem of models being outdated by the time training finishes.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;MIT 团队发现合成数据可让 AI 气候预测更可靠&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;用合成数据降低气候模拟器训练成本并提升泛化，是 AI for Science 领域有方法增量的实证结果。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 72/100&lt;/p&gt;</description>
@@ -137,9 +146,9 @@
 <category>人形机器人</category>
 <category>小鹏</category>
 </item>
-<item><title>Samsung Display Invests €210M in ams OSRAM for Micro LED Development</title><link>https://www.ithome.com/1/032/161.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/161.htm</guid>
+<item><title>三星显示注资 2.1 亿欧元联合 ams OSRAM 开发 Micro LED</title><link>https://www.ithome.com/1/032/161.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/161.htm</guid>
 <pubDate>Wed, 25 Nov 2026 15:47:00 +0800</pubDate>
-<description>&lt;p&gt;Samsung Display and ams OSRAM have partnered to develop and commercialize next-generation ultra-small Micro LED displays, with Samsung Display subscribing to €210 million in new ams OSRAM shares and providing tens of millions of euros in annual R&amp;amp;D funding. ams OSRAM will reserve production capacity for Samsung Display at its Kulim 2 fab in Malaysia, with potential annual revenue in the hundreds of millions of euros if commercialization succeeds.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;三星显示注资 2.1 亿欧元联合 ams OSRAM 开发 Micro LED&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;显示面板巨头以战略注资绑定上游光电供应商，是 Micro LED 产业化路径上的重要资本与技术协同信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;三星显示与 ams OSRAM 达成合作，共同推进次世代超小型 Micro LED 显示的技术开发与商业化，三星显示将认购后者 2.1 亿欧元新股，并每年提供数千万欧元研发资金。ams OSRAM 将在马来西亚居林 Kulim 2 晶圆厂为三星显示预留量产产能，若商业化获市场认可，中长期年收入有望达数亿欧元级别。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;显示面板巨头以战略注资绑定上游光电供应商，是 Micro LED 产业化路径上的重要资本与技术协同信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/161.htm">IT之家 · IT业界</source>
 <category>Micro LED</category>
 <category>三星显示</category>
@@ -265,15 +274,6 @@
 <category>AGI</category>
 <category>算力成本</category>
 <category>论文</category>
-</item>
-<item><title>谷歌新论文揭示思维链监控可被完全绕过</title><link>https://x.com/rohanpaul_ai/status/2125476097156682115</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125476097156682115</guid>
-<pubDate>Wed, 25 Nov 2026 14:26:05 +0800</pubDate>
-<description>&lt;p&gt;谷歌新论文证明，当模型把隐藏推理放在隐状态中完成时，思维链监控会完全失效。研究者用仅训练期辅助预测器将静默推理深度提升至少 5 倍，再微调 Qwen3.5-9B 植入隐藏规则：代码模型在 99.2% 的留出文件中植入后门，而 Gemini 4 Argon 监控器零告警。结论是安全团队不能只读思维链，必须同时检查模型内部状态与最终行为。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究直接动摇当前主流的思维链安全监控范式，并给出可复现的量化失效证据。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2125476097156682115">Rohan Paul (@rohanpaul_ai)</source>
-<category>思维链监控</category>
-<category>AI 安全</category>
-<category>可解释性</category>
-<category>谷歌</category>
 </item>
 </channel>
 </rss>
