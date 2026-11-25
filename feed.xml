@@ -3,61 +3,61 @@
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
 <language>en</language><lastBuildDate>Wed, 25 Nov 2026 16:33:25 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
-<item><title>XPeng IRON Humanoid to Host Guangzhou Auto Show Launch Event</title><link>https://www.ithome.com/1/032/263.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/263.htm</guid>
+<item><title>小鹏 IRON 人形机器人将主持广州车展发布会</title><link>https://www.ithome.com/1/032/263.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/263.htm</guid>
 <pubDate>Wed, 25 Nov 2026 16:33:25 +0800</pubDate>
-<description>&lt;p&gt;XPeng announced that its IRON humanoid robot will host the company&amp;#x27;s press event at the 2026 Guangzhou Auto Show on November 27, which CEO He Xiaopeng called possibly the first robot-led new-car launch in history. The move is a public demonstration of embodied AI in a real commercial setting, though XPeng has not disclosed the robot&amp;#x27;s level of autonomy, task parameters or technical details.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;小鹏 IRON 人形机器人将主持广州车展发布会&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;具身智能首次走向车展发布会主持台，是观察人形机器人真实落地能力的一个信号点。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;小鹏宣布其 IRON 人形机器人将于 11 月 27 日亲自主持 2026 广州车展小鹏发布会，何小鹏称这可能是历史上首次由机器人完成新车发布。该事件是具身智能在真实商业场景中的一次公开演示，但官方尚未披露机器人的自主程度、任务参数与技术细节。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;具身智能首次走向车展发布会主持台，是观察人形机器人真实落地能力的一个信号点。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/263.htm">IT之家 · 智能时代</source>
 <category>具身智能</category>
 <category>人形机器人</category>
 <category>小鹏</category>
 <category>车展</category>
 </item>
-<item><title>Google G-MTP Drafting Head Speeds Up Gemma 4 Inference 3.14x</title><link>https://x.com/rohanpaul_ai/status/2125504763802378719</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125504763802378719</guid>
+<item><title>谷歌 G-MTP 让 Gemma 4 推理提速 3.14 倍</title><link>https://x.com/rohanpaul_ai/status/2125504763802378719</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125504763802378719</guid>
 <pubDate>Wed, 25 Nov 2026 16:20:00 +0800</pubDate>
-<description>&lt;p&gt;Google introduces G-MTP, a shared 4-layer drafting head that reads the main model&amp;#x27;s final activations and existing KV cache to skip prefill, accelerating speculative decoding of Gemma 4 31B by up to 3.14x on H100s versus 2.60x for DFlash and 2.07x for EAGLE-3. By eliminating a separate draft model, it cuts memory overhead and opens a path to on-device deployment. The paper also notes that fine-tuning only the main model degrades drafter block efficiency by 36.3% on SciQA, requiring distillation of the drafter on the new model to recover it.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌 G-MTP 让 Gemma 4 推理提速 3.14 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出免独立草稿模型的投机解码新范式，实测提速数据明确且给出微调后的工程注意事项。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;谷歌提出 G-MTP，用一个共享的 4 层草稿头直接读取主模型的最终激活与已有 KV cache，跳过 prefill 阶段，从而在 H100 上让 Gemma 4 31B 的投机解码提速最高 3.14 倍，优于 DFlash 的 2.60 倍和 EAGLE-3 的 2.07 倍。该方法无需独立草稿模型，显著降低显存占用，为端侧部署打开空间。论文同时指出，若只微调主模型，草稿块效率在 SciQA 上会下降 36.3%，需对新模型蒸馏草稿头才能恢复。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出免独立草稿模型的投机解码新范式，实测提速数据明确且给出微调后的工程注意事项。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2125504763802378719">Rohan Paul (@rohanpaul_ai)</source>
 <category>投机解码</category>
 <category>Gemma</category>
 <category>推理加速</category>
 <category>谷歌</category>
 </item>
-<item><title>XPeng Sets Q2 2027 Launch for IRON Humanoid Robot</title><link>https://www.ithome.com/1/032/194.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/194.htm</guid>
+<item><title>小鹏 IRON 人形机器人定档 2027 年 Q2 发布</title><link>https://www.ithome.com/1/032/194.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/194.htm</guid>
 <pubDate>Wed, 25 Nov 2026 16:16:46 +0800</pubDate>
-<description>&lt;p&gt;At its Origin tech day, XPeng announced that its high-order general-purpose humanoid robot IRON will begin an in-store guide internship in China in Q1 2027, with a formal public launch in Q2 2027 and hardware mass production starting January 2027. CEO He Xiaopeng also outlined software and token subscription business models plus skills and model stores for partners.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;小鹏 IRON 人形机器人定档 2027 年 Q2 发布&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;人形机器人从演示走向门店实习与量产排期，且首次明确订阅制商业模式，是具身智能落地的关键节点。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;小鹏在「Origin 原点」科技日宣布，高阶通用人形机器人 IRON 将于 2027 年 Q1 率先进入国内门店担任导购实习，Q2 正式对外发布，硬件量产定于 2027 年 1 月启动。何小鹏同时提出软件订阅与 Token 订阅的商业模式，并计划通过 skills 商店、模型商店让合作伙伴获利。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;人形机器人从演示走向门店实习与量产排期，且首次明确订阅制商业模式，是具身智能落地的关键节点。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/194.htm">IT之家 · 智能时代</source>
 <category>具身智能</category>
 <category>人形机器人</category>
 <category>小鹏</category>
 <category>商业模式</category>
 </item>
-<item><title>Google Adds Separate Training Data Toggle for Gemini</title><link>https://www.ithome.com/1/032/191.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/191.htm</guid>
+<item><title>谷歌为 Gemini 推出独立训练数据开关</title><link>https://www.ithome.com/1/032/191.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/191.htm</guid>
 <pubDate>Wed, 25 Nov 2026 16:15:32 +0800</pubDate>
-<description>&lt;p&gt;Google has added a new privacy setting to the Gemini app that lets users keep their chat history while independently opting out of having those conversations used to train generative AI models. Once disabled, future chats are excluded from training data, with the exception of feedback users actively submit.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌为 Gemini 推出独立训练数据开关&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流大模型产品将训练数据授权与聊天记录留存解耦，是数据治理与用户控制权层面的实质性产品变更。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;谷歌为 Gemini 应用新增隐私设置，用户可在保留聊天记录的同时，独立关闭“聊天内容用于生成式 AI 模型训练”的授权。关闭后，后续对话不再进入训练语料，但用户主动提交的反馈内容除外。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;主流大模型产品将训练数据授权与聊天记录留存解耦，是数据治理与用户控制权层面的实质性产品变更。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/191.htm">IT之家 · 智能时代</source>
 <category>隐私设置</category>
 <category>Gemini</category>
 <category>数据治理</category>
 </item>
-<item><title>Telos Live-1 Debuts Full-Duplex Voice Model That Listens and Calls Tools Simultaneously</title><link>https://x.com/rohanpaul_ai/status/2125498498632286696</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125498498632286696</guid>
+<item><title>Telos Live-1 发布 全双工实时语音模型支持边听边说边调工具</title><link>https://x.com/rohanpaul_ai/status/2125498498632286696</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125498498632286696</guid>
 <pubDate>Wed, 25 Nov 2026 15:55:06 +0800</pubDate>
-<description>&lt;p&gt;Telos has released Telos-Live-1, a real-time interaction model that sees, hears and speaks while reasoning, searching and calling tools instead of waiting for turns. Its reported evaluations show 4.5 versus 8.5 for GPT-Live-1 on false interruptions during pauses (lower is better) and 59.8 versus 32.0 on τ-Voice banking tasks. The author notes these measure different things and argues the real test is whether a mid-task user correction is reflected in the final action.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Telos Live-1 发布 全双工实时语音模型支持边听边说边调工具&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全双工实时语音交互是智能体落地的重要方向，该模型给出可对比的量化评测，值得关注。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Telos 发布实时交互模型 Telos-Live-1，可在推理、搜索与调用工具的同时持续看、听、说，不再依赖轮次等待。其公布的评测显示，在停顿期间误打断指标上以 4.5 优于 GPT-Live-1 的 8.5（越低越好），在 τ-Voice 银行任务上以 59.8 对 32.0 领先。作者指出两项指标衡量维度不同，真正值得验证的是用户中途修正细节时，模型能否让最终动作反映修正而非重来。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;全双工实时语音交互是智能体落地的重要方向，该模型给出可对比的量化评测，值得关注。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 72/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2125498498632286696">Rohan Paul (@rohanpaul_ai)</source>
 <category>实时语音</category>
 <category>全双工交互</category>
 <category>智能体</category>
 <category>模型评测</category>
 </item>
-<item><title>XPeng Unveils IRON Humanoid Robot with 76 Degrees of Freedom</title><link>https://www.ithome.com/1/032/164.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/164.htm</guid>
+<item><title>小鹏人形机器人 IRON 亮相 全身 76 自由度</title><link>https://www.ithome.com/1/032/164.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/164.htm</guid>
 <pubDate>Wed, 25 Nov 2026 15:50:43 +0800</pubDate>
-<description>&lt;p&gt;XPeng publicly debuted its high-order general-purpose humanoid robot IRON at its 2026 Tech Day, walking on stage and conversing in real time without teleoperation. IRON features 76 degrees of freedom with regionally tunable stiffness, a 3D vision plus 720-degree panoramic perception system, 9 microphones for sound localization, and over 1,500 tactile sensing points covering more than 80% of core areas.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;小鹏人形机器人 IRON 亮相 全身 76 自由度&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;小鹏人形机器人从演示走向真机自主交互，76 自由度与全身触觉方案是具身智能落地的关键硬件指标。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;小鹏在 2026 科技日上首次公开展示高阶通用人形机器人 IRON 真机，全程无人工遥控完成舞台行走与实时对话。IRON 全身 76 自由度、不同部位软硬度可调，搭载 3D 视觉与 720° 全景感知、9 麦克风声源定位及 1500+ 触觉感知点，核心区域触觉覆盖率超 80%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;小鹏人形机器人从演示走向真机自主交互，76 自由度与全身触觉方案是具身智能落地的关键硬件指标。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/164.htm">IT之家 · 智能时代</source>
 <category>具身智能</category>
 <category>人形机器人</category>
 <category>小鹏</category>
 </item>
-<item><title>Samsung Display Invests €210M in ams OSRAM for Micro LED Development</title><link>https://www.ithome.com/1/032/161.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/161.htm</guid>
+<item><title>三星显示注资 2.1 亿欧元联合 ams OSRAM 开发 Micro LED</title><link>https://www.ithome.com/1/032/161.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/161.htm</guid>
 <pubDate>Wed, 25 Nov 2026 15:47:00 +0800</pubDate>
-<description>&lt;p&gt;Samsung Display and ams OSRAM have partnered to develop and commercialize next-generation ultra-small Micro LED displays, with Samsung Display subscribing to €210 million in new ams OSRAM shares and providing tens of millions of euros in annual R&amp;amp;D funding. ams OSRAM will reserve production capacity for Samsung Display at its Kulim 2 fab in Malaysia, with potential annual revenue in the hundreds of millions of euros if commercialization succeeds.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;三星显示注资 2.1 亿欧元联合 ams OSRAM 开发 Micro LED&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;显示面板巨头以战略注资绑定上游光电供应商，是 Micro LED 产业化路径上的重要资本与技术协同信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;三星显示与 ams OSRAM 达成合作，共同推进次世代超小型 Micro LED 显示的技术开发与商业化，三星显示将认购后者 2.1 亿欧元新股，并每年提供数千万欧元研发资金。ams OSRAM 将在马来西亚居林 Kulim 2 晶圆厂为三星显示预留量产产能，若商业化获市场认可，中长期年收入有望达数亿欧元级别。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;显示面板巨头以战略注资绑定上游光电供应商，是 Micro LED 产业化路径上的重要资本与技术协同信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/161.htm">IT之家 · IT业界</source>
 <category>Micro LED</category>
 <category>三星显示</category>
@@ -65,18 +65,18 @@
 <category>显示技术</category>
 <category>战略投资</category>
 </item>
-<item><title>XPeng Unveils Turing VLA 3.0 Embodied Intelligence Architecture</title><link>https://www.ithome.com/1/032/159.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/159.htm</guid>
+<item><title>小鹏发布图灵 VLA 3.0 具身智能架构</title><link>https://www.ithome.com/1/032/159.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/159.htm</guid>
 <pubDate>Wed, 25 Nov 2026 15:41:25 +0800</pubDate>
-<description>&lt;p&gt;At its 2026 Tech Day, XPeng unveiled the Turing embodied intelligence architecture VLA 3.0, linking a System 2 brain, System 1 cerebellum, System 0 instinct layer and the physical body into one loop where goals flow downward and body feedback flows upward. A single technical base supports both vehicles and robots, sharing compute, motion control, data and safety stacks, while the IRON humanoid delivered a bilingual speech on stage.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;小鹏发布图灵 VLA 3.0 具身智能架构&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;车企以统一 VLA 底座打通自动驾驶与具身机器人，是具身智能架构层面的重要路线信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 68/100&lt;/p&gt;</description>
+<description>&lt;p&gt;小鹏在 2026 科技日发布图灵具身智能架构 VLA 3.0，将 System 2 大脑、System 1 小脑、System 0 本能与具身硬件本体贯通为统一链路，目标与动作向下传递、身体状态向上反馈。该架构以同一技术底座同时支撑汽车与机器人两类产品，共享算力、身体控制、数据与安全体系，人形机器人 IRON 现场完成中英文演讲。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;车企以统一 VLA 底座打通自动驾驶与具身机器人，是具身智能架构层面的重要路线信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 68/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/159.htm">IT之家 · 智能时代</source>
 <category>具身智能</category>
 <category>小鹏</category>
 <category>VLA</category>
 <category>人形机器人</category>
 </item>
-<item><title>Xiaomi Says 16 Billion Yuan AI Investment on Track as Revenue Grows</title><link>https://www.ithome.com/1/032/151.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/151.htm</guid>
+<item><title>小米今年 AI 投入 160 亿元稳健落地</title><link>https://www.ithome.com/1/032/151.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/151.htm</guid>
 <pubDate>Wed, 25 Nov 2026 15:30:51 +0800</pubDate>
-<description>&lt;p&gt;Xiaomi CFO Lin Shiwei confirmed on the earnings call that the company&amp;#x27;s 16 billion yuan AI investment for this year is landing on plan, with MiMo model API calls and AI-related revenue both rising. Xiaomi remains in a heavy-investment phase, pushing AI across its human-car-home ecosystem, including on-device MiMo in the Xiaomi 18 Fold and MiMo integration in HyperOS 4&amp;#x27;s Super Xiao Ai 2.0.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;小米今年 AI 投入 160 亿元稳健落地&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;小米首次给出年度 AI 投入规模与落地进展的官方口径，是观察手机厂商 AI 商业化节奏的关键信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;小米 CFO 林世伟在财报电话会上确认，今年 160 亿元 AI 投入正按规划稳健落地，MiMo 大模型 API 调用量与 AI 相关收入持续增长。小米 AI 仍处大规模投入期，除基座模型研发外，正加速推动 AI 落地“人车家全生态”，包括小米 18 Fold 端侧 MiMo 与澎湃 OS 4 超级小爱 2.0。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;小米首次给出年度 AI 投入规模与落地进展的官方口径，是观察手机厂商 AI 商业化节奏的关键信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/151.htm">IT之家 · 智能时代</source>
 <category>小米</category>
 <category>AI 投入</category>
@@ -84,26 +84,26 @@
 <category>端侧大模型</category>
 <category>财报</category>
 </item>
-<item><title>Cisco President Warns Exploit Window Shrinks to Minutes</title><link>https://x.com/rohanpaul_ai/status/2125491806012104932</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125491806012104932</guid>
+<item><title>思科总裁称漏洞公开到被利用仅剩数分钟</title><link>https://x.com/rohanpaul_ai/status/2125491806012104932</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125491806012104932</guid>
 <pubDate>Wed, 25 Nov 2026 15:28:30 +0800</pubDate>
-<description>&lt;p&gt;Cisco President Jeetu Patel says the defenders&amp;#x27; window, the time from a vulnerability going public to an exploit appearing, has shrunk to minutes. The remark signals that enterprises must shift toward automated detection and minute-level response instead of periodic patching cycles.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;思科总裁称漏洞公开到被利用仅剩数分钟&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自头部网络设备厂商高管的公开判断，点出 AI 时代漏洞利用加速对安全运营节奏的实质冲击。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;思科总裁 Jeetu Patel 指出，从漏洞公开到被实际利用的“防御者窗口”已缩短至数分钟量级，攻击方的自动化与 AI 辅助能力正在压缩传统补丁响应时间。这一判断意味着企业安全运营必须转向自动化检测与分钟级响应，而非依赖周期性打补丁。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自头部网络设备厂商高管的公开判断，点出 AI 时代漏洞利用加速对安全运营节奏的实质冲击。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 42/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2125491806012104932">Rohan Paul (@rohanpaul_ai)</source>
 <category>网络安全</category>
 <category>思科</category>
 <category>漏洞利用</category>
 </item>
-<item><title>TrendForce Cuts 2027 Memory Output Forecast as DRAM Prices Set to Plateau</title><link>https://www.ithome.com/1/032/148.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/148.htm</guid>
+<item><title>集邦下调 2027 年存储产值预估 DRAM 价格下半年或持平</title><link>https://www.ithome.com/1/032/148.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/148.htm</guid>
 <pubDate>Wed, 25 Nov 2026 15:23:34 +0800</pubDate>
-<description>&lt;p&gt;TrendForce has trimmed its 2027 revenue forecasts for DRAM and NAND flash to $1.153 trillion and $419.3 billion, up 69% and 29% year over year. Some cloud service providers began cutting server memory and enterprise SSD demand in Q4 2026; DRAM stays tight as other CSPs absorb the slack but contract price growth narrows toward a plateau in H2 2027, while NAND swings back to oversupply and falling prices.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;集邦下调 2027 年存储产值预估 DRAM 价格下半年或持平&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 算力基础设施成本端的关键风向标，直接影响服务器与存储采购节奏。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;集邦咨询下调 2027 年 DRAM 与 NAND 闪存产值预期，分别至 1.153 万亿美元和 4193 亿美元，同比增幅 69% 与 29%。部分云服务商自 2026 年四季度起削减服务器内存与企业级 SSD 需求，DRAM 因其他 CSP 补位仍供需偏紧但合约价涨幅逐季收窄、2027 下半年或持平，NAND 则重回供大于求、价格转跌。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 算力基础设施成本端的关键风向标，直接影响服务器与存储采购节奏。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/148.htm">IT之家 · IT业界</source>
 <category>存储芯片</category>
 <category>DRAM</category>
 <category>NAND</category>
 <category>算力基础设施</category>
 </item>
-<item><title>EU Drafts $54.8B Sovereign Tech Equity Fund for AI and Quantum</title><link>https://x.com/rohanpaul_ai/status/2125490212038189501</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125490212038189501</guid>
+<item><title>欧盟筹建 548 亿美元科技主权基金</title><link>https://x.com/rohanpaul_ai/status/2125490212038189501</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125490212038189501</guid>
 <pubDate>Wed, 25 Nov 2026 15:22:10 +0800</pubDate>
-<description>&lt;p&gt;The EU is drafting a Sovereign Tech Equity Fund (Stef) aimed at mobilizing up to $54.8B for European AI and quantum companies. EU money would seed the vehicle, with the European Commission seeking up to 6x leverage from private investors, taking larger, riskier and longer-term stakes than existing schemes. The move targets Europe&amp;#x27;s long-standing difficulty in funding and scaling tech firms.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;欧盟筹建 548 亿美元科技主权基金&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;欧盟以主权股权基金形式大规模撬动私人资本投向 AI 与量子，是欧洲产业政策与全球算力竞赛的重要变量。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;欧盟正在起草“主权科技股权基金”（Stef），目标撬动最高 548 亿美元投向欧洲 AI 与量子企业。该基金将以欧盟资金作为种子，通过吸引私人资本实现最高 6 倍杠杆，并持有比现有欧盟计划规模更大、风险更高、期限更长的股权。此举直指欧洲长期难以融资与规模化科技公司的结构性短板。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;欧盟以主权股权基金形式大规模撬动私人资本投向 AI 与量子，是欧洲产业政策与全球算力竞赛的重要变量。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 72/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2125490212038189501">Rohan Paul (@rohanpaul_ai)</source>
 <category>欧盟</category>
 <category>主权科技基金</category>
@@ -111,45 +111,45 @@
 <category>量子计算</category>
 <category>产业政策</category>
 </item>
-<item><title>Canon Revives ArF Dry Lithography Line After 24 Years</title><link>https://www.ithome.com/1/032/135.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/135.htm</guid>
+<item><title>佳能时隔 24 年重启 ArF 干式光刻机</title><link>https://www.ithome.com/1/032/135.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/135.htm</guid>
 <pubDate>Wed, 25 Nov 2026 15:05:46 +0800</pubDate>
-<description>&lt;p&gt;Canon will begin taking orders in early December 2026 for the FPA-6300AS6, its first new ArF dry scanning lithography system in 24 years. Built on the KrF platform with a newly developed NA 0.93 projection lens, it targets memory chips plus power devices and sensors, supporting small and varied-thickness substrates and backside alignment.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;佳能时隔 24 年重启 ArF 干式光刻机&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;光刻设备是芯片制造的核心瓶颈环节，佳能重启中断 24 年的 ArF 干式产品线，对成熟制程与存储扩产具有供应链意义。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;佳能宣布将于 2026 年 12 月上旬开始接受 ArF 干式扫描式光刻机 FPA-6300AS6 的订单，这是其时隔 24 年再次推出该类产品。新机沿用 KrF 平台并采用新开发的 NA 0.93 投影镜头，面向存储芯片、功率器件与传感器精细化加工，支持小尺寸、不同厚度基板及背面对准工艺。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;光刻设备是芯片制造的核心瓶颈环节，佳能重启中断 24 年的 ArF 干式产品线，对成熟制程与存储扩产具有供应链意义。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/135.htm">IT之家 · IT业界</source>
 <category>光刻机</category>
 <category>佳能</category>
 <category>半导体设备</category>
 <category>存储芯片</category>
 </item>
-<item><title>EU Plans 50 Billion Euro Tech Sovereignty Fund for AI and Quantum</title><link>https://www.ithome.com/1/032/132.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/132.htm</guid>
+<item><title>欧盟拟设 500 亿欧元科技主权基金投向 AI 与量子</title><link>https://www.ithome.com/1/032/132.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/132.htm</guid>
 <pubDate>Wed, 25 Nov 2026 14:59:31 +0800</pubDate>
-<description>&lt;p&gt;The EU is drafting plans for a sovereign tech equity fund of up to €50 billion, targeting European AI and quantum computing companies to reduce reliance on US and Chinese technology. The fund aims to use public money as seed capital with a 1:6 leverage target, with operating details expected in February and funding sources still under discussion.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;欧盟拟设 500 亿欧元科技主权基金投向 AI 与量子&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;欧盟以 500 亿欧元主权基金直接押注 AI 与量子，是欧洲技术自主路线上的重要产业信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;欧盟正拟定设立最高 500 亿欧元的主权科技股权基金，重点投向欧洲本土人工智能与量子计算企业，以降低对中美技术的依赖。基金拟以公共资金作种子、按 1:6 撬动民间资本，运作细则计划明年 2 月公布，资金来源仍在商议。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;欧盟以 500 亿欧元主权基金直接押注 AI 与量子，是欧洲技术自主路线上的重要产业信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/132.htm">IT之家 · IT业界</source>
 <category>产业政策</category>
 <category>欧盟</category>
 <category>主权基金</category>
 <category>量子计算</category>
 </item>
-<item><title>Tencent Hunyuan Open-Sources Hy4 flash GGUF Weights for Local Deployment</title><link>https://www.ithome.com/1/032/131.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/131.htm</guid>
+<item><title>腾讯混元开源 Hy4 flash 量化权重 224B 模型可跑个人设备</title><link>https://www.ithome.com/1/032/131.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/131.htm</guid>
 <pubDate>Wed, 25 Nov 2026 14:58:37 +0800</pubDate>
-<description>&lt;p&gt;Tencent Hunyuan has open-sourced GGUF quantized weights and inference code for Hy4 flash via its AngelSlim compression toolkit, enabling the 224B-parameter model to run on personal devices. The smallest build is roughly 30% of the original 410.27 GiB, and with the optimized Strata offload framework it runs on a 64 GB Mac mini, hitting up to 89 tokens per second on 48 GB VRAM hardware. Tencent reports Q3_K stays within 0.4 points of the original model across four benchmarks.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;腾讯混元开源 Hy4 flash 量化权重 224B 模型可跑个人设备&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;224B 级模型经量化后可在消费级设备本地运行，且精度损失极小，对本地部署与开源生态有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · opensource · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;腾讯混元通过 AngelSlim 工具箱开源 Hy4 flash 的 GGUF 量化权重与配套推理代码，使这款 224B 总参数模型可部署到个人设备。最小版本权重仅为原始 410.27 GiB 的约 30%，配合 Strata offload 框架可在 64 GB Mac mini 上运行，48 GB 显存设备生成速度最高达每秒 89 token。官方称 Q3_K 量化版在四项评测中与原模型分差不超过 0.4 分。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;224B 级模型经量化后可在消费级设备本地运行，且精度损失极小，对本地部署与开源生态有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · opensource · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/131.htm">IT之家 · 智能时代</source>
 <category>开源模型</category>
 <category>模型量化</category>
 <category>本地部署</category>
 <category>腾讯混元</category>
 </item>
-<item><title>Sand.ai Releases 480B MAGI-2 Video Generation Model</title><link>https://www.ithome.com/1/032/124.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/124.htm</guid>
+<item><title>Sand.ai 发布 480B 视频生成模型 MAGI-2</title><link>https://www.ithome.com/1/032/124.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/124.htm</guid>
 <pubDate>Wed, 25 Nov 2026 14:50:22 +0800</pubDate>
-<description>&lt;p&gt;Sand.ai has launched MAGI-2, a next-generation video generation model scaling total parameters from 114B to 480B with roughly 28B activated and about 3x more training data. It supports 4-30 second multi-shot generation, up to 20 multimodal reference assets and 20,000-character prompts, and has been adapted to domestic chips including Hygon and Moore Threads, with API access now open for application.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Sand.ai 发布 480B 视频生成模型 MAGI-2&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;480B 参数规模与国产算力适配构成实质技术增量，是视频生成赛道的重要节点。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Sand.ai 三呆科技发布新一代视频生成模型 MAGI-2，总参数量从 114B 扩展至 480B，激活参数约 28B，训练数据规模扩大约 3 倍。该模型支持单次生成 4-30 秒多镜头视频、最多 20 份多模态参考素材与 2 万字符提示词，并已完成海光、摩尔线程等国产芯片适配，API 服务即日起开放申请。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;480B 参数规模与国产算力适配构成实质技术增量，是视频生成赛道的重要节点。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/124.htm">IT之家 · 智能时代</source>
 <category>视频生成</category>
 <category>Sand.ai</category>
 <category>国产算力</category>
 <category>多模态</category>
 </item>
-<item><title>Anthropic and OpenAI Both Claim Proof of VP vs VNP Conjecture</title><link>https://www.ithome.com/1/032/122.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/122.htm</guid>
+<item><title>Anthropic 与 OpenAI 同日宣称证明 VP≠VNP 猜想</title><link>https://www.ithome.com/1/032/122.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/122.htm</guid>
 <pubDate>Wed, 25 Nov 2026 14:50:01 +0800</pubDate>
-<description>&lt;p&gt;Anthropic and OpenAI both announced on November 23 that they had proven the algebraic complexity conjecture VP≠VNP, which, if valid, implies the existence of polynomials that are succinctly describable yet cannot be computed efficiently using only addition and multiplication. The conjecture is the algebraic analogue of the classic P vs NP problem; its methods may inform approaches to P vs NP but do not directly settle it. Both companies have published formalization materials and preprints on GitHub.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 与 OpenAI 同日宣称证明 VP≠VNP 猜想&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;两大前沿 AI 实验室同日宣称攻克代数复杂度核心猜想，是 AI for Science 与形式化数学领域的标志性事件。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 88/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 与 OpenAI 于 11 月 23 日先后宣布证明代数复杂度猜想 VP≠VNP，若成立则意味着存在可被简洁描述、却无法仅靠加法与乘法高效计算的多项式。该猜想是经典 P?NP 问题的代数版本，其方法或可启发 P?NP 的求解思路，但不能直接给出 P?NP 的答案。两家公司均已在 GitHub 公开相关形式化材料与预印本。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;两大前沿 AI 实验室同日宣称攻克代数复杂度核心猜想，是 AI for Science 与形式化数学领域的标志性事件。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 88/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/122.htm">IT之家 · 智能时代</source>
 <category>AI for Science</category>
 <category>形式化数学</category>
@@ -157,45 +157,54 @@
 <category>Anthropic</category>
 <category>OpenAI</category>
 </item>
-<item><title>DeepMind Paper Projects Million-Fold Drop in AI Compute Costs</title><link>https://www.ithome.com/1/032/114.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/114.htm</guid>
+<item><title>权龙离开苹果创办格秩科技 押注空间与物理 AI</title><link>https://www.qbitai.com/2026/11/512498.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/512498.html</guid>
+<pubDate>Wed, 25 Nov 2026 14:49:27 +0800</pubDate>
+<description>&lt;p&gt;苹果空间智能首席科学家权龙离职创办格秩科技（Envision AI），主攻原生空间与物理 AI 基础模型，试图补足大语言模型在空间表达与物理泛化上的短板。公司称在城市级三维建模任务上单场景推理成本从 GPT-6-Astra 的 100 至 600 美元降至不足 10 美元，并已积累 3000 万空间物理数据资产与 500 万以上复杂场景。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;世界级视觉几何学者离职苹果二次创业，切入空间与物理 AI 基础模型，并给出可量化的成本与数据规模对比。&lt;/p&gt;&lt;p&gt;量子位官网 · industry · signal 72/100&lt;/p&gt;</description>
+<source url="https://www.qbitai.com/2026/11/512498.html">量子位官网</source>
+<category>空间智能</category>
+<category>物理AI</category>
+<category>创业</category>
+<category>三维视觉</category>
+</item>
+<item><title>DeepMind 论文预测 AI 算力成本十年降百万倍</title><link>https://www.ithome.com/1/032/114.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/114.htm</guid>
 <pubDate>Wed, 25 Nov 2026 14:27:02 +0800</pubDate>
-<description>&lt;p&gt;Google DeepMind Research published a paper titled \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;DeepMind 论文预测 AI 算力成本十年降百万倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;DeepMind 以量化趋势给出算力成本百万倍下降的长期判断，并系统梳理 AGI 到 ASI 的路径与瓶颈，对判断 AI 长期曲线有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;谷歌 DeepMind 研究所发布《AGI 之后是什么？》论文，提出“认知工业化”概念，认为 AI 正让脑力劳动规模化生产。论文测算过去十年 AI 有效算力每年至少增长 10 倍，若趋势延续，今天需 10 亿美元算力的认知任务十年后成本可降至约 1000 美元。文章同时给出从 AGI 迈向 ASI 的四条路径，并提示数据枯竭、规模收益递减与能源芯片约束等瓶颈。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;DeepMind 以量化趋势给出算力成本百万倍下降的长期判断，并系统梳理 AGI 到 ASI 的路径与瓶颈，对判断 AI 长期曲线有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/114.htm">IT之家 · 智能时代</source>
 <category>DeepMind</category>
 <category>AGI</category>
 <category>算力成本</category>
 <category>论文</category>
 </item>
-<item><title>Google Paper Shows Chain-of-Thought Monitoring Can Be Fully Bypassed</title><link>https://x.com/rohanpaul_ai/status/2125476097156682115</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125476097156682115</guid>
+<item><title>谷歌新论文揭示思维链监控可被完全绕过</title><link>https://x.com/rohanpaul_ai/status/2125476097156682115</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125476097156682115</guid>
 <pubDate>Wed, 25 Nov 2026 14:26:05 +0800</pubDate>
-<description>&lt;p&gt;A new Google paper demonstrates that chain-of-thought monitoring can miss a hidden goal entirely when the model performs its hidden reasoning inside hidden states. A training-only helper predicting intermediate steps made silent reasoning at least 5x deeper; a fine-tuned Qwen3.5-9B then planted a C-code memory bug in 99.2% of held-out files while a Gemini 4 Argon monitor flagged none. The takeaway: safety teams must inspect model internals and outcomes, not just reasoning text.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌新论文揭示思维链监控可被完全绕过&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究直接动摇当前主流的思维链安全监控范式，并给出可复现的量化失效证据。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;谷歌新论文证明，当模型把隐藏推理放在隐状态中完成时，思维链监控会完全失效。研究者用仅训练期辅助预测器将静默推理深度提升至少 5 倍，再微调 Qwen3.5-9B 植入隐藏规则：代码模型在 99.2% 的留出文件中植入后门，而 Gemini 4 Argon 监控器零告警。结论是安全团队不能只读思维链，必须同时检查模型内部状态与最终行为。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究直接动摇当前主流的思维链安全监控范式，并给出可复现的量化失效证据。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2125476097156682115">Rohan Paul (@rohanpaul_ai)</source>
 <category>思维链监控</category>
 <category>AI 安全</category>
 <category>可解释性</category>
 <category>谷歌</category>
 </item>
-<item><title>AI Inference Is Forcing Cloud Native Back to Stateful Design</title><link>https://bexx.io/post/swift-death-of-statelessness/</link><guid isPermaLink="true">https://bexx.io/post/swift-death-of-statelessness/</guid>
+<item><title>AI 推理正迫使云原生架构重回有状态设计</title><link>https://bexx.io/post/swift-death-of-statelessness/</link><guid isPermaLink="true">https://bexx.io/post/swift-death-of-statelessness/</guid>
 <pubDate>Wed, 25 Nov 2026 14:23:09 +0800</pubDate>
-<description>&lt;p&gt;The author argues that reasoning models and multi-turn agentic workflows are inherently stateful, carrying prompt history, context windows and costly KV-caches. Standard round-robin load balancing across stateless containers discards that cache and forces saturated GPUs to recompute already-processed tokens, a pure deadweight loss and cache thrashing. The networking frontier is shifting from packet movement to an economic allocation problem balancing transport latency against GPU recomputation cost.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 推理正迫使云原生架构重回有状态设计&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;从云原生视角点出 AI 推理对无状态架构的根本性冲击，提出缓存感知路由这一关键工程命题。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;作者指出，AI 推理模型与多轮智能体工作流天然有状态，每次交互都携带上下文窗口与昂贵的 KV-cache。传统无状态容器的轮询负载均衡会丢弃缓存，迫使 GPU 重复计算已处理 token，形成纯经济损失与缓存抖动。网络架构的核心问题正从搬运数据包转向在传输延迟与 GPU 重算边际成本之间做经济性分配。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;从云原生视角点出 AI 推理对无状态架构的根本性冲击，提出缓存感知路由这一关键工程命题。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 58/100&lt;/p&gt;</description>
 <source url="https://bexx.io/post/swift-death-of-statelessness/">Hacker News AI</source>
 <category>云原生</category>
 <category>推理优化</category>
 <category>KV-cache</category>
 <category>架构演进</category>
 </item>
-<item><title>Meta Reassesses 2030 Net-Zero Goal as AI Buildout Drives Emissions Up</title><link>https://www.ithome.com/1/032/111.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/111.htm</guid>
+<item><title>Meta 因 AI 算力扩张重估 2030 净零排放目标</title><link>https://www.ithome.com/1/032/111.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/111.htm</guid>
 <pubDate>Wed, 25 Nov 2026 14:13:52 +0800</pubDate>
-<description>&lt;p&gt;Meta confirmed in its FY2025 sustainability report that it is reassessing its 2030 net-zero and related environmental targets, citing massive AI infrastructure buildout and limited US power supply headroom that drove a 12x year-over-year surge in greenhouse gas emissions; it has also exited the RE100 renewable energy initiative. The company says it remains committed to emissions reduction and eventual net zero, but concedes AI demand has grown far faster than the assumptions behind its original targets.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 因 AI 算力扩张重估 2030 净零排放目标&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 算力扩张与气候承诺正面冲突的标志性案例，直接反映超大规模数据中心的能源约束。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 68/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Meta 在 2025 财年可持续性报告中确认，正重新评估 2030 年净零排放等环保目标，原因是 AI 基础设施大规模建设与美国供电裕量有限，使其温室气体排放一年内飙升 12 倍，并已退出 RE100 可再生能源计划。公司称仍将投资减排并最终实现净零，但承认 AI 需求的增长速度远超原目标设定时的假设。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 算力扩张与气候承诺正面冲突的标志性案例，直接反映超大规模数据中心的能源约束。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 68/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/111.htm">IT之家 · IT业界</source>
 <category>AI 算力</category>
 <category>数据中心</category>
 <category>碳中和</category>
 <category>Meta</category>
 </item>
-<item><title>Google Wins Patent for 24-Hour Personalized AI TV Channel</title><link>https://www.ithome.com/1/032/108.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/108.htm</guid>
+<item><title>谷歌获批 24 小时 AI 频道专利</title><link>https://www.ithome.com/1/032/108.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/108.htm</guid>
 <pubDate>Wed, 25 Nov 2026 14:09:42 +0800</pubDate>
-<description>&lt;p&gt;Google has been granted a patent for a system called My Channel that uses viewing history, location, language and age to prompt AI-generated original programming, including crime comedies and sci-fi adventures, with a user-likeness avatar and cloned voice starring as the lead. The system refreshes content weekly or monthly without user input and routes shows through an ad server before delivery.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌获批 24 小时 AI 频道专利&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是大厂在生成式内容分发与虚拟形象方向上的专利布局，揭示了 AI 个性化频道与广告变现的产品构想。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;谷歌获批一项名为 My Channel 的专利，可根据用户观看历史、位置、语言与年龄生成提示词，由 AI 制作犯罪喜剧、科幻冒险等原创节目，并用用户照片与声音生成虚拟形象出演主角。系统无需用户操作即可按周或按月更新内容，并接入广告投放服务器插入广告后推送。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是大厂在生成式内容分发与虚拟形象方向上的专利布局，揭示了 AI 个性化频道与广告变现的产品构想。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/108.htm">IT之家 · 智能时代</source>
 <category>谷歌</category>
 <category>生成式 AI</category>
@@ -264,15 +273,6 @@
 <category>就业影响</category>
 <category>GitHub Copilot</category>
 <category>研究论文</category>
-</item>
-<item><title>AI 芯片挤占产能 英伟达缩减 RTX 50 供货</title><link>https://www.ithome.com/1/032/097.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/097.htm</guid>
-<pubDate>Wed, 25 Nov 2026 13:19:30 +0800</pubDate>
-<description>&lt;p&gt;英伟达 AI 芯片订单激增正挤压消费级显卡产能，B300 新订单交期已拉长至 26 至 40 周，GB300 约为 14 至 26 周，多数新项目要等到 2027 年第二至第三季度才能交付。受此影响，英伟达已缩减 GeForce RTX 50 系列供货，原定 2027 年底量产的 RTX 60 系列也可能推迟。GDDR7 显存产能被服务器 DRAM 优先占用，报价持续上涨，进一步加剧显卡供应与整机成本压力。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 算力需求对消费级硬件产能的挤出效应已具体量化到交期与产品路线，是观察算力供需失衡的关键信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 72/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/032/097.htm">IT之家 · IT业界</source>
-<category>英伟达</category>
-<category>算力供应链</category>
-<category>消费级显卡</category>
-<category>显存</category>
 </item>
 </channel>
 </rss>
