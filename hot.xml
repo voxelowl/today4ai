@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Wed, 25 Nov 2026 13:48:52 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 25 Nov 2026 18:32:04 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>特朗普与硅谷施压 黄仁勋重返英伟达</title><link>https://todayforai.com/en/story/story-97c1526e-d94</link><guid isPermaLink="true">https://todayforai.com/en/story/story-97c1526e-d94</guid>
 <pubDate>Tue, 24 Nov 2026 22:56:50 +0800</pubDate>
@@ -15,6 +15,14 @@
 
 作为首家上市的前沿大模型公司，Anthropic 的股价波动为 AI 行业资本化提供了关键定价锚点。破发可能促使后续 AI 公司调整估值预期，并加剧公开市场对 AI 盈利能力的审视。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;InfoQ 中文, IT之家 · IT业界, Latent Space, Simon Willison 博客, 宝玉 (@dotey), GREG ISENBERG (@gregisenberg)&lt;/p&gt;</description>
 </item>
+<item><title>Anthropic 数学家与 Claude 合作证明黎曼猜想</title><link>https://todayforai.com/en/story/story-b91caf62-12d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b91caf62-12d</guid>
+<pubDate>Wed, 25 Nov 2026 18:32:04 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 数学家 Levent Alpöge 宣布与 Claude 合作完成黎曼猜想的证明，并以约 1700 万行 Lean 形式化代码提交。Lean FRO 与 Mathlib 社区联合认证该证明通过全部机器验证，包括陈述正确、代码可编译、证明与 Mathlib 陈述一致以及证明有效四项核验。这是 AI 首次深度参与攻克数学界悬置 160 余年的顶级难题，并将形式化验证规模推至千万行量级。
+
+多方信源交叉验证显示，核验动用了 Lean 官方内核、con-leche、con-ron 及多个第三方独立检查器，并借助相对集合论的形式化证明排除了检查器本身接受错误证明的可能。MIT 的 Andrew Sutherland 使用 Claude Code 进行独立验证，确认 175,187 个模块全部编译通过，五个核心定理仅依赖三条标准公理，两个独立内核 nanoda 与 con-leche 均接受完整导出证明。Alpöge 称 Claude 在其未掌握的高阶领域提出了关键步骤，双方用约六周时间将完整论证形式化为机器可验证代码。同日，斯坦福研究者 Alessandro Masullo 发布了一份完全由人类完成的独立竞争性证明稿，形成鲜明对照。
+
+若最终成立，这将是 AI 辅助数学与形式化验证领域的里程碑事件。菲尔兹奖得主 James Maynard 表示相信证明正确，但强调数学界全面认可的前提是有人真正理解并能向外解释其思想框架。该成果的真正价值可能在于催生解释素数分布结构的新数学理论，而非猜想本身。同时，事件也把 AI 研究成果如何被可信验证的争议推到台前，形式化验证成为 A…&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;Latent Space, Rohan Paul (@rohanpaul_ai), IT之家 · IT业界, The Decoder, IT之家 · 智能时代, 量子位 (微信公众号)&lt;/p&gt;</description>
+</item>
 <item><title>Tidal 将于 12 月 9 日下架 2900 万首纯 AI 生成音乐</title><link>https://todayforai.com/en/story/story-68b9d3af-e20</link><guid isPermaLink="true">https://todayforai.com/en/story/story-68b9d3af-e20</guid>
 <pubDate>Wed, 25 Nov 2026 06:41:34 +0800</pubDate>
 <description>&lt;p&gt;流媒体平台 Tidal 宣布自 12 月 9 日起全面下架完全由 AI 生成的音乐，预计年底前删除超过 2900 万首曲目，并禁止分发服务上传纯 AI 作品。新规下平台每日将拒收约 8 万至 8.5 万首投稿，仅允许人类参与创作、借助 AI 工具辅助的作品上架。
@@ -22,10 +30,6 @@
 此举的直接诱因是过去 90 天平台上传曲目中逾 43% 为 AI 完全生成，11 月 6 日单日占比更飙升至 60%。Tidal 此前已对 AI 曲目进行标注并取消变现，但威慑效果有限。目前平台标注为 AI 的曲目达 2700 万首，占曲库 6.3%，其中 96% 在过去 90 天零播放，因此下架对平台实际影响有限。Tidal 将借助 Ircam Amplify 检测与元数据校验执行新规，涉及冒充艺人、欺骗听众等欺诈行为的 AI 歌曲将被取消变现资格。
 
 与 Spotify、YouTube Music 仅对 AI 音乐加标记的温和路线相比，Tidal 的全面封禁是流媒体平台针对生成式 AI 内容真实性与版权问题的明确治理动作，可能推动行业形成更严格的 AI 内容审核标准。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, IT之家 · 智能时代, Ars Technica AI, The Verge AI, Hacker News AI&lt;/p&gt;</description>
-</item>
-<item><title>Anthropic 研究员回应 AI 辅助黎曼证明争议</title><link>https://todayforai.com/en/story/story-b91caf62-12d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b91caf62-12d</guid>
-<pubDate>Tue, 24 Nov 2026 22:28:41 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 研究员 Levent Alpöge 坚持其 AI 辅助广义黎曼假设证明的数学有效性，Lean 代码已通过形式化验证，但他承认发布过程存在多处失误：代码未经清理、充斥冗余步骤与无用引理，关于证明长度的说法只是玩笑。他承认外界对发布方式的批评合理，并指出仅靠编译成功并不能证明 Lean 代码准确陈述了定理且无隐藏假设。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys), Latent Space, Simon Willison 博客, TechCrunch AI, The Verge AI, 宝玉 (@dotey)&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 称 GPT-6 仅凭推理与代码设计蛋白质</title><link>https://todayforai.com/en/story/story-8af4488e-381</link><guid isPermaLink="true">https://todayforai.com/en/story/story-8af4488e-381</guid>
 <pubDate>Wed, 25 Nov 2026 06:44:58 +0800</pubDate>
@@ -67,13 +71,13 @@ Claude Ship 的核心差异点在于 Claude Approvals 可依据团队预设策�
 
 Claude Ship 直击 AI 生成代码量激增后审查与放行环节的瓶颈，标志着 Claude 从代码评审工具升级为可闭环交付的编码智能体。该产品有望显著提升开发团队的合并效率，但自动审批的准确率与召回率尚未公开，企业需在效率与风险间谨慎权衡。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Marktechpost (@Marktechpost), The Verge AI, TechCrunch AI, The Decoder&lt;/p&gt;</description>
 </item>
-<item><title>PrismML 发布三值量化端侧编码模型 Bonsai 2.5</title><link>https://todayforai.com/en/story/story-262515ce-dbd</link><guid isPermaLink="true">https://todayforai.com/en/story/story-262515ce-dbd</guid>
-<pubDate>Wed, 25 Nov 2026 13:36:32 +0800</pubDate>
-<description>&lt;p&gt;PrismML 正式发布 Ternary Bonsai 2.5 27B，一款基于 Qwen3.8 27B 基座、采用三值量化（权重仅取 -1、0、1）的端侧智能体编码模型。其最紧凑格式仅占 5.9GB 内存，约为全精度版本 53.8GB 的九分之一，却保留了约 93.7% 的 Agent 编程能力（SWE-bench Verified 75.6 对 80.6），并支持在 GPU、Mac、iPhone 和 iPad 上通过 llama.cpp 与 MLX 本地运行。
+<item><title>Claude Code 三员大将集体转投 OpenAI</title><link>https://todayforai.com/en/story/story-a69ee2a1-08a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a69ee2a1-08a</guid>
+<pubDate>Wed, 25 Nov 2026 15:46:52 +0800</pubDate>
+<description>&lt;p&gt;Claude Code 核心团队遭遇重大人才流失。据硅谷人事爆料账号消息，继产品管理负责人 Cat Wu 之后，核心成员 Thariq Shihipar 与桌面版负责人 Anthony Morris 也相继确认加入 OpenAI，三人于 Anthropic 上市前夕陆续出走并在 OpenAI 重聚。值得注意的是，Claude Code 之父 Boris Cherny 仍留守 Anthropic，并刚推出代码自动审查修复功能 Claude Ship。
 
-相比 9 月版本，Bonsai 2.5 在多项指标上大幅跃升：SWE-bench Verified 从 60.8 升至 75.6，AppWorld 工具使用从 51.2 跃升至 90.5。官方特别针对长任务误差累积问题，改进了工具反馈利用与失败恢复能力，使模型在多轮工具调用和多步任务执行中更加稳健。模型以 Apache 2.0 许可免费开放，便于开发者集成与二次开发。
+多方信息交叉验证显示，Cat Wu 将出任 OpenAI 核心产品线产品管理负责人，管辖 ChatGPT、Codex 与开发者 API，直接参与 OpenAI 在 AI 编程赛道的产品布局。Thariq Shihipar 的加入则进一步强化了 OpenAI 在编程智能体方向的人才储备。尽管三人均未带走 Boris Cherny，但核心骨干的集体流失仍暴露出 Anthropic 在上市关键期面临的人才保留压力。
 
-该模型的发布标志着端侧智能体编码能力的重要突破。在保持极小体积的同时，Bonsai 2.5 提供了接近全精度模型的编程性能，使得在本地设备上处理私有文件与工具成为可能，有望推动隐私敏感场景下的智能体应用普及，并加剧端侧 AI 模型在效率与能力上的竞争。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
+此次人事变动正值 Anthropic 上市首周，其股价表现疲软，发行价 83 美元、盘中最低跌至 75.61 美元，破发态势与核心团队出走形成叠加效应。对 OpenAI 而言，吸纳 Claude Code 原班人马将直接加速其在 AI 编程工具与智能体领域的迭代节奏，头部实验室围绕编程智能体的人才争夺战已进入白热化阶段。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), 量子位官网&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
