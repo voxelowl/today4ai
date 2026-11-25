@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Thu, 26 Nov 2026 04:01:44 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 26 Nov 2026 04:15:50 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Anthropic CEO Rejects AI Governance of Society as a Bad Idea</title><link>https://the-decoder.com/anthropic-ceo-dario-amodei-says-letting-ai-govern-society-would-be-a-bad-idea/</link><guid isPermaLink="true">https://the-decoder.com/anthropic-ceo-dario-amodei-says-letting-ai-govern-society-would-be-a-bad-idea/</guid>
+<pubDate>Thu, 26 Nov 2026 04:15:50 +0800</pubDate>
+<description>&lt;p&gt;Anthropic CEO Dario Amodei publicly pushed back on an Axios report, calling it \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic CEO 明确反对由 AI 治理社会&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 实验室掌门人首次就“AI 治理社会”这一路线争议公开表态，是观察 Anthropic 安全立场与行业话语边界的重要信号。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/anthropic-ceo-dario-amodei-says-letting-ai-govern-society-would-be-a-bad-idea/">The Decoder</source>
+<category>AI 治理</category>
+<category>Anthropic</category>
+<category>AI 安全</category>
+<category>行业观点</category>
+</item>
+<item><title>OpenAI Merges ChatGPT Chat and Work Tabs for Pro Users</title><link>https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/</guid>
+<pubDate>Thu, 26 Nov 2026 04:03:27 +0800</pubDate>
+<description>&lt;p&gt;OpenAI has begun rolling out a unified Chat and Work experience in ChatGPT to a small group of Pro subscribers, simplifying navigation between conversations and complex tasks. The company acknowledged that a small fraction of its heaviest users may hit usage limits sooner, prompting subscriber concerns over merged quotas.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 合并 ChatGPT 聊天与工作标签页&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及 ChatGPT 核心产品形态调整与用量策略变化，直接影响重度用户的日常使用决策。&lt;/p&gt;&lt;p&gt;TechCrunch AI · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/">TechCrunch AI</source>
+<category>ChatGPT</category>
+<category>OpenAI</category>
+<category>产品更新</category>
+</item>
 <item><title>Abstract Launches Cloud Inference for Robots with 30ms Round Trip</title><link>https://x.com/rohanpaul_ai/status/2125681362195857426</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125681362195857426</guid>
 <pubDate>Thu, 26 Nov 2026 04:01:44 +0800</pubDate>
 <description>&lt;p&gt;Abstract has launched a cloud inference service that moves robot model compute off the device and onto its own GPUs. Robots send camera frames, current state and a plain-language task, and the service returns the next chunk of motion commands with a claimed 30ms round trip. The model turns GPU hardware from a per-unit purchase into a per-request bill, shifting the cost math for teams building robots at scale.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Abstract 推出机器人云端推理 30 毫秒往返&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;机器人推理从板载 GPU 转向云端按请求计费，是具身智能成本结构的一次实质性变化。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 62/100&lt;/p&gt;</description>
@@ -11,6 +28,15 @@
 <category>云端推理</category>
 <category>机器人</category>
 <category>算力</category>
+</item>
+<item><title>Creator Spends 35B Opus 5.5 Tokens to Compose a Symphony</title><link>https://danprice.ai/blog/opus-symphony</link><guid isPermaLink="true">https://danprice.ai/blog/opus-symphony</guid>
+<pubDate>Thu, 26 Nov 2026 03:57:08 +0800</pubDate>
+<description>&lt;p&gt;A developer iteratively prompted Claude Opus 5.5 to produce a four-movement, roughly 25-minute symphony, consuming about 35 billion tokens in the process. The experiment probes the limits of long-horizon structured generation in frontier models while exposing weaknesses in musical logic and orchestration.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;用 350 亿 Opus 5.5 Token 生成一部交响曲&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以极端 Token 消耗实测大模型长程结构化创作能力，对评估模型边界有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 58/100&lt;/p&gt;</description>
+<source url="https://danprice.ai/blog/opus-symphony">Hacker News AI</source>
+<category>大模型</category>
+<category>音乐生成</category>
+<category>Claude</category>
+<category>长上下文</category>
 </item>
 <item><title>Amodei Rejects Claims Anthropic Would Surrender Human Control to AI</title><link>https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/</guid>
 <pubDate>Thu, 26 Nov 2026 03:44:24 +0800</pubDate>
@@ -190,36 +216,36 @@
 <category>商汤</category>
 <category>ComfyUI</category>
 </item>
-<item><title>Anthropic Migrates Messages API to Rust Using Claude</title><link>https://www.anthropic.com/research/migrating-api-to-rust</link><guid isPermaLink="true">https://www.anthropic.com/research/migrating-api-to-rust</guid>
+<item><title>Anthropic 用 Claude 将 Messages API 迁移至 Rust</title><link>https://www.anthropic.com/research/migrating-api-to-rust</link><guid isPermaLink="true">https://www.anthropic.com/research/migrating-api-to-rust</guid>
 <pubDate>Thu, 26 Nov 2026 00:28:28 +0800</pubDate>
-<description>&lt;p&gt;Anthropic&amp;#x27;s engineering team reports migrating its Messages API to Rust with Claude doing the work, despite having no dedicated Rust developers. Framed around the generator-verifier gap, the post argues Claude can take on large, well-tested codebase migrations when given reliable verification, and discusses the difficulty of defining correctness in live systems.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 用 Claude 将 Messages API 迁移至 Rust&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部模型厂商亲自示范用自家模型完成核心 API 的语言级重写，为 AI 辅助大规模代码迁移提供了少见的真实工程样本。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic 工程团队披露，他们借助 Claude 完成了 Messages API 从原技术栈向 Rust 的迁移，而团队中并无专职 Rust 开发者。文章以生成-验证差距为框架，指出当 Claude 具备可靠验证手段时，可承担大型成熟代码库的迁移工作，并讨论了在线上系统中验证正确性所面临的挑战。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部模型厂商亲自示范用自家模型完成核心 API 的语言级重写，为 AI 辅助大规模代码迁移提供了少见的真实工程样本。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.anthropic.com/research/migrating-api-to-rust">Hacker News AI</source>
 <category>Rust</category>
 <category>代码迁移</category>
 <category>Anthropic</category>
 <category>AI 辅助开发</category>
 </item>
-<item><title>Nothing Unveils Ear Note AI Earbuds With Call Recording and Transcription</title><link>https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal</link><guid isPermaLink="true">https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal</guid>
+<item><title>Nothing 发布 AI 耳机 Ear Note 支持通话录音与转写</title><link>https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal</link><guid isPermaLink="true">https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal</guid>
 <pubDate>Thu, 26 Nov 2026 00:00:59 +0800</pubDate>
-<description>&lt;p&gt;Nothing has revealed a detailed look at its upcoming Ear Note AI earbuds ahead of their December 8th launch. The charging case packs a microphone with a Record button for capturing and transcribing conversations, while the buds themselves can record calls; CEO Carl Pei frames this as a first step toward a hardware context layer for AI, with a companion app managing recordings, transcripts, and AI summaries across multiple agents.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Nothing 发布 AI 耳机 Ear Note 支持通话录音与转写&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 硬件向环境上下文采集延伸的具体产品落地，具备明确功能与发布时间，值得关注。&lt;/p&gt;&lt;p&gt;The Verge AI · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Nothing 在 12 月 8 日正式发售前公布其 AI 耳机 Ear Note 的详细外观与功能，充电盒内置麦克风，可通过 Record 键录制并转写对话，耳机本体支持通话录音。CEO Carl Pei 称这是迈向 AI 硬件上下文层的第一步，配套 App 可管理录音、转写与 AI 摘要，并接入多种 AI 智能体。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 硬件向环境上下文采集延伸的具体产品落地，具备明确功能与发布时间，值得关注。&lt;/p&gt;&lt;p&gt;The Verge AI · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal">The Verge AI</source>
 <category>AI 硬件</category>
 <category>智能耳机</category>
 <category>语音转写</category>
 <category>Nothing</category>
 </item>
-<item><title>AI Data Center Buildouts Stall as Neoclouds Face Rising Pressure</title><link>https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/</link><guid isPermaLink="true">https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/</guid>
+<item><title>AI 数据中心建设受阻 新云厂商承压加剧</title><link>https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/</link><guid isPermaLink="true">https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/</guid>
 <pubDate>Wed, 25 Nov 2026 23:41:43 +0800</pubDate>
-<description>&lt;p&gt;Nvidia has made clear it will not backstop an AI data center until it is nearly ready to run, just as neoclouds report construction delays and costlier debt. Land, power and finished buildings now outweigh pitch decks as the gating factors, with an industry shakeout expected around 2027.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 数据中心建设受阻 新云厂商承压加剧&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示 AI 算力基建从资本叙事转向土地电力交付的硬约束，对新云厂商与数据中心投资判断有直接参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · compute · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;英伟达明确表示，在数据中心接近可运行前不会提供兜底融资，与此同时新云厂商正遭遇建设延期与债务成本上升的双重挤压。土地、电力与已完工建筑正取代融资路演，成为项目能否落地的核心门槛，行业预计将在 2027 年前后出现一轮洗牌。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示 AI 算力基建从资本叙事转向土地电力交付的硬约束，对新云厂商与数据中心投资判断有直接参考价值。&lt;/p&gt;&lt;p&gt;TechCrunch AI · compute · signal 62/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/">TechCrunch AI</source>
 <category>算力基建</category>
 <category>数据中心</category>
 <category>新云厂商</category>
 <category>英伟达</category>
 </item>
-<item><title>In C++, = default and {} Constructors Differ in Semantics</title><link>https://lemire.me/blog/2026/11/02/default-and-braces-are-not-the-same-constructor/</link><guid isPermaLink="true">https://lemire.me/blog/2026/11/02/default-and-braces-are-not-the-same-constructor/</guid>
+<item><title>C++ 中 = default 与 {} 构造语义差异显著</title><link>https://lemire.me/blog/2026/11/02/default-and-braces-are-not-the-same-constructor/</link><guid isPermaLink="true">https://lemire.me/blog/2026/11/02/default-and-braces-are-not-the-same-constructor/</guid>
 <pubDate>Wed, 25 Nov 2026 23:20:15 +0800</pubDate>
-<description>&lt;p&gt;Daniel Lemire explains that writing an empty default constructor as `= default` versus `{}` in C++ yields very different semantics and performance: the former keeps the type trivial so value-initialization zeroes the whole object including padding, while the latter is user-provided and no longer zeroes members. The distinction directly affects initialization cost and correctness for lightweight structs like span.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;C++ 中 = default 与 {} 构造语义差异显著&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以极小代码差异揭示 C++ 对象初始化语义与性能陷阱，对系统级开发者有直接实用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Daniel Lemire 撰文指出，C++ 中空默认构造函数写成 `= default` 还是 `{}` 会带来截然不同的语义与性能后果：前者使类型保持 trivial，值初始化时整对象（含 padding）被清零；后者属于用户提供构造函数，值初始化不再清零成员。这一差异在 span 等轻量结构体上会直接影响初始化开销与正确性。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以极小代码差异揭示 C++ 对象初始化语义与性能陷阱，对系统级开发者有直接实用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 42/100&lt;/p&gt;</description>
 <source url="https://lemire.me/blog/2026/11/02/default-and-braces-are-not-the-same-constructor/">Hacker News AI</source>
 <category>C++</category>
 <category>性能优化</category>
@@ -242,34 +268,6 @@
 <category>Lean 4</category>
 <category>Clojure</category>
 <category>开源生态</category>
-</item>
-<item><title>亚马逊与 Meta 洽谈 Muse 购物智能体接入</title><link>https://www.ithome.com/1/032/515.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/515.htm</guid>
-<pubDate>Wed, 25 Nov 2026 22:45:47 +0800</pubDate>
-<description>&lt;p&gt;亚马逊正与 Meta 就 Muse AI 购物智能体接入其电商平台展开多轮谈判，态度较两个月前直接屏蔽出现明显反转。谈判卡在搜索结果展示方式与广告业务安排两大议题，核心顾虑是第三方智能体冲击广告收入并削弱亚马逊对用户关系的掌控，协议需双方 CEO 批准。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部电商与社交巨头围绕 AI 购物智能体的入口与广告利益博弈，是智能体商业化落地的关键风向标。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/032/515.htm">IT之家 · 智能时代</source>
-<category>智能体</category>
-<category>电商</category>
-<category>亚马逊</category>
-<category>Meta</category>
-<category>AI 购物</category>
-</item>
-<item><title>智元灵心平台一年孵化超 3 万个机器人智能体</title><link>https://www.qbitai.com/2026/11/512715.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/512715.html</guid>
-<pubDate>Wed, 25 Nov 2026 22:32:57 +0800</pubDate>
-<description>&lt;p&gt;智元机器人发布 AIMA 具身智能生态技术体系及五年不低于 20 亿元的“元苼”生态计划，其灵心（LinkSoul）智能体开发平台上线一年累计吸引 2 万+ 用户、孵化 3 万+ 机器人智能体、沉淀 7 万+ 平台内容。平台通过自然语言创建智能体、知识技能配置、可视化任务编排与 3D 仿真调试，并借助 SDK、MCP、Skill 连接外部工具与机器人本体，试图把机器人应用从一次性定制开发转向持续迭代。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;具身智能平台化降低开发门槛的规模化数据值得关注，但内容偏厂商生态宣传，技术细节有限。&lt;/p&gt;&lt;p&gt;量子位官网 · agent · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.qbitai.com/2026/11/512715.html">量子位官网</source>
-<category>具身智能</category>
-<category>智能体平台</category>
-<category>智元机器人</category>
-<category>开发者生态</category>
-</item>
-<item><title>九章云极发布物理 AI 工厂与生态开放计划</title><link>https://www.qbitai.com/2026/11/512582.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/512582.html</guid>
-<pubDate>Wed, 25 Nov 2026 22:21:20 +0800</pubDate>
-<description>&lt;p&gt;九章云极 DataCanvas 在深圳举办物理 AI 行业峰会，提出以“物理 AI 工厂”将算力工程化为生产体系，并联合产业链发起物理 AI 联盟与生态开放计划。会议聚焦机器人、世界模型与仿真软件从实验室走向产线的可靠性工程问题，龙华区已建成虚实融合具身智能训练场作为落地试验场。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;厂商主导的生态大会，提出物理 AI 工程化与算力组织思路，但缺乏具体产品参数与可验证指标。&lt;/p&gt;&lt;p&gt;量子位官网 · compute · signal 42/100&lt;/p&gt;</description>
-<source url="https://www.qbitai.com/2026/11/512582.html">量子位官网</source>
-<category>物理AI</category>
-<category>算力基础设施</category>
-<category>具身智能</category>
-<category>生态联盟</category>
 </item>
 </channel>
 </rss>
