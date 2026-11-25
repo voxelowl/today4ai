@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Wed, 25 Nov 2026 11:29:13 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 25 Nov 2026 13:48:52 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>特朗普与硅谷施压 黄仁勋重返英伟达</title><link>https://todayforai.com/en/story/story-97c1526e-d94</link><guid isPermaLink="true">https://todayforai.com/en/story/story-97c1526e-d94</guid>
 <pubDate>Tue, 24 Nov 2026 22:56:50 +0800</pubDate>
@@ -23,9 +23,25 @@
 
 与 Spotify、YouTube Music 仅对 AI 音乐加标记的温和路线相比，Tidal 的全面封禁是流媒体平台针对生成式 AI 内容真实性与版权问题的明确治理动作，可能推动行业形成更严格的 AI 内容审核标准。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, IT之家 · 智能时代, Ars Technica AI, The Verge AI, Hacker News AI&lt;/p&gt;</description>
 </item>
+<item><title>智谱发布 GLM-5.4 循环 Transformer 架构落地</title><link>https://todayforai.com/en/story/story-d2145516-db8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d2145516-db8</guid>
+<pubDate>Wed, 25 Nov 2026 13:48:52 +0800</pubDate>
+<description>&lt;p&gt;智谱 AI 正式发布旗舰模型 GLM-5.4，这是其首个基于循环 Transformer 架构的大模型，通过让共享权重层在前向传播中重复执行两次来加深推理，在不增加参数量的前提下达到 2T-3T 参数级模型的智能水平。模型参数规模达 7500 亿，已上线 GLM Coding Plan、ZCode 与 Z.ai Chat，API 与权重将在安全评估后开放。
+
+技术细节上，GLM-5.4 复用 28 层基座，第二遍循环复用第一遍的稀疏 KV 与注意力索引，额外仅增加一个滑动窗口的 KV 缓存开销，配合控制门、共享 token 缓存与稀疏注意力机制抑制显存与算力成本。在 30B 等参测试中，循环机制以约 10% 的额外训练算力换来 AIME25 +11.3、GPQA-Diamond +8.7 的提升，同时输出长度下降 11.7% 至 14.9%。模型新增视觉理解能力，支持 1M 上下文，主打“泛编程”，可由代码生成视频、游戏与 CAD 模型。
+
+对行业而言，GLM-5.4 验证了计算深度扩展路线，为不盲目堆参数的大模型发展提供了新范式。其“泛编程”定位将代码能力外推至视频生成、游戏构建与 3D 建模等场景，有望拓展 AI 编程工具的应用边界。即日起向 Coding Plan 用户全量开放，V2、V3 及团队版用户额度提升至 1.5 倍，周额度用户可用量较 GLM-5.3 提升 50%，将加速其在开发者生态中的渗透。&lt;/p&gt;&lt;p&gt;6 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), IT之家 · 智能时代, Marktechpost (@Marktechpost), Hacker News AI, 智谱 AI 研究, The Decoder&lt;/p&gt;</description>
+</item>
 <item><title>Anthropic 研究员回应 AI 辅助黎曼证明争议</title><link>https://todayforai.com/en/story/story-b91caf62-12d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b91caf62-12d</guid>
 <pubDate>Tue, 24 Nov 2026 22:28:41 +0800</pubDate>
 <description>&lt;p&gt;Anthropic 研究员 Levent Alpöge 坚持其 AI 辅助广义黎曼假设证明的数学有效性，Lean 代码已通过形式化验证，但他承认发布过程存在多处失误：代码未经清理、充斥冗余步骤与无用引理，关于证明长度的说法只是玩笑。他承认外界对发布方式的批评合理，并指出仅靠编译成功并不能证明 Lean 代码准确陈述了定理且无隐藏假设。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys), Latent Space, Simon Willison 博客, TechCrunch AI, The Verge AI, 宝玉 (@dotey)&lt;/p&gt;</description>
+</item>
+<item><title>OpenAI 称 GPT-6 仅凭推理与代码设计蛋白质</title><link>https://todayforai.com/en/story/story-8af4488e-381</link><guid isPermaLink="true">https://todayforai.com/en/story/story-8af4488e-381</guid>
+<pubDate>Wed, 25 Nov 2026 06:44:58 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 发布预印本论文，宣称其最新通用模型 GPT-6.2 无需依赖专用生物学模型，仅凭推理与通用编程工具即可设计蛋白质三维结构及氨基酸序列。在与 Onava 合作的湿实验中，322 个微型结合蛋白有 35 个显示结合迹象，抗体结合环重设计 182 个中有 128 个仍能结合 IL-4Rα，初步验证了通用模型在生物设计任务上的可行性。
+
+计算基准上，GPT-6.2 表现显著超越专用模型：基序支架任务成功率 43.7%，高于 RFdiffusion 的 27.8%；小分子对接准确率约 93%，远超 DiffDock-L 的 50%。然而 OpenAI 承认，筛选环节仍依赖 Boltz-2、ESMFold2 等专用模型，且从序列预测完整结构的 TM-score 仅 0.38，远低于 ESMFold2 的 0.93，端到端能力尚未成立。
+
+这一进展标志着通用大模型向生物设计领域迈出关键一步，有望降低蛋白质工程的门槛，但距离完全替代专用工具仍有差距。若后续能补齐结构预测短板，GPT-6 或将成为跨学科科研的通用引擎，推动 AI 驱动的生物发现进入新阶段。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;OpenAI 官方博客, Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 与思科开源 Shirudo 运行时 免重启拦截漏洞攻击</title><link>https://todayforai.com/en/story/story-50bba636-e6b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-50bba636-e6b</guid>
 <pubDate>Tue, 24 Nov 2026 22:20:17 +0800</pubDate>
@@ -43,13 +59,13 @@ Claude Ship 的核心差异点在于 Claude Approvals 可依据团队预设策�
 
 Claude Ship 直击 AI 生成代码量激增后审查与放行环节的瓶颈，标志着 Claude 从代码评审工具升级为可闭环交付的编码智能体。该产品有望显著提升开发团队的合并效率，但自动审批的准确率与召回率尚未公开，企业需在效率与风险间谨慎权衡。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Marktechpost (@Marktechpost), The Verge AI, TechCrunch AI, The Decoder&lt;/p&gt;</description>
 </item>
-<item><title>智谱发布 GLM-5.4 循环 Transformer 架构落地</title><link>https://todayforai.com/en/story/story-d2145516-db8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d2145516-db8</guid>
-<pubDate>Tue, 24 Nov 2026 17:21:55 +0800</pubDate>
-<description>&lt;p&gt;智谱 AI 正式发布旗舰模型 GLM-5.4，这是其首个基于循环 Transformer 架构的大模型，通过让共享权重层在前向传播中重复执行两次来加深推理，在不增加参数量的前提下达到 2T-3T 参数级模型的智能水平。模型参数规模达 7500 亿，已上线 GLM Coding Plan、ZCode 与 Z.ai Chat，API 与权重将在安全评估后开放。
+<item><title>PrismML 发布三值量化端侧编码模型 Bonsai 2.5</title><link>https://todayforai.com/en/story/story-262515ce-dbd</link><guid isPermaLink="true">https://todayforai.com/en/story/story-262515ce-dbd</guid>
+<pubDate>Wed, 25 Nov 2026 13:36:32 +0800</pubDate>
+<description>&lt;p&gt;PrismML 正式发布 Ternary Bonsai 2.5 27B，一款基于 Qwen3.8 27B 基座、采用三值量化（权重仅取 -1、0、1）的端侧智能体编码模型。其最紧凑格式仅占 5.9GB 内存，约为全精度版本 53.8GB 的九分之一，却保留了约 93.7% 的 Agent 编程能力（SWE-bench Verified 75.6 对 80.6），并支持在 GPU、Mac、iPhone 和 iPad 上通过 llama.cpp 与 MLX 本地运行。
 
-技术细节上，GLM-5.4 复用 28 层基座，第二遍循环复用第一遍的稀疏 KV 与注意力索引，额外仅增加一个滑动窗口的 KV 缓存开销，配合控制门、共享 token 缓存与稀疏注意力机制抑制显存与算力成本。在 30B 等参测试中，循环机制以约 10% 的额外训练算力换来 AIME25 +11.3、GPQA-Diamond +8.7 的提升，同时输出长度下降 11.7% 至 14.9%。模型新增视觉理解能力，支持 1M 上下文，主打“泛编程”，可由代码生成视频、游戏与 CAD 模型。
+相比 9 月版本，Bonsai 2.5 在多项指标上大幅跃升：SWE-bench Verified 从 60.8 升至 75.6，AppWorld 工具使用从 51.2 跃升至 90.5。官方特别针对长任务误差累积问题，改进了工具反馈利用与失败恢复能力，使模型在多轮工具调用和多步任务执行中更加稳健。模型以 Apache 2.0 许可免费开放，便于开发者集成与二次开发。
 
-对行业而言，GLM-5.4 验证了计算深度扩展路线，为不盲目堆参数的大模型发展提供了新范式。其“泛编程”定位将代码能力外推至视频生成、游戏构建与 3D 建模等场景，有望拓展 AI 编程工具的应用边界。即日起向 Coding Plan 用户全量开放，V2、V3 及团队版用户额度提升至 1.5 倍，周额度用户可用量较 GLM-5.3 提升 50%，将加速其在开发者生态中的渗透。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;宝玉 (@dotey), IT之家 · 智能时代, Marktechpost (@Marktechpost), Hacker News AI, 智谱 AI 研究, The Decoder&lt;/p&gt;</description>
+该模型的发布标志着端侧智能体编码能力的重要突破。在保持极小体积的同时，Bonsai 2.5 提供了接近全精度模型的编程性能，使得在本地设备上处理私有文件与工具成为可能，有望推动隐私敏感场景下的智能体应用普及，并加剧端侧 AI 模型在效率与能力上的竞争。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 <item><title>Claude 攻克代数版 P≠NP 并完成 7.3 万行 Lean 验证</title><link>https://todayforai.com/en/story/story-38e6afd4-8e6</link><guid isPermaLink="true">https://todayforai.com/en/story/story-38e6afd4-8e6</guid>
 <pubDate>Wed, 25 Nov 2026 11:02:10 +0800</pubDate>
@@ -58,22 +74,6 @@ Claude Ship 直击 AI 生成代码量激增后审查与放行环节的瓶颈，�
 该证明的核心思路由 Claude 提出并撰写，Anthropic 研究人员参与完善表述。配套的 Lean 4 代码规模达 7.3 万行，已通过机器验证，但尚未经人类数学家逐行审阅。同日，OpenAI 也宣称证明了同一猜想，两大实验室在形式化数学领域展开正面交锋。经典 P vs NP 问题仍未解决，但这是 AI 自主产出可机器验证数学成果的标志性节点。
 
 若证明成立，将是计算复杂性理论的里程碑事件，表明 AI 已能自主发现并形式化验证高难度数学定理，极大加速数学研究进程，并推动形式化验证在学术界的普及。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, 新智元 (微信公众号), 机器之心 (微信公众号)&lt;/p&gt;</description>
-</item>
-<item><title>Claude 桌面版支持将 Artifact 一键安装为本地应用</title><link>https://todayforai.com/en/story/story-028eb944-24c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-028eb944-24c</guid>
-<pubDate>Wed, 25 Nov 2026 07:20:30 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 为 Claude 的交互式 Artifacts 功能新增“安装为应用”选项，用户可将生成的网页或小工具一键安装为 macOS 与 Windows 独立桌面软件。安装后应用拥有独立工具栏图标，并支持通知、快捷键拦截、窗口置顶乃至完整计算机访问等分级权限。该功能目前处于 Beta 阶段并逐步开放，标志着 Claude 生成物从浏览器内交互走向可长期驻留的本地应用形态。
-
-综合多方信源，该功能原理类似 Chrome 的 Web App 套壳，仍需联网并依赖账号对 Artifact 的访问权限。安装后的应用可调用连接器、发送通知或添加菜单栏项，权限分级从默认浏览器式沙箱到完整计算机访问，为用户提供了灵活的安全控制。目前功能正面向桌面用户逐步开放，Beta 阶段可能还存在一些限制。
-
-这一更新对 AI 生成内容的产品化具有重要意义。它降低了用户将 AI 生成工具转化为日常应用的门槛，使 Claude 从对话助手进一步延伸为应用分发平台。对开发者而言，Artifacts 不再仅是演示原型，而可成为可安装、可驻留的轻量级应用，可能催生新的 AI 原生应用生态。同时，分级权限设计也体现了 Anthropic 在安全与功能之间的平衡，为行业提供了参考。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, 宝玉 (@dotey)&lt;/p&gt;</description>
-</item>
-<item><title>OpenAI 称 GPT-6 仅凭推理与代码设计蛋白质</title><link>https://todayforai.com/en/story/story-be158134-dca</link><guid isPermaLink="true">https://todayforai.com/en/story/story-be158134-dca</guid>
-<pubDate>Wed, 25 Nov 2026 06:44:58 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 发布预印本论文，宣称其最新通用模型 GPT-6.2 无需依赖专用生物学模型，仅凭推理与通用编程工具即可设计蛋白质三维结构及氨基酸序列。在与 Onava 合作的湿实验中，322 个微型结合蛋白有 35 个显示结合迹象，抗体结合环重设计 182 个中有 128 个仍能结合 IL-4Rα，初步验证了通用模型在生物设计任务上的可行性。
-
-计算基准上，GPT-6.2 表现显著超越专用模型：基序支架任务成功率 43.7%，高于 RFdiffusion 的 27.8%；小分子对接准确率约 93%，远超 DiffDock-L 的 50%。然而 OpenAI 承认，筛选环节仍依赖 Boltz-2、ESMFold2 等专用模型，且从序列预测完整结构的 TM-score 仅 0.38，远低于 ESMFold2 的 0.93，端到端能力尚未成立。
-
-这一进展标志着通用大模型向生物设计领域迈出关键一步，有望降低蛋白质工程的门槛，但距离完全替代专用工具仍有差距。若后续能补齐结构预测短板，GPT-6 或将成为跨学科科研的通用引擎，推动 AI 驱动的生物发现进入新阶段。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>

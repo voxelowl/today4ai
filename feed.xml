@@ -1,90 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Wed, 25 Nov 2026 13:08:44 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 25 Nov 2026 13:36:32 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
-<item><title>Meta 天价薪酬对顶尖研究员近乎持平</title><link>https://x.com/rohanpaul_ai/status/2125456631966335471</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125456631966335471</guid>
+<item><title>PrismML Releases Ternary Bonsai 2.5 27B Model at One-Ninth the Size</title><link>https://www.ithome.com/1/032/101.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/101.htm</guid>
+<pubDate>Wed, 25 Nov 2026 13:36:32 +0800</pubDate>
+<description>&lt;p&gt;PrismML has released Ternary Bonsai 2.5 27B, built on the Qwen3.8 27B base, using ternary quantization with weights restricted to -1, 0 and 1. In its most compact form it needs only 5.9GB of memory, roughly one-ninth of the 53.8GB full-precision version, while retaining about 93.7% of agentic coding capability (SWE-bench Verified 75.6 vs 80.6). Versus the September release, SWE-bench Verified rose from 60.8 to 75.6 and AppWorld tool use jumped from 51.2 to 90.5, with improved tool-feedback use and failure recovery to curb error accumulation on long tasks. The model is free under Apache 2.0 and runs locally via llama.cpp and MLX on GPUs, Mac, iPhone and iPad.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;PrismML 发布三值量化 Bonsai 2.5 27B 模型，体积压缩至九分之一&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;三值量化在压缩至九分之一体积的同时保留九成以上编程能力，为端侧本地智能体部署提供了可验证的新范式。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/032/101.htm">IT之家 · 智能时代</source>
+<category>大模型</category>
+<category>三值量化</category>
+<category>端侧部署</category>
+<category>开源模型</category>
+</item>
+<item><title>German Consumer Group Sues Meta Over Camera Smart Glasses Sales</title><link>https://www.ithome.com/1/032/099.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/099.htm</guid>
+<pubDate>Wed, 25 Nov 2026 13:31:03 +0800</pubDate>
+<description>&lt;p&gt;German consumer protection group VZBV has sued Meta and EssilorLuxottica, alleging the companies failed to disclose data-protection risks when selling Ray-Ban camera smart glasses and that the white LED indicator is insufficient to inform bystanders. The case pushes privacy compliance responsibility onto the point of sale and could affect European market access for wearable AI hardware.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;德国消费者组织起诉 Meta 智能眼镜违规&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是可穿戴 AI 硬件在欧洲面临的首批消费者保护诉讼之一，直接触及隐私合规与销售披露义务的边界。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/032/099.htm">IT之家 · 智能时代</source>
+<category>智能眼镜</category>
+<category>隐私合规</category>
+<category>Meta</category>
+<category>可穿戴设备</category>
+</item>
+<item><title>Meta&#x27;s Huge AI Pay Packages Roughly Net Neutral for Top Researchers</title><link>https://x.com/rohanpaul_ai/status/2125456631966335471</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125456631966335471</guid>
 <pubDate>Wed, 25 Nov 2026 13:08:44 +0800</pubDate>
-<description>&lt;p&gt;Meta 首席 AI 官 Alexandr Wang 表示，Meta 为顶尖 AI 研究员开出的天价薪酬包，对许多人而言并非真正的涨薪，因为其 OpenAI 与 Anthropic 持股增值后，留任收益已大致相当。他认为真正吸引人才的是使命本身。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Meta 首席 AI 官首次公开解释天价挖角为何对顶尖研究员近乎持平，为理解 AI 人才争夺的真实驱动力提供了内部视角。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Meta chief AI officer Alexandr Wang said the company&amp;#x27;s famously large offers to top AI researchers were roughly net neutral for many, since their OpenAI and Anthropic equity had grown enough that staying would have paid about the same. The real draw, he argued, was the mission.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 天价薪酬对顶尖研究员近乎持平&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Meta 首席 AI 官首次公开解释天价挖角为何对顶尖研究员近乎持平，为理解 AI 人才争夺的真实驱动力提供了内部视角。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 42/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2125456631966335471">Rohan Paul (@rohanpaul_ai)</source>
 <category>人才流动</category>
 <category>Meta</category>
 <category>薪酬</category>
 </item>
-<item><title>OpenClaw 发布 ShellBench 智能体真实任务基准</title><link>https://x.com/rohanpaul_ai/status/2125454780026011734</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125454780026011734</guid>
+<item><title>OpenClaw Releases ShellBench Benchmark for Real-World Agent Tasks</title><link>https://x.com/rohanpaul_ai/status/2125454780026011734</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125454780026011734</guid>
 <pubDate>Wed, 25 Nov 2026 13:01:23 +0800</pubDate>
-<description>&lt;p&gt;OpenClaw 联合多方发布 ShellBench，用 100 个真实日常任务、12 个模型、5 种运行框架共 53,100 次评分运行，衡量智能体完成杂乱实际工作的能力。最强智能体 GPT-6 Astra 仅完整完成 62.5% 的任务，三次尝试全部通过率 48.8%，说明日常任务仍有约四成失败。开源运行框架表现不落下风。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个聚焦真实杂乱日常任务的智能体基准，揭示顶尖模型仍有约四成任务失败，对评估智能体落地能力有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenClaw and partners released ShellBench, a benchmark of 100 real-world everyday tasks evaluated across 12 models and 5 harnesses with 53,100 graded runs. The top agent, GPT-6 Astra, fully completed only 62.5% of tasks, with a 48.8% pass rate across all three attempts, leaving roughly four in ten everyday jobs unfinished. Open-source harnesses held their own.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenClaw 发布 ShellBench 智能体真实任务基准&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个聚焦真实杂乱日常任务的智能体基准，揭示顶尖模型仍有约四成任务失败，对评估智能体落地能力有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2125454780026011734">Rohan Paul (@rohanpaul_ai)</source>
 <category>智能体</category>
 <category>基准测试</category>
 <category>OpenClaw</category>
 <category>开源</category>
 </item>
-<item><title>高盛预计美国数据中心电力容量 2028 年新增 52 吉瓦</title><link>https://www.ithome.com/1/032/089.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/089.htm</guid>
+<item><title>Goldman Sachs Sees US Data Center Power Capacity Adding 52 GW by 2028</title><link>https://www.ithome.com/1/032/089.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/089.htm</guid>
 <pubDate>Wed, 25 Nov 2026 12:33:29 +0800</pubDate>
-<description>&lt;p&gt;高盛报告指出，受 AI 热潮推动，美国数据中心电力容量强劲增长有望持续至 2028 年，期间预计新增 52 吉瓦。今年该领域电力容量与需求增长近 30%，贡献了美国电力需求总增量的三分之一以上，将对电力与天然气需求构成上行风险。高盛同时提示，中期选举后的政策调整可能减弱这一上行风险。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;投行量化测算 AI 算力扩张对电力与天然气需求的传导，是算力基础设施瓶颈的重要前瞻信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Goldman Sachs expects the AI-driven surge in US data center power capacity to persist through 2028, with roughly 52 GW of new capacity added. Capacity and demand grew nearly 30% this year, accounting for over a third of total US electricity demand growth, posing upside risk to power and natural gas demand. The bank notes post-midterm policy shifts could temper that risk.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;高盛预计美国数据中心电力容量 2028 年新增 52 吉瓦&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;投行量化测算 AI 算力扩张对电力与天然气需求的传导，是算力基础设施瓶颈的重要前瞻信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/089.htm">IT之家 · 智能时代</source>
 <category>算力基础设施</category>
 <category>数据中心</category>
 <category>电力需求</category>
 <category>高盛</category>
 </item>
-<item><title>经典 GPU 技术演示在浏览器中重现</title><link>https://gpu-demo-gallery.pages.dev/</link><guid isPermaLink="true">https://gpu-demo-gallery.pages.dev/</guid>
+<item><title>Classic Nvidia and ATI GPU Tech Demos Revived in Browser</title><link>https://gpu-demo-gallery.pages.dev/</link><guid isPermaLink="true">https://gpu-demo-gallery.pages.dev/</guid>
 <pubDate>Wed, 25 Nov 2026 12:31:48 +0800</pubDate>
-<description>&lt;p&gt;开发者将 1998 至 2006 年间 3dfx、NVIDIA 与 ATI 的经典显卡技术演示从原始文件重建，并移植到浏览器中运行。这些演示涵盖 Voodoo2 双纹理单元、GeForce 256 硬件变换光照与 GeForce 8 的 GPU 端烟雾水体模拟，直观呈现了早期 GPU 能力的演进脉络。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以可交互方式重现早期 GPU 里程碑演示，是理解图形硬件演进与 Web 移植技术的优质素材。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;A developer has rebuilt classic 3dfx, NVIDIA and ATI graphics card tech demos from 1998 to 2006 and ported them to run in the browser. The demos span Voodoo2 dual texture units, GeForce 256 hardware transform and lighting, and GPU-side smoke and water simulation on GeForce 8, offering a hands-on view of early GPU capability evolution.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;经典 GPU 技术演示在浏览器中重现&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以可交互方式重现早期 GPU 里程碑演示，是理解图形硬件演进与 Web 移植技术的优质素材。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 42/100&lt;/p&gt;</description>
 <source url="https://gpu-demo-gallery.pages.dev/">Hacker News AI</source>
 <category>GPU</category>
 <category>图形渲染</category>
 <category>Web 移植</category>
 <category>技术演示</category>
 </item>
-<item><title>众擎 CEO 赵同阳：人形机器人进入商业化关键阶段</title><link>https://www.ithome.com/1/032/062.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/062.htm</guid>
+<item><title>Google DeepMind Returns to Frontier Status with Gemini 4 Neon</title><link>https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/</link><guid isPermaLink="true">https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/</guid>
+<pubDate>Wed, 25 Nov 2026 12:29:07 +0800</pubDate>
+<description>&lt;p&gt;Google DeepMind has released Gemini 4 Neon, which the industry reads as a marker of its return to frontier-lab status. After the departures of Demis Hassabis and other key figures and disappointing Gemini 3 progress, outsiders had publicly written off GDM; Neon&amp;#x27;s adoption now shows an unusually strong breakout trend. The piece also references sibling Gemini 4 variants Argon and Carbon and argues the momentum looks like genuine adoption rather than coordinated hype.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Gemini 4 Neon 发布 谷歌 DeepMind 重返前沿实验室&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Gemini 4 Neon 的发布与采用趋势直接关系到前沿大模型竞争格局，是值得关注的节点性事件。&lt;/p&gt;&lt;p&gt;Latent Space · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/">Latent Space</source>
+<category>大模型</category>
+<category>谷歌 DeepMind</category>
+<category>Gemini</category>
+</item>
+<item><title>Engineered AI CEO Says Humanoid Robots Enter Commercialization Phase</title><link>https://www.ithome.com/1/032/062.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/062.htm</guid>
 <pubDate>Wed, 25 Nov 2026 12:08:36 +0800</pubDate>
-<description>&lt;p&gt;众擎机器人 CEO 赵同阳在开发者大会上表示，人形机器人正从整机量产走向商业化应用，下一阶段竞争核心是工程能力而非能否造出。他提出生态协同路线，主张企业应选对行业、锁定客户、穿透场景，而非追求单一公司覆盖所有需求。众擎 T800 定价 18 万元起，深圳基地已实现每 15 分钟下线一台。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;人形机器人量产与商业化路径的一手高管表态，附带产线节拍与定价等硬信息。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Engineered AI CEO Zhao Tongyang said at the company&amp;#x27;s global developer conference that humanoid robots are moving from mass production toward commercial deployment, with engineering capability becoming the decisive competitive factor. He advocated an ecosystem-collaboration strategy where firms pick one vertical, lock in customers and penetrate scenarios rather than trying to cover all demand alone. The T800 is priced from RMB 180,000, and its Shenzhen base now rolls out one unit every 15 minutes.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;众擎 CEO 赵同阳：人形机器人进入商业化关键阶段&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;人形机器人量产与商业化路径的一手高管表态，附带产线节拍与定价等硬信息。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/062.htm">IT之家 · 智能时代</source>
 <category>人形机器人</category>
 <category>商业化</category>
 <category>众擎</category>
 <category>具身智能</category>
 </item>
-<item><title>OpenAI 将网络安全视为下一个千亿级增长引擎</title><link>https://www.ithome.com/1/031/989.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/989.htm</guid>
+<item><title>OpenAI Eyes Cybersecurity as Next Major Growth Engine</title><link>https://www.ithome.com/1/031/989.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/989.htm</guid>
 <pubDate>Wed, 25 Nov 2026 11:41:20 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 正把网络安全定位为可能超越编程业务的下一个商业化赛道，CFO 弗莱尔认为 3000 亿美元的市场规模估计仍偏低。公司已推出面向防御场景的 GPT-5.4-Cyber 并扩大受信访问计划，但如何转化为可规模化盈利产品仍不清晰。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部厂商商业化重心从编程转向网安，涉及专用模型与受控分发路径，对判断 AI 落地方向有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI is positioning cybersecurity as its next commercialization track, potentially surpassing coding, with CFO Sarah Friar arguing the $300B market estimate may still be low. The company has launched GPT-5.4-Cyber for defensive use and expanded its trusted-access program, though how this becomes a scalable, profitable product remains unclear.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 将网络安全视为下一个千亿级增长引擎&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部厂商商业化重心从编程转向网安，涉及专用模型与受控分发路径，对判断 AI 落地方向有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/031/989.htm">IT之家 · 智能时代</source>
 <category>网络安全</category>
 <category>OpenAI</category>
 <category>商业化</category>
 <category>AI 编程</category>
 </item>
-<item><title>Anthropic 上市首周破发 跌破 83 美元发行价</title><link>https://www.ithome.com/1/031/983.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/983.htm</guid>
+<item><title>Anthropic Breaks IPO Price Within a Week as AI Stocks Slide</title><link>https://www.ithome.com/1/031/983.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/983.htm</guid>
 <pubDate>Wed, 25 Nov 2026 11:29:13 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 于 11 月 19 日登陆纳斯达克，创下史上最大 IPO 纪录，但上市不到一周即跌破 83 美元发行价，11 月 24 日收报 81.91 美元，单日下跌 6.54%，较首日高点回撤约 34%。此次破发并非个案，市场对 AI 企业盈利能力、巨额算力资本开支与高估值可持续性的疑虑正在引发科技股广泛抛售。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;史上最大 IPO 首周破发，是 AI 高估值叙事遭遇基本面审视的标志性事件。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic listed on Nasdaq on November 19 in what was billed as the largest IPO in history, yet fell below its $83 offer price within a week, closing at $81.91 on November 24, down 6.54% for the day and roughly 34% off its first-day peak. The break is not isolated: mounting doubts over AI profitability, massive compute capex and stretched valuations are driving a broad tech selloff.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 上市首周破发 跌破 83 美元发行价&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;史上最大 IPO 首周破发，是 AI 高估值叙事遭遇基本面审视的标志性事件。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/031/983.htm">IT之家 · 智能时代</source>
 <category>Anthropic</category>
 <category>IPO</category>
 <category>AI 估值</category>
 <category>科技股</category>
 </item>
-<item><title>新算法提取 π 十六进制位运算量降 61%</title><link>https://www.stylewarning.com/posts/faster-digit-extraction/</link><guid isPermaLink="true">https://www.stylewarning.com/posts/faster-digit-extraction/</guid>
+<item><title>New Algorithm Cuts Work for Extracting Hex Digits of Pi by 61%</title><link>https://www.stylewarning.com/posts/faster-digit-extraction/</link><guid isPermaLink="true">https://www.stylewarning.com/posts/faster-digit-extraction/</guid>
 <pubDate>Wed, 25 Nov 2026 11:28:42 +0800</pubDate>
-<description>&lt;p&gt;作者提出一种无需计算前置位即可直接提取 π 十六进制数字的新算法，在运算量上优于 BBP、Bellard 与 Huvent 的逐项求值方案。核心思路是利用恒等式中四个 2 的幂之间的关联，让同一分母共享模运算，从而在大偏移量下减少约 61% 的除法与 38% 的完整模幂运算。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是对经典 BBP 类 π 位提取算法的实质优化，具备明确的方法与量化收益，对关注算法与数值计算的读者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;The author presents a new algorithm that extracts hexadecimal digits of pi without computing preceding digits, beating term-by-term evaluations of BBP, Bellard and Huvent on operation count. The key is sharing modular arithmetic across common and paired denominators, yielding roughly 61% fewer divisions and 38% fewer full modular exponentiations at large offsets.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;新算法提取 π 十六进制位运算量降 61%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是对经典 BBP 类 π 位提取算法的实质优化，具备明确的方法与量化收益，对关注算法与数值计算的读者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.stylewarning.com/posts/faster-digit-extraction/">Hacker News AI</source>
 <category>算法</category>
 <category>数值计算</category>
 <category>π 位提取</category>
 </item>
-<item><title>用 AWS Lambda 跑 Qwen 推理 成本暴涨 80 倍</title><link>https://noahbuilt.it/writing/qwen-on-5600-lambdas</link><guid isPermaLink="true">https://noahbuilt.it/writing/qwen-on-5600-lambdas</guid>
+<item><title>Running Qwen Inference on AWS Lambda Costs 80x More</title><link>https://noahbuilt.it/writing/qwen-on-5600-lambdas</link><guid isPermaLink="true">https://noahbuilt.it/writing/qwen-on-5600-lambdas</guid>
 <pubDate>Wed, 25 Nov 2026 11:28:06 +0800</pubDate>
-<description>&lt;p&gt;作者尝试将 Qwen3.5-4B 微调模型 H2O-Lightning 按层拆分，分发到 AWS Lambda 上做并行推理，以验证无 GPU 方案是否可行。结论是否定的：单层在数千 token 上就是大规模矩阵乘法，CPU 实例并不擅长，且成本反而高出约 80 倍，不存在套利空间。这是一次有价值的负面工程实验，明确了 CPU 无服务器架构在大模型推理上的边界。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以真实实验数据否定 CPU 无服务器推理路线，对算力选型有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;The author split the Qwen3.5-4B fine-tune H2O-Lightning layer by layer across AWS Lambda functions to test whether GPU-free parallel inference could work. The answer is no: a single layer over thousands of tokens is a large matrix multiply that CPUs handle poorly, and the resulting cost was roughly 80x higher with no arbitrage. A useful negative engineering result that maps the limits of serverless CPU for LLM inference.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;用 AWS Lambda 跑 Qwen 推理 成本暴涨 80 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以真实实验数据否定 CPU 无服务器推理路线，对算力选型有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 58/100&lt;/p&gt;</description>
 <source url="https://noahbuilt.it/writing/qwen-on-5600-lambdas">Hacker News AI</source>
 <category>AWS Lambda</category>
 <category>Qwen</category>
 <category>推理成本</category>
 <category>无服务器</category>
 </item>
-<item><title>华为与行芯科技打造韬 EDA 实现国产工具首次串链</title><link>https://www.ithome.com/1/031/982.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/982.htm</guid>
+<item><title>Huawei and X-Epic Launch Tao EDA in First Domestic Toolchain Link-Up</title><link>https://www.ithome.com/1/031/982.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/982.htm</guid>
 <pubDate>Wed, 25 Nov 2026 11:23:55 +0800</pubDate>
-<description>&lt;p&gt;华为与行芯科技联合发布面向韬芯片的国产 EDA 工具“韬 EDA”，并首次打通行芯工具与其他国产 EDA 工具的串链，使单点工具能力连接为面向真实设计流程的产业生产力。行芯自研的 GloryEX 信号路径 RC 抽取与 GloryBolt 电源路径 PI 签核两款工具已进入量产前线，双方 2027 年联合创新项目已规划 30 项产品新功能。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产 EDA 首次实现多工具串链并走向量产，是芯片设计工具链自主化的重要工程节点。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Huawei and X-Epic jointly unveiled Tao EDA, a domestic EDA toolset for Tao chips, and completed the industry&amp;#x27;s first toolchain link-up that connects X-Epic&amp;#x27;s tools with other domestic EDA offerings into a real design flow. X-Epic&amp;#x27;s GloryEX RC extraction and GloryBolt power-integrity signoff tools have moved into volume production, with 30 new joint features planned for 2027.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;华为与行芯科技打造韬 EDA 实现国产工具首次串链&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国产 EDA 首次实现多工具串链并走向量产，是芯片设计工具链自主化的重要工程节点。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/031/982.htm">IT之家 · IT业界</source>
 <category>EDA</category>
 <category>华为</category>
@@ -92,53 +118,53 @@
 <category>芯片设计</category>
 <category>国产替代</category>
 </item>
-<item><title>阿里千问 Go 开放免费代打电话服务</title><link>https://www.ithome.com/1/031/977.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/977.htm</guid>
+<item><title>Alibaba&#x27;s Qwen Go Opens Free AI Phone Call Agent Service</title><link>https://www.ithome.com/1/031/977.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/977.htm</guid>
 <pubDate>Wed, 25 Nov 2026 11:12:07 +0800</pubDate>
-<description>&lt;p&gt;阿里千问 Go 全面开放免费代打电话服务，用户授权后可由 AI 智能体代订餐厅、查询快递、寻找失物，并支持定时外呼。通话中千问会主动表明 AI 身份，并设有风险请求筛查与拦截机制。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是智能体从屏幕走向真实电话外呼场景的落地案例，涉及授权与安全边界，值得关注。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Alibaba&amp;#x27;s Qwen Go has fully opened a free AI phone-call agent service that, after user authorization, books restaurants, checks deliveries and traces lost items, with scheduled calling support. The agent identifies itself as AI during calls and screens risky requests through a safety mechanism.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;阿里千问 Go 开放免费代打电话服务&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是智能体从屏幕走向真实电话外呼场景的落地案例，涉及授权与安全边界，值得关注。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · agent · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/031/977.htm">IT之家 · 智能时代</source>
 <category>智能体</category>
 <category>阿里</category>
 <category>语音外呼</category>
 <category>AI 安全</category>
 </item>
-<item><title>受 WebOS Enyo 启发的滑动面板 React 库</title><link>https://vcarl.com/sashay/</link><guid isPermaLink="true">https://vcarl.com/sashay/</guid>
+<item><title>Show HN Debuts Sliding-Pane React UI Library Inspired by WebOS Enyo</title><link>https://vcarl.com/sashay/</link><guid isPermaLink="true">https://vcarl.com/sashay/</guid>
 <pubDate>Wed, 25 Nov 2026 11:10:18 +0800</pubDate>
-<description>&lt;p&gt;开发者发布开源 React 布局库 Sashay，借鉴 WebOS Enyo 的滑动面板交互，支持拖拽边缘调整分栏、面板自动滑入相邻区域，布局状态可写入 URL 保存。该库零运行时依赖，宣称在 1000 个面板下拖拽帧耗时低于 2ms，仅支持 ESM 与 React 19 及以上版本。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向 React 开发者的轻量布局组件，具备明确交互设计与性能数据，但属细分工具更新。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;A developer released Sashay, an open-source React layout library borrowing the sliding-pane interaction from WebOS Enyo, letting users drag pane edges to resize, slide panes under neighbors, and persist layouts in the URL. It ships with zero runtime dependencies, claims sub-2ms drag frames at 1,000 panes, and requires ESM plus React 19 or newer.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;受 WebOS Enyo 启发的滑动面板 React 库&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向 React 开发者的轻量布局组件，具备明确交互设计与性能数据，但属细分工具更新。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
 <source url="https://vcarl.com/sashay/">Hacker News AI</source>
 <category>React</category>
 <category>开源库</category>
 <category>UI 布局</category>
 <category>开发者工具</category>
 </item>
-<item><title>绕过 iOS Safari 60 FPS 限制打造原生手感 Web 应用</title><link>https://rida.dev/blog/bypassing-ios-safari-60-fps-limit</link><guid isPermaLink="true">https://rida.dev/blog/bypassing-ios-safari-60-fps-limit</guid>
+<item><title>Bypassing iOS Safari&#x27;s 60 FPS Cap for Native-Feel Web Apps</title><link>https://rida.dev/blog/bypassing-ios-safari-60-fps-limit</link><guid isPermaLink="true">https://rida.dev/blog/bypassing-ios-safari-60-fps-limit</guid>
 <pubDate>Wed, 25 Nov 2026 11:04:37 +0800</pubDate>
-<description>&lt;p&gt;文章探讨了如何在 iOS Safari 上突破 60 FPS 的渲染限制，让 Web 应用获得接近原生应用的流畅交互体验。作者结合 React Aria 的滑动面板实践与 Jordan Walke 的 DOM/CSS 实验，梳理了利用浏览器原生滚动物理特性与合成层优化的工程思路，并提及 web-haptics 等触觉反馈库。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;聚焦移动端 Web 性能与交互体验的实用工程技巧，对前端与跨端开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;The article explores how to break past iOS Safari&amp;#x27;s 60 FPS rendering cap so web apps can deliver native-like interaction fluidity. Drawing on React Aria&amp;#x27;s swipeable sheet work and Jordan Walke&amp;#x27;s DOM/CSS experiment, it outlines engineering approaches that exploit native browser scroll physics and compositing optimizations, and notes haptics libraries such as web-haptics.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;绕过 iOS Safari 60 FPS 限制打造原生手感 Web 应用&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;聚焦移动端 Web 性能与交互体验的实用工程技巧，对前端与跨端开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://rida.dev/blog/bypassing-ios-safari-60-fps-limit">Hacker News AI</source>
 <category>Web 性能</category>
 <category>iOS Safari</category>
 <category>前端工程</category>
 </item>
-<item><title>Anthropic 与 OpenAI 同日宣称证明 VP≠VNP</title><link>https://scottaaronson.blog/?p=10362</link><guid isPermaLink="true">https://scottaaronson.blog/?p=10362</guid>
+<item><title>Anthropic and OpenAI Both Claim Proofs of VP vs VNP</title><link>https://scottaaronson.blog/?p=10362</link><guid isPermaLink="true">https://scottaaronson.blog/?p=10362</guid>
 <pubDate>Wed, 25 Nov 2026 11:02:10 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 在宣称证明广义黎曼猜想后，又发布 Valiant VP≠VNP 猜想的证明，这是 P≠NP 的核心代数类比问题；OpenAI 同日也发布了同一猜想的证明。两大前沿实验室在形式化数学领域同日交锋，若证明成立，将是计算复杂性理论的里程碑事件。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;两大前沿实验室同日挑战计算复杂性理论核心猜想，是 AI 数学能力的标志性事件。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 88/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic released a proof of Valiant&amp;#x27;s VP≠VNP conjecture, a central algebraic analogue of P≠NP, shortly after claiming a proof of the Generalized Riemann Hypothesis; OpenAI published its own proof of the same conjecture the same day. The simultaneous claims mark a milestone confrontation between frontier labs in formal mathematics.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 与 OpenAI 同日宣称证明 VP≠VNP&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;两大前沿实验室同日挑战计算复杂性理论核心猜想，是 AI 数学能力的标志性事件。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 88/100&lt;/p&gt;</description>
 <source url="https://scottaaronson.blog/?p=10362">Hacker News AI</source>
 <category>前沿研究</category>
 <category>计算复杂性</category>
 <category>Anthropic</category>
 <category>OpenAI</category>
 </item>
-<item><title>研究团队用大模型投票评选数学开放问题榜单</title><link>https://www.proofatlas.ai/open-problems/</link><guid isPermaLink="true">https://www.proofatlas.ai/open-problems/</guid>
+<item><title>LLMs Rank Top Open Problems in Mathematics via Pairwise Voting</title><link>https://www.proofatlas.ai/open-problems/</link><guid isPermaLink="true">https://www.proofatlas.ai/open-problems/</guid>
 <pubDate>Wed, 25 Nov 2026 11:01:36 +0800</pubDate>
-<description>&lt;p&gt;ProofAtlas 发布数学开放问题重要性排名，采用大模型两两比较加可靠性加权的方式生成榜单，并按模型家族设定权重（OpenAI 1.00、Claude 1.00、GLM 0.95、DeepSeek 0.90）。该榜单展示了用 LLM 判断替代专家共识的一种方法论尝试，但作者明确说明权重是建模选择而非实测正确率，且排名区间存在不确定性。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是把大模型用作学术重要性评判者的少见公开实践，方法论细节值得关注。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;ProofAtlas published a ranking of open problems in mathematics, generated by having LLMs compare problems pairwise and combining judgments through a reliability-weighted model with per-family weights (OpenAI 1.00, Claude 1.00, GLM 0.95, DeepSeek 0.90). The work is a methodological experiment in substituting LLM judgment for expert consensus, though the authors stress the weights are modeling choices rather than measured correctness and that nearby ranks carry uncertainty.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;研究团队用大模型投票评选数学开放问题榜单&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是把大模型用作学术重要性评判者的少见公开实践，方法论细节值得关注。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.proofatlas.ai/open-problems/">Hacker News AI</source>
 <category>大模型评测</category>
 <category>数学</category>
 <category>LLM 评判</category>
 <category>开放问题</category>
 </item>
-<item><title>开源项目将《黑色行动 3》静态重编译为原生 ARM64</title><link>https://github.com/mawlicious/bo3mac</link><guid isPermaLink="true">https://github.com/mawlicious/bo3mac</guid>
+<item><title>Open Source Project Statically Recompiles Black Ops III for Native ARM64</title><link>https://github.com/mawlicious/bo3mac</link><guid isPermaLink="true">https://github.com/mawlicious/bo3mac</guid>
 <pubDate>Wed, 25 Nov 2026 11:00:12 +0800</pubDate>
-<description>&lt;p&gt;bo3mac 项目通过静态重编译将《使命召唤：黑色行动 3》的 x86_64 二进制转为原生 Apple Silicon 应用，并直接移植 Metal 渲染层，以应对 macOS 28 起 Rosetta 2 支持退场导致的官方版本失效。项目不分发任何游戏文件，安装脚本通过 SHA-256 校验用户自有 Steam 可执行文件后在本地编译。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是静态二进制重编译与图形层移植在大型商业游戏上的罕见工程实践，对关注跨架构迁移与 Apple Silicon 生态的开发者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;The bo3mac project statically recompiles Call of Duty: Black Ops III&amp;#x27;s x86_64 binary into a native Apple Silicon application and ports the rendering layer directly to Metal, addressing the loss of Rosetta 2 support starting with macOS 28. It distributes no game files, instead verifying the user&amp;#x27;s own Steam executable via SHA-256 and compiling locally.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;开源项目将《黑色行动 3》静态重编译为原生 ARM64&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是静态二进制重编译与图形层移植在大型商业游戏上的罕见工程实践，对关注跨架构迁移与 Apple Silicon 生态的开发者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://github.com/mawlicious/bo3mac">Hacker News AI</source>
 <category>静态重编译</category>
 <category>Apple Silicon</category>
@@ -146,9 +172,9 @@
 <category>Rosetta 2</category>
 <category>开源项目</category>
 </item>
-<item><title>微软启动红色警报改革全球服务故障应对机制</title><link>https://www.ithome.com/1/031/974.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/974.htm</guid>
+<item><title>Microsoft Launches Red Alert to Overhaul Global Outage Response</title><link>https://www.ithome.com/1/031/974.htm</link><guid isPermaLink="true">https://www.ithome.com/1/031/974.htm</guid>
 <pubDate>Wed, 25 Nov 2026 10:51:30 +0800</pubDate>
-<description>&lt;p&gt;微软在 11 月中旬发生 24 小时全球服务中断后启动最高级别“红色警报”，计划彻底改革重大故障的预防与应对机制。改革包含负载削减、地理区域流量隔离与加速恢复，目标是一小时内全球处置类似事故，并部署 AI 智能体辅助工程师诊断系统健康数据。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部云厂商因重大故障重构可靠性工程体系，并引入 AI 智能体参与故障诊断，对关注云基础设施与 AI 运维的读者有实质参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;After a 24-hour global outage in mid-November, Microsoft has triggered a top-level \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;微软启动红色警报改革全球服务故障应对机制&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部云厂商因重大故障重构可靠性工程体系，并引入 AI 智能体参与故障诊断，对关注云基础设施与 AI 运维的读者有实质参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/031/974.htm">IT之家 · IT业界</source>
 <category>微软</category>
 <category>云服务故障</category>
@@ -244,33 +270,6 @@
 <category>美国政府</category>
 <category>半导体政策</category>
 <category>产业投资</category>
-</item>
-<item><title>METR 发现 OpenAI 基础模型预测误差下降提速 7 倍</title><link>https://x.com/rohanpaul_ai/status/2125400074322895282</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125400074322895282</guid>
-<pubDate>Wed, 25 Nov 2026 09:24:00 +0800</pubDate>
-<description>&lt;p&gt;METR 基于 OpenAI 公开的 GPT-3.5 以来 13 个前沿模型的预训练损失数据发现，2026 年初以来对数困惑度的下降速度约为 2022-2025 年的 7 倍。若按此速率，GPT-3.5 到 GPT-4.1 的三年进展约 6.5 个月即可复现，等效算力增速提升 8 至 10 倍。OpenAI 将加速主要归因于长期研究与算力投入，同时承认 AI 对新模型设计有实质贡献；METR 另估计 Anthropic 2026 年 10 月的研发加速约 80% 来自 AI。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次以公开预训练损失量化 AI 研发自身的加速，是判断递归自我改进节奏的关键实证。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2125400074322895282">Rohan Paul (@rohanpaul_ai)</source>
-<category>模型评估</category>
-<category>研发加速</category>
-<category>OpenAI</category>
-<category>METR</category>
-</item>
-<item><title>OpenAI 内部模型产出 730 篇数学手稿，矩阵乘法复杂度降至 O(n^2.25)</title><link>https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf</link><guid isPermaLink="true">https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf</guid>
-<pubDate>Wed, 25 Nov 2026 09:19:26 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 公开了一个由内部未命名模型生成的数学手稿库，共 730 篇、归为 375 个族系，覆盖矩阵乘法复杂度 O(n^2.25) 等开放研究问题，部分结果附有 Lean 形式化验证。OpenAI 明确将这些手稿定位为原始研究数据而非成熟论文，承认未形式化结果可能存在问题，并将优先权与署名判定完全交由数学界。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 直接冲击数学研究前沿的标志性事件，模型产出规模与问题难度均属首次，值得持续关注。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 88/100&lt;/p&gt;</description>
-<source url="https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf">Hacker News AI</source>
-<category>大模型</category>
-<category>OpenAI</category>
-<category>数学推理</category>
-<category>形式化验证</category>
-</item>
-<item><title>LangChain 用 LangSmith 拿下 ISO 42001 认证</title><link>https://www.langchain.com/blog/ai-governance-iso-iec-42001-langsmith</link><guid isPermaLink="true">https://www.langchain.com/blog/ai-governance-iso-iec-42001-langsmith</guid>
-<pubDate>Wed, 25 Nov 2026 09:04:06 +0800</pubDate>
-<description>&lt;p&gt;LangChain 借助 LangSmith 的权限审批配置、运行轨迹与评估数据，完成了 ISO/IEC 42001 AI 管理体系认证，审计证据直接来自工程师日常调试智能体的同一套数据。团队还用基于 Deep Agents 构建、运行在 LangSmith 上的 Security Agent 扩展治理流程，客户可复用同一路径。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个把智能体可观测数据直接转化为 AI 治理合规证据的公开实践，对做企业级 Agent 落地的团队有直接参考价值。&lt;/p&gt;&lt;p&gt;LangChain Blog · agent · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.langchain.com/blog/ai-governance-iso-iec-42001-langsmith">LangChain Blog</source>
-<category>智能体治理</category>
-<category>合规认证</category>
-<category>LangSmith</category>
-<category>可观测性</category>
 </item>
 </channel>
 </rss>
