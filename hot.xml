@@ -59,6 +59,14 @@ Claude Ship 直击 AI 生成代码量激增后审查与放行环节的瓶颈，�
 
 若证明成立，将是计算复杂性理论的里程碑事件，表明 AI 已能自主发现并形式化验证高难度数学定理，极大加速数学研究进程，并推动形式化验证在学术界的普及。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, 新智元 (微信公众号), 机器之心 (微信公众号)&lt;/p&gt;</description>
 </item>
+<item><title>Claude 桌面版支持将 Artifact 一键安装为本地应用</title><link>https://todayforai.com/en/story/story-028eb944-24c</link><guid isPermaLink="true">https://todayforai.com/en/story/story-028eb944-24c</guid>
+<pubDate>Wed, 25 Nov 2026 07:20:30 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 为 Claude 的交互式 Artifacts 功能新增“安装为应用”选项，用户可将生成的网页或小工具一键安装为 macOS 与 Windows 独立桌面软件。安装后应用拥有独立工具栏图标，并支持通知、快捷键拦截、窗口置顶乃至完整计算机访问等分级权限。该功能目前处于 Beta 阶段并逐步开放，标志着 Claude 生成物从浏览器内交互走向可长期驻留的本地应用形态。
+
+综合多方信源，该功能原理类似 Chrome 的 Web App 套壳，仍需联网并依赖账号对 Artifact 的访问权限。安装后的应用可调用连接器、发送通知或添加菜单栏项，权限分级从默认浏览器式沙箱到完整计算机访问，为用户提供了灵活的安全控制。目前功能正面向桌面用户逐步开放，Beta 阶段可能还存在一些限制。
+
+这一更新对 AI 生成内容的产品化具有重要意义。它降低了用户将 AI 生成工具转化为日常应用的门槛，使 Claude 从对话助手进一步延伸为应用分发平台。对开发者而言，Artifacts 不再仅是演示原型，而可成为可安装、可驻留的轻量级应用，可能催生新的 AI 原生应用生态。同时，分级权限设计也体现了 Anthropic 在安全与功能之间的平衡，为行业提供了参考。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, 宝玉 (@dotey)&lt;/p&gt;</description>
+</item>
 <item><title>OpenAI 称 GPT-6 仅凭推理与代码设计蛋白质</title><link>https://todayforai.com/en/story/story-be158134-dca</link><guid isPermaLink="true">https://todayforai.com/en/story/story-be158134-dca</guid>
 <pubDate>Wed, 25 Nov 2026 06:44:58 +0800</pubDate>
 <description>&lt;p&gt;OpenAI 发布预印本论文，宣称其最新通用模型 GPT-6.2 无需依赖专用生物学模型，仅凭推理与通用编程工具即可设计蛋白质三维结构及氨基酸序列。在与 Onava 合作的湿实验中，322 个微型结合蛋白有 35 个显示结合迹象，抗体结合环重设计 182 个中有 128 个仍能结合 IL-4Rα，初步验证了通用模型在生物设计任务上的可行性。
@@ -66,14 +74,6 @@ Claude Ship 直击 AI 生成代码量激增后审查与放行环节的瓶颈，�
 计算基准上，GPT-6.2 表现显著超越专用模型：基序支架任务成功率 43.7%，高于 RFdiffusion 的 27.8%；小分子对接准确率约 93%，远超 DiffDock-L 的 50%。然而 OpenAI 承认，筛选环节仍依赖 Boltz-2、ESMFold2 等专用模型，且从序列预测完整结构的 TM-score 仅 0.38，远低于 ESMFold2 的 0.93，端到端能力尚未成立。
 
 这一进展标志着通用大模型向生物设计领域迈出关键一步，有望降低蛋白质工程的门槛，但距离完全替代专用工具仍有差距。若后续能补齐结构预测短板，GPT-6 或将成为跨学科科研的通用引擎，推动 AI 驱动的生物发现进入新阶段。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
-<item><title>Canva 开放 MCP 服务 智能体可直出可编辑设计稿</title><link>https://todayforai.com/en/story/story-5694a3bc-fdb</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5694a3bc-fdb</guid>
-<pubDate>Wed, 25 Nov 2026 09:32:21 +0800</pubDate>
-<description>&lt;p&gt;Canva 正式向所有开发者开放 MCP 服务器，取消等待名单，标志着设计平台向智能体生态迈出关键一步。任何智能体或开发者均可接入，通过自主编排工具顺序，从一句自然语言需求直接生成设计、视频及多平台尺寸版本，最终输出为可编辑的 Canva 设计文件，供人工审阅、微调与发布。
-
-该服务允许智能体自主选择并依次调用 Canva 工具，实现从需求到成品的端到端自动化。输出文件保持可编辑性，确保人工在审阅环节保留控制权。与此同时，LangChain 提出的 Agent Lake 概念为智能体轨迹的规模化分析提供了新思路，其 SmithDB 数据库与智能计算查询层可对非结构化推理轨迹进行高效处理，形成持续改进闭环。两者共同指向智能体工作流从实验走向生产的关键趋势。
-
-对设计行业而言，Canva 的开放降低了智能体接入门槛，使自动化设计生成与人工审阅无缝衔接，有望大幅提升内容生产效率。对开发者生态，MCP 服务器的全面开放意味着更多第三方智能体可嵌入设计能力，推动跨平台协作。LangChain 的轨迹分析方案则补足了智能体可观测性短板，为生产环境下的可靠部署提供支撑。整体来看，智能体正从单点工具演化为可编排、可分析、可改进的系统级工作流。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;LangChain Blog, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
