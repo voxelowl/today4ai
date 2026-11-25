@@ -1,8 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Wed, 25 Nov 2026 14:27:02 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Wed, 25 Nov 2026 14:58:37 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Tencent Hunyuan Open-Sources Hy4 flash GGUF Weights for Local Deployment</title><link>https://www.ithome.com/1/032/131.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/131.htm</guid>
+<pubDate>Wed, 25 Nov 2026 14:58:37 +0800</pubDate>
+<description>&lt;p&gt;Tencent Hunyuan has open-sourced GGUF quantized weights and inference code for Hy4 flash via its AngelSlim compression toolkit, enabling the 224B-parameter model to run on personal devices. The smallest build is roughly 30% of the original 410.27 GiB, and with the optimized Strata offload framework it runs on a 64 GB Mac mini, hitting up to 89 tokens per second on 48 GB VRAM hardware. Tencent reports Q3_K stays within 0.4 points of the original model across four benchmarks.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;腾讯混元开源 Hy4 flash 量化权重 224B 模型可跑个人设备&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;224B 级模型经量化后可在消费级设备本地运行，且精度损失极小，对本地部署与开源生态有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · opensource · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/032/131.htm">IT之家 · 智能时代</source>
+<category>开源模型</category>
+<category>模型量化</category>
+<category>本地部署</category>
+<category>腾讯混元</category>
+</item>
+<item><title>Sand.ai Releases 480B MAGI-2 Video Generation Model</title><link>https://www.ithome.com/1/032/124.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/124.htm</guid>
+<pubDate>Wed, 25 Nov 2026 14:50:22 +0800</pubDate>
+<description>&lt;p&gt;Sand.ai has launched MAGI-2, a next-generation video generation model scaling total parameters from 114B to 480B with roughly 28B activated and about 3x more training data. It supports 4-30 second multi-shot generation, up to 20 multimodal reference assets and 20,000-character prompts, and has been adapted to domestic chips including Hygon and Moore Threads, with API access now open for application.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Sand.ai 发布 480B 视频生成模型 MAGI-2&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;480B 参数规模与国产算力适配构成实质技术增量，是视频生成赛道的重要节点。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/032/124.htm">IT之家 · 智能时代</source>
+<category>视频生成</category>
+<category>Sand.ai</category>
+<category>国产算力</category>
+<category>多模态</category>
+</item>
+<item><title>Anthropic and OpenAI Both Claim Proof of VP vs VNP Conjecture</title><link>https://www.ithome.com/1/032/122.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/122.htm</guid>
+<pubDate>Wed, 25 Nov 2026 14:50:01 +0800</pubDate>
+<description>&lt;p&gt;Anthropic and OpenAI both announced on November 23 that they had proven the algebraic complexity conjecture VP≠VNP, which, if valid, implies the existence of polynomials that are succinctly describable yet cannot be computed efficiently using only addition and multiplication. The conjecture is the algebraic analogue of the classic P vs NP problem; its methods may inform approaches to P vs NP but do not directly settle it. Both companies have published formalization materials and preprints on GitHub.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 与 OpenAI 同日宣称证明 VP≠VNP 猜想&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;两大前沿 AI 实验室同日宣称攻克代数复杂度核心猜想，是 AI for Science 与形式化数学领域的标志性事件。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 88/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/032/122.htm">IT之家 · 智能时代</source>
+<category>AI for Science</category>
+<category>形式化数学</category>
+<category>计算复杂度</category>
+<category>Anthropic</category>
+<category>OpenAI</category>
+</item>
 <item><title>DeepMind Paper Projects Million-Fold Drop in AI Compute Costs</title><link>https://www.ithome.com/1/032/114.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/114.htm</guid>
 <pubDate>Wed, 25 Nov 2026 14:27:02 +0800</pubDate>
 <description>&lt;p&gt;Google DeepMind Research published a paper titled \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;DeepMind 论文预测 AI 算力成本十年降百万倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;DeepMind 以量化趋势给出算力成本百万倍下降的长期判断，并系统梳理 AGI 到 ASI 的路径与瓶颈，对判断 AI 长期曲线有参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 62/100&lt;/p&gt;</description>
@@ -164,18 +192,18 @@
 <category>谷歌 DeepMind</category>
 <category>Gemini</category>
 </item>
-<item><title>Engineered AI CEO Says Humanoid Robots Enter Commercialization Phase</title><link>https://www.ithome.com/1/032/062.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/062.htm</guid>
+<item><title>众擎 CEO 赵同阳：人形机器人进入商业化关键阶段</title><link>https://www.ithome.com/1/032/062.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/062.htm</guid>
 <pubDate>Wed, 25 Nov 2026 12:08:36 +0800</pubDate>
-<description>&lt;p&gt;Engineered AI CEO Zhao Tongyang said at the company&amp;#x27;s global developer conference that humanoid robots are moving from mass production toward commercial deployment, with engineering capability becoming the decisive competitive factor. He advocated an ecosystem-collaboration strategy where firms pick one vertical, lock in customers and penetrate scenarios rather than trying to cover all demand alone. The T800 is priced from RMB 180,000, and its Shenzhen base now rolls out one unit every 15 minutes.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;众擎 CEO 赵同阳：人形机器人进入商业化关键阶段&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;人形机器人量产与商业化路径的一手高管表态，附带产线节拍与定价等硬信息。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;众擎机器人 CEO 赵同阳在开发者大会上表示，人形机器人正从整机量产走向商业化应用，下一阶段竞争核心是工程能力而非能否造出。他提出生态协同路线，主张企业应选对行业、锁定客户、穿透场景，而非追求单一公司覆盖所有需求。众擎 T800 定价 18 万元起，深圳基地已实现每 15 分钟下线一台。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;人形机器人量产与商业化路径的一手高管表态，附带产线节拍与定价等硬信息。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/062.htm">IT之家 · 智能时代</source>
 <category>人形机器人</category>
 <category>商业化</category>
 <category>众擎</category>
 <category>具身智能</category>
 </item>
-<item><title>Octen Search Hits 0.17s Per Query, Fastest of 25 Search APIs</title><link>https://x.com/ArtificialAnlys/status/2125439213944664531</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2125439213944664531</guid>
+<item><title>Octen Search 单次搜索 0.17 秒刷新 25 款 API 最快纪录</title><link>https://x.com/ArtificialAnlys/status/2125439213944664531</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2125439213944664531</guid>
 <pubDate>Wed, 25 Nov 2026 11:59:32 +0800</pubDate>
-<description>&lt;p&gt;Artificial Analysis benchmarked 25 search API products and found Octen Search&amp;#x27;s fast dynamic mode returns each query in about 0.17s, the fastest in the field and roughly half the runner-up&amp;#x27;s 0.33s. It ranks third on the Search Index at 82 points, just one point behind the leaders, scores 92% on a hard BrowseComp subset, and is priced at $1 per 1,000 requests.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Octen Search 单次搜索 0.17 秒刷新 25 款 API 最快纪录&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;第三方独立基准给出可比的延迟与质量数据，为搜索 API 选型提供直接参考。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · tools · signal 68/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Artificial Analysis 对 25 款搜索 API 产品进行基准测试，Octen Search 快速动态模式单次搜索约 0.17 秒，为全场最快，约为第二名 0.33 秒的一半。其搜索指数得分 82 分位列第三，仅落后榜首 1 分，在 BrowseComp 困难子集上取得 92% 正确率，定价为每千次请求 1 美元。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;第三方独立基准给出可比的延迟与质量数据，为搜索 API 选型提供直接参考。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · tools · signal 68/100&lt;/p&gt;</description>
 <source url="https://x.com/ArtificialAnlys/status/2125439213944664531">Artificial Analysis (@ArtificialAnlys)</source>
 <category>搜索 API</category>
 <category>基准测试</category>
@@ -244,32 +272,6 @@
 <category>开源库</category>
 <category>UI 布局</category>
 <category>开发者工具</category>
-</item>
-<item><title>绕过 iOS Safari 60 FPS 限制打造原生手感 Web 应用</title><link>https://rida.dev/blog/bypassing-ios-safari-60-fps-limit</link><guid isPermaLink="true">https://rida.dev/blog/bypassing-ios-safari-60-fps-limit</guid>
-<pubDate>Wed, 25 Nov 2026 11:04:37 +0800</pubDate>
-<description>&lt;p&gt;文章探讨了如何在 iOS Safari 上突破 60 FPS 的渲染限制，让 Web 应用获得接近原生应用的流畅交互体验。作者结合 React Aria 的滑动面板实践与 Jordan Walke 的 DOM/CSS 实验，梳理了利用浏览器原生滚动物理特性与合成层优化的工程思路，并提及 web-haptics 等触觉反馈库。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;聚焦移动端 Web 性能与交互体验的实用工程技巧，对前端与跨端开发者有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://rida.dev/blog/bypassing-ios-safari-60-fps-limit">Hacker News AI</source>
-<category>Web 性能</category>
-<category>iOS Safari</category>
-<category>前端工程</category>
-</item>
-<item><title>Anthropic 与 OpenAI 同日宣称证明 VP≠VNP</title><link>https://scottaaronson.blog/?p=10362</link><guid isPermaLink="true">https://scottaaronson.blog/?p=10362</guid>
-<pubDate>Wed, 25 Nov 2026 11:02:10 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 在宣称证明广义黎曼猜想后，又发布 Valiant VP≠VNP 猜想的证明，这是 P≠NP 的核心代数类比问题；OpenAI 同日也发布了同一猜想的证明。两大前沿实验室在形式化数学领域同日交锋，若证明成立，将是计算复杂性理论的里程碑事件。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;两大前沿实验室同日挑战计算复杂性理论核心猜想，是 AI 数学能力的标志性事件。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 88/100&lt;/p&gt;</description>
-<source url="https://scottaaronson.blog/?p=10362">Hacker News AI</source>
-<category>前沿研究</category>
-<category>计算复杂性</category>
-<category>Anthropic</category>
-<category>OpenAI</category>
-</item>
-<item><title>研究团队用大模型投票评选数学开放问题榜单</title><link>https://www.proofatlas.ai/open-problems/</link><guid isPermaLink="true">https://www.proofatlas.ai/open-problems/</guid>
-<pubDate>Wed, 25 Nov 2026 11:01:36 +0800</pubDate>
-<description>&lt;p&gt;ProofAtlas 发布数学开放问题重要性排名，采用大模型两两比较加可靠性加权的方式生成榜单，并按模型家族设定权重（OpenAI 1.00、Claude 1.00、GLM 0.95、DeepSeek 0.90）。该榜单展示了用 LLM 判断替代专家共识的一种方法论尝试，但作者明确说明权重是建模选择而非实测正确率，且排名区间存在不确定性。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是把大模型用作学术重要性评判者的少见公开实践，方法论细节值得关注。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.proofatlas.ai/open-problems/">Hacker News AI</source>
-<category>大模型评测</category>
-<category>数学</category>
-<category>LLM 评判</category>
-<category>开放问题</category>
 </item>
 </channel>
 </rss>
