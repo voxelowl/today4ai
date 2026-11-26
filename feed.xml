@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Thu, 26 Nov 2026 13:33:30 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 26 Nov 2026 14:08:25 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>SQLite Ships sqlite3_rsync for Remote Database Snapshot Copies</title><link>https://simonwillison.net/2026/Nov/26/sqlite3-rsync/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/26/sqlite3-rsync/</guid>
+<pubDate>Thu, 26 Nov 2026 14:08:25 +0800</pubDate>
+<description>&lt;p&gt;SQLite&amp;#x27;s built-in sqlite3_rsync copies a database snapshot to a remote machine over SSH without first creating a full local duplicate, solving the backup problem on disk-constrained instances. It borrows rsync&amp;#x27;s page-hash comparison to transfer only differing pages, so syncing an existing replica avoids retransmitting the whole database.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SQLite 推出 sqlite3_rsync 支持远程快照复制&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为磁盘受限环境提供免全量副本的远程快照方案，对 SQLite 运维与备份实践有直接价值。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://simonwillison.net/2026/Nov/26/sqlite3-rsync/">Simon Willison 博客</source>
+<category>SQLite</category>
+<category>数据库备份</category>
+<category>rsync</category>
+<category>开发者工具</category>
+</item>
+<item><title>Alibaba XuanTie RISC-V Chips Ship 6 Billion Units as Android 17 Adds Support</title><link>https://www.ithome.com/1/032/745.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/745.htm</guid>
+<pubDate>Thu, 26 Nov 2026 13:36:31 +0800</pubDate>
+<description>&lt;p&gt;Alibaba DAMO Academy disclosed at ICCAD-Expo 2026 that cumulative shipments of its XuanTie RISC-V IP chips have surpassed 6 billion units across IoT, industrial control and automotive use cases, alongside the new ASIL-D-grade E908A core. More significantly, Android 17 now officially supports the RISC-V architecture; combined with fully ratified server-level extensions and a TORQ AI software stack supporting vLLM and SGLang, RISC-V is moving from embedded territory toward high-performance computing and AI-native workloads.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;阿里玄铁 RISC-V 芯片出货超 60 亿颗 安卓 17 正式支持&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;安卓 17 官方支持 RISC-V 叠加 60 亿颗出货量，是开放指令集进入主流智能终端与服务器市场的关键节点。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/032/745.htm">IT之家 · IT业界</source>
+<category>RISC-V</category>
+<category>阿里达摩院</category>
+<category>芯片</category>
+<category>安卓</category>
+<category>开源指令集</category>
+</item>
 <item><title>US Export Curbs Tighten Squeeze on Chinese AI Labs&#x27; Chips and Distillation</title><link>https://x.com/rohanpaul_ai/status/2125825251699544424</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125825251699544424</guid>
 <pubDate>Thu, 26 Nov 2026 13:33:30 +0800</pubDate>
 <description>&lt;p&gt;The Information reports that a new US Commerce Department rule gives overseas data centers serving Chinese customers 90 days to obtain licenses, cutting off the main route to rented Blackwell chips; Moonshot AI has already scrapped a $150M Indonesian deal. Combined with narrowing access to distilling American models, DeepSeek researchers privately estimate the US frontier lead could widen from 3-6 months to about 9, with some fearing the gap may not be closed this time.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美出口管制收紧 中国头部 AI 实验室算力与蒸馏双受限&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;出口管制首次同时打击算力租用与模型蒸馏两条路径，直接改写中美前沿模型竞争的时间表判断。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 78/100&lt;/p&gt;</description>
@@ -137,36 +156,36 @@
 <category>OpenAI</category>
 <category>订阅额度</category>
 </item>
-<item><title>Zhihu Confirms Indirect Low Single-Digit Stake in DeepSeek</title><link>https://www.ithome.com/1/032/582.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/582.htm</guid>
+<item><title>知乎间接投资 DeepSeek 获低个位数股权</title><link>https://www.ithome.com/1/032/582.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/582.htm</guid>
 <pubDate>Thu, 26 Nov 2026 09:51:43 +0800</pubDate>
-<description>&lt;p&gt;Zhihu has indirectly acquired a low single-digit percentage stake in DeepSeek through a fund it backs, with CEO Zhou Yuan framing it as a long-term strategic decision made after careful evaluation. He stressed the investment will not come at the expense of the core business or financial stability, and buybacks will continue. Zhihu&amp;#x27;s Q3 revenue was flat at RMB 659 million while adjusted net loss widened to RMB 30.77 million.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;知乎间接投资 DeepSeek 获低个位数股权&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司 DeepSeek 的股权结构出现新机构股东，且由上市公司公开披露与高管定调，具备产业资本动向的观察价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;知乎通过参投的天津砺思星深基金间接持有 DeepSeek 低个位数百分比股权，CEO 周源称这是审慎评估后的长期战略决策。他强调投资不会牺牲主营业务与财务稳健性，知乎将继续执行回购。同期知乎三季度营收 6.59 亿元基本持平，经调整净亏损扩大至 3077 万元。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司 DeepSeek 的股权结构出现新机构股东，且由上市公司公开披露与高管定调，具备产业资本动向的观察价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 42/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/582.htm">IT之家 · IT业界</source>
 <category>DeepSeek</category>
 <category>知乎</category>
 <category>投融资</category>
 <category>产业资本</category>
 </item>
-<item><title>ChatGPT Chat and Work Modes Share One Usage Meter, Heavy Users Hit Caps Sooner</title><link>https://x.com/rohanpaul_ai/status/2125768849782120797</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125768849782120797</guid>
+<item><title>ChatGPT 聊天与工作模式合并计量 重度用户额度将更快耗尽</title><link>https://x.com/rohanpaul_ai/status/2125768849782120797</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125768849782120797</guid>
 <pubDate>Thu, 26 Nov 2026 09:49:23 +0800</pubDate>
-<description>&lt;p&gt;OpenAI has changed how ChatGPT subscription usage is metered, merging the standard Chat mode and the long-running multi-step Work mode into a single usage pool; Work previously shared a pool with the Codex coding agent. Instant chats stay off the meter and keep working after the budget runs out, concentrating the squeeze on reasoning and agentic workloads. Because usage is measured in tokens, model choice and task size now directly determine how fast a subscriber burns through a plan.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;ChatGPT 聊天与工作模式合并计量 重度用户额度将更快耗尽&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;订阅额度计量规则变化直接影响 ChatGPT 重度用户的成本与使用策略，属于值得关注的产品政策调整。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 调整 ChatGPT 订阅额度计量方式，将普通 Chat 与面向长任务多步执行的 Work 模式合并到同一用量池，而 Work 此前与 Codex 编码智能体共享额度。即时聊天不计入该计量，额度耗尽后仍可使用，压力因此集中在推理与智能体类任务上。由于按 token 计量，模型选择与任务规模直接决定订阅者消耗额度的速度。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;订阅额度计量规则变化直接影响 ChatGPT 重度用户的成本与使用策略，属于值得关注的产品政策调整。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 58/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2125768849782120797">Rohan Paul (@rohanpaul_ai)</source>
 <category>ChatGPT</category>
 <category>订阅额度</category>
 <category>OpenAI</category>
 <category>智能体</category>
 </item>
-<item><title>Johns Hopkins and Together AI Find Higher Reasoning Effort Can Hurt Accuracy</title><link>https://x.com/rohanpaul_ai/status/2125762008876519662</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125762008876519662</guid>
+<item><title>约翰霍普金斯与 Together AI 研究发现高推理努力反而更差</title><link>https://x.com/rohanpaul_ai/status/2125762008876519662</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125762008876519662</guid>
 <pubDate>Thu, 26 Nov 2026 09:22:12 +0800</pubDate>
-<description>&lt;p&gt;A new Johns Hopkins and Together AI paper finds that higher reasoning effort often fails tasks that lower effort already solved, even as overall accuracy rises. Testing 8 models including GPT-5.6 and Claude Sonnet 5 across math, science, terminal and coding benchmarks, the authors show that starting at low effort and escalating only after a verified failure matches or beats fixed top effort for every model, at a median 41.5% lower GPQA cost.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;约翰霍普金斯与 Together AI 研究发现高推理努力反而更差&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究给出可立即落地的智能体成本优化策略，并揭示推理努力并非越高越好的反直觉结论。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;约翰霍普金斯大学与 Together AI 的新论文发现，提高推理努力（reasoning effort）并不总是更好：在低努力已能解决的任务上，高努力反而经常失败，尽管整体准确率上升。研究测试了 8 个模型（含 GPT-5.6、Claude Sonnet 5）在数学、科学、终端与编程基准上的各档努力水平，发现“先低努力、验证失败后再升级”的策略在所有模型上追平或超过固定最高努力，且 GPQA 成本中位数降低 41.5%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究给出可立即落地的智能体成本优化策略，并揭示推理努力并非越高越好的反直觉结论。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2125762008876519662">Rohan Paul (@rohanpaul_ai)</source>
 <category>推理努力</category>
 <category>智能体</category>
 <category>成本优化</category>
 <category>基准测试</category>
 </item>
-<item><title>Samsung and SK Hynix License YMTC Xtacking Stacking Tech</title><link>https://www.ithome.com/1/032/568.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/568.htm</guid>
+<item><title>三星与 SK 海力士获长江存储 Xtacking 技术授权</title><link>https://www.ithome.com/1/032/568.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/568.htm</guid>
 <pubDate>Thu, 26 Nov 2026 09:20:30 +0800</pubDate>
-<description>&lt;p&gt;Nikkei Asia reports that Samsung and SK Hynix have secured partial rights to YMTC&amp;#x27;s Xtacking architecture via cross-licensing agreements for 3D NAND stacking. By placing peripheral circuits above memory cells, Xtacking cuts die area by roughly 25%, shortens development by three months and production cycles by 20%, marking a rare case of Korean memory giants adopting core architecture from a Chinese challenger.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;三星与 SK 海力士获长江存储 Xtacking 技术授权&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;存储三巨头首次在核心堆叠架构上形成反向技术授权，是 NAND 竞争格局与知识产权版图的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;据日经亚洲报道，三星电子与 SK 海力士已通过交叉许可协议，获得长江存储 Xtacking 晶栈架构的部分技术使用权，用于 3D NAND 堆叠。Xtacking 将外围电路置于存储单元之上，可使芯片面积减少约 25%、开发周期缩短三个月、生产周期缩短 20%，标志着中国存储厂商首次在核心架构层面被韩系巨头反向采用。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;存储三巨头首次在核心堆叠架构上形成反向技术授权，是 NAND 竞争格局与知识产权版图的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/568.htm">IT之家 · IT业界</source>
 <category>存储芯片</category>
 <category>3D NAND</category>
@@ -253,23 +272,6 @@
 <category>开发者工具</category>
 <category>视频生成</category>
 <category>OpenCode</category>
-</item>
-<item><title>OpenAI 开测私有推理 打造零窥探 AI</title><link>https://www.ithome.com/1/032/543.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/543.htm</guid>
-<pubDate>Thu, 26 Nov 2026 07:45:33 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 已邀请少数企业客户测试“私有推理”服务，隶属 Private Intelligence 系列，目标是在工作场景中实现数据隐私保护。该服务结合“零数据留存”与“私有安全处理”，声称可在不接触底层内容的前提下完成自动化安全审查，但技术实现、客户名单、上线时间与收费模式均未披露。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;OpenAI 首次将隐私计算引入前沿模型推理，方向性意义大于当前细节，值得关注其后续技术落地。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/032/543.htm">IT之家 · 智能时代</source>
-<category>OpenAI</category>
-<category>隐私计算</category>
-<category>企业服务</category>
-</item>
-<item><title>韩国推出 Detect AI 考场反作弊系统 靠无线电波识别智能眼镜</title><link>https://www.ithome.com/1/032/542.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/542.htm</guid>
-<pubDate>Thu, 26 Nov 2026 07:28:31 +0800</pubDate>
-<description>&lt;p&gt;韩国东西发电孵化的无人机探测企业 SKIP 完成 AI 考场作弊探测与阻断系统 Detect AI，通过交叉分析无线信号的厂商识别信息与设备唯一标识，识别 AI 智能眼镜、微型摄像头与无线耳机等作弊设备。系统仅被动接收信号、不解码不存储通信内容，将于 12 月 9 日在首尔 COMEUP 2026 首次公开演示。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;将国防级射频探测技术迁移至考场反 AI 作弊，是 AI 硬件普及催生的新型安防需求样本。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 42/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/032/542.htm">IT之家 · 智能时代</source>
-<category>AI 硬件</category>
-<category>反作弊</category>
-<category>射频探测</category>
-<category>韩国</category>
 </item>
 </channel>
 </rss>
