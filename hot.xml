@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Thu, 26 Nov 2026 06:23:41 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 26 Nov 2026 06:29:50 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 用 Claude 将 Messages API 迁移至 Rust 单请求 CPU 降 70%</title><link>https://todayforai.com/en/story/story-9d85b604-0d4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9d85b604-0d4</guid>
 <pubDate>Thu, 26 Nov 2026 04:52:14 +0800</pubDate>
@@ -63,13 +63,17 @@
 
 与 Spotify、YouTube Music 仅对 AI 音乐加标记的温和路线相比，Tidal 的全面封禁是流媒体平台针对生成式 AI 内容真实性与版权问题的明确治理动作，可能推动行业形成更严格的 AI 内容审核标准。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, IT之家 · 智能时代, Ars Technica AI, The Verge AI, Hacker News AI&lt;/p&gt;</description>
 </item>
+<item><title>Dario 否认 Anthropic 主张把治理权交给 AI</title><link>https://todayforai.com/en/story/story-031259f6-d2d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-031259f6-d2d</guid>
+<pubDate>Thu, 26 Nov 2026 06:29:50 +0800</pubDate>
+<description>&lt;p&gt;Anthropic CEO Dario Amodei 公开否认了 Axios 的一篇报道，该报道称 Anthropic 内部存在一种观点，认为人类应将部分决策权让渡给超级智能。Amodei 在长文中回应称，把治理权交给 AI 是“糟糕的主意”，并强调 AI 必须由合法的民主程序来管理，政治决策应始终掌握在人类手中。
+
+这场争论源于 Axios 援引不具名消息源的报道，其称 Anthropic 内部讨论过让超级智能分担决策的可能性。Amodei 随即驳斥这一说法“荒谬”，并将反对 AI 治理与反对专制并列，强调合法性与自决不可让位于效率或安全。OpenAI 和 Meta 的高管近期也相继表态反对将社会“移交”给 AI，使得头部实验室在“人类主导权”议题上的路线分歧公开化。
+
+此次事件折射出 AI 安全阵营内部在治理路径上的深刻分歧。尽管 Anthropic 以安全为导向，但外界对其是否真正坚持人类中心主义治理存有疑虑。Amodei 的明确表态有助于澄清立场，但也凸显了在超级智能逼近的背景下，关于权力让渡的辩论将愈发激烈，可能影响未来 AI 监管框架的走向。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Decoder, 宝玉 (@dotey)&lt;/p&gt;</description>
+</item>
 <item><title>PrismML 将 54 GB 模型压缩至 5.9 GB</title><link>https://todayforai.com/en/story/story-262515ce-dbd</link><guid isPermaLink="true">https://todayforai.com/en/story/story-262515ce-dbd</guid>
 <pubDate>Wed, 25 Nov 2026 19:51:49 +0800</pubDate>
 <description>&lt;p&gt;PrismML 发布 Ternary Bonsai 2.5 27B，基于 Qwen3.8-27B 采用三值量化（权重仅取 -1、0、+1），内存占用从约 54 GB 降至 5.9 GB。该版本针对长链工具调用的智能体任务优化，SWE-bench Verified 从 60.8% 提升至 75.6%，AppWorld 从 51.2% 跃升至 90.5%，接近原始全精度模型水平。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Hacker News AI, The Decoder&lt;/p&gt;</description>
-</item>
-<item><title>Artificial Analysis 发布 FrontierPhysics 物理研究智能体榜单</title><link>https://todayforai.com/en/story/story-e72a9b0e-20d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e72a9b0e-20d</guid>
-<pubDate>Thu, 26 Nov 2026 04:42:24 +0800</pubDate>
-<description>&lt;p&gt;Artificial Analysis 上线 FrontierPhysics 榜单，基于 benchflow_ai 构建的 54 项物理研究任务，要求智能体完成文献调研、模拟分析与论文撰写。Claude Fable 5.2 以 32% 通过率居首，领先 GPT-6.2 Astra 6 个百分点，前六名模型集中在 22%-32% 区间，整体通过率偏低凸显物理科研智能体的真实能力边界。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
