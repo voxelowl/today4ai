@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Thu, 26 Nov 2026 05:48:10 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 26 Nov 2026 06:23:41 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Artificial Analysis 推出人形机器人仿真基准 前沿模型操控能力差距显著</title><link>https://todayforai.com/en/story/story-1adc3af7-8ed</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1adc3af7-8ed</guid>
 <pubDate>Thu, 26 Nov 2026 04:43:52 +0800</pubDate>
@@ -39,6 +39,14 @@
 
 作为首家上市的前沿大模型公司，Anthropic 的股价波动为 AI 行业资本化提供了关键定价锚点。破发可能促使后续 AI 公司调整估值预期，并加剧公开市场对 AI 盈利能力的审视。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;InfoQ 中文, IT之家 · IT业界, Latent Space, Simon Willison 博客, 宝玉 (@dotey), GREG ISENBERG (@gregisenberg)&lt;/p&gt;</description>
 </item>
+<item><title>OpenAI 宣称证明矩阵乘法指数下界为 9/4</title><link>https://todayforai.com/en/story/story-df554c97-fde</link><guid isPermaLink="true">https://todayforai.com/en/story/story-df554c97-fde</guid>
+<pubDate>Thu, 26 Nov 2026 06:23:41 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 于近日发布预印本论文，宣称证明了矩阵乘法指数 ω 的下界恰为 9/4，与其此前给出的上界吻合，从而彻底确定了这一自 1960 年代以来悬而未决的算法核心问题。若该证明成立，将是计算复杂性理论领域的里程碑式突破，标志着 AI 系统在基础数学证明中的深度介入。
+
+据 Latent Space 报道，OpenAI 连续发布预印本，先给出 ω 的上界 9/4，随后给出匹配的下界，两者相等意味着 ω 被唯一确定。同期还出现了有限傅里叶变换的匹配上下界结果，其中下界被视为最具冲击力的部分。Hacker News 的讨论指出，该问题自 Strassen 于 1969 年取得突破以来已悬置逾半个世纪，AI 实验室正密集产出高难度数学证明，引发学界震动与审慎核验。
+
+这一成果延续了 OpenAI 与 Anthropic 在 VP≠VNP、黎曼猜想等数学难题上的密集产出趋势。今年已记录 64 项 AI 辅助科研进展，其中 11 月占 20 项，产出速度已超出人类消化能力，引发对 AI 驱动数学研究范式的广泛讨论。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Latent Space, Hacker News AI&lt;/p&gt;</description>
+</item>
 <item><title>Tidal 将于 12 月 9 日下架 2900 万首纯 AI 生成音乐</title><link>https://todayforai.com/en/story/story-68b9d3af-e20</link><guid isPermaLink="true">https://todayforai.com/en/story/story-68b9d3af-e20</guid>
 <pubDate>Wed, 25 Nov 2026 06:41:34 +0800</pubDate>
 <description>&lt;p&gt;流媒体平台 Tidal 宣布自 12 月 9 日起全面下架完全由 AI 生成的音乐，预计年底前删除超过 2900 万首曲目，并禁止分发服务上传纯 AI 作品。新规下平台每日将拒收约 8 万至 8.5 万首投稿，仅允许人类参与创作、借助 AI 工具辅助的作品上架。
@@ -62,14 +70,6 @@
 <item><title>Artificial Analysis 发布 FrontierPhysics 物理研究智能体榜单</title><link>https://todayforai.com/en/story/story-e72a9b0e-20d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e72a9b0e-20d</guid>
 <pubDate>Thu, 26 Nov 2026 04:42:24 +0800</pubDate>
 <description>&lt;p&gt;Artificial Analysis 上线 FrontierPhysics 榜单，基于 benchflow_ai 构建的 54 项物理研究任务，要求智能体完成文献调研、模拟分析与论文撰写。Claude Fable 5.2 以 32% 通过率居首，领先 GPT-6.2 Astra 6 个百分点，前六名模型集中在 22%-32% 区间，整体通过率偏低凸显物理科研智能体的真实能力边界。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
-</item>
-<item><title>OpenAI 称 GPT-6 仅凭推理与代码设计蛋白质</title><link>https://todayforai.com/en/story/story-8af4488e-381</link><guid isPermaLink="true">https://todayforai.com/en/story/story-8af4488e-381</guid>
-<pubDate>Wed, 25 Nov 2026 06:44:58 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 发布预印本论文，宣称其最新通用模型 GPT-6.2 无需依赖专用生物学模型，仅凭推理与通用编程工具即可设计蛋白质三维结构及氨基酸序列。在与 Onava 合作的湿实验中，322 个微型结合蛋白有 35 个显示结合迹象，抗体结合环重设计 182 个中有 128 个仍能结合 IL-4Rα，初步验证了通用模型在生物设计任务上的可行性。
-
-计算基准上，GPT-6.2 表现显著超越专用模型：基序支架任务成功率 43.7%，高于 RFdiffusion 的 27.8%；小分子对接准确率约 93%，远超 DiffDock-L 的 50%。然而 OpenAI 承认，筛选环节仍依赖 Boltz-2、ESMFold2 等专用模型，且从序列预测完整结构的 TM-score 仅 0.38，远低于 ESMFold2 的 0.93，端到端能力尚未成立。
-
-这一进展标志着通用大模型向生物设计领域迈出关键一步，有望降低蛋白质工程的门槛，但距离完全替代专用工具仍有差距。若后续能补齐结构预测短板，GPT-6 或将成为跨学科科研的通用引擎，推动 AI 驱动的生物发现进入新阶段。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;OpenAI 官方博客, Hacker News AI, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
