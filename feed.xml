@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Thu, 26 Nov 2026 14:08:25 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 26 Nov 2026 14:27:24 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Wang Xingxing Says OpenAI Robot Team Merger Signals Tech Convergence</title><link>https://www.ithome.com/1/032/762.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/762.htm</guid>
+<pubDate>Thu, 26 Nov 2026 14:27:24 +0800</pubDate>
+<description>&lt;p&gt;Unitree founder Wang Xingxing said at WISE2026 that OpenAI&amp;#x27;s robotics unit was merged rather than disbanded, signaling a more certain technical direction: folding robot model data into large models to improve both reasoning and physical-world understanding. He argued physical AI has no insurmountable fundamental barriers and will see breakthroughs in coming years.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;王兴兴称 OpenAI 机器人团队合并是技术收敛&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;具身智能头部公司创始人对 OpenAI 机器人组织调整给出技术路线解读，涉及物理 AI 与大模型融合方向。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/032/762.htm">IT之家 · 智能时代</source>
+<category>具身智能</category>
+<category>宇树科技</category>
+<category>OpenAI</category>
+<category>物理 AI</category>
+</item>
+<item><title>XPeng IRON Humanoid to Launch Next Year at EV-Level Prices</title><link>https://www.ithome.com/1/032/755.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/755.htm</guid>
+<pubDate>Thu, 26 Nov 2026 14:13:30 +0800</pubDate>
+<description>&lt;p&gt;XPeng vice chairman Brian Gu said the IRON humanoid robot will be trained for retail assistant roles in Q1 next year before going on sale, with pricing likely close to the mid-range of its EVs (roughly RMB 120,000 to 310,000). XPeng aims to sell tens of thousands of units by 2027 and to generate recurring revenue from software upgrades, robot training and supporting data infrastructure.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;小鹏 IRON 人形机器人明年上市 售价或看齐电动车&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;人形机器人首次给出接近量产车的定价锚点与明确上市节奏，是具身智能商业化落地的关键信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/032/755.htm">IT之家 · 智能时代</source>
+<category>具身智能</category>
+<category>人形机器人</category>
+<category>小鹏汽车</category>
+<category>商业化</category>
+</item>
 <item><title>SQLite Ships sqlite3_rsync for Remote Database Snapshot Copies</title><link>https://simonwillison.net/2026/Nov/26/sqlite3-rsync/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/26/sqlite3-rsync/</guid>
 <pubDate>Thu, 26 Nov 2026 14:08:25 +0800</pubDate>
 <description>&lt;p&gt;SQLite&amp;#x27;s built-in sqlite3_rsync copies a database snapshot to a remote machine over SSH without first creating a full local duplicate, solving the backup problem on disk-constrained instances. It borrows rsync&amp;#x27;s page-hash comparison to transfer only differing pages, so syncing an existing replica avoids retransmitting the whole database.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SQLite 推出 sqlite3_rsync 支持远程快照复制&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为磁盘受限环境提供免全量副本的远程快照方案，对 SQLite 运维与备份实践有直接价值。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · tools · signal 58/100&lt;/p&gt;</description>
@@ -11,6 +29,15 @@
 <category>数据库备份</category>
 <category>rsync</category>
 <category>开发者工具</category>
+</item>
+<item><title>Wispr Flow Releases Canto-2 Speech Model Cutting Error Rates 36%</title><link>https://www.ithome.com/1/032/752.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/752.htm</guid>
+<pubDate>Thu, 26 Nov 2026 14:06:42 +0800</pubDate>
+<description>&lt;p&gt;Wispr Flow has launched Canto-2, a new speech-to-text model available across Mac, Windows, iOS and Android. The company reports a 36% average reduction in transcription errors across 14 languages and over 15% for English, while accuracy on complex names and technical terms rose from 41% to 69%. Training emphasizes real-world conditions such as background noise, mobile microphones and mid-sentence reformulation.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Wispr Flow 发布 Canto-2 语音模型 错误率降 36%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;语音输入是 AI 落地最成熟的场景之一，Canto-2 给出了可量化的错误率与难词识别提升数据，对关注语音交互与端侧应用者具参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/032/752.htm">IT之家 · 智能时代</source>
+<category>语音识别</category>
+<category>Wispr Flow</category>
+<category>语音输入</category>
+<category>多语言</category>
 </item>
 <item><title>Alibaba XuanTie RISC-V Chips Ship 6 Billion Units as Android 17 Adds Support</title><link>https://www.ithome.com/1/032/745.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/745.htm</guid>
 <pubDate>Thu, 26 Nov 2026 13:36:31 +0800</pubDate>
@@ -139,18 +166,18 @@
 <category>AI微短剧</category>
 <category>北京海淀</category>
 </item>
-<item><title>Leaked Opus 5.6 Build Generates Elaborate AI Presentation Page</title><link>https://x.com/dotey/status/2125781282349076981</link><guid isPermaLink="true">https://x.com/dotey/status/2125781282349076981</guid>
+<item><title>Opus 5.6 灰度版生成炫技级 AI 演示网页</title><link>https://x.com/dotey/status/2125781282349076981</link><guid isPermaLink="true">https://x.com/dotey/status/2125781282349076981</guid>
 <pubDate>Thu, 26 Nov 2026 10:38:47 +0800</pubDate>
-<description>&lt;p&gt;A viral clip shows a webpage reportedly generated by a grayscale Opus 5.6 build from a single casual prompt, producing an elaborate AI intelligence-explosion presentation with heavy graphics and transitions. The demo hints at frontier models&amp;#x27; one-shot complex frontend output, though the model version and provenance remain unverified.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Opus 5.6 灰度版生成炫技级 AI 演示网页&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以真实提示词与成品录屏直观呈现前沿模型的一次性复杂前端生成能力，值得关注但缺乏官方确认。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · llm · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;社交平台流传一段据称由灰度版 Opus 5.6 生成的网页演示录屏，用户仅用一段口语化提示词即产出含大量图形与转场动画的“AI 智能爆炸”主题演示页。该案例展示了前沿模型在单次提示下完成复杂前端视觉产出的能力，但模型版本与生成过程均未获官方确认。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以真实提示词与成品录屏直观呈现前沿模型的一次性复杂前端生成能力，值得关注但缺乏官方确认。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · llm · signal 58/100&lt;/p&gt;</description>
 <source url="https://x.com/dotey/status/2125781282349076981">宝玉 (@dotey)</source>
 <category>大模型</category>
 <category>Anthropic</category>
 <category>前端生成</category>
 <category>演示网页</category>
 </item>
-<item><title>OpenAI Merges ChatGPT Chat and Work Mode Usage Quotas</title><link>https://www.ithome.com/1/032/599.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/599.htm</guid>
+<item><title>OpenAI 合并 ChatGPT 聊天与工作模式额度</title><link>https://www.ithome.com/1/032/599.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/599.htm</guid>
 <pubDate>Thu, 26 Nov 2026 10:30:00 +0800</pubDate>
-<description>&lt;p&gt;OpenAI has begun rolling out a merged chat and work mode to a small subset of Pro subscribers, with both modes sharing a single usage quota system that may cause heavy users to hit limits sooner. Conversations on the Instant model remain uncounted and usable even after quotas are exhausted, with broader rollout planned for December.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 合并 ChatGPT 聊天与工作模式额度&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及 ChatGPT 核心产品额度机制调整，直接影响重度用户的日常使用成本与体验。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 已向小部分 Pro 订阅用户推送 ChatGPT 聊天与工作模式合并，两种模式将共享同一额度系统，重度用户可能更早触及上限。使用 Instant 模型的对话不计入用量，即使额度耗尽仍可继续使用，12 月将扩大覆盖范围。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及 ChatGPT 核心产品额度机制调整，直接影响重度用户的日常使用成本与体验。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 38/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/599.htm">IT之家 · 智能时代</source>
 <category>ChatGPT</category>
 <category>OpenAI</category>
@@ -246,32 +273,6 @@
 <category>政策规划</category>
 <category>算力网络</category>
 <category>卫星互联网</category>
-</item>
-<item><title>ElevenLabs 拟 2027 年融资 目标估值 330 亿美元</title><link>https://www.ithome.com/1/032/548.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/548.htm</guid>
-<pubDate>Thu, 26 Nov 2026 08:04:16 +0800</pubDate>
-<description>&lt;p&gt;ElevenLabs 已就新一轮融资展开初步洽谈，目标估值 330 亿美元，较今年 9 月的 220 亿美元上涨 50%，管理层计划 2027 年第一季度正式启动。其年度经常性收入已从 9 月的 6 亿美元增至 7 亿美元，商业化产品覆盖对话式智能体、多语言内容创作与开发者 API 三条线。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 语音头部公司估值半年跳涨 50% 且 ARR 破 7 亿美元，是观察语音赛道商业化与资本热度的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 72/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/032/548.htm">IT之家 · 智能时代</source>
-<category>融资估值</category>
-<category>语音合成</category>
-<category>ElevenLabs</category>
-<category>商业化</category>
-</item>
-<item><title>高端 PCB 排单延至 2028 年，AI 服务器用板层数翻倍</title><link>https://www.ithome.com/1/032/545.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/545.htm</guid>
-<pubDate>Thu, 26 Nov 2026 07:54:16 +0800</pubDate>
-<description>&lt;p&gt;全球电子协会发布供应链警报，高端 PCB 供不应求，部分头部厂商高端产品已排产至 2028 年。AI 服务器用板从普通 12 层转向 40-60 层以上，显著推高玻纤布、树脂、铜箔等材料消耗，订单量同比增长 56.1% 而出货量仅增 13.3%。协会预计短缺至少持续到 2027 年上半年，风险可能堪比 2021 年芯片荒。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 算力扩张正把压力传导至 PCB 与上游材料，交期与层数数据直接关系数据中心建设节奏。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/032/545.htm">IT之家 · IT业界</source>
-<category>PCB</category>
-<category>AI 服务器</category>
-<category>供应链</category>
-<category>算力基础设施</category>
-</item>
-<item><title>OpenCode 新增视频生成工具 接入 Grok Imagine 与 Gemini Omni</title><link>https://x.com/opencode/status/2125737965871681587</link><guid isPermaLink="true">https://x.com/opencode/status/2125737965871681587</guid>
-<pubDate>Thu, 26 Nov 2026 07:46:40 +0800</pubDate>
-<description>&lt;p&gt;OpenCode 宣布在其编码代理中上线视频生成工具，用户只要接入支持视频模型的供应商即可调用。使用 OpenCode Console 的用户可直接访问 Grok Imagine 与 Gemini Omni 两个视频模型。该功能目前仅以推文形式公布，未披露具体参数、调用方式或定价细节。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;编码代理向多模态生成延伸的产品动向，但信息量有限，仅具工具链参考价值。&lt;/p&gt;&lt;p&gt;OpenCode (@opencode) · tools · signal 42/100&lt;/p&gt;</description>
-<source url="https://x.com/opencode/status/2125737965871681587">OpenCode (@opencode)</source>
-<category>开发者工具</category>
-<category>视频生成</category>
-<category>OpenCode</category>
 </item>
 </channel>
 </rss>
