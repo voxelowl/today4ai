@@ -1,8 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Fri, 27 Nov 2026 05:47:45 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 27 Nov 2026 07:19:22 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Palo Alto CEO Says AI Is Unearthing 50 Years of Coding Flaws</title><link>https://x.com/rohanpaul_ai/status/2126093486722371829</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126093486722371829</guid>
+<pubDate>Fri, 27 Nov 2026 07:19:22 +0800</pubDate>
+<description>&lt;p&gt;Palo Alto Networks CEO Nikesh Arora says Anthropic&amp;#x27;s Mythos is surfacing decades of human coding vulnerabilities in a very short span, and attackers are the ones profiting. He cited a dark-web case where a single attacker used an AI agent to breach 19 companies at once, arguing AI-driven attack scaling is only beginning.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Palo Alto CEO 称 AI 正快速挖出 50 年代码漏洞&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部安全厂商 CEO 对 AI 漏洞挖掘与攻击规模化的公开判断，具备行业风向标价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2126093486722371829">Rohan Paul (@rohanpaul_ai)</source>
+<category>AI 安全</category>
+<category>Anthropic</category>
+<category>漏洞挖掘</category>
+<category>智能体</category>
+</item>
+<item><title>Anthropic Reworks Engineer Promotions as AI Reshapes Software Work</title><link>https://www.ithome.com/1/033/141.htm</link><guid isPermaLink="true">https://www.ithome.com/1/033/141.htm</guid>
+<pubDate>Fri, 27 Nov 2026 07:17:19 +0800</pubDate>
+<description>&lt;p&gt;Anthropic platform engineering lead Caitlin Less says AI has compressed implementation work so much that project duration is no longer a useful promotion signal, with her team shifting to concrete impact such as latency reduction and incident avoidance. Hiring is also changing, adding agent-assisted coding tests to judge whether candidates can collaborate with coding agents on real work.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 调整工程师晋升标准 不再以项目耗时为核心&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司首次公开披露 AI 对工程师晋升与招聘评估体系的具体重构，对技术管理者与开发者职业规划有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/033/141.htm">IT之家 · 智能时代</source>
+<category>Anthropic</category>
+<category>工程师晋升</category>
+<category>AI 编程</category>
+<category>招聘评估</category>
+</item>
+<item><title>Anthropic Finds 14 of 23 Unlearned Models Still Recall Cyberattack Facts</title><link>https://x.com/rohanpaul_ai/status/2126088997017706717</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126088997017706717</guid>
+<pubDate>Fri, 27 Nov 2026 07:01:32 +0800</pubDate>
+<description>&lt;p&gt;Anthropic researchers found that 14 of 23 models trained to unlearn cyberattack knowledge still ranked the correct answers first, indicating post-hoc unlearning fails to reliably remove hazardous facts. The authors argue that because facts are recalled through neurons shared across many topics, post-training unlearning may never generalize, and dangerous knowledge may need to be isolated during training instead.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 发现 23 个遗忘模型有 14 个仍记得攻击知识&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究直接质疑当前主流机器遗忘范式的有效性，对 AI 安全与模型对齐路线具有实质影响。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 74/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2126088997017706717">Rohan Paul (@rohanpaul_ai)</source>
+<category>AI 安全</category>
+<category>机器遗忘</category>
+<category>Anthropic</category>
+<category>模型对齐</category>
+</item>
+<item><title>OpenAI Fixes GPT-6.2 Billing Bug, Quota Burn Rate Rises 40%</title><link>https://www.ithome.com/1/033/138.htm</link><guid isPermaLink="true">https://www.ithome.com/1/033/138.htm</guid>
+<pubDate>Fri, 27 Nov 2026 06:59:06 +0800</pubDate>
+<description>&lt;p&gt;OpenAI confirmed a billing error during GPT-6.2&amp;#x27;s initial rollout that charged discounted quota rates for the Astra and Sol models. After the fix, Astra users hit usage limits 40% faster and Sol users 25% faster for the same workload, but OpenAI will not retroactively bill the shortfall and is granting Go, Plus, Pro and Business users one bankable quota reset as compensation.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 修复 GPT-6.2 计费错误 额度消耗加快 40%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及头部厂商计费机制与用户成本的实际变化，对重度订阅用户有直接决策价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/033/138.htm">IT之家 · 智能时代</source>
+<category>OpenAI</category>
+<category>GPT-6.2</category>
+<category>计费</category>
+<category>订阅套餐</category>
+</item>
+<item><title>SAP Weighs Cutting Over 10,000 Jobs in AI-First Restructuring</title><link>https://www.ithome.com/1/033/137.htm</link><guid isPermaLink="true">https://www.ithome.com/1/033/137.htm</guid>
+<pubDate>Fri, 27 Nov 2026 06:56:17 +0800</pubDate>
+<description>&lt;p&gt;Bloomberg reports SAP is considering cutting at least 10,000 jobs, roughly 9% of its global workforce, in an AI-centric restructuring focused on product engineering and sales. The move comes despite 13% year-over-year Q3 revenue growth and is seen as CEO Christian Klein reallocating resources behind an AI-first strategy that embeds generative AI and agents into enterprise software.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SAP 拟裁员超 1 万人推进 AI 优先转型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;欧洲最大软件公司以 AI 转型为名启动万人级重组，是企业软件与就业结构变迁的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 68/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/033/137.htm">IT之家 · IT业界</source>
+<category>企业软件</category>
+<category>裁员重组</category>
+<category>AI 转型</category>
+<category>SAP</category>
+</item>
+<item><title>Novita and StreamLake Traced to ByteDance Ark Wrappers</title><link>https://kendell.dev/blog/arkwrapper/</link><guid isPermaLink="true">https://kendell.dev/blog/arkwrapper/</guid>
+<pubDate>Fri, 27 Nov 2026 05:59:19 +0800</pubDate>
+<description>&lt;p&gt;A routing-data investigation covering Nov 1-24 traces DeepSeek model traffic from Novita, StreamLake and Ant Digital back to ByteDance Ark, with Novita peaking at 1.1 trillion tokens in a single week. The post also maps Novita&amp;#x27;s layered offshore VIE ownership chain and notes that OpenRouter revoked its Zero Data Retention status.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Novita 等三家推理服务商被指实为字节跳动 Ark 套壳&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;揭示第三方推理 API 的供应链套壳与数据合规风险，对选择模型服务商的团队有直接决策价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://kendell.dev/blog/arkwrapper/">Hacker News AI</source>
+<category>推理服务</category>
+<category>字节跳动</category>
+<category>数据合规</category>
+<category>API 供应链</category>
+</item>
+<item><title>shadcn Unveils UI SDK Turning Components into Agent Primitives</title><link>https://x.com/dotey/status/2126070816534151538</link><guid isPermaLink="true">https://x.com/dotey/status/2126070816534151538</guid>
+<pubDate>Fri, 27 Nov 2026 05:49:17 +0800</pubDate>
+<description>&lt;p&gt;shadcn has released UI SDK, which decomposes UI components into behavior primitives that agents can invoke directly, such as opening popovers or moving focus with arrow keys, making the layer framework-agnostic. This lets agents compose and reuse the same interaction capabilities across React, Vue, Svelte and Solid.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;shadcn 推出 UI SDK 将组件拆解为 Agent 行为原语&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为 Agent 与前端组件交互提供框架无关的标准化抽象，是 AI 辅助开发工具链的重要方向。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/dotey/status/2126070816534151538">宝玉 (@dotey)</source>
+<category>UI SDK</category>
+<category>shadcn</category>
+<category>Agent</category>
+<category>前端框架</category>
+</item>
 <item><title>AI Coding Agents Revive Enthusiasm for Self-Hosting Infrastructure</title><link>https://janlukas.blog/posts/ai-self-hosting</link><guid isPermaLink="true">https://janlukas.blog/posts/ai-self-hosting</guid>
 <pubDate>Fri, 27 Nov 2026 05:47:45 +0800</pubDate>
 <description>&lt;p&gt;A long-time self-hoster reports that keeping infrastructure configs such as Docker Compose files and scripts in Git lets AI coding agents handle operational changes, sharply cutting the friction of trying new services and troubleshooting. The author argues AI does not change the core value of self-hosting but lowers the barrier enough to make it fun again.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 编码智能体让自托管重新变得有趣&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以真实运维实践说明 AI 编码智能体在自托管场景的降摩擦价值，对开发者有参考意义。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 42/100&lt;/p&gt;</description>
@@ -169,112 +232,50 @@
 <category>药物审批</category>
 <category>行业数据</category>
 </item>
-<item><title>AMD-Specific Patches Lift Llama.cpp Token Generation by 57 Percent</title><link>https://devnull.land/amd-specific-llama-cpp</link><guid isPermaLink="true">https://devnull.land/amd-specific-llama-cpp</guid>
+<item><title>AMD 专用补丁让 Llama.cpp 生成速度提升 57%</title><link>https://devnull.land/amd-specific-llama-cpp</link><guid isPermaLink="true">https://devnull.land/amd-specific-llama-cpp</guid>
 <pubDate>Fri, 27 Nov 2026 01:11:29 +0800</pubDate>
-<description>&lt;p&gt;The llama-cpp-rdna-boosts project, a set of AMD-specific patches for llama.cpp, reportedly raises token generation from 35 to 55 tokens/s and prefill from 700 to 1300 tokens/s. The author also observes a late-2026 wave of hardware-specialized inference engine forks, often vibe-coded with frontier models, diverging from generalist engines like llama.cpp, vLLM and SGLang.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AMD 专用补丁让 Llama.cpp 生成速度提升 57%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了 AMD 显卡上 llama.cpp 推理加速的具体实测数据，并勾勒出专用推理引擎分支兴起的生态趋势。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;针对 AMD 显卡的 llama.cpp 定制补丁项目 llama-cpp-rdna-boosts 实测将 token 生成速度从 35 提升至 55 tokens/s，预填充从 700 提升至 1300 tokens/s。文章同时观察到 2026 年底涌现出一批面向特定硬件、由前沿模型辅助编写的专用推理引擎分支，与通用型 llama.cpp、vLLM、SGLang 形成分化。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了 AMD 显卡上 llama.cpp 推理加速的具体实测数据，并勾勒出专用推理引擎分支兴起的生态趋势。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
 <source url="https://devnull.land/amd-specific-llama-cpp">Hacker News AI</source>
 <category>llama.cpp</category>
 <category>AMD</category>
 <category>推理引擎</category>
 <category>开源生态</category>
 </item>
-<item><title>OpenRouter Data Shows Jevons Paradox Holding Through 2026</title><link>https://x.com/OpenRouter/status/2125998076896920034</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2125998076896920034</guid>
+<item><title>OpenRouter 数据：杰文斯悖论在 2026 年成立</title><link>https://x.com/OpenRouter/status/2125998076896920034</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2125998076896920034</guid>
 <pubDate>Fri, 27 Nov 2026 01:00:15 +0800</pubDate>
-<description>&lt;p&gt;OpenRouter analyzed 2026 token usage, token prices and overall spending to test Jevons Paradox in AI inference. The paradox holds: falling prices coincided with rising total spend and usage. However, the effect weakened in recent months versus early 2026, suggesting diminishing marginal demand from price cuts.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenRouter 数据：杰文斯悖论在 2026 年成立&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;用真实平台全年用量与价格数据检验 AI 推理需求弹性，为判断降价与市场增长关系提供实证参考。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenRouter 基于 2026 年全年 token 用量、token 价格与总支出数据，验证了杰文斯悖论在 AI 推理市场成立：价格下降并未减少总支出，反而带动用量与花费同步上升。但该效应在近几个月明显弱于年初，说明降价对需求的边际拉动正在收窄。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;用真实平台全年用量与价格数据检验 AI 推理需求弹性，为判断降价与市场增长关系提供实证参考。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://x.com/OpenRouter/status/2125998076896920034">OpenRouter (@OpenRouter)</source>
 <category>杰文斯悖论</category>
 <category>推理成本</category>
 <category>OpenRouter</category>
 <category>token 经济</category>
 </item>
-<item><title>SimDrop Brings iOS Simulators into the macOS Finder Sidebar</title><link>https://github.com/rxliuli/sim-drop</link><guid isPermaLink="true">https://github.com/rxliuli/sim-drop</guid>
+<item><title>SimDrop 将 iOS 模拟器接入 Finder 侧边栏</title><link>https://github.com/rxliuli/sim-drop</link><guid isPermaLink="true">https://github.com/rxliuli/sim-drop</guid>
 <pubDate>Fri, 27 Nov 2026 00:51:38 +0800</pubDate>
-<description>&lt;p&gt;SimDrop is an open-source macOS utility that mounts booted iOS simulators as folders in the Finder sidebar, letting developers drag files directly into a simulator&amp;#x27;s Photos library or Downloads directory, or access the same paths from the terminal. It requires macOS 15 or later, is GPL-3.0 licensed, signed and notarized, and installable via Homebrew.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SimDrop 将 iOS 模拟器接入 Finder 侧边栏&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向 iOS 开发者的实用小工具，解决模拟器文件互传的具体摩擦，但影响面限于本地开发场景。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;SimDrop 是一款开源 macOS 工具，把已启动的 iOS 模拟器以文件夹形式挂载到 Finder 侧边栏，用户可直接拖拽文件进出模拟器的照片库与下载目录，也可通过终端路径访问。该工具需 macOS 15 及以上，采用 GPL-3.0 协议开源，已签名公证并支持 Homebrew 安装。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向 iOS 开发者的实用小工具，解决模拟器文件互传的具体摩擦，但影响面限于本地开发场景。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
 <source url="https://github.com/rxliuli/sim-drop">Hacker News AI</source>
 <category>开发者工具</category>
 <category>iOS 开发</category>
 <category>macOS</category>
 <category>开源</category>
 </item>
-<item><title>US Data Crackdown Pushes Chinese Flagship Models to 2027</title><link>https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/</link><guid isPermaLink="true">https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/</guid>
+<item><title>美国数据封锁致中国大模型延期至 2027 年</title><link>https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/</link><guid isPermaLink="true">https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/</guid>
 <pubDate>Thu, 26 Nov 2026 23:45:08 +0800</pubDate>
-<description>&lt;p&gt;A combination of US chip export controls, the closing of the cloud compute loophole, and a crackdown on model distillation has forced Z.AI and Moonshot AI to delay their next flagship models, with Z.AI&amp;#x27;s roughly 3-trillion-parameter GLM-5.5 slipping from November 2026 to Q1 2027. Both labs are now turning to Google and Meta data sources to fill the training-data gap, extending US-China AI competition from compute into data supply.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美国数据封锁致中国大模型延期至 2027 年&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是中美 AI 竞争从算力管制延伸到数据与蒸馏执法的重要信号，直接影响下一代开源旗舰模型的发布节奏。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;受美国芯片出口管制、云算力漏洞封堵与反蒸馏执法叠加影响，智谱与月之暗面的下一代旗舰模型被迫延期，智谱约 3 万亿参数的 GLM-5.5 从 2026 年 11 月推迟至 2027 年一季度。两家公司正转向 Google 与 Meta 的公开数据源以填补训练数据缺口，标志着中美 AI 竞争从算力层延伸至数据供给层。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是中美 AI 竞争从算力管制延伸到数据与蒸馏执法的重要信号，直接影响下一代开源旗舰模型的发布节奏。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 78/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/">The Decoder</source>
 <category>中美AI竞争</category>
 <category>出口管制</category>
 <category>训练数据</category>
 <category>模型延期</category>
 </item>
-<item><title>Swiss Agency Reports Five AI Agent Cyberattacks on Critical Infrastructure</title><link>https://www.ithome.com/1/033/131.htm</link><guid isPermaLink="true">https://www.ithome.com/1/033/131.htm</guid>
+<item><title>瑞士发生五起 AI 智能体网络攻击 关键基础设施遭入侵</title><link>https://www.ithome.com/1/033/131.htm</link><guid isPermaLink="true">https://www.ithome.com/1/033/131.htm</guid>
 <pubDate>Thu, 26 Nov 2026 23:24:56 +0800</pubDate>
-<description>&lt;p&gt;Switzerland&amp;#x27;s Federal Office for Cybersecurity (BACS) reported five cyberattacks carried out with AI agents over recent days, four of which succeeded and compromised systems at three critical infrastructure operators in electricity, water and telecommunications. The attackers&amp;#x27; identity was not disclosed, and authorities urged firms to strengthen defenses including regular security testing.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;瑞士发生五起 AI 智能体网络攻击 关键基础设施遭入侵&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 智能体被用于实战化攻击关键基础设施的罕见官方确认案例，对安全与智能体治理具有直接警示价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · agent · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;瑞士联邦网络安全局通报，过去数日发生五起由 AI 智能体发起的网络攻击，其中四起得手，电力、供水与通信三家关键基础设施运营方系统被入侵。攻击幕后主体未披露，官方建议企业加强定期安全检测等防护措施。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 智能体被用于实战化攻击关键基础设施的罕见官方确认案例，对安全与智能体治理具有直接警示价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · agent · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/033/131.htm">IT之家 · IT业界</source>
 <category>AI 智能体</category>
 <category>网络安全</category>
 <category>关键基础设施</category>
 <category>瑞士</category>
-</item>
-<item><title>Dutch Groups Sue to Halt Meta Smart Glasses Sales Over Privacy</title><link>https://www.ithome.com/1/033/126.htm</link><guid isPermaLink="true">https://www.ithome.com/1/033/126.htm</guid>
-<pubDate>Thu, 26 Nov 2026 22:59:17 +0800</pubDate>
-<description>&lt;p&gt;Dutch consumer and digital-rights groups, including Consumentenbond and Offlimits, asked the Amsterdam District Court to halt sales of Meta&amp;#x27;s AI smart glasses in the Netherlands, arguing the Ray-Ban devices enable covert recording in violation of European privacy law. They seek a ban on using captured footage to train AI models and a sales freeze until compliance fixes, with penalties of up to EUR 100,000 per defendant per day capped at EUR 100 million. Meta denies the claims, citing recording indicator LEDs and calling the requested measures a de facto recall. A ruling is expected in mid-December and could set precedent, amid warnings from the EDPB and Dutch regulator AP.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;荷兰多组织起诉要求禁售 Meta 智能眼镜&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首例针对 AI 智能眼镜的司法禁售诉讼，裁决可能形成判例并影响全球可穿戴 AI 设备的合规边界。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 72/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/033/126.htm">IT之家 · 智能时代</source>
-<category>智能眼镜</category>
-<category>隐私合规</category>
-<category>Meta</category>
-<category>可穿戴 AI</category>
-</item>
-<item><title>Tencent AI Platform Designs Dual-Target Peptides in Nature Study</title><link>https://www.ithome.com/1/033/125.htm</link><guid isPermaLink="true">https://www.ithome.com/1/033/125.htm</guid>
-<pubDate>Thu, 26 Nov 2026 22:58:09 +0800</pubDate>
-<description>&lt;p&gt;Tencent&amp;#x27;s Life Science Lab published a first-author Nature paper on AI-driven de novo design of high-activity dual-target therapeutic peptides. Its ORIDTP platform combines diffusion generative models, dual-objective reinforcement learning and flexible peptide affinity modeling, testing only about 15 peptides per round. Preclinical validation spans weight-loss/glucose control and tumor immunity, with tumor volume reduced 94.2% versus controls.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;腾讯 AI 双靶点多肽设计成果登上 Nature 主刊&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;中国大厂 AI for Science 成果登上 Nature 主刊，且给出可复现的闭环方法与量化实验数据，是药物研发范式的实质节点。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/033/125.htm">IT之家 · 智能时代</source>
-<category>AI for Science</category>
-<category>药物研发</category>
-<category>腾讯</category>
-<category>多肽设计</category>
-</item>
-<item><title>马斯克提融资担保换三星存储芯片被拒</title><link>https://www.ithome.com/1/033/116.htm</link><guid isPermaLink="true">https://www.ithome.com/1/033/116.htm</guid>
-<pubDate>Thu, 26 Nov 2026 22:19:27 +0800</pubDate>
-<description>&lt;p&gt;据华尔街日报报道，马斯克曾向三星提出长期存储芯片采购承诺，并进一步提出为三星新芯片工厂提供融资担保，但三星会长李在镕两次以“其他人都提供同样条件”为由拒绝。这一细节折射出 AI 算力扩张下存储芯片供需严重失衡，买方已从单纯下单转向驻场盯交付、附加融资筹码争夺产能。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以具体谈判细节揭示 AI 存储芯片争夺战已升级到融资担保层面，是观察算力供应链紧张程度的稀缺一手信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/033/116.htm">IT之家 · IT业界</source>
-<category>存储芯片</category>
-<category>算力供应链</category>
-<category>三星</category>
-<category>特斯拉</category>
-</item>
-<item><title>381 个智能体直播攻关 P vs NP 挤爆 GitHub</title><link>https://www.qbitai.com/2026/11/513021.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/513021.html</guid>
-<pubDate>Thu, 26 Nov 2026 21:56:01 +0800</pubDate>
-<description>&lt;p&gt;设计软件公司 Brilliant 联合创始人 Amichai Mantinband 上线 pequalnp.com，用多智能体流水线公开直播攻关 P vs NP 难题。三天内同时在线智能体峰值达 381 个，外部涌入 465 个智能体提交证明，触发 GitHub 并发限流；累计超一万次会话，在 Lean 4 中验证通过 2400 多条引理。项目将问题拆为 6 条并行战线，由 30 个调度席位统筹子智能体，核心价值在于大规模多智能体协同与形式化验证的工程实践。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;罕见的大规模多智能体协同公开实验，展示了智能体流水线调度与 Lean 4 形式化验证的工程可行性。&lt;/p&gt;&lt;p&gt;量子位官网 · agent · signal 72/100&lt;/p&gt;</description>
-<source url="https://www.qbitai.com/2026/11/513021.html">量子位官网</source>
-<category>智能体</category>
-<category>多智能体协同</category>
-<category>形式化验证</category>
-<category>Lean 4</category>
-</item>
-<item><title>45°C 冷却液进水让数据中心冷水机组退场</title><link>https://www.theregister.com/hpc/2026/11/26/45c-inlets-just-killed-the-chiller-most-people-havent-noticed-yet/5311831</link><guid isPermaLink="true">https://www.theregister.com/hpc/2026/11/26/45c-inlets-just-killed-the-chiller-most-people-havent-noticed-yet/5311831</guid>
-<pubDate>Thu, 26 Nov 2026 21:48:11 +0800</pubDate>
-<description>&lt;p&gt;在 SC25 大会上，液冷技术的最新进展显示，45°C 的冷却液进水温度已足以让数据中心彻底摆脱冷水机组，同时用水量下降 85% 至 90%，能耗与成本也同步降低。这一变化直接回应了反数据中心运动在能耗和水资源方面的核心质疑，标志着高密度 AI 算力基础设施的散热范式正在发生实质性转变。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;液冷进水温度提升至 45°C 即可取消冷水机组，直接关系高密度 AI 数据中心的能耗与水资源约束。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.theregister.com/hpc/2026/11/26/45c-inlets-just-killed-the-chiller-most-people-havent-noticed-yet/5311831">Hacker News AI</source>
-<category>液冷</category>
-<category>数据中心</category>
-<category>算力基础设施</category>
-</item>
-<item><title>FCC 批准 SpaceX 部署百万颗轨道 AI 算力卫星</title><link>https://the-decoder.com/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-satellites-for-orbital-ai-data-centers-by-2040/</link><guid isPermaLink="true">https://the-decoder.com/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-satellites-for-orbital-ai-data-centers-by-2040/</guid>
-<pubDate>Thu, 26 Nov 2026 21:41:07 +0800</pubDate>
-<description>&lt;p&gt;美国联邦通信委员会（FCC）批准 SpaceX 部署最多 100 万颗 Starmind 卫星，用于在轨建设 AI 数据中心，以缓解地面算力需求的快速增长。FCC 同时批准了卫星光链路失效时的无线电监控与遥控链路，标志着轨道算力从概念走向监管落地。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;百万颗卫星规模的轨道算力星座获监管放行，是 AI 基础设施向太空延伸的关键节点。&lt;/p&gt;&lt;p&gt;The Decoder · compute · signal 78/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/fcc-clears-spacex-to-deploy-up-to-1-million-starmind-satellites-for-orbital-ai-data-centers-by-2040/">The Decoder</source>
-<category>算力基础设施</category>
-<category>SpaceX</category>
-<category>轨道数据中心</category>
-<category>FCC</category>
-</item>
-<item><title>VAST 发布 Tripo H3.5 Preview 高精度 3D 基座模型</title><link>https://www.qbitai.com/2026/11/512981.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/512981.html</guid>
-<pubDate>Thu, 26 Nov 2026 20:39:08 +0800</pubDate>
-<description>&lt;p&gt;VAST 推出新一代高精度 AI 3D 基座模型 Tripo H3.5 Preview，相比 H3.1 在复杂结构还原、精细几何生成与不可见部位推断上显著提升。在统一输入条件下，该模型在 192 组素模盲评中拿下 82 次第一，明显优于其余 5 款旗舰 AI 3D 模型，目前已上线 Tripo Studio 国际版。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 3D 基座模型的重要代际更新，盲评数据与复杂雕塑实测提供了可验证的能力增量。&lt;/p&gt;&lt;p&gt;量子位官网 · llm · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.qbitai.com/2026/11/512981.html">量子位官网</source>
-<category>AI 3D</category>
-<category>VAST</category>
-<category>Tripo</category>
-<category>3D 生成</category>
 </item>
 </channel>
 </rss>
