@@ -3,6 +3,14 @@
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
 <language>en</language><lastBuildDate>Thu, 26 Nov 2026 15:46:43 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
+<item><title>Claude Code 三员大将集体跳槽 OpenAI</title><link>https://todayforai.com/en/story/story-a69ee2a1-08a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a69ee2a1-08a</guid>
+<pubDate>Thu, 26 Nov 2026 15:46:43 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 上市后遭遇股价破发与核心人才流失的双重打击。11 月 24 日，其股价收于 76.60 美元，较 83 美元的发行价下跌约 8%，较首日开盘价更是跌去约 31%。与此同时，Claude Code 产品负责人 Cat Wu、桌面版创建者 Anthony Morris 及核心工程师 Thariq Shihipar 相继加入 OpenAI，形成原班人马重聚之势。
+
+多方信息交叉验证了此次人事变动的细节。Thariq 本人通过社交平台公开确认了加盟消息，称在 Anthropic 的时光令他自豪，但认为在 OpenAI 能对“把 AI 带给世界”贡献最大，并将加入一个面向十亿级用户的产品团队。Cat Wu 则出任 OpenAI 核心产品线产品管理负责人，管辖 ChatGPT、Codex 与开发者 API。值得注意的是，Claude Code 之父 Boris Cherny 并未随行，仍留守 Anthropic，并刚刚推出了代码自动审查修复功能 Claude Ship。
+
+此次集体跳槽直指 Anthropic 编程 Agent 业务的根基，也折射出 AI 编程竞争焦点正从基准跑分转向 Agent 在真实工程任务中的可靠交付能力。头部实验室之间的人才争夺持续升温，OpenAI 借机强化其编程产品线，而 Anthropic 则需在股价压力下稳住核心团队并证明其技术护城河。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;量子位官网, Rohan Paul (@rohanpaul_ai), 宝玉 (@dotey), InfoQ 中文&lt;/p&gt;</description>
+</item>
 <item><title>Anthropic 用 Claude 将 Messages API 迁移至 Rust 单请求 CPU 降 70%</title><link>https://todayforai.com/en/story/story-9d85b604-0d4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9d85b604-0d4</guid>
 <pubDate>Thu, 26 Nov 2026 04:52:14 +0800</pubDate>
 <description>&lt;p&gt;Anthropic 宣布已将其核心生产服务 Messages API 从 Python 迁移至 Rust，单请求 CPU 消耗下降约 70%。这一重写旨在应对自 2024 年初以来约 1800 倍的 API 流量增长，显著提升了服务效率与可扩展性。
@@ -50,10 +58,6 @@ MAGI-2 以极低定价和顶级性能直击视频生成赛道，有望大幅降�
 综合多方信息，合并后普通聊天与面向长任务多步执行的 Work 模式共享同一用量池，而 Work 此前与 Codex 编码智能体共享额度。即时聊天（使用 Instant 模型）不计入计量，即使额度耗尽仍可继续使用，因此压力主要集中在推理与智能体类任务上。由于按 token 计量，模型选择与任务规模直接决定订阅者消耗额度的速度。OpenAI 计划在 12 月扩大覆盖范围。
 
 这一调整反映了 OpenAI 在订阅服务精细化运营上的尝试，通过统一计量简化管理，但也可能影响重度开发者和专业用户的使用体验。社区论坛上已有用户要求保留开关或重新评估合并方案，未来 OpenAI 如何在简化交互与控制成本之间取得平衡，将考验其产品策略。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, TechCrunch AI, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
-</item>
-<item><title>Anthropic 核心成员 Thariq 跳槽 OpenAI</title><link>https://todayforai.com/en/story/story-a69ee2a1-08a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a69ee2a1-08a</guid>
-<pubDate>Thu, 26 Nov 2026 15:46:43 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 成员 Thariq（@trq212）公开宣布已加入 OpenAI，称在 Anthropic 的时光令他自豪，但认为在 OpenAI 能对“把 AI 带给世界”这一目标贡献最大。他将此次流动视为硅谷人才与思想流动的体现，并提到将与多位旧识共事、打造面向十亿级用户的产品。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), 宝玉 (@dotey), 量子位官网, InfoQ 中文&lt;/p&gt;</description>
 </item>
 <item><title>亚马逊与 Meta 谈判解禁购物智能体 Muse</title><link>https://todayforai.com/en/story/story-ec03a573-644</link><guid isPermaLink="true">https://todayforai.com/en/story/story-ec03a573-644</guid>
 <pubDate>Thu, 26 Nov 2026 00:44:37 +0800</pubDate>
