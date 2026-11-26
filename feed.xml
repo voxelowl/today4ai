@@ -22,6 +22,15 @@
 <category>订阅额度</category>
 <category>ChatGPT</category>
 </item>
+<item><title>DeepSeek Open-Sources 7B Math Model Scoring 51.7% on MATH</title><link>https://github.com/deepseek-ai/deepseek-math</link><guid isPermaLink="true">https://github.com/deepseek-ai/deepseek-math</guid>
+<pubDate>Fri, 27 Nov 2026 01:21:14 +0800</pubDate>
+<description>&lt;p&gt;DeepSeek released DeepSeekMath 7B, initialized from DeepSeek-Coder-v1.5 7B and continually pre-trained on 500B math-related tokens. It scores 51.7% on the competition-level MATH benchmark without external tools or voting, approaching Gemini-Ultra and GPT-4. Base, instruct, and RL checkpoints are open-sourced for research.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;DeepSeek 开源 7B 数学模型 竞赛级 MATH 得分 51.7%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;7B 小模型在竞赛级数学基准上逼近顶级闭源模型，且三档权重全部开源，对数学推理与开源生态均有实质价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://github.com/deepseek-ai/deepseek-math">Hacker News AI</source>
+<category>大模型</category>
+<category>开源模型</category>
+<category>数学推理</category>
+<category>DeepSeek</category>
+</item>
 <item><title>Zero AI-Discovered Drugs Approved as 1,452-Day Wait Continues</title><link>https://diseasescuredbyai.com/</link><guid isPermaLink="true">https://diseasescuredbyai.com/</guid>
 <pubDate>Fri, 27 Nov 2026 01:16:41 +0800</pubDate>
 <description>&lt;p&gt;A tracking site using FDA/EMA approval as its sole criterion reports that, as of November 2026, zero drugs discovered or designed by AI have been approved and no disease has been cured by an AI-discovered therapy. Some 117 AI-enabled candidates from 63 companies had entered human trials, with only Rentosertib reaching Phase III and remaining investigational. The page offers a verifiable counterweight to bullish AI-for-Science narratives.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;AI 发现药物至今零获批 1452 天等待仍未破局&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以审批硬指标量化 AI 制药真实进度，是校准行业预期的关键事实参照。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 62/100&lt;/p&gt;</description>
@@ -39,6 +48,15 @@
 <category>AMD</category>
 <category>推理引擎</category>
 <category>开源生态</category>
+</item>
+<item><title>SimDrop Brings iOS Simulators into the macOS Finder Sidebar</title><link>https://github.com/rxliuli/sim-drop</link><guid isPermaLink="true">https://github.com/rxliuli/sim-drop</guid>
+<pubDate>Fri, 27 Nov 2026 00:51:38 +0800</pubDate>
+<description>&lt;p&gt;SimDrop is an open-source macOS utility that mounts booted iOS simulators as folders in the Finder sidebar, letting developers drag files directly into a simulator&amp;#x27;s Photos library or Downloads directory, or access the same paths from the terminal. It requires macOS 15 or later, is GPL-3.0 licensed, signed and notarized, and installable via Homebrew.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SimDrop 将 iOS 模拟器接入 Finder 侧边栏&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向 iOS 开发者的实用小工具，解决模拟器文件互传的具体摩擦，但影响面限于本地开发场景。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
+<source url="https://github.com/rxliuli/sim-drop">Hacker News AI</source>
+<category>开发者工具</category>
+<category>iOS 开发</category>
+<category>macOS</category>
+<category>开源</category>
 </item>
 <item><title>US Data Crackdown Pushes Chinese Flagship Models to 2027</title><link>https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/</link><guid isPermaLink="true">https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/</guid>
 <pubDate>Thu, 26 Nov 2026 23:45:08 +0800</pubDate>
@@ -207,18 +225,18 @@
 <category>神经接口</category>
 <category>医疗康复</category>
 </item>
-<item><title>Google Mandates MCP Servers for AI Agents Accessing Workspace</title><link>https://techstackups.com/articles/google-workspace-ai-agents-mcp/</link><guid isPermaLink="true">https://techstackups.com/articles/google-workspace-ai-agents-mcp/</guid>
+<item><title>Google 强制 AI 智能体经 MCP 访问 Workspace</title><link>https://techstackups.com/articles/google-workspace-ai-agents-mcp/</link><guid isPermaLink="true">https://techstackups.com/articles/google-workspace-ai-agents-mcp/</guid>
 <pubDate>Thu, 26 Nov 2026 17:44:23 +0800</pubDate>
-<description>&lt;p&gt;Google made its eight Workspace MCP servers generally available on 24 November and added a clause to its API terms requiring any AI-agent-driven tool to access Gmail, Drive, Calendar and other Workspace services through those servers starting 1 February 2027. Notably, the Gmail MCP server&amp;#x27;s tool list only supports search, read, draft creation and labeling, while sending, replying, forwarding and editing drafts are gated behind partner-only access.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Google 强制 AI 智能体经 MCP 访问 Workspace&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Google 以条款形式强制智能体接入路径，同时 Gmail 能力受限，直接影响所有 Workspace 集成开发者。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Google 于 11 月 24 日将 8 个 Workspace MCP 服务器正式可用，并在 API 条款中新增规定：自 2027 年 2 月 1 日起，任何由 AI 智能体驱动的工具必须通过 Google MCP 访问 Gmail、Drive、Calendar 等服务。值得注意的是，Gmail MCP 服务器的工具列表仅支持搜索、读取、创建草稿和打标签，发送、回复、转发及修改草稿等能力被列为需合作伙伴权限、暂不普遍开放。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Google 以条款形式强制智能体接入路径，同时 Gmail 能力受限，直接影响所有 Workspace 集成开发者。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 78/100&lt;/p&gt;</description>
 <source url="https://techstackups.com/articles/google-workspace-ai-agents-mcp/">Hacker News AI</source>
 <category>Google Workspace</category>
 <category>MCP</category>
 <category>AI 智能体</category>
 <category>API 条款</category>
 </item>
-<item><title>Samsung Scraps Memory Development Chief Role to Speed HBM Push</title><link>https://www.ithome.com/1/032/973.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/973.htm</guid>
+<item><title>三星电子取消内存开发负责人岗位以加速 HBM 研发</title><link>https://www.ithome.com/1/032/973.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/973.htm</guid>
 <pubDate>Thu, 26 Nov 2026 17:28:01 +0800</pubDate>
-<description>&lt;p&gt;Samsung Electronics finalized a personnel and organizational overhaul of its semiconductor DS division, eliminating the memory development chief position so that DRAM, Flash and solution development offices report directly to the memory business head, cutting management layers to accelerate HBM and next-gen products. The reshuffle also upgrades System LSI&amp;#x27;s sales structure, adds a new logic development team, and replaces heads of the Americas and US production units, all aimed at AI memory demand and US manufacturing.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;三星电子取消内存开发负责人岗位以加速 HBM 研发&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;三星半导体核心组织重组直接关系 HBM 与 AI 内存供给节奏，是算力供应链的重要产业动向。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;三星电子敲定半导体 DS 部门人事与组织调整，取消“内存开发负责人”岗位，DRAM、Flash 与解决方案开发室改为直接向内存事业部长汇报，以减少管理层级、加快 HBM 等下一代产品决策。同时 System LSI 升级销售体系、新设逻辑开发团队，并更换美洲法人与美国生产法人负责人，整体围绕 AI 内存需求与美国生产布局展开。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;三星半导体核心组织重组直接关系 HBM 与 AI 内存供给节奏，是算力供应链的重要产业动向。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/973.htm">IT之家 · IT业界</source>
 <category>三星电子</category>
 <category>HBM</category>
@@ -250,25 +268,6 @@
 <category>AI for Science</category>
 <category>数学推理</category>
 <category>AI 辅助研究</category>
-</item>
-<item><title>三星电子成立半导体工厂机器人团队 2028 年部署</title><link>https://www.ithome.com/1/032/931.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/931.htm</guid>
-<pubDate>Thu, 26 Nov 2026 16:32:20 +0800</pubDate>
-<description>&lt;p&gt;三星电子 DS 部门在全球制造与基础设施总部下新设机器人团队，目标是用机器人替代半导体工厂中零件耗材更换、设备维护等仍需人工的工序。该团队计划年内选定外部合作伙伴，明年完成技术评估，2028 年启动内部实际部署。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;三星在半导体制造环节推进机器人替代，反映头部晶圆厂自动化路线的下一步走向。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/032/931.htm">IT之家 · IT业界</source>
-<category>三星电子</category>
-<category>半导体制造</category>
-<category>机器人</category>
-<category>工厂自动化</category>
-</item>
-<item><title>腾讯混元开源草稿模型 DFly2 实现最高 4.2 倍加速</title><link>https://www.ithome.com/1/032/929.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/929.htm</guid>
-<pubDate>Thu, 26 Nov 2026 16:26:38 +0800</pubDate>
-<description>&lt;p&gt;腾讯混元开源新一代草稿模型 DFly2，作为旁挂加速组件在不改变 Hy4 flash 权重与输出的前提下提升吐字速度，单项最高提速 4.2 倍。其核心是极致复用目标模型的 KV cache 与 indexer 选位，使注意力复杂度与上下文长度解耦，并实现零额外 KV 显存与 PD 分离友好。权重、完整训练代码与论文同步开源。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向稀疏注意力大模型的投机解码加速组件，附完整训练代码与论文，对推理部署读者有直接参考价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/032/929.htm">IT之家 · 智能时代</source>
-<category>腾讯混元</category>
-<category>投机解码</category>
-<category>推理加速</category>
-<category>开源模型</category>
-<category>稀疏注意力</category>
 </item>
 </channel>
 </rss>
