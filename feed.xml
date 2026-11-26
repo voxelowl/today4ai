@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Fri, 27 Nov 2026 03:31:46 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 27 Nov 2026 04:03:54 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Nvidia Pauses Chip Shipments to Southeast Asia Over Export Compliance</title><link>https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/</guid>
+<pubDate>Fri, 27 Nov 2026 04:03:54 +0800</pubDate>
+<description>&lt;p&gt;Nvidia has told manufacturing partners including Dell and Super Micro to pause server shipments to Malaysia, Singapore, Thailand and Indonesia while it assesses whether regional partners comply with U.S. export requirements. The move targets a loophole that let Chinese firms remotely tap Nvidia chips in Southeast Asian data centers, which the U.S. Commerce Department moved to close this month; one think tank estimates such remote capacity supplies about 24% of China&amp;#x27;s AI compute.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达暂停向东南亚四国发货以核查出口合规&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;出口管制收紧直接冲击区域算力供应链，是理解中美 AI 算力格局变化的关键节点。&lt;/p&gt;&lt;p&gt;TechCrunch AI · compute · signal 78/100&lt;/p&gt;</description>
+<source url="https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/">TechCrunch AI</source>
+<category>英伟达</category>
+<category>出口管制</category>
+<category>算力基础设施</category>
+<category>东南亚</category>
+</item>
+<item><title>SAP Weighs Over 10,000 Job Cuts in AI-Driven Restructuring</title><link>https://x.com/rohanpaul_ai/status/2126041605144739986</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126041605144739986</guid>
+<pubDate>Fri, 27 Nov 2026 03:53:13 +0800</pubDate>
+<description>&lt;p&gt;SAP is weighing at least 10,000 job cuts, roughly one in ten roles, as part of an AI-driven restructuring. The move comes despite record results: Q3 total revenue rose 13% to about $11.3B and cloud sales climbed 26% to about $7.3B.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SAP 拟裁员逾 1 万人推进 AI 重组&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;企业软件巨头在业绩高增长期启动万人级 AI 重组，是观察 AI 对大型组织人力结构冲击的标志性事件。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 72/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2126041605144739986">Rohan Paul (@rohanpaul_ai)</source>
+<category>企业软件</category>
+<category>裁员重组</category>
+<category>AI 转型</category>
+<category>SAP</category>
+</item>
 <item><title>Ex-OpenAI Researcher Says AI Producing Riemann Proof Matters More Than Proof Itself</title><link>https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it/</link><guid isPermaLink="true">https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it/</guid>
 <pubDate>Fri, 27 Nov 2026 03:31:46 +0800</pubDate>
 <description>&lt;p&gt;Complexity theorist and former OpenAI researcher Scott Aaronson argues in a blog post that proving the Riemann hypothesis would barely change daily life; the real milestone is that an AI system can produce such work at all. He says that capability could reshape the global economy or even threaten life on Earth, and dismisses the narrow view that only practical payoff matters.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;前 OpenAI 研究员称 AI 能产出黎曼证明本身更具冲击力&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;来自复杂度理论权威对 AI 数学能力意义的定性判断，为理解 AI 科研能力跃迁提供了有价值的视角。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 58/100&lt;/p&gt;</description>
@@ -11,6 +29,26 @@
 <category>前沿研究</category>
 <category>Scott Aaronson</category>
 <category>OpenAI</category>
+</item>
+<item><title>Rvoip 0.5 Ships a Complete VoIP Stack Written in Rust</title><link>https://github.com/eisenzopf/rvoip</link><guid isPermaLink="true">https://github.com/eisenzopf/rvoip</guid>
+<pubDate>Fri, 27 Nov 2026 03:18:09 +0800</pubDate>
+<description>&lt;p&gt;Rvoip 0.5 unifies SIP, RTP, WebRTC, QUIC/WebTransport and voice-AI agents under a single call model, shipping everything as in-workspace Rust crates with no external SIP proxy, media server or RTP engine required. It carries release-gated interoperability evidence against Asterisk, FreeSWITCH and Jambonz, making it practical to build communications and voice-AI applications in pure Rust.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Rvoip 0.5 发布 用 Rust 实现全栈 VoIP 通信&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把完整 VoIP 与实时媒体栈收敛为纯 Rust 库并覆盖语音 AI 场景，对通信与 Agent 开发者有明确工程价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 62/100&lt;/p&gt;</description>
+<source url="https://github.com/eisenzopf/rvoip">Hacker News AI</source>
+<category>Rust</category>
+<category>VoIP</category>
+<category>WebRTC</category>
+<category>语音 AI</category>
+<category>开源</category>
+</item>
+<item><title>Scale AI and CMU Run 1,200 Experiments Comparing PPO and GRPO</title><link>https://x.com/rohanpaul_ai/status/2126032236487319905</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126032236487319905</guid>
+<pubDate>Fri, 27 Nov 2026 03:15:59 +0800</pubDate>
+<description>&lt;p&gt;Researchers from Scale AI and Carnegie Mellon University ran more than 1,200 training experiments, including 96 with LLMs, to systematically compare PPO and GRPO. They found that PPO with a critic clearly wins at small RL batch sizes, while GRPO closes the gap as batches grow. On terminal-agent tasks PPO led by up to 5.9 points at batch sizes 128 and 512, with all methods within 0.6 points at 2,048; PPO at batch 128 matched GRPO at 512 using 91 versus 342 GPU-hours.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Scale AI 与 CMU 实测 1200 次训练揭示 PPO 小批量优势&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大规模受控实验直接挑战 DeepSeek-R1 后开源社区默认弃用 critic 的主流做法，对 RL 训练选型有明确指导价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2126032236487319905">Rohan Paul (@rohanpaul_ai)</source>
+<category>强化学习</category>
+<category>PPO</category>
+<category>GRPO</category>
+<category>Scale AI</category>
+<category>训练效率</category>
 </item>
 <item><title>Ant Group&#x27;s Robbyant Releases LingBot-Map 2.0 with In-Inference Map Refinement</title><link>https://x.com/rohanpaul_ai/status/2126019340525056182</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126019340525056182</guid>
 <pubDate>Fri, 27 Nov 2026 02:24:44 +0800</pubDate>
@@ -57,6 +95,15 @@
 <category>AMD</category>
 <category>推理引擎</category>
 <category>开源生态</category>
+</item>
+<item><title>OpenRouter Data Shows Jevons Paradox Holding Through 2026</title><link>https://x.com/OpenRouter/status/2125998076896920034</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2125998076896920034</guid>
+<pubDate>Fri, 27 Nov 2026 01:00:15 +0800</pubDate>
+<description>&lt;p&gt;OpenRouter analyzed 2026 token usage, token prices and overall spending to test Jevons Paradox in AI inference. The paradox holds: falling prices coincided with rising total spend and usage. However, the effect weakened in recent months versus early 2026, suggesting diminishing marginal demand from price cuts.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenRouter 数据：杰文斯悖论在 2026 年成立&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;用真实平台全年用量与价格数据检验 AI 推理需求弹性，为判断降价与市场增长关系提供实证参考。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/OpenRouter/status/2125998076896920034">OpenRouter (@OpenRouter)</source>
+<category>杰文斯悖论</category>
+<category>推理成本</category>
+<category>OpenRouter</category>
+<category>token 经济</category>
 </item>
 <item><title>SimDrop Brings iOS Simulators into the macOS Finder Sidebar</title><link>https://github.com/rxliuli/sim-drop</link><guid isPermaLink="true">https://github.com/rxliuli/sim-drop</guid>
 <pubDate>Fri, 27 Nov 2026 00:51:38 +0800</pubDate>
@@ -183,92 +230,48 @@
 <category>网络攻击</category>
 <category>微软</category>
 </item>
-<item><title>Nvidia Halts Server Shipments to Four Southeast Asian Nations</title><link>https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/</link><guid isPermaLink="true">https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/</guid>
+<item><title>英伟达暂停向东南亚四国出货服务器</title><link>https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/</link><guid isPermaLink="true">https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/</guid>
 <pubDate>Thu, 26 Nov 2026 19:21:16 +0800</pubDate>
-<description>&lt;p&gt;The US has tightened export controls to close the cloud loophole that let Chinese firms rent AI compute abroad, prompting Nvidia to tell partners including Dell and Supermicro to halt server shipments to Malaysia, Singapore, Thailand and Indonesia. Southeast Asian cloud providers now have 90 days to obtain licenses, thousands of B300 chips have surfaced on resale markets, and banks have frozen roughly $500 million in related loans.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达暂停向东南亚四国出货服务器&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是美国出口管制首次直接切断第三国云算力通道，对全球 AI 算力供应链与东南亚数据中心格局影响重大。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 88/100&lt;/p&gt;</description>
+<description>&lt;p&gt;美国收紧出口管制，堵住中国企业借道海外云厂商租用 AI 算力的漏洞，英伟达已通知戴尔、超微等合作伙伴暂停向马来西亚、新加坡、泰国和印尼出货服务器。东南亚云厂商须在 90 天内申请许可，市场随即出现大量 B300 芯片转售，银行也已叫停约 5 亿美元相关贷款。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是美国出口管制首次直接切断第三国云算力通道，对全球 AI 算力供应链与东南亚数据中心格局影响重大。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 88/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/">The Decoder</source>
 <category>出口管制</category>
 <category>英伟达</category>
 <category>算力供应链</category>
 <category>东南亚</category>
 </item>
-<item><title>China Data Bureau Proposes Rules on AI Data Use and Licensing</title><link>https://www.ithome.com/1/033/054.htm</link><guid isPermaLink="true">https://www.ithome.com/1/033/054.htm</guid>
+<item><title>国家数据局发布 AI 用数新规征求意见稿</title><link>https://www.ithome.com/1/033/054.htm</link><guid isPermaLink="true">https://www.ithome.com/1/033/054.htm</guid>
 <pubDate>Thu, 26 Nov 2026 19:13:50 +0800</pubDate>
-<description>&lt;p&gt;China&amp;#x27;s National Data Administration released a draft policy clarifying how data holding, usage and operation rights apply to AI training and inference. The draft endorses legally collected, derived and contractually purchased data for model training, encourages paying for high-quality datasets, and calls for traceability and output risk controls for AI companies.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;国家数据局发布 AI 用数新规征求意见稿&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是中国数据要素制度与 AI 训练数据合规衔接的首份系统性政策文件，直接影响模型厂商的数据采购与合规路径。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;国家数据局发布《关于完善数据规则 赋能人工智能创新发展的若干意见》征求意见稿，首次系统界定数据持有权、使用权、经营权在 AI 训练与推理场景中的适用边界。文件明确支持合法采集、衍生加工与协议采购的数据用于模型训练，鼓励企业为高质量数据付费，并要求建立 AI 企业输出的风险防控与数据来源可追溯机制。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是中国数据要素制度与 AI 训练数据合规衔接的首份系统性政策文件，直接影响模型厂商的数据采购与合规路径。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/033/054.htm">IT之家 · 智能时代</source>
 <category>数据要素</category>
 <category>政策监管</category>
 <category>AI 训练数据</category>
 <category>国家数据局</category>
 </item>
-<item><title>OpenAI Claims Proof That Matrix Multiplication Exponent Equals 9/4</title><link>https://www.ithome.com/1/033/050.htm</link><guid isPermaLink="true">https://www.ithome.com/1/033/050.htm</guid>
+<item><title>OpenAI 宣称证明矩阵乘法指数恰为 9/4</title><link>https://www.ithome.com/1/033/050.htm</link><guid isPermaLink="true">https://www.ithome.com/1/033/050.htm</guid>
 <pubDate>Thu, 26 Nov 2026 18:52:40 +0800</pubDate>
-<description>&lt;p&gt;After proving ω≤9/4 in October, OpenAI now claims to have established ω≥9/4, closing the gap to conclude that the matrix multiplication exponent equals 9/4. If verified, this would be a landmark result in computational complexity on the asymptotically optimal cost of matrix multiplication, with implications for a range of related complexity questions. Note that ω is asymptotic, and practical performance still depends on constant factors, memory access and hardware.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 宣称证明矩阵乘法指数恰为 9/4&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;若证明无误，这是计算复杂性理论级别的重大成果，且由 AI 公司提出，对算法与 AI 基础设施读者高度相关。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 88/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 在 10 月证得 ω≤9/4 后，于 11 月 24 日进一步宣称证得 ω≥9/4，从而闭合得到矩阵乘法指数 ω=9/4。若证明成立，这将是计算复杂性理论中关于矩阵乘法渐进最优复杂度的里程碑式结论，并牵动一系列相关复杂度问题。需注意 ω 为渐进量，实际性能仍受常数因子、内存与硬件结构制约。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;若证明无误，这是计算复杂性理论级别的重大成果，且由 AI 公司提出，对算法与 AI 基础设施读者高度相关。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 88/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/033/050.htm">IT之家 · 智能时代</source>
 <category>矩阵乘法</category>
 <category>计算复杂性</category>
 <category>OpenAI</category>
 <category>数学证明</category>
 </item>
-<item><title>Intel Open Sources One Mono Font for Low-Vision Developers</title><link>https://github.com/intel/intel-one-mono</link><guid isPermaLink="true">https://github.com/intel/intel-one-mono</guid>
+<item><title>Intel 开源高可读性等宽字体 One Mono</title><link>https://github.com/intel/intel-one-mono</link><guid isPermaLink="true">https://github.com/intel/intel-one-mono</guid>
 <pubDate>Thu, 26 Nov 2026 18:11:01 +0800</pubDate>
-<description>&lt;p&gt;Intel has released Intel One Mono, an open-source monospaced typeface designed with Frere-Jones Type and tested with low-vision and legally blind developers to maximize legibility and reduce coding fatigue. It ships in four weights with matching italics, covers over 200 Latin-script languages, and is distributed as both ready-to-use builds and editable sources.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Intel 开源高可读性等宽字体 One Mono&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向开发者体验的开源字体发布，对长期编码人群有直接实用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Intel 发布开源等宽字体 Intel One Mono，由 Frere-Jones Type 联合设计，重点面向低视力开发者群体，通过提升字形清晰度缓解编码疲劳与眼疲劳。字体提供 Light、Regular、Medium、Bold 四种字重及配套斜体，覆盖 200 余种拉丁语系语言，并同时开放可直接使用的成品字体与可编辑源文件。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向开发者体验的开源字体发布，对长期编码人群有直接实用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 42/100&lt;/p&gt;</description>
 <source url="https://github.com/intel/intel-one-mono">Hacker News AI</source>
 <category>开源字体</category>
 <category>开发者工具</category>
 <category>Intel</category>
 </item>
-<item><title>Jiuwei Tech Unveils Pandora Station for 90-Second Robot Battery Swap</title><link>https://www.qbitai.com/2026/11/512972.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/512972.html</guid>
+<item><title>具微科技发布潘多拉基站 90 秒自动换装补能</title><link>https://www.qbitai.com/2026/11/512972.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/512972.html</guid>
 <pubDate>Thu, 26 Nov 2026 18:07:55 +0800</pubDate>
-<description>&lt;p&gt;Jiuwei Tech debuted MICBOT PANDORA, a modular battery-swap and payload-change station that completes automated robot refit and recharge in 90 seconds, enabling continuous unmanned operations. It also showcased the MOVENEW P3S wheel-legged mobile base with 600 kg static load capacity and an integrated liquid-cooling system for hazardous industrial scenarios.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;具微科技发布潘多拉基站 90 秒自动换装补能&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向高危工业场景的具身智能硬件与自动补能基站首发，具备明确参数与工程方案，值得关注。&lt;/p&gt;&lt;p&gt;量子位官网 · industry · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;具微科技在高交会首发模块化换装补能基站 MICBOT PANDORA，可在 90 秒内完成机器人自动换装与补能，支撑无人化连续作业闭环。同期展出轮足复合移动底座 MOVENEW P3S，具备 600 kg 静态负载与整机液冷方案，面向高危特种工业场景。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向高危工业场景的具身智能硬件与自动补能基站首发，具备明确参数与工程方案，值得关注。&lt;/p&gt;&lt;p&gt;量子位官网 · industry · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.qbitai.com/2026/11/512972.html">量子位官网</source>
 <category>具身智能</category>
 <category>工业机器人</category>
 <category>高交会</category>
-</item>
-<item><title>仿生手接入神经实现触觉感知</title><link>https://www.technologyreview.com/2026/11/26/1149923/the-next-generation-of-bionic-hands-is-here-and-they-can-feel/</link><guid isPermaLink="true">https://www.technologyreview.com/2026/11/26/1149923/the-next-generation-of-bionic-hands-is-here-and-they-can-feel/</guid>
-<pubDate>Thu, 26 Nov 2026 17:59:00 +0800</pubDate>
-<description>&lt;p&gt;犹他大学临床试验中，第九位受试者植入可感知压力的仿生手，并首次实现居家独立使用。该设备基于 LUKE 机械臂，通过连接前臂神经让使用者重新感知触觉并处理精细物件。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;具身智能与神经接口结合的真实临床落地案例，具备明确技术路径与人体试验数据。&lt;/p&gt;&lt;p&gt;MIT Technology Review · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.technologyreview.com/2026/11/26/1149923/the-next-generation-of-bionic-hands-is-here-and-they-can-feel/">MIT Technology Review</source>
-<category>具身智能</category>
-<category>神经接口</category>
-<category>医疗康复</category>
-</item>
-<item><title>Google 强制 AI 智能体经 MCP 访问 Workspace</title><link>https://techstackups.com/articles/google-workspace-ai-agents-mcp/</link><guid isPermaLink="true">https://techstackups.com/articles/google-workspace-ai-agents-mcp/</guid>
-<pubDate>Thu, 26 Nov 2026 17:44:23 +0800</pubDate>
-<description>&lt;p&gt;Google 于 11 月 24 日将 8 个 Workspace MCP 服务器正式可用，并在 API 条款中新增规定：自 2027 年 2 月 1 日起，任何由 AI 智能体驱动的工具必须通过 Google MCP 访问 Gmail、Drive、Calendar 等服务。值得注意的是，Gmail MCP 服务器的工具列表仅支持搜索、读取、创建草稿和打标签，发送、回复、转发及修改草稿等能力被列为需合作伙伴权限、暂不普遍开放。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Google 以条款形式强制智能体接入路径，同时 Gmail 能力受限，直接影响所有 Workspace 集成开发者。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 78/100&lt;/p&gt;</description>
-<source url="https://techstackups.com/articles/google-workspace-ai-agents-mcp/">Hacker News AI</source>
-<category>Google Workspace</category>
-<category>MCP</category>
-<category>AI 智能体</category>
-<category>API 条款</category>
-</item>
-<item><title>三星电子取消内存开发负责人岗位以加速 HBM 研发</title><link>https://www.ithome.com/1/032/973.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/973.htm</guid>
-<pubDate>Thu, 26 Nov 2026 17:28:01 +0800</pubDate>
-<description>&lt;p&gt;三星电子敲定半导体 DS 部门人事与组织调整，取消“内存开发负责人”岗位，DRAM、Flash 与解决方案开发室改为直接向内存事业部长汇报，以减少管理层级、加快 HBM 等下一代产品决策。同时 System LSI 升级销售体系、新设逻辑开发团队，并更换美洲法人与美国生产法人负责人，整体围绕 AI 内存需求与美国生产布局展开。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;三星半导体核心组织重组直接关系 HBM 与 AI 内存供给节奏，是算力供应链的重要产业动向。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/032/973.htm">IT之家 · IT业界</source>
-<category>三星电子</category>
-<category>HBM</category>
-<category>半导体组织调整</category>
-<category>AI 内存</category>
-</item>
-<item><title>哈工大耐 1000℃ 消防侦察机器狗完成实战测试</title><link>https://www.ithome.com/1/032/950.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/950.htm</guid>
-<pubDate>Thu, 26 Nov 2026 17:10:05 +0800</pubDate>
-<description>&lt;p&gt;哈工大苏州高等研究院联合江苏省智能机器人技术创新中心等机构，研发出国内首个耐 1000℃ 高温的消防侦察机器狗，并于 11 月 25 日在苏州消防救援支队完成实战测试。其核心并非机器狗本体，而是源自长征五号热防护技术的复合防火面料，可支撑 1000℃ 环境下连续作业 10 分钟，覆盖约 95% 火场类型。设备还结合激光选通成像穿透浓烟与 5G 双链路冗余，实现高层建筑内高清图像回传。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;航天热防护材料跨界落地消防侦察，给出明确的耐温与作业时长指标，是具身智能在特种场景的实质进展。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/032/950.htm">IT之家 · 智能时代</source>
-<category>具身智能</category>
-<category>消防机器人</category>
-<category>航天材料</category>
-<category>哈工大</category>
-</item>
-<item><title>沃尔沃将人形机器人送进工厂 2027 年中正式上岗</title><link>https://www.ithome.com/1/032/939.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/939.htm</guid>
-<pubDate>Thu, 26 Nov 2026 16:52:18 +0800</pubDate>
-<description>&lt;p&gt;沃尔沃已将首批 Aeon 人形机器人运入比利时根特工厂，目前通过模仿学习训练其完成高精度取放任务，计划从 2027 年中期起在真实工况下逐步承担重复性与人体工学挑战大的工作。该机器人采用轮式移动、身高约 1.6 米、可搬运 10 公斤物件，标志着车企在固定机械臂之外加速引入 AI 驱动的柔性自动化。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;具身智能在汽车制造的真实落地节点，明确了训练方式与上岗时间表。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/032/939.htm">IT之家 · 智能时代</source>
-<category>具身智能</category>
-<category>人形机器人</category>
-<category>汽车制造</category>
-<category>沃尔沃</category>
 </item>
 </channel>
 </rss>
