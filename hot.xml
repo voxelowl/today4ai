@@ -11,14 +11,6 @@
 
 这一事件标志着 AI 系统正深度介入基础数学证明，今年已记录 64 项 AI 辅助科研进展，其中 11 月占 20 项，产出速度引发人类消化能力担忧。若结论成立，审稿模式或从期刊转向机器可验证验收，对计算复杂性、算法设计及 AI 科研范式产生深远影响。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, 新智元 (微信公众号), Hacker News AI, Latent Space&lt;/p&gt;</description>
 </item>
-<item><title>Claude Code 三员大将集体跳槽 OpenAI</title><link>https://todayforai.com/en/story/story-a69ee2a1-08a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a69ee2a1-08a</guid>
-<pubDate>Thu, 26 Nov 2026 15:46:43 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 上市后遭遇股价破发与核心人才流失的双重打击。11 月 24 日，其股价收于 76.60 美元，较 83 美元的发行价下跌约 8%，较首日开盘价更是跌去约 31%。与此同时，Claude Code 产品负责人 Cat Wu、桌面版创建者 Anthony Morris 及核心工程师 Thariq Shihipar 相继加入 OpenAI，形成原班人马重聚之势。
-
-多方信息交叉验证了此次人事变动的细节。Thariq 本人通过社交平台公开确认了加盟消息，称在 Anthropic 的时光令他自豪，但认为在 OpenAI 能对“把 AI 带给世界”贡献最大，并将加入一个面向十亿级用户的产品团队。Cat Wu 则出任 OpenAI 核心产品线产品管理负责人，管辖 ChatGPT、Codex 与开发者 API。值得注意的是，Claude Code 之父 Boris Cherny 并未随行，仍留守 Anthropic，并刚刚推出了代码自动审查修复功能 Claude Ship。
-
-此次集体跳槽直指 Anthropic 编程 Agent 业务的根基，也折射出 AI 编程竞争焦点正从基准跑分转向 Agent 在真实工程任务中的可靠交付能力。头部实验室之间的人才争夺持续升温，OpenAI 借机强化其编程产品线，而 Anthropic 则需在股价压力下稳住核心团队并证明其技术护城河。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;量子位官网, Rohan Paul (@rohanpaul_ai), 宝玉 (@dotey), InfoQ 中文&lt;/p&gt;</description>
-</item>
 <item><title>Anthropic 用 Claude 将 Messages API 迁移至 Rust 单请求 CPU 降 70%</title><link>https://todayforai.com/en/story/story-9d85b604-0d4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9d85b604-0d4</guid>
 <pubDate>Thu, 26 Nov 2026 04:52:14 +0800</pubDate>
 <description>&lt;p&gt;Anthropic 宣布已将其核心生产服务 Messages API 从 Python 迁移至 Rust，单请求 CPU 消耗下降约 70%。这一重写旨在应对自 2024 年初以来约 1800 倍的 API 流量增长，显著提升了服务效率与可扩展性。
@@ -26,6 +18,14 @@
 迁移过程中，Claude 仅用约一周便产出首版 Rust 代码，但团队强调真正的挑战在于验证新实现与旧服务的行为一致性。他们采用旧 Python 服务作为对照基准，并借助多组 Claude 智能体自动定位并修复两版差异，形成了一套可复用的 AI 辅助验证范式。
 
 此次迁移不仅展示了 AI 在大型成熟代码库语言重写中的潜力，也凸显了生成-验证差距框架的实用性：当验证解比生成解更容易时，模型可承担复杂迁移任务。这为行业提供了高效、低风险的服务重构路径，有望推动更多企业探索 AI 驱动的工程实践。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), Hacker News AI, Anthropic AI (@AnthropicAI)&lt;/p&gt;</description>
+</item>
+<item><title>Claude Code 三员大将集体跳槽 OpenAI</title><link>https://todayforai.com/en/story/story-a69ee2a1-08a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a69ee2a1-08a</guid>
+<pubDate>Thu, 26 Nov 2026 15:46:43 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 上市后遭遇股价破发与核心人才流失的双重打击。11 月 24 日，其股价收于 76.60 美元，较 83 美元的发行价下跌约 8%，较首日开盘价更是跌去约 31%。与此同时，Claude Code 产品负责人 Cat Wu、桌面版创建者 Anthony Morris 及核心工程师 Thariq Shihipar 相继加入 OpenAI，形成原班人马重聚之势。
+
+多方信息交叉验证了此次人事变动的细节。Thariq 本人通过社交平台公开确认了加盟消息，称在 Anthropic 的时光令他自豪，但认为在 OpenAI 能对“把 AI 带给世界”贡献最大，并将加入一个面向十亿级用户的产品团队。Cat Wu 则出任 OpenAI 核心产品线产品管理负责人，管辖 ChatGPT、Codex 与开发者 API。值得注意的是，Claude Code 之父 Boris Cherny 并未随行，仍留守 Anthropic，并刚刚推出了代码自动审查修复功能 Claude Ship。
+
+此次集体跳槽直指 Anthropic 编程 Agent 业务的根基，也折射出 AI 编程竞争焦点正从基准跑分转向 Agent 在真实工程任务中的可靠交付能力。头部实验室之间的人才争夺持续升温，OpenAI 借机强化其编程产品线，而 Anthropic 则需在股价压力下稳住核心团队并证明其技术护城河。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;量子位官网, Rohan Paul (@rohanpaul_ai), 宝玉 (@dotey), InfoQ 中文&lt;/p&gt;</description>
 </item>
 <item><title>Sand.ai 发布 480B 视频模型 MAGI-2 定价仅对手七分之一</title><link>https://todayforai.com/en/story/story-f63bad47-c9b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f63bad47-c9b</guid>
 <pubDate>Thu, 26 Nov 2026 14:41:23 +0800</pubDate>
