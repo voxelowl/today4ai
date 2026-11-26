@@ -1,38 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Thu, 26 Nov 2026 09:51:43 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 26 Nov 2026 12:00:21 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
-<item><title>知乎间接投资 DeepSeek 获低个位数股权</title><link>https://www.ithome.com/1/032/582.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/582.htm</guid>
+<item><title>Kioxia and Nvidia Partner to Extend GPU Memory to Petabyte Scale</title><link>https://www.ithome.com/1/032/722.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/722.htm</guid>
+<pubDate>Thu, 26 Nov 2026 12:00:21 +0800</pubDate>
+<description>&lt;p&gt;Kioxia and Nvidia have launched a proof-of-concept on a GB200 NVL72 rack system equipped with 144 KIOXIA XD8 NVMe SSDs totaling roughly 1.1PB, combining them with Nvidia&amp;#x27;s SCADA software library to break past HBM memory limits via 512-byte granular random access to SSDs. The test targets a database of about 2 trillion vectors and also covers large-scale datasets used by graph neural networks.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;铠侠英伟达联手将 GPU 显存扩展至 PB 级&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以 SSD 扩展 GPU 有效显存至 PB 级，直击 AI 推理与向量检索的内存墙瓶颈，是算力基础设施的重要探索方向。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 72/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/032/722.htm">IT之家 · 智能时代</source>
+<category>算力基础设施</category>
+<category>GPU 显存扩展</category>
+<category>NVMe SSD</category>
+<category>英伟达</category>
+<category>铠侠</category>
+</item>
+<item><title>SpaceX Cuts AI Compute Rental Prices by Up to 35 Percent</title><link>https://www.ithome.com/1/032/716.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/716.htm</guid>
+<pubDate>Thu, 26 Nov 2026 11:50:30 +0800</pubDate>
+<description>&lt;p&gt;SemiAnalysis reports that SpaceX has cut spot rental prices for Blackwell GPUs from roughly $15 per GPU-hour to $10-12, a 20-35% reduction. Uncertainty has also emerged over whether Anthropic will renew a contract covering about 50,000 H200 GPUs, while SpaceX is already offering capacity to new customers at around $5 per GPU-hour, potentially intensifying price competition in AI compute.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SpaceX 下调 AI 算力租赁价格 降幅最高 35%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部算力供应商大幅降价叠加核心客户续约存疑，是观察 AI 算力供需与定价走向的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · compute · signal 72/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/032/716.htm">IT之家 · 智能时代</source>
+<category>算力租赁</category>
+<category>SpaceX</category>
+<category>Anthropic</category>
+<category>GPU</category>
+</item>
+<item><title>China-Led AI Training Data Quality Standard Adopted Across 30+ European Nations</title><link>https://www.ithome.com/1/032/714.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/714.htm</guid>
+<pubDate>Thu, 26 Nov 2026 11:47:44 +0800</pubDate>
+<description>&lt;p&gt;The ISO/IEC 5259-4:2024 international standard on AI training data quality, led by Chinese experts, has been adopted by European bodies as a key technical reference for AI compliance assessment in more than 30 European countries, covering data collection, labeling and quality judgment. The standard defines lifecycle quality management processes and technical requirements for training data, marking a notable step in China&amp;#x27;s deeper participation in global AI rule-making.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;中国牵头 AI 训练数据质量国际标准获欧洲 30 余国采纳&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;训练数据质量首次成为跨国合规技术基准，直接影响数据治理与模型合规路径。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/032/714.htm">IT之家 · 智能时代</source>
+<category>国际标准</category>
+<category>数据治理</category>
+<category>AI 合规</category>
+</item>
+<item><title>Amodei Rejects Claims He Advocates Handing Control to AI</title><link>https://www.ithome.com/1/032/655.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/655.htm</guid>
+<pubDate>Thu, 26 Nov 2026 11:34:08 +0800</pubDate>
+<description>&lt;p&gt;Anthropic CEO Dario Amodei publicly rejected claims that he advocates handing human free will to AI, calling the idea absurd and insisting AI must be governed by democratic processes with humans retaining final decision authority. He distinguished task automation from surrendering autonomy, warned about recursive self-improvement risks, and criticized rivals for contradictory automation messaging.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;阿莫迪否认主张人类交出 AI 控制权&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 实验室掌门人罕见公开回应治理争议，涉及 AI 控制权与自动化边界这一核心议题。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/032/655.htm">IT之家 · 智能时代</source>
+<category>AI 治理</category>
+<category>Anthropic</category>
+<category>自动化</category>
+</item>
+<item><title>Anthropic Cuts Riemann Hypothesis Proof Code by 99.5% Using Claude</title><link>https://www.ithome.com/1/032/611.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/611.htm</guid>
+<pubDate>Thu, 26 Nov 2026 11:01:11 +0800</pubDate>
+<description>&lt;p&gt;Anthropic researcher Luke Sernau and colleagues used Claude to rewrite and refactor a 17.4-million-line Lean formalization of the Riemann Hypothesis down to roughly 76,000 lines, a 99.56% reduction. The new version builds in one to two hours on an ordinary 12-core, 24GB machine, versus 21 hours on high-end AWS hardware for the original. The effort answers community criticism that the original proof was too large to verify.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 用 Claude 将黎曼猜想证明代码精简 99.5%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 辅助大规模形式化数学工程的重要实践，展示了模型在代码重构与证明精简上的实际能力。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/032/611.htm">IT之家 · 智能时代</source>
+<category>Anthropic</category>
+<category>Claude</category>
+<category>形式化数学</category>
+<category>Lean</category>
+<category>黎曼猜想</category>
+</item>
+<item><title>Leaked Opus 5.6 Build Generates Elaborate AI Presentation Page</title><link>https://x.com/dotey/status/2125781282349076981</link><guid isPermaLink="true">https://x.com/dotey/status/2125781282349076981</guid>
+<pubDate>Thu, 26 Nov 2026 10:38:47 +0800</pubDate>
+<description>&lt;p&gt;A viral clip shows a webpage reportedly generated by a grayscale Opus 5.6 build from a single casual prompt, producing an elaborate AI intelligence-explosion presentation with heavy graphics and transitions. The demo hints at frontier models&amp;#x27; one-shot complex frontend output, though the model version and provenance remain unverified.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Opus 5.6 灰度版生成炫技级 AI 演示网页&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以真实提示词与成品录屏直观呈现前沿模型的一次性复杂前端生成能力，值得关注但缺乏官方确认。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · llm · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/dotey/status/2125781282349076981">宝玉 (@dotey)</source>
+<category>大模型</category>
+<category>Anthropic</category>
+<category>前端生成</category>
+<category>演示网页</category>
+</item>
+<item><title>OpenAI Merges ChatGPT Chat and Work Mode Usage Quotas</title><link>https://www.ithome.com/1/032/599.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/599.htm</guid>
+<pubDate>Thu, 26 Nov 2026 10:30:00 +0800</pubDate>
+<description>&lt;p&gt;OpenAI has begun rolling out a merged chat and work mode to a small subset of Pro subscribers, with both modes sharing a single usage quota system that may cause heavy users to hit limits sooner. Conversations on the Instant model remain uncounted and usable even after quotas are exhausted, with broader rollout planned for December.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 合并 ChatGPT 聊天与工作模式额度&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及 ChatGPT 核心产品额度机制调整，直接影响重度用户的日常使用成本与体验。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 38/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/032/599.htm">IT之家 · 智能时代</source>
+<category>ChatGPT</category>
+<category>OpenAI</category>
+<category>订阅额度</category>
+</item>
+<item><title>Zhihu Confirms Indirect Low Single-Digit Stake in DeepSeek</title><link>https://www.ithome.com/1/032/582.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/582.htm</guid>
 <pubDate>Thu, 26 Nov 2026 09:51:43 +0800</pubDate>
-<description>&lt;p&gt;知乎通过参投的天津砺思星深基金间接持有 DeepSeek 低个位数百分比股权，CEO 周源称这是审慎评估后的长期战略决策。他强调投资不会牺牲主营业务与财务稳健性，知乎将继续执行回购。同期知乎三季度营收 6.59 亿元基本持平，经调整净亏损扩大至 3077 万元。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司 DeepSeek 的股权结构出现新机构股东，且由上市公司公开披露与高管定调，具备产业资本动向的观察价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Zhihu has indirectly acquired a low single-digit percentage stake in DeepSeek through a fund it backs, with CEO Zhou Yuan framing it as a long-term strategic decision made after careful evaluation. He stressed the investment will not come at the expense of the core business or financial stability, and buybacks will continue. Zhihu&amp;#x27;s Q3 revenue was flat at RMB 659 million while adjusted net loss widened to RMB 30.77 million.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;知乎间接投资 DeepSeek 获低个位数股权&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 公司 DeepSeek 的股权结构出现新机构股东，且由上市公司公开披露与高管定调，具备产业资本动向的观察价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 42/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/582.htm">IT之家 · IT业界</source>
 <category>DeepSeek</category>
 <category>知乎</category>
 <category>投融资</category>
 <category>产业资本</category>
 </item>
-<item><title>ChatGPT 聊天与工作模式合并计量 重度用户额度将更快耗尽</title><link>https://x.com/rohanpaul_ai/status/2125768849782120797</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125768849782120797</guid>
+<item><title>ChatGPT Chat and Work Modes Share One Usage Meter, Heavy Users Hit Caps Sooner</title><link>https://x.com/rohanpaul_ai/status/2125768849782120797</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125768849782120797</guid>
 <pubDate>Thu, 26 Nov 2026 09:49:23 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 调整 ChatGPT 订阅额度计量方式，将普通 Chat 与面向长任务多步执行的 Work 模式合并到同一用量池，而 Work 此前与 Codex 编码智能体共享额度。即时聊天不计入该计量，额度耗尽后仍可使用，压力因此集中在推理与智能体类任务上。由于按 token 计量，模型选择与任务规模直接决定订阅者消耗额度的速度。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;订阅额度计量规则变化直接影响 ChatGPT 重度用户的成本与使用策略，属于值得关注的产品政策调整。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI has changed how ChatGPT subscription usage is metered, merging the standard Chat mode and the long-running multi-step Work mode into a single usage pool; Work previously shared a pool with the Codex coding agent. Instant chats stay off the meter and keep working after the budget runs out, concentrating the squeeze on reasoning and agentic workloads. Because usage is measured in tokens, model choice and task size now directly determine how fast a subscriber burns through a plan.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;ChatGPT 聊天与工作模式合并计量 重度用户额度将更快耗尽&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;订阅额度计量规则变化直接影响 ChatGPT 重度用户的成本与使用策略，属于值得关注的产品政策调整。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 58/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2125768849782120797">Rohan Paul (@rohanpaul_ai)</source>
 <category>ChatGPT</category>
 <category>订阅额度</category>
 <category>OpenAI</category>
 <category>智能体</category>
 </item>
-<item><title>约翰霍普金斯与 Together AI 研究发现高推理努力反而更差</title><link>https://x.com/rohanpaul_ai/status/2125762008876519662</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125762008876519662</guid>
+<item><title>Johns Hopkins and Together AI Find Higher Reasoning Effort Can Hurt Accuracy</title><link>https://x.com/rohanpaul_ai/status/2125762008876519662</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125762008876519662</guid>
 <pubDate>Thu, 26 Nov 2026 09:22:12 +0800</pubDate>
-<description>&lt;p&gt;约翰霍普金斯大学与 Together AI 的新论文发现，提高推理努力（reasoning effort）并不总是更好：在低努力已能解决的任务上，高努力反而经常失败，尽管整体准确率上升。研究测试了 8 个模型（含 GPT-5.6、Claude Sonnet 5）在数学、科学、终端与编程基准上的各档努力水平，发现“先低努力、验证失败后再升级”的策略在所有模型上追平或超过固定最高努力，且 GPQA 成本中位数降低 41.5%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究给出可立即落地的智能体成本优化策略，并揭示推理努力并非越高越好的反直觉结论。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;A new Johns Hopkins and Together AI paper finds that higher reasoning effort often fails tasks that lower effort already solved, even as overall accuracy rises. Testing 8 models including GPT-5.6 and Claude Sonnet 5 across math, science, terminal and coding benchmarks, the authors show that starting at low effort and escalating only after a verified failure matches or beats fixed top effort for every model, at a median 41.5% lower GPQA cost.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;约翰霍普金斯与 Together AI 研究发现高推理努力反而更差&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究给出可立即落地的智能体成本优化策略，并揭示推理努力并非越高越好的反直觉结论。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2125762008876519662">Rohan Paul (@rohanpaul_ai)</source>
 <category>推理努力</category>
 <category>智能体</category>
 <category>成本优化</category>
 <category>基准测试</category>
 </item>
-<item><title>三星与 SK 海力士获长江存储 Xtacking 技术授权</title><link>https://www.ithome.com/1/032/568.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/568.htm</guid>
+<item><title>Samsung and SK Hynix License YMTC Xtacking Stacking Tech</title><link>https://www.ithome.com/1/032/568.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/568.htm</guid>
 <pubDate>Thu, 26 Nov 2026 09:20:30 +0800</pubDate>
-<description>&lt;p&gt;据日经亚洲报道，三星电子与 SK 海力士已通过交叉许可协议，获得长江存储 Xtacking 晶栈架构的部分技术使用权，用于 3D NAND 堆叠。Xtacking 将外围电路置于存储单元之上，可使芯片面积减少约 25%、开发周期缩短三个月、生产周期缩短 20%，标志着中国存储厂商首次在核心架构层面被韩系巨头反向采用。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;存储三巨头首次在核心堆叠架构上形成反向技术授权，是 NAND 竞争格局与知识产权版图的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Nikkei Asia reports that Samsung and SK Hynix have secured partial rights to YMTC&amp;#x27;s Xtacking architecture via cross-licensing agreements for 3D NAND stacking. By placing peripheral circuits above memory cells, Xtacking cuts die area by roughly 25%, shortens development by three months and production cycles by 20%, marking a rare case of Korean memory giants adopting core architecture from a Chinese challenger.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;三星与 SK 海力士获长江存储 Xtacking 技术授权&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;存储三巨头首次在核心堆叠架构上形成反向技术授权，是 NAND 竞争格局与知识产权版图的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/568.htm">IT之家 · IT业界</source>
 <category>存储芯片</category>
 <category>3D NAND</category>
@@ -40,63 +102,72 @@
 <category>三星</category>
 <category>SK 海力士</category>
 </item>
-<item><title>美国 AI 芯片管制出现 18 个月空窗期</title><link>https://x.com/rohanpaul_ai/status/2125761319936860611</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125761319936860611</guid>
+<item><title>US AI Chip Export Controls Left 18-Month Licensing Gap</title><link>https://x.com/rohanpaul_ai/status/2125761319936860611</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125761319936860611</guid>
 <pubDate>Thu, 26 Nov 2026 09:19:28 +0800</pubDate>
-<description>&lt;p&gt;路透社披露，特朗普政府于 2025 年 5 月搁置拜登时期的全球许可规则，直到 2026 年 11 月 16 日才以新规替代，其间新加坡、马来西亚的数据中心可无证采购英伟达芯片并向中国企业远程出租算力。新规要求对输往新马泰印尼巴西的先进芯片实施许可，并限制全球任何数据中心向中国总部企业提供超过 12M TPP 算力的行为。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是出口管制体系一次长达 18 个月的实质性监管真空，直接改变全球 AI 算力流向与合规成本。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 74/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Reuters reports that the Trump administration shelved Biden&amp;#x27;s global licensing rule in May 2025 and only replaced it on November 16, 2026, leaving an 18-month window in which data centers in Singapore and Malaysia could buy Nvidia chips without licenses and rent compute to Chinese firms. The replacement rule imposes licenses on advanced chips bound for Singapore, Malaysia, Thailand, Indonesia and Brazil, and caps Chinese-headquartered firms&amp;#x27; access to advanced AI compute above 12M TPP at any data center worldwide.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美国 AI 芯片管制出现 18 个月空窗期&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是出口管制体系一次长达 18 个月的实质性监管真空，直接改变全球 AI 算力流向与合规成本。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 74/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2125761319936860611">Rohan Paul (@rohanpaul_ai)</source>
 <category>出口管制</category>
 <category>AI 芯片</category>
 <category>算力基础设施</category>
 <category>英伟达</category>
 </item>
-<item><title>三部委发文推动网络大模型与智能体运维</title><link>https://www.ithome.com/1/032/562.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/562.htm</guid>
+<item><title>Sand AI Debuts 480B-Parameter MAGI-2 Video Model at Top of Rankings</title><link>https://x.com/ArtificialAnlys/status/2125759745655210113</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2125759745655210113</guid>
+<pubDate>Thu, 26 Nov 2026 09:13:12 +0800</pubDate>
+<description>&lt;p&gt;Sand AI released MAGI-2 on November 24, a 480B-parameter (28B active) multi-head latent MoE video model that debuts statistically tied for #1 on AA-Video-I2V v2.1 at $0.08/s, roughly 7x cheaper than Dreamina Seedance 2.5. It generates up to 30 seconds of 1080p 25fps audio-video with omni-reference across up to 20 media items, is live on Higgsfield, VidMuse and the Sand AI Open Platform, and the company has signaled intent to follow with open source releases.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Sand AI 发布 480B 参数 MAGI-2 视频模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;480B 参数 MoE 视频模型以约七分之一价格登顶图生视频榜单，并承诺后续开源，是视频生成竞争格局的重要变量。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · llm · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/ArtificialAnlys/status/2125759745655210113">Artificial Analysis (@ArtificialAnlys)</source>
+<category>视频生成</category>
+<category>MoE</category>
+<category>模型发布</category>
+<category>Sand AI</category>
+</item>
+<item><title>China Ministries Push Large-Model and Agent-Driven Network Operations</title><link>https://www.ithome.com/1/032/562.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/562.htm</guid>
 <pubDate>Thu, 26 Nov 2026 09:03:18 +0800</pubDate>
-<description>&lt;p&gt;工信部联合国家网信办、国家发展改革委印发《新一代通信网建设实施方案》，明确提出探索大小模型协同、人机协同、机机协同的网络运维新范式，并搭建网络大模型与智能体开发工具链及自动化运维平台。方案以建设高等级自智网络为目标，为通信行业 AI 原生运维指明政策方向。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国家级政策首次将网络大模型与智能体工具链写入通信网建设方案，为 AI 原生运维定调。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;China&amp;#x27;s MIIT, Cyberspace Administration and NDRC issued a new communications network construction plan that explicitly calls for exploring large-small model collaboration and human-machine, machine-machine coordination in network operations. It also directs building a network large-model and agent toolchain plus an automated operations platform, aiming at high-level autonomous networks.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;三部委发文推动网络大模型与智能体运维&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国家级政策首次将网络大模型与智能体工具链写入通信网建设方案，为 AI 原生运维定调。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/562.htm">IT之家 · 智能时代</source>
 <category>政策</category>
 <category>自智网络</category>
 <category>智能体</category>
 <category>网络大模型</category>
 </item>
-<item><title>Jeep 三年推多款新能源车 首款 2027 年搭 Momenta 智驾</title><link>https://www.ithome.com/1/032/559.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/559.htm</guid>
+<item><title>Jeep Plans Multiple EVs in Three Years with Momenta Self-Driving</title><link>https://www.ithome.com/1/032/559.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/559.htm</guid>
 <pubDate>Thu, 26 Nov 2026 08:52:17 +0800</pubDate>
-<description>&lt;p&gt;Jeep 在广州发布“Jeep+”生态战略，宣布未来三年推出多款新能源车型，首款计划 2027 年上市，并形成燃油、插混、纯电完整动力布局。智能化方面，Jeep 与 Momenta 深度合作，联合开发基于世界模型与 XHEART 大模型芯片的软硬一体智驾方案。渠道上计划 2027 年底网点超 160 家、2028 年底超 220 家。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;传统车企在华电动化与智驾合作的具体路线图，含明确时间表与 Momenta 技术方案。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Jeep unveiled its \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Jeep 三年推多款新能源车 首款 2027 年搭 Momenta 智驾&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;传统车企在华电动化与智驾合作的具体路线图，含明确时间表与 Momenta 技术方案。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 38/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/559.htm">IT之家 · IT业界</source>
 <category>智能驾驶</category>
 <category>新能源汽车</category>
 <category>Momenta</category>
 <category>Jeep</category>
 </item>
-<item><title>Anthropic 将黎曼猜想证明代码精简 99.5%</title><link>https://www.qbitai.com/2026/11/512819.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/512819.html</guid>
+<item><title>Anthropic Slashes Riemann Hypothesis Proof Code by 99.5%</title><link>https://www.qbitai.com/2026/11/512819.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/512819.html</guid>
 <pubDate>Thu, 26 Nov 2026 08:40:37 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 研究员 Luke Sernau 与同事借助 Claude，将此前 1740 万行的黎曼猜想 Lean 形式化证明重构压缩至约 7.6 万行，代码量削减 99.56%，并附带 30 万行带导读的清晰版本。新版本可在 12 核 24GB 内存的普通机器上于 1 至 2 小时内完成构建，而原版需在 AWS 高配机器上编译 21 小时。该证明目前仅通过机器验证，尚无数学家完整通读，也无配套数学论文。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 参与重构超大规模形式化数学证明，将工程可验证性从不可用拉回可用，是 AI for Science 的标志性案例。&lt;/p&gt;&lt;p&gt;量子位官网 · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Anthropic researcher Luke Sernau and colleagues, working with Claude, refactored the previously 17.4-million-line Lean formalization of the Riemann Hypothesis down to roughly 76,000 lines, a 99.56% reduction, alongside a 300,000-line annotated reading version. The new build completes in one to two hours on an ordinary 12-core, 24GB machine, versus 21 hours on high-end AWS hardware for the original. The proof has only passed machine verification so far, with no full human mathematician review or accompanying paper.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Anthropic 将黎曼猜想证明代码精简 99.5%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 参与重构超大规模形式化数学证明，将工程可验证性从不可用拉回可用，是 AI for Science 的标志性案例。&lt;/p&gt;&lt;p&gt;量子位官网 · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.qbitai.com/2026/11/512819.html">量子位官网</source>
 <category>形式化数学</category>
 <category>Anthropic</category>
 <category>Lean</category>
 <category>AI for Science</category>
 </item>
-<item><title>三部委发布通信网方案 2030 年适时启动 6G 建设</title><link>https://www.ithome.com/1/032/553.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/553.htm</guid>
+<item><title>China Sets 2030 Target for 6G Rollout in New Telecom Plan</title><link>https://www.ithome.com/1/032/553.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/553.htm</guid>
 <pubDate>Thu, 26 Nov 2026 08:22:26 +0800</pubDate>
-<description>&lt;p&gt;工信部等三部委联合印发《新一代通信网建设实施方案》，明确到 2030 年建成覆盖完善、性能领先的新一代通信网，并适时开展 6G 网络建设。方案以 5G-A/6G、万兆光网、卫星互联网为核心支撑，同时要求通信网架构向以支持 AI 应用为中心演进，构建多层级算力设施并探索网络大模型与智能运维。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国家级通信基建顶层规划落地，直接锚定 6G 时间表与 AI 算力网络融合方向，对算力与产业读者具备明确信号价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;China&amp;#x27;s MIIT, Cyberspace Administration and NDRC jointly issued a new telecom infrastructure plan targeting a nationwide advanced network by 2030, with 6G deployment to begin at an appropriate time. The plan centers on 5G-A/6G, 10-gigabit optical networks and satellite internet, and calls for network architecture to evolve around AI applications, multi-tier compute facilities and network large models for intelligent operations.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;三部委发布通信网方案 2030 年适时启动 6G 建设&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国家级通信基建顶层规划落地，直接锚定 6G 时间表与 AI 算力网络融合方向，对算力与产业读者具备明确信号价值。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/553.htm">IT之家 · IT业界</source>
 <category>6G</category>
 <category>政策规划</category>
 <category>算力网络</category>
 <category>卫星互联网</category>
 </item>
-<item><title>ElevenLabs 拟 2027 年融资 目标估值 330 亿美元</title><link>https://www.ithome.com/1/032/548.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/548.htm</guid>
+<item><title>ElevenLabs Eyes $33 Billion Valuation in Early 2027 Funding Talks</title><link>https://www.ithome.com/1/032/548.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/548.htm</guid>
 <pubDate>Thu, 26 Nov 2026 08:04:16 +0800</pubDate>
-<description>&lt;p&gt;ElevenLabs 已就新一轮融资展开初步洽谈，目标估值 330 亿美元，较今年 9 月的 220 亿美元上涨 50%，管理层计划 2027 年第一季度正式启动。其年度经常性收入已从 9 月的 6 亿美元增至 7 亿美元，商业化产品覆盖对话式智能体、多语言内容创作与开发者 API 三条线。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 语音头部公司估值半年跳涨 50% 且 ARR 破 7 亿美元，是观察语音赛道商业化与资本热度的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 72/100&lt;/p&gt;</description>
+<description>&lt;p&gt;ElevenLabs has begun preliminary talks for a new funding round targeting a $33 billion valuation, a 50% jump from $22 billion in September, with management planning to formally launch the process in Q1 2027. Annual recurring revenue has climbed from $600 million in September to $700 million, backed by three commercial lines: conversational agents, multilingual content creation and a developer API.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;ElevenLabs 拟 2027 年融资 目标估值 330 亿美元&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 语音头部公司估值半年跳涨 50% 且 ARR 破 7 亿美元，是观察语音赛道商业化与资本热度的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 72/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/548.htm">IT之家 · 智能时代</source>
 <category>融资估值</category>
 <category>语音合成</category>
 <category>ElevenLabs</category>
 <category>商业化</category>
 </item>
-<item><title>高端 PCB 排单延至 2028 年，AI 服务器用板层数翻倍</title><link>https://www.ithome.com/1/032/545.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/545.htm</guid>
+<item><title>High-End PCB Backlogs Stretch to 2028 as AI Server Boards Multiply Layers</title><link>https://www.ithome.com/1/032/545.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/545.htm</guid>
 <pubDate>Thu, 26 Nov 2026 07:54:16 +0800</pubDate>
-<description>&lt;p&gt;全球电子协会发布供应链警报，高端 PCB 供不应求，部分头部厂商高端产品已排产至 2028 年。AI 服务器用板从普通 12 层转向 40-60 层以上，显著推高玻纤布、树脂、铜箔等材料消耗，订单量同比增长 56.1% 而出货量仅增 13.3%。协会预计短缺至少持续到 2027 年上半年，风险可能堪比 2021 年芯片荒。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 算力扩张正把压力传导至 PCB 与上游材料，交期与层数数据直接关系数据中心建设节奏。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;The Global Electronics Association issued a supply-chain alert: high-end PCB demand far outstrips supply, with some leading manufacturers&amp;#x27; premium products booked out to 2028. AI server boards are shifting from roughly 12 layers to 40-60+ layers, sharply raising consumption of glass fabric, resin, copper foil and laminates; orders grew 56.1% year-on-year while shipments rose only 13.3%. The association expects shortages to persist at least through H1 2027, with risks potentially comparable to the 2021 chip crunch.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;高端 PCB 排单延至 2028 年，AI 服务器用板层数翻倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 算力扩张正把压力传导至 PCB 与上游材料，交期与层数数据直接关系数据中心建设节奏。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 78/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/032/545.htm">IT之家 · IT业界</source>
 <category>PCB</category>
 <category>AI 服务器</category>
@@ -199,79 +270,6 @@
 <category>OpenAI</category>
 <category>数学推理</category>
 <category>理论计算机科学</category>
-</item>
-<item><title>纯汇编实现 Qwen3 推理 单文件 14 KB 跑出 126 tok/s</title><link>https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os</link><guid isPermaLink="true">https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os</guid>
-<pubDate>Thu, 26 Nov 2026 06:15:34 +0800</pubDate>
-<description>&lt;p&gt;开发者发布 llm.asm 项目，用 100% 纯 x86-64 NASM 汇编从零实现三个完整 LLM 工程，零 C/C++/Rust、零 libc、零运行时依赖。其中 Qwen3-0.6B 推理二进制仅 14,712 字节，在 40 线程下解码达 126.8 tok/s，官方称在 1 至 40 线程区间比 llama.cpp CPU Q8_0 快 18% 至 36%，且与 PyTorch FP32 的贪心解码 64/64 token 完全一致。项目还包含手写数学内核、AVX2+FMA+F16C 矩阵引擎、BPE 分词器、futex 线程池与裸机 SMP 内核。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以极端工程手段重写推理栈并给出可验证的性能与数值一致性数据，对理解 LLM 底层实现极具参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 78/100&lt;/p&gt;</description>
-<source url="https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os">Hacker News AI</source>
-<category>开源项目</category>
-<category>推理优化</category>
-<category>汇编</category>
-<category>Qwen</category>
-</item>
-<item><title>标普将英伟达 AA 评级列入负面观察</title><link>https://x.com/rohanpaul_ai/status/2125710560125956397</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125710560125956397</guid>
-<pubDate>Thu, 26 Nov 2026 05:57:45 +0800</pubDate>
-<description>&lt;p&gt;标普全球评级将英伟达 AA 信用评级列入负面观察名单，可能在 90 天内下调一档。该机构同时把英伟达的管理与治理评估从正面下调至中性，理由是部分董事任期过长可能损害独立性、高管监督薄弱且缺乏继任计划，使公司过度依赖黄仁勋。除非调查发现英伟达规避出口管制或低报中国业务敞口，否则预计仅下调一档。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是评级机构对全球最重要 AI 算力公司治理与合规风险的一次正式警示，直接影响其融资成本与市场信心。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 72/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2125710560125956397">Rohan Paul (@rohanpaul_ai)</source>
-<category>英伟达</category>
-<category>信用评级</category>
-<category>公司治理</category>
-<category>出口管制</category>
-</item>
-<item><title>美预算机构与 Anthropic 的 AI 增长预测相差 10 万亿美元</title><link>https://x.com/rohanpaul_ai/status/2125709534954205484</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125709534954205484</guid>
-<pubDate>Thu, 26 Nov 2026 05:53:41 +0800</pubDate>
-<description>&lt;p&gt;英国《金融时报》指出，美国国会预算办公室仅将 AI 视为每年额外 0.1 至 0.2 个百分点的增长动力，而 Anthropic 九月发布的三情景模型中最激进情景给出 15% 的年度增长贡献，两者对应的 GDP 差距高达 10 万亿美元。该极端情景的前提是 AI 在多数知识任务上超越人类并近乎全自主完成，届时知识型工作失业率将升至约 18%；英国预算责任办公室的中央估计则仅为 0.2 个百分点。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;官方财政预测与前沿实验室情景假设之间出现 10 万亿美元量级分歧，直接关系 AI 经济影响的政策定价。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2125709534954205484">Rohan Paul (@rohanpaul_ai)</source>
-<category>AI经济影响</category>
-<category>政策预测</category>
-<category>Anthropic</category>
-<category>生产力</category>
-</item>
-<item><title>谷歌申请 AI 定制视频流专利引发争议</title><link>https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent</link><guid isPermaLink="true">https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent</guid>
-<pubDate>Thu, 26 Nov 2026 05:51:26 +0800</pubDate>
-<description>&lt;p&gt;谷歌去年提交的 My Channel 专利近日公开，该系统依据用户人口统计、观看历史、IP 与 GPS 等数据自动生成提示词，驱动大模型产出个性化 AI 视频与广告。该专利目前已被驳回，但谷歌可能上诉或修改后重新提交。文章认为此类技术或将进一步加剧互联网内容同质化与低质化。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该专利揭示了生成式 AI 在个性化内容分发上的激进应用路径，涉及数据隐私与内容生态质量，值得行业关注。&lt;/p&gt;&lt;p&gt;The Verge AI · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.theverge.com/entertainment/1042221/google-my-channel-ai-video-patent">The Verge AI</source>
-<category>生成式 AI</category>
-<category>谷歌</category>
-<category>专利</category>
-<category>个性化推荐</category>
-<category>内容生态</category>
-</item>
-<item><title>Anthropic 用 Claude 生成 7.6 万行 Lean 4 黎曼猜想证明</title><link>https://github.com/lsernau/grh-lean</link><guid isPermaLink="true">https://github.com/lsernau/grh-lean</guid>
-<pubDate>Thu, 26 Nov 2026 05:48:10 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 团队发布了一份基于 Lean 4 与 Mathlib 的黎曼猜想及 Dirichlet L 函数广义黎曼猜想形式化证明，仅依赖 propext、Classical.choice、Quot.sound 三条公理。该成果由 Claude 与研究人员协作产出，提供约 30 万行可读版与 7.6 万行精简版两套工程，但仅通过机器校验，尚无数学家通读或配套论文。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 参与形式化数学最核心难题之一，是检验大模型推理与定理证明能力的标志性事件。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 88/100&lt;/p&gt;</description>
-<source url="https://github.com/lsernau/grh-lean">Hacker News AI</source>
-<category>形式化数学</category>
-<category>Lean 4</category>
-<category>Anthropic</category>
-<category>黎曼猜想</category>
-<category>AI4Science</category>
-</item>
-<item><title>Defang 遭入侵 主数据库与部署凭证泄露</title><link>https://defang.io/blog/post/security-incident-november-2026/</link><guid isPermaLink="true">https://defang.io/blog/post/security-incident-november-2026/</guid>
-<pubDate>Thu, 26 Nov 2026 05:47:16 +0800</pubDate>
-<description>&lt;p&gt;云部署平台 Defang 披露，攻击者于 11 月 12 日入侵其构建系统，窃取运行凭证并下载主数据库，11 月 23 日才确认。若用户安装过 Defang GitHub App，相关凭证可能被用于攻击其 GitHub 仓库与云账户，官方已轮换凭证并要求用户自行核查。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;云部署平台供应链入侵事件，涉及 GitHub App 过度授权与云账户凭证外泄，对使用同类部署工具的团队有直接安全警示价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://defang.io/blog/post/security-incident-november-2026/">Hacker News AI</source>
-<category>安全事件</category>
-<category>供应链安全</category>
-<category>云部署</category>
-<category>凭证泄露</category>
-</item>
-<item><title>Anthropic 核心成员 Thariq 跳槽 OpenAI</title><link>https://x.com/rohanpaul_ai/status/2125704462153257074</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125704462153257074</guid>
-<pubDate>Thu, 26 Nov 2026 05:33:32 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 成员 Thariq（@trq212）公开宣布已加入 OpenAI，称在 Anthropic 的时光令他自豪，但认为在 OpenAI 能对“把 AI 带给世界”这一目标贡献最大。他将此次流动视为硅谷人才与思想流动的体现，并提到将与多位旧识共事、打造面向十亿级用户的产品。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部 AI 实验室之间的人才流动是观察技术路线与组织竞争的一手信号，值得关注。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2125704462153257074">Rohan Paul (@rohanpaul_ai)</source>
-<category>人才流动</category>
-<category>OpenAI</category>
-<category>Anthropic</category>
-<category>产业动态</category>
-</item>
-<item><title>OpenCode 将 codemode 运行时拆分为独立项目</title><link>https://x.com/opencode/status/2125702030832349374</link><guid isPermaLink="true">https://x.com/opencode/status/2125702030832349374</guid>
-<pubDate>Thu, 26 Nov 2026 05:23:52 +0800</pubDate>
-<description>&lt;p&gt;OpenCode 将驱动 codemode 的运行时抽离为独立开源包 Psychoscript，可直接执行 JavaScript 并支持执行中途暂停与恢复，且不依赖 WASM。团队同时推进 Rust 实现，目标是让原生应用把 JS 当作嵌入式脚本语言使用。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;可暂停恢复的轻量 JS 运行时是智能体代码执行与沙箱工具链的底层能力，值得开发者关注。&lt;/p&gt;&lt;p&gt;OpenCode (@opencode) · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/opencode/status/2125702030832349374">OpenCode (@opencode)</source>
-<category>开发者工具</category>
-<category>JavaScript 运行时</category>
-<category>OpenCode</category>
 </item>
 </channel>
 </rss>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Thu, 26 Nov 2026 06:29:50 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 26 Nov 2026 11:34:08 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 用 Claude 将 Messages API 迁移至 Rust 单请求 CPU 降 70%</title><link>https://todayforai.com/en/story/story-9d85b604-0d4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9d85b604-0d4</guid>
 <pubDate>Thu, 26 Nov 2026 04:52:14 +0800</pubDate>
@@ -19,13 +19,21 @@
 
 这是继上月机械臂评测 AA-Robotics v0.1 之后，该机构将语言模型智能体评测延伸至具身人形平台的第二步。该基准为评估大模型在物理世界中的通用能力提供了可复现的标准化工具，有望推动具身智能从专用策略向通用智能体演进，并为人形机器人的商业化落地提供关键参考。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis, Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
 </item>
-<item><title>Anthropic 数学家与 Claude 合作证明黎曼猜想</title><link>https://todayforai.com/en/story/story-b91caf62-12d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b91caf62-12d</guid>
-<pubDate>Thu, 26 Nov 2026 05:48:10 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 数学家 Levent Alpöge 宣布与 Claude 合作，完成了对悬置 167 年的黎曼猜想的证明，并以约 1700 万行 Lean 形式化代码提交，Lean FRO 与 Mathlib 社区已联合认证其通过全部机器验证。这是 AI 首次深度参与顶级数学开放问题的证明，并将形式化验证规模推至千万行量级。
+<item><title>Dario 否认 Anthropic 主张把治理权交给 AI</title><link>https://todayforai.com/en/story/story-031259f6-d2d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-031259f6-d2d</guid>
+<pubDate>Thu, 26 Nov 2026 11:34:08 +0800</pubDate>
+<description>&lt;p&gt;Anthropic CEO Dario Amodei 公开否认了 Axios 的一篇报道，该报道称 Anthropic 内部存在一种观点，认为人类应将部分决策权让渡给超级智能。Amodei 在长文中回应称，把治理权交给 AI 是“糟糕的主意”，并强调 AI 必须由合法的民主程序来管理，政治决策应始终掌握在人类手中。
 
-该证明以 Lean 代码形式呈现，仅直接依赖 Mathlib，数十名独立验证者运行代码得到一致结果。核验动用了 Lean 官方内核、con-leche、con-ron 及多个第三方独立检查器交叉验证，并借助相对集合论的形式化证明排除了检查器本身接受错误证明的可能。菲尔兹奖得主 James Maynard 表示相信证明正确，但强调数学界全面认可的前提是有人真正理解并能向外解释其思想框架。陶哲轩则指出证明疑似依赖朗兰兹纲领与算术几何，验证仍需时间。
+这场争论源于 Axios 援引不具名消息源的报道，其称 Anthropic 内部讨论过让超级智能分担决策的可能性。Amodei 随即驳斥这一说法“荒谬”，并将反对 AI 治理与反对专制并列，强调合法性与自决不可让位于效率或安全。OpenAI 和 Meta 的高管近期也相继表态反对将社会“移交”给 AI，使得头部实验室在“人类主导权”议题上的路线分歧公开化。
 
-若最终成立，这将是 AI 辅助数学与形式化验证领域的里程碑事件，不仅展示了 AI 在顶级数学研究中的实际参与度，也把“AI 成果如何被可信验证”的争议推到台前。同日斯坦福研究者发布纯人工证明草稿，数小时内即被 AI 查出问题，形成鲜明对照，凸显机器验证与人类审读的差异。该成果的真正价值可能在于催生解释素数分布结构的新数学理论，而非猜想本身。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;The Verge AI, Artificial Analysis (@ArtificialAnlys), Latent Space, Hacker News AI, The Decoder, Simon Willison 博客&lt;/p&gt;</description>
+此次事件折射出 AI 安全阵营内部在治理路径上的深刻分歧。尽管 Anthropic 以安全为导向，但外界对其是否真正坚持人类中心主义治理存有疑虑。Amodei 的明确表态有助于澄清立场，但也凸显了在超级智能逼近的背景下，关于权力让渡的辩论将愈发激烈，可能影响未来 AI 监管框架的走向。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;The Decoder, 宝玉 (@dotey), IT之家 · 智能时代&lt;/p&gt;</description>
+</item>
+<item><title>OpenAI 合并 ChatGPT 聊天与工作计量 重度用户额度承压</title><link>https://todayforai.com/en/story/story-9bf89ca9-2c8</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9bf89ca9-2c8</guid>
+<pubDate>Thu, 26 Nov 2026 10:30:00 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 已开始向部分 Pro 订阅用户灰度推送 ChatGPT 聊天与工作标签页的合并版本，将两种模式的用量统一到同一额度池中。官方承认，极少数重度用户可能因此更快触及用量上限，但强调多数用户不受影响。此举旨在简化交互入口，减少标签页切换，却引发了部分订阅者对额度被压缩的担忧。
+
+综合多方信息，合并后普通聊天与面向长任务多步执行的 Work 模式共享同一用量池，而 Work 此前与 Codex 编码智能体共享额度。即时聊天（使用 Instant 模型）不计入计量，即使额度耗尽仍可继续使用，因此压力主要集中在推理与智能体类任务上。由于按 token 计量，模型选择与任务规模直接决定订阅者消耗额度的速度。OpenAI 计划在 12 月扩大覆盖范围。
+
+这一调整反映了 OpenAI 在订阅服务精细化运营上的尝试，通过统一计量简化管理，但也可能影响重度开发者和专业用户的使用体验。社区论坛上已有用户要求保留开关或重新评估合并方案，未来 OpenAI 如何在简化交互与控制成本之间取得平衡，将考验其产品策略。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, TechCrunch AI, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 核心成员 Thariq 跳槽 OpenAI</title><link>https://todayforai.com/en/story/story-a69ee2a1-08a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a69ee2a1-08a</guid>
 <pubDate>Thu, 26 Nov 2026 05:33:32 +0800</pubDate>
@@ -38,6 +46,14 @@
 综合多家信源，谈判焦点是 Muse 推荐商品的范围及其对亚马逊广告收入的冲击，同时亚马逊担忧 Muse 的商品搜索结果质量与客户关系归属。亚马逊正以自研 Alexa for Shopping 作为替代方案，并曾因未授权上架卖家商品引发争议。任何协议均需双方 CEO 批准，CEO 安迪·贾西表示目前第三方智能体购物体验尚无明显优势，但未排除开放可能。
 
 若协议达成，将成为第三方 AI 智能体接入大平台的重要先例，对电商生态与 AI 智能体商业化产生深远影响。亚马逊的广告收入与用户直连能力是核心利益，谈判结果将重塑平台与第三方智能体的竞合关系。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, IT之家 · 智能时代, The Verge AI, The Decoder&lt;/p&gt;</description>
+</item>
+<item><title>Sand.ai 发布 480B 视频模型 MAGI-2 定价仅对手七分之一</title><link>https://todayforai.com/en/story/story-f63bad47-c9b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f63bad47-c9b</guid>
+<pubDate>Thu, 26 Nov 2026 09:13:12 +0800</pubDate>
+<description>&lt;p&gt;Sand.ai（三呆科技）正式发布新一代视频生成模型 MAGI-2，总参数量从上一代 114B 跃升至 480B，激活参数约 28B，训练数据规模扩大约 3 倍。该模型采用多头潜在 MoE 架构，单次可生成 4 至 30 秒、1080p 25fps 的多镜头音视频，并支持最多 20 份图片、视频、音频等多模态参考素材与 2 万字符提示词。API 服务即日起开放申请，定价 0.08 美元/秒。
+
+在第三方评测机构 Artificial Analysis 的 AA-Video-I2V v2.1 榜单上，MAGI-2 与 Dreamina Seedance 2.5 统计并列第一，文生视频榜单位列第 7，较预览版上升 14 位。其 API 定价比 Dreamina Seedance 2.5 便宜约 7 倍，已上线 Higgsfield、VidMuse 及 Sand.ai 开放平台。值得注意的是，MAGI-2 已完成海光、摩尔线程等国产芯片适配，官方表示后续有意开源。
+
+MAGI-2 以 480B 参数规模与极具侵略性的定价策略，直接冲击当前视频生成模型的性价比格局。其多模态参考与长时长生成能力，为影视、广告等内容创作场景提供了新的工具选项。国产芯片适配则降低了算力门槛，有助于推动视频生成模型在更广泛产业场景中的落地。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys), IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 上市次日跌破 83 美元发行价</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
 <pubDate>Wed, 25 Nov 2026 11:29:13 +0800</pubDate>
@@ -55,25 +71,13 @@
 
 这一成果延续了 OpenAI 与 Anthropic 在 VP≠VNP、黎曼猜想等数学难题上的密集产出趋势。今年已记录 64 项 AI 辅助科研进展，其中 11 月占 20 项，产出速度已超出人类消化能力，引发对 AI 驱动数学研究范式的广泛讨论。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Latent Space, Hacker News AI&lt;/p&gt;</description>
 </item>
-<item><title>Tidal 将于 12 月 9 日下架 2900 万首纯 AI 生成音乐</title><link>https://todayforai.com/en/story/story-68b9d3af-e20</link><guid isPermaLink="true">https://todayforai.com/en/story/story-68b9d3af-e20</guid>
-<pubDate>Wed, 25 Nov 2026 06:41:34 +0800</pubDate>
-<description>&lt;p&gt;流媒体平台 Tidal 宣布自 12 月 9 日起全面下架完全由 AI 生成的音乐，预计年底前删除超过 2900 万首曲目，并禁止分发服务上传纯 AI 作品。新规下平台每日将拒收约 8 万至 8.5 万首投稿，仅允许人类参与创作、借助 AI 工具辅助的作品上架。
+<item><title>Anthropic 数学家与 Claude 合作证明黎曼猜想</title><link>https://todayforai.com/en/story/story-b91caf62-12d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b91caf62-12d</guid>
+<pubDate>Thu, 26 Nov 2026 05:48:10 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 数学家 Levent Alpöge 宣布与 Claude 合作，完成了对悬置 167 年的黎曼猜想的证明，并以约 1700 万行 Lean 形式化代码提交，Lean FRO 与 Mathlib 社区已联合认证其通过全部机器验证。这是 AI 首次深度参与顶级数学开放问题的证明，并将形式化验证规模推至千万行量级。
 
-此举的直接诱因是过去 90 天平台上传曲目中逾 43% 为 AI 完全生成，11 月 6 日单日占比更飙升至 60%。Tidal 此前已对 AI 曲目进行标注并取消变现，但威慑效果有限。目前平台标注为 AI 的曲目达 2700 万首，占曲库 6.3%，其中 96% 在过去 90 天零播放，因此下架对平台实际影响有限。Tidal 将借助 Ircam Amplify 检测与元数据校验执行新规，涉及冒充艺人、欺骗听众等欺诈行为的 AI 歌曲将被取消变现资格。
+该证明以 Lean 代码形式呈现，仅直接依赖 Mathlib，数十名独立验证者运行代码得到一致结果。核验动用了 Lean 官方内核、con-leche、con-ron 及多个第三方独立检查器交叉验证，并借助相对集合论的形式化证明排除了检查器本身接受错误证明的可能。菲尔兹奖得主 James Maynard 表示相信证明正确，但强调数学界全面认可的前提是有人真正理解并能向外解释其思想框架。陶哲轩则指出证明疑似依赖朗兰兹纲领与算术几何，验证仍需时间。
 
-与 Spotify、YouTube Music 仅对 AI 音乐加标记的温和路线相比，Tidal 的全面封禁是流媒体平台针对生成式 AI 内容真实性与版权问题的明确治理动作，可能推动行业形成更严格的 AI 内容审核标准。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, IT之家 · 智能时代, Ars Technica AI, The Verge AI, Hacker News AI&lt;/p&gt;</description>
-</item>
-<item><title>Dario 否认 Anthropic 主张把治理权交给 AI</title><link>https://todayforai.com/en/story/story-031259f6-d2d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-031259f6-d2d</guid>
-<pubDate>Thu, 26 Nov 2026 06:29:50 +0800</pubDate>
-<description>&lt;p&gt;Anthropic CEO Dario Amodei 公开否认了 Axios 的一篇报道，该报道称 Anthropic 内部存在一种观点，认为人类应将部分决策权让渡给超级智能。Amodei 在长文中回应称，把治理权交给 AI 是“糟糕的主意”，并强调 AI 必须由合法的民主程序来管理，政治决策应始终掌握在人类手中。
-
-这场争论源于 Axios 援引不具名消息源的报道，其称 Anthropic 内部讨论过让超级智能分担决策的可能性。Amodei 随即驳斥这一说法“荒谬”，并将反对 AI 治理与反对专制并列，强调合法性与自决不可让位于效率或安全。OpenAI 和 Meta 的高管近期也相继表态反对将社会“移交”给 AI，使得头部实验室在“人类主导权”议题上的路线分歧公开化。
-
-此次事件折射出 AI 安全阵营内部在治理路径上的深刻分歧。尽管 Anthropic 以安全为导向，但外界对其是否真正坚持人类中心主义治理存有疑虑。Amodei 的明确表态有助于澄清立场，但也凸显了在超级智能逼近的背景下，关于权力让渡的辩论将愈发激烈，可能影响未来 AI 监管框架的走向。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;The Decoder, 宝玉 (@dotey)&lt;/p&gt;</description>
-</item>
-<item><title>PrismML 将 54 GB 模型压缩至 5.9 GB</title><link>https://todayforai.com/en/story/story-262515ce-dbd</link><guid isPermaLink="true">https://todayforai.com/en/story/story-262515ce-dbd</guid>
-<pubDate>Wed, 25 Nov 2026 19:51:49 +0800</pubDate>
-<description>&lt;p&gt;PrismML 发布 Ternary Bonsai 2.5 27B，基于 Qwen3.8-27B 采用三值量化（权重仅取 -1、0、+1），内存占用从约 54 GB 降至 5.9 GB。该版本针对长链工具调用的智能体任务优化，SWE-bench Verified 从 60.8% 提升至 75.6%，AppWorld 从 51.2% 跃升至 90.5%，接近原始全精度模型水平。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Hacker News AI, The Decoder&lt;/p&gt;</description>
+若最终成立，这将是 AI 辅助数学与形式化验证领域的里程碑事件，不仅展示了 AI 在顶级数学研究中的实际参与度，也把“AI 成果如何被可信验证”的争议推到台前。同日斯坦福研究者发布纯人工证明草稿，数小时内即被 AI 查出问题，形成鲜明对照，凸显机器验证与人类审读的差异。该成果的真正价值可能在于催生解释素数分布结构的新数学理论，而非猜想本身。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;The Verge AI, Artificial Analysis (@ArtificialAnlys), Latent Space, Hacker News AI, The Decoder, Simon Willison 博客&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
