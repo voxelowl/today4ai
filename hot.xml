@@ -3,6 +3,14 @@
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
 <language>en</language><lastBuildDate>Thu, 26 Nov 2026 06:23:41 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
+<item><title>Anthropic 用 Claude 将 Messages API 迁移至 Rust 单请求 CPU 降 70%</title><link>https://todayforai.com/en/story/story-9d85b604-0d4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9d85b604-0d4</guid>
+<pubDate>Thu, 26 Nov 2026 04:52:14 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 宣布已将其核心生产服务 Messages API 从 Python 迁移至 Rust，单请求 CPU 消耗下降约 70%。这一重写旨在应对自 2024 年初以来约 1800 倍的 API 流量增长，显著提升了服务效率与可扩展性。
+
+迁移过程中，Claude 仅用约一周便产出首版 Rust 代码，但团队强调真正的挑战在于验证新实现与旧服务的行为一致性。他们采用旧 Python 服务作为对照基准，并借助多组 Claude 智能体自动定位并修复两版差异，形成了一套可复用的 AI 辅助验证范式。
+
+此次迁移不仅展示了 AI 在大型成熟代码库语言重写中的潜力，也凸显了生成-验证差距框架的实用性：当验证解比生成解更容易时，模型可承担复杂迁移任务。这为行业提供了高效、低风险的服务重构路径，有望推动更多企业探索 AI 驱动的工程实践。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), Hacker News AI, Anthropic AI (@AnthropicAI)&lt;/p&gt;</description>
+</item>
 <item><title>Artificial Analysis 推出人形机器人仿真基准 前沿模型操控能力差距显著</title><link>https://todayforai.com/en/story/story-1adc3af7-8ed</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1adc3af7-8ed</guid>
 <pubDate>Thu, 26 Nov 2026 04:43:52 +0800</pubDate>
 <description>&lt;p&gt;Artificial Analysis 正式发布 AA-Robotics-Sim v0.1 研究预览版，首次将前沿大语言模型置于仿真环境中直接操控 Unitree G1 人形机器人，完成涵盖具身推理、抓取放置、装配、工具使用与移动等 10 项任务。评测采用先练习后换场景的泛化测试，GPT-6.2 Astra 以 71.0 分领先，较第二名 Claude Fable 5.2 高出 13.5 分，GPT-6.2 Sol 紧随其后。
@@ -54,14 +62,6 @@
 此举的直接诱因是过去 90 天平台上传曲目中逾 43% 为 AI 完全生成，11 月 6 日单日占比更飙升至 60%。Tidal 此前已对 AI 曲目进行标注并取消变现，但威慑效果有限。目前平台标注为 AI 的曲目达 2700 万首，占曲库 6.3%，其中 96% 在过去 90 天零播放，因此下架对平台实际影响有限。Tidal 将借助 Ircam Amplify 检测与元数据校验执行新规，涉及冒充艺人、欺骗听众等欺诈行为的 AI 歌曲将被取消变现资格。
 
 与 Spotify、YouTube Music 仅对 AI 音乐加标记的温和路线相比，Tidal 的全面封禁是流媒体平台针对生成式 AI 内容真实性与版权问题的明确治理动作，可能推动行业形成更严格的 AI 内容审核标准。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, IT之家 · 智能时代, Ars Technica AI, The Verge AI, Hacker News AI&lt;/p&gt;</description>
-</item>
-<item><title>Anthropic 用 Claude 将 Messages API 迁移至 Rust 单请求 CPU 降 70%</title><link>https://todayforai.com/en/story/story-9d85b604-0d4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9d85b604-0d4</guid>
-<pubDate>Thu, 26 Nov 2026 04:52:14 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 宣布将其核心 Messages API 从 Python 迁移至 Rust，单请求 CPU 消耗下降约 70%，以应对自 2024 年初以来约 1800 倍的 API 流量增长。这一重写工作由 Claude 主导完成，团队中并无专职 Rust 开发者，Claude 约一周即产出首版代码。
-
-迁移的关键挑战并非编写代码，而是确保新实现与原有 Python 服务的行为一致性。团队借助多组 Claude 智能体对比新旧服务，定位并修复差异，将验证解比生成解容易得多的任务特性视为可行性的基础。线上系统的正确性难以用测试套件完整定义，是此类迁移的主要风险点。
-
-此次迁移展示了 AI 在大型成熟代码库重构中的潜力，为应对指数级流量增长提供了高效能方案，同时也凸显了验证环节在 AI 辅助工程中的核心地位。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), Hacker News AI&lt;/p&gt;</description>
 </item>
 <item><title>PrismML 将 54 GB 模型压缩至 5.9 GB</title><link>https://todayforai.com/en/story/story-262515ce-dbd</link><guid isPermaLink="true">https://todayforai.com/en/story/story-262515ce-dbd</guid>
 <pubDate>Wed, 25 Nov 2026 19:51:49 +0800</pubDate>

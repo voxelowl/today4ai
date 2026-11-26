@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Thu, 26 Nov 2026 07:28:31 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 26 Nov 2026 07:45:33 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>OpenAI Begins Private Inference Testing for Zero-Snoop AI</title><link>https://www.ithome.com/1/032/543.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/543.htm</guid>
+<pubDate>Thu, 26 Nov 2026 07:45:33 +0800</pubDate>
+<description>&lt;p&gt;OpenAI has invited a small set of enterprise customers to test Private Inference, part of its Private Intelligence lineup aimed at protecting data privacy in workplace scenarios. The service pairs zero data retention with private safety processing to run automated safety reviews without staff touching underlying content, though implementation details, customer names, launch timing and pricing remain undisclosed.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 开测私有推理 打造零窥探 AI&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;OpenAI 首次将隐私计算引入前沿模型推理，方向性意义大于当前细节，值得关注其后续技术落地。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/032/543.htm">IT之家 · 智能时代</source>
+<category>OpenAI</category>
+<category>隐私计算</category>
+<category>企业服务</category>
+</item>
 <item><title>South Korea Debuts Detect AI Exam Anti-Cheating System Using Radio Signals</title><link>https://www.ithome.com/1/032/542.htm</link><guid isPermaLink="true">https://www.ithome.com/1/032/542.htm</guid>
 <pubDate>Thu, 26 Nov 2026 07:28:31 +0800</pubDate>
 <description>&lt;p&gt;SKIP, a drone-detection startup incubated by Korea East-West Power, has completed Detect AI, an exam anti-cheating system that cross-references wireless signal vendor identifiers and device unique IDs to flag AI smart glasses, micro cameras and wireless earbuds. The system only passively receives signals without decoding or storing content, and will be demonstrated publicly at COMEUP 2026 in Seoul on December 9.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;韩国推出 Detect AI 考场反作弊系统 靠无线电波识别智能眼镜&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;将国防级射频探测技术迁移至考场反 AI 作弊，是 AI 硬件普及催生的新型安防需求样本。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 42/100&lt;/p&gt;</description>
@@ -74,6 +82,15 @@
 <category>OpenAI</category>
 <category>数学推理</category>
 <category>理论计算机科学</category>
+</item>
+<item><title>Pure x86-64 Assembly LLM Runs Qwen3 at 126 Tokens per Second</title><link>https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os</link><guid isPermaLink="true">https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os</guid>
+<pubDate>Thu, 26 Nov 2026 06:15:34 +0800</pubDate>
+<description>&lt;p&gt;The llm.asm project delivers three complete LLM implementations written entirely in x86-64 NASM assembly, with no C, C++, Rust, libc, or runtime dependencies. Its Qwen3-0.6B inference binary is just 14,712 bytes and reaches 126.8 tok/s decode at 40 threads, claimed to be 18% to 36% faster than llama.cpp CPU Q8_0 across 1 to 40 threads while matching PyTorch FP32 on 64/64 greedy tokens. The codebase also hand-writes math kernels, an AVX2+FMA+F16C GEMM engine, a BPE tokenizer, a futex thread pool, and a bare-metal SMP kernel.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;纯汇编实现 Qwen3 推理 单文件 14 KB 跑出 126 tok/s&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以极端工程手段重写推理栈并给出可验证的性能与数值一致性数据，对理解 LLM 底层实现极具参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 78/100&lt;/p&gt;</description>
+<source url="https://github.com/alesha-pro/llm.asm/tree/main/02-baremetal-os">Hacker News AI</source>
+<category>开源项目</category>
+<category>推理优化</category>
+<category>汇编</category>
+<category>Qwen</category>
 </item>
 <item><title>S&amp;P Places Nvidia&#x27;s AA Credit Rating on CreditWatch Negative</title><link>https://x.com/rohanpaul_ai/status/2125710560125956397</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125710560125956397</guid>
 <pubDate>Thu, 26 Nov 2026 05:57:45 +0800</pubDate>
@@ -195,26 +212,26 @@
 <category>AI 安全</category>
 <category>行业观点</category>
 </item>
-<item><title>Artificial Analysis Launches Robotics Sim Benchmark for Humanoid Control</title><link>https://x.com/ArtificialAnlys/status/2125683694103064979</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2125683694103064979</guid>
+<item><title>Artificial Analysis 发布机器人仿真基准 前沿模型操控人形机器人</title><link>https://x.com/ArtificialAnlys/status/2125683694103064979</link><guid isPermaLink="true">https://x.com/ArtificialAnlys/status/2125683694103064979</guid>
 <pubDate>Thu, 26 Nov 2026 04:11:00 +0800</pubDate>
-<description>&lt;p&gt;Artificial Analysis released AA-Robotics-Sim v0.1, a research preview in which frontier language models directly control a simulated Unitree G1 humanoid through native harnesses across 10 tasks spanning embodied reasoning, pick-and-place, assembly, tool use and mobility. Each model first runs five practice episodes, then is evaluated on ten varied new scenes. GPT-6.2 Astra leads at 71.0, ahead of Claude Fable 5.2 (57.5) and GPT-6.2 Sol (53.7), while some skills look mature but long-horizon task completion remains weak, with each episode costing $0.84 to $9.01 and taking 17 to 39 minutes.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Artificial Analysis 发布机器人仿真基准 前沿模型操控人形机器人&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个由第三方评测机构推出的 LLM 直接驱动机器人的仿真基准，为具身智能能力对比提供了可复现的量化标尺。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · agent · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Artificial Analysis 发布 AA-Robotics-Sim v0.1 研究预览，让前沿大模型在原生框架中直接操控仿真 Unitree G1 人形机器人，覆盖具身推理、抓取放置、装配、工具使用与移动等 10 项任务。评测采用先练习后换场景的泛化测试，GPT-6.2 Astra 以 71.0 分领先，Claude Fable 5.2 与 GPT-6.2 Sol 分列其后。结果显示部分技能已趋成熟，但长程任务完成度仍低，单次评测耗时 17 至 39 分钟、成本 0.84 至 9.01 美元。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个由第三方评测机构推出的 LLM 直接驱动机器人的仿真基准，为具身智能能力对比提供了可复现的量化标尺。&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys) · agent · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/ArtificialAnlys/status/2125683694103064979">Artificial Analysis (@ArtificialAnlys)</source>
 <category>具身智能</category>
 <category>机器人仿真</category>
 <category>基准评测</category>
 <category>人形机器人</category>
 </item>
-<item><title>OpenAI Merges ChatGPT Chat and Work Tabs for Pro Users</title><link>https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/</guid>
+<item><title>OpenAI 合并 ChatGPT 聊天与工作标签页</title><link>https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/</guid>
 <pubDate>Thu, 26 Nov 2026 04:03:27 +0800</pubDate>
-<description>&lt;p&gt;OpenAI has begun rolling out a unified Chat and Work experience in ChatGPT to a small group of Pro subscribers, simplifying navigation between conversations and complex tasks. The company acknowledged that a small fraction of its heaviest users may hit usage limits sooner, prompting subscriber concerns over merged quotas.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 合并 ChatGPT 聊天与工作标签页&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及 ChatGPT 核心产品形态调整与用量策略变化，直接影响重度用户的日常使用决策。&lt;/p&gt;&lt;p&gt;TechCrunch AI · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 已向部分 Pro 订阅用户推送 ChatGPT 聊天与工作标签页的合并版本，统一交互入口。官方承认少数重度用户可能更快触及用量上限，部分订阅者在社区与社交媒体表达对额度被压缩的担忧。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及 ChatGPT 核心产品形态调整与用量策略变化，直接影响重度用户的日常使用决策。&lt;/p&gt;&lt;p&gt;TechCrunch AI · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/">TechCrunch AI</source>
 <category>ChatGPT</category>
 <category>OpenAI</category>
 <category>产品更新</category>
 </item>
-<item><title>Abstract Launches Cloud Inference for Robots with 30ms Round Trip</title><link>https://x.com/rohanpaul_ai/status/2125681362195857426</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125681362195857426</guid>
+<item><title>Abstract 推出机器人云端推理 30 毫秒往返</title><link>https://x.com/rohanpaul_ai/status/2125681362195857426</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125681362195857426</guid>
 <pubDate>Thu, 26 Nov 2026 04:01:44 +0800</pubDate>
-<description>&lt;p&gt;Abstract has launched a cloud inference service that moves robot model compute off the device and onto its own GPUs. Robots send camera frames, current state and a plain-language task, and the service returns the next chunk of motion commands with a claimed 30ms round trip. The model turns GPU hardware from a per-unit purchase into a per-request bill, shifting the cost math for teams building robots at scale.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Abstract 推出机器人云端推理 30 毫秒往返&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;机器人推理从板载 GPU 转向云端按请求计费，是具身智能成本结构的一次实质性变化。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Abstract 推出面向机器人的云端推理服务，将原本需要每台机器人板载 GPU 的模型计算迁移到自有 GPU 集群。机器人上传相机帧、当前状态与自然语言任务描述，云端返回下一段动作指令，官方称往返延迟约 30 毫秒。该模式把 GPU 从每台机器人的硬件成本转为按请求计费的运营支出，对批量部署机器人的团队成本结构影响明显。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;机器人推理从板载 GPU 转向云端按请求计费，是具身智能成本结构的一次实质性变化。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 62/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2125681362195857426">Rohan Paul (@rohanpaul_ai)</source>
 <category>具身智能</category>
 <category>云端推理</category>
@@ -255,24 +272,6 @@
 <category>字节跳动</category>
 <category>阿里巴巴</category>
 <category>腾讯</category>
-</item>
-<item><title>NTU 新方法让智能体学会等待 准确率提升 17.1%</title><link>https://x.com/rohanpaul_ai/status/2125674862459130075</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2125674862459130075</guid>
-<pubDate>Thu, 26 Nov 2026 03:35:54 +0800</pubDate>
-<description>&lt;p&gt;新加坡南洋理工大学提出 RLVB（可验证信念强化学习）方法，针对智能体在自身笔记仍列出多个候选答案时却过早锁定单一答案的问题，改为奖励“证据不足时继续探索、证据充分时再作答”的决策过程，而非仅奖励最终答案。在 3 个 Qwen 视觉语言模型与 3 个基准上平均超越基座模型 17.1%，而传统结果奖励强化学习反而低于基座。训练后，模型在证据不足却强行作答的比例从 3% 至 68% 降至 0.1% 至 2.2%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;直击智能体“过早下结论”的普遍失效模式，用可验证信念重塑奖励信号，并给出跨模型跨基准的量化提升。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2125674862459130075">Rohan Paul (@rohanpaul_ai)</source>
-<category>强化学习</category>
-<category>智能体</category>
-<category>视觉语言模型</category>
-<category>南洋理工大学</category>
-</item>
-<item><title>Agent Arena 帕累托前沿仅剩 4 款模型</title><link>https://x.com/arena/status/2125673103405830417</link><guid isPermaLink="true">https://x.com/arena/status/2125673103405830417</guid>
-<pubDate>Thu, 26 Nov 2026 03:28:55 +0800</pubDate>
-<description>&lt;p&gt;Arena.ai 公布 Agent Arena 能力与对齐帕累托前沿，仅 GPT-6.2 Sol、GPT-6.2 Astra、GPT-6 Astra 与 Claude Fable 5.2 四款模型入选，其余模型均被至少一款前沿模型在两项指标上同时超越。GPT-6.2 Sol 以 85.5 的对齐指数居首，Claude Fable 5.2 以 1448 的 Agent Arena 指数成为能力最强模型，Gemini 4 Neon 等旗舰模型均未进入前沿。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是智能体评测领域少见的双轴帕累托排名，直接反映头部模型在能力与对齐上的取舍格局。&lt;/p&gt;&lt;p&gt;Arena.ai (@arena) · llm · signal 62/100&lt;/p&gt;</description>
-<source url="https://x.com/arena/status/2125673103405830417">Arena.ai (@arena)</source>
-<category>智能体评测</category>
-<category>模型对齐</category>
-<category>Arena.ai</category>
-<category>帕累托前沿</category>
 </item>
 </channel>
 </rss>
