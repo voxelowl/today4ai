@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Thu, 26 Nov 2026 11:34:08 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Thu, 26 Nov 2026 14:41:23 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>Anthropic 用 Claude 将 Messages API 迁移至 Rust 单请求 CPU 降 70%</title><link>https://todayforai.com/en/story/story-9d85b604-0d4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9d85b604-0d4</guid>
 <pubDate>Thu, 26 Nov 2026 04:52:14 +0800</pubDate>
@@ -10,6 +10,22 @@
 迁移过程中，Claude 仅用约一周便产出首版 Rust 代码，但团队强调真正的挑战在于验证新实现与旧服务的行为一致性。他们采用旧 Python 服务作为对照基准，并借助多组 Claude 智能体自动定位并修复两版差异，形成了一套可复用的 AI 辅助验证范式。
 
 此次迁移不仅展示了 AI 在大型成熟代码库语言重写中的潜力，也凸显了生成-验证差距框架的实用性：当验证解比生成解更容易时，模型可承担复杂迁移任务。这为行业提供了高效、低风险的服务重构路径，有望推动更多企业探索 AI 驱动的工程实践。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), Hacker News AI, Anthropic AI (@AnthropicAI)&lt;/p&gt;</description>
+</item>
+<item><title>Sand.ai 发布 480B 视频模型 MAGI-2 定价仅对手七分之一</title><link>https://todayforai.com/en/story/story-f63bad47-c9b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f63bad47-c9b</guid>
+<pubDate>Thu, 26 Nov 2026 14:41:23 +0800</pubDate>
+<description>&lt;p&gt;Sand.ai 三呆科技于 11 月 24 日发布新一代视频生成模型 MAGI-2，总参数量从 114B 跃升至 480B，激活参数约 28B，训练数据规模扩大约 3 倍。该模型在 Artificial Analysis 图生视频榜单 AA-Video-I2V v2.1 上与 Dreamina Seedance 2.5 并列第一，文生视频榜单位列第 7，较预览版上升 14 位。定价为 0.08 美元/秒，仅为同级闭源旗舰模型的约七分之一，API 服务即日起开放申请。
+
+MAGI-2 采用多头潜在 MoE 架构，支持单次生成 4-30 秒多镜头 1080p 25fps 音视频，最多可混合参考 20 份图片、视频或音频素材，并解析高达 2 万字符的提示词。模型展现出预训练阶段涌现的自主规划能力，可自行编排分镜与运镜，实现毫秒级切镜。此外，MAGI-2 已完成海光、摩尔线程等国产芯片适配，并在 Higgsfield、VidMuse 及 Sand.ai 开放平台上线。官方表示后续计划开源模型权重。
+
+MAGI-2 以极低定价和顶级性能直击视频生成赛道，有望大幅降低高质量视频创作门槛，对闭源商业模型构成价格压力。其国产芯片适配与开源计划将增强中国 AI 生态的自主可控性，并为开源视频模型社区提供强大底座，推动行业竞争格局重塑。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Artificial Analysis (@ArtificialAnlys), 量子位官网&lt;/p&gt;</description>
+</item>
+<item><title>Anthropic 用 Claude 将黎曼猜想证明代码精简 99.5%</title><link>https://todayforai.com/en/story/story-b91caf62-12d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b91caf62-12d</guid>
+<pubDate>Thu, 26 Nov 2026 11:01:11 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 研究员 Luke Sernau 与同事借助 Claude，将此前由 AI 参与生成的 1740 万行黎曼猜想 Lean 形式化证明重构压缩至约 7.6 万行，代码量削减 99.56%。原证明包含 17.5 万个文件，仅一个文件含注释，社区自动清理最多只能减 8% 且无法编译。新版本附带 30 万行带导读的清晰版本，可在 12 核 24GB 内存的普通机器上于 1 至 2 小时内完成构建，而原版需在 AWS 高配机器上编译 21 小时。
+
+该证明目前仅通过机器验证，尚无数学家完整通读，也无配套数学论文。Anthropic 团队用 Claude 彻底重写，产出可读版与紧凑版两个版本，代码量降至约 7.6 万行，构建门槛大幅降低。此举回应了社区对原证明体量过大、难以验证的批评，展示了 AI 在代码重构与数学形式化领域的实用价值。
+
+这一成果对形式化数学社区具有实质影响：极低的构建门槛使更多研究者能够本地验证与审查证明，有望推动黎曼猜想形式化证明的学术讨论与后续研究。同时，它凸显了大型语言模型在理解与重构超大规模代码库方面的潜力，为 AI 辅助数学研究提供了新范式。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;量子位官网, IT之家 · IT业界, The Decoder, The Verge AI, Artificial Analysis (@ArtificialAnlys), Latent Space&lt;/p&gt;</description>
 </item>
 <item><title>Artificial Analysis 推出人形机器人仿真基准 前沿模型操控能力差距显著</title><link>https://todayforai.com/en/story/story-1adc3af7-8ed</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1adc3af7-8ed</guid>
 <pubDate>Thu, 26 Nov 2026 04:43:52 +0800</pubDate>
@@ -47,14 +63,6 @@
 
 若协议达成，将成为第三方 AI 智能体接入大平台的重要先例，对电商生态与 AI 智能体商业化产生深远影响。亚马逊的广告收入与用户直连能力是核心利益，谈判结果将重塑平台与第三方智能体的竞合关系。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, IT之家 · 智能时代, The Verge AI, The Decoder&lt;/p&gt;</description>
 </item>
-<item><title>Sand.ai 发布 480B 视频模型 MAGI-2 定价仅对手七分之一</title><link>https://todayforai.com/en/story/story-f63bad47-c9b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f63bad47-c9b</guid>
-<pubDate>Thu, 26 Nov 2026 09:13:12 +0800</pubDate>
-<description>&lt;p&gt;Sand.ai（三呆科技）正式发布新一代视频生成模型 MAGI-2，总参数量从上一代 114B 跃升至 480B，激活参数约 28B，训练数据规模扩大约 3 倍。该模型采用多头潜在 MoE 架构，单次可生成 4 至 30 秒、1080p 25fps 的多镜头音视频，并支持最多 20 份图片、视频、音频等多模态参考素材与 2 万字符提示词。API 服务即日起开放申请，定价 0.08 美元/秒。
-
-在第三方评测机构 Artificial Analysis 的 AA-Video-I2V v2.1 榜单上，MAGI-2 与 Dreamina Seedance 2.5 统计并列第一，文生视频榜单位列第 7，较预览版上升 14 位。其 API 定价比 Dreamina Seedance 2.5 便宜约 7 倍，已上线 Higgsfield、VidMuse 及 Sand.ai 开放平台。值得注意的是，MAGI-2 已完成海光、摩尔线程等国产芯片适配，官方表示后续有意开源。
-
-MAGI-2 以 480B 参数规模与极具侵略性的定价策略，直接冲击当前视频生成模型的性价比格局。其多模态参考与长时长生成能力，为影视、广告等内容创作场景提供了新的工具选项。国产芯片适配则降低了算力门槛，有助于推动视频生成模型在更广泛产业场景中的落地。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis (@ArtificialAnlys), IT之家 · 智能时代&lt;/p&gt;</description>
-</item>
 <item><title>Anthropic 上市次日跌破 83 美元发行价</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
 <pubDate>Wed, 25 Nov 2026 11:29:13 +0800</pubDate>
 <description>&lt;p&gt;Anthropic 以每股 83 美元登陆纳斯达克，募资超 940 亿美元刷新全球 IPO 纪录，但上市次日即跌破发行价，市值回落至 1 万亿美元附近。
@@ -70,14 +78,6 @@ MAGI-2 以 480B 参数规模与极具侵略性的定价策略，直接冲击当�
 据 Latent Space 报道，OpenAI 连续发布预印本，先给出 ω 的上界 9/4，随后给出匹配的下界，两者相等意味着 ω 被唯一确定。同期还出现了有限傅里叶变换的匹配上下界结果，其中下界被视为最具冲击力的部分。Hacker News 的讨论指出，该问题自 Strassen 于 1969 年取得突破以来已悬置逾半个世纪，AI 实验室正密集产出高难度数学证明，引发学界震动与审慎核验。
 
 这一成果延续了 OpenAI 与 Anthropic 在 VP≠VNP、黎曼猜想等数学难题上的密集产出趋势。今年已记录 64 项 AI 辅助科研进展，其中 11 月占 20 项，产出速度已超出人类消化能力，引发对 AI 驱动数学研究范式的广泛讨论。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Latent Space, Hacker News AI&lt;/p&gt;</description>
-</item>
-<item><title>Tidal 将于 12 月 9 日下架 2900 万首纯 AI 生成音乐</title><link>https://todayforai.com/en/story/story-68b9d3af-e20</link><guid isPermaLink="true">https://todayforai.com/en/story/story-68b9d3af-e20</guid>
-<pubDate>Wed, 25 Nov 2026 06:41:34 +0800</pubDate>
-<description>&lt;p&gt;流媒体平台 Tidal 宣布自 12 月 9 日起全面下架完全由 AI 生成的音乐，预计年底前删除超过 2900 万首曲目，并禁止分发服务上传纯 AI 作品。新规下平台每日将拒收约 8 万至 8.5 万首投稿，仅允许人类参与创作、借助 AI 工具辅助的作品上架。
-
-此举的直接诱因是过去 90 天平台上传曲目中逾 43% 为 AI 完全生成，11 月 6 日单日占比更飙升至 60%。Tidal 此前已对 AI 曲目进行标注并取消变现，但威慑效果有限。目前平台标注为 AI 的曲目达 2700 万首，占曲库 6.3%，其中 96% 在过去 90 天零播放，因此下架对平台实际影响有限。Tidal 将借助 Ircam Amplify 检测与元数据校验执行新规，涉及冒充艺人、欺骗听众等欺诈行为的 AI 歌曲将被取消变现资格。
-
-与 Spotify、YouTube Music 仅对 AI 音乐加标记的温和路线相比，Tidal 的全面封禁是流媒体平台针对生成式 AI 内容真实性与版权问题的明确治理动作，可能推动行业形成更严格的 AI 内容审核标准。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, IT之家 · 智能时代, Ars Technica AI, The Verge AI, Hacker News AI&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
