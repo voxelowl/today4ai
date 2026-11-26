@@ -3,6 +3,14 @@
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
 <language>en</language><lastBuildDate>Thu, 26 Nov 2026 21:41:07 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
+<item><title>OpenAI 宣称锁定矩阵乘法指数 9/4 终结半世纪悬案</title><link>https://todayforai.com/en/story/story-df554c97-fde</link><guid isPermaLink="true">https://todayforai.com/en/story/story-df554c97-fde</guid>
+<pubDate>Thu, 26 Nov 2026 18:52:40 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 于 11 月 24 日发布预印本，宣称证明了矩阵乘法指数 ω 的下界为 9/4，与其 10 月给出的上界吻合，从而首次确定 ω=9/4。这一自 1969 年 Strassen 突破以来悬置逾半个世纪的算法核心问题，若证明成立，将成为计算复杂性理论中关于矩阵乘法渐进最优复杂度的里程碑式结论。
+
+据多个信源交叉验证，OpenAI 在 openai/math 代码库中连续发布 9 篇 AI 生成论文，覆盖张量几何与计算复杂度等多个开放问题族系，并同步给出 Lean 形式化证明。同期还出现有限傅里叶变换匹配上下界等结果，下界被视为最具冲击力的部分。然而，ω 为渐进量，实际性能仍受常数因子、内存与硬件结构制约，且证明尚待同行验证。
+
+这一事件标志着 AI 系统正深度介入基础数学证明，今年已记录 64 项 AI 辅助科研进展，其中 11 月占 20 项，产出速度引发人类消化能力担忧。若结论成立，审稿模式或从期刊转向机器可验证验收，对计算复杂性、算法设计及 AI 科研范式产生深远影响。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, 新智元 (微信公众号), Hacker News AI, Latent Space&lt;/p&gt;</description>
+</item>
 <item><title>Claude Code 三员大将集体跳槽 OpenAI</title><link>https://todayforai.com/en/story/story-a69ee2a1-08a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a69ee2a1-08a</guid>
 <pubDate>Thu, 26 Nov 2026 15:46:43 +0800</pubDate>
 <description>&lt;p&gt;Anthropic 上市后遭遇股价破发与核心人才流失的双重打击。11 月 24 日，其股价收于 76.60 美元，较 83 美元的发行价下跌约 8%，较首日开盘价更是跌去约 31%。与此同时，Claude Code 产品负责人 Cat Wu、桌面版创建者 Anthony Morris 及核心工程师 Thariq Shihipar 相继加入 OpenAI，形成原班人马重聚之势。
@@ -26,14 +34,6 @@
 MAGI-2 采用多头潜在 MoE 架构，支持单次生成 4-30 秒多镜头 1080p 25fps 音视频，最多可混合参考 20 份图片、视频或音频素材，并解析高达 2 万字符的提示词。模型展现出预训练阶段涌现的自主规划能力，可自行编排分镜与运镜，实现毫秒级切镜。此外，MAGI-2 已完成海光、摩尔线程等国产芯片适配，并在 Higgsfield、VidMuse 及 Sand.ai 开放平台上线。官方表示后续计划开源模型权重。
 
 MAGI-2 以极低定价和顶级性能直击视频生成赛道，有望大幅降低高质量视频创作门槛，对闭源商业模型构成价格压力。其国产芯片适配与开源计划将增强中国 AI 生态的自主可控性，并为开源视频模型社区提供强大底座，推动行业竞争格局重塑。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Artificial Analysis (@ArtificialAnlys), 量子位官网&lt;/p&gt;</description>
-</item>
-<item><title>OpenAI 宣称锁定矩阵乘法指数 9/4 终结半世纪悬案</title><link>https://todayforai.com/en/story/story-df554c97-fde</link><guid isPermaLink="true">https://todayforai.com/en/story/story-df554c97-fde</guid>
-<pubDate>Thu, 26 Nov 2026 18:52:40 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 于 11 月 24 日发布预印本，宣称证明了矩阵乘法指数 ω 的下界为 9/4，结合其 10 月给出的上界，从而将 ω 精确确定为 9/4。这一结果若经同行验证成立，将终结自 1969 年 Strassen 算法以来悬置逾半个世纪的计算复杂性核心问题，标志着 AI 系统在基础数学证明领域取得里程碑式突破。
-
-据多个信源交叉验证，OpenAI 先后在 math 仓库发布上下界证明，逻辑链条闭合。ω 刻画 n×n 矩阵乘法最优算法运算量随 n 增长的渐进幂指数，此前已知上界为 2.371，下界仅为 2，9/4 的精确值意味着矩阵乘法在渐进意义上已达到理论最优。同期还出现有限傅里叶变换匹配上下界等结果，显示 AI 辅助数学研究正密集产出高难度证明。
-
-这一宣称已引发学界震动与审慎核验。若证明无误，不仅将重塑算法复杂度理论，更将强化 AI 作为数学发现工具的范式意义。然而，ω 为渐进量，实际性能仍受常数因子、内存与硬件结构制约，且预印本尚待同行评议。AI 实验室在 VP≠VNP、黎曼猜想等难题上的密集产出，正推动数学研究进入人机协作的新阶段，其产出速度已超出人类消化能力，如何建立可信的验证机制成为紧迫课题。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, Latent Space, IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 <item><title>Anthropic 用 Claude 将黎曼猜想证明代码精简 99.5%</title><link>https://todayforai.com/en/story/story-b91caf62-12d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b91caf62-12d</guid>
 <pubDate>Thu, 26 Nov 2026 11:01:11 +0800</pubDate>
