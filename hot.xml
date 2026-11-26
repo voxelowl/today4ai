@@ -3,14 +3,6 @@
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
 <language>en</language><lastBuildDate>Thu, 26 Nov 2026 18:52:40 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
-<item><title>Claude Code 三员大将集体跳槽 OpenAI</title><link>https://todayforai.com/en/story/story-a69ee2a1-08a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a69ee2a1-08a</guid>
-<pubDate>Thu, 26 Nov 2026 15:46:43 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 上市后遭遇股价破发与核心人才流失的双重打击。11 月 24 日，其股价收于 76.60 美元，较 83 美元的发行价下跌约 8%，较首日开盘价更是跌去约 31%。与此同时，Claude Code 产品负责人 Cat Wu、桌面版创建者 Anthony Morris 及核心工程师 Thariq Shihipar 相继加入 OpenAI，形成原班人马重聚之势。
-
-多方信息交叉验证了此次人事变动的细节。Thariq 本人通过社交平台公开确认了加盟消息，称在 Anthropic 的时光令他自豪，但认为在 OpenAI 能对“把 AI 带给世界”贡献最大，并将加入一个面向十亿级用户的产品团队。Cat Wu 则出任 OpenAI 核心产品线产品管理负责人，管辖 ChatGPT、Codex 与开发者 API。值得注意的是，Claude Code 之父 Boris Cherny 并未随行，仍留守 Anthropic，并刚刚推出了代码自动审查修复功能 Claude Ship。
-
-此次集体跳槽直指 Anthropic 编程 Agent 业务的根基，也折射出 AI 编程竞争焦点正从基准跑分转向 Agent 在真实工程任务中的可靠交付能力。头部实验室之间的人才争夺持续升温，OpenAI 借机强化其编程产品线，而 Anthropic 则需在股价压力下稳住核心团队并证明其技术护城河。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;量子位官网, Rohan Paul (@rohanpaul_ai), 宝玉 (@dotey), InfoQ 中文&lt;/p&gt;</description>
-</item>
 <item><title>Anthropic 用 Claude 将 Messages API 迁移至 Rust 单请求 CPU 降 70%</title><link>https://todayforai.com/en/story/story-9d85b604-0d4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9d85b604-0d4</guid>
 <pubDate>Thu, 26 Nov 2026 04:52:14 +0800</pubDate>
 <description>&lt;p&gt;Anthropic 宣布已将其核心生产服务 Messages API 从 Python 迁移至 Rust，单请求 CPU 消耗下降约 70%。这一重写旨在应对自 2024 年初以来约 1800 倍的 API 流量增长，显著提升了服务效率与可扩展性。
@@ -18,6 +10,14 @@
 迁移过程中，Claude 仅用约一周便产出首版 Rust 代码，但团队强调真正的挑战在于验证新实现与旧服务的行为一致性。他们采用旧 Python 服务作为对照基准，并借助多组 Claude 智能体自动定位并修复两版差异，形成了一套可复用的 AI 辅助验证范式。
 
 此次迁移不仅展示了 AI 在大型成熟代码库语言重写中的潜力，也凸显了生成-验证差距框架的实用性：当验证解比生成解更容易时，模型可承担复杂迁移任务。这为行业提供了高效、低风险的服务重构路径，有望推动更多企业探索 AI 驱动的工程实践。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), Hacker News AI, Anthropic AI (@AnthropicAI)&lt;/p&gt;</description>
+</item>
+<item><title>Claude Code 三员大将集体跳槽 OpenAI</title><link>https://todayforai.com/en/story/story-a69ee2a1-08a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a69ee2a1-08a</guid>
+<pubDate>Thu, 26 Nov 2026 15:46:43 +0800</pubDate>
+<description>&lt;p&gt;Anthropic 上市后遭遇股价破发与核心人才流失的双重打击。11 月 24 日，其股价收于 76.60 美元，较 83 美元的发行价下跌约 8%，较首日开盘价更是跌去约 31%。与此同时，Claude Code 产品负责人 Cat Wu、桌面版创建者 Anthony Morris 及核心工程师 Thariq Shihipar 相继加入 OpenAI，形成原班人马重聚之势。
+
+多方信息交叉验证了此次人事变动的细节。Thariq 本人通过社交平台公开确认了加盟消息，称在 Anthropic 的时光令他自豪，但认为在 OpenAI 能对“把 AI 带给世界”贡献最大，并将加入一个面向十亿级用户的产品团队。Cat Wu 则出任 OpenAI 核心产品线产品管理负责人，管辖 ChatGPT、Codex 与开发者 API。值得注意的是，Claude Code 之父 Boris Cherny 并未随行，仍留守 Anthropic，并刚刚推出了代码自动审查修复功能 Claude Ship。
+
+此次集体跳槽直指 Anthropic 编程 Agent 业务的根基，也折射出 AI 编程竞争焦点正从基准跑分转向 Agent 在真实工程任务中的可靠交付能力。头部实验室之间的人才争夺持续升温，OpenAI 借机强化其编程产品线，而 Anthropic 则需在股价压力下稳住核心团队并证明其技术护城河。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;量子位官网, Rohan Paul (@rohanpaul_ai), 宝玉 (@dotey), InfoQ 中文&lt;/p&gt;</description>
 </item>
 <item><title>Sand.ai 发布 480B 视频模型 MAGI-2 定价仅对手七分之一</title><link>https://todayforai.com/en/story/story-f63bad47-c9b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f63bad47-c9b</guid>
 <pubDate>Thu, 26 Nov 2026 14:41:23 +0800</pubDate>
@@ -42,6 +42,14 @@ MAGI-2 以极低定价和顶级性能直击视频生成赛道，有望大幅降�
 该证明目前仅通过机器验证，尚无数学家完整通读，也无配套数学论文。Anthropic 团队用 Claude 彻底重写，产出可读版与紧凑版两个版本，代码量降至约 7.6 万行，构建门槛大幅降低。此举回应了社区对原证明体量过大、难以验证的批评，展示了 AI 在代码重构与数学形式化领域的实用价值。
 
 这一成果对形式化数学社区具有实质影响：极低的构建门槛使更多研究者能够本地验证与审查证明，有望推动黎曼猜想形式化证明的学术讨论与后续研究。同时，它凸显了大型语言模型在理解与重构超大规模代码库方面的潜力，为 AI 辅助数学研究提供了新范式。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;量子位官网, IT之家 · IT业界, The Decoder, The Verge AI, Artificial Analysis (@ArtificialAnlys), Latent Space&lt;/p&gt;</description>
+</item>
+<item><title>OpenAI 开测私有推理 企业数据对己不可见</title><link>https://todayforai.com/en/story/story-efdd7ed4-012</link><guid isPermaLink="true">https://todayforai.com/en/story/story-efdd7ed4-012</guid>
+<pubDate>Thu, 26 Nov 2026 07:45:33 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 已开始面向少数企业客户测试名为 Private Inference 的新服务，核心突破在于：企业在调用其前沿模型时，OpenAI 自身无法访问查询数据。该功能隶属 Private Intelligence 产品线，结合零数据留存（ZDR）与私有安全处理（Private Safety Processing），可在不向 OpenAI 人员开放底层内容的前提下完成自动化安全审查。此前企业数据本就不用于训练，而消费级 ChatGPT 对话默认用于训练，此次试点进一步将隐私保护延伸至推理环节。
+
+综合多方信源，该服务目前处于早期邀请制阶段，技术实现、客户名单、上线时间与收费模式均未披露。OpenAI 表示正扩充算力以扩大服务规模，并将其定位为迈向普惠私有智能的第一步。Sam Altman 亦强调，更强的隐私保护是前沿模型承担更多企业级工作负载的关键前提。
+
+此举直击企业采用大模型的核心顾虑——数据泄露风险。通过将隐私保护内置于推理层，OpenAI 试图在竞争激烈的企业 AI 市场中建立差异化优势，同时为受监管行业（如金融、医疗）扫除合规障碍。若该模式规模化，可能推动行业形成“私有推理”新标准，并加剧与 Anthropic、谷歌云等对手在企业隐私赛道的角逐。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;The Decoder, IT之家 · 智能时代, Sam Altman (@sama)&lt;/p&gt;</description>
 </item>
 <item><title>Artificial Analysis 推出人形机器人仿真基准 前沿模型操控能力差距显著</title><link>https://todayforai.com/en/story/story-1adc3af7-8ed</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1adc3af7-8ed</guid>
 <pubDate>Thu, 26 Nov 2026 04:43:52 +0800</pubDate>
@@ -74,14 +82,6 @@ MAGI-2 以极低定价和顶级性能直击视频生成赛道，有望大幅降�
 综合多家信源，谈判焦点是 Muse 推荐商品的范围及其对亚马逊广告收入的冲击，同时亚马逊担忧 Muse 的商品搜索结果质量与客户关系归属。亚马逊正以自研 Alexa for Shopping 作为替代方案，并曾因未授权上架卖家商品引发争议。任何协议均需双方 CEO 批准，CEO 安迪·贾西表示目前第三方智能体购物体验尚无明显优势，但未排除开放可能。
 
 若协议达成，将成为第三方 AI 智能体接入大平台的重要先例，对电商生态与 AI 智能体商业化产生深远影响。亚马逊的广告收入与用户直连能力是核心利益，谈判结果将重塑平台与第三方智能体的竞合关系。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;TechCrunch AI, IT之家 · 智能时代, The Verge AI, The Decoder&lt;/p&gt;</description>
-</item>
-<item><title>Anthropic 上市次日跌破 83 美元发行价</title><link>https://todayforai.com/en/story/story-117aec8b-51e</link><guid isPermaLink="true">https://todayforai.com/en/story/story-117aec8b-51e</guid>
-<pubDate>Wed, 25 Nov 2026 11:29:13 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 以每股 83 美元登陆纳斯达克，募资超 940 亿美元刷新全球 IPO 纪录，但上市次日即跌破发行价，市值回落至 1 万亿美元附近。
-
-此次 IPO 基础发行 8.25 亿股，叠加向谷歌、英伟达、微软等七巨头定向配售的 260 亿美元，合计募资超 940 亿美元，超越 SpaceX 成为史上最大 IPO。超额认购达 6 倍，散户配售比例提升至 20%，发行价较原区间上限高出 6.4%。首日开盘价 111.50 美元，高开 33%，但次日即回落至发行价下方，显示市场对 1.5 万亿美元估值的分歧。公司年化收入 810 亿美元，但募资额仅相当于其 9010 亿美元算力承诺的 10.5%，巨额基础设施支出令投资者保持谨慎。
-
-作为首家上市的前沿大模型公司，Anthropic 的股价波动为 AI 行业资本化提供了关键定价锚点。破发可能促使后续 AI 公司调整估值预期，并加剧公开市场对 AI 盈利能力的审视。&lt;/p&gt;&lt;p&gt;5 sources&lt;/p&gt;&lt;p&gt;InfoQ 中文, IT之家 · IT业界, Latent Space, Simon Willison 博客, 宝玉 (@dotey), GREG ISENBERG (@gregisenberg)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
