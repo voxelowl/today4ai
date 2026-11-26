@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Fri, 27 Nov 2026 04:03:54 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 27 Nov 2026 04:35:56 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Ex-OpenAI Researcher Walks Back Viral RSA Breakthrough Rumor</title><link>https://x.com/rohanpaul_ai/status/2126052357708607709</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126052357708607709</guid>
+<pubDate>Fri, 27 Nov 2026 04:35:56 +0800</pubDate>
+<description>&lt;p&gt;Former OpenAI researcher Scott Aaronson sparked a viral X thread suggesting OpenAI or Anthropic may hold a fast method for factoring large integers, which would undermine RSA encryption. He later struck out the blog comment that started it, saying \\&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;前 OpenAI 研究员澄清 RSA 破解传闻&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及 RSA 加密安全与前沿实验室密码学进展的传闻，虽无实证但共振面广，值得关注后续。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2126052357708607709">Rohan Paul (@rohanpaul_ai)</source>
+<category>密码学</category>
+<category>RSA</category>
+<category>OpenAI</category>
+<category>Anthropic</category>
+<category>传闻</category>
+</item>
 <item><title>Nvidia Pauses Chip Shipments to Southeast Asia Over Export Compliance</title><link>https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/</link><guid isPermaLink="true">https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/</guid>
 <pubDate>Fri, 27 Nov 2026 04:03:54 +0800</pubDate>
 <description>&lt;p&gt;Nvidia has told manufacturing partners including Dell and Super Micro to pause server shipments to Malaysia, Singapore, Thailand and Indonesia while it assesses whether regional partners comply with U.S. export requirements. The move targets a loophole that let Chinese firms remotely tap Nvidia chips in Southeast Asian data centers, which the U.S. Commerce Department moved to close this month; one think tank estimates such remote capacity supplies about 24% of China&amp;#x27;s AI compute.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达暂停向东南亚四国发货以核查出口合规&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;出口管制收紧直接冲击区域算力供应链，是理解中美 AI 算力格局变化的关键节点。&lt;/p&gt;&lt;p&gt;TechCrunch AI · compute · signal 78/100&lt;/p&gt;</description>
@@ -50,6 +60,15 @@
 <category>Scale AI</category>
 <category>训练效率</category>
 </item>
+<item><title>BUI Charts Debuts as Self-Proclaimed Largest 2D Chart Library</title><link>https://bui.preetham.top/charts/</link><guid isPermaLink="true">https://bui.preetham.top/charts/</guid>
+<pubDate>Fri, 27 Nov 2026 02:37:24 +0800</pubDate>
+<description>&lt;p&gt;The BUI ecosystem has released bui-charts, a component library built on the Rust-based BlenderUI framework that lets developers declare 2D charts such as XYChart, BarGauge, candlestick, flame graph and ternary plots via the rsx! macro, with signal-driven automatic redraws. It markets itself as the world&amp;#x27;s largest 2D chart library, but the available material focuses on installation and a starter example without chart counts, benchmarks or comparisons against mainstream libraries.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;BUI Charts 发布 号称全球最大 2D 图表库&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Rust 声明式 UI 生态新增图表组件库，对关注 Rust 前端与可视化工具链的开发者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 42/100&lt;/p&gt;</description>
+<source url="https://bui.preetham.top/charts/">Hacker News AI</source>
+<category>开源项目</category>
+<category>Rust</category>
+<category>数据可视化</category>
+<category>开发者工具</category>
+</item>
 <item><title>Ant Group&#x27;s Robbyant Releases LingBot-Map 2.0 with In-Inference Map Refinement</title><link>https://x.com/rohanpaul_ai/status/2126019340525056182</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126019340525056182</guid>
 <pubDate>Fri, 27 Nov 2026 02:24:44 +0800</pubDate>
 <description>&lt;p&gt;Robbyant, Ant Group&amp;#x27;s embodied AI unit, released LingBot-Map 2.0, which builds 3D maps from ordinary video while the camera moves and adds a Refine step that revises the model&amp;#x27;s existing spatial memory mid-run to curb accumulated drift. On the multi-kilometer VBR benchmark around Rome (up to 5.2 km, ~18,800 frames), average trajectory error drops from 31.12 m in v1.0 to 4.72 m in 2.0 with Refine, all inside normal inference with no external optimization backend. Code and weights are available for the Streaming version.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;蚂蚁集团 Robbyant 发布 LingBot-Map 2.0 轨迹误差降至 4.72 米&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把闭环地图修正内化进模型推理并开源权重，是具身智能空间感知路线的实质性进展。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 74/100&lt;/p&gt;</description>
@@ -68,6 +87,14 @@
 <category>计费策略</category>
 <category>订阅额度</category>
 <category>ChatGPT</category>
+</item>
+<item><title>Developer Uses $3 Chip to Let Claude Read 1994 Jeep Engine Computer</title><link>https://x.com/gregisenberg/status/2126004403052445733</link><guid isPermaLink="true">https://x.com/gregisenberg/status/2126004403052445733</guid>
+<pubDate>Fri, 27 Nov 2026 01:25:23 +0800</pubDate>
+<description>&lt;p&gt;A developer connected a 1994 Jeep&amp;#x27;s engine computer to Claude via a roughly $3 chip, and the model diagnosed why the vehicle kept failing emissions tests; the owner says it now passes. Total parts cost about $15, with the code released free on GitHub.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;开发者用 3 美元芯片让 Claude 读取 1994 款吉普车电脑&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是大模型接入老旧车载 OBD 硬件的低成本实操案例，展示了 AI 在真实诊断场景中的可用性。&lt;/p&gt;&lt;p&gt;GREG ISENBERG (@gregisenberg) · tools · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/gregisenberg/status/2126004403052445733">GREG ISENBERG (@gregisenberg)</source>
+<category>大模型应用</category>
+<category>汽车诊断</category>
+<category>开源项目</category>
 </item>
 <item><title>DeepSeek Open-Sources 7B Math Model Scoring 51.7% on MATH</title><link>https://github.com/deepseek-ai/deepseek-math</link><guid isPermaLink="true">https://github.com/deepseek-ai/deepseek-math</guid>
 <pubDate>Fri, 27 Nov 2026 01:21:14 +0800</pubDate>
@@ -203,27 +230,27 @@
 <category>数字主权</category>
 <category>协作工具</category>
 </item>
-<item><title>Ant Group Open-Sources Ming-Image-0.2-Design Image Model</title><link>https://x.com/AntLingAGI/status/2125916926048358827</link><guid isPermaLink="true">https://x.com/AntLingAGI/status/2125916926048358827</guid>
+<item><title>蚂蚁开源 Ming-Image-0.2-Design 图像模型</title><link>https://x.com/AntLingAGI/status/2125916926048358827</link><guid isPermaLink="true">https://x.com/AntLingAGI/status/2125916926048358827</guid>
 <pubDate>Thu, 26 Nov 2026 19:37:47 +0800</pubDate>
-<description>&lt;p&gt;Ant Group&amp;#x27;s Ling team introduced Ming-Image-0.2-Design and Ming-Image-0.2-Design-Layer, open-sourcing the Design variant today with the Layer variant to follow next week. Design ranks first among open-weight models on Artificial Analysis&amp;#x27;s AA-Image-T2I v2.1 leaderboard with 1,095 Elo.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;蚂蚁开源 Ming-Image-0.2-Design 图像模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源文生图模型登顶权威榜单，且权重即日开放，对关注开源多模态生态的读者有直接价值。&lt;/p&gt;&lt;p&gt;AntLing (@AntLingAGI) · llm · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;蚂蚁集团 Ling 团队发布 Ming-Image-0.2-Design 与 Ming-Image-0.2-Design-Layer 两款图像生成模型，其中 Design 版本即日开源，Layer 版本计划下周开源。Design 版本在 Artificial Analysis 的 AA-Image-T2I v2.1 榜单上以 1,095 Elo 位列开源权重模型第一。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;开源文生图模型登顶权威榜单，且权重即日开放，对关注开源多模态生态的读者有直接价值。&lt;/p&gt;&lt;p&gt;AntLing (@AntLingAGI) · llm · signal 62/100&lt;/p&gt;</description>
 <source url="https://x.com/AntLingAGI/status/2125916926048358827">AntLing (@AntLingAGI)</source>
 <category>开源模型</category>
 <category>文生图</category>
 <category>蚂蚁集团</category>
 <category>多模态</category>
 </item>
-<item><title>llama.cpp Launches Benchmark Dashboard for AMD Ryzen and Radeon</title><link>https://huggingface.co/blog/ggml-org/llamacpp-amd-bench</link><guid isPermaLink="true">https://huggingface.co/blog/ggml-org/llamacpp-amd-bench</guid>
+<item><title>llama.cpp 推出 AMD Ryzen 与 Radeon 基准测试面板</title><link>https://huggingface.co/blog/ggml-org/llamacpp-amd-bench</link><guid isPermaLink="true">https://huggingface.co/blog/ggml-org/llamacpp-amd-bench</guid>
 <pubDate>Thu, 26 Nov 2026 19:37:17 +0800</pubDate>
-<description>&lt;p&gt;ggml-org and Hugging Face released the llama.cpp × AMD benchmark dashboard, which tracks prompt processing and text generation performance across builds, models, and quantizations. It targets AMD developers who want to monitor how local inference performance shifts as kernels and builds evolve.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;llama.cpp 推出 AMD Ryzen 与 Radeon 基准测试面板&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为 AMD 本地推理生态提供可长期追踪的公开性能基准，对关注 llama.cpp 与消费级硬件的开发者有实用价值。&lt;/p&gt;&lt;p&gt;Hugging Face Blog · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;ggml-org 与 Hugging Face 联合发布 llama.cpp × AMD 基准测试面板，可跨不同构建版本、模型与量化方案追踪提示处理与文本生成性能。该面板面向 AMD 开发者，帮助观察本地推理性能随内核与构建演进的长期变化。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为 AMD 本地推理生态提供可长期追踪的公开性能基准，对关注 llama.cpp 与消费级硬件的开发者有实用价值。&lt;/p&gt;&lt;p&gt;Hugging Face Blog · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://huggingface.co/blog/ggml-org/llamacpp-amd-bench">Hugging Face Blog</source>
 <category>llama.cpp</category>
 <category>AMD</category>
 <category>本地推理</category>
 <category>基准测试</category>
 </item>
-<item><title>Microsoft Details How Hackers Use ARTEX AI Framework to Automate Attacks</title><link>https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/</link><guid isPermaLink="true">https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/</guid>
+<item><title>微软披露黑客用 ARTEX 框架全自动发起攻击</title><link>https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/</link><guid isPermaLink="true">https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/</guid>
 <pubDate>Thu, 26 Nov 2026 19:30:06 +0800</pubDate>
-<description>&lt;p&gt;Microsoft analysis reveals that state-backed hackers and criminal groups are increasingly using the AI penetration-testing framework ARTEX to run fully automated attacks, chaining autonomous agents with tools like Metasploit from reconnaissance to data theft. The system distributes tasks on its own and switches language models when one fails, operating at machine speed and leaving defenders only minutes to react. Microsoft recommends deception tactics such as decoy systems and fake success signals to trick the AI into aborting attacks.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;微软披露黑客用 ARTEX 框架全自动发起攻击&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次系统披露 AI 智能体被用于全自动攻击链，攻防节奏被压缩至机器速度，对安全与 Agent 领域读者均具高关注价值。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;微软分析指出，国家背景黑客与犯罪团伙正利用 AI 渗透测试框架 ARTEX，通过自主智能体串联 Metasploit 等工具，实现从侦察到数据窃取的全流程自动化攻击。该系统可自行分发任务，并在模型失效时自动切换语言模型，以机器速度推进攻击，使防守方往往只有数分钟响应时间。微软建议以诱饵系统与伪造成功信号等欺骗战术，诱导 AI 主动放弃攻击。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次系统披露 AI 智能体被用于全自动攻击链，攻防节奏被压缩至机器速度，对安全与 Agent 领域读者均具高关注价值。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 78/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/">The Decoder</source>
 <category>AI 安全</category>
 <category>智能体</category>
@@ -247,31 +274,6 @@
 <category>政策监管</category>
 <category>AI 训练数据</category>
 <category>国家数据局</category>
-</item>
-<item><title>OpenAI 宣称证明矩阵乘法指数恰为 9/4</title><link>https://www.ithome.com/1/033/050.htm</link><guid isPermaLink="true">https://www.ithome.com/1/033/050.htm</guid>
-<pubDate>Thu, 26 Nov 2026 18:52:40 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 在 10 月证得 ω≤9/4 后，于 11 月 24 日进一步宣称证得 ω≥9/4，从而闭合得到矩阵乘法指数 ω=9/4。若证明成立，这将是计算复杂性理论中关于矩阵乘法渐进最优复杂度的里程碑式结论，并牵动一系列相关复杂度问题。需注意 ω 为渐进量，实际性能仍受常数因子、内存与硬件结构制约。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;若证明无误，这是计算复杂性理论级别的重大成果，且由 AI 公司提出，对算法与 AI 基础设施读者高度相关。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · llm · signal 88/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/033/050.htm">IT之家 · 智能时代</source>
-<category>矩阵乘法</category>
-<category>计算复杂性</category>
-<category>OpenAI</category>
-<category>数学证明</category>
-</item>
-<item><title>Intel 开源高可读性等宽字体 One Mono</title><link>https://github.com/intel/intel-one-mono</link><guid isPermaLink="true">https://github.com/intel/intel-one-mono</guid>
-<pubDate>Thu, 26 Nov 2026 18:11:01 +0800</pubDate>
-<description>&lt;p&gt;Intel 发布开源等宽字体 Intel One Mono，由 Frere-Jones Type 联合设计，重点面向低视力开发者群体，通过提升字形清晰度缓解编码疲劳与眼疲劳。字体提供 Light、Regular、Medium、Bold 四种字重及配套斜体，覆盖 200 余种拉丁语系语言，并同时开放可直接使用的成品字体与可编辑源文件。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向开发者体验的开源字体发布，对长期编码人群有直接实用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 42/100&lt;/p&gt;</description>
-<source url="https://github.com/intel/intel-one-mono">Hacker News AI</source>
-<category>开源字体</category>
-<category>开发者工具</category>
-<category>Intel</category>
-</item>
-<item><title>具微科技发布潘多拉基站 90 秒自动换装补能</title><link>https://www.qbitai.com/2026/11/512972.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/512972.html</guid>
-<pubDate>Thu, 26 Nov 2026 18:07:55 +0800</pubDate>
-<description>&lt;p&gt;具微科技在高交会首发模块化换装补能基站 MICBOT PANDORA，可在 90 秒内完成机器人自动换装与补能，支撑无人化连续作业闭环。同期展出轮足复合移动底座 MOVENEW P3S，具备 600 kg 静态负载与整机液冷方案，面向高危特种工业场景。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向高危工业场景的具身智能硬件与自动补能基站首发，具备明确参数与工程方案，值得关注。&lt;/p&gt;&lt;p&gt;量子位官网 · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.qbitai.com/2026/11/512972.html">量子位官网</source>
-<category>具身智能</category>
-<category>工业机器人</category>
-<category>高交会</category>
 </item>
 </channel>
 </rss>
