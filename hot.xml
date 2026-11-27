@@ -3,6 +3,14 @@
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
 <language>en</language><lastBuildDate>Fri, 27 Nov 2026 20:13:19 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
+<item><title>蚂蚁灵波开源 LingBot-Map 2.0 轨迹误差骤降 85%</title><link>https://todayforai.com/en/story/story-291f2171-22b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-291f2171-22b</guid>
+<pubDate>Fri, 27 Nov 2026 16:39:49 +0800</pubDate>
+<description>&lt;p&gt;蚂蚁集团旗下具身智能公司灵波科技正式发布流式三维重建模型 LingBot-Map 2.0，并开源带空间记忆的导航模型 LingBot-Navi。LingBot-Map 2.0 的核心突破在于将长距离建图的累积漂移误差从上一代的 31.12 米骤降至 4.72 米，降幅高达 85%，且全程在模型推理内部完成，无需依赖外接优化后端。
+
+技术细节上，LingBot-Map 2.0 新增 Refine 步骤，可在相机运动过程中随时修正模型已有的空间记忆，并将修正结果写回缓存供后续帧复用，从而在罗马多公里级 VBR 基准（最长 5.2 公里、约 18800 帧）上实现高精度实时建图。LingBot-Navi 则基于该三维空间记忆实现跨任务导航，机器人到访一次即可复用环境地图，按自然语言指令查找目标并规划路线，无需每次从零探索。两款模型的权重、技术报告及 511 个真实场景数据集已全面开源。
+
+此次发布直指机器人在真实场所长期自主作业的两大瓶颈——建图漂移与经验无法复用。前代 LingBot-Map 1.0 于今年 4 月开源后 GitHub Star 已超 1.9 万，生态基础扎实。新模型将流式三维重建与空间记忆导航深度耦合，为具身智能提供了可复用的“空间记忆底座”，有望加速机器人在家庭、仓储、巡检等场景的规模化落地。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;新智元 (微信公众号), InfoQ 中文, 量子位官网, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
+</item>
 <item><title>OpenRouter 数据揭示 AI 推理需求价格弹性减弱</title><link>https://todayforai.com/en/story/story-044129a8-530</link><guid isPermaLink="true">https://todayforai.com/en/story/story-044129a8-530</guid>
 <pubDate>Fri, 27 Nov 2026 05:46:36 +0800</pubDate>
 <description>&lt;p&gt;OpenRouter 2026 年数据显示，付费 token 量增长 44 倍而支出仅增长 7.6 倍，单 token 均价下降 83%。近四周 token 量增长 39% 但支出持平，表明企业更倾向将降价转化为成本节省而非新增消耗，Jevons 悖论效应正在减弱。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
@@ -14,14 +22,6 @@
 阿莫迪在回应中明确区分了“任务自动化”与“放弃人类自主权”，强调 AI 必须接受合法的民主程序治理，人类保留最终决策权，效率或安全不能成为让渡合法性的理由。他同时警告递归自我改进风险，并暗讽部分竞争对手在自动化上口是心非。Anthropic 称 Claude 不会在缺乏有效人类监督下自主连续构建前沿模型。OpenAI、Meta 高管也相继表态反对把社会“移交”给 AI，路线之争公开化。
 
 此番争议折射出头部 AI 实验室在“人类主导权”议题上的路线分歧，也发生在 Anthropic 上市不足一周股价跌破发行价、七位联合创始人按安排出售股份的敏感时刻。开发者社区对 Claude 额度与商业化策略的质疑升温，而内部模型强到不敢发布的现实，更将前沿安全治理从理论讨论推向真实的发布决策压力。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, InfoQ 中文, 宝玉 (@dotey), The Decoder&lt;/p&gt;</description>
-</item>
-<item><title>蚂蚁灵波开源 LingBot-Map 2.0 轨迹误差骤降 85%</title><link>https://todayforai.com/en/story/story-291f2171-22b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-291f2171-22b</guid>
-<pubDate>Fri, 27 Nov 2026 16:39:49 +0800</pubDate>
-<description>&lt;p&gt;蚂蚁集团旗下具身智能公司灵波科技正式发布流式三维重建模型 LingBot-Map 2.0，并开源带空间记忆的导航模型 LingBot-Navi。LingBot-Map 2.0 的核心突破在于将长距离建图的累积漂移误差修正能力内化到模型推理过程中，无需依赖外接优化后端。在罗马多公里级 VBR 基准（最长 5.2 公里、约 18800 帧）上，其平均轨迹误差从 1.0 版本的 31.12 米骤降至 4.72 米，降幅高达 85%。
-
-技术细节上，LingBot-Map 2.0 新增 Refine 步骤，可在相机运动过程中随时修正模型已有的空间记忆，并将修正结果写回缓存供后续帧复用，实现实时闭环。LingBot-Navi 则基于该三维空间记忆实现跨任务导航，无需每次从零探索，可按照自然语言指令查找目标并规划路线。两款模型的权重、技术报告、代码及 511 个真实场景数据集已全面开源，为具身智能社区提供了从感知到导航的完整工具链。
-
-此次发布标志着具身智能底层能力的重要进展。LingBot-Map 2.0 摆脱对外部优化求解器的依赖，使实时三维重建更加轻量高效；LingBot-Navi 的空间记忆复用则显著提升了多任务导航的泛化能力。开源策略有望加速机器人长距离自主导航与场景理解的研究与落地，推动具身智能从实验室走向真实应用。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;量子位官网, Rohan Paul (@rohanpaul_ai), InfoQ 中文&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 宣称锁定矩阵乘法指数 9/4 终结半世纪悬案</title><link>https://todayforai.com/en/story/story-df554c97-fde</link><guid isPermaLink="true">https://todayforai.com/en/story/story-df554c97-fde</guid>
 <pubDate>Thu, 26 Nov 2026 18:52:40 +0800</pubDate>
@@ -63,6 +63,10 @@ SpaceX 的 Starmind 星座旨在缓解地面算力需求的快速增长，将 AI
 
 这是美国出口管制从硬件流向向算力服务延伸的标志性事件，东南亚数据中心枢纽地位面临重塑，全球 AI 算力供应链的合规成本与不确定性陡增。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), TechCrunch AI, The Decoder&lt;/p&gt;</description>
 </item>
+<item><title>一目科技战略升级 构建机器人灵巧操作生态</title><link>https://todayforai.com/en/story/story-7acf3aff-c7a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-7acf3aff-c7a</guid>
+<pubDate>Fri, 27 Nov 2026 17:00:00 +0800</pubDate>
+<description>&lt;p&gt;一目科技宣布战略升级，从视触觉传感器供应商转向构建「YIMU xEco」灵巧操作生态，覆盖高维感知、极致操作、技能沉淀与开放部署四层能力。其核心判断是触觉感知本身不足以支撑精细操作，传感器与灵巧手、机器人本体之间的标定与联调才是落地瓶颈。该路线能否成立，取决于其视触觉方案能否真正做成可量产的工业标准件。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;机器之心 (微信公众号)&lt;/p&gt;</description>
+</item>
 <item><title>OpenAI 开测私有推理 企业数据对己不可见</title><link>https://todayforai.com/en/story/story-efdd7ed4-012</link><guid isPermaLink="true">https://todayforai.com/en/story/story-efdd7ed4-012</guid>
 <pubDate>Thu, 26 Nov 2026 07:45:33 +0800</pubDate>
 <description>&lt;p&gt;OpenAI 已开始面向少数企业客户测试名为 Private Inference 的新服务，核心突破在于：企业在调用其前沿模型时，OpenAI 自身无法访问查询数据。该功能隶属 Private Intelligence 产品线，结合零数据留存（ZDR）与私有安全处理（Private Safety Processing），可在不向 OpenAI 人员开放底层内容的前提下完成自动化安全审查。此前企业数据本就不用于训练，而消费级 ChatGPT 对话默认用于训练，此次试点进一步将隐私保护延伸至推理环节。
@@ -70,14 +74,6 @@ SpaceX 的 Starmind 星座旨在缓解地面算力需求的快速增长，将 AI
 综合多方信源，该服务目前处于早期邀请制阶段，技术实现、客户名单、上线时间与收费模式均未披露。OpenAI 表示正扩充算力以扩大服务规模，并将其定位为迈向普惠私有智能的第一步。Sam Altman 亦强调，更强的隐私保护是前沿模型承担更多企业级工作负载的关键前提。
 
 此举直击企业采用大模型的核心顾虑——数据泄露风险。通过将隐私保护内置于推理层，OpenAI 试图在竞争激烈的企业 AI 市场中建立差异化优势，同时为受监管行业（如金融、医疗）扫除合规障碍。若该模式规模化，可能推动行业形成“私有推理”新标准，并加剧与 Anthropic、谷歌云等对手在企业隐私赛道的角逐。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;The Decoder, IT之家 · 智能时代, Sam Altman (@sama)&lt;/p&gt;</description>
-</item>
-<item><title>腾讯混元开源草稿模型 DFly2 实现最高 4.2 倍加速</title><link>https://todayforai.com/en/story/story-5bd976e4-761</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5bd976e4-761</guid>
-<pubDate>Fri, 27 Nov 2026 11:34:21 +0800</pubDate>
-<description>&lt;p&gt;腾讯混元正式开源新一代草稿模型 DFly2，作为旁挂加速组件，在不改变目标模型 Hy4 flash 权重与输出结果的前提下，将大模型推理吐字速度最高提升 4.2 倍。该模型权重、完整训练代码与论文已同步开源，为稀疏注意力大模型的推理加速提供了新的工程范式。
-
-DFly2 的核心创新在于极致复用目标模型的 KV cache 与 indexer 选位。每个草稿层共享目标模型稀疏注意力层的 KV cache 及至多 2048 个 indexer 选位，使注意力复杂度与上下文长度解耦，实现零额外 KV 显存占用，且不参与 prefill 阶段，P 到 D 仅需传输一个末层隐状态。在 19 个公开评测集上，DFly2 平均加速比较 DSpark 分别高出约 12% 与 30%，Agentic 与长文场景优势尤为明显。在 DeepSeek-V4.1-Flash 上，其平均接受长度达 4.12（DSpark 为 3.81），两组 64K 场景下服务吞吐分别提升 62% 与 81%。不过，该方案仅适用于自带稀疏索引器的目标模型，通用任务上相对 DSpark 的增益约为 3.9%。
-
-DFly2 的开源为稀疏注意力大模型的推理部署提供了高效、低成本的加速方案，尤其适合长上下文与智能体应用场景。其旁挂式设计降低了加速门槛，有望推动投机解码技术在更广泛的生产环境中落地，并进一步激发围绕稀疏注意力生态的工程创新。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Marktechpost (@Marktechpost)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
