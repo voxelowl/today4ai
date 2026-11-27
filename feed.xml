@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Fri, 27 Nov 2026 07:19:22 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 27 Nov 2026 09:00:04 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>NVIDIA Paper Finds Self-Compacting Context Nearly Triples Model Scores</title><link>https://x.com/rohanpaul_ai/status/2126118827264294915</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126118827264294915</guid>
+<pubDate>Fri, 27 Nov 2026 09:00:04 +0800</pubDate>
+<description>&lt;p&gt;An NVIDIA paper introduces NOOA, an open-source agent framework that gives models an API to summarize chosen history segments and retrieve originals later, nearly tripling GPT-6.1 Sol&amp;#x27;s score on OfficeQA Pro v2 from 21% to 56% at a 32K budget. Results vary sharply across models: Claude Opus 5.5 used the API in only 4% of tasks, while Kimi K3 and DeepSeek V4 Pro compacted prematurely without timing hints. The takeaway is to let strong models manage their own context under tight budgets, but validate per model first.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达新论文称模型自主压缩上下文可提升近三倍得分&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次系统对比模型自主压缩与框架自动压缩上下文，并给出跨模型差异的量化证据，对智能体开发者有直接指导价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2126118827264294915">Rohan Paul (@rohanpaul_ai)</source>
+<category>智能体</category>
+<category>上下文管理</category>
+<category>英伟达</category>
+<category>评测基准</category>
+</item>
+<item><title>DeepSeek Tests Per-Turn Cost Display for Chat Users</title><link>https://www.ithome.com/1/033/157.htm</link><guid isPermaLink="true">https://www.ithome.com/1/033/157.htm</guid>
+<pubDate>Fri, 27 Nov 2026 08:21:03 +0800</pubDate>
+<description>&lt;p&gt;DeepSeek is A/B testing a per-turn cost display in its web and mobile chat apps, showing token usage and an API-equivalent estimated price after each exchange, plus a context-window occupancy indicator. The feature makes the inference cost behind free consumer chat visible and highlights that cache-hit input is priced at one-fiftieth of cache-miss input.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;DeepSeek 灰度测试对话成本可视化功能&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部开源模型厂商首次把单轮推理成本透明化给 C 端用户，是观察大模型商业化与成本结构的一手信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · llm · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/033/157.htm">IT之家 · IT业界</source>
+<category>DeepSeek</category>
+<category>上下文缓存</category>
+<category>Token 计费</category>
+<category>大模型商业化</category>
+</item>
+<item><title>GF Securities Forecasts DRAM Prices May Halve by 2028</title><link>https://www.ithome.com/1/033/154.htm</link><guid isPermaLink="true">https://www.ithome.com/1/033/154.htm</guid>
+<pubDate>Fri, 27 Nov 2026 08:10:11 +0800</pubDate>
+<description>&lt;p&gt;GF Securities analyst Jeff Pu cut his 2027 DRAM contract price growth forecast and issued first-ever 2028 scenarios, with the base case seeing conventional DRAM fall from about $16/GB to $8/GB, a 50% drop. Prices still rise in 2027 at a slower pace, while HBM production keeps the market in shortage.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;广发证券预测 DRAM 价格 2028 年或腰斩&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是存储芯片供需与 AI 算力成本的关键前瞻信号，直接影响服务器与终端硬件定价。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/033/154.htm">IT之家 · IT业界</source>
+<category>存储芯片</category>
+<category>DRAM</category>
+<category>HBM</category>
+<category>算力基础设施</category>
+</item>
 <item><title>Palo Alto CEO Says AI Is Unearthing 50 Years of Coding Flaws</title><link>https://x.com/rohanpaul_ai/status/2126093486722371829</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126093486722371829</guid>
 <pubDate>Fri, 27 Nov 2026 07:19:22 +0800</pubDate>
 <description>&lt;p&gt;Palo Alto Networks CEO Nikesh Arora says Anthropic&amp;#x27;s Mythos is surfacing decades of human coding vulnerabilities in a very short span, and attackers are the ones profiting. He cited a dark-web case where a single attacker used an AI agent to breach 19 companies at once, arguing AI-driven attack scaling is only beginning.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Palo Alto CEO 称 AI 正快速挖出 50 年代码漏洞&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部安全厂商 CEO 对 AI 漏洞挖掘与攻击规模化的公开判断，具备行业风向标价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
@@ -206,26 +233,26 @@
 <category>开源模型</category>
 <category>蚂蚁集团</category>
 </item>
-<item><title>OpenAI Fixes Billing Bug, Users Hit GPT-6.2 Astra Limits 40% Faster</title><link>https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/</link><guid isPermaLink="true">https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/</guid>
+<item><title>OpenAI 修复计费漏洞 用户额度消耗提速 40%</title><link>https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/</link><guid isPermaLink="true">https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/</guid>
 <pubDate>Fri, 27 Nov 2026 01:28:56 +0800</pubDate>
-<description>&lt;p&gt;A billing bug during the GPT-6.2 rollout gave most users incorrect discounts on GPT-6.2 Astra and Sol. After the fix, quotas now deplete 40% faster on Astra and 25% faster on Sol, though OpenAI will not retroactively charge users and is granting all paid tiers an extra saved reset plus free Fast Mode for Business accounts through year-end. OpenAI is also testing a merge of Chat and Work modes with select Pro users.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 修复计费漏洞 用户额度消耗提速 40%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及头部厂商计费错误与额度政策调整，直接影响订阅用户的成本与使用预期。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 在 GPT-6.2 上线期间出现计费折扣计算错误，导致多数用户获得了错误的折扣额度。漏洞修复后，Astra 与 Sol 的额度消耗速度分别加快 40% 和 25%，但官方承诺不追溯补收费用，并向 Go、Plus、Pro、Business 订阅用户补偿一次额外重置额度。OpenAI 同时在小范围 Pro 用户中测试 Chat 与 Work 模式合并。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及头部厂商计费错误与额度政策调整，直接影响订阅用户的成本与使用预期。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/">The Decoder</source>
 <category>OpenAI</category>
 <category>计费策略</category>
 <category>订阅额度</category>
 <category>ChatGPT</category>
 </item>
-<item><title>Developer Uses $3 Chip to Let Claude Read 1994 Jeep Engine Computer</title><link>https://x.com/gregisenberg/status/2126004403052445733</link><guid isPermaLink="true">https://x.com/gregisenberg/status/2126004403052445733</guid>
+<item><title>开发者用 3 美元芯片让 Claude 读取 1994 款吉普车电脑</title><link>https://x.com/gregisenberg/status/2126004403052445733</link><guid isPermaLink="true">https://x.com/gregisenberg/status/2126004403052445733</guid>
 <pubDate>Fri, 27 Nov 2026 01:25:23 +0800</pubDate>
-<description>&lt;p&gt;A developer connected a 1994 Jeep&amp;#x27;s engine computer to Claude via a roughly $3 chip, and the model diagnosed why the vehicle kept failing emissions tests; the owner says it now passes. Total parts cost about $15, with the code released free on GitHub.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;开发者用 3 美元芯片让 Claude 读取 1994 款吉普车电脑&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是大模型接入老旧车载 OBD 硬件的低成本实操案例，展示了 AI 在真实诊断场景中的可用性。&lt;/p&gt;&lt;p&gt;GREG ISENBERG (@gregisenberg) · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;一位开发者通过约 3 美元的芯片将 1994 款吉普车的发动机电脑接入 Claude，由模型分析出车辆反复无法通过尾气检测的原因，车主称修复后已通过检测。整套硬件成本约 15 美元，相关代码已在 GitHub 免费开源。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是大模型接入老旧车载 OBD 硬件的低成本实操案例，展示了 AI 在真实诊断场景中的可用性。&lt;/p&gt;&lt;p&gt;GREG ISENBERG (@gregisenberg) · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://x.com/gregisenberg/status/2126004403052445733">GREG ISENBERG (@gregisenberg)</source>
 <category>大模型应用</category>
 <category>汽车诊断</category>
 <category>开源项目</category>
 </item>
-<item><title>DeepSeek Open-Sources 7B Math Model Scoring 51.7% on MATH</title><link>https://github.com/deepseek-ai/deepseek-math</link><guid isPermaLink="true">https://github.com/deepseek-ai/deepseek-math</guid>
+<item><title>DeepSeek 开源 7B 数学模型 竞赛级 MATH 得分 51.7%</title><link>https://github.com/deepseek-ai/deepseek-math</link><guid isPermaLink="true">https://github.com/deepseek-ai/deepseek-math</guid>
 <pubDate>Fri, 27 Nov 2026 01:21:14 +0800</pubDate>
-<description>&lt;p&gt;DeepSeek released DeepSeekMath 7B, initialized from DeepSeek-Coder-v1.5 7B and continually pre-trained on 500B math-related tokens. It scores 51.7% on the competition-level MATH benchmark without external tools or voting, approaching Gemini-Ultra and GPT-4. Base, instruct, and RL checkpoints are open-sourced for research.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;DeepSeek 开源 7B 数学模型 竞赛级 MATH 得分 51.7%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;7B 小模型在竞赛级数学基准上逼近顶级闭源模型，且三档权重全部开源，对数学推理与开源生态均有实质价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;DeepSeek 发布 DeepSeekMath 7B，以 DeepSeek-Coder-v1.5 7B 为基座，在数学相关 token 上继续预训练 500B，竞赛级 MATH 基准得分 51.7%，在不依赖外部工具与投票的情况下逼近 Gemini-Ultra 与 GPT-4 水平。团队同时开源 base、instruct、RL 三个版本的模型权重，供研究使用。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;7B 小模型在竞赛级数学基准上逼近顶级闭源模型，且三档权重全部开源，对数学推理与开源生态均有实质价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://github.com/deepseek-ai/deepseek-math">Hacker News AI</source>
 <category>大模型</category>
 <category>开源模型</category>
@@ -249,33 +276,6 @@
 <category>AMD</category>
 <category>推理引擎</category>
 <category>开源生态</category>
-</item>
-<item><title>OpenRouter 数据：杰文斯悖论在 2026 年成立</title><link>https://x.com/OpenRouter/status/2125998076896920034</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2125998076896920034</guid>
-<pubDate>Fri, 27 Nov 2026 01:00:15 +0800</pubDate>
-<description>&lt;p&gt;OpenRouter 基于 2026 年全年 token 用量、token 价格与总支出数据，验证了杰文斯悖论在 AI 推理市场成立：价格下降并未减少总支出，反而带动用量与花费同步上升。但该效应在近几个月明显弱于年初，说明降价对需求的边际拉动正在收窄。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;用真实平台全年用量与价格数据检验 AI 推理需求弹性，为判断降价与市场增长关系提供实证参考。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/OpenRouter/status/2125998076896920034">OpenRouter (@OpenRouter)</source>
-<category>杰文斯悖论</category>
-<category>推理成本</category>
-<category>OpenRouter</category>
-<category>token 经济</category>
-</item>
-<item><title>SimDrop 将 iOS 模拟器接入 Finder 侧边栏</title><link>https://github.com/rxliuli/sim-drop</link><guid isPermaLink="true">https://github.com/rxliuli/sim-drop</guid>
-<pubDate>Fri, 27 Nov 2026 00:51:38 +0800</pubDate>
-<description>&lt;p&gt;SimDrop 是一款开源 macOS 工具，把已启动的 iOS 模拟器以文件夹形式挂载到 Finder 侧边栏，用户可直接拖拽文件进出模拟器的照片库与下载目录，也可通过终端路径访问。该工具需 macOS 15 及以上，采用 GPL-3.0 协议开源，已签名公证并支持 Homebrew 安装。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向 iOS 开发者的实用小工具，解决模拟器文件互传的具体摩擦，但影响面限于本地开发场景。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
-<source url="https://github.com/rxliuli/sim-drop">Hacker News AI</source>
-<category>开发者工具</category>
-<category>iOS 开发</category>
-<category>macOS</category>
-<category>开源</category>
-</item>
-<item><title>美国数据封锁致中国大模型延期至 2027 年</title><link>https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/</link><guid isPermaLink="true">https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/</guid>
-<pubDate>Thu, 26 Nov 2026 23:45:08 +0800</pubDate>
-<description>&lt;p&gt;受美国芯片出口管制、云算力漏洞封堵与反蒸馏执法叠加影响，智谱与月之暗面的下一代旗舰模型被迫延期，智谱约 3 万亿参数的 GLM-5.5 从 2026 年 11 月推迟至 2027 年一季度。两家公司正转向 Google 与 Meta 的公开数据源以填补训练数据缺口，标志着中美 AI 竞争从算力层延伸至数据供给层。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是中美 AI 竞争从算力管制延伸到数据与蒸馏执法的重要信号，直接影响下一代开源旗舰模型的发布节奏。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/">The Decoder</source>
-<category>中美AI竞争</category>
-<category>出口管制</category>
-<category>训练数据</category>
-<category>模型延期</category>
 </item>
 </channel>
 </rss>
