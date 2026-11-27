@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Fri, 27 Nov 2026 11:45:19 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 27 Nov 2026 16:39:49 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>OpenRouter 数据揭示 AI 推理需求价格弹性减弱</title><link>https://todayforai.com/en/story/story-044129a8-530</link><guid isPermaLink="true">https://todayforai.com/en/story/story-044129a8-530</guid>
 <pubDate>Fri, 27 Nov 2026 05:46:36 +0800</pubDate>
 <description>&lt;p&gt;OpenRouter 2026 年数据显示，付费 token 量增长 44 倍而支出仅增长 7.6 倍，单 token 均价下降 83%。近四周 token 量增长 39% 但支出持平，表明企业更倾向将降价转化为成本节省而非新增消耗，Jevons 悖论效应正在减弱。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
+</item>
+<item><title>蚂蚁灵波开源 LingBot-Map 2.0 轨迹误差骤降 85%</title><link>https://todayforai.com/en/story/story-291f2171-22b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-291f2171-22b</guid>
+<pubDate>Fri, 27 Nov 2026 16:39:49 +0800</pubDate>
+<description>&lt;p&gt;蚂蚁集团旗下具身智能公司灵波科技正式发布流式三维重建模型 LingBot-Map 2.0，并开源带空间记忆的导航模型 LingBot-Navi。LingBot-Map 2.0 的核心突破在于将长距离建图的累积漂移误差修正能力内化到模型推理过程中，无需依赖外接优化后端。在罗马多公里级 VBR 基准（最长 5.2 公里、约 18800 帧）上，其平均轨迹误差从 1.0 版本的 31.12 米骤降至 4.72 米，降幅高达 85%。
+
+技术细节上，LingBot-Map 2.0 新增 Refine 步骤，可在相机运动过程中随时修正模型已有的空间记忆，并将修正结果写回缓存供后续帧复用，实现实时闭环。LingBot-Navi 则基于该三维空间记忆实现跨任务导航，无需每次从零探索，可按照自然语言指令查找目标并规划路线。两款模型的权重、技术报告、代码及 511 个真实场景数据集已全面开源，为具身智能社区提供了从感知到导航的完整工具链。
+
+此次发布标志着具身智能底层能力的重要进展。LingBot-Map 2.0 摆脱对外部优化求解器的依赖，使实时三维重建更加轻量高效；LingBot-Navi 的空间记忆复用则显著提升了多任务导航的泛化能力。开源策略有望加速机器人长距离自主导航与场景理解的研究与落地，推动具身智能从实验室走向真实应用。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;量子位官网, Rohan Paul (@rohanpaul_ai), InfoQ 中文&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 宣称锁定矩阵乘法指数 9/4 终结半世纪悬案</title><link>https://todayforai.com/en/story/story-df554c97-fde</link><guid isPermaLink="true">https://todayforai.com/en/story/story-df554c97-fde</guid>
 <pubDate>Thu, 26 Nov 2026 18:52:40 +0800</pubDate>
@@ -55,6 +63,14 @@ SpaceX 的 Starmind 星座旨在缓解地面算力需求的快速增长，将 AI
 
 此举直击企业采用大模型的核心顾虑——数据泄露风险。通过将隐私保护内置于推理层，OpenAI 试图在竞争激烈的企业 AI 市场中建立差异化优势，同时为受监管行业（如金融、医疗）扫除合规障碍。若该模式规模化，可能推动行业形成“私有推理”新标准，并加剧与 Anthropic、谷歌云等对手在企业隐私赛道的角逐。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;The Decoder, IT之家 · 智能时代, Sam Altman (@sama)&lt;/p&gt;</description>
 </item>
+<item><title>腾讯混元开源草稿模型 DFly2 实现最高 4.2 倍加速</title><link>https://todayforai.com/en/story/story-5bd976e4-761</link><guid isPermaLink="true">https://todayforai.com/en/story/story-5bd976e4-761</guid>
+<pubDate>Fri, 27 Nov 2026 11:34:21 +0800</pubDate>
+<description>&lt;p&gt;腾讯混元正式开源新一代草稿模型 DFly2，作为旁挂加速组件，在不改变目标模型 Hy4 flash 权重与输出结果的前提下，将大模型推理吐字速度最高提升 4.2 倍。该模型权重、完整训练代码与论文已同步开源，为稀疏注意力大模型的推理加速提供了新的工程范式。
+
+DFly2 的核心创新在于极致复用目标模型的 KV cache 与 indexer 选位。每个草稿层共享目标模型稀疏注意力层的 KV cache 及至多 2048 个 indexer 选位，使注意力复杂度与上下文长度解耦，实现零额外 KV 显存占用，且不参与 prefill 阶段，P 到 D 仅需传输一个末层隐状态。在 19 个公开评测集上，DFly2 平均加速比较 DSpark 分别高出约 12% 与 30%，Agentic 与长文场景优势尤为明显。在 DeepSeek-V4.1-Flash 上，其平均接受长度达 4.12（DSpark 为 3.81），两组 64K 场景下服务吞吐分别提升 62% 与 81%。不过，该方案仅适用于自带稀疏索引器的目标模型，通用任务上相对 DSpark 的增益约为 3.9%。
+
+DFly2 的开源为稀疏注意力大模型的推理部署提供了高效、低成本的加速方案，尤其适合长上下文与智能体应用场景。其旁挂式设计降低了加速门槛，有望推动投机解码技术在更广泛的生产环境中落地，并进一步激发围绕稀疏注意力生态的工程创新。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Marktechpost (@Marktechpost)&lt;/p&gt;</description>
+</item>
 <item><title>Artificial Analysis 推出人形机器人仿真基准 前沿模型操控能力差距显著</title><link>https://todayforai.com/en/story/story-1adc3af7-8ed</link><guid isPermaLink="true">https://todayforai.com/en/story/story-1adc3af7-8ed</guid>
 <pubDate>Thu, 26 Nov 2026 04:43:52 +0800</pubDate>
 <description>&lt;p&gt;Artificial Analysis 正式发布 AA-Robotics-Sim v0.1 研究预览版，首次将前沿大语言模型置于仿真环境中直接操控 Unitree G1 人形机器人，完成涵盖具身推理、抓取放置、装配、工具使用与移动等 10 项任务。评测采用先练习后换场景的泛化测试，GPT-6.2 Astra 以 71.0 分领先，较第二名 Claude Fable 5.2 高出 13.5 分，GPT-6.2 Sol 紧随其后。
@@ -62,18 +78,6 @@ SpaceX 的 Starmind 星座旨在缓解地面算力需求的快速增长，将 AI
 该基准的核心设计在于检验语言模型本身的代码生成与规划能力在物理任务中的迁移，而非专用机器人策略模型。每个任务仅提供 5 个练习回合，模型只能保留自写笔记与代码，随后在 10 个全新场景中接受评测，场景会改变房间、光照、布局与道具以测试泛化。结果显示，部分技能已趋成熟，但长程任务完成度仍低。单次评测耗时 17 至 39 分钟、成本 0.84 至 9.01 美元，而机器人实际运动时间不足一分钟，效率仍是瓶颈。
 
 这是继上月机械臂评测 AA-Robotics v0.1 之后，该机构将语言模型智能体评测延伸至具身人形平台的第二步。该基准为评估大模型在物理世界中的通用能力提供了可复现的标准化工具，有望推动具身智能从专用策略向通用智能体演进，并为人形机器人的商业化落地提供关键参考。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis, Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
-</item>
-<item><title>Claude Code 三员大将集体跳槽 OpenAI</title><link>https://todayforai.com/en/story/story-a69ee2a1-08a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-a69ee2a1-08a</guid>
-<pubDate>Thu, 26 Nov 2026 15:46:43 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 上市后遭遇股价破发与核心人才流失的双重打击。11 月 24 日，其股价收于 76.60 美元，较 83 美元的发行价下跌约 8%，较首日开盘价更是跌去约 31%。与此同时，Claude Code 产品负责人 Cat Wu、桌面版创建者 Anthony Morris 及核心工程师 Thariq Shihipar 相继加入 OpenAI，形成原班人马重聚之势。
-
-多方信息交叉验证了此次人事变动的细节。Thariq 本人通过社交平台公开确认了加盟消息，称在 Anthropic 的时光令他自豪，但认为在 OpenAI 能对“把 AI 带给世界”贡献最大，并将加入一个面向十亿级用户的产品团队。Cat Wu 则出任 OpenAI 核心产品线产品管理负责人，管辖 ChatGPT、Codex 与开发者 API。值得注意的是，Claude Code 之父 Boris Cherny 并未随行，仍留守 Anthropic，并刚刚推出了代码自动审查修复功能 Claude Ship。
-
-此次集体跳槽直指 Anthropic 编程 Agent 业务的根基，也折射出 AI 编程竞争焦点正从基准跑分转向 Agent 在真实工程任务中的可靠交付能力。头部实验室之间的人才争夺持续升温，OpenAI 借机强化其编程产品线，而 Anthropic 则需在股价压力下稳住核心团队并证明其技术护城河。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;量子位官网, Rohan Paul (@rohanpaul_ai), 宝玉 (@dotey), InfoQ 中文&lt;/p&gt;</description>
-</item>
-<item><title>腾讯混元发布 Hy3D 3.6 原生 3D 大模型</title><link>https://todayforai.com/en/story/story-d558a0f1-4e1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d558a0f1-4e1</guid>
-<pubDate>Fri, 27 Nov 2026 11:45:19 +0800</pubDate>
-<description>&lt;p&gt;腾讯混元发布新一代原生 3D 生成大模型 Hy3D 3.6，重点提升高模几何表面质量与 PBR 材质贴图生成能力，面向角色、生物、服装和复杂道具等专业创作场景。模型已上线腾讯云 Token Hub 提供 API，并接入 Miora、LAP、WorkRally 等产品。混元 3D 系列自 2024 年 11 月开源首代以来，社区下载量已超 653 万。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;量子位官网&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
