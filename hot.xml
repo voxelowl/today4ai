@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Fri, 27 Nov 2026 06:59:06 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 27 Nov 2026 08:03:44 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>OpenRouter 数据揭示 AI 推理需求价格弹性减弱</title><link>https://todayforai.com/en/story/story-044129a8-530</link><guid isPermaLink="true">https://todayforai.com/en/story/story-044129a8-530</guid>
 <pubDate>Fri, 27 Nov 2026 05:46:36 +0800</pubDate>
@@ -14,6 +14,14 @@
 据多个信源交叉验证，OpenAI 在 openai/math 代码库中连续发布 9 篇 AI 生成论文，覆盖张量几何与计算复杂度等多个开放问题族系，并同步给出 Lean 形式化证明。同期还出现有限傅里叶变换匹配上下界等结果，下界被视为最具冲击力的部分。然而，ω 为渐进量，实际性能仍受常数因子、内存与硬件结构制约，且证明尚待同行验证。
 
 这一事件标志着 AI 系统正深度介入基础数学证明，今年已记录 64 项 AI 辅助科研进展，其中 11 月占 20 项，产出速度引发人类消化能力担忧。若结论成立，审稿模式或从期刊转向机器可验证验收，对计算复杂性、算法设计及 AI 科研范式产生深远影响。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, 新智元 (微信公众号), Hacker News AI, Latent Space&lt;/p&gt;</description>
+</item>
+<item><title>FCC 批准 SpaceX 部署百万颗 AI 算力卫星</title><link>https://todayforai.com/en/story/story-08987834-4f4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-08987834-4f4</guid>
+<pubDate>Fri, 27 Nov 2026 08:03:44 +0800</pubDate>
+<description>&lt;p&gt;美国联邦通信委员会（FCC）正式批准 SpaceX 推进 Starmind 计划，允许其在轨部署最多 100 万颗搭载 AI 芯片的卫星，构建太空数据中心星座。这是监管机构首次批准完整的 AI 卫星星座，标志着轨道算力从概念走向监管落地。审批设定了明确的时间表：SpaceX 须在 2033 年前完成首颗卫星部署，2040 年前达成百万颗规模。
+
+FCC 主席 Brendan Carr 称此举将扩大美国在超级智能领域的领先优势。同时，FCC 批准了卫星光链路失效时的无线电监控与遥控备份链路，但暂缓批准将 600 公里以上卫星送入太空坟场轨道的处置方案，要求补充信息。该计划遭到亚马逊、Viasat 及美国天文学会的反对，争议集中在光学天文观测与监管权限之外的环境影响。欧洲南方天文台（ESO）警告，该项目将深刻影响天文观测，并从根本上改变全球公众所见的夜空，呼吁建立跨国界环境影响的国际评估机制。
+
+SpaceX 的 Starmind 星座旨在缓解地面算力需求的快速增长，将 AI 计算负载转移至太空。Google 的 Project Suncatcher 与 Blue Origin 也在同步推进太空数据中心布局，竞争格局初现。此次批准为太空算力赛道确立了监管先例，但天文界与竞争对手的反对声浪预示着后续部署将面临持续的法律与环保挑战。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;The Verge AI, Hacker News AI, The Decoder&lt;/p&gt;</description>
 </item>
 <item><title>OpenAI 修复 GPT-6.2 计费错误 额度消耗加快 40%</title><link>https://todayforai.com/en/story/story-f42b6579-1ca</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f42b6579-1ca</guid>
 <pubDate>Fri, 27 Nov 2026 06:59:06 +0800</pubDate>
@@ -70,14 +78,6 @@ MAGI-2 以极低定价和顶级性能直击视频生成赛道，有望大幅降�
 该基准的核心设计在于检验语言模型本身的代码生成与规划能力在物理任务中的迁移，而非专用机器人策略模型。每个任务仅提供 5 个练习回合，模型只能保留自写笔记与代码，随后在 10 个全新场景中接受评测，场景会改变房间、光照、布局与道具以测试泛化。结果显示，部分技能已趋成熟，但长程任务完成度仍低。单次评测耗时 17 至 39 分钟、成本 0.84 至 9.01 美元，而机器人实际运动时间不足一分钟，效率仍是瓶颈。
 
 这是继上月机械臂评测 AA-Robotics v0.1 之后，该机构将语言模型智能体评测延伸至具身人形平台的第二步。该基准为评估大模型在物理世界中的通用能力提供了可复现的标准化工具，有望推动具身智能从专用策略向通用智能体演进，并为人形机器人的商业化落地提供关键参考。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis, Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
-</item>
-<item><title>Anthropic 用 Claude 将黎曼猜想证明代码精简 99.5%</title><link>https://todayforai.com/en/story/story-b91caf62-12d</link><guid isPermaLink="true">https://todayforai.com/en/story/story-b91caf62-12d</guid>
-<pubDate>Thu, 26 Nov 2026 11:01:11 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 研究员 Luke Sernau 与同事借助 Claude，将此前由 AI 参与生成的 1740 万行黎曼猜想 Lean 形式化证明重构压缩至约 7.6 万行，代码量削减 99.56%。原证明包含 17.5 万个文件，仅一个文件含注释，社区自动清理最多只能减 8% 且无法编译。新版本附带 30 万行带导读的清晰版本，可在 12 核 24GB 内存的普通机器上于 1 至 2 小时内完成构建，而原版需在 AWS 高配机器上编译 21 小时。
-
-该证明目前仅通过机器验证，尚无数学家完整通读，也无配套数学论文。Anthropic 团队用 Claude 彻底重写，产出可读版与紧凑版两个版本，代码量降至约 7.6 万行，构建门槛大幅降低。此举回应了社区对原证明体量过大、难以验证的批评，展示了 AI 在代码重构与数学形式化领域的实用价值。
-
-这一成果对形式化数学社区具有实质影响：极低的构建门槛使更多研究者能够本地验证与审查证明，有望推动黎曼猜想形式化证明的学术讨论与后续研究。同时，它凸显了大型语言模型在理解与重构超大规模代码库方面的潜力，为 AI 辅助数学研究提供了新范式。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;量子位官网, IT之家 · IT业界, The Decoder, The Verge AI, Artificial Analysis (@ArtificialAnlys), Latent Space&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
