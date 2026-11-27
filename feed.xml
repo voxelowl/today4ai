@@ -1,8 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Fri, 27 Nov 2026 14:47:09 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 27 Nov 2026 15:33:23 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Palo Alto CEO Warns AI Is Cracking Human-Proof Vulnerabilities</title><link>https://x.com/rohanpaul_ai/status/2126217810280100017</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126217810280100017</guid>
+<pubDate>Fri, 27 Nov 2026 15:33:23 +0800</pubDate>
+<description>&lt;p&gt;Palo Alto Networks CEO Nikesh Arora says AI can now crack vulnerabilities previously deemed uncrackable by humans, citing Anthropic&amp;#x27;s Mythos surfacing 50 years of coding mistakes in a very short span. He estimates 12 to 18 months to remediate the legacy flaws, calling it open season for attackers, with a single actor already using agents against 19 companies at once.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Palo Alto CEO 警告 AI 正攻破人类难解漏洞&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部安全厂商掌门人给出 AI 攻破历史漏洞的具体时间窗口与攻击面变化，对安全与 AI 从业者具直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 71/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2126217810280100017">Rohan Paul (@rohanpaul_ai)</source>
+<category>AI 安全</category>
+<category>漏洞挖掘</category>
+<category>Palo Alto Networks</category>
+<category>Anthropic</category>
+</item>
+<item><title>Musk Says AI and Robots Will Demand Far More Bandwidth Than Humans</title><link>https://x.com/rohanpaul_ai/status/2126216108575437190</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126216108575437190</guid>
+<pubDate>Fri, 27 Nov 2026 15:26:38 +0800</pubDate>
+<description>&lt;p&gt;Elon Musk argued in an interview that future bandwidth demand will be driven mainly by superintelligence and robots, which could communicate at trillions of bits per second versus roughly 100 bits per second for peak human speech. The claim points to long-term expansion of compute and network infrastructure but remains a qualitative forecast without technical detail or supporting data.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;马斯克称 AI 与机器人带宽需求将远超人类&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;马斯克对 AI 与机器人通信带宽需求给出量级判断，涉及算力网络基础设施的长期走向，值得关注但缺乏可验证细节。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 38/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2126216108575437190">Rohan Paul (@rohanpaul_ai)</source>
+<category>带宽</category>
+<category>机器人</category>
+<category>基础设施</category>
+<category>马斯克</category>
+</item>
+<item><title>Audit Finds MiniMax Opened Private Links Hidden in User Prompts</title><link>https://x.com/rohanpaul_ai/status/2126214860421914884</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126214860421914884</guid>
+<pubDate>Fri, 27 Nov 2026 15:21:40 +0800</pubDate>
+<description>&lt;p&gt;US security firm Dragos planted trap links and fake logins in nearly 2 million prompts sent to multiple AI services to test whether providers secretly read or passed on customer data. Only links in prompts routed to MiniMax&amp;#x27;s servers were opened days later by unknown parties, even when users had requested no storage; after the scraping appeared to stop on October 22, a git client tried to clone private code repositories referenced in MiniMax-bound prompts. MiniMax says its security system automatically collected and opened links for threat detection without retaining full content, while Atlas Cloud stopped forwarding requests to MiniMax and OpenRouter removed three providers and tightened its data privacy rules.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;安全审计曝 MiniMax 私自打开用户提示词中的私密链接&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;第三方安全审计直指大模型服务商的数据处理边界，并已引发下游平台断供与隐私规则收紧，对评估 API 供应商风险有直接参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2126214860421914884">Rohan Paul (@rohanpaul_ai)</source>
+<category>数据安全</category>
+<category>MiniMax</category>
+<category>隐私合规</category>
+<category>API 生态</category>
+</item>
+<item><title>Nscale Says It Has Enough Capital to Delay $35B IPO</title><link>https://x.com/rohanpaul_ai/status/2126212594868593056</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126212594868593056</guid>
+<pubDate>Fri, 27 Nov 2026 15:12:40 +0800</pubDate>
+<description>&lt;p&gt;Nscale CEO Josh Payne told staff the UK data centre operator has enough capital to stay private, casting doubt on its planned $35B IPO and promising only to list as soon as possible. The company expects a net loss of nearly $1.7B for the nine months to September on revenue of just $307M, and says it will need additional financing in 2027. Listed peers CoreWeave and Nebius fell 24% and 43% in a month, signaling a poor market window.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Nscale 称资金充足暂缓 350 亿美元 IPO&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 算力基础设施大额 IPO 生变，叠加巨额亏损与同业估值回调，是观察算力泡沫与融资环境的关键信号。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 72/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2126212594868593056">Rohan Paul (@rohanpaul_ai)</source>
+<category>算力基础设施</category>
+<category>IPO</category>
+<category>Nscale</category>
+<category>数据中心</category>
+</item>
+<item><title>Ladybird Browser Ships First Alpha With Fully In-House Engine</title><link>https://arstechnica.com/gadgets/2026/11/ladybirds-new-alpha-shows-theres-life-beyond-chromium/</link><guid isPermaLink="true">https://arstechnica.com/gadgets/2026/11/ladybirds-new-alpha-shows-theres-life-beyond-chromium/</guid>
+<pubDate>Fri, 27 Nov 2026 14:53:52 +0800</pubDate>
+<description>&lt;p&gt;After four years of building a browser engine from scratch, the Ladybird project released its first downloadable alpha on November 23, offering prebuilt macOS and Linux packages with automatic updates instead of requiring users to compile from source. Both its rendering engine and LibJS JavaScript engine are written from the ground up rather than forked from Blink or Gecko.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Ladybird 浏览器首个 Alpha 版发布 引擎完全自研&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是独立浏览器引擎生态的重要里程碑，为关注开源基础设施与 Web 平台多样性的读者提供实质进展。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 62/100&lt;/p&gt;</description>
+<source url="https://arstechnica.com/gadgets/2026/11/ladybirds-new-alpha-shows-theres-life-beyond-chromium/">Hacker News AI</source>
+<category>开源浏览器</category>
+<category>Ladybird</category>
+<category>浏览器引擎</category>
+<category>Web 平台</category>
+</item>
 <item><title>JetBrains Survey of 29,000 Developers Finds 96% Use AI at Work</title><link>https://www.ithome.com/1/033/368.htm</link><guid isPermaLink="true">https://www.ithome.com/1/033/368.htm</guid>
 <pubDate>Fri, 27 Nov 2026 14:47:09 +0800</pubDate>
 <description>&lt;p&gt;JetBrains&amp;#x27; tenth annual Developer Ecosystem report, based on 28,945 developers worldwide, finds 96% of employed developers use at least one AI tool at work, with 55% reporting higher creativity but 46% feeling less ownership of code. Claude Code leads tool usage at 39%, ahead of GitHub Copilot at 21%, and over half of coding-agent users say agents handled more than 60% of their development tasks last month.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;JetBrains 调查近 3 万开发者 96% 已在工作中使用 AI&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;近 3 万样本的年度开发者生态调查，量化了 AI 编码工具与智能体的真实渗透率及开发者心态变化，具备行业基准价值。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 62/100&lt;/p&gt;</description>
@@ -136,52 +181,52 @@
 <category>教育科技</category>
 <category>互动课程</category>
 </item>
-<item><title>Yimu Tech Unveils Dexterous Manipulation Ecosystem in Strategic Pivot</title><link>https://www.qbitai.com/2026/11/513101.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/513101.html</guid>
+<item><title>百亿独角兽一目科技发布灵巧操作生态战略</title><link>https://www.qbitai.com/2026/11/513101.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/513101.html</guid>
 <pubDate>Fri, 27 Nov 2026 11:23:25 +0800</pubDate>
-<description>&lt;p&gt;Yimu Tech, a touch-sensing unicorn valued above RMB 10 billion, announced a strategic upgrade in its tenth-anniversary letter: moving from a single biomimetic visuotactile sensor supplier to building a dexterous manipulation ecosystem (YIMU xEco) spanning hardware, algorithms, developer tools and community. The company argues the bottleneck for dexterous manipulation has shifted from sensor hardware to integration complexity and the lack of data and standardized tooling.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;百亿独角兽一目科技发布灵巧操作生态战略&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;具身智能触觉赛道头部公司战略转向生态化，反映灵巧操作环节的产业卡点与竞争方向。&lt;/p&gt;&lt;p&gt;量子位官网 · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;估值超百亿的触觉感知独角兽一目科技在十周年全员信中宣布战略升级，从单一视触觉传感器供应商转向构建机器人灵巧操作生态（YIMU xEco），覆盖硬件、算法、开发工具与社区。公司判断制约灵巧操作落地的瓶颈已从传感器硬件转向集成适配复杂、数据与标准化工具缺失，试图以生态化路径抢占具身智能小脑环节。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;具身智能触觉赛道头部公司战略转向生态化，反映灵巧操作环节的产业卡点与竞争方向。&lt;/p&gt;&lt;p&gt;量子位官网 · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.qbitai.com/2026/11/513101.html">量子位官网</source>
 <category>具身智能</category>
 <category>触觉感知</category>
 <category>灵巧操作</category>
 <category>独角兽</category>
 </item>
-<item><title>Microsoft Study Finds AI Coding Patches 2.33x Larger Than Human Fixes</title><link>https://x.com/rohanpaul_ai/status/2126153340593844647</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126153340593844647</guid>
+<item><title>微软新研究揭示 AI 编程补丁体积达人类 2.33 倍</title><link>https://x.com/rohanpaul_ai/status/2126153340593844647</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126153340593844647</guid>
 <pubDate>Fri, 27 Nov 2026 11:17:13 +0800</pubDate>
-<description>&lt;p&gt;A new Microsoft paper replayed 7,660 GitHub Copilot CLI runs across 18 models, traced each patch block to its originating step, and re-ran tests to grade necessity. Agent patches touch 2.33x more lines than human fixes, but the surplus is mostly tests and documentation rather than redundant code. On SWE-bench Verified, 88.7% of agent code blocks were needed versus 86.4% for developers, suggesting over-editing stems from the fix itself, not debug leftovers; the authors urge reporting needed-code share alongside resolve rate.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;微软新研究揭示 AI 编程补丁体积达人类 2.33 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次用逐块溯源与重跑测试的方法量化 AI 补丁“体积大但必要”的现象，为编程智能体评测提供了新指标。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 74/100&lt;/p&gt;</description>
+<description>&lt;p&gt;微软论文通过回放 18 个模型在 GitHub Copilot CLI 上的 7,660 次运行，逐块追踪补丁来源并重跑测试，发现智能体补丁改动行数是人类开发者的 2.33 倍，但多出的部分主要是测试与文档，而非冗余代码。在 SWE-bench Verified 上，智能体补丁中平均 88.7% 的代码块为必要修改，高于人类的 86.4%，说明“过度编辑”更多来自修复实现本身而非调试残留。作者建议在对比编程智能体时同时报告必要代码占比与解决率。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次用逐块溯源与重跑测试的方法量化 AI 补丁“体积大但必要”的现象，为编程智能体评测提供了新指标。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 74/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2126153340593844647">Rohan Paul (@rohanpaul_ai)</source>
 <category>编程智能体</category>
 <category>SWE-bench</category>
 <category>微软</category>
 <category>代码评测</category>
 </item>
-<item><title>Aschenbrenner&#x27;s AI Hedge Fund Sheds 65% in Third Quarter</title><link>https://x.com/rohanpaul_ai/status/2126148015039868930</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126148015039868930</guid>
+<item><title>Aschenbrenner 旗下 AI 对冲基金三季度回撤 65%</title><link>https://x.com/rohanpaul_ai/status/2126148015039868930</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126148015039868930</guid>
 <pubDate>Fri, 27 Nov 2026 10:56:03 +0800</pubDate>
-<description>&lt;p&gt;Situational Awareness, the AI-focused hedge fund founded by Leopold Aschenbrenner, told investors it lost 65% after fees in Q3 2026, with most of the damage in July when a brief AI panic triggered bank margin calls on its leveraged bets. The fund sold the bulk of its public stocks to Ken Griffin&amp;#x27;s Citadel at a discount to raise cash, cutting its 2026 gain to 88.5% through September from a reported 439% through June.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Aschenbrenner 旗下 AI 对冲基金三季度回撤 65%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 主题投资高杠杆风险的一次标志性回撤案例，对判断 AI 资本市场情绪具有参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;据 WSJ 报道，Leopold Aschenbrenner 创立的 AI 主题对冲基金 Situational Awareness 在 2026 年第三季度扣除费用后亏损 65%，主要冲击发生在 7 月，当时一轮短暂的 AI 恐慌引发银行对其杠杆头寸的追加保证金。该基金折价向 Citadel 出售大部分公开持股以补充现金，年内收益从 6 月底的 439% 回落至 9 月底的 88.5%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 主题投资高杠杆风险的一次标志性回撤案例，对判断 AI 资本市场情绪具有参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 62/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2126148015039868930">Rohan Paul (@rohanpaul_ai)</source>
 <category>AI 投资</category>
 <category>对冲基金</category>
 <category>市场波动</category>
 </item>
-<item><title>Sqrin Brings Smart Auto Zoom and Pointer Enhancement to Mac Screen Sharing</title><link>https://sqrin.app</link><guid isPermaLink="true">https://sqrin.app</guid>
+<item><title>Sqrin 为 Mac 屏幕共享加入智能缩放与指针增强</title><link>https://sqrin.app</link><guid isPermaLink="true">https://sqrin.app</guid>
 <pubDate>Fri, 27 Nov 2026 10:53:22 +0800</pubDate>
-<description>&lt;p&gt;Sqrin is a Mac screen-sharing enhancer that overlays a zoomable frame and a smoothly gliding enlarged pointer on top of any meeting app such as Zoom, Teams or Meet, making live shares look like polished recordings. Version 1.2.8 adds an on-device Auto Zoom that decides when and where to zoom based on pointer movement and UI interactions, with no cloud AI involved.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Sqrin 为 Mac 屏幕共享加入智能缩放与指针增强&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向开发者的实用屏幕共享工具更新，本地智能缩放具备一定工程参考价值，但属小众工具迭代。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Sqrin 是一款面向 Mac 的屏幕共享增强工具，可为 Zoom、Teams、Meet 等任意会议应用叠加可缩放画框与平滑滑动的大指针，让实时共享呈现接近录播的质感。1.2.8 版本新增本地运行的 Auto Zoom，依据指针移动与 UI 交互自动判断缩放时机与位置，全程不上云。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向开发者的实用屏幕共享工具更新，本地智能缩放具备一定工程参考价值，但属小众工具迭代。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 38/100&lt;/p&gt;</description>
 <source url="https://sqrin.app">Hacker News AI</source>
 <category>屏幕共享</category>
 <category>macOS</category>
 <category>本地推理</category>
 <category>开发者工具</category>
 </item>
-<item><title>Study Puts AI Bubble Burst Probability at 97 Percent</title><link>https://www.london.edu/think/ai-bubble-about-to-burst</link><guid isPermaLink="true">https://www.london.edu/think/ai-bubble-about-to-burst</guid>
+<item><title>研究称 AI 泡沫破裂概率高达 97%</title><link>https://www.london.edu/think/ai-bubble-about-to-burst</link><guid isPermaLink="true">https://www.london.edu/think/ai-bubble-about-to-burst</guid>
 <pubDate>Fri, 27 Nov 2026 10:44:12 +0800</pubDate>
-<description>&lt;p&gt;A London Business School study builds a media-warning indicator from 170 years of financial journalism and estimates up to a 97 percent probability that markets were in an AI bubble as of September 2026, urging investors and executives to prepare for a potential crash. The finding rests on quantified analysis of press bubble narratives rather than a direct assessment of AI industry fundamentals.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;研究称 AI 泡沫破裂概率高达 97%&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以长周期媒体语料量化 AI 泡沫风险，为判断市场情绪与融资环境提供可参考的另类信号。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;伦敦商学院研究团队基于 170 年金融新闻语料构建媒体预警指标，测算 2026 年 9 月市场处于 AI 泡沫状态的概率最高达 97%，并提示投资者与管理者为潜在崩盘做准备。该结论来自对财经媒体泡沫叙事的量化分析，而非对 AI 产业基本面的直接评估。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以长周期媒体语料量化 AI 泡沫风险，为判断市场情绪与融资环境提供可参考的另类信号。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.london.edu/think/ai-bubble-about-to-burst">Hacker News AI</source>
 <category>AI 泡沫</category>
 <category>金融市场</category>
 <category>行业研究</category>
 </item>
-<item><title>ByteDance&#x27;s Doubao Work Integrates Jianying Plugin for One-Sentence Video Editing</title><link>https://www.ithome.com/1/033/208.htm</link><guid isPermaLink="true">https://www.ithome.com/1/033/208.htm</guid>
+<item><title>豆包工作独家接入剪映插件 一句话完成视频剪辑</title><link>https://www.ithome.com/1/033/208.htm</link><guid isPermaLink="true">https://www.ithome.com/1/033/208.htm</guid>
 <pubDate>Fri, 27 Nov 2026 10:33:51 +0800</pubDate>
-<description>&lt;p&gt;Doubao Work announced exclusive integration with ByteDance&amp;#x27;s Jianying official plugin, letting users describe editing needs in natural language and have Doubao invoke Jianying to trim talking-head footage, add subtitles and more, with conversational revisions and multi-track draft fine-tuning. The integration also connects to Jianying Hub, turning scripts, code or product images into explainer animations and short-form videos.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;豆包工作独家接入剪映插件 一句话完成视频剪辑&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;字节内部两大产品打通，展示了自然语言驱动专业创作工具落地的具体路径。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;豆包工作宣布独家接入剪映官方插件，用户可用自然语言描述需求，由豆包调用剪映完成口播删减、字幕添加等剪辑操作，并支持对话式修改与多轨草稿细调。该功能还打通剪映 Hub，可将文稿、代码或商品图一键转化为科普动画、短漫剧等视频内容。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;字节内部两大产品打通，展示了自然语言驱动专业创作工具落地的具体路径。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · tools · signal 62/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/033/208.htm">IT之家 · 智能时代</source>
 <category>豆包</category>
 <category>剪映</category>
@@ -223,52 +268,6 @@
 <category>AI 安全</category>
 <category>对齐</category>
 <category>微软</category>
-</item>
-<item><title>亚马逊论文揭示智能体自改框架泛化增益微弱</title><link>https://x.com/rohanpaul_ai/status/2126127228329300257</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126127228329300257</guid>
-<pubDate>Fri, 27 Nov 2026 09:33:27 +0800</pubDate>
-<description>&lt;p&gt;亚马逊一项新研究发现，前沿模型能够从零构建自己的智能体框架（harness），但自我修订带来的提升在未见任务上几乎消失。9 种模型配置各进行 3 次构建、2 轮自我修订，练习任务分数提升 8.42 分，未见任务仅提升 2.80 分，且无法排除为零。27 次运行中有 9 次在成本下降的同时分数也变差。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次系统量化智能体自我改写框架的泛化边界，对自动化智能体工程实践有直接警示价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 72/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2126127228329300257">Rohan Paul (@rohanpaul_ai)</source>
-<category>智能体</category>
-<category>亚马逊</category>
-<category>ARC-AGI</category>
-<category>模型自我改进</category>
-</item>
-<item><title>20 个 AI Agents 组队 4 天优化 Quickwit 查询降 31%</title><link>https://www.qbitai.com/2026/11/513053.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/513053.html</guid>
-<pubDate>Fri, 27 Nov 2026 09:16:10 +0800</pubDate>
-<description>&lt;p&gt;TabbyML 将 20 个 AI Agents 组成自主工程团队，在无人工指定代码位置的前提下，对开源搜索引擎 Quickwit 自主完成瓶颈定位、方案设计与代码互审。4 天内开展约 350 次实验，保留 6 项通过审查的优化，亿级数据热查询总耗时从 40.5 秒降至 27.9 秒，部分查询降幅达 87%，并在 ClickBench 数据湖类别热查询评分上超越此前所有公开成绩。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是多智能体自主完成真实系统性能优化的完整闭环案例，含可验证基准与量化收益，对关注 Agent 工程化落地的读者价值高。&lt;/p&gt;&lt;p&gt;量子位官网 · agent · signal 78/100&lt;/p&gt;</description>
-<source url="https://www.qbitai.com/2026/11/513053.html">量子位官网</source>
-<category>智能体</category>
-<category>多智能体系统</category>
-<category>性能优化</category>
-<category>ClickBench</category>
-<category>开源搜索</category>
-</item>
-<item><title>东京电力拟投超 10 万亿日元建 AI 基础设施</title><link>https://www.ithome.com/1/033/170.htm</link><guid isPermaLink="true">https://www.ithome.com/1/033/170.htm</guid>
-<pubDate>Fri, 27 Nov 2026 09:13:47 +0800</pubDate>
-<description>&lt;p&gt;东京电力公司计划在 2035 财年前向人工智能基础设施领域投入超 10 万亿日元，其中 4.9 万亿日元用于电网扩建、2.5 万亿日元用于核电厂扩建。由于福岛核事故后偿债压力沉重，东电希望借助 AI 投资改善财务结构，但自身无力承担，正寻求软银等外部投资者支持。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;日本最大电力公司以超 10 万亿日元押注 AI 基础设施，反映算力扩张正倒逼能源与电网重构。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 62/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/033/170.htm">IT之家 · IT业界</source>
-<category>AI 基础设施</category>
-<category>算力能源</category>
-<category>东京电力</category>
-<category>电网扩建</category>
-</item>
-<item><title>快手撤销生活服务事业部并入电商与商业化</title><link>https://www.ithome.com/1/033/169.htm</link><guid isPermaLink="true">https://www.ithome.com/1/033/169.htm</guid>
-<pubDate>Fri, 27 Nov 2026 09:10:17 +0800</pubDate>
-<description>&lt;p&gt;快手确认撤销生活服务事业部，将其业务拆分并入电商事业部和商业化事业部，并伴随人员优化。该部门自 2022 年独立设立，2023 至 2024 年 GMV 高速增长，但 2025 年起运营策略由补贴商户转向鼓励投流，财报中不再单独披露相关数据，2026 年 7 月负责人已由王剑伟兼任。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;反映快手本地生活战略收缩与组织整合，是观察大厂非核心业务取舍的典型样本。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 38/100&lt;/p&gt;</description>
-<source url="https://www.ithome.com/1/033/169.htm">IT之家 · IT业界</source>
-<category>快手</category>
-<category>组织架构</category>
-<category>本地生活</category>
-<category>电商</category>
-</item>
-<item><title>英伟达新论文称模型自主压缩上下文可提升近三倍得分</title><link>https://x.com/rohanpaul_ai/status/2126118827264294915</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126118827264294915</guid>
-<pubDate>Fri, 27 Nov 2026 09:00:04 +0800</pubDate>
-<description>&lt;p&gt;英伟达论文在开源智能体框架 NOOA 中让模型自行调用 API 压缩并回取历史上下文，在 32K 预算下将 GPT-6.1 Sol 在 OfficeQA Pro v2 上的得分从 21% 提升至 56%。但不同模型差异显著，Claude Opus 5.5 仅在 4% 任务中使用该 API，Kimi K3 与 DeepSeek V4 Pro 则在没有时间提示时过早压缩。结论是紧预算下应让强模型自主管理上下文，但需逐模型实测。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次系统对比模型自主压缩与框架自动压缩上下文，并给出跨模型差异的量化证据，对智能体开发者有直接指导价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2126118827264294915">Rohan Paul (@rohanpaul_ai)</source>
-<category>智能体</category>
-<category>上下文管理</category>
-<category>英伟达</category>
-<category>评测基准</category>
 </item>
 </channel>
 </rss>
