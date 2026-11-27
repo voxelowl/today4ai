@@ -5,11 +5,11 @@
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>蚂蚁灵波开源 LingBot-Map 2.0 轨迹误差骤降 85%</title><link>https://todayforai.com/en/story/story-291f2171-22b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-291f2171-22b</guid>
 <pubDate>Fri, 27 Nov 2026 16:39:49 +0800</pubDate>
-<description>&lt;p&gt;蚂蚁集团旗下具身智能公司灵波科技正式发布流式三维重建模型 LingBot-Map 2.0，并开源带空间记忆的导航模型 LingBot-Navi。LingBot-Map 2.0 的核心突破在于将长距离建图的累积漂移误差从上一代的 31.12 米骤降至 4.72 米，降幅高达 85%，且全程在模型推理内部完成，无需依赖外接优化后端。
+<description>&lt;p&gt;蚂蚁集团旗下具身智能公司蚂蚁灵波（Robbyant）发布并开源了流式三维重建模型 LingBot-Map 2.0 与空间记忆导航模型 LingBot-Navi。LingBot-Map 2.0 的核心突破在于将建图纠偏能力内置于模型推理过程，无需外接优化后端，即可在相机运动过程中实时修正长距离建图累积的漂移误差。在罗马多公里级 VBR 基准（最长 5.2 公里、约 18800 帧）上，其平均轨迹误差从 1.0 版本的 31.12 米骤降至 4.72 米，降幅约 85%。
 
-技术细节上，LingBot-Map 2.0 新增 Refine 步骤，可在相机运动过程中随时修正模型已有的空间记忆，并将修正结果写回缓存供后续帧复用，从而在罗马多公里级 VBR 基准（最长 5.2 公里、约 18800 帧）上实现高精度实时建图。LingBot-Navi 则基于该三维空间记忆实现跨任务导航，机器人到访一次即可复用环境地图，按自然语言指令查找目标并规划路线，无需每次从零探索。两款模型的权重、技术报告及 511 个真实场景数据集已全面开源。
+LingBot-Navi 则构建了可跨任务复用的三维空间记忆，机器人无需预先建图，在探索中自建包含布局、物体位置与可通行路径的 3D 记忆，并将 3D 表面位置与视觉语言特征配对，从而定位视野外的目标。系统由场景级规划器负责全局路线预测，局部规划器负责避障与到达判定，推理全程在设备端完成。两款模型的权重、技术报告、代码及 511 个真实场景数据集已全面开源。
 
-此次发布直指机器人在真实场所长期自主作业的两大瓶颈——建图漂移与经验无法复用。前代 LingBot-Map 1.0 于今年 4 月开源后 GitHub Star 已超 1.9 万，生态基础扎实。新模型将流式三维重建与空间记忆导航深度耦合，为具身智能提供了可复用的“空间记忆底座”，有望加速机器人在家庭、仓储、巡检等场景的规模化落地。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;新智元 (微信公众号), InfoQ 中文, 量子位官网, Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
+此次发布直指机器人在真实场所长期自主作业的两大瓶颈：建图漂移与经验无法复用。LingBot-Map 2.0 的 Refine 步骤可随时修正空间记忆并将结果写回缓存，供后续帧复用，使机器人边走边建图并实时纠错；LingBot-Navi 让机器人到访一次即可复用环境地图，同一场景内效率随使用提升。前代 LingBot-Map 1.0 于今年 4 月开源后 GitHub Star 已超 1.9 万，生态基础扎实，新模型有望进一步推动具身智能在家庭、仓储等场景的落地。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;量子位官网, Rohan Paul (@rohanpaul_ai), 新智元 (微信公众号), InfoQ 中文&lt;/p&gt;</description>
 </item>
 <item><title>OpenRouter 数据揭示 AI 推理需求价格弹性减弱</title><link>https://todayforai.com/en/story/story-044129a8-530</link><guid isPermaLink="true">https://todayforai.com/en/story/story-044129a8-530</guid>
 <pubDate>Fri, 27 Nov 2026 05:46:36 +0800</pubDate>
@@ -67,13 +67,13 @@ SpaceX 的 Starmind 星座旨在缓解地面算力需求的快速增长，将 AI
 <pubDate>Fri, 27 Nov 2026 17:00:00 +0800</pubDate>
 <description>&lt;p&gt;一目科技宣布战略升级，从视触觉传感器供应商转向构建「YIMU xEco」灵巧操作生态，覆盖高维感知、极致操作、技能沉淀与开放部署四层能力。其核心判断是触觉感知本身不足以支撑精细操作，传感器与灵巧手、机器人本体之间的标定与联调才是落地瓶颈。该路线能否成立，取决于其视触觉方案能否真正做成可量产的工业标准件。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;机器之心 (微信公众号)&lt;/p&gt;</description>
 </item>
-<item><title>OpenAI 开测私有推理 企业数据对己不可见</title><link>https://todayforai.com/en/story/story-efdd7ed4-012</link><guid isPermaLink="true">https://todayforai.com/en/story/story-efdd7ed4-012</guid>
-<pubDate>Thu, 26 Nov 2026 07:45:33 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 已开始面向少数企业客户测试名为 Private Inference 的新服务，核心突破在于：企业在调用其前沿模型时，OpenAI 自身无法访问查询数据。该功能隶属 Private Intelligence 产品线，结合零数据留存（ZDR）与私有安全处理（Private Safety Processing），可在不向 OpenAI 人员开放底层内容的前提下完成自动化安全审查。此前企业数据本就不用于训练，而消费级 ChatGPT 对话默认用于训练，此次试点进一步将隐私保护延伸至推理环节。
+<item><title>VAST 发布 Tripo H3.5 高精度 3D 生成模型</title><link>https://todayforai.com/en/story/story-369887fb-058</link><guid isPermaLink="true">https://todayforai.com/en/story/story-369887fb-058</guid>
+<pubDate>Thu, 26 Nov 2026 20:39:08 +0800</pubDate>
+<description>&lt;p&gt;VAST（三启万物）正式推出新一代高精度 AI 3D 基座模型 Tripo H3.5 Preview，相比上一代 H3.1 在复杂结构还原、精细几何生成与不可见部位推断上实现显著跃升。在资深 3D 美术师对 192 组素模案例的盲评中，该模型拿下 42.8% 的第一名，胜率为第二名的 2.3 倍；在单视图与四视图重建的 22 组汇总对照中更是全胜，复杂群像雕塑等硬核场景表现尤为突出。
 
-综合多方信源，该服务目前处于早期邀请制阶段，技术实现、客户名单、上线时间与收费模式均未披露。OpenAI 表示正扩充算力以扩大服务规模，并将其定位为迈向普惠私有智能的第一步。Sam Altman 亦强调，更强的隐私保护是前沿模型承担更多企业级工作负载的关键前提。
+该版本主打「真实保真、细节有序」，将竞争标准从面数与贴图分辨率转向结构合理性与生产可交付性，直指 AI 3D 模型在 3D 打印与游戏美术管线中需大量重拓扑修补的痛点。模型针对薄壁坍塌、镂空粘连、非流形边等常见缺陷进行了优化，并以五项核心榜单横向对比多款旗舰模型。目前 Tripo H3.5 Preview 已上线 Tripo Studio 国际版，正式版即将推出。
 
-此举直击企业采用大模型的核心顾虑——数据泄露风险。通过将隐私保护内置于推理层，OpenAI 试图在竞争激烈的企业 AI 市场中建立差异化优势，同时为受监管行业（如金融、医疗）扫除合规障碍。若该模式规模化，可能推动行业形成“私有推理”新标准，并加剧与 Anthropic、谷歌云等对手在企业隐私赛道的角逐。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;The Decoder, IT之家 · 智能时代, Sam Altman (@sama)&lt;/p&gt;</description>
+VAST 的技术主线正从静态 3D 资产构建延伸至动态物理世界生成，此次发布不仅提升了 AI 3D 生成的几何质量与可用性，更推动行业评估标准向实际生产管线需求靠拢，为 3D 打印、游戏开发等领域的开发者提供了可直接交付的高精度模型，有望加速 AI 3D 技术的产业化落地。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;量子位 (微信公众号), 机器之心 (微信公众号), 量子位官网&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
