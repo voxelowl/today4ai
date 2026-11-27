@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Fri, 27 Nov 2026 08:03:44 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 27 Nov 2026 11:45:19 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>OpenRouter 数据揭示 AI 推理需求价格弹性减弱</title><link>https://todayforai.com/en/story/story-044129a8-530</link><guid isPermaLink="true">https://todayforai.com/en/story/story-044129a8-530</guid>
 <pubDate>Fri, 27 Nov 2026 05:46:36 +0800</pubDate>
@@ -47,14 +47,6 @@ SpaceX 的 Starmind 星座旨在缓解地面算力需求的快速增长，将 AI
 
 此次迁移不仅展示了 AI 在大型成熟代码库语言重写中的潜力，也凸显了生成-验证差距框架的实用性：当验证解比生成解更容易时，模型可承担复杂迁移任务。这为行业提供了高效、低风险的服务重构路径，有望推动更多企业探索 AI 驱动的工程实践。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), Hacker News AI, Anthropic AI (@AnthropicAI)&lt;/p&gt;</description>
 </item>
-<item><title>Sand.ai 发布 480B 视频模型 MAGI-2 定价仅对手七分之一</title><link>https://todayforai.com/en/story/story-f63bad47-c9b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f63bad47-c9b</guid>
-<pubDate>Thu, 26 Nov 2026 14:41:23 +0800</pubDate>
-<description>&lt;p&gt;Sand.ai 三呆科技于 11 月 24 日发布新一代视频生成模型 MAGI-2，总参数量从 114B 跃升至 480B，激活参数约 28B，训练数据规模扩大约 3 倍。该模型在 Artificial Analysis 图生视频榜单 AA-Video-I2V v2.1 上与 Dreamina Seedance 2.5 并列第一，文生视频榜单位列第 7，较预览版上升 14 位。定价为 0.08 美元/秒，仅为同级闭源旗舰模型的约七分之一，API 服务即日起开放申请。
-
-MAGI-2 采用多头潜在 MoE 架构，支持单次生成 4-30 秒多镜头 1080p 25fps 音视频，最多可混合参考 20 份图片、视频或音频素材，并解析高达 2 万字符的提示词。模型展现出预训练阶段涌现的自主规划能力，可自行编排分镜与运镜，实现毫秒级切镜。此外，MAGI-2 已完成海光、摩尔线程等国产芯片适配，并在 Higgsfield、VidMuse 及 Sand.ai 开放平台上线。官方表示后续计划开源模型权重。
-
-MAGI-2 以极低定价和顶级性能直击视频生成赛道，有望大幅降低高质量视频创作门槛，对闭源商业模型构成价格压力。其国产芯片适配与开源计划将增强中国 AI 生态的自主可控性，并为开源视频模型社区提供强大底座，推动行业竞争格局重塑。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代, Artificial Analysis (@ArtificialAnlys), 量子位官网&lt;/p&gt;</description>
-</item>
 <item><title>英伟达暂停东南亚四国服务器出货 堵截中国算力租用漏洞</title><link>https://todayforai.com/en/story/story-172287b9-999</link><guid isPermaLink="true">https://todayforai.com/en/story/story-172287b9-999</guid>
 <pubDate>Fri, 27 Nov 2026 04:03:54 +0800</pubDate>
 <description>&lt;p&gt;美国商务部本月出台临时规则，将东南亚与巴西纳入先进 AI 芯片出口许可范围，英伟达随即要求戴尔、超微等合作伙伴暂停向马来西亚、新加坡、泰国和印度尼西亚发运服务器。此举旨在堵住中国 AI 实验室通过东南亚云厂商远程租用算力的规避路径，据智库估算，这类远程算力约占中国 AI 算力的 24%。
@@ -78,6 +70,10 @@ MAGI-2 以极低定价和顶级性能直击视频生成赛道，有望大幅降�
 该基准的核心设计在于检验语言模型本身的代码生成与规划能力在物理任务中的迁移，而非专用机器人策略模型。每个任务仅提供 5 个练习回合，模型只能保留自写笔记与代码，随后在 10 个全新场景中接受评测，场景会改变房间、光照、布局与道具以测试泛化。结果显示，部分技能已趋成熟，但长程任务完成度仍低。单次评测耗时 17 至 39 分钟、成本 0.84 至 9.01 美元，而机器人实际运动时间不足一分钟，效率仍是瓶颈。
 
 这是继上月机械臂评测 AA-Robotics v0.1 之后，该机构将语言模型智能体评测延伸至具身人形平台的第二步。该基准为评估大模型在物理世界中的通用能力提供了可复现的标准化工具，有望推动具身智能从专用策略向通用智能体演进，并为人形机器人的商业化落地提供关键参考。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Artificial Analysis, Artificial Analysis (@ArtificialAnlys)&lt;/p&gt;</description>
+</item>
+<item><title>腾讯混元发布 Hy3D 3.6 原生 3D 大模型</title><link>https://todayforai.com/en/story/story-d558a0f1-4e1</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d558a0f1-4e1</guid>
+<pubDate>Fri, 27 Nov 2026 11:45:19 +0800</pubDate>
+<description>&lt;p&gt;腾讯混元发布新一代原生 3D 生成大模型 Hy3D 3.6，重点提升高模几何表面质量与 PBR 材质贴图生成能力，面向角色、生物、服装和复杂道具等专业创作场景。模型已上线腾讯云 Token Hub 提供 API，并接入 Miora、LAP、WorkRally 等产品。混元 3D 系列自 2024 年 11 月开源首代以来，社区下载量已超 653 万。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;量子位官网&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
