@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Fri, 27 Nov 2026 17:54:37 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 27 Nov 2026 18:05:40 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>WeChat Open-Sources WeMM-Ecom Multimodal Model Family for E-Commerce</title><link>https://www.ithome.com/1/033/649.htm</link><guid isPermaLink="true">https://www.ithome.com/1/033/649.htm</guid>
+<pubDate>Fri, 27 Nov 2026 18:05:40 +0800</pubDate>
+<description>&lt;p&gt;Tencent&amp;#x27;s WeChat Vision team has open-sourced WeMM-Ecom, a multimodal foundation model family spanning four dense models (0.8B to 9B) and a 35B-A3B mixture-of-experts model, all natively supporting fast-answer and deep-thinking modes with BF16, FP8, GPTQ and GGUF weights released. Built on Qwen3.5 and the in-house WeChat-YATT training framework, the 35B-A3B variant leads hundreds-of-billions-parameter flagship models on 28 e-commerce benchmarks with a score of 74.4, while the 2B model ranks first among lightweight models across 64 public general benchmarks. The family is already deployed across hundreds of WeChat e-commerce workflows at a daily call volume in the billions, covering product catalog auto-filling, cross-store SKU matching, listing compliance review and livestream understanding.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;微信开源 WeMM-Ecom 多模态模型家族 日均调用十亿量级&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;微信首次开源面向电商场景的多模态模型家族，兼具完整权重开放与十亿级真实业务落地，是开源多模态与产业应用结合的重要节点。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · opensource · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/033/649.htm">IT之家 · 智能时代</source>
+<category>开源模型</category>
+<category>多模态</category>
+<category>微信</category>
+<category>电商</category>
+<category>混合专家</category>
+</item>
 <item><title>Google TPU 10 Reportedly Taps 512GB Custom HBM5 Memory</title><link>https://www.ithome.com/1/033/624.htm</link><guid isPermaLink="true">https://www.ithome.com/1/033/624.htm</guid>
 <pubDate>Fri, 27 Nov 2026 17:54:37 +0800</pubDate>
 <description>&lt;p&gt;A Korean media report claims Google&amp;#x27;s 10th-generation TPU, codenamed Quillfish, will pack 512GB of custom HBM5 memory, with MediaTek handling design services and Intel&amp;#x27;s EMIB-T advanced packaging likely retained, targeting mass production around 2029. If accurate, the spec would sharply raise per-chip memory capacity and offer a window into next-generation AI ASIC competition. The claim remains an unconfirmed media leak roughly three years from production.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌第 10 代 TPU 曝光 配 512GB 定制 HBM5&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;爆料揭示了谷歌下一代 TPU 的内存与封装路线，是判断 AI ASIC 竞争格局的前瞻信号。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 62/100&lt;/p&gt;</description>
@@ -193,9 +203,9 @@
 <category>智能体</category>
 <category>JetBrains</category>
 </item>
-<item><title>One Prompt Makes ChatGPT Invent a Group Chat Gossiping About You</title><link>https://construct22.com/</link><guid isPermaLink="true">https://construct22.com/</guid>
+<item><title>一句提示词让 ChatGPT 虚构群聊吐槽你</title><link>https://construct22.com/</link><guid isPermaLink="true">https://construct22.com/</guid>
 <pubDate>Fri, 27 Nov 2026 14:44:34 +0800</pubDate>
-<description>&lt;p&gt;The author shares a reusable prompt that makes ChatGPT fabricate a private group chat where AI models gossip about the user, drawing on memory or chat history. The trick also works on Claude, Gemini and other assistants with accumulated context, with the humor coming from how much real preference detail the model weaves in.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;一句提示词让 ChatGPT 虚构群聊吐槽你&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;一条可立即上手的提示词玩法，直观展示长期记忆型助手对用户画像的积累程度。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;作者提出一条可复用的提示词，让 ChatGPT 基于记忆或聊天历史虚构一个 AI 模型私密群聊，在其中吐槽用户本人。该玩法在 Claude、Gemini 等具备长期记忆的助手上同样适用，趣味点在于模型会把日常对话中积累的偏好细节编进对话。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;一条可立即上手的提示词玩法，直观展示长期记忆型助手对用户画像的积累程度。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 42/100&lt;/p&gt;</description>
 <source url="https://construct22.com/">Hacker News AI</source>
 <category>提示词</category>
 <category>ChatGPT</category>
@@ -262,16 +272,6 @@
 <category>智能体</category>
 <category>出海</category>
 <category>腾讯云</category>
-</item>
-<item><title>蚂蚁灵波发布 LingBot-Map 2.0 与 LingBot-Navi 并开源</title><link>https://www.qbitai.com/2026/11/513211.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/513211.html</guid>
-<pubDate>Fri, 27 Nov 2026 12:05:18 +0800</pubDate>
-<description>&lt;p&gt;蚂蚁灵波科技发布流式三维重建模型 LingBot-Map 2.0，可在模型内部实时修正长距离建图累积的漂移误差，无需外接优化后端。同时开源带空间记忆的导航模型 LingBot-Navi，可跨任务复用三维空间记忆，按自然语言指令查找目标并规划路线。两款模型权重、技术报告及 511 个真实场景数据集已全面开源。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;直击具身智能长距离建图漂移与跨任务导航记忆两大痛点，且模型权重与数据集全面开源，对机器人研究者有直接价值。&lt;/p&gt;&lt;p&gt;量子位官网 · agent · signal 74/100&lt;/p&gt;</description>
-<source url="https://www.qbitai.com/2026/11/513211.html">量子位官网</source>
-<category>具身智能</category>
-<category>三维重建</category>
-<category>空间记忆</category>
-<category>开源模型</category>
-<category>蚂蚁灵波</category>
 </item>
 </channel>
 </rss>
