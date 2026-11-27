@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Fri, 27 Nov 2026 16:42:06 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 27 Nov 2026 16:55:00 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>NVIDIA Live-Fork Sandbox Cuts Chip Design Agent Task from 23.7 to 2.5 Hours</title><link>https://x.com/rohanpaul_ai/status/2126238347261886638</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126238347261886638</guid>
+<pubDate>Fri, 27 Nov 2026 16:55:00 +0800</pubDate>
+<description>&lt;p&gt;NVIDIA&amp;#x27;s paper introduces TimeTravelContainer, a sandbox that live-forks a running container, cloning processes, memory and files with copy-on-write sharing and no root access or kernel changes, across Linux, macOS and Windows. Forking a chip-design session took 1.03 seconds, an 84.1x speedup over checkpoint-and-restore, letting agents branch, test in parallel and roll back, cutting a 23.7-hour job to 2.5 hours.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达实时分叉沙箱让芯片设计任务提速 9 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为智能体操作重型工具提供了无需特权的高效分支与回滚底座，并有明确量化收益。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2126238347261886638">Rohan Paul (@rohanpaul_ai)</source>
+<category>智能体</category>
+<category>英伟达</category>
+<category>沙箱</category>
+<category>芯片设计</category>
+</item>
 <item><title>TrendForce Warns DRAM Contract Prices May Turn Down in 2028</title><link>https://www.ithome.com/1/033/570.htm</link><guid isPermaLink="true">https://www.ithome.com/1/033/570.htm</guid>
 <pubDate>Fri, 27 Nov 2026 16:42:06 +0800</pubDate>
 <description>&lt;p&gt;TrendForce says US political shifts, rising financing difficulty for Neocloud players and export controls are clouding DRAM demand, prompting supply chains to revisit 2027-2028 production plans and slightly cooling procurement momentum. With major DRAM makers still shipping significantly more capacity, conventional DRAM contract prices are seen flat in H2 2027 and falling in 2028 under the base case, with a possible turning point as early as Q4 2027 in the pessimistic scenario.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;TrendForce 预警 DRAM 合约价 2028 年转跌风险升温&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是判断 AI 算力与存储周期拐点的关键前瞻信号，直接影响服务器与 GPU 集群的成本预期。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 58/100&lt;/p&gt;</description>
@@ -66,6 +75,15 @@
 <category>Palo Alto Networks</category>
 <category>Anthropic</category>
 </item>
+<item><title>DeepSeek Adds Per-Chat Token Billing Display, Fueling Paid-Tier Speculation</title><link>https://www.qbitai.com/2026/11/513305.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/513305.html</guid>
+<pubDate>Fri, 27 Nov 2026 15:29:10 +0800</pubDate>
+<description>&lt;p&gt;DeepSeek has added a token-billing panel beneath replies on its web and app clients, showing cache-hit and cache-miss input pricing, output pricing, usage, cost and a context-window progress ring. The rates match DeepSeek-V4.1-Flash API off-peak pricing (RMB 0.02 per million cached input tokens, RMB 1 for uncached input, RMB 4 for output, doubled at peak). Chat remains free for now, but after a recent free-tier quota controversy, users read the move as groundwork for paid plans.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;DeepSeek 聊天框上线 Token 账单 按量计费引收费猜测&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部国产大模型首次把 API 级按量计费透明度搬进 C 端聊天界面，是观察其商业化路径的关键信号。&lt;/p&gt;&lt;p&gt;量子位官网 · industry · signal 58/100&lt;/p&gt;</description>
+<source url="https://www.qbitai.com/2026/11/513305.html">量子位官网</source>
+<category>DeepSeek</category>
+<category>按量计费</category>
+<category>Token 账单</category>
+<category>商业化</category>
+</item>
 <item><title>inclusionAI Releases Ling Cookbook for Model Deployment</title><link>https://github.com/inclusionAI/ling-cookbook</link><guid isPermaLink="true">https://github.com/inclusionAI/ling-cookbook</guid>
 <pubDate>Fri, 27 Nov 2026 15:29:04 +0800</pubDate>
 <description>&lt;p&gt;inclusionAI has published Ling Cookbook on GitHub, offering deployment recipes and engineering examples for the Ling model family, still a work in progress. The project uses Jupytext to author guides in MyST Markdown and compile them into Jupyter Notebooks.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Ling 模型家族开源部署手册上线&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为 Ling 系列模型提供官方部署与工程实践参考，对使用该模型家族的开发者有直接价值。&lt;/p&gt;&lt;p&gt;蚂蚁 inclusionAI 官方仓库 · opensource · signal 32/100&lt;/p&gt;</description>
@@ -100,6 +118,16 @@
 <category>IPO</category>
 <category>Nscale</category>
 <category>数据中心</category>
+</item>
+<item><title>Ant Group&#x27;s Lingbo Open-Sources Embodied Base Models with Cross-Task Spatial Memory</title><link>https://www.qbitai.com/2026/11/513227.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/513227.html</guid>
+<pubDate>Fri, 27 Nov 2026 15:01:20 +0800</pubDate>
+<description>&lt;p&gt;Ant Group&amp;#x27;s Lingbo released and open-sourced two spatial-memory-native base models: LingBot-Map 2.0, a streaming 3D reconstruction model that natively self-corrects drift mid-mapping, and LingBot-Navi, a navigation model built on it that carries spatial memory across tasks and supports local map updates. Both embed spatial memory directly in the robot&amp;#x27;s general-purpose brain and run on-device, with checkpoints and datasets openly published.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;蚂蚁灵波开源首个带跨任务空间记忆的具身原生基模&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首个把跨任务空间记忆做进具身原生基模并开源的工作，直击机器人建图漂移与重复探索两大痛点。&lt;/p&gt;&lt;p&gt;量子位官网 · opensource · signal 78/100&lt;/p&gt;</description>
+<source url="https://www.qbitai.com/2026/11/513227.html">量子位官网</source>
+<category>具身智能</category>
+<category>空间记忆</category>
+<category>开源模型</category>
+<category>三维重建</category>
+<category>导航</category>
 </item>
 <item><title>Ladybird Browser Ships First Alpha With Fully In-House Engine</title><link>https://arstechnica.com/gadgets/2026/11/ladybirds-new-alpha-shows-theres-life-beyond-chromium/</link><guid isPermaLink="true">https://arstechnica.com/gadgets/2026/11/ladybirds-new-alpha-shows-theres-life-beyond-chromium/</guid>
 <pubDate>Fri, 27 Nov 2026 14:53:52 +0800</pubDate>
@@ -161,18 +189,18 @@
 <category>软件工程</category>
 <category>AI 编程</category>
 </item>
-<item><title>XPeng IRON Humanoid Debuts as Host at Guangzhou Auto Show</title><link>https://www.ithome.com/1/033/334.htm</link><guid isPermaLink="true">https://www.ithome.com/1/033/334.htm</guid>
+<item><title>小鹏 IRON 人形机器人亮相广州车展主持发布会</title><link>https://www.ithome.com/1/033/334.htm</link><guid isPermaLink="true">https://www.ithome.com/1/033/334.htm</guid>
 <pubDate>Fri, 27 Nov 2026 13:07:50 +0800</pubDate>
-<description>&lt;p&gt;XPeng&amp;#x27;s IRON humanoid robot made its on-site debut at the 2026 Guangzhou Auto Show, hosting XPeng&amp;#x27;s new-car launch and handling reception, sales guidance and tour duties across the venue. CEO He Xiaopeng toured the show with IRON and visited Xiaomi&amp;#x27;s booth, exchanging best wishes with Xiaomi Auto VP Li Xiaoshuang. It marks the first time a humanoid has taken a public launch and service role at a major auto show, though no technical specs or production plans were disclosed.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;小鹏 IRON 人形机器人亮相广州车展主持发布会&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;人形机器人首次在大型车展主持发布会并承担现场服务，是具身智能落地场景的实质信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;小鹏 IRON 人形机器人在 2026 广州车展首次上岗，亲自主持小鹏新车发布会，并在展馆内承担接待、导购与导览工作。何小鹏携 IRON 巡展至小米展台，与小米汽车副总裁李肖爽互动互祝大卖。这是人形机器人首次在大型车展承担公开发布与现场服务角色，但报道未披露 IRON 的技术参数与量产计划。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;人形机器人首次在大型车展主持发布会并承担现场服务，是具身智能落地场景的实质信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 38/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/033/334.htm">IT之家 · 智能时代</source>
 <category>具身智能</category>
 <category>人形机器人</category>
 <category>小鹏</category>
 <category>广州车展</category>
 </item>
-<item><title>Moonshot AI Opens Applications for Kimi Science Support Program</title><link>https://www.ithome.com/1/033/328.htm</link><guid isPermaLink="true">https://www.ithome.com/1/033/328.htm</guid>
+<item><title>月之暗面开放 Kimi 科研支持计划申请</title><link>https://www.ithome.com/1/033/328.htm</link><guid isPermaLink="true">https://www.ithome.com/1/033/328.htm</guid>
 <pubDate>Fri, 27 Nov 2026 12:45:21 +0800</pubDate>
-<description>&lt;p&gt;Moonshot AI has opened applications for its Kimi Science Support Program, initially targeting researchers in natural sciences, engineering and related interdisciplinary fields. Selected applicants receive Kimi API credits, technical support from the Kimi team, early access to new models and community resources, with top teams eligible for longer-term support.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;月之暗面开放 Kimi 科研支持计划申请&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国内头部大模型厂商以 API 额度扶持科研生态，反映 AI for Science 的生态卡位动向。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;月之暗面宣布 Kimi 科研支持计划开放申请，首期面向自然科学、工程学及交叉学科科研人员，入选者可获得 Kimi API 额度与团队技术支持。该计划还提供新模型优先体验与社区资源，优秀团队可获得更长期深入的支持。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国内头部大模型厂商以 API 额度扶持科研生态，反映 AI for Science 的生态卡位动向。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 42/100&lt;/p&gt;</description>
 <source url="https://www.ithome.com/1/033/328.htm">IT之家 · 智能时代</source>
 <category>月之暗面</category>
 <category>Kimi</category>
@@ -242,33 +270,6 @@
 <category>3D 生成</category>
 <category>腾讯混元</category>
 <category>大模型</category>
-</item>
-<item><title>腾讯开源 DFly2 投机解码器 吞吐提升 81%</title><link>https://x.com/Marktechpost/status/2126157654351659407</link><guid isPermaLink="true">https://x.com/Marktechpost/status/2126157654351659407</guid>
-<pubDate>Fri, 27 Nov 2026 11:34:21 +0800</pubDate>
-<description>&lt;p&gt;腾讯开源 DFly2，一种面向稀疏注意力大模型的投机解码器，通过复用目标模型各层的 KV 缓存与 top-k 索引位置，草稿模型无需自建 KV 缓存、跳过预填充，任意上下文长度下每个草稿 token 最多读取约 2K 个 key。在 DeepSeek-V4.1-Flash 上平均接受长度达 4.12（DSpark 为 3.81），两组 64K 场景下服务吞吐分别提升 62% 与 81%。局限在于仅适用于自带稀疏索引器的目标模型，通用任务上相对 DSpark 增益仅 3.9%。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;稀疏注意力模型的高效推理是当前工程热点，该方案以零额外 KV 显存换取显著吞吐提升，且已落地 vLLM/SGLang 并开源训练代码。&lt;/p&gt;&lt;p&gt;Marktechpost (@Marktechpost) · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/Marktechpost/status/2126157654351659407">Marktechpost (@Marktechpost)</source>
-<category>投机解码</category>
-<category>稀疏注意力</category>
-<category>腾讯</category>
-<category>推理加速</category>
-<category>开源</category>
-</item>
-<item><title>具身智能公司集体转向 优先投入底层运控</title><link>https://www.qbitai.com/2026/11/513125.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/513125.html</guid>
-<pubDate>Fri, 27 Nov 2026 11:33:11 +0800</pubDate>
-<description>&lt;p&gt;在智源 REAL 物理 AI 开放日的圆桌讨论中，千寻智能、银河通用、星海图、星动纪元等头部具身智能公司创始人达成共识：随着 GPT-6 Astra、Claude Fable 5.2 等通用大模型在任务规划层（S2）表现超越专用机器人模型，具身公司应将研发优先级转向运动控制与技能执行层（S0/S1）。银河通用王鹤指出，纯 Agent 方法虽能在仿真基准刷高分，但端侧部署与真实物理执行仍存在难以跨越的鸿沟。多位创始人同时警示行业资本降温和创业窗口收窄。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部具身智能公司集体调整技术路线，反映通用大模型对机器人行业的实质冲击，对判断行业走向有参考价值。&lt;/p&gt;&lt;p&gt;量子位官网 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.qbitai.com/2026/11/513125.html">量子位官网</source>
-<category>具身智能</category>
-<category>通用大模型</category>
-<category>机器人</category>
-<category>行业圆桌</category>
-</item>
-<item><title>免费电子学网站 Electronics 101 上线 68 节 3D 互动课</title><link>https://x.com/dotey/status/2126157234144989236</link><guid isPermaLink="true">https://x.com/dotey/status/2126157234144989236</guid>
-<pubDate>Fri, 27 Nov 2026 11:32:41 +0800</pubDate>
-<description>&lt;p&gt;开发者 Dilum Sanjaya 推出免费电子学入门网站 Electronics 101，用可拖动旋转的 3D 电路模型讲解从电流基础到逻辑门的 68 节课，支持简体中文等 20 种语言，无需注册即可在浏览器中学习。课程从 11 月 5 日上线时的 48 节扩充至 68 节，并新增逻辑门、运算放大器与 555 定时器单元。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;零门槛的免费 3D 互动电子学课程，对 AI 硬件与嵌入式入门读者有直接实用价值。&lt;/p&gt;&lt;p&gt;宝玉 (@dotey) · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/dotey/status/2126157234144989236">宝玉 (@dotey)</source>
-<category>开发者工具</category>
-<category>教育科技</category>
-<category>互动课程</category>
 </item>
 </channel>
 </rss>
