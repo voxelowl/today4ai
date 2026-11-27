@@ -30,6 +30,16 @@
 <category>HBM</category>
 <category>算力基础设施</category>
 </item>
+<item><title>DeepMind Lets AI Agents Run Their Own Compute for Gemini Experiments</title><link>https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/</link><guid isPermaLink="true">https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/</guid>
+<pubDate>Fri, 27 Nov 2026 08:03:18 +0800</pubDate>
+<description>&lt;p&gt;Google DeepMind VP of Research Koray Kavukcuoglu confirmed that some AI agents now control part of the lab&amp;#x27;s compute to run experiments for the next Gemini model, part of a shift from specialized teams like AlphaFold toward a single general-purpose algorithm. He stressed the lab remains far from full recursive self-improvement, and that agents&amp;#x27; chain-of-thought is deliberately not rewarded during training so their intentions stay reviewable in natural language before acting.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;DeepMind 让 AI 智能体自主调度算力训练 Gemini&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是前沿实验室首次公开承认智能体已介入自身模型研发的算力调度环节，对理解 AI 研发自动化边界与安全设计具有标志性意义。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 78/100&lt;/p&gt;</description>
+<source url="https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/">Hacker News AI</source>
+<category>智能体</category>
+<category>Google DeepMind</category>
+<category>Gemini</category>
+<category>AI 安全</category>
+<category>研发自动化</category>
+</item>
 <item><title>Palo Alto CEO Says AI Is Unearthing 50 Years of Coding Flaws</title><link>https://x.com/rohanpaul_ai/status/2126093486722371829</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126093486722371829</guid>
 <pubDate>Fri, 27 Nov 2026 07:19:22 +0800</pubDate>
 <description>&lt;p&gt;Palo Alto Networks CEO Nikesh Arora says Anthropic&amp;#x27;s Mythos is surfacing decades of human coding vulnerabilities in a very short span, and attackers are the ones profiting. He cited a dark-web case where a single attacker used an AI agent to breach 19 companies at once, arguing AI-driven attack scaling is only beginning.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Palo Alto CEO 称 AI 正快速挖出 50 年代码漏洞&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部安全厂商 CEO 对 AI 漏洞挖掘与攻击规模化的公开判断，具备行业风向标价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
@@ -223,9 +233,9 @@
 <category>数据可视化</category>
 <category>开发者工具</category>
 </item>
-<item><title>Ant Group&#x27;s Robbyant Releases LingBot-Map 2.0 with In-Inference Map Refinement</title><link>https://x.com/rohanpaul_ai/status/2126019340525056182</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126019340525056182</guid>
+<item><title>蚂蚁集团 Robbyant 发布 LingBot-Map 2.0 轨迹误差降至 4.72 米</title><link>https://x.com/rohanpaul_ai/status/2126019340525056182</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126019340525056182</guid>
 <pubDate>Fri, 27 Nov 2026 02:24:44 +0800</pubDate>
-<description>&lt;p&gt;Robbyant, Ant Group&amp;#x27;s embodied AI unit, released LingBot-Map 2.0, which builds 3D maps from ordinary video while the camera moves and adds a Refine step that revises the model&amp;#x27;s existing spatial memory mid-run to curb accumulated drift. On the multi-kilometer VBR benchmark around Rome (up to 5.2 km, ~18,800 frames), average trajectory error drops from 31.12 m in v1.0 to 4.72 m in 2.0 with Refine, all inside normal inference with no external optimization backend. Code and weights are available for the Streaming version.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;蚂蚁集团 Robbyant 发布 LingBot-Map 2.0 轨迹误差降至 4.72 米&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把闭环地图修正内化进模型推理并开源权重，是具身智能空间感知路线的实质性进展。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 74/100&lt;/p&gt;</description>
+<description>&lt;p&gt;蚂蚁集团旗下具身智能公司 Robbyant 发布 LingBot-Map 2.0，可在相机运动过程中从普通视频实时构建 3D 地图，并新增 Refine 步骤随时修正模型已有的空间记忆，将累积漂移写回缓存供后续帧复用。在罗马多公里级 VBR 基准（最长 5.2 公里、约 18800 帧）上，平均轨迹误差从 1.0 版的 31.12 米降至 4.72 米，且全程在模型推理内部完成，无需外部优化求解器。Streaming 版本代码与权重已开放。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把闭环地图修正内化进模型推理并开源权重，是具身智能空间感知路线的实质性进展。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 74/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2126019340525056182">Rohan Paul (@rohanpaul_ai)</source>
 <category>具身智能</category>
 <category>3D 建图</category>
@@ -267,15 +277,6 @@
 <category>AI for Science</category>
 <category>药物审批</category>
 <category>行业数据</category>
-</item>
-<item><title>AMD 专用补丁让 Llama.cpp 生成速度提升 57%</title><link>https://devnull.land/amd-specific-llama-cpp</link><guid isPermaLink="true">https://devnull.land/amd-specific-llama-cpp</guid>
-<pubDate>Fri, 27 Nov 2026 01:11:29 +0800</pubDate>
-<description>&lt;p&gt;针对 AMD 显卡的 llama.cpp 定制补丁项目 llama-cpp-rdna-boosts 实测将 token 生成速度从 35 提升至 55 tokens/s，预填充从 700 提升至 1300 tokens/s。文章同时观察到 2026 年底涌现出一批面向特定硬件、由前沿模型辅助编写的专用推理引擎分支，与通用型 llama.cpp、vLLM、SGLang 形成分化。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提供了 AMD 显卡上 llama.cpp 推理加速的具体实测数据，并勾勒出专用推理引擎分支兴起的生态趋势。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
-<source url="https://devnull.land/amd-specific-llama-cpp">Hacker News AI</source>
-<category>llama.cpp</category>
-<category>AMD</category>
-<category>推理引擎</category>
-<category>开源生态</category>
 </item>
 </channel>
 </rss>
