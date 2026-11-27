@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Fri, 27 Nov 2026 09:00:04 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Fri, 27 Nov 2026 09:33:27 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Amazon Paper Finds Self-Revised Agent Harnesses Barely Generalize</title><link>https://x.com/rohanpaul_ai/status/2126127228329300257</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126127228329300257</guid>
+<pubDate>Fri, 27 Nov 2026 09:33:27 +0800</pubDate>
+<description>&lt;p&gt;A new Amazon paper finds that frontier models can build their own agent harnesses from scratch, but self-revisions yield little on unseen tasks. Across 9 model setups with 3 builds and 2 self-revisions each, practice-game scores rose 8.42 points while unseen-game gains were only 2.80, too uncertain to rule out zero. In 9 of 27 runs, cheaper versions also scored worse.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊论文揭示智能体自改框架泛化增益微弱&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次系统量化智能体自我改写框架的泛化边界，对自动化智能体工程实践有直接警示价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 72/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2126127228329300257">Rohan Paul (@rohanpaul_ai)</source>
+<category>智能体</category>
+<category>亚马逊</category>
+<category>ARC-AGI</category>
+<category>模型自我改进</category>
+</item>
+<item><title>TEPCO Plans Over 10 Trillion Yen AI Infrastructure Investment</title><link>https://www.ithome.com/1/033/170.htm</link><guid isPermaLink="true">https://www.ithome.com/1/033/170.htm</guid>
+<pubDate>Fri, 27 Nov 2026 09:13:47 +0800</pubDate>
+<description>&lt;p&gt;Tokyo Electric Power Company plans to invest more than 10 trillion yen in AI infrastructure by fiscal 2035, including 4.9 trillion yen for grid expansion and 2.5 trillion yen for nuclear plant upgrades. Burdened by debt repayments after the Fukushima disaster, TEPCO sees AI investment as a path to stronger finances but cannot fund it alone and is seeking backing from investors such as SoftBank.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;东京电力拟投超 10 万亿日元建 AI 基础设施&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;日本最大电力公司以超 10 万亿日元押注 AI 基础设施，反映算力扩张正倒逼能源与电网重构。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · compute · signal 62/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/033/170.htm">IT之家 · IT业界</source>
+<category>AI 基础设施</category>
+<category>算力能源</category>
+<category>东京电力</category>
+<category>电网扩建</category>
+</item>
+<item><title>Kuaishou Folds Local Services Unit into E-commerce and Ads</title><link>https://www.ithome.com/1/033/169.htm</link><guid isPermaLink="true">https://www.ithome.com/1/033/169.htm</guid>
+<pubDate>Fri, 27 Nov 2026 09:10:17 +0800</pubDate>
+<description>&lt;p&gt;Kuaishou has dissolved its standalone Local Services business unit, splitting it into its e-commerce and commercialization divisions alongside staff cuts. Launched as an independent unit in 2022, the business posted rapid GMV growth in 2023-2024, but a 2025 shift from merchant subsidies to ad-spend promotion and the end of separate data disclosure signaled a strategic downgrade.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;快手撤销生活服务事业部并入电商与商业化&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;反映快手本地生活战略收缩与组织整合，是观察大厂非核心业务取舍的典型样本。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 38/100&lt;/p&gt;</description>
+<source url="https://www.ithome.com/1/033/169.htm">IT之家 · IT业界</source>
+<category>快手</category>
+<category>组织架构</category>
+<category>本地生活</category>
+<category>电商</category>
+</item>
 <item><title>NVIDIA Paper Finds Self-Compacting Context Nearly Triples Model Scores</title><link>https://x.com/rohanpaul_ai/status/2126118827264294915</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126118827264294915</guid>
 <pubDate>Fri, 27 Nov 2026 09:00:04 +0800</pubDate>
 <description>&lt;p&gt;An NVIDIA paper introduces NOOA, an open-source agent framework that gives models an API to summarize chosen history segments and retrieve originals later, nearly tripling GPT-6.1 Sol&amp;#x27;s score on OfficeQA Pro v2 from 21% to 56% at a 32K budget. Results vary sharply across models: Claude Opus 5.5 used the API in only 4% of tasks, while Kimi K3 and DeepSeek V4 Pro compacted prematurely without timing hints. The takeaway is to let strong models manage their own context under tight budgets, but validate per model first.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;英伟达新论文称模型自主压缩上下文可提升近三倍得分&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次系统对比模型自主压缩与框架自动压缩上下文，并给出跨模型差异的量化证据，对智能体开发者有直接指导价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
@@ -204,9 +231,9 @@
 <category>Scott Aaronson</category>
 <category>OpenAI</category>
 </item>
-<item><title>Rvoip 0.5 Ships a Complete VoIP Stack Written in Rust</title><link>https://github.com/eisenzopf/rvoip</link><guid isPermaLink="true">https://github.com/eisenzopf/rvoip</guid>
+<item><title>Rvoip 0.5 发布 用 Rust 实现全栈 VoIP 通信</title><link>https://github.com/eisenzopf/rvoip</link><guid isPermaLink="true">https://github.com/eisenzopf/rvoip</guid>
 <pubDate>Fri, 27 Nov 2026 03:18:09 +0800</pubDate>
-<description>&lt;p&gt;Rvoip 0.5 unifies SIP, RTP, WebRTC, QUIC/WebTransport and voice-AI agents under a single call model, shipping everything as in-workspace Rust crates with no external SIP proxy, media server or RTP engine required. It carries release-gated interoperability evidence against Asterisk, FreeSWITCH and Jambonz, making it practical to build communications and voice-AI applications in pure Rust.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Rvoip 0.5 发布 用 Rust 实现全栈 VoIP 通信&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把完整 VoIP 与实时媒体栈收敛为纯 Rust 库并覆盖语音 AI 场景，对通信与 Agent 开发者有明确工程价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Rvoip 0.5 将 SIP、RTP、WebRTC、QUIC/WebTransport 与语音 AI 智能体统一到同一套呼叫模型，全部以 Rust crate 形式内置，无需额外部署 SIP 代理、媒体服务器或 RTP 引擎。项目已通过 Asterisk、FreeSWITCH、Jambonz 等系统的互操作验证，适合在纯 Rust 环境中直接构建通信与语音 AI 应用。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把完整 VoIP 与实时媒体栈收敛为纯 Rust 库并覆盖语音 AI 场景，对通信与 Agent 开发者有明确工程价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 62/100&lt;/p&gt;</description>
 <source url="https://github.com/eisenzopf/rvoip">Hacker News AI</source>
 <category>Rust</category>
 <category>VoIP</category>
@@ -214,9 +241,9 @@
 <category>语音 AI</category>
 <category>开源</category>
 </item>
-<item><title>Scale AI and CMU Run 1,200 Experiments Comparing PPO and GRPO</title><link>https://x.com/rohanpaul_ai/status/2126032236487319905</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126032236487319905</guid>
+<item><title>Scale AI 与 CMU 实测 1200 次训练揭示 PPO 小批量优势</title><link>https://x.com/rohanpaul_ai/status/2126032236487319905</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126032236487319905</guid>
 <pubDate>Fri, 27 Nov 2026 03:15:59 +0800</pubDate>
-<description>&lt;p&gt;Researchers from Scale AI and Carnegie Mellon University ran more than 1,200 training experiments, including 96 with LLMs, to systematically compare PPO and GRPO. They found that PPO with a critic clearly wins at small RL batch sizes, while GRPO closes the gap as batches grow. On terminal-agent tasks PPO led by up to 5.9 points at batch sizes 128 and 512, with all methods within 0.6 points at 2,048; PPO at batch 128 matched GRPO at 512 using 91 versus 342 GPU-hours.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Scale AI 与 CMU 实测 1200 次训练揭示 PPO 小批量优势&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大规模受控实验直接挑战 DeepSeek-R1 后开源社区默认弃用 critic 的主流做法，对 RL 训练选型有明确指导价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Scale AI 与卡内基梅隆大学的研究者通过超过 1200 次训练实验（其中 96 次为大模型训练）系统对比 PPO 与 GRPO，发现小批量强化学习下带 critic 的 PPO 明显占优，而 GRPO 随批量增大逐步追平。在终端智能体任务中，批量 128 与 512 时 PPO 领先最多 5.9 分，批量 2048 时各方法差距缩小到 0.6 分以内；PPO 在批量 128 下仅用 91 GPU 小时即达到 GRPO 批量 512 的 342 GPU 小时效果。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;大规模受控实验直接挑战 DeepSeek-R1 后开源社区默认弃用 critic 的主流做法，对 RL 训练选型有明确指导价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2126032236487319905">Rohan Paul (@rohanpaul_ai)</source>
 <category>强化学习</category>
 <category>PPO</category>
@@ -224,9 +251,17 @@
 <category>Scale AI</category>
 <category>训练效率</category>
 </item>
-<item><title>BUI Charts Debuts as Self-Proclaimed Largest 2D Chart Library</title><link>https://bui.preetham.top/charts/</link><guid isPermaLink="true">https://bui.preetham.top/charts/</guid>
+<item><title>机器学习不确定性来源与实用评估入门</title><link>https://chrhenning.com/blog/2026/introduction-to-uncertainty/</link><guid isPermaLink="true">https://chrhenning.com/blog/2026/introduction-to-uncertainty/</guid>
+<pubDate>Fri, 27 Nov 2026 03:04:50 +0800</pubDate>
+<description>&lt;p&gt;文章从概率建模视角解释机器学习中不确定性的来源，指出每个模型都隐含对不确定性的假设，在数据稀疏处该假设直接决定输出结果。作者给出判断不确定性估计何时需要保真、何时只需对决策有用的直觉框架，并附演讲幻灯片与博士论文章节作为延伸材料。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向实践者的不确定性直觉入门，有助于在数据稀疏场景下正确选择建模假设与决策依据。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 58/100&lt;/p&gt;</description>
+<source url="https://chrhenning.com/blog/2026/introduction-to-uncertainty/">Hacker News AI</source>
+<category>机器学习</category>
+<category>不确定性建模</category>
+<category>概率模型</category>
+</item>
+<item><title>BUI Charts 发布 号称全球最大 2D 图表库</title><link>https://bui.preetham.top/charts/</link><guid isPermaLink="true">https://bui.preetham.top/charts/</guid>
 <pubDate>Fri, 27 Nov 2026 02:37:24 +0800</pubDate>
-<description>&lt;p&gt;The BUI ecosystem has released bui-charts, a component library built on the Rust-based BlenderUI framework that lets developers declare 2D charts such as XYChart, BarGauge, candlestick, flame graph and ternary plots via the rsx! macro, with signal-driven automatic redraws. It markets itself as the world&amp;#x27;s largest 2D chart library, but the available material focuses on installation and a starter example without chart counts, benchmarks or comparisons against mainstream libraries.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;BUI Charts 发布 号称全球最大 2D 图表库&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Rust 声明式 UI 生态新增图表组件库，对关注 Rust 前端与可视化工具链的开发者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 42/100&lt;/p&gt;</description>
+<description>&lt;p&gt;BUI 生态推出 bui-charts 组件库，基于 Rust 的 BlenderUI 框架，通过 rsx! 宏以声明式方式构建 XYChart、BarGauge、K 线图、火焰图、三元图等 2D 图表，并支持信号驱动的自动重绘。该项目以“全球最大 2D 图表库”为卖点，但当前材料以安装与入门示例为主，尚未给出图表数量、性能基准或与主流库的对比数据。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;Rust 声明式 UI 生态新增图表组件库，对关注 Rust 前端与可视化工具链的开发者有参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 42/100&lt;/p&gt;</description>
 <source url="https://bui.preetham.top/charts/">Hacker News AI</source>
 <category>开源项目</category>
 <category>Rust</category>
@@ -242,41 +277,6 @@
 <category>SLAM</category>
 <category>开源模型</category>
 <category>蚂蚁集团</category>
-</item>
-<item><title>OpenAI 修复计费漏洞 用户额度消耗提速 40%</title><link>https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/</link><guid isPermaLink="true">https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/</guid>
-<pubDate>Fri, 27 Nov 2026 01:28:56 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 在 GPT-6.2 上线期间出现计费折扣计算错误，导致多数用户获得了错误的折扣额度。漏洞修复后，Astra 与 Sol 的额度消耗速度分别加快 40% 和 25%，但官方承诺不追溯补收费用，并向 Go、Plus、Pro、Business 订阅用户补偿一次额外重置额度。OpenAI 同时在小范围 Pro 用户中测试 Chat 与 Work 模式合并。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及头部厂商计费错误与额度政策调整，直接影响订阅用户的成本与使用预期。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/">The Decoder</source>
-<category>OpenAI</category>
-<category>计费策略</category>
-<category>订阅额度</category>
-<category>ChatGPT</category>
-</item>
-<item><title>开发者用 3 美元芯片让 Claude 读取 1994 款吉普车电脑</title><link>https://x.com/gregisenberg/status/2126004403052445733</link><guid isPermaLink="true">https://x.com/gregisenberg/status/2126004403052445733</guid>
-<pubDate>Fri, 27 Nov 2026 01:25:23 +0800</pubDate>
-<description>&lt;p&gt;一位开发者通过约 3 美元的芯片将 1994 款吉普车的发动机电脑接入 Claude，由模型分析出车辆反复无法通过尾气检测的原因，车主称修复后已通过检测。整套硬件成本约 15 美元，相关代码已在 GitHub 免费开源。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是大模型接入老旧车载 OBD 硬件的低成本实操案例，展示了 AI 在真实诊断场景中的可用性。&lt;/p&gt;&lt;p&gt;GREG ISENBERG (@gregisenberg) · tools · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/gregisenberg/status/2126004403052445733">GREG ISENBERG (@gregisenberg)</source>
-<category>大模型应用</category>
-<category>汽车诊断</category>
-<category>开源项目</category>
-</item>
-<item><title>DeepSeek 开源 7B 数学模型 竞赛级 MATH 得分 51.7%</title><link>https://github.com/deepseek-ai/deepseek-math</link><guid isPermaLink="true">https://github.com/deepseek-ai/deepseek-math</guid>
-<pubDate>Fri, 27 Nov 2026 01:21:14 +0800</pubDate>
-<description>&lt;p&gt;DeepSeek 发布 DeepSeekMath 7B，以 DeepSeek-Coder-v1.5 7B 为基座，在数学相关 token 上继续预训练 500B，竞赛级 MATH 基准得分 51.7%，在不依赖外部工具与投票的情况下逼近 Gemini-Ultra 与 GPT-4 水平。团队同时开源 base、instruct、RL 三个版本的模型权重，供研究使用。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;7B 小模型在竞赛级数学基准上逼近顶级闭源模型，且三档权重全部开源，对数学推理与开源生态均有实质价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://github.com/deepseek-ai/deepseek-math">Hacker News AI</source>
-<category>大模型</category>
-<category>开源模型</category>
-<category>数学推理</category>
-<category>DeepSeek</category>
-</item>
-<item><title>AI 发现药物至今零获批 1452 天等待仍未破局</title><link>https://diseasescuredbyai.com/</link><guid isPermaLink="true">https://diseasescuredbyai.com/</guid>
-<pubDate>Fri, 27 Nov 2026 01:16:41 +0800</pubDate>
-<description>&lt;p&gt;一个追踪网站以 FDA/EMA 审批为唯一口径统计，截至 2026 年 11 月，由 AI 发现或设计的药物获批数量仍为零，尚无任何疾病被 AI 发现的疗法治愈。目前有 117 个 AI 相关候选药物进入人体试验、来自 63 家公司，其中仅 Rentosertib 一个进入 III 期且仍属在研。该页面用硬性审批数据对冲行业高调预期，为评估 AI for Science 落地进度提供了可核验的参照。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;以审批硬指标量化 AI 制药真实进度，是校准行业预期的关键事实参照。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://diseasescuredbyai.com/">Hacker News AI</source>
-<category>AI 制药</category>
-<category>AI for Science</category>
-<category>药物审批</category>
-<category>行业数据</category>
 </item>
 </channel>
 </rss>
