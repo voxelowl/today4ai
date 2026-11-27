@@ -55,14 +55,6 @@ SpaceX 的 Starmind 星座旨在缓解地面算力需求的快速增长，将 AI
 
 这一事件凸显了 AI 服务在快速迭代中计费系统的复杂性，也体现了 OpenAI 在用户补偿与产品优化间的平衡。尽管额度消耗加快可能引发部分用户不满，但官方的补偿措施与效率优势声明有望缓解冲击，同时为行业计费透明度树立参考。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Hacker News AI, IT之家 · 智能时代, The Decoder&lt;/p&gt;</description>
 </item>
-<item><title>Anthropic 用 Claude 将 Messages API 迁移至 Rust 单请求 CPU 降 70%</title><link>https://todayforai.com/en/story/story-9d85b604-0d4</link><guid isPermaLink="true">https://todayforai.com/en/story/story-9d85b604-0d4</guid>
-<pubDate>Thu, 26 Nov 2026 04:52:14 +0800</pubDate>
-<description>&lt;p&gt;Anthropic 宣布已将其核心生产服务 Messages API 从 Python 迁移至 Rust，单请求 CPU 消耗下降约 70%。这一重写旨在应对自 2024 年初以来约 1800 倍的 API 流量增长，显著提升了服务效率与可扩展性。
-
-迁移过程中，Claude 仅用约一周便产出首版 Rust 代码，但团队强调真正的挑战在于验证新实现与旧服务的行为一致性。他们采用旧 Python 服务作为对照基准，并借助多组 Claude 智能体自动定位并修复两版差异，形成了一套可复用的 AI 辅助验证范式。
-
-此次迁移不仅展示了 AI 在大型成熟代码库语言重写中的潜力，也凸显了生成-验证差距框架的实用性：当验证解比生成解更容易时，模型可承担复杂迁移任务。这为行业提供了高效、低风险的服务重构路径，有望推动更多企业探索 AI 驱动的工程实践。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai), Hacker News AI, Anthropic AI (@AnthropicAI)&lt;/p&gt;</description>
-</item>
 <item><title>英伟达暂停东南亚四国服务器出货 堵截中国算力租用漏洞</title><link>https://todayforai.com/en/story/story-172287b9-999</link><guid isPermaLink="true">https://todayforai.com/en/story/story-172287b9-999</guid>
 <pubDate>Fri, 27 Nov 2026 04:03:54 +0800</pubDate>
 <description>&lt;p&gt;美国商务部本月出台临时规则，将东南亚与巴西纳入先进 AI 芯片出口许可范围，英伟达随即要求戴尔、超微等合作伙伴暂停向马来西亚、新加坡、泰国和印度尼西亚发运服务器。此举旨在堵住中国 AI 实验室通过东南亚云厂商远程租用算力的规避路径，据智库估算，这类远程算力约占中国 AI 算力的 24%。
@@ -74,6 +66,14 @@ SpaceX 的 Starmind 星座旨在缓解地面算力需求的快速增长，将 AI
 <item><title>一目科技战略升级 构建机器人灵巧操作生态</title><link>https://todayforai.com/en/story/story-7acf3aff-c7a</link><guid isPermaLink="true">https://todayforai.com/en/story/story-7acf3aff-c7a</guid>
 <pubDate>Fri, 27 Nov 2026 17:00:00 +0800</pubDate>
 <description>&lt;p&gt;一目科技宣布战略升级，从视触觉传感器供应商转向构建「YIMU xEco」灵巧操作生态，覆盖高维感知、极致操作、技能沉淀与开放部署四层能力。其核心判断是触觉感知本身不足以支撑精细操作，传感器与灵巧手、机器人本体之间的标定与联调才是落地瓶颈。该路线能否成立，取决于其视触觉方案能否真正做成可量产的工业标准件。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;机器之心 (微信公众号)&lt;/p&gt;</description>
+</item>
+<item><title>OpenAI 开测私有推理 企业数据对己不可见</title><link>https://todayforai.com/en/story/story-efdd7ed4-012</link><guid isPermaLink="true">https://todayforai.com/en/story/story-efdd7ed4-012</guid>
+<pubDate>Thu, 26 Nov 2026 07:45:33 +0800</pubDate>
+<description>&lt;p&gt;OpenAI 已开始面向少数企业客户测试名为 Private Inference 的新服务，核心突破在于：企业在调用其前沿模型时，OpenAI 自身无法访问查询数据。该功能隶属 Private Intelligence 产品线，结合零数据留存（ZDR）与私有安全处理（Private Safety Processing），可在不向 OpenAI 人员开放底层内容的前提下完成自动化安全审查。此前企业数据本就不用于训练，而消费级 ChatGPT 对话默认用于训练，此次试点进一步将隐私保护延伸至推理环节。
+
+综合多方信源，该服务目前处于早期邀请制阶段，技术实现、客户名单、上线时间与收费模式均未披露。OpenAI 表示正扩充算力以扩大服务规模，并将其定位为迈向普惠私有智能的第一步。Sam Altman 亦强调，更强的隐私保护是前沿模型承担更多企业级工作负载的关键前提。
+
+此举直击企业采用大模型的核心顾虑——数据泄露风险。通过将隐私保护内置于推理层，OpenAI 试图在竞争激烈的企业 AI 市场中建立差异化优势，同时为受监管行业（如金融、医疗）扫除合规障碍。若该模式规模化，可能推动行业形成“私有推理”新标准，并加剧与 Anthropic、谷歌云等对手在企业隐私赛道的角逐。&lt;/p&gt;&lt;p&gt;3 sources&lt;/p&gt;&lt;p&gt;The Decoder, IT之家 · 智能时代, Sam Altman (@sama)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
