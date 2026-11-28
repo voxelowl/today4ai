@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 28 Nov 2026 15:43:12 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 28 Nov 2026 18:56:43 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>ByteDance Seed Unveils Seedream 5.5 and Full-Duplex Audio-Visual LLM</title><link>https://seed.bytedance.com/en/research?view_from=homepage_tab</link><guid isPermaLink="true">https://seed.bytedance.com/en/research?view_from=homepage_tab</guid>
+<pubDate>Sat, 28 Nov 2026 18:56:43 +0800</pubDate>
+<description>&lt;p&gt;ByteDance Seed released Seedream 5.5, an image generation model emphasizing greater realism and stable editing across 100 rounds, with pixel-level preservation of unedited regions and markedly better small-text rendering. It also introduced SeedRealtime, an audio-visual full-duplex LLM that jointly understands sound, vision and temporal cues for natural see-listen-speak interaction.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;字节 Seed 发布 Seedream 5.5 与全双工音视频大模型&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;字节 Seed 同时更新图像生成与全双工多模态两条产品线，长轮次编辑稳定性与全双工交互均属可验证的能力增量。&lt;/p&gt;&lt;p&gt;字节 Seed 官方动态 · llm · signal 62/100&lt;/p&gt;</description>
+<source url="https://seed.bytedance.com/en/research?view_from=homepage_tab">字节 Seed 官方动态</source>
+<category>多模态</category>
+<category>图像生成</category>
+<category>字节跳动</category>
+<category>全双工交互</category>
+</item>
+<item><title>Fleetlayer Launches Open Framework for Multi-Machine AI Agents</title><link>https://fleetlayer.ai/</link><guid isPermaLink="true">https://fleetlayer.ai/</guid>
+<pubDate>Sat, 28 Nov 2026 16:37:09 +0800</pubDate>
+<description>&lt;p&gt;Fleetlayer is an open-source orchestration framework that links Claude Code and Codex sessions across laptops, home servers and VPS instances under every account a user holds. Agents can message each other, share signed-in browsers and files, and operate under user-defined rules, approvals and audit logs, with source available on GitHub.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Fleetlayer 开源框架支持跨机器调度多智能体&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;多智能体跨机器协同是当前 Agent 工程化的真实痛点，该项目给出了可落地的开源方案。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 62/100&lt;/p&gt;</description>
+<source url="https://fleetlayer.ai/">Hacker News AI</source>
+<category>智能体</category>
+<category>开源</category>
+<category>Claude Code</category>
+<category>多机协同</category>
+</item>
 <item><title>XPeng Plans IRON Robot Mass Production in 2027 with First-Year Profit</title><link>https://www.ithome.com/1/033/912.htm</link><guid isPermaLink="true">https://www.ithome.com/1/033/912.htm</guid>
 <pubDate>Sat, 28 Nov 2026 15:43:12 +0800</pubDate>
 <description>&lt;p&gt;XPeng CEO He Xiaopeng said at the 2026 Guangzhou Auto Show that the IRON humanoid robot will enter hardware mass production in January 2027 and launch officially in Q2 2027, with strong profitability expected in its first year of delivery. IRON has integrated full-body motion control with audio-visual perception; tactile sensing remains the main technical hurdle and could break through within one to two years. The product is designed for overseas multilingual, safety and privacy compliance, with domestic delivery first.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;小鹏 IRON 机器人计划 2027 年量产并预期首年盈利&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部车企人形机器人给出明确量产与盈利时间表，是具身智能商业化节奏的重要信号。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
@@ -173,18 +191,18 @@
 <category>基准测试</category>
 <category>编码智能体</category>
 </item>
-<item><title>Microsoft Paper Shows Coding Agents Can Tune Other Agents Autonomously</title><link>https://x.com/rohanpaul_ai/status/2126465848890269878</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126465848890269878</guid>
+<item><title>微软新论文：让编码智能体自主调优其他智能体</title><link>https://x.com/rohanpaul_ai/status/2126465848890269878</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126465848890269878</guid>
 <pubDate>Sat, 28 Nov 2026 07:59:00 +0800</pubDate>
-<description>&lt;p&gt;A new Microsoft paper finds that a coding agent (Claude Code, Codex, or GitHub Copilot) given only a target agent, training data, and a $5-$25 budget can autonomously edit the target&amp;#x27;s prompts, code, tools, and skills, outperforming published skill-optimization methods. Across five benchmarks with a gpt-5.4-mini target, the approach beat the best published results, from 3% on SearchQA up to 98% on LiveMath. Notably, an optimizer skill or larger budget did not reliably help, and on two benchmarks gains came from removing the model from the final agent.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;微软新论文：让编码智能体自主调优其他智能体&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出用通用编码智能体替代专用搜索循环来优化智能体技能，成本极低且效果显著，对智能体工程实践有直接启发。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;微软研究院一篇新论文发现，只需给编码智能体（Claude Code、Codex 或 GitHub Copilot）一个目标智能体、训练数据和 5 至 25 美元预算，并仅要求它提升评分，它就能自主修改目标智能体的提示词、代码、工具与技能，效果超过已发表的技能优化方法。在 5 个基准上，以 gpt-5.4-mini 为目标模型，该方法全面超越最佳公开结果，其中 SearchQA 提升 3%，LiveMath 提升高达 98%。值得注意的是，额外提供优化器技能或加大预算并未稳定带来增益，部分提升甚至来自把模型从最终智能体中移除。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出用通用编码智能体替代专用搜索循环来优化智能体技能，成本极低且效果显著，对智能体工程实践有直接启发。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
 <source url="https://x.com/rohanpaul_ai/status/2126465848890269878">Rohan Paul (@rohanpaul_ai)</source>
 <category>智能体</category>
 <category>微软</category>
 <category>技能优化</category>
 <category>编码智能体</category>
 </item>
-<item><title>datasette-charts 0.4a0 Ships Smoother Chart Plugin Hooks</title><link>https://simonwillison.net/2026/Nov/27/datasette-charts/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/27/datasette-charts/</guid>
+<item><title>datasette-charts 0.4a0 发布 优化图表插件开发体验</title><link>https://simonwillison.net/2026/Nov/27/datasette-charts/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/27/datasette-charts/</guid>
 <pubDate>Sat, 28 Nov 2026 07:57:17 +0800</pubDate>
-<description>&lt;p&gt;datasette-charts released version 0.4a0, addressing friction points in its chart-type plugin hook so third-party developers can build custom chart plugins more ergonomically. It also launched an official site with a plugin author tutorial and a gallery of core charts linking to interactive Datasette Lite demos.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;datasette-charts 0.4a0 发布 优化图表插件开发体验&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向 Datasette 生态开发者的可视化插件更新，扩展了图表类型钩子的可用性。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · tools · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;datasette-charts 发布 0.4a0 版本，重点修复了图表类型插件钩子的多处设计摩擦点，让第三方开发者构建自定义图表插件更顺手。同时上线官方站点，提供插件作者教程与核心图表画廊，每个示例可跳转 Datasette Lite 交互演示。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向 Datasette 生态开发者的可视化插件更新，扩展了图表类型钩子的可用性。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · tools · signal 38/100&lt;/p&gt;</description>
 <source url="https://simonwillison.net/2026/Nov/27/datasette-charts/">Simon Willison 博客</source>
 <category>datasette</category>
 <category>数据可视化</category>
@@ -249,25 +267,6 @@
 <category>数据标注</category>
 <category>前沿实验室</category>
 <category>播客</category>
-</item>
-<item><title>超大规模云厂商债券发行 2026 年将破 3050 亿美元</title><link>https://x.com/rohanpaul_ai/status/2126439540940554654</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126439540940554654</guid>
-<pubDate>Sat, 28 Nov 2026 06:14:28 +0800</pubDate>
-<description>&lt;p&gt;英国央行最新金融稳定报告指出，超大规模云厂商 2026 年债券发行规模将超过 3050 亿美元，约占全球投资级债券发行的 8%，含表外承诺在内的潜在总敞口超过 4 万亿美元。报告警告 AI 基建融资日益复杂、循环且不透明，局部压力更易向全链条传导，同时将前沿 AI 模型与量子计算并列为银行安全威胁，并把有序迁移至抗量子密码列为当务之急。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;央行层面首次量化 AI 基建融资的系统性敞口，是判断 AI 资本周期风险的关键信号。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 68/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2126439540940554654">Rohan Paul (@rohanpaul_ai)</source>
-<category>AI 基建</category>
-<category>金融稳定</category>
-<category>债券融资</category>
-<category>英国央行</category>
-<category>抗量子密码</category>
-</item>
-<item><title>Khosla 预警 2030 年前量子与 AI 将破解主流加密</title><link>https://x.com/rohanpaul_ai/status/2126437205220765797</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126437205220765797</guid>
-<pubDate>Sat, 28 Nov 2026 06:05:11 +0800</pubDate>
-<description>&lt;p&gt;硅谷投资人 Vinod Khosla 判断，量子计算机将在 2030 年前跑通 Shor 算法，叠加 AI 在数学上的突破，届时当今主流加密体系将被攻破。他认为正在部署的后量子算法只能把破解时间推迟 6 到 12 个月，真正持久的方案应转向量子编码而非更复杂的数学难题。这一判断与「先收集、后解密」的现实风险相互印证，但属于个人预测而非可验证成果。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;知名投资人对加密体系时间线的激进预判，牵动安全与 AI 基础设施的长期规划。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2126437205220765797">Rohan Paul (@rohanpaul_ai)</source>
-<category>量子计算</category>
-<category>加密安全</category>
-<category>AI 数学</category>
-<category>行业预测</category>
 </item>
 </channel>
 </rss>
