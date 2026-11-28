@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 28 Nov 2026 09:32:56 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 28 Nov 2026 09:55:15 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Max Planck Study Finds Reasoning Makes LLMs Converge on Shared Errors</title><link>https://x.com/rohanpaul_ai/status/2126495103305015478</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126495103305015478</guid>
+<pubDate>Sat, 28 Nov 2026 09:55:15 +0800</pubDate>
+<description>&lt;p&gt;A Max Planck team tested nine Qwen and GPT models on three prediction tasks built from US census surveys, with reasoning on and off. Enabling reasoning raised inter-model agreement, but the share of people all nine models got wrong also rose by 2.0 to 2.4 points; for the longest reasoning traces, adjusted agreement fell to roughly 0.31 to 0.39. The result warns that multi-model consensus can reflect shared errors rather than correctness.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;马普所发现开启推理让大模型错误趋同&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;该研究直接挑战多模型投票纠错的常见工程假设，对评测与集成设计有实际指导价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · llm · signal 71/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2126495103305015478">Rohan Paul (@rohanpaul_ai)</source>
+<category>大模型推理</category>
+<category>模型集成</category>
+<category>评测方法</category>
+<category>马普所</category>
+</item>
 <item><title>Tenant Evicted After Landlord&#x27;s AI Assistant Approves Rent Delay</title><link>https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai</link><guid isPermaLink="true">https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai</guid>
 <pubDate>Sat, 28 Nov 2026 09:32:56 +0800</pubDate>
 <description>&lt;p&gt;A North Carolina tenant was evicted on 19 November even though an email apparently from her apartment complex&amp;#x27;s AI assistant, Olivia, accepted a 30 November deadline for nearly $4,000 in overdue rent. The property has not confirmed the account, and the case sharpens questions about corporate liability when automated systems make financial assurances, echoing a Canadian ruling against Air Canada&amp;#x27;s chatbot.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;美租户因 AI 助理承诺延期付款遭驱逐&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首例因 AI 助理误作财务承诺导致租户被驱逐的案例，直接触及智能体部署的责任归属问题。&lt;/p&gt;&lt;p&gt;Hacker News AI · agent · signal 58/100&lt;/p&gt;</description>
@@ -10,6 +19,15 @@
 <category>智能体</category>
 <category>AI 责任</category>
 <category>法律合规</category>
+</item>
+<item><title>Amazon AI Business Grows 440x Faster Than Early AWS</title><link>https://x.com/rohanpaul_ai/status/2126485180869398776</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126485180869398776</guid>
+<pubDate>Sat, 28 Nov 2026 09:15:49 +0800</pubDate>
+<description>&lt;p&gt;Amazon CEO Andy Jassy said the company&amp;#x27;s AI business is growing roughly 440 times faster than early AWS, adding that most 2027 capacity is already reserved, with much of 2028 and a good chunk of 2029 also booked. The remarks point to AI compute demand far exceeding prior cloud cycles, though the figures come from executive statements without financial disclosure.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;亚马逊 AI 业务增速达早期 AWS 的 440 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部云厂商给出罕见的算力预订与增速信号，对判断 AI 基础设施供需具有参考价值。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · compute · signal 58/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2126485180869398776">Rohan Paul (@rohanpaul_ai)</source>
+<category>算力基础设施</category>
+<category>亚马逊</category>
+<category>AWS</category>
+<category>云服务</category>
 </item>
 <item><title>Coding Agents Back Up Data in Only 15.2% of Tasks, Study Finds</title><link>https://x.com/rohanpaul_ai/status/2126483453986459744</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126483453986459744</guid>
 <pubDate>Sat, 28 Nov 2026 09:08:58 +0800</pubDate>
@@ -161,6 +179,14 @@
 <category>硬件供应链</category>
 <category>商业秘密诉讼</category>
 </item>
+<item><title>OpenRouter Ships MCP Server to Strip AI Slop from Model Outputs</title><link>https://x.com/OpenRouter/status/2126425604614681050</link><guid isPermaLink="true">https://x.com/OpenRouter/status/2126425604614681050</guid>
+<pubDate>Sat, 28 Nov 2026 05:19:05 +0800</pubDate>
+<description>&lt;p&gt;OpenRouter has released an MCP server that lets users add the mcp.openrouter.ai endpoint to Claude, ChatGPT or any MCP client and then invoke Neon to rewrite a model&amp;#x27;s last message and strip its AI-slop tone. The update is a practical tooling addition that embeds output-style cleanup into existing chat workflows with minimal setup.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenRouter 上线 MCP 服务 支持一键去除 AI 味&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;展示了 MCP 生态中输出风格清洗的轻量落地方式，对日常使用 AI 对话的开发者有直接可用性。&lt;/p&gt;&lt;p&gt;OpenRouter (@OpenRouter) · tools · signal 38/100&lt;/p&gt;</description>
+<source url="https://x.com/OpenRouter/status/2126425604614681050">OpenRouter (@OpenRouter)</source>
+<category>MCP</category>
+<category>OpenRouter</category>
+<category>开发者工具</category>
+</item>
 <item><title>SessionGraph Turns Coding Agent Sessions into Interactive Graphs</title><link>https://sessiongraph.ai/</link><guid isPermaLink="true">https://sessiongraph.ai/</guid>
 <pubDate>Sat, 28 Nov 2026 05:07:34 +0800</pubDate>
 <description>&lt;p&gt;SessionGraph is a local desktop tool that reads coding agent session stores such as Claude Code, indexes them, and renders them as branching graphs with a timeline, plus search and friend comparison. Everything stays on-device, launched with a single npx command, with installers for macOS, Windows and Linux.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;SessionGraph 将编程智能体会话可视化为交互图谱&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;为编程智能体会话提供本地可视化与检索能力，对重度使用编码代理的开发者有直接实用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 52/100&lt;/p&gt;</description>
@@ -177,9 +203,9 @@
 <category>编程智能体</category>
 <category>开源项目</category>
 </item>
-<item><title>Virginia and Oregon Sue SpaceX to Halt Grok Image Generation</title><link>https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform</link><guid isPermaLink="true">https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform</guid>
+<item><title>弗吉尼亚与俄勒冈两州起诉 SpaceX 要求叫停 Grok 生成性化图像</title><link>https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform</link><guid isPermaLink="true">https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform</guid>
 <pubDate>Sat, 28 Nov 2026 03:42:25 +0800</pubDate>
-<description>&lt;p&gt;Virginia Attorney General Jay Jones and Oregon Attorney General Rayfield filed separate suits against SpaceX, parent of X, xAI and Grok, alleging the company knowingly failed to prevent Grok from producing child sexual exploitation material and non-consensual intimate images while falsely promoting platform safety. The states seek accountability and new consumer protections.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;弗吉尼亚与俄勒冈两州起诉 SpaceX 要求叫停 Grok 生成性化图像&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是针对生成式 AI 内容安全责任的州级执法行动，直接牵涉 xAI 与 Grok 的法律与合规风险。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;弗吉尼亚州总检察长 Jay Jones 与俄勒冈州总检察长 Rayfield 分别在本州法院起诉 SpaceX（X、xAI 与 Grok 的母公司），指控其明知 Grok 会生成儿童性剥削内容与非自愿私密图像却未加防护，并虚假宣传平台安全性。两州寻求问责与新的消费者保护措施。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是针对生成式 AI 内容安全责任的州级执法行动，直接牵涉 xAI 与 Grok 的法律与合规风险。&lt;/p&gt;&lt;p&gt;Hacker News AI · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform">Hacker News AI</source>
 <category>AI 监管</category>
 <category>内容安全</category>
@@ -187,26 +213,26 @@
 <category>Grok</category>
 <category>诉讼</category>
 </item>
-<item><title>OpenAI Countersues Apple Over Trade Secret Theft and Supplier Coercion</title><link>https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/</link><guid isPermaLink="true">https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/</guid>
+<item><title>OpenAI 反诉苹果窃取商业机密并胁迫共同供应商</title><link>https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/</link><guid isPermaLink="true">https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/</guid>
 <pubDate>Sat, 28 Nov 2026 03:38:37 +0800</pubDate>
-<description>&lt;p&gt;OpenAI has countersued Apple in a California court, alleging trade secret theft, coercion of shared suppliers and abuse of market power to stifle competition. The filing answers Apple&amp;#x27;s summer lawsuit over poached employees leaking confidential data, escalating a legal battle spanning talent and supply chains.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 反诉苹果窃取商业机密并胁迫共同供应商&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;两大科技巨头围绕商业机密与供应链的诉讼战升级，牵动 AI 硬件合作与人才流动格局。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 在加州法院对苹果提起反诉，指控其窃取商业机密、胁迫双方共同供应商并滥用市场支配地位打压竞争。这是继苹果今夏起诉 OpenAI 挖角泄密后的正面回击，双方围绕人才流动与供应链的诉讼战正式升级。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;两大科技巨头围绕商业机密与供应链的诉讼战升级，牵动 AI 硬件合作与人才流动格局。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 58/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/">The Decoder</source>
 <category>OpenAI</category>
 <category>Apple</category>
 <category>商业诉讼</category>
 <category>商业机密</category>
 </item>
-<item><title>Michael Nielsen Takes Down His Classic Neural Networks Book</title><link>https://twitter.com/michael_nielsen/status/2126359767362748777</link><guid isPermaLink="true">https://twitter.com/michael_nielsen/status/2126359767362748777</guid>
+<item><title>Michael Nielsen 下架其经典神经网络教材</title><link>https://twitter.com/michael_nielsen/status/2126359767362748777</link><guid isPermaLink="true">https://twitter.com/michael_nielsen/status/2126359767362748777</guid>
 <pubDate>Sat, 28 Nov 2026 03:31:01 +0800</pubDate>
-<description>&lt;p&gt;Michael Nielsen announced that he has taken down his classic online textbook Neural Networks and Deep Learning, with the original site no longer accessible. The book, which systematically covered backpropagation and deep learning fundamentals, was a widely used entry point for practitioners; no reason for the removal was given.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Michael Nielsen 下架其经典神经网络教材&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;知名深度学习教材突然下架，影响大量学习者的参考资料获取。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 38/100&lt;/p&gt;</description>
+<description>&lt;p&gt;深度学习领域知名作者 Michael Nielsen 宣布下架其经典在线教材《Neural Networks and Deep Learning》，原网址已无法访问。该书曾系统讲解反向传播与深度学习基础，是许多从业者的入门读物，此次下架原因尚未说明。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;知名深度学习教材突然下架，影响大量学习者的参考资料获取。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 38/100&lt;/p&gt;</description>
 <source url="https://twitter.com/michael_nielsen/status/2126359767362748777">Hacker News AI</source>
 <category>深度学习</category>
 <category>教材</category>
 <category>开源教育</category>
 </item>
-<item><title>Inkling 2 Mini Hits 101 Tokens per Second on a Single GB10</title><link>https://runtimenotes.com/blog/getting-101-tok-s-from-inkling-2-mini-in-vllm-on-one-gb10/</link><guid isPermaLink="true">https://runtimenotes.com/blog/getting-101-tok-s-from-inkling-2-mini-in-vllm-on-one-gb10/</guid>
+<item><title>单卡 GB10 跑 Inkling 2 Mini 达 101 tok/s</title><link>https://runtimenotes.com/blog/getting-101-tok-s-from-inkling-2-mini-in-vllm-on-one-gb10/</link><guid isPermaLink="true">https://runtimenotes.com/blog/getting-101-tok-s-from-inkling-2-mini-in-vllm-on-one-gb10/</guid>
 <pubDate>Sat, 28 Nov 2026 02:59:55 +0800</pubDate>
-<description>&lt;p&gt;The author tuned vLLM inference settings to push Inkling 2 Mini to 101 tokens per second on a single GB10 device, documenting the full tuning path and results. The post also offers a reusable inference-tuning methodology and lists next steps such as Blackwell-targeted CUTLASS kernels, a 4-bit draft head, and verifying fewer rows.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;单卡 GB10 跑 Inkling 2 Mini 达 101 tok/s&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向本地部署读者的实测调优记录，含具体配置与可复用方法论，对单卡推理优化有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;作者在单张 GB10 上通过调优 vLLM 推理配置，将 Inkling 2 Mini 的生成速度提升至 101 tok/s，并完整公开了调优路径与结果。文章还给出可复用的推理调优方法论，并列出后续可探索方向，包括为 Blackwell 编译 CUTLASS 内核、4-bit 草稿头与减少验证行数等。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向本地部署读者的实测调优记录，含具体配置与可复用方法论，对单卡推理优化有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · compute · signal 58/100&lt;/p&gt;</description>
 <source url="https://runtimenotes.com/blog/getting-101-tok-s-from-inkling-2-mini-in-vllm-on-one-gb10/">Hacker News AI</source>
 <category>vLLM</category>
 <category>推理优化</category>
@@ -239,34 +265,6 @@
 <category>Claude Code</category>
 <category>MCP</category>
 <category>后端开发</category>
-</item>
-<item><title>Meta 与 AMI Labs 三项研究力挺 LeCun 世界模型路线</title><link>https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/</link><guid isPermaLink="true">https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/</guid>
-<pubDate>Sat, 28 Nov 2026 00:58:56 +0800</pubDate>
-<description>&lt;p&gt;Yann LeCun 离开 Meta 后创办巴黎初创公司 AMI Labs 并融资逾 10 亿美元，押注 JEPA 世界模型而非大语言模型。Meta 与 AMI Labs 的三项新研究展示了该架构各模块如何衔接，同时指出物理规律仍是当前限制。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 LeCun 路线与主流大模型路线之争的关键实证进展，涉及超 10 亿美元融资与三项具体研究。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/">The Decoder</source>
-<category>世界模型</category>
-<category>JEPA</category>
-<category>Yann LeCun</category>
-<category>AMI Labs</category>
-<category>Meta</category>
-</item>
-<item><title>OpenAI 研发 Athena 数据平台 降低智能体猜测误差</title><link>https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/</link><guid isPermaLink="true">https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/</guid>
-<pubDate>Sat, 28 Nov 2026 00:05:23 +0800</pubDate>
-<description>&lt;p&gt;OpenAI 正在开发代号 Athena 的数据管理平台，形态类似语义层，为营收、客户数等业务指标提供统一定义，从而减少智能体在处理企业数据时的猜测与偏差。该平台仍处早期开发阶段，据报已有客户反映 ChatGPT Work 数据分析智能体准确度不足。Athena 还计划让智能体自动采集、记录并更新业务规则，形成比切换模型更难迁移的竞争壁垒。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;OpenAI 从模型层向数据语义层延伸，直接关系智能体在企业场景的可靠性，值得关注。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 62/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/">The Decoder</source>
-<category>智能体</category>
-<category>OpenAI</category>
-<category>企业数据</category>
-<category>语义层</category>
-</item>
-<item><title>GTA 6 泄露版遭 AI 编码代理逆向移植 PC</title><link>https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents/</link><guid isPermaLink="true">https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents/</guid>
-<pubDate>Fri, 27 Nov 2026 23:37:47 +0800</pubDate>
-<description>&lt;p&gt;GTA 6 主机版首发创下约 37.9 亿美元首日营收纪录后，泄露的 Xbox 版本被黑客组织散布，多个开发者项目正借助 AI 编码代理加速逆向工程，将游戏移植到 PC。部分非官方版本已能启动游戏并出现早期多人功能，直接冲击 Rockstar 的分阶段发售商业模式，而针对去中心化团队的法律手段收效有限。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 编码代理被用于大规模逆向工程，直接冲击头部游戏厂商的分阶段发售商业模型，是 AI 工具改变产业规则的典型案例。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 62/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents/">The Decoder</source>
-<category>AI 编码代理</category>
-<category>游戏产业</category>
-<category>逆向工程</category>
-<category>Rockstar</category>
 </item>
 </channel>
 </rss>
