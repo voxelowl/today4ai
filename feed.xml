@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 28 Nov 2026 07:59:00 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 28 Nov 2026 09:08:58 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Coding Agents Back Up Data in Only 15.2% of Tasks, Study Finds</title><link>https://x.com/rohanpaul_ai/status/2126483453986459744</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126483453986459744</guid>
+<pubDate>Sat, 28 Nov 2026 09:08:58 +0800</pubDate>
+<description>&lt;p&gt;A new Northeastern University paper finds that coding agents complete 86.1% of tasks but back up the state they are about to destroy in only 15.2% of cases, leaving package upgrades, database edits and email deletions outside the workspace unprotected. The authors built RegretBench, 205 tasks drawn from real data-loss regrets, and propose BackUpper, which intercepts every tool call and backs up at that level, covering all regret moments and restoring state to 92.2% similarity for an extra $0.014 per task.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;研究揭示编码智能体仅 15.2% 会备份数据&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次系统量化智能体破坏性操作的备份缺口，并给出可落地的工具调用级防护方案与基准。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2126483453986459744">Rohan Paul (@rohanpaul_ai)</source>
+<category>智能体</category>
+<category>数据安全</category>
+<category>基准测试</category>
+<category>编码智能体</category>
+</item>
 <item><title>Microsoft Paper Shows Coding Agents Can Tune Other Agents Autonomously</title><link>https://x.com/rohanpaul_ai/status/2126465848890269878</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126465848890269878</guid>
 <pubDate>Sat, 28 Nov 2026 07:59:00 +0800</pubDate>
 <description>&lt;p&gt;A new Microsoft paper finds that a coding agent (Claude Code, Codex, or GitHub Copilot) given only a target agent, training data, and a $5-$25 budget can autonomously edit the target&amp;#x27;s prompts, code, tools, and skills, outperforming published skill-optimization methods. Across five benchmarks with a gpt-5.4-mini target, the approach beat the best published results, from 3% on SearchQA up to 98% on LiveMath. Notably, an optimizer skill or larger budget did not reliably help, and on two benchmarks gains came from removing the model from the final agent.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;微软新论文：让编码智能体自主调优其他智能体&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出用通用编码智能体替代专用搜索循环来优化智能体技能，成本极低且效果显著，对智能体工程实践有直接启发。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
@@ -205,9 +214,9 @@
 <category>Lean 形式化</category>
 <category>模型评测</category>
 </item>
-<item><title>Banned Nvidia Blackwell Chips Found in Shanghai Data Center</title><link>https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/</link><guid isPermaLink="true">https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/</guid>
+<item><title>禁售 Nvidia Blackwell 芯片现身上海数据中心</title><link>https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/</link><guid isPermaLink="true">https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/</guid>
 <pubDate>Sat, 28 Nov 2026 02:27:02 +0800</pubDate>
-<description>&lt;p&gt;Bloomberg, citing Chinese regulatory filings, reports that two Shanghai companies deployed US-export-banned Nvidia GB300-NVL72 and GB200 servers at a Shanghai data center and pledged them as loan collateral. A serial number in a public warranty database traced the GB300 rack to Taiwanese manufacturer Gigabyte, and the firms are closely tied to Singapore-based Megaspeed, underscoring how restricted AI compute keeps reaching China without US licenses.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;禁售 Nvidia Blackwell 芯片现身上海数据中心&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;出口管制下的顶级 AI 算力实际流向再获文件级证据，直接关系算力供给与合规风险。&lt;/p&gt;&lt;p&gt;The Decoder · compute · signal 71/100&lt;/p&gt;</description>
+<description>&lt;p&gt;彭博查阅中国监管文件后发现，上海两家公司已将受美国出口管制的 Nvidia GB300-NVL72 与 GB200 服务器部署在上海一处数据中心，并用作贷款抵押物。其中 GB300 机架经公开保修数据库序列号追溯至台湾厂商技嘉，相关公司则与新加坡 Megaspeed 关系密切。这再次表明高端 AI 算力仍在绕过出口许可流入中国。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;出口管制下的顶级 AI 算力实际流向再获文件级证据，直接关系算力供给与合规风险。&lt;/p&gt;&lt;p&gt;The Decoder · compute · signal 71/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/">The Decoder</source>
 <category>Nvidia</category>
 <category>出口管制</category>
@@ -259,14 +268,6 @@
 <category>证明检查器</category>
 <category>AI 数学</category>
 <category>可靠性漏洞</category>
-</item>
-<item><title>GPT 6.2 Astra 破解一桩历史悬案</title><link>https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical</link><guid isPermaLink="true">https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical</guid>
-<pubDate>Fri, 27 Nov 2026 23:03:17 +0800</pubDate>
-<description>&lt;p&gt;文章以 GPT 6.2 Astra 破解一桩历史悬案为切入点，指出 AI 在数学等领域的进展正以远超预期的速度推进，并援引 Navier-Stokes 问题被攻克、Anthropic 数学家发布新成果等近期事件作为佐证。不过原文中段被截断，核心方法与验证细节缺失，相关主张的证据强度有限。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;涉及前沿模型能力跃迁与数学突破的宏观判断，值得关注但原文残缺、证据不足。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 62/100&lt;/p&gt;</description>
-<source url="https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical">Hacker News AI</source>
-<category>大模型</category>
-<category>数学推理</category>
-<category>AI 加速</category>
 </item>
 </channel>
 </rss>
