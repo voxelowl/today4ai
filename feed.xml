@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 28 Nov 2026 19:32:55 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 28 Nov 2026 19:42:26 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Heretic Archives Training-Free LLM Behavior Steering Tool</title><link>https://github.com/p-e-w/heretic/issues/601</link><guid isPermaLink="true">https://github.com/p-e-w/heretic/issues/601</guid>
+<pubDate>Sat, 28 Nov 2026 19:42:26 +0800</pubDate>
+<description>&lt;p&gt;The open-source Heretic project has been archived. It let users modify rather than merely run local LLMs without training, steering behavior via contrasting example prompts and matching scorers to suppress refusals, slop and sycophancy, with bitsandbytes 4-bit quantization and a plugin system for custom scorers and modifiers. The repository gives no reason for archival beyond a link to a GitHub issue.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Heretic 项目归档 免训练模型行为修改工具停更&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;免训练模型行为修改是本地开源模型定制的重要技术路线，项目归档意味着该工具链停止维护，对依赖它的开发者有实际影响。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
+<source url="https://github.com/p-e-w/heretic/issues/601">Hacker News AI</source>
+<category>开源项目</category>
+<category>模型微调</category>
+<category>本地部署</category>
+</item>
 <item><title>Game Science CEO Says AI Detaches Intelligence From the Human Body</title><link>https://www.ithome.com/1/033/986.htm</link><guid isPermaLink="true">https://www.ithome.com/1/033/986.htm</guid>
 <pubDate>Sat, 28 Nov 2026 19:32:55 +0800</pubDate>
 <description>&lt;p&gt;Game Science founder Feng Ji published an 8,000-word essay arguing that AI breaks the centuries-old biological bottleneck that tied intelligence to individual human bodies, turning intelligence from a labor input into a replicable capital asset. He says this undermines the social contract of study, skill and income, extending his earlier claims about AIGC and the scale of content production.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;冯骥长文研判 AI 让智力首次脱离肉身成为资本要素&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;头部游戏制作人对 AI 冲击劳动力与社会契约的系统性判断，属高关注度行业观点。&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代 · industry · signal 58/100&lt;/p&gt;</description>
@@ -201,9 +209,9 @@
 <category>数据市场</category>
 <category>G2i</category>
 </item>
-<item><title>Unkernel Runs a Real Linux Kernel Inside the Browser via WebAssembly</title><link>https://unkernel.dev</link><guid isPermaLink="true">https://unkernel.dev</guid>
+<item><title>Unkernel 将真实 Linux 内核编译进浏览器 WebAssembly</title><link>https://unkernel.dev</link><guid isPermaLink="true">https://unkernel.dev</guid>
 <pubDate>Sat, 28 Nov 2026 11:19:20 +0800</pubDate>
-<description>&lt;p&gt;Unkernel compiles a real Linux kernel to WebAssembly and boots Debian directly in the browser, supporting SMP multi-core execution, JIT-accelerated guest code and streamed disk images. It demonstrates the browser as a viable lightweight virtualization runtime for zero-install Linux environments and web-based development.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Unkernel 将真实 Linux 内核编译进浏览器 WebAssembly&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把完整 Linux 内核搬进浏览器是 WebAssembly 系统级应用的重要实践，对开发者工具与边缘运行时选型有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Unkernel 把真实 Linux 内核编译为 WebAssembly，在浏览器中启动 Debian 系统，支持多核 SMP、JIT 加速与流式挂载磁盘镜像。它展示了浏览器作为轻量虚拟化运行时的可行性，为免安装的 Linux 环境与 Web 端开发调试提供了新路径。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;把完整 Linux 内核搬进浏览器是 WebAssembly 系统级应用的重要实践，对开发者工具与边缘运行时选型有直接参考价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 62/100&lt;/p&gt;</description>
 <source url="https://unkernel.dev">Hacker News AI</source>
 <category>WebAssembly</category>
 <category>Linux</category>
@@ -261,15 +269,6 @@
 <category>智能体</category>
 <category>数据安全</category>
 <category>基准测试</category>
-<category>编码智能体</category>
-</item>
-<item><title>微软新论文：让编码智能体自主调优其他智能体</title><link>https://x.com/rohanpaul_ai/status/2126465848890269878</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126465848890269878</guid>
-<pubDate>Sat, 28 Nov 2026 07:59:00 +0800</pubDate>
-<description>&lt;p&gt;微软研究院一篇新论文发现，只需给编码智能体（Claude Code、Codex 或 GitHub Copilot）一个目标智能体、训练数据和 5 至 25 美元预算，并仅要求它提升评分，它就能自主修改目标智能体的提示词、代码、工具与技能，效果超过已发表的技能优化方法。在 5 个基准上，以 gpt-5.4-mini 为目标模型，该方法全面超越最佳公开结果，其中 SearchQA 提升 3%，LiveMath 提升高达 98%。值得注意的是，额外提供优化器技能或加大预算并未稳定带来增益，部分提升甚至来自把模型从最终智能体中移除。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出用通用编码智能体替代专用搜索循环来优化智能体技能，成本极低且效果显著，对智能体工程实践有直接启发。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2126465848890269878">Rohan Paul (@rohanpaul_ai)</source>
-<category>智能体</category>
-<category>微软</category>
-<category>技能优化</category>
 <category>编码智能体</category>
 </item>
 </channel>
