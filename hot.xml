@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Sat, 28 Nov 2026 12:11:31 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 28 Nov 2026 12:21:13 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
 <item><title>蚂蚁灵波开源 LingBot-Map 2.0 轨迹误差骤降 85%</title><link>https://todayforai.com/en/story/story-291f2171-22b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-291f2171-22b</guid>
 <pubDate>Fri, 27 Nov 2026 16:39:49 +0800</pubDate>
@@ -10,6 +10,10 @@
 LingBot-Navi 则构建了可跨任务复用的三维空间记忆，机器人无需预先建图，在探索中自建包含布局、物体位置与可通行路径的 3D 记忆，并将 3D 表面位置与视觉语言特征配对，从而定位视野外的目标。系统由场景级规划器负责全局路线预测，局部规划器负责避障与到达判定，推理全程在设备端完成。两款模型的权重、技术报告、代码及 511 个真实场景数据集已全面开源。
 
 此次发布直指机器人在真实场所长期自主作业的两大瓶颈：建图漂移与经验无法复用。LingBot-Map 2.0 的 Refine 步骤可随时修正空间记忆并将结果写回缓存，供后续帧复用，使机器人边走边建图并实时纠错；LingBot-Navi 让机器人到访一次即可复用环境地图，同一场景内效率随使用提升。前代 LingBot-Map 1.0 于今年 4 月开源后 GitHub Star 已超 1.9 万，生态基础扎实，新模型有望进一步推动具身智能在家庭、仓储等场景的落地。&lt;/p&gt;&lt;p&gt;4 sources&lt;/p&gt;&lt;p&gt;量子位官网, Rohan Paul (@rohanpaul_ai), 新智元 (微信公众号), InfoQ 中文&lt;/p&gt;</description>
+</item>
+<item><title>马斯克称 Grok Bot 目标是让用户构建完整公司</title><link>https://todayforai.com/en/story/story-d104c989-ec0</link><guid isPermaLink="true">https://todayforai.com/en/story/story-d104c989-ec0</guid>
+<pubDate>Sat, 28 Nov 2026 12:21:13 +0800</pubDate>
+<description>&lt;p&gt;马斯克在 X 上表示，Grok Bot 的核心设计是让用户像经营真实企业一样，为不同职能配置专属 Bot，并设置管理 Bot 协调其余 Bot 的工作。他称该产品的终极目标是让用户能够构建完整的公司。Grok Bot 于 2026 年 8 月以测试版上线，定位为可执行任务的 AI 智能体，无免费层级。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;IT之家 · 智能时代&lt;/p&gt;</description>
 </item>
 <item><title>OpenRouter 数据揭示 AI 推理需求价格弹性减弱</title><link>https://todayforai.com/en/story/story-044129a8-530</link><guid isPermaLink="true">https://todayforai.com/en/story/story-044129a8-530</guid>
 <pubDate>Fri, 27 Nov 2026 05:46:36 +0800</pubDate>
@@ -46,10 +50,6 @@ SAP 的举措是当前企业软件行业 AI 转型浪潮的缩影。Oracle 在�
 <item><title>Cognition 智能体零人工代码交付完整安卓应用</title><link>https://todayforai.com/en/story/story-6fcc5af3-949</link><guid isPermaLink="true">https://todayforai.com/en/story/story-6fcc5af3-949</guid>
 <pubDate>Sat, 28 Nov 2026 12:11:31 +0800</pubDate>
 <description>&lt;p&gt;Cognition CEO Scott Wu 披露，公司一款完整安卓应用从克隆 iOS 版本、同步新功能到测试与发版全部由 Devin 智能体自主完成，全程无人类写码或干预。他同时称花旗银行预计 2026 年仅靠 Devin 就能节省约 15 亿美元，这是目前智能体落地最具量级的公开案例之一。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
-</item>
-<item><title>微软新论文：让编码智能体自主调优其他智能体</title><link>https://todayforai.com/en/story/story-e6376899-1ec</link><guid isPermaLink="true">https://todayforai.com/en/story/story-e6376899-1ec</guid>
-<pubDate>Sat, 28 Nov 2026 07:59:00 +0800</pubDate>
-<description>&lt;p&gt;微软研究院一篇新论文发现，只需给编码智能体（Claude Code、Codex 或 GitHub Copilot）一个目标智能体、训练数据和 5 至 25 美元预算，并仅要求它提升评分，它就能自主修改目标智能体的提示词、代码、工具与技能，效果超过已发表的技能优化方法。在 5 个基准上，以 gpt-5.4-mini 为目标模型，该方法全面超越最佳公开结果，其中 SearchQA 提升 3%，LiveMath 提升高达 98%。值得注意的是，额外提供优化器技能或加大预算并未稳定带来增益，部分提升甚至来自把模型从最终智能体中移除。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
