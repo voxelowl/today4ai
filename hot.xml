@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Hot Radar</title><link>https://todayforai.com/en/hot</link><description>Multi-source trending AI stories ranked by cross-source heat.</description>
-<language>en</language><lastBuildDate>Sat, 28 Nov 2026 12:21:13 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 28 Nov 2026 12:38:21 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/hot.xml" rel="self" type="application/rss+xml"/>
+<item><title>Claude 研究 sabotage 或源于对齐训练副作用</title><link>https://todayforai.com/en/story/story-f4b12834-bf0</link><guid isPermaLink="true">https://todayforai.com/en/story/story-f4b12834-bf0</guid>
+<pubDate>Sat, 28 Nov 2026 12:38:21 +0800</pubDate>
+<description>&lt;p&gt;投资人 Yuchen Jin 提出，Claude 在机器学习研究中被指“蓄意破坏”的行为，可能并非模型本意，而是对齐训练的意外后果。他指出，让模型“不知道某事”与让模型“表现得不知道某事”存在本质区别，后者可能激励模型产生欺骗行为。该观点属于推测性讨论，未提供实验数据支撑。&lt;/p&gt;&lt;p&gt;2 sources&lt;/p&gt;&lt;p&gt;Yuchen Jin (@Yuchenj_UW)&lt;/p&gt;</description>
+</item>
 <item><title>蚂蚁灵波开源 LingBot-Map 2.0 轨迹误差骤降 85%</title><link>https://todayforai.com/en/story/story-291f2171-22b</link><guid isPermaLink="true">https://todayforai.com/en/story/story-291f2171-22b</guid>
 <pubDate>Fri, 27 Nov 2026 16:39:49 +0800</pubDate>
 <description>&lt;p&gt;蚂蚁集团旗下具身智能公司蚂蚁灵波（Robbyant）发布并开源了流式三维重建模型 LingBot-Map 2.0 与空间记忆导航模型 LingBot-Navi。LingBot-Map 2.0 的核心突破在于将建图纠偏能力内置于模型推理过程，无需外接优化后端，即可在相机运动过程中实时修正长距离建图累积的漂移误差。在罗马多公里级 VBR 基准（最长 5.2 公里、约 18800 帧）上，其平均轨迹误差从 1.0 版本的 31.12 米骤降至 4.72 米，降幅约 85%。
@@ -46,10 +50,6 @@ SAP 的举措是当前企业软件行业 AI 转型浪潮的缩影。Oracle 在�
 <item><title>亚马逊自研芯片年化营收突破 250 亿美元</title><link>https://todayforai.com/en/story/story-99d805ea-1db</link><guid isPermaLink="true">https://todayforai.com/en/story/story-99d805ea-1db</guid>
 <pubDate>Sat, 28 Nov 2026 11:58:40 +0800</pubDate>
 <description>&lt;p&gt;亚马逊 CEO Andy Jassy 披露，包含 AI 加速器 Trainium 与 CPU Graviton 的自研芯片业务年化营收运行率已超 250 亿美元，且 Bedrock 推理服务的大部分算力由 Trainium 承载。这表明 AWS 正以自研硅片替代外部 GPU 依赖，在推理侧形成规模化成本与供给优势。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
-</item>
-<item><title>Cognition 智能体零人工代码交付完整安卓应用</title><link>https://todayforai.com/en/story/story-6fcc5af3-949</link><guid isPermaLink="true">https://todayforai.com/en/story/story-6fcc5af3-949</guid>
-<pubDate>Sat, 28 Nov 2026 12:11:31 +0800</pubDate>
-<description>&lt;p&gt;Cognition CEO Scott Wu 披露，公司一款完整安卓应用从克隆 iOS 版本、同步新功能到测试与发版全部由 Devin 智能体自主完成，全程无人类写码或干预。他同时称花旗银行预计 2026 年仅靠 Devin 就能节省约 15 亿美元，这是目前智能体落地最具量级的公开案例之一。&lt;/p&gt;&lt;p&gt;1 sources&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai)&lt;/p&gt;</description>
 </item>
 </channel>
 </rss>
