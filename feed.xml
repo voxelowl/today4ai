@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 28 Nov 2026 19:42:26 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 28 Nov 2026 19:57:04 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Five Malicious GGUF Models on Hugging Face Log 2,428 Downloads</title><link>https://malspark.com/blog/malicious-gguf-models-hugging-face/</link><guid isPermaLink="true">https://malspark.com/blog/malicious-gguf-models-hugging-face/</guid>
+<pubDate>Sat, 28 Nov 2026 19:57:04 +0800</pubDate>
+<description>&lt;p&gt;A scan of all 3.27 million public Hugging Face model repositories found five malicious GGUF models with 2,428 downloads. Attackers abused chat templates to inject invisible instructions, and in the largest Mir2k campaign hid a Windows RAT named ollie after the last tensor, then rewrote templates to trick users into running the unpacking command.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Hugging Face 5 个恶意 GGUF 模型下载 2428 次&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次系统性量化 GGUF 聊天模板投毒攻击面，揭示本地大模型分发链路的新型供应链风险。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 78/100&lt;/p&gt;</description>
+<source url="https://malspark.com/blog/malicious-gguf-models-hugging-face/">Hacker News AI</source>
+<category>开源生态</category>
+<category>模型安全</category>
+<category>供应链攻击</category>
+<category>GGUF</category>
+</item>
 <item><title>Heretic Archives Training-Free LLM Behavior Steering Tool</title><link>https://github.com/p-e-w/heretic/issues/601</link><guid isPermaLink="true">https://github.com/p-e-w/heretic/issues/601</guid>
 <pubDate>Sat, 28 Nov 2026 19:42:26 +0800</pubDate>
 <description>&lt;p&gt;The open-source Heretic project has been archived. It let users modify rather than merely run local LLMs without training, steering behavior via contrasting example prompts and matching scorers to suppress refusals, slop and sycophancy, with bitsandbytes 4-bit quantization and a plugin system for custom scorers and modifiers. The repository gives no reason for archival beyond a link to a GitHub issue.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Heretic 项目归档 免训练模型行为修改工具停更&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;免训练模型行为修改是本地开源模型定制的重要技术路线，项目归档意味着该工具链停止维护，对依赖它的开发者有实际影响。&lt;/p&gt;&lt;p&gt;Hacker News AI · opensource · signal 58/100&lt;/p&gt;</description>
@@ -261,15 +270,6 @@
 <category>亚马逊</category>
 <category>AWS</category>
 <category>云服务</category>
-</item>
-<item><title>研究揭示编码智能体仅 15.2% 会备份数据</title><link>https://x.com/rohanpaul_ai/status/2126483453986459744</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126483453986459744</guid>
-<pubDate>Sat, 28 Nov 2026 09:08:58 +0800</pubDate>
-<description>&lt;p&gt;东北大学新论文发现，编码智能体虽能完成 86.1% 的任务，但在执行破坏性操作前仅 15.2% 会备份即将被覆盖的状态，工作区之外的包升级、数据库修改和邮件删除尤其缺乏保护。作者构建了包含 205 个真实后悔案例的 RegretBench，并提出 BackUpper 方案，在工具调用层拦截并备份，使全部后悔时刻均有备份覆盖，状态恢复相似度达 92.2%，每任务额外成本仅 0.014 美元。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;首次系统量化智能体破坏性操作的备份缺口，并给出可落地的工具调用级防护方案与基准。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
-<source url="https://x.com/rohanpaul_ai/status/2126483453986459744">Rohan Paul (@rohanpaul_ai)</source>
-<category>智能体</category>
-<category>数据安全</category>
-<category>基准测试</category>
-<category>编码智能体</category>
 </item>
 </channel>
 </rss>
