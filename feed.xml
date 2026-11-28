@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel><title>Today for AI — Latest Intelligence</title><link>https://todayforai.com/en/news</link><description>Curated frontier AI news, 24h window, from todayforai.com.</description>
-<language>en</language><lastBuildDate>Sat, 28 Nov 2026 07:12:29 +0800</lastBuildDate><ttl>10</ttl>
+<language>en</language><lastBuildDate>Sat, 28 Nov 2026 07:59:00 +0800</lastBuildDate><ttl>10</ttl>
 <atom:link href="https://raw.githubusercontent.com/voxelowl/today4ai/main/feed.xml" rel="self" type="application/rss+xml"/>
+<item><title>Microsoft Paper Shows Coding Agents Can Tune Other Agents Autonomously</title><link>https://x.com/rohanpaul_ai/status/2126465848890269878</link><guid isPermaLink="true">https://x.com/rohanpaul_ai/status/2126465848890269878</guid>
+<pubDate>Sat, 28 Nov 2026 07:59:00 +0800</pubDate>
+<description>&lt;p&gt;A new Microsoft paper finds that a coding agent (Claude Code, Codex, or GitHub Copilot) given only a target agent, training data, and a $5-$25 budget can autonomously edit the target&amp;#x27;s prompts, code, tools, and skills, outperforming published skill-optimization methods. Across five benchmarks with a gpt-5.4-mini target, the approach beat the best published results, from 3% on SearchQA up to 98% on LiveMath. Notably, an optimizer skill or larger budget did not reliably help, and on two benchmarks gains came from removing the model from the final agent.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;微软新论文：让编码智能体自主调优其他智能体&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;提出用通用编码智能体替代专用搜索循环来优化智能体技能，成本极低且效果显著，对智能体工程实践有直接启发。&lt;/p&gt;&lt;p&gt;Rohan Paul (@rohanpaul_ai) · agent · signal 78/100&lt;/p&gt;</description>
+<source url="https://x.com/rohanpaul_ai/status/2126465848890269878">Rohan Paul (@rohanpaul_ai)</source>
+<category>智能体</category>
+<category>微软</category>
+<category>技能优化</category>
+<category>编码智能体</category>
+</item>
+<item><title>datasette-charts 0.4a0 Ships Smoother Chart Plugin Hooks</title><link>https://simonwillison.net/2026/Nov/27/datasette-charts/</link><guid isPermaLink="true">https://simonwillison.net/2026/Nov/27/datasette-charts/</guid>
+<pubDate>Sat, 28 Nov 2026 07:57:17 +0800</pubDate>
+<description>&lt;p&gt;datasette-charts released version 0.4a0, addressing friction points in its chart-type plugin hook so third-party developers can build custom chart plugins more ergonomically. It also launched an official site with a plugin author tutorial and a gallery of core charts linking to interactive Datasette Lite demos.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;datasette-charts 0.4a0 发布 优化图表插件开发体验&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;面向 Datasette 生态开发者的可视化插件更新，扩展了图表类型钩子的可用性。&lt;/p&gt;&lt;p&gt;Simon Willison 博客 · tools · signal 38/100&lt;/p&gt;</description>
+<source url="https://simonwillison.net/2026/Nov/27/datasette-charts/">Simon Willison 博客</source>
+<category>datasette</category>
+<category>数据可视化</category>
+<category>开源插件</category>
+</item>
 <item><title>OpenAI Countersues Apple Alleging Trade Secret Theft and Supplier Coercion</title><link>https://www.ithome.com/1/033/780.htm</link><guid isPermaLink="true">https://www.ithome.com/1/033/780.htm</guid>
 <pubDate>Sat, 28 Nov 2026 07:12:29 +0800</pubDate>
 <description>&lt;p&gt;OpenAI has filed a countersuit against Apple in the ongoing trade secret dispute, alleging that an Apple employee carried detailed OpenAI hardware documents back to Apple and that Apple coerced suppliers to stifle competition as OpenAI prepares to launch an AI device. OpenAI argues the original suit is aimed at blocking talent poaching rather than protecting secrets.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 反诉苹果窃密并指控其胁迫供应商&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;两大科技巨头围绕 AI 硬件与人才展开法律互诉，牵动供应链与竞争格局。&lt;/p&gt;&lt;p&gt;IT之家 · IT业界 · industry · signal 58/100&lt;/p&gt;</description>
@@ -11,6 +28,15 @@
 <category>苹果</category>
 <category>商业诉讼</category>
 <category>AI 硬件</category>
+</item>
+<item><title>Google DeepCrossAttention Delivers Same Quality Up to 3x Faster</title><link>https://research.google/blog/supercharging-transformer-residual-connections/</link><guid isPermaLink="true">https://research.google/blog/supercharging-transformer-residual-connections/</guid>
+<pubDate>Sat, 28 Nov 2026 07:06:29 +0800</pubDate>
+<description>&lt;p&gt;Google Research introduces DeepCrossAttention (DCA), which uses learnable weights and depth-wise cross-attention to dynamically combine outputs from earlier layers, mitigating information dilution and vanishing gradients in standard residual connections. Published at ICML 2025, the approach reaches equivalent model quality up to 3x faster with negligible parameter overhead.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;谷歌 DeepCrossAttention 架构实现同等质量提速 3 倍&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是对 transformer 基础残差连接的通用架构改进，且给出 3 倍训练提速的明确量级，对关注大模型训练效率的读者有直接价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 74/100&lt;/p&gt;</description>
+<source url="https://research.google/blog/supercharging-transformer-residual-connections/">Hacker News AI</source>
+<category>大模型</category>
+<category>模型架构</category>
+<category>谷歌</category>
+<category>训练效率</category>
 </item>
 <item><title>Tabernetes Turns Every Browser Tab into a Kubernetes Node</title><link>https://tabernet.es/</link><guid isPermaLink="true">https://tabernet.es/</guid>
 <pubDate>Sat, 28 Nov 2026 07:00:30 +0800</pubDate>
@@ -188,18 +214,18 @@
 <category>算力基础设施</category>
 <category>芯片</category>
 </item>
-<item><title>Convex Ships Official Claude Code Plugin for Backend Development</title><link>https://github.com/convex/convex-backend-skill/issues/64</link><guid isPermaLink="true">https://github.com/convex/convex-backend-skill/issues/64</guid>
+<item><title>Convex 发布 Claude Code 官方插件 一键接入后端开发</title><link>https://github.com/convex/convex-backend-skill/issues/64</link><guid isPermaLink="true">https://github.com/convex/convex-backend-skill/issues/64</guid>
 <pubDate>Sat, 28 Nov 2026 02:02:45 +0800</pubDate>
-<description>&lt;p&gt;Convex released an official Claude Code plugin bundling a backend design skill, a live-scaffolding quickstart skill, the convex-expert subagent, a runtime error monitor and the Convex MCP server in a single install. Once installed, Claude automatically routes backend requests toward Convex idioms such as @convex-dev/agent, Convex Auth, reactive queries and the workflow component instead of generic patterns.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Convex 发布 Claude Code 官方插件 一键接入后端开发&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是把后端平台能力封装进编码智能体工作流的典型插件化实践，对使用 Claude Code 的开发者有直接可用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Convex 推出面向 Claude Code 的官方插件，将后端设计技能、quickstart 实时脚手架、convex-expert 子代理、运行时错误监控与 Convex MCP 服务器打包为一次安装。安装后 Claude 会自动采用 Convex 惯用组件（如 @convex-dev/agent、Convex Auth、响应式查询与工作流组件），而非通用模板化写法。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是把后端平台能力封装进编码智能体工作流的典型插件化实践，对使用 Claude Code 的开发者有直接可用价值。&lt;/p&gt;&lt;p&gt;Hacker News AI · tools · signal 58/100&lt;/p&gt;</description>
 <source url="https://github.com/convex/convex-backend-skill/issues/64">Hacker News AI</source>
 <category>开发者工具</category>
 <category>Claude Code</category>
 <category>MCP</category>
 <category>后端开发</category>
 </item>
-<item><title>Meta and AMI Labs Studies Back LeCun&#x27;s JEPA World Model Bet</title><link>https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/</link><guid isPermaLink="true">https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/</guid>
+<item><title>Meta 与 AMI Labs 三项研究力挺 LeCun 世界模型路线</title><link>https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/</link><guid isPermaLink="true">https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/</guid>
 <pubDate>Sat, 28 Nov 2026 00:58:56 +0800</pubDate>
-<description>&lt;p&gt;After leaving Meta, Yann LeCun co-founded Paris-based AMI Labs and raised over $1 billion to pursue JEPA world models instead of large language models. Three new studies from Meta and AMI Labs show how the architecture&amp;#x27;s components fit together, while physics remains a limiting factor.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;Meta 与 AMI Labs 三项研究力挺 LeCun 世界模型路线&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 LeCun 路线与主流大模型路线之争的关键实证进展，涉及超 10 亿美元融资与三项具体研究。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
+<description>&lt;p&gt;Yann LeCun 离开 Meta 后创办巴黎初创公司 AMI Labs 并融资逾 10 亿美元，押注 JEPA 世界模型而非大语言模型。Meta 与 AMI Labs 的三项新研究展示了该架构各模块如何衔接，同时指出物理规律仍是当前限制。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 LeCun 路线与主流大模型路线之争的关键实证进展，涉及超 10 亿美元融资与三项具体研究。&lt;/p&gt;&lt;p&gt;The Decoder · llm · signal 78/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/">The Decoder</source>
 <category>世界模型</category>
 <category>JEPA</category>
@@ -207,18 +233,18 @@
 <category>AMI Labs</category>
 <category>Meta</category>
 </item>
-<item><title>OpenAI Builds Athena Data Platform to Reduce AI Agent Guesswork</title><link>https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/</link><guid isPermaLink="true">https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/</guid>
+<item><title>OpenAI 研发 Athena 数据平台 降低智能体猜测误差</title><link>https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/</link><guid isPermaLink="true">https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/</guid>
 <pubDate>Sat, 28 Nov 2026 00:05:23 +0800</pubDate>
-<description>&lt;p&gt;OpenAI is developing a data management platform codenamed Athena that works like a semantic layer, giving consistent definitions for business metrics such as revenue and customer count so agents guess less when handling enterprise data. The platform is still in early development, and at least one customer reportedly found ChatGPT Work&amp;#x27;s data analysis agent insufficiently accurate. Athena is also meant to let agents collect, document and update business rules, creating a switching cost that is harder to overcome than swapping models.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;OpenAI 研发 Athena 数据平台 降低智能体猜测误差&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;OpenAI 从模型层向数据语义层延伸，直接关系智能体在企业场景的可靠性，值得关注。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;OpenAI 正在开发代号 Athena 的数据管理平台，形态类似语义层，为营收、客户数等业务指标提供统一定义，从而减少智能体在处理企业数据时的猜测与偏差。该平台仍处早期开发阶段，据报已有客户反映 ChatGPT Work 数据分析智能体准确度不足。Athena 还计划让智能体自动采集、记录并更新业务规则，形成比切换模型更难迁移的竞争壁垒。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;OpenAI 从模型层向数据语义层延伸，直接关系智能体在企业场景的可靠性，值得关注。&lt;/p&gt;&lt;p&gt;The Decoder · agent · signal 62/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/">The Decoder</source>
 <category>智能体</category>
 <category>OpenAI</category>
 <category>企业数据</category>
 <category>语义层</category>
 </item>
-<item><title>AI Coding Agents Speed Up Unofficial GTA 6 PC Port After Leak</title><link>https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents/</link><guid isPermaLink="true">https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents/</guid>
+<item><title>GTA 6 泄露版遭 AI 编码代理逆向移植 PC</title><link>https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents/</link><guid isPermaLink="true">https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents/</guid>
 <pubDate>Fri, 27 Nov 2026 23:37:47 +0800</pubDate>
-<description>&lt;p&gt;Days after GTA 6&amp;#x27;s record console launch, a leaked Xbox build has been distributed and multiple developer projects are using AI coding agents to accelerate reverse engineering for an unofficial PC port. Some builds already boot the game and show early multiplayer features, pressuring Rockstar&amp;#x27;s staggered release model while legal action against decentralized groups proves largely ineffective.&lt;/p&gt;&lt;p&gt;&lt;i&gt;原文标题：&lt;/i&gt;GTA 6 泄露版遭 AI 编码代理逆向移植 PC&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 编码代理被用于大规模逆向工程，直接冲击头部游戏厂商的分阶段发售商业模型，是 AI 工具改变产业规则的典型案例。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 62/100&lt;/p&gt;</description>
+<description>&lt;p&gt;GTA 6 主机版首发创下约 37.9 亿美元首日营收纪录后，泄露的 Xbox 版本被黑客组织散布，多个开发者项目正借助 AI 编码代理加速逆向工程，将游戏移植到 PC。部分非官方版本已能启动游戏并出现早期多人功能，直接冲击 Rockstar 的分阶段发售商业模式，而针对去中心化团队的法律手段收效有限。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;AI 编码代理被用于大规模逆向工程，直接冲击头部游戏厂商的分阶段发售商业模型，是 AI 工具改变产业规则的典型案例。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 62/100&lt;/p&gt;</description>
 <source url="https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents/">The Decoder</source>
 <category>AI 编码代理</category>
 <category>游戏产业</category>
@@ -241,33 +267,6 @@
 <category>大模型</category>
 <category>数学推理</category>
 <category>AI 加速</category>
-</item>
-<item><title>SAP 拟裁员至少 1 万人全面转向 AI</title><link>https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/</link><guid isPermaLink="true">https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/</guid>
-<pubDate>Fri, 27 Nov 2026 22:57:25 +0800</pubDate>
-<description>&lt;p&gt;SAP 计划裁减至少 1 万个岗位，占其全球逾 11 万员工的至少 9%，产品研发、工程与销售部门受影响最大。这是继 2024 年裁撤约 1 万人后的新一轮 AI 重组，CEO Christian Klein 希望将 AI 工具嵌入全线产品。最终人数尚未确定，德国区员工享有至 2028 年的就业保障。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;企业软件巨头以万人级裁员换取 AI 转型，是 AI 重塑大型科技公司组织结构的标志性事件。&lt;/p&gt;&lt;p&gt;The Decoder · industry · signal 78/100&lt;/p&gt;</description>
-<source url="https://the-decoder.com/sap-plans-to-cut-at-least-10000-jobs-as-it-pivots-to-ai/">The Decoder</source>
-<category>企业软件</category>
-<category>裁员</category>
-<category>AI 转型</category>
-<category>SAP</category>
-</item>
-<item><title>斯坦福物理学家借助 GPT-6 提出量子引力新理论</title><link>https://thequantuminsider.com/2026/11/26/stanford-physicist-uses-ai-to-tackle-quantum-gravity-problem/</link><guid isPermaLink="true">https://thequantuminsider.com/2026/11/26/stanford-physicist-uses-ai-to-tackle-quantum-gravity-problem/</guid>
-<pubDate>Fri, 27 Nov 2026 22:55:57 +0800</pubDate>
-<description>&lt;p&gt;斯坦福物理学家 Venkatesa Chandrasekaran 提出一种利用光路径计算时空涨落的量子引力理论，对原本发散的引力子对计算给出了有限结果，并复现了黑洞熵的已知量子修正。他表示其中多项计算与证明是在与 OpenAI GPT-6 Astra 协作数月、消耗约 4 亿 token 后完成的，展示了前沿模型在理论物理推导中的实质参与。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;这是 AI 深度参与理论物理推导的罕见具体案例，兼具科学增量与模型能力信号。&lt;/p&gt;&lt;p&gt;Hacker News AI · llm · signal 78/100&lt;/p&gt;</description>
-<source url="https://thequantuminsider.com/2026/11/26/stanford-physicist-uses-ai-to-tackle-quantum-gravity-problem/">Hacker News AI</source>
-<category>量子引力</category>
-<category>GPT-6</category>
-<category>AI for Science</category>
-<category>理论物理</category>
-</item>
-<item><title>众擎开放大小脑并推 10 亿元生态支持计划</title><link>https://www.qbitai.com/2026/11/513352.html</link><guid isPermaLink="true">https://www.qbitai.com/2026/11/513352.html</guid>
-<pubDate>Fri, 27 Nov 2026 22:07:33 +0800</pubDate>
-<description>&lt;p&gt;众擎在 2026 全球开发者大会上宣布向生态伙伴开放机器人本体、数据与算力，并联合河南投资集团、元禾辰坤等设立 10 亿元产业级支持计划。CEO 赵同阳判断 2027 年是人形机器人从整机量产走向商业化应用的关键节点，主张厂商只做通用平台、由行业伙伴补齐场景 Know-how。这是国内具身智能厂商以开放平台争夺开发者生态的又一动作，但具体开放接口、数据规模与资金落地细则尚未披露。&lt;/p&gt;&lt;p&gt;&lt;i&gt;Why it matters：&lt;/i&gt;国内人形机器人厂商以 10 亿元资金加本体、数据、算力开放争夺开发者生态，是具身智能竞争从本体转向平台的关键信号。&lt;/p&gt;&lt;p&gt;量子位官网 · industry · signal 58/100&lt;/p&gt;</description>
-<source url="https://www.qbitai.com/2026/11/513352.html">量子位官网</source>
-<category>具身智能</category>
-<category>人形机器人</category>
-<category>开发者生态</category>
-<category>众擎</category>
 </item>
 </channel>
 </rss>
